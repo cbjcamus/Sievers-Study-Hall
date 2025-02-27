@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konnektoren</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
+    <script>
+        window.onload = function() {
+            document.getElementById("answer")?.focus();
+        };
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("answer")?.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("submit-button")?.click();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Konnektoren</h1>
+    <h2>Level 1</h2>
+    {% if question %}
+        <p>What is the translation of the following connector:</p>
+        <p><strong>{{ question }}</strong></p>
+    <form action="{{ url_for('check_answer', exercise=exercise, level=level) }}" method="post">
+            <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter translation here" required>
+            <input type="hidden" name="nr" value="{{ nr }}">
+            <br>
+            <button type="submit" id="submit-button" class="button">Submit</button>
+        </form>
+    {% endif %}
+
+    {% if result %}
+        <div class="result">
+            {% if result == 'correct' %}
+                <p>Correct</p>
+                <p>{{ previous_question }} = {{ correct_answer }}</p>
+            {% else %}
+                <p>Incorrect</p>
+                <p>{{ previous_question }} = {{ correct_answer }}</p>
+                <p>Your answer: {{ user_answer }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+</body>
+</html>

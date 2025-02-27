@@ -1,0 +1,1368 @@
+Nr,level,german,english,type,answer,question,case,gender
+1,1,Das Ende ist nah.,,,Das,_____ Ende ist nah.,nominative,neuter
+2,1,Die Million ist viel Geld.,,,Die,_____ Million ist viel Geld.,nominative,feminine
+3,1,Die Schule ist groß.,,,Die,_____ Schule ist groß.,nominative,feminine
+4,1,Die Woche hat sieben Tage.,,,Die,_____ Woche hat sieben Tage.,nominative,feminine
+5,1,Der Vater ist müde.,,,Der,_____ Vater ist müde.,nominative,masculine
+6,1,Die Seite ist weiß.,,,Die,_____ Seite ist weiß.,nominative,feminine
+7,1,Das Leben ist schön.,,,Das,_____ Leben ist schön.,nominative,neuter
+8,1,Die Mutter ist nett.,,,Die,_____ Mutter ist nett.,nominative,feminine
+9,1,Das Auge ist blau.,,,Das,_____ Auge ist blau.,nominative,neuter
+10,1,Die Wörter sind lang.,,,Die,_____ Wörter sind lang.,nominative,plural
+11,1,Das Geld ist wichtig.,,,Das,_____ Geld ist wichtig.,nominative,neuter
+12,1,Der Weg ist lang.,,,Der,_____ Weg ist lang.,nominative,masculine
+13,1,Die Stunde dauert sechzig Minuten.,,,Die,_____ Stunde dauert sechzig Minuten.,nominative,feminine
+14,1,Der Name ist bekannt.,,,Der,_____ Name ist bekannt.,nominative,masculine
+15,1,Der Kopf tut weh.,,,Der,_____ Kopf tut weh.,nominative,masculine
+16,1,Das Paar ist glücklich.,,,Das,_____ Paar ist glücklich.,nominative,neuter
+17,1,Das Unternehmen ist groß.,,,Das,_____ Unternehmen ist groß.,nominative,neuter
+18,1,Das Bild ist schön.,,,Das,_____ Bild ist schön.,nominative,neuter
+19,1,Das Buch ist spannend.,,,Das,_____ Buch ist spannend.,nominative,neuter
+20,1,Die Wasser sind kalt.,,,Die,_____ Wasser sind kalt.,nominative,plural
+21,1,Die Straße ist lang.,,,Die,_____ Straße ist lang.,nominative,feminine
+22,1,Die Minute ist kurz.,,,Die,_____ Minute ist kurz.,nominative,feminine
+23,1,Die Gruppe ist klein.,,,Die,_____ Gruppe ist klein.,nominative,feminine
+24,1,Der Wert ist hoch.,,,Der,_____ Wert ist hoch.,nominative,masculine
+25,1,Das Gesicht ist rund.,,,Das,_____ Gesicht ist rund.,nominative,neuter
+26,1,Die Sprache ist schwer.,,,Die,_____ Sprache ist schwer.,nominative,feminine
+27,1,Der Ort ist schön.,,,Der,_____ Ort ist schön.,nominative,masculine
+28,1,Der Moment ist wichtig.,,,Der,_____ Moment ist wichtig.,nominative,masculine
+29,1,Das Interesse ist groß.,,,Das,_____ Interesse ist groß.,nominative,neuter
+30,1,Die Rolle sind wichtig.,,,Die,_____ Rolle sind wichtig.,nominative,plural
+31,1,Die Tür ist offen.,,,Die,_____ Tür ist offen.,nominative,feminine
+32,1,Der Schüler ist fleißig.,,,Der,_____ Schüler ist fleißig.,nominative,masculine
+33,1,Der Text ist lang.,,,Der,_____ Text ist lang.,nominative,masculine
+34,1,Das Stück ist klein.,,,Das,_____ Stück ist klein.,nominative,neuter
+35,1,Die Wohnung ist teuer.,,,Die,_____ Wohnung ist teuer.,nominative,feminine
+36,1,Der Meter ist kurz.,,,Der,_____ Meter ist kurz.,nominative,masculine
+37,1,Der Punkt ist klar.,,,Der,_____ Punkt ist klar.,nominative,masculine
+38,1,Die Situation ist schwierig.,,,Die,_____ Situation ist schwierig.,nominative,feminine
+39,1,Der Lehrer ist nett.,,,Der,_____ Lehrer ist nett.,nominative,masculine
+40,1,Die Preise sind hoch.,,,Die,_____ Preise sind hoch.,nominative,plural
+41,1,Die Stelle ist wichtig.,,,Die,_____ Stelle ist wichtig.,nominative,feminine
+42,1,Die Form ist rund.,,,Die,_____ Form ist rund.,nominative,feminine
+43,1,Der Monat hat vier Wochen.,,,Der,_____ Monat hat vier Wochen.,nominative,masculine
+44,1,Die Familie ist groß.,,,Die,_____ Familie ist groß.,nominative,feminine
+45,1,Der Morgen ist schön.,,,Der,_____ Morgen ist schön.,nominative,masculine
+46,1,Der Abend ist ruhig.,,,Der,_____ Abend ist ruhig.,nominative,masculine
+47,1,Der Sinn ist klar.,,,Der,_____ Sinn ist klar.,nominative,masculine
+48,1,Der Staat ist reich.,,,Der,_____ Staat ist reich.,nominative,masculine
+49,1,Das Ziel ist weit.,,,Das,_____ Ziel ist weit.,nominative,neuter
+50,1,Der Freund sind nett.,,,Der,_____ Freund sind nett.,nominative,plural
+51,1,Das Thema ist interessant.,,,Das,_____ Thema ist interessant.,nominative,neuter
+52,1,Die Person ist freundlich.,,,Die,_____ Person ist freundlich.,nominative,feminine
+53,1,Die Nacht ist dunkel.,,,Die,_____ Nacht ist dunkel.,nominative,feminine
+54,1,Der Raum ist groß.,,,Der,_____ Raum ist groß.,nominative,masculine
+55,1,Der Blick ist schön.,,,Der,_____ Blick ist schön.,nominative,masculine
+56,1,Der Platz ist leer.,,,Der,_____ Platz ist leer.,nominative,masculine
+57,1,Die Zahl ist hoch.,,,Die,_____ Zahl ist hoch.,nominative,feminine
+58,1,Die Uhr ist kaputt.,,,Die,_____ Uhr ist kaputt.,nominative,feminine
+59,1,Die Eltern sind nett.,,,Die,_____ Eltern sind nett.,nominative,plural
+60,1,Das Jahrhundert ist lang.,,,Das,_____ Jahrhundert ist lang.,nominative,neuter
+61,1,Der Sohn ist klug.,,,Der,_____ Sohn ist klug.,nominative,masculine
+62,1,Das Werk ist bekannt.,,,Das,_____ Werk ist bekannt.,nominative,neuter
+63,1,Die Richtung ist richtig.,,,Die,_____ Richtung ist richtig.,nominative,feminine
+64,1,Das Programm ist neu.,,,Das,_____ Programm ist neu.,nominative,neuter
+65,1,Die Angst ist groß.,,,Die,_____ Angst ist groß.,nominative,feminine
+66,1,Die Information ist wichtig.,,,Die,_____ Information ist wichtig.,nominative,feminine
+67,1,Die Kunst ist schön.,,,Die,_____ Kunst ist schön.,nominative,feminine
+68,1,Die Musik ist laut.,,,Die,_____ Musik ist laut.,nominative,feminine
+69,1,Die Politiken sind kompliziert.,,,Die,_____ Politiken sind kompliziert.,nominative,plural
+70,1,Der Beruf ist spannend.,,,Der,_____ Beruf ist spannend.,nominative,masculine
+71,1,Die Regel ist klar.,,,Die,_____ Regel ist klar.,nominative,feminine
+72,1,Der Gott ist mächtig.,,,Der,_____ Gott ist mächtig.,nominative,masculine
+73,1,Das Auto ist schnell.,,,Das,_____ Auto ist schnell.,nominative,neuter
+74,1,Der Tisch ist aus Holz.,,,Der,_____ Tisch ist aus Holz.,nominative,masculine
+75,1,Das Spiel ist spannend.,,,Das,_____ Spiel ist spannend.,nominative,neuter
+76,1,Das Licht ist hell.,,,Das,_____ Licht ist hell.,nominative,neuter
+77,1,Der Markt ist groß.,,,Der,_____ Markt ist groß.,nominative,masculine
+78,1,Die Tochter ist freundlich.,,,Die,_____ Tochter ist freundlich.,nominative,feminine
+79,1,Die Kirchen sind alt.,,,Die,_____ Kirchen sind alt.,nominative,plural
+80,1,Die Frage ist einfach.,,,Die,_____ Frage ist einfach.,nominative,feminine
+81,1,Das Haus ist groß.,,,Das,_____ Haus ist groß.,nominative,neuter
+82,1,Die Leute sind freundlich.,,,Die,_____ Leute sind freundlich.,nominative,feminine
+83,1,Die Arbeit ist schwer.,,,Die,_____ Arbeit ist schwer.,nominative,feminine
+84,1,Das Prozent ist hoch.,,,Das,_____ Prozent ist hoch.,nominative,neuter
+85,1,Die Hand ist klein.,,,Die,_____ Hand ist klein.,nominative,feminine
+86,1,Die Stadt ist alt.,,,Die,_____ Stadt ist alt.,nominative,feminine
+87,1,Der Herr ist müde.,,,Der,_____ Herr ist müde.,nominative,masculine
+88,1,Das Problem ist groß.,,,Das,_____ Problem ist groß.,nominative,neuter
+89,1,Die Welt sind schön.,,,Die,_____ Welt sind schön.,nominative,plural
+90,1,Das Jahr haben zwölf Monate.,,,Das,_____ Jahr haben zwölf Monate.,nominative,neuter
+91,1,Das Mal ist anders als vorher.,,,Das,_____ Mal ist anders als vorher.,nominative,neuter
+92,1,Das Beispiel ist sehr einfach.,,,Das,_____ Beispiel ist sehr einfach.,nominative,neuter
+93,1,Die Zeit ist knapp.,,,Die,_____ Zeit ist knapp.,nominative,feminine
+94,1,Die Frau sind nett.,,,Die,_____ Frau sind nett.,nominative,feminine
+95,1,Der Mensch ist intelligent.,,,Der,_____ Mensch ist intelligent.,nominative,masculine
+96,1,Das Kind ist klein.,,,Das,_____ Kind ist klein.,nominative,neuter
+97,1,Der Tag ist schön.,,,Der,_____ Tag ist schön.,nominative,masculine
+98,1,Der Mann sind stark.,,,Der,_____ Mann sind stark.,nominative,masculine
+99,1,Das Land ist groß.,,,Das,_____ Land ist groß.,nominative,neuter
+100,2,Ich sehe das Ende des Films.,,,das,Ich sehe _____ Ende des Films.,accusative,neuter
+101,2,Er hat die Million gewonnen.,,,die,Er hat _____ Million gewonnen.,accusative,feminine
+102,2,Wir besuchen die Schule jeden Tag.,,,die,Wir besuchen _____ Schule jeden Tag.,accusative,feminine
+103,2,Ich plane die Woche im Voraus.,,,die,Ich plane _____ Woche im Voraus.,accusative,feminine
+104,2,Sie ruft den Vater an.,,,den,Sie ruft _____ Vater an.,accusative,masculine
+105,2,Ich lese die Seite im Buch.,,,die,Ich lese _____ Seite im Buch.,accusative,feminine
+106,2,Er genießt das Leben.,,,das,Er genießt _____ Leben.,accusative,neuter
+107,2,Wir besuchen die Mutter am Wochenende.,,,die,Wir besuchen _____ Mutter am Wochenende.,accusative,feminine
+108,2,Sie schützt das Auge mit einer Brille.,,,das,Sie schützt _____ Auge mit einer Brille.,accusative,neuter
+109,2,Er schreibt die Wörter auf.,,,das,Er schreibt die Wörter auf.,accusative,plural
+110,2,Er spart das Geld.,,,das,Er spart _____ Geld.,accusative,neuter
+111,2,Wir nehmen den Weg durch den Park.,,,den,Wir nehmen _____ Weg durch den Park.,accusative,masculine
+112,2,Ich lerne die Stunde lang.,,,die,Ich lerne _____ Stunde lang.,accusative,feminine
+113,2,Ich kenne den Namen nicht.,,,den,Ich kenne _____ Namen nicht.,accusative,masculine
+114,2,Er hält den Kopf hoch.,,,den,Er hält _____ Kopf hoch.,accusative,masculine
+115,2,Ich sehe das Paar auf der Straße.,,,das,Ich sehe _____ Paar auf der Straße.,accusative,neuter
+116,2,Wir unterstützen das Unternehmen.,,,das,Wir unterstützen _____ Unternehmen.,accusative,neuter
+117,2,Sie malt das Bild.,,,das,Sie malt _____ Bild.,accusative,neuter
+118,2,Er liest das Buch.,,,das,Er liest _____ Buch.,accusative,neuter
+119,2,Ich trinke die Wasser.,,,das,Ich trinke die Wasser.,accusative,plural
+120,2,Er findet die Stelle interessant.,,,die,Er findet _____ Stelle interessant.,accusative,feminine
+121,2,Ich ändere die Form des Designs.,,,die,Ich ändere _____ Form des Designs.,accusative,feminine
+122,2,Wir feiern den Monat des Herbstes.,,,den,Wir feiern _____ Monat des Herbstes.,accusative,masculine
+123,2,Sie liebt die Familie sehr.,,,die,Sie liebt _____ Familie sehr.,accusative,feminine
+124,2,Ich genieße den Morgen mit Kaffee.,,,den,Ich genieße _____ Morgen mit Kaffee.,accusative,masculine
+125,2,Wir verbringen den Abend zusammen.,,,den,Wir verbringen _____ Abend zusammen.,accusative,masculine
+126,2,Ich verstehe den Sinn des Wortes.,,,den,Ich verstehe _____ Sinn des Wortes.,accusative,masculine
+127,2,Er kennt den Staat gut.,,,den,Er kennt _____ Staat gut.,accusative,masculine
+128,2,Wir erreichen das Ziel bald.,,,das,Wir erreichen _____ Ziel bald.,accusative,neuter
+129,2,Ich besuche die Freunde in Berlin.,,,den,Ich besuche die Freunde in Berlin.,accusative,plural
+130,2,Er diskutiert das Thema im Kurs.,,,das,Er diskutiert _____ Thema im Kurs.,accusative,neuter
+131,2,Ich kenne die Person nicht.,,,die,Ich kenne _____ Person nicht.,accusative,feminine
+132,2,Sie verbringt die Nacht im Hotel.,,,die,Sie verbringt _____ Nacht im Hotel.,accusative,feminine
+133,2,Wir betreten den Raum leise.,,,den,Wir betreten _____ Raum leise.,accusative,masculine
+134,2,Ich genieße den Blick auf das Meer.,,,den,Ich genieße _____ Blick auf das Meer.,accusative,masculine
+135,2,Er reserviert den Platz für uns.,,,den,Er reserviert _____ Platz für uns.,accusative,masculine
+136,2,Ich schreibe die Zahl auf.,,,die,Ich schreibe _____ Zahl auf.,accusative,feminine
+137,2,Ich kaufe die Uhr im Geschäft.,,,die,Ich kaufe _____ Uhr im Geschäft.,accusative,feminine
+138,2,Wir besuchen die Eltern am Sonntag.,,,die,Wir besuchen _____ Eltern am Sonntag.,accusative,plural
+139,2,Ich überquere die Straße.,,,die,Ich überquere _____ Straße.,accusative,feminine
+140,2,Ich warte die Minute.,,,die,Ich warte _____ Minute.,accusative,feminine
+141,2,Er sieht die Gruppe im Park.,,,die,Er sieht _____ Gruppe im Park.,accusative,feminine
+142,2,Ich verstehe den Wert dieser Idee.,,,den,Ich verstehe _____ Wert dieser Idee.,accusative,masculine
+143,2,Sie wäscht das Gesicht mit Wasser.,,,das,Sie wäscht _____ Gesicht mit Wasser.,accusative,neuter
+144,2,Wir lernen die Sprache in der Schule.,,,die,Wir lernen _____ Sprache in der Schule.,accusative,feminine
+145,2,Ich besuche den Ort jedes Jahr.,,,den,Ich besuche _____ Ort jedes Jahr.,accusative,masculine
+146,2,Er genießt den Moment.,,,den,Er genießt _____ Moment.,accusative,masculine
+147,2,Ich habe das Interesse an diesem Thema.,,,das,Ich habe _____ Interesse an diesem Thema.,accusative,neuter
+148,2,Er spielt die Rollen gut.,,,die,Er spielt _____ Rollen gut.,accusative,plural
+149,2,Sie öffnet die Tür.,,,die,Sie öffnet _____ Tür.,accusative,feminine
+150,2,Der Lehrer hilft den Schüler.,,,den,Der Lehrer hilft _____ Schüler.,accusative,masculine
+151,2,Ich lese den Text im Buch.,,,den,Ich lese _____ Text im Buch.,accusative,masculine
+152,2,Er isst das Stück Kuchen.,,,das,Er isst _____ Stück Kuchen.,accusative,neuter
+153,2,Wir mieten die Wohnung.,,,die,Wir mieten _____ Wohnung.,accusative,feminine
+154,2,Er misst den Meter mit dem Lineal.,,,den,Er misst _____ Meter mit dem Lineal.,accusative,masculine
+155,2,Ich setze den Punkt am Ende des Satzes.,,,den,Ich setze _____ Punkt am Ende des Satzes.,accusative,masculine
+156,2,Sie erklärt die Situation.,,,die,Sie erklärt _____ Situation.,accusative,feminine
+157,2,Ich sehe den Lehrer in der Schule.,,,den,Ich sehe _____ Lehrer in der Schule.,accusative,masculine
+158,2,Er bezahlt die Preise.,,,die,Er bezahlt _____ Preise.,accusative,plural
+159,2,Ich studiere das Jahrhundert der Geschichte.,,,das,Ich studiere _____ Jahrhundert der Geschichte.,accusative,neuter
+160,2,Sie sieht den Sohn im Garten.,,,den,Sie sieht _____ Sohn im Garten.,accusative,masculine
+161,2,Er kennt das Werk des Künstlers.,,,das,Er kennt _____ Werk des Künstlers.,accusative,neuter
+162,2,Wir nehmen die Richtung nach Süden.,,,die,Wir nehmen _____ Richtung nach Süden.,accusative,feminine
+163,2,Ich installiere das Programm auf dem Computer.,,,das,Ich installiere _____ Programm auf dem Computer.,accusative,neuter
+164,2,Er fühlt die Angst in seinem Herzen.,,,die,Er fühlt _____ Angst in seinem Herzen.,accusative,feminine
+165,2,Sie sucht die Information online.,,,die,Sie sucht _____ Information online.,accusative,feminine
+166,2,Wir bewundern die Kunst im Museum.,,,die,Wir bewundern _____ Kunst im Museum.,accusative,feminine
+167,2,Er hört die Musik im Radio.,,,die,Er hört _____ Musik im Radio.,accusative,feminine
+168,2,Sie diskutiert die Politiken in der Zeitung.,,,die,Sie diskutiert _____ Politiken in der Zeitung.,accusative,plural
+169,2,Ich lerne den Beruf in der Ausbildung.,,,den,Ich lerne _____ Beruf in der Ausbildung.,accusative,masculine
+170,2,Wir befolgen die Regel in der Schule.,,,die,Wir befolgen _____ Regel in der Schule.,accusative,feminine
+171,2,Er verehrt den Gott seiner Religion.,,,den,Er verehrt _____ Gott seiner Religion.,accusative,masculine
+172,2,Er fährt das Auto zur Arbeit.,,,das,Er fährt _____ Auto zur Arbeit.,accusative,neuter
+173,2,Sie deckt den Tisch für das Abendessen.,,,den,Sie deckt _____ Tisch für das Abendessen.,accusative,masculine
+174,2,Ich spiele das Spiel mit meinen Freunden.,,,das,Ich spiele _____ Spiel mit meinen Freunden.,accusative,neuter
+175,2,Er schaltet das Licht aus.,,,das,Er schaltet _____ Licht aus.,accusative,neuter
+176,2,Sie besucht den Markt jeden Samstag.,,,den,Sie besucht _____ Markt jeden Samstag.,accusative,masculine
+177,2,Er liebt die Tochter sehr.,,,die,Er liebt _____ Tochter sehr.,accusative,feminine
+178,2,Wir besuchen die Kirchen am Sonntag.,,,die,Wir besuchen _____ Kirchen am Sonntag.,accusative,plural
+179,2,Ich sehe das Jahr auf dem Kalender.,,,das,Ich sehe _____ Jahr auf dem Kalender.,accusative,neuter
+180,2,Ich erinnere mich an das Mal.,,,das,Ich erinnere mich an _____ Mal.,accusative,neuter
+181,2,Er gibt das Beispiel im Unterricht.,,,das,Er gibt _____ Beispiel im Unterricht.,accusative,neuter
+182,2,Wir brauchen die Zeit für das Projekt.,,,die,Wir brauchen _____ Zeit für das Projekt.,accusative,feminine
+183,2,Er kennt die Frau gut.,,,die,Er kennt _____ Frau gut.,accusative,feminine
+184,2,Ich treffe den Menschen im Park.,,,den,Ich treffe _____ Menschen im Park.,accusative,masculine
+185,2,Sie liebt das Kind sehr.,,,das,Sie liebt _____ Kind sehr.,accusative,neuter
+186,2,Wir genießen den Tag am Strand.,,,den,Wir genießen _____ Tag am Strand.,accusative,masculine
+187,2,Sie sieht den Mann im Restaurant.,,,den,Sie sieht _____ Mann im Restaurant.,accusative,masculine
+188,2,Wir besuchen die Länder im Sommer.,,,die,Wir besuchen _____ Länder im Sommer.,accusative,plural
+189,2,Er beantwortet die Frage richtig.,,,die,Er beantwortet _____ Frage richtig.,accusative,feminine
+190,2,Sie kauft das Haus in der Stadt.,,,das,Sie kauft _____ Haus in der Stadt.,accusative,neuter
+191,2,Ich treffe die Leute am Bahnhof.,,,die,Ich treffe _____ Leute am Bahnhof.,accusative,feminine
+192,2,Sie erledigt die Arbeit schnell.,,,die,Sie erledigt _____ Arbeit schnell.,accusative,feminine
+193,2,Ich berechne das Prozent.,,,das,Ich berechne _____ Prozent.,accusative,neuter
+194,2,Er hält die Hand seines Freundes.,,,die,Er hält _____ Hand seines Freundes.,accusative,feminine
+195,2,Wir besuchen die Stadt am Wochenende.,,,die,Wir besuchen _____ Stadt am Wochenende.,accusative,feminine
+196,2,Ich rufe den Herrn am Telefon an.,,,den,Ich rufe _____ Herrn am Telefon an.,accusative,masculine
+197,2,Sie löst das Problem leicht.,,,das,Sie löst _____ Problem leicht.,accusative,neuter
+198,2,Er entdeckt die Welten mit Neugier.,,,die,Er entdeckt _____ Welten mit Neugier.,accusative,plural
+199,3,Er widmet sich dem Jahrhundert der Geschichte.,,,dem,Er widmet sich _____ Jahrhundert der Geschichte.,dative,masculine
+200,3,Sie gibt dem Sohn ein Geschenk.,,,dem,Sie gibt _____ Sohn ein Geschenk.,dative,masculine
+201,3,Er vertraut dem Werk des Künstlers.,,,dem,Er vertraut _____ Werk des Künstlers.,dative,masculine
+202,3,Ich folge der Richtung des Weges.,,,der,Ich folge _____ Richtung des Weges.,dative,feminine
+203,3,Ich helfe dem Programm bei der Installation.,,,dem,Ich helfe _____ Programm bei der Installation.,dative,masculine
+204,3,Er stellt sich der Angst.,,,der,Er stellt sich _____ Angst.,dative,feminine
+205,3,Sie folgt der Information auf der Website.,,,der,Sie folgt _____ Information auf der Website.,dative,feminine
+206,3,Wir danken der Kunst für ihre Schönheit.,,,der,Wir danken _____ Kunst für ihre Schönheit.,dative,feminine
+207,3,Er lauscht der Musik.,,,der,Er lauscht _____ Musik.,dative,feminine
+208,3,Sie widerspricht den Politiken des Landes.,,,der,Sie wi_____spricht den Politiken des Landes.,dative,plural
+209,3,Ich widme mich dem Beruf.,,,dem,Ich widme mich _____ Beruf.,dative,masculine
+210,3,Wir folgen der Regel in der Schule.,,,der,Wir folgen _____ Regel in _____ Schule.,dative,feminine
+211,3,Er glaubt dem Gott seiner Religion.,,,dem,Er glaubt _____ Gott seiner Religion.,dative,masculine
+212,3,Ich nähere mich dem Auto.,,,dem,Ich nähere mich _____ Auto.,dative,masculine
+213,3,Er gibt dem Tisch eine neue Farbe.,,,dem,Er gibt _____ Tisch eine neue Farbe.,dative,masculine
+214,3,Ich folge dem Spiel mit Spannung.,,,dem,Ich folge _____ Spiel mit Spannung.,dative,masculine
+215,3,Er nähert sich dem Licht am Ende des Tunnels.,,,dem,Er nähert sich _____ Licht am Ende des Tunnels.,dative,masculine
+216,3,Sie hilft dem Markt mit Werbung.,,,dem,Sie hilft _____ Markt mit Werbung.,dative,masculine
+217,3,Er schenkt der Tochter eine Puppe.,,,der,Er schenkt _____ Tochter eine Puppe.,dative,feminine
+218,3,Wir danken den Kirchen für ihre Unterstützung.,,,den,Wir danken _____ Kirchen für ihre Unterstützung.,dative,plural
+219,3,Ich folge der Straße bis zum Park.,,,der,Ich folge _____ Straße bis zum Park.,dative,feminine
+220,3,Ich widme der Minute meine volle Aufmerksamkeit.,,,der,Ich widme _____ Minute meine volle Aufmerksamkeit.,dative,feminine
+221,3,Er hilft der Gruppe mit den Aufgaben.,,,der,Er hilft _____ Gruppe mit den Aufgaben.,dative,feminine
+222,3,Ich vertraue dem Wert dieser Information.,,,dem,Ich vertraue _____ Wert dieser Information.,dative,masculine
+223,3,Sie wendet sich dem Gesicht zu.,,,dem,Sie wendet sich _____ Gesicht zu.,dative,masculine
+224,3,Wir danken der Sprache für ihre Schönheit.,,,der,Wir danken _____ Sprache für ihre Schönheit.,dative,feminine
+225,3,Ich nähere mich dem Ort langsam.,,,dem,Ich nähere mich _____ Ort langsam.,dative,masculine
+226,3,Er erinnert sich an dem Moment.,,,dem,Er erinnert sich an _____ Moment.,dative,masculine
+227,3,Sie folgt dem Interesse des Publikums.,,,dem,Sie folgt _____ Interesse des Publikums.,dative,masculine
+228,3,Er bleibt den Rollen treu.,,,den,Er bleibt _____ Rollen treu.,dative,plural
+229,3,Ich stehe der Tür gegenüber.,,,der,Ich stehe _____ Tür gegenüber.,dative,feminine
+230,3,Der Lehrer hilft dem Schüler.,,,dem,Der Lehrer hilft _____ Schüler.,dative,masculine
+231,3,Ich folge dem Text im Buch.,,,dem,Ich folge _____ Text im Buch.,dative,masculine
+232,3,Er gibt dem Stück eine neue Interpretation.,,,dem,Er gibt _____ Stück eine neue Interpretation.,dative,masculine
+233,3,Wir helfen der Wohnungssuche.,,,der,Wir helfen _____ Wohnungssuche.,dative,feminine
+234,3,Er misst dem Meter mit dem Lineal.,,,dem,Er misst _____ Meter mit _____ Lineal.,dative,masculine
+235,3,Ich nähere mich dem Punkt im Text.,,,dem,Ich nähere mich _____ Punkt im Text.,dative,masculine
+236,3,Ich passe mich der Situation an.,,,der,Ich passe mich _____ Situation an.,dative,feminine
+237,3,Ich danke dem Lehrer für die Hilfe.,,,dem,Ich danke _____ Lehrer für die Hilfe.,dative,masculine
+238,3,Er widerspricht den Preisen des Produkts.,,,den,Er widerspricht _____ Preisen des Produkts.,dative,plural
+239,3,Er hilft der Stelle mit neuen Ideen.,,,der,Er hilft _____ Stelle mit neuen Ideen.,dative,feminine
+240,3,Ich passe der Form an.,,,der,Ich passe _____ Form an.,dative,feminine
+241,3,Wir widmen dem Monat besondere Bedeutung.,,,dem,Wir widmen _____ Monat besondere Bedeutung.,dative,masculine
+242,3,Sie hilft der Familie oft.,,,der,Sie hilft _____ Familie oft.,dative,feminine
+243,3,Ich genieße dem Morgen mit einem Kaffee.,,,dem,Ich genieße _____ Morgen mit einem Kaffee.,dative,masculine
+244,3,Wir danken dem Abend für die Ruhe.,,,dem,Wir danken _____ Abend für die Ruhe.,dative,masculine
+245,3,Ich vertraue dem Sinn seiner Worte.,,,dem,Ich vertraue _____ Sinn seiner Worte.,dative,masculine
+246,3,Er dient dem Staat als Beamter.,,,dem,Er dient _____ Staat als Beamter.,dative,masculine
+247,3,Sie nähert sich dem Ziel langsam.,,,dem,Sie nähert sich _____ Ziel langsam.,dative,masculine
+248,3,Ich helfe den Freunden mit der Arbeit.,,,den,Ich helfe _____ Freunden mit der Arbeit.,dative,plural
+249,3,Wir bleiben dem Thema treu.,,,dem,Wir bleiben _____ Thema treu.,dative,masculine
+250,3,Ich danke der Person für ihre Hilfe.,,,der,Ich danke _____ Person für ihre Hilfe.,dative,feminine
+251,3,Er widmet sich der Nacht und den Sternen.,,,der,Er widmet sich _____ Nacht und den Sternen.,dative,feminine
+252,3,Ich gebe dem Raum eine neue Farbe.,,,dem,Ich gebe _____ Raum eine neue Farbe.,dative,masculine
+253,3,Sie folgt dem Blick des Fotografen.,,,dem,Sie folgt _____ Blick des Fotografen.,dative,masculine
+254,3,Er nähert sich dem Platz vorsichtig.,,,dem,Er nähert sich _____ Platz vorsichtig.,dative,masculine
+255,3,Ich vertraue der Zahl auf dem Formular.,,,der,Ich vertraue _____ Zahl auf dem Formular.,dative,feminine
+256,3,Ich glaube der Uhr nicht.,,,der,Ich glaube _____ Uhr nicht.,dative,feminine
+257,3,Wir helfen den Eltern im Haushalt.,,,den,Wir helfen _____ Eltern im Haushalt.,dative,plural
+258,3,Ich sehe dem Ende des Films entgegen.,,,dem,Ich sehe _____ Ende des Films entgegen.,dative,masculine
+259,3,Er vertraut der Million an der Börse.,,,der,Er vertraut _____ Million an der Börse.,dative,feminine
+260,3,Wir helfen der Schule mit Spenden.,,,der,Wir helfen _____ Schule mit Spenden.,dative,feminine
+261,3,Ich widme der Woche meine Zeit.,,,der,Ich widme _____ Woche meine Zeit.,dative,feminine
+262,3,Sie gibt dem Vater ein Geschenk.,,,dem,Sie gibt _____ Vater ein Geschenk.,dative,masculine
+263,3,Ich folge der Seite im Buch.,,,der,Ich folge _____ Seite im Buch.,dative,feminine
+264,3,Er dankt dem Leben für seine Erfahrungen.,,,dem,Er dankt _____ Leben für seine Erfahrungen.,dative,masculine
+265,3,Wir helfen der Mutter im Haushalt.,,,der,Wir helfen _____ Mutter im Haushalt.,dative,feminine
+266,3,Sie schützt dem Auge mit einer Brille.,,,dem,Sie schützt _____ Auge mit einer Brille.,dative,masculine
+267,3,Ich glaube den Wörtern des Lehrers.,,,den,Ich glaube _____ Wörtern des Lehrers.,dative,plural
+268,3,Er vertraut dem Geld nicht.,,,dem,Er vertraut _____ Geld nicht.,dative,masculine
+269,3,Ich folge dem Weg zum See.,,,dem,Ich folge _____ Weg zum See.,dative,masculine
+270,3,Ich widme der Stunde meine volle Konzentration.,,,der,Ich widme _____ Stunde meine volle Konzentration.,dative,feminine
+271,3,Ich erinnere mich an dem Namen.,,,dem,Ich erinnere mich an _____ Namen.,dative,masculine
+272,3,Er nickt dem Kopf zu.,,,dem,Er nickt _____ Kopf zu.,dative,masculine
+273,3,Ich gratuliere dem Paar zur Hochzeit.,,,dem,Ich gratuliere _____ Paar zur Hochzeit.,dative,masculine
+274,3,Wir helfen dem Unternehmen zu wachsen.,,,dem,Wir helfen _____ Unternehmen zu wachsen.,dative,masculine
+275,3,Ich zeige dem Bild meine Freunde.,,,dem,Ich zeige _____ Bild meine Freunde.,dative,masculine
+276,3,Sie gibt dem Buch eine neue Bedeutung.,,,dem,Sie gibt _____ Buch eine neue Bedeutung.,dative,masculine
+277,3,Ich nähere mich den Wassern vorsichtig.,,,den,Ich nähere mich _____ Wassern vorsichtig.,dative,plural
+278,3,Ich helfe dem Jahr mit einer neuen Planung.,,,dem,Ich helfe _____ Jahr mit einer neuen Planung.,dative,masculine
+279,3,Er gibt dem Mal eine neue Bedeutung.,,,dem,Er gibt _____ Mal eine neue Bedeutung.,dative,masculine
+280,3,Sie folgt dem Beispiel ihrer Mutter.,,,dem,Sie folgt _____ Beispiel ihrer Mutter.,dative,masculine
+281,3,Ich widme der Zeit meine Aufmerksamkeit.,,,der,Ich widme _____ Zeit meine Aufmerksamkeit.,dative,feminine
+282,3,Er schenkt der Frau Blumen.,,,der,Er schenkt _____ Frau Blumen.,dative,feminine
+283,3,Ich vertraue dem Menschen.,,,dem,Ich vertraue _____ Menschen.,dative,masculine
+284,3,Sie gibt dem Kind ein Geschenk.,,,dem,Sie gibt _____ Kind ein Geschenk.,dative,masculine
+285,3,Wir widmen dem Tag eine Feier.,,,dem,Wir widmen _____ Tag eine Feier.,dative,masculine
+286,3,Sie hilft dem Mann im Garten.,,,dem,Sie hilft _____ Mann im Garten.,dative,masculine
+287,3,Er dient den Ländern als Soldat.,,,dem,Er dient den Ländern als Soldat.,dative,plural
+288,3,Ich widme der Frage viel Zeit.,,,der,Ich widme _____ Frage viel Zeit.,dative,feminine
+289,3,Wir nähern uns dem Haus langsam.,,,dem,Wir nähern uns _____ Haus langsam.,dative,masculine
+290,3,Ich erzähle den Leuten eine Geschichte.,,,den,Ich erzähle _____ Leuten eine Geschichte.,dative,neuter
+291,3,Er widmet der Arbeit seine ganze Kraft.,,,der,Er widmet _____ Arbeit seine ganze Kraft.,dative,feminine
+292,3,Wir passen dem Prozent die Werte an.,,,dem,Wir passen _____ Prozent die Werte an.,dative,masculine
+293,3,Ich gebe der Hand einen festen Druck.,,,der,Ich gebe _____ Hand einen festen Druck.,dative,feminine
+294,3,Er zeigt der Stadt seine Kunst.,,,der,Er zeigt _____ Stadt seine Kunst.,dative,feminine
+295,3,Ich danke dem Herrn für seine Hilfe.,,,dem,Ich danke _____ Herrn für seine Hilfe.,dative,masculine
+296,3,Sie nähert sich dem Problem vorsichtig.,,,dem,Sie nähert sich _____ Problem vorsichtig.,dative,masculine
+297,3,Ich schenke den Welten ein Lächeln.,,,den,Ich schenke _____ Welten ein Lächeln.,dative,plural
+298,4,Das Ende ist nah.,,,Das,_____ Ende ist nah.,nominative,neuter
+299,4,Die Million ist viel Geld.,,,Die,_____ Million ist viel Geld.,nominative,feminine
+300,4,Die Schule ist groß.,,,Die,_____ Schule ist groß.,nominative,feminine
+301,4,Die Woche hat sieben Tage.,,,Die,_____ Woche hat sieben Tage.,nominative,feminine
+302,4,Der Vater ist müde.,,,Der,_____ Vater ist müde.,nominative,masculine
+303,4,Die Seite ist weiß.,,,Die,_____ Seite ist weiß.,nominative,feminine
+304,4,Das Leben ist schön.,,,Das,_____ Leben ist schön.,nominative,neuter
+305,4,Die Mutter ist nett.,,,Die,_____ Mutter ist nett.,nominative,feminine
+306,4,Das Auge ist blau.,,,Das,_____ Auge ist blau.,nominative,neuter
+307,4,Die Wörter sind lang.,,,Die,_____ Wörter sind lang.,nominative,plural
+308,4,Das Geld ist wichtig.,,,Das,_____ Geld ist wichtig.,nominative,neuter
+309,4,Der Weg ist lang.,,,Der,_____ Weg ist lang.,nominative,masculine
+310,4,Die Stunde dauert sechzig Minuten.,,,Die,_____ Stunde dauert sechzig Minuten.,nominative,feminine
+311,4,Der Name ist bekannt.,,,Der,_____ Name ist bekannt.,nominative,masculine
+312,4,Der Kopf tut weh.,,,Der,_____ Kopf tut weh.,nominative,masculine
+313,4,Das Paar ist glücklich.,,,Das,_____ Paar ist glücklich.,nominative,neuter
+314,4,Das Unternehmen ist groß.,,,Das,_____ Unternehmen ist groß.,nominative,neuter
+315,4,Das Bild ist schön.,,,Das,_____ Bild ist schön.,nominative,neuter
+316,4,Das Buch ist spannend.,,,Das,_____ Buch ist spannend.,nominative,neuter
+317,4,Die Wasser sind kalt.,,,Die,_____ Wasser sind kalt.,nominative,plural
+318,4,Die Straße ist lang.,,,Die,_____ Straße ist lang.,nominative,feminine
+319,4,Die Minute ist kurz.,,,Die,_____ Minute ist kurz.,nominative,feminine
+320,4,Die Gruppe ist klein.,,,Die,_____ Gruppe ist klein.,nominative,feminine
+321,4,Der Wert ist hoch.,,,Der,_____ Wert ist hoch.,nominative,masculine
+322,4,Das Gesicht ist rund.,,,Das,_____ Gesicht ist rund.,nominative,neuter
+323,4,Die Sprache ist schwer.,,,Die,_____ Sprache ist schwer.,nominative,feminine
+324,4,Der Ort ist schön.,,,Der,_____ Ort ist schön.,nominative,masculine
+325,4,Der Moment ist wichtig.,,,Der,_____ Moment ist wichtig.,nominative,masculine
+326,4,Das Interesse ist groß.,,,Das,_____ Interesse ist groß.,nominative,neuter
+327,4,Die Rolle sind wichtig.,,,Die,_____ Rolle sind wichtig.,nominative,plural
+328,4,Die Tür ist offen.,,,Die,_____ Tür ist offen.,nominative,feminine
+329,4,Der Schüler ist fleißig.,,,Der,_____ Schüler ist fleißig.,nominative,masculine
+330,4,Der Text ist lang.,,,Der,_____ Text ist lang.,nominative,masculine
+331,4,Das Stück ist klein.,,,Das,_____ Stück ist klein.,nominative,neuter
+332,4,Die Wohnung ist teuer.,,,Die,_____ Wohnung ist teuer.,nominative,feminine
+333,4,Der Meter ist kurz.,,,Der,_____ Meter ist kurz.,nominative,masculine
+334,4,Der Punkt ist klar.,,,Der,_____ Punkt ist klar.,nominative,masculine
+335,4,Die Situation ist schwierig.,,,Die,_____ Situation ist schwierig.,nominative,feminine
+336,4,Der Lehrer ist nett.,,,Der,_____ Lehrer ist nett.,nominative,masculine
+337,4,Die Preise sind hoch.,,,Die,_____ Preise sind hoch.,nominative,plural
+338,4,Die Stelle ist wichtig.,,,Die,_____ Stelle ist wichtig.,nominative,feminine
+339,4,Die Form ist rund.,,,Die,_____ Form ist rund.,nominative,feminine
+340,4,Der Monat hat vier Wochen.,,,Der,_____ Monat hat vier Wochen.,nominative,masculine
+341,4,Die Familie ist groß.,,,Die,_____ Familie ist groß.,nominative,feminine
+342,4,Der Morgen ist schön.,,,Der,_____ Morgen ist schön.,nominative,masculine
+343,4,Der Abend ist ruhig.,,,Der,_____ Abend ist ruhig.,nominative,masculine
+344,4,Der Sinn ist klar.,,,Der,_____ Sinn ist klar.,nominative,masculine
+345,4,Der Staat ist reich.,,,Der,_____ Staat ist reich.,nominative,masculine
+346,4,Das Ziel ist weit.,,,Das,_____ Ziel ist weit.,nominative,neuter
+347,4,Der Freund sind nett.,,,Der,_____ Freund sind nett.,nominative,plural
+348,4,Das Thema ist interessant.,,,Das,_____ Thema ist interessant.,nominative,neuter
+349,4,Die Person ist freundlich.,,,Die,_____ Person ist freundlich.,nominative,feminine
+350,4,Die Nacht ist dunkel.,,,Die,_____ Nacht ist dunkel.,nominative,feminine
+351,4,Der Raum ist groß.,,,Der,_____ Raum ist groß.,nominative,masculine
+352,4,Der Blick ist schön.,,,Der,_____ Blick ist schön.,nominative,masculine
+353,4,Der Platz ist leer.,,,Der,_____ Platz ist leer.,nominative,masculine
+354,4,Die Zahl ist hoch.,,,Die,_____ Zahl ist hoch.,nominative,feminine
+355,4,Die Uhr ist kaputt.,,,Die,_____ Uhr ist kaputt.,nominative,feminine
+356,4,Die Eltern sind nett.,,,Die,_____ Eltern sind nett.,nominative,plural
+357,4,Das Jahrhundert ist lang.,,,Das,_____ Jahrhundert ist lang.,nominative,neuter
+358,4,Der Sohn ist klug.,,,Der,_____ Sohn ist klug.,nominative,masculine
+359,4,Das Werk ist bekannt.,,,Das,_____ Werk ist bekannt.,nominative,neuter
+360,4,Die Richtung ist richtig.,,,Die,_____ Richtung ist richtig.,nominative,feminine
+361,4,Das Programm ist neu.,,,Das,_____ Programm ist neu.,nominative,neuter
+362,4,Die Angst ist groß.,,,Die,_____ Angst ist groß.,nominative,feminine
+363,4,Die Information ist wichtig.,,,Die,_____ Information ist wichtig.,nominative,feminine
+364,4,Die Kunst ist schön.,,,Die,_____ Kunst ist schön.,nominative,feminine
+365,4,Die Musik ist laut.,,,Die,_____ Musik ist laut.,nominative,feminine
+366,4,Die Politiken sind kompliziert.,,,Die,_____ Politiken sind kompliziert.,nominative,plural
+367,4,Der Beruf ist spannend.,,,Der,_____ Beruf ist spannend.,nominative,masculine
+368,4,Die Regel ist klar.,,,Die,_____ Regel ist klar.,nominative,feminine
+369,4,Der Gott ist mächtig.,,,Der,_____ Gott ist mächtig.,nominative,masculine
+370,4,Das Auto ist schnell.,,,Das,_____ Auto ist schnell.,nominative,neuter
+371,4,Der Tisch ist aus Holz.,,,Der,_____ Tisch ist aus Holz.,nominative,masculine
+372,4,Das Spiel ist spannend.,,,Das,_____ Spiel ist spannend.,nominative,neuter
+373,4,Das Licht ist hell.,,,Das,_____ Licht ist hell.,nominative,neuter
+374,4,Der Markt ist groß.,,,Der,_____ Markt ist groß.,nominative,masculine
+375,4,Die Tochter ist freundlich.,,,Die,_____ Tochter ist freundlich.,nominative,feminine
+376,4,Die Kirchen sind alt.,,,Die,_____ Kirchen sind alt.,nominative,plural
+377,4,Die Frage ist einfach.,,,Die,_____ Frage ist einfach.,nominative,feminine
+378,4,Das Haus ist groß.,,,Das,_____ Haus ist groß.,nominative,neuter
+379,4,Die Leute sind freundlich.,,,Die,_____ Leute sind freundlich.,nominative,feminine
+380,4,Die Arbeit ist schwer.,,,Die,_____ Arbeit ist schwer.,nominative,feminine
+381,4,Das Prozent ist hoch.,,,Das,_____ Prozent ist hoch.,nominative,neuter
+382,4,Die Hand ist klein.,,,Die,_____ Hand ist klein.,nominative,feminine
+383,4,Die Stadt ist alt.,,,Die,_____ Stadt ist alt.,nominative,feminine
+384,4,Der Herr ist müde.,,,Der,_____ Herr ist müde.,nominative,masculine
+385,4,Das Problem ist groß.,,,Das,_____ Problem ist groß.,nominative,neuter
+386,4,Die Welt sind schön.,,,Die,_____ Welt sind schön.,nominative,plural
+387,4,Das Jahr haben zwölf Monate.,,,Das,_____ Jahr haben zwölf Monate.,nominative,neuter
+388,4,Das Mal ist anders als vorher.,,,Das,_____ Mal ist anders als vorher.,nominative,neuter
+389,4,Das Beispiel ist sehr einfach.,,,Das,_____ Beispiel ist sehr einfach.,nominative,neuter
+390,4,Die Zeit ist knapp.,,,Die,_____ Zeit ist knapp.,nominative,feminine
+391,4,Die Frau sind nett.,,,Die,_____ Frau sind nett.,nominative,feminine
+392,4,Der Mensch ist intelligent.,,,Der,_____ Mensch ist intelligent.,nominative,masculine
+393,4,Das Kind ist klein.,,,Das,_____ Kind ist klein.,nominative,neuter
+394,4,Der Tag ist schön.,,,Der,_____ Tag ist schön.,nominative,masculine
+395,4,Der Mann sind stark.,,,Der,_____ Mann sind stark.,nominative,masculine
+396,4,Das Land ist groß.,,,Das,_____ Land ist groß.,nominative,neuter
+397,4,Ich sehe das Ende des Films.,,,das,Ich sehe _____ Ende des Films.,accusative,neuter
+398,4,Er hat die Million gewonnen.,,,die,Er hat _____ Million gewonnen.,accusative,feminine
+399,4,Wir besuchen die Schule jeden Tag.,,,die,Wir besuchen _____ Schule jeden Tag.,accusative,feminine
+400,4,Ich plane die Woche im Voraus.,,,die,Ich plane _____ Woche im Voraus.,accusative,feminine
+401,4,Sie ruft den Vater an.,,,den,Sie ruft _____ Vater an.,accusative,masculine
+402,4,Ich lese die Seite im Buch.,,,die,Ich lese _____ Seite im Buch.,accusative,feminine
+403,4,Er genießt das Leben.,,,das,Er genießt _____ Leben.,accusative,neuter
+404,4,Wir besuchen die Mutter am Wochenende.,,,die,Wir besuchen _____ Mutter am Wochenende.,accusative,feminine
+405,4,Sie schützt das Auge mit einer Brille.,,,das,Sie schützt _____ Auge mit einer Brille.,accusative,neuter
+406,4,Er schreibt die Wörter auf.,,,das,Er schreibt die Wörter auf.,accusative,plural
+407,4,Er spart das Geld.,,,das,Er spart _____ Geld.,accusative,neuter
+408,4,Wir nehmen den Weg durch den Park.,,,den,Wir nehmen _____ Weg durch den Park.,accusative,masculine
+409,4,Ich lerne die Stunde lang.,,,die,Ich lerne _____ Stunde lang.,accusative,feminine
+410,4,Ich kenne den Namen nicht.,,,den,Ich kenne _____ Namen nicht.,accusative,masculine
+411,4,Er hält den Kopf hoch.,,,den,Er hält _____ Kopf hoch.,accusative,masculine
+412,4,Ich sehe das Paar auf der Straße.,,,das,Ich sehe _____ Paar auf der Straße.,accusative,neuter
+413,4,Wir unterstützen das Unternehmen.,,,das,Wir unterstützen _____ Unternehmen.,accusative,neuter
+414,4,Sie malt das Bild.,,,das,Sie malt _____ Bild.,accusative,neuter
+415,4,Er liest das Buch.,,,das,Er liest _____ Buch.,accusative,neuter
+416,4,Ich trinke die Wasser.,,,das,Ich trinke die Wasser.,accusative,plural
+417,4,Er findet die Stelle interessant.,,,die,Er findet _____ Stelle interessant.,accusative,feminine
+418,4,Ich ändere die Form des Designs.,,,die,Ich ändere _____ Form des Designs.,accusative,feminine
+419,4,Wir feiern den Monat des Herbstes.,,,den,Wir feiern _____ Monat des Herbstes.,accusative,masculine
+420,4,Sie liebt die Familie sehr.,,,die,Sie liebt _____ Familie sehr.,accusative,feminine
+421,4,Ich genieße den Morgen mit Kaffee.,,,den,Ich genieße _____ Morgen mit Kaffee.,accusative,masculine
+422,4,Wir verbringen den Abend zusammen.,,,den,Wir verbringen _____ Abend zusammen.,accusative,masculine
+423,4,Ich verstehe den Sinn des Wortes.,,,den,Ich verstehe _____ Sinn des Wortes.,accusative,masculine
+424,4,Er kennt den Staat gut.,,,den,Er kennt _____ Staat gut.,accusative,masculine
+425,4,Wir erreichen das Ziel bald.,,,das,Wir erreichen _____ Ziel bald.,accusative,neuter
+426,4,Ich besuche die Freunde in Berlin.,,,den,Ich besuche die Freunde in Berlin.,accusative,plural
+427,4,Er diskutiert das Thema im Kurs.,,,das,Er diskutiert _____ Thema im Kurs.,accusative,neuter
+428,4,Ich kenne die Person nicht.,,,die,Ich kenne _____ Person nicht.,accusative,feminine
+429,4,Sie verbringt die Nacht im Hotel.,,,die,Sie verbringt _____ Nacht im Hotel.,accusative,feminine
+430,4,Wir betreten den Raum leise.,,,den,Wir betreten _____ Raum leise.,accusative,masculine
+431,4,Ich genieße den Blick auf das Meer.,,,den,Ich genieße _____ Blick auf das Meer.,accusative,masculine
+432,4,Er reserviert den Platz für uns.,,,den,Er reserviert _____ Platz für uns.,accusative,masculine
+433,4,Ich schreibe die Zahl auf.,,,die,Ich schreibe _____ Zahl auf.,accusative,feminine
+434,4,Ich kaufe die Uhr im Geschäft.,,,die,Ich kaufe _____ Uhr im Geschäft.,accusative,feminine
+435,4,Wir besuchen die Eltern am Sonntag.,,,die,Wir besuchen _____ Eltern am Sonntag.,accusative,plural
+436,4,Ich überquere die Straße.,,,die,Ich überquere _____ Straße.,accusative,feminine
+437,4,Ich warte die Minute.,,,die,Ich warte _____ Minute.,accusative,feminine
+438,4,Er sieht die Gruppe im Park.,,,die,Er sieht _____ Gruppe im Park.,accusative,feminine
+439,4,Ich verstehe den Wert dieser Idee.,,,den,Ich verstehe _____ Wert dieser Idee.,accusative,masculine
+440,4,Sie wäscht das Gesicht mit Wasser.,,,das,Sie wäscht _____ Gesicht mit Wasser.,accusative,neuter
+441,4,Wir lernen die Sprache in der Schule.,,,die,Wir lernen _____ Sprache in der Schule.,accusative,feminine
+442,4,Ich besuche den Ort jedes Jahr.,,,den,Ich besuche _____ Ort jedes Jahr.,accusative,masculine
+443,4,Er genießt den Moment.,,,den,Er genießt _____ Moment.,accusative,masculine
+444,4,Ich habe das Interesse an diesem Thema.,,,das,Ich habe _____ Interesse an diesem Thema.,accusative,neuter
+445,4,Er spielt die Rollen gut.,,,die,Er spielt _____ Rollen gut.,accusative,plural
+446,4,Sie öffnet die Tür.,,,die,Sie öffnet _____ Tür.,accusative,feminine
+447,4,Der Lehrer hilft den Schüler.,,,den,Der Lehrer hilft _____ Schüler.,accusative,masculine
+448,4,Ich lese den Text im Buch.,,,den,Ich lese _____ Text im Buch.,accusative,masculine
+449,4,Er isst das Stück Kuchen.,,,das,Er isst _____ Stück Kuchen.,accusative,neuter
+450,4,Wir mieten die Wohnung.,,,die,Wir mieten _____ Wohnung.,accusative,feminine
+451,4,Er misst den Meter mit dem Lineal.,,,den,Er misst _____ Meter mit dem Lineal.,accusative,masculine
+452,4,Ich setze den Punkt am Ende des Satzes.,,,den,Ich setze _____ Punkt am Ende des Satzes.,accusative,masculine
+453,4,Sie erklärt die Situation.,,,die,Sie erklärt _____ Situation.,accusative,feminine
+454,4,Ich sehe den Lehrer in der Schule.,,,den,Ich sehe _____ Lehrer in der Schule.,accusative,masculine
+455,4,Er bezahlt die Preise.,,,die,Er bezahlt _____ Preise.,accusative,plural
+456,4,Ich studiere das Jahrhundert der Geschichte.,,,das,Ich studiere _____ Jahrhundert der Geschichte.,accusative,neuter
+457,4,Sie sieht den Sohn im Garten.,,,den,Sie sieht _____ Sohn im Garten.,accusative,masculine
+458,4,Er kennt das Werk des Künstlers.,,,das,Er kennt _____ Werk des Künstlers.,accusative,neuter
+459,4,Wir nehmen die Richtung nach Süden.,,,die,Wir nehmen _____ Richtung nach Süden.,accusative,feminine
+460,4,Ich installiere das Programm auf dem Computer.,,,das,Ich installiere _____ Programm auf dem Computer.,accusative,neuter
+461,4,Er fühlt die Angst in seinem Herzen.,,,die,Er fühlt _____ Angst in seinem Herzen.,accusative,feminine
+462,4,Sie sucht die Information online.,,,die,Sie sucht _____ Information online.,accusative,feminine
+463,4,Wir bewundern die Kunst im Museum.,,,die,Wir bewundern _____ Kunst im Museum.,accusative,feminine
+464,4,Er hört die Musik im Radio.,,,die,Er hört _____ Musik im Radio.,accusative,feminine
+465,4,Sie diskutiert die Politiken in der Zeitung.,,,die,Sie diskutiert _____ Politiken in der Zeitung.,accusative,plural
+466,4,Ich lerne den Beruf in der Ausbildung.,,,den,Ich lerne _____ Beruf in der Ausbildung.,accusative,masculine
+467,4,Wir befolgen die Regel in der Schule.,,,die,Wir befolgen _____ Regel in der Schule.,accusative,feminine
+468,4,Er verehrt den Gott seiner Religion.,,,den,Er verehrt _____ Gott seiner Religion.,accusative,masculine
+469,4,Er fährt das Auto zur Arbeit.,,,das,Er fährt _____ Auto zur Arbeit.,accusative,neuter
+470,4,Sie deckt den Tisch für das Abendessen.,,,den,Sie deckt _____ Tisch für das Abendessen.,accusative,masculine
+471,4,Ich spiele das Spiel mit meinen Freunden.,,,das,Ich spiele _____ Spiel mit meinen Freunden.,accusative,neuter
+472,4,Er schaltet das Licht aus.,,,das,Er schaltet _____ Licht aus.,accusative,neuter
+473,4,Sie besucht den Markt jeden Samstag.,,,den,Sie besucht _____ Markt jeden Samstag.,accusative,masculine
+474,4,Er liebt die Tochter sehr.,,,die,Er liebt _____ Tochter sehr.,accusative,feminine
+475,4,Wir besuchen die Kirchen am Sonntag.,,,die,Wir besuchen _____ Kirchen am Sonntag.,accusative,plural
+476,4,Ich sehe das Jahr auf dem Kalender.,,,das,Ich sehe _____ Jahr auf dem Kalender.,accusative,neuter
+477,4,Ich erinnere mich an das Mal.,,,das,Ich erinnere mich an _____ Mal.,accusative,neuter
+478,4,Er gibt das Beispiel im Unterricht.,,,das,Er gibt _____ Beispiel im Unterricht.,accusative,neuter
+479,4,Wir brauchen die Zeit für das Projekt.,,,die,Wir brauchen _____ Zeit für das Projekt.,accusative,feminine
+480,4,Er kennt die Frau gut.,,,die,Er kennt _____ Frau gut.,accusative,feminine
+481,4,Ich treffe den Menschen im Park.,,,den,Ich treffe _____ Menschen im Park.,accusative,masculine
+482,4,Sie liebt das Kind sehr.,,,das,Sie liebt _____ Kind sehr.,accusative,neuter
+483,4,Wir genießen den Tag am Strand.,,,den,Wir genießen _____ Tag am Strand.,accusative,masculine
+484,4,Sie sieht den Mann im Restaurant.,,,den,Sie sieht _____ Mann im Restaurant.,accusative,masculine
+485,4,Wir besuchen die Länder im Sommer.,,,die,Wir besuchen _____ Länder im Sommer.,accusative,plural
+486,4,Er beantwortet die Frage richtig.,,,die,Er beantwortet _____ Frage richtig.,accusative,feminine
+487,4,Sie kauft das Haus in der Stadt.,,,das,Sie kauft _____ Haus in der Stadt.,accusative,neuter
+488,4,Ich treffe die Leute am Bahnhof.,,,die,Ich treffe _____ Leute am Bahnhof.,accusative,feminine
+489,4,Sie erledigt die Arbeit schnell.,,,die,Sie erledigt _____ Arbeit schnell.,accusative,feminine
+490,4,Ich berechne das Prozent.,,,das,Ich berechne _____ Prozent.,accusative,neuter
+491,4,Er hält die Hand seines Freundes.,,,die,Er hält _____ Hand seines Freundes.,accusative,feminine
+492,4,Wir besuchen die Stadt am Wochenende.,,,die,Wir besuchen _____ Stadt am Wochenende.,accusative,feminine
+493,4,Ich rufe den Herrn am Telefon an.,,,den,Ich rufe _____ Herrn am Telefon an.,accusative,masculine
+494,4,Sie löst das Problem leicht.,,,das,Sie löst _____ Problem leicht.,accusative,neuter
+495,4,Er entdeckt die Welten mit Neugier.,,,die,Er entdeckt _____ Welten mit Neugier.,accusative,plural
+496,4,Er widmet sich dem Jahrhundert der Geschichte.,,,dem,Er widmet sich _____ Jahrhundert der Geschichte.,dative,masculine
+497,4,Sie gibt dem Sohn ein Geschenk.,,,dem,Sie gibt _____ Sohn ein Geschenk.,dative,masculine
+498,4,Er vertraut dem Werk des Künstlers.,,,dem,Er vertraut _____ Werk des Künstlers.,dative,masculine
+499,4,Ich folge der Richtung des Weges.,,,der,Ich folge _____ Richtung des Weges.,dative,feminine
+500,4,Ich helfe dem Programm bei der Installation.,,,dem,Ich helfe _____ Programm bei der Installation.,dative,masculine
+501,4,Er stellt sich der Angst.,,,der,Er stellt sich _____ Angst.,dative,feminine
+502,4,Sie folgt der Information auf der Website.,,,der,Sie folgt _____ Information auf der Website.,dative,feminine
+503,4,Wir danken der Kunst für ihre Schönheit.,,,der,Wir danken _____ Kunst für ihre Schönheit.,dative,feminine
+504,4,Er lauscht der Musik.,,,der,Er lauscht _____ Musik.,dative,feminine
+505,4,Sie widerspricht den Politiken des Landes.,,,der,Sie wi_____spricht den Politiken des Landes.,dative,plural
+506,4,Ich widme mich dem Beruf.,,,dem,Ich widme mich _____ Beruf.,dative,masculine
+507,4,Wir folgen der Regel in der Schule.,,,der,Wir folgen _____ Regel in _____ Schule.,dative,feminine
+508,4,Er glaubt dem Gott seiner Religion.,,,dem,Er glaubt _____ Gott seiner Religion.,dative,masculine
+509,4,Ich nähere mich dem Auto.,,,dem,Ich nähere mich _____ Auto.,dative,masculine
+510,4,Er gibt dem Tisch eine neue Farbe.,,,dem,Er gibt _____ Tisch eine neue Farbe.,dative,masculine
+511,4,Ich folge dem Spiel mit Spannung.,,,dem,Ich folge _____ Spiel mit Spannung.,dative,masculine
+512,4,Er nähert sich dem Licht am Ende des Tunnels.,,,dem,Er nähert sich _____ Licht am Ende des Tunnels.,dative,masculine
+513,4,Sie hilft dem Markt mit Werbung.,,,dem,Sie hilft _____ Markt mit Werbung.,dative,masculine
+514,4,Er schenkt der Tochter eine Puppe.,,,der,Er schenkt _____ Tochter eine Puppe.,dative,feminine
+515,4,Wir danken den Kirchen für ihre Unterstützung.,,,den,Wir danken _____ Kirchen für ihre Unterstützung.,dative,plural
+516,4,Ich folge der Straße bis zum Park.,,,der,Ich folge _____ Straße bis zum Park.,dative,feminine
+517,4,Ich widme der Minute meine volle Aufmerksamkeit.,,,der,Ich widme _____ Minute meine volle Aufmerksamkeit.,dative,feminine
+518,4,Er hilft der Gruppe mit den Aufgaben.,,,der,Er hilft _____ Gruppe mit den Aufgaben.,dative,feminine
+519,4,Ich vertraue dem Wert dieser Information.,,,dem,Ich vertraue _____ Wert dieser Information.,dative,masculine
+520,4,Sie wendet sich dem Gesicht zu.,,,dem,Sie wendet sich _____ Gesicht zu.,dative,masculine
+521,4,Wir danken der Sprache für ihre Schönheit.,,,der,Wir danken _____ Sprache für ihre Schönheit.,dative,feminine
+522,4,Ich nähere mich dem Ort langsam.,,,dem,Ich nähere mich _____ Ort langsam.,dative,masculine
+523,4,Er erinnert sich an dem Moment.,,,dem,Er erinnert sich an _____ Moment.,dative,masculine
+524,4,Sie folgt dem Interesse des Publikums.,,,dem,Sie folgt _____ Interesse des Publikums.,dative,masculine
+525,4,Er bleibt den Rollen treu.,,,den,Er bleibt _____ Rollen treu.,dative,plural
+526,4,Ich stehe der Tür gegenüber.,,,der,Ich stehe _____ Tür gegenüber.,dative,feminine
+527,4,Der Lehrer hilft dem Schüler.,,,dem,Der Lehrer hilft _____ Schüler.,dative,masculine
+528,4,Ich folge dem Text im Buch.,,,dem,Ich folge _____ Text im Buch.,dative,masculine
+529,4,Er gibt dem Stück eine neue Interpretation.,,,dem,Er gibt _____ Stück eine neue Interpretation.,dative,masculine
+530,4,Wir helfen der Wohnungssuche.,,,der,Wir helfen _____ Wohnungssuche.,dative,feminine
+531,4,Er misst dem Meter mit dem Lineal.,,,dem,Er misst _____ Meter mit _____ Lineal.,dative,masculine
+532,4,Ich nähere mich dem Punkt im Text.,,,dem,Ich nähere mich _____ Punkt im Text.,dative,masculine
+533,4,Ich passe mich der Situation an.,,,der,Ich passe mich _____ Situation an.,dative,feminine
+534,4,Ich danke dem Lehrer für die Hilfe.,,,dem,Ich danke _____ Lehrer für die Hilfe.,dative,masculine
+535,4,Er widerspricht den Preisen des Produkts.,,,den,Er widerspricht _____ Preisen des Produkts.,dative,plural
+536,4,Er hilft der Stelle mit neuen Ideen.,,,der,Er hilft _____ Stelle mit neuen Ideen.,dative,feminine
+537,4,Ich passe der Form an.,,,der,Ich passe _____ Form an.,dative,feminine
+538,4,Wir widmen dem Monat besondere Bedeutung.,,,dem,Wir widmen _____ Monat besondere Bedeutung.,dative,masculine
+539,4,Sie hilft der Familie oft.,,,der,Sie hilft _____ Familie oft.,dative,feminine
+540,4,Ich genieße dem Morgen mit einem Kaffee.,,,dem,Ich genieße _____ Morgen mit einem Kaffee.,dative,masculine
+541,4,Wir danken dem Abend für die Ruhe.,,,dem,Wir danken _____ Abend für die Ruhe.,dative,masculine
+542,4,Ich vertraue dem Sinn seiner Worte.,,,dem,Ich vertraue _____ Sinn seiner Worte.,dative,masculine
+543,4,Er dient dem Staat als Beamter.,,,dem,Er dient _____ Staat als Beamter.,dative,masculine
+544,4,Sie nähert sich dem Ziel langsam.,,,dem,Sie nähert sich _____ Ziel langsam.,dative,masculine
+545,4,Ich helfe den Freunden mit der Arbeit.,,,den,Ich helfe _____ Freunden mit der Arbeit.,dative,plural
+546,4,Wir bleiben dem Thema treu.,,,dem,Wir bleiben _____ Thema treu.,dative,masculine
+547,4,Ich danke der Person für ihre Hilfe.,,,der,Ich danke _____ Person für ihre Hilfe.,dative,feminine
+548,4,Er widmet sich der Nacht und den Sternen.,,,der,Er widmet sich _____ Nacht und den Sternen.,dative,feminine
+549,4,Ich gebe dem Raum eine neue Farbe.,,,dem,Ich gebe _____ Raum eine neue Farbe.,dative,masculine
+550,4,Sie folgt dem Blick des Fotografen.,,,dem,Sie folgt _____ Blick des Fotografen.,dative,masculine
+551,4,Er nähert sich dem Platz vorsichtig.,,,dem,Er nähert sich _____ Platz vorsichtig.,dative,masculine
+552,4,Ich vertraue der Zahl auf dem Formular.,,,der,Ich vertraue _____ Zahl auf dem Formular.,dative,feminine
+553,4,Ich glaube der Uhr nicht.,,,der,Ich glaube _____ Uhr nicht.,dative,feminine
+554,4,Wir helfen den Eltern im Haushalt.,,,den,Wir helfen _____ Eltern im Haushalt.,dative,plural
+555,4,Ich sehe dem Ende des Films entgegen.,,,dem,Ich sehe _____ Ende des Films entgegen.,dative,masculine
+556,4,Er vertraut der Million an der Börse.,,,der,Er vertraut _____ Million an der Börse.,dative,feminine
+557,4,Wir helfen der Schule mit Spenden.,,,der,Wir helfen _____ Schule mit Spenden.,dative,feminine
+558,4,Ich widme der Woche meine Zeit.,,,der,Ich widme _____ Woche meine Zeit.,dative,feminine
+559,4,Sie gibt dem Vater ein Geschenk.,,,dem,Sie gibt _____ Vater ein Geschenk.,dative,masculine
+560,4,Ich folge der Seite im Buch.,,,der,Ich folge _____ Seite im Buch.,dative,feminine
+561,4,Er dankt dem Leben für seine Erfahrungen.,,,dem,Er dankt _____ Leben für seine Erfahrungen.,dative,masculine
+562,4,Wir helfen der Mutter im Haushalt.,,,der,Wir helfen _____ Mutter im Haushalt.,dative,feminine
+563,4,Sie schützt dem Auge mit einer Brille.,,,dem,Sie schützt _____ Auge mit einer Brille.,dative,masculine
+564,4,Ich glaube den Wörtern des Lehrers.,,,den,Ich glaube _____ Wörtern des Lehrers.,dative,plural
+565,4,Er vertraut dem Geld nicht.,,,dem,Er vertraut _____ Geld nicht.,dative,masculine
+566,4,Ich folge dem Weg zum See.,,,dem,Ich folge _____ Weg zum See.,dative,masculine
+567,4,Ich widme der Stunde meine volle Konzentration.,,,der,Ich widme _____ Stunde meine volle Konzentration.,dative,feminine
+568,4,Ich erinnere mich an dem Namen.,,,dem,Ich erinnere mich an _____ Namen.,dative,masculine
+569,4,Er nickt dem Kopf zu.,,,dem,Er nickt _____ Kopf zu.,dative,masculine
+570,4,Ich gratuliere dem Paar zur Hochzeit.,,,dem,Ich gratuliere _____ Paar zur Hochzeit.,dative,masculine
+571,4,Wir helfen dem Unternehmen zu wachsen.,,,dem,Wir helfen _____ Unternehmen zu wachsen.,dative,masculine
+572,4,Ich zeige dem Bild meine Freunde.,,,dem,Ich zeige _____ Bild meine Freunde.,dative,masculine
+573,4,Sie gibt dem Buch eine neue Bedeutung.,,,dem,Sie gibt _____ Buch eine neue Bedeutung.,dative,masculine
+574,4,Ich nähere mich den Wassern vorsichtig.,,,den,Ich nähere mich _____ Wassern vorsichtig.,dative,plural
+575,4,Ich helfe dem Jahr mit einer neuen Planung.,,,dem,Ich helfe _____ Jahr mit einer neuen Planung.,dative,masculine
+576,4,Er gibt dem Mal eine neue Bedeutung.,,,dem,Er gibt _____ Mal eine neue Bedeutung.,dative,masculine
+577,4,Sie folgt dem Beispiel ihrer Mutter.,,,dem,Sie folgt _____ Beispiel ihrer Mutter.,dative,masculine
+578,4,Ich widme der Zeit meine Aufmerksamkeit.,,,der,Ich widme _____ Zeit meine Aufmerksamkeit.,dative,feminine
+579,4,Er schenkt der Frau Blumen.,,,der,Er schenkt _____ Frau Blumen.,dative,feminine
+580,4,Ich vertraue dem Menschen.,,,dem,Ich vertraue _____ Menschen.,dative,masculine
+581,4,Sie gibt dem Kind ein Geschenk.,,,dem,Sie gibt _____ Kind ein Geschenk.,dative,masculine
+582,4,Wir widmen dem Tag eine Feier.,,,dem,Wir widmen _____ Tag eine Feier.,dative,masculine
+583,4,Sie hilft dem Mann im Garten.,,,dem,Sie hilft _____ Mann im Garten.,dative,masculine
+584,4,Er dient den Ländern als Soldat.,,,dem,Er dient den Ländern als Soldat.,dative,plural
+585,4,Ich widme der Frage viel Zeit.,,,der,Ich widme _____ Frage viel Zeit.,dative,feminine
+586,4,Wir nähern uns dem Haus langsam.,,,dem,Wir nähern uns _____ Haus langsam.,dative,masculine
+587,4,Ich erzähle den Leuten eine Geschichte.,,,den,Ich erzähle _____ Leuten eine Geschichte.,dative,neuter
+588,4,Er widmet der Arbeit seine ganze Kraft.,,,der,Er widmet _____ Arbeit seine ganze Kraft.,dative,feminine
+589,4,Wir passen dem Prozent die Werte an.,,,dem,Wir passen _____ Prozent die Werte an.,dative,masculine
+590,4,Ich gebe der Hand einen festen Druck.,,,der,Ich gebe _____ Hand einen festen Druck.,dative,feminine
+591,4,Er zeigt der Stadt seine Kunst.,,,der,Er zeigt _____ Stadt seine Kunst.,dative,feminine
+592,4,Ich danke dem Herrn für seine Hilfe.,,,dem,Ich danke _____ Herrn für seine Hilfe.,dative,masculine
+593,4,Sie nähert sich dem Problem vorsichtig.,,,dem,Sie nähert sich _____ Problem vorsichtig.,dative,masculine
+594,4,Ich schenke den Welten ein Lächeln.,,,den,Ich schenke _____ Welten ein Lächeln.,dative,plural
+595,5,Ein Ende ist nah.,,,Ein,_____ Ende ist nah.,nominative,neuter
+596,5,Eine Million ist viel Geld.,,,Eine,_____ Million ist viel Geld.,nominative,feminine
+597,5,Eine Schule ist groß.,,,Eine,_____ Schule ist groß.,nominative,feminine
+598,5,Eine Woche hat sieben Tage.,,,Eine,_____ Woche hat sieben Tage.,nominative,feminine
+599,5,Ein Vater ist müde.,,,Ein,_____ Vater ist müde.,nominative,masculine
+600,5,Eine Seite ist weiß.,,,Eine,_____ Seite ist weiß.,nominative,feminine
+601,5,Ein Leben ist schön.,,,Ein,_____ Leben ist schön.,nominative,neuter
+602,5,Eine Mutter ist nett.,,,Eine,_____ Mutter ist nett.,nominative,feminine
+603,5,Ein Auge ist blau.,,,Ein,_____ Auge ist blau.,nominative,neuter
+604,5,Ein Geld ist wichtig.,,,Ein,_____ Geld ist wichtig.,nominative,neuter
+605,5,Ein Weg ist lang.,,,Ein,_____ Weg ist lang.,nominative,masculine
+606,5,Eine Stunde dauert sechzig Minuten.,,,Eine,_____ Stunde dauert sechzig Minuten.,nominative,feminine
+607,5,Ein Name ist bekannt.,,,Ein,_____ Name ist bekannt.,nominative,masculine
+608,5,Ein Kopf tut weh.,,,Ein,_____ Kopf tut weh.,nominative,masculine
+609,5,Ein Paar ist glücklich.,,,Ein,_____ Paar ist glücklich.,nominative,neuter
+610,5,Ein Unternehmen ist groß.,,,Ein,_____ Unternehmen ist groß.,nominative,neuter
+611,5,Ein Bild ist schön.,,,Ein,_____ Bild ist schön.,nominative,neuter
+612,5,Ein Buch ist spannend.,,,Ein,_____ Buch ist spannend.,nominative,neuter
+613,5,Eine Straße ist lang.,,,Eine,_____ Straße ist lang.,nominative,feminine
+614,5,Eine Minute ist kurz.,,,Eine,_____ Minute ist kurz.,nominative,feminine
+615,5,Eine Gruppe ist klein.,,,Eine,_____ Gruppe ist klein.,nominative,feminine
+616,5,Ein Wert ist hoch.,,,Ein,_____ Wert ist hoch.,nominative,masculine
+617,5,Ein Gesicht ist rund.,,,Ein,_____ Gesicht ist rund.,nominative,neuter
+618,5,Eine Sprache ist schwer.,,,Eine,_____ Sprache ist schwer.,nominative,feminine
+619,5,Ein Ort ist schön.,,,Ein,_____ Ort ist schön.,nominative,masculine
+620,5,Ein Moment ist wichtig.,,,Ein,_____ Moment ist wichtig.,nominative,masculine
+621,5,Ein Interesse ist groß.,,,Ein,_____ Interesse ist groß.,nominative,neuter
+622,5,Eine Tür ist offen.,,,Eine,_____ Tür ist offen.,nominative,feminine
+623,5,Ein Schüler ist fleißig.,,,Ein,_____ Schüler ist fleißig.,nominative,masculine
+624,5,Ein Text ist lang.,,,Ein,_____ Text ist lang.,nominative,masculine
+625,5,Ein Stück ist klein.,,,Ein,_____ Stück ist klein.,nominative,neuter
+626,5,Eine Wohnung ist teuer.,,,Eine,_____ Wohnung ist teuer.,nominative,feminine
+627,5,Ein Meter ist kurz.,,,Ein,_____ Meter ist kurz.,nominative,masculine
+628,5,Ein Punkt ist klar.,,,Ein,_____ Punkt ist klar.,nominative,masculine
+629,5,Eine Situation ist schwierig.,,,Eine,_____ Situation ist schwierig.,nominative,feminine
+630,5,Ein Lehrer ist nett.,,,Ein,_____ Lehrer ist nett.,nominative,masculine
+631,5,Eine Stelle ist wichtig.,,,Eine,_____ Stelle ist wichtig.,nominative,feminine
+632,5,Eine Form ist rund.,,,Eine,_____ Form ist rund.,nominative,feminine
+633,5,Ein Monat hat vier Wochen.,,,Ein,_____ Monat hat vier Wochen.,nominative,masculine
+634,5,Eine Familie ist groß.,,,Eine,_____ Familie ist groß.,nominative,feminine
+635,5,Ein Morgen ist schön.,,,Ein,_____ Morgen ist schön.,nominative,masculine
+636,5,Ein Abend ist ruhig.,,,Ein,_____ Abend ist ruhig.,nominative,masculine
+637,5,Ein Sinn ist klar.,,,Ein,_____ Sinn ist klar.,nominative,masculine
+638,5,Ein Staat ist reich.,,,Ein,_____ Staat ist reich.,nominative,masculine
+639,5,Ein Ziel ist weit.,,,Ein,_____ Ziel ist weit.,nominative,neuter
+640,5,Ein Thema ist interessant.,,,Ein,_____ Thema ist interessant.,nominative,neuter
+641,5,Eine Person ist freundlich.,,,Eine,_____ Person ist freundlich.,nominative,feminine
+642,5,Eine Nacht ist dunkel.,,,Eine,_____ Nacht ist dunkel.,nominative,feminine
+643,5,Ein Raum ist groß.,,,Ein,_____ Raum ist groß.,nominative,masculine
+644,5,Ein Blick ist schön.,,,Ein,_____ Blick ist schön.,nominative,masculine
+645,5,Ein Platz ist leer.,,,Ein,_____ Platz ist leer.,nominative,masculine
+646,5,Eine Zahl ist hoch.,,,Eine,_____ Zahl ist hoch.,nominative,feminine
+647,5,Eine Uhr ist kaputt.,,,Eine,_____ Uhr ist kaputt.,nominative,feminine
+648,5,Ein Jahrhundert ist lang.,,,Ein,_____ Jahrhundert ist lang.,nominative,neuter
+649,5,Ein Sohn ist klug.,,,Ein,_____ Sohn ist klug.,nominative,masculine
+650,5,Ein Werk ist bekannt.,,,Ein,_____ Werk ist bekannt.,nominative,neuter
+651,5,Eine Richtung ist richtig.,,,Eine,_____ Richtung ist richtig.,nominative,feminine
+652,5,Ein Programm ist neu.,,,Ein,_____ Programm ist neu.,nominative,neuter
+653,5,Eine Angst ist groß.,,,Eine,_____ Angst ist groß.,nominative,feminine
+654,5,Eine Information ist wichtig.,,,Eine,_____ Information ist wichtig.,nominative,feminine
+655,5,Eine Kunst ist schön.,,,Eine,_____ Kunst ist schön.,nominative,feminine
+656,5,Eine Musik ist laut.,,,Eine,_____ Musik ist laut.,nominative,feminine
+657,5,Ein Beruf ist spannend.,,,Ein,_____ Beruf ist spannend.,nominative,masculine
+658,5,Eine Regel ist klar.,,,Eine,_____ Regel ist klar.,nominative,feminine
+659,5,Ein Gott ist mächtig.,,,Ein,_____ Gott ist mächtig.,nominative,masculine
+660,5,Ein Auto ist schnell.,,,Ein,_____ Auto ist schnell.,nominative,neuter
+661,5,Ein Tisch ist aus Holz.,,,Ein,_____ Tisch ist aus Holz.,nominative,masculine
+662,5,Ein Spiel ist spannend.,,,Ein,_____ Spiel ist spannend.,nominative,neuter
+663,5,Ein Licht ist hell.,,,Ein,_____ Licht ist hell.,nominative,neuter
+664,5,Ein Markt ist groß.,,,Ein,_____ Markt ist groß.,nominative,masculine
+665,5,Eine Tochter ist freundlich.,,,Eine,_____ Tochter ist freundlich.,nominative,feminine
+666,5,Eine Frage ist einfach.,,,Eine,_____ Frage ist einfach.,nominative,feminine
+667,5,Ein Haus ist groß.,,,Ein,_____ Haus ist groß.,nominative,neuter
+668,5,Eine Leute sind freundlich.,,,Eine,_____ Leute sind freundlich.,nominative,feminine
+669,5,Eine Arbeit ist schwer.,,,Eine,_____ Arbeit ist schwer.,nominative,feminine
+670,5,Ein Prozent ist hoch.,,,Ein,_____ Prozent ist hoch.,nominative,neuter
+671,5,Eine Hand ist klein.,,,Eine,_____ Hand ist klein.,nominative,feminine
+672,5,Eine Stadt ist alt.,,,Eine,_____ Stadt ist alt.,nominative,feminine
+673,5,Ein Herr ist müde.,,,Ein,_____ Herr ist müde.,nominative,masculine
+674,5,Ein Problem ist groß.,,,Ein,_____ Problem ist groß.,nominative,neuter
+675,5,Ein Jahr haben zwölf Monate.,,,Ein,_____ Jahr haben zwölf Monate.,nominative,neuter
+676,5,Ein Mal ist anders als vorher.,,,Ein,_____ Mal ist anders als vorher.,nominative,neuter
+677,5,Ein Beispiel ist sehr einfach.,,,Ein,_____ Beispiel ist sehr einfach.,nominative,neuter
+678,5,Eine Zeit ist knapp.,,,Eine,_____ Zeit ist knapp.,nominative,feminine
+679,5,Eine Frau sind nett.,,,Eine,_____ Frau sind nett.,nominative,feminine
+680,5,Ein Mensch ist intelligent.,,,Ein,_____ Mensch ist intelligent.,nominative,masculine
+681,5,Ein Kind ist klein.,,,Ein,_____ Kind ist klein.,nominative,neuter
+682,5,Ein Tag ist schön.,,,Ein,_____ Tag ist schön.,nominative,masculine
+683,5,Ein Mann sind stark.,,,Ein,_____ Mann sind stark.,nominative,masculine
+684,5,Ein Land ist groß.,,,Ein,_____ Land ist groß.,nominative,neuter
+685,6,Ich sehe ein Ende des Films.,,,ein,Ich sehe _____ Ende des Films.,accusative,neuter
+686,6,Er hat eine Million gewonnen.,,,eine,Er hat _____ Million gewonnen.,accusative,feminine
+687,6,Wir besuchen eine Schule jeden Tag.,,,eine,Wir besuchen _____ Schule jeden Tag.,accusative,feminine
+688,6,Ich plane eine Woche im Voraus.,,,eine,Ich plane _____ Woche im Voraus.,accusative,feminine
+689,6,Sie ruft einen Vater an.,,,einen,Sie ruft _____ Vater an.,accusative,masculine
+690,6,Ich lese eine Seite im Buch.,,,eine,Ich lese _____ Seite im Buch.,accusative,feminine
+691,6,Er genießt ein Leben.,,,ein,Er genießt _____ Leben.,accusative,neuter
+692,6,Wir besuchen eine Mutter am Wochenende.,,,eine,Wir besuchen _____ Mutter am Wochenende.,accusative,feminine
+693,6,Sie schützt ein Auge mit einer Brille.,,,ein,Sie schützt _____ Auge mit _____er Brille.,accusative,neuter
+694,6,Er spart ein Geld.,,,ein,Er spart _____ Geld.,accusative,neuter
+695,6,Wir nehmen einen Weg durch den Park.,,,einen,Wir nehmen _____ Weg durch den Park.,accusative,masculine
+696,6,Ich lerne eine Stunde lang.,,,eine,Ich lerne _____ Stunde lang.,accusative,feminine
+697,6,Ich kenne einen Namen nicht.,,,einen,Ich kenne _____ Namen nicht.,accusative,masculine
+698,6,Er hält einen Kopf hoch.,,,einen,Er hält _____ Kopf hoch.,accusative,masculine
+699,6,Ich sehe ein Paar auf der Straße.,,,ein,Ich sehe _____ Paar auf der Straße.,accusative,neuter
+700,6,Wir unterstützen ein Unternehmen.,,,ein,Wir unterstützen _____ Unternehmen.,accusative,neuter
+701,6,Sie malt ein Bild.,,,ein,Sie malt _____ Bild.,accusative,neuter
+702,6,Er liest ein Buch.,,,ein,Er liest _____ Buch.,accusative,neuter
+703,6,Er findet eine Stelle interessant.,,,eine,Er findet _____ Stelle interessant.,accusative,feminine
+704,6,Ich ändere eine Form des Designs.,,,eine,Ich ändere _____ Form des Designs.,accusative,feminine
+705,6,Wir feiern einen Monat des Herbstes.,,,einen,Wir feiern _____ Monat des Herbstes.,accusative,masculine
+706,6,Sie liebt eine Familie sehr.,,,eine,Sie liebt _____ Familie sehr.,accusative,feminine
+707,6,Ich genieße einen Morgen mit Kaffee.,,,einen,Ich genieße _____ Morgen mit Kaffee.,accusative,masculine
+708,6,Wir verbringen einen Abend zusammen.,,,einen,Wir verbringen _____ Abend zusammen.,accusative,masculine
+709,6,Ich verstehe einen Sinn des Wortes.,,,einen,Ich verstehe _____ Sinn des Wortes.,accusative,masculine
+710,6,Er kennt einen Staat gut.,,,einen,Er kennt _____ Staat gut.,accusative,masculine
+711,6,Wir erreichen ein Ziel bald.,,,ein,Wir erreichen _____ Ziel bald.,accusative,neuter
+712,6,Er diskutiert ein Thema im Kurs.,,,ein,Er diskutiert _____ Thema im Kurs.,accusative,neuter
+713,6,Ich kenne eine Person nicht.,,,eine,Ich kenne _____ Person nicht.,accusative,feminine
+714,6,Sie verbringt eine Nacht im Hotel.,,,eine,Sie verbringt _____ Nacht im Hotel.,accusative,feminine
+715,6,Wir betreten einen Raum leise.,,,einen,Wir betreten _____ Raum leise.,accusative,masculine
+716,6,Ich genieße einen Blick auf das Meer.,,,einen,Ich genieße _____ Blick auf das Meer.,accusative,masculine
+717,6,Er reserviert einen Platz für uns.,,,einen,Er reserviert _____ Platz für uns.,accusative,masculine
+718,6,Ich schreibe eine Zahl auf.,,,eine,Ich schreibe _____ Zahl auf.,accusative,feminine
+719,6,Ich kaufe eine Uhr im Geschäft.,,,eine,Ich kaufe _____ Uhr im Geschäft.,accusative,feminine
+720,6,Ich überquere eine Straße.,,,eine,Ich überquere _____ Straße.,accusative,feminine
+721,6,Ich warte eine Minute.,,,eine,Ich warte _____ Minute.,accusative,feminine
+722,6,Er sieht eine Gruppe im Park.,,,eine,Er sieht _____ Gruppe im Park.,accusative,feminine
+723,6,Ich verstehe einen Wert dieser Idee.,,,einen,Ich verstehe _____ Wert dieser Idee.,accusative,masculine
+724,6,Sie wäscht ein Gesicht mit Wasser.,,,ein,Sie wäscht _____ Gesicht mit Wasser.,accusative,neuter
+725,6,Wir lernen eine Sprache in der Schule.,,,eine,Wir lernen _____ Sprache in der Schule.,accusative,feminine
+726,6,Ich besuche einen Ort jedes Jahr.,,,einen,Ich besuche _____ Ort jedes Jahr.,accusative,masculine
+727,6,Er genießt einen Moment.,,,einen,Er genießt _____ Moment.,accusative,masculine
+728,6,Ich habe ein Interesse an diesem Thema.,,,ein,Ich habe _____ Interesse an diesem Thema.,accusative,neuter
+729,6,Sie öffnet eine Tür.,,,eine,Sie öffnet _____ Tür.,accusative,feminine
+730,6,Der Lehrer hilft einen Schüler.,,,einen,Der Lehrer hilft _____ Schüler.,accusative,masculine
+731,6,Ich lese einen Text im Buch.,,,einen,Ich lese _____ Text im Buch.,accusative,masculine
+732,6,Er isst ein Stück Kuchen.,,,ein,Er isst _____ Stück Kuchen.,accusative,neuter
+733,6,Wir mieten eine Wohnung.,,,eine,Wir mieten _____ Wohnung.,accusative,feminine
+734,6,Er misst einen Meter mit dem Lineal.,,,einen,Er misst _____ Meter mit dem Lineal.,accusative,masculine
+735,6,Ich setze einen Punkt am Ende des Satzes.,,,einen,Ich setze _____ Punkt am Ende des Satzes.,accusative,masculine
+736,6,Sie erklärt eine Situation.,,,eine,Sie erklärt _____ Situation.,accusative,feminine
+737,6,Ich sehe einen Lehrer in der Schule.,,,einen,Ich sehe _____ Lehrer in der Schule.,accusative,masculine
+738,6,Ich studiere ein Jahrhundert der Geschichte.,,,ein,Ich studiere _____ Jahrhundert der Geschichte.,accusative,neuter
+739,6,Sie sieht einen Sohn im Garten.,,,einen,Sie sieht _____ Sohn im Garten.,accusative,masculine
+740,6,Er kennt ein Werk des Künstlers.,,,ein,Er kennt _____ Werk des Künstlers.,accusative,neuter
+741,6,Wir nehmen eine Richtung nach Süden.,,,eine,Wir nehmen _____ Richtung nach Süden.,accusative,feminine
+742,6,Ich installiere ein Programm auf dem Computer.,,,ein,Ich installiere _____ Programm auf dem Computer.,accusative,neuter
+743,6,Er fühlt eine Angst in seinem Herzen.,,,eine,Er fühlt _____ Angst in s_____m Herzen.,accusative,feminine
+744,6,Sie sucht eine Information online.,,,eine,Sie sucht _____ Information online.,accusative,feminine
+745,6,Wir bewundern eine Kunst im Museum.,,,eine,Wir bewundern _____ Kunst im Museum.,accusative,feminine
+746,6,Er hört eine Musik im Radio.,,,eine,Er hört _____ Musik im Radio.,accusative,feminine
+747,6,Ich lerne einen Beruf in der Ausbildung.,,,einen,Ich lerne _____ Beruf in der Ausbildung.,accusative,masculine
+748,6,Wir befolgen eine Regel in der Schule.,,,eine,Wir befolgen _____ Regel in der Schule.,accusative,feminine
+749,6,Er verehrt einen Gott seiner Religion.,,,einen,Er verehrt _____ Gott seiner Religion.,accusative,masculine
+750,6,Er fährt ein Auto zur Arbeit.,,,ein,Er fährt _____ Auto zur Arbeit.,accusative,neuter
+751,6,Sie deckt einen Tisch für das Abendessen.,,,einen,Sie deckt _____ Tisch für das Abendessen.,accusative,masculine
+752,6,Ich spiele ein Spiel mit meinen Freunden.,,,ein,Ich spiele _____ Spiel mit m_____en Freunden.,accusative,neuter
+753,6,Er schaltet ein Licht aus.,,,ein,Er schaltet _____ Licht aus.,accusative,neuter
+754,6,Sie besucht einen Markt jeden Samstag.,,,einen,Sie besucht _____ Markt jeden Samstag.,accusative,masculine
+755,6,Er liebt eine Tochter sehr.,,,eine,Er liebt _____ Tochter sehr.,accusative,feminine
+756,6,Ich sehe ein Jahr auf dem Kalender.,,,ein,Ich sehe _____ Jahr auf dem Kalender.,accusative,neuter
+757,6,Ich erinnere mich an ein Mal.,,,ein,Ich erinnere mich an _____ Mal.,accusative,neuter
+758,6,Er gibt ein Beispiel im Unterricht.,,,ein,Er gibt _____ Beispiel im Unterricht.,accusative,neuter
+759,6,Wir brauchen eine Zeit für das Projekt.,,,eine,Wir brauchen _____ Zeit für das Projekt.,accusative,feminine
+760,6,Er kennt eine Frau gut.,,,eine,Er kennt _____ Frau gut.,accusative,feminine
+761,6,Ich treffe einen Menschen im Park.,,,einen,Ich treffe _____ Menschen im Park.,accusative,masculine
+762,6,Sie liebt ein Kind sehr.,,,ein,Sie liebt _____ Kind sehr.,accusative,neuter
+763,6,Wir genießen einen Tag am Strand.,,,einen,Wir genießen _____ Tag am Strand.,accusative,masculine
+764,6,Sie sieht einen Mann im Restaurant.,,,einen,Sie sieht _____ Mann im Restaurant.,accusative,masculine
+765,6,Er beantwortet eine Frage richtig.,,,eine,Er beantwortet _____ Frage richtig.,accusative,feminine
+766,6,Sie kauft ein Haus in der Stadt.,,,ein,Sie kauft _____ Haus in der Stadt.,accusative,neuter
+767,6,Ich treffe eine Leute am Bahnhof.,,,eine,Ich treffe _____ Leute am Bahnhof.,accusative,feminine
+768,6,Sie erledigt eine Arbeit schnell.,,,eine,Sie erledigt _____ Arbeit schnell.,accusative,feminine
+769,6,Ich berechne ein Prozent.,,,ein,Ich berechne _____ Prozent.,accusative,neuter
+770,6,Er hält eine Hand seines Freundes.,,,eine,Er hält _____ Hand s_____s Freundes.,accusative,feminine
+771,6,Wir besuchen eine Stadt am Wochenende.,,,eine,Wir besuchen _____ Stadt am Wochenende.,accusative,feminine
+772,6,Ich rufe einen Herrn am Telefon an.,,,einen,Ich rufe _____ Herrn am Telefon an.,accusative,masculine
+773,6,Sie löst ein Problem leicht.,,,ein,Sie löst _____ Problem leicht.,accusative,neuter
+774,7,Er widmet sich einem Jahrhundert der Geschichte.,,,einem,Er widmet sich _____ Jahrhundert der Geschichte.,dative,masculine
+775,7,Sie gibt einem Sohn ein Geschenk.,,,einem,Sie gibt _____ Sohn ein Geschenk.,dative,masculine
+776,7,Er vertraut einem Werk des Künstlers.,,,einem,Er vertraut _____ Werk des Künstlers.,dative,masculine
+777,7,Ich folge einer Richtung des Weges.,,,einer,Ich folge _____ Richtung des Weges.,dative,feminine
+778,7,Ich helfe einem Programm bei der Installation.,,,einem,Ich helfe _____ Programm bei der Installation.,dative,masculine
+779,7,Er stellt sich einer Angst.,,,einer,Er stellt sich _____ Angst.,dative,feminine
+780,7,Sie folgt einer Information auf der Website.,,,einer,Sie folgt _____ Information auf der Website.,dative,feminine
+781,7,Wir danken einer Kunst für ihre Schönheit.,,,einer,Wir danken _____ Kunst für ihre Schönheit.,dative,feminine
+782,7,Er lauscht einer Musik.,,,einer,Er lauscht _____ Musik.,dative,feminine
+783,7,Ich widme mich einem Beruf.,,,einem,Ich widme mich _____ Beruf.,dative,masculine
+784,7,Wir folgen einer Regel in der Schule.,,,einer,Wir folgen _____ Regel in der Schule.,dative,feminine
+785,7,Er glaubt einem Gott seiner Religion.,,,einem,Er glaubt _____ Gott seiner Religion.,dative,masculine
+786,7,Ich nähere mich einem Auto.,,,einem,Ich nähere mich _____ Auto.,dative,masculine
+787,7,Er gibt einem Tisch eine neue Farbe.,,,einem,Er gibt _____ Tisch eine neue Farbe.,dative,masculine
+788,7,Ich folge einem Spiel mit Spannung.,,,einem,Ich folge _____ Spiel mit Spannung.,dative,masculine
+789,7,Er nähert sich einem Licht am Ende des Tunnels.,,,einem,Er nähert sich _____ Licht am Ende des Tunnels.,dative,masculine
+790,7,Sie hilft einem Markt mit Werbung.,,,einem,Sie hilft _____ Markt mit Werbung.,dative,masculine
+791,7,Er schenkt einer Tochter eine Puppe.,,,einer,Er schenkt _____ Tochter eine Puppe.,dative,feminine
+792,7,Ich folge einer Straße bis zum Park.,,,einer,Ich folge _____ Straße bis zum Park.,dative,feminine
+793,7,Ich widme einer Minute meine volle Aufmerksamkeit.,,,einer,Ich widme _____ Minute meine volle Aufmerksamkeit.,dative,feminine
+794,7,Er hilft einer Gruppe mit den Aufgaben.,,,einer,Er hilft _____ Gruppe mit den Aufgaben.,dative,feminine
+795,7,Ich vertraue einem Wert dieser Information.,,,einem,Ich vertraue _____ Wert dieser Information.,dative,masculine
+796,7,Sie wendet sich einem Gesicht zu.,,,einem,Sie wendet sich _____ Gesicht zu.,dative,masculine
+797,7,Wir danken einer Sprache für ihre Schönheit.,,,einer,Wir danken _____ Sprache für ihre Schönheit.,dative,feminine
+798,7,Ich nähere mich einem Ort langsam.,,,einem,Ich nähere mich _____ Ort langsam.,dative,masculine
+799,7,Er erinnert sich an einem Moment.,,,einem,Er erinnert sich an _____ Moment.,dative,masculine
+800,7,Sie folgt einem Interesse des Publikums.,,,einem,Sie folgt _____ Interesse des Publikums.,dative,masculine
+801,7,Ich stehe einer Tür gegenüber.,,,einer,Ich stehe _____ Tür gegenüber.,dative,feminine
+802,7,Der Lehrer hilft einem Schüler.,,,einem,Der Lehrer hilft _____ Schüler.,dative,masculine
+803,7,Ich folge einem Text im Buch.,,,einem,Ich folge _____ Text im Buch.,dative,masculine
+804,7,Er gibt einem Stück eine neue Interpretation.,,,einem,Er gibt _____ Stück eine neue Interpretation.,dative,masculine
+805,7,Wir helfen einer Wohnungssuche.,,,einer,Wir helfen _____ Wohnungssuche.,dative,feminine
+806,7,Er misst einem Meter mit dem Lineal.,,,einem,Er misst _____ Meter mit dem Lineal.,dative,masculine
+807,7,Ich nähere mich einem Punkt im Text.,,,einem,Ich nähere mich _____ Punkt im Text.,dative,masculine
+808,7,Ich passe mich einer Situation an.,,,einer,Ich passe mich _____ Situation an.,dative,feminine
+809,7,Ich danke einem Lehrer für die Hilfe.,,,einem,Ich danke _____ Lehrer für die Hilfe.,dative,masculine
+810,7,Er hilft einer Stelle mit neuen Ideen.,,,einer,Er hilft _____ Stelle mit neuen Ideen.,dative,feminine
+811,7,Ich passe einer Form an.,,,einer,Ich passe _____ Form an.,dative,feminine
+812,7,Wir widmen einem Monat besondere Bedeutung.,,,einem,Wir widmen _____ Monat besondere Bedeutung.,dative,masculine
+813,7,Sie hilft einer Familie oft.,,,einer,Sie hilft _____ Familie oft.,dative,feminine
+814,7,Ich genieße einem Morgen mit einem Kaffee.,,,einem,Ich genieße _____ Morgen mit _____ Kaffee.,dative,masculine
+815,7,Wir danken einem Abend für die Ruhe.,,,einem,Wir danken _____ Abend für die Ruhe.,dative,masculine
+816,7,Ich vertraue einem Sinn seiner Worte.,,,einem,Ich vertraue _____ Sinn seiner Worte.,dative,masculine
+817,7,Er dient einem Staat als Beamter.,,,einem,Er dient _____ Staat als Beamter.,dative,masculine
+818,7,Sie nähert sich einem Ziel langsam.,,,einem,Sie nähert sich _____ Ziel langsam.,dative,masculine
+819,7,Wir bleiben einem Thema treu.,,,einem,Wir bleiben _____ Thema treu.,dative,masculine
+820,7,Ich danke einer Person für ihre Hilfe.,,,einer,Ich danke _____ Person für ihre Hilfe.,dative,feminine
+821,7,Er widmet sich einer Nacht und den Sternen.,,,einer,Er widmet sich _____ Nacht und den Sternen.,dative,feminine
+822,7,Ich gebe einem Raum eine neue Farbe.,,,einem,Ich gebe _____ Raum eine neue Farbe.,dative,masculine
+823,7,Sie folgt einem Blick des Fotografen.,,,einem,Sie folgt _____ Blick des Fotografen.,dative,masculine
+824,7,Er nähert sich einem Platz vorsichtig.,,,einem,Er nähert sich _____ Platz vorsichtig.,dative,masculine
+825,7,Ich vertraue einer Zahl auf dem Formular.,,,einer,Ich vertraue _____ Zahl auf dem Formular.,dative,feminine
+826,7,Ich glaube einer Uhr nicht.,,,einer,Ich glaube _____ Uhr nicht.,dative,feminine
+827,7,Ich sehe einem Ende des Films entgegen.,,,einem,Ich sehe _____ Ende des Films entgegen.,dative,masculine
+828,7,Er vertraut einer Million an der Börse.,,,einer,Er vertraut _____ Million an der Börse.,dative,feminine
+829,7,Wir helfen einer Schule mit Spenden.,,,einer,Wir helfen _____ Schule mit Spenden.,dative,feminine
+830,7,Ich widme einer Woche meine Zeit.,,,einer,Ich widme _____ Woche meine Zeit.,dative,feminine
+831,7,Sie gibt einem Vater ein Geschenk.,,,einem,Sie gibt _____ Vater ein Geschenk.,dative,masculine
+832,7,Ich folge einer Seite im Buch.,,,einer,Ich folge _____ Seite im Buch.,dative,feminine
+833,7,Er dankt einem Leben für seine Erfahrungen.,,,einem,Er dankt _____ Leben für seine Erfahrungen.,dative,masculine
+834,7,Wir helfen einer Mutter im Haushalt.,,,einer,Wir helfen _____ Mutter im Haushalt.,dative,feminine
+835,7,Sie schützt einem Auge mit einer Brille.,,,einem,Sie schützt _____ Auge mit einer Brille.,dative,masculine
+836,7,Er vertraut einem Geld nicht.,,,einem,Er vertraut _____ Geld nicht.,dative,masculine
+837,7,Ich folge einem Weg zum See.,,,einem,Ich folge _____ Weg zum See.,dative,masculine
+838,7,Ich widme einer Stunde meine volle Konzentration.,,,einer,Ich widme _____ Stunde meine volle Konzentration.,dative,feminine
+839,7,Ich erinnere mich an einem Namen.,,,einem,Ich erinnere mich an _____ Namen.,dative,masculine
+840,7,Er nickt einem Kopf zu.,,,einem,Er nickt _____ Kopf zu.,dative,masculine
+841,7,Ich gratuliere einem Paar zur Hochzeit.,,,einem,Ich gratuliere _____ Paar zur Hochzeit.,dative,masculine
+842,7,Wir helfen einem Unternehmen zu wachsen.,,,einem,Wir helfen _____ Unternehmen zu wachsen.,dative,masculine
+843,7,Ich zeige einem Bild meine Freunde.,,,einem,Ich zeige _____ Bild meine Freunde.,dative,masculine
+844,7,Sie gibt einem Buch eine neue Bedeutung.,,,einem,Sie gibt _____ Buch eine neue Bedeutung.,dative,masculine
+845,7,Ich helfe einem Jahr mit einer neuen Planung.,,,einem,Ich helfe _____ Jahr mit einer neuen Planung.,dative,masculine
+846,7,Er gibt einem Mal eine neue Bedeutung.,,,einem,Er gibt _____ Mal eine neue Bedeutung.,dative,masculine
+847,7,Sie folgt einem Beispiel ihrer Mutter.,,,einem,Sie folgt _____ Beispiel ihrer Mutter.,dative,masculine
+848,7,Ich widme einer Zeit meine Aufmerksamkeit.,,,einer,Ich widme _____ Zeit meine Aufmerksamkeit.,dative,feminine
+849,7,Er schenkt einer Frau Blumen.,,,einer,Er schenkt _____ Frau Blumen.,dative,feminine
+850,7,Ich vertraue einem Menschen.,,,einem,Ich vertraue _____ Menschen.,dative,masculine
+851,7,Sie gibt einem Kind ein Geschenk.,,,einem,Sie gibt _____ Kind ein Geschenk.,dative,masculine
+852,7,Wir widmen einem Tag eine Feier.,,,einem,Wir widmen _____ Tag eine Feier.,dative,masculine
+853,7,Sie hilft einem Mann im Garten.,,,einem,Sie hilft _____ Mann im Garten.,dative,masculine
+854,7,Ich widme einer Frage viel Zeit.,,,einer,Ich widme _____ Frage viel Zeit.,dative,feminine
+855,7,Wir nähern uns einem Haus langsam.,,,einem,Wir nähern uns _____ Haus langsam.,dative,masculine
+856,7,Ich erzähle einen Leuten eine Geschichte.,,,einen,Ich erzähle _____ Leuten eine Geschichte.,dative,neuter
+857,7,Er widmet einer Arbeit seine ganze Kraft.,,,einer,Er widmet _____ Arbeit seine ganze Kraft.,dative,feminine
+858,7,Wir passen einem Prozent die Werte an.,,,einem,Wir passen _____ Prozent die Werte an.,dative,masculine
+859,7,Ich gebe einer Hand einen festen Druck.,,,einer,Ich gebe _____ Hand einen festen Druck.,dative,feminine
+860,7,Er zeigt einer Stadt seine Kunst.,,,einer,Er zeigt _____ Stadt seine Kunst.,dative,feminine
+861,7,Ich danke einem Herrn für seine Hilfe.,,,einem,Ich danke _____ Herrn für seine Hilfe.,dative,masculine
+862,7,Sie nähert sich einem Problem vorsichtig.,,,einem,Sie nähert sich _____ Problem vorsichtig.,dative,masculine
+863,8,Ein Ende ist nah.,,,Ein,_____ Ende ist nah.,nominative,neuter
+864,8,Eine Million ist viel Geld.,,,Eine,_____ Million ist viel Geld.,nominative,feminine
+865,8,Eine Schule ist groß.,,,Eine,_____ Schule ist groß.,nominative,feminine
+866,8,Eine Woche hat sieben Tage.,,,Eine,_____ Woche hat sieben Tage.,nominative,feminine
+867,8,Ein Vater ist müde.,,,Ein,_____ Vater ist müde.,nominative,masculine
+868,8,Eine Seite ist weiß.,,,Eine,_____ Seite ist weiß.,nominative,feminine
+869,8,Ein Leben ist schön.,,,Ein,_____ Leben ist schön.,nominative,neuter
+870,8,Eine Mutter ist nett.,,,Eine,_____ Mutter ist nett.,nominative,feminine
+871,8,Ein Auge ist blau.,,,Ein,_____ Auge ist blau.,nominative,neuter
+872,8,Ein Geld ist wichtig.,,,Ein,_____ Geld ist wichtig.,nominative,neuter
+873,8,Ein Weg ist lang.,,,Ein,_____ Weg ist lang.,nominative,masculine
+874,8,Eine Stunde dauert sechzig Minuten.,,,Eine,_____ Stunde dauert sechzig Minuten.,nominative,feminine
+875,8,Ein Name ist bekannt.,,,Ein,_____ Name ist bekannt.,nominative,masculine
+876,8,Ein Kopf tut weh.,,,Ein,_____ Kopf tut weh.,nominative,masculine
+877,8,Ein Paar ist glücklich.,,,Ein,_____ Paar ist glücklich.,nominative,neuter
+878,8,Ein Unternehmen ist groß.,,,Ein,_____ Unternehmen ist groß.,nominative,neuter
+879,8,Ein Bild ist schön.,,,Ein,_____ Bild ist schön.,nominative,neuter
+880,8,Ein Buch ist spannend.,,,Ein,_____ Buch ist spannend.,nominative,neuter
+881,8,Eine Straße ist lang.,,,Eine,_____ Straße ist lang.,nominative,feminine
+882,8,Eine Minute ist kurz.,,,Eine,_____ Minute ist kurz.,nominative,feminine
+883,8,Eine Gruppe ist klein.,,,Eine,_____ Gruppe ist klein.,nominative,feminine
+884,8,Ein Wert ist hoch.,,,Ein,_____ Wert ist hoch.,nominative,masculine
+885,8,Ein Gesicht ist rund.,,,Ein,_____ Gesicht ist rund.,nominative,neuter
+886,8,Eine Sprache ist schwer.,,,Eine,_____ Sprache ist schwer.,nominative,feminine
+887,8,Ein Ort ist schön.,,,Ein,_____ Ort ist schön.,nominative,masculine
+888,8,Ein Moment ist wichtig.,,,Ein,_____ Moment ist wichtig.,nominative,masculine
+889,8,Ein Interesse ist groß.,,,Ein,_____ Interesse ist groß.,nominative,neuter
+890,8,Eine Tür ist offen.,,,Eine,_____ Tür ist offen.,nominative,feminine
+891,8,Ein Schüler ist fleißig.,,,Ein,_____ Schüler ist fleißig.,nominative,masculine
+892,8,Ein Text ist lang.,,,Ein,_____ Text ist lang.,nominative,masculine
+893,8,Ein Stück ist klein.,,,Ein,_____ Stück ist klein.,nominative,neuter
+894,8,Eine Wohnung ist teuer.,,,Eine,_____ Wohnung ist teuer.,nominative,feminine
+895,8,Ein Meter ist kurz.,,,Ein,_____ Meter ist kurz.,nominative,masculine
+896,8,Ein Punkt ist klar.,,,Ein,_____ Punkt ist klar.,nominative,masculine
+897,8,Eine Situation ist schwierig.,,,Eine,_____ Situation ist schwierig.,nominative,feminine
+898,8,Ein Lehrer ist nett.,,,Ein,_____ Lehrer ist nett.,nominative,masculine
+899,8,Eine Stelle ist wichtig.,,,Eine,_____ Stelle ist wichtig.,nominative,feminine
+900,8,Eine Form ist rund.,,,Eine,_____ Form ist rund.,nominative,feminine
+901,8,Ein Monat hat vier Wochen.,,,Ein,_____ Monat hat vier Wochen.,nominative,masculine
+902,8,Eine Familie ist groß.,,,Eine,_____ Familie ist groß.,nominative,feminine
+903,8,Ein Morgen ist schön.,,,Ein,_____ Morgen ist schön.,nominative,masculine
+904,8,Ein Abend ist ruhig.,,,Ein,_____ Abend ist ruhig.,nominative,masculine
+905,8,Ein Sinn ist klar.,,,Ein,_____ Sinn ist klar.,nominative,masculine
+906,8,Ein Staat ist reich.,,,Ein,_____ Staat ist reich.,nominative,masculine
+907,8,Ein Ziel ist weit.,,,Ein,_____ Ziel ist weit.,nominative,neuter
+908,8,Ein Thema ist interessant.,,,Ein,_____ Thema ist interessant.,nominative,neuter
+909,8,Eine Person ist freundlich.,,,Eine,_____ Person ist freundlich.,nominative,feminine
+910,8,Eine Nacht ist dunkel.,,,Eine,_____ Nacht ist dunkel.,nominative,feminine
+911,8,Ein Raum ist groß.,,,Ein,_____ Raum ist groß.,nominative,masculine
+912,8,Ein Blick ist schön.,,,Ein,_____ Blick ist schön.,nominative,masculine
+913,8,Ein Platz ist leer.,,,Ein,_____ Platz ist leer.,nominative,masculine
+914,8,Eine Zahl ist hoch.,,,Eine,_____ Zahl ist hoch.,nominative,feminine
+915,8,Eine Uhr ist kaputt.,,,Eine,_____ Uhr ist kaputt.,nominative,feminine
+916,8,Ein Jahrhundert ist lang.,,,Ein,_____ Jahrhundert ist lang.,nominative,neuter
+917,8,Ein Sohn ist klug.,,,Ein,_____ Sohn ist klug.,nominative,masculine
+918,8,Ein Werk ist bekannt.,,,Ein,_____ Werk ist bekannt.,nominative,neuter
+919,8,Eine Richtung ist richtig.,,,Eine,_____ Richtung ist richtig.,nominative,feminine
+920,8,Ein Programm ist neu.,,,Ein,_____ Programm ist neu.,nominative,neuter
+921,8,Eine Angst ist groß.,,,Eine,_____ Angst ist groß.,nominative,feminine
+922,8,Eine Information ist wichtig.,,,Eine,_____ Information ist wichtig.,nominative,feminine
+923,8,Eine Kunst ist schön.,,,Eine,_____ Kunst ist schön.,nominative,feminine
+924,8,Eine Musik ist laut.,,,Eine,_____ Musik ist laut.,nominative,feminine
+925,8,Ein Beruf ist spannend.,,,Ein,_____ Beruf ist spannend.,nominative,masculine
+926,8,Eine Regel ist klar.,,,Eine,_____ Regel ist klar.,nominative,feminine
+927,8,Ein Gott ist mächtig.,,,Ein,_____ Gott ist mächtig.,nominative,masculine
+928,8,Ein Auto ist schnell.,,,Ein,_____ Auto ist schnell.,nominative,neuter
+929,8,Ein Tisch ist aus Holz.,,,Ein,_____ Tisch ist aus Holz.,nominative,masculine
+930,8,Ein Spiel ist spannend.,,,Ein,_____ Spiel ist spannend.,nominative,neuter
+931,8,Ein Licht ist hell.,,,Ein,_____ Licht ist hell.,nominative,neuter
+932,8,Ein Markt ist groß.,,,Ein,_____ Markt ist groß.,nominative,masculine
+933,8,Eine Tochter ist freundlich.,,,Eine,_____ Tochter ist freundlich.,nominative,feminine
+934,8,Eine Frage ist einfach.,,,Eine,_____ Frage ist einfach.,nominative,feminine
+935,8,Ein Haus ist groß.,,,Ein,_____ Haus ist groß.,nominative,neuter
+936,8,Eine Leute sind freundlich.,,,Eine,_____ Leute sind freundlich.,nominative,feminine
+937,8,Eine Arbeit ist schwer.,,,Eine,_____ Arbeit ist schwer.,nominative,feminine
+938,8,Ein Prozent ist hoch.,,,Ein,_____ Prozent ist hoch.,nominative,neuter
+939,8,Eine Hand ist klein.,,,Eine,_____ Hand ist klein.,nominative,feminine
+940,8,Eine Stadt ist alt.,,,Eine,_____ Stadt ist alt.,nominative,feminine
+941,8,Ein Herr ist müde.,,,Ein,_____ Herr ist müde.,nominative,masculine
+942,8,Ein Problem ist groß.,,,Ein,_____ Problem ist groß.,nominative,neuter
+943,8,Ein Jahr haben zwölf Monate.,,,Ein,_____ Jahr haben zwölf Monate.,nominative,neuter
+944,8,Ein Mal ist anders als vorher.,,,Ein,_____ Mal ist anders als vorher.,nominative,neuter
+945,8,Ein Beispiel ist sehr einfach.,,,Ein,_____ Beispiel ist sehr einfach.,nominative,neuter
+946,8,Eine Zeit ist knapp.,,,Eine,_____ Zeit ist knapp.,nominative,feminine
+947,8,Eine Frau sind nett.,,,Eine,_____ Frau sind nett.,nominative,feminine
+948,8,Ein Mensch ist intelligent.,,,Ein,_____ Mensch ist intelligent.,nominative,masculine
+949,8,Ein Kind ist klein.,,,Ein,_____ Kind ist klein.,nominative,neuter
+950,8,Ein Tag ist schön.,,,Ein,_____ Tag ist schön.,nominative,masculine
+951,8,Ein Mann sind stark.,,,Ein,_____ Mann sind stark.,nominative,masculine
+952,8,Ein Land ist groß.,,,Ein,_____ Land ist groß.,nominative,neuter
+953,8,Ich sehe ein Ende des Films.,,,ein,Ich sehe _____ Ende des Films.,accusative,neuter
+954,8,Er hat eine Million gewonnen.,,,eine,Er hat _____ Million gewonnen.,accusative,feminine
+955,8,Wir besuchen eine Schule jeden Tag.,,,eine,Wir besuchen _____ Schule jeden Tag.,accusative,feminine
+956,8,Ich plane eine Woche im Voraus.,,,eine,Ich plane _____ Woche im Voraus.,accusative,feminine
+957,8,Sie ruft einen Vater an.,,,einen,Sie ruft _____ Vater an.,accusative,masculine
+958,8,Ich lese eine Seite im Buch.,,,eine,Ich lese _____ Seite im Buch.,accusative,feminine
+959,8,Er genießt ein Leben.,,,ein,Er genießt _____ Leben.,accusative,neuter
+960,8,Wir besuchen eine Mutter am Wochenende.,,,eine,Wir besuchen _____ Mutter am Wochenende.,accusative,feminine
+961,8,Sie schützt ein Auge mit einer Brille.,,,ein,Sie schützt _____ Auge mit _____er Brille.,accusative,neuter
+962,8,Er spart ein Geld.,,,ein,Er spart _____ Geld.,accusative,neuter
+963,8,Wir nehmen einen Weg durch den Park.,,,einen,Wir nehmen _____ Weg durch den Park.,accusative,masculine
+964,8,Ich lerne eine Stunde lang.,,,eine,Ich lerne _____ Stunde lang.,accusative,feminine
+965,8,Ich kenne einen Namen nicht.,,,einen,Ich kenne _____ Namen nicht.,accusative,masculine
+966,8,Er hält einen Kopf hoch.,,,einen,Er hält _____ Kopf hoch.,accusative,masculine
+967,8,Ich sehe ein Paar auf der Straße.,,,ein,Ich sehe _____ Paar auf der Straße.,accusative,neuter
+968,8,Wir unterstützen ein Unternehmen.,,,ein,Wir unterstützen _____ Unternehmen.,accusative,neuter
+969,8,Sie malt ein Bild.,,,ein,Sie malt _____ Bild.,accusative,neuter
+970,8,Er liest ein Buch.,,,ein,Er liest _____ Buch.,accusative,neuter
+971,8,Er findet eine Stelle interessant.,,,eine,Er findet _____ Stelle interessant.,accusative,feminine
+972,8,Ich ändere eine Form des Designs.,,,eine,Ich ändere _____ Form des Designs.,accusative,feminine
+973,8,Wir feiern einen Monat des Herbstes.,,,einen,Wir feiern _____ Monat des Herbstes.,accusative,masculine
+974,8,Sie liebt eine Familie sehr.,,,eine,Sie liebt _____ Familie sehr.,accusative,feminine
+975,8,Ich genieße einen Morgen mit Kaffee.,,,einen,Ich genieße _____ Morgen mit Kaffee.,accusative,masculine
+976,8,Wir verbringen einen Abend zusammen.,,,einen,Wir verbringen _____ Abend zusammen.,accusative,masculine
+977,8,Ich verstehe einen Sinn des Wortes.,,,einen,Ich verstehe _____ Sinn des Wortes.,accusative,masculine
+978,8,Er kennt einen Staat gut.,,,einen,Er kennt _____ Staat gut.,accusative,masculine
+979,8,Wir erreichen ein Ziel bald.,,,ein,Wir erreichen _____ Ziel bald.,accusative,neuter
+980,8,Er diskutiert ein Thema im Kurs.,,,ein,Er diskutiert _____ Thema im Kurs.,accusative,neuter
+981,8,Ich kenne eine Person nicht.,,,eine,Ich kenne _____ Person nicht.,accusative,feminine
+982,8,Sie verbringt eine Nacht im Hotel.,,,eine,Sie verbringt _____ Nacht im Hotel.,accusative,feminine
+983,8,Wir betreten einen Raum leise.,,,einen,Wir betreten _____ Raum leise.,accusative,masculine
+984,8,Ich genieße einen Blick auf das Meer.,,,einen,Ich genieße _____ Blick auf das Meer.,accusative,masculine
+985,8,Er reserviert einen Platz für uns.,,,einen,Er reserviert _____ Platz für uns.,accusative,masculine
+986,8,Ich schreibe eine Zahl auf.,,,eine,Ich schreibe _____ Zahl auf.,accusative,feminine
+987,8,Ich kaufe eine Uhr im Geschäft.,,,eine,Ich kaufe _____ Uhr im Geschäft.,accusative,feminine
+988,8,Ich überquere eine Straße.,,,eine,Ich überquere _____ Straße.,accusative,feminine
+989,8,Ich warte eine Minute.,,,eine,Ich warte _____ Minute.,accusative,feminine
+990,8,Er sieht eine Gruppe im Park.,,,eine,Er sieht _____ Gruppe im Park.,accusative,feminine
+991,8,Ich verstehe einen Wert dieser Idee.,,,einen,Ich verstehe _____ Wert dieser Idee.,accusative,masculine
+992,8,Sie wäscht ein Gesicht mit Wasser.,,,ein,Sie wäscht _____ Gesicht mit Wasser.,accusative,neuter
+993,8,Wir lernen eine Sprache in der Schule.,,,eine,Wir lernen _____ Sprache in der Schule.,accusative,feminine
+994,8,Ich besuche einen Ort jedes Jahr.,,,einen,Ich besuche _____ Ort jedes Jahr.,accusative,masculine
+995,8,Er genießt einen Moment.,,,einen,Er genießt _____ Moment.,accusative,masculine
+996,8,Ich habe ein Interesse an diesem Thema.,,,ein,Ich habe _____ Interesse an diesem Thema.,accusative,neuter
+997,8,Sie öffnet eine Tür.,,,eine,Sie öffnet _____ Tür.,accusative,feminine
+998,8,Der Lehrer hilft einen Schüler.,,,einen,Der Lehrer hilft _____ Schüler.,accusative,masculine
+999,8,Ich lese einen Text im Buch.,,,einen,Ich lese _____ Text im Buch.,accusative,masculine
+1000,8,Er isst ein Stück Kuchen.,,,ein,Er isst _____ Stück Kuchen.,accusative,neuter
+1001,8,Wir mieten eine Wohnung.,,,eine,Wir mieten _____ Wohnung.,accusative,feminine
+1002,8,Er misst einen Meter mit dem Lineal.,,,einen,Er misst _____ Meter mit dem Lineal.,accusative,masculine
+1003,8,Ich setze einen Punkt am Ende des Satzes.,,,einen,Ich setze _____ Punkt am Ende des Satzes.,accusative,masculine
+1004,8,Sie erklärt eine Situation.,,,eine,Sie erklärt _____ Situation.,accusative,feminine
+1005,8,Ich sehe einen Lehrer in der Schule.,,,einen,Ich sehe _____ Lehrer in der Schule.,accusative,masculine
+1006,8,Ich studiere ein Jahrhundert der Geschichte.,,,ein,Ich studiere _____ Jahrhundert der Geschichte.,accusative,neuter
+1007,8,Sie sieht einen Sohn im Garten.,,,einen,Sie sieht _____ Sohn im Garten.,accusative,masculine
+1008,8,Er kennt ein Werk des Künstlers.,,,ein,Er kennt _____ Werk des Künstlers.,accusative,neuter
+1009,8,Wir nehmen eine Richtung nach Süden.,,,eine,Wir nehmen _____ Richtung nach Süden.,accusative,feminine
+1010,8,Ich installiere ein Programm auf dem Computer.,,,ein,Ich installiere _____ Programm auf dem Computer.,accusative,neuter
+1011,8,Er fühlt eine Angst in seinem Herzen.,,,eine,Er fühlt _____ Angst in s_____m Herzen.,accusative,feminine
+1012,8,Sie sucht eine Information online.,,,eine,Sie sucht _____ Information online.,accusative,feminine
+1013,8,Wir bewundern eine Kunst im Museum.,,,eine,Wir bewundern _____ Kunst im Museum.,accusative,feminine
+1014,8,Er hört eine Musik im Radio.,,,eine,Er hört _____ Musik im Radio.,accusative,feminine
+1015,8,Ich lerne einen Beruf in der Ausbildung.,,,einen,Ich lerne _____ Beruf in der Ausbildung.,accusative,masculine
+1016,8,Wir befolgen eine Regel in der Schule.,,,eine,Wir befolgen _____ Regel in der Schule.,accusative,feminine
+1017,8,Er verehrt einen Gott seiner Religion.,,,einen,Er verehrt _____ Gott seiner Religion.,accusative,masculine
+1018,8,Er fährt ein Auto zur Arbeit.,,,ein,Er fährt _____ Auto zur Arbeit.,accusative,neuter
+1019,8,Sie deckt einen Tisch für das Abendessen.,,,einen,Sie deckt _____ Tisch für das Abendessen.,accusative,masculine
+1020,8,Ich spiele ein Spiel mit meinen Freunden.,,,ein,Ich spiele _____ Spiel mit m_____en Freunden.,accusative,neuter
+1021,8,Er schaltet ein Licht aus.,,,ein,Er schaltet _____ Licht aus.,accusative,neuter
+1022,8,Sie besucht einen Markt jeden Samstag.,,,einen,Sie besucht _____ Markt jeden Samstag.,accusative,masculine
+1023,8,Er liebt eine Tochter sehr.,,,eine,Er liebt _____ Tochter sehr.,accusative,feminine
+1024,8,Ich sehe ein Jahr auf dem Kalender.,,,ein,Ich sehe _____ Jahr auf dem Kalender.,accusative,neuter
+1025,8,Ich erinnere mich an ein Mal.,,,ein,Ich erinnere mich an _____ Mal.,accusative,neuter
+1026,8,Er gibt ein Beispiel im Unterricht.,,,ein,Er gibt _____ Beispiel im Unterricht.,accusative,neuter
+1027,8,Wir brauchen eine Zeit für das Projekt.,,,eine,Wir brauchen _____ Zeit für das Projekt.,accusative,feminine
+1028,8,Er kennt eine Frau gut.,,,eine,Er kennt _____ Frau gut.,accusative,feminine
+1029,8,Ich treffe einen Menschen im Park.,,,einen,Ich treffe _____ Menschen im Park.,accusative,masculine
+1030,8,Sie liebt ein Kind sehr.,,,ein,Sie liebt _____ Kind sehr.,accusative,neuter
+1031,8,Wir genießen einen Tag am Strand.,,,einen,Wir genießen _____ Tag am Strand.,accusative,masculine
+1032,8,Sie sieht einen Mann im Restaurant.,,,einen,Sie sieht _____ Mann im Restaurant.,accusative,masculine
+1033,8,Er beantwortet eine Frage richtig.,,,eine,Er beantwortet _____ Frage richtig.,accusative,feminine
+1034,8,Sie kauft ein Haus in der Stadt.,,,ein,Sie kauft _____ Haus in der Stadt.,accusative,neuter
+1035,8,Ich treffe eine Leute am Bahnhof.,,,eine,Ich treffe _____ Leute am Bahnhof.,accusative,feminine
+1036,8,Sie erledigt eine Arbeit schnell.,,,eine,Sie erledigt _____ Arbeit schnell.,accusative,feminine
+1037,8,Ich berechne ein Prozent.,,,ein,Ich berechne _____ Prozent.,accusative,neuter
+1038,8,Er hält eine Hand seines Freundes.,,,eine,Er hält _____ Hand s_____s Freundes.,accusative,feminine
+1039,8,Wir besuchen eine Stadt am Wochenende.,,,eine,Wir besuchen _____ Stadt am Wochenende.,accusative,feminine
+1040,8,Ich rufe einen Herrn am Telefon an.,,,einen,Ich rufe _____ Herrn am Telefon an.,accusative,masculine
+1041,8,Sie löst ein Problem leicht.,,,ein,Sie löst _____ Problem leicht.,accusative,neuter
+1042,8,Er widmet sich einem Jahrhundert der Geschichte.,,,einem,Er widmet sich _____ Jahrhundert der Geschichte.,dative,masculine
+1043,8,Sie gibt einem Sohn ein Geschenk.,,,einem,Sie gibt _____ Sohn ein Geschenk.,dative,masculine
+1044,8,Er vertraut einem Werk des Künstlers.,,,einem,Er vertraut _____ Werk des Künstlers.,dative,masculine
+1045,8,Ich folge einer Richtung des Weges.,,,einer,Ich folge _____ Richtung des Weges.,dative,feminine
+1046,8,Ich helfe einem Programm bei der Installation.,,,einem,Ich helfe _____ Programm bei der Installation.,dative,masculine
+1047,8,Er stellt sich einer Angst.,,,einer,Er stellt sich _____ Angst.,dative,feminine
+1048,8,Sie folgt einer Information auf der Website.,,,einer,Sie folgt _____ Information auf der Website.,dative,feminine
+1049,8,Wir danken einer Kunst für ihre Schönheit.,,,einer,Wir danken _____ Kunst für ihre Schönheit.,dative,feminine
+1050,8,Er lauscht einer Musik.,,,einer,Er lauscht _____ Musik.,dative,feminine
+1051,8,Ich widme mich einem Beruf.,,,einem,Ich widme mich _____ Beruf.,dative,masculine
+1052,8,Wir folgen einer Regel in der Schule.,,,einer,Wir folgen _____ Regel in der Schule.,dative,feminine
+1053,8,Er glaubt einem Gott seiner Religion.,,,einem,Er glaubt _____ Gott seiner Religion.,dative,masculine
+1054,8,Ich nähere mich einem Auto.,,,einem,Ich nähere mich _____ Auto.,dative,masculine
+1055,8,Er gibt einem Tisch eine neue Farbe.,,,einem,Er gibt _____ Tisch eine neue Farbe.,dative,masculine
+1056,8,Ich folge einem Spiel mit Spannung.,,,einem,Ich folge _____ Spiel mit Spannung.,dative,masculine
+1057,8,Er nähert sich einem Licht am Ende des Tunnels.,,,einem,Er nähert sich _____ Licht am Ende des Tunnels.,dative,masculine
+1058,8,Sie hilft einem Markt mit Werbung.,,,einem,Sie hilft _____ Markt mit Werbung.,dative,masculine
+1059,8,Er schenkt einer Tochter eine Puppe.,,,einer,Er schenkt _____ Tochter eine Puppe.,dative,feminine
+1060,8,Ich folge einer Straße bis zum Park.,,,einer,Ich folge _____ Straße bis zum Park.,dative,feminine
+1061,8,Ich widme einer Minute meine volle Aufmerksamkeit.,,,einer,Ich widme _____ Minute meine volle Aufmerksamkeit.,dative,feminine
+1062,8,Er hilft einer Gruppe mit den Aufgaben.,,,einer,Er hilft _____ Gruppe mit den Aufgaben.,dative,feminine
+1063,8,Ich vertraue einem Wert dieser Information.,,,einem,Ich vertraue _____ Wert dieser Information.,dative,masculine
+1064,8,Sie wendet sich einem Gesicht zu.,,,einem,Sie wendet sich _____ Gesicht zu.,dative,masculine
+1065,8,Wir danken einer Sprache für ihre Schönheit.,,,einer,Wir danken _____ Sprache für ihre Schönheit.,dative,feminine
+1066,8,Ich nähere mich einem Ort langsam.,,,einem,Ich nähere mich _____ Ort langsam.,dative,masculine
+1067,8,Er erinnert sich an einem Moment.,,,einem,Er erinnert sich an _____ Moment.,dative,masculine
+1068,8,Sie folgt einem Interesse des Publikums.,,,einem,Sie folgt _____ Interesse des Publikums.,dative,masculine
+1069,8,Ich stehe einer Tür gegenüber.,,,einer,Ich stehe _____ Tür gegenüber.,dative,feminine
+1070,8,Der Lehrer hilft einem Schüler.,,,einem,Der Lehrer hilft _____ Schüler.,dative,masculine
+1071,8,Ich folge einem Text im Buch.,,,einem,Ich folge _____ Text im Buch.,dative,masculine
+1072,8,Er gibt einem Stück eine neue Interpretation.,,,einem,Er gibt _____ Stück eine neue Interpretation.,dative,masculine
+1073,8,Wir helfen einer Wohnungssuche.,,,einer,Wir helfen _____ Wohnungssuche.,dative,feminine
+1074,8,Er misst einem Meter mit dem Lineal.,,,einem,Er misst _____ Meter mit dem Lineal.,dative,masculine
+1075,8,Ich nähere mich einem Punkt im Text.,,,einem,Ich nähere mich _____ Punkt im Text.,dative,masculine
+1076,8,Ich passe mich einer Situation an.,,,einer,Ich passe mich _____ Situation an.,dative,feminine
+1077,8,Ich danke einem Lehrer für die Hilfe.,,,einem,Ich danke _____ Lehrer für die Hilfe.,dative,masculine
+1078,8,Er hilft einer Stelle mit neuen Ideen.,,,einer,Er hilft _____ Stelle mit neuen Ideen.,dative,feminine
+1079,8,Ich passe einer Form an.,,,einer,Ich passe _____ Form an.,dative,feminine
+1080,8,Wir widmen einem Monat besondere Bedeutung.,,,einem,Wir widmen _____ Monat besondere Bedeutung.,dative,masculine
+1081,8,Sie hilft einer Familie oft.,,,einer,Sie hilft _____ Familie oft.,dative,feminine
+1082,8,Ich genieße einem Morgen mit einem Kaffee.,,,einem,Ich genieße _____ Morgen mit _____ Kaffee.,dative,masculine
+1083,8,Wir danken einem Abend für die Ruhe.,,,einem,Wir danken _____ Abend für die Ruhe.,dative,masculine
+1084,8,Ich vertraue einem Sinn seiner Worte.,,,einem,Ich vertraue _____ Sinn seiner Worte.,dative,masculine
+1085,8,Er dient einem Staat als Beamter.,,,einem,Er dient _____ Staat als Beamter.,dative,masculine
+1086,8,Sie nähert sich einem Ziel langsam.,,,einem,Sie nähert sich _____ Ziel langsam.,dative,masculine
+1087,8,Wir bleiben einem Thema treu.,,,einem,Wir bleiben _____ Thema treu.,dative,masculine
+1088,8,Ich danke einer Person für ihre Hilfe.,,,einer,Ich danke _____ Person für ihre Hilfe.,dative,feminine
+1089,8,Er widmet sich einer Nacht und den Sternen.,,,einer,Er widmet sich _____ Nacht und den Sternen.,dative,feminine
+1090,8,Ich gebe einem Raum eine neue Farbe.,,,einem,Ich gebe _____ Raum eine neue Farbe.,dative,masculine
+1091,8,Sie folgt einem Blick des Fotografen.,,,einem,Sie folgt _____ Blick des Fotografen.,dative,masculine
+1092,8,Er nähert sich einem Platz vorsichtig.,,,einem,Er nähert sich _____ Platz vorsichtig.,dative,masculine
+1093,8,Ich vertraue einer Zahl auf dem Formular.,,,einer,Ich vertraue _____ Zahl auf dem Formular.,dative,feminine
+1094,8,Ich glaube einer Uhr nicht.,,,einer,Ich glaube _____ Uhr nicht.,dative,feminine
+1095,8,Ich sehe einem Ende des Films entgegen.,,,einem,Ich sehe _____ Ende des Films entgegen.,dative,masculine
+1096,8,Er vertraut einer Million an der Börse.,,,einer,Er vertraut _____ Million an der Börse.,dative,feminine
+1097,8,Wir helfen einer Schule mit Spenden.,,,einer,Wir helfen _____ Schule mit Spenden.,dative,feminine
+1098,8,Ich widme einer Woche meine Zeit.,,,einer,Ich widme _____ Woche meine Zeit.,dative,feminine
+1099,8,Sie gibt einem Vater ein Geschenk.,,,einem,Sie gibt _____ Vater ein Geschenk.,dative,masculine
+1100,8,Ich folge einer Seite im Buch.,,,einer,Ich folge _____ Seite im Buch.,dative,feminine
+1101,8,Er dankt einem Leben für seine Erfahrungen.,,,einem,Er dankt _____ Leben für seine Erfahrungen.,dative,masculine
+1102,8,Wir helfen einer Mutter im Haushalt.,,,einer,Wir helfen _____ Mutter im Haushalt.,dative,feminine
+1103,8,Sie schützt einem Auge mit einer Brille.,,,einem,Sie schützt _____ Auge mit einer Brille.,dative,masculine
+1104,8,Er vertraut einem Geld nicht.,,,einem,Er vertraut _____ Geld nicht.,dative,masculine
+1105,8,Ich folge einem Weg zum See.,,,einem,Ich folge _____ Weg zum See.,dative,masculine
+1106,8,Ich widme einer Stunde meine volle Konzentration.,,,einer,Ich widme _____ Stunde meine volle Konzentration.,dative,feminine
+1107,8,Ich erinnere mich an einem Namen.,,,einem,Ich erinnere mich an _____ Namen.,dative,masculine
+1108,8,Er nickt einem Kopf zu.,,,einem,Er nickt _____ Kopf zu.,dative,masculine
+1109,8,Ich gratuliere einem Paar zur Hochzeit.,,,einem,Ich gratuliere _____ Paar zur Hochzeit.,dative,masculine
+1110,8,Wir helfen einem Unternehmen zu wachsen.,,,einem,Wir helfen _____ Unternehmen zu wachsen.,dative,masculine
+1111,8,Ich zeige einem Bild meine Freunde.,,,einem,Ich zeige _____ Bild meine Freunde.,dative,masculine
+1112,8,Sie gibt einem Buch eine neue Bedeutung.,,,einem,Sie gibt _____ Buch eine neue Bedeutung.,dative,masculine
+1113,8,Ich helfe einem Jahr mit einer neuen Planung.,,,einem,Ich helfe _____ Jahr mit einer neuen Planung.,dative,masculine
+1114,8,Er gibt einem Mal eine neue Bedeutung.,,,einem,Er gibt _____ Mal eine neue Bedeutung.,dative,masculine
+1115,8,Sie folgt einem Beispiel ihrer Mutter.,,,einem,Sie folgt _____ Beispiel ihrer Mutter.,dative,masculine
+1116,8,Ich widme einer Zeit meine Aufmerksamkeit.,,,einer,Ich widme _____ Zeit meine Aufmerksamkeit.,dative,feminine
+1117,8,Er schenkt einer Frau Blumen.,,,einer,Er schenkt _____ Frau Blumen.,dative,feminine
+1118,8,Ich vertraue einem Menschen.,,,einem,Ich vertraue _____ Menschen.,dative,masculine
+1119,8,Sie gibt einem Kind ein Geschenk.,,,einem,Sie gibt _____ Kind ein Geschenk.,dative,masculine
+1120,8,Wir widmen einem Tag eine Feier.,,,einem,Wir widmen _____ Tag eine Feier.,dative,masculine
+1121,8,Sie hilft einem Mann im Garten.,,,einem,Sie hilft _____ Mann im Garten.,dative,masculine
+1122,8,Ich widme einer Frage viel Zeit.,,,einer,Ich widme _____ Frage viel Zeit.,dative,feminine
+1123,8,Wir nähern uns einem Haus langsam.,,,einem,Wir nähern uns _____ Haus langsam.,dative,masculine
+1124,8,Ich erzähle einen Leuten eine Geschichte.,,,einen,Ich erzähle _____ Leuten eine Geschichte.,dative,neuter
+1125,8,Er widmet einer Arbeit seine ganze Kraft.,,,einer,Er widmet _____ Arbeit seine ganze Kraft.,dative,feminine
+1126,8,Wir passen einem Prozent die Werte an.,,,einem,Wir passen _____ Prozent die Werte an.,dative,masculine
+1127,8,Ich gebe einer Hand einen festen Druck.,,,einer,Ich gebe _____ Hand einen festen Druck.,dative,feminine
+1128,8,Er zeigt einer Stadt seine Kunst.,,,einer,Er zeigt _____ Stadt seine Kunst.,dative,feminine
+1129,8,Ich danke einem Herrn für seine Hilfe.,,,einem,Ich danke _____ Herrn für seine Hilfe.,dative,masculine
+1130,8,Sie nähert sich einem Problem vorsichtig.,,,einem,Sie nähert sich _____ Problem vorsichtig.,dative,masculine
+1131,9,Ich wohne an der Strasse.,I live on the street.,,der,Ich wohne an _____ Strasse.,,
+1132,9,Das Bild hängt an der Wand.,The picture hangs on the wall.,,der,Das Bild hängt an _____ Wand.,,
+1133,9,Ich arbeite an dem Computer.,I work on the computer.,,dem,Ich arbeite an _____ Computer.,,
+1134,9,Sie steht an dem Fenster.,She stands at the window.,,dem,Sie steht an _____ Fenster.,,
+1135,9,Das Buch liegt auf dem Tisch,The book lies on the table,,dem,Das Buch liegt auf _____ Tisch,,
+1136,9,Die Katze sitzt auf dem Stuhl,The cat sits on the chair,,dem,Die Katze sitzt auf _____ Stuhl,,
+1137,9,Der Vogel sitzt auf dem Baum,The bird sits on the tree,,dem,Der Vogel sitzt auf _____ Baum,,
+1138,9,Wir fahren auf die Insel,We travel onto the island,,die,Wir fahren auf _____ Insel,,
+1139,9,Die Kinder spielen auf dem Spielplatz,The children play on the playground,,dem,Die Kinder spielen auf _____ Spielplatz,,
+1140,9,Das Wasser kommt aus der Flasche.,The water comes out of the bottle.,,der,Das Wasser kommt aus _____ Flasche.,,
+1141,9,Er geht aus dem Haus.,He goes out of the house.,,dem,Er geht aus _____ Haus.,,
+1142,9,Ich lerne Deutsch bei der Volkshochschule,I learn German at the adult education center,,der,Ich lerne Deutsch bei _____ Volkshochschule,,
+1143,9,Ich kaufe Brot für das Frühstück.,I'm buying bread for breakfast.,,das,Ich kaufe Brot für _____ Frühstück.,,
+1144,9,Er lernt Deutsch für die Reise.,He is learning German for the trip.,,die,Er lernt Deutsch für _____ Reise.,,
+1145,9,Das ist gut für die Gesundheit.,That is good for your health.,,die,Das ist gut für _____ Gesundheit.,,
+1146,9,Der Ball fliegt gegen die Wand.,The ball flies against the wall.,,die,Der Ball fliegt gegen _____ Wand.,,
+1147,9,Der Ball ist hinter dem Sofa.,The ball is behind the sofa.,,dem,Der Ball ist hinter _____ Sofa.,,
+1148,9,Das Haus ist hinter dem Baum.,The house is behind the tree.,,dem,Das Haus ist hinter _____ Baum.,,
+1149,9,Ich wohne hinter der Bäckerei.,I live behind the bakery.,,der,Ich wohne hinter _____ Bäckerei.,,
+1150,9,Schreib deinen Namen hinter die Zahl.,Write your name behind the number.,,die,Schreib deinen Namen hinter _____ Zahl.,,
+1151,9,Ich bin in der Schule.,I am in school.,,der,Ich bin in _____ Schule.,,
+1152,9,Das Buch ist in der Tasche.,The book is in the bag.,,der,Das Buch ist in _____ Tasche.,,
+1153,9,Ich bin in dem Büro.,I am in the office.,,dem,Ich bin in _____ Büro.,,
+1154,9,Ich fahre mit dem Bus.,I go by bus.,,dem,Ich fahre mit _____ Bus.,,
+1155,9,Nach dem Essen spüle ich das Geschirr.,"After the meal, I wash the dishes.",,dem,Nach _____ Essen spüle ich das Geschirr.,,
+1156,9,Der Stuhl steht neben dem Tisch.,The chair is next to the table.,,dem,Der Stuhl steht neben _____ Tisch.,,
+1157,9,Das Haus ist neben der Kirche.,The house is next to the church.,,der,Das Haus ist neben _____ Kirche.,,
+1158,9,Neben dem Bahnhof gibt es ein Café.,Next to the train station there is a café.,,dem,Neben _____ Bahnhof gibt es ein Café.,,
+1159,9,Er stellt die Lampe neben das Bett.,He puts the lamp next to the bed.,,das,Er stellt die Lampe neben _____ Bett.,,
+1160,9,Sie arbeitet seit Montag in der neuen Firma.,She has been working at the new company since Monday.,,der,Sie arbeitet seit Montag in _____ neuen Firma.,,
+1161,9,Seit dem Unfall kann er nicht mehr laufen.,"Since the accident, he can no longer walk.",,dem,Seit _____ Unfall kann er nicht mehr laufen.,,
+1162,9,Die Lampe hängt über dem Tisch.,The lamp hangs above the table.,,dem,Die Lampe hängt über _____ Tisch.,,
+1163,9,Das Bild hängt über dem Sofa.,The picture hangs above the sofa.,,dem,Das Bild hängt über _____ Sofa.,,
+1164,9,Wir sprechen über das Wetter.,We are talking about the weather.,,das,Wir sprechen über _____ Wetter.,,
+1165,9,Der Film ist über das Leben eines Künstlers.,The film is about the life of an artist.,,das,Der Film ist über _____ Leben eines Künstlers.,,
+1166,9,Der Ball liegt unter dem Tisch.,The ball is under the table.,,dem,Der Ball liegt unter _____ Tisch.,,
+1167,9,Das Buch ist unter den Papieren.,The book is under the papers.,,den,Das Buch ist unter _____ Papieren.,,
+1168,9,Die Erde dreht sich um die Sonne.,The Earth revolves around the sun.,,die,Die Erde dreht sich um _____ Sonne.,,
+1169,9,Wir sitzen um den Tisch.,We are sitting around the table.,,den,Wir sitzen um _____ Tisch.,,
+1170,9,Der Baum steht vor dem Haus.,The tree stands in front of the house.,,dem,Der Baum steht vor _____ Haus.,,
+1171,9,Ich warte vor der Tür.,I am waiting in front of the door.,,der,Ich warte vor _____ Tür.,,
+1172,9,Sie schützt sich vor der Sonne.,She protects herself from the sun.,,der,Sie schützt sich vor _____ Sonne.,,
+1173,9,Ich gehe zu dem Bahnhof.,I am going to the train station.,,dem,Ich gehe zu _____ Bahnhof.,,
+1174,9,Wir fahren zu dem Strand.,We are driving to the beach.,,dem,Wir fahren zu _____ Strand.,,
+1175,9,Ich gratuliere dir zu dem Geburtstag.,I congratulate you on your birthday.,,dem,Ich gratuliere dir zu _____ Geburtstag.,,
+1176,9,Der Tisch steht zwischen den Stühlen.,The table is between the chairs.,,den,Der Tisch steht zwischen _____ Stühlen.,,
+1177,9,Das Museum ist zwischen der Bank und der Post.,The museum is between the bank and the post office.,,der,Das Museum ist zwischen _____ Bank und der Post.,,
+1178,9,Zwischen 10 und 12 Uhr bin ich in dem Büro.,Between 10 and 12 o'clock I am in the office.,,dem,Zwischen 10 und 12 Uhr bin ich in _____ Büro.,,
+1179,9,Wir gehen auf die Strasse,We go onto the street,,die,Wir gehen auf _____ Strasse,,
+1180,9,An dem Abend esse ich Brot.,On the evening I eat bread.,,dem,An _____ Abend esse ich Brot.,,
+1181,9,Die Lampe ist an der Decke.,The lamp is on the ceiling.,,der,Die Lampe ist an _____ Decke.,,
+1182,9,Wir fahren an den See.,We drive to the lake.,,den,Wir fahren an _____ See.,,
+1183,9,Das Haus ist an dem Fluss.,The house is on the river.,,dem,Das Haus ist an _____ Fluss.,,
+1184,9,Sie schreibt auf dem Papier,She writes on the paper,,dem,Sie schreibt auf _____ Papier,,
+1185,9,Ich gehe auf die Party,I go to the party,,die,Ich gehe auf _____ Party,,
+1186,9,Die Musik kommt aus dem Radio.,The music comes from the radio.,,dem,Die Musik kommt aus _____ Radio.,,
+1187,9,Das Licht kommt aus dem Fenster.,The light comes from the window.,,dem,Das Licht kommt aus _____ Fenster.,,
+1188,9,Ich nehme das Buch aus dem Regal.,I take the book from the shelf.,,dem,Ich nehme das Buch aus _____ Regal.,,
+1189,9,Sie steigt aus dem Bus.,She gets out of the bus.,,dem,Sie steigt aus _____ Bus.,,
+1190,9,Die Geschichte ist aus dem Buch.,The story is from the book.,,dem,Die Geschichte ist aus _____ Buch.,,
+1191,9,Das Problem liegt bei der Technik.,The problem is with the technology.,,der,Das Problem liegt bei _____ Technik.,,
+1192,9,Es ist nur ein kurzer Weg bis zu dem Park.,It's only a short way to the park.,,dem,Es ist nur ein kurzer Weg bis zu _____ Park.,,
+1193,9,Er hat gegen die Regeln verstossen.,He acted against the rules.,,die,Er hat gegen _____ Regeln verstossen.,,
+1194,9,Stell die Leiter gegen die Wand.,Put the ladder against the wall.,,die,Stell die Leiter gegen _____ Wand.,,
+1195,9,Wir kämpfen gegen die Ungerechtigkeit.,We fight against injustice.,,die,Wir kämpfen gegen _____ Ungerechtigkeit.,,
+1196,9,Hinter dem Haus ist ein Garten.,Behind the house is a garden.,,dem,Hinter _____ Haus ist ein Garten.,,
+1197,9,Sie versteckt sich hinter der Tür.,She is hiding behind the door.,,der,Sie versteckt sich hinter _____ Tür.,,
+1198,9,Das Bild hängt in dem Wohnzimmer.,The picture hangs in the living room.,,dem,Das Bild hängt in _____ Wohnzimmer.,,
+1199,9,Es ist kalt in dem Winter.,It is cold in winter.,,dem,Es ist kalt in _____ Winter.,,
+1200,9,Der Fisch schwimmt in dem Wasser.,The fish swims in the water.,,dem,Der Fisch schwimmt in _____ Wasser.,,
+1201,9,Wir sprechen mit dem Lehrer.,We speak with the teacher.,,dem,Wir sprechen mit _____ Lehrer.,,
+1202,9,Mit dem Auto dauert es länger.,By car it takes longer.,,dem,Mit _____ Auto dauert es länger.,,
+1203,9,Ich gehe mit dir in das Kino.,I go to the cinema with you.,,das,Ich gehe mit dir in _____ Kino.,,
+1204,9,Sie kommt mit dem Zug an.,She arrives by train.,,dem,Sie kommt mit _____ Zug an.,,
+1205,9,Neben den Kosten gibt es auch Vorteile.,"Besides the costs, there are also advantages.",,den,Neben _____ Kosten gibt es auch Vorteile.,,
+1206,9,Seit dem frühen Morgen regnet es.,It has been raining since early morning.,,dem,Seit _____ frühen Morgen regnet es.,,
+1207,9,Er springt über den Graben.,He jumps over the ditch.,,den,Er springt über _____ Graben.,,
+1208,9,Die Wolken ziehen über den Himmel.,The clouds are moving across the sky.,,den,Die Wolken ziehen über _____ Himmel.,,
+1209,9,Schreib deinen Namen unter den Text.,Write your name under the text.,,den,Schreib deinen Namen unter _____ Text.,,
+1210,9,Die Katze versteckt sich unter dem Bett.,The cat is hiding under the bed.,,dem,Die Katze versteckt sich unter _____ Bett.,,
+1211,9,Er läuft um den Block.,He runs around the block.,,den,Er läuft um _____ Block.,,
+1212,9,Er ist krank von der Reise.,He is sick from the trip.,,der,Er ist krank von _____ Reise.,,
+1213,9,Das ist ein Lied von den Beatles.,That is a song by the Beatles.,,den,Das ist ein Lied von _____ Beatles.,,
+1214,9,Ich bin müde von der Arbeit.,I am tired from work.,,der,Ich bin müde von _____ Arbeit.,,
+1215,9,Vor dem Essen waschen wir die Hände.,"Before eating, we wash our hands.",,dem,Vor _____ Essen waschen wir die Hände.,,
+1216,9,Ich habe keine Zeit zu dem Lesen.,I have no time to read.,,dem,Ich habe keine Zeit zu _____ Lesen.,,
+1217,9,Leg das Buch zwischen die anderen Bücher.,Put the book between the other books.,,die,Leg das Buch zwischen _____ anderen Bücher.,,
+1218,9,Zwischen den Jahren feiert man Silvester.,"Between the years, one celebrates New Year's Eve.",,den,Zwischen _____ Jahren feiert man Silvester.,,
+1219,10,viel,"a lot, much",mengen,,,,
+1220,10,viele,many,mengen,,,,
+1221,10,wenig,"few, little",mengen,,,,
+1222,10,wenige,few,mengen,,,,
+1223,10,manche,"some, several, a few",indefinit,,,,
+1224,10,diese,"this, these",demonstrative,,,,
+1225,10,jede,"every, each",indefinit,,,,
+1226,10,keine,"none, no",indefinit,,,,
+1227,10,mehr,more,mengen,,,,
+1228,10,andere,others,,,,,
+1229,10,beide,both,mengen,,,,
+1230,11,Ich möchte mehr Zeit zum Lernen haben.,I would like to have more time to study.,,mehr,Ich möchte _____ Zeit zum Lernen haben.,,
+1231,11,Kannst du mir mehr Informationen geben?,Can you give me more information?,,mehr,Kannst du mir _____ Informationen geben?,,
+1232,11,Er verbringt mehr Zeit als zuvor.,He spends more time than before.,,mehr,Er verbringt _____ Zeit als zuvor.,,
+1233,11,Ich brauche mehr Geduld mit diesem Projekt.,I need more patience with this project.,,mehr,Ich brauche _____ Geduld mit diesem Projekt.,,
+1234,11,Es gibt immer mehr Autos auf den Straßen.,There are more and more cars on the streets.,,mehr,Es gibt immer _____ Autos auf den Straßen.,,
+1235,11,Diese Frau ist meine Lehrerin.,This woman is my teacher.,,Diese,_____ Frau ist meine Lehrerin.,,
+1236,11,Ich kaufe diesen Apfel.,I am buying this apple.,,diesen,Ich kaufe _____ Apfel.,,
+1237,11,Mit diesem Buch lerne ich Deutsch.,"With this book, I am learning German.",,diesem,Mit _____ Buch lerne ich Deutsch.,,
+1238,11,Ich mag diese Hunde.,I like these dogs.,,diese,Ich mag _____ Hunde.,,
+1239,11,Der Geschmack dieses Weines ist sehr gut.,The taste of this wine is very good.,,dieses,Der Geschmack _____ Weines ist sehr gut.,,
+1240,11,Ich habe keine Zeit für ein Gespräch.,I have no time for a conversation.,,keine,Ich habe _____ Zeit für ein Gespräch.,,
+1241,11,Kein Mensch ist perfekt.,No person is perfect.,,Kein,_____ Mensch ist perfekt.,,
+1242,11,"Wir haben keine Lust, heute auszugehen.",We have no desire to go out today.,,keine,"Wir haben _____ Lust, heute auszugehen.",,
+1243,11,Er hat keine Ahnung von Mathematik.,He has no idea about mathematics.,,keine,Er hat _____ Ahnung von Mathematik.,,
+1244,11,Ich spreche mit keinem meiner Kollegen.,I speak with none of my colleagues.,,keinem,Ich spreche mit _____ meiner Kollegen.,,
+1245,11,"Er hat viel Geld, aber er gibt wenig aus.","He has a lot of money, but he spends little.",,viel,"Er hat _____ Geld, aber er gibt wenig aus.",,
+1246,11,"Ich trinke viel Wasser, weil es gesund ist.",I drink a lot of water because it is healthy.,,viel,"Ich trinke _____ Wasser, weil es gesund ist.",,
+1247,11,Es gibt viel Verkehr in der Stadt am Morgen.,There is a lot of traffic in the city in the morning.,,viel,Es gibt _____ Verkehr in der Stadt am Morgen.,,
+1248,11,Sie lernt viel für die Prüfung nächste Woche.,She studies a lot for the exam next week.,,viel,Sie lernt _____ für die Prüfung nächste Woche.,,
+1249,11,Wir haben viel Spaß im Urlaub gehabt.,We had a lot of fun on vacation.,,viel,Wir haben _____ Spaß im Urlaub gehabt.,,
+1250,11,"Manche Leute mögen Pizza, andere bevorzugen Pasta.","Some people like pizza, others prefer pasta.",,andere,"Manche Leute mögen Pizza, _____ bevorzugen Pasta.",,
+1251,11,"Einige arbeiten gerne im Büro, andere lieber von zu Hause aus.","Some like working in the office, others prefer working from home.",,andere,"Einige arbeiten gerne im Büro, _____ lieber von zu Hause aus.",,
+1252,11,"Manche Tiere sind tagaktiv, andere sind nachtaktiv.","Some animals are active during the day, others are active at night.",,andere,"Manche Tiere sind tagaktiv, _____ sind nachtaktiv.",,
+1253,11,"Einige Schüler lernen schnell, andere brauchen mehr Zeit.","Some students learn quickly, others need more time.",,andere,"Einige Schüler lernen schnell, _____ brauchen mehr Zeit.",,
+1254,11,"Einige mögen klassische Musik, andere hören lieber Pop.","Some like classical music, others prefer listening to pop.",,andere,"Einige mögen klassische Musik, _____ hören lieber Pop.",,
+1255,11,Beide Eltern arbeiten in einem Krankenhaus.,Both parents work in a hospital.,,Beide,_____ Eltern arbeiten in einem Krankenhaus.,,
+1256,11,Ich habe beide Bücher gelesen.,I have read both books.,,beide,Ich habe _____ Bücher gelesen.,,
+1257,11,Er hat mit beiden Freunden gesprochen.,He talked to both friends.,,beiden,Er hat mit _____ Freunden gesprochen.,,
+1258,11,Beide Städte sind sehr schön.,Both cities are very beautiful.,,Beide,_____ Städte sind sehr schön.,,
+1259,11,Der Preis beider Autos ist sehr hoch.,The price of both cars is very high.,,beider,Der Preis _____ Autos ist sehr hoch.,,
+1260,11,Viele Leute fahren im Sommer ans Meer.,Many people go to the sea in summer.,,Viele,_____ Leute fahren im Sommer ans Meer.,,
+1261,11,Ich habe viele Bücher in meinem Regal.,I have many books on my shelf.,,viele,Ich habe _____ Bücher in meinem Regal.,,
+1262,11,Er kennt viele interessante Geschichten.,He knows many interesting stories.,,viele,Er kennt _____ interessante Geschichten.,,
+1263,11,Viele Kinder spielen gerne im Park.,Many children like to play in the park.,,Viele,_____ Kinder spielen gerne im Park.,,
+1264,11,In dieser Stadt gibt es viele Museen.,There are many museums in this city.,,viele,In dieser Stadt gibt es _____ Museen.,,
+1265,11,Wenige Menschen verstehen diese Sprache.,Few people understand this language.,,Wenige,_____ Menschen verstehen diese Sprache.,,
+1266,11,Nur wenige Schüler haben die Prüfung bestanden.,Only a few students passed the exam.,,wenige,Nur _____ Schüler haben die Prüfung bestanden.,,
+1267,11,Es gibt nur wenige Plätze im Bus.,There are only a few seats on the bus.,,wenige,Es gibt nur _____ Plätze im Bus.,,
+1268,11,"Wenige wissen, wie schwierig es war.",Few know how difficult it was.,,Wenige,"_____ wissen, wie schwierig es war.",,
+1269,11,In diesem Dorf gibt es nur wenige Geschäfte.,There are only a few shops in this village.,,wenige,In diesem Dorf gibt es nur _____ Geschäfte.,,
+1270,11,Jede Stadt hat ihre eigene Geschichte.,Every city has its own history.,,Jede,_____ Stadt hat ihre eigene Geschichte.,,
+1271,11,Ich lese jeden Tag ein Buch.,I read a book every day.,,jeden,Ich lese _____ Tag ein Buch.,,
+1272,11,Mit jedem neuen Tag lernen wir etwas.,"With each new day, we learn something.",,jedem,Mit _____ neuen Tag lernen wir etwas.,,
+1273,11,Jede dieser Blumen ist wunderschön.,Each of these flowers is beautiful.,,Jede,_____ dieser Blumen ist wunderschön.,,
+1274,11,Der Preis jedes Produkts ist unterschiedlich.,The price of each product is different.,,jedes,Der Preis _____ Produkts ist unterschiedlich.,,
+1275,11,Manche Leute mögen keinen Kaffee.,Some people don't like coffee.,,Manche,_____ Leute mögen keinen Kaffee.,,
+1276,11,Ich kenne manche dieser Geschichten.,I know some of these stories.,,manche,Ich kenne _____ dieser Geschichten.,,
+1277,11,Mit manchem Problem muss man alleine klarkommen.,"With some problems, you have to cope alone.",,manchem,Mit _____ Problem muss man alleine klarkommen.,,
+1278,11,Manche Tage sind schwieriger als andere.,Some days are harder than others.,,Manche,_____ Tage sind schwieriger als andere.,,
+1279,11,Der Wert mancher Dinge steigt mit der Zeit.,The value of some things increases over time.,,mancher,Der Wert _____ Dinge steigt mit der Zeit.,,
+1280,11,Ich habe heute wenig Zeit.,I have little time today.,,wenig,Ich habe heute _____ Zeit.,,
+1281,11,Er isst nur wenig Fleisch.,He eats only a little meat.,,wenig,Er isst nur _____ Fleisch.,,
+1282,11,Es gibt wenig Schnee in diesem Winter.,There is little snow this winter.,,wenig,Es gibt _____ Schnee in diesem Winter.,,
+1283,11,"Sie spricht wenig Deutsch, aber sie lernt.","She speaks little German, but she is learning.",,wenig,"Sie spricht _____ Deutsch, aber sie lernt.",,
+1284,11,"Ich habe wenig Lust, heute Abend auszugehen.",I have little desire to go out tonight.,,wenig,"Ich habe _____ Lust, heute Abend auszugehen.",,
+1285,12,jene,"that, those",demonstrative,,,,
+1286,12,einzelne,"individual, single",mengen,,,,
+1287,12,irgendein,any,,,,,
+1288,12,mehrere,"several, multiple",mengen,,,,
+1289,12,etliche,quite a few,mengen,,,,
+1290,12,verschiedene,"different, various",mengen,,,,
+1291,12,zahlreiche,numerous,mengen,,,,
+1292,12,solch,such,demonstrative,,,,
+1293,12,diejenigen,those,relative & emphatic,,,,
+1294,12,dieselbe,the same,relative & emphatic,,,,
+1295,12,folgend,"following, subsequent",relative & emphatic,,,,
+1296,12,allerlei,"all kinds of, all sort of",relative & emphatic,,,,
+1297,12,sämtliche,"all, every single",relative & emphatic,,,,
+1298,13,Etliche Menschen haben sich über die neuen Regeln beschwert.,Quite a few people have complained about the new rules.,,Etliche,_____ Menschen haben sich über die neuen Regeln beschwert.,,
+1299,13,Ich habe etliche Stunden mit diesem Problem verbracht.,I have spent several hours on this problem.,,etliche,Ich habe _____ Stunden mit diesem Problem verbracht.,,
+1300,13,Mit etlichen Kollegen habe ich über das Projekt diskutiert.,I have discussed the project with several colleagues.,,etlichen,Mit _____ Kollegen habe ich über das Projekt diskutiert.,,
+1301,13,Die Qualität etlicher Produkte hat sich verbessert.,The quality of several products has improved.,,etlicher,Die Qualität _____ Produkte hat sich verbessert.,,
+1302,13,Er hat etliche Bücher über Geschichte gelesen.,He has read several books about history.,,etliche,Er hat _____ Bücher über Geschichte gelesen.,,
+1303,13,Sämtliche Dokumente müssen bis morgen eingereicht werden.,All documents must be submitted by tomorrow.,,Sämtliche,_____ Dokumente müssen bis morgen eingereicht werden.,,
+1304,13,"Ich habe sämtliche Berichte gelesen, bevor ich meine Entscheidung getroffen habe.",I read all reports before making my decision.,,sämtliche,"Ich habe _____ Berichte gelesen, bevor ich meine Entscheidung getroffen habe.",,
+1305,13,Mit sämtlichen Kollegen wurde über die neuen Regeln gesprochen.,All colleagues were informed about the new rules.,,sämtlichen,Mit _____ Kollegen wurde über die neuen Regeln gesprochen.,,
+1306,13,Die Qualität sämtlicher Produkte wurde geprüft.,The quality of all products has been checked.,,sämtlicher,Die Qualität _____ Produkte wurde geprüft.,,
+1307,13,Sämtliche Teilnehmer des Wettbewerbs müssen sich registrieren.,All participants of the competition must register.,,Sämtliche,_____ Teilnehmer des Wettbewerbs müssen sich registrieren.,,
+1308,13,Einzelne Schüler hatten Schwierigkeiten mit der Aufgabe.,Some individual students had difficulties with the task.,,Einzelne,_____ Schüler hatten Schwierigkeiten mit der Aufgabe.,,
+1309,13,Ich habe einzelne Seiten des Buches überflogen.,I skimmed through individual pages of the book.,,einzelne,Ich habe _____ Seiten des Buches überflogen.,,
+1310,13,Mit einzelnen Kunden haben wir besondere Verträge.,"With some individual customers, we have special contracts.",,einzelnen,Mit _____ Kunden haben wir besondere Verträge.,,
+1311,13,Die Bedeutung einzelner Wörter kann sich je nach Kontext ändern.,The meaning of individual words can change depending on the context.,,einzelner,Die Bedeutung _____ Wörter kann sich je nach Kontext ändern.,,
+1312,13,Einzelne Menschen können große Veränderungen bewirken.,Individual people can bring about great changes.,,Einzelne,_____ Menschen können große Veränderungen bewirken.,,
+1313,13,"Hast du irgendeine Idee, wie wir das Problem lösen können?",Do you have any idea how we can solve the problem?,,irgendeine,"Hast du _____ Idee, wie wir das Problem lösen können?",,
+1314,13,Irgendein Fehler muss im System sein.,There must be some error in the system.,,Irgendein,_____ Fehler muss im System sein.,,
+1315,13,Er hat mit irgendeinem Kollegen darüber gesprochen.,He talked about it with some colleague.,,irgendeinem,Er hat mit _____ Kollegen darüber gesprochen.,,
+1316,13,Die Bedeutung irgendeines Wortes kann sich mit der Zeit ändern.,The meaning of some word can change over time.,,irgendeines,Die Bedeutung _____ Wortes kann sich mit der Zeit ändern.,,
+1317,13,"Falls irgendein Problem auftritt, rufen Sie mich bitte an.","If any problem occurs, please call me.",,irgendein,"Falls _____ Problem auftritt, rufen Sie mich bitte an.",,
+1318,13,Jene Frau dort ist eine berühmte Autorin.,That woman over there is a famous author.,,Jene,_____ Frau dort ist eine berühmte Autorin.,,
+1319,13,Ich erinnere mich noch an jenen Tag.,I still remember that day.,,jenen,Ich erinnere mich noch an _____ Tag.,,
+1320,13,Mit jenem Mann habe ich schon einmal gesprochen.,I have spoken with that man before.,,jenem,Mit _____ Mann habe ich schon einmal gesprochen.,,
+1321,13,Die Farben jener Bilder sind beeindruckend.,The colors of those paintings are impressive.,,jener,Die Farben _____ Bilder sind beeindruckend.,,
+1322,13,Jene Momente werde ich niemals vergessen.,I will never forget those moments.,,Jene,_____ Momente werde ich niemals vergessen.,,
+1323,13,Solche Situationen können sehr stressig sein.,Such situations can be very stressful.,,Solche,_____ Situationen können sehr stressig sein.,,
+1324,13,Ich habe solch eine Erfahrung noch nie gemacht.,I have never had such an experience.,,solch,Ich habe _____ eine Erfahrung noch nie gemacht.,,
+1325,13,Mit solchem Wetter habe ich nicht gerechnet.,I did not expect such weather.,,solchem,Mit _____ Wetter habe ich nicht gerechnet.,,
+1326,13,Die Auswirkungen solch einer Entscheidung können groß sein.,The effects of such a decision can be significant.,,solch,Die Auswirkungen _____ einer Entscheidung können groß sein.,,
+1327,13,Warum interessieren dich solch komplizierte Themen?,Why are you interested in such complicated topics?,,solch,Warum interessieren dich _____ komplizierte Themen?,,
+1328,13,Sie trägt dieselbe Jacke wie gestern.,She is wearing the same jacket as yesterday.,,dieselbe,Sie trägt _____ Jacke wie gestern.,,
+1329,13,Wir haben dieselbe Meinung über dieses Thema.,We have the same opinion about this topic.,,dieselbe,Wir haben _____ Meinung über dieses Thema.,,
+1330,13,Er arbeitet im selben Büro wie sein Bruder.,He works in the same office as his brother.,,selben,Er arbeitet im _____ Büro wie sein Bruder.,,
+1331,13,Die Qualität desselben Produkts kann variieren.,The quality of the same product can vary.,,desselben,Die Qualität _____ Produkts kann variieren.,,
+1332,13,Sie benutzen dieselben Bücher für den Unterricht.,They use the same books for class.,,dieselben,Sie benutzen _____ Bücher für den Unterricht.,,
+1333,13,"Mehrere Studien zeigen, dass Sport die Konzentration verbessert.",Several studies show that sports improve concentration.,,Mehrere,"_____ Studien zeigen, dass Sport die Konzentration verbessert.",,
+1334,13,Ich habe mehrere interessante Artikel zu diesem Thema gelesen.,I have read several interesting articles on this topic.,,mehrere,Ich habe _____ interessante Artikel zu diesem Thema gelesen.,,
+1335,13,Mit mehreren Kollegen habe ich über das Projekt diskutiert.,I have discussed the project with several colleagues.,,mehreren,Mit _____ Kollegen habe ich über das Projekt diskutiert.,,
+1336,13,Die Ergebnisse mehrerer Experimente waren sehr überraschend.,The results of several experiments were very surprising.,,mehrerer,Die Ergebnisse _____ Experimente waren sehr überraschend.,,
+1337,13,Mehrere Teilnehmer haben sich über die Organisation beschwert.,Several participants complained about the organization.,,Mehrere,_____ Teilnehmer haben sich über die Organisation beschwert.,,
+1338,13,Zahlreiche Menschen nahmen an der Demonstration teil.,Numerous people participated in the demonstration.,,Zahlreiche,_____ Menschen nahmen an der Demonstration teil.,,
+1339,13,Ich habe zahlreiche interessante Artikel zu diesem Thema gefunden.,I have found numerous interesting articles on this topic.,,zahlreiche,Ich habe _____ interessante Artikel zu diesem Thema gefunden.,,
+1340,13,Mit zahlreichen Kollegen habe ich in den letzten Jahren zusammengearbeitet.,I have worked with numerous colleagues over the past years.,,zahlreichen,Mit _____ Kollegen habe ich in den letzten Jahren zusammengearbeitet.,,
+1341,13,Die Qualität zahlreicher Produkte wurde verbessert.,The quality of numerous products has been improved.,,zahlreicher,Die Qualität _____ Produkte wurde verbessert.,,
+1342,13,Wir haben zahlreiche Ideen für das neue Projekt entwickelt.,We have developed numerous ideas for the new project.,,zahlreiche,Wir haben _____ Ideen für das neue Projekt entwickelt.,,
+1343,13,Im Supermarkt gibt es allerlei exotische Früchte.,"In the supermarket, there are all kinds of exotic fruits.",,allerlei,Im Supermarkt gibt es _____ exotische Früchte.,,
+1344,13,Ich habe allerlei interessante Artikel zu diesem Thema gelesen.,I have read all kinds of interesting articles on this topic.,,allerlei,Ich habe _____ interessante Artikel zu diesem Thema gelesen.,,
+1345,13,Mit allerlei Menschen aus verschiedenen Ländern hat er gesprochen.,He has spoken with all kinds of people from different countries.,,allerlei,Mit _____ Menschen aus verschiedenen Ländern hat er gesprochen.,,
+1346,13,Die Auswirkungen allerlei Entscheidungen können unvorhersehbar sein.,The effects of all kinds of decisions can be unpredictable.,,allerlei,Die Auswirkungen _____ Entscheidungen können unvorhersehbar sein.,,
+1347,13,Allerlei neue Ideen wurden in der Diskussion vorgeschlagen.,All kinds of new ideas were suggested in the discussion.,,Allerlei,_____ neue Ideen wurden in der Diskussion vorgeschlagen.,,
+1348,13,Folgende Fragen müssen noch geklärt werden.,The following questions still need to be clarified.,,Folgende,_____ Fragen müssen noch geklärt werden.,,
+1349,13,Ich habe folgende Informationen über das Thema gefunden.,I have found the following information on the topic.,,folgende,Ich habe _____ Informationen über das Thema gefunden.,,
+1350,13,Mit folgendem Beispiel möchte ich das Problem erklären.,"With the following example, I want to explain the problem.",,folgendem,Mit _____ Beispiel möchte ich das Problem erklären.,,
+1351,13,Die Meinung folgender Experten wurde berücksichtigt.,The opinion of the following experts was taken into account.,,folgender,Die Meinung _____ Experten wurde berücksichtigt.,,
+1352,13,Bitte beachten Sie die folgenden Anweisungen.,Please follow the following instructions.,,folgenden,Bitte beachten Sie die _____ Anweisungen.,,
+1353,13,"Diejenige Frau, die das Problem gelöst hat, verdient eine Belohnung.",The woman who solved the problem deserves a reward.,,Diejenige,"_____ Frau, die das Problem gelöst hat, verdient eine Belohnung.",,
+1354,13,"Ich habe diejenige Lösung gewählt, die am besten funktioniert.",I chose the solution that works best.,,diejenige,"Ich habe _____ Lösung gewählt, die am besten funktioniert.",,
+1355,13,"Er spricht oft mit derjenigen Kollegin, die ihm geholfen hat.",He often talks to the colleague who helped him.,,derjenigen,"Er spricht oft mit _____ Kollegin, die ihm geholfen hat.",,
+1356,13,Die Meinung derjenigen Person ist besonders wichtig.,The opinion of that person is especially important.,,derjenigen,Die Meinung _____ Person ist besonders wichtig.,,
+1357,13,"Nur diejenige Entscheidung, die gut überlegt ist, führt zum Erfolg.",Only the decision that is well thought out leads to success.,,diejenige,"Nur _____ Entscheidung, die gut überlegt ist, führt zum Erfolg.",,
+1358,13,Ich habe verschiedene Bücher über dieses Thema gelesen.,I have read various books on this topic.,,verschiedene,Ich habe _____ Bücher über dieses Thema gelesen.,,
+1359,13,Verschiedene Menschen haben unterschiedliche Meinungen.,Different people have different opinions.,,Verschiedene,_____ Menschen haben unterschiedliche Meinungen.,,
+1360,13,Er hat mit verschiedenen Experten darüber gesprochen.,He has spoken with various experts about it.,,verschiedenen,Er hat mit _____ Experten darüber gesprochen.,,
+1361,13,Die Preise verschiedener Produkte variieren stark.,The prices of different products vary greatly.,,verschiedener,Die Preise _____ Produkte variieren stark.,,
+1362,13,"Wir haben verschiedene Möglichkeiten, das Problem zu lösen.",We have different ways to solve the problem.,,verschiedene,"Wir haben _____ Möglichkeiten, das Problem zu lösen.",,
+1363,13,"Diejenigen, die regelmäßig trainieren, bleiben fit.",Those who train regularly stay fit.,,Diejenigen,"_____, die regelmäßig trainieren, bleiben fit.",,
+1364,13,"Ich bewundere diejenigen, die hart für ihre Ziele arbeiten.",I admire those who work hard for their goals.,,diejenigen,"Ich bewundere _____, die hart für ihre Ziele arbeiten.",,
+1365,13,"Mit denjenigen, die interessiert sind, werde ich das Thema besprechen.",I will discuss the topic with those who are interested.,,denjenigen,"Mit _____, die interessiert sind, werde ich das Thema besprechen.",,
+1366,13,"Die Meinung derjenigen, die viel Erfahrung haben, ist besonders wertvoll.",The opinion of those who have a lot of experience is especially valuable.,,derjenigen,"Die Meinung _____, die viel Erfahrung haben, ist besonders wertvoll.",,
+1367,13,"Nur diejenigen, die die Prüfung bestehen, dürfen weiterstudieren.",Only those who pass the exam are allowed to continue studying.,,diejenigen,"Nur _____, die die Prüfung bestehen, dürfen weiterstudieren.",,

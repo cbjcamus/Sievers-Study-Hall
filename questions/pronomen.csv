@@ -1,0 +1,416 @@
+Nr,level,question,answer,sentence,person,case
+1,1,Heute bin _____ sehr müde.,ich,Heute bin ich sehr müde.,I,Nominativ
+2,1,Am Wochenende gehe _____ oft wandern.,ich,Am Wochenende gehe ich oft wandern.,I,Nominativ
+3,1,"_____ mag es, neue Sprachen zu lernen.",Ich,"Ich mag es, neue Sprachen zu lernen.",I,Nominativ
+4,1,Nach dem Frühstück lese _____ ein Buch.,ich,Nach dem Frühstück lese ich ein Buch.,I,Nominativ
+5,1,Im Kino habe _____ einen tollen Film gesehen.,ich,Im Kino habe ich einen tollen Film gesehen.,I,Nominativ
+6,1,Heute bist _____ sehr freundlich.,du,Heute bist du sehr freundlich.,You (Singular),Nominativ
+7,1,Am Wochenende gehst _____ oft joggen.,du,Am Wochenende gehst du oft joggen.,You (Singular),Nominativ
+8,1,_____ kannst gut singen und tanzen.,Du,Du kannst gut singen und tanzen.,You (Singular),Nominativ
+9,1,Nach dem Frühstück liest _____ manchmal ein Buch.,du,Nach dem Frühstück liest du manchmal ein Buch.,You (Singular),Nominativ
+10,1,Im Kino hast _____ einen spannenden Film gesehen.,du,Im Kino hast du einen spannenden Film gesehen.,You (Singular),Nominativ
+11,1,Heute ist _____ sehr pünktlich angekommen.,er,Heute ist er sehr pünktlich angekommen.,He (Maskulin),Nominativ
+12,1,Im Garten pflanzt _____ neue Blumen.,er,Im Garten pflanzt er neue Blumen.,He (Maskulin),Nominativ
+13,1,"_____ liebt es, im Sommer zu wandern.",Er,"Er liebt es, im Sommer zu wandern.",He (Maskulin),Nominativ
+14,1,Nach der Arbeit liest _____ gerne die Zeitung.,er,Nach der Arbeit liest er gerne die Zeitung.,He (Maskulin),Nominativ
+15,1,Am Wochenende spielt _____ immer Fußball mit Freunden.,er,Am Wochenende spielt er immer Fußball mit Freunden.,He (Maskulin),Nominativ
+16,1,Heute trägt _____ ein schönes Kleid.,sie,Heute trägt sie ein schönes Kleid.,She (Feminin),Nominativ
+17,1,Nach der Arbeit ruht _____ sich meistens aus.,sie,Nach der Arbeit ruht sie sich meistens aus.,She (Feminin),Nominativ
+18,1,_____ kocht gerne für ihre Familie.,Sie,Sie kocht gerne für ihre Familie.,She (Feminin),Nominativ
+19,1,Am Wochenende besucht _____ oft ihre Freunde.,sie,Am Wochenende besucht sie oft ihre Freunde.,She (Feminin),Nominativ
+20,1,Gestern hat _____ ein interessantes Buch gelesen.,sie,Gestern hat sie ein interessantes Buch gelesen.,She (Feminin),Nominativ
+21,1,Heute ist _____ sehr kalt draußen.,es,Heute ist es sehr kalt draußen.,It (Neutral),Nominativ
+22,1,Im Wohnzimmer steht _____ auf dem Tisch.,es,Im Wohnzimmer steht es auf dem Tisch.,It (Neutral),Nominativ
+23,1,"_____ scheint, als ob es bald regnet.",Es,"Es scheint, als ob es bald regnet.",It (Neutral),Nominativ
+24,1,Auf dem Bild sieht _____ aus wie ein Gemälde.,es,Auf dem Bild sieht es aus wie ein Gemälde.,It (Neutral),Nominativ
+25,1,"Morgens dauert _____ immer eine Weile, bis die Sonne aufgeht.",es,"Morgens dauert es immer eine Weile, bis die Sonne aufgeht.",It (Neutral),Nominativ
+26,1,Heute treffen _____ uns im Park.,wir,Heute treffen wir uns im Park.,We,Nominativ
+27,1,Nach dem Frühstück planen _____ unsere Wanderung.,wir,Nach dem Frühstück planen wir unsere Wanderung.,We,Nominativ
+28,1,"_____ hoffen, dass das Wetter morgen schön wird.",Wir,"Wir hoffen, dass das Wetter morgen schön wird.",We,Nominativ
+29,1,Am Wochenende spielen _____ oft zusammen Fußball.,wir,Am Wochenende spielen wir oft zusammen Fußball.,We,Nominativ
+30,1,Gestern haben _____ einen Ausflug ins Museum gemacht.,wir,Gestern haben wir einen Ausflug ins Museum gemacht.,We,Nominativ
+31,1,Im Park habt _____ gestern ein Picknick gemacht.,ihr,Im Park habt ihr gestern ein Picknick gemacht.,You (Plural),Nominativ
+32,1,"Heute Abend geht _____ ins Theater, oder?",ihr,"Heute Abend geht ihr ins Theater, oder?",You (Plural),Nominativ
+33,1,_____ könnt mir später bei der Aufgabe helfen.,Ihr,Ihr könnt mir später bei der Aufgabe helfen.,You (Plural),Nominativ
+34,1,Nach dem Frühstück plant _____ den Tagesausflug.,ihr,Nach dem Frühstück plant ihr den Tagesausflug.,You (Plural),Nominativ
+35,1,Morgen trefft _____ euch mit Freunden im Café.,ihr,Morgen trefft ihr euch mit Freunden im Café.,You (Plural),Nominativ
+36,1,Im Urlaub reisen _____ oft in exotische Länder.,sie,Im Urlaub reisen sie oft in exotische Länder.,They,Nominativ
+37,1,Heute Abend feiern _____ eine große Party.,sie,Heute Abend feiern sie eine große Party.,They,Nominativ
+38,1,_____ haben gestern einen interessanten Vortrag besucht.,Sie,Sie haben gestern einen interessanten Vortrag besucht.,They,Nominativ
+39,1,Beim Fußballspiel haben _____ viele Tore geschossen.,sie,Beim Fußballspiel haben sie viele Tore geschossen.,They,Nominativ
+40,1,Nach der Arbeit treffen _____ sich manchmal im Park.,sie,Nach der Arbeit treffen sie sich manchmal im Park.,They,Nominativ
+41,1,Im Hotel bekommen _____ das beste Zimmer.,Sie,Im Hotel bekommen Sie das beste Zimmer.,You (Formal),Nominativ
+42,1,Heute Abend besuchen _____ eine Aufführung im Theater.,Sie,Heute Abend besuchen Sie eine Aufführung im Theater.,You (Formal),Nominativ
+43,1,"_____ können uns jederzeit anrufen, wenn Sie Hilfe brauchen.",Sie,"Sie können uns jederzeit anrufen, wenn Sie Hilfe brauchen.",You (Formal),Nominativ
+44,1,Beim Meeting haben _____ viele gute Ideen eingebracht.,Sie,Beim Meeting haben Sie viele gute Ideen eingebracht.,You (Formal),Nominativ
+45,1,Nach der Besprechung schicken _____ uns die Unterlagen.,Sie,Nach der Besprechung schicken Sie uns die Unterlagen.,You (Formal),Nominativ
+46,2,Kannst du _____ morgen im Büro anrufen?,mich,Kannst du mich morgen im Büro anrufen?,Ich,Akkusativ
+47,2,Heute hat niemand _____ besucht.,mich,Heute hat niemand mich besucht.,Ich,Akkusativ
+48,2,_____ hat der Film gestern total begeistert.,Mich,Mich hat der Film gestern total begeistert.,Ich,Akkusativ
+49,2,Nach dem Training hat der Trainer _____ gelobt.,mich,Nach dem Training hat der Trainer mich gelobt.,Ich,Akkusativ
+50,2,"Bitte ruf _____ an, wenn du angekommen bist.",mich,"Bitte ruf mich an, wenn du angekommen bist.",Ich,Akkusativ
+51,2,Heute habe ich _____ im Park gesehen.,dich,Heute habe ich dich im Park gesehen.,Du,Akkusativ
+52,2,Kann ich _____ später anrufen?,dich,Kann ich dich später anrufen?,Du,Akkusativ
+53,2,_____ hat der Lehrer gestern gelobt.,Dich,Dich hat der Lehrer gestern gelobt.,Du,Akkusativ
+54,2,Nach der Party habe ich _____ überall gesucht.,dich,Nach der Party habe ich dich überall gesucht.,Du,Akkusativ
+55,2,Der Hund hat _____ sofort erkannt.,dich,Der Hund hat dich sofort erkannt.,Du,Akkusativ
+56,2,Gestern habe ich _____ im Kino gesehen.,ihn,Gestern habe ich ihn im Kino gesehen.,Er,Akkusativ
+57,2,Kannst du _____ später anrufen?,ihn,Kannst du ihn später anrufen?,Er,Akkusativ
+58,2,_____ hat der Trainer für die Mannschaft ausgewählt.,Ihn,Ihn hat der Trainer für die Mannschaft ausgewählt.,Er,Akkusativ
+59,2,Nach dem Spiel habe ich _____ überall gesucht.,ihn,Nach dem Spiel habe ich ihn überall gesucht.,Er,Akkusativ
+60,2,Der Hund hat _____ sofort erkannt.,ihn,Der Hund hat ihn sofort erkannt.,Er,Akkusativ
+61,2,Heute habe ich _____ im Park getroffen.,sie,Heute habe ich sie im Park getroffen.,Sie - Fem.,Akkusativ
+62,2,Kannst du _____ später anrufen?,sie,Kannst du sie später anrufen?,Sie - Fem.,Akkusativ
+63,2,Der Lehrer hat _____ gestern gelobt.,sie,Der Lehrer hat sie gestern gelobt.,Sie - Fem.,Akkusativ
+64,2,Nach der Party habe ich _____ gesucht.,sie,Nach der Party habe ich sie gesucht.,Sie - Fem.,Akkusativ
+65,2,Der Hund hat _____ sofort erkannt.,sie,Der Hund hat sie sofort erkannt.,Sie - Fem.,Akkusativ
+66,2,Gestern habe ich _____ im Wohnzimmer gesehen.,es,Gestern habe ich es im Wohnzimmer gesehen.,Es,Akkusativ
+67,2,Kannst du _____ bitte auf den Tisch legen?,es,Kannst du es bitte auf den Tisch legen?,Es,Akkusativ
+68,2,Der Hund hat _____ sofort gefressen.,es,Der Hund hat es sofort gefressen.,Es,Akkusativ
+69,2,Nach dem Spiel habe ich _____ zurückgebracht.,es,Nach dem Spiel habe ich es zurückgebracht.,Es,Akkusativ
+70,2,Der Lehrer hat _____ gestern erklärt.,es,Der Lehrer hat es gestern erklärt.,Es,Akkusativ
+71,2,Nach der Veranstaltung haben sie _____ eingeladen.,uns,Nach der Veranstaltung haben sie uns eingeladen.,Wir,Akkusativ
+72,2,Der Hund hat _____ sofort erkannt.,uns,Der Hund hat uns sofort erkannt.,Wir,Akkusativ
+73,2,Morgen nimmt der Chef _____ in sein Büro mit.,uns,Morgen nimmt der Chef uns in sein Büro mit.,Wir,Akkusativ
+74,2,"Wenn du _____ brauchst, ruf einfach an.",uns,"Wenn du uns brauchst, ruf einfach an.",Wir,Akkusativ
+75,2,Ich habe _____ gestern in der Stadt getroffen.,uns,Ich habe uns gestern in der Stadt getroffen.,Wir,Akkusativ
+76,2,Die Lehrerin hat _____ gestern gelobt.,euch,Die Lehrerin hat euch gestern gelobt.,Ihr,Akkusativ
+77,2,Ich werde _____ morgen ins Kino einladen.,euch,Ich werde euch morgen ins Kino einladen.,Ihr,Akkusativ
+78,2,Der Hund hat _____ im Garten gesehen.,euch,Der Hund hat euch im Garten gesehen.,Ihr,Akkusativ
+79,2,Ich habe _____ beim Konzert sofort erkannt.,euch,Ich habe euch beim Konzert sofort erkannt.,Ihr,Akkusativ
+80,2,Kann ich _____ später anrufen?,euch,Kann ich euch später anrufen?,Ihr,Akkusativ
+81,2,Ich habe _____ gestern im Park getroffen.,sie,Ich habe sie gestern im Park getroffen.,Sie - Plu.,Akkusativ
+82,2,Kannst du _____ später anrufen?,sie,Kannst du sie später anrufen?,Sie - Plu.,Akkusativ
+83,2,Der Hund hat _____ im Garten gesehen.,sie,Der Hund hat sie im Garten gesehen.,Sie - Plu.,Akkusativ
+84,2,Nach der Besprechung hat der Chef _____ eingeladen.,sie,Nach der Besprechung hat der Chef sie eingeladen.,Sie - Plu.,Akkusativ
+85,2,Warum hat niemand _____ informiert?,sie,Warum hat niemand sie informiert?,Sie - Plu.,Akkusativ
+86,2,Kann ich _____ später anrufen?,Sie,Kann ich Sie später anrufen?,Sie - Form.,Akkusativ
+87,2,Der Chef möchte _____ morgen sprechen.,Sie,Der Chef möchte Sie morgen sprechen.,Sie - Form.,Akkusativ
+88,2,Ich habe _____ gestern im Büro gesehen.,Sie,Ich habe Sie gestern im Büro gesehen.,Sie - Form.,Akkusativ
+89,2,Der Hund hat _____ sofort erkannt.,Sie,Der Hund hat Sie sofort erkannt.,Sie - Form.,Akkusativ
+90,2,Nach der Besprechung werden wir _____ informieren.,Sie,Nach der Besprechung werden wir Sie informieren.,Sie - Form.,Akkusativ
+91,3,Kannst du _____ bitte helfen?,mir,Kannst du mir bitte helfen?,Ich,Dativ
+92,3,Der Lehrer hat _____ eine gute Note gegeben.,mir,Der Lehrer hat mir eine gute Note gegeben.,Ich,Dativ
+93,3,_____ gefällt das neue Buch sehr gut.,Mir,Mir gefällt das neue Buch sehr gut.,Ich,Dativ
+94,3,Nach dem Spiel hat er _____ seine Meinung gesagt.,mir,Nach dem Spiel hat er mir seine Meinung gesagt.,Ich,Dativ
+95,3,"Der Hund folgt immer _____, wenn ich ihn rufe.",mir,"Der Hund folgt immer mir, wenn ich ihn rufe.",Ich,Dativ
+96,3,Kann ich _____ später helfen?,dir,Kann ich dir später helfen?,Du,Dativ
+97,3,Der Lehrer hat _____ eine Frage gestellt.,dir,Der Lehrer hat dir eine Frage gestellt.,Du,Dativ
+98,3,_____ gefällt das neue Lied?,Dir,Dir gefällt das neue Lied?,Du,Dativ
+99,3,Nach dem Spiel hat er _____ die Wahrheit gesagt.,dir,Nach dem Spiel hat er dir die Wahrheit gesagt.,Du,Dativ
+100,3,"Der Hund folgt immer _____, wenn du ihn rufst.",dir,"Der Hund folgt immer dir, wenn du ihn rufst.",Du,Dativ
+101,3,Kannst du _____ später helfen?,ihm,Kannst du ihm später helfen?,Er,Dativ
+102,3,Der Lehrer hat _____ eine schwierige Frage gestellt.,ihm,Der Lehrer hat ihm eine schwierige Frage gestellt.,Er,Dativ
+103,3,_____ gefällt das neue Auto sehr gut.,Ihm,Ihm gefällt das neue Auto sehr gut.,Er,Dativ
+104,3,Nach dem Spiel hat der Trainer _____ ein Lob ausgesprochen.,ihm,Nach dem Spiel hat der Trainer ihm ein Lob ausgesprochen.,Er,Dativ
+105,3,"Der Hund folgt immer _____, wenn er ruft.",ihm,"Der Hund folgt immer ihm, wenn er ruft.",Er,Dativ
+106,3,Kannst du _____ morgen bei der Arbeit helfen?,ihr,Kannst du ihr morgen bei der Arbeit helfen?,Sie - Fem.,Dativ
+107,3,Der Lehrer hat _____ eine gute Note gegeben.,ihr,Der Lehrer hat ihr eine gute Note gegeben.,Sie - Fem.,Dativ
+108,3,_____ gefällt das neue Kleid sehr gut.,Ihr,Ihr gefällt das neue Kleid sehr gut.,Sie - Fem.,Dativ
+109,3,Nach der Besprechung hat der Chef _____ einige Tipps gegeben.,ihr,Nach der Besprechung hat der Chef ihr einige Tipps gegeben.,Sie - Fem.,Dativ
+110,3,"Der Hund folgt immer _____, wenn sie ihn ruft.",ihr,"Der Hund folgt immer ihr, wenn sie ihn ruft.",Sie - Fem.,Dativ
+111,3,Kannst du _____ bei der Aufgabe helfen?,ihm,Kannst du ihm bei der Aufgabe helfen?,Es,Dativ
+112,3,Der Lehrer hat _____ eine interessante Frage gestellt.,ihm,Der Lehrer hat ihm eine interessante Frage gestellt.,Es,Dativ
+113,3,_____ gefällt das neue Spielzeug sehr gut.,Ihm,Ihm gefällt das neue Spielzeug sehr gut.,Es,Dativ
+114,3,Nach der Präsentation hat der Chef _____ ein Kompliment gemacht.,ihm,Nach der Präsentation hat der Chef ihm ein Kompliment gemacht.,Es,Dativ
+115,3,"Der Hund folgt immer _____, wenn es ihn ruft.",ihm,"Der Hund folgt immer ihm, wenn es ihn ruft.",Es,Dativ
+116,3,Kannst du _____ bei der Entscheidung helfen?,uns,Kannst du uns bei der Entscheidung helfen?,Wir,Dativ
+117,3,Der Lehrer hat _____ die Regeln erklärt.,uns,Der Lehrer hat uns die Regeln erklärt.,Wir,Dativ
+118,3,_____ gefällt die Idee mit dem Ausflug sehr gut.,Uns,Uns gefällt die Idee mit dem Ausflug sehr gut.,Wir,Dativ
+119,3,Nach dem Spiel hat der Trainer _____ einige Tipps gegeben.,uns,Nach dem Spiel hat der Trainer uns einige Tipps gegeben.,Wir,Dativ
+120,3,"Der Hund folgt immer _____, wenn wir ihn rufen.",uns,"Der Hund folgt immer uns, wenn wir ihn rufen.",Wir,Dativ
+121,3,Kann ich _____ bei der Aufgabe helfen?,euch,Kann ich euch bei der Aufgabe helfen?,Ihr,Dativ
+122,3,Der Lehrer hat _____ die Regeln erklärt.,euch,Der Lehrer hat euch die Regeln erklärt.,Ihr,Dativ
+123,3,_____ gefällt der neue Film sehr gut?,Euch,Euch gefällt der neue Film sehr gut?,Ihr,Dativ
+124,3,Nach dem Spiel hat der Trainer _____ ein Lob ausgesprochen.,euch,Nach dem Spiel hat der Trainer euch ein Lob ausgesprochen.,Ihr,Dativ
+125,3,"Der Hund folgt immer _____, wenn ihr ihn ruft.",euch,"Der Hund folgt immer euch, wenn ihr ihn ruft.",Ihr,Dativ
+126,3,Kann ich _____ bei der Organisation helfen?,ihnen,Kann ich ihnen bei der Organisation helfen?,Sie - Plu.,Dativ
+127,3,Der Lehrer hat _____ die neuen Regeln erklärt.,ihnen,Der Lehrer hat ihnen die neuen Regeln erklärt.,Sie - Plu.,Dativ
+128,3,_____ gefällt die Idee mit dem Ausflug sehr gut.,Ihnen,Ihnen gefällt die Idee mit dem Ausflug sehr gut.,Sie - Plu.,Dativ
+129,3,Nach dem Spiel hat der Trainer _____ hilfreiche Tipps gegeben.,ihnen,Nach dem Spiel hat der Trainer ihnen hilfreiche Tipps gegeben.,Sie - Plu.,Dativ
+130,3,"Der Hund folgt immer _____, wenn sie ihn rufen.",ihnen,"Der Hund folgt immer ihnen, wenn sie ihn rufen.",Sie - Plu.,Dativ
+131,3,Kann ich _____ bei der Planung helfen?,Ihnen,Kann ich Ihnen bei der Planung helfen?,Sie - Form.,Dativ
+132,3,Der Lehrer hat _____ die neuen Informationen erklärt.,Ihnen,Der Lehrer hat Ihnen die neuen Informationen erklärt.,Sie - Form.,Dativ
+133,3,_____ gefällt die Idee mit der neuen Strategie?,Ihnen,Ihnen gefällt die Idee mit der neuen Strategie?,Sie - Form.,Dativ
+134,3,Nach dem Meeting hat der Chef _____ ein Kompliment gemacht.,Ihnen,Nach dem Meeting hat der Chef Ihnen ein Kompliment gemacht.,Sie - Form.,Dativ
+135,3,"Der Hund folgt immer _____, wenn Sie ihn rufen.",Ihnen,"Der Hund folgt immer Ihnen, wenn Sie ihn rufen.",Sie - Form.,Dativ
+136,4,Kannst du _____ morgen im Büro anrufen?,mich,Kannst du mich morgen im Büro anrufen?,Ich,Akkusativ
+137,4,Heute hat niemand _____ besucht.,mich,Heute hat niemand mich besucht.,Ich,Akkusativ
+138,4,_____ hat der Film gestern total begeistert.,Mich,Mich hat der Film gestern total begeistert.,Ich,Akkusativ
+139,4,Nach dem Training hat der Trainer _____ gelobt.,mich,Nach dem Training hat der Trainer mich gelobt.,Ich,Akkusativ
+140,4,"Bitte ruf _____ an, wenn du angekommen bist.",mich,"Bitte ruf mich an, wenn du angekommen bist.",Ich,Akkusativ
+141,4,Heute habe ich _____ im Park gesehen.,dich,Heute habe ich dich im Park gesehen.,Du,Akkusativ
+142,4,Kann ich _____ später anrufen?,dich,Kann ich dich später anrufen?,Du,Akkusativ
+143,4,_____ hat der Lehrer gestern gelobt.,Dich,Dich hat der Lehrer gestern gelobt.,Du,Akkusativ
+144,4,Nach der Party habe ich _____ überall gesucht.,dich,Nach der Party habe ich dich überall gesucht.,Du,Akkusativ
+145,4,Der Hund hat _____ sofort erkannt.,dich,Der Hund hat dich sofort erkannt.,Du,Akkusativ
+146,4,Gestern habe ich _____ im Kino gesehen.,ihn,Gestern habe ich ihn im Kino gesehen.,Er,Akkusativ
+147,4,Kannst du _____ später anrufen?,ihn,Kannst du ihn später anrufen?,Er,Akkusativ
+148,4,_____ hat der Trainer für die Mannschaft ausgewählt.,Ihn,Ihn hat der Trainer für die Mannschaft ausgewählt.,Er,Akkusativ
+149,4,Nach dem Spiel habe ich _____ überall gesucht.,ihn,Nach dem Spiel habe ich ihn überall gesucht.,Er,Akkusativ
+150,4,Der Hund hat _____ sofort erkannt.,ihn,Der Hund hat ihn sofort erkannt.,Er,Akkusativ
+151,4,Heute habe ich _____ im Park getroffen.,sie,Heute habe ich sie im Park getroffen.,Sie - Fem.,Akkusativ
+152,4,Kannst du _____ später anrufen?,sie,Kannst du sie später anrufen?,Sie - Fem.,Akkusativ
+153,4,Der Lehrer hat _____ gestern gelobt.,sie,Der Lehrer hat sie gestern gelobt.,Sie - Fem.,Akkusativ
+154,4,Nach der Party habe ich _____ gesucht.,sie,Nach der Party habe ich sie gesucht.,Sie - Fem.,Akkusativ
+155,4,Der Hund hat _____ sofort erkannt.,sie,Der Hund hat sie sofort erkannt.,Sie - Fem.,Akkusativ
+156,4,Gestern habe ich _____ im Wohnzimmer gesehen.,es,Gestern habe ich es im Wohnzimmer gesehen.,Es,Akkusativ
+157,4,Kannst du _____ bitte auf den Tisch legen?,es,Kannst du es bitte auf den Tisch legen?,Es,Akkusativ
+158,4,Der Hund hat _____ sofort gefressen.,es,Der Hund hat es sofort gefressen.,Es,Akkusativ
+159,4,Nach dem Spiel habe ich _____ zurückgebracht.,es,Nach dem Spiel habe ich es zurückgebracht.,Es,Akkusativ
+160,4,Der Lehrer hat _____ gestern erklärt.,es,Der Lehrer hat es gestern erklärt.,Es,Akkusativ
+161,4,Nach der Veranstaltung haben sie _____ eingeladen.,uns,Nach der Veranstaltung haben sie uns eingeladen.,Wir,Akkusativ
+162,4,Der Hund hat _____ sofort erkannt.,uns,Der Hund hat uns sofort erkannt.,Wir,Akkusativ
+163,4,Morgen nimmt der Chef _____ in sein Büro mit.,uns,Morgen nimmt der Chef uns in sein Büro mit.,Wir,Akkusativ
+164,4,"Wenn du _____ brauchst, ruf einfach an.",uns,"Wenn du uns brauchst, ruf einfach an.",Wir,Akkusativ
+165,4,Ich habe _____ gestern in der Stadt getroffen.,uns,Ich habe uns gestern in der Stadt getroffen.,Wir,Akkusativ
+166,4,Die Lehrerin hat _____ gestern gelobt.,euch,Die Lehrerin hat euch gestern gelobt.,Ihr,Akkusativ
+167,4,Ich werde _____ morgen ins Kino einladen.,euch,Ich werde euch morgen ins Kino einladen.,Ihr,Akkusativ
+168,4,Der Hund hat _____ im Garten gesehen.,euch,Der Hund hat euch im Garten gesehen.,Ihr,Akkusativ
+169,4,Ich habe _____ beim Konzert sofort erkannt.,euch,Ich habe euch beim Konzert sofort erkannt.,Ihr,Akkusativ
+170,4,Kann ich _____ später anrufen?,euch,Kann ich euch später anrufen?,Ihr,Akkusativ
+171,4,Ich habe _____ gestern im Park getroffen.,sie,Ich habe sie gestern im Park getroffen.,Sie - Plu.,Akkusativ
+172,4,Kannst du _____ später anrufen?,sie,Kannst du sie später anrufen?,Sie - Plu.,Akkusativ
+173,4,Der Hund hat _____ im Garten gesehen.,sie,Der Hund hat sie im Garten gesehen.,Sie - Plu.,Akkusativ
+174,4,Nach der Besprechung hat der Chef _____ eingeladen.,sie,Nach der Besprechung hat der Chef sie eingeladen.,Sie - Plu.,Akkusativ
+175,4,Warum hat niemand _____ informiert?,sie,Warum hat niemand sie informiert?,Sie - Plu.,Akkusativ
+176,4,Kann ich _____ später anrufen?,Sie,Kann ich Sie später anrufen?,Sie - Form.,Akkusativ
+177,4,Der Chef möchte _____ morgen sprechen.,Sie,Der Chef möchte Sie morgen sprechen.,Sie - Form.,Akkusativ
+178,4,Ich habe _____ gestern im Büro gesehen.,Sie,Ich habe Sie gestern im Büro gesehen.,Sie - Form.,Akkusativ
+179,4,Der Hund hat _____ sofort erkannt.,Sie,Der Hund hat Sie sofort erkannt.,Sie - Form.,Akkusativ
+180,4,Nach der Besprechung werden wir _____ informieren.,Sie,Nach der Besprechung werden wir Sie informieren.,Sie - Form.,Akkusativ
+181,4,Kannst du _____ bitte helfen?,mir,Kannst du mir bitte helfen?,Ich,Dativ
+182,4,Der Lehrer hat _____ eine gute Note gegeben.,mir,Der Lehrer hat mir eine gute Note gegeben.,Ich,Dativ
+183,4,_____ gefällt das neue Buch sehr gut.,Mir,Mir gefällt das neue Buch sehr gut.,Ich,Dativ
+184,4,Nach dem Spiel hat er _____ seine Meinung gesagt.,mir,Nach dem Spiel hat er mir seine Meinung gesagt.,Ich,Dativ
+185,4,"Der Hund folgt immer _____, wenn ich ihn rufe.",mir,"Der Hund folgt immer mir, wenn ich ihn rufe.",Ich,Dativ
+186,4,Kann ich _____ später helfen?,dir,Kann ich dir später helfen?,Du,Dativ
+187,4,Der Lehrer hat _____ eine Frage gestellt.,dir,Der Lehrer hat dir eine Frage gestellt.,Du,Dativ
+188,4,_____ gefällt das neue Lied?,Dir,Dir gefällt das neue Lied?,Du,Dativ
+189,4,Nach dem Spiel hat er _____ die Wahrheit gesagt.,dir,Nach dem Spiel hat er dir die Wahrheit gesagt.,Du,Dativ
+190,4,"Der Hund folgt immer _____, wenn du ihn rufst.",dir,"Der Hund folgt immer dir, wenn du ihn rufst.",Du,Dativ
+191,4,Kannst du _____ später helfen?,ihm,Kannst du ihm später helfen?,Er,Dativ
+192,4,Der Lehrer hat _____ eine schwierige Frage gestellt.,ihm,Der Lehrer hat ihm eine schwierige Frage gestellt.,Er,Dativ
+193,4,_____ gefällt das neue Auto sehr gut.,Ihm,Ihm gefällt das neue Auto sehr gut.,Er,Dativ
+194,4,Nach dem Spiel hat der Trainer _____ ein Lob ausgesprochen.,ihm,Nach dem Spiel hat der Trainer ihm ein Lob ausgesprochen.,Er,Dativ
+195,4,"Der Hund folgt immer _____, wenn er ruft.",ihm,"Der Hund folgt immer ihm, wenn er ruft.",Er,Dativ
+196,4,Kannst du _____ morgen bei der Arbeit helfen?,ihr,Kannst du ihr morgen bei der Arbeit helfen?,Sie - Fem.,Dativ
+197,4,Der Lehrer hat _____ eine gute Note gegeben.,ihr,Der Lehrer hat ihr eine gute Note gegeben.,Sie - Fem.,Dativ
+198,4,_____ gefällt das neue Kleid sehr gut.,Ihr,Ihr gefällt das neue Kleid sehr gut.,Sie - Fem.,Dativ
+199,4,Nach der Besprechung hat der Chef _____ einige Tipps gegeben.,ihr,Nach der Besprechung hat der Chef ihr einige Tipps gegeben.,Sie - Fem.,Dativ
+200,4,"Der Hund folgt immer _____, wenn sie ihn ruft.",ihr,"Der Hund folgt immer ihr, wenn sie ihn ruft.",Sie - Fem.,Dativ
+201,4,Kannst du _____ bei der Aufgabe helfen?,ihm,Kannst du ihm bei der Aufgabe helfen?,Es,Dativ
+202,4,Der Lehrer hat _____ eine interessante Frage gestellt.,ihm,Der Lehrer hat ihm eine interessante Frage gestellt.,Es,Dativ
+203,4,_____ gefällt das neue Spielzeug sehr gut.,Ihm,Ihm gefällt das neue Spielzeug sehr gut.,Es,Dativ
+204,4,Nach der Präsentation hat der Chef _____ ein Kompliment gemacht.,ihm,Nach der Präsentation hat der Chef ihm ein Kompliment gemacht.,Es,Dativ
+205,4,"Der Hund folgt immer _____, wenn es ihn ruft.",ihm,"Der Hund folgt immer ihm, wenn es ihn ruft.",Es,Dativ
+206,4,Kannst du _____ bei der Entscheidung helfen?,uns,Kannst du uns bei der Entscheidung helfen?,Wir,Dativ
+207,4,Der Lehrer hat _____ die Regeln erklärt.,uns,Der Lehrer hat uns die Regeln erklärt.,Wir,Dativ
+208,4,_____ gefällt die Idee mit dem Ausflug sehr gut.,Uns,Uns gefällt die Idee mit dem Ausflug sehr gut.,Wir,Dativ
+209,4,Nach dem Spiel hat der Trainer _____ einige Tipps gegeben.,uns,Nach dem Spiel hat der Trainer uns einige Tipps gegeben.,Wir,Dativ
+210,4,"Der Hund folgt immer _____, wenn wir ihn rufen.",uns,"Der Hund folgt immer uns, wenn wir ihn rufen.",Wir,Dativ
+211,4,Kann ich _____ bei der Aufgabe helfen?,euch,Kann ich euch bei der Aufgabe helfen?,Ihr,Dativ
+212,4,Der Lehrer hat _____ die Regeln erklärt.,euch,Der Lehrer hat euch die Regeln erklärt.,Ihr,Dativ
+213,4,_____ gefällt der neue Film sehr gut?,Euch,Euch gefällt der neue Film sehr gut?,Ihr,Dativ
+214,4,Nach dem Spiel hat der Trainer _____ ein Lob ausgesprochen.,euch,Nach dem Spiel hat der Trainer euch ein Lob ausgesprochen.,Ihr,Dativ
+215,4,"Der Hund folgt immer _____, wenn ihr ihn ruft.",euch,"Der Hund folgt immer euch, wenn ihr ihn ruft.",Ihr,Dativ
+216,4,Kann ich _____ bei der Organisation helfen?,ihnen,Kann ich ihnen bei der Organisation helfen?,Sie - Plu.,Dativ
+217,4,Der Lehrer hat _____ die neuen Regeln erklärt.,ihnen,Der Lehrer hat ihnen die neuen Regeln erklärt.,Sie - Plu.,Dativ
+218,4,_____ gefällt die Idee mit dem Ausflug sehr gut.,Ihnen,Ihnen gefällt die Idee mit dem Ausflug sehr gut.,Sie - Plu.,Dativ
+219,4,Nach dem Spiel hat der Trainer _____ hilfreiche Tipps gegeben.,ihnen,Nach dem Spiel hat der Trainer ihnen hilfreiche Tipps gegeben.,Sie - Plu.,Dativ
+220,4,"Der Hund folgt immer _____, wenn sie ihn rufen.",ihnen,"Der Hund folgt immer ihnen, wenn sie ihn rufen.",Sie - Plu.,Dativ
+221,4,Kann ich _____ bei der Planung helfen?,Ihnen,Kann ich Ihnen bei der Planung helfen?,Sie - Form.,Dativ
+222,4,Der Lehrer hat _____ die neuen Informationen erklärt.,Ihnen,Der Lehrer hat Ihnen die neuen Informationen erklärt.,Sie - Form.,Dativ
+223,4,_____ gefällt die Idee mit der neuen Strategie?,Ihnen,Ihnen gefällt die Idee mit der neuen Strategie?,Sie - Form.,Dativ
+224,4,Nach dem Meeting hat der Chef _____ ein Kompliment gemacht.,Ihnen,Nach dem Meeting hat der Chef Ihnen ein Kompliment gemacht.,Sie - Form.,Dativ
+225,4,"Der Hund folgt immer _____, wenn Sie ihn rufen.",Ihnen,"Der Hund folgt immer Ihnen, wenn Sie ihn rufen.",Sie - Form.,Dativ
+226,5,Ich dusche _____ jeden Morgen.,mich,Ich dusche mich jeden Morgen.,Ich,Reflexiv & Akkusative
+227,5,Ich wasche _____ die Hände vor dem Essen.,mir,Ich wasche mir die Hände vor dem Essen.,Ich,Reflexiv & Dative
+228,5,Nach dem Sport ziehe ich _____ um.,mich,Nach dem Sport ziehe ich mich um.,Ich,Reflexiv & Akkusative
+229,5,Vor dem Schlafengehen ziehe ich _____ die Schuhe aus.,mir,Vor dem Schlafengehen ziehe ich mir die Schuhe aus.,Ich,Reflexiv & Dative
+230,5,Heute Abend bade ich _____.,mich,Heute Abend bade ich mich.,Ich,Reflexiv & Akkusative
+231,5,Hast du _____ schon geduscht?,dich,Hast du dich schon geduscht?,Du,Reflexiv & Akkusative
+232,5,Du wäschst _____ die Hände vor dem Essen.,dir,Du wäschst dir die Hände vor dem Essen.,Du,Reflexiv & Dative
+233,5,Ziehst du _____ nach dem Sport um?,dich,Ziehst du dich nach dem Sport um?,Du,Reflexiv & Akkusative
+234,5,"Du ziehst _____ die Schuhe aus, bevor du ins Haus gehst.",dir,"Du ziehst dir die Schuhe aus, bevor du ins Haus gehst.",Du,Reflexiv & Dative
+235,5,"Du freust _____ auf die Ferien, oder?",dich,"Du freust dich auf die Ferien, oder?",Du,Reflexiv & Akkusative
+236,5,Er duscht _____ jeden Morgen vor der Arbeit.,sich,Er duscht sich jeden Morgen vor der Arbeit.,Er,Reflexiv & Akkusative
+237,5,Sie wäscht _____ die Hände vor dem Essen.,sich,Sie wäscht sich die Hände vor dem Essen.,Sie - Fem.,Reflexiv & Dative
+238,5,Es zieht _____ nach dem Spaziergang etwas Warmes an.,sich,Es zieht sich nach dem Spaziergang etwas Warmes an.,Er,Reflexiv & Dative
+239,5,Sie freut _____ auf den Urlaub am Meer.,sich,Sie freut sich auf den Urlaub am Meer.,Sie - Fem.,Reflexiv & Akkusative
+240,5,Er informiert _____ über die neuesten Nachrichten.,sich,Er informiert sich über die neuesten Nachrichten.,Er,Reflexiv & Akkusative
+241,5,Wir duschen _____ nach dem Sport.,uns,Wir duschen uns nach dem Sport.,Wir,Reflexiv & Akkusative
+242,5,Wir waschen _____ die Hände vor dem Essen.,uns,Wir waschen uns die Hände vor dem Essen.,Wir,Reflexiv & Dative
+243,5,"Wir ziehen _____ um, bevor die Gäste kommen.",uns,"Wir ziehen uns um, bevor die Gäste kommen.",Wir,Reflexiv & Akkusative
+244,5,"Wir ziehen _____ die Jacken aus, wenn wir ankommen.",uns,"Wir ziehen uns die Jacken aus, wenn wir ankommen.",Wir,Reflexiv & Dative
+245,5,Wir freuen _____ auf die Reise nach Italien.,uns,Wir freuen uns auf die Reise nach Italien.,Wir,Reflexiv & Akkusative
+246,5,Habt ihr _____ nach dem Training geduscht?,euch,Habt ihr euch nach dem Training geduscht?,Ihr,Reflexiv & Akkusative
+247,5,Ihr wascht _____ die Hände vor dem Essen.,euch,Ihr wascht euch die Hände vor dem Essen.,Ihr,Reflexiv & Dative
+248,5,"Zieht ihr _____ um, bevor ihr ins Bett geht?",euch,"Zieht ihr euch um, bevor ihr ins Bett geht?",Ihr,Reflexiv & Akkusative
+249,5,"Zieht ihr _____ die Schuhe aus, bevor ihr reinkommt?",euch,"Zieht ihr euch die Schuhe aus, bevor ihr reinkommt?",Ihr,Reflexiv & Dative
+250,5,"Ihr freut _____ auf die Ferien, oder?",euch,"Ihr freut euch auf die Ferien, oder?",Ihr,Reflexiv & Akkusative
+251,5,Sie duschen _____ nach dem Training.,sich,Sie duschen sich nach dem Training.,Sie - Plu.,Reflexiv & Akkusative
+252,5,Sie waschen _____ die Hände vor dem Essen.,sich,Sie waschen sich die Hände vor dem Essen.,Sie - Plu.,Reflexiv & Dative
+253,5,"Sie ziehen _____ um, bevor sie schlafen gehen.",sich,"Sie ziehen sich um, bevor sie schlafen gehen.",Sie - Plu.,Reflexiv & Akkusative
+254,5,"Sie ziehen _____ die Jacken aus, bevor sie reinkommen.",sich,"Sie ziehen sich die Jacken aus, bevor sie reinkommen.",Sie - Plu.,Reflexiv & Dative
+255,5,Sie freuen _____ auf die Ferien.,sich,Sie freuen sich auf die Ferien.,Sie - Plu.,Reflexiv & Akkusative
+256,5,Haben Sie _____ heute schon geduscht?,sich,Haben Sie sich heute schon geduscht?,Sie - Form.,Reflexiv & Akkusative
+257,5,Haben Sie _____ die Hände vor dem Essen gewaschen?,sich,Haben Sie sich die Hände vor dem Essen gewaschen?,Sie - Form.,Reflexiv & Dative
+258,5,"Ziehen Sie _____ um, bevor Sie ausgehen?",sich,"Ziehen Sie sich um, bevor Sie ausgehen?",Sie - Form.,Reflexiv & Akkusative
+259,5,"Ziehen Sie _____ die Jacke aus, wenn es warm wird.",sich,"Ziehen Sie sich die Jacke aus, wenn es warm wird.",Sie - Form.,Reflexiv & Dative
+260,5,Freuen Sie _____ auf den bevorstehenden Urlaub?,sich,Freuen Sie sich auf den bevorstehenden Urlaub?,Sie - Form.,Reflexiv & Akkusative
+261,6,Kannst du _____ morgen im Büro anrufen?,mich,Kannst du mich morgen im Büro anrufen?,Ich,Akkusativ
+262,6,Heute hat niemand _____ besucht.,mich,Heute hat niemand mich besucht.,Ich,Akkusativ
+263,6,_____ hat der Film gestern total begeistert.,Mich,Mich hat der Film gestern total begeistert.,Ich,Akkusativ
+264,6,Nach dem Training hat der Trainer _____ gelobt.,mich,Nach dem Training hat der Trainer mich gelobt.,Ich,Akkusativ
+265,6,"Bitte ruf _____ an, wenn du angekommen bist.",mich,"Bitte ruf mich an, wenn du angekommen bist.",Ich,Akkusativ
+266,6,Heute habe ich _____ im Park gesehen.,dich,Heute habe ich dich im Park gesehen.,Du,Akkusativ
+267,6,Kann ich _____ später anrufen?,dich,Kann ich dich später anrufen?,Du,Akkusativ
+268,6,_____ hat der Lehrer gestern gelobt.,Dich,Dich hat der Lehrer gestern gelobt.,Du,Akkusativ
+269,6,Nach der Party habe ich _____ überall gesucht.,dich,Nach der Party habe ich dich überall gesucht.,Du,Akkusativ
+270,6,Der Hund hat _____ sofort erkannt.,dich,Der Hund hat dich sofort erkannt.,Du,Akkusativ
+271,6,Gestern habe ich _____ im Kino gesehen.,ihn,Gestern habe ich ihn im Kino gesehen.,Er,Akkusativ
+272,6,Kannst du _____ später anrufen?,ihn,Kannst du ihn später anrufen?,Er,Akkusativ
+273,6,_____ hat der Trainer für die Mannschaft ausgewählt.,Ihn,Ihn hat der Trainer für die Mannschaft ausgewählt.,Er,Akkusativ
+274,6,Nach dem Spiel habe ich _____ überall gesucht.,ihn,Nach dem Spiel habe ich ihn überall gesucht.,Er,Akkusativ
+275,6,Der Hund hat _____ sofort erkannt.,ihn,Der Hund hat ihn sofort erkannt.,Er,Akkusativ
+276,6,Heute habe ich _____ im Park getroffen.,sie,Heute habe ich sie im Park getroffen.,Sie - Fem.,Akkusativ
+277,6,Kannst du _____ später anrufen?,sie,Kannst du sie später anrufen?,Sie - Fem.,Akkusativ
+278,6,Der Lehrer hat _____ gestern gelobt.,sie,Der Lehrer hat sie gestern gelobt.,Sie - Fem.,Akkusativ
+279,6,Nach der Party habe ich _____ gesucht.,sie,Nach der Party habe ich sie gesucht.,Sie - Fem.,Akkusativ
+280,6,Der Hund hat _____ sofort erkannt.,sie,Der Hund hat sie sofort erkannt.,Sie - Fem.,Akkusativ
+281,6,Gestern habe ich _____ im Wohnzimmer gesehen.,es,Gestern habe ich es im Wohnzimmer gesehen.,Es,Akkusativ
+282,6,Kannst du _____ bitte auf den Tisch legen?,es,Kannst du es bitte auf den Tisch legen?,Es,Akkusativ
+283,6,Der Hund hat _____ sofort gefressen.,es,Der Hund hat es sofort gefressen.,Es,Akkusativ
+284,6,Nach dem Spiel habe ich _____ zurückgebracht.,es,Nach dem Spiel habe ich es zurückgebracht.,Es,Akkusativ
+285,6,Der Lehrer hat _____ gestern erklärt.,es,Der Lehrer hat es gestern erklärt.,Es,Akkusativ
+286,6,Nach der Veranstaltung haben sie _____ eingeladen.,uns,Nach der Veranstaltung haben sie uns eingeladen.,Wir,Akkusativ
+287,6,Der Hund hat _____ sofort erkannt.,uns,Der Hund hat uns sofort erkannt.,Wir,Akkusativ
+288,6,Morgen nimmt der Chef _____ in sein Büro mit.,uns,Morgen nimmt der Chef uns in sein Büro mit.,Wir,Akkusativ
+289,6,"Wenn du _____ brauchst, ruf einfach an.",uns,"Wenn du uns brauchst, ruf einfach an.",Wir,Akkusativ
+290,6,Ich habe _____ gestern in der Stadt getroffen.,uns,Ich habe uns gestern in der Stadt getroffen.,Wir,Akkusativ
+291,6,Die Lehrerin hat _____ gestern gelobt.,euch,Die Lehrerin hat euch gestern gelobt.,Ihr,Akkusativ
+292,6,Ich werde _____ morgen ins Kino einladen.,euch,Ich werde euch morgen ins Kino einladen.,Ihr,Akkusativ
+293,6,Der Hund hat _____ im Garten gesehen.,euch,Der Hund hat euch im Garten gesehen.,Ihr,Akkusativ
+294,6,Ich habe _____ beim Konzert sofort erkannt.,euch,Ich habe euch beim Konzert sofort erkannt.,Ihr,Akkusativ
+295,6,Kann ich _____ später anrufen?,euch,Kann ich euch später anrufen?,Ihr,Akkusativ
+296,6,Ich habe _____ gestern im Park getroffen.,sie,Ich habe sie gestern im Park getroffen.,Sie - Plu.,Akkusativ
+297,6,Kannst du _____ später anrufen?,sie,Kannst du sie später anrufen?,Sie - Plu.,Akkusativ
+298,6,Der Hund hat _____ im Garten gesehen.,sie,Der Hund hat sie im Garten gesehen.,Sie - Plu.,Akkusativ
+299,6,Nach der Besprechung hat der Chef _____ eingeladen.,sie,Nach der Besprechung hat der Chef sie eingeladen.,Sie - Plu.,Akkusativ
+300,6,Warum hat niemand _____ informiert?,sie,Warum hat niemand sie informiert?,Sie - Plu.,Akkusativ
+301,6,Kann ich _____ später anrufen?,Sie,Kann ich Sie später anrufen?,Sie - Form.,Akkusativ
+302,6,Der Chef möchte _____ morgen sprechen.,Sie,Der Chef möchte Sie morgen sprechen.,Sie - Form.,Akkusativ
+303,6,Ich habe _____ gestern im Büro gesehen.,Sie,Ich habe Sie gestern im Büro gesehen.,Sie - Form.,Akkusativ
+304,6,Der Hund hat _____ sofort erkannt.,Sie,Der Hund hat Sie sofort erkannt.,Sie - Form.,Akkusativ
+305,6,Nach der Besprechung werden wir _____ informieren.,Sie,Nach der Besprechung werden wir Sie informieren.,Sie - Form.,Akkusativ
+306,6,Kannst du _____ bitte helfen?,mir,Kannst du mir bitte helfen?,Ich,Dativ
+307,6,Der Lehrer hat _____ eine gute Note gegeben.,mir,Der Lehrer hat mir eine gute Note gegeben.,Ich,Dativ
+308,6,_____ gefällt das neue Buch sehr gut.,Mir,Mir gefällt das neue Buch sehr gut.,Ich,Dativ
+309,6,Nach dem Spiel hat er _____ seine Meinung gesagt.,mir,Nach dem Spiel hat er mir seine Meinung gesagt.,Ich,Dativ
+310,6,"Der Hund folgt immer _____, wenn ich ihn rufe.",mir,"Der Hund folgt immer mir, wenn ich ihn rufe.",Ich,Dativ
+311,6,Kann ich _____ später helfen?,dir,Kann ich dir später helfen?,Du,Dativ
+312,6,Der Lehrer hat _____ eine Frage gestellt.,dir,Der Lehrer hat dir eine Frage gestellt.,Du,Dativ
+313,6,_____ gefällt das neue Lied?,Dir,Dir gefällt das neue Lied?,Du,Dativ
+314,6,Nach dem Spiel hat er _____ die Wahrheit gesagt.,dir,Nach dem Spiel hat er dir die Wahrheit gesagt.,Du,Dativ
+315,6,"Der Hund folgt immer _____, wenn du ihn rufst.",dir,"Der Hund folgt immer dir, wenn du ihn rufst.",Du,Dativ
+316,6,Kannst du _____ später helfen?,ihm,Kannst du ihm später helfen?,Er,Dativ
+317,6,Der Lehrer hat _____ eine schwierige Frage gestellt.,ihm,Der Lehrer hat ihm eine schwierige Frage gestellt.,Er,Dativ
+318,6,_____ gefällt das neue Auto sehr gut.,Ihm,Ihm gefällt das neue Auto sehr gut.,Er,Dativ
+319,6,Nach dem Spiel hat der Trainer _____ ein Lob ausgesprochen.,ihm,Nach dem Spiel hat der Trainer ihm ein Lob ausgesprochen.,Er,Dativ
+320,6,"Der Hund folgt immer _____, wenn er ruft.",ihm,"Der Hund folgt immer ihm, wenn er ruft.",Er,Dativ
+321,6,Kannst du _____ morgen bei der Arbeit helfen?,ihr,Kannst du ihr morgen bei der Arbeit helfen?,Sie - Fem.,Dativ
+322,6,Der Lehrer hat _____ eine gute Note gegeben.,ihr,Der Lehrer hat ihr eine gute Note gegeben.,Sie - Fem.,Dativ
+323,6,_____ gefällt das neue Kleid sehr gut.,Ihr,Ihr gefällt das neue Kleid sehr gut.,Sie - Fem.,Dativ
+324,6,Nach der Besprechung hat der Chef _____ einige Tipps gegeben.,ihr,Nach der Besprechung hat der Chef ihr einige Tipps gegeben.,Sie - Fem.,Dativ
+325,6,"Der Hund folgt immer _____, wenn sie ihn ruft.",ihr,"Der Hund folgt immer ihr, wenn sie ihn ruft.",Sie - Fem.,Dativ
+326,6,Kannst du _____ bei der Aufgabe helfen?,ihm,Kannst du ihm bei der Aufgabe helfen?,Es,Dativ
+327,6,Der Lehrer hat _____ eine interessante Frage gestellt.,ihm,Der Lehrer hat ihm eine interessante Frage gestellt.,Es,Dativ
+328,6,_____ gefällt das neue Spielzeug sehr gut.,Ihm,Ihm gefällt das neue Spielzeug sehr gut.,Es,Dativ
+329,6,Nach der Präsentation hat der Chef _____ ein Kompliment gemacht.,ihm,Nach der Präsentation hat der Chef ihm ein Kompliment gemacht.,Es,Dativ
+330,6,"Der Hund folgt immer _____, wenn es ihn ruft.",ihm,"Der Hund folgt immer ihm, wenn es ihn ruft.",Es,Dativ
+331,6,Kannst du _____ bei der Entscheidung helfen?,uns,Kannst du uns bei der Entscheidung helfen?,Wir,Dativ
+332,6,Der Lehrer hat _____ die Regeln erklärt.,uns,Der Lehrer hat uns die Regeln erklärt.,Wir,Dativ
+333,6,_____ gefällt die Idee mit dem Ausflug sehr gut.,Uns,Uns gefällt die Idee mit dem Ausflug sehr gut.,Wir,Dativ
+334,6,Nach dem Spiel hat der Trainer _____ einige Tipps gegeben.,uns,Nach dem Spiel hat der Trainer uns einige Tipps gegeben.,Wir,Dativ
+335,6,"Der Hund folgt immer _____, wenn wir ihn rufen.",uns,"Der Hund folgt immer uns, wenn wir ihn rufen.",Wir,Dativ
+336,6,Kann ich _____ bei der Aufgabe helfen?,euch,Kann ich euch bei der Aufgabe helfen?,Ihr,Dativ
+337,6,Der Lehrer hat _____ die Regeln erklärt.,euch,Der Lehrer hat euch die Regeln erklärt.,Ihr,Dativ
+338,6,_____ gefällt der neue Film sehr gut?,Euch,Euch gefällt der neue Film sehr gut?,Ihr,Dativ
+339,6,Nach dem Spiel hat der Trainer _____ ein Lob ausgesprochen.,euch,Nach dem Spiel hat der Trainer euch ein Lob ausgesprochen.,Ihr,Dativ
+340,6,"Der Hund folgt immer _____, wenn ihr ihn ruft.",euch,"Der Hund folgt immer euch, wenn ihr ihn ruft.",Ihr,Dativ
+341,6,Kann ich _____ bei der Organisation helfen?,ihnen,Kann ich ihnen bei der Organisation helfen?,Sie - Plu.,Dativ
+342,6,Der Lehrer hat _____ die neuen Regeln erklärt.,ihnen,Der Lehrer hat ihnen die neuen Regeln erklärt.,Sie - Plu.,Dativ
+343,6,_____ gefällt die Idee mit dem Ausflug sehr gut.,Ihnen,Ihnen gefällt die Idee mit dem Ausflug sehr gut.,Sie - Plu.,Dativ
+344,6,Nach dem Spiel hat der Trainer _____ hilfreiche Tipps gegeben.,ihnen,Nach dem Spiel hat der Trainer ihnen hilfreiche Tipps gegeben.,Sie - Plu.,Dativ
+345,6,"Der Hund folgt immer _____, wenn sie ihn rufen.",ihnen,"Der Hund folgt immer ihnen, wenn sie ihn rufen.",Sie - Plu.,Dativ
+346,6,Kann ich _____ bei der Planung helfen?,Ihnen,Kann ich Ihnen bei der Planung helfen?,Sie - Form.,Dativ
+347,6,Der Lehrer hat _____ die neuen Informationen erklärt.,Ihnen,Der Lehrer hat Ihnen die neuen Informationen erklärt.,Sie - Form.,Dativ
+348,6,_____ gefällt die Idee mit der neuen Strategie?,Ihnen,Ihnen gefällt die Idee mit der neuen Strategie?,Sie - Form.,Dativ
+349,6,Nach dem Meeting hat der Chef _____ ein Kompliment gemacht.,Ihnen,Nach dem Meeting hat der Chef Ihnen ein Kompliment gemacht.,Sie - Form.,Dativ
+350,6,"Der Hund folgt immer _____, wenn Sie ihn rufen.",Ihnen,"Der Hund folgt immer Ihnen, wenn Sie ihn rufen.",Sie - Form.,Dativ
+351,6,Ich dusche _____ jeden Morgen.,mich,Ich dusche mich jeden Morgen.,Ich,Reflexiv & Akkusative
+352,6,Ich wasche _____ die Hände vor dem Essen.,mir,Ich wasche mir die Hände vor dem Essen.,Ich,Reflexiv & Dative
+353,6,Nach dem Sport ziehe ich _____ um.,mich,Nach dem Sport ziehe ich mich um.,Ich,Reflexiv & Akkusative
+354,6,Vor dem Schlafengehen ziehe ich _____ die Schuhe aus.,mir,Vor dem Schlafengehen ziehe ich mir die Schuhe aus.,Ich,Reflexiv & Dative
+355,6,Heute Abend bade ich _____.,mich,Heute Abend bade ich mich.,Ich,Reflexiv & Akkusative
+356,6,Hast du _____ schon geduscht?,dich,Hast du dich schon geduscht?,Du,Reflexiv & Akkusative
+357,6,Du wäschst _____ die Hände vor dem Essen.,dir,Du wäschst dir die Hände vor dem Essen.,Du,Reflexiv & Dative
+358,6,Ziehst du _____ nach dem Sport um?,dich,Ziehst du dich nach dem Sport um?,Du,Reflexiv & Akkusative
+359,6,"Du ziehst _____ die Schuhe aus, bevor du ins Haus gehst.",dir,"Du ziehst dir die Schuhe aus, bevor du ins Haus gehst.",Du,Reflexiv & Dative
+360,6,"Du freust _____ auf die Ferien, oder?",dich,"Du freust dich auf die Ferien, oder?",Du,Reflexiv & Akkusative
+361,6,Er duscht _____ jeden Morgen vor der Arbeit.,sich,Er duscht sich jeden Morgen vor der Arbeit.,Er,Reflexiv & Akkusative
+362,6,Sie wäscht _____ die Hände vor dem Essen.,sich,Sie wäscht sich die Hände vor dem Essen.,Sie - Fem.,Reflexiv & Dative
+363,6,Es zieht _____ nach dem Spaziergang etwas Warmes an.,sich,Es zieht sich nach dem Spaziergang etwas Warmes an.,Er,Reflexiv & Dative
+364,6,Sie freut _____ auf den Urlaub am Meer.,sich,Sie freut sich auf den Urlaub am Meer.,Sie - Fem.,Reflexiv & Akkusative
+365,6,Er informiert _____ über die neuesten Nachrichten.,sich,Er informiert sich über die neuesten Nachrichten.,Er,Reflexiv & Akkusative
+366,6,Wir duschen _____ nach dem Sport.,uns,Wir duschen uns nach dem Sport.,Wir,Reflexiv & Akkusative
+367,6,Wir waschen _____ die Hände vor dem Essen.,uns,Wir waschen uns die Hände vor dem Essen.,Wir,Reflexiv & Dative
+368,6,"Wir ziehen _____ um, bevor die Gäste kommen.",uns,"Wir ziehen uns um, bevor die Gäste kommen.",Wir,Reflexiv & Akkusative
+369,6,"Wir ziehen _____ die Jacken aus, wenn wir ankommen.",uns,"Wir ziehen uns die Jacken aus, wenn wir ankommen.",Wir,Reflexiv & Dative
+370,6,Wir freuen _____ auf die Reise nach Italien.,uns,Wir freuen uns auf die Reise nach Italien.,Wir,Reflexiv & Akkusative
+371,6,Habt ihr _____ nach dem Training geduscht?,euch,Habt ihr euch nach dem Training geduscht?,Ihr,Reflexiv & Akkusative
+372,6,Ihr wascht _____ die Hände vor dem Essen.,euch,Ihr wascht euch die Hände vor dem Essen.,Ihr,Reflexiv & Dative
+373,6,"Zieht ihr _____ um, bevor ihr ins Bett geht?",euch,"Zieht ihr euch um, bevor ihr ins Bett geht?",Ihr,Reflexiv & Akkusative
+374,6,"Zieht ihr _____ die Schuhe aus, bevor ihr reinkommt?",euch,"Zieht ihr euch die Schuhe aus, bevor ihr reinkommt?",Ihr,Reflexiv & Dative
+375,6,"Ihr freut _____ auf die Ferien, oder?",euch,"Ihr freut euch auf die Ferien, oder?",Ihr,Reflexiv & Akkusative
+376,6,Sie duschen _____ nach dem Training.,sich,Sie duschen sich nach dem Training.,Sie - Plu.,Reflexiv & Akkusative
+377,6,Sie waschen _____ die Hände vor dem Essen.,sich,Sie waschen sich die Hände vor dem Essen.,Sie - Plu.,Reflexiv & Dative
+378,6,"Sie ziehen _____ um, bevor sie schlafen gehen.",sich,"Sie ziehen sich um, bevor sie schlafen gehen.",Sie - Plu.,Reflexiv & Akkusative
+379,6,"Sie ziehen _____ die Jacken aus, bevor sie reinkommen.",sich,"Sie ziehen sich die Jacken aus, bevor sie reinkommen.",Sie - Plu.,Reflexiv & Dative
+380,6,Sie freuen _____ auf die Ferien.,sich,Sie freuen sich auf die Ferien.,Sie - Plu.,Reflexiv & Akkusative
+381,6,Haben Sie _____ heute schon geduscht?,sich,Haben Sie sich heute schon geduscht?,Sie - Form.,Reflexiv & Akkusative
+382,6,Haben Sie _____ die Hände vor dem Essen gewaschen?,sich,Haben Sie sich die Hände vor dem Essen gewaschen?,Sie - Form.,Reflexiv & Dative
+383,6,"Ziehen Sie _____ um, bevor Sie ausgehen?",sich,"Ziehen Sie sich um, bevor Sie ausgehen?",Sie - Form.,Reflexiv & Akkusative
+384,6,"Ziehen Sie _____ die Jacke aus, wenn es warm wird.",sich,"Ziehen Sie sich die Jacke aus, wenn es warm wird.",Sie - Form.,Reflexiv & Dative
+385,6,Freuen Sie _____ auf den bevorstehenden Urlaub?,sich,Freuen Sie sich auf den bevorstehenden Urlaub?,Sie - Form.,Reflexiv & Akkusative
+386,7,etwas,"something, a little",,,
+387,7,nichts,nothing,,,
+388,7,niemand,"no one, nobody",,,
+389,7,jemand,someone,,,
+390,7,man,"one, jemand",,,
+391,8,Ich möchte _____ essen.,I want to eat something.,Ich möchte etwas essen.,etwas,Indefinit
+392,8,Kannst du mir _____ helfen?,Can you help me a little?,Kannst du mir etwas helfen?,etwas,Indefinit
+393,8,Ich habe _____ Interessantes gelesen.,I read something interesting.,Ich habe etwas Interessantes gelesen.,etwas,Indefinit
+394,8,Er spricht _____ langsamer als vorher.,He speaks a little slower than before.,Er spricht etwas langsamer als vorher.,etwas,Indefinit
+395,8,Gibt es _____ Neues?,Is there anything new?,Gibt es etwas Neues?,etwas,Indefinit
+396,8,Ich habe heute _____ gegessen.,I have eaten nothing today.,Ich habe heute nichts gegessen.,nichts,Indefinit
+397,8,Er sagt _____ über seine Pläne.,He says nothing about his plans.,Er sagt nichts über seine Pläne.,nichts,Indefinit
+398,8,Es gibt _____ Interessantes im Fernsehen.,There is nothing interesting on TV.,Es gibt nichts Interessantes im Fernsehen.,nichts,Indefinit
+399,8,Ich verstehe _____ von Mathematik.,I understand nothing about mathematics.,Ich verstehe nichts von Mathematik.,nichts,Indefinit
+400,8,Sie hat _____ gegen die Idee.,She has nothing against the idea.,Sie hat nichts gegen die Idee.,nichts,Indefinit
+401,8,_____ hat an der Tür geklopft.,Someone knocked on the door.,Jemand hat an der Tür geklopft.,Jemand,Indefinit
+402,8,"Ich habe _____ gesehen, der dir ähnlich sieht.",I saw someone who looks like you.,"Ich habe jemanden gesehen, der dir ähnlich sieht.",jemanden,Indefinit
+403,8,Sprichst du mit _____ über deine Sorgen?,Do you talk to someone about your worries?,Sprichst du mit jemandem über deine Sorgen?,jemandem,Indefinit
+404,8,Die Meinung von _____ sollte nicht ignoriert werden.,Someone's opinion should not be ignored.,Die Meinung von jemandem sollte nicht ignoriert werden.,jemandem,Indefinit
+405,8,_____ Neues wird bald in unser Team kommen.,Someone new will soon join our team.,Jemand Neues wird bald in unser Team kommen.,Jemand,Indefinit
+406,8,"_____ weiß, was wirklich passiert ist.",Nobody knows what really happened.,"Niemand weiß, was wirklich passiert ist.",Niemand,Indefinit
+407,8,"Ich habe _____ getroffen, den ich kannte.",I met nobody that I knew.,"Ich habe niemanden getroffen, den ich kannte.",niemanden,Indefinit
+408,8,Er spricht mit _____ über seine Probleme.,He talks to nobody about his problems.,Er spricht mit niemandem über seine Probleme.,niemandem,Indefinit
+409,8,Die Meinung von _____ interessiert mich.,Nobody's opinion interests me.,Die Meinung von niemandem interessiert mich.,niemandem,Indefinit
+410,8,"_____ hat die Absicht, eine Mauer zu bauen.",Nobody has the intention to build a wall.,"Niemand hat die Absicht, eine Mauer zu bauen.",Niemand,Indefinit
+411,8,_____ sollte jeden Tag mindestens zwei Liter Wasser trinken.,One should drink at least two liters of water every day.,Man sollte jeden Tag mindestens zwei Liter Wasser trinken.,Man,Indefinit
+412,8,In Deutschland spricht _____ Deutsch.,"In Germany, people speak German.",In Deutschland spricht man Deutsch.,man,Indefinit
+413,8,_____ kann das Problem auf verschiedene Weise lösen.,One can solve the problem in different ways.,Man kann das Problem auf verschiedene Weise lösen.,Man,Indefinit
+414,8,"Wenn _____ gesund leben will, sollte _____ sich regelmäßig bewegen.","If one wants to live healthily, one should exercise regularly.","Wenn man gesund leben will, sollte man sich regelmäßig bewegen.",man,Indefinit
+415,8,"_____ sagt, dass Lachen gesund ist.",People say that laughter is healthy.,"Man sagt, dass Lachen gesund ist.",Man,Indefinit

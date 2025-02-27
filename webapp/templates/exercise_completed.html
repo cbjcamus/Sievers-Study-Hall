@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konnektoren - Completed</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
+</head>
+<body>
+    <h1>Konnektoren</h1>
+    <h2>Level 1</h2>
+    <p>All questions have been successfully answered!</p>
+    <form action="{{ url_for('reset_exercise', exercise=exercise, level=level) }}" method="post">
+        <button type="submit" class="button">Refresh</button>
+    </form>
+</body>
+</html>

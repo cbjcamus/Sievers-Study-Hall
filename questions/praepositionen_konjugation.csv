@@ -1,0 +1,1157 @@
+Nr,level,reflx,verb,preposition,case,english_verb,german,english_sentence,answer,question
+1,1,,arbeiten,bei,D,to work at,Er arbeitet bei einer grossen Firma.,He works at a big company.,,
+2,1,,arbeiten,an,D,to work on,Sie arbeitet an einem neuen Projekt.,She is working on a new project.,,
+3,1,,arbeiten,als,-,to work as,,,,
+4,1,,bringen,zu,-,to bring to,,,,
+5,1,,denken,an,A,to think of,Ich denke oft an meine Familie.,I often think of my family.,,
+6,1,,fragen,nach,D,"to ask for, about",Er fragt nach dem Weg.,He asks for directions.,,
+7,1,,glauben,an,A,to believe in,Sie glaubt an Wunder.,She believes in miracles.,,
+8,1,,hoffen,auf,A,to hope for,Wir hoffen auf besseres Wetter.,We are hoping for better weather.,,
+9,1,,hören,auf,A,to listen to,,,,
+10,1,sich,interessieren,für,A,to be interested in,Sie interessiert sich für Geschichte.,She is interested in history.,für,
+11,1,,kommen,aus,A,to come from,Sie kommt aus Deutschland.,She comes from Germany.,,
+12,1,,kommen,zu,D,to come to,Er kam zu einer wichtigen Entscheidung.,He came to an important decision.,,
+13,1,,schreiben,über,A,to write about,,,,
+14,1,,schreiben,an,A / D,to write to,Er schreibt an seinen Chef.,He writes to his boss.,,
+15,1,,sein,gegen,A,to be against,Sie ist gegen die neue Regel.,She is against the new rule.,,
+16,1,,sein,für,A,to be for,Ich bin für diesen Vorschlag.,I am in favor of this proposal.,,
+17,1,,spielen,mit,D,to play with,Das Kind spielt mit seinem Hund.,The child is playing with its dog.,,
+18,1,,sprechen,mit,D,to speak with,Ich spreche mit meiner Schwester.,I am talking to my sister.,,
+19,1,,suchen,nach,D,to search for,Er sucht nach seinen Schlüsseln.,He is looking for his keys.,,
+20,1,sich,treffen,zu,D,to meet for,Wir treffen uns zu einem Gespräch.,We meet for a conversation.,,
+21,1,sich,treffen,mit,D,to meet with,Er trifft sich mit seinen Freunden.,He meets with his friends.,,
+22,1,,übersetzen,aus,A,to translate from,,,,
+23,1,,übersetzen,in,A,to translate into,,,,
+24,1,,warten,auf,A,to wait for,Sie wartet auf den Bus.,She is waiting for the bus.,,
+25,2,,arbeiten,bei,,to work at,Er arbeitet bei einer großen Firma.,He works at a big company.,bei,Er arbeitet _____ einer großen Firma.
+26,2,,arbeiten,bei,,to work at,Ich arbeite bei Lidl als Verkäufer.,I work at Lidl as a salesperson.,bei,Ich arbeite _____ Lidl als Verkäufer.
+27,2,,arbeiten,an,,to work on,Sie arbeitet an einem neuen Projekt.,She is working on a new project.,an,Sie arbeitet _____ einem neuen Projekt.
+28,2,,arbeiten,an,,to work on,Ich arbeite an meinem Deutsch.,I am working on my German.,an,Ich arbeite _____ meinem Deutsch.
+29,2,,arbeiten,als,,to work as,Er arbeitet als Lehrer.,He works as a teacher.,als,Er arbeitet _____ Lehrer.
+30,2,,arbeiten,als,,to work as,Ich arbeite als Kellnerin.,I work as a waitress.,als,Ich arbeite _____ Kellnerin.
+31,2,,bringen,zu,,to bring to,Der Briefträger bringt das Paket zu mir.,The postman brings the package to me.,zu,Der Briefträger bringt das Paket _____ mir.
+32,2,,bringen,zu,,to bring to,Ich bringe das Kind zu der Schule.,I bring the child to school.,zu,Ich bringe das Kind _____ der Schule.
+33,2,,denken,an,,to think of,Ich denke an meine Mutter.,I think about my mother.,an,Ich denke _____ meine Mutter.
+34,2,,denken,an,,to think of,Er denkt oft an seinen Urlaub.,He often thinks about his vacation.,an,Er denkt oft _____ seinen Urlaub.
+35,2,,fragen,nach,,"to ask for, about",Er fragt nach dem Weg.,He asks for the way.,nach,Er fragt _____ dem Weg.
+36,2,,fragen,nach,,"to ask for, about",Ich frage nach dem Preis.,I ask for the price.,nach,Ich frage _____ dem Preis.
+37,2,,glauben,an,,to believe in,Sie glaubt an Gott.,She believes in God.,an,Sie glaubt _____ Gott.
+38,2,,glauben,an,,to believe in,Ich glaube an meine Freunde.,I believe in my friends.,an,Ich glaube _____ meine Freunde.
+39,2,,hoffen,auf,,to hope for,Wir hoffen auf gutes Wetter.,We hope for good weather.,auf,Wir hoffen _____ gutes Wetter.
+40,2,,hoffen,auf,,to hope for,Ich hoffe auf eine gute Note.,I hope for a good grade.,auf,Ich hoffe _____ eine gute Note.
+41,2,,hören,auf,,to listen to,Das Kind hört auf seine Mutter.,The child listens to his mother.,auf,Das Kind hört _____ seine Mutter.
+42,2,,hören,auf,,to listen to,Ich höre auf den Lehrer.,I listen to the teacher.,auf,Ich höre _____ den Lehrer.
+43,2,sich,interessieren,für,,to be interested in,Ich interessiere mich für Geschichte.,I am interested in history.,für,Ich interessiere mich _____ Geschichte.
+44,2,sich,interessieren,für,,to be interested in,Er interessiert sich für Musik.,He is interested in music.,für,Er interessiert sich _____ Musik.
+45,2,,kommen,aus,,to come from,Ich komme aus Deutschland.,I come from Germany.,aus,Ich komme _____ Deutschland.
+46,2,,kommen,aus,,to come from,Sie kommt aus Italien.,She comes from Italy.,aus,Sie kommt _____ Italien.
+47,2,,kommen,zu,,to come to,Er kommt zu spät zu der Schule.,He comes late to school.,zu,Er kommt zu spät _____ der Schule.
+48,2,,kommen,zu,,to come to,Ich komme zu deiner Party.,I come to your party.,zu,Ich komme _____ deiner Party.
+49,2,,schreiben,über,,to write about,Ich schreibe über meine Familie.,I write about my family.,über,Ich schreibe _____ meine Familie.
+50,2,,schreiben,über,,to write about,Er schreibt über seine Reise.,He writes about his trip.,über,Er schreibt _____ seine Reise.
+51,2,,schreiben,an,,to write to,Ich schreibe einen Brief an meine Oma.,I write a letter to my grandma.,an,Ich schreibe einen Brief _____ meine Oma.
+52,2,,schreiben,an,,to write to,Sie schreibt eine E-Mail an ihren Freund.,She writes an email to her boyfriend.,an,Sie schreibt eine E-Mail _____ ihren Freund.
+53,2,,sein,gegen,,to be against,Ich bin gegen die Idee.,I am against the idea.,gegen,Ich bin _____ die Idee.
+54,2,,sein,gegen,,to be against,Er ist gegen das neue Gesetz.,He is against the new law.,gegen,Er ist _____ das neue Gesetz.
+55,2,,sein,für,,to be for,Ich bin für das neue Projekt.,I am for the new project.,für,Ich bin _____ das neue Projekt.
+56,2,,sein,für,,to be for,Sie ist für eine längere Pause.,She is for a longer break.,für,Sie ist _____ eine längere Pause.
+57,2,,spielen,mit,,to play with,Das Kind spielt mit dem Ball.,The child plays with the ball.,mit,Das Kind spielt _____ dem Ball.
+58,2,,spielen,mit,,to play with,Ich spiele mit meinem Hund.,I play with my dog.,mit,Ich spiele _____ meinem Hund.
+59,2,,sprechen,mit,,to speak with,Ich spreche mit meinem Vater.,I talk with my father.,mit,Ich spreche _____ meinem Vater.
+60,2,,sprechen,mit,,to speak with,Sie spricht mit ihrer Lehrerin.,She talks with her teacher.,mit,Sie spricht _____ ihrer Lehrerin.
+61,2,,suchen,nach,,to search for,Ich suche nach meinem Handy.,I am looking for my phone.,nach,Ich suche _____ meinem Handy.
+62,2,,suchen,nach,,to search for,Sie sucht nach einem neuen Job.,She is looking for a new job.,nach,Sie sucht _____ einem neuen Job.
+63,2,sich,treffen,zu,,to meet for,Wir treffen uns zu einem Kaffee.,We meet for a coffee.,zu,Wir treffen uns _____ einem Kaffee.
+64,2,sich,treffen,zu,,to meet for,Sie treffen sich zu einer Besprechung.,They meet for a meeting.,zu,Sie treffen sich _____ einer Besprechung.
+65,2,sich,treffen,mit,,to meet with,Ich treffe mich mit meiner Freundin.,I meet with my girlfriend.,mit,Ich treffe mich _____ meiner Freundin.
+66,2,sich,treffen,mit,,to meet with,Er trifft sich mit seinen Kollegen.,He meets with his colleagues.,mit,Er trifft sich _____ seinen Kollegen.
+67,2,,übersetzen,aus,,to translate from,Ich übersetze den Text aus dem Englischen.,I translate the text from English.,aus,Ich übersetze den Text _____ dem Englischen.
+68,2,,übersetzen,aus,,to translate from,Sie übersetzt das Buch aus dem Französischen.,She translates the book from French.,aus,Sie übersetzt das Buch _____ dem Französischen.
+69,2,,übersetzen,in,,to translate into,Ich übersetze den Brief ins Deutsche.,I translate the letter into German.,ins,Ich übersetze den Brief _____ Deutsche.
+70,2,,übersetzen,in,,to translate into,Er übersetzt das Dokument in seine Sprache.,He translates the document into his language.,in,Er übersetzt das Dokument _____ seine Sprache.
+71,2,,warten,auf,,to wait for,Ich warte auf den Bus.,I am waiting for the bus.,auf,Ich warte _____ den Bus.
+72,2,,warten,auf,,to wait for,Sie wartet auf ihre Freundin.,She is waiting for her friend.,auf,Sie wartet _____ ihre Freundin.
+73,3,,ändern,an,D,to change about,Er ändert etwas an seinem Plan.,He changes something in his plan.,an,
+74,3,,anfangen,mit,D,to start with,Er fängt mit der Arbeit an.,He starts with the work.,mit,
+75,3,,anrufen,bei,D,to call at,,,bei,
+76,3,,antworten,auf,A,to answer to,Sie antwortet auf seine Frage.,She answers his question.,auf,
+77,3,,aufhören,mit,D,to stop with,Sie hört mit dem Rauchen auf.,She is quitting smoking.,mit,
+78,3,,beginnen,mit,D,to begin with,Sie beginnt mit der Arbeit.,She starts with the work.,mit,
+79,3,,bitten,um,A,to ask for / plead for,Er bittet um Verständnis.,He asks for understanding.,um,
+80,3,,danken,für,A,to thank for,Ich danke dir für deine Hilfe.,I thank you for your help.,für,
+81,3,,diskutieren,über,A,to discuss about,,,über,
+82,3,,diskutieren,mit,D,to discuss with,,,mit,
+83,3,,einladen,zu,D,to invite to,Wir laden euch zum Abendessen ein.,We invite you to dinner.,zu,
+84,3,sich,erinnern,an,A,to recall / remember,Er erinnert sich an seine Schulzeit.,He remembers his school days.,an,
+85,3,,erzählen,über,A,to talk of / about,Er erzählt über seine Reise.,He talks about his trip.,über,
+86,3,,erzählen,von,D,to tell about,Sie erzählt von ihrer Kindheit.,She talks about her childhood.,von,
+87,3,sich,freuen,auf,A,to look forward to,Ich freue mich auf den Urlaub.,I am looking forward to the vacation.,auf,
+88,3,sich,freuen,über,A,to rejoice about,Sie freut sich über das Geschenk.,She is happy about the gift.,über,
+89,3,,führen,zu,D,to lead to,,,zu,
+90,3,,gehören,zu,D,to belong to,Er gehört zu unserer Gruppe.,He belongs to our group.,zu,
+91,3,,helfen,bei,D,to help with,Kannst du mir bei den Hausaufgaben helfen?,Can you help me with the homework?,bei,
+92,3,,hören,von,D,to hear of,Ich habe lange nichts von ihm gehört.,I haven't heard from him in a long time.,von,
+93,3,,lachen,über,A,to laugh about,Wir lachen über den Witz.,We laugh about the joke.,über,
+94,3,,passen,zu,D,"to match with, to pair with",,,zu,
+95,3,,reden,über,A,to talk about something,Wir reden über das Wochenende.,We are talking about the weekend.,,
+96,3,,reden,von,D,to talk of something,Er redet von seinem neuen Job.,He talks about his new job.,von,
+97,3,,sprechen,über,A,to talk about,Wir sprechen über Politik.,We are talking about politics.,,
+98,3,,sprechen,von,D,to speak of,,,von,
+99,3,,träumen,von,D,to dream of,Sie träumt von einer Reise nach Japan.,She dreams of a trip to Japan.,von,
+100,3,,verstehen,von,D,to be versed in / skilled in,Ich verstehe nichts von Physik.,I know nothing about physics.,von,
+101,3,sich,verstehen,mit,D,to get along with,Sie versteht sich gut mit ihren Kollegen.,She gets along well with her colleagues.,mit,
+102,3,,wählen,zu,D,to elect to,,,zu,
+103,3,,wissen,von,D,to know about,Ich weiss nichts von dieser Angelegenheit.,I know nothing about this matter.,von,
+104,3,,wissen,über,A,to know about,,,über,
+105,3,,zählen,zu,D,to count among,,,zu,
+106,4,,ändern,an,,to change about,Er ändert etwas an seinem Plan.,He changes something about his plan.,an,Er ändert etwas _____ seinem Plan.
+107,4,,ändern,an,,to change about,Wir müssen etwas an der Situation ändern.,We have to change something about the situation.,an,Wir müssen etwas _____ der Situation ändern.
+108,4,,anfangen,mit,,to start with,Sie fängt mit dem Lernen an.,She starts learning.,mit,Sie fängt _____ dem Lernen an.
+109,4,,anfangen,mit,,to start with,Ich fange mit der Arbeit um 9 Uhr an.,I start work at 9 o'clock.,mit,Ich fange _____ der Arbeit um 9 Uhr an.
+110,4,,anrufen,bei,,to call at,Ich rufe bei der Firma an.,I call the company.,bei,Ich rufe _____ der Firma an.
+111,4,,anrufen,bei,,to call at,Er ruft bei seiner Mutter an.,He calls his mother.,bei,Er ruft _____ seiner Mutter an.
+112,4,,antworten,auf,,to answer to,Ich antworte auf deine Frage.,I answer your question.,auf,Ich antworte _____ deine Frage.
+113,4,,antworten,auf,,to answer to,Er antwortet auf die E-Mail.,He answers the email.,auf,Er antwortet _____ die E-Mail.
+114,4,,aufhören,mit,,to stop with,Wir hören mit dem Rauchen auf.,We stop smoking.,mit,Wir hören _____ dem Rauchen auf.
+115,4,,aufhören,mit,,to stop with,Sie hört mit der Arbeit um 18 Uhr auf.,She stops working at 6 PM.,mit,Sie hört _____ der Arbeit um 18 Uhr auf.
+116,4,,beginnen,mit,,to begin with,Ich beginne mit dem neuen Projekt.,I start with the new project.,mit,Ich beginne _____ dem neuen Projekt.
+117,4,,beginnen,mit,,to begin with,Er beginnt mit dem Studium.,He starts studying.,mit,Er beginnt _____ dem Studium.
+118,4,,bitten,um,,to ask for / plead for,Ich bitte um Hilfe.,I ask for help.,um,Ich bitte _____ Hilfe.
+119,4,,bitten,um,,to ask for / plead for,Er bittet um einen Gefallen.,He asks for a favor.,um,Er bittet _____ einen Gefallen.
+120,4,,danken,für,,to thank for,Ich danke dir für deine Hilfe.,I thank you for your help.,für,Ich danke dir _____ deine Hilfe.
+121,4,,danken,für,,to thank for,Wir danken unseren Eltern für alles.,We thank our parents for everything.,für,Wir danken unseren Eltern _____ alles.
+122,4,,diskutieren,über,,to discuss about,Wir diskutieren über das Problem.,We discuss the problem.,über,Wir diskutieren _____ das Problem.
+123,4,,diskutieren,über,,to discuss about,Sie diskutiert über Politik.,She discusses politics.,über,Sie diskutiert _____ Politik.
+124,4,,diskutieren,mit,,to discuss with,Ich diskutiere mit meinem Freund.,I discuss with my friend.,mit,Ich diskutiere _____ meinem Freund.
+125,4,,diskutieren,mit,,to discuss with,Er diskutiert mit seinen Kollegen.,He discusses with his colleagues.,mit,Er diskutiert _____ seinen Kollegen.
+126,4,,einladen,zu,,to invite to,Ich lade dich zu meiner Party ein.,I invite you to my party.,zu,Ich lade dich _____ meiner Party ein.
+127,4,,einladen,zu,,to invite to,Er lädt uns zu seinem Geburtstag ein.,He invites us to his birthday.,zu,Er lädt uns _____ seinem Geburtstag ein.
+128,4,sich,erinnern,an,,to recall / remember,Ich erinnere mich an meine Kindheit.,I remember my childhood.,an,Ich erinnere mich _____ meine Kindheit.
+129,4,sich,erinnern,an,,to recall / remember,Sie erinnert sich an den Urlaub.,She remembers the vacation.,an,Sie erinnert sich _____ den Urlaub.
+130,4,,erzählen,über,A,to talk of / about,Sie hat über ihre Reise nach Afrika erzählt.,She talked about her trip to Africa.,über,Sie hat _____ ihre Reise nach Afrika erzählt.
+131,4,,erzählen,über,A,to talk of / about,Er erzählt über die Geschichte seiner Familie.,He talks about the history of his family.,über,Er erzählt _____ die Geschichte seiner Familie.
+132,4,,erzählen,von,,to tell about,Sie hat von ihrer Kindheit erzählt.,She told about her childhood.,von,Sie hat _____ ihrer Kindheit erzählt.
+133,4,,erzählen,von,,to tell about,"Er erzählte von einem interessanten Buch, das er gelesen hat.",He told about an interesting book he read.,von,"Er erzählte _____ einem interessanten Buch, das er gelesen hat."
+134,4,sich,freuen,auf,,to look forward to,Ich freue mich auf den Sommer.,I am looking forward to summer.,auf,Ich freue mich _____ den Sommer.
+135,4,sich,freuen,auf,,to look forward to,Er freut sich auf den Besuch.,He is looking forward to the visit.,auf,Er freut sich _____ den Besuch.
+136,4,sich,freuen,über,,to rejoice about,Ich freue mich über dein Geschenk.,I am happy about your gift.,über,Ich freue mich _____ dein Geschenk.
+137,4,sich,freuen,über,,to rejoice about,Sie freut sich über die gute Nachricht.,She is happy about the good news.,über,Sie freut sich _____ die gute Nachricht.
+138,4,,führen,zu,,to lead to,Diese Regel führt zu Problemen.,This rule leads to problems.,zu,Diese Regel führt _____ Problemen.
+139,4,,führen,zu,,to lead to,Sein Verhalten führt zu Missverständnissen.,His behavior leads to misunderstandings.,zu,Sein Verhalten führt _____ Missverständnissen.
+140,4,,gehören,zu,,to belong to,Dieses Buch gehört zu meiner Sammlung.,This book belongs to my collection.,zu,Dieses Buch gehört _____ meiner Sammlung.
+141,4,,gehören,zu,,to belong to,Er gehört zu den besten Spielern.,He belongs to the best players.,zu,Er gehört _____ den besten Spielern.
+142,4,,helfen,bei,,to help with,Ich helfe dir bei den Hausaufgaben.,I help you with your homework.,bei,Ich helfe dir _____ den Hausaufgaben.
+143,4,,helfen,bei,,to help with,Er hilft bei der Organisation.,He helps with the organization.,bei,Er hilft _____ der Organisation.
+144,4,,hören,von,,to hear of,Ich habe noch nichts von ihm gehört.,I haven't heard from him yet.,von,Ich habe noch nichts _____ ihm gehört.
+145,4,,hören,von,,to hear of,Hast du etwas von dem Unfall gehört?,Have you heard about the accident?,von,Hast du etwas _____ dem Unfall gehört?
+146,4,,lachen,über,,to laugh about,Wir lachen über den Witz.,We laugh about the joke.,über,Wir lachen _____ den Witz.
+147,4,,lachen,über,,to laugh about,Sie lacht über seine Geschichte.,She laughs about his story.,über,Sie lacht _____ seine Geschichte.
+148,4,,passen,zu,,"to match with, to pair with",Dieses Kleid passt zu deinen Schuhen.,This dress matches your shoes.,zu,Dieses Kleid passt _____ deinen Schuhen.
+149,4,,passen,zu,,"to match with, to pair with",Sein Verhalten passt nicht zu seinem Alter.,His behavior doesn’t match his age.,zu,Sein Verhalten passt nicht _____ seinem Alter.
+150,4,,reden,über,,to talk about something,Sie hat über ihre Karriere als Sängerin geredet.,She talked about her career as a singer.,über,Sie hat _____ ihre Karriere als Sängerin geredet.
+151,4,,reden,über,,to talk about something,"Wir reden oft über Politik, wenn wir uns treffen.",We often talk about politics when we meet.,über,"Wir reden oft _____ Politik, wenn wir uns treffen."
+152,4,,reden,von,,to talk of something,"Sie reden immer von ihren Nachbarn, wenn wir sie besuchen.",They always talk about their neighbors when we visit.,von,"Sie reden immer _____ ihren Nachbarn, wenn wir sie besuchen."
+153,4,,reden,von,,to talk of something,"Er redet von seiner Kindheit, aber nur selten.","He talks about his childhood, but only rarely.",von,"Er redet _____ seiner Kindheit, aber nur selten."
+154,4,,sprechen,über,,to talk about,Wir haben lange über den Klimawandel gesprochen.,We had a long discussion about climate change.,über,Wir haben lange _____ den Klimawandel gesprochen.
+155,4,,sprechen,über,,to talk about,Der Professor hat ausführlich über die Geschichte des antiken Roms gesprochen.,The professor talked extensively about the history of ancient Rome.,über,Der Professor hat ausführlich _____ die Geschichte des antiken Roms gesprochen.
+156,4,,sprechen,von,,to speak of,Er hat von seinem neuen Job gesprochen.,He briefly spoke about his new job.,von,Er hat _____ seinem neuen Job gesprochen.
+157,4,,sprechen,von,,to speak of,Er hat nur kurz von der Party gesprochen.,"He mentioned the party in passing, but didn’t go into detail.",von,Er hat nur kurz _____ der Party gesprochen.
+158,4,,träumen,von,,to dream of,Ich träume von einem schönen Urlaub.,I dream of a nice vacation.,von,Ich träume _____ einem schönen Urlaub.
+159,4,,träumen,von,,to dream of,Er träumt von einem besseren Leben.,He dreams of a better life.,von,Er träumt _____ einem besseren Leben.
+160,4,,verstehen,von,,to be versed in / skilled in,Ich verstehe nichts von Mathe.,I don’t understand anything about math.,von,Ich verstehe nichts _____ Mathe.
+161,4,,verstehen,von,,to be versed in / skilled in,Er versteht viel von Technik.,He understands a lot about technology.,von,Er versteht viel _____ Technik.
+162,4,sich,verstehen,mit,,to get along with,Ich verstehe mich gut mit meiner Schwester.,I get along well with my sister.,mit,Ich verstehe mich gut _____ meiner Schwester.
+163,4,sich,verstehen,mit,,to get along with,Er versteht sich mit seinen Kollegen.,He gets along with his colleagues.,mit,Er versteht sich _____ seinen Kollegen.
+164,4,,wählen,zu,,to elect to,Wir wählen ihn zum Klassensprecher.,We elect him as class representative.,zum,Wir wählen ihn _____ Klassensprecher.
+165,4,,wählen,zu,,to elect to,Sie wurde zur Chefin gewählt.,She was elected as the boss.,zur,Sie wurde _____ Chefin gewählt.
+166,4,,wissen,über,,to know about,Was weißt du über die neue Kollegin?,What do you know about the new colleague?,über,Was weißt du _____ die neue Kollegin?
+167,4,,wissen,über,,to know about,Ich weiß viel über die Kultur Japans.,I know a lot about Japanese culture.,über,Ich weiß viel _____ die Kultur Japans.
+168,4,,wissen,von,,to know about,Weißt du von dem neuen Projekt?,Do you know about the new project?,von,Weißt du _____ dem neuen Projekt?
+169,4,,wissen,von,,to know about,Er weiß nichts von der Überraschung.,He doesn’t know anything about the surprise.,von,Er weiß nichts _____ der Überraschung.
+170,4,,zählen,zu,,to count among,Berlin zählt zu den größten Städten Deutschlands.,Berlin is considered one of the biggest cities in Germany.,zu,Berlin zählt _____ den größten Städten Deutschlands.
+171,4,,zählen,zu,,to count among,Er zählt zu den besten Musikern.,He is considered one of the best musicians.,zu,Er zählt _____ den besten Musikern.
+172,5,,achten,auf,A,"to watch, to pay attention to",,,,
+173,5,,ankommen,auf,A,to depend on,Es kommt auf das Wetter an.,It depends on the weather.,,
+174,5,sich,ärgern,über,A,to get angry about / with,,,,
+175,5,,aufpassen,auf,A,to watch over,,,,
+176,5,,beeilen,mit,D,to hurry with,,,,
+177,5,sich,bemühen,um,A,"to strive for, be eager for",,,um,
+178,5,sich,beschäftigen,mit,D,"to deal with, to concern onself with, to be occupied with",,,,
+179,5,,beschreiben,als,A,to describe as,,,,
+180,5,sich,beschweren,über,A,to complain about,,,,
+181,5,sich,beschweren,bei,D,to complain to,,,,
+182,5,,enden,mit,D,to end with,,,,
+183,5,sich,entscheiden,für,A,to decide on,Er hat sich für das rote Auto entschieden.,He decided on the red car.,,
+184,5,sich,entscheiden,gegen,A,to decide against,,,,
+185,5,sich,entschuldigen,für,A,to apologize for,,,,
+186,5,sich,entschuldigen,bei,D,to apologize to,,,,
+187,5,,entwickeln,zu,D,to develop into,,,,
+188,5,,ergeben,aus,D,to result from,,,,
+189,5,,erwarten,von,D,to expect from,,,,
+190,5,,fehlen,an,D,to lack,,,,
+191,5,,gehen,um,A,"to be about, to revolve around",,,,
+192,5,,kämpfen,gegen,A,to fight against,Er kämpft gegen die Ungerechtigkeit.,He fights against injustice.,,
+193,5,,kämpfen,um,A,to fight for (something real),,,,
+194,5,,kämpfen,für,A,to fight for (something abstract),Sie kämpft für ihre Rechte.,She fights for her rights.,,
+195,5,,kämpfen,mit,D,to struggle with,,,,
+196,5,sich,kümmern,um,A,to take care of / care for,,,,
+197,5,,leben,von,D,to live off,Er lebt von seiner Kunst.,He lives off his art.,,
+198,5,,raten,zu,D,to advise to,,,,
+199,5,,schmecken,nach,D,to taste like,Der Kuchen schmeckt nach Schokolade.,The cake tastes like chocolate.,,
+200,5,sich,schützen,vor,D,to protect oneself from,Er schützt sich vor der Kälte.,He protects himself from the cold.,,
+201,5,,sorgen,für,A,to care for,Sie sorgt für die Kinder.,She takes care of the children.,,
+202,5,sich,sorgen,um,A,to worry about / for,Sie sorgt sich um ihre Zukunft.,She worries about her future.,,
+203,5,,sterben,für,A,to die for,,,,
+204,5,,sterben,an,A,to die of,Sie starb an einer schweren Krankheit.,She died from a severe illness.,,
+205,5,,stimmen,für,A,to vote for,,,,
+206,5,,stimmen,gegen,A,to vote against,,,,
+207,5,,vergleichen,mit,D,to compare to / with,,,,
+208,5,sich,verlassen,auf,A,to rely on,Man kann sich auf ihn verlassen.,You can rely on him.,,
+209,5,,verlieben,in,A,to fall in love with,,,,
+210,5,,vertrauen,auf,A,to trust in,,,,
+211,5,sich,vorbereiten,auf,A,to prepare oneself for,Wir bereiten uns auf die Prüfung vor.,We are preparing for the exam.,,
+212,5,,weinen,über,A,to cry about,,,,
+213,5,,wirken,auf,A,"to affect, to have an effect on",,,,
+214,6,,achten,auf,,,Du solltest mehr auf deine Gesundheit achten.,You should pay more attention to your health.,auf,Du solltest mehr _____ deine Gesundheit achten.
+215,6,,achten,auf,,,"Ich achte auf die Umwelt, indem ich weniger Plastik benutze.",I pay attention to the environment by using less plastic.,auf,"Ich achte _____ die Umwelt, indem ich weniger Plastik benutze."
+216,6,,ankommen,auf,,,"Es kommt auf das Wetter an, ob wir morgen wandern gehen.",It depends on the weather whether we go hiking tomorrow.,auf,"Es kommt _____ das Wetter an, ob wir morgen wandern gehen."
+217,6,,ankommen,auf,,,Beim Bewerbungsgespräch kommt es auf die richtige Kleidung an.,"In a job interview, the right clothing matters.",auf,Beim Bewerbungsgespräch kommt es _____ die richtige Kleidung an.
+218,6,,ärgern,über,,,Ich ärgere mich über die ständigen Zugverspätungen.,I get annoyed about the constant train delays.,über,Ich ärgere mich _____ die ständigen Zugverspätungen.
+219,6,,ärgern,über,,,Er ärgert sich über seine schlechte Note in Mathematik.,He is annoyed about his bad grade in math.,über,Er ärgert sich _____ seine schlechte Note in Mathematik.
+220,6,,aufpassen,auf,,,"Kannst du bitte auf meinen Hund aufpassen, während ich weg bin?",Can you please take care of my dog while I am away?,auf,"Kannst du bitte _____ meinen Hund aufpassen, während ich weg bin?"
+221,6,,aufpassen,auf,,,Er passt immer auf seine kleine Schwester auf.,He always takes care of his little sister.,auf,Er passt immer _____ seine kleine Schwester auf.
+222,6,,beeilen,mit,,,"Beeil dich mit dem Essen, wir müssen los!","Hurry up with your food, we have to leave!",mit,"Beeil dich _____ dem Essen, wir müssen los!"
+223,6,,beeilen,mit,,,"Ich muss mich mit der Arbeit beeilen, sonst verpasse ich meinen Termin.","I have to hurry with my work, otherwise I will miss my appointment.",mit,"Ich muss mich _____ der Arbeit beeilen, sonst verpasse ich meinen Termin."
+224,6,,bemühen,um,,,Sie bemüht sich um einen Studienplatz an einer renommierten Universität.,She is striving for a place at a prestigious university.,um,Sie bemüht sich _____ einen Studienplatz an einer renommierten Universität.
+225,6,,berichten,über,,,Die Journalistin berichtete ausführlich über die aktuellen Ereignisse.,The journalist reported extensively on the current events.,über,Die Journalistin berichtete ausführlich _____ die aktuellen Ereignisse.
+226,6,,beschäftigen,mit,,,Er beschäftigt sich gerne mit Technik.,He enjoys dealing with technology.,mit,Er beschäftigt sich gerne _____ Technik.
+227,6,,beschäftigen,mit,,,Wir haben uns lange mit diesem Problem beschäftigt.,We spent a long time dealing with this problem.,mit,Wir haben uns lange _____ diesem Problem beschäftigt.
+228,6,,beschreiben,als,,,Er beschreibt die Stadt als sehr lebendig.,He describes the city as very lively.,als,Er beschreibt die Stadt _____ sehr lebendig.
+229,6,,beschreiben,als,,,Das Buch wird oft als Meisterwerk beschrieben.,The book is often described as a masterpiece.,als,Das Buch wird oft _____ Meisterwerk beschrieben.
+230,6,,beschweren,über,,,Ich habe mich über den schlechten Service im Restaurant beschwert.,I complained about the bad service in the restaurant.,über,Ich habe mich _____ den schlechten Service im Restaurant beschwert.
+231,6,,beschweren,über,,,Viele Bürger beschweren sich über die hohen Steuern.,Many citizens complain about high taxes.,über,Viele Bürger beschweren sich _____ die hohen Steuern.
+232,6,,beschweren,bei,,,Sie hat sich bei der Lehrerin über die schwierige Prüfung beschwert.,She complained to the teacher about the difficult exam.,bei,Sie hat sich _____ der Lehrerin über die schwierige Prüfung beschwert.
+233,6,,beschweren,bei,,,Ich beschwere mich beim Chef über meinen Kollegen.,I am complaining to the boss about my colleague.,beim,Ich beschwere mich _____ Chef über meinen Kollegen.
+234,6,,enden,mit,,,Der Film endet mit einer Überraschung.,The movie ends with a surprise.,mit,Der Film endet _____ einer Überraschung.
+235,6,,enden,mit,,,Das Gespräch endete mit einem Kompromiss.,The conversation ended with a compromise.,mit,Das Gespräch endete _____ einem Kompromiss.
+236,6,,entscheiden,für,,,Ich habe mich für das teurere Handy entschieden.,I decided on the more expensive phone.,für,Ich habe mich _____ das teurere Handy entschieden.
+237,6,,entscheiden,für,,,Er hat sich für ein Studium in Berlin entschieden.,He decided to study in Berlin.,für,Er hat sich _____ ein Studium in Berlin entschieden.
+238,6,,entscheiden,gegen,,,Wir haben uns gegen den Kauf des Hauses entschieden.,We decided against buying the house.,gegen,Wir haben uns _____ den Kauf des Hauses entschieden.
+239,6,,entscheiden,gegen,,,Er entschied sich gegen das Jobangebot.,He decided against the job offer.,gegen,Er entschied sich _____ das Jobangebot.
+240,6,,entschuldigen,für,,,Ich entschuldige mich für meine Verspätung.,I apologize for my delay.,für,Ich entschuldige mich _____ meine Verspätung.
+241,6,,entschuldigen,für,,,Sie hat sich für ihren Fehler entschuldigt.,She apologized for her mistake.,für,Sie hat sich _____ ihren Fehler entschuldigt.
+242,6,,entschuldigen,bei,,,Ich habe mich bei meiner Freundin für mein Verhalten entschuldigt.,I apologized to my girlfriend for my behavior.,bei,Ich habe mich _____ meiner Freundin für mein Verhalten entschuldigt.
+243,6,,entschuldigen,bei,,,Er hat sich bei seinem Lehrer für die Unaufmerksamkeit entschuldigt.,He apologized to his teacher for not paying attention.,bei,Er hat sich _____ seinem Lehrer für die Unaufmerksamkeit entschuldigt.
+244,6,,entwickeln,zu,,,Die Stadt hat sich zu einem Tourismuszentrum entwickelt.,The city has developed into a tourist center.,zu,Die Stadt hat sich _____ einem Tourismuszentrum entwickelt.
+245,6,,entwickeln,zu,,,Das Hobby hat sich zu einer echten Leidenschaft entwickelt.,The hobby has developed into a real passion.,zu,Das Hobby hat sich _____ einer echten Leidenschaft entwickelt.
+246,6,,ergeben,aus,,,Das Problem ergibt sich aus mangelnder Kommunikation.,The problem results from a lack of communication.,aus,Das Problem ergibt sich _____ mangelnder Kommunikation.
+247,6,,ergeben,aus,,,Die Lösung ergibt sich aus den gesammelten Daten.,The solution results from the collected data.,aus,Die Lösung ergibt sich _____ den gesammelten Daten.
+248,6,,erwarten,von,,,"Ich erwarte von dir, dass du pünktlich bist.",I expect you to be on time.,von,"Ich erwarte _____ dir, dass du pünktlich bist."
+249,6,,erwarten,von,,,"Mein Chef erwartet von mir, dass ich flexibel arbeite.",My boss expects me to work flexibly.,von,"Mein Chef erwartet _____ mir, dass ich flexibel arbeite."
+250,6,,fehlen,an,,,Es fehlt an sauberem Wasser in vielen Regionen.,There is a lack of clean water in many regions.,an,Es fehlt _____ sauberem Wasser in vielen Regionen.
+251,6,,fehlen,an,,,Hier fehlt es an ausreichend Sitzplätzen.,There are not enough seats here.,an,Hier fehlt es _____ ausreichend Sitzplätzen.
+252,6,,gehen,um,,,In dem Buch geht es um eine spannende Reise.,The book is about an exciting journey.,um,In dem Buch geht es _____ eine spannende Reise.
+253,6,,gehen,um,,,Bei dem Streit geht es um Geld.,The argument is about money.,um,Bei dem Streit geht es _____ Geld.
+254,6,,kämpfen,gegen,,,Die Organisation kämpft gegen Armut.,The organization fights against poverty.,gegen,Die Organisation kämpft _____ Armut.
+255,6,,kämpfen,gegen,,,Wir kämpfen gegen Diskriminierung.,We fight against discrimination.,gegen,Wir kämpfen _____ Diskriminierung.
+256,6,,kämpfen,um,,,Er kämpft um seinen Platz im Team.,He is fighting for his place on the team.,um,Er kämpft _____ seinen Platz im Team.
+257,6,,kämpfen,um,,,Sie kämpft um ihre Rechte.,She is fighting for her rights.,um,Sie kämpft _____ ihre Rechte.
+258,6,,kämpfen,für,,,Sie kämpfen für bessere Arbeitsbedingungen.,They are fighting for better working conditions.,für,Sie kämpfen _____ bessere Arbeitsbedingungen.
+259,6,,kämpfen,für,,,Wir kämpfen für eine saubere Umwelt.,We fight for a clean environment.,für,Wir kämpfen _____ eine saubere Umwelt.
+260,6,,kämpfen,mit,,,Er kämpft mit gesundheitlichen Problemen.,He struggles with health problems.,mit,Er kämpft _____ gesundheitlichen Problemen.
+261,6,,kämpfen,mit,,,Ich kämpfe mit der neuen Software.,I struggle with the new software.,mit,Ich kämpfe _____ der neuen Software.
+262,6,,kümmern,um,,,Er kümmert sich um seine kranke Mutter.,He takes care of his sick mother.,um,Er kümmert sich _____ seine kranke Mutter.
+263,6,,kümmern,um,,,Ich kümmere mich um die Organisation der Feier.,I take care of organizing the party.,um,Ich kümmere mich _____ die Organisation der Feier.
+264,6,,leben,von,,,Er lebt von seinem Ersparten.,He lives off his savings.,von,Er lebt _____ seinem Ersparten.
+265,6,,leben,von,,,Viele Künstler leben von ihren Werken.,Many artists live off their work.,von,Viele Künstler leben _____ ihren Werken.
+266,6,,raten,zu,,,Ich rate dir zu mehr Bewegung.,I advise you to exercise more.,zu,Ich rate dir _____ mehr Bewegung.
+267,6,,raten,zu,,,Der Arzt hat mir zu einer Diät geraten.,The doctor advised me to go on a diet.,zu,Der Arzt hat mir _____ einer Diät geraten.
+268,6,,schmecken,nach,,,Das Essen schmeckt nach Knoblauch.,The food tastes like garlic.,nach,Das Essen schmeckt _____ Knoblauch.
+269,6,,schmecken,nach,,,Der Tee schmeckt nach Minze.,The tea tastes like mint.,nach,Der Tee schmeckt _____ Minze.
+270,6,,schützen,vor,,,Diese Creme schützt vor Sonnenbrand.,This cream protects against sunburn.,vor,Diese Creme schützt _____ Sonnenbrand.
+271,6,,schützen,vor,,,Die Polizei schützt die Bürger vor Kriminalität.,The police protect citizens from crime.,vor,Die Polizei schützt die Bürger _____ Kriminalität.
+272,6,,sorgen,für,,,Er sorgt für seine Familie.,He takes care of his family.,für,Er sorgt _____ seine Familie.
+273,6,,sorgen,für,,,Ich sorge für genug Getränke bei der Party.,I ensure there are enough drinks at the party.,für,Ich sorge _____ genug Getränke bei der Party.
+274,6,,sorgen,um,,,Sie sorgt sich um die Zukunft ihrer Kinder.,She worries about the future of her children.,um,Sie sorgt sich _____ die Zukunft ihrer Kinder.
+275,6,,sorgen,um,,,Ich sorge mich um meine Prüfungen.,I worry about my exams.,um,Ich sorge mich _____ meine Prüfungen.
+276,6,,sterben,für,,,Viele Menschen sind für ihre Freiheit gestorben.,Many people have died for their freedom.,für,Viele Menschen sind _____ ihre Freiheit gestorben.
+277,6,,sterben,für,,,Er ist für seine Überzeugungen gestorben.,He died for his beliefs.,für,Er ist _____ seine Überzeugungen gestorben.
+278,6,,sterben,an,,,Er ist an einer schweren Krankheit gestorben.,He died of a serious illness.,an,Er ist _____ einer schweren Krankheit gestorben.
+279,6,,sterben,an,,,Viele Menschen sterben an den Folgen von Rauchen.,Many people die from the consequences of smoking.,an,Viele Menschen sterben _____ den Folgen von Rauchen.
+280,6,,stimmen,für,,to vote for,Ich stimme für den neuen Plan.,I vote for the new plan.,für,Ich stimme _____ den neuen Plan.
+281,6,,stimmen,für,,to vote for,Sie stimmen für den besten Kandidaten.,They vote for the best candidate.,für,Sie stimmen _____ den besten Kandidaten.
+282,6,,stimmen,gegen,,to vote against,Er stimmt gegen das Gesetz.,He votes against the law.,gegen,Er stimmt _____ das Gesetz.
+283,6,,stimmen,gegen,,to vote against,Ich stimme gegen die Idee.,I vote against the idea.,gegen,Ich stimme _____ die Idee.
+284,6,,vergleichen,mit,,,Vergleiche dein Auto nicht mit meinem.,Don't compare your car with mine.,mit,Vergleiche dein Auto nicht _____ meinem.
+285,6,,vergleichen,mit,,,Er kann sich mit Ihnen nicht vergleichen.,He cannot compare with you.,mit,Er kann sich _____ Ihnen nicht vergleichen.
+286,6,,verlassen,auf,,,Ich verlasse mich auf dich.,I rely on you.,auf,Ich verlasse mich _____ dich.
+287,6,,verlassen,auf,,,"Kann ich mich darauf verlassen, dass du pünktlich bist?",Can I rely on you being on time?,darauf,"Kann ich mich _____ verlassen, dass du pünktlich bist?"
+288,6,,verlieben,in,,,Sie hat sich in ihren Kollegen verliebt.,She fell in love with her colleague.,in,Sie hat sich _____ ihren Kollegen verliebt.
+289,6,,verlieben,in,,,Er verliebte sich sofort in die Stadt.,He immediately fell in love with the city.,in,Er verliebte sich sofort _____ die Stadt.
+290,6,,vertrauen,auf,,,Ich vertraue auf meine Fähigkeiten.,I trust in my abilities.,auf,Ich vertraue _____ meine Fähigkeiten.
+291,6,,vertrauen,auf,,,Wir müssen auf unsere Erfahrung vertrauen.,We must trust in our experience.,auf,Wir müssen _____ unsere Erfahrung vertrauen.
+292,6,,vorbereiten,auf,,,Ich bereite mich auf die Prüfung vor.,I am preparing for the exam.,auf,Ich bereite mich _____ die Prüfung vor.
+293,6,,vorbereiten,auf,,,Sie bereitet sich auf das Bewerbungsgespräch vor.,She is preparing for the job interview.,auf,Sie bereitet sich _____ das Bewerbungsgespräch vor.
+294,6,,weinen,über,,,Er weinte über den Verlust seines Hundes.,He cried over the loss of his dog.,über,Er weinte _____ den Verlust seines Hundes.
+295,6,,weinen,über,,,Sie weinte über den traurigen Film.,She cried about the sad movie.,über,Sie weinte _____ den traurigen Film.
+296,6,,wirken,auf,,,Die Musik wirkt beruhigend auf mich.,The music has a calming effect on me.,auf,Die Musik wirkt beruhigend _____ mich.
+297,6,,wirken,auf,,,Sein Verhalten wirkt arrogant auf andere.,His behavior seems arrogant to others.,auf,Sein Verhalten wirkt arrogant _____ andere.
+298,7,,achten,auf,,,"Ich achte auf meine Ernährung, weil ich darauf großen Wert lege.",I pay attention to my diet because I value it greatly.,darauf,"Ich achte auf meine Ernährung, weil ich _____ großen Wert lege."
+299,7,,anfangen,,,to start with,Ich fange mit der Arbeit an und konzentriere mich darauf.,I start with the work and focus on it.,darauf,Ich fange mit der Arbeit an und konzentriere mich _____.
+300,7,,ankommen,auf,,,"Es kommt auf das Wetter an, weil wir unseren Plan danach richten müssen.",It depends on the weather because we have to adjust our plan accordingly.,danach,"Es kommt auf das Wetter an, weil wir unseren Plan _____ richten müssen."
+301,7,,anrufen,,,to call at,Ich rufe bei meiner Bank an und erkundige mich dabei nach meinem Konto.,I call my bank and inquire about my account while doing so.,dabei,Ich rufe bei meiner Bank an und erkundige mich _____ nach meinem Konto.
+302,7,,arbeiten,,,to work at,Ich arbeite bei einer großen Firma und bin zufrieden dabei.,I work at a big company and am happy with it.,dabei,Ich arbeite bei einer großen Firma und bin zufrieden _____.
+303,7,,arbeiten,,,to work on,Er arbeitet an einem neuen Projekt und ist sehr motiviert dabei.,He is working on a new project and is very motivated.,dabei,Er arbeitet an einem neuen Projekt und ist sehr motiviert _____.
+304,7,,arbeiten,,,to work as,Sie arbeitet als Lehrerin und ist glücklich damit.,She works as a teacher and is happy with it.,damit,Sie arbeitet als Lehrerin und ist glücklich _____.
+305,7,,arbeiten,bei,,,"Ich arbeite bei einer großen Firma, weil ich dabei viele Chancen habe.",I work at a big company because I have many opportunities with it.,dabei,"Ich arbeite bei einer großen Firma, weil ich _____ viele Chancen habe."
+306,7,,arbeiten,an,,,"Er arbeitet an einem neuen Projekt, weil er dabei viel lernt.",He is working on a new project because he learns a lot from it.,dabei,"Er arbeitet an einem neuen Projekt, weil er _____ viel lernt."
+307,7,,arbeiten,als,,,"Sie arbeitet als Lehrerin, weil sie damit glücklich ist.",She works as a teacher because she is happy with it.,damit,"Sie arbeitet als Lehrerin, weil sie _____ glücklich ist."
+308,7,,ärgern,über,,,"Ich ärgere mich über die Verspätung, weil ich darüber nicht informiert wurde.",I am annoyed about the delay because I was not informed about it.,darüber,"Ich ärgere mich über die Verspätung, weil ich _____ nicht informiert wurde."
+309,7,,aufpassen,auf,,,"Ich passe auf meine kleine Schwester auf, weil ich darauf achten muss.",I take care of my little sister because I have to watch out for her.,darauf,"Ich passe auf meine kleine Schwester auf, weil ich _____ achten muss."
+310,7,,ausgehen,von,,,"Ich gehe davon aus, dass er kommt, weil ich davon überzeugt bin.",I assume that he is coming because I am convinced of it.,davon,"Ich gehe _____ aus, dass er kommt, weil ich _____ überzeugt bin."
+311,7,,beeilen,mit,,,"Ich beeile mich mit den Hausaufgaben, weil ich damit schnell fertig sein möchte.",I hurry with my homework because I want to finish it quickly.,damit,"Ich beeile mich mit den Hausaufgaben, weil ich _____ schnell fertig sein möchte."
+312,7,,beschäftigen,mit,,,"Ich beschäftige mich mit der neuen Aufgabe, weil ich mich damit verbessern will.",I keep myself busy with the new task because I want to improve with it.,damit,"Ich beschäftige mich mit der neuen Aufgabe, weil ich mich _____ verbessern will."
+313,7,,beschweren,über,,,"Ich beschwere mich über den Lärm, weil ich darüber nicht hinwegsehen kann.",I complain about the noise because I cannot overlook it.,darüber,"Ich beschwere mich über den Lärm, weil ich _____ nicht hinwegsehen kann."
+314,7,,beschweren,bei,,,"Ich beschwere mich bei meinem Nachbarn, weil ich mich bei ihm ungerecht behandelt fühle.",I complain to my neighbor because I feel unfairly treated by him.,bei ihm,"Ich beschwere mich bei meinem Nachbarn, weil ich mich _____ ungerecht behandelt fühle."
+315,7,,bitten,,,to ask for / plead for,Ich bitte um Hilfe und bin sehr dankbar dafür.,I ask for help and am very grateful for it.,dafür,Ich bitte um Hilfe und bin sehr dankbar _____.
+316,7,,bringen,zu,,,"Diese Erfahrung bringt mich zu einer neuen Perspektive, sodass ich daraus viel lernen kann.",This experience brings me to a new perspective so that I can learn a lot from it.,daraus,"Diese Erfahrung bringt mich zu einer neuen Perspektive, sodass ich _____ viel lernen kann."
+317,7,,danken,,,to thank for,Ich danke dir für deine Unterstützung und freue mich darüber.,I thank you for your support and am happy about it.,darüber,Ich danke dir für deine Unterstützung und freue mich _____.
+318,7,,denken,,,to think of,Ich denke oft an meinen Urlaub und freue mich darauf.,I often think about my vacation and look forward to it.,darauf,Ich denke oft an meinen Urlaub und freue mich _____.
+319,7,,denken,an,,,"Ich denke oft an meinen Urlaub, weil ich mich darauf freue.",I often think about my vacation because I look forward to it.,darauf,"Ich denke oft an meinen Urlaub, weil ich mich _____ freue."
+320,7,,einladen,,,to invite to,"Ich lade dich zu meiner Party ein und hoffe darauf, dass du kommst.",I invite you to my party and hope that you come.,darauf,"Ich lade dich zu meiner Party ein und hoffe _____, dass du kommst."
+321,7,,enden,mit,,,"Das Treffen endet mit einer Diskussion, weil wir uns damit einigen wollen.",The meeting ends with a discussion because we want to reach an agreement with it.,damit,"Das Treffen endet mit einer Diskussion, weil wir uns _____ einigen wollen."
+322,7,,entscheiden,für,,,"Ich entscheide mich für das Studium, weil ich mich dafür sehr interessiere.",I decide on the studies because I am very interested in it.,dafür,"Ich entscheide mich für das Studium, weil ich mich _____ sehr interessiere."
+323,7,,entscheiden,gegen,,,"Sie entscheidet sich gegen das Angebot, weil sie dagegen viele Argumente hat.",She decides against the offer because she has many arguments against it.,dagegen,"Sie entscheidet sich gegen das Angebot, weil sie _____ viele Argumente hat."
+324,7,,entschuldigen,für,,,"Ich entschuldige mich für mein Verhalten, weil ich mich dafür schäme.",I apologize for my behavior because I am ashamed of it.,dafür,"Ich entschuldige mich für mein Verhalten, weil ich mich _____ schäme."
+325,7,,entschuldigen,bei,,,"Ich entschuldige mich bei meinem Freund, weil ich mich bei ihm falsch verhalten habe.",I apologize to my friend because I behaved wrongly towards him.,bei ihm,"Ich entschuldige mich bei meinem Freund, weil ich mich _____ falsch verhalten habe."
+326,7,,entwickeln,zu,,,"Das Unternehmen entwickelt sich zu einer großen Firma, weil es dazu gute Chancen hat.",The company is developing into a large firm because it has good opportunities for it.,dazu,"Das Unternehmen entwickelt sich zu einer großen Firma, weil es _____ gute Chancen hat."
+327,7,,erfahren,von,,,"Ich habe von dem Unfall erfahren, weil ich davon gelesen habe.",I heard about the accident because I read about it.,davon,"Ich habe von dem Unfall erfahren, weil ich _____ gelesen habe."
+328,7,,ergeben,aus,,,"Die Lösung ergibt sich aus den Daten, weil wir daraus Schlüsse ziehen können.",The solution results from the data because we can draw conclusions from it.,daraus,"Die Lösung ergibt sich aus den Daten, weil wir _____ Schlüsse ziehen können."
+329,7,,erkennen,an,,,"Ich erkenne ihn an seiner Stimme, weil ich ihn daran sofort erkenne.",I recognize him by his voice because I immediately recognize him by it.,daran,"Ich erkenne ihn an seiner Stimme, weil ich ihn _____ sofort erkenne."
+330,7,,erwarten,von,,,"Ich erwarte von dir Ehrlichkeit, weil ich davon überzeugt bin, dass es wichtig ist.",I expect honesty from you because I am convinced that it is important.,davon,"Ich erwarte von dir Ehrlichkeit, weil ich _____ überzeugt bin, dass es wichtig ist."
+331,7,,fehlen,an,,,"Es fehlt an Geld, weil wir daran nicht genug gedacht haben.",There is a lack of money because we did not think enough about it.,daran,"Es fehlt an Geld, weil wir _____ nicht genug gedacht haben."
+332,7,,fragen,,,"to ask for, about",Ich habe nach dem Preis gefragt und war überrascht darüber.,I asked about the price and was surprised by it.,darüber,Ich habe nach dem Preis gefragt und war überrascht _____.
+333,7,,fragen,nach,,,"Ich habe nach dem Preis gefragt, weil ich darüber mehr wissen wollte.",I asked about the price because I wanted to know more about it.,darüber,"Ich habe nach dem Preis gefragt, weil ich _____ mehr wissen wollte."
+334,7,,führen,,,to lead to,Dieses Verhalten führt zu Problemen und wir müssen darauf achten.,This behavior leads to problems and we need to be aware of it.,darauf,Dieses Verhalten führt zu Problemen und wir müssen _____ achten.
+335,7,,gehen,um,,,"Es geht um das Projekt, weil wir uns darum kümmern müssen.",It is about the project because we have to take care of it.,darum,"Es geht um das Projekt, weil wir uns _____ kümmern müssen."
+336,7,,glauben,,,to believe in,Er glaubt an seine Träume und arbeitet hart dafür.,He believes in his dreams and works hard for them.,dafür,Er glaubt an seine Träume und arbeitet hart _____.
+337,7,,glauben,an,,,"Er glaubt an seine Träume, weil er dafür hart arbeitet.",He believes in his dreams because he works hard for them.,dafür,"Er glaubt an seine Träume, weil er _____ hart arbeitet."
+338,7,,halten,an,,,"Ich halte an meinen Prinzipien fest, weil ich daran glaube.",I stick to my principles because I believe in them.,daran,"Ich halte an meinen Prinzipien fest, weil ich _____ glaube."
+339,7,,halten,für,,,"Ich halte das für eine gute Idee, weil ich mich dafür einsetze.",I consider this a good idea because I advocate for it.,dafür,"Ich halte das für eine gute Idee, weil ich mich _____ einsetze."
+340,7,,halten,von,,,"Ich halte nichts von dieser Meinung, weil ich davon nicht überzeugt bin.",I don’t think much of this opinion because I am not convinced by it.,davon,"Ich halte nichts von dieser Meinung, weil ich _____ nicht überzeugt bin."
+341,7,,hoffen,,,to hope for,Wir hoffen auf gutes Wetter und bereiten uns darauf vor.,We hope for good weather and prepare for it.,darauf,Wir hoffen auf gutes Wetter und bereiten uns _____ vor.
+342,7,,hoffen,auf,,,"Wir hoffen auf gutes Wetter, damit wir darauf vorbereitet sind.",We hope for good weather so that we are prepared for it.,darauf,"Wir hoffen auf gutes Wetter, damit wir _____ vorbereitet sind."
+343,7,,hören,,,to listen to,Ich höre auf meinen Trainer und vertraue darauf.,I listen to my coach and trust in it.,darauf,Ich höre auf meinen Trainer und vertraue _____.
+344,7,,hören,,,to hear of,Ich habe von dem Projekt gehört und interessiere mich dafür.,I have heard about the project and am interested in it.,dafür,Ich habe von dem Projekt gehört und interessiere mich _____.
+345,7,,hören,auf,,,"Ich höre auf meinen Trainer, weil ich darauf vertraue.",I listen to my coach because I trust in it.,darauf,"Ich höre auf meinen Trainer, weil ich _____ vertraue."
+346,7,,interessieren,,,to be interested in,Ich interessiere mich für Geschichte und lese viel darüber.,I am interested in history and read a lot about it.,darüber,Ich interessiere mich für Geschichte und lese viel _____.
+347,7,,kämpfen,gegen,,,"Ich kämpfe gegen Ungerechtigkeit, weil ich dagegen nicht still bleiben kann.",I fight against injustice because I cannot remain silent against it.,dagegen,"Ich kämpfe gegen Ungerechtigkeit, weil ich _____ nicht still bleiben kann."
+348,7,,kämpfen,um,,,"Er kämpft um seinen Job, weil er darum nicht verlieren will.",He fights for his job because he does not want to lose it.,darum,"Er kämpft um seinen Job, weil er _____ nicht verlieren will."
+349,7,,kämpfen,für,,,"Wir kämpfen für unsere Rechte, weil wir uns dafür stark machen.",We fight for our rights because we advocate for them.,dafür,"Wir kämpfen für unsere Rechte, weil wir uns _____ stark machen."
+350,7,,kämpfen,mit,,,"Er kämpft mit gesundheitlichen Problemen, weil er damit täglich zu tun hat.",He struggles with health problems because he deals with them daily.,damit,"Er kämpft mit gesundheitlichen Problemen, weil er _____ täglich zu tun hat."
+351,7,,kommen,,,to come from,Sie kommt aus Frankreich und ist stolz darauf.,She comes from France and is proud of it.,darauf,Sie kommt aus Frankreich und ist stolz _____.
+352,7,,kommen,aus,,,"Sie kommt aus Frankreich, weshalb sie stolz darauf ist.","She comes from France, which is why she is proud of it.",darauf,"Sie kommt aus Frankreich, weshalb sie stolz _____ ist."
+353,7,,kommen,zu,,,"Das Gespräch kommt zu einem interessanten Thema, sodass wir darüber weiterreden können.",The conversation leads to an interesting topic so that we can continue talking about it.,darüber,"Das Gespräch kommt zu einem interessanten Thema, sodass wir _____ weiterreden können."
+354,7,,kommen,auf,,,"Ich komme auf eine Idee, weil ich darauf nachgedacht habe.",I come up with an idea because I have thought about it.,darauf,"Ich komme auf eine Idee, weil ich _____ nachgedacht habe."
+355,7,,kümmern,um,,,"Ich kümmere mich um die Organisation, weil ich mich darum verantwortlich fühle.",I take care of the organization because I feel responsible for it.,darum,"Ich kümmere mich um die Organisation, weil ich mich _____ verantwortlich fühle."
+356,7,,reden,,,to talk about something,Wir reden über den Film und lachen darüber.,We talk about the movie and laugh about it.,darüber,Wir reden über den Film und lachen _____.
+357,7,,reden,,,to talk of something,Wir reden von unserer Kindheit und erinnern uns gern daran.,We talk about our childhood and remember it fondly.,daran,Wir reden von unserer Kindheit und erinnern uns gern _____.
+358,7,,reden,über,,,"Wir reden über den Film, weil wir darüber gelacht haben.",We talk about the movie because we laughed about it.,darüber,"Wir reden über den Film, weil wir _____ gelacht haben."
+359,7,,sagen,,,to say to,"Er hat etwas zu der Situation gesagt, aber ich stimme nicht damit überein.","He said something about the situation, but I don’t agree with it.",damit,"Er hat etwas zu der Situation gesagt, aber ich stimme nicht _____ überein."
+360,7,,sagen,,,to speak / say about,Sie sagt viel über ihre Reise und schwärmt davon.,She says a lot about her trip and raves about it.,davon,Sie sagt viel über ihre Reise und schwärmt _____.
+361,7,,sagen,zu,,,"Er hat etwas zu der Situation gesagt, weil er damit nicht einverstanden ist.",He said something about the situation because he does not agree with it.,damit,"Er hat etwas zu der Situation gesagt, weil er _____ nicht einverstanden ist."
+362,7,,sagen,über,,,"Sie sagt viel über ihre Reise, weil sie davon begeistert ist.",She says a lot about her trip because she is excited about it.,davon,"Sie sagt viel über ihre Reise, weil sie _____ begeistert ist."
+363,7,,schreiben,,,to write to,Ich habe einen Brief an meinen Freund geschrieben und freue mich auf seine Antwort darauf.,I wrote a letter to my friend and look forward to his response.,darauf,Ich habe einen Brief an meinen Freund geschrieben und freue mich auf seine Antwort _____.
+364,7,,schreiben,über,,,"Ich schreibe über meine Erfahrungen, weil ich daraus lernen möchte.",I write about my experiences because I want to learn from them.,daraus,"Ich schreibe über meine Erfahrungen, weil ich _____ lernen möchte."
+365,7,,schreiben,an,,,"Ich habe einen Brief an meinen Freund geschrieben, weil ich darauf eine Antwort erwarte.",I wrote a letter to my friend because I expect a reply to it.,darauf,"Ich habe einen Brief an meinen Freund geschrieben, weil ich _____ eine Antwort erwarte."
+366,7,,sein,,,to be against,Ich bin gegen die Entscheidung und argumentiere dagegen.,I am against the decision and argue against it.,dagegen,Ich bin gegen die Entscheidung und argumentiere _____.
+367,7,,sein,,,to be for,Ich bin für das neue Gesetz und setze mich dafür ein.,I am for the new law and advocate for it.,dafür,Ich bin für das neue Gesetz und setze mich _____ ein.
+368,7,,sein,gegen,,,"Ich bin gegen die Entscheidung, weil ich dagegen viele Argumente habe.",I am against the decision because I have many arguments against it.,dagegen,"Ich bin gegen die Entscheidung, weil ich _____ viele Argumente habe."
+369,7,,sein,für,,,"Ich bin für das neue Gesetz, weil ich mich dafür engagiere.",I am for the new law because I advocate for it.,dafür,"Ich bin für das neue Gesetz, weil ich mich _____ engagiere."
+370,7,,spielen,,,to play with,Er spielt mit seinem Hund und hat Spaß dabei.,He plays with his dog and has fun with it.,dabei,Er spielt mit seinem Hund und hat Spaß _____.
+371,7,,spielen,mit,,,"Er spielt mit seinem Hund, weil er dabei Spaß hat.",He plays with his dog because he has fun with it.,dabei,"Er spielt mit seinem Hund, weil er _____ Spaß hat."
+372,7,,sprechen,,,to speak with,Ich spreche mit meinem Chef und diskutiere darüber.,I talk with my boss and discuss it.,darüber,Ich spreche mit meinem Chef und diskutiere _____.
+373,7,,sprechen,,,to talk about,Wir sprechen über die Umwelt und sorgen uns darum.,We talk about the environment and care about it.,darum,Wir sprechen über die Umwelt und sorgen uns _____.
+374,7,,sprechen,mit,,,"Ich spreche mit meinem Chef, weil ich darüber diskutieren möchte.",I talk with my boss because I want to discuss it.,darüber,"Ich spreche mit meinem Chef, weil ich _____ diskutieren möchte."
+375,7,,sprechen,über,,,"Wir sprechen über die Umwelt, weil wir uns darum kümmern müssen.",We talk about the environment because we have to take care of it.,darum,"Wir sprechen über die Umwelt, weil wir uns _____ kümmern müssen."
+376,7,,stimmen,für,,,"Ich stimme für den Kandidaten, weil ich darauf vertraue.",I vote for the candidate because I trust in him.,darauf,"Ich stimme für den Kandidaten, weil ich _____ vertraue."
+377,7,,stimmen,gegen,,,"Sie stimmen gegen das Projekt, weil sie dagegen protestieren.",They vote against the project because they protest against it.,dagegen,"Sie stimmen gegen das Projekt, weil sie _____ protestieren."
+378,7,,suchen,,,to search for,Ich suche nach einer Lösung und denke intensiv darüber nach.,I am looking for a solution and think intensely about it.,darüber,Ich suche nach einer Lösung und denke intensiv _____ nach.
+379,7,,suchen,nach,,,"Ich suche nach einer Lösung, weil ich darüber nachdenke.",I am looking for a solution because I am thinking about it.,darüber,"Ich suche nach einer Lösung, weil ich _____ nachdenke."
+380,7,,treffen,,,to meet for,Wir treffen uns zu einem Kaffee und freuen uns darauf.,We meet for a coffee and look forward to it.,darauf,Wir treffen uns zu einem Kaffee und freuen uns _____.
+381,7,,treffen,,,to meet with,Ich treffe mich mit meinen Freunden und genieße die Zeit damit.,I meet with my friends and enjoy the time with them.,damit,Ich treffe mich mit meinen Freunden und genieße die Zeit _____.
+382,7,,treffen,zu,,,"Wir treffen uns zu einem Kaffee, weil wir uns darauf freuen.",We meet for a coffee because we are looking forward to it.,darauf,"Wir treffen uns zu einem Kaffee, weil wir uns _____ freuen."
+383,7,,treffen,mit,,,"Ich treffe mich mit meinen Freunden, weil ich damit eine schöne Zeit habe.",I meet with my friends because I have a good time with them.,damit,"Ich treffe mich mit meinen Freunden, weil ich _____ eine schöne Zeit habe."
+384,7,,übersetzen,,,to translate from,Ich übersetze das Buch aus dem Englischen und lerne dabei viel.,I translate the book from English and learn a lot from it.,dabei,Ich übersetze das Buch aus dem Englischen und lerne _____ viel.
+385,7,,übersetzen,,,to translate into,Ich übersetze den Text ins Deutsche und übe dabei meine Sprachkenntnisse.,I translate the text into German and practice my language skills with it.,dabei,Ich übersetze den Text ins Deutsche und übe _____ meine Sprachkenntnisse.
+386,7,,übersetzen,aus,,,"Ich übersetze das Buch aus dem Englischen, weil ich dabei viel lerne.",I translate the book from English because I learn a lot from it.,dabei,"Ich übersetze das Buch aus dem Englischen, weil ich _____ viel lerne."
+387,7,,übersetzen,in,,,"Ich übersetze den Text ins Deutsche, weil ich dabei meine Sprachkenntnisse übe.",I translate the text into German because I practice my language skills with it.,dabei,"Ich übersetze den Text ins Deutsche, weil ich _____ meine Sprachkenntnisse übe."
+388,7,,warten,auf,,,"Ich warte auf den Bus, weil ich dabei ein Buch lese.",I wait for the bus because I read a book while doing so.,dabei,"Ich warte auf den Bus, weil ich _____ ein Buch lese."
+389,8,,ändern,an,,to change about,Woran änderst du etwas?,What are you changing?,Woran,_____ änderst du etwas?
+390,8,,anfangen,mit,,to start with,Womit fängst du an?,What are you starting with?,Womit,_____ fängst du an?
+391,8,,antworten,auf,,to answer to,Worauf antwortest du?,What are you answering?,Worauf,_____ antwortest du?
+392,8,,arbeiten,an,,to work on,Woran arbeitest du?,What are you working on?,Woran,_____ arbeitest du?
+393,8,,aufhören,mit,,to stop with,Womit hörst du auf?,What are you stopping with?,Womit,_____ hörst du auf?
+394,8,,beginnen,mit,,to begin with,Womit beginnst du?,What are you beginning with?,Womit,_____ beginnst du?
+395,8,,bitten,um,,to ask for / plead for,Worum bittest du?,What are you asking for?,Worum,_____ bittest du?
+396,8,,bringen,zu,,to bring to,Wozu bringt dich das?,What does that bring you to?,Wozu,_____ bringt dich das?
+397,8,,danken,für,,to thank for,Wofür dankst du?,What are you thanking for?,Wofür,_____ dankst du?
+398,8,,denken,an,,to think of,Woran denkst du?,What are you thinking about?,Woran,_____ denkst du?
+399,8,,diskutieren,über,,to discuss about,Worüber diskutierst du?,What are you discussing?,Worüber,_____ diskutierst du?
+400,8,,diskutieren,mit,,to discuss with,Mit wem diskutierst du?,Who are you discussing with?,Mit wem,_____ diskutierst du?
+401,8,,einladen,zu,,to invite to,Wozu lädst du mich ein?,What are you inviting me to?,Wozu,_____ lädst du mich ein?
+402,8,,erinnern,an,,to recall / remember,Woran erinnerst du dich?,What are you remembering?,Woran,_____ erinnerst du dich?
+403,8,,fragen,nach,,"to ask for, about",Wonach fragst du?,What are you asking about?,Wonach,_____ fragst du?
+404,8,,freuen,auf,,to look forward to,Worauf freust du dich?,What are you looking forward to?,Worauf,_____ freust du dich?
+405,8,,freuen,über,,to rejoice about,Worüber freust du dich?,What are you happy about?,Worüber,_____ freust du dich?
+406,8,,führen,zu,,to lead to,Wozu führt das?,What does this lead to?,Wozu,_____ führt das?
+407,8,,gehören,zu,,to belong to,Wozu gehört das?,What does this belong to?,Wozu,_____ gehört das?
+408,8,,glauben,an,,to believe in,Woran glaubst du?,What do you believe in?,Woran,_____ glaubst du?
+409,8,,helfen,bei,,to help with,Wobei hilfst du?,What are you helping with?,Wobei,_____ hilfst du?
+410,8,,hoffen,auf,,to hope for,Worauf hoffst du?,What are you hoping for?,Worauf,_____ hoffst du?
+411,8,,hören,auf,,to listen to,Worauf hörst du?,What are you listening to?,Worauf,_____ hörst du?
+412,8,,interessieren,für,,to be interested in,Wofür interessierst du dich?,What are you interested in?,Wofür,_____ interessierst du dich?
+413,8,,kommen,aus,,to come from,Woher kommst du?,Where do you come from?,Woher,_____ kommst du?
+414,8,,lachen,über,,to laugh about,Worüber lachst du?,What are you laughing about?,Worüber,_____ lachst du?
+415,8,,passen,zu,,"to match with, to pair with",Wozu passt das?,What does this match?,Wozu,_____ passt das?
+416,8,,sagen,über,,to speak / say about,Worüber sagst du etwas?,What are you saying something about?,Worüber,_____ sagst du etwas?
+417,8,,schreiben,über,,to write about,Worüber schreibst du?,What are you writing about?,Worüber,_____ schreibst du?
+418,8,,schreiben,an,,to write to,An wen schreibst du?,Who are you writing to?,An wen,_____ schreibst du?
+419,8,,sein,gegen,,to be against,Wogegen bist du?,What are you against?,Wogegen,_____ bist du?
+420,8,,sein,für,,to be for,Wofür bist du?,What are you in favor of?,Wofür,_____ bist du?
+421,8,,spielen,mit,,to play with,Mit wem spielst du?,Who are you playing with?,Mit wem,_____ spielst du?
+422,8,,sprechen,mit,,to speak with,Mit wem sprichst du?,Who are you speaking with?,Mit wem,_____ sprichst du?
+423,8,,sprechen,über,,to talk about,Worüber sprichst du?,What are you speaking about?,Worüber,_____ sprichst du?
+424,8,,sprechen,von,,to speak of,Wovon sprichst du?,What are you talking about?,Wovon,_____ sprichst du?
+425,8,,suchen,nach,,to search for,Wonach suchst du?,What are you looking for?,Wonach,_____ suchst du?
+426,8,,träumen,von,,to dream of,Wovon träumst du?,What are you dreaming of?,Wovon,_____ träumst du?
+427,8,,treffen,zu,,to meet for,Wozu treffen wir uns?,What are we meeting for?,Wozu,_____ treffen wir uns?
+428,8,,treffen,mit,,to meet with,Mit wem triffst du dich?,Who are you meeting with?,Mit wem,_____ triffst du dich?
+429,8,,übersetzen,aus,,to translate from,Woraus übersetzt du das?,What are you translating from?,Woraus,_____ übersetzt du das?
+430,8,,übersetzen,in,,to translate into,Worin übersetzt du das?,What are you translating into?,Worin,_____ übersetzt du das?
+431,8,,verstehen,mit,,to get along with,Mit wem verstehst du dich?,Who do you get along with?,Mit wem,_____ verstehst du dich?
+432,8,,wählen,zu,,to elect to,Wozu wählt man ihn?,What is he elected for?,Wozu,_____ wählt man ihn?
+433,8,,warten,auf,,to wait for,Worauf wartest du?,What are you waiting for?,Worauf,_____ wartest du?
+434,8,,zählen,zu,,to count among,Wozu zählt das?,What does this count as?,Wozu,_____ zählt das?
+435,9,sich,bedanken,für,A,to thank for,,,für,
+436,9,sich,bedanken,bei,D,to thank someone,,,bei,
+437,9,,befördern,zu,D,to promote to,,,zu,
+438,9,,beglückwünschen,zu,D,to congratulate on,,,zu,
+439,9,,beitragen,zu,D,to contribute to,,,zu,
+440,9,,berichten,über,A,to report on,,,über,
+441,9,,berichten,von,D,to report on,,,von,
+442,9,,bestehen,aus,D,to consist of,Das Buch besteht aus zehn Kapiteln.,The book consists of ten chapters.,aus,
+443,9,,bestehen,auf,A,to insist on,Er besteht auf seiner Meinung.,He insists on his opinion.,auf,
+444,9,,bestehen,in,D,to consist in,,,in,
+445,9,sich,beteiligen,an,D,to take part in,,,an,
+446,9,sich,bewerben,bei,D,to apply at,,,bei,
+447,9,sich,bewerben,um,A,to apply for,,,um,
+448,9,,bewerben,auf,A,to apply for,,,auf,
+449,9,,duften,nach,D,to smell of,,,nach,
+450,9,,einstellen,auf,A,to adjust to,,,auf,
+451,9,,engagieren,für,A,to engage for,,,für,
+452,9,,entstehen,aus,D,to arise from,,,aus,
+453,9,sich,erholen,von,D,to recover from,,,von,
+454,9,,fliehen,vor,D,to flee from,,,vor,
+455,9,,fürchten,vor,D,to be afraid of,,,vor,
+456,9,,garantieren,für,A,to guarantee for,,,für,
+457,9,,gelten,für,A,to apply to,,,für,
+458,9,,gelten,als,N,to be considered as,,,als,
+459,9,,geraten,in,A,to get into,,,in,
+460,9,sich,gewöhnen,an,A,to get used to,,,an,
+461,9,,halten,für,A,"to take for, to consider as",Ich halte ihn für einen guten Freund.,I consider him a good friend.,,
+462,9,,halten,von,D,to think of / regard,Was hältst du von diesem Vorschlag?,What do you think of this proposal?,,
+463,9,,handeln,mit,D,to trade with / in,,,mit,
+464,9,,hindern,an,D,to prevent from,,,an,
+465,9,,hinweisen,auf,A,to point out,,,auf,
+466,9,sich,informieren,über,A,to inform oneself about,,,über,
+467,9,,informieren,bei,D,to inform at,,,bei,
+468,9,sich,konzentrieren,auf,A,to concentrate on,Sie konzentriert sich auf ihre Arbeit.,She focuses on her work.,auf,
+469,9,,leiden,an,D,to suffer from,,,an,
+470,9,,leiden,unter,A,to suffer under,,,unter,
+471,9,,nachdenken,über,A,to think about,,,über,
+472,9,,reagieren,auf,A,to react to,,,auf,
+473,9,,rechnen,mit,D,to count on,,,mit,
+474,9,,riechen,nach,D,to smell like,,,nach,
+475,9,,schiessen,auf,A,to shoot at,,,auf,
+476,9,,senden,an,A,to send to,,,an,
+477,9,,stammen,aus,D,to come from,,,aus,
+478,9,,teilnehmen,an,D,to participate in,,,an,
+479,9,,überzeugen,von,D,to convince of,,,von,
+480,9,sich,verabschieden,von,D,to say goodbye to,,,von,
+481,9,,verwandeln,in,A,to transform into,,,in,
+482,9,,verzichten,auf,A,to renounce,,,auf,
+483,9,,warnen,vor,D,to warn of,Sie warnt ihn vor der Gefahr.,She warns him about the danger.,vor,
+484,9,sich,wenden,an,A,to turn to,,,an,
+485,9,,werben,für,A,to advertise for,,,für,
+486,9,,wetten,um,A,to bet on,,,um,
+487,9,,zielen,auf,A,to aim at,,,auf,
+488,9,,zögern,mit,D,to hesitate with,,,mit,
+489,9,,zweifeln,an,D,to doubt,,,an,
+490,9,,zwingen,zu,D,to force to,,,zu,
+491,10,,bedanken,für,,,Ich möchte mich herzlich für Ihre Unterstützung bedanken.,I would like to sincerely thank you for your support.,für,Ich möchte mich herzlich _____ Ihre Unterstützung bedanken.
+492,10,,bedanken,für,,,Er bedankte sich bei den Kollegen für die angenehme Zusammenarbeit.,He thanked his colleagues for the pleasant cooperation.,für,Er bedankte sich bei den Kollegen _____ die angenehme Zusammenarbeit.
+493,10,,bedanken,bei,,,Ich bedanke mich bei meinen Eltern für ihre Geduld.,I thank my parents for their patience.,bei,Ich bedanke mich _____ meinen Eltern für ihre Geduld.
+494,10,,bedanken,bei,,,Er bedankte sich bei seinem Lehrer für die wertvollen Tipps.,He thanked his teacher for the valuable tips.,bei,Er bedankte sich _____ seinem Lehrer für die wertvollen Tipps.
+495,10,,befördern,zu,,,Sie wurde zur Abteilungsleiterin befördert.,She was promoted to department head.,zur,Sie wurde _____ Abteilungsleiterin befördert.
+496,10,,befördern,zu,,,Er wurde nach vielen Jahren harter Arbeit zum Manager befördert.,He was promoted to manager after many years of hard work.,zum,Er wurde nach vielen Jahren harter Arbeit _____ Manager befördert.
+497,10,,beglückwünschen,zu,,,Ich beglückwünsche Sie zu Ihrer erfolgreichen Präsentation.,I congratulate you on your successful presentation.,zu,Ich beglückwünsche Sie _____ Ihrer erfolgreichen Präsentation.
+498,10,,beglückwünschen,zu,,,Wir beglückwünschten ihn zu seinem neuen Job.,We congratulated him on his new job.,zu,Wir beglückwünschten ihn _____ seinem neuen Job.
+499,10,,beitragen,zu,,,Jeder kann etwas zum Umweltschutz beitragen.,Everyone can contribute to environmental protection.,zu,Jeder kann etwas _____m Umweltschutz beitragen.
+500,10,,beitragen,zu,,,"Die Studie trägt dazu bei, unser Verständnis der Materie zu verbessern.",The study contributes to improving our understanding of the subject.,dazu,"Die Studie trägt _____ bei, unser Verständnis der Materie zu verbessern."
+501,10,,bemühen,um,,,Er bemüht sich um eine bessere Work-Life-Balance.,He strives for a better work-life balance.,um,Er bemüht sich _____ eine bessere Work-Life-Balance.
+502,10,,berichten,über,,,Er hat über seine Reise nach Südamerika berichtet.,He reported on his trip to South America.,über,Er hat _____ seine Reise nach Südamerika berichtet.
+503,10,,berichten,von,,,Sie berichtete von ihren Erfahrungen als Freiwillige.,She reported on her experiences as a volunteer.,von,Sie berichtete _____ ihren Erfahrungen als Freiwillige.
+504,10,,berichten,von,,,Der Zeuge berichtete von dem Unfall.,The witness reported on the accident.,von,Der Zeuge berichtete _____ dem Unfall.
+505,10,,bestehen,aus,,,Das Team besteht aus Experten verschiedener Fachrichtungen.,The team consists of experts from various disciplines.,aus,Das Team besteht _____ Experten verschiedener Fachrichtungen.
+506,10,,bestehen,aus,,,Die Prüfung besteht aus drei Teilen.,The exam consists of three parts.,aus,Die Prüfung besteht _____ drei Teilen.
+507,10,,bestehen,auf,,,"Er besteht darauf, die Wahrheit zu erfahren.",He insists on learning the truth.,darauf,"Er besteht _____, die Wahrheit zu erfahren."
+508,10,,bestehen,auf,,,"Sie besteht darauf, dass ihre Meinung gehört wird.",She insists on having her opinion heard.,darauf,"Sie besteht _____, dass ihre Meinung gehört wird."
+509,10,,bestehen,in,,,"Die Herausforderung besteht darin, das Problem schnell zu lösen.",The challenge consists in solving the problem quickly.,darin,"Die Herausforderung besteht _____, das Problem schnell zu lösen."
+510,10,,bestehen,in,,,"Die Aufgabe besteht darin, alle Daten korrekt zu analysieren.",The task is to analyze all data correctly.,darin,"Die Aufgabe besteht _____, alle Daten korrekt zu analysieren."
+511,10,,beteiligen,an,,,Viele Studierende beteiligen sich an sozialen Projekten.,Many students participate in social projects.,an,Viele Studierende beteiligen sich _____ sozialen Projekten.
+512,10,,beteiligen,an,,,Er hat sich an der Organisation der Konferenz beteiligt.,He participated in organizing the conference.,an,Er hat sich _____ der Organisation der Konferenz beteiligt.
+513,10,,bewerben,bei,,,Er hat sich bei einer großen Firma beworben.,He applied to a big company.,bei,Er hat sich _____ einer großen Firma beworben.
+514,10,,bewerben,bei,,,Ich habe mich bei einem internationalen Unternehmen beworben.,I applied to an international company.,bei,Ich habe mich _____ einem internationalen Unternehmen beworben.
+515,10,,bewerben,um,,,Sie bewirbt sich um eine Stelle als Ingenieurin.,She is applying for a position as an engineer.,um,Sie bewirbt sich _____ eine Stelle als Ingenieurin.
+516,10,,bewerben,um,,,Er bewirbt sich um ein Stipendium.,He is applying for a scholarship.,um,Er bewirbt sich _____ ein Stipendium.
+517,10,,bewerben,auf,,,Ich habe mich auf die ausgeschriebene Position beworben.,I applied for the advertised position.,auf,Ich habe mich _____ die ausgeschriebene Position beworben.
+518,10,,bewerben,auf,,,Er bewirbt sich auf eine freie Stelle in der IT-Abteilung.,He is applying for an open position in the IT department.,auf,Er bewirbt sich _____ eine freie Stelle in der IT-Abteilung.
+519,10,,duften,nach,,,Die Blumen duften nach Frühling.,The flowers smell like spring.,nach,Die Blumen duften _____ Frühling.
+520,10,,duften,nach,,,Der Kuchen duftet nach frischem Obst.,The cake smells like fresh fruit.,nach,Der Kuchen duftet _____ frischem Obst.
+521,10,,einstellen,auf,,,Wir müssen uns auf längere Wartezeiten einstellen.,We have to prepare for longer waiting times.,auf,Wir müssen uns _____ längere Wartezeiten einstellen.
+522,10,,einstellen,auf,,,Er hat sich schnell auf die neue Umgebung eingestellt.,He quickly adapted to the new environment.,auf,Er hat sich schnell _____ die neue Umgebung eingestellt.
+523,10,,engagieren,für,,,Die Organisation engagiert sich für den Klimaschutz.,The organization is committed to climate protection.,für,Die Organisation engagiert sich _____ den Klimaschutz.
+524,10,,engagieren,für,,,Viele Jugendliche engagieren sich für soziale Projekte.,Many young people are committed to social projects.,für,Viele Jugendliche engagieren sich _____ soziale Projekte.
+525,10,,entstehen,aus,,,Aus der Idee ist ein erfolgreiches Unternehmen entstanden.,A successful company emerged from the idea.,Aus,_____ der Idee ist ein erfolgreiches Unternehmen entstanden.
+526,10,,entstehen,aus,,,Aus dem Streit ist eine neue Lösung entstanden.,A new solution emerged from the dispute.,Aus,_____ dem Streit ist eine neue Lösung entstanden.
+527,10,,erholen,von,,,Sie hat sich gut von ihrer Krankheit erholt.,She has recovered well from her illness.,von,Sie hat sich gut _____ ihrer Krankheit erholt.
+528,10,,erholen,von,,,Nach dem Stress muss ich mich von der Arbeit erholen.,"After the stress, I need to recover from work.",von,Nach dem Stress muss ich mich _____ der Arbeit erholen.
+529,10,,fliehen,vor,,,Die Menschen fliehen vor der Gewalt in ihrer Heimat.,The people are fleeing from the violence in their homeland.,vor,Die Menschen fliehen _____ der Gewalt in ihrer Heimat.
+530,10,,fliehen,vor,,,Er ist vor der Gefahr in Sicherheit geflohen.,He fled to safety from the danger.,vor,Er ist _____ der Gefahr in Sicherheit geflohen.
+531,10,,fürchten,vor,,,Ich fürchte mich vor großen Spinnen.,I am afraid of large spiders.,vor,Ich fürchte mich _____ großen Spinnen.
+532,10,,fürchten,vor,,,Sie fürchtet sich vor den Folgen ihrer Entscheidung.,She is afraid of the consequences of her decision.,vor,Sie fürchtet sich _____ den Folgen ihrer Entscheidung.
+533,10,,garantieren,für,,,Der Hersteller garantiert für die Qualität des Produkts.,The manufacturer guarantees the quality of the product.,für,Der Hersteller garantiert _____ die Qualität des Produkts.
+534,10,,garantieren,für,,,Ich kann für die Pünktlichkeit meines Freundes garantieren.,I can vouch for my friend's punctuality.,für,Ich kann _____ die Pünktlichkeit meines Freundes garantieren.
+535,10,,gelten,für,,,Die neuen Regeln gelten für alle Mitarbeiter.,The new rules apply to all employees.,für,Die neuen Regeln gelten _____ alle Mitarbeiter.
+536,10,,gelten,für,,,Das Angebot gilt nur für kurze Zeit.,The offer is valid for a short time only.,für,Das Angebot gilt nur _____ kurze Zeit.
+537,10,,gelten,als,,,Er gilt als Experte auf diesem Gebiet.,He is considered an expert in this field.,als,Er gilt _____ Experte auf diesem Gebiet.
+538,10,,gelten,als,,,Das Buch gilt als Klassiker der deutschen Literatur.,The book is considered a classic of German literature.,als,Das Buch gilt _____ Klassiker der deutschen Literatur.
+539,10,,geraten,in,,,Sie ist in eine schwierige Situation geraten.,She got into a difficult situation.,in,Sie ist _____ eine schwierige Situation geraten.
+540,10,,geraten,in,,,Er ist in finanzielle Schwierigkeiten geraten.,He got into financial trouble.,in,Er ist _____ finanzielle Schwierigkeiten geraten.
+541,10,,gewöhnen,an,,,Ich habe mich schnell an das neue Klima gewöhnt.,I quickly got used to the new climate.,an,Ich habe mich schnell _____ das neue Klima gewöhnt.
+542,10,,gewöhnen,an,,,"Es ist nicht leicht, sich an die Zeitumstellung zu gewöhnen.",It's not easy to get used to the time change.,an,"Es ist nicht leicht, sich _____ die Zeitumstellung zu gewöhnen."
+543,10,,halten,für,,,Ich halte ihn für einen ehrlichen Menschen.,I consider him an honest person.,für,Ich halte ihn _____ einen ehrlichen Menschen.
+544,10,,halten,für,,,Viele halten dieses Gesetz für unnötig.,Many consider this law unnecessary.,für,Viele halten dieses Gesetz _____ unnötig.
+545,10,,halten,von,,,Was hältst du von dieser Idee?,What do you think of this idea?,von,Was hältst du _____ dieser Idee?
+546,10,,halten,von,,,Er hält nicht viel von modernen Kunstwerken.,He doesn’t think much of modern artworks.,von,Er hält nicht viel _____ modernen Kunstwerken.
+547,10,,handeln,mit,,,Der Händler handelt mit exotischen Gewürzen.,The merchant deals in exotic spices.,mit,Der Händler handelt _____ exotischen Gewürzen.
+548,10,,handeln,mit,,,Sie handelt mit Kunstwerken aus der ganzen Welt.,She deals in artworks from around the world.,mit,Sie handelt _____ Kunstwerken aus der ganzen Welt.
+549,10,,hindern,an,,,Der Regen hinderte uns an der Durchführung des Picknicks.,The rain prevented us from having the picnic.,an,Der Regen hinderte uns _____ der Durchführung des Picknicks.
+550,10,,hindern,an,,,"Er hinderte sie daran, die Wahrheit zu sagen.",He prevented her from telling the truth.,an,"Er hinderte sie dar_____, die Wahrheit zu sagen."
+551,10,,hinweisen,auf,,,Der Lehrer wies die Schüler auf die Bedeutung der Hausaufgaben hin.,The teacher pointed out the importance of homework to the students.,auf,Der Lehrer wies die Schüler _____ die Bedeutung der Hausaufgaben hin.
+552,10,,hinweisen,auf,,,Sie wies auf die Fehler im Bericht hin.,She pointed out the mistakes in the report.,auf,Sie wies _____ die Fehler im Bericht hin.
+553,10,,informieren,über,,,Der Arzt informierte den Patienten über die Risiken der Operation.,The doctor informed the patient about the risks of the operation.,über,Der Arzt informierte den Patienten _____ die Risiken der Operation.
+554,10,,informieren,über,,,Wir wurden über die neuen Regelungen informiert.,We were informed about the new regulations.,über,Wir wurden _____ die neuen Regelungen informiert.
+555,10,,informieren,bei,,,Er informierte sich bei der Bank über die aktuellen Zinssätze.,He inquired at the bank about the current interest rates.,bei,Er informierte sich _____ der Bank über die aktuellen Zinssätze.
+556,10,,informieren,bei,,,Ich habe mich bei meinem Chef über das neue Projekt informiert.,I informed myself about the new project from my boss.,bei,Ich habe mich _____ meinem Chef über das neue Projekt informiert.
+557,10,,konzentrieren,auf,,,"Ich konzentriere mich auf meine Aufgaben, um effizienter zu arbeiten.",I focus on my tasks to work more efficiently.,auf,"Ich konzentriere mich _____ meine Aufgaben, um effizienter zu arbeiten."
+558,10,,konzentrieren,auf,,,Die Mannschaft konzentriert sich auf das nächste Spiel.,The team is focusing on the next game.,auf,Die Mannschaft konzentriert sich _____ das nächste Spiel.
+559,10,,leiden,an,,,Er leidet an einer chronischen Krankheit.,He suffers from a chronic illness.,an,Er leidet _____ einer chronischen Krankheit.
+560,10,,leiden,an,,,Viele Menschen leiden an den Folgen des Klimawandels.,Many people suffer from the effects of climate change.,an,Viele Menschen leiden _____ den Folgen des Klimawandels.
+561,10,,leiden,unter,,,Sie leidet unter der Einsamkeit nach dem Umzug.,She suffers from loneliness after the move.,unter,Sie leidet _____ der Einsamkeit nach dem Umzug.
+562,10,,leiden,unter,,,Er leidet unter dem Druck bei der Arbeit.,He suffers from pressure at work.,unter,Er leidet _____ dem Druck bei der Arbeit.
+563,10,,nachdenken,über,,,Ich muss noch einmal über dein Angebot nachdenken.,I need to think about your offer again.,über,Ich muss noch einmal _____ dein Angebot nachdenken.
+564,10,,nachdenken,über,,,Wir denken über die besten Lösungen für dieses Problem nach.,We are thinking about the best solutions to this problem.,über,Wir denken _____ die besten Lösungen für dieses Problem nach.
+565,10,,reagieren,auf,,,Wie hast du auf die Kritik reagiert?,How did you react to the criticism?,auf,Wie hast du _____ die Kritik reagiert?
+566,10,,reagieren,auf,,,Sie reagierte auf die Frage mit einem Lächeln.,She responded to the question with a smile.,auf,Sie reagierte _____ die Frage mit einem Lächeln.
+567,10,,rechnen,mit,,,Ich rechne mit einem Anruf von ihm.,I am expecting a call from him.,mit,Ich rechne _____ einem Anruf von ihm.
+568,10,,rechnen,mit,,,Wir rechnen mit einer baldigen Entscheidung.,We are expecting a decision soon.,mit,Wir rechnen _____ einer baldigen Entscheidung.
+569,10,,riechen,nach,,,Das Parfüm riecht nach Rosen.,The perfume smells like roses.,nach,Das Parfüm riecht _____ Rosen.
+570,10,,riechen,nach,,,Der Raum riecht nach frischer Farbe.,The room smells like fresh paint.,nach,Der Raum riecht _____ frischer Farbe.
+571,10,,schiessen,auf,,,Der Jäger schoss auf den Hirsch.,The hunter shot at the deer.,auf,Der Jäger schoss _____ den Hirsch.
+572,10,,schiessen,auf,,,"Er schoss auf das Tor, aber der Ball ging vorbei.","He shot at the goal, but the ball missed.",auf,"Er schoss _____ das Tor, aber der Ball ging vorbei."
+573,10,,senden,an,,,Ich habe die Bewerbung an die Personalabteilung gesendet.,I sent the application to the HR department.,an,Ich habe die Bewerbung _____ die Personalabteilung gesendet.
+574,10,,senden,an,,,Sie hat eine Einladung an alle Kollegen gesendet.,She sent an invitation to all colleagues.,an,Sie hat eine Einladung _____ alle Kollegen gesendet.
+575,10,,stammen,aus,,,Er stammt aus einer kleinen Stadt in Bayern.,He comes from a small town in Bavaria.,aus,Er stammt _____ einer kleinen Stadt in Bayern.
+576,10,,stammen,aus,,,Das Buch stammt aus dem 18. Jahrhundert.,The book is from the 18th century.,aus,Das Buch stammt _____ dem 18. Jahrhundert.
+577,10,,teilnehmen,an,,,Viele Menschen nahmen an der Demonstration teil.,Many people participated in the demonstration.,an,Viele Menschen nahmen _____ der Demonstration teil.
+578,10,,teilnehmen,an,,,Er hat an einem Marathon in Berlin teilgenommen.,He participated in a marathon in Berlin.,an,Er hat _____ einem Marathon in Berlin teilgenommen.
+579,10,,überzeugen,von,,,Ich habe ihn von den Vorteilen des Projekts überzeugt.,I convinced him of the benefits of the project.,von,Ich habe ihn _____ den Vorteilen des Projekts überzeugt.
+580,10,,überzeugen,von,,,Sie war von der Qualität des Produkts überzeugt.,She was convinced of the quality of the product.,von,Sie war _____ der Qualität des Produkts überzeugt.
+581,10,,verabschieden,von,,,Er verabschiedete sich von seinen Freunden am Bahnhof.,He said goodbye to his friends at the train station.,von,Er verabschiedete sich _____ seinen Freunden am Bahnhof.
+582,10,,verabschieden,von,,,Wir haben uns herzlich von den Gastgebern verabschiedet.,We said a warm goodbye to the hosts.,von,Wir haben uns herzlich _____ den Gastgebern verabschiedet.
+583,10,,verwandeln,in,,,Das Unternehmen hat sich in einen globalen Konzern verwandelt.,The company has transformed into a global corporation.,in,Das Unternehmen hat sich _____ einen globalen Konzern verwandelt.
+584,10,,verwandeln,in,,,Er hat das alte Haus in ein modernes Kunstwerk verwandelt.,He transformed the old house into a modern piece of art.,in,Er hat das alte Haus _____ ein modernes Kunstwerk verwandelt.
+585,10,,verzichten,auf,,,"Ich verzichte auf den Nachtisch, weil ich keinen Hunger habe.",I am skipping dessert because I am not hungry.,auf,"Ich verzichte _____ den Nachtisch, weil ich keinen Hunger habe."
+586,10,,verzichten,auf,,,"Viele Menschen verzichten auf Plastik, um die Umwelt zu schützen.",Many people avoid plastic to protect the environment.,auf,"Viele Menschen verzichten _____ Plastik, um die Umwelt zu schützen."
+587,10,,warnen,vor,,,Der Arzt hat ihn vor den Gefahren des Rauchens gewarnt.,The doctor warned him about the dangers of smoking.,vor,Der Arzt hat ihn _____ den Gefahren des Rauchens gewarnt.
+588,10,,warnen,vor,,,Die Polizei warnt vor Betrügern im Internet.,The police warn about online scammers.,vor,Die Polizei warnt _____ Betrügern im Internet.
+589,10,,wenden,an,,,Ich habe mich an die Kundenbetreuung gewendet.,I contacted customer service.,an,Ich habe mich _____ die Kundenbetreuung gewendet.
+590,10,,wenden,an,,,Er wendete sich mit seiner Frage an den Professor.,He turned to the professor with his question.,an,Er wendete sich mit seiner Frage _____ den Professor.
+591,10,,werben,für,,,Die Organisation wirbt für mehr Gleichberechtigung.,The organization campaigns for more equality.,für,Die Organisation wirbt _____ mehr Gleichberechtigung.
+592,10,,werben,für,,,Sie wirbt für eine neue Marke im Fernsehen.,She advertises a new brand on television.,für,Sie wirbt _____ eine neue Marke im Fernsehen.
+593,10,,wetten,um,,,"Er wettete um 50 Euro, dass sein Team gewinnen würde.",He bet 50 euros that his team would win.,um,"Er wettete _____ 50 Euro, dass sein Team gewinnen würde."
+594,10,,wetten,um,,,Wir haben um eine Runde Getränke gewettet.,We bet on a round of drinks.,um,Wir haben _____ eine Runde Getränke gewettet.
+595,10,,zielen,auf,,,Die Maßnahmen zielen auf eine Verbesserung der Lebensqualität ab.,The measures aim to improve quality of life.,auf,Die Maßnahmen zielen _____ eine Verbesserung der Lebensqualität ab.
+596,10,,zielen,auf,,,Er zielte mit dem Ball direkt auf das Tor.,He aimed the ball directly at the goal.,auf,Er zielte mit dem Ball direkt _____ das Tor.
+597,10,,zögern,mit,,,"Sie zögerte mit ihrer Antwort, weil sie unsicher war.",She hesitated with her answer because she was uncertain.,mit,"Sie zögerte _____ ihrer Antwort, weil sie unsicher war."
+598,10,,zögern,mit,,,"Er zögert mit der Entscheidung, weil er noch mehr Informationen braucht.",He hesitates with the decision because he needs more information.,mit,"Er zögert _____ der Entscheidung, weil er noch mehr Informationen braucht."
+599,10,,zweifeln,an,,,Er zweifelt an der Wahrheit der Aussagen.,He doubts the truth of the statements.,an,Er zweifelt _____ der Wahrheit der Aussagen.
+600,10,,zweifeln,an,,,"Ich zweifle daran, ob wir das Ziel rechtzeitig erreichen.",I doubt whether we will reach the goal on time.,daran,"Ich zweifle _____, ob wir das Ziel rechtzeitig erreichen."
+601,10,,zwingen,zu,,,Die Situation zwang uns zu einer schnellen Entscheidung.,The situation forced us to make a quick decision.,zu,Die Situation zwang uns _____ einer schnellen Entscheidung.
+602,10,,zwingen,zu,,,"Er wurde dazu gezwungen, seine Meinung zu ändern.",He was forced to change his opinion.,dazu,"Er wurde _____ gezwungen, seine Meinung zu ändern."
+603,11,,der Ärger,über,,the anger about,,,,
+604,11,,die Freude,über,,the joy about,,,,
+605,11,,das Glück,über,,the happiness about,,,,
+606,11,,der Streit,über,,the argument about,,,,
+607,11,,die Trauer,über,,the grief about,,,,
+608,11,,die Wut,über,,the rage about,,,,
+609,11,,der Bericht,über,,the report about,,,,
+610,11,,die Beschwerde,über,,the complaint about,,,,
+611,11,,die Debatte,über,,the debate about,,,,
+612,11,,die Diskussion,über,,the discussion about,,,,
+613,11,,die Information,über,,the information about,,,,
+614,11,,die Rede,über,,the speech about,,,,
+615,11,,das Gespräch,über,,the conversation about,,,,
+616,11,,das Wissen,über,,the knowledge about,,,,
+617,11,,die Angst,um,,the fear for,,,,
+618,11,,das Bemühen,um,,the effort for,,,,
+619,11,,die Bewerbung,um,,the application for,,,,
+620,11,,die Bitte,um,,the request for,,,,
+621,11,,der Kampf,um,,the fight for,,,,
+622,11,,die Sorge,um,,the concern for,,,,
+623,11,,das Spiel,um,,the game for,,,,
+624,11,,der Streit,um,,the argument for,,,,
+625,11,,die Wette,um,,the bet for,,,,
+626,11,,die Antwort,auf,,the answer to,,,,
+627,11,,die Bewerbung,auf,,the application to,,,,
+628,11,,die Konzentration,auf,,the concentration on,,,,
+629,11,,die Reaktion,auf,,the reaction to,,,,
+630,11,,der Stolz,auf,,the pride in,,,,
+631,11,,die Wirkung,auf,,the effect on,,,,
+632,11,,die Freude,auf,,the joy for,,,,
+633,11,,die Hoffnung,auf,,the hope for,,,,
+634,11,,die Neugier,auf,,the curiosity about,,,,
+635,11,,die Spannung,auf,,the tension about,,,,
+636,11,,die Vorbereitung,auf,,the preparation for,,,,
+637,11,,der Dank,für,,the thanks for,,,,
+638,11,,die Entscheidung,für,,the decision for,,,,
+639,11,,die Entschuldigung,für,,the apology for,,,,
+640,11,,der Kampf,für,,the fight for,,,,
+641,11,,die Sorge,für,,the concern for,,,,
+642,11,,die Stimme,für,,the vote for,,,,
+643,11,,die Verantwortung,für,,the responsibility for,,,,
+644,11,,die Werbung,für,,the advertisement for,,,,
+645,11,,die Entscheidung,gegen,,the decision against,,,,
+646,11,,der Kampf,gegen,,the fight against,,,,
+647,11,,der Protest,gegen,,the protest against,,,,
+648,11,,die Demonstration,gegen,,the demonstration against,,,,
+649,11,,die Stimme,gegen,,the vote against,,,,
+650,11,,die Übersetzung,aus,,the translation from,,,,
+651,11,,der Anruf,bei,,the call to,,,,
+652,11,,die Arbeit,bei,,the work at,,,,
+653,11,,die Beschwerde,bei,,the complaint to,,,,
+654,11,,die Bewerbung,bei,,the application to,,,,
+655,11,,die Entschuldigung,bei,,the apology to,,,,
+656,11,,die Debatte,mit,,the debate with,,,,
+657,11,,die Diskussion,mit,,the discussion with,,,,
+658,11,,die Freundschaft,mit,,the friendship with,,,,
+659,11,,der Kampf,mit,,the fight with,,,,
+660,11,,das Spiel,mit,,the game with,,,,
+661,11,,das Gespräch,mit,,the conversation with,,,,
+662,11,,der Streit,mit,,the argument with,,,,
+663,11,,der Anfang,mit,,the beginning with,,,,
+664,11,,der Beginn,mit,,the start with,,,,
+665,11,,die Frage,nach,,the question about,,,,
+666,11,,die Suche,nach,,the search for,,,,
+667,11,,der Duft,nach,,the scent of,,,,
+668,11,,der Geruch,nach,,the smell of,,,,
+669,11,,der Geschmack,nach,,the taste of,,,,
+670,11,,die Arbeit,als,,the work as,,,,
+671,11,,die Beschreibung,als,,the description as,,,,
+672,11,,der Gedanke,an,,the thought of,,,,
+673,11,,die Erinnerung,an,,the memory of,,,,
+674,11,,der Glaube,an,,the belief in,,,,
+675,11,,die Änderung,an,,the change to,,,,
+676,11,,die Schuld,an,,the guilt for,,,,
+677,11,,die Teilnahme,an,,the participation in,,,,
+678,11,,der Zweifel,an,,the doubt about,,,,
+679,11,,das Vertrauen,auf,,the trust in,,,,
+680,11,,die Übersetzung,in,,the translation into,,,,
+681,11,,die Verwandlung,in,,the transformation into,,,,
+682,11,,der Traum,von,,the dream of,,,,
+683,11,,die Überzeugung,von,,the conviction of,,,,
+684,11,,die Erwartung,von,,the expectation of,,,,
+685,11,,die Angst,vor,,the fear of,,,,
+686,11,,die Furcht,vor,,the fear of,,,,
+687,11,,die Warnung,vor,,the warning of,,,,
+688,11,,der Glückwunsch,zu,,the congratulations on,,,,
+689,11,,die Einladung,zu,,the invitation to,,,,
+690,11,,die Gratulation,zu,,the congratulations on,,,,
+691,11,,die Fähigkeit,zu,,the ability to,,,,
+692,11,,der Beitrag,zu,,the contribution to,,,,
+693,11,,der Rat,zu,,the advice on,,,,
+694,11,,die Wahl,zu,,the election to,,,,
+695,12,,der Ärger,über,,,Der Ärger über die neue Regelung wächst täglich.,The anger about the new regulation grows daily.,über,Der Ärger _____ die neue Regelung wächst täglich.
+696,12,,der Ärger,über,,,Ihr Ärger über die Verzögerungen war deutlich zu spüren.,Her anger about the delays was clearly noticeable.,über,Ihr Ärger _____ die Verzögerungen war deutlich zu spüren.
+697,12,,die Freude,über,,,Die Freude über den Gewinn war riesig.,The joy about the win was enormous.,über,Die Freude _____ den Gewinn war riesig.
+698,12,,die Freude,über,,,Seine Freude über die Überraschung war nicht zu übersehen.,His joy about the surprise was unmistakable.,über,Seine Freude _____ die Überraschung war nicht zu übersehen.
+699,12,,das Glück,über,,,Ihr Glück über die gute Nachricht war ansteckend.,Her happiness about the good news was contagious.,über,Ihr Glück _____ die gute Nachricht war ansteckend.
+700,12,,das Glück,über,,,Das Glück über den gelungenen Abschluss konnte er nicht verbergen.,He could not hide his happiness about the successful conclusion.,über,Das Glück _____ den gelungenen Abschluss konnte er nicht verbergen.
+701,12,,der Streit,über,,,Der Streit über das Budget dauerte Stunden.,The argument about the budget lasted for hours.,über,Der Streit _____ das Budget dauerte Stunden.
+702,12,,der Streit,über,,,Ihr Streit über die Zukunftspläne endete ohne Ergebnis.,Their argument about future plans ended without a result.,über,Ihr Streit _____ die Zukunftspläne endete ohne Ergebnis.
+703,12,,die Trauer,über,,,Die Trauer über den Verlust war überall spürbar.,The grief over the loss was palpable everywhere.,über,Die Trauer _____ den Verlust war überall spürbar.
+704,12,,die Trauer,über,,,Seine Trauer über den Tod seines Freundes war tief.,His grief over the death of his friend was profound.,über,Seine Trauer _____ den Tod seines Freundes war tief.
+705,12,,die Wut,über,,,Die Wut über die ungerechte Behandlung war groß.,The anger about the unfair treatment was significant.,über,Die Wut _____ die ungerechte Behandlung war groß.
+706,12,,die Wut,über,,,Ihre Wut über den Fehler wurde immer lauter.,Her anger about the mistake grew louder and louder.,über,Ihre Wut _____ den Fehler wurde immer lauter.
+707,12,,der Bericht,über,,,Der Bericht über die aktuellen Ereignisse war sehr informativ.,The report about the current events was very informative.,über,Der Bericht _____ die aktuellen Ereignisse war sehr informativ.
+708,12,,der Bericht,über,,,Ihr Bericht über die Reise nach Afrika faszinierte alle.,Her report about the trip to Africa fascinated everyone.,über,Ihr Bericht _____ die Reise nach Afrika faszinierte alle.
+709,12,,die Beschwerde,über,,,Die Beschwerde über den Service wurde schnell bearbeitet.,The complaint about the service was processed quickly.,über,Die Beschwerde _____ den Service wurde schnell bearbeitet.
+710,12,,die Beschwerde,über,,,Seine Beschwerde über die laute Musik wurde ignoriert.,His complaint about the loud music was ignored.,über,Seine Beschwerde _____ die laute Musik wurde ignoriert.
+711,12,,die Debatte,über,,,Die Debatte über die neue Steuer war hitzig.,The debate about the new tax was heated.,über,Die Debatte _____ die neue Steuer war hitzig.
+712,12,,die Debatte,über,,,Ihre Debatte über die Umweltpolitik zog viele Zuhörer an.,Their debate about environmental policy attracted many listeners.,über,Ihre Debatte _____ die Umweltpolitik zog viele Zuhörer an.
+713,12,,die Diskussion,über,,,Die Diskussion über die Reformen war konstruktiv.,The discussion about the reforms was constructive.,über,Die Diskussion _____ die Reformen war konstruktiv.
+714,12,,die Diskussion,über,,,Ihre Diskussion über das Projekt führte zu neuen Ideen.,Their discussion about the project led to new ideas.,über,Ihre Diskussion _____ das Projekt führte zu neuen Ideen.
+715,12,,die Information,über,,,Die Information über die Änderungen wurde per E-Mail verschickt.,The information about the changes was sent via email.,über,Die Information _____ die Änderungen wurde per E-Mail verschickt.
+716,12,,die Information,über,,,Er suchte nach mehr Informationen über die Firma.,He looked for more information about the company.,über,Er suchte nach mehr Informationen _____ die Firma.
+717,12,,die Rede,über,,,Die Rede über die Zukunft des Unternehmens war inspirierend.,The speech about the company's future was inspiring.,über,Die Rede _____ die Zukunft des Unternehmens war inspirierend.
+718,12,,die Rede,über,,,Ihre Rede über Gleichberechtigung erhielt viel Applaus.,Her speech about equality received a lot of applause.,über,Ihre Rede _____ Gleichberechtigung erhielt viel Applaus.
+719,12,,das Gespräch,über,,,Das Gespräch über die neuen Regeln verlief positiv.,The conversation about the new rules went positively.,über,Das Gespräch _____ die neuen Regeln verlief positiv.
+720,12,,das Gespräch,über,,,Ihr Gespräch über die Finanzen dauerte länger als erwartet.,Their conversation about finances lasted longer than expected.,über,Ihr Gespräch _____ die Finanzen dauerte länger als erwartet.
+721,12,,das Wissen,über,,,Sein Wissen über Geschichte beeindruckte alle.,His knowledge about history impressed everyone.,über,Sein Wissen _____ Geschichte beeindruckte alle.
+722,12,,das Wissen,über,,,Ihr Wissen über Technik ist bemerkenswert.,Her knowledge about technology is remarkable.,über,Ihr Wissen _____ Technik ist bemerkenswert.
+723,12,,die Angst,um,,,Die Angst um die Sicherheit der Kinder war groß.,The fear for the safety of the children was significant.,um,Die Angst _____ die Sicherheit der Kinder war groß.
+724,12,,die Angst,um,,,Ihre Angst um die Gesundheit ihrer Familie ließ sie nicht los.,Her fear for her family's health didn't leave her.,um,Ihre Angst _____ die Gesundheit ihrer Familie ließ sie nicht los.
+725,12,,das Bemühen,um,,,Das Bemühen um eine Lösung war spürbar.,The effort to find a solution was noticeable.,um,Das Bemühen _____ eine Lösung war spürbar.
+726,12,,das Bemühen,um,,,Ihr Bemühen um Gerechtigkeit beeindruckte viele.,Her effort for justice impressed many.,um,Ihr Bemühen _____ Gerechtigkeit beeindruckte viele.
+727,12,,die Bewerbung,um,,,Seine Bewerbung um die Stelle wurde akzeptiert.,His application for the position was accepted.,um,Seine Bewerbung _____ die Stelle wurde akzeptiert.
+728,12,,die Bewerbung,um,,,Die Bewerbung um ein Stipendium ist eingereicht.,The application for a scholarship has been submitted.,um,Die Bewerbung _____ ein Stipendium ist eingereicht.
+729,12,,die Bitte,um,,,Ihre Bitte um Hilfe wurde sofort erhört.,Her request for help was immediately granted.,um,Ihre Bitte _____ Hilfe wurde sofort erhört.
+730,12,,die Bitte,um,,,Er richtete eine Bitte um Geduld an das Publikum.,He addressed a request for patience to the audience.,um,Er richtete eine Bitte _____ Geduld an das Publikum.
+731,12,,der Kampf,um,,,Der Kampf um die Führung war hart.,The fight for leadership was tough.,um,Der Kampf _____ die Führung war hart.
+732,12,,der Kampf,um,,,Ihr Kampf um Anerkennung dauerte Jahre.,Her fight for recognition lasted years.,um,Ihr Kampf _____ Anerkennung dauerte Jahre.
+733,12,,die Sorge,um,,,Die Sorge um den Erfolg des Projekts ist verständlich.,The concern for the project's success is understandable.,um,Die Sorge _____ den Erfolg des Projekts ist verständlich.
+734,12,,die Sorge,um,,,Seine Sorge um die Zukunft des Unternehmens ist groß.,His concern for the company's future is significant.,um,Seine Sorge _____ die Zukunft des Unternehmens ist groß.
+735,12,,das Spiel,um,,,Das Spiel um den Pokal war spannend.,The game for the trophy was exciting.,um,Das Spiel _____ den Pokal war spannend.
+736,12,,das Spiel,um,,,Ihr Spiel um den Sieg zog viele Zuschauer an.,Their game for victory attracted many spectators.,um,Ihr Spiel _____ den Sieg zog viele Zuschauer an.
+737,12,,der Streit,um,,,Der Streit um das Erbe spaltete die Familie.,The argument about the inheritance divided the family.,um,Der Streit _____ das Erbe spaltete die Familie.
+738,12,,der Streit,um,,,Ihr Streit um die Zuständigkeiten eskalierte schnell.,Their argument about responsibilities escalated quickly.,um,Ihr Streit _____ die Zuständigkeiten eskalierte schnell.
+739,12,,die Wette,um,,,Die Wette um 50 Euro wurde ernst genommen.,The bet for 50 euros was taken seriously.,um,Die Wette _____ 50 Euro wurde ernst genommen.
+740,12,,die Wette,um,,,Seine Wette um den Ausgang des Spiels sorgte für Spannung.,His bet on the outcome of the game created excitement.,um,Seine Wette _____ den Ausgang des Spiels sorgte für Spannung.
+741,12,,die Antwort,auf,,,Die Antwort auf seine Frage war überraschend.,The answer to his question was surprising.,auf,Die Antwort _____ seine Frage war überraschend.
+742,12,,die Antwort,auf,,,Ihre Antwort auf die Kritik war sehr professionell.,Her response to the criticism was very professional.,auf,Ihre Antwort _____ die Kritik war sehr professionell.
+743,12,,die Bewerbung,auf,,,Die Bewerbung auf diese Stelle war ein Erfolg.,The application for this position was a success.,auf,Die Bewerbung _____ diese Stelle war ein Erfolg.
+744,12,,die Bewerbung,auf,,,Seine Bewerbung auf das Praktikum wurde akzeptiert.,His application for the internship was accepted.,auf,Seine Bewerbung _____ das Praktikum wurde akzeptiert.
+745,12,,die Konzentration,auf,,,Die Konzentration auf die Aufgabe ist entscheidend.,Concentration on the task is crucial.,auf,Die Konzentration _____ die Aufgabe ist entscheidend.
+746,12,,die Konzentration,auf,,,Ihre Konzentration auf die Prüfungsvorbereitung war beeindruckend.,Her focus on exam preparation was impressive.,auf,Ihre Konzentration _____ die Prüfungsvorbereitung war beeindruckend.
+747,12,,die Reaktion,auf,,,Die Reaktion auf die neuen Regeln war positiv.,The reaction to the new rules was positive.,auf,Die Reaktion _____ die neuen Regeln war positiv.
+748,12,,die Reaktion,auf,,,Seine Reaktion auf den Vorschlag war unerwartet.,His reaction to the proposal was unexpected.,auf,Seine Reaktion _____ den Vorschlag war unerwartet.
+749,12,,der Stolz,auf,,,Der Stolz auf ihre Leistungen war deutlich sichtbar.,The pride in her achievements was clearly visible.,auf,Der Stolz _____ ihre Leistungen war deutlich sichtbar.
+750,12,,der Stolz,auf,,,Er zeigte Stolz auf sein Team nach dem Sieg.,He showed pride in his team after the victory.,auf,Er zeigte Stolz _____ sein Team nach dem Sieg.
+751,12,,die Wirkung,auf,,,Die Wirkung auf die Zuschauer war enorm.,The effect on the audience was enormous.,auf,Die Wirkung _____ die Zuschauer war enorm.
+752,12,,die Wirkung,auf,,,Die Medikamente haben eine schnelle Wirkung auf die Schmerzen.,The medication has a quick effect on the pain.,auf,Die Medikamente haben eine schnelle Wirkung _____ die Schmerzen.
+753,12,,die Freude,auf,,,Die Freude auf den Urlaub war groß.,The joy about the upcoming vacation was immense.,auf,Die Freude _____ den Urlaub war groß.
+754,12,,die Freude,auf,,,Er konnte seine Freude auf die Reise kaum verbergen.,He could hardly hide his joy about the trip.,auf,Er konnte seine Freude _____ die Reise kaum verbergen.
+755,12,,die Hoffnung,auf,,,Die Hoffnung auf eine bessere Zukunft bleibt bestehen.,The hope for a better future remains.,auf,Die Hoffnung _____ eine bessere Zukunft bleibt bestehen.
+756,12,,die Hoffnung,auf,,,Sie setzt ihre Hoffnung auf die nächste Generation.,She places her hope in the next generation.,auf,Sie setzt ihre Hoffnung _____ die nächste Generation.
+757,12,,die Neugier,auf,,,Die Neugier auf das neue Produkt war spürbar.,The curiosity about the new product was noticeable.,auf,Die Neugier _____ das neue Produkt war spürbar.
+758,12,,die Neugier,auf,,,Seine Neugier auf die Lösung des Rätsels war groß.,His curiosity about the solution to the puzzle was great.,auf,Seine Neugier _____ die Lösung des Rätsels war groß.
+759,12,,die Spannung,auf,,,Die Spannung auf die Ergebnisse war kaum auszuhalten.,The anticipation for the results was almost unbearable.,auf,Die Spannung _____ die Ergebnisse war kaum auszuhalten.
+760,12,,die Spannung,auf,,,Die Spannung auf das Finale war spürbar.,The anticipation for the final was palpable.,auf,Die Spannung _____ das Finale war spürbar.
+761,12,,die Vorbereitung,auf,,,Die Vorbereitung auf die Prüfung lief reibungslos.,The preparation for the exam went smoothly.,auf,Die Vorbereitung _____ die Prüfung lief reibungslos.
+762,12,,die Vorbereitung,auf,,,Seine Vorbereitung auf den Wettbewerb war gründlich.,His preparation for the competition was thorough.,auf,Seine Vorbereitung _____ den Wettbewerb war gründlich.
+763,12,,der Dank,für,,,Der Dank für ihre Hilfe war ehrlich und herzlich.,The gratitude for her help was sincere and heartfelt.,für,Der Dank _____ ihre Hilfe war ehrlich und herzlich.
+764,12,,der Dank,für,,,Sein Dank für die Unterstützung wurde mit einem Geschenk ausgedrückt.,His gratitude for the support was expressed with a gift.,für,Sein Dank _____ die Unterstützung wurde mit einem Geschenk ausgedrückt.
+765,12,,die Entscheidung,für,,,Die Entscheidung für den Umzug fiel schwer.,The decision to move was difficult.,für,Die Entscheidung _____ den Umzug fiel schwer.
+766,12,,die Entscheidung,für,,,Ihre Entscheidung für das Studium wurde gut überlegt.,Her decision to study was well-considered.,für,Ihre Entscheidung _____ das Studium wurde gut überlegt.
+767,12,,die Entschuldigung,für,,,Die Entschuldigung für das Missverständnis wurde akzeptiert.,The apology for the misunderstanding was accepted.,für,Die Entschuldigung _____ das Missverständnis wurde akzeptiert.
+768,12,,die Entschuldigung,für,,,Seine Entschuldigung für den Fehler war aufrichtig.,His apology for the mistake was sincere.,für,Seine Entschuldigung _____ den Fehler war aufrichtig.
+769,12,,der Kampf,für,,,Der Kampf für soziale Gerechtigkeit ist noch nicht beendet.,The fight for social justice is not yet over.,für,Der Kampf _____ soziale Gerechtigkeit ist noch nicht beendet.
+770,12,,der Kampf,für,,,Ihr Kampf für bessere Arbeitsbedingungen hat sich gelohnt.,Her fight for better working conditions paid off.,für,Ihr Kampf _____ bessere Arbeitsbedingungen hat sich gelohnt.
+771,12,,die Sorge,für,,,Die Sorge für ihre Kinder steht bei ihr an erster Stelle.,The care for her children comes first for her.,für,Die Sorge _____ ihre Kinder steht bei ihr an erster Stelle.
+772,12,,die Sorge,für,,,Seine Sorge für die Umwelt motiviert ihn zu handeln.,His concern for the environment motivates him to act.,für,Seine Sorge _____ die Umwelt motiviert ihn zu handeln.
+773,12,,die Stimme,für,,,Ihre Stimme für den Kandidaten machte den Unterschied.,Her vote for the candidate made the difference.,für,Ihre Stimme _____ den Kandidaten machte den Unterschied.
+774,12,,die Stimme,für,,,Die Stimme für die Reform wurde einstimmig abgegeben.,The vote for the reform was unanimous.,für,Die Stimme _____ die Reform wurde einstimmig abgegeben.
+775,12,,die Verantwortung,für,,,Die Verantwortung für das Projekt liegt bei ihm.,The responsibility for the project lies with him.,für,Die Verantwortung _____ das Projekt liegt bei ihm.
+776,12,,die Verantwortung,für,,,Ihre Verantwortung für die Kinder ist ihr wichtig.,Her responsibility for the children is important to her.,für,Ihre Verantwortung _____ die Kinder ist ihr wichtig.
+777,12,,die Werbung,für,,,Die Werbung für das neue Produkt war sehr effektiv.,The advertisement for the new product was very effective.,für,Die Werbung _____ das neue Produkt war sehr effektiv.
+778,12,,die Werbung,für,,,Die Werbung für den Film läuft auf allen Kanälen.,The advertisement for the film is running on all channels.,für,Die Werbung _____ den Film läuft auf allen Kanälen.
+779,12,,die Entscheidung,gegen,,,Die Entscheidung gegen den Vorschlag fiel einstimmig aus.,The decision against the proposal was unanimous.,gegen,Die Entscheidung _____ den Vorschlag fiel einstimmig aus.
+780,12,,die Entscheidung,gegen,,,Seine Entscheidung gegen das Angebot überraschte alle.,His decision against the offer surprised everyone.,gegen,Seine Entscheidung _____ das Angebot überraschte alle.
+781,12,,der Kampf,gegen,,,Der Kampf gegen Diskriminierung dauert an.,The fight against discrimination continues.,gegen,Der Kampf _____ Diskriminierung dauert an.
+782,12,,der Kampf,gegen,,,Ihr Kampf gegen die Ungerechtigkeit inspirierte viele.,Her fight against injustice inspired many.,gegen,Ihr Kampf _____ die Ungerechtigkeit inspirierte viele.
+783,12,,der Protest,gegen,,,Der Protest gegen die neuen Gesetze war laut.,The protest against the new laws was loud.,gegen,Der Protest _____ die neuen Gesetze war laut.
+784,12,,der Protest,gegen,,,Ihr Protest gegen die Änderungen fand große Unterstützung.,Their protest against the changes found great support.,gegen,Ihr Protest _____ die Änderungen fand große Unterstützung.
+785,12,,die Demonstration,gegen,,,Die Demonstration gegen den Krieg zog viele Menschen an.,The demonstration against the war attracted many people.,gegen,Die Demonstration _____ den Krieg zog viele Menschen an.
+786,12,,die Demonstration,gegen,,,Ihre Demonstration gegen die Umweltzerstörung war friedlich.,Their demonstration against environmental destruction was peaceful.,gegen,Ihre Demonstration _____ die Umweltzerstörung war friedlich.
+787,12,,die Stimme,gegen,,,Die Stimme gegen den Vorschlag wurde laut geäußert.,The vote against the proposal was expressed loudly.,gegen,Die Stimme _____ den Vorschlag wurde laut geäußert.
+788,12,,die Stimme,gegen,,,Ihre Stimme gegen den Plan beeinflusste die Entscheidung.,Her vote against the plan influenced the decision.,gegen,Ihre Stimme _____ den Plan beeinflusste die Entscheidung.
+789,12,,die Übersetzung,aus,,,Die Übersetzung aus dem Englischen war sehr präzise.,The translation from English was very precise.,aus,Die Übersetzung _____ dem Englischen war sehr präzise.
+790,12,,die Übersetzung,aus,,,Seine Übersetzung aus dem Spanischen wurde gelobt.,His translation from Spanish was praised.,aus,Seine Übersetzung _____ dem Spanischen wurde gelobt.
+791,12,,der Anruf,bei,,,Der Anruf bei der Hotline brachte schnelle Hilfe.,The call to the hotline brought quick help.,bei,Der Anruf _____ der Hotline brachte schnelle Hilfe.
+792,12,,der Anruf,bei,,,Sein Anruf bei der Firma wurde freundlich beantwortet.,His call to the company was answered kindly.,bei,Sein Anruf _____ der Firma wurde freundlich beantwortet.
+793,12,,die Arbeit,bei,,,Die Arbeit bei diesem Unternehmen ist sehr anspruchsvoll.,The work at this company is very demanding.,bei,Die Arbeit _____ diesem Unternehmen ist sehr anspruchsvoll.
+794,12,,die Arbeit,bei,,,Seine Arbeit bei der Bank dauert schon zehn Jahre.,His work at the bank has already lasted ten years.,bei,Seine Arbeit _____ der Bank dauert schon zehn Jahre.
+795,12,,die Beschwerde,bei,,,Die Beschwerde bei der Verwaltung wurde ignoriert.,The complaint to the administration was ignored.,bei,Die Beschwerde _____ der Verwaltung wurde ignoriert.
+796,12,,die Beschwerde,bei,,,Seine Beschwerde bei der Leitung führte zu einer Lösung.,His complaint to the management led to a solution.,bei,Seine Beschwerde _____ der Leitung führte zu einer Lösung.
+797,12,,die Bewerbung,bei,,,Die Bewerbung bei der Universität war erfolgreich.,The application to the university was successful.,bei,Die Bewerbung _____ der Universität war erfolgreich.
+798,12,,die Bewerbung,bei,,,Seine Bewerbung bei der Firma wurde angenommen.,His application to the company was accepted.,bei,Seine Bewerbung _____ der Firma wurde angenommen.
+799,12,,die Entschuldigung,bei,,,Die Entschuldigung bei ihrer Freundin war aufrichtig.,The apology to her friend was sincere.,bei,Die Entschuldigung _____ ihrer Freundin war aufrichtig.
+800,12,,die Entschuldigung,bei,,,Seine Entschuldigung bei der Lehrerin wurde angenommen.,His apology to the teacher was accepted.,bei,Seine Entschuldigung _____ der Lehrerin wurde angenommen.
+801,12,,die Debatte,mit,,,Die Debatte mit dem Experten war aufschlussreich.,The debate with the expert was insightful.,mit,Die Debatte _____ dem Experten war aufschlussreich.
+802,12,,die Debatte,mit,,,Ihre Debatte mit dem Politiker war spannend.,Her debate with the politician was exciting.,mit,Ihre Debatte _____ dem Politiker war spannend.
+803,12,,die Diskussion,mit,,,Die Diskussion mit den Kollegen führte zu neuen Ideen.,The discussion with the colleagues led to new ideas.,mit,Die Diskussion _____ den Kollegen führte zu neuen Ideen.
+804,12,,die Diskussion,mit,,,Seine Diskussion mit dem Chef war produktiv.,His discussion with the boss was productive.,mit,Seine Diskussion _____ dem Chef war produktiv.
+805,12,,die Freundschaft,mit,,,Die Freundschaft mit ihr war ihm sehr wichtig.,The friendship with her was very important to him.,mit,Die Freundschaft _____ ihr war ihm sehr wichtig.
+806,12,,die Freundschaft,mit,,,Seine Freundschaft mit dem Nachbarn wurde immer enger.,His friendship with the neighbor grew closer.,mit,Seine Freundschaft _____ dem Nachbarn wurde immer enger.
+807,12,,der Kampf,mit,,,Der Kampf mit den Umständen war schwierig.,The fight with the circumstances was difficult.,mit,Der Kampf _____ den Umständen war schwierig.
+808,12,,der Kampf,mit,,,Ihr Kampf mit der Krankheit dauerte Jahre.,Her fight with the illness lasted for years.,mit,Ihr Kampf _____ der Krankheit dauerte Jahre.
+809,12,,das Spiel,mit,,,Das Spiel mit der neuen Strategie war erfolgreich.,The game with the new strategy was successful.,mit,Das Spiel _____ der neuen Strategie war erfolgreich.
+810,12,,das Spiel,mit,,,Ihr Spiel mit dem Ball faszinierte die Zuschauer.,Her game with the ball fascinated the spectators.,mit,Ihr Spiel _____ dem Ball faszinierte die Zuschauer.
+811,12,,das Gespräch,mit,,,Das Gespräch mit dem Lehrer verlief positiv.,The conversation with the teacher went positively.,mit,Das Gespräch _____ dem Lehrer verlief positiv.
+812,12,,das Gespräch,mit,,,Ihr Gespräch mit der Nachbarin dauerte lange.,Her conversation with the neighbor lasted a long time.,mit,Ihr Gespräch _____ der Nachbarin dauerte lange.
+813,12,,der Streit,mit,,,Der Streit mit seinem Bruder war schnell vergessen.,The argument with his brother was quickly forgotten.,mit,Der Streit _____ seinem Bruder war schnell vergessen.
+814,12,,der Streit,mit,,,Ihr Streit mit der Kollegin eskalierte schnell.,Her argument with the colleague escalated quickly.,mit,Ihr Streit _____ der Kollegin eskalierte schnell.
+815,12,,der Anfang,mit,,,Der Anfang mit dem neuen Projekt war herausfordernd.,The beginning with the new project was challenging.,mit,Der Anfang _____ dem neuen Projekt war herausfordernd.
+816,12,,der Anfang,mit,,,Ihr Anfang mit dem Sport war sehr erfolgreich.,Her start with the sport was very successful.,mit,Ihr Anfang _____ dem Sport war sehr erfolgreich.
+817,12,,der Beginn,mit,,,Der Beginn mit der neuen Software verlief reibungslos.,The start with the new software went smoothly.,mit,Der Beginn _____ der neuen Software verlief reibungslos.
+818,12,,der Beginn,mit,,,Sein Beginn mit dem Training war motivierend.,His start with the training was motivating.,mit,Sein Beginn _____ dem Training war motivierend.
+819,12,,die Frage,nach,,,Die Frage nach der Zukunft des Projekts bleibt offen.,The question about the project's future remains open.,nach,Die Frage _____ der Zukunft des Projekts bleibt offen.
+820,12,,die Frage,nach,,,Seine Frage nach den Details wurde klar beantwortet.,His question about the details was answered clearly.,nach,Seine Frage _____ den Details wurde klar beantwortet.
+821,12,,die Suche,nach,,,Die Suche nach einem passenden Kandidaten dauert an.,The search for a suitable candidate continues.,nach,Die Suche _____ einem passenden Kandidaten dauert an.
+822,12,,die Suche,nach,,,Ihre Suche nach einer neuen Wohnung war erfolgreich.,Her search for a new apartment was successful.,nach,Ihre Suche _____ einer neuen Wohnung war erfolgreich.
+823,12,,der Duft,nach,,,Der Duft nach frischem Brot erfüllte den Raum.,The scent of fresh bread filled the room.,nach,Der Duft _____ frischem Brot erfüllte den Raum.
+824,12,,der Duft,nach,,,Der Duft nach Blumen erinnerte sie an den Frühling.,The scent of flowers reminded her of spring.,nach,Der Duft _____ Blumen erinnerte sie an den Frühling.
+825,12,,der Geruch,nach,,,Der Geruch nach Kaffee machte ihn wach.,The smell of coffee woke him up.,nach,Der Geruch _____ Kaffee machte ihn wach.
+826,12,,der Geruch,nach,,,Der Geruch nach frischer Farbe war stark.,The smell of fresh paint was strong.,nach,Der Geruch _____ frischer Farbe war stark.
+827,12,,der Geschmack,nach,,,Der Geschmack nach Zimt war angenehm.,The taste of cinnamon was pleasant.,nach,Der Geschmack _____ Zimt war angenehm.
+828,12,,der Geschmack,nach,,,Der Geschmack nach frischen Kräutern passte perfekt zum Gericht.,The taste of fresh herbs was perfect for the dish.,nach,Der Geschmack _____ frischen Kräutern passte perfekt zum Gericht.
+829,12,,die Arbeit,als,,,Die Arbeit als Lehrer ist erfüllend.,The work as a teacher is fulfilling.,als,Die Arbeit _____ Lehrer ist erfüllend.
+830,12,,die Arbeit,als,,,Seine Arbeit als Ingenieur ist sehr anspruchsvoll.,His work as an engineer is very demanding.,als,Seine Arbeit _____ Ingenieur ist sehr anspruchsvoll.
+831,12,,die Beschreibung,als,,,Die Beschreibung als ein talentierter Künstler passt zu ihm.,The description as a talented artist suits him.,als,Die Beschreibung _____ ein talentierter Künstler passt zu ihm.
+832,12,,die Beschreibung,als,,,Ihre Beschreibung als eine zuverlässige Person überzeugt alle.,Her description as a reliable person convinces everyone.,als,Ihre Beschreibung _____ eine zuverlässige Person überzeugt alle.
+833,12,,der Gedanke,an,,,Der Gedanke an die Prüfung macht ihn nervös.,The thought of the exam makes him nervous.,an,Der Gedanke _____ die Prüfung macht ihn nervös.
+834,12,,der Gedanke,an,,,Ihr Gedanke an die gemeinsame Zeit machte sie glücklich.,Her thought of the time together made her happy.,an,Ihr Gedanke _____ die gemeinsame Zeit machte sie glücklich.
+835,12,,die Erinnerung,an,,,Die Erinnerung an den Urlaub bleibt unvergesslich.,The memory of the vacation remains unforgettable.,an,Die Erinnerung _____ den Urlaub bleibt unvergesslich.
+836,12,,die Erinnerung,an,,,Seine Erinnerung an die Kindheit ist voller Freude.,His memory of childhood is full of joy.,an,Seine Erinnerung _____ die Kindheit ist voller Freude.
+837,12,,der Glaube,an,,,Der Glaube an seine Fähigkeiten gab ihm Kraft.,The belief in his abilities gave him strength.,an,Der Glaube _____ seine Fähigkeiten gab ihm Kraft.
+838,12,,der Glaube,an,,,Ihr Glaube an das Gute in Menschen ist beeindruckend.,Her belief in the good in people is impressive.,an,Ihr Glaube _____ das Gute in Menschen ist beeindruckend.
+839,12,,die Änderung,an,,,Die Änderung an den Vorschlägen wurde akzeptiert.,The change to the proposals was accepted.,an,Die Änderung _____ den Vorschlägen wurde akzeptiert.
+840,12,,die Änderung,an,,,Die Änderung an der Software hat das Problem gelöst.,The change to the software solved the problem.,an,Die Änderung _____ der Software hat das Problem gelöst.
+841,12,,die Schuld,an,,,Die Schuld an dem Fehler wurde auf ihn geschoben.,The blame for the mistake was put on him.,an,Die Schuld _____ dem Fehler wurde auf ihn geschoben.
+842,12,,die Schuld,an,,,Er übernahm die Schuld an dem Missverständnis.,He took the blame for the misunderstanding.,an,Er übernahm die Schuld _____ dem Missverständnis.
+843,12,,die Teilnahme,an,,,Die Teilnahme an der Konferenz war sehr lehrreich.,The participation in the conference was very educational.,an,Die Teilnahme _____ der Konferenz war sehr lehrreich.
+844,12,,die Teilnahme,an,,,Seine Teilnahme an dem Wettbewerb brachte ihm Anerkennung.,His participation in the competition brought him recognition.,an,Seine Teilnahme _____ dem Wettbewerb brachte ihm Anerkennung.
+845,12,,der Zweifel,an,,,Der Zweifel an ihrer Aussage wuchs.,The doubt about her statement grew.,an,Der Zweifel _____ ihrer Aussage wuchs.
+846,12,,der Zweifel,an,,,Er äußerte Zweifel an der Richtigkeit der Ergebnisse.,He expressed doubts about the accuracy of the results.,an,Er äußerte Zweifel _____ der Richtigkeit der Ergebnisse.
+847,12,,das Vertrauen,auf,,,Das Vertrauen auf seine Erfahrung ist groß.,The trust in his experience is strong.,auf,Das Vertrauen _____ seine Erfahrung ist groß.
+848,12,,das Vertrauen,auf,,,Ihr Vertrauen auf das Team motiviert alle.,Her trust in the team motivates everyone.,auf,Ihr Vertrauen _____ das Team motiviert alle.
+849,12,,die Übersetzung,in,,,Die Übersetzung in mehrere Sprachen ist geplant.,The translation into several languages is planned.,in,Die Übersetzung _____ mehrere Sprachen ist geplant.
+850,12,,die Übersetzung,in,,,Seine Übersetzung in das Deutsche war sehr präzise.,His translation into German was very precise.,in,Seine Übersetzung _____ das Deutsche war sehr präzise.
+851,12,,die Verwandlung,in,,,Die Verwandlung in einen modernen Raum war beeindruckend.,The transformation into a modern space was impressive.,in,Die Verwandlung _____ einen modernen Raum war beeindruckend.
+852,12,,die Verwandlung,in,,,Die Verwandlung in eine grüne Stadt ist ein großes Ziel.,The transformation into a green city is a big goal.,in,Die Verwandlung _____ eine grüne Stadt ist ein großes Ziel.
+853,12,,der Traum,von,,,Der Traum von einer besseren Welt verbindet uns alle.,The dream of a better world connects us all.,von,Der Traum _____ einer besseren Welt verbindet uns alle.
+854,12,,der Traum,von,,,Ihr Traum von einem eigenen Haus wurde wahr.,Her dream of owning a house came true.,von,Ihr Traum _____ einem eigenen Haus wurde wahr.
+855,12,,die Überzeugung,von,,,Die Überzeugung von der Notwendigkeit der Reform war stark.,The conviction of the need for reform was strong.,von,Die Überzeugung _____ der Notwendigkeit der Reform war stark.
+856,12,,die Überzeugung,von,,,Seine Überzeugung von ihrer Ehrlichkeit blieb unerschütterlich.,His conviction of her honesty remained unwavering.,von,Seine Überzeugung _____ ihrer Ehrlichkeit blieb unerschütterlich.
+857,12,,die Erwartung,von,,,Die Erwartung von hohen Ergebnissen setzte alle unter Druck.,The expectation of high results put everyone under pressure.,von,Die Erwartung _____ hohen Ergebnissen setzte alle unter Druck.
+858,12,,die Erwartung,von,,,Ihre Erwartung von einer schnellen Antwort wurde erfüllt.,Her expectation of a quick response was met.,von,Ihre Erwartung _____ einer schnellen Antwort wurde erfüllt.
+859,12,,die Angst,vor,,,Die Angst vor Veränderung hielt ihn zurück.,The fear of change held him back.,vor,Die Angst _____ Veränderung hielt ihn zurück.
+860,12,,die Angst,vor,,,Ihre Angst vor dem Scheitern war unbegründet.,Her fear of failure was unfounded.,vor,Ihre Angst _____ dem Scheitern war unbegründet.
+861,12,,die Furcht,vor,,,Die Furcht vor der Prüfung ließ ihn nicht schlafen.,The fear of the exam kept him awake.,vor,Die Furcht _____ der Prüfung ließ ihn nicht schlafen.
+862,12,,die Furcht,vor,,,Seine Furcht vor Ablehnung war sichtbar.,His fear of rejection was visible.,vor,Seine Furcht _____ Ablehnung war sichtbar.
+863,12,,die Warnung,vor,,,Die Warnung vor dem Sturm kam rechtzeitig.,The warning about the storm came in time.,vor,Die Warnung _____ dem Sturm kam rechtzeitig.
+864,12,,die Warnung,vor,,,Ihre Warnung vor den Gefahren wurde ernst genommen.,Her warning about the dangers was taken seriously.,vor,Ihre Warnung _____ den Gefahren wurde ernst genommen.
+865,12,,der Glückwunsch,zu,,,Der Glückwunsch zu ihrem Erfolg war herzlich.,The congratulations on her success were heartfelt.,zu,Der Glückwunsch _____ ihrem Erfolg war herzlich.
+866,12,,der Glückwunsch,zu,,,Sein Glückwunsch zu ihrer Hochzeit war sehr persönlich.,His congratulations on her wedding were very personal.,zu,Sein Glückwunsch _____ ihrer Hochzeit war sehr persönlich.
+867,12,,die Einladung,zu,,,Die Einladung zu der Feier wurde freudig angenommen.,The invitation to the party was happily accepted.,zu,Die Einladung _____ der Feier wurde freudig angenommen.
+868,12,,die Einladung,zu,,,Ihre Einladung zu dem Event überraschte alle.,Her invitation to the event surprised everyone.,zu,Ihre Einladung _____ dem Event überraschte alle.
+869,12,,die Gratulation,zu,,,Die Gratulation zu seinem Sieg war ehrlich gemeint.,The congratulations on his victory were sincere.,zu,Die Gratulation _____ seinem Sieg war ehrlich gemeint.
+870,12,,die Gratulation,zu,,,Ihre Gratulation zu seiner Beförderung war herzlich.,Her congratulations on his promotion were heartfelt.,zu,Ihre Gratulation _____ seiner Beförderung war herzlich.
+871,12,,die Fähigkeit,zu,,,Die Fähigkeit zu schneller Analyse ist ein Vorteil.,The ability for quick analysis is an advantage.,zu,Die Fähigkeit _____ schneller Analyse ist ein Vorteil.
+872,12,,die Fähigkeit,zu,,,Ihre Fähigkeit zu kreativen Lösungen beeindruckte viele.,Her ability for creative solutions impressed many.,zu,Ihre Fähigkeit _____ kreativen Lösungen beeindruckte viele.
+873,12,,der Beitrag,zu,,,Der Beitrag zu dem Projekt war entscheidend.,The contribution to the project was crucial.,zu,Der Beitrag _____ dem Projekt war entscheidend.
+874,12,,der Beitrag,zu,,,Sein Beitrag zu der Diskussion brachte neue Perspektiven.,His contribution to the discussion brought new perspectives.,zu,Sein Beitrag _____ der Diskussion brachte neue Perspektiven.
+875,12,,der Rat,zu,,,Der Rat zu mehr Geduld war hilfreich.,The advice for more patience was helpful.,zu,Der Rat _____ mehr Geduld war hilfreich.
+876,12,,der Rat,zu,,,Ihr Rat zu diesem Thema wurde ernst genommen.,Her advice on this topic was taken seriously.,zu,Ihr Rat _____ diesem Thema wurde ernst genommen.
+877,12,,die Wahl,zu,,,Die Wahl zu ihrem Vorsitzenden wurde einstimmig getroffen.,The election as their chairperson was unanimous.,zu,Die Wahl _____ ihrem Vorsitzenden wurde einstimmig getroffen.
+878,12,,die Wahl,zu,,,Seine Wahl zu diesem Posten überraschte viele.,His election to this position surprised many.,zu,Seine Wahl _____ diesem Posten überraschte viele.
+879,13,,ärgerlich,über,,annoyed about,,,,
+880,13,,aufgeregt,über,,excited about,,,,
+881,13,,froh,über,,happy about,,,,
+882,13,,glücklich,über,,happy about,,,,
+883,13,,traurig,über,,sad about,,,,
+884,13,,wütend,über,,angry about,,,,
+885,13,,konzentriert,auf,,focused on,,,,
+886,13,,stolz,auf,,proud of,,,,
+887,13,,wütend,auf,,angry at,,,,
+888,13,,neugierig,auf,,curious about,,,,
+889,13,,gespannt,auf,,excited about,,,,
+890,13,,verantwortlich,für,,responsible for,,,,
+891,13,,bekannt,bei,,known to,,,,
+892,13,,beliebt,bei,,popular with,,,,
+893,13,,befreundet,mit,,friends with,,,,
+894,13,,verheiratet,mit,,married to,,,,
+895,13,,fertig,mit,,finished with,,,,
+896,13,,verrückt,nach,,crazy about,,,,
+897,13,,gewöhnt,an,,used to,,,,
+898,13,,schuldig,an,,guilty of,,,,
+899,13,,begeistert,von,,enthusiastic about,,,,
+900,13,,enttäuscht,von,,disappointed by,,,,
+901,13,,abhängig,von,,dependent on,,,,
+902,13,,frei,von,,free from,,,,
+903,13,,müde,von,,tired from,,,,
+904,13,,bereit,zu,,ready for,,,,
+905,13,,fähig,zu,,capable of,,,,
+906,14,,ärgerlich,über,,,Ich bin ärgerlich über die ständigen Verspätungen.,I am annoyed about the constant delays.,über,Ich bin ärgerlich _____ die ständigen Verspätungen.
+907,14,,ärgerlich,über,,,Sie ist ärgerlich über den Fehler im Bericht.,She is annoyed about the mistake in the report.,über,Sie ist ärgerlich _____ den Fehler im Bericht.
+908,14,,aufgeregt,über,,,Er ist aufgeregt über die Neuigkeiten.,He is excited about the news.,über,Er ist aufgeregt _____ die Neuigkeiten.
+909,14,,aufgeregt,über,,,Die Kinder sind aufgeregt über das bevorstehende Fest.,The children are excited about the upcoming celebration.,über,Die Kinder sind aufgeregt _____ das bevorstehende Fest.
+910,14,,froh,über,,,Ich bin froh über deine Entscheidung.,I am happy about your decision.,über,Ich bin froh _____ deine Entscheidung.
+911,14,,froh,über,,,Sie ist froh über die positive Entwicklung.,She is happy about the positive development.,über,Sie ist froh _____ die positive Entwicklung.
+912,14,,glücklich,über,,,Wir sind glücklich über die Geburt unseres Kindes.,We are happy about the birth of our child.,über,Wir sind glücklich _____ die Geburt unseres Kindes.
+913,14,,glücklich,über,,,Er ist glücklich über die Unterstützung seiner Freunde.,He is happy about the support of his friends.,über,Er ist glücklich _____ die Unterstützung seiner Freunde.
+914,14,,traurig,über,,,Ich bin traurig über das Ende unserer Freundschaft.,I am sad about the end of our friendship.,über,Ich bin traurig _____ das Ende unserer Freundschaft.
+915,14,,traurig,über,,,Sie ist traurig über den Verlust ihres Haustiers.,She is sad about the loss of her pet.,über,Sie ist traurig _____ den Verlust ihres Haustiers.
+916,14,,wütend,über,,,Er ist wütend über die ungerechte Behandlung.,He is angry about the unfair treatment.,über,Er ist wütend _____ die ungerechte Behandlung.
+917,14,,wütend,über,,,Sie ist wütend über den schlechten Kundenservice.,She is angry about the poor customer service.,über,Sie ist wütend _____ den schlechten Kundenservice.
+918,14,,konzentriert,auf,,,Sie ist völlig konzentriert auf ihre Arbeit.,She is completely focused on her work.,auf,Sie ist völlig konzentriert _____ ihre Arbeit.
+919,14,,konzentriert,auf,,,"Er bleibt konzentriert auf sein Ziel, trotz der Ablenkungen.",He remains focused on his goal despite the distractions.,auf,"Er bleibt konzentriert _____ sein Ziel, trotz der Ablenkungen."
+920,14,,stolz,auf,,,"Ich bin stolz auf meinen Bruder, der die Prüfung bestanden hat.","I am proud of my brother, who passed the exam.",auf,"Ich bin stolz _____ meinen Bruder, der die Prüfung bestanden hat."
+921,14,,stolz,auf,,,Sie ist stolz auf ihr Team nach dem erfolgreichen Projektabschluss.,She is proud of her team after the successful project completion.,auf,Sie ist stolz _____ ihr Team nach dem erfolgreichen Projektabschluss.
+922,14,,wütend,auf,,,Er ist wütend auf seinen Kollegen wegen des Fehlers.,He is angry at his colleague because of the mistake.,auf,Er ist wütend _____ seinen Kollegen wegen des Fehlers.
+923,14,,wütend,auf,,,Sie ist wütend auf die Behörden wegen der Verzögerung.,She is angry at the authorities because of the delay.,auf,Sie ist wütend _____ die Behörden wegen der Verzögerung.
+924,14,,neugierig,auf,,,Ich bin neugierig auf die Ergebnisse der Untersuchung.,I am curious about the results of the investigation.,auf,Ich bin neugierig _____ die Ergebnisse der Untersuchung.
+925,14,,neugierig,auf,,,Die Kinder sind neugierig auf das neue Spielzeug.,The children are curious about the new toy.,auf,Die Kinder sind neugierig _____ das neue Spielzeug.
+926,14,,gespannt,auf,,,Wir sind gespannt auf die Präsentation der neuen Produkte.,We are excited about the presentation of the new products.,auf,Wir sind gespannt _____ die Präsentation der neuen Produkte.
+927,14,,gespannt,auf,,,Er ist gespannt auf den Ausgang des Wettbewerbs.,He is excited about the outcome of the competition.,auf,Er ist gespannt _____ den Ausgang des Wettbewerbs.
+928,14,,verantwortlich,für,,,Er ist verantwortlich für die Organisation der Konferenz.,He is responsible for organizing the conference.,für,Er ist verantwortlich _____ die Organisation der Konferenz.
+929,14,,verantwortlich,für,,,Sie ist verantwortlich für das gesamte Marketingteam.,She is responsible for the entire marketing team.,für,Sie ist verantwortlich _____ das gesamte Marketingteam.
+930,14,,bekannt,bei,,,Er ist bekannt bei seinen Kollegen für seine Zuverlässigkeit.,He is known by his colleagues for his reliability.,bei,Er ist bekannt _____ seinen Kollegen für seine Zuverlässigkeit.
+931,14,,bekannt,bei,,,Das Restaurant ist bekannt bei Touristen für seine gute Küche.,The restaurant is known among tourists for its good cuisine.,bei,Das Restaurant ist bekannt _____ Touristen für seine gute Küche.
+932,14,,beliebt,bei,,,Sie ist beliebt bei ihren Schülern wegen ihrer Geduld.,She is popular with her students because of her patience.,bei,Sie ist beliebt _____ ihren Schülern wegen ihrer Geduld.
+933,14,,beliebt,bei,,,Das Hotel ist beliebt bei Familien wegen seiner Kinderfreundlichkeit.,The hotel is popular with families because of its child-friendliness.,bei,Das Hotel ist beliebt _____ Familien wegen seiner Kinderfreundlichkeit.
+934,14,,befreundet,mit,,,Er ist seit Jahren mit seinem Nachbarn befreundet.,He has been friends with his neighbor for years.,mit,Er ist seit Jahren _____ seinem Nachbarn befreundet.
+935,14,,befreundet,mit,,,Sie ist eng mit ihrer ehemaligen Kollegin befreundet.,She is close friends with her former colleague.,mit,Sie ist eng _____ ihrer ehemaligen Kollegin befreundet.
+936,14,,verheiratet,mit,,,Er ist seit zehn Jahren mit seiner Jugendliebe verheiratet.,He has been married to his childhood sweetheart for ten years.,mit,Er ist seit zehn Jahren _____ seiner Jugendliebe verheiratet.
+937,14,,verheiratet,mit,,,Sie ist glücklich mit einem Lehrer verheiratet.,She is happily married to a teacher.,mit,Sie ist glücklich _____ einem Lehrer verheiratet.
+938,14,,fertig,mit,,,Ich bin endlich fertig mit meiner Arbeit.,I am finally finished with my work.,mit,Ich bin endlich fertig _____ meiner Arbeit.
+939,14,,fertig,mit,,,Er ist fertig mit der Vorbereitung für die Präsentation.,He is finished with the preparation for the presentation.,mit,Er ist fertig _____ der Vorbereitung für die Präsentation.
+940,14,,verrückt,nach,,,Sie ist verrückt nach Schokolade.,She is crazy about chocolate.,nach,Sie ist verrückt _____ Schokolade.
+941,14,,verrückt,nach,,,Er ist verrückt nach alten Autos.,He is crazy about vintage cars.,nach,Er ist verrückt _____ alten Autos.
+942,14,,gewöhnt,an,,,Ich bin an die langen Arbeitszeiten gewöhnt.,I am used to the long working hours.,an,Ich bin _____ die langen Arbeitszeiten gewöhnt.
+943,14,,gewöhnt,an,,,Sie ist an das Leben in der Großstadt gewöhnt.,She is used to life in the big city.,an,Sie ist _____ das Leben in der Großstadt gewöhnt.
+944,14,,schuldig,an,,,Er ist schuldig an dem Unfall.,He is guilty of the accident.,an,Er ist schuldig _____ dem Unfall.
+945,14,,schuldig,an,,,Sie wurde schuldig an der Verzögerung befunden.,She was found guilty of the delay.,an,Sie wurde schuldig _____ der Verzögerung befunden.
+946,14,,begeistert,von,,,Ich bin begeistert von ihrer Kreativität.,I am impressed by her creativity.,von,Ich bin begeistert _____ ihrer Kreativität.
+947,14,,begeistert,von,,,Er war begeistert von der Show gestern Abend.,He was excited about the show last night.,von,Er war begeistert _____ der Show gestern Abend.
+948,14,,enttäuscht,von,,,Ich bin enttäuscht von dem Ergebnis.,I am disappointed with the result.,von,Ich bin enttäuscht _____ dem Ergebnis.
+949,14,,enttäuscht,von,,,Sie war enttäuscht von seinem Verhalten.,She was disappointed with his behavior.,von,Sie war enttäuscht _____ seinem Verhalten.
+950,14,,abhängig,von,,,Er ist abhängig von der Unterstützung seiner Familie.,He is dependent on his family's support.,von,Er ist abhängig _____ der Unterstützung seiner Familie.
+951,14,,abhängig,von,,,Die Firma ist abhängig von den Marktbedingungen.,The company is dependent on market conditions.,von,Die Firma ist abhängig _____ den Marktbedingungen.
+952,14,,frei,von,,,Das Produkt ist frei von chemischen Zusatzstoffen.,The product is free from chemical additives.,von,Das Produkt ist frei _____ chemischen Zusatzstoffen.
+953,14,,frei,von,,,Sie ist endlich frei von ihrer Angst vor Versagen.,She is finally free from her fear of failure.,von,Sie ist endlich frei _____ ihrer Angst vor Versagen.
+954,14,,müde,von,,,Ich bin müde von der langen Reise.,I am tired from the long journey.,von,Ich bin müde _____ der langen Reise.
+955,14,,müde,von,,,Er ist müde von der anstrengenden Arbeit.,He is tired from the exhausting work.,von,Er ist müde _____ der anstrengenden Arbeit.
+956,14,,bereit,zu,,,Sie ist bereit zu neuen Herausforderungen.,She is ready for new challenges.,zu,Sie ist bereit _____ neuen Herausforderungen.
+957,14,,bereit,zu,,,Er ist bereit zu einem Kompromiss.,He is ready for a compromise.,zu,Er ist bereit _____ einem Kompromiss.
+958,14,,fähig,zu,,,Er ist fähig zu großen Leistungen.,He is capable of great achievements.,zu,Er ist fähig _____ großen Leistungen.
+959,14,,fähig,zu,,,Sie ist fähig zu einer schnellen Problemlösung.,She is capable of quick problem-solving.,zu,Sie ist fähig _____ einer schnellen Problemlösung.
+960,15,,abbringen,von,D,to dissuade from,,,von,
+961,15,,abhängen,von,D,to depend on,,,von,
+962,15,,adressieren,an,A,to address to,,,an,
+963,15,,ängstigen,um,A,to worry about,,,um,
+964,15,,ängstigen,vor,D,to be afraid of,,,vor,
+965,15,,anpassen,an,A,to adjust to,,,an,
+966,15,,anregen,zu,D,to encourage to,,,zu,
+967,15,,ansehen,als,A,to regard as,,,,
+968,15,,auffordern,zu,D,to invite to,,,zu,
+969,15,,aufregen,über,A,to get upset about,,,über,
+970,15,,auseinandersetzen,mit,D,to deal with,,,mit,
+971,15,,ausgeben,für,A,to spend for,,,für,
+972,15,,ausgehen,von,D,"to assume, to come from",,,,
+973,15,,basieren,auf,D,to be based on,,,auf,
+974,15,,befassen,mit,D,to deal with,,,mit,
+975,15,,befreien,von,D,to free from,,,von,
+976,15,,beharren,auf,D,to insist on,,,auf,
+977,15,,beklagen,über,A,to complain about,,,über,
+978,15,,beklagen,bei,D,to complain to,,,bei,
+979,15,,beruhen,auf,D,to be based on,,,auf,
+980,15,,bezeichnen,als,A,to designate as,,,als,
+981,15,sich,beziehen,auf,A,to refer to,,,auf,
+982,15,,debattieren,über,A,to debate about,,,über,
+983,15,,debattieren,mit,D,to debate with,,,mit,
+984,15,,demonstrieren,für,A,to demonstrate for,,,für,
+985,15,,demonstrieren,gegen,A,to demonstrate against,,,gegen,
+986,15,,dienen,zu,D,to serve as,,,zu,
+987,15,,dienen,als,D,to serve as,,,als,
+988,15,,eignen,für,A,to be suitable for,,,für,
+989,15,,eignen,zu,D,to be suitable for,,,zu,
+990,15,,einigen,auf,A,to agree on,,,auf,
+991,15,,einigen,mit,D,to come to an agreement with,,,mit,
+992,15,,einsetzen,für,A,to advocate for,,,für,
+993,15,,ekeln,vor,D,to be disgusted by,,,vor,
+994,15,sich,entschliessen,zu,D,to resolve to,,,zu,
+995,15,,erfahren,von,D,to learn about,Ich habe von dem Unfall erfahren.,I heard about the accident.,,
+996,15,,erkennen,an,D,to recognize by,,,,
+997,15,,erkranken,an,D,to fall ill from,,,an,
+998,15,sich,erkundigen,nach,D,"to ask after, to inquire about",,,nach,
+999,15,,erkundigen,bei,D,to inquire at,,,bei,
+1000,15,,ernähren,von,D,to nourish from,,,von,
+1001,15,,ernennen,zu,D,to appoint to,,,zu,
+1002,15,,erschrecken,über,A,to get frightened by,,,über,
+1003,15,,erschrecken,vor,D,to be scared of,,,vor,
+1004,15,,erziehen,zu,D,to raise to,,,zu,
+1005,15,,experimentieren,mit,D,to experiment with,,,mit,
+1006,15,,flüchten,vor,D,to flee from,,,vor,
+1007,15,,fordern,von,D,to demand from,,,von,
+1008,15,,fussen,auf,D,to be based on,,,auf,
+1009,15,,gliedern,in,A,to divide into,,,in,
+1010,15,,gratulieren,zu,D,to gratulate on,,,zu,
+1011,15,,halten,an,A,to adhere to,,,,
+1012,15,sich,handeln,um,A,to be about,,,um,
+1013,15,,handeln,von,D,to revolve around / be about,,,von,
+1014,15,,irren,in,D,to be mistaken in,,,in,
+1015,15,,klagen,über,A,to complain about,,,über,
+1016,15,,klagen,gegen,A,to sue,,,gegen,
+1017,15,,kommen,auf,A,"to come up with, to think of",,,,
+1018,15,,liegen,an,D,to be due to,,,an,
+1019,15,,neigen,zu,D,to tend to,,,zu,
+1020,15,,orientieren,an,D,to orient oneself to,,,an,
+1021,15,,protestieren,gegen,A,to protest against,,,gegen,
+1022,15,,rächen,für,A,to take revenge for,,,für,
+1023,15,,rächen,an,D,to take revenge on,,,an,
+1024,15,,richten,nach,D,to follow,,,,
+1025,15,,richten,an,A,to address to,,,,
+1026,15,,rufen,nach,D,to call for,,,,
+1027,15,,sagen,zu,D,to say to,Was hast du dazu zu sagen?,What do you have to say about it?,,
+1028,15,,sagen,über,A,to speak / say about,Was sagt er über dich?,What does he say about you?,,
+1029,15,,schicken,an,A,to send to,Sie schickt einen Brief an ihre Freundin.,She sends a letter to her friend.,an,
+1030,15,,schicken,zu,D,to send to,Sie schickt ihn zum Arzt.,She sends him to the doctor.,zu,
+1031,15,,schimpfen,über,A,to complain / swear about,,,über,
+1032,15,,schimpfen,auf,A,to scold about,,,auf,
+1033,15,,schimpfen,mit,D,to scold with,,,mit,
+1034,15,,sehnen,nach,D,to long for,,,nach,
+1035,15,,spielen,um,A,to play for,,,um,
+1036,15,,spotten,über,A,to mock about,,,über,
+1037,15,,staunen,über,A,to marvel at,,,über,
+1038,15,,stinken,nach,D,to stink of,,,nach,
+1039,15,,streiten,um,A,to argue about,,,um,
+1040,15,,streiten,über,A,to argue about,,,über,
+1041,15,,streiten,mit,D,to argue with,,,mit,
+1042,15,,telefonieren,mit,D,"to call, to phone with",,,mit,
+1043,15,,überreden,zu,D,to persuade to,,,zu,
+1044,15,,umstellen,auf,A,to switch to,,,auf,
+1045,15,sich,unterhalten,mit,D,to talk with,,,mit,
+1046,15,sich,unterhalten,über,A,"to talk, converse about",,,über,
+1047,15,,unterscheiden,in,D,to differentiate in,,,in,
+1048,15,sich,verabreden,mit,D,to arrange to meet with,,,mit,
+1049,15,,verheimlichen,vor,D,to conceal from,,,vor,
+1050,15,,verlangen,von,D,to demand from,,,von,
+1051,15,,verleiten,zu,D,to tempt to,,,zu,
+1052,15,,versetzen,in,A,to put into,,,in,
+1053,15,,verstossen,gegen,A,to violate,,,gegen,
+1054,15,,verteidigen,gegen,A,to defend against,,,gegen,
+1055,15,,vertragen,mit,D,to get along with,,,mit,
+1056,15,,wehren,gegen,A,to defend against,,,gegen,
+1057,15,,werden,zu,D,"to change into, turn into",Das Wasser wird zu Eis.,The water turns into ice.,zu,
+1058,15,sich,wundern,über,A,to wonder about,,,über,
+1059,15,,zuhören,bei,D,to listen to,,,bei,
+1060,15,,zusammensetzen,aus,D,to assemble from,,,aus,
+1061,15,,zuschauen,bei,D,to watch,,,bei,
+1062,15,,zusehen,bei,D,to watch,,,bei,
+1063,16,,ansehen,als,,,Er sieht sie als seine beste Freundin an.,He considers her his best friend.,als,Er sieht sie _____ seine beste Freundin an.
+1064,16,,ansehen,als,,,Viele Menschen sehen Künstliche Intelligenz als eine große Chance an.,Many people consider artificial intelligence a great opportunity.,als,Viele Menschen sehen Künstliche Intelligenz _____ eine große Chance an.
+1065,16,,ausgehen,von,,,"Ich gehe davon aus, dass du pünktlich kommst.",I assume that you will be on time.,davon,"Ich gehe _____ aus, dass du pünktlich kommst."
+1066,16,,ausgehen,von,,,"Wir können davon ausgehen, dass das Projekt ein Erfolg wird.",We can assume that the project will be a success.,davon,"Wir können _____ ausgehen, dass das Projekt ein Erfolg wird."
+1067,16,,erfahren,von,,,Ich habe von dem Unfall in den Nachrichten erfahren.,I heard about the accident on the news.,von,Ich habe _____ dem Unfall in den Nachrichten erfahren.
+1068,16,,erfahren,von,,,Wir haben von ihrem Erfolg über die Zeitung erfahren.,We learned about her success through the newspaper.,von,Wir haben _____ ihrem Erfolg über die Zeitung erfahren.
+1069,16,,erkennen,an,,,Ich erkenne ihn an seiner Stimme.,I recognize him by his voice.,an,Ich erkenne ihn _____ seiner Stimme.
+1070,16,,erkennen,an,,,Man erkennt das Original an der Unterschrift.,You can recognize the original by the signature.,an,Man erkennt das Original _____ der Unterschrift.
+1071,16,,halten,an,,,Er hält an seinen alten Gewohnheiten fest.,He sticks to his old habits.,an,Er hält _____ seinen alten Gewohnheiten fest.
+1072,16,,halten,an,,,Wir sollten an unseren Prinzipien festhalten.,We should stick to our principles.,an,Wir sollten _____ unseren Prinzipien festhalten.
+1073,16,,kommen,auf,,,Wie bist du auf diese Idee gekommen?,How did you come up with this idea?,auf,Wie bist du _____ diese Idee gekommen?
+1074,16,,kommen,auf,,,Ich bin auf eine interessante Lösung gekommen.,I came up with an interesting solution.,auf,Ich bin _____ eine interessante Lösung gekommen.
+1075,16,,richten,nach,,,Ich richte mich nach den Regeln der Firma.,I follow the company's rules.,nach,Ich richte mich _____ den Regeln der Firma.
+1076,16,,richten,nach,,,Wir richten uns nach den aktuellen Entwicklungen.,We adapt to current developments.,nach,Wir richten uns _____ den aktuellen Entwicklungen.
+1077,16,,richten,an,,,Bitte richten Sie alle Fragen an die Verwaltung.,Please direct all questions to the administration.,an,Bitte richten Sie alle Fragen _____ die Verwaltung.
+1078,16,,richten,an,,,Er richtet seinen Blick an die Zukunft.,He directs his gaze towards the future.,an,Er richtet seinen Blick _____ die Zukunft.
+1079,16,,rufen,nach,,,Das Kind ruft nach seiner Mutter.,The child is calling for his mother.,nach,Das Kind ruft _____ seiner Mutter.
+1080,16,,rufen,nach,,,"Er rief nach Hilfe, aber niemand hörte ihn.","He called for help, but no one heard him.",nach,"Er rief _____ Hilfe, aber niemand hörte ihn."
+1081,16,,sagen,zu,,to say to,Ich sage etwas zu dem Thema.,I say something about the topic.,zu,Ich sage etwas _____ dem Thema.
+1082,16,,sagen,zu,,to say to,Er sagt nichts zu der Frage.,He says nothing about the question.,zu,Er sagt nichts _____ der Frage.
+1083,16,,sagen,über,,to speak / say about,Sie sagt viel über ihren Urlaub.,She says a lot about her vacation.,über,Sie sagt viel _____ ihren Urlaub.
+1084,16,,sagen,über,,to speak / say about,Er sagt etwas über seinen Job.,He says something about his job.,über,Er sagt etwas _____ seinen Job.
+1085,17,,die Immunität,gegen,,the immunity against,,,,
+1086,17,,die Verwunderung,über,,the amazement about,,,,
+1087,17,,die Unterhaltung,über,,the entertainment about,,,,
+1088,17,,der Bezug,auf,,the reference to,,,,
+1089,17,,die Wut,auf,,the rage at,,,,
+1090,17,,die Demonstration,für,,the demonstration for,,,,
+1091,17,,das Engagement,für,,the commitment to,,,,
+1092,17,,die Verteidigung,gegen,,the defense against,,,,
+1093,17,,die Einigung,mit,,the agreement with,,,,
+1094,17,,das Telefonat,mit,,the phone call with,,,,
+1095,17,,die Unterhaltung,mit,,the conversation with,,,,
+1096,17,,die Erkundigung,nach,,the inquiry about,,,,
+1097,17,,der Ruf,nach,,the call for,,,,
+1098,17,,der Gestank,nach,,the stink of,,,,
+1099,17,,die Bezeichnung,als,,the designation as,,,,
+1100,17,,die Erkrankung,an,,the illness of,,,,
+1101,17,,das Leiden,an,,the suffering from,,,,
+1102,17,,die Orientierung,an,,the orientation to,,,,
+1103,17,,die Unterscheidung,in,,the distinction in,,,,
+1104,17,,die Bereitschaft,zu,,the readiness for,,,,
+1105,17,,die Ernennung,zu,,the appointment as,,,,
+1106,17,,die Erziehung,zu,,the education to,,,,
+1107,17,,die Aufregung,über,,,,,,
+1108,17,,das Entsetzen,über,,,,,,
+1109,17,,die Klage,über,,,,,,
+1110,17,,der Spott,über,,,,,,
+1111,17,,das Erstaunen,über,,,,,,
+1112,17,,die Eifersucht,auf,,,,,,
+1113,17,,die Einigung,auf,,,,,,
+1114,17,,der Neid,auf,,,,,,
+1115,17,,der Verzicht,auf,,,,,,
+1116,17,,die Eignung,für,,,,,,
+1117,17,,die Rache,für,,,,,,
+1118,17,,der Verstoß,gegen,,,,,,
+1119,17,,die Entstehung,aus,,,,,,
+1120,17,,die Zusammensetzung,aus,,,,,,
+1121,17,,die Auseinandersetzung,mit,,,,,,
+1122,17,,die Sehnsucht,nach,,,,,,
+1123,17,,das Ansehen,als,,,,,,
+1124,17,,die Anpassung,an,,,,,,
+1125,17,,die Rache,an,,,,,,
+1126,17,,der Irrtum,in,,,,,,
+1127,17,,die Täuschung,in,,,,,,
+1128,17,,die Gliederung,in,,,,,,
+1129,17,,die Abhängigkeit,von,,,,,,
+1130,17,,die Befreiung,von,,,,,,
+1131,17,,der Ekel,vor,,,,,,
+1132,17,,die Flucht,vor,,,,,,
+1133,17,,der Schutz,vor,,,,,,
+1134,17,,die Eignung,zu,,,,,,
+1135,17,,die Zugehörigkeit,zu,,,,,,
+1136,17,,die Neigung,zu,,,,,,
+1137,17,,die Anregung,zu,,,,,,
+1138,17,,die Aufforderung,zu,,,,,,
+1139,17,,die Beförderung,zu,,,,,,
+1140,17,,der Entschluss,zu,,,,,,
+1141,17,,die Überredung,zu,,,,,,
+1142,17,,der Zwang,zu,,,,,,
+1143,19,,immun,gegen,,immune to,,,,
+1144,19,,süchtig,nach,,addicted to,,,,
+1145,19,,erkrankt,an,,ill with,,,,
+1146,19,,entsetzt,über,,,,,,
+1147,19,,eifersüchtig,auf,,,,,,
+1148,19,,neidisch,auf,,,,,,
+1149,19,,geeignet,für,,,,,,
+1150,20,,anrufen,bei,,to call at,Wo rufst du an?,Where are you calling?,Wo,_____ rufst du an?
+1151,20,,hören,von,,to hear of,Wovon hast du gehört?,What have you heard about?,Wovon,_____ hast du gehört?
+1152,20,,kommen,zu,,to come to,Wozu kommt es?,What does it lead to?,Wozu,_____ kommt es?
+1153,20,,reden,über,,to talk about something,Worüber redest du?,What are you talking about?,Worüber,_____ redest du?
+1154,20,,reden,von,,to talk of something,Wovon redest du?,What are you talking about?,Wovon,_____ redest du?
+1155,20,,sagen,zu,,to say to,Wozu sagst du etwas?,What are you saying something about?,Wozu,_____ sagst du etwas?
+1156,20,,verstehen,von,,to be versed in / skilled in,Wovon verstehst du etwas?,What do you understand about?,Wovon,_____ verstehst du etwas?
