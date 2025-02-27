@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutschtrainer</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 <body>
-$END$
+    <h1>Deutschtrainer</h1>
+        <div class="section">
+        <h2>Grammatik</h2>
+        <table class="level-table">
+            <tr>
+                <td><a href="/konnektoren" class="button">Konnektoren</a></td>
+                <td>{{ answered_questions_by_exercise('konnektoren') }}/{{ total_questions_by_exercise('konnektoren') }}</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
 </body>
 </html>

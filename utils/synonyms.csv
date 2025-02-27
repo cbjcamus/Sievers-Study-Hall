@@ -1,59 +1,83 @@
 exercise,input,output
-adverbien,somit,also
-adverbien,statt,anstatt
+adjektiv,phantastisch,fantastisch
+adjektiv,selbstständig,selbständig
 adverbien,draussen,aussen
 adverbien,weiterhin,ausserdem
-adverbien,ehe,bevor
+adverbien,zudem,ausserdem
+adverbien,insbesondere,besonders
 adverbien,bzw,beziehungsweise
 adverbien,bzw.,beziehungsweise
 adverbien,bislang,bisher
 adverbien,etwa,circa
 adverbien,zirka,circa
-adverbien,jedoch,dagegen
-adverbien,demgegenüber,dagegen
-adverbien,allerdings,dagegen
-adverbien,sodass,damit
-adverbien,deswegen,deshalb
-adverbien,daher,deshalb
-adverbien,darum,deshalb
+adverbien,anschliessend,danach
+adverbien,umso,desto
 adverbien,tatsächlich,eigentlich
+adverbien,einst,einmal
 adverbien,schliesslich,endlich
 adverbien,zuletzt,endlich
-adverbien,infolgedessen,folglich
-adverbien,demzufolge,folglich
-adverbien,demnach,folglich
+adverbien,letztlich,endlich
 adverbien,überhaupt,gar
-adverbien,worden,geworden
+adverbien,zugleich,gleichzeitig
 adverbien,heut,heute
-adverbien,entgegen,im gegensatz zu
-adverbien,sooft,immer wenn
+adverbien,stets,immer
+adverbien,ständig,immer
 adverbien,drinnen,innen
 adverbien,mittlerweile,inzwischen
 adverbien,in der Zwischenzeit,inzwischen
-adverbien,zufolge,laut
+adverbien,größtenteils,meistens
 adverbien,wenigstens,mindestens
 adverbien,zumindest,mindestens
 adverbien,selbstverständlich,natürlich
-adverbien,obgleich,obwohl
-adverbien,obgleich,obwohl
-adverbien,obschon,obwohl
+adverbien,lediglich,nur
 adverbien,häufig,oft
 adverbien,bereits,schon
-adverbien,sofern,solange
-adverbien,andernfalls,sonst
-adverbien,ungeachtet,trotz
-adverbien,dennoch,trotzdem
-adverbien,gleichwohl,trotzdem
+adverbien,ohnehin,sowieso
+adverbien,usw,und so weiter
+adverbien,usw.,und so weiter
 adverbien,anfänglich,ürsprunglich
 adverbien,möglicherweise,vielleicht
 adverbien,kürzlich,vor kurzem
-adverbien,aufgrund,wegen
+adverbien,zuvor,vorher
+adverbien,davor,vorher
 adverbien,nochmal,wieder
-adverbien,wogegen,wohingegen
 adverbien,ganz,ziemlich
 adverbien,beispielsweise,zum beispiel
 adverbien,zur zeit,zurzeit
+adverbien,derzeit,zurzeit
+artikel,einige,manche
+artikel,ein paar,manche
 frage,wozu,warum
 frage,wieso,warum
 frage,weshalb,warum
 frage,weswegen,warum
+konnektoren,somit,also
+konnektoren,statt,anstatt
+konnektoren,ehe,bevor
+konnektoren,jedoch,dagegen
+konnektoren,demgegenüber,dagegen
+konnektoren,allerdings,dagegen
+konnektoren,sodass,damit
+konnektoren,deswegen,deshalb
+konnektoren,daher,deshalb
+konnektoren,darum,deshalb
+konnektoren,infolgedessen,folglich
+konnektoren,demzufolge,folglich
+konnektoren,demnach,folglich
+konnektoren,entgegen,im gegensatz zu
+konnektoren,sooft,immer wenn
+konnektoren,obgleich,obwohl
+konnektoren,obgleich,obwohl
+konnektoren,obschon,obwohl
+konnektoren,sofern,solange
+konnektoren,andernfalls,sonst
+konnektoren,dennoch,trotzdem
+konnektoren,gleichwohl,trotzdem
+konnektoren,wogegen,wohingegen
+konnektoren,dafür,zu diesem Zweck
+konnektoren,dazu,zu diesem Zweck
+perfekt,worden,geworden
+praepositionen_grammatik,zufolge,laut
+praepositionen_grammatik,genauso,so
+praepositionen_grammatik,ungeachtet,trotz
+praepositionen_grammatik,aufgrund,wegen

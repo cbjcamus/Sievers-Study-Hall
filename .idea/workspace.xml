@@ -1,34 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/desktop_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/y_position.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/y_position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partizip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/questions/konnektoren.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/combine_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/combine_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/proverbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/proverbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/utils/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/exercise_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/exercise_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konnektoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konnektoren.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "cbjcamus"
+  }
 }]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="bf0fe291-bc6b-4252-888b-ea5dd32a4c85" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/cbjcamus/Deutschtrainer.git",
+    "accountId": "bf0fe291-bc6b-4252-888b-ea5dd32a4c85"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2mbMX2lVxhKEUSwcj3xqDjrWbw9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "Python.artikel.executor": "Run",
+    "Python.combine_csv.executor": "Run",
+    "Python.delete_scores.executor": "Run",
+    "Python.deutschtrainer.executor": "Run",
+    "Python.former_app.executor": "Run",
+    "Python.level1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.normalization.executor": "Run",
+    "Python.objects.executor": "Run",
+    "Python.perfekt.executor": "Run",
+    "Python.personal_pronomen.executor": "Run",
+    "Python.praepositionen_konjugation.executor": "Run",
+    "Python.praeteritum.executor": "Run",
+    "Python.prateritum.executor": "Run",
+    "Python.proverbs.executor": "Run",
+    "Python.relativesaetze.executor": "Run",
+    "Python.startpage.executor": "Run",
+    "Python.statistics.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.verben.executor": "Run",
+    "Python.verben_praepositionen.executor": "Run",
+    "Python.webapp.executor": "Run",
+    "Python.widgets.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Deutsch/menus/adjektivdeklinationen",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/menus/adjektivdeklinationen" />
+      <recent name="$PROJECT_DIR$/menus/artikel" />
+      <recent name="$PROJECT_DIR$/menus/konnektoren" />
+      <recent name="$PROJECT_DIR$/menus" />
+      <recent name="$PROJECT_DIR$/menus/adjektive" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/exercises" />
+      <recent name="$PROJECT_DIR$/menus/artikel" />
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/statistics" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -41,6 +141,32 @@
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
     </task>
+    <option name="searchClosedTasks" value="true" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/combine_csv.py</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

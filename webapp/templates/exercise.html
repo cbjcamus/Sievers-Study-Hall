@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Konnektoren</title>
-    <link rel="stylesheet" href="/webapp/static/style.css">
+    <title>{{ exercise | capitalize }}</title>
+    <link rel="stylesheet" href="/webapp/static/exercise_style.css">
     <script>
         window.onload = function() {
             document.getElementById("answer")?.focus();
@@ -20,30 +20,39 @@
     </script>
 </head>
 <body>
-    <h1>Konnektoren</h1>
-    <h2>Level 1</h2>
-    {% if question %}
-        <p>What is the translation of the following connector:</p>
-        <p><strong>{{ question }}</strong></p>
+    <h1>{{ exercise | capitalize }}</h1>
+    <h2 class="level-title">Level {{ level }}</h2>
+
+    {% if question_text %}
+        <p>{{ question_text | safe }}</p>  <!-- Use |safe to allow line breaks and bold formatting -->
+    {% endif %}
+
     <form action="{{ url_for('check_answer', exercise=exercise, level=level) }}" method="post">
-            <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter translation here" required>
+            <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter answer here" autocomplete="off">
             <input type="hidden" name="nr" value="{{ nr }}">
             <br>
             <button type="submit" id="submit-button" class="button">Submit</button>
         </form>
-    {% endif %}
 
     {% if result %}
-        <div class="result">
-            {% if result == 'correct' %}
-                <p>Correct</p>
-                <p>{{ previous_question }} = {{ correct_answer }}</p>
-            {% else %}
-                <p>Incorrect</p>
-                <p>{{ previous_question }} = {{ correct_answer }}</p>
-                <p>Your answer: {{ user_answer }}</p>
+    <div class="result">
+        {% if result == 'correct' %}
+            <p>Correct</p>
+            {% if feedback_message %}
+                <p>{{ feedback_message | safe }}</p>
             {% endif %}
-        </div>
+        {% else %}
+            <p>Incorrect</p>
+            {% if feedback_message %}
+                <p>{{ feedback_message | safe }}</p>
+            {% endif %}
+            <p>Your answer: {{ user_answer }}</p>
+        {% endif %}
+    </div>
     {% endif %}
+
+    <div class="home-button-container">
+        <a href="{{ exercise_pages.get(exercise, '/') }}" class="button">Back to {{ exercise | capitalize }}</a>
+    </div>
 </body>
 </html>

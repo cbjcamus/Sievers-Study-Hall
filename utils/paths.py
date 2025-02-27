@@ -1,8 +1,8 @@
 import os
 
-from exercises.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivDeklinationen, relativSaetze,
-                                 praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                                 verben, adjektive, adverbien)
+from utils.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivDeklinationen, relativSaetze,
+                             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
+                             verben, adjektive, adverbien)
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_PATH = {artikel: os.path.join(BASE_DIR, "questions", "artikel.csv"),
