@@ -8,12 +8,80 @@
 </head>
 <body>
     <h1>Deutschtrainer</h1>
-        <div class="section">
+
+    <div class="section">
         <h2>Grammatik</h2>
         <table class="level-table">
             <tr>
+                <td><a href="/artikel" class="button">Artikel</a></td>
+                <td>{{ answered_questions_by_exercise('artikel', session) }}/{{ total_questions_by_exercise('artikel') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/pronomen" class="button">Pronomen</a></td>
+                <td>{{ answered_questions_by_exercise('pronomen', session) }}/{{ total_questions_by_exercise('pronomen') }}</td>
+                <td></td>
+            </tr>
+            <tr>
                 <td><a href="/konnektoren" class="button">Konnektoren</a></td>
-                <td>{{ answered_questions_by_exercise('konnektoren') }}/{{ total_questions_by_exercise('konnektoren') }}</td>
+                <td>{{ answered_questions_by_exercise('konnektoren', session) }}/{{ total_questions_by_exercise('konnektoren') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/praepositionen_grammatik" class="button">Präpositionen</a></td>
+                <td>{{ answered_questions_by_exercise('praepositionen_grammatik', session) }}/{{ total_questions_by_exercise('praepositionen_grammatik') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/adjektivdeklinationen" class="button">Adjektivdeklinationen</a></td>
+                <td>{{ answered_questions_by_exercise('adjektivdeklinationen', session) }}/{{ total_questions_by_exercise('adjektivdeklinationen') }}</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Konjugation</h2>
+        <table class="level-table">
+            <tr>
+                <td><a href="/praesens" class="button">Präsens</a></td>
+                <td>{{ answered_questions_by_exercise('praesens', session) }}/{{ total_questions_by_exercise('praesens') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/praepositionen_konjugation" class="button">Präpositionen</a></td>
+                <td>{{ answered_questions_by_exercise('praepositionen_konjugation', session) }}/{{ total_questions_by_exercise('praepositionen_konjugation') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/perfekt" class="button">Perfekt</a></td>
+                <td>{{ answered_questions_by_exercise('perfekt', session) }}/{{ total_questions_by_exercise('perfekt') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/praeteritum" class="button">Präteritum</a></td>
+                <td>{{ answered_questions_by_exercise('praeteritum', session) }}/{{ total_questions_by_exercise('praeteritum') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/imperativ" class="button">Imperativ</a></td>
+                <td>{{ answered_questions_by_exercise('imperativ', session) }}/{{ total_questions_by_exercise('imperativ') }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/konjunktiv" class="button">Konjunktiv II</a></td>
+                <td>{{ answered_questions_by_exercise('konjunktiv', session) }}/{{ total_questions_by_exercise('konjunktiv') }}</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Wortschatz</h2>
+        <table class="level-table">
+            <tr>
+                <td><a href="/adverbien" class="button">Adverbien</a></td>
+                <td>{{ answered_questions_by_exercise('adverbien', session) }}/{{ total_questions_by_exercise('adverbien') }}</td>
                 <td></td>
             </tr>
         </table>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ exercise | capitalize }}</title>
+    <title>{{ title_page[exercise] }}</title>
     <link rel="stylesheet" href="/webapp/static/exercise_style.css">
     <script>
         window.onload = function() {
@@ -20,14 +20,14 @@
     </script>
 </head>
 <body>
-    <h1>{{ exercise | capitalize }}</h1>
+    <h1>{{ title_page[exercise] }}</h1>
     <h2 class="level-title">Level {{ level }}</h2>
 
     {% if question_text %}
         <p>{{ question_text | safe }}</p>  <!-- Use |safe to allow line breaks and bold formatting -->
     {% endif %}
 
-    <form action="{{ url_for('check_answer', exercise=exercise, level=level) }}" method="post">
+    <form action="{{ url_for('routes.check_answer', exercise=exercise, level=level) }}" method="post">
             <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter answer here" autocomplete="off">
             <input type="hidden" name="nr" value="{{ nr }}">
             <br>
@@ -52,7 +52,7 @@
     {% endif %}
 
     <div class="home-button-container">
-        <a href="{{ exercise_pages.get(exercise, '/') }}" class="button">Back to {{ exercise | capitalize }}</a>
+        <a href="{{ exercise_pages.get(exercise, '/') }}" class="button">Back to {{ title_page[exercise] }}</a>
     </div>
 </body>
 </html>

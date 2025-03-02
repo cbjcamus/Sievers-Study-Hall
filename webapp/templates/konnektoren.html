@@ -15,12 +15,12 @@
             <tr>
                 <td><a href="/exercise/konnektoren/level/1" class="button">Level 1</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 1, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 1) }}</td>
-                <td>A1 Connectors isolated</td>
+                <td>{{ description_templates['konnektoren'].get(1, "") }}</td>
             </tr>
             <tr>
                 <td><a href="/exercise/konnektoren/level/2" class="button">Level 2</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 2, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 2) }}</td>
-                <td>A1 Connectors in sentences</td>
+                <td>{{ description_templates['konnektoren'].get(2, "") }}</td>
             </tr>
         </table>
     </div>
@@ -31,12 +31,12 @@
             <tr>
                 <td><a href="/exercise/konnektoren/level/3" class="button">Level 3</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 3, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 3) }}</td>
-                <td>A2 Connectors isolated</td>
+                <td>{{ description_templates['konnektoren'].get(3, "") }}</td>
             </tr>
             <tr>
                 <td><a href="/exercise/konnektoren/level/4" class="button">Level 4</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 4, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 4) }}</td>
-                <td>A2 Connectors in sentences</td>
+                <td>{{ description_templates['konnektoren'].get(4, "") }}</td>
             </tr>
         </table>
     </div>
@@ -47,12 +47,12 @@
             <tr>
                 <td><a href="/exercise/konnektoren/level/5" class="button">Level 5</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 5, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 5) }}</td>
-                <td>B1 Connectors isolated</td>
+                <td>{{ description_templates['konnektoren'].get(5, "") }}</td>
             </tr>
             <tr>
                 <td><a href="/exercise/konnektoren/level/6" class="button">Level 6</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 6, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 6) }}</td>
-                <td>B1 Connectors in sentences</td>
+                <td>{{ description_templates['konnektoren'].get(6, "") }}</td>
             </tr>
         </table>
     </div>
@@ -63,12 +63,12 @@
             <tr>
                 <td><a href="/exercise/konnektoren/level/7" class="button">Level 7</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 7, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 7) }}</td>
-                <td>B2 Connectors isolated</td>
+                <td>{{ description_templates['konnektoren'].get(7, "") }}</td>
             </tr>
             <tr>
                 <td><a href="/exercise/konnektoren/level/8" class="button">Level 8</a></td>
                 <td>{{ answered_questions_by_exercise_and_level('konnektoren', 8, session) }}/{{ total_questions_by_exercise_and_level('konnektoren', 8) }}</td>
-                <td>B2 Connectors in sentences</td>
+                <td>{{ description_templates['konnektoren'].get(8, "") }}</td>
             </tr>
         </table>
     </div>

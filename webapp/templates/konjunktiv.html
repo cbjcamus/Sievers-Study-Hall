@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konjunktiv</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
+</head>
+<body>
+    <h1>Konjunktiv</h1>
+
+    <div class="section">
+        <h2>A2</h2>
+        <table class="level-table">
+            <tr>
+                <td><a href="/exercise/konjunktiv/level/1" class="button">Level 1</a></td>
+                <td>{{ answered_questions_by_exercise_and_level('konjunktiv', 1, session) }}/{{ total_questions_by_exercise_and_level('konjunktiv', 1) }}</td>
+                <td>{{ description_templates['konjunktiv'].get(1, "") }}</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">Home</a>
+    </div>
+</body>
+</html>

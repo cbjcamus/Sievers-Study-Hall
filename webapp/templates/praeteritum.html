@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Präteritum</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
+</head>
+<body>
+    <h1>Präteritum</h1>
+
+    <div class="section">
+        <h2>B1</h2>
+        <table class="level-table">
+            <tr>
+                <td><a href="/exercise/praeteritum/level/1" class="button">Level 1</a></td>
+                <td>{{ answered_questions_by_exercise_and_level('praeteritum', 1, session) }}/{{ total_questions_by_exercise_and_level('praeteritum', 1) }}</td>
+                <td>{{ description_templates['praeteritum'].get(1, "") }}</td>
+            </tr>
+            <tr>
+                <td><a href="/exercise/praeteritum/level/2" class="button">Level 2</a></td>
+                <td>{{ answered_questions_by_exercise_and_level('praeteritum', 2, session) }}/{{ total_questions_by_exercise_and_level('praeteritum', 2) }}</td>
+                <td>{{ description_templates['praeteritum'].get(2, "") }}</td>
+            </tr>
+            <tr>
+                <td><a href="/exercise/praeteritum/level/3" class="button">Level 3</a></td>
+                <td>{{ answered_questions_by_exercise_and_level('praeteritum', 3, session) }}/{{ total_questions_by_exercise_and_level('praeteritum', 3) }}</td>
+                <td>{{ description_templates['praeteritum'].get(3, "") }}</td>
+            </tr>
+            <tr>
+                <td><a href="/exercise/praeteritum/level/4" class="button">Level 4</a></td>
+                <td>{{ answered_questions_by_exercise_and_level('praeteritum', 4, session) }}/{{ total_questions_by_exercise_and_level('praeteritum', 4) }}</td>
+                <td>{{ description_templates['praeteritum'].get(4, "") }}</td>
+            </tr>
+            <tr>
+                <td><a href="/exercise/praeteritum/level/5" class="button">Level 5</a></td>
+                <td>{{ answered_questions_by_exercise_and_level('praeteritum', 5, session) }}/{{ total_questions_by_exercise_and_level('praeteritum', 5) }}</td>
+                <td>{{ description_templates['praeteritum'].get(5, "") }}</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">Home</a>
+    </div>
+</body>
+</html>
