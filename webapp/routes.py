@@ -10,7 +10,7 @@ from webapp.question_templates import QUESTION_TEMPLATES
 from webapp.description_templates import DESCRIPTION_TEMPLATES
 from webapp.title_page import TITLE_PAGE
 
-routes = Blueprint("routes", __name__)  # Create a Blueprint
+routes = Blueprint("routes", __name__)
 
 
 @routes.route('/')
@@ -119,11 +119,6 @@ def adverbien():
 @routes.route('/exercise/<exercise>/level/<int:level>')
 def exercise(exercise, level):
     if exercise in session and str(level) in session[exercise]:
-        '''
-        data = pd.read_csv(DATA_PATH[exercise])
-        data = data.fillna("")  # Ensure NaN values don't interfere
-        data = data[data["level"] == level]
-        '''
         data = load_data(exercise, level)
 
         answered_nrs = set(session[exercise][str(level)].keys())
@@ -167,6 +162,9 @@ def exercise(exercise, level):
 
     result_data = session.pop(f"{exercise}_result", None)
 
+    answered_questions = answered_questions_by_exercise_and_level(exercise, level, session)
+    total_questions = total_questions_by_exercise_and_level(exercise, level)
+
     return render_template("exercise.html",
                            exercise=exercise,
                            level=level,
@@ -176,18 +174,16 @@ def exercise(exercise, level):
                            feedback_message=result_data["feedback_message"] if result_data else None,
                            user_answer=result_data["user_answer"] if result_data else None,
                            exercise_pages=EXERCISE_PAGES,
-                           title_page=TITLE_PAGE,)
+                           title_page=TITLE_PAGE,
+                           answered_questions=answered_questions,
+                           total_questions=total_questions)
 
 
 @routes.route('/check/<exercise>/level/<int:level>', methods=['POST'])
 def check_answer(exercise, level):
     user_answer = normalization(request.form['answer'], exercise)
     nr = request.form['nr']
-    '''
-    data = pd.read_csv(DATA_PATH[exercise])
-    data = data.fillna("")
-    data = data[data["level"] == level]
-    '''
+
     data = load_data(exercise, level)
 
     question_data = data[data["Nr"] == int(nr)].iloc[0]
@@ -207,8 +203,8 @@ def check_answer(exercise, level):
         correct_answer=correct_answer,
         correct_answers=correct_answers,
         user_answer=user_answer,
-        english_text=english_text,
-        german_text=german_text,
+        english=english_text,
+        german=german_text,
         adjective=adjective,
         gender=gender,
         case=case,

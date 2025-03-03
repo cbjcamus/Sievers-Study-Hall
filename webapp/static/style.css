@@ -53,15 +53,17 @@ h1 {
     background-color: white;
     color: #161F23;
     border: none;
-    padding: 7.5px 15px; /* Reduced size by 25% */
-    font-size: 16px; /* Reduced font size */
+    padding: 7.5px 20px; /* Slightly wider padding */
+    font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 0px;
-    width: 112px; /* Reduced width by 25% */
+    width: auto; /* Allow flexibility */
+    min-width: 160px; /* Ensure enough space for long words */
     text-align: center;
     margin-bottom: 0px;
     text-decoration: none;
+    white-space: nowrap; /* Prevent breaking onto a new line */
 }
 
 .button:hover {

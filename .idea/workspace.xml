@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/desktop_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/style.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/y_position.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/y_position.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partizip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/questions/konnektoren.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/combine_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/combine_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/normalization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/proverbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/proverbs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/statistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/utils/synonyms.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/feedback_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/static/exercise_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/exercise_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/konnektoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konnektoren.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -104,25 +88,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Deutsch/menus/adjektivdeklinationen",
+    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Deutsch/webapp/templates",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/templates" />
       <recent name="$PROJECT_DIR$/menus/adjektivdeklinationen" />
       <recent name="$PROJECT_DIR$/menus/artikel" />
       <recent name="$PROJECT_DIR$/menus/konnektoren" />
       <recent name="$PROJECT_DIR$/menus" />
-      <recent name="$PROJECT_DIR$/menus/adjektive" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/desktop_app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/exercises" />
       <recent name="$PROJECT_DIR$/menus/artikel" />
       <recent name="$PROJECT_DIR$/bin" />
-      <recent name="$PROJECT_DIR$/statistics" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,6 +125,23 @@
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1740658462669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740658462669</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1740927895138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740927895138</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

@@ -24,7 +24,7 @@
     <h2 class="level-title">Level {{ level }}</h2>
 
     {% if question_text %}
-        <p>{{ question_text | safe }}</p>  <!-- Use |safe to allow line breaks and bold formatting -->
+        <p>{{ question_text | safe }}</p>
     {% endif %}
 
     <form action="{{ url_for('routes.check_answer', exercise=exercise, level=level) }}" method="post">
@@ -32,6 +32,10 @@
             <input type="hidden" name="nr" value="{{ nr }}">
             <br>
             <button type="submit" id="submit-button" class="button">Submit</button>
+
+            <p class="question-count">
+                Progress: {{ answered_questions }}/{{ total_questions }}
+            </p>
         </form>
 
     {% if result %}
@@ -51,8 +55,8 @@
     </div>
     {% endif %}
 
-    <div class="home-button-container">
-        <a href="{{ exercise_pages.get(exercise, '/') }}" class="button">Back to {{ title_page[exercise] }}</a>
+    <div class="back-button-container">
+        <a href="{{ exercise_pages.get(exercise, '/') }}" class="back-button">Back to {{ title_page[exercise] }}</a>
     </div>
 </body>
 </html>

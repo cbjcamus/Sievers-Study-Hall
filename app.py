@@ -20,8 +20,9 @@ if __name__ == "__main__":
 
 # TODO Priority
 # Pronomen: relativsaetze wo wohin woher
-# Adjektivedeklinationen remove ohne artikel genitive
-# score when finishing a level
+# score when finishing a level (current should be progress)
+# reset button next to progress
+
 
 # TODO Exercises
 # Wortschatz: adjektives

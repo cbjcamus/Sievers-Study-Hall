@@ -14,17 +14,17 @@ adverbien,anschliessend,danach
 adverbien,umso,desto
 adverbien,tatsächlich,eigentlich
 adverbien,einst,einmal
+adverbien,letztlich,endlich
 adverbien,schliesslich,endlich
 adverbien,zuletzt,endlich
-adverbien,letztlich,endlich
 adverbien,überhaupt,gar
 adverbien,zugleich,gleichzeitig
 adverbien,heut,heute
-adverbien,stets,immer
 adverbien,ständig,immer
+adverbien,stets,immer
 adverbien,drinnen,innen
-adverbien,mittlerweile,inzwischen
 adverbien,in der Zwischenzeit,inzwischen
+adverbien,mittlerweile,inzwischen
 adverbien,größtenteils,meistens
 adverbien,wenigstens,mindestens
 adverbien,zumindest,mindestens
@@ -38,41 +38,40 @@ adverbien,usw.,und so weiter
 adverbien,anfänglich,ürsprunglich
 adverbien,möglicherweise,vielleicht
 adverbien,kürzlich,vor kurzem
-adverbien,zuvor,vorher
 adverbien,davor,vorher
+adverbien,zuvor,vorher
 adverbien,nochmal,wieder
 adverbien,ganz,ziemlich
 adverbien,beispielsweise,zum beispiel
-adverbien,zur zeit,zurzeit
 adverbien,derzeit,zurzeit
-artikel,einige,manche
+adverbien,zur zeit,zurzeit
 artikel,ein paar,manche
-frage,wozu,warum
-frage,wieso,warum
+artikel,einige,manche
 frage,weshalb,warum
 frage,weswegen,warum
+frage,wieso,warum
 konnektoren,somit,also
 konnektoren,statt,anstatt
 konnektoren,ehe,bevor
-konnektoren,jedoch,dagegen
-konnektoren,demgegenüber,dagegen
 konnektoren,allerdings,dagegen
+konnektoren,demgegenüber,dagegen
+konnektoren,jedoch,dagegen
 konnektoren,sodass,damit
-konnektoren,deswegen,deshalb
 konnektoren,daher,deshalb
 konnektoren,darum,deshalb
-konnektoren,infolgedessen,folglich
-konnektoren,demzufolge,folglich
+konnektoren,deswegen,deshalb
 konnektoren,demnach,folglich
+konnektoren,demzufolge,folglich
+konnektoren,infolgedessen,folglich
 konnektoren,entgegen,im gegensatz zu
 konnektoren,sooft,immer wenn
-konnektoren,obgleich,obwohl
 konnektoren,obgleich,obwohl
 konnektoren,obschon,obwohl
 konnektoren,sofern,solange
 konnektoren,andernfalls,sonst
 konnektoren,dennoch,trotzdem
 konnektoren,gleichwohl,trotzdem
+konnektoren,da,weil
 konnektoren,wogegen,wohingegen
 konnektoren,dafür,zu diesem Zweck
 konnektoren,dazu,zu diesem Zweck
