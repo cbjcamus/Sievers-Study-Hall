@@ -79,6 +79,29 @@ h1 {
 .question-count {
     margin-top: 15px;
     font-size: 14px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the entire line */
+    gap: 10px;
+}
+
+.refresh-form {
+    display: inline;
+    margin-left: 5px;
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.refresh-button:hover {
+    color: #ccc;
 }
 
 .home-button-container {

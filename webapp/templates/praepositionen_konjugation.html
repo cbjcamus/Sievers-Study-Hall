@@ -6,100 +6,47 @@
     <title>Präpositionen — Konjugation</title>
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
+
+{% from "macros.html" import render_table_row %}
+
 <body>
     <h1>Präpositionen — Konjugation</h1>
 
     <div class="section">
         <h2>A1</h2>
         <table class="level-table">
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/1" class="button">Level 1</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 1, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 1) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(1, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/2" class="button">Level 2</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 2, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 2) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(2, "") }}</td>
-            </tr>
+            {{ render_table_row("praepositionen_konjugation", 1, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 2, session, answered_questions, total_questions, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>A2</h2>
         <table class="level-table">
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/3" class="button">Level 3</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 3, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 3) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(3, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/4" class="button">Level 4</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 4, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 4) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(4, "") }}</td>
-            </tr>
+            {{ render_table_row("praepositionen_konjugation", 3, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 4, session, answered_questions, total_questions, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B1</h2>
         <table class="level-table">
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/5" class="button">Level 5</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 5, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 5) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(5, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/6" class="button">Level 6</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 6, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 6) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(6, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/7" class="button">Level 7</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 7, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 7) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(7, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/8" class="button">Level 8</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 8, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 8) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(8, "") }}</td>
-            </tr>
+            {{ render_table_row("praepositionen_konjugation", 5, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 6, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 7, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 8, session, answered_questions, total_questions, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B2</h2>
         <table class="level-table">
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/9" class="button">Level 9</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 9, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 9) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(9, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/10" class="button">Level 10</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 10, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 10) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(10, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/11" class="button">Level 11</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 11, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 11) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(11, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/12" class="button">Level 12</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 12, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 12) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(12, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/13" class="button">Level 13</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 13, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 13) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(13, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/praepositionen_konjugation/level/14" class="button">Level 14</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('praepositionen_konjugation', 14, session) }}/{{ total_questions_by_exercise_and_level('praepositionen_konjugation', 14) }}</td>
-                <td>{{ description_templates['praepositionen_konjugation'].get(14, "") }}</td>
-            </tr>
+            {{ render_table_row("praepositionen_konjugation", 9, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 10, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 11, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 12, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 13, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 14, session, answered_questions, total_questions, description_templates) }}
         </table>
     </div>
 

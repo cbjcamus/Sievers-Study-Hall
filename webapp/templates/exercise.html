@@ -32,11 +32,13 @@
             <input type="hidden" name="nr" value="{{ nr }}">
             <br>
             <button type="submit" id="submit-button" class="button">Submit</button>
+    </form>
 
-            <p class="question-count">
-                Progress: {{ answered_questions }}/{{ total_questions }}
-            </p>
+    <p class="question-count">
+        <form action="{{ url_for('routes.reset_exercise', exercise=exercise, level=level) }}" method="post" class="refresh-form">
+        Progress: {{ answered_questions }}/{{ total_questions }} answered <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
         </form>
+    </p>
 
     {% if result %}
     <div class="result">

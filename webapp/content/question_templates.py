@@ -1,11 +1,11 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivDeklinationen,
+from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
                             verben, adjektive, adverbien)
 
 QUESTION_TEMPLATES = {
     artikel: {
         1: "Find the nominative, definite article that fits in the following sentence:"
-            "<br><br>{question} \u25CF {gender}",
+           "<br><br>{question} \u25CF {gender}",
         2: "Find the accusative, definite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
         3: "Find the dative, definite article that fits in the following sentence:"
@@ -26,17 +26,17 @@ QUESTION_TEMPLATES = {
             "<br><br><strong>{question}</strong>",
         11: "Find the missing article in the following sentence:"
             "<br><br>{question}"
-            "<br><br>{english_text}",
+            "<br><br>{english}",
         12: "Find the translation of the following article:"
             "<br><br><strong>{question}</strong>",
         13: "Find the missing article in the following sentence:"
             "<br><br>{question}"
-            "<br><br>{english_text}",
+            "<br><br>{english}",
     },
 
     pronomen: {
         1: "Find the nominative pronoun that fits in the following sentence:"
-            "<br><br>{question} \u25CF {person}",
+           "<br><br>{question} \u25CF {person}",
         2: "Find the accusative pronoun that fits in the following sentence:"
            "<br><br>{question} \u25CF {person}",
         3: "Find the dative pronoun that fits in the following sentence:"
@@ -51,15 +51,15 @@ QUESTION_TEMPLATES = {
            "<br><br><strong>{question}</strong>",
         8: "Find the missing pronoun in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         9: "Find the missing nominative, relative pronoun in the following sentence:"
            "<br><br>{question}",
         10: "Find the missing accusative, relative pronoun in the following sentence:"
-           "<br><br>{question}",
+            "<br><br>{question}",
         11: "Find the missing dative, relative pronoun in the following sentence:"
-           "<br><br>{question}",
+            "<br><br>{question}",
         12: "Find the missing genitive, relative pronoun in the following sentence:"
-           "<br><br>{question}",
+            "<br><br>{question}",
         13: "Find the missing relative pronoun in the following sentence:"
             "<br><br>{question}",
         14: "Find the missing relative pronoun in the following sentence:"
@@ -71,22 +71,22 @@ QUESTION_TEMPLATES = {
            "<br><br><strong>{question}</strong>",
         2: "Find the missing connector in the following sentence:¨"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         3: "Find the translation of the following connector:"
            "<br><br><strong>{question}</strong>",
         4: "Find the missing connector in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         5: "Find the translation of the following connector:"
            "<br><br><strong>{question}</strong>",
         6: "Find the missing connector in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         7: "Find the translation of the following connector:"
            "<br><br><strong>{question}</strong>",
         8: "Find the missing connector in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
     },
 
     praepositionen_grammatik: {
@@ -94,38 +94,38 @@ QUESTION_TEMPLATES = {
            "<br><br>{question}",
         2: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         3: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         4: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         5: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         6: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         7: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         8: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         9: "Find the translation of the following preposition:"
            "<br><br>{question}",
         10: "Find the preposition that fits in the following sentence:"
-           "<br><br>{question}"
-           "<br><br>{english_text}",
+            "<br><br>{question}"
+            "<br><br>{english}",
         11: "Find the translation of the following preposition:"
-           "<br><br>{question}",
+            "<br><br>{question}",
         12: "Find the preposition that fits in the following sentence:"
-           "<br><br>{question}"
-           "<br><br>{english_text}",
+            "<br><br>{question}"
+            "<br><br>{english}",
     },
 
-    adjektivDeklinationen: {
+    adjektivdeklinationen: {
         1: "Complete the sentence with the correct form of the specified adjektive:"
            "<br><br>{question} \u25CF {case} \u25CF {adjective}",
         2: "Complete the sentence with the correct form of the specified adjektive:"
@@ -145,17 +145,17 @@ QUESTION_TEMPLATES = {
         9: "Complete the sentence with the correct form of the specified adjektive:"
            "<br><br>{question} \u25CF {case} \u25CF {adjective}",
         10: "Complete the sentence with the correct form of the specified adjektive:"
-           "<br><br>{question} \u25CF {adjective}",
+            "<br><br>{question} \u25CF {adjective}",
         11: "Complete the sentence with the correct form of the specified adjektive:"
-           "<br><br>{question} \u25CF {adjective}",
+            "<br><br>{question} \u25CF {adjective}",
         12: "Complete the sentence with the correct form of the specified adjektive:"
-           "<br><br>{question} \u25CF {adjective}",
+            "<br><br>{question} \u25CF {adjective}",
         13: "Complete the sentence with the correct form of the specified adjektive:"
-           "<br><br>{question} \u25CF {adjective}",
+            "<br><br>{question} \u25CF {adjective}",
         14: "Complete the sentence with the correct form of the specified adjektive:"
             "<br><br>{question} \u25CF {adjective}",
         15: "Complete the sentence with the correct form of the specified adjektive:"
-           "<br><br>{question} \u25CF {case} \u25CF {adjective}",
+            "<br><br>{question} \u25CF {case} \u25CF {adjective}",
         16: "Complete the sentence with the correct form of the specified adjektive:"
             "<br><br>{question} \u25CF {adjective}",
     },
@@ -180,46 +180,46 @@ QUESTION_TEMPLATES = {
         9: "Find the present tense of the following verb:"
            "<br><br>{question} \u25CF {person} _____",
         10: "Find the present tense of the following verb:"
-           "<br><br>{question} \u25CF {person} _____",
+            "<br><br>{question} \u25CF {person} _____",
     },
 
     praepositionen_konjugation :{
         1: "Find the preposition that match the following verb:"
-           "<br><br>{english_text} = {question} _____",
+           "<br><br>{english} = {question} _____",
         2: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         3: "Find the preposition that match the following verb:"
-           "<br><br>{english_text} = {question} _____",
+           "<br><br>{english} = {question} _____",
         4: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         5: "Find the preposition that match the following verb:"
-           "<br><br>{english_text} = {question} _____",
+           "<br><br>{english} = {question} _____",
         6: "Find the preposition that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         7: "Find the Da-Word that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         8: "Find the Wo-Word that fits in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         9: "Find the preposition that match the following verb:"
-           "<br><br>{english_text} = {question} _____",
+           "<br><br>{english} = {question} _____",
         10: "Find the preposition that fits in the following sentence:"
-           "<br><br>{question}"
-           "<br><br>{english_text}",
+            "<br><br>{question}"
+            "<br><br>{english}",
         11: "Find the preposition that match the following noun:"
-           "<br><br>{english_text} = {question} _____",
+            "<br><br>{english} = {question} _____",
         12: "Find the preposition that fits in the following sentence:"
             "<br><br>{question}"
-            "<br><br>{english_text}",
+            "<br><br>{english}",
         13: "Find the preposition that match the following adjective:"
-            "<br><br>{english_text} = {question} _____",
+            "<br><br>{english} = {question} _____",
         14: "Find the preposition that fits in the following sentence:"
             "<br><br>{question}"
-            "<br><br>{english_text}",
+            "<br><br>{english}",
     },
 
     perfekt: {
@@ -227,18 +227,18 @@ QUESTION_TEMPLATES = {
            "<br><br>{question}",
         2: "Complete the sentence with the Partizip II of the specified verb:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         3: "Complete the sentence with the proper Hilfsverb:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         4: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
         5: "Complete the sentence with the Partizip II of the specified verb:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         6: "Complete the sentence with the proper Hilfsverb:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         7: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
         8: "Find the Partizip II of the following verb:"
@@ -281,21 +281,21 @@ QUESTION_TEMPLATES = {
            "<br><br><strong>{question}</strong>",
         2: "Find the missing adverb in the following sentence:¨"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         3: "Find the translation of the following adverb:"
            "<br><br><strong>{question}</strong>",
         4: "Find the missing adverb in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         5: "Find the translation of the following adverb:"
            "<br><br><strong>{question}</strong>",
         6: "Find the missing adverb in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
         7: "Find the translation of the following adverb:"
            "<br><br><strong>{question}</strong>",
         8: "Find the missing adverb in the following sentence:"
            "<br><br>{question}"
-           "<br><br>{english_text}",
+           "<br><br>{english}",
     },
 }

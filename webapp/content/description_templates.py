@@ -1,4 +1,4 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivDeklinationen,
+from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
                             verben, adjektive, adverbien)
 
@@ -62,7 +62,7 @@ DESCRIPTION_TEMPLATES = {
         12: "Common (B2) prepositions in sentences",
     },
 
-    adjektivDeklinationen: {
+    adjektivdeklinationen: {
         1: "Nominative, Accusative, and Dative Adjective Declinations in isolation",
         2: "Nominative Adjective Declinations in sentences",
         3: "Accusative Adjective Declinations in sentences",

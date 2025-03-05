@@ -21,11 +21,11 @@ if __name__ == "__main__":
 # TODO Priority
 # Pronomen: relativsaetze wo wohin woher
 # score when finishing a level (current should be progress)
-# reset button next to progress
 
 
 # TODO Exercises
 # Wortschatz: adjektives
+# Wortschatz: adverbs to adjektives
 # Wortschatz: nominalisation verbs
 # Wortschatz: nominalisation adjektives
 # Wortschatz: trennbare und untrennbare verben

@@ -1,4 +1,4 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivDeklinationen,
+from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
                             verben, adjektive, adverbien)
 
@@ -91,7 +91,7 @@ FEEDBACK_TEMPLATES = {
             "<br><br>{english}",
     },
 
-    adjektivDeklinationen: {
+    adjektivdeklinationen: {
         1: "{german}"
            "<br><br>{article}, {gender}, {case} → {correct_answers}",
         2: "{german}"

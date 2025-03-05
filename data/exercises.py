@@ -2,7 +2,7 @@ artikel = 'artikel'
 pronomen = 'pronomen'
 konnektoren = 'konnektoren'
 praepositionen_grammatik = 'praepositionen_grammatik'
-adjektivDeklinationen = 'adjektivdeklinationen'
+adjektivdeklinationen = 'adjektivdeklinationen'
 
 praesens = 'praesens'
 praepositionen_konjugation = 'praepositionen_konjugation'
@@ -15,9 +15,7 @@ verben = 'verben'
 adjektive = 'adjektive'
 adverbien = 'adverbien'
 
-# zahlen = 'zahlen'
-
-exercises = [artikel, pronomen, praepositionen_grammatik, konnektoren, adjektivDeklinationen,
+exercises = [artikel, pronomen, praepositionen_grammatik, konnektoren, adjektivdeklinationen,
              praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-             verben, adjektive, adverbien, #zahlen
+             verben, adjektive, adverbien,
              ]

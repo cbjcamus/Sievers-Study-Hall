@@ -1,0 +1,540 @@
+Nr,level,question,answer,english,german
+1,1,"than, as",als,,
+2,1,"to, on",an,,
+3,1,"on, upon",auf,,
+4,1,"from, out of, off",aus,,
+5,1,"near, at, by",bei,,
+6,1,"until, up to, by, to",bis,,
+7,1,for,für,,
+8,1,"against, for, toward",gegen,,
+9,1,behind,hinter,,
+10,1,"in, into",in,,
+11,1,with,mit,,
+12,1,"after, to",nach,,
+13,1,"next to, in addition to, besides",neben,,
+14,1,without,ohne,,
+15,1,"since, for",seit,,
+16,1,as,so,,
+17,1,"above, over, about",über,,
+18,1,"at, around",um,,
+19,1,"under, among, below",unter,,
+20,1,"from, of",von,,
+21,1,"before, in front of, against",vor,,
+22,1,"as, like",wie,,
+23,1,"to, toward, too",zu,,
+24,1,between,zwischen,,
+25,2,Ich bin _____ einer Stunde angekommen.,vor,I arrived an hour ago.,Ich bin vor einer Stunde angekommen.
+26,2,_____ dem Essen wasche ich meine Hände.,Vor,"Before eating, I wash my hands.",Vor dem Essen wasche ich meine Hände.
+27,2,Wir haben uns _____ zwei Tagen getroffen.,vor,We met two days ago.,Wir haben uns vor zwei Tagen getroffen.
+28,2,_____ dem Schlafen lese ich ein Buch.,Vor,"Before sleeping, I read a book.",Vor dem Schlafen lese ich ein Buch.
+29,2,_____ einem Jahr bin ich nach Deutschland gezogen.,Vor,"A year ago, I moved to Germany.",Vor einem Jahr bin ich nach Deutschland gezogen.
+30,2,Der Kurs geht _____ 9 bis 12 Uhr.,von,The course runs from 9 to 12 o’clock.,Der Kurs geht von 9 bis 12 Uhr.
+31,2,Ich arbeite _____ Montag bis Freitag.,von,I work from Monday to Friday.,Ich arbeite von Montag bis Freitag.
+32,2,_____ April bis Juni ist das Wetter meistens schön.,Von,"From April to June, the weather is usually nice.",Von April bis Juni ist das Wetter meistens schön.
+33,2,Der Film läuft _____ 18 bis 20 Uhr.,von,The movie runs from 6 to 8 PM.,Der Film läuft von 18 bis 20 Uhr.
+34,2,Ich habe _____ 2015 bis 2020 in Berlin gelebt.,von,I lived in Berlin from 2015 to 2020.,Ich habe von 2015 bis 2020 in Berlin gelebt.
+35,2,Der Bus kommt _____ 8 Uhr.,um,The bus arrives at 8 o’clock.,Der Bus kommt um 8 Uhr.
+36,2,Ich stehe _____ 7 Uhr auf.,um,I get up at 7 o’clock.,Ich stehe um 7 Uhr auf.
+37,2,Der Film beginnt _____ 20:15 Uhr.,um,The movie starts at 8:15 PM.,Der Film beginnt um 20:15 Uhr.
+38,2,Wir treffen uns _____ 14 Uhr im Park.,um,We are meeting at 2 PM in the park.,Wir treffen uns um 14 Uhr im Park.
+39,2,Die Schule endet _____ 16 Uhr.,um,School ends at 4 PM.,Die Schule endet um 16 Uhr.
+40,2,_____ 8 und 9 Uhr frühstücke ich.,Zwischen,"Between 8 and 9 o’clock, I have breakfast.",Zwischen 8 und 9 Uhr frühstücke ich.
+41,2,Der Zug kommt _____ 14 und 15 Uhr an.,zwischen,The train arrives between 2 and 3 PM.,Der Zug kommt zwischen 14 und 15 Uhr an.
+42,2,_____ Montag und Freitag arbeite ich viel.,Zwischen,"Between Monday and Friday, I work a lot.",Zwischen Montag und Freitag arbeite ich viel.
+43,2,Die Pause ist _____ den zwei Unterrichtsstunden.,zwischen,The break is between the two lessons.,Die Pause ist zwischen den zwei Unterrichtsstunden.
+44,2,_____ Weihnachten und Neujahr habe ich Urlaub.,Zwischen,"Between Christmas and New Year, I have vacation.",Zwischen Weihnachten und Neujahr habe ich Urlaub.
+45,2,_____ dem Frühstück gehe ich zur Arbeit.,Nach,"After breakfast, I go to work.",Nach dem Frühstück gehe ich zur Arbeit.
+46,2,Wir fahren _____ der Schule nach Hause.,nach,We go home after school.,Wir fahren nach der Schule nach Hause.
+47,2,_____ dem Konzert sind wir noch essen gegangen.,Nach,"After the concert, we went out to eat.",Nach dem Konzert sind wir noch essen gegangen.
+48,2,_____ einer Woche fühlte ich mich besser.,Nach,"After a week, I felt better.",Nach einer Woche fühlte ich mich besser.
+49,2,_____ dem Sport dusche ich immer.,Nach,"After sports, I always take a shower.",Nach dem Sport dusche ich immer.
+50,2,Ich habe _____ Montag Deutschunterricht.,am,I have German class on Monday.,Ich habe am Montag Deutschunterricht.
+51,2,Wir fahren _____ Wochenende nach Berlin.,am,We are going to Berlin on the weekend.,Wir fahren am Wochenende nach Berlin.
+52,2,Mein Geburtstag ist _____ 3. Mai.,am,My birthday is on May 3rd.,Mein Geburtstag ist am 3. Mai.
+53,2,_____ Abend lese ich gern ein Buch.,Am,"In the evening, I like to read a book.",Am Abend lese ich gern ein Buch.
+54,2,_____ Morgen trinke ich immer Kaffee.,Am,"In the morning, I always drink coffee.",Am Morgen trinke ich immer Kaffee.
+55,2,Ich fahre _____ einer Woche nach Spanien.,in,I am going to Spain in a week.,Ich fahre in einer Woche nach Spanien.
+56,2,Wir sehen uns _____ zwei Tagen wieder.,in,We will see each other again in two days.,Wir sehen uns in zwei Tagen wieder.
+57,2,_____ der Nacht ist es sehr ruhig.,In,"At night, it is very quiet.",In der Nacht ist es sehr ruhig.
+58,2,Mein Urlaub beginnt _____ drei Monaten.,in,My vacation starts in three months.,Mein Urlaub beginnt in drei Monaten.
+59,2,_____ einer Stunde beginnt der Unterricht.,In,The class starts in an hour.,In einer Stunde beginnt der Unterricht.
+60,2,Ich arbeite _____ 18 Uhr.,bis,I work until 6 PM.,Ich arbeite bis 18 Uhr.
+61,2,Das Museum ist _____ 20 Uhr geöffnet.,bis,The museum is open until 8 PM.,Das Museum ist bis 20 Uhr geöffnet.
+62,2,_____ nächste Woche muss ich meine Hausaufgaben machen.,Bis,I have to do my homework by next week.,Bis nächste Woche muss ich meine Hausaufgaben machen.
+63,2,Wir bleiben _____ Sonntag in Hamburg.,bis,We are staying in Hamburg until Sunday.,Wir bleiben bis Sonntag in Hamburg.
+64,2,_____ zum Sommer möchte ich Deutsch lernen.,Bis,I want to learn German by the summer.,Bis zum Sommer möchte ich Deutsch lernen.
+65,2,Ich wohne _____ 2018 in Berlin.,seit,I have been living in Berlin since 2018.,Ich wohne seit 2018 in Berlin.
+66,2,_____ einer Woche regnet es jeden Tag.,Seit,It has been raining every day for a week.,Seit einer Woche regnet es jeden Tag.
+67,2,Sie lernt _____ drei Monaten Deutsch.,seit,She has been learning German for three months.,Sie lernt seit drei Monaten Deutsch.
+68,2,_____ dem Wochenende fühle ich mich besser.,Seit,I have been feeling better since the weekend.,Seit dem Wochenende fühle ich mich besser.
+69,2,_____ gestern habe ich Kopfschmerzen.,Seit,I have had a headache since yesterday.,Seit gestern habe ich Kopfschmerzen.
+70,3,Das Bild hängt _____ der Wand.,an,The picture is hanging on the wall.,Das Bild hängt an der Wand.
+71,3,Ich stehe _____ der Haltestelle.,an,I am standing at the bus stop.,Ich stehe an der Haltestelle.
+72,3,Wir sitzen _____ dem Tisch.,an,We are sitting at the table.,Wir sitzen an dem Tisch.
+73,3,Die Uhr hängt _____ der Wand.,an,The clock is hanging on the wall.,Die Uhr hängt an der Wand.
+74,3,Der Spiegel ist _____ der Tür.,an,The mirror is on the door.,Der Spiegel ist an der Tür.
+75,3,Ich bin _____ meinem Freund.,bei,I am at my friend’s place.,Ich bin bei meinem Freund.
+76,3,Sie arbeitet _____ einer großen Firma.,bei,She works at a big company.,Sie arbeitet bei einer großen Firma.
+77,3,Wir sind _____ unseren Großeltern.,bei,We are at our grandparents' place.,Wir sind bei unseren Großeltern.
+78,3,Er bleibt heute _____ mir zu Hause.,bei,He is staying at my place today.,Er bleibt heute bei mir zu Hause.
+79,3,Ich kaufe mein Brot _____ der Bäckerei.,bei,I buy my bread at the bakery.,Ich kaufe mein Brot bei der Bäckerei.
+80,3,Der Tisch steht _____ dem Sofa und dem Stuhl.,zwischen,The table is between the sofa and the chair.,Der Tisch steht zwischen dem Sofa und dem Stuhl.
+81,3,Die Lampe hängt _____ den Regalen.,zwischen,The lamp is hanging between the shelves.,Die Lampe hängt zwischen den Regalen.
+82,3,Mein Auto ist _____ zwei anderen Autos geparkt.,zwischen,My car is parked between two other cars.,Mein Auto ist zwischen zwei anderen Autos geparkt.
+83,3,Das Café liegt _____ dem Supermarkt und der Bank.,zwischen,The café is between the supermarket and the bank.,Das Café liegt zwischen dem Supermarkt und der Bank.
+84,3,Das Buch ist _____ den Heften auf dem Tisch.,zwischen,The book is between the notebooks on the table.,Das Buch ist zwischen den Heften auf dem Tisch.
+85,3,Der Garten ist _____ dem Haus.,hinter,The garden is behind the house.,Der Garten ist hinter dem Haus.
+86,3,Die Katze versteckt sich _____ der Tür.,hinter,The cat is hiding behind the door.,Die Katze versteckt sich hinter der Tür.
+87,3,Mein Auto steht _____ der Garage.,hinter,My car is behind the garage.,Mein Auto steht hinter der Garage.
+88,3,Das Kino ist _____ dem Supermarkt.,hinter,The cinema is behind the supermarket.,Das Kino ist hinter dem Supermarkt.
+89,3,Der Ball liegt _____ dem Sofa.,hinter,The ball is behind the sofa.,Der Ball liegt hinter dem Sofa.
+90,3,Die Tasche liegt _____ dem Tisch.,unter,The bag is under the table.,Die Tasche liegt unter dem Tisch.
+91,3,Der Hund schläft _____ dem Bett.,unter,The dog is sleeping under the bed.,Der Hund schläft unter dem Bett.
+92,3,Die Schuhe stehen _____ dem Stuhl.,unter,The shoes are under the chair.,Die Schuhe stehen unter dem Stuhl.
+93,3,Das Buch ist _____ der Jacke.,unter,The book is under the jacket.,Das Buch ist unter der Jacke.
+94,3,Die Katze versteckt sich _____ der Couch.,unter,The cat is hiding under the couch.,Die Katze versteckt sich unter der Couch.
+95,3,Das Auto steht _____ dem Haus.,vor,The car is in front of the house.,Das Auto steht vor dem Haus.
+96,3,Der Bus hält _____ der Schule.,vor,The bus stops in front of the school.,Der Bus hält vor der Schule.
+97,3,Ich warte _____ dem Kino.,vor,I am waiting in front of the cinema.,Ich warte vor dem Kino.
+98,3,Die Katze sitzt _____ der Tür.,vor,The cat is sitting in front of the door.,Die Katze sitzt vor der Tür.
+99,3,Der Park ist _____ dem Hotel.,vor,The park is in front of the hotel.,Der Park ist vor dem Hotel.
+100,3,Das Buch ist _____ der Tasche.,in,The book is in the bag.,Das Buch ist in der Tasche.
+101,3,Ich bin _____ der Schule.,in,I am at school.,Ich bin in der Schule.
+102,3,Die Schuhe stehen _____ der Ecke.,in,The shoes are in the corner.,Die Schuhe stehen in der Ecke.
+103,3,Er sitzt _____ seinem Zimmer.,in,He is sitting in his room.,Er sitzt in seinem Zimmer.
+104,3,Die Milch ist _____ dem Kühlschrank.,in,The milk is in the fridge.,Die Milch ist in dem Kühlschrank.
+105,3,Das Buch liegt _____ dem Tisch.,auf,The book is on the table.,Das Buch liegt auf dem Tisch.
+106,3,Die Katze sitzt _____ dem Sofa.,auf,The cat is sitting on the sofa.,Die Katze sitzt auf dem Sofa.
+107,3,Das Handy ist _____ dem Bett.,auf,The phone is on the bed.,Das Handy ist auf dem Bett.
+108,3,Die Blumen stehen _____ dem Fensterbrett.,auf,The flowers are on the windowsill.,Die Blumen stehen auf dem Fensterbrett.
+109,3,Mein Laptop liegt _____ dem Schreibtisch.,auf,My laptop is on the desk.,Mein Laptop liegt auf dem Schreibtisch.
+110,3,Die Lampe hängt _____ dem Tisch.,über,The lamp is hanging over the table.,Die Lampe hängt über dem Tisch.
+111,3,Das Bild ist _____ dem Sofa.,über,The picture is above the sofa.,Das Bild ist über dem Sofa.
+112,3,Die Brücke ist _____ dem Fluss.,über,The bridge is over the river.,Die Brücke ist über dem Fluss.
+113,3,Die Uhr hängt _____ der Tür.,über,The clock is hanging above the door.,Die Uhr hängt über der Tür.
+114,3,Ein Flugzeug fliegt _____ der Stadt.,über,A plane is flying over the city.,Ein Flugzeug fliegt über der Stadt.
+115,3,Der Stuhl steht _____ dem Tisch.,neben,The chair is next to the table.,Der Stuhl steht neben dem Tisch.
+116,3,Die Bank ist _____ dem Supermarkt.,neben,The bank is next to the supermarket.,Die Bank ist neben dem Supermarkt.
+117,3,Mein Haus ist _____ der Schule.,neben,My house is next to the school.,Mein Haus ist neben der Schule.
+118,3,Die Lampe steht _____ dem Bett.,neben,The lamp is next to the bed.,Die Lampe steht neben dem Bett.
+119,3,Der Parkplatz ist _____ dem Kino.,neben,The parking lot is next to the cinema.,Der Parkplatz ist neben dem Kino.
+120,4,Ich gehe _____ den Markt.,auf,I am going to the market.,Ich gehe auf den Markt.
+121,4,Er legt das Buch _____ den Tisch.,auf,He puts the book on the table.,Er legt das Buch auf den Tisch.
+122,4,Wir steigen _____ den Berg.,auf,We climb up the mountain.,Wir steigen auf den Berg.
+123,4,Sie fährt _____ die Insel.,auf,She is driving to the island.,Sie fährt auf die Insel.
+124,4,Das Kind klettert _____ den Baum.,auf,The child climbs up the tree.,Das Kind klettert auf den Baum.
+125,4,Ich komme _____ Deutschland.,aus,I come from Germany.,Ich komme aus Deutschland.
+126,4,Er nimmt das Buch _____ der Tasche.,aus,He takes the book out of the bag.,Er nimmt das Buch aus der Tasche.
+127,4,Wir steigen _____ dem Zug.,aus,We get off the train.,Wir steigen aus dem Zug.
+128,4,Sie holt die Milch _____ dem Kühlschrank.,aus,She takes the milk out of the fridge.,Sie holt die Milch aus dem Kühlschrank.
+129,4,Das Kind schaut _____ dem Fenster.,aus,The child looks out of the window.,Das Kind schaut aus dem Fenster.
+130,4,Ich komme gerade _____ der Arbeit.,von,I just came from work.,Ich komme gerade von der Arbeit.
+131,4,Er fährt _____ der Schule nach Hause.,von,He is driving home from school.,Er fährt von der Schule nach Hause.
+132,4,Wir kommen _____ einer langen Reise.,von,We are coming from a long trip.,Wir kommen von einer langen Reise.
+133,4,Sie kommt _____ Arzt zurück.,vom,She is coming back from the doctor.,Sie kommt vom Arzt zurück.
+134,4,Ich habe das Buch _____ meinem Freund bekommen.,von,I got the book from my friend.,Ich habe das Buch von meinem Freund bekommen.
+135,4,Ich gehe _____ die Schule.,in,I am going to school.,Ich gehe in die Schule.
+136,4,Er legt das Buch _____ den Rucksack.,in,He puts the book into the backpack.,Er legt das Buch in den Rucksack.
+137,4,Wir fahren _____ die Stadt.,in,We are driving to the city.,Wir fahren in die Stadt.
+138,4,Sie geht _____ das Zimmer.,in,She goes into the room.,Sie geht in das Zimmer.
+139,4,Das Kind springt _____ den Pool.,in,The child jumps into the pool.,Das Kind springt in den Pool.
+140,4,Ich gehe _____ meinem Freund.,zu,I am going to my friend’s place.,Ich gehe zu meinem Freund.
+141,4,Sie fährt _____ ihrer Oma.,zu,She is driving to her grandma’s house.,Sie fährt zu ihrer Oma.
+142,4,Wir gehen zu Fuß _____ Schule.,zur,We are walking to school.,Wir gehen zu Fuß zur Schule.
+143,4,Er fährt mit dem Bus _____ seiner Arbeit.,zu,He takes the bus to his workplace.,Er fährt mit dem Bus zu seiner Arbeit.
+144,4,Ich bringe das Paket _____ Post.,zur,I am taking the package to the post office.,Ich bringe das Paket zur Post.
+145,4,Ich gehe _____ den Strand.,an,I am going to the beach.,Ich gehe an den Strand.
+146,4,Wir fahren _____ die Nordsee.,an,We are driving to the North Sea.,Wir fahren an die Nordsee.
+147,4,Er stellt das Glas _____ das Fenster.,an,He puts the glass by the window.,Er stellt das Glas an das Fenster.
+148,4,Sie hängt das Bild _____ die Wand.,an,She hangs the picture on the wall.,Sie hängt das Bild an die Wand.
+149,4,Wir setzen uns _____ den Tisch.,an,We sit down at the table.,Wir setzen uns an den Tisch.
+150,4,Ich fahre _____ Berlin.,nach,I am driving to Berlin.,Ich fahre nach Berlin.
+151,4,Er geht _____ Hause.,nach,He is going home.,Er geht nach Hause.
+152,4,Wir reisen _____ Italien.,nach,We are traveling to Italy.,Wir reisen nach Italien.
+153,4,Sie fliegt _____ Spanien.,nach,She is flying to Spain.,Sie fliegt nach Spanien.
+154,4,Nach der Arbeit gehe ich _____ Hause.,Nach,"After work, I go home.",Nach der Arbeit gehe ich nach Hause.
+155,5,Er spielt _____ seinen Bruder Schach.,gegen,He plays chess against his brother.,Er spielt gegen seinen Bruder Schach.
+156,5,Das Medikament hilft _____ Kopfschmerzen.,gegen,The medicine helps against headaches.,Das Medikament hilft gegen Kopfschmerzen.
+157,5,Wir protestieren _____ die neuen Regeln.,gegen,We are protesting against the new rules.,Wir protestieren gegen die neuen Regeln.
+158,5,Sie hat sich _____ die Entscheidung gewehrt.,gegen,She resisted the decision.,Sie hat sich gegen die Entscheidung gewehrt.
+159,5,Das Auto fuhr _____ einen Baum.,gegen,The car crashed into a tree.,Das Auto fuhr gegen einen Baum.
+160,5,Das Buch ist _____ meinem Bruder.,von,The book is from my brother.,Das Buch ist von meinem Bruder.
+161,5,Ich habe ein Geschenk _____ meiner Mutter bekommen.,von,I got a gift from my mother.,Ich habe ein Geschenk von meiner Mutter bekommen.
+162,5,Er spricht _____ seinem Urlaub.,von,He is talking about his vacation.,Er spricht von seinem Urlaub.
+163,5,Wir haben das Rezept _____ einer Freundin.,von,We got the recipe from a friend.,Wir haben das Rezept von einer Freundin.
+164,5,Das Lied ist _____ einer berühmten Band.,von,The song is by a famous band.,Das Lied ist von einer berühmten Band.
+165,5,Das Geschenk ist _____ dich.,für,The gift is for you.,Das Geschenk ist für dich.
+166,5,Ich kaufe ein Buch _____ meinen Freund.,für,I am buying a book for my friend.,Ich kaufe ein Buch für meinen Freund.
+167,5,Sie arbeitet als Beraterin _____ eine große Firma.,für,She works for a big company as a consultant.,Sie arbeitet als Beraterin für eine große Firma.
+168,5,Wir haben Tickets _____ das Konzert.,für,We have tickets for the concert.,Wir haben Tickets für das Konzert.
+169,5,Das ist gut _____ deine Gesundheit.,für,That is good for your health.,Das ist gut für deine Gesundheit.
+170,5,Ich trinke meinen Kaffee _____ Zucker.,ohne,I drink my coffee without sugar.,Ich trinke meinen Kaffee ohne Zucker.
+171,5,Er geht nie _____ sein Handy aus dem Haus.,ohne,He never leaves the house without his phone.,Er geht nie ohne sein Handy aus dem Haus.
+172,5,Wir können nicht _____ dich feiern.,ohne,We can't celebrate without you.,Wir können nicht ohne dich feiern.
+173,5,Sie fährt nie _____ Helm Fahrrad.,ohne,She never rides a bike without a helmet.,Sie fährt nie ohne Helm Fahrrad.
+174,5,_____ Brille kann ich nicht gut sehen.,Ohne,"Without glasses, I can't see well.",Ohne Brille kann ich nicht gut sehen.
+175,5,Ich fahre _____ dem Fahrrad zur Schule.,mit,I go to school by bike.,Ich fahre mit dem Fahrrad zur Schule.
+176,5,Sie spricht _____ ihrer Freundin.,mit,She talks with her friend.,Sie spricht mit ihrer Freundin.
+177,5,Wir essen _____ einem Löffel.,mit,We eat with a spoon.,Wir essen mit einem Löffel.
+178,5,Er arbeitet _____ einem Computer.,mit,He works with a computer.,Er arbeitet mit einem Computer.
+179,5,Ich schreibe _____ einem Bleistift.,mit,I write with a pencil.,Ich schreibe mit einem Bleistift.
+180,6,Mein Bruder ist _____ groß wie ich.,so,My brother is as tall as I am.,Mein Bruder ist so groß wie ich.
+181,6,Das Essen hier ist _____ lecker wie in Italien.,so,The food here is as delicious as in Italy.,Das Essen hier ist so lecker wie in Italien.
+182,6,Der Park ist _____ schön wie der Garten.,so,The park is as beautiful as the garden.,Der Park ist so schön wie der Garten.
+183,6,Dieser Film ist _____ spannend wie der letzte.,so,This movie is as exciting as the last one.,Dieser Film ist so spannend wie der letzte.
+184,6,Sie ist _____ freundlich wie ihre Schwester.,so,She is as friendly as her sister.,Sie ist so freundlich wie ihre Schwester.
+185,6,Peter ist größer _____ sein Bruder.,als,Peter is taller than his brother.,Peter ist größer als sein Bruder.
+186,6,Das Auto ist schneller _____ das Fahrrad.,als,The car is faster than the bike.,Das Auto ist schneller als das Fahrrad.
+187,6,Diese Aufgabe ist schwieriger _____ die letzte.,als,This task is more difficult than the last one.,Diese Aufgabe ist schwieriger als die letzte.
+188,6,Der Urlaub in den Bergen war besser _____ am Strand.,als,The vacation in the mountains was better than at the beach.,Der Urlaub in den Bergen war besser als am Strand.
+189,6,Das Buch ist interessanter _____ der Film.,als,The book is more interesting than the movie.,Das Buch ist interessanter als der Film.
+190,6,Du bist so stark _____ dein Bruder.,wie,You are as strong as your brother.,Du bist so stark wie dein Bruder.
+191,6,Dieses Kleid ist genauso schön _____ das andere.,wie,This dress is just as beautiful as the other one.,Dieses Kleid ist genauso schön wie das andere.
+192,6,Der Film war so spannend _____ das Buch.,wie,The movie was as exciting as the book.,Der Film war so spannend wie das Buch.
+193,6,Das Wetter ist heute genauso schlecht _____ gestern.,wie,The weather today is just as bad as yesterday.,Das Wetter ist heute genauso schlecht wie gestern.
+194,6,Mein Hund ist genauso freundlich _____ deine Katze.,wie,My dog is just as friendly as your cat.,Mein Hund ist genauso freundlich wie deine Katze.
+195,6,Er ist älter _____ ich.,als,He is older than me.,Er ist älter als ich.
+196,6,Diese Stadt ist größer _____ mein Heimatdorf.,als,This city is bigger than my hometown.,Diese Stadt ist größer als mein Heimatdorf.
+197,6,Der Kuchen schmeckt besser _____ die Torte.,als,The cake tastes better than the tart.,Der Kuchen schmeckt besser als die Torte.
+198,6,Heute ist es heißer _____ gestern.,als,Today is hotter than yesterday.,Heute ist es heißer als gestern.
+199,6,Dieses Auto ist schneller _____ das alte.,als,This car is faster than the old one.,Dieses Auto ist schneller als das alte.
+200,6,Mein Haus ist nicht so groß _____ dein Haus.,wie,My house is not as big as your house.,Mein Haus ist nicht so groß wie dein Haus.
+201,6,Er ist nicht so schnell _____ sein Bruder.,wie,He is not as fast as his brother.,Er ist nicht so schnell wie sein Bruder.
+202,6,Das Wetter heute ist nicht so schön _____ gestern.,wie,The weather today is not as nice as yesterday.,Das Wetter heute ist nicht so schön wie gestern.
+203,6,Diese Stadt ist nicht so laut _____ Berlin.,wie,This city is not as loud as Berlin.,Diese Stadt ist nicht so laut wie Berlin.
+204,6,Meine Katze ist nicht so verspielt _____ dein Hund.,wie,My cat is not as playful as your dog.,Meine Katze ist nicht so verspielt wie dein Hund.
+205,6,Der Film war _____ spannend wie das Buch.,nicht so,The movie was not as exciting as the book.,Der Film war nicht so spannend wie das Buch.
+206,6,Das Hotel war _____ teuer wie erwartet.,nicht so,The hotel was not as expensive as expected.,Das Hotel war nicht so teuer wie erwartet.
+207,6,Peter ist _____ freundlich wie Maria.,nicht so,Peter is not as friendly as Maria.,Peter ist nicht so freundlich wie Maria.
+208,6,Mein Auto ist _____ neu wie deins.,nicht so,My car is not as new as yours.,Mein Auto ist nicht so neu wie deins.
+209,6,Die Aufgabe war _____ schwer wie ich dachte.,nicht so,The task was not as difficult as I thought.,Die Aufgabe war nicht so schwer wie ich dachte.
+210,7,Ich wohne _____ der Strasse.,an,I live on the street.,Ich wohne an der Strasse.
+211,7,Das Bild hängt _____ der Wand.,an,The picture hangs on the wall.,Das Bild hängt an der Wand.
+212,7,Wir treffen uns _____ Montag.,am,We meet on Monday.,Wir treffen uns am Montag.
+213,7,Ich arbeite _____ Computer.,am,I work on the computer.,Ich arbeite am Computer.
+214,7,Sie steht _____ Fenster.,am,She stands at the window.,Sie steht am Fenster.
+215,7,Das Buch liegt _____ dem Tisch,auf,The book lies on the table,Das Buch liegt auf dem Tisch
+216,7,Die Katze sitzt _____ dem Stuhl,auf,The cat sits on the chair,Die Katze sitzt auf dem Stuhl
+217,7,Der Vogel sitzt _____ dem Baum,auf,The bird sits on the tree,Der Vogel sitzt auf dem Baum
+218,7,Wir fahren _____ die Insel,auf,We travel onto the island,Wir fahren auf die Insel
+219,7,Die Kinder spielen _____ dem Spielplatz,auf,The children play on the playground,Die Kinder spielen auf dem Spielplatz
+220,7,Ich komme _____ Deutschland.,aus,I come from Germany.,Ich komme aus Deutschland.
+221,7,Das Wasser kommt _____ der Flasche.,aus,The water comes out of the bottle.,Das Wasser kommt aus der Flasche.
+222,7,Der Brief ist _____ Papier.,aus,The letter is made of paper.,Der Brief ist aus Papier.
+223,7,Sie trinkt _____ einer Tasse.,aus,She drinks from a cup.,Sie trinkt aus einer Tasse.
+224,7,Er geht _____ dem Haus.,aus,He goes out of the house.,Er geht aus dem Haus.
+225,7,Sie arbeitet _____ einer Bäckerei.,bei,She works at a bakery.,Sie arbeitet bei einer Bäckerei.
+226,7,_____ uns ist es warm.,Bei,"At our place, it is warm.",Bei uns ist es warm.
+227,7,Wir essen _____ Oma.,bei,We eat at Grandma's.,Wir essen bei Oma.
+228,7,_____ Regen bleibe ich zu Hause.,Bei,"When it rains, I stay at home.",Bei Regen bleibe ich zu Hause.
+229,7,Ich lerne Deutsch _____ der Volkshochschule,bei,I learn German at the adult education center,Ich lerne Deutsch bei der Volkshochschule
+230,7,Ich warte _____ morgen.,bis,I will wait until tomorrow.,Ich warte bis morgen.
+231,7,Der Zug fährt nur _____ Hamburg.,bis,The train only goes until Hamburg.,Der Zug fährt nur bis Hamburg.
+232,7,Ich arbeite _____ fünf Uhr.,bis,I work until five o'clock.,Ich arbeite bis fünf Uhr.
+233,7,Lies bitte _____ Seite zehn.,bis,Please read up to page ten.,Lies bitte bis Seite zehn.
+234,7,Die Geschäfte sind _____ acht Uhr geöffnet.,bis,The shops are open until eight o'clock.,Die Geschäfte sind bis acht Uhr geöffnet.
+235,7,Das Geschenk ist _____ dich.,für,The gift is for you.,Das Geschenk ist für dich.
+236,7,Ich kaufe Brot _____ das Frühstück.,für,I'm buying bread for breakfast.,Ich kaufe Brot für das Frühstück.
+237,7,Sie arbeitet _____ eine grosse Firma als Beraterin.,für,She works for a large company as an advisor.,Sie arbeitet für eine grosse Firma als Beraterin.
+238,7,Er lernt Deutsch _____ die Reise.,für,He is learning German for the trip.,Er lernt Deutsch für die Reise.
+239,7,Das ist gut _____ die Gesundheit.,für,That is good for your health.,Das ist gut für die Gesundheit.
+240,7,Ich bin _____ diese Idee.,gegen,I am against this idea.,Ich bin gegen diese Idee.
+241,7,Der Ball fliegt _____ die Wand.,gegen,The ball flies against the wall.,Der Ball fliegt gegen die Wand.
+242,7,Wir spielen _____ Bayern München.,gegen,We are playing against Bayern Munich.,Wir spielen gegen Bayern München.
+243,7,_____ Abend wird es kühler.,Gegen,Towards evening it gets cooler.,Gegen Abend wird es kühler.
+244,7,Das Medikament hilft _____ Kopfschmerzen.,gegen,The medicine helps against headaches.,Das Medikament hilft gegen Kopfschmerzen.
+245,7,Der Ball ist _____ dem Sofa.,hinter,The ball is behind the sofa.,Der Ball ist hinter dem Sofa.
+246,7,Das Haus ist _____ dem Baum.,hinter,The house is behind the tree.,Das Haus ist hinter dem Baum.
+247,7,Ich wohne _____ der Bäckerei.,hinter,I live behind the bakery.,Ich wohne hinter der Bäckerei.
+248,7,Schreib deinen Namen _____ die Zahl.,hinter,Write your name behind the number.,Schreib deinen Namen hinter die Zahl.
+249,7,Was steckt _____ dieser Geschichte?,hinter,What's behind this story?,Was steckt hinter dieser Geschichte?
+250,7,Ich bin _____ der Schule.,in,I am in school.,Ich bin in der Schule.
+251,7,Das Buch ist _____ der Tasche.,in,The book is in the bag.,Das Buch ist in der Tasche.
+252,7,Wir wohnen _____ Berlin.,in,We live in Berlin.,Wir wohnen in Berlin.
+253,7,_____ Sommer ist es warm.,Im,In summer it is warm.,Im Sommer ist es warm.
+254,7,Ich bin _____ Büro.,im,I am in the office.,Ich bin im Büro.
+255,7,Ich fahre _____ dem Bus.,mit,I go by bus.,Ich fahre mit dem Bus.
+256,7,Ich esse _____ meiner Familie.,mit,I eat with my family.,Ich esse mit meiner Familie.
+257,7,Sie spielt _____ ihren Freunden.,mit,She plays with her friends.,Sie spielt mit ihren Freunden.
+258,7,Ich trinke Kaffee _____ Milch.,mit,I drink coffee with milk.,Ich trinke Kaffee mit Milch.
+259,7,Er schreibt _____ einem Stift.,mit,He writes with a pen.,Er schreibt mit einem Stift.
+260,7,Ich fahre _____ Berlin.,nach,I am going to Berlin.,Ich fahre nach Berlin.
+261,7,Wir fliegen _____ Italien.,nach,We are flying to Italy.,Wir fliegen nach Italien.
+262,7,_____ dem Essen spüle ich das Geschirr.,Nach,"After the meal, I wash the dishes.",Nach dem Essen spüle ich das Geschirr.
+263,7,Ich gehe _____ Hause.,nach,I am going home.,Ich gehe nach Hause.
+264,7,_____ langer Zeit sehen wir uns wieder.,Nach,"After a long time, we see each other again.",Nach langer Zeit sehen wir uns wieder.
+265,7,Der Stuhl steht _____ dem Tisch.,neben,The chair is next to the table.,Der Stuhl steht neben dem Tisch.
+266,7,Ich sitze _____ meiner Mutter.,neben,I am sitting next to my mother.,Ich sitze neben meiner Mutter.
+267,7,Das Haus ist _____ der Kirche.,neben,The house is next to the church.,Das Haus ist neben der Kirche.
+268,7,_____ dem Bahnhof gibt es ein Café.,Neben,Next to the train station there is a café.,Neben dem Bahnhof gibt es ein Café.
+269,7,Er stellt die Lampe _____ das Bett.,neben,He puts the lamp next to the bed.,Er stellt die Lampe neben das Bett.
+270,7,Ich trinke Kaffee _____ Milch.,ohne,I drink coffee without milk.,Ich trinke Kaffee ohne Milch.
+271,7,Er geht _____ Jacke raus.,ohne,He goes out without a jacket.,Er geht ohne Jacke raus.
+272,7,_____ dich wäre ich traurig.,Ohne,"Without you, I would be sad.",Ohne dich wäre ich traurig.
+273,7,Sie kommt _____ ihre Kinder.,ohne,She comes without her children.,Sie kommt ohne ihre Kinder.
+274,7,Ich kann _____ meine Brille nicht lesen.,ohne,I can't read without my glasses.,Ich kann ohne meine Brille nicht lesen.
+275,7,Ich wohne _____ einem Jahr in Berlin.,seit,I have been living in Berlin for a year.,Ich wohne seit einem Jahr in Berlin.
+276,7,Sie arbeitet _____ Montag in der neuen Firma.,seit,She has been working at the new company since Monday.,Sie arbeitet seit Montag in der neuen Firma.
+277,7,_____ gestern bin ich krank.,Seit,I have been sick since yesterday.,Seit gestern bin ich krank.
+278,7,_____ langer Zeit habe ich ihn nicht gesehen.,Seit,I haven't seen him for a long time.,Seit langer Zeit habe ich ihn nicht gesehen.
+279,7,_____ dem Unfall kann er nicht mehr laufen.,Seit,"Since the accident, he can no longer walk.",Seit dem Unfall kann er nicht mehr laufen.
+280,7,Die Lampe hängt _____ dem Tisch.,über,The lamp hangs above the table.,Die Lampe hängt über dem Tisch.
+281,7,Das Bild hängt _____ dem Sofa.,über,The picture hangs above the sofa.,Das Bild hängt über dem Sofa.
+282,7,Wir sprechen _____ das Wetter.,über,We are talking about the weather.,Wir sprechen über das Wetter.
+283,7,Ich freue mich _____ dein Geschenk.,über,I am happy about your gift.,Ich freue mich über dein Geschenk.
+284,7,Der Film ist _____ das Leben eines Künstlers.,über,The film is about the life of an artist.,Der Film ist über das Leben eines Künstlers.
+285,7,Der Ball liegt _____ dem Tisch.,unter,The ball is under the table.,Der Ball liegt unter dem Tisch.
+286,7,Das Buch ist _____ den Papieren.,unter,The book is under the papers.,Das Buch ist unter den Papieren.
+287,7,Wir sitzen _____ einem Baum.,unter,We are sitting under a tree.,Wir sitzen unter einem Baum.
+288,7,Die Temperatur ist _____ null Grad.,unter,The temperature is below zero degrees.,Die Temperatur ist unter null Grad.
+289,7,Der Unterricht beginnt _____ 8 Uhr.,um,The lesson starts at 8 o'clock.,Der Unterricht beginnt um 8 Uhr.
+290,7,Ich treffe dich _____ 10 Uhr.,um,I'll meet you at 10 o'clock.,Ich treffe dich um 10 Uhr.
+291,7,Die Erde dreht sich _____ die Sonne.,um,The Earth revolves around the sun.,Die Erde dreht sich um die Sonne.
+292,7,Wir sitzen _____ den Tisch.,um,We are sitting around the table.,Wir sitzen um den Tisch.
+293,7,Das Buch ist _____ meinem Bruder.,von,The book is from my brother.,Das Buch ist von meinem Bruder.
+294,7,Der Zug fährt _____ München nach Hamburg.,von,The train travels from Munich to Hamburg.,Der Zug fährt von München nach Hamburg.
+295,7,Die Farbe ist _____ guter Qualität.,von,The paint is of good quality.,Die Farbe ist von guter Qualität.
+296,7,_____ Montag bis Freitag arbeite ich.,Von,"From Monday to Friday, I work.",Von Montag bis Freitag arbeite ich.
+297,7,Der Baum steht _____ dem Haus.,vor,The tree stands in front of the house.,Der Baum steht vor dem Haus.
+298,7,Ich warte _____ der Tür.,vor,I am waiting in front of the door.,Ich warte vor der Tür.
+299,7,Das ist _____ meiner Zeit passiert.,vor,That happened before my time.,Das ist vor meiner Zeit passiert.
+300,7,Sie schützt sich _____ der Sonne.,vor,She protects herself from the sun.,Sie schützt sich vor der Sonne.
+301,7,Ich gehe _____ Bahnhof.,zum,I am going to the train station.,Ich gehe zum Bahnhof.
+302,7,Wir fahren _____ Strand.,zum,We are driving to the beach.,Wir fahren zum Strand.
+303,7,Ich gehe _____ Fuss.,zu,I go on foot.,Ich gehe zu Fuss.
+304,7,_____ Frühstück esse ich Brot.,Zum,"For breakfast, I eat bread.",Zum Frühstück esse ich Brot.
+305,7,Ich gratuliere dir _____ Geburtstag.,zum,I congratulate you on your birthday.,Ich gratuliere dir zum Geburtstag.
+306,7,Der Tisch steht _____ den Stühlen.,zwischen,The table is between the chairs.,Der Tisch steht zwischen den Stühlen.
+307,7,Ich sitze _____ meiner Mutter und meinem Vater.,zwischen,I am sitting between my mother and my father.,Ich sitze zwischen meiner Mutter und meinem Vater.
+308,7,Das Museum ist _____ der Bank und der Post.,zwischen,The museum is between the bank and the post office.,Das Museum ist zwischen der Bank und der Post.
+309,7,_____ 10 und 12 Uhr bin ich im Büro.,Zwischen,Between 10 and 12 o'clock I am in the office.,Zwischen 10 und 12 Uhr bin ich im Büro.
+310,7,Es gibt einen Unterschied _____ diesen beiden Büchern.,zwischen,There is a difference between these two books.,Es gibt einen Unterschied zwischen diesen beiden Büchern.
+311,7,Wir gehen _____ die Strasse,auf,We go onto the street,Wir gehen auf die Strasse
+312,8,_____ Abend esse ich Brot.,Am,On the evening I eat bread.,Am Abend esse ich Brot.
+313,8,Die Lampe ist _____ der Decke.,an,The lamp is on the ceiling.,Die Lampe ist an der Decke.
+314,8,Wir fahren _____ den See.,an,We drive to the lake.,Wir fahren an den See.
+315,8,Das Haus ist _____ Fluss.,am,The house is on the river.,Das Haus ist am Fluss.
+316,8,Sie schreibt _____ dem Papier,auf,She writes on the paper,Sie schreibt auf dem Papier
+317,8,Ich gehe _____ die Party,auf,I go to the party,Ich gehe auf die Party
+318,8,Die Musik kommt _____ dem Radio.,aus,The music comes from the radio.,Die Musik kommt aus dem Radio.
+319,8,Das Licht kommt _____ dem Fenster.,aus,The light comes from the window.,Das Licht kommt aus dem Fenster.
+320,8,Ich nehme das Buch _____ dem Regal.,aus,I take the book from the shelf.,Ich nehme das Buch aus dem Regal.
+321,8,Sie steigt _____ dem Bus.,aus,She gets out of the bus.,Sie steigt aus dem Bus.
+322,8,Die Geschichte ist _____ dem Buch.,aus,The story is from the book.,Die Geschichte ist aus dem Buch.
+323,8,Das Problem liegt _____ der Technik.,bei,The problem is with the technology.,Das Problem liegt bei der Technik.
+324,8,_____ dieser Frage brauche ich Hilfe.,Bei,"With this question, I need help.",Bei dieser Frage brauche ich Hilfe.
+325,8,Er ist _____ guter Gesundheit.,bei,He is in good health.,Er ist bei guter Gesundheit.
+326,8,Ich wohne _____ meiner Familie.,bei,I live with my family.,Ich wohne bei meiner Familie.
+327,8,Es ist nur ein kurzer Weg _____ zum Park.,bis,It's only a short way to the park.,Es ist nur ein kurzer Weg bis zum Park.
+328,8,_____ später!,Bis,See you later! / Until later!,Bis später!
+329,8,Ich zähle _____ zehn.,bis,I count to ten.,Ich zähle bis zehn.
+330,8,_____ dahin muss es fertig sein.,Bis,It must be finished by then.,Bis dahin muss es fertig sein.
+331,8,Ich danke dir _____ deine Hilfe.,für,I thank you for your help.,Ich danke dir für deine Hilfe.
+332,8,Wir haben _____ morgen einen Termin.,für,We have an appointment for tomorrow.,Wir haben für morgen einen Termin.
+333,8,_____ mich ist das kein Problem.,Für,"For me, that's not a problem.",Für mich ist das kein Problem.
+334,8,Er hat das _____ seinen Freund getan.,für,He did that for his friend.,Er hat das für seinen Freund getan.
+335,8,Das Rezept ist _____ vier Personen.,für,The recipe is for four people.,Das Rezept ist für vier Personen.
+336,8,Er hat _____ die Regeln verstossen.,gegen,He acted against the rules.,Er hat gegen die Regeln verstossen.
+337,8,Stell die Leiter _____ die Wand.,gegen,Put the ladder against the wall.,Stell die Leiter gegen die Wand.
+338,8,Ich habe nichts _____ ihn.,gegen,I have nothing against him.,Ich habe nichts gegen ihn.
+339,8,Wir kämpfen _____ die Ungerechtigkeit.,gegen,We fight against injustice.,Wir kämpfen gegen die Ungerechtigkeit.
+340,8,_____ dem Haus ist ein Garten.,Hinter,Behind the house is a garden.,Hinter dem Haus ist ein Garten.
+341,8,Sie versteckt sich _____ der Tür.,hinter,She is hiding behind the door.,Sie versteckt sich hinter der Tür.
+342,8,Ich habe es _____ meinen Rücken getan.,hinter,I did it behind my back.,Ich habe es hinter meinen Rücken getan.
+343,8,_____ den Bergen geht die Sonne unter.,Hinter,The sun sets behind the mountains.,Hinter den Bergen geht die Sonne unter.
+344,8,Er steht _____ seiner Entscheidung.,hinter,He stands behind his decision.,Er steht hinter seiner Entscheidung.
+345,8,Das Bild hängt _____ Wohnzimmer.,im,The picture hangs in the living room.,Das Bild hängt im Wohnzimmer.
+346,8,Wir treffen uns _____ einer Stunde.,in,We will meet in one hour.,Wir treffen uns in einer Stunde.
+347,8,Es ist kalt _____ Winter.,im,It is cold in winter.,Es ist kalt im Winter.
+348,8,Der Fisch schwimmt _____ Wasser.,im,The fish swims in the water.,Der Fisch schwimmt im Wasser.
+349,8,Wir sprechen _____ dem Lehrer.,mit,We speak with the teacher.,Wir sprechen mit dem Lehrer.
+350,8,_____ dem Auto dauert es länger.,Mit,By car it takes longer.,Mit dem Auto dauert es länger.
+351,8,Ich gehe _____ dir ins Kino.,mit,I go to the cinema with you.,Ich gehe mit dir ins Kino.
+352,8,_____ Freude helfe ich dir.,Mit,"With pleasure, I help you.",Mit Freude helfe ich dir.
+353,8,Sie kommt _____ dem Zug an.,mit,She arrives by train.,Sie kommt mit dem Zug an.
+354,8,_____ Deutsch spreche ich auch Englisch.,Neben,"Besides German, I also speak English.",Neben Deutsch spreche ich auch Englisch.
+355,8,Ich arbeite _____ meinem Studium.,neben,I work alongside my studies.,Ich arbeite neben meinem Studium.
+356,8,_____ mir sass ein netter Mann.,Neben,Next to me sat a nice man.,Neben mir sass ein netter Mann.
+357,8,_____ den Kosten gibt es auch Vorteile.,Neben,"Besides the costs, there are also advantages.",Neben den Kosten gibt es auch Vorteile.
+358,8,_____ Geld kann man nichts kaufen.,Ohne,"Without money, you can't buy anything.",Ohne Geld kann man nichts kaufen.
+359,8,Er hat die Prüfung _____ Probleme bestanden.,ohne,He passed the exam without problems.,Er hat die Prüfung ohne Probleme bestanden.
+360,8,_____ zu zögern half er mir.,Ohne,"Without hesitating, he helped me.",Ohne zu zögern half er mir.
+361,8,Sie ging _____ ein Wort zu sagen.,ohne,She left without saying a word.,Sie ging ohne ein Wort zu sagen.
+362,8,Ich bin _____ Hunger.,ohne,I am without hunger. / I am not hungry.,Ich bin ohne Hunger.
+363,8,_____ wann lernst du Deutsch?,Seit,How long have you been learning German?,Seit wann lernst du Deutsch?
+364,8,Ich kenne ihn _____ meiner Kindheit.,seit,I have known him since my childhood.,Ich kenne ihn seit meiner Kindheit.
+365,8,_____ kurzem wohnt er hier.,Seit,He has been living here recently.,Seit kurzem wohnt er hier.
+366,8,_____ dem frühen Morgen regnet es.,Seit,It has been raining since early morning.,Seit dem frühen Morgen regnet es.
+367,8,Er springt _____ den Graben.,über,He jumps over the ditch.,Er springt über den Graben.
+368,8,Ich habe _____ 10 Euro bezahlt.,über,I paid over 10 euros.,Ich habe über 10 Euro bezahlt.
+369,8,Die Wolken ziehen _____ den Himmel.,über,The clouds are moving across the sky.,Die Wolken ziehen über den Himmel.
+370,8,Ich denke _____ deine Frage nach.,über,I am thinking about your question.,Ich denke über deine Frage nach.
+371,8,Schreib deinen Namen _____ den Text.,unter,Write your name under the text.,Schreib deinen Namen unter den Text.
+372,8,Die Katze versteckt sich _____ dem Bett.,unter,The cat is hiding under the bed.,Die Katze versteckt sich unter dem Bett.
+373,8,_____ wie viel Uhr kommst du?,Um,What time are you coming?,Um wie viel Uhr kommst du?
+374,8,Er läuft _____ den Block.,um,He runs around the block.,Er läuft um den Block.
+375,8,Ich habe das _____ meinem Vater gelernt.,von,I learned that from my father.,Ich habe das von meinem Vater gelernt.
+376,8,Er ist krank _____ der Reise.,von,He is sick from the trip.,Er ist krank von der Reise.
+377,8,Das ist ein Lied _____ den Beatles.,von,That is a song by the Beatles.,Das ist ein Lied von den Beatles.
+378,8,Ich bin müde _____ der Arbeit.,von,I am tired from work.,Ich bin müde von der Arbeit.
+379,8,_____ dem Essen waschen wir die Hände.,Vor,"Before eating, we wash our hands.",Vor dem Essen waschen wir die Hände.
+380,8,_____ zwei Jahren war ich in Italien.,Vor,"Two years ago, I was in Italy.",Vor zwei Jahren war ich in Italien.
+381,8,_____ kurzem habe ich ihn gesehen.,Vor,"Recently, I saw him.",Vor kurzem habe ich ihn gesehen.
+382,8,Er ist _____ Hause.,zu,He is at home.,Er ist zu Hause.
+383,8,Ich bleibe _____ Hause.,zu,I am staying at home.,Ich bleibe zu Hause.
+384,8,_____ Schluss möchte ich mich bedanken.,Zum,"In conclusion, I would like to thank you.",Zum Schluss möchte ich mich bedanken.
+385,8,Ich habe keine Zeit _____ Lesen.,zum,I have no time to read.,Ich habe keine Zeit zum Lesen.
+386,8,_____ uns gibt es keine Geheimnisse.,Zwischen,There are no secrets between us.,Zwischen uns gibt es keine Geheimnisse.
+387,8,Leg das Buch _____ die anderen Bücher.,zwischen,Put the book between the other books.,Leg das Buch zwischen die anderen Bücher.
+388,8,_____ den Jahren feiert man Silvester.,Zwischen,"Between the years, one celebrates New Year's Eve.",Zwischen den Jahren feiert man Silvester.
+389,8,_____ zwei Welten.,Zwischen,Between two worlds.,Zwischen zwei Welten.
+390,9,"opposite of, across",gegenüber,,
+391,9,"through, across",durch,,
+392,9,"along, down",entlang,,
+393,9,outside of,ausserhalb,,
+394,9,"inside of, within",innerhalb,,
+395,9,according to,laut,,
+396,9,with the help of,mithilfe,,
+397,9,instead of,anstatt,,
+398,9,despite,trotz,,
+399,9,"during, throughout, while",während,,
+400,9,"due to, because of",wegen,,
+401,10,_____ des schlechten Wetters wurde das Spiel abgesagt.,Wegen,"Because of the bad weather, the game was canceled.",Wegen des schlechten Wetters wurde das Spiel abgesagt.
+402,10,Er konnte nicht kommen _____ einer wichtigen Besprechung.,wegen,He couldn't come because of an important meeting.,Er konnte nicht kommen wegen einer wichtigen Besprechung.
+403,10,_____ des Verkehrs sind wir zu spät gekommen.,Wegen,"Because of the traffic, we arrived late.",Wegen des Verkehrs sind wir zu spät gekommen.
+404,10,Sie war traurig _____ der schlechten Nachricht.,wegen,She was sad because of the bad news.,Sie war traurig wegen der schlechten Nachricht.
+405,10,_____ seines Fleisses hat er die Beförderung bekommen.,Wegen,"Because of his diligence, he got the promotion.",Wegen seines Fleisses hat er die Beförderung bekommen.
+406,10,_____ der Stadt gibt es viele schöne Wanderwege.,Ausserhalb,"Outside the city, there are many beautiful hiking trails.",Ausserhalb der Stadt gibt es viele schöne Wanderwege.
+407,10,Das Parken ist _____ der Geschäftszeiten kostenlos.,ausserhalb,Parking is free outside business hours.,Das Parken ist ausserhalb der Geschäftszeiten kostenlos.
+408,10,_____ meines Arbeitsbereichs kenne ich mich nicht so gut aus.,Ausserhalb,"Outside of my field of work, I am not very knowledgeable.",Ausserhalb meines Arbeitsbereichs kenne ich mich nicht so gut aus.
+409,10,"Wir wohnen _____ des Stadtzentrums, aber die Verbindung ist gut.",ausserhalb,"We live outside the city center, but the connection is good.","Wir wohnen ausserhalb des Stadtzentrums, aber die Verbindung ist gut."
+410,10,_____ der Schule treffe ich mich oft mit meinen Freunden.,Ausserhalb,"Outside of school, I often meet up with my friends.",Ausserhalb der Schule treffe ich mich oft mit meinen Freunden.
+411,10,Wir fahren _____ den Tunnel.,durch,We drive through the tunnel.,Wir fahren durch den Tunnel.
+412,10,Ich gehe _____ den Park.,durch,I walk through the park.,Ich gehe durch den Park.
+413,10,Der Brief kam _____ die Post.,durch,The letter came by mail.,Der Brief kam durch die Post.
+414,10,Der Fluss fliesst _____ die Stadt.,durch,The river flows through the city.,Der Fluss fliesst durch die Stadt.
+415,10,Man sieht _____ das Fenster.,durch,One can see through the window.,Man sieht durch das Fenster.
+416,10,_____ eines Autos kaufte er ein Fahrrad.,Anstatt,"Instead of a car, he bought a bicycle.",Anstatt eines Autos kaufte er ein Fahrrad.
+417,10,Sie trank Wasser _____ eines Softdrinks.,anstatt,She drank water instead of a soft drink.,Sie trank Wasser anstatt eines Softdrinks.
+418,10,_____ einer Entschuldigung gab er nur eine Ausrede.,Anstatt,"Instead of an apology, he just gave an excuse.",Anstatt einer Entschuldigung gab er nur eine Ausrede.
+419,10,Wir entschieden uns für eine Wanderung _____ eines Kinobesuchs.,anstatt,We chose to go hiking instead of going to the cinema.,Wir entschieden uns für eine Wanderung anstatt eines Kinobesuchs.
+420,10,"_____ eines grossen Geschenks machte er eine kleine, persönliche Geste.",Anstatt,"Instead of a big gift, he made a small, personal gesture.","Anstatt eines grossen Geschenks machte er eine kleine, persönliche Geste."
+421,10,_____ eines Wörterbuchs kann man neue Vokabeln schneller lernen.,Mithilfe,"With the help of a dictionary, one can learn new vocabulary faster.",Mithilfe eines Wörterbuchs kann man neue Vokabeln schneller lernen.
+422,10,Er hat das Problem _____ eines Experten gelöst.,mithilfe,He solved the problem with the help of an expert.,Er hat das Problem mithilfe eines Experten gelöst.
+423,10,_____ moderner Technologie können wir effizienter arbeiten.,Mithilfe,"With the help of modern technology, we can work more efficiently.",Mithilfe moderner Technologie können wir effizienter arbeiten.
+424,10,Das Experiment wurde _____ verschiedener Methoden durchgeführt.,mithilfe,The experiment was conducted using various methods.,Das Experiment wurde mithilfe verschiedener Methoden durchgeführt.
+425,10,_____ ihrer Freunde konnte sie die schwere Zeit überstehen.,Mithilfe,"With the help of her friends, she was able to get through the difficult time.",Mithilfe ihrer Freunde konnte sie die schwere Zeit überstehen.
+426,10,Die Bank liegt _____ der Post.,gegenüber,The bank is located across from the post office.,Die Bank liegt gegenüber der Post.
+427,10,Mein Haus steht direkt _____ dem Park.,gegenüber,My house is directly opposite the park.,Mein Haus steht direkt gegenüber dem Park.
+428,10,Er war immer freundlich _____ seinen Kollegen.,gegenüber,He was always friendly towards his colleagues.,Er war immer freundlich gegenüber seinen Kollegen.
+429,10,_____ dem letzten Jahr hat sich das Wetter verbessert.,Gegenüber,"Compared to last year, the weather has improved.",Gegenüber dem letzten Jahr hat sich das Wetter verbessert.
+430,10,Sie sass mir im Café _____ und hat gelächelt.,gegenüber,She sat across from me in the café and smiled.,Sie sass mir im Café gegenüber und hat gelächelt.
+431,10,_____ der Zeitung wird das Wetter morgen sonnig.,Laut,"According to the newspaper, the weather will be sunny tomorrow.",Laut der Zeitung wird das Wetter morgen sonnig.
+432,10,_____ dem Lehrer müssen wir das Buch bis nächste Woche lesen.,Laut,"According to the teacher, we have to read the book by next week.",Laut dem Lehrer müssen wir das Buch bis nächste Woche lesen.
+433,10,_____ einer Studie trinken Deutsche viel Kaffee.,Laut,"According to a study, Germans drink a lot of coffee.",Laut einer Studie trinken Deutsche viel Kaffee.
+434,10,_____ den Regeln ist das Rauchen hier verboten.,Laut,"According to the rules, smoking is prohibited here.",Laut den Regeln ist das Rauchen hier verboten.
+435,10,_____ meinem Freund ist das Restaurant sehr gut.,Laut,"According to my friend, the restaurant is very good.",Laut meinem Freund ist das Restaurant sehr gut.
+436,10,_____ der Stadt gibt es viele historische Gebäude.,Innerhalb,"Within the city, there are many historical buildings.",Innerhalb der Stadt gibt es viele historische Gebäude.
+437,10,Die Lieferung erfolgt _____ einer Woche.,innerhalb,The delivery will take place within a week.,Die Lieferung erfolgt innerhalb einer Woche.
+438,10,_____ des Unternehmens gab es viele Veränderungen.,Innerhalb,There have been many changes within the company.,Innerhalb des Unternehmens gab es viele Veränderungen.
+439,10,Bitte beantworten Sie die E-Mail _____ von 24 Stunden.,innerhalb,Please reply to the email within 24 hours.,Bitte beantworten Sie die E-Mail innerhalb von 24 Stunden.
+440,10,_____ der Schule gibt es strenge Regeln für die Nutzung von Handys.,Innerhalb,"Inside the school, there are strict rules for the use of mobile phones.",Innerhalb der Schule gibt es strenge Regeln für die Nutzung von Handys.
+441,10,_____ des Regens gingen wir spazieren.,Trotz,"Despite the rain, we went for a walk.",Trotz des Regens gingen wir spazieren.
+442,10,Er bestand die Prüfung _____ seiner Nervosität.,trotz,He passed the exam despite his nervousness.,Er bestand die Prüfung trotz seiner Nervosität.
+443,10,_____ des schlechten Wetters fand das Konzert draussen statt.,Trotz,"Despite the bad weather, the concert took place outside.",Trotz des schlechten Wetters fand das Konzert draussen statt.
+444,10,"Sie kam pünktlich, _____ des Verkehrs.",trotz,She arrived on time despite the traffic.,"Sie kam pünktlich, trotz des Verkehrs."
+445,10,_____ seiner Müdigkeit arbeitete er bis spät in die Nacht.,Trotz,"Despite his fatigue, he worked late into the night.",Trotz seiner Müdigkeit arbeitete er bis spät in die Nacht.
+446,10,Wir sind den ganzen Tag den Strand _____ gelaufen.,entlang,We walked along the beach all day.,Wir sind den ganzen Tag den Strand entlang gelaufen.
+447,10,_____ der Strasse stehen viele Bäume.,Entlang,Along the street there are many trees.,Entlang der Strasse stehen viele Bäume.
+448,10,Sie pflanzten Blumen _____ des Zauns.,entlang,They planted flowers along the fence.,Sie pflanzten Blumen entlang des Zauns.
+449,10,Der Zug fährt _____ der Küste.,entlang,The train travels along the coast.,Der Zug fährt entlang der Küste.
+450,10,_____ dieser Strecke gibt es viele Sehenswürdigkeiten.,Entlang,Along this stretch there are many sights.,Entlang dieser Strecke gibt es viele Sehenswürdigkeiten.
+451,10,_____ des Essens sollte man nicht telefonieren.,Während,"During the meal, one should not use the phone.",Während des Essens sollte man nicht telefonieren.
+452,10,Er blieb ruhig _____ des gesamten Meetings.,während,He stayed calm throughout the entire meeting.,Er blieb ruhig während des gesamten Meetings.
+453,10,_____ des Sommers fahren viele Menschen in den Urlaub.,Während,"During the summer, many people go on vacation.",Während des Sommers fahren viele Menschen in den Urlaub.
+454,10,Sie hat viel gelernt _____ ihres Studiums.,während,She learned a lot during her studies.,Sie hat viel gelernt während ihres Studiums.
+455,10,_____ der Nacht sind die Straßen oft leer.,Während,"During the night, the streets are often empty.",Während der Nacht sind die Straßen oft leer.
+456,11,"out of, from (conscious)",aus,,
+457,11,"out of, from (inconscious)",vor,,
+458,11,by (someone or something),von,,
+459,11,"by, through (an instrument)",durch,,
+460,11,"as opposed to, in contrast to, unlike",im gegensatz zu,,
+461,11,as a result of,infolge,,
+462,11,due to a lack of,mangels,,
+463,11,except,ausser,,
+464,11,including,inklusive,,
+465,11,in addition to,zusätzlich zu,,
+466,11,based on,anhand,,
+467,11,by means of,mittels,,
+468,11,thanks to,dank,,
+469,11,"in view of, considering",angesichts,,
+470,12,_____ seiner Hilfe konnten wir das Problem schnell lösen.,Dank,"Thanks to his help, we were able to solve the problem quickly.",Dank seiner Hilfe konnten wir das Problem schnell lösen.
+471,12,"Die Firma wächst stetig, _____ innovativer Ideen.",dank,The company is growing steadily thanks to innovative ideas.,"Die Firma wächst stetig, dank innovativer Ideen."
+472,12,_____ der modernen Medizin leben die Menschen länger.,Dank,"Thanks to modern medicine, people live longer.",Dank der modernen Medizin leben die Menschen länger.
+473,12,"Er hat die Prüfung bestanden, _____ seines intensiven Lernens.",dank,He passed the exam thanks to his intensive studying.,"Er hat die Prüfung bestanden, dank seines intensiven Lernens."
+474,12,_____ des guten Wetters konnten wir die Reise genießen.,Dank,"Thanks to the good weather, we were able to enjoy the trip.",Dank des guten Wetters konnten wir die Reise genießen.
+475,12,Die Identität des Täters wurde _____ DNA-Analyse bestätigt.,mittels,The identity of the perpetrator was confirmed using DNA analysis.,Die Identität des Täters wurde mittels DNA-Analyse bestätigt.
+476,12,Das Problem wurde _____ einer neuen Software gelöst.,mittels,The problem was solved by means of new software.,Das Problem wurde mittels einer neuen Software gelöst.
+477,12,_____ moderner Technologien kann die Effizienz gesteigert werden.,Mittels,Efficiency can be increased through modern technologies.,Mittels moderner Technologien kann die Effizienz gesteigert werden.
+478,12,Die Zahlung erfolgt _____ Kreditkarte oder Überweisung.,mittels,Payment is made by means of credit card or bank transfer.,Die Zahlung erfolgt mittels Kreditkarte oder Überweisung.
+479,12,Das Unternehmen optimiert seine Prozesse _____ künstlicher Intelligenz.,mittels,The company optimizes its processes using artificial intelligence.,Das Unternehmen optimiert seine Prozesse mittels künstlicher Intelligenz.
+480,12,Das Problem wurde _____ eine neue Methode gelöst.,durch,The problem was solved through a new method.,Das Problem wurde durch eine neue Methode gelöst.
+481,12,Die Stadt wurde _____ ein Erdbeben zerstört.,durch,The city was destroyed by an earthquake.,Die Stadt wurde durch ein Erdbeben zerstört.
+482,12,Die Tür wurde _____ einen starken Windstoß geöffnet.,durch,The door was opened by a strong gust of wind.,Die Tür wurde durch einen starken Windstoß geöffnet.
+483,12,Das Unternehmen wurde _____ eine Fusion gerettet.,durch,The company was saved through a merger.,Das Unternehmen wurde durch eine Fusion gerettet.
+484,12,Die Daten wurden _____ eine Software analysiert.,durch,The data was analyzed by a software program.,Die Daten wurden durch eine Software analysiert.
+485,12,Er half ihr _____ Freundlichkeit.,aus,He helped her out of kindness.,Er half ihr aus Freundlichkeit.
+486,12,Sie entschied sich _____ Vernunft für diesen Job.,aus,She chose this job out of reason.,Sie entschied sich aus Vernunft für diesen Job.
+487,12,_____ Respekt unterbrach er die Diskussion nicht.,Aus,"Out of respect, he didn’t interrupt the discussion.",Aus Respekt unterbrach er die Diskussion nicht.
+488,12,Er spendete Geld _____ Mitgefühl für die Opfer.,aus,He donated money out of compassion for the victims.,Er spendete Geld aus Mitgefühl für die Opfer.
+489,12,_____ Interesse besuchte sie das Seminar.,Aus,She attended the seminar out of interest.,Aus Interesse besuchte sie das Seminar.
+490,12,Er zitterte _____ Kälte.,vor,He was shivering from the cold.,Er zitterte vor Kälte.
+491,12,Sie weinte _____ Freude.,vor,She cried out of joy.,Sie weinte vor Freude.
+492,12,_____ Angst konnte er nicht sprechen.,Vor,"Out of fear, he couldn’t speak.",Vor Angst konnte er nicht sprechen.
+493,12,Er wurde _____ Schreck blass.,vor,He turned pale from shock.,Er wurde vor Schreck blass.
+494,12,Sie lachte _____ Erleichterung.,vor,She laughed out of relief.,Sie lachte vor Erleichterung.
+495,12,_____ ausreichender Beweise konnte der Verdächtige nicht verurteilt werden.,Mangels,"Due to a lack of sufficient evidence, the suspect could not be convicted.",Mangels ausreichender Beweise konnte der Verdächtige nicht verurteilt werden.
+496,12,_____ Erfahrung fiel ihm die Aufgabe besonders schwer.,Mangels,"Due to a lack of experience, the task was particularly difficult for him.",Mangels Erfahrung fiel ihm die Aufgabe besonders schwer.
+497,12,_____ finanzieller Mittel wurde das Projekt gestoppt.,Mangels,"Due to a lack of financial resources, the project was stopped.",Mangels finanzieller Mittel wurde das Projekt gestoppt.
+498,12,_____ Interesse wurde die Veranstaltung abgesagt.,Mangels,"Due to a lack of interest, the event was canceled.",Mangels Interesse wurde die Veranstaltung abgesagt.
+499,12,_____ besserer Alternativen entschied man sich für diese Lösung.,Mangels,"For lack of better alternatives, this solution was chosen.",Mangels besserer Alternativen entschied man sich für diese Lösung.
+500,12,Das Buch wurde _____ einem berühmten Autor geschrieben.,von,The book was written by a famous author.,Das Buch wurde von einem berühmten Autor geschrieben.
+501,12,Der Dieb wurde _____ der Polizei festgenommen.,von,The thief was arrested by the police.,Der Dieb wurde von der Polizei festgenommen.
+502,12,Die Brücke wurde _____ Ingenieuren geplant.,von,The bridge was designed by engineers.,Die Brücke wurde von Ingenieuren geplant.
+503,12,Der Fehler wurde _____ einem Mitarbeiter entdeckt.,von,The mistake was discovered by an employee.,Der Fehler wurde von einem Mitarbeiter entdeckt.
+504,12,Die Entscheidung wurde _____ der Geschäftsleitung getroffen.,von,The decision was made by the management.,Die Entscheidung wurde von der Geschäftsleitung getroffen.
+505,12,_____ seinen Kollegen arbeitet er lieber allein.,Im Gegensatz zu,"In contrast to his colleagues, he prefers to work alone.",Im Gegensatz zu seinen Kollegen arbeitet er lieber allein.
+506,12,_____ früheren Jahren hat sich das Klima stark verändert.,Im Gegensatz zu,"In contrast to previous years, the climate has changed significantly.",Im Gegensatz zu früheren Jahren hat sich das Klima stark verändert.
+507,12,_____ ihren Erwartungen war die Prüfung ziemlich schwer.,Im Gegensatz zu,"Contrary to her expectations, the exam was quite difficult.",Im Gegensatz zu ihren Erwartungen war die Prüfung ziemlich schwer.
+508,12,_____ vielen anderen Unternehmen setzt diese Firma auf Nachhaltigkeit.,Im Gegensatz zu,"Unlike many other companies, this firm focuses on sustainability.",Im Gegensatz zu vielen anderen Unternehmen setzt diese Firma auf Nachhaltigkeit.
+509,12,_____ meinem Bruder interessiere ich mich nicht für Sport.,Im Gegensatz zu,"Unlike my brother, I am not interested in sports.",Im Gegensatz zu meinem Bruder interessiere ich mich nicht für Sport.
+510,12,_____ der Statistik lässt sich der Trend klar erkennen.,Anhand,The trend can be clearly seen based on the statistics.,Anhand der Statistik lässt sich der Trend klar erkennen.
+511,12,_____ seiner Aussagen kann man die Situation besser verstehen.,Anhand,"Based on his statements, one can better understand the situation.",Anhand seiner Aussagen kann man die Situation besser verstehen.
+512,12,Die Qualität wird _____ verschiedener Kriterien bewertet.,anhand,The quality is assessed based on various criteria.,Die Qualität wird anhand verschiedener Kriterien bewertet.
+513,12,_____ dieser Beispiele wird das Problem deutlich.,Anhand,This problem becomes clear through these examples.,Anhand dieser Beispiele wird das Problem deutlich.
+514,12,Die Echtheit des Dokuments wurde _____ von Experten geprüft.,anhand,The authenticity of the document was verified by experts.,Die Echtheit des Dokuments wurde anhand von Experten geprüft.
+515,12,_____ ihm hat niemand die Prüfung bestanden.,Ausser,"Except for him, no one passed the exam.",Ausser ihm hat niemand die Prüfung bestanden.
+516,12,_____ finanziellen Problemen gibt es noch andere Herausforderungen.,Ausser,"Besides financial problems, there are other challenges.",Ausser finanziellen Problemen gibt es noch andere Herausforderungen.
+517,12,_____ in Deutschland wird dieses Produkt auch in Österreich verkauft.,Ausser,"Apart from Germany, this product is also sold in Austria.",Ausser in Deutschland wird dieses Produkt auch in Österreich verkauft.
+518,12,_____ bei starkem Regen gehen wir jeden Tag joggen.,Ausser,"Except in heavy rain, we go jogging every day.",Ausser bei starkem Regen gehen wir jeden Tag joggen.
+519,12,_____ seiner Familie hat er niemandem davon erzählt.,Ausser,"Apart from his family, he hasn’t told anyone about it.",Ausser seiner Familie hat er niemandem davon erzählt.
+520,12,_____ des starken Regens gab es Überschwemmungen in der Region.,Infolge,"As a result of the heavy rain, there were floods in the region.",Infolge des starken Regens gab es Überschwemmungen in der Region.
+521,12,_____ der Wirtschaftskrise mussten viele Unternehmen schließen.,Infolge,"Due to the economic crisis, many businesses had to close.",Infolge der Wirtschaftskrise mussten viele Unternehmen schließen.
+522,12,_____ eines technischen Fehlers wurde der Flug gestrichen.,Infolge,"Due to a technical error, the flight was canceled.",Infolge eines technischen Fehlers wurde der Flug gestrichen.
+523,12,_____ der neuen Gesetzesänderung gelten strengere Regeln für Unternehmen.,Infolge,"As a result of the new law change, stricter regulations apply to companies.",Infolge der neuen Gesetzesänderung gelten strengere Regeln für Unternehmen.
+524,12,_____ der schlechten Wetterbedingungen wurde das Event verschoben.,Infolge,"Due to bad weather conditions, the event was postponed.",Infolge der schlechten Wetterbedingungen wurde das Event verschoben.
+525,12,_____ der steigenden Kosten muss das Budget überarbeitet werden.,Angesichts,"In view of the rising costs, the budget must be revised.",Angesichts der steigenden Kosten muss das Budget überarbeitet werden.
+526,12,_____ der aktuellen Situation sollten wir vorsichtig sein.,Angesichts,"Given the current situation, we should be cautious.",Angesichts der aktuellen Situation sollten wir vorsichtig sein.
+527,12,_____ der wirtschaftlichen Lage werden viele Unternehmen vorsichtiger investieren.,Angesichts,"Considering the economic situation, many companies are investing more cautiously.",Angesichts der wirtschaftlichen Lage werden viele Unternehmen vorsichtiger investieren.
+528,12,_____ der Beweise konnte der Richter eine klare Entscheidung treffen.,Angesichts,"In light of the evidence, the judge was able to make a clear decision.",Angesichts der Beweise konnte der Richter eine klare Entscheidung treffen.
+529,12,_____ des Klimawandels müssen wir nachhaltiger leben.,Angesichts,"In view of climate change, we need to live more sustainably.",Angesichts des Klimawandels müssen wir nachhaltiger leben.
+530,12,Der Preis beträgt 100 Euro _____ Steuern.,inklusive,"The price is 100 euros, including taxes.",Der Preis beträgt 100 Euro inklusive Steuern.
+531,12,Das Hotel bietet ein Frühstücksbuffet _____ Getränke.,inklusive,"The hotel offers a breakfast buffet, including drinks.",Das Hotel bietet ein Frühstücksbuffet inklusive Getränke.
+532,12,Alle Teilnehmer erhalten ein Paket _____ Arbeitsmaterialien.,inklusive,"All participants receive a package, including work materials.",Alle Teilnehmer erhalten ein Paket inklusive Arbeitsmaterialien.
+533,12,Die Miete beträgt 900 Euro _____ Nebenkosten.,inklusive,"The rent is 900 euros, including utilities.",Die Miete beträgt 900 Euro inklusive Nebenkosten.
+534,12,Der Flugpreis ist _____ Gepäck und Sitzplatzreservierung.,inklusive,The flight price includes luggage and seat reservation.,Der Flugpreis ist inklusive Gepäck und Sitzplatzreservierung.
+535,12,_____ seinem Gehalt erhält er monatliche Boni.,Zusätzlich zu,"In addition to his salary, he receives monthly bonuses.",Zusätzlich zu seinem Gehalt erhält er monatliche Boni.
+536,12,_____ den Hausaufgaben müssen die Schüler ein Projekt vorbereiten.,Zusätzlich zu,"In addition to the homework, the students have to prepare a project.",Zusätzlich zu den Hausaufgaben müssen die Schüler ein Projekt vorbereiten.
+537,12,Sie hat _____ ihrem Studium einen Nebenjob.,zusätzlich zu,She has a part-time job in addition to her studies.,Sie hat zusätzlich zu ihrem Studium einen Nebenjob.
+538,12,_____ den üblichen Gebühren fallen noch Servicekosten an.,Zusätzlich zu,"In addition to the usual fees, there are also service costs.",Zusätzlich zu den üblichen Gebühren fallen noch Servicekosten an.
+539,12,Er trainiert _____ seinem normalen Sportprogramm dreimal pro Woche im Fitnessstudio.,zusätzlich zu,"In addition to his regular sports routine, he trains at the gym three times a week.",Er trainiert zusätzlich zu seinem normalen Sportprogramm dreimal pro Woche im Fitnessstudio.

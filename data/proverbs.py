@@ -4,9 +4,8 @@ import random
 
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-PROVERBS_PATH = os.path.join(BASE_DIR, "data", "proverbs.csv")
+PROVERBS_PATH = os.path.join(BASE_DIR, "datasets", "proverbs.csv")
 
-# PROVERBS_PATH = "data/proverbs.csv"
 proverbs = pd.read_csv(PROVERBS_PATH)
 
 

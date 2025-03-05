@@ -6,37 +6,18 @@
     <title>Imperativ</title>
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
+
+{% from "macros.html" import render_table_row %}
+
 <body>
     <h1>Imperativ</h1>
 
     <div class="section">
         <h2>A1</h2>
         <table class="level-table">
-            <tr>
-                <td><a href="/exercise/imperativ/level/1" class="button">Level 1</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('imperativ', 1, session) }}/{{ total_questions_by_exercise_and_level('imperativ', 1) }}</td>
-                <td>{{ description_templates['imperativ'].get(1, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/imperativ/level/2" class="button">Level 2</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('imperativ', 2, session) }}/{{ total_questions_by_exercise_and_level('imperativ', 2) }}</td>
-                <td>{{ description_templates['imperativ'].get(2, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/imperativ/level/3" class="button">Level 3</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('imperativ', 3, session) }}/{{ total_questions_by_exercise_and_level('imperativ', 3) }}</td>
-                <td>{{ description_templates['imperativ'].get(3, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/imperativ/level/4" class="button">Level 4</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('imperativ', 4, session) }}/{{ total_questions_by_exercise_and_level('imperativ', 4) }}</td>
-                <td>{{ description_templates['imperativ'].get(4, "") }}</td>
-            </tr>
-            <tr>
-                <td><a href="/exercise/imperativ/level/5" class="button">Level 5</a></td>
-                <td>{{ answered_questions_by_exercise_and_level('imperativ', 5, session) }}/{{ total_questions_by_exercise_and_level('imperativ', 5) }}</td>
-                <td>{{ description_templates['imperativ'].get(5, "") }}</td>
-            </tr>
+            {{ render_table_row("imperativ", 1, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("imperativ", 2, session, answered_questions, total_questions, description_templates) }}
+            {{ render_table_row("imperativ", 3, session, answered_questions, total_questions, description_templates) }}
         </table>
     </div>
 
