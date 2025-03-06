@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
 # TODO Priority
 # Pronomen: relativsaetze wo wohin woher
-# score when finishing a level (current should be progress)
+# add verfügen über
 
 
 # TODO Exercises
@@ -36,7 +36,6 @@ if __name__ == "__main__":
 # Articles: genitive articles
 # Possessive pronomen
 # Possessive article
-# einzige -> adjective instead of adverb
 
 
 # TODO Format
@@ -45,6 +44,6 @@ if __name__ == "__main__":
 # How to have ss in the answer (adjektivedeklinationen)
 
 # Framework
-# Learn & Discover
-# Practice & Reinforce / Consolidate
-# Apply & Summarize
+# Learn, Discover and Play
+# Review, Practice and Reinforce
+# Consolidate, Summarize and Apply

@@ -1,7 +1,8 @@
-{% macro render_table_row(exercise, level, session, answered_questions, total_questions, description_templates) %}
+{% macro render_table_row(exercise, level, session, answered_questions, total_questions, score, description_templates) %}
     <tr>
         <td><a href="/exercise/{{ exercise }}/level/{{ level }}" class="button">Level {{ level }}</a></td>
         <td>{{ answered_questions(exercise, level=level, session=session) }}/{{ total_questions(exercise, level=level) }}</td>
+        <td>{{ score(exercise, level=level, session=session) }}</td>
         <td>{{ description_templates[exercise].get(level, "") }}</td>
     </tr>
 {% endmacro %}

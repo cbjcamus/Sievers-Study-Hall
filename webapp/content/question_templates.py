@@ -4,19 +4,19 @@ from data.exercises import (artikel, pronomen, konnektoren, praepositionen_gramm
 
 QUESTION_TEMPLATES = {
     artikel: {
-        1: "Find the nominative, definite article that fits in the following sentence:"
+        1: "Find the nominative definite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
-        2: "Find the accusative, definite article that fits in the following sentence:"
+        2: "Find the accusative definite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
-        3: "Find the dative, definite article that fits in the following sentence:"
+        3: "Find the dative definite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
         4: "Find the definite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
-        5: "Find the nominative, indefinite article that fits in the following sentence:"
+        5: "Find the nominative indefinite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
-        6: "Find the accusative, indefinite article that fits in the following sentence:"
+        6: "Find the accusative indefinite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
-        7: "Find the dative, indefinite article that fits in the following sentence:"
+        7: "Find the dative indefinite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
         8: "Find the indefinite article that fits in the following sentence:"
            "<br><br>{question} \u25CF {gender}",
@@ -52,13 +52,13 @@ QUESTION_TEMPLATES = {
         8: "Find the missing pronoun in the following sentence:"
            "<br><br>{question}"
            "<br><br>{english}",
-        9: "Find the missing nominative, relative pronoun in the following sentence:"
+        9: "Find the missing nominative relative pronoun in the following sentence:"
            "<br><br>{question}",
-        10: "Find the missing accusative, relative pronoun in the following sentence:"
+        10: "Find the missing accusative relative pronoun in the following sentence:"
             "<br><br>{question}",
-        11: "Find the missing dative, relative pronoun in the following sentence:"
+        11: "Find the missing dative relative pronoun in the following sentence:"
             "<br><br>{question}",
-        12: "Find the missing genitive, relative pronoun in the following sentence:"
+        12: "Find the missing genitive relative pronoun in the following sentence:"
             "<br><br>{question}",
         13: "Find the missing relative pronoun in the following sentence:"
             "<br><br>{question}",
@@ -246,15 +246,15 @@ QUESTION_TEMPLATES = {
     },
 
     praeteritum: {
-        1: "Find the präteritum of the following verb:"
+        1: "Find the Präteritum of the following verb:"
            "<br><br>{question} \u25CF {person} _____",
-        2: "Find the präteritum (3rd Person Singular) of the following verb:"
+        2: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
-        3: "Find the präteritum (3rd Person Singular) of the following verb:"
+        3: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
-        4: "Find the präteritum (3rd Person Singular) of the following verb:"
+        4: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
-        5: "Find the präteritum (3rd Person Singular) of the following verb:"
+        5: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
     },
 
@@ -272,7 +272,7 @@ QUESTION_TEMPLATES = {
     },
 
     konjunktiv: {
-        1: "Find the konjunktiv II of the following verb:"
+        1: "Find the Konjunktiv II of the following verb:"
            "<br><br>{question} \u25CF {person} _____",
     },
 
@@ -295,6 +295,11 @@ QUESTION_TEMPLATES = {
         7: "Find the translation of the following adverb:"
            "<br><br><strong>{question}</strong>",
         8: "Find the missing adverb in the following sentence:"
+           "<br><br>{question}"
+           "<br><br>{english}",
+        9: "Find the translation of the following adverb:"
+           "<br><br><strong>{question}</strong>",
+        10: "Find the missing adverb in the following sentence:"
            "<br><br>{question}"
            "<br><br>{english}",
     },

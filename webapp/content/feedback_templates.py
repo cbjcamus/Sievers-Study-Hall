@@ -237,5 +237,8 @@ FEEDBACK_TEMPLATES = {
         7: "{previous_question} = {correct_answers}",
         8: "{german}"
            "<br><br>{english}",
+        9: "{previous_question} = {correct_answers}",
+        10: "{german}"
+           "<br><br>{english}",
     },
 }

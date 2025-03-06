@@ -15,26 +15,31 @@
             <tr>
                 <td><a href="/artikel" class="button">Artikel</a></td>
                 <td>{{ answered_questions('artikel', session=session) }}/{{ total_questions('artikel') }}</td>
+                <td>{{ score('artikel', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/pronomen" class="button">Pronomen</a></td>
                 <td>{{ answered_questions('pronomen', session=session) }}/{{ total_questions('pronomen') }}</td>
+                <td>{{ score('pronomen', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/konnektoren" class="button">Konnektoren</a></td>
                 <td>{{ answered_questions('konnektoren', session=session) }}/{{ total_questions('konnektoren') }}</td>
+                <td>{{ score('konnektoren', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/praepositionen_grammatik" class="button">Präpositionen</a></td>
                 <td>{{ answered_questions('praepositionen_grammatik', session=session) }}/{{ total_questions('praepositionen_grammatik') }}</td>
+                <td>{{ score('praepositionen_grammatik', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/adjektivdeklinationen" class="button">Adjektivdeklinationen</a></td>
                 <td>{{ answered_questions('adjektivdeklinationen', session=session) }}/{{ total_questions('adjektivdeklinationen') }}</td>
+                <td>{{ score('adjektivdeklinationen', session=session) }}</td>
                 <td></td>
             </tr>
         </table>
@@ -46,31 +51,37 @@
             <tr>
                 <td><a href="/praesens" class="button">Präsens</a></td>
                 <td>{{ answered_questions('praesens', session=session) }}/{{ total_questions('praesens') }}</td>
+                <td>{{ score('praesens', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/praepositionen_konjugation" class="button">Präpositionen</a></td>
                 <td>{{ answered_questions('praepositionen_konjugation', session=session) }}/{{ total_questions('praepositionen_konjugation') }}</td>
+                <td>{{ score('praepositionen_konjugation', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/perfekt" class="button">Perfekt</a></td>
                 <td>{{ answered_questions('perfekt', session=session) }}/{{ total_questions('perfekt') }}</td>
+                <td>{{ score('perfekt', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/praeteritum" class="button">Präteritum</a></td>
                 <td>{{ answered_questions('praeteritum', session=session) }}/{{ total_questions('praeteritum') }}</td>
+                <td>{{ score('praeteritum', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/imperativ" class="button">Imperativ</a></td>
                 <td>{{ answered_questions('imperativ', session=session) }}/{{ total_questions('imperativ') }}</td>
+                <td>{{ score('imperativ', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="/konjunktiv" class="button">Konjunktiv II</a></td>
                 <td>{{ answered_questions('konjunktiv', session=session) }}/{{ total_questions('konjunktiv') }}</td>
+                <td>{{ score('konjunktiv', session=session) }}</td>
                 <td></td>
             </tr>
         </table>
@@ -82,6 +93,7 @@
             <tr>
                 <td><a href="/adverbien" class="button">Adverbien</a></td>
                 <td>{{ answered_questions('adverbien', session=session) }}/{{ total_questions('adverbien') }}</td>
+                <td>{{ score('adverbien', session=session) }}</td>
                 <td></td>
             </tr>
         </table>

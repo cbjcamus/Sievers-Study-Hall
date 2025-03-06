@@ -3,28 +3,36 @@ adjektiv,phantastisch,fantastisch
 adjektiv,selbstständig,selbständig
 adverbien,draussen,aussen
 adverbien,weiterhin,ausserdem
+adverbien,wohl,vielleicht
 adverbien,zudem,ausserdem
 adverbien,insbesondere,besonders
 adverbien,bzw,beziehungsweise
 adverbien,bzw.,beziehungsweise
 adverbien,bislang,bisher
 adverbien,etwa,circa
+adverbien,nirgends,nirgendwo
+adverbien,nirgendswo,nirgendwo
 adverbien,zirka,circa
 adverbien,anschliessend,danach
 adverbien,umso,desto
+adverbien,da,dort
 adverbien,tatsächlich,eigentlich
 adverbien,einst,einmal
 adverbien,letztlich,endlich
 adverbien,schliesslich,endlich
 adverbien,zuletzt,endlich
+adverbien,nahezu,fast
+adverbien,beinahe,fast
 adverbien,überhaupt,gar
 adverbien,zugleich,gleichzeitig
 adverbien,heut,heute
 adverbien,ständig,immer
 adverbien,stets,immer
 adverbien,drinnen,innen
+adverbien,niemals,nie
 adverbien,in der Zwischenzeit,inzwischen
 adverbien,mittlerweile,inzwischen
+adverbien,nun,jetzt
 adverbien,größtenteils,meistens
 adverbien,wenigstens,mindestens
 adverbien,zumindest,mindestens
@@ -38,6 +46,7 @@ adverbien,usw.,und so weiter
 adverbien,anfänglich,ürsprunglich
 adverbien,möglicherweise,vielleicht
 adverbien,kürzlich,vor kurzem
+adverbien,neulich,vor kurzem
 adverbien,davor,vorher
 adverbien,zuvor,vorher
 adverbien,nochmal,wieder

@@ -35,7 +35,14 @@ def compute_answered_questions(exercise, level=None, session=None):
             return int(answered_questions)
         else:
             for level in range(1, compute_highest_level(exercise) + 1):
-                answered_questions = answered_questions + 0 # answered_questions(exercise, level, session=session)
+                level = str(level)
+                if "progress" in session and exercise in session["progress"]:
+                    if level in session["progress"][exercise]:
+                        answered_questions = answered_questions + sum(session["progress"][exercise][level].values())
+                    else:
+                        answered_questions = answered_questions + 0
+                else:
+                    answered_questions = answered_questions + 0
             return int(answered_questions)
 
     else:
@@ -52,13 +59,58 @@ def compute_answered_questions(exercise, level=None, session=None):
 
         else:
             level = str(level)
-            if exercise in session:
-                if level in session[exercise]:
-                    return sum(session[exercise][level].values())
+            if "progress" in session and exercise in session["progress"]:
+                if level in session["progress"][exercise]:
+                    return sum(session["progress"][exercise][level].values())
                 else:
                     return 0
             else:
                 return 0
+
+
+def compute_score(exercise, level=None, session=None):
+    if level is None:
+        if session is None:
+            return "0%"
+        else:
+            trues = 0
+            falses = 0
+            if "score" in session and exercise in session['score']:
+                for level in range(1, compute_highest_level(exercise) + 1):
+                    if str(level) in session["score"][exercise]:
+                        trues = trues + compute_trues(exercise, level, session)
+                        falses = falses + compute_falses(exercise, level, session)
+
+                return compute_fraction(trues, falses)
+            else:
+                return "0%"
+
+    else:
+        if session is None:
+            return "0%"
+        else:
+            if "score" in session and exercise in session["score"] and str(level) in session["score"][exercise]:
+                trues = compute_trues(exercise, level, session)
+                falses = compute_falses(exercise, level, session)
+                return compute_fraction(trues, falses)
+            else:
+                return "0%"
+
+
+def compute_fraction(trues, falses):
+    if trues + falses == 0:
+        return "0%"
+
+    else:
+        return f"{int(100 * trues / (trues + falses))}%"
+
+
+def compute_trues(exercise, level, session):
+    return sum(1 for val in session["score"][exercise][str(level)].values() if val is True)
+
+
+def compute_falses(exercise, level, session):
+    return sum(1 for val in session["score"][exercise][str(level)].values() if val is False)
 
 
 def compute_highest_level(exercise):

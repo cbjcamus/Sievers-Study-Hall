@@ -8,25 +8,33 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
 }
 
 .level-title {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .section-title {
     text-align: left;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .section {
     text-align: left;
     margin-bottom: 20px;
+    font-weight: normal;
 }
 
 .button-container {
@@ -93,15 +101,19 @@ h1 {
 }
 
 .level-table td:nth-child(1) {
-    width: 16.66%; /* 1/6 */
+    width: 16.66%;
 }
 
 .level-table td:nth-child(2) {
-    width: 16.66%; /* 1/6 */
+    width: 8.33%;
 }
 
 .level-table td:nth-child(3) {
-    width: 66.66%; /* 4/6 */
+    width: 8.33%;
+}
+
+.level-table td:nth-child(4) {
+    width: 66.66%;
 }
 
 .level-table td a.button {

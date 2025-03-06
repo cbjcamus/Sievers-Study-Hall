@@ -5,16 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/synonyms.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/feedback_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/progress.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/progress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/proverbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/proverbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/adverbien.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praepositionen_grammatik.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/praepositionen_konjugation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praepositionen_konjugation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/description_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/description_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/feedback_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/question_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/question_templates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/static/exercise_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/exercise_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/adjektivdeklinationen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/adjektivdeklinationen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/artikel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/imperativ.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/imperativ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjunktiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjunktiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konnektoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konnektoren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/perfekt.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/perfekt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen_grammatik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen_konjugation.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen_konjugation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praesens.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praesens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praeteritum.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praeteritum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/pronomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/pronomen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -102,11 +122,11 @@
       <recent name="$PROJECT_DIR$/menus" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/webapp/content" />
       <recent name="$PROJECT_DIR$/desktop_app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/exercises" />
-      <recent name="$PROJECT_DIR$/menus/artikel" />
-      <recent name="$PROJECT_DIR$/bin" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740927895138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1741020616423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741020616423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1741170172451</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741170172451</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

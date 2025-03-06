@@ -19,7 +19,7 @@ def get_text_proverb():
     random_number = random.random()
     if random_number > 0.8:
         text = (f"\"{proverb['german']}\""
-                f"\n\n{proverb['english']}")
+                f"<br><br>{proverb['english']}")
     else:
         text = ""
     return text
