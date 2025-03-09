@@ -1,6 +1,6 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                            praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                            verben, adjektive, adverbien)
+from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
+                                       verben, adjektive, adverbien)
 
 DESCRIPTION_TEMPLATES = {
     artikel: {
@@ -60,6 +60,11 @@ DESCRIPTION_TEMPLATES = {
         10: "Familiar (B1) prepositions in sentences",
         11: "Common (B2) prepositions in isolation",
         12: "Common (B2) prepositions in sentences",
+        13: "Durch vs. Von in sentences",
+        14: "Aus vs. Vor in sentences",
+        15: "Zu vs. Für in sentences",
+        16: "Prevalent (C1) prepositions in isolation",
+        17: "Prevalent (C1) prepositions in sentences",
     },
 
     adjektivdeklinationen: {
@@ -147,9 +152,33 @@ DESCRIPTION_TEMPLATES = {
         4: "Simple (A2) Adverbs in sentences",
         5: "Familiar (B1) Adverbs in isolation",
         6: "Familiar (B1) Adverbs in sentences",
-        7: "Common (B2) Adverbs in isolation",
-        8: "Common (B2) Adverbs in sentences",
-        9: "Prevalent (C1) Adverbs in isolation",
-        10: "Prevalent (C1) Adverbs in sentences",
+        7: "Familiar (B1) Adverbs in isolation",
+        8: "Familiar (B1) Adverbs in sentences",
+        9: "Common (B2) Adverbs in isolation",
+        10: "Common (B2) Adverbs in sentences",
+        11: "Common (B2) Adverbs in isolation",
+        12: "Common (B2) Adverbs in sentences",
+        13: "Her and Hin Adverbs in isolation",
+        14: "Her and Hin Adverbs in sentences",
+    },
+
+    verben: {
+        1: "General A1 Verbs",
+        2: "General A1 Verbs",
+        3: "General A2 Verbs",
+        4: "General A2 Verbs",
+        5: "General B1 Verbs",
+        6: "General B1 Verbs",
+        7: "Free time, Hobbies, Traveling, and Relaxing Verbs",
+        8: "Food, Beverage, and Cooking Verbs",
+        9: "Learning, Studying, and Researching Verbs",
+        10: "Senses and Emotions Verbs",
+        11: "General B2 Verbs",
+        12: "Speaking and Thinking Verbs",
+        13: "Workplace, Economy, and Production Verbs",
+        14: "Society, Government, and Media Verbs",
+        15: "Money Verbs",
+        16: "Verbs derived from adjectives",
+        17: "Transitive Verbs",
     },
 }

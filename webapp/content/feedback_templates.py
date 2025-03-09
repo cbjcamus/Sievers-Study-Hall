@@ -1,6 +1,6 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                            praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                            verben, adjektive, adverbien)
+from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
+                                       verben, adjektive, adverbien)
 
 FEEDBACK_TEMPLATES = {
     artikel: {
@@ -88,6 +88,15 @@ FEEDBACK_TEMPLATES = {
            "<br><br>{english}",
         11: "{previous_question} = {correct_answers}",
         12: "{german}"
+            "<br><br>{english}",
+        13: "{german}"
+            "<br><br>{english}",
+        14: "{german}"
+            "<br><br>{english}",
+        15: "{german}"
+            "<br><br>{english}",
+        16: "{previous_question} = {correct_answers}",
+        17: "{german}"
             "<br><br>{english}",
     },
 
@@ -240,5 +249,33 @@ FEEDBACK_TEMPLATES = {
         9: "{previous_question} = {correct_answers}",
         10: "{german}"
            "<br><br>{english}",
+        11: "{previous_question} = {correct_answers}",
+        12: "{german}"
+            "<br><br>{english}",
+        13: "{previous_question} = {correct_answers}",
+        14: "{german}"
+            "<br><br>{english}",
+    },
+
+    verben:{
+        1: "{previous_question} = {correct_answers}",
+        2: "{previous_question} = {correct_answers}",
+        3: "{previous_question} = {correct_answers}",
+        4: "{previous_question} = {correct_answers}",
+        5: "{previous_question} = {correct_answers}",
+        6: "{previous_question} = {correct_answers}",
+        7: "{previous_question} = {correct_answers}",
+        8: "{previous_question} = {correct_answers}",
+        9: "{previous_question} = {correct_answers}",
+        10: "{previous_question} = {correct_answers}",
+        11: "{previous_question} = {correct_answers}",
+        12: "{previous_question} = {correct_answers}",
+        13: "{previous_question} = {correct_answers}",
+        14: "{previous_question} = {correct_answers}",
+        15: "{previous_question} = {correct_answers}",
+        16: "{previous_question} = {correct_answers}",
+        17: "{previous_question} = {correct_answers}",
+        18: "{previous_question} = {correct_answers}",
+        19: "{previous_question} = {correct_answers}",
     },
 }

@@ -1,8 +1,8 @@
 import os
 
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                            praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                            verben, adjektive, adverbien)
+from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
+                                       verben, adjektive, adverbien)
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -19,9 +19,9 @@ DATA_PATH = {artikel: os.path.join(BASE_DIR, "datasets", "artikel.csv"),
              praeteritum: os.path.join(BASE_DIR, "datasets", "praeteritum.csv"),
              konjunktiv: os.path.join(BASE_DIR, "datasets", "konjunktiv.csv"),
 
+             adverbien: os.path.join(BASE_DIR, "datasets", "adverbien.csv"),
              verben: os.path.join(BASE_DIR, "datasets", "verben.csv"),
              adjektive: os.path.join(BASE_DIR, "datasets", "adjektive.csv"),
-             adverbien: os.path.join(BASE_DIR, "datasets", "adverbien.csv"),
              }
 
 EXERCISE_PAGES = {
@@ -38,9 +38,9 @@ EXERCISE_PAGES = {
     praeteritum: "/praeteritum",
     konjunktiv: "/konjunktiv",
 
+    adverbien: "/adverbien",
     verben: "/verben",
     adjektive: "/adjektive",
-    adverbien: "/adverbien",
 }
 
 SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),

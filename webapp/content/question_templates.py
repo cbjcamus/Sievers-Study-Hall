@@ -1,6 +1,6 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                            praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                            verben, adjektive, adverbien)
+from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
+                                       verben, adjektive, adverbien)
 
 QUESTION_TEMPLATES = {
     artikel: {
@@ -121,6 +121,20 @@ QUESTION_TEMPLATES = {
         11: "Find the translation of the following preposition:"
             "<br><br>{question}",
         12: "Find the preposition that fits in the following sentence:"
+            "<br><br>{question}"
+            "<br><br>{english}",
+        13: "Find the preposition (durch or von) that fits in the following sentence:"
+            "<br><br>{question}"
+            "<br><br>{english}",
+        14: "Find the preposition (aus or vor) that fits in the following sentence:"
+            "<br><br>{question}"
+            "<br><br>{english}",
+        15: "Find the preposition (zu or für) and article that fits in the following sentence:"
+            "<br><br>{question}"
+            "<br><br>{english}",
+        16: "Find the translation of the following preposition:"
+            "<br><br>{question}",
+        17: "Find the preposition that fits in the following sentence:"
             "<br><br>{question}"
             "<br><br>{english}",
     },
@@ -302,5 +316,56 @@ QUESTION_TEMPLATES = {
         10: "Find the missing adverb in the following sentence:"
            "<br><br>{question}"
            "<br><br>{english}",
+        11: "Find the translation of the following adverb:"
+           "<br><br><strong>{question}</strong>",
+        12: "Find the missing adverb in the following sentence:"
+            "<br><br>{question}"
+            "<br><br>{english}",
+        13: "Find the translation of the following adverb:"
+            "<br><br><strong>{question}</strong>",
+        14: "Find the missing adverb in the following sentence:"
+            "<br><br>{question}"
+            "<br><br>{english}",
     },
+
+    verben: {
+        1: "Find the translation of the following verb:"
+            "<br><br><strong>{question}</strong>",
+        2: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        3: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        4: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        5: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        6: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        7: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        8: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        9: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        10: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        11: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        12: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        13: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        14: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        15: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        16: "Find the translation of the following verb:"
+           "<br><br><strong>{question}</strong>",
+        17: "Find the translation of the following verb:"
+            "<br><br><strong>{question}</strong>",
+        18: "Find the translation of the following verb:"
+            "<br><br><strong>{question}</strong>",
+        19: "Find the translation of the following verb:"
+            "<br><br><strong>{question}</strong>",
+    }
 }

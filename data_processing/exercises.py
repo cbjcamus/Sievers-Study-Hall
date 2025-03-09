@@ -11,11 +11,11 @@ perfekt = 'perfekt'
 praeteritum = 'praeteritum'
 konjunktiv = 'konjunktiv'
 
+adverbien = 'adverbien'
 verben = 'verben'
 adjektive = 'adjektive'
-adverbien = 'adverbien'
 
 exercises = [artikel, pronomen, praepositionen_grammatik, konnektoren, adjektivdeklinationen,
              praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-             verben, adjektive, adverbien,
+             adverbien, verben, adjektive,
              ]

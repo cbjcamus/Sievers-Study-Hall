@@ -1,6 +1,6 @@
-from data.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                            praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                            verben, adjektive, adverbien)
+from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
+                                       adverbien, verben, adjektive, )
 
 TITLE_PAGE = {
     artikel: "Artikel",
@@ -17,4 +17,5 @@ TITLE_PAGE = {
     konjunktiv: "Konjunktiv II",
 
     adverbien: "Adverbien",
+    verben: "Verben"
                }

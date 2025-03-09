@@ -1,10 +1,16 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for
 
-from data.normalization import normalization, get_answers
-from data.paths import EXERCISE_PAGES
-from data.progress import compute_answered_questions, compute_total_questions, compute_score
-from data.data_loading import load_data, pick_a_question
-from data.proverbs import get_text_proverb
+
+from data_processing.normalization import normalization, get_answers
+from data_processing.paths import EXERCISE_PAGES
+from data_processing.session_management.progress import compute_answered_questions
+from data_processing.session_management.total_questions import compute_total_questions
+from data_processing.session_management.score import write_score
+from data_processing.data_loading import load_data, pick_a_question
+from data_processing.proverbs import get_text_proverb
+from data_processing.session_management.session_ import progress, score, result
+from data_processing.session_management.result import register_result
+from data_processing.session_management.conditions import level_finished
 
 from webapp.content.title_page import TITLE_PAGE
 from webapp.content.feedback_templates import FEEDBACK_TEMPLATES
@@ -15,19 +21,22 @@ routes = Blueprint("routes", __name__)
 
 @routes.before_request
 def ensure_session_keys_exist():
-    """Ensure that 'progress' and 'score' exist in the session before handling any request."""
-    if "progress" not in session:
-        session["progress"] = {}
-    if "score" not in session:
-        session["score"] = {}
+    """Ensure that progress, score, and result exist in the session before handling any request."""
+    if progress not in session:
+        session[progress] = {}
+    if score not in session:
+        session[score] = {}
+    if result not in session:
+        session[result] = {}
 
+    # session.clear()
 
 @routes.route('/')
 def home():
     return render_template('home.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            )
 
 
@@ -36,7 +45,7 @@ def artikel():
     return render_template('artikel.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -45,7 +54,7 @@ def pronomen():
     return render_template('pronomen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -54,7 +63,7 @@ def konnektoren():
     return render_template('konnektoren.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -63,7 +72,7 @@ def praepositionen_grammatik():
     return render_template('praepositionen_grammatik.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -72,7 +81,7 @@ def adjektivdeklinationen():
     return render_template('adjektivdeklinationen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -81,7 +90,7 @@ def praesens():
     return render_template('praesens.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -90,7 +99,7 @@ def praepositionen_konjugation():
     return render_template('praepositionen_konjugation.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -99,7 +108,7 @@ def perfekt():
     return render_template('perfekt.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -108,7 +117,7 @@ def praeteritum():
     return render_template('praeteritum.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -117,7 +126,7 @@ def imperativ():
     return render_template('imperativ.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -126,7 +135,7 @@ def konjunktiv():
     return render_template('konjunktiv.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
@@ -135,32 +144,58 @@ def adverbien():
     return render_template('adverbien.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
-                           score=compute_score,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/verben')
+def verben():
+    return render_template('verben.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
 @routes.route('/exercise/<exercise>/level/<int:level>')
 def exercise(exercise, level):
-    if "progress" in session and exercise in session["progress"] and str(level) in session["progress"][exercise]:
+    '''
+    if progress in session and exercise in session[progress] and str(level) in session[progress][exercise]:
         data = load_data(exercise, level)
 
-        answered_nrs = set(session["progress"][exercise][str(level)].keys())
+        answered_nrs = set(session[progress][exercise][str(level)].keys())
 
         if set(data["Nr"].astype(str)) == answered_nrs:
+            print_session(session)
+            register_result(exercise, level, session)
+            print_session(session)
             return render_template("exercise_completed.html",
                                    exercise=exercise,
                                    level=level,
                                    exercise_pages=EXERCISE_PAGES,
-                                   title_page=TITLE_PAGE,)
+                                   title_page=TITLE_PAGE,
+                                   )
+    '''
+
+    if level_finished(exercise, level, session) is True:
+        register_result(exercise, level, session)
+        return render_template("exercise_completed.html",
+                               exercise=exercise,
+                               level=level,
+                               exercise_pages=EXERCISE_PAGES,
+                               title_page=TITLE_PAGE,
+                               )
 
     question_data = pick_a_question(session, exercise, level)
 
+    '''
     if question_data is None:
         return render_template("exercise_completed.html",
                                exercise=exercise,
                                level=level,
                                exercise_pages=EXERCISE_PAGES,
-                               title_page=TITLE_PAGE,)
+                               title_page=TITLE_PAGE,)                        
+    '''
 
     # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
@@ -246,22 +281,22 @@ def check_answer(exercise, level):
     }
 
     # Initialize score storage if missing
-    if exercise not in session["score"]:
-        session["score"][exercise] = {}
-    if str(level) not in session["score"][exercise]:
-        session["score"][exercise][str(level)] = {}
+    if exercise not in session[score]:
+        session[score][exercise] = {}
+    if str(level) not in session[score][exercise]:
+        session[score][exercise][str(level)] = {}
 
     if user_answer == correct_answer:
-        session_data = session["progress"].get(exercise, {})
+        session_data = session[progress].get(exercise, {})
         session_data.setdefault(str(level), {})
         session_data[str(level)][nr] = 1
-        session["progress"][exercise] = session_data
-        session["progress"].setdefault(exercise, {}).setdefault(str(level), {})[nr] = 1
+        session[progress][exercise] = session_data
+        session[progress].setdefault(exercise, {}).setdefault(str(level), {})[nr] = 1
 
     if not user_answer == correct_answer:
-        session["score"][exercise][str(level)][nr] = False
-    elif nr not in session["score"][exercise][str(level)]:
-        session["score"][exercise][str(level)][nr] = True
+        session[score][exercise][str(level)][nr] = False
+    elif nr not in session[score][exercise][str(level)]:
+        session[score][exercise][str(level)][nr] = True
 
     session.modified = True
 
@@ -280,11 +315,14 @@ def reset_exercise(exercise, level):
 @routes.route('/reset/<exercise>/level/<int:level>', methods=['POST'])
 def reset_exercise(exercise, level):
     """Clears progress for a specific exercise level and removes any stored feedback."""
-    if "progress" in session and exercise in session["progress"] and str(level) in session["progress"][exercise]:
-        del session["progress"][exercise][str(level)]
+    if progress in session and exercise in session[progress] and str(level) in session[progress][exercise]:
+        del session[progress][exercise][str(level)]
 
-    if "score" in session and exercise in session["score"] and str(level) in session["score"][exercise]:
-        del session["score"][exercise][str(level)]
+    if score in session and exercise in session[score] and str(level) in session[score][exercise]:
+        del session[score][exercise][str(level)]
+
+    if result in session and exercise in session[result] and str(level) in session[result][exercise]:
+        del session[result][exercise][str(level)]
 
     session.pop(f"{exercise}_result", None)  # Clear any stored feedback
     session.modified = True

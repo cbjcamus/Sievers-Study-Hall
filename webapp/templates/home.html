@@ -96,6 +96,12 @@
                 <td>{{ score('adverbien', session=session) }}</td>
                 <td></td>
             </tr>
+            <tr>
+                <td><a href="/verben" class="button">Verben</a></td>
+                <td>{{ answered_questions('verben', session=session) }}/{{ total_questions('verben') }}</td>
+                <td>{{ score('verben', session=session) }}</td>
+                <td></td>
+            </tr>
         </table>
     </div>
 

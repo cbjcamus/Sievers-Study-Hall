@@ -3,19 +3,20 @@ adjektiv,phantastisch,fantastisch
 adjektiv,selbstständig,selbständig
 adverbien,draussen,aussen
 adverbien,weiterhin,ausserdem
-adverbien,wohl,vielleicht
 adverbien,zudem,ausserdem
 adverbien,insbesondere,besonders
+adverbien,vor allem,besonders
 adverbien,bzw,beziehungsweise
 adverbien,bzw.,beziehungsweise
 adverbien,bislang,bisher
 adverbien,etwa,circa
-adverbien,nirgends,nirgendwo
-adverbien,nirgendswo,nirgendwo
 adverbien,zirka,circa
+adverbien,dort drüben,da drüben
 adverbien,anschliessend,danach
 adverbien,umso,desto
 adverbien,da,dort
+adverbien,daher,dorther
+adverbien,dahin,dorthin
 adverbien,tatsächlich,eigentlich
 adverbien,einst,einmal
 adverbien,letztlich,endlich
@@ -25,11 +26,14 @@ adverbien,nahezu,fast
 adverbien,beinahe,fast
 adverbien,überhaupt,gar
 adverbien,zugleich,gleichzeitig
+adverbien,rauf,herauf
+adverbien,raus,heraus
+adverbien,rein,herein
+adverbien,runter,herunter
 adverbien,heut,heute
 adverbien,ständig,immer
 adverbien,stets,immer
 adverbien,drinnen,innen
-adverbien,niemals,nie
 adverbien,in der Zwischenzeit,inzwischen
 adverbien,mittlerweile,inzwischen
 adverbien,nun,jetzt
@@ -37,6 +41,9 @@ adverbien,größtenteils,meistens
 adverbien,wenigstens,mindestens
 adverbien,zumindest,mindestens
 adverbien,selbstverständlich,natürlich
+adverbien,niemals,nie
+adverbien,nirgends,nirgendwo
+adverbien,nirgendswo,nirgendwo
 adverbien,lediglich,nur
 adverbien,häufig,oft
 adverbien,bereits,schon
@@ -44,6 +51,7 @@ adverbien,ohnehin,sowieso
 adverbien,usw,und so weiter
 adverbien,usw.,und so weiter
 adverbien,anfänglich,ürsprunglich
+adverbien,wohl,vielleicht
 adverbien,möglicherweise,vielleicht
 adverbien,kürzlich,vor kurzem
 adverbien,neulich,vor kurzem
@@ -72,7 +80,6 @@ konnektoren,deswegen,deshalb
 konnektoren,demnach,folglich
 konnektoren,demzufolge,folglich
 konnektoren,infolgedessen,folglich
-konnektoren,entgegen,im gegensatz zu
 konnektoren,sooft,immer wenn
 konnektoren,obgleich,obwohl
 konnektoren,obschon,obwohl
@@ -85,7 +92,29 @@ konnektoren,wogegen,wohingegen
 konnektoren,dafür,zu diesem Zweck
 konnektoren,dazu,zu diesem Zweck
 perfekt,worden,geworden
+praepositionen_grammatik,an dem,am
+praepositionen_grammatik,ans,an das
+praepositionen_grammatik,aufs,auf das
+praepositionen_grammatik,aufm,auf dem
+praepositionen_grammatik,ausm,aus dem
+praepositionen_grammatik,beim,bei dem
+praepositionen_grammatik,durchs,durch das
+praepositionen_grammatik,fürs,für das
+praepositionen_grammatik,hinters,hinter das
+praepositionen_grammatik,hinterm,hinter dem
+praepositionen_grammatik,in dem,im
+praepositionen_grammatik,entgegen,im gegensatz zu
+praepositionen_grammatik,in das,ins
 praepositionen_grammatik,zufolge,laut
 praepositionen_grammatik,genauso,so
 praepositionen_grammatik,ungeachtet,trotz
+praepositionen_grammatik,übers,über das
+praepositionen_grammatik,überm,über dem
+praepositionen_grammatik,ums,um das
+praepositionen_grammatik,unters,unter das
+praepositionen_grammatik,unterm,unter dem
+praepositionen_grammatik,von dem,vom
+praepositionen_grammatik,vors,vor das
 praepositionen_grammatik,aufgrund,wegen
+praepositionen_grammatik,zu dem,zum
+praepositionen_grammatik,zu der,zur

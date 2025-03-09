@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Define the folder containing the CSV files
-folder_path = "../../../Desktop/adverbs"
+folder_path = "../../../Desktop/prepositions"
 output_file = "combined_output.csv"
 
 # List all CSV files in the folder
