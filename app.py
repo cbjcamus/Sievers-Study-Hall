@@ -31,10 +31,7 @@ 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
 
 # TODO Exercises
 # Wortschatz: adjektives (include sentences to simplify with Partizip II and I)
-# Wortschatz: adverbs to adjektives ?
-# Wortschatz: nominalisation verbs
-# Wortschatz: nominalisation adjektives
-# Wortschatz: trennbare und untrennbare verben
+# Wortschatz: adjektives to substantives
 # Wortschatz: number, ordinal, fractions, double/triple, percent
 # Articles: genitive articles
 # Possessive pronomen
@@ -44,7 +41,6 @@ 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
 
 # TODO Format
 # https://en.wikipedia.org/wiki/Eduard_Sievers for logo
-# Another color for Correct and Incorrect
 # How to have ss in the answer (adjektivedeklinationen)
 # 90 and above green, 70 to 90 orange, below 70 red
 

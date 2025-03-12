@@ -1,4 +1,4 @@
-Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
+Nr,level,answer,question,ich,du,er/sie/es,wir,ihr,Sie
 1,1,sein,to be,bin,bist,ist,sind,seid,sind
 2,1,haben,"to have, to contain",habe,hast,hat,haben,habt,haben
 3,1,werden,"to become, will, to be done (passive voice)",werde,wirst,wird,werden,werdet,werden
@@ -9,143 +9,233 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 8,1,mögen,to like,mag,magst,mag,mögen,mögt,mögen
 9,1,dürfen,"to be allowed (to do something), may",darf,darfst,darf,dürfen,dürft,dürfen
 10,1,wissen,to know,weiss,weisst,weiss,wissen,wisst,wissen
-11,1,machen,"to make, to prepare (e.g. food), to do",mache,machst,macht,machen,macht,machen
-12,1,tun,"to do, to do something to someone",tue,tust,tut,tun,tut,tun
-13,1,sagen,"to say, to tell",sage,sagst,sagt,sagen,sagt,sagen
-14,1,gehen,"to go, to leave, to work, to function (coll.)",gehe,gehst,geht,gehen,geht,gehen
-15,1,sehen,"to see, to see (to something), to realise",sehe,siehst,sieht,sehen,seht,sehen
+11,2,machen,"to make, to prepare (e.g. food), to do",mache,machst,macht,machen,macht,machen
+12,2,tun,"to do, to do something to someone",tue,tust,tut,tun,tut,tun
+13,2,sagen,"to say, to tell",sage,sagst,sagt,sagen,sagt,sagen
+14,2,gehen,"to go, to leave, to work, to function (coll.)",gehe,gehst,geht,gehen,geht,gehen
+15,2,sehen,"to see, to see (to something), to realise",sehe,siehst,sieht,sehen,seht,sehen
 16,2,geben,to give,gebe,gibst,gibt,geben,gebt,geben
 17,2,kommen,"to come, to make it (e.g. over something), to go to, to occur",komme,kommst,kommt,kommen,kommt,kommen
 18,2,glauben,to believe,glaube,glaubst,glaubt,glauben,glaubt,glauben
-19,2,passieren,"to happen (conversational), to move beyond, to strain",passiere,passierst,passiert,passieren,passiert,passieren
-20,2,reden,to talk,rede,redest,redet,reden,redet,reden
-21,2,hören,"to hear, to listen to",höre,hörst,hört,hören,hört,hören
-22,2,finden,to find,finde,findest,findet,finden,findet,finden
-23,2,bleiben,"to remain, to stay",bleibe,bleibst,bleibt,bleiben,bleibt,bleiben
-24,2,brauchen,to need,brauche,brauchst,braucht,brauchen,braucht,brauchen
-25,2,lieben,to love,liebe,liebst,liebt,lieben,liebt,lieben
-26,2,bringen,"to bring, to take, to lead",bringe,bringst,bringt,bringen,bringt,bringen
-27,2,stehen,"to stand, to be, to appear",stehe,stehst,steht,stehen,steht,stehen
-28,2,heissen,"to be called, to mean",heisse,heisst,heisst,heissen,heisst,heissen
-29,2,nehmen,"to take, to cause oneself to be (in some state)",nehme,nimmst,nimmt,nehmen,nehmt,nehmen
-30,2,sprechen,to speak,spreche,sprichst,spricht,sprechen,sprecht,sprechen
-31,3,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekomme,bekommst,bekommt,bekommen,bekommt,bekommen
-32,3,vergessen,"to forget, to leave (forget to take)",vergesse,vergisst,vergisst,vergessen,vergesst,vergessen
-33,3,halten,"to hold, to stop (a movement), to support, to keep",halte,hältst,hält,halten,haltet,halten
-34,3,warten,"to wait, to maintain (e.g. a car)",warte,wartest,wartet,warten,wartet,warten
-35,3,kennen,"to know, to be acquainted with, to be familiar with",kenne,kennst,kennt,kennen,kennt,kennen
-36,3,verstehen,"to understand, to get along with someone/something",verstehe,verstehst,versteht,verstehen,versteht,verstehen
-37,3,denken,"to think, to consider",denke,denkst,denkt,denken,denkt,denken
-38,3,leben,to live,lebe,lebst,lebt,leben,lebt,leben
-39,3,verlieren,to lose,verliere,verlierst,verliert,verlieren,verliert,verlieren
-40,3,arbeiten,to work,arbeite,arbeitest,arbeitet,arbeiten,arbeitet,arbeiten
-41,3,essen,to eat,esse,isst,isst,essen,esst,essen
-42,3,spielen,to play,spiele,spielst,spielt,spielen,spielt,spielen
-43,3,fahren,"to go (by vehicle), to leave, to drive",fahre,fährst,fährt,fahren,fahrt,fahren
-44,3,versuchen,to try,versuche,versuchst,versucht,versuchen,versucht,versuchen
-45,3,erzählen,"to tell, to narrate",erzähle,erzählst,erzählt,erzählen,erzählt,erzählen
-46,4,fragen,"to ask, to wonder (refl.)",frage,fragst,fragt,fragen,fragt,fragen
-47,4,treffen,"to meet, to encounter",treffe,triffst,trifft,treffen,trefft,treffen
-48,4,hoffen,to hope,hoffe,hoffst,hofft,hoffen,hofft,hoffen
-49,4,suchen,"to seek, to search",suche,suchst,sucht,suchen,sucht,suchen
-50,4,trinken,to drink,trinke,trinkst,trinkt,trinken,trinkt,trinken
-51,4,lernen,"to learn, to study (revise/review materials), to train something",lerne,lernst,lernt,lernen,lernt,lernen
-52,4,zeigen,"to show, to point at, to demonstrate",zeige,zeigst,zeigt,zeigen,zeigt,zeigen
-53,4,schlafen,to sleep,schlafe,schläfst,schläft,schlafen,schlaft,schlafen
-54,4,kaufen,to buy,kaufe,kaufst,kauft,kaufen,kauft,kaufen
-55,4,laufen,"to walk, to flow (of a fluid), to run (of an event)",laufe,läufst,läuft,laufen,lauft,laufen
-56,4,erklären,"to explain, to declare, to assert",erkläre,erklärst,erklärt,erklären,erklärt,erklären
-57,4,zahlen,"to pay (for something), to atone for",zahle,zahlst,zahlt,zahlen,zahlt,zahlen
-58,4,kochen,"to cook, to boil (to heat a liquid), to boil something",koche,kochst,kocht,kochen,kocht,kochen
-59,4,waschen,to wash,wasche,wäschst,wäscht,waschen,wascht,waschen
-60,4,aufwachen,to wake up,wache auf,wachst auf,wacht auf,wachen auf,wacht auf,wachen auf
-61,5,zeichnen,"to draw, to sketch",zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen
-62,5,wohnen,"to live, to reside, to dwell",wohne,wohnst,wohnt,wohnen,wohnt,wohnen
-63,5,schreiben,to write,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben
-64,5,tragen,"to wear (clothing), to carry, to hold",trage,trägst,trägt,tragen,tragt,tragen
-65,5,interessieren,"to interest, to be interested in (refl.)",interessiere,interessierst,interessiert,interessieren,interessiert,interessieren
-66,5,ziehen,"to pull, to drag, to move",ziehe,ziehst,zieht,ziehen,zieht,ziehen
-67,5,lesen,to read,lese,liest,liest,lesen,lest,lesen
-68,5,kosten,"to cost, to taste",koste,kostest,kostet,kosten,kostet,kosten
-69,5,bedeuten,"to mean, to signify",bedeute,bedeutest,bedeutet,bedeuten,bedeutet,bedeuten
-70,5,bestimmen,to determine,bestimme,bestimmst,bestimmt,bestimmen,bestimmt,bestimmen
-71,5,holen,to fetch,hole,holst,holt,holen,holt,holen
-72,5,funktionieren,"to function, to work",funktioniere,funktionierst,funktioniert,funktionieren,funktioniert,funktionieren
-73,5,fühlen,"to feel, to feel something (good/bad) (refl.)",fühle,fühlst,fühlt,fühlen,fühlt,fühlen
-74,5,erinnern,"to remind, to remember (refl.)",erinnere,erinnerst,erinnert,erinnern,erinnert,erinnern
-75,5,verletzen,"to hurt, to injure, to violate (rules, laws, etc.)",verletze,verletzt,verletzt,verletzen,verletzt,verletzen
-76,6,anrufen,"to call by telephone, to call on (someone)",rufe an,rufst an,ruft an,rufen an,ruft an,rufen an
-77,6,aufhören,"to stop, to cease an activity/process",höre auf,hörst auf,hört auf,hören auf,hört auf,hören auf
-78,6,führen,"to lead, to guide",führe,führst,führt,führen,führt,führen
-79,6,anfangen,to begin something new,fange an,fängst an,fängt an,fangen an,fangt an,fangen an
-80,6,gewinnen,to win,gewinne,gewinnst,gewinnt,gewinnen,gewinnt,gewinnen
-81,6,regnen,to rain,regne,regnest,regnet,regnen,regnet,regnen
-82,6,schneien,to snow,schneie,schneist,schneit,schneien,schneit,schneien
-83,6,wehtun,"to hurt, to be painful",tue weh,tust weh,tut weh,tun weh,tut weh,tun weh
-84,6,diskutieren,"to discuss, to debate",diskutiere,diskutierst,diskutiert,diskutieren,diskutiert,diskutieren
-85,6,öffnen,to open (formal),öffne,öffnest,öffnet,öffnen,öffnet,öffnen
-86,6,bezahlen,"to pay, to pay someone",bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen
-87,6,beginnen,to begin (on a date/time),beginne,beginnst,beginnt,beginnen,beginnt,beginnen
-88,6,benutzen,to use (something),benutze,benutzt,benutzt,benutzen,benutzt,benutzen
-89,6,schicken,to send,schicke,schickst,schickt,schicken,schickt,schicken
-90,6,lachen,to laugh,lache,lachst,lacht,lachen,lacht,lachen
-91,7,scheinen,"to seem, to shine",scheine,scheinst,scheint,scheinen,scheint,scheinen
-92,7,ändern,to change (one's personality/behavior),ändere,änderst,ändert,ändern,ändert,ändern
-93,7,bitten,"to ask, to request",bitte,bittest,bittet,bitten,bittet,bitten
-94,7,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",mache auf,machst auf,macht auf,machen auf,macht auf,machen auf
-95,7,verkaufen,to sell,verkaufe,verkaufst,verkauft,verkaufen,verkauft,verkaufen
-96,7,gehören,to belong to,gehöre,gehörst,gehört,gehören,gehört,gehören
-97,7,sitzen,"to be seated, to stay, to fit (of clothing)",sitze,sitzt,sitzt,sitzen,sitzt,sitzen
-98,7,stellen,"to position, to put, to catch",stelle,stellst,stellt,stellen,stellt,stellen
-99,7,setzen,"to set, to sit down (refl.)",setze,setzt,setzt,setzen,setzt,setzen
-100,7,liegen,"to lie, to be located",liege,liegst,liegt,liegen,liegt,liegen
-101,7,danken,to thank,danke,dankst,dankt,danken,dankt,danken
-102,7,legen,"to lay, to lean, to lie down",lege,legst,legt,legen,legt,legen
-103,7,schauen,to look at (Bayern/Austria),schaue,schaust,schaut,schauen,schaut,schauen
-104,7,besuchen,to visit,besuche,besuchst,besucht,besuchen,besucht,besuchen
-105,7,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freue,freust,freut,freuen,freut,freuen
-106,8,schließen,"to shut, to close, to lock, to conclude",schliesse,schliesst,schliesst,schliessen,schliesst,schliessen
-107,8,einladen,"to invite, to load (something into a container)",lade ein,lädst ein,lädt ein,laden ein,ladet ein,laden ein
-108,8,gefallen,"to please, to appeal to",gefalle,gefällst,gefällt,gefallen,gefallt,gefallen
-109,8,wünschen,to wish,wünsche,wünschst,wünscht,wünschen,wünscht,wünschen
-110,8,passen,"to fit, to suit",passe,passt,passt,passen,passt,passen
-111,8,verändern,"to alter, to change something",verändere,veränderst,verändert,verändern,verändert,verändern
-112,8,folgen,to follow,folge,folgst,folgt,folgen,folgt,folgen
-113,8,ansehen,"to look at something, to watch something",sehe an,siehst an,sieht an,sehen an,seht an,sehen an
-114,8,aussehen,"to look (like), to appear",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus
-115,8,besitzen,"to own, to possess, to have",besitze,besitzt,besitzt,besitzen,besitzt,besitzen
-116,8,probieren,"to try, to taste, to sample, to probe",probiere,probierst,probiert,probieren,probiert,probieren
-117,8,träumen,to dream,träume,träumst,träumt,träumen,träumt,träumen
-118,8,reisen,to travel,reise,reist,reist,reisen,reist,reisen
-119,8,feiern,to celebrate,feiere,feierst,feiert,feiern,feiert,feiern
-120,8,antworten,"to answer, to reply",antworte,antwortest,antwortet,antworten,antwortet,antworten
-121,9,wählen,"to choose, to dial (a number), to vote",wähle,wählst,wählt,wählen,wählt,wählen
-122,9,ausgehen,"to go out, to run out (e.g. of money)",gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus
-123,9,zählen,to count,zähle,zählst,zählt,zählen,zählt,zählen
-124,9,ankommen,"to arrive, to depend on something",komme an,kommst an,kommt an,kommen an,kommt an,kommen an
-125,9,dauern,"to last, to take (time)",dauere,dauerst,dauert,dauern,dauert,dauern
-126,9,kennenlernen,"to meet someone, to get to know someone/something",lerne kennen,lernst kennen,lernt kennen,lernen kennen,lernt kennen,lernen kennen
-127,9,zustimmen,"to agree, to consent",stimme zu,stimmst zu,stimmt zu,stimmen zu,stimmt zu,stimmen zu
-128,9,anmelden,"to register, to sign up",melde an,meldest an,meldet an,melden an,meldet an,melden an
-129,9,lassen,"to let, to stop (something)",lasse,lässt,lässt,lassen,lasst,lassen
-130,9,verlassen,"to leave, to trust with something (refl.), to pass away, to die",verlasse,verlässt,verlässt,verlassen,verlasst,verlassen
-131,9,helfen,to help,helfe,hilfst,hilft,helfen,helft,helfen
-132,9,bewegen,to move,bewege,bewegst,bewegt,bewegen,bewegt,bewegen
-133,9,vertrauen,to trust,vertraue,vertraust,vertraut,vertrauen,vertraut,vertrauen
-134,9,versprechen,"to promise, to hope for, to misspeak",verspreche,versprichst,verspricht,versprechen,versprecht,versprechen
-135,9,hängen,"to hang, to be fond of, depend on",hänge,hängst,hängt,hängen,hängt,hängen
-136,10,mieten,"to rent, to hire",,,,,,
-137,10,rauchen,to smoke (e.g. a cigarette),,,,,,
-138,10,sterben,to die,,,,,,
-139,10,heiraten,to marry,,,,,,
-140,10,verheiraten,"to marry (to perform the marriage), to get married (refl.)",,,,,,
-141,10,stimmen,"to be true, to vote, to tune",stimme,stimmst,stimmt,stimmen,stimmt,stimmen
-142,10,kämpfen,"to fight, to struggle",,,,,,
-143,10,fehlen,"to lack, to be absent/missing",,,,,,
-144,10,entscheiden,to decide,,,,,,
-145,10,sorgen,"to care, to worry",,,,,,
-146,10,stecken,"to stick, to pin",,,,,,
-147,10,überraschen,to surprise,,,,,,
-148,10,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",,,,,,
-149,10,stehlen,to steal (formal),,,,,,
-150,10,vermissen,to miss something/someone,,,,,,
+19,2,reden,to talk,rede,redest,redet,reden,redet,reden
+20,2,hören,"to hear, to listen to",höre,hörst,hört,hören,hört,hören
+21,3,finden,to find,finde,findest,findet,finden,findet,finden
+22,3,bleiben,"to remain, to stay",bleibe,bleibst,bleibt,bleiben,bleibt,bleiben
+23,3,brauchen,to need,brauche,brauchst,braucht,brauchen,braucht,brauchen
+24,3,lieben,to love,liebe,liebst,liebt,lieben,liebt,lieben
+25,3,bringen,"to bring, to take, to lead",bringe,bringst,bringt,bringen,bringt,bringen
+26,3,stehen,"to stand, to be, to appear",stehe,stehst,steht,stehen,steht,stehen
+27,3,heissen,"to be called, to mean",heisse,heisst,heisst,heissen,heisst,heissen
+28,3,nehmen,"to take, to cause oneself to be (in some state)",nehme,nimmst,nimmt,nehmen,nehmt,nehmen
+29,3,sprechen,to speak,spreche,sprichst,spricht,sprechen,sprecht,sprechen
+30,3,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekomme,bekommst,bekommt,bekommen,bekommt,bekommen
+31,4,vergessen,"to forget, to leave (forget to take)",vergesse,vergisst,vergisst,vergessen,vergesst,vergessen
+32,4,halten,"to hold, to stop (a movement), to support, to keep",halte,hältst,hält,halten,haltet,halten
+33,4,warten,"to wait, to maintain (e.g. a car)",warte,wartest,wartet,warten,wartet,warten
+34,4,kennen,"to know, to be acquainted with, to be familiar with",kenne,kennst,kennt,kennen,kennt,kennen
+35,4,verstehen,"to understand, to get along with someone/something",verstehe,verstehst,versteht,verstehen,versteht,verstehen
+36,4,denken,"to think, to consider",denke,denkst,denkt,denken,denkt,denken
+37,4,leben,to live,lebe,lebst,lebt,leben,lebt,leben
+38,4,arbeiten,to work,arbeite,arbeitest,arbeitet,arbeiten,arbeitet,arbeiten
+39,4,essen,to eat,esse,isst,isst,essen,esst,essen
+40,4,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)",biete,bietest,bietet,bieten,bietet,bieten
+41,5,aufstehen,"to get up, to be open (e.g. a window, door)",stehe auf,stehst auf,steht auf,stehen auf,steht auf,stehen auf
+42,5,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull",ziehe an,ziehst an,zieht an,ziehen an,zieht an,ziehen an
+43,5,ausziehen,"to take something off, to undress, to pull out, to move out",ziehe aus,ziehst aus,zieht aus,ziehen aus,zieht aus,ziehen aus
+44,5,spielen,to play,spiele,spielst,spielt,spielen,spielt,spielen
+45,5,fahren,"to go (by vehicle), to leave, to drive",fahre,fährst,fährt,fahren,fahrt,fahren
+46,5,versuchen,to try,versuche,versuchst,versucht,versuchen,versucht,versuchen
+47,5,erzählen,"to tell, to narrate",erzähle,erzählst,erzählt,erzählen,erzählt,erzählen
+48,5,fragen,"to ask, to wonder (refl.)",frage,fragst,fragt,fragen,fragt,fragen
+49,5,treffen,"to meet, to encounter",treffe,triffst,trifft,treffen,trefft,treffen
+50,5,hoffen,to hope,hoffe,hoffst,hofft,hoffen,hofft,hoffen
+51,6,suchen,"to seek, to search",suche,suchst,sucht,suchen,sucht,suchen
+52,6,trinken,to drink,trinke,trinkst,trinkt,trinken,trinkt,trinken
+53,6,lernen,"to learn, to study (revise/review materials), to train something",lerne,lernst,lernt,lernen,lernt,lernen
+54,6,zeigen,"to show, to point at, to demonstrate",zeige,zeigst,zeigt,zeigen,zeigt,zeigen
+55,6,schlafen,to sleep,schlafe,schläfst,schläft,schlafen,schlaft,schlafen
+56,6,kaufen,to buy,kaufe,kaufst,kauft,kaufen,kauft,kaufen
+57,6,laufen,"to walk, to flow (of a fluid), to run (of an event)",laufe,läufst,läuft,laufen,lauft,laufen
+58,6,erklären,"to explain, to declare, to assert",erkläre,erklärst,erklärt,erklären,erklärt,erklären
+59,6,zahlen,"to pay (for something), to atone for",zahle,zahlst,zahlt,zahlen,zahlt,zahlen
+60,6,kochen,"to cook, to boil (to heat a liquid), to boil something",koche,kochst,kocht,kochen,kocht,kochen
+61,7,waschen,to wash,wasche,wäschst,wäscht,waschen,wascht,waschen
+62,7,aufwachen,to wake up,wache auf,wachst auf,wacht auf,wachen auf,wacht auf,wachen auf
+63,7,zeichnen,"to draw, to sketch",zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen
+64,7,wohnen,"to live, to reside, to dwell",wohne,wohnst,wohnt,wohnen,wohnt,wohnen
+65,7,schreiben,to write,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben
+66,7,tragen,"to wear (clothing), to carry, to hold",trage,trägst,trägt,tragen,tragt,tragen
+67,7,interessieren,"to interest, to be interested in (refl.)",interessiere,interessierst,interessiert,interessieren,interessiert,interessieren
+68,7,ziehen,"to pull, to drag, to move",ziehe,ziehst,zieht,ziehen,zieht,ziehen
+69,7,lesen,to read,lese,liest,liest,lesen,lest,lesen
+70,7,kosten,"to cost, to taste",koste,kostest,kostet,kosten,kostet,kosten
+71,8,wiederholen,to repeat,wiederhole,wiederholst,wiederholt,wiederholen,wiederholt,wiederholen
+72,8,übersetzen,to translate,übersetze,übersetzt,übersetzt,übersetzen,übersetzt,übersetzen
+73,8,buchstabieren,to spell,buchstabiere,buchstabierst,buchstabiert,buchstabieren,buchstabiert,buchstabieren
+74,8,bedeuten,"to mean, to signify",bedeute,bedeutest,bedeutet,bedeuten,bedeutet,bedeuten
+75,8,funktionieren,"to function, to work",funktioniere,funktionierst,funktioniert,funktionieren,funktioniert,funktionieren
+76,8,erinnern,"to remind, to remember (refl.)",erinnere,erinnerst,erinnert,erinnern,erinnert,erinnern
+77,8,fühlen,"to feel, to feel something (good/bad) (refl.)",fühle,fühlst,fühlt,fühlen,fühlt,fühlen
+78,8,regnen,to rain,regne,regnest,regnet,regnen,regnet,regnen
+79,8,schneien,to snow,schneie,schneist,schneit,schneien,schneit,schneien
+80,8,führen,"to lead, to guide",führe,führst,führt,führen,führt,führen
+81,9,passieren,"to happen (conversational), to move beyond, to strain",passiere,passierst,passiert,passieren,passiert,passieren
+82,9,verlieren,to lose,verliere,verlierst,verliert,verlieren,verliert,verlieren
+83,9,bestimmen,to determine,bestimme,bestimmst,bestimmt,bestimmen,bestimmt,bestimmen
+84,9,holen,to fetch,hole,holst,holt,holen,holt,holen
+85,9,anrufen,"to call by telephone, to call on (someone)",rufe an,rufst an,ruft an,rufen an,ruft an,rufen an
+86,9,aufhören,"to stop, to cease an activity/process",höre auf,hörst auf,hört auf,hören auf,hört auf,hören auf
+87,9,anfangen,to begin something new,fange an,fängst an,fängt an,fangen an,fangt an,fangen an
+88,9,gewinnen,to win,gewinne,gewinnst,gewinnt,gewinnen,gewinnt,gewinnen
+89,9,wehtun,"to hurt, to be painful",tue weh,tust weh,tut weh,tun weh,tut weh,tun weh
+90,9,öffnen,to open (formal),öffne,öffnest,öffnet,öffnen,öffnet,öffnen
+91,10,bezahlen,"to pay, to pay someone",bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen
+92,10,beginnen,to begin (on a date/time),beginne,beginnst,beginnt,beginnen,beginnt,beginnen
+93,10,benutzen,to use (something),benutze,benutzt,benutzt,benutzen,benutzt,benutzen
+94,10,schicken,to send,schicke,schickst,schickt,schicken,schickt,schicken
+95,10,lachen,to laugh,lache,lachst,lacht,lachen,lacht,lachen
+96,10,scheinen,"to seem, to shine",scheine,scheinst,scheint,scheinen,scheint,scheinen
+97,10,ändern,to change (one's personality/behavior),ändere,änderst,ändert,ändern,ändert,ändern
+98,10,verkaufen,to sell,verkaufe,verkaufst,verkauft,verkaufen,verkauft,verkaufen
+99,10,gehören,to belong to,gehöre,gehörst,gehört,gehören,gehört,gehören
+100,10,sitzen,"to be seated, to stay, to fit (of clothing)",sitze,sitzt,sitzt,sitzen,sitzt,sitzen
+101,11,stellen,"to position, to put, to catch",stelle,stellst,stellt,stellen,stellt,stellen
+102,11,setzen,"to set, to sit down (refl.)",setze,setzt,setzt,setzen,setzt,setzen
+103,11,liegen,"to lie, to be located",liege,liegst,liegt,liegen,liegt,liegen
+104,11,danken,to thank,danke,dankst,dankt,danken,dankt,danken
+105,11,legen,"to lay, to lean, to lie down",lege,legst,legt,legen,legt,legen
+106,11,schauen,to look at (Bayern/Austria),schaue,schaust,schaut,schauen,schaut,schauen
+107,11,besuchen,to visit,besuche,besuchst,besucht,besuchen,besucht,besuchen
+108,11,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freue,freust,freut,freuen,freut,freuen
+109,11,schliessen,"to shut, to close, to lock, to conclude",schliesse,schliesst,schliesst,schliessen,schliesst,schliessen
+110,11,einladen,"to invite, to load (something into a container)",lade ein,lädst ein,lädt ein,laden ein,ladet ein,laden ein
+111,12,gefallen,"to please, to appeal to",gefalle,gefällst,gefällt,gefallen,gefallt,gefallen
+112,12,wünschen,to wish,wünsche,wünschst,wünscht,wünschen,wünscht,wünschen
+113,12,passen,"to fit, to suit",passe,passt,passt,passen,passt,passen
+114,12,folgen,to follow,folge,folgst,folgt,folgen,folgt,folgen
+115,12,ansehen,"to look at something, to watch something",sehe an,siehst an,sieht an,sehen an,seht an,sehen an
+116,12,aussehen,"to look (like), to appear",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus
+117,12,probieren,"to try, to taste, to sample, to probe",probiere,probierst,probiert,probieren,probiert,probieren
+118,12,träumen,to dream,träume,träumst,träumt,träumen,träumt,träumen
+119,12,fernsehen,to watch TV,sehe fern,siehst fern,sieht fern,sehen fern,seht fern,sehen fern
+120,12,schwimmen,"to swim, to float",schwimme,schwimmst,schwimmt,schwimmen,schwimmt,schwimmen
+121,13,einschlafen,to fall asleep,schlafe ein,schläfst ein,schläft ein,schlafen ein,schlaft ein,schlafen ein
+122,13,reisen,to travel,reise,reist,reist,reisen,reist,reisen
+123,13,feiern,to celebrate,feiere,feierst,feiert,feiern,feiert,feiern
+124,13,antworten,"to answer, to reply",antworte,antwortest,antwortet,antworten,antwortet,antworten
+125,13,wählen,"to choose, to dial (a number), to vote",wähle,wählst,wählt,wählen,wählt,wählen
+126,13,ausgehen,"to go out, to run out (e.g. of money)",gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus
+127,13,zählen,to count,zähle,zählst,zählt,zählen,zählt,zählen
+128,13,ankommen,"to arrive, to depend on something",komme an,kommst an,kommt an,kommen an,kommt an,kommen an
+129,13,dauern,"to last, to take (time)",dauere,dauerst,dauert,dauern,dauert,dauern
+130,13,kennenlernen,"to meet someone, to get to know someone/something",lerne kennen,lernst kennen,lernt kennen,lernen kennen,lernt kennen,lernen kennen
+131,14,anmelden,"to register, to sign up",melde an,meldest an,meldet an,melden an,meldet an,melden an
+132,14,lassen,"to let, to leave, to allow",lasse,lässt,lässt,lassen,lasst,lassen
+133,14,verlassen,"to leave, to trust with something (refl.), to pass away, to die",verlasse,verlässt,verlässt,verlassen,verlasst,verlassen
+134,14,helfen,to help,helfe,hilfst,hilft,helfen,helft,helfen
+135,14,bewegen,to move,bewege,bewegst,bewegt,bewegen,bewegt,bewegen
+136,14,versprechen,"to promise, to hope for, to misspeak",verspreche,versprichst,verspricht,versprechen,versprecht,versprechen
+137,14,hängen,"to hang, to be fond of, depend on",hänge,hängst,hängt,hängen,hängt,hängen
+138,14,mieten,"to rent, to hire",miete,mietest,mietet,mieten,mietet,mieten
+139,14,rauchen,to smoke (e.g. a cigarette),rauche,rauchst,raucht,rauchen,raucht,rauchen
+140,14,sterben,to die,sterbe,stirbst,stirbt,sterben,sterbt,sterben
+141,15,heiraten,to marry,heirate,heiratest,heiratet,heiraten,heiratet,heiraten
+142,15,kämpfen,"to fight, to struggle",kämpfe,kämpfst,kämpft,kämpfen,kämpft,kämpfen
+143,15,fehlen,"to lack, to be absent/missing",fehle,fehlst,fehlt,fehlen,fehlt,fehlen
+144,15,sorgen,"to care, to worry",sorge,sorgst,sorgt,sorgen,sorgt,sorgen
+145,15,stecken,"to stick, to pin",stecke,steckst,steckt,stecken,steckt,stecken
+146,15,überraschen,to surprise,überrasche,überraschst,überrascht,überraschen,überrascht,überraschen
+147,15,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",vorstelle,vorstellst,vorstellt,vorstellen,vorstellt,vorstellen
+148,15,stehlen,to steal,stehle,stiehlst,stiehlt,stehlen,stehlt,stehlen
+149,15,stimmen,"to be true, to vote, to tune",stimme,stimmst,stimmt,stimmen,stimmt,stimmen
+150,15,entscheiden,to decide,entscheide,entscheidest,entscheidet,entscheiden,entscheidet,entscheiden
+151,16,vermissen,to miss something/someone,vermisse,vermissst,vermisst,vermissen,vermisst,vermissen
+152,16,werfen,to throw,werfe,werfst,werft,werfen,werft,werfen
+153,16,erkennen,"to recognise, to realise",erkenne,erkennest,erkennet,erkennen,erkennet,erkennen
+154,16,teilen,"to split, to share, to divide",teile,teilst,teilt,teilen,teilt,teilen
+155,16,bauen,to build,baue,baust,baut,bauen,baut,bauen
+156,16,melden,"to report, to register",melde,meldest,meldet,melden,meldet,melden
+157,16,brechen,to break,breche,brechst,brecht,brechen,brecht,brechen
+158,16,steigen,"to ascend, to climb, to rise",steige,steigst,steigt,steigen,steigt,steigen
+159,16,singen,to sing,singe,singst,singt,singen,singt,singen
+160,16,empfehlen,"to recommend, to suggest",empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt,empfehlen
+161,17,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",mache auf,machst auf,macht auf,machen auf,macht auf,machen auf
+162,17,vertrauen,to trust,vertraue,vertraust,vertraut,vertrauen,vertraut,vertrauen
+163,17,verändern,"to alter, to change something",verändere,veränderst,verändert,verändern,verändert,verändern
+164,17,bitten,"to ask, to request",bitte,bittest,bittet,bitten,bittet,bitten
+165,17,besitzen,"to own, to possess, to have",besitze,besitzt,besitzt,besitzen,besitzt,besitzen
+166,17,merken,"to notice, to realise, to remember (refl.)",merke,merkst,merkt,merken,merkt,merken
+167,17,stören,"to disturb, to interfere",störe,störst,stört,stören,stört,stören
+168,17,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",annehme,annehmst,annehmt,annehmen,annehmt,annehmen
+169,17,übernehmen,to take over,übernehme,übernehmst,übernehmt,übernehmen,übernehmt,übernehmen
+170,17,stattfinden,"to take place, to occur",stattfinde,stattfindst,stattfindt,stattfinden,stattfindt,stattfinden
+171,18,fangen,to catch,fange,fängst,fängt,fangen,fangt,fangen
+172,18,enthalten,"to contain, to include",enthalte,enthältst,enthält,enthalten,enthaltet,enthalten
+173,18,dienen,"to serve, to function",diene,dienst,dient,dienen,dient,dienen
+174,18,verschwinden,"to disappear, to get lost",verschwinde,verschwindst,verschwindt,verschwinden,verschwindt,verschwinden
+175,18,schützen,"to defend (lawyer), to protect (sunprotection)",schütze,schützst,schützt,schützen,schützt,schützen
+176,18,nennen,"to name, to call someone something, to mention",nenne,nennst,nennt,nennen,nennt,nennen
+177,18,schätzen,"to appreciate, to evaluate, to guess",schätze,schätzst,schätzt,schätzen,schätzt,schätzen
+178,18,erwarten,"to expect, to await",erwarte,erwartst,erwartt,erwarten,erwartt,erwarten
+179,18,drehen,"to turn, to veer",drehe,drehst,dreht,drehen,dreht,drehen
+180,18,behalten,to keep,behalte,behaltst,behaltt,behalten,behaltt,behalten
+181,19,verpassen,"to miss (to be late for something, e.g. a train)",verpasse,verpassst,verpasst,verpassen,verpasst,verpassen
+182,19,schenken,"to gift, to give as a present",schenke,schenkst,schenkt,schenken,schenkt,schenken
+183,19,wachsen,"to grow, to increase",wachse,wächst,wächst,wachsen,wachst,wachsen
+184,19,springen,"to spring, to jump",springe,springst,springt,springen,springt,springen
+185,19,befinden,"to be located (refl.), to find, to consider (formal)",befinde,befindest,befindet,befinden,befindet,befinden
+186,19,raten,"to advise, to recommend, to guess",rate,rätst,rät,raten,ratet,raten
+187,19,verbieten,"to forbid, to prohibit (with dative)",verbiete,verbietest,verbietet,verbieten,verbietet,verbieten
+188,19,fallen,"to fall, to fall in battle, to collapse",falle,fällst,fällt,fallen,fallt,fallen
+189,19,kümmern,"to take care (refl.), to trouble, to concern",kümmee,kümmest,kümmet,kümmeen,kümmet,kümmeen
+190,19,drücken,"to press, to push",drücke,drückst,drückt,drücken,drückt,drücken
+191,20,vergleichen,to compare,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen
+192,20,putzen,"to clean, to rub",putze,putzst,putzt,putzen,putzt,putzen
+193,20,einkaufen,to shop,einkaufe,einkaufst,einkauft,einkaufen,einkauft,einkaufen
+194,20,veröffentlichen,"to publish, to release",veröffentliche,veröffentlichst,veröffentlicht,veröffentlichen,veröffentlicht,veröffentlichen
+195,20,testen,"to test, to examine",teste,testst,testt,testen,testt,testen
+196,20,lösen,"to loosen, to solve, to separate, to remove",löse,lösst,löst,lösen,löst,lösen
+197,20,kontrollieren,"to control, to check",kontrolliere,kontrollierst,kontrolliert,kontrollieren,kontrolliert,kontrollieren
+198,20,unterstützen,"to support, to provide help",unterstütze,unterstützst,unterstützt,unterstützen,unterstützt,unterstützen
+199,20,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to",treibe,treibst,treibt,treiben,treibt,treiben
+200,20,tanzen,to dance,tanze,tanzt,tanzt,tanzen,tanzt,tanzen
+201,21,studieren,"to study, to go to university/college",studiere,studierst,studiert,studieren,studiert,studieren
+202,21,sinken,"to sink, to drop",sinke,sinkst,sinkt,sinken,sinkt,sinken
+203,21,klingen,to sound,klinge,klingst,klingt,klingen,klingt,klingen
+204,21,schmecken,to taste,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken
+205,21,mitteilen,"to inform, to share",mitteile,mitteilst,mitteilt,mitteilen,mitteilt,mitteilen
+206,21,streiten,"to argue, to fight, to quarrel",streite,streitst,streitt,streiten,streitt,streiten
+207,21,entwickeln,to develop,entwickee,entwickest,entwicket,entwickeen,entwicket,entwickeen
+208,21,ersetzen,"to replace, to substitute",ersetze,ersetzst,ersetzt,ersetzen,ersetzt,ersetzen
+209,21,leiden,"to bear, to endure, to suffer",leide,leidst,leidt,leiden,leidt,leiden
+210,21,diskutieren,"to discuss, to debate",diskutiere,diskutierst,diskutiert,diskutieren,diskutiert,diskutieren
+211,22,rufen,"to call out, to call for help, to telephone",rufe,rufst,ruft,rufen,ruft,rufen
+212,22,vorschlagen,"to suggest, to propose",schlage vor,schlägst vor,schlägt vor,schlagen vor,schlagt vor,schlagen vor
+213,22,überzeugen,"to convince, to convince oneself (refl.)",überzeuge,überzeugst,überzeugt,überzeugen,überzeugt,überzeugen
+214,22,vermuten,"to assume something is true, to suppose, suspect something",vermute,vermutst,vermutt,vermuten,vermutt,vermuten
+215,22,überlegen,"to consider, to think over",überlege,überlegst,überlegt,überlegen,überlegt,überlegen
+216,22,teilnehmen,"to take part, to participate",nehme teil,nimmst teil,nimmt teil,nehmen teil,nehmt teil,nehmen teil
+217,22,gründen,"to found, to establish",gründe,gründst,gründt,gründen,gründt,gründen
+218,22,überprüfen,to check,überprüfe,überprüfst,überprüft,überprüfen,überprüft,überprüfen
+219,22,beraten,"to advise, to consult",berate,beratst,beratt,beraten,beratt,beraten
+220,22,vertreten,"to represent, to stand for",vertrete,vertretst,vertrett,vertreten,vertrett,vertreten
+221,23,bewerben,to apply (to a job etc.),bewerbe,bewirbst,bewirbt,bewerben,bewerbt,bewerben
+222,23,erstellen,"to create, to generate, to compile, to set up",erstelle,erstellst,erstellt,erstellen,erstellt,erstellen
+223,23,korrigieren,"to correct, to rectify, to debug",korrigiere,korrigierst,korrigiert,korrigieren,korrigiert,korrigieren
+224,23,beenden,"to finish, to complete, to terminate (relationship)",beende,beendst,beendt,beenden,beendt,beenden
+225,23,anbieten,"to offer, to provide",anbiete,anbietst,anbiett,anbieten,anbiett,anbieten
+226,23,fordern,"to demand, to require",fordee,fordest,fordet,fordeen,fordet,fordeen
+227,23,mitnehmen,"to carry along, to pick up (something), to take away",nehme mit,nimmst mit,nimmt mit,nehmen mit,nehmt mit,nehmen mit
+228,23,mitbringen,"to bring along, to bring with",bringe mit,bringst mit,bringt mit,bringen mit,bringt mit,bringen mit
+229,23,sammeln,"to collect, to gather",sammee,sammest,sammet,sammeen,sammet,sammeen
+230,23,aufpassen,"to watch out, to look after something, to be attentive with something",aufpasse,aufpassst,aufpasst,aufpassen,aufpasst,aufpassen
+231,24,hassen,to hate,hasse,hassst,hasst,hassen,hasst,hassen
+232,24,zurückgehen,"to go back, to decline",gehe zurück,gehst zurück,geht zurück,gehen zurück,geht zurück,gehen zurück
+233,24,ärgern,to annoy oneself (refl.),ärgee,ärgest,ärget,ärgeen,ärget,ärgeen
+234,24,schieben,to push,schiebe,schiebst,schiebt,schieben,schiebt,schieben
+235,24,kündigen,"to terminate, to cancel",kündige,kündigst,kündigt,kündigen,kündigt,kündigen
+236,24,heben,"to lift, to raise",hebe,hebst,hebt,heben,hebt,heben
+237,24,abholen,"to pick up someone or something, to collect",abhole,abholst,abholt,abholen,abholt,abholen
+238,24,füllen,to fill,fülle,füllst,füllt,füllen,füllt,füllen
+239,24,wechseln,"to replace, to change, to exchange",wechsee,wechsest,wechset,wechseen,wechset,wechseen
+240,24,wirken,"to work, to be effective, to take affect, to act",wirke,wirkst,wirkt,wirken,wirkt,wirken

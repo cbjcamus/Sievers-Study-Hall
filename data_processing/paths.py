@@ -2,7 +2,8 @@ import os
 
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                                        praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                                       verben, adjektive, adverbien)
+                                       partizip_I,
+                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive)
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -18,10 +19,13 @@ DATA_PATH = {artikel: os.path.join(BASE_DIR, "datasets", "artikel.csv"),
              perfekt: os.path.join(BASE_DIR, "datasets", "perfekt.csv"),
              praeteritum: os.path.join(BASE_DIR, "datasets", "praeteritum.csv"),
              konjunktiv: os.path.join(BASE_DIR, "datasets", "konjunktiv.csv"),
+             partizip_I: os.path.join(BASE_DIR, "datasets", "partizip_I.csv"),
 
              adverbien: os.path.join(BASE_DIR, "datasets", "adverbien.csv"),
              verben: os.path.join(BASE_DIR, "datasets", "verben.csv"),
+             trennbare_verben: os.path.join(BASE_DIR, "datasets", "trennbare_verben.csv"),
              adjektive: os.path.join(BASE_DIR, "datasets", "adjektive.csv"),
+             deverbale_substantive: os.path.join(BASE_DIR, "datasets", "deverbale_substantive.csv"),
              }
 
 EXERCISE_PAGES = {
@@ -37,10 +41,13 @@ EXERCISE_PAGES = {
     perfekt: "/perfekt",
     praeteritum: "/praeteritum",
     konjunktiv: "/konjunktiv",
+    partizip_I: "/partizip_I",
 
     adverbien: "/adverbien",
     verben: "/verben",
+    trennbare_verben: "/trennbare_verben",
     adjektive: "/adjektive",
+    deverbale_substantive: "/deverbale_substantive",
 }
 
 SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),

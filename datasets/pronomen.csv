@@ -660,39 +660,39 @@ Nr,level,question,answer,german,person,case,english,answer_2,sentence_2
 659,14,"Die Ferien, _____ Beginn bald ist, freut mich.",deren,"Die Ferien, deren Beginn bald ist, freut mich.",Feminine,Genitive,,,
 660,14,"Das Geschenk, _____ Verpackung schön ist, gefällt mir.",dessen,"Das Geschenk, dessen Verpackung schön ist, gefällt mir.",Neutral,Genitive,,,
 661,14,"Die Party, _____ Musik gut war, hat mir gefallen.",deren,"Die Party, deren Musik gut war, hat mir gefallen.",Feminine,Genitive,,,
-662,15,"Das ist das Dorf, _____ ich geboren wurde.",wo,"Das ist das Dorf, wo ich geboren wurde.",,,,in dem,"Das ist das Dorf, in dem ich geboren wurde."
-663,15,"Das ist der Park, _____ die Kinder spielen.",wo,"Das ist der Park, wo die Kinder spielen.",,,,in dem,"Das ist der Park, in dem die Kinder spielen."
-664,15,"Die Stadt, _____ ich meinen Urlaub verbracht habe, war wunderschön.",wo,"Die Stadt, wo ich meinen Urlaub verbracht habe, war wunderschön.",,,,in die,"Die Stadt, in die ich meinen Urlaub verbracht habe, war wunderschön."
-665,15,"Das Café, _____ wir unseren ersten Kaffee getrunken haben, war gemütlich.",wo,"Das Café, wo wir unseren ersten Kaffee getrunken haben, war gemütlich.",,,,in das,"Das Café, in das wir unseren ersten Kaffee getrunken haben, war gemütlich."
-666,15,"Das Hotel, _____ wir übernachtet haben, hatte ein tolles Frühstück.",wo,"Das Hotel, wo wir übernachtet haben, hatte ein tolles Frühstück.",,,,in dem,"Das Hotel, in dem wir übernachtet haben, hatte ein tolles Frühstück."
-667,15,"Die Wohnung, _____ ich seit drei Jahren wohne, ist sehr ruhig.",wo,"Die Wohnung, wo ich seit drei Jahren wohne, ist sehr ruhig.",,,,in der,"Die Wohnung, in der ich seit drei Jahren wohne, ist sehr ruhig."
-668,15,"Die Straße, _____ Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt.",wo,"Die Straße, wo der Name des berühmten Schriftstellers erwähnt wird, ist in der Altstadt.",,,,in deren,"Die Straße, in deren Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt."
-669,15,"Der Raum, _____ Decke repariert werden muss, ist geschlossen.",wo,"Der Raum, wo die Decke repariert werden muss, ist geschlossen.",,,,in dessen,"Der Raum, in dessen Decke repariert werden muss, ist geschlossen."
-670,15,"Das ist das Dorf, _____ ich gezogen bin.",wohin,"Das ist das Dorf, wohin ich gezogen bin.",,,,in das,"Das ist das Dorf, in das ich gezogen bin."
-671,15,"Das ist der Park, _____ die Kinder laufen.",wohin,"Das ist der Park, wohin die Kinder laufen.",,,,in den,"Das ist der Park, in den die Kinder laufen."
-672,15,"Die Stadt, _____ ich meinen Freund eingeladen habe, ist wunderschön.",wohin,"Die Stadt, wohin ich meinen Freund eingeladen habe, ist wunderschön.",,,,in die,"Die Stadt, in die ich meinen Freund eingeladen habe, ist wunderschön."
-673,15,"Das Café, _____ wir später gehen wollen, liegt in der Altstadt.",wohin,"Das Café, wohin wir später gehen wollen, liegt in der Altstadt.",,,,in das,"Das Café, in das wir später gehen wollen, liegt in der Altstadt."
-674,15,"Das Hotel, _____ wir unsere Koffer gebracht haben, ist sehr luxuriös.",wohin,"Das Hotel, wohin wir unsere Koffer gebracht haben, ist sehr luxuriös.",,,,in das,"Das Hotel, in das wir unsere Koffer gebracht haben, ist sehr luxuriös."
-675,15,"Die Wohnung, _____ ich meine Bücher gebracht habe, ist neu renoviert.",wohin,"Die Wohnung, wohin ich meine Bücher gebracht habe, ist neu renoviert.",,,,in die,"Die Wohnung, in die ich meine Bücher gebracht habe, ist neu renoviert."
-676,15,"Die Straße, _____ die Besucher kommen, ist sehr belebt.",wohin,"Die Straße, wohin die Besucher kommen, ist sehr belebt.",,,,in die,"Die Straße, in die die Besucher kommen, ist sehr belebt."
-677,15,"Der Raum, _____ die Möbel geliefert werden, ist leer.",wohin,"Der Raum, wohin die Möbel geliefert werden, ist leer.",,,,in den,"Der Raum, in den die Möbel geliefert werden, ist leer."
-678,15,"Das ist das Dorf, _____ ich komme.",woher,"Das ist das Dorf, woher ich komme.",,,,aus dem,"Das ist das Dorf, aus dem ich komme."
-679,15,"Das ist der Park, _____ die Geräusche kommen.",woher,"Das ist der Park, woher die Geräusche kommen.",,,,aus dem,"Das ist der Park, aus dem die Geräusche kommen."
-680,15,"Die Stadt, _____ ich meinen Freund kenne, ist weit entfernt.",woher,"Die Stadt, woher ich meinen Freund kenne, ist weit entfernt.",,,,aus der,"Die Stadt, aus der ich meinen Freund kenne, ist weit entfernt."
-681,15,"Das Café, _____ wir unseren Kaffee bestellen, ist sehr beliebt.",woher,"Das Café, woher wir unseren Kaffee bestellen, ist sehr beliebt.",,,,aus dem,"Das Café, aus dem wir unseren Kaffee bestellen, ist sehr beliebt."
-682,15,"Das Hotel, _____ die Gäste immer zufrieden abreisen, ist sehr renommiert.",woher,"Das Hotel, woher die Gäste immer zufrieden abreisen, ist sehr renommiert.",,,,aus dem,"Das Hotel, aus dem die Gäste immer zufrieden abreisen, ist sehr renommiert."
-683,15,"Die Wohnung, _____ ich ausgezogen bin, war zu klein.",woher,"Die Wohnung, woher ich ausgezogen bin, war zu klein.",,,,aus der,"Die Wohnung, aus der ich ausgezogen bin, war zu klein."
-684,15,"Die Straße, _____ die alten Geschichten stammen, ist sehr bekannt.",woher,"Die Straße, woher die alten Geschichten stammen, ist sehr bekannt.",,,,aus der,"Die Straße, aus der die alten Geschichten stammen, ist sehr bekannt."
-685,15,"Der Raum, _____ die seltsamen Geräusche kommen, ist verschlossen.",woher,"Der Raum, woher die seltsamen Geräusche kommen, ist verschlossen.",,,,aus dem,"Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen."
-686,15,"Paris, _____ man den Eiffelturm besichtigen kann, ist eine wunderschöne Stadt.",wo,"Paris, wo man den Eiffelturm besichtigen kann, ist eine wunderschöne Stadt.",,,,,
-687,15,"Berlin, _____ die Geschichte der Mauer lebendig bleibt, ist die Hauptstadt Deutschlands.",wo,"Berlin, wo die Geschichte der Mauer lebendig bleibt, ist die Hauptstadt Deutschlands.",,,,,
-688,15,"Deutschland, _____ viele Weihnachtsmärkte stattfinden, ist im Winter sehr beliebt.",wo,"Deutschland, wo viele Weihnachtsmärkte stattfinden, ist im Winter sehr beliebt.",,,,,
-689,15,"Italien, _____ die beste Pizza gemacht wird, hat eine reiche kulinarische Tradition.",wo,"Italien, wo die beste Pizza gemacht wird, hat eine reiche kulinarische Tradition.",,,,,
-690,15,"Frankreich, _____ viele Touristen im Sommer reisen, ist ein beliebtes Urlaubsziel.",wohin,"Frankreich, wohin viele Touristen im Sommer reisen, ist ein beliebtes Urlaubsziel.",,,,,
-691,15,"Spanien, _____ wir diesen Winter fahren wollen, hat eine angenehme Atmosphäre.",wohin,"Spanien, wohin wir diesen Winter fahren wollen, hat eine angenehme Atmosphäre.",,,,,
-692,15,"München, _____ viele Menschen für das Oktoberfest kommen, ist bekannt für Bier und Brezeln.",wohin,"München, wohin viele Menschen für das Oktoberfest kommen, ist bekannt für Bier und Brezeln.",,,,,
-693,15,"Österreich, _____ wir jedes Jahr zum Skifahren fahren, bietet tolle Pisten.",wohin,"Österreich, wohin wir jedes Jahr zum Skifahren fahren, bietet tolle Pisten.",,,,,
-694,15,"Rom, _____ viele berühmte Künstler stammen, ist ein Zentrum der Kunstgeschichte.",woher,"Rom, woher viele berühmte Künstler stammen, ist ein Zentrum der Kunstgeschichte.",,,,,
-695,15,"Japan, _____ die besten Sushi-Rezepte kommen, ist weltweit für seine Küche bekannt.",woher,"Japan, woher die besten Sushi-Rezepte kommen, ist weltweit für seine Küche bekannt.",,,,,
-696,15,"Wien, _____ die klassischen Walzer ihren Ursprung haben, ist die Hauptstadt der Musik.",woher,"Wien, woher die klassischen Walzer ihren Ursprung haben, ist die Hauptstadt der Musik.",,,,,
-697,15,"Indien, _____ der beste Tee importiert wird, ist ein Land mit langer Teetradition.",woher,"Indien, woher der beste Tee importiert wird, ist ein Land mit langer Teetradition.",,,,,
+662,100,"Das ist das Dorf, _____ ich geboren wurde.",wo,"Das ist das Dorf, wo ich geboren wurde.",,,,in dem,"Das ist das Dorf, in dem ich geboren wurde."
+663,100,"Das ist der Park, _____ die Kinder spielen.",wo,"Das ist der Park, wo die Kinder spielen.",,,,in dem,"Das ist der Park, in dem die Kinder spielen."
+664,100,"Die Stadt, _____ ich meinen Urlaub verbracht habe, war wunderschön.",wo,"Die Stadt, wo ich meinen Urlaub verbracht habe, war wunderschön.",,,,in die,"Die Stadt, in die ich meinen Urlaub verbracht habe, war wunderschön."
+665,100,"Das Café, _____ wir unseren ersten Kaffee getrunken haben, war gemütlich.",wo,"Das Café, wo wir unseren ersten Kaffee getrunken haben, war gemütlich.",,,,in das,"Das Café, in das wir unseren ersten Kaffee getrunken haben, war gemütlich."
+666,100,"Das Hotel, _____ wir übernachtet haben, hatte ein tolles Frühstück.",wo,"Das Hotel, wo wir übernachtet haben, hatte ein tolles Frühstück.",,,,in dem,"Das Hotel, in dem wir übernachtet haben, hatte ein tolles Frühstück."
+667,100,"Die Wohnung, _____ ich seit drei Jahren wohne, ist sehr ruhig.",wo,"Die Wohnung, wo ich seit drei Jahren wohne, ist sehr ruhig.",,,,in der,"Die Wohnung, in der ich seit drei Jahren wohne, ist sehr ruhig."
+668,100,"Die Straße, _____ Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt.",wo,"Die Straße, wo der Name des berühmten Schriftstellers erwähnt wird, ist in der Altstadt.",,,,in deren,"Die Straße, in deren Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt."
+669,100,"Der Raum, _____ Decke repariert werden muss, ist geschlossen.",wo,"Der Raum, wo die Decke repariert werden muss, ist geschlossen.",,,,in dessen,"Der Raum, in dessen Decke repariert werden muss, ist geschlossen."
+670,100,"Das ist das Dorf, _____ ich gezogen bin.",wohin,"Das ist das Dorf, wohin ich gezogen bin.",,,,in das,"Das ist das Dorf, in das ich gezogen bin."
+671,100,"Das ist der Park, _____ die Kinder laufen.",wohin,"Das ist der Park, wohin die Kinder laufen.",,,,in den,"Das ist der Park, in den die Kinder laufen."
+672,100,"Die Stadt, _____ ich meinen Freund eingeladen habe, ist wunderschön.",wohin,"Die Stadt, wohin ich meinen Freund eingeladen habe, ist wunderschön.",,,,in die,"Die Stadt, in die ich meinen Freund eingeladen habe, ist wunderschön."
+673,100,"Das Café, _____ wir später gehen wollen, liegt in der Altstadt.",wohin,"Das Café, wohin wir später gehen wollen, liegt in der Altstadt.",,,,in das,"Das Café, in das wir später gehen wollen, liegt in der Altstadt."
+674,100,"Das Hotel, _____ wir unsere Koffer gebracht haben, ist sehr luxuriös.",wohin,"Das Hotel, wohin wir unsere Koffer gebracht haben, ist sehr luxuriös.",,,,in das,"Das Hotel, in das wir unsere Koffer gebracht haben, ist sehr luxuriös."
+675,100,"Die Wohnung, _____ ich meine Bücher gebracht habe, ist neu renoviert.",wohin,"Die Wohnung, wohin ich meine Bücher gebracht habe, ist neu renoviert.",,,,in die,"Die Wohnung, in die ich meine Bücher gebracht habe, ist neu renoviert."
+676,100,"Die Straße, _____ die Besucher kommen, ist sehr belebt.",wohin,"Die Straße, wohin die Besucher kommen, ist sehr belebt.",,,,in die,"Die Straße, in die die Besucher kommen, ist sehr belebt."
+677,100,"Der Raum, _____ die Möbel geliefert werden, ist leer.",wohin,"Der Raum, wohin die Möbel geliefert werden, ist leer.",,,,in den,"Der Raum, in den die Möbel geliefert werden, ist leer."
+678,100,"Das ist das Dorf, _____ ich komme.",woher,"Das ist das Dorf, woher ich komme.",,,,aus dem,"Das ist das Dorf, aus dem ich komme."
+679,100,"Das ist der Park, _____ die Geräusche kommen.",woher,"Das ist der Park, woher die Geräusche kommen.",,,,aus dem,"Das ist der Park, aus dem die Geräusche kommen."
+680,100,"Die Stadt, _____ ich meinen Freund kenne, ist weit entfernt.",woher,"Die Stadt, woher ich meinen Freund kenne, ist weit entfernt.",,,,aus der,"Die Stadt, aus der ich meinen Freund kenne, ist weit entfernt."
+681,100,"Das Café, _____ wir unseren Kaffee bestellen, ist sehr beliebt.",woher,"Das Café, woher wir unseren Kaffee bestellen, ist sehr beliebt.",,,,aus dem,"Das Café, aus dem wir unseren Kaffee bestellen, ist sehr beliebt."
+682,100,"Das Hotel, _____ die Gäste immer zufrieden abreisen, ist sehr renommiert.",woher,"Das Hotel, woher die Gäste immer zufrieden abreisen, ist sehr renommiert.",,,,aus dem,"Das Hotel, aus dem die Gäste immer zufrieden abreisen, ist sehr renommiert."
+683,100,"Die Wohnung, _____ ich ausgezogen bin, war zu klein.",woher,"Die Wohnung, woher ich ausgezogen bin, war zu klein.",,,,aus der,"Die Wohnung, aus der ich ausgezogen bin, war zu klein."
+684,100,"Die Straße, _____ die alten Geschichten stammen, ist sehr bekannt.",woher,"Die Straße, woher die alten Geschichten stammen, ist sehr bekannt.",,,,aus der,"Die Straße, aus der die alten Geschichten stammen, ist sehr bekannt."
+685,100,"Der Raum, _____ die seltsamen Geräusche kommen, ist verschlossen.",woher,"Der Raum, woher die seltsamen Geräusche kommen, ist verschlossen.",,,,aus dem,"Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen."
+686,100,"Paris, _____ man den Eiffelturm besichtigen kann, ist eine wunderschöne Stadt.",wo,"Paris, wo man den Eiffelturm besichtigen kann, ist eine wunderschöne Stadt.",,,,,
+687,100,"Berlin, _____ die Geschichte der Mauer lebendig bleibt, ist die Hauptstadt Deutschlands.",wo,"Berlin, wo die Geschichte der Mauer lebendig bleibt, ist die Hauptstadt Deutschlands.",,,,,
+688,100,"Deutschland, _____ viele Weihnachtsmärkte stattfinden, ist im Winter sehr beliebt.",wo,"Deutschland, wo viele Weihnachtsmärkte stattfinden, ist im Winter sehr beliebt.",,,,,
+689,100,"Italien, _____ die beste Pizza gemacht wird, hat eine reiche kulinarische Tradition.",wo,"Italien, wo die beste Pizza gemacht wird, hat eine reiche kulinarische Tradition.",,,,,
+690,100,"Frankreich, _____ viele Touristen im Sommer reisen, ist ein beliebtes Urlaubsziel.",wohin,"Frankreich, wohin viele Touristen im Sommer reisen, ist ein beliebtes Urlaubsziel.",,,,,
+691,100,"Spanien, _____ wir diesen Winter fahren wollen, hat eine angenehme Atmosphäre.",wohin,"Spanien, wohin wir diesen Winter fahren wollen, hat eine angenehme Atmosphäre.",,,,,
+692,100,"München, _____ viele Menschen für das Oktoberfest kommen, ist bekannt für Bier und Brezeln.",wohin,"München, wohin viele Menschen für das Oktoberfest kommen, ist bekannt für Bier und Brezeln.",,,,,
+693,100,"Österreich, _____ wir jedes Jahr zum Skifahren fahren, bietet tolle Pisten.",wohin,"Österreich, wohin wir jedes Jahr zum Skifahren fahren, bietet tolle Pisten.",,,,,
+694,100,"Rom, _____ viele berühmte Künstler stammen, ist ein Zentrum der Kunstgeschichte.",woher,"Rom, woher viele berühmte Künstler stammen, ist ein Zentrum der Kunstgeschichte.",,,,,
+695,100,"Japan, _____ die besten Sushi-Rezepte kommen, ist weltweit für seine Küche bekannt.",woher,"Japan, woher die besten Sushi-Rezepte kommen, ist weltweit für seine Küche bekannt.",,,,,
+696,100,"Wien, _____ die klassischen Walzer ihren Ursprung haben, ist die Hauptstadt der Musik.",woher,"Wien, woher die klassischen Walzer ihren Ursprung haben, ist die Hauptstadt der Musik.",,,,,
+697,100,"Indien, _____ der beste Tee importiert wird, ist ein Land mit langer Teetradition.",woher,"Indien, woher der beste Tee importiert wird, ist ein Land mit langer Teetradition.",,,,,

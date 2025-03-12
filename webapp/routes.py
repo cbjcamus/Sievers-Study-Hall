@@ -139,6 +139,15 @@ def konjunktiv():
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
+@routes.route('/partizip_I')
+def partizip_I():
+    return render_template('partizip_I.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
 @routes.route('/adverbien')
 def adverbien():
     return render_template('adverbien.html',
@@ -157,26 +166,26 @@ def verben():
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
+@routes.route('/trennbare_verben')
+def trennbare_verben():
+    return render_template('trennbare_verben.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/deverbale_substantive')
+def deverbale_substantive():
+    return render_template('deverbale_substantive.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
 @routes.route('/exercise/<exercise>/level/<int:level>')
 def exercise(exercise, level):
-    '''
-    if progress in session and exercise in session[progress] and str(level) in session[progress][exercise]:
-        data = load_data(exercise, level)
-
-        answered_nrs = set(session[progress][exercise][str(level)].keys())
-
-        if set(data["Nr"].astype(str)) == answered_nrs:
-            print_session(session)
-            register_result(exercise, level, session)
-            print_session(session)
-            return render_template("exercise_completed.html",
-                                   exercise=exercise,
-                                   level=level,
-                                   exercise_pages=EXERCISE_PAGES,
-                                   title_page=TITLE_PAGE,
-                                   )
-    '''
-
     if level_finished(exercise, level, session) is True:
         register_result(exercise, level, session)
         return render_template("exercise_completed.html",
@@ -188,15 +197,6 @@ def exercise(exercise, level):
 
     question_data = pick_a_question(session, exercise, level)
 
-    '''
-    if question_data is None:
-        return render_template("exercise_completed.html",
-                               exercise=exercise,
-                               level=level,
-                               exercise_pages=EXERCISE_PAGES,
-                               title_page=TITLE_PAGE,)                        
-    '''
-
     # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
     english = str(question_data.get("english", ""))
@@ -206,6 +206,7 @@ def exercise(exercise, level):
     case = question_data.get("case", "")
     article = question_data.get("article", "")
     person = question_data.get("person", "")
+    prefix = question_data.get("prefix", "")
 
     formatted_question = QUESTION_TEMPLATES.get(exercise, {}).get(level, "{question}").format(
         question=question_text,
@@ -216,6 +217,7 @@ def exercise(exercise, level):
         case=case,
         article=article,
         person=person,
+        prefix=prefix,
     )
 
     result_data = session.pop(f"{exercise}_result", None)
@@ -255,6 +257,7 @@ def check_answer(exercise, level):
     case = question_data.get("case", "")
     article = question_data.get("article", "")
     person = question_data.get("person", "")
+    prefix = question_data.get("prefix", "")
     feedback_template = FEEDBACK_TEMPLATES.get(exercise, {}).get(level, "{previous_question} = {correct_answer}")
     feedback_message = feedback_template.format(
         previous_question=question_text,
@@ -268,6 +271,7 @@ def check_answer(exercise, level):
         case=case,
         article=article,
         person=person,
+        prefix=prefix,
     )
 
     session[f"{exercise}_result"] = {
@@ -301,15 +305,6 @@ def check_answer(exercise, level):
     session.modified = True
 
     return redirect(url_for('routes.exercise', exercise=exercise, level=level))
-
-'''
-@routes.route('/reset/<exercise>/level/<int:level>', methods=['POST'])
-def reset_exercise(exercise, level):
-    if exercise in session:
-        session[exercise][str(level)] = {}  # Reset progress for this level
-        session.modified = True
-    return redirect(url_for('routes.exercise', exercise=exercise, level=level))
-'''
 
 
 @routes.route('/reset/<exercise>/level/<int:level>', methods=['POST'])

@@ -606,7 +606,7 @@ Nr,level,question,answer,german,english
 605,9,somehow,irgendwie,,
 606,9,nowhere,nirgendwo,,
 607,9,anywhere,irgendwo,,
-608,9,possibly,eventuell,,
+608,9,"possibly, perhaps",eventuell,,
 609,9,irregularly,unregelmäßig,,
 610,9,unusually,ungewöhnlich,,
 611,9,absolutely,absolut,,
@@ -947,14 +947,16 @@ Nr,level,question,answer,german,english
 946,14,"Die Katze schlich vorsichtig _____, nachdem sie die Tür geöffnet hatte.",herein,"Die Katze schlich vorsichtig herein, nachdem sie die Tür geöffnet hatte.",The cat cautiously crept inside after the door was opened.
 947,14,"Die Gäste wurden herzlich begrüßt, als sie _____ kamen.",herein,"Die Gäste wurden herzlich begrüßt, als sie herein kamen.",The guests were warmly welcomed as they came inside.
 948,14,"Sie sah durch das Fenster und bat ihn freundlich, _____ zu kommen.",herein,"Sie sah durch das Fenster und bat ihn freundlich, herein zu kommen.",She looked through the window and kindly asked him to come inside.
-949,20,"excessively, overly",übermäßig,,
-950,20,"off, away",los,,
-951,20,again,wiederum,,
-952,20,"once, sometimes, times",mal,,
-953,20,"but, yet, nevertheless",doch,,
-954,20,over there,drüben,,
-955,21,Er trinkt _____ viel Kaffee und schläft deshalb schlecht.,übermäßig,Er trinkt übermäßig viel Kaffee und schläft deshalb schlecht.,He drinks an excessive amount of coffee and therefore sleeps poorly.
-956,21,"Das Essen war _____ salzig, sodass ich es kaum essen konnte.",übermäßig,"Das Essen war übermäßig salzig, sodass ich es kaum essen konnte.","The food was overly salty, so I could barely eat it."
-957,21,Sie macht sich _____ viele Sorgen über Kleinigkeiten.,übermäßig,Sie macht sich übermäßig viele Sorgen über Kleinigkeiten.,She worries excessively about small things.
-958,21,_____ lange Bildschirmzeiten können die Augen belasten.,Übermäßig,Übermäßig lange Bildschirmzeiten können die Augen belasten.,Excessive screen time can strain the eyes.
-959,21,"Er trainiert _____ intensiv, was zu Verletzungen führen kann.",übermäßig,"Er trainiert übermäßig intensiv, was zu Verletzungen führen kann.","He trains overly intensively, which can lead to injuries."
+949,100,"excessively, overly",übermäßig,,
+950,100,"off, away",los,,
+951,100,again,wiederum,,
+952,100,"once, sometimes, times",mal,,
+953,100,"but, yet, nevertheless",doch,,
+954,100,over there,drüben,,
+955,100,in any case,auf jeden fall,,
+956,100,extraordinarily,außerordentlich,,
+957,101,Er trinkt _____ viel Kaffee und schläft deshalb schlecht.,übermäßig,Er trinkt übermäßig viel Kaffee und schläft deshalb schlecht.,He drinks an excessive amount of coffee and therefore sleeps poorly.
+958,101,"Das Essen war _____ salzig, sodass ich es kaum essen konnte.",übermäßig,"Das Essen war übermäßig salzig, sodass ich es kaum essen konnte.","The food was overly salty, so I could barely eat it."
+959,101,Sie macht sich _____ viele Sorgen über Kleinigkeiten.,übermäßig,Sie macht sich übermäßig viele Sorgen über Kleinigkeiten.,She worries excessively about small things.
+960,101,_____ lange Bildschirmzeiten können die Augen belasten.,Übermäßig,Übermäßig lange Bildschirmzeiten können die Augen belasten.,Excessive screen time can strain the eyes.
+961,101,"Er trainiert _____ intensiv, was zu Verletzungen führen kann.",übermäßig,"Er trainiert übermäßig intensiv, was zu Verletzungen führen kann.","He trains overly intensively, which can lead to injuries."

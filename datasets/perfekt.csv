@@ -1,601 +1,901 @@
-Nr,level,reflexive,question,answer,english,german
-1,1,,sein,gewesen,to be,
-2,1,,haben,gehabt,"to have, to contain",
-3,1,,werden,geworden,"to become, will, to be done (passive voice)",
-4,1,,können,gekonnt,"can, to be able to",
-5,1,,wollen,gewollt,to want,
-6,1,,müssen,gemusst,"must, to have to, to be obliged (to do something)",
-7,1,,sollen,gesollt,"shall, to be asked (to do something)",
-8,1,,mögen,gemocht,to like,
-9,1,,dürfen,gedurft,"to be allowed (to do something), may",
-10,1,,wissen,gewusst,to know,
-11,1,,machen,gemacht,"to make, to prepare (e.g. food), to do",
-12,1,,tun,getan,"to do, to do something to someone",
-13,1,,sagen,gesagt,"to say, to tell",
-14,1,,gehen,gegangen,"to go, to leave, to work, to function (coll.)",
-15,1,,sehen,gesehen,"to see, to see (to something), to realise",
-16,1,,geben,gegeben,to give,
-17,1,,kommen,gekommen,"to come, to make it (e.g. over something), to go to, to occur",
-18,1,,glauben,geglaubt,to believe,
-19,1,,passieren,passiert,"to happen (conversational), to move beyond, to strain",
-20,1,,reden,geredet,to talk,
-21,1,,hören,gehört,"to hear, to listen to",
-22,1,,finden,gefunden,to find,
-23,1,,bleiben,geblieben,"to remain, to stay",
-24,1,,brauchen,gebraucht,to need,
-25,1,,lieben,geliebt,to love,
-26,1,,bringen,gebracht,"to bring, to take, to lead",
-27,1,,stehen,gestanden,"to stand, to be, to appear",
-28,1,,heissen,geheissen,"to be called, to mean",
-29,1,,nehmen,genommen,"to take, to cause oneself to be (in some state)",
-30,1,,sprechen,gesprochen,to speak,
-31,1,,bekommen,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",
-32,1,,vergessen,vergessen,"to forget, to leave (forget to take)",
-33,1,,halten,gehalten,"to hold, to stop (a movement), to support, to keep",
-34,1,,warten,gewartet,"to wait, to maintain (e.g. a car)",
-35,1,,kennen,gekannt,"to know, to be acquainted with, to be familiar with",
-36,1,,verstehen,verstanden,"to understand, to get along with someone/something",
-37,1,,denken,gedacht,"to think, to consider",
-38,1,,leben,gelebt,to live,
-39,1,,verlieren,verloren,to lose,
-40,1,,arbeiten,gearbeitet,to work,
-41,1,,essen,gegessen,to eat,
-42,1,,spielen,gespielt,to play,
-43,1,,fahren,gefahren,"to go (by vehicle), to leave, to drive",
-44,1,,versuchen,versucht,to try,
-45,1,,erzählen,erzählt,"to tell, to narrate",
-46,1,,fragen,gefragt,"to ask, to wonder (refl.)",
-47,1,sich,treffen,getroffen,"to meet, to encounter",
-48,1,,hoffen,gehofft,to hope,
-49,1,,suchen,gesucht,"to seek, to search",
-50,1,,trinken,getrunken,to drink,
-51,1,,lernen,gelernt,"to learn, to study (revise/review materials), to train something",
-52,1,,zeigen,gezeigt,"to show, to point at, to demonstrate",
-53,1,,schlafen,geschlafen,to sleep,
-54,1,,kaufen,gekauft,to buy,
-55,1,,laufen,gelaufen,"to walk, to flow (of a fluid), to run (of an event)",
-56,1,,erklären,erklärt,"to explain, to declare, to assert",
-57,1,,zahlen,gezahlt,"to pay (for something), to atone for",
-58,1,,kochen,gekocht,"to cook, to boil (to heat a liquid), to boil something",
-59,1,sich,waschen,gewaschen,to wash,
-60,1,,aufwachen,aufgewacht,to wake up,
-61,1,,zeichnen,gezeichnet,"to draw, to sketch",
-62,1,,wohnen,gewohnt,"to live, to reside, to dwell",
-63,1,,schreiben,geschrieben,to write,
-64,1,,tragen,getragen,"to wear (clothing), to carry, to hold",
-65,1,sich,interessieren,interessiert,"to interest, to be interested in (refl.)",
-66,1,,ziehen,gezogen,"to pull, to drag, to move",
-67,1,,lesen,gelesen,to read,
-68,1,,kosten,gekostet,"to cost, to taste",
-69,1,,bedeuten,bedeutet,"to mean, to signify",
-70,1,,bestimmen,bestimmt,to determine,
-71,1,sich,holen,geholt,to fetch,
-72,1,,funktionieren,funktioniert,"to function, to work",
-73,1,sich,fühlen,gefühlt,"to feel, to feel something (good/bad) (refl.)",
-74,1,sich,erinnern,erinnert,"to remind, to remember (refl.)",
-75,1,sich,verletzen,verletzt,"to hurt, to injure, to violate (rules, laws, etc.)",
-76,2,,Ich bin in Berlin _____.,gewesen,I have been to Berlin.,Ich bin in Berlin gewesen.
-77,2,,Er hat viel Glück _____.,gehabt,He has had a lot of luck.,Er hat viel Glück gehabt.
-78,2,,Sie ist Lehrerin _____.,geworden,She has become a teacher.,Sie ist Lehrerin geworden.
-79,2,,Ich habe das nicht _____.,gekonnt,I was not able to do that.,Ich habe das nicht gekonnt.
-80,2,,Er hat das nie _____.,gewollt,He never wanted that.,Er hat das nie gewollt.
-81,2,,Ich habe früher viel lernen _____.,gemusst,I had to study a lot before.,Ich habe früher viel lernen gemusst.
-82,2,,Er hat nach Hause gehen _____.,gesollt,He was supposed to go home.,Er hat nach Hause gehen gesollt.
-83,2,,Ich habe den Film _____.,gemocht,I liked the movie.,Ich habe den Film gemocht.
-84,2,,Wir haben lange bleiben _____.,gedurft,We were allowed to stay long.,Wir haben lange bleiben gedurft.
-85,2,,Er hat es schon _____.,gewusst,He already knew it.,Er hat es schon gewusst.
-86,2,,Ich habe meine Hausaufgaben _____.,gemacht,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
-87,2,,Sie hat nichts _____.,getan,She has done nothing.,Sie hat nichts getan.
-88,2,,Er hat mir die Wahrheit _____.,gesagt,He told me the truth.,Er hat mir die Wahrheit gesagt.
-89,2,,Wir sind ins Kino _____.,gegangen,We went to the cinema.,Wir sind ins Kino gegangen.
-90,2,,Ich habe den Film _____.,gesehen,I saw the movie.,Ich habe den Film gesehen.
-91,2,,Er hat mir ein Buch _____.,gegeben,He gave me a book.,Er hat mir ein Buch gegeben.
-92,2,,Sie ist nach Hause _____.,gekommen,She has come home.,Sie ist nach Hause gekommen.
-93,2,,Er hat an Gott _____.,geglaubt,He believed in God.,Er hat an Gott geglaubt.
-94,2,,Ein Unfall ist _____.,passiert,An accident has happened.,Ein Unfall ist passiert.
-95,2,,Wir haben über das Wetter _____.,geredet,We talked about the weather.,Wir haben über das Wetter geredet.
-96,2,,Ich habe Musik _____.,gehört,I listened to music.,Ich habe Musik gehört.
-97,2,,Er hat seinen Schlüssel _____.,gefunden,He found his key.,Er hat seinen Schlüssel gefunden.
-98,2,,Wir sind zu Hause _____.,geblieben,We stayed at home.,Wir sind zu Hause geblieben.
-99,2,,Ich habe das Geld _____.,gebraucht,I needed the money.,Ich habe das Geld gebraucht.
-100,2,,Er hat sie immer _____.,geliebt,He always loved her.,Er hat sie immer geliebt.
-101,2,,Ich habe ein Geschenk _____.,gebracht,I brought a gift.,Ich habe ein Geschenk gebracht.
-102,2,,Sie hat lange vor der Tür _____.,gestanden,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
-103,2,,Er hat Peter _____.,geheissen,His name was Peter.,Er hat Peter geheissen.
-104,2,,Ich habe den Bus _____.,genommen,I took the bus.,Ich habe den Bus genommen.
-105,2,,Er hat mit mir _____.,gesprochen,He spoke with me.,Er hat mit mir gesprochen.
-106,2,,Sie hat ein Geschenk _____.,bekommen,She received a gift.,Sie hat ein Geschenk bekommen.
-107,2,,Ich habe meine Tasche _____.,vergessen,I forgot my bag.,Ich habe meine Tasche vergessen.
-108,2,,Er hat das Versprechen _____.,gehalten,He kept the promise.,Er hat das Versprechen gehalten.
-109,2,,Wir haben lange _____.,gewartet,We waited a long time.,Wir haben lange gewartet.
-110,2,,Ich habe ihn gut _____.,gekannt,I knew him well.,Ich habe ihn gut gekannt.
-111,2,,Er hat mich nicht _____.,verstanden,He didn't understand me.,Er hat mich nicht verstanden.
-112,2,,Ich habe an dich _____.,gedacht,I thought of you.,Ich habe an dich gedacht.
-113,2,,Er hat lange in Paris _____.,gelebt,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
-114,2,,Ich habe meine Uhr _____.,verloren,I lost my watch.,Ich habe meine Uhr verloren.
-115,2,,Sie hat im Krankenhaus _____.,gearbeitet,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
-116,2,,Ich habe eine Pizza _____.,gegessen,I ate a pizza.,Ich habe eine Pizza gegessen.
-117,2,,Er hat Fußball _____.,gespielt,He played football.,Er hat Fußball gespielt.
-118,2,,Wir sind nach München _____.,gefahren,We drove to Munich.,Wir sind nach München gefahren.
-119,2,,Er hat es _____.,versucht,He tried it.,Er hat es versucht.
-120,2,,Sie hat eine Geschichte _____.,erzählt,She told a story.,Sie hat eine Geschichte erzählt.
-121,2,,Ich habe ihn nach dem Weg _____.,gefragt,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
-122,2,,Wir haben uns im Café _____.,getroffen,We met at the café.,Wir haben uns im Café getroffen.
-123,2,,Ich habe auf gutes Wetter _____.,gehofft,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
-124,2,,Er hat seine Brille _____.,gesucht,He looked for his glasses.,Er hat seine Brille gesucht.
-125,2,,Ich habe ein Glas Wasser _____.,getrunken,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
-126,2,,Ich habe Deutsch _____.,gelernt,I have learned German.,Ich habe Deutsch gelernt.
-127,2,,Er hat mir das Bild _____.,gezeigt,He showed me the picture.,Er hat mir das Bild gezeigt.
-128,2,,Ich habe lange _____.,geschlafen,I slept for a long time.,Ich habe lange geschlafen.
-129,2,,Sie hat ein neues Auto _____.,gekauft,She bought a new car.,Sie hat ein neues Auto gekauft.
-130,2,,Er ist schnell nach Hause _____.,gelaufen,He ran home quickly.,Er ist schnell nach Hause gelaufen.
-131,2,,Der Lehrer hat die Aufgabe _____.,erklärt,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
-132,2,,Ich habe die Rechnung _____.,gezahlt,I paid the bill.,Ich habe die Rechnung gezahlt.
-133,2,,Wir sind im Meer _____.,geschwommen,We swam in the sea.,Wir sind im Meer geschwommen.
-134,2,,Er hat eine Suppe _____.,gekocht,He cooked a soup.,Er hat eine Suppe gekocht.
-135,2,,Sie hat ihre Hände _____.,gewaschen,She washed her hands.,Sie hat ihre Hände gewaschen.
-136,2,,Ich bin spät _____.,aufgewacht,I woke up late.,Ich bin spät aufgewacht.
-137,2,,Er hat in Berlin _____.,studiert,He studied in Berlin.,Er hat in Berlin studiert.
-138,2,,Sie hat ein Bild _____.,gezeichnet,She drew a picture.,Sie hat ein Bild gezeichnet.
-139,2,,Er ist um 7 Uhr _____.,aufgestanden,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
-140,2,,Ich habe die Frage _____.,wiederholt,I repeated the question.,Ich habe die Frage wiederholt.
-141,2,,Er hat den Text _____.,übersetzt,He translated the text.,Er hat den Text übersetzt.
-142,2,,Wir haben in München _____.,gewohnt,We lived in Munich.,Wir haben in München gewohnt.
-143,2,,Sie hat einen Brief _____.,geschrieben,She wrote a letter.,Sie hat einen Brief geschrieben.
-144,2,,Ich habe eine Jacke _____.,angezogen,I put on a jacket.,Ich habe eine Jacke angezogen.
-145,2,,Er ist aus der Wohnung _____.,ausgezogen,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
-146,2,,Ich habe das Wort _____.,buchstabiert,I spelled the word.,Ich habe das Wort buchstabiert.
-147,2,,Sie hat ein rotes Kleid _____.,getragen,She wore a red dress.,Sie hat ein rotes Kleid getragen.
-148,2,,Ich habe mich für Kunst _____.,interessiert,I was interested in art.,Ich habe mich für Kunst interessiert.
-149,2,,Er hat die Tür _____.,gezogen,He pulled the door.,Er hat die Tür gezogen.
-150,2,,Ich habe ein Buch _____.,gelesen,I read a book.,Ich habe ein Buch gelesen.
-151,3,,Ich _____ in Berlin gewesen.,bin,I have been to Berlin.,Ich bin in Berlin gewesen.
-152,3,,Er _____ viel Glück gehabt.,hat,He has had a lot of luck.,Er hat viel Glück gehabt.
-153,3,,Sie _____ Lehrerin geworden.,ist,She has become a teacher.,Sie ist Lehrerin geworden.
-154,3,,Ich _____ das nicht gekonnt.,habe,I was not able to do that.,Ich habe das nicht gekonnt.
-155,3,,Er _____ das nie gewollt.,hat,He never wanted that.,Er hat das nie gewollt.
-156,3,,Ich _____ früher viel lernen gemusst.,habe,I had to study a lot before.,Ich habe früher viel lernen gemusst.
-157,3,,Er _____ nach Hause gehen gesollt.,hat,He was supposed to go home.,Er hat nach Hause gehen gesollt.
-158,3,,Ich _____ den Film gemocht.,habe,I liked the movie.,Ich habe den Film gemocht.
-159,3,,Wir _____ lange bleiben gedurft.,haben,We were allowed to stay long.,Wir haben lange bleiben gedurft.
-160,3,,Er _____ es schon gewusst.,hat,He already knew it.,Er hat es schon gewusst.
-161,3,,Ich _____ meine Hausaufgaben gemacht.,habe,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
-162,3,,Sie _____ nichts getan.,hat,She has done nothing.,Sie hat nichts getan.
-163,3,,Er _____ mir die Wahrheit gesagt.,hat,He told me the truth.,Er hat mir die Wahrheit gesagt.
-164,3,,Wir _____ ins Kino gegangen.,sind,We went to the cinema.,Wir sind ins Kino gegangen.
-165,3,,Ich _____ den Film gesehen.,habe,I saw the movie.,Ich habe den Film gesehen.
-166,3,,Er _____ mir ein Buch gegeben.,hat,He gave me a book.,Er hat mir ein Buch gegeben.
-167,3,,Sie _____ nach Hause gekommen.,ist,She has come home.,Sie ist nach Hause gekommen.
-168,3,,Er _____ an Gott geglaubt.,hat,He believed in God.,Er hat an Gott geglaubt.
-169,3,,Ein Unfall _____ passiert.,ist,An accident has happened.,Ein Unfall ist passiert.
-170,3,,Wir _____ über das Wetter geredet.,haben,We talked about the weather.,Wir haben über das Wetter geredet.
-171,3,,Ich _____ Musik gehört.,habe,I listened to music.,Ich habe Musik gehört.
-172,3,,Er _____ seinen Schlüssel gefunden.,hat,He found his key.,Er hat seinen Schlüssel gefunden.
-173,3,,Wir _____ zu Hause geblieben.,sind,We stayed at home.,Wir sind zu Hause geblieben.
-174,3,,Ich _____ das Geld gebraucht.,habe,I needed the money.,Ich habe das Geld gebraucht.
-175,3,,Er _____ sie immer geliebt.,hat,He always loved her.,Er hat sie immer geliebt.
-176,3,,Ich _____ ein Geschenk gebracht.,habe,I brought a gift.,Ich habe ein Geschenk gebracht.
-177,3,,Sie _____ lange vor der Tür gestanden.,hat,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
-178,3,,Er _____ Peter geheissen.,hat,His name was Peter.,Er hat Peter geheissen.
-179,3,,Ich _____ den Bus genommen.,habe,I took the bus.,Ich habe den Bus genommen.
-180,3,,Er _____ mit mir gesprochen.,hat,He spoke with me.,Er hat mit mir gesprochen.
-181,3,,Sie _____ ein Geschenk bekommen.,hat,She received a gift.,Sie hat ein Geschenk bekommen.
-182,3,,Ich _____ meine Tasche vergessen.,habe,I forgot my bag.,Ich habe meine Tasche vergessen.
-183,3,,Er _____ das Versprechen gehalten.,hat,He kept the promise.,Er hat das Versprechen gehalten.
-184,3,,Wir _____ lange gewartet.,haben,We waited a long time.,Wir haben lange gewartet.
-185,3,,Ich _____ ihn gut gekannt.,habe,I knew him well.,Ich habe ihn gut gekannt.
-186,3,,Er _____ mich nicht verstanden.,hat,He didn't understand me.,Er hat mich nicht verstanden.
-187,3,,Ich _____ an dich gedacht.,habe,I thought of you.,Ich habe an dich gedacht.
-188,3,,Er _____ lange in Paris gelebt.,hat,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
-189,3,,Ich _____ meine Uhr verloren.,habe,I lost my watch.,Ich habe meine Uhr verloren.
-190,3,,Sie _____ im Krankenhaus gearbeitet.,hat,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
-191,3,,Ich _____ eine Pizza gegessen.,habe,I ate a pizza.,Ich habe eine Pizza gegessen.
-192,3,,Er _____ Fußball gespielt.,hat,He played football.,Er hat Fußball gespielt.
-193,3,,Wir _____ nach München gefahren.,sind,We drove to Munich.,Wir sind nach München gefahren.
-194,3,,Er _____ es versucht.,hat,He tried it.,Er hat es versucht.
-195,3,,Sie _____ eine Geschichte erzählt.,hat,She told a story.,Sie hat eine Geschichte erzählt.
-196,3,,Ich _____ ihn nach dem Weg gefragt.,habe,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
-197,3,,Wir _____ uns im Café getroffen.,haben,We met at the café.,Wir haben uns im Café getroffen.
-198,3,,Ich _____ auf gutes Wetter gehofft.,habe,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
-199,3,,Er _____ seine Brille gesucht.,hat,He looked for his glasses.,Er hat seine Brille gesucht.
-200,3,,Ich _____ ein Glas Wasser getrunken.,habe,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
-201,3,,Ich _____ Deutsch gelernt.,habe,I have learned German.,Ich habe Deutsch gelernt.
-202,3,,Er _____ mir das Bild gezeigt.,hat,He showed me the picture.,Er hat mir das Bild gezeigt.
-203,3,,Ich _____ lange geschlafen.,habe,I slept for a long time.,Ich habe lange geschlafen.
-204,3,,Sie _____ ein neues Auto gekauft.,hat,She bought a new car.,Sie hat ein neues Auto gekauft.
-205,3,,Er _____ schnell nach Hause gelaufen.,ist,He ran home quickly.,Er ist schnell nach Hause gelaufen.
-206,3,,Der Lehrer _____ die Aufgabe erklärt.,hat,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
-207,3,,Ich _____ die Rechnung gezahlt.,habe,I paid the bill.,Ich habe die Rechnung gezahlt.
-208,3,,Wir _____ im Meer geschwommen.,sind,We swam in the sea.,Wir sind im Meer geschwommen.
-209,3,,Er _____ eine Suppe gekocht.,hat,He cooked a soup.,Er hat eine Suppe gekocht.
-210,3,,Sie _____ ihre Hände gewaschen.,hat,She washed her hands.,Sie hat ihre Hände gewaschen.
-211,3,,Ich _____ spät aufgewacht.,bin,I woke up late.,Ich bin spät aufgewacht.
-212,3,,Er _____ in Berlin studiert.,hat,He studied in Berlin.,Er hat in Berlin studiert.
-213,3,,Sie _____ ein Bild gezeichnet.,hat,She drew a picture.,Sie hat ein Bild gezeichnet.
-214,3,,Er _____ um 7 Uhr aufgestanden.,ist,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
-215,3,,Ich _____ die Frage wiederholt.,habe,I repeated the question.,Ich habe die Frage wiederholt.
-216,3,,Er _____ den Text übersetzt.,hat,He translated the text.,Er hat den Text übersetzt.
-217,3,,Wir _____ in München gewohnt.,haben,We lived in Munich.,Wir haben in München gewohnt.
-218,3,,Sie _____ einen Brief geschrieben.,hat,She wrote a letter.,Sie hat einen Brief geschrieben.
-219,3,,Ich _____ eine Jacke angezogen.,habe,I put on a jacket.,Ich habe eine Jacke angezogen.
-220,3,,Er _____ aus der Wohnung ausgezogen.,ist,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
-221,3,,Ich _____ das Wort buchstabiert.,habe,I spelled the word.,Ich habe das Wort buchstabiert.
-222,3,,Sie _____ ein rotes Kleid getragen.,hat,She wore a red dress.,Sie hat ein rotes Kleid getragen.
-223,3,,Ich _____ mich für Kunst interessiert.,habe,I was interested in art.,Ich habe mich für Kunst interessiert.
-224,3,,Er _____ die Tür gezogen.,hat,He pulled the door.,Er hat die Tür gezogen.
-225,3,,Ich _____ ein Buch gelesen.,habe,I read a book.,Ich habe ein Buch gelesen.
-226,4,,anrufen,angerufen,"to call by telephone, to call on (someone)",
-227,4,,aufhören,aufgehört,"to stop, to cease an activity/process",
-228,4,,führen,geführt,"to lead, to guide",
-229,4,,anfangen,angefangen,to begin something new,
-230,4,,gewinnen,gewonnen,to win,
-231,4,,regnen,geregnet,to rain,
-232,4,,schneien,geschneite,to snow,
-233,4,,wehtun,wehgetan,"to hurt, to be painful",
-234,4,,diskutieren,diskutiert,"to discuss, to debate",
-235,4,,öffnen,geöffnet,to open (formal),
-236,4,,bezahlen,bezahlt,"to pay, to pay someone",
-237,4,,beginnen,begonnen,to begin (on a date/time),
-238,4,,benutzen,benutzt,to use (something),
-239,4,,schicken,geschickt,to send,
-240,4,,lachen,gelacht,to laugh,
-241,4,,scheinen,geschienen,"to seem, to shine",
-242,4,sich,ändern,geändert,to change (one's personality/behavior),
-243,4,,bitten,gebeten,"to ask, to request",
-244,4,,aufmachen,aufgemacht,"to open (coll.), to head/move off (refl.), to undo something",
-245,4,,verkaufen,verkauft,to sell,
-246,4,,gehören,gehört,to belong to,
-247,4,,sitzen,gesessen,"to be seated, to stay, to fit (of clothing)",
-248,4,,stellen,gestellt,"to position, to put, to catch",
-249,4,,setzen,gesetzt,"to set, to sit down (refl.)",
-250,4,,liegen,gelegen,"to lie, to be located",
-251,4,,danken,gedankt,to thank,
-252,4,,legen,gelegt,"to lay, to lean, to lie down",
-253,4,,schauen,geschaut,to look at (Bayern/Austria),
-254,4,,besuchen,besucht,to visit,
-255,4,sich,freuen,gefreut,"to make glad, to be glad (refl.), to look forward (refl.)",
-256,4,,schließen,geschlossen,"to shut, to close, to lock, to conclude",
-257,4,,einladen,eingeladen,"to invite, to load (something into a container)",
-258,4,sich,gefallen,gefallen,"to please, to appeal to",
-259,4,,wünschen,gewünscht,to wish,
-260,4,,passen,gepasst,"to fit, to suit",
-261,4,,verändern,verändert,"to alter, to change something",
-262,4,,folgen,gefolgt,to follow,
-263,4,sich,ansehen,angesehen,"to look at something, to watch something",
-264,4,,aussehen,ausgesehen,"to look (like), to appear",
-265,4,,besitzen,besessen,"to own, to possess, to have",
-266,4,,probieren,probiert,"to try, to taste, to sample, to probe",
-267,4,,träumen,geträumt,to dream,
-268,4,,reisen,gereist,to travel,
-269,4,,feiern,gefeiert,to celebrate,
-270,4,,antworten,geantwortet,"to answer, to reply",
-271,4,,wählen,gewählt,"to choose, to dial (a number), to vote",
-272,4,,ausgehen,ausgegangen,"to go out, to run out (e.g. of money)",
-273,4,,zählen,gezählt,to count,
-274,4,,ankommen,angekommen,"to arrive, to depend on something",
-275,4,,dauern,gedauert,"to last, to take (time)",
-276,4,,kennenlernen,kennengelernt,"to meet someone, to get to know someone/something",
-277,4,,zustimmen,zugestimmt,"to agree, to consent",
-278,4,sich,anmelden,angemeldet,"to register, to sign up",
-279,4,,lassen,gelassen,"to let, to stop (something)",
-280,4,sich,verlassen,verlassen,"to leave, to trust with something (refl.), to pass away, to die",
-281,4,,helfen,geholfen,to help,
-282,4,sich,bewegen,bewegt,to move,
-283,4,,vertrauen,vertraut,to trust,
-284,4,,versprechen,versprochen,"to promise, to hope for, to misspeak",
-285,4,,hängen,gehangen,"to hang, to be fond of, depend on",
-286,4,,mieten,gemietet,"to rent, to hire",
-287,4,,rauchen,geraucht,to smoke (e.g. a cigarette),
-288,4,,sterben,gestorben,to die,
-289,4,,heiraten,geheiratet,to marry,
-290,4,sich,verheiraten,verheiratet,"to marry (to perform the marriage), to get married (refl.)",
-291,4,,stimmen,gestimmt,"to be true, to vote, to tune",
-292,4,,kämpfen,gekämpft,"to fight, to struggle",
-293,4,,fehlen,gefehlt,"to lack, to be absent/missing",
-294,4,sich,entscheiden,entschieden,to decide,
-295,4,,sorgen,gesorgt,"to care, to worry",
-296,4,,stecken,gesteckt,"to stick, to pin",
-297,4,,überraschen,überrascht,to surprise,
-298,4,sich,vorstellen,vorgestellt,"to introduce, to present oneself (refl.), to move forward, to represent",
-299,4,,stehlen,gestohlen,to steal (formal),
-300,4,,vermissen,vermisst,to miss something/someone,
-301,5,,Das hat viel _____.,bedeutet,That meant a lot.,Das hat viel bedeutet.
-302,5,,Sie hat den Termin _____.,bestimmt,She set the appointment.,Sie hat den Termin bestimmt.
-303,5,,Ich habe die Zeitung _____.,geholt,I fetched the newspaper.,Ich habe die Zeitung geholt.
-304,5,,Der Computer hat _____.,funktioniert,The computer worked.,Der Computer hat funktioniert.
-305,5,,Ich habe mich schlecht _____.,gefühlt,I felt bad.,Ich habe mich schlecht gefühlt.
-306,5,,Das hat viel Geld _____.,gekostet,That cost a lot of money.,Das hat viel Geld gekostet.
-307,5,,Ich habe mich daran _____.,erinnert,I remembered that.,Ich habe mich daran erinnert.
-308,5,,Er hat sich _____.,verletzt,He got injured.,Er hat sich verletzt.
-309,5,,Ich habe meine Mutter _____.,angerufen,I called my mother.,Ich habe meine Mutter angerufen.
-310,5,,Er hat mit dem Rauchen _____.,aufgehört,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
-311,5,,Er hat die Gruppe _____.,geführt,He led the group.,Er hat die Gruppe geführt.
-312,5,,Wir haben mit der Arbeit _____.,angefangen,We started the work.,Wir haben mit der Arbeit angefangen.
-313,5,,Er hat das Spiel _____.,gewonnen,He won the game.,Er hat das Spiel gewonnen.
-314,5,,Es hat die ganze Nacht _____.,geregnet,It rained all night.,Es hat die ganze Nacht geregnet.
-315,5,,Es hat gestern _____.,geschneit,It snowed yesterday.,Es hat gestern geschneit.
-316,5,,Mein Kopf hat _____.,wehgetan,My head hurt.,Mein Kopf hat wehgetan.
-317,5,,Wir haben lange _____.,diskutiert,We discussed for a long time.,Wir haben lange diskutiert.
-318,5,,Sie hat die ganze Nacht _____.,getanzt,She danced all night.,Sie hat die ganze Nacht getanzt.
-319,5,,Er hat die Tür _____.,geöffnet,He opened the door.,Er hat die Tür geöffnet.
-320,5,,Ich habe die Getränke _____.,bezahlt,I paid for the drinks.,Ich habe die Getränke bezahlt.
-321,5,,Das Konzert hat um 8 Uhr _____.,begonnen,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
-322,5,,Ich habe das Werkzeug _____.,benutzt,I used the tool.,Ich habe das Werkzeug benutzt.
-323,5,,Er hat mir eine E-Mail _____.,geschickt,He sent me an email.,Er hat mir eine E-Mail geschickt.
-324,5,,Wir haben viel _____.,gelacht,We laughed a lot.,Wir haben viel gelacht.
-325,5,,Die Sonne hat _____.,geschienen,The sun was shining.,Die Sonne hat geschienen.
-326,5,,Ich habe meine Meinung _____.,geändert,I changed my opinion.,Ich habe meine Meinung geändert.
-327,5,,Er hat mich um Hilfe _____.,gebeten,He asked me for help.,Er hat mich um Hilfe gebeten.
-328,5,,Ich habe die Tür _____.,aufgemacht,I opened the door.,Ich habe die Tür aufgemacht.
-329,5,,Sie hat ihr altes Auto _____.,verkauft,She sold her old car.,Sie hat ihr altes Auto verkauft.
-330,5,,Das Buch hat mir _____.,gehört,The book belonged to me.,Das Buch hat mir gehört.
-331,5,,Ich habe lange auf dem Stuhl _____.,gesessen,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
-332,5,,Ich habe die Vase auf den Tisch _____.,gestellt,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
-333,5,,Ich habe mich auf den Stuhl _____.,gesetzt,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
-334,5,,Das Buch hat auf dem Tisch _____.,gelegen,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
-335,5,,Ich habe ihm für seine Hilfe _____.,gedankt,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
-336,5,,Ich habe das Handy auf den Tisch _____.,gelegt,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
-337,5,,Er hat aus dem Fenster _____.,geschaut,He looked out of the window.,Er hat aus dem Fenster geschaut.
-338,5,,Sie hat ein schönes Lied _____.,gesungen,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
-339,5,,Wir haben unsere Großeltern _____.,besucht,We visited our grandparents.,Wir haben unsere Großeltern besucht.
-340,5,,Ich habe mich über das Geschenk _____.,gefreut,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
-341,5,,Er hat das Fenster _____.,geschlossen,He closed the window.,Er hat das Fenster geschlossen.
-342,5,,Ich habe ihn zur Party _____.,eingeladen,I invited him to the party.,Ich habe ihn zur Party eingeladen.
-343,5,,Der Film hat mir _____.,gefallen,I liked the movie.,Der Film hat mir gefallen.
-344,5,,Er hat viel Geld _____.,verdient,He earned a lot of money.,Er hat viel Geld verdient.
-345,5,,Ich habe mir ein neues Fahrrad _____.,gewünscht,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
-346,5,,Die Schuhe haben mir nicht _____.,gepasst,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
-347,5,,Sie hat ihr Leben _____.,verändert,She changed her life.,Sie hat ihr Leben verändert.
-348,5,,Der Hund ist mir _____.,gefolgt,The dog followed me.,Der Hund ist mir gefolgt.
-349,5,,Ich habe mir einen Film _____.,angesehen,I watched a movie.,Ich habe mir einen Film angesehen.
-350,5,,Er hat müde _____.,ausgesehen,He looked tired.,Er hat müde ausgesehen.
-351,5,,Er hat ein großes Haus _____.,besessen,He owned a big house.,Er hat ein großes Haus besessen.
-352,5,,Ich habe das neue Gericht _____.,probiert,I tried the new dish.,Ich habe das neue Gericht probiert.
-353,5,,Ich habe von einem Urlaub _____.,geträumt,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
-354,5,,Er hat eine Pizza _____.,bestellt,He ordered a pizza.,Er hat eine Pizza bestellt.
-355,5,,Wir sind nach Italien _____.,gereist,We traveled to Italy.,Wir sind nach Italien gereist.
-356,5,,Wir haben seinen Geburtstag _____.,gefeiert,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
-357,5,,Sie hat auf meine Frage _____.,geantwortet,She answered my question.,Sie hat auf meine Frage geantwortet.
-358,5,,Er hat den besten Kandidaten _____.,gewählt,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
-359,5,,Wir sind gestern Abend _____.,ausgegangen,We went out last night.,Wir sind gestern Abend ausgegangen.
-360,5,,Ich habe das Geld _____.,gezählt,I counted the money.,Ich habe das Geld gezählt.
-361,5,,Er hat den ganzen Abend _____.,ferngesehen,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
-362,5,,Wir sind pünktlich _____.,angekommen,We arrived on time.,Wir sind pünktlich angekommen.
-363,5,,Der Film hat zwei Stunden _____.,gedauert,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
-364,5,,Ich habe viele neue Leute _____.,kennengelernt,I met many new people.,Ich habe viele neue Leute kennengelernt.
-365,5,,Er hat viel Sport _____.,getrieben,He did a lot of sports.,Er hat viel Sport getrieben.
-366,5,,Sie hat viele Schüler _____.,unterrichtet,She taught many students.,Sie hat viele Schüler unterrichtet.
-367,5,,Er hat dem Vorschlag _____.,zugestimmt,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
-368,5,,Ich habe mich für den Kurs _____.,angemeldet,I registered for the course.,Ich habe mich für den Kurs angemeldet.
-369,5,,Ich habe mein Handy zu Hause _____.,gelassen,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
-370,5,,Er hat das Haus _____.,verlassen,He left the house.,Er hat das Haus verlassen.
-371,5,,Ich habe ihm bei der Arbeit _____.,geholfen,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
-372,5,,Er hat den Tisch _____.,bewegt,He moved the table.,Er hat den Tisch bewegt.
-373,5,,Ich habe ihm immer _____.,vertraut,I always trusted him.,Ich habe ihm immer vertraut.
-374,5,,"Er hat mir geholfen, wie er es _____ hat.",versprochen,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
-375,5,,Das Bild hat an der Wand _____.,gehangen,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
-376,6,,Das _____ viel bedeutet.,hat,That meant a lot.,Das hat viel bedeutet.
-377,6,,Sie _____ den Termin bestimmt.,hat,She set the appointment.,Sie hat den Termin bestimmt.
-378,6,,Ich _____ die Zeitung geholt.,habe,I fetched the newspaper.,Ich habe die Zeitung geholt.
-379,6,,Der Computer _____ funktioniert.,hat,The computer worked.,Der Computer hat funktioniert.
-380,6,,Ich _____ mich schlecht gefühlt.,habe,I felt bad.,Ich habe mich schlecht gefühlt.
-381,6,,Das _____ viel Geld gekostet.,hat,That cost a lot of money.,Das hat viel Geld gekostet.
-382,6,,Ich _____ mich daran erinnert.,habe,I remembered that.,Ich habe mich daran erinnert.
-383,6,,Er _____ sich verletzt.,hat,He got injured.,Er hat sich verletzt.
-384,6,,Ich _____ meine Mutter angerufen.,habe,I called my mother.,Ich habe meine Mutter angerufen.
-385,6,,Er _____ mit dem Rauchen aufgehört.,hat,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
-386,6,,Er _____ die Gruppe geführt.,hat,He led the group.,Er hat die Gruppe geführt.
-387,6,,Wir _____ mit der Arbeit angefangen.,haben,We started the work.,Wir haben mit der Arbeit angefangen.
-388,6,,Er _____ das Spiel gewonnen.,hat,He won the game.,Er hat das Spiel gewonnen.
-389,6,,Es _____ die ganze Nacht geregnet.,hat,It rained all night.,Es hat die ganze Nacht geregnet.
-390,6,,Es _____ gestern geschneit.,hat,It snowed yesterday.,Es hat gestern geschneit.
-391,6,,Mein Kopf _____ wehgetan.,hat,My head hurt.,Mein Kopf hat wehgetan.
-392,6,,Wir _____ lange diskutiert.,haben,We discussed for a long time.,Wir haben lange diskutiert.
-393,6,,Sie _____ die ganze Nacht getanzt.,hat,She danced all night.,Sie hat die ganze Nacht getanzt.
-394,6,,Er _____ die Tür geöffnet.,hat,He opened the door.,Er hat die Tür geöffnet.
-395,6,,Ich _____ die Getränke bezahlt.,habe,I paid for the drinks.,Ich habe die Getränke bezahlt.
-396,6,,Das Konzert _____ um 8 Uhr begonnen.,hat,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
-397,6,,Ich _____ das Werkzeug benutzt.,habe,I used the tool.,Ich habe das Werkzeug benutzt.
-398,6,,Er _____ mir eine E-Mail geschickt.,hat,He sent me an email.,Er hat mir eine E-Mail geschickt.
-399,6,,Wir _____ viel gelacht.,haben,We laughed a lot.,Wir haben viel gelacht.
-400,6,,Die Sonne _____ geschienen.,hat,The sun was shining.,Die Sonne hat geschienen.
-401,6,,Ich _____ meine Meinung geändert.,habe,I changed my opinion.,Ich habe meine Meinung geändert.
-402,6,,Er _____ mich um Hilfe gebeten.,hat,He asked me for help.,Er hat mich um Hilfe gebeten.
-403,6,,Ich _____ die Tür aufgemacht.,habe,I opened the door.,Ich habe die Tür aufgemacht.
-404,6,,Sie _____ ihr altes Auto verkauft.,hat,She sold her old car.,Sie hat ihr altes Auto verkauft.
-405,6,,Das Buch _____ mir gehört.,hat,The book belonged to me.,Das Buch hat mir gehört.
-406,6,,Ich _____ lange auf dem Stuhl gesessen.,habe,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
-407,6,,Ich _____ die Vase auf den Tisch gestellt.,habe,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
-408,6,,Ich _____ mich auf den Stuhl gesetzt.,habe,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
-409,6,,Das Buch _____ auf dem Tisch gelegen.,hat,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
-410,6,,Ich _____ ihm für seine Hilfe gedankt.,habe,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
-411,6,,Ich _____ das Handy auf den Tisch gelegt.,habe,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
-412,6,,Er _____ aus dem Fenster geschaut.,hat,He looked out of the window.,Er hat aus dem Fenster geschaut.
-413,6,,Sie _____ ein schönes Lied gesungen.,hat,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
-414,6,,Wir _____ unsere Großeltern besucht.,haben,We visited our grandparents.,Wir haben unsere Großeltern besucht.
-415,6,,Ich _____ mich über das Geschenk gefreut.,habe,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
-416,6,,Er _____ das Fenster geschlossen.,hat,He closed the window.,Er hat das Fenster geschlossen.
-417,6,,Ich _____ ihn zur Party eingeladen.,habe,I invited him to the party.,Ich habe ihn zur Party eingeladen.
-418,6,,Der Film _____ mir gefallen.,hat,I liked the movie.,Der Film hat mir gefallen.
-419,6,,Er _____ viel Geld verdient.,hat,He earned a lot of money.,Er hat viel Geld verdient.
-420,6,,Ich _____ mir ein neues Fahrrad gewünscht.,habe,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
-421,6,,Die Schuhe _____ mir nicht gepasst.,haben,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
-422,6,,Sie _____ ihr Leben verändert.,hat,She changed her life.,Sie hat ihr Leben verändert.
-423,6,,Der Hund _____ mir gefolgt.,ist,The dog followed me.,Der Hund ist mir gefolgt.
-424,6,,Ich _____ mir einen Film angesehen.,habe,I watched a movie.,Ich habe mir einen Film angesehen.
-425,6,,Er _____ müde ausgesehen.,hat,He looked tired.,Er hat müde ausgesehen.
-426,6,,Er _____ ein großes Haus besessen.,hat,He owned a big house.,Er hat ein großes Haus besessen.
-427,6,,Ich _____ das neue Gericht probiert.,habe,I tried the new dish.,Ich habe das neue Gericht probiert.
-428,6,,Ich _____ von einem Urlaub geträumt.,habe,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
-429,6,,Er _____ eine Pizza bestellt.,hat,He ordered a pizza.,Er hat eine Pizza bestellt.
-430,6,,Wir _____ nach Italien gereist.,sind,We traveled to Italy.,Wir sind nach Italien gereist.
-431,6,,Wir _____ seinen Geburtstag gefeiert.,haben,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
-432,6,,Sie _____ auf meine Frage geantwortet.,hat,She answered my question.,Sie hat auf meine Frage geantwortet.
-433,6,,Er _____ den besten Kandidaten gewählt.,hat,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
-434,6,,Wir _____ gestern Abend ausgegangen.,sind,We went out last night.,Wir sind gestern Abend ausgegangen.
-435,6,,Ich _____ das Geld gezählt.,habe,I counted the money.,Ich habe das Geld gezählt.
-436,6,,Er _____ den ganzen Abend ferngesehen.,hat,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
-437,6,,Wir _____ pünktlich angekommen.,sind,We arrived on time.,Wir sind pünktlich angekommen.
-438,6,,Der Film _____ zwei Stunden gedauert.,hat,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
-439,6,,Ich _____ viele neue Leute kennengelernt.,habe,I met many new people.,Ich habe viele neue Leute kennengelernt.
-440,6,,Er _____ viel Sport getrieben.,hat,He did a lot of sports.,Er hat viel Sport getrieben.
-441,6,,Sie _____ viele Schüler unterrichtet.,hat,She taught many students.,Sie hat viele Schüler unterrichtet.
-442,6,,Er _____ dem Vorschlag zugestimmt.,hat,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
-443,6,,Ich _____ mich für den Kurs angemeldet.,habe,I registered for the course.,Ich habe mich für den Kurs angemeldet.
-444,6,,Ich _____ mein Handy zu Hause gelassen.,habe,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
-445,6,,Er _____ das Haus verlassen.,hat,He left the house.,Er hat das Haus verlassen.
-446,6,,Ich _____ ihm bei der Arbeit geholfen.,habe,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
-447,6,,Er _____ den Tisch bewegt.,hat,He moved the table.,Er hat den Tisch bewegt.
-448,6,,Ich _____ ihm immer vertraut.,habe,I always trusted him.,Ich habe ihm immer vertraut.
-449,6,,"Er _____ mir geholfen, wie er es versprochen _____.",hat,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
-450,6,,Das Bild _____ an der Wand gehangen.,hat,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
-451,7,,werfen,geworfen,to throw,
-452,7,,erkennen,erkannt,"to recognise, to realise",
-453,7,,teilen,geteilt,"to split, to share, to divide",
-454,7,,bauen,gebaut,to build,
-455,7,,unterschreiben,unterschrieben,to sign (write one's signature),
-456,7,,melden,gemeldet,"to report, to register",
-457,7,,brechen,gebrochen,to break,
-458,7,,zerstören,zerstört,to destroy,
-459,7,,merken,gemerkt,"to notice, to realise, to remember (refl.)",
-460,7,,weinen,geweint,"to weep, cry",
-461,7,,enden,geendet,to end (passive),
-462,7,,stören,gestört,"to disturb, to interfere",
-463,7,,abgeben,abgegeben,"to hand something in, to emit something, to deliver something, to cede something",
-464,7,,annehmen,angenommen,"to accept, to assume (a hypothesis), to receive, to suppose",
-465,7,,übernehmen,übernommen,to take over,
-466,7,,stattfinden,stattgefunden,"to take place, to occur",
-467,7,,fangen,gefangen,to catch,
-468,7,,enthalten,enthalten,"to contain, to include",
-469,7,,dienen,gedient,"to serve, to function",
-470,7,,verschwinden,verschwunden,"to disappear, to get lost",
-471,7,,schützen,geschützt,"to defend (lawyer), to protect (sunprotection)",
-472,7,,nennen,genannt,"to name, to call someone something, to mention",
-473,7,,schätzen,geschätzt,"to appreciate, to evaluate, to guess",
-474,7,,erwarten,erwartet,"to expect, to await",
-475,7,,töten,getötet,to kill,
-476,7,,drehen,gedreht,"to turn, to veer",
-477,7,,behalten,behalten,to keep,
-478,7,,verpassen,verpasst,"to miss (to be late for something, e.g. a train)",
-479,7,,schenken,geschenkt,"to gift, to give as a present",
-480,7,,wachsen,gewachsen,"to grow, to increase",
-481,7,,beschreiben,beschrieben,to describe,
-482,7,,verbinden,verbunden,"to join, to connect, to bandage",
-483,7,,springen,gesprungen,"to spring, to jump",
-484,7,,befinden,befunden,"to be located (refl.), to find, to consider (formal)",
-485,7,,raten,geraten,"to advise, to recommend, to guess",
-486,7,,verbieten,verboten,"to forbid, to prohibit (with dative)",
-487,7,,bieten,geboten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)",
-488,7,,fallen,gefallen,"to fall, to fall in battle, to collapse",
-489,7,,kümmern,gekümmert,"to take care (refl.), to trouble, to concern",
-490,7,,drücken,gedrückt,"to press, to push",
-491,7,,steigen,gestiegen,"to ascend, to climb, to rise",
-492,7,,vergleichen,verglichen,to compare,
-493,7,,achten,geachtet,"to respect, to regard someone, to pay attention to something",
-494,7,,mitnehmen,mitgenommen,"to carry along, to pick up (something), to take away",
-495,7,,mitbringen,mitgebracht,"to bring along, to bring with",
-496,7,,tauschen,getauscht,"to swap, to trade, to exchange",
-497,7,,sammeln,gesammelt,"to collect, to gather",
-498,7,,aufpassen,aufgepasst,"to watch out, to look after something, to be attentive with something",
-499,7,,betrinken,betrunken,to get drunk (refl.),
-500,7,,küssen,geküsst,"to kiss, to make out",
-501,7,,erwachsen,erwachsen,"to grow up, to spring up, to accrue",
-502,7,,rennen,gerannt,"to race, to sprint, to run over someone (aux. with haben)",
-503,7,,hassen,gehasst,to hate,
-504,7,,verstecken,versteckt,to hide,
-505,7,,zurückbringen,zurückgebracht,"to return something, to restore",
-506,7,,zurückgehen,zurückgegangen,"to go back, to decline",
-507,7,,zurückkommen,zurückgekommen,to return (to come back),
-508,7,,verkleiden,verkleidet,"to dress up, to disguise oneself (refl.)",
-509,7,,ärgern,geärgert,to annoy oneself (refl.),
-510,7,,absagen,abgesagt,"to call off, to cancel",
-511,7,,schieben,geschoben,to push,
-512,7,,kündigen,gekündigt,"to terminate, to cancel",
-513,7,,heben,gehoben,"to lift, to raise",
-514,7,,abholen,abgeholt,"to pick up someone or something, to collect",
-515,7,,füllen,gefüllt,to fill,
-516,7,,wechseln,gewechselt,"to replace, to change, to exchange",
-517,7,,wirken,gewirkt,"to work, to be effective, to take affect, to act",
-518,7,,erhalten,erhalten,"to receive (passively), to maintain, to save",
-519,7,,erlauben,erlaubt,to allow/permit something to someone,
-520,7,,trennen,getrennt,"to separate, part, uncouple, to disconnect, to isolate",
-521,7,,darstellen,dargestellt,"to represent, to portray",
-522,7,,leeren,geleert,to empty,
-523,7,,greifen,gegriffen,"to grab, to seize, to reach, to capture",
-524,7,,entfernen,entfernt,"to remove, to recede, to deviate, to desert (military)",
-525,7,,umziehen,umgezogen,"to change clothes (refl.), to move house",
-526,8,,verlieben,verliebt,to fall in love (refl.),
-527,8,,aufstehen,aufgestanden,"to get up, to be open (e.g. a window, door)",
-528,8,,anziehen,angezogen,"to get dressed, to put on, to dress someone, to attract, to pull",
-529,8,,ausziehen,ausgezogen,"to take something off, to undress, to pull out, to move out",
-530,8,,verdienen,verdient,to earn,
-531,8,,putzen,geputzt,"to clean, to rub",
-532,8,,einschlafen,eingeschlafen,to fall asleep,
-533,8,,aufräumen,aufgeräumt,"to tidy up, to clean up",
-534,8,,rasieren,rasiert,to shave (refl.),
-535,8,,kämmen,gekämmt,to comb,
-536,8,,spülen,,"to rinse, to flush toilets",
-537,8,,fernsehen,ferngesehen,to watch TV,
-538,8,,einkaufen,,to shop,
-539,8,,frühstücken,gefrühstückt,to have breakfast,
-540,8,,richten,gerichtet,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)",
-541,8,,verursachen,verursacht,to cause,
-542,8,,entstehen,entstanden,"to arise, to emerge, to develop",
-543,8,,schlagen,geschlagen,"to hit, to defeat, to beat (cooking)",
-544,8,,aufwachsen,aufgewachsen,"to grow up, to be raised",
-545,8,,zunehmen,zugenommen,"to gain weight, to increase",
-546,8,,lohnen,gelohnt,"to be worthwhile, to pay off",
-547,8,,messen,gemessen,"to measure, to gauge",
-548,8,,pflanzen,gepflanzt,to plant,
-549,8,,scheiden,geschieden,"to separate, to divorce",
-550,8,,schmerzen,geschmerzt,"to hurt, to ache",
-551,8,,entsprechen,entsprochen,"to correspond, to comply",
-552,8,,aufnehmen,aufgenommen,"to pick up, to receive, to take in, to record, to absorb",
-553,8,,mitmachen,mitgemacht,"to join in, to take part",
-554,8,,wecken,geweckt,"to wake, to wake up",
-555,8,,fliehen,geflohen,"to flee, to diverge",
-556,8,,sinken,gesunken,"to sink, to drop",
-557,8,,abnehmen,abgenommen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",
-558,8,,vereinbaren,vereinbart,"to agree, to arrange",
-559,8,,bewerten,bewertet,"to evaluate (subjectively), to assess, to rate, to judge",
-560,8,,stammen,gestammt,"to descend, originate, be derived",
-561,8,,retten,gerettet,"to save, to rescue",
-562,8,,gebären,geboren,to give birth,
-563,8,,füttern,gefüttert,to feed (an animal),
-564,8,,stossen,gestossen,"to push, to thurst, to shove",
-565,8,,vermeiden,vermieden,to avoid (+ nouns or verbs),
-566,8,,hervorheben,hervorgehoben,"to point out, to emphasize",
-567,8,,gelten,gegolten,"to be valid, to be effective, to be worth",
-568,8,,erfüllen,erfüllt,"to fill (with something), to fulfill, to come true",
-569,8,,lindern,gelindert,"to alleviate, to relieve",
-570,8,,entziehen,entzogen,"to withdraw, deprive",
-571,8,,gewöhnen,gewöhnt,to accustom oneself to something (refl.),
-572,8,,ausfallen,ausgefallen,to stand out,
-573,8,,hinterlassen,hinterlassen,"to leave, to leave behind, to bequeath",
-574,8,,leiden,gelitten,"to bear, to endure, to suffer",
-575,8,,wetten,gewettet,to bet,
-576,8,,auswählen,ausgewählt,"to select, to choose",
-577,8,,befördern,befördert,to transport,
-578,8,,verzichten,verzichtet,"to renounce, to forgo, to do without, to waive",
-579,8,,beurteilen,beurteilt,to judge,
-580,8,,verwandeln,verwandelt,"to transform, to metamorphose, to turn something into something",
-581,8,,treten,getreten,"to step, to read, to kick (a ball)",
-582,8,,verhindern,verhindert,"to prevent, to inhibit",
-583,8,,hetzen,gehetzt,"to rush, to hurry",
-584,8,,bewältigen,bewältigt,"to cope with, to get over, to overcome, to manage",
-585,8,,ablenken,abgelenkt,"to distract, to divert, to steer away",
-586,8,,meiden,gemieden,to avoid (+ nouns only),
-587,8,,vorgeben,vorgegeben,to pretend,
-588,8,,hinweisen,hingewiesen,"to indicate, to point out",
-589,8,,verschweigen,verschwiegen,to conceal,
-590,8,,decken,gedeckt,"to cover, to meet",
-591,8,,geraten,geraten,"to get into, to turn out, succeed, to thrive",
-592,8,,veröffentlichen,veröffentlicht,"to publish, to release",
-593,8,,ersetzen,ersetzt,"to replace, to substitute",
-594,8,,anbieten,angeboten,"to offer, to provide",
-595,8,,erscheinen,erschienen,"to appear, to seem",
-596,8,,schiessen,geschossen,to shoot,
-597,8,,verraten,verraten,"to betray, to reveal",
-598,8,,erreichen,erreicht,to reach,
-599,8,,starten,gestartet,"to start (car, airplane, etc), to start a competition",
-600,8,,akzeptieren,akzeptiert,to accept,
+Nr,level,question,answer,english,german
+1,1,sein,gewesen,to be,
+2,1,haben,gehabt,"to have, to contain",
+3,1,werden,geworden,"to become, will, to be done (passive voice)",
+4,1,können,gekonnt,"can, to be able to",
+5,1,wollen,gewollt,to want,
+6,1,müssen,gemusst,"must, to have to, to be obliged (to do something)",
+7,1,sollen,gesollt,"shall, to be asked (to do something)",
+8,1,mögen,gemocht,to like,
+9,1,dürfen,gedurft,"to be allowed (to do something), may",
+10,1,wissen,gewusst,to know,
+11,1,machen,gemacht,"to make, to prepare (e.g. food), to do",
+12,1,tun,getan,"to do, to do something to someone",
+13,1,sagen,gesagt,"to say, to tell",
+14,1,gehen,gegangen,"to go, to leave, to work, to function (coll.)",
+15,1,sehen,gesehen,"to see, to see (to something), to realise",
+16,1,geben,gegeben,to give,
+17,1,kommen,gekommen,"to come, to make it (e.g. over something), to go to, to occur",
+18,1,glauben,geglaubt,to believe,
+19,1,reden,geredet,to talk,
+20,1,hören,gehört,"to hear, to listen to",
+21,1,finden,gefunden,to find,
+22,1,bleiben,geblieben,"to remain, to stay",
+23,1,brauchen,gebraucht,to need,
+24,1,lieben,geliebt,to love,
+25,1,bringen,gebracht,"to bring, to take, to lead",
+26,1,stehen,gestanden,"to stand, to be, to appear",
+27,1,heissen,geheissen,"to be called, to mean",
+28,1,nehmen,genommen,"to take, to cause oneself to be (in some state)",
+29,1,sprechen,gesprochen,to speak,
+30,1,bekommen,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",
+31,1,vergessen,vergessen,"to forget, to leave (forget to take)",
+32,1,halten,gehalten,"to hold, to stop (a movement), to support, to keep",
+33,1,warten,gewartet,"to wait, to maintain (e.g. a car)",
+34,1,kennen,gekannt,"to know, to be acquainted with, to be familiar with",
+35,1,verstehen,verstanden,"to understand, to get along with someone/something",
+36,1,denken,gedacht,"to think, to consider",
+37,1,leben,gelebt,to live,
+38,1,arbeiten,gearbeitet,to work,
+39,1,essen,gegessen,to eat,
+40,1,bieten,geboten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)",
+41,2,aufstehen,aufgestanden,"to get up, to be open (e.g. a window, door)",
+42,2,anziehen,angezogen,"to get dressed, to put on, to dress someone, to attract, to pull",
+43,2,ausziehen,ausgezogen,"to take something off, to undress, to pull out, to move out",
+44,2,spielen,gespielt,to play,
+45,2,fahren,gefahren,"to go (by vehicle), to leave, to drive",
+46,2,versuchen,versucht,to try,
+47,2,erzählen,erzählt,"to tell, to narrate",
+48,2,fragen,gefragt,"to ask, to wonder (refl.)",
+49,2,treffen,getroffen,"to meet, to encounter",
+50,2,hoffen,gehofft,to hope,
+51,2,suchen,gesucht,"to seek, to search",
+52,2,trinken,getrunken,to drink,
+53,2,lernen,gelernt,"to learn, to study (revise/review materials), to train something",
+54,2,zeigen,gezeigt,"to show, to point at, to demonstrate",
+55,2,schlafen,geschlafen,to sleep,
+56,2,kaufen,gekauft,to buy,
+57,2,laufen,gelaufen,"to walk, to flow (of a fluid), to run (of an event)",
+58,2,erklären,erklärt,"to explain, to declare, to assert",
+59,2,zahlen,gezahlt,"to pay (for something), to atone for",
+60,2,kochen,gekocht,"to cook, to boil (to heat a liquid), to boil something",
+61,2,waschen,gewaschen,to wash,
+62,2,aufwachen,aufgewacht,to wake up,
+63,2,zeichnen,gezeichnet,"to draw, to sketch",
+64,2,wohnen,gewohnt,"to live, to reside, to dwell",
+65,2,schreiben,geschrieben,to write,
+66,2,tragen,getragen,"to wear (clothing), to carry, to hold",
+67,2,interessieren,interessiert,"to interest, to be interested in (refl.)",
+68,2,ziehen,gezogen,"to pull, to drag, to move",
+69,2,lesen,gelesen,to read,
+70,2,kosten,gekostet,"to cost, to taste",
+71,2,wiederholen,wiederholt,to repeat,
+72,2,übersetzen,übersetzt,to translate,
+73,2,buchstabieren,buchstabiert,to spell,
+74,2,bedeuten,bedeutet,"to mean, to signify",
+75,2,funktionieren,funktioniert,"to function, to work",
+76,2,erinnern,erinnert,"to remind, to remember (refl.)",
+77,2,fühlen,gefühlt,"to feel, to feel something (good/bad) (refl.)",
+78,2,regnen,geregnet,to rain,
+79,2,schneien,geschneite,to snow,
+80,2,führen,geführt,"to lead, to guide",
+81,3,passieren,passiert,"to happen (conversational), to move beyond, to strain",
+82,3,verlieren,verloren,to lose,
+83,3,bestimmen,bestimmt,to determine,
+84,3,holen,geholt,to fetch,
+85,3,anrufen,angerufen,"to call by telephone, to call on (someone)",
+86,3,aufhören,aufgehört,"to stop, to cease an activity/process",
+87,3,anfangen,angefangen,to begin something new,
+88,3,gewinnen,gewonnen,to win,
+89,3,wehtun,wehgetan,"to hurt, to be painful",
+90,3,öffnen,geöffnet,to open (formal),
+91,3,bezahlen,bezahlt,"to pay, to pay someone",
+92,3,beginnen,begonnen,to begin (on a date/time),
+93,3,benutzen,benutzt,to use (something),
+94,3,schicken,geschickt,to send,
+95,3,lachen,gelacht,to laugh,
+96,3,scheinen,geschienen,"to seem, to shine",
+97,3,ändern,geändert,to change (one's personality/behavior),
+98,3,verkaufen,verkauft,to sell,
+99,3,gehören,gehört,to belong to,
+100,3,sitzen,gesessen,"to be seated, to stay, to fit (of clothing)",
+101,3,stellen,gestellt,"to position, to put, to catch",
+102,3,setzen,gesetzt,"to set, to sit down (refl.)",
+103,3,liegen,gelegen,"to lie, to be located",
+104,3,danken,gedankt,to thank,
+105,3,legen,gelegt,"to lay, to lean, to lie down",
+106,3,schauen,geschaut,to look at (Bayern/Austria),
+107,3,besuchen,besucht,to visit,
+108,3,freuen,gefreut,"to make glad, to be glad (refl.), to look forward (refl.)",
+109,3,schliessen,geschlossen,"to shut, to close, to lock, to conclude",
+110,3,einladen,eingeladen,"to invite, to load (something into a container)",
+111,3,gefallen,gefallen,"to please, to appeal to",
+112,3,wünschen,gewünscht,to wish,
+113,3,passen,gepasst,"to fit, to suit",
+114,3,folgen,gefolgt,to follow,
+115,3,ansehen,angesehen,"to look at something, to watch something",
+116,3,aussehen,ausgesehen,"to look (like), to appear",
+117,3,probieren,probiert,"to try, to taste, to sample, to probe",
+118,3,träumen,geträumt,to dream,
+119,3,fernsehen,ferngesehen,to watch TV,
+120,3,schwimmen,geschwommen,"to swim, to float",
+121,4,Ich bin in Berlin _____.,gewesen,I have been to Berlin.,Ich bin in Berlin gewesen.
+122,4,Er hat viel Glück _____.,gehabt,He has had a lot of luck.,Er hat viel Glück gehabt.
+123,4,Sie ist Lehrerin _____.,geworden,She has become a teacher.,Sie ist Lehrerin geworden.
+124,4,Ich habe das nicht _____.,gekonnt,I was not able to do that.,Ich habe das nicht gekonnt.
+125,4,Er hat das nie _____.,gewollt,He never wanted that.,Er hat das nie gewollt.
+126,4,Ich habe früher viel lernen _____.,gemusst,I had to study a lot before.,Ich habe früher viel lernen gemusst.
+127,4,Er hat nach Hause gehen _____.,gesollt,He was supposed to go home.,Er hat nach Hause gehen gesollt.
+128,4,Ich habe den Film _____.,gemocht,I liked the movie.,Ich habe den Film gemocht.
+129,4,Wir haben lange bleiben _____.,gedurft,We were allowed to stay long.,Wir haben lange bleiben gedurft.
+130,4,Er hat es schon _____.,gewusst,He already knew it.,Er hat es schon gewusst.
+131,4,Ich habe meine Hausaufgaben _____.,gemacht,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
+132,4,Sie hat nichts _____.,getan,She has done nothing.,Sie hat nichts getan.
+133,4,Er hat mir die Wahrheit _____.,gesagt,He told me the truth.,Er hat mir die Wahrheit gesagt.
+134,4,Wir sind ins Kino _____.,gegangen,We went to the cinema.,Wir sind ins Kino gegangen.
+135,4,Ich habe den Film _____.,gesehen,I saw the movie.,Ich habe den Film gesehen.
+136,4,Er hat mir ein Buch _____.,gegeben,He gave me a book.,Er hat mir ein Buch gegeben.
+137,4,Sie ist nach Hause _____.,gekommen,She has come home.,Sie ist nach Hause gekommen.
+138,4,Er hat an Gott _____.,geglaubt,He believed in God.,Er hat an Gott geglaubt.
+139,4,Ein Unfall ist _____.,passiert,An accident has happened.,Ein Unfall ist passiert.
+140,4,Wir haben über das Wetter _____.,geredet,We talked about the weather.,Wir haben über das Wetter geredet.
+141,4,Ich habe Musik _____.,gehört,I listened to music.,Ich habe Musik gehört.
+142,4,Er hat seinen Schlüssel _____.,gefunden,He found his key.,Er hat seinen Schlüssel gefunden.
+143,4,Wir sind zu Hause _____.,geblieben,We stayed at home.,Wir sind zu Hause geblieben.
+144,4,Ich habe das Geld _____.,gebraucht,I needed the money.,Ich habe das Geld gebraucht.
+145,4,Er hat sie immer _____.,geliebt,He always loved her.,Er hat sie immer geliebt.
+146,4,Ich habe ein Geschenk _____.,gebracht,I brought a gift.,Ich habe ein Geschenk gebracht.
+147,4,Sie hat lange vor der Tür _____.,gestanden,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
+148,4,Er hat Peter _____.,geheissen,His name was Peter.,Er hat Peter geheissen.
+149,4,Ich habe den Bus _____.,genommen,I took the bus.,Ich habe den Bus genommen.
+150,4,Er hat mit mir _____.,gesprochen,He spoke with me.,Er hat mit mir gesprochen.
+151,4,Sie hat ein Geschenk _____.,bekommen,She received a gift.,Sie hat ein Geschenk bekommen.
+152,4,Ich habe meine Tasche _____.,vergessen,I forgot my bag.,Ich habe meine Tasche vergessen.
+153,4,Er hat das Versprechen _____.,gehalten,He kept the promise.,Er hat das Versprechen gehalten.
+154,4,Wir haben lange _____.,gewartet,We waited a long time.,Wir haben lange gewartet.
+155,4,Ich habe ihn gut _____.,gekannt,I knew him well.,Ich habe ihn gut gekannt.
+156,4,Er hat mich nicht _____.,verstanden,He didn't understand me.,Er hat mich nicht verstanden.
+157,4,Ich habe an dich _____.,gedacht,I thought of you.,Ich habe an dich gedacht.
+158,4,Er hat lange in Paris _____.,gelebt,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
+159,4,Ich habe meine Uhr _____.,verloren,I lost my watch.,Ich habe meine Uhr verloren.
+160,4,Sie hat im Krankenhaus _____.,gearbeitet,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
+161,5,Ich habe eine Pizza _____.,gegessen,I ate a pizza.,Ich habe eine Pizza gegessen.
+162,5,Er hat Fußball _____.,gespielt,He played football.,Er hat Fußball gespielt.
+163,5,Wir sind nach München _____.,gefahren,We drove to Munich.,Wir sind nach München gefahren.
+164,5,Er hat es _____.,versucht,He tried it.,Er hat es versucht.
+165,5,Sie hat eine Geschichte _____.,erzählt,She told a story.,Sie hat eine Geschichte erzählt.
+166,5,Ich habe ihn nach dem Weg _____.,gefragt,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
+167,5,Wir haben uns im Café _____.,getroffen,We met at the café.,Wir haben uns im Café getroffen.
+168,5,Ich habe auf gutes Wetter _____.,gehofft,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
+169,5,Er hat seine Brille _____.,gesucht,He looked for his glasses.,Er hat seine Brille gesucht.
+170,5,Ich habe ein Glas Wasser _____.,getrunken,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
+171,5,Ich habe Deutsch _____.,gelernt,I have learned German.,Ich habe Deutsch gelernt.
+172,5,Er hat mir das Bild _____.,gezeigt,He showed me the picture.,Er hat mir das Bild gezeigt.
+173,5,Ich habe lange _____.,geschlafen,I slept for a long time.,Ich habe lange geschlafen.
+174,5,Sie hat ein neues Auto _____.,gekauft,She bought a new car.,Sie hat ein neues Auto gekauft.
+175,5,Er ist schnell nach Hause _____.,gelaufen,He ran home quickly.,Er ist schnell nach Hause gelaufen.
+176,5,Der Lehrer hat die Aufgabe _____.,erklärt,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
+177,5,Ich habe die Rechnung _____.,gezahlt,I paid the bill.,Ich habe die Rechnung gezahlt.
+178,5,Wir sind im Meer _____.,geschwommen,We swam in the sea.,Wir sind im Meer geschwommen.
+179,5,Er hat eine Suppe _____.,gekocht,He cooked a soup.,Er hat eine Suppe gekocht.
+180,5,Sie hat ihre Hände _____.,gewaschen,She washed her hands.,Sie hat ihre Hände gewaschen.
+181,5,Ich bin spät _____.,aufgewacht,I woke up late.,Ich bin spät aufgewacht.
+182,5,Er hat in Berlin _____.,studiert,He studied in Berlin.,Er hat in Berlin studiert.
+183,5,Sie hat ein Bild _____.,gezeichnet,She drew a picture.,Sie hat ein Bild gezeichnet.
+184,5,Er ist um 7 Uhr _____.,aufgestanden,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
+185,5,Ich habe die Frage _____.,wiederholt,I repeated the question.,Ich habe die Frage wiederholt.
+186,5,Er hat den Text _____.,übersetzt,He translated the text.,Er hat den Text übersetzt.
+187,5,Wir haben in München _____.,gewohnt,We lived in Munich.,Wir haben in München gewohnt.
+188,5,Sie hat einen Brief _____.,geschrieben,She wrote a letter.,Sie hat einen Brief geschrieben.
+189,5,Ich habe eine Jacke _____.,angezogen,I put on a jacket.,Ich habe eine Jacke angezogen.
+190,5,Er ist aus der Wohnung _____.,ausgezogen,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
+191,5,Ich habe das Wort _____.,buchstabiert,I spelled the word.,Ich habe das Wort buchstabiert.
+192,5,Sie hat ein rotes Kleid _____.,getragen,She wore a red dress.,Sie hat ein rotes Kleid getragen.
+193,5,Ich habe mich für Kunst _____.,interessiert,I was interested in art.,Ich habe mich für Kunst interessiert.
+194,5,Er hat die Tür _____.,gezogen,He pulled the door.,Er hat die Tür gezogen.
+195,5,Ich habe ein Buch _____.,gelesen,I read a book.,Ich habe ein Buch gelesen.
+196,6,Ich _____ in Berlin gewesen.,bin,I have been to Berlin.,Ich bin in Berlin gewesen.
+197,6,Er _____ viel Glück gehabt.,hat,He has had a lot of luck.,Er hat viel Glück gehabt.
+198,6,Sie _____ Lehrerin geworden.,ist,She has become a teacher.,Sie ist Lehrerin geworden.
+199,6,Ich _____ das nicht gekonnt.,habe,I was not able to do that.,Ich habe das nicht gekonnt.
+200,6,Er _____ das nie gewollt.,hat,He never wanted that.,Er hat das nie gewollt.
+201,6,Ich _____ früher viel lernen gemusst.,habe,I had to study a lot before.,Ich habe früher viel lernen gemusst.
+202,6,Er _____ nach Hause gehen gesollt.,hat,He was supposed to go home.,Er hat nach Hause gehen gesollt.
+203,6,Ich _____ den Film gemocht.,habe,I liked the movie.,Ich habe den Film gemocht.
+204,6,Wir _____ lange bleiben gedurft.,haben,We were allowed to stay long.,Wir haben lange bleiben gedurft.
+205,6,Er _____ es schon gewusst.,hat,He already knew it.,Er hat es schon gewusst.
+206,6,Ich _____ meine Hausaufgaben gemacht.,habe,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
+207,6,Sie _____ nichts getan.,hat,She has done nothing.,Sie hat nichts getan.
+208,6,Er _____ mir die Wahrheit gesagt.,hat,He told me the truth.,Er hat mir die Wahrheit gesagt.
+209,6,Wir _____ ins Kino gegangen.,sind,We went to the cinema.,Wir sind ins Kino gegangen.
+210,6,Ich _____ den Film gesehen.,habe,I saw the movie.,Ich habe den Film gesehen.
+211,6,Er _____ mir ein Buch gegeben.,hat,He gave me a book.,Er hat mir ein Buch gegeben.
+212,6,Sie _____ nach Hause gekommen.,ist,She has come home.,Sie ist nach Hause gekommen.
+213,6,Er _____ an Gott geglaubt.,hat,He believed in God.,Er hat an Gott geglaubt.
+214,6,Ein Unfall _____ passiert.,ist,An accident has happened.,Ein Unfall ist passiert.
+215,6,Wir _____ über das Wetter geredet.,haben,We talked about the weather.,Wir haben über das Wetter geredet.
+216,6,Ich _____ Musik gehört.,habe,I listened to music.,Ich habe Musik gehört.
+217,6,Er _____ seinen Schlüssel gefunden.,hat,He found his key.,Er hat seinen Schlüssel gefunden.
+218,6,Wir _____ zu Hause geblieben.,sind,We stayed at home.,Wir sind zu Hause geblieben.
+219,6,Ich _____ das Geld gebraucht.,habe,I needed the money.,Ich habe das Geld gebraucht.
+220,6,Er _____ sie immer geliebt.,hat,He always loved her.,Er hat sie immer geliebt.
+221,6,Ich _____ ein Geschenk gebracht.,habe,I brought a gift.,Ich habe ein Geschenk gebracht.
+222,6,Sie _____ lange vor der Tür gestanden.,hat,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
+223,6,Er _____ Peter geheissen.,hat,His name was Peter.,Er hat Peter geheissen.
+224,6,Ich _____ den Bus genommen.,habe,I took the bus.,Ich habe den Bus genommen.
+225,6,Er _____ mit mir gesprochen.,hat,He spoke with me.,Er hat mit mir gesprochen.
+226,6,Sie _____ ein Geschenk bekommen.,hat,She received a gift.,Sie hat ein Geschenk bekommen.
+227,6,Ich _____ meine Tasche vergessen.,habe,I forgot my bag.,Ich habe meine Tasche vergessen.
+228,6,Er _____ das Versprechen gehalten.,hat,He kept the promise.,Er hat das Versprechen gehalten.
+229,6,Wir _____ lange gewartet.,haben,We waited a long time.,Wir haben lange gewartet.
+230,6,Ich _____ ihn gut gekannt.,habe,I knew him well.,Ich habe ihn gut gekannt.
+231,6,Er _____ mich nicht verstanden.,hat,He didn't understand me.,Er hat mich nicht verstanden.
+232,6,Ich _____ an dich gedacht.,habe,I thought of you.,Ich habe an dich gedacht.
+233,6,Er _____ lange in Paris gelebt.,hat,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
+234,6,Ich _____ meine Uhr verloren.,habe,I lost my watch.,Ich habe meine Uhr verloren.
+235,6,Sie _____ im Krankenhaus gearbeitet.,hat,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
+236,7,Ich _____ eine Pizza gegessen.,habe,I ate a pizza.,Ich habe eine Pizza gegessen.
+237,7,Er _____ Fußball gespielt.,hat,He played football.,Er hat Fußball gespielt.
+238,7,Wir _____ nach München gefahren.,sind,We drove to Munich.,Wir sind nach München gefahren.
+239,7,Er _____ es versucht.,hat,He tried it.,Er hat es versucht.
+240,7,Sie _____ eine Geschichte erzählt.,hat,She told a story.,Sie hat eine Geschichte erzählt.
+241,7,Ich _____ ihn nach dem Weg gefragt.,habe,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
+242,7,Wir _____ uns im Café getroffen.,haben,We met at the café.,Wir haben uns im Café getroffen.
+243,7,Ich _____ auf gutes Wetter gehofft.,habe,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
+244,7,Er _____ seine Brille gesucht.,hat,He looked for his glasses.,Er hat seine Brille gesucht.
+245,7,Ich _____ ein Glas Wasser getrunken.,habe,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
+246,7,Ich _____ Deutsch gelernt.,habe,I have learned German.,Ich habe Deutsch gelernt.
+247,7,Er _____ mir das Bild gezeigt.,hat,He showed me the picture.,Er hat mir das Bild gezeigt.
+248,7,Ich _____ lange geschlafen.,habe,I slept for a long time.,Ich habe lange geschlafen.
+249,7,Sie _____ ein neues Auto gekauft.,hat,She bought a new car.,Sie hat ein neues Auto gekauft.
+250,7,Er _____ schnell nach Hause gelaufen.,ist,He ran home quickly.,Er ist schnell nach Hause gelaufen.
+251,7,Der Lehrer _____ die Aufgabe erklärt.,hat,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
+252,7,Ich _____ die Rechnung gezahlt.,habe,I paid the bill.,Ich habe die Rechnung gezahlt.
+253,7,Wir _____ im Meer geschwommen.,sind,We swam in the sea.,Wir sind im Meer geschwommen.
+254,7,Er _____ eine Suppe gekocht.,hat,He cooked a soup.,Er hat eine Suppe gekocht.
+255,7,Sie _____ ihre Hände gewaschen.,hat,She washed her hands.,Sie hat ihre Hände gewaschen.
+256,7,Ich _____ spät aufgewacht.,bin,I woke up late.,Ich bin spät aufgewacht.
+257,7,Er _____ in Berlin studiert.,hat,He studied in Berlin.,Er hat in Berlin studiert.
+258,7,Sie _____ ein Bild gezeichnet.,hat,She drew a picture.,Sie hat ein Bild gezeichnet.
+259,7,Er _____ um 7 Uhr aufgestanden.,ist,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
+260,7,Ich _____ die Frage wiederholt.,habe,I repeated the question.,Ich habe die Frage wiederholt.
+261,7,Er _____ den Text übersetzt.,hat,He translated the text.,Er hat den Text übersetzt.
+262,7,Wir _____ in München gewohnt.,haben,We lived in Munich.,Wir haben in München gewohnt.
+263,7,Sie _____ einen Brief geschrieben.,hat,She wrote a letter.,Sie hat einen Brief geschrieben.
+264,7,Ich _____ eine Jacke angezogen.,habe,I put on a jacket.,Ich habe eine Jacke angezogen.
+265,7,Er _____ aus der Wohnung ausgezogen.,ist,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
+266,7,Ich _____ das Wort buchstabiert.,habe,I spelled the word.,Ich habe das Wort buchstabiert.
+267,7,Sie _____ ein rotes Kleid getragen.,hat,She wore a red dress.,Sie hat ein rotes Kleid getragen.
+268,7,Ich _____ mich für Kunst interessiert.,habe,I was interested in art.,Ich habe mich für Kunst interessiert.
+269,7,Er _____ die Tür gezogen.,hat,He pulled the door.,Er hat die Tür gezogen.
+270,7,Ich _____ ein Buch gelesen.,habe,I read a book.,Ich habe ein Buch gelesen.
+271,8,einschlafen,eingeschlafen,to fall asleep,
+272,8,reisen,gereist,to travel,
+273,8,feiern,gefeiert,to celebrate,
+274,8,antworten,geantwortet,"to answer, to reply",
+275,8,wählen,gewählt,"to choose, to dial (a number), to vote",
+276,8,ausgehen,ausgegangen,"to go out, to run out (e.g. of money)",
+277,8,zählen,gezählt,to count,
+278,8,ankommen,angekommen,"to arrive, to depend on something",
+279,8,dauern,gedauert,"to last, to take (time)",
+280,8,kennenlernen,kennengelernt,"to meet someone, to get to know someone/something",
+281,8,anmelden,angemeldet,"to register, to sign up",
+282,8,lassen,gelassen,"to let, to leave, to allow",
+283,8,verlassen,verlassen,"to leave, to trust with something (refl.), to pass away, to die",
+284,8,helfen,geholfen,to help,
+285,8,bewegen,bewegt,to move,
+286,8,versprechen,versprochen,"to promise, to hope for, to misspeak",
+287,8,hängen,gehangen,"to hang, to be fond of, depend on",
+288,8,mieten,gemietet,"to rent, to hire",
+289,8,rauchen,geraucht,to smoke (e.g. a cigarette),
+290,8,sterben,gestorben,to die,
+291,8,heiraten,geheiratet,to marry,
+292,8,kämpfen,gekämpft,"to fight, to struggle",
+293,8,fehlen,gefehlt,"to lack, to be absent/missing",
+294,8,sorgen,gesorgt,"to care, to worry",
+295,8,stecken,gesteckt,"to stick, to pin",
+296,8,überraschen,überrascht,to surprise,
+297,8,vorstellen,vorgestellt,"to introduce, to present oneself (refl.), to move forward, to represent",
+298,8,stehlen,gestohlen,to steal,
+299,8,stimmen,gestimmt,"to be true, to vote, to tune",
+300,8,entscheiden,entschieden,to decide,
+301,8,vermissen,vermisst,to miss something/someone,
+302,8,werfen,geworfen,to throw,
+303,8,erkennen,erkannt,"to recognise, to realise",
+304,8,teilen,geteilt,"to split, to share, to divide",
+305,8,bauen,gebaut,to build,
+306,8,melden,gemeldet,"to report, to register",
+307,8,brechen,gebrochen,to break,
+308,8,steigen,gestiegen,"to ascend, to climb, to rise",
+309,8,singen,gesungen,to sing,
+310,8,empfehlen,empfohlen,"to recommend, to suggest",
+311,9,aufmachen,aufgemacht,"to open (coll.), to head/move off (refl.), to undo something",
+312,9,vertrauen,vertraut,to trust,
+313,9,verändern,verändert,"to alter, to change something",
+314,9,bitten,gebeten,"to ask, to request",
+315,9,besitzen,besessen,"to own, to possess, to have",
+316,9,merken,gemerkt,"to notice, to realise, to remember (refl.)",
+317,9,stören,gestört,"to disturb, to interfere",
+318,9,annehmen,angenommen,"to accept, to assume (a hypothesis), to receive, to suppose",
+319,9,übernehmen,übernommen,to take over,
+320,9,stattfinden,stattgefunden,"to take place, to occur",
+321,9,fangen,gefangen,to catch,
+322,9,enthalten,enthalten,"to contain, to include",
+323,9,dienen,gedient,"to serve, to function",
+324,9,verschwinden,verschwunden,"to disappear, to get lost",
+325,9,schützen,geschützt,"to defend (lawyer), to protect (sunprotection)",
+326,9,nennen,genannt,"to name, to call someone something, to mention",
+327,9,schätzen,geschätzt,"to appreciate, to evaluate, to guess",
+328,9,erwarten,erwartet,"to expect, to await",
+329,9,drehen,gedreht,"to turn, to veer",
+330,9,behalten,behalten,to keep,
+331,9,verpassen,verpasst,"to miss (to be late for something, e.g. a train)",
+332,9,schenken,geschenkt,"to gift, to give as a present",
+333,9,wachsen,gewachsen,"to grow, to increase",
+334,9,springen,gesprungen,"to spring, to jump",
+335,9,befinden,befunden,"to be located (refl.), to find, to consider (formal)",
+336,9,raten,geraten,"to advise, to recommend, to guess",
+337,9,verbieten,verboten,"to forbid, to prohibit (with dative)",
+338,9,fallen,gefallen,"to fall, to fall in battle, to collapse",
+339,9,kümmern,gekümmert,"to take care (refl.), to trouble, to concern",
+340,9,drücken,gedrückt,"to press, to push",
+341,9,vergleichen,verglichen,to compare,
+342,9,putzen,geputzt,"to clean, to rub",
+343,9,einkaufen,eingekauft,to shop,
+344,9,veröffentlichen,veröffentlicht,"to publish, to release",
+345,9,testen,getestet,"to test, to examine",
+346,9,lösen,gelöst,"to loosen, to solve, to separate, to remove",
+347,9,kontrollieren,kontrolliert,"to control, to check",
+348,9,unterstützen,unterstützt,"to support, to provide help",
+349,9,treiben,getrieben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to",
+350,9,tanzen,getanzt,to dance,
+351,10,studieren,studiert,"to study, to go to university/college",
+352,10,sinken,gesunken,"to sink, to drop",
+353,10,klingen,geklungen,to sound,
+354,10,schmecken,geschmeckt,to taste,
+355,10,mitteilen,mitgeteilt,"to inform, to share",
+356,10,streiten,gestritten,"to argue, to fight, to quarrel",
+357,10,entwickeln,entwickelt,to develop,
+358,10,ersetzen,ersetzt,"to replace, to substitute",
+359,10,leiden,gelitten,"to bear, to endure, to suffer",
+360,10,diskutieren,diskutiert,"to discuss, to debate",
+361,10,rufen,gerufen,"to call out, to call for help, to telephone",
+362,10,vorschlagen,vorgeschlagen,"to suggest, to propose",
+363,10,überzeugen,überzeugt,"to convince, to convince oneself (refl.)",
+364,10,vermuten,vermutet,"to assume something is true, to suppose, suspect something",
+365,10,überlegen,überlegt,"to consider, to think over",
+366,10,teilnehmen,teilgenommen,"to take part, to participate",
+367,10,gründen,gegründet,"to found, to establish",
+368,10,überprüfen,überprüft,to check,
+369,10,beraten,beraten,"to advise, to consult",
+370,10,vertreten,vertreten,"to represent, to stand for",
+371,10,bewerben,beworben,to apply (to a job etc.),
+372,10,erstellen,erstellt,"to create, to generate, to compile, to set up",
+373,10,korrigieren,korrigiert,"to correct, to rectify, to debug",
+374,10,beenden,beendet,"to finish, to complete, to terminate (relationship)",
+375,10,anbieten,angeboten,"to offer, to provide",
+376,10,fordern,gefordert,"to demand, to require",
+377,10,mitnehmen,mitgenommen,"to carry along, to pick up (something), to take away",
+378,10,mitbringen,mitgebracht,"to bring along, to bring with",
+379,10,sammeln,gesammelt,"to collect, to gather",
+380,10,aufpassen,aufgepasst,"to watch out, to look after something, to be attentive with something",
+381,10,hassen,gehasst,to hate,
+382,10,zurückgehen,zurückgegangen,"to go back, to decline",
+383,10,ärgern,geärgert,to annoy oneself (refl.),
+384,10,schieben,geschoben,to push,
+385,10,kündigen,gekündigt,"to terminate, to cancel",
+386,10,heben,gehoben,"to lift, to raise",
+387,10,abholen,abgeholt,"to pick up someone or something, to collect",
+388,10,füllen,gefüllt,to fill,
+389,10,wechseln,gewechselt,"to replace, to change, to exchange",
+390,10,wirken,gewirkt,"to work, to be effective, to take affect, to act",
+391,11,Das hat viel _____.,bedeutet,That meant a lot.,Das hat viel bedeutet.
+392,11,Sie hat den Termin _____.,bestimmt,She set the appointment.,Sie hat den Termin bestimmt.
+393,11,Ich habe die Zeitung _____.,geholt,I fetched the newspaper.,Ich habe die Zeitung geholt.
+394,11,Der Computer hat _____.,funktioniert,The computer worked.,Der Computer hat funktioniert.
+395,11,Ich habe mich schlecht _____.,gefühlt,I felt bad.,Ich habe mich schlecht gefühlt.
+396,11,Das hat viel Geld _____.,gekostet,That cost a lot of money.,Das hat viel Geld gekostet.
+397,11,Ich habe mich daran _____.,erinnert,I remembered that.,Ich habe mich daran erinnert.
+398,11,Er hat sich _____.,verletzt,He got injured.,Er hat sich verletzt.
+399,11,Ich habe meine Mutter _____.,angerufen,I called my mother.,Ich habe meine Mutter angerufen.
+400,11,Er hat mit dem Rauchen _____.,aufgehört,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
+401,11,Er hat die Gruppe _____.,geführt,He led the group.,Er hat die Gruppe geführt.
+402,11,Wir haben mit der Arbeit _____.,angefangen,We started the work.,Wir haben mit der Arbeit angefangen.
+403,11,Er hat das Spiel _____.,gewonnen,He won the game.,Er hat das Spiel gewonnen.
+404,11,Es hat die ganze Nacht _____.,geregnet,It rained all night.,Es hat die ganze Nacht geregnet.
+405,11,Es hat gestern _____.,geschneit,It snowed yesterday.,Es hat gestern geschneit.
+406,11,Mein Kopf hat _____.,wehgetan,My head hurt.,Mein Kopf hat wehgetan.
+407,11,Wir haben lange _____.,diskutiert,We discussed for a long time.,Wir haben lange diskutiert.
+408,11,Sie hat die ganze Nacht _____.,getanzt,She danced all night.,Sie hat die ganze Nacht getanzt.
+409,11,Er hat die Tür _____.,geöffnet,He opened the door.,Er hat die Tür geöffnet.
+410,11,Ich habe die Getränke _____.,bezahlt,I paid for the drinks.,Ich habe die Getränke bezahlt.
+411,11,Das Konzert hat um 8 Uhr _____.,begonnen,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
+412,11,Ich habe das Werkzeug _____.,benutzt,I used the tool.,Ich habe das Werkzeug benutzt.
+413,11,Er hat mir eine E-Mail _____.,geschickt,He sent me an email.,Er hat mir eine E-Mail geschickt.
+414,11,Wir haben viel _____.,gelacht,We laughed a lot.,Wir haben viel gelacht.
+415,11,Die Sonne hat _____.,geschienen,The sun was shining.,Die Sonne hat geschienen.
+416,11,Ich habe meine Meinung _____.,geändert,I changed my opinion.,Ich habe meine Meinung geändert.
+417,11,Er hat mich um Hilfe _____.,gebeten,He asked me for help.,Er hat mich um Hilfe gebeten.
+418,11,Ich habe die Tür _____.,aufgemacht,I opened the door.,Ich habe die Tür aufgemacht.
+419,11,Sie hat ihr altes Auto _____.,verkauft,She sold her old car.,Sie hat ihr altes Auto verkauft.
+420,11,Das Buch hat mir _____.,gehört,The book belonged to me.,Das Buch hat mir gehört.
+421,11,Ich habe lange auf dem Stuhl _____.,gesessen,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
+422,11,Ich habe die Vase auf den Tisch _____.,gestellt,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
+423,11,Ich habe mich auf den Stuhl _____.,gesetzt,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
+424,11,Das Buch hat auf dem Tisch _____.,gelegen,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
+425,11,Ich habe ihm für seine Hilfe _____.,gedankt,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
+426,11,Ich habe das Handy auf den Tisch _____.,gelegt,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
+427,11,Er hat aus dem Fenster _____.,geschaut,He looked out of the window.,Er hat aus dem Fenster geschaut.
+428,11,Sie hat ein schönes Lied _____.,gesungen,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
+429,11,Wir haben unsere Großeltern _____.,besucht,We visited our grandparents.,Wir haben unsere Großeltern besucht.
+430,11,Ich habe mich über das Geschenk _____.,gefreut,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
+431,12,Er hat das Fenster _____.,geschlossen,He closed the window.,Er hat das Fenster geschlossen.
+432,12,Ich habe ihn zur Party _____.,eingeladen,I invited him to the party.,Ich habe ihn zur Party eingeladen.
+433,12,Der Film hat mir _____.,gefallen,I liked the movie.,Der Film hat mir gefallen.
+434,12,Er hat viel Geld _____.,verdient,He earned a lot of money.,Er hat viel Geld verdient.
+435,12,Ich habe mir ein neues Fahrrad _____.,gewünscht,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
+436,12,Die Schuhe haben mir nicht _____.,gepasst,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
+437,12,Sie hat ihr Leben _____.,verändert,She changed her life.,Sie hat ihr Leben verändert.
+438,12,Der Hund ist mir _____.,gefolgt,The dog followed me.,Der Hund ist mir gefolgt.
+439,12,Ich habe mir einen Film _____.,angesehen,I watched a movie.,Ich habe mir einen Film angesehen.
+440,12,Er hat müde _____.,ausgesehen,He looked tired.,Er hat müde ausgesehen.
+441,12,Er hat ein großes Haus _____.,besessen,He owned a big house.,Er hat ein großes Haus besessen.
+442,12,Ich habe das neue Gericht _____.,probiert,I tried the new dish.,Ich habe das neue Gericht probiert.
+443,12,Ich habe von einem Urlaub _____.,geträumt,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
+444,12,Er hat eine Pizza _____.,bestellt,He ordered a pizza.,Er hat eine Pizza bestellt.
+445,12,Wir sind nach Italien _____.,gereist,We traveled to Italy.,Wir sind nach Italien gereist.
+446,12,Wir haben seinen Geburtstag _____.,gefeiert,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
+447,12,Sie hat auf meine Frage _____.,geantwortet,She answered my question.,Sie hat auf meine Frage geantwortet.
+448,12,Er hat den besten Kandidaten _____.,gewählt,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
+449,12,Wir sind gestern Abend _____.,ausgegangen,We went out last night.,Wir sind gestern Abend ausgegangen.
+450,12,Ich habe das Geld _____.,gezählt,I counted the money.,Ich habe das Geld gezählt.
+451,12,Er hat den ganzen Abend _____.,ferngesehen,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
+452,12,Wir sind pünktlich _____.,angekommen,We arrived on time.,Wir sind pünktlich angekommen.
+453,12,Der Film hat zwei Stunden _____.,gedauert,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
+454,12,Ich habe viele neue Leute _____.,kennengelernt,I met many new people.,Ich habe viele neue Leute kennengelernt.
+455,12,Er hat viel Sport _____.,getrieben,He did a lot of sports.,Er hat viel Sport getrieben.
+456,12,Sie hat viele Schüler _____.,unterrichtet,She taught many students.,Sie hat viele Schüler unterrichtet.
+457,12,Er hat dem Vorschlag _____.,zugestimmt,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
+458,12,Ich habe mich für den Kurs _____.,angemeldet,I registered for the course.,Ich habe mich für den Kurs angemeldet.
+459,12,Ich habe mein Handy zu Hause _____.,gelassen,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
+460,12,Er hat das Haus _____.,verlassen,He left the house.,Er hat das Haus verlassen.
+461,12,Ich habe ihm bei der Arbeit _____.,geholfen,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
+462,12,Er hat den Tisch _____.,bewegt,He moved the table.,Er hat den Tisch bewegt.
+463,12,Ich habe ihm immer _____.,vertraut,I always trusted him.,Ich habe ihm immer vertraut.
+464,12,"Er hat mir geholfen, wie er es _____ hat.",versprochen,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
+465,12,Das Bild hat an der Wand _____.,gehangen,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
+466,13,Das _____ viel bedeutet.,hat,That meant a lot.,Das hat viel bedeutet.
+467,13,Sie _____ den Termin bestimmt.,hat,She set the appointment.,Sie hat den Termin bestimmt.
+468,13,Ich _____ die Zeitung geholt.,habe,I fetched the newspaper.,Ich habe die Zeitung geholt.
+469,13,Der Computer _____ funktioniert.,hat,The computer worked.,Der Computer hat funktioniert.
+470,13,Ich _____ mich schlecht gefühlt.,habe,I felt bad.,Ich habe mich schlecht gefühlt.
+471,13,Das _____ viel Geld gekostet.,hat,That cost a lot of money.,Das hat viel Geld gekostet.
+472,13,Ich _____ mich daran erinnert.,habe,I remembered that.,Ich habe mich daran erinnert.
+473,13,Er _____ sich verletzt.,hat,He got injured.,Er hat sich verletzt.
+474,13,Ich _____ meine Mutter angerufen.,habe,I called my mother.,Ich habe meine Mutter angerufen.
+475,13,Er _____ mit dem Rauchen aufgehört.,hat,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
+476,13,Er _____ die Gruppe geführt.,hat,He led the group.,Er hat die Gruppe geführt.
+477,13,Wir _____ mit der Arbeit angefangen.,haben,We started the work.,Wir haben mit der Arbeit angefangen.
+478,13,Er _____ das Spiel gewonnen.,hat,He won the game.,Er hat das Spiel gewonnen.
+479,13,Es _____ die ganze Nacht geregnet.,hat,It rained all night.,Es hat die ganze Nacht geregnet.
+480,13,Es _____ gestern geschneit.,hat,It snowed yesterday.,Es hat gestern geschneit.
+481,13,Mein Kopf _____ wehgetan.,hat,My head hurt.,Mein Kopf hat wehgetan.
+482,13,Wir _____ lange diskutiert.,haben,We discussed for a long time.,Wir haben lange diskutiert.
+483,13,Sie _____ die ganze Nacht getanzt.,hat,She danced all night.,Sie hat die ganze Nacht getanzt.
+484,13,Er _____ die Tür geöffnet.,hat,He opened the door.,Er hat die Tür geöffnet.
+485,13,Ich _____ die Getränke bezahlt.,habe,I paid for the drinks.,Ich habe die Getränke bezahlt.
+486,13,Das Konzert _____ um 8 Uhr begonnen.,hat,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
+487,13,Ich _____ das Werkzeug benutzt.,habe,I used the tool.,Ich habe das Werkzeug benutzt.
+488,13,Er _____ mir eine E-Mail geschickt.,hat,He sent me an email.,Er hat mir eine E-Mail geschickt.
+489,13,Wir _____ viel gelacht.,haben,We laughed a lot.,Wir haben viel gelacht.
+490,13,Die Sonne _____ geschienen.,hat,The sun was shining.,Die Sonne hat geschienen.
+491,13,Ich _____ meine Meinung geändert.,habe,I changed my opinion.,Ich habe meine Meinung geändert.
+492,13,Er _____ mich um Hilfe gebeten.,hat,He asked me for help.,Er hat mich um Hilfe gebeten.
+493,13,Ich _____ die Tür aufgemacht.,habe,I opened the door.,Ich habe die Tür aufgemacht.
+494,13,Sie _____ ihr altes Auto verkauft.,hat,She sold her old car.,Sie hat ihr altes Auto verkauft.
+495,13,Das Buch _____ mir gehört.,hat,The book belonged to me.,Das Buch hat mir gehört.
+496,13,Ich _____ lange auf dem Stuhl gesessen.,habe,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
+497,13,Ich _____ die Vase auf den Tisch gestellt.,habe,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
+498,13,Ich _____ mich auf den Stuhl gesetzt.,habe,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
+499,13,Das Buch _____ auf dem Tisch gelegen.,hat,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
+500,13,Ich _____ ihm für seine Hilfe gedankt.,habe,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
+501,13,Ich _____ das Handy auf den Tisch gelegt.,habe,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
+502,13,Er _____ aus dem Fenster geschaut.,hat,He looked out of the window.,Er hat aus dem Fenster geschaut.
+503,13,Sie _____ ein schönes Lied gesungen.,hat,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
+504,13,Wir _____ unsere Großeltern besucht.,haben,We visited our grandparents.,Wir haben unsere Großeltern besucht.
+505,13,Ich _____ mich über das Geschenk gefreut.,habe,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
+506,14,Er _____ das Fenster geschlossen.,hat,He closed the window.,Er hat das Fenster geschlossen.
+507,14,Ich _____ ihn zur Party eingeladen.,habe,I invited him to the party.,Ich habe ihn zur Party eingeladen.
+508,14,Der Film _____ mir gefallen.,hat,I liked the movie.,Der Film hat mir gefallen.
+509,14,Er _____ viel Geld verdient.,hat,He earned a lot of money.,Er hat viel Geld verdient.
+510,14,Ich _____ mir ein neues Fahrrad gewünscht.,habe,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
+511,14,Die Schuhe _____ mir nicht gepasst.,haben,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
+512,14,Sie _____ ihr Leben verändert.,hat,She changed her life.,Sie hat ihr Leben verändert.
+513,14,Der Hund _____ mir gefolgt.,ist,The dog followed me.,Der Hund ist mir gefolgt.
+514,14,Ich _____ mir einen Film angesehen.,habe,I watched a movie.,Ich habe mir einen Film angesehen.
+515,14,Er _____ müde ausgesehen.,hat,He looked tired.,Er hat müde ausgesehen.
+516,14,Er _____ ein großes Haus besessen.,hat,He owned a big house.,Er hat ein großes Haus besessen.
+517,14,Ich _____ das neue Gericht probiert.,habe,I tried the new dish.,Ich habe das neue Gericht probiert.
+518,14,Ich _____ von einem Urlaub geträumt.,habe,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
+519,14,Er _____ eine Pizza bestellt.,hat,He ordered a pizza.,Er hat eine Pizza bestellt.
+520,14,Wir _____ nach Italien gereist.,sind,We traveled to Italy.,Wir sind nach Italien gereist.
+521,14,Wir _____ seinen Geburtstag gefeiert.,haben,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
+522,14,Sie _____ auf meine Frage geantwortet.,hat,She answered my question.,Sie hat auf meine Frage geantwortet.
+523,14,Er _____ den besten Kandidaten gewählt.,hat,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
+524,14,Wir _____ gestern Abend ausgegangen.,sind,We went out last night.,Wir sind gestern Abend ausgegangen.
+525,14,Ich _____ das Geld gezählt.,habe,I counted the money.,Ich habe das Geld gezählt.
+526,14,Er _____ den ganzen Abend ferngesehen.,hat,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
+527,14,Wir _____ pünktlich angekommen.,sind,We arrived on time.,Wir sind pünktlich angekommen.
+528,14,Der Film _____ zwei Stunden gedauert.,hat,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
+529,14,Ich _____ viele neue Leute kennengelernt.,habe,I met many new people.,Ich habe viele neue Leute kennengelernt.
+530,14,Er _____ viel Sport getrieben.,hat,He did a lot of sports.,Er hat viel Sport getrieben.
+531,14,Sie _____ viele Schüler unterrichtet.,hat,She taught many students.,Sie hat viele Schüler unterrichtet.
+532,14,Er _____ dem Vorschlag zugestimmt.,hat,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
+533,14,Ich _____ mich für den Kurs angemeldet.,habe,I registered for the course.,Ich habe mich für den Kurs angemeldet.
+534,14,Ich _____ mein Handy zu Hause gelassen.,habe,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
+535,14,Er _____ das Haus verlassen.,hat,He left the house.,Er hat das Haus verlassen.
+536,14,Ich _____ ihm bei der Arbeit geholfen.,habe,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
+537,14,Er _____ den Tisch bewegt.,hat,He moved the table.,Er hat den Tisch bewegt.
+538,14,Ich _____ ihm immer vertraut.,habe,I always trusted him.,Ich habe ihm immer vertraut.
+539,14,"Er _____ mir geholfen, wie er es versprochen _____.",hat,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
+540,14,Das Bild _____ an der Wand gehangen.,hat,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
+541,15,verletzen,verletzt,"to hurt, to injure, to violate (rules, laws, etc.)",
+542,15,zustimmen,zugestimmt,"to agree, to consent",
+543,15,erhalten,erhalten,"to receive (passively), to maintain, to save",
+544,15,erlauben,erlaubt,to allow/permit something to someone,
+545,15,trennen,getrennt,"to separate, part, uncouple, to disconnect, to isolate",
+546,15,darstellen,dargestellt,"to represent, to portray",
+547,15,greifen,gegriffen,"to grab, to seize, to reach, to capture",
+548,15,entfernen,entfernt,"to remove, to recede, to deviate, to desert (military)",
+549,15,verlieben,verliebt,to fall in love (refl.),
+550,15,verdienen,verdient,to earn,
+551,15,aufräumen,aufgeräumt,"to tidy up, to clean up",
+552,15,spülen,gespült,"to rinse, to flush toilets",
+553,15,beschreiben,beschrieben,to describe,
+554,15,verbinden,verbunden,"to join, to connect, to bandage",
+555,15,rennen,gerannt,"to race, to sprint, to run over someone (aux. with haben)",
+556,15,pflanzen,gepflanzt,to plant,
+557,15,beten,gebetet,to pray,
+558,15,ausruhen,ausgeruht,"to rest (refl.), to relax",
+559,15,entspannen,entspannt,"to relax (refl.), to relieve pressure",
+560,15,verbringen,verbracht,to spend (time),
+561,15,vorhaben,vorgehabt,to have something planned,
+562,15,erleben,erlebt,"to experience, to witness",
+563,15,malen,gemalt,to paint,
+564,15,jagen,gejagt,to hunt,
+565,15,erkunden,erkundet,to explore,
+566,15,erholen,erholt,to recover,
+567,15,tanken,getankt,to refuel,
+568,15,planen,geplant,to plan,
+569,15,entdecken,entdeckt,"to discover, to spot",
+570,15,fliegen,geflogen,to fly,
+571,15,erfahren,erfahren,"to experience, to find out, to learn",
+572,15,enttäuschen,enttäuscht,to disappoint,
+573,15,geniessen,genossen,"to enjoy (an experience), to relish",
+574,15,besichtigen,besichtigt,"to visit, to tour",
+575,15,spazieren,spaziert,"to take a walk, to stroll",
+576,15,wandern,gewandert,"to hike, to wander",
+577,15,faszinieren,fasziniert,to fascinate,
+578,15,surfen,gesurft,to surf,
+579,15,trainieren,trainiert,"to train, to coach, to work out",
+580,15,erreichen,erreicht,to reach,
+581,16,verhindern,verhindert,"to prevent, to inhibit",
+582,16,unterschreiben,unterschrieben,to sign (write one's signature),
+583,16,empfangen,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)",
+584,16,bestellen,bestellt,"to order (e.g. food), to summon, to reserve",
+585,16,buchen,gebucht,"to book, to reserve",
+586,16,liefern,geliefert,"to deliver something, to provide something, to furnish",
+587,16,schneiden,geschnitten,"to cut, to prune",
+588,16,sparen,gespart,"to save up, to conserve",
+589,16,mischen,gemischt,to mix,
+590,16,ernähren,ernährt,"to nourish, to feed",
+591,16,bevorzugen,bevorzugt,to prefer,
+592,16,braten,gebraten,"to fry, to roast",
+593,16,backen,gebackt,to bake,
+594,16,grillen,gegrillt,"to grill, to have a barbecue",
+595,16,bereiten,bereitet,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)",
+596,16,zubereiten,bereitete zu,"to prepare, to cook in advance",
+597,16,reservieren,reservierte,to reserve,
+598,16,servieren,servierte,to serve (food or drinks),
+599,16,betreuen,betreut,"to care for, to supervise",
+600,16,entstehen,entstanden,"to arise, to emerge, to develop",
+601,16,aufnehmen,aufgenommen,"to pick up, to receive, to take in, to record, to absorb",
+602,16,gelten,gegolten,"to be valid, to be effective, to be worth",
+603,16,verbessern,verbessert,"to improve, to enhance",
+604,16,sichern,gesichert,"to secure, to protect",
+605,16,beantworten,beantwortet,to answer (a question),
+606,16,beschäftigen,beschäftigt,"to concern oneself with something, to take care of",
+607,16,absolvieren,absolviert,"to complete, to finish, to graduate",
+608,16,üben,geübt,to practice,
+609,16,vorbereiten,vorbereitet,"to prepare (in advance), to prepare oneself (refl.)",
+610,16,weinen,geweint,"to weep, cry",
+611,16,einsetzen,eingesetzt,"to insert, to use, to appoint, to risk",
+612,16,nutzen,genutzt,"to use, to utilize",
+613,16,warnen,gewarnt,to warn,
+614,16,klären,geklärt,to clarify,
+615,16,besprechen,besprochen,"to discuss (formal, work related)",
+616,16,erhöhen,erhöht,"to increase, to raise",
+617,16,beschränken,beschränkt,"to restrict, to limit",
+618,16,zwingen,gezwungen,"to force, to compel",
+619,16,berücksichtigen,berücksichtigt,"to consider, to take into account",
+620,16,übertragen,übertragen,"to transfer, to transmit",
+621,17,beweisen,bewiesen,"to prove, to demonstrate",
+622,17,erfinden,erfunden,"to invent, to fabricate (something untrue), to find out",
+623,17,zielen,gezielt,"to aim, to target",
+624,17,rechnen,gerechnet,"to calculate, to reckon",
+625,17,forschen,geforscht,to research,
+626,17,unterrichten,unterrichtet,"to teach, to inform",
+627,17,erzielen,erzielt,"to achieve, to reach a result",
+628,17,bestehen,bestanden,"to succeed, to pass (an exam), to consist, to insist",
+629,17,abschliessen,abgeschlossen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)",
+630,17,loben,gelobt,to praise,
+631,17,bilden,gebildet,"to form, to educate oneself (refl.)",
+632,17,ausbilden,ausgebildet,to train for a profession,
+633,17,herausfinden,herausgefunden,"to find something out, to discover",
+634,17,konzentrieren,konzentriert,"to concentrate, to focus",
+635,17,experimentieren,experimentiert,to experiment,
+636,17,küssen,geküsst,"to kiss, to make out",
+637,17,verstecken,versteckt,to hide,
+638,17,zurückkommen,zurückgekommen,to return (to come back),
+639,17,umziehen,umgezogen,"to change clothes (refl.), to move house",
+640,17,zerstören,zerstört,to destroy,
+641,17,enden,geendet,to end (passive),
+642,17,abgeben,abgegeben,"to hand something in, to emit something, to deliver something, to cede something",
+643,17,töten,getötet,to kill,
+644,17,achten,geachtet,"to respect, to regard someone, to pay attention to something",
+645,17,erwachsen,erwachsen,"to grow up, to spring up, to accrue",
+646,17,absagen,abgesagt,"to call off, to cancel",
+647,17,gucken,geguckt,"to look, to watch, to have a certain facial expression (Northern Germany)",
+648,17,anschauen,angeschaut,"to look at, to behold, to take a look at, to watch (Bayern/Austria)",
+649,17,lauten,gelautet,"to sound, to read (have a certain wording), to be, to state",
+650,17,spüren,gespürt,to sense,
+651,17,atmen,geatmet,to breathe,
+652,17,lächeln,gelächelt,to smile,
+653,17,fürchten,gefürchtet,"to fear, to be afraid",
+654,17,empfinden,empfunden,to feel (emotions),
+655,17,beobachten,beobachtet,"to watch, to observe",
+656,17,riechen,gerochen,"to sniff, to reek, to tolerate someone (coll.)",
+657,17,duften,geduftet,to smell,
+658,17,blicken,geblickt,"to look, to glance",
+659,17,anfassen,angefasst,to touch,
+660,17,fliehen,geflohen,"to flee, to diverge",
+661,18,gelingen,gelungen,"to succeed, to manage",
+662,18,herstellen,hergestellt,"to manufacture, to produce",
+663,18,verteilen,verteilt,"to distribute, to share",
+664,18,treten,getreten,"to step, to read, to kick (a ball)",
+665,18,bewältigen,bewältigt,"to cope with, to get over, to overcome, to manage",
+666,18,ablenken,abgelenkt,"to distract, to divert, to steer away",
+667,18,meiden,gemieden,to avoid (+ nouns only),
+668,18,vorgeben,vorgegeben,to pretend,
+669,18,decken,gedeckt,"to cover, to meet",
+670,18,geraten,geraten,"to get into, to turn out, succeed, to thrive",
+671,18,ergänzen,ergänzt,"to add, to complement, to supplement",
+672,18,laden,geladen,"to load, to charge",
+673,18,richten,gerichtet,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)",
+674,18,verursachen,verursacht,to cause,
+675,18,schlagen,geschlagen,"to hit, to defeat, to beat (cooking)",
+676,18,aufwachsen,aufgewachsen,"to grow up, to be raised",
+677,18,zunehmen,zugenommen,"to gain weight, to increase",
+678,18,lohnen,gelohnt,"to be worthwhile, to pay off",
+679,18,messen,gemessen,"to measure, to gauge",
+680,18,scheiden,geschieden,"to separate, to divorce",
+681,18,schmerzen,geschmerzt,"to hurt, to ache",
+682,18,entsprechen,entsprochen,"to correspond, to comply",
+683,18,mitmachen,mitgemacht,"to join in, to take part",
+684,18,wecken,geweckt,"to wake, to wake up",
+685,18,abnehmen,abgenommen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",
+686,18,bewerten,bewertet,"to evaluate (subjectively), to assess, to rate, to judge",
+687,18,stammen,gestammt,"to descend, originate, be derived",
+688,18,gebären,geboren,to give birth,
+689,18,stossen,gestossen,"to push, to thurst, to shove",
+690,18,vermeiden,vermieden,to avoid (+ nouns or verbs),
+691,18,hervorheben,hervorgehoben,"to point out, to emphasize",
+692,18,erfüllen,erfüllt,"to fill (with something), to fulfill, to come true",
+693,18,lindern,gelindert,"to alleviate, to relieve",
+694,18,entziehen,entzogen,"to withdraw, deprive",
+695,18,gewöhnen,gewöhnt,to accustom oneself to something (refl.),
+696,18,auswählen,ausgewählt,"to select, to choose",
+697,18,verzichten,verzichtet,"to renounce, to forgo, to do without, to waive",
+698,18,verheiraten,verheiratet,"to marry (to perform the marriage), to get married (refl.)",
+699,18,begründen,begründet,"to justify, to explain",
+700,18,zugeben,zugegeben,to admit,
+701,19,lügen,gelogen,"to lie, to give false information (unintentionally)",
+702,19,schreien,geschrien,"to shout, to yell, to scream",
+703,19,entschuldigen,entschuldigt,"to excuse, to apologise",
+704,19,beschweren,beschwert,to complain,
+705,19,bestätigen,bestätigt,"to confirm, to corroborate",
+706,19,erwähnen,erwähnt,to mention (to speak of something),
+707,19,informieren,informiert,to inform,
+708,19,reagieren,reagiert,"to react, to respond",
+709,19,äussern,geäussert,"to utter, to say, to express",
+710,19,garantieren,garantiert,to guarantee,
+711,19,kritisieren,kritisiert,to criticize,
+712,19,ankündigen,angekündigt,"to announce, to declare",
+713,19,aussprechen,ausgesprochen,"to pronounce, express",
+714,19,unterbrechen,unterbrochen,to interrupt,
+715,19,zusagen,zugesagt,"to promise, to accept, to confirm",
+716,19,nachdenken,nachgedacht,"to think, to reflect",
+717,19,zweifeln,gezweifelt,to doubt,
+718,19,einstellen,eingestellt,"to employ someone, to adjust, to cease",
+719,19,bearbeiten,bearbeitet,to edit,
+720,19,vereinbaren,vereinbart,"to agree, to arrange",
+721,19,hinweisen,hingewiesen,"to indicate, to point out",
+722,19,verwenden,verwendet,to use (formal),
+723,19,reinigen,gereinigt,to clean (formal),
+724,19,geschehen,geschehen,"to occur, to happen (formal)",
+725,19,beteiligen,beteiligt,"to take part in something (formal), to consult someone",
+726,19,verfügen,verfügt,"to have, to possess (formal)",
+727,19,benötigen,benötigt,"to need, to require (formal)",
+728,19,schaffen,geschafft,"to create, to produce, to achieve/reach a goal",
+729,19,drucken,gedruckt,to print,
+730,19,erledigen,erledigt,"to finish, to take care of, to get something done",
+731,19,herunterladen,heruntergeladen,to download,
+732,19,entlassen,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)",
+733,19,verschieben,verschoben,"to move (a meeting), to postpone, to defer",
+734,19,ergeben,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)",
+735,19,leiten,geleitet,"to lead, to manage",
+736,19,handeln,gehandelt,"to act, to trade, to negotiate",
+737,19,schalten,geschaltet,"to switch, to operate",
+738,19,prüfen,geprüft,"to investigate, to check something, to consider",
+739,19,untersuchen,untersucht,"to examine, to investigate",
+740,19,auswirken,ausgewirkt,to impact,
+741,20,entwerfen,entworfen,"to design, to draw, to draft",
+742,20,entschliessen,entschlossen,to decide (to do something) (refl.),
+743,20,reparieren,repariert,to repair,
+744,20,unternehmen,unternommen,to undertake,
+745,20,präsentieren,präsentiert,"to present, to introduce",
+746,20,auswerten,ausgewertet,"to evaluate (objectively), to analyze",
+747,20,einrichten,eingerichtet,"to set up, to install, to furnish",
+748,20,anerkennen,anerkannt,"to acknowledge, to recognize",
+749,20,verwalten,verwaltet,"to manage, to administer",
+750,20,leisten,geleistet,"to perform, to afford (refl.)",
+751,20,einführen,eingeführt,"to introduce, to implement",
+752,20,einbeziehen,einbezogen,"to include, to involve, to integrate",
+753,20,beitragen,beigetragen,to contribute,
+754,20,anwenden,angewendet,"to apply (knowledge, know-how)",
+755,20,versorgen,versorgt,"to provide (for someone), to supply, to feed",
+756,20,pflegen,gepflegt,"to maintain, to care for (ill/old people)",
+757,20,behandeln,behandelt,"to treat (medicinally), to treat (physically), to cover (a subject)",
+758,20,erzeugen,erzeugt,"to generate, produce, to create",
+759,20,installieren,installiert,"to install, to set up",
+760,20,produzieren,produziert,"to produce, to manufacture",
+761,20,verarbeiten,verarbeitet,"to process, to handle",
+762,20,fressen,gefressen,"to devour, to eat (of an animal), to gorge, to guzzle",
+763,20,analysieren,analysiert,to analyse,
+764,20,beurteilen,beurteilt,to judge,
+765,20,fördern,gefördert,"to promote, to support",
+766,20,berichten,berichtet,"to report, to cover, to indicate, to refer",
+767,20,werben,geworben,to advertise,
+768,20,beeinflussen,beeinflusst,"to influence, to affect",
+769,20,zulassen,zugelassen,"to allow, to license (for a car)",
+770,20,verurteilen,verurteilt,"to condemn, to sentence (law)",
+771,20,senden,gesendet,"to broadcast, to send",
+772,20,erfolgen,erfolgt,"to occur, to take place",
+773,20,beugen,gebeugt,to bow,
+774,20,nicken,genickt,to nod,
+775,20,fällen,gefällt,"to fall, to fell",
+776,20,regeln,geregelt,to regulate,
+777,20,überleben,überlebt,to survive,
+778,20,beeindrucken,beeindruckt,to impress someone,
+779,20,mitkommen,mitgekommen,"to come with someone, to understand something",
+780,20,reichen,gereicht,"to suffice, to be enough",
+781,21,stricken,gestrickt,to knit,
+782,21,faulenzen,gefaulenzt,"to chill, to laze around",
+783,21,joggen,gejoggt,to jog,
+784,21,tauschen,getauscht,"to swap, to trade, to exchange",
+785,21,leihen,geliehen,"to lend, to borrow",
+786,21,finanzieren,finanziert,"to finance, to fund",
+787,21,investieren,investiert,to invest,
+788,21,abheben,abgehoben,to withdraw (money),
+789,21,überweisen,überwiesen,to transfer (money),
+790,21,stärken,gestärkt,to strengthen,
+791,21,gefährden,gefährdet,to endanger,
+792,21,erleichtern,erleichtert,to lighten,
+793,21,verlängern,verlängert,to extend,
+794,21,vertiefen,vertieft,to deepen,
+795,21,erweitern,erweitert,"to expand, to extend, to broaden",
+796,21,ermöglichen,ermöglicht,"to enable, to facilitate",
+797,21,bemerken,bemerkt,"to notice, to remark something",
+798,21,begrüssen,begrüsst,"to welcome, to greet",
+799,21,bemühen,bemüht,to make an effort,
+800,21,beschliessen,beschlossen,"to decide something, to end, to close",
+801,21,beauftragen,beauftragt,"to instruct, to give an order",
+802,21,berechnen,berechnet,to calculate something,
+803,21,bedanken,bedankt,to thank someone,
+804,21,beschützen,beschützt,"to protect, defend (security)",
+805,21,befreien,befreit,to free (make free),
+806,21,beschädigen,beschädigt,to damage (objects),
+807,21,beruhigen,beruhigt,to calm,
+808,21,füttern,gefüttert,to feed (an animal),
+809,21,betrinken,betrunken,to get drunk (refl.),
+810,21,frühstücken,gefrühstückt,to have breakfast,
+811,21,gönnen,gegönnt,"to treat, to allow, to grant",
+812,21,wetten,gewettet,to bet,
+813,21,formulieren,formuliert,"to formulate, to phrase",
+814,21,meinen,gemeint,"to be of the opinion, to mean",
+815,21,zögern,gezögert,to hesitate,
+816,21,bewundern,bewundert,to admire,
+817,21,unterzeichnen,unterzeichnet,to sign (formal),
+818,21,umtauschen,umgetauscht,"to convert, to exchange (currency)",
+819,21,verschlechtern,verschlechtert,to worsen,
+820,21,bezeichnen,bezeichnet,"to designate, to label",
+821,22,abkühlen,abgekühlt,to cool down,
+822,22,verwandeln,verwandelt,"to transform, to metamorphose, to turn something into something",
+823,22,erscheinen,erschienen,"to appear, to seem",
+824,22,schiessen,geschossen,to shoot,
+825,22,verraten,verraten,"to betray, to reveal",
+826,22,starten,gestartet,"to start (car, airplane, etc), to start a competition",
+827,22,akzeptieren,akzeptiert,to accept,
+828,22,fassen,gefasst,to grasp,
+829,22,verlangen,verlangt,to demand,
+830,22,wenden,gewendet,"to turn something, to make a u-turn",
+831,22,beachten,beachtet,to consider,
+832,22,feststellen,festgestellt,"to ascertain, to establish",
+833,22,rücken,gerückt,"to move, to shift",
+834,22,landen,gelandet,to land (a plane),
+835,22,klappen,geklappt,"to clap, to fold, to work (out) (coll.)",
+836,22,behaupten,behauptet,"to claim, maintain, assert",
+837,22,auftreten,aufgetreten,"to appear, to perform",
+838,22,vergeben,vergeben,"to set (work), to forgive, to assign",
+839,22,begleiten,begleitet,"to accompany, to conduct, escort",
+840,22,verlaufen,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)",
+841,22,umgehen,umgangen,"to avoid, to go around",
+842,22,engagieren,engagiert,"to engage, to commit",
+843,22,profitieren,profitiert,"to benefit, to profit",
+844,22,prägen,geprägt,"to shape, to influence",
+845,22,reduzieren,reduziert,"to reduce, to decrease",
+846,22,ablehnen,abgelehnt,"to reject, to decline, to refuse",
+847,22,angeben,angegeben,"to indicate, to specify",
+848,22,retten,gerettet,"to save, to rescue",
+849,22,ausfallen,ausgefallen,to stand out,
+850,22,hinterlassen,hinterlassen,"to leave, to leave behind, to bequeath",
+851,22,anpassen,angepasst,"to adjust, to adapt",
+852,22,ansprechen,angesprochen,"to address, to speak to",
+853,22,anzeigen,angezeigt,"to show, to display",
+854,22,aufbauen,aufgebaut,"to build up, to construct",
+855,22,ausführen,ausgeführt,"to execute, to carry out",
+856,22,beantragen,beantragt,"to apply for, to request",
+857,22,bedienen,bedient,"to operate, to serve",
+858,22,belegen,belegt,"to occupy, to reserve, to cover, to prove",
+859,22,betonen,betont,"to emphasize, to stress",
+860,22,betragen,betragen,"to amount to, to come to",
+861,23,betreiben,betrieben,"to run, to operate",
+862,23,durchführen,durchgeführt,"to carry out, to perform",
+863,23,eignen,geeignet,"to suit, to be suitable",
+864,23,organisieren,organisiert,"to organize, to arrange",
+865,23,erheben,erhoben,"to raise, to collect",
+866,23,errichten,errichtet,"to establish, to erect",
+867,23,erteilen,erteilt,"to grant, to issue",
+868,23,erwerben,erworben,"to acquire, to purchase",
+869,23,eröffnen,eröffnet,"to open, to inaugurate",
+870,23,festlegen,festgelegt,"to define, to set",
+871,23,fliessen,geflossen,"to flow, to run",
+872,23,gelangen,gelangt,"to reach, to get to",
+873,23,gestalten,gestaltet,"to shape, to design",
+874,23,gewährleisten,gewährleistet,"to ensure, to guarantee",
+875,23,integrieren,integriert,"to integrate, to incorporate",
+876,23,löschen,gelöscht,"to delete, to erase",
+877,23,scheitern,gescheitert,to fail,
+878,23,speichern,gespeichert,"to save, to store",
+879,23,sperren,gesperrt,"to block, to lock",
+880,23,steigern,gesteigert,"to increase, to boost",
+881,23,steuern,gesteuert,"to control, to steer",
+882,23,umsetzen,umgesetzt,"to implement, to put into practice",
+883,23,unterscheiden,unterschieden,"to distinguish, to differentiate",
+884,23,veranstalten,veranstaltet,"to organize, to host",
+885,23,verbreiten,verbreitet,"to spread, to distribute",
+886,23,verfassen,verfasst,"to compose, to write",
+887,23,verleihen,verliehen,"to award, to grant",
+888,23,vermitteln,vermittelt,"to mediate, to convey",
+889,23,verpflichten,verpflichtet,"to oblige, to commit",
+890,23,verfolgen,verfolgt,"to pursue, to persecute, to trace",
+891,23,weisen,gewiesen,"to show, to indicate",
+892,23,widmen,gewidmet,"to dedicate, to devote",
+893,23,unterhalten,unterhalten,"to maintain, to entertain, to converse (refl.)",
+894,23,aufregen,aufgeregt,"to annoy, to upset (refl.)",
+895,23,klingeln,geklingelt,to ring (to produce the sound of a bell or a similar sound),
+896,23,telefonieren,telefoniert,to telephone,
+897,23,reiten,geritten,"to ride, to ride on the back of someone/something",
+898,23,schweigen,geschwiegen,"to be silent, to remain silent",
+899,23,verbrennen,verbrannt,"to burn, to incinerate, to burn oneself, to scorch (miltary)",
+900,23,verabschieden,verabschiedet,"to disband, to see someone off, to say goodbye (refl.), to adopt (a law, etc.)",

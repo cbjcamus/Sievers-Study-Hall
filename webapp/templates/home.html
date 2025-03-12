@@ -84,6 +84,12 @@
                 <td>{{ score('konjunktiv', session=session) }}</td>
                 <td></td>
             </tr>
+            <tr>
+                <td><a href="/partizip_I" class="button">Partizip I</a></td>
+                <td>{{ answered_questions('partizip_I', session=session) }}/{{ total_questions('partizip_I') }}</td>
+                <td>{{ score('partizip_I', session=session) }}</td>
+                <td></td>
+            </tr>
         </table>
     </div>
 
@@ -100,6 +106,18 @@
                 <td><a href="/verben" class="button">Verben</a></td>
                 <td>{{ answered_questions('verben', session=session) }}/{{ total_questions('verben') }}</td>
                 <td>{{ score('verben', session=session) }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/trennbare_verben" class="button">(Un)trennbare Verben</a></td>
+                <td>{{ answered_questions('trennbare_verben', session=session) }}/{{ total_questions('trennbare_verben') }}</td>
+                <td>{{ score('trennbare_verben', session=session) }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/deverbale_substantive" class="button">Deverbale Substantive</a></td>
+                <td>{{ answered_questions('deverbale_substantive', session=session) }}/{{ total_questions('deverbale_substantive') }}</td>
+                <td>{{ score('deverbale_substantive', session=session) }}</td>
                 <td></td>
             </tr>
         </table>

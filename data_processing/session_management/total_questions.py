@@ -21,5 +21,5 @@ def compute_total_questions(exercise, level=None):
 
 def compute_highest_level(exercise):
     data = pd.read_csv(DATA_PATH[exercise])
-    highest_level = np.max(data["level"])
+    highest_level = np.max(data[data["level"] < 100]["level"])
     return int(highest_level)

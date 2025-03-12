@@ -43,12 +43,12 @@
     {% if result %}
     <div class="result">
         {% if result == 'correct' %}
-            <p>Correct</p>
+            <p class="correct">Correct</p>
             {% if feedback_message %}
                 <p>{{ feedback_message | safe }}</p>
             {% endif %}
         {% else %}
-            <p>Incorrect</p>
+            <p class="incorrect">Incorrect</p>
             {% if feedback_message %}
                 <p>{{ feedback_message | safe }}</p>
             {% endif %}
@@ -57,7 +57,7 @@
     </div>
     {% endif %}
 
-    <p>{{ proverb | safe }}</p>
+    <p><br>{{ proverb | safe }}</p>
 
     <div class="back-button-container">
         <a href="{{ exercise_pages.get(exercise, '/') }}" class="back-button">Back to {{ title_page[exercise] }}</a>

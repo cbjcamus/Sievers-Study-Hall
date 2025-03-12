@@ -1,6 +1,8 @@
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                                       verben, adjektive, adverbien)
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum,
+                                       konjunktiv,
+                                       partizip_I,
+                                       verben, adjektive, adverbien, deverbale_substantive, trennbare_verben)
 
 QUESTION_TEMPLATES = {
     artikel: {
@@ -195,6 +197,34 @@ QUESTION_TEMPLATES = {
            "<br><br>{question} \u25CF {person} _____",
         10: "Find the present tense of the following verb:"
             "<br><br>{question} \u25CF {person} _____",
+        11: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        12: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        13: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        14: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        15: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        16: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        17: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        18: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        19: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        20: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        21: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        22: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        23: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
+        24: "Find the present tense of the following verb:"
+            "<br><br>{question} \u25CF {person} _____",
     },
 
     praepositionen_konjugation :{
@@ -239,24 +269,58 @@ QUESTION_TEMPLATES = {
     perfekt: {
         1: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
-        2: "Complete the sentence with the Partizip II of the specified verb:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        3: "Complete the sentence with the proper Hilfsverb:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        4: "Find the Partizip II of the following verb:"
+        2: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
-        5: "Complete the sentence with the Partizip II of the specified verb:"
+        3: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        4: "Complete the sentence with a Partizip II:"
+           "<br><br>{question}"
+           "<br><br>{english}",
+        5: "Complete the sentence with a Partizip II:"
            "<br><br>{question}"
            "<br><br>{english}",
         6: "Complete the sentence with the proper Hilfsverb:"
            "<br><br>{question}"
            "<br><br>{english}",
-        7: "Find the Partizip II of the following verb:"
-           "<br><br>{question}",
+        7: "Complete the sentence with the proper Hilfsverb:"
+           "<br><br>{question}"
+           "<br><br>{english}",
         8: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
+        9: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        10: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        11: "Complete the sentence with a Partizip II:"
+           "<br><br>{question}"
+           "<br><br>{english}",
+        12: "Complete the sentence with a Partizip II:"
+           "<br><br>{question}"
+           "<br><br>{english}",
+        13: "Complete the sentence with the proper Hilfsverb:"
+           "<br><br>{question}"
+           "<br><br>{english}",
+        14: "Complete the sentence with the proper Hilfsverb:"
+           "<br><br>{question}"
+           "<br><br>{english}",
+        15: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        16: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        17: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        18: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        19: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        20: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        21: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        22: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        23: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
     },
 
     praeteritum: {
@@ -269,6 +333,24 @@ QUESTION_TEMPLATES = {
         4: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
         5: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        6: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        7: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        8: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        9: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        10: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        11: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        12: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        13: "Find the Präteritum (3rd Person Singular) of the following verb:"
+           "<br><br>{question} \u25CF er/sie/es _____",
+        14: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
     },
 
@@ -283,11 +365,22 @@ QUESTION_TEMPLATES = {
            "<br><br>{question} \u25CF {person} \u25CF _____",
         5: "Find the Imperative of the following verb:"
            "<br><br>{question} \u25CF {person} \u25CF _____",
+        6: "Find the Imperative of the following verb:"
+           "<br><br>{question} \u25CF {person} \u25CF _____",
     },
 
     konjunktiv: {
         1: "Find the Konjunktiv II of the following verb:"
            "<br><br>{question} \u25CF {person} _____",
+    },
+
+    partizip_I: {
+        1: "Find the Partizip I of the following verb:"
+           "<br><br>{question} \u25CF English: {english}",
+        2: "Find the Partizip I of the following verb:"
+           "<br><br>{question} \u25CF English: {english}",
+        3: "Find the Partizip I of the following verb:"
+           "<br><br>{question} \u25CF English: {english}",
     },
 
     adverbien: {
@@ -367,5 +460,70 @@ QUESTION_TEMPLATES = {
             "<br><br><strong>{question}</strong>",
         19: "Find the translation of the following verb:"
             "<br><br><strong>{question}</strong>",
-    }
+        20: "Find the translation of the following verb:"
+            "<br><br><strong>{question}</strong>",
+    },
+
+    trennbare_verben: {
+        1: "Find the translation of the following (un)trennbare verb based on the specified root verb:"
+           "<br><br><strong>{question}</strong> \u25CF {german}",
+        2: "Find the translation of the following (un)trennbare verb based on the specified prefix:"
+           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+        3: "Find the translation of the following (un)trennbare verb based on the specified root verb:"
+           "<br><br><strong>{question}</strong> \u25CF {german}",
+        4: "Find the translation of the following (un)trennbare verb based on the specified root verb:"
+           "<br><br><strong>{question}</strong> \u25CF {german}",
+        5: "Find the translation of the following (un)trennbare verb based on the specified prefix:"
+           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+        6: "Find the translation of the following (un)trennbare verb based on the specified prefix:"
+           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+        7: "Find the translation of the following (un)trennbare verb based on the specified root verb:"
+           "<br><br><strong>{question}</strong> \u25CF {german}",
+        8: "Find the translation of the following (un)trennbare verb based on the specified root verb:"
+           "<br><br><strong>{question}</strong> \u25CF {german}",
+        9: "Find the translation of the following (un)trennbare verb based on the specified prefix:"
+           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+        10: "Find the translation of the following (un)trennbare verb based on the specified prefix:"
+            "<br><br><strong>{question}</strong> \u25CF {prefix}",
+
+    },
+
+    deverbale_substantive: {
+        1: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        2: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        3: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        4: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        5: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        6: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        7: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        8: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        9: "Find the noun that fits:"
+           "<br><br>{english}: {german}"
+           "<br><br>{question}: _____",
+        10: "Find the noun that fits:"
+            "<br><br>{english}: {german}"
+            "<br><br>{question}: _____",
+        11: "Find the noun that fits:"
+            "<br><br>{english}: {german}"
+            "<br><br>{question}: _____",
+        12: "Find the noun that fits:"
+            "<br><br>{english}: {german}"
+            "<br><br>{question}: _____",
+    },
 }

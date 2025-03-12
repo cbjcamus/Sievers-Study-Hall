@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deverbale Substantive</title>
+    <link rel="stylesheet" href="/webapp/static/style.css">
+</head>
+
+{% from "macros.html" import render_table_row %}
+
+<body>
+    <h1>Deverbale Substantive</h1>
+
+    <div class="section">
+        <h2>B1</h2>
+        <table class="level-table">
+            {{ render_table_row("deverbale_substantive", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 5, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>B2</h2>
+        <table class="level-table">
+            {{ render_table_row("deverbale_substantive", 6, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 8, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>C1</h2>
+        <table class="level-table">
+            {{ render_table_row("deverbale_substantive", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 10, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("deverbale_substantive", 12, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">Home</a>
+    </div>
+</body>
+</html>

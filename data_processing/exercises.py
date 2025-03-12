@@ -10,12 +10,15 @@ imperativ = 'imperativ'
 perfekt = 'perfekt'
 praeteritum = 'praeteritum'
 konjunktiv = 'konjunktiv'
+partizip_I = 'partizip_I'
 
 adverbien = 'adverbien'
 verben = 'verben'
+trennbare_verben = 'trennbare_verben'
 adjektive = 'adjektive'
+deverbale_substantive = 'deverbale_substantive'
 
 exercises = [artikel, pronomen, praepositionen_grammatik, konnektoren, adjektivdeklinationen,
-             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-             adverbien, verben, adjektive,
+             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv, partizip_I,
+             adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,
              ]

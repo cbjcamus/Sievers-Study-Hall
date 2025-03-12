@@ -107,6 +107,16 @@ h1 {
     font-size: 18px;
 }
 
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
 .home-button-container {
     display: flex;
     justify-content: center;

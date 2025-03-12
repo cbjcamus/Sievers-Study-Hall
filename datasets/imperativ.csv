@@ -1,4 +1,4 @@
-Nr,level,question,english,du,ihr,Sie
+Nr,level,question,question,du,ihr,Sie
 1,1,sein,to be,sei,seid,seien Sie
 2,1,haben,"to have, to contain",hab,habt,haben Sie
 3,1,werden,"to become, will, to be done (passive voice)",werde,werdet,werden Sie
@@ -22,47 +22,119 @@ Nr,level,question,english,du,ihr,Sie
 21,1,nehmen,"to take, to cause oneself to be (in some state)",nimm,nehmt,nehmen Sie
 22,1,sprechen,to speak,sprich,sprecht,sprechen Sie
 23,1,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekomm,bekommt,bekommen Sie
-24,1,vergessen,"to forget, to leave (forget to take)",vergiss,vergesst,vergessen Sie
-25,1,halten,"to hold, to stop (a movement), to support, to keep",halt,haltet,halten Sie
+24,2,vergessen,"to forget, to leave (forget to take)",vergiss,vergesst,vergessen Sie
+25,2,halten,"to hold, to stop (a movement), to support, to keep",halt,haltet,halten Sie
 26,2,warten,"to wait, to maintain (e.g. a car)",warte,wartet,warten Sie
 27,2,kennen,"to know, to be acquainted with, to be familiar with",kenn,kennt,kennen Sie
 28,2,verstehen,"to understand, to get along with someone/something",versteh,versteht,verstehen Sie
 29,2,denken,"to think, to consider",denk,denkt,denken Sie
 30,2,leben,to live,leb,lebt,leben Sie
-31,2,stimmen,"to be true, to vote, to tune",stimm,stimmt,stimmen Sie
-32,2,verlieren,to lose,verlier,verliert,verlieren Sie
-33,2,arbeiten,to work,arbeite,arbeitet,arbeiten Sie
-34,2,essen,to eat,iss,esst,essen Sie
-35,2,spielen,to play,spiel,spielt,spielen Sie
-36,2,fahren,"to go (by vehicle), to leave, to drive",fahr,fahrt,fahren Sie
-37,2,versuchen,to try,versuch,versucht,versuchen Sie
-38,2,erzählen,"to tell, to narrate",erzähl,erzählt,erzählen Sie
-39,2,bedeuten,"to mean, to signify",bedeut,bedeutet,bedeuten Sie
-40,2,fragen,"to ask, to wonder (refl.)",frag,fragt,fragen Sie
-41,2,bestimmen,to determine,bestimm,bestimmt,bestimmen Sie
-42,2,treffen,"to meet, to encounter",triff,trefft,treffen Sie
-43,2,hoffen,to hope,hoff,hofft,hoffen Sie
-44,2,suchen,"to seek, to search",such,sucht,suchen Sie
-45,2,trinken,to drink,trink,trinkt,trinken Sie
-46,2,lernen,"to learn, to study (revise/review materials), to train something",lern,lernt,lernen Sie
-47,2,zeigen,"to show, to point at, to demonstrate",zeig,zeigt,zeigen Sie
-48,2,schlafen,to sleep,schlaf,schlaft,schlafen Sie
-49,2,holen,to fetch,hol,holt,holen Sie
-50,2,kaufen,to buy,kauf,kauft,kaufen Sie
-51,3,laufen,"to walk, to flow (of a fluid), to run (of an event)",lauf,lauft,laufen Sie
-52,3,erklären,"to explain, to declare, to assert",erklär,erklärt,erklären Sie
-53,3,zahlen,"to pay (for something), to atone for",zahl,zahlt,zahlen Sie
-54,3,schwimmen,"to swim, to float",schwimm,schwimmt,schwimmen Sie
-55,3,kochen,"to cook, to boil (to heat a liquid), to boil something",koch,kocht,kochen Sie
-56,3,waschen,to wash,wasch,wascht,waschen Sie
-57,3,aufwachen,to wake up,wach auf,wacht auf,wachen Sie auf
-58,3,studieren,"to study, to go to university/college",studier,studiert,studieren Sie
-59,3,zeichnen,"to draw, to sketch",zeichne,zeichnet,zeichnen Sie
-60,3,aufstehen,"to get up, to be open (e.g. a window, door)",steh auf,steht auf,stehen Sie auf
-61,3,wiederholen,to repeat,wiederhol,wiederholt,wiederholen Sie
-62,3,übersetzen,to translate,übersetz,übersetzt,übersetzen Sie
-63,3,wohnen,"to live, to reside, to dwell",wohn,wohnt,wohnen Sie
-64,3,schreiben,to write,schreib,schreibt,schreiben Sie
-65,3,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull",zieh an,zieht an,ziehen Sie an
-66,3,ausziehen,"to take something off, to undress, to pull out, to move out",zieh aus,zieht aus,ziehen Sie aus
-67,3,buchstabieren,to spell,buchstabier,buchstabiert,buchstabieren Sie
+31,2,arbeiten,to work,arbeite,arbeitet,arbeiten Sie
+32,2,essen,to eat,iss,esst,essen Sie
+33,2,spielen,to play,spiel,spielt,spielen Sie
+34,2,fahren,"to go (by vehicle), to leave, to drive",fahr,fahrt,fahren Sie
+35,2,versuchen,to try,versuch,versucht,versuchen Sie
+36,2,erzählen,"to tell, to narrate",erzähl,erzählt,erzählen Sie
+37,2,bedeuten,"to mean, to signify",bedeut,bedeutet,bedeuten Sie
+38,2,fragen,"to ask, to wonder (refl.)",frag,fragt,fragen Sie
+39,2,treffen,"to meet, to encounter",triff,trefft,treffen Sie
+40,2,hoffen,to hope,hoff,hofft,hoffen Sie
+41,2,suchen,"to seek, to search",such,sucht,suchen Sie
+42,2,trinken,to drink,trink,trinkt,trinken Sie
+43,2,lernen,"to learn, to study (revise/review materials), to train something",lern,lernt,lernen Sie
+44,2,zeigen,"to show, to point at, to demonstrate",zeig,zeigt,zeigen Sie
+45,2,schlafen,to sleep,schlaf,schlaft,schlafen Sie
+46,2,kaufen,to buy,kauf,kauft,kaufen Sie
+47,3,laufen,"to walk, to flow (of a fluid), to run (of an event)",lauf,lauft,laufen Sie
+48,3,erklären,"to explain, to declare, to assert",erklär,erklärt,erklären Sie
+49,3,zahlen,"to pay (for something), to atone for",zahl,zahlt,zahlen Sie
+50,3,kochen,"to cook, to boil (to heat a liquid), to boil something",koch,kocht,kochen Sie
+51,3,waschen,to wash,wasch,wascht,waschen Sie
+52,3,aufwachen,to wake up,wach auf,wacht auf,wachen Sie auf
+53,3,zeichnen,"to draw, to sketch",zeichne,zeichnet,zeichnen Sie
+54,3,aufstehen,"to get up, to be open (e.g. a window, door)",steh auf,steht auf,stehen Sie auf
+55,3,wiederholen,to repeat,wiederhol,wiederholt,wiederholen Sie
+56,3,übersetzen,to translate,übersetz,übersetzt,übersetzen Sie
+57,3,wohnen,"to live, to reside, to dwell",wohn,wohnt,wohnen Sie
+58,3,schreiben,to write,schreib,schreibt,schreiben Sie
+59,3,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull",zieh an,zieht an,ziehen Sie an
+60,3,ausziehen,"to take something off, to undress, to pull out, to move out",zieh aus,zieht aus,ziehen Sie aus
+61,3,buchstabieren,to spell,buchstabier,buchstabiert,buchstabieren Sie
+62,3,ziehen,"to pull, to drag, to move",zieh,zieht,ziehen Sie
+63,3,lesen,to read,lies,lest,lesen Sie
+64,3,kosten,"to cost, to taste",kost,kostt,kosten Sie
+65,3,erinnern,"to remind, to remember (refl.)",erinne,erinnet,erinnern Sie
+66,3,fühlen,"to feel, to feel something (good/bad) (refl.)",fühl,fühlt,fühlen Sie
+67,3,führen,"to lead, to guide",führ,führt,führen Sie
+68,4,anrufen,"to call by telephone, to call on (someone)",anruf,anruft,anrufen Sie
+69,4,aufhören,"to stop, to cease an activity/process",aufhör,aufhört,aufhören Sie
+70,4,anfangen,to begin something new,fang an,fangt an,fangen Sie an
+71,4,gewinnen,to win,gewinn,gewinnt,gewinnen Sie
+72,4,öffnen,to open (formal),öffne,öffnet,öffnen Sie
+73,4,bezahlen,"to pay, to pay someone",bezahl,bezahlt,bezahlen Sie
+74,4,beginnen,to begin (on a date/time),beginn,beginnt,beginnen Sie
+75,4,holen,to fetch,hol,holt,holen Sie
+76,4,benutzen,to use (something),benutz,benutzt,benutzen Sie
+77,4,schicken,to send,schick,schickt,schicken Sie
+78,4,lachen,to laugh,lach,lacht,lachen Sie
+79,4,scheinen,"to seem, to shine",schein,scheint,scheinen Sie
+80,4,ändern,to change (one's personality/behavior),ände,ändet,ändern Sie
+81,4,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",aufmach,aufmacht,aufmachen Sie
+82,4,verkaufen,to sell,verkauf,verkauft,verkaufen Sie
+83,4,sitzen,"to be seated, to stay, to fit (of clothing)",sitz,sitzt,sitzen Sie
+84,4,stellen,"to position, to put, to catch",stell,stellt,stellen Sie
+85,4,setzen,"to set, to sit down (refl.)",setz,setzt,setzen Sie
+86,4,liegen,"to lie, to be located",lieg,liegt,liegen Sie
+87,4,danken,to thank,dank,dankt,danken Sie
+88,4,verlieren,to lose,verlier,verliert,verlieren Sie
+89,4,legen,"to lay, to lean, to lie down",leg,legt,legen Sie
+90,4,schauen,to look at (Bayern/Austria),schau,schaut,schauen Sie
+91,4,besuchen,to visit,besuch,besucht,besuchen Sie
+92,5,bestimmen,to determine,bestimm,bestimmt,bestimmen Sie
+93,5,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freu,freut,freuen Sie
+94,5,schliessen,"to shut, to close, to lock, to conclude",schließ,schließt,schließen Sie
+95,5,einladen,"to invite, to load (something into a container)",lade ein,ladet ein,laden Sie ein
+96,5,wünschen,to wish,wünsch,wünscht,wünschen Sie
+97,5,folgen,to follow,folge,folgt,folgen Sie
+98,5,tragen,"to wear (clothing), to carry, to hold",trag,tragt,tragen Sie
+99,5,ansehen,"to look at something, to watch something",sieh an,seht an,sehen Sie an
+100,5,probieren,"to try, to taste, to sample, to probe",probier,probiert,probieren Sie
+101,5,träumen,to dream,träum,träumt,träumen Sie
+102,5,reisen,to travel,reis,reist,reisen Sie
+103,5,feiern,to celebrate,feie,feiet,feiern Sie
+104,5,antworten,"to answer, to reply",antwort,antwortt,antworten Sie
+105,5,wählen,"to choose, to dial (a number), to vote",wähl,wählt,wählen Sie
+106,5,ausgehen,"to go out, to run out (e.g. of money)",ausgeh,ausgeht,ausgehen Sie
+107,5,zählen,to count,zähl,zählt,zählen Sie
+108,5,ankommen,"to arrive, to depend on something",ankomm,ankommt,ankommen Sie
+109,5,kennenlernen,"to meet someone, to get to know someone/something",kennenlern,kennenlernt,kennenlernen Sie
+110,5,anmelden,"to register, to sign up",anmeld,anmeldt,anmelden Sie
+111,5,lassen,"to let, to leave, to allow",lass,lasst,lassen Sie
+112,5,verlassen,"to leave, to trust with something (refl.), to pass away, to die",verlass,verlasst,verlassen Sie
+113,5,helfen,to help,hilf,helft,helfen Sie
+114,5,bewegen,to move,beweg,bewegt,bewegen Sie
+115,5,vertrauen,to trust,vertrau,vertraut,vertrauen Sie
+116,6,versprechen,"to promise, to hope for, to misspeak",versprech,versprecht,versprechen Sie
+117,6,hängen,"to hang, to be fond of, depend on",häng,hängt,hängen Sie
+118,6,mieten,"to rent, to hire",miet,miett,mieten Sie
+119,6,rauchen,to smoke (e.g. a cigarette),rauch,raucht,rauchen Sie
+120,6,sterben,to die,sterb,sterbt,sterben Sie
+121,6,heiraten,to marry,heirat,heiratt,heiraten Sie
+122,6,verheiraten,"to marry (to perform the marriage), to get married (refl.)",verheirat,verheiratt,verheiraten Sie
+123,6,kämpfen,"to fight, to struggle",kämpf,kämpft,kämpfen Sie
+124,6,fehlen,"to lack, to be absent/missing",fehl,fehlt,fehlen Sie
+125,6,sorgen,"to care, to worry",sorg,sorgt,sorgen Sie
+126,6,stecken,"to stick, to pin",steck,steckt,stecken Sie
+127,6,überraschen,to surprise,überrasch,überrascht,überraschen Sie
+128,6,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",vorstell,vorstellt,vorstellen Sie
+129,6,stehlen,to steal,stiehl,stehlt,stehlen Sie
+130,6,entscheiden,to decide,entscheid,entscheidt,entscheiden Sie
+131,6,vermissen,to miss something/someone,vermiss,vermisst,vermissen Sie
+132,6,werfen,to throw,wirf,werft,werfen Sie
+133,6,erkennen,"to recognise, to realise",erkenn,erkennt,erkennen Sie
+134,6,teilen,"to split, to share, to divide",teil,teilt,teilen Sie
+135,6,bauen,to build,bau,baut,bauen Sie
+136,6,unterschreiben,to sign (write one's signature),unterschreib,unterschreibt,unterschreiben Sie
+137,6,melden,"to report, to register",meld,meldt,melden Sie
+138,6,brechen,to break,brich,brecht,brechen Sie
+139,6,stimmen,"to be true, to vote, to tune",stimm,stimmt,stimmen Sie

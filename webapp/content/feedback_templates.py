@@ -1,6 +1,7 @@
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                                        praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                                       verben, adjektive, adverbien)
+                                       partizip_I,
+                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,)
 
 FEEDBACK_TEMPLATES = {
     artikel: {
@@ -156,6 +157,34 @@ FEEDBACK_TEMPLATES = {
            "<br><br>{previous_question} = {english}",
         10: "{previous_question} → {person} {correct_answers}"
            "<br><br>{previous_question} = {english}",
+        11: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        12: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        13: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        14: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        15: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        16: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        17: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        18: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        19: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        20: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        21: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        22: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        23: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        24: "{previous_question} → {person} {correct_answers}"
+            "<br><br>{previous_question} = {english}",
     },
 
     praepositionen_konjugation: {
@@ -186,20 +215,50 @@ FEEDBACK_TEMPLATES = {
     perfekt: {
         1: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        2: "{german}"
-           "<br><br>{english}",
-        3: "{german}"
-           "<br><br>{english}",
-        4: "Partizip II {previous_question}: {correct_answers}"
+        2: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
+        3: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        4: "{german}"
+           "<br><br>{english}",
         5: "{german}"
            "<br><br>{english}",
         6: "{german}"
            "<br><br>{english}",
-        7: "Partizip II {previous_question}: {correct_answers}"
-           "<br><br>{previous_question} = {english}",
+        7: "{german}"
+           "<br><br>{english}",
         8: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
+        9: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        10: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        11: "{german}"
+           "<br><br>{english}",
+        12: "{german}"
+           "<br><br>{english}",
+        13: "{german}"
+           "<br><br>{english}",
+        14: "{german}"
+           "<br><br>{english}",
+        15: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        16: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        17: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        18: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        19: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        20: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        21: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        22: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        23: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
     },
 
     praeteritum: {
@@ -212,6 +271,24 @@ FEEDBACK_TEMPLATES = {
         4: "{previous_question} → er/sie/es {correct_answers}"
            "<br><br>{previous_question} = {english}",
         5: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        6: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        7: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        8: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        9: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        10: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        11: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        12: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        13: "{previous_question} → er/sie/es {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        14: "{previous_question} → er/sie/es {correct_answers}"
            "<br><br>{previous_question} = {english}",
     },
 
@@ -226,11 +303,22 @@ FEEDBACK_TEMPLATES = {
            "<br><br>{previous_question} = {english}",
         5: "{previous_question}, {person} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
+        6: "{previous_question}, {person} → {correct_answers}"
+           "<br><br>{previous_question} = {english}",
     },
 
     konjunktiv: {
         1: "{previous_question} → {person} {correct_answers}"
            "<br><br>{previous_question} = {english}",
+    },
+
+    partizip_I: {
+        1: "Partizip I of {previous_question} = {correct_answers}"
+           "<br><br>English: {english}",
+        2: "Partizip I of {previous_question} = {correct_answers}"
+           "<br><br>English: {english}",
+        3: "Partizip I of {previous_question} = {correct_answers}"
+           "<br><br>English: {english}",
     },
 
     adverbien: {
@@ -277,5 +365,56 @@ FEEDBACK_TEMPLATES = {
         17: "{previous_question} = {correct_answers}",
         18: "{previous_question} = {correct_answers}",
         19: "{previous_question} = {correct_answers}",
+        20: "{previous_question} = {correct_answers}",
+    },
+
+    trennbare_verben: {
+        1: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        2: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        3: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        4: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        5: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        6: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        7: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        8: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        9: "{english} = {german}"
+           "<br><br>{previous_question} = {correct_answers}",
+        10: "{english} = {german}"
+            "<br><br>{previous_question} = {correct_answers}",
+    },
+
+    deverbale_substantive: {
+        1: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        2: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        3: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        4: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        5: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        6: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        7: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        8: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        9: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        10: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        11: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
+        12: "{english}: {german}"
+           "<br><br>{previous_question}: {correct_answers}",
     },
 }
