@@ -1,0 +1,743 @@
+Nr,level,level_verben,question,answer,german,english
+1,1,,the tax,die Abgabe,die Gabe,the gift
+2,1,,the input,die Eingabe,die Gabe,the gift
+3,1,,"the output, expense, expenditure",die Ausgabe,die Gabe,the gift
+4,1,,the guideline,die Vorgabe,die Gabe,the gift
+5,1,,the task,die Aufgabe,die Gabe,the gift
+6,1,,"the ascent, the rise",der Aufgang,der Gang,the walk
+7,1,,"the passage, the transit",der Durchgang,der Gang,the walk
+8,1,,"the decline, the downfall",der Niedergang,der Gang,the walk
+9,1,,"the decline, the decrease",der Rückgang,der Gang,the walk
+10,1,,"the process, the procedure",der Vorgang,der Gang,the walk
+11,1,,"the access, the entrance",der Zugang,der Gang,the walk
+12,1,,"the transition, the crossing",der übergang,der Gang,the walk
+13,1,,"the downfall, the decline",der Untergang,der Gang,the walk
+14,1,,"the exit, the outcome",der Ausgang,der Gang,the walk
+15,1,,"the entrance, the entry",der Eingang,der Gang,the walk
+16,1,,"the view, the outlook",der Ausblick,der Blick,the view
+17,1,,the insight,der Einblick,der Blick,the view
+18,1,,the overview,der überblick,der Blick,the view
+19,1,,"the review, the retrospect",der Rückblick,der Blick,the view
+20,1,,"the moment, the instant",der Augenblick,der Blick,the view
+21,1,,the foresight,der Weitblick,der Blick,the view
+22,1,,"the sight, the view",der Anblick,der Blick,the view
+23,1,,"the understanding, the comprehension",der Durchblick,der Blick,the view
+24,1,,the accident,der Umfall,der Fall,the case
+25,1,,the coincidence,der Zufall,der Fall,the case
+26,1,,"the waste, the garbage",der Abfall,der Fall,the case
+27,1,,the emergency,der Notfall,der Fall,the case
+28,1,,the inscription,die Aufschrift,die Schrift,"the writing, the scripture"
+29,1,,the inscription,die Inschrift,die Schrift,"the writing, the scripture"
+30,1,,the handwriting,die Handschrift,die Schrift,"the writing, the scripture"
+31,1,,the signature,due Unterschrift,die Schrift,"the writing, the scripture"
+32,1,,the regulation,die Vorschrift,die Schrift,"the writing, the scripture"
+33,1,,the departure,der Auszug,der Zug,"the train, the pull"
+34,1,,the entry,der Einzug,der Zug,"the train, the pull"
+35,1,,"the move, the relocation",der Umzug,der Zug,"the train, the pull"
+36,1,,the suit,der Anzug,der Zug,"the train, the pull"
+37,1,,the retreat,der Rückzug,der Zug,"the train, the pull"
+38,1,,the perspective,der Aussicht,der Sicht,the view
+39,1,,the view,der Ansicht,der Sicht,the view
+40,1,,the overview,der übersicht,der Sicht,the view
+41,1,,the insight,der Einsicht,der Sicht,the view
+42,1,,the consideration,der Rücksicht,der Sicht,the view
+43,1,,the uprising,der Aufstand,der Stand,the stand
+44,1,,the condition,der Zustand,der Stand,the stand
+45,1,,the resistance,der Widerstand,der Stand,the stand
+46,1,,the distance,der Abstand,der Stand,the stand
+47,1,,the wrong way,der Abweg,der Weg,the way
+48,1,,the detour,der Umweg,der Weg,the way
+49,1,,the way out,der Ausweg,der Weg,the way
+50,1,,the way back,der Rückweg,der Weg,the way
+51,1,,"the paragraph, the sales",der Absatz,der Satz,"the sentence, the clause"
+52,1,,"the approach, the attempt",der Ansatz,der Satz,"the sentence, the clause"
+53,1,,"the essay, the article",der Aufsatz,der Satz,"the sentence, the clause"
+54,1,,"the commitment, the deployment",der Einsatz,der Satz,"the sentence, the clause"
+55,1,,"the replacement, the substitute",der Ersatz,der Satz,"the sentence, the clause"
+56,1,,"the principle, the tenet",der Grundsatz,der Satz,"the sentence, the clause"
+57,1,,"the theorem, the proposition",der Lehrsatz,der Satz,"the sentence, the clause"
+58,1,,"the postscript, the afterthought",der Nachsatz,der Satz,"the sentence, the clause"
+59,1,,"the intention, the premiditation",der Vorsatz,der Satz,"the sentence, the clause"
+60,1,,"the turnover, the sales",der Umsatz,der Satz,"the sentence, the clause"
+61,1,,"the addition, the supplement",der Satz,der Satz,"the sentence, the clause"
+62,1,,"the statement, the testimony",die Aussage,die Sage,"the sage, the tale, the legend"
+63,1,,"the promise, the commitment",die Zusage,die Sage,"the sage, the tale, the legend"
+64,1,,"the cancellation, the refusal",die Absage,die Sage,"the sage, the tale, the legend"
+65,1,,"the decrease, the reduction",die Abnahme,die Nahme,the act of taking
+66,1,,"the assumption, the hypothesis",die Annahme,die Nahme,the act of taking
+67,1,,"the reception, the recoding, the admission",die Aufnahme,die Nahme,the act of taking
+68,1,,the exception,die Ausnahme,die Nahme,the act of taking
+69,1,,"the receipt, the revenue",die Einnahme,die Nahme,the act of taking
+70,1,,"the removal, the withdrawal",die Entnahme,die Nahme,the act of taking
+71,1,,"the acceptance, the takeover, the acquisition",die Übernahme,die Nahme,the act of taking
+72,1,,the increase,die Zunahme,die Nahme,the act of taking
+73,2,A1,the work,die Arbeit,arbeiten,to work
+74,2,A1,the thought,der Gedanke,denken,to think
+75,2,A1,the monument,das Denkmal,denken,to think
+76,2,A1,"the meal, the food",das Essen,essen,to eat
+77,2,A1,the walk,der Gang,gehen,to go
+78,2,A1,the belief,der Glaube,glauben,to believe
+79,2,A1,the knowledge,die Kenntnis,kennen,to know (a person)
+80,2,A1,the acquaintance,die Bekannte,kennen,to know (a person)
+81,2,A1,the life,das Leben,leben,to live
+82,2,A1,the love,die Liebe,lieben,to love
+83,2,A1,the power,die Macht,machen,"to make, to do"
+84,2,A1,the speech,die Rede,reden,to talk
+85,2,A1,the sight,die Sicht,sehen,to see
+86,2,A1,"the being, the existence",das Sein,sein,to be
+87,2,A1,"the languge, the speech",die Sprache,sprechen,to speak
+88,2,A1,the conversation,das Gespräch,sprechen,to speak
+89,2,A1,"the action, the act",die Tat,tun,to do
+90,2,A1,the understanding,das Verständnis,verstehen,to understand
+91,2,A1,the mind,der Verstand,verstehen,to understand
+92,2,A1,the wait,das Warten,warten,to wait
+93,2,A1,the knowledge,das Wissen,wissen,to know
+94,2,A1,the science,die Wissenschaft,wissen,to know
+95,2,A1,the scientist,der Wissenschaftler,wissen,to know
+96,2,A1,the will,der Wille,wollen,to want
+97,2,A1,the meaning,die Bedeutung,bedeuten,to mean
+98,2,A1,the spelling,das Buchstabieren,buchstabieren,to spell
+99,2,A1,the memory,die Erinnerung,erinnern,to remember
+100,2,A1,the explanation,die Erklärung,erklären,to explain
+101,2,A1,the narration,die Erzählung,erzählen,to tell
+102,2,A1,the drive,die Fahrt,fahren,to drive
+103,2,A1,the question,die Frage,fragen,to ask
+104,2,A1,the feeling,das Gefühl,fühlen,to feel
+105,2,A1,the leadership,die Führung,führen,to lead
+106,2,A1,the functionality,die Funktion,funktionieren,to function
+107,2,A1,the hope,die Hoffnung,hoffen,to hope
+108,2,A1,the interest,das Interesse,interessieren,to be interested
+109,2,A1,the purchase,der Kauf,kaufen,to buy
+110,2,A1,the cost,der Preis,kosten,to cost
+111,2,A1,the run,der Lauf,laufen,to run
+112,2,A1,the rain,der Regen,regnen,to rain
+113,2,A1,the sleep,der Schlaf,schlafen,to sleep
+114,2,A1,the snow,der Schnee,schneien,to snow
+115,2,A1,the game,das Spiel,spielen,to play
+116,2,A1,the search,die Suche,suchen,to search
+117,2,A1,the meeting,das Treffen,treffen,to meet
+118,2,A1,the drink,das Getränk,trinken,to drink
+119,2,A1,the translation,die Übersetzung,übersetzen,to translate
+120,2,A1,the attempt,der Versuch,versuchen,to try
+121,2,A1,the repetition,die Wiederholung,wiederholen,to repeat
+122,2,A1,the residence,der Wohnsitz,wohnen,to live
+123,2,A1,the apartment,die Wohnung,wohnen,to live
+124,2,A1,the payment,die Zahlung,zahlen,to pay
+125,2,A1,the drawing,die Zeichnung,zeichnen,to draw
+126,2,A1,the train,der Zug,ziehen,to pull
+127,3,A2,the change,die Änderung,ändern,to change
+128,3,A2,the beginning,der Anfang,anfangen,to begin
+129,3,A2,the call,der Anruf,anrufen,to call (on phone)
+130,3,A2,the view,die Ansicht,ansehen,to look at
+131,3,A2,the appearance,das Aussehen,aussehen,to look like (appearance)
+132,3,A2,the view,die Aussicht,aussehen,to look like
+133,3,A2,the appearance,das Aussehen,aussehen,to look like
+134,3,A2,the beginning,der Beginn,beginnen,to begin
+135,3,A2,the use,die Benutzung,benutzen,to use
+136,3,A2,the determination,die Bestimmung,bestimmen,to determine
+137,3,A2,the visit,der Besuch,besuchen,to visit
+138,3,A2,the payment,die Bezahlung,bezahlen,to pay
+139,3,A2,the invitation,die Einladung,einladen,to invite
+140,3,A2,the television,das Fernsehen,fernsehen,to watch TV
+141,3,A2,"the result, the consequence",die Folge,folgen,to follow
+142,3,A2,the joy,die Freude,freuen,to be happy
+143,3,A2,the pleasure,das Gefallen,gefallen,to please
+144,3,A2,"the belonging, the affiliation",die Zugehörigkeit,gehören,to belong
+145,3,A2,the victory,der Gewinn,gewinnen,to win
+146,3,A2,the retrieval,das Holen,holen,to fetch
+147,3,A2,the laughter,das Lachen,lachen,to laugh
+148,3,A2,the placement,das Legen,legen,to lay
+149,3,A2,the position,die Lage,liegen,to lie (down)
+150,3,A2,the opening,die Öffnung,öffnen,to open
+151,3,A2,the attempt,die Probe,probieren,to try
+152,3,A2,the show,der Schau,schauen,to show
+153,3,A2,the appearance,der Schein,scheinen,to seem
+154,3,A2,the closure,die Schließung,schliessen,to close
+155,3,A2,the castle,der Schloss,schliessen,to close
+156,3,A2,the key,der Schlüssel,schliessen,to close
+157,3,A2,the seat,der Sitz,sitzen,to sit
+158,3,A2,"the spot, the position (work)",die Stelle,stellen,to place
+159,3,A2,"the placement, the position",die Stellung,stellen,to place
+160,3,A2,the dream,der Traum,träumen,to dream
+161,3,A2,the sale,der Verkauf,verkaufen,to sell
+162,3,A2,the loss,der Verlust,verlieren,to lose
+163,3,A2,the wish,der Wunsch,wünschen,to wish
+164,3,A2,the arrival,die Ankunft,ankommen,to arrive
+165,3,A2,the registration,die Anmeldung,anmelden,to register
+166,3,A2,the answer,die Antwort,antworten,to answer
+167,3,A2,the construction,der Bau,bauen,to build
+168,3,A2,the building,das Gebäude,bauen,to build
+169,3,A2,the movement,die Bewegung,bewegen,to move
+170,3,A2,the break,der Bruch,brechen,to break
+171,3,A2,the duration,die Dauer,dauern,to last
+172,3,A2,the decision,die Entscheidung,entscheiden,to decide
+173,3,A2,the recognition,die Erkenntnis,erkennen,to recognize
+174,3,A2,the absence,das Fehlen,fehlen,to lack
+175,3,A2,"the mistake, the fault",der Fehler,fehlen,to miss
+176,3,A2,the celebration,die Feier,feiern,to celebrate
+177,3,A2,the suspension,das Hängen,hängen,to hang
+178,3,A2,the help,die Hilfe,helfen,to help
+179,3,A2,the fight,der Kampf,kämpfen,to fight
+180,3,A2,the permission,das Lassen,lassen,to let
+181,3,A2,the report,die Meldung,melden,to report
+182,3,A2,"the rent, the rental",die Miete,mieten,to rent
+183,3,A2,the smoke,der Rauch,rauchen,to smoke
+184,3,A2,the journey,die Reise,reisen,to travel
+185,3,A2,"the care, the concern",die Sorge,sorgen,to care
+186,3,A2,the theft,der Diebstahl,stehlen,to steal
+187,3,A2,the division,die Teilung,teilen,to share
+188,3,A2,the surprise,die Überraschung,überraschen,to surprise
+189,3,A2,the signature,die Unterschrift,unterschreiben,to sign
+190,3,A2,the marriage,die Verheiratung,verheiraten,to be married
+191,3,A2,the promise,das Versprechen,versprechen,to promise
+192,3,A2,the trust,das Vertrauen,vertrauen,to trust
+193,3,A2,the introduction,die Vorstellung,vorstellen,to introduce
+194,3,A2,the choice,die Wahl,wählen,to choose
+195,3,A2,the throw,der Wurf,werfen,to throw
+196,3,A2,the number,die Zahl,zählen,to count
+197,3,A2,the agreement,die Zustimmung,zustimmen,to agree
+198,4,B1,the submission,die Abgabe,abgeben,to hand over
+199,4,B1,the respect,die Achtung,achten,to respect
+200,4,B1,the acceptance,die Annahme,annehmen,to accept
+201,4,B1,the position,das Befinden,befinden,to be located
+202,4,B1,the possession,der Besitz,besitzen,to own
+203,4,B1,the offer,das Angebot,bieten,to offer
+204,4,B1,the request,die Bitte,bitten,to ask (for)
+205,4,B1,the service,der Dienst,dienen,to serve
+206,4,B1,the turn,die Drehung,drehen,to turn
+207,4,B1,the pressure,der Druck,drücken,to press
+208,4,B1,the end,das Ende,enden,to end
+209,4,B1,the content,der Inhalt,enthalten,to contain
+210,4,B1,the expectation,die Erwartung,erwarten,to expect
+211,4,B1,the fall,der Fall,fallen,to fall
+212,4,B1,the catch,der Fang,fangen,to catch
+213,4,B1,the guess,der Rat,raten,to guess
+214,4,B1,the estimation,die Schätzung,schätzen,to estimate
+215,4,B1,the gift,das Geschenk,schenken,to give (a gift)
+216,4,B1,the protection,der Schutz,schützen,to protect
+217,4,B1,the jump,der Sprung,springen,to jump
+218,4,B1,the disturbance,die Störung,stören,to disturb
+219,4,B1,the death,der Tod,töten,to kill
+220,4,B1,"the take over, the assumption",die Übernahme,übernehmen,"to take over, to assume"
+221,4,B1,the modification,die Veränderung,verändern,to alter
+222,4,B1,the prohibition,das Verbot,verbieten,to forbid
+223,4,B1,the comparison,der Vergleich,vergleichen,to compare
+224,4,B1,the injury,die Verletzung,verletzen,to injure
+225,4,B1,the miss,das Verpassen,verpassen,to miss (an event)
+226,4,B1,the disappearance,das Verschwinden,verschwinden,to disappear
+227,4,B1,the growth,das Wachstum,wachsen,to grow
+228,4,B1,the cry,das Weinen,weinen,to cry
+229,4,B1,the destruction,die Zerstörung,zerstören,to destroy
+230,4,B1,the pickup,die Abholung,abholen,to pick up
+231,4,B1,the cancellation,die Absage,absagen,to cancel
+232,4,B1,the annoyance,der Ärger,ärgern,to annoy
+233,4,B1,the representation,die Darstellung,darstellen,to represent
+234,4,B1,the removal,die Entfernung,entfernen,to remove
+235,4,B1,"the preservation, the receipt",der Erhalt,erhalten,"to receive, to preserve"
+236,4,B1,the permission,die Erlaubnis,erlauben,to allow
+237,4,B1,the adulthood,das Erwachsenenalter,erwachsen,to grow up
+238,4,B1,the adult,der Erwachsene,erwachsen,to grow up
+239,4,B1,the grip,der Griff,greifen,to grab
+240,4,B1,the hatred,der Hass,hassen,to hate
+241,4,B1,the resignation,die Kündigung,kündigen,to resign
+242,4,B1,the kiss,der Kuss,küssen,to kiss
+243,4,B1,the collection,die Sammlung,sammeln,to collect
+244,4,B1,the push,der Schub,schieben,to push
+245,4,B1,the separation,die Trennung,trennen,to separate
+246,4,B1,the move,der Umzug,umziehen,to move
+247,4,B1,the disguise,die Verkleidung,verkleiden,to disguise
+248,4,B1,the change,der Wechsel,wechseln,to change
+249,4,B1,the effect,die Wirkung,wirken,to have an effect
+250,4,B1,the comeback,das Zurückkommen,zurückkommen,to come back
+251,4,B1,the rest,die Ruhe,ausruhen,to rest
+252,4,B1,the description,die Beschreibung,beschreiben,to describe
+253,4,B1,the visit,die Besichtigung,besichtigen,to visit (sightseeing)
+254,4,B1,the prayer,das Gebet,beten,to pray
+255,4,B1,the discovery,die Entdeckung,entdecken,to discover
+256,4,B1,the relaxation,die Entspannung,entspannen,to relax
+257,4,B1,the disappointment,die Enttäuschung,enttäuschen,to disappoint
+258,4,B1,the experience,die Erfahrung,erfahren,to experience
+259,4,B1,the recovery,die Erholung,erholen,to recover
+260,4,B1,the exploration,die Erkundung,erkunden,to explore
+261,4,B1,the experience,das Erlebnis,erleben,to experience
+262,4,B1,the idleness,das Faulenzen,faulenzen,to laze around
+263,4,B1,the flight,der Flug,fliegen,to fly
+264,4,B1,the enjoyment,der Genuss,geniessen,to enjoy
+265,4,B1,the hunt,die Jagd,jagen,to hunt
+266,4,B1,the painting,das Malen,malen,to paint
+267,4,B1,the plan,der Plan,planen,to plan
+268,5,B1,the race,das Rennen,rennen,to run
+269,5,B1,the walk,der Spaziergang,spazieren,to stroll
+270,5,B1,the dance,der Tanz,tanzen,to dance
+271,5,B1,the training,das Training,trainieren,to train
+272,5,B1,the exercise,der Sport,treiben,to engage in (sports)
+273,5,B1,the connection,die Verbindung,verbinden,to connect
+274,5,B1,the plan,der Plan,vorhaben,to plan
+275,5,B1,the hike,die Wanderung,wandern,to hike
+276,5,B1,the preparation,die Bereitung,bereiten,to prepare
+277,5,B1,the order,die Bestellung,bestellen,to order
+278,5,B1,the intoxication,die Betrunkenheit,betrinken,to get drunk
+279,5,B1,the preference,die Bevorzugung,bevorzugen,to prefer
+280,5,B1,the booking,die Buchung,buchen,to book
+281,5,B1,the reception,der Empfang,empfangen,to receive
+282,5,B1,the recommendation,die Empfehlung,empfehlen,to recommend
+283,5,B1,the nutrition,die Ernährung,ernähren,to nourish
+284,5,B1,the indulgence,die Gönnung,gönnen,to indulge
+285,5,B1,the barbecue,der Grill,grillen,to grill
+286,5,B1,the delivery,die Lieferung,liefern,to deliver
+287,5,B1,the mixture,die Mischung,mischen,to mix
+288,5,B1,the cut,der Schnitt,schneiden,to cut
+289,5,B1,the service,das Servieren,servieren,to serve
+290,5,B1,the savings,die Ersparnisse,sparen,to save
+291,5,B1,the completion,der Abschluss,abschliessen,to complete
+292,5,B1,the completion,die Absolvierung,absolvieren,to complete (education)
+293,5,B1,the training,die Ausbildung,ausbilden,to train
+294,5,B1,the existence,das Bestehen,bestehen,to exist
+295,5,B1,the proof,der Beweis,beweisen,to prove
+296,5,B1,the formation,die Bildung,bilden,to form
+297,5,B1,the memorization,die Einprägung,einprägen,to memorize
+298,5,B1,the invention,die Erfindung,erfinden,to invent
+299,5,B1,the achievement,die Erzielung,erzielen,to achieve
+300,5,B1,the research,die Forschung,forschen,to research
+301,5,B1,the discovery,die Herausfindung,herausfinden,to find out
+302,5,B1,the control,die Kontrolle,kontrollieren,to control
+303,5,B1,the concentration,die Konzentration,konzentrieren,to concentrate
+304,5,B1,the praise,das Lob,loben,to praise
+305,5,B1,the solution,die Lösung,lösen,to solve
+306,5,B1,the calculation,das Rechnen,rechnen,to calculate
+307,5,B1,the bill,die Rechnung,rechnen,to calculate
+308,5,B1,the study,das Studium,studieren,to study
+309,5,B1,the test,der Test,testen,to test
+310,5,B1,the practice,die Übung,üben,to practice
+311,5,B1,the lesson,der Unterricht,unterrichten,to teach
+312,5,B1,the support,die Unterstützung,unterstützen,to support
+313,5,B1,the publication,die Veröffentlichung,veröffentlichen,to publish
+314,5,B1,the preparation,die Vorbereitung,vorbereiten,to prepare
+315,5,B1,the aim,das Ziel,zielen,to aim
+316,5,B1,the touch,das Anfassen,anfassen,to touch
+317,5,B1,the breath,der Atem,atmen,to breath
+318,5,B1,the observation,die Beobachtung,beobachten,to observe
+319,5,B1,"the look, the glance, the gaze",der Blick,blicken,"to glance, to gaze"
+320,5,B1,the fragrance,der Duft,duften,to emit a scent
+321,5,B1,the sensation,die Empfindung,empfinden,to feel
+322,5,B1,the fear,die Furcht,fürchten,to fear
+323,5,B1,the sound,der Klang,klingen,to sound
+324,5,B1,the smile,das Lächeln,lächeln,to smile
+325,5,B1,the sound,der Laut,lauten,to sound
+326,5,B1,the annoyance,die Nervosität,nerven,to annoy
+327,5,B1,the smell,der Geruch,riechen,to smell
+328,5,B1,the taste,der Geschmack,schmecken,to taste
+329,5,B1,the sensation,das Gespür,spüren,to sense
+330,5,B1,the reunion,das Wiedersehen,wiedersehen,to see again
+331,6,B2,the distraction,die Ablenkung,ablenken,to distract
+332,6,B2,the weight loss,die Abnahme,abnehmen,to lose weight
+333,6,B2,the recording,die Aufnahme,aufnehmen,to record
+334,6,B2,the selection,die Auswahl,auswählen,to select
+335,6,B2,the evaluation,die Bewertung,bewerten,to evaluate
+336,6,B2,the coverage,die Deckung,decken,to cover
+337,6,B2,the correspondence,die Entsprechung,entsprechen,to correspond
+338,6,B2,the emergence,die Entstehung,entstehen,"to arise, to emerge"
+339,6,B2,the development,die Entwicklung,entwickeln,to develop
+340,6,B2,the withdrawal,der Entzug,entziehen,to withdraw
+341,6,B2,the fulfillment,die Erfüllung,erfüllen,to fulfill
+342,6,B2,the supplement,die Ergänzung,ergänzen,to supplement
+343,6,B2,the replacement,der Ersatz,ersetzen,to replace
+344,6,B2,the birth,die Geburt,gebären,to give birth
+345,6,B2,the validity,die Gültigkeit,gelten,to be valid
+346,6,B2,the incident,das Geraten,geraten,to get into
+347,6,B2,the habituation,die Gewöhnung,gewöhnen,"to accustom, to get used to"
+348,6,B2,the habit,die Gewohnheit,gewöhnen,"to accustom, to get used to"
+349,6,B2,the emphasis,die Hervorhebung,hervorheben,to emphasize
+350,6,B2,the hindrance,das Hindernis,hindern,to hinder
+351,6,B2,"the suffering, the grief",das Leiden,leiden,to suffer
+352,6,B2,the relief,die Linderung,lindern,to relieve
+353,6,B2,the reward,die Belohnung,lohnen,to be worthwhile
+354,6,B2,the avoidance,die Meidung,meiden,to avoid
+355,6,B2,the measurement,die Messung,messen,to measure
+356,6,B2,the participation,das Mitmachen,mitmachen,to take part
+357,6,B2,the use,die Nutzung,nutzen,to use
+358,6,B2,the direction,die Richtung,richten,to direct
+359,6,B2,the divorce,die Scheidung,scheiden,to divorce
+360,6,B2,the hit,der Schlag,schlagen,to hit
+361,6,B2,the pain,der Schmerz,schmerzen,to hurt
+362,6,B2,the decline,das Sinken,sinken,to sink
+363,6,B2,the push,der Stoß,stossen,to push
+364,6,B2,the step,der Tritt,treten,to step
+365,6,B2,the avoidance,die Vermeidung,vermeiden,to avoid
+366,6,B2,the cause,die Ursache,verursachen,to cause
+367,6,B2,the renunciation,der Verzicht,verzichten,to renounce
+368,6,B2,the pretense,die Vorgabe,vorgeben,to pretend
+369,6,B2,the awakening,das Wecken,wecken,to wake up (someone)
+370,6,B2,the bet,die Wette,wetten,to bet
+371,6,B2,"the weight gain, the increase",die Zunahme,zunehmen,to gain weight
+372,6,B2,the announcement,die Ankündigung,ankündigen,to announce
+373,6,B2,the expression,die Äußerung,äussern,to express
+374,6,B2,the pronunciation,die Aussprache,aussprechen,to pronounce
+375,6,B2,the justification,die Begründung,begründen,to justify
+376,6,B2,the complaint,die Beschwerde,beschweren,to complain
+377,6,B2,the confirmation,die Bestätigung,bestätigen,to confirm
+378,6,B2,the admiration,die Bewunderung,bewundern,to admire
+379,6,B2,the discussion,die Diskussion,diskutieren,to discuss
+380,6,B2,the informal address,das Duzen,duzen,to address informally
+381,6,B2,the apology,die Entschuldigung,entschuldigen,to apologize
+382,6,B2,the mention,die Erwähnung,erwähnen,to mention
+383,6,B2,the formulation,die Formulierung,formulieren,to formulate
+384,6,B2,the guarantee,die Garantie,garantieren,to guarantee
+385,6,B2,the information,die Information,informieren,to inform
+386,6,B2,the clarification,die Klärung,klären,to clarify
+387,6,B2,the criticism,die Kritik,kritisieren,to criticize
+388,6,B2,the lie,die Lüge,lügen,to lie
+389,6,B2,the opinion,die Meinung,meinen,to mean
+390,6,B2,the reflection,das Nachdenken,nachdenken,to reflect
+391,7,B2,the reaction,die Reaktion,reagieren,to react
+392,7,B2,the call,der Ruf,rufen,to call
+393,7,B2,the scream,der Schrei,schreien,to scream
+394,7,B2,the formal address,das Siezen,siezen,to address formally
+395,7,B2,the consideration,die Überlegung,überlegen,to consider
+396,7,B2,the conviction,die Überzeugung,überzeugen,to convince
+397,7,B2,the interruption,die Unterbrechung,unterbrechen,to interrupt
+398,7,B2,the assumption,die Vermutung,vermuten,to suspect
+399,7,B2,the suggestion,der Vorschlag,vorschlagen,to suggest
+400,7,B2,the warning,die Warnung,warnen,to warn
+401,7,B2,the hesitation,das Zögern,zögern,to hesitate
+402,7,B2,the admission,die Zugabe,zugeben,to admit
+403,7,B2,the acceptance,die Zusage,zusagen,to accept
+404,7,B2,the doubt,der Zweifel,zweifeln,to doubt
+405,7,B2,the recognition,die Anerkennung,anerkennen,to recognize
+406,7,B2,the application,die Anwendung,anwenden,to apply
+407,7,B2,the evaluation,die Auswertung,auswerten,to evaluate
+408,7,B2,the impact,die Auswirkung,auswirken,to affect
+409,7,B2,"the edit, the editing",die Bearbeitung,bearbeiten,to edit
+410,7,B2,the treatment,die Behandlung,behandeln,to treat
+411,7,B2,the contribution,der Beitrag,beitragen,to contribute
+412,7,B2,the need,die Benötigung,benötigen,to need
+413,7,B2,the advice,die Beratung,beraten,to advise
+414,7,B2,the discussion,die Besprechung,besprechen,to discuss
+415,7,B2,the participation,die Beteiligung,beteiligen,to participate
+416,7,B2,the part,der Teil,beteiligen,to take part
+417,7,B2,the application,die Bewerbung,bewerben,to apply (for a job)
+418,7,B2,the printer,der Drucker,drucken,to print
+419,7,B2,the inclusion,die Einbeziehung,einbeziehen,to include
+420,7,B2,the introduction,die Einführung,einführen,to introduce
+421,7,B2,the setup,die Einrichtung,einrichten,to furnish
+422,7,B2,the adjustment,die Einstellung,einstellen,to adjust
+423,7,B2,the dismissal,die Entlassung,entlassen,to dismiss
+424,7,B2,the decision,der Entschluss,entschliessen,to decide
+425,7,B2,the design,der Entwurf,entwerfen,to design
+426,7,B2,the result,das Ergebnis,ergeben,to result
+427,7,B2,the completion,die Erledigung,erledigen,to accomplish
+428,7,B2,the creation,die Erstellung,erstellen,to create
+429,7,B2,the generation,die Erzeugung,erzeugen,to generate
+430,7,B2,the event,das Geschehen,geschehen,to happen
+431,7,B2,the foundation,die Gründung,gründen,to found
+432,7,B2,"the ground, the land, the reason",der Grund,gründen,"to found, to establish"
+433,7,B2,the action,die Handlung,handeln,to act
+434,7,B2,the download,der Download,herunterladen,to download
+435,7,B2,the indication,der Hinweis,hinweisen,to indicate
+436,7,B2,the installation,die Installation,installieren,to install
+437,7,B2,the performance,die Leistung,leisten,to accomplish
+438,7,B2,the leadership,die Leitung,leiten,to lead
+439,7,B2,the care,die Pflege,pflegen,to care for
+440,7,B2,the presentation,die Präsentation,präsentieren,to present
+441,7,B2,the production,die Produktion,produzieren,to produce
+442,7,B2,the examination,die Prüfung,prüfen,to examine
+443,7,B2,the cleaning,die Reinigung,reinigen,to clean
+444,7,B2,the repair,die Reparatur,reparieren,to repair
+445,7,B2,the achievement,die Schaffung,schaffen,to accomplish
+446,7,B2,the switch,der Schalter,schalten,to switch
+447,7,B2,the participation,die Teilnahme,teilnehmen,to participate
+448,7,B2,the verification,die Überprüfung,überprüfen,to check
+449,7,B2,the enterprise,das Unternehmen,unternehmen,to undertake
+450,7,B2,the investigation,die Untersuchung,untersuchen,to investigate
+451,8,B2,the signature,die Unterzeichnung,unterzeichnen,to sign
+452,8,B2,the processing,die Verarbeitung,verarbeiten,to process
+453,8,B2,the agreement,die Vereinbarung,vereinbaren,to arrange
+454,8,B2,the availability,die Verfügung,verfügen,to have at one's disposal
+455,8,B2,the postponement,die Verschiebung,verschieben,to postpone
+456,8,B2,the supply,die Versorgung,versorgen,to supply
+457,8,B2,the representation,die Vertretung,vertreten,to represent
+458,8,B2,the administration,die Verwaltung,verwalten,to manage
+459,8,B2,the usage,die Verwendung,verwenden,to use
+460,8,B2,the impression,der Eindruck,beeindrucken,to impress
+461,8,B2,the influence,der Einfluss,beeinflussen,to influence
+462,8,B2,the behavior,das Benehmen,benehmen,to behave
+463,8,B2,the report,der Bericht,berichten,to report
+464,8,B2,the judgment,die Beurteilung,beurteilen,to judge
+465,8,B2,the success,das Erfolg,erfolgen,to occur
+466,8,B2,the promotion,die Förderung,fördern,to promote
+467,8,B2,the accompaniment,das Mitkommen,mitkommen,to come along
+468,8,B2,the nod,das Nicken,nicken,to nod
+469,8,B2,the regulation,die Regelung,regeln,to regulate
+470,8,B2,the rule,die Regel,regeln,to regulate
+471,8,B2,the sufficiency,die Reichweite,reichen,to be enough
+472,8,B2,the survival,das Überleben,überleben,to survive
+473,8,B2,the condemnation,die Verurteilung,verurteilen,to condemn
+474,8,B2,the advertising,die Werbung,werben,to advertise
+475,8,B2,the permission,die Zulassung,zulassen,to allow
+476,8,B2,the withdrawal,die Abhebung,abheben,to withdraw
+477,8,B2,the financing,die Finanzierung,finanzieren,to finance
+478,8,B2,the investment,die Investition,investieren,to invest
+479,8,B2,the loan,die Leihe,leihen,to lend
+480,8,B2,the exchange,der Tausch,tauschen,to exchange
+481,8,B2,the transfer,die Überweisung,überweisen,to transfer (money)
+482,8,B2,the exchange,der Umtausch,umtauschen,to exchange
+483,8,B2,the increase,die Erhöhung,erhöhen,to increase
+484,8,B2,the enablement,die Ermöglichung,ermöglichen,to enable
+485,8,B2,the expansion,die Erweiterung,erweitern,to expand
+486,8,B2,the security,die Sicherung,sichern,to secure
+487,8,B2,the security,die Sicherheit,sichern,to secure
+488,8,B2,the strengthening,die Stärkung,stärken,to strengthen
+489,8,B2,the strength,die Stärke,stärken,to strengthen
+490,8,B2,the improvement,die Verbesserung,verbessern,to improve
+491,8,B2,the answer,die Beantwortung,beantworten,to answer
+492,8,B2,the assignment,der Auftrag,beauftragen,to assign
+493,8,B2,the thanks,das Bedanken,bedanken,to thank
+494,8,B2,the hurry,die Eile,beeilen,to hurry
+495,8,B2,the completion,die Beendigung,beenden,to finish
+496,8,B2,the liberation,die Befreiung,befreien,to free
+497,8,B2,the friendship,die Freundschaft,befreunden,to befriend
+498,8,B2,the congratulation,die Beglückwünschung,beglückwünschen,to congratulate
+499,8,B2,the greeting,die Begrüßung,begrüssen,to greet
+500,8,B2,the obstruction,die Behinderung,behindern,to obstruct
+501,8,B2,the realization,die Bemerkung,bemerken,to realize
+502,8,B2,the effort,die Bemühung,bemühen,to strive
+503,8,B2,the computation,die Berechnung,berechnen,to compute
+504,8,B2,the calm,die Ruhe,beruhigen,to calm
+505,8,B2,the damage,die Beschädigung,beschädigen,to damage
+506,8,B2,the occupation,die Beschäftigung,beschäftigen,to occupy
+507,8,B2,the decision,der Beschluss,beschliessen,to decide
+508,8,B2,the limitation,die Beschränkung,beschränken,to limit
+509,8,B2,the protection,der Schutz,beschützen,to protect
+510,9,C1,the rejection,die Ablehnung,ablehnen,to reject
+511,9,C1,the acceptance,die Akzeptanz,akzeptieren,to accept
+512,9,C1,the offer,das Angebot,anbieten,to offer
+513,9,C1,the statement,die Angabe,angeben,to state
+514,9,C1,the approach,das Angehen,angehen,to tackle
+515,9,C1,the occurrence,das Auftreten,auftreten,to occur
+516,9,C1,the failure,der Ausfall,ausfallen,to fail
+517,9,C1,the promotion,die Beförderung,befördern,to promote
+518,9,C1,the accompaniment,die Begleitung,begleiten,to accompany
+519,9,C1,the assertion,die Behauptung,behaupten,to claim
+520,9,C1,the concern,die Betroffenheit,betreffen,to affect
+521,9,C1,the definition,die Definition,definieren,to define
+522,9,C1,the engagement,das Eingehen,eingehen,to deal with
+523,9,C1,the commitment,das Engagement,engagieren,to commit (oneself)
+524,9,C1,the investigation,die Ermittlung,ermitteln,to investigate
+525,9,C1,the achievement,die Erreichung,erreichen,to reach
+526,9,C1,the appearance,das Erscheinen,erscheinen,to appear
+527,9,C1,the grasp,das Fassen,fassen,to grasp
+528,9,C1,the determination,die Feststellung,feststellen,to determine
+529,9,C1,the escape,die Flucht,fliehen,to flee
+530,9,C1,the demand,die Forderung,fordern,to demand
+531,9,C1,the rule,die Herrschaft,herrschen,to rule
+532,9,C1,the haste,die Hetze,hetzen,to rush
+533,9,C1,the legacy,das Hinterlassen,hinterlassen,to leave behind
+534,9,C1,the success,das Klappen,klappen,to work out
+535,9,C1,the comment,der Kommentar,kommentieren,to comment
+536,9,C1,the landing,die Landung,landen,to land
+537,9,C1,the impression,die Prägung,prägen,to shape
+538,9,C1,the profit,der Profit,profitieren,to profit
+539,9,C1,the reduction,die Reduzierung,reduzieren,to reduce
+540,9,C1,the rescue,die Rettung,retten,to save
+541,9,C1,the movement,die Rückung,rücken,to move (position)
+542,9,C1,the failure,das Schiefgehen,schiefgehen,to go wrong
+543,9,C1,the shot,der Schuss,schiessen,to shoot
+544,9,C1,the start,der Start,starten,to start
+545,9,C1,the handling,der Umgang,umgehen,to handle
+546,9,C1,the farewell,die Verabschiedung,verabschieden,to say goodbye
+547,9,C1,the inheritance,die Vererbung,vererben,to inherit
+548,9,C1,the forgiveness,die Vergebung,vergeben,to forgive
+549,9,C1,the prevention,die Verhinderung,verhindern,to prevent
+550,9,C1,the course,der Verlauf,verlaufen,to proceed
+551,9,C1,the betrayal,der Verrat,verraten,to betray
+552,9,C1,the concealment,das Verschweigen,verschweigen,to withhold
+553,9,C1,the defense,die Verteidigung,verteidigen,to defend
+554,9,C1,the transformation,die Verwandlung,verwandeln,to transform
+555,9,C1,the turn,die Wendung,wenden,to turn
+556,9,C1,the compulsion,der Zwang,zwingen,to force
+557,9,C1,the intention,das Absicht,absehen,to foresee
+558,9,C1,the attack,der Angriff,angreifen,to attack
+559,9,C1,the investment,die Anlage,anlegen,to invest
+560,9,C1,the adaptation,die Anpassung,anpassen,to adapt
+561,9,C1,"the address, the speech",die Ansprache,ansprechen,to address
+562,9,C1,the competition,das Antreten,antreten,to compete
+563,9,C1,the report,die Anzeige,anzeigen,to report
+564,9,C1,the construction,der Aufbau,aufbauen,to build up
+565,9,C1,the remarkability,die Auffälligkeit,auffallen,to stand out
+566,9,C1,the excitement,die Aufregung,aufregen,to excite
+567,9,C1,the setup,die Aufstellung,aufstellen,to set up
+568,9,C1,the expansion,der Ausbau,ausbauen,to expand
+569,9,C1,the execution,die Ausführung,ausführen,to execute
+570,10,C1,the exclusion,der Ausschluss,ausschliessen,to exclude
+571,10,C1,the equipment,die Ausstattung,ausstatten,to equip
+572,10,C1,"the distinction, the award",die Auszeichnung,auszeichnen,to distinguish
+573,10,C1,the basis,die Basis,basieren,to be based on
+574,10,C1,the application,der Antrag,beantragen,to apply for
+575,10,C1,the service,die Bedienung,bedienen,to serve
+576,10,C1,the encounter,die Begegnung,begegnen,to encounter
+577,10,C1,the commission,die Begehung,begehen,to commit (a crime)
+578,10,C1,the burial,das Begräbnis,begraben,to bury
+579,10,C1,the proof,der Beleg,belegen,to prove
+580,10,C1,the consideration,die Berücksichtigung,berücksichtigen,to consider
+581,10,C1,the victory,der Sieg,besiegen,to defeat
+582,10,C1,the emphasis,die Betonung,betonen,to emphasize
+583,10,C1,the accent,die Betonung,betonen,to emphasize
+584,10,C1,the consideration,die Betrachtung,betrachten,to regard
+585,10,C1,the amount,der Betrag,betragen,to amount to
+586,10,C1,the operation,der Betrieb,betreiben,to operate
+587,10,C1,the supervision,die Betreuung,betreuen,to supervise
+588,10,C1,the fraud,der Betrug,betrügen,to cheat
+589,10,C1,the description,die Bezeichnung,bezeichnen,to describe
+590,10,C1,the receipt,der Bezug,beziehen,to obtain
+591,10,C1,the threat,die Drohung,drohen,to threaten
+592,10,C1,the implementation,die Durchführung,durchführen,to carry out
+593,10,C1,the enforcement,die Durchsetzung,durchsetzen,to enforce
+594,10,C1,the suitability,die Eignung,eignen,to be suitable
+595,10,C1,the escape,das Entkommen,entkommen,to escape
+596,10,C1,the delight,die Freude,erfreuen,to please
+597,10,C1,the levy,die Erhebung,erheben,to raise
+598,10,C1,the explanation,die Erläuterung,erläutern,to explain
+599,10,C1,the murder,der Mord,ermorden,to murder
+600,10,C1,the establishment,die Errichtung,errichten,to establish
+601,10,C1,the fright,der Schreck,erschrecken,to frighten
+602,10,C1,the issuance,die Erteilung,erteilen,to grant
+603,10,C1,the endurance,das Ertragen,ertragen,to endure
+604,10,C1,the proof,der Beweis,erweisen,to prove
+605,10,C1,the acquisition,der Erwerb,erwerben,to acquire
+606,10,C1,the existence,die Existenz,existieren,to exist
+607,10,C1,the determination,die Festlegung,festlegen,to determine
+608,10,C1,"the flow, the river",der Fluss,fliessen,to flow
+609,10,C1,the usage,der Gebrauch,gebrauchen,to use
+610,10,C1,the remembrance,das Gedenken,gedenken,to commemorate
+611,10,C1,the arrival,das Gelangen,gelangen,to reach
+612,10,C1,the sufficiency,die Genüge,genügen,to be sufficient
+613,10,C1,the design,die Gestaltung,gestalten,to shape
+614,10,C1,the guarantee,die Gewährleistung,gewährleisten,to ensure
+615,10,C1,the healing,die Heilung,heilen,to heal
+616,10,C1,the origin,die Herkunft,herkommen,to come from
+617,10,C1,the production,die Herstellung,herstellen,to produce
+618,10,C1,the attendance,das Hingehen,hingehen,to go there
+619,10,C1,the addition,die Hinzufügung,hinzufügen,to add
+620,10,C1,the integration,die Integration,integrieren,to integrate
+621,10,C1,the theft,der Klau,klauen,to steal (slang)
+622,10,C1,the acquisition,das Kriegen,kriegen,to get
+623,10,C1,the deletion,das Löschen,löschen,to delete
+624,10,C1,the removal,das Loswerden,loswerden,to get rid of
+625,10,C1,the notification,die Mitteilung,mitteilen,to inform
+626,10,C1,the modernization,die Modernisierung,modern,to modernize
+627,10,C1,the organization,die Organisation,organisieren,to organize
+628,10,C1,the emergence,das Rauskommen,rauskommen,to come out
+629,10,C1,the registration,die Registrierung,registrieren,to register
+630,11,C1,the risk,das Risiko,riskieren,to risk
+631,11,C1,the renovation,die Sanierung,sanieren,to renovate
+632,11,C1,the harm,der Schaden,schaden,to harm
+633,11,C1,the failure,das Scheitern,scheitern,to fail
+634,11,C1,the snatch,das Schnappen,schnappen,to grab
+635,11,C1,the stride,das Schreiten,schreiten,to stride
+636,11,C1,the oath,der Schwur,schwören,to swear
+637,11,C1,the separation,die Sonderung,sondern,to separate
+638,11,C1,the split,die Spaltung,spalten,to split
+639,11,C1,the storage,das Speichern,speichern,to save (data)
+640,11,C1,the increase,die Steigerung,steigern,to increase
+641,11,C1,the control,die Steuerung,steuern,to control
+642,11,C1,the argument,der Streit,streiten,to argue
+643,11,C1,the support,die Stütze,stützen,to support
+644,11,C1,the telephone call,das Telefonat,telefonieren,to make a call
+645,11,C1,the handover,die Übergabe,übergeben,to hand over
+646,11,C1,the transmission,die Übertragung,übertragen,to transmit
+647,11,C1,the turn,die Umdrehung,umdrehen,to turn around
+648,11,C1,the scope,die Umfassung,umfassen,to encompass
+649,11,C1,the implementation,die Umsetzung,umsetzen,to implement
+650,11,C1,the entertainment,die Unterhaltung,unterhalten,to entertain
+651,11,C1,the subjugation,das Unterliegen,unterliegen,to be subject to
+652,11,C1,the differentiation,die Unterscheidung,unterscheiden,to differentiate
+653,11,C1,the event,die Veranstaltung,veranstalten,to organize (event)
+654,11,C1,the distribution,die Verbreitung,verbreiten,to spread
+655,11,C1,the condemnation,die Verdammung,verdammen,to condemn
+656,11,C1,the composition,die Verfassung,verfassen,to compose
+657,11,C1,the pursuit,die Verfolgung,verfolgen,to pursue
+658,11,C1,the arrest,die Verhaftung,verhaften,to arrest
+659,11,C1,the award,die Verleihung,verleihen,to award
+660,11,C1,the mediation,die Vermittlung,vermitteln,to mediate
+661,11,C1,the destruction,die Vernichtung,vernichten,to destroy
+662,11,C1,the obligation,die Verpflichtung,verpflichten,to obligate
+663,11,C1,the distribution,die Verteilung,verteilen,to distribute
+664,11,C1,the reference,der Verweis,verweisen,to refer
+665,11,C1,the existence,das Vorliegen,vorliegen,to exist
+666,11,C1,the provision,die Vorsicht,vorsehen,to plan
+667,11,C1,the risk,die Wagnis,wagen,to dare
+668,11,C1,the resistance,die Wehr,wehren,to resist
+669,11,C1,the indication,der Hinweis,weisen,to point
+670,11,C1,the dedication,die Widmung,widmen,to dedicate
+671,11,C1,the quotation,das Zitat,zitieren,to quote
+672,11,C1,the return,die Rückkehr,zurückkehren,to return
+673,11,C1,the withdrawal,der Rückzug,zurückziehen,to withdraw
+674,11,C1,the observation,das Zusehen,zusehen,to watch
+675,11,C1,the retrieval,der Abruf,abrufen,to retrieve
+676,11,C1,the activation,die Aktivierung,aktivieren,to activate
+677,11,C1,the update,die Aktualisierung,aktualisieren,to update
+678,11,C1,the age,das Alter,altern,to age
+679,11,C1,the inquiry,die Anfrage,anfragen,to inquire
+680,11,C1,the increase,der Anstieg,ansteigen,to increase
+681,11,C1,the employment,die Anstellung,anstellen,to hire
+682,11,C1,the instruction,die Anweisung,anweisen,to instruct
+683,11,C1,the task,die Aufgabe,aufgeben,to give up
+684,11,C1,the attention,die Aufmerksamkeit,aufmerken,to pay attention
+685,11,C1,the emergence,das Auftauchen,auftauchen,to emerge
+686,11,C1,the characteristic,die Aufweisung,aufweisen,to exhibit
+687,11,C1,the expression,der Ausdruck,ausdrücken,to express
+688,11,C1,the alignment,die Ausrichtung,ausrichten,to align
+689,11,C1,the statement,die Aussage,aussagen,"to testify, to state"
+690,12,C1,the suspension,die Aussetzung,aussetzen,to suspend
+691,12,C1,the exit,der Ausstieg,aussteigen,to get off (transport)
+692,12,C1,the selection,die Auswahl,aussuchen,to pick out
+693,12,C1,the exchange,der Austausch,austauschen,to exchange
+694,12,C1,the consideration,das Bedenken,bedenken,to consider
+695,12,C1,the threat,die Bedrohung,bedrohen,to threaten
+696,12,C1,the command,der Befehl,befehligen,to command
+697,12,C1,the enthusiasm,die Begeisterung,begeistern,to inspire
+698,12,C1,the fight,die Bekämpfung,bekämpfen,to combat
+699,12,C1,the insult,die Beleidigung,beleidigen,to insult
+700,12,C1,the regret,die Reue,bereuen,to regret
+701,12,C1,the touch,die Berührung,berühren,to touch
+702,12,C1,the punishment,die Bestrafung,bestrafen,to punish
+703,12,C1,the guard,der Wächten,bewachen,to guard
+704,12,C1,the preservation,die Bewahrung,bewahren,to preserve
+705,12,C1,the burn,das Brennen,brennen,to burn
+706,12,C1,the occurrence,der Einfall,einfallen,to occur
+707,12,C1,the creation,die Erschaffung,erschaffen,to create
+708,12,C1,the explosion,die Explosion,explodieren,to explode
+709,12,C1,the color,die Farbe,färben,to color
+710,12,C1,the detention,das Festhalten,festhalten,to hold on
+711,12,C1,the fire,das Feuer,feuern,to fire
+712,12,C1,the hit,der Hieb,hauen,to hit
+713,12,C1,the identification,die Identifikation,identifizieren,to identify
+714,12,C1,the import,der Import,importieren,to import
+715,12,C1,the error,der Irrtum,irren,to be wrong
+716,12,C1,the clothes,die Kleidung,kleiden,to dress
+717,12,C1,the knee,das Knie,knien,to kneel
+718,12,C1,the teacher,der Lehrer,lehren,to teach
+719,12,C1,the sacrifice,das Opfer,opfern,to sacrifice
+720,12,C1,the praise,das Preisen,preisen,to praise
+721,12,C1,the revenge,die Rache,rächen,to avenge
+722,12,C1,the government,die Regierung,regieren,to govern
+723,12,C1,the debt,die Schuld,schulden,to owe
+724,12,C1,the silence,das Schweigen,schweigen,to remain silent
+725,12,C1,the stench,der Gestank,stinken,to stink
+726,12,C1,the deletion,die Streichung,streichen,to paint/cancel
+727,12,C1,the fall,der Sturz,stürzen,to fall
+728,12,C1,the trust,das Vertrauen,trauen,to trust
+729,12,C1,the dryer,der Trockner,trocknen,to dry
+730,12,C1,the handover,die Überlassung,überlassen,to leave to
+731,12,C1,the exaggeration,die Übertreibung,übertreiben,to exaggerate
+732,12,C1,the concealment,die Verbergung,verbergen,to hide
+733,12,C1,the stay,der Verbleib,verbleiben,to remain
+734,12,C1,the behavior,das Verhalten,verhalten,to behave
+735,12,C1,the negotiation,die Verhandlung,verhandeln,to negotiate
+736,12,C1,the failure,das Versagen,versagen,to fail
+737,12,C1,the waste,die Verschwendung,verschwenden,to waste
+738,12,C1,the relocation,die Versetzung,versetzen,to relocate
+739,12,C1,the forgiveness,die Verzeihung,verzeihen,to forgive
+740,12,C1,the continuation,das Weitergehen,weitergehen,to continue
+741,12,C1,the continuation,das Weitermachen,weitermachen,to continue
+742,12,C1,the weight,das Gewicht,wiegen,to weight
