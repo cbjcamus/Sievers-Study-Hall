@@ -1,2228 +1,2228 @@
-Nr,level,answer,question,ich,du,er/sie/es,wir,ihr,Sie,partizip_I,partizip_II,praeteritum
-1,1,sein,to be,bin,bist,ist,sind,seid,sind,seiend,gewesen,war
-2,1,haben,"to have, to contain",habe,hast,hat,haben,habt,haben,habend,gehabt,hatte
-3,1,werden,"to become, will, to be done (passive voice)",werde,wirst,wird,werden,werdet,werden,werdend,geworden,wurde
-4,1,können,"can, to be able to",kann,kannst,kann,können,könnt,können,könnend,gekonnt,konnte
-5,1,wollen,to want,will,willst,will,wollen,wollt,wollen,wollend,gewollt,wollte
-6,1,müssen,"must, to have to, to be obliged (to do something)",muss,musst,muss,müssen,müsst,müssen,müssend,gemusst,musste
-7,1,sollen,"shall, to be asked (to do something)",soll,sollst,soll,sollen,sollt,sollen,sollend,gesollt,sollte
-8,1,mögen,to like,mag,magst,mag,mögen,mögt,mögen,mögend,gemocht,mochte
-9,1,dürfen,"to be allowed (to do something), may",darf,darfst,darf,dürfen,dürft,dürfen,dürfend,gedurft,durfte
-10,1,wissen,to know,weiss,weisst,weiss,wissen,wisst,wissen,wissend,gewusst,wusste
-11,1,machen,"to make, to prepare (e.g. food), to do",mache,machst,macht,machen,macht,machen,machend,gemacht,machte
-12,1,tun,"to do, to do something to someone",tue,tust,tut,tun,tut,tun,tuend,getan,tat
-13,1,sagen,"to say, to tell",sage,sagst,sagt,sagen,sagt,sagen,sagend,gesagt,sagte
-14,1,gehen,"to go, to leave, to work, to function (coll.)",gehe,gehst,geht,gehen,geht,gehen,gehend,gegangen,ging
-15,1,sehen,"to see, to see (to something), to realise",sehe,siehst,sieht,sehen,seht,sehen,sehend,gesehen,sah
-16,1,geben,to give,gebe,gibst,gibt,geben,gebt,geben,gebend,gegeben,gab
-17,1,kommen,"to come, to make it (e.g. over something), to go to, to occur",komme,kommst,kommt,kommen,kommt,kommen,kommend,gekommen,kam
-18,1,glauben,to believe,glaube,glaubst,glaubt,glauben,glaubt,glauben,glaubend,geglaubt,glaubte
-19,1,reden,to talk,rede,redest,redet,reden,redet,reden,redend,geredet,redete
-20,1,hören,"to hear, to listen to",höre,hörst,hört,hören,hört,hören,hörend,gehört,hörte
-21,1,finden,to find,finde,findest,findet,finden,findet,finden,findend,gefunden,fand
-22,1,bleiben,"to remain, to stay",bleibe,bleibst,bleibt,bleiben,bleibt,bleiben,bleibend,geblieben,blieb
-23,1,brauchen,to need,brauche,brauchst,braucht,brauchen,braucht,brauchen,brauchend,gebraucht,brauchte
-24,1,lieben,to love,liebe,liebst,liebt,lieben,liebt,lieben,liebend,geliebt,liebte
-25,1,bringen,"to bring, to take, to lead",bringe,bringst,bringt,bringen,bringt,bringen,bringend,gebracht,brachte
-26,1,stehen,"to stand, to be, to appear",stehe,stehst,steht,stehen,steht,stehen,stehend,gestanden,stand
-27,1,heissen,"to be called, to mean",heisse,heisst,heisst,heissen,heisst,heissen,heissend,geheissen,hiess
-28,1,nehmen,"to take, to cause oneself to be (in some state)",nehme,nimmst,nimmt,nehmen,nehmt,nehmen,nehmend,genommen,nahm
-29,1,sprechen,to speak,spreche,sprichst,spricht,sprechen,sprecht,sprechen,sprechend,gesprochen,sprach
-30,1,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekomme,bekommst,bekommt,bekommen,bekommt,bekommen,bekommend,bekommen,bekam
-31,1,vergessen,"to forget, to leave (forget to take)",vergesse,vergisst,vergisst,vergessen,vergesst,vergessen,vergessend,vergessen,vergass
-32,1,halten,"to hold, to stop (a movement), to support, to keep",halte,hältst,hält,halten,haltet,halten,haltend,gehalten,hielt
-33,1,warten,"to wait, to maintain (e.g. a car)",warte,wartest,wartet,warten,wartet,warten,wartend,gewartet,wartete
-34,1,kennen,"to know, to be acquainted with, to be familiar with",kenne,kennst,kennt,kennen,kennt,kennen,kennend,gekannt,kannte
-35,1,verstehen,"to understand, to get along with someone/something",verstehe,verstehst,versteht,verstehen,versteht,verstehen,verstehend,verstanden,verstand
-36,1,denken,"to think, to consider",denke,denkst,denkt,denken,denkt,denken,denkend,gedacht,dachte
-37,1,leben,to live,lebe,lebst,lebt,leben,lebt,leben,lebend,gelebt,lebte
-38,1,arbeiten,to work,arbeite,arbeitest,arbeitet,arbeiten,arbeitet,arbeiten,arbeitend,gearbeitet,arbeitete
-39,1,essen,to eat,esse,isst,isst,essen,esst,essen,essend,gegessen,ass
-40,1,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)",biete,bietest,bietet,bieten,bietet,bieten,bietend,geboten,bot
-41,2,aufstehen,"to get up, to be open (e.g. a window, door)",stehe auf,stehst auf,steht auf,stehen auf,steht auf,stehen auf,aufstehend,aufgestanden,stand auf
-42,2,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull",ziehe an,ziehst an,zieht an,ziehen an,zieht an,ziehen an,anziehend,angezogen,zog an
-43,2,ausziehen,"to take something off, to undress, to pull out, to move out",ziehe aus,ziehst aus,zieht aus,ziehen aus,zieht aus,ziehen aus,ausziehend,ausgezogen,zog aus
-44,2,spielen,to play,spiele,spielst,spielt,spielen,spielt,spielen,spielend,gespielt,spielte
-45,2,fahren,"to go (by vehicle), to leave, to drive",fahre,fährst,fährt,fahren,fahrt,fahren,fahrend,gefahren,fuhr
-46,2,versuchen,to try,versuche,versuchst,versucht,versuchen,versucht,versuchen,versuchend,versucht,versuchte
-47,2,erzählen,"to tell, to narrate",erzähle,erzählst,erzählt,erzählen,erzählt,erzählen,erzählend,erzählt,erzählte
-48,2,fragen,"to ask, to wonder (refl.)",frage,fragst,fragt,fragen,fragt,fragen,fragend,gefragt,fragte
-49,2,treffen,"to meet, to encounter",treffe,triffst,trifft,treffen,trefft,treffen,treffend,getroffen,traf
-50,2,hoffen,to hope,hoffe,hoffst,hofft,hoffen,hofft,hoffen,hoffend,gehofft,hoffte
-51,2,suchen,"to seek, to search",suche,suchst,sucht,suchen,sucht,suchen,suchend,gesucht,suchte
-52,2,trinken,to drink,trinke,trinkst,trinkt,trinken,trinkt,trinken,trinkend,getrunken,trank
-53,2,lernen,"to learn, to study (revise/review materials), to train something",lerne,lernst,lernt,lernen,lernt,lernen,lernend,gelernt,lernte
-54,2,zeigen,"to show, to point at, to demonstrate",zeige,zeigst,zeigt,zeigen,zeigt,zeigen,zeigend,gezeigt,zeigte
-55,2,schlafen,to sleep,schlafe,schläfst,schläft,schlafen,schlaft,schlafen,schlafend,geschlafen,schlief
-56,2,kaufen,to buy,kaufe,kaufst,kauft,kaufen,kauft,kaufen,kaufend,gekauft,kaufte
-57,2,laufen,"to walk, to flow (of a fluid), to run (of an event)",laufe,läufst,läuft,laufen,lauft,laufen,laufend,gelaufen,lief
-58,2,erklären,"to explain, to declare, to assert",erkläre,erklärst,erklärt,erklären,erklärt,erklären,erklärend,erklärt,erklärte
-59,2,zahlen,"to pay (for something), to atone for",zahle,zahlst,zahlt,zahlen,zahlt,zahlen,zahlend,gezahlt,zahlte
-60,2,kochen,"to cook, to boil (to heat a liquid), to boil something",koche,kochst,kocht,kochen,kocht,kochen,kochend,gekocht,kochte
-61,2,waschen,to wash,wasche,wäschst,wäscht,waschen,wascht,waschen,waschend,gewaschen,wusch
-62,2,aufwachen,to wake up,wache auf,wachst auf,wacht auf,wachen auf,wacht auf,wachen auf,aufwachend,aufgewacht,wachte auf
-63,2,zeichnen,"to draw, to sketch",zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen,zeichnend,gezeichnet,zeichnete
-64,2,wohnen,"to live, to reside, to dwell",wohne,wohnst,wohnt,wohnen,wohnt,wohnen,wohnend,gewohnt,wohnte
-65,2,schreiben,to write,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben,schreibend,geschrieben,schrieb
-66,2,tragen,"to wear (clothing), to carry, to hold",trage,trägst,trägt,tragen,tragt,tragen,tragend,getragen,trug
-67,2,interessieren,"to interest, to be interested in (refl.)",interessiere,interessierst,interessiert,interessieren,interessiert,interessieren,interessierend,interessiert,interessierte
-68,2,ziehen,"to pull, to drag, to move",ziehe,ziehst,zieht,ziehen,zieht,ziehen,ziehend,gezogen,zog
-69,2,lesen,to read,lese,liest,liest,lesen,lest,lesen,lesend,gelesen,las
-70,2,kosten,"to cost, to taste",koste,kostest,kostet,kosten,kostet,kosten,kostend,gekostet,kostete
-71,2,wiederholen,to repeat,wiederhole,wiederholst,wiederholt,wiederholen,wiederholt,wiederholen,wiederholend,wiederholt,wiederholte
-72,2,übersetzen,to translate,übersetze,übersetzt,übersetzt,übersetzen,übersetzt,übersetzen,übersetzend,übersetzt,übersetzte
-73,2,buchstabieren,to spell,buchstabiere,buchstabierst,buchstabiert,buchstabieren,buchstabiert,buchstabieren,buchstabierend,buchstabiert,buchstabierte
-74,2,bedeuten,"to mean, to signify",bedeute,bedeutest,bedeutet,bedeuten,bedeutet,bedeuten,bedeutend,bedeutet,bedeutete
-75,2,funktionieren,"to function, to work",funktioniere,funktionierst,funktioniert,funktionieren,funktioniert,funktionieren,funktionierend,funktioniert,funktionierte
-76,2,erinnern,"to remind, to remember (refl.)",erinnere,erinnerst,erinnert,erinnern,erinnert,erinnern,erinnernd,erinnert,erinnerte
-77,2,fühlen,"to feel, to feel something (good/bad) (refl.)",fühle,fühlst,fühlt,fühlen,fühlt,fühlen,fühlend,gefühlt,fühlte
-78,2,regnen,to rain,regne,regnest,regnet,regnen,regnet,regnen,regnend,geregnet,regnete
-79,2,schneien,to snow,schneie,schneist,schneit,schneien,schneit,schneien,schneiend,geschneite,schneite
-80,2,führen,"to lead, to guide",führe,führst,führt,führen,führt,führen,führend,geführt,führte
-81,3,passieren,"to happen (conversational), to move beyond, to strain",passiere,passierst,passiert,passieren,passiert,passieren,passierend,passiert,passierte
-82,3,verlieren,to lose,verliere,verlierst,verliert,verlieren,verliert,verlieren,verlierend,verloren,verlor
-83,3,bestimmen,to determine,bestimme,bestimmst,bestimmt,bestimmen,bestimmt,bestimmen,bestimmend,bestimmt,bestimmte
-84,3,holen,to fetch,hole,holst,holt,holen,holt,holen,holend,geholt,holte
-85,3,anrufen,"to call by telephone, to call on (someone)",rufe an,rufst an,ruft an,rufen an,ruft an,rufen an,anrufend,angerufen,rief an
-86,3,aufhören,"to stop, to cease an activity/process",höre auf,hörst auf,hört auf,hören auf,hört auf,hören auf,aufhörend,aufgehört,hörte auf
-87,3,anfangen,to begin something new,fange an,fängst an,fängt an,fangen an,fangt an,fangen an,anfangend,angefangen,fing an
-88,3,gewinnen,to win,gewinne,gewinnst,gewinnt,gewinnen,gewinnt,gewinnen,gewinnend,gewonnen,gewann
-89,3,wehtun,"to hurt, to be painful",tue weh,tust weh,tut weh,tun weh,tut weh,tun weh,wehtund,wehgetan,tat weh
-90,3,öffnen,to open (formal),öffne,öffnest,öffnet,öffnen,öffnet,öffnen,öffnend,geöffnet,öffnete
-91,3,bezahlen,"to pay, to pay someone",bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen,bezahlend,bezahlt,bezahlte
-92,3,beginnen,to begin (on a date/time),beginne,beginnst,beginnt,beginnen,beginnt,beginnen,beginnend,begonnen,begann
-93,3,benutzen,to use (something),benutze,benutzt,benutzt,benutzen,benutzt,benutzen,benutzend,benutzt,benutzte
-94,3,schicken,to send,schicke,schickst,schickt,schicken,schickt,schicken,schickend,geschickt,schickte
-95,3,lachen,to laugh,lache,lachst,lacht,lachen,lacht,lachen,lachend,gelacht,lachte
-96,3,scheinen,"to seem, to shine",scheine,scheinst,scheint,scheinen,scheint,scheinen,scheinend,geschienen,schien
-97,3,ändern,to change (one's personality/behavior),ändere,änderst,ändert,ändern,ändert,ändern,ändernd,geändert,änderte
-98,3,verkaufen,to sell,verkaufe,verkaufst,verkauft,verkaufen,verkauft,verkaufen,verkaufend,verkauft,verkaufte
-99,3,gehören,to belong to,gehöre,gehörst,gehört,gehören,gehört,gehören,gehörend,gehört,gehörte
-100,3,sitzen,"to be seated, to stay, to fit (of clothing)",sitze,sitzt,sitzt,sitzen,sitzt,sitzen,sitzend,gesessen,sass
-101,3,stellen,"to position, to put, to catch",stelle,stellst,stellt,stellen,stellt,stellen,stellend,gestellt,stellte
-102,3,setzen,"to set, to sit down (refl.)",setze,setzt,setzt,setzen,setzt,setzen,setzend,gesetzt,setzte
-103,3,liegen,"to lie, to be located",liege,liegst,liegt,liegen,liegt,liegen,liegend,gelegen,lag
-104,3,danken,to thank,danke,dankst,dankt,danken,dankt,danken,dankend,gedankt,dankte
-105,3,legen,"to lay, to lean, to lie down",lege,legst,legt,legen,legt,legen,legend,gelegt,legte
-106,3,schauen,to look at (Bayern/Austria),schaue,schaust,schaut,schauen,schaut,schauen,schauend,geschaut,schaute
-107,3,besuchen,to visit,besuche,besuchst,besucht,besuchen,besucht,besuchen,besuchend,besucht,besuchte
-108,3,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freue,freust,freut,freuen,freut,freuen,freuend,gefreut,freute
-109,3,schliessen,"to shut, to close, to lock, to conclude",schliesse,schliesst,schliesst,schliessen,schliesst,schliessen,schliessend,geschlossen,schloss
-110,3,einladen,"to invite, to load (something into a container)",lade ein,lädst ein,lädt ein,laden ein,ladet ein,laden ein,einladend,eingeladen,lud ein
-111,3,gefallen,"to please, to appeal to",gefalle,gefällst,gefällt,gefallen,gefallt,gefallen,gefallend,gefallen,gefiel
-112,3,wünschen,to wish,wünsche,wünschst,wünscht,wünschen,wünscht,wünschen,wünschend,gewünscht,wünschte
-113,3,passen,"to fit, to suit",passe,passt,passt,passen,passt,passen,passend,gepasst,passte
-114,3,folgen,to follow,folge,folgst,folgt,folgen,folgt,folgen,folgend,gefolgt,folgte
-115,3,ansehen,"to look at something, to watch something",sehe an,siehst an,sieht an,sehen an,seht an,sehen an,ansehend,angesehen,sah an
-116,3,aussehen,"to look (like), to appear",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus,aussehend,ausgesehen,sah aus
-117,3,probieren,"to try, to taste, to sample, to probe",probiere,probierst,probiert,probieren,probiert,probieren,probierend,probiert,probierte
-118,3,träumen,to dream,träume,träumst,träumt,träumen,träumt,träumen,träumend,geträumt,träumte
-119,3,fernsehen,to watch TV,sehe fern,siehst fern,sieht fern,sehen fern,seht fern,sehen fern,fernsehend,ferngesehen,sah fern
-120,3,schwimmen,"to swim, to float",schwimme,schwimmst,schwimmt,schwimmen,schwimmt,schwimmen,schwimmend,geschwommen,schwamm
-121,4,einschlafen,to fall asleep,schlafe ein,schläfst ein,schläft ein,schlafen ein,schlaft ein,schlafen ein,einschlafend,eingeschlafen,schlief ein
-122,4,reisen,to travel,reise,reist,reist,reisen,reist,reisen,,gereist,reiste
-123,4,feiern,to celebrate,feiere,feierst,feiert,feiern,feiert,feiern,,gefeiert,feierte
-124,4,antworten,"to answer, to reply",antworte,antwortest,antwortet,antworten,antwortet,antworten,,geantwortet,antwortete
-125,4,wählen,"to choose, to dial (a number), to vote",wähle,wählst,wählt,wählen,wählt,wählen,,gewählt,wählte
-126,4,ausgehen,"to go out, to run out (e.g. of money)",gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus,,ausgegangen,ging aus
-127,4,zählen,to count,zähle,zählst,zählt,zählen,zählt,zählen,,gezählt,zählte
-128,4,ankommen,"to arrive, to depend on something",komme an,kommst an,kommt an,kommen an,kommt an,kommen an,,angekommen,kam an
-129,4,dauern,"to last, to take (time)",dauere,dauerst,dauert,dauern,dauert,dauern,,gedauert,dauerte
-130,4,kennenlernen,"to meet someone, to get to know someone/something",lerne kennen,lernst kennen,lernt kennen,lernen kennen,lernt kennen,lernen kennen,,kennengelernt,lernte kennen
-131,4,anmelden,"to register, to sign up",melde an,meldest an,meldet an,melden an,meldet an,melden an,,angemeldet,meldete an
-132,4,lassen,"to let, to leave, to allow",lasse,lässt,lässt,lassen,lasst,lassen,,gelassen,liess
-133,4,verlassen,"to leave, to trust with something (refl.), to pass away, to die",verlasse,verlässt,verlässt,verlassen,verlasst,verlassen,,verlassen,verliess
-134,4,helfen,to help,helfe,hilfst,hilft,helfen,helft,helfen,,geholfen,half
-135,4,bewegen,to move,bewege,bewegst,bewegt,bewegen,bewegt,bewegen,,bewegt,bewog
-136,4,versprechen,"to promise, to hope for, to misspeak",verspreche,versprichst,verspricht,versprechen,versprecht,versprechen,,versprochen,versprach
-137,4,hängen,"to hang, to be fond of, depend on",hänge,hängst,hängt,hängen,hängt,hängen,,gehangen,hing
-138,4,mieten,"to rent, to hire",miete,mietest,mietet,mieten,mietet,mieten,,gemietet,mietete
-139,4,rauchen,to smoke (e.g. a cigarette),rauche,rauchst,raucht,rauchen,raucht,rauchen,,geraucht,rauchte
-140,4,sterben,to die,sterbe,stirbst,stirbt,sterben,sterbt,sterben,,gestorben,starb
-141,4,heiraten,to marry,heirate,heiratest,heiratet,heiraten,heiratet,heiraten,,geheiratet,heiratete
-142,4,kämpfen,"to fight, to struggle",kämpfe,kämpfst,kämpft,kämpfen,kämpft,kämpfen,,gekämpft,kämpfte
-143,4,fehlen,"to lack, to be absent/missing",fehle,fehlst,fehlt,fehlen,fehlt,fehlen,,gefehlt,fehlte
-144,4,sorgen,"to care, to worry",sorge,sorgst,sorgt,sorgen,sorgt,sorgen,,gesorgt,sorgte
-145,4,stecken,"to stick, to pin",stecke,steckst,steckt,stecken,steckt,stecken,,gesteckt,steckte
-146,4,überraschen,to surprise,überrasche,überraschst,überrascht,überraschen,überrascht,überraschen,,überrascht,überraschte
-147,4,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",vorstelle,vorstellst,vorstellt,vorstellen,vorstellt,vorstellen,,vorgestellt,stellte vor
-148,4,stehlen,to steal,stehle,stiehlst,stiehlt,stehlen,stehlt,stehlen,,gestohlen,stahl
-149,4,stimmen,"to be true, to vote, to tune",stimme,stimmst,stimmt,stimmen,stimmt,stimmen,,gestimmt,stimmte
-150,4,entscheiden,to decide,entscheide,entscheidest,entscheidet,entscheiden,entscheidet,entscheiden,,entschieden,entschied
-151,4,vermissen,to miss something/someone,vermisse,vermissst,vermisst,vermissen,vermisst,vermissen,,vermisst,vermisste
-152,4,werfen,to throw,werfe,werfst,werft,werfen,werft,werfen,,geworfen,warf
-153,4,erkennen,"to recognise, to realise",erkenne,erkennest,erkennet,erkennen,erkennet,erkennen,,erkannt,erkannte
-154,4,teilen,"to split, to share, to divide",teile,teilst,teilt,teilen,teilt,teilen,,geteilt,teilte
-155,4,bauen,to build,baue,baust,baut,bauen,baut,bauen,,gebaut,baute
-156,4,melden,"to report, to register",melde,meldest,meldet,melden,meldet,melden,,gemeldet,meldete
-157,4,brechen,to break,breche,brechst,brecht,brechen,brecht,brechen,,gebrochen,brach
-158,4,steigen,"to ascend, to climb, to rise",steige,steigst,steigt,steigen,steigt,steigen,,gestiegen,stieg
-159,4,singen,to sing,singe,singst,singt,singen,singt,singen,,gesungen,sang
-160,4,empfehlen,"to recommend, to suggest",empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt,empfehlen,,empfohlen,empfahl
-161,5,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",mache auf,machst auf,macht auf,machen auf,macht auf,machen auf,,aufgemacht,machte auf
-162,5,vertrauen,to trust,vertraue,vertraust,vertraut,vertrauen,vertraut,vertrauen,,vertraut,vertraute
-163,5,verändern,"to alter, to change something",verändere,veränderst,verändert,verändern,verändert,verändern,,verändert,veränderte
-164,5,bitten,"to ask, to request",bitte,bittest,bittet,bitten,bittet,bitten,,gebeten,bat
-165,5,besitzen,"to own, to possess, to have",besitze,besitzt,besitzt,besitzen,besitzt,besitzen,,besessen,besass
-166,5,merken,"to notice, to realise, to remember (refl.)",merke,merkst,merkt,merken,merkt,merken,,gemerkt,merkte
-167,5,stören,"to disturb, to interfere",störe,störst,stört,stören,stört,stören,,gestört,störte
-168,5,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",annehme,annehmst,annehmt,annehmen,annehmt,annehmen,,angenommen,nahm an
-169,5,übernehmen,to take over,übernehme,übernehmst,übernehmt,übernehmen,übernehmt,übernehmen,,übernommen,übernahm
-170,5,stattfinden,"to take place, to occur",stattfinde,stattfindst,stattfindt,stattfinden,stattfindt,stattfinden,,stattgefunden,fand statt
-171,5,fangen,to catch,fange,fängst,fängt,fangen,fangt,fangen,,gefangen,fing
-172,5,enthalten,"to contain, to include",enthalte,enthältst,enthält,enthalten,enthaltet,enthalten,,enthalten,enthielt
-173,5,dienen,"to serve, to function",diene,dienst,dient,dienen,dient,dienen,,gedient,diente
-174,5,verschwinden,"to disappear, to get lost",verschwinde,verschwindst,verschwindt,verschwinden,verschwindt,verschwinden,,verschwunden,verschwand
-175,5,schützen,"to defend (lawyer), to protect (sunprotection)",schütze,schützst,schützt,schützen,schützt,schützen,,geschützt,schützte
-176,5,nennen,"to name, to call someone something, to mention",nenne,nennst,nennt,nennen,nennt,nennen,,genannt,nannte
-177,5,schätzen,"to appreciate, to evaluate, to guess",schätze,schätzst,schätzt,schätzen,schätzt,schätzen,,geschätzt,schätzte
-178,5,erwarten,"to expect, to await",erwarte,erwartst,erwartt,erwarten,erwartt,erwarten,,erwartet,erwartete
-179,5,drehen,"to turn, to veer",drehe,drehst,dreht,drehen,dreht,drehen,,gedreht,drehte
-180,5,behalten,to keep,behalte,behaltst,behaltt,behalten,behaltt,behalten,,behalten,behielt
-181,5,verpassen,"to miss (to be late for something, e.g. a train)",verpasse,verpassst,verpasst,verpassen,verpasst,verpassen,,verpasst,verpasste
-182,5,schenken,"to gift, to give as a present",schenke,schenkst,schenkt,schenken,schenkt,schenken,,geschenkt,schenkte
-183,5,wachsen,"to grow, to increase",wachse,wächst,wächst,wachsen,wachst,wachsen,,gewachsen,wuchs
-184,5,springen,"to spring, to jump",springe,springst,springt,springen,springt,springen,,gesprungen,sprang
-185,5,befinden,"to be located (refl.), to find, to consider (formal)",befinde,befindest,befindet,befinden,befindet,befinden,,befunden,befand
-186,5,raten,"to advise, to recommend, to guess",rate,rätst,rät,raten,ratet,raten,,geraten,riet
-187,5,verbieten,"to forbid, to prohibit (with dative)",verbiete,verbietest,verbietet,verbieten,verbietet,verbieten,,verboten,verbot
-188,5,fallen,"to fall, to fall in battle, to collapse",falle,fällst,fällt,fallen,fallt,fallen,,gefallen,fiel
-189,5,kümmern,"to take care (refl.), to trouble, to concern",kümmee,kümmest,kümmet,kümmeen,kümmet,kümmeen,,gekümmert,kümmerte
-190,5,drücken,"to press, to push",drücke,drückst,drückt,drücken,drückt,drücken,,gedrückt,drückte
-191,5,vergleichen,to compare,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen,,verglichen,verglich
-192,5,putzen,"to clean, to rub",putze,putzst,putzt,putzen,putzt,putzen,,geputzt,putzte
-193,5,einkaufen,to shop,einkaufe,einkaufst,einkauft,einkaufen,einkauft,einkaufen,,eingekauft,kaufte ein
-194,5,veröffentlichen,"to publish, to release",veröffentliche,veröffentlichst,veröffentlicht,veröffentlichen,veröffentlicht,veröffentlichen,,veröffentlicht,veröffentlichte
-195,5,testen,"to test, to examine",teste,testst,testt,testen,testt,testen,,getestet,testete
-196,5,lösen,"to loosen, to solve, to separate, to remove",löse,lösst,löst,lösen,löst,lösen,,gelöst,löste
-197,5,kontrollieren,"to control, to check",kontrolliere,kontrollierst,kontrolliert,kontrollieren,kontrolliert,kontrollieren,,kontrolliert,kontrollierte
-198,5,unterstützen,"to support, to provide help",unterstütze,unterstützst,unterstützt,unterstützen,unterstützt,unterstützen,,unterstützt,unterstützte
-199,5,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to",treibe,treibst,treibt,treiben,treibt,treiben,,getrieben,trieb
-200,5,tanzen,to dance,tanze,tanzt,tanzt,tanzen,tanzt,tanzen,,getanzt,tanzte
-201,6,studieren,"to study, to go to university/college",studiere,studierst,studiert,studieren,studiert,studieren,,studiert,studierte
-202,6,sinken,"to sink, to drop",sinke,sinkst,sinkt,sinken,sinkt,sinken,,gesunken,sank
-203,6,klingen,to sound,klinge,klingst,klingt,klingen,klingt,klingen,,geklungen,klang
-204,6,schmecken,to taste,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken,,geschmeckt,schmeckte
-205,6,mitteilen,"to inform, to share",mitteile,mitteilst,mitteilt,mitteilen,mitteilt,mitteilen,,mitgeteilt,teilte mit
-206,6,streiten,"to argue, to fight, to quarrel",streite,streitst,streitt,streiten,streitt,streiten,,gestritten,stritt
-207,6,entwickeln,to develop,entwickee,entwickest,entwicket,entwickeen,entwicket,entwickeen,,entwickelt,entwickelte
-208,6,ersetzen,"to replace, to substitute",ersetze,ersetzst,ersetzt,ersetzen,ersetzt,ersetzen,,ersetzt,ersetzte
-209,6,leiden,"to bear, to endure, to suffer",leide,leidst,leidt,leiden,leidt,leiden,,gelitten,litt
-210,6,diskutieren,"to discuss, to debate",diskutiere,diskutierst,diskutiert,diskutieren,diskutiert,diskutieren,,diskutiert,diskutierte
-211,6,rufen,"to call out, to call for help, to telephone",rufe,rufst,ruft,rufen,ruft,rufen,,gerufen,rief
-212,6,vorschlagen,"to suggest, to propose",schlage vor,schlägst vor,schlägt vor,schlagen vor,schlagt vor,schlagen vor,,vorgeschlagen,schlug vor
-213,6,überzeugen,"to convince, to convince oneself (refl.)",überzeuge,überzeugst,überzeugt,überzeugen,überzeugt,überzeugen,,überzeugt,überzeugte
-214,6,vermuten,"to assume something is true, to suppose, suspect something",vermute,vermutst,vermutt,vermuten,vermutt,vermuten,,vermutet,vermutete
-215,6,überlegen,"to consider, to think over",überlege,überlegst,überlegt,überlegen,überlegt,überlegen,,überlegt,überlegte
-216,6,teilnehmen,"to take part, to participate",nehme teil,nimmst teil,nimmt teil,nehmen teil,nehmt teil,nehmen teil,,teilgenommen,nahm teil
-217,6,gründen,"to found, to establish",gründe,gründst,gründt,gründen,gründt,gründen,,gegründet,gründete
-218,6,überprüfen,to check,überprüfe,überprüfst,überprüft,überprüfen,überprüft,überprüfen,,überprüft,überprüfte
-219,6,beraten,"to advise, to consult",berate,beratst,beratt,beraten,beratt,beraten,,beraten,beriet
-220,6,vertreten,"to represent, to stand for",vertrete,vertretst,vertrett,vertreten,vertrett,vertreten,,vertreten,vertrat
-221,6,bewerben,to apply (to a job etc.),bewerbe,bewirbst,bewirbt,bewerben,bewerbt,bewerben,,beworben,bewarb
-222,6,erstellen,"to create, to generate, to compile, to set up",erstelle,erstellst,erstellt,erstellen,erstellt,erstellen,,erstellt,erstellte
-223,6,korrigieren,"to correct, to rectify, to debug",korrigiere,korrigierst,korrigiert,korrigieren,korrigiert,korrigieren,,korrigiert,korrigierte
-224,6,beenden,"to finish, to complete, to terminate (relationship)",beende,beendst,beendt,beenden,beendt,beenden,,beendet,beendete
-225,6,anbieten,"to offer, to provide",anbiete,anbietst,anbiett,anbieten,anbiett,anbieten,,angeboten,bot an
-226,6,fordern,"to demand, to require",fordee,fordest,fordet,fordeen,fordet,fordeen,,gefordert,forderte
-227,6,mitnehmen,"to carry along, to pick up (something), to take away",nehme mit,nimmst mit,nimmt mit,nehmen mit,nehmt mit,nehmen mit,,mitgenommen,nahm mit
-228,6,mitbringen,"to bring along, to bring with",bringe mit,bringst mit,bringt mit,bringen mit,bringt mit,bringen mit,,mitgebracht,brachte mit
-229,6,sammeln,"to collect, to gather",sammee,sammest,sammet,sammeen,sammet,sammeen,,gesammelt,sammelte
-230,6,aufpassen,"to watch out, to look after something, to be attentive with something",aufpasse,aufpassst,aufpasst,aufpassen,aufpasst,aufpassen,,aufgepasst,passte auf
-231,6,hassen,to hate,hasse,hassst,hasst,hassen,hasst,hassen,,gehasst,hasste
-232,6,zurückgehen,"to go back, to decline",gehe zurück,gehst zurück,geht zurück,gehen zurück,geht zurück,gehen zurück,,zurückgegangen,ging zurück
-233,6,ärgern,to annoy oneself (refl.),ärgee,ärgest,ärget,ärgeen,ärget,ärgeen,,geärgert,ärgerte
-234,6,schieben,to push,schiebe,schiebst,schiebt,schieben,schiebt,schieben,,geschoben,schob
-235,6,kündigen,"to terminate, to cancel",kündige,kündigst,kündigt,kündigen,kündigt,kündigen,,gekündigt,kündigte
-236,6,heben,"to lift, to raise",hebe,hebst,hebt,heben,hebt,heben,,gehoben,hob
-237,6,abholen,"to pick up someone or something, to collect",abhole,abholst,abholt,abholen,abholt,abholen,,abgeholt,holte ab
-238,6,füllen,to fill,fülle,füllst,füllt,füllen,füllt,füllen,,gefüllt,füllte
-239,6,wechseln,"to replace, to change, to exchange",wechsee,wechsest,wechset,wechseen,wechset,wechseen,,gewechselt,wechselte
-240,6,wirken,"to work, to be effective, to take affect, to act",wirke,wirkst,wirkt,wirken,wirkt,wirken,,gewirkt,wirkte
-241,7,verletzen,"to hurt, to injure, to violate (rules, laws, etc.)",verletze,verletzt,verletzt,verletzen,verletzt,verletzen,,verletzt,verletzte
-242,7,zustimmen,"to agree, to consent",stimme zu,stimmst zu,stimmt zu,stimmen zu,stimmt zu,stimmen zu,,zugestimmt,stimmte zu
-243,7,erhalten,"to receive (passively), to maintain, to save",,,,,,,,erhalten,erhielt
-244,7,erlauben,to allow/permit something to someone,,,,,,,,erlaubt,erlaubte
-245,7,trennen,"to separate, part, uncouple, to disconnect, to isolate",,,,,,,,getrennt,trennte
-246,7,darstellen,"to represent, to portray",,,,,,,,dargestellt,stellte dar
-247,7,greifen,"to grab, to seize, to reach, to capture",,,,,,,,gegriffen,griff
-248,7,entfernen,"to remove, to recede, to deviate, to desert (military)",,,,,,,,entfernt,entfernte
-249,7,verlieben,to fall in love (refl.),,,,,,,,verliebt,verliebte
-250,7,verdienen,to earn,verdiene,verdienst,verdient,verdienen,verdient,verdienen,,verdient,verdiente
-251,7,aufräumen,"to tidy up, to clean up",,,,,,,,aufgeräumt,räumte auf
-252,7,spülen,"to rinse, to flush toilets",,,,,,,,gespült,spülte
-253,7,beschreiben,to describe,,,,,,,,beschrieben,beschrieb
-254,7,verbinden,"to join, to connect, to bandage",,,,,,,,verbunden,verband
-255,7,rennen,"to race, to sprint, to run over someone (aux. with haben)",,,,,,,,gerannt,rannte
-256,7,pflanzen,to plant,,,,,,,,gepflanzt,pflanzte
-257,7,beten,to pray,,,,,,,,gebetet,betete
-258,7,ausruhen,"to rest (refl.), to relax",,,,,,,,ausgeruht,ruhte aus
-259,7,entspannen,"to relax (refl.), to relieve pressure",,,,,,,,entspannt,entspannte
-260,7,verbringen,to spend (time),,,,,,,,verbracht,verbrachte
-261,7,vorhaben,to have something planned,,,,,,,,vorgehabt,hatte vor
-262,7,erleben,"to experience, to witness",,,,,,,,erlebt,erlebte
-263,7,malen,to paint,,,,,,,,gemalt,malte
-264,7,jagen,to hunt,,,,,,,,gejagt,jagte
-265,7,erkunden,to explore,,,,,,,,erkundet,erkundete
-266,7,erholen,to recover,,,,,,,,erholt,erholte
-267,7,tanken,to refuel,,,,,,,,getankt,tankte
-268,7,planen,to plan,,,,,,,,geplant,plante
-269,7,entdecken,"to discover, to spot",,,,,,,,entdeckt,entdeckte
-270,7,fliegen,to fly,,,,,,,,geflogen,flog
-271,7,erfahren,"to experience, to find out, to learn",,,,,,,,erfahren,erfuhr
-272,7,enttäuschen,to disappoint,,,,,,,,enttäuscht,enttäuschte
-273,7,geniessen,"to enjoy (an experience), to relish",,,,,,,,genossen,genoss
-274,7,besichtigen,"to visit, to tour",,,,,,,,besichtigt,besichtigte
-275,7,spazieren,"to take a walk, to stroll",,,,,,,,spaziert,spazierte
-276,7,wandern,"to hike, to wander",,,,,,,,gewandert,wanderte
-277,7,faszinieren,to fascinate,,,,,,,,fasziniert,faszinierte
-278,7,surfen,to surf,,,,,,,,gesurft,surfte
-279,7,trainieren,"to train, to coach, to work out",,,,,,,,trainiert,trainierte
-280,7,erreichen,to reach,,,,,,,,erreicht,erreichte
-281,8,verhindern,"to prevent, to inhibit",,,,,,,,verhindert,verhinderte
-282,8,unterschreiben,to sign (write one's signature),unterschreibe,unterschreibst,unterschreibt,unterschreiben,unterschreibt,unterschreiben,,unterschrieben,unterschrieb
-283,8,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)",,,,,,,,empfangen,empfing
-284,8,bestellen,"to order (e.g. food), to summon, to reserve",bestelle,bestellst,bestellt,bestellen,bestellt,bestellen,,bestellt,bestellte
-285,8,buchen,"to book, to reserve",,,,,,,,gebucht,buchte
-286,8,liefern,"to deliver something, to provide something, to furnish",,,,,,,,geliefert,lieferte
-287,8,schneiden,"to cut, to prune",,,,,,,,geschnitten,schnitt
-288,8,sparen,"to save up, to conserve",,,,,,,,gespart,sparte
-289,8,mischen,to mix,,,,,,,,gemischt,mischte
-290,8,ernähren,"to nourish, to feed",,,,,,,,ernährt,ernährte
-291,8,bevorzugen,to prefer,,,,,,,,bevorzugt,bevorzugte
-292,8,braten,"to fry, to roast",,,,,,,,gebraten,briet
-293,8,backen,to bake,,,,,,,,gebackt,backte
-294,8,grillen,"to grill, to have a barbecue",,,,,,,,gegrillt,grillte
-295,8,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)",,,,,,,,bereitet,bereitete
-296,8,zubereiten,"to prepare, to cook in advance",,,,,,,,bereitete zu,zubereitet
-297,8,reservieren,to reserve,,,,,,,,reservierte,reserviert
-298,8,servieren,to serve (food or drinks),,,,,,,,servierte,serviert
-299,8,betreuen,"to care for, to supervise",,,,,,,,betreut,betreute
-300,8,entstehen,"to arise, to emerge, to develop",,,,,,,,entstanden,entstand
-301,8,aufnehmen,"to pick up, to receive, to take in, to record, to absorb",,,,,,,,aufgenommen,nahm auf
-302,8,gelten,"to be valid, to be effective, to be worth",,,,,,,,gegolten,galt
-303,8,verbessern,"to improve, to enhance",,,,,,,,verbessert,verbesserte
-304,8,sichern,"to secure, to protect",,,,,,,,gesichert,sicherte
-305,8,beantworten,to answer (a question),,,,,,,,beantwortet,beantwortete
-306,8,beschäftigen,"to concern oneself with something, to take care of",,,,,,,,beschäftigt,beschäftigte
-307,8,absolvieren,"to complete, to finish, to graduate",,,,,,,,absolviert,absolvierte
-308,8,üben,to practice,,,,,,,,geübt,übte
-309,8,vorbereiten,"to prepare (in advance), to prepare oneself (refl.)",,,,,,,,vorbereitet,bereitete vor
-310,8,weinen,"to weep, cry",,,,,,,,geweint,weinte
-311,8,einsetzen,"to insert, to use, to appoint, to risk",,,,,,,,eingesetzt,setzte ein
-312,8,nutzen,"to use, to utilize",,,,,,,,genutzt,nutzte
-313,8,warnen,to warn,,,,,,,,gewarnt,warnte
-314,8,klären,to clarify,,,,,,,,geklärt,klärte
-315,8,besprechen,"to discuss (formal, work related)",,,,,,,,besprochen,besprach
-316,8,erhöhen,"to increase, to raise",,,,,,,,erhöht,erhöhte
-317,8,beschränken,"to restrict, to limit",,,,,,,,beschränkt,beschränkte
-318,8,zwingen,"to force, to compel",,,,,,,,gezwungen,zwang
-319,8,berücksichtigen,"to consider, to take into account",,,,,,,,berücksichtigt,berücksichtigte
-320,8,übertragen,"to transfer, to transmit",,,,,,,,übertragen,übertrug
-321,9,beweisen,"to prove, to demonstrate",,,,,,,,bewiesen,bewies
-322,9,erfinden,"to invent, to fabricate (something untrue), to find out",,,,,,,,erfunden,erfand
-323,9,zielen,"to aim, to target",,,,,,,,gezielt,zielte
-324,9,rechnen,"to calculate, to reckon",,,,,,,,gerechnet,rechnete
-325,9,forschen,to research,,,,,,,,geforscht,forschte
-326,9,unterrichten,"to teach, to inform",unterrichte,unterrichtest,unterrichtet,unterrichten,unterrichtet,unterrichten,,unterrichtet,unterrichtete
-327,9,erzielen,"to achieve, to reach a result",,,,,,,,erzielt,erzielte
-328,9,bestehen,"to succeed, to pass (an exam), to consist, to insist",,,,,,,,bestanden,bestand
-329,9,abschliessen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)",,,,,,,,abgeschlossen,schloss ab
-330,9,loben,to praise,,,,,,,,gelobt,lobte
-331,9,bilden,"to form, to educate oneself (refl.)",,,,,,,,gebildet,bildete
-332,9,ausbilden,to train for a profession,,,,,,,,ausgebildet,bildete aus
-333,9,herausfinden,"to find something out, to discover",,,,,,,,herausgefunden,fand heraus
-334,9,konzentrieren,"to concentrate, to focus",,,,,,,,konzentriert,konzentrierte
-335,9,experimentieren,to experiment,,,,,,,,experimentiert,experimentierte
-336,9,küssen,"to kiss, to make out",,,,,,,,geküsst,küsste
-337,9,verstecken,to hide,,,,,,,,versteckt,versteckte
-338,9,zurückkommen,to return (to come back),,,,,,,,zurückgekommen,kam zurück
-339,9,umziehen,"to change clothes (refl.), to move house",,,,,,,,umgezogen,zog um
-340,9,zerstören,to destroy,,,,,,,,zerstört,zerstörte
-341,9,enden,to end (passive),,,,,,,,geendet,endete
-342,9,abgeben,"to hand something in, to emit something, to deliver something, to cede something",,,,,,,,abgegeben,gab ab
-343,9,töten,to kill,,,,,,,,getötet,tötete
-344,9,achten,"to respect, to regard someone, to pay attention to something",,,,,,,,geachtet,achtete
-345,9,erwachsen,"to grow up, to spring up, to accrue",,,,,,,,erwachsen,erwuchs
-346,9,absagen,"to call off, to cancel",,,,,,,,abgesagt,sagte ab
-347,9,gucken,"to look, to watch, to have a certain facial expression (Northern Germany)",,,,,,,,geguckt,guckte
-348,9,anschauen,"to look at, to behold, to take a look at, to watch (Bayern/Austria)",,,,,,,,angeschaut,schaute an
-349,9,lauten,"to sound, to read (have a certain wording), to be, to state",,,,,,,,gelautet,lautete
-350,9,spüren,to sense,,,,,,,,gespürt,spürte
-351,9,atmen,to breathe,,,,,,,,geatmet,atmete
-352,9,lächeln,to smile,,,,,,,,gelächelt,lächelte
-353,9,fürchten,"to fear, to be afraid",,,,,,,,gefürchtet,fürchtete
-354,9,empfinden,to feel (emotions),,,,,,,,empfunden,empfand
-355,9,beobachten,"to watch, to observe",,,,,,,,beobachtet,beobachtete
-356,9,riechen,"to sniff, to reek, to tolerate someone (coll.)",,,,,,,,gerochen,roch
-357,9,duften,to smell,,,,,,,,geduftet,duftete
-358,9,blicken,"to look, to glance",,,,,,,,geblickt,blickte
-359,9,anfassen,to touch,,,,,,,,angefasst,fasste an
-360,9,fliehen,"to flee, to diverge",,,,,,,,geflohen,floh
-361,10,gelingen,"to succeed, to manage",,,,,,,,gelungen,gelang
-362,10,herstellen,"to manufacture, to produce",,,,,,,,hergestellt,stellte her
-363,10,verteilen,"to distribute, to share",,,,,,,,verteilt,verteilte
-364,10,treten,"to step, to read, to kick (a ball)",,,,,,,,getreten,trat
-365,10,bewältigen,"to cope with, to get over, to overcome, to manage",,,,,,,,bewältigt,bewältigte
-366,10,ablenken,"to distract, to divert, to steer away",,,,,,,,abgelenkt,lenkte ab
-367,10,meiden,to avoid (+ nouns only),,,,,,,,gemieden,mied
-368,10,vorgeben,to pretend,,,,,,,,vorgegeben,gab vor
-369,10,decken,"to cover, to meet",,,,,,,,gedeckt,deckte
-370,10,geraten,"to get into, to turn out, succeed, to thrive",,,,,,,,geraten,geriet
-371,10,ergänzen,"to add, to complement, to supplement",,,,,,,,ergänzt,ergänzte
-372,10,laden,"to load, to charge",,,,,,,,geladen,lud
-373,10,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)",,,,,,,,gerichtet,richtete
-374,10,verursachen,to cause,,,,,,,,verursacht,verursachte
-375,10,schlagen,"to hit, to defeat, to beat (cooking)",,,,,,,,geschlagen,schlug
-376,10,aufwachsen,"to grow up, to be raised",,,,,,,,aufgewachsen,wuchs auf
-377,10,zunehmen,"to gain weight, to increase",,,,,,,,zugenommen,nahm zu
-378,10,lohnen,"to be worthwhile, to pay off",,,,,,,,gelohnt,lohnte
-379,10,messen,"to measure, to gauge",,,,,,,,gemessen,mass
-380,10,scheiden,"to separate, to divorce",,,,,,,,geschieden,schied
-381,10,entsprechen,"to correspond, to comply",,,,,,,,entsprochen,entsprach
-382,10,mitmachen,"to join in, to take part",,,,,,,,mitgemacht,machte mit
-383,10,wecken,"to wake, to wake up",,,,,,,,geweckt,weckte
-384,10,abnehmen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",,,,,,,,abgenommen,nahm ab
-385,10,bewerten,"to evaluate (subjectively), to assess, to rate, to judge",,,,,,,,bewertet,bewertete
-386,10,stammen,"to descend, originate, be derived",,,,,,,,gestammt,stammte
-387,10,gebären,to give birth,,,,,,,,geboren,gebar
-388,10,stossen,"to push, to thurst, to shove",,,,,,,,gestossen,stiess
-389,10,vermeiden,to avoid (+ nouns or verbs),,,,,,,,vermieden,vermied
-390,10,hervorheben,"to point out, to emphasize",,,,,,,,hervorgehoben,hob hervor
-391,10,erfüllen,"to fill (with something), to fulfill, to come true",,,,,,,,erfüllt,erfüllte
-392,10,lindern,"to alleviate, to relieve",,,,,,,,gelindert,linderte
-393,10,entziehen,"to withdraw, deprive",,,,,,,,entzogen,entzog
-394,10,gewöhnen,to accustom oneself to something (refl.),,,,,,,,gewöhnt,gewöhnte sich an
-395,10,auswählen,"to select, to choose",,,,,,,,ausgewählt,wählte aus
-396,10,verzichten,"to renounce, to forgo, to do without, to waive",,,,,,,,verzichtet,verzichtete
-397,10,begründen,"to justify, to explain",,,,,,,,begründet,begründete
-398,10,zugeben,to admit,,,,,,,,zugegeben,gab zu
-399,10,besorgen,"to obtain, to manage",,,,,,,,besorgt,besorgte
-400,10,abfahren,"to depart, to leave, to drive along",,,,,,,,,
-401,11,lügen,"to lie, to give false information (unintentionally)",,,,,,,,gelogen,log
-402,11,schreien,"to shout, to yell, to scream",,,,,,,,geschrien,schrie
-403,11,entschuldigen,"to excuse, to apologise",,,,,,,,entschuldigt,entschuldigte
-404,11,beschweren,to complain,,,,,,,,beschwert,beschwerte
-405,11,bestätigen,"to confirm, to corroborate",,,,,,,,bestätigt,bestätigte
-406,11,erwähnen,to mention (to speak of something),,,,,,,,erwähnt,erwähnte
-407,11,informieren,to inform,,,,,,,,informiert,informierte
-408,11,reagieren,"to react, to respond",,,,,,,,reagiert,reagierte
-409,11,äussern,"to utter, to say, to express",,,,,,,,geäussert,äusserte
-410,11,garantieren,to guarantee,,,,,,,,garantiert,garantierte
-411,11,kritisieren,to criticize,,,,,,,,kritisiert,kritisierte
-412,11,ankündigen,"to announce, to declare",,,,,,,,angekündigt,kündigte an
-413,11,aussprechen,"to pronounce, express",,,,,,,,ausgesprochen,sprach aus
-414,11,unterbrechen,to interrupt,,,,,,,,unterbrochen,unterbrach
-415,11,zusagen,"to promise, to accept, to confirm",,,,,,,,zugesagt,sagte zu
-416,11,nachdenken,"to think, to reflect",,,,,,,,nachgedacht,dachte nach
-417,11,zweifeln,to doubt,,,,,,,,gezweifelt,zweifelte
-418,11,einstellen,"to employ someone, to adjust, to cease",,,,,,,,eingestellt,stellte ein
-419,11,bearbeiten,to edit,,,,,,,,bearbeitet,bearbeitete
-420,11,vereinbaren,"to agree, to arrange",,,,,,,,vereinbart,vereinbarte
-421,11,hinweisen,"to indicate, to point out",,,,,,,,hingewiesen,wies hin
-422,11,verwenden,to use (formal),,,,,,,,verwendet,verwendete
-423,11,reinigen,to clean (formal),,,,,,,,gereinigt,reinigte
-424,11,geschehen,"to occur, to happen (formal)",,,,,,,,geschehen,geschah
-425,11,beteiligen,"to take part in something (formal), to consult someone",,,,,,,,beteiligt,beteiligte
-426,11,verfügen,"to have, to possess (formal)",,,,,,,,verfügt,verfügte
-427,11,benötigen,"to need, to require (formal)",,,,,,,,benötigt,benötigte
-428,11,schaffen,"to create, to produce, to achieve/reach a goal",,,,,,,,geschafft,schaffte
-429,11,drucken,to print,,,,,,,,gedruckt,druckte
-430,11,erledigen,"to finish, to take care of, to get something done",,,,,,,,erledigt,erledigte
-431,11,herunterladen,to download,,,,,,,,heruntergeladen,lud herunter
-432,11,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)",,,,,,,,entlassen,entliess
-433,11,verschieben,"to move (a meeting), to postpone, to defer",,,,,,,,verschoben,verschob
-434,11,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)",,,,,,,,ergeben,ergab
-435,11,leiten,"to lead, to manage",,,,,,,,geleitet,leitete
-436,11,handeln,"to act, to trade, to negotiate",,,,,,,,gehandelt,handelte
-437,11,schalten,"to switch, to operate",,,,,,,,geschaltet,schaltete
-438,11,prüfen,"to investigate, to check something, to consider",,,,,,,,geprüft,prüfte
-439,11,untersuchen,"to examine, to investigate",,,,,,,,untersucht,untersuchte
-440,11,auswirken,to impact,,,,,,,,ausgewirkt,wirkte sich aus
-441,12,entwerfen,"to design, to draw, to draft",,,,,,,,entworfen,entwarf
-442,12,entschliessen,to decide (to do something) (refl.),,,,,,,,entschlossen,entschloss
-443,12,reparieren,to repair,,,,,,,,repariert,reparierte
-444,12,unternehmen,to undertake,,,,,,,,unternommen,unternahm
-445,12,präsentieren,"to present, to introduce",,,,,,,,präsentiert,präsentierte
-446,12,auswerten,"to evaluate (objectively), to analyze",,,,,,,,ausgewertet,wertete aus
-447,12,einrichten,"to set up, to install, to furnish",,,,,,,,eingerichtet,richtete ein
-448,12,anerkennen,"to acknowledge, to recognize",,,,,,,,anerkannt,erkannte an
-449,12,verwalten,"to manage, to administer",,,,,,,,verwaltet,verwaltete
-450,12,leisten,"to perform, to afford (refl.)",,,,,,,,geleistet,leistete
-451,12,einführen,"to introduce, to implement",,,,,,,,eingeführt,führte ein
-452,12,einbeziehen,"to include, to involve, to integrate",,,,,,,,einbezogen,bezog ein
-453,12,beitragen,to contribute,,,,,,,,beigetragen,trug bei
-454,12,anwenden,"to apply (knowledge, know-how)",,,,,,,,angewendet,wendete an
-455,12,versorgen,"to provide (for someone), to supply, to feed",,,,,,,,versorgt,versorgte
-456,12,pflegen,"to maintain, to care for (ill/old people)",,,,,,,,gepflegt,pflegte
-457,12,behandeln,"to treat (medicinally), to treat (physically), to cover (a subject)",,,,,,,,behandelt,behandelte
-458,12,erzeugen,"to generate, produce, to create",,,,,,,,erzeugt,erzeugte
-459,12,installieren,"to install, to set up",,,,,,,,installiert,installierte
-460,12,produzieren,"to produce, to manufacture",,,,,,,,produziert,produzierte
-461,12,verarbeiten,"to process, to handle",,,,,,,,verarbeitet,verarbeitete
-462,12,fressen,"to devour, to eat (of an animal), to gorge, to guzzle",,,,,,,,gefressen,frass
-463,12,analysieren,to analyse,,,,,,,,analysiert,analysierte
-464,12,beurteilen,to judge,,,,,,,,beurteilt,beurteilte
-465,12,fördern,"to promote, to support",,,,,,,,gefördert,förderte
-466,12,berichten,"to report, to cover, to indicate, to refer",,,,,,,,berichtet,berichtete
-467,12,werben,to advertise,,,,,,,,geworben,warb
-468,12,beeinflussen,"to influence, to affect",,,,,,,,beeinflusst,beeinflusste
-469,12,zulassen,"to allow, to license (for a car)",,,,,,,,zugelassen,liess zu
-470,12,verurteilen,"to condemn, to sentence (law)",,,,,,,,verurteilt,verurteilte
-471,12,senden,"to broadcast, to send",,,,,,,,gesendet,sandte
-472,12,erfolgen,"to occur, to take place",,,,,,,,erfolgt,erfolgte
-473,12,beugen,to bow,,,,,,,,gebeugt,beugte
-474,12,nicken,to nod,,,,,,,,genickt,nickte
-475,12,fällen,"to fall, to fell",,,,,,,,gefällt,fällte
-476,12,regeln,to regulate,,,,,,,,geregelt,regelte
-477,12,überleben,to survive,,,,,,,,überlebt,überlebte
-478,12,beeindrucken,to impress someone,,,,,,,,beeindruckt,beeindruckte
-479,12,mitkommen,"to come with someone, to understand something",,,,,,,,mitgekommen,kam mit
-480,12,reichen,"to suffice, to be enough",,,,,,,,gereicht,reichte
-481,13,faulenzen,"to chill, to laze around",,,,,,,,gefaulenzt,faulenzte
-482,13,joggen,to jog,,,,,,,,gejoggt,joggte
-483,13,tauschen,"to swap, to trade, to exchange",,,,,,,,getauscht,tauschte
-484,13,leihen,"to lend, to borrow",,,,,,,,geliehen,lieh
-485,13,finanzieren,"to finance, to fund",,,,,,,,finanziert,finanzierte
-486,13,investieren,to invest,,,,,,,,investiert,investierte
-487,13,abheben,to withdraw (money),,,,,,,,abgehoben,hob ab
-488,13,überweisen,to transfer (money),,,,,,,,überwiesen,überwies
-489,13,stärken,to strengthen,,,,,,,,gestärkt,stärkte
-490,13,gefährden,to endanger,,,,,,,,gefährdet,gefährdete
-491,13,erleichtern,to lighten,,,,,,,,erleichtert,erleichterte
-492,13,verlängern,to extend,,,,,,,,verlängert,verlängerte
-493,13,vertiefen,to deepen,,,,,,,,vertieft,vertiefte
-494,13,erweitern,"to expand, to extend, to broaden",,,,,,,,erweitert,erweiterte
-495,13,ermöglichen,"to enable, to facilitate",,,,,,,,ermöglicht,ermöglichte
-496,13,bemerken,"to notice, to remark something",,,,,,,,bemerkt,bemerkte
-497,13,begrüssen,"to welcome, to greet",,,,,,,,begrüsst,begrüsste
-498,13,bemühen,to make an effort,,,,,,,,bemüht,bemühte
-499,13,beschliessen,"to decide something, to end, to close",,,,,,,,beschlossen,beschloss
-500,13,beauftragen,"to instruct, to give an order",,,,,,,,beauftragt,beauftragte
-501,13,berechnen,to calculate something,,,,,,,,berechnet,berechnete
-502,13,bedanken,to thank someone,,,,,,,,bedankt,bedankte
-503,13,beschützen,"to protect, defend (security)",,,,,,,,beschützt,beschützte
-504,13,befreien,to free (make free),,,,,,,,befreit,befreite
-505,13,beschädigen,to damage (objects),,,,,,,,beschädigt,beschädigte
-506,13,beruhigen,to calm,,,,,,,,beruhigt,beruhigte
-507,13,füttern,to feed (an animal),,,,,,,,gefüttert,fütterte
-508,13,betrinken,to get drunk (refl.),,,,,,,,betrunken,betrank
-509,13,frühstücken,to have breakfast,,,,,,,,gefrühstückt,frühstückte
-510,13,gönnen,"to treat, to allow, to grant",,,,,,,,gegönnt,gönnte
-511,13,wetten,to bet,,,,,,,,gewettet,wettete
-512,13,formulieren,"to formulate, to phrase",,,,,,,,formuliert,formulierte
-513,13,meinen,"to be of the opinion, to mean",,,,,,,,gemeint,meinte
-514,13,zögern,to hesitate,,,,,,,,gezögert,zögerte
-515,13,bewundern,to admire,,,,,,,,bewundert,bewunderte
-516,13,umtauschen,"to convert, to exchange (currency)",,,,,,,,umgetauscht,tauschte um
-517,13,verschlechtern,to worsen,,,,,,,,verschlechtert,verschlechterte
-518,13,bezeichnen,"to designate, to label",,,,,,,,bezeichnet,bezeichnete
-519,13,überlassen,"to relinquish, to leave something in someone's care",,,,,,,,überlassen,überliess
-520,13,schreiten,"to stride, to step, to proceed",,,,,,,,geschritten,schritt
-521,14,abkühlen,to cool down,,,,,,,,abgekühlt,kühlte ab
-522,14,verwandeln,"to transform, to metamorphose, to turn something into something",,,,,,,,verwandelt,verwandelte
-523,14,erscheinen,"to appear, to seem",,,,,,,,erschienen,erschien
-524,14,schiessen,to shoot,,,,,,,,geschossen,schoss
-525,14,verraten,"to betray, to reveal",,,,,,,,verraten,verriet
-526,14,starten,"to start (car, airplane, etc), to start a competition",,,,,,,,gestartet,startete
-527,14,akzeptieren,to accept,,,,,,,,akzeptiert,akzeptierte
-528,14,fassen,to grasp,,,,,,,,gefasst,fasste
-529,14,verlangen,to demand,,,,,,,,verlangt,verlangte
-530,14,wenden,"to turn something, to make a u-turn",,,,,,,,gewendet,wendete
-531,14,beachten,to consider,,,,,,,,beachtet,beachtete
-532,14,feststellen,"to ascertain, to establish",,,,,,,,festgestellt,stellte fest
-533,14,rücken,"to move, to shift",,,,,,,,gerückt,rückte
-534,14,landen,to land (a plane),,,,,,,,gelandet,landete
-535,14,klappen,"to clap, to fold, to work (out) (coll.)",,,,,,,,geklappt,klappte
-536,14,behaupten,"to claim, maintain, assert",,,,,,,,behauptet,behauptete
-537,14,auftreten,"to appear, to perform",,,,,,,,aufgetreten,trat auf
-538,14,vergeben,"to set (work), to forgive, to assign",,,,,,,,vergeben,vergab
-539,14,begleiten,"to accompany, to conduct, escort",,,,,,,,begleitet,begleitete
-540,14,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)",,,,,,,,verlaufen,verlief
-541,14,umgehen,"to avoid, to go around",,,,,,,,umgangen,ging um
-542,14,engagieren,"to engage, to commit",,,,,,,,engagiert,engagierte
-543,14,profitieren,"to benefit, to profit",,,,,,,,profitiert,profitierte
-544,14,prägen,"to shape, to influence",,,,,,,,geprägt,prägte
-545,14,reduzieren,"to reduce, to decrease",,,,,,,,reduziert,reduzierte
-546,14,ablehnen,"to reject, to decline, to refuse",,,,,,,,abgelehnt,lehnte ab
-547,14,angeben,"to indicate, to specify",,,,,,,,angegeben,gab an
-548,14,retten,"to save, to rescue",,,,,,,,gerettet,rettete
-549,14,ausfallen,to stand out,,,,,,,,ausgefallen,fiel aus
-550,14,hinterlassen,"to leave, to leave behind, to bequeath",,,,,,,,hinterlassen,hinterliess
-551,14,anpassen,"to adjust, to adapt",,,,,,,,angepasst,passte an
-552,14,ansprechen,"to address, to speak to",,,,,,,,angesprochen,sprach an
-553,14,anzeigen,"to show, to display",,,,,,,,angezeigt,zeigte an
-554,14,aufbauen,"to build up, to construct",,,,,,,,aufgebaut,baute auf
-555,14,ausführen,"to execute, to carry out",,,,,,,,ausgeführt,führte aus
-556,14,beantragen,"to apply for, to request",,,,,,,,beantragt,beantragte
-557,14,bedienen,"to operate, to serve",,,,,,,,bedient,bediente
-558,14,belegen,"to occupy, to reserve, to cover, to prove",,,,,,,,belegt,belegte
-559,14,betonen,"to emphasize, to stress",,,,,,,,betont,betonte
-560,14,betragen,"to amount to, to come to",,,,,,,,betragen,betrug
-561,15,betreiben,"to run, to operate",,,,,,,,betrieben,betrieb
-562,15,durchführen,"to carry out, to perform",,,,,,,,durchgeführt,führte durch
-563,15,eignen,"to suit, to be suitable",,,,,,,,geeignet,eignete
-564,15,organisieren,"to organize, to arrange",,,,,,,,organisiert,organisierte
-565,15,erheben,"to raise, to collect",,,,,,,,erhoben,erhob
-566,15,errichten,"to establish, to erect",,,,,,,,errichtet,errichtete
-567,15,erteilen,"to grant, to issue",,,,,,,,erteilt,erteilte
-568,15,erwerben,"to acquire, to purchase",,,,,,,,erworben,erwarb
-569,15,eröffnen,"to open, to inaugurate",,,,,,,,eröffnet,eröffnete
-570,15,festlegen,"to define, to set",,,,,,,,festgelegt,legte fest
-571,15,fliessen,"to flow, to run",,,,,,,,geflossen,floss
-572,15,gelangen,"to reach, to get to",,,,,,,,gelangt,gelangte
-573,15,gestalten,"to shape, to design",,,,,,,,gestaltet,gestaltete
-574,15,gewährleisten,"to ensure, to guarantee",,,,,,,,gewährleistet,gewährleistete
-575,15,integrieren,"to integrate, to incorporate",,,,,,,,integriert,integrierte
-576,15,löschen,"to delete, to erase",,,,,,,,gelöscht,löschte
-577,15,scheitern,to fail,,,,,,,,gescheitert,scheiterte
-578,15,speichern,"to save, to store",,,,,,,,gespeichert,speicherte
-579,15,sperren,"to block, to lock",,,,,,,,gesperrt,sperrte
-580,15,steigern,"to increase, to boost",,,,,,,,gesteigert,steigerte
-581,15,steuern,"to control, to steer",,,,,,,,gesteuert,steuerte
-582,15,umsetzen,"to implement, to put into practice",,,,,,,,umgesetzt,setzte um
-583,15,unterscheiden,"to distinguish, to differentiate",,,,,,,,unterschieden,unterschied
-584,15,veranstalten,"to organize, to host",,,,,,,,veranstaltet,veranstaltete
-585,15,verbreiten,"to spread, to distribute",,,,,,,,verbreitet,verbreitete
-586,15,verfassen,"to compose, to write",,,,,,,,verfasst,verfasste
-587,15,verleihen,"to award, to grant",,,,,,,,verliehen,verlieh
-588,15,vermitteln,"to mediate, to convey",,,,,,,,vermittelt,vermittelte
-589,15,verpflichten,"to oblige, to commit",,,,,,,,verpflichtet,verpflichtete
-590,15,verfolgen,"to pursue, to persecute, to trace",,,,,,,,verfolgt,verfolgte
-591,15,weisen,"to show, to indicate",,,,,,,,gewiesen,wies
-592,15,widmen,"to dedicate, to devote",,,,,,,,gewidmet,widmete
-593,15,unterhalten,"to maintain, to entertain, to converse (refl.)",,,,,,,,unterhalten,unterhielt
-594,15,aufregen,"to annoy, to upset (refl.)",,,,,,,,aufgeregt,regte auf
-595,15,klingeln,to ring (to produce the sound of a bell or a similar sound),,,,,,,,geklingelt,klingelte
-596,15,telefonieren,to telephone,,,,,,,,telefoniert,telefonierte
-597,15,reiten,"to ride, to ride on the back of someone/something",,,,,,,,geritten,ritt
-598,15,schweigen,"to be silent, to remain silent",,,,,,,,geschwiegen,schwieg
-599,15,verbrennen,"to burn, to incinerate, to burn oneself, to scorch (miltary)",,,,,,,,verbrannt,verbrannte
-600,15,verabschieden,"to disband, to see someone off, to say goodbye (refl.), to adopt (a law, etc.)",,,,,,,,verabschiedet,verabschiedete
-601,16,aussteigen,"to exit, to get off",,,,,,,,ausgestiegen,stieg aus
-602,16,stoppen,to stop a movement (vehicle / person),,,,,,,,gestoppt,stoppte
-603,16,zuhören,to listen to someone/something (with dative),,,,,,,,zugehört,hörte zu
-604,16,brennen,"to burn, to have a strong affection for, to induce pain",,,,,,,,gebrannt,brannte
-605,16,ausrichten,"to align, to arrange, to organize",,,,,,,,,
-606,16,wiegen,"to weight, to balance",,,,,,,,,
-607,16,ausfüllen,"to complete, to fill in, to fill out",,,,,,,,,
-608,16,ausgeben,"to spend, to expend, to issue",,,,,,,,,
-609,16,ausreichen,"to suffice, to be sufficient, to be adequate",,,,,,,,,
-610,16,austauschen,"to exchange, to replace, to swap",,,,,,,,,
-611,16,einnehmen,"to capture, to earn, to ingest",,,,,,,,,
-612,16,einschalten,"to switch on, to intervene, to turn on",,,,,,,,,
-613,16,einziehen,"to move in, to penetrate, to infiltrate",,,,,,,,,
-614,16,fotografieren,"to take a photo, to photograph",,,,,,,,,
-615,16,protestieren,"to protest, to object",,,,,,,,,
-616,16,realisieren,"to realize, to implement, to actualize",,,,,,,,,
-617,16,unterstreichen,"to underline, to emphasize, to highlight",,,,,,,,,
-618,16,verbrauchen,"to consume, to use",,,,,,,,,
-619,16,vorlesen,"to read aloud, to read out",,,,,,,,,
-620,16,zusammenfassen,"to summarize, to condense, to abstract",,,,,,,,,
-621,16,aufführen,"to perform, to present",,,,,,,,,
-622,16,erschrecken,"to be frightened, to frighten",,,,,,,,erschrocken,erschrak
-623,16,einsteigen,"to enter, to get in, to board",,,,,,,,,
-624,16,markieren,"to mark, to highlight",,,,,,,,markiert,markierte
-625,16,begehen,"to commit, perpetrate (a crime, an offence)",,,,,,,,begangen,beging
-626,16,kriegen,"to get after asking or fighting, to wage war",,,,,,,,gekriegt,kriegte
-627,16,existieren,to exist,,,,,,,,existiert,existierte
-628,16,ertragen,"to bear, to stand",,,,,,,,ertragen,ertrug
-629,16,verhaften,"to detain, to take into custody",,,,,,,,verhaftet,verhaftete
-630,16,begegnen,"to encounter (with dative), to meet",,,,,,,,begegnet,begegnete
-631,16,wagen,"to venture, to dare, to risk, to jeopardise",,,,,,,,gewagt,wagte
-632,16,zurückziehen,"to withdraw, to pull back, to retreat",,,,,,,,,
-633,16,basieren,to base,,,,,,,,basiert,basierte
-634,16,schaden,"to damage, to harm (someone)",,,,,,,,geschadet,schadete
-635,16,umdrehen,to turn around,,,,,,,,,
-636,16,zitieren,"to cite, to quote",,,,,,,,zitiert,zitierte
-637,16,anhalten,"to stop (cease moving), to continue, to compel",,,,,,,,angehalten,hielt an
-638,16,absehen,"to foresee, to overlook, to disregard",,,,,,,,abgesehen,sah ab
-639,16,zusehen,"to watch, to see, to make sure (that something happens)",,,,,,,,zugesehen,sah zu
-640,16,auffallen,"to stand out, to catch someone's eye (with dative)",,,,,,,,aufgefallen,fiel auf
-641,17,packen,"to pack, to grab, to manage",,,,,,,,gepackt,packte
-642,17,bewahren,"to keep, to preserve (to maintain the condition of)",,,,,,,,bewahrt,bewahrte
-643,17,verzeihen,"to forgive, to pardon, to excuse",,,,,,,,verziehen,verzieh
-644,17,bestrafen,to punish,,,,,,,,bestraft,bestrafte
-645,17,begeistern,"to enthuse, to be enthusiastic (refl.)",,,,,,,,begeistert,begeisterte
-646,17,stinken,to stink,,,,,,,,gestunken,stank
-647,17,berühren,to touch,,,,,,,,berührt,berührte
-648,17,bekämpfen,to fight against something,,,,,,,,bekämpft,bekämpfte
-649,17,anstellen,"to queue (refl.), to employ someone, to get into mischief",,,,,,,,angestellt,stellte an
-650,17,aktivieren,"to activate, to enable",,,,,,,,aktiviert,aktivierte
-651,17,auftauchen,"to arise, to surface, to turn up",,,,,,,,aufgetaucht,tauchte auf
-652,17,einfallen,"to collapse, to come to mind",,,,,,,,eingefallen,fiel ein
-653,17,aussuchen,"to select, to choose, to pick",,,,,,,,ausgesucht,suchte aus
-654,17,streichen,"to stroke, to cancel, to spread, to rub, to paint",,,,,,,,gestrichen,strich
-655,17,verhandeln,to negotiate,,,,,,,,verhandelt,verhandelte
-656,17,verhalten,"to behave (refl.), to act (refl.), to press (coll.)",,,,,,,,verhalten,verhielt
-657,17,übertreiben,"to exaggerate, to overdo",,,,,,,,übertrieben,übertrieb
-658,17,stürzen,"to fall, to rush, to throw, to overturn, to overthrow something",,,,,,,,gestürzt,stürzte
-659,17,festhalten,"to hold someone/something, to retain something, to record something, to detain",,,,,,,,festgehalten,hielt fest
-660,17,bedrohen,"to threaten, to menace",,,,,,,,bedroht,bedrohte
-661,17,aufgeben,"to give up on, to give up (refl.), to abandon",,,,,,,,aufgegeben,gab auf
-662,17,irren,to err,,,,,,,,geirrt,irrte
-663,17,weitermachen,"go on, keep going, continue to do something",,,,,,,,weitergemacht,machte weiter
-664,17,anschliessen,"to join, to attach, to affiliate, to connect",,,,,,,,,
-665,17,bewirken,"to bring about, to cause, to effect",,,,,,,,,
-666,17,einfügen,"to insert, to infix, to conform",,,,,,,,,
-667,17,erfordern,"to require, to demand, to necessitate",,,,,,,,,
-668,17,ergreifen,"to seize, to grasp, to take hold of",,,,,,,,,
-669,17,erstrecken,"to extend, to span, to bestride",,,,,,,,,
-670,17,fortsetzen,"to continue, to carry on, to extend, to proceed",,,,,,,,,
-671,17,kopieren,"to copy, to duplicate",,,,,,,,,
-672,17,senken,"to lower, to sink, to drop, to reduce",,,,,,,,,
-673,17,überwachen,"to keep under surveillance, to monitor, to observe, to oversee",,,,,,,,,
-674,17,versehen,"to provide, to equip, to supply",,,,,,,,,
-675,17,vorlegen,"to present, to submit, to bring forward",,,,,,,,,
-676,17,winken,to wave,,,,,,,,,
-677,17,zuordnen,"to assign, to allocate",,,,,,,,,
-678,17,ausstellen,"to exhibit, to display",,,,,,,,,
-679,17,bergen,"to recover, to rescue, to save, to salvage",,,,,,,,,
-680,17,biegen,"to turn, to bend",,,,,,,,,
-681,100,binden,"to bind, to tie, to tie up, to absorb",,,,,,,,,
-682,100,blühen,to bloom,,,,,,,,,
-683,100,dringen,to penetrate,,,,,,,,,
-684,100,frieren,"to freeze, to be cold",,,,,,,,,
-685,100,giessen,"to pour, to cast, to water",,,,,,,,,
-686,100,gleiten,"to glide, to slide",,,,,,,,,
-687,100,klagen,"to complain, to lament, to sue",,,,,,,,,
-688,100,kleben,"to stick, to adhere, to bond, to glue",,,,,,,,,
-689,100,klopfen,"to knock, to tap (food)",,,,,,,,,
-690,100,lehren,,,,,,,,,,
-691,100,operieren,,,,,,,,,,
-692,100,ordnen,,,,,,,,,,
-693,100,saugen,,,,,,,,,,
-694,100,schleichen,,,,,,,,,,
-695,100,stechen,,,,,,,,,,
-696,100,trocknen,,,,,,,,,,
-697,100,umstellen,,,,,,,,,,
-698,100,vorkommen,,,,,,,,,,
-699,100,abbauen,,,,,,,,,,
-700,100,abbilden,,,,,,,,,,
-701,100,abbrechen,,,,,,,,,,
-702,100,abhängen,,,,,,,,,,
-703,100,ablaufen,,,,,,,,,,
-704,100,ableiten,,,,,,,,,,
-705,100,ablösen,,,,,,,,,,
-706,100,abschneiden,,,,,,,,,,
-707,100,abstimmen,,,,,,,,,,
-708,100,abweichen,,,,,,,,,,
-709,100,abwenden,,,,,,,,,,
-710,100,abziehen,,,,,,,,,,
-711,100,agieren,,,,,,,,,,
-712,100,anführen,,,,,,,,,,
-713,100,anregen,,,,,,,,,,
-714,100,anschaffen,,,,,,,,,,
-715,100,ansiedeln,,,,,,,,,,
-716,100,aufbrechen,,,,,,,,,,
-717,100,auffordern,,,,,,,,,,
-718,100,aufhalten,,,,,,,,,,
-719,100,aufheben,,,,,,,,,,
-720,101,aufklären,,,,,,,,,,
-721,101,aufladen,,,,,,,,,,
-722,101,auflösen,,,,,,,,,,
-723,101,aufschreiben,,,,,,,,,,
-724,101,aufsteigen,,,,,,,,,,
-725,101,ausdrucken,,,,,,,,,,
-726,101,auslösen,,,,,,,,,,
-727,101,ausmachen,,,,,,,,,,
-728,101,ausüben,,,,,,,,,,
-729,101,befürchten,,,,,,,,,,
-730,101,begeben,,,,,,,,,,
-731,101,beherrschen,,,,,,,,,,
-732,101,beklagen,,,,,,,,,,
-733,101,belasten,,,,,,,,,,
-734,101,benennen,,,,,,,,,,
-735,101,berechtigen,,,,,,,,,,
-736,101,besetzen,,,,,,,,,,
-737,101,bremsen,,,,,,,,,,
-738,101,dokumentieren,,,,,,,,,,
-739,101,drängen,,,,,,,,,,
-740,101,eilen,,,,,,,,,,
-741,101,einleiten,,,,,,,,,,
-742,101,einreichen,,,,,,,,,,
-743,101,einschlagen,,,,,,,,,,
-744,101,einschränken,,,,,,,,,,
-745,101,eintragen,,,,,,,,,,
-746,101,eintreten,,,,,,,,,,
-747,101,entgegenkommen,,,,,,,,,,
-748,101,erarbeiten,,,,,,,,,,
-749,101,erforschen,,,,,,,,,,
-750,101,erkundigen,,,,,,,,,,
-751,101,erleiden,,,,,,,,,,
-752,101,erregen,,,,,,,,,,
-753,101,erziehen,,,,,,,,,,
-754,101,festnehmen,,,,,,,,,,
-755,101,festsetzen,,,,,,,,,,
-756,101,interpretieren,,,,,,,,,,
-757,101,klettern,,,,,,,,,,
-758,101,kombinieren,,,,,,,,,,
-759,101,konsumieren,,,,,,,,,,
-760,102,konzipieren,,,,,,,,,,
-761,102,lenken,"to guide, to direct, to steer, to control",,,,,,,,,
-762,102,motivieren,,,,,,,,,,
-763,102,nachweisen,,,,,,,,,,
-764,102,notieren,,,,,,,,,,
-765,102,nähern,,,,,,,,,,
-766,102,orientieren,,,,,,,,,,
-767,102,parken,,,,,,,,,,
-768,102,rechtfertigen,,,,,,,,,,
-769,102,renovieren,,,,,,,,,,
-770,102,schimpfen,,,,,,,,,,
-771,102,schwingen,,,,,,,,,,
-772,102,schütteln,,,,,,,,,,
-773,102,spezialisieren,,,,,,,,,,
-774,102,streiken,,,,,,,,,,
-775,102,strukturieren,,,,,,,,,,
-776,102,tauchen,"to dive, to submerge, to disappear",,,,,,,,,
-777,102,transportieren,,,,,,,,,,
-778,102,umarmen,,,,,,,,,,
-779,102,verdanken,,,,,,,,,,
-780,102,verdoppeln,,,,,,,,,,
-781,102,vereinfachen,,,,,,,,,,
-782,102,verknüpfen,,,,,,,,,,
-783,102,verkünden,,,,,,,,,,
-784,102,verpacken,,,,,,,,,,
-785,102,verschreiben,,,,,,,,,,
-786,102,versichern,,,,,,,,,,
-787,102,vertreiben,,,,,,,,,,
-788,102,verwirklichen,,,,,,,,,,
-789,102,voraussetzen,,,,,,,,,,
-790,102,vorbeugen,,,,,,,,,,
-791,102,wahrnehmen,,,,,,,,,,
-792,102,weitergeben,,,,,,,,,,
-793,102,widersprechen,,,,,,,,,,
-794,102,wundern,"to wonder, to be surprised",,,,,,,,,
-795,102,zugehen,,,,,,,,,,
-796,102,zulegen,,,,,,,,,,
-797,102,zurückgeben,,,,,,,,,,
-798,102,zurückhalten,,,,,,,,,,
-799,102,zusammenarbeiten,,,,,,,,,,
-800,102,zusammenstellen,,,,,,,,,,
-801,102,überholen,,,,,,,,,,
-802,102,übernachten,,,,,,,,,,
-803,102,überqueren,,,,,,,,,,
-804,102,überschreiten,,,,,,,,,,
-805,103,ermitteln,"to determine, to ascertain",,,,,,,,ermittelt,ermittelte
-806,103,klicken,to click,,,,,,,,geklickt,klickte
-807,103,kommentieren,to comment,,,,,,,,kommentiert,kommentierte
-808,103,angehen,"to concern, to tackle (a problem), to turn on (a machine)",,,,,,,,angegangen,ging an
-809,103,verteidigen,to defend,,,,,,,,verteidigt,verteidigte
-810,103,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",,,,,,,,eingegangen,ging ein
-811,103,betreffen,"to concern, to affect",,,,,,,,betroffen,betraf
-812,103,herrschen,"to rule, to prevail, to control",,,,,,,,geherrscht,herrschte
-813,103,anlegen,"to create, to invest",,,,,,,,angelegt,legte an
-814,103,antreten,"to begin, to compete",,,,,,,,angetreten,trat an
-815,103,aufstellen,"to set up, to establish",,,,,,,,aufgestellt,stellte auf
-816,103,ausbauen,"to expand, to develop",,,,,,,,ausgebaut,baute aus
-817,103,ausschliessen,"to exclude, to eliminate",,,,,,,,ausgeschlossen,schloss aus
-818,103,ausstatten,"to equip, to outfit",,,,,,,,ausgestattet,stattete aus
-819,103,auszeichnen,"to honor, to distinguish",,,,,,,,ausgezeichnet,zeichnete aus
-820,103,betrachten,"to view, to observe",,,,,,,,betrachtet,betrachtete
-821,103,beziehen,"to refer, to obtain",,,,,,,,bezogen,bezog
-822,103,drohen,to threaten,,,,,,,,gedroht,drohte
-823,103,durchsetzen,"to enforce, to assert",,,,,,,,durchgesetzt,setzte durch
-824,103,erfassen,"to record, to capture",,,,,,,,erfasst,erfasste
-825,103,registrieren,"to register, to enroll",,,,,,,,registriert,registrierte
-826,103,erläutern,"to explain, to clarify",,,,,,,,erläutert,erläuterte
-827,103,erweisen,"to prove (passively), to turn out to be, to show",,,,,,,,erwiesen,erwies
-828,103,genügen,"to suffice, to satisfy",,,,,,,,genügt,genügte
-829,103,kehren,"to return, to sweep",,,,,,,,gekehrt,kehrte
-830,103,umfassen,"to include, to comprise",,,,,,,,umfasst,umfasste
-831,103,unterliegen,"to be subject to, to undergo",,,,,,,,unterlegen,unterlag
-832,103,verweisen,"to refer, to direct",,,,,,,,verwiesen,verwies
-833,103,vorliegen,"to exist, to be available",,,,,,,,vorgelegen,lag vor
-834,103,vornehmen,"to undertake, to carry out",,,,,,,,vorgenommen,nahm vor
-835,103,vorsehen,"to plan, to provide for",,,,,,,,vorgesehen,sah vor
-836,104,schälen,to peel,,,,,,,,geschält,schälte
-837,104,behindern,"to obstruct, to hamper",,,,,,,,,
-838,104,hetzen,"to rush, to hurry",,,,,,,,,
-839,104,verschweigen,to conceal,,,,,,,,,
-840,104,definieren,to define,,,,,,,,definiert,definierte
-841,104,befördern,to transport,,,,,,,,,
-842,104,umbringen,"to kill, to murder, to be very angry at someone",,,,,,,,umgebracht,brachte um
-843,104,gebrauchen,"to use, to make use of",,,,,,,,gebraucht,gebrauchte
-844,104,hingehen,"to go (there), (of time) to pass",,,,,,,,hingegangen,ging hin
-845,104,schwören,"to swear, to take an oath",,,,,,,,geschworen,schwor
-846,104,angreifen,to attack,,,,,,,,angegriffen,griff an
-847,104,übergeben,"to hand over, to vomit (refl.)",,,,,,,,übergeben,übergab
-848,104,vernichten,"to destroy, to ruin, to annihilate, to eradicate",,,,,,,,vernichtet,vernichtete
-849,104,heilen,to heal,,,,,,,,geheilt,heilte
-850,104,zurückkehren,to return,,,,,,,,zurückgekehrt,kehrte zurück
-851,104,stützen,"to support, to back, to hold something up, to bolster",,,,,,,,gestützt,stützte
-852,104,rollen,to roll,,,,,,,,gerollt,rollte
-853,104,züchten,"to breed, to grow",,,,,,,,,
-854,104,wehren,"to defend, to resist",,,,,,,,gewehrt,wehrte
-855,104,sondern,"to separate, to split",,,,,,,,gesondert,sonderte
-856,104,herkommen,"to come over, come here (towards the speaker), to come from",,,,,,,,hergekommen,kam her
-857,104,betrügen,"to cheat, to swindle, to defraud",,,,,,,,betrogen,betrog
-858,104,loswerden,to get rid of someone/something,,,,,,,,losgeworden,wurde los
-859,104,erfreuen,"to please, to enjoy (refl.)",,,,,,,,erfreut,erfreute
-860,104,beibringen,"to teach, to break (news, information) carefully to, to inflict",,,,,,,,beigebracht,brachte bei
-861,104,weggehen,"to go away, to leave",,,,,,,,weggegangen,ging weg
-862,104,einigen,,,,,,,,,,
-863,104,gleichen,"to equal, to match, to resemble",,,,,,,,geglichen,glich
-864,104,reissen,,,,,,,,,,
-865,104,hauen,"to slash, to cut, to hit (coll.)",,,,,,,,gehauen,haute
-866,104,versagen,"to fail, to refuse, to deny",,,,,,,,versagt,versagte
-867,104,preisen,"to praise, to commend",,,,,,,,gepriesen,pries
-868,104,verschwenden,"to squander, to waste",,,,,,,,verschwendet,verschwendete
-869,104,identifizieren,to identify,,,,,,,,identifiziert,identifizierte
-870,104,schmelzen,to melt,,,,,,,,geschmolzen,schmolz
-871,104,importieren,to import,,,,,,,,importiert,importierte
-872,104,verbergen,to conceal sth: to hide something,,,,,,,,verborgen,verbarg
-873,104,weitergehen,"to continue, to proceed, to keep moving",,,,,,,,weitergegangen,ging weiter
-874,104,versetzen,"to put, to move, to deal, to give (a blow, hit), to transfer (when to do with work)",,,,,,,,versetzt,versetzte
-875,104,beleidigen,"to offend someone, to insult someone",,,,,,,,beleidigt,beleidigte
-876,104,verabreden,"to arrange, to make an appointment",,,,,,,,verabredet,verabredete
-877,104,anhören,to listen to someone,,,,,,,,angehört,hörte an
-878,104,aussetzen,"to pause, to suspend something, to abandon someone, to expose oneself to something (refl.)",,,,,,,,ausgesetzt,setzte aus
-879,104,trauen,"to trust, to marry, to dare (refl.)",,,,,,,,getraut,traute
-880,104,abrufen,,,,,,,,,,
-881,104,aufweisen,,,,,,,,,,
-882,104,bedenken,,,,,,,,,,
-883,104,beeinträchtigen,,,,,,,,,,
-884,104,befassen,,,,,,,,,,
-885,104,beinhalten,,,,,,,,,,
-886,104,bereitstellen,,,,,,,,,,
-887,104,beruhen,,,,,,,,,,
-888,104,beschleunigen,"to accelerate, to speed up",,,,,,,,,
-889,104,verzehren,to consumme (with your mouth),,,,,,,,,
-890,104,einschliessen,,,,,,,,,,
-891,104,eingeben,,,,,,,,,,
-892,104,erlassen,,,,,,,,,,
-893,104,formen,,,,,,,,,,
-894,104,fügen,,,,,,,,,,
-895,104,gestatten,,,,,,,,,,
-896,104,gewähren,,,,,,,,,,
-897,104,meistern,,,,,,,,,,
-898,104,qualifizieren,,,,,,,,,,
-899,104,scheren,,,,,,,,,,
-900,104,sicherstellen,,,,,,,,,,
-901,104,umgeben,,,,,,,,,,
-902,104,verringern,,,,,,,,,,
-903,104,verstärken,,,,,,,,,,
-904,104,vorgehen,,,,,,,,,,
-905,104,vorwerfen,,,,,,,,,,
-906,104,auskommen,,,,,,,,,,
-907,104,baden,,,,,,,,,,
-908,104,befehlen,,,,,,,,,,
-909,104,beleben,,,,,,,,,,
-910,104,blasen,,,,,,,,,,
-911,104,blitzen,,,,,,,,,,
-912,104,brüllen,,,,,,,,,,
-913,104,demonstrieren,,,,,,,,,,
-914,104,deuten,,,,,,,,,,
-915,104,einbauen,,,,,,,,,,
-916,104,erlöschen,,,,,,,,,,
-917,104,erschöpfen,,,,,,,,,,
-918,104,gedeihen,,,,,,,,,,
-919,104,graben,,,,,,,,,,
-920,104,grüssen,,,,,,,,,,
-921,104,heizen,,,,,,,,,,
-922,104,herausfordern,,,,,,,,,,
-923,104,isolieren,,,,,,,,,,
-924,104,lauschen,"to listen, to eavesdrop",,,,,,,,,
-925,104,leuchten,,,,,,,,,,
-926,104,locken,,,,,,,,,,
-927,104,managen,,,,,,,,,,
-928,104,nützen,,,,,,,,,,
-929,104,pfeifen,,,,,,,,,,
-930,104,plagen,,,,,,,,,,
-931,104,reizen,,,,,,,,,,
-932,104,ringen,,,,,,,,,,
-933,104,ruhen,,,,,,,,,,
-934,104,rühren,,,,,,,,,,
-935,104,schleifen,,,,,,,,,,
-936,104,schweben,,,,,,,,,,
-937,104,schwitzen,,,,,,,,,,
-938,104,siegen,,,,,,,,,,
-939,104,strahlen,,,,,,,,,,
-940,104,streben,,,,,,,,,,
-941,104,strecken,,,,,,,,,,
-942,104,toben,,,,,,,,,,
-943,104,überwinden,,,,,,,,,,
-944,104,verderben,,,,,,,,,,
-945,104,vereinigen,,,,,,,,,,
-946,104,verkehren,,,,,,,,,,
-947,104,verwechseln,,,,,,,,,,
-948,104,verweigern,,,,,,,,,,
-949,104,würzen,,,,,,,,,,
-950,104,zaubern,,,,,,,,,,
-951,104,zerschlagen,,,,,,,,,,
-952,104,zittern,,,,,,,,,,
-953,104,abbiegen,,,,,,,,,,
-954,104,abdecken,,,,,,,,,,
-955,104,abgrenzen,,,,,,,,,,
-956,104,abhalten,,,,,,,,,,
-957,104,ablegen,,,,,,,,,,
-958,104,abonnieren,,,,,,,,,,
-959,104,abrechnen,,,,,,,,,,
-960,104,abschalten,,,,,,,,,,
-961,104,abschreiben,,,,,,,,,,
-962,104,absetzen,,,,,,,,,,
-963,104,abspielen,,,,,,,,,,
-964,104,abstellen,,,,,,,,,,
-965,104,abwarten,,,,,,,,,,
-966,104,abwickeln,,,,,,,,,,
-967,104,abzeichnen,,,,,,,,,,
-968,104,ahnen,,,,,,,,,,
-969,104,anbringen,,,,,,,,,,
-970,104,andeuten,,,,,,,,,,
-971,104,anfallen,,,,,,,,,,
-972,104,angehören,,,,,,,,,,
-973,104,angucken,,,,,,,,,,
-974,104,animieren,,,,,,,,,,
-975,104,anklagen,,,,,,,,,,
-976,104,anklicken,,,,,,,,,,
-977,104,anmerken,,,,,,,,,,
-978,104,anordnen,,,,,,,,,,
-979,104,anrichten,,,,,,,,,,
-980,104,ansetzen,,,,,,,,,,
-981,104,anstehen,,,,,,,,,,
-982,104,ansteigen,to increase,,,,,,,,,
-983,104,anstreben,,,,,,,,,,
-984,104,anstrengen,,,,,,,,,,
-985,104,anvertrauen,,,,,,,,,,
-986,104,aufbewahren,,,,,,,,,,
-987,104,aufbringen,,,,,,,,,,
-988,104,aufgehen,,,,,,,,,,
-989,104,aufkommen,,,,,,,,,,
-990,104,auflegen,,,,,,,,,,
-991,104,auflisten,,,,,,,,,,
-992,104,aufrufen,,,,,,,,,,
-993,104,aufschlagen,,,,,,,,,,
-994,104,aufsetzen,,,,,,,,,,
-995,104,aufsuchen,,,,,,,,,,
-996,104,auftragen,,,,,,,,,,
-997,104,aufzeigen,,,,,,,,,,
-998,104,aufziehen,,,,,,,,,,
-999,104,ausblenden,,,,,,,,,,
-1000,104,ausbrechen,,,,,,,,,,
-1001,104,ausbreiten,,,,,,,,,,
-1002,104,ausdehnen,,,,,,,,,,
-1003,104,ausdrücken,,,,,,,,,,
-1004,104,auseinandersetzen,,,,,,,,,,
-1005,104,ausgleichen,,,,,,,,,,
-1006,104,aushalten,,,,,,,,,,
-1007,104,auslegen,,,,,,,,,,
-1008,104,ausleihen,,,,,,,,,,
-1009,104,ausnehmen,,,,,,,,,,
-1010,104,ausnutzen,,,,,,,,,,
-1011,104,auspacken,,,,,,,,,,
-1012,104,ausprobieren,,,,,,,,,,
-1013,104,ausrüsten,,,,,,,,,,
-1014,104,ausschalten,,,,,,,,,,
-1015,104,ausscheiden,,,,,,,,,,
-1016,104,ausstrahlen,,,,,,,,,,
-1017,104,austragen,,,,,,,,,,
-1018,104,austreten,,,,,,,,,,
-1019,104,ausweichen,,,,,,,,,,
-1020,104,ausweisen,,,,,,,,,,
-1021,104,basteln,,,,,,,,,,
-1022,104,beabsichtigen,,,,,,,,,,
-1023,104,bedauern,,,,,,,,,,
-1024,104,bedecken,,,,,,,,,,
-1025,104,bedürfen,,,,,,,,,,
-1026,104,befestigen,,,,,,,,,,
-1027,104,befragen,,,,,,,,,,
-1028,104,befriedigen,,,,,,,,,,
-1029,104,begreifen,,,,,,,,,,
-1030,104,begrenzen,,,,,,,,,,
-1031,104,beitreten,,,,,,,,,,
-1032,104,bekanntgeben,,,,,,,,,,
-1033,104,beleuchten,,,,,,,,,,
-1034,104,bemalen,,,,,,,,,,
-1035,104,bemessen,,,,,,,,,,
-1036,104,berufen,,,,,,,,,,
-1037,104,beschaffen,,,,,,,,,,
-1038,104,beschuldigen,,,,,,,,,,
-1039,104,beseitigen,,,,,,,,,,
-1040,104,bestreiten,,,,,,,,,,
-1041,104,betreten,,,,,,,,,,
-1042,104,bewohnen,,,,,,,,,,
-1043,104,bewähren,,,,,,,,,,
-1044,104,blättern,,,,,,,,,,
-1045,104,bohren,,,,,,,,,,
-1046,104,charakterisieren,,,,,,,,,,
-1047,104,dastehen,,,,,,,,,,
-1048,104,dekorieren,,,,,,,,,,
-1049,104,dominieren,,,,,,,,,,
-1050,104,dulden,,,,,,,,,,
-1051,104,durchgehen,,,,,,,,,,
-1052,104,durchziehen,,,,,,,,,,
-1053,104,einarbeiten,,,,,,,,,,
-1054,104,einbrechen,,,,,,,,,,
-1055,104,einbringen,,,,,,,,,,
-1056,104,eindringen,,,,,,,,,,
-1057,104,eingestehen,,,,,,,,,,
-1058,104,eingreifen,,,,,,,,,,
-1059,104,einhalten,,,,,,,,,,
-1060,104,einholen,,,,,,,,,,
-1061,104,einlassen,,,,,,,,,,
-1062,104,einlegen,,,,,,,,,,
-1063,104,einpacken,,,,,,,,,,
-1064,104,einräumen,,,,,,,,,,
-1065,104,einsammeln,,,,,,,,,,
-1066,104,einschätzen,,,,,,,,,,
-1067,104,einsehen,,,,,,,,,,
-1068,104,eintreffen,,,,,,,,,,
-1069,104,einzahlen,,,,,,,,,,
-1070,104,entfallen,,,,,,,,,,
-1071,104,entfalten,,,,,,,,,,
-1072,104,entgehen,,,,,,,,,,
-1073,104,entnehmen,,,,,,,,,,
-1074,104,entschärfen,,,,,,,,,,
-1075,104,entsorgen,,,,,,,,,,
-1076,104,erbringen,,,,,,,,,,
-1077,104,ereignen,,,,,,,,,,
-1078,104,erhoffen,,,,,,,,,,
-1079,104,erkranken,,,,,,,,,,
-1080,104,erlangen,,,,,,,,,,
-1081,104,erlernen,,,,,,,,,,
-1082,104,ernten,,,,,,,,,,
-1083,104,erschliessen,,,,,,,,,,
-1084,104,ersparen,,,,,,,,,,
-1085,104,erstatten,,,,,,,,,,
-1086,104,erwachen,,,,,,,,,,
-1087,104,erwecken,,,,,,,,,,
-1088,104,erwidern,,,,,,,,,,
-1089,104,erwischen,,,,,,,,,,
-1090,104,erörtern,,,,,,,,,,
-1091,104,etablieren,,,,,,,,,,
-1092,104,feststehen,,,,,,,,,,
-1093,104,fixieren,,,,,,,,,,
-1094,104,flüchten,,,,,,,,,,
-1095,104,freigeben,,,,,,,,,,
-1096,104,fungieren,,,,,,,,,,
-1097,104,genehmigen,,,,,,,,,,
-1098,104,gestehen,,,,,,,,,,
-1099,104,gratulieren,,,,,,,,,,
-1100,104,grinsen,,,,,,,,,,
-1101,104,hacken,,,,,,,,,,
-1102,104,haften,,,,,,,,,,
-1103,104,hegen,,,,,,,,,,
-1104,104,herausgeben,,,,,,,,,,
-1105,104,herauskommen,,,,,,,,,,
-1106,104,herausnehmen,,,,,,,,,,
-1107,104,herausstellen,,,,,,,,,,
-1108,104,hervorgehen,,,,,,,,,,
-1109,104,hervorrufen,,,,,,,,,,
-1110,104,hinausgehen,,,,,,,,,,
-1111,104,hinnehmen,,,,,,,,,,
-1112,104,hochladen,,,,,,,,,,
-1113,104,hocken,,,,,,,,,,
-1114,104,ignorieren,,,,,,,,,,
-1115,104,infizieren,,,,,,,,,,
-1116,104,inszenieren,,,,,,,,,,
-1117,104,interviewen,,,,,,,,,,
-1118,104,kalkulieren,,,,,,,,,,
-1119,104,kennzeichnen,,,,,,,,,,
-1120,104,knacken,,,,,,,,,,
-1121,104,kommunizieren,,,,,,,,,,
-1122,104,kompensieren,,,,,,,,,,
-1123,104,komponieren,,,,,,,,,,
-1124,104,konfrontieren,,,,,,,,,,
-1125,104,konstruieren,,,,,,,,,,
-1126,104,kontaktieren,,,,,,,,,,
-1127,104,kreisen,,,,,,,,,,
-1128,104,kürzen,,,,,,,,,,
-1129,104,lagern,,,,,,,,,,
-1130,104,langweilen,,,,,,,,,,
-1131,104,lauern,,,,,,,,,,
-1132,104,lehnen,to lean,,,,,,,,,
-1133,104,losgehen,,,,,,,,,,
-1134,104,loslassen,,,,,,,,,,
-1135,104,mahnen,,,,,,,,,,
-1136,104,mangeln,,,,,,,,,,
-1137,104,manipulieren,,,,,,,,,,
-1138,104,mitwirken,,,,,,,,,,
-1139,104,modernisieren,,,,,,,,,,
-1140,104,nachfolgen,,,,,,,,,,
-1141,104,nachfragen,,,,,,,,,,
-1142,104,nachgehen,,,,,,,,,,
-1143,104,neigen,,,,,,,,,,
-1144,104,nominieren,,,,,,,,,,
-1145,104,nähen,,,,,,,,,,
-1146,104,optimieren,,,,,,,,,,
-1147,104,platzen,,,,,,,,,,
-1148,104,platzieren,,,,,,,,,,
-1149,104,plädieren,,,,,,,,,,
-1150,104,pressen,,,,,,,,,,
-1151,104,promovieren,,,,,,,,,,
-1152,104,publizieren,,,,,,,,,,
-1153,104,rauben,,,,,,,,,,
-1154,104,recherchieren,,,,,,,,,,
-1155,104,recyceln,,,,,,,,,,
-1156,104,reflektieren,,,,,,,,,,
-1157,104,regieren,,,,,,,,,,
-1158,104,reiben,,,,,,,,,,
-1159,104,repräsentieren,,,,,,,,,,
-1160,104,resultieren,,,,,,,,,,
-1161,104,rutschen,,,,,,,,,,
-1162,104,scannen,,,,,,,,,,
-1163,104,schildern,,,,,,,,,,
-1164,104,schleppen,,,,,,,,,,
-1165,104,schrumpfen,,,,,,,,,,
-1166,104,schwinden,,,,,,,,,,
-1167,104,schämen,,,,,,,,,,
-1168,104,segeln,,,,,,,,,,
-1169,104,sortieren,,,,,,,,,,
-1170,104,spannen,,,,,,,,,,
-1171,104,spiegeln,,,,,,,,,,
-1172,104,stabilisieren,,,,,,,,,,
-1173,104,synchronisieren,,,,,,,,,,
-1174,104,tippen,,,,,,,,,,
-1175,104,trösten,,,,,,,,,,
-1176,104,twittern,,,,,,,,,,
-1177,104,täuschen,,,,,,,,,,
-1178,104,umbauen,,,,,,,,,,
-1179,104,umsteigen,,,,,,,,,,
-1180,104,umwandeln,,,,,,,,,,
-1181,104,unterbreiten,,,,,,,,,,
-1182,104,unterbringen,,,,,,,,,,
-1183,104,unterdrücken,,,,,,,,,,
-1184,104,untergehen,,,,,,,,,,
-1185,104,unterlassen,,,,,,,,,,
-1186,104,unterlaufen,,,,,,,,,,
-1187,104,unterschätzen,,,,,,,,,,
-1188,104,unterstellen,,,,,,,,,,
-1189,104,veranlassen,,,,,,,,,,
-1190,104,veranschaulichen,,,,,,,,,,
-1191,104,verbleiben,to remain,,,,,,,,,
-1192,104,verdeutlichen,,,,,,,,,,
-1193,104,verdrängen,,,,,,,,,,
-1194,104,vereinen,,,,,,,,,,
-1195,104,verfallen,,,,,,,,,,
-1196,104,vergehen,,,,,,,,,,
-1197,104,verlegen,,,,,,,,,,
-1198,104,vermieten,,,,,,,,,,
-1199,104,vermindern,,,,,,,,,,
-1200,104,vermögen,,,,,,,,,,
-1201,104,vernachlässigen,,,,,,,,,,
-1202,104,vernehmen,,,,,,,,,,
-1203,104,versammeln,,,,,,,,,,
-1204,104,verschaffen,,,,,,,,,,
-1205,104,verschenken,,,,,,,,,,
-1206,104,verschicken,,,,,,,,,,
-1207,104,verschliessen,,,,,,,,,,
-1208,104,verschärfen,,,,,,,,,,
-1209,104,verschönern,,,,,,,,,,
-1210,104,versenden,,,,,,,,,,
-1211,104,versteigern,,,,,,,,,,
-1212,104,verständigen,,,,,,,,,,
-1213,104,versäumen,,,,,,,,,,
-1214,104,verwundern,,,,,,,,,,
-1215,104,verzeichnen,,,,,,,,,,
-1216,104,vollziehen,,,,,,,,,,
-1217,104,vorangehen,,,,,,,,,,
-1218,104,vorankommen,,,,,,,,,,
-1219,104,vorbeikommen,,,,,,,,,,
-1220,104,vorschreiben,,,,,,,,,,
-1221,104,vortragen,,,,,,,,,,
-1222,104,vorziehen,,,,,,,,,,
-1223,104,wandeln,,,,,,,,,,
-1224,104,wegnehmen,,,,,,,,,,
-1225,104,wehen,,,,,,,,,,
-1226,104,weigern,,,,,,,,,,
-1227,104,weiterführen,,,,,,,,,,
-1228,104,weiterleiten,,,,,,,,,,
-1229,104,widerstehen,,,,,,,,,,
-1230,104,wohlfühlen,,,,,,,,,,
-1231,104,zucken,,,,,,,,,,
-1232,104,zuführen,,,,,,,,,,
-1233,104,zukommen,,,,,,,,,,
-1234,104,zurückblicken,,,,,,,,,,
-1235,104,zurückführen,,,,,,,,,,
-1236,104,zurückgreifen,,,,,,,,,,
-1237,104,zurücklegen,,,,,,,,,,
-1238,104,zurücktreten,,,,,,,,,,
-1239,104,zurückweisen,,,,,,,,,,
-1240,104,zusammenhängen,,,,,,,,,,
-1241,104,zusammenkommen,,,,,,,,,,
-1242,104,zusammensetzen,,,,,,,,,,
-1243,104,zuschauen,,,,,,,,,,
-1244,104,zustehen,,,,,,,,,,
-1245,104,zutrauen,,,,,,,,,,
-1246,104,zutreffen,,,,,,,,,,
-1247,104,zuwenden,,,,,,,,,,
-1248,104,ähneln,,,,,,,,,,
-1249,104,überarbeiten,,,,,,,,,,
-1250,104,übereinstimmen,,,,,,,,,,
-1251,104,überfordern,,,,,,,,,,
-1252,104,übergehen,,,,,,,,,,
-1253,104,überreden,,,,,,,,,,
-1254,104,überreichen,,,,,,,,,,
-1255,104,überschreiben,,,,,,,,,,
-1256,104,übersehen,,,,,,,,,,
-1257,104,überstehen,,,,,,,,,,
-1258,104,überziehen,,,,,,,,,,
-1259,104,vorweisen,to demonstrate,,,,,,,,,
-1260,104,erschiessen,to shoot dead,,,,,,,,erschossen,erschoss
-1261,104,hindern,to prevent somebody from doing something,,,,,,,,gehindert,hinderte
-1262,105,gedenken,"to commemorate, to remember",,,,,,,,gedacht,gedachte
-1263,105,modern,to modernize,,,,,,,,modernisiert,modernisierte
-1264,105,sieben,"to sieve, to filter",,,,,,,,gesiebt,siebte
-1265,106,schmerzen,"to hurt, to ache",,,,,,,,geschmerzt,schmerzte
-1266,106,verheiraten,"to marry (to perform the marriage), to get married (refl.)",verheirate,verheiratest,verheiratet,verheiraten,verheiratet,verheiraten,,verheiratet,verheiratete
-1267,106,stricken,to knit,,,,,,,,gestrickt,strickte
-1268,106,unterzeichnen,to sign (formal),,,,,,,,unterzeichnet,unterzeichnete
-1269,106,erwärmen,to warm,,,,,,,,,
-1270,106,verkleinern,to reduce,,,,,,,,,
-1271,106,säubern,to clean,,,,,,,,,
-1272,106,verkürzen,to shorten,,,,,,,,,
-1273,106,verlangsamen,to slow down,,,,,,,,,
-1274,106,ermorden,to murder,,,,,,,,ermordet,ermordete
-1275,106,ruinieren,to ruin,,,,,,,,ruiniert,ruinierte
-1276,106,scheissen,to shit,,,,,,,,geschissen,schiss
-1277,106,verzweifeln,to despair,,,,,,,,verzweifelt,verzweifelte
-1278,106,vergiften,to poison,,,,,,,,vergiftet,vergiftete
-1279,106,antun,"to do something to someone, to appeal to someone",,,,,,,,angetan,tat an
-1280,106,quellen,"to soak, to swell",,,,,,,,gequollen,quoll
-1281,106,saufen,"to drink (animals), to booze",,,,,,,,gesoffen,soff
-1282,106,rinnen,,,,,,,,,,
-1283,106,schwellen,,,,,,,,,,
-1284,106,weben,,,,,,,,,,
-1285,106,angeln,,,,,,,,,,
-1286,106,anhaben,,,,,,,,,,
-1287,106,beissen,,,,,,,,,,
-1288,106,bersten,,,,,,,,,,
-1289,106,erkälten,,,,,,,,,,
-1290,106,falten,,,,,,,,,,
-1291,106,fechten,,,,,,,,,,
-1292,106,genesen,,,,,,,,,,
-1293,106,husten,,,,,,,,,,
-1294,106,kneifen,,,,,,,,,,
-1295,106,rauschen,,,,,,,,,,
-1296,106,schmeissen,,,,,,,,,,
-1297,106,seufzen,,,,,,,,,,
-1298,106,spinnen,,,,,,,,,,
-1299,106,Staub saugen,,,,,,,,,,
-1300,106,zelten,,,,,,,,,,
-1301,106,verkleiden,"to dress up, to disguise oneself (refl.)",,,,,,,,verkleidet,verkleidete
-1302,106,rasieren,to shave (refl.),,,,,,,,rasiert,rasierte
-1303,106,pfeffern,to season with pepper,,,,,,,,pfefferte,gepfeffert
-1304,106,bestreuen,to sprinkle,,,,,,,,bestreute,bestreut
-1305,106,einprägen,to memorize,,,,,,,,eingeprägt,prägte
-1306,106,einschreiben,"to sign up, to enroll",,,,,,,,eingeschrieben,schrieb ein
-1307,106,wiedersehen,"to see again, to meet again",,,,,,,,wiedergesehen,sah wieder
-1308,106,nerven,"to annoy someone, to get on someone's nerves",,,,,,,,genervt,nervte
-1309,106,duzen,to address informally,,,,,,,,geduzt,duzte
-1310,106,siezen,to address formally,,,,,,,,gesiezt,siezte
-1311,106,benehmen,to behave (refl.),,,,,,,,benommen,benahm
-1312,106,überfallen,"to attack, to raid (a bank), to invade (a country)",,,,,,,,überfallen,überfiel
-1313,106,schwächen,to weaken,,,,,,,,,
-1314,106,erschweren,to burden,,,,,,,,,
-1315,106,vergrößern,to enlarge,,,,,,,,,
-1316,106,verschmutzen,to dirty,,,,,,,,,
-1317,106,weichen,to soften,,,,,,,,,
-1318,106,beeilen,"to hurry, to hasten, to rush (refl.)",,,,,,,,beeilt,beeilte
-1319,106,vererben,to inherit,,,,,,,,,
-1320,106,schiefgehen,to go wrong,,,,,,,,,
-1321,106,verdammen,"to condemn, to damn",,,,,,,,verdammt,verdammete
-1322,106,klauen,to steal (colloquial),,,,,,,,geklaut,klaute
-1323,106,entkommen,to escape,,,,,,,,entkommen,entkam
-1324,106,entführen,"to abduct, to kidnap",,,,,,,,entführt,entführte
-1325,106,riskieren,to risk,,,,,,,,riskiert,riskierte
-1326,106,begraben,to bury,,,,,,,,begraben,begrub
-1327,106,besiegen,to defeat (in battle or contest),,,,,,,,besiegt,besiegte
-1328,106,hinzufügen,to add,,,,,,,,,
-1329,106,spalten,"to split, to divide",,,,,,,,gespalten,spaltete
-1330,106,sanieren,to renovate,,,,,,,,,
-1331,106,schnappen,"to snap (with one's mouth), to catch, to nab (a criminal) (coll.)",,,,,,,,geschnappt,schnappte
-1332,106,rauskommen,"to get out, to make it big (with gross before verb)",,,,,,,,rausgekommen,kam raus
-1333,106,erschaffen,"to create, to produce, to make",,,,,,,,erschaffen,erschuf
-1334,106,schulden,"to owe, to be due to",,,,,,,,geschuldet,schuldete
-1335,106,rächen,to take revenge (refl.),,,,,,,,gerächt,rächte
-1336,106,aktualisieren,to update,,,,,,,,aktualisiert,aktualisierte
-1337,106,bereuen,"to regret something, to rue something",,,,,,,,bereut,bereute
-1338,106,explodieren,to explode,,,,,,,,explodiert,explodierte
-1339,106,opfern,to sacrifice,,,,,,,,geopfert,opferte
-1340,106,feuern,"to fire (a weapon), to fire (terminate employment)",,,,,,,,gefeuert,feuerte
-1341,106,anfragen,,,,,,,,,,
-1342,106,beibehalten,,,,,,,,,,
-1343,106,entschleunigen,"to decelerate, to slow down",,,,,,,,,
-1344,106,deaktivieren,,,,,,,,,,
-1345,106,exportieren,,,,,,,,,,
-1346,106,gebieten,,,,,,,,,,
-1347,106,geleiten,,,,,,,,,,
-1348,106,grenzen,,,,,,,,,,
-1349,106,konfigurieren,,,,,,,,,,
-1350,106,listen,,,,,,,,,,
-1351,106,positionieren,,,,,,,,,,
-1352,106,posten,,,,,,,,,,
-1353,106,proben,,,,,,,,,,
-1354,106,tagen,,,,,,,,,,
-1355,106,ticken,,,,,,,,,,
-1356,106,übermitteln,,,,,,,,,,
-1357,106,verfahren,,,,,,,,,,
-1358,106,werten,,,,,,,,,,
-1359,106,wiederherstellen,,,,,,,,,,
-1360,106,zugreifen,,,,,,,,,,
-1361,106,zuweisen,,,,,,,,,,
-1362,106,belohnen,,,,,,,,,,
-1363,106,dämpfen,,,,,,,,,,
-1364,106,dehnen,,,,,,,,,,
-1365,106,ehren,,,,,,,,,,
-1366,106,ersticken,,,,,,,,,,
-1367,106,erwägen,,,,,,,,,,
-1368,106,verrühren,"to stir, to mix",,,,,,,,,
-1369,106,glänzen,,,,,,,,,,
-1370,106,heulen,,,,,,,,,,
-1371,106,hüpfen,,,,,,,,,,
-1372,106,impfen,,,,,,,,,,
-1373,106,irritieren,,,,,,,,,,
-1374,106,knüpfen,,,,,,,,,,
-1375,106,nähren,,,,,,,,,,
-1376,106,quälen,,,,,,,,,,
-1377,106,räumen,,,,,,,,,,
-1378,106,rüsten,,,,,,,,,,
-1379,106,segnen,,,,,,,,,,
-1380,106,spritzen,,,,,,,,,,
-1381,106,staunen,,,,,,,,,,
-1382,106,stopfen,,,,,,,,,,
-1383,106,taugen,,,,,,,,,,
-1384,106,verführen,,,,,,,,,,
-1385,106,vergewaltigen,,,,,,,,,,
-1386,106,verklagen,,,,,,,,,,
-1387,106,verschlafen,,,,,,,,,,
-1388,106,verweilen,,,,,,,,,,
-1389,106,wachen,,,,,,,,,,
-1390,106,währen,,,,,,,,,,
-1391,106,weihen,,,,,,,,,,
-1392,106,zünden,,,,,,,,,,
-1393,106,zurücknehmen,,,,,,,,,,
-1394,106,abarbeiten,,,,,,,,,,
-1395,106,abfangen,,,,,,,,,,
-1396,106,abfinden,,,,,,,,,,
-1397,106,abfragen,,,,,,,,,,
-1398,106,abführen,,,,,,,,,,
-1399,106,abgehen,,,,,,,,,,
-1400,106,abhaken,,,,,,,,,,
-1401,106,abklären,,,,,,,,,,
-1402,106,ablesen,,,,,,,,,,
-1403,106,abliefern,,,,,,,,,,
-1404,106,abmelden,,,,,,,,,,
-1405,106,abrunden,,,,,,,,,,
-1406,106,abschaffen,,,,,,,,,,
-1407,106,abschieben,,,,,,,,,,
-1408,106,abschmecken,,,,,,,,,,
-1409,106,abschrecken,,,,,,,,,,
-1410,106,abschätzen,,,,,,,,,,
-1411,106,absichern,,,,,,,,,,
-1412,106,absprechen,,,,,,,,,,
-1413,106,absteigen,,,,,,,,,,
-1414,106,abstürzen,,,,,,,,,,
-1415,106,abtreten,,,,,,,,,,
-1416,106,abverlangen,,,,,,,,,,
-1417,106,abwechseln,,,,,,,,,,
-1418,106,abwehren,,,,,,,,,,
-1419,106,abweisen,,,,,,,,,,
-1420,106,abwägen,,,,,,,,,,
-1421,106,ahnden,,,,,,,,,,
-1422,106,alarmieren,,,,,,,,,,
-1423,106,anbauen,,,,,,,,,,
-1424,106,anbinden,,,,,,,,,,
-1425,106,anbraten,,,,,,,,,,
-1426,106,andauern,,,,,,,,,,
-1427,106,aneignen,,,,,,,,,,
-1428,106,anfahren,,,,,,,,,,
-1429,106,anfertigen,,,,,,,,,,
-1430,106,anfordern,,,,,,,,,,
-1431,106,anfühlen,,,,,,,,,,
-1432,106,anheben,,,,,,,,,,
-1433,106,anknüpfen,,,,,,,,,,
-1434,106,ankurbeln,,,,,,,,,,
-1435,106,anlaufen,,,,,,,,,,
-1436,106,anlocken,,,,,,,,,,
-1437,106,aufmerken,to pay attention,,,,,,,,,
-1438,106,anpacken,,,,,,,,,,
-1439,106,anrechnen,,,,,,,,,,
-1440,106,anreichern,,,,,,,,,,
-1441,106,anreisen,,,,,,,,,,
-1442,106,ansagen,,,,,,,,,,
-1443,106,anschlagen,,,,,,,,,,
-1444,106,anschreiben,,,,,,,,,,
-1445,106,anspannen,,,,,,,,,,
-1446,106,anstecken,,,,,,,,,,
-1447,106,ansteuern,,,,,,,,,,
-1448,106,anstossen,,,,,,,,,,
-1449,106,antreffen,,,,,,,,,,
-1450,106,antreiben,,,,,,,,,,
-1451,106,anwachsen,,,,,,,,,,
-1452,106,anweisen,,,,,,,,,,
-1453,106,anzünden,,,,,,,,,,
-1454,106,appellieren,,,,,,,,,,
-1455,106,argumentieren,,,,,,,,,,
-1456,106,arrangieren,,,,,,,,,,
-1457,106,attackieren,,,,,,,,,,
-1458,106,attestieren,,,,,,,,,,
-1459,106,aufarbeiten,,,,,,,,,,
-1460,106,aufbereiten,,,,,,,,,,
-1461,106,aufbrauchen,,,,,,,,,,
-1462,106,aufdecken,,,,,,,,,,
-1463,106,auferlegen,,,,,,,,,,
-1464,106,auffangen,,,,,,,,,,
-1465,106,auffinden,,,,,,,,,,
-1466,106,auffüllen,,,,,,,,,,
-1467,106,aufgreifen,,,,,,,,,,
-1468,106,aufholen,,,,,,,,,,
-1469,106,aufhängen,,,,,,,,,,
-1470,106,auflaufen,,,,,,,,,,
-1471,106,aufrechterhalten,,,,,,,,,,
-1472,106,aufschliessen,,,,,,,,,,
-1473,106,aufspielen,,,,,,,,,,
-1474,106,aufspüren,,,,,,,,,,
-1475,106,aufstocken,,,,,,,,,,
-1476,106,aufteilen,,,,,,,,,,
-1477,106,aufwarten,,,,,,,,,,
-1478,106,aufwenden,,,,,,,,,,
-1479,106,aufwerten,,,,,,,,,,
-1480,106,aufzeichnen,,,,,,,,,,
-1481,106,ausarbeiten,,,,,,,,,,
-1482,106,ausbleiben,,,,,,,,,,
-1483,106,ausbuchen,,,,,,,,,,
-1484,106,ausdenken,,,,,,,,,,
-1485,106,ausfällen,,,,,,,,,,
-1486,106,aushandeln,,,,,,,,,,
-1487,106,auskennen,,,,,,,,,,
-1488,106,ausklingen,,,,,,,,,,
-1489,106,auslassen,,,,,,,,,,
-1490,106,auslasten,,,,,,,,,,
-1491,106,auslaufen,,,,,,,,,,
-1492,106,ausleben,,,,,,,,,,
-1493,106,ausliefern,,,,,,,,,,
-1494,106,ausrollen,,,,,,,,,,
-1495,106,ausrufen,,,,,,,,,,
-1496,106,ausräumen,,,,,,,,,,
-1497,106,aussagen,"to testify, to state",,,,,,,,,
-1498,106,ausschreiben,,,,,,,,,,
-1499,106,ausschöpfen,,,,,,,,,,
-1500,106,ausschütten,,,,,,,,,,
-1501,106,ausspielen,,,,,,,,,,
-1502,106,austoben,,,,,,,,,,
-1503,106,ausverkaufen,,,,,,,,,,
-1504,106,auswechseln,,,,,,,,,,
-1505,106,ausweiten,,,,,,,,,,
-1506,106,auszahlen,,,,,,,,,,
-1507,106,automatisieren,,,,,,,,,,
-1508,106,avancieren,,,,,,,,,,
-1509,106,bahnen,,,,,,,,,,
-1510,106,beanspruchen,,,,,,,,,,
-1511,106,beanstanden,,,,,,,,,,
-1512,106,beanständen,,,,,,,,,,
-1513,106,bedachen,,,,,,,,,,
-1514,106,bedrucken,,,,,,,,,,
-1515,106,befahren,,,,,,,,,,
-1516,106,befallen,,,,,,,,,,
-1517,106,beflügeln,,,,,,,,,,
-1518,106,befolgen,,,,,,,,,,
-1519,106,befristen,,,,,,,,,,
-1520,106,befüllen,,,,,,,,,,
-1521,106,befürworten,,,,,,,,,,
-1522,106,begehren,,,,,,,,,,
-1523,106,begleichen,,,,,,,,,,
-1524,106,begnügen,,,,,,,,,,
-1525,106,begutachten,,,,,,,,,,
-1526,106,begünstigen,,,,,,,,,,
-1527,106,beharren,,,,,,,,,,
-1528,106,beheben,,,,,,,,,,
-1529,106,beheimaten,,,,,,,,,,
-1530,106,beherbergen,,,,,,,,,,
-1531,106,beilegen,,,,,,,,,,
-1532,106,beisteuern,,,,,,,,,,
-1533,106,bejahen,,,,,,,,,,
-1534,106,bejubeln,,,,,,,,,,
-1535,106,bekennen,,,,,,,,,,
-1536,106,bekleiden,,,,,,,,,,
-1537,106,bekräftigen,,,,,,,,,,
-1538,106,bekunden,,,,,,,,,,
-1539,106,beladen,,,,,,,,,,
-1540,106,belassen,,,,,,,,,,
-1541,106,belaufen,,,,,,,,,,
-1542,106,belehren,,,,,,,,,,
-1543,106,belieben,,,,,,,,,,
-1544,106,beliefern,,,,,,,,,,
-1545,106,belästigen,,,,,,,,,,
-1546,106,bemängeln,,,,,,,,,,
-1547,106,benachrichtigen,,,,,,,,,,
-1548,106,benachteiligen,,,,,,,,,,
-1549,106,bereichern,,,,,,,,,,
-1550,106,bereisen,,,,,,,,,,
-1551,106,bereithalten,,,,,,,,,,
-1552,106,besagen,,,,,,,,,,
-1553,106,bescheiden,,,,,,,,,,
-1554,106,bescheinigen,,,,,,,,,,
-1555,106,bescheren,,,,,,,,,,
-1556,106,beschimpfen,,,,,,,,,,
-1557,106,beschlagnahmen,,,,,,,,,,
-1558,106,beschreiten,,,,,,,,,,
-1559,106,beschwören,,,,,,,,,,
-1560,106,besiegeln,,,,,,,,,,
-1561,106,besinnen,,,,,,,,,,
-1562,106,bessern,,,,,,,,,,
-1563,106,bestaunen,,,,,,,,,,
-1564,106,bestechen,,,,,,,,,,
-1565,106,besteigen,,,,,,,,,,
-1566,106,bestärken,,,,,,,,,,
-1567,106,bestücken,,,,,,,,,,
-1568,106,beteuern,,,,,,,,,,
-1569,106,betätigen,,,,,,,,,,
-1570,106,bewilligen,,,,,,,,,,
-1571,106,bewirtschaften,,,,,,,,,,
-1572,106,beziffern,,,,,,,,,,
-1573,106,bezweifeln,,,,,,,,,,
-1574,106,bezwingen,,,,,,,,,,
-1575,106,bilanzieren,,,,,,,,,,
-1576,106,blenden,,,,,,,,,,
-1577,106,blockieren,,,,,,,,,,
-1578,106,bloggen,,,,,,,,,,
-1579,106,boomen,,,,,,,,,,
-1580,106,bündeln,,,,,,,,,,
-1581,106,checken,,,,,,,,,,
-1582,106,darlegen,,,,,,,,,,
-1583,106,datieren,,,,,,,,,,
-1584,106,dazugeben,,,,,,,,,,
-1585,106,debattieren,,,,,,,,,,
-1586,106,dementieren,,,,,,,,,,
-1587,106,diagnostizieren,,,,,,,,,,
-1588,106,dirigieren,,,,,,,,,,
-1589,106,distanzieren,,,,,,,,,,
-1590,106,durchbrechen,,,,,,,,,,
-1591,106,durchdringen,,,,,,,,,,
-1592,106,durchhalten,,,,,,,,,,
-1593,106,durchlaufen,,,,,,,,,,
-1594,106,durchlesen,,,,,,,,,,
-1595,106,durchsuchen,,,,,,,,,,
-1596,106,ebnen,,,,,,,,,,
-1597,106,einberufen,,,,,,,,,,
-1598,106,einbetten,,,,,,,,,,
-1599,106,einbinden,,,,,,,,,,
-1600,106,einbüssen,,,,,,,,,,
-1601,106,eindämmen,,,,,,,,,,
-1602,106,einfahren,,,,,,,,,,
-1603,106,einfangen,,,,,,,,,,
-1604,106,einfinden,,,,,,,,,,
-1605,106,einfliessen,,,,,,,,,,
-1606,106,einfordern,,,,,,,,,,
-1607,106,einhergehen,,,,,,,,,,
-1608,106,einkehren,,,,,,,,,,
-1609,106,einliefern,,,,,,,,,,
-1610,106,einloggen,,,,,,,,,,
-1611,106,einläuten,,,,,,,,,,
-1612,106,einlösen,,,,,,,,,,
-1613,106,einmischen,,,,,,,,,,
-1614,106,einordnen,,,,,,,,,,
-1615,106,einplanen,,,,,,,,,,
-1616,106,einsenden,,,,,,,,,,
-1617,106,einsparen,,,,,,,,,,
-1618,106,einspielen,,,,,,,,,,
-1619,106,einstecken,,,,,,,,,,
-1620,106,einstimmen,,,,,,,,,,
-1621,106,einstudieren,,,,,,,,,,
-1622,106,einstufen,,,,,,,,,,
-1623,106,eintauchen,,,,,,,,,,
-1624,106,einteilen,,,,,,,,,,
-1625,106,einweihen,,,,,,,,,,
-1626,106,einwirken,,,,,,,,,,
-1627,106,entfachen,,,,,,,,,,
-1628,106,entgegennehmen,,,,,,,,,,
-1629,106,entgegensetzen,,,,,,,,,,
-1630,106,entgegenwirken,,,,,,,,,,
-1631,106,entgegnen,,,,,,,,,,
-1632,106,enthüllen,,,,,,,,,,
-1633,106,entlarven,,,,,,,,,,
-1634,106,entlasten,,,,,,,,,,
-1635,106,entpuppen,,,,,,,,,,
-1636,106,entrichten,,,,,,,,,,
-1637,106,entschädigen,,,,,,,,,,
-1638,106,entsenden,,,,,,,,,,
-1639,106,entspringen,,,,,,,,,,
-1640,106,entstammen,,,,,,,,,,
-1641,106,entwenden,,,,,,,,,,
-1642,106,entzünden,,,,,,,,,,
-1643,106,erachten,,,,,,,,,,
-1644,106,erahnen,,,,,,,,,,
-1645,106,erbauen,,,,,,,,,,
-1646,106,erben,,,,,,,,,,
-1647,106,erbeuten,,,,,,,,,,
-1648,106,erbitten,,,,,,,,,,
-1649,106,erblicken,,,,,,,,,,
-1650,106,erfragen,,,,,,,,,,
-1651,106,ergattern,,,,,,,,,,
-1652,106,ergehen,,,,,,,,,,
-1653,106,erhitzen,,,,,,,,,,
-1654,106,erklimmen,,,,,,,,,,
-1655,106,erklingen,,,,,,,,,,
-1656,106,erkämpfen,,,,,,,,,,
-1657,106,erliegen,,,,,,,,,,
-1658,106,erlösen,,,,,,,,,,
-1659,106,ermuntern,,,,,,,,,,
-1660,106,ermutigen,,,,,,,,,,
-1661,106,ermässigen,,,,,,,,,,
-1662,106,ernennen,,,,,,,,,,
-1663,106,erneuern,,,,,,,,,,
-1664,106,erobern,,,,,,,,,,
-1665,106,erproben,,,,,,,,,,
-1666,106,errechnen,,,,,,,,,,
-1667,106,erringen,,,,,,,,,,
-1668,106,erschlagen,,,,,,,,,,
-1669,106,erschüttern,,,,,,,,,,
-1670,106,erspielen,,,,,,,,,,
-1671,106,erstehen,,,,,,,,,,
-1672,106,erstrahlen,,,,,,,,,,
-1673,106,ertönen,,,,,,,,,,
-1674,106,erwirtschaften,,,,,,,,,,
-1675,106,erzwingen,,,,,,,,,,
-1676,106,eskalieren,,,,,,,,,,
-1677,106,favorisieren,,,,,,,,,,
-1678,106,fegen,,,,,,,,,,
-1679,106,fertigstellen,,,,,,,,,,
-1680,106,fesseln,,,,,,,,,,
-1681,106,festigen,,,,,,,,,,
-1682,106,festschreiben,,,,,,,,,,
-1683,106,filmen,,,,,,,,,,
-1684,106,filtern,,,,,,,,,,
-1685,106,fokussieren,,,,,,,,,,
-1686,106,forcieren,,,,,,,,,,
-1687,106,formieren,,,,,,,,,,
-1688,106,fortführen,,,,,,,,,,
-1689,106,freischalten,,,,,,,,,,
-1690,106,freisetzen,,,,,,,,,,
-1691,106,freistellen,,,,,,,,,,
-1692,106,färben,,,,,,,,,,
-1693,106,garen,,,,,,,,,,
-1694,106,gastieren,,,,,,,,,,
-1695,106,gebrechen,,,,,,,,,,
-1696,106,gebühren,,,,,,,,,,
-1697,106,gedulden,,,,,,,,,,
-1698,106,gefrieren,,,,,,,,,,
-1699,106,gegenüberstehen,,,,,,,,,,
-1700,106,geloben,,,,,,,,,,
-1701,106,generieren,,,,,,,,,,
-1702,106,gereichen,,,,,,,,,,
-1703,106,gesellen,,,,,,,,,,
-1704,106,gliedern,,,,,,,,,,
-1705,106,glücken,,,,,,,,,,
-1706,106,googlen,,,,,,,,,,
-1707,106,hadern,,,,,,,,,,
-1708,106,halbieren,,,,,,,,,,
-1709,106,handhaben,,,,,,,,,,
-1710,106,hangen,,,,,,,,,,
-1711,106,harmonieren,,,,,,,,,,
-1712,106,hausen,,,,,,,,,,
-1713,106,hemmen,,,,,,,,,,
-1714,106,heranführen,,,,,,,,,,
-1715,106,heranziehen,,,,,,,,,,
-1716,106,herausbringen,,,,,,,,,,
-1717,106,herausholen,,,,,,,,,,
-1718,106,herbeiführen,,,,,,,,,,
-1719,106,hergeben,,,,,,,,,,
-1720,106,herrichten,,,,,,,,,,
-1721,106,hervorbringen,,,,,,,,,,
-1722,106,hinbekommen,,,,,,,,,,
-1723,106,hingeben,,,,,,,,,,
-1724,106,hinlegen,,,,,,,,,,
-1725,106,hinschauen,,,,,,,,,,
-1726,106,hinterfragen,,,,,,,,,,
-1727,106,hinterlegen,,,,,,,,,,
-1728,106,hinziehen,,,,,,,,,,
-1729,106,hinzukommen,,,,,,,,,,
-1730,106,honorieren,,,,,,,,,,
-1731,106,häufen,,,,,,,,,,
-1732,106,hüten,,,,,,,,,,
-1733,106,illustrieren,,,,,,,,,,
-1734,106,implementieren,,,,,,,,,,
-1735,106,initiieren,,,,,,,,,,
-1736,106,inspirieren,,,,,,,,,,
-1737,106,intensivieren,,,,,,,,,,
-1738,106,involvieren,,,,,,,,,,
-1739,106,jubeln,,,,,,,,,,
-1740,106,kandidieren,,,,,,,,,,
-1741,106,kassieren,,,,,,,,,,
-1742,106,kicken,,,,,,,,,,
-1743,106,kippen,,,,,,,,,,
-1744,106,klarmachen,,,,,,,,,,
-1745,106,klarstellen,,,,,,,,,,
-1746,106,klatschen,,,,,,,,,,
-1747,106,kleiden,,,,,,,,,,
-1748,106,knallen,,,,,,,,,,
-1749,106,kollidieren,,,,,,,,,,
-1750,106,komplettieren,,,,,,,,,,
-1751,106,konkurrieren,,,,,,,,,,
-1752,106,konstatieren,,,,,,,,,,
-1753,106,kontern,,,,,,,,,,
-1754,106,kooperieren,,,,,,,,,,
-1755,106,koordinieren,,,,,,,,,,
-1756,106,koppeln,,,,,,,,,,
-1757,106,krachen,,,,,,,,,,
-1758,106,kratzen,,,,,,,,,,
-1759,106,kreuzen,,,,,,,,,,
-1760,106,krönen,,,,,,,,,,
-1761,106,kursieren,,,,,,,,,,
-1762,106,köpfen,,,,,,,,,,
-1763,106,küren,,,,,,,,,,
-1764,106,lackieren,,,,,,,,,,
-1765,106,lancieren,,,,,,,,,,
-1766,106,leugnen,,,,,,,,,,
-1767,106,lockern,,,,,,,,,,
-1768,106,loslegen,,,,,,,,,,
-1769,106,läuten,,,,,,,,,,
-1770,106,lüften,,,,,,,,,,
-1771,106,marschieren,,,,,,,,,,
-1772,106,meckern,,,,,,,,,,
-1773,106,mehren,,,,,,,,,,
-1774,106,mindern,,,,,,,,,,
-1775,106,minimieren,,,,,,,,,,
-1776,106,missachten,,,,,,,,,,
-1777,106,missbrauchen,,,,,,,,,,
-1778,106,missen,,,,,,,,,,
-1779,106,mitarbeiten,,,,,,,,,,
-1780,106,mitbekommen,,,,,,,,,,
-1781,106,miterleben,,,,,,,,,,
-1782,106,mitfahren,,,,,,,,,,
-1783,106,mitgestalten,,,,,,,,,,
-1784,106,mithalten,,,,,,,,,,
-1785,106,mithelfen,,,,,,,,,,
-1786,106,mitreden,,,,,,,,,,
-1787,106,mitspielen,,,,,,,,,,
-1788,106,mittragen,,,,,,,,,,
-1789,106,mobilisieren,,,,,,,,,,
-1790,106,moderieren,,,,,,,,,,
-1791,106,monieren,,,,,,,,,,
-1792,106,montieren,,,,,,,,,,
-1793,106,musizieren,,,,,,,,,,
-1794,106,münden,,,,,,,,,,
-1795,106,nachgeben,,,,,,,,,,
-1796,106,nachholen,,,,,,,,,,
-1797,106,nachkommen,,,,,,,,,,
-1798,106,nachlassen,,,,,,,,,,
-1799,106,nachlesen,,,,,,,,,,
-1800,106,nachvollziehen,,,,,,,,,,
-1801,106,niederlassen,,,,,,,,,,
-1802,106,niederlegen,,,,,,,,,,
-1803,106,niederschlagen,,,,,,,,,,
-1804,106,obliegen,,,,,,,,,,
-1805,106,offenbaren,,,,,,,,,,
-1806,106,offenlegen,,,,,,,,,,
-1807,106,offerieren,,,,,,,,,,
-1808,106,ordern,,,,,,,,,,
-1809,106,paaren,,,,,,,,,,
-1810,106,parieren,,,,,,,,,,
-1811,106,pausieren,,,,,,,,,,
-1812,106,pendeln,,,,,,,,,,
-1813,106,plaudern,,,,,,,,,,
-1814,106,pochen,,,,,,,,,,
-1815,106,polieren,,,,,,,,,,
-1816,106,praktizieren,,,,,,,,,,
-1817,106,predigen,,,,,,,,,,
-1818,106,preisgeben,,,,,,,,,,
-1819,106,prognostizieren,,,,,,,,,,
-1820,106,programmieren,,,,,,,,,,
-1821,106,propagieren,,,,,,,,,,
-1822,106,prophezeien,,,,,,,,,,
-1823,106,provozieren,,,,,,,,,,
-1824,106,prämieren,,,,,,,,,,
-1825,106,pumpen,,,,,,,,,,
-1826,106,radeln,,,,,,,,,,
-1827,106,ragen,,,,,,,,,,
-1828,106,rammen,,,,,,,,,,
-1829,106,rangieren,,,,,,,,,,
-1830,106,rasen,,,,,,,,,,
-1831,106,rasten,,,,,,,,,,
-1832,106,referieren,,,,,,,,,,
-1833,106,regulieren,,,,,,,,,,
-1834,106,reihen,,,,,,,,,,
-1835,106,rekonstruieren,,,,,,,,,,
-1836,106,relativieren,,,,,,,,,,
-1837,106,respektieren,,,,,,,,,,
-1838,106,restaurieren,,,,,,,,,,
-1839,106,resümieren,,,,,,,,,,
-1840,106,rocken,,,,,,,,,,
-1841,106,rügen,,,,,,,,,,
-1842,106,scheuen,,,,,,,,,,
-1843,106,schienen,,,,,,,,,,
-1844,106,schlendern,,,,,,,,,,
-1845,106,schleudern,,,,,,,,,,
-1846,106,schlucken,,,,,,,,,,
-1847,106,schlüpfen,,,,,,,,,,
-1848,106,schmieden,,,,,,,,,,
-1849,106,schmunzeln,,,,,,,,,,
-1850,106,schmücken,,,,,,,,,,
-1851,106,schnuppern,,,,,,,,,,
-1852,106,schnüren,,,,,,,,,,
-1853,106,schocken,,,,,,,,,,
-1854,106,schonen,,,,,,,,,,
-1855,106,schossen,,,,,,,,,,
-1856,106,schrauben,,,,,,,,,,
-1857,106,schrecken,,,,,,,,,,
-1858,106,schränken,,,,,,,,,,
-1859,106,schulen,,,,,,,,,,
-1860,106,schwanken,,,,,,,,,,
-1861,106,schwärmen,,,,,,,,,,
-1862,106,schädigen,,,,,,,,,,
-1863,106,schärfen,,,,,,,,,,
-1864,106,schöpfen,,,,,,,,,,
-1865,106,schüren,,,,,,,,,,
-1866,106,scrollen,,,,,,,,,,
-1867,106,sehnen,,,,,,,,,,
-1868,106,sensibilisieren,,,,,,,,,,
-1869,106,sichten,,,,,,,,,,
-1870,106,signalisieren,,,,,,,,,,
-1871,106,simulieren,,,,,,,,,,
-1872,106,skizzieren,,,,,,,,,,
-1873,106,speisen,,,,,,,,,,
-1874,106,spekulieren,,,,,,,,,,
-1875,106,spenden,,,,,,,,,,
-1876,106,spendieren,,,,,,,,,,
-1877,106,sprengen,,,,,,,,,,
-1878,106,standhalten,,,,,,,,,,
-1879,106,stapeln,,,,,,,,,,
-1880,106,stationieren,,,,,,,,,,
-1881,106,stemmen,,,,,,,,,,
-1882,106,stiften,,,,,,,,,,
-1883,106,stocken,,,,,,,,,,
-1884,106,stolpern,,,,,,,,,,
-1885,106,streamen,,,,,,,,,,
-1886,106,streicheln,,,,,,,,,,
-1887,106,streifen,,,,,,,,,,
-1888,106,streuen,,,,,,,,,,
-1889,106,strömen,,,,,,,,,,
-1890,106,stöbern,,,,,,,,,,
-1891,106,stürmen,,,,,,,,,,
-1892,106,suggerieren,,,,,,,,,,
-1893,106,symbolisieren,,,,,,,,,,
-1894,106,taufen,,,,,,,,,,
-1895,106,teilhaben,,,,,,,,,,
-1896,106,tendieren,,,,,,,,,,
-1897,106,thematisieren,,,,,,,,,,
-1898,106,titeln,,,,,,,,,,
-1899,106,tolerieren,,,,,,,,,,
-1900,106,trauern,,,,,,,,,,
-1901,106,triumphieren,,,,,,,,,,
-1902,106,trotzen,,,,,,,,,,
-1903,106,tummeln,,,,,,,,,,
-1904,106,tönen,,,,,,,,,,
-1905,106,umbenennen,,,,,,,,,,
-1906,106,umgestalten,,,,,,,,,,
-1907,106,umleiten,,,,,,,,,,
-1908,106,umrahmen,,,,,,,,,,
-1909,106,umschreiben,,,,,,,,,,
-1910,106,umsehen,,,,,,,,,,
-1911,106,unterbinden,,,,,,,,,,
-1912,106,untermauern,,,,,,,,,,
-1913,106,untersagen,,,,,,,,,,
-1914,106,unterteilen,,,,,,,,,,
-1915,106,unterwerfen,,,,,,,,,,
-1916,106,unterziehen,,,,,,,,,,
-1917,106,urteilen,,,,,,,,,,
-1918,106,variieren,,,,,,,,,,
-1919,106,verabreichen,,,,,,,,,,
-1920,106,verankern,,,,,,,,,,
-1921,106,veranschlagen,,,,,,,,,,
-1922,106,verantworten,,,,,,,,,,
-1923,106,verbannen,,,,,,,,,,
-1924,106,verbauen,,,,,,,,,,
-1925,106,verbuchen,,,,,,,,,,
-1926,106,verdecken,,,,,,,,,,
-1927,106,verdichten,,,,,,,,,,
-1928,106,verehren,,,,,,,,,,
-1929,106,verfehlen,,,,,,,,,,
-1930,106,verfeinern,,,,,,,,,,
-1931,106,verhelfen,,,,,,,,,,
-1932,106,verhängen,,,,,,,,,,
-1933,106,verkraften,,,,,,,,,,
-1934,106,verkörpern,,,,,,,,,,
-1935,106,verlagern,,,,,,,,,,
-1936,106,verlauten,,,,,,,,,,
-1937,106,verleiten,,,,,,,,,,
-1938,106,verlesen,,,,,,,,,,
-1939,106,verlinken,,,,,,,,,,
-1940,106,verlosen,,,,,,,,,,
-1941,106,vermarkten,,,,,,,,,,
-1942,106,vermelden,,,,,,,,,,
-1943,106,vermerken,,,,,,,,,,
-1944,106,vermischen,,,,,,,,,,
-1945,106,verneinen,,,,,,,,,,
-1946,106,vernetzen,,,,,,,,,,
-1947,106,verordnen,,,,,,,,,,
-1948,106,verrechnen,,,,,,,,,,
-1949,106,verrichten,,,,,,,,,,
-1950,106,verschlagen,,,,,,,,,,
-1951,106,verschleppen,,,,,,,,,,
-1952,106,verschlingen,,,,,,,,,,
-1953,106,verschlüsseln,,,,,,,,,,
-1954,106,verschmelzen,,,,,,,,,,
-1955,106,verschonen,,,,,,,,,,
-1956,106,versenken,,,,,,,,,,
-1957,106,versinken,,,,,,,,,,
-1958,106,versperren,,,,,,,,,,
-1959,106,verspielen,,,,,,,,,,
-1960,106,verspüren,,,,,,,,,,
-1961,106,verstauen,,,,,,,,,,
-1962,106,versterben,,,,,,,,,,
-1963,106,verstossen,,,,,,,,,,
-1964,106,verstreichen,,,,,,,,,,
-1965,106,vertagen,,,,,,,,,,
-1966,106,vertragen,,,,,,,,,,
-1967,106,verunsichern,,,,,,,,,,
-1968,106,vervollständigen,,,,,,,,,,
-1969,106,verwehren,,,,,,,,,,
-1970,106,verwerfen,,,,,,,,,,
-1971,106,verwerten,,,,,,,,,,
-1972,106,verwickeln,,,,,,,,,,
-1973,106,verwöhnen,,,,,,,,,,
-1974,106,verzaubern,,,,,,,,,,
-1975,106,verzieren,,,,,,,,,,
-1976,106,verzögern,,,,,,,,,,
-1977,106,veräussern,,,,,,,,,,
-1978,106,verüben,,,,,,,,,,
-1979,106,vollbringen,,,,,,,,,,
-1980,106,vollenden,,,,,,,,,,
-1981,106,voranbringen,,,,,,,,,,
-1982,106,vorantreiben,,,,,,,,,,
-1983,106,vorausgehen,,,,,,,,,,
-1984,106,vorbehalten,,,,,,,,,,
-1985,106,vorbeischauen,,,,,,,,,,
-1986,106,vorenthalten,,,,,,,,,,
-1987,106,vorfinden,,,,,,,,,,
-1988,106,vorführen,,,,,,,,,,
-1989,106,vorhalten,,,,,,,,,,
-1990,106,vorhersagen,,,,,,,,,,
-1991,106,votieren,,,,,,,,,,
-1992,106,wackeln,,,,,,,,,,
-1993,106,wappnen,,,,,,,,,,
-1994,106,wegdenken,,,,,,,,,,
-1995,106,wegfallen,,,,,,,,,,
-1996,106,weilen,,,,,,,,,,
-1997,106,weiterempfehlen,,,,,,,,,,
-1998,106,weiterentwickeln,,,,,,,,,,
-1999,106,weiterhelfen,,,,,,,,,,
-2000,106,weiterlesen,,,,,,,,,,
-2001,106,weitern,,,,,,,,,,
-2002,106,wickeln,,,,,,,,,,
-2003,106,widerlegen,,,,,,,,,,
-2004,106,widerrufen,,,,,,,,,,
-2005,106,widerspiegeln,,,,,,,,,,
-2006,106,wiedererkennen,,,,,,,,,,
-2007,106,wiederfinden,,,,,,,,,,
-2008,106,wiedergeben,,,,,,,,,,
-2009,106,wiederwählen,,,,,,,,,,
-2010,106,wischen,,,,,,,,,,
-2011,106,wärmen,,,,,,,,,,
-2012,106,würdigen,,,,,,,,,,
-2013,106,zelebrieren,,,,,,,,,,
-2014,106,zerbrechen,,,,,,,,,,
-2015,106,zerlegen,,,,,,,,,,
-2016,106,zertifizieren,,,,,,,,,,
-2017,106,zeugen,,,,,,,,,,
-2018,106,zieren,,,,,,,,,,
-2019,106,zollen,,,,,,,,,,
-2020,106,zufügen,,,,,,,,,,
-2021,106,zugestehen,,,,,,,,,,
-2022,106,zumuten,,,,,,,,,,
-2023,106,zurechnen,,,,,,,,,,
-2024,106,zurückholen,,,,,,,,,,
-2025,106,zurücklassen,,,,,,,,,,
-2026,106,zurückzahlen,,,,,,,,,,
-2027,106,zusammenbrechen,,,,,,,,,,
-2028,106,zusammenbringen,,,,,,,,,,
-2029,106,zusammenfinden,,,,,,,,,,
-2030,106,zusammenführen,,,,,,,,,,
-2031,106,zusammenhalten,,,,,,,,,,
-2032,106,zusammenschliessen,,,,,,,,,,
-2033,106,zusammentragen,,,,,,,,,,
-2034,106,zuschicken,,,,,,,,,,
-2035,106,zuschlagen,,,,,,,,,,
-2036,106,zuschneiden,,,,,,,,,,
-2037,106,zuschreiben,,,,,,,,,,
-2038,106,zusenden,,,,,,,,,,
-2039,106,zusichern,,,,,,,,,,
-2040,106,zusprechen,,,,,,,,,,
-2041,106,zustellen,,,,,,,,,,
-2042,106,zuziehen,,,,,,,,,,
-2043,106,überbieten,,,,,,,,,,
-2044,106,überbringen,,,,,,,,,,
-2045,106,überbrücken,,,,,,,,,,
-2046,106,überdenken,,,,,,,,,,
-2047,106,überführen,,,,,,,,,,
-2048,106,überragen,,,,,,,,,,
-2049,106,überschlagen,,,,,,,,,,
-2050,106,überspringen,,,,,,,,,,
-2051,106,übersteigen,,,,,,,,,,
-2052,106,übertreffen,,,,,,,,,,
-2053,106,überwiegen,,,,,,,,,,
-2054,106,überwältigen,,,,,,,,,,
-2055,107,zurückbringen,"to return something, to restore",,,,,,,,zurückgebracht,brachte zurück
-2056,107,leeren,to empty,,,,,,,,geleert,leerte
-2057,107,kämmen,to comb,,,,,,,,gekämmt,kämmte
-2058,107,salzen,to season with salt,,,,,,,,salzte,gesalzen
-2059,107,verbrechen,to commit (a crime),,,,,,,,verbrochen,verbrach
-2060,107,härten,to harden,,,,,,,,,
-2061,107,beglücken,to make happy,,,,,,,,,
-2062,107,befreunden,to befriend (refl.),,,,,,,,befreundet,befreundete
-2063,107,beglückwünschen,"to congratulate, to felicitate",,,,,,,,,
-2064,107,ausbestehen,to consist,,,,,,,,,
-2065,107,kapieren,"to understand intellectually (coll.), to get (coll.)",,,,,,,,kapiert,kapierte
-2066,107,abhauen,"to cut off (cutting weapon), to do a runner, to piss off",,,,,,,,abgehauen,haute ab
-2067,107,wahren,"to protect, to safeguard, to maintain, to preserve",,,,,,,,gewahrt,wahrte
-2068,107,rausfinden,to figure out (coll.),,,,,,,,rausgefunden,fand raus
-2069,107,ficken,to fuck,,,,,,,,gefickt,fickte
-2070,107,verarschen,"to trick, to fool",,,,,,,,verarscht,verarschte
-2071,107,durchmachen,"to go through, to endure, to undergo, to finish, to stay up all night",,,,,,,,durchgemacht,machte durch
-2072,107,reinlegen,to spoof (coll.),,,,,,,,reingelegt,legte rein
-2073,107,einsperren,"to lock up, to imprison",,,,,,,,eingesperrt,sperrte ein
-2074,107,anlügen,"to lie to, to tell someone a lie",,,,,,,,angelogen,log an
-2075,107,bescheissen,"to deceive someone, to screw someone",,,,,,,,beschissen,beschiss
-2076,107,rausholen,"to spring someone (from a trap, prison etc.), to spring something (suddenly), to whip it out",,,,,,,,rausgeholt,holte raus
-2077,107,reingehen,to go in,,,,,,,,reingegangen,ging rein
-2078,107,verfluchen,to curse,,,,,,,,verflucht,verfluchte
-2079,107,anschiessen,"to shoot along, to shoot someone",,,,,,,,angeschossen,schoss an
-2080,107,versauen,"to mess something up, to butcher something, to cock something up",,,,,,,,versaut,versaute
-2081,107,flehen,"to beg, to entreat, to beseech",,,,,,,,gefleht,flehte
-2082,107,linken,"to deceive someone, to con someone",,,,,,,,gelinkt,linkte
-2083,107,nachsehen,"to chech back, to peek, to look something up/over",,,,,,,,nachgesehen,sah nach
-2084,107,vermasseln,"to screw up, to botch, to goof, to muddle",,,,,,,,vermasselt,vermasselte
-2085,107,verprügeln,"to beat someone up, to wallop",,,,,,,,verprügelt,verprügelte
-2086,107,weglaufen,to run away,,,,,,,,weggelaufen,lief weg
-2087,107,stöhnen,"to moan, to groan",,,,,,,,gestöhnt,stöhnte
-2088,107,abkommen,,,,,,,,,,
-2089,107,anscheinen,,,,,,,,,,
-2090,107,assoziieren,,,,,,,,,,
-2091,107,ausgestalten,,,,,,,,,,
-2092,107,autorisieren,,,,,,,,,,
-2093,107,breiten,,,,,,,,,,
-2094,107,doppeln,,,,,,,,,,
-2095,107,dritteln,,,,,,,,,,
-2096,107,durchmessen,,,,,,,,,,
-2097,107,echoen,,,,,,,,,,
-2098,107,einen,,,,,,,,,,
-2099,107,ersehen,,,,,,,,,,
-2100,107,ersuchen,,,,,,,,,,
-2101,107,fasern,,,,,,,,,,
-2102,107,freien,,,,,,,,,,
-2103,107,frieden,,,,,,,,,,
-2104,107,globalisieren,,,,,,,,,,
-2105,107,haken,,,,,,,,,,
-2106,107,herschieben,,,,,,,,,,
-2107,107,hervorragen,,,,,,,,,,
-2108,107,hervorwagen,,,,,,,,,,
-2109,107,jungen,,,,,,,,,,
-2110,107,kanten,,,,,,,,,,
-2111,107,knoten,,,,,,,,,,
-2112,107,komplizieren,,,,,,,,,,
-2113,107,krümeln,,,,,,,,,,
-2114,107,länden,,,,,,,,,,
-2115,107,langen,,,,,,,,,,
-2116,107,lasten,,,,,,,,,,
-2117,107,leiben,,,,,,,,,,
-2118,107,lodern,,,,,,,,,,
-2119,107,mengen,,,,,,,,,,
-2120,107,mosern,,,,,,,,,,
-2121,107,navigieren,,,,,,,,,,
-2122,107,normen,,,,,,,,,,
-2123,107,nuten,,,,,,,,,,
-2124,107,polen,,,,,,,,,,
-2125,107,umrühen,to stir,,,,,,,,,
-2126,107,anhängen,to attach,,,,,,,,,
-2127,107,ausstecken,to unplug,,,,,,,,,
-2128,107,abtrennen,to detach,,,,,,,,,
-2129,107,punkten,,,,,,,,,,
-2130,107,rahmen,,,,,,,,,,
-2131,107,rechten,,,,,,,,,,
-2132,107,reifen,,,,,,,,,,
-2133,107,schatten,,,,,,,,,,
-2134,107,schichten,,,,,,,,,,
-2135,107,schnellen,,,,,,,,,,
-2136,107,schönen,,,,,,,,,,
-2137,107,seihen,,,,,,,,,,
-2138,107,spuren,,,,,,,,,,
-2139,107,stunden,,,,,,,,,,
-2140,107,übereinkommen,,,,,,,,,,
-2141,107,überfragen,,,,,,,,,,
-2142,107,überliegen,,,,,,,,,,
-2143,107,überschreien,,,,,,,,,,
-2144,107,verscheiden,,,,,,,,,,
-2145,107,verschilfen,,,,,,,,,,
-2146,107,verschneien,,,,,,,,,,
-2147,107,verwehen,,,,,,,,,,
-2148,107,vorbeireiten,,,,,,,,,,
-2149,107,vorschlafen,,,,,,,,,,
-2150,107,weissen,,,,,,,,,,
-2151,107,wesen,,,,,,,,,,
-2152,107,wundernehmen,,,,,,,,,,
-2153,107,zerfahren,,,,,,,,,,
-2154,107,zusammenstossen,,,,,,,,,,
-2155,107,beben,,,,,,,,,,
-2156,107,bellen,,,,,,,,,,
-2157,107,brauen,,,,,,,,,,
-2158,107,brausen,,,,,,,,,,
-2159,107,bürsten,,,,,,,,,,
-2160,107,dämmen,,,,,,,,,,
-2161,107,dämmern,,,,,,,,,,
-2162,107,dampfen,,,,,,,,,,
-2163,107,dichten,,,,,,,,,,
-2164,107,ducken,,,,,,,,,,
-2165,107,dürsten,,,,,,,,,,
-2166,107,einatmen,,,,,,,,,,
-2167,107,einbilden,,,,,,,,,,
-2168,107,entbehren,,,,,,,,,,
-2169,107,entgegenen,,,,,,,,,,
-2170,107,flicken,,,,,,,,,,
-2171,107,fluchen,,,,,,,,,,
-2172,107,fluten,,,,,,,,,,
-2173,107,gähnen,,,,,,,,,,
-2174,107,gären,,,,,,,,,,
-2175,107,genieren,,,,,,,,,,
-2176,107,glotzen,,,,,,,,,,
-2177,107,glühen,,,,,,,,,,
-2178,107,grollen,,,,,,,,,,
-2179,107,hämmern,,,,,,,,,,
-2180,107,herausbekommen,,,,,,,,,,
-2181,107,immatrikulieren,,,,,,,,,,
-2182,107,imponieren,,,,,,,,,,
-2183,107,jammern,,,,,,,,,,
-2184,107,jauchzen,,,,,,,,,,
-2185,107,jaulen,,,,,,,,,,
-2186,107,jobben,,,,,,,,,,
-2187,107,jodeln,,,,,,,,,,
-2188,107,jucken,,,,,,,,,,
-2189,107,justieren,,,,,,,,,,
-2190,107,kauen,,,,,,,,,,
-2191,107,lecken,,,,,,,,,,
-2192,107,lichten,,,,,,,,,,
-2193,107,lutschen,,,,,,,,,,
-2194,107,mahlen,,,,,,,,,,
-2195,107,nagen,,,,,,,,,,
-2196,107,naschen,,,,,,,,,,
-2197,107,necken,,,,,,,,,,
-2198,107,pachten,,,,,,,,,,
-2199,107,qualmen,,,,,,,,,,
-2200,107,quetschen,,,,,,,,,,
-2201,107,quietschen,,,,,,,,,,
-2202,107,rösten,,,,,,,,,,
-2203,107,scherzen,,,,,,,,,,
-2204,107,schlachten,,,,,,,,,,
-2205,107,schmieren,,,,,,,,,,
-2206,107,sieden,,,,,,,,,,
-2207,107,sprühen,,,,,,,,,,
-2208,107,spucken,,,,,,,,,,
-2209,107,tropfen,,,,,,,,,,
-2210,107,verachten,,,,,,,,,,
-2211,107,verkommen,,,,,,,,,,
-2212,107,vermehren,,,,,,,,,,
-2213,107,wälzen,,,,,,,,,,
-2214,107,wetzen,,,,,,,,,,
-2215,107,zähmen,,,,,,,,,,
-2216,107,zapfen,,,,,,,,,,
-2217,107,abbringen,to dissuade,,,,,,,,,
-2218,107,adressieren,to address,,,,,,,,,
-2219,107,ängstigen,to frighten,,,,,,,,,
-2220,107,ekeln,to disgust,,,,,,,,,
-2221,107,fussen,to be based on,,,,,,,,,
-2222,107,spotten,to mock,,,,,,,,,
-2223,107,verheimlichen,to conceal,,,,,,,,,
-2224,107,altern,to age,,,,,,,,,
-2225,107,befehligen,to command,,,,,,,,,
-2226,107,bewachen,to guard,,,,,,,,,
-2227,107,knien,to kneel,,,,,,,,,
+Nr,level,answer,question
+1,1,sein,to be
+2,1,haben,"to have, to contain"
+3,1,werden,"to become, will, to be done (passive voice)"
+4,1,können,"can, to be able to"
+5,1,wollen,to want
+6,1,müssen,"must, to have to, to be obliged (to do something)"
+7,1,sollen,"shall, to be asked (to do something)"
+8,1,mögen,to like
+9,1,dürfen,"to be allowed (to do something), may"
+10,1,wissen,to know
+11,1,machen,"to make, to prepare (e.g. food), to do"
+12,1,tun,"to do, to do something to someone"
+13,1,sagen,"to say, to tell"
+14,1,gehen,"to go, to leave, to work, to function (coll.)"
+15,1,sehen,"to see, to see (to something), to realise"
+16,1,geben,to give
+17,1,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+18,1,glauben,to believe
+19,1,reden,to talk
+20,1,hören,"to hear, to listen to"
+21,1,finden,to find
+22,1,bleiben,"to remain, to stay"
+23,1,brauchen,to need
+24,1,lieben,to love
+25,1,bringen,"to bring, to take, to lead"
+26,1,stehen,"to stand, to be, to appear"
+27,1,heissen,"to be called, to mean"
+28,1,nehmen,"to take, to cause oneself to be (in some state)"
+29,1,sprechen,to speak
+30,1,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone"
+31,1,vergessen,"to forget, to leave (forget to take)"
+32,1,halten,"to hold, to stop (a movement), to support, to keep"
+33,1,warten,"to wait, to maintain (e.g. a car)"
+34,1,kennen,"to know, to be acquainted with, to be familiar with"
+35,1,verstehen,"to understand, to get along with someone/something"
+36,1,denken,"to think, to consider"
+37,1,leben,to live
+38,1,arbeiten,to work
+39,1,essen,to eat
+40,1,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
+41,2,aufstehen,"to get up, to be open (e.g. a window, door)"
+42,2,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull"
+43,2,ausziehen,"to take something off, to undress, to pull out, to move out"
+44,2,spielen,to play
+45,2,fahren,"to go (by vehicle), to leave, to drive"
+46,2,versuchen,to try
+47,2,erzählen,"to tell, to narrate"
+48,2,fragen,"to ask, to wonder (refl.)"
+49,2,treffen,"to meet, to encounter"
+50,2,hoffen,to hope
+51,2,suchen,"to seek, to search"
+52,2,trinken,to drink
+53,2,lernen,"to learn, to study (revise/review materials), to train something"
+54,2,zeigen,"to show, to point at, to demonstrate"
+55,2,schlafen,to sleep
+56,2,kaufen,to buy
+57,2,laufen,"to walk, to flow (of a fluid), to run (of an event)"
+58,2,erklären,"to explain, to declare, to assert"
+59,2,zahlen,"to pay (for something), to atone for"
+60,2,kochen,"to cook, to boil (to heat a liquid), to boil something"
+61,2,waschen,to wash
+62,2,aufwachen,to wake up
+63,2,zeichnen,"to draw, to sketch"
+64,2,wohnen,"to live, to reside, to dwell"
+65,2,schreiben,to write
+66,2,tragen,"to wear (clothing), to carry, to hold"
+67,2,interessieren,"to interest, to be interested in (refl.)"
+68,2,ziehen,"to pull, to drag, to move"
+69,2,lesen,to read
+70,2,kosten,"to cost, to taste"
+71,2,wiederholen,to repeat
+72,2,übersetzen,to translate
+73,2,buchstabieren,to spell
+74,2,bedeuten,"to mean, to signify"
+75,2,funktionieren,"to function, to work"
+76,2,erinnern,"to remind, to remember (refl.)"
+77,2,fühlen,"to feel, to feel something (good/bad) (refl.)"
+78,2,regnen,to rain
+79,2,schneien,to snow
+80,2,führen,"to lead, to guide"
+81,3,passieren,"to happen (conversational), to move beyond, to strain"
+82,3,verlieren,to lose
+83,3,bestimmen,to determine
+84,3,holen,to fetch
+85,3,anrufen,"to call by telephone, to call on (someone)"
+86,3,aufhören,"to stop, to cease an activity/process"
+87,3,anfangen,to begin something new
+88,3,gewinnen,to win
+89,3,wehtun,"to hurt, to be painful"
+90,3,öffnen,to open (formal)
+91,3,bezahlen,"to pay, to pay someone"
+92,3,beginnen,to begin (on a date/time)
+93,3,benutzen,to use (something)
+94,3,schicken,to send
+95,3,lachen,to laugh
+96,3,scheinen,"to seem, to shine"
+97,3,ändern,to change (one's personality/behavior)
+98,3,verkaufen,to sell
+99,3,gehören,to belong to
+100,3,sitzen,"to be seated, to stay, to fit (of clothing)"
+101,3,stellen,"to position, to put, to catch"
+102,3,setzen,"to set, to sit down (refl.)"
+103,3,liegen,"to lie, to be located"
+104,3,danken,to thank
+105,3,legen,"to lay, to lean, to lie down"
+106,3,schauen,to look at (Bayern/Austria)
+107,3,besuchen,to visit
+108,3,freuen,"to make glad, to be glad (refl.), to look forward (refl.)"
+109,3,schliessen,"to shut, to close, to lock, to conclude"
+110,3,einladen,"to invite, to load (something into a container)"
+111,3,gefallen,"to please, to appeal to"
+112,3,wünschen,to wish
+113,3,passen,"to fit, to suit"
+114,3,folgen,to follow
+115,3,ansehen,"to look at something, to watch something"
+116,3,aussehen,"to look (like), to appear"
+117,3,probieren,"to try, to taste, to sample, to probe"
+118,3,träumen,to dream
+119,3,fernsehen,to watch TV
+120,3,schwimmen,"to swim, to float"
+121,4,einschlafen,to fall asleep
+122,4,reisen,to travel
+123,4,feiern,to celebrate
+124,4,antworten,"to answer, to reply"
+125,4,wählen,"to choose, to dial (a number), to vote"
+126,4,ausgehen,"to go out, to run out (e.g. of money)"
+127,4,zählen,to count
+128,4,ankommen,"to arrive, to depend on something"
+129,4,dauern,"to last, to take (time)"
+130,4,kennenlernen,"to meet someone, to get to know someone/something"
+131,4,anmelden,"to register, to sign up"
+132,4,lassen,"to let, to leave, to allow"
+133,4,verlassen,"to leave, to trust with something (refl.), to pass away, to die"
+134,4,helfen,to help
+135,4,bewegen,to move
+136,4,versprechen,"to promise, to hope for, to misspeak"
+137,4,hängen,"to hang, to be fond of, depend on"
+138,4,mieten,"to rent, to hire"
+139,4,rauchen,to smoke (e.g. a cigarette)
+140,4,sterben,to die
+141,4,heiraten,to marry
+142,4,kämpfen,"to fight, to struggle"
+143,4,fehlen,"to lack, to be absent/missing"
+144,4,sorgen,"to care, to worry"
+145,4,stecken,"to stick, to pin"
+146,4,überraschen,to surprise
+147,4,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent"
+148,4,stehlen,to steal
+149,4,stimmen,"to be true, to vote, to tune"
+150,4,entscheiden,to decide
+151,4,vermissen,to miss something/someone
+152,4,werfen,to throw
+153,4,erkennen,"to recognise, to realise"
+154,4,teilen,"to split, to share, to divide"
+155,4,bauen,to build
+156,4,melden,"to report, to register"
+157,4,brechen,to break
+158,4,steigen,"to ascend, to climb, to rise"
+159,4,singen,to sing
+160,4,empfehlen,"to recommend, to suggest"
+161,5,aufmachen,"to open (coll.), to head/move off (refl.), to undo something"
+162,5,vertrauen,to trust
+163,5,verändern,"to alter, to change something"
+164,5,bitten,"to ask, to request"
+165,5,besitzen,"to own, to possess, to have"
+166,5,merken,"to notice, to realise, to remember (refl.)"
+167,5,stören,"to disturb, to interfere"
+168,5,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose"
+169,5,übernehmen,to take over
+170,5,stattfinden,"to take place, to occur"
+171,5,fangen,to catch
+172,5,enthalten,"to contain, to include"
+173,5,dienen,"to serve, to function"
+174,5,verschwinden,"to disappear, to get lost"
+175,5,schützen,"to defend (lawyer), to protect (sunprotection)"
+176,5,nennen,"to name, to call someone something, to mention"
+177,5,schätzen,"to appreciate, to evaluate, to guess"
+178,5,erwarten,"to expect, to await"
+179,5,drehen,"to turn, to veer"
+180,5,behalten,to keep
+181,5,verpassen,"to miss (to be late for something, e.g. a train)"
+182,5,schenken,"to gift, to give as a present"
+183,5,wachsen,"to grow, to increase"
+184,5,springen,"to spring, to jump"
+185,5,befinden,"to be located (refl.), to find, to consider (formal)"
+186,5,raten,"to advise, to recommend, to guess"
+187,5,verbieten,"to forbid, to prohibit (with dative)"
+188,5,fallen,"to fall, to fall in battle, to collapse"
+189,5,kümmern,"to take care (refl.), to trouble, to concern"
+190,5,drücken,"to press, to push"
+191,5,vergleichen,to compare
+192,5,putzen,"to clean, to rub"
+193,5,einkaufen,to shop
+194,5,veröffentlichen,"to publish, to release"
+195,5,testen,"to test, to examine"
+196,5,lösen,"to loosen, to solve, to separate, to remove"
+197,5,kontrollieren,"to control, to check"
+198,5,unterstützen,"to support, to provide help"
+199,5,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
+200,5,tanzen,to dance
+201,6,studieren,"to study, to go to university/college"
+202,6,sinken,"to sink, to drop"
+203,6,klingen,to sound
+204,6,schmecken,to taste
+205,6,mitteilen,"to inform, to share"
+206,6,streiten,"to argue, to fight, to quarrel"
+207,6,entwickeln,to develop
+208,6,ersetzen,"to replace, to substitute"
+209,6,leiden,"to bear, to endure, to suffer"
+210,6,diskutieren,"to discuss, to debate"
+211,6,rufen,"to call out, to call for help, to telephone"
+212,6,vorschlagen,"to suggest, to propose"
+213,6,überzeugen,"to convince, to convince oneself (refl.)"
+214,6,vermuten,"to assume something is true, to suppose, suspect something"
+215,6,überlegen,"to consider, to think over"
+216,6,teilnehmen,"to take part, to participate"
+217,6,gründen,"to found, to establish"
+218,6,überprüfen,to check
+219,6,beraten,"to advise, to consult"
+220,6,vertreten,"to represent, to stand for"
+221,6,bewerben,to apply (to a job etc.)
+222,6,erstellen,"to create, to generate, to compile, to set up"
+223,6,korrigieren,"to correct, to rectify, to debug"
+224,6,beenden,"to finish, to complete, to terminate (relationship)"
+225,6,anbieten,"to offer, to provide"
+226,6,fordern,"to demand, to require"
+227,6,mitnehmen,"to carry along, to pick up (something), to take away"
+228,6,mitbringen,"to bring along, to bring with"
+229,6,sammeln,"to collect, to gather"
+230,6,aufpassen,"to watch out, to look after something, to be attentive with something"
+231,6,hassen,to hate
+232,6,zurückgehen,"to go back, to decline"
+233,6,ärgern,to annoy oneself (refl.)
+234,6,schieben,to push
+235,6,kündigen,"to terminate, to cancel"
+236,6,heben,"to lift, to raise"
+237,6,abholen,"to pick up someone or something, to collect"
+238,6,füllen,to fill
+239,6,wechseln,"to replace, to change, to exchange"
+240,6,wirken,"to work, to be effective, to take affect, to act"
+241,7,verletzen,"to hurt, to injure, to violate (rules, laws, etc.)"
+242,7,zustimmen,"to agree, to consent"
+243,7,erhalten,"to receive (passively), to maintain, to save"
+244,7,erlauben,to allow/permit something to someone
+245,7,trennen,"to separate, part, uncouple, to disconnect, to isolate"
+246,7,darstellen,"to represent, to portray"
+247,7,greifen,"to grab, to seize, to reach, to capture"
+248,7,entfernen,"to remove, to recede, to deviate, to desert (military)"
+249,7,verlieben,to fall in love (refl.)
+250,7,verdienen,to earn
+251,7,aufräumen,"to tidy up, to clean up"
+252,7,spülen,"to rinse, to flush toilets"
+253,7,beschreiben,to describe
+254,7,verbinden,"to join, to connect, to bandage"
+255,7,rennen,"to race, to sprint, to run over someone (aux. with haben)"
+256,7,pflanzen,to plant
+257,7,beten,to pray
+258,7,ausruhen,"to rest (refl.), to relax"
+259,7,entspannen,"to relax (refl.), to relieve pressure"
+260,7,verbringen,to spend (time)
+261,7,vorhaben,to have something planned
+262,7,erleben,"to experience, to witness"
+263,7,malen,to paint
+264,7,jagen,to hunt
+265,7,erkunden,to explore
+266,7,erholen,to recover
+267,7,tanken,to refuel
+268,7,planen,to plan
+269,7,entdecken,"to discover, to spot"
+270,7,fliegen,to fly
+271,7,erfahren,"to experience, to find out, to learn"
+272,7,enttäuschen,to disappoint
+273,7,geniessen,"to enjoy (an experience), to relish"
+274,7,besichtigen,"to visit, to tour"
+275,7,spazieren,"to take a walk, to stroll"
+276,7,wandern,"to hike, to wander"
+277,7,faszinieren,to fascinate
+278,7,surfen,to surf
+279,7,trainieren,"to train, to coach, to work out"
+280,7,erreichen,to reach
+281,8,verhindern,"to prevent, to inhibit"
+282,8,unterschreiben,to sign (write one's signature)
+283,8,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)"
+284,8,bestellen,"to order (e.g. food), to summon, to reserve"
+285,8,buchen,"to book, to reserve"
+286,8,liefern,"to deliver something, to provide something, to furnish"
+287,8,schneiden,"to cut, to prune"
+288,8,sparen,"to save up, to conserve"
+289,8,mischen,to mix
+290,8,ernähren,"to nourish, to feed"
+291,8,bevorzugen,to prefer
+292,8,braten,"to fry, to roast"
+293,8,backen,to bake
+294,8,grillen,"to grill, to have a barbecue"
+295,8,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
+296,8,zubereiten,"to prepare, to cook in advance"
+297,8,reservieren,to reserve
+298,8,servieren,to serve (food or drinks)
+299,8,betreuen,"to care for, to supervise"
+300,8,entstehen,"to arise, to emerge, to develop"
+301,8,aufnehmen,"to pick up, to receive, to take in, to record, to absorb"
+302,8,gelten,"to be valid, to be effective, to be worth"
+303,8,verbessern,"to improve, to enhance"
+304,8,sichern,"to secure, to protect"
+305,8,beantworten,to answer (a question)
+306,8,beschäftigen,"to concern oneself with something, to take care of"
+307,8,absolvieren,"to complete, to finish, to graduate"
+308,8,üben,to practice
+309,8,vorbereiten,"to prepare (in advance), to prepare oneself (refl.)"
+310,8,weinen,"to weep, cry"
+311,8,einsetzen,"to insert, to use, to appoint, to risk"
+312,8,nutzen,"to use, to utilize"
+313,8,warnen,to warn
+314,8,klären,to clarify
+315,8,besprechen,"to discuss (formal, work related)"
+316,8,erhöhen,"to increase, to raise"
+317,8,beschränken,"to restrict, to limit"
+318,8,zwingen,"to force, to compel"
+319,8,berücksichtigen,"to consider, to take into account"
+320,8,übertragen,"to transfer, to transmit"
+321,9,beweisen,"to prove, to demonstrate"
+322,9,erfinden,"to invent, to fabricate (something untrue), to find out"
+323,9,zielen,"to aim, to target"
+324,9,rechnen,"to calculate, to reckon"
+325,9,forschen,to research
+326,9,unterrichten,"to teach, to inform"
+327,9,erzielen,"to achieve, to reach a result"
+328,9,bestehen,"to succeed, to pass (an exam), to consist, to insist"
+329,9,abschliessen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)"
+330,9,loben,to praise
+331,9,bilden,"to form, to educate oneself (refl.)"
+332,9,ausbilden,to train for a profession
+333,9,herausfinden,"to find something out, to discover"
+334,9,konzentrieren,"to concentrate, to focus"
+335,9,küssen,"to kiss, to make out"
+336,9,verstecken,to hide
+337,9,zurückkommen,to return (to come back)
+338,9,umziehen,"to change clothes (refl.), to move house"
+339,9,zerstören,to destroy
+340,9,enden,to end (passive)
+341,9,abgeben,"to hand something in, to emit something, to deliver something, to cede something"
+342,9,töten,to kill
+343,9,achten,"to respect, to regard someone, to pay attention to something"
+344,9,erwachsen,"to grow up, to spring up, to accrue"
+345,9,absagen,"to call off, to cancel"
+346,9,gucken,"to look, to watch, to have a certain facial expression (Northern Germany)"
+347,9,anschauen,"to look at, to behold, to take a look at, to watch (Bayern/Austria)"
+348,9,lauten,"to sound, to read (have a certain wording), to be, to state"
+349,9,spüren,to sense
+350,9,atmen,to breathe
+351,9,lächeln,to smile
+352,9,fürchten,"to fear, to be afraid"
+353,9,empfinden,to feel (emotions)
+354,9,beobachten,"to watch, to observe"
+355,9,riechen,"to sniff, to reek, to tolerate someone (coll.)"
+356,9,duften,to smell
+357,9,blicken,"to look, to glance"
+358,9,anfassen,to touch
+359,9,fliehen,"to flee, to diverge"
+360,9,abhängen,"to leave behind, to outdistance, to uncouple, to depend"
+361,10,gelingen,"to succeed, to manage"
+362,10,herstellen,"to manufacture, to produce"
+363,10,verteilen,"to distribute, to share"
+364,10,treten,"to step, to read, to kick (a ball)"
+365,10,bewältigen,"to cope with, to get over, to overcome, to manage"
+366,10,ablenken,"to distract, to divert, to steer away"
+367,10,meiden,to avoid (+ nouns only)
+368,10,vorgeben,to pretend
+369,10,decken,"to cover, to meet"
+370,10,geraten,"to get into, to turn out, succeed, to thrive"
+371,10,ergänzen,"to add, to complement, to supplement"
+372,10,laden,"to load, to charge"
+373,10,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+374,10,verursachen,to cause
+375,10,schlagen,"to hit, to defeat, to beat (cooking)"
+376,10,aufwachsen,"to grow up, to be raised"
+377,10,zunehmen,"to gain weight, to increase"
+378,10,lohnen,"to be worthwhile, to pay off"
+379,10,messen,"to measure, to gauge"
+380,10,scheiden,"to separate, to divorce"
+381,10,entsprechen,"to correspond, to comply"
+382,10,mitmachen,"to join in, to take part"
+383,10,wecken,"to wake, to wake up"
+384,10,abnehmen,"to decrease, to lose weight, to accept something, to pick up (of telephones)"
+385,10,bewerten,"to evaluate (subjectively), to assess, to rate, to judge"
+386,10,stammen,"to descend, originate, be derived"
+387,10,gebären,to give birth
+388,10,stossen,"to push, to thurst, to shove"
+389,10,vermeiden,to avoid (+ nouns or verbs)
+390,10,hervorheben,"to point out, to emphasize"
+391,10,erfüllen,"to fill (with something), to fulfill, to come true"
+392,10,entziehen,"to withdraw, deprive"
+393,10,gewöhnen,to accustom oneself to something (refl.)
+394,10,auswählen,"to select, to choose"
+395,10,verzichten,"to renounce, to forgo, to do without, to waive"
+396,10,begründen,"to justify, to explain"
+397,10,zugeben,to admit
+398,10,besorgen,"to obtain, to manage"
+399,10,abfahren,"to depart, to leave, to drive along"
+400,10,abbauen,"to dismantle, to deteriorate"
+401,11,lügen,"to lie, to give false information (unintentionally)"
+402,11,schreien,"to shout, to yell, to scream"
+403,11,entschuldigen,"to excuse, to apologise"
+404,11,beschweren,to complain
+405,11,bestätigen,"to confirm, to corroborate"
+406,11,erwähnen,to mention (to speak of something)
+407,11,informieren,to inform
+408,11,reagieren,"to react, to respond"
+409,11,äussern,"to utter, to say, to express"
+410,11,garantieren,to guarantee
+411,11,kritisieren,to criticize
+412,11,ankündigen,"to announce, to declare"
+413,11,aussprechen,"to pronounce, express"
+414,11,unterbrechen,to interrupt
+415,11,zusagen,"to promise, to accept, to confirm"
+416,11,nachdenken,"to think, to reflect"
+417,11,zweifeln,to doubt
+418,11,einstellen,"to employ someone, to adjust, to cease"
+419,11,bearbeiten,to edit
+420,11,vereinbaren,"to agree, to arrange"
+421,11,hinweisen,"to indicate, to point out"
+422,11,verwenden,to use (formal)
+423,11,reinigen,to clean (formal)
+424,11,geschehen,"to occur, to happen (formal)"
+425,11,beteiligen,"to take part in something (formal), to consult someone"
+426,11,verfügen,"to have, to possess (formal)"
+427,11,benötigen,"to need, to require (formal)"
+428,11,schaffen,"to create, to produce, to achieve/reach a goal"
+429,11,drucken,to print
+430,11,erledigen,"to finish, to take care of, to get something done"
+431,11,herunterladen,to download
+432,11,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)"
+433,11,verschieben,"to move (a meeting), to postpone, to defer"
+434,11,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)"
+435,11,leiten,"to lead, to manage"
+436,11,handeln,"to act, to trade, to negotiate"
+437,11,schalten,"to switch, to operate"
+438,11,prüfen,"to investigate, to check something, to consider"
+439,11,untersuchen,"to examine, to investigate"
+440,11,auswirken,to impact
+441,12,entwerfen,"to design, to draw, to draft"
+442,12,reparieren,to repair
+443,12,unternehmen,to undertake
+444,12,präsentieren,"to present, to introduce"
+445,12,auswerten,"to evaluate (objectively), to analyze"
+446,12,einrichten,"to set up, to install, to furnish"
+447,12,anerkennen,"to acknowledge, to recognize"
+448,12,verwalten,"to manage, to administer"
+449,12,leisten,"to perform, to afford (refl.)"
+450,12,einführen,"to introduce, to implement"
+451,12,beitragen,to contribute
+452,12,anwenden,"to apply (knowledge, know-how)"
+453,12,versorgen,"to provide (for someone), to supply, to feed"
+454,12,pflegen,"to maintain, to care for (ill/old people)"
+455,12,behandeln,"to treat (medicinally), to treat (physically), to cover (a subject)"
+456,12,erzeugen,"to generate, produce, to create"
+457,12,installieren,"to install, to set up"
+458,12,produzieren,"to produce, to manufacture"
+459,12,verarbeiten,"to process, to handle"
+460,12,fressen,"to devour, to eat (of an animal), to gorge, to guzzle"
+461,12,analysieren,to analyse
+462,12,beurteilen,to judge
+463,12,fördern,"to promote, to support"
+464,12,berichten,"to report, to cover, to indicate, to refer"
+465,12,werben,to advertise
+466,12,beeinflussen,"to influence, to affect"
+467,12,zulassen,"to allow, to license (for a car)"
+468,12,verurteilen,"to condemn, to sentence (law)"
+469,12,senden,"to broadcast, to send"
+470,12,erfolgen,"to occur, to take place"
+471,12,beugen,to bow
+472,12,nicken,to nod
+473,12,beeindrucken,to impress someone
+474,12,mitkommen,"to come with someone, to understand something"
+475,12,reichen,"to suffice, to be enough"
+476,12,regeln,to regulate
+477,12,frieren,"to freeze, to be cold"
+478,12,ordnen,"to organize, to arrange, to order"
+479,12,saugen,"to suck, to vacuum, to suckle"
+480,12,abziehen,"to withdraw, to go away, to move off"
+481,13,leihen,"to lend, to borrow"
+482,13,finanzieren,"to finance, to fund"
+483,13,investieren,to invest
+484,13,abheben,to withdraw (money)
+485,13,überweisen,to transfer (money)
+486,13,stärken,to strengthen
+487,13,erleichtern,to lighten
+488,13,verlängern,to extend
+489,13,vertiefen,to deepen
+490,13,erweitern,"to expand, to extend, to broaden"
+491,13,ermöglichen,"to enable, to facilitate"
+492,13,bemerken,"to notice, to remark something"
+493,13,begrüssen,"to welcome, to greet"
+494,13,bemühen,to make an effort
+495,13,beschliessen,"to decide something, to end, to close"
+496,13,beauftragen,"to instruct, to give an order"
+497,13,berechnen,to calculate something
+498,13,bedanken,to thank someone
+499,13,beschädigen,to damage (objects)
+500,13,beruhigen,to calm
+501,13,betrinken,to get drunk (refl.)
+502,13,wetten,to bet
+503,13,meinen,"to be of the opinion, to mean"
+504,13,zögern,to hesitate
+505,13,bewundern,to admire
+506,13,bezeichnen,"to designate, to label"
+507,13,überlassen,"to relinquish, to leave something in someone's care"
+508,13,schreiten,"to stride, to step, to proceed"
+509,13,binden,"to bind, to tie, to tie up, to absorb"
+510,13,giessen,"to pour, to cast, to water"
+511,13,blühen,to bloom
+512,13,lehren,"to teach, to educate"
+513,13,abbrechen,"to break off, to abort, to burst off"
+514,13,lenken,"to guide, to direct, to steer, to control"
+515,13,tauchen,"to dive, to submerge, to disappear"
+516,13,wundern,"to wonder, to be surprised"
+517,13,zusammenarbeiten,to work together
+518,13,zusammenstellen,to put together
+519,13,übernachten,to stay overnight
+520,13,überqueren,to cross
+521,14,trocknen,"to dry, to dehumidify"
+522,14,verwandeln,"to transform, to metamorphose, to turn something into something"
+523,14,erscheinen,"to appear, to seem"
+524,14,schiessen,to shoot
+525,14,verraten,"to betray, to reveal"
+526,14,starten,"to start (car, airplane, etc), to start a competition"
+527,14,akzeptieren,to accept
+528,14,fassen,to grasp
+529,14,verlangen,to demand
+530,14,wenden,"to turn something, to make a u-turn"
+531,14,beachten,to consider
+532,14,feststellen,"to ascertain, to establish"
+533,14,rücken,"to move, to shift"
+534,14,landen,to land (a plane)
+535,14,klappen,"to clap, to fold, to work (out) (coll.)"
+536,14,behaupten,"to claim, maintain, assert"
+537,14,auftreten,"to appear, to perform"
+538,14,vergeben,"to set (work), to forgive, to assign"
+539,14,begleiten,"to accompany, to conduct, escort"
+540,14,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)"
+541,14,umgehen,"to avoid, to go around"
+542,14,engagieren,"to engage, to commit"
+543,14,profitieren,"to benefit, to profit"
+544,14,prägen,"to shape, to influence"
+545,14,reduzieren,"to reduce, to decrease"
+546,14,ablehnen,"to reject, to decline, to refuse"
+547,14,angeben,"to indicate, to specify"
+548,14,retten,"to save, to rescue"
+549,14,ausfallen,to stand out
+550,14,hinterlassen,"to leave, to leave behind, to bequeath"
+551,14,anpassen,"to adjust, to adapt"
+552,14,ansprechen,"to address, to speak to"
+553,14,anzeigen,"to show, to display"
+554,14,aufbauen,"to build up, to construct"
+555,14,ausführen,"to execute, to carry out"
+556,14,beantragen,"to apply for, to request"
+557,14,bedienen,"to operate, to serve"
+558,14,belegen,"to occupy, to reserve, to cover, to prove"
+559,14,betonen,"to emphasize, to stress"
+560,14,betragen,"to amount to, to come to"
+561,15,betreiben,"to run, to operate"
+562,15,durchführen,"to carry out, to perform"
+563,15,eignen,"to suit, to be suitable"
+564,15,organisieren,"to organize, to arrange"
+565,15,erheben,"to raise, to collect"
+566,15,errichten,"to establish, to erect"
+567,15,erteilen,"to grant, to issue"
+568,15,erwerben,"to acquire, to purchase"
+569,15,eröffnen,"to open, to inaugurate"
+570,15,festlegen,"to define, to set"
+571,15,fliessen,"to flow, to run"
+572,15,gelangen,"to reach, to get to"
+573,15,gestalten,"to shape, to design"
+574,15,gewährleisten,"to ensure, to guarantee"
+575,15,integrieren,"to integrate, to incorporate"
+576,15,löschen,"to delete, to erase"
+577,15,scheitern,to fail
+578,15,speichern,"to save, to store"
+579,15,sperren,"to block, to lock"
+580,15,steigern,"to increase, to boost"
+581,15,steuern,"to control, to steer"
+582,15,umsetzen,"to implement, to put into practice"
+583,15,unterscheiden,"to distinguish, to differentiate"
+584,15,veranstalten,"to organize, to host"
+585,15,verbreiten,"to spread, to distribute"
+586,15,verfassen,"to compose, to write"
+587,15,verleihen,"to award, to grant"
+588,15,vermitteln,"to mediate, to convey"
+589,15,verpflichten,"to oblige, to commit"
+590,15,verfolgen,"to pursue, to persecute, to trace"
+591,15,weisen,"to show, to indicate"
+592,15,widmen,"to dedicate, to devote"
+593,15,unterhalten,"to maintain, to entertain, to converse (refl.)"
+594,15,aufregen,"to annoy, to upset (refl.)"
+595,15,klingeln,to ring (to produce the sound of a bell or a similar sound)
+596,15,telefonieren,to telephone
+597,15,reiten,"to ride, to ride on the back of someone/something"
+598,15,schweigen,"to be silent, to remain silent"
+599,15,verbrennen,"to burn, to incinerate, to burn oneself, to scorch (miltary)"
+600,15,verabschieden,"to disband, to see someone off, to say goodbye (refl.), to adopt (a law, etc.)"
+601,16,aussteigen,"to exit, to get off"
+602,16,stoppen,to stop a movement (vehicle / person)
+603,16,zuhören,to listen to someone/something (with dative)
+604,16,brennen,"to burn, to have a strong affection for, to induce pain"
+605,16,ausrichten,"to align, to arrange, to organize"
+606,16,wiegen,"to weight, to balance"
+607,16,ausfüllen,"to complete, to fill in, to fill out"
+608,16,ausgeben,"to spend, to expend, to issue"
+609,16,ausreichen,"to suffice, to be sufficient, to be adequate"
+610,16,austauschen,"to exchange, to replace, to swap"
+611,16,einnehmen,"to capture, to earn, to ingest"
+612,16,einschalten,"to switch on, to intervene, to turn on"
+613,16,einziehen,"to move in, to penetrate, to infiltrate"
+614,16,fotografieren,"to take a photo, to photograph"
+615,16,protestieren,"to protest, to object"
+616,16,realisieren,"to realize, to implement, to actualize"
+617,16,unterstreichen,"to underline, to emphasize, to highlight"
+618,16,verbrauchen,"to consume, to use"
+619,16,vorlesen,"to read aloud, to read out"
+620,16,zusammenfassen,"to summarize, to condense, to abstract"
+621,16,aufführen,"to perform, to present"
+622,16,erschrecken,"to be frightened, to frighten"
+623,16,einsteigen,"to enter, to get in, to board"
+624,16,markieren,"to mark, to highlight"
+625,16,begehen,"to commit, perpetrate (a crime, an offence)"
+626,16,kriegen,"to get after asking or fighting, to wage war"
+627,16,ertragen,"to bear, to stand"
+628,16,verhaften,"to detain, to take into custody"
+629,16,begegnen,"to encounter (with dative), to meet"
+630,16,wagen,"to venture, to dare, to risk, to jeopardise"
+631,16,zurückziehen,"to withdraw, to pull back, to retreat"
+632,16,schaden,"to damage, to harm (someone)"
+633,16,umdrehen,to turn around
+634,16,zitieren,"to cite, to quote"
+635,16,anhalten,"to stop (cease moving), to continue, to compel"
+636,16,absehen,"to foresee, to overlook, to disregard"
+637,16,zusehen,"to watch, to see, to make sure (that something happens)"
+638,16,auffallen,"to stand out, to catch someone's eye (with dative)"
+639,16,begeistern,"to enthuse, to be enthusiastic (refl.)"
+640,16,aufgeben,"to give up on, to give up (refl.), to abandon"
+641,100,existieren,to exist
+642,100,basieren,to base
+643,100,packen,"to pack, to grab, to manage"
+644,100,bewahren,"to keep, to preserve (to maintain the condition of)"
+645,100,verzeihen,"to forgive, to pardon, to excuse"
+646,100,bestrafen,to punish
+647,100,stinken,to stink
+648,100,berühren,to touch
+649,100,bekämpfen,to fight against something
+650,100,anstellen,"to queue (refl.), to employ someone, to get into mischief"
+651,100,aktivieren,"to activate, to enable"
+652,100,auftauchen,"to arise, to surface, to turn up"
+653,100,einfallen,"to collapse, to come to mind"
+654,100,aussuchen,"to select, to choose, to pick"
+655,100,streichen,"to stroke, to cancel, to spread, to rub, to paint"
+656,100,verhandeln,to negotiate
+657,100,verhalten,"to behave (refl.), to act (refl.), to press (coll.)"
+658,100,übertreiben,"to exaggerate, to overdo"
+659,100,stürzen,"to fall, to rush, to throw, to overturn, to overthrow something"
+660,100,festhalten,"to hold someone/something, to retain something, to record something, to detain"
+661,100,bedrohen,"to threaten, to menace"
+662,100,irren,to err
+663,100,weitermachen,"go on, keep going, continue to do something"
+664,100,anschliessen,"to join, to attach, to affiliate, to connect"
+665,100,bewirken,"to bring about, to cause, to effect"
+666,100,einfügen,"to insert, to infix, to conform"
+667,100,erfordern,"to require, to demand, to necessitate"
+668,100,ergreifen,"to seize, to grasp, to take hold of"
+669,100,erstrecken,"to extend, to span, to bestride"
+670,100,fortsetzen,"to continue, to carry on, to extend, to proceed"
+671,100,kopieren,"to copy, to duplicate"
+672,100,senken,"to lower, to sink, to drop, to reduce"
+673,100,überwachen,"to keep under surveillance, to monitor, to observe, to oversee"
+674,100,versehen,"to provide, to equip, to supply"
+675,100,vorlegen,"to present, to submit, to bring forward"
+676,100,winken,to wave
+677,100,zuordnen,"to assign, to allocate"
+678,100,ausstellen,"to exhibit, to display"
+679,100,bergen,"to recover, to rescue, to save, to salvage"
+680,100,biegen,"to turn, to bend"
+681,100,abbilden,"to depict, to map, to illustrate"
+682,100,dringen,to penetrate
+683,100,gleiten,"to glide, to slide"
+684,100,klagen,"to complain, to lament, to sue"
+685,100,kleben,"to stick, to adhere, to bond, to glue"
+686,100,klopfen,"to knock, to tap (food)"
+687,100,operieren,to operate
+688,100,schleichen,"to sneak, to creep"
+689,100,stechen,"to sting, to prick, to puncture, to pierce"
+690,100,umstellen,"to relocate, to adapt, to change"
+691,100,vorkommen,"to occur, to happen, to advance"
+692,100,ablaufen,"to expire, to run out, to discharge"
+693,100,ableiten,"to derive, to deduce"
+694,100,ablösen,"to remove, to detach, to replace"
+695,100,abschneiden,"to cut off, to amputate, to block"
+696,100,abstimmen,"to coordinate, to vote, to adjust"
+697,100,abweichen,"to depart (from), to soak off"
+698,100,abwenden,"to turn away, to avert, to abandon"
+699,100,agieren,
+700,100,anführen,
+701,100,anregen,
+702,100,anschaffen,
+703,100,ansiedeln,
+704,100,aufbrechen,
+705,100,auffordern,
+706,100,aufhalten,
+707,100,aufheben,
+708,100,aufklären,
+709,100,aufladen,
+710,100,auflösen,
+711,100,aufschreiben,
+712,100,aufsteigen,
+713,100,ausdrucken,
+714,100,auslösen,
+715,100,ausmachen,
+716,100,ausüben,
+717,100,befürchten,
+718,100,begeben,
+719,100,beherrschen,
+720,100,beklagen,
+721,100,belasten,
+722,100,benennen,
+723,100,berechtigen,
+724,100,besetzen,
+725,100,bremsen,
+726,100,dokumentieren,
+727,100,drängen,
+728,100,eilen,
+729,100,einleiten,
+730,100,einreichen,
+731,100,einschlagen,
+732,100,einschränken,
+733,100,eintragen,
+734,100,eintreten,
+735,100,entgegenkommen,
+736,100,erarbeiten,
+737,100,erforschen,
+738,100,erkundigen,
+739,100,erleiden,
+740,100,erregen,
+741,100,erziehen,
+742,100,festnehmen,
+743,100,festsetzen,
+744,100,interpretieren,
+745,100,klettern,
+746,100,kombinieren,
+747,100,konsumieren,
+748,100,konzipieren,
+749,100,motivieren,
+750,100,nachweisen,
+751,100,notieren,
+752,100,nähern,
+753,100,orientieren,
+754,100,parken,
+755,100,rechtfertigen,
+756,100,renovieren,
+757,100,schimpfen,
+758,100,schwingen,
+759,100,schütteln,
+760,100,spezialisieren,
+761,100,streiken,
+762,100,strukturieren,
+763,100,transportieren,
+764,100,umarmen,
+765,100,verdanken,
+766,100,verdoppeln,
+767,100,vereinfachen,
+768,100,verknüpfen,
+769,100,verkünden,
+770,100,verpacken,
+771,100,verschreiben,
+772,100,versichern,
+773,100,vertreiben,
+774,100,verwirklichen,
+775,100,voraussetzen,
+776,100,vorbeugen,
+777,100,wahrnehmen,
+778,100,weitergeben,
+779,100,widersprechen,
+780,100,zugehen,
+781,100,zulegen,
+782,100,zurückgeben,
+783,100,zurückhalten,
+784,100,überholen,
+785,100,überschreiten,
+786,101,experimentieren,to experiment
+787,101,lindern,"to alleviate, to relieve"
+788,101,entschliessen,to decide (to do something) (refl.)
+789,101,einbeziehen,"to include, to involve, to integrate"
+790,101,fällen,"to fall, to fell"
+791,101,überleben,to survive
+792,101,faulenzen,"to chill, to laze around"
+793,101,joggen,to jog
+794,101,tauschen,"to swap, to trade, to exchange"
+795,101,gefährden,to endanger
+796,101,beschützen,"to protect, defend (security)"
+797,101,befreien,to free (make free)
+798,101,füttern,to feed (an animal)
+799,101,frühstücken,to have breakfast
+800,101,gönnen,"to treat, to allow, to grant"
+801,101,formulieren,"to formulate, to phrase"
+802,101,umtauschen,"to convert, to exchange (currency)"
+803,101,verschlechtern,to worsen
+804,101,abkühlen,to cool down
+805,103,ermitteln,"to determine, to ascertain"
+806,103,klicken,to click
+807,103,kommentieren,to comment
+808,103,angehen,"to concern, to tackle (a problem), to turn on (a machine)"
+809,103,verteidigen,to defend
+810,103,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something"
+811,103,betreffen,"to concern, to affect"
+812,103,herrschen,"to rule, to prevail, to control"
+813,103,anlegen,"to create, to invest"
+814,103,antreten,"to begin, to compete"
+815,103,aufstellen,"to set up, to establish"
+816,103,ausbauen,"to expand, to develop"
+817,103,ausschliessen,"to exclude, to eliminate"
+818,103,ausstatten,"to equip, to outfit"
+819,103,auszeichnen,"to honor, to distinguish"
+820,103,betrachten,"to view, to observe"
+821,103,beziehen,"to refer, to obtain"
+822,103,drohen,to threaten
+823,103,durchsetzen,"to enforce, to assert"
+824,103,erfassen,"to record, to capture"
+825,103,registrieren,"to register, to enroll"
+826,103,erläutern,"to explain, to clarify"
+827,103,erweisen,"to prove (passively), to turn out to be, to show"
+828,103,genügen,"to suffice, to satisfy"
+829,103,kehren,"to return, to sweep"
+830,103,umfassen,"to include, to comprise"
+831,103,unterliegen,"to be subject to, to undergo"
+832,103,verweisen,"to refer, to direct"
+833,103,vorliegen,"to exist, to be available"
+834,103,vornehmen,"to undertake, to carry out"
+835,103,vorsehen,"to plan, to provide for"
+836,104,schälen,to peel
+837,104,behindern,"to obstruct, to hamper"
+838,104,hetzen,"to rush, to hurry"
+839,104,verschweigen,to conceal
+840,104,definieren,to define
+841,104,befördern,to transport
+842,104,umbringen,"to kill, to murder, to be very angry at someone"
+843,104,gebrauchen,"to use, to make use of"
+844,104,hingehen,"to go (there), (of time) to pass"
+845,104,schwören,"to swear, to take an oath"
+846,104,angreifen,to attack
+847,104,übergeben,"to hand over, to vomit (refl.)"
+848,104,vernichten,"to destroy, to ruin, to annihilate, to eradicate"
+849,104,heilen,to heal
+850,104,zurückkehren,to return
+851,104,stützen,"to support, to back, to hold something up, to bolster"
+852,104,rollen,to roll
+853,104,züchten,"to breed, to grow"
+854,104,wehren,"to defend, to resist"
+855,104,sondern,"to separate, to split"
+856,104,herkommen,"to come over, come here (towards the speaker), to come from"
+857,104,betrügen,"to cheat, to swindle, to defraud"
+858,104,loswerden,to get rid of someone/something
+859,104,erfreuen,"to please, to enjoy (refl.)"
+860,104,beibringen,"to teach, to break (news, information) carefully to, to inflict"
+861,104,weggehen,"to go away, to leave"
+862,104,einigen,
+863,104,gleichen,"to equal, to match, to resemble"
+864,104,reissen,
+865,104,hauen,"to slash, to cut, to hit (coll.)"
+866,104,versagen,"to fail, to refuse, to deny"
+867,104,preisen,"to praise, to commend"
+868,104,verschwenden,"to squander, to waste"
+869,104,identifizieren,to identify
+870,104,schmelzen,to melt
+871,104,importieren,to import
+872,104,verbergen,to conceal sth: to hide something
+873,104,weitergehen,"to continue, to proceed, to keep moving"
+874,104,versetzen,"to put, to move, to deal, to give (a blow, hit), to transfer (when to do with work)"
+875,104,beleidigen,"to offend someone, to insult someone"
+876,104,verabreden,"to arrange, to make an appointment"
+877,104,anhören,to listen to someone
+878,104,aussetzen,"to pause, to suspend something, to abandon someone, to expose oneself to something (refl.)"
+879,104,trauen,"to trust, to marry, to dare (refl.)"
+880,104,abrufen,
+881,104,aufweisen,
+882,104,bedenken,
+883,104,beeinträchtigen,
+884,104,befassen,
+885,104,beinhalten,
+886,104,bereitstellen,
+887,104,beruhen,
+888,104,beschleunigen,"to accelerate, to speed up"
+889,104,verzehren,to consumme (with your mouth)
+890,104,einschliessen,
+891,104,eingeben,
+892,104,erlassen,
+893,104,formen,
+894,104,fügen,
+895,104,gestatten,
+896,104,gewähren,
+897,104,meistern,
+898,104,qualifizieren,
+899,104,scheren,
+900,104,sicherstellen,
+901,104,umgeben,
+902,104,verringern,
+903,104,verstärken,
+904,104,vorgehen,
+905,104,vorwerfen,
+906,104,auskommen,
+907,104,baden,
+908,104,befehlen,
+909,104,beleben,
+910,104,blasen,
+911,104,blitzen,
+912,104,brüllen,
+913,104,demonstrieren,
+914,104,deuten,
+915,104,einbauen,
+916,104,erlöschen,
+917,104,erschöpfen,
+918,104,gedeihen,
+919,104,graben,
+920,104,grüssen,
+921,104,heizen,
+922,104,herausfordern,
+923,104,isolieren,
+924,104,lauschen,"to listen, to eavesdrop"
+925,104,leuchten,
+926,104,locken,
+927,104,managen,
+928,104,nützen,
+929,104,pfeifen,
+930,104,plagen,
+931,104,reizen,
+932,104,ringen,
+933,104,ruhen,
+934,104,rühren,
+935,104,schleifen,
+936,104,schweben,
+937,104,schwitzen,
+938,104,siegen,
+939,104,strahlen,
+940,104,streben,
+941,104,strecken,
+942,104,toben,
+943,104,überwinden,
+944,104,verderben,
+945,104,vereinigen,
+946,104,verkehren,
+947,104,verwechseln,
+948,104,verweigern,
+949,104,würzen,
+950,104,zaubern,
+951,104,zerschlagen,
+952,104,zittern,
+953,104,abbiegen,
+954,104,abdecken,
+955,104,abgrenzen,
+956,104,abhalten,
+957,104,ablegen,
+958,104,abonnieren,
+959,104,abrechnen,
+960,104,abschalten,
+961,104,abschreiben,
+962,104,absetzen,
+963,104,abspielen,
+964,104,abstellen,
+965,104,abwarten,
+966,104,abwickeln,
+967,104,abzeichnen,
+968,104,ahnen,
+969,104,anbringen,
+970,104,andeuten,
+971,104,anfallen,
+972,104,angehören,
+973,104,angucken,
+974,104,animieren,
+975,104,anklagen,
+976,104,anklicken,
+977,104,anmerken,
+978,104,anordnen,
+979,104,anrichten,
+980,104,ansetzen,
+981,104,anstehen,
+982,104,ansteigen,to increase
+983,104,anstreben,
+984,104,anstrengen,
+985,104,anvertrauen,
+986,104,aufbewahren,
+987,104,aufbringen,
+988,104,aufgehen,
+989,104,aufkommen,
+990,104,auflegen,
+991,104,auflisten,
+992,104,aufrufen,
+993,104,aufschlagen,
+994,104,aufsetzen,
+995,104,aufsuchen,
+996,104,auftragen,
+997,104,aufzeigen,
+998,104,aufziehen,
+999,104,ausblenden,
+1000,104,ausbrechen,
+1001,104,ausbreiten,
+1002,104,ausdehnen,
+1003,104,ausdrücken,
+1004,104,auseinandersetzen,
+1005,104,ausgleichen,
+1006,104,aushalten,
+1007,104,auslegen,
+1008,104,ausleihen,
+1009,104,ausnehmen,
+1010,104,ausnutzen,
+1011,104,auspacken,
+1012,104,ausprobieren,
+1013,104,ausrüsten,
+1014,104,ausschalten,
+1015,104,ausscheiden,
+1016,104,ausstrahlen,
+1017,104,austragen,
+1018,104,austreten,
+1019,104,ausweichen,
+1020,104,ausweisen,
+1021,104,basteln,
+1022,104,beabsichtigen,
+1023,104,bedauern,
+1024,104,bedecken,
+1025,104,bedürfen,
+1026,104,befestigen,
+1027,104,befragen,
+1028,104,befriedigen,
+1029,104,begreifen,
+1030,104,begrenzen,
+1031,104,beitreten,
+1032,104,bekanntgeben,
+1033,104,beleuchten,
+1034,104,bemalen,
+1035,104,bemessen,
+1036,104,berufen,
+1037,104,beschaffen,
+1038,104,beschuldigen,
+1039,104,beseitigen,
+1040,104,bestreiten,
+1041,104,betreten,
+1042,104,bewohnen,
+1043,104,bewähren,
+1044,104,blättern,
+1045,104,bohren,
+1046,104,charakterisieren,
+1047,104,dastehen,
+1048,104,dekorieren,
+1049,104,dominieren,
+1050,104,dulden,
+1051,104,durchgehen,
+1052,104,durchziehen,
+1053,104,einarbeiten,
+1054,104,einbrechen,
+1055,104,einbringen,
+1056,104,eindringen,
+1057,104,eingestehen,
+1058,104,eingreifen,
+1059,104,einhalten,
+1060,104,einholen,
+1061,104,einlassen,
+1062,104,einlegen,
+1063,104,einpacken,
+1064,104,einräumen,
+1065,104,einsammeln,
+1066,104,einschätzen,
+1067,104,einsehen,
+1068,104,eintreffen,
+1069,104,einzahlen,
+1070,104,entfallen,
+1071,104,entfalten,
+1072,104,entgehen,
+1073,104,entnehmen,
+1074,104,entschärfen,
+1075,104,entsorgen,
+1076,104,erbringen,
+1077,104,ereignen,
+1078,104,erhoffen,
+1079,104,erkranken,
+1080,104,erlangen,
+1081,104,erlernen,
+1082,104,ernten,
+1083,104,erschliessen,
+1084,104,ersparen,
+1085,104,erstatten,
+1086,104,erwachen,
+1087,104,erwecken,
+1088,104,erwidern,
+1089,104,erwischen,
+1090,104,erörtern,
+1091,104,etablieren,
+1092,104,feststehen,
+1093,104,fixieren,
+1094,104,flüchten,
+1095,104,freigeben,
+1096,104,fungieren,
+1097,104,genehmigen,
+1098,104,gestehen,
+1099,104,gratulieren,
+1100,104,grinsen,
+1101,104,hacken,
+1102,104,haften,
+1103,104,hegen,
+1104,104,herausgeben,
+1105,104,herauskommen,
+1106,104,herausnehmen,
+1107,104,herausstellen,
+1108,104,hervorgehen,
+1109,104,hervorrufen,
+1110,104,hinausgehen,
+1111,104,hinnehmen,
+1112,104,hochladen,
+1113,104,hocken,
+1114,104,ignorieren,
+1115,104,infizieren,
+1116,104,inszenieren,
+1117,104,interviewen,
+1118,104,kalkulieren,
+1119,104,kennzeichnen,
+1120,104,knacken,
+1121,104,kommunizieren,
+1122,104,kompensieren,
+1123,104,komponieren,
+1124,104,konfrontieren,
+1125,104,konstruieren,
+1126,104,kontaktieren,
+1127,104,kreisen,
+1128,104,kürzen,
+1129,104,lagern,
+1130,104,langweilen,
+1131,104,lauern,
+1132,104,lehnen,to lean
+1133,104,losgehen,
+1134,104,loslassen,
+1135,104,mahnen,
+1136,104,mangeln,
+1137,104,manipulieren,
+1138,104,mitwirken,
+1139,104,modernisieren,
+1140,104,nachfolgen,
+1141,104,nachfragen,
+1142,104,nachgehen,
+1143,104,neigen,
+1144,104,nominieren,
+1145,104,nähen,
+1146,104,optimieren,
+1147,104,platzen,
+1148,104,platzieren,
+1149,104,plädieren,
+1150,104,pressen,
+1151,104,promovieren,
+1152,104,publizieren,
+1153,104,rauben,
+1154,104,recherchieren,
+1155,104,recyceln,
+1156,104,reflektieren,
+1157,104,regieren,
+1158,104,reiben,
+1159,104,repräsentieren,
+1160,104,resultieren,
+1161,104,rutschen,
+1162,104,scannen,
+1163,104,schildern,
+1164,104,schleppen,
+1165,104,schrumpfen,
+1166,104,schwinden,
+1167,104,schämen,
+1168,104,segeln,
+1169,104,sortieren,
+1170,104,spannen,
+1171,104,spiegeln,
+1172,104,stabilisieren,
+1173,104,synchronisieren,
+1174,104,tippen,
+1175,104,trösten,
+1176,104,twittern,
+1177,104,täuschen,
+1178,104,umbauen,
+1179,104,umsteigen,
+1180,104,umwandeln,
+1181,104,unterbreiten,
+1182,104,unterbringen,
+1183,104,unterdrücken,
+1184,104,untergehen,
+1185,104,unterlassen,
+1186,104,unterlaufen,
+1187,104,unterschätzen,
+1188,104,unterstellen,
+1189,104,veranlassen,
+1190,104,veranschaulichen,
+1191,104,verbleiben,to remain
+1192,104,verdeutlichen,
+1193,104,verdrängen,
+1194,104,vereinen,
+1195,104,verfallen,
+1196,104,vergehen,
+1197,104,verlegen,
+1198,104,vermieten,
+1199,104,vermindern,
+1200,104,vermögen,
+1201,104,vernachlässigen,
+1202,104,vernehmen,
+1203,104,versammeln,
+1204,104,verschaffen,
+1205,104,verschenken,
+1206,104,verschicken,
+1207,104,verschliessen,
+1208,104,verschärfen,
+1209,104,verschönern,
+1210,104,versenden,
+1211,104,versteigern,
+1212,104,verständigen,
+1213,104,versäumen,
+1214,104,verwundern,
+1215,104,verzeichnen,
+1216,104,vollziehen,
+1217,104,vorangehen,
+1218,104,vorankommen,
+1219,104,vorbeikommen,
+1220,104,vorschreiben,
+1221,104,vortragen,
+1222,104,vorziehen,
+1223,104,wandeln,
+1224,104,wegnehmen,
+1225,104,wehen,
+1226,104,weigern,
+1227,104,weiterführen,
+1228,104,weiterleiten,
+1229,104,widerstehen,
+1230,104,wohlfühlen,
+1231,104,zucken,
+1232,104,zuführen,
+1233,104,zukommen,
+1234,104,zurückblicken,
+1235,104,zurückführen,
+1236,104,zurückgreifen,
+1237,104,zurücklegen,
+1238,104,zurücktreten,
+1239,104,zurückweisen,
+1240,104,zusammenhängen,
+1241,104,zusammenkommen,
+1242,104,zusammensetzen,
+1243,104,zuschauen,
+1244,104,zustehen,
+1245,104,zutrauen,
+1246,104,zutreffen,
+1247,104,zuwenden,
+1248,104,ähneln,
+1249,104,überarbeiten,
+1250,104,übereinstimmen,
+1251,104,überfordern,
+1252,104,übergehen,
+1253,104,überreden,
+1254,104,überreichen,
+1255,104,überschreiben,
+1256,104,übersehen,
+1257,104,überstehen,
+1258,104,überziehen,
+1259,104,vorweisen,to demonstrate
+1260,104,erschiessen,to shoot dead
+1261,104,hindern,to prevent somebody from doing something
+1262,105,gedenken,"to commemorate, to remember"
+1263,105,modern,to modernize
+1264,105,sieben,"to sieve, to filter"
+1265,106,schmerzen,"to hurt, to ache"
+1266,106,verheiraten,"to marry (to perform the marriage), to get married (refl.)"
+1267,106,stricken,to knit
+1268,106,unterzeichnen,to sign (formal)
+1269,106,erwärmen,to warm
+1270,106,verkleinern,to reduce
+1271,106,säubern,to clean
+1272,106,verkürzen,to shorten
+1273,106,verlangsamen,to slow down
+1274,106,ermorden,to murder
+1275,106,ruinieren,to ruin
+1276,106,scheissen,to shit
+1277,106,verzweifeln,to despair
+1278,106,vergiften,to poison
+1279,106,antun,"to do something to someone, to appeal to someone"
+1280,106,quellen,"to soak, to swell"
+1281,106,saufen,"to drink (animals), to booze"
+1282,106,rinnen,
+1283,106,schwellen,
+1284,106,weben,
+1285,106,angeln,
+1286,106,anhaben,
+1287,106,beissen,
+1288,106,bersten,
+1289,106,erkälten,
+1290,106,falten,
+1291,106,fechten,
+1292,106,genesen,
+1293,106,husten,
+1294,106,kneifen,
+1295,106,rauschen,
+1296,106,schmeissen,
+1297,106,seufzen,
+1298,106,spinnen,
+1299,106,Staub saugen,
+1300,106,zelten,
+1301,106,verkleiden,"to dress up, to disguise oneself (refl.)"
+1302,106,rasieren,to shave (refl.)
+1303,106,pfeffern,to season with pepper
+1304,106,bestreuen,to sprinkle
+1305,106,einprägen,to memorize
+1306,106,einschreiben,"to sign up, to enroll"
+1307,106,wiedersehen,"to see again, to meet again"
+1308,106,nerven,"to annoy someone, to get on someone's nerves"
+1309,106,duzen,to address informally
+1310,106,siezen,to address formally
+1311,106,benehmen,to behave (refl.)
+1312,106,überfallen,"to attack, to raid (a bank), to invade (a country)"
+1313,106,schwächen,to weaken
+1314,106,erschweren,to burden
+1315,106,vergrößern,to enlarge
+1316,106,verschmutzen,to dirty
+1317,106,weichen,to soften
+1318,106,beeilen,"to hurry, to hasten, to rush (refl.)"
+1319,106,vererben,to inherit
+1320,106,schiefgehen,to go wrong
+1321,106,verdammen,"to condemn, to damn"
+1322,106,klauen,to steal (colloquial)
+1323,106,entkommen,to escape
+1324,106,entführen,"to abduct, to kidnap"
+1325,106,riskieren,to risk
+1326,106,begraben,to bury
+1327,106,besiegen,to defeat (in battle or contest)
+1328,106,hinzufügen,to add
+1329,106,spalten,"to split, to divide"
+1330,106,sanieren,to renovate
+1331,106,schnappen,"to snap (with one's mouth), to catch, to nab (a criminal) (coll.)"
+1332,106,rauskommen,"to get out, to make it big (with gross before verb)"
+1333,106,erschaffen,"to create, to produce, to make"
+1334,106,schulden,"to owe, to be due to"
+1335,106,rächen,to take revenge (refl.)
+1336,106,aktualisieren,to update
+1337,106,bereuen,"to regret something, to rue something"
+1338,106,explodieren,to explode
+1339,106,opfern,to sacrifice
+1340,106,feuern,"to fire (a weapon), to fire (terminate employment)"
+1341,106,anfragen,
+1342,106,beibehalten,
+1343,106,entschleunigen,"to decelerate, to slow down"
+1344,106,deaktivieren,
+1345,106,exportieren,
+1346,106,gebieten,
+1347,106,geleiten,
+1348,106,grenzen,
+1349,106,konfigurieren,
+1350,106,listen,
+1351,106,positionieren,
+1352,106,posten,
+1353,106,proben,
+1354,106,tagen,
+1355,106,ticken,
+1356,106,übermitteln,
+1357,106,verfahren,
+1358,106,werten,
+1359,106,wiederherstellen,
+1360,106,zugreifen,
+1361,106,zuweisen,
+1362,106,belohnen,
+1363,106,dämpfen,
+1364,106,dehnen,
+1365,106,ehren,
+1366,106,ersticken,
+1367,106,erwägen,
+1368,106,verrühren,"to stir, to mix"
+1369,106,glänzen,
+1370,106,heulen,
+1371,106,hüpfen,
+1372,106,impfen,
+1373,106,irritieren,
+1374,106,knüpfen,
+1375,106,nähren,
+1376,106,quälen,
+1377,106,räumen,
+1378,106,rüsten,
+1379,106,segnen,
+1380,106,spritzen,
+1381,106,staunen,
+1382,106,stopfen,
+1383,106,taugen,
+1384,106,verführen,
+1385,106,vergewaltigen,
+1386,106,verklagen,
+1387,106,verschlafen,
+1388,106,verweilen,
+1389,106,wachen,
+1390,106,währen,
+1391,106,weihen,
+1392,106,zünden,
+1393,106,zurücknehmen,
+1394,106,abarbeiten,
+1395,106,abfangen,
+1396,106,abfinden,
+1397,106,abfragen,
+1398,106,abführen,
+1399,106,abgehen,
+1400,106,abhaken,
+1401,106,abklären,
+1402,106,ablesen,
+1403,106,abliefern,
+1404,106,abmelden,
+1405,106,abrunden,
+1406,106,abschaffen,
+1407,106,abschieben,
+1408,106,abschmecken,
+1409,106,abschrecken,
+1410,106,abschätzen,
+1411,106,absichern,
+1412,106,absprechen,
+1413,106,absteigen,
+1414,106,abstürzen,
+1415,106,abtreten,
+1416,106,abverlangen,
+1417,106,abwechseln,
+1418,106,abwehren,
+1419,106,abweisen,
+1420,106,abwägen,
+1421,106,ahnden,
+1422,106,alarmieren,
+1423,106,anbauen,
+1424,106,anbinden,
+1425,106,anbraten,
+1426,106,andauern,
+1427,106,aneignen,
+1428,106,anfahren,
+1429,106,anfertigen,
+1430,106,anfordern,
+1431,106,anfühlen,
+1432,106,anheben,
+1433,106,anknüpfen,
+1434,106,ankurbeln,
+1435,106,anlaufen,
+1436,106,anlocken,
+1437,106,aufmerken,to pay attention
+1438,106,anpacken,
+1439,106,anrechnen,
+1440,106,anreichern,
+1441,106,anreisen,
+1442,106,ansagen,
+1443,106,anschlagen,
+1444,106,anschreiben,
+1445,106,anspannen,
+1446,106,anstecken,
+1447,106,ansteuern,
+1448,106,anstossen,
+1449,106,antreffen,
+1450,106,antreiben,
+1451,106,anwachsen,
+1452,106,anweisen,
+1453,106,anzünden,
+1454,106,appellieren,
+1455,106,argumentieren,
+1456,106,arrangieren,
+1457,106,attackieren,
+1458,106,attestieren,
+1459,106,aufarbeiten,
+1460,106,aufbereiten,
+1461,106,aufbrauchen,
+1462,106,aufdecken,
+1463,106,auferlegen,
+1464,106,auffangen,
+1465,106,auffinden,
+1466,106,auffüllen,
+1467,106,aufgreifen,
+1468,106,aufholen,
+1469,106,aufhängen,
+1470,106,auflaufen,
+1471,106,aufrechterhalten,
+1472,106,aufschliessen,
+1473,106,aufspielen,
+1474,106,aufspüren,
+1475,106,aufstocken,
+1476,106,aufteilen,
+1477,106,aufwarten,
+1478,106,aufwenden,
+1479,106,aufwerten,
+1480,106,aufzeichnen,
+1481,106,ausarbeiten,
+1482,106,ausbleiben,
+1483,106,ausbuchen,
+1484,106,ausdenken,
+1485,106,ausfällen,
+1486,106,aushandeln,
+1487,106,auskennen,
+1488,106,ausklingen,
+1489,106,auslassen,
+1490,106,auslasten,
+1491,106,auslaufen,
+1492,106,ausleben,
+1493,106,ausliefern,
+1494,106,ausrollen,
+1495,106,ausrufen,
+1496,106,ausräumen,
+1497,106,aussagen,"to testify, to state"
+1498,106,ausschreiben,
+1499,106,ausschöpfen,
+1500,106,ausschütten,
+1501,106,ausspielen,
+1502,106,austoben,
+1503,106,ausverkaufen,
+1504,106,auswechseln,
+1505,106,ausweiten,
+1506,106,auszahlen,
+1507,106,automatisieren,
+1508,106,avancieren,
+1509,106,bahnen,
+1510,106,beanspruchen,
+1511,106,beanstanden,
+1512,106,beanständen,
+1513,106,bedachen,
+1514,106,bedrucken,
+1515,106,befahren,
+1516,106,befallen,
+1517,106,beflügeln,
+1518,106,befolgen,
+1519,106,befristen,
+1520,106,befüllen,
+1521,106,befürworten,
+1522,106,begehren,
+1523,106,begleichen,
+1524,106,begnügen,
+1525,106,begutachten,
+1526,106,begünstigen,
+1527,106,beharren,
+1528,106,beheben,
+1529,106,beheimaten,
+1530,106,beherbergen,
+1531,106,beilegen,
+1532,106,beisteuern,
+1533,106,bejahen,
+1534,106,bejubeln,
+1535,106,bekennen,
+1536,106,bekleiden,
+1537,106,bekräftigen,
+1538,106,bekunden,
+1539,106,beladen,
+1540,106,belassen,
+1541,106,belaufen,
+1542,106,belehren,
+1543,106,belieben,
+1544,106,beliefern,
+1545,106,belästigen,
+1546,106,bemängeln,
+1547,106,benachrichtigen,
+1548,106,benachteiligen,
+1549,106,bereichern,
+1550,106,bereisen,
+1551,106,bereithalten,
+1552,106,besagen,
+1553,106,bescheiden,
+1554,106,bescheinigen,
+1555,106,bescheren,
+1556,106,beschimpfen,
+1557,106,beschlagnahmen,
+1558,106,beschreiten,
+1559,106,beschwören,
+1560,106,besiegeln,
+1561,106,besinnen,
+1562,106,bessern,
+1563,106,bestaunen,
+1564,106,bestechen,
+1565,106,besteigen,
+1566,106,bestärken,
+1567,106,bestücken,
+1568,106,beteuern,
+1569,106,betätigen,
+1570,106,bewilligen,
+1571,106,bewirtschaften,
+1572,106,beziffern,
+1573,106,bezweifeln,
+1574,106,bezwingen,
+1575,106,bilanzieren,
+1576,106,blenden,
+1577,106,blockieren,
+1578,106,bloggen,
+1579,106,boomen,
+1580,106,bündeln,
+1581,106,checken,
+1582,106,darlegen,
+1583,106,datieren,
+1584,106,dazugeben,
+1585,106,debattieren,
+1586,106,dementieren,
+1587,106,diagnostizieren,
+1588,106,dirigieren,
+1589,106,distanzieren,
+1590,106,durchbrechen,
+1591,106,durchdringen,
+1592,106,durchhalten,
+1593,106,durchlaufen,
+1594,106,durchlesen,
+1595,106,durchsuchen,
+1596,106,ebnen,
+1597,106,einberufen,
+1598,106,einbetten,
+1599,106,einbinden,
+1600,106,einbüssen,
+1601,106,eindämmen,
+1602,106,einfahren,
+1603,106,einfangen,
+1604,106,einfinden,
+1605,106,einfliessen,
+1606,106,einfordern,
+1607,106,einhergehen,
+1608,106,einkehren,
+1609,106,einliefern,
+1610,106,einloggen,
+1611,106,einläuten,
+1612,106,einlösen,
+1613,106,einmischen,
+1614,106,einordnen,
+1615,106,einplanen,
+1616,106,einsenden,
+1617,106,einsparen,
+1618,106,einspielen,
+1619,106,einstecken,
+1620,106,einstimmen,
+1621,106,einstudieren,
+1622,106,einstufen,
+1623,106,eintauchen,
+1624,106,einteilen,
+1625,106,einweihen,
+1626,106,einwirken,
+1627,106,entfachen,
+1628,106,entgegennehmen,
+1629,106,entgegensetzen,
+1630,106,entgegenwirken,
+1631,106,entgegnen,
+1632,106,enthüllen,
+1633,106,entlarven,
+1634,106,entlasten,
+1635,106,entpuppen,
+1636,106,entrichten,
+1637,106,entschädigen,
+1638,106,entsenden,
+1639,106,entspringen,
+1640,106,entstammen,
+1641,106,entwenden,
+1642,106,entzünden,
+1643,106,erachten,
+1644,106,erahnen,
+1645,106,erbauen,
+1646,106,erben,
+1647,106,erbeuten,
+1648,106,erbitten,
+1649,106,erblicken,
+1650,106,erfragen,
+1651,106,ergattern,
+1652,106,ergehen,
+1653,106,erhitzen,
+1654,106,erklimmen,
+1655,106,erklingen,
+1656,106,erkämpfen,
+1657,106,erliegen,
+1658,106,erlösen,
+1659,106,ermuntern,
+1660,106,ermutigen,
+1661,106,ermässigen,
+1662,106,ernennen,
+1663,106,erneuern,
+1664,106,erobern,
+1665,106,erproben,
+1666,106,errechnen,
+1667,106,erringen,
+1668,106,erschlagen,
+1669,106,erschüttern,
+1670,106,erspielen,
+1671,106,erstehen,
+1672,106,erstrahlen,
+1673,106,ertönen,
+1674,106,erwirtschaften,
+1675,106,erzwingen,
+1676,106,eskalieren,
+1677,106,favorisieren,
+1678,106,fegen,
+1679,106,fertigstellen,
+1680,106,fesseln,
+1681,106,festigen,
+1682,106,festschreiben,
+1683,106,filmen,
+1684,106,filtern,
+1685,106,fokussieren,
+1686,106,forcieren,
+1687,106,formieren,
+1688,106,fortführen,
+1689,106,freischalten,
+1690,106,freisetzen,
+1691,106,freistellen,
+1692,106,färben,
+1693,106,garen,
+1694,106,gastieren,
+1695,106,gebrechen,
+1696,106,gebühren,
+1697,106,gedulden,
+1698,106,gefrieren,
+1699,106,gegenüberstehen,
+1700,106,geloben,
+1701,106,generieren,
+1702,106,gereichen,
+1703,106,gesellen,
+1704,106,gliedern,
+1705,106,glücken,
+1706,106,googlen,
+1707,106,hadern,
+1708,106,halbieren,
+1709,106,handhaben,
+1710,106,hangen,
+1711,106,harmonieren,
+1712,106,hausen,
+1713,106,hemmen,
+1714,106,heranführen,
+1715,106,heranziehen,
+1716,106,herausbringen,
+1717,106,herausholen,
+1718,106,herbeiführen,
+1719,106,hergeben,
+1720,106,herrichten,
+1721,106,hervorbringen,
+1722,106,hinbekommen,
+1723,106,hingeben,
+1724,106,hinlegen,
+1725,106,hinschauen,
+1726,106,hinterfragen,
+1727,106,hinterlegen,
+1728,106,hinziehen,
+1729,106,hinzukommen,
+1730,106,honorieren,
+1731,106,häufen,
+1732,106,hüten,
+1733,106,illustrieren,
+1734,106,implementieren,
+1735,106,initiieren,
+1736,106,inspirieren,
+1737,106,intensivieren,
+1738,106,involvieren,
+1739,106,jubeln,
+1740,106,kandidieren,
+1741,106,kassieren,
+1742,106,kicken,
+1743,106,kippen,
+1744,106,klarmachen,
+1745,106,klarstellen,
+1746,106,klatschen,
+1747,106,kleiden,
+1748,106,knallen,
+1749,106,kollidieren,
+1750,106,komplettieren,
+1751,106,konkurrieren,
+1752,106,konstatieren,
+1753,106,kontern,
+1754,106,kooperieren,
+1755,106,koordinieren,
+1756,106,koppeln,
+1757,106,krachen,
+1758,106,kratzen,
+1759,106,kreuzen,
+1760,106,krönen,
+1761,106,kursieren,
+1762,106,köpfen,
+1763,106,küren,
+1764,106,lackieren,
+1765,106,lancieren,
+1766,106,leugnen,
+1767,106,lockern,
+1768,106,loslegen,
+1769,106,läuten,
+1770,106,lüften,
+1771,106,marschieren,
+1772,106,meckern,
+1773,106,mehren,
+1774,106,mindern,
+1775,106,minimieren,
+1776,106,missachten,
+1777,106,missbrauchen,
+1778,106,missen,
+1779,106,mitarbeiten,
+1780,106,mitbekommen,
+1781,106,miterleben,
+1782,106,mitfahren,
+1783,106,mitgestalten,
+1784,106,mithalten,
+1785,106,mithelfen,
+1786,106,mitreden,
+1787,106,mitspielen,
+1788,106,mittragen,
+1789,106,mobilisieren,
+1790,106,moderieren,
+1791,106,monieren,
+1792,106,montieren,
+1793,106,musizieren,
+1794,106,münden,
+1795,106,nachgeben,
+1796,106,nachholen,
+1797,106,nachkommen,
+1798,106,nachlassen,
+1799,106,nachlesen,
+1800,106,nachvollziehen,
+1801,106,niederlassen,
+1802,106,niederlegen,
+1803,106,niederschlagen,
+1804,106,obliegen,
+1805,106,offenbaren,
+1806,106,offenlegen,
+1807,106,offerieren,
+1808,106,ordern,
+1809,106,paaren,
+1810,106,parieren,
+1811,106,pausieren,
+1812,106,pendeln,
+1813,106,plaudern,
+1814,106,pochen,
+1815,106,polieren,
+1816,106,praktizieren,
+1817,106,predigen,
+1818,106,preisgeben,
+1819,106,prognostizieren,
+1820,106,programmieren,
+1821,106,propagieren,
+1822,106,prophezeien,
+1823,106,provozieren,
+1824,106,prämieren,
+1825,106,pumpen,
+1826,106,radeln,
+1827,106,ragen,
+1828,106,rammen,
+1829,106,rangieren,
+1830,106,rasen,
+1831,106,rasten,
+1832,106,referieren,
+1833,106,regulieren,
+1834,106,reihen,
+1835,106,rekonstruieren,
+1836,106,relativieren,
+1837,106,respektieren,
+1838,106,restaurieren,
+1839,106,resümieren,
+1840,106,rocken,
+1841,106,rügen,
+1842,106,scheuen,
+1843,106,schienen,
+1844,106,schlendern,
+1845,106,schleudern,
+1846,106,schlucken,
+1847,106,schlüpfen,
+1848,106,schmieden,
+1849,106,schmunzeln,
+1850,106,schmücken,
+1851,106,schnuppern,
+1852,106,schnüren,
+1853,106,schocken,
+1854,106,schonen,
+1855,106,schossen,
+1856,106,schrauben,
+1857,106,schrecken,
+1858,106,schränken,
+1859,106,schulen,
+1860,106,schwanken,
+1861,106,schwärmen,
+1862,106,schädigen,
+1863,106,schärfen,
+1864,106,schöpfen,
+1865,106,schüren,
+1866,106,scrollen,
+1867,106,sehnen,
+1868,106,sensibilisieren,
+1869,106,sichten,
+1870,106,signalisieren,
+1871,106,simulieren,
+1872,106,skizzieren,
+1873,106,speisen,
+1874,106,spekulieren,
+1875,106,spenden,
+1876,106,spendieren,
+1877,106,sprengen,
+1878,106,standhalten,
+1879,106,stapeln,
+1880,106,stationieren,
+1881,106,stemmen,
+1882,106,stiften,
+1883,106,stocken,
+1884,106,stolpern,
+1885,106,streamen,
+1886,106,streicheln,
+1887,106,streifen,
+1888,106,streuen,
+1889,106,strömen,
+1890,106,stöbern,
+1891,106,stürmen,
+1892,106,suggerieren,
+1893,106,symbolisieren,
+1894,106,taufen,
+1895,106,teilhaben,
+1896,106,tendieren,
+1897,106,thematisieren,
+1898,106,titeln,
+1899,106,tolerieren,
+1900,106,trauern,
+1901,106,triumphieren,
+1902,106,trotzen,
+1903,106,tummeln,
+1904,106,tönen,
+1905,106,umbenennen,
+1906,106,umgestalten,
+1907,106,umleiten,
+1908,106,umrahmen,
+1909,106,umschreiben,
+1910,106,umsehen,
+1911,106,unterbinden,
+1912,106,untermauern,
+1913,106,untersagen,
+1914,106,unterteilen,
+1915,106,unterwerfen,
+1916,106,unterziehen,
+1917,106,urteilen,
+1918,106,variieren,
+1919,106,verabreichen,
+1920,106,verankern,
+1921,106,veranschlagen,
+1922,106,verantworten,
+1923,106,verbannen,
+1924,106,verbauen,
+1925,106,verbuchen,
+1926,106,verdecken,
+1927,106,verdichten,
+1928,106,verehren,
+1929,106,verfehlen,
+1930,106,verfeinern,
+1931,106,verhelfen,
+1932,106,verhängen,
+1933,106,verkraften,
+1934,106,verkörpern,
+1935,106,verlagern,
+1936,106,verlauten,
+1937,106,verleiten,
+1938,106,verlesen,
+1939,106,verlinken,
+1940,106,verlosen,
+1941,106,vermarkten,
+1942,106,vermelden,
+1943,106,vermerken,
+1944,106,vermischen,
+1945,106,verneinen,
+1946,106,vernetzen,
+1947,106,verordnen,
+1948,106,verrechnen,
+1949,106,verrichten,
+1950,106,verschlagen,
+1951,106,verschleppen,
+1952,106,verschlingen,
+1953,106,verschlüsseln,
+1954,106,verschmelzen,
+1955,106,verschonen,
+1956,106,versenken,
+1957,106,versinken,
+1958,106,versperren,
+1959,106,verspielen,
+1960,106,verspüren,
+1961,106,verstauen,
+1962,106,versterben,
+1963,106,verstossen,
+1964,106,verstreichen,
+1965,106,vertagen,
+1966,106,vertragen,
+1967,106,verunsichern,
+1968,106,vervollständigen,
+1969,106,verwehren,
+1970,106,verwerfen,
+1971,106,verwerten,
+1972,106,verwickeln,
+1973,106,verwöhnen,
+1974,106,verzaubern,
+1975,106,verzieren,
+1976,106,verzögern,
+1977,106,veräussern,
+1978,106,verüben,
+1979,106,vollbringen,
+1980,106,vollenden,
+1981,106,voranbringen,
+1982,106,vorantreiben,
+1983,106,vorausgehen,
+1984,106,vorbehalten,
+1985,106,vorbeischauen,
+1986,106,vorenthalten,
+1987,106,vorfinden,
+1988,106,vorführen,
+1989,106,vorhalten,
+1990,106,vorhersagen,
+1991,106,votieren,
+1992,106,wackeln,
+1993,106,wappnen,
+1994,106,wegdenken,
+1995,106,wegfallen,
+1996,106,weilen,
+1997,106,weiterempfehlen,
+1998,106,weiterentwickeln,
+1999,106,weiterhelfen,
+2000,106,weiterlesen,
+2001,106,weitern,
+2002,106,wickeln,
+2003,106,widerlegen,
+2004,106,widerrufen,
+2005,106,widerspiegeln,
+2006,106,wiedererkennen,
+2007,106,wiederfinden,
+2008,106,wiedergeben,
+2009,106,wiederwählen,
+2010,106,wischen,
+2011,106,wärmen,
+2012,106,würdigen,
+2013,106,zelebrieren,
+2014,106,zerbrechen,
+2015,106,zerlegen,
+2016,106,zertifizieren,
+2017,106,zeugen,
+2018,106,zieren,
+2019,106,zollen,
+2020,106,zufügen,
+2021,106,zugestehen,
+2022,106,zumuten,
+2023,106,zurechnen,
+2024,106,zurückholen,
+2025,106,zurücklassen,
+2026,106,zurückzahlen,
+2027,106,zusammenbrechen,
+2028,106,zusammenbringen,
+2029,106,zusammenfinden,
+2030,106,zusammenführen,
+2031,106,zusammenhalten,
+2032,106,zusammenschliessen,
+2033,106,zusammentragen,
+2034,106,zuschicken,
+2035,106,zuschlagen,
+2036,106,zuschneiden,
+2037,106,zuschreiben,
+2038,106,zusenden,
+2039,106,zusichern,
+2040,106,zusprechen,
+2041,106,zustellen,
+2042,106,zuziehen,
+2043,106,überbieten,
+2044,106,überbringen,
+2045,106,überbrücken,
+2046,106,überdenken,
+2047,106,überführen,
+2048,106,überragen,
+2049,106,überschlagen,
+2050,106,überspringen,
+2051,106,übersteigen,
+2052,106,übertreffen,
+2053,106,überwiegen,
+2054,106,überwältigen,
+2055,107,zurückbringen,"to return something, to restore"
+2056,107,leeren,to empty
+2057,107,kämmen,to comb
+2058,107,salzen,to season with salt
+2059,107,verbrechen,to commit (a crime)
+2060,107,härten,to harden
+2061,107,beglücken,to make happy
+2062,107,befreunden,to befriend (refl.)
+2063,107,beglückwünschen,"to congratulate, to felicitate"
+2064,107,ausbestehen,to consist
+2065,107,kapieren,"to understand intellectually (coll.), to get (coll.)"
+2066,107,abhauen,"to cut off (cutting weapon), to do a runner, to piss off"
+2067,107,wahren,"to protect, to safeguard, to maintain, to preserve"
+2068,107,rausfinden,to figure out (coll.)
+2069,107,ficken,to fuck
+2070,107,verarschen,"to trick, to fool"
+2071,107,durchmachen,"to go through, to endure, to undergo, to finish, to stay up all night"
+2072,107,reinlegen,to spoof (coll.)
+2073,107,einsperren,"to lock up, to imprison"
+2074,107,anlügen,"to lie to, to tell someone a lie"
+2075,107,bescheissen,"to deceive someone, to screw someone"
+2076,107,rausholen,"to spring someone (from a trap, prison etc.), to spring something (suddenly), to whip it out"
+2077,107,reingehen,to go in
+2078,107,verfluchen,to curse
+2079,107,anschiessen,"to shoot along, to shoot someone"
+2080,107,versauen,"to mess something up, to butcher something, to cock something up"
+2081,107,flehen,"to beg, to entreat, to beseech"
+2082,107,linken,"to deceive someone, to con someone"
+2083,107,nachsehen,"to chech back, to peek, to look something up/over"
+2084,107,vermasseln,"to screw up, to botch, to goof, to muddle"
+2085,107,verprügeln,"to beat someone up, to wallop"
+2086,107,weglaufen,to run away
+2087,107,stöhnen,"to moan, to groan"
+2088,107,abkommen,
+2089,107,anscheinen,
+2090,107,assoziieren,
+2091,107,ausgestalten,
+2092,107,autorisieren,
+2093,107,breiten,
+2094,107,doppeln,
+2095,107,dritteln,
+2096,107,durchmessen,
+2097,107,echoen,
+2098,107,einen,
+2099,107,ersehen,
+2100,107,ersuchen,
+2101,107,fasern,
+2102,107,freien,
+2103,107,frieden,
+2104,107,globalisieren,
+2105,107,haken,
+2106,107,herschieben,
+2107,107,hervorragen,
+2108,107,hervorwagen,
+2109,107,jungen,
+2110,107,kanten,
+2111,107,knoten,
+2112,107,komplizieren,
+2113,107,krümeln,
+2114,107,länden,
+2115,107,langen,
+2116,107,lasten,
+2117,107,leiben,
+2118,107,lodern,
+2119,107,mengen,
+2120,107,mosern,
+2121,107,navigieren,
+2122,107,normen,
+2123,107,nuten,
+2124,107,polen,
+2125,107,umrühen,to stir
+2126,107,anhängen,to attach
+2127,107,ausstecken,to unplug
+2128,107,abtrennen,to detach
+2129,107,punkten,
+2130,107,rahmen,
+2131,107,rechten,
+2132,107,reifen,
+2133,107,schatten,
+2134,107,schichten,
+2135,107,schnellen,
+2136,107,schönen,
+2137,107,seihen,
+2138,107,spuren,
+2139,107,stunden,
+2140,107,übereinkommen,
+2141,107,überfragen,
+2142,107,überliegen,
+2143,107,überschreien,
+2144,107,verscheiden,
+2145,107,verschilfen,
+2146,107,verschneien,
+2147,107,verwehen,
+2148,107,vorbeireiten,
+2149,107,vorschlafen,
+2150,107,weissen,
+2151,107,wesen,
+2152,107,wundernehmen,
+2153,107,zerfahren,
+2154,107,zusammenstossen,
+2155,107,beben,
+2156,107,bellen,
+2157,107,brauen,
+2158,107,brausen,
+2159,107,bürsten,
+2160,107,dämmen,
+2161,107,dämmern,
+2162,107,dampfen,
+2163,107,dichten,
+2164,107,ducken,
+2165,107,dürsten,
+2166,107,einatmen,
+2167,107,einbilden,
+2168,107,entbehren,
+2169,107,entgegenen,
+2170,107,flicken,
+2171,107,fluchen,
+2172,107,fluten,
+2173,107,gähnen,
+2174,107,gären,
+2175,107,genieren,
+2176,107,glotzen,
+2177,107,glühen,
+2178,107,grollen,
+2179,107,hämmern,
+2180,107,herausbekommen,
+2181,107,immatrikulieren,
+2182,107,imponieren,
+2183,107,jammern,
+2184,107,jauchzen,
+2185,107,jaulen,
+2186,107,jobben,
+2187,107,jodeln,
+2188,107,jucken,
+2189,107,justieren,
+2190,107,kauen,
+2191,107,lecken,
+2192,107,lichten,
+2193,107,lutschen,
+2194,107,mahlen,
+2195,107,nagen,
+2196,107,naschen,
+2197,107,necken,
+2198,107,pachten,
+2199,107,qualmen,
+2200,107,quetschen,
+2201,107,quietschen,
+2202,107,rösten,
+2203,107,scherzen,
+2204,107,schlachten,
+2205,107,schmieren,
+2206,107,sieden,
+2207,107,sprühen,
+2208,107,spucken,
+2209,107,tropfen,
+2210,107,verachten,
+2211,107,verkommen,
+2212,107,vermehren,
+2213,107,wälzen,
+2214,107,wetzen,
+2215,107,zähmen,
+2216,107,zapfen,
+2217,107,abbringen,to dissuade
+2218,107,adressieren,to address
+2219,107,ängstigen,to frighten
+2220,107,ekeln,to disgust
+2221,107,fussen,to be based on
+2222,107,spotten,to mock
+2223,107,verheimlichen,to conceal
+2224,107,altern,to age
+2225,107,befehligen,to command
+2226,107,bewachen,to guard
+2227,107,knien,to kneel

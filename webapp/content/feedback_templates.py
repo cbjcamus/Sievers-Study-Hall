@@ -219,45 +219,31 @@ FEEDBACK_TEMPLATES = {
            "<br><br>{previous_question} = {english}",
         3: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        4: "{german}"
-           "<br><br>{english}",
-        5: "{german}"
-           "<br><br>{english}",
-        6: "{german}"
-           "<br><br>{english}",
-        7: "{german}"
-           "<br><br>{english}",
+        4: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        5: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        6: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        7: "Partizip II {previous_question}: {correct_answers}"
+           "<br><br>{previous_question} = {english}",
         8: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
         9: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
         10: "Partizip II {previous_question}: {correct_answers}"
-           "<br><br>{previous_question} = {english}",
-        11: "{german}"
-           "<br><br>{english}",
-        12: "{german}"
-           "<br><br>{english}",
-        13: "{german}"
-           "<br><br>{english}",
-        14: "{german}"
-           "<br><br>{english}",
+            "<br><br>{previous_question} = {english}",
+        11: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        12: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        13: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        14: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
         15: "Partizip II {previous_question}: {correct_answers}"
-           "<br><br>{previous_question} = {english}",
+            "<br><br>{previous_question} = {english}",
         16: "Partizip II {previous_question}: {correct_answers}"
-           "<br><br>{previous_question} = {english}",
-        17: "Partizip II {previous_question}: {correct_answers}"
-           "<br><br>{previous_question} = {english}",
-        18: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        19: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        20: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        21: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        22: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        23: "Partizip II {previous_question}: {correct_answers}"
             "<br><br>{previous_question} = {english}",
     },
 
@@ -290,6 +276,12 @@ FEEDBACK_TEMPLATES = {
            "<br><br>{previous_question} = {english}",
         14: "{previous_question} → er/sie/es {correct_answers}"
            "<br><br>{previous_question} = {english}",
+        15: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        16: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        17: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
     },
 
     imperativ: {

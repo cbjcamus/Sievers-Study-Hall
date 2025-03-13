@@ -241,6 +241,10 @@ def exercise(exercise, level):
 
 @routes.route('/check/<exercise>/level/<int:level>', methods=['POST'])
 def check_answer(exercise, level):
+    if request.method == 'GET':
+        # Redirect GET requests back to the exercise page
+        return redirect(url_for('routes.exercise', exercise=exercise, level=level))
+
     user_answer = normalization(request.form['answer'], exercise)
     nr = request.form['nr']
 

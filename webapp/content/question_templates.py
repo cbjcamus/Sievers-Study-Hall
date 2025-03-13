@@ -273,53 +273,31 @@ QUESTION_TEMPLATES = {
            "<br><br>{question}",
         3: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
-        4: "Complete the sentence with a Partizip II:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        5: "Complete the sentence with a Partizip II:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        6: "Complete the sentence with the proper Hilfsverb:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        7: "Complete the sentence with the proper Hilfsverb:"
-           "<br><br>{question}"
-           "<br><br>{english}",
+        4: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        5: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        6: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
+        7: "Find the Partizip II of the following verb:"
+           "<br><br>{question}",
         8: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
         9: "Find the Partizip II of the following verb:"
            "<br><br>{question}",
         10: "Find the Partizip II of the following verb:"
-           "<br><br>{question}",
-        11: "Complete the sentence with a Partizip II:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        12: "Complete the sentence with a Partizip II:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        13: "Complete the sentence with the proper Hilfsverb:"
-           "<br><br>{question}"
-           "<br><br>{english}",
-        14: "Complete the sentence with the proper Hilfsverb:"
-           "<br><br>{question}"
-           "<br><br>{english}",
+            "<br><br>{question}",
+        11: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        12: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        13: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
+        14: "Find the Partizip II of the following verb:"
+            "<br><br>{question}",
         15: "Find the Partizip II of the following verb:"
-           "<br><br>{question}",
+            "<br><br>{question}",
         16: "Find the Partizip II of the following verb:"
-           "<br><br>{question}",
-        17: "Find the Partizip II of the following verb:"
-           "<br><br>{question}",
-        18: "Find the Partizip II of the following verb:"
-            "<br><br>{question}",
-        19: "Find the Partizip II of the following verb:"
-            "<br><br>{question}",
-        20: "Find the Partizip II of the following verb:"
-            "<br><br>{question}",
-        21: "Find the Partizip II of the following verb:"
-            "<br><br>{question}",
-        22: "Find the Partizip II of the following verb:"
-            "<br><br>{question}",
-        23: "Find the Partizip II of the following verb:"
             "<br><br>{question}",
     },
 
@@ -352,6 +330,12 @@ QUESTION_TEMPLATES = {
            "<br><br>{question} \u25CF er/sie/es _____",
         14: "Find the Präteritum (3rd Person Singular) of the following verb:"
            "<br><br>{question} \u25CF er/sie/es _____",
+        15: "Find the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
+        16: "Find the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
+        17: "Find the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
     },
 
     imperativ: {

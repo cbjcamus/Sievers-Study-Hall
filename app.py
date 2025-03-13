@@ -43,6 +43,7 @@ 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
 # https://en.wikipedia.org/wiki/Eduard_Sievers for logo
 # How to have ss in the answer (adjektivedeklinationen)
 # 90 and above green, 70 to 90 orange, below 70 red
+# only one style.css
 
 # Framework
 # Learn, Discover and Play
