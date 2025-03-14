@@ -11,10 +11,11 @@ app.secret_key = 'this_is_a_bad_secret_key_but_I_believe_it_works'
 app.register_blueprint(routes)
 
 
+'''
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Default to 8080 if PORT is not set
     app.run(host="0.0.0.0", port=port)
-
+'''
 '''
 cd /home/cbjcamus/Deutschtrainer
 git pull origin main
