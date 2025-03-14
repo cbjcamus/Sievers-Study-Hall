@@ -37,7 +37,8 @@ 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
 # Possessive pronomen
 # Possessive article
 # präpositionen grammatik: bei vs mit vs neben, auf vs an, aus vs von
-
+# relative pronouns wer wen wem was
+# als, als ob, als wenn in subjunktiv II
 
 # TODO Format
 # https://en.wikipedia.org/wiki/Eduard_Sievers for logo

@@ -7,17 +7,6 @@
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/perfekt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/perfekt.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/praeteritum.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praeteritum.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/trennbare_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/trennbare_verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/description_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/description_templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/feedback_templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/question_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/question_templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/perfekt.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/perfekt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/praeteritum.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praeteritum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/trennbare_verben.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741807190898</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <option name="closed" value="true" />
+      <created>1741876055504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741876055504</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

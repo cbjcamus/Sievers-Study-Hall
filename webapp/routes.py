@@ -239,7 +239,7 @@ def exercise(exercise, level):
                            proverb=proverb)
 
 
-@routes.route('/check/<exercise>/level/<int:level>', methods=['POST'])
+@routes.route('/check/<exercise>/level/<int:level>', methods=['POST', 'GET'])
 def check_answer(exercise, level):
     if request.method == 'GET':
         # Redirect GET requests back to the exercise page
