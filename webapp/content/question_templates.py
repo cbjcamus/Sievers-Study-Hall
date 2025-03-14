@@ -71,7 +71,7 @@ QUESTION_TEMPLATES = {
     konnektoren: {
         1: "Find the translation of the following connector:"
            "<br><br><strong>{question}</strong>",
-        2: "Find the missing connector in the following sentence:¨"
+        2: "Find the missing connector in the following sentence:"
            "<br><br>{question}"
            "<br><br>{english}",
         3: "Find the translation of the following connector:"

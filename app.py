@@ -11,11 +11,11 @@ app.secret_key = 'this_is_a_bad_secret_key_but_I_believe_it_works'
 app.register_blueprint(routes)
 
 
-'''
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Default to 8080 if PORT is not set
     app.run(host="0.0.0.0", port=port)
-'''
+
 '''
 cd /home/cbjcamus/Deutschtrainer
 git pull origin main
@@ -28,9 +28,12 @@ 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
 # TODO Priority
 # Pronomen: relativsaetze wo wohin woher
 # add verfügen über
+# all sentences in english with a specific format
+# take care of feedback
 
 
 # TODO Exercises
+# Praeposition konjugation update list verbs
 # Wortschatz: adjektives (include sentences to simplify with Partizip II and I)
 # Wortschatz: adjektives to substantives
 # Wortschatz: number, ordinal, fractions, double/triple, percent
@@ -45,7 +48,7 @@ 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
 # https://en.wikipedia.org/wiki/Eduard_Sievers for logo
 # How to have ss in the answer (adjektivedeklinationen)
 # 90 and above green, 70 to 90 orange, below 70 red
-# only one style.css
+# 3 cases for question, answer and proverb
 
 # Framework
 # Learn, Discover and Play

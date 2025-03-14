@@ -278,6 +278,9 @@ def check_answer(exercise, level):
         prefix=prefix,
     )
 
+    print(correct_answer)
+    print(correct_answers)
+
     session[f"{exercise}_result"] = {
         "result": "correct" if user_answer == correct_answer else "incorrect",
         "feedback_message": feedback_message,

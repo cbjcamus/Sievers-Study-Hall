@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title_page[exercise] }}</title>
-    <link rel="stylesheet" href="/webapp/static/exercise_style.css">
+    <link rel="stylesheet" href="/webapp/static/style.css">
     <script>
         window.onload = function() {
             document.getElementById("answer")?.focus();
@@ -31,7 +31,7 @@
             <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter answer here" autocomplete="off">
             <input type="hidden" name="nr" value="{{ nr }}">
             <br>
-            <button type="submit" id="submit-button" class="button">Submit</button>
+            <button type="submit" id="submit-button" class="submit-button">Submit</button>
     </form>
 
     <p class="question-count">

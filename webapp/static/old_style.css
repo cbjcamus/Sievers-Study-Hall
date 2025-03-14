@@ -57,22 +57,6 @@ h2 {
     text-align: center;
 }
 
-.submit-button {
-    background-color: white;
-    color: #161F23;
-    border: none;
-    padding: 7.5px 15px; /* Reduced size by 25% */
-    font-size: 16px; /* Reduced font size */
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 15px; /* Increased spacing above buttons */
-    width: 112px; /* Reduced width by 25% */
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-decoration: none;
-}
-
 .button {
     background-color: white;
     color: #161F23;
@@ -94,76 +78,9 @@ h2 {
     background-color: #ccc;
 }
 
-.question-count {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center the entire line */
-    gap: 10px;
-}
-
-.refresh-form {
-    display: inline;
-    margin-left: 5px;
-}
-
-.refresh-button {
-    background: none;
-    border: none;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-    padding: 0;
-}
-
-.refresh-button:hover {
-    color: #ccc;
-}
-
 .result {
-    margin-top: 0px;
+    margin-top: 20px;
     font-size: 18px;
-}
-
-.correct {
-    color: green;
-    font-weight: bold;
-}
-
-.incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-.back-button {
-    background-color: white;
-    color: #161F23;
-    border: none;
-    padding: 10px 20px; /* Increased padding for better spacing */
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 15px;
-    width: auto; /* Dynamic width */
-    min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
-    max-width: 300px; /* Prevents it from being too wide */
-    word-wrap: break-word; /* Allows multi-line if necessary */
-    white-space: normal; /* Enables wrapping */
-    text-decoration: none;
-}
-
-.back-button:hover {
-    background-color: #ccc;
-}
-
-.back-button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    padding-bottom: 30px;
 }
 
 .home-button-container {

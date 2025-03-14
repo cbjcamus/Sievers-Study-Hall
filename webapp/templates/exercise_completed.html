@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title_page[exercise] }}</title>
-    <link rel="stylesheet" href="/webapp/static/exercise_style.css">
+    <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 <body>
     <h1>{{ title_page[exercise] }}</h1>
@@ -12,7 +12,7 @@
 
     <p>All questions have been successfully answered!</p>
     <form action="{{ url_for('routes.reset_exercise', exercise=exercise, level=level) }}" method="post">
-        <button type="submit" class="button">Refresh</button>
+        <button type="submit" class="submit-button">Refresh</button>
     </form>
 
     <div class="back-button-container">
