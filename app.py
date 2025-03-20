@@ -1,5 +1,6 @@
 import os
 from flask import Flask
+from flask_session import Session
 from webapp.routes import routes
 
 app = Flask(__name__,
@@ -10,6 +11,11 @@ app.secret_key = 'this_is_a_bad_secret_key_but_I_believe_it_works'
 
 app.register_blueprint(routes)
 
+# Set up server-side session storage
+app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_FILE_DIR'] = os.path.join(os.path.dirname(__file__), 'flask_session')
+app.config['SESSION_PERMANENT'] = False  # Optional: Sessions expire on browser close
+Session(app)
 
 
 if __name__ == "__main__":
@@ -25,15 +31,13 @@ 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
 '''
 
 
-# TODO Priority
-# Pronomen: relativsaetze wo wohin woher
-# add verfügen über
-# all sentences in english with a specific format
-# take care of feedback
+# TODO Priority before April 1st
+# preposition konjugation more levels
+# verify questions format
 
 
 # TODO Exercises
-# Praeposition konjugation update list verbs
+# Words in trag (Antrag, Vertrag, Betrag, Beitrag)
 # Wortschatz: adjektives (include sentences to simplify with Partizip II and I)
 # Wortschatz: adjektives to substantives
 # Wortschatz: number, ordinal, fractions, double/triple, percent
@@ -43,12 +47,15 @@ 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
 # präpositionen grammatik: bei vs mit vs neben, auf vs an, aus vs von
 # relative pronouns wer wen wem was
 # als, als ob, als wenn in subjunktiv II
+# Pronomen: relativsaetze wo wohin woher
+# add verfügen über
+# adverb auf dauer, fliessend, verbally, spontanly, geschwindig, completely, rechtlich, gesetzlich
+
 
 # TODO Format
 # https://en.wikipedia.org/wiki/Eduard_Sievers for logo
 # How to have ss in the answer (adjektivedeklinationen)
 # 90 and above green, 70 to 90 orange, below 70 red
-# 3 cases for question, answer and proverb
 
 # Framework
 # Learn, Discover and Play

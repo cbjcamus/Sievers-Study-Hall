@@ -1,6 +1,5 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for
 
-
 from data_processing.normalization import normalization, get_answers
 from data_processing.paths import EXERCISE_PAGES
 from data_processing.session_management.progress import compute_answered_questions
@@ -8,16 +7,18 @@ from data_processing.session_management.total_questions import compute_total_que
 from data_processing.session_management.score import write_score
 from data_processing.data_loading import load_data, pick_a_question
 from data_processing.proverbs import get_text_proverb
-from data_processing.session_management.session_ import progress, score, result
+from data_processing.session_management.session_ import progress, score, result, print_session
 from data_processing.session_management.result import register_result
 from data_processing.session_management.conditions import level_finished
 
+from webapp.interface import alinea, format_english, format_german
 from webapp.content.title_page import TITLE_PAGE
 from webapp.content.feedback_templates import FEEDBACK_TEMPLATES
 from webapp.content.question_templates import QUESTION_TEMPLATES
 from webapp.content.description_templates import DESCRIPTION_TEMPLATES
 
 routes = Blueprint("routes", __name__)
+
 
 @routes.before_request
 def ensure_session_keys_exist():
@@ -30,6 +31,7 @@ def ensure_session_keys_exist():
         session[result] = {}
 
     # session.clear()
+
 
 @routes.route('/')
 def home():
@@ -199,8 +201,8 @@ def exercise(exercise, level):
 
     # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
-    english = str(question_data.get("english", ""))
-    german = str(question_data.get("german", ""))
+    english = format_english(str(question_data.get("english", "")))
+    german = format_german(str(question_data.get("german", "")))
     adjective = question_data.get("adjective", "")
     gender = question_data.get("gender", "")
     case = question_data.get("case", "")
@@ -218,6 +220,7 @@ def exercise(exercise, level):
         article=article,
         person=person,
         prefix=prefix,
+        alinea=alinea,
     )
 
     result_data = session.pop(f"{exercise}_result", None)
@@ -241,6 +244,10 @@ def exercise(exercise, level):
 
 @routes.route('/check/<exercise>/level/<int:level>', methods=['POST', 'GET'])
 def check_answer(exercise, level):
+
+    print_session(session)
+    print(f"Session size: {len(str(dict(session)).encode('utf-8'))} Bytes / 4000")
+
     if request.method == 'GET':
         # Redirect GET requests back to the exercise page
         return redirect(url_for('routes.exercise', exercise=exercise, level=level))
@@ -276,20 +283,22 @@ def check_answer(exercise, level):
         article=article,
         person=person,
         prefix=prefix,
+        alinea=alinea,
     )
-
-    print(correct_answer)
-    print(correct_answers)
 
     session[f"{exercise}_result"] = {
         "result": "correct" if user_answer == correct_answer else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
-        "question": question_text,
-        "answer": correct_answers,
-        "german": german,
-        "english": english
+
     }
+
+    '''
+    "question": question_text,
+    "answer": correct_answers,
+    "german": german,
+    "english": english
+    '''
 
     # Initialize score storage if missing
     if exercise not in session[score]:

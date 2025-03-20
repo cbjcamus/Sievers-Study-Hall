@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/old_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/description_german.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/question_translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/proverbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/proverbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/session_management/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/session_management/result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/session_management/session_.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/session_management/session_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/artikel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/konnektoren.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/praepositionen_konjugation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praepositionen_konjugation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/praesens.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praesens.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/description_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/description_templates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/content/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/feedback_templates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/content/question_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/question_templates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/static/exercise_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/exercise_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/artikel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise_completed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen_konjugation.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen_konjugation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praeteritum.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praeteritum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +117,11 @@
       <recent name="$PROJECT_DIR$/menus/konnektoren" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
       <recent name="$PROJECT_DIR$/data_processing/session_management" />
       <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$/webapp/content" />
       <recent name="$PROJECT_DIR$/desktop_app" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -272,7 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741941407812</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <option name="closed" value="true" />
+      <created>1741971249727</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741971249727</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit">
+      <option name="closed" value="true" />
+      <created>1741971341239</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741971341239</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

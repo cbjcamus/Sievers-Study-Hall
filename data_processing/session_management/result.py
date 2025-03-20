@@ -14,7 +14,7 @@ def register_result(exercise, level, session):
     if str(level) not in session[result][exercise]:
         session[result][exercise][str(level)] = {}
 
-    session[result][exercise][str(level)] = score_level
+    session[result][exercise][str(level)] = round(score_level, 2)
 
     if exercise in session[progress] and str(level) in session[progress][exercise]:
         del session[progress][exercise][str(level)]

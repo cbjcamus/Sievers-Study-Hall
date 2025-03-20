@@ -24,7 +24,9 @@
     <h2 class="level-title">Level {{ level }}</h2>
 
     {% if question_text %}
-        <p>{{ question_text | safe }}</p>
+        <div class="question-container">
+            <p>{{ question_text | safe }}</p>
+        </div>
     {% endif %}
 
     <form action="{{ url_for('routes.check_answer', exercise=exercise, level=level) }}" method="post">
@@ -41,23 +43,27 @@
     </p>
 
     {% if result %}
-    <div class="result">
-        {% if result == 'correct' %}
-            <p class="correct">Correct</p>
-            {% if feedback_message %}
-                <p>{{ feedback_message | safe }}</p>
+    <div class="feedback-container">
+        <div class="result">
+            {% if result == 'correct' %}
+                <p class="correct">Correct</p>
+                {% if feedback_message %}
+                    <p>{{ feedback_message | safe }}</p>
+                {% endif %}
+            {% else %}
+                <p class="incorrect">Incorrect</p>
+                {% if feedback_message %}
+                    <p>{{ feedback_message | safe }}</p>
+                {% endif %}
+                <p>Your answer: {{ user_answer }}</p>
             {% endif %}
-        {% else %}
-            <p class="incorrect">Incorrect</p>
-            {% if feedback_message %}
-                <p>{{ feedback_message | safe }}</p>
-            {% endif %}
-            <p>Your answer: {{ user_answer }}</p>
-        {% endif %}
+        </div>
     </div>
     {% endif %}
 
-    <p><br>{{ proverb | safe }}</p>
+    <div class="proverb-container">
+        <p><br>{{ proverb | safe }}</p>
+    </div>
 
     <div class="back-button-container">
         <a href="{{ exercise_pages.get(exercise, '/') }}" class="back-button">Back to {{ title_page[exercise] }}</a>
