@@ -201,27 +201,27 @@ FEEDBACK_TEMPLATES = {
     },
 
     praepositionen_konjugation: {
-        1: "{english} = {previous_question} {correct_answers}",
+        1: "{previous_question} = {german} {correct_answers}",
         2: "{german}"
            "<br><br>{english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        3: "{english} = {previous_question} {correct_answers}",
+        3: "{previous_question} = {german} {correct_answers}",
         4: "{german}"
            "<br><br>{english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        5: "{english} = {previous_question} {correct_answers}",
+        5: "{previous_question} = {german} {correct_answers}",
         6: "{german}"
            "<br><br>{english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        7: "{english} = {previous_question} {correct_answers}",
+        7: "{previous_question} = {german} {correct_answers}",
         8: "{german}"
            "<br><br>{english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        9: "{english} = {previous_question} {correct_answers}",
+        9: "{previous_question} = {german} {correct_answers}",
         10: "{german}"
            "<br><br>{english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        11: "{english} = {previous_question} {correct_answers}",
+        11: "{previous_question} = {german} {correct_answers}",
         12: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
@@ -234,43 +234,43 @@ FEEDBACK_TEMPLATES = {
         15: "{german}"
            "<br><br>{english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        16: "{english} = {previous_question} {correct_answers}",
+        16: "{previous_question} = {german} {correct_answers}",
         17: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        18: "{english} = {previous_question} {correct_answers}",
+        18: "{previous_question} = {german} {correct_answers}",
         19: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        20: "{english} = {previous_question} {correct_answers}",
+        20: "{previous_question} = {german} {correct_answers}",
         21: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        22: "{english} = {previous_question} {correct_answers}",
+        22: "{previous_question} = {german} {correct_answers}",
         23: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        24: "{english} = {previous_question} {correct_answers}",
+        24: "{previous_question} = {german} {correct_answers}",
         25: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        26: "{english} = {previous_question} {correct_answers}",
+        26: "{previous_question} = {german} {correct_answers}",
         27: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        28: "{english} = {previous_question} {correct_answers}",
+        28: "{previous_question} = {german} {correct_answers}",
         29: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        30: "{english} = {previous_question} {correct_answers}",
+        30: "{previous_question} = {german} {correct_answers}",
         31: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        32: "{english} = {previous_question} {correct_answers}",
+        32: "{previous_question} = {german} {correct_answers}",
         33: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        34: "{english} = {previous_question} {correct_answers}",
+        34: "{previous_question} = {german} {correct_answers}",
         35: "{german}"
             "<br><br>{english}"
             "<br><br>Correct answer(s): {correct_answers}",
