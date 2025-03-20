@@ -17,12 +17,12 @@ app.config['SESSION_FILE_DIR'] = os.path.join(os.path.dirname(__file__), 'flask_
 app.config['SESSION_PERMANENT'] = False  # Optional: Sessions expire on browser close
 Session(app)
 
-
+'''
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Default to 8080 if PORT is not set
     app.run(host="0.0.0.0", port=port)
 
-'''
+
 cd /home/cbjcamus/Deutschtrainer
 git pull origin main
 touch /var/www/cbjcamus_pythonanywhere_com_wsgi.py
