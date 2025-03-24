@@ -1,3 +1,4 @@
 /scripts/
 /bin/
-local.pyflask_session/
+local.py
+/flask_session/
