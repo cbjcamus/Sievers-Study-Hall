@@ -2,7 +2,7 @@ alinea = "&emsp;"
 
 
 def format_english(text):
-    return italicise(text)
+    return text
 
 
 def format_german(text):
