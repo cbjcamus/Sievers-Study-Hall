@@ -1,6 +1,10 @@
 exercise,input,output
 adjektiv,phantastisch,fantastisch
 adjektiv,selbstständig,selbständig
+adverbien,bisweilen,ab und zu
+adverbien,mitunter,ab und zu
+adverbien,von Zeit zu Zeit,ab und zu
+adverbien,zuweilen,ab und zu
 adverbien,draussen,aussen
 adverbien,weiterhin,ausserdem
 adverbien,zudem,ausserdem
@@ -8,25 +12,34 @@ adverbien,insbesondere,besonders
 adverbien,vor allem,besonders
 adverbien,bzw,beziehungsweise
 adverbien,bzw.,beziehungsweise
-adverbien,gleichfalls,ebenfalls
 adverbien,bislang,bisher
 adverbien,etwa,circa
 adverbien,zirka,circa
 adverbien,dort drüben,da drüben
+adverbien,drüben,da drüben
 adverbien,anschliessend,danach
+adverbien,auf dauer,dauerhaft
+adverbien,permanent,dauerhaft
+adverbien,ständig,dauerhaft
 adverbien,umso,desto
 adverbien,da,dort
 adverbien,daher,dorther
 adverbien,dahin,dorthin
+adverbien,gleichfalls,ebenfalls
 adverbien,tatsächlich,eigentlich
 adverbien,einst,einmal
 adverbien,letztlich,endlich
 adverbien,schliesslich,endlich
 adverbien,zuletzt,endlich
-adverbien,nahezu,fast
+adverbien,dementsprechend,entsprechend
 adverbien,beinahe,fast
+adverbien,nahezu,fast
+adverbien,quasi,fast
+adverbien,von sich aus,freiwillig
 adverbien,überhaupt,gar
 adverbien,zugleich,gleichzeitig
+adverbien,angenehmerweise,glücklicherweise
+adverbien,erfreulicherweise,glücklicherweise
 adverbien,rauf,herauf
 adverbien,raus,heraus
 adverbien,rein,herein
@@ -41,35 +54,48 @@ adverbien,nun,jetzt
 adverbien,größtenteils,meistens
 adverbien,wenigstens,mindestens
 adverbien,zumindest,mindestens
+adverbien,freilich,natürlich
 adverbien,selbstverständlich,natürlich
 adverbien,niemals,nie
 adverbien,nirgends,nirgendwo
 adverbien,nirgendswo,nirgendwo
+adverbien,bloß,nur
 adverbien,lediglich,nur
 adverbien,häufig,oft
+adverbien,gesetzlich,rechtlich
+adverbien,geschwindig,schnell
 adverbien,bereits,schon
 adverbien,ohnehin,sowieso
+adverbien,von sich selbst,spontan
+adverbien,teils,teilweise
+adverbien,absolut,unbedingt
+adverbien,durchaus,unbedingt
 adverbien,usw,und so weiter
 adverbien,usw.,und so weiter
 adverbien,anfänglich,ürsprunglich
-adverbien,wohl,vielleicht
 adverbien,möglicherweise,vielleicht
+adverbien,wohl,vielleicht
 adverbien,kürzlich,vor kurzem
 adverbien,neulich,vor kurzem
 adverbien,davor,vorher
 adverbien,zuvor,vorher
+adverbien,überwiegend,vorwiegend
 adverbien,nochmal,wieder
+adverbien,wiederum,wieder
 adverbien,ganz,ziemlich
+adverbien,zunächst,zuerst
 adverbien,beispielsweise,zum beispiel
 adverbien,derzeit,zurzeit
+adverbien,momentan,zurzeit
 adverbien,zur zeit,zurzeit
 artikel,einige,manche
-artikel,einiger,mancher
 artikel,einigem,manchem
+artikel,einiger,mancher
 frage,weshalb,warum
 frage,weswegen,warum
 frage,wieso,warum
 konnektoren,somit,also
+konnektoren,anfänglich,anfangs
 konnektoren,statt,anstatt
 konnektoren,ehe,bevor
 konnektoren,allerdings,dagegen
@@ -79,6 +105,7 @@ konnektoren,sodass,damit
 konnektoren,daher,deshalb
 konnektoren,darum,deshalb
 konnektoren,deswegen,deshalb
+konnektoren,daraufhin,folglich
 konnektoren,demnach,folglich
 konnektoren,demzufolge,folglich
 konnektoren,infolgedessen,folglich
@@ -87,6 +114,7 @@ konnektoren,obgleich,obwohl
 konnektoren,obschon,obwohl
 konnektoren,sofern,solange
 konnektoren,andernfalls,sonst
+konnektoren,ansonsten,sonst
 konnektoren,dennoch,trotzdem
 konnektoren,gleichwohl,trotzdem
 konnektoren,da,weil
@@ -101,6 +129,7 @@ praepositionen_grammatik,aufm,auf dem
 praepositionen_grammatik,ausm,aus dem
 praepositionen_grammatik,beim,bei dem
 praepositionen_grammatik,durchs,durch das
+praepositionen_grammatik,längs,entlang
 praepositionen_grammatik,fürs,für das
 praepositionen_grammatik,hinters,hinter das
 praepositionen_grammatik,hinterm,hinter dem
@@ -110,7 +139,6 @@ praepositionen_grammatik,in das,ins
 praepositionen_grammatik,zufolge,laut
 praepositionen_grammatik,genauso,so
 praepositionen_grammatik,ungeachtet,trotz
-praepositionen_grammatik,längs,entlang
 praepositionen_grammatik,übers,über das
 praepositionen_grammatik,überm,über dem
 praepositionen_grammatik,ums,um das

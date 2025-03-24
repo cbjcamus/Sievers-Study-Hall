@@ -32,22 +32,20 @@ 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
 
 
 # TODO Priority before April 1st
-# verify questions format
+# Da worts
+# Wo worts
 
 
 # TODO Exercises
+# Adverb and konnectoren: add "Subjunktion, Konjunktion and Adverb" when necessary
 # Words in trag (Antrag, Vertrag, Betrag, Beitrag)
 # Wortschatz: adjektives (include sentences to simplify with Partizip II and I)
 # Wortschatz: adjektives to substantives
 # Wortschatz: adjektives to verben
 # Wortschatz: number, ordinal, fractions, double/triple, percent
-# als, als ob, als wenn in subjunktiv II
-# adverb auf dauer, fliessend, verbally, spontanly, geschwindig, completely, rechtlich, gesetzlich
-# adverb ausführlich  (extensively), accidentaly, beruflich, Meiner Meinung nach
-# Adverb and konnectoren: add "Subjunktion, Konjunktion and Adverb" when necessary
 # relative pronouns wer wen wem was
-# Pronomen: relativsaetze wo wohin woher
-# Pronomen: verify 100
+# Konnektoren list conuuntion dwds (C1)
+
 
 # TODO Format
 # https://en.wikipedia.org/wiki/Eduard_Sievers for logo

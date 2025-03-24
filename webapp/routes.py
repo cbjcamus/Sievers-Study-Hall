@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for
 
-from data_processing.normalization import normalization, get_answers
+from data_processing.normalization import normalization, get_answers, is_equal
 from data_processing.paths import EXERCISE_PAGES
 from data_processing.session_management.progress import compute_answered_questions
 from data_processing.session_management.total_questions import compute_total_questions
@@ -248,11 +248,7 @@ def exercise(exercise, level):
 @routes.route('/check/<exercise>/level/<int:level>', methods=['POST', 'GET'])
 def check_answer(exercise, level):
 
-    print_session(session)
-    print(f"Session size: {len(str(dict(session)).encode('utf-8'))} Bytes / 4000")
-
     if request.method == 'GET':
-        # Redirect GET requests back to the exercise page
         return redirect(url_for('routes.exercise', exercise=exercise, level=level))
 
     user_answer = normalization(request.form['answer'], exercise)
@@ -289,8 +285,10 @@ def check_answer(exercise, level):
         alinea=alinea,
     )
 
+    correct_answer_condition = is_equal(user_answer, correct_answer, exercise)
+
     session[f"{exercise}_result"] = {
-        "result": "correct" if user_answer == correct_answer else "incorrect",
+        "result": "correct" if correct_answer_condition else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
 
@@ -309,14 +307,14 @@ def check_answer(exercise, level):
     if str(level) not in session[score][exercise]:
         session[score][exercise][str(level)] = {}
 
-    if user_answer == correct_answer:
+    if correct_answer_condition:
         session_data = session[progress].get(exercise, {})
         session_data.setdefault(str(level), {})
         session_data[str(level)][nr] = 1
         session[progress][exercise] = session_data
         session[progress].setdefault(exercise, {}).setdefault(str(level), {})[nr] = 1
 
-    if not user_answer == correct_answer:
+    if not correct_answer_condition:
         session[score][exercise][str(level)][nr] = False
     elif nr not in session[score][exercise][str(level)]:
         session[score][exercise][str(level)][nr] = True

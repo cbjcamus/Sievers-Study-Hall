@@ -5,7 +5,24 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SYNONYMS_PATH = os.path.join(BASE_DIR, "datasets", "synonyms.csv")
 
 
-def is_equal(user_answer, correct_answer, exercise, multiple_answers=False):
+def is_equal(user_answer, correct_answer, exercise):
+    user_answer = normalization(user_answer, exercise)
+
+    print(correct_answer)
+    if "/" in correct_answer:
+        print("test 1")
+        correct_answers = correct_answer.split("/")
+        print(correct_answers)
+        #correct_answers = [normalization(answer, exercise) for answer in correct_answers]
+        return user_answer in correct_answers
+    else:
+        correct_answer = normalization(correct_answer, exercise)
+        return user_answer == correct_answer
+
+'''
+def is_equal(user_answer, correct_answer, exercise):
+    multiple_answers = False
+
     if not multiple_answers:
         user_answer = normalization(user_answer, exercise)
         correct_answer = normalization(correct_answer, exercise)
@@ -14,6 +31,7 @@ def is_equal(user_answer, correct_answer, exercise, multiple_answers=False):
         user_answer = normalization(user_answer, exercise)
         correct_answers = [normalization(answer, exercise) for answer in correct_answer]
         return user_answer in correct_answers
+'''
 
 
 def normalization(input_str, exercise):
