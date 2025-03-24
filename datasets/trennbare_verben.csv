@@ -122,10 +122,10 @@ Nr,level,level_verb,answer,question,type,prefix,german,english
 121,4,B1,unterbrechen,to interrupt,1. verb,unter,brechen,to break
 122,4,B1,untersuchen,"to examine, to investigate",1. verb,unter,suchen,"to seek, to search"
 123,4,B1,zerstören,to destroy,1. verb,zer,stören,"to disturb, to interfere"
-124,4,B1,abbauen,"to dismantle, to deteriorate",1. verb,,,
-125,4,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",1. verb,,,
-126,4,B1,abfahren,"to depart, to leave, to drive along",1. verb,,,
-127,4,B1,besorgen,"to obtain, to manage",1. verb,,,
+124,4,B1,abbauen,"to dismantle, to deteriorate",1. verb,ab,bauen,to build
+125,4,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",1. verb,ab,hängen,"to hang, to be fond of, depend on"
+126,4,B1,abfahren,"to depart, to leave, to drive along",1. verb,ab,fahren,"to go (by vehicle), to leave, to drive"
+127,4,B1,besorgen,"to obtain, to manage",1. verb,be,sorgen,"to care, to worry"
 128,7,B2,anerkennen,"to acknowledge, to recognize",1. verb,an,erkennen,"to recognise, to realise"
 129,7,B2,anwenden,"to apply (knowledge, know-how)",1. verb,an,wenden,"to turn something, to make a u-turn"
 130,7,B2,einrichten,"to set up, to install, to furnish",1. verb,ein,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
@@ -289,14 +289,14 @@ Nr,level,level_verb,answer,question,type,prefix,german,english
 288,101,C1,umstellen,,1. verb,,,
 289,101,C1,umarmen,,1. verb,,,
 290,101,C1,verschweigen,to conceal,1. verb,ver,schweigen,"to be silent, to remain silent"
-291,101,C1,angehen,"to concern, to tackle (a problem), to turn on (a machine)",1. verb,an,,
-292,101,C1,anlegen,"to create, to invest",1. verb,an,,
-293,101,C1,antreten,"to begin, to compete",1. verb,an,,
-294,101,C1,angreifen,to attack,1. verb,an,,
-295,101,C1,aufstellen,"to set up, to establish",1. verb,auf,,
-296,101,C1,einprägen,to memorize,1. verb,ein,,
-297,101,C1,einschreiben,"to sign up, to enroll",1. verb,ein,,
-298,101,C1,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",1. verb,ein,,
+291,101,C1,angehen,"to concern, to tackle (a problem), to turn on (a machine)",1. verb,an,gehen,"to go, to leave, to work, to function (coll.)"
+292,101,C1,anlegen,"to create, to invest",1. verb,an,legen,"to lay, to lean, to lie down"
+293,101,C1,antreten,"to begin, to compete",1. verb,an,treten,"to step, to read, to kick (a ball)"
+294,101,C1,angreifen,to attack,1. verb,an,greifen,"to grab, to seize, to reach, to capture"
+295,101,C1,aufstellen,"to set up, to establish",1. verb,auf,stellen,"to position, to put, to catch"
+296,101,C1,einprägen,to memorize,1. verb,ein,prägen,"to shape, to influence"
+297,101,C1,einschreiben,"to sign up, to enroll",1. verb,ein,schreiben,to write
+298,101,C1,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",1. verb,ein,gehen,"to go, to leave, to work, to function (coll.)"
 299,101,C1,weiterempfehlen,,1. verb,,,
 300,101,C1,abrufen,,1. verb,,,
 301,101,C1,abarbeiten,,1. verb,,,
@@ -1184,10 +1184,10 @@ Nr,level,level_verb,answer,question,type,prefix,german,english
 1183,6,B1,unterbrechen,to interrupt,2. prefix,unter,brechen,to break
 1184,6,B1,untersuchen,"to examine, to investigate",2. prefix,unter,suchen,"to seek, to search"
 1185,6,B1,zerstören,to destroy,2. prefix,zer,stören,"to disturb, to interfere"
-1186,6,B1,abbauen,"to dismantle, to deteriorate",2. prefix,,,
-1187,6,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",2. prefix,,,
-1188,6,B1,abfahren,"to depart, to leave, to drive along",2. prefix,,,
-1189,6,B1,besorgen,"to obtain, to manage",2. prefix,,,
+1186,6,B1,abbauen,"to dismantle, to deteriorate",2. prefix,ab,bauen,to build
+1187,6,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",2. prefix,ab,hängen,"to hang, to be fond of, depend on"
+1188,6,B1,abfahren,"to depart, to leave, to drive along",2. prefix,ab,fahren,"to go (by vehicle), to leave, to drive"
+1189,6,B1,besorgen,"to obtain, to manage",2. prefix,be,sorgen,"to care, to worry"
 1190,9,B2,unternehmen,to undertake,2. prefix,unter,nehmen,"to take, to cause oneself to be (in some state)"
 1191,9,B2,anerkennen,"to acknowledge, to recognize",2. prefix,an,erkennen,"to recognise, to realise"
 1192,9,B2,anwenden,"to apply (knowledge, know-how)",2. prefix,an,wenden,"to turn something, to make a u-turn"

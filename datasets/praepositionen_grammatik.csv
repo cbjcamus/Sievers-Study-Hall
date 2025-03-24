@@ -137,7 +137,7 @@ Nr,level,question,answer,english,german
 136,4,Ich komme gerade _____ der Arbeit.,von,I just came from work.,Ich komme gerade von der Arbeit.
 137,4,Er fährt _____ der Schule nach Hause.,von,He is driving home from school.,Er fährt von der Schule nach Hause.
 138,4,Wir kommen _____ einer langen Reise.,von,We are coming from a long trip.,Wir kommen von einer langen Reise.
-139,4,Sie kommt _____ Arzt zurück.,vom,She is coming back from the doctor.,Sie kommt vom Arzt zurück.
+139,4,Sie kommt _____ dem Arzt zurück.,von,She is coming back from the doctor.,Sie kommt von dem Arzt zurück.
 140,4,Ich habe das Buch _____ meinem Freund bekommen.,von,I got the book from my friend.,Ich habe das Buch von meinem Freund bekommen.
 141,4,Ich gehe _____ die Schule.,in,I am going to school.,Ich gehe in die Schule.
 142,4,Er legt das Buch _____ den Rucksack.,in,He puts the book into the backpack.,Er legt das Buch in den Rucksack.
@@ -146,9 +146,9 @@ Nr,level,question,answer,english,german
 145,4,Das Kind springt _____ den Pool.,in,The child jumps into the pool.,Das Kind springt in den Pool.
 146,4,Ich gehe _____ meinem Freund.,zu,I am going to my friend’s place.,Ich gehe zu meinem Freund.
 147,4,Sie fährt _____ ihrer Oma.,zu,She is driving to her grandma’s house.,Sie fährt zu ihrer Oma.
-148,4,Wir gehen zu Fuß _____ Schule.,zur,We are walking to school.,Wir gehen zu Fuß zur Schule.
+148,4,Wir gehen zu Fuß _____ der Schule.,zu,We are walking to school.,Wir gehen zu Fuß zu der Schule.
 149,4,Er fährt mit dem Bus _____ seiner Arbeit.,zu,He takes the bus to his workplace.,Er fährt mit dem Bus zu seiner Arbeit.
-150,4,Ich bringe das Paket _____ Post.,zur,I am taking the package to the post office.,Ich bringe das Paket zur Post.
+150,4,Ich bringe das Paket _____ der Post.,zu,I am taking the package to the post office.,Ich bringe das Paket zu der Post.
 151,4,Ich gehe _____ den Strand.,an,I am going to the beach.,Ich gehe an den Strand.
 152,4,Wir fahren _____ die Nordsee.,an,We are driving to the North Sea.,Wir fahren an die Nordsee.
 153,4,Er stellt das Glas _____ das Fenster.,an,He puts the glass by the window.,Er stellt das Glas an das Fenster.
@@ -308,11 +308,11 @@ Nr,level,question,answer,english,german
 307,7,Ich warte _____ der Tür.,vor,I am waiting in front of the door.,Ich warte vor der Tür.
 308,7,Das ist _____ meiner Zeit passiert.,vor,That happened before my time.,Das ist vor meiner Zeit passiert.
 309,7,Sie schützt sich _____ der Sonne.,vor,She protects herself from the sun.,Sie schützt sich vor der Sonne.
-310,7,Ich gehe _____ Bahnhof.,zum,I am going to the train station.,Ich gehe zum Bahnhof.
-311,7,Wir fahren _____ Strand.,zum,We are driving to the beach.,Wir fahren zum Strand.
+310,7,Ich gehe _____ dem Bahnhof.,zu,I am going to the train station.,Ich gehe zu dem Bahnhof.
+311,7,Wir fahren _____ dem Strand.,zu,We are driving to the beach.,Wir fahren zu dem Strand.
 312,7,Ich gehe _____ Fuss.,zu,I go on foot.,Ich gehe zu Fuss.
 313,7,_____ dem Frühstück esse ich Brot.,Zu,"For breakfast, I eat bread.",Zu dem Frühstück esse ich Brot.
-314,7,Ich gratuliere dir _____ Geburtstag.,zum,I congratulate you on your birthday.,Ich gratuliere dir zum Geburtstag.
+314,7,Ich gratuliere dir _____ dem Geburtstag.,zu,I congratulate you on your birthday.,Ich gratuliere dir zu dem Geburtstag.
 315,7,Der Tisch steht _____ den Stühlen.,zwischen,The table is between the chairs.,Der Tisch steht zwischen den Stühlen.
 316,7,Ich sitze _____ meiner Mutter und meinem Vater.,zwischen,I am sitting between my mother and my father.,Ich sitze zwischen meiner Mutter und meinem Vater.
 317,7,Das Museum ist _____ der Bank und der Post.,zwischen,The museum is between the bank and the post office.,Das Museum ist zwischen der Bank und der Post.
@@ -388,8 +388,8 @@ Nr,level,question,answer,english,german
 387,8,_____ zwei Jahren war ich in Italien.,Vor,"Two years ago, I was in Italy.",Vor zwei Jahren war ich in Italien.
 388,8,Er ist _____ Hause.,zu,He is at home.,Er ist zu Hause.
 389,8,Ich bleibe _____ Hause.,zu,I am staying at home.,Ich bleibe zu Hause.
-390,8,_____ Schluss möchte ich mich bedanken.,Zum,"In conclusion, I would like to thank you.",Zum Schluss möchte ich mich bedanken.
-391,8,Ich habe keine Zeit _____ Lesen.,zum,I have no time to read.,Ich habe keine Zeit zum Lesen.
+390,8,_____ dem Schluss möchte ich mich bedanken.,Zu,"In conclusion, I would like to thank you.",Zu dem Schluss möchte ich mich bedanken.
+391,8,Ich habe keine Zeit _____ dem Lesen.,zu,I have no time to read.,Ich habe keine Zeit zu dem Lesen.
 392,8,_____ uns gibt es keine Geheimnisse.,Zwischen,There are no secrets between us.,Zwischen uns gibt es keine Geheimnisse.
 393,8,Leg das Buch _____ die anderen Bücher.,zwischen,Put the book between the other books.,Leg das Buch zwischen die anderen Bücher.
 394,8,_____ den Jahren feiert man Silvester.,Zwischen,"Between the years, one celebrates New Year's Eve.",Zwischen den Jahren feiert man Silvester.
@@ -467,9 +467,9 @@ Nr,level,question,answer,english,german
 466,11,including,inklusive,,
 467,11,in addition to,zusätzlich zu,,
 468,11,based on,anhand,,
-469,11,by means of,mittels,,
+469,11,"by means of, through, using",mittels,,
 470,11,thanks to,dank,,
-471,11,"in view of, considering",angesichts,,
+471,11,"in view of, considering, in light of",angesichts,,
 472,12,_____ seiner Hilfe konnten wir das Problem schnell lösen.,Dank,"Thanks to his help, we were able to solve the problem quickly.",Dank seiner Hilfe konnten wir das Problem schnell lösen.
 473,12,"Die Firma wächst stetig, _____ innovativer Ideen.",dank,The company is growing steadily thanks to innovative ideas.,"Die Firma wächst stetig, dank innovativer Ideen."
 474,12,_____ der modernen Medizin leben die Menschen länger.,Dank,"Thanks to modern medicine, people live longer.",Dank der modernen Medizin leben die Menschen länger.
@@ -561,7 +561,7 @@ Nr,level,question,answer,english,german
 560,14,Er zitterte _____ Nervosität.,vor,He was shaking from nervousness.,Er zitterte vor Nervosität.
 561,14,Sie wurde _____ Verlegenheit rot.,vor,She blushed out of embarrassment.,Sie wurde vor Verlegenheit rot.
 562,15,_____ Vorbereitung auf die Prüfung hat sie alle Unterlagen noch einmal durchgelesen.,Zur,"To prepare for the exam, she reviewed all the documents again.",Zur Vorbereitung auf die Prüfung hat sie alle Unterlagen noch einmal durchgelesen.
-563,15,_____ einer erfolgreichen Verhandlung gehört eine gute Argumentation.,Zu,A good argumentation is essential for a successful negotiation.,Zu einer erfolgreichen Verhandlung gehört eine gute Argumentation.
+563,15,_____ erfolgreichen Verhandlung gehört eine gute Argumentation.,Zu einer,A good argumentation is essential for a successful negotiation.,Zu einer erfolgreichen Verhandlung gehört eine gute Argumentation.
 564,15,_____ Verbesserung der Kundenbetreuung wurden neue Mitarbeiter eingestellt.,Zur,New employees were hired to improve customer service.,Zur Verbesserung der Kundenbetreuung wurden neue Mitarbeiter eingestellt.
 565,15,_____ gesunden Lebensstil gehört regelmäßige Bewegung.,Zu einem,Regular exercise is essential for a healthy lifestyle.,Zu einem gesunden Lebensstil gehört regelmäßige Bewegung.
 566,15,_____ Lösung des Problems haben wir eine Expertenrunde einberufen.,Zur,A panel of experts was convened to solve the problem.,Zur Lösung des Problems haben wir eine Expertenrunde einberufen.

@@ -153,16 +153,16 @@ Nr,level,question,answer,german,english,case,gender,type
 152,3,Es gibt _____ Schnee in diesem Winter.,wenig,Es gibt wenig Schnee in diesem Winter.,There is little snow this winter.,,,
 153,3,"Sie spricht _____ Deutsch, aber sie lernt.",wenig,"Sie spricht wenig Deutsch, aber sie lernt.","She speaks little German, but she is learning.",,,
 154,3,"Ich habe _____ Lust, heute Abend auszugehen.",wenig,"Ich habe wenig Lust, heute Abend auszugehen.",I have little desire to go out tonight.,,,
-155,4,"that, those",jene,,,,,demonstrative
+155,4,"that, those (Feminin / Plural)",jene,,,,,demonstrative
 156,4,"individual, single",einzelne,,,,,mengen
-157,4,any,irgendein,,,,,
+157,4,any (Feminin / Plural),irgendeine,,,,,
 158,4,"several, multiple",mehrere,,,,,mengen
-159,4,quite a few,etliche,,,,,mengen
+159,4,quite a few (Feminin / Plural),etliche,,,,,mengen
 160,4,"different, various",verschiedene,,,,,mengen
 161,4,numerous,zahlreiche,,,,,mengen
-162,4,such,solch,,,,,demonstrative
-163,4,those,diejenigen,,,,,relative & emphatic
-164,4,the same,dieselbe,,,,,relative & emphatic
+162,4,such (Feminin / Plural),solche,,,,,demonstrative
+163,4,"this one, that one (Masculin)",derjenige,,,,,relative & emphatic
+164,4,the same (Masculin),derselbe,,,,,relative & emphatic
 165,4,"following, subsequent",folgend,,,,,relative & emphatic
 166,4,"all kinds of, all sort of",allerlei,,,,,relative & emphatic
 167,4,"all, every single",sämtliche,,,,,relative & emphatic

@@ -13,6 +13,7 @@ from data_processing.session_management.conditions import level_finished
 
 from webapp.interface import alinea, format_english, format_german
 from webapp.content.title_page import TITLE_PAGE
+from webapp.content.back_button import BACK_BUTTON
 from webapp.content.feedback_templates import FEEDBACK_TEMPLATES
 from webapp.content.question_templates import QUESTION_TEMPLATES
 from webapp.content.description_templates import DESCRIPTION_TEMPLATES
@@ -195,6 +196,7 @@ def exercise(exercise, level):
                                level=level,
                                exercise_pages=EXERCISE_PAGES,
                                title_page=TITLE_PAGE,
+                               back_page=BACK_BUTTON,
                                )
 
     question_data = pick_a_question(session, exercise, level)
@@ -237,6 +239,7 @@ def exercise(exercise, level):
                            user_answer=result_data["user_answer"] if result_data else None,
                            exercise_pages=EXERCISE_PAGES,
                            title_page=TITLE_PAGE,
+                           back_page=BACK_BUTTON,
                            answered_questions=compute_answered_questions(exercise, level=level, session=session),
                            total_questions=compute_total_questions(exercise, level=level),
                            proverb=proverb)
@@ -261,7 +264,7 @@ def check_answer(exercise, level):
     correct_answer = normalization(question_data["answer"], exercise)
     correct_answers = get_answers(correct_answer, exercise)
     question_text = question_data["question"]
-    english = question_data.get("english", "")
+    english = format_english(question_data.get("english", ""))
     german = question_data.get("german", "")
     adjective = question_data.get("adjective", "")
     gender = question_data.get("gender", "")

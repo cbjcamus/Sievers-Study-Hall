@@ -1,7 +1,7 @@
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                                        praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
                                        partizip_I,
-                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive)
+                                       adverbien, verben, trennbare_verben, deverbale_substantive)
 
 TITLE_PAGE = {
     artikel: "Artikel",
@@ -18,8 +18,9 @@ TITLE_PAGE = {
     konjunktiv: "Konjunktiv II",
     partizip_I: "Partizip I",
 
-    adverbien: "Adverbien",
-    verben: "Verben",
-    trennbare_verben: "(Un)trennbare Verben",
-    deverbale_substantive: "Deverbale Substantive",
+    adverbien: "Adverbien (Beta)",
+    verben: "Verben (Beta)",
+    trennbare_verben: "(Un)trennbare Verben (Beta)",
+    deverbale_substantive: "Deverbale Substantive (Beta)",
     }
+

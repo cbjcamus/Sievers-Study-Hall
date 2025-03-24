@@ -21,12 +21,12 @@ artikel: {
         6: "Accusative, Dative, and Reflexive Pronouns in sentences",
         7: "Familiar (B1) Pronouns in isolation",
         8: "Familiar (B1) Pronouns in sentences",
-        9: "Nominative Relative Pronouns in sentences",
-        10: "Accusative Relative Pronouns in sentences",
-        11: "Dative Relative Pronouns in sentences",
-        12: "Genitive Relative Pronouns in sentences",
-        13: "Nominative, Accusative, Dative, and Genitive Relative Pronouns in sentences",
-        14: "Nominative, Accusative, Dative, and Genitive Relative Pronouns in sentences",
+        9: "Relative Nominative Pronouns in sentences",
+        10: "Relative Accusative Pronouns in sentences",
+        11: "Relative Dative Pronouns in sentences",
+        12: "Relative Genitive Pronouns in sentences",
+        13: "Relative Pronouns in sentences",
+        14: "Relative Pronouns in sentences",
     },
 
     konnektoren: {

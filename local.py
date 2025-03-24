@@ -1,0 +1,67 @@
+import os
+from flask import Flask
+from flask_session import Session
+from webapp.routes import routes
+
+app = Flask(__name__,
+            static_url_path='/webapp/static',
+            static_folder='webapp/static',
+            template_folder='webapp/templates')
+app.secret_key = 'this_is_a_bad_secret_key_but_I_believe_it_works'
+
+app.register_blueprint(routes)
+
+# Set up server-side session storage
+app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_FILE_DIR'] = os.path.join(os.path.dirname(__file__), 'flask_session')
+app.config['SESSION_PERMANENT'] = False  # Optional: Sessions expire on browser close
+Session(app)
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))  # Default to 8080 if PORT is not set
+    app.run(host="0.0.0.0", port=port)
+
+'''
+cd /home/cbjcamus/Deutschtrainer
+git pull origin main
+touch /var/www/cbjcamus_pythonanywhere_com_wsgi.py
+
+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
+'''
+
+
+# TODO Priority before April 1st
+# verify questions format
+
+
+# TODO Exercises
+# Words in trag (Antrag, Vertrag, Betrag, Beitrag)
+# Wortschatz: adjektives (include sentences to simplify with Partizip II and I)
+# Wortschatz: adjektives to substantives
+# Wortschatz: adjektives to verben
+# Wortschatz: number, ordinal, fractions, double/triple, percent
+# als, als ob, als wenn in subjunktiv II
+# adverb auf dauer, fliessend, verbally, spontanly, geschwindig, completely, rechtlich, gesetzlich
+# adverb ausführlich  (extensively), accidentaly, beruflich, Meiner Meinung nach
+# Adverb and konnectoren: add "Subjunktion, Konjunktion and Adverb" when necessary
+# relative pronouns wer wen wem was
+# Pronomen: relativsaetze wo wohin woher
+# Pronomen: verify 100
+
+# TODO Format
+# https://en.wikipedia.org/wiki/Eduard_Sievers for logo
+# How to have ss in the answer (adjektivedeklinationen)
+# 90 and above green, 80 to 90 Yellow, 70 to 80 Orange, below red
+# use arrow for deverbale substansive
+
+
+# Framework
+# Learn, Discover and Play
+# Review, Practice and Reinforce
+# Consolidate, Summarize and Apply
+
+# Sources
+# 500 verbs german tv: https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/
+# routledge: Tubbiefox https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112
+# https://docs.google.com/spreadsheets/d/1H8hMTSSVMMss-1aSGgndFaHlYa7kuJ161CtwADwQc9M/edit?gid=0#gid=0
