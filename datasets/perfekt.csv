@@ -25,7 +25,7 @@ Nr,level,question,answer,english,german
 24,1,lieben,geliebt,to love,
 25,1,bringen,gebracht,"to bring, to take, to lead",
 26,1,stehen,gestanden,"to stand, to be, to appear",
-27,1,heissen,geheissen,"to be called, to mean",
+27,1,heißen,geheissen,"to be called, to mean",
 28,1,nehmen,genommen,"to take, to cause oneself to be (in some state)",
 29,1,sprechen,gesprochen,to speak,
 30,1,bekommen,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",
@@ -107,7 +107,7 @@ Nr,level,question,answer,english,german
 106,3,schauen,geschaut,to look at (Bayern/Austria),
 107,3,besuchen,besucht,to visit,
 108,3,freuen,gefreut,"to make glad, to be glad (refl.), to look forward (refl.)",
-109,3,schliessen,geschlossen,"to shut, to close, to lock, to conclude",
+109,3,schließen,geschlossen,"to shut, to close, to lock, to conclude",
 110,3,einladen,eingeladen,"to invite, to load (something into a container)",
 111,3,gefallen,gefallen,"to please, to appeal to",
 112,3,wünschen,gewünscht,to wish,
@@ -271,7 +271,7 @@ Nr,level,question,answer,english,german
 270,7,fliegen,geflogen,to fly,
 271,7,erfahren,erfahren,"to experience, to find out, to learn",
 272,7,enttäuschen,enttäuscht,to disappoint,
-273,7,geniessen,genossen,"to enjoy (an experience), to relish",
+273,7,genießen,genossen,"to enjoy (an experience), to relish",
 274,7,besichtigen,besichtigt,"to visit, to tour",
 275,7,spazieren,spaziert,"to take a walk, to stroll",
 276,7,wandern,gewandert,"to hike, to wander",
@@ -407,7 +407,7 @@ Nr,level,question,answer,english,german
 406,11,erwähnen,erwähnt,to mention (to speak of something),
 407,11,informieren,informiert,to inform,
 408,11,reagieren,reagiert,"to react, to respond",
-409,11,äussern,geäussert,"to utter, to say, to express",
+409,11,äußern,geäussert,"to utter, to say, to express",
 410,11,garantieren,garantiert,to guarantee,
 411,11,kritisieren,kritisiert,to criticize,
 412,11,ankündigen,angekündigt,"to announce, to declare",
@@ -464,7 +464,7 @@ Nr,level,question,answer,english,german
 463,12,fördern,gefördert,"to promote, to support",
 464,12,berichten,berichtet,"to report, to cover, to indicate, to refer",
 465,12,werben,geworben,to advertise,
-466,12,beeinflussen,beeinflusst,"to influence, to affect",
+466,12,beeinflußen,beeinflusst,"to influence, to affect",
 467,12,zulassen,zugelassen,"to allow, to license (for a car)",
 468,12,verurteilen,verurteilt,"to condemn, to sentence (law)",
 469,12,senden,gesendet,"to broadcast, to send",
@@ -639,303 +639,383 @@ Nr,level,question,answer,english,german
 638,16,auffallen,aufgefallen,"to stand out, to catch someone's eye (with dative)",
 639,16,begeistern,begeistert,"to enthuse, to be enthusiastic (refl.)",
 640,16,aufgeben,aufgegeben,"to give up on, to give up (refl.), to abandon",
-601,100,Ich bin in Berlin _____.,gewesen,I have been to Berlin.,Ich bin in Berlin gewesen.
-602,100,Er hat viel Glück _____.,gehabt,He has had a lot of luck.,Er hat viel Glück gehabt.
-603,100,Sie ist Lehrerin _____.,geworden,She has become a teacher.,Sie ist Lehrerin geworden.
-604,100,Ich habe das nicht _____.,gekonnt,I was not able to do that.,Ich habe das nicht gekonnt.
-605,100,Er hat das nie _____.,gewollt,He never wanted that.,Er hat das nie gewollt.
-606,100,Ich habe früher viel lernen _____.,gemusst,I had to study a lot before.,Ich habe früher viel lernen gemusst.
-607,100,Er hat nach Hause gehen _____.,gesollt,He was supposed to go home.,Er hat nach Hause gehen gesollt.
-608,100,Ich habe den Film _____.,gemocht,I liked the movie.,Ich habe den Film gemocht.
-609,100,Wir haben lange bleiben _____.,gedurft,We were allowed to stay long.,Wir haben lange bleiben gedurft.
-610,100,Er hat es schon _____.,gewusst,He already knew it.,Er hat es schon gewusst.
-611,100,Ich habe meine Hausaufgaben _____.,gemacht,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
-612,100,Sie hat nichts _____.,getan,She has done nothing.,Sie hat nichts getan.
-613,100,Er hat mir die Wahrheit _____.,gesagt,He told me the truth.,Er hat mir die Wahrheit gesagt.
-614,100,Wir sind ins Kino _____.,gegangen,We went to the cinema.,Wir sind ins Kino gegangen.
-615,100,Ich habe den Film _____.,gesehen,I saw the movie.,Ich habe den Film gesehen.
-616,100,Er hat mir ein Buch _____.,gegeben,He gave me a book.,Er hat mir ein Buch gegeben.
-617,100,Sie ist nach Hause _____.,gekommen,She has come home.,Sie ist nach Hause gekommen.
-618,100,Er hat an Gott _____.,geglaubt,He believed in God.,Er hat an Gott geglaubt.
-619,100,Ein Unfall ist _____.,passiert,An accident has happened.,Ein Unfall ist passiert.
-620,100,Wir haben über das Wetter _____.,geredet,We talked about the weather.,Wir haben über das Wetter geredet.
-621,100,Ich habe Musik _____.,gehört,I listened to music.,Ich habe Musik gehört.
-622,100,Er hat seinen Schlüssel _____.,gefunden,He found his key.,Er hat seinen Schlüssel gefunden.
-623,100,Wir sind zu Hause _____.,geblieben,We stayed at home.,Wir sind zu Hause geblieben.
-624,100,Ich habe das Geld _____.,gebraucht,I needed the money.,Ich habe das Geld gebraucht.
-625,100,Er hat sie immer _____.,geliebt,He always loved her.,Er hat sie immer geliebt.
-626,100,Ich habe ein Geschenk _____.,gebracht,I brought a gift.,Ich habe ein Geschenk gebracht.
-627,100,Sie hat lange vor der Tür _____.,gestanden,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
-628,100,Er hat Peter _____.,geheissen,His name was Peter.,Er hat Peter geheissen.
-629,100,Ich habe den Bus _____.,genommen,I took the bus.,Ich habe den Bus genommen.
-630,100,Er hat mit mir _____.,gesprochen,He spoke with me.,Er hat mit mir gesprochen.
-631,100,Sie hat ein Geschenk _____.,bekommen,She received a gift.,Sie hat ein Geschenk bekommen.
-632,100,Ich habe meine Tasche _____.,vergessen,I forgot my bag.,Ich habe meine Tasche vergessen.
-633,100,Er hat das Versprechen _____.,gehalten,He kept the promise.,Er hat das Versprechen gehalten.
-634,100,Wir haben lange _____.,gewartet,We waited a long time.,Wir haben lange gewartet.
-635,100,Ich habe ihn gut _____.,gekannt,I knew him well.,Ich habe ihn gut gekannt.
-636,100,Er hat mich nicht _____.,verstanden,He didn't understand me.,Er hat mich nicht verstanden.
-637,100,Ich habe an dich _____.,gedacht,I thought of you.,Ich habe an dich gedacht.
-638,100,Er hat lange in Paris _____.,gelebt,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
-639,100,Ich habe meine Uhr _____.,verloren,I lost my watch.,Ich habe meine Uhr verloren.
-640,100,Sie hat im Krankenhaus _____.,gearbeitet,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
-641,100,Ich habe eine Pizza _____.,gegessen,I ate a pizza.,Ich habe eine Pizza gegessen.
-642,100,Er hat Fußball _____.,gespielt,He played football.,Er hat Fußball gespielt.
-643,100,Wir sind nach München _____.,gefahren,We drove to Munich.,Wir sind nach München gefahren.
-644,100,Er hat es _____.,versucht,He tried it.,Er hat es versucht.
-645,100,Sie hat eine Geschichte _____.,erzählt,She told a story.,Sie hat eine Geschichte erzählt.
-646,100,Ich habe ihn nach dem Weg _____.,gefragt,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
-647,100,Wir haben uns im Café _____.,getroffen,We met at the café.,Wir haben uns im Café getroffen.
-648,100,Ich habe auf gutes Wetter _____.,gehofft,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
-649,100,Er hat seine Brille _____.,gesucht,He looked for his glasses.,Er hat seine Brille gesucht.
-650,100,Ich habe ein Glas Wasser _____.,getrunken,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
-651,100,Ich habe Deutsch _____.,gelernt,I have learned German.,Ich habe Deutsch gelernt.
-652,100,Er hat mir das Bild _____.,gezeigt,He showed me the picture.,Er hat mir das Bild gezeigt.
-653,100,Ich habe lange _____.,geschlafen,I slept for a long time.,Ich habe lange geschlafen.
-654,100,Sie hat ein neues Auto _____.,gekauft,She bought a new car.,Sie hat ein neues Auto gekauft.
-655,100,Er ist schnell nach Hause _____.,gelaufen,He ran home quickly.,Er ist schnell nach Hause gelaufen.
-656,100,Der Lehrer hat die Aufgabe _____.,erklärt,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
-657,100,Ich habe die Rechnung _____.,gezahlt,I paid the bill.,Ich habe die Rechnung gezahlt.
-658,100,Wir sind im Meer _____.,geschwommen,We swam in the sea.,Wir sind im Meer geschwommen.
-659,100,Er hat eine Suppe _____.,gekocht,He cooked a soup.,Er hat eine Suppe gekocht.
-660,100,Sie hat ihre Hände _____.,gewaschen,She washed her hands.,Sie hat ihre Hände gewaschen.
-661,100,Ich bin spät _____.,aufgewacht,I woke up late.,Ich bin spät aufgewacht.
-662,100,Er hat in Berlin _____.,studiert,He studied in Berlin.,Er hat in Berlin studiert.
-663,100,Sie hat ein Bild _____.,gezeichnet,She drew a picture.,Sie hat ein Bild gezeichnet.
-664,100,Er ist um 7 Uhr _____.,aufgestanden,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
-665,100,Ich habe die Frage _____.,wiederholt,I repeated the question.,Ich habe die Frage wiederholt.
-666,100,Er hat den Text _____.,übersetzt,He translated the text.,Er hat den Text übersetzt.
-667,100,Wir haben in München _____.,gewohnt,We lived in Munich.,Wir haben in München gewohnt.
-668,100,Sie hat einen Brief _____.,geschrieben,She wrote a letter.,Sie hat einen Brief geschrieben.
-669,100,Ich habe eine Jacke _____.,angezogen,I put on a jacket.,Ich habe eine Jacke angezogen.
-670,100,Er ist aus der Wohnung _____.,ausgezogen,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
-671,100,Ich habe das Wort _____.,buchstabiert,I spelled the word.,Ich habe das Wort buchstabiert.
-672,100,Sie hat ein rotes Kleid _____.,getragen,She wore a red dress.,Sie hat ein rotes Kleid getragen.
-673,100,Ich habe mich für Kunst _____.,interessiert,I was interested in art.,Ich habe mich für Kunst interessiert.
-674,100,Er hat die Tür _____.,gezogen,He pulled the door.,Er hat die Tür gezogen.
-675,100,Ich habe ein Buch _____.,gelesen,I read a book.,Ich habe ein Buch gelesen.
-676,100,Ich _____ in Berlin gewesen.,bin,I have been to Berlin.,Ich bin in Berlin gewesen.
-677,100,Er _____ viel Glück gehabt.,hat,He has had a lot of luck.,Er hat viel Glück gehabt.
-678,100,Sie _____ Lehrerin geworden.,ist,She has become a teacher.,Sie ist Lehrerin geworden.
-679,100,Ich _____ das nicht gekonnt.,habe,I was not able to do that.,Ich habe das nicht gekonnt.
-680,100,Er _____ das nie gewollt.,hat,He never wanted that.,Er hat das nie gewollt.
-681,100,Ich _____ früher viel lernen gemusst.,habe,I had to study a lot before.,Ich habe früher viel lernen gemusst.
-682,100,Er _____ nach Hause gehen gesollt.,hat,He was supposed to go home.,Er hat nach Hause gehen gesollt.
-683,100,Ich _____ den Film gemocht.,habe,I liked the movie.,Ich habe den Film gemocht.
-684,100,Wir _____ lange bleiben gedurft.,haben,We were allowed to stay long.,Wir haben lange bleiben gedurft.
-685,100,Er _____ es schon gewusst.,hat,He already knew it.,Er hat es schon gewusst.
-686,100,Ich _____ meine Hausaufgaben gemacht.,habe,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
-687,100,Sie _____ nichts getan.,hat,She has done nothing.,Sie hat nichts getan.
-688,100,Er _____ mir die Wahrheit gesagt.,hat,He told me the truth.,Er hat mir die Wahrheit gesagt.
-689,100,Wir _____ ins Kino gegangen.,sind,We went to the cinema.,Wir sind ins Kino gegangen.
-690,100,Ich _____ den Film gesehen.,habe,I saw the movie.,Ich habe den Film gesehen.
-691,100,Er _____ mir ein Buch gegeben.,hat,He gave me a book.,Er hat mir ein Buch gegeben.
-692,100,Sie _____ nach Hause gekommen.,ist,She has come home.,Sie ist nach Hause gekommen.
-693,100,Er _____ an Gott geglaubt.,hat,He believed in God.,Er hat an Gott geglaubt.
-694,100,Ein Unfall _____ passiert.,ist,An accident has happened.,Ein Unfall ist passiert.
-695,100,Wir _____ über das Wetter geredet.,haben,We talked about the weather.,Wir haben über das Wetter geredet.
-696,100,Ich _____ Musik gehört.,habe,I listened to music.,Ich habe Musik gehört.
-697,100,Er _____ seinen Schlüssel gefunden.,hat,He found his key.,Er hat seinen Schlüssel gefunden.
-698,100,Wir _____ zu Hause geblieben.,sind,We stayed at home.,Wir sind zu Hause geblieben.
-699,100,Ich _____ das Geld gebraucht.,habe,I needed the money.,Ich habe das Geld gebraucht.
-700,100,Er _____ sie immer geliebt.,hat,He always loved her.,Er hat sie immer geliebt.
-701,100,Ich _____ ein Geschenk gebracht.,habe,I brought a gift.,Ich habe ein Geschenk gebracht.
-702,100,Sie _____ lange vor der Tür gestanden.,hat,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
-703,100,Er _____ Peter geheissen.,hat,His name was Peter.,Er hat Peter geheissen.
-704,100,Ich _____ den Bus genommen.,habe,I took the bus.,Ich habe den Bus genommen.
-705,100,Er _____ mit mir gesprochen.,hat,He spoke with me.,Er hat mit mir gesprochen.
-706,100,Sie _____ ein Geschenk bekommen.,hat,She received a gift.,Sie hat ein Geschenk bekommen.
-707,100,Ich _____ meine Tasche vergessen.,habe,I forgot my bag.,Ich habe meine Tasche vergessen.
-708,100,Er _____ das Versprechen gehalten.,hat,He kept the promise.,Er hat das Versprechen gehalten.
-709,100,Wir _____ lange gewartet.,haben,We waited a long time.,Wir haben lange gewartet.
-710,100,Ich _____ ihn gut gekannt.,habe,I knew him well.,Ich habe ihn gut gekannt.
-711,100,Er _____ mich nicht verstanden.,hat,He didn't understand me.,Er hat mich nicht verstanden.
-712,100,Ich _____ an dich gedacht.,habe,I thought of you.,Ich habe an dich gedacht.
-713,100,Er _____ lange in Paris gelebt.,hat,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
-714,100,Ich _____ meine Uhr verloren.,habe,I lost my watch.,Ich habe meine Uhr verloren.
-715,100,Sie _____ im Krankenhaus gearbeitet.,hat,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
-716,100,Ich _____ eine Pizza gegessen.,habe,I ate a pizza.,Ich habe eine Pizza gegessen.
-717,100,Er _____ Fußball gespielt.,hat,He played football.,Er hat Fußball gespielt.
-718,100,Wir _____ nach München gefahren.,sind,We drove to Munich.,Wir sind nach München gefahren.
-719,100,Er _____ es versucht.,hat,He tried it.,Er hat es versucht.
-720,100,Sie _____ eine Geschichte erzählt.,hat,She told a story.,Sie hat eine Geschichte erzählt.
-721,100,Ich _____ ihn nach dem Weg gefragt.,habe,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
-722,100,Wir _____ uns im Café getroffen.,haben,We met at the café.,Wir haben uns im Café getroffen.
-723,100,Ich _____ auf gutes Wetter gehofft.,habe,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
-724,100,Er _____ seine Brille gesucht.,hat,He looked for his glasses.,Er hat seine Brille gesucht.
-725,100,Ich _____ ein Glas Wasser getrunken.,habe,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
-726,100,Ich _____ Deutsch gelernt.,habe,I have learned German.,Ich habe Deutsch gelernt.
-727,100,Er _____ mir das Bild gezeigt.,hat,He showed me the picture.,Er hat mir das Bild gezeigt.
-728,100,Ich _____ lange geschlafen.,habe,I slept for a long time.,Ich habe lange geschlafen.
-729,100,Sie _____ ein neues Auto gekauft.,hat,She bought a new car.,Sie hat ein neues Auto gekauft.
-730,100,Er _____ schnell nach Hause gelaufen.,ist,He ran home quickly.,Er ist schnell nach Hause gelaufen.
-731,100,Der Lehrer _____ die Aufgabe erklärt.,hat,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
-732,100,Ich _____ die Rechnung gezahlt.,habe,I paid the bill.,Ich habe die Rechnung gezahlt.
-733,100,Wir _____ im Meer geschwommen.,sind,We swam in the sea.,Wir sind im Meer geschwommen.
-734,100,Er _____ eine Suppe gekocht.,hat,He cooked a soup.,Er hat eine Suppe gekocht.
-735,100,Sie _____ ihre Hände gewaschen.,hat,She washed her hands.,Sie hat ihre Hände gewaschen.
-736,100,Ich _____ spät aufgewacht.,bin,I woke up late.,Ich bin spät aufgewacht.
-737,100,Er _____ in Berlin studiert.,hat,He studied in Berlin.,Er hat in Berlin studiert.
-738,100,Sie _____ ein Bild gezeichnet.,hat,She drew a picture.,Sie hat ein Bild gezeichnet.
-739,100,Er _____ um 7 Uhr aufgestanden.,ist,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
-740,100,Ich _____ die Frage wiederholt.,habe,I repeated the question.,Ich habe die Frage wiederholt.
-741,100,Er _____ den Text übersetzt.,hat,He translated the text.,Er hat den Text übersetzt.
-742,100,Wir _____ in München gewohnt.,haben,We lived in Munich.,Wir haben in München gewohnt.
-743,100,Sie _____ einen Brief geschrieben.,hat,She wrote a letter.,Sie hat einen Brief geschrieben.
-744,100,Ich _____ eine Jacke angezogen.,habe,I put on a jacket.,Ich habe eine Jacke angezogen.
-745,100,Er _____ aus der Wohnung ausgezogen.,ist,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
-746,100,Ich _____ das Wort buchstabiert.,habe,I spelled the word.,Ich habe das Wort buchstabiert.
-747,100,Sie _____ ein rotes Kleid getragen.,hat,She wore a red dress.,Sie hat ein rotes Kleid getragen.
-748,100,Ich _____ mich für Kunst interessiert.,habe,I was interested in art.,Ich habe mich für Kunst interessiert.
-749,100,Er _____ die Tür gezogen.,hat,He pulled the door.,Er hat die Tür gezogen.
-750,100,Ich _____ ein Buch gelesen.,habe,I read a book.,Ich habe ein Buch gelesen.
-751,100,Das hat viel _____.,bedeutet,That meant a lot.,Das hat viel bedeutet.
-752,100,Sie hat den Termin _____.,bestimmt,She set the appointment.,Sie hat den Termin bestimmt.
-753,100,Ich habe die Zeitung _____.,geholt,I fetched the newspaper.,Ich habe die Zeitung geholt.
-754,100,Der Computer hat _____.,funktioniert,The computer worked.,Der Computer hat funktioniert.
-755,100,Ich habe mich schlecht _____.,gefühlt,I felt bad.,Ich habe mich schlecht gefühlt.
-756,100,Das hat viel Geld _____.,gekostet,That cost a lot of money.,Das hat viel Geld gekostet.
-757,100,Ich habe mich daran _____.,erinnert,I remembered that.,Ich habe mich daran erinnert.
-758,100,Er hat sich _____.,verletzt,He got injured.,Er hat sich verletzt.
-759,100,Ich habe meine Mutter _____.,angerufen,I called my mother.,Ich habe meine Mutter angerufen.
-760,100,Er hat mit dem Rauchen _____.,aufgehört,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
-761,100,Er hat die Gruppe _____.,geführt,He led the group.,Er hat die Gruppe geführt.
-762,100,Wir haben mit der Arbeit _____.,angefangen,We started the work.,Wir haben mit der Arbeit angefangen.
-763,100,Er hat das Spiel _____.,gewonnen,He won the game.,Er hat das Spiel gewonnen.
-764,100,Es hat die ganze Nacht _____.,geregnet,It rained all night.,Es hat die ganze Nacht geregnet.
-765,100,Es hat gestern _____.,geschneit,It snowed yesterday.,Es hat gestern geschneit.
-766,100,Mein Kopf hat _____.,wehgetan,My head hurt.,Mein Kopf hat wehgetan.
-767,100,Wir haben lange _____.,diskutiert,We discussed for a long time.,Wir haben lange diskutiert.
-768,100,Sie hat die ganze Nacht _____.,getanzt,She danced all night.,Sie hat die ganze Nacht getanzt.
-769,100,Er hat die Tür _____.,geöffnet,He opened the door.,Er hat die Tür geöffnet.
-770,100,Ich habe die Getränke _____.,bezahlt,I paid for the drinks.,Ich habe die Getränke bezahlt.
-771,100,Das Konzert hat um 8 Uhr _____.,begonnen,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
-772,100,Ich habe das Werkzeug _____.,benutzt,I used the tool.,Ich habe das Werkzeug benutzt.
-773,100,Er hat mir eine E-Mail _____.,geschickt,He sent me an email.,Er hat mir eine E-Mail geschickt.
-774,100,Wir haben viel _____.,gelacht,We laughed a lot.,Wir haben viel gelacht.
-775,100,Die Sonne hat _____.,geschienen,The sun was shining.,Die Sonne hat geschienen.
-776,100,Ich habe meine Meinung _____.,geändert,I changed my opinion.,Ich habe meine Meinung geändert.
-777,100,Er hat mich um Hilfe _____.,gebeten,He asked me for help.,Er hat mich um Hilfe gebeten.
-778,100,Ich habe die Tür _____.,aufgemacht,I opened the door.,Ich habe die Tür aufgemacht.
-779,100,Sie hat ihr altes Auto _____.,verkauft,She sold her old car.,Sie hat ihr altes Auto verkauft.
-780,100,Das Buch hat mir _____.,gehört,The book belonged to me.,Das Buch hat mir gehört.
-781,100,Ich habe lange auf dem Stuhl _____.,gesessen,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
-782,100,Ich habe die Vase auf den Tisch _____.,gestellt,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
-783,100,Ich habe mich auf den Stuhl _____.,gesetzt,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
-784,100,Das Buch hat auf dem Tisch _____.,gelegen,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
-785,100,Ich habe ihm für seine Hilfe _____.,gedankt,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
-786,100,Ich habe das Handy auf den Tisch _____.,gelegt,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
-787,100,Er hat aus dem Fenster _____.,geschaut,He looked out of the window.,Er hat aus dem Fenster geschaut.
-788,100,Sie hat ein schönes Lied _____.,gesungen,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
-789,100,Wir haben unsere Großeltern _____.,besucht,We visited our grandparents.,Wir haben unsere Großeltern besucht.
-790,100,Ich habe mich über das Geschenk _____.,gefreut,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
-791,100,Er hat das Fenster _____.,geschlossen,He closed the window.,Er hat das Fenster geschlossen.
-792,100,Ich habe ihn zur Party _____.,eingeladen,I invited him to the party.,Ich habe ihn zur Party eingeladen.
-793,100,Der Film hat mir _____.,gefallen,I liked the movie.,Der Film hat mir gefallen.
-794,100,Er hat viel Geld _____.,verdient,He earned a lot of money.,Er hat viel Geld verdient.
-795,100,Ich habe mir ein neues Fahrrad _____.,gewünscht,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
-796,100,Die Schuhe haben mir nicht _____.,gepasst,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
-797,100,Sie hat ihr Leben _____.,verändert,She changed her life.,Sie hat ihr Leben verändert.
-798,100,Der Hund ist mir _____.,gefolgt,The dog followed me.,Der Hund ist mir gefolgt.
-799,100,Ich habe mir einen Film _____.,angesehen,I watched a movie.,Ich habe mir einen Film angesehen.
-800,100,Er hat müde _____.,ausgesehen,He looked tired.,Er hat müde ausgesehen.
-801,100,Er hat ein großes Haus _____.,besessen,He owned a big house.,Er hat ein großes Haus besessen.
-802,100,Ich habe das neue Gericht _____.,probiert,I tried the new dish.,Ich habe das neue Gericht probiert.
-803,100,Ich habe von einem Urlaub _____.,geträumt,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
-804,100,Er hat eine Pizza _____.,bestellt,He ordered a pizza.,Er hat eine Pizza bestellt.
-805,100,Wir sind nach Italien _____.,gereist,We traveled to Italy.,Wir sind nach Italien gereist.
-806,100,Wir haben seinen Geburtstag _____.,gefeiert,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
-807,100,Sie hat auf meine Frage _____.,geantwortet,She answered my question.,Sie hat auf meine Frage geantwortet.
-808,100,Er hat den besten Kandidaten _____.,gewählt,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
-809,100,Wir sind gestern Abend _____.,ausgegangen,We went out last night.,Wir sind gestern Abend ausgegangen.
-810,100,Ich habe das Geld _____.,gezählt,I counted the money.,Ich habe das Geld gezählt.
-811,100,Er hat den ganzen Abend _____.,ferngesehen,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
-812,100,Wir sind pünktlich _____.,angekommen,We arrived on time.,Wir sind pünktlich angekommen.
-813,100,Der Film hat zwei Stunden _____.,gedauert,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
-814,100,Ich habe viele neue Leute _____.,kennengelernt,I met many new people.,Ich habe viele neue Leute kennengelernt.
-815,100,Er hat viel Sport _____.,getrieben,He did a lot of sports.,Er hat viel Sport getrieben.
-816,100,Sie hat viele Schüler _____.,unterrichtet,She taught many students.,Sie hat viele Schüler unterrichtet.
-817,100,Er hat dem Vorschlag _____.,zugestimmt,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
-818,100,Ich habe mich für den Kurs _____.,angemeldet,I registered for the course.,Ich habe mich für den Kurs angemeldet.
-819,100,Ich habe mein Handy zu Hause _____.,gelassen,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
-820,100,Er hat das Haus _____.,verlassen,He left the house.,Er hat das Haus verlassen.
-821,100,Ich habe ihm bei der Arbeit _____.,geholfen,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
-822,100,Er hat den Tisch _____.,bewegt,He moved the table.,Er hat den Tisch bewegt.
-823,100,Ich habe ihm immer _____.,vertraut,I always trusted him.,Ich habe ihm immer vertraut.
-824,100,"Er hat mir geholfen, wie er es _____ hat.",versprochen,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
-825,100,Das Bild hat an der Wand _____.,gehangen,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
-826,100,Das _____ viel bedeutet.,hat,That meant a lot.,Das hat viel bedeutet.
-827,100,Sie _____ den Termin bestimmt.,hat,She set the appointment.,Sie hat den Termin bestimmt.
-828,100,Ich _____ die Zeitung geholt.,habe,I fetched the newspaper.,Ich habe die Zeitung geholt.
-829,100,Der Computer _____ funktioniert.,hat,The computer worked.,Der Computer hat funktioniert.
-830,100,Ich _____ mich schlecht gefühlt.,habe,I felt bad.,Ich habe mich schlecht gefühlt.
-831,100,Das _____ viel Geld gekostet.,hat,That cost a lot of money.,Das hat viel Geld gekostet.
-832,100,Ich _____ mich daran erinnert.,habe,I remembered that.,Ich habe mich daran erinnert.
-833,100,Er _____ sich verletzt.,hat,He got injured.,Er hat sich verletzt.
-834,100,Ich _____ meine Mutter angerufen.,habe,I called my mother.,Ich habe meine Mutter angerufen.
-835,100,Er _____ mit dem Rauchen aufgehört.,hat,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
-836,100,Er _____ die Gruppe geführt.,hat,He led the group.,Er hat die Gruppe geführt.
-837,100,Wir _____ mit der Arbeit angefangen.,haben,We started the work.,Wir haben mit der Arbeit angefangen.
-838,100,Er _____ das Spiel gewonnen.,hat,He won the game.,Er hat das Spiel gewonnen.
-839,100,Es _____ die ganze Nacht geregnet.,hat,It rained all night.,Es hat die ganze Nacht geregnet.
-840,100,Es _____ gestern geschneit.,hat,It snowed yesterday.,Es hat gestern geschneit.
-841,100,Mein Kopf _____ wehgetan.,hat,My head hurt.,Mein Kopf hat wehgetan.
-842,100,Wir _____ lange diskutiert.,haben,We discussed for a long time.,Wir haben lange diskutiert.
-843,100,Sie _____ die ganze Nacht getanzt.,hat,She danced all night.,Sie hat die ganze Nacht getanzt.
-844,100,Er _____ die Tür geöffnet.,hat,He opened the door.,Er hat die Tür geöffnet.
-845,100,Ich _____ die Getränke bezahlt.,habe,I paid for the drinks.,Ich habe die Getränke bezahlt.
-846,100,Das Konzert _____ um 8 Uhr begonnen.,hat,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
-847,100,Ich _____ das Werkzeug benutzt.,habe,I used the tool.,Ich habe das Werkzeug benutzt.
-848,100,Er _____ mir eine E-Mail geschickt.,hat,He sent me an email.,Er hat mir eine E-Mail geschickt.
-849,100,Wir _____ viel gelacht.,haben,We laughed a lot.,Wir haben viel gelacht.
-850,100,Die Sonne _____ geschienen.,hat,The sun was shining.,Die Sonne hat geschienen.
-851,100,Ich _____ meine Meinung geändert.,habe,I changed my opinion.,Ich habe meine Meinung geändert.
-852,100,Er _____ mich um Hilfe gebeten.,hat,He asked me for help.,Er hat mich um Hilfe gebeten.
-853,100,Ich _____ die Tür aufgemacht.,habe,I opened the door.,Ich habe die Tür aufgemacht.
-854,100,Sie _____ ihr altes Auto verkauft.,hat,She sold her old car.,Sie hat ihr altes Auto verkauft.
-855,100,Das Buch _____ mir gehört.,hat,The book belonged to me.,Das Buch hat mir gehört.
-856,100,Ich _____ lange auf dem Stuhl gesessen.,habe,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
-857,100,Ich _____ die Vase auf den Tisch gestellt.,habe,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
-858,100,Ich _____ mich auf den Stuhl gesetzt.,habe,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
-859,100,Das Buch _____ auf dem Tisch gelegen.,hat,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
-860,100,Ich _____ ihm für seine Hilfe gedankt.,habe,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
-861,100,Ich _____ das Handy auf den Tisch gelegt.,habe,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
-862,100,Er _____ aus dem Fenster geschaut.,hat,He looked out of the window.,Er hat aus dem Fenster geschaut.
-863,100,Sie _____ ein schönes Lied gesungen.,hat,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
-864,100,Wir _____ unsere Großeltern besucht.,haben,We visited our grandparents.,Wir haben unsere Großeltern besucht.
-865,100,Ich _____ mich über das Geschenk gefreut.,habe,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
-866,100,Er _____ das Fenster geschlossen.,hat,He closed the window.,Er hat das Fenster geschlossen.
-867,100,Ich _____ ihn zur Party eingeladen.,habe,I invited him to the party.,Ich habe ihn zur Party eingeladen.
-868,100,Der Film _____ mir gefallen.,hat,I liked the movie.,Der Film hat mir gefallen.
-869,100,Er _____ viel Geld verdient.,hat,He earned a lot of money.,Er hat viel Geld verdient.
-870,100,Ich _____ mir ein neues Fahrrad gewünscht.,habe,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
-871,100,Die Schuhe _____ mir nicht gepasst.,haben,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
-872,100,Sie _____ ihr Leben verändert.,hat,She changed her life.,Sie hat ihr Leben verändert.
-873,100,Der Hund _____ mir gefolgt.,ist,The dog followed me.,Der Hund ist mir gefolgt.
-874,100,Ich _____ mir einen Film angesehen.,habe,I watched a movie.,Ich habe mir einen Film angesehen.
-875,100,Er _____ müde ausgesehen.,hat,He looked tired.,Er hat müde ausgesehen.
-876,100,Er _____ ein großes Haus besessen.,hat,He owned a big house.,Er hat ein großes Haus besessen.
-877,100,Ich _____ das neue Gericht probiert.,habe,I tried the new dish.,Ich habe das neue Gericht probiert.
-878,100,Ich _____ von einem Urlaub geträumt.,habe,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
-879,100,Er _____ eine Pizza bestellt.,hat,He ordered a pizza.,Er hat eine Pizza bestellt.
-880,100,Wir _____ nach Italien gereist.,sind,We traveled to Italy.,Wir sind nach Italien gereist.
-881,100,Wir _____ seinen Geburtstag gefeiert.,haben,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
-882,100,Sie _____ auf meine Frage geantwortet.,hat,She answered my question.,Sie hat auf meine Frage geantwortet.
-883,100,Er _____ den besten Kandidaten gewählt.,hat,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
-884,100,Wir _____ gestern Abend ausgegangen.,sind,We went out last night.,Wir sind gestern Abend ausgegangen.
-885,100,Ich _____ das Geld gezählt.,habe,I counted the money.,Ich habe das Geld gezählt.
-886,100,Er _____ den ganzen Abend ferngesehen.,hat,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
-887,100,Wir _____ pünktlich angekommen.,sind,We arrived on time.,Wir sind pünktlich angekommen.
-888,100,Der Film _____ zwei Stunden gedauert.,hat,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
-889,100,Ich _____ viele neue Leute kennengelernt.,habe,I met many new people.,Ich habe viele neue Leute kennengelernt.
-890,100,Er _____ viel Sport getrieben.,hat,He did a lot of sports.,Er hat viel Sport getrieben.
-891,100,Sie _____ viele Schüler unterrichtet.,hat,She taught many students.,Sie hat viele Schüler unterrichtet.
-892,100,Er _____ dem Vorschlag zugestimmt.,hat,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
-893,100,Ich _____ mich für den Kurs angemeldet.,habe,I registered for the course.,Ich habe mich für den Kurs angemeldet.
-894,100,Ich _____ mein Handy zu Hause gelassen.,habe,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
-895,100,Er _____ das Haus verlassen.,hat,He left the house.,Er hat das Haus verlassen.
-896,100,Ich _____ ihm bei der Arbeit geholfen.,habe,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
-897,100,Er _____ den Tisch bewegt.,hat,He moved the table.,Er hat den Tisch bewegt.
-898,100,Ich _____ ihm immer vertraut.,habe,I always trusted him.,Ich habe ihm immer vertraut.
-899,100,"Er _____ mir geholfen, wie er es versprochen _____.",hat,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
-900,100,Das Bild _____ an der Wand gehangen.,hat,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
+641,17,bekämpfen,bekämpft,to fight against something,
+642,17,aktivieren,aktiviert,"to activate, to enable",
+643,17,verhandeln,verhandelt,to negotiate,
+644,17,verhalten,verhalten,"to behave (refl.), to act (refl.), to press (coll.)",
+645,17,stürzen,gestürzt,"to fall, to rush, to throw, to overturn, to overthrow something",
+646,17,anschliessen,angeschlossen,"to join, to attach, to affiliate, to connect",
+647,17,bewirken,bewirkt,"to bring about, to cause, to effect",
+648,17,einfügen,eingefügt,"to insert, to infix, to conform",
+649,17,erfordern,erfordert,"to require, to demand, to necessitate",
+650,17,ergreifen,ergriffen,"to seize, to grasp, to take hold of",
+651,17,erstrecken,erstreckt,"to extend, to span, to bestride",
+652,17,fortsetzen,fortgesetzt,"to continue, to carry on, to extend, to proceed",
+653,17,kopieren,kopiert,"to copy, to duplicate",
+654,17,senken,gesenkt,"to lower, to sink, to drop, to reduce",
+655,17,überwachen,überwacht,"to keep under surveillance, to monitor, to observe, to oversee",
+656,17,versehen,versehen,"to provide, to equip, to supply",
+657,17,vorlegen,vorgelegt,"to present, to submit, to bring forward",
+658,17,winken,gewinkt,to wave,
+659,17,zuordnen,zugeordnet,"to assign, to allocate",
+660,17,ermitteln,ermittelt,"to determine, to ascertain",
+661,17,klicken,geklickt,to click,
+662,17,verteidigen,verteidigt,to defend,
+663,17,eingehen,eingegangen,"to shrink (textile), to wither/die (plants, animals), to assume something",
+664,17,betreffen,betroffen,"to concern, to affect",
+665,17,anlegen,angelegt,"to create, to invest",
+666,17,betrachten,betrachtet,"to view, to observe",
+667,17,beziehen,bezogen,"to refer, to obtain",
+668,17,erfassen,erfasst,"to record, to capture",
+669,17,umfassen,umfasst,"to include, to comprise",
+670,17,unterliegen,unterlegen,"to be subject to, to undergo",
+671,17,vorliegen,vorgelegen,"to exist, to be available",
+672,17,vornehmen,vorgenommen,"to undertake, to carry out",
+673,17,basieren,basiert,to base,
+674,17,genügen,genügt,"to suffice, to satisfy",
+675,17,definieren,definiert,to define,
+676,17,berechtigen,berechtigt,"to authorize, to entitle to, to empower",
+677,17,parken,geparkt,to park,
+678,17,joggen,gejoggt,to jog,
+679,17,frühstücken,gefrühstückt,to have breakfast,
+680,17,packen,gepackt,"to pack, to grab, to manage",
+681,18,biegen,gebogen,"to turn, to bend",
+682,18,vorkommen,vorgekommen,"to occur, to happen, to advance",
+683,18,ablaufen,abgelaufen,"to expire, to run out, to discharge",
+684,18,anführen,angeführt,"to cite, to lead, to quote",
+685,18,ausdrucken,ausgedruckt,"to print, to print out, to print off",
+686,18,ausmachen,ausgemacht,"to arrange, to constitute, to represent, to settle",
+687,18,eintragen,eingetragen,"to register, to enter, to record, to enrol",
+688,18,erarbeiten,erarbeitet,"to develop, to elaborate, to work out, to acquire",
+689,18,notieren,notiert,"to note, to quote",
+690,18,renovieren,renoviert,"to refurbish, to renovate",
+691,18,streiken,gestreikt,"to strike, to be on strike",
+692,18,verschreiben,verschrieben,"to prescribe, to commit oneself to, to misspell by accident",
+693,18,vertreiben,vertrieben,"to expel, to dislodge, to displace",
+694,18,auspacken,ausgepackt,"to unpack, to unwrap, to blow the whistle on",
+695,18,existieren,existiert,to exist,
+696,18,bewahren,bewahrt,"to keep, to preserve (to maintain the condition of)",
+697,18,verzeihen,verziehen,"to forgive, to pardon, to excuse",
+698,18,bestrafen,bestraft,to punish,
+699,18,stinken,gestunken,to stink,
+700,18,berühren,berührt,to touch,
+701,18,anstellen,angestellt,"to queue (refl.), to employ someone, to get into mischief",
+702,18,auftauchen,aufgetaucht,"to arise, to surface, to turn up",
+703,18,einfallen,eingefallen,"to collapse, to come to mind",
+704,18,aussuchen,ausgesucht,"to select, to choose, to pick",
+705,18,streichen,gestrichen,"to stroke, to cancel, to spread, to rub, to paint",
+706,18,festhalten,festgehalten,"to hold someone/something, to retain something, to record something, to detain",
+707,18,bedrohen,bedroht,"to threaten, to menace",
+708,18,weitermachen,weitergemacht,"go on, keep going, continue to do something",
+709,18,abbilden,abgebildet,"to depict, to map, to illustrate",
+710,18,klagen,geklagt,"to complain, to lament, to sue",
+711,18,kleben,geklebt,"to stick, to adhere, to bond, to glue",
+712,18,klopfen,geklopft,"to knock, to tap (food)",
+713,18,stechen,gestochen,"to sting, to prick, to puncture, to pierce",
+714,18,ableiten,abgeleitet,"to derive, to deduce",
+715,18,abstimmen,abgestimmt,"to coordinate, to vote, to adjust",
+716,18,anregen,angeregt,"to encourage, to stimulate, to excite, to inspire",
+717,18,anschaffen,angeschafft,"to purchase, to acquire, to procure",
+718,18,aufbrechen,aufgebrochen,"to leave, to set off, to start, to break, to burst",
+719,18,auffordern,aufgefordert,"to request, to invite, to ask",
+720,18,aufhalten,aufgehalten,"to stop, to stay, to delay",
+721,100,Ich bin in Berlin _____.,gewesen,I have been to Berlin.,Ich bin in Berlin gewesen.
+722,100,Er hat viel Glück _____.,gehabt,He has had a lot of luck.,Er hat viel Glück gehabt.
+723,100,Sie ist Lehrerin _____.,geworden,She has become a teacher.,Sie ist Lehrerin geworden.
+724,100,Ich habe das nicht _____.,gekonnt,I was not able to do that.,Ich habe das nicht gekonnt.
+725,100,Er hat das nie _____.,gewollt,He never wanted that.,Er hat das nie gewollt.
+726,100,Ich habe früher viel lernen _____.,gemusst,I had to study a lot before.,Ich habe früher viel lernen gemusst.
+727,100,Er hat nach Hause gehen _____.,gesollt,He was supposed to go home.,Er hat nach Hause gehen gesollt.
+728,100,Ich habe den Film _____.,gemocht,I liked the movie.,Ich habe den Film gemocht.
+729,100,Wir haben lange bleiben _____.,gedurft,We were allowed to stay long.,Wir haben lange bleiben gedurft.
+730,100,Er hat es schon _____.,gewusst,He already knew it.,Er hat es schon gewusst.
+731,100,Ich habe meine Hausaufgaben _____.,gemacht,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
+732,100,Sie hat nichts _____.,getan,She has done nothing.,Sie hat nichts getan.
+733,100,Er hat mir die Wahrheit _____.,gesagt,He told me the truth.,Er hat mir die Wahrheit gesagt.
+734,100,Wir sind ins Kino _____.,gegangen,We went to the cinema.,Wir sind ins Kino gegangen.
+735,100,Ich habe den Film _____.,gesehen,I saw the movie.,Ich habe den Film gesehen.
+736,100,Er hat mir ein Buch _____.,gegeben,He gave me a book.,Er hat mir ein Buch gegeben.
+737,100,Sie ist nach Hause _____.,gekommen,She has come home.,Sie ist nach Hause gekommen.
+738,100,Er hat an Gott _____.,geglaubt,He believed in God.,Er hat an Gott geglaubt.
+739,100,Ein Unfall ist _____.,passiert,An accident has happened.,Ein Unfall ist passiert.
+740,100,Wir haben über das Wetter _____.,geredet,We talked about the weather.,Wir haben über das Wetter geredet.
+741,100,Ich habe Musik _____.,gehört,I listened to music.,Ich habe Musik gehört.
+742,100,Er hat seinen Schlüssel _____.,gefunden,He found his key.,Er hat seinen Schlüssel gefunden.
+743,100,Wir sind zu Hause _____.,geblieben,We stayed at home.,Wir sind zu Hause geblieben.
+744,100,Ich habe das Geld _____.,gebraucht,I needed the money.,Ich habe das Geld gebraucht.
+745,100,Er hat sie immer _____.,geliebt,He always loved her.,Er hat sie immer geliebt.
+746,100,Ich habe ein Geschenk _____.,gebracht,I brought a gift.,Ich habe ein Geschenk gebracht.
+747,100,Sie hat lange vor der Tür _____.,gestanden,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
+748,100,Er hat Peter _____.,geheissen,His name was Peter.,Er hat Peter geheissen.
+749,100,Ich habe den Bus _____.,genommen,I took the bus.,Ich habe den Bus genommen.
+750,100,Er hat mit mir _____.,gesprochen,He spoke with me.,Er hat mit mir gesprochen.
+751,100,Sie hat ein Geschenk _____.,bekommen,She received a gift.,Sie hat ein Geschenk bekommen.
+752,100,Ich habe meine Tasche _____.,vergessen,I forgot my bag.,Ich habe meine Tasche vergessen.
+753,100,Er hat das Versprechen _____.,gehalten,He kept the promise.,Er hat das Versprechen gehalten.
+754,100,Wir haben lange _____.,gewartet,We waited a long time.,Wir haben lange gewartet.
+755,100,Ich habe ihn gut _____.,gekannt,I knew him well.,Ich habe ihn gut gekannt.
+756,100,Er hat mich nicht _____.,verstanden,He didn't understand me.,Er hat mich nicht verstanden.
+757,100,Ich habe an dich _____.,gedacht,I thought of you.,Ich habe an dich gedacht.
+758,100,Er hat lange in Paris _____.,gelebt,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
+759,100,Ich habe meine Uhr _____.,verloren,I lost my watch.,Ich habe meine Uhr verloren.
+760,100,Sie hat im Krankenhaus _____.,gearbeitet,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
+761,100,Ich habe eine Pizza _____.,gegessen,I ate a pizza.,Ich habe eine Pizza gegessen.
+762,100,Er hat Fußball _____.,gespielt,He played football.,Er hat Fußball gespielt.
+763,100,Wir sind nach München _____.,gefahren,We drove to Munich.,Wir sind nach München gefahren.
+764,100,Er hat es _____.,versucht,He tried it.,Er hat es versucht.
+765,100,Sie hat eine Geschichte _____.,erzählt,She told a story.,Sie hat eine Geschichte erzählt.
+766,100,Ich habe ihn nach dem Weg _____.,gefragt,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
+767,100,Wir haben uns im Café _____.,getroffen,We met at the café.,Wir haben uns im Café getroffen.
+768,100,Ich habe auf gutes Wetter _____.,gehofft,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
+769,100,Er hat seine Brille _____.,gesucht,He looked for his glasses.,Er hat seine Brille gesucht.
+770,100,Ich habe ein Glas Wasser _____.,getrunken,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
+771,100,Ich habe Deutsch _____.,gelernt,I have learned German.,Ich habe Deutsch gelernt.
+772,100,Er hat mir das Bild _____.,gezeigt,He showed me the picture.,Er hat mir das Bild gezeigt.
+773,100,Ich habe lange _____.,geschlafen,I slept for a long time.,Ich habe lange geschlafen.
+774,100,Sie hat ein neues Auto _____.,gekauft,She bought a new car.,Sie hat ein neues Auto gekauft.
+775,100,Er ist schnell nach Hause _____.,gelaufen,He ran home quickly.,Er ist schnell nach Hause gelaufen.
+776,100,Der Lehrer hat die Aufgabe _____.,erklärt,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
+777,100,Ich habe die Rechnung _____.,gezahlt,I paid the bill.,Ich habe die Rechnung gezahlt.
+778,100,Wir sind im Meer _____.,geschwommen,We swam in the sea.,Wir sind im Meer geschwommen.
+779,100,Er hat eine Suppe _____.,gekocht,He cooked a soup.,Er hat eine Suppe gekocht.
+780,100,Sie hat ihre Hände _____.,gewaschen,She washed her hands.,Sie hat ihre Hände gewaschen.
+781,100,Ich bin spät _____.,aufgewacht,I woke up late.,Ich bin spät aufgewacht.
+782,100,Er hat in Berlin _____.,studiert,He studied in Berlin.,Er hat in Berlin studiert.
+783,100,Sie hat ein Bild _____.,gezeichnet,She drew a picture.,Sie hat ein Bild gezeichnet.
+784,100,Er ist um 7 Uhr _____.,aufgestanden,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
+785,100,Ich habe die Frage _____.,wiederholt,I repeated the question.,Ich habe die Frage wiederholt.
+786,100,Er hat den Text _____.,übersetzt,He translated the text.,Er hat den Text übersetzt.
+787,100,Wir haben in München _____.,gewohnt,We lived in Munich.,Wir haben in München gewohnt.
+788,100,Sie hat einen Brief _____.,geschrieben,She wrote a letter.,Sie hat einen Brief geschrieben.
+789,100,Ich habe eine Jacke _____.,angezogen,I put on a jacket.,Ich habe eine Jacke angezogen.
+790,100,Er ist aus der Wohnung _____.,ausgezogen,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
+791,100,Ich habe das Wort _____.,buchstabiert,I spelled the word.,Ich habe das Wort buchstabiert.
+792,100,Sie hat ein rotes Kleid _____.,getragen,She wore a red dress.,Sie hat ein rotes Kleid getragen.
+793,100,Ich habe mich für Kunst _____.,interessiert,I was interested in art.,Ich habe mich für Kunst interessiert.
+794,100,Er hat die Tür _____.,gezogen,He pulled the door.,Er hat die Tür gezogen.
+795,100,Ich habe ein Buch _____.,gelesen,I read a book.,Ich habe ein Buch gelesen.
+796,100,Ich _____ in Berlin gewesen.,bin,I have been to Berlin.,Ich bin in Berlin gewesen.
+797,100,Er _____ viel Glück gehabt.,hat,He has had a lot of luck.,Er hat viel Glück gehabt.
+798,100,Sie _____ Lehrerin geworden.,ist,She has become a teacher.,Sie ist Lehrerin geworden.
+799,100,Ich _____ das nicht gekonnt.,habe,I was not able to do that.,Ich habe das nicht gekonnt.
+800,100,Er _____ das nie gewollt.,hat,He never wanted that.,Er hat das nie gewollt.
+801,100,Ich _____ früher viel lernen gemusst.,habe,I had to study a lot before.,Ich habe früher viel lernen gemusst.
+802,100,Er _____ nach Hause gehen gesollt.,hat,He was supposed to go home.,Er hat nach Hause gehen gesollt.
+803,100,Ich _____ den Film gemocht.,habe,I liked the movie.,Ich habe den Film gemocht.
+804,100,Wir _____ lange bleiben gedurft.,haben,We were allowed to stay long.,Wir haben lange bleiben gedurft.
+805,100,Er _____ es schon gewusst.,hat,He already knew it.,Er hat es schon gewusst.
+806,100,Ich _____ meine Hausaufgaben gemacht.,habe,I have done my homework.,Ich habe meine Hausaufgaben gemacht.
+807,100,Sie _____ nichts getan.,hat,She has done nothing.,Sie hat nichts getan.
+808,100,Er _____ mir die Wahrheit gesagt.,hat,He told me the truth.,Er hat mir die Wahrheit gesagt.
+809,100,Wir _____ ins Kino gegangen.,sind,We went to the cinema.,Wir sind ins Kino gegangen.
+810,100,Ich _____ den Film gesehen.,habe,I saw the movie.,Ich habe den Film gesehen.
+811,100,Er _____ mir ein Buch gegeben.,hat,He gave me a book.,Er hat mir ein Buch gegeben.
+812,100,Sie _____ nach Hause gekommen.,ist,She has come home.,Sie ist nach Hause gekommen.
+813,100,Er _____ an Gott geglaubt.,hat,He believed in God.,Er hat an Gott geglaubt.
+814,100,Ein Unfall _____ passiert.,ist,An accident has happened.,Ein Unfall ist passiert.
+815,100,Wir _____ über das Wetter geredet.,haben,We talked about the weather.,Wir haben über das Wetter geredet.
+816,100,Ich _____ Musik gehört.,habe,I listened to music.,Ich habe Musik gehört.
+817,100,Er _____ seinen Schlüssel gefunden.,hat,He found his key.,Er hat seinen Schlüssel gefunden.
+818,100,Wir _____ zu Hause geblieben.,sind,We stayed at home.,Wir sind zu Hause geblieben.
+819,100,Ich _____ das Geld gebraucht.,habe,I needed the money.,Ich habe das Geld gebraucht.
+820,100,Er _____ sie immer geliebt.,hat,He always loved her.,Er hat sie immer geliebt.
+821,100,Ich _____ ein Geschenk gebracht.,habe,I brought a gift.,Ich habe ein Geschenk gebracht.
+822,100,Sie _____ lange vor der Tür gestanden.,hat,She stood in front of the door for a long time.,Sie hat lange vor der Tür gestanden.
+823,100,Er _____ Peter geheissen.,hat,His name was Peter.,Er hat Peter geheissen.
+824,100,Ich _____ den Bus genommen.,habe,I took the bus.,Ich habe den Bus genommen.
+825,100,Er _____ mit mir gesprochen.,hat,He spoke with me.,Er hat mit mir gesprochen.
+826,100,Sie _____ ein Geschenk bekommen.,hat,She received a gift.,Sie hat ein Geschenk bekommen.
+827,100,Ich _____ meine Tasche vergessen.,habe,I forgot my bag.,Ich habe meine Tasche vergessen.
+828,100,Er _____ das Versprechen gehalten.,hat,He kept the promise.,Er hat das Versprechen gehalten.
+829,100,Wir _____ lange gewartet.,haben,We waited a long time.,Wir haben lange gewartet.
+830,100,Ich _____ ihn gut gekannt.,habe,I knew him well.,Ich habe ihn gut gekannt.
+831,100,Er _____ mich nicht verstanden.,hat,He didn't understand me.,Er hat mich nicht verstanden.
+832,100,Ich _____ an dich gedacht.,habe,I thought of you.,Ich habe an dich gedacht.
+833,100,Er _____ lange in Paris gelebt.,hat,He lived in Paris for a long time.,Er hat lange in Paris gelebt.
+834,100,Ich _____ meine Uhr verloren.,habe,I lost my watch.,Ich habe meine Uhr verloren.
+835,100,Sie _____ im Krankenhaus gearbeitet.,hat,She worked in a hospital.,Sie hat im Krankenhaus gearbeitet.
+836,100,Ich _____ eine Pizza gegessen.,habe,I ate a pizza.,Ich habe eine Pizza gegessen.
+837,100,Er _____ Fußball gespielt.,hat,He played football.,Er hat Fußball gespielt.
+838,100,Wir _____ nach München gefahren.,sind,We drove to Munich.,Wir sind nach München gefahren.
+839,100,Er _____ es versucht.,hat,He tried it.,Er hat es versucht.
+840,100,Sie _____ eine Geschichte erzählt.,hat,She told a story.,Sie hat eine Geschichte erzählt.
+841,100,Ich _____ ihn nach dem Weg gefragt.,habe,I asked him for directions.,Ich habe ihn nach dem Weg gefragt.
+842,100,Wir _____ uns im Café getroffen.,haben,We met at the café.,Wir haben uns im Café getroffen.
+843,100,Ich _____ auf gutes Wetter gehofft.,habe,I hoped for good weather.,Ich habe auf gutes Wetter gehofft.
+844,100,Er _____ seine Brille gesucht.,hat,He looked for his glasses.,Er hat seine Brille gesucht.
+845,100,Ich _____ ein Glas Wasser getrunken.,habe,I drank a glass of water.,Ich habe ein Glas Wasser getrunken.
+846,100,Ich _____ Deutsch gelernt.,habe,I have learned German.,Ich habe Deutsch gelernt.
+847,100,Er _____ mir das Bild gezeigt.,hat,He showed me the picture.,Er hat mir das Bild gezeigt.
+848,100,Ich _____ lange geschlafen.,habe,I slept for a long time.,Ich habe lange geschlafen.
+849,100,Sie _____ ein neues Auto gekauft.,hat,She bought a new car.,Sie hat ein neues Auto gekauft.
+850,100,Er _____ schnell nach Hause gelaufen.,ist,He ran home quickly.,Er ist schnell nach Hause gelaufen.
+851,100,Der Lehrer _____ die Aufgabe erklärt.,hat,The teacher explained the task.,Der Lehrer hat die Aufgabe erklärt.
+852,100,Ich _____ die Rechnung gezahlt.,habe,I paid the bill.,Ich habe die Rechnung gezahlt.
+853,100,Wir _____ im Meer geschwommen.,sind,We swam in the sea.,Wir sind im Meer geschwommen.
+854,100,Er _____ eine Suppe gekocht.,hat,He cooked a soup.,Er hat eine Suppe gekocht.
+855,100,Sie _____ ihre Hände gewaschen.,hat,She washed her hands.,Sie hat ihre Hände gewaschen.
+856,100,Ich _____ spät aufgewacht.,bin,I woke up late.,Ich bin spät aufgewacht.
+857,100,Er _____ in Berlin studiert.,hat,He studied in Berlin.,Er hat in Berlin studiert.
+858,100,Sie _____ ein Bild gezeichnet.,hat,She drew a picture.,Sie hat ein Bild gezeichnet.
+859,100,Er _____ um 7 Uhr aufgestanden.,ist,He got up at 7 o'clock.,Er ist um 7 Uhr aufgestanden.
+860,100,Ich _____ die Frage wiederholt.,habe,I repeated the question.,Ich habe die Frage wiederholt.
+861,100,Er _____ den Text übersetzt.,hat,He translated the text.,Er hat den Text übersetzt.
+862,100,Wir _____ in München gewohnt.,haben,We lived in Munich.,Wir haben in München gewohnt.
+863,100,Sie _____ einen Brief geschrieben.,hat,She wrote a letter.,Sie hat einen Brief geschrieben.
+864,100,Ich _____ eine Jacke angezogen.,habe,I put on a jacket.,Ich habe eine Jacke angezogen.
+865,100,Er _____ aus der Wohnung ausgezogen.,ist,He moved out of the apartment.,Er ist aus der Wohnung ausgezogen.
+866,100,Ich _____ das Wort buchstabiert.,habe,I spelled the word.,Ich habe das Wort buchstabiert.
+867,100,Sie _____ ein rotes Kleid getragen.,hat,She wore a red dress.,Sie hat ein rotes Kleid getragen.
+868,100,Ich _____ mich für Kunst interessiert.,habe,I was interested in art.,Ich habe mich für Kunst interessiert.
+869,100,Er _____ die Tür gezogen.,hat,He pulled the door.,Er hat die Tür gezogen.
+870,100,Ich _____ ein Buch gelesen.,habe,I read a book.,Ich habe ein Buch gelesen.
+871,100,Das hat viel _____.,bedeutet,That meant a lot.,Das hat viel bedeutet.
+872,100,Sie hat den Termin _____.,bestimmt,She set the appointment.,Sie hat den Termin bestimmt.
+873,100,Ich habe die Zeitung _____.,geholt,I fetched the newspaper.,Ich habe die Zeitung geholt.
+874,100,Der Computer hat _____.,funktioniert,The computer worked.,Der Computer hat funktioniert.
+875,100,Ich habe mich schlecht _____.,gefühlt,I felt bad.,Ich habe mich schlecht gefühlt.
+876,100,Das hat viel Geld _____.,gekostet,That cost a lot of money.,Das hat viel Geld gekostet.
+877,100,Ich habe mich daran _____.,erinnert,I remembered that.,Ich habe mich daran erinnert.
+878,100,Er hat sich _____.,verletzt,He got injured.,Er hat sich verletzt.
+879,100,Ich habe meine Mutter _____.,angerufen,I called my mother.,Ich habe meine Mutter angerufen.
+880,100,Er hat mit dem Rauchen _____.,aufgehört,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
+881,100,Er hat die Gruppe _____.,geführt,He led the group.,Er hat die Gruppe geführt.
+882,100,Wir haben mit der Arbeit _____.,angefangen,We started the work.,Wir haben mit der Arbeit angefangen.
+883,100,Er hat das Spiel _____.,gewonnen,He won the game.,Er hat das Spiel gewonnen.
+884,100,Es hat die ganze Nacht _____.,geregnet,It rained all night.,Es hat die ganze Nacht geregnet.
+885,100,Es hat gestern _____.,geschneit,It snowed yesterday.,Es hat gestern geschneit.
+886,100,Mein Kopf hat _____.,wehgetan,My head hurt.,Mein Kopf hat wehgetan.
+887,100,Wir haben lange _____.,diskutiert,We discussed for a long time.,Wir haben lange diskutiert.
+888,100,Sie hat die ganze Nacht _____.,getanzt,She danced all night.,Sie hat die ganze Nacht getanzt.
+889,100,Er hat die Tür _____.,geöffnet,He opened the door.,Er hat die Tür geöffnet.
+890,100,Ich habe die Getränke _____.,bezahlt,I paid for the drinks.,Ich habe die Getränke bezahlt.
+891,100,Das Konzert hat um 8 Uhr _____.,begonnen,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
+892,100,Ich habe das Werkzeug _____.,benutzt,I used the tool.,Ich habe das Werkzeug benutzt.
+893,100,Er hat mir eine E-Mail _____.,geschickt,He sent me an email.,Er hat mir eine E-Mail geschickt.
+894,100,Wir haben viel _____.,gelacht,We laughed a lot.,Wir haben viel gelacht.
+895,100,Die Sonne hat _____.,geschienen,The sun was shining.,Die Sonne hat geschienen.
+896,100,Ich habe meine Meinung _____.,geändert,I changed my opinion.,Ich habe meine Meinung geändert.
+897,100,Er hat mich um Hilfe _____.,gebeten,He asked me for help.,Er hat mich um Hilfe gebeten.
+898,100,Ich habe die Tür _____.,aufgemacht,I opened the door.,Ich habe die Tür aufgemacht.
+899,100,Sie hat ihr altes Auto _____.,verkauft,She sold her old car.,Sie hat ihr altes Auto verkauft.
+900,100,Das Buch hat mir _____.,gehört,The book belonged to me.,Das Buch hat mir gehört.
+901,100,Ich habe lange auf dem Stuhl _____.,gesessen,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
+902,100,Ich habe die Vase auf den Tisch _____.,gestellt,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
+903,100,Ich habe mich auf den Stuhl _____.,gesetzt,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
+904,100,Das Buch hat auf dem Tisch _____.,gelegen,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
+905,100,Ich habe ihm für seine Hilfe _____.,gedankt,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
+906,100,Ich habe das Handy auf den Tisch _____.,gelegt,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
+907,100,Er hat aus dem Fenster _____.,geschaut,He looked out of the window.,Er hat aus dem Fenster geschaut.
+908,100,Sie hat ein schönes Lied _____.,gesungen,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
+909,100,Wir haben unsere Großeltern _____.,besucht,We visited our grandparents.,Wir haben unsere Großeltern besucht.
+910,100,Ich habe mich über das Geschenk _____.,gefreut,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
+911,100,Er hat das Fenster _____.,geschlossen,He closed the window.,Er hat das Fenster geschlossen.
+912,100,Ich habe ihn zur Party _____.,eingeladen,I invited him to the party.,Ich habe ihn zur Party eingeladen.
+913,100,Der Film hat mir _____.,gefallen,I liked the movie.,Der Film hat mir gefallen.
+914,100,Er hat viel Geld _____.,verdient,He earned a lot of money.,Er hat viel Geld verdient.
+915,100,Ich habe mir ein neues Fahrrad _____.,gewünscht,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
+916,100,Die Schuhe haben mir nicht _____.,gepasst,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
+917,100,Sie hat ihr Leben _____.,verändert,She changed her life.,Sie hat ihr Leben verändert.
+918,100,Der Hund ist mir _____.,gefolgt,The dog followed me.,Der Hund ist mir gefolgt.
+919,100,Ich habe mir einen Film _____.,angesehen,I watched a movie.,Ich habe mir einen Film angesehen.
+920,100,Er hat müde _____.,ausgesehen,He looked tired.,Er hat müde ausgesehen.
+921,100,Er hat ein großes Haus _____.,besessen,He owned a big house.,Er hat ein großes Haus besessen.
+922,100,Ich habe das neue Gericht _____.,probiert,I tried the new dish.,Ich habe das neue Gericht probiert.
+923,100,Ich habe von einem Urlaub _____.,geträumt,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
+924,100,Er hat eine Pizza _____.,bestellt,He ordered a pizza.,Er hat eine Pizza bestellt.
+925,100,Wir sind nach Italien _____.,gereist,We traveled to Italy.,Wir sind nach Italien gereist.
+926,100,Wir haben seinen Geburtstag _____.,gefeiert,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
+927,100,Sie hat auf meine Frage _____.,geantwortet,She answered my question.,Sie hat auf meine Frage geantwortet.
+928,100,Er hat den besten Kandidaten _____.,gewählt,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
+929,100,Wir sind gestern Abend _____.,ausgegangen,We went out last night.,Wir sind gestern Abend ausgegangen.
+930,100,Ich habe das Geld _____.,gezählt,I counted the money.,Ich habe das Geld gezählt.
+931,100,Er hat den ganzen Abend _____.,ferngesehen,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
+932,100,Wir sind pünktlich _____.,angekommen,We arrived on time.,Wir sind pünktlich angekommen.
+933,100,Der Film hat zwei Stunden _____.,gedauert,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
+934,100,Ich habe viele neue Leute _____.,kennengelernt,I met many new people.,Ich habe viele neue Leute kennengelernt.
+935,100,Er hat viel Sport _____.,getrieben,He did a lot of sports.,Er hat viel Sport getrieben.
+936,100,Sie hat viele Schüler _____.,unterrichtet,She taught many students.,Sie hat viele Schüler unterrichtet.
+937,100,Er hat dem Vorschlag _____.,zugestimmt,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
+938,100,Ich habe mich für den Kurs _____.,angemeldet,I registered for the course.,Ich habe mich für den Kurs angemeldet.
+939,100,Ich habe mein Handy zu Hause _____.,gelassen,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
+940,100,Er hat das Haus _____.,verlassen,He left the house.,Er hat das Haus verlassen.
+941,100,Ich habe ihm bei der Arbeit _____.,geholfen,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
+942,100,Er hat den Tisch _____.,bewegt,He moved the table.,Er hat den Tisch bewegt.
+943,100,Ich habe ihm immer _____.,vertraut,I always trusted him.,Ich habe ihm immer vertraut.
+944,100,"Er hat mir geholfen, wie er es _____ hat.",versprochen,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
+945,100,Das Bild hat an der Wand _____.,gehangen,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.
+946,100,Das _____ viel bedeutet.,hat,That meant a lot.,Das hat viel bedeutet.
+947,100,Sie _____ den Termin bestimmt.,hat,She set the appointment.,Sie hat den Termin bestimmt.
+948,100,Ich _____ die Zeitung geholt.,habe,I fetched the newspaper.,Ich habe die Zeitung geholt.
+949,100,Der Computer _____ funktioniert.,hat,The computer worked.,Der Computer hat funktioniert.
+950,100,Ich _____ mich schlecht gefühlt.,habe,I felt bad.,Ich habe mich schlecht gefühlt.
+951,100,Das _____ viel Geld gekostet.,hat,That cost a lot of money.,Das hat viel Geld gekostet.
+952,100,Ich _____ mich daran erinnert.,habe,I remembered that.,Ich habe mich daran erinnert.
+953,100,Er _____ sich verletzt.,hat,He got injured.,Er hat sich verletzt.
+954,100,Ich _____ meine Mutter angerufen.,habe,I called my mother.,Ich habe meine Mutter angerufen.
+955,100,Er _____ mit dem Rauchen aufgehört.,hat,He stopped smoking.,Er hat mit dem Rauchen aufgehört.
+956,100,Er _____ die Gruppe geführt.,hat,He led the group.,Er hat die Gruppe geführt.
+957,100,Wir _____ mit der Arbeit angefangen.,haben,We started the work.,Wir haben mit der Arbeit angefangen.
+958,100,Er _____ das Spiel gewonnen.,hat,He won the game.,Er hat das Spiel gewonnen.
+959,100,Es _____ die ganze Nacht geregnet.,hat,It rained all night.,Es hat die ganze Nacht geregnet.
+960,100,Es _____ gestern geschneit.,hat,It snowed yesterday.,Es hat gestern geschneit.
+961,100,Mein Kopf _____ wehgetan.,hat,My head hurt.,Mein Kopf hat wehgetan.
+962,100,Wir _____ lange diskutiert.,haben,We discussed for a long time.,Wir haben lange diskutiert.
+963,100,Sie _____ die ganze Nacht getanzt.,hat,She danced all night.,Sie hat die ganze Nacht getanzt.
+964,100,Er _____ die Tür geöffnet.,hat,He opened the door.,Er hat die Tür geöffnet.
+965,100,Ich _____ die Getränke bezahlt.,habe,I paid for the drinks.,Ich habe die Getränke bezahlt.
+966,100,Das Konzert _____ um 8 Uhr begonnen.,hat,The concert started at 8 o'clock.,Das Konzert hat um 8 Uhr begonnen.
+967,100,Ich _____ das Werkzeug benutzt.,habe,I used the tool.,Ich habe das Werkzeug benutzt.
+968,100,Er _____ mir eine E-Mail geschickt.,hat,He sent me an email.,Er hat mir eine E-Mail geschickt.
+969,100,Wir _____ viel gelacht.,haben,We laughed a lot.,Wir haben viel gelacht.
+970,100,Die Sonne _____ geschienen.,hat,The sun was shining.,Die Sonne hat geschienen.
+971,100,Ich _____ meine Meinung geändert.,habe,I changed my opinion.,Ich habe meine Meinung geändert.
+972,100,Er _____ mich um Hilfe gebeten.,hat,He asked me for help.,Er hat mich um Hilfe gebeten.
+973,100,Ich _____ die Tür aufgemacht.,habe,I opened the door.,Ich habe die Tür aufgemacht.
+974,100,Sie _____ ihr altes Auto verkauft.,hat,She sold her old car.,Sie hat ihr altes Auto verkauft.
+975,100,Das Buch _____ mir gehört.,hat,The book belonged to me.,Das Buch hat mir gehört.
+976,100,Ich _____ lange auf dem Stuhl gesessen.,habe,I sat on the chair for a long time.,Ich habe lange auf dem Stuhl gesessen.
+977,100,Ich _____ die Vase auf den Tisch gestellt.,habe,I placed the vase on the table.,Ich habe die Vase auf den Tisch gestellt.
+978,100,Ich _____ mich auf den Stuhl gesetzt.,habe,I sat down on the chair.,Ich habe mich auf den Stuhl gesetzt.
+979,100,Das Buch _____ auf dem Tisch gelegen.,hat,The book was lying on the table.,Das Buch hat auf dem Tisch gelegen.
+980,100,Ich _____ ihm für seine Hilfe gedankt.,habe,I thanked him for his help.,Ich habe ihm für seine Hilfe gedankt.
+981,100,Ich _____ das Handy auf den Tisch gelegt.,habe,I laid the phone on the table.,Ich habe das Handy auf den Tisch gelegt.
+982,100,Er _____ aus dem Fenster geschaut.,hat,He looked out of the window.,Er hat aus dem Fenster geschaut.
+983,100,Sie _____ ein schönes Lied gesungen.,hat,She sang a beautiful song.,Sie hat ein schönes Lied gesungen.
+984,100,Wir _____ unsere Großeltern besucht.,haben,We visited our grandparents.,Wir haben unsere Großeltern besucht.
+985,100,Ich _____ mich über das Geschenk gefreut.,habe,I was happy about the gift.,Ich habe mich über das Geschenk gefreut.
+986,100,Er _____ das Fenster geschlossen.,hat,He closed the window.,Er hat das Fenster geschlossen.
+987,100,Ich _____ ihn zur Party eingeladen.,habe,I invited him to the party.,Ich habe ihn zur Party eingeladen.
+988,100,Der Film _____ mir gefallen.,hat,I liked the movie.,Der Film hat mir gefallen.
+989,100,Er _____ viel Geld verdient.,hat,He earned a lot of money.,Er hat viel Geld verdient.
+990,100,Ich _____ mir ein neues Fahrrad gewünscht.,habe,I wished for a new bike.,Ich habe mir ein neues Fahrrad gewünscht.
+991,100,Die Schuhe _____ mir nicht gepasst.,haben,The shoes didn't fit me.,Die Schuhe haben mir nicht gepasst.
+992,100,Sie _____ ihr Leben verändert.,hat,She changed her life.,Sie hat ihr Leben verändert.
+993,100,Der Hund _____ mir gefolgt.,ist,The dog followed me.,Der Hund ist mir gefolgt.
+994,100,Ich _____ mir einen Film angesehen.,habe,I watched a movie.,Ich habe mir einen Film angesehen.
+995,100,Er _____ müde ausgesehen.,hat,He looked tired.,Er hat müde ausgesehen.
+996,100,Er _____ ein großes Haus besessen.,hat,He owned a big house.,Er hat ein großes Haus besessen.
+997,100,Ich _____ das neue Gericht probiert.,habe,I tried the new dish.,Ich habe das neue Gericht probiert.
+998,100,Ich _____ von einem Urlaub geträumt.,habe,I dreamed of a vacation.,Ich habe von einem Urlaub geträumt.
+999,100,Er _____ eine Pizza bestellt.,hat,He ordered a pizza.,Er hat eine Pizza bestellt.
+1000,100,Wir _____ nach Italien gereist.,sind,We traveled to Italy.,Wir sind nach Italien gereist.
+1001,100,Wir _____ seinen Geburtstag gefeiert.,haben,We celebrated his birthday.,Wir haben seinen Geburtstag gefeiert.
+1002,100,Sie _____ auf meine Frage geantwortet.,hat,She answered my question.,Sie hat auf meine Frage geantwortet.
+1003,100,Er _____ den besten Kandidaten gewählt.,hat,He chose the best candidate.,Er hat den besten Kandidaten gewählt.
+1004,100,Wir _____ gestern Abend ausgegangen.,sind,We went out last night.,Wir sind gestern Abend ausgegangen.
+1005,100,Ich _____ das Geld gezählt.,habe,I counted the money.,Ich habe das Geld gezählt.
+1006,100,Er _____ den ganzen Abend ferngesehen.,hat,He watched TV all evening.,Er hat den ganzen Abend ferngesehen.
+1007,100,Wir _____ pünktlich angekommen.,sind,We arrived on time.,Wir sind pünktlich angekommen.
+1008,100,Der Film _____ zwei Stunden gedauert.,hat,The movie lasted two hours.,Der Film hat zwei Stunden gedauert.
+1009,100,Ich _____ viele neue Leute kennengelernt.,habe,I met many new people.,Ich habe viele neue Leute kennengelernt.
+1010,100,Er _____ viel Sport getrieben.,hat,He did a lot of sports.,Er hat viel Sport getrieben.
+1011,100,Sie _____ viele Schüler unterrichtet.,hat,She taught many students.,Sie hat viele Schüler unterrichtet.
+1012,100,Er _____ dem Vorschlag zugestimmt.,hat,He agreed with the proposal.,Er hat dem Vorschlag zugestimmt.
+1013,100,Ich _____ mich für den Kurs angemeldet.,habe,I registered for the course.,Ich habe mich für den Kurs angemeldet.
+1014,100,Ich _____ mein Handy zu Hause gelassen.,habe,I left my phone at home.,Ich habe mein Handy zu Hause gelassen.
+1015,100,Er _____ das Haus verlassen.,hat,He left the house.,Er hat das Haus verlassen.
+1016,100,Ich _____ ihm bei der Arbeit geholfen.,habe,I helped him with the work.,Ich habe ihm bei der Arbeit geholfen.
+1017,100,Er _____ den Tisch bewegt.,hat,He moved the table.,Er hat den Tisch bewegt.
+1018,100,Ich _____ ihm immer vertraut.,habe,I always trusted him.,Ich habe ihm immer vertraut.
+1019,100,"Er _____ mir geholfen, wie er es versprochen _____.",hat,He helped me as he promised.,"Er hat mir geholfen, wie er es versprochen hat."
+1020,100,Das Bild _____ an der Wand gehangen.,hat,The picture was hanging on the wall.,Das Bild hat an der Wand gehangen.

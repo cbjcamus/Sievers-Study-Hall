@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Präpositionen — Konjugation</title>
+    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 
 {% from "macros.html" import render_table_row %}
+{% from "macros.html" import render_title %}
 
 <body>
-    <h1>Präpositionen — Konjugation</h1>
+    {{ render_title("Präpositionen — Konjugation") }}
 
     <div class="section">
         <h2>A1</h2>
@@ -57,14 +59,14 @@
             {{ render_table_row("praepositionen_konjugation", 22, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 23, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 24, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 25, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 26, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>C1</h2>
         <table class="level-table">
-            {{ render_table_row("praepositionen_konjugation", 25, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("praepositionen_konjugation", 26, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 27, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 28, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 29, session, answered_questions, total_questions, score, description_templates) }}
@@ -73,6 +75,8 @@
             {{ render_table_row("praepositionen_konjugation", 32, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 33, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praepositionen_konjugation", 34, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 35, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praepositionen_konjugation", 36, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 

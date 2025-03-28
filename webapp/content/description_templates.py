@@ -1,6 +1,6 @@
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                                       partizip_I,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv_II,
+                                       partizip_I, konjunktiv_I,
                                        adverbien, verben, trennbare_verben, adjektive, deverbale_substantive)
 
 DESCRIPTION_TEMPLATES = {
@@ -124,24 +124,26 @@ artikel: {
         14: "B1 Verb-Preposition pairs in sentences",
         15: "B2 Verb-Preposition pairs in isolation",
         16: "B2 Verb-Preposition pairs in sentences",
-        17: "Up to B2 Noun-Preposition pairs in isolation",
-        18: "Up to B2 Noun-Preposition pairs in sentences",
+        17: "B2 Verb-Preposition pairs in isolation",
+        18: "B2 Verb-Preposition pairs in sentences",
         19: "Up to B2 Noun-Preposition pairs in isolation",
         20: "Up to B2 Noun-Preposition pairs in sentences",
         21: "Up to B2 Noun-Preposition pairs in isolation",
         22: "Up to B2 Noun-Preposition pairs in sentences",
-        23: "Up to B2 Adjective-Preposition pairs in isolation",
-        24: "Up to B2 Adjective-Preposition pairs in sentences",
-        25: "C1 Verb-Preposition pairs in isolation",
-        26: "C1 Verb-Preposition pairs in sentences",
+        23: "Up to B2 Noun-Preposition pairs in isolation",
+        24: "Up to B2 Noun-Preposition pairs in sentences",
+        25: "Up to B2 Adjective-Preposition pairs in isolation",
+        26: "Up to B2 Adjective-Preposition pairs in sentences",
         27: "C1 Verb-Preposition pairs in isolation",
         28: "C1 Verb-Preposition pairs in sentences",
-        29: "C1 Noun-Preposition pairs in isolation",
-        30: "C1 Noun-Preposition pairs in sentences",
+        29: "C1 Verb-Preposition pairs in isolation",
+        30: "C1 Verb-Preposition pairs in sentences",
         31: "C1 Noun-Preposition pairs in isolation",
         32: "C1 Noun-Preposition pairs in sentences",
-        33: "C1 Adjective-Preposition pairs in isolation",
-        34: "C1 Adjective-Preposition pairs in sentences",
+        33: "C1 Noun-Preposition pairs in isolation",
+        34: "C1 Noun-Preposition pairs in sentences",
+        35: "C1 Adjective-Preposition pairs in isolation",
+        36: "C1 Adjective-Preposition pairs in sentences",
     },
 
     perfekt: {
@@ -156,11 +158,13 @@ artikel: {
         9: "Partizip II of B1 verbs",
         10: "Partizip II of B1 verbs",
         11: "Partizip II of B1 verbs",
-        12: "Partizip II of B2 verbs",
+        12: "Partizip II of B1 verbs",
         13: "Partizip II of B2 verbs",
         14: "Partizip II of B2 verbs",
         15: "Partizip II of B2 verbs",
         16: "Partizip II of B2 verbs",
+        17: "Partizip II of B2 verbs",
+        18: "Partizip II of B2 verbs",
     },
 
     praeteritum: {
@@ -176,11 +180,13 @@ artikel: {
         10: "Präteritum (3rd. Per. Singular) of B1 verbs",
         11: "Präteritum (3rd. Per. Singular) of B1 verbs",
         12: "Präteritum (3rd. Per. Singular) of B1 verbs",
-        13: "Präteritum (3rd. Per. Singular) of B2 verbs",
+        13: "Präteritum (3rd. Per. Singular) of B1 verbs",
         14: "Präteritum (3rd. Per. Singular) of B2 verbs",
         15: "Präteritum (3rd. Per. Singular) of B2 verbs",
         16: "Präteritum (3rd. Per. Singular) of B2 verbs",
         17: "Präteritum (3rd. Per. Singular) of B2 verbs",
+        18: "Präteritum (3rd. Per. Singular) of B2 verbs",
+        19: "Präteritum (3rd. Per. Singular) of B2 verbs",
     },
 
     imperativ: {
@@ -192,8 +198,17 @@ artikel: {
         6: "Imperative of A2 verbs",
     },
 
-    konjunktiv: {
+    konjunktiv_II: {
         1: "Konjunktiv II of the most common verbs",
+    },
+
+    konjunktiv_I: {
+        1: "Konjunktiv I of A1 verbs",
+        2: "Konjunktiv I of A1 verbs",
+        3: "Konjunktiv I of A1 verbs",
+        4: "Konjunktiv I of A1 verbs",
+        5: "Konjunktiv I of A1 verbs",
+        6: "Konjunktiv I of A1 verbs",
     },
 
     partizip_I: {
@@ -260,17 +275,21 @@ artikel: {
 
     deverbale_substantive: {
         1: "Main Deverbal Nouns (nouns derived verbs)",
-        2: "Deverbal Nouns derived from A1 Verbs",
-        3: "Deverbal Nouns derived from A2 Verbs",
-        4: "Deverbal Nouns derived from B1 Verbs",
-        5: "Deverbal Nouns derived from B1 Verbs",
-        6: "Deverbal Nouns derived from B2 Verbs",
-        7: "Deverbal Nouns derived from B2 Verbs",
-        8: "Deverbal Nouns derived from B2 Verbs",
-        9: "Deverbal Nouns derived from C1 Verbs",
-        10: "Deverbal Nouns derived from C1 Verbs",
-        11: "Deverbal Nouns derived from C1 Verbs",
-        12: "Deverbal Nouns derived from C1 Verbs",
+        2: "Main Deverbal Nouns (nouns derived verbs)",
+        3: "Deverbal Nouns derived from A1 Verbs",
+        4: "Deverbal Nouns derived from A1 Verbs",
+        5: "Deverbal Nouns derived from A2 Verbs",
+        6: "Deverbal Nouns derived from A2 Verbs",
+        7: "Deverbal Nouns derived from B1 Verbs",
+        8: "Deverbal Nouns derived from B1 Verbs",
+        9: "Deverbal Nouns derived from B1 Verbs",
+        10: "Deverbal Nouns derived from B2 Verbs",
+        11: "Deverbal Nouns derived from B2 Verbs",
+        12: "Deverbal Nouns derived from B2 Verbs",
+        13: "Deverbal Nouns derived from C1 Verbs",
+        14: "Deverbal Nouns derived from C1 Verbs",
+        15: "Deverbal Nouns derived from C1 Verbs",
+        16: "Deverbal Nouns derived from C1 Verbs",
     },
 
 }

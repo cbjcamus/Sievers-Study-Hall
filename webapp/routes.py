@@ -133,9 +133,18 @@ def imperativ():
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
-@routes.route('/konjunktiv')
-def konjunktiv():
-    return render_template('konjunktiv.html',
+@routes.route('/konjunktiv_II')
+def konjunktiv_II():
+    return render_template('konjunktiv_II.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/konjunktiv_I')
+def konjunktiv_I():
+    return render_template('konjunktiv_I.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -251,13 +260,13 @@ def check_answer(exercise, level):
     if request.method == 'GET':
         return redirect(url_for('routes.exercise', exercise=exercise, level=level))
 
-    user_answer = normalization(request.form['answer'], exercise)
+    user_answer = request.form['answer']
     nr = request.form['nr']
 
     data = load_data(exercise, level)
 
     question_data = data[data["Nr"] == int(nr)].iloc[0]
-    correct_answer = normalization(question_data["answer"], exercise)
+    correct_answer = question_data["answer"]
     correct_answers = get_answers(correct_answer, exercise)
     question_text = question_data["question"]
     english = format_english(question_data.get("english", ""))

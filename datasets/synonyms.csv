@@ -21,7 +21,6 @@ adverbien,anschliessend,danach
 adverbien,auf dauer,dauerhaft
 adverbien,permanent,dauerhaft
 adverbien,ständig,dauerhaft
-adverbien,umso,desto
 adverbien,da,dort
 adverbien,daher,dorther
 adverbien,dahin,dorthin
@@ -91,9 +90,9 @@ adverbien,zur zeit,zurzeit
 artikel,einige,manche
 artikel,einigem,manchem
 artikel,einiger,mancher
-frage,weshalb,warum
-frage,weswegen,warum
-frage,wieso,warum
+fragen,weshalb,warum
+fragen,weswegen,warum
+fragen,wieso,warum
 konnektoren,somit,also
 konnektoren,anfänglich,anfangs
 konnektoren,statt,anstatt
@@ -105,6 +104,7 @@ konnektoren,sodass,damit
 konnektoren,daher,deshalb
 konnektoren,darum,deshalb
 konnektoren,deswegen,deshalb
+konnektoren,umso,desto
 konnektoren,daraufhin,folglich
 konnektoren,demnach,folglich
 konnektoren,demzufolge,folglich
@@ -122,7 +122,7 @@ konnektoren,wogegen,wohingegen
 konnektoren,dafür,zu diesem Zweck
 konnektoren,dazu,zu diesem Zweck
 perfekt,worden,geworden
-praepositionen_grammatik,an dem,am
+praepositionen_grammatik,am,an dem
 praepositionen_grammatik,ans,an das
 praepositionen_grammatik,aufs,auf das
 praepositionen_grammatik,aufm,auf dem
@@ -133,9 +133,9 @@ praepositionen_grammatik,längs,entlang
 praepositionen_grammatik,fürs,für das
 praepositionen_grammatik,hinters,hinter das
 praepositionen_grammatik,hinterm,hinter dem
-praepositionen_grammatik,in dem,im
+praepositionen_grammatik,im,in dem
 praepositionen_grammatik,entgegen,im gegensatz zu
-praepositionen_grammatik,in das,ins
+praepositionen_grammatik,ins,in das
 praepositionen_grammatik,zufolge,laut
 praepositionen_grammatik,genauso,so
 praepositionen_grammatik,ungeachtet,trotz
@@ -144,8 +144,8 @@ praepositionen_grammatik,überm,über dem
 praepositionen_grammatik,ums,um das
 praepositionen_grammatik,unters,unter das
 praepositionen_grammatik,unterm,unter dem
-praepositionen_grammatik,von dem,vom
+praepositionen_grammatik,vom,von dem
 praepositionen_grammatik,vors,vor das
 praepositionen_grammatik,aufgrund,wegen
-praepositionen_grammatik,zu dem,zum
-praepositionen_grammatik,zu der,zur
+praepositionen_grammatik,zum,zu dem
+praepositionen_grammatik,zur,zu der

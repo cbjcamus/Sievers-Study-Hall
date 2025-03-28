@@ -6,3 +6,13 @@
         <td>{{ description_templates[exercise].get(level, "") }}</td>
     </tr>
 {% endmacro %}
+
+{% macro render_title(title) %}
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0px;">
+        <a href="/" style="flex-shrink: 0;">
+            <img src="/webapp/static/logo.png" alt="Logo" style="height: 75px;">
+        </a>
+        <h1 style="flex-grow: 1; text-align: center; margin: 0;">{{title}}</h1>
+        <div style="width: 75px;"></div> <!-- Spacer to balance the logo -->
+    </div>
+{% endmacro %}

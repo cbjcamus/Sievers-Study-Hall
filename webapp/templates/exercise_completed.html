@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title_page[exercise] }}</title>
+    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
+
+{% from "macros.html" import render_title %}
+{% from "macros.html" import render_title %}
+
 <body>
-    <h1>{{ title_page[exercise] }}</h1>
+    {{ render_title(title_page[exercise]) }}
     <h2 class="level-title">Level {{ level }}</h2>
 
     <p>All questions have been successfully answered!</p>

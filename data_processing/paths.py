@@ -1,8 +1,8 @@
 import os
 
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv,
-                                       partizip_I,
+                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv_II,
+                                       partizip_I, konjunktiv_I,
                                        adverbien, verben, trennbare_verben, adjektive, deverbale_substantive)
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -18,7 +18,8 @@ DATA_PATH = {artikel: os.path.join(BASE_DIR, "datasets", "artikel.csv"),
              imperativ: os.path.join(BASE_DIR, "datasets", "imperativ.csv"),
              perfekt: os.path.join(BASE_DIR, "datasets", "perfekt.csv"),
              praeteritum: os.path.join(BASE_DIR, "datasets", "praeteritum.csv"),
-             konjunktiv: os.path.join(BASE_DIR, "datasets", "konjunktiv.csv"),
+             konjunktiv_II: os.path.join(BASE_DIR, "datasets", "konjunktiv_II.csv"),
+             konjunktiv_I: os.path.join(BASE_DIR, "datasets", "konjunktiv_I.csv"),
              partizip_I: os.path.join(BASE_DIR, "datasets", "partizip_I.csv"),
 
              adverbien: os.path.join(BASE_DIR, "datasets", "adverbien.csv"),
@@ -40,7 +41,8 @@ EXERCISE_PAGES = {
     imperativ: "/imperativ",
     perfekt: "/perfekt",
     praeteritum: "/praeteritum",
-    konjunktiv: "/konjunktiv",
+    konjunktiv_II: "/konjunktiv_II",
+    konjunktiv_I: "/konjunktiv_I",
     partizip_I: "/partizip_I",
 
     adverbien: "/adverbien",
@@ -61,7 +63,7 @@ SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),
               imperativ: os.path.join(BASE_DIR, "scores/imperativ", ""),
               perfekt: os.path.join(BASE_DIR, "scores/perfekt", ""),
               praeteritum: os.path.join(BASE_DIR, "scores/praeteritum", ""),
-              konjunktiv: os.path.join(BASE_DIR, "scores/konjunktiv", ""),
+              konjunktiv_II: os.path.join(BASE_DIR, "scores/konjunktiv", ""),
 
               verben: os.path.join(BASE_DIR, "scores/verben", ""),
               adjektive: os.path.join(BASE_DIR, "scores/adjektive", ""),

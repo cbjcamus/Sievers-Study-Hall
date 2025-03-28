@@ -9,7 +9,8 @@ praepositionen_konjugation = 'praepositionen_konjugation'
 imperativ = 'imperativ'
 perfekt = 'perfekt'
 praeteritum = 'praeteritum'
-konjunktiv = 'konjunktiv'
+konjunktiv_II = 'konjunktiv_II'
+konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
 
 adverbien = 'adverbien'
@@ -19,6 +20,7 @@ adjektive = 'adjektive'
 deverbale_substantive = 'deverbale_substantive'
 
 exercises = [artikel, pronomen, praepositionen_grammatik, konnektoren, adjektivdeklinationen,
-             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv, partizip_I,
+             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum,
+             konjunktiv_II, konjunktiv_I, partizip_I,
              adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,
              ]

@@ -1,8 +1,10 @@
 from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
                                        praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum,
-                                       konjunktiv,
-                                       partizip_I,
+                                       konjunktiv_II, partizip_I, konjunktiv_I,
                                        verben, adjektive, adverbien, deverbale_substantive, trennbare_verben)
+
+# bullet point \u25CF
+# arrow &#8594
 
 QUESTION_TEMPLATES = {
     artikel: {
@@ -50,28 +52,28 @@ QUESTION_TEMPLATES = {
             "<br><br>{question}",
         14: "Complete the following sentence with the relative pronoun that fits:"
             "<br><br>{question}",
-        15: "Complete the following sentence with the relative pronoun that fits — more than one option may be possible:"
+        15: "Complete the following sentence with the relative pronoun that fits — there may be more than one option:"
             "<br><br>{question}",
     },
 
     konnektoren: {
         1: "Translate the following connector:"
-           "<br><br><strong>{question}</strong>",
+           "<br><br><strong>{question}</strong> \u25CF {case}",
         2: "Complete the following sentence with the connector that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
         3: "Translate the following connector:"
-           "<br><br><strong>{question}</strong>",
+           "<br><br><strong>{question}</strong> \u25CF {case}",
         4: "Complete the following sentence with the connector that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
         5: "Translate the following connector:"
-           "<br><br><strong>{question}</strong>",
+           "<br><br><strong>{question}</strong> \u25CF {case}",
         6: "Complete the following sentence with the connector that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
         7: "Translate the following connector:"
-           "<br><br><strong>{question}</strong>",
+           "<br><br><strong>{question}</strong> \u25CF {case}",
         8: "Complete the following sentence with the connector that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
@@ -128,37 +130,37 @@ QUESTION_TEMPLATES = {
     },
 
     adjektivdeklinationen: {
-        1: "Complete the sentence with the correct form of the specified adjektive:"
+        1: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {case} \u25CF {adjective}",
-        2: "Complete the sentence with the correct form of the specified adjektive:"
+        2: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        3: "Complete the sentence with the correct form of the specified adjektive:"
+        3: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        4: "Complete the sentence with the correct form of the specified adjektive:"
+        4: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        5: "Complete the sentence with the correct form of the specified adjektive:"
+        5: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        6: "Complete the sentence with the correct form of the specified adjektive:"
+        6: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        7: "Complete the sentence with the correct form of the specified adjektive:"
+        7: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        8: "Complete the sentence with the correct form of the specified adjektive:"
+        8: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {adjective}",
-        9: "Complete the sentence with the correct form of the specified adjektive:"
+        9: "Complete the sentence with the correct form of the specified adjective:"
            "<br><br>{question} \u25CF {case} \u25CF {adjective}",
-        10: "Complete the sentence with the correct form of the specified adjektive:"
+        10: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {adjective}",
-        11: "Complete the sentence with the correct form of the specified adjektive:"
+        11: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {adjective}",
-        12: "Complete the sentence with the correct form of the specified adjektive:"
+        12: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {adjective}",
-        13: "Complete the sentence with the correct form of the specified adjektive:"
+        13: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {adjective}",
-        14: "Complete the sentence with the correct form of the specified adjektive:"
+        14: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {adjective}",
-        15: "Complete the sentence with the correct form of the specified adjektive:"
+        15: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {case} \u25CF {adjective}",
-        16: "Complete the sentence with the correct form of the specified adjektive:"
+        16: "Complete the sentence with the correct form of the specified adjective:"
             "<br><br>{question} \u25CF {adjective}",
     },
 
@@ -279,13 +281,13 @@ QUESTION_TEMPLATES = {
         16: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        17: "Write the preposition that match the following noun:"
-           "<br><br>{question} = {german} _____",
-        18: "Complete the following sentence with the preposition that fits:"
-           "<br><br>{question}"
-           "<br><br><i>{english}</i>",
-        19: "Write the preposition that match the following noun:"
+        17: "Write the preposition that match the following verb:"
             "<br><br>{question} = {german} _____",
+        18: "Complete the following sentence with the preposition that fits:"
+            "<br><br>{question}"
+            "<br><br><i>{english}</i>",
+        19: "Write the preposition that match the following noun:"
+           "<br><br>{question} = {german} _____",
         20: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
@@ -294,34 +296,39 @@ QUESTION_TEMPLATES = {
         22: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        23: "Write the preposition that match the following adjective:"
-           "<br><br>{question} = {german} _____",
+        23: "Write the preposition that match the following noun:"
+            "<br><br>{question} = {german} _____",
         24: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        25: "Write the preposition that match the following verb:"
+        25: "Write the preposition that match the following adjective:"
            "<br><br>{question} = {german} _____",
         26: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
         27: "Write the preposition that match the following verb:"
-            "<br><br>{question} = {german} _____",
+           "<br><br>{question} = {german} _____",
         28: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        29: "Write the preposition that match the following noun:"
-           "<br><br>{question} = {german} _____",
+        29: "Write the preposition that match the following verb:"
+            "<br><br>{question} = {german} _____",
         30: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
         31: "Write the preposition that match the following noun:"
-            "<br><br>{question} = {german} _____",
+           "<br><br>{question} = {german} _____",
         32: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        33: "Write the preposition that match the following adjective:"
-           "<br><br>{question} = {german} _____",
+        33: "Write the preposition that match the following noun:"
+            "<br><br>{question} = {german} _____",
         34: "Complete the following sentence with the preposition that fits:"
+           "<br><br>{question}"
+           "<br><br><i>{english}</i>",
+        35: "Write the preposition that match the following adjective:"
+           "<br><br>{question} = {german} _____",
+        36: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
     },
@@ -358,6 +365,10 @@ QUESTION_TEMPLATES = {
         15: "Write the Partizip II of the following verb:"
             "<br><br>{question}",
         16: "Write the Partizip II of the following verb:"
+            "<br><br>{question}",
+        17: "Write the Partizip II of the following verb:"
+            "<br><br>{question}",
+        18: "Write the Partizip II of the following verb:"
             "<br><br>{question}",
     },
 
@@ -396,6 +407,10 @@ QUESTION_TEMPLATES = {
             "<br><br>{question} \u25CF er/sie/es _____",
         17: "Write the Präteritum (3rd Person Singular) of the following verb:"
             "<br><br>{question} \u25CF er/sie/es _____",
+        18: "Write the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
+        19: "Write the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
     },
 
     imperativ: {
@@ -413,8 +428,23 @@ QUESTION_TEMPLATES = {
            "<br><br>{question} \u25CF {person} \u25CF _____",
     },
 
-    konjunktiv: {
+    konjunktiv_II: {
         1: "Write the Konjunktiv II of the following verb:"
+           "<br><br>{question} \u25CF {person} _____",
+    },
+
+    konjunktiv_I: {
+        1: "Write the Konjunktiv I of the following verb:"
+           "<br><br>{question} \u25CF {person} _____",
+        2: "Write the Konjunktiv I of the following verb:"
+           "<br><br>{question} \u25CF {person} _____",
+        3: "Write the Konjunktiv I of the following verb:"
+           "<br><br>{question} \u25CF {person} _____",
+        4: "Write the Konjunktiv I of the following verb:"
+           "<br><br>{question} \u25CF {person} _____",
+        5: "Write the Konjunktiv I of the following verb:"
+           "<br><br>{question} \u25CF {person} _____",
+        6: "Write the Konjunktiv I of the following verb:"
            "<br><br>{question} \u25CF {person} _____",
     },
 
@@ -515,65 +545,82 @@ QUESTION_TEMPLATES = {
 
     trennbare_verben: {
         1: "Translate the following (un)trennbare verb based on the specified root verb:"
-           "<br><br><strong>{question}</strong> \u25CF {german}",
+           "<br><br>{english} &#8594; {german}" 
+           "<br><br>{question} &#8594; _____ ",
         2: "Translate the following (un)trennbare verb based on the specified prefix:"
-           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+           "<br><br>{question} &#8594 {prefix}_____",
         3: "Translate the following (un)trennbare verb based on the specified root verb:"
-           "<br><br><strong>{question}</strong> \u25CF {german}",
+           "<br><br>{english} &#8594; {german}" 
+           "<br><br>{question} &#8594; _____ ",
         4: "Translate the following (un)trennbare verb based on the specified root verb:"
-           "<br><br><strong>{question}</strong> \u25CF {german}",
+           "<br><br>{english} &#8594; {german}" 
+           "<br><br>{question} &#8594; _____ ",
         5: "Translate the following (un)trennbare verb based on the specified prefix:"
-           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+           "<br><br>{question} &#8594 {prefix}_____",
         6: "Translate the following (un)trennbare verb based on the specified prefix:"
-           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+           "<br><br>{question} &#8594 {prefix}_____",
         7: "Translate the following (un)trennbare verb based on the specified root verb:"
-           "<br><br><strong>{question}</strong> \u25CF {german}",
+           "<br><br>{english} &#8594; {german}" 
+           "<br><br>{question} &#8594; _____ ",
         8: "Translate the following (un)trennbare verb based on the specified root verb:"
-           "<br><br><strong>{question}</strong> \u25CF {german}",
+           "<br><br>{english} &#8594; {german}" 
+           "<br><br>{question} &#8594; _____ ",
         9: "Translate the following (un)trennbare verb based on the specified prefix:"
-           "<br><br><strong>{question}</strong> \u25CF {prefix}",
+           "<br><br>{question} &#8594 {prefix}_____",
         10: "Translate the following (un)trennbare verb based on the specified prefix:"
-            "<br><br><strong>{question}</strong> \u25CF {prefix}",
+           "<br><br>{question} &#8594 {prefix}_____",
 
     },
 
     deverbale_substantive: {
         1: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         2: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         3: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         4: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         5: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         6: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         7: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         8: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         9: "Complete the blank with the noun that fits:"
-           "<br><br>{english}: {german}"
-           "<br><br>{question}: _____",
+           "<br><br>{english} &#8594 {german}"
+           "<br><br>{question} &#8594 _____",
         10: "Complete the blank with the noun that fits:"
-            "<br><br>{english}: {german}"
-            "<br><br>{question}: _____",
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
         11: "Complete the blank with the noun that fits:"
-            "<br><br>{english}: {german}"
-            "<br><br>{question}: _____",
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
         12: "Complete the blank with the noun that fits:"
-            "<br><br>{english}: {german}"
-            "<br><br>{question}: _____",
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
+        13: "Complete the blank with the noun that fits:"
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
+        14: "Complete the blank with the noun that fits:"
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
+        15: "Complete the blank with the noun that fits:"
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
+        16: "Complete the blank with the noun that fits:"
+            "<br><br>{english} &#8594 {german}"
+            "<br><br>{question} &#8594 _____",
     },
 
 }

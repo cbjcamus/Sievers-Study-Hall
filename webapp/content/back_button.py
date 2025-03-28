@@ -1,6 +1,6 @@
 from data_processing.exercises import artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen, \
-    praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv, partizip_I, adverbien, verben, \
-    trennbare_verben, deverbale_substantive
+    praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv_II, partizip_I, adverbien, verben, \
+    trennbare_verben, deverbale_substantive, konjunktiv_I
 
 BACK_BUTTON = {
     artikel: "Artikel",
@@ -14,7 +14,8 @@ BACK_BUTTON = {
     imperativ: "Imperativ",
     perfekt: "Perfekt",
     praeteritum: "Präteritum",
-    konjunktiv: "Konjunktiv II",
+    konjunktiv_II: "Konjunktiv II",
+    konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
     adverbien: "Adverbien",

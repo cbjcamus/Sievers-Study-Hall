@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Präteritum</title>
+    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 
 {% from "macros.html" import render_table_row %}
+{% from "macros.html" import render_title %}
 
 <body>
-    <h1>Präteritum</h1>
+    {{ render_title("Präteritum") }}
 
     <div class="section">
         <h2>A2</h2>
@@ -39,17 +41,19 @@
             {{ render_table_row("praeteritum", 10, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praeteritum", 11, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praeteritum", 12, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praeteritum", 13, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>C1</h2>
         <table class="level-table">
-            {{ render_table_row("praeteritum", 13, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praeteritum", 14, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praeteritum", 15, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praeteritum", 16, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_table_row("praeteritum", 17, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praeteritum", 18, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_table_row("praeteritum", 19, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 

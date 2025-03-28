@@ -32,32 +32,34 @@ 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
 
 
 # TODO Priority before April 1st
-# Da worts
-# Wo worts
 
 
 # TODO Exercises
-# Adverb and konnectoren: add "Subjunktion, Konjunktion and Adverb" when necessary
-# Words in trag (Antrag, Vertrag, Betrag, Beitrag)
-# Wortschatz: adjektives (include sentences to simplify with Partizip II and I)
+# Wortschatz: adjektives
 # Wortschatz: adjektives to substantives
 # Wortschatz: adjektives to verben
-# Wortschatz: number, ordinal, fractions, double/triple, percent
-# relative pronouns wer wen wem was
-# Konnektoren list conuuntion dwds (C1)
+# Wortschatz: adjektives: write the opposite
+# Wortschatz: verben to adjective in bar and lich
+# Wortschatz: adjektives Partizip II and I
+# Wortschatz: number, ordinal, fractions, double/triple, percent, mathematical terms like plus minus average
+
+# relative pronouns wer wen wem was -> done, needs proofreading
+# Konnektoren C1
+
+
+# TODO To add
+# Words in trag (Antrag, Vertrag, Betrag, Beitrag)
 
 
 # TODO Format
-# https://en.wikipedia.org/wiki/Eduard_Sievers for logo
-# How to have ss in the answer (adjektivedeklinationen)
 # 90 and above green, 80 to 90 Yellow, 70 to 80 Orange, below red
-# use arrow for deverbale substansive
 
 
 # Framework
 # Learn, Discover and Play
 # Review, Practice and Reinforce
 # Consolidate, Summarize and Apply
+
 
 # Sources
 # 500 verbs german tv: https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/

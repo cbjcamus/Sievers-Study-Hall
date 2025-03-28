@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deutschtrainer</title>
+    <title>Sievers' Study Hall</title>
+    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 <body>
-    <h1>Deutschtrainer</h1>
+
+{% from "macros.html" import render_title %}
+
+    {{ render_title("Sievers\' Study Hall") }}
 
     <div class="section">
         <h2>Grammatik</h2>
@@ -79,9 +83,15 @@
                 <td></td>
             </tr>
             <tr>
-                <td><a href="/konjunktiv" class="button">Konjunktiv II</a></td>
-                <td>{{ answered_questions('konjunktiv', session=session) }}/{{ total_questions('konjunktiv') }}</td>
-                <td>{{ score('konjunktiv', session=session) }}</td>
+                <td><a href="/konjunktiv_II" class="button">Konjunktiv II</a></td>
+                <td>{{ answered_questions('konjunktiv_II', session=session) }}/{{ total_questions('konjunktiv_II') }}</td>
+                <td>{{ score('konjunktiv_II', session=session) }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/konjunktiv_I" class="button">Konjunktiv I</a></td>
+                <td>{{ answered_questions('konjunktiv_I', session=session) }}/{{ total_questions('konjunktiv_I') }}</td>
+                <td>{{ score('konjunktiv_I', session=session) }}</td>
                 <td></td>
             </tr>
             <tr>
