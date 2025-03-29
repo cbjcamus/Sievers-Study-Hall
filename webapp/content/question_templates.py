@@ -565,11 +565,15 @@ QUESTION_TEMPLATES = {
         8: "Translate the following (un)trennbare verb based on the specified root verb:"
            "<br><br>{english} &#8594; {german}" 
            "<br><br>{question} &#8594; _____ ",
-        9: "Translate the following (un)trennbare verb based on the specified prefix:"
-           "<br><br>{question} &#8594 {prefix}_____",
+        9: "Translate the following (un)trennbare verb based on the specified root verb:"
+           "<br><br>{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
         10: "Translate the following (un)trennbare verb based on the specified prefix:"
            "<br><br>{question} &#8594 {prefix}_____",
-
+        11: "Translate the following (un)trennbare verb based on the specified prefix:"
+           "<br><br>{question} &#8594 {prefix}_____",
+        12: "Translate the following (un)trennbare verb based on the specified prefix:"
+            "<br><br>{question} &#8594 {prefix}_____",
     },
 
     deverbale_substantive: {

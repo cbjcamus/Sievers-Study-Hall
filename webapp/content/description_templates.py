@@ -268,9 +268,10 @@ artikel: {
         6: "B1 (un)trennbare Verbs with prefix help",
         7: "B2 (un)trennbare Verbs with root help",
         8: "B2 (un)trennbare Verbs with root help",
-        9: "B2 (un)trennbare Verbs with prefix help",
+        9: "B2 (un)trennbare Verbs with root help",
         10: "B2 (un)trennbare Verbs with prefix help",
-
+        11: "B2 (un)trennbare Verbs with prefix help",
+        12: "B2 (un)trennbare Verbs with prefix help",
     },
 
     deverbale_substantive: {

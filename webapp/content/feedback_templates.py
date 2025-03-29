@@ -483,6 +483,10 @@ FEEDBACK_TEMPLATES = {
            "<br><br>{previous_question} &#8594; {correct_answers}",
         10: "{english} &#8594; {german}"
            "<br><br>{previous_question} &#8594; {correct_answers}",
+        11: "{english} &#8594; {german}"
+            "<br><br>{previous_question} &#8594; {correct_answers}",
+        12: "{english} &#8594; {german}"
+            "<br><br>{previous_question} &#8594; {correct_answers}",
     },
 
     deverbale_substantive: {
