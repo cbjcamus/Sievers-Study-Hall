@@ -317,6 +317,10 @@ FEEDBACK_TEMPLATES = {
             "<br><br>{previous_question} = {english}",
         18: "Partizip II {previous_question}: {correct_answers}"
             "<br><br>{previous_question} = {english}",
+        19: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        20: "Partizip II {previous_question}: {correct_answers}"
+            "<br><br>{previous_question} = {english}",
     },
 
     praeteritum: {
@@ -357,6 +361,10 @@ FEEDBACK_TEMPLATES = {
         18: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         19: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        20: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        21: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
     },
 

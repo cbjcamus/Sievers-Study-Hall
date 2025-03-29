@@ -370,6 +370,10 @@ QUESTION_TEMPLATES = {
             "<br><br>{question}",
         18: "Write the Partizip II of the following verb:"
             "<br><br>{question}",
+        19: "Write the Partizip II of the following verb:"
+            "<br><br>{question}",
+        20: "Write the Partizip II of the following verb:"
+            "<br><br>{question}",
     },
 
     praeteritum: {
@@ -410,6 +414,10 @@ QUESTION_TEMPLATES = {
         18: "Write the Präteritum (3rd Person Singular) of the following verb:"
             "<br><br>{question} \u25CF er/sie/es _____",
         19: "Write the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
+        20: "Write the Präteritum (3rd Person Singular) of the following verb:"
+            "<br><br>{question} \u25CF er/sie/es _____",
+        21: "Write the Präteritum (3rd Person Singular) of the following verb:"
             "<br><br>{question} \u25CF er/sie/es _____",
     },
 

@@ -165,6 +165,8 @@ artikel: {
         16: "Partizip II of B2 verbs",
         17: "Partizip II of B2 verbs",
         18: "Partizip II of B2 verbs",
+        19: "Partizip II of B2 verbs",
+        20: "Partizip II of B2 verbs",
     },
 
     praeteritum: {
@@ -187,6 +189,8 @@ artikel: {
         17: "Präteritum (3rd. Per. Singular) of B2 verbs",
         18: "Präteritum (3rd. Per. Singular) of B2 verbs",
         19: "Präteritum (3rd. Per. Singular) of B2 verbs",
+        20: "Präteritum (3rd. Per. Singular) of B2 verbs",
+        21: "Präteritum (3rd. Per. Singular) of B2 verbs",
     },
 
     imperativ: {
