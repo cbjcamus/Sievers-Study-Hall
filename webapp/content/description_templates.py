@@ -37,8 +37,13 @@ artikel: {
         4: "Simple (A2) Connectors in sentences",
         5: "Familiar (B1) Connectors in isolation",
         6: "Familiar (B1) Connectors in sentences",
-        7: "Common (B2) Connectors in isolation",
-        8: "Common (B2) Connectors in sentences",
+        7: "Familiar (B1) Connectors' synonyms",
+        8: "Common (B2) Connectors in isolation",
+        9: "Common (B2) Connectors in sentences",
+        10: "Common (B2) Connectors' synonyms",
+        11: "Prevalent (C1) Connectors in isolation",
+        12: "Prevalent (C1) Connectors in sentences",
+        13: "Prevalent (C1) Connectors' synonyms",
     },
 
     praepositionen_grammatik: {

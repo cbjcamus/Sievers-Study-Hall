@@ -1,151 +1,166 @@
-exercise,input,output
-adjektiv,phantastisch,fantastisch
-adjektiv,selbstständig,selbständig
-adverbien,bisweilen,ab und zu
-adverbien,mitunter,ab und zu
-adverbien,von Zeit zu Zeit,ab und zu
-adverbien,zuweilen,ab und zu
-adverbien,draussen,aussen
-adverbien,weiterhin,ausserdem
-adverbien,zudem,ausserdem
-adverbien,insbesondere,besonders
-adverbien,vor allem,besonders
-adverbien,bzw,beziehungsweise
-adverbien,bzw.,beziehungsweise
-adverbien,bislang,bisher
-adverbien,etwa,circa
-adverbien,zirka,circa
-adverbien,dort drüben,da drüben
-adverbien,drüben,da drüben
-adverbien,anschliessend,danach
-adverbien,auf dauer,dauerhaft
-adverbien,permanent,dauerhaft
-adverbien,ständig,dauerhaft
-adverbien,da,dort
-adverbien,daher,dorther
-adverbien,dahin,dorthin
-adverbien,gleichfalls,ebenfalls
-adverbien,tatsächlich,eigentlich
-adverbien,einst,einmal
-adverbien,letztlich,endlich
-adverbien,schliesslich,endlich
-adverbien,zuletzt,endlich
-adverbien,dementsprechend,entsprechend
-adverbien,beinahe,fast
-adverbien,nahezu,fast
-adverbien,quasi,fast
-adverbien,von sich aus,freiwillig
-adverbien,überhaupt,gar
-adverbien,zugleich,gleichzeitig
-adverbien,angenehmerweise,glücklicherweise
-adverbien,erfreulicherweise,glücklicherweise
-adverbien,rauf,herauf
-adverbien,raus,heraus
-adverbien,rein,herein
-adverbien,runter,herunter
-adverbien,heut,heute
-adverbien,ständig,immer
-adverbien,stets,immer
-adverbien,drinnen,innen
-adverbien,in der Zwischenzeit,inzwischen
-adverbien,mittlerweile,inzwischen
-adverbien,nun,jetzt
-adverbien,größtenteils,meistens
-adverbien,wenigstens,mindestens
-adverbien,zumindest,mindestens
-adverbien,freilich,natürlich
-adverbien,selbstverständlich,natürlich
-adverbien,niemals,nie
-adverbien,nirgends,nirgendwo
-adverbien,nirgendswo,nirgendwo
-adverbien,bloß,nur
-adverbien,lediglich,nur
-adverbien,häufig,oft
-adverbien,gesetzlich,rechtlich
-adverbien,geschwindig,schnell
-adverbien,bereits,schon
-adverbien,ohnehin,sowieso
-adverbien,von sich selbst,spontan
-adverbien,teils,teilweise
-adverbien,absolut,unbedingt
-adverbien,durchaus,unbedingt
-adverbien,usw,und so weiter
-adverbien,usw.,und so weiter
-adverbien,anfänglich,ürsprunglich
-adverbien,möglicherweise,vielleicht
-adverbien,wohl,vielleicht
-adverbien,kürzlich,vor kurzem
-adverbien,neulich,vor kurzem
-adverbien,davor,vorher
-adverbien,zuvor,vorher
-adverbien,überwiegend,vorwiegend
-adverbien,nochmal,wieder
-adverbien,wiederum,wieder
-adverbien,ganz,ziemlich
-adverbien,zunächst,zuerst
-adverbien,beispielsweise,zum beispiel
-adverbien,derzeit,zurzeit
-adverbien,momentan,zurzeit
-adverbien,zur zeit,zurzeit
-artikel,einige,manche
-artikel,einigem,manchem
-artikel,einiger,mancher
-fragen,weshalb,warum
-fragen,weswegen,warum
-fragen,wieso,warum
-konnektoren,somit,also
-konnektoren,anfänglich,anfangs
-konnektoren,statt,anstatt
-konnektoren,ehe,bevor
-konnektoren,allerdings,dagegen
-konnektoren,demgegenüber,dagegen
-konnektoren,jedoch,dagegen
-konnektoren,sodass,damit
-konnektoren,daher,deshalb
-konnektoren,darum,deshalb
-konnektoren,deswegen,deshalb
-konnektoren,umso,desto
-konnektoren,daraufhin,folglich
-konnektoren,demnach,folglich
-konnektoren,demzufolge,folglich
-konnektoren,infolgedessen,folglich
-konnektoren,sooft,immer wenn
-konnektoren,obgleich,obwohl
-konnektoren,obschon,obwohl
-konnektoren,sofern,solange
-konnektoren,andernfalls,sonst
-konnektoren,ansonsten,sonst
-konnektoren,dennoch,trotzdem
-konnektoren,gleichwohl,trotzdem
-konnektoren,da,weil
-konnektoren,wogegen,wohingegen
-konnektoren,dafür,zu diesem Zweck
-konnektoren,dazu,zu diesem Zweck
-perfekt,worden,geworden
-praepositionen_grammatik,am,an dem
-praepositionen_grammatik,ans,an das
-praepositionen_grammatik,aufs,auf das
-praepositionen_grammatik,aufm,auf dem
-praepositionen_grammatik,ausm,aus dem
-praepositionen_grammatik,beim,bei dem
-praepositionen_grammatik,durchs,durch das
-praepositionen_grammatik,längs,entlang
-praepositionen_grammatik,fürs,für das
-praepositionen_grammatik,hinters,hinter das
-praepositionen_grammatik,hinterm,hinter dem
-praepositionen_grammatik,im,in dem
-praepositionen_grammatik,entgegen,im gegensatz zu
-praepositionen_grammatik,ins,in das
-praepositionen_grammatik,zufolge,laut
-praepositionen_grammatik,genauso,so
-praepositionen_grammatik,ungeachtet,trotz
-praepositionen_grammatik,übers,über das
-praepositionen_grammatik,überm,über dem
-praepositionen_grammatik,ums,um das
-praepositionen_grammatik,unters,unter das
-praepositionen_grammatik,unterm,unter dem
-praepositionen_grammatik,vom,von dem
-praepositionen_grammatik,vors,vor das
-praepositionen_grammatik,aufgrund,wegen
-praepositionen_grammatik,zum,zu dem
-praepositionen_grammatik,zur,zu der
+exercise,input,output,level,comment
+adjektiv,phantastisch,fantastisch,,
+adjektiv,selbstständig,selbständig,,
+adverbien,bisweilen,ab und zu,,
+adverbien,mitunter,ab und zu,,
+adverbien,von Zeit zu Zeit,ab und zu,,
+adverbien,zuweilen,ab und zu,,
+adverbien,anfänglich,anfangs,,
+adverbien,absolut,auf jeden Fall,,
+adverbien,durchaus,auf jeden Fall,,
+adverbien,unbedingt,auf jeden Fall,,
+adverbien,draussen,aussen,,
+adverbien,weiterhin,ausserdem,,
+adverbien,zudem,ausserdem,,
+adverbien,insbesondere,besonders,,
+adverbien,vor allem,besonders,,
+adverbien,bzw,beziehungsweise,,
+adverbien,bzw.,beziehungsweise,,
+adverbien,bislang,bisher,,
+adverbien,etwa,circa,,
+adverbien,zirka,circa,,
+adverbien,dort drüben,da drüben,,
+adverbien,drüben,da drüben,,
+adverbien,anschliessend,danach,,
+adverbien,auf dauer,dauerhaft,,
+adverbien,permanent,dauerhaft,,
+adverbien,ständig,dauerhaft,,
+adverbien,da,dort,,
+adverbien,daher,dorther,,
+adverbien,dahin,dorthin,,
+adverbien,desgleichen,ebenfalls,,
+adverbien,gleichfalls,ebenfalls,,
+adverbien,tatsächlich,eigentlich,,
+adverbien,einst,einmal,,
+adverbien,letztlich,endlich,,
+adverbien,schliesslich,endlich,,
+adverbien,zuletzt,endlich,,
+adverbien,dementsprechend,entsprechend,,
+adverbien,beinahe,fast,,
+adverbien,nahezu,fast,,
+adverbien,quasi,fast,,
+adverbien,von sich aus,freiwillig,,
+adverbien,überhaupt,gar,,
+adverbien,zugleich,gleichzeitig,,
+adverbien,angenehmerweise,glücklicherweise,,
+adverbien,erfreulicherweise,glücklicherweise,,
+adverbien,rauf,herauf,,
+adverbien,raus,heraus,,
+adverbien,rein,herein,,
+adverbien,runter,herunter,,
+adverbien,heut,heute,,
+adverbien,ständig,immer,,
+adverbien,stets,immer,,
+adverbien,drinnen,innen,,
+adverbien,in der Zwischenzeit,inzwischen,,
+adverbien,mittlerweile,inzwischen,,
+adverbien,nun,jetzt,,
+adverbien,größtenteils,meistens,,
+adverbien,wenigstens,mindestens,,
+adverbien,zumindest,mindestens,,
+adverbien,freilich,natürlich,,
+adverbien,selbstverständlich,natürlich,,
+adverbien,niemals,nie,,
+adverbien,nirgends,nirgendwo,,
+adverbien,nirgendswo,nirgendwo,,
+adverbien,bloß,nur,,
+adverbien,lediglich,nur,,
+adverbien,häufig,oft,,
+adverbien,gesetzlich,rechtlich,,
+adverbien,geschwindig,schnell,,
+adverbien,bereits,schon,,
+adverbien,ohnehin,sowieso,,
+adverbien,von sich selbst,spontan,,
+adverbien,teils,teilweise,,
+adverbien,usw,und so weiter,,
+adverbien,usw.,und so weiter,,
+adverbien,anfänglich,ürsprunglich,,
+adverbien,eventuell,vielleicht,,
+adverbien,möglicherweise,vielleicht,,
+adverbien,wohl,vielleicht,,
+adverbien,kürzlich,vor kurzem,,
+adverbien,neulich,vor kurzem,,
+adverbien,davor,vorher,,
+adverbien,zuvor,vorher,,
+adverbien,überwiegend,vorwiegend,,
+adverbien,nochmal,wieder,,
+adverbien,wiederum,wieder,,
+adverbien,ganz,ziemlich,,
+adverbien,zunächst,zuerst,,
+adverbien,beispielsweise,zum Beispiel,,
+adverbien,derzeit,zurzeit,,
+adverbien,momentan,zurzeit,,
+adverbien,zur zeit,zurzeit,,
+artikel,einige,manche,,
+artikel,einigem,manchem,,
+artikel,einiger,mancher,,
+deverbale_substansive,die Inschrift,die Aufschrift,,
+fragen,weshalb,warum,,
+fragen,weswegen,warum,,
+fragen,wieso,warum,,
+konnektoren,statt zu,anstatt zu,B1,
+konnektoren,sodass,damit,B1,
+konnektoren,darum,deshalb,B1,
+konnektoren,deswegen,deshalb,B1,
+konnektoren,obgleich,obwohl,B1,
+konnektoren,obschon,obwohl,B1,
+konnektoren,dennoch,trotzdem,B1,
+konnektoren,da,weil,B1,
+konnektoren,ehe,bevor,B2,
+konnektoren,allerdings,dagegen,B2,
+konnektoren,demgegenüber,dagegen,B2,
+konnektoren,jedoch,dagegen,B2,
+konnektoren,dafür,dazu,B2,
+konnektoren,zu diesem Zweck,dazu,B2,
+konnektoren,daher,deshalb,B2,
+konnektoren,umso,desto,B2,
+konnektoren,demnach,folglich,B2,
+konnektoren,demzufolge,folglich,B2,
+konnektoren,infolgedessen,folglich,B2,
+konnektoren,sooft,immer wenn,B2,
+konnektoren,andernfalls,sonst,B2,
+konnektoren,wogegen,wohingegen,B2,
+konnektoren,als wenn,als ob,C1,
+konnektoren,wie wenn,als ob,C1,
+konnektoren,somit,also,C1,
+konnektoren,hingegen,dagegen,C1,
+konnektoren,daraufhin,folglich,C1,
+konnektoren,mithin,folglich,C1,
+konnektoren,insoweit,insofern,C1,
+konnektoren,wieweit,inwieweit,C1,
+konnektoren,wenngleich,obwohl,C1,
+konnektoren,vorausgesetzt,sofern,C1,
+konnektoren,ansonsten,sonst,C1,
+konnektoren,soviel,soweit,C1,
+konnektoren,gleichwohl,trotzdem,C1,
+konnektoren,nichtsdestotrotz,trotzdem,C1,
+konnektoren,indes,wohingegen,C1,
+konnektoren,indessen,wohingegen,C1,
+perfekt,worden,geworden,,
+praepositionen_grammatik,ans,an das,,
+praepositionen_grammatik,am,an dem,,
+praepositionen_grammatik,aufs,auf das,,
+praepositionen_grammatik,aufm,auf dem,,
+praepositionen_grammatik,ausm,aus dem,,
+praepositionen_grammatik,beim,bei dem,,
+praepositionen_grammatik,durchs,durch das,,
+praepositionen_grammatik,längs,entlang,,
+praepositionen_grammatik,fürs,für das,,
+praepositionen_grammatik,hinters,hinter das,,
+praepositionen_grammatik,hinterm,hinter dem,,
+praepositionen_grammatik,entgegen,im gegensatz zu,,
+praepositionen_grammatik,ins,in das,,
+praepositionen_grammatik,im,in dem,,
+praepositionen_grammatik,zufolge,laut,,
+praepositionen_grammatik,genauso,so,,
+praepositionen_grammatik,ungeachtet,trotz,,
+praepositionen_grammatik,übers,über das,,
+praepositionen_grammatik,überm,über dem,,
+praepositionen_grammatik,ums,um das,,
+praepositionen_grammatik,unters,unter das,,
+praepositionen_grammatik,unterm,unter dem,,
+praepositionen_grammatik,vom,von dem,,
+praepositionen_grammatik,vors,vor das,,
+praepositionen_grammatik,aufgrund,wegen,,
+praepositionen_grammatik,zum,zu dem,,
+praepositionen_grammatik,zur,zu der,,

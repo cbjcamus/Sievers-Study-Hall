@@ -32,6 +32,7 @@ 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
 
 
 # TODO Priority before April 1st
+# Separate Adverbien in 2
 
 
 # TODO Exercises
@@ -44,7 +45,6 @@ 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
 # Wortschatz: number, ordinal, fractions, double/triple, percent, mathematical terms like plus minus average
 
 # relative pronouns wer wen wem was -> done, needs proofreading
-# Konnektoren C1
 
 
 # TODO To add
@@ -53,13 +53,12 @@ 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
 
 # TODO Format
 # 90 and above green, 80 to 90 Yellow, 70 to 80 Orange, below red
-
+# name of the website
 
 # Framework
 # Learn, Discover and Play
 # Review, Practice and Reinforce
 # Consolidate, Summarize and Apply
-
 
 # Sources
 # 500 verbs german tv: https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/

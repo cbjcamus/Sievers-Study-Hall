@@ -5,7 +5,10 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SYNONYMS_PATH = os.path.join(BASE_DIR, "datasets", "synonyms.csv")
 
 
-def is_equal(user_answer, correct_answer, exercise):
+def is_equal(user_answer, correct_answer, question, exercise):
+    if user_answer == question:
+        return False
+
     user_answer = normalization(user_answer, exercise)
 
     if "/" in correct_answer:
@@ -34,12 +37,13 @@ def search_for_synonyms(input_str, exercise, csv_file=SYNONYMS_PATH):
     return mapping.get(input_str, input_str)
 
 
-def get_answers(word, exercise_type, file_path=SYNONYMS_PATH):
-    synonyms = get_synonyms(word, exercise_type, file_path=file_path)
+def get_answers(answer, exercise, file_path=SYNONYMS_PATH):
+    answer = lowercase_first_letter(answer)
+    synonyms = get_synonyms(answer, exercise, file_path=file_path)
     if not synonyms:
-        return word
+        return answer
     else:
-        return f"{word}, {synonyms}"
+        return f"{answer}, {synonyms}"
 
 
 def get_synonyms(answer, exercise, file_path=SYNONYMS_PATH):
@@ -47,3 +51,9 @@ def get_synonyms(answer, exercise, file_path=SYNONYMS_PATH):
     filtered = df[(df['exercise'] == exercise) & (df['output'] == answer)]
     synonyms = ', '.join(filtered['input'])
     return synonyms
+
+
+def lowercase_first_letter(s):
+    if not s:
+        return s
+    return s[0].lower() + s[1:]

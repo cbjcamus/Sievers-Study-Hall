@@ -65,10 +65,17 @@ FEEDBACK_TEMPLATES = {
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
-        7: "{previous_question} = {correct_answers}",
-        8: "{german}"
+        7: "{english} = {correct_answers}",
+        8: "{previous_question} = {correct_answers}",
+        9: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
+        10: "{english} = {correct_answers}",
+        11: "{previous_question} = {correct_answers}",
+        12: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        13: "{english} = {correct_answers}",
     },
 
     praepositionen_grammatik: {

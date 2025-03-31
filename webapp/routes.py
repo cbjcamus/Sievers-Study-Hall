@@ -294,7 +294,7 @@ def check_answer(exercise, level):
         alinea=alinea,
     )
 
-    correct_answer_condition = is_equal(user_answer, correct_answer, exercise)
+    correct_answer_condition = is_equal(user_answer, correct_answer, question_text, exercise)
 
     session[f"{exercise}_result"] = {
         "result": "correct" if correct_answer_condition else "incorrect",
@@ -302,13 +302,6 @@ def check_answer(exercise, level):
         "user_answer": user_answer,
 
     }
-
-    '''
-    "question": question_text,
-    "answer": correct_answers,
-    "german": german,
-    "english": english
-    '''
 
     # Initialize score storage if missing
     if exercise not in session[score]:
