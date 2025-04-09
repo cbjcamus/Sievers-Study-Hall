@@ -25,7 +25,7 @@ Nr,level,question,english_verb,answer,english
 24,1,lieben,to love,liebend,needing
 25,1,bringen,"to bring, to take, to lead",bringend,loving
 26,1,stehen,"to stand, to be, to appear",stehend,bringing
-27,1,heissen,"to be called, to mean",heissend,standing
+27,1,heißen,"to be called, to mean",heissend,standing
 28,1,nehmen,"to take, to cause oneself to be (in some state)",nehmend,welcoming
 29,1,sprechen,to speak,sprechend,taking
 30,1,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekommend,speaking
@@ -107,7 +107,7 @@ Nr,level,question,english_verb,answer,english
 106,3,schauen,to look at (Bayern/Austria),schauend,looking
 107,3,besuchen,to visit,besuchend,visiting
 108,3,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freuend,joying
-109,3,schliessen,"to shut, to close, to lock, to conclude",schliessend,closing
+109,3,schließen,"to shut, to close, to lock, to conclude",schließend,closing
 110,3,einladen,"to invite, to load (something into a container)",einladend,inviting
 111,3,gefallen,"to please, to appeal to",gefallend,pleasing
 112,3,wünschen,to wish,wünschend,desiring

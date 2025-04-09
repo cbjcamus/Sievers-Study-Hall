@@ -47,7 +47,7 @@ h2 {
     border-radius: 5px;
     margin-top: 0px;
     width: auto; /* Allow flexibility */
-    min-width: 160px; /* Ensure enough space for long words */
+    min-width: 180px; /* Ensure enough space for long words */
     text-align: center;
     margin-bottom: 0px;
     text-decoration: none;

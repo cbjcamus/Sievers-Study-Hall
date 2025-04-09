@@ -1,10 +1,154 @@
-from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv_II,
-                                       partizip_I, konjunktiv_I,
-                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive, )
-
+from data_processing.exercises import (
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    artikel, pronomen, konnektoren, adjektivdeklinationen,
+    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    adverbien, verben, trennbare_verben, deverbale_substantive
+)
 
 FEEDBACK_TEMPLATES = {
+
+    praepositionen_grammatik: {
+        1: "{previous_question} = {correct_answers}",
+        2: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        3: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        4: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        5: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        6: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        7: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        8: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        9: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        10: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        11: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        12: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        13: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        14: "{previous_question} = {correct_answers}",
+        15: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        16: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        17: "{previous_question} = {correct_answers}",
+        18: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        19: "{previous_question} = {correct_answers}",
+        20: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+    },
+
+    praepositionen_verben: {
+        1: "{previous_question} = {german} {correct_answers}",
+        2: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        3: "{previous_question} = {german} {correct_answers}",
+        4: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        5: "{previous_question} = {german} {correct_answers}",
+        6: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        7: "{previous_question} = {german} {correct_answers}",
+        8: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        9: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        10: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        11: "{previous_question} = {german} {correct_answers}",
+        12: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        13: "{previous_question} = {german} {correct_answers}",
+        14: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        15: "{previous_question} = {german} {correct_answers}",
+        16: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        17: "{previous_question} = {german} {correct_answers}",
+        18: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        19: "{previous_question} = {german} {correct_answers}",
+        20: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        21: "{previous_question} = {german} {correct_answers}",
+        22: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+    },
+
+    praepositionen_adjektive: {
+        1: "{previous_question} = {german} {correct_answers}",
+        2: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        3: "{previous_question} = {german} {correct_answers}",
+        4: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        5: "{previous_question} = {german} {correct_answers}",
+        6: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+    },
+
+    praepositionen_nomen: {
+        1: "{previous_question} = {german} {correct_answers}",
+        2: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        3: "{previous_question} = {german} {correct_answers}",
+        4: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        5: "{previous_question} = {german} {correct_answers}",
+        6: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        7: "{previous_question} = {german} {correct_answers}",
+        8: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        9: "{previous_question} = {german} {correct_answers}",
+        10: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+    },
+
     artikel: {
         1: "{german}"
             "<br><br><i>{english}</i>"
@@ -76,52 +220,6 @@ FEEDBACK_TEMPLATES = {
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
         13: "{english} = {correct_answers}",
-    },
-
-    praepositionen_grammatik: {
-        1: "{previous_question} = {correct_answers}",
-        2: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        3: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        4: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        5: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        6: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        7: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        8: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        9: "{previous_question} = {correct_answers}",
-        10: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        11: "{previous_question} = {correct_answers}",
-        12: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        13: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        14: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        15: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        16: "{previous_question} = {correct_answers}",
-        17: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
     },
 
     adjektivdeklinationen: {
@@ -210,84 +308,7 @@ FEEDBACK_TEMPLATES = {
             "<br><br>{previous_question} = {english}",
     },
 
-    praepositionen_konjugation: {
-        1: "{previous_question} = {german} {correct_answers}",
-        2: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        3: "{previous_question} = {german} {correct_answers}",
-        4: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        5: "{previous_question} = {german} {correct_answers}",
-        6: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        7: "{previous_question} = {german} {correct_answers}",
-        8: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        9: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        10: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        11: "{previous_question} = {german} {correct_answers}",
-        12: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        13: "{previous_question} = {german} {correct_answers}",
-        14: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        15: "{previous_question} = {german} {correct_answers}",
-        16: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        17: "{previous_question} = {german} {correct_answers}",
-        18: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        19: "{previous_question} = {german} {correct_answers}",
-        20: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        21: "{previous_question} = {german} {correct_answers}",
-        22: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        23: "{previous_question} = {german} {correct_answers}",
-        24: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        25: "{previous_question} = {german} {correct_answers}",
-        26: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        27: "{previous_question} = {german} {correct_answers}",
-        28: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        29: "{previous_question} = {german} {correct_answers}",
-        30: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        31: "{previous_question} = {german} {correct_answers}",
-        32: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        33: "{previous_question} = {german} {correct_answers}",
-        34: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        35: "{previous_question} = {german} {correct_answers}",
-        36: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-    },
-
-    perfekt: {
+    partizip_II: {
         1: "Partizip II {previous_question}: {correct_answers}"
            "<br><br>{previous_question} = {english}",
         2: "Partizip II {previous_question}: {correct_answers}"
@@ -450,6 +471,38 @@ FEEDBACK_TEMPLATES = {
            "<br><br>Correct answer(s): {correct_answers}",
         15: "{previous_question} = {correct_answers}",
         16: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        17: "{previous_question} = {correct_answers}",
+        18: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        19: "{previous_question} = {correct_answers}",
+        20: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        21: "{previous_question} = {correct_answers}",
+        22: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        23: "{previous_question} = {correct_answers}",
+        24: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        25: "{previous_question} = {correct_answers}",
+        26: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        27: "{previous_question} = {correct_answers}",
+        28: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        29: "{previous_question} = {correct_answers}",
+        30: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        31: "{previous_question} = {correct_answers}",
+        32: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
     },

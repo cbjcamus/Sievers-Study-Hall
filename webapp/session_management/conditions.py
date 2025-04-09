@@ -1,5 +1,6 @@
-from data_processing.session_management.session_ import progress, score, result
-from data_processing.data_loading import load_data, pick_a_question
+from webapp.session_management.session_ import progress, result
+from data_processing.data_loading import load_data
+from webapp.session_management.pick_a_question import pick_a_question
 
 
 def level_finished(exercise, level, session):

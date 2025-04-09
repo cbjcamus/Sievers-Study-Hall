@@ -32,7 +32,15 @@ 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
 
 
 # TODO Priority before April 1st
-# Separate Adverbien in 2
+
+
+
+# TODO To add
+# Words in trag (Antrag, Vertrag, Betrag, Beitrag)
+# Words in schlag Totschlag
+# Words in Zahl
+
+# hören/erkennen/ansehen an
 
 
 # TODO Exercises
@@ -41,19 +49,16 @@ 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
 # Wortschatz: adjektives to verben
 # Wortschatz: adjektives: write the opposite
 # Wortschatz: verben to adjective in bar and lich
+# Wortschatz: adjektives in reich, voll, los, sam
 # Wortschatz: adjektives Partizip II and I
 # Wortschatz: number, ordinal, fractions, double/triple, percent, mathematical terms like plus minus average
 
 # relative pronouns wer wen wem was -> done, needs proofreading
 
 
-# TODO To add
-# Words in trag (Antrag, Vertrag, Betrag, Beitrag)
-
-
 # TODO Format
 # 90 and above green, 80 to 90 Yellow, 70 to 80 Orange, below red
-# name of the website
+
 
 # Framework
 # Learn, Discover and Play

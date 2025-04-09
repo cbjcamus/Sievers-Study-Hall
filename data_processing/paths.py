@@ -1,56 +1,38 @@
 import os
 
-from data_processing.exercises import (artikel, pronomen, konnektoren, praepositionen_grammatik, adjektivdeklinationen,
-                                       praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum, konjunktiv_II,
-                                       partizip_I, konjunktiv_I,
-                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive)
+from data_processing.exercises import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+                                       artikel, pronomen, konnektoren, adjektivdeklinationen,
+                                       praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,
+                                       )
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-DATA_PATH = {artikel: os.path.join(BASE_DIR, "datasets", "artikel.csv"),
-             pronomen: os.path.join(BASE_DIR, "datasets", "pronomen.csv"),
-             konnektoren: os.path.join(BASE_DIR, "datasets", "konnektoren.csv"),
-             praepositionen_grammatik: os.path.join(BASE_DIR, "datasets", "praepositionen_grammatik.csv"),
-             adjektivdeklinationen: os.path.join(BASE_DIR, "datasets", "adjektivdeklinationen.csv"),
+DATA_PATH = {
+    praepositionen_grammatik: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_grammatik.csv"),
+    praepositionen_verben: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_verben.csv"),
+    praepositionen_adjektive: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_adjektive.csv"),
+    praepositionen_nomen: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_nomen.csv"),
 
-             praesens: os.path.join(BASE_DIR, "datasets", "praesens.csv"),
-             praepositionen_konjugation: os.path.join(BASE_DIR, "datasets", "praepositionen_konjugation.csv"),
-             imperativ: os.path.join(BASE_DIR, "datasets", "imperativ.csv"),
-             perfekt: os.path.join(BASE_DIR, "datasets", "perfekt.csv"),
-             praeteritum: os.path.join(BASE_DIR, "datasets", "praeteritum.csv"),
-             konjunktiv_II: os.path.join(BASE_DIR, "datasets", "konjunktiv_II.csv"),
-             konjunktiv_I: os.path.join(BASE_DIR, "datasets", "konjunktiv_I.csv"),
-             partizip_I: os.path.join(BASE_DIR, "datasets", "partizip_I.csv"),
+    artikel: os.path.join(BASE_DIR, "datasets/grammatik", "artikel.csv"),
+    pronomen: os.path.join(BASE_DIR, "datasets/grammatik", "pronomen.csv"),
+    konnektoren: os.path.join(BASE_DIR, "datasets/grammatik", "konnektoren.csv"),
+    adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/grammatik", "adjektivdeklinationen.csv"),
 
-             adverbien: os.path.join(BASE_DIR, "datasets", "adverbien.csv"),
-             verben: os.path.join(BASE_DIR, "datasets", "verben.csv"),
-             trennbare_verben: os.path.join(BASE_DIR, "datasets", "trennbare_verben.csv"),
-             adjektive: os.path.join(BASE_DIR, "datasets", "adjektive.csv"),
-             deverbale_substantive: os.path.join(BASE_DIR, "datasets", "deverbale_substantive.csv"),
+    praesens: os.path.join(BASE_DIR, "datasets/konjugation", "praesens.csv"),
+    imperativ: os.path.join(BASE_DIR, "datasets/konjugation", "imperativ.csv"),
+    partizip_II: os.path.join(BASE_DIR, "datasets/konjugation", "partizip_II.csv"),
+    praeteritum: os.path.join(BASE_DIR, "datasets/konjugation", "praeteritum.csv"),
+    konjunktiv_II: os.path.join(BASE_DIR, "datasets/konjugation", "konjunktiv_II.csv"),
+    konjunktiv_I: os.path.join(BASE_DIR, "datasets/konjugation", "konjunktiv_I.csv"),
+    partizip_I: os.path.join(BASE_DIR, "datasets/konjugation", "partizip_I.csv"),
+
+    adverbien: os.path.join(BASE_DIR, "datasets/wortschatz", "adverbien.csv"),
+    verben: os.path.join(BASE_DIR, "datasets/wortschatz", "verben.csv"),
+    trennbare_verben: os.path.join(BASE_DIR, "datasets/wortschatz", "trennbare_verben.csv"),
+    adjektive: os.path.join(BASE_DIR, "datasets/wortschatz", "adjektive.csv"),
+    deverbale_substantive: os.path.join(BASE_DIR, "datasets/wortschatz", "deverbale_substantive.csv"),
              }
-
-EXERCISE_PAGES = {
-    konnektoren: "/konnektoren",
-    artikel: "/artikel",
-    pronomen: "/pronomen",
-    praepositionen_grammatik: "/praepositionen_grammatik",
-    adjektivdeklinationen: "/adjektivdeklinationen",
-
-    praesens: "/praesens",
-    praepositionen_konjugation: "/praepositionen_konjugation",
-    imperativ: "/imperativ",
-    perfekt: "/perfekt",
-    praeteritum: "/praeteritum",
-    konjunktiv_II: "/konjunktiv_II",
-    konjunktiv_I: "/konjunktiv_I",
-    partizip_I: "/partizip_I",
-
-    adverbien: "/adverbien",
-    verben: "/verben",
-    trennbare_verben: "/trennbare_verben",
-    adjektive: "/adjektive",
-    deverbale_substantive: "/deverbale_substantive",
-}
 
 SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),
               pronomen: os.path.join(BASE_DIR, "scores/pronomen", ""),
@@ -59,9 +41,9 @@ SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),
               adjektivdeklinationen: os.path.join(BASE_DIR, "scores/adjektivdeklinationen", ""),
 
               praesens: os.path.join(BASE_DIR, "scores/praesens", ""),
-              praepositionen_konjugation: os.path.join(BASE_DIR, "scores/praepositionen_konjugation", ""),
+              praepositionen_verben: os.path.join(BASE_DIR, "scores/praepositionen_konjugation", ""),
               imperativ: os.path.join(BASE_DIR, "scores/imperativ", ""),
-              perfekt: os.path.join(BASE_DIR, "scores/perfekt", ""),
+              partizip_II: os.path.join(BASE_DIR, "scores/partizip_II", ""),
               praeteritum: os.path.join(BASE_DIR, "scores/praeteritum", ""),
               konjunktiv_II: os.path.join(BASE_DIR, "scores/konjunktiv", ""),
 

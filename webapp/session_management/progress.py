@@ -1,8 +1,8 @@
 import pandas as pd
 
-from data_processing.session_management.total_questions import compute_total_questions, compute_highest_level
+from webapp.session_management.total_questions import compute_total_questions, compute_highest_level
 from data_processing.paths import SCORE_PATH
-from data_processing.session_management.session_ import progress, result
+from webapp.session_management.session_ import progress, result
 
 
 def compute_answered_questions(exercise, level=None, session=None):

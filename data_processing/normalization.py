@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-SYNONYMS_PATH = os.path.join(BASE_DIR, "datasets", "synonyms.csv")
+SYNONYMS_PATH = os.path.join(BASE_DIR, "datasets/other", "synonyms.csv")
 
 
 def is_equal(user_answer, correct_answer, question, exercise):

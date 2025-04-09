@@ -1,5 +1,5 @@
-from data_processing.session_management.score import compute_score
-from data_processing.session_management.session_ import result, progress, score
+from webapp.session_management.score import compute_score
+from webapp.session_management.session_ import result, progress, score
 
 
 def register_result(exercise, level, session):

@@ -1,13 +1,16 @@
+praepositionen_grammatik = 'praepositionen_grammatik'
+praepositionen_verben = 'praepositionen_verben'
+praepositionen_adjektive = 'praepositionen_adjektive'
+praepositionen_nomen = 'praepositionen_nomen'
+
 artikel = 'artikel'
 pronomen = 'pronomen'
 konnektoren = 'konnektoren'
-praepositionen_grammatik = 'praepositionen_grammatik'
 adjektivdeklinationen = 'adjektivdeklinationen'
 
 praesens = 'praesens'
-praepositionen_konjugation = 'praepositionen_konjugation'
 imperativ = 'imperativ'
-perfekt = 'perfekt'
+partizip_II = 'partizip_II'
 praeteritum = 'praeteritum'
 konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
@@ -19,8 +22,8 @@ trennbare_verben = 'trennbare_verben'
 adjektive = 'adjektive'
 deverbale_substantive = 'deverbale_substantive'
 
-exercises = [artikel, pronomen, praepositionen_grammatik, konnektoren, adjektivdeklinationen,
-             praesens, praepositionen_konjugation, imperativ, perfekt, praeteritum,
-             konjunktiv_II, konjunktiv_I, partizip_I,
+exercises = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+             artikel, pronomen, konnektoren, adjektivdeklinationen,
+             praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
              adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,
              ]

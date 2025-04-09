@@ -1,5 +1,5 @@
-from data_processing.session_management.total_questions import compute_highest_level, compute_total_questions
-from data_processing.session_management.session_ import score, result
+from webapp.session_management.total_questions import compute_highest_level, compute_total_questions
+from webapp.session_management.session_ import score, result
 
 
 def write_score(exercise, level=None, session=None):

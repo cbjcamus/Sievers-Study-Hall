@@ -1,15 +1,15 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for
 
-from data_processing.normalization import normalization, get_answers, is_equal
-from data_processing.paths import EXERCISE_PAGES
-from data_processing.session_management.progress import compute_answered_questions
-from data_processing.session_management.total_questions import compute_total_questions
-from data_processing.session_management.score import write_score
-from data_processing.data_loading import load_data, pick_a_question
+from data_processing.normalization import get_answers, is_equal
+from webapp.session_management.progress import compute_answered_questions
+from webapp.session_management.total_questions import compute_total_questions
+from webapp.session_management.score import write_score
+from data_processing.data_loading import load_data
+from webapp.session_management.pick_a_question import pick_a_question
 from data_processing.proverbs import get_text_proverb
-from data_processing.session_management.session_ import progress, score, result, print_session
-from data_processing.session_management.result import register_result
-from data_processing.session_management.conditions import level_finished
+from webapp.session_management.session_ import progress, score, result
+from webapp.session_management.result import register_result
+from webapp.session_management.conditions import level_finished
 
 from webapp.interface import alinea, format_english, format_german
 from webapp.content.title_page import TITLE_PAGE
@@ -17,6 +17,7 @@ from webapp.content.back_button import BACK_BUTTON
 from webapp.content.feedback_templates import FEEDBACK_TEMPLATES
 from webapp.content.question_templates import QUESTION_TEMPLATES
 from webapp.content.description_templates import DESCRIPTION_TEMPLATES
+from webapp.content.exercise_page import EXERCISE_PAGES
 
 routes = Blueprint("routes", __name__)
 
@@ -42,10 +43,45 @@ def home():
                            score=write_score,
                            )
 
+@routes.route('/praepositionen_grammatik')
+def praepositionen_grammatik():
+    return render_template('praepositionen/praepositionen_grammatik.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/praepositionen_verben')
+def praepositionen_verben():
+    return render_template('praepositionen/praepositionen_verben.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/praepositionen_adjektive')
+def praepositionen_adjektive():
+    return render_template('praepositionen/praepositionen_adjektive.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/praepositionen_nomen')
+def praepositionen_nomen():
+    return render_template('praepositionen/praepositionen_nomen.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
 
 @routes.route('/artikel')
 def artikel():
-    return render_template('artikel.html',
+    return render_template('grammatik/artikel.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -54,7 +90,7 @@ def artikel():
 
 @routes.route('/pronomen')
 def pronomen():
-    return render_template('pronomen.html',
+    return render_template('grammatik/pronomen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -63,16 +99,7 @@ def pronomen():
 
 @routes.route('/konnektoren')
 def konnektoren():
-    return render_template('konnektoren.html',
-                           answered_questions=compute_answered_questions,
-                           total_questions=compute_total_questions,
-                           score=write_score,
-                           description_templates=DESCRIPTION_TEMPLATES)
-
-
-@routes.route('/praepositionen_grammatik')
-def praepositionen_grammatik():
-    return render_template('praepositionen_grammatik.html',
+    return render_template('grammatik/konnektoren.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -81,7 +108,7 @@ def praepositionen_grammatik():
 
 @routes.route('/adjektivdeklinationen')
 def adjektivdeklinationen():
-    return render_template('adjektivdeklinationen.html',
+    return render_template('grammatik/adjektivdeklinationen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -90,25 +117,16 @@ def adjektivdeklinationen():
 
 @routes.route('/praesens')
 def praesens():
-    return render_template('praesens.html',
+    return render_template('konjugation/praesens.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
-@routes.route('/praepositionen_konjugation')
-def praepositionen_konjugation():
-    return render_template('praepositionen_konjugation.html',
-                           answered_questions=compute_answered_questions,
-                           total_questions=compute_total_questions,
-                           score=write_score,
-                           description_templates=DESCRIPTION_TEMPLATES)
-
-
-@routes.route('/perfekt')
-def perfekt():
-    return render_template('perfekt.html',
+@routes.route('/partizip_II')
+def partizip_II():
+    return render_template('konjugation/partizip_II.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -117,7 +135,7 @@ def perfekt():
 
 @routes.route('/praeteritum')
 def praeteritum():
-    return render_template('praeteritum.html',
+    return render_template('konjugation/praeteritum.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -126,7 +144,7 @@ def praeteritum():
 
 @routes.route('/imperativ')
 def imperativ():
-    return render_template('imperativ.html',
+    return render_template('konjugation/imperativ.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -135,7 +153,7 @@ def imperativ():
 
 @routes.route('/konjunktiv_II')
 def konjunktiv_II():
-    return render_template('konjunktiv_II.html',
+    return render_template('konjugation/konjunktiv_II.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -144,7 +162,7 @@ def konjunktiv_II():
 
 @routes.route('/konjunktiv_I')
 def konjunktiv_I():
-    return render_template('konjunktiv_I.html',
+    return render_template('konjugation/konjunktiv_I.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -153,7 +171,7 @@ def konjunktiv_I():
 
 @routes.route('/partizip_I')
 def partizip_I():
-    return render_template('partizip_I.html',
+    return render_template('konjugation/partizip_I.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -162,7 +180,7 @@ def partizip_I():
 
 @routes.route('/adverbien')
 def adverbien():
-    return render_template('adverbien.html',
+    return render_template('wortschatz/adverbien.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -171,7 +189,7 @@ def adverbien():
 
 @routes.route('/verben')
 def verben():
-    return render_template('verben.html',
+    return render_template('wortschatz/verben.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -180,7 +198,7 @@ def verben():
 
 @routes.route('/trennbare_verben')
 def trennbare_verben():
-    return render_template('trennbare_verben.html',
+    return render_template('wortschatz/trennbare_verben.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -189,7 +207,7 @@ def trennbare_verben():
 
 @routes.route('/deverbale_substantive')
 def deverbale_substantive():
-    return render_template('deverbale_substantive.html',
+    return render_template('wortschatz/deverbale_substantive.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,

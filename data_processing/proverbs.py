@@ -2,16 +2,10 @@ import pandas as pd
 import os
 import random
 
-
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-PROVERBS_PATH = os.path.join(BASE_DIR, "datasets", "proverbs.csv")
+PROVERBS_PATH = os.path.join(BASE_DIR, "datasets/other", "proverbs.csv")
 
 proverbs = pd.read_csv(PROVERBS_PATH)
-
-
-def get_random_proverb():
-    proverb = proverbs.sample(1).iloc[0]
-    return proverb
 
 
 def get_text_proverb():
@@ -24,6 +18,11 @@ def get_text_proverb():
     else:
         text = ""
     return text
+
+
+def get_random_proverb():
+    proverb = proverbs.sample(1).iloc[0]
+    return proverb
 
 
 def change_color(text, color="#AEEEEE"):
