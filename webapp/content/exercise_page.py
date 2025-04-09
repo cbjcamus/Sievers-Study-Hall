@@ -2,7 +2,7 @@ from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, adjektive, deverbale_substantive
+    adverbien, verben, trennbare_verben, adjektive, deverbale_nomen
 )
 
 EXERCISE_PAGES = {
@@ -28,5 +28,5 @@ EXERCISE_PAGES = {
     verben: "/verben",
     trennbare_verben: "/trennbare_verben",
     adjektive: "/adjektive",
-    deverbale_substantive: "/deverbale_substantive",
+    deverbale_nomen: "/deverbale_substantive",
 }

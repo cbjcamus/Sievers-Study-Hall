@@ -2,7 +2,7 @@ from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_substantive
+    adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
 BACK_BUTTON = {
@@ -27,5 +27,5 @@ BACK_BUTTON = {
     adverbien: "Adverbien",
     verben: "Verben",
     trennbare_verben: "(Un)trennbare Verben",
-    deverbale_substantive: "Deverbale Substantive",
+    deverbale_nomen: "Deverbale Substantive",
     }

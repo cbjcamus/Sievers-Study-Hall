@@ -6,6 +6,7 @@ praepositionen_nomen = 'praepositionen_nomen'
 artikel = 'artikel'
 pronomen = 'pronomen'
 konnektoren = 'konnektoren'
+adverbien = 'adverbien'
 adjektivdeklinationen = 'adjektivdeklinationen'
 
 praesens = 'praesens'
@@ -16,14 +17,13 @@ konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
 
-adverbien = 'adverbien'
 verben = 'verben'
 trennbare_verben = 'trennbare_verben'
 adjektive = 'adjektive'
-deverbale_substantive = 'deverbale_substantive'
+deverbale_nomen = 'deverbale_nomen'
 
 exercises = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-             artikel, pronomen, konnektoren, adjektivdeklinationen,
+             artikel, pronomen, konnektoren, adverbien, adjektivdeklinationen,
              praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-             adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,
+             verben, trennbare_verben, adjektive, deverbale_nomen,
              ]

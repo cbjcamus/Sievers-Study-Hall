@@ -60,6 +60,13 @@ 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
 # 90 and above green, 80 to 90 Yellow, 70 to 80 Orange, below red
 
 
+# TODO Contact
+# the german professor: https://www.thegermanprofessor.com
+# german.net: https://german.net/
+# deutsch wtf: https://deutsch.wtf/
+# german with Laura: https://germanwithlaura.com/
+
+
 # Framework
 # Learn, Discover and Play
 # Review, Practice and Reinforce

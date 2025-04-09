@@ -2,7 +2,7 @@ from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_substantive
+    adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
 DESCRIPTION_TEMPLATES = {
@@ -313,7 +313,7 @@ DESCRIPTION_TEMPLATES = {
         12: "B2 (un)trennbare Verbs with prefix help",
     },
 
-    deverbale_substantive: {
+    deverbale_nomen: {
         1: "Main Deverbal Nouns (nouns derived verbs)",
         2: "Main Deverbal Nouns (nouns derived verbs)",
         3: "Deverbal Nouns derived from A1 Verbs",

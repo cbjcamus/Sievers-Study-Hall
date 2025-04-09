@@ -180,7 +180,7 @@ def partizip_I():
 
 @routes.route('/adverbien')
 def adverbien():
-    return render_template('wortschatz/adverbien.html',
+    return render_template('grammatik/adverbien.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -189,7 +189,7 @@ def adverbien():
 
 @routes.route('/verben')
 def verben():
-    return render_template('wortschatz/verben.html',
+    return render_template('verben/verben.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
@@ -198,7 +198,7 @@ def verben():
 
 @routes.route('/trennbare_verben')
 def trennbare_verben():
-    return render_template('wortschatz/trennbare_verben.html',
+    return render_template('verben/trennbare_verben.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,

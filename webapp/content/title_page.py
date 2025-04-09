@@ -2,7 +2,7 @@ from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_substantive
+    adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
 TITLE_PAGE = {
@@ -27,6 +27,6 @@ TITLE_PAGE = {
     adverbien: "Adverbien (Beta)",
     verben: "Verben (Beta)",
     trennbare_verben: "(Un)trennbare Verben (Beta)",
-    deverbale_substantive: "Deverbale Substantive (Beta)",
+    deverbale_nomen: "Deverbale Substantive (Beta)",
     }
 

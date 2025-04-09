@@ -65,6 +65,12 @@
                 <td></td>
             </tr>
             <tr>
+                <td><a href="/adverbien" class="button">Adverbien</a></td>
+                <td>{{ answered_questions('adverbien', session=session) }}/{{ total_questions('adverbien') }}</td>
+                <td>{{ score('adverbien', session=session) }}</td>
+                <td></td>
+            </tr>
+            <tr>
                 <td><a href="/adjektivdeklinationen" class="button">Adjektivdeklinationen</a></td>
                 <td>{{ answered_questions('adjektivdeklinationen', session=session) }}/{{ total_questions('adjektivdeklinationen') }}</td>
                 <td>{{ score('adjektivdeklinationen', session=session) }}</td>
@@ -122,14 +128,8 @@
     </div>
 
     <div class="section">
-        <h2>Wortschatz (Beta)</h2>
+        <h2>Verben</h2>
         <table class="level-table">
-            <tr>
-                <td><a href="/adverbien" class="button">Adverbien</a></td>
-                <td>{{ answered_questions('adverbien', session=session) }}/{{ total_questions('adverbien') }}</td>
-                <td>{{ score('adverbien', session=session) }}</td>
-                <td></td>
-            </tr>
             <tr>
                 <td><a href="/verben" class="button">Verben</a></td>
                 <td>{{ answered_questions('verben', session=session) }}/{{ total_questions('verben') }}</td>
@@ -140,12 +140,6 @@
                 <td><a href="/trennbare_verben" class="button">(Un)trennbare Verben</a></td>
                 <td>{{ answered_questions('trennbare_verben', session=session) }}/{{ total_questions('trennbare_verben') }}</td>
                 <td>{{ score('trennbare_verben', session=session) }}</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><a href="/deverbale_substantive" class="button">Deverbale Substantive</a></td>
-                <td>{{ answered_questions('deverbale_substantive', session=session) }}/{{ total_questions('deverbale_substantive') }}</td>
-                <td>{{ score('deverbale_substantive', session=session) }}</td>
                 <td></td>
             </tr>
         </table>

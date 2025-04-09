@@ -3,7 +3,7 @@ import os
 from data_processing.exercises import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
                                        artikel, pronomen, konnektoren, adjektivdeklinationen,
                                        praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-                                       adverbien, verben, trennbare_verben, adjektive, deverbale_substantive,
+                                       adverbien, verben, trennbare_verben, adjektive, deverbale_nomen,
                                        )
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -17,6 +17,7 @@ DATA_PATH = {
     artikel: os.path.join(BASE_DIR, "datasets/grammatik", "artikel.csv"),
     pronomen: os.path.join(BASE_DIR, "datasets/grammatik", "pronomen.csv"),
     konnektoren: os.path.join(BASE_DIR, "datasets/grammatik", "konnektoren.csv"),
+    adverbien: os.path.join(BASE_DIR, "datasets/grammatik", "adverbien.csv"),
     adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/grammatik", "adjektivdeklinationen.csv"),
 
     praesens: os.path.join(BASE_DIR, "datasets/konjugation", "praesens.csv"),
@@ -27,11 +28,10 @@ DATA_PATH = {
     konjunktiv_I: os.path.join(BASE_DIR, "datasets/konjugation", "konjunktiv_I.csv"),
     partizip_I: os.path.join(BASE_DIR, "datasets/konjugation", "partizip_I.csv"),
 
-    adverbien: os.path.join(BASE_DIR, "datasets/wortschatz", "adverbien.csv"),
-    verben: os.path.join(BASE_DIR, "datasets/wortschatz", "verben.csv"),
-    trennbare_verben: os.path.join(BASE_DIR, "datasets/wortschatz", "trennbare_verben.csv"),
+    verben: os.path.join(BASE_DIR, "datasets/konjugation", "verben.csv"),
+    trennbare_verben: os.path.join(BASE_DIR, "datasets/konjugation", "trennbare_verben.csv"),
     adjektive: os.path.join(BASE_DIR, "datasets/wortschatz", "adjektive.csv"),
-    deverbale_substantive: os.path.join(BASE_DIR, "datasets/wortschatz", "deverbale_substantive.csv"),
+    deverbale_nomen: os.path.join(BASE_DIR, "datasets/wortschatz", "deverbale_substantive.csv"),
              }
 
 SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),
