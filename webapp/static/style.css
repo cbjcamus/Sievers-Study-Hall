@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-    color: lightgray; /* or another color when hovering */
+    /*color: lightgray;  or another color when hovering */
 }
 
 .hamburger-container {
