@@ -6,7 +6,7 @@ from data_processing.exercises import (
 )
 
 TITLE_PAGE = {
-    praepositionen_grammatik: "Präpositionen – Grammatik",
+    praepositionen_grammatik: "Präpositionen",
     praepositionen_verben: "Präpositionen – Verben",
     praepositionen_adjektive: "Präpositionen – Adjektive",
     praepositionen_nomen: "Präpositionen – Nomen",

@@ -32,7 +32,14 @@ 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
 
 
 # TODO Priority before April 1st
+# Write FAQ
+# Goal
+# How does it work: progress, result, machine
+# Pipeline
+# Contact
+# Source & Credits
 
+# check again preposition grammatik gegen
 
 
 # TODO To add
@@ -58,13 +65,7 @@ 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
 
 # TODO Format
 # 90 and above green, 80 to 90 Yellow, 70 to 80 Orange, below red
-
-
-# TODO Contact
-# the german professor: https://www.thegermanprofessor.com
-# german.net: https://german.net/
-# deutsch wtf: https://deutsch.wtf/
-# german with Laura: https://germanwithlaura.com/
+# Everything in header in a macro?
 
 
 # Framework

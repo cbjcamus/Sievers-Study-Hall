@@ -15,4 +15,20 @@
         <h1 style="flex-grow: 1; text-align: center; margin: 0;">{{title}}</h1>
         <div style="width: 75px;"></div> <!-- Spacer to balance the logo -->
     </div>
+
+    <div class="hamburger-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div id="menu" class="menu">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </div>
+    </div>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.classList.toggle('show');
+}
+</script>
+
 {% endmacro %}

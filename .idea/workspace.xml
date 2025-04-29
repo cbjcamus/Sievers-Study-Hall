@@ -4,29 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="big commit">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/webapp/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/praepositionen/praepositionen_nomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praepositionen/praepositionen_nomen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/wortschatz/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/grammatik/adverbien.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/wortschatz/trennbare_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/konjugation/trennbare_verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/wortschatz/verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/konjugation/verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/grammatik/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/grammatik/adverbien.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/other/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/content/back_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/back_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/content/description_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/description_templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/feedback_templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/question_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/question_templates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/content/title_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/title_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/wortschatz/adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/adverbien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/wortschatz/deverbale_substantive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/wortschatz/deverbale_substantive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/wortschatz/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben/trennbare_verben.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/wortschatz/verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben/verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744213278243</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="commit">
+      <option name="closed" value="true" />
+      <created>1744223163468</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1744223163468</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -449,9 +450,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
     <MESSAGE value="big commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="big commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

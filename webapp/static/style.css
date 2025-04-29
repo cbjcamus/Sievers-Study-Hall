@@ -6,6 +6,54 @@ body {
     padding: 20px;
 }
 
+a {
+    color: white; /* or any color you want */
+}
+
+a:hover {
+    color: lightgray; /* or another color when hovering */
+}
+
+.hamburger-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hamburger {
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #131b22;
+    border: 0px solid #ccc;
+    z-index: 1000;
+    flex-direction: column;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #333;
+}
+
+.menu.show {
+    display: flex;
+}
+
 h1 {
     text-align: center;
     margin-top: 0px;
@@ -41,17 +89,18 @@ h2 {
     background-color: white;
     color: #161F23;
     border: none;
-    padding: 7.5px 20px; /* Slightly wider padding */
+    /* padding: 7.5px 20px; Slightly wider padding */
+    padding: 5px 10px; /* Slightly wider padding */
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 0px;
     width: auto; /* Allow flexibility */
-    min-width: 180px; /* Ensure enough space for long words */
+    /* min-width: 180px; /* Ensure enough space for long words */
     text-align: center;
     margin-bottom: 0px;
     text-decoration: none;
-    white-space: nowrap; /* Prevent breaking onto a new line */
+    /* white-space: nowrap; Prevent breaking onto a new line */
 }
 
 .button:hover {
@@ -159,6 +208,10 @@ h2 {
     font-weight: bold;
 }
 
+.feedback-message {
+    max-width:100%;
+}
+
 .proverb-container {
     width: 400px; /* Fixed width */
     margin: 20px auto; /* Centers the container itself */
@@ -235,5 +288,38 @@ h2 {
 .level-table td a.button {
     display: inline-block;
     width: 100px;
+    text-align: center;
+}
+
+.exercise-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.exercise-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.exercise-table td:nth-child(1) {
+    width: 25%;
+}
+
+.exercise-table td:nth-child(2) {
+    width: 10%;
+}
+
+.exercise-table td:nth-child(3) {
+    width: 10%;
+}
+
+.exercise-table td:nth-child(4) {
+    width: 60%;
+}
+
+.exercise-table td a.button {
+    display: inline-block;
+    width: 180px;
     text-align: center;
 }

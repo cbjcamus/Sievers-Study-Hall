@@ -53,14 +53,14 @@
             {% if result == 'correct' %}
                 <p class="correct">Correct</p>
                 {% if feedback_message %}
-                    <p>{{ feedback_message | safe }}</p>
+                    <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
             {% else %}
                 <p class="incorrect">Incorrect</p>
                 {% if feedback_message %}
-                    <p>{{ feedback_message | safe }}</p>
+                    <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
-                <p>Your answer: {{ user_answer }}</p>
+                <p class="feedback-message">Your answer: {{ user_answer }}</p>
             {% endif %}
         </div>
     </div>

@@ -43,6 +43,13 @@ def home():
                            score=write_score,
                            )
 
+
+@routes.route('/about')
+def about():
+    return render_template('about.html',
+                           )
+
+
 @routes.route('/praepositionen_grammatik')
 def praepositionen_grammatik():
     return render_template('praepositionen/praepositionen_grammatik.html',

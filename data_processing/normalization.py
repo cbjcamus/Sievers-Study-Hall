@@ -13,6 +13,7 @@ def is_equal(user_answer, correct_answer, question, exercise):
 
     if "/" in correct_answer:
         correct_answers = correct_answer.split("/")
+        correct_answers = [normalization(answer, exercise) for answer in correct_answers]
         return user_answer in correct_answers
     else:
         correct_answer = normalization(correct_answer, exercise)
@@ -38,12 +39,19 @@ def search_for_synonyms(input_str, exercise, csv_file=SYNONYMS_PATH):
 
 
 def get_answers(answer, exercise, file_path=SYNONYMS_PATH):
-    answer = lowercase_first_letter(answer)
-    synonyms = get_synonyms(answer, exercise, file_path=file_path)
-    if not synonyms:
-        return answer
+
+    if "/" in answer:
+        answers = answer.split("/")
+        answers = [normalization(answer, exercise) for answer in answers]
+        return ', '.join(answers)
+
     else:
-        return f"{answer}, {synonyms}"
+        answer = lowercase_first_letter(answer)
+        synonyms = get_synonyms(answer, exercise, file_path=file_path)
+        if not synonyms:
+            return answer
+        else:
+            return f"{answer}, {synonyms}"
 
 
 def get_synonyms(answer, exercise, file_path=SYNONYMS_PATH):
