@@ -11,60 +11,58 @@ from data_processing.exercises import (
 QUESTION_TEMPLATES = {
 
     praepositionen_grammatik: {
-        1: "Translate the following preposition:"
-           "<br><br>{question}",
-        2: "Complete the following sentence with the connector that fits:"
+        1: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        3: "Complete the following sentence with the connector that fits:"
+        2: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        4: "Complete the following sentence with the connector that fits:"
+        3: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        5: "Complete the following sentence with the connector that fits:"
+        4: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        6: "Complete the following sentence with the connector that fits:"
+        5: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        7: "Complete the following sentence with the connector that fits:"
+        6: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        8: "Complete the following sentence with the connector that fits:"
+        7: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        9: "Complete the following sentence with the connector that fits:"
+        8: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        10: "Complete the following sentence with the connector that fits:"
+        9: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
-        11: "Complete the following sentence with the connector that fits:"
+        10: "Complete the following sentence with the preposition that fits:"
            "<br><br>{question}"
            "<br><br><i>{english}</i>",
-        12: "Complete the following sentence with the connector that fits:"
+        11: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
-        13: "Complete the following sentence with the connector that fits:"
+        12: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
-        14: "Translate the following preposition:"
+        13: "Translate the following preposition:"
             "<br><br>{question}",
-        15: "Complete the following sentence with the connector that fits:"
+        14: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
-        16: "Complete the following sentence with the connector that fits:"
+        15: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
-        17: "Translate the following preposition:"
+        16: "Translate the following preposition:"
             "<br><br>{question}",
-        18: "Complete the following sentence with the connector that fits:"
+        17: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
-        19: "Translate the following preposition:"
+        18: "Translate the following preposition:"
             "<br><br>{question}",
-        20: "Complete the following sentence with the connector that fits:"
+        19: "Complete the following sentence with the preposition that fits:"
             "<br><br>{question}"
             "<br><br><i>{english}</i>",
     },

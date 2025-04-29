@@ -8,7 +8,9 @@ from data_processing.exercises import (
 FEEDBACK_TEMPLATES = {
 
     praepositionen_grammatik: {
-        1: "{previous_question} = {correct_answers}",
+        1: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
         2: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
@@ -31,33 +33,30 @@ FEEDBACK_TEMPLATES = {
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
         9: "{german}"
-           "<br><br><i>{english}</i>"
-           "<br><br>Correct answer(s): {correct_answers}",
-        10: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        11: "{german}"
+        10: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
+        11: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
         12: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        13: "{german}"
+        13: "{previous_question} = {correct_answers}",
+        14: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        14: "{previous_question} = {correct_answers}",
         15: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        16: "{german}"
+        16: "{previous_question} = {correct_answers}",
+        17: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        17: "{previous_question} = {correct_answers}",
-        18: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        19: "{previous_question} = {correct_answers}",
-        20: "{german}"
+        18: "{previous_question} = {correct_answers}",
+        19: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
     },
