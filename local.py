@@ -43,6 +43,7 @@ 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
 
 
 # TODO To add
+# weshalb, ausserhalb davon
 # Words in trag (Antrag, Vertrag, Betrag, Beitrag)
 # Words in schlag Totschlag
 # Words in Zahl

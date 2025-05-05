@@ -50,6 +50,12 @@ def about():
                            )
 
 
+@routes.route('/faq')
+def faq():
+    return render_template('faq.html',
+                           )
+
+
 @routes.route('/praepositionen_grammatik')
 def praepositionen_grammatik():
     return render_template('praepositionen/praepositionen_grammatik.html',
