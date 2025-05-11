@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/webapp/templates/faq.html" afterDir="false" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="faq">
+      <change afterPath="$PROJECT_DIR$/private.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/faq.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745916705063</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="faq">
+      <option name="closed" value="true" />
+      <created>1746468817044</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1746468817044</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -474,7 +481,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="big commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="faq" />
+    <option name="LAST_COMMIT_MESSAGE" value="faq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
