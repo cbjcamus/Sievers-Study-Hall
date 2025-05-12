@@ -1,7 +1,7 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, adjektive, deverbale_nomen
 )
 
@@ -20,6 +20,7 @@ EXERCISE_PAGES = {
     imperativ: "/imperativ",
     partizip_II: "/partizip_II",
     praeteritum: "/praeteritum",
+    praeteritum_partizip_II: "/praeteritum_partizip_II",
     konjunktiv_II: "/konjunktiv_II",
     konjunktiv_I: "/konjunktiv_I",
     partizip_I: "/partizip_I",

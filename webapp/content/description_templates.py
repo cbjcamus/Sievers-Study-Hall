@@ -1,7 +1,7 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
@@ -188,7 +188,7 @@ DESCRIPTION_TEMPLATES = {
     },
 
     praeteritum: {
-        1: "Präteritum of the most common verbs",
+        1: "Präteritum of the most important verbs",
         2: "Präteritum (3rd. Per. Singular) of A1 verbs",
         3: "Präteritum (3rd. Per. Singular) of A1 verbs",
         4: "Präteritum (3rd. Per. Singular) of A1 verbs",
@@ -209,6 +209,30 @@ DESCRIPTION_TEMPLATES = {
         19: "Präteritum (3rd. Per. Singular) of B2 verbs",
         20: "Präteritum (3rd. Per. Singular) of B2 verbs",
         21: "Präteritum (3rd. Per. Singular) of B2 verbs",
+    },
+
+    praeteritum_partizip_II: {
+        1: "Präteritum (3rd. Per. Singular) and Partizip II of the most important verbs",
+        2: "Präteritum (3rd. Per. Singular) and Partizip II of A1 verbs",
+        3: "Präteritum (3rd. Per. Singular) and Partizip II of A1 verbs",
+        4: "Präteritum (3rd. Per. Singular) and Partizip II of A1 verbs",
+        5: "Präteritum (3rd. Per. Singular) and Partizip II of A2 verbs",
+        6: "Präteritum (3rd. Per. Singular) and Partizip II of A2 verbs",
+        7: "Präteritum (3rd. Per. Singular) and Partizip II of A2 verbs",
+        8: "Präteritum (3rd. Per. Singular) and Partizip II of B1 verbs",
+        9: "Präteritum (3rd. Per. Singular) and Partizip II of B1 verbs",
+        10: "Präteritum (3rd. Per. Singular) and Partizip II of B1 verbs",
+        11: "Präteritum (3rd. Per. Singular) and Partizip II of B1 verbs",
+        12: "Präteritum (3rd. Per. Singular) and Partizip II of B1 verbs",
+        13: "Präteritum (3rd. Per. Singular) and Partizip II of B1 verbs",
+        14: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        15: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        16: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        17: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        18: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        19: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        20: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
+        21: "Präteritum (3rd. Per. Singular) and Partizip II of B2 verbs",
     },
 
     imperativ: {

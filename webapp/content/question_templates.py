@@ -1,7 +1,7 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
@@ -453,6 +453,72 @@ QUESTION_TEMPLATES = {
             "<br><br>{question} \u25CF er/sie/es _____",
         21: "Conjugate the following verb in the Präteritum (3rd Person Singular):"
             "<br><br>{question} \u25CF er/sie/es _____",
+    },
+
+    praeteritum_partizip_II: {
+        1: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"spielte gespielt\" ",
+        2: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        3: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        4: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        5: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        6: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        7: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        8: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        9: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        10: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        11: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        12: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        13: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        14: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        15: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        16: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        17: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        18: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        19: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        20: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+           "<br><br>{question}"
+           "<br><br>Use the following format: \"hatte gehabt\" ",
+        21: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb:"
+            "<br><br>{question}"
+            "<br><br>Use the following format: \"hatte gehabt\" ",
     },
 
     imperativ: {

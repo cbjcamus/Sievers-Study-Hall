@@ -23,12 +23,17 @@ def is_equal(user_answer, correct_answer, question, exercise):
 def normalization(input_str, exercise):
     output = input_str.strip().lower()
     output = replace_sharp_s(output)
+    output = remove_comma(output)
     output = search_for_synonyms(output, exercise)
     return output
 
 
 def replace_sharp_s(input_str):
     return input_str.replace("ß", "ss")
+
+
+def remove_comma(input_str):
+    return input_str.replace(",", "")
 
 
 def search_for_synonyms(input_str, exercise, csv_file=SYNONYMS_PATH):

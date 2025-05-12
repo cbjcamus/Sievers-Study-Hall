@@ -56,6 +56,12 @@ def faq():
                            )
 
 
+@routes.route('/updates')
+def updates():
+    return render_template('updates.html',
+                           )
+
+
 @routes.route('/praepositionen_grammatik')
 def praepositionen_grammatik():
     return render_template('praepositionen/praepositionen_grammatik.html',
@@ -149,6 +155,15 @@ def partizip_II():
 @routes.route('/praeteritum')
 def praeteritum():
     return render_template('konjugation/praeteritum.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
+@routes.route('/praeteritum_partizip_II')
+def praeteritum_partizip_II():
+    return render_template('konjugation/praeteritum_partizip_II.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,

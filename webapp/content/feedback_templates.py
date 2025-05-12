@@ -1,7 +1,7 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, adjektivdeklinationen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
@@ -392,6 +392,51 @@ FEEDBACK_TEMPLATES = {
         20: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         21: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+    },
+
+    praeteritum_partizip_II: {
+        1: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        2: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        3: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        4: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        5: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        6: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        7: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        8: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        9: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        10: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        11: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        12: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        13: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        14: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        15: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        16: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        17: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        18: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        19: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        20: "{previous_question}, {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        21: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}",
     },
 
