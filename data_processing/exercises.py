@@ -6,6 +6,7 @@ praepositionen_nomen = 'praepositionen_nomen'
 artikel = 'artikel'
 pronomen = 'pronomen'
 konnektoren = 'konnektoren'
+fragen = 'fragen'
 adverbien = 'adverbien'
 adjektivdeklinationen = 'adjektivdeklinationen'
 

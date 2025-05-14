@@ -125,6 +125,15 @@ def konnektoren():
                            description_templates=DESCRIPTION_TEMPLATES)
 
 
+@routes.route('/fragen')
+def fragen():
+    return render_template('grammatik/fragen.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           description_templates=DESCRIPTION_TEMPLATES)
+
+
 @routes.route('/adjektivdeklinationen')
 def adjektivdeklinationen():
     return render_template('grammatik/adjektivdeklinationen.html',

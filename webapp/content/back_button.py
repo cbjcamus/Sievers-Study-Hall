@@ -1,6 +1,6 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
@@ -14,6 +14,8 @@ BACK_BUTTON = {
     artikel: "Artikel",
     pronomen: "Pronomen",
     konnektoren: "Konnektoren",
+    fragen: "Fragen",
+    adverbien: "Adverbien",
     adjektivdeklinationen: "Adjektivdeklinationen",
 
     praesens: "Präsens",
@@ -25,7 +27,6 @@ BACK_BUTTON = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    adverbien: "Adverbien",
     verben: "Verben",
     trennbare_verben: "(Un)trennbare Verben",
     deverbale_nomen: "Deverbale Substantive",

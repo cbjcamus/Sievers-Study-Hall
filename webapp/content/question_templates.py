@@ -1,6 +1,6 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
@@ -255,7 +255,23 @@ QUESTION_TEMPLATES = {
            "<br><br>{question}",
     },
 
-
+    fragen: {
+        1: "Translate the following question word:"
+           "<br><br>{question}",
+        2: "Complete the following sentence with the question word that fits:"
+           "<br><br>{question}"
+           "<br><br><i>{english}</i>",
+        3: "Translate the following question word:"
+           "<br><br>{question}",
+        4: "Complete the following sentence with the question word that fits:"
+           "<br><br>{question}"
+           "<br><br><i>{english}</i>",
+        5: "Translate the following question word:"
+           "<br><br>{question}",
+        6: "Complete the following sentence with the question word that fits:"
+           "<br><br>{question}"
+           "<br><br><i>{english}</i>",
+    },
 
     adjektivdeklinationen: {
         1: "Complete the sentence with the correct form of the specified adjective:"

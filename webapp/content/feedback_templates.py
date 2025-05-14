@@ -1,6 +1,6 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
@@ -219,6 +219,21 @@ FEEDBACK_TEMPLATES = {
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
         13: "{english} = {correct_answers}",
+    },
+
+    fragen: {
+        1: "{previous_question} = {correct_answers}",
+        2: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        3: "{previous_question} = {correct_answers}",
+        4: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        5: "{previous_question} = {correct_answers}",
+        6: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
     },
 
     adjektivdeklinationen: {

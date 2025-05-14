@@ -2,10 +2,10 @@ import os
 
 from data_processing.exercises import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
                                        praepositionen_nomen,
-                                       artikel, pronomen, konnektoren, adjektivdeklinationen,
+                                       artikel, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
                                        praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                        konjunktiv_II, konjunktiv_I, partizip_I,
-                                       adverbien, verben, trennbare_verben, adjektive, deverbale_nomen,
+                                       verben, trennbare_verben, adjektive, deverbale_nomen,
                                        )
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -19,6 +19,7 @@ DATA_PATH = {
     artikel: os.path.join(BASE_DIR, "datasets/grammatik", "artikel.csv"),
     pronomen: os.path.join(BASE_DIR, "datasets/grammatik", "pronomen.csv"),
     konnektoren: os.path.join(BASE_DIR, "datasets/grammatik", "konnektoren.csv"),
+    fragen: os.path.join(BASE_DIR, "datasets/grammatik", "fragen.csv"),
     adverbien: os.path.join(BASE_DIR, "datasets/grammatik", "adverbien.csv"),
     adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/grammatik", "adjektivdeklinationen.csv"),
 

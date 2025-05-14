@@ -1,6 +1,6 @@
 from data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
@@ -80,8 +80,8 @@ DESCRIPTION_TEMPLATES = {
         1: "Accusative and Dative Definite Articles with prepositions in sentences",
         2: "Simple (A2) Articles in isolation",
         3: "Simple (A2) Articles in sentences",
-        4: "Common (B2) Articles in isolation",
-        5: "Common (B2) Articles in sentences",
+        4: "Prevalent (C1) Articles in isolation",
+        5: "Prevalent (C1) Articles in sentences",
     },
 
     pronomen: {
@@ -116,6 +116,15 @@ DESCRIPTION_TEMPLATES = {
         11: "Prevalent (C1) Connectors in isolation",
         12: "Prevalent (C1) Connectors in sentences",
         13: "Prevalent (C1) Connectors' synonyms",
+    },
+
+    fragen: {
+        1: 'Basic (A1) Question Words in isolation',
+        2: 'Basic (A1) Question Words in sentences',
+        3: 'Simple (A2) Question Words in isolation',
+        4: 'Simple (A2) Question Words in sentences',
+        5: 'Familiar (B1) Question Words in isolation',
+        6: 'Familiar (B1) Question Words in sentences',
     },
 
     adjektivdeklinationen: {

@@ -65,6 +65,12 @@
                 <td></td>
             </tr>
             <tr>
+                <td><a href="/fragen" class="button">Fragen</a></td>
+                <td>{{ answered_questions('fragen', session=session) }}/{{ total_questions('fragen') }}</td>
+                <td>{{ score('fragen', session=session) }}</td>
+                <td></td>
+            </tr>
+            <tr>
                 <td><a href="/adverbien" class="button">Adverbien</a></td>
                 <td>{{ answered_questions('adverbien', session=session) }}/{{ total_questions('adverbien') }}</td>
                 <td>{{ score('adverbien', session=session) }}</td>

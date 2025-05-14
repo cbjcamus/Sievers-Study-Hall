@@ -1,0 +1,205 @@
+Nr,level,question,answer,german,english
+1,1,what,was,,
+2,1,how,wie,,
+3,1,why,warum,,
+4,1,when,wann,,
+5,1,which (feminin),welche,,
+6,1,which (masculin),welcher,,
+7,1,which (neutral),welches,,
+8,1,which (plural),welche,,
+9,1,who (Nominative),wer,,
+10,1,where,wo,,
+11,2,_____ geht es dir?,Wie,Wie geht es dir?,How are you?
+12,2,_____ heißt du?,Wie,Wie heißt du?,What is your name?
+13,2,_____ alt bist du?,Wie,Wie alt bist du?,How old are you?
+14,2,_____ spät ist es?,Wie,Wie spät ist es?,What time is it?
+15,2,_____ ist das Wetter heute?,Wie,Wie ist das Wetter heute?,How is the weather today?
+16,2,_____ beginnt der Film?,Wann,Wann beginnt der Film?,When does the movie start?
+17,2,_____ hast du Geburtstag?,Wann,Wann hast du Geburtstag?,When is your birthday?
+18,2,_____ kommst du nach Hause?,Wann,Wann kommst du nach Hause?,When are you coming home?
+19,2,_____ fährt der nächste Bus?,Wann,Wann fährt der nächste Bus?,When does the next bus leave?
+20,2,_____ hast du Zeit?,Wann,Wann hast du Zeit?,When do you have time?
+21,2,_____ lernst du Deutsch?,Warum,Warum lernst du Deutsch?,Why are you learning German?
+22,2,_____ bist du zu spät gekommen?,Warum,Warum bist du zu spät gekommen?,Why did you come late?
+23,2,_____ lachst du?,Warum,Warum lachst du?,Why are you laughing?
+24,2,_____ ist der Himmel blau?,Warum,Warum ist der Himmel blau?,Why is the sky blue?
+25,2,_____ hast du gestern nicht angerufen?,Warum,Warum hast du gestern nicht angerufen?,Why didn’t you call yesterday?
+26,2,_____ bist du?,Wer,Wer bist du?,Who are you?
+27,2,_____ ist dein Lehrer?,Wer,Wer ist dein Lehrer?,Who is your teacher?
+28,2,_____ hat das gesagt?,Wer,Wer hat das gesagt?,Who said that?
+29,2,_____ kommt mit ins Kino?,Wer,Wer kommt mit ins Kino?,Who is coming to the cinema?
+30,2,_____ ruft mich an?,Wer,Wer ruft mich an?,Who is calling me?
+31,2,_____ ist das?,Was,Was ist das?,What is that?
+32,2,_____ machst du gerade?,Was,Was machst du gerade?,What are you doing right now?
+33,2,_____ möchtest du essen?,Was,Was möchtest du essen?,What would you like to eat?
+34,2,_____ suchst du denn?,Was,Was suchst du denn?,What are you looking for?
+35,2,_____ bedeutet dieses Wort?,Was,Was bedeutet dieses Wort?,What does this word mean?
+36,2,_____ wohnst du?,Wo,Wo wohnst du?,Where do you live?
+37,2,_____ ist mein Handy?,Wo,Wo ist mein Handy?,Where is my phone?
+38,2,_____ arbeitet dein Vater?,Wo,Wo arbeitet dein Vater?,Where does your father work?
+39,2,_____ treffen wir uns?,Wo,Wo treffen wir uns?,Where are we meeting?
+40,2,_____ ist die nächste U-Bahn-Station?,Wo,Wo ist die nächste U-Bahn-Station?,Where is the nearest subway station?
+41,2,_____ Buch liest du?,Welches,Welches Buch liest du?,Which book are you reading?
+42,2,_____ Tier ist das?,Welches,Welches Tier ist das?,Which animal is that?
+43,2,_____ Auto gehört dir?,Welches,Welches Auto gehört dir?,Which car belongs to you?
+44,2,_____ Getränk möchtest du?,Welches,Welches Getränk möchtest du?,Which drink would you like?
+45,2,_____ Zimmer ist frei?,Welches,Welches Zimmer ist frei?,Which room is available?
+46,2,_____ Farbe magst du?,Welche,Welche Farbe magst du?,Which color do you like?
+47,2,_____ Stadt ist deine Lieblingsstadt?,Welche,Welche Stadt ist deine Lieblingsstadt?,Which city is your favorite?
+48,2,_____ Blume ist das?,Welche,Welche Blume ist das?,Which flower is that?
+49,2,_____ Straße ist das?,Welche,Welche Straße ist das?,Which street is that?
+50,2,_____ Lampe gefällt dir am besten?,Welche,Welche Lampe gefällt dir am besten?,Which lamp do you like best?
+51,2,_____ Tag ist heute?,Welcher,Welcher Tag ist heute?,Which day is today?
+52,2,_____ Bus fährt zum Bahnhof?,Welcher,Welcher Bus fährt zum Bahnhof?,Which bus goes to the train station?
+53,2,_____ Film läuft im Kino?,Welcher,Welcher Film läuft im Kino?,Which movie is playing in the cinema?
+54,2,_____ Apfel ist süßer?,Welcher,Welcher Apfel ist süßer?,Which apple is sweeter?
+55,2,_____ Lehrer unterrichtet Deutsch?,Welcher,Welcher Lehrer unterrichtet Deutsch?,Which teacher teaches German?
+56,2,_____ Bücher liest du gern?,Welche,Welche Bücher liest du gern?,Which books do you like to read?
+57,2,_____ Filme magst du?,Welche,Welche Filme magst du?,Which movies do you like?
+58,2,_____ Sprachen sprichst du?,Welche,Welche Sprachen sprichst du?,Which languages do you speak?
+59,2,_____ Tiere findest du interessant?,Welche,Welche Tiere findest du interessant?,Which animals do you find interesting?
+60,2,_____ Farben gefallen dir?,Welche,Welche Farben gefallen dir?,Which colors do you like?
+61,3,how much,wie viel,,
+62,3,how many,wie viele,,
+63,3,where to,wohin,,
+64,3,where from,woher,,
+65,3,since when,seit wann,,
+66,3,until when,bis wann,,
+67,3,from when,ab wann,,
+68,3,how long,wie lange,,
+69,3,how late,wie spät,,
+70,3,how often,wie oft,,
+71,4,_____ gehst du?,Wohin,Wohin gehst du?,Where are you going?
+72,4,_____ fährt dieser Bus?,Wohin,Wohin fährt dieser Bus?,Where does this bus go?
+73,4,_____ fliegst du in den Urlaub?,Wohin,Wohin fliegst du in den Urlaub?,Where are you flying for vacation?
+74,4,_____ soll ich die Tasche stellen?,Wohin,Wohin soll ich die Tasche stellen?,Where should I put the bag?
+75,4,_____ gehen wir heute Abend essen?,Wohin,Wohin gehen wir heute Abend essen?,Where are we going to eat tonight?
+76,4,_____ kostet das Brot?,Wie viel,Wie viel kostet das Brot?,How much does the bread cost?
+77,4,_____ Wasser trinkst du am Tag?,Wie viel,Wie viel Wasser trinkst du am Tag?,How much water do you drink per day?
+78,4,_____ Mehl brauchst du?,Wie viel,Wie viel Mehl brauchst du?,How much flour do you need?
+79,4,_____ Zucker soll ich in den Tee geben?,Wie viel,Wie viel Zucker soll ich in den Tee geben?,How much sugar should I put in the tea?
+80,4,_____ Geld hast du dabei?,Wie viel,Wie viel Geld hast du dabei?,How much money do you have with you?
+81,4,_____ kommst du?,Woher,Woher kommst du?,Where are you from?
+82,4,_____ kennst du ihn?,Woher,Woher kennst du ihn?,Where do you know him from?
+83,4,_____ hast du dieses Buch?,Woher,Woher hast du dieses Buch?,Where did you get this book from?
+84,4,_____ weißt du das?,Woher,Woher weißt du das?,How do you know that? (Where do you know that from?)
+85,4,_____ kommt dieser Lärm?,Woher,Woher kommt dieser Lärm?,Where is this noise coming from?
+86,4,_____ Geschwister hast du?,Wie viele,Wie viele Geschwister hast du?,How many siblings do you have?
+87,4,_____ Bücher hast du zu Hause?,Wie viele,Wie viele Bücher hast du zu Hause?,How many books do you have at home?
+88,4,_____ Stunden arbeitest du am Tag?,Wie viele,Wie viele Stunden arbeitest du am Tag?,How many hours do you work per day?
+89,4,_____ Eier sind im Kühlschrank?,Wie viele,Wie viele Eier sind im Kühlschrank?,How many eggs are in the fridge?
+90,4,_____ Schüler sind in deiner Klasse?,Wie viele,Wie viele Schüler sind in deiner Klasse?,How many students are in your class?
+91,4,_____ lernst du Deutsch?,Seit wann,Seit wann lernst du Deutsch?,Since when have you been learning German?
+92,4,_____ wohnst du in dieser Stadt?,Seit wann,Seit wann wohnst du in dieser Stadt?,Since when have you been living in this city?
+93,4,_____ arbeitest du in dieser Firma?,Seit wann,Seit wann arbeitest du in dieser Firma?,Since when have you been working at this company?
+94,4,_____ kennst du ihn?,Seit wann,Seit wann kennst du ihn?,Since when have you known him?
+95,4,_____ hast du ein Auto?,Seit wann,Seit wann hast du ein Auto?,Since when have you had a car?
+96,4,_____ arbeitest du heute?,Bis wann,Bis wann arbeitest du heute?,Until when are you working today?
+97,4,_____ bleibt das Museum geöffnet?,Bis wann,Bis wann bleibt das Museum geöffnet?,Until when is the museum open?
+98,4,_____ muss ich das Formular abgeben?,Bis wann,Bis wann muss ich das Formular abgeben?,Until when do I have to submit the form?
+99,4,_____ dauert der Kurs?,Bis wann,Bis wann dauert der Kurs?,Until when does the course last?
+100,4,_____ bleibst du in Deutschland?,Bis wann,Bis wann bleibst du in Deutschland?,Until when are you staying in Germany?
+101,4,_____ arbeitest du morgen?,Ab wann,Ab wann arbeitest du morgen?,From when are you working tomorrow?
+102,4,_____ ist das Büro geöffnet?,Ab wann,Ab wann ist das Büro geöffnet?,From when is the office open?
+103,4,_____ beginnt der Film?,Ab wann,Ab wann beginnt der Film?,From when does the movie start?
+104,4,_____ kann man die Wohnung mieten?,Ab wann,Ab wann kann man die Wohnung mieten?,From when can one rent the apartment?
+105,4,_____ gilt der neue Fahrplan?,Ab wann,Ab wann gilt der neue Fahrplan?,From when is the new schedule valid?
+106,4,_____ lernst du schon Deutsch?,Wie lange,Wie lange lernst du schon Deutsch?,How long have you been learning German?
+107,4,_____ dauert der Film?,Wie lange,Wie lange dauert der Film?,How long does the movie last?
+108,4,_____ bleibst du im Urlaub?,Wie lange,Wie lange bleibst du im Urlaub?,How long are you staying on vacation?
+109,4,_____ musst du noch arbeiten?,Wie lange,Wie lange musst du noch arbeiten?,How long do you still have to work?
+110,4,_____ wohnst du schon hier?,Wie lange,Wie lange wohnst du schon hier?,How long have you been living here?
+111,4,_____ ist es?,Wie spät,Wie spät ist es?,What time is it?
+112,4,"Weißt du, _____ es ist?",wie spät,"Weißt du, wie spät es ist?",Do you know what time it is?
+113,4,_____ beginnt der Unterricht?,Wie spät,Wie spät beginnt der Unterricht?,What time does the class start?
+114,4,_____ kommt der Bus?,Wie spät,Wie spät kommt der Bus?,What time does the bus arrive?
+115,4,_____ gehst du normalerweise ins Bett?,Wie spät,Wie spät gehst du normalerweise ins Bett?,What time do you usually go to bed?
+116,4,_____ gehst du ins Fitnessstudio?,Wie oft,Wie oft gehst du ins Fitnessstudio?,How often do you go to the gym?
+117,4,_____ siehst du deine Familie?,Wie oft,Wie oft siehst du deine Familie?,How often do you see your family?
+118,4,_____ lernst du Deutsch pro Woche?,Wie oft,Wie oft lernst du Deutsch pro Woche?,How often do you study German per week?
+119,4,_____ machst du Urlaub?,Wie oft,Wie oft machst du Urlaub?,How often do you go on vacation?
+120,4,_____ kaufst du online ein?,Wie oft,Wie oft kaufst du online ein?,How often do you shop online?
+121,5,whom (accusative),wen,,
+122,5,to whom (dative),wem,,
+123,5,whose (genitive),wessen,,
+124,5,which (masculin accusative),welchen,,
+125,5,which (masculin dative),welchem,,
+126,5,which (neutral accusative),welches,,
+127,5,which (neutral dative),welchem,,
+128,5,which (feminin accusative),welche,,
+129,5,which (feminin dative),welcher,,
+130,5,which (plural accusative),welche,,
+131,5,which (plural dative),welchen,,
+132,5,what kind of,was für,,
+133,6,_____ gehört dieses Buch?,Wem,Wem gehört dieses Buch?,To whom does this book belong?
+134,6,_____ hast du das Geschenk gegeben?,Wem,Wem hast du das Geschenk gegeben?,To whom did you give the gift?
+135,6,_____ kann ich bei diesem Problem helfen?,Wem,Wem kann ich bei diesem Problem helfen?,Whom can I help with this problem?
+136,6,_____ vertraust du am meisten?,Wem,Wem vertraust du am meisten?,Whom do you trust the most?
+137,6,_____ hast du die Nachricht geschickt?,Wem,Wem hast du die Nachricht geschickt?,To whom did you send the message?
+138,6,_____ hast du gestern im Park getroffen?,Wen,Wen hast du gestern im Park getroffen?,Whom did you meet in the park yesterday?
+139,6,_____ rufst du gerade an?,Wen,Wen rufst du gerade an?,Whom are you calling right now?
+140,6,_____ magst du am liebsten in deiner Klasse?,Wen,Wen magst du am liebsten in deiner Klasse?,Whom do you like the most in your class?
+141,6,_____ hast du zu deiner Geburtstagsfeier eingeladen?,Wen,Wen hast du zu deiner Geburtstagsfeier eingeladen?,Whom did you invite to your birthday party?
+142,6,_____ siehst du auf dem Foto?,Wen,Wen siehst du auf dem Foto?,Whom do you see in the photo?
+143,6,_____ Auto steht vor dem Haus?,Wessen,Wessen Auto steht vor dem Haus?,Whose car is parked in front of the house?
+144,6,"_____ Idee war es, in den Urlaub nach Italien zu fahren?",Wessen,"Wessen Idee war es, in den Urlaub nach Italien zu fahren?",Whose idea was it to go on vacation to Italy?
+145,6,_____ Tasche hast du mitgenommen?,Wessen,Wessen Tasche hast du mitgenommen?,Whose bag did you take?
+146,6,_____ Meinung zählt hier am meisten?,Wessen,Wessen Meinung zählt hier am meisten?,Whose opinion matters the most here?
+147,6,_____ Buch hast du dir ausgeliehen?,Wessen,Wessen Buch hast du dir ausgeliehen?,Whose book did you borrow?
+148,6,_____ Film möchtest du sehen?,Welchen,Welchen Film möchtest du sehen?,Which movie would you like to watch?
+149,6,_____ Kuchen soll ich kaufen?,Welchen,Welchen Kuchen soll ich kaufen?,Which cake should I buy?
+150,6,_____ Lehrer hast du gestern getroffen?,Welchen,Welchen Lehrer hast du gestern getroffen?,Which teacher did you meet yesterday?
+151,6,_____ Pullover findest du schöner?,Welchen,Welchen Pullover findest du schöner?,Which sweater do you find nicer?
+152,6,_____ Stift brauchst du für die Prüfung?,Welchen,Welchen Stift brauchst du für die Prüfung?,Which pen do you need for the exam?
+153,6,_____ Freund gehst du ins Kino?,Mit welchem,Mit welchem Freund gehst du ins Kino?,With which friend are you going to the cinema?
+154,6,_____ Lehrer hast du Deutsch gelernt?,Bei welchem,Bei welchem Lehrer hast du Deutsch gelernt?,With which teacher did you learn German?
+155,6,_____ Arzt gehst du?,Zu welchem,Zu welchem Arzt gehst du?,To which doctor are you going?
+156,6,_____ Mann hast du das gehört?,Von welchem,Von welchem Mann hast du das gehört?,From which man did you hear that?
+157,6,_____ Bus musst du suchen?,Nach welchem,Nach welchem Bus musst du suchen?,Which bus do you have to look for?
+158,6,_____ Buch soll ich lesen?,Welches,Welches Buch soll ich lesen?,Which book should I read?
+159,6,_____ Essen möchtest du bestellen?,Welches,Welches Essen möchtest du bestellen?,Which food would you like to order?
+160,6,_____ Zimmer hast du reserviert?,Welches,Welches Zimmer hast du reserviert?,Which room did you reserve?
+161,6,_____ Getränk hast du genommen?,Welches,Welches Getränk hast du genommen?,Which drink did you take?
+162,6,_____ Lied hörst du gerade?,Welches,Welches Lied hörst du gerade?,Which song are you listening to right now?
+163,6,_____ Kind spielst du?,Mit welchem,Mit welchem Kind spielst du?,With which child are you playing?
+164,6,_____ Zimmer schläfst du?,In welchem,In welchem Zimmer schläfst du?,In which room do you sleep?
+165,6,_____ Glas trinkst du?,Aus welchem,Aus welchem Glas trinkst du?,From which glass are you drinking?
+166,6,_____ Hotel hast du gebucht?,Bei welchem,Bei welchem Hotel hast du gebucht?,At which hotel did you book?
+167,6,_____ Tier hast du geträumt?,Von welchem,Von welchem Tier hast du geträumt?,About which animal did you dream?
+168,6,_____ Straße soll ich nehmen?,Welche,Welche Straße soll ich nehmen?,Which street should I take?
+169,6,_____ Lampe hast du gekauft?,Welche,Welche Lampe hast du gekauft?,Which lamp did you buy?
+170,6,_____ Tasche gehört dir?,Welche,Welche Tasche gehört dir?,Which bag belongs to you?
+171,6,_____ Blume möchtest du schenken?,Welche,Welche Blume möchtest du schenken?,Which flower would you like to give (as a gift)?
+172,6,_____ Sprache lernst du gerade?,Welche,Welche Sprache lernst du gerade?,Which language are you currently learning?
+173,6,_____ Freundin gehst du ins Café?,Mit welcher,Mit welcher Freundin gehst du ins Café?,With which (female) friend are you going to the café?
+174,6,_____ Schule lernst du?,Bei welcher,Bei welcher Schule lernst du?,At which school are you studying?
+175,6,_____ Ärztin gehst du?,Zu welcher,Zu welcher Ärztin gehst du?,To which (female) doctor are you going?
+176,6,_____ Frau hast du das Geschenk bekommen?,Von welcher,Von welcher Frau hast du das Geschenk bekommen?,From which woman did you get the gift?
+177,6,_____ Musik tanzt du gern?,Nach welcher,Nach welcher Musik tanzt du gern?,To which music do you like to dance?
+178,6,_____ Bücher hast du gekauft?,Welche,Welche Bücher hast du gekauft?,Which books did you buy?
+179,6,_____ Filme schaust du am liebsten?,Welche,Welche Filme schaust du am liebsten?,Which movies do you like watching the most?
+180,6,_____ Sprachen lernst du?,Welche,Welche Sprachen lernst du?,Which languages are you learning?
+181,6,_____ Schuhe möchtest du anziehen?,Welche,Welche Schuhe möchtest du anziehen?,Which shoes would you like to wear?
+182,6,_____ Freunde hast du eingeladen?,Welche,Welche Freunde hast du eingeladen?,Which friends did you invite?
+183,6,_____ Freunden gehst du aus?,Mit welchen,Mit welchen Freunden gehst du aus?,With which friends are you going out?
+184,6,_____ Kursen gehst du am Wochenende?,Zu welchen,Zu welchen Kursen gehst du am Wochenende?,To which courses do you go on the weekend?
+185,6,_____ Firmen hast du dich beworben?,Bei welchen,Bei welchen Firmen hast du dich beworben?,At which companies did you apply?
+186,6,_____ Lehrern hast du das gelernt?,Von welchen,Von welchen Lehrern hast du das gelernt?,From which teachers did you learn that?
+187,6,_____ Ländern warst du schon?,In welchen,In welchen Ländern warst du schon?,In which countries have you already been?
+188,6,_____ Musik hörst du am liebsten?,Was für,Was für Musik hörst du am liebsten?,What kind of music do you like to listen to most?
+189,6,_____ Filme schaust du normalerweise?,Was für,Was für Filme schaust du normalerweise?,What kind of movies do you usually watch?
+190,6,_____ ein Auto möchtest du später kaufen?,Was für,Was für ein Auto möchtest du später kaufen?,What kind of car would you like to buy later?
+191,6,_____ Leute arbeiten in deiner Firma?,Was für,Was für Leute arbeiten in deiner Firma?,What kind of people work at your company?
+192,6,_____ Bücher interessieren dich?,Was für,Was für Bücher interessieren dich?,What kind of books are you interested in?
+193,100,,wievielte,,
+194,100,,wievielter,,
+195,100,,wievieltes,,
+196,100,,wievielten,,
+197,100,,wie vielen,,
+198,100,,wie vieler,,
+199,100,,inwiefern,,
+200,100,,Wie lange noch,,
+201,100,,Aus welchem Grund,,
+202,100,,"Wie kommt es, dass",,
+203,100,,Unter welchen Bedingungen,,
+204,100,,In welchem Maße,,
