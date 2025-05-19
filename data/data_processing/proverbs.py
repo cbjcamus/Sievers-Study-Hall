@@ -12,7 +12,7 @@ def get_text_proverb():
     proverb = get_random_proverb()
     random_number = random.random()
     if random_number > 0.9:
-        text = (f"<b>{change_color(text='Proverb', color='#850fbf')}</b>" # #DAA520
+        text = (f"<b>{change_color(text='Proverb', color='#DAA520')}</b>" # #DAA520
                 f"<br><br>{proverb['german']}"
                 f"<br><br><i>{proverb['english']}</i>")
         return text

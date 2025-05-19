@@ -30,7 +30,7 @@ a:hover {
 
 .menu {
     display: none;
-    font-size: 20px;
+    font-size: 24px;
     position: absolute;
     right: 10px;
     top: 50px;
@@ -269,7 +269,7 @@ h2 {
     margin: 20px auto; /* Centers the container itself */
     padding: 5px;
 
-    background-color: #2a1c31;
+    background-color: #332116; /* #2a1c31 */
     border-radius: 12px;
     text-align: center; /* Ensures text is aligned to the left inside */
 
