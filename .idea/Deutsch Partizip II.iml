@@ -8,7 +8,8 @@
       <excludeFolder url="file://$MODULE_DIR$/desktop_app" />
       <excludeFolder url="file://$MODULE_DIR$/bin" />
       <excludeFolder url="file://$MODULE_DIR$/flask_session" />
-      <excludeFolder url="file://$MODULE_DIR$/count_ips" />
+      <excludeFolder url="file://$MODULE_DIR$/private" />
+      <excludeFolder url="file://$MODULE_DIR$/private/count_ips" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.13 (Sievers_Study_Hall)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

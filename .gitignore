@@ -1,4 +1,2 @@
-/scripts/
-/bin/
+/private
 /flask_session/
-private.py
