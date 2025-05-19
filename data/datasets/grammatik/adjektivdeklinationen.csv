@@ -1,47 +1,47 @@
 Nr,level,question,answer,german,adjective,gender,case,article
 1,1,der _____ Vater,nette,der nette Vater,nett,Maskulin,Nominativ,Bestimmt artikel
 2,1,die _____ Mutter,nette,die nette Mutter,nett,Feminin,Nominativ,Bestimmt artikel
-3,1,das _____ Kind,nette,das nette Kind,nett,Neutral,Nominativ,Bestimmt artikel
+3,1,das _____ Kind,nette,das nette Kind,nett,Neuter,Nominativ,Bestimmt artikel
 4,1,die _____ Eltern,netten,die netten Eltern,nett,Plural,Nominativ,Bestimmt artikel
 5,1,ein _____ Vater,netter,ein netter Vater,nett,Maskulin,Nominativ,Unbestimmt artikel
 6,1,eine _____ Mutter,nette,eine nette Mutter,nett,Feminin,Nominativ,Unbestimmt artikel
-7,1,ein _____ Kind,nettes,ein nettes Kind,nett,Neutral,Nominativ,Unbestimmt artikel
+7,1,ein _____ Kind,nettes,ein nettes Kind,nett,Neuter,Nominativ,Unbestimmt artikel
 8,1,Ø _____ Vater,netter,netter Vater,nett,Maskulin,Nominativ,Ohne Artikel
 9,1,Ø _____ Mutter,nette,nette Mutter,nett,Feminin,Nominativ,Ohne Artikel
-10,1,Ø _____ Kind,nettes,nettes Kind,nett,Neutral,Nominativ,Ohne Artikel
+10,1,Ø _____ Kind,nettes,nettes Kind,nett,Neuter,Nominativ,Ohne Artikel
 11,1,Ø _____ Eltern,nette,nette Eltern,nett,Plural,Nominativ,Ohne Artikel
 12,1,den _____ Vater,netten,den netten Vater,nett,Maskulin,Akkusativ,Bestimmt artikel
 13,1,die _____ Mutter,nette,die nette Mutter,nett,Feminin,Akkusativ,Bestimmt artikel
-14,1,das _____ Kind,nette,das nette Kind,nett,Neutral,Akkusativ,Bestimmt artikel
+14,1,das _____ Kind,nette,das nette Kind,nett,Neuter,Akkusativ,Bestimmt artikel
 15,1,die _____ Eltern,netten,die netten Eltern,nett,Plural,Akkusativ,Bestimmt artikel
 16,1,einen _____ Vater,netten,einen netten Vater,nett,Maskulin,Akkusativ,Unbestimmt artikel
 17,1,eine _____ Mutter,nette,eine nette Mutter,nett,Feminin,Akkusativ,Unbestimmt artikel
-18,1,ein _____ Kind,nettes,ein nettes Kind,nett,Neutral,Akkusativ,Unbestimmt artikel
+18,1,ein _____ Kind,nettes,ein nettes Kind,nett,Neuter,Akkusativ,Unbestimmt artikel
 19,1,Ø _____ Vater,netten,netten Vater,nett,Maskulin,Akkusativ,Ohne Artikel
 20,1,Ø _____ Mutter,nette,nette Mutter,nett,Feminin,Akkusativ,Ohne Artikel
-21,1,Ø _____ Kind,nettes,nettes Kind,nett,Neutral,Akkusativ,Ohne Artikel
+21,1,Ø _____ Kind,nettes,nettes Kind,nett,Neuter,Akkusativ,Ohne Artikel
 22,1,Ø _____ Eltern,nette,nette Eltern,nett,Plural,Akkusativ,Ohne Artikel
 23,1,dem _____ Vater,netten,dem netten Vater,nett,Maskulin,Dativ,Bestimmt artikel
 24,1,der _____ Mutter,netten,der netten Mutter,nett,Feminin,Dativ,Bestimmt artikel
-25,1,dem _____ Kind,netten,dem netten Kind,nett,Neutral,Dativ,Bestimmt artikel
+25,1,dem _____ Kind,netten,dem netten Kind,nett,Neuter,Dativ,Bestimmt artikel
 26,1,den _____ Eltern,netten,den netten Eltern,nett,Plural,Dativ,Bestimmt artikel
 27,1,einem _____ Vater,netten,einem netten Vater,nett,Maskulin,Dativ,Unbestimmt artikel
 28,1,einer _____ Mutter,netten,einer netten Mutter,nett,Feminin,Dativ,Unbestimmt artikel
-29,1,einem _____ Kind,netten,einem netten Kind,nett,Neutral,Dativ,Unbestimmt artikel
+29,1,einem _____ Kind,netten,einem netten Kind,nett,Neuter,Dativ,Unbestimmt artikel
 30,1,Ø _____ Vater,nettem,nettem Vater,nett,Maskulin,Dativ,Ohne Artikel
 31,1,Ø _____ Mutter,netter,netter Mutter,nett,Feminin,Dativ,Ohne Artikel
-32,1,Ø _____ Kind,nettem,nettem Kind,nett,Neutral,Dativ,Ohne Artikel
+32,1,Ø _____ Kind,nettem,nettem Kind,nett,Neuter,Dativ,Ohne Artikel
 33,1,Ø _____ Eltern,netten,netten Eltern,nett,Plural,Dativ,Ohne Artikel
 34,2,Ein _____ Lehrer erklärt die Grammatik sehr gut.,kluger,Ein kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Unbestimmt
 35,2,Ein _____ Hund schläft den ganzen Tag.,alter,Ein alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Unbestimmt
 36,2,Ein _____ Baum steht im Garten.,schöner,Ein schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Unbestimmt
 37,2,Ein _____ Student lernt jeden Abend Deutsch.,fleißiger,Ein fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Unbestimmt
 38,2,Ein _____ Kellner bringt das Essen schnell.,freundlicher,Ein freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Unbestimmt
-39,2,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neutral,Nominativ,Bestimmt
-40,2,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Bestimmt
-41,2,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neutral,Nominativ,Bestimmt
-42,2,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Bestimmt
-43,2,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Bestimmt
+39,2,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neuter,Nominativ,Bestimmt
+40,2,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Bestimmt
+41,2,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neuter,Nominativ,Bestimmt
+42,2,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Bestimmt
+43,2,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Bestimmt
 44,2,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Ohne Artikel
 45,2,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Ohne Artikel
 46,2,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Ohne Artikel
@@ -62,11 +62,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 61,2,Der _____ Baum steht im Garten.,schöne,Der schöne Baum steht im Garten.,schön,Maskulin,Nominativ,Bestimmt
 62,2,Der _____ Student lernt jeden Abend Deutsch.,fleißige,Der fleißige Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Bestimmt
 63,2,Der _____ Kellner bringt das Essen schnell.,freundliche,Der freundliche Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Bestimmt
-64,2,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neutral,Nominativ,Unbestimmt
-65,2,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Unbestimmt
-66,2,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neutral,Nominativ,Unbestimmt
-67,2,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Unbestimmt
-68,2,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Unbestimmt
+64,2,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Unbestimmt
+65,2,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Unbestimmt
+66,2,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Unbestimmt
+67,2,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Unbestimmt
+68,2,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Unbestimmt
 69,2,_____ Lehrer erklärt die Grammatik sehr gut.,Klüger,Klüger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Ohne Artikel
 70,2,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Ohne Artikel
 71,2,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Ohne Artikel
@@ -77,11 +77,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 76,2,Die _____ Blume steht im Garten.,schöne,Die schöne Blume steht im Garten.,schön,Feminin,Nominativ,Bestimmt
 77,2,Die _____ Schülerin lernt jeden Abend Deutsch.,fleißige,Die fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Bestimmt
 78,2,Die _____ Nachbarin hilft uns oft.,freundliche,Die freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Bestimmt
-79,2,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neutral,Nominativ,Ohne Artikel
-80,2,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Ohne Artikel
-81,2,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neutral,Nominativ,Ohne Artikel
-82,2,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Ohne Artikel
-83,2,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Ohne Artikel
+79,2,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Ohne Artikel
+80,2,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Ohne Artikel
+81,2,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Ohne Artikel
+82,2,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Ohne Artikel
+83,2,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Ohne Artikel
 84,2,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Ohne Artikel
 85,2,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Ohne Artikel
 86,2,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Ohne Artikel
@@ -112,16 +112,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 111,3,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Ohne Artikel
 112,3,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Ohne Artikel
 113,3,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Ohne Artikel
-114,3,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Unbestimmt
-115,3,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neutral,Akkusativ,Unbestimmt
-116,3,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neutral,Akkusativ,Unbestimmt
-117,3,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neutral,Akkusativ,Unbestimmt
-118,3,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neutral,Akkusativ,Unbestimmt
-119,3,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Ohne Artikel
-120,3,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neutral,Akkusativ,Ohne Artikel
-121,3,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neutral,Akkusativ,Ohne Artikel
-122,3,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neutral,Akkusativ,Ohne Artikel
-123,3,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neutral,Akkusativ,Ohne Artikel
+114,3,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Unbestimmt
+115,3,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neuter,Akkusativ,Unbestimmt
+116,3,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neuter,Akkusativ,Unbestimmt
+117,3,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Unbestimmt
+118,3,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neuter,Akkusativ,Unbestimmt
+119,3,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Ohne Artikel
+120,3,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Ohne Artikel
+121,3,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Ohne Artikel
+122,3,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Ohne Artikel
+123,3,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Ohne Artikel
 124,3,Ich bewundere die _____ Lehrerin.,kluge,Ich bewundere die kluge Lehrerin.,klug,Feminin,Akkusativ,Bestimmt
 125,3,Er streichelt die _____ Katze.,alte,Er streichelt die alte Katze.,alt,Feminin,Akkusativ,Bestimmt
 126,3,Wir gießen die _____ Blume im Garten.,schöne,Wir gießen die schöne Blume im Garten.,schön,Feminin,Akkusativ,Bestimmt
@@ -132,11 +132,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 131,3,Wir bewundern die _____ Bilder im Museum.,schönen,Wir bewundern die schönen Bilder im Museum.,schön,Plural,Akkusativ,Bestimmt
 132,3,Der Lehrer lobt die _____ Schüler.,fleißigen,Der Lehrer lobt die fleißigen Schüler.,fleißig,Plural,Akkusativ,Bestimmt
 133,3,Die Eltern begrüßen die _____ Nachbarn.,freundlichen,Die Eltern begrüßen die freundlichen Nachbarn.,freundlich,Plural,Akkusativ,Bestimmt
-134,3,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Bestimmt
-135,3,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neutral,Akkusativ,Bestimmt
-136,3,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neutral,Akkusativ,Bestimmt
-137,3,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neutral,Akkusativ,Bestimmt
-138,3,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neutral,Akkusativ,Bestimmt
+134,3,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Bestimmt
+135,3,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neuter,Akkusativ,Bestimmt
+136,3,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neuter,Akkusativ,Bestimmt
+137,3,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neuter,Akkusativ,Bestimmt
+138,3,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neuter,Akkusativ,Bestimmt
 139,3,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Ohne Artikel
 140,3,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Ohne Artikel
 141,3,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Ohne Artikel
@@ -177,31 +177,31 @@ Nr,level,question,answer,german,adjective,gender,case,article
 176,4,Wir danken dem _____ Künstler für sein Werk.,schönen,Wir danken dem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Bestimmt
 177,4,Der Professor erklärt dem _____ Studenten die Aufgabe.,fleißigen,Der Professor erklärt dem fleißigen Studenten die Aufgabe.,fleißig,Maskulin,Dativ,Bestimmt
 178,4,Die Gäste schenken dem _____ Kellner ein Trinkgeld.,freundlichen,Die Gäste schenken dem freundlichen Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Bestimmt
-179,4,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Ohne Artikel
-180,4,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neutral,Dativ,Ohne Artikel
-181,4,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neutral,Dativ,Ohne Artikel
-182,4,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Ohne Artikel
-183,4,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Ohne Artikel
-184,4,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Unbestimmt
-185,4,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neutral,Dativ,Unbestimmt
-186,4,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neutral,Dativ,Unbestimmt
-187,4,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Unbestimmt
-188,4,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Unbestimmt
+179,4,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Ohne Artikel
+180,4,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Ohne Artikel
+181,4,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Ohne Artikel
+182,4,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Ohne Artikel
+183,4,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Ohne Artikel
+184,4,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Unbestimmt
+185,4,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Unbestimmt
+186,4,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Unbestimmt
+187,4,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Unbestimmt
+188,4,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Unbestimmt
 189,4,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Ohne Artikel
 190,4,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Ohne Artikel
 191,4,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Ohne Artikel
 192,4,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Ohne Artikel
 193,4,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Ohne Artikel
-194,4,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Bestimmt
-195,4,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neutral,Dativ,Bestimmt
-196,4,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neutral,Dativ,Bestimmt
-197,4,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Bestimmt
-198,4,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Bestimmt
-199,5,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neutral,Nominativ,Bestimmt
-200,5,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Bestimmt
-201,5,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neutral,Nominativ,Bestimmt
-202,5,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Bestimmt
-203,5,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Bestimmt
+194,4,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Bestimmt
+195,4,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Bestimmt
+196,4,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Bestimmt
+197,4,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Bestimmt
+198,4,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Bestimmt
+199,5,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neuter,Nominativ,Bestimmt
+200,5,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Bestimmt
+201,5,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neuter,Nominativ,Bestimmt
+202,5,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Bestimmt
+203,5,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Bestimmt
 204,5,Die _____ Kinder stellen viele Fragen.,klugen,Die klugen Kinder stellen viele Fragen.,klug,Plural,Nominativ,Bestimmt
 205,5,Die _____ Bücher liegen auf dem Tisch.,alten,Die alten Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Bestimmt
 206,5,Die _____ Bilder hängen an der Wand.,schönen,Die schönen Bilder hängen an der Wand.,schön,Plural,Nominativ,Bestimmt
@@ -232,11 +232,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 231,5,Wir bewundern die _____ Bilder im Museum.,schönen,Wir bewundern die schönen Bilder im Museum.,schön,Plural,Akkusativ,Bestimmt
 232,5,Der Lehrer lobt die _____ Schüler.,fleißigen,Der Lehrer lobt die fleißigen Schüler.,fleißig,Plural,Akkusativ,Bestimmt
 233,5,Die Eltern begrüßen die _____ Nachbarn.,freundlichen,Die Eltern begrüßen die freundlichen Nachbarn.,freundlich,Plural,Akkusativ,Bestimmt
-234,5,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Bestimmt
-235,5,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neutral,Akkusativ,Bestimmt
-236,5,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neutral,Akkusativ,Bestimmt
-237,5,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neutral,Akkusativ,Bestimmt
-238,5,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neutral,Akkusativ,Bestimmt
+234,5,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Bestimmt
+235,5,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neuter,Akkusativ,Bestimmt
+236,5,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neuter,Akkusativ,Bestimmt
+237,5,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neuter,Akkusativ,Bestimmt
+238,5,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neuter,Akkusativ,Bestimmt
 239,5,Ich helfe den _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe den klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Bestimmt
 240,5,Er gibt den _____ Büchern neue Einbände.,alten,Er gibt den alten Büchern neue Einbände.,alt,Plural,Dativ,Bestimmt
 241,5,Wir danken den _____ Künstlern für ihre Werke.,schönen,Wir danken den schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Bestimmt
@@ -252,11 +252,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 251,5,Wir danken dem _____ Künstler für sein Werk.,schönen,Wir danken dem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Bestimmt
 252,5,Der Professor erklärt dem _____ Studenten die Aufgabe.,fleißigen,Der Professor erklärt dem fleißigen Studenten die Aufgabe.,fleißig,Maskulin,Dativ,Bestimmt
 253,5,Die Gäste schenken dem _____ Kellner ein Trinkgeld.,freundlichen,Die Gäste schenken dem freundlichen Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Bestimmt
-254,5,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Bestimmt
-255,5,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neutral,Dativ,Bestimmt
-256,5,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neutral,Dativ,Bestimmt
-257,5,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Bestimmt
-258,5,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Bestimmt
+254,5,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Bestimmt
+255,5,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Bestimmt
+256,5,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Bestimmt
+257,5,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Bestimmt
+258,5,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Bestimmt
 259,6,Ein _____ Lehrer erklärt die Grammatik sehr gut.,kluger,Ein kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Unbestimmt
 260,6,Ein _____ Hund schläft den ganzen Tag.,alter,Ein alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Unbestimmt
 261,6,Ein _____ Baum steht im Garten.,schöner,Ein schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Unbestimmt
@@ -267,11 +267,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 266,6,Eine _____ Blume steht im Garten.,schöne,Eine schöne Blume steht im Garten.,schön,Feminin,Nominativ,Unbestimmt
 267,6,Eine _____ Schülerin lernt jeden Abend Deutsch.,fleißige,Eine fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Unbestimmt
 268,6,Eine _____ Nachbarin hilft uns oft.,freundliche,Eine freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Unbestimmt
-269,6,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neutral,Nominativ,Unbestimmt
-270,6,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Unbestimmt
-271,6,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neutral,Nominativ,Unbestimmt
-272,6,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Unbestimmt
-273,6,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Unbestimmt
+269,6,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Unbestimmt
+270,6,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Unbestimmt
+271,6,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Unbestimmt
+272,6,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Unbestimmt
+273,6,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Unbestimmt
 274,6,Ich bewundere eine _____ Lehrerin.,kluge,Ich bewundere eine kluge Lehrerin.,klug,Feminin,Akkusativ,Unbestimmt
 275,6,Er streichelt eine _____ Katze.,alte,Er streichelt eine alte Katze.,alt,Feminin,Akkusativ,Unbestimmt
 276,6,Wir gießen eine _____ Blume im Garten.,schöne,Wir gießen eine schöne Blume im Garten.,schön,Feminin,Akkusativ,Unbestimmt
@@ -282,11 +282,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 281,6,Wir bewundern einen _____ Baum im Park.,schönen,Wir bewundern einen schönen Baum im Park.,schön,Maskulin,Akkusativ,Unbestimmt
 282,6,Der Professor lobt einen _____ Studenten.,fleißigen,Der Professor lobt einen fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Unbestimmt
 283,6,Die Gäste begrüßen einen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen einen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Unbestimmt
-284,6,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Unbestimmt
-285,6,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neutral,Akkusativ,Unbestimmt
-286,6,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neutral,Akkusativ,Unbestimmt
-287,6,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neutral,Akkusativ,Unbestimmt
-288,6,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neutral,Akkusativ,Unbestimmt
+284,6,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Unbestimmt
+285,6,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neuter,Akkusativ,Unbestimmt
+286,6,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neuter,Akkusativ,Unbestimmt
+287,6,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Unbestimmt
+288,6,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neuter,Akkusativ,Unbestimmt
 289,6,Ich helfe einem _____ Lehrer bei den Hausaufgaben.,klugen,Ich helfe einem klugen Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Unbestimmt
 290,6,Sie gibt einem _____ Hund Futter.,alten,Sie gibt einem alten Hund Futter.,alt,Maskulin,Dativ,Unbestimmt
 291,6,Wir danken einem _____ Künstler für sein Werk.,schönen,Wir danken einem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Unbestimmt
@@ -297,11 +297,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 296,6,Wir danken einer _____ Künstlerin für ihr Werk.,schönen,Wir danken einer schönen Künstlerin für ihr Werk.,schön,Feminin,Dativ,Unbestimmt
 297,6,Die Lehrerin erklärt einer _____ Schülerin die Aufgabe.,fleißigen,Die Lehrerin erklärt einer fleißigen Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Unbestimmt
 298,6,Die Nachbarn gratulieren einer _____ Frau zum Geburtstag.,freundlichen,Die Nachbarn gratulieren einer freundlichen Frau zum Geburtstag.,freundlich,Feminin,Dativ,Unbestimmt
-299,6,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Unbestimmt
-300,6,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neutral,Dativ,Unbestimmt
-301,6,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neutral,Dativ,Unbestimmt
-302,6,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Unbestimmt
-303,6,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Unbestimmt
+299,6,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Unbestimmt
+300,6,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Unbestimmt
+301,6,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Unbestimmt
+302,6,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Unbestimmt
+303,6,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Unbestimmt
 304,7,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Ohne Artikel
 305,7,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Ohne Artikel
 306,7,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Ohne Artikel
@@ -312,11 +312,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 311,7,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Ohne Artikel
 312,7,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Ohne Artikel
 313,7,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Ohne Artikel
-314,7,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neutral,Nominativ,Ohne Artikel
-315,7,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Ohne Artikel
-316,7,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neutral,Nominativ,Ohne Artikel
-317,7,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Ohne Artikel
-318,7,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Ohne Artikel
+314,7,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Ohne Artikel
+315,7,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Ohne Artikel
+316,7,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Ohne Artikel
+317,7,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Ohne Artikel
+318,7,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Ohne Artikel
 319,7,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Ohne Artikel
 320,7,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Ohne Artikel
 321,7,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Ohne Artikel
@@ -332,11 +332,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 331,7,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Ohne Artikel
 332,7,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Ohne Artikel
 333,7,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Ohne Artikel
-334,7,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Ohne Artikel
-335,7,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neutral,Akkusativ,Ohne Artikel
-336,7,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neutral,Akkusativ,Ohne Artikel
-337,7,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neutral,Akkusativ,Ohne Artikel
-338,7,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neutral,Akkusativ,Ohne Artikel
+334,7,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Ohne Artikel
+335,7,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Ohne Artikel
+336,7,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Ohne Artikel
+337,7,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Ohne Artikel
+338,7,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Ohne Artikel
 339,7,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Ohne Artikel
 340,7,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Ohne Artikel
 341,7,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Ohne Artikel
@@ -352,11 +352,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 351,7,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Ohne Artikel
 352,7,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Ohne Artikel
 353,7,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Ohne Artikel
-354,7,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Ohne Artikel
-355,7,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neutral,Dativ,Ohne Artikel
-356,7,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neutral,Dativ,Ohne Artikel
-357,7,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Ohne Artikel
-358,7,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Ohne Artikel
+354,7,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Ohne Artikel
+355,7,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Ohne Artikel
+356,7,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Ohne Artikel
+357,7,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Ohne Artikel
+358,7,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Ohne Artikel
 359,7,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Ohne Artikel
 360,7,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Ohne Artikel
 361,7,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Ohne Artikel
@@ -367,11 +367,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 366,8,Ein _____ Baum steht im Garten.,schöner,Ein schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Unbestimmt
 367,8,Ein _____ Student lernt jeden Abend Deutsch.,fleißiger,Ein fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Unbestimmt
 368,8,Ein _____ Kellner bringt das Essen schnell.,freundlicher,Ein freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Unbestimmt
-369,8,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neutral,Nominativ,Bestimmt
-370,8,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Bestimmt
-371,8,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neutral,Nominativ,Bestimmt
-372,8,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Bestimmt
-373,8,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Bestimmt
+369,8,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neuter,Nominativ,Bestimmt
+370,8,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Bestimmt
+371,8,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neuter,Nominativ,Bestimmt
+372,8,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Bestimmt
+373,8,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Bestimmt
 374,8,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Ohne Artikel
 375,8,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Ohne Artikel
 376,8,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Ohne Artikel
@@ -392,11 +392,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 391,8,Der _____ Baum steht im Garten.,schöne,Der schöne Baum steht im Garten.,schön,Maskulin,Nominativ,Bestimmt
 392,8,Der _____ Student lernt jeden Abend Deutsch.,fleißige,Der fleißige Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Bestimmt
 393,8,Der _____ Kellner bringt das Essen schnell.,freundliche,Der freundliche Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Bestimmt
-394,8,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neutral,Nominativ,Unbestimmt
-395,8,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Unbestimmt
-396,8,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neutral,Nominativ,Unbestimmt
-397,8,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Unbestimmt
-398,8,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Unbestimmt
+394,8,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Unbestimmt
+395,8,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Unbestimmt
+396,8,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Unbestimmt
+397,8,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Unbestimmt
+398,8,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Unbestimmt
 399,8,_____ Lehrer erklärt die Grammatik sehr gut.,Klüger,Klüger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Ohne Artikel
 400,8,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Ohne Artikel
 401,8,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Ohne Artikel
@@ -407,11 +407,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 406,8,Die _____ Blume steht im Garten.,schöne,Die schöne Blume steht im Garten.,schön,Feminin,Nominativ,Bestimmt
 407,8,Die _____ Schülerin lernt jeden Abend Deutsch.,fleißige,Die fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Bestimmt
 408,8,Die _____ Nachbarin hilft uns oft.,freundliche,Die freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Bestimmt
-409,8,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neutral,Nominativ,Ohne Artikel
-410,8,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neutral,Nominativ,Ohne Artikel
-411,8,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neutral,Nominativ,Ohne Artikel
-412,8,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neutral,Nominativ,Ohne Artikel
-413,8,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neutral,Nominativ,Ohne Artikel
+409,8,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Ohne Artikel
+410,8,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Ohne Artikel
+411,8,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Ohne Artikel
+412,8,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Ohne Artikel
+413,8,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Ohne Artikel
 414,8,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Ohne Artikel
 415,8,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Ohne Artikel
 416,8,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Ohne Artikel
@@ -442,16 +442,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 441,8,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Ohne Artikel
 442,8,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Ohne Artikel
 443,8,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Ohne Artikel
-444,8,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Unbestimmt
-445,8,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neutral,Akkusativ,Unbestimmt
-446,8,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neutral,Akkusativ,Unbestimmt
-447,8,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neutral,Akkusativ,Unbestimmt
-448,8,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neutral,Akkusativ,Unbestimmt
-449,8,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Ohne Artikel
-450,8,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neutral,Akkusativ,Ohne Artikel
-451,8,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neutral,Akkusativ,Ohne Artikel
-452,8,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neutral,Akkusativ,Ohne Artikel
-453,8,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neutral,Akkusativ,Ohne Artikel
+444,8,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Unbestimmt
+445,8,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neuter,Akkusativ,Unbestimmt
+446,8,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neuter,Akkusativ,Unbestimmt
+447,8,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Unbestimmt
+448,8,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neuter,Akkusativ,Unbestimmt
+449,8,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Ohne Artikel
+450,8,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Ohne Artikel
+451,8,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Ohne Artikel
+452,8,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Ohne Artikel
+453,8,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Ohne Artikel
 454,8,Ich bewundere die _____ Lehrerin.,kluge,Ich bewundere die kluge Lehrerin.,klug,Feminin,Akkusativ,Bestimmt
 455,8,Er streichelt die _____ Katze.,alte,Er streichelt die alte Katze.,alt,Feminin,Akkusativ,Bestimmt
 456,8,Wir gießen die _____ Blume im Garten.,schöne,Wir gießen die schöne Blume im Garten.,schön,Feminin,Akkusativ,Bestimmt
@@ -462,11 +462,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 461,8,Wir bewundern die _____ Bilder im Museum.,schönen,Wir bewundern die schönen Bilder im Museum.,schön,Plural,Akkusativ,Bestimmt
 462,8,Der Lehrer lobt die _____ Schüler.,fleißigen,Der Lehrer lobt die fleißigen Schüler.,fleißig,Plural,Akkusativ,Bestimmt
 463,8,Die Eltern begrüßen die _____ Nachbarn.,freundlichen,Die Eltern begrüßen die freundlichen Nachbarn.,freundlich,Plural,Akkusativ,Bestimmt
-464,8,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neutral,Akkusativ,Bestimmt
-465,8,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neutral,Akkusativ,Bestimmt
-466,8,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neutral,Akkusativ,Bestimmt
-467,8,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neutral,Akkusativ,Bestimmt
-468,8,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neutral,Akkusativ,Bestimmt
+464,8,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Bestimmt
+465,8,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neuter,Akkusativ,Bestimmt
+466,8,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neuter,Akkusativ,Bestimmt
+467,8,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neuter,Akkusativ,Bestimmt
+468,8,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neuter,Akkusativ,Bestimmt
 469,8,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Ohne Artikel
 470,8,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Ohne Artikel
 471,8,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Ohne Artikel
@@ -507,45 +507,45 @@ Nr,level,question,answer,german,adjective,gender,case,article
 506,8,Wir danken dem _____ Künstler für sein Werk.,schönen,Wir danken dem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Bestimmt
 507,8,Der Professor erklärt dem _____ Studenten die Aufgabe.,fleißigen,Der Professor erklärt dem fleißigen Studenten die Aufgabe.,fleißig,Maskulin,Dativ,Bestimmt
 508,8,Die Gäste schenken dem _____ Kellner ein Trinkgeld.,freundlichen,Die Gäste schenken dem freundlichen Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Bestimmt
-509,8,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Ohne Artikel
-510,8,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neutral,Dativ,Ohne Artikel
-511,8,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neutral,Dativ,Ohne Artikel
-512,8,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Ohne Artikel
-513,8,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Ohne Artikel
-514,8,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Unbestimmt
-515,8,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neutral,Dativ,Unbestimmt
-516,8,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neutral,Dativ,Unbestimmt
-517,8,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Unbestimmt
-518,8,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Unbestimmt
+509,8,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Ohne Artikel
+510,8,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Ohne Artikel
+511,8,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Ohne Artikel
+512,8,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Ohne Artikel
+513,8,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Ohne Artikel
+514,8,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Unbestimmt
+515,8,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Unbestimmt
+516,8,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Unbestimmt
+517,8,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Unbestimmt
+518,8,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Unbestimmt
 519,8,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Ohne Artikel
 520,8,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Ohne Artikel
 521,8,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Ohne Artikel
 522,8,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Ohne Artikel
 523,8,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Ohne Artikel
-524,8,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neutral,Dativ,Bestimmt
-525,8,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neutral,Dativ,Bestimmt
-526,8,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neutral,Dativ,Bestimmt
-527,8,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neutral,Dativ,Bestimmt
-528,8,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neutral,Dativ,Bestimmt
+524,8,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Bestimmt
+525,8,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Bestimmt
+526,8,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Bestimmt
+527,8,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Bestimmt
+528,8,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Bestimmt
 529,9,des _____ Vaters,netten,des netten Vaters,nett,Maskulin,Genitiv,Bestimmt artikel
 530,9,der _____ Mutter,netten,der netten Mutter,nett,Feminin,Genitiv,Bestimmt artikel
-531,9,des _____ Kindes,netten,des netten Kindes,nett,Neutral,Genitiv,Bestimmt artikel
+531,9,des _____ Kindes,netten,des netten Kindes,nett,Neuter,Genitiv,Bestimmt artikel
 532,9,der _____ Eltern,netten,der netten Eltern,nett,Plural,Genitiv,Bestimmt artikel
 533,9,eines _____ Vaters,netten,eines netten Vaters,nett,Maskulin,Genitiv,Unbestimmt artikel
 534,9,einer _____ Mutter,netten,einer netten Mutter,nett,Feminin,Genitiv,Unbestimmt artikel
-535,9,eines _____ Kindes,netten,eines netten Kindes,nett,Neutral,Genitiv,Unbestimmt artikel
+535,9,eines _____ Kindes,netten,eines netten Kindes,nett,Neuter,Genitiv,Unbestimmt artikel
 536,9,Ø _____ Vaters,netten,netten Vaters,nett,Maskulin,Genitiv,Ohne Artikel
 537,9,Ø _____ Mutter,netter,netter Mutter,nett,Feminin,Genitiv,Ohne Artikel
-538,9,Ø _____ Kindes,netten,netten Kindes,nett,Neutral,Genitiv,Ohne Artikel
+538,9,Ø _____ Kindes,netten,netten Kindes,nett,Neuter,Genitiv,Ohne Artikel
 539,9,Ø _____ Eltern,netter,netter Eltern,nett,Plural,Genitiv,Ohne Artikel
 540,9,mein _____ Vater,netter,mein netter Vater,nett,Maskulin,Nominativ,Possessiv artikel
 541,9,meinen _____ Vater,netten,meinen netten Vater,nett,Maskulin,Akkusativ,Possessiv artikel
 542,9,meinem _____ Vater,netten,meinem netten Vater,nett,Maskulin,Dativ,Possessiv artikel
 543,9,meines _____ Vaters,netten,meines netten Vater,nett,Maskulin,Genitiv,Possessiv artikel
-544,9,mein _____ Kind,nettes,mein nettes Kind,nett,Neutral,Nominativ,Possessiv artikel
-545,9,mein _____ Kind,nettes,mein nettes Kind,nett,Neutral,Akkusativ,Possessiv artikel
-546,9,meinem _____ Kind,netten,meinem netten Kind,nett,Neutral,Dativ,Possessiv artikel
-547,9,meines _____ Kind,netten,meines netten Kind,nett,Neutral,Genitiv,Possessiv artikel
+544,9,mein _____ Kind,nettes,mein nettes Kind,nett,Neuter,Nominativ,Possessiv artikel
+545,9,mein _____ Kind,nettes,mein nettes Kind,nett,Neuter,Akkusativ,Possessiv artikel
+546,9,meinem _____ Kind,netten,meinem netten Kind,nett,Neuter,Dativ,Possessiv artikel
+547,9,meines _____ Kind,netten,meines netten Kind,nett,Neuter,Genitiv,Possessiv artikel
 548,9,meine _____ Mutter,nette,meine nette Mutter,nett,Feminin,Nominativ,Possessiv artikel
 549,9,meine _____ Mutter,nette,meine nette Mutter,nett,Feminin,Akkusativ,Possessiv artikel
 550,9,meiner _____ Mutter,netten,meiner netten Mutter,nett,Feminin,Dativ,Possessiv artikel
@@ -558,10 +558,10 @@ Nr,level,question,answer,german,adjective,gender,case,article
 557,9,keinen _____ Vater,netten,keinen netten Vater,nett,Maskulin,Akkusativ,Negationsartikel
 558,9,keinem _____ Vater,netten,keinem netten Vater,nett,Maskulin,Dativ,Negationsartikel
 559,9,keines _____ Vaters,netten,keines netten Vater,nett,Maskulin,Genitiv,Negationsartikel
-560,9,kein _____ Kind,nettes,kein nettes Kind,nett,Neutral,Nominativ,Negationsartikel
-561,9,kein _____ Kind,nettes,kein nettes Kind,nett,Neutral,Akkusativ,Negationsartikel
-562,9,keinem _____ Kind,netten,keinem netten Kind,nett,Neutral,Dativ,Negationsartikel
-563,9,keines _____ Kind,netten,keines netten Kind,nett,Neutral,Genitiv,Negationsartikel
+560,9,kein _____ Kind,nettes,kein nettes Kind,nett,Neuter,Nominativ,Negationsartikel
+561,9,kein _____ Kind,nettes,kein nettes Kind,nett,Neuter,Akkusativ,Negationsartikel
+562,9,keinem _____ Kind,netten,keinem netten Kind,nett,Neuter,Dativ,Negationsartikel
+563,9,keines _____ Kind,netten,keines netten Kind,nett,Neuter,Genitiv,Negationsartikel
 564,9,keine _____ Mutter,nette,keine nette Mutter,nett,Feminin,Nominativ,Negationsartikel
 565,9,keine _____ Mutter,nette,keine nette Mutter,nett,Feminin,Akkusativ,Negationsartikel
 566,9,keiner _____ Mutter,netten,keiner netten Mutter,nett,Feminin,Dativ,Negationsartikel
@@ -572,19 +572,19 @@ Nr,level,question,answer,german,adjective,gender,case,article
 571,9,keiner _____ Eltern,netten,keiner netten Eltern,nett,Plural,Genitiv,Negationsartikel
 572,9,dieser _____ Vater,nette,dieser nette Vater,nett,Maskulin,Nominativ,Demonstrative artikel
 573,9,diese _____ Mutter,nette,diese nette Mutter,nett,Feminin,Nominativ,Demonstrative artikel
-574,9,dieses _____ Kind,nette,dieses nette Kind,nett,Neutral,Nominativ,Demonstrative artikel
+574,9,dieses _____ Kind,nette,dieses nette Kind,nett,Neuter,Nominativ,Demonstrative artikel
 575,9,diese _____ Eltern,netten,diese netten Eltern,nett,Plural,Nominativ,Demonstrative artikel
 576,9,diesen _____ Vater,netten,diesen netten Vater,nett,Maskulin,Akkusativ,Demonstrative artikel
 577,9,diese _____ Mutter,nette,diese nette Mutter,nett,Feminin,Akkusativ,Demonstrative artikel
-578,9,dieses _____ Kind,nette,dieses nette Kind,nett,Neutral,Akkusativ,Demonstrative artikel
+578,9,dieses _____ Kind,nette,dieses nette Kind,nett,Neuter,Akkusativ,Demonstrative artikel
 579,9,diese _____ Eltern,netten,diese netten Eltern,nett,Plural,Akkusativ,Demonstrative artikel
 580,9,diesem _____ Vater,netten,diesem netten Vater,nett,Maskulin,Dativ,Demonstrative artikel
 581,9,dieser _____ Mutter,netten,dieser netten Mutter,nett,Feminin,Dativ,Demonstrative artikel
-582,9,diesem _____ Kind,netten,diesem netten Kind,nett,Neutral,Dativ,Demonstrative artikel
+582,9,diesem _____ Kind,netten,diesem netten Kind,nett,Neuter,Dativ,Demonstrative artikel
 583,9,diesen _____ Eltern,netten,diesen netten Eltern,nett,Plural,Dativ,Demonstrative artikel
 584,9,dieses _____ Vaters,netten,dieses netten Vaters,nett,Maskulin,Genitiv,Demonstrative artikel
 585,9,dieser _____ Mutter,netten,dieser netten Mutter,nett,Feminin,Genitiv,Demonstrative artikel
-586,9,dieses _____ Kindes,netten,dieses netten Kindes,nett,Neutral,Genitiv,Demonstrative artikel
+586,9,dieses _____ Kindes,netten,dieses netten Kindes,nett,Neuter,Genitiv,Demonstrative artikel
 587,9,dieser _____ Eltern,netten,dieser netten Eltern,nett,Plural,Genitiv,Demonstrative artikel
 588,10,Das ist das Buch der _____ Lehrerin.,klugen,Das ist das Buch der klugen Lehrerin.,klug,Feminin,Genitiv,Bestimmt
 589,10,Das ist das Spielzeug der _____ Katze.,alten,Das ist das Spielzeug der alten Katze.,alt,Feminin,Genitiv,Bestimmt
@@ -616,21 +616,21 @@ Nr,level,question,answer,german,adjective,gender,case,article
 615,10,Das sind die Gemälde _____ Künstler.,schöner,Das sind die Gemälde schöner Künstler.,schön,Plural,Genitiv,Ohne Artikel
 616,10,Der Erfolg _____ Schüler ist bewundernswert.,fleißiger,Der Erfolg fleißiger Schüler ist bewundernswert.,fleißig,Plural,Genitiv,Ohne Artikel
 617,10,Das Lob _____ Nachbarn war herzlich.,freundlicher,Das Lob freundlicher Nachbarn war herzlich.,freundlich,Plural,Genitiv,Ohne Artikel
-618,10,Das ist das Buch _____ Kindes.,klugen,Das ist das Buch klugen Kindes.,klug,Neutral,Genitiv,Ohne Artikel
-619,10,Das ist das Spielzeug _____ Buches.,alten,Das ist das Spielzeug alten Buches.,alt,Neutral,Genitiv,Ohne Artikel
-620,10,Das ist das Gemälde _____ Bildes.,schönen,Das ist das Gemälde schönen Bildes.,schön,Neutral,Genitiv,Ohne Artikel
-621,10,Der Erfolg _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg fleißigen Mädchens ist bewundernswert.,fleißig,Neutral,Genitiv,Ohne Artikel
-622,10,Das Lob _____ Lächelns war herzlich.,freundlichen,Das Lob freundlichen Lächelns war herzlich.,freundlich,Neutral,Genitiv,Ohne Artikel
-623,10,Das ist das Buch eines _____ Kindes.,klugen,Das ist das Buch eines klugen Kindes.,klug,Neutral,Genitiv,Unbestimmt
-624,10,Das ist das Spielzeug eines _____ Buches.,alten,Das ist das Spielzeug eines alten Buches.,alt,Neutral,Genitiv,Unbestimmt
-625,10,Das ist das Gemälde eines _____ Bildes.,schönen,Das ist das Gemälde eines schönen Bildes.,schön,Neutral,Genitiv,Unbestimmt
-626,10,Der Erfolg eines _____ Mädchens ist bemerkenswert.,fleißigen,Der Erfolg eines fleißigen Mädchens ist bemerkenswert.,fleißig,Neutral,Genitiv,Unbestimmt
-627,10,Das Lob eines _____ Lächelns war herzlich.,freundlichen,Das Lob eines freundlichen Lächelns war herzlich.,freundlich,Neutral,Genitiv,Unbestimmt
-628,10,Das ist das Buch des _____ Kindes.,klugen,Das ist das Buch des klugen Kindes.,klug,Neutral,Genitiv,Bestimmt
-629,10,Das ist das Spielzeug des _____ Buches.,alten,Das ist das Spielzeug des alten Buches.,alt,Neutral,Genitiv,Bestimmt
-630,10,Das ist das Gemälde des _____ Bildes.,schönen,Das ist das Gemälde des schönen Bildes.,schön,Neutral,Genitiv,Bestimmt
-631,10,Der Erfolg des _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg des fleißigen Mädchens ist bewundernswert.,fleißig,Neutral,Genitiv,Bestimmt
-632,10,Das Lob des _____ Lächelns war herzlich.,freundlichen,Das Lob des freundlichen Lächelns war herzlich.,freundlich,Neutral,Genitiv,Bestimmt
+618,10,Das ist das Buch _____ Kindes.,klugen,Das ist das Buch klugen Kindes.,klug,Neuter,Genitiv,Ohne Artikel
+619,10,Das ist das Spielzeug _____ Buches.,alten,Das ist das Spielzeug alten Buches.,alt,Neuter,Genitiv,Ohne Artikel
+620,10,Das ist das Gemälde _____ Bildes.,schönen,Das ist das Gemälde schönen Bildes.,schön,Neuter,Genitiv,Ohne Artikel
+621,10,Der Erfolg _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Ohne Artikel
+622,10,Das Lob _____ Lächelns war herzlich.,freundlichen,Das Lob freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Ohne Artikel
+623,10,Das ist das Buch eines _____ Kindes.,klugen,Das ist das Buch eines klugen Kindes.,klug,Neuter,Genitiv,Unbestimmt
+624,10,Das ist das Spielzeug eines _____ Buches.,alten,Das ist das Spielzeug eines alten Buches.,alt,Neuter,Genitiv,Unbestimmt
+625,10,Das ist das Gemälde eines _____ Bildes.,schönen,Das ist das Gemälde eines schönen Bildes.,schön,Neuter,Genitiv,Unbestimmt
+626,10,Der Erfolg eines _____ Mädchens ist bemerkenswert.,fleißigen,Der Erfolg eines fleißigen Mädchens ist bemerkenswert.,fleißig,Neuter,Genitiv,Unbestimmt
+627,10,Das Lob eines _____ Lächelns war herzlich.,freundlichen,Das Lob eines freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Unbestimmt
+628,10,Das ist das Buch des _____ Kindes.,klugen,Das ist das Buch des klugen Kindes.,klug,Neuter,Genitiv,Bestimmt
+629,10,Das ist das Spielzeug des _____ Buches.,alten,Das ist das Spielzeug des alten Buches.,alt,Neuter,Genitiv,Bestimmt
+630,10,Das ist das Gemälde des _____ Bildes.,schönen,Das ist das Gemälde des schönen Bildes.,schön,Neuter,Genitiv,Bestimmt
+631,10,Der Erfolg des _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg des fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Bestimmt
+632,10,Das Lob des _____ Lächelns war herzlich.,freundlichen,Das Lob des freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Bestimmt
 633,10,Das ist das Buch _____ Lehrers.,klugen,Das ist das Buch klugen Lehrers.,klug,Maskulin,Genitiv,Ohne Artikel
 634,10,Das ist das Spielzeug _____ Hundes.,alten,Das ist das Spielzeug alten Hundes.,alt,Maskulin,Genitiv,Ohne Artikel
 635,10,Das ist das Gemälde _____ Künstlers.,schönen,Das ist das Gemälde schönen Künstlers.,schön,Maskulin,Genitiv,Ohne Artikel
@@ -651,11 +651,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 650,11,Die Größe deiner _____ Taschen ist beeindruckend.,großen,Die Größe deiner großen Taschen ist beeindruckend.,groß,Plural,Genitiv,Possessivartikel
 651,11,Die Erfolge unserer _____ Kinder werden gefeiert.,klugen,Die Erfolge unserer klugen Kinder werden gefeiert.,klug,Plural,Genitiv,Possessivartikel
 652,11,Die Unterstützung ihrer _____ Eltern war entscheidend.,stolzen,Die Unterstützung ihrer stolzen Eltern war entscheidend.,stolz,Plural,Genitiv,Possessivartikel
-653,11,Ich gebe meinem _____ Auto einen Ölwechsel.,neuen,Ich gebe meinem neuen Auto einen Ölwechsel.,neu,Neutral,Dativ,Possessivartikel
-654,11,Er vertraut seinem _____ Haus bei jedem Sturm.,alten,Er vertraut seinem alten Haus bei jedem Sturm.,alt,Neutral,Dativ,Possessivartikel
-655,11,"Wir helfen deinem _____ Zimmer, sauber zu bleiben.",großen,"Wir helfen deinem großen Zimmer, sauber zu bleiben.",groß,Neutral,Dativ,Possessivartikel
-656,11,Sie widmet unserem _____ Kind ihre ganze Zeit.,klugen,Sie widmet unserem klugen Kind ihre ganze Zeit.,klug,Neutral,Dativ,Possessivartikel
-657,11,Sie zeigt ihrem _____ Pferd den Weg zum Stall.,stolzen,Sie zeigt ihrem stolzen Pferd den Weg zum Stall.,stolz,Neutral,Dativ,Possessivartikel
+653,11,Ich gebe meinem _____ Auto einen Ölwechsel.,neuen,Ich gebe meinem neuen Auto einen Ölwechsel.,neu,Neuter,Dativ,Possessivartikel
+654,11,Er vertraut seinem _____ Haus bei jedem Sturm.,alten,Er vertraut seinem alten Haus bei jedem Sturm.,alt,Neuter,Dativ,Possessivartikel
+655,11,"Wir helfen deinem _____ Zimmer, sauber zu bleiben.",großen,"Wir helfen deinem großen Zimmer, sauber zu bleiben.",groß,Neuter,Dativ,Possessivartikel
+656,11,Sie widmet unserem _____ Kind ihre ganze Zeit.,klugen,Sie widmet unserem klugen Kind ihre ganze Zeit.,klug,Neuter,Dativ,Possessivartikel
+657,11,Sie zeigt ihrem _____ Pferd den Weg zum Stall.,stolzen,Sie zeigt ihrem stolzen Pferd den Weg zum Stall.,stolz,Neuter,Dativ,Possessivartikel
 658,11,Ich sehe meine _____ Bücher auf dem Tisch.,neuen,Ich sehe meine neuen Bücher auf dem Tisch.,neu,Plural,Akkusativ,Possessivartikel
 659,11,Er besucht seine _____ Freunde in der Stadt.,alten,Er besucht seine alten Freunde in der Stadt.,alt,Plural,Akkusativ,Possessivartikel
 660,11,Wir räumen deine _____ Taschen in den Schrank.,großen,Wir räumen deine großen Taschen in den Schrank.,groß,Plural,Akkusativ,Possessivartikel
@@ -676,16 +676,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 675,11,Die Meinung deines _____ Bruders ist wichtig.,großen,Die Meinung deines großen Bruders ist wichtig.,groß,Maskulin,Genitiv,Possessivartikel
 676,11,Die Unterstützung unseres _____ Lehrers war entscheidend.,klugen,Die Unterstützung unseres klugen Lehrers war entscheidend.,klug,Maskulin,Genitiv,Possessivartikel
 677,11,Der Erfolg ihres _____ Sohnes wurde gefeiert.,stolzen,Der Erfolg ihres stolzen Sohnes wurde gefeiert.,stolz,Maskulin,Genitiv,Possessivartikel
-678,11,Die Farbe meines _____ Autos ist beeindruckend.,neuen,Die Farbe meines neuen Autos ist beeindruckend.,neu,Neutral,Genitiv,Possessivartikel
-679,11,Der Zustand seines _____ Hauses verschlechtert sich.,alten,Der Zustand seines alten Hauses verschlechtert sich.,alt,Neutral,Genitiv,Possessivartikel
-680,11,Die Größe deines _____ Zimmers ist beeindruckend.,großen,Die Größe deines großen Zimmers ist beeindruckend.,groß,Neutral,Genitiv,Possessivartikel
-681,11,Die Kreativität unseres _____ Kindes ist erstaunlich.,klugen,Die Kreativität unseres klugen Kindes ist erstaunlich.,klug,Neutral,Genitiv,Possessivartikel
-682,11,Die Stärke ihres _____ Pferdes ist außergewöhnlich.,stolzen,Die Stärke ihres stolzen Pferdes ist außergewöhnlich.,stolz,Neutral,Genitiv,Possessivartikel
-683,11,Mein _____ Auto ist sehr schnell.,neues,Mein neues Auto ist sehr schnell.,neu,Neutral,Nominativ,Possessivartikel
-684,11,Sein _____ Haus steht in einem kleinen Dorf.,altes,Sein altes Haus steht in einem kleinen Dorf.,alt,Neutral,Nominativ,Possessivartikel
-685,11,Dein _____ Zimmer hat einen schönen Ausblick.,großes,Dein großes Zimmer hat einen schönen Ausblick.,groß,Neutral,Nominativ,Possessivartikel
-686,11,Unser _____ Kind löst gerne schwierige Rätsel.,kluges,Unser kluges Kind löst gerne schwierige Rätsel.,klug,Neutral,Nominativ,Possessivartikel
-687,11,Ihr _____ Pferd gewann den ersten Preis.,stolzes,Ihr stolzes Pferd gewann den ersten Preis.,stolz,Neutral,Nominativ,Possessivartikel
+678,11,Die Farbe meines _____ Autos ist beeindruckend.,neuen,Die Farbe meines neuen Autos ist beeindruckend.,neu,Neuter,Genitiv,Possessivartikel
+679,11,Der Zustand seines _____ Hauses verschlechtert sich.,alten,Der Zustand seines alten Hauses verschlechtert sich.,alt,Neuter,Genitiv,Possessivartikel
+680,11,Die Größe deines _____ Zimmers ist beeindruckend.,großen,Die Größe deines großen Zimmers ist beeindruckend.,groß,Neuter,Genitiv,Possessivartikel
+681,11,Die Kreativität unseres _____ Kindes ist erstaunlich.,klugen,Die Kreativität unseres klugen Kindes ist erstaunlich.,klug,Neuter,Genitiv,Possessivartikel
+682,11,Die Stärke ihres _____ Pferdes ist außergewöhnlich.,stolzen,Die Stärke ihres stolzen Pferdes ist außergewöhnlich.,stolz,Neuter,Genitiv,Possessivartikel
+683,11,Mein _____ Auto ist sehr schnell.,neues,Mein neues Auto ist sehr schnell.,neu,Neuter,Nominativ,Possessivartikel
+684,11,Sein _____ Haus steht in einem kleinen Dorf.,altes,Sein altes Haus steht in einem kleinen Dorf.,alt,Neuter,Nominativ,Possessivartikel
+685,11,Dein _____ Zimmer hat einen schönen Ausblick.,großes,Dein großes Zimmer hat einen schönen Ausblick.,groß,Neuter,Nominativ,Possessivartikel
+686,11,Unser _____ Kind löst gerne schwierige Rätsel.,kluges,Unser kluges Kind löst gerne schwierige Rätsel.,klug,Neuter,Nominativ,Possessivartikel
+687,11,Ihr _____ Pferd gewann den ersten Preis.,stolzes,Ihr stolzes Pferd gewann den ersten Preis.,stolz,Neuter,Nominativ,Possessivartikel
 688,11,Ich helfe meiner _____ Freundin beim Umzug.,neuen,Ich helfe meiner neuen Freundin beim Umzug.,neu,Feminin,Dativ,Possessivartikel
 689,11,Er gibt seiner _____ Mutter ein Geschenk.,alten,Er gibt seiner alten Mutter ein Geschenk.,alt,Feminin,Dativ,Possessivartikel
 690,11,Du vertraust deiner _____ Schwester mit deinem Geheimnis.,großen,Du vertraust deiner großen Schwester mit deinem Geheimnis.,groß,Feminin,Dativ,Possessivartikel
@@ -711,11 +711,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 710,11,Wir geben deinem _____ Bruder das Geschenk.,großen,Wir geben deinem großen Bruder das Geschenk.,groß,Maskulin,Dativ,Possessivartikel
 711,11,Sie dankt unserem _____ Lehrer für seine Unterstützung.,klugen,Sie dankt unserem klugen Lehrer für seine Unterstützung.,klug,Maskulin,Dativ,Possessivartikel
 712,11,Ihr _____ Sohn wurde ein Preis verliehen.,stolzem,Ihr stolzem Sohn wurde ein Preis verliehen.,stolz,Maskulin,Dativ,Possessivartikel
-713,11,Ich kaufe mein _____ Auto morgen.,neues,Ich kaufe mein neues Auto morgen.,neu,Neutral,Akkusativ,Possessivartikel
-714,11,Er renoviert sein _____ Haus in diesem Sommer.,altes,Er renoviert sein altes Haus in diesem Sommer.,alt,Neutral,Akkusativ,Possessivartikel
-715,11,Sie dekoriert dein _____ Zimmer mit Pflanzen.,großes,Sie dekoriert dein großes Zimmer mit Pflanzen.,groß,Neutral,Akkusativ,Possessivartikel
-716,11,Wir bewundern unser _____ Kind für seine Ideen.,kluges,Wir bewundern unser kluges Kind für seine Ideen.,klug,Neutral,Akkusativ,Possessivartikel
-717,11,Sie präsentiert ihr _____ Pferd auf dem Turnier.,stolzes,Sie präsentiert ihr stolzes Pferd auf dem Turnier.,stolz,Neutral,Akkusativ,Possessivartikel
+713,11,Ich kaufe mein _____ Auto morgen.,neues,Ich kaufe mein neues Auto morgen.,neu,Neuter,Akkusativ,Possessivartikel
+714,11,Er renoviert sein _____ Haus in diesem Sommer.,altes,Er renoviert sein altes Haus in diesem Sommer.,alt,Neuter,Akkusativ,Possessivartikel
+715,11,Sie dekoriert dein _____ Zimmer mit Pflanzen.,großes,Sie dekoriert dein großes Zimmer mit Pflanzen.,groß,Neuter,Akkusativ,Possessivartikel
+716,11,Wir bewundern unser _____ Kind für seine Ideen.,kluges,Wir bewundern unser kluges Kind für seine Ideen.,klug,Neuter,Akkusativ,Possessivartikel
+717,11,Sie präsentiert ihr _____ Pferd auf dem Turnier.,stolzes,Sie präsentiert ihr stolzes Pferd auf dem Turnier.,stolz,Neuter,Akkusativ,Possessivartikel
 718,11,Ich sehe meinen _____ Hund im Park.,neuen,Ich sehe meinen neuen Hund im Park.,neu,Maskulin,Akkusativ,Possessivartikel
 719,11,Er besucht seinen _____ Freund in Berlin.,alten,Er besucht seinen alten Freund in Berlin.,alt,Maskulin,Akkusativ,Possessivartikel
 720,11,Wir haben deinen _____ Bruder gestern getroffen.,großen,Wir haben deinen großen Bruder gestern getroffen.,groß,Maskulin,Akkusativ,Possessivartikel
@@ -731,16 +731,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 730,12,Diese _____ Künstlerin hat ein beeindruckendes Gemälde geschaffen.,junge,Diese junge Künstlerin hat ein beeindruckendes Gemälde geschaffen.,jung,Feminin,Nominativ,Demonstrative artikel
 731,12,Diese _____ Politikerin hält heute eine Rede.,wichtige,Diese wichtige Politikerin hält heute eine Rede.,wichtig,Feminin,Nominativ,Demonstrative artikel
 732,12,Diese _____ Nachbarin hilft uns immer mit dem Garten.,nette,Diese nette Nachbarin hilft uns immer mit dem Garten.,nett,Feminin,Nominativ,Demonstrative artikel
-733,12,Ich gebe diesem _____ Kind ein neues Buch.,fleißigen,Ich gebe diesem fleißigen Kind ein neues Buch.,fleißig,Neutral,Dativ,Demonstrative artikel
-734,12,Wir helfen diesem _____ Haus mit einer Renovierung.,alten,Wir helfen diesem alten Haus mit einer Renovierung.,alt,Neutral,Dativ,Demonstrative artikel
-735,12,Er schenkt diesem _____ Unternehmen eine große Investition.,jungen,Er schenkt diesem jungen Unternehmen eine große Investition.,jung,Neutral,Dativ,Demonstrative artikel
-736,12,Sie widmet diesem _____ Dokument besondere Aufmerksamkeit.,wichtigen,Sie widmet diesem wichtigen Dokument besondere Aufmerksamkeit.,wichtig,Neutral,Dativ,Demonstrative artikel
-737,12,Ich vertraue diesem _____ Lächeln mehr als Worten.,netten,Ich vertraue diesem netten Lächeln mehr als Worten.,nett,Neutral,Dativ,Demonstrative artikel
-738,12,Trotz dieses _____ Kindes harter Arbeit gab es keine Anerkennung.,fleißigen,Trotz dieses fleißigen Kindes harter Arbeit gab es keine Anerkennung.,fleißig,Neutral,Genitiv,Demonstrative artikel
-739,12,Während dieses _____ Hauses Renovierung konnten wir es nicht betreten.,alten,Während dieses alten Hauses Renovierung konnten wir es nicht betreten.,alt,Neutral,Genitiv,Demonstrative artikel
-740,12,Aufgrund dieses _____ Unternehmens schnellen Wachstums steigen die Aktienkurse.,jungen,Aufgrund dieses jungen Unternehmens schnellen Wachstums steigen die Aktienkurse.,jung,Neutral,Genitiv,Demonstrative artikel
-741,12,Wegen dieses _____ Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtigen,Wegen dieses wichtigen Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtig,Neutral,Genitiv,Demonstrative artikel
-742,12,Ich bin mir der Bedeutung dieses _____ Lächelns bewusst.,netten,Ich bin mir der Bedeutung dieses netten Lächelns bewusst.,nett,Neutral,Genitiv,Demonstrative artikel
+733,12,Ich gebe diesem _____ Kind ein neues Buch.,fleißigen,Ich gebe diesem fleißigen Kind ein neues Buch.,fleißig,Neuter,Dativ,Demonstrative artikel
+734,12,Wir helfen diesem _____ Haus mit einer Renovierung.,alten,Wir helfen diesem alten Haus mit einer Renovierung.,alt,Neuter,Dativ,Demonstrative artikel
+735,12,Er schenkt diesem _____ Unternehmen eine große Investition.,jungen,Er schenkt diesem jungen Unternehmen eine große Investition.,jung,Neuter,Dativ,Demonstrative artikel
+736,12,Sie widmet diesem _____ Dokument besondere Aufmerksamkeit.,wichtigen,Sie widmet diesem wichtigen Dokument besondere Aufmerksamkeit.,wichtig,Neuter,Dativ,Demonstrative artikel
+737,12,Ich vertraue diesem _____ Lächeln mehr als Worten.,netten,Ich vertraue diesem netten Lächeln mehr als Worten.,nett,Neuter,Dativ,Demonstrative artikel
+738,12,Trotz dieses _____ Kindes harter Arbeit gab es keine Anerkennung.,fleißigen,Trotz dieses fleißigen Kindes harter Arbeit gab es keine Anerkennung.,fleißig,Neuter,Genitiv,Demonstrative artikel
+739,12,Während dieses _____ Hauses Renovierung konnten wir es nicht betreten.,alten,Während dieses alten Hauses Renovierung konnten wir es nicht betreten.,alt,Neuter,Genitiv,Demonstrative artikel
+740,12,Aufgrund dieses _____ Unternehmens schnellen Wachstums steigen die Aktienkurse.,jungen,Aufgrund dieses jungen Unternehmens schnellen Wachstums steigen die Aktienkurse.,jung,Neuter,Genitiv,Demonstrative artikel
+741,12,Wegen dieses _____ Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtigen,Wegen dieses wichtigen Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtig,Neuter,Genitiv,Demonstrative artikel
+742,12,Ich bin mir der Bedeutung dieses _____ Lächelns bewusst.,netten,Ich bin mir der Bedeutung dieses netten Lächelns bewusst.,nett,Neuter,Genitiv,Demonstrative artikel
 743,12,Während dieser _____ Schülerin Abwesenheit hat die Klasse weitergearbeitet.,fleißigen,Während dieser fleißigen Schülerin Abwesenheit hat die Klasse weitergearbeitet.,fleißig,Feminin,Genitiv,Demonstrative artikel
 744,12,Trotz dieser _____ Frau Weisheit hörte niemand auf sie.,alten,Trotz dieser alten Frau Weisheit hörte niemand auf sie.,alt,Feminin,Genitiv,Demonstrative artikel
 745,12,Anlässlich dieser _____ Künstlerin Ausstellung waren viele Besucher da.,jungen,Anlässlich dieser jungen Künstlerin Ausstellung waren viele Besucher da.,jung,Feminin,Genitiv,Demonstrative artikel
@@ -766,11 +766,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 765,12,Er gratuliert diesem _____ Künstler zu seinem Erfolg.,jungen,Er gratuliert diesem jungen Künstler zu seinem Erfolg.,jung,Maskulin,Dativ,Demonstrative artikel
 766,12,Wir danken diesem _____ Politiker für seine Rede.,wichtigen,Wir danken diesem wichtigen Politiker für seine Rede.,wichtig,Maskulin,Dativ,Demonstrative artikel
 767,12,Ich vertraue diesem _____ Nachbarn vollkommen.,netten,Ich vertraue diesem netten Nachbarn vollkommen.,nett,Maskulin,Dativ,Demonstrative artikel
-768,12,Dieses _____ Kind lernt jeden Tag neue Vokabeln.,fleißige,Dieses fleißige Kind lernt jeden Tag neue Vokabeln.,fleißig,Neutral,Nominativ,Demonstrative artikel
-769,12,Dieses _____ Haus hat eine lange Geschichte.,alte,Dieses alte Haus hat eine lange Geschichte.,alt,Neutral,Nominativ,Demonstrative artikel
-770,12,Dieses _____ Unternehmen wächst sehr schnell.,junge,Dieses junge Unternehmen wächst sehr schnell.,jung,Neutral,Nominativ,Demonstrative artikel
-771,12,Dieses _____ Dokument muss unterschrieben werden.,wichtige,Dieses wichtige Dokument muss unterschrieben werden.,wichtig,Neutral,Nominativ,Demonstrative artikel
-772,12,Dieses _____ Lächeln macht den Tag schöner.,nette,Dieses nette Lächeln macht den Tag schöner.,nett,Neutral,Nominativ,Demonstrative artikel
+768,12,Dieses _____ Kind lernt jeden Tag neue Vokabeln.,fleißige,Dieses fleißige Kind lernt jeden Tag neue Vokabeln.,fleißig,Neuter,Nominativ,Demonstrative artikel
+769,12,Dieses _____ Haus hat eine lange Geschichte.,alte,Dieses alte Haus hat eine lange Geschichte.,alt,Neuter,Nominativ,Demonstrative artikel
+770,12,Dieses _____ Unternehmen wächst sehr schnell.,junge,Dieses junge Unternehmen wächst sehr schnell.,jung,Neuter,Nominativ,Demonstrative artikel
+771,12,Dieses _____ Dokument muss unterschrieben werden.,wichtige,Dieses wichtige Dokument muss unterschrieben werden.,wichtig,Neuter,Nominativ,Demonstrative artikel
+772,12,Dieses _____ Lächeln macht den Tag schöner.,nette,Dieses nette Lächeln macht den Tag schöner.,nett,Neuter,Nominativ,Demonstrative artikel
 773,12,Ich sehe diese _____ Schüler jeden Tag in der Schule.,fleißigen,Ich sehe diese fleißigen Schüler jeden Tag in der Schule.,fleißig,Plural,Akkusativ,Demonstrative artikel
 774,12,Wir besuchen diese _____ Häuser in unserer Stadt.,alten,Wir besuchen diese alten Häuser in unserer Stadt.,alt,Plural,Akkusativ,Demonstrative artikel
 775,12,Sie hat diese _____ Künstler zur Ausstellung eingeladen.,jungen,Sie hat diese jungen Künstler zur Ausstellung eingeladen.,jung,Plural,Akkusativ,Demonstrative artikel
@@ -786,11 +786,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 785,12,Anlässlich dieses _____ Künstlers Ausstellung kamen viele Besucher.,jungen,Anlässlich dieses jungen Künstlers Ausstellung kamen viele Besucher.,jung,Maskulin,Genitiv,Demonstrative artikel
 786,12,Wegen dieses _____ Politikers Entscheidung ändert sich die Gesetzgebung.,wichtigen,Wegen dieses wichtigen Politikers Entscheidung ändert sich die Gesetzgebung.,wichtig,Maskulin,Genitiv,Demonstrative artikel
 787,12,Ich bin mir der Hilfe dieses _____ Nachbarn bewusst.,netten,Ich bin mir der Hilfe dieses netten Nachbarn bewusst.,nett,Maskulin,Genitiv,Demonstrative artikel
-788,12,Ich kaufe dieses _____ Kind ein neues Buch.,fleißige,Ich kaufe dieses fleißige Kind ein neues Buch.,fleißig,Neutral,Akkusativ,Demonstrative artikel
-789,12,Wir besichtigen dieses _____ Haus am Wochenende.,alte,Wir besichtigen dieses alte Haus am Wochenende.,alt,Neutral,Akkusativ,Demonstrative artikel
-790,12,Er unterstützt dieses _____ Unternehmen finanziell.,junge,Er unterstützt dieses junge Unternehmen finanziell.,jung,Neutral,Akkusativ,Demonstrative artikel
-791,12,Sie unterschreibt dieses _____ Dokument sofort.,wichtige,Sie unterschreibt dieses wichtige Dokument sofort.,wichtig,Neutral,Akkusativ,Demonstrative artikel
-792,12,Ich bewundere dieses _____ Lächeln jeden Tag.,nette,Ich bewundere dieses nette Lächeln jeden Tag.,nett,Neutral,Akkusativ,Demonstrative artikel
+788,12,Ich kaufe dieses _____ Kind ein neues Buch.,fleißige,Ich kaufe dieses fleißige Kind ein neues Buch.,fleißig,Neuter,Akkusativ,Demonstrative artikel
+789,12,Wir besichtigen dieses _____ Haus am Wochenende.,alte,Wir besichtigen dieses alte Haus am Wochenende.,alt,Neuter,Akkusativ,Demonstrative artikel
+790,12,Er unterstützt dieses _____ Unternehmen finanziell.,junge,Er unterstützt dieses junge Unternehmen finanziell.,jung,Neuter,Akkusativ,Demonstrative artikel
+791,12,Sie unterschreibt dieses _____ Dokument sofort.,wichtige,Sie unterschreibt dieses wichtige Dokument sofort.,wichtig,Neuter,Akkusativ,Demonstrative artikel
+792,12,Ich bewundere dieses _____ Lächeln jeden Tag.,nette,Ich bewundere dieses nette Lächeln jeden Tag.,nett,Neuter,Akkusativ,Demonstrative artikel
 793,12,Diese _____ Schüler bereiten sich auf die Prüfung vor.,fleißigen,Diese fleißigen Schüler bereiten sich auf die Prüfung vor.,fleißig,Plural,Nominativ,Demonstrative artikel
 794,12,Diese _____ Häuser erzählen viele Geschichten.,alten,Diese alten Häuser erzählen viele Geschichten.,alt,Plural,Nominativ,Demonstrative artikel
 795,12,Diese _____ Künstler haben beeindruckende Werke geschaffen.,jungen,Diese jungen Künstler haben beeindruckende Werke geschaffen.,jung,Plural,Nominativ,Demonstrative artikel
@@ -811,11 +811,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 810,13,Wir bringen keine _____ Taschen in den Raum.,großen,Wir bringen keine großen Taschen in den Raum.,groß,Plural,Akkusativ,Negationsartikel
 811,13,Sie loben keine _____ Kinder für ihre Arbeit.,klugen,Sie loben keine klugen Kinder für ihre Arbeit.,klug,Plural,Akkusativ,Negationsartikel
 812,13,Sie sehen keine _____ Eltern auf der Feier.,stolzen,Sie sehen keine stolzen Eltern auf der Feier.,stolz,Plural,Akkusativ,Negationsartikel
-813,13,Ich gebe keinem _____ Auto eine Chance.,neuen,Ich gebe keinem neuen Auto eine Chance.,neu,Neutral,Dativ,Negationsartikel
-814,13,Er hilft keinem _____ Haus bei der Renovierung.,alten,Er hilft keinem alten Haus bei der Renovierung.,alt,Neutral,Dativ,Negationsartikel
-815,13,Sie widmet keinem _____ Fenster ihre Aufmerksamkeit.,großen,Sie widmet keinem großen Fenster ihre Aufmerksamkeit.,groß,Neutral,Dativ,Negationsartikel
-816,13,Wir zeigen keinem _____ Kind unsere Lösung.,klugen,Wir zeigen keinem klugen Kind unsere Lösung.,klug,Neutral,Dativ,Negationsartikel
-817,13,Sie schenkt keinem _____ Pferd einen Blick.,stolzen,Sie schenkt keinem stolzen Pferd einen Blick.,stolz,Neutral,Dativ,Negationsartikel
+813,13,Ich gebe keinem _____ Auto eine Chance.,neuen,Ich gebe keinem neuen Auto eine Chance.,neu,Neuter,Dativ,Negationsartikel
+814,13,Er hilft keinem _____ Haus bei der Renovierung.,alten,Er hilft keinem alten Haus bei der Renovierung.,alt,Neuter,Dativ,Negationsartikel
+815,13,Sie widmet keinem _____ Fenster ihre Aufmerksamkeit.,großen,Sie widmet keinem großen Fenster ihre Aufmerksamkeit.,groß,Neuter,Dativ,Negationsartikel
+816,13,Wir zeigen keinem _____ Kind unsere Lösung.,klugen,Wir zeigen keinem klugen Kind unsere Lösung.,klug,Neuter,Dativ,Negationsartikel
+817,13,Sie schenkt keinem _____ Pferd einen Blick.,stolzen,Sie schenkt keinem stolzen Pferd einen Blick.,stolz,Neuter,Dativ,Negationsartikel
 818,13,Ich finde keine _____ Wohnung in der Stadt.,neue,Ich finde keine neue Wohnung in der Stadt.,neu,Feminin,Akkusativ,Negationsartikel
 819,13,Er kennt keine _____ Freundin aus der Schule.,alte,Er kennt keine alte Freundin aus der Schule.,alt,Feminin,Akkusativ,Negationsartikel
 820,13,Sie trägt keine _____ Tasche zum Einkaufen.,große,Sie trägt keine große Tasche zum Einkaufen.,groß,Feminin,Akkusativ,Negationsartikel
@@ -831,16 +831,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 830,13,Die Größe keiner _____ Tasche war ausreichend.,großen,Die Größe keiner großen Tasche war ausreichend.,groß,Feminin,Genitiv,Negationsartikel
 831,13,Die Unterstützung keiner _____n Tochter wurde benötigt.,kluge,Die Unterstützung keiner klugen Tochter wurde benötigt.,klug,Feminin,Genitiv,Negationsartikel
 832,13,Die Aufmerksamkeit keiner _____n Katze war notwendig.,stolze,Die Aufmerksamkeit keiner stolzen Katze war notwendig.,stolz,Feminin,Genitiv,Negationsartikel
-833,13,Kein _____ Auto steht auf dem Parkplatz.,neues,Kein neues Auto steht auf dem Parkplatz.,neu,Neutral,Nominativ,Negationsartikel
-834,13,Kein _____ Haus wird renoviert.,altes,Kein altes Haus wird renoviert.,alt,Neutral,Nominativ,Negationsartikel
-835,13,Kein _____ Fenster ist offen.,großes,Kein großes Fenster ist offen.,groß,Neutral,Nominativ,Negationsartikel
-836,13,Kein _____ Kind hat die Antwort gefunden.,kluges,Kein kluges Kind hat die Antwort gefunden.,klug,Neutral,Nominativ,Negationsartikel
-837,13,Kein _____ Pferd ist im Stall.,stolzes,Kein stolzes Pferd ist im Stall.,stolz,Neutral,Nominativ,Negationsartikel
-838,13,Die Farbe keines _____ Autos ist so schön.,neuen,Die Farbe keines neuen Autos ist so schön.,neu,Neutral,Genitiv,Negationsartikel
-839,13,Die Geschichte keines _____ Hauses wurde erzählt.,alten,Die Geschichte keines alten Hauses wurde erzählt.,alt,Neutral,Genitiv,Negationsartikel
-840,13,Die Größe keines _____ Fensters war beeindruckend.,großen,Die Größe keines großen Fensters war beeindruckend.,groß,Neutral,Genitiv,Negationsartikel
-841,13,Die Idee keines _____ Kindes war nützlich.,klugen,Die Idee keines klugen Kindes war nützlich.,klug,Neutral,Genitiv,Negationsartikel
-842,13,Die Stärke keines _____ Pferdes war ausreichend.,stolzen,Die Stärke keines stolzen Pferdes war ausreichend.,stolz,Neutral,Genitiv,Negationsartikel
+833,13,Kein _____ Auto steht auf dem Parkplatz.,neues,Kein neues Auto steht auf dem Parkplatz.,neu,Neuter,Nominativ,Negationsartikel
+834,13,Kein _____ Haus wird renoviert.,altes,Kein altes Haus wird renoviert.,alt,Neuter,Nominativ,Negationsartikel
+835,13,Kein _____ Fenster ist offen.,großes,Kein großes Fenster ist offen.,groß,Neuter,Nominativ,Negationsartikel
+836,13,Kein _____ Kind hat die Antwort gefunden.,kluges,Kein kluges Kind hat die Antwort gefunden.,klug,Neuter,Nominativ,Negationsartikel
+837,13,Kein _____ Pferd ist im Stall.,stolzes,Kein stolzes Pferd ist im Stall.,stolz,Neuter,Nominativ,Negationsartikel
+838,13,Die Farbe keines _____ Autos ist so schön.,neuen,Die Farbe keines neuen Autos ist so schön.,neu,Neuter,Genitiv,Negationsartikel
+839,13,Die Geschichte keines _____ Hauses wurde erzählt.,alten,Die Geschichte keines alten Hauses wurde erzählt.,alt,Neuter,Genitiv,Negationsartikel
+840,13,Die Größe keines _____ Fensters war beeindruckend.,großen,Die Größe keines großen Fensters war beeindruckend.,groß,Neuter,Genitiv,Negationsartikel
+841,13,Die Idee keines _____ Kindes war nützlich.,klugen,Die Idee keines klugen Kindes war nützlich.,klug,Neuter,Genitiv,Negationsartikel
+842,13,Die Stärke keines _____ Pferdes war ausreichend.,stolzen,Die Stärke keines stolzen Pferdes war ausreichend.,stolz,Neuter,Genitiv,Negationsartikel
 843,13,Kein _____ Hund bellt in der Nachbarschaft.,neuer,Kein neuer Hund bellt in der Nachbarschaft.,neu,Maskulin,Nominativ,Negationsartikel
 844,13,Kein _____ Mann sitzt auf der Bank.,alter,Kein alter Mann sitzt auf der Bank.,alt,Maskulin,Nominativ,Negationsartikel
 845,13,Kein _____ Vogel fliegt über das Haus.,großer,Kein großer Vogel fliegt über das Haus.,groß,Maskulin,Nominativ,Negationsartikel
@@ -876,11 +876,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 875,13,Sie hört keinen _____ Vogel singen.,großen,Sie hört keinen großen Vogel singen.,groß,Maskulin,Akkusativ,Negationsartikel
 876,13,Wir fanden keinen _____ Schüler in der Klasse.,klugen,Wir fanden keinen klugen Schüler in der Klasse.,klug,Maskulin,Akkusativ,Negationsartikel
 877,13,Sie hat keinen _____ Vater gesehen.,stolzen,Sie hat keinen stolzen Vater gesehen.,stolz,Maskulin,Akkusativ,Negationsartikel
-878,13,Ich kaufe kein _____ Auto dieses Jahr.,neues,Ich kaufe kein neues Auto dieses Jahr.,neu,Neutral,Akkusativ,Negationsartikel
-879,13,Er sieht kein _____ Haus am Horizont.,altes,Er sieht kein altes Haus am Horizont.,alt,Neutral,Akkusativ,Negationsartikel
-880,13,Sie öffnet kein _____ Fenster im Zimmer.,großes,Sie öffnet kein großes Fenster im Zimmer.,groß,Neutral,Akkusativ,Negationsartikel
-881,13,Wir bewundern kein _____ Kind auf der Bühne.,kluges,Wir bewundern kein kluges Kind auf der Bühne.,klug,Neutral,Akkusativ,Negationsartikel
-882,13,Sie streichelt kein _____ Pferd auf der Wiese.,stolzes,Sie streichelt kein stolzes Pferd auf der Wiese.,stolz,Neutral,Akkusativ,Negationsartikel
+878,13,Ich kaufe kein _____ Auto dieses Jahr.,neues,Ich kaufe kein neues Auto dieses Jahr.,neu,Neuter,Akkusativ,Negationsartikel
+879,13,Er sieht kein _____ Haus am Horizont.,altes,Er sieht kein altes Haus am Horizont.,alt,Neuter,Akkusativ,Negationsartikel
+880,13,Sie öffnet kein _____ Fenster im Zimmer.,großes,Sie öffnet kein großes Fenster im Zimmer.,groß,Neuter,Akkusativ,Negationsartikel
+881,13,Wir bewundern kein _____ Kind auf der Bühne.,kluges,Wir bewundern kein kluges Kind auf der Bühne.,klug,Neuter,Akkusativ,Negationsartikel
+882,13,Sie streichelt kein _____ Pferd auf der Wiese.,stolzes,Sie streichelt kein stolzes Pferd auf der Wiese.,stolz,Neuter,Akkusativ,Negationsartikel
 883,14,Das ist das Buch der _____ Lehrerin.,klugen,Das ist das Buch der klugen Lehrerin.,klug,Feminin,Genitiv,Bestimmt
 884,14,Das ist das Spielzeug der _____ Katze.,alten,Das ist das Spielzeug der alten Katze.,alt,Feminin,Genitiv,Bestimmt
 885,14,Das ist das Gemälde der _____ Künstlerin.,schönen,Das ist das Gemälde der schönen Künstlerin.,schön,Feminin,Genitiv,Bestimmt
@@ -911,21 +911,21 @@ Nr,level,question,answer,german,adjective,gender,case,article
 910,14,Das sind die Gemälde _____ Künstler.,schöner,Das sind die Gemälde schöner Künstler.,schön,Plural,Genitiv,Ohne Artikel
 911,14,Der Erfolg _____ Schüler ist bewundernswert.,fleißiger,Der Erfolg fleißiger Schüler ist bewundernswert.,fleißig,Plural,Genitiv,Ohne Artikel
 912,14,Das Lob _____ Nachbarn war herzlich.,freundlicher,Das Lob freundlicher Nachbarn war herzlich.,freundlich,Plural,Genitiv,Ohne Artikel
-913,14,Das ist das Buch _____ Kindes.,klugen,Das ist das Buch klugen Kindes.,klug,Neutral,Genitiv,Ohne Artikel
-914,14,Das ist das Spielzeug _____ Buches.,alten,Das ist das Spielzeug alten Buches.,alt,Neutral,Genitiv,Ohne Artikel
-915,14,Das ist das Gemälde _____ Bildes.,schönen,Das ist das Gemälde schönen Bildes.,schön,Neutral,Genitiv,Ohne Artikel
-916,14,Der Erfolg _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg fleißigen Mädchens ist bewundernswert.,fleißig,Neutral,Genitiv,Ohne Artikel
-917,14,Das Lob _____ Lächelns war herzlich.,freundlichen,Das Lob freundlichen Lächelns war herzlich.,freundlich,Neutral,Genitiv,Ohne Artikel
-918,14,Das ist das Buch eines _____ Kindes.,klugen,Das ist das Buch eines klugen Kindes.,klug,Neutral,Genitiv,Unbestimmt
-919,14,Das ist das Spielzeug eines _____ Buches.,alten,Das ist das Spielzeug eines alten Buches.,alt,Neutral,Genitiv,Unbestimmt
-920,14,Das ist das Gemälde eines _____ Bildes.,schönen,Das ist das Gemälde eines schönen Bildes.,schön,Neutral,Genitiv,Unbestimmt
-921,14,Der Erfolg eines _____ Mädchens ist bemerkenswert.,fleißigen,Der Erfolg eines fleißigen Mädchens ist bemerkenswert.,fleißig,Neutral,Genitiv,Unbestimmt
-922,14,Das Lob eines _____ Lächelns war herzlich.,freundlichen,Das Lob eines freundlichen Lächelns war herzlich.,freundlich,Neutral,Genitiv,Unbestimmt
-923,14,Das ist das Buch des _____ Kindes.,klugen,Das ist das Buch des klugen Kindes.,klug,Neutral,Genitiv,Bestimmt
-924,14,Das ist das Spielzeug des _____ Buches.,alten,Das ist das Spielzeug des alten Buches.,alt,Neutral,Genitiv,Bestimmt
-925,14,Das ist das Gemälde des _____ Bildes.,schönen,Das ist das Gemälde des schönen Bildes.,schön,Neutral,Genitiv,Bestimmt
-926,14,Der Erfolg des _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg des fleißigen Mädchens ist bewundernswert.,fleißig,Neutral,Genitiv,Bestimmt
-927,14,Das Lob des _____ Lächelns war herzlich.,freundlichen,Das Lob des freundlichen Lächelns war herzlich.,freundlich,Neutral,Genitiv,Bestimmt
+913,14,Das ist das Buch _____ Kindes.,klugen,Das ist das Buch klugen Kindes.,klug,Neuter,Genitiv,Ohne Artikel
+914,14,Das ist das Spielzeug _____ Buches.,alten,Das ist das Spielzeug alten Buches.,alt,Neuter,Genitiv,Ohne Artikel
+915,14,Das ist das Gemälde _____ Bildes.,schönen,Das ist das Gemälde schönen Bildes.,schön,Neuter,Genitiv,Ohne Artikel
+916,14,Der Erfolg _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Ohne Artikel
+917,14,Das Lob _____ Lächelns war herzlich.,freundlichen,Das Lob freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Ohne Artikel
+918,14,Das ist das Buch eines _____ Kindes.,klugen,Das ist das Buch eines klugen Kindes.,klug,Neuter,Genitiv,Unbestimmt
+919,14,Das ist das Spielzeug eines _____ Buches.,alten,Das ist das Spielzeug eines alten Buches.,alt,Neuter,Genitiv,Unbestimmt
+920,14,Das ist das Gemälde eines _____ Bildes.,schönen,Das ist das Gemälde eines schönen Bildes.,schön,Neuter,Genitiv,Unbestimmt
+921,14,Der Erfolg eines _____ Mädchens ist bemerkenswert.,fleißigen,Der Erfolg eines fleißigen Mädchens ist bemerkenswert.,fleißig,Neuter,Genitiv,Unbestimmt
+922,14,Das Lob eines _____ Lächelns war herzlich.,freundlichen,Das Lob eines freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Unbestimmt
+923,14,Das ist das Buch des _____ Kindes.,klugen,Das ist das Buch des klugen Kindes.,klug,Neuter,Genitiv,Bestimmt
+924,14,Das ist das Spielzeug des _____ Buches.,alten,Das ist das Spielzeug des alten Buches.,alt,Neuter,Genitiv,Bestimmt
+925,14,Das ist das Gemälde des _____ Bildes.,schönen,Das ist das Gemälde des schönen Bildes.,schön,Neuter,Genitiv,Bestimmt
+926,14,Der Erfolg des _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg des fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Bestimmt
+927,14,Das Lob des _____ Lächelns war herzlich.,freundlichen,Das Lob des freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Bestimmt
 928,14,Das ist das Buch _____ Lehrers.,klugen,Das ist das Buch klugen Lehrers.,klug,Maskulin,Genitiv,Ohne Artikel
 929,14,Das ist das Spielzeug _____ Hundes.,alten,Das ist das Spielzeug alten Hundes.,alt,Maskulin,Genitiv,Ohne Artikel
 930,14,Das ist das Gemälde _____ Künstlers.,schönen,Das ist das Gemälde schönen Künstlers.,schön,Maskulin,Genitiv,Ohne Artikel
@@ -946,11 +946,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 945,14,Die Größe deiner _____ Taschen ist beeindruckend.,großen,Die Größe deiner großen Taschen ist beeindruckend.,groß,Plural,Genitiv,Possessivartikel
 946,14,Die Erfolge unserer _____ Kinder werden gefeiert.,klugen,Die Erfolge unserer klugen Kinder werden gefeiert.,klug,Plural,Genitiv,Possessivartikel
 947,14,Die Unterstützung ihrer _____ Eltern war entscheidend.,stolzen,Die Unterstützung ihrer stolzen Eltern war entscheidend.,stolz,Plural,Genitiv,Possessivartikel
-948,14,Ich gebe meinem _____ Auto einen Ölwechsel.,neuen,Ich gebe meinem neuen Auto einen Ölwechsel.,neu,Neutral,Dativ,Possessivartikel
-949,14,Er vertraut seinem _____ Haus bei jedem Sturm.,alten,Er vertraut seinem alten Haus bei jedem Sturm.,alt,Neutral,Dativ,Possessivartikel
-950,14,"Wir helfen deinem _____ Zimmer, sauber zu bleiben.",großen,"Wir helfen deinem großen Zimmer, sauber zu bleiben.",groß,Neutral,Dativ,Possessivartikel
-951,14,Sie widmet unserem _____ Kind ihre ganze Zeit.,klugen,Sie widmet unserem klugen Kind ihre ganze Zeit.,klug,Neutral,Dativ,Possessivartikel
-952,14,Sie zeigt ihrem _____ Pferd den Weg zum Stall.,stolzen,Sie zeigt ihrem stolzen Pferd den Weg zum Stall.,stolz,Neutral,Dativ,Possessivartikel
+948,14,Ich gebe meinem _____ Auto einen Ölwechsel.,neuen,Ich gebe meinem neuen Auto einen Ölwechsel.,neu,Neuter,Dativ,Possessivartikel
+949,14,Er vertraut seinem _____ Haus bei jedem Sturm.,alten,Er vertraut seinem alten Haus bei jedem Sturm.,alt,Neuter,Dativ,Possessivartikel
+950,14,"Wir helfen deinem _____ Zimmer, sauber zu bleiben.",großen,"Wir helfen deinem großen Zimmer, sauber zu bleiben.",groß,Neuter,Dativ,Possessivartikel
+951,14,Sie widmet unserem _____ Kind ihre ganze Zeit.,klugen,Sie widmet unserem klugen Kind ihre ganze Zeit.,klug,Neuter,Dativ,Possessivartikel
+952,14,Sie zeigt ihrem _____ Pferd den Weg zum Stall.,stolzen,Sie zeigt ihrem stolzen Pferd den Weg zum Stall.,stolz,Neuter,Dativ,Possessivartikel
 953,14,Ich sehe meine _____ Bücher auf dem Tisch.,neuen,Ich sehe meine neuen Bücher auf dem Tisch.,neu,Plural,Akkusativ,Possessivartikel
 954,14,Er besucht seine _____ Freunde in der Stadt.,alten,Er besucht seine alten Freunde in der Stadt.,alt,Plural,Akkusativ,Possessivartikel
 955,14,Wir räumen deine _____ Taschen in den Schrank.,großen,Wir räumen deine großen Taschen in den Schrank.,groß,Plural,Akkusativ,Possessivartikel
@@ -971,16 +971,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 970,14,Die Meinung deines _____ Bruders ist wichtig.,großen,Die Meinung deines großen Bruders ist wichtig.,groß,Maskulin,Genitiv,Possessivartikel
 971,14,Die Unterstützung unseres _____ Lehrers war entscheidend.,klugen,Die Unterstützung unseres klugen Lehrers war entscheidend.,klug,Maskulin,Genitiv,Possessivartikel
 972,14,Der Erfolg ihres _____ Sohnes wurde gefeiert.,stolzen,Der Erfolg ihres stolzen Sohnes wurde gefeiert.,stolz,Maskulin,Genitiv,Possessivartikel
-973,14,Die Farbe meines _____ Autos ist beeindruckend.,neuen,Die Farbe meines neuen Autos ist beeindruckend.,neu,Neutral,Genitiv,Possessivartikel
-974,14,Der Zustand seines _____ Hauses verschlechtert sich.,alten,Der Zustand seines alten Hauses verschlechtert sich.,alt,Neutral,Genitiv,Possessivartikel
-975,14,Die Größe deines _____ Zimmers ist beeindruckend.,großen,Die Größe deines großen Zimmers ist beeindruckend.,groß,Neutral,Genitiv,Possessivartikel
-976,14,Die Kreativität unseres _____ Kindes ist erstaunlich.,klugen,Die Kreativität unseres klugen Kindes ist erstaunlich.,klug,Neutral,Genitiv,Possessivartikel
-977,14,Die Stärke ihres _____ Pferdes ist außergewöhnlich.,stolzen,Die Stärke ihres stolzen Pferdes ist außergewöhnlich.,stolz,Neutral,Genitiv,Possessivartikel
-978,14,Mein _____ Auto ist sehr schnell.,neues,Mein neues Auto ist sehr schnell.,neu,Neutral,Nominativ,Possessivartikel
-979,14,Sein _____ Haus steht in einem kleinen Dorf.,altes,Sein altes Haus steht in einem kleinen Dorf.,alt,Neutral,Nominativ,Possessivartikel
-980,14,Dein _____ Zimmer hat einen schönen Ausblick.,großes,Dein großes Zimmer hat einen schönen Ausblick.,groß,Neutral,Nominativ,Possessivartikel
-981,14,Unser _____ Kind löst gerne schwierige Rätsel.,kluges,Unser kluges Kind löst gerne schwierige Rätsel.,klug,Neutral,Nominativ,Possessivartikel
-982,14,Ihr _____ Pferd gewann den ersten Preis.,stolzes,Ihr stolzes Pferd gewann den ersten Preis.,stolz,Neutral,Nominativ,Possessivartikel
+973,14,Die Farbe meines _____ Autos ist beeindruckend.,neuen,Die Farbe meines neuen Autos ist beeindruckend.,neu,Neuter,Genitiv,Possessivartikel
+974,14,Der Zustand seines _____ Hauses verschlechtert sich.,alten,Der Zustand seines alten Hauses verschlechtert sich.,alt,Neuter,Genitiv,Possessivartikel
+975,14,Die Größe deines _____ Zimmers ist beeindruckend.,großen,Die Größe deines großen Zimmers ist beeindruckend.,groß,Neuter,Genitiv,Possessivartikel
+976,14,Die Kreativität unseres _____ Kindes ist erstaunlich.,klugen,Die Kreativität unseres klugen Kindes ist erstaunlich.,klug,Neuter,Genitiv,Possessivartikel
+977,14,Die Stärke ihres _____ Pferdes ist außergewöhnlich.,stolzen,Die Stärke ihres stolzen Pferdes ist außergewöhnlich.,stolz,Neuter,Genitiv,Possessivartikel
+978,14,Mein _____ Auto ist sehr schnell.,neues,Mein neues Auto ist sehr schnell.,neu,Neuter,Nominativ,Possessivartikel
+979,14,Sein _____ Haus steht in einem kleinen Dorf.,altes,Sein altes Haus steht in einem kleinen Dorf.,alt,Neuter,Nominativ,Possessivartikel
+980,14,Dein _____ Zimmer hat einen schönen Ausblick.,großes,Dein großes Zimmer hat einen schönen Ausblick.,groß,Neuter,Nominativ,Possessivartikel
+981,14,Unser _____ Kind löst gerne schwierige Rätsel.,kluges,Unser kluges Kind löst gerne schwierige Rätsel.,klug,Neuter,Nominativ,Possessivartikel
+982,14,Ihr _____ Pferd gewann den ersten Preis.,stolzes,Ihr stolzes Pferd gewann den ersten Preis.,stolz,Neuter,Nominativ,Possessivartikel
 983,14,Ich helfe meiner _____ Freundin beim Umzug.,neuen,Ich helfe meiner neuen Freundin beim Umzug.,neu,Feminin,Dativ,Possessivartikel
 984,14,Er gibt seiner _____ Mutter ein Geschenk.,alten,Er gibt seiner alten Mutter ein Geschenk.,alt,Feminin,Dativ,Possessivartikel
 985,14,Du vertraust deiner _____ Schwester mit deinem Geheimnis.,großen,Du vertraust deiner großen Schwester mit deinem Geheimnis.,groß,Feminin,Dativ,Possessivartikel
@@ -1006,11 +1006,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1005,14,Wir geben deinem _____ Bruder das Geschenk.,großen,Wir geben deinem großen Bruder das Geschenk.,groß,Maskulin,Dativ,Possessivartikel
 1006,14,Sie dankt unserem _____ Lehrer für seine Unterstützung.,klugen,Sie dankt unserem klugen Lehrer für seine Unterstützung.,klug,Maskulin,Dativ,Possessivartikel
 1007,14,Ihr _____ Sohn wurde ein Preis verliehen.,stolzem,Ihr stolzem Sohn wurde ein Preis verliehen.,stolz,Maskulin,Dativ,Possessivartikel
-1008,14,Ich kaufe mein _____ Auto morgen.,neues,Ich kaufe mein neues Auto morgen.,neu,Neutral,Akkusativ,Possessivartikel
-1009,14,Er renoviert sein _____ Haus in diesem Sommer.,altes,Er renoviert sein altes Haus in diesem Sommer.,alt,Neutral,Akkusativ,Possessivartikel
-1010,14,Sie dekoriert dein _____ Zimmer mit Pflanzen.,großes,Sie dekoriert dein großes Zimmer mit Pflanzen.,groß,Neutral,Akkusativ,Possessivartikel
-1011,14,Wir bewundern unser _____ Kind für seine Ideen.,kluges,Wir bewundern unser kluges Kind für seine Ideen.,klug,Neutral,Akkusativ,Possessivartikel
-1012,14,Sie präsentiert ihr _____ Pferd auf dem Turnier.,stolzes,Sie präsentiert ihr stolzes Pferd auf dem Turnier.,stolz,Neutral,Akkusativ,Possessivartikel
+1008,14,Ich kaufe mein _____ Auto morgen.,neues,Ich kaufe mein neues Auto morgen.,neu,Neuter,Akkusativ,Possessivartikel
+1009,14,Er renoviert sein _____ Haus in diesem Sommer.,altes,Er renoviert sein altes Haus in diesem Sommer.,alt,Neuter,Akkusativ,Possessivartikel
+1010,14,Sie dekoriert dein _____ Zimmer mit Pflanzen.,großes,Sie dekoriert dein großes Zimmer mit Pflanzen.,groß,Neuter,Akkusativ,Possessivartikel
+1011,14,Wir bewundern unser _____ Kind für seine Ideen.,kluges,Wir bewundern unser kluges Kind für seine Ideen.,klug,Neuter,Akkusativ,Possessivartikel
+1012,14,Sie präsentiert ihr _____ Pferd auf dem Turnier.,stolzes,Sie präsentiert ihr stolzes Pferd auf dem Turnier.,stolz,Neuter,Akkusativ,Possessivartikel
 1013,14,Ich sehe meinen _____ Hund im Park.,neuen,Ich sehe meinen neuen Hund im Park.,neu,Maskulin,Akkusativ,Possessivartikel
 1014,14,Er besucht seinen _____ Freund in Berlin.,alten,Er besucht seinen alten Freund in Berlin.,alt,Maskulin,Akkusativ,Possessivartikel
 1015,14,Wir haben deinen _____ Bruder gestern getroffen.,großen,Wir haben deinen großen Bruder gestern getroffen.,groß,Maskulin,Akkusativ,Possessivartikel
@@ -1026,11 +1026,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1025,14,Wir bringen keine _____ Taschen in den Raum.,großen,Wir bringen keine großen Taschen in den Raum.,groß,Plural,Akkusativ,Negationsartikel
 1026,14,Sie loben keine _____ Kinder für ihre Arbeit.,klugen,Sie loben keine klugen Kinder für ihre Arbeit.,klug,Plural,Akkusativ,Negationsartikel
 1027,14,Sie sehen keine _____ Eltern auf der Feier.,stolzen,Sie sehen keine stolzen Eltern auf der Feier.,stolz,Plural,Akkusativ,Negationsartikel
-1028,14,Ich gebe keinem _____ Auto eine Chance.,neuen,Ich gebe keinem neuen Auto eine Chance.,neu,Neutral,Dativ,Negationsartikel
-1029,14,Er hilft keinem _____ Haus bei der Renovierung.,alten,Er hilft keinem alten Haus bei der Renovierung.,alt,Neutral,Dativ,Negationsartikel
-1030,14,Sie widmet keinem _____ Fenster ihre Aufmerksamkeit.,großen,Sie widmet keinem großen Fenster ihre Aufmerksamkeit.,groß,Neutral,Dativ,Negationsartikel
-1031,14,Wir zeigen keinem _____ Kind unsere Lösung.,klugen,Wir zeigen keinem klugen Kind unsere Lösung.,klug,Neutral,Dativ,Negationsartikel
-1032,14,Sie schenkt keinem _____ Pferd einen Blick.,stolzen,Sie schenkt keinem stolzen Pferd einen Blick.,stolz,Neutral,Dativ,Negationsartikel
+1028,14,Ich gebe keinem _____ Auto eine Chance.,neuen,Ich gebe keinem neuen Auto eine Chance.,neu,Neuter,Dativ,Negationsartikel
+1029,14,Er hilft keinem _____ Haus bei der Renovierung.,alten,Er hilft keinem alten Haus bei der Renovierung.,alt,Neuter,Dativ,Negationsartikel
+1030,14,Sie widmet keinem _____ Fenster ihre Aufmerksamkeit.,großen,Sie widmet keinem großen Fenster ihre Aufmerksamkeit.,groß,Neuter,Dativ,Negationsartikel
+1031,14,Wir zeigen keinem _____ Kind unsere Lösung.,klugen,Wir zeigen keinem klugen Kind unsere Lösung.,klug,Neuter,Dativ,Negationsartikel
+1032,14,Sie schenkt keinem _____ Pferd einen Blick.,stolzen,Sie schenkt keinem stolzen Pferd einen Blick.,stolz,Neuter,Dativ,Negationsartikel
 1033,14,Ich finde keine _____ Wohnung in der Stadt.,neue,Ich finde keine neue Wohnung in der Stadt.,neu,Feminin,Akkusativ,Negationsartikel
 1034,14,Er kennt keine _____ Freundin aus der Schule.,alte,Er kennt keine alte Freundin aus der Schule.,alt,Feminin,Akkusativ,Negationsartikel
 1035,14,Sie trägt keine _____ Tasche zum Einkaufen.,große,Sie trägt keine große Tasche zum Einkaufen.,groß,Feminin,Akkusativ,Negationsartikel
@@ -1046,16 +1046,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1045,14,Die Größe keiner _____ Tasche war ausreichend.,großen,Die Größe keiner großen Tasche war ausreichend.,groß,Feminin,Genitiv,Negationsartikel
 1046,14,Die Unterstützung keiner _____n Tochter wurde benötigt.,kluge,Die Unterstützung keiner klugen Tochter wurde benötigt.,klug,Feminin,Genitiv,Negationsartikel
 1047,14,Die Aufmerksamkeit keiner _____n Katze war notwendig.,stolze,Die Aufmerksamkeit keiner stolzen Katze war notwendig.,stolz,Feminin,Genitiv,Negationsartikel
-1048,14,Kein _____ Auto steht auf dem Parkplatz.,neues,Kein neues Auto steht auf dem Parkplatz.,neu,Neutral,Nominativ,Negationsartikel
-1049,14,Kein _____ Haus wird renoviert.,altes,Kein altes Haus wird renoviert.,alt,Neutral,Nominativ,Negationsartikel
-1050,14,Kein _____ Fenster ist offen.,großes,Kein großes Fenster ist offen.,groß,Neutral,Nominativ,Negationsartikel
-1051,14,Kein _____ Kind hat die Antwort gefunden.,kluges,Kein kluges Kind hat die Antwort gefunden.,klug,Neutral,Nominativ,Negationsartikel
-1052,14,Kein _____ Pferd ist im Stall.,stolzes,Kein stolzes Pferd ist im Stall.,stolz,Neutral,Nominativ,Negationsartikel
-1053,14,Die Farbe keines _____ Autos ist so schön.,neuen,Die Farbe keines neuen Autos ist so schön.,neu,Neutral,Genitiv,Negationsartikel
-1054,14,Die Geschichte keines _____ Hauses wurde erzählt.,alten,Die Geschichte keines alten Hauses wurde erzählt.,alt,Neutral,Genitiv,Negationsartikel
-1055,14,Die Größe keines _____ Fensters war beeindruckend.,großen,Die Größe keines großen Fensters war beeindruckend.,groß,Neutral,Genitiv,Negationsartikel
-1056,14,Die Idee keines _____ Kindes war nützlich.,klugen,Die Idee keines klugen Kindes war nützlich.,klug,Neutral,Genitiv,Negationsartikel
-1057,14,Die Stärke keines _____ Pferdes war ausreichend.,stolzen,Die Stärke keines stolzen Pferdes war ausreichend.,stolz,Neutral,Genitiv,Negationsartikel
+1048,14,Kein _____ Auto steht auf dem Parkplatz.,neues,Kein neues Auto steht auf dem Parkplatz.,neu,Neuter,Nominativ,Negationsartikel
+1049,14,Kein _____ Haus wird renoviert.,altes,Kein altes Haus wird renoviert.,alt,Neuter,Nominativ,Negationsartikel
+1050,14,Kein _____ Fenster ist offen.,großes,Kein großes Fenster ist offen.,groß,Neuter,Nominativ,Negationsartikel
+1051,14,Kein _____ Kind hat die Antwort gefunden.,kluges,Kein kluges Kind hat die Antwort gefunden.,klug,Neuter,Nominativ,Negationsartikel
+1052,14,Kein _____ Pferd ist im Stall.,stolzes,Kein stolzes Pferd ist im Stall.,stolz,Neuter,Nominativ,Negationsartikel
+1053,14,Die Farbe keines _____ Autos ist so schön.,neuen,Die Farbe keines neuen Autos ist so schön.,neu,Neuter,Genitiv,Negationsartikel
+1054,14,Die Geschichte keines _____ Hauses wurde erzählt.,alten,Die Geschichte keines alten Hauses wurde erzählt.,alt,Neuter,Genitiv,Negationsartikel
+1055,14,Die Größe keines _____ Fensters war beeindruckend.,großen,Die Größe keines großen Fensters war beeindruckend.,groß,Neuter,Genitiv,Negationsartikel
+1056,14,Die Idee keines _____ Kindes war nützlich.,klugen,Die Idee keines klugen Kindes war nützlich.,klug,Neuter,Genitiv,Negationsartikel
+1057,14,Die Stärke keines _____ Pferdes war ausreichend.,stolzen,Die Stärke keines stolzen Pferdes war ausreichend.,stolz,Neuter,Genitiv,Negationsartikel
 1058,14,Kein _____ Hund bellt in der Nachbarschaft.,neuer,Kein neuer Hund bellt in der Nachbarschaft.,neu,Maskulin,Nominativ,Negationsartikel
 1059,14,Kein _____ Mann sitzt auf der Bank.,alter,Kein alter Mann sitzt auf der Bank.,alt,Maskulin,Nominativ,Negationsartikel
 1060,14,Kein _____ Vogel fliegt über das Haus.,großer,Kein großer Vogel fliegt über das Haus.,groß,Maskulin,Nominativ,Negationsartikel
@@ -1091,11 +1091,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1090,14,Sie hört keinen _____ Vogel singen.,großen,Sie hört keinen großen Vogel singen.,groß,Maskulin,Akkusativ,Negationsartikel
 1091,14,Wir fanden keinen _____ Schüler in der Klasse.,klugen,Wir fanden keinen klugen Schüler in der Klasse.,klug,Maskulin,Akkusativ,Negationsartikel
 1092,14,Sie hat keinen _____ Vater gesehen.,stolzen,Sie hat keinen stolzen Vater gesehen.,stolz,Maskulin,Akkusativ,Negationsartikel
-1093,14,Ich kaufe kein _____ Auto dieses Jahr.,neues,Ich kaufe kein neues Auto dieses Jahr.,neu,Neutral,Akkusativ,Negationsartikel
-1094,14,Er sieht kein _____ Haus am Horizont.,altes,Er sieht kein altes Haus am Horizont.,alt,Neutral,Akkusativ,Negationsartikel
-1095,14,Sie öffnet kein _____ Fenster im Zimmer.,großes,Sie öffnet kein großes Fenster im Zimmer.,groß,Neutral,Akkusativ,Negationsartikel
-1096,14,Wir bewundern kein _____ Kind auf der Bühne.,kluges,Wir bewundern kein kluges Kind auf der Bühne.,klug,Neutral,Akkusativ,Negationsartikel
-1097,14,Sie streichelt kein _____ Pferd auf der Wiese.,stolzes,Sie streichelt kein stolzes Pferd auf der Wiese.,stolz,Neutral,Akkusativ,Negationsartikel
+1093,14,Ich kaufe kein _____ Auto dieses Jahr.,neues,Ich kaufe kein neues Auto dieses Jahr.,neu,Neuter,Akkusativ,Negationsartikel
+1094,14,Er sieht kein _____ Haus am Horizont.,altes,Er sieht kein altes Haus am Horizont.,alt,Neuter,Akkusativ,Negationsartikel
+1095,14,Sie öffnet kein _____ Fenster im Zimmer.,großes,Sie öffnet kein großes Fenster im Zimmer.,groß,Neuter,Akkusativ,Negationsartikel
+1096,14,Wir bewundern kein _____ Kind auf der Bühne.,kluges,Wir bewundern kein kluges Kind auf der Bühne.,klug,Neuter,Akkusativ,Negationsartikel
+1097,14,Sie streichelt kein _____ Pferd auf der Wiese.,stolzes,Sie streichelt kein stolzes Pferd auf der Wiese.,stolz,Neuter,Akkusativ,Negationsartikel
 1098,14,Ich sehe diesen _____ Schüler in der Bibliothek.,fleißigen,Ich sehe diesen fleißigen Schüler in der Bibliothek.,fleißig,Maskulin,Akkusativ,Demonstrative artikel
 1099,14,Ich besuche diesen _____ Mann jeden Sonntag.,alten,Ich besuche diesen alten Mann jeden Sonntag.,alt,Maskulin,Akkusativ,Demonstrative artikel
 1100,14,Ich bewundere diesen _____ Künstler für seine Werke.,jungen,Ich bewundere diesen jungen Künstler für seine Werke.,jung,Maskulin,Akkusativ,Demonstrative artikel
@@ -1106,16 +1106,16 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1105,14,Diese _____ Künstlerin hat ein beeindruckendes Gemälde geschaffen.,junge,Diese junge Künstlerin hat ein beeindruckendes Gemälde geschaffen.,jung,Feminin,Nominativ,Demonstrative artikel
 1106,14,Diese _____ Politikerin hält heute eine Rede.,wichtige,Diese wichtige Politikerin hält heute eine Rede.,wichtig,Feminin,Nominativ,Demonstrative artikel
 1107,14,Diese _____ Nachbarin hilft uns immer mit dem Garten.,nette,Diese nette Nachbarin hilft uns immer mit dem Garten.,nett,Feminin,Nominativ,Demonstrative artikel
-1108,14,Ich gebe diesem _____ Kind ein neues Buch.,fleißigen,Ich gebe diesem fleißigen Kind ein neues Buch.,fleißig,Neutral,Dativ,Demonstrative artikel
-1109,14,Wir helfen diesem _____ Haus mit einer Renovierung.,alten,Wir helfen diesem alten Haus mit einer Renovierung.,alt,Neutral,Dativ,Demonstrative artikel
-1110,14,Er schenkt diesem _____ Unternehmen eine große Investition.,jungen,Er schenkt diesem jungen Unternehmen eine große Investition.,jung,Neutral,Dativ,Demonstrative artikel
-1111,14,Sie widmet diesem _____ Dokument besondere Aufmerksamkeit.,wichtigen,Sie widmet diesem wichtigen Dokument besondere Aufmerksamkeit.,wichtig,Neutral,Dativ,Demonstrative artikel
-1112,14,Ich vertraue diesem _____ Lächeln mehr als Worten.,netten,Ich vertraue diesem netten Lächeln mehr als Worten.,nett,Neutral,Dativ,Demonstrative artikel
-1113,14,Trotz dieses _____ Kindes harter Arbeit gab es keine Anerkennung.,fleißigen,Trotz dieses fleißigen Kindes harter Arbeit gab es keine Anerkennung.,fleißig,Neutral,Genitiv,Demonstrative artikel
-1114,14,Während dieses _____ Hauses Renovierung konnten wir es nicht betreten.,alten,Während dieses alten Hauses Renovierung konnten wir es nicht betreten.,alt,Neutral,Genitiv,Demonstrative artikel
-1115,14,Aufgrund dieses _____ Unternehmens schnellen Wachstums steigen die Aktienkurse.,jungen,Aufgrund dieses jungen Unternehmens schnellen Wachstums steigen die Aktienkurse.,jung,Neutral,Genitiv,Demonstrative artikel
-1116,14,Wegen dieses _____ Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtigen,Wegen dieses wichtigen Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtig,Neutral,Genitiv,Demonstrative artikel
-1117,14,Ich bin mir der Bedeutung dieses _____ Lächelns bewusst.,netten,Ich bin mir der Bedeutung dieses netten Lächelns bewusst.,nett,Neutral,Genitiv,Demonstrative artikel
+1108,14,Ich gebe diesem _____ Kind ein neues Buch.,fleißigen,Ich gebe diesem fleißigen Kind ein neues Buch.,fleißig,Neuter,Dativ,Demonstrative artikel
+1109,14,Wir helfen diesem _____ Haus mit einer Renovierung.,alten,Wir helfen diesem alten Haus mit einer Renovierung.,alt,Neuter,Dativ,Demonstrative artikel
+1110,14,Er schenkt diesem _____ Unternehmen eine große Investition.,jungen,Er schenkt diesem jungen Unternehmen eine große Investition.,jung,Neuter,Dativ,Demonstrative artikel
+1111,14,Sie widmet diesem _____ Dokument besondere Aufmerksamkeit.,wichtigen,Sie widmet diesem wichtigen Dokument besondere Aufmerksamkeit.,wichtig,Neuter,Dativ,Demonstrative artikel
+1112,14,Ich vertraue diesem _____ Lächeln mehr als Worten.,netten,Ich vertraue diesem netten Lächeln mehr als Worten.,nett,Neuter,Dativ,Demonstrative artikel
+1113,14,Trotz dieses _____ Kindes harter Arbeit gab es keine Anerkennung.,fleißigen,Trotz dieses fleißigen Kindes harter Arbeit gab es keine Anerkennung.,fleißig,Neuter,Genitiv,Demonstrative artikel
+1114,14,Während dieses _____ Hauses Renovierung konnten wir es nicht betreten.,alten,Während dieses alten Hauses Renovierung konnten wir es nicht betreten.,alt,Neuter,Genitiv,Demonstrative artikel
+1115,14,Aufgrund dieses _____ Unternehmens schnellen Wachstums steigen die Aktienkurse.,jungen,Aufgrund dieses jungen Unternehmens schnellen Wachstums steigen die Aktienkurse.,jung,Neuter,Genitiv,Demonstrative artikel
+1116,14,Wegen dieses _____ Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtigen,Wegen dieses wichtigen Dokuments Verzögerung wurde der Vertrag nicht unterschrieben.,wichtig,Neuter,Genitiv,Demonstrative artikel
+1117,14,Ich bin mir der Bedeutung dieses _____ Lächelns bewusst.,netten,Ich bin mir der Bedeutung dieses netten Lächelns bewusst.,nett,Neuter,Genitiv,Demonstrative artikel
 1118,14,Während dieser _____ Schülerin Abwesenheit hat die Klasse weitergearbeitet.,fleißigen,Während dieser fleißigen Schülerin Abwesenheit hat die Klasse weitergearbeitet.,fleißig,Feminin,Genitiv,Demonstrative artikel
 1119,14,Trotz dieser _____ Frau Weisheit hörte niemand auf sie.,alten,Trotz dieser alten Frau Weisheit hörte niemand auf sie.,alt,Feminin,Genitiv,Demonstrative artikel
 1120,14,Anlässlich dieser _____ Künstlerin Ausstellung waren viele Besucher da.,jungen,Anlässlich dieser jungen Künstlerin Ausstellung waren viele Besucher da.,jung,Feminin,Genitiv,Demonstrative artikel
@@ -1141,11 +1141,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1140,14,Er gratuliert diesem _____ Künstler zu seinem Erfolg.,jungen,Er gratuliert diesem jungen Künstler zu seinem Erfolg.,jung,Maskulin,Dativ,Demonstrative artikel
 1141,14,Wir danken diesem _____ Politiker für seine Rede.,wichtigen,Wir danken diesem wichtigen Politiker für seine Rede.,wichtig,Maskulin,Dativ,Demonstrative artikel
 1142,14,Ich vertraue diesem _____ Nachbarn vollkommen.,netten,Ich vertraue diesem netten Nachbarn vollkommen.,nett,Maskulin,Dativ,Demonstrative artikel
-1143,14,Dieses _____ Kind lernt jeden Tag neue Vokabeln.,fleißige,Dieses fleißige Kind lernt jeden Tag neue Vokabeln.,fleißig,Neutral,Nominativ,Demonstrative artikel
-1144,14,Dieses _____ Haus hat eine lange Geschichte.,alte,Dieses alte Haus hat eine lange Geschichte.,alt,Neutral,Nominativ,Demonstrative artikel
-1145,14,Dieses _____ Unternehmen wächst sehr schnell.,junge,Dieses junge Unternehmen wächst sehr schnell.,jung,Neutral,Nominativ,Demonstrative artikel
-1146,14,Dieses _____ Dokument muss unterschrieben werden.,wichtige,Dieses wichtige Dokument muss unterschrieben werden.,wichtig,Neutral,Nominativ,Demonstrative artikel
-1147,14,Dieses _____ Lächeln macht den Tag schöner.,nette,Dieses nette Lächeln macht den Tag schöner.,nett,Neutral,Nominativ,Demonstrative artikel
+1143,14,Dieses _____ Kind lernt jeden Tag neue Vokabeln.,fleißige,Dieses fleißige Kind lernt jeden Tag neue Vokabeln.,fleißig,Neuter,Nominativ,Demonstrative artikel
+1144,14,Dieses _____ Haus hat eine lange Geschichte.,alte,Dieses alte Haus hat eine lange Geschichte.,alt,Neuter,Nominativ,Demonstrative artikel
+1145,14,Dieses _____ Unternehmen wächst sehr schnell.,junge,Dieses junge Unternehmen wächst sehr schnell.,jung,Neuter,Nominativ,Demonstrative artikel
+1146,14,Dieses _____ Dokument muss unterschrieben werden.,wichtige,Dieses wichtige Dokument muss unterschrieben werden.,wichtig,Neuter,Nominativ,Demonstrative artikel
+1147,14,Dieses _____ Lächeln macht den Tag schöner.,nette,Dieses nette Lächeln macht den Tag schöner.,nett,Neuter,Nominativ,Demonstrative artikel
 1148,14,Ich sehe diese _____ Schüler jeden Tag in der Schule.,fleißigen,Ich sehe diese fleißigen Schüler jeden Tag in der Schule.,fleißig,Plural,Akkusativ,Demonstrative artikel
 1149,14,Wir besuchen diese _____ Häuser in unserer Stadt.,alten,Wir besuchen diese alten Häuser in unserer Stadt.,alt,Plural,Akkusativ,Demonstrative artikel
 1150,14,Sie hat diese _____ Künstler zur Ausstellung eingeladen.,jungen,Sie hat diese jungen Künstler zur Ausstellung eingeladen.,jung,Plural,Akkusativ,Demonstrative artikel
@@ -1161,11 +1161,11 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1160,14,Anlässlich dieses _____ Künstlers Ausstellung kamen viele Besucher.,jungen,Anlässlich dieses jungen Künstlers Ausstellung kamen viele Besucher.,jung,Maskulin,Genitiv,Demonstrative artikel
 1161,14,Wegen dieses _____ Politikers Entscheidung ändert sich die Gesetzgebung.,wichtigen,Wegen dieses wichtigen Politikers Entscheidung ändert sich die Gesetzgebung.,wichtig,Maskulin,Genitiv,Demonstrative artikel
 1162,14,Ich bin mir der Hilfe dieses _____ Nachbarn bewusst.,netten,Ich bin mir der Hilfe dieses netten Nachbarn bewusst.,nett,Maskulin,Genitiv,Demonstrative artikel
-1163,14,Ich kaufe dieses _____ Kind ein neues Buch.,fleißige,Ich kaufe dieses fleißige Kind ein neues Buch.,fleißig,Neutral,Akkusativ,Demonstrative artikel
-1164,14,Wir besichtigen dieses _____ Haus am Wochenende.,alte,Wir besichtigen dieses alte Haus am Wochenende.,alt,Neutral,Akkusativ,Demonstrative artikel
-1165,14,Er unterstützt dieses _____ Unternehmen finanziell.,junge,Er unterstützt dieses junge Unternehmen finanziell.,jung,Neutral,Akkusativ,Demonstrative artikel
-1166,14,Sie unterschreibt dieses _____ Dokument sofort.,wichtige,Sie unterschreibt dieses wichtige Dokument sofort.,wichtig,Neutral,Akkusativ,Demonstrative artikel
-1167,14,Ich bewundere dieses _____ Lächeln jeden Tag.,nette,Ich bewundere dieses nette Lächeln jeden Tag.,nett,Neutral,Akkusativ,Demonstrative artikel
+1163,14,Ich kaufe dieses _____ Kind ein neues Buch.,fleißige,Ich kaufe dieses fleißige Kind ein neues Buch.,fleißig,Neuter,Akkusativ,Demonstrative artikel
+1164,14,Wir besichtigen dieses _____ Haus am Wochenende.,alte,Wir besichtigen dieses alte Haus am Wochenende.,alt,Neuter,Akkusativ,Demonstrative artikel
+1165,14,Er unterstützt dieses _____ Unternehmen finanziell.,junge,Er unterstützt dieses junge Unternehmen finanziell.,jung,Neuter,Akkusativ,Demonstrative artikel
+1166,14,Sie unterschreibt dieses _____ Dokument sofort.,wichtige,Sie unterschreibt dieses wichtige Dokument sofort.,wichtig,Neuter,Akkusativ,Demonstrative artikel
+1167,14,Ich bewundere dieses _____ Lächeln jeden Tag.,nette,Ich bewundere dieses nette Lächeln jeden Tag.,nett,Neuter,Akkusativ,Demonstrative artikel
 1168,14,Diese _____ Schüler bereiten sich auf die Prüfung vor.,fleißigen,Diese fleißigen Schüler bereiten sich auf die Prüfung vor.,fleißig,Plural,Nominativ,Demonstrative artikel
 1169,14,Diese _____ Häuser erzählen viele Geschichten.,alten,Diese alten Häuser erzählen viele Geschichten.,alt,Plural,Nominativ,Demonstrative artikel
 1170,14,Diese _____ Künstler haben beeindruckende Werke geschaffen.,jungen,Diese jungen Künstler haben beeindruckende Werke geschaffen.,jung,Plural,Nominativ,Demonstrative artikel
@@ -1176,10 +1176,10 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1175,14,Wir gratulieren dieser _____ Künstlerin zu ihrem Erfolg.,jungen,Wir gratulieren dieser jungen Künstlerin zu ihrem Erfolg.,jung,Feminin,Dativ,Demonstrative artikel
 1176,14,Der Reporter stellt dieser _____ Politikerin eine Frage.,wichtigen,Der Reporter stellt dieser wichtigen Politikerin eine Frage.,wichtig,Feminin,Dativ,Demonstrative artikel
 1177,14,Ich vertraue dieser _____ Nachbarin voll und ganz.,netten,Ich vertraue dieser netten Nachbarin voll und ganz.,nett,Feminin,Dativ,Demonstrative artikel
-1178,15,etwas _____,nettes,etwas nettes,nett,Neutral,Nominativ,Neutrum Indefinit artikel
-1179,15,etwas _____,nettes,etwas nettes,nett,Neutral,Akkusativ,Neutrum Indefinit artikel
-1180,15,etwas _____,nettem,etwas nettem,nett,Neutral,Dativ,Neutrum Indefinit artikel
-1181,15,etwas _____,netten,etwas netten,nett,Neutral,Genitiv,Neutrum Indefinit artikel
+1178,15,etwas _____,nettes,etwas nettes,nett,Neuter,Nominativ,Neutrum Indefinit artikel
+1179,15,etwas _____,nettes,etwas nettes,nett,Neuter,Akkusativ,Neutrum Indefinit artikel
+1180,15,etwas _____,nettem,etwas nettem,nett,Neuter,Dativ,Neutrum Indefinit artikel
+1181,15,etwas _____,netten,etwas netten,nett,Neuter,Genitiv,Neutrum Indefinit artikel
 1182,15,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Nominativ,Plural Bestimmt artikel
 1183,15,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Akkusativ,Plural Bestimmt artikel
 1184,15,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Dativ,Plural Bestimmt artikel
@@ -1188,26 +1188,26 @@ Nr,level,question,answer,german,adjective,gender,case,article
 1187,15,viele _____ Eltern,nette,viele nette Eltern,nett,Plural,Akkusativ,Plural Unbestimmt Artikel
 1188,15,viele _____ Eltern,netten,viele netten Eltern,nett,Plural,Dativ,Plural Unbestimmt Artikel
 1189,15,viele _____ Eltern,netter,viele netter Eltern,nett,Plural,Genitiv,Plural Unbestimmt Artikel
-1190,16,Ich brauche etwas _____ für den Winter.,Warmes,Ich brauche etwas Warmes für den Winter.,Warm,Neutral,Nominativ,Neutrum Indefinit artikel
-1191,16,Sie möchte etwas _____ zum Nachtisch essen.,Süßes,Sie möchte etwas Süßes zum Nachtisch essen.,Süß,Neutral,Nominativ,Neutrum Indefinit artikel
-1192,16,Er sucht etwas _____ für seine Wohnung.,Neues,Er sucht etwas Neues für seine Wohnung.,Neu,Neutral,Nominativ,Neutrum Indefinit artikel
-1193,16,Wir haben etwas _____ im Museum gesehen.,Interessantes,Wir haben etwas Interessantes im Museum gesehen.,Interessant,Neutral,Nominativ,Neutrum Indefinit artikel
-1194,16,Gibt es hier etwas _____ zu kaufen?,Günstiges,Gibt es hier etwas Günstiges zu kaufen?,Günstig,Neutral,Nominativ,Neutrum Indefinit artikel
-1195,16,Ich habe etwas _____ gekocht.,Leckeres,Ich habe etwas Leckeres gekocht.,Lecker,Neutral,Akkusativ,Neutrum Indefinit artikel
-1196,16,Sie hat etwas _____ im Fernsehen gesehen.,Spannendes,Sie hat etwas Spannendes im Fernsehen gesehen.,Spannend,Neutral,Akkusativ,Neutrum Indefinit artikel
-1197,16,Er möchte etwas _____ ausprobieren.,Neues,Er möchte etwas Neues ausprobieren.,Neu,Neutral,Akkusativ,Neutrum Indefinit artikel
-1198,16,Wir haben etwas _____ für dich gekauft.,Schönes,Wir haben etwas Schönes für dich gekauft.,Schön,Neutral,Akkusativ,Neutrum Indefinit artikel
-1199,16,Kannst du mir etwas _____ empfehlen?,Gutes,Kannst du mir etwas Gutes empfehlen?,Gut,Neutral,Akkusativ,Neutrum Indefinit artikel
-1200,16,Mit etwas _____ kann man den Tag beginnen.,Gutem,Mit etwas Gutem kann man den Tag beginnen.,Gut,Neutral,Dativ,Neutrum Indefinit artikel
-1201,16,Sie ist mit etwas _____ zufrieden.,Neuem,Sie ist mit etwas Neuem zufrieden.,Neu,Neutral,Dativ,Neutrum Indefinit artikel
-1202,16,Nach etwas _____ sehne ich mich.,Erfrischendem,Nach etwas Erfrischendem sehne ich mich.,Erfrischend,Neutral,Dativ,Neutrum Indefinit artikel
-1203,16,Er hat sich für etwas _____ entschieden.,Interessantem,Er hat sich für etwas Interessantem entschieden.,Interessant,Neutral,Dativ,Neutrum Indefinit artikel
-1204,16,Wir beschäftigen uns mit etwas _____.,Wichtigem,Wir beschäftigen uns mit etwas Wichtigem.,Wichtig,Neutral,Dativ,Neutrum Indefinit artikel
-1205,16,Trotz etwas _____ hat er nicht aufgegeben.,Schlechtem,Trotz etwas Schlechtem hat er nicht aufgegeben.,Schlecht,Neutral,Genitiv,Neutrum Indefinit artikel
-1206,16,Wegen etwas _____ musste das Treffen verschoben werden.,Unerwartetem,Wegen etwas Unerwartetem musste das Treffen verschoben werden.,Unerwartet,Neutral,Genitiv,Neutrum Indefinit artikel
-1207,16,Statt etwas _____ wählte sie eine spannende Geschichte.,Langweiligem,Statt etwas Langweiligem wählte sie eine spannende Geschichte.,Langweilig,Neutral,Genitiv,Neutrum Indefinit artikel
-1208,16,Anstelle von etwas _____ kaufte er eine günstigere Alternative.,Teurem,Anstelle von etwas Teurem kaufte er eine günstigere Alternative.,Teuer,Neutral,Genitiv,Neutrum Indefinit artikel
-1209,16,Aufgrund von etwas _____ gab es viele Missverständnisse.,Unklarem,Aufgrund von etwas Unklarem gab es viele Missverständnisse.,Unklar,Neutral,Genitiv,Neutrum Indefinit artikel
+1190,16,Ich brauche etwas _____ für den Winter.,Warmes,Ich brauche etwas Warmes für den Winter.,Warm,Neuter,Nominativ,Neutrum Indefinit artikel
+1191,16,Sie möchte etwas _____ zum Nachtisch essen.,Süßes,Sie möchte etwas Süßes zum Nachtisch essen.,Süß,Neuter,Nominativ,Neutrum Indefinit artikel
+1192,16,Er sucht etwas _____ für seine Wohnung.,Neues,Er sucht etwas Neues für seine Wohnung.,Neu,Neuter,Nominativ,Neutrum Indefinit artikel
+1193,16,Wir haben etwas _____ im Museum gesehen.,Interessantes,Wir haben etwas Interessantes im Museum gesehen.,Interessant,Neuter,Nominativ,Neutrum Indefinit artikel
+1194,16,Gibt es hier etwas _____ zu kaufen?,Günstiges,Gibt es hier etwas Günstiges zu kaufen?,Günstig,Neuter,Nominativ,Neutrum Indefinit artikel
+1195,16,Ich habe etwas _____ gekocht.,Leckeres,Ich habe etwas Leckeres gekocht.,Lecker,Neuter,Akkusativ,Neutrum Indefinit artikel
+1196,16,Sie hat etwas _____ im Fernsehen gesehen.,Spannendes,Sie hat etwas Spannendes im Fernsehen gesehen.,Spannend,Neuter,Akkusativ,Neutrum Indefinit artikel
+1197,16,Er möchte etwas _____ ausprobieren.,Neues,Er möchte etwas Neues ausprobieren.,Neu,Neuter,Akkusativ,Neutrum Indefinit artikel
+1198,16,Wir haben etwas _____ für dich gekauft.,Schönes,Wir haben etwas Schönes für dich gekauft.,Schön,Neuter,Akkusativ,Neutrum Indefinit artikel
+1199,16,Kannst du mir etwas _____ empfehlen?,Gutes,Kannst du mir etwas Gutes empfehlen?,Gut,Neuter,Akkusativ,Neutrum Indefinit artikel
+1200,16,Mit etwas _____ kann man den Tag beginnen.,Gutem,Mit etwas Gutem kann man den Tag beginnen.,Gut,Neuter,Dativ,Neutrum Indefinit artikel
+1201,16,Sie ist mit etwas _____ zufrieden.,Neuem,Sie ist mit etwas Neuem zufrieden.,Neu,Neuter,Dativ,Neutrum Indefinit artikel
+1202,16,Nach etwas _____ sehne ich mich.,Erfrischendem,Nach etwas Erfrischendem sehne ich mich.,Erfrischend,Neuter,Dativ,Neutrum Indefinit artikel
+1203,16,Er hat sich für etwas _____ entschieden.,Interessantem,Er hat sich für etwas Interessantem entschieden.,Interessant,Neuter,Dativ,Neutrum Indefinit artikel
+1204,16,Wir beschäftigen uns mit etwas _____.,Wichtigem,Wir beschäftigen uns mit etwas Wichtigem.,Wichtig,Neuter,Dativ,Neutrum Indefinit artikel
+1205,16,Trotz etwas _____ hat er nicht aufgegeben.,Schlechtem,Trotz etwas Schlechtem hat er nicht aufgegeben.,Schlecht,Neuter,Genitiv,Neutrum Indefinit artikel
+1206,16,Wegen etwas _____ musste das Treffen verschoben werden.,Unerwartetem,Wegen etwas Unerwartetem musste das Treffen verschoben werden.,Unerwartet,Neuter,Genitiv,Neutrum Indefinit artikel
+1207,16,Statt etwas _____ wählte sie eine spannende Geschichte.,Langweiligem,Statt etwas Langweiligem wählte sie eine spannende Geschichte.,Langweilig,Neuter,Genitiv,Neutrum Indefinit artikel
+1208,16,Anstelle von etwas _____ kaufte er eine günstigere Alternative.,Teurem,Anstelle von etwas Teurem kaufte er eine günstigere Alternative.,Teuer,Neuter,Genitiv,Neutrum Indefinit artikel
+1209,16,Aufgrund von etwas _____ gab es viele Missverständnisse.,Unklarem,Aufgrund von etwas Unklarem gab es viele Missverständnisse.,Unklar,Neuter,Genitiv,Neutrum Indefinit artikel
 1210,16,Alle _____ Schüler haben die Prüfung bestanden.,fleißigen,Alle fleißigen Schüler haben die Prüfung bestanden.,fleißig,Plural,Nominativ,Plural Bestimmt artikel
 1211,16,Alle _____ Gebäude in der Stadt sind denkmalgeschützt.,alten,Alle alten Gebäude in der Stadt sind denkmalgeschützt.,alt,Plural,Nominativ,Plural Bestimmt artikel
 1212,16,Alle _____ Künstler präsentierten ihre Werke.,jungen,Alle jungen Künstler präsentierten ihre Werke.,jung,Plural,Nominativ,Plural Bestimmt artikel

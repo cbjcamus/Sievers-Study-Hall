@@ -1,4 +1,4 @@
-from data_processing.exercises import (
+from data.data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -77,11 +77,40 @@ DESCRIPTION_TEMPLATES = {
     },
 
     artikel: {
-        1: "Accusative and Dative Definite Articles with prepositions in sentences",
-        2: "Simple (A2) Articles in isolation",
-        3: "Simple (A2) Articles in sentences",
-        4: "Prevalent (C1) Articles in isolation",
-        5: "Prevalent (C1) Articles in sentences",
+        1: "Definite articles in the Nominative case in sentences",
+        2: "Definite articles in the Accusative case in sentences",
+        3: "Definite articles in the Dative case in sentences",
+        4: "Definite articles in the Nominative, Accusative and Dative cases in sentences",
+        5: "Definite articles in the Nominative, Accusative and Dative cases in sentences",
+        6: "Indefinite articles in the Nominative case in sentences",
+        7: "Indefinite articles in the Accusative case in sentences",
+        8: "Indefinite articles in the Dative case in sentences",
+        9: "Indefinite articles in the Nominative, Accusative and Dative cases in sentences",
+        10: "Indefinite articles in the Nominative, Accusative and Dative cases in sentences",
+        11: "Negative articles Kein in isolation",
+        12: "Negative articles Kein in sentences",
+        13: "Singular Possessive articles in isolation",
+        14: "Singular Possessive articles in sentences",
+        15: "Plural Possessive articles in isolation",
+        16: "Plural Possessive articles in sentences",
+
+        17: "Demonstrative articles Diese in isolation",
+        18: "Demonstrative articles Diese in sentences",
+        19: "Articles Jede in isolation",
+        20: "Articles Jede in sentences",
+        21: "Definite Articles with prepositions in the Accusative and Dative cases in sentences",
+        22: "Definite Articles with prepositions in the Accusative and Dative cases in sentences",
+        23: "Simple (A2) Articles in isolation",
+        24: "Simple (A2) Articles in sentences",
+
+        25: "Definite, Indefinite and Negative Articles in the Genitive case in isolation",
+        26: "Definite, Indefinite and Negative Articles in the Genitive case in sentences",
+        27: "Diese and Jede in the Genitive case in isolation",
+        28: "Diese and Jede in the Genitive case in sentences",
+        29: "Possessive Articles in the Genitive case in isolation",
+        30: "Possessive Articles in the Genitive case in sentences",
+        31: "Prevalent (C1) Articles in isolation",
+        32: "Prevalent (C1) Articles in sentences",
     },
 
     pronomen: {
@@ -142,8 +171,8 @@ DESCRIPTION_TEMPLATES = {
         12: "Demonstrative Articles' Adjective Declinations in sentences",
         13: "Negative Articles' Adjective Declinations in sentences",
         14: "Genitive, Possessive, Negative, and Demonstrative Adjective Declinations in sentences",
-        15: "Neutral and Plural Article's Adjective Declinations in isolation",
-        16: "Neutral and Plural Article's Adjective Declinations in sentences",
+        15: "Neuter and Plural Article's Adjective Declinations in isolation",
+        16: "Neuter and Plural Article's Adjective Declinations in sentences",
     },
 
     praesens: {

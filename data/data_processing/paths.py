@@ -1,14 +1,15 @@
 import os
 
-from data_processing.exercises import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
-                                       praepositionen_nomen,
-                                       artikel, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
-                                       praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
-                                       konjunktiv_II, konjunktiv_I, partizip_I,
-                                       verben, trennbare_verben, adjektive, deverbale_nomen,
-                                       )
+from data.data_processing.exercises import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
+                                            praepositionen_nomen,
+                                            artikel, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
+                                            praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
+                                            konjunktiv_II, konjunktiv_I, partizip_I,
+                                            verben, trennbare_verben, adjektive, deverbale_nomen,
+                                            )
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
 
 DATA_PATH = {
     praepositionen_grammatik: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_grammatik.csv"),

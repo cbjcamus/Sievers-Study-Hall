@@ -1,5 +1,5 @@
 body {
-    background-color: #131b22 ; /* #101621 #161F23 */
+    background-color: #131b22; /* #101621 #161F23 */
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -30,11 +30,12 @@ a:hover {
 
 .menu {
     display: none;
+    font-size: 20px;
     position: absolute;
     right: 10px;
     top: 50px;
     background-color: #131b22;
-    border: 0px solid #ccc;
+    border: 1px solid #ccc;
     z-index: 1000;
     flex-direction: column;
 }
@@ -47,7 +48,7 @@ a:hover {
 }
 
 .menu a:hover {
-    background-color: #333;
+    background-color: #1f2f40 ; /* #333 */
 }
 
 .menu.show {
@@ -67,7 +68,7 @@ h2 {
 
 .level-title {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-weight: normal;
 }
@@ -114,19 +115,46 @@ h2 {
     gap: 15px;
 }
 
-.question-container {
-    width: 400px; /* Fixed width */
-    margin: 20px auto; /* Centers the container itself */
-    text-align: left; /* Ensures text is aligned to the left inside */
+.instruction-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto; /* Centers the container itself */
+    text-align: center; /* Ensures text is aligned to the left inside */
 
     display: block; /* Ensures normal block behavior */
     white-space: normal; /* Allows text to wrap naturally */
     word-wrap: break-word; /* Ensures long words break if needed */
     overflow-wrap: break-word; /* Alternative for better compatibility */
+    box-sizing:border-box
+}
+
+.exercise-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+
+    padding: 5px;
+    background-color: #1f2f40; /* One of the lighter blues you liked */
+    border-radius: 12px;
+
+    box-sizing: border-box;
+}
+
+.question-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 3px auto; /* Centers the container itself */
+    text-align: center; /* Ensures text is aligned to the left inside */
+
+    display: block; /* Ensures normal block behavior */
+    white-space: normal; /* Allows text to wrap naturally */
+    word-wrap: break-word; /* Ensures long words break if needed */
+    overflow-wrap: break-word; /* Alternative for better compatibility */
+    box-sizing:border-box
 }
 
 .input-box {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -146,16 +174,15 @@ h2 {
     font-size: 16px; /* Reduced font size */
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 15px; /* Increased spacing above buttons */
+    margin-top: 25px;
     width: 112px; /* Reduced width by 25% */
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     text-decoration: none;
 }
 
 .question-count {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 14px;
     color: #ddd;
     display: flex;
@@ -182,19 +209,41 @@ h2 {
     color: #ccc;
 }
 
-.feedback-container {
-    width: 400px; /* Fixed width */
+.feedback-correct-container {
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #1F311C;
+    padding: 5px;
+    border-radius: 12px;
+
     margin: 20px auto; /* Centers the container itself */
-    text-align: left; /* Ensures text is aligned to the left inside */
+    text-align: center; /* Ensures text is aligned to the left inside */
 
     display: block; /* Ensures normal block behavior */
     white-space: normal; /* Allows text to wrap naturally */
     word-wrap: break-word; /* Ensures long words break if needed */
     overflow-wrap: break-word; /* Alternative for better compatibility */
+    box-sizing:border-box
+    font-size: 16px;
 }
 
-.result {
-    margin-top: 0px;
+.feedback-incorrect-container {
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #3A1E1E;
+    padding: 5px;
+    border-radius: 12px;
+
+    margin: 20px auto; /* Centers the container itself */
+    text-align: center; /* Ensures text is aligned to the left inside */
+
+    display: block; /* Ensures normal block behavior */
+    white-space: normal; /* Allows text to wrap naturally */
+    word-wrap: break-word; /* Ensures long words break if needed */
+    overflow-wrap: break-word; /* Alternative for better compatibility */
+    box-sizing:border-box
     font-size: 16px;
 }
 
@@ -209,18 +258,26 @@ h2 {
 }
 
 .feedback-message {
-    max-width:100%;
+    width: 100%;
+    max-width: 400px;
 }
 
 .proverb-container {
-    width: 400px; /* Fixed width */
+    width: 100%;
+    max-width: 400px;
+
     margin: 20px auto; /* Centers the container itself */
-    text-align: left; /* Ensures text is aligned to the left inside */
+    padding: 5px;
+
+    background-color: #2a1c31;
+    border-radius: 12px;
+    text-align: center; /* Ensures text is aligned to the left inside */
 
     display: block; /* Ensures normal block behavior */
     white-space: normal; /* Allows text to wrap naturally */
     word-wrap: break-word; /* Ensures long words break if needed */
     overflow-wrap: break-word; /* Alternative for better compatibility */
+    box-sizing:border-box
 }
 
 .back-button {

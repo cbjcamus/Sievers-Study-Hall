@@ -22,24 +22,32 @@
 </head>
 
 {% from "macros.html" import render_title %}
-{% from "macros.html" import render_title %}
 
 <body>
     {{ render_title(title_page[exercise]) }}
     <h2 class="level-title">Level {{ level }}</h2>
 
-    {% if question_text %}
-        <div class="question-container">
-            <p>{{ question_text | safe }}</p>
+    {% if instruction_text %}
+        <div class="instruction-container">
+            <p>{{ instruction_text | safe }}</p>
         </div>
     {% endif %}
 
-    <form action="{{ url_for('routes.check_answer', exercise=exercise, level=level) }}" method="post">
-            <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter answer here" autocomplete="off">
-            <input type="hidden" name="nr" value="{{ nr }}">
-            <br>
-            <button type="submit" id="submit-button" class="submit-button">Submit</button>
-    </form>
+    <div class="exercise-container">
+
+        {% if question_text %}
+            <div class="question-container">
+                <p>{{ question_text | safe }}</p>
+            </div>
+        {% endif %}
+
+        <form action="{{ url_for('routes.check_answer', exercise=exercise, level=level) }}" method="post">
+                <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter answer here" autocomplete="off">
+                <input type="hidden" name="nr" value="{{ nr }}">
+                <br>
+                <button type="submit" id="submit-button" class="submit-button">Submit</button>
+        </form>
+    </div>
 
     <p class="question-count">
         <form action="{{ url_for('routes.reset_exercise', exercise=exercise, level=level) }}" method="post" class="refresh-form">
@@ -48,27 +56,29 @@
     </p>
 
     {% if result %}
-    <div class="feedback-container">
-        <div class="result">
-            {% if result == 'correct' %}
+        {% if result == 'correct' %}
+            <div class='feedback-correct-container'>
                 <p class="correct">Correct</p>
                 {% if feedback_message %}
                     <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
-            {% else %}
+            </div>
+        {% else %}
+            <div class='feedback-incorrect-container'>
                 <p class="incorrect">Incorrect</p>
                 {% if feedback_message %}
                     <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
                 <p class="feedback-message">Your answer: {{ user_answer }}</p>
-            {% endif %}
-        </div>
-    </div>
+            </div>
+        {% endif %}
     {% endif %}
 
-    <div class="proverb-container">
-        <p><br>{{ proverb | safe }}</p>
-    </div>
+    {% if proverb %}
+        <div class="proverb-container">
+            <p>{{ proverb | safe }}</p>
+        </div>
+    {% endif %}
 
     <div class="back-button-container">
         <a href="{{ exercise_pages.get(exercise, '/') }}" class="back-button">Back to {{ back_page[exercise] }}</a>

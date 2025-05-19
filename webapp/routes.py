@@ -1,21 +1,24 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for
 
-from data_processing.normalization import get_answers, is_equal
+from data.data_processing.data_loading import load_data
+from data.data_processing.proverbs import get_text_proverb
+
 from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
-from data_processing.data_loading import load_data
 from webapp.session_management.pick_a_question import pick_a_question
-from data_processing.proverbs import get_text_proverb
 from webapp.session_management.session_ import progress, score, result
 from webapp.session_management.result import register_result
 from webapp.session_management.conditions import level_finished
+from webapp.session_management.normalization import get_answers, is_equal
 
 from webapp.interface import alinea, format_english, format_german
+
 from webapp.content.title_page import TITLE_PAGE
 from webapp.content.back_button import BACK_BUTTON
 from webapp.content.feedback_templates import FEEDBACK_TEMPLATES
 from webapp.content.question_templates import QUESTION_TEMPLATES
+from webapp.content.instruction_templates import INSTRUCTION_TEMPLATES
 from webapp.content.description_templates import DESCRIPTION_TEMPLATES
 from webapp.content.exercise_page import EXERCISE_PAGES
 
@@ -276,6 +279,8 @@ def exercise(exercise, level):
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
 
+    instruction = INSTRUCTION_TEMPLATES.get(exercise, {}).get(level, "Translate the following word:")
+
     formatted_question = QUESTION_TEMPLATES.get(exercise, {}).get(level, "{question}").format(
         question=question_text,
         english=english,
@@ -297,6 +302,7 @@ def exercise(exercise, level):
                            exercise=exercise,
                            level=level,
                            question_text=formatted_question,
+                           instruction_text=instruction,
                            nr=question_data["Nr"],
                            result=result_data["result"] if result_data else None,
                            feedback_message=result_data["feedback_message"] if result_data else None,

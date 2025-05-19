@@ -1,4 +1,4 @@
-from data_processing.data_loading import load_data
+from data.data_processing.data_loading import load_data
 
 from webapp.session_management.session_ import progress
 
@@ -19,5 +19,5 @@ def pick_a_question(session, exercise, level):
     filtered_data = data[~data["Nr"].astype(str).isin(answered_nrs)]
 
     if filtered_data.empty:
-        return None  # All datasets answered
+        return None
     return filtered_data.sample(1).iloc[0]

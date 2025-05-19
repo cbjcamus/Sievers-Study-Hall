@@ -5,9 +5,9 @@ Nr,level,question,answer,german,english
 4,1,when,wann,,
 5,1,which (feminin),welche,,
 6,1,which (masculin),welcher,,
-7,1,which (neutral),welches,,
+7,1,which (neuter),welches,,
 8,1,which (plural),welche,,
-9,1,who (Nominative),wer,,
+9,1,who,wer,,
 10,1,where,wo,,
 11,2,_____ geht es dir?,Wie,Wie geht es dir?,How are you?
 12,2,_____ heißt du?,Wie,Wie heißt du?,What is your name?
@@ -124,8 +124,8 @@ Nr,level,question,answer,german,english
 123,5,whose (genitive),wessen,,
 124,5,which (masculin accusative),welchen,,
 125,5,which (masculin dative),welchem,,
-126,5,which (neutral accusative),welches,,
-127,5,which (neutral dative),welchem,,
+126,5,which (neuter accusative),welches,,
+127,5,which (neuter dative),welchem,,
 128,5,which (feminin accusative),welche,,
 129,5,which (feminin dative),welcher,,
 130,5,which (plural accusative),welche,,

@@ -10,7 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/flask_session" />
       <excludeFolder url="file://$MODULE_DIR$/count_ips" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13 (Deutsch)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (Sievers_Study_Hall)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

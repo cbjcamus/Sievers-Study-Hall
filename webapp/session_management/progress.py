@@ -1,7 +1,7 @@
 import pandas as pd
 
 from webapp.session_management.total_questions import compute_total_questions, compute_highest_level
-from data_processing.paths import SCORE_PATH
+from data.data_processing.paths import SCORE_PATH
 from webapp.session_management.session_ import progress, result
 
 

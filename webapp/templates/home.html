@@ -14,6 +14,19 @@
     {{ render_title("Sievers Study Hall") }}
 
     <div class="section">
+        <h2>Recent Updates</h2>
+        <ul>
+            <li>Update of the User Interface</li>
+            <li>Addition of exercises in <a href="https://www.sieversstudyhall.com/artikel">Artikel</a></li>
+            <li>Correction of an error in the Präsens exercises that made the correct answer incorrect</li>
+            <li>Correction of an error in the Präpositionen – Adjektive exercises that prevented its use</li>
+            <li>Correction of an back-end error that prevented the session to save individual progress</li>
+            <li>Addition of the <a href="https://www.sieversstudyhall.com/fragen">Fragen</a>  exercise under Grammatik</li>
+            <li>Addition of the <a href="https://www.sieversstudyhall.com/praeteritum_partizip_II">Präteritum + Partizip II</a> exercise under Konjugation</li>
+        </ul>
+    </div>
+
+    <div class="section">
         <h2>Präpositionen</h2>
         <table class="exercise-table">
             <tr>
@@ -143,15 +156,15 @@
         <h2>Verben</h2>
         <table class="exercise-table">
             <tr>
-                <td><a href="/verben" class="button">Verben</a></td>
-                <td>{{ answered_questions('verben', session=session) }}/{{ total_questions('verben') }}</td>
-                <td>{{ score('verben', session=session) }}</td>
-                <td></td>
-            </tr>
-            <tr>
                 <td><a href="/trennbare_verben" class="button">(Un)trennbare Verben</a></td>
                 <td>{{ answered_questions('trennbare_verben', session=session) }}/{{ total_questions('trennbare_verben') }}</td>
                 <td>{{ score('trennbare_verben', session=session) }}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/verben" class="button">Verben</a></td>
+                <td>{{ answered_questions('verben', session=session) }}/{{ total_questions('verben') }}</td>
+                <td>{{ score('verben', session=session) }}</td>
                 <td></td>
             </tr>
         </table>

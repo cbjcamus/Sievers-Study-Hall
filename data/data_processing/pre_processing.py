@@ -1,5 +1,5 @@
 import pandas as pd
-from data_processing.exercises import praesens, praeteritum, imperativ, konjunktiv_II, konjunktiv_I
+from data.data_processing.exercises import praesens, praeteritum, imperativ, konjunktiv_II, konjunktiv_I
 
 
 def pre_processing(data, exercise, level):

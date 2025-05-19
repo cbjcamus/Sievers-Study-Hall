@@ -1,4 +1,4 @@
-from data_processing.exercises import (
+from data.data_processing.exercises import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -26,9 +26,9 @@ TITLE_PAGE = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    adverbien: "Adverbien (Beta)",
-    verben: "Verben (Beta)",
-    trennbare_verben: "(Un)trennbare Verben (Beta)",
+    adverbien: "Adverbien",
+    verben: "Verben",
+    trennbare_verben: "(Un)trennbare Verben",
     deverbale_nomen: "Deverbale Substantive (Beta)",
     }
 

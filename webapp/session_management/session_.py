@@ -1,4 +1,4 @@
-from data_processing.exercises import exercises
+from data.data_processing.exercises import exercises
 
 progress = 'progress'
 score = 'score'
