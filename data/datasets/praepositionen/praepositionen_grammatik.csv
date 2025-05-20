@@ -566,7 +566,7 @@ Nr,level,question,answer,case,german,english
 565,12,_____ den Gästen war auch ein berühmter Schauspieler.,Unter/Bei,,Unter den Gästen war auch ein berühmter Schauspieler.,Among the guests was also a famous actor.
 566,12,_____ den Schülern gibt es viele Talente.,Unter/Bei,,Unter den Schülern gibt es viele Talente.,There are many talents among the students.
 567,12,_____ Freunden spricht man offen über alles.,Unter/Bei,,Unter Freunden spricht man offen über alles.,"Among friends, people speak openly about everything."
-568,12,_____ den Vorschlägen war keiner wirklich überzeugend.,Unter/Zwischen,,Unter den Vorschlägen war keiner wirklich überzeugend.,
+568,12,_____ den Vorschlägen war keiner wirklich überzeugend.,Unter/Zwischen,,Unter den Vorschlägen war keiner wirklich überzeugend.,None of the suggestions were really convincing.
 569,12,_____ Jugendlichen ist dieses Lied sehr beliebt.,Bei/Unter,,Bei Jugendlichen ist dieses Lied sehr beliebt.,This song is very popular among teenagers.
 570,12,_____ diesem Wetter gehe ich nicht raus.,Bei/Unter,,Bei diesem Wetter gehe ich nicht raus.,I'm not going outside in this weather.
 571,12,_____ unseren Kunden kommt das neue Design gut an.,Bei,,Bei unseren Kunden kommt das neue Design gut an.,The new design is well received among our customers.
@@ -630,308 +630,332 @@ Nr,level,question,answer,case,german,english
 629,13,instead of,anstatt,Genitive,,
 630,13,outside of,ausserhalb,Genitive,,
 631,13,"through, across",durch,Accusative,,
-632,13,"along, down",entlang,Accusative,,
-633,13,"opposite of, across",gegenüber,Dative,,
-634,13,"inside of, within",innerhalb,Genitive,,
-635,13,according to (with Genitive),laut,Genitive (Dative colloquial),,
-636,13,with the help of,mithilfe,Genitive,,
-637,13,despite,trotz,Genitive (Dative colloquial),,
-638,13,"during, throughout, while",während,Genitive,,
-639,13,"due to, because of",wegen,Genitive (Dative colloquial),,
-640,13,according to (with Dative),zufolge,Dative,,
-641,14,_____ eines Autos kaufte er ein Fahrrad.,Anstatt,,Anstatt eines Autos kaufte er ein Fahrrad.,"Instead of a car, he bought a bicycle."
-642,14,Sie trank Wasser _____ eines Softdrinks.,anstatt,,Sie trank Wasser anstatt eines Softdrinks.,She drank water instead of a soft drink.
-643,14,_____ einer Entschuldigung gab er nur eine Ausrede.,Anstatt,,Anstatt einer Entschuldigung gab er nur eine Ausrede.,"Instead of an apology, he just gave an excuse."
-644,14,Wir entschieden uns für eine Wanderung _____ eines Kinobesuchs.,anstatt,,Wir entschieden uns für eine Wanderung anstatt eines Kinobesuchs.,We chose to go hiking instead of going to the cinema.
-645,14,"_____ eines grossen Geschenks machte er eine kleine, persönliche Geste.",Anstatt,,"Anstatt eines grossen Geschenks machte er eine kleine, persönliche Geste.","Instead of a big gift, he made a small, personal gesture."
-646,14,_____ der Stadt gibt es viele schöne Wanderwege.,Ausserhalb,,Ausserhalb der Stadt gibt es viele schöne Wanderwege.,"Outside the city, there are many beautiful hiking trails."
-647,14,Das Parken ist _____ der Geschäftszeiten kostenlos.,ausserhalb,,Das Parken ist ausserhalb der Geschäftszeiten kostenlos.,Parking is free outside business hours.
-648,14,_____ meines Arbeitsbereichs kenne ich mich nicht so gut aus.,Ausserhalb,,Ausserhalb meines Arbeitsbereichs kenne ich mich nicht so gut aus.,"Outside of my field of work, I am not very knowledgeable."
-649,14,"Wir wohnen _____ des Stadtzentrums, aber die Verbindung ist gut.",ausserhalb,,"Wir wohnen ausserhalb des Stadtzentrums, aber die Verbindung ist gut.","We live outside the city center, but the connection is good."
-650,14,_____ der Schule treffe ich mich oft mit meinen Freunden.,Ausserhalb,,Ausserhalb der Schule treffe ich mich oft mit meinen Freunden.,"Outside of school, I often meet up with my friends."
-651,14,Wir fahren _____ den Tunnel.,durch,,Wir fahren durch den Tunnel.,We drive through the tunnel.
-652,14,Ich gehe _____ den Park.,durch,,Ich gehe durch den Park.,I walk through the park.
-653,14,Der Brief kam _____ die Post.,durch,,Der Brief kam durch die Post.,The letter came by mail.
-654,14,Der Fluss fliesst _____ die Stadt.,durch,,Der Fluss fliesst durch die Stadt.,The river flows through the city.
-655,14,Man sieht _____ das Fenster.,durch,,Man sieht durch das Fenster.,One can see through the window.
-656,14,Wir sind den ganzen Tag den Strand _____ gelaufen.,entlang,,Wir sind den ganzen Tag den Strand entlang gelaufen.,We walked along the beach all day.
-657,14,_____ der Strasse stehen viele Bäume.,Entlang,,Entlang der Strasse stehen viele Bäume.,Along the street there are many trees.
-658,14,Sie pflanzten Blumen _____ des Zauns.,entlang,,Sie pflanzten Blumen entlang des Zauns.,They planted flowers along the fence.
-659,14,Der Zug fährt _____ der Küste.,entlang,,Der Zug fährt entlang der Küste.,The train travels along the coast.
-660,14,_____ dieser Strecke gibt es viele Sehenswürdigkeiten.,Entlang,,Entlang dieser Strecke gibt es viele Sehenswürdigkeiten.,Along this stretch there are many sights.
-661,14,Die Bank liegt _____ der Post.,gegenüber,,Die Bank liegt gegenüber der Post.,The bank is located across from the post office.
-662,14,Mein Haus steht direkt _____ dem Park.,gegenüber,,Mein Haus steht direkt gegenüber dem Park.,My house is directly opposite the park.
-663,14,Er war immer freundlich _____ seinen Kollegen.,gegenüber,,Er war immer freundlich gegenüber seinen Kollegen.,He was always friendly towards his colleagues.
-664,14,_____ dem letzten Jahr hat sich das Wetter verbessert.,Gegenüber,,Gegenüber dem letzten Jahr hat sich das Wetter verbessert.,"Compared to last year, the weather has improved."
-665,14,Sie sass mir im Café _____ und hat gelächelt.,gegenüber,,Sie sass mir im Café gegenüber und hat gelächelt.,She sat across from me in the café and smiled.
-666,14,_____ der Stadt gibt es viele historische Gebäude.,Innerhalb,,Innerhalb der Stadt gibt es viele historische Gebäude.,"Within the city, there are many historical buildings."
-667,14,Die Lieferung erfolgt _____ einer Woche.,innerhalb,,Die Lieferung erfolgt innerhalb einer Woche.,The delivery will take place within a week.
-668,14,_____ des Unternehmens gab es viele Veränderungen.,Innerhalb,,Innerhalb des Unternehmens gab es viele Veränderungen.,There have been many changes within the company.
-669,14,Bitte beantworten Sie die E-Mail _____ von 24 Stunden.,innerhalb,,Bitte beantworten Sie die E-Mail innerhalb von 24 Stunden.,Please reply to the email within 24 hours.
-670,14,_____ der Schule gibt es strenge Regeln für die Nutzung von Handys.,Innerhalb,,Innerhalb der Schule gibt es strenge Regeln für die Nutzung von Handys.,"Inside the school, there are strict rules for the use of mobile phones."
-671,14,_____ der Zeitung wird das Wetter morgen sonnig.,Laut,,Laut der Zeitung wird das Wetter morgen sonnig.,"According to the newspaper, the weather will be sunny tomorrow."
-672,14,_____ dem Lehrer müssen wir das Buch bis nächste Woche lesen.,Laut,,Laut dem Lehrer müssen wir das Buch bis nächste Woche lesen.,"According to the teacher, we have to read the book by next week."
-673,14,_____ einer Studie trinken Deutsche viel Kaffee.,Laut,,Laut einer Studie trinken Deutsche viel Kaffee.,"According to a study, Germans drink a lot of coffee."
-674,14,_____ den Regeln ist das Rauchen hier verboten.,Laut,,Laut den Regeln ist das Rauchen hier verboten.,"According to the rules, smoking is prohibited here."
-675,14,_____ meinem Freund ist das Restaurant sehr gut.,Laut,,Laut meinem Freund ist das Restaurant sehr gut.,"According to my friend, the restaurant is very good."
-676,14,_____ eines Wörterbuchs kann man neue Vokabeln schneller lernen.,Mithilfe,,Mithilfe eines Wörterbuchs kann man neue Vokabeln schneller lernen.,"With the help of a dictionary, one can learn new vocabulary faster."
-677,14,Er hat das Problem _____ eines Experten gelöst.,mithilfe,,Er hat das Problem mithilfe eines Experten gelöst.,He solved the problem with the help of an expert.
-678,14,_____ moderner Technologie können wir effizienter arbeiten.,Mithilfe,,Mithilfe moderner Technologie können wir effizienter arbeiten.,"With the help of modern technology, we can work more efficiently."
-679,14,Das Experiment wurde _____ verschiedener Methoden durchgeführt.,mithilfe,,Das Experiment wurde mithilfe verschiedener Methoden durchgeführt.,The experiment was conducted using various methods.
-680,14,_____ ihrer Freunde konnte sie die schwere Zeit überstehen.,Mithilfe,,Mithilfe ihrer Freunde konnte sie die schwere Zeit überstehen.,"With the help of her friends, she was able to get through the difficult time."
-681,14,_____ des Regens gingen wir spazieren.,Trotz,,Trotz des Regens gingen wir spazieren.,"Despite the rain, we went for a walk."
-682,14,Er bestand die Prüfung _____ seiner Nervosität.,trotz,,Er bestand die Prüfung trotz seiner Nervosität.,He passed the exam despite his nervousness.
-683,14,_____ des schlechten Wetters fand das Konzert draussen statt.,Trotz,,Trotz des schlechten Wetters fand das Konzert draussen statt.,"Despite the bad weather, the concert took place outside."
-684,14,"Sie kam pünktlich, _____ des Verkehrs.",trotz,,"Sie kam pünktlich, trotz des Verkehrs.",She arrived on time despite the traffic.
-685,14,_____ seiner Müdigkeit arbeitete er bis spät in die Nacht.,Trotz,,Trotz seiner Müdigkeit arbeitete er bis spät in die Nacht.,"Despite his fatigue, he worked late into the night."
-686,14,_____ des Essens sollte man nicht telefonieren.,Während,,Während des Essens sollte man nicht telefonieren.,"During the meal, one should not use the phone."
-687,14,Er blieb ruhig _____ des gesamten Meetings.,während,,Er blieb ruhig während des gesamten Meetings.,He stayed calm throughout the entire meeting.
-688,14,_____ des Sommers fahren viele Menschen in den Urlaub.,Während,,Während des Sommers fahren viele Menschen in den Urlaub.,"During the summer, many people go on vacation."
-689,14,Sie hat viel gelernt _____ ihres Studiums.,während,,Sie hat viel gelernt während ihres Studiums.,She learned a lot during her studies.
-690,14,_____ der Nacht sind die Straßen oft leer.,Während,,Während der Nacht sind die Straßen oft leer.,"During the night, the streets are often empty."
-691,14,_____ des schlechten Wetters wurde das Spiel abgesagt.,Wegen,,Wegen des schlechten Wetters wurde das Spiel abgesagt.,"Because of the bad weather, the game was canceled."
-692,14,Er konnte nicht kommen _____ einer wichtigen Besprechung.,wegen,,Er konnte nicht kommen wegen einer wichtigen Besprechung.,He couldn't come because of an important meeting.
-693,14,_____ des Verkehrs sind wir zu spät gekommen.,Wegen,,Wegen des Verkehrs sind wir zu spät gekommen.,"Because of the traffic, we arrived late."
-694,14,Sie war traurig _____ der schlechten Nachricht.,wegen,,Sie war traurig wegen der schlechten Nachricht.,She was sad because of the bad news.
-695,14,_____ seines Fleisses hat er die Beförderung bekommen.,Wegen,,Wegen seines Fleisses hat er die Beförderung bekommen.,"Because of his diligence, he got the promotion."
-696,14,Einer aktuellen Studie _____ schlafen Jugendliche heutzutage weniger als früher.,zufolge,,Einer aktuellen Studie zufolge schlafen Jugendliche heutzutage weniger als früher.,"According to a recent study, teenagers sleep less nowadays than in the past."
-697,14,Dem Bericht _____ wird die Wirtschaft im nächsten Jahr langsamer wachsen.,zufolge,,Dem Bericht zufolge wird die Wirtschaft im nächsten Jahr langsamer wachsen.,"According to the report, the economy will grow more slowly next year."
-698,14,Den Experten _____ ist eine schnelle Lösung des Problems unwahrscheinlich.,zufolge,,Den Experten zufolge ist eine schnelle Lösung des Problems unwahrscheinlich.,"According to experts, a quick solution to the problem is unlikely."
-699,14,Medienberichten _____ gab es mehrere Verletzte bei dem Unfall.,zufolge,,Medienberichten zufolge gab es mehrere Verletzte bei dem Unfall.,"According to media reports, there were several injuries in the accident."
-700,14,Der Polizei _____ wurde der Verdächtige am frühen Morgen festgenommen.,zufolge,,Der Polizei zufolge wurde der Verdächtige am frühen Morgen festgenommen.,"According to the police, the suspect was arrested early in the morning."
-701,15,_____ wachsender Erfahrung wurde er immer selbstsicherer.,Mit,,Mit wachsender Erfahrung wurde er immer selbstsicherer.,"With growing experience, he became more and more confident."
-702,15,_____ jeder Wiederholung verstand ich den Text besser.,Mit,,Mit jeder Wiederholung verstand ich den Text besser.,"With each repetition, I understood the text better."
-703,15,_____ zunehmender Verantwortung steigen auch die Erwartungen.,Mit,,Mit zunehmender Verantwortung steigen auch die Erwartungen.,"As responsibility increases, so do expectations."
-704,15,_____ der Zeit entwickelten sich neue Lösungsansätze.,Mit,,Mit der Zeit entwickelten sich neue Lösungsansätze.,"Over time, new approaches emerged."
-705,15,_____ dem Klimawandel nehmen extreme Wetterereignisse zu.,Mit,,Mit dem Klimawandel nehmen extreme Wetterereignisse zu.,"With climate change, extreme weather events are increasing."
-706,15,_____ schlechtem Wetter findet das Konzert in der Halle statt.,Bei,,Bei schlechtem Wetter findet das Konzert in der Halle statt.,"In bad weather, the concert takes place indoors."
-707,15,_____ der Arbeit höre ich oft klassische Musik.,Bei,,Bei der Arbeit höre ich oft klassische Musik.,I often listen to classical music while working.
-708,15,_____ näherer Betrachtung sieht man den Fehler sofort.,Bei,,Bei näherer Betrachtung sieht man den Fehler sofort.,"Upon closer inspection, you can see the mistake immediately."
-709,15,_____ hohen Temperaturen sollte man viel trinken.,Bei,,Bei hohen Temperaturen sollte man viel trinken.,You should drink a lot in high temperatures.
-710,15,_____ diesem Geräusch kriege ich jedes Mal eine Gänsehaut.,Bei,,Bei diesem Geräusch kriege ich jedes Mal eine Gänsehaut.,That sound gives me goosebumps every time.
-711,15,_____ ausreichende Vorbereitung ist die Präsentation riskant.,Ohne,,Ohne ausreichende Vorbereitung ist die Präsentation riskant.,"Without sufficient preparation, the presentation is risky."
-712,15,Man sollte das Medikament nicht _____ Rücksprache mit dem Arzt nehmen.,ohne,,Man sollte das Medikament nicht ohne Rücksprache mit dem Arzt nehmen.,You shouldn't take the medication without consulting a doctor.
-713,15,_____ klare Ziele verliert man leicht die Motivation.,Ohne,,Ohne klare Ziele verliert man leicht die Motivation.,"Without clear goals, it’s easy to lose motivation."
-714,15,Diese Aufgabe ist _____ Teamarbeit kaum zu schaffen.,ohne,,Diese Aufgabe ist ohne Teamarbeit kaum zu schaffen.,This task is hardly manageable without teamwork.
-715,15,_____ stichhaltige Beweise wird die Anklage keinen Erfolg haben.,Ohne,,Ohne stichhaltige Beweise wird die Anklage keinen Erfolg haben.,"Without solid evidence, the prosecution won’t succeed."
-716,15,_____ dem Bericht der Polizei gab es keine Verletzten.,Nach,,Nach dem Bericht der Polizei gab es keine Verletzten.,"According to the police report, there were no injuries."
-717,15,_____ Expertenmeinung ist das Risiko gering.,Nach,,Nach Expertenmeinung ist das Risiko gering.,"According to experts, the risk is low."
-718,15,_____ dem Wetterbericht wird es morgen regnen.,Nach,,Nach dem Wetterbericht wird es morgen regnen.,"According to the weather report, it will rain tomorrow."
-719,15,_____ seiner Aussage war er zur Tatzeit nicht vor Ort.,Nach,,Nach seiner Aussage war er zur Tatzeit nicht vor Ort.,"According to his statement, he wasn't at the scene."
-720,15,_____ den Regeln ist das nicht erlaubt.,Nach,,Nach den Regeln ist das nicht erlaubt.,"According to the rules, that’s not allowed."
-721,15,_____ Notfall rufen Sie bitte sofort den Rettungsdienst.,Im,,Im Notfall rufen Sie bitte sofort den Rettungsdienst.,"In case of emergency, please call emergency services immediately."
-722,15,_____ Zweifelsfall entscheiden wir uns für die sicherere Option.,Im,,Im Zweifelsfall entscheiden wir uns für die sicherere Option.,"In case of doubt, we’ll choose the safer option."
-723,15,_____ Ernstfall muss schnell gehandelt werden.,Im,,Im Ernstfall muss schnell gehandelt werden.,"In a serious situation, quick action is required."
-724,15,_____ Idealfall ist das Projekt in drei Monaten abgeschlossen.,Im,,Im Idealfall ist das Projekt in drei Monaten abgeschlossen.,"Ideally, the project will be completed in three months."
-725,15,_____ Extremfall können ganze Dörfer evakuiert werden.,Im,,Im Extremfall können ganze Dörfer evakuiert werden.,"In extreme cases, entire villages may be evacuated."
-726,15,Der Rock wurde _____ fünf Zentimeter gekürzt.,um,,Der Rock wurde um fünf Zentimeter gekürzt.,The skirt was shortened by five centimeters.
-727,15,Die Preise sind _____ zehn Prozent gestiegen.,um,,Die Preise sind um zehn Prozent gestiegen.,Prices have increased by ten percent.
-728,15,Er hat sich _____ zwei Kilo verbessert.,um,,Er hat sich um zwei Kilo verbessert.,He improved by two kilos.
-729,15,Die Temperatur sank über Nacht _____ sieben Grad.,um,,Die Temperatur sank über Nacht um sieben Grad.,The temperature dropped by seven degrees overnight.
-730,15,Die Firma konnte ihren Umsatz _____ ein Drittel steigern.,um,,Die Firma konnte ihren Umsatz um ein Drittel steigern.,The company was able to increase its revenue by a third.
-731,15,Sie hat die Gäste _____ elegante Weise empfangen.,auf,,Sie hat die Gäste auf elegante Weise empfangen.,She welcomed the guests in an elegant manner.
-732,15,Er antwortete _____ typische Berliner Art – direkt und ohne Umschweife.,auf,,Er antwortete auf typische Berliner Art – direkt und ohne Umschweife.,He replied in typical Berlin fashion – direct and without fuss.
-733,15,Das Essen wurde _____ italienische Art zubereitet.,auf,,Das Essen wurde auf italienische Art zubereitet.,The food was prepared in the Italian way.
-734,15,Sie verabschiedeten sich _____ herzliche Weise.,auf,,Sie verabschiedeten sich auf herzliche Weise.,They said goodbye in a warm and heartfelt manner.
-735,15,Der Künstler malte das Porträt _____ ungewöhnliche Weise.,auf,,Der Künstler malte das Porträt auf ungewöhnliche Weise.,The artist painted the portrait in an unusual way.
-736,15,_____ gestern ist der Verkehr heute viel ruhiger.,Gegen,,Gegen gestern ist der Verkehr heute viel ruhiger.,"Compared to yesterday, traffic is much calmer today."
-737,15,Die neue Version ist _____ die alte deutlich benutzerfreundlicher.,gegen,,Die neue Version ist gegen die alte deutlich benutzerfreundlicher.,"Compared to the old one, the new version is clearly more user-friendly."
-738,15,_____ den Winter ist der Herbst noch angenehm mild.,Gegen,,Gegen den Winter ist der Herbst noch angenehm mild.,"Compared to winter, autumn is still pleasantly mild."
-739,15,Die Ergebnisse wirken _____ unsere Erwartungen überraschend gut.,gegen,,Die Ergebnisse wirken gegen unsere Erwartungen überraschend gut.,The results seem surprisingly good compared to our expectations.
-740,15,_____ seine frühere Arbeit ist das ein großer Fortschritt.,Gegen,,Gegen seine frühere Arbeit ist das ein großer Fortschritt.,"Compared to his earlier work, this is a major improvement."
-741,15,_____ seinem Studium arbeitet er in einem Café.,Neben,,Neben seinem Studium arbeitet er in einem Café.,"In addition to his studies, he works in a café."
-742,15,_____ der Sprache interessiert sie sich auch für die Kultur.,Neben,,Neben der Sprache interessiert sie sich auch für die Kultur.,"In addition to the language, she’s also interested in the culture."
-743,15,_____ den finanziellen Aspekten spielen auch emotionale Gründe eine Rolle.,Neben,,Neben den finanziellen Aspekten spielen auch emotionale Gründe eine Rolle.,"In addition to financial aspects, emotional reasons also play a role."
-744,15,_____ ihrer Tätigkeit als Lehrerin schreibt sie Kinderbücher.,Neben,,Neben ihrer Tätigkeit als Lehrerin schreibt sie Kinderbücher.,"In addition to her work as a teacher, she writes children’s books."
-745,15,_____ dem Hauptsitz gibt es noch drei weitere Niederlassungen.,Neben,,Neben dem Hauptsitz gibt es noch drei weitere Niederlassungen.,"In addition to the headquarters, there are three other branches."
-746,15,Das Problem wurde _____ eine neue Methode gelöst.,durch,,Das Problem wurde durch eine neue Methode gelöst.,The problem was solved through a new method.
-747,15,Die Stadt wurde _____ ein Erdbeben zerstört.,durch,,Die Stadt wurde durch ein Erdbeben zerstört.,The city was destroyed by an earthquake.
-748,15,Die Tür wurde _____ einen starken Windstoß geöffnet.,durch,,Die Tür wurde durch einen starken Windstoß geöffnet.,The door was opened by a strong gust of wind.
-749,15,Das Unternehmen wurde _____ eine Fusion gerettet.,durch,,Das Unternehmen wurde durch eine Fusion gerettet.,The company was saved through a merger.
-750,15,Die Daten wurden _____ eine Software analysiert.,durch,,Die Daten wurden durch eine Software analysiert.,The data was analyzed by a software program.
-751,15,Das Buch wurde _____ einem berühmten Autor geschrieben.,von,,Das Buch wurde von einem berühmten Autor geschrieben.,The book was written by a famous author.
-752,15,Der Dieb wurde _____ der Polizei festgenommen.,von,,Der Dieb wurde von der Polizei festgenommen.,The thief was arrested by the police.
-753,15,Die Brücke wurde _____ Ingenieuren geplant.,von,,Die Brücke wurde von Ingenieuren geplant.,The bridge was designed by engineers.
-754,15,Der Fehler wurde _____ einem Mitarbeiter entdeckt.,von,,Der Fehler wurde von einem Mitarbeiter entdeckt.,The mistake was discovered by an employee.
-755,15,Die Entscheidung wurde _____ der Geschäftsleitung getroffen.,von,,Die Entscheidung wurde von der Geschäftsleitung getroffen.,The decision was made by the management.
-756,15,Er half ihr _____ Freundlichkeit.,aus,,Er half ihr aus Freundlichkeit.,He helped her out of kindness.
-757,15,Sie entschied sich _____ Vernunft für diesen Job.,aus,,Sie entschied sich aus Vernunft für diesen Job.,She chose this job out of reason.
-758,15,_____ Respekt unterbrach er die Diskussion nicht.,Aus,,Aus Respekt unterbrach er die Diskussion nicht.,"Out of respect, he didn’t interrupt the discussion."
-759,15,Er spendete Geld _____ Mitgefühl für die Opfer.,aus,,Er spendete Geld aus Mitgefühl für die Opfer.,He donated money out of compassion for the victims.
-760,15,_____ Interesse besuchte sie das Seminar.,Aus,,Aus Interesse besuchte sie das Seminar.,She attended the seminar out of interest.
-761,15,Er zitterte _____ Kälte.,vor,,Er zitterte vor Kälte.,He was shivering from the cold.
-762,15,Sie weinte _____ Freude.,vor,,Sie weinte vor Freude.,She cried out of joy.
-763,15,_____ Angst konnte er nicht sprechen.,Vor,,Vor Angst konnte er nicht sprechen.,"Out of fear, he couldn’t speak."
-764,15,Er wurde _____ Schreck blass.,vor,,Er wurde vor Schreck blass.,He turned pale from shock.
-765,15,Sie lachte _____ Erleichterung.,vor,,Sie lachte vor Erleichterung.,She laughed out of relief.
-766,15,_____ den erfolgreichen Abschluss des Projekts müssen alle Teammitglieder zusammenarbeiten.,Für,,Für den erfolgreichen Abschluss des Projekts müssen alle Teammitglieder zusammenarbeiten.,All team members must work together to successfully complete the project.
-767,15,_____ den Schutz der Umwelt sollten wir weniger Plastik verwenden.,Für,,Für den Schutz der Umwelt sollten wir weniger Plastik verwenden.,"To protect the environment, we should use less plastic."
-768,15,_____ den Ausbau der Infrastruktur stellt die Regierung mehr Mittel bereit.,Für,,Für den Ausbau der Infrastruktur stellt die Regierung mehr Mittel bereit.,The government is providing more funding for infrastructure expansion.
-769,15,_____ den Schutz der Daten wurden neue Sicherheitsvorkehrungen eingeführt.,Für,,Für den Schutz der Daten wurden neue Sicherheitsvorkehrungen eingeführt.,New security measures have been introduced to protect data.
-770,15,_____ die Eröffnung der Ausstellung wurden zahlreiche Gäste eingeladen.,Für,,Für die Eröffnung der Ausstellung wurden zahlreiche Gäste eingeladen.,Numerous guests were invited to the exhibition opening.
-771,15,_____ Verbesserung der Kundenbetreuung wurden neue Mitarbeiter eingestellt.,Zur,,Zur Verbesserung der Kundenbetreuung wurden neue Mitarbeiter eingestellt.,New employees were hired to improve customer service.
-772,15,_____ Lösung des Problems haben wir eine Expertenrunde einberufen.,Zur,,Zur Lösung des Problems haben wir eine Expertenrunde einberufen.,We convened a panel of experts to address the problem.
-773,15,_____ Förderung der Kreativität wurden spezielle Workshops organisiert.,Zur,,Zur Förderung der Kreativität wurden spezielle Workshops organisiert.,Special workshops were organized to encourage creativity.
-774,15,_____ Erhöhung der Sicherheit wurden neue Kameras installiert.,Zur,,Zur Erhöhung der Sicherheit wurden neue Kameras installiert.,New cameras were installed to increase security.
-775,15,_____ Verbesserung der Zusammenarbeit wurden regelmäßige Meetings eingeführt.,Zur,,Zur Verbesserung der Zusammenarbeit wurden regelmäßige Meetings eingeführt.,Regular meetings were introduced to improve collaboration.
-776,16,"in view of, considering, in light of",angesichts,Genitive,,
-777,16,based on,anhand,Genitive,,
-778,16,"except, besides, appart from",ausser,Dative,,
-779,16,thanks to,dank,Genitive (Dative colloquial),,
-780,16,"including, taking into account, inclusive of",einschließlich,Genitive (Accusative or Dative colloquial),,
-781,16,"as opposed to, in contrast to, unlike",im Gegensatz zu,Dative,,
-782,16,contrary to,entgegen,Dative,,
-783,16,as a result of,infolge,Genitive,,
-784,16,due to a lack of,mangels,Genitive,,
-785,16,"by means of, through, using",mittels,Genitive,,
-786,16,in addition to,zusätzlich zu,Dative,,
-787,17,_____ der steigenden Kosten muss das Budget überarbeitet werden.,Angesichts,,Angesichts der steigenden Kosten muss das Budget überarbeitet werden.,"In view of the rising costs, the budget must be revised."
-788,17,_____ der aktuellen Situation sollten wir vorsichtig sein.,Angesichts,,Angesichts der aktuellen Situation sollten wir vorsichtig sein.,"Given the current situation, we should be cautious."
-789,17,_____ der wirtschaftlichen Lage werden viele Unternehmen vorsichtiger investieren.,Angesichts,,Angesichts der wirtschaftlichen Lage werden viele Unternehmen vorsichtiger investieren.,"Considering the economic situation, many companies are investing more cautiously."
-790,17,_____ der Beweise konnte der Richter eine klare Entscheidung treffen.,Angesichts,,Angesichts der Beweise konnte der Richter eine klare Entscheidung treffen.,"In light of the evidence, the judge was able to make a clear decision."
-791,17,_____ des Klimawandels müssen wir nachhaltiger leben.,Angesichts,,Angesichts des Klimawandels müssen wir nachhaltiger leben.,"In view of climate change, we need to live more sustainably."
-792,17,_____ der Statistik lässt sich der Trend klar erkennen.,Anhand,,Anhand der Statistik lässt sich der Trend klar erkennen.,The trend can be clearly seen based on the statistics.
-793,17,_____ seiner Aussagen kann man die Situation besser verstehen.,Anhand,,Anhand seiner Aussagen kann man die Situation besser verstehen.,"Based on his statements, one can better understand the situation."
-794,17,Die Qualität wird _____ verschiedener Kriterien bewertet.,anhand,,Die Qualität wird anhand verschiedener Kriterien bewertet.,The quality is assessed based on various criteria.
-795,17,_____ dieser Beispiele wird das Problem deutlich.,Anhand,,Anhand dieser Beispiele wird das Problem deutlich.,This problem becomes clear through these examples.
-796,17,Die Echtheit des Dokuments wurde _____ von Experten geprüft.,anhand,,Die Echtheit des Dokuments wurde anhand von Experten geprüft.,The authenticity of the document was verified by experts.
-797,17,_____ ihm hat niemand die Prüfung bestanden.,Ausser,,Ausser ihm hat niemand die Prüfung bestanden.,"Except for him, no one passed the exam."
-798,17,_____ finanziellen Problemen gibt es noch andere Herausforderungen.,Ausser,,Ausser finanziellen Problemen gibt es noch andere Herausforderungen.,"Besides financial problems, there are other challenges."
-799,17,_____ in Deutschland wird dieses Produkt auch in Österreich verkauft.,Ausser,,Ausser in Deutschland wird dieses Produkt auch in Österreich verkauft.,"Apart from Germany, this product is also sold in Austria."
-800,17,_____ bei starkem Regen gehen wir jeden Tag joggen.,Ausser,,Ausser bei starkem Regen gehen wir jeden Tag joggen.,"Except in heavy rain, we go jogging every day."
-801,17,_____ seiner Familie hat er niemandem davon erzählt.,Ausser,,Ausser seiner Familie hat er niemandem davon erzählt.,"Apart from his family, he hasn’t told anyone about it."
-802,17,_____ seiner Hilfe konnten wir das Problem schnell lösen.,Dank,,Dank seiner Hilfe konnten wir das Problem schnell lösen.,"Thanks to his help, we were able to solve the problem quickly."
-803,17,"Die Firma wächst stetig, _____ innovativer Ideen.",dank,,"Die Firma wächst stetig, dank innovativer Ideen.",The company is growing steadily thanks to innovative ideas.
-804,17,_____ der modernen Medizin leben die Menschen länger.,Dank,,Dank der modernen Medizin leben die Menschen länger.,"Thanks to modern medicine, people live longer."
-805,17,"Er hat die Prüfung bestanden, _____ seines intensiven Lernens.",dank,,"Er hat die Prüfung bestanden, dank seines intensiven Lernens.",He passed the exam thanks to his intensive studying.
-806,17,_____ des guten Wetters konnten wir die Reise genießen.,Dank,,Dank des guten Wetters konnten wir die Reise genießen.,"Thanks to the good weather, we were able to enjoy the trip."
-807,17,"Alle Teilnehmer, _____ der neuen Kollegen, müssen an dem Meeting teilnehmen.",einschließlich,,"Alle Teilnehmer, einschließlich der neuen Kollegen, müssen an dem Meeting teilnehmen.","All participants, including the new colleagues, must attend the meeting."
-808,17,"Die Reise kostet 1.200 Euro, _____ aller Gebühren und Steuern.",einschließlich,,"Die Reise kostet 1.200 Euro, einschließlich aller Gebühren und Steuern.","The trip costs 1,200 euros, including all fees and taxes."
-809,17,_____ des Anhangs umfasst der Bericht über 50 Seiten.,Einschließlich,,Einschließlich des Anhangs umfasst der Bericht über 50 Seiten.,"Including the appendix, the report consists of over 50 pages."
-810,17,_____ der Feiertage haben wir zehn freie Tage am Stück.,Einschließlich,,Einschließlich der Feiertage haben wir zehn freie Tage am Stück.,"Including the holidays, we have ten days off in a row."
-811,17,"Die Lieferung erfolgt innerhalb von fünf Tagen, _____ Wochenenden.",einschließlich,,"Die Lieferung erfolgt innerhalb von fünf Tagen, einschließlich Wochenenden.","Delivery will take place within five days, including weekends."
-812,17,_____ seinen Kollegen arbeitet er lieber allein.,Im Gegensatz zu,,Im Gegensatz zu seinen Kollegen arbeitet er lieber allein.,"In contrast to his colleagues, he prefers to work alone."
-813,17,_____ früheren Jahren hat sich das Klima stark verändert.,Im Gegensatz zu,,Im Gegensatz zu früheren Jahren hat sich das Klima stark verändert.,"In contrast to previous years, the climate has changed significantly."
-814,17,_____ ihren Erwartungen war die Prüfung ziemlich schwer.,Im Gegensatz zu,,Im Gegensatz zu ihren Erwartungen war die Prüfung ziemlich schwer.,"Contrary to her expectations, the exam was quite difficult."
-815,17,_____ vielen anderen Unternehmen setzt diese Firma auf Nachhaltigkeit.,Im Gegensatz zu,,Im Gegensatz zu vielen anderen Unternehmen setzt diese Firma auf Nachhaltigkeit.,"Unlike many other companies, this firm focuses on sustainability."
-816,17,_____ meinem Bruder interessiere ich mich nicht für Sport.,Im Gegensatz zu,,Im Gegensatz zu meinem Bruder interessiere ich mich nicht für Sport.,"Unlike my brother, I am not interested in sports."
-817,17,_____ den Erwartungen verlief das Projekt reibungslos.,Entgegen,,Entgegen den Erwartungen verlief das Projekt reibungslos.,"Contrary to expectations, the project went smoothly."
-818,17,_____ seiner Aussage war er zur Tatzeit am Tatort.,Entgegen,,Entgegen seiner Aussage war er zur Tatzeit am Tatort.,"Contrary to his statement, he was at the scene of the crime."
-819,17,_____ dem Rat ihrer Eltern zog sie ins Ausland.,Entgegen,,Entgegen dem Rat ihrer Eltern zog sie ins Ausland.,"Against her parents’ advice, she moved abroad."
-820,17,_____ den Regeln nahm er unerlaubt an dem Wettbewerb teil.,Entgegen,,Entgegen den Regeln nahm er unerlaubt an dem Wettbewerb teil.,"He took part in the competition without permission, against the rules."
-821,17,_____ der Meinung vieler Experten stieg der Aktienkurs weiter.,Entgegen,,Entgegen der Meinung vieler Experten stieg der Aktienkurs weiter.,"Contrary to the opinion of many experts, the stock price kept rising."
-822,17,_____ des starken Regens gab es Überschwemmungen in der Region.,Infolge,,Infolge des starken Regens gab es Überschwemmungen in der Region.,"As a result of the heavy rain, there were floods in the region."
-823,17,_____ der Wirtschaftskrise mussten viele Unternehmen schließen.,Infolge,,Infolge der Wirtschaftskrise mussten viele Unternehmen schließen.,"Due to the economic crisis, many businesses had to close."
-824,17,_____ eines technischen Fehlers wurde der Flug gestrichen.,Infolge,,Infolge eines technischen Fehlers wurde der Flug gestrichen.,"Due to a technical error, the flight was canceled."
-825,17,_____ der neuen Gesetzesänderung gelten strengere Regeln für Unternehmen.,Infolge,,Infolge der neuen Gesetzesänderung gelten strengere Regeln für Unternehmen.,"As a result of the new law change, stricter regulations apply to companies."
-826,17,_____ der schlechten Wetterbedingungen wurde das Event verschoben.,Infolge,,Infolge der schlechten Wetterbedingungen wurde das Event verschoben.,"Due to bad weather conditions, the event was postponed."
-827,17,_____ ausreichender Beweise konnte der Verdächtige nicht verurteilt werden.,Mangels,,Mangels ausreichender Beweise konnte der Verdächtige nicht verurteilt werden.,"Due to a lack of sufficient evidence, the suspect could not be convicted."
-828,17,_____ Erfahrung fiel ihm die Aufgabe besonders schwer.,Mangels,,Mangels Erfahrung fiel ihm die Aufgabe besonders schwer.,"Due to a lack of experience, the task was particularly difficult for him."
-829,17,_____ finanzieller Mittel wurde das Projekt gestoppt.,Mangels,,Mangels finanzieller Mittel wurde das Projekt gestoppt.,"Due to a lack of financial resources, the project was stopped."
-830,17,_____ Interesse wurde die Veranstaltung abgesagt.,Mangels,,Mangels Interesse wurde die Veranstaltung abgesagt.,"Due to a lack of interest, the event was canceled."
-831,17,_____ besserer Alternativen entschied man sich für diese Lösung.,Mangels,,Mangels besserer Alternativen entschied man sich für diese Lösung.,"For lack of better alternatives, this solution was chosen."
-832,17,Die Identität des Täters wurde _____ DNA-Analyse bestätigt.,mittels,,Die Identität des Täters wurde mittels DNA-Analyse bestätigt.,The identity of the perpetrator was confirmed using DNA analysis.
-833,17,Das Problem wurde _____ einer neuen Software gelöst.,mittels,,Das Problem wurde mittels einer neuen Software gelöst.,The problem was solved by means of new software.
-834,17,_____ moderner Technologien kann die Effizienz gesteigert werden.,Mittels,,Mittels moderner Technologien kann die Effizienz gesteigert werden.,Efficiency can be increased through modern technologies.
-835,17,Die Zahlung erfolgt _____ Kreditkarte oder Überweisung.,mittels,,Die Zahlung erfolgt mittels Kreditkarte oder Überweisung.,Payment is made by means of credit card or bank transfer.
-836,17,Das Unternehmen optimiert seine Prozesse _____ künstlicher Intelligenz.,mittels,,Das Unternehmen optimiert seine Prozesse mittels künstlicher Intelligenz.,The company optimizes its processes using artificial intelligence.
-837,17,_____ seinem Gehalt erhält er monatliche Boni.,Zusätzlich zu,,Zusätzlich zu seinem Gehalt erhält er monatliche Boni.,"In addition to his salary, he receives monthly bonuses."
-838,17,_____ den Hausaufgaben müssen die Schüler ein Projekt vorbereiten.,Zusätzlich zu,,Zusätzlich zu den Hausaufgaben müssen die Schüler ein Projekt vorbereiten.,"In addition to the homework, the students have to prepare a project."
-839,17,Sie hat _____ ihrem Studium einen Nebenjob.,zusätzlich zu,,Sie hat zusätzlich zu ihrem Studium einen Nebenjob.,She has a part-time job in addition to her studies.
-840,17,_____ den üblichen Gebühren fallen noch Servicekosten an.,Zusätzlich zu,,Zusätzlich zu den üblichen Gebühren fallen noch Servicekosten an.,"In addition to the usual fees, there are also service costs."
-841,17,Er trainiert _____ seinem normalen Sportprogramm dreimal pro Woche im Fitnessstudio.,zusätzlich zu,,Er trainiert zusätzlich zu seinem normalen Sportprogramm dreimal pro Woche im Fitnessstudio.,"In addition to his regular sports routine, he trains at the gym three times a week."
-842,18,"on the occasion of, in honor of",anlässlich,Genitive,,
-843,18,"excluding, apart from",ausschließlich,Genitive,,
-844,18,on both sides of,beiderseits,Genitive,,
-845,18,on this side of,diesseits,Genitive,,
-846,18,"in the middle of, amid, surrounded by",inmitten,Genitive,,
-847,18,"on the other side of, beyond",jenseits,Genitive,,
-848,18,"by virtue of, by use of",kraft,Genitive,,
-849,18,"along with, together with",nebst,Dative,,
-850,18,above,oberhalb,Genitive,,
-851,18,"on the part of, from the side of",seitens,Genitive,,
-852,18,"below, beneath, underneath",unterhalb,Genitive,,
-853,18,"in favor of, for the benefit of",zugunsten,Genitive,,
-854,19,_____ seines Geburtstags veranstaltete er eine große Feier.,Anlässlich,,Anlässlich seines Geburtstags veranstaltete er eine große Feier.,"On the occasion of his birthday, he hosted a big party."
-855,19,Die Stadt organisierte ein Festival _____ des Jubiläums ihrer Gründung.,anlässlich,,Die Stadt organisierte ein Festival anlässlich des Jubiläums ihrer Gründung.,The city organized a festival in honor of the anniversary of its founding.
-856,19,_____ der Hochzeit seiner Tochter lud er die gesamte Familie ein.,Anlässlich,,Anlässlich der Hochzeit seiner Tochter lud er die gesamte Familie ein.,"On the occasion of his daughter's wedding, he invited the entire family."
-857,19,Der Präsident hielt eine Rede _____ des Nationalfeiertags.,anlässlich,,Der Präsident hielt eine Rede anlässlich des Nationalfeiertags.,The president gave a speech on the occasion of the national holiday.
-858,19,_____ der Eröffnung des neuen Museums wurden kostenlose Führungen angeboten.,Anlässlich,,Anlässlich der Eröffnung des neuen Museums wurden kostenlose Führungen angeboten.,"On the occasion of the new museum's opening, free tours were offered."
-859,19,_____ des Vorstands traf niemand eine Entscheidung über das Projekt.,Ausschließlich,,Ausschließlich des Vorstands traf niemand eine Entscheidung über das Projekt.,"Except for the board, no one made a decision about the project."
-860,19,Die Nutzung des Parkplatzes ist _____ der Belegschaft vorbehalten.,ausschließlich,,Die Nutzung des Parkplatzes ist ausschließlich der Belegschaft vorbehalten.,The use of the parking lot is reserved exclusively for the staff.
-861,19,_____ der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,Ausschließlich,,Ausschließlich der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,"Apart from the costs for accommodation and meals, all expenses were reimbursed."
-862,19,Der Zugang zu den Daten bleibt _____ der Geschäftsleitung vorbehalten.,ausschließlich,,Der Zugang zu den Daten bleibt ausschließlich der Geschäftsleitung vorbehalten.,Access to the data remains exclusively reserved for management.
-863,19,_____ der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,Ausschließlich,,Ausschließlich der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,A new strategy was developed solely based on scientific findings.
-864,19,_____ der Grenze gibt es wirtschaftliche Kooperationen zwischen den Ländern.,Beiderseits,,Beiderseits der Grenze gibt es wirtschaftliche Kooperationen zwischen den Ländern.,"On both sides of the border, there are economic cooperations between the countries."
-865,19,Die Bäume _____ der Straße spenden angenehmen Schatten im Sommer.,beiderseits,,Die Bäume beiderseits der Straße spenden angenehmen Schatten im Sommer.,The trees on both sides of the road provide pleasant shade in summer.
-866,19,_____ des Flusses erstrecken sich wunderschöne Weinberge.,Beiderseits,,Beiderseits des Flusses erstrecken sich wunderschöne Weinberge.,"On both sides of the river, beautiful vineyards stretch out."
-867,19,Die Diskussion führte zu einer besseren Verständigung _____ der Verhandlungstische.,beiderseits,,Die Diskussion führte zu einer besseren Verständigung beiderseits der Verhandlungstische.,The discussion led to better understanding on both sides of the negotiation tables.
-868,19,_____ des Vertrages bestehen klare Verpflichtungen für beide Parteien.,Beiderseits,,Beiderseits des Vertrages bestehen klare Verpflichtungen für beide Parteien.,"On both sides of the contract, there are clear obligations for both parties."
-869,19,_____ der Grenze gelten andere Gesetze als im Nachbarland.,Diesseits,,Diesseits der Grenze gelten andere Gesetze als im Nachbarland.,"On this side of the border, different laws apply than in the neighboring country."
-870,19,Die Flora _____ des Flusses unterscheidet sich stark von der auf der anderen Seite.,diesseits,,Die Flora diesseits des Flusses unterscheidet sich stark von der auf der anderen Seite.,The flora on this side of the river differs significantly from that on the other side.
-871,19,Die wirtschaftliche Entwicklung _____ der Alpen verläuft dynamischer als jenseits davon.,diesseits,,Die wirtschaftliche Entwicklung diesseits der Alpen verläuft dynamischer als jenseits davon.,The economic development on this side of the Alps is progressing more dynamically than beyond them.
-872,19,_____ des politischen Spektrums gibt es viele unterschiedliche Meinungen zu diesem Thema.,Diesseits,,Diesseits des politischen Spektrums gibt es viele unterschiedliche Meinungen zu diesem Thema.,"On this side of the political spectrum, there are many different opinions on this topic."
-873,19,Die Temperaturen _____ des Äquators sind im Winter deutlich milder als jenseits davon.,diesseits,,Die Temperaturen diesseits des Äquators sind im Winter deutlich milder als jenseits davon.,The temperatures on this side of the equator are significantly milder in winter than beyond it.
-874,19,Das kleine Dorf liegt _____ eines großen Waldes.,inmitten,,Das kleine Dorf liegt inmitten eines großen Waldes.,The small village is located in the middle of a large forest.
-875,19,Sie fanden sich plötzlich _____ einer hitzigen Diskussion wieder.,inmitten,,Sie fanden sich plötzlich inmitten einer hitzigen Diskussion wieder.,They suddenly found themselves in the middle of a heated discussion.
-876,19,_____ der Stadt gibt es einen wunderschönen Park.,Inmitten,,Inmitten der Stadt gibt es einen wunderschönen Park.,"In the middle of the city, there is a beautiful park."
-877,19,Das Schloss steht _____ einer malerischen Landschaft.,inmitten,,Das Schloss steht inmitten einer malerischen Landschaft.,The castle stands amidst a picturesque landscape.
-878,19,"Er blieb ruhig, obwohl er sich _____ eines Chaos befand.",inmitten,,"Er blieb ruhig, obwohl er sich inmitten eines Chaos befand.",He remained calm even though he was in the middle of chaos.
-879,19,_____ der Berge beginnt eine völlig andere Klimazone.,Jenseits,,Jenseits der Berge beginnt eine völlig andere Klimazone.,"Beyond the mountains, a completely different climate zone begins."
-880,19,Die politische Situation _____ des Atlantiks unterscheidet sich stark von der in Europa.,jenseits,,Die politische Situation jenseits des Atlantiks unterscheidet sich stark von der in Europa.,The political situation beyond the Atlantic is very different from that in Europe.
-881,19,_____ der Stadtgrenze gelten andere Bauvorschriften und Steuersätze.,Jenseits,,Jenseits der Stadtgrenze gelten andere Bauvorschriften und Steuersätze.,"Beyond the city limits, different building regulations and tax rates apply."
-882,19,Die Kultur _____ der Landesgrenzen ist oft überraschend vielfältig.,jenseits,,Die Kultur jenseits der Landesgrenzen ist oft überraschend vielfältig.,The culture beyond the national borders is often surprisingly diverse.
-883,19,_____ des Flusses erstreckt sich eine unberührte Naturlandschaft.,Jenseits,,Jenseits des Flusses erstreckt sich eine unberührte Naturlandschaft.,"Beyond the river, an untouched natural landscape stretches out."
-884,19,_____ seines Amtes traf der Richter eine endgültige Entscheidung.,Kraft,,Kraft seines Amtes traf der Richter eine endgültige Entscheidung.,"By virtue of his office, the judge made a final decision."
-885,19,Der Vertrag wurde _____ gesetzlicher Bestimmungen für ungültig erklärt.,kraft,,Der Vertrag wurde kraft gesetzlicher Bestimmungen für ungültig erklärt.,The contract was declared invalid by virtue of legal regulations.
-886,19,_____ ihrer Erfahrung konnte die Managerin das Unternehmen erfolgreich umstrukturieren.,Kraft,,Kraft ihrer Erfahrung konnte die Managerin das Unternehmen erfolgreich umstrukturieren.,"By virtue of her experience, the manager was able to successfully restructure the company."
-887,19,_____ seiner Vollmacht unterzeichnete er das Dokument im Namen der Firma.,Kraft,,Kraft seiner Vollmacht unterzeichnete er das Dokument im Namen der Firma.,"By virtue of his authority, he signed the document on behalf of the company."
-888,19,_____ internationaler Abkommen sind alle Mitgliedstaaten zur Einhaltung der Regeln verpflichtet.,Kraft,,Kraft internationaler Abkommen sind alle Mitgliedstaaten zur Einhaltung der Regeln verpflichtet.,"By virtue of international agreements, all member states are obligated to comply with the rules."
-889,19,_____ den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,Nebst,,Nebst den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,"Along with the official documents, you must also submit a resume."
-890,19,Er brachte _____ einem Geschenk auch Blumen mit.,nebst,,Er brachte nebst einem Geschenk auch Blumen mit.,He brought flowers along with a gift.
-891,19,_____ der Miete sind auch die Nebenkosten zu zahlen.,Nebst,,Nebst der Miete sind auch die Nebenkosten zu zahlen.,"Along with the rent, the utility costs must also be paid."
-892,19,Sie erhielt eine Beförderung _____ einer Gehaltserhöhung.,nebst,,Sie erhielt eine Beförderung nebst einer Gehaltserhöhung.,She received a promotion along with a salary increase.
-893,19,_____ den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,Nebst,,Nebst den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,"Along with the guests from Germany, friends from France also came to the wedding."
-894,19,_____ der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Oberhalb,,Oberhalb der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Above the city lies an old castle with an impressive view.
-895,19,Die Temperaturen sind _____ von 2.000 Metern deutlich kühler.,oberhalb,,Die Temperaturen sind oberhalb von 2.000 Metern deutlich kühler.,"Temperatures are significantly cooler above 2,000 meters."
-896,19,_____ der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,Oberhalb,,Oberhalb der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,"Above the clouds, one could see the sun from the airplane."
-897,19,Die Wohngegend _____ des Flusses gilt als besonders exklusiv.,oberhalb,,Die Wohngegend oberhalb des Flusses gilt als besonders exklusiv.,The residential area above the river is considered particularly exclusive.
-898,19,_____ der Schmerzgrenze sollte man keine weiteren Gewichte heben.,Oberhalb,,Oberhalb der Schmerzgrenze sollte man keine weiteren Gewichte heben.,"Above the pain threshold, one should not lift any more weights."
-899,19,"_____ der Regierung wurde betont, dass weitere Maßnahmen folgen werden.",Seitens,,"Seitens der Regierung wurde betont, dass weitere Maßnahmen folgen werden.","On the part of the government, it was emphasized that further measures will follow."
-900,19,Es gab Kritik _____ der Opposition an der neuen Gesetzesvorlage.,seitens,,Es gab Kritik seitens der Opposition an der neuen Gesetzesvorlage.,There was criticism from the opposition regarding the new bill.
-901,19,_____ des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,Seitens,,Seitens des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,There was no statement from the company regarding the allegations.
-902,19,Die Entscheidung wurde _____ des Gerichts mit großer Sorgfalt getroffen.,seitens,,Die Entscheidung wurde seitens des Gerichts mit großer Sorgfalt getroffen.,The decision was made by the court with great care.
-903,19,_____ der Eltern gab es viele Beschwerden über das neue Schulsystem.,Seitens,,Seitens der Eltern gab es viele Beschwerden über das neue Schulsystem.,There were many complaints from the parents about the new school system.
-904,19,_____ der Burg erstreckt sich ein malerisches Tal.,Unterhalb,,Unterhalb der Burg erstreckt sich ein malerisches Tal.,"Below the castle, a picturesque valley stretches out."
-905,19,Die Temperaturen sind _____ von 0 Grad gefährlich für Autofahrer.,unterhalb,,Die Temperaturen sind unterhalb von 0 Grad gefährlich für Autofahrer.,Temperatures below 0 degrees are dangerous for drivers.
-906,19,_____ der Stadt gibt es eine große unterirdische Höhle.,Unterhalb,,Unterhalb der Stadt gibt es eine große unterirdische Höhle.,"Below the city, there is a large underground cave."
-907,19,Die Wohngegend _____ des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,unterhalb,,Die Wohngegend unterhalb des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,The residential area below the hill is particularly popular due to its proximity to the river.
-908,19,_____ der Schmerzgrenze bleibt das Training effektiv und sicher.,Unterhalb,,Unterhalb der Schmerzgrenze bleibt das Training effektiv und sicher.,Staying below the pain threshold keeps training effective and safe.
-909,19,Das Gericht entschied _____ des Angeklagten aufgrund fehlender Beweise.,zugunsten,,Das Gericht entschied zugunsten des Angeklagten aufgrund fehlender Beweise.,The court ruled in favor of the defendant due to a lack of evidence.
-910,19,_____ der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Zugunsten,,Zugunsten der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Stricter recycling regulations were introduced in favor of the environment.
-911,19,Die Spendenaktion wurde _____ von hilfsbedürftigen Kindern organisiert.,zugunsten,,Die Spendenaktion wurde zugunsten von hilfsbedürftigen Kindern organisiert.,The fundraising campaign was organized for the benefit of children in need.
-912,19,Die Politiker trafen eine Entscheidung _____ der wirtschaftlichen Stabilität.,zugunsten,,Die Politiker trafen eine Entscheidung zugunsten der wirtschaftlichen Stabilität.,The politicians made a decision in favor of economic stability.
-913,19,Das neue Gesetz wurde _____ der Arbeitnehmerrechte angepasst.,zugunsten,,Das neue Gesetz wurde zugunsten der Arbeitnehmerrechte angepasst.,The new law was adjusted in favor of workers' rights.
-914,100,from ... on,ab,Dative,,
-915,100,"on, to, next to, attached to",an,Accusative or Dative,,
-916,100,"on, upon",auf,Accusative or Dative,,
-917,100,"from, out of, off",aus,Dative,,
-918,100,"at, near, by, in the vicinity of, among",bei,Dative,,
-919,100,"until, up to, by, to",bis,Accusative,,
-920,100,for,für,Accusative,,
-921,100,"against, for, toward",gegen,Accusative,,
-922,100,behind,hinter,Accusative or Dative,,
-923,100,"in, into",in,Accusative or Dative,,
-924,100,with,mit,Dative,,
-925,100,"after, to, in the direction of",nach,Dative,,
-926,100,"next to, in addition to, besides, alongside",neben,Accusative or Dative,,
-927,100,without,ohne,Accusative,,
-928,100,per,pro,Accusative,,
-929,100,"since, for",seit,Dative,,
-930,100,"above, over, about, across, via, beyond",über,Accusative or Dative,,
-931,100,"around, at",um,Accusative,,
-932,100,"under, below, among, between, amid",unter,Accusative or Dative,,
-933,100,"from, of",von,Dative,,
-934,100,"before, in front of, ago, against",vor,Accusative or Dative,,
-935,100,"to, toward, at, by",zu,Dative,,
-936,100,"between, among",zwischen,Accusative or Dative,,
+632,13,"opposite of, across",gegenüber,Dative,,
+633,13,"inside of, within",innerhalb,Genitive,,
+634,13,according to (with Genitive),laut,Genitive (Dative colloquial),,
+635,13,"despite, regardless of",trotz,Genitive (Dative colloquial),,
+636,13,"during, throughout, while",während,Genitive,,
+637,13,"due to, because of",wegen,Genitive (Dative colloquial),,
+638,13,according to (with Dative),zufolge,Dative,,
+639,14,_____ eines Autos kaufte er ein Fahrrad.,Anstatt,,Anstatt eines Autos kaufte er ein Fahrrad.,"Instead of a car, he bought a bicycle."
+640,14,Sie trank Wasser _____ eines Softdrinks.,anstatt,,Sie trank Wasser anstatt eines Softdrinks.,She drank water instead of a soft drink.
+641,14,_____ einer Entschuldigung gab er nur eine Ausrede.,Anstatt,,Anstatt einer Entschuldigung gab er nur eine Ausrede.,"Instead of an apology, he just gave an excuse."
+642,14,Wir entschieden uns für eine Wanderung _____ eines Kinobesuchs.,anstatt,,Wir entschieden uns für eine Wanderung anstatt eines Kinobesuchs.,We chose to go hiking instead of going to the cinema.
+643,14,"_____ eines grossen Geschenks machte er eine kleine, persönliche Geste.",Anstatt,,"Anstatt eines grossen Geschenks machte er eine kleine, persönliche Geste.","Instead of a big gift, he made a small, personal gesture."
+644,14,_____ der Stadt gibt es viele schöne Wanderwege.,Ausserhalb,,Ausserhalb der Stadt gibt es viele schöne Wanderwege.,"Outside the city, there are many beautiful hiking trails."
+645,14,Das Parken ist _____ der Geschäftszeiten kostenlos.,ausserhalb,,Das Parken ist ausserhalb der Geschäftszeiten kostenlos.,Parking is free outside business hours.
+646,14,_____ meines Arbeitsbereichs kenne ich mich nicht so gut aus.,Ausserhalb,,Ausserhalb meines Arbeitsbereichs kenne ich mich nicht so gut aus.,"Outside of my field of work, I am not very knowledgeable."
+647,14,"Wir wohnen _____ des Stadtzentrums, aber die Verbindung ist gut.",ausserhalb,,"Wir wohnen ausserhalb des Stadtzentrums, aber die Verbindung ist gut.","We live outside the city center, but the connection is good."
+648,14,_____ der Schule treffe ich mich oft mit meinen Freunden.,Ausserhalb,,Ausserhalb der Schule treffe ich mich oft mit meinen Freunden.,"Outside of school, I often meet up with my friends."
+649,14,Wir fahren _____ den Tunnel.,durch,,Wir fahren durch den Tunnel.,We drive through the tunnel.
+650,14,Ich gehe _____ den Park.,durch,,Ich gehe durch den Park.,I walk through the park.
+651,14,Der Brief kam _____ die Post.,durch,,Der Brief kam durch die Post.,The letter came by mail.
+652,14,Der Fluss fliesst _____ die Stadt.,durch,,Der Fluss fliesst durch die Stadt.,The river flows through the city.
+653,14,Man sieht _____ das Fenster.,durch,,Man sieht durch das Fenster.,One can see through the window.
+654,14,Die Bank liegt _____ der Post.,gegenüber,,Die Bank liegt gegenüber der Post.,The bank is located across from the post office.
+655,14,Mein Haus steht direkt _____ dem Park.,gegenüber,,Mein Haus steht direkt gegenüber dem Park.,My house is directly opposite the park.
+656,14,Er war immer freundlich _____ seinen Kollegen.,gegenüber,,Er war immer freundlich gegenüber seinen Kollegen.,He was always friendly towards his colleagues.
+657,14,_____ dem letzten Jahr hat sich das Wetter verbessert.,Gegenüber,,Gegenüber dem letzten Jahr hat sich das Wetter verbessert.,"Compared to last year, the weather has improved."
+658,14,Sie sass mir im Café _____ und hat gelächelt.,gegenüber,,Sie sass mir im Café gegenüber und hat gelächelt.,She sat across from me in the café and smiled.
+659,14,_____ der Stadt gibt es viele historische Gebäude.,Innerhalb,,Innerhalb der Stadt gibt es viele historische Gebäude.,"Within the city, there are many historical buildings."
+660,14,Die Lieferung erfolgt _____ einer Woche.,innerhalb,,Die Lieferung erfolgt innerhalb einer Woche.,The delivery will take place within a week.
+661,14,_____ des Unternehmens gab es viele Veränderungen.,Innerhalb,,Innerhalb des Unternehmens gab es viele Veränderungen.,There have been many changes within the company.
+662,14,Bitte beantworten Sie die E-Mail _____ von 24 Stunden.,innerhalb,,Bitte beantworten Sie die E-Mail innerhalb von 24 Stunden.,Please reply to the email within 24 hours.
+663,14,_____ der Schule gibt es strenge Regeln für die Nutzung von Handys.,Innerhalb,,Innerhalb der Schule gibt es strenge Regeln für die Nutzung von Handys.,"Inside the school, there are strict rules for the use of mobile phones."
+664,14,_____ der Zeitung wird das Wetter morgen sonnig.,Laut,,Laut der Zeitung wird das Wetter morgen sonnig.,"According to the newspaper, the weather will be sunny tomorrow."
+665,14,_____ dem Lehrer müssen wir das Buch bis nächste Woche lesen.,Laut,,Laut dem Lehrer müssen wir das Buch bis nächste Woche lesen.,"According to the teacher, we have to read the book by next week."
+666,14,_____ einer Studie trinken Deutsche viel Kaffee.,Laut,,Laut einer Studie trinken Deutsche viel Kaffee.,"According to a study, Germans drink a lot of coffee."
+667,14,_____ den Regeln ist das Rauchen hier verboten.,Laut,,Laut den Regeln ist das Rauchen hier verboten.,"According to the rules, smoking is prohibited here."
+668,14,_____ meinem Freund ist das Restaurant sehr gut.,Laut,,Laut meinem Freund ist das Restaurant sehr gut.,"According to my friend, the restaurant is very good."
+669,14,_____ des Regens gingen wir spazieren.,Trotz,,Trotz des Regens gingen wir spazieren.,"Despite the rain, we went for a walk."
+670,14,Er bestand die Prüfung _____ seiner Nervosität.,trotz,,Er bestand die Prüfung trotz seiner Nervosität.,He passed the exam despite his nervousness.
+671,14,_____ des schlechten Wetters fand das Konzert draussen statt.,Trotz,,Trotz des schlechten Wetters fand das Konzert draussen statt.,"Despite the bad weather, the concert took place outside."
+672,14,"Sie kam pünktlich, _____ des Verkehrs.",trotz,,"Sie kam pünktlich, trotz des Verkehrs.",She arrived on time despite the traffic.
+673,14,_____ seiner Müdigkeit arbeitete er bis spät in die Nacht.,Trotz,,Trotz seiner Müdigkeit arbeitete er bis spät in die Nacht.,"Despite his fatigue, he worked late into the night."
+674,14,_____ des Essens sollte man nicht telefonieren.,Während,,Während des Essens sollte man nicht telefonieren.,"During the meal, one should not use the phone."
+675,14,Er blieb ruhig _____ des gesamten Meetings.,während,,Er blieb ruhig während des gesamten Meetings.,He stayed calm throughout the entire meeting.
+676,14,_____ des Sommers fahren viele Menschen in den Urlaub.,Während,,Während des Sommers fahren viele Menschen in den Urlaub.,"During the summer, many people go on vacation."
+677,14,Sie hat viel gelernt _____ ihres Studiums.,während,,Sie hat viel gelernt während ihres Studiums.,She learned a lot during her studies.
+678,14,_____ der Nacht sind die Straßen oft leer.,Während,,Während der Nacht sind die Straßen oft leer.,"During the night, the streets are often empty."
+679,14,_____ des schlechten Wetters wurde das Spiel abgesagt.,Wegen,,Wegen des schlechten Wetters wurde das Spiel abgesagt.,"Because of the bad weather, the game was canceled."
+680,14,Er konnte nicht kommen _____ einer wichtigen Besprechung.,wegen,,Er konnte nicht kommen wegen einer wichtigen Besprechung.,He couldn't come because of an important meeting.
+681,14,_____ des Verkehrs sind wir zu spät gekommen.,Wegen,,Wegen des Verkehrs sind wir zu spät gekommen.,"Because of the traffic, we arrived late."
+682,14,Sie war traurig _____ der schlechten Nachricht.,wegen,,Sie war traurig wegen der schlechten Nachricht.,She was sad because of the bad news.
+683,14,_____ seines Fleisses hat er die Beförderung bekommen.,Wegen,,Wegen seines Fleisses hat er die Beförderung bekommen.,"Because of his diligence, he got the promotion."
+684,14,Einer aktuellen Studie _____ schlafen Jugendliche heutzutage weniger als früher.,zufolge,,Einer aktuellen Studie zufolge schlafen Jugendliche heutzutage weniger als früher.,"According to a recent study, teenagers sleep less nowadays than in the past."
+685,14,Dem Bericht _____ wird die Wirtschaft im nächsten Jahr langsamer wachsen.,zufolge,,Dem Bericht zufolge wird die Wirtschaft im nächsten Jahr langsamer wachsen.,"According to the report, the economy will grow more slowly next year."
+686,14,Den Experten _____ ist eine schnelle Lösung des Problems unwahrscheinlich.,zufolge,,Den Experten zufolge ist eine schnelle Lösung des Problems unwahrscheinlich.,"According to experts, a quick solution to the problem is unlikely."
+687,14,Medienberichten _____ gab es mehrere Verletzte bei dem Unfall.,zufolge,,Medienberichten zufolge gab es mehrere Verletzte bei dem Unfall.,"According to media reports, there were several injuries in the accident."
+688,14,Der Polizei _____ wurde der Verdächtige am frühen Morgen festgenommen.,zufolge,,Der Polizei zufolge wurde der Verdächtige am frühen Morgen festgenommen.,"According to the police, the suspect was arrested early in the morning."
+689,15,_____ wachsender Erfahrung wurde er immer selbstsicherer.,Mit,,Mit wachsender Erfahrung wurde er immer selbstsicherer.,"With growing experience, he became more and more confident."
+690,15,_____ jeder Wiederholung verstand ich den Text besser.,Mit,,Mit jeder Wiederholung verstand ich den Text besser.,"With each repetition, I understood the text better."
+691,15,_____ zunehmender Verantwortung steigen auch die Erwartungen.,Mit,,Mit zunehmender Verantwortung steigen auch die Erwartungen.,"As responsibility increases, so do expectations."
+692,15,_____ der Zeit entwickelten sich neue Lösungsansätze.,Mit,,Mit der Zeit entwickelten sich neue Lösungsansätze.,"Over time, new approaches emerged."
+693,15,_____ dem Klimawandel nehmen extreme Wetterereignisse zu.,Mit,,Mit dem Klimawandel nehmen extreme Wetterereignisse zu.,"With climate change, extreme weather events are increasing."
+694,15,_____ schlechtem Wetter findet das Konzert in der Halle statt.,Bei,,Bei schlechtem Wetter findet das Konzert in der Halle statt.,"In bad weather, the concert takes place indoors."
+695,15,_____ der Arbeit höre ich oft klassische Musik.,Bei,,Bei der Arbeit höre ich oft klassische Musik.,I often listen to classical music while working.
+696,15,_____ näherer Betrachtung sieht man den Fehler sofort.,Bei,,Bei näherer Betrachtung sieht man den Fehler sofort.,"Upon closer inspection, you can see the mistake immediately."
+697,15,_____ hohen Temperaturen sollte man viel trinken.,Bei,,Bei hohen Temperaturen sollte man viel trinken.,You should drink a lot in high temperatures.
+698,15,_____ diesem Geräusch kriege ich jedes Mal eine Gänsehaut.,Bei,,Bei diesem Geräusch kriege ich jedes Mal eine Gänsehaut.,That sound gives me goosebumps every time.
+699,15,_____ ausreichende Vorbereitung ist die Präsentation riskant.,Ohne,,Ohne ausreichende Vorbereitung ist die Präsentation riskant.,"Without sufficient preparation, the presentation is risky."
+700,15,Man sollte das Medikament nicht _____ Rücksprache mit dem Arzt nehmen.,ohne,,Man sollte das Medikament nicht ohne Rücksprache mit dem Arzt nehmen.,You shouldn't take the medication without consulting a doctor.
+701,15,_____ klare Ziele verliert man leicht die Motivation.,Ohne,,Ohne klare Ziele verliert man leicht die Motivation.,"Without clear goals, it’s easy to lose motivation."
+702,15,Diese Aufgabe ist _____ Teamarbeit kaum zu schaffen.,ohne,,Diese Aufgabe ist ohne Teamarbeit kaum zu schaffen.,This task is hardly manageable without teamwork.
+703,15,_____ stichhaltige Beweise wird die Anklage keinen Erfolg haben.,Ohne,,Ohne stichhaltige Beweise wird die Anklage keinen Erfolg haben.,"Without solid evidence, the prosecution won’t succeed."
+704,15,_____ dem Bericht der Polizei gab es keine Verletzten.,Nach,,Nach dem Bericht der Polizei gab es keine Verletzten.,"According to the police report, there were no injuries."
+705,15,_____ Expertenmeinung ist das Risiko gering.,Nach,,Nach Expertenmeinung ist das Risiko gering.,"According to experts, the risk is low."
+706,15,_____ dem Wetterbericht wird es morgen regnen.,Nach,,Nach dem Wetterbericht wird es morgen regnen.,"According to the weather report, it will rain tomorrow."
+707,15,_____ seiner Aussage war er zur Tatzeit nicht vor Ort.,Nach,,Nach seiner Aussage war er zur Tatzeit nicht vor Ort.,"According to his statement, he wasn't at the scene."
+708,15,_____ den Regeln ist das nicht erlaubt.,Nach,,Nach den Regeln ist das nicht erlaubt.,"According to the rules, that’s not allowed."
+709,15,_____ Notfall rufen Sie bitte sofort den Rettungsdienst.,Im,,Im Notfall rufen Sie bitte sofort den Rettungsdienst.,"In case of emergency, please call emergency services immediately."
+710,15,_____ Zweifelsfall entscheiden wir uns für die sicherere Option.,Im,,Im Zweifelsfall entscheiden wir uns für die sicherere Option.,"In case of doubt, we’ll choose the safer option."
+711,15,_____ Ernstfall muss schnell gehandelt werden.,Im,,Im Ernstfall muss schnell gehandelt werden.,"In a serious situation, quick action is required."
+712,15,_____ Idealfall ist das Projekt in drei Monaten abgeschlossen.,Im,,Im Idealfall ist das Projekt in drei Monaten abgeschlossen.,"Ideally, the project will be completed in three months."
+713,15,_____ Extremfall können ganze Dörfer evakuiert werden.,Im,,Im Extremfall können ganze Dörfer evakuiert werden.,"In extreme cases, entire villages may be evacuated."
+714,15,Der Rock wurde _____ fünf Zentimeter gekürzt.,um,,Der Rock wurde um fünf Zentimeter gekürzt.,The skirt was shortened by five centimeters.
+715,15,Die Preise sind _____ zehn Prozent gestiegen.,um,,Die Preise sind um zehn Prozent gestiegen.,Prices have increased by ten percent.
+716,15,Er hat sich _____ zwei Kilo verbessert.,um,,Er hat sich um zwei Kilo verbessert.,He improved by two kilos.
+717,15,Die Temperatur sank über Nacht _____ sieben Grad.,um,,Die Temperatur sank über Nacht um sieben Grad.,The temperature dropped by seven degrees overnight.
+718,15,Die Firma konnte ihren Umsatz _____ ein Drittel steigern.,um,,Die Firma konnte ihren Umsatz um ein Drittel steigern.,The company was able to increase its revenue by a third.
+719,15,Sie hat die Gäste _____ elegante Weise empfangen.,auf,,Sie hat die Gäste auf elegante Weise empfangen.,She welcomed the guests in an elegant manner.
+720,15,Er antwortete _____ typische Berliner Art – direkt und ohne Umschweife.,auf,,Er antwortete auf typische Berliner Art – direkt und ohne Umschweife.,He replied in typical Berlin fashion – direct and without fuss.
+721,15,Das Essen wurde _____ italienische Art zubereitet.,auf,,Das Essen wurde auf italienische Art zubereitet.,The food was prepared in the Italian way.
+722,15,Sie verabschiedeten sich _____ herzliche Weise.,auf,,Sie verabschiedeten sich auf herzliche Weise.,They said goodbye in a warm and heartfelt manner.
+723,15,Der Künstler malte das Porträt _____ ungewöhnliche Weise.,auf,,Der Künstler malte das Porträt auf ungewöhnliche Weise.,The artist painted the portrait in an unusual way.
+724,15,_____ gestern ist der Verkehr heute viel ruhiger.,Gegen,,Gegen gestern ist der Verkehr heute viel ruhiger.,"Compared to yesterday, traffic is much calmer today."
+725,15,Die neue Version ist _____ die alte deutlich benutzerfreundlicher.,gegen,,Die neue Version ist gegen die alte deutlich benutzerfreundlicher.,"Compared to the old one, the new version is clearly more user-friendly."
+726,15,_____ den Winter ist der Herbst noch angenehm mild.,Gegen,,Gegen den Winter ist der Herbst noch angenehm mild.,"Compared to winter, autumn is still pleasantly mild."
+727,15,Die Ergebnisse wirken _____ unsere Erwartungen überraschend gut.,gegen,,Die Ergebnisse wirken gegen unsere Erwartungen überraschend gut.,The results seem surprisingly good compared to our expectations.
+728,15,_____ seine frühere Arbeit ist das ein großer Fortschritt.,Gegen,,Gegen seine frühere Arbeit ist das ein großer Fortschritt.,"Compared to his earlier work, this is a major improvement."
+729,15,_____ seinem Studium arbeitet er in einem Café.,Neben,,Neben seinem Studium arbeitet er in einem Café.,"In addition to his studies, he works in a café."
+730,15,_____ der Sprache interessiert sie sich auch für die Kultur.,Neben,,Neben der Sprache interessiert sie sich auch für die Kultur.,"In addition to the language, she’s also interested in the culture."
+731,15,_____ den finanziellen Aspekten spielen auch emotionale Gründe eine Rolle.,Neben,,Neben den finanziellen Aspekten spielen auch emotionale Gründe eine Rolle.,"In addition to financial aspects, emotional reasons also play a role."
+732,15,_____ ihrer Tätigkeit als Lehrerin schreibt sie Kinderbücher.,Neben,,Neben ihrer Tätigkeit als Lehrerin schreibt sie Kinderbücher.,"In addition to her work as a teacher, she writes children’s books."
+733,15,_____ dem Hauptsitz gibt es noch drei weitere Niederlassungen.,Neben,,Neben dem Hauptsitz gibt es noch drei weitere Niederlassungen.,"In addition to the headquarters, there are three other branches."
+734,15,Das Problem wurde _____ eine neue Methode gelöst.,durch,,Das Problem wurde durch eine neue Methode gelöst.,The problem was solved through a new method.
+735,15,Die Stadt wurde _____ ein Erdbeben zerstört.,durch,,Die Stadt wurde durch ein Erdbeben zerstört.,The city was destroyed by an earthquake.
+736,15,Die Tür wurde _____ einen starken Windstoß geöffnet.,durch,,Die Tür wurde durch einen starken Windstoß geöffnet.,The door was opened by a strong gust of wind.
+737,15,Das Unternehmen wurde _____ eine Fusion gerettet.,durch,,Das Unternehmen wurde durch eine Fusion gerettet.,The company was saved through a merger.
+738,15,Die Daten wurden _____ eine Software analysiert.,durch,,Die Daten wurden durch eine Software analysiert.,The data was analyzed by a software program.
+739,15,Das Buch wurde _____ einem berühmten Autor geschrieben.,von,,Das Buch wurde von einem berühmten Autor geschrieben.,The book was written by a famous author.
+740,15,Der Dieb wurde _____ der Polizei festgenommen.,von,,Der Dieb wurde von der Polizei festgenommen.,The thief was arrested by the police.
+741,15,Die Brücke wurde _____ Ingenieuren geplant.,von,,Die Brücke wurde von Ingenieuren geplant.,The bridge was designed by engineers.
+742,15,Der Fehler wurde _____ einem Mitarbeiter entdeckt.,von,,Der Fehler wurde von einem Mitarbeiter entdeckt.,The mistake was discovered by an employee.
+743,15,Die Entscheidung wurde _____ der Geschäftsleitung getroffen.,von,,Die Entscheidung wurde von der Geschäftsleitung getroffen.,The decision was made by the management.
+744,15,Er half ihr _____ Freundlichkeit.,aus,,Er half ihr aus Freundlichkeit.,He helped her out of kindness.
+745,15,Sie entschied sich _____ Vernunft für diesen Job.,aus,,Sie entschied sich aus Vernunft für diesen Job.,She chose this job out of reason.
+746,15,_____ Respekt unterbrach er die Diskussion nicht.,Aus,,Aus Respekt unterbrach er die Diskussion nicht.,"Out of respect, he didn’t interrupt the discussion."
+747,15,Er spendete Geld _____ Mitgefühl für die Opfer.,aus,,Er spendete Geld aus Mitgefühl für die Opfer.,He donated money out of compassion for the victims.
+748,15,_____ Interesse besuchte sie das Seminar.,Aus,,Aus Interesse besuchte sie das Seminar.,She attended the seminar out of interest.
+749,15,Er zitterte _____ Kälte.,vor,,Er zitterte vor Kälte.,He was shivering from the cold.
+750,15,Sie weinte _____ Freude.,vor,,Sie weinte vor Freude.,She cried out of joy.
+751,15,_____ Angst konnte er nicht sprechen.,Vor,,Vor Angst konnte er nicht sprechen.,"Out of fear, he couldn’t speak."
+752,15,Er wurde _____ Schreck blass.,vor,,Er wurde vor Schreck blass.,He turned pale from shock.
+753,15,Sie lachte _____ Erleichterung.,vor,,Sie lachte vor Erleichterung.,She laughed out of relief.
+754,15,_____ den erfolgreichen Abschluss des Projekts müssen alle Teammitglieder zusammenarbeiten.,Für,,Für den erfolgreichen Abschluss des Projekts müssen alle Teammitglieder zusammenarbeiten.,All team members must work together to successfully complete the project.
+755,15,_____ den Schutz der Umwelt sollten wir weniger Plastik verwenden.,Für,,Für den Schutz der Umwelt sollten wir weniger Plastik verwenden.,"To protect the environment, we should use less plastic."
+756,15,_____ den Ausbau der Infrastruktur stellt die Regierung mehr Mittel bereit.,Für,,Für den Ausbau der Infrastruktur stellt die Regierung mehr Mittel bereit.,The government is providing more funding for infrastructure expansion.
+757,15,_____ den Schutz der Daten wurden neue Sicherheitsvorkehrungen eingeführt.,Für,,Für den Schutz der Daten wurden neue Sicherheitsvorkehrungen eingeführt.,New security measures have been introduced to protect data.
+758,15,_____ die Eröffnung der Ausstellung wurden zahlreiche Gäste eingeladen.,Für,,Für die Eröffnung der Ausstellung wurden zahlreiche Gäste eingeladen.,Numerous guests were invited to the exhibition opening.
+759,15,_____ Verbesserung der Kundenbetreuung wurden neue Mitarbeiter eingestellt.,Zur,,Zur Verbesserung der Kundenbetreuung wurden neue Mitarbeiter eingestellt.,New employees were hired to improve customer service.
+760,15,_____ Lösung des Problems haben wir eine Expertenrunde einberufen.,Zur,,Zur Lösung des Problems haben wir eine Expertenrunde einberufen.,We convened a panel of experts to address the problem.
+761,15,_____ Förderung der Kreativität wurden spezielle Workshops organisiert.,Zur,,Zur Förderung der Kreativität wurden spezielle Workshops organisiert.,Special workshops were organized to encourage creativity.
+762,15,_____ Erhöhung der Sicherheit wurden neue Kameras installiert.,Zur,,Zur Erhöhung der Sicherheit wurden neue Kameras installiert.,New cameras were installed to increase security.
+763,15,_____ Verbesserung der Zusammenarbeit wurden regelmäßige Meetings eingeführt.,Zur,,Zur Verbesserung der Zusammenarbeit wurden regelmäßige Meetings eingeführt.,Regular meetings were introduced to improve collaboration.
+764,16,"along, down",entlang,Accusative,,
+765,16,with the help of,mithilfe,Genitive,,
+766,16,"in view of, considering, in light of",angesichts,Genitive,,
+767,16,based on,anhand,Genitive,,
+768,16,"except, besides, appart from",ausser,Dative,,
+769,16,thanks to,dank,Genitive (Dative colloquial),,
+770,16,contrary to,entgegen,Dative,,
+771,16,as a result of,infolge,Genitive,,
+772,16,due to a lack of,mangels,Genitive,,
+773,16,"by means of, through, using",mittels,Genitive,,
+774,17,Wir sind den ganzen Tag den Strand _____ gelaufen.,entlang,,Wir sind den ganzen Tag den Strand entlang gelaufen.,We walked along the beach all day.
+775,17,_____ der Strasse stehen viele Bäume.,Entlang,,Entlang der Strasse stehen viele Bäume.,Along the street there are many trees.
+776,17,Sie pflanzten Blumen _____ des Zauns.,entlang,,Sie pflanzten Blumen entlang des Zauns.,They planted flowers along the fence.
+777,17,Der Zug fährt _____ der Küste.,entlang,,Der Zug fährt entlang der Küste.,The train travels along the coast.
+778,17,_____ dieser Strecke gibt es viele Sehenswürdigkeiten.,Entlang,,Entlang dieser Strecke gibt es viele Sehenswürdigkeiten.,Along this stretch there are many sights.
+779,17,_____ eines Wörterbuchs kann man neue Vokabeln schneller lernen.,Mithilfe,,Mithilfe eines Wörterbuchs kann man neue Vokabeln schneller lernen.,"With the help of a dictionary, one can learn new vocabulary faster."
+780,17,Er hat das Problem _____ eines Experten gelöst.,mithilfe,,Er hat das Problem mithilfe eines Experten gelöst.,He solved the problem with the help of an expert.
+781,17,_____ moderner Technologie können wir effizienter arbeiten.,Mithilfe,,Mithilfe moderner Technologie können wir effizienter arbeiten.,"With the help of modern technology, we can work more efficiently."
+782,17,Das Experiment wurde _____ verschiedener Methoden durchgeführt.,mithilfe,,Das Experiment wurde mithilfe verschiedener Methoden durchgeführt.,The experiment was conducted using various methods.
+783,17,_____ ihrer Freunde konnte sie die schwere Zeit überstehen.,Mithilfe,,Mithilfe ihrer Freunde konnte sie die schwere Zeit überstehen.,"With the help of her friends, she was able to get through the difficult time."
+784,17,_____ der steigenden Kosten muss das Budget überarbeitet werden.,Angesichts,,Angesichts der steigenden Kosten muss das Budget überarbeitet werden.,"In view of the rising costs, the budget must be revised."
+785,17,_____ der aktuellen Situation sollten wir vorsichtig sein.,Angesichts,,Angesichts der aktuellen Situation sollten wir vorsichtig sein.,"Given the current situation, we should be cautious."
+786,17,_____ der wirtschaftlichen Lage werden viele Unternehmen vorsichtiger investieren.,Angesichts,,Angesichts der wirtschaftlichen Lage werden viele Unternehmen vorsichtiger investieren.,"Considering the economic situation, many companies are investing more cautiously."
+787,17,_____ der Beweise konnte der Richter eine klare Entscheidung treffen.,Angesichts,,Angesichts der Beweise konnte der Richter eine klare Entscheidung treffen.,"In light of the evidence, the judge was able to make a clear decision."
+788,17,_____ des Klimawandels müssen wir nachhaltiger leben.,Angesichts,,Angesichts des Klimawandels müssen wir nachhaltiger leben.,"In view of climate change, we need to live more sustainably."
+789,17,_____ der Statistik lässt sich der Trend klar erkennen.,Anhand,,Anhand der Statistik lässt sich der Trend klar erkennen.,The trend can be clearly seen based on the statistics.
+790,17,_____ seiner Aussagen kann man die Situation besser verstehen.,Anhand,,Anhand seiner Aussagen kann man die Situation besser verstehen.,"Based on his statements, one can better understand the situation."
+791,17,Die Qualität wird _____ verschiedener Kriterien bewertet.,anhand,,Die Qualität wird anhand verschiedener Kriterien bewertet.,The quality is assessed based on various criteria.
+792,17,_____ dieser Beispiele wird das Problem deutlich.,Anhand,,Anhand dieser Beispiele wird das Problem deutlich.,This problem becomes clear through these examples.
+793,17,Die Echtheit des Dokuments wurde _____ von Experten geprüft.,anhand,,Die Echtheit des Dokuments wurde anhand von Experten geprüft.,The authenticity of the document was verified by experts.
+794,17,_____ ihm hat niemand die Prüfung bestanden.,Ausser,,Ausser ihm hat niemand die Prüfung bestanden.,"Except for him, no one passed the exam."
+795,17,_____ finanziellen Problemen gibt es noch andere Herausforderungen.,Ausser,,Ausser finanziellen Problemen gibt es noch andere Herausforderungen.,"Besides financial problems, there are other challenges."
+796,17,_____ in Deutschland wird dieses Produkt auch in Österreich verkauft.,Ausser,,Ausser in Deutschland wird dieses Produkt auch in Österreich verkauft.,"Apart from Germany, this product is also sold in Austria."
+797,17,_____ bei starkem Regen gehen wir jeden Tag joggen.,Ausser,,Ausser bei starkem Regen gehen wir jeden Tag joggen.,"Except in heavy rain, we go jogging every day."
+798,17,_____ seiner Familie hat er niemandem davon erzählt.,Ausser,,Ausser seiner Familie hat er niemandem davon erzählt.,"Apart from his family, he hasn’t told anyone about it."
+799,17,_____ seiner Hilfe konnten wir das Problem schnell lösen.,Dank,,Dank seiner Hilfe konnten wir das Problem schnell lösen.,"Thanks to his help, we were able to solve the problem quickly."
+800,17,"Die Firma wächst stetig, _____ innovativer Ideen.",dank,,"Die Firma wächst stetig, dank innovativer Ideen.",The company is growing steadily thanks to innovative ideas.
+801,17,_____ der modernen Medizin leben die Menschen länger.,Dank,,Dank der modernen Medizin leben die Menschen länger.,"Thanks to modern medicine, people live longer."
+802,17,"Er hat die Prüfung bestanden, _____ seines intensiven Lernens.",dank,,"Er hat die Prüfung bestanden, dank seines intensiven Lernens.",He passed the exam thanks to his intensive studying.
+803,17,_____ des guten Wetters konnten wir die Reise genießen.,Dank,,Dank des guten Wetters konnten wir die Reise genießen.,"Thanks to the good weather, we were able to enjoy the trip."
+804,17,_____ den Erwartungen verlief das Projekt reibungslos.,Entgegen,,Entgegen den Erwartungen verlief das Projekt reibungslos.,"Contrary to expectations, the project went smoothly."
+805,17,_____ seiner Aussage war er zur Tatzeit am Tatort.,Entgegen,,Entgegen seiner Aussage war er zur Tatzeit am Tatort.,"Contrary to his statement, he was at the scene of the crime."
+806,17,_____ dem Rat ihrer Eltern zog sie ins Ausland.,Entgegen,,Entgegen dem Rat ihrer Eltern zog sie ins Ausland.,"Against her parents’ advice, she moved abroad."
+807,17,_____ den Regeln nahm er unerlaubt an dem Wettbewerb teil.,Entgegen,,Entgegen den Regeln nahm er unerlaubt an dem Wettbewerb teil.,"He took part in the competition without permission, against the rules."
+808,17,_____ der Meinung vieler Experten stieg der Aktienkurs weiter.,Entgegen,,Entgegen der Meinung vieler Experten stieg der Aktienkurs weiter.,"Contrary to the opinion of many experts, the stock price kept rising."
+809,17,_____ des starken Regens gab es Überschwemmungen in der Region.,Infolge,,Infolge des starken Regens gab es Überschwemmungen in der Region.,"As a result of the heavy rain, there were floods in the region."
+810,17,_____ der Wirtschaftskrise mussten viele Unternehmen schließen.,Infolge,,Infolge der Wirtschaftskrise mussten viele Unternehmen schließen.,"Due to the economic crisis, many businesses had to close."
+811,17,_____ eines technischen Fehlers wurde der Flug gestrichen.,Infolge,,Infolge eines technischen Fehlers wurde der Flug gestrichen.,"Due to a technical error, the flight was canceled."
+812,17,_____ der neuen Gesetzesänderung gelten strengere Regeln für Unternehmen.,Infolge,,Infolge der neuen Gesetzesänderung gelten strengere Regeln für Unternehmen.,"As a result of the new law change, stricter regulations apply to companies."
+813,17,_____ der schlechten Wetterbedingungen wurde das Event verschoben.,Infolge,,Infolge der schlechten Wetterbedingungen wurde das Event verschoben.,"Due to bad weather conditions, the event was postponed."
+814,17,_____ ausreichender Beweise konnte der Verdächtige nicht verurteilt werden.,Mangels,,Mangels ausreichender Beweise konnte der Verdächtige nicht verurteilt werden.,"Due to a lack of sufficient evidence, the suspect could not be convicted."
+815,17,_____ Erfahrung fiel ihm die Aufgabe besonders schwer.,Mangels,,Mangels Erfahrung fiel ihm die Aufgabe besonders schwer.,"Due to a lack of experience, the task was particularly difficult for him."
+816,17,_____ finanzieller Mittel wurde das Projekt gestoppt.,Mangels,,Mangels finanzieller Mittel wurde das Projekt gestoppt.,"Due to a lack of financial resources, the project was stopped."
+817,17,_____ Interesse wurde die Veranstaltung abgesagt.,Mangels,,Mangels Interesse wurde die Veranstaltung abgesagt.,"Due to a lack of interest, the event was canceled."
+818,17,_____ besserer Alternativen entschied man sich für diese Lösung.,Mangels,,Mangels besserer Alternativen entschied man sich für diese Lösung.,"For lack of better alternatives, this solution was chosen."
+819,17,Die Identität des Täters wurde _____ DNA-Analyse bestätigt.,mittels,,Die Identität des Täters wurde mittels DNA-Analyse bestätigt.,The identity of the perpetrator was confirmed using DNA analysis.
+820,17,Das Problem wurde _____ einer neuen Software gelöst.,mittels,,Das Problem wurde mittels einer neuen Software gelöst.,The problem was solved by means of new software.
+821,17,_____ moderner Technologien kann die Effizienz gesteigert werden.,Mittels,,Mittels moderner Technologien kann die Effizienz gesteigert werden.,Efficiency can be increased through modern technologies.
+822,17,Die Zahlung erfolgt _____ Kreditkarte oder Überweisung.,mittels,,Die Zahlung erfolgt mittels Kreditkarte oder Überweisung.,Payment is made by means of credit card or bank transfer.
+823,17,Das Unternehmen optimiert seine Prozesse _____ künstlicher Intelligenz.,mittels,,Das Unternehmen optimiert seine Prozesse mittels künstlicher Intelligenz.,The company optimizes its processes using artificial intelligence.
+824,18,"including, taking into account, inclusive of",einschließlich,Genitive (Accusative or Dative colloquial),,
+825,18,"as opposed to, in contrast to, unlike",im Gegensatz zu,Dative,,
+826,18,in addition to,zusätzlich zu,Dative,,
+827,18,"on the occasion of, in honor of",anlässlich,Genitive,,
+828,18,"excluding, apart from",ausschließlich,Genitive,,
+829,18,on both sides of,beiderseits,Genitive,,
+830,18,on this side of,diesseits,Genitive,,
+831,18,"in the middle of, amid, surrounded by",inmitten,Genitive,,
+832,18,"on the other side of, beyond",jenseits,Genitive,,
+833,18,"by virtue of, by use of",kraft,Genitive,,
+834,19,"Alle Teilnehmer, _____ der neuen Kollegen, müssen an dem Meeting teilnehmen.",einschließlich,,"Alle Teilnehmer, einschließlich der neuen Kollegen, müssen an dem Meeting teilnehmen.","All participants, including the new colleagues, must attend the meeting."
+835,19,"Die Reise kostet 1.200 Euro, _____ aller Gebühren und Steuern.",einschließlich,,"Die Reise kostet 1.200 Euro, einschließlich aller Gebühren und Steuern.","The trip costs 1,200 euros, including all fees and taxes."
+836,19,_____ des Anhangs umfasst der Bericht über 50 Seiten.,Einschließlich,,Einschließlich des Anhangs umfasst der Bericht über 50 Seiten.,"Including the appendix, the report consists of over 50 pages."
+837,19,_____ der Feiertage haben wir zehn freie Tage am Stück.,Einschließlich,,Einschließlich der Feiertage haben wir zehn freie Tage am Stück.,"Including the holidays, we have ten days off in a row."
+838,19,"Die Lieferung erfolgt innerhalb von fünf Tagen, _____ Wochenenden.",einschließlich,,"Die Lieferung erfolgt innerhalb von fünf Tagen, einschließlich Wochenenden.","Delivery will take place within five days, including weekends."
+839,19,_____ seinen Kollegen arbeitet er lieber allein.,Im Gegensatz zu,,Im Gegensatz zu seinen Kollegen arbeitet er lieber allein.,"In contrast to his colleagues, he prefers to work alone."
+840,19,_____ früheren Jahren hat sich das Klima stark verändert.,Im Gegensatz zu,,Im Gegensatz zu früheren Jahren hat sich das Klima stark verändert.,"In contrast to previous years, the climate has changed significantly."
+841,19,_____ ihren Erwartungen war die Prüfung ziemlich schwer.,Im Gegensatz zu,,Im Gegensatz zu ihren Erwartungen war die Prüfung ziemlich schwer.,"Contrary to her expectations, the exam was quite difficult."
+842,19,_____ vielen anderen Unternehmen setzt diese Firma auf Nachhaltigkeit.,Im Gegensatz zu,,Im Gegensatz zu vielen anderen Unternehmen setzt diese Firma auf Nachhaltigkeit.,"Unlike many other companies, this firm focuses on sustainability."
+843,19,_____ meinem Bruder interessiere ich mich nicht für Sport.,Im Gegensatz zu,,Im Gegensatz zu meinem Bruder interessiere ich mich nicht für Sport.,"Unlike my brother, I am not interested in sports."
+844,19,_____ seinem Gehalt erhält er monatliche Boni.,Zusätzlich zu,,Zusätzlich zu seinem Gehalt erhält er monatliche Boni.,"In addition to his salary, he receives monthly bonuses."
+845,19,_____ den Hausaufgaben müssen die Schüler ein Projekt vorbereiten.,Zusätzlich zu,,Zusätzlich zu den Hausaufgaben müssen die Schüler ein Projekt vorbereiten.,"In addition to the homework, the students have to prepare a project."
+846,19,Sie hat _____ ihrem Studium einen Nebenjob.,zusätzlich zu,,Sie hat zusätzlich zu ihrem Studium einen Nebenjob.,She has a part-time job in addition to her studies.
+847,19,_____ den üblichen Gebühren fallen noch Servicekosten an.,Zusätzlich zu,,Zusätzlich zu den üblichen Gebühren fallen noch Servicekosten an.,"In addition to the usual fees, there are also service costs."
+848,19,Er trainiert _____ seinem normalen Sportprogramm dreimal pro Woche im Fitnessstudio.,zusätzlich zu,,Er trainiert zusätzlich zu seinem normalen Sportprogramm dreimal pro Woche im Fitnessstudio.,"In addition to his regular sports routine, he trains at the gym three times a week."
+849,19,_____ seines Geburtstags veranstaltete er eine große Feier.,Anlässlich,,Anlässlich seines Geburtstags veranstaltete er eine große Feier.,"On the occasion of his birthday, he hosted a big party."
+850,19,Die Stadt organisierte ein Festival _____ des Jubiläums ihrer Gründung.,anlässlich,,Die Stadt organisierte ein Festival anlässlich des Jubiläums ihrer Gründung.,The city organized a festival in honor of the anniversary of its founding.
+851,19,_____ der Hochzeit seiner Tochter lud er die gesamte Familie ein.,Anlässlich,,Anlässlich der Hochzeit seiner Tochter lud er die gesamte Familie ein.,"On the occasion of his daughter's wedding, he invited the entire family."
+852,19,Der Präsident hielt eine Rede _____ des Nationalfeiertags.,anlässlich,,Der Präsident hielt eine Rede anlässlich des Nationalfeiertags.,The president gave a speech on the occasion of the national holiday.
+853,19,_____ der Eröffnung des neuen Museums wurden kostenlose Führungen angeboten.,Anlässlich,,Anlässlich der Eröffnung des neuen Museums wurden kostenlose Führungen angeboten.,"On the occasion of the new museum's opening, free tours were offered."
+854,19,_____ des Vorstands traf niemand eine Entscheidung über das Projekt.,Ausschließlich,,Ausschließlich des Vorstands traf niemand eine Entscheidung über das Projekt.,"Except for the board, no one made a decision about the project."
+855,19,Die Nutzung des Parkplatzes ist _____ der Belegschaft vorbehalten.,ausschließlich,,Die Nutzung des Parkplatzes ist ausschließlich der Belegschaft vorbehalten.,The use of the parking lot is reserved exclusively for the staff.
+856,19,_____ der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,Ausschließlich,,Ausschließlich der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,"Apart from the costs for accommodation and meals, all expenses were reimbursed."
+857,19,Der Zugang zu den Daten bleibt _____ der Geschäftsleitung vorbehalten.,ausschließlich,,Der Zugang zu den Daten bleibt ausschließlich der Geschäftsleitung vorbehalten.,Access to the data remains exclusively reserved for management.
+858,19,_____ der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,Ausschließlich,,Ausschließlich der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,A new strategy was developed solely based on scientific findings.
+859,19,_____ der Grenze gibt es wirtschaftliche Kooperationen zwischen den Ländern.,Beiderseits,,Beiderseits der Grenze gibt es wirtschaftliche Kooperationen zwischen den Ländern.,"On both sides of the border, there are economic cooperations between the countries."
+860,19,Die Bäume _____ der Straße spenden angenehmen Schatten im Sommer.,beiderseits,,Die Bäume beiderseits der Straße spenden angenehmen Schatten im Sommer.,The trees on both sides of the road provide pleasant shade in summer.
+861,19,_____ des Flusses erstrecken sich wunderschöne Weinberge.,Beiderseits,,Beiderseits des Flusses erstrecken sich wunderschöne Weinberge.,"On both sides of the river, beautiful vineyards stretch out."
+862,19,Die Diskussion führte zu einer besseren Verständigung _____ der Verhandlungstische.,beiderseits,,Die Diskussion führte zu einer besseren Verständigung beiderseits der Verhandlungstische.,The discussion led to better understanding on both sides of the negotiation tables.
+863,19,_____ des Vertrages bestehen klare Verpflichtungen für beide Parteien.,Beiderseits,,Beiderseits des Vertrages bestehen klare Verpflichtungen für beide Parteien.,"On both sides of the contract, there are clear obligations for both parties."
+864,19,_____ der Grenze gelten andere Gesetze als im Nachbarland.,Diesseits,,Diesseits der Grenze gelten andere Gesetze als im Nachbarland.,"On this side of the border, different laws apply than in the neighboring country."
+865,19,Die Flora _____ des Flusses unterscheidet sich stark von der auf der anderen Seite.,diesseits,,Die Flora diesseits des Flusses unterscheidet sich stark von der auf der anderen Seite.,The flora on this side of the river differs significantly from that on the other side.
+866,19,Die wirtschaftliche Entwicklung _____ der Alpen verläuft dynamischer als jenseits davon.,diesseits,,Die wirtschaftliche Entwicklung diesseits der Alpen verläuft dynamischer als jenseits davon.,The economic development on this side of the Alps is progressing more dynamically than beyond them.
+867,19,_____ des politischen Spektrums gibt es viele unterschiedliche Meinungen zu diesem Thema.,Diesseits,,Diesseits des politischen Spektrums gibt es viele unterschiedliche Meinungen zu diesem Thema.,"On this side of the political spectrum, there are many different opinions on this topic."
+868,19,Die Temperaturen _____ des Äquators sind im Winter deutlich milder als jenseits davon.,diesseits,,Die Temperaturen diesseits des Äquators sind im Winter deutlich milder als jenseits davon.,The temperatures on this side of the equator are significantly milder in winter than beyond it.
+869,19,Das kleine Dorf liegt _____ eines großen Waldes.,inmitten,,Das kleine Dorf liegt inmitten eines großen Waldes.,The small village is located in the middle of a large forest.
+870,19,Sie fanden sich plötzlich _____ einer hitzigen Diskussion wieder.,inmitten,,Sie fanden sich plötzlich inmitten einer hitzigen Diskussion wieder.,They suddenly found themselves in the middle of a heated discussion.
+871,19,_____ der Stadt gibt es einen wunderschönen Park.,Inmitten,,Inmitten der Stadt gibt es einen wunderschönen Park.,"In the middle of the city, there is a beautiful park."
+872,19,Das Schloss steht _____ einer malerischen Landschaft.,inmitten,,Das Schloss steht inmitten einer malerischen Landschaft.,The castle stands amidst a picturesque landscape.
+873,19,"Er blieb ruhig, obwohl er sich _____ eines Chaos befand.",inmitten,,"Er blieb ruhig, obwohl er sich inmitten eines Chaos befand.",He remained calm even though he was in the middle of chaos.
+874,19,_____ der Berge beginnt eine völlig andere Klimazone.,Jenseits,,Jenseits der Berge beginnt eine völlig andere Klimazone.,"Beyond the mountains, a completely different climate zone begins."
+875,19,Die politische Situation _____ des Atlantiks unterscheidet sich stark von der in Europa.,jenseits,,Die politische Situation jenseits des Atlantiks unterscheidet sich stark von der in Europa.,The political situation beyond the Atlantic is very different from that in Europe.
+876,19,_____ der Stadtgrenze gelten andere Bauvorschriften und Steuersätze.,Jenseits,,Jenseits der Stadtgrenze gelten andere Bauvorschriften und Steuersätze.,"Beyond the city limits, different building regulations and tax rates apply."
+877,19,Die Kultur _____ der Landesgrenzen ist oft überraschend vielfältig.,jenseits,,Die Kultur jenseits der Landesgrenzen ist oft überraschend vielfältig.,The culture beyond the national borders is often surprisingly diverse.
+878,19,_____ des Flusses erstreckt sich eine unberührte Naturlandschaft.,Jenseits,,Jenseits des Flusses erstreckt sich eine unberührte Naturlandschaft.,"Beyond the river, an untouched natural landscape stretches out."
+879,19,_____ seines Amtes traf der Richter eine endgültige Entscheidung.,Kraft,,Kraft seines Amtes traf der Richter eine endgültige Entscheidung.,"By virtue of his office, the judge made a final decision."
+880,19,Der Vertrag wurde _____ gesetzlicher Bestimmungen für ungültig erklärt.,kraft,,Der Vertrag wurde kraft gesetzlicher Bestimmungen für ungültig erklärt.,The contract was declared invalid by virtue of legal regulations.
+881,19,_____ ihrer Erfahrung konnte die Managerin das Unternehmen erfolgreich umstrukturieren.,Kraft,,Kraft ihrer Erfahrung konnte die Managerin das Unternehmen erfolgreich umstrukturieren.,"By virtue of her experience, the manager was able to successfully restructure the company."
+882,19,_____ seiner Vollmacht unterzeichnete er das Dokument im Namen der Firma.,Kraft,,Kraft seiner Vollmacht unterzeichnete er das Dokument im Namen der Firma.,"By virtue of his authority, he signed the document on behalf of the company."
+883,19,_____ internationaler Abkommen sind alle Mitgliedstaaten zur Einhaltung der Regeln verpflichtet.,Kraft,,Kraft internationaler Abkommen sind alle Mitgliedstaaten zur Einhaltung der Regeln verpflichtet.,"By virtue of international agreements, all member states are obligated to comply with the rules."
+884,20,"along with, together with",nebst,Dative,,
+885,20,above,oberhalb,Genitive,,
+886,20,"on the part of, from the side of",seitens,Genitive,,
+887,20,"below, beneath, underneath",unterhalb,Genitive,,
+888,20,"in favor of, for the benefit of",zugunsten,Genitive,,
+889,20,for the purpose of,zwecks,Genitive,,
+890,20,"plus, in addition to",zuzüglich,Genitive,,
+891,20,"minus, after",abzüglich,Genitive,,
+892,20,regarding,bezüglich,Genitive,,
+893,21,_____ den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,Nebst,,Nebst den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,"Along with the official documents, you must also submit a resume."
+894,21,Er brachte _____ einem Geschenk auch Blumen mit.,nebst,,Er brachte nebst einem Geschenk auch Blumen mit.,He brought flowers along with a gift.
+895,21,_____ der Miete sind auch die Nebenkosten zu zahlen.,Nebst,,Nebst der Miete sind auch die Nebenkosten zu zahlen.,"Along with the rent, the utility costs must also be paid."
+896,21,Sie erhielt eine Beförderung _____ einer Gehaltserhöhung.,nebst,,Sie erhielt eine Beförderung nebst einer Gehaltserhöhung.,She received a promotion along with a salary increase.
+897,21,_____ den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,Nebst,,Nebst den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,"Along with the guests from Germany, friends from France also came to the wedding."
+898,21,_____ der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Oberhalb,,Oberhalb der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Above the city lies an old castle with an impressive view.
+899,21,Die Temperaturen sind _____ von 2.000 Metern deutlich kühler.,oberhalb,,Die Temperaturen sind oberhalb von 2.000 Metern deutlich kühler.,"Temperatures are significantly cooler above 2,000 meters."
+900,21,_____ der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,Oberhalb,,Oberhalb der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,"Above the clouds, one could see the sun from the airplane."
+901,21,Die Wohngegend _____ des Flusses gilt als besonders exklusiv.,oberhalb,,Die Wohngegend oberhalb des Flusses gilt als besonders exklusiv.,The residential area above the river is considered particularly exclusive.
+902,21,_____ der Schmerzgrenze sollte man keine weiteren Gewichte heben.,Oberhalb,,Oberhalb der Schmerzgrenze sollte man keine weiteren Gewichte heben.,"Above the pain threshold, one should not lift any more weights."
+903,21,"_____ der Regierung wurde betont, dass weitere Maßnahmen folgen werden.",Seitens,,"Seitens der Regierung wurde betont, dass weitere Maßnahmen folgen werden.","On the part of the government, it was emphasized that further measures will follow."
+904,21,Es gab Kritik _____ der Opposition an der neuen Gesetzesvorlage.,seitens,,Es gab Kritik seitens der Opposition an der neuen Gesetzesvorlage.,There was criticism from the opposition regarding the new bill.
+905,21,_____ des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,Seitens,,Seitens des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,There was no statement from the company regarding the allegations.
+906,21,Die Entscheidung wurde _____ des Gerichts mit großer Sorgfalt getroffen.,seitens,,Die Entscheidung wurde seitens des Gerichts mit großer Sorgfalt getroffen.,The decision was made by the court with great care.
+907,21,_____ der Eltern gab es viele Beschwerden über das neue Schulsystem.,Seitens,,Seitens der Eltern gab es viele Beschwerden über das neue Schulsystem.,There were many complaints from the parents about the new school system.
+908,21,_____ der Burg erstreckt sich ein malerisches Tal.,Unterhalb,,Unterhalb der Burg erstreckt sich ein malerisches Tal.,"Below the castle, a picturesque valley stretches out."
+909,21,Die Temperaturen sind _____ von 0 Grad gefährlich für Autofahrer.,unterhalb,,Die Temperaturen sind unterhalb von 0 Grad gefährlich für Autofahrer.,Temperatures below 0 degrees are dangerous for drivers.
+910,21,_____ der Stadt gibt es eine große unterirdische Höhle.,Unterhalb,,Unterhalb der Stadt gibt es eine große unterirdische Höhle.,"Below the city, there is a large underground cave."
+911,21,Die Wohngegend _____ des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,unterhalb,,Die Wohngegend unterhalb des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,The residential area below the hill is particularly popular due to its proximity to the river.
+912,21,_____ der Schmerzgrenze bleibt das Training effektiv und sicher.,Unterhalb,,Unterhalb der Schmerzgrenze bleibt das Training effektiv und sicher.,Staying below the pain threshold keeps training effective and safe.
+913,21,Das Gericht entschied _____ des Angeklagten aufgrund fehlender Beweise.,zugunsten,,Das Gericht entschied zugunsten des Angeklagten aufgrund fehlender Beweise.,The court ruled in favor of the defendant due to a lack of evidence.
+914,21,_____ der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Zugunsten,,Zugunsten der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Stricter recycling regulations were introduced in favor of the environment.
+915,21,Die Spendenaktion wurde _____ von hilfsbedürftigen Kindern organisiert.,zugunsten,,Die Spendenaktion wurde zugunsten von hilfsbedürftigen Kindern organisiert.,The fundraising campaign was organized for the benefit of children in need.
+916,21,Die Politiker trafen eine Entscheidung _____ der wirtschaftlichen Stabilität.,zugunsten,,Die Politiker trafen eine Entscheidung zugunsten der wirtschaftlichen Stabilität.,The politicians made a decision in favor of economic stability.
+917,21,Das neue Gesetz wurde _____ der Arbeitnehmerrechte angepasst.,zugunsten,,Das neue Gesetz wurde zugunsten der Arbeitnehmerrechte angepasst.,The new law was adjusted in favor of workers' rights.
+918,21,_____ Optimierung der Produktionsprozesse wurde eine externe Beratungsfirma engagiert.,Zwecks,,Zwecks Optimierung der Produktionsprozesse wurde eine externe Beratungsfirma engagiert.,"For the purpose of optimizing production processes, an external consulting firm was hired."
+919,21,Die Unterlagen wurden _____ weiterer Prüfung an die Rechtsabteilung weitergeleitet.,zwecks,,Die Unterlagen wurden zwecks weiterer Prüfung an die Rechtsabteilung weitergeleitet.,The documents were forwarded to the legal department for the purpose of further review.
+920,21,_____ Erhöhung der Sicherheit hat das Unternehmen neue Zugangskontrollen eingeführt.,Zwecks,,Zwecks Erhöhung der Sicherheit hat das Unternehmen neue Zugangskontrollen eingeführt.,The company introduced new access controls for the purpose of increasing security.
+921,21,Die Sitzung wurde _____ Klärung der strategischen Ausrichtung einberufen.,zwecks,,Die Sitzung wurde zwecks Klärung der strategischen Ausrichtung einberufen.,The meeting was convened for the purpose of clarifying the strategic direction.
+922,21,_____ Vorbereitung auf die Verhandlungen analysierte das Team sämtliche Markttrends.,Zwecks,,Zwecks Vorbereitung auf die Verhandlungen analysierte das Team sämtliche Markttrends.,The team analyzed all market trends for the purpose of preparing for the negotiations.
+923,21,Der Gesamtpreis beträgt 1.200 Euro _____ Mehrwertsteuer.,zuzüglich,,Der Gesamtpreis beträgt 1.200 Euro zuzüglich Mehrwertsteuer.,"The total price amounts to 1,200 euros plus value-added tax."
+924,21,_____ der Versandkosten ergibt sich ein Endbetrag von 85 Euro.,Zuzüglich,,Zuzüglich der Versandkosten ergibt sich ein Endbetrag von 85 Euro.,"Including the shipping costs, the final amount comes to 85 euros."
+925,21,"Die Miete beläuft sich auf 900 Euro monatlich, _____ Nebenkosten.",zuzüglich,,"Die Miete beläuft sich auf 900 Euro monatlich, zuzüglich Nebenkosten.","The rent amounts to 900 euros per month, plus utility costs."
+926,21,_____ der Boni erhielt der Manager ein Jahresgehalt von über 200.000 Euro.,Zuzüglich,,Zuzüglich der Boni erhielt der Manager ein Jahresgehalt von über 200.000 Euro.,"Including bonuses, the manager received an annual salary of over 200,000 euros."
+927,21,Der Reisepreis beträgt 1.500 Euro _____ fakultativer Ausflüge.,zuzüglich,,Der Reisepreis beträgt 1.500 Euro zuzüglich fakultativer Ausflüge.,
+928,21,"Der Nettobetrag beträgt 950 Euro, _____ aller Rabatte.",abzüglich,,"Der Nettobetrag beträgt 950 Euro, abzüglich aller Rabatte.","The net amount is 950 euros, after deduction of all discounts."
+929,21,_____ der Steuern bleibt ein Gewinn von rund 40.000 Euro.,Abzüglich,,Abzüglich der Steuern bleibt ein Gewinn von rund 40.000 Euro.,"After deduction of taxes, a profit of around 40,000 euros remains."
+930,21,"Der Mitarbeiter erhält ein Gehalt von 3.500 Euro, _____ Sozialabgaben.",abzüglich,,"Der Mitarbeiter erhält ein Gehalt von 3.500 Euro, abzüglich Sozialabgaben.","The employee receives a salary of 3,500 euros, minus social security contributions."
+931,21,_____ der Verluste aus dem Vorjahr ergibt sich ein positiver Saldo.,Abzüglich,,Abzüglich der Verluste aus dem Vorjahr ergibt sich ein positiver Saldo.,"After deducting the previous year’s losses, a positive balance remains."
+932,21,Die Auszahlung erfolgt _____ einer Bearbeitungsgebühr von 15 Euro.,abzüglich,,Die Auszahlung erfolgt abzüglich einer Bearbeitungsgebühr von 15 Euro.,The payment will be made minus a processing fee of 15 euros.
+933,21,_____ Ihres Antrags werden wir uns nächste Woche mit Ihnen in Verbindung setzen.,Bezüglich,,Bezüglich Ihres Antrags werden wir uns nächste Woche mit Ihnen in Verbindung setzen.,"Regarding your application, we will contact you next week."
+934,21,Es gibt noch offene Fragen _____ der Vertragsbedingungen.,bezüglich,,Es gibt noch offene Fragen bezüglich der Vertragsbedingungen.,There are still open questions concerning the contract terms.
+935,21,_____ der Lieferzeiten bitten wir um etwas Geduld.,Bezüglich,,Bezüglich der Lieferzeiten bitten wir um etwas Geduld.,"With regard to the delivery times, we ask for a little patience."
+936,21,Der Kunde äußerte Bedenken _____ der Produktqualität.,bezüglich,,Der Kunde äußerte Bedenken bezüglich der Produktqualität.,The customer expressed concerns regarding the product quality.
+937,21,_____ Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,Bezüglich,,Bezüglich Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,"With respect to your inquiry, we have already initiated all necessary steps."
+938,100,from ... on,ab,Dative,,
+939,100,"on, to, next to, attached to",an,Accusative or Dative,,
+940,100,"on, upon",auf,Accusative or Dative,,
+941,100,"from, out of, off",aus,Dative,,
+942,100,"at, near, by, in the vicinity of, among, upon",bei,Dative,,
+943,100,"until, up to, by, to",bis,Accusative,,
+944,100,for,für,Accusative,,
+945,100,"against, for, toward",gegen,Accusative,,
+946,100,behind,hinter,Accusative or Dative,,
+947,100,"in, into",in,Accusative or Dative,,
+948,100,with,mit,Dative,,
+949,100,"after, to, in the direction of",nach,Dative,,
+950,100,"next to, in addition to, besides, alongside",neben,Accusative or Dative,,
+951,100,without,ohne,Accusative,,
+952,100,per,pro,Accusative,,
+953,100,"since, for",seit,Dative,,
+954,100,"above, over, about, across, via, beyond",über,Accusative or Dative,,
+955,100,"around, at",um,Accusative,,
+956,100,"under, below, among, between, amid",unter,Accusative or Dative,,
+957,100,"from, of",von,Dative,,
+958,100,"before, in front of, ago, against",vor,Accusative or Dative,,
+959,100,"to, toward, at, by",zu,Dative,,
+960,100,"between, among",zwischen,Accusative or Dative,,

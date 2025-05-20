@@ -6,6 +6,7 @@ from data.data_processing.exercises import (
 )
 
 # bullet point \u25CF
+
 INSTRUCTION_TEMPLATES = {
 
     praepositionen_grammatik: {
@@ -28,6 +29,8 @@ INSTRUCTION_TEMPLATES = {
         17: "Complete the following sentence with the preposition that fits:",
         18: "Translate the following preposition:",
         19: "Complete the following sentence with the preposition that fits:",
+        20: "Translate the following preposition:",
+        21: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_verben: {

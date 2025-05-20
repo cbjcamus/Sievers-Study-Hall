@@ -5,17 +5,23 @@ from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH
 def is_equal(user_answer, correct_answer, question, exercise):
     synonym_exercises = [konnektoren]
 
+    print(user_answer)
+
     if user_answer == question and exercise in synonym_exercises:
         return False
 
     user_answer = normalization(user_answer, exercise)
+
+    print(user_answer)
 
     if "/" in correct_answer:
         correct_answers = correct_answer.split("/")
         correct_answers = [normalization(answer, exercise) for answer in correct_answers]
         return user_answer in correct_answers
     else:
+        print(correct_answer)
         correct_answer = normalization(correct_answer, exercise)
+        print(correct_answer)
         return user_answer == correct_answer
 
 

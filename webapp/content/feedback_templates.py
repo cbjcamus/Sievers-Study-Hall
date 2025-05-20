@@ -59,6 +59,10 @@ FEEDBACK_TEMPLATES = {
         19: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
+        20: "{previous_question} = {correct_answers}",
+        21: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     praepositionen_verben: {

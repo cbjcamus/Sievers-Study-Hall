@@ -46,6 +46,9 @@ QUESTION_TEMPLATES = {
         18: "{question}",
         19: "{question}"
             "<br><br><i>{english}</i>",
+        20: "{question}",
+        21: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     praepositionen_verben: {

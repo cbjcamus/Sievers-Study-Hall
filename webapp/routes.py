@@ -12,8 +12,6 @@ from webapp.session_management.result import register_result
 from webapp.session_management.conditions import level_finished
 from webapp.session_management.normalization import get_answers, is_equal
 
-from webapp.interface import alinea, format_english, format_german
-
 from webapp.content.title_page import TITLE_PAGE
 from webapp.content.back_button import BACK_BUTTON
 from webapp.content.feedback_templates import FEEDBACK_TEMPLATES
@@ -270,8 +268,8 @@ def exercise(exercise, level):
 
     # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
-    english = format_english(str(question_data.get("english", "")))
-    german = format_german(str(question_data.get("german", "")))
+    english = str(question_data.get("english", ""))
+    german = str(question_data.get("german", ""))
     adjective = question_data.get("adjective", "")
     gender = question_data.get("gender", "")
     case = question_data.get("case", "")
@@ -291,7 +289,6 @@ def exercise(exercise, level):
         article=article,
         person=person,
         prefix=prefix,
-        alinea=alinea,
     )
 
     result_data = session.pop(f"{exercise}_result", None)
@@ -330,7 +327,7 @@ def check_answer(exercise, level):
     correct_answer = question_data["answer"]
     correct_answers = get_answers(correct_answer, exercise)
     question_text = question_data["question"]
-    english = format_english(question_data.get("english", ""))
+    english = question_data.get("english", "")
     german = question_data.get("german", "")
     adjective = question_data.get("adjective", "")
     gender = question_data.get("gender", "")
@@ -352,7 +349,6 @@ def check_answer(exercise, level):
         article=article,
         person=person,
         prefix=prefix,
-        alinea=alinea,
     )
 
     correct_answer_condition = is_equal(user_answer, correct_answer, question_text, exercise)
