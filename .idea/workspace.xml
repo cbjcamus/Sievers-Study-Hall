@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="proverb color">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deutsch Partizip II.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/konnektoren.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/praeteritum_partizip_II.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/praeteritum_partizip_II.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/updates.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/updates.html" afterDir="false" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/description_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/description_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/feedback_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/feedback_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/instruction_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/instruction_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/question_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/question_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/normalization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -524,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747643063106</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="updates">
+      <option name="closed" value="true" />
+      <created>1747681400193</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1747681400193</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -548,7 +553,8 @@
     <MESSAGE value="fragen and artikel" />
     <MESSAGE value="artikel, UI, few issues" />
     <MESSAGE value="proverb color" />
-    <option name="LAST_COMMIT_MESSAGE" value="proverb color" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
