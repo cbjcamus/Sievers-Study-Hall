@@ -19,6 +19,7 @@ from webapp.content.question_templates import QUESTION_TEMPLATES
 from webapp.content.instruction_templates import INSTRUCTION_TEMPLATES
 from webapp.content.description_templates import DESCRIPTION_TEMPLATES
 from webapp.content.exercise_page import EXERCISE_PAGES
+from webapp.content.explanation import EXPLANATION
 
 routes = Blueprint("routes", __name__)
 
@@ -42,6 +43,7 @@ def home():
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           explanation=EXPLANATION,
                            )
 
 
