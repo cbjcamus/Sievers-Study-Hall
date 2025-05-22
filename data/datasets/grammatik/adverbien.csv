@@ -35,7 +35,7 @@ Nr,level,question,answer,german,english
 34,2,Ich bin _____ müde.,jetzt,Ich bin jetzt müde.,I am tired now.
 35,2,Wir gehen _____ nach Hause.,jetzt,Wir gehen jetzt nach Hause.,We are going home now.
 36,2,Er arbeitet _____ im Büro.,jetzt,Er arbeitet jetzt im Büro.,He is working in the office now.
-37,2,_____ ist es sehr kalt draussen.,Jetzt,Jetzt ist es sehr kalt draussen.,It is very cold outside now.
+37,2,_____ ist es sehr kalt draußen.,Jetzt,Jetzt ist es sehr kalt draußen.,It is very cold outside now.
 38,2,Ich rufe dich _____ an.,jetzt,Ich rufe dich jetzt an.,I am calling you now.
 39,2,_____ habe ich einen Termin beim Arzt.,Morgen,Morgen habe ich einen Termin beim Arzt.,Tomorrow I have an appointment with the doctor.
 40,2,Wir fahren _____ nach Berlin.,morgen,Wir fahren morgen nach Berlin.,We are going to Berlin tomorrow.
@@ -55,7 +55,7 @@ Nr,level,question,answer,german,english
 54,2,Ich gehe _____ ins Kino.,manchmal,Ich gehe manchmal ins Kino.,I sometimes go to the cinema.
 55,2,_____ regnet es im Sommer.,Manchmal,Manchmal regnet es im Sommer.,Sometimes it rains in summer.
 56,2,Er ist _____ sehr lustig.,manchmal,Er ist manchmal sehr lustig.,He is sometimes very funny.
-57,2,Wir besuchen _____ unsere Grosseltern.,manchmal,Wir besuchen manchmal unsere Grosseltern.,We sometimes visit our grandparents.
+57,2,Wir besuchen _____ unsere Großeltern.,manchmal,Wir besuchen manchmal unsere Großeltern.,We sometimes visit our grandparents.
 58,2,_____ brauche ich eine Pause.,Manchmal,Manchmal brauche ich eine Pause.,Sometimes I need a break.
 59,2,_____ ist ein schöner Tag.,Heute,Heute ist ein schöner Tag.,Today is a beautiful day.
 60,2,Ich gehe _____ einkaufen.,heute,Ich gehe heute einkaufen.,I am going shopping today.
@@ -108,7 +108,7 @@ Nr,level,question,answer,german,english
 107,4,Bitte biegen Sie _____ ab.,links,Bitte biegen Sie links ab.,Please turn left.
 108,4,_____ gibt es einen schönen Park.,Links,Links gibt es einen schönen Park.,There is a nice park on the left.
 109,4,Mein Auto steht _____ auf dem Parkplatz.,links,Mein Auto steht links auf dem Parkplatz.,My car is parked on the left in the parking lot.
-110,4,"Schau nach _____, bevor du die Strasse überquerst.",links,"Schau nach links, bevor du die Strasse überquerst.",Look to the left before crossing the street.
+110,4,"Schau nach _____, bevor du die Straße überquerst.",links,"Schau nach links, bevor du die Straße überquerst.",Look to the left before crossing the street.
 111,4,Ich verstehe das _____.,nicht,Ich verstehe das nicht.,I don’t understand that.
 112,4,Er ist heute _____ zu Hause.,nicht,Er ist heute nicht zu Hause.,He is not at home today.
 113,4,Wir haben das _____ gemacht.,nicht,Wir haben das nicht gemacht.,We did not do that.
@@ -118,7 +118,7 @@ Nr,level,question,answer,german,english
 117,4,Bitte biegen Sie _____ ab.,rechts,Bitte biegen Sie rechts ab.,Please turn right.
 118,4,_____ gibt es einen Supermarkt.,Rechts,Rechts gibt es einen Supermarkt.,There is a supermarket on the right.
 119,4,Mein Haus ist _____ neben dem Park.,rechts,Mein Haus ist rechts neben dem Park.,My house is to the right of the park.
-120,4,"Schau nach _____, bevor du die Strasse überquerst.",rechts,"Schau nach rechts, bevor du die Strasse überquerst.",Look to the right before crossing the street.
+120,4,"Schau nach _____, bevor du die Straße überquerst.",rechts,"Schau nach rechts, bevor du die Straße überquerst.",Look to the right before crossing the street.
 121,4,Dieses Kleid ist _____ teuer für mich.,zu,Dieses Kleid ist zu teuer für mich.,This dress is too expensive for me.
 122,4,Er ist _____ interessiert an diesem Thema.,zu,Er ist zu interessiert an diesem Thema.,He is too interested in this topic.
 123,4,Ich liebe dieses Lied _____ sehr.,zu,Ich liebe dieses Lied zu sehr.,I love this song too much.
@@ -156,7 +156,7 @@ Nr,level,question,answer,german,english
 155,5,gladly,gern,,
 156,5,again,wieder,,
 157,5,inside,innen,,
-158,5,outside,aussen,,
+158,5,outside,außen,,
 159,5,"mostly, usually",meistens,,
 160,5,at least,mindestens,,
 161,5,"first, at first",zuerst,,
@@ -173,11 +173,11 @@ Nr,level,question,answer,german,english
 172,6,Ich bin _____ müde nach der Arbeit.,wirklich,Ich bin wirklich müde nach der Arbeit.,I am really tired after work.
 173,6,Das Essen schmeckt _____ gut.,wirklich,Das Essen schmeckt wirklich gut.,The food tastes really good.
 174,6,Ich freue mich _____ auf den Urlaub.,wirklich,Ich freue mich wirklich auf den Urlaub.,I am really looking forward to the vacation.
-175,6,Das Haus sieht _____ schön aus.,aussen,Das Haus sieht aussen schön aus.,The house looks nice from the outside.
-176,6,Der Balkon ist nur von _____ zugänglich.,aussen,Der Balkon ist nur von aussen zugänglich.,The balcony is only accessible from the outside.
-177,6,_____ ist es heute sehr kalt.,Aussen,Aussen ist es heute sehr kalt.,It is very cold outside today.
-178,6,Die Wand ist _____ rot gestrichen.,aussen,Die Wand ist aussen rot gestrichen.,The wall is painted red on the outside.
-179,6,"Das Gebäude ist innen alt, aber _____ modern.",aussen,"Das Gebäude ist innen alt, aber aussen modern.",The building is old inside but modern outside.
+175,6,Das Haus sieht _____ schön aus.,außen,Das Haus sieht außen schön aus.,The house looks nice from the outside.
+176,6,Der Balkon ist nur von _____ zugänglich.,außen,Der Balkon ist nur von außen zugänglich.,The balcony is only accessible from the outside.
+177,6,_____ ist es heute sehr kalt.,Außen,Außen ist es heute sehr kalt.,It is very cold outside today.
+178,6,Die Wand ist _____ rot gestrichen.,außen,Die Wand ist außen rot gestrichen.,The wall is painted red on the outside.
+179,6,"Das Gebäude ist innen alt, aber _____ modern.",außen,"Das Gebäude ist innen alt, aber außen modern.",The building is old inside but modern outside.
 180,6,Ich brauche _____ fünf Minuten.,noch,Ich brauche noch fünf Minuten.,I need five more minutes.
 181,6,Hast du _____ Fragen?,noch,Hast du noch Fragen?,Do you have any more questions?
 182,6,Wir haben _____ Zeit.,noch,Wir haben noch Zeit.,We still have time.
@@ -192,7 +192,7 @@ Nr,level,question,answer,german,english
 191,6,_____ esse ich Brot zum Frühstück.,Meistens,Meistens esse ich Brot zum Frühstück.,I usually eat bread for breakfast.
 192,6,Er ist _____ pünktlich.,meistens,Er ist meistens pünktlich.,He is usually punctual.
 193,6,Wir fahren _____ mit dem Fahrrad zur Arbeit.,meistens,Wir fahren meistens mit dem Fahrrad zur Arbeit.,We usually go to work by bike.
-194,6,_____ ist es im Sommer heiss.,Meistens,Meistens ist es im Sommer heiss.,It is usually hot in summer.
+194,6,_____ ist es im Sommer heiß.,Meistens,Meistens ist es im Sommer heiß.,It is usually hot in summer.
 195,6,_____ trinke ich einen Kaffee.,Zuerst,Zuerst trinke ich einen Kaffee.,"First, I drink a coffee."
 196,6,Er liest _____ die Zeitung.,zuerst,Er liest zuerst die Zeitung.,He reads the newspaper first.
 197,6,Wir müssen _____ die Hausaufgaben machen.,zuerst,Wir müssen zuerst die Hausaufgaben machen.,We have to do the homework first.
@@ -222,7 +222,7 @@ Nr,level,question,answer,german,english
 221,6,Die Tasche ist _____ rot gefüttert.,innen,Die Tasche ist innen rot gefüttert.,The bag is lined with red on the inside.
 222,6,Wir haben das Gebäude nur von _____ gesehen.,innen,Wir haben das Gebäude nur von innen gesehen.,We have only seen the building from the inside.
 223,6,Die Jacke ist _____ sehr warm.,innen,Die Jacke ist innen sehr warm.,The jacket is very warm inside.
-224,6,"Das Auto ist aussen alt, aber _____ modern.",innen,"Das Auto ist aussen alt, aber innen modern.",The car is old on the outside but modern inside.
+224,6,"Das Auto ist außen alt, aber _____ modern.",innen,"Das Auto ist außen alt, aber innen modern.",The car is old on the outside but modern inside.
 225,6,_____ war ich im Kino mit meinen Freunden.,Vorgestern,Vorgestern war ich im Kino mit meinen Freunden.,"The day before yesterday, I was at the cinema with my friends."
 226,6,Es hat _____ den ganzen Tag geregnet.,vorgestern,Es hat vorgestern den ganzen Tag geregnet.,It rained all day the day before yesterday.
 227,6,Ich habe ihn _____ in der Stadt getroffen.,vorgestern,Ich habe ihn vorgestern in der Stadt getroffen.,I met him in the city the day before yesterday.
@@ -259,7 +259,7 @@ Nr,level,question,answer,german,english
 258,8,"_____ hatte ich lange Haare, aber jetzt sind sie kurz.",Früher,"Früher hatte ich lange Haare, aber jetzt sind sie kurz.","I used to have long hair, but now it is short."
 259,8,"Er hat _____ in Berlin gewohnt, aber jetzt lebt er in München.",früher,"Er hat früher in Berlin gewohnt, aber jetzt lebt er in München.","He used to live in Berlin, but now he lives in Munich."
 260,8,"_____ gab es hier einen kleinen Laden, aber jetzt ist dort ein Supermarkt.",Früher,"Früher gab es hier einen kleinen Laden, aber jetzt ist dort ein Supermarkt.","There used to be a small shop here, but now there is a supermarket."
-261,8,Meine Grosseltern haben _____ ohne Internet gelebt.,früher,Meine Grosseltern haben früher ohne Internet gelebt.,My grandparents used to live without the internet.
+261,8,Meine Großeltern haben _____ ohne Internet gelebt.,früher,Meine Großeltern haben früher ohne Internet gelebt.,My grandparents used to live without the internet.
 262,8,"_____ bin ich jeden Tag Fahrrad gefahren, aber jetzt nehme ich den Bus.",Früher,"Früher bin ich jeden Tag Fahrrad gefahren, aber jetzt nehme ich den Bus.","I used to ride my bike every day, but now I take the bus."
 263,8,"Ich habe nicht _____ Geld, um mir ein neues Handy zu kaufen.",genug,"Ich habe nicht genug Geld, um mir ein neues Handy zu kaufen.",I don’t have enough money to buy a new phone.
 264,8,"Er hat _____ Zeit, um die Aufgabe in Ruhe zu erledigen.",genug,"Er hat genug Zeit, um die Aufgabe in Ruhe zu erledigen.",He has enough time to complete the task calmly.
@@ -613,7 +613,7 @@ Nr,level,question,answer,german,english
 602,16,Sie hat das Problem lange überlegt und darüber _____gegrübelt.,herum,Sie hat das Problem lange überlegt und darüber herumgegrübelt.,She thought about the problem for a long time and pondered over it.
 603,17,"or rather, respectively",beziehungsweise,,
 604,17,no matter,egal,,
-605,17,"besides, moreover, furthermore",ausserdem,,
+605,17,"besides, moreover, furthermore",außerdem,,
 606,17,"so far, until now",bisher,,
 607,17,since then,seither,,
 608,17,"admittedly, to be precise",zwar,,
@@ -654,11 +654,11 @@ Nr,level,question,answer,german,english
 643,18,"Dieses Buch wird dir _____ gefallen, weil du ähnliche Geschichten magst.",wahrscheinlich,"Dieses Buch wird dir wahrscheinlich gefallen, weil du ähnliche Geschichten magst.",You will probably like this book because you enjoy similar stories.
 644,18,Die Preise werden _____ nächstes Jahr steigen.,wahrscheinlich,Die Preise werden wahrscheinlich nächstes Jahr steigen.,Prices will likely increase next year.
 645,18,Ich werde _____ nächste Woche nach Berlin reisen.,wahrscheinlich,Ich werde wahrscheinlich nächste Woche nach Berlin reisen.,I will probably travel to Berlin next week.
-646,18,"Ich habe keine Zeit für einen Urlaub, _____ ist das Wetter schlecht.",ausserdem,"Ich habe keine Zeit für einen Urlaub, ausserdem ist das Wetter schlecht.","I don’t have time for a vacation; besides, the weather is bad."
-647,18,"Er spricht fliessend Englisch, _____ kann er etwas Spanisch.",ausserdem,"Er spricht fliessend Englisch, ausserdem kann er etwas Spanisch.","He speaks fluent English; furthermore, he knows some Spanish."
-648,18,"Wir sollten mehr Gemüse essen, _____ ist es sehr gesund.",ausserdem,"Wir sollten mehr Gemüse essen, ausserdem ist es sehr gesund.","We should eat more vegetables; besides, they are very healthy."
-649,18,"Das Hotel ist nicht nur günstig, _____ liegt es im Stadtzentrum.",ausserdem,"Das Hotel ist nicht nur günstig, ausserdem liegt es im Stadtzentrum.","The hotel is not only affordable; furthermore, it is located in the city center."
-650,18,"Ich habe viel zu tun, _____ bin ich heute nicht in der Stimmung.",ausserdem,"Ich habe viel zu tun, ausserdem bin ich heute nicht in der Stimmung.","I have a lot to do; besides, I’m not in the mood today."
+646,18,"Ich habe keine Zeit für einen Urlaub, _____ ist das Wetter schlecht.",außerdem,"Ich habe keine Zeit für einen Urlaub, außerdem ist das Wetter schlecht.","I don’t have time for a vacation; besides, the weather is bad."
+647,18,"Er spricht fliessend Englisch, _____ kann er etwas Spanisch.",außerdem,"Er spricht fliessend Englisch, außerdem kann er etwas Spanisch.","He speaks fluent English; furthermore, he knows some Spanish."
+648,18,"Wir sollten mehr Gemüse essen, _____ ist es sehr gesund.",außerdem,"Wir sollten mehr Gemüse essen, außerdem ist es sehr gesund.","We should eat more vegetables; besides, they are very healthy."
+649,18,"Das Hotel ist nicht nur günstig, _____ liegt es im Stadtzentrum.",außerdem,"Das Hotel ist nicht nur günstig, außerdem liegt es im Stadtzentrum.","The hotel is not only affordable; furthermore, it is located in the city center."
+650,18,"Ich habe viel zu tun, _____ bin ich heute nicht in der Stimmung.",außerdem,"Ich habe viel zu tun, außerdem bin ich heute nicht in der Stimmung.","I have a lot to do; besides, I’m not in the mood today."
 651,18,"Er hat die Aufgabe _____ erledigt, aber nicht sehr sorgfältig.",zwar,"Er hat die Aufgabe zwar erledigt, aber nicht sehr sorgfältig.","He did complete the task, but not very carefully."
 652,18,"Ich habe das Buch _____ gelesen, aber ich habe es nicht ganz verstanden.",zwar,"Ich habe das Buch zwar gelesen, aber ich habe es nicht ganz verstanden.","I did read the book, but I didn’t fully understand it."
 653,18,"Sie ist _____ jung, aber sie hat schon viel Erfahrung.",zwar,"Sie ist zwar jung, aber sie hat schon viel Erfahrung.","She is indeed young, but she already has a lot of experience."
@@ -1215,3 +1215,6 @@ Nr,level,question,answer,german,english
 1199,100,basically,grundsätzlich,,
 1200,100,overall,im Großen und Ganzen,,
 1201,100,in a nutshell,kurz Gesagt,,
+1202,100,intellectually,,,
+1203,100,easily,,,
+1204,100,continuously,,,

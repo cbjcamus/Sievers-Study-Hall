@@ -104,3 +104,22 @@ def pre_processing_konjunktiv_i(data):
     data = pd.DataFrame(new_rows)
     data['Nr'] = range(1, len(data) + 1)
     return data
+
+
+'''
+def pre_processing(data, exercise, level):
+    if exercise == praeteritum and level > 1:
+        data['answer'] = data['er/sie/es']
+        return data
+
+    processors = {
+        praesens: pre_processing_praesens,
+        (praeteritum, 1): pre_processing_praeteritum,
+        imperativ: pre_processing_imperativ,
+        konjunktiv_II: pre_processing_konjunktiv_ii,
+        konjunktiv_I: pre_processing_konjunktiv_i,
+    }
+
+    processor = processors.get((exercise, level)) or processors.get(exercise)
+    return processor(data) if processor else data
+'''

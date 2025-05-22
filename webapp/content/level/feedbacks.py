@@ -5,7 +5,7 @@ from data.data_processing.exercises import (
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
-FEEDBACK_TEMPLATES = {
+FEEDBACK = {
 
     praepositionen_grammatik: {
         1: "{german}"

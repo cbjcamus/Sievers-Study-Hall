@@ -8,7 +8,7 @@ from data.data_processing.exercises import (
 # bullet point \u25CF
 # arrow &#8594
 
-QUESTION_TEMPLATES = {
+QUESTION = {
 
     praepositionen_grammatik: {
         1: "{question}"

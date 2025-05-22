@@ -5,7 +5,7 @@ from data.data_processing.exercises import (
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
-DESCRIPTION_TEMPLATES = {
+DESCRIPTION = {
 
     praepositionen_grammatik: {
         1: "Temporal Prepositions in sentences",

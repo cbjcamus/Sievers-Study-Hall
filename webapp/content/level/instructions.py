@@ -7,7 +7,7 @@ from data.data_processing.exercises import (
 
 # bullet point \u25CF
 
-INSTRUCTION_TEMPLATES = {
+INSTRUCTION = {
 
     praepositionen_grammatik: {
         1: "Complete the following sentence with the preposition that fits:",

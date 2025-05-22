@@ -1,5 +1,6 @@
-from webapp.session_management.session_ import progress, result
 from data.data_processing.data_loading import load_data
+
+from webapp.session_management.session_ import progress, result
 from webapp.session_management.pick_a_question import pick_a_question
 
 
