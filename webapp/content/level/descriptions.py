@@ -156,6 +156,8 @@ DESCRIPTION = {
         4: 'A2 Question Words in sentences',
         5: 'B1 Question Words in isolation',
         6: 'B1 Question Words in sentences',
+        7: 'C1 Question Words in isolation',
+        8: 'C1 Question Words in sentences',
     },
 
     adjektivdeklinationen: {

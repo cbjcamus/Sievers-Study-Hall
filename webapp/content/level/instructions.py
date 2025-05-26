@@ -162,6 +162,8 @@ INSTRUCTION = {
         4: "Complete the following sentence with the question word that fits:",
         5: "Translate the following question word:",
         6: "Complete the following sentence with the question word that fits:",
+        7: "Translate the following question word:",
+        8: "Complete the following sentence with the question word that fits:",
     },
 
     adjektivdeklinationen: {

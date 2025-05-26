@@ -225,6 +225,9 @@ QUESTION = {
         5: "{question}",
         6: "{question}"
            "<br><br><i>{english}</i>",
+        7: "{question}",
+        8: "{question}"
+           "<br><br><i>{english}</i>",
     },
 
     adjektivdeklinationen: {

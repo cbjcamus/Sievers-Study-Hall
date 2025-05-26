@@ -891,71 +891,77 @@ Nr,level,question,answer,case,german,english
 890,20,"plus, in addition to",zuzüglich,Genitive,,
 891,20,"minus, after",abzüglich,Genitive,,
 892,20,regarding,bezüglich,Genitive,,
-893,21,_____ den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,Nebst,,Nebst den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,"Along with the official documents, you must also submit a resume."
-894,21,Er brachte _____ einem Geschenk auch Blumen mit.,nebst,,Er brachte nebst einem Geschenk auch Blumen mit.,He brought flowers along with a gift.
-895,21,_____ der Miete sind auch die Nebenkosten zu zahlen.,Nebst,,Nebst der Miete sind auch die Nebenkosten zu zahlen.,"Along with the rent, the utility costs must also be paid."
-896,21,Sie erhielt eine Beförderung _____ einer Gehaltserhöhung.,nebst,,Sie erhielt eine Beförderung nebst einer Gehaltserhöhung.,She received a promotion along with a salary increase.
-897,21,_____ den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,Nebst,,Nebst den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,"Along with the guests from Germany, friends from France also came to the wedding."
-898,21,_____ der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Oberhalb,,Oberhalb der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Above the city lies an old castle with an impressive view.
-899,21,Die Temperaturen sind _____ von 2.000 Metern deutlich kühler.,oberhalb,,Die Temperaturen sind oberhalb von 2.000 Metern deutlich kühler.,"Temperatures are significantly cooler above 2,000 meters."
-900,21,_____ der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,Oberhalb,,Oberhalb der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,"Above the clouds, one could see the sun from the airplane."
-901,21,Die Wohngegend _____ des Flusses gilt als besonders exklusiv.,oberhalb,,Die Wohngegend oberhalb des Flusses gilt als besonders exklusiv.,The residential area above the river is considered particularly exclusive.
-902,21,_____ der Schmerzgrenze sollte man keine weiteren Gewichte heben.,Oberhalb,,Oberhalb der Schmerzgrenze sollte man keine weiteren Gewichte heben.,"Above the pain threshold, one should not lift any more weights."
-903,21,"_____ der Regierung wurde betont, dass weitere Maßnahmen folgen werden.",Seitens,,"Seitens der Regierung wurde betont, dass weitere Maßnahmen folgen werden.","On the part of the government, it was emphasized that further measures will follow."
-904,21,Es gab Kritik _____ der Opposition an der neuen Gesetzesvorlage.,seitens,,Es gab Kritik seitens der Opposition an der neuen Gesetzesvorlage.,There was criticism from the opposition regarding the new bill.
-905,21,_____ des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,Seitens,,Seitens des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,There was no statement from the company regarding the allegations.
-906,21,Die Entscheidung wurde _____ des Gerichts mit großer Sorgfalt getroffen.,seitens,,Die Entscheidung wurde seitens des Gerichts mit großer Sorgfalt getroffen.,The decision was made by the court with great care.
-907,21,_____ der Eltern gab es viele Beschwerden über das neue Schulsystem.,Seitens,,Seitens der Eltern gab es viele Beschwerden über das neue Schulsystem.,There were many complaints from the parents about the new school system.
-908,21,_____ der Burg erstreckt sich ein malerisches Tal.,Unterhalb,,Unterhalb der Burg erstreckt sich ein malerisches Tal.,"Below the castle, a picturesque valley stretches out."
-909,21,Die Temperaturen sind _____ von 0 Grad gefährlich für Autofahrer.,unterhalb,,Die Temperaturen sind unterhalb von 0 Grad gefährlich für Autofahrer.,Temperatures below 0 degrees are dangerous for drivers.
-910,21,_____ der Stadt gibt es eine große unterirdische Höhle.,Unterhalb,,Unterhalb der Stadt gibt es eine große unterirdische Höhle.,"Below the city, there is a large underground cave."
-911,21,Die Wohngegend _____ des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,unterhalb,,Die Wohngegend unterhalb des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,The residential area below the hill is particularly popular due to its proximity to the river.
-912,21,_____ der Schmerzgrenze bleibt das Training effektiv und sicher.,Unterhalb,,Unterhalb der Schmerzgrenze bleibt das Training effektiv und sicher.,Staying below the pain threshold keeps training effective and safe.
-913,21,Das Gericht entschied _____ des Angeklagten aufgrund fehlender Beweise.,zugunsten,,Das Gericht entschied zugunsten des Angeklagten aufgrund fehlender Beweise.,The court ruled in favor of the defendant due to a lack of evidence.
-914,21,_____ der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Zugunsten,,Zugunsten der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Stricter recycling regulations were introduced in favor of the environment.
-915,21,Die Spendenaktion wurde _____ von hilfsbedürftigen Kindern organisiert.,zugunsten,,Die Spendenaktion wurde zugunsten von hilfsbedürftigen Kindern organisiert.,The fundraising campaign was organized for the benefit of children in need.
-916,21,Die Politiker trafen eine Entscheidung _____ der wirtschaftlichen Stabilität.,zugunsten,,Die Politiker trafen eine Entscheidung zugunsten der wirtschaftlichen Stabilität.,The politicians made a decision in favor of economic stability.
-917,21,Das neue Gesetz wurde _____ der Arbeitnehmerrechte angepasst.,zugunsten,,Das neue Gesetz wurde zugunsten der Arbeitnehmerrechte angepasst.,The new law was adjusted in favor of workers' rights.
-918,21,_____ Optimierung der Produktionsprozesse wurde eine externe Beratungsfirma engagiert.,Zwecks,,Zwecks Optimierung der Produktionsprozesse wurde eine externe Beratungsfirma engagiert.,"For the purpose of optimizing production processes, an external consulting firm was hired."
-919,21,Die Unterlagen wurden _____ weiterer Prüfung an die Rechtsabteilung weitergeleitet.,zwecks,,Die Unterlagen wurden zwecks weiterer Prüfung an die Rechtsabteilung weitergeleitet.,The documents were forwarded to the legal department for the purpose of further review.
-920,21,_____ Erhöhung der Sicherheit hat das Unternehmen neue Zugangskontrollen eingeführt.,Zwecks,,Zwecks Erhöhung der Sicherheit hat das Unternehmen neue Zugangskontrollen eingeführt.,The company introduced new access controls for the purpose of increasing security.
-921,21,Die Sitzung wurde _____ Klärung der strategischen Ausrichtung einberufen.,zwecks,,Die Sitzung wurde zwecks Klärung der strategischen Ausrichtung einberufen.,The meeting was convened for the purpose of clarifying the strategic direction.
-922,21,_____ Vorbereitung auf die Verhandlungen analysierte das Team sämtliche Markttrends.,Zwecks,,Zwecks Vorbereitung auf die Verhandlungen analysierte das Team sämtliche Markttrends.,The team analyzed all market trends for the purpose of preparing for the negotiations.
-923,21,Der Gesamtpreis beträgt 1.200 Euro _____ Mehrwertsteuer.,zuzüglich,,Der Gesamtpreis beträgt 1.200 Euro zuzüglich Mehrwertsteuer.,"The total price amounts to 1,200 euros plus value-added tax."
-924,21,_____ der Versandkosten ergibt sich ein Endbetrag von 85 Euro.,Zuzüglich,,Zuzüglich der Versandkosten ergibt sich ein Endbetrag von 85 Euro.,"Including the shipping costs, the final amount comes to 85 euros."
-925,21,"Die Miete beläuft sich auf 900 Euro monatlich, _____ Nebenkosten.",zuzüglich,,"Die Miete beläuft sich auf 900 Euro monatlich, zuzüglich Nebenkosten.","The rent amounts to 900 euros per month, plus utility costs."
-926,21,_____ der Boni erhielt der Manager ein Jahresgehalt von über 200.000 Euro.,Zuzüglich,,Zuzüglich der Boni erhielt der Manager ein Jahresgehalt von über 200.000 Euro.,"Including bonuses, the manager received an annual salary of over 200,000 euros."
-927,21,Der Reisepreis beträgt 1.500 Euro _____ fakultativer Ausflüge.,zuzüglich,,Der Reisepreis beträgt 1.500 Euro zuzüglich fakultativer Ausflüge.,
-928,21,"Der Nettobetrag beträgt 950 Euro, _____ aller Rabatte.",abzüglich,,"Der Nettobetrag beträgt 950 Euro, abzüglich aller Rabatte.","The net amount is 950 euros, after deduction of all discounts."
-929,21,_____ der Steuern bleibt ein Gewinn von rund 40.000 Euro.,Abzüglich,,Abzüglich der Steuern bleibt ein Gewinn von rund 40.000 Euro.,"After deduction of taxes, a profit of around 40,000 euros remains."
-930,21,"Der Mitarbeiter erhält ein Gehalt von 3.500 Euro, _____ Sozialabgaben.",abzüglich,,"Der Mitarbeiter erhält ein Gehalt von 3.500 Euro, abzüglich Sozialabgaben.","The employee receives a salary of 3,500 euros, minus social security contributions."
-931,21,_____ der Verluste aus dem Vorjahr ergibt sich ein positiver Saldo.,Abzüglich,,Abzüglich der Verluste aus dem Vorjahr ergibt sich ein positiver Saldo.,"After deducting the previous year’s losses, a positive balance remains."
-932,21,Die Auszahlung erfolgt _____ einer Bearbeitungsgebühr von 15 Euro.,abzüglich,,Die Auszahlung erfolgt abzüglich einer Bearbeitungsgebühr von 15 Euro.,The payment will be made minus a processing fee of 15 euros.
-933,21,_____ Ihres Antrags werden wir uns nächste Woche mit Ihnen in Verbindung setzen.,Bezüglich,,Bezüglich Ihres Antrags werden wir uns nächste Woche mit Ihnen in Verbindung setzen.,"Regarding your application, we will contact you next week."
-934,21,Es gibt noch offene Fragen _____ der Vertragsbedingungen.,bezüglich,,Es gibt noch offene Fragen bezüglich der Vertragsbedingungen.,There are still open questions concerning the contract terms.
-935,21,_____ der Lieferzeiten bitten wir um etwas Geduld.,Bezüglich,,Bezüglich der Lieferzeiten bitten wir um etwas Geduld.,"With regard to the delivery times, we ask for a little patience."
-936,21,Der Kunde äußerte Bedenken _____ der Produktqualität.,bezüglich,,Der Kunde äußerte Bedenken bezüglich der Produktqualität.,The customer expressed concerns regarding the product quality.
-937,21,_____ Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,Bezüglich,,Bezüglich Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,"With respect to your inquiry, we have already initiated all necessary steps."
-938,100,from ... on,ab,Dative,,
-939,100,"on, to, next to, attached to",an,Accusative or Dative,,
-940,100,"on, upon",auf,Accusative or Dative,,
-941,100,"from, out of, off",aus,Dative,,
-942,100,"at, near, by, in the vicinity of, among, upon",bei,Dative,,
-943,100,"until, up to, by, to",bis,Accusative,,
-944,100,for,für,Accusative,,
-945,100,"against, for, toward",gegen,Accusative,,
-946,100,behind,hinter,Accusative or Dative,,
-947,100,"in, into",in,Accusative or Dative,,
-948,100,with,mit,Dative,,
-949,100,"after, to, in the direction of",nach,Dative,,
-950,100,"next to, in addition to, besides, alongside",neben,Accusative or Dative,,
-951,100,without,ohne,Accusative,,
-952,100,per,pro,Accusative,,
-953,100,"since, for",seit,Dative,,
-954,100,"above, over, about, across, via, beyond",über,Accusative or Dative,,
-955,100,"around, at",um,Accusative,,
-956,100,"under, below, among, between, amid",unter,Accusative or Dative,,
-957,100,"from, of",von,Dative,,
-958,100,"before, in front of, ago, against",vor,Accusative or Dative,,
-959,100,"to, toward, at, by",zu,Dative,,
-960,100,"between, among",zwischen,Accusative or Dative,,
+893,20,je nach/abhänging von,depending on,Dative,,
+894,21,_____ den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,Nebst,,Nebst den offiziellen Dokumenten müssen Sie auch einen Lebenslauf einreichen.,"Along with the official documents, you must also submit a resume."
+895,21,Er brachte _____ einem Geschenk auch Blumen mit.,nebst,,Er brachte nebst einem Geschenk auch Blumen mit.,He brought flowers along with a gift.
+896,21,_____ der Miete sind auch die Nebenkosten zu zahlen.,Nebst,,Nebst der Miete sind auch die Nebenkosten zu zahlen.,"Along with the rent, the utility costs must also be paid."
+897,21,Sie erhielt eine Beförderung _____ einer Gehaltserhöhung.,nebst,,Sie erhielt eine Beförderung nebst einer Gehaltserhöhung.,She received a promotion along with a salary increase.
+898,21,_____ den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,Nebst,,Nebst den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,"Along with the guests from Germany, friends from France also came to the wedding."
+899,21,_____ der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Oberhalb,,Oberhalb der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Above the city lies an old castle with an impressive view.
+900,21,Die Temperaturen sind _____ von 2.000 Metern deutlich kühler.,oberhalb,,Die Temperaturen sind oberhalb von 2.000 Metern deutlich kühler.,"Temperatures are significantly cooler above 2,000 meters."
+901,21,_____ der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,Oberhalb,,Oberhalb der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,"Above the clouds, one could see the sun from the airplane."
+902,21,Die Wohngegend _____ des Flusses gilt als besonders exklusiv.,oberhalb,,Die Wohngegend oberhalb des Flusses gilt als besonders exklusiv.,The residential area above the river is considered particularly exclusive.
+903,21,_____ der Schmerzgrenze sollte man keine weiteren Gewichte heben.,Oberhalb,,Oberhalb der Schmerzgrenze sollte man keine weiteren Gewichte heben.,"Above the pain threshold, one should not lift any more weights."
+904,21,"_____ der Regierung wurde betont, dass weitere Maßnahmen folgen werden.",Seitens,,"Seitens der Regierung wurde betont, dass weitere Maßnahmen folgen werden.","On the part of the government, it was emphasized that further measures will follow."
+905,21,Es gab Kritik _____ der Opposition an der neuen Gesetzesvorlage.,seitens,,Es gab Kritik seitens der Opposition an der neuen Gesetzesvorlage.,There was criticism from the opposition regarding the new bill.
+906,21,_____ des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,Seitens,,Seitens des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,There was no statement from the company regarding the allegations.
+907,21,Die Entscheidung wurde _____ des Gerichts mit großer Sorgfalt getroffen.,seitens,,Die Entscheidung wurde seitens des Gerichts mit großer Sorgfalt getroffen.,The decision was made by the court with great care.
+908,21,_____ der Eltern gab es viele Beschwerden über das neue Schulsystem.,Seitens,,Seitens der Eltern gab es viele Beschwerden über das neue Schulsystem.,There were many complaints from the parents about the new school system.
+909,21,_____ der Burg erstreckt sich ein malerisches Tal.,Unterhalb,,Unterhalb der Burg erstreckt sich ein malerisches Tal.,"Below the castle, a picturesque valley stretches out."
+910,21,Die Temperaturen sind _____ von 0 Grad gefährlich für Autofahrer.,unterhalb,,Die Temperaturen sind unterhalb von 0 Grad gefährlich für Autofahrer.,Temperatures below 0 degrees are dangerous for drivers.
+911,21,_____ der Stadt gibt es eine große unterirdische Höhle.,Unterhalb,,Unterhalb der Stadt gibt es eine große unterirdische Höhle.,"Below the city, there is a large underground cave."
+912,21,Die Wohngegend _____ des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,unterhalb,,Die Wohngegend unterhalb des Hügels ist besonders beliebt wegen ihrer Nähe zum Fluss.,The residential area below the hill is particularly popular due to its proximity to the river.
+913,21,_____ der Schmerzgrenze bleibt das Training effektiv und sicher.,Unterhalb,,Unterhalb der Schmerzgrenze bleibt das Training effektiv und sicher.,Staying below the pain threshold keeps training effective and safe.
+914,21,Das Gericht entschied _____ des Angeklagten aufgrund fehlender Beweise.,zugunsten,,Das Gericht entschied zugunsten des Angeklagten aufgrund fehlender Beweise.,The court ruled in favor of the defendant due to a lack of evidence.
+915,21,_____ der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Zugunsten,,Zugunsten der Umwelt wurden strengere Recycling-Vorschriften eingeführt.,Stricter recycling regulations were introduced in favor of the environment.
+916,21,Die Spendenaktion wurde _____ von hilfsbedürftigen Kindern organisiert.,zugunsten,,Die Spendenaktion wurde zugunsten von hilfsbedürftigen Kindern organisiert.,The fundraising campaign was organized for the benefit of children in need.
+917,21,Die Politiker trafen eine Entscheidung _____ der wirtschaftlichen Stabilität.,zugunsten,,Die Politiker trafen eine Entscheidung zugunsten der wirtschaftlichen Stabilität.,The politicians made a decision in favor of economic stability.
+918,21,Das neue Gesetz wurde _____ der Arbeitnehmerrechte angepasst.,zugunsten,,Das neue Gesetz wurde zugunsten der Arbeitnehmerrechte angepasst.,The new law was adjusted in favor of workers' rights.
+919,21,_____ Optimierung der Produktionsprozesse wurde eine externe Beratungsfirma engagiert.,Zwecks,,Zwecks Optimierung der Produktionsprozesse wurde eine externe Beratungsfirma engagiert.,"For the purpose of optimizing production processes, an external consulting firm was hired."
+920,21,Die Unterlagen wurden _____ weiterer Prüfung an die Rechtsabteilung weitergeleitet.,zwecks,,Die Unterlagen wurden zwecks weiterer Prüfung an die Rechtsabteilung weitergeleitet.,The documents were forwarded to the legal department for the purpose of further review.
+921,21,_____ Erhöhung der Sicherheit hat das Unternehmen neue Zugangskontrollen eingeführt.,Zwecks,,Zwecks Erhöhung der Sicherheit hat das Unternehmen neue Zugangskontrollen eingeführt.,The company introduced new access controls for the purpose of increasing security.
+922,21,Die Sitzung wurde _____ Klärung der strategischen Ausrichtung einberufen.,zwecks,,Die Sitzung wurde zwecks Klärung der strategischen Ausrichtung einberufen.,The meeting was convened for the purpose of clarifying the strategic direction.
+923,21,_____ Vorbereitung auf die Verhandlungen analysierte das Team sämtliche Markttrends.,Zwecks,,Zwecks Vorbereitung auf die Verhandlungen analysierte das Team sämtliche Markttrends.,The team analyzed all market trends for the purpose of preparing for the negotiations.
+924,21,Der Gesamtpreis beträgt 1.200 Euro _____ Mehrwertsteuer.,zuzüglich,,Der Gesamtpreis beträgt 1.200 Euro zuzüglich Mehrwertsteuer.,"The total price amounts to 1,200 euros plus value-added tax."
+925,21,_____ der Versandkosten ergibt sich ein Endbetrag von 85 Euro.,Zuzüglich,,Zuzüglich der Versandkosten ergibt sich ein Endbetrag von 85 Euro.,"Including the shipping costs, the final amount comes to 85 euros."
+926,21,"Die Miete beläuft sich auf 900 Euro monatlich, _____ Nebenkosten.",zuzüglich,,"Die Miete beläuft sich auf 900 Euro monatlich, zuzüglich Nebenkosten.","The rent amounts to 900 euros per month, plus utility costs."
+927,21,_____ der Boni erhielt der Manager ein Jahresgehalt von über 200.000 Euro.,Zuzüglich,,Zuzüglich der Boni erhielt der Manager ein Jahresgehalt von über 200.000 Euro.,"Including bonuses, the manager received an annual salary of over 200,000 euros."
+928,21,Der Reisepreis beträgt 1.500 Euro _____ fakultativer Ausflüge.,zuzüglich,,Der Reisepreis beträgt 1.500 Euro zuzüglich fakultativer Ausflüge.,
+929,21,"Der Nettobetrag beträgt 950 Euro, _____ aller Rabatte.",abzüglich,,"Der Nettobetrag beträgt 950 Euro, abzüglich aller Rabatte.","The net amount is 950 euros, after deduction of all discounts."
+930,21,_____ der Steuern bleibt ein Gewinn von rund 40.000 Euro.,Abzüglich,,Abzüglich der Steuern bleibt ein Gewinn von rund 40.000 Euro.,"After deduction of taxes, a profit of around 40,000 euros remains."
+931,21,"Der Mitarbeiter erhält ein Gehalt von 3.500 Euro, _____ Sozialabgaben.",abzüglich,,"Der Mitarbeiter erhält ein Gehalt von 3.500 Euro, abzüglich Sozialabgaben.","The employee receives a salary of 3,500 euros, minus social security contributions."
+932,21,_____ der Verluste aus dem Vorjahr ergibt sich ein positiver Saldo.,Abzüglich,,Abzüglich der Verluste aus dem Vorjahr ergibt sich ein positiver Saldo.,"After deducting the previous year’s losses, a positive balance remains."
+933,21,Die Auszahlung erfolgt _____ einer Bearbeitungsgebühr von 15 Euro.,abzüglich,,Die Auszahlung erfolgt abzüglich einer Bearbeitungsgebühr von 15 Euro.,The payment will be made minus a processing fee of 15 euros.
+934,21,_____ Ihres Antrags werden wir uns nächste Woche mit Ihnen in Verbindung setzen.,Bezüglich,,Bezüglich Ihres Antrags werden wir uns nächste Woche mit Ihnen in Verbindung setzen.,"Regarding your application, we will contact you next week."
+935,21,Es gibt noch offene Fragen _____ der Vertragsbedingungen.,bezüglich,,Es gibt noch offene Fragen bezüglich der Vertragsbedingungen.,There are still open questions concerning the contract terms.
+936,21,_____ der Lieferzeiten bitten wir um etwas Geduld.,Bezüglich,,Bezüglich der Lieferzeiten bitten wir um etwas Geduld.,"With regard to the delivery times, we ask for a little patience."
+937,21,Der Kunde äußerte Bedenken _____ der Produktqualität.,bezüglich,,Der Kunde äußerte Bedenken bezüglich der Produktqualität.,The customer expressed concerns regarding the product quality.
+938,21,_____ Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,Bezüglich,,Bezüglich Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,"With respect to your inquiry, we have already initiated all necessary steps."
+939,21,"_____ Wetterlage entscheiden wir spontan, ob das Grillfest stattfindet.",Je nach/Abhängig von der,,"Je nach Wetterlage entscheiden wir spontan, ob das Grillfest stattfindet.","Depending on the weather conditions, we'll decide spontaneously whether the barbecue will take place."
+940,21,Die Preise variieren _____ Größe und Ausstattung des Produkts.,je nach/abhängig von der,,Die Preise variieren je nach Größe und Ausstattung des Produkts.,The prices vary depending on the size and features of the product.
+941,21,_____ Erfahrung kann das Gehalt bei dieser Position stark schwanken.,Je nach/Abhängig von der,,Je nach Erfahrung kann das Gehalt bei dieser Position stark schwanken.,"Depending on experience, the salary for this position can vary greatly."
+942,21,Der Unterricht wird _____ Leistungsniveau der Schüler angepasst.,je nach/abhängig vom,,Der Unterricht wird je nach Leistungsniveau der Schüler angepasst.,The lessons are adjusted depending on the students' performance level.
+943,21,_____ Region gibt es unterschiedliche Bräuche für das Weihnachtsfest.,Je nach/Abhängig von der,,Je nach Region gibt es unterschiedliche Bräuche für das Weihnachtsfest.,"Depending on the region, there are different customs for Christmas."
+939,100,from ... on,ab,Dative,,
+940,100,"on, to, next to, attached to",an,Accusative or Dative,,
+941,100,"on, upon",auf,Accusative or Dative,,
+942,100,"from, out of, off",aus,Dative,,
+943,100,"at, near, by, in the vicinity of, among, upon",bei,Dative,,
+944,100,"until, up to, by, to",bis,Accusative,,
+945,100,for,für,Accusative,,
+946,100,"against, for, toward",gegen,Accusative,,
+947,100,behind,hinter,Accusative or Dative,,
+948,100,"in, into",in,Accusative or Dative,,
+949,100,with,mit,Dative,,
+950,100,"after, to, in the direction of",nach,Dative,,
+951,100,"next to, in addition to, besides, alongside",neben,Accusative or Dative,,
+952,100,without,ohne,Accusative,,
+953,100,per,pro,Accusative,,
+954,100,"since, for",seit,Dative,,
+955,100,"above, over, about, across, via, beyond",über,Accusative or Dative,,
+956,100,"around, at",um,Accusative,,
+957,100,"under, below, among, between, amid",unter,Accusative or Dative,,
+958,100,"from, of",von,Dative,,
+959,100,"before, in front of, ago, against",vor,Accusative or Dative,,
+960,100,"to, toward, at, by",zu,Dative,,
+961,100,"between, among",zwischen,Accusative or Dative,,

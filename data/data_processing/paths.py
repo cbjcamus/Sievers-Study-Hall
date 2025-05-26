@@ -38,21 +38,3 @@ DATA_PATH = {
     adjektive: os.path.join(BASE_DIR, "datasets/wortschatz", "adjektive.csv"),
     deverbale_nomen: os.path.join(BASE_DIR, "datasets/wortschatz", "deverbale_substantive.csv"),
              }
-
-SCORE_PATH = {artikel: os.path.join(BASE_DIR, "scores/artikel", ""),
-              pronomen: os.path.join(BASE_DIR, "scores/pronomen", ""),
-              konnektoren: os.path.join(BASE_DIR, "scores/konnektoren", ""),
-              praepositionen_grammatik: os.path.join(BASE_DIR, "scores/praepositionen_grammatik", ""),
-              adjektivdeklinationen: os.path.join(BASE_DIR, "scores/adjektivdeklinationen", ""),
-
-              praesens: os.path.join(BASE_DIR, "scores/praesens", ""),
-              praepositionen_verben: os.path.join(BASE_DIR, "scores/praepositionen_konjugation", ""),
-              imperativ: os.path.join(BASE_DIR, "scores/imperativ", ""),
-              partizip_II: os.path.join(BASE_DIR, "scores/partizip_II", ""),
-              praeteritum: os.path.join(BASE_DIR, "scores/praeteritum", ""),
-              konjunktiv_II: os.path.join(BASE_DIR, "scores/konjunktiv", ""),
-
-              verben: os.path.join(BASE_DIR, "scores/verben", ""),
-              adjektive: os.path.join(BASE_DIR, "scores/adjektive", ""),
-              adverbien: os.path.join(BASE_DIR, "scores/adverbien", ""),
-              }

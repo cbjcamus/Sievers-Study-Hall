@@ -14,8 +14,8 @@ from webapp.session_management.normalization import get_list_of_correct_answers,
 
 from webapp.content.exercise.title_page import TITLE_PAGE
 from webapp.content.exercise.back_button import BACK_BUTTON
-from webapp.content.exercise.exercise_page import EXERCISE_PAGES
 from webapp.content.exercise.explanation import EXPLANATION
+from webapp.content.exercise.exercise_page import EXERCISE_PAGES
 from webapp.content.level.feedbacks import FEEDBACK
 from webapp.content.level.questions import QUESTION
 from webapp.content.level.instructions import INSTRUCTION
@@ -45,6 +45,8 @@ def home():
                            total_questions=compute_total_questions,
                            score=write_score,
                            explanation=EXPLANATION,
+                           title_page=TITLE_PAGE,
+                           exercise_page=EXERCISE_PAGES
                            )
 
 
@@ -257,8 +259,8 @@ def deverbale_substantive():
 
 @routes.route('/exercise/<exercise>/level/<int:level>')
 def exercise(exercise, level):
-    if level_finished(exercise, level, session) is True:
-        register_result(exercise, level, session)
+    if level_finished(session, exercise, level) is True:
+        register_result(session, exercise, level)
         return render_template("exercise/exercise_completed.html",
                                exercise=exercise,
                                level=level,
@@ -310,7 +312,7 @@ def exercise(exercise, level):
                            exercise_pages=EXERCISE_PAGES,
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
-                           answered_questions=compute_answered_questions(exercise, level=level, session=session),
+                           answered_questions=compute_answered_questions(session, exercise, level=level),
                            total_questions=compute_total_questions(exercise, level=level),
                            proverb=proverb)
 
@@ -360,7 +362,6 @@ def check_answer(exercise, level):
         "result": "correct" if correct_answer_condition else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
-
     }
 
     # Initialize score storage if missing

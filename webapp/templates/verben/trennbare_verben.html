@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 
-{% from "macros.html" import render_table_row %}
+{% from "macros.html" import render_level_table_row %}
 {% from "macros.html" import render_title %}
 
 <body>
@@ -17,30 +17,30 @@
     <div class="section">
         <h2>A2</h2>
         <table class="level-table">
-            {{ render_table_row("trennbare_verben", 1, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 2, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B1</h2>
         <table class="level-table">
-            {{ render_table_row("trennbare_verben", 3, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 4, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 5, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 6, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 6, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B2</h2>
         <table class="level-table">
-            {{ render_table_row("trennbare_verben", 7, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 8, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 9, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 10, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 11, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_table_row("trennbare_verben", 12, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 8, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 10, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_level_table_row("trennbare_verben", 12, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 

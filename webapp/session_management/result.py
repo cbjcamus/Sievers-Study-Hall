@@ -2,8 +2,8 @@ from webapp.session_management.score import compute_score
 from webapp.session_management.session_ import result, progress, score
 
 
-def register_result(exercise, level, session):
-    score_level = compute_score(exercise, level, session)
+def register_result(session, exercise, level):
+    score_level = compute_score(session, exercise, level)
 
     if result not in session:
         session[result] = {}

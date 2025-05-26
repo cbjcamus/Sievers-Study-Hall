@@ -305,6 +305,10 @@ FEEDBACK = {
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
+        7: "{previous_question} = {correct_answers}",
+        8: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
     },
 
     adjektivdeklinationen: {
