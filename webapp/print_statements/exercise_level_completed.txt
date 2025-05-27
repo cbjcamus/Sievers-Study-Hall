@@ -1,3 +1,0 @@
-datetime, exercise, level
-2025-05-26 11:17:19.209798, konnektoren, 1
-2025-05-26 11:17:27.452239, konnektoren, 1

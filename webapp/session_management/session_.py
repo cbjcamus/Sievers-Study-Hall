@@ -7,15 +7,14 @@ progress = 'progress'
 score = 'score'
 result = 'result'
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-EXERCISE_COMPLETED_PATH = os.path.join(BASE_DIR, "print_statements", "exercise_level_completed.txt")
-
 
 def print_exercise_level_completed(exercise, level):
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    EXERCISE_COMPLETED_PATH = os.path.join(BASE_DIR, "../statistics", "exercise_level_completed.txt")
     NOW = datetime.now()
     print(f"{NOW}, {exercise}, {level}")
-    with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as f:
-        f.write(f"{NOW}, {exercise}, {level}\n")
+    with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
+        file.write(f"{NOW}, {exercise}, {level}\n")
     return
 
 
