@@ -182,16 +182,24 @@ QUESTION = {
         4: "{question} \u25CF {person}",
         5: "{question} \u25CF {person}",
         6: "{question} \u25CF {person}",
-        7: "{question}",
+
+        7: "{question} \u25CF {gender}, {case}",
         8: "{question}"
-           "<br><br><i>{english}</i>",
-        9: "{question}",
-        10: "{question}",
+            "<br><br><i>{english}</i>",
+        9: "{question} \u25CF {gender}, {case}",
+        10: "{question}"
+            "<br><br><i>{english}</i>",
+
         11: "{question}",
-        12: "{question}",
+        12: "{question}"
+           "<br><br><i>{english}</i>",
         13: "{question}",
         14: "{question}",
         15: "{question}",
+        16: "{question}",
+        17: "{question}",
+        18: "{question}",
+        19: "{question}",
     },
 
     konnektoren: {

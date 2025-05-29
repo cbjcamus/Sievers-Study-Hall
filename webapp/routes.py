@@ -50,12 +50,6 @@ def home():
                            )
 
 
-@routes.route('/about')
-def about():
-    return render_template('menu/about.html',
-                           )
-
-
 @routes.route('/faq')
 def faq():
     return render_template('menu/faq.html',
@@ -65,6 +59,19 @@ def faq():
 @routes.route('/updates')
 def updates():
     return render_template('menu/updates.html',
+                           )
+
+
+@routes.route('/contact')
+def contact():
+    return render_template('menu/contact.html',
+                           )
+
+
+
+@routes.route('/credits')
+def credits():
+    return render_template('menu/credits.html',
                            )
 
 

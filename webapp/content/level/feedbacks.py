@@ -190,11 +190,11 @@ FEEDBACK = {
         13: "{previous_question}, {gender}, {case} → {correct_answers}",
         14: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{previous_question}, {gender}, {case} → {correct_answers}",
+            "<br><br>{gender}, {case} → {correct_answers}",
         15: "{previous_question}, {gender}, {case} → {correct_answers}",
         16: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{previous_question}, {gender}, {case} → {correct_answers}",
+            "<br><br>{gender}, {case} → {correct_answers}",
 
         17: "{previous_question}, {gender}, {case} → {correct_answers}",
         18: "{german}"
@@ -246,23 +246,33 @@ FEEDBACK = {
            "<br><br>{person}, {case} → {correct_answers}",
         6: "{german}"
            "<br><br>{person}, {case} → {correct_answers}",
-        7: "{previous_question} = {correct_answers}",
+
+        7: "{previous_question}, {gender}, {case} → {correct_answers}",
         8: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{gender}, {case} → {correct_answers}",
+        9: "{previous_question}, {gender}, {case} → {correct_answers}",
+        10: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{gender}, {case} → {correct_answers}",
+
+        11: "{previous_question} = {correct_answers}",
+        12: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
-        9: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
-        10: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
-        11: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
-        12: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
         13: "{german}"
            "<br><br>{person}, {case} → {correct_answers}",
         14: "{german}"
            "<br><br>{person}, {case} → {correct_answers}",
         15: "{german}"
+           "<br><br>{person}, {case} → {correct_answers}",
+        16: "{german}"
+           "<br><br>{person}, {case} → {correct_answers}",
+        17: "{german}"
+           "<br><br>{person}, {case} → {correct_answers}",
+        18: "{german}"
+           "<br><br>{person}, {case} → {correct_answers}",
+        19: "{german}"
             "<br><br>Correct answer(s): {correct_answers}",
     },
 
