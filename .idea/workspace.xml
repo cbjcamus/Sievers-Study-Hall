@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update exercise completed">
-      <change afterPath="$PROJECT_DIR$/webapp/templates/menu/credits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/artikel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/konnektoren.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/pronomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/pronomen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/level/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/level/descriptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/level/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/level/feedbacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/level/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/level/instructions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/level/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/level/questions.py" afterDir="false" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="pronomen update">
       <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/pronomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/pronomen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/updates.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/updates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/session_.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/session_.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,18 +88,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/menu",
+    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/statistics",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/statistics" />
       <recent name="$PROJECT_DIR$/webapp/templates/menu" />
       <recent name="$PROJECT_DIR$/webapp/content" />
       <recent name="$PROJECT_DIR$/webapp/templates/grammatik" />
       <recent name="$PROJECT_DIR$/webapp/templates/konjugation" />
-      <recent name="$PROJECT_DIR$/webapp/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/private/count_ips/logs" />
@@ -162,14 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00006" summary="commit">
-      <option name="closed" value="true" />
-      <created>1741547595927</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1741547595927</updated>
     </task>
     <task id="LOCAL-00007" summary="commit">
       <option name="closed" value="true" />
@@ -555,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748327254711</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="pronomen update">
+      <option name="closed" value="true" />
+      <created>1748525813863</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1748525813863</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -585,7 +571,8 @@
     <MESSAGE value="removing + explanations" />
     <MESSAGE value="addition of print statements + exercise updates" />
     <MESSAGE value="update exercise completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="update exercise completed" />
+    <MESSAGE value="pronomen update" />
+    <option name="LAST_COMMIT_MESSAGE" value="pronomen update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
