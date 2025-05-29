@@ -18,6 +18,15 @@ def print_exercise_level_completed(exercise, level):
     return
 
 
+def print_exercise_level_checked(exercise, level):
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    EXERCISE_CHECKED_PATH = os.path.join(BASE_DIR, "../statistics", "exercise_level_check.txt")
+    NOW = datetime.now()
+    with open(EXERCISE_CHECKED_PATH, "a", encoding="utf-8") as file:
+        file.write(f"\n{NOW}, {exercise}, {level}")
+    return
+
+
 def print_session(session):
     print_session_dictionary(session, progress)
     print_session_dictionary(session, score)

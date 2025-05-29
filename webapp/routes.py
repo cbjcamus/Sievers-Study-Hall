@@ -7,7 +7,7 @@ from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
 from webapp.session_management.pick_a_question import pick_a_question
-from webapp.session_management.session_ import progress, score, result
+from webapp.session_management.session_ import progress, score, result, print_exercise_level_checked
 from webapp.session_management.result import register_result
 from webapp.session_management.conditions import level_finished
 from webapp.session_management.normalization import get_list_of_correct_answers, is_equal
@@ -390,6 +390,8 @@ def check_answer(exercise, level):
         session[score][exercise][str(level)][nr] = True
 
     session.modified = True
+
+    print_exercise_level_checked(exercise, level)
 
     return redirect(url_for('routes.exercise', exercise=exercise, level=level))
 
