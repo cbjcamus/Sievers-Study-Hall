@@ -271,6 +271,7 @@ def exercise(exercise, level):
         return render_template("exercise/exercise_completed.html",
                                exercise=exercise,
                                level=level,
+                               score=write_score,
                                exercise_pages=EXERCISE_PAGES,
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,

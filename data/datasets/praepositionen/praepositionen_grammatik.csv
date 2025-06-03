@@ -56,7 +56,7 @@ Nr,level,question,answer,case,german,english
 55,1,Er betreut vier Klienten _____ Stunde.,pro,,Er betreut vier Klienten pro Stunde.,He sees four clients per hour.
 56,2,Das Bild hängt _____ der Wand.,an,,Das Bild hängt an der Wand.,The picture is hanging on the wall.
 57,2,Ich stehe _____ der Haltestelle.,an,,Ich stehe an der Haltestelle.,I am standing at the bus stop.
-58,2,Wir sitzen _____ dem Tisch.,an,,Wir sitzen an dem Tisch.,We are sitting at the table.
+58,2,Wir sitzen _____ Tisch.,am,,Wir sitzen am Tisch.,We are sitting at the table.
 59,2,Die Uhr hängt _____ der Wand.,an,,Die Uhr hängt an der Wand.,The clock is hanging on the wall.
 60,2,Der Spiegel ist _____ der Tür.,an,,Der Spiegel ist an der Tür.,The mirror is on the door.
 61,2,Das Buch liegt _____ dem Tisch.,auf,,Das Buch liegt auf dem Tisch.,The book is on the table.
@@ -78,7 +78,7 @@ Nr,level,question,answer,case,german,english
 77,2,Ich bin _____ der Schule.,in,,Ich bin in der Schule.,I am at school.
 78,2,Die Schuhe stehen _____ der Ecke.,in,,Die Schuhe stehen in der Ecke.,The shoes are in the corner.
 79,2,Er sitzt _____ seinem Zimmer.,in,,Er sitzt in seinem Zimmer.,He is sitting in his room.
-80,2,Die Milch ist _____ dem Kühlschrank.,in,,Die Milch ist in dem Kühlschrank.,The milk is in the fridge.
+80,2,Die Milch ist _____ Kühlschrank.,im,,Die Milch ist im Kühlschrank.,The milk is in the fridge.
 81,2,Der Stuhl steht _____ dem Tisch.,neben,,Der Stuhl steht neben dem Tisch.,The chair is next to the table.
 82,2,Die Bank ist _____ dem Supermarkt.,neben,,Die Bank ist neben dem Supermarkt.,The bank is next to the supermarket.
 83,2,Mein Haus ist _____ der Schule.,neben,,Mein Haus ist neben der Schule.,My house is next to the school.
@@ -106,7 +106,7 @@ Nr,level,question,answer,case,german,english
 105,2,Das Buch ist _____ den Heften auf dem Tisch.,zwischen,,Das Buch ist zwischen den Heften auf dem Tisch.,The book is between the notebooks on the table.
 106,3,Ich gehe _____ den Strand.,an,,Ich gehe an den Strand.,I am going to the beach.
 107,3,Wir fahren _____ die Nordsee.,an,,Wir fahren an die Nordsee.,We are driving to the North Sea.
-108,3,Er stellt das Glas _____ das Fenster.,an,,Er stellt das Glas an das Fenster.,He puts the glass by the window.
+108,3,Er stellt das Glas _____ Fenster.,ans,,Er stellt das Glas ans Fenster.,He puts the glass by the window.
 109,3,Sie hängt das Bild _____ die Wand.,an,,Sie hängt das Bild an die Wand.,She hangs the picture on the wall.
 110,3,Wir setzen uns _____ den Tisch.,an,,Wir setzen uns an den Tisch.,We sit down at the table.
 111,3,Ich gehe _____ den Markt.,auf,,Ich gehe auf den Markt.,I am going to the market.
@@ -127,7 +127,7 @@ Nr,level,question,answer,case,german,english
 126,3,Ich gehe _____ die Schule.,in,,Ich gehe in die Schule.,I am going to school.
 127,3,Er legt das Buch _____ den Rucksack.,in,,Er legt das Buch in den Rucksack.,He puts the book into the backpack.
 128,3,Wir fahren _____ die Stadt.,in,,Wir fahren in die Stadt.,We are driving to the city.
-129,3,Sie geht _____ das Zimmer.,in,,Sie geht in das Zimmer.,She goes into the room.
+129,3,Sie geht _____ Zimmer.,ins,,Sie geht ins Zimmer.,She goes into the room.
 130,3,Das Kind springt _____ den Pool.,in,,Das Kind springt in den Pool.,The child jumps into the pool.
 131,3,Ich fahre _____ Berlin.,nach,,Ich fahre nach Berlin.,I am driving to Berlin.
 132,3,Er geht _____ Hause.,nach,,Er geht nach Hause.,He is going home.
@@ -137,13 +137,13 @@ Nr,level,question,answer,case,german,english
 136,3,Ich komme gerade _____ der Arbeit.,von,,Ich komme gerade von der Arbeit.,I just came from work.
 137,3,Er fährt _____ der Schule nach Hause.,von,,Er fährt von der Schule nach Hause.,He is driving home from school.
 138,3,Wir kommen _____ einer langen Reise.,von,,Wir kommen von einer langen Reise.,We are coming from a long trip.
-139,3,Sie kommt _____ dem Arzt zurück.,von,,Sie kommt von dem Arzt zurück.,She is coming back from the doctor.
+139,3,Sie kommt _____ Arzt zurück.,vom,,Sie kommt vom Arzt zurück.,She is coming back from the doctor.
 140,3,Ich habe das Buch _____ meinem Freund bekommen.,von,,Ich habe das Buch von meinem Freund bekommen.,I got the book from my friend.
 141,3,Ich gehe _____ meinem Freund.,zu,,Ich gehe zu meinem Freund.,I am going to my friend’s place.
 142,3,Sie fährt _____ ihrer Oma.,zu,,Sie fährt zu ihrer Oma.,She is driving to her grandma’s house.
-143,3,Wir gehen zu Fuß _____ der Schule.,zu,,Wir gehen zu Fuß zu der Schule.,We are walking to school.
+143,3,Wir gehen zu Fuß _____ Schule.,zur,,Wir gehen zu Fuß zur Schule.,We are walking to school.
 144,3,Er fährt mit dem Bus _____ seiner Arbeit.,zu,,Er fährt mit dem Bus zu seiner Arbeit.,He takes the bus to his workplace.
-145,3,Ich bringe das Paket _____ der Post.,zu,,Ich bringe das Paket zu der Post.,I am taking the package to the post office.
+145,3,Ich bringe das Paket _____ Post.,zur,,Ich bringe das Paket zur Post.,I am taking the package to the post office.
 146,4,Das Geschenk ist _____ dich.,für,,Das Geschenk ist für dich.,The gift is for you.
 147,4,Ich kaufe ein Buch _____ meinen Freund.,für,,Ich kaufe ein Buch für meinen Freund.,I am buying a book for my friend.
 148,4,Sie arbeitet als Beraterin _____ eine große Firma.,für,,Sie arbeitet als Beraterin für eine große Firma.,She works for a big company as a consultant.
@@ -237,7 +237,7 @@ Nr,level,question,answer,case,german,english
 236,6,_____ Januar wird das Wetter kälter.,Ab,,Ab Januar wird das Wetter kälter.,"From January on, the weather will get colder."
 237,6,Das Bild hängt _____ der Wand.,an,,Das Bild hängt an der Wand.,The picture is hanging on the wall.
 238,6,Ich stehe _____ der Haltestelle.,an,,Ich stehe an der Haltestelle.,I am standing at the bus stop.
-239,6,Wir sitzen _____ dem Tisch.,an,,Wir sitzen an dem Tisch.,We are sitting at the table.
+239,6,Wir sitzen _____ Tisch.,am,,Wir sitzen am Tisch.,We are sitting at the table.
 240,6,Die Uhr hängt _____ der Wand.,an,,Die Uhr hängt an der Wand.,The clock is hanging on the wall.
 241,6,Der Spiegel ist _____ der Tür.,an,,Der Spiegel ist an der Tür.,The mirror is on the door.
 242,6,Die Blumen stehen _____ dem Fensterbrett.,auf,,Die Blumen stehen auf dem Fensterbrett.,The flowers are on the windowsill.
@@ -282,11 +282,11 @@ Nr,level,question,answer,case,german,english
 281,6,Ich komme gerade _____ der Arbeit.,von,,Ich komme gerade von der Arbeit.,I just came from work.
 282,6,Er fährt _____ der Schule nach Hause.,von,,Er fährt von der Schule nach Hause.,He is driving home from school.
 283,6,Wir kommen _____ einer langen Reise.,von,,Wir kommen von einer langen Reise.,We are coming from a long trip.
-284,6,Sie kommt _____ dem Arzt zurück.,von,,Sie kommt von dem Arzt zurück.,She is coming back from the doctor.
+284,6,Sie kommt _____ Arzt zurück.,vom,,Sie kommt vom Arzt zurück.,She is coming back from the doctor.
 285,6,_____ dem Schlafen lese ich ein Buch.,Vor,,Vor dem Schlafen lese ich ein Buch.,"Before sleeping, I read a book."
 286,6,_____ einem Jahr bin ich nach Deutschland gezogen.,Vor,,Vor einem Jahr bin ich nach Deutschland gezogen.,"A year ago, I moved to Germany."
 287,6,Das Auto steht _____ dem Haus.,vor,,Das Auto steht vor dem Haus.,The car is in front of the house.
-288,6,Wir gehen zu Fuß _____ der Schule.,zu,,Wir gehen zu Fuß zu der Schule.,We are walking to school.
+288,6,Wir gehen zu Fuß _____ Schule.,zur,,Wir gehen zu Fuß zur Schule.,We are walking to school.
 289,6,Er fährt mit dem Bus _____ seiner Arbeit.,zu,,Er fährt mit dem Bus zu seiner Arbeit.,He takes the bus to his workplace.
 290,6,Die Pause ist _____ den zwei Unterrichtsstunden.,zwischen,,Die Pause ist zwischen den zwei Unterrichtsstunden.,The break is between the two lessons.
 291,6,_____ Weihnachten und Neujahr habe ich Urlaub.,Zwischen,,Zwischen Weihnachten und Neujahr habe ich Urlaub.,"Between Christmas and New Year, I have vacation."
@@ -296,7 +296,7 @@ Nr,level,question,answer,case,german,english
 295,7,Der Bus fährt _____ 8 Uhr jede Stunde.,ab,,Der Bus fährt ab 8 Uhr jede Stunde.,The bus leaves every hour from 8 AM.
 296,7,Ich gehe _____ den Strand.,an,,Ich gehe an den Strand.,I am going to the beach.
 297,7,Wir fahren _____ die Nordsee.,an,,Wir fahren an die Nordsee.,We are driving to the North Sea.
-298,7,Er stellt das Glas _____ das Fenster.,an,,Er stellt das Glas an das Fenster.,He puts the glass by the window.
+298,7,Er stellt das Glas _____ Fenster.,ans,,Er stellt das Glas ans Fenster.,He puts the glass by the window.
 299,7,Sie hängt das Bild _____ die Wand.,an,,Sie hängt das Bild an die Wand.,She hangs the picture on the wall.
 300,7,Wir setzen uns _____ den Tisch.,an,,Wir setzen uns an den Tisch.,We sit down at the table.
 301,7,Er legt das Buch _____ den Tisch.,auf,,Er legt das Buch auf den Tisch.,He puts the book on the table.
@@ -314,11 +314,11 @@ Nr,level,question,answer,case,german,english
 313,7,Das Auto fuhr _____ einen Baum.,gegen,,Das Auto fuhr gegen einen Baum.,The car crashed into a tree.
 314,7,Das Kino ist _____ dem Supermarkt.,hinter,,Das Kino ist hinter dem Supermarkt.,The cinema is behind the supermarket.
 315,7,Der Ball liegt _____ dem Sofa.,hinter,,Der Ball liegt hinter dem Sofa.,The ball is behind the sofa.
-316,7,Die Milch ist _____ dem Kühlschrank.,in,,Die Milch ist in dem Kühlschrank.,The milk is in the fridge.
+316,7,Die Milch ist _____ Kühlschrank.,im,,Die Milch ist im Kühlschrank.,The milk is in the fridge.
 317,7,Ich gehe _____ die Schule.,in,,Ich gehe in die Schule.,I am going to school.
 318,7,Er legt das Buch _____ den Rucksack.,in,,Er legt das Buch in den Rucksack.,He puts the book into the backpack.
 319,7,Wir fahren _____ die Stadt.,in,,Wir fahren in die Stadt.,We are driving to the city.
-320,7,Sie geht _____ das Zimmer.,in,,Sie geht in das Zimmer.,She goes into the room.
+320,7,Sie geht _____ Zimmer.,ins,,Sie geht ins Zimmer.,She goes into the room.
 321,7,Ich schreibe _____ einem Bleistift.,mit,,Ich schreibe mit einem Bleistift.,I write with a pencil.
 322,7,Er geht _____ Hause.,nach,,Er geht nach Hause.,He is going home.
 323,7,Wir reisen _____ Italien.,nach,,Wir reisen nach Italien.,We are traveling to Italy.
@@ -345,7 +345,7 @@ Nr,level,question,answer,case,german,english
 344,7,Der Bus hält _____ der Schule.,vor,,Der Bus hält vor der Schule.,The bus stops in front of the school.
 345,7,Ich warte _____ dem Kino.,vor,,Ich warte vor dem Kino.,I am waiting in front of the cinema.
 346,7,Die Katze sitzt _____ der Tür.,vor,,Die Katze sitzt vor der Tür.,The cat is sitting in front of the door.
-347,7,Ich bringe das Paket _____ der Post.,zu,,Ich bringe das Paket zu der Post.,I am taking the package to the post office.
+347,7,Ich bringe das Paket _____ Post.,zur,,Ich bringe das Paket zur Post.,I am taking the package to the post office.
 348,7,Die Lampe hängt _____ den Regalen.,zwischen,,Die Lampe hängt zwischen den Regalen.,The lamp is hanging between the shelves.
 349,7,Mein Auto ist _____ zwei anderen Autos geparkt.,zwischen,,Mein Auto ist zwischen zwei anderen Autos geparkt.,My car is parked between two other cars.
 350,7,Das Café liegt _____ dem Supermarkt und der Bank.,zwischen,,Das Café liegt zwischen dem Supermarkt und der Bank.,The café is between the supermarket and the bank.
@@ -685,7 +685,7 @@ Nr,level,question,answer,case,german,english
 684,14,Einer aktuellen Studie _____ schlafen Jugendliche heutzutage weniger als früher.,zufolge,,Einer aktuellen Studie zufolge schlafen Jugendliche heutzutage weniger als früher.,"According to a recent study, teenagers sleep less nowadays than in the past."
 685,14,Dem Bericht _____ wird die Wirtschaft im nächsten Jahr langsamer wachsen.,zufolge,,Dem Bericht zufolge wird die Wirtschaft im nächsten Jahr langsamer wachsen.,"According to the report, the economy will grow more slowly next year."
 686,14,Den Experten _____ ist eine schnelle Lösung des Problems unwahrscheinlich.,zufolge,,Den Experten zufolge ist eine schnelle Lösung des Problems unwahrscheinlich.,"According to experts, a quick solution to the problem is unlikely."
-687,14,Medienberichten _____ gab es mehrere Verletzte bei dem Unfall.,zufolge,,Medienberichten zufolge gab es mehrere Verletzte bei dem Unfall.,"According to media reports, there were several injuries in the accident."
+687,14,Medienberichten _____ gab es mehrere Verletzte beim Unfall.,zufolge,,Medienberichten zufolge gab es mehrere Verletzte beim Unfall.,"According to media reports, there were several injuries in the accident."
 688,14,Der Polizei _____ wurde der Verdächtige am frühen Morgen festgenommen.,zufolge,,Der Polizei zufolge wurde der Verdächtige am frühen Morgen festgenommen.,"According to the police, the suspect was arrested early in the morning."
 689,15,_____ wachsender Erfahrung wurde er immer selbstsicherer.,Mit,,Mit wachsender Erfahrung wurde er immer selbstsicherer.,"With growing experience, he became more and more confident."
 690,15,_____ jeder Wiederholung verstand ich den Text besser.,Mit,,Mit jeder Wiederholung verstand ich den Text besser.,"With each repetition, I understood the text better."
@@ -762,7 +762,7 @@ Nr,level,question,answer,case,german,english
 761,15,_____ Förderung der Kreativität wurden spezielle Workshops organisiert.,Zur,,Zur Förderung der Kreativität wurden spezielle Workshops organisiert.,Special workshops were organized to encourage creativity.
 762,15,_____ Erhöhung der Sicherheit wurden neue Kameras installiert.,Zur,,Zur Erhöhung der Sicherheit wurden neue Kameras installiert.,New cameras were installed to increase security.
 763,15,_____ Verbesserung der Zusammenarbeit wurden regelmäßige Meetings eingeführt.,Zur,,Zur Verbesserung der Zusammenarbeit wurden regelmäßige Meetings eingeführt.,Regular meetings were introduced to improve collaboration.
-764,16,"along, down",entlang,Accusative,,
+764,16,"along, down",entlang,Accusative or Genitive,,
 765,16,with the help of,mithilfe,Genitive,,
 766,16,"in view of, considering, in light of",angesichts,Genitive,,
 767,16,based on,anhand,Genitive,,
@@ -805,7 +805,7 @@ Nr,level,question,answer,case,german,english
 804,17,_____ den Erwartungen verlief das Projekt reibungslos.,Entgegen,,Entgegen den Erwartungen verlief das Projekt reibungslos.,"Contrary to expectations, the project went smoothly."
 805,17,_____ seiner Aussage war er zur Tatzeit am Tatort.,Entgegen,,Entgegen seiner Aussage war er zur Tatzeit am Tatort.,"Contrary to his statement, he was at the scene of the crime."
 806,17,_____ dem Rat ihrer Eltern zog sie ins Ausland.,Entgegen,,Entgegen dem Rat ihrer Eltern zog sie ins Ausland.,"Against her parents’ advice, she moved abroad."
-807,17,_____ den Regeln nahm er unerlaubt an dem Wettbewerb teil.,Entgegen,,Entgegen den Regeln nahm er unerlaubt an dem Wettbewerb teil.,"He took part in the competition without permission, against the rules."
+807,17,_____ den Regeln nahm er unerlaubt am Wettbewerb teil.,Entgegen,,Entgegen den Regeln nahm er unerlaubt am Wettbewerb teil.,"He took part in the competition without permission, against the rules."
 808,17,_____ der Meinung vieler Experten stieg der Aktienkurs weiter.,Entgegen,,Entgegen der Meinung vieler Experten stieg der Aktienkurs weiter.,"Contrary to the opinion of many experts, the stock price kept rising."
 809,17,_____ des starken Regens gab es Überschwemmungen in der Region.,Infolge,,Infolge des starken Regens gab es Überschwemmungen in der Region.,"As a result of the heavy rain, there were floods in the region."
 810,17,_____ der Wirtschaftskrise mussten viele Unternehmen schließen.,Infolge,,Infolge der Wirtschaftskrise mussten viele Unternehmen schließen.,"Due to the economic crisis, many businesses had to close."
@@ -832,7 +832,7 @@ Nr,level,question,answer,case,german,english
 831,18,"in the middle of, amid, surrounded by",inmitten,Genitive,,
 832,18,"on the other side of, beyond",jenseits,Genitive,,
 833,18,"by virtue of, by use of",kraft,Genitive,,
-834,19,"Alle Teilnehmer, _____ der neuen Kollegen, müssen an dem Meeting teilnehmen.",einschließlich,,"Alle Teilnehmer, einschließlich der neuen Kollegen, müssen an dem Meeting teilnehmen.","All participants, including the new colleagues, must attend the meeting."
+834,19,"Alle Teilnehmer, _____ der neuen Kollegen, müssen am Meeting teilnehmen.",einschließlich,,"Alle Teilnehmer, einschließlich der neuen Kollegen, müssen am Meeting teilnehmen.","All participants, including the new colleagues, must attend the meeting."
 835,19,"Die Reise kostet 1.200 Euro, _____ aller Gebühren und Steuern.",einschließlich,,"Die Reise kostet 1.200 Euro, einschließlich aller Gebühren und Steuern.","The trip costs 1,200 euros, including all fees and taxes."
 836,19,_____ des Anhangs umfasst der Bericht über 50 Seiten.,Einschließlich,,Einschließlich des Anhangs umfasst der Bericht über 50 Seiten.,"Including the appendix, the report consists of over 50 pages."
 837,19,_____ der Feiertage haben wir zehn freie Tage am Stück.,Einschließlich,,Einschließlich der Feiertage haben wir zehn freie Tage am Stück.,"Including the holidays, we have ten days off in a row."
@@ -899,7 +899,7 @@ Nr,level,question,answer,case,german,english
 898,21,_____ den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,Nebst,,Nebst den Gästen aus Deutschland kamen auch Freunde aus Frankreich zur Hochzeit.,"Along with the guests from Germany, friends from France also came to the wedding."
 899,21,_____ der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Oberhalb,,Oberhalb der Stadt liegt eine alte Burg mit beeindruckender Aussicht.,Above the city lies an old castle with an impressive view.
 900,21,Die Temperaturen sind _____ von 2.000 Metern deutlich kühler.,oberhalb,,Die Temperaturen sind oberhalb von 2.000 Metern deutlich kühler.,"Temperatures are significantly cooler above 2,000 meters."
-901,21,_____ der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,Oberhalb,,Oberhalb der Wolken konnte man von dem Flugzeug aus die Sonne sehen.,"Above the clouds, one could see the sun from the airplane."
+901,21,_____ der Wolken konnte man vom Flugzeug aus die Sonne sehen.,Oberhalb,,Oberhalb der Wolken konnte man vom Flugzeug aus die Sonne sehen.,"Above the clouds, one could see the sun from the airplane."
 902,21,Die Wohngegend _____ des Flusses gilt als besonders exklusiv.,oberhalb,,Die Wohngegend oberhalb des Flusses gilt als besonders exklusiv.,The residential area above the river is considered particularly exclusive.
 903,21,_____ der Schmerzgrenze sollte man keine weiteren Gewichte heben.,Oberhalb,,Oberhalb der Schmerzgrenze sollte man keine weiteren Gewichte heben.,"Above the pain threshold, one should not lift any more weights."
 904,21,"_____ der Regierung wurde betont, dass weitere Maßnahmen folgen werden.",Seitens,,"Seitens der Regierung wurde betont, dass weitere Maßnahmen folgen werden.","On the part of the government, it was emphasized that further measures will follow."

@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+from flask import request
 
 from data.data_processing.exercises import exercises
 
@@ -12,9 +13,9 @@ def print_exercise_level_completed(exercise, level):
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     EXERCISE_COMPLETED_PATH = os.path.join(BASE_DIR, "../statistics", "exercise_level_completed.txt")
     NOW = datetime.now()
-    print(f"{NOW}, {exercise}, {level}")
+    user_ip = request.remote_addr
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"{NOW}, {exercise}, {level}\n")
+        file.write(f"{user_ip}, {NOW}, {exercise}, {level}\n")
     return
 
 

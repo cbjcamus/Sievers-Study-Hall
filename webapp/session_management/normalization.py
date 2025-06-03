@@ -1,3 +1,5 @@
+import unicodedata
+
 from data.data_processing.exercises import konnektoren
 from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH, get_list_of_synonyms
 
@@ -23,6 +25,7 @@ def normalization(input_str, exercise):
     output = input_str.strip().lower()
     output = replace_sharp_s(output)
     output = remove_comma(output)
+    output = normalize_umlaut(output)
     output = search_for_main_synonym(output, exercise)
     return output
 
@@ -33,6 +36,10 @@ def replace_sharp_s(input_str):
 
 def remove_comma(input_str):
     return input_str.replace(",", "")
+
+
+def normalize_umlaut(input_str):
+    return unicodedata.normalize('NFC', input_str)
 
 
 def get_list_of_correct_answers(answer, exercise, file_path=SYNONYMS_PATH):

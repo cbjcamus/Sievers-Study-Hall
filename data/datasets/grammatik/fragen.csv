@@ -61,180 +61,192 @@ Nr,level,question,answer,german,english
 60,2,_____ Farben gefallen dir?,Welche,Welche Farben gefallen dir?,Which colors do you like?
 61,3,how much,wie viel,,
 62,3,how many,wie viele,,
-63,3,where to,wohin,,
-64,3,where from,woher,,
+63,3,"where to, whither",wohin,,
+64,3,"where from, whence",woher,,
 65,3,since when,seit wann,,
 66,3,until when,bis wann,,
 67,3,from when,ab wann,,
-68,3,how long,wie lange,,
-69,3,how late,wie spät,,
-70,3,how often,wie oft,,
-71,4,_____ gehst du?,Wohin,Wohin gehst du?,Where are you going?
-72,4,_____ fährt dieser Bus?,Wohin,Wohin fährt dieser Bus?,Where does this bus go?
-73,4,_____ fliegst du in den Urlaub?,Wohin,Wohin fliegst du in den Urlaub?,Where are you flying for vacation?
-74,4,_____ soll ich die Tasche stellen?,Wohin,Wohin soll ich die Tasche stellen?,Where should I put the bag?
-75,4,_____ gehen wir heute Abend essen?,Wohin,Wohin gehen wir heute Abend essen?,Where are we going to eat tonight?
-76,4,_____ kostet das Brot?,Wie viel,Wie viel kostet das Brot?,How much does the bread cost?
-77,4,_____ Wasser trinkst du am Tag?,Wie viel,Wie viel Wasser trinkst du am Tag?,How much water do you drink per day?
-78,4,_____ Mehl brauchst du?,Wie viel,Wie viel Mehl brauchst du?,How much flour do you need?
-79,4,_____ Zucker soll ich in den Tee geben?,Wie viel,Wie viel Zucker soll ich in den Tee geben?,How much sugar should I put in the tea?
-80,4,_____ Geld hast du dabei?,Wie viel,Wie viel Geld hast du dabei?,How much money do you have with you?
-81,4,_____ kommst du?,Woher,Woher kommst du?,Where are you from?
-82,4,_____ kennst du ihn?,Woher,Woher kennst du ihn?,Where do you know him from?
-83,4,_____ hast du dieses Buch?,Woher,Woher hast du dieses Buch?,Where did you get this book from?
-84,4,_____ weißt du das?,Woher,Woher weißt du das?,How do you know that? (Where do you know that from?)
-85,4,_____ kommt dieser Lärm?,Woher,Woher kommt dieser Lärm?,Where is this noise coming from?
-86,4,_____ Schüler sind heute im Klassenzimmer?,Wie viele,Wie viele Schüler sind heute im Klassenzimmer?,How many students are in the classroom today?
-87,4,_____ Katzen leben bei dir zu Hause?,Wie viele,Wie viele Katzen leben bei dir zu Hause?,How many cats live at your home?
-88,4,_____ Bücher liegen auf dem Tisch?,Wie viele,Wie viele Bücher liegen auf dem Tisch?,How many books are on the table?
-89,4,_____ Personen arbeiten in dieser Firma?,Wie viele,Wie viele Personen arbeiten in dieser Firma?,How many people work in this company?
-90,4,_____ Tage hat der Monat Februar?,Wie viele,Wie viele Tage hat der Monat Februar?,How many days does the month of February have?
-91,4,_____ lernst du Deutsch?,Seit wann,Seit wann lernst du Deutsch?,Since when have you been learning German?
-92,4,_____ wohnst du in dieser Stadt?,Seit wann,Seit wann wohnst du in dieser Stadt?,Since when have you been living in this city?
-93,4,_____ arbeitest du in dieser Firma?,Seit wann,Seit wann arbeitest du in dieser Firma?,Since when have you been working at this company?
-94,4,_____ kennst du ihn?,Seit wann,Seit wann kennst du ihn?,Since when have you known him?
-95,4,_____ hast du ein Auto?,Seit wann,Seit wann hast du ein Auto?,Since when have you had a car?
-96,4,_____ arbeitest du heute?,Bis wann,Bis wann arbeitest du heute?,Until when are you working today?
-97,4,_____ bleibt das Museum geöffnet?,Bis wann,Bis wann bleibt das Museum geöffnet?,Until when is the museum open?
-98,4,_____ muss ich das Formular abgeben?,Bis wann,Bis wann muss ich das Formular abgeben?,Until when do I have to submit the form?
-99,4,_____ dauert der Kurs?,Bis wann,Bis wann dauert der Kurs?,Until when does the course last?
-100,4,_____ bleibst du in Deutschland?,Bis wann,Bis wann bleibst du in Deutschland?,Until when are you staying in Germany?
-101,4,_____ arbeitest du morgen?,Ab wann,Ab wann arbeitest du morgen?,From when are you working tomorrow?
-102,4,_____ ist das Büro geöffnet?,Ab wann,Ab wann ist das Büro geöffnet?,From when is the office open?
-103,4,_____ beginnt der Film?,Ab wann,Ab wann beginnt der Film?,From when does the movie start?
-104,4,_____ kann man die Wohnung mieten?,Ab wann,Ab wann kann man die Wohnung mieten?,From when can one rent the apartment?
-105,4,_____ gilt der neue Fahrplan?,Ab wann,Ab wann gilt der neue Fahrplan?,From when is the new schedule valid?
-106,4,_____ lernst du schon Deutsch?,Wie lange,Wie lange lernst du schon Deutsch?,How long have you been learning German?
-107,4,_____ dauert der Film?,Wie lange,Wie lange dauert der Film?,How long does the movie last?
-108,4,_____ bleibst du im Urlaub?,Wie lange,Wie lange bleibst du im Urlaub?,How long are you staying on vacation?
-109,4,_____ musst du noch arbeiten?,Wie lange,Wie lange musst du noch arbeiten?,How long do you still have to work?
-110,4,_____ wohnst du schon hier?,Wie lange,Wie lange wohnst du schon hier?,How long have you been living here?
-111,4,_____ ist es?,Wie spät,Wie spät ist es?,What time is it?
-112,4,"Weißt du, _____ es ist?",wie spät,"Weißt du, wie spät es ist?",Do you know what time it is?
-113,4,_____ beginnt der Unterricht?,Wie spät,Wie spät beginnt der Unterricht?,What time does the class start?
-114,4,_____ kommt der Bus?,Wie spät,Wie spät kommt der Bus?,What time does the bus arrive?
-115,4,_____ gehst du normalerweise ins Bett?,Wie spät,Wie spät gehst du normalerweise ins Bett?,What time do you usually go to bed?
-116,4,_____ gehst du ins Fitnessstudio?,Wie oft,Wie oft gehst du ins Fitnessstudio?,How often do you go to the gym?
-117,4,_____ siehst du deine Familie?,Wie oft,Wie oft siehst du deine Familie?,How often do you see your family?
-118,4,_____ lernst du Deutsch pro Woche?,Wie oft,Wie oft lernst du Deutsch pro Woche?,How often do you study German per week?
-119,4,_____ machst du Urlaub?,Wie oft,Wie oft machst du Urlaub?,How often do you go on vacation?
-120,4,_____ kaufst du online ein?,Wie oft,Wie oft kaufst du online ein?,How often do you shop online?
-121,5,whom (accusative),wen,,
-122,5,to whom (dative),wem,,
-123,5,whose (genitive),wessen,,
-124,5,which (masculin accusative),welchen,,
-125,5,which (masculin dative),welchem,,
-126,5,which (neuter accusative),welches,,
-127,5,which (neuter dative),welchem,,
-128,5,which (feminin accusative),welche,,
-129,5,which (feminin dative),welcher,,
-130,5,which (plural accusative),welche,,
-131,5,which (plural dative),welchen,,
-132,5,how many (accusative),wie viele,,
-133,5,how many (dative),wie vielen,,
-134,5,how many (genitive),wie vieler,,
-135,6,_____ gehört dieses Buch?,Wem,Wem gehört dieses Buch?,To whom does this book belong?
-136,6,_____ hast du das Geschenk gegeben?,Wem,Wem hast du das Geschenk gegeben?,To whom did you give the gift?
-137,6,_____ kann ich bei diesem Problem helfen?,Wem,Wem kann ich bei diesem Problem helfen?,Whom can I help with this problem?
-138,6,_____ vertraust du am meisten?,Wem,Wem vertraust du am meisten?,Whom do you trust the most?
-139,6,_____ hast du die Nachricht geschickt?,Wem,Wem hast du die Nachricht geschickt?,To whom did you send the message?
-140,6,_____ hast du gestern im Park getroffen?,Wen,Wen hast du gestern im Park getroffen?,Whom did you meet in the park yesterday?
-141,6,_____ rufst du gerade an?,Wen,Wen rufst du gerade an?,Whom are you calling right now?
-142,6,_____ magst du am liebsten in deiner Klasse?,Wen,Wen magst du am liebsten in deiner Klasse?,Whom do you like the most in your class?
-143,6,_____ hast du zu deiner Geburtstagsfeier eingeladen?,Wen,Wen hast du zu deiner Geburtstagsfeier eingeladen?,Whom did you invite to your birthday party?
-144,6,_____ siehst du auf dem Foto?,Wen,Wen siehst du auf dem Foto?,Whom do you see in the photo?
-145,6,_____ Auto steht vor dem Haus?,Wessen,Wessen Auto steht vor dem Haus?,Whose car is parked in front of the house?
-146,6,"_____ Idee war es, in den Urlaub nach Italien zu fahren?",Wessen,"Wessen Idee war es, in den Urlaub nach Italien zu fahren?",Whose idea was it to go on vacation to Italy?
-147,6,_____ Tasche hast du mitgenommen?,Wessen,Wessen Tasche hast du mitgenommen?,Whose bag did you take?
-148,6,_____ Meinung zählt hier am meisten?,Wessen,Wessen Meinung zählt hier am meisten?,Whose opinion matters the most here?
-149,6,_____ Buch hast du dir ausgeliehen?,Wessen,Wessen Buch hast du dir ausgeliehen?,Whose book did you borrow?
-150,6,_____ Film möchtest du sehen?,Welchen,Welchen Film möchtest du sehen?,Which movie would you like to watch?
-151,6,_____ Kuchen soll ich kaufen?,Welchen,Welchen Kuchen soll ich kaufen?,Which cake should I buy?
-152,6,_____ Lehrer hast du gestern getroffen?,Welchen,Welchen Lehrer hast du gestern getroffen?,Which teacher did you meet yesterday?
-153,6,_____ Pullover findest du schöner?,Welchen,Welchen Pullover findest du schöner?,Which sweater do you find nicer?
-154,6,_____ Stift brauchst du für die Prüfung?,Welchen,Welchen Stift brauchst du für die Prüfung?,Which pen do you need for the exam?
-155,6,_____ Freund gehst du ins Kino?,Mit welchem,Mit welchem Freund gehst du ins Kino?,With which friend are you going to the cinema?
-156,6,_____ Lehrer hast du Deutsch gelernt?,Bei welchem,Bei welchem Lehrer hast du Deutsch gelernt?,With which teacher did you learn German?
-157,6,_____ Arzt gehst du?,Zu welchem,Zu welchem Arzt gehst du?,To which doctor are you going?
-158,6,_____ Mann hast du das gehört?,Von welchem,Von welchem Mann hast du das gehört?,From which man did you hear that?
-159,6,_____ Bus musst du suchen?,Nach welchem,Nach welchem Bus musst du suchen?,Which bus do you have to look for?
-160,6,_____ Buch soll ich lesen?,Welches,Welches Buch soll ich lesen?,Which book should I read?
-161,6,_____ Essen möchtest du bestellen?,Welches,Welches Essen möchtest du bestellen?,Which food would you like to order?
-162,6,_____ Zimmer hast du reserviert?,Welches,Welches Zimmer hast du reserviert?,Which room did you reserve?
-163,6,_____ Getränk hast du genommen?,Welches,Welches Getränk hast du genommen?,Which drink did you take?
-164,6,_____ Lied hörst du gerade?,Welches,Welches Lied hörst du gerade?,Which song are you listening to right now?
-165,6,_____ Kind spielst du?,Mit welchem,Mit welchem Kind spielst du?,With which child are you playing?
-166,6,_____ Zimmer schläfst du?,In welchem,In welchem Zimmer schläfst du?,In which room do you sleep?
-167,6,_____ Glas trinkst du?,Aus welchem,Aus welchem Glas trinkst du?,From which glass are you drinking?
-168,6,_____ Hotel hast du gebucht?,Bei welchem,Bei welchem Hotel hast du gebucht?,At which hotel did you book?
-169,6,_____ Tier hast du geträumt?,Von welchem,Von welchem Tier hast du geträumt?,About which animal did you dream?
-170,6,_____ Straße soll ich nehmen?,Welche,Welche Straße soll ich nehmen?,Which street should I take?
-171,6,_____ Lampe hast du gekauft?,Welche,Welche Lampe hast du gekauft?,Which lamp did you buy?
-172,6,_____ Tasche gehört dir?,Welche,Welche Tasche gehört dir?,Which bag belongs to you?
-173,6,_____ Blume möchtest du schenken?,Welche,Welche Blume möchtest du schenken?,Which flower would you like to give (as a gift)?
-174,6,_____ Sprache lernst du gerade?,Welche,Welche Sprache lernst du gerade?,Which language are you currently learning?
-175,6,_____ Freundin gehst du ins Café?,Mit welcher,Mit welcher Freundin gehst du ins Café?,With which (female) friend are you going to the café?
-176,6,_____ Schule lernst du?,Bei welcher,Bei welcher Schule lernst du?,At which school are you studying?
-177,6,_____ Ärztin gehst du?,Zu welcher,Zu welcher Ärztin gehst du?,To which (female) doctor are you going?
-178,6,_____ Frau hast du das Geschenk bekommen?,Von welcher,Von welcher Frau hast du das Geschenk bekommen?,From which woman did you get the gift?
-179,6,_____ Musik tanzt du gern?,Nach welcher,Nach welcher Musik tanzt du gern?,To which music do you like to dance?
-180,6,_____ Bücher hast du gekauft?,Welche,Welche Bücher hast du gekauft?,Which books did you buy?
-181,6,_____ Filme schaust du am liebsten?,Welche,Welche Filme schaust du am liebsten?,Which movies do you like watching the most?
-182,6,_____ Sprachen lernst du?,Welche,Welche Sprachen lernst du?,Which languages are you learning?
-183,6,_____ Schuhe möchtest du anziehen?,Welche,Welche Schuhe möchtest du anziehen?,Which shoes would you like to wear?
-184,6,_____ Freunde hast du eingeladen?,Welche,Welche Freunde hast du eingeladen?,Which friends did you invite?
-185,6,_____ Freunden gehst du aus?,Mit welchen,Mit welchen Freunden gehst du aus?,With which friends are you going out?
-186,6,_____ Kursen gehst du am Wochenende?,Zu welchen,Zu welchen Kursen gehst du am Wochenende?,To which courses do you go on the weekend?
-187,6,_____ Firmen hast du dich beworben?,Bei welchen,Bei welchen Firmen hast du dich beworben?,At which companies did you apply?
-188,6,_____ Lehrern hast du das gelernt?,Von welchen,Von welchen Lehrern hast du das gelernt?,From which teachers did you learn that?
-189,6,_____ Ländern warst du schon?,In welchen,In welchen Ländern warst du schon?,In which countries have you already been?
-190,6,_____ Äpfel hast du gekauft?,Wie viele,Wie viele Äpfel hast du gekauft?,How many apples did you buy?
-191,6,"Weißt du, _____ Seiten wir für die Prüfung lesen müssen?",wie viele,"Weißt du, wie viele Seiten wir für die Prüfung lesen müssen?",Do you know how many pages we have to read for the exam?
-192,6,_____ Kilometer bist du gestern gelaufen?,Wie viele,Wie viele Kilometer bist du gestern gelaufen?,How many kilometers did you run yesterday?
-193,6,"Kannst du mir sagen, _____ Fehler ich gemacht habe?",wie viele,"Kannst du mir sagen, wie viele Fehler ich gemacht habe?",Can you tell me how many mistakes I made?
-194,6,_____ Filme habt ihr am Wochenende geschaut?,Wie viele,Wie viele Filme habt ihr am Wochenende geschaut?,How many movies did you watch over the weekend?
-195,6,_____ Freunden gehst du heute Abend ins Kino?,Mit wie vielen,Mit wie vielen Freunden gehst du heute Abend ins Kino?,With how many friends are you going to the cinema tonight?
-196,6,_____ Kursen hast du dieses Semester teilgenommen?,An wie vielen,An wie vielen Kursen hast du dieses Semester teilgenommen?,How many courses did you attend this semester?
-197,6,_____ Meetings musst du diese Woche noch?,Zu wie vielen,Zu wie vielen Meetings musst du diese Woche noch?,How many meetings do you still have to go to this week?
-198,6,_____ Ländern wird Deutschland umgeben?,Von wie vielen,Von wie vielen Ländern wird Deutschland umgeben?,How many countries border Germany?
-199,6,_____ Konzerten warst du schon dieses Jahr?,Auf wie vielen,Auf wie vielen Konzerten warst du schon dieses Jahr?,How many concerts have you been to this year?
-200,6,"Erinnerst du dich, _____ Gäste wir uns kümmern mussten?",wie vieler,"Erinnerst du dich, wie vieler Gäste wir uns kümmern mussten?",Do you remember how many guests we had to take care of?
-201,6,"Ich war überrascht, _____ Fehler der Bericht enthielt.",wie vieler,"Ich war überrascht, wie vieler Fehler der Bericht enthielt.",I was surprised how many mistakes the report contained.
-202,6,"Man kann nie sicher sein, _____ Menschen diese Information erreicht hat.",wie vieler,"Man kann nie sicher sein, wie vieler Menschen diese Information erreicht hat.",You can never be sure how many people this information reached.
-203,6,"Sie fragte sich, _____ Dinge sie sich eigentlich entledigen sollte.",wie vieler,"Sie fragte sich, wie vieler Dinge sie sich eigentlich entledigen sollte.",She wondered how many things she should actually get rid of.
-204,6,"Wir waren beeindruckt, _____ Sprachen der Redner mächtig war.",wie vieler,"Wir waren beeindruckt, wie vieler Sprachen der Redner mächtig war.",We were impressed by how many languages the speaker was fluent in.
-205,7,What kind of,Was für,,
-206,7,How much longer,Wie lange noch,,
-207,7,"How is it that, How come that","Wie kommt es, dass",,
-208,7,Unter what conditions,Unter welchen Bedingungen,,
-209,7,To what extent,Inwieweit,,
-210,8,_____ Musik hörst du am liebsten?,Was für,Was für Musik hörst du am liebsten?,What kind of music do you like to listen to most?
-211,8,_____ Filme schaust du normalerweise?,Was für,Was für Filme schaust du normalerweise?,What kind of movies do you usually watch?
-212,8,_____ ein Auto möchtest du später kaufen?,Was für,Was für ein Auto möchtest du später kaufen?,What kind of car would you like to buy later?
-213,8,_____ Leute arbeiten in deiner Firma?,Was für,Was für Leute arbeiten in deiner Firma?,What kind of people work at your company?
-214,8,_____ Bücher interessieren dich?,Was für,Was für Bücher interessieren dich?,What kind of books are you interested in?
-225,8,_____ müssen wir auf eine Entscheidung der Behörde warten?,Wie lange noch,Wie lange noch müssen wir auf eine Entscheidung der Behörde warten?,How much longer do we have to wait for a decision from the authorities?
-226,8,"_____ willst du dir das gefallen lassen, ohne etwas zu unternehmen?",Wie lange noch,"Wie lange noch willst du dir das gefallen lassen, ohne etwas zu unternehmen?",How much longer are you going to put up with this without taking action?
-227,8,_____ soll diese Unsicherheit in der Wirtschaft andauern?,Wie lange noch,Wie lange noch soll diese Unsicherheit in der Wirtschaft andauern?,How much longer is this uncertainty in the economy supposed to continue?
-228,8,"_____ können wir das aktuelle System aufrechterhalten, bevor es zusammenbricht?",Wie lange noch,"Wie lange noch können wir das aktuelle System aufrechterhalten, bevor es zusammenbricht?",How much longer can we maintain the current system before it collapses?
-229,8,"_____ wird es dauern, bis endlich nachhaltige Lösungen umgesetzt werden?",Wie lange noch,"Wie lange noch wird es dauern, bis endlich nachhaltige Lösungen umgesetzt werden?",How much longer will it take until sustainable solutions are finally implemented?
-230,8,_____ wäre ein Kompromiss für beide Seiten akzeptabel?,Unter welchen Bedingungen,Unter welchen Bedingungen wäre ein Kompromiss für beide Seiten akzeptabel?,Under what conditions would a compromise be acceptable for both sides?
-231,8,"Kannst du mir sagen, _____ das Experiment durchgeführt wurde?",unter welchen Bedingungen,"Kannst du mir sagen, unter welchen Bedingungen das Experiment durchgeführt wurde?",Can you tell me under what conditions the experiment was conducted?
-232,8,_____ darf man diese Substanz überhaupt verwenden?,Unter welchen Bedingungen,Unter welchen Bedingungen darf man diese Substanz überhaupt verwenden?,Under what conditions is one even allowed to use this substance?
-233,8,_____ wäre eine Verlängerung des Vertrags möglich?,Unter welchen Bedingungen,Unter welchen Bedingungen wäre eine Verlängerung des Vertrags möglich?,Under what conditions would an extension of the contract be possible?
-234,8,_____ sind die Ergebnisse wissenschaftlich gültig?,Unter welchen Bedingungen,Unter welchen Bedingungen sind die Ergebnisse wissenschaftlich gültig?,Under what conditions are the results scientifically valid?
-235,8,_____ trotz aller Bemühungen keine Fortschritte erkennbar sind?,"Wie kommt es, dass","Wie kommt es, dass trotz aller Bemühungen keine Fortschritte erkennbar sind?",How is it that no progress is visible despite all the efforts?
-236,8,"_____ du immer so ruhig bleibst, selbst in stressigen Situationen?","Wie kommt es, dass","Wie kommt es, dass du immer so ruhig bleibst, selbst in stressigen Situationen?","How is it that you always stay so calm, even in stressful situations?"
-237,8,_____ so viele Menschen falsche Informationen glauben?,"Wie kommt es, dass","Wie kommt es, dass so viele Menschen falsche Informationen glauben?",How is it that so many people believe false information?
-238,8,_____ das Unternehmen plötzlich so hohe Verluste macht?,"Wie kommt es, dass","Wie kommt es, dass das Unternehmen plötzlich so hohe Verluste macht?",How is it that the company is suddenly incurring such heavy losses?
-239,8,_____ bestimmte Entscheidungen nicht transparent kommuniziert wurden?,"Wie kommt es, dass","Wie kommt es, dass bestimmte Entscheidungen nicht transparent kommuniziert wurden?",How is it that certain decisions were not communicated transparently?
-215,8,"Es ist unklar, _____ die neuen Maßnahmen tatsächlich Wirkung zeigen.",inwieweit,"Es ist unklar, inwieweit die neuen Maßnahmen tatsächlich Wirkung zeigen.",It is unclear to what extent the new measures are actually effective.
-216,8,"Wir müssen prüfen, _____ das Budget gekürzt werden kann, ohne die Qualität zu gefährden.",inwieweit,"Wir müssen prüfen, inwieweit das Budget gekürzt werden kann, ohne die Qualität zu gefährden.",We need to examine to what extent the budget can be cut without compromising quality.
-217,8,"Der Bericht zeigt, _____ externe Faktoren den Markt beeinflussen.",inwieweit,"Der Bericht zeigt, inwieweit externe Faktoren den Markt beeinflussen.",The report shows to what extent external factors influence the market.
-218,8,"_____ er für den Fehler verantwortlich ist, bleibt fraglich.",Inwieweit,"Inwieweit er für den Fehler verantwortlich ist, bleibt fraglich.",To what extent he is responsible for the error remains questionable.
-219,8,"Die Studie untersucht, _____ Digitalisierung die Arbeitswelt verändert hat.",inwieweit,"Die Studie untersucht, inwieweit Digitalisierung die Arbeitswelt verändert hat.",The study investigates to what extent digitalization has changed the working world.
-220,8,Der _____ Präsident der Vereinigten Staaten war Abraham Lincoln eigentlich?,wievielte,Der wievielte Präsident der Vereinigten Staaten war Abraham Lincoln eigentlich?,"Which number president of the United States was Abraham Lincoln, actually?"
-221,8,"Weißt du noch, die _____ Ausgabe der Konferenz das damals war?",wievielte,"Weißt du noch, die wievielte Ausgabe der Konferenz das damals war?",Do you remember which edition of the conference it was back then?
-222,8,"In der _____ Zeile beginnt die Passage, die du zitiert hast?",wievielten,"In der wievielten Zeile beginnt die Passage, die du zitiert hast?",In which line does the passage you quoted begin?
-223,8,Nach dem _____ Versuch hat er schließlich aufgegeben?,wievielten,Nach dem wievielten Versuch hat er schließlich aufgegeben?,After how many attempts did he finally give up?
-224,8,"Das ist jetzt schon das _____ Mal, dass sie denselben Fehler macht?",wievielte,"Das ist jetzt schon das wievielte Mal, dass sie denselben Fehler macht?",How many times has she made the same mistake now?
+68,3,"from when to when, from when until when",von wann bis wann,,
+69,3,how long,wie lange,,
+70,3,how late,wie spät,,
+71,3,how often,wie oft,,
+72,4,_____ gehst du?,Wohin,Wohin gehst du?,Where are you going?
+73,4,_____ fährt dieser Bus?,Wohin,Wohin fährt dieser Bus?,Where does this bus go?
+74,4,_____ fliegst du in den Urlaub?,Wohin,Wohin fliegst du in den Urlaub?,Where are you flying for vacation?
+75,4,_____ soll ich die Tasche stellen?,Wohin,Wohin soll ich die Tasche stellen?,Where should I put the bag?
+76,4,_____ gehen wir heute Abend essen?,Wohin,Wohin gehen wir heute Abend essen?,Where are we going to eat tonight?
+77,4,_____ kostet das Brot?,Wie viel,Wie viel kostet das Brot?,How much does the bread cost?
+78,4,_____ Wasser trinkst du am Tag?,Wie viel,Wie viel Wasser trinkst du am Tag?,How much water do you drink per day?
+79,4,_____ Mehl brauchst du?,Wie viel,Wie viel Mehl brauchst du?,How much flour do you need?
+80,4,_____ Zucker soll ich in den Tee geben?,Wie viel,Wie viel Zucker soll ich in den Tee geben?,How much sugar should I put in the tea?
+81,4,_____ Geld hast du dabei?,Wie viel,Wie viel Geld hast du dabei?,How much money do you have with you?
+82,4,_____ kommst du?,Woher,Woher kommst du?,Where are you from?
+83,4,_____ kennst du ihn?,Woher,Woher kennst du ihn?,Where do you know him from?
+84,4,_____ hast du dieses Buch?,Woher,Woher hast du dieses Buch?,Where did you get this book from?
+85,4,_____ weißt du das?,Woher,Woher weißt du das?,How do you know that? (Where do you know that from?)
+86,4,_____ kommt dieser Lärm?,Woher,Woher kommt dieser Lärm?,Where is this noise coming from?
+87,4,_____ Schüler sind heute im Klassenzimmer?,Wie viele,Wie viele Schüler sind heute im Klassenzimmer?,How many students are in the classroom today?
+88,4,_____ Katzen leben bei dir zu Hause?,Wie viele,Wie viele Katzen leben bei dir zu Hause?,How many cats live at your home?
+89,4,_____ Bücher liegen auf dem Tisch?,Wie viele,Wie viele Bücher liegen auf dem Tisch?,How many books are on the table?
+90,4,_____ Personen arbeiten in dieser Firma?,Wie viele,Wie viele Personen arbeiten in dieser Firma?,How many people work in this company?
+91,4,_____ Tage hat der Monat Februar?,Wie viele,Wie viele Tage hat der Monat Februar?,How many days does the month of February have?
+92,4,_____ lernst du Deutsch?,Seit wann,Seit wann lernst du Deutsch?,Since when have you been learning German?
+93,4,_____ wohnst du in dieser Stadt?,Seit wann,Seit wann wohnst du in dieser Stadt?,Since when have you been living in this city?
+94,4,_____ arbeitest du in dieser Firma?,Seit wann,Seit wann arbeitest du in dieser Firma?,Since when have you been working at this company?
+95,4,_____ kennst du ihn?,Seit wann,Seit wann kennst du ihn?,Since when have you known him?
+96,4,_____ hast du ein Auto?,Seit wann,Seit wann hast du ein Auto?,Since when have you had a car?
+97,4,_____ arbeitest du heute?,Bis wann,Bis wann arbeitest du heute?,Until when are you working today?
+98,4,_____ bleibt das Museum geöffnet?,Bis wann,Bis wann bleibt das Museum geöffnet?,Until when is the museum open?
+99,4,_____ muss ich das Formular abgeben?,Bis wann,Bis wann muss ich das Formular abgeben?,Until when do I have to submit the form?
+100,4,_____ dauert der Kurs?,Bis wann,Bis wann dauert der Kurs?,Until when does the course last?
+101,4,_____ bleibst du in Deutschland?,Bis wann,Bis wann bleibst du in Deutschland?,Until when are you staying in Germany?
+102,4,_____ arbeitest du morgen?,Ab wann,Ab wann arbeitest du morgen?,From when are you working tomorrow?
+103,4,_____ ist das Büro geöffnet?,Ab wann,Ab wann ist das Büro geöffnet?,From when is the office open?
+104,4,_____ beginnt der Film?,Ab wann,Ab wann beginnt der Film?,From when does the movie start?
+105,4,_____ kann man die Wohnung mieten?,Ab wann,Ab wann kann man die Wohnung mieten?,From when can one rent the apartment?
+106,4,_____ gilt der neue Fahrplan?,Ab wann,Ab wann gilt der neue Fahrplan?,From when is the new schedule valid?
+107,4,_____ arbeitest du heute?,Von wann bis wann,Von wann bis wann arbeitest du heute?,From when until when are you working today?
+108,4,_____ ist die Bibliothek geöffnet?,Von wann bis wann,Von wann bis wann ist die Bibliothek geöffnet?,From when until when is the library open?
+109,4,_____ dauert der Kurs?,Von wann bis wann,Von wann bis wann dauert der Kurs?,From when until when does the course last?
+110,4,_____ warst du im Urlaub?,Von wann bis wann,Von wann bis wann warst du im Urlaub?,From when until when were you on vacation?
+111,4,_____ fährt der Bus?,Von wann bis wann,Von wann bis wann fährt der Bus?,From when until when does the bus run?
+112,4,_____ lernst du schon Deutsch?,Wie lange,Wie lange lernst du schon Deutsch?,How long have you been learning German?
+113,4,_____ dauert der Film?,Wie lange,Wie lange dauert der Film?,How long does the movie last?
+114,4,_____ bleibst du im Urlaub?,Wie lange,Wie lange bleibst du im Urlaub?,How long are you staying on vacation?
+115,4,_____ musst du noch arbeiten?,Wie lange,Wie lange musst du noch arbeiten?,How long do you still have to work?
+116,4,_____ wohnst du schon hier?,Wie lange,Wie lange wohnst du schon hier?,How long have you been living here?
+117,4,_____ ist es?,Wie spät,Wie spät ist es?,What time is it?
+118,4,"Weißt du, _____ es ist?",wie spät,"Weißt du, wie spät es ist?",Do you know what time it is?
+119,4,_____ beginnt der Unterricht?,Wie spät,Wie spät beginnt der Unterricht?,What time does the class start?
+120,4,_____ kommt der Bus?,Wie spät,Wie spät kommt der Bus?,What time does the bus arrive?
+121,4,_____ gehst du normalerweise ins Bett?,Wie spät,Wie spät gehst du normalerweise ins Bett?,What time do you usually go to bed?
+122,4,_____ gehst du ins Fitnessstudio?,Wie oft,Wie oft gehst du ins Fitnessstudio?,How often do you go to the gym?
+123,4,_____ siehst du deine Familie?,Wie oft,Wie oft siehst du deine Familie?,How often do you see your family?
+124,4,_____ lernst du Deutsch pro Woche?,Wie oft,Wie oft lernst du Deutsch pro Woche?,How often do you study German per week?
+125,4,_____ machst du Urlaub?,Wie oft,Wie oft machst du Urlaub?,How often do you go on vacation?
+126,4,_____ kaufst du online ein?,Wie oft,Wie oft kaufst du online ein?,How often do you shop online?
+127,5,whom (accusative),wen,,
+128,5,to whom (dative),wem,,
+129,5,whose (genitive),wessen,,
+130,5,which (masculin accusative),welchen,,
+131,5,which (masculin dative),welchem,,
+132,5,which (neuter accusative),welches,,
+133,5,which (neuter dative),welchem,,
+134,5,which (feminin accusative),welche,,
+135,5,which (feminin dative),welcher,,
+136,5,which (plural accusative),welche,,
+137,5,which (plural dative),welchen,,
+138,5,how many (accusative),wie viele,,
+139,5,how many (dative),wie vielen,,
+140,5,how many (genitive),wie vieler,,
+141,6,_____ gehört dieses Buch?,Wem,Wem gehört dieses Buch?,To whom does this book belong?
+142,6,_____ hast du das Geschenk gegeben?,Wem,Wem hast du das Geschenk gegeben?,To whom did you give the gift?
+143,6,_____ kann ich bei diesem Problem helfen?,Wem,Wem kann ich bei diesem Problem helfen?,Whom can I help with this problem?
+144,6,_____ vertraust du am meisten?,Wem,Wem vertraust du am meisten?,Whom do you trust the most?
+145,6,_____ hast du die Nachricht geschickt?,Wem,Wem hast du die Nachricht geschickt?,To whom did you send the message?
+146,6,_____ hast du gestern im Park getroffen?,Wen,Wen hast du gestern im Park getroffen?,Whom did you meet in the park yesterday?
+147,6,_____ rufst du gerade an?,Wen,Wen rufst du gerade an?,Whom are you calling right now?
+148,6,_____ magst du am liebsten in deiner Klasse?,Wen,Wen magst du am liebsten in deiner Klasse?,Whom do you like the most in your class?
+149,6,_____ hast du zu deiner Geburtstagsfeier eingeladen?,Wen,Wen hast du zu deiner Geburtstagsfeier eingeladen?,Whom did you invite to your birthday party?
+150,6,_____ siehst du auf dem Foto?,Wen,Wen siehst du auf dem Foto?,Whom do you see in the photo?
+151,6,_____ Auto steht vor dem Haus?,Wessen,Wessen Auto steht vor dem Haus?,Whose car is parked in front of the house?
+152,6,"_____ Idee war es, in den Urlaub nach Italien zu fahren?",Wessen,"Wessen Idee war es, in den Urlaub nach Italien zu fahren?",Whose idea was it to go on vacation to Italy?
+153,6,_____ Tasche hast du mitgenommen?,Wessen,Wessen Tasche hast du mitgenommen?,Whose bag did you take?
+154,6,_____ Meinung zählt hier am meisten?,Wessen,Wessen Meinung zählt hier am meisten?,Whose opinion matters the most here?
+155,6,_____ Buch hast du dir ausgeliehen?,Wessen,Wessen Buch hast du dir ausgeliehen?,Whose book did you borrow?
+156,6,_____ Film möchtest du sehen?,Welchen,Welchen Film möchtest du sehen?,Which movie would you like to watch?
+157,6,_____ Kuchen soll ich kaufen?,Welchen,Welchen Kuchen soll ich kaufen?,Which cake should I buy?
+158,6,_____ Lehrer hast du gestern getroffen?,Welchen,Welchen Lehrer hast du gestern getroffen?,Which teacher did you meet yesterday?
+159,6,_____ Pullover findest du schöner?,Welchen,Welchen Pullover findest du schöner?,Which sweater do you find nicer?
+160,6,_____ Stift brauchst du für die Prüfung?,Welchen,Welchen Stift brauchst du für die Prüfung?,Which pen do you need for the exam?
+161,6,_____ Freund gehst du ins Kino?,Mit welchem,Mit welchem Freund gehst du ins Kino?,With which friend are you going to the cinema?
+162,6,_____ Lehrer hast du Deutsch gelernt?,Bei welchem,Bei welchem Lehrer hast du Deutsch gelernt?,With which teacher did you learn German?
+163,6,_____ Arzt gehst du?,Zu welchem,Zu welchem Arzt gehst du?,To which doctor are you going?
+164,6,_____ Mann hast du das gehört?,Von welchem,Von welchem Mann hast du das gehört?,From which man did you hear that?
+165,6,_____ Bus musst du suchen?,Nach welchem,Nach welchem Bus musst du suchen?,Which bus do you have to look for?
+166,6,_____ Buch soll ich lesen?,Welches,Welches Buch soll ich lesen?,Which book should I read?
+167,6,_____ Essen möchtest du bestellen?,Welches,Welches Essen möchtest du bestellen?,Which food would you like to order?
+168,6,_____ Zimmer hast du reserviert?,Welches,Welches Zimmer hast du reserviert?,Which room did you reserve?
+169,6,_____ Getränk hast du genommen?,Welches,Welches Getränk hast du genommen?,Which drink did you take?
+170,6,_____ Lied hörst du gerade?,Welches,Welches Lied hörst du gerade?,Which song are you listening to right now?
+171,6,_____ Kind spielst du?,Mit welchem,Mit welchem Kind spielst du?,With which child are you playing?
+172,6,_____ Zimmer schläfst du?,In welchem,In welchem Zimmer schläfst du?,In which room do you sleep?
+173,6,_____ Glas trinkst du?,Aus welchem,Aus welchem Glas trinkst du?,From which glass are you drinking?
+174,6,_____ Hotel hast du gebucht?,Bei welchem,Bei welchem Hotel hast du gebucht?,At which hotel did you book?
+175,6,_____ Tier hast du geträumt?,Von welchem,Von welchem Tier hast du geträumt?,About which animal did you dream?
+176,6,_____ Straße soll ich nehmen?,Welche,Welche Straße soll ich nehmen?,Which street should I take?
+177,6,_____ Lampe hast du gekauft?,Welche,Welche Lampe hast du gekauft?,Which lamp did you buy?
+178,6,_____ Tasche gehört dir?,Welche,Welche Tasche gehört dir?,Which bag belongs to you?
+179,6,_____ Blume möchtest du schenken?,Welche,Welche Blume möchtest du schenken?,Which flower would you like to give (as a gift)?
+180,6,_____ Sprache lernst du gerade?,Welche,Welche Sprache lernst du gerade?,Which language are you currently learning?
+181,6,_____ Freundin gehst du ins Café?,Mit welcher,Mit welcher Freundin gehst du ins Café?,With which (female) friend are you going to the café?
+182,6,_____ Schule lernst du?,Bei welcher,Bei welcher Schule lernst du?,At which school are you studying?
+183,6,_____ Ärztin gehst du?,Zu welcher,Zu welcher Ärztin gehst du?,To which (female) doctor are you going?
+184,6,_____ Frau hast du das Geschenk bekommen?,Von welcher,Von welcher Frau hast du das Geschenk bekommen?,From which woman did you get the gift?
+185,6,_____ Musik tanzt du gern?,Nach welcher,Nach welcher Musik tanzt du gern?,To which music do you like to dance?
+186,6,_____ Bücher hast du gekauft?,Welche,Welche Bücher hast du gekauft?,Which books did you buy?
+187,6,_____ Filme schaust du am liebsten?,Welche,Welche Filme schaust du am liebsten?,Which movies do you like watching the most?
+188,6,_____ Sprachen lernst du?,Welche,Welche Sprachen lernst du?,Which languages are you learning?
+189,6,_____ Schuhe möchtest du anziehen?,Welche,Welche Schuhe möchtest du anziehen?,Which shoes would you like to wear?
+190,6,_____ Freunde hast du eingeladen?,Welche,Welche Freunde hast du eingeladen?,Which friends did you invite?
+191,6,_____ Freunden gehst du aus?,Mit welchen,Mit welchen Freunden gehst du aus?,With which friends are you going out?
+192,6,_____ Kursen gehst du am Wochenende?,Zu welchen,Zu welchen Kursen gehst du am Wochenende?,To which courses do you go on the weekend?
+193,6,_____ Firmen hast du dich beworben?,Bei welchen,Bei welchen Firmen hast du dich beworben?,At which companies did you apply?
+194,6,_____ Lehrern hast du das gelernt?,Von welchen,Von welchen Lehrern hast du das gelernt?,From which teachers did you learn that?
+195,6,_____ Ländern warst du schon?,In welchen,In welchen Ländern warst du schon?,In which countries have you already been?
+196,6,_____ Äpfel hast du gekauft?,Wie viele,Wie viele Äpfel hast du gekauft?,How many apples did you buy?
+197,6,"Weißt du, _____ Seiten wir für die Prüfung lesen müssen?",wie viele,"Weißt du, wie viele Seiten wir für die Prüfung lesen müssen?",Do you know how many pages we have to read for the exam?
+198,6,_____ Kilometer bist du gestern gelaufen?,Wie viele,Wie viele Kilometer bist du gestern gelaufen?,How many kilometers did you run yesterday?
+199,6,"Kannst du mir sagen, _____ Fehler ich gemacht habe?",wie viele,"Kannst du mir sagen, wie viele Fehler ich gemacht habe?",Can you tell me how many mistakes I made?
+200,6,_____ Filme habt ihr am Wochenende geschaut?,Wie viele,Wie viele Filme habt ihr am Wochenende geschaut?,How many movies did you watch over the weekend?
+201,6,_____ Freunden gehst du heute Abend ins Kino?,Mit wie vielen,Mit wie vielen Freunden gehst du heute Abend ins Kino?,With how many friends are you going to the cinema tonight?
+202,6,_____ Kursen hast du dieses Semester teilgenommen?,An wie vielen,An wie vielen Kursen hast du dieses Semester teilgenommen?,How many courses did you attend this semester?
+203,6,_____ Meetings musst du diese Woche noch?,Zu wie vielen,Zu wie vielen Meetings musst du diese Woche noch?,How many meetings do you still have to go to this week?
+204,6,_____ Ländern wird Deutschland umgeben?,Von wie vielen,Von wie vielen Ländern wird Deutschland umgeben?,How many countries border Germany?
+205,6,_____ Konzerten warst du schon dieses Jahr?,Auf wie vielen,Auf wie vielen Konzerten warst du schon dieses Jahr?,How many concerts have you been to this year?
+206,6,"Erinnerst du dich, _____ Gäste wir uns kümmern mussten?",wie vieler,"Erinnerst du dich, wie vieler Gäste wir uns kümmern mussten?",Do you remember how many guests we had to take care of?
+207,6,"Ich war überrascht, _____ Fehler der Bericht enthielt.",wie vieler,"Ich war überrascht, wie vieler Fehler der Bericht enthielt.",I was surprised how many mistakes the report contained.
+208,6,"Man kann nie sicher sein, _____ Menschen diese Information erreicht hat.",wie vieler,"Man kann nie sicher sein, wie vieler Menschen diese Information erreicht hat.",You can never be sure how many people this information reached.
+209,6,"Sie fragte sich, _____ Dinge sie sich eigentlich entledigen sollte.",wie vieler,"Sie fragte sich, wie vieler Dinge sie sich eigentlich entledigen sollte.",She wondered how many things she should actually get rid of.
+210,6,"Wir waren beeindruckt, _____ Sprachen der Redner mächtig war.",wie vieler,"Wir waren beeindruckt, wie vieler Sprachen der Redner mächtig war.",We were impressed by how many languages the speaker was fluent in.
+211,7,What kind of,Was für,,
+212,7,How much longer,Wie lange noch,,
+213,7,"How is it that, How come that","Wie kommt es, dass",,
+214,7,Unter what conditions,Unter welchen Bedingungen,,
+215,7,To what extent,Inwieweit,,
+216,7,What else,Was sonst,,
+217,8,_____ Musik hörst du am liebsten?,Was für,Was für Musik hörst du am liebsten?,What kind of music do you like to listen to most?
+218,8,_____ Filme schaust du normalerweise?,Was für,Was für Filme schaust du normalerweise?,What kind of movies do you usually watch?
+219,8,_____ ein Auto möchtest du später kaufen?,Was für,Was für ein Auto möchtest du später kaufen?,What kind of car would you like to buy later?
+220,8,_____ Leute arbeiten in deiner Firma?,Was für,Was für Leute arbeiten in deiner Firma?,What kind of people work at your company?
+221,8,_____ Bücher interessieren dich?,Was für,Was für Bücher interessieren dich?,What kind of books are you interested in?
+232,8,_____ müssen wir auf eine Entscheidung der Behörde warten?,Wie lange noch,Wie lange noch müssen wir auf eine Entscheidung der Behörde warten?,How much longer do we have to wait for a decision from the authorities?
+233,8,"_____ willst du dir das gefallen lassen, ohne etwas zu unternehmen?",Wie lange noch,"Wie lange noch willst du dir das gefallen lassen, ohne etwas zu unternehmen?",How much longer are you going to put up with this without taking action?
+234,8,_____ soll diese Unsicherheit in der Wirtschaft andauern?,Wie lange noch,Wie lange noch soll diese Unsicherheit in der Wirtschaft andauern?,How much longer is this uncertainty in the economy supposed to continue?
+235,8,"_____ können wir das aktuelle System aufrechterhalten, bevor es zusammenbricht?",Wie lange noch,"Wie lange noch können wir das aktuelle System aufrechterhalten, bevor es zusammenbricht?",How much longer can we maintain the current system before it collapses?
+236,8,"_____ wird es dauern, bis endlich nachhaltige Lösungen umgesetzt werden?",Wie lange noch,"Wie lange noch wird es dauern, bis endlich nachhaltige Lösungen umgesetzt werden?",How much longer will it take until sustainable solutions are finally implemented?
+237,8,_____ wäre ein Kompromiss für beide Seiten akzeptabel?,Unter welchen Bedingungen,Unter welchen Bedingungen wäre ein Kompromiss für beide Seiten akzeptabel?,Under what conditions would a compromise be acceptable for both sides?
+238,8,"Kannst du mir sagen, _____ das Experiment durchgeführt wurde?",unter welchen Bedingungen,"Kannst du mir sagen, unter welchen Bedingungen das Experiment durchgeführt wurde?",Can you tell me under what conditions the experiment was conducted?
+239,8,_____ darf man diese Substanz überhaupt verwenden?,Unter welchen Bedingungen,Unter welchen Bedingungen darf man diese Substanz überhaupt verwenden?,Under what conditions is one even allowed to use this substance?
+240,8,_____ wäre eine Verlängerung des Vertrags möglich?,Unter welchen Bedingungen,Unter welchen Bedingungen wäre eine Verlängerung des Vertrags möglich?,Under what conditions would an extension of the contract be possible?
+241,8,_____ sind die Ergebnisse wissenschaftlich gültig?,Unter welchen Bedingungen,Unter welchen Bedingungen sind die Ergebnisse wissenschaftlich gültig?,Under what conditions are the results scientifically valid?
+242,8,_____ trotz aller Bemühungen keine Fortschritte erkennbar sind?,"Wie kommt es, dass","Wie kommt es, dass trotz aller Bemühungen keine Fortschritte erkennbar sind?",How is it that no progress is visible despite all the efforts?
+243,8,"_____ du immer so ruhig bleibst, selbst in stressigen Situationen?","Wie kommt es, dass","Wie kommt es, dass du immer so ruhig bleibst, selbst in stressigen Situationen?","How is it that you always stay so calm, even in stressful situations?"
+244,8,_____ so viele Menschen falsche Informationen glauben?,"Wie kommt es, dass","Wie kommt es, dass so viele Menschen falsche Informationen glauben?",How is it that so many people believe false information?
+245,8,_____ das Unternehmen plötzlich so hohe Verluste macht?,"Wie kommt es, dass","Wie kommt es, dass das Unternehmen plötzlich so hohe Verluste macht?",How is it that the company is suddenly incurring such heavy losses?
+246,8,_____ bestimmte Entscheidungen nicht transparent kommuniziert wurden?,"Wie kommt es, dass","Wie kommt es, dass bestimmte Entscheidungen nicht transparent kommuniziert wurden?",How is it that certain decisions were not communicated transparently?
+222,8,"Es ist unklar, _____ die neuen Maßnahmen tatsächlich Wirkung zeigen.",inwieweit,"Es ist unklar, inwieweit die neuen Maßnahmen tatsächlich Wirkung zeigen.",It is unclear to what extent the new measures are actually effective.
+223,8,"Wir müssen prüfen, _____ das Budget gekürzt werden kann, ohne die Qualität zu gefährden.",inwieweit,"Wir müssen prüfen, inwieweit das Budget gekürzt werden kann, ohne die Qualität zu gefährden.",We need to examine to what extent the budget can be cut without compromising quality.
+224,8,"Der Bericht zeigt, _____ externe Faktoren den Markt beeinflussen.",inwieweit,"Der Bericht zeigt, inwieweit externe Faktoren den Markt beeinflussen.",The report shows to what extent external factors influence the market.
+225,8,"_____ er für den Fehler verantwortlich ist, bleibt fraglich.",Inwieweit,"Inwieweit er für den Fehler verantwortlich ist, bleibt fraglich.",To what extent he is responsible for the error remains questionable.
+226,8,"Die Studie untersucht, _____ Digitalisierung die Arbeitswelt verändert hat.",inwieweit,"Die Studie untersucht, inwieweit Digitalisierung die Arbeitswelt verändert hat.",The study investigates to what extent digitalization has changed the working world.
+227,8,Der _____ Präsident der Vereinigten Staaten war Abraham Lincoln eigentlich?,wievielte,Der wievielte Präsident der Vereinigten Staaten war Abraham Lincoln eigentlich?,"Which number president of the United States was Abraham Lincoln, actually?"
+228,8,"Weißt du noch, die _____ Ausgabe der Konferenz das damals war?",wievielte,"Weißt du noch, die wievielte Ausgabe der Konferenz das damals war?",Do you remember which edition of the conference it was back then?
+229,8,"In der _____ Zeile beginnt die Passage, die du zitiert hast?",wievielten,"In der wievielten Zeile beginnt die Passage, die du zitiert hast?",In which line does the passage you quoted begin?
+230,8,Nach dem _____ Versuch hat er schließlich aufgegeben?,wievielten,Nach dem wievielten Versuch hat er schließlich aufgegeben?,After how many attempts did he finally give up?
+231,8,"Das ist jetzt schon das _____ Mal, dass sie denselben Fehler macht?",wievielte,"Das ist jetzt schon das wievielte Mal, dass sie denselben Fehler macht?",How many times has she made the same mistake now?
+232,8,_____ könnte man in einer solchen Situation tun?,Was sonst,Was sonst könnte man in einer solchen Situation tun?,What else could one do in such a situation?
+233,8,_____ hast du noch von deinem Chef verlangt?,Was sonst,Was sonst hast du noch von deinem Chef verlangt?,What else did you ask of your boss?
+234,8,"_____ würde dich davon abhalten, das Angebot anzunehmen?",Was sonst,"Was sonst würde dich davon abhalten, das Angebot anzunehmen?",What else would stop you from accepting the offer?
+235,8,_____ erwartest du von diesem Projekt?,Was sonst,Was sonst erwartest du von diesem Projekt?,What else do you expect from this project?
+236,8,_____ sollte ich dir dazu noch sagen?,Was sonst,Was sonst sollte ich dir dazu noch sagen?,What else should I tell you about it?

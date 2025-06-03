@@ -23,7 +23,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 22,1,1 - 3 (A1),to translate from,aus,A,übersetzen,,
 23,1,1 - 3 (A1),to translate into,in,A,übersetzen,,
 24,1,1 - 3 (A1),to wait for,auf,A,warten,,
-25,1,1 - 3 (A1),to change on,an,D,ändern,,
+25,1,1 - 3 (A1),"to change on, to change about",an,D,ändern,,
 26,2,,Er arbeitet _____ einer großen Firma.,bei,,Er arbeitet bei einer großen Firma.,He works at a big company.,arbeiten
 27,2,,Ich arbeite _____ Lidl als Verkäufer.,bei,,Ich arbeite bei Lidl als Verkäufer.,I work at Lidl as a salesperson.,arbeiten
 28,2,,Sie arbeitet _____ einem neuen Projekt.,an,,Sie arbeitet an einem neuen Projekt.,She is working on a new project.,arbeiten
@@ -31,7 +31,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 30,2,,Er arbeitet _____ Lehrer.,als,,Er arbeitet als Lehrer.,He works as a teacher.,arbeiten
 31,2,,Ich arbeite _____ Kellnerin.,als,,Ich arbeite als Kellnerin.,I work as a waitress.,arbeiten
 32,2,,Der Briefträger bringt das Paket _____ mir.,zu,,Der Briefträger bringt das Paket zu mir.,The postman brings the package to me.,bringen
-33,2,,Ich bringe das Kind _____ der Schule.,zu,,Ich bringe das Kind zu der Schule.,I bring the child to school.,bringen
+33,2,,Ich bringe das Kind _____ Schule.,zur,,Ich bringe das Kind zur Schule.,I bring the child to school.,bringen
 34,2,,Ich denke _____ meine Mutter.,an,,Ich denke an meine Mutter.,I think about my mother.,denken
 35,2,,Er denkt oft _____ seinen Urlaub.,an,,Er denkt oft an seinen Urlaub.,He often thinks about his vacation.,denken
 36,2,,Er fragt _____ dem Weg.,nach,,Er fragt nach dem Weg.,He asks for the way.,fragen
@@ -46,7 +46,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 45,2,,Er interessiert sich _____ Musik.,für,,Er interessiert sich für Musik.,He is interested in music.,interessieren
 46,2,,Ich komme _____ Deutschland.,aus,,Ich komme aus Deutschland.,I come from Germany.,kommen
 47,2,,Sie kommt _____ Italien.,aus,,Sie kommt aus Italien.,She comes from Italy.,kommen
-48,2,,Er kommt zu spät _____ der Schule.,zu,,Er kommt zu spät zu der Schule.,He comes late to school.,kommen
+48,2,,Er kommt zu spät _____ Schule.,zur,,Er kommt zu spät zur Schule.,He comes late to school.,kommen
 49,2,,Ich komme _____ deiner Party.,zu,,Ich komme zu deiner Party.,I come to your party.,kommen
 50,2,,Ich schreibe _____ meine Familie.,über,,Ich schreibe über meine Familie.,I write about my family.,schreiben
 51,2,,Er schreibt _____ seine Reise.,über,,Er schreibt über seine Reise.,He writes about his trip.,schreiben
@@ -68,7 +68,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 67,2,,Er trifft sich _____ seinen Kollegen.,mit,,Er trifft sich mit seinen Kollegen.,He meets with his colleagues.,treffen
 68,2,,Ich übersetze den Text _____ dem Englischen.,aus,,Ich übersetze den Text aus dem Englischen.,I translate the text from English.,übersetzen
 69,2,,Sie übersetzt das Buch _____ dem Französischen.,aus,,Sie übersetzt das Buch aus dem Französischen.,She translates the book from French.,übersetzen
-70,2,,Ich übersetze den Brief _____ Deutsche.,in,,Ich übersetze den Brief ins Deutsche.,I translate the letter into German.,übersetzen
+70,2,,Ich übersetze den Brief _____ Deutsche.,ins,,Ich übersetze den Brief ins Deutsche.,I translate the letter into German.,übersetzen
 71,2,,Er übersetzt das Dokument _____ seine Sprache.,in,,Er übersetzt das Dokument in seine Sprache.,He translates the document into his language.,übersetzen
 72,2,,Ich warte _____ den Bus.,auf,,Ich warte auf den Bus.,I am waiting for the bus.,warten
 73,2,,Sie wartet _____ ihre Freundin.,auf,,Sie wartet auf ihre Freundin.,She is waiting for her friend.,warten
@@ -83,7 +83,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 82,3,1 - 3 (A1),to tell about,über,A,erzählen,,
 83,3,1 - 3 (A1),to tell of / about,von,D,erzählen,,
 84,3,1 - 3 (A1),to look forward to,auf,A,freuen,,
-85,3,1 - 3 (A1),to rejoice about,über,A,freuen,,
+85,3,1 - 3 (A1),"to rejoice about, to be happy about",über,A,freuen,,
 86,3,1 - 3 (A1),to lead to,zu,D,führen,,
 87,3,1 - 3 (A1),to belong to,zu,D,gehören,,
 88,3,1 - 3 (A1),to laugh about,über,A,lachen,,
@@ -124,7 +124,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 123,4,,Dieses Buch gehört _____ meiner Sammlung.,zu,,Dieses Buch gehört zu meiner Sammlung.,This book belongs to my collection.,gehören
 124,4,,Er gehört _____ den besten Spielern.,zu,,Er gehört zu den besten Spielern.,He belongs to the best players.,gehören
 125,4,,Ich habe noch nichts _____ ihm gehört.,von,,Ich habe noch nichts von ihm gehört.,I haven't heard from him yet.,hören
-126,4,,Hast du etwas _____ dem Unfall gehört?,von,,Hast du etwas von dem Unfall gehört?,Have you heard about the accident?,hören
+126,4,,Hast du etwas _____ Unfall gehört?,vom,,Hast du etwas vom Unfall gehört?,Have you heard about the accident?,hören
 127,4,,Wir lachen _____ den Witz.,über,,Wir lachen über den Witz.,We laugh about the joke.,lachen
 128,4,,Sie lacht _____ seine Geschichte.,über,,Sie lacht über seine Geschichte.,She laughs about his story.,lachen
 129,4,,Dieses Kleid passt _____ deinen Schuhen.,zu,,Dieses Kleid passt zu deinen Schuhen.,This dress matches your shoes.,passen
@@ -141,7 +141,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 140,4,,Er träumt _____ einem besseren Leben.,von,,Er träumt von einem besseren Leben.,He dreams of a better life.,träumen
 141,4,,Was weißt du _____ die neue Kollegin?,über,,Was weißt du über die neue Kollegin?,What do you know about the new colleague?,wissen
 142,4,,Ich weiß viel _____ die Kultur Japans.,über,,Ich weiß viel über die Kultur Japans.,I know a lot about Japanese culture.,wissen
-143,4,,Weißt du _____ dem neuen Projekt?,von,,Weißt du von dem neuen Projekt?,Do you know about the new project?,wissen
+143,4,,Weißt du _____ neuen Projekt?,vom,,Weißt du vom neuen Projekt?,Do you know about the new project?,wissen
 144,4,,Er weiß nichts _____ der Überraschung.,von,,Er weiß nichts von der Überraschung.,He doesn’t know anything about the surprise.,wissen
 145,4,,Er sieht sie _____ seine beste Freundin an.,als,,Er sieht sie als seine beste Freundin an.,He considers her his best friend.,ansehen
 146,4,,Viele Menschen sehen Künstliche Intelligenz _____ eine große Chance an.,als,,Viele Menschen sehen Künstliche Intelligenz als eine große Chance an.,Many people consider artificial intelligence a great opportunity.,ansehen
@@ -150,13 +150,13 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 149,4,,Wasser wird _____ Eis.,zu,,Wasser wird zu Eis.,Water turns into ice.,werden
 150,4,,Die Raupe wird _____ einem Schmetterling.,zu,,Die Raupe wird zu einem Schmetterling.,The caterpillar turns into a butterfly.,werden
 151,5,1 - 3 (A1),to call at,bei,D,anrufen,,
-152,5,5 - 7 (A2),to answer to,auf,A,antworten,,
-153,5,5 - 7 (A2),to ask for / plead for,um,A,bitten,,
-154,5,5 - 7 (A2),to discuss about,über,A,diskutieren,,
-155,5,5 - 7 (A2),to discuss with,mit,D,diskutieren,,
-156,5,5 - 7 (A2),to help with,bei,D,helfen,,
-157,5,1 - 3 (A1),to be versed in / skilled in,von,D,verstehen,,
-158,5,1 - 3 (A1),to get along with,mit,D,verstehen,,
+152,5,1 - 3 (A1),to be versed in / skilled in,von,D,verstehen,,
+153,5,1 - 3 (A1),to get along with,mit,D,verstehen,,
+154,5,5 - 7 (A2),to answer to,auf,A,antworten,,
+155,5,5 - 7 (A2),to ask for / plead for,um,A,bitten,,
+156,5,5 - 7 (A2),to discuss about,über,A,diskutieren,,
+157,5,5 - 7 (A2),to discuss with,mit,D,diskutieren,,
+158,5,5 - 7 (A2),to help with,bei,D,helfen,,
 159,5,5 - 7 (A2),to elect to,zu,D,wählen,,
 160,5,5 - 7 (A2),to count among,zu,D,zählen,,
 161,5,5 - 7 (A2),to get angry about / with,über,A,ärgern,,
@@ -225,28 +225,28 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 224,6,,Viele Menschen sind _____ ihre Freiheit gestorben.,für,,Viele Menschen sind für ihre Freiheit gestorben.,Many people have died for their freedom.,sterben
 225,6,,Er ist _____ seine Überzeugungen gestorben.,für,,Er ist für seine Überzeugungen gestorben.,He died for his beliefs.,sterben
 226,7,1 - 3 (A1),"to be due to, to be because of",an,D,liegen,,
-227,7,5 - 7 (A2),to die of,an,A,sterben,,
-228,7,5 - 7 (A2),to vote for,für,A,stimmen,,
-229,7,5 - 7 (A2),to vote against,gegen,A,stimmen,,
-230,7,5 - 7 (A2),to compare to / with,mit,D,vergleichen,,
-231,7,5 - 7 (A2),to rely on,auf,A,verlassen,,
-232,7,5 - 7 (A2),to trust in,auf,A,vertrauen,,
-233,7,5 - 7 (A2),"to affect, to have an effect on",auf,A,wirken,,
-234,7,5 - 7 (A2),to participate in,an,D,teilnehmen,,
-235,7,5 - 7 (A2),to suffer from,an,D,leiden,,
-236,7,5 - 7 (A2),to suffer under,unter,A,leiden,,
-237,7,5 - 7 (A2),to take care of / care for,um,A,kümmern,,
-238,7,5 - 7 (A2),to convince of,von,D,überzeugen,,
-239,7,5 - 7 (A2),to depend on,auf,A,ankommen,,
-240,7,1 - 3 (A1),to live off,von,D,leben,,
-241,7,5 - 7 (A2),to recognize by,an,D,erkennen,,
-242,7,5 - 7 (A2),to demand from,von,D,fordern,,
-243,7,5 - 7 (A2),"to argue about (something concrete), to argue over",um,A,streiten,,
-244,7,5 - 7 (A2),to argue about (something abstract),über,A,streiten,,
-245,7,5 - 7 (A2),to argue with,mit,D,streiten,,
-246,7,1 - 3 (A1),to lose something to someone,an,A,verlieren,,
-247,7,1 - 3 (A1),to be doing something,bei,D,sein,,
-247,8,,Es liegt _____ dem Wetter.,an,,Es liegt an dem Wetter.,It’s due to the weather.,liegen
+227,7,1 - 3 (A1),to live off,von,D,leben,,
+228,7,1 - 3 (A1),to lose something to someone,an,A,verlieren,,
+229,7,1 - 3 (A1),to be doing something,bei,D,sein,,
+230,7,5 - 7 (A2),to die of,an,A,sterben,,
+231,7,5 - 7 (A2),to vote for,für,A,stimmen,,
+232,7,5 - 7 (A2),to vote against,gegen,A,stimmen,,
+233,7,5 - 7 (A2),to compare to / with,mit,D,vergleichen,,
+234,7,5 - 7 (A2),to rely on,auf,A,verlassen,,
+235,7,5 - 7 (A2),to trust in,auf,A,vertrauen,,
+236,7,5 - 7 (A2),"to affect, to have an effect on",auf,A,wirken,,
+237,7,5 - 7 (A2),to participate in,an,D,teilnehmen,,
+238,7,5 - 7 (A2),to suffer from,an,D,leiden,,
+239,7,5 - 7 (A2),to suffer under,unter,A,leiden,,
+240,7,5 - 7 (A2),to take care of / care for,um,A,kümmern,,
+241,7,5 - 7 (A2),to convince of,von,D,überzeugen,,
+242,7,5 - 7 (A2),to depend on,auf,A,ankommen,,
+243,7,5 - 7 (A2),to recognize by,an,D,erkennen,,
+244,7,5 - 7 (A2),to demand from,von,D,fordern,,
+245,7,5 - 7 (A2),"to argue about (something concrete), to argue over",um,A,streiten,,
+246,7,5 - 7 (A2),to argue about (something abstract),über,A,streiten,,
+247,7,5 - 7 (A2),to argue with,mit,D,streiten,,
+247,8,,Es liegt _____ Wetter.,am,,Es liegt am Wetter.,It’s due to the weather.,liegen
 248,8,,Es liegt _____ dir.,an,,Es liegt an dir.,It’s because of you.,liegen
 249,8,,Er ist _____ einer schweren Krankheit gestorben.,an,,Er ist an einer schweren Krankheit gestorben.,He died of a serious illness.,sterben
 250,8,,Viele Menschen sterben _____ den Folgen von Rauchen.,an,,Viele Menschen sterben an den Folgen von Rauchen.,Many people die from the consequences of smoking.,sterben
@@ -343,31 +343,31 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 341,10,,_____ wählt man ihn?,Wozu,,Wozu wählt man ihn?,What is he elected for?,
 342,10,,_____ wartest du?,Worauf,,Worauf wartest du?,What are you waiting for?,
 343,10,,_____ zählt das?,Wozu,,Wozu zählt das?,What does this count as?,
-344,11,11 - 13 (B1),"to watch, to pay attention to",auf,A,achten,,
-345,11,11 - 13 (B1),"to deal with, to concern onself with, to be occupied with",mit,D,beschäftigen,,
-346,11,11 - 13 (B1),to describe as,als,A,beschreiben,,
-347,11,11 - 13 (B1),to complain about,über,A,beschweren,,
-348,11,11 - 13 (B1),to complain to,bei,D,beschweren,,
-349,11,11 - 13 (B1),to end with,mit,D,enden,,
-350,11,11 - 13 (B1),to apologize for,für,A,entschuldigen,,
-351,11,11 - 13 (B1),to apologize to,bei,D,entschuldigen,,
-352,11,11 - 13 (B1),to result from,aus,D,ergeben,,
-353,11,1 - 3 (A1),"to be about, to revolve around",um,A,gehen,,
-354,11,5 - 7 (A2),to fight over (something limited),um,A,kämpfen,,
-355,11,5 - 7 (A2),to fight for (a cause),für,A,kämpfen,,
-356,11,11 - 13 (B1),to fall in love with,in,A,verlieben,,
-357,11,11 - 13 (B1),to prepare oneself for,auf,A,vorbereiten,,
-358,11,11 - 13 (B1),to cry about,über,A,weinen,,
-359,11,11 - 13 (B1),to contribute to,zu,D,beitragen,,
-360,11,11 - 13 (B1),to consist of,aus,D,bestehen,,
-361,11,11 - 13 (B1),to insist on,auf,A,bestehen,,
-362,11,11 - 13 (B1),to consist in,in,D,bestehen,,
-363,11,11 - 13 (B1),to take part in,an,D,beteiligen,,
-364,11,5 - 7 (A2),to apply at,bei,D,bewerben,,
-365,11,5 - 7 (A2),to apply for,um,A,bewerben,,
-366,11,11 - 13 (B1),to smell of,nach,D,duften,,
-367,11,11 - 13 (B1),to adjust to,auf,A,einstellen,,
-368,11,11 - 13 (B1),to arise from,aus,D,entstehen,,
+344,11,1 - 3 (A1),"to be about, to revolve around",um,A,gehen,,
+345,11,#N/A,"to watch, to pay attention to",auf,A,achten,,
+346,11,#N/A,"to deal with, to concern onself with, to be occupied with",mit,D,beschäftigen,,
+347,11,100,to describe as,als,A,beschreiben,,
+348,11,#N/A,to complain about,über,A,beschweren,,
+349,11,#N/A,to complain to,bei,D,beschweren,,
+350,11,#N/A,to end with,mit,D,enden,,
+351,11,#N/A,to apologize for,für,A,entschuldigen,,
+352,11,#N/A,to apologize to,bei,D,entschuldigen,,
+353,11,#N/A,to result from,aus,D,ergeben,,
+354,11,100,to fall in love with,in,A,verlieben,,
+355,11,#N/A,to prepare oneself for,auf,A,vorbereiten,,
+356,11,#N/A,to cry about,über,A,weinen,,
+357,11,#N/A,to contribute to,zu,D,beitragen,,
+358,11,#N/A,to consist of,aus,D,bestehen,,
+359,11,#N/A,to insist on,auf,A,bestehen,,
+360,11,#N/A,to consist in,in,D,bestehen,,
+361,11,#N/A,to take part in,an,D,beteiligen,,
+362,11,#N/A,to smell of,nach,D,duften,,
+363,11,#N/A,to adjust to,auf,A,einstellen,,
+364,11,#N/A,to arise from,aus,D,entstehen,,
+365,11,5 - 7 (A2),to fight over (something limited),um,A,kämpfen,,
+366,11,5 - 7 (A2),to fight for (a cause),für,A,kämpfen,,
+367,11,5 - 7 (A2),to apply at,bei,D,bewerben,,
+368,11,5 - 7 (A2),to apply for,um,A,bewerben,,
 369,12,,Du solltest mehr _____ deine Gesundheit achten.,auf,,Du solltest mehr auf deine Gesundheit achten.,You should pay more attention to your health.,achten
 370,12,,"Ich achte _____ die Umwelt, indem ich weniger Plastik benutze.",auf,,"Ich achte auf die Umwelt, indem ich weniger Plastik benutze.",I pay attention to the environment by using less plastic.,achten
 371,12,,Er beschäftigt sich gerne _____ Technik.,mit,,Er beschäftigt sich gerne mit Technik.,He enjoys dealing with technology.,beschäftigen
@@ -377,7 +377,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 375,12,,Ich habe mich _____ den schlechten Service im Restaurant beschwert.,über,,Ich habe mich über den schlechten Service im Restaurant beschwert.,I complained about the bad service in the restaurant.,beschweren
 376,12,,Viele Bürger beschweren sich _____ die hohen Steuern.,über,,Viele Bürger beschweren sich über die hohen Steuern.,Many citizens complain about high taxes.,beschweren
 377,12,,Sie hat sich _____ der Lehrerin über die schwierige Prüfung beschwert.,bei,,Sie hat sich bei der Lehrerin über die schwierige Prüfung beschwert.,She complained to the teacher about the difficult exam.,beschweren
-378,12,,Ich beschwere mich _____ dem Chef über meinen Kollegen.,bei,,Ich beschwere mich bei dem Chef über meinen Kollegen.,I am complaining to the boss about my colleague.,beschweren
+378,12,,Ich beschwere mich _____ dem Chef über meinen Kollegen.,bei,,Ich beschwere mich beim Chef über meinen Kollegen.,I am complaining to the boss about my colleague.,beschweren
 379,12,,Der Film endet _____ einer Überraschung.,mit,,Der Film endet mit einer Überraschung.,The movie ends with a surprise.,enden
 380,12,,Das Gespräch endete _____ einem Kompromiss.,mit,,Das Gespräch endete mit einem Kompromiss.,The conversation ended with a compromise.,enden
 381,12,,Ich entschuldige mich _____ meine Verspätung.,für,,Ich entschuldige mich für meine Verspätung.,I apologize for my delay.,entschuldigen
@@ -386,8 +386,8 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 384,12,,Er hat sich _____ seinem Lehrer für die Unaufmerksamkeit entschuldigt.,bei,,Er hat sich bei seinem Lehrer für die Unaufmerksamkeit entschuldigt.,He apologized to his teacher for not paying attention.,entschuldigen
 385,12,,Das Problem ergibt sich _____ mangelnder Kommunikation.,aus,,Das Problem ergibt sich aus mangelnder Kommunikation.,The problem results from a lack of communication.,ergeben
 386,12,,Die Lösung ergibt sich _____ den gesammelten Daten.,aus,,Die Lösung ergibt sich aus den gesammelten Daten.,The solution results from the collected data.,ergeben
-387,12,,In dem Buch geht es _____ eine spannende Reise.,um,,In dem Buch geht es um eine spannende Reise.,The book is about an exciting journey.,gehen
-388,12,,Bei dem Streit geht es _____ Geld.,um,,Bei dem Streit geht es um Geld.,The argument is about money.,gehen
+387,12,,Im Buch geht es _____ eine spannende Reise.,um,,Im Buch geht es um eine spannende Reise.,The book is about an exciting journey.,gehen
+388,12,,Beim Streit geht es _____ Geld.,um,,Beim Streit geht es um Geld.,The argument is about money.,gehen
 389,12,,Sie kämpfen _____ den ersten Platz.,um,,Sie kämpfen um den ersten Platz.,They are fighting for the first place.,kämpfen
 390,12,,Viele Kandidaten kämpfen _____ den prestigeträchtigen Job.,um,,Viele Kandidaten kämpfen um den prestigeträchtigen Job.,Many candidates are fighting for the prestigious job.,kämpfen
 391,12,,Sie kämpfen _____ bessere Arbeitsbedingungen.,für,,Sie kämpfen für bessere Arbeitsbedingungen.,They are fighting for better working conditions.,kämpfen
@@ -416,33 +416,33 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 414,12,,Er hat sich schnell _____ die neue Umgebung eingestellt.,auf,,Er hat sich schnell auf die neue Umgebung eingestellt.,He quickly adapted to the new environment.,einstellen
 415,12,,_____ der Idee ist ein erfolgreiches Unternehmen entstanden.,Aus,,Aus der Idee ist ein erfolgreiches Unternehmen entstanden.,A successful company emerged from the idea.,entstehen
 416,12,,_____ dem Streit ist eine neue Lösung entstanden.,Aus,,Aus dem Streit ist eine neue Lösung entstanden.,A new solution emerged from the dispute.,entstehen
-417,12,,Jeder kann etwas _____ dem Umweltschutz beitragen.,zu,,Jeder kann etwas zu dem Umweltschutz beitragen.,Everyone can contribute to environmental protection.,beitragen
+417,12,,Jeder kann etwas _____ Umweltschutz beitragen.,zum,,Jeder kann etwas zum Umweltschutz beitragen.,Everyone can contribute to environmental protection.,beitragen
 418,12,,"Die Studie trägt _____ bei, unser Verständnis der Materie zu verbessern.",dazu,,"Die Studie trägt dazu bei, unser Verständnis der Materie zu verbessern.",The study contributes to improving our understanding of the subject.,beitragen
-419,13,11 - 13 (B1),to recover from,von,D,erholen,,
-420,13,11 - 13 (B1),to flee from,vor,D,fliehen,,
-421,13,11 - 13 (B1),to be afraid of,vor,D,fürchten,,
-422,13,11 - 13 (B1),to guarantee for,für,A,garantieren,,
-423,13,11 - 13 (B1),to point out,auf,A,hinweisen,,
-424,13,11 - 13 (B1),to concentrate on,auf,A,konzentrieren,,
-425,13,11 - 13 (B1),to think about,über,A,nachdenken,,
-426,13,11 - 13 (B1),to react to,auf,A,reagieren,,
-427,13,11 - 13 (B1),to smell like,nach,D,riechen,,
-428,13,11 - 13 (B1),to send to,an,A,senden,,
-429,13,11 - 13 (B1),to come from,aus,D,stammen,,
-430,13,11 - 13 (B1),to renounce,auf,A,verzichten,,
-431,13,11 - 13 (B1),to warn of,vor,D,warnen,,
-432,13,11 - 13 (B1),to advertise for,für,A,werben,,
-433,13,11 - 13 (B1),to aim at,auf,A,zielen,,
-434,13,11 - 13 (B1),to doubt,an,D,zweifeln,,
-435,13,11 - 13 (B1),to depend on,von,D,abhängen,,
-436,13,11 - 13 (B1),to nourish from,von,D,ernähren,,
-437,13,11 - 13 (B1),to be about,um,A,handeln,,
-438,13,11 - 13 (B1),to revolve around / be about,von,D,handeln,,
-439,13,11 - 13 (B1),to follow,nach,D,richten,,
-440,13,11 - 13 (B1),to address to,an,A,richten,,
-441,13,11 - 13 (B1),to have at one's disposal,über,,verfügen,,
-442,13,11 - 13 (B1),to trade with / in,mit,D,handeln,,
-443,13,11 - 13 (B1),"to learn about, of",von,D,erfahren,,
+419,13,100,to recover from,von,D,erholen,,
+420,13,#N/A,to flee from,vor,D,fliehen,,
+421,13,#N/A,to be afraid of,vor,D,fürchten,,
+422,13,#N/A,to guarantee for,für,A,garantieren,,
+423,13,#N/A,to point out,auf,A,hinweisen,,
+424,13,#N/A,to concentrate on,auf,A,konzentrieren,,
+425,13,#N/A,to think about,über,A,nachdenken,,
+426,13,#N/A,to react to,auf,A,reagieren,,
+427,13,#N/A,to smell like,nach,D,riechen,,
+428,13,#N/A,to send to,an,A,senden,,
+429,13,#N/A,to come from,aus,D,stammen,,
+430,13,#N/A,to renounce,auf,A,verzichten,,
+431,13,#N/A,to warn of,vor,D,warnen,,
+432,13,#N/A,to advertise for,für,A,werben,,
+433,13,#N/A,to aim at,auf,A,zielen,,
+434,13,#N/A,to doubt,an,D,zweifeln,,
+435,13,#N/A,to depend on,von,D,abhängen,,
+436,13,#N/A,to nourish from,von,D,ernähren,,
+437,13,#N/A,to be about,um,A,handeln,,
+438,13,#N/A,to revolve around / be about,von,D,handeln,,
+439,13,#N/A,to follow,nach,D,richten,,
+440,13,#N/A,to address to,an,A,richten,,
+441,13,#N/A,to have at one's disposal,über,,verfügen,,
+442,13,#N/A,to trade with / in,mit,D,handeln,,
+443,13,100,"to learn about, of",von,D,erfahren,,
 444,14,,Die Menschen fliehen _____ der Gewalt in ihrer Heimat.,vor,,Die Menschen fliehen vor der Gewalt in ihrer Heimat.,The people are fleeing from the violence in their homeland.,fliehen
 445,14,,Er ist _____ der Gefahr in Sicherheit geflohen.,vor,,Er ist vor der Gefahr in Sicherheit geflohen.,He fled to safety from the danger.,fliehen
 446,14,,Ich fürchte mich _____ großen Spinnen.,vor,,Ich fürchte mich vor großen Spinnen.,I am afraid of large spiders.,fürchten
@@ -491,33 +491,33 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 489,14,,Er richtet seinen Blick _____ die Zukunft.,an,,Er richtet seinen Blick an die Zukunft.,He directs his gaze towards the future.,richten
 490,14,,"Die Firma verfügt _____ moderne Maschinen, die die Produktion verbessern.",über,,"Die Firma verfügt über moderne Maschinen, die die Produktion verbessern.",The company has modern machines that improve production.,verfügen
 491,14,,Er verfügt _____ viel Erfahrung in diesem Bereich.,über,,Er verfügt über viel Erfahrung in diesem Bereich.,He has a lot of experience in this field.,verfügen
-492,14,,Ich habe _____ dem Unfall in den Nachrichten erfahren.,von,,Ich habe von dem Unfall in den Nachrichten erfahren.,I heard about the accident on the news.,erfahren
+492,14,,Ich habe _____ Unfall in den Nachrichten erfahren.,vom,,Ich habe vom Unfall in den Nachrichten erfahren.,I heard about the accident on the news.,erfahren
 493,14,,Wir haben _____ ihrem Erfolg über die Zeitung erfahren.,von,,Wir haben von ihrem Erfolg über die Zeitung erfahren.,We learned about her success through the newspaper.,erfahren
-494,15,15 - 17 (B2),"to strive for, be eager for",um,A,bemühen,,
-495,15,15 - 17 (B2),to thank for,für,A,bedanken,,
-496,15,15 - 17 (B2),to thank someone,bei,D,bedanken,,
-497,15,15 - 17 (B2),to engage for,für,A,engagieren,,
-498,15,11 - 13 (B1),to get into,in,A,geraten,,
-499,15,11 - 13 (B1),to get used to,an,A,gewöhnen,,
-500,15,15 - 17 (B2),to shoot at,auf,A,schießen,,
-501,15,15 - 17 (B2),to say goodbye to,von,D,verabschieden,,
-502,15,15 - 17 (B2),to transform into,in,A,verwandeln,,
-503,15,15 - 17 (B2),to turn to,an,A,wenden,,
-504,15,15 - 17 (B2),to bet on,um,A,wetten,,
-505,15,15 - 17 (B2),to hesitate with,mit,D,zögern,,
-506,15,15 - 17 (B2),to adjust to,an,A,anpassen,,
-507,15,15 - 17 (B2),to get upset about,über,A,aufregen,,
-508,15,15 - 17 (B2),to spend for,für,A,ausgeben,,
-509,15,15 - 17 (B2),to designate as,als,A,bezeichnen,,
-510,15,15 - 17 (B2),to get frightened by,über,A,erschrecken,,
-511,15,15 - 17 (B2),to be scared of,vor,D,erschrecken,,
-512,15,15 - 17 (B2),to protest against,gegen,A,protestieren,,
-513,15,15 - 17 (B2),"to call, to phone with",mit,D,telefonieren,,
-514,15,15 - 17 (B2),to talk with,mit,D,unterhalten,,
-515,15,15 - 17 (B2),"to talk, converse about",über,A,unterhalten,,
-516,15,15 - 17 (B2),to differentiate in,in,D,unterscheiden,,
-517,15,15 - 17 (B2),to demand from,von,D,verlangen,,
-518,15,15 - 17 (B2),to wonder about,über,A,wundern,,
+494,15,#N/A,to get into,in,A,geraten,,
+495,15,#N/A,to get used to,an,A,gewöhnen,,
+496,15,#N/A,"to strive for, be eager for",um,A,bemühen,,
+497,15,#N/A,to thank for,für,A,bedanken,,
+498,15,#N/A,to thank someone,bei,D,bedanken,,
+499,15,#N/A,to engage for,für,A,engagieren,,
+500,15,#N/A,to shoot at,auf,A,schießen,,
+501,15,#N/A,to say goodbye to,von,D,verabschieden,,
+502,15,#N/A,to transform into,in,A,verwandeln,,
+503,15,#N/A,to turn to,an,A,wenden,,
+504,15,#N/A,to bet on,um,A,wetten,,
+505,15,#N/A,to hesitate with,mit,D,zögern,,
+506,15,#N/A,to adjust to,an,A,anpassen,,
+507,15,#N/A,to get upset about,über,A,aufregen,,
+508,15,#N/A,to spend for,für,A,ausgeben,,
+509,15,#N/A,to designate as,als,A,bezeichnen,,
+510,15,#N/A,to get frightened by,über,A,erschrecken,,
+511,15,#N/A,to be scared of,vor,D,erschrecken,,
+512,15,#N/A,to protest against,gegen,A,protestieren,,
+513,15,#N/A,"to call, to phone with",mit,D,telefonieren,,
+514,15,#N/A,to talk with,mit,D,unterhalten,,
+515,15,#N/A,"to talk, converse about",über,A,unterhalten,,
+516,15,#N/A,to differentiate in,in,D,unterscheiden,,
+517,15,#N/A,to demand from,von,D,verlangen,,
+518,15,#N/A,to wonder about,über,A,wundern,,
 519,16,,Sie bemüht sich _____ einen Studienplatz an einer renommierten Universität.,um,,Sie bemüht sich um einen Studienplatz an einer renommierten Universität.,She is striving for a place at a prestigious university.,bemühen
 520,16,,Er bemüht sich _____ eine bessere Work-Life-Balance.,um,,Er bemüht sich um eine bessere Work-Life-Balance.,He strives for a better work-life balance.,bemühen
 521,16,,Ich möchte mich herzlich _____ Ihre Unterstützung bedanken.,für,,Ich möchte mich herzlich für Ihre Unterstützung bedanken.,I would like to sincerely thank you for your support.,bedanken
@@ -528,7 +528,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 526,16,,Viele Jugendliche engagieren sich _____ soziale Projekte.,für,,Viele Jugendliche engagieren sich für soziale Projekte.,Many young people are committed to social projects.,engagieren
 527,16,,Sie ist _____ eine schwierige Situation geraten.,in,,Sie ist in eine schwierige Situation geraten.,She got into a difficult situation.,geraten
 528,16,,Er ist _____ finanzielle Schwierigkeiten geraten.,in,,Er ist in finanzielle Schwierigkeiten geraten.,He got into financial trouble.,geraten
-529,16,,Ich habe mich schnell _____ das neue Klima gewöhnt.,an,,Ich habe mich schnell an das neue Klima gewöhnt.,I quickly got used to the new climate.,gewöhnen
+529,16,,Ich habe mich schnell _____ neue Klima gewöhnt.,ans,,Ich habe mich schnell ans neue Klima gewöhnt.,I quickly got used to the new climate.,gewöhnen
 530,16,,"Es ist nicht leicht, sich _____ die Zeitumstellung zu gewöhnen.",an,,"Es ist nicht leicht, sich an die Zeitumstellung zu gewöhnen.",It's not easy to get used to the time change.,gewöhnen
 531,16,,Der Jäger schoss _____ den Hirsch.,auf,,Der Jäger schoss auf den Hirsch.,The hunter shot at the deer.,schießen
 532,16,,"Er schoss _____ das Tor, aber der Ball ging vorbei.",auf,,"Er schoss auf das Tor, aber der Ball ging vorbei.","He shot at the goal, but the ball missed.",schießen
@@ -568,27 +568,27 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 566,16,,Ich verlange eine Erklärung _____ dir.,von,,Ich verlange eine Erklärung von dir.,I demand an explanation from you.,
 567,16,,Ich wundere mich _____ seine Entscheidung.,über,,Ich wundere mich über seine Entscheidung.,I’m surprised by his decision.,
 568,16,,Sie wunderte sich _____ das Ergebnis.,über,,Sie wunderte sich über das Ergebnis.,She was amazed by the result.,
-569,17,11 - 13 (B1),to apply to,für,A,gelten,,
-570,17,11 - 13 (B1),to be considered as,als,N,gelten,,
-571,17,11 - 13 (B1),to inform oneself about,über,A,informieren,,
-572,17,11 - 13 (B1),to inform at,bei,D,informieren,,
-573,17,11 - 13 (B1),to count on,mit,D,rechnen,,
-574,17,11 - 13 (B1),to force to,zu,D,zwingen,,
-575,17,11 - 13 (B1),to advocate for,für,A,einsetzen,,
-576,17,1 - 3 (A1),"to take for, to consider as",für,A,halten,,
-577,17,1 - 3 (A1),to think of / regard,von,D,halten,,
-578,17,1 - 3 (A1),to adhere to,an,A,halten,,
-579,17,5 - 7 (A2),"to assume, to come from",von,D,ausgehen,,
-580,17,1 - 3 (A1),to send something to,an,A,schicken,,
-581,17,1 - 3 (A1),to send someone to,zu,D,schicken,,
-582,17,11 - 13 (B1),to report on (something objective),über,A,berichten,,
-583,17,11 - 13 (B1),"to report on (something personal, an experience)",von,D,berichten,,
-584,17,5 - 7 (A2),"to serve to, to serve for",zu,D,dienen,,
-585,17,5 - 7 (A2),to serve as,als,D,dienen,,
-586,17,15 - 17 (B2),to be suitable for (a concrete goal or group),für,A,eignen,,
-587,17,15 - 17 (B2),to be suitable for (an abstract function),zu,D,eignen,,
-588,17,1 - 3 (A1),to play for,um,A,spielen,,
-589,17,11 - 13 (B1),to reach for,zu,D,greifen,,
+569,17,1 - 3 (A1),"to take for, to consider as",für,A,halten,,
+570,17,1 - 3 (A1),to think of / regard,von,D,halten,,
+571,17,1 - 3 (A1),to adhere to,an,A,halten,,
+572,17,1 - 3 (A1),to send something to,an,A,schicken,,
+573,17,1 - 3 (A1),to send someone to,zu,D,schicken,,
+574,17,1 - 3 (A1),to play for,um,A,spielen,,
+575,17,#N/A,to apply to,für,A,gelten,,
+576,17,#N/A,to be considered as,als,N,gelten,,
+577,17,#N/A,to inform oneself about,über,A,informieren,,
+578,17,#N/A,to inform at,bei,D,informieren,,
+579,17,#N/A,to count on,mit,D,rechnen,,
+580,17,#N/A,to force to,zu,D,zwingen,,
+581,17,#N/A,to advocate for,für,A,einsetzen,,
+582,17,#N/A,to report on (something objective),über,A,berichten,,
+583,17,#N/A,"to report on (something personal, an experience)",von,D,berichten,,
+584,17,100,to reach for,zu,D,greifen,,
+585,17,#N/A,to be suitable for (a concrete goal or group),für,A,eignen,,
+586,17,#N/A,to be suitable for (an abstract function),zu,D,eignen,,
+587,17,5 - 7 (A2),"to assume, to come from",von,D,ausgehen,,
+588,17,5 - 7 (A2),"to serve to, to serve for",zu,D,dienen,,
+589,17,5 - 7 (A2),to serve as,als,D,dienen,,
 590,18,,Die neuen Regeln gelten _____ alle Mitarbeiter.,für,,Die neuen Regeln gelten für alle Mitarbeiter.,The new rules apply to all employees.,gelten
 591,18,,Das Angebot gilt nur _____ kurze Zeit.,für,,Das Angebot gilt nur für kurze Zeit.,The offer is valid for a short time only.,gelten
 592,18,,Er gilt _____ Experte auf diesem Gebiet.,als,,Er gilt als Experte auf diesem Gebiet.,He is considered an expert in this field.,gelten
@@ -613,8 +613,8 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 611,18,,"Ich gehe _____ aus, dass du mir hilfst.",davon,,"Ich gehe davon aus, dass du mir hilfst.",I assume that you will help me.,ausgehen
 612,18,,Ich habe die Unterlagen _____ die Personalabteilung geschickt.,an,,Ich habe die Unterlagen an die Personalabteilung geschickt.,I sent the documents to the HR department.,schicken
 613,18,,Bitte schick die Einladung _____ alle Teilnehmer.,an,,Bitte schick die Einladung an alle Teilnehmer.,Please send the invitation to all participants.,schicken
-614,18,,Der Lehrer hat ihn _____ der Schulleitung geschickt.,zu,,Der Lehrer hat ihn zu der Schulleitung geschickt.,The teacher sent him to the school administration.,schicken
-615,18,,Meine Mutter hat mich _____ dem Einkaufen geschickt.,zu,,Meine Mutter hat mich zu dem Einkaufen geschickt.,My mother sent me to do the shopping.,schicken
+614,18,,Der Lehrer hat ihn _____ Schulleitung geschickt.,zur,,Der Lehrer hat ihn zur Schulleitung geschickt.,The teacher sent him to the school administration.,schicken
+615,18,,Meine Mutter hat mich _____ Einkaufen geschickt.,zum,,Meine Mutter hat mich zum Einkaufen geschickt.,My mother sent me to do the shopping.,schicken
 616,18,,Sie berichtete _____ ihren Erlebnissen während des Auslandssemesters.,von,,Sie berichtete von ihren Erlebnissen während des Auslandssemesters.,She talked about her experiences during the semester abroad.,berichten
 617,18,,Er hat _____ seinem ersten Arbeitstag berichtet.,von,,Er hat von seinem ersten Arbeitstag berichtet.,He reported on his first day at work.,berichten
 618,18,,Die Medien berichten ausführlich _____ den aktuellen Konflikt.,über,,Die Medien berichten ausführlich über den aktuellen Konflikt.,The media report extensively on the current conflict.,berichten
@@ -622,35 +622,35 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 620,18,,Das Praktikum dient _____ Einstieg in die Berufswelt.,als,,Das Praktikum dient als Einstieg in die Berufswelt.,The internship serves as an entry into professional life.,dienen
 621,18,,Dieses Gebäude diente früher _____ Krankenhaus.,als,,Dieses Gebäude diente früher als Krankenhaus.,This building used to serve as a hospital.,dienen
 622,18,,Die Statistik dient _____ einer besseren Entscheidungsfindung.,zu,,Die Statistik dient zu einer besseren Entscheidungsfindung.,The statistics serve to support better decision-making.,dienen
-623,18,,Das neue System soll _____ der Effizienzsteigerung dienen.,zu,,Das neue System soll zu der Effizienzsteigerung dienen.,The new system is intended to serve for increasing efficiency.,dienen
+623,18,,Das neue System soll _____ Effizienzsteigerung dienen.,zur,,Das neue System soll zur Effizienzsteigerung dienen.,The new system is intended to serve for increasing efficiency.,dienen
 624,18,,Dieses Programm eignet sich _____ fortgeschrittene Nutzer.,für,,Dieses Programm eignet sich für fortgeschrittene Nutzer.,This program is suitable for advanced users.,eignen
 625,18,,Die Methode eignet sich gut _____ den Einsatz im Unterricht.,für,,Die Methode eignet sich gut für den Einsatz im Unterricht.,The method is well suited for use in class.,eignen
-626,18,,Dieses Holz eignet sich nicht _____ dem Möbelbau.,zu,,Dieses Holz eignet sich nicht zu dem Möbelbau.,This wood is not suitable for making furniture.,eignen
-627,18,,Die App eignet sich hervorragend _____ dem Lernen unterwegs.,zu,,Die App eignet sich hervorragend zu dem Lernen unterwegs.,The app is perfectly suited for learning on the go.,eignen
+626,18,,Dieses Holz eignet sich nicht _____ Möbelbau.,zum,,Dieses Holz eignet sich nicht zum Möbelbau.,This wood is not suitable for making furniture.,eignen
+627,18,,Die App eignet sich hervorragend _____ Lernen unterwegs.,zum,,Die App eignet sich hervorragend zum Lernen unterwegs.,The app is perfectly suited for learning on the go.,eignen
 628,18,,Beide Mannschaften spielen _____ den Einzug ins Finale.,um,,Beide Mannschaften spielen um den Einzug ins Finale.,Both teams are playing for a spot in the final.,spielen
 629,18,,Er spielt _____ eine hohe Geldsumme im Casino.,um,,Er spielt um eine hohe Geldsumme im Casino.,He is playing for a large amount of money at the casino.,spielen
 630,18,,In Stresssituationen greifen viele Menschen _____ Schokolade.,zu,,In Stresssituationen greifen viele Menschen zu Schokolade.,"In stressful situations, many people reach for chocolate.",
 631,18,,"Er griff _____ Handy, um Hilfe zu rufen.",zum,,"Er griff zum Handy, um Hilfe zu rufen.",He reached for his cell phone to call for help.,
-632,19,19 - 21 (C1),to promote to,zu,D,befördern,,
-633,19,19 - 21 (C1),to prevent from,an,D,hindern,,
-634,19,15 - 17 (B2),to encourage to,zu,D,anregen,,
-635,19,15 - 17 (B2),to invite to,zu,D,auffordern,,
-636,19,19 - 21 (C1),to deal with,mit,D,auseinandersetzen,,
-637,19,15 - 17 (B2),to be based on,auf,D,basieren,,
-638,19,15 - 17 (B2),to deal with,mit,D,befassen,,
-639,19,19 - 21 (C1),to free from,von,D,befreien,,
-640,19,15 - 17 (B2),to be based on,auf,D,beruhen,,
-641,19,15 - 17 (B2),to refer to,auf,A,beziehen,,
-642,19,15 - 17 (B2),to agree on,auf,A,einigen,,
-643,19,19 - 21 (C1),to resolve to,zu,D,entschließen,,
-644,19,19 - 21 (C1),to fall ill from,an,D,erkranken,,
-645,19,19 - 21 (C1),"to ask after, to inquire about",nach,D,erkundigen,,
-646,19,19 - 21 (C1),to raise to,zu,D,erziehen,,
-647,19,19 - 21 (C1),to experiment with,mit,D,experimentieren,,
-648,19,19 - 21 (C1),to flee from,vor,D,flüchten,,
-649,19,19 - 21 (C1),to gratulate on,zu,D,gratulieren,,
-650,19,15 - 17 (B2),to be mistaken in,in,D,irren,,
-651,19,15 - 17 (B2),to complain about,über,A,klagen,,
+632,19,#N/A,to encourage to,zu,D,anregen,,
+633,19,#N/A,to invite to,zu,D,auffordern,,
+634,19,#N/A,to be based on,auf,D,basieren,,
+635,19,#N/A,to deal with,mit,D,befassen,,
+636,19,#N/A,to be based on,auf,D,beruhen,,
+637,19,#N/A,to refer to,auf,A,beziehen,,
+638,19,#N/A,to agree on,auf,A,einigen,,
+639,19,#N/A,to be mistaken in,in,D,irren,,
+640,19,#N/A,to complain about,über,A,klagen,,
+641,19,#N/A,to promote to,zu,D,befördern,,
+642,19,#N/A,to prevent from,an,D,hindern,,
+643,19,#N/A,to deal with,mit,D,auseinandersetzen,,
+644,19,#N/A,to free from,von,D,befreien,,
+645,19,#N/A,to resolve to,zu,D,entschließen,,
+646,19,#N/A,to fall ill from,an,D,erkranken,,
+647,19,#N/A,"to ask after, to inquire about",nach,D,erkundigen,,
+648,19,#N/A,to raise to,zu,D,erziehen,,
+649,19,#N/A,to experiment with,mit,D,experimentieren,,
+650,19,#N/A,to flee from,vor,D,flüchten,,
+651,19,#N/A,to gratulate on,zu,D,gratulieren,,
 652,20,,Sie wurde _____ Abteilungsleiterin befördert.,zur,,Sie wurde zur Abteilungsleiterin befördert.,She was promoted to department head.,befördern
 653,20,,Er wurde nach vielen Jahren harter Arbeit _____ Manager befördert.,zum,,Er wurde nach vielen Jahren harter Arbeit zum Manager befördert.,He was promoted to manager after many years of hard work.,befördern
 654,20,,Der Regen hinderte uns _____ der Durchführung des Picknicks.,an,,Der Regen hinderte uns an der Durchführung des Picknicks.,The rain prevented us from having the picnic.,hindern
@@ -691,26 +691,26 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 689,20,,Er irrt sich _____ der Zeit.,in,,Er irrt sich in der Zeit.,He is mistaken about the time.,irren
 690,20,,Die Firma klagt _____ Umsatzrückgang.,über,,Die Firma klagt über Umsatzrückgang.,The company complains about declining sales.,klagen
 691,20,,Er klagte _____ starke Schmerzen.,über,,Er klagte über starke Schmerzen.,He complained about severe pain.,klagen
-692,21,15 - 17 (B2),to sue,gegen,A,klagen,,
-693,21,19 - 21 (C1),to tend to,zu,D,neigen,,
-694,21,15 - 17 (B2),to orient oneself to,an,D,orientieren,,
-695,21,15 - 17 (B2),to complain / swear about,über,A,schimpfen,,
-696,21,15 - 17 (B2),to scold about,auf,A,schimpfen,,
-697,21,15 - 17 (B2),to scold with,mit,D,schimpfen,,
-698,21,15 - 17 (B2),to stink of,nach,D,stinken,,
-699,21,19 - 21 (C1),to persuade to,zu,D,überreden,,
-700,21,19 - 21 (C1),to switch to,auf,A,umstellen,,
-701,21,19 - 21 (C1),to put into,in,A,versetzen,,
-702,21,19 - 21 (C1),to defend against,gegen,A,wehren,,
-703,21,19 - 21 (C1),to assemble from,aus,D,zusammensetzen,,
-704,21,15 - 17 (B2),to complain about,über,A,beklagen,,
-705,21,19 - 21 (C1),to inquire at,bei,D,erkundigen,,
-706,21,15 - 17 (B2),to come to an agreement with,mit,D,einigen,,
-707,21,19 - 21 (C1),to demonstrate for,für,A,demonstrieren,,
-708,21,19 - 21 (C1),to demonstrate against,gegen,A,demonstrieren,,
-709,21,15 - 17 (B2),to complain to,bei,D,beklagen,,
-710,21,19 - 21 (C1),to arrange to meet with,mit,D,verabreden,,
-711,21,15 - 17 (B2),to defend against,gegen,A,verteidigen,,
+692,21,#N/A,to sue,gegen,A,klagen,,
+693,21,#N/A,to orient oneself to,an,D,orientieren,,
+694,21,#N/A,to complain / swear about,über,A,schimpfen,,
+695,21,#N/A,to scold about,auf,A,schimpfen,,
+696,21,#N/A,to scold with,mit,D,schimpfen,,
+697,21,#N/A,to stink of,nach,D,stinken,,
+698,21,#N/A,to complain about,über,A,beklagen,,
+699,21,#N/A,to come to an agreement with,mit,D,einigen,,
+700,21,#N/A,to complain to,bei,D,beklagen,,
+701,21,#N/A,to defend against,gegen,A,verteidigen,,
+702,21,#N/A,to tend to,zu,D,neigen,,
+703,21,#N/A,to persuade to,zu,D,überreden,,
+704,21,#N/A,to switch to,auf,A,umstellen,,
+705,21,#N/A,to put into,in,A,versetzen,,
+706,21,#N/A,to defend against,gegen,A,wehren,,
+707,21,#N/A,to assemble from,aus,D,zusammensetzen,,
+708,21,#N/A,to inquire at,bei,D,erkundigen,,
+709,21,#N/A,to demonstrate for,für,A,demonstrieren,,
+710,21,#N/A,to demonstrate against,gegen,A,demonstrieren,,
+711,21,#N/A,to arrange to meet with,mit,D,verabreden,,
 712,22,,Sie klagt _____ den Arbeitgeber.,gegen,,Sie klagt gegen den Arbeitgeber.,She is suing the employer.,klagen
 713,22,,Er klagt _____ die Entscheidung.,gegen,,Er klagt gegen die Entscheidung.,He is taking legal action against the decision.,klagen
 714,22,,Sie neigt _____ Übertreibungen.,zu,,Sie neigt zu Übertreibungen.,She tends to exaggerate.,neigen
@@ -751,66 +751,66 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 749,22,,Wir verabredeten uns _____ Freunden im Restaurant.,mit,,Wir verabredeten uns mit Freunden im Restaurant.,We made plans with friends at the restaurant.,verabreden
 750,22,,Der Anwalt verteidigt seinen Mandanten _____ die Vorwürfe.,gegen,,Der Anwalt verteidigt seinen Mandanten gegen die Vorwürfe.,The lawyer defends his client against the accusations.,verteidigen
 751,22,,Sie verteidigt sich _____ die Kritik der Kollegen.,gegen,,Sie verteidigt sich gegen die Kritik der Kollegen.,She defends herself against the criticism of her colleagues.,verteidigen
-752,100,19 - 21 (C1),to watch,bei,D,zuschauen,,
-753,100,15 - 17 (B2),to listen to,bei,D,zuhören,,
-754,100,15 - 17 (B2),to watch,bei,D,zusehen,,
-755,100,5 - 7 (A2),to call for,nach,D,rufen,,
-756,100,1 - 3 (A1),to say to,zu,D,sagen,,
-757,100,1 - 3 (A1),to speak / say about,über,A,sagen,,
-758,100,5 - 7 (A2),to apply for,auf,A,bewerben,,
-759,100,19 - 21 (C1),to violate,gegen,A,verstossen,,
-760,100,19 - 21 (C1),to hurry with,mit,D,beeilen,,
-761,100,100,to congratulate on,zu,D,beglückwünschen,,
-762,100,100,to dissuade from,von,D,abbringen,,
-763,100,100,to address to,an,A,adressieren,,
-764,100,100,to worry about,um,A,ängstigen,,
-765,100,100,to be afraid of,vor,D,ängstigen,,
-766,100,19 - 21 (C1),to insist on,auf,D,beharren,,
-767,100,19 - 21 (C1),to debate about,über,A,debattieren,,
-768,100,19 - 21 (C1),to debate with,mit,D,debattieren,,
-769,100,100,to be disgusted by,vor,D,ekeln,,
-770,100,19 - 21 (C1),to appoint to,zu,D,ernennen,,
-771,100,100,to be based on,auf,D,fussen,,
-772,100,19 - 21 (C1),to divide into,in,A,gliedern,,
-773,100,19 - 21 (C1),to take revenge for,für,A,rächen,,
-774,100,19 - 21 (C1),to take revenge on,an,D,rächen,,
-775,100,19 - 21 (C1),to long for,nach,D,sehnen,,
-776,100,100,to mock about,über,A,spotten,,
-777,100,19 - 21 (C1),to marvel at,über,A,staunen,,
-778,100,100,to conceal from,vor,D,verheimlichen,,
-779,100,19 - 21 (C1),to tempt to,zu,D,verleiten,,
-780,100,19 - 21 (C1),to get along with,mit,D,vertragen,,
-781,100,19 - 21 (C1),to appeal to,an,,appellieren,,
-782,100,19 - 21 (C1),to take revenge on,an,,rächen,,
-783,100,#N/A,to list,an,,aufzählen,,
-784,100,11 - 13 (B1),,auf,,anwenden,,
-785,100,#N/A,,auf,,horchen,,
-786,100,19 - 21 (C1),,auf,,lauschen,,
-787,100,5 - 7 (A2),,auf,,zählen,,
-788,100,19 - 21 (C1),,auf,,besinnen,,
-789,100,19 - 21 (C1),,auf,,dringen,,
-790,100,19 - 21 (C1),,bei,,anfragen,,
-791,100,11 - 13 (B1),,bei,,gelten,,
-792,100,#N/A,,mit,,abmühen,,
-793,100,#N/A,,über,,entsetzen,,
-794,100,19 - 21 (C1),,über,,reflektieren,,
-795,100,#N/A,,über,,meditieren,,
-796,100,#N/A,,über,,konferieren,,
-797,100,11 - 13 (B1),,über,,äußern,,
-798,100,15 - 17 (B2),,über,,einigen,,
-799,100,15 - 17 (B2),,über,,herrschen,,
-800,100,19 - 21 (C1),,über,,gebieten,,
-801,100,19 - 21 (C1),,über,,siegen,,
-802,100,19 - 21 (C1),,über,,triumphieren,,
-803,100,#N/A,,um,,anflehen,,
-804,100,#N/A,,um,,losen,,
-805,100,#N/A,,um,,würfeln,,
-806,100,#N/A,,um,,zanken,,
-807,100,19 - 21 (C1),,um,,ringen,,
-808,100,1 - 3 (A1),to deprive someone of,um,,bringen,,
-809,100,19 - 21 (C1),to cheat someone out of,um,,betrügen,,
-810,100,19 - 21 (C1),,unter,,seufzen,,
-811,100,5 - 7 (A2),"to be fond of, to be emotionally attached to",an,,hängen,,
+752,100,#N/A,to congratulate on,zu,D,beglückwünschen,,
+753,100,#N/A,to dissuade from,von,D,abbringen,,
+754,100,#N/A,to address to,an,A,adressieren,,
+755,100,#N/A,to worry about,um,A,ängstigen,,
+756,100,#N/A,to be afraid of,vor,D,ängstigen,,
+757,100,#N/A,to be disgusted by,vor,D,ekeln,,
+758,100,#N/A,to be based on,auf,D,fussen,,
+759,100,#N/A,to mock about,über,A,spotten,,
+760,100,#N/A,to conceal from,vor,D,verheimlichen,,
+761,100,1 - 3 (A1),to say to,zu,D,sagen,,
+762,100,1 - 3 (A1),to speak / say about,über,A,sagen,,
+763,100,1 - 3 (A1),to deprive someone of,um,,bringen,,
+764,100,#N/A,,auf,,anwenden,,
+765,100,#N/A,,bei,,gelten,,
+766,100,#N/A,,über,,äußern,,
+767,100,#N/A,to listen to,bei,D,zuhören,,
+768,100,#N/A,to watch,bei,D,zusehen,,
+769,100,#N/A,,über,,einigen,,
+770,100,#N/A,,über,,herrschen,,
+771,100,#N/A,to watch,bei,D,zuschauen,,
+772,100,#N/A,to violate,gegen,A,verstossen,,
+773,100,#N/A,to hurry with,mit,D,beeilen,,
+774,100,#N/A,to insist on,auf,D,beharren,,
+775,100,#N/A,to debate about,über,A,debattieren,,
+776,100,#N/A,to debate with,mit,D,debattieren,,
+777,100,#N/A,to appoint to,zu,D,ernennen,,
+778,100,#N/A,to divide into,in,A,gliedern,,
+779,100,#N/A,to take revenge for,für,A,rächen,,
+780,100,#N/A,to take revenge on,an,D,rächen,,
+781,100,#N/A,to long for,nach,D,sehnen,,
+782,100,#N/A,to marvel at,über,A,staunen,,
+783,100,#N/A,to tempt to,zu,D,verleiten,,
+784,100,#N/A,to get along with,mit,D,vertragen,,
+785,100,#N/A,to appeal to,an,,appellieren,,
+786,100,#N/A,to take revenge on,an,,rächen,,
+787,100,#N/A,,auf,,lauschen,,
+788,100,#N/A,,auf,,besinnen,,
+789,100,#N/A,,auf,,dringen,,
+790,100,#N/A,,bei,,anfragen,,
+791,100,#N/A,,über,,reflektieren,,
+792,100,#N/A,,über,,gebieten,,
+793,100,#N/A,,über,,siegen,,
+794,100,#N/A,,über,,triumphieren,,
+795,100,#N/A,,um,,ringen,,
+796,100,#N/A,to cheat someone out of,um,,betrügen,,
+797,100,#N/A,,unter,,seufzen,,
+798,100,5 - 7 (A2),to call for,nach,D,rufen,,
+799,100,5 - 7 (A2),to apply for,auf,A,bewerben,,
+800,100,5 - 7 (A2),,auf,,zählen,,
+801,100,5 - 7 (A2),"to be fond of, to be emotionally attached to",an,,hängen,,
+802,100,#N/A,to list,an,,aufzählen,,
+803,100,#N/A,,auf,,horchen,,
+804,100,#N/A,,mit,,abmühen,,
+805,100,#N/A,,über,,entsetzen,,
+806,100,#N/A,,über,,meditieren,,
+807,100,#N/A,,über,,konferieren,,
+808,100,#N/A,,um,,anflehen,,
+809,100,#N/A,,um,,losen,,
+810,100,#N/A,,um,,würfeln,,
+811,100,#N/A,,um,,zanken,,
 812,101,,Die Bürger demonstrieren _____ die neuen Gesetze.,gegen,,Die Bürger demonstrieren gegen die neuen Gesetze.,The citizens demonstrate against the new laws.,demonstrieren
 813,101,,Viele demonstrierten für mehr Klimaschutz.,gegen,,Viele demonstrierten für mehr Klimaschutz.,Many demonstrated for more climate protection.,demonstrieren
 814,101,,"Ich gehe _____ aus, dass du pünktlich kommst.",von,,"Ich gehe davon aus, dass du pünktlich kommst.",I assume that you will be on time.,ausgehen
@@ -818,7 +818,7 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 816,101,,Die Journalistin berichtete ausführlich _____ die aktuellen Ereignisse.,über,,Die Journalistin berichtete ausführlich über die aktuellen Ereignisse.,The journalist reported extensively on the current events.,berichten
 817,101,,Er hat _____ seine Reise nach Südamerika berichtet.,über,,Er hat über seine Reise nach Südamerika berichtet.,He reported on his trip to South America.,berichten
 818,101,,Sie berichtete _____ ihren Erfahrungen als Freiwillige.,von,,Sie berichtete von ihren Erfahrungen als Freiwillige.,She reported on her experiences as a volunteer.,berichten
-819,101,,Der Zeuge berichtete _____ dem Unfall.,von,,Der Zeuge berichtete von dem Unfall.,The witness reported on the accident.,berichten
+819,101,,Der Zeuge berichtete _____ Unfall.,vom,,Der Zeuge berichtete vom Unfall.,The witness reported on the accident.,berichten
 820,101,,Ich habe mich _____ die ausgeschriebene Position beworben.,auf,,Ich habe mich auf die ausgeschriebene Position beworben.,I applied for the advertised position.,bewerben
 821,101,,Er bewirbt sich _____ eine freie Stelle in der IT-Abteilung.,auf,,Er bewirbt sich auf eine freie Stelle in der IT-Abteilung.,He is applying for an open position in the IT department.,bewerben
 822,101,,Er hält _____ seinen alten Gewohnheiten fest.,an,,Er hält an seinen alten Gewohnheiten fest.,He sticks to his old habits.,halten
@@ -829,8 +829,8 @@ Nr,level,level_verben,question,answer,case,german,english,complement
 827,101,,Er hält nicht viel _____ modernen Kunstwerken.,von,,Er hält nicht viel von modernen Kunstwerken.,He doesn’t think much of modern artworks.,halten
 828,101,,Das Kind ruft _____ seiner Mutter.,nach,,Das Kind ruft nach seiner Mutter.,The child is calling for his mother.,rufen
 829,101,,"Er rief _____ Hilfe, aber niemand hörte ihn.",nach,,"Er rief nach Hilfe, aber niemand hörte ihn.","He called for help, but no one heard him.",rufen
-830,101,,Ich sage etwas _____ dem Thema.,zu,,Ich sage etwas zu dem Thema.,I say something about the topic.,sagen
-831,101,,Er sagt nichts _____ der Frage.,zu,,Er sagt nichts zu der Frage.,He says nothing about the question.,sagen
+830,101,,Ich sage etwas _____ Thema.,zum,,Ich sage etwas zum Thema.,I say something about the topic.,sagen
+831,101,,Er sagt nichts _____ Frage.,zur,,Er sagt nichts zur Frage.,He says nothing about the question.,sagen
 832,101,,Sie sagt viel _____ ihren Urlaub.,über,,Sie sagt viel über ihren Urlaub.,She says a lot about her vacation.,sagen
 833,101,,Er sagt etwas _____ seinen Job.,über,,Er sagt etwas über seinen Job.,He says something about his job.,sagen
 834,101,,"Beeil dich _____ dem Essen, wir müssen los!",mit,,"Beeil dich mit dem Essen, wir müssen los!","Hurry up with your food, we have to leave!",beeilen

@@ -15,7 +15,9 @@
     {{ render_title(title_page[exercise]) }}
     <h2 class="level-title">Level {{ level }}</h2>
 
-    <p>All questions have been successfully answered!</p>
+    <p>All questions have been successfully answered! <br><br>
+    Your score for this level is {{ score(session, exercise, level=level) }}.</p>
+
     <form action="{{ url_for('routes.reset_exercise', exercise=exercise, level=level) }}" method="post">
         <button type="submit" class="submit-button">Refresh</button>
     </form>
