@@ -13,7 +13,10 @@ def print_exercise_level_completed(exercise, level):
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     EXERCISE_COMPLETED_PATH = os.path.join(BASE_DIR, "../statistics", "exercise_level_completed.txt")
     NOW = datetime.now()
-    user_ip = request.remote_addr
+
+    forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
+    user_ip = forwarded_for.split(',')[0].strip()  # Take the first IP if there are multiple
+
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
         file.write(f"{user_ip}, {NOW}, {exercise}, {level}\n")
     return

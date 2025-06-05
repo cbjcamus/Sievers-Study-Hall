@@ -8,7 +8,7 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 7,1,sollen,"shall, to be asked (to do something)",soll,sollst,soll,sollen,sollt,sollen
 8,1,mögen,to like,mag,magst,mag,mögen,mögt,mögen
 9,1,dürfen,"to be allowed (to do something), may",darf,darfst,darf,dürfen,dürft,dürfen
-10,1,wissen,to know,weiss,weisst,weiss,wissen,wisst,wissen
+10,1,wissen,to know,weiß,weißt,weiß,wissen,wisst,wissen
 11,2,machen,"to make, to prepare (e.g. food), to do",mache,machst,macht,machen,macht,machen
 12,2,tun,"to do, to do something to someone",tue,tust,tut,tun,tut,tun
 13,2,sagen,"to say, to tell",sage,sagst,sagt,sagen,sagt,sagen
@@ -25,7 +25,7 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 24,3,lieben,to love,liebe,liebst,liebt,lieben,liebt,lieben
 25,3,bringen,"to bring, to take, to lead",bringe,bringst,bringt,bringen,bringt,bringen
 26,3,stehen,"to stand, to be, to appear",stehe,stehst,steht,stehen,steht,stehen
-27,3,heißen,"to be called, to mean",heisse,heisst,heisst,heissen,heisst,heissen
+27,3,heißen,"to be called, to mean",heiße,heißt,heißt,heißen,heißt,heißen
 28,3,nehmen,"to take, to cause oneself to be (in some state)",nehme,nimmst,nimmt,nehmen,nehmt,nehmen
 29,3,sprechen,to speak,spreche,sprichst,spricht,sprechen,sprecht,sprechen
 30,3,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekomme,bekommst,bekommt,bekommen,bekommt,bekommen
@@ -107,7 +107,7 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 106,11,schauen,to look at (Bayern/Austria),schaue,schaust,schaut,schauen,schaut,schauen
 107,11,besuchen,to visit,besuche,besuchst,besucht,besuchen,besucht,besuchen
 108,11,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freue,freust,freut,freuen,freut,freuen
-109,11,schließen,"to shut, to close, to lock, to conclude",schliesse,schliesst,schliesst,schliessen,schliesst,schliessen
+109,11,schließen,"to shut, to close, to lock, to conclude",schließe,schließt,schließt,schließen,schließt,schließen
 110,11,einladen,"to invite, to load (something into a container)",lade ein,lädst ein,lädt ein,laden ein,ladet ein,laden ein
 111,12,gefallen,"to please, to appeal to",gefalle,gefällst,gefällt,gefallen,gefallt,gefallen
 112,12,wünschen,to wish,wünsche,wünschst,wünscht,wünschen,wünscht,wünschen
@@ -231,7 +231,7 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 230,23,aufpassen,"to watch out, to look after something, to be attentive with something",aufpasse,aufpassst,aufpasst,aufpassen,aufpasst,aufpassen
 231,24,hassen,to hate,hasse,hassst,hasst,hassen,hasst,hassen
 232,24,zurückgehen,"to go back, to decline",gehe zurück,gehst zurück,geht zurück,gehen zurück,geht zurück,gehen zurück
-233,24,ärgern,to annoy oneself (refl.),ärgee,ärgest,ärget,ärgeen,ärget,ärgeen
+233,24,ärgern,to annoy oneself (refl.),ärgere,ärgerst,ärgert,ärgern,ärgert,ärgern
 234,24,schieben,to push,schiebe,schiebst,schiebt,schieben,schiebt,schieben
 235,24,kündigen,"to terminate, to cancel",kündige,kündigst,kündigt,kündigen,kündigt,kündigen
 236,24,heben,"to lift, to raise",hebe,hebst,hebt,heben,hebt,heben

@@ -25,11 +25,11 @@ Nr,level,question,answer,english
 24,2,lieben,liebte geliebt,to love
 25,2,bringen,brachte gebracht,"to bring, to take, to lead"
 26,2,stehen,stand gestanden,"to stand, to be, to appear"
-27,2,heißen,hiess geheissen,"to be called, to mean"
+27,2,heißen,hieß geheißen,"to be called, to mean"
 28,2,nehmen,nahm genommen,"to take, to cause oneself to be (in some state)"
 29,2,sprechen,sprach gesprochen,to speak
 30,2,bekommen,bekam bekommen,"to receive, to catch (e.g. a cold), to sit well with someone"
-31,2,vergessen,vergass vergessen,"to forget, to leave (forget to take)"
+31,2,vergessen,vergaß vergessen,"to forget, to leave (forget to take)"
 32,2,halten,hielt gehalten,"to hold, to stop (a movement), to support, to keep"
 33,2,warten,wartete gewartet,"to wait, to maintain (e.g. a car)"
 34,2,kennen,kannte gekannt,"to know, to be acquainted with, to be familiar with"
@@ -37,7 +37,7 @@ Nr,level,question,answer,english
 36,2,denken,dachte gedacht,"to think, to consider"
 37,2,leben,lebte gelebt,to live
 38,2,arbeiten,arbeitete gearbeitet,to work
-39,2,essen,ass gegessen,to eat
+39,2,essen,aß gegessen,to eat
 40,2,bieten,bot geboten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
 41,3,aufstehen,stand auf aufgestanden,"to get up, to be open (e.g. a window, door)"
 42,3,anziehen,zog an angezogen,"to get dressed, to put on, to dress someone, to attract, to pull"
@@ -130,8 +130,8 @@ Nr,level,question,answer,english
 129,5,dauern,dauerte gedauert,"to last, to take (time)"
 130,5,kennenlernen,lernte kennen kennengelernt,"to meet someone, to get to know someone/something"
 131,5,anmelden,meldete an angemeldet,"to register, to sign up"
-132,5,lassen,liess gelassen,"to let, to leave, to allow"
-133,5,verlassen,verliess verlassen,"to leave, to trust with something (refl.), to pass away, to die"
+132,5,lassen,ließ gelassen,"to let, to leave, to allow"
+133,5,verlassen,verließ verlassen,"to leave, to trust with something (refl.), to pass away, to die"
 134,5,helfen,half geholfen,to help
 135,5,bewegen,bewegte bewegt,to move
 136,5,versprechen,versprach versprochen,"to promise, to hope for, to misspeak"
@@ -377,7 +377,7 @@ Nr,level,question,answer,english
 376,11,aufwachsen,wuchs auf aufgewachsen,"to grow up, to be raised"
 377,11,zunehmen,nahm zu zugenommen,"to gain weight, to increase"
 378,11,lohnen,lohnte gelohnt,"to be worthwhile, to pay off"
-379,11,messen,mass gemessen,"to measure, to gauge"
+379,11,messen,maß gemessen,"to measure, to gauge"
 380,11,scheiden,schied geschieden,"to separate, to divorce"
 381,11,entsprechen,entsprach entsprochen,"to correspond, to comply"
 382,11,mitmachen,machte mit mitgemacht,"to join in, to take part"
@@ -386,7 +386,7 @@ Nr,level,question,answer,english
 385,11,bewerten,bewertete bewertet,"to evaluate (subjectively), to assess, to rate, to judge"
 386,11,stammen,stammte gestammt,"to descend, originate, be derived"
 387,11,gebären,gebar geboren,to give birth
-388,11,stossen,stiess gestossen,"to push, to thurst, to shove"
+388,11,stoßen,stieß gestoßen,"to push, to thurst, to shove"
 389,11,vermeiden,vermied vermieden,to avoid (+ nouns or verbs)
 390,11,hervorheben,hob hervor hervorgehoben,"to point out, to emphasize"
 391,11,erfüllen,erfüllte erfüllt,"to fill (with something), to fulfill, to come true"
@@ -407,7 +407,7 @@ Nr,level,question,answer,english
 406,12,erwähnen,erwähnte erwähnt,to mention (to speak of something)
 407,12,informieren,informierte informiert,to inform
 408,12,reagieren,reagierte reagiert,"to react, to respond"
-409,12,äußern,äusserte geäussert,"to utter, to say, to express"
+409,12,äußern,äußerte geäußert,"to utter, to say, to express"
 410,12,garantieren,garantierte garantiert,to guarantee
 411,12,kritisieren,kritisierte kritisiert,to criticize
 412,12,ankündigen,kündigte an angekündigt,"to announce, to declare"
@@ -430,7 +430,7 @@ Nr,level,question,answer,english
 429,12,drucken,druckte gedruckt,to print
 430,12,erledigen,erledigte erledigt,"to finish, to take care of, to get something done"
 431,12,herunterladen,lud herunter heruntergeladen,to download
-432,12,entlassen,entliess entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)"
+432,12,entlassen,entließ entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)"
 433,12,verschieben,verschob verschoben,"to move (a meeting), to postpone, to defer"
 434,12,ergeben,ergab ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)"
 435,12,leiten,leitete geleitet,"to lead, to manage"
@@ -458,14 +458,14 @@ Nr,level,question,answer,english
 457,13,installieren,installierte installiert,"to install, to set up"
 458,13,produzieren,produzierte produziert,"to produce, to manufacture"
 459,13,verarbeiten,verarbeitete verarbeitet,"to process, to handle"
-460,13,fressen,frass gefressen,"to devour, to eat (of an animal), to gorge, to guzzle"
+460,13,fressen,fraß gefressen,"to devour, to eat (of an animal), to gorge, to guzzle"
 461,13,analysieren,analysierte analysiert,to analyse
 462,13,beurteilen,beurteilte beurteilt,to judge
 463,13,fördern,förderte gefördert,"to promote, to support"
 464,13,berichten,berichtete berichtet,"to report, to cover, to indicate, to refer"
 465,13,werben,warb geworben,to advertise
 466,13,beeinflußen,beeinflusste beeinflusst,"to influence, to affect"
-467,13,zulassen,liess zu zugelassen,"to allow, to license (for a car)"
+467,13,zulassen,ließ zu zugelassen,"to allow, to license (for a car)"
 468,13,verurteilen,verurteilte verurteilt,"to condemn, to sentence (law)"
 469,13,senden,sandte gesendet,"to broadcast, to send"
 470,13,erfolgen,erfolgte erfolgt,"to occur, to take place"
@@ -505,10 +505,10 @@ Nr,level,question,answer,english
 504,14,zögern,zögerte gezögert,to hesitate
 505,14,bewundern,bewunderte bewundert,to admire
 506,14,bezeichnen,bezeichnete bezeichnet,"to designate, to label"
-507,14,überlassen,überliess überlassen,"to relinquish, to leave something in someone's care"
+507,14,überlassen,überließ überlassen,"to relinquish, to leave something in someone's care"
 508,14,schreiten,schritt geschritten,"to stride, to step, to proceed"
 509,14,binden,band gebunden,"to bind, to tie, to tie up, to absorb"
-510,14,giessen,goss gegossen,"to pour, to cast, to water"
+510,14,gießen,goss gegossen,"to pour, to cast, to water"
 511,14,blühen,blühte geblüht,to bloom
 512,14,lehren,lehrte gelehrt,"to teach, to educate"
 513,14,abbrechen,brach ab abgebrochen,"to break off, to abort, to burst off"
@@ -548,7 +548,7 @@ Nr,level,question,answer,english
 547,15,angeben,gab an angegeben,"to indicate, to specify"
 548,15,retten,rettete gerettet,"to save, to rescue"
 549,15,ausfallen,fiel aus ausgefallen,to stand out
-550,15,hinterlassen,hinterliess hinterlassen,"to leave, to leave behind, to bequeath"
+550,15,hinterlassen,hinterließ hinterlassen,"to leave, to leave behind, to bequeath"
 551,15,anpassen,passte an angepasst,"to adjust, to adapt"
 552,15,ansprechen,sprach an angesprochen,"to address, to speak to"
 553,15,anzeigen,zeigte an angezeigt,"to show, to display"

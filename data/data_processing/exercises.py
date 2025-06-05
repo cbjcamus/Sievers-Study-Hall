@@ -2,6 +2,7 @@ praepositionen_grammatik = 'praepositionen_grammatik'
 praepositionen_verben = 'praepositionen_verben'
 praepositionen_adjektive = 'praepositionen_adjektive'
 praepositionen_nomen = 'praepositionen_nomen'
+praepositionen_adverbien = 'praepositionen_adverbien'
 
 artikel = 'artikel'
 pronomen = 'pronomen'

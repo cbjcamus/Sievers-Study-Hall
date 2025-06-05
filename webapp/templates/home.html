@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sievers Study Hall</title>
+    <title>Sievers Study Hall – Practice German for Free</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
@@ -17,10 +18,10 @@
     <div class="section">
         <h2>Recent Updates</h2>
         <ul>
+            <li>General: addition of an introduction for each exercise with advices, warnings, stories and more.</a></li>
+            <li>Präpositionen: addition of the <a href="https://www.sieversstudyhall.com/praepositionen_adverbien">Präpositionen – Adverbien</a> exercise.</li>
+            <li>Back-end: correction of an issue that prevented the progress to be saved after a few hours.</a></li>
             <li>General: Umlauts inputted using Unicode can now feed a correct answer.</li>
-            <li>General: Correction in many exercises on contractions such as "am" and "zur" which were written as "an dem" and "zu der". Prepositions may still be written in the "uncontracted" form in Artikel when the goal of the level is to practice the accusative vs. dative vs. genitive after prepositions.</li>
-            <li>User Interface: When completing an exercise, the score will appear above the "Back to 'Exercise'" button.</li>
-            <li>Verben: Levels 7 and above (B1 and B2) have been removed.</li>
             <li>Artikel: Levels 1-10 are being hidden for "maintenance" (there are too many errors and I want to make a solid review before making them visible again).</li>
         </ul>
 
@@ -35,6 +36,7 @@
             {{ render_exercise_table_row("praepositionen_verben", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
             {{ render_exercise_table_row("praepositionen_adjektive", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
             {{ render_exercise_table_row("praepositionen_nomen", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
+            {{ render_exercise_table_row("praepositionen_adverbien", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
         </table>
     </div>
 

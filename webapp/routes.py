@@ -3,6 +3,13 @@ from flask import Blueprint, render_template, session, request, redirect, url_fo
 from data.data_processing.data_loading import load_data
 from data.data_processing.proverbs import get_text_proverb
 
+from data.data_processing.exercises import (
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
+    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    adverbien, verben, trennbare_verben, adjektive, deverbale_nomen
+)
+
 from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
@@ -14,7 +21,7 @@ from webapp.session_management.normalization import get_list_of_correct_answers,
 
 from webapp.content.exercise.title_page import TITLE_PAGE
 from webapp.content.exercise.back_button import BACK_BUTTON
-from webapp.content.exercise.explanation import EXPLANATION
+from webapp.content.exercise.introduction import INTRODUCTION
 from webapp.content.exercise.exercise_page import EXERCISE_PAGES
 from webapp.content.level.feedbacks import FEEDBACK
 from webapp.content.level.questions import QUESTION
@@ -26,7 +33,7 @@ routes = Blueprint("routes", __name__)
 
 
 @routes.before_request
-def ensure_session_keys_exist():
+def ensure_session_keys_exist_and_make_session_permanent():
     """Ensure that progress, score, and result exist in the session before handling any request."""
     if progress not in session:
         session[progress] = {}
@@ -35,6 +42,7 @@ def ensure_session_keys_exist():
     if result not in session:
         session[result] = {}
 
+    session.permanent = True
     # session.clear()
 
 
@@ -44,7 +52,7 @@ def home():
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
-                           explanation=EXPLANATION,
+                           explanation=INTRODUCTION,
                            title_page=TITLE_PAGE,
                            exercise_page=EXERCISE_PAGES
                            )
@@ -76,191 +84,288 @@ def credits():
 
 
 @routes.route('/praepositionen_grammatik')
-def praepositionen_grammatik():
+def route_praepositionen_grammatik():
+
+    introduction = INTRODUCTION.get(praepositionen_grammatik, {})
+
     return render_template('praepositionen/praepositionen_grammatik.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/praepositionen_verben')
-def praepositionen_verben():
+def route_praepositionen_verben():
+
+    introduction = INTRODUCTION.get(praepositionen_verben, {})
+
     return render_template('praepositionen/praepositionen_verben.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/praepositionen_adjektive')
-def praepositionen_adjektive():
+def route_praepositionen_adjektive():
+
+    introduction = INTRODUCTION.get(praepositionen_adjektive, {})
+
     return render_template('praepositionen/praepositionen_adjektive.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/praepositionen_nomen')
-def praepositionen_nomen():
+def route_praepositionen_nomen():
+
+    introduction = INTRODUCTION.get(praepositionen_nomen, {})
+
     return render_template('praepositionen/praepositionen_nomen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
+                           description_templates=DESCRIPTION)
+
+
+@routes.route('/praepositionen_adverbien')
+def route_praepositionen_adverbien():
+
+    introduction = INTRODUCTION.get(praepositionen_adverbien, {})
+
+    return render_template('praepositionen/praepositionen_adverbien.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/artikel')
-def artikel():
+def route_artikel():
+
+    introduction = INTRODUCTION.get(artikel, {})
+
     return render_template('grammatik/artikel.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/pronomen')
-def pronomen():
+def route_pronomen():
+
+    introduction = INTRODUCTION.get(pronomen, {})
+
     return render_template('grammatik/pronomen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/konnektoren')
-def konnektoren():
+def route_konnektoren():
+
+    introduction = INTRODUCTION.get(konnektoren, {})
+
     return render_template('grammatik/konnektoren.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/fragen')
-def fragen():
+def route_fragen():
+
+    introduction = INTRODUCTION.get(fragen, {})
+
     return render_template('grammatik/fragen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/adjektivdeklinationen')
-def adjektivdeklinationen():
+def route_adjektivdeklinationen():
+
+    introduction = INTRODUCTION.get(adjektivdeklinationen, {})
+
     return render_template('grammatik/adjektivdeklinationen.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/praesens')
-def praesens():
+def route_praesens():
+
+    introduction = INTRODUCTION.get(praesens, {})
+
     return render_template('konjugation/praesens.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/partizip_II')
-def partizip_II():
+def route_partizip_II():
+
+    introduction = INTRODUCTION.get(partizip_II, {})
+
     return render_template('konjugation/partizip_II.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/praeteritum')
-def praeteritum():
+def route_praeteritum():
+
+    introduction = INTRODUCTION.get(praeteritum, {})
+
     return render_template('konjugation/praeteritum.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/praeteritum_partizip_II')
-def praeteritum_partizip_II():
+def route_praeteritum_partizip_II():
+
+    introduction = INTRODUCTION.get(praeteritum_partizip_II, {})
+
     return render_template('konjugation/praeteritum_partizip_II.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/imperativ')
-def imperativ():
+def route_imperativ():
+
+    introduction = INTRODUCTION.get(imperativ, {})
+
     return render_template('konjugation/imperativ.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/konjunktiv_II')
-def konjunktiv_II():
+def route_konjunktiv_II():
+
+    introduction = INTRODUCTION.get(konjunktiv_II, {})
+
     return render_template('konjugation/konjunktiv_II.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/konjunktiv_I')
-def konjunktiv_I():
+def route_konjunktiv_I():
+
+    introduction = INTRODUCTION.get(konjunktiv_I, {})
+
     return render_template('konjugation/konjunktiv_I.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/partizip_I')
-def partizip_I():
+def route_partizip_I():
+
+    introduction = INTRODUCTION.get(partizip_I, {})
+
     return render_template('konjugation/partizip_I.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/adverbien')
-def adverbien():
+def route_adverbien():
+
+    introduction = INTRODUCTION.get(adverbien, {})
+
     return render_template('grammatik/adverbien.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
-                           description_templates=DESCRIPTION)
-
-
-@routes.route('/verben')
-def verben():
-    return render_template('verben/verben.html',
-                           answered_questions=compute_answered_questions,
-                           total_questions=compute_total_questions,
-                           score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/trennbare_verben')
-def trennbare_verben():
+def route_trennbare_verben():
+
+    introduction = INTRODUCTION.get(trennbare_verben, {})
+
     return render_template('verben/trennbare_verben.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
+                           description_templates=DESCRIPTION)
+
+
+@routes.route('/verben')
+def route_verben():
+
+    introduction = INTRODUCTION.get(verben, {})
+
+    return render_template('verben/verben.html',
+                           answered_questions=compute_answered_questions,
+                           total_questions=compute_total_questions,
+                           score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 
 @routes.route('/deverbale_substantive')
-def deverbale_substantive():
+def route_deverbale_substantive():
+
+    introduction = INTRODUCTION.get(deverbale_substantive, {})
+
     return render_template('wortschatz/deverbale_substantive.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
                            score=write_score,
+                           introduction=introduction,
                            description_templates=DESCRIPTION)
 
 

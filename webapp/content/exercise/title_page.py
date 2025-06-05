@@ -1,5 +1,5 @@
 from data.data_processing.exercises import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
@@ -10,6 +10,7 @@ TITLE_PAGE = {
     praepositionen_verben: "Präpositionen – Verben",
     praepositionen_adjektive: "Präpositionen – Adjektive",
     praepositionen_nomen: "Präpositionen – Nomen",
+    praepositionen_adverbien: "Präpositionen – Adverbien",
 
     artikel: "Artikel",
     pronomen: "Pronomen",
