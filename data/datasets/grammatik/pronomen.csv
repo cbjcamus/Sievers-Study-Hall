@@ -840,7 +840,7 @@ Nr,level,question,answer,german,english,person,case,gender
 839,18,"Das ist der Mann, _____ ich geholfen habe.",dem,"Das ist der Mann, dem ich geholfen habe.",,neuter,Dative,
 840,18,"Die Frau, _____ ich das Buch gegeben habe, ist nett.",der,"Die Frau, der ich das Buch gegeben habe, ist nett.",,Feminine,Dative,
 841,18,"Das Kind, _____ wir gratuliert haben, hat sich gefreut.",dem,"Das Kind, dem wir gratuliert haben, hat sich gefreut.",,neuter,Dative,
-842,18,"Die Firma, _____ wir die Rechnung geschickt haben, ist groß.",an die,"Die Firma, an die wir die Rechnung geschickt haben, ist groß.",,Feminine,Dative,
+842,18,"Die Firma, _____ wir die Rechnung geschickt haben, ist groß.",an die,"Die Firma, an die wir die Rechnung geschickt haben, ist groß.",,Feminine,Accusative,
 843,18,"Die Kollegin, _____ ich die Nachricht geschickt habe, arbeitet im Büro.",der,"Die Kollegin, der ich die Nachricht geschickt habe, arbeitet im Büro.",,Feminine,Dative,
 844,18,"Der Lehrer, _____ wir zuhören, ist erfahren.",dem,"Der Lehrer, dem wir zuhören, ist erfahren.",,Masculine,Dative,
 845,18,"Die Familie, _____ wir einen Besuch gemacht haben, geht es gut.",bei der,"Die Familie, bei der wir einen Besuch gemacht haben, geht es gut.",,Feminine,Dative,

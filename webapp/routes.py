@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, session, request, redirect, url_for
+from flask import Blueprint, render_template, session, request, redirect, url_for, flash
 
 from data.data_processing.data_loading import load_data
 from data.data_processing.proverbs import get_text_proverb
@@ -14,7 +14,7 @@ from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
 from webapp.session_management.pick_a_question import pick_a_question
-from webapp.session_management.session_ import progress, score, result, print_exercise_level_checked
+from webapp.session_management.session_ import progress, score, result, print_exercise_level_checked, print_exercise_level_question_flagged
 from webapp.session_management.result import register_result
 from webapp.session_management.conditions import level_finished
 from webapp.session_management.normalization import get_list_of_correct_answers, is_equal
@@ -517,4 +517,16 @@ def reset_exercise(exercise, level):
     session.pop(f"{exercise}_result", None)  # Clear any stored feedback
     session.modified = True
     return redirect(url_for('routes.exercise', exercise=exercise, level=level))
+
+
+@routes.route('/exercise/<exercise>/level/<int:level>', methods=['POST'])
+def flag_question(exercise, level):
+    feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
+
+    print_exercise_level_question_flagged(exercise, level, feedback_message)
+
+    flash("This answer has been flagged for review."
+          "<br><br>Thank you!", "info")
+
+    return redirect(request.referrer)
 

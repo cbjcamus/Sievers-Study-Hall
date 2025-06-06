@@ -150,7 +150,7 @@ h2 {
     white-space: normal; /* Allows text to wrap naturally */
     word-wrap: break-word; /* Ensures long words break if needed */
     overflow-wrap: break-word; /* Alternative for better compatibility */
-    box-sizing:border-box
+    box-sizing: border-box
 }
 
 .input-box {
@@ -262,6 +262,42 @@ h2 {
     max-width: 400px;
 }
 
+.flag-form {
+    display: inline;
+}
+
+.flag-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.flag-button:hover {
+    color: #ccc;
+}
+
+.flash-messages {
+    text-align: center;
+}
+
+.flash-message.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+    background-color: #401f2e;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 12px;
+}
+
 .proverb-container {
     width: 100%;
     max-width: 400px;
@@ -271,13 +307,13 @@ h2 {
 
     background-color: #332116; /* #2a1c31 */
     border-radius: 12px;
-    text-align: center; /* Ensures text is aligned to the left inside */
+    text-align: center;
 
-    display: block; /* Ensures normal block behavior */
-    white-space: normal; /* Allows text to wrap naturally */
-    word-wrap: break-word; /* Ensures long words break if needed */
-    overflow-wrap: break-word; /* Alternative for better compatibility */
-    box-sizing:border-box
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box
 }
 
 .back-button {

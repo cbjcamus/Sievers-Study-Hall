@@ -63,6 +63,11 @@
                 {% if feedback_message %}
                     <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
+                <div class="flag-form-container">
+                    <form action="{{ url_for('routes.flag_question', exercise=exercise, level=level, feedback_message=feedback_message) }}" method="post" class="flag-form">
+                        <button type="submit" class="flag-button" title="Flag this answer as having an error">&#127987;</button>
+                    </form>
+                </div>
             </div>
         {% else %}
             <div class='feedback-incorrect-container'>
@@ -71,9 +76,24 @@
                     <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
                 <p class="feedback-message">Your answer: {{ user_answer }}</p>
+                <div class="flag-form-container">
+                    <form action="{{ url_for('routes.flag_question', exercise=exercise, level=level, feedback_message=feedback_message) }}" method="post" class="flag-form">
+                        <button type="submit" class="flag-button" title="Flag this answer as having an error">&#127987;</button>
+                    </form>
+                </div>
             </div>
         {% endif %}
     {% endif %}
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <p class="flash-message {{ category }}">{{ message | safe }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
 
     {% if proverb %}
         <div class="proverb-container">

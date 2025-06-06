@@ -14,8 +14,8 @@ INTRODUCTION = {
     praepositionen_adjektive: "Adjective-Preposition pairs."
                               "<br><br>Think of it as Verb's pretentious sister.",
     praepositionen_nomen: "Noun-Preposition pairs."
-                          "<br><br>Verb' and Adjective' younger brother. The annoying one.",
-    praepositionen_adverbien: "Just joking it doesn't exist.",
+                          "<br><br>Verb's and Adjective's younger brother. The annoying one.",
+    praepositionen_adverbien: "Just kidding it doesn't exist.",
 
     artikel: "Articles marinated in every grammatical cases."
              "<br><br>Includes definite, indefinite, negative, possessive, demonstrative articles and much more."
