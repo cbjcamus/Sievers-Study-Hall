@@ -2,25 +2,25 @@ from webapp.session_management.score import compute_score
 from webapp.session_management.session_ import result, progress, score
 
 
-def register_result(session, exercise, level):
-    score_level = compute_score(session, exercise, level)
+def register_result(session, unit, exercise):
+    score_exercise = compute_score(session, unit, exercise)
 
     if result not in session:
         session[result] = {}
 
-    if exercise not in session[result]:
-        session[result][exercise] = {}
+    if unit not in session[result]:
+        session[result][unit] = {}
 
-    if str(level) not in session[result][exercise]:
-        session[result][exercise][str(level)] = {}
+    if str(exercise) not in session[result][unit]:
+        session[result][unit][str(exercise)] = {}
 
-    session[result][exercise][str(level)] = round(score_level, 2)
+    session[result][unit][str(exercise)] = round(score_exercise, 2)
 
-    if exercise in session[progress] and str(level) in session[progress][exercise]:
-        del session[progress][exercise][str(level)]
+    if unit in session[progress] and str(exercise) in session[progress][unit]:
+        del session[progress][unit][str(exercise)]
 
-    if exercise in session[score] and str(level) in session[score][exercise]:
-        del session[score][exercise][str(level)]
+    if unit in session[score] and str(exercise) in session[score][unit]:
+        del session[score][unit][str(exercise)]
 
     session.modified = True
     return

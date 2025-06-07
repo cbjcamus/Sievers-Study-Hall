@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 
-{% from "macros.html" import render_level_table_row %}
+{% from "macros.html" import render_exercise_table_row %}
 {% from "macros.html" import render_title %}
 
 <body>
@@ -23,40 +23,42 @@
 
     <div class="section">
         <h2>A2</h2>
-        <table class="level-table">
-            {{ render_level_table_row("adjektivdeklinationen", 1, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 2, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 3, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 4, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 5, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 6, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 7, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 8, session, answered_questions, total_questions, score, description_templates) }}
+        <table class="exercise-table">
+            {{ render_exercise_table_row("adjektivdeklinationen", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 6, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 8, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B1</h2>
-        <table class="level-table">
-            {{ render_level_table_row("adjektivdeklinationen", 9, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 10, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 11, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 12, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 13, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 14, session, answered_questions, total_questions, score, description_templates) }}
+        <table class="exercise-table">
+            {{ render_exercise_table_row("adjektivdeklinationen", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 10, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 12, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 13, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 14, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B2</h2>
-        <table class="level-table">
-            {{ render_level_table_row("adjektivdeklinationen", 15, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("adjektivdeklinationen", 16, session, answered_questions, total_questions, score, description_templates) }}
+        <table class="exercise-table">
+            {{ render_exercise_table_row("adjektivdeklinationen", 15, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 16, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="home-button-container">
         <a href="/" class="button">Home</a>
     </div>
+
+    <script src="/webapp/static/toggleMode.js"></script>
 </body>
 </html>

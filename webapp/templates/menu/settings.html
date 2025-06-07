@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Settings</title>
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
@@ -11,10 +11,10 @@
 
 {% from "macros.html" import render_title %}
 
-    {{ render_title("Contact") }}
+    {{ render_title("Settings") }}
 
     <div class="section">
-        <p>Questions? Comments? Just want to say thank you? Send me an email at: sieversstudyhall@gmail.com</p>
+        <button id="mode-toggle">Switch to Day Mode</button>
     </div>
 
     <script src="/webapp/static/toggleMode.js"></script>

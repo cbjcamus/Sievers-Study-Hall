@@ -11,7 +11,7 @@
 <body>
 
 {% from "macros.html" import render_title %}
-{% from "macros.html" import render_exercise_table_row %}
+{% from "macros.html" import render_unit_table_row %}
 
     {{ render_title("Sievers Study Hall") }}
 
@@ -33,48 +33,49 @@
 
     <div class="section">
         <h2>Präpositionen</h2>
-        <table class="exercise-table">
-            {{ render_exercise_table_row("praepositionen_grammatik", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("praepositionen_verben", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("praepositionen_adjektive", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("praepositionen_nomen", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("praepositionen_adverbien", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
+        <table class="unit-table">
+            {{ render_unit_table_row("praepositionen_grammatik", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("praepositionen_verben", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("praepositionen_adjektive", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("praepositionen_nomen", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("praepositionen_adverbien", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Grammatik</h2>
-        <table class="exercise-table">
-            {{ render_exercise_table_row("artikel", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("pronomen", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("konnektoren", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("fragen", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("adverbien", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("adjektivdeklinationen", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
+        <table class="unit-table">
+            {{ render_unit_table_row("artikel", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("pronomen", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("konnektoren", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("fragen", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("adverbien", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("adjektivdeklinationen", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Konjugation</h2>
-        <table class="exercise-table">
-            {{ render_exercise_table_row("praesens", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("partizip_II", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("praeteritum", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("praeteritum_partizip_II", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("imperativ", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("konjunktiv_II", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("konjunktiv_I", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("partizip_I", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
+        <table class="unit-table">
+            {{ render_unit_table_row("praesens", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("partizip_II", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("praeteritum", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("praeteritum_partizip_II", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("imperativ", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("konjunktiv_II", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("konjunktiv_I", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("partizip_I", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Verben</h2>
-        <table class="exercise-table">
-            {{ render_exercise_table_row("trennbare_verben", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
-            {{ render_exercise_table_row("verben", session, answered_questions, total_questions, score, title_page, exercise_page, explanation) }}
+        <table class="unit-table">
+            {{ render_unit_table_row("trennbare_verben", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
+            {{ render_unit_table_row("verben", session, answered_questions, total_questions, score, title_page, unit_page, explanation) }}
         </table>
     </div>
 
+    <script src="/webapp/static/toggleMode.js"></script>
 </body>
 </html>

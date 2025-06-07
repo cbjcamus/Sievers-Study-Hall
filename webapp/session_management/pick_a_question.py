@@ -3,19 +3,19 @@ from data.data_processing.data_loading import load_data
 from webapp.session_management.session_ import progress
 
 
-def pick_a_question(session, exercise, level):
-    data = load_data(exercise, level)
+def pick_a_question(session, unit, exercise):
+    data = load_data(unit, exercise)
 
     if progress not in session:
         session[progress] = {}
 
-    if exercise not in session[progress]:
-        session[progress][exercise] = {}
+    if unit not in session[progress]:
+        session[progress][unit] = {}
 
-    if str(level) not in session[progress][exercise]:
-        session[progress][exercise][str(level)] = {}
+    if str(exercise) not in session[progress][unit]:
+        session[progress][unit][str(exercise)] = {}
 
-    answered_nrs = session[progress][exercise][str(level)].keys()
+    answered_nrs = session[progress][unit][str(exercise)].keys()
     filtered_data = data[~data["Nr"].astype(str).isin(answered_nrs)]
 
     if filtered_data.empty:

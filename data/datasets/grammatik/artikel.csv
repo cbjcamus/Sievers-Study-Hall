@@ -1,4 +1,4 @@
-Nr,level,question,answer,german,english,case,gender,type
+Nr,exercise,question,answer,german,english,case,gender,type
 1,1,_____ Woche hat sieben Tage.,Die,Die Woche hat sieben Tage.,The week has seven days.,nominative,feminine,Woche
 2,1,_____ Schule ist groß.,Die,Die Schule ist groß.,The school is big.,nominative,feminine,Schule
 3,1,_____ Mutter ist nett.,Die,Die Mutter ist nett.,The mother is kind.,nominative,feminine,Mutter

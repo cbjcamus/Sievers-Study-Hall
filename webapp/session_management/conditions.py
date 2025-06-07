@@ -2,25 +2,25 @@ from data.data_processing.data_loading import load_data
 
 from webapp.session_management.session_ import progress, result
 from webapp.session_management.pick_a_question import pick_a_question
-from webapp.session_management.session_ import print_exercise_level_completed
+from webapp.session_management.session_ import print_unit_exercise_completed
 
 
-def level_finished(session, exercise, level):
-    if progress in session and exercise in session[progress] and str(level) in session[progress][exercise]:
-        data = load_data(exercise, level)
+def exercise_finished(session, unit, exercise):
+    if progress in session and unit in session[progress] and str(exercise) in session[progress][unit]:
+        data = load_data(unit, exercise)
 
-        answered_nrs = set(session[progress][exercise][str(level)].keys())
+        answered_nrs = set(session[progress][unit][str(exercise)].keys())
 
         if set(data["Nr"].astype(str)) == answered_nrs:
-            print_exercise_level_completed(exercise, level)
+            print_unit_exercise_completed(unit, exercise)
             return True
 
-    if pick_a_question(session, exercise, level) is None:
-        print_exercise_level_completed(exercise, level)
+    if pick_a_question(session, unit, exercise) is None:
+        print_unit_exercise_completed(unit, exercise)
         return True
 
-    if result in session and exercise in session[result] and str(level) in session[result][exercise]:
-        print_exercise_level_completed(exercise, level)
+    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
+        print_unit_exercise_completed(unit, exercise)
         return True
 
     else:

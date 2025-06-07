@@ -1,32 +1,32 @@
 import unicodedata
 
-from data.data_processing.exercises import konnektoren
+from data.data_processing.units import konnektoren
 from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH, get_list_of_synonyms
 
 
-def is_equal(user_answer, correct_answer, question, exercise):
-    synonym_exercises = [konnektoren]
+def is_equal(user_answer, correct_answer, question, unit):
+    synonym_units = [konnektoren]
 
-    if user_answer == question and exercise in synonym_exercises:
+    if user_answer == question and unit in synonym_units:
         return False
 
-    user_answer = normalization(user_answer, exercise)
+    user_answer = normalization(user_answer, unit)
 
     if "/" in correct_answer:
         correct_answers = correct_answer.split("/")
-        correct_answers = [normalization(answer, exercise) for answer in correct_answers]
+        correct_answers = [normalization(answer, unit) for answer in correct_answers]
         return user_answer in correct_answers
     else:
-        correct_answer = normalization(correct_answer, exercise)
+        correct_answer = normalization(correct_answer, unit)
         return user_answer == correct_answer
 
 
-def normalization(input_str, exercise):
+def normalization(input_str, unit):
     output = input_str.strip().lower()
     output = replace_sharp_s(output)
     output = remove_comma(output)
     output = normalize_umlaut(output)
-    output = search_for_main_synonym(output, exercise)
+    output = search_for_main_synonym(output, unit)
     return output
 
 
@@ -42,16 +42,16 @@ def normalize_umlaut(input_str):
     return unicodedata.normalize('NFC', input_str)
 
 
-def get_list_of_correct_answers(answer, exercise, file_path=SYNONYMS_PATH):
+def get_list_of_correct_answers(answer, unit, file_path=SYNONYMS_PATH):
 
     if "/" in answer:
         answers = answer.split("/")
-        answers = [normalization(answer, exercise) for answer in answers]
+        answers = [normalization(answer, unit) for answer in answers]
         return ', '.join(answers)
 
     else:
         answer = lowercase_first_letter(answer)
-        synonyms = get_list_of_synonyms(answer, exercise, file_path=file_path)
+        synonyms = get_list_of_synonyms(answer, unit, file_path=file_path)
         if not synonyms:
             return answer
         else:

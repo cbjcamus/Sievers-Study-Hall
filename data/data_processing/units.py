@@ -25,8 +25,8 @@ trennbare_verben = 'trennbare_verben'
 adjektive = 'adjektive'
 deverbale_nomen = 'deverbale_nomen'
 
-exercises = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-             artikel, pronomen, konnektoren, adverbien, adjektivdeklinationen,
-             praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-             verben, trennbare_verben, adjektive, deverbale_nomen,
-             ]
+units = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+         artikel, pronomen, konnektoren, adverbien, adjektivdeklinationen,
+         praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+         verben, trennbare_verben, adjektive, deverbale_nomen,
+         ]

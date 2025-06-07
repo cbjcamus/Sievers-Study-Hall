@@ -1,4 +1,4 @@
-Nr,level,question,answer,german,adjective,gender,case,article
+Nr,exercise,question,answer,german,adjective,gender,case,article
 1,1,der _____ Vater,nette,der nette Vater,nett,Maskulin,Nominativ,Bestimmt artikel
 2,1,die _____ Mutter,nette,die nette Mutter,nett,Feminin,Nominativ,Bestimmt artikel
 3,1,das _____ Kind,nette,das nette Kind,nett,Neuter,Nominativ,Bestimmt artikel

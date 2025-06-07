@@ -1,17 +1,17 @@
-{% macro render_level_table_row(exercise, level, session, answered_questions, total_questions, score, description_templates) %}
+{% macro render_exercise_table_row(unit, exercise, session, answered_questions, total_questions, score, description_templates) %}
     <tr>
-        <td><a href="/exercise/{{ exercise }}/level/{{ level }}" class="button">Level {{ level }}</a></td>
-        <td>{{ answered_questions(session, exercise, level=level) }}/{{ total_questions(exercise, level=level) }}</td>
-        <td>{{ score(session, exercise, level=level) }}</td>
-        <td>{{ description_templates[exercise].get(level, "") }}</td>
+        <td><a href="/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Exercise {{ exercise }}</a></td>
+        <td>{{ answered_questions(session, unit, exercise=exercise) }}/{{ total_questions(unit, exercise=exercise) }}</td>
+        <td>{{ score(session, unit, exercise=exercise) }}</td>
+        <td>{{ description_templates[unit].get(exercise, "") }}</td>
     </tr>
 {% endmacro %}
 
-{% macro render_exercise_table_row(exercise, session, answered_questions, total_questions, score, title_page, exercise_page, explanation) %}
+{% macro render_unit_table_row(unit, session, answered_questions, total_questions, score, title_page, unit_page, explanation) %}
     <tr>
-        <td><a href="{{ exercise_page[exercise] }}" class="button">{{ title_page[exercise] }}</a></td>
-        <td>{{ answered_questions(session, exercise) }}/{{ total_questions(exercise) }}</td>
-        <td>{{ score(session, exercise) }}</td>
+        <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
+        <td>{{ answered_questions(session, unit) }}/{{ total_questions(unit) }}</td>
+        <td>{{ score(session, unit) }}</td>
         <td></td>
     </tr>
 {% endmacro %}
@@ -29,6 +29,7 @@
         <button class="hamburger" onclick="toggleMenu()">☰</button>
         <div id="menu" class="menu">
             <a href="/">Home</a>
+            <!-- <a href="/settings">Settings</a> -->
             <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a>
             <a href="/updates">Updates</a>
             <a href="/contact">Contact</a>

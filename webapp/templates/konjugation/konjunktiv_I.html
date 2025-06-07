@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 
-{% from "macros.html" import render_level_table_row %}
+{% from "macros.html" import render_exercise_table_row %}
 {% from "macros.html" import render_title %}
 
 <body>
@@ -22,18 +22,20 @@
 
     <div class="section">
         <h2>B2</h2>
-        <table class="level-table">
-            {{ render_level_table_row("konjunktiv_I", 1, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("konjunktiv_I", 2, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("konjunktiv_I", 3, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("konjunktiv_I", 4, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("konjunktiv_I", 5, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_level_table_row("konjunktiv_I", 6, session, answered_questions, total_questions, score, description_templates) }}
+        <table class="exercise-table">
+            {{ render_exercise_table_row("konjunktiv_I", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("konjunktiv_I", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("konjunktiv_I", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("konjunktiv_I", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("konjunktiv_I", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("konjunktiv_I", 6, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="home-button-container">
         <a href="/" class="button">Home</a>
     </div>
+
+    <script src="/webapp/static/toggleMode.js"></script>
 </body>
 </html>

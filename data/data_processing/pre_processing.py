@@ -1,21 +1,21 @@
 import pandas as pd
-from data.data_processing.exercises import praesens, praeteritum, imperativ, konjunktiv_II, konjunktiv_I
+from data.data_processing.units import praesens, praeteritum, imperativ, konjunktiv_II, konjunktiv_I
 
 
-def pre_processing(data, exercise, level):
-    if exercise == praesens:
+def pre_processing(data, unit, exercise):
+    if unit == praesens:
         return pre_processing_praesens(data)
 
-    elif exercise == praeteritum:
-        return pre_processing_praeteritum(data, level)
+    elif unit == praeteritum:
+        return pre_processing_praeteritum(data, exercise)
 
-    elif exercise == imperativ:
+    elif unit == imperativ:
         return pre_processing_imperativ(data)
 
-    elif exercise == konjunktiv_II:
+    elif unit == konjunktiv_II:
         return pre_processing_konjunktiv_ii(data)
 
-    elif exercise == konjunktiv_I:
+    elif unit == konjunktiv_I:
         return pre_processing_konjunktiv_i(data)
 
     else:
@@ -38,9 +38,9 @@ def pre_processing_praesens(data):
     return data
 
 
-def pre_processing_praeteritum(data, level):
+def pre_processing_praeteritum(data, exercise):
 
-    if level == 1:
+    if exercise == 1:
         persons = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'Sie']
         new_rows = []
 

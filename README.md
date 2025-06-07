@@ -1,5 +1,5 @@
 # Sievers Study Hall
 
-Any question? https://www.sieversstudyhall.com/faq
+Any question? https://substack.com/home/post/p-165326616
 
-Any other question? cbjcamus@gmail.com
+Any other question? sieversstudyhall@gmail.com

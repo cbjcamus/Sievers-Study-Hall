@@ -1,21 +1,21 @@
-from data.data_processing.exercises import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
+from data.data_processing.units import (
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, deverbale_nomen
 )
 
-TITLE_PAGE = {
+BACK_BUTTON = {
     praepositionen_grammatik: "Präpositionen",
     praepositionen_verben: "Präpositionen – Verben",
     praepositionen_adjektive: "Präpositionen – Adjektive",
     praepositionen_nomen: "Präpositionen – Nomen",
-    praepositionen_adverbien: "Präpositionen – Adverbien",
 
     artikel: "Artikel",
     pronomen: "Pronomen",
     konnektoren: "Konnektoren",
     fragen: "Fragen",
+    adverbien: "Adverbien",
     adjektivdeklinationen: "Adjektivdeklinationen",
 
     praesens: "Präsens",
@@ -27,9 +27,7 @@ TITLE_PAGE = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    adverbien: "Adverbien",
     verben: "Verben",
     trennbare_verben: "(Un)trennbare Verben",
-    deverbale_nomen: "Deverbale Substantive (Beta)",
+    deverbale_nomen: "Deverbale Substantive",
     }
-

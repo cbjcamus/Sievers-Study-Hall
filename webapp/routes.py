@@ -3,7 +3,7 @@ from flask import Blueprint, render_template, session, request, redirect, url_fo
 from data.data_processing.data_loading import load_data
 from data.data_processing.proverbs import get_text_proverb
 
-from data.data_processing.exercises import (
+from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -14,19 +14,19 @@ from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
 from webapp.session_management.pick_a_question import pick_a_question
-from webapp.session_management.session_ import progress, score, result, print_exercise_level_checked, print_exercise_level_question_flagged
+from webapp.session_management.session_ import progress, score, result, print_unit_exercise_checked, print_unit_exercise_question_flagged
 from webapp.session_management.result import register_result
-from webapp.session_management.conditions import level_finished
+from webapp.session_management.conditions import exercise_finished
 from webapp.session_management.normalization import get_list_of_correct_answers, is_equal
 
-from webapp.content.exercise.title_page import TITLE_PAGE
-from webapp.content.exercise.back_button import BACK_BUTTON
-from webapp.content.exercise.introduction import INTRODUCTION
-from webapp.content.exercise.exercise_page import EXERCISE_PAGES
-from webapp.content.level.feedbacks import FEEDBACK
-from webapp.content.level.questions import QUESTION
-from webapp.content.level.instructions import INSTRUCTION
-from webapp.content.level.descriptions import DESCRIPTION
+from webapp.content.unit.title_page import TITLE_PAGE
+from webapp.content.unit.back_button import BACK_BUTTON
+from webapp.content.unit.introduction import INTRODUCTION
+from webapp.content.unit.unit_page import UNIT_PAGE
+from webapp.content.exercise.feedbacks import FEEDBACK
+from webapp.content.exercise.questions import QUESTION
+from webapp.content.exercise.instructions import INSTRUCTION
+from webapp.content.exercise.descriptions import DESCRIPTION
 
 
 routes = Blueprint("routes", __name__)
@@ -54,7 +54,13 @@ def home():
                            score=write_score,
                            explanation=INTRODUCTION,
                            title_page=TITLE_PAGE,
-                           exercise_page=EXERCISE_PAGES
+                           unit_page=UNIT_PAGE
+                           )
+
+
+@routes.route('/settings')
+def settings():
+    return render_template('menu/settings.html',
                            )
 
 
@@ -359,7 +365,7 @@ def route_verben():
 @routes.route('/deverbale_substantive')
 def route_deverbale_substantive():
 
-    introduction = INTRODUCTION.get(deverbale_substantive, {})
+    introduction = INTRODUCTION.get(deverbale_nomen, {})
 
     return render_template('wortschatz/deverbale_substantive.html',
                            answered_questions=compute_answered_questions,
@@ -369,20 +375,20 @@ def route_deverbale_substantive():
                            description_templates=DESCRIPTION)
 
 
-@routes.route('/exercise/<exercise>/level/<int:level>')
-def exercise(exercise, level):
-    if level_finished(session, exercise, level) is True:
-        register_result(session, exercise, level)
+@routes.route('/unit/<unit>/exercise/<int:exercise>')
+def exercise(unit, exercise):
+    if exercise_finished(session, unit, exercise) is True:
+        register_result(session, unit, exercise)
         return render_template("exercise/exercise_completed.html",
+                               unit=unit,
                                exercise=exercise,
-                               level=level,
                                score=write_score,
-                               exercise_pages=EXERCISE_PAGES,
+                               unit_page=UNIT_PAGE,
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                )
 
-    question_data = pick_a_question(session, exercise, level)
+    question_data = pick_a_question(session, unit, exercise)
 
     # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
@@ -395,9 +401,9 @@ def exercise(exercise, level):
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
 
-    instruction = INSTRUCTION.get(exercise, {}).get(level, "Translate the following word:")
+    instruction = INSTRUCTION.get(unit, {}).get(exercise, "Translate the following word:")
 
-    formatted_question = QUESTION.get(exercise, {}).get(level, "{question}").format(
+    formatted_question = QUESTION.get(unit, {}).get(exercise, "{question}").format(
         question=question_text,
         english=english,
         german=german,
@@ -409,41 +415,41 @@ def exercise(exercise, level):
         prefix=prefix,
     )
 
-    result_data = session.pop(f"{exercise}_result", None)
+    result_data = session.pop(f"{unit}_result", None)
 
     proverb = get_text_proverb()
 
     return render_template("exercise/exercise.html",
+                           unit=unit,
                            exercise=exercise,
-                           level=level,
                            question_text=formatted_question,
                            instruction_text=instruction,
                            nr=question_data["Nr"],
                            result=result_data["result"] if result_data else None,
                            feedback_message=result_data["feedback_message"] if result_data else None,
                            user_answer=result_data["user_answer"] if result_data else None,
-                           exercise_pages=EXERCISE_PAGES,
+                           unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
-                           answered_questions=compute_answered_questions(session, exercise, level=level),
-                           total_questions=compute_total_questions(exercise, level=level),
+                           answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+                           total_questions=compute_total_questions(unit, exercise=exercise),
                            proverb=proverb)
 
 
-@routes.route('/check/<exercise>/level/<int:level>', methods=['POST', 'GET'])
-def check_answer(exercise, level):
+@routes.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
+def check_answer(unit, exercise):
 
     if request.method == 'GET':
-        return redirect(url_for('routes.exercise', exercise=exercise, level=level))
+        return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
     user_answer = request.form['answer']
     nr = request.form['nr']
 
-    data = load_data(exercise, level)
+    data = load_data(unit, exercise)
 
     question_data = data[data["Nr"] == int(nr)].iloc[0]
     correct_answer = question_data["answer"]
-    correct_answers = get_list_of_correct_answers(correct_answer, exercise)
+    correct_answers = get_list_of_correct_answers(correct_answer, unit)
     question_text = question_data["question"]
     english = question_data.get("english", "")
     german = question_data.get("german", "")
@@ -453,7 +459,7 @@ def check_answer(exercise, level):
     article = question_data.get("article", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
-    feedback_template = FEEDBACK.get(exercise, {}).get(level, "{previous_question} = {correct_answer}")
+    feedback_template = FEEDBACK.get(unit, {}).get(exercise, "{previous_question} = {correct_answer}")
     feedback_message = feedback_template.format(
         previous_question=question_text,
         correct_answer=correct_answer,
@@ -469,61 +475,62 @@ def check_answer(exercise, level):
         prefix=prefix,
     )
 
-    correct_answer_condition = is_equal(user_answer, correct_answer, question_text, exercise)
+    correct_answer_condition = is_equal(user_answer, correct_answer, question_text, unit)
 
-    session[f"{exercise}_result"] = {
+    session[f"{unit}_result"] = {
         "result": "correct" if correct_answer_condition else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
     }
 
     # Initialize score storage if missing
-    if exercise not in session[score]:
-        session[score][exercise] = {}
-    if str(level) not in session[score][exercise]:
-        session[score][exercise][str(level)] = {}
+    if unit not in session[score]:
+        session[score][unit] = {}
+    if str(exercise) not in session[score][unit]:
+        session[score][unit][str(exercise)] = {}
 
     if correct_answer_condition:
-        session_data = session[progress].get(exercise, {})
-        session_data.setdefault(str(level), {})
-        session_data[str(level)][nr] = 1
-        session[progress][exercise] = session_data
-        session[progress].setdefault(exercise, {}).setdefault(str(level), {})[nr] = 1
+        session_data = session[progress].get(unit, {})
+        session_data.setdefault(str(exercise), {})
+        session_data[str(exercise)][nr] = 1
+        session[progress][unit] = session_data
+        session[progress].setdefault(unit, {}).setdefault(str(exercise), {})[nr] = 1
 
     if not correct_answer_condition:
-        session[score][exercise][str(level)][nr] = False
-    elif nr not in session[score][exercise][str(level)]:
-        session[score][exercise][str(level)][nr] = True
+        session[score][unit][str(exercise)][nr] = False
+    elif nr not in session[score][unit][str(exercise)]:
+        session[score][unit][str(exercise)][nr] = True
 
     session.modified = True
 
-    print_exercise_level_checked(exercise, level)
+    print_unit_exercise_checked(unit, exercise)
 
-    return redirect(url_for('routes.exercise', exercise=exercise, level=level))
+    return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
 
-@routes.route('/reset/<exercise>/level/<int:level>', methods=['POST'])
-def reset_exercise(exercise, level):
-    """Clears progress for a specific exercise level and removes any stored feedback."""
-    if progress in session and exercise in session[progress] and str(level) in session[progress][exercise]:
-        del session[progress][exercise][str(level)]
+@routes.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
+def reset_exercise(unit, exercise):
+    """Clears progress for a specific unit exercise and removes any stored feedback."""
+    if progress in session and unit in session[progress] and str(exercise) in session[progress][unit]:
+        del session[progress][unit][str(exercise)]
 
-    if score in session and exercise in session[score] and str(level) in session[score][exercise]:
-        del session[score][exercise][str(level)]
+    if score in session and unit in session[score] and str(exercise) in session[score][unit]:
+        del session[score][unit][str(exercise)]
 
-    if result in session and exercise in session[result] and str(level) in session[result][exercise]:
-        del session[result][exercise][str(level)]
+    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
+        del session[result][unit][str(exercise)]
 
-    session.pop(f"{exercise}_result", None)  # Clear any stored feedback
+    session.pop(f"{unit}_result", None)  # Clear any stored feedback
     session.modified = True
-    return redirect(url_for('routes.exercise', exercise=exercise, level=level))
+    return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
 
-@routes.route('/exercise/<exercise>/level/<int:level>', methods=['POST'])
-def flag_question(exercise, level):
+@routes.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])
+def flag_question(unit, exercise):
     feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
+    user_answer = request.args.get('user_answer') or request.form.get('user_answer')
 
-    print_exercise_level_question_flagged(exercise, level, feedback_message)
+    print_unit_exercise_question_flagged(unit, exercise, feedback_message, user_answer)
 
     flash("This answer has been flagged for review."
           "<br><br>Thank you!", "info")

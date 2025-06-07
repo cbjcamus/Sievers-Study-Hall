@@ -1,4 +1,4 @@
-Nr,level,question,english_verb,answer,english
+Nr,exercise,question,english_verb,answer,english
 1,1,sein,to be,seiend,being
 2,1,haben,"to have, to contain",habend,having
 3,1,werden,"to become, will, to be done (passive voice)",werdend,becoming
@@ -25,7 +25,7 @@ Nr,level,question,english_verb,answer,english
 24,1,lieben,to love,liebend,needing
 25,1,bringen,"to bring, to take, to lead",bringend,loving
 26,1,stehen,"to stand, to be, to appear",stehend,bringing
-27,1,heißen,"to be called, to mean",heissend,standing
+27,1,heißen,"to be called, to mean",heißend,standing
 28,1,nehmen,"to take, to cause oneself to be (in some state)",nehmend,welcoming
 29,1,sprechen,to speak,sprechend,taking
 30,1,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekommend,speaking

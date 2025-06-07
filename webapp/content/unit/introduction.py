@@ -1,4 +1,4 @@
-from data.data_processing.exercises import (
+from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -24,7 +24,11 @@ INTRODUCTION = {
               "<br><br>Not genitive though, there are no genitive pronoun in German. Latin does have genitive pronoun, why not german?"
               "<br><br>Includes reflexive, relative, relentless, reliable, and resolute pronouns.",
     konnektoren: "Connectors include conjunctions, subjunctions, and adverbs that connect two sentences together."
-                 "<br><br>I've added levels to learn the different synonyms of each connectors.",
+                 "<br><br>I've added levels to learn the different synonyms of each connectors."
+                 "<br><br>⚠️ The following definitions are used:"
+                 "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Konjunktion: Konjunktion – Subjekt – Verb – Objektkomplement"
+                 "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Subjunktion: Subjunktion – Subjekt – Objektkomplement – Verb"
+                 "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Adverb: &nbsp; &nbsp; &nbsp; &nbsp; Adverb – Verb – Subjekt – Objektkomplement",
     fragen: "Question words."
             "<br><br>Mostly useful at A1 and A2 level. B1 and C1 levels are here out of exhaustivity."
             "<br><br>Wo means Where and Wer means Who. Hope it makes sense.",

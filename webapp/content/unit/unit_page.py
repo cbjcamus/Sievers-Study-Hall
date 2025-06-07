@@ -1,11 +1,11 @@
-from data.data_processing.exercises import (
+from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adverbien, verben, trennbare_verben, adjektive, deverbale_nomen
 )
 
-EXERCISE_PAGES = {
+UNIT_PAGE = {
     praepositionen_grammatik: "/praepositionen_grammatik",
     praepositionen_verben: "/praepositionen_verben",
     praepositionen_adjektive: "/praepositionen_adjektive",

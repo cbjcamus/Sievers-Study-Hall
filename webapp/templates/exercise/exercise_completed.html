@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title_page[exercise] }} – Practice German for Free</title>
+    <title>{{ title_page[unit] }} – Practice German for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
     <link rel="stylesheet" href="/webapp/static/style.css">
@@ -13,18 +13,20 @@
 {% from "macros.html" import render_title %}
 
 <body>
-    {{ render_title(title_page[exercise]) }}
-    <h2 class="level-title">Level {{ level }}</h2>
+    {{ render_title(title_page[unit]) }}
+    <h2 class="exercise-title">Exercise {{ exercise }}</h2>
 
     <p>All questions have been successfully answered! <br><br>
-    Your score for this level is {{ score(session, exercise, level=level) }}.</p>
+    Your score for this exercise is {{ score(session, unit, exercise=exercise) }}.</p>
 
-    <form action="{{ url_for('routes.reset_exercise', exercise=exercise, level=level) }}" method="post">
+    <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">
         <button type="submit" class="submit-button">Refresh</button>
     </form>
 
     <div class="back-button-container">
-        <a href="{{ exercise_pages.get(exercise, '/') }}" class="back-button">Back to {{ back_page[exercise] }}</a>
+        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>
     </div>
+
+    <script src="/webapp/static/toggleMode.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
+Nr,exercise,question,english,ich,du,er/sie/es,wir,ihr,Sie
 1,1,sein,to be,bin,bist,ist,sind,seid,sind
 2,1,haben,"to have, to contain",habe,hast,hat,haben,habt,haben
 3,1,werden,"to become, will, to be done (passive voice)",werde,wirst,wird,werden,werdet,werden
@@ -145,17 +145,17 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 144,15,sorgen,"to care, to worry",sorge,sorgst,sorgt,sorgen,sorgt,sorgen
 145,15,stecken,"to stick, to pin",stecke,steckst,steckt,stecken,steckt,stecken
 146,15,überraschen,to surprise,überrasche,überraschst,überrascht,überraschen,überrascht,überraschen
-147,15,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",vorstelle,vorstellst,vorstellt,vorstellen,vorstellt,vorstellen
+147,15,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",stelle vor,stellst vor,stellt vor,stellen vor,stellt vor,stellen vor
 148,15,stehlen,to steal,stehle,stiehlst,stiehlt,stehlen,stehlt,stehlen
 149,15,stimmen,"to be true, to vote, to tune",stimme,stimmst,stimmt,stimmen,stimmt,stimmen
 150,15,entscheiden,to decide,entscheide,entscheidest,entscheidet,entscheiden,entscheidet,entscheiden
-151,16,vermissen,to miss something/someone,vermisse,vermissst,vermisst,vermissen,vermisst,vermissen
-152,16,werfen,to throw,werfe,werfst,werft,werfen,werft,werfen
-153,16,erkennen,"to recognise, to realise",erkenne,erkennest,erkennet,erkennen,erkennet,erkennen
+151,16,vermissen,to miss something/someone,vermisse,vermisst,vermisst,vermissen,vermisst,vermissen
+152,16,werfen,to throw,werfe,wirfst,wirft,werfen,werft,werfen
+153,16,erkennen,"to recognise, to realise",erkenne,erkennst,erkennt,erkennen,erkennt,erkennen
 154,16,teilen,"to split, to share, to divide",teile,teilst,teilt,teilen,teilt,teilen
 155,16,bauen,to build,baue,baust,baut,bauen,baut,bauen
 156,16,melden,"to report, to register",melde,meldest,meldet,melden,meldet,melden
-157,16,brechen,to break,breche,brechst,brecht,brechen,brecht,brechen
+157,16,brechen,to break,breche,brichst,bricht,brechen,brecht,brechen
 158,16,steigen,"to ascend, to climb, to rise",steige,steigst,steigt,steigen,steigt,steigen
 159,16,singen,to sing,singe,singst,singt,singen,singt,singen
 160,16,empfehlen,"to recommend, to suggest",empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt,empfehlen
@@ -166,20 +166,20 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 165,17,besitzen,"to own, to possess, to have",besitze,besitzt,besitzt,besitzen,besitzt,besitzen
 166,17,merken,"to notice, to realise, to remember (refl.)",merke,merkst,merkt,merken,merkt,merken
 167,17,stören,"to disturb, to interfere",störe,störst,stört,stören,stört,stören
-168,17,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",annehme,annehmst,annehmt,annehmen,annehmt,annehmen
-169,17,übernehmen,to take over,übernehme,übernehmst,übernehmt,übernehmen,übernehmt,übernehmen
-170,17,stattfinden,"to take place, to occur",stattfinde,stattfindst,stattfindt,stattfinden,stattfindt,stattfinden
+168,17,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",nehme an,nimmst an,nimmt an,nehmen an,nehmt an,nehmen an
+169,17,übernehmen,to take over,übernehme,übernimmst,übernimmt,übernehmen,übernehmt,übernehmen
+170,17,stattfinden,"to take place, to occur",finde statt,findest statt,findet statt,finden statt,findet statt,finden statt
 171,18,fangen,to catch,fange,fängst,fängt,fangen,fangt,fangen
 172,18,enthalten,"to contain, to include",enthalte,enthältst,enthält,enthalten,enthaltet,enthalten
 173,18,dienen,"to serve, to function",diene,dienst,dient,dienen,dient,dienen
-174,18,verschwinden,"to disappear, to get lost",verschwinde,verschwindst,verschwindt,verschwinden,verschwindt,verschwinden
-175,18,schützen,"to defend (lawyer), to protect (sunprotection)",schütze,schützst,schützt,schützen,schützt,schützen
+174,18,verschwinden,"to disappear, to get lost",verschwinde,verschwindest,verschwindet,verschwinden,verschwindet,verschwinden
+175,18,schützen,"to defend (lawyer), to protect (sunprotection)",schütze,schützt,schützt,schützen,schützt,schützen
 176,18,nennen,"to name, to call someone something, to mention",nenne,nennst,nennt,nennen,nennt,nennen
-177,18,schätzen,"to appreciate, to evaluate, to guess",schätze,schätzst,schätzt,schätzen,schätzt,schätzen
-178,18,erwarten,"to expect, to await",erwarte,erwartst,erwartt,erwarten,erwartt,erwarten
+177,18,schätzen,"to appreciate, to evaluate, to guess",schätze,schätzt,schätzt,schätzen,schätzt,schätzen
+178,18,erwarten,"to expect, to await",erwarte,erwartest,erwartet,erwarten,erwartet,erwarten
 179,18,drehen,"to turn, to veer",drehe,drehst,dreht,drehen,dreht,drehen
-180,18,behalten,to keep,behalte,behaltst,behaltt,behalten,behaltt,behalten
-181,19,verpassen,"to miss (to be late for something, e.g. a train)",verpasse,verpassst,verpasst,verpassen,verpasst,verpassen
+180,18,behalten,to keep,behalte,behältst,behält,behalten,behaltet,behalten
+181,19,verpassen,"to miss (to be late for something, e.g. a train)",verpasse,verpasst,verpasst,verpassen,verpasst,verpassen
 182,19,schenken,"to gift, to give as a present",schenke,schenkst,schenkt,schenken,schenkt,schenken
 183,19,wachsen,"to grow, to increase",wachse,wächst,wächst,wachsen,wachst,wachsen
 184,19,springen,"to spring, to jump",springe,springst,springt,springen,springt,springen
@@ -187,55 +187,55 @@ Nr,level,question,english,ich,du,er/sie/es,wir,ihr,Sie
 186,19,raten,"to advise, to recommend, to guess",rate,rätst,rät,raten,ratet,raten
 187,19,verbieten,"to forbid, to prohibit (with dative)",verbiete,verbietest,verbietet,verbieten,verbietet,verbieten
 188,19,fallen,"to fall, to fall in battle, to collapse",falle,fällst,fällt,fallen,fallt,fallen
-189,19,kümmern,"to take care (refl.), to trouble, to concern",kümmee,kümmest,kümmet,kümmeen,kümmet,kümmeen
+189,19,kümmern,"to take care (refl.), to trouble, to concern",kümmere,kümmerst,kümmert,kümmern,kümmert,kümmern
 190,19,drücken,"to press, to push",drücke,drückst,drückt,drücken,drückt,drücken
 191,20,vergleichen,to compare,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen
-192,20,putzen,"to clean, to rub",putze,putzst,putzt,putzen,putzt,putzen
-193,20,einkaufen,to shop,einkaufe,einkaufst,einkauft,einkaufen,einkauft,einkaufen
+192,20,putzen,"to clean, to rub",putze,putzt,putzt,putzen,putzt,putzen
+193,20,einkaufen,to shop,kaufe ein,kaufst ein,kauft ein,kaufen ein,kauft ein,kaufen ein
 194,20,veröffentlichen,"to publish, to release",veröffentliche,veröffentlichst,veröffentlicht,veröffentlichen,veröffentlicht,veröffentlichen
-195,20,testen,"to test, to examine",teste,testst,testt,testen,testt,testen
-196,20,lösen,"to loosen, to solve, to separate, to remove",löse,lösst,löst,lösen,löst,lösen
+195,20,testen,"to test, to examine",teste,testest,testet,testen,testet,testen
+196,20,lösen,"to loosen, to solve, to separate, to remove",löse,löst,löst,lösen,löst,lösen
 197,20,kontrollieren,"to control, to check",kontrolliere,kontrollierst,kontrolliert,kontrollieren,kontrolliert,kontrollieren
-198,20,unterstützen,"to support, to provide help",unterstütze,unterstützst,unterstützt,unterstützen,unterstützt,unterstützen
+198,20,unterstützen,"to support, to provide help",unterstütze,unterstützt,unterstützt,unterstützen,unterstützt,unterstützen
 199,20,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to",treibe,treibst,treibt,treiben,treibt,treiben
 200,20,tanzen,to dance,tanze,tanzt,tanzt,tanzen,tanzt,tanzen
 201,21,studieren,"to study, to go to university/college",studiere,studierst,studiert,studieren,studiert,studieren
 202,21,sinken,"to sink, to drop",sinke,sinkst,sinkt,sinken,sinkt,sinken
 203,21,klingen,to sound,klinge,klingst,klingt,klingen,klingt,klingen
 204,21,schmecken,to taste,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken
-205,21,mitteilen,"to inform, to share",mitteile,mitteilst,mitteilt,mitteilen,mitteilt,mitteilen
-206,21,streiten,"to argue, to fight, to quarrel",streite,streitst,streitt,streiten,streitt,streiten
-207,21,entwickeln,to develop,entwickee,entwickest,entwicket,entwickeen,entwicket,entwickeen
-208,21,ersetzen,"to replace, to substitute",ersetze,ersetzst,ersetzt,ersetzen,ersetzt,ersetzen
-209,21,leiden,"to bear, to endure, to suffer",leide,leidst,leidt,leiden,leidt,leiden
+205,21,mitteilen,"to inform, to share",teile mit,teilst mit,teilt mit,teilen mit,teilt mit,teilen mit
+206,21,streiten,"to argue, to fight, to quarrel",streite,streitest,streitet,streiten,streitet,streiten
+207,21,entwickeln,to develop,entwickle,entwickelst,entwickelt,entwickeln,entwickelt,entwickeln
+208,21,ersetzen,"to replace, to substitute",ersetze,ersetzt,ersetzt,ersetzen,ersetzt,ersetzen
+209,21,leiden,"to bear, to endure, to suffer",leide,leidest,leidet,leiden,leidet,leiden
 210,21,diskutieren,"to discuss, to debate",diskutiere,diskutierst,diskutiert,diskutieren,diskutiert,diskutieren
 211,22,rufen,"to call out, to call for help, to telephone",rufe,rufst,ruft,rufen,ruft,rufen
 212,22,vorschlagen,"to suggest, to propose",schlage vor,schlägst vor,schlägt vor,schlagen vor,schlagt vor,schlagen vor
 213,22,überzeugen,"to convince, to convince oneself (refl.)",überzeuge,überzeugst,überzeugt,überzeugen,überzeugt,überzeugen
-214,22,vermuten,"to assume something is true, to suppose, suspect something",vermute,vermutst,vermutt,vermuten,vermutt,vermuten
+214,22,vermuten,"to assume something is true, to suppose, suspect something",vermute,vermutest,vermutet,vermuten,vermutet,vermuten
 215,22,überlegen,"to consider, to think over",überlege,überlegst,überlegt,überlegen,überlegt,überlegen
 216,22,teilnehmen,"to take part, to participate",nehme teil,nimmst teil,nimmt teil,nehmen teil,nehmt teil,nehmen teil
 217,22,gründen,"to found, to establish",gründe,gründst,gründt,gründen,gründt,gründen
 218,22,überprüfen,to check,überprüfe,überprüfst,überprüft,überprüfen,überprüft,überprüfen
-219,22,beraten,"to advise, to consult",berate,beratst,beratt,beraten,beratt,beraten
-220,22,vertreten,"to represent, to stand for",vertrete,vertretst,vertrett,vertreten,vertrett,vertreten
+219,22,beraten,"to advise, to consult",berate,beratest,beratet,beraten,beratet,beraten
+220,22,vertreten,"to represent, to stand for",vertrete,vertrittst,vertritt,vertreten,vertretet,vertreten
 221,23,bewerben,to apply (to a job etc.),bewerbe,bewirbst,bewirbt,bewerben,bewerbt,bewerben
 222,23,erstellen,"to create, to generate, to compile, to set up",erstelle,erstellst,erstellt,erstellen,erstellt,erstellen
 223,23,korrigieren,"to correct, to rectify, to debug",korrigiere,korrigierst,korrigiert,korrigieren,korrigiert,korrigieren
-224,23,beenden,"to finish, to complete, to terminate (relationship)",beende,beendst,beendt,beenden,beendt,beenden
-225,23,anbieten,"to offer, to provide",anbiete,anbietst,anbiett,anbieten,anbiett,anbieten
-226,23,fordern,"to demand, to require",fordee,fordest,fordet,fordeen,fordet,fordeen
+224,23,beenden,"to finish, to complete, to terminate (relationship)",beende,beendest,beendet,beenden,beendet,beenden
+225,23,anbieten,"to offer, to provide",biete an,bietest an,biett an,bieten an,biett an,bieten an
+226,23,fordern,"to demand, to require",fordere,fordest,fordert,fordern,fordert,fordern
 227,23,mitnehmen,"to carry along, to pick up (something), to take away",nehme mit,nimmst mit,nimmt mit,nehmen mit,nehmt mit,nehmen mit
 228,23,mitbringen,"to bring along, to bring with",bringe mit,bringst mit,bringt mit,bringen mit,bringt mit,bringen mit
-229,23,sammeln,"to collect, to gather",sammee,sammest,sammet,sammeen,sammet,sammeen
-230,23,aufpassen,"to watch out, to look after something, to be attentive with something",aufpasse,aufpassst,aufpasst,aufpassen,aufpasst,aufpassen
-231,24,hassen,to hate,hasse,hassst,hasst,hassen,hasst,hassen
+229,23,sammeln,"to collect, to gather",sammele,sammelst,sammelt,sammeln,sammelt,sammeln
+230,23,aufpassen,"to watch out, to look after something, to be attentive with something",passe auf,passt auf,passt auf,passen auf,passt auf,passen auf
+231,24,hassen,to hate,hasse,hasst,hasst,hassen,hasst,hassen
 232,24,zurückgehen,"to go back, to decline",gehe zurück,gehst zurück,geht zurück,gehen zurück,geht zurück,gehen zurück
 233,24,ärgern,to annoy oneself (refl.),ärgere,ärgerst,ärgert,ärgern,ärgert,ärgern
 234,24,schieben,to push,schiebe,schiebst,schiebt,schieben,schiebt,schieben
 235,24,kündigen,"to terminate, to cancel",kündige,kündigst,kündigt,kündigen,kündigt,kündigen
 236,24,heben,"to lift, to raise",hebe,hebst,hebt,heben,hebt,heben
-237,24,abholen,"to pick up someone or something, to collect",abhole,abholst,abholt,abholen,abholt,abholen
+237,24,abholen,"to pick up someone or something, to collect",hole ab,holst ab,holt ab,holen ab,holt ab,holen ab
 238,24,füllen,to fill,fülle,füllst,füllt,füllen,füllt,füllen
-239,24,wechseln,"to replace, to change, to exchange",wechsee,wechsest,wechset,wechseen,wechset,wechseen
+239,24,wechseln,"to replace, to change, to exchange",wechsle,wechselst,wechselt,wechseln,wechselt,wechseln
 240,24,wirken,"to work, to be effective, to take affect, to act",wirke,wirkst,wirkt,wirken,wirkt,wirken
