@@ -6,6 +6,11 @@
     <title>Sievers Study Hall – Practice German for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
+    <script>
+      if (sessionStorage.getItem("mode") === "day") {
+        document.documentElement.classList.add("day-mode");
+      }
+    </script>
     <link rel="stylesheet" href="/webapp/static/style.css">
 </head>
 <body>
