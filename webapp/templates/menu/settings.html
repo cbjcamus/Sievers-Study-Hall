@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
+
     <script>
-        if (sessionStorage.getItem("mode") === "day") {
-            document.documentElement.classList.add("day-mode");
+        if (localStorage.getItem("mode") === "day") {
+          document.documentElement.classList.add("day-mode");
         }
     </script>
 
