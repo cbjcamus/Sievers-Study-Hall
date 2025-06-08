@@ -6,7 +6,30 @@
     <title>Verben – Practice German Verbs for Free</title>
     <meta name="description" content="Practice German Verbs. Perfect your grammar and boost your language skills online for free.">
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
+
+    <script>
+        if (sessionStorage.getItem("mode") === "day") {
+            document.documentElement.classList.add("day-mode");
+        }
+    </script>
+
+    <style>
+        body {
+            visibility: hidden;
+        }
+        body.day-mode {
+            background-color: #deedfa;
+            color: black;
+        }
+    </style>
+
     <link rel="stylesheet" href="/webapp/static/style.css">
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            document.body.style.visibility = 'visible';
+        });
+    </script>
 </head>
 
 {% from "macros.html" import render_exercise_table_row %}

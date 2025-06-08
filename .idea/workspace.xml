@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="test day mode" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="test day mode">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/adjektivdeklinationen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/adjektivdeklinationen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/artikel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/fragen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/fragen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/konnektoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/konnektoren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/pronomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/pronomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/imperativ.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/imperativ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_I.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_I.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/praesens.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/praesens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum_partizip_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum_partizip_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adjektive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adjektive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_nomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_nomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/verben/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben/trennbare_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/verben/verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben/verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/wortschatz/deverbale_substantive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/wortschatz/deverbale_substantive.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,14 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00018" summary="commit">
-      <option name="closed" value="true" />
-      <created>1742459646745</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1742459646745</updated>
     </task>
     <task id="LOCAL-00019" summary="commit">
       <option name="closed" value="true" />
@@ -538,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749398210357</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="test day mode">
+      <option name="closed" value="true" />
+      <created>1749398770367</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1749398770367</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

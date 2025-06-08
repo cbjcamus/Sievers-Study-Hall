@@ -64,12 +64,6 @@ def settings():
                            )
 
 
-@routes.route('/faq')
-def faq():
-    return render_template('menu/faq.html',
-                           )
-
-
 @routes.route('/updates')
 def updates():
     return render_template('menu/updates.html',

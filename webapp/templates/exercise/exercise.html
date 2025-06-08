@@ -6,18 +6,31 @@
     <title>{{ title_page[unit] }} – Practice German for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
+
     <script>
       if (sessionStorage.getItem("mode") === "day") {
         document.documentElement.classList.add("day-mode");
       }
     </script>
-    <script>
+
+    <style>
+        body {
+            visibility: hidden;
+        }
         body.day-mode {
             background-color: #deedfa;
             color: black;
         }
-    </script>
+    </style>
+
     <link rel="stylesheet" href="/webapp/static/style.css">
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            document.body.style.visibility = 'visible';
+        });
+    </script>
+
     <script>
         window.onload = function() {
             document.getElementById("answer")?.focus();
