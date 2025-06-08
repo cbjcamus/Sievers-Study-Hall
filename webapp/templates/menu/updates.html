@@ -6,11 +6,28 @@
     <title>Updates</title>
     <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
     <script>
-      if (sessionStorage.getItem("mode") === "day") {
-        document.documentElement.classList.add("day-mode");
-      }
+        if (sessionStorage.getItem("mode") === "day") {
+            document.documentElement.classList.add("day-mode");
+        }
     </script>
+
+    <style>
+        body {
+            visibility: hidden;
+        }
+        body.day-mode {
+            background-color: #deedfa;
+            color: black;
+        }
+    </style>
+
     <link rel="stylesheet" href="/webapp/static/style.css">
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            document.body.style.visibility = 'visible';
+        });
+    </script>
 </head>
 
 <body>
