@@ -1,7 +1,7 @@
 const toggleButton = document.getElementById("mode-toggle");
 
 // On page load:
-const isDayMode = sessionStorage.getItem("mode") === "day";
+const isDayMode = localStorage.getItem("mode") === "day";
 if (isDayMode) {
   document.body.classList.add("day-mode");
 }
