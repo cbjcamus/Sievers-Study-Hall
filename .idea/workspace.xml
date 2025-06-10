@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="test day mode">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="imperative">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/imperativ.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/imperativ.csv" afterDir="false" />
     </list>
@@ -148,14 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00022" summary="commit">
-      <option name="closed" value="true" />
-      <created>1742788937736</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1742788937736</updated>
     </task>
     <task id="LOCAL-00023" summary="commit">
       <option name="closed" value="true" />
@@ -541,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749400874816</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="imperative">
+      <option name="closed" value="true" />
+      <created>1749534900301</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1749534900301</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -579,7 +579,8 @@
     <MESSAGE value="update June 6 2025" />
     <MESSAGE value="update June 7 2025" />
     <MESSAGE value="test day mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="test day mode" />
+    <MESSAGE value="imperative" />
+    <option name="LAST_COMMIT_MESSAGE" value="imperative" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
