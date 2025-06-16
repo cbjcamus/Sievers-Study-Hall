@@ -1,35 +1,10 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imperativ – Practice German Imperative for Free</title>
     <meta name="description" content="Practice German Imperative. Perfect your grammar and boost your language skills online for free.">
-    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
-
-    <script>
-        if (localStorage.getItem("mode") === "day") {
-          document.documentElement.classList.add("day-mode");
-        }
-    </script>
-
-    <style>
-        body {
-            visibility: hidden;
-        }
-        body.day-mode {
-            background-color: #deedfa;
-            color: black;
-        }
-    </style>
-
-    <link rel="stylesheet" href="/webapp/static/style.css">
-
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            document.body.style.visibility = 'visible';
-        });
-    </script>
+    {% from "macros.html" import header %}
+    {{ header() }}
 </head>
 
 {% from "macros.html" import render_exercise_table_row %}
@@ -65,6 +40,6 @@
         <a href="/" class="button">Home</a>
     </div>
 
-    <script src="/webapp/static/toggleMode.js"></script>
+    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

@@ -1,34 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
-
-    <script>
-        if (localStorage.getItem("mode") === "day") {
-          document.documentElement.classList.add("day-mode");
-        }
-    </script>
-
-    <style>
-        body {
-            visibility: hidden;
-        }
-        body.day-mode {
-            background-color: #deedfa;
-            color: black;
-        }
-    </style>
-
-    <link rel="stylesheet" href="/webapp/static/style.css">
-
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            document.body.style.visibility = 'visible';
-        });
-    </script>
+    {% from "macros.html" import header %}
+    {{ header() }}
 </head>
 <body>
 
@@ -38,8 +13,9 @@
 
     <div class="section">
         <p>Questions? Comments? Just want to say thank you? Send me an email at: sieversstudyhall@gmail.com</p>
+        <p>You can also contact me through my blog on substack: https://sieversstudyhall.substack.com/</p>
     </div>
 
-    <script src="/webapp/static/toggleMode.js"></script>
+    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

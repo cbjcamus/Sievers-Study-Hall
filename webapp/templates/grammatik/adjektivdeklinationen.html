@@ -1,35 +1,10 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adjektivdeklinationen – Practice German Adjective Declension for Free</title>
     <meta name="description" content="Practice German Adjective Declension. Perfect your grammar and boost your language skills online for free.">
-    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.jpg">
-
-    <script>
-        if (localStorage.getItem("mode") === "day") {
-          document.documentElement.classList.add("day-mode");
-        }
-    </script>
-
-    <style>
-        body {
-            visibility: hidden;
-        }
-        body.day-mode {
-            background-color: #deedfa;
-            color: black;
-        }
-    </style>
-
-    <link rel="stylesheet" href="/webapp/static/style.css">
-
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            document.body.style.visibility = 'visible';
-        });
-    </script>
+    {% from "macros.html" import header %}
+    {{ header() }}
 </head>
 
 {% from "macros.html" import render_exercise_table_row %}
@@ -55,26 +30,27 @@
             {{ render_exercise_table_row("adjektivdeklinationen", 6, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 7, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 8, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 10, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B1</h2>
         <table class="exercise-table">
-            {{ render_exercise_table_row("adjektivdeklinationen", 9, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("adjektivdeklinationen", 10, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 11, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 12, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 13, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 14, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 15, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B2</h2>
         <table class="exercise-table">
-            {{ render_exercise_table_row("adjektivdeklinationen", 15, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektivdeklinationen", 16, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektivdeklinationen", 17, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
@@ -82,6 +58,6 @@
         <a href="/" class="button">Home</a>
     </div>
 
-    <script src="/webapp/static/toggleMode.js"></script>
+    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

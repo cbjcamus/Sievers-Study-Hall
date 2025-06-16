@@ -19,7 +19,7 @@ INTRODUCTION = {
 
     artikel: "Articles marinated in every grammatical cases."
              "<br><br>Includes definite, indefinite, negative, possessive, demonstrative articles and much more."
-             "<br><br>If you get headaches it means you're learning.",
+             "<br><br>If you get headaches, it means you're learning.",
     pronomen: "Pronouns in every grammatical cases."
               "<br><br>Not genitive though, there are no genitive pronoun in German. Latin does have genitive pronoun, why not german?"
               "<br><br>Includes reflexive, relative, relentless, reliable, and resolute pronouns.",
@@ -28,7 +28,8 @@ INTRODUCTION = {
                  "<br><br>⚠️ The following definitions are used:"
                  "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Konjunktion: Konjunktion – Subjekt – Verb – Objektkomplement"
                  "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Subjunktion: Subjunktion – Subjekt – Objektkomplement – Verb"
-                 "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Adverb: &nbsp; &nbsp; &nbsp; &nbsp; Adverb – Verb – Subjekt – Objektkomplement",
+                 "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Adverb: &nbsp; &nbsp; &nbsp; &nbsp; Adverb – Verb – Subjekt – Objektkomplement"
+                 "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Zwei Begriffe: Two terms such as \"um zu\" or \"entweder oder\"",
     fragen: "Question words."
             "<br><br>Mostly useful at A1 and A2 level. B1 and C1 levels are here out of exhaustivity."
             "<br><br>Wo means Where and Wer means Who. Hope it makes sense.",
@@ -43,7 +44,7 @@ INTRODUCTION = {
     partizip_II: "Past Participle used in the Perfekt, Plusquamperfekt, Future II and the Passive voice."
                  "<br><br>I wrote the first script that later became this website to practice the Partizip II. I hold it close to my heart.",
     praeteritum: "Preterit tense."
-                 "<br><br>Available for each grammatical person for the most important verbs, then only the 3rd singular person is required."
+                 "<br><br>Available for each grammatical person for the most important verbs, then only the 3<sup>rd</sup> singular person is required."
                  "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect."
                  "<br><br>Once I spoke to a German teacher about my whereabouts. My level was early B1. "
                  "<br>I used the Präteritum instead of the Perfekt because it's easier: you don't have to think about which hilfsverb to use "
@@ -58,7 +59,7 @@ INTRODUCTION = {
                  "<br>If you're a language teacher be mindful of that. "
                  "<br>It's my website I get to rant whenever and wherever I want.",
     praeteritum_partizip_II: "Exercise to practice the Präteritum and Partizip II together.",
-    imperativ: "Imperative for the three grammatical persons."
+    imperativ: "Imperative for the three grammatical persons Du, Ihr and Sie."
                "<br><br>Scream at cyclists, the printer that doesn't work, and your toe that hits a piece of furniture the right way."
                "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect.",
     konjunktiv_II: "Konjunktiv II is used to express the subjunctive mood, suggestions and wishes."

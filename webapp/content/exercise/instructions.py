@@ -17,16 +17,20 @@ INSTRUCTION = {
         5: "Complete the following sentence with the preposition that fits:",
         6: "Complete the following sentence with the preposition that fits:",
         7: "Complete the following sentence with the preposition that fits:",
+
         8: "Complete the following sentence with the preposition that fits:",
         9: "Complete the following sentence with the preposition that fits:",
         10: "Complete the following sentence with the preposition that fits:",
         11: "Complete the following sentence with the preposition that fits:",
+
         12: "Complete the following sentence with the preposition that fits:",
         13: "Translate the following preposition:",
         14: "Complete the following sentence with the preposition that fits:",
+
         15: "Complete the following sentence with the preposition that fits:",
         16: "Translate the following preposition:",
         17: "Complete the following sentence with the preposition that fits:",
+
         18: "Translate the following preposition:",
         19: "Complete the following sentence with the preposition that fits:",
         20: "Translate the following preposition:",
@@ -38,20 +42,24 @@ INSTRUCTION = {
         2: "Complete the following sentence with the preposition that fits:",
         3: "Write the preposition that match the following verb:",
         4: "Complete the following sentence with the preposition that fits:",
+
         5: "Write the preposition that match the following verb:",
         6: "Complete the following sentence with the preposition that fits:",
         7: "Write the preposition that match the following verb:",
         8: "Complete the following sentence with the preposition that fits:",
         9: "Complete the following sentence with the Da-Wort that fits:",
         10: "Complete the following sentence with the Wo-Wort that fits:",
+
         11: "Write the preposition that match the following verb:",
         12: "Complete the following sentence with the preposition that fits:",
         13: "Write the preposition that match the following verb:",
         14: "Complete the following sentence with the preposition that fits:",
+
         15: "Write the preposition that match the following verb:",
         16: "Complete the following sentence with the preposition that fits:",
         17: "Write the preposition that match the following verb:",
         18: "Complete the following sentence with the preposition that fits:",
+
         19: "Write the preposition that match the following verb:",
         20: "Complete the following sentence with the preposition that fits:",
         21: "Write the preposition that match the following verb:",
@@ -61,8 +69,10 @@ INSTRUCTION = {
     praepositionen_adjektive: {
         1: "Write the preposition that match the following adjective:",
         2: "Complete the following sentence with the preposition that fits:",
+
         3: "Write the preposition that match the following adjective:",
         4: "Complete the following sentence with the preposition that fits:",
+
         5: "Write the preposition that match the following adjective:",
         6: "Complete the following sentence with the preposition that fits:",
     },
@@ -70,10 +80,12 @@ INSTRUCTION = {
     praepositionen_nomen: {
         1: "Write the preposition that match the following noun:",
         2: "Complete the following sentence with the preposition that fits:",
+
         3: "Write the preposition that match the following noun:",
         4: "Complete the following sentence with the preposition that fits:",
         5: "Write the preposition that match the following noun:",
         6: "Complete the following sentence with the preposition that fits:",
+
         7: "Write the preposition that match the following noun:",
         8: "Complete the following sentence with the preposition that fits:",
         9: "Write the preposition that match the following noun:",
@@ -81,44 +93,55 @@ INSTRUCTION = {
     },
 
     artikel: {
-        1: "Complete the following sentence with the nominative definite article that fits:",
-        2: "Complete the following sentence with the accusative definite article that fits:",
-        3: "Complete the following sentence with the dative definite article that fits:",
-        4: "Complete the following sentence with the definite article that fits:",
-        5: "Complete the following sentence with the definite article that fits:",
-        6: "Complete the following sentence with the nominative indefinite article that fits:",
-        7: "Complete the following sentence with the accusative indefinite article that fits:",
-        8: "Complete the following sentence with the dative indefinite article that fits:",
-        9: "Complete the following sentence with the indefinite article that fits:",
-        10: "Complete the following sentence with the indefinite article that fits:",
-        11: "Write the Kein-word that fits the case and gender provided:",
-        12: "Complete the following sentence with the Kein-word that fits:",
-        13: "Write the singular possessive article that fits the case and gender provided:",
-        14: "Complete the following sentence with the singular possessive article that fits:",
-        15: "Write the plural possessive article that fits the case and gender provided:",
-        16: "Complete the following sentence with the plural possessive article that fits:",
+        1: "Write the definite article that fits the case and gender provided:",
+        2: "Complete the following sentence with the nominative definite article that fits:",
+        3: "Complete the following sentence with the accusative definite article that fits:",
+        4: "Complete the following sentence with the dative definite article that fits:",
+        5: "Complete the following sentence with the feminine definite article that fits:",
+        6: "Complete the following sentence with the masculine definite article that fits:",
+        7: "Complete the following sentence with the neuter definite article that fits:",
+        8: "Complete the following sentence with the plural definite article that fits:",
+        9: "Complete the following sentence with the definite article that fits:",
+        10: "Complete the following sentence with the definite article that fits:",
+        11: "Write the indefinite article that fits the case and gender provided:",
+        12: "Complete the following sentence with the nominative indefinite article that fits:",
+        13: "Complete the following sentence with the accusative indefinite article that fits:",
+        14: "Complete the following sentence with the dative indefinite article that fits:",
+        15: "Complete the following sentence with the feminine indefinite article that fits:",
+        16: "Complete the following sentence with the masculine indefinite article that fits:",
+        17: "Complete the following sentence with the neuter indefinite article that fits:",
+        18: "Complete the following sentence with the indefinite article that fits:",
+        19: "Complete the following sentence with the indefinite article that fits:",
+        20: "Write the Kein-word that fits the case and gender provided:",
+        21: "Complete the following sentence with the Kein-word that fits:",
+        22: "Write the possessive article that fits the case and gender provided.",
+        23: "Complete the following sentence with the possessive article that fits."
+            "<br><br>All the possessive articles are based on singular pronouns (Ich, Du, Er, Sie, Es).",
+        24: "Write the possessive article that fits the case and gender provided.",
+        25: "Complete the following sentence with the possessive article that fits."
+            "<br><br>All the possessive articles are based on plural (Wir, Ihr, Sie) or formal pronouns.",
 
-        17: "Write the demonstrative article that fits the case and gender provided:",
-        18: "Complete the following sentence with the demonstrative article that fits:",
-        19: "Write jede-word that fits the case and gender provided:",
-        20: "Complete the following sentence with the jede-word that fits:",
+        26: "Write the demonstrative article that fits the case and gender provided:",
+        27: "Complete the following sentence with the demonstrative article that fits:",
+        28: "Write jede-word that fits the case and gender provided:",
+        29: "Complete the following sentence with the jede-word that fits:",
+        30: "Complete the following sentence with the article that fits:",
+        31: "Complete the following sentence with the article that fits:",
+        32: "Translate the following article:",
+        33: "Complete the following sentence with the article that fits:",
 
-        21: "Complete the following sentence with the article that fits:",
-        22: "Complete the following sentence with the article that fits:",
+        34: "Write the article that fits the case and gender provided:",
+        35: "Complete the following sentence with the genitive article that fits:",
+        36: "Write the article that fits the case and gender provided:",
+        37: "Complete the following sentence with the genitive article that fits:",
+        38: "Write the possessive article that fits the case and gender provided:",
+        39: "Complete the following sentence with the possessive article that fits:",
 
-        23: "Translate the following article:",
-        24: "Complete the following sentence with the article that fits:",
+        40: "Translate the following article based on the case and gender provided:",
+        41: "Complete the following sentence with the article that fits:",
 
-        25: "Write the article that fits the case and gender provided:",
-        26: "Complete the following sentence with the genitive article that fits:",
-        27: "Write the article that fits the case and gender provided:",
-        28: "Complete the following sentence with the genitive article that fits:",
-        29: "Write the possessive article that fits the case and gender provided:",
-        30: "Complete the following sentence with the possessive article that fits:",
-
-        31: "Translate the following article:",
-        32: "Complete the following sentence with the article that fits:",
-
+        42: "Translate the following article based on the case and gender provided:",
+        43: "Complete the following sentence with the article that fits:",
     },
 
     pronomen: {
@@ -126,50 +149,100 @@ INSTRUCTION = {
         2: "Complete the following sentence with the accusative pronoun that fits:",
         3: "Complete the following sentence with the dative pronoun that fits:",
         4: "Complete the following sentence with the pronoun that fits:",
+
         5: "Complete the following sentence with the reflexive pronoun that fits:",
         6: "Complete the following sentence with the pronoun that fits:",
+        7: "Complete the following sentence with the pronoun that fits:",
+        8: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
+        9: "Complete the following sentence with the possessive provide that fits:",
+        10: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
+        11: "Complete the following sentence with the possessive pronoun that fits:",
 
-        7: "Provide the translation of the singular possessive pronoun that fits the case and gender provided:",
-        8: "Complete the following sentence with the singular possessive provide that fits:",
-        9: "Provide the translation of the plural possessive pronoun that fits the case and gender provided:",
-        10: "Complete the following sentence with the plural possessive pronoun that fits:",
-
-        11: "Translate the following pronoun:",
-        12: "Complete the following sentence with the pronoun that fits:",
-        13: "Complete the following sentence with the nominative relative pronoun that fits:",
-        14: "Complete the following sentence with the accusative relative pronoun that fits:",
-        15: "Complete the following sentence with the dative relative pronoun that fits:",
-        16: "Complete the following sentence with the genitive relative pronoun that fits:",
-        17: "Complete the following sentence with the relative pronoun that fits:",
+        12: "Translate the following pronoun:",
+        13: "Complete the following sentence with the pronoun that fits:",
+        14: "Complete the following sentence with the nominative relative pronoun that fits:",
+        15: "Complete the following sentence with the accusative relative pronoun that fits:",
+        16: "Complete the following sentence with the dative relative pronoun that fits:",
+        17: "Complete the following sentence with the genitive relative pronoun that fits:",
         18: "Complete the following sentence with the relative pronoun that fits:",
-        19: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
+
+        19: "Complete the following sentence with the relative pronoun that fits:",
+        20: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
     },
 
     konnektoren: {
         1: "Translate the following connector:",
         2: "Complete the following sentence with the connector that fits:",
+
         3: "Translate the following connector:",
         4: "Complete the following sentence with the connector that fits:",
+
         5: "Translate the following connector:",
         6: "Complete the following sentence with the connector that fits:",
         7: "Find a synonym for the following connector:",
+
         8: "Translate the following connector:",
         9: "Complete the following sentence with the connector that fits:",
-        10: "Find a synonym for the following connector:",
-        11: "Translate the following connector:",
-        12: "Complete the following sentence with the connector that fits:",
-        13: "Find a synonym for the following connector:",
+        10: "Translate the following connector:",
+        11: "Complete the following sentence with the connector that fits:",
+        12: "Find a synonym for the following connector:",
+
+        13: "Translate the following connector:",
+        14: "Complete the following sentence with the connector that fits:",
+        15: "Find a synonym for the following connector:",
     },
 
     fragen: {
         1: "Translate the following question word:",
         2: "Complete the following sentence with the question word that fits:",
+
         3: "Translate the following question word:",
         4: "Complete the following sentence with the question word that fits:",
+
         5: "Translate the following question word:",
         6: "Complete the following sentence with the question word that fits:",
+
         7: "Translate the following question word:",
         8: "Complete the following sentence with the question word that fits:",
+    },
+
+    adverbien: {
+        1: "Translate the following adverb:",
+        2: "Complete the following sentence with the adverb that fits:",
+        3: "Translate the following adverb:",
+        4: "Complete the following sentence with the adverb that fits:",
+
+        5: "Translate the following adverb:",
+        6: "Complete the following sentence with the adverb that fits:",
+        7: "Translate the following adverb:",
+        8: "Complete the following sentence with the adverb that fits:",
+
+        9: "Translate the following adverb:",
+        10: "Complete the following sentence with the adverb that fits:",
+        11: "Translate the following adverb:",
+        12: "Complete the following sentence with the adverb that fits:",
+        13: "Translate the following adverb:",
+        14: "Complete the following sentence with the adverb that fits:",
+        15: "Translate the following adverb:",
+        16: "Complete the following sentence with the adverb that fits:",
+
+        17: "Translate the following adverb:",
+        18: "Complete the following sentence with the adverb that fits:",
+        19: "Translate the following adverb:",
+        20: "Complete the following sentence with the adverb that fits:",
+        21: "Translate the following adverb:",
+        22: "Complete the following sentence with the adverb that fits:",
+        23: "Translate the following adverb:",
+        24: "Complete the following sentence with the adverb that fits:",
+
+        25: "Translate the following adverb:",
+        26: "Complete the following sentence with the adverb that fits:",
+        27: "Translate the following adverb:",
+        28: "Complete the following sentence with the adverb that fits:",
+        29: "Translate the following adverb:",
+        30: "Complete the following sentence with the adverb that fits:",
+        31: "Translate the following adverb:",
+        32: "Complete the following sentence with the adverb that fits:",
     },
 
     adjektivdeklinationen: {
@@ -183,12 +256,15 @@ INSTRUCTION = {
         8: "Complete the sentence with the correct form of the specified adjective:",
         9: "Complete the sentence with the correct form of the specified adjective:",
         10: "Complete the sentence with the correct form of the specified adjective:",
+
         11: "Complete the sentence with the correct form of the specified adjective:",
         12: "Complete the sentence with the correct form of the specified adjective:",
         13: "Complete the sentence with the correct form of the specified adjective:",
         14: "Complete the sentence with the correct form of the specified adjective:",
         15: "Complete the sentence with the correct form of the specified adjective:",
+
         16: "Complete the sentence with the correct form of the specified adjective:",
+        17: "Complete the sentence with the correct form of the specified adjective:",
     },
 
     praesens: {
@@ -204,6 +280,7 @@ INSTRUCTION = {
         10: "Conjugate the following verb in the present tense:",
         11: "Conjugate the following verb in the present tense:",
         12: "Conjugate the following verb in the present tense:",
+
         13: "Conjugate the following verb in the present tense:",
         14: "Conjugate the following verb in the present tense:",
         15: "Conjugate the following verb in the present tense:",
@@ -222,15 +299,18 @@ INSTRUCTION = {
         1: "Write the Partizip II of the following verb:",
         2: "Write the Partizip II of the following verb:",
         3: "Write the Partizip II of the following verb:",
+
         4: "Write the Partizip II of the following verb:",
         5: "Write the Partizip II of the following verb:",
         6: "Write the Partizip II of the following verb:",
+
         7: "Write the Partizip II of the following verb:",
         8: "Write the Partizip II of the following verb:",
         9: "Write the Partizip II of the following verb:",
         10: "Write the Partizip II of the following verb:",
         11: "Write the Partizip II of the following verb:",
         12: "Write the Partizip II of the following verb:",
+
         13: "Write the Partizip II of the following verb:",
         14: "Write the Partizip II of the following verb:",
         15: "Write the Partizip II of the following verb:",
@@ -243,56 +323,84 @@ INSTRUCTION = {
 
     praeteritum: {
         1: "Conjugate the following verb in the Präteritum:",
-        2: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        3: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        4: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        5: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        6: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        7: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        8: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        9: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        10: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        11: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        12: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        13: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        14: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        15: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        16: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        17: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        18: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        19: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        20: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
-        21: "Conjugate the following verb in the Präteritum (3rd Person Singular):",
+
+        2: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        3: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        4: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        5: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        6: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        7: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
+        8: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        9: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        10: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        11: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        12: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        13: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
+        14: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        15: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        16: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        17: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        18: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        19: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        20: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        21: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
     },
 
     praeteritum_partizip_II: {
-        1: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"spielte gespielt\" or \"spielte, gespielt\":",
-        2: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        3: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        4: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        5: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        6: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        7: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        8: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        9: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        10: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        11: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        12: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        13: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        14: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        15: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        16: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        17: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        18: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        19: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        20: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
-        21: "Write the Präteritum (3rd Person Singular) and Partizip II of the following verb using the formats \"hatte gehabt\" or \"hatte, gehabt\":",
+        1: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
+        2: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        3: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        4: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        5: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        6: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        7: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
+        8: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        9: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        10: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        11: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        12: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        13: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
+        14: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        15: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        16: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        17: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        18: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        19: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        20: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        21: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+           "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
     },
 
     imperativ: {
         1: "Conjugate the following verb in the Imperativ:",
         2: "Conjugate the following verb in the Imperativ:",
         3: "Conjugate the following verb in the Imperativ:",
+
         4: "Conjugate the following verb in the Imperativ:",
         5: "Conjugate the following verb in the Imperativ:",
         6: "Conjugate the following verb in the Imperativ:",
@@ -317,54 +425,42 @@ INSTRUCTION = {
         3: "Write the Partizip I of the following verb:",
     },
 
-    adverbien: {
-        1: "Translate the following adverb:",
-        2: "Complete the following sentence with the adverb that fits:",
-        3: "Translate the following adverb:",
-        4: "Complete the following sentence with the adverb that fits:",
-        5: "Translate the following adverb:",
-        6: "Complete the following sentence with the adverb that fits:",
-        7: "Translate the following adverb:",
-        8: "Complete the following sentence with the adverb that fits:",
-        9: "Translate the following adverb:",
-        10: "Complete the following sentence with the adverb that fits:",
-        11: "Translate the following adverb:",
-        12: "Complete the following sentence with the adverb that fits:",
-        13: "Translate the following adverb:",
-        14: "Complete the following sentence with the adverb that fits:",
-        15: "Translate the following adverb:",
-        16: "Complete the following sentence with the adverb that fits:",
-        17: "Translate the following adverb:",
-        18: "Complete the following sentence with the adverb that fits:",
-        19: "Translate the following adverb:",
-        20: "Complete the following sentence with the adverb that fits:",
-        21: "Translate the following adverb:",
-        22: "Complete the following sentence with the adverb that fits:",
-        23: "Translate the following adverb:",
-        24: "Complete the following sentence with the adverb that fits:",
-        25: "Translate the following adverb:",
-        26: "Complete the following sentence with the adverb that fits:",
-        27: "Translate the following adverb:",
-        28: "Complete the following sentence with the adverb that fits:",
-        29: "Translate the following adverb:",
-        30: "Complete the following sentence with the adverb that fits:",
-        31: "Translate the following adverb:",
-        32: "Complete the following sentence with the adverb that fits:",
+    trennbare_verben: {
+        1: "Translate the following (un)trennbare verb based on the specified root verb:",
+        2: "Translate the following (un)trennbare verb based on the specified prefix:",
+
+        3: "Translate the following (un)trennbare verb based on the specified root verb:",
+        4: "Translate the following (un)trennbare verb based on the specified prefix:",
+
+        5: "Translate the following (un)trennbare verb based on the specified root verb:",
+        6: "Translate the following (un)trennbare verb based on the specified root verb:",
+        7: "Translate the following (un)trennbare verb based on the specified prefix:",
+        8: "Translate the following (un)trennbare verb based on the specified prefix:",
+
+        9: "Translate the following (un)trennbare verb based on the specified root verb:",
+        10: "Translate the following (un)trennbare verb based on the specified root verb:",
+        11: "Translate the following (un)trennbare verb based on the specified root verb:",
+        12: "Translate the following (un)trennbare verb based on the specified prefix:",
+        13: "Translate the following (un)trennbare verb based on the specified prefix:",
+        14: "Translate the following (un)trennbare verb based on the specified prefix:",
     },
 
     verben: {
         1: "Translate the following verb:",
         2: "Translate the following verb:",
         3: "Translate the following verb:",
+
         4: "Translate the following verb:",
         5: "Translate the following verb:",
         6: "Translate the following verb:",
+
         7: "Translate the following verb:",
         8: "Translate the following verb:",
         9: "Translate the following verb:",
         10: "Translate the following verb:",
         11: "Translate the following verb:",
         12: "Translate the following verb:",
+
         13: "Translate the following verb:",
         14: "Translate the following verb:",
         15: "Translate the following verb:",
@@ -373,21 +469,6 @@ INSTRUCTION = {
         18: "Translate the following verb:",
         19: "Translate the following verb:",
         20: "Translate the following verb:",
-    },
-
-    trennbare_verben: {
-        1: "Translate the following (un)trennbare verb based on the specified root verb:",
-        2: "Translate the following (un)trennbare verb based on the specified prefix:",
-        3: "Translate the following (un)trennbare verb based on the specified root verb:",
-        4: "Translate the following (un)trennbare verb based on the specified root verb:",
-        5: "Translate the following (un)trennbare verb based on the specified prefix:",
-        6: "Translate the following (un)trennbare verb based on the specified prefix:",
-        7: "Translate the following (un)trennbare verb based on the specified root verb:",
-        8: "Translate the following (un)trennbare verb based on the specified root verb:",
-        9: "Translate the following (un)trennbare verb based on the specified root verb:",
-        10: "Translate the following (un)trennbare verb based on the specified prefix:",
-        11: "Translate the following (un)trennbare verb based on the specified prefix:",
-        12: "Translate the following (un)trennbare verb based on the specified prefix:",
     },
 
     deverbale_nomen: {

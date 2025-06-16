@@ -1,9 +1,44 @@
+{% macro header() %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
+
+    <script>
+        if (localStorage.getItem("mode") === "day") {
+          document.documentElement.classList.add("day-mode");
+        }
+    </script>
+
+    <style>
+        body {
+            visibility: hidden;
+        }
+        body.day-mode {
+            background-color: #deedfa;
+            color: black;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/webapp/static/style.css">
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            document.body.style.visibility = 'visible';
+        });
+    </script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% endmacro %}
+
 {% macro render_exercise_table_row(unit, exercise, session, answered_questions, total_questions, score, description_templates) %}
     <tr>
         <td><a href="/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Exercise {{ exercise }}</a></td>
         <td>{{ answered_questions(session, unit, exercise=exercise) }}/{{ total_questions(unit, exercise=exercise) }}</td>
-        <td>{{ score(session, unit, exercise=exercise) }}</td>
-        <td>{{ description_templates[unit].get(exercise, "") }}</td>
+        <td>
+            <span title="Your score for Exercise {{ exercise }}">{{ score(session, unit, exercise=exercise) }}</span>
+        </td>
+        <td>{{ description_templates[unit].get(exercise, "") | safe }}</td>
     </tr>
 {% endmacro %}
 
@@ -11,7 +46,9 @@
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
         <td>{{ answered_questions(session, unit) }}/{{ total_questions(unit) }}</td>
-        <td>{{ score(session, unit) }}</td>
+        <td>
+            <span title="Your score for Unit {{ title_page[unit] }}">{{ score(session, unit) }}</span>
+        </td>
         <td></td>
     </tr>
 {% endmacro %}
@@ -29,19 +66,18 @@
         <button class="hamburger" onclick="toggleMenu()">☰</button>
         <div id="menu" class="menu">
             <a href="/">Home</a>
-            <!-- <a href="/settings">Settings</a> -->
-            <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a>
-            <a href="/updates">Updates</a>
+            <!-- <a href="/settings">Settings</a>-->
+            <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ <i class="material-icons">open_in_new</i></a>
+            <a href="https://sieversstudyhall.substack.com/p/updates" target="_blank">Updates <i class="material-icons">open_in_new</i></a>
+            <a href="https://sieversstudyhall.substack.com/p/credits" target="_blank">Credits <i class="material-icons">open_in_new</i></a>
             <a href="/contact">Contact</a>
-            <a href="/credits">Credits</a>
         </div>
     </div>
 
-<script>
-function toggleMenu() {
-    var menu = document.getElementById('menu');
-    menu.classList.toggle('show');
-}
-</script>
-
+    <script>
+    function toggleMenu() {
+        var menu = document.getElementById('menu');
+        menu.classList.toggle('show');
+    }
+    </script>
 {% endmacro %}

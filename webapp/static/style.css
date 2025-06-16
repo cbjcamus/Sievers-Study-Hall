@@ -62,7 +62,8 @@ body.day-mode .menu {
 }
 
 .menu a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -98,7 +99,7 @@ h2 {
 
 .exercise-title {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
     font-weight: normal;
 }
@@ -182,7 +183,7 @@ body.day-mode .exercise-container {
 .question-container {
     width: 100%;
     max-width: 400px;
-    margin: 3px auto;
+    margin: 0px auto;
     text-align: center;
 
     display: block;
@@ -193,7 +194,8 @@ body.day-mode .exercise-container {
 }
 
 .input-box {
-    margin-top: 10px;
+    margin: 5px;
+    margin-bottom: 0px;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -216,6 +218,54 @@ body.day-mode .input-box:focus {
     border: 2px solid black;
 }
 
+.readonly-input {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #5e5e5e;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
+
+body.day-mode .readonly-input {
+    color: black;
+    border: 2px solid black;
+    background-color: #e0e0e0;
+}
+
+body.day-mode .readonly-input:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.special-chars button {
+    background-color: white;
+    color: #131b22;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.special-chars button:hover {
+    background-color: #f0f0f0;
+}
+
+body.day-mode .special-chars button {
+    border: 1px solid black;
+}
+
+body.day-mode .special-chars button:hover {
+    background-color: white;
+}
+
 .submit-button {
     background-color: white;
     color: #161F23;
@@ -224,10 +274,10 @@ body.day-mode .input-box:focus {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 15px;
     width: 112px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-decoration: none;
 }
 
@@ -237,14 +287,35 @@ body.day-mode .submit-button {
     border: 1px solid black;
 }
 
+.next-question-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 7.5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+body.day-mode .next-question-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .question-count {
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 16px;
     color: #ddd;
     display: flex;
     align-items: center;
     justify-content: center; /* Center the entire line */
-    gap: 10px;
+    gap: 5px;
 }
 
 body.day-mode .question-count {
@@ -517,4 +588,70 @@ body.day-mode .back-button {
     hyphens: auto;
     /* width: 180px; */
     text-align: center;
+}
+
+.settings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.settings-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.settings-table td:nth-child(1) {
+    width: 10%;
+}
+
+.settings-table td:nth-child(2) {
+    width: 90%;
+}
+
+/* Toggle switch container (20% smaller) */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;   /* was 60px */
+  height: 27px;  /* was 34px */
+}
+
+/* Hide default checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 27px; /* match height */
+}
+
+/* Circle inside the switch */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;   /* was 26px */
+  width: 21px;    /* was 26px */
+  left: 3px;      /* was 4px */
+  bottom: 3px;    /* was 4px */
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Checked state */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(21px); /* match new slider width */
 }

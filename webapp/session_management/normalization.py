@@ -23,10 +23,10 @@ def is_equal(user_answer, correct_answer, question, unit):
 
 def normalization(input_str, unit):
     output = input_str.strip().lower()
-    output = replace_sharp_s(output)
     output = remove_comma(output)
     output = normalize_umlaut(output)
     output = search_for_main_synonym(output, unit)
+    output = replace_sharp_s(output)
     return output
 
 

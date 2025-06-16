@@ -1,35 +1,10 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sievers Study Hall – Practice German for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
-    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
-
-    <script>
-        if (localStorage.getItem("mode") === "day") {
-          document.documentElement.classList.add("day-mode");
-        }
-    </script>
-
-    <style>
-        body {
-            visibility: hidden;
-        }
-        body.day-mode {
-            background-color: #deedfa;
-            color: black;
-        }
-    </style>
-
-    <link rel="stylesheet" href="/webapp/static/style.css">
-
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            document.body.style.visibility = 'visible';
-        });
-    </script>
+    {% from "macros.html" import header %}
+    {{ header() }}
 </head>
 <body>
 
@@ -41,16 +16,16 @@
     <div class="section">
         <h2>Recent Updates</h2>
         <ul>
-            <li>Important: I've created a <a href="https://sieversstudyhall.substack.com/p/substack-to-host-updates-and-news">blog</a> to centralize the communication to users, please have a read!</a></li>
-            <li>User Interface: I've added a feature to flag errors inside exercises. It is present in the feedback container as a white flag. I will regularly monitor flagged questions.</a></li>
-            <li>General: addition of an introduction for each exercise with advices, warnings, stories and more.</a></li>
-            <li>Präpositionen: addition of the <a href="https://www.sieversstudyhall.com/praepositionen_adverbien">Präpositionen – Adverbien</a> exercise.</li>
-            <li>Back-end: correction of an issue that prevented the progress to be saved after a few hours.</a></li>
-            <li>General: Umlauts inputted using Unicode can now feed a correct answer.</li>
-            <li>Artikel: Levels 1-10 are being hidden for "maintenance" (there are too many errors and I want to make a solid review before making them visible again).</li>
+            <li>General: addition of Umlaut (ü, ö, ä) and Eszett (ß) buttons below the input bar.</li>
+            <li>User Interface: introduction of a Day mode, available in the <a href="https://www.sieversstudyhall.com/settings">settings</a>.</li>
+            <li>User Interface: introduction of an Intermediate Feedback page, available in the <a href="https://www.sieversstudyhall.com/settings">settings</a>.</li>
+            <li>Artikel: reintroduction of Definite and Indefinite Articles' exercises.</li>
+            <li>Artikel: updates of B2 and C1 exercises.</li>
         </ul>
 
-        Older updates are available <a href="https://www.sieversstudyhall.com/updates">here</a>.
+        <p>Additional information on the most recent updates <a href="https://sieversstudyhall.substack.com/p/TO COMPLETE">here</a>.</p>
+
+        <p>Older updates are available <a href="https://sieversstudyhall.substack.com/p/updates">here</a>.</p>
 
     </div>
 
@@ -99,6 +74,6 @@
         </table>
     </div>
 
-    <script src="/webapp/static/toggleMode.js"></script>
+    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

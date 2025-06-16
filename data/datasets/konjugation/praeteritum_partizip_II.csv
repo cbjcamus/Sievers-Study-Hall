@@ -1,801 +1,801 @@
 Nr,exercise,question,answer,english
-1,1,sein,war gewesen,to be
-2,1,haben,hatte gehabt,"to have, to contain"
-3,1,werden,wurde geworden,"to become, will, to be done (passive voice)"
-4,1,können,konnte gekonnt,"can, to be able to"
-5,1,wollen,wollte gewollt,to want
-6,1,müssen,musste gemusst,"must, to have to, to be obliged (to do something)"
-7,1,sollen,sollte gesollt,"shall, to be asked (to do something)"
-8,1,mögen,mochte gemocht,to like
-9,1,dürfen,durfte gedurft,"to be allowed (to do something), may"
-10,2,wissen,wusste gewusst,to know
-11,2,machen,machte gemacht,"to make, to prepare (e.g. food), to do"
-12,2,tun,tat getan,"to do, to do something to someone"
-13,2,sagen,sagte gesagt,"to say, to tell"
-14,2,gehen,ging gegangen,"to go, to leave, to work, to function (coll.)"
-15,2,sehen,sah gesehen,"to see, to see (to something), to realise"
-16,2,geben,gab gegeben,to give
-17,2,kommen,kam gekommen,"to come, to make it (e.g. over something), to go to, to occur"
-18,2,glauben,glaubte geglaubt,to believe
-19,2,reden,redete geredet,to talk
-20,2,hören,hörte gehört,"to hear, to listen to"
-21,2,finden,fand gefunden,to find
-22,2,bleiben,blieb geblieben,"to remain, to stay"
-23,2,brauchen,brauchte gebraucht,to need
-24,2,lieben,liebte geliebt,to love
-25,2,bringen,brachte gebracht,"to bring, to take, to lead"
-26,2,stehen,stand gestanden,"to stand, to be, to appear"
-27,2,heißen,hieß geheißen,"to be called, to mean"
-28,2,nehmen,nahm genommen,"to take, to cause oneself to be (in some state)"
-29,2,sprechen,sprach gesprochen,to speak
-30,2,bekommen,bekam bekommen,"to receive, to catch (e.g. a cold), to sit well with someone"
-31,2,vergessen,vergaß vergessen,"to forget, to leave (forget to take)"
-32,2,halten,hielt gehalten,"to hold, to stop (a movement), to support, to keep"
-33,2,warten,wartete gewartet,"to wait, to maintain (e.g. a car)"
-34,2,kennen,kannte gekannt,"to know, to be acquainted with, to be familiar with"
-35,2,verstehen,verstand verstanden,"to understand, to get along with someone/something"
-36,2,denken,dachte gedacht,"to think, to consider"
-37,2,leben,lebte gelebt,to live
-38,2,arbeiten,arbeitete gearbeitet,to work
-39,2,essen,aß gegessen,to eat
-40,2,bieten,bot geboten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
-41,3,aufstehen,stand auf aufgestanden,"to get up, to be open (e.g. a window, door)"
-42,3,anziehen,zog an angezogen,"to get dressed, to put on, to dress someone, to attract, to pull"
-43,3,ausziehen,zog aus ausgezogen,"to take something off, to undress, to pull out, to move out"
-44,3,spielen,spielte gespielt,to play
-45,3,fahren,fuhr gefahren,"to go (by vehicle), to leave, to drive"
-46,3,versuchen,versuchte versucht,to try
-47,3,erzählen,erzählte erzählt,"to tell, to narrate"
-48,3,fragen,fragte gefragt,"to ask, to wonder (refl.)"
-49,3,treffen,traf getroffen,"to meet, to encounter"
-50,3,hoffen,hoffte gehofft,to hope
-51,3,suchen,suchte gesucht,"to seek, to search"
-52,3,trinken,trank getrunken,to drink
-53,3,lernen,lernte gelernt,"to learn, to study (revise/review materials), to train something"
-54,3,zeigen,zeigte gezeigt,"to show, to point at, to demonstrate"
-55,3,schlafen,schlief geschlafen,to sleep
-56,3,kaufen,kaufte gekauft,to buy
-57,3,laufen,lief gelaufen,"to walk, to flow (of a fluid), to run (of an event)"
-58,3,erklären,erklärte erklärt,"to explain, to declare, to assert"
-59,3,zahlen,zahlte gezahlt,"to pay (for something), to atone for"
-60,3,kochen,kochte gekocht,"to cook, to boil (to heat a liquid), to boil something"
-61,3,waschen,wusch gewaschen,to wash
-62,3,aufwachen,wachte auf aufgewacht,to wake up
-63,3,zeichnen,zeichnete gezeichnet,"to draw, to sketch"
-64,3,wohnen,wohnte gewohnt,"to live, to reside, to dwell"
-65,3,schreiben,schrieb geschrieben,to write
-66,3,tragen,trug getragen,"to wear (clothing), to carry, to hold"
-67,3,interessieren,interessierte interessiert,"to interest, to be interested in (refl.)"
-68,3,ziehen,zog gezogen,"to pull, to drag, to move"
-69,3,lesen,las gelesen,to read
-70,3,kosten,kostete gekostet,"to cost, to taste"
-71,3,wiederholen,wiederholte wiederholt,to repeat
-72,3,übersetzen,übersetzte übersetzt,to translate
-73,3,buchstabieren,buchstabierte buchstabiert,to spell
-74,3,bedeuten,bedeutete bedeutet,"to mean, to signify"
-75,3,funktionieren,funktionierte funktioniert,"to function, to work"
-76,3,erinnern,erinnerte erinnert,"to remind, to remember (refl.)"
-77,3,fühlen,fühlte gefühlt,"to feel, to feel something (good/bad) (refl.)"
-78,3,regnen,regnete geregnet,to rain
-79,3,schneien,schneite geschneit,to snow
-80,3,führen,führte geführt,"to lead, to guide"
-81,4,passieren,passierte passiert,"to happen (conversational), to move beyond, to strain"
-82,4,verlieren,verlor verloren,to lose
-83,4,bestimmen,bestimmte bestimmt,to determine
-84,4,holen,holte geholt,to fetch
-85,4,anrufen,rief an angerufen,"to call by telephone, to call on (someone)"
-86,4,aufhören,hörte auf aufgehört,"to stop, to cease an activity/process"
-87,4,anfangen,fing an angefangen,to begin something new
-88,4,gewinnen,gewann gewonnen,to win
-89,4,wehtun,tat weh wehgetan,"to hurt, to be painful"
-90,4,öffnen,öffnete geöffnet,to open (formal)
-91,4,bezahlen,bezahlte bezahlt,"to pay, to pay someone"
-92,4,beginnen,begann begonnen,to begin (on a date/time)
-93,4,benutzen,benutzte benutzt,to use (something)
-94,4,schicken,schickte geschickt,to send
-95,4,lachen,lachte gelacht,to laugh
-96,4,scheinen,schien geschienen,"to seem, to shine"
-97,4,ändern,änderte geändert,to change (one's personality/behavior)
-98,4,verkaufen,verkaufte verkauft,to sell
-99,4,gehören,gehörte gehört,to belong to
-100,4,sitzen,sass gesessen,"to be seated, to stay, to fit (of clothing)"
-101,4,stellen,stellte gestellt,"to position, to put, to catch"
-102,4,setzen,setzte gesetzt,"to set, to sit down (refl.)"
-103,4,liegen,lag gelegen,"to lie, to be located"
-104,4,danken,dankte gedankt,to thank
-105,4,legen,legte gelegt,"to lay, to lean, to lie down"
-106,4,schauen,schaute geschaut,to look at (Bayern/Austria)
-107,4,besuchen,besuchte besucht,to visit
-108,4,freuen,freute gefreut,"to make glad, to be glad (refl.), to look forward (refl.)"
-109,4,schließen,schloss geschlossen,"to shut, to close, to lock, to conclude"
-110,4,einladen,lud ein eingeladen,"to invite, to load (something into a container)"
-111,4,gefallen,gefiel gefallen,"to please, to appeal to"
-112,4,wünschen,wünschte gewünscht,to wish
-113,4,passen,passte gepasst,"to fit, to suit"
-114,4,folgen,folgte gefolgt,to follow
-115,4,ansehen,sah an angesehen,"to look at something, to watch something"
-116,4,aussehen,sah aus ausgesehen,"to look (like), to appear"
-117,4,probieren,probierte probiert,"to try, to taste, to sample, to probe"
-118,4,träumen,träumte geträumt,to dream
-119,4,fernsehen,sah fern ferngesehen,to watch TV
-120,4,schwimmen,schwamm geschwommen,"to swim, to float"
-121,5,einschlafen,schlief ein eingeschlafen,to fall asleep
-122,5,reisen,reiste gereist,to travel
-123,5,feiern,feierte gefeiert,to celebrate
-124,5,antworten,antwortete geantwortet,"to answer, to reply"
-125,5,wählen,wählte gewählt,"to choose, to dial (a number), to vote"
-126,5,ausgehen,ging aus ausgegangen,"to go out, to run out (e.g. of money)"
-127,5,zählen,zählte gezählt,to count
-128,5,ankommen,kam an angekommen,"to arrive, to depend on something"
-129,5,dauern,dauerte gedauert,"to last, to take (time)"
-130,5,kennenlernen,lernte kennen kennengelernt,"to meet someone, to get to know someone/something"
-131,5,anmelden,meldete an angemeldet,"to register, to sign up"
-132,5,lassen,ließ gelassen,"to let, to leave, to allow"
-133,5,verlassen,verließ verlassen,"to leave, to trust with something (refl.), to pass away, to die"
-134,5,helfen,half geholfen,to help
-135,5,bewegen,bewegte bewegt,to move
-136,5,versprechen,versprach versprochen,"to promise, to hope for, to misspeak"
-137,5,hängen,hing gehangen,"to hang, to be fond of, depend on"
-138,5,mieten,mietete gemietet,"to rent, to hire"
-139,5,rauchen,rauchte geraucht,to smoke (e.g. a cigarette)
-140,5,sterben,starb gestorben,to die
-141,5,heiraten,heiratete geheiratet,to marry
-142,5,kämpfen,kämpfte gekämpft,"to fight, to struggle"
-143,5,fehlen,fehlte gefehlt,"to lack, to be absent/missing"
-144,5,sorgen,sorgte gesorgt,"to care, to worry"
-145,5,stecken,steckte gesteckt,"to stick, to pin"
-146,5,überraschen,überraschte überrascht,to surprise
-147,5,vorstellen,stellte vor vorgestellt,"to introduce, to present oneself (refl.), to move forward, to represent"
-148,5,stehlen,stahl gestohlen,to steal
-149,5,stimmen,stimmte gestimmt,"to be true, to vote, to tune"
-150,5,entscheiden,entschied entschieden,to decide
-151,5,vermissen,vermisste vermisst,to miss something/someone
-152,5,werfen,warf geworfen,to throw
-153,5,erkennen,erkannte erkannt,"to recognise, to realise"
-154,5,teilen,teilte geteilt,"to split, to share, to divide"
-155,5,bauen,baute gebaut,to build
-156,5,melden,meldete gemeldet,"to report, to register"
-157,5,brechen,brach gebrochen,to break
-158,5,steigen,stieg gestiegen,"to ascend, to climb, to rise"
-159,5,singen,sang gesungen,to sing
-160,5,empfehlen,empfahl empfohlen,"to recommend, to suggest"
-161,6,aufmachen,machte auf aufgemacht,"to open (coll.), to head/move off (refl.), to undo something"
-162,6,vertrauen,vertraute vertraut,to trust
-163,6,verändern,veränderte verändert,"to alter, to change something"
-164,6,bitten,bat gebeten,"to ask, to request"
-165,6,besitzen,besass besessen,"to own, to possess, to have"
-166,6,merken,merkte gemerkt,"to notice, to realise, to remember (refl.)"
-167,6,stören,störte gestört,"to disturb, to interfere"
-168,6,annehmen,nahm an angenommen,"to accept, to assume (a hypothesis), to receive, to suppose"
-169,6,übernehmen,übernahm übernommen,to take over
-170,6,stattfinden,fand statt stattgefunden,"to take place, to occur"
-171,6,fangen,fing gefangen,to catch
-172,6,enthalten,enthielt enthalten,"to contain, to include"
-173,6,dienen,diente gedient,"to serve, to function"
-174,6,verschwinden,verschwand verschwunden,"to disappear, to get lost"
-175,6,schützen,schützte geschützt,"to defend (lawyer), to protect (sunprotection)"
-176,6,nennen,nannte genannt,"to name, to call someone something, to mention"
-177,6,schätzen,schätzte geschätzt,"to appreciate, to evaluate, to guess"
-178,6,erwarten,erwartete erwartet,"to expect, to await"
-179,6,drehen,drehte gedreht,"to turn, to veer"
-180,6,behalten,behielt behalten,to keep
-181,6,verpassen,verpasste verpasst,"to miss (to be late for something, e.g. a train)"
-182,6,schenken,schenkte geschenkt,"to gift, to give as a present"
-183,6,wachsen,wuchs gewachsen,"to grow, to increase"
-184,6,springen,sprang gesprungen,"to spring, to jump"
-185,6,befinden,befand befunden,"to be located (refl.), to find, to consider (formal)"
-186,6,raten,riet geraten,"to advise, to recommend, to guess"
-187,6,verbieten,verbot verboten,"to forbid, to prohibit (with dative)"
-188,6,fallen,fiel gefallen,"to fall, to fall in battle, to collapse"
-189,6,kümmern,kümmerte gekümmert,"to take care (refl.), to trouble, to concern"
-190,6,drücken,drückte gedrückt,"to press, to push"
-191,6,vergleichen,verglich verglichen,to compare
-192,6,putzen,putzte geputzt,"to clean, to rub"
-193,6,einkaufen,kaufte ein eingekauft,to shop
-194,6,veröffentlichen,veröffentlichte veröffentlicht,"to publish, to release"
-195,6,testen,testete getestet,"to test, to examine"
-196,6,lösen,löste gelöst,"to loosen, to solve, to separate, to remove"
-197,6,kontrollieren,kontrollierte kontrolliert,"to control, to check"
-198,6,unterstützen,unterstützte unterstützt,"to support, to provide help"
-199,6,treiben,trieb getrieben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
-200,6,tanzen,tanzte getanzt,to dance
-201,7,studieren,studierte studiert,"to study, to go to university/college"
-202,7,sinken,sank gesunken,"to sink, to drop"
-203,7,klingen,klang geklungen,to sound
-204,7,schmecken,schmeckte geschmeckt,to taste
-205,7,mitteilen,teilte mit mitgeteilt,"to inform, to share"
-206,7,streiten,stritt gestritten,"to argue, to fight, to quarrel"
-207,7,entwickeln,entwickelte entwickelt,to develop
-208,7,ersetzen,ersetzte ersetzt,"to replace, to substitute"
-209,7,leiden,litt gelitten,"to bear, to endure, to suffer"
-210,7,diskutieren,diskutierte diskutiert,"to discuss, to debate"
-211,7,rufen,rief gerufen,"to call out, to call for help, to telephone"
-212,7,vorschlagen,schlug vor vorgeschlagen,"to suggest, to propose"
-213,7,überzeugen,überzeugte überzeugt,"to convince, to convince oneself (refl.)"
-214,7,vermuten,vermutete vermutet,"to assume something is true, to suppose, suspect something"
-215,7,überlegen,überlegte überlegt,"to consider, to think over"
-216,7,teilnehmen,nahm teil teilgenommen,"to take part, to participate"
-217,7,gründen,gründete gegründet,"to found, to establish"
-218,7,überprüfen,überprüfte überprüft,to check
-219,7,beraten,beriet beraten,"to advise, to consult"
-220,7,vertreten,vertrat vertreten,"to represent, to stand for"
-221,7,bewerben,bewarb beworben,to apply (to a job etc.)
-222,7,erstellen,erstellte erstellt,"to create, to generate, to compile, to set up"
-223,7,korrigieren,korrigierte korrigiert,"to correct, to rectify, to debug"
-224,7,beenden,beendete beendet,"to finish, to complete, to terminate (relationship)"
-225,7,anbieten,bot an angeboten,"to offer, to provide"
-226,7,fordern,forderte gefordert,"to demand, to require"
-227,7,mitnehmen,nahm mit mitgenommen,"to carry along, to pick up (something), to take away"
-228,7,mitbringen,brachte mit mitgebracht,"to bring along, to bring with"
-229,7,sammeln,sammelte gesammelt,"to collect, to gather"
-230,7,aufpassen,passte auf aufgepasst,"to watch out, to look after something, to be attentive with something"
-231,7,hassen,hasste gehasst,to hate
-232,7,zurückgehen,ging zurück zurückgegangen,"to go back, to decline"
-233,7,ärgern,ärgerte geärgert,to annoy oneself (refl.)
-234,7,schieben,schob geschoben,to push
-235,7,kündigen,kündigte gekündigt,"to terminate, to cancel"
-236,7,heben,hob gehoben,"to lift, to raise"
-237,7,abholen,holte ab abgeholt,"to pick up someone or something, to collect"
-238,7,füllen,füllte gefüllt,to fill
-239,7,wechseln,wechselte gewechselt,"to replace, to change, to exchange"
-240,7,wirken,wirkte gewirkt,"to work, to be effective, to take affect, to act"
-241,8,verletzen,verletzte verletzt,"to hurt, to injure, to violate (rules, laws, etc.)"
-242,8,zustimmen,stimmte zu zugestimmt,"to agree, to consent"
-243,8,erhalten,erhielt erhalten,"to receive (passively), to maintain, to save"
-244,8,erlauben,erlaubte erlaubt,to allow/permit something to someone
-245,8,trennen,trennte getrennt,"to separate, part, uncouple, to disconnect, to isolate"
-246,8,darstellen,stellte dar dargestellt,"to represent, to portray"
-247,8,greifen,griff gegriffen,"to grab, to seize, to reach, to capture"
-248,8,entfernen,entfernte entfernt,"to remove, to recede, to deviate, to desert (military)"
-249,8,verlieben,verliebte verliebt,to fall in love (refl.)
-250,8,verdienen,verdiente verdient,to earn
-251,8,aufräumen,räumte auf aufgeräumt,"to tidy up, to clean up"
-252,8,spülen,spülte gespült,"to rinse, to flush toilets"
-253,8,beschreiben,beschrieb beschrieben,to describe
-254,8,verbinden,verband verbunden,"to join, to connect, to bandage"
-255,8,rennen,rannte gerannt,"to race, to sprint, to run over someone (aux. with haben)"
-256,8,pflanzen,pflanzte gepflanzt,to plant
-257,8,beten,betete gebetet,to pray
-258,8,ausruhen,ruhte aus ausgeruht,"to rest (refl.), to relax"
-259,8,entspannen,entspannte entspannt,"to relax (refl.), to relieve pressure"
-260,8,verbringen,verbrachte verbracht,to spend (time)
-261,8,vorhaben,hatte vor vorgehabt,to have something planned
-262,8,erleben,erlebte erlebt,"to experience, to witness"
-263,8,malen,malte gemalt,to paint
-264,8,jagen,jagte gejagt,to hunt
-265,8,erkunden,erkundete erkundet,to explore
-266,8,erholen,erholte erholt,to recover
-267,8,tanken,tankte getankt,to refuel
-268,8,planen,plante geplant,to plan
-269,8,entdecken,entdeckte entdeckt,"to discover, to spot"
-270,8,fliegen,flog geflogen,to fly
-271,8,erfahren,erfuhr erfahren,"to experience, to find out, to learn"
-272,8,enttäuschen,enttäuschte enttäuscht,to disappoint
-273,8,genießen,genoss genossen,"to enjoy (an experience), to relish"
-274,8,besichtigen,besichtigte besichtigt,"to visit, to tour"
-275,8,spazieren,spazierte spaziert,"to take a walk, to stroll"
-276,8,wandern,wanderte gewandert,"to hike, to wander"
-277,8,faszinieren,faszinierte fasziniert,to fascinate
-278,8,surfen,surfte gesurft,to surf
-279,8,trainieren,trainierte trainiert,"to train, to coach, to work out"
-280,8,erreichen,erreichte erreicht,to reach
-281,9,verhindern,verhinderte verhindert,"to prevent, to inhibit"
-282,9,unterschreiben,unterschrieb unterschrieben,to sign (write one's signature)
-283,9,empfangen,empfing empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)"
-284,9,bestellen,bestellte bestellt,"to order (e.g. food), to summon, to reserve"
-285,9,buchen,buchte gebucht,"to book, to reserve"
-286,9,liefern,lieferte geliefert,"to deliver something, to provide something, to furnish"
-287,9,schneiden,schnitt geschnitten,"to cut, to prune"
-288,9,sparen,sparte gespart,"to save up, to conserve"
-289,9,mischen,mischte gemischt,to mix
-290,9,ernähren,ernährte ernährt,"to nourish, to feed"
-291,9,bevorzugen,bevorzugte bevorzugt,to prefer
-292,9,braten,briet gebraten,"to fry, to roast"
-293,9,backen,backte gebackt,to bake
-294,9,grillen,grillte gegrillt,"to grill, to have a barbecue"
-295,9,bereiten,bereitete bereitet,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
-296,9,zubereiten,bereitete zu zubereitet,"to prepare, to cook in advance"
-297,9,reservieren,reservierte reserviert,to reserve
-298,9,servieren,servierte serviert,to serve (food or drinks)
-299,9,betreuen,betreute betreut,"to care for, to supervise"
-300,9,entstehen,entstand entstanden,"to arise, to emerge, to develop"
-301,9,aufnehmen,nahm auf aufgenommen,"to pick up, to receive, to take in, to record, to absorb"
-302,9,gelten,galt gegolten,"to be valid, to be effective, to be worth"
-303,9,verbessern,verbesserte verbessert,"to improve, to enhance"
-304,9,sichern,sicherte gesichert,"to secure, to protect"
-305,9,beantworten,beantwortete beantwortet,to answer (a question)
-306,9,beschäftigen,beschäftigte beschäftigt,"to concern oneself with something, to take care of"
-307,9,absolvieren,absolvierte absolviert,"to complete, to finish, to graduate"
-308,9,üben,übte geübt,to practice
-309,9,vorbereiten,bereitete vor vorbereitet,"to prepare (in advance), to prepare oneself (refl.)"
-310,9,weinen,weinte geweint,"to weep, cry"
-311,9,einsetzen,setzte ein eingesetzt,"to insert, to use, to appoint, to risk"
-312,9,nutzen,nutzte genutzt,"to use, to utilize"
-313,9,warnen,warnte gewarnt,to warn
-314,9,klären,klärte geklärt,to clarify
-315,9,besprechen,besprach besprochen,"to discuss (formal, work related)"
-316,9,erhöhen,erhöhte erhöht,"to increase, to raise"
-317,9,beschränken,beschränkte beschränkt,"to restrict, to limit"
-318,9,zwingen,zwang gezwungen,"to force, to compel"
-319,9,berücksichtigen,berücksichtigte berücksichtigt,"to consider, to take into account"
-320,9,übertragen,übertrug übertragen,"to transfer, to transmit"
-321,10,beweisen,bewies bewiesen,"to prove, to demonstrate"
-322,10,erfinden,erfand erfunden,"to invent, to fabricate (something untrue), to find out"
-323,10,zielen,zielte gezielt,"to aim, to target"
-324,10,rechnen,rechnete gerechnet,"to calculate, to reckon"
-325,10,forschen,forschte geforscht,to research
-326,10,unterrichten,unterrichtete unterrichtet,"to teach, to inform"
-327,10,erzielen,erzielte erzielt,"to achieve, to reach a result"
-328,10,bestehen,bestand bestanden,"to succeed, to pass (an exam), to consist, to insist"
-329,10,abschließen,schloss ab abgeschlossen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)"
-330,10,loben,lobte gelobt,to praise
-331,10,bilden,bildete gebildet,"to form, to educate oneself (refl.)"
-332,10,ausbilden,bildete aus ausgebildet,to train for a profession
-333,10,herausfinden,fand heraus herausgefunden,"to find something out, to discover"
-334,10,konzentrieren,konzentrierte konzentriert,"to concentrate, to focus"
-335,10,küssen,küsste geküsst,"to kiss, to make out"
-336,10,verstecken,versteckte versteckt,to hide
-337,10,zurückkommen,kam zurück zurückgekommen,to return (to come back)
-338,10,umziehen,zog um umgezogen,"to change clothes (refl.), to move house"
-339,10,zerstören,zerstörte zerstört,to destroy
-340,10,enden,endete geendet,to end (passive)
-341,10,abgeben,gab ab abgegeben,"to hand something in, to emit something, to deliver something, to cede something"
-342,10,töten,tötete getötet,to kill
-343,10,achten,achtete geachtet,"to respect, to regard someone, to pay attention to something"
-344,10,erwachsen,erwuchs erwachsen,"to grow up, to spring up, to accrue"
-345,10,absagen,sagte ab abgesagt,"to call off, to cancel"
-346,10,gucken,guckte geguckt,"to look, to watch, to have a certain facial expression (Northern Germany)"
-347,10,anschauen,schaute an angeschaut,"to look at, to behold, to take a look at, to watch (Bayern/Austria)"
-348,10,lauten,lautete gelautet,"to sound, to read (have a certain wording), to be, to state"
-349,10,spüren,spürte gespürt,to sense
-350,10,atmen,atmete geatmet,to breathe
-351,10,lächeln,lächelte gelächelt,to smile
-352,10,fürchten,fürchtete gefürchtet,"to fear, to be afraid"
-353,10,empfinden,empfand empfunden,to feel (emotions)
-354,10,beobachten,beobachtete beobachtet,"to watch, to observe"
-355,10,riechen,roch gerochen,"to sniff, to reek, to tolerate someone (coll.)"
-356,10,duften,duftete geduftet,to smell
-357,10,blicken,blickte geblickt,"to look, to glance"
-358,10,anfassen,fasste an angefasst,to touch
-359,10,fliehen,floh geflohen,"to flee, to diverge"
-360,10,abhängen,hing ab abgehangen,"to leave behind, to outdistance, to uncouple, to depend"
-361,11,gelingen,gelang gelungen,"to succeed, to manage"
-362,11,herstellen,stellte her hergestellt,"to manufacture, to produce"
-363,11,verteilen,verteilte verteilt,"to distribute, to share"
-364,11,treten,trat getreten,"to step, to read, to kick (a ball)"
-365,11,bewältigen,bewältigte bewältigt,"to cope with, to get over, to overcome, to manage"
-366,11,ablenken,lenkte ab abgelenkt,"to distract, to divert, to steer away"
-367,11,meiden,mied gemieden,to avoid (+ nouns only)
-368,11,vorgeben,gab vor vorgegeben,to pretend
-369,11,decken,deckte gedeckt,"to cover, to meet"
-370,11,geraten,geriet geraten,"to get into, to turn out, succeed, to thrive"
-371,11,ergänzen,ergänzte ergänzt,"to add, to complement, to supplement"
-372,11,laden,lud geladen,"to load, to charge"
-373,11,richten,richtete gerichtet,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-374,11,verursachen,verursachte verursacht,to cause
-375,11,schlagen,schlug geschlagen,"to hit, to defeat, to beat (cooking)"
-376,11,aufwachsen,wuchs auf aufgewachsen,"to grow up, to be raised"
-377,11,zunehmen,nahm zu zugenommen,"to gain weight, to increase"
-378,11,lohnen,lohnte gelohnt,"to be worthwhile, to pay off"
-379,11,messen,maß gemessen,"to measure, to gauge"
-380,11,scheiden,schied geschieden,"to separate, to divorce"
-381,11,entsprechen,entsprach entsprochen,"to correspond, to comply"
-382,11,mitmachen,machte mit mitgemacht,"to join in, to take part"
-383,11,wecken,weckte geweckt,"to wake, to wake up"
-384,11,abnehmen,nahm ab abgenommen,"to decrease, to lose weight, to accept something, to pick up (of telephones)"
-385,11,bewerten,bewertete bewertet,"to evaluate (subjectively), to assess, to rate, to judge"
-386,11,stammen,stammte gestammt,"to descend, originate, be derived"
-387,11,gebären,gebar geboren,to give birth
-388,11,stoßen,stieß gestoßen,"to push, to thurst, to shove"
-389,11,vermeiden,vermied vermieden,to avoid (+ nouns or verbs)
-390,11,hervorheben,hob hervor hervorgehoben,"to point out, to emphasize"
-391,11,erfüllen,erfüllte erfüllt,"to fill (with something), to fulfill, to come true"
-392,11,entziehen,entzog entzogen,"to withdraw, deprive"
-393,11,gewöhnen,gewöhnte an gewöhnt,to accustom oneself to something (refl.)
-394,11,auswählen,wählte aus ausgewählt,"to select, to choose"
-395,11,verzichten,verzichtete verzichtet,"to renounce, to forgo, to do without, to waive"
-396,11,begründen,begründete begründet,"to justify, to explain"
-397,11,zugeben,gab zu zugegeben,to admit
-398,11,besorgen,besorgte besorgt,"to obtain, to manage"
-399,11,abfahren,fuhr ab abgefahren,"to depart, to leave, to drive along"
-400,11,abbauen,baute ab abgebaut,"to dismantle, to deteriorate"
-401,12,lügen,log gelogen,"to lie, to give false information (unintentionally)"
-402,12,schreien,schrie geschrien,"to shout, to yell, to scream"
-403,12,entschuldigen,entschuldigte entschuldigt,"to excuse, to apologise"
-404,12,beschweren,beschwerte beschwert,to complain
-405,12,bestätigen,bestätigte bestätigt,"to confirm, to corroborate"
-406,12,erwähnen,erwähnte erwähnt,to mention (to speak of something)
-407,12,informieren,informierte informiert,to inform
-408,12,reagieren,reagierte reagiert,"to react, to respond"
-409,12,äußern,äußerte geäußert,"to utter, to say, to express"
-410,12,garantieren,garantierte garantiert,to guarantee
-411,12,kritisieren,kritisierte kritisiert,to criticize
-412,12,ankündigen,kündigte an angekündigt,"to announce, to declare"
-413,12,aussprechen,sprach aus ausgesprochen,"to pronounce, express"
-414,12,unterbrechen,unterbrach unterbrochen,to interrupt
-415,12,zusagen,sagte zu zugesagt,"to promise, to accept, to confirm"
-416,12,nachdenken,dachte nach nachgedacht,"to think, to reflect"
-417,12,zweifeln,zweifelte gezweifelt,to doubt
-418,12,einstellen,stellte ein eingestellt,"to employ someone, to adjust, to cease"
-419,12,bearbeiten,bearbeitete bearbeitet,to edit
-420,12,vereinbaren,vereinbarte vereinbart,"to agree, to arrange"
-421,12,hinweisen,wies hin hingewiesen,"to indicate, to point out"
-422,12,verwenden,verwendete verwendet,to use (formal)
-423,12,reinigen,reinigte gereinigt,to clean (formal)
-424,12,geschehen,geschah geschehen,"to occur, to happen (formal)"
-425,12,beteiligen,beteiligte beteiligt,"to take part in something (formal), to consult someone"
-426,12,verfügen,verfügte verfügt,"to have, to possess (formal)"
-427,12,benötigen,benötigte benötigt,"to need, to require (formal)"
-428,12,schaffen,schaffte geschafft,"to create, to produce, to achieve/reach a goal"
-429,12,drucken,druckte gedruckt,to print
-430,12,erledigen,erledigte erledigt,"to finish, to take care of, to get something done"
-431,12,herunterladen,lud herunter heruntergeladen,to download
-432,12,entlassen,entließ entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)"
-433,12,verschieben,verschob verschoben,"to move (a meeting), to postpone, to defer"
-434,12,ergeben,ergab ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)"
-435,12,leiten,leitete geleitet,"to lead, to manage"
-436,12,handeln,handelte gehandelt,"to act, to trade, to negotiate"
-437,12,schalten,schaltete geschaltet,"to switch, to operate"
-438,12,prüfen,prüfte geprüft,"to investigate, to check something, to consider"
-439,12,untersuchen,untersuchte untersucht,"to examine, to investigate"
-440,12,auswirken,wirkte aus ausgewirkt,to impact
-441,13,entwerfen,entwarf entworfen,"to design, to draw, to draft"
-442,13,reparieren,reparierte repariert,to repair
-443,13,unternehmen,unternahm unternommen,to undertake
-444,13,präsentieren,präsentierte präsentiert,"to present, to introduce"
-445,13,auswerten,wertete aus ausgewertet,"to evaluate (objectively), to analyze"
-446,13,einrichten,richtete ein eingerichtet,"to set up, to install, to furnish"
-447,13,anerkennen,erkannte an anerkannt,"to acknowledge, to recognize"
-448,13,verwalten,verwaltete verwaltet,"to manage, to administer"
-449,13,leisten,leistete geleistet,"to perform, to afford (refl.)"
-450,13,einführen,führte ein eingeführt,"to introduce, to implement"
-451,13,beitragen,trug bei beigetragen,to contribute
-452,13,anwenden,wendete an angewendet,"to apply (knowledge, know-how)"
-453,13,versorgen,versorgte versorgt,"to provide (for someone), to supply, to feed"
-454,13,pflegen,pflegte gepflegt,"to maintain, to care for (ill/old people)"
-455,13,behandeln,behandelte behandelt,"to treat (medicinally), to treat (physically), to cover (a subject)"
-456,13,erzeugen,erzeugte erzeugt,"to generate, produce, to create"
-457,13,installieren,installierte installiert,"to install, to set up"
-458,13,produzieren,produzierte produziert,"to produce, to manufacture"
-459,13,verarbeiten,verarbeitete verarbeitet,"to process, to handle"
-460,13,fressen,fraß gefressen,"to devour, to eat (of an animal), to gorge, to guzzle"
-461,13,analysieren,analysierte analysiert,to analyse
-462,13,beurteilen,beurteilte beurteilt,to judge
-463,13,fördern,förderte gefördert,"to promote, to support"
-464,13,berichten,berichtete berichtet,"to report, to cover, to indicate, to refer"
-465,13,werben,warb geworben,to advertise
-466,13,beeinflußen,beeinflusste beeinflusst,"to influence, to affect"
-467,13,zulassen,ließ zu zugelassen,"to allow, to license (for a car)"
-468,13,verurteilen,verurteilte verurteilt,"to condemn, to sentence (law)"
-469,13,senden,sandte gesendet,"to broadcast, to send"
-470,13,erfolgen,erfolgte erfolgt,"to occur, to take place"
-471,13,beugen,beugte gebeugt,to bow
-472,13,nicken,nickte genickt,to nod
-473,13,beeindrucken,beeindruckte beeindruckt,to impress someone
-474,13,mitkommen,kam mit mitgekommen,"to come with someone, to understand something"
-475,13,reichen,reichte gereicht,"to suffice, to be enough"
-476,13,regeln,regelte geregelt,to regulate
-477,13,frieren,fror gefroren,"to freeze, to be cold"
-478,13,ordnen,ordnete geordnet,"to organize, to arrange, to order"
-479,13,saugen,saugte gesaugt,"to suck, to vacuum, to suckle"
-480,13,abziehen,zog ab abgezogen,"to withdraw, to go away, to move off"
-481,14,leihen,lieh geliehen,"to lend, to borrow"
-482,14,finanzieren,finanzierte finanziert,"to finance, to fund"
-483,14,investieren,investierte investiert,to invest
-484,14,abheben,hob ab abgehoben,to withdraw (money)
-485,14,überweisen,überwies überwiesen,to transfer (money)
-486,14,stärken,stärkte gestärkt,to strengthen
-487,14,erleichtern,erleichterte erleichtert,to lighten
-488,14,verlängern,verlängerte verlängert,to extend
-489,14,vertiefen,vertiefte vertieft,to deepen
-490,14,erweitern,erweiterte erweitert,"to expand, to extend, to broaden"
-491,14,ermöglichen,ermöglichte ermöglicht,"to enable, to facilitate"
-492,14,bemerken,bemerkte bemerkt,"to notice, to remark something"
-493,14,begrüßen,begrüßte begrüßt,"to welcome, to greet"
-494,14,bemühen,bemühte bemüht,to make an effort
-495,14,beschließen,beschloss beschlossen,"to decide something, to end, to close"
-496,14,beauftragen,beauftragte beauftragt,"to instruct, to give an order"
-497,14,berechnen,berechnete berechnet,to calculate something
-498,14,bedanken,bedankte bedankt,to thank someone
-499,14,beschädigen,beschädigte beschädigt,to damage (objects)
-500,14,beruhigen,beruhigte beruhigt,to calm
-501,14,betrinken,betrank betrunken,to get drunk (refl.)
-502,14,wetten,wettete gewettet,to bet
-503,14,meinen,meinte gemeint,"to be of the opinion, to mean"
-504,14,zögern,zögerte gezögert,to hesitate
-505,14,bewundern,bewunderte bewundert,to admire
-506,14,bezeichnen,bezeichnete bezeichnet,"to designate, to label"
-507,14,überlassen,überließ überlassen,"to relinquish, to leave something in someone's care"
-508,14,schreiten,schritt geschritten,"to stride, to step, to proceed"
-509,14,binden,band gebunden,"to bind, to tie, to tie up, to absorb"
-510,14,gießen,goss gegossen,"to pour, to cast, to water"
-511,14,blühen,blühte geblüht,to bloom
-512,14,lehren,lehrte gelehrt,"to teach, to educate"
-513,14,abbrechen,brach ab abgebrochen,"to break off, to abort, to burst off"
-514,14,lenken,lenkte gelenkt,"to guide, to direct, to steer, to control"
-515,14,tauchen,tauchte getaucht,"to dive, to submerge, to disappear"
-516,14,wundern,wunderte gewundert,"to wonder, to be surprised"
-517,14,zusammenarbeiten,arbeitete zusammen zusammengearbeitet,to work together
-518,14,zusammenstellen,stellte zusammen zusammengestellt,to put together
-519,14,übernachten,übernachtete übernachtet,to stay overnight
-520,14,überqueren,überquerte überquert,to cross
-521,15,trocknen,trocknete getrocknet,"to dry, to dehumidify"
-522,15,verwandeln,verwandelte verwandelt,"to transform, to metamorphose, to turn something into something"
-523,15,erscheinen,erschien erschienen,"to appear, to seem"
-524,15,schießen,schoss geschossen,to shoot
-525,15,verraten,verriet verraten,"to betray, to reveal"
-526,15,starten,startete gestartet,"to start (car, airplane, etc), to start a competition"
-527,15,akzeptieren,akzeptierte akzeptiert,to accept
-528,15,fassen,fasste gefasst,to grasp
-529,15,verlangen,verlangte verlangt,to demand
-530,15,wenden,wendete gewendet,"to turn something, to make a u-turn"
-531,15,beachten,beachtete beachtet,to consider
-532,15,feststellen,stellte fest festgestellt,"to ascertain, to establish"
-533,15,rücken,rückte gerückt,"to move, to shift"
-534,15,landen,landete gelandet,to land (a plane)
-535,15,klappen,klappte geklappt,"to clap, to fold, to work (out) (coll.)"
-536,15,behaupten,behauptete behauptet,"to claim, maintain, assert"
-537,15,auftreten,trat auf aufgetreten,"to appear, to perform"
-538,15,vergeben,vergab vergeben,"to set (work), to forgive, to assign"
-539,15,begleiten,begleitete begleitet,"to accompany, to conduct, escort"
-540,15,verlaufen,verlief verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)"
-541,15,umgehen,ging um umgangen,"to avoid, to go around"
-542,15,engagieren,engagierte engagiert,"to engage, to commit"
-543,15,profitieren,profitierte profitiert,"to benefit, to profit"
-544,15,prägen,prägte geprägt,"to shape, to influence"
-545,15,reduzieren,reduzierte reduziert,"to reduce, to decrease"
-546,15,ablehnen,lehnte ab abgelehnt,"to reject, to decline, to refuse"
-547,15,angeben,gab an angegeben,"to indicate, to specify"
-548,15,retten,rettete gerettet,"to save, to rescue"
-549,15,ausfallen,fiel aus ausgefallen,to stand out
-550,15,hinterlassen,hinterließ hinterlassen,"to leave, to leave behind, to bequeath"
-551,15,anpassen,passte an angepasst,"to adjust, to adapt"
-552,15,ansprechen,sprach an angesprochen,"to address, to speak to"
-553,15,anzeigen,zeigte an angezeigt,"to show, to display"
-554,15,aufbauen,baute auf aufgebaut,"to build up, to construct"
-555,15,ausführen,führte aus ausgeführt,"to execute, to carry out"
-556,15,beantragen,beantragte beantragt,"to apply for, to request"
-557,15,bedienen,bediente bedient,"to operate, to serve"
-558,15,belegen,belegte belegt,"to occupy, to reserve, to cover, to prove"
-559,15,betonen,betonte betont,"to emphasize, to stress"
-560,15,betragen,betrug betragen,"to amount to, to come to"
-561,16,betreiben,betrieb betrieben,"to run, to operate"
-562,16,durchführen,führte durch durchgeführt,"to carry out, to perform"
-563,16,eignen,eignete geeignet,"to suit, to be suitable"
-564,16,organisieren,organisierte organisiert,"to organize, to arrange"
-565,16,erheben,erhob erhoben,"to raise, to collect"
-566,16,errichten,errichtete errichtet,"to establish, to erect"
-567,16,erteilen,erteilte erteilt,"to grant, to issue"
-568,16,erwerben,erwarb erworben,"to acquire, to purchase"
-569,16,eröffnen,eröffnete eröffnet,"to open, to inaugurate"
-570,16,festlegen,legte fest festgelegt,"to define, to set"
-571,16,fliessen,floss geflossen,"to flow, to run"
-572,16,gelangen,gelangte gelangt,"to reach, to get to"
-573,16,gestalten,gestaltete gestaltet,"to shape, to design"
-574,16,gewährleisten,gewährleistete gewährleistet,"to ensure, to guarantee"
-575,16,integrieren,integrierte integriert,"to integrate, to incorporate"
-576,16,löschen,löschte gelöscht,"to delete, to erase"
-577,16,scheitern,scheiterte gescheitert,to fail
-578,16,speichern,speicherte gespeichert,"to save, to store"
-579,16,sperren,sperrte gesperrt,"to block, to lock"
-580,16,steigern,steigerte gesteigert,"to increase, to boost"
-581,16,steuern,steuerte gesteuert,"to control, to steer"
-582,16,umsetzen,setzte um umgesetzt,"to implement, to put into practice"
-583,16,unterscheiden,unterschied unterschieden,"to distinguish, to differentiate"
-584,16,veranstalten,veranstaltete veranstaltet,"to organize, to host"
-585,16,verbreiten,verbreitete verbreitet,"to spread, to distribute"
-586,16,verfassen,verfasste verfasst,"to compose, to write"
-587,16,verleihen,verlieh verliehen,"to award, to grant"
-588,16,vermitteln,vermittelte vermittelt,"to mediate, to convey"
-589,16,verpflichten,verpflichtete verpflichtet,"to oblige, to commit"
-590,16,verfolgen,verfolgte verfolgt,"to pursue, to persecute, to trace"
-591,16,weisen,wies gewiesen,"to show, to indicate"
-592,16,widmen,widmete gewidmet,"to dedicate, to devote"
-593,16,unterhalten,unterhielt unterhalten,"to maintain, to entertain, to converse (refl.)"
-594,16,aufregen,regte auf aufgeregt,"to annoy, to upset (refl.)"
-595,16,klingeln,klingelte geklingelt,to ring (to produce the sound of a bell or a similar sound)
-596,16,telefonieren,telefonierte telefoniert,to telephone
-597,16,reiten,ritt geritten,"to ride, to ride on the back of someone/something"
-598,16,schweigen,schwieg geschwiegen,"to be silent, to remain silent"
-599,16,verbrennen,verbrannte verbrannt,"to burn, to incinerate, to burn oneself, to scorch (miltary)"
-600,16,verabschieden,verabschiedete verabschiedet,"to disband, to see someone off, to say goodbye (refl.), to adopt (a law, etc.)"
-601,17,aussteigen,stieg aus ausgestiegen,"to exit, to get off"
-602,17,stoppen,stoppte gestoppt,to stop a movement (vehicle / person)
-603,17,zuhören,hörte zu zugehört,to listen to someone/something (with dative)
-604,17,brennen,brannte gebrannt,"to burn, to have a strong affection for, to induce pain"
-605,17,ausrichten,richtete aus ausgerichtet,"to align, to arrange, to organize"
-606,17,wiegen,wog gewogen,"to weight, to balance"
-607,17,ausfüllen,füllte aus ausgefüllt,"to complete, to fill in, to fill out"
-608,17,ausgeben,gab aus ausgegeben,"to spend, to expend, to issue"
-609,17,ausreichen,reichte aus ausgereicht,"to suffice, to be sufficient, to be adequate"
-610,17,austauschen,tauschte aus ausgetauscht,"to exchange, to replace, to swap"
-611,17,einnehmen,nahm ein eingenommen,"to capture, to earn, to ingest"
-612,17,einschalten,schaltete ein eingeschaltet,"to switch on, to intervene, to turn on"
-613,17,einziehen,zog ein eingezogen,"to move in, to penetrate, to infiltrate"
-614,17,fotografieren,fotografierte fotografiert,"to take a photo, to photograph"
-615,17,protestieren,protestierte protestiert,"to protest, to object"
-616,17,realisieren,realisierte realisiert,"to realize, to implement, to actualize"
-617,17,unterstreichen,unterstrich unterstrichen,"to underline, to emphasize, to highlight"
-618,17,verbrauchen,verbrauchte verbraucht,"to consume, to use"
-619,17,vorlesen,las vor vorgelesen,"to read aloud, to read out"
-620,17,zusammenfassen,fasste zusammen zusammengefasst,"to summarize, to condense, to abstract"
-621,17,aufführen,führte auf aufgeführt,"to perform, to present"
-622,17,erschrecken,erschrak erschrocken,"to be frightened, to frighten"
-623,17,einsteigen,stieg ein eingestiegen,"to enter, to get in, to board"
-624,17,markieren,markierte markiert,"to mark, to highlight"
-625,17,begehen,beging begangen,"to commit, perpetrate (a crime, an offence)"
-626,17,kriegen,kriegte gekriegt,"to get after asking or fighting, to wage war"
-627,17,ertragen,ertrug ertragen,"to bear, to stand"
-628,17,verhaften,verhaftete verhaftet,"to detain, to take into custody"
-629,17,begegnen,begegnete begegnet,"to encounter (with dative), to meet"
-630,17,wagen,wagte gewagt,"to venture, to dare, to risk, to jeopardise"
-631,17,zurückziehen,zog zurück zurückgezogen,"to withdraw, to pull back, to retreat"
-632,17,schaden,schadete geschadet,"to damage, to harm (someone)"
-633,17,umdrehen,drehte um umgedreht,to turn around
-634,17,zitieren,zitierte zitiert,"to cite, to quote"
-635,17,anhalten,hielt an angehalten,"to stop (cease moving), to continue, to compel"
-636,17,absehen,sah ab abgesehen,"to foresee, to overlook, to disregard"
-637,17,zusehen,sah zu zugesehen,"to watch, to see, to make sure (that something happens)"
-638,17,auffallen,fiel auf aufgefallen,"to stand out, to catch someone's eye (with dative)"
-639,17,begeistern,begeisterte begeistert,"to enthuse, to be enthusiastic (refl.)"
-640,17,aufgeben,gab auf aufgegeben,"to give up on, to give up (refl.), to abandon"
-641,18,bekämpfen,bekämpfte bekämpft,to fight against something
-642,18,aktivieren,aktivierte aktiviert,"to activate, to enable"
-643,18,verhandeln,verhandelte verhandelt,to negotiate
-644,18,verhalten,verhielt verhalten,"to behave (refl.), to act (refl.), to press (coll.)"
-645,18,stürzen,stürzte gestürzt,"to fall, to rush, to throw, to overturn, to overthrow something"
-646,18,anschließen,schloss an angeschlossen,"to join, to attach, to affiliate, to connect"
-647,18,bewirken,bewirkte bewirkt,"to bring about, to cause, to effect"
-648,18,einfügen,fügte ein eingefügt,"to insert, to infix, to conform"
-649,18,erfordern,erforderte erfordert,"to require, to demand, to necessitate"
-650,18,ergreifen,ergriff ergriffen,"to seize, to grasp, to take hold of"
-651,18,erstrecken,erstreckte erstreckt,"to extend, to span, to bestride"
-652,18,fortsetzen,setzte fort fortgesetzt,"to continue, to carry on, to extend, to proceed"
-653,18,kopieren,kopierte kopiert,"to copy, to duplicate"
-654,18,senken,senkte gesenkt,"to lower, to sink, to drop, to reduce"
-655,18,überwachen,überwachte überwacht,"to keep under surveillance, to monitor, to observe, to oversee"
-656,18,versehen,versah versehen,"to provide, to equip, to supply"
-657,18,vorlegen,legte vor vorgelegt,"to present, to submit, to bring forward"
-658,18,winken,winkte gewinkt,to wave
-659,18,zuordnen,ordnete zu zugeordnet,"to assign, to allocate"
-660,18,ermitteln,ermittelte ermittelt,"to determine, to ascertain"
-661,18,klicken,klickte geklickt,to click
-662,18,verteidigen,verteidigte verteidigt,to defend
-663,18,eingehen,ging ein eingegangen,"to shrink (textile), to wither/die (plants, animals), to assume something"
-664,18,betreffen,betraf betroffen,"to concern, to affect"
-665,18,anlegen,legte an angelegt,"to create, to invest"
-666,18,betrachten,betrachtete betrachtet,"to view, to observe"
-667,18,beziehen,bezog bezogen,"to refer, to obtain"
-668,18,erfassen,erfasste erfasst,"to record, to capture"
-669,18,umfassen,umfasste umfasst,"to include, to comprise"
-670,18,unterliegen,unterlag unterlegen,"to be subject to, to undergo"
-671,18,vorliegen,lag vor vorgelegen,"to exist, to be available"
-672,18,vornehmen,nahm vor vorgenommen,"to undertake, to carry out"
-673,18,basieren,basierte basiert,to base
-674,18,genügen,genügte genügt,"to suffice, to satisfy"
-675,18,definieren,definierte definiert,to define
-676,18,berechtigen,berechtigte berechtigt,"to authorize, to entitle to, to empower"
-677,18,parken,parkte geparkt,to park
-678,18,joggen,joggte gejoggt,to jog
-679,18,frühstücken,frühstückte gefrühstückt,to have breakfast
-680,18,packen,packte gepackt,"to pack, to grab, to manage"
-681,19,biegen,bog gebogen,"to turn, to bend"
-682,19,vorkommen,kam vor vorgekommen,"to occur, to happen, to advance"
-683,19,ablaufen,lief ab abgelaufen,"to expire, to run out, to discharge"
-684,19,anführen,führte an angeführt,"to cite, to lead, to quote"
-685,19,ausdrucken,druckte aus ausgedruckt,"to print, to print out, to print off"
-686,19,ausmachen,machte aus ausgemacht,"to arrange, to constitute, to represent, to settle"
-687,19,eintragen,trug ein eingetragen,"to register, to enter, to record, to enrol"
-688,19,erarbeiten,erarbeitete erarbeitet,"to develop, to elaborate, to work out, to acquire"
-689,19,notieren,notierte notiert,"to note, to quote"
-690,19,renovieren,renovierte renoviert,"to refurbish, to renovate"
-691,19,streiken,streikte gestreikt,"to strike, to be on strike"
-692,19,verschreiben,verschrieb verschrieben,"to prescribe, to commit oneself to, to misspell by accident"
-693,19,vertreiben,vertrieb vertrieben,"to expel, to dislodge, to displace"
-694,19,auspacken,packte aus ausgepackt,"to unpack, to unwrap, to blow the whistle on"
-695,19,existieren,existierte existiert,to exist
-696,19,bewahren,bewahrte bewahrt,"to keep, to preserve (to maintain the condition of)"
-697,19,verzeihen,verzieh verziehen,"to forgive, to pardon, to excuse"
-698,19,bestrafen,bestrafte bestraft,to punish
-699,19,stinken,stank gestunken,to stink
-700,19,berühren,berührte berührt,to touch
-701,19,anstellen,stellte an angestellt,"to queue (refl.), to employ someone, to get into mischief"
-702,19,auftauchen,tauchte auf aufgetaucht,"to arise, to surface, to turn up"
-703,19,einfallen,fiel ein eingefallen,"to collapse, to come to mind"
-704,19,aussuchen,suchte aus ausgesucht,"to select, to choose, to pick"
-705,19,streichen,strich gestrichen,"to stroke, to cancel, to spread, to rub, to paint"
-706,19,festhalten,hielt fest festgehalten,"to hold someone/something, to retain something, to record something, to detain"
-707,19,bedrohen,bedrohte bedroht,"to threaten, to menace"
-708,19,weitermachen,machte weiter weitergemacht,"go on, keep going, continue to do something"
-709,19,abbilden,bildete ab abgebildet,"to depict, to map, to illustrate"
-710,19,klagen,klagte geklagt,"to complain, to lament, to sue"
-711,19,kleben,klebte geklebt,"to stick, to adhere, to bond, to glue"
-712,19,klopfen,klopfte geklopft,"to knock, to tap (food)"
-713,19,stechen,stach gestochen,"to sting, to prick, to puncture, to pierce"
-714,19,ableiten,leitete ab abgeleitet,"to derive, to deduce"
-715,19,abstimmen,stimmte ab abgestimmt,"to coordinate, to vote, to adjust"
-716,19,anregen,regte an angeregt,"to encourage, to stimulate, to excite, to inspire"
-717,19,anschaffen,schaffte an angeschafft,"to purchase, to acquire, to procure"
-718,19,aufbrechen,brach auf aufgebrochen,"to leave, to set off, to start, to break, to burst"
-719,19,auffordern,forderte auf aufgefordert,"to request, to invite, to ask"
-720,19,aufhalten,hielt auf aufgehalten,"to stop, to stay, to delay"
-721,20,aufheben,hob auf aufgehoben,"to abolish, to lift, to pick up, to keep"
-722,20,aufladen,lud auf aufgeladen,"to charge, to load, to burden, to impose"
-723,20,auflösen,löste auf aufgelöst,"to dissolve, to resolve, to annul, to liquidate"
-724,20,aufsteigen,stieg auf aufgestiegen,"to rise, to ascend, to advance, to climb"
-725,20,auslösen,löste aus ausgelöst,"to ransom, to trigger, to initiate, to set up"
-726,20,ausüben,übte aus ausgeübt,"to exercise, to perform, to practice"
-727,20,befürchten,befürchtete befürchtet,"to fear, to apprehend, to be afraid"
-728,20,beherrschen,beherrschte beherrscht,"to dominate, to master, to control, to rule"
-729,20,beklagen,beklagte beklagt,"to complain, to lament, to air grievances"
-730,20,belasten,belastete belastet,"to burden, to charge, to strain"
-731,20,benennen,benannte benannt,"to name, to designate, to appoint"
-732,20,besetzen,besetzte besetzt,"to occupy, to border, to cast"
-733,20,drängen,drängte gedrängt,"to urge, to push, to cajole, to shove"
-734,20,einleiten,leitete ein eingeleitet,"to introduce, to initiate, to commence"
-735,20,einschränken,schränkte ein eingeschränkt,"to limit, to restrict, to stint, to circumscribe"
-736,20,eintreten,trat ein eingetreten,"to enter, to join, to occur"
-737,20,erregen,erregte erregt,"to arouse, to stimulate, to agitate"
-738,20,interpretieren,interpretierte interpretiert,"to interpret, to take as"
-739,20,klettern,kletterte geklettert,"to climb, to scale"
-740,20,kombinieren,kombinierte kombiniert,to combine
-741,20,konsumieren,konsumierte konsumiert,to consume
-742,20,nachweisen,wies nach nachgewiesen,"to prove, to account for, to demonstrate"
-743,20,nähern,näherte genähert,"to approach, to get closer, to advance"
-744,20,orientieren,orientierte orientiert,to orient
-745,20,rechtfertigen,rechtfertigte gerechtfertigt,"to justify, to warrant, to back up, to exculpate"
-746,20,schimpfen,schimpfte geschimpft,"to scold, to rant"
-747,20,schütteln,schüttelte geschüttelt,"to agitate, to shake, to jolt"
-748,20,transportieren,transportierte transportiert,"to transport, to transfer"
-749,20,verkünden,verkündete verkündet,"to announce, to proclaim, to declare"
-750,20,verpacken,verpackte verpackt,"to pack, to wrap, to package"
-751,20,versichern,versicherte versichert,"to assure, to insure, to cover"
-752,20,voraussetzen,setzte voraus vorausgesetzt,"to presume, to require, to assume"
-753,20,wahrnehmen,nahm wahr wahrgenommen,"to perceive, to notice, to observe, to sense"
-754,20,weitergeben,gab weiter weitergegeben,"to pass on, to impart, to relay"
-755,20,widersprechen,widersprach widersprochen,"to contradict, to disagree"
-756,20,zugehen,ging zu zugegangen,"to approach, to close, to happen"
-757,20,zurückgeben,gab zurück zurückgegeben,"to return, to give back, to answer back"
-758,20,zurückhalten,hielt zurück zurückgehalten,"to restrain, to hold back, to withhold"
-759,20,überschreiten,überschritt überschritten,"to exceed, to overstep, to surpass"
-760,20,überleben,überlebte überlebt,to survive
-761,21,übergeben,übergab übergeben,"to hand over, to vomit (refl.)"
-762,21,stützen,stützte gestützt,"to support, to back, to hold something up, to bolster"
-763,21,rollen,rollte gerollt,to roll
-764,21,sondern,sonderte gesondert,"to separate, to split"
-765,21,einigen,einigte geeinigt,"to unite, to reconcile, to agree"
-766,21,identifizieren,identifizierte identifiziert,to identify
-767,21,schmelzen,schmolz geschmolzen,to melt
-768,21,importieren,importierte importiert,to import
-769,21,abrufen,rief ab abgerufen,"to retrieve, to access, to call away"
-770,21,aufweisen,wies auf aufgewiesen,"to exhibit, to feature, to show, to boast"
-771,21,bedenken,bedachte bedacht,"to consider, to reflect, to give, to allow for"
-772,21,befassen,befasste befasst,"to address, to deal with, to attend to"
-773,21,beruhen,beruhte beruht,"to base on, to depend on"
-774,21,beschleunigen,beschleunigte beschleunigt,"to accelerate, to speed up"
-775,21,einschließen,schloss ein eingeschlossen,"to include, to enclose, to lock up, to surround"
-776,21,eingeben,gab ein eingegeben,"to enter, to input, to give, to supply"
-777,21,fügen,fügte gefügt,"to acquiesce, to comply, to fit together"
-778,21,gewähren,gewährte gewährt,"to grant, to afford, to allow, to accord"
-779,21,meistern,meisterte gemeistert,"to master, to overcome, to cope with"
-780,21,qualifizieren,qualifizierte qualifiziert,"to qualify, to qualify for"
-781,21,umgeben,umgab umgeben,"to surround, to enclose, to encompass"
-782,21,verringern,verringerte verringert,"to decrease, to diminish, to ease, to lower"
-783,21,verstärken,verstärkte verstärkt,"to amplify, to intensify, to strengthen"
-784,21,vorgehen,ging vor vorgegangen,"to proceed, to advance, to go ahead"
-785,21,vorwerfen,warf vor vorgeworfen,"to reproach, to accuse of, to allege"
-786,21,abonnieren,abonnierte abonniert,to subscribe
-787,21,kontaktieren,kontaktierte kontaktiert,to contact
-788,21,aktualisieren,aktualisierte aktualisiert,to update
-789,21,drohen,drohte gedroht,to threaten
-790,21,gleichen,glich geglichen,"to equal, to match, to resemble"
-791,21,herrschen,herrschte geherrscht,"to rule, to prevail, to control"
-792,21,erweisen,erwies erwiesen,"to prove (passively), to turn out to be, to show"
-793,21,faulenzen,faulenzte gefaulenzt,"to chill, to laze around"
-794,21,tauschen,tauschte getauscht,"to swap, to trade, to exchange"
-795,21,schälen,schälte geschält,to peel
-796,21,weggehen,ging weg weggegangen,"to go away, to leave"
-797,21,irren,irrte geirrt,to err
-798,21,ausstellen,stellte aus ausgestellt,"to exhibit, to display"
-799,21,operieren,operierte operiert,to operate
-800,21,auszeichnen,zeichnete aus ausgezeichnet,"to honor, to distinguish"
+1,1,sein,"war, gewesen",to be
+2,1,haben,"hatte, gehabt","to have, to contain"
+3,1,werden,"wurde, geworden","to become, will, to be done (passive voice)"
+4,1,können,"konnte, gekonnt","can, to be able to"
+5,1,wollen,"wollte, gewollt",to want
+6,1,müssen,"musste, gemusst","must, to have to, to be obliged (to do something)"
+7,1,sollen,"sollte, gesollt","shall, to be asked (to do something)"
+8,1,mögen,"mochte, gemocht",to like
+9,1,dürfen,"durfte, gedurft","to be allowed (to do something), may"
+10,2,wissen,"wusste, gewusst",to know
+11,2,machen,"machte, gemacht","to make, to prepare (e.g. food), to do"
+12,2,tun,"tat, getan","to do, to do something to someone"
+13,2,sagen,"sagte, gesagt","to say, to tell"
+14,2,gehen,"ging, gegangen","to go, to leave, to work, to function (coll.)"
+15,2,sehen,"sah, gesehen","to see, to see (to something), to realise"
+16,2,geben,"gab, gegeben",to give
+17,2,kommen,"kam, gekommen","to come, to make it (e.g. over something), to go to, to occur"
+18,2,glauben,"glaubte, geglaubt",to believe
+19,2,reden,"redete, geredet",to talk
+20,2,hören,"hörte, gehört","to hear, to listen to"
+21,2,finden,"fand, gefunden",to find
+22,2,bleiben,"blieb, geblieben","to remain, to stay"
+23,2,brauchen,"brauchte, gebraucht",to need
+24,2,lieben,"liebte, geliebt",to love
+25,2,bringen,"brachte, gebracht","to bring, to take, to lead"
+26,2,stehen,"stand, gestanden","to stand, to be, to appear"
+27,2,heißen,"hieß, geheißen","to be called, to mean"
+28,2,nehmen,"nahm, genommen","to take, to cause oneself to be (in some state)"
+29,2,sprechen,"sprach, gesprochen",to speak
+30,2,bekommen,"bekam, bekommen","to receive, to catch (e.g. a cold), to sit well with someone"
+31,2,vergessen,"vergaß, vergessen","to forget, to leave (forget to take)"
+32,2,halten,"hielt, gehalten","to hold, to stop (a movement), to support, to keep"
+33,2,warten,"wartete, gewartet","to wait, to maintain (e.g. a car)"
+34,2,kennen,"kannte, gekannt","to know, to be acquainted with, to be familiar with"
+35,2,verstehen,"verstand, verstanden","to understand, to get along with someone/something"
+36,2,denken,"dachte, gedacht","to think, to consider"
+37,2,leben,"lebte, gelebt",to live
+38,2,arbeiten,"arbeitete, gearbeitet",to work
+39,2,essen,"aß, gegessen",to eat
+40,2,bieten,"bot, geboten","to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
+41,3,aufstehen,"stand auf, aufgestanden","to get up, to be open (e.g. a window, door)"
+42,3,anziehen,"zog an, angezogen","to get dressed, to put on, to dress someone, to attract, to pull"
+43,3,ausziehen,"zog aus, ausgezogen","to take something off, to undress, to pull out, to move out"
+44,3,spielen,"spielte, gespielt",to play
+45,3,fahren,"fuhr, gefahren","to go (by vehicle), to leave, to drive"
+46,3,versuchen,"versuchte, versucht",to try
+47,3,erzählen,"erzählte, erzählt","to tell, to narrate"
+48,3,fragen,"fragte, gefragt","to ask, to wonder (refl.)"
+49,3,treffen,"traf, getroffen","to meet, to encounter"
+50,3,hoffen,"hoffte, gehofft",to hope
+51,3,suchen,"suchte, gesucht","to seek, to search"
+52,3,trinken,"trank, getrunken",to drink
+53,3,lernen,"lernte, gelernt","to learn, to study (revise/review materials), to train something"
+54,3,zeigen,"zeigte, gezeigt","to show, to point at, to demonstrate"
+55,3,schlafen,"schlief, geschlafen",to sleep
+56,3,kaufen,"kaufte, gekauft",to buy
+57,3,laufen,"lief, gelaufen","to walk, to flow (of a fluid), to run (of an event)"
+58,3,erklären,"erklärte, erklärt","to explain, to declare, to assert"
+59,3,zahlen,"zahlte, gezahlt","to pay (for something), to atone for"
+60,3,kochen,"kochte, gekocht","to cook, to boil (to heat a liquid), to boil something"
+61,3,waschen,"wusch, gewaschen",to wash
+62,3,aufwachen,"wachte auf, aufgewacht",to wake up
+63,3,zeichnen,"zeichnete, gezeichnet","to draw, to sketch"
+64,3,wohnen,"wohnte, gewohnt","to live, to reside, to dwell"
+65,3,schreiben,"schrieb, geschrieben",to write
+66,3,tragen,"trug, getragen","to wear (clothing), to carry, to hold"
+67,3,interessieren,"interessierte, interessiert","to interest, to be interested in (refl.)"
+68,3,ziehen,"zog, gezogen","to pull, to drag, to move"
+69,3,lesen,"las, gelesen",to read
+70,3,kosten,"kostete, gekostet","to cost, to taste"
+71,3,wiederholen,"wiederholte, wiederholt",to repeat
+72,3,übersetzen,"übersetzte, übersetzt",to translate
+73,3,buchstabieren,"buchstabierte, buchstabiert",to spell
+74,3,bedeuten,"bedeutete, bedeutet","to mean, to signify"
+75,3,funktionieren,"funktionierte, funktioniert","to function, to work"
+76,3,erinnern,"erinnerte, erinnert","to remind, to remember (refl.)"
+77,3,fühlen,"fühlte, gefühlt","to feel, to feel something (good/bad) (refl.)"
+78,3,regnen,"regnete, geregnet",to rain
+79,3,schneien,"schneite, geschneit",to snow
+80,3,führen,"führte, geführt","to lead, to guide"
+81,4,passieren,"passierte, passiert","to happen (conversational), to move beyond, to strain"
+82,4,verlieren,"verlor, verloren",to lose
+83,4,bestimmen,"bestimmte, bestimmt",to determine
+84,4,holen,"holte, geholt",to fetch
+85,4,anrufen,"rief an, angerufen","to call by telephone, to call on (someone)"
+86,4,aufhören,"hörte auf, aufgehört","to stop, to cease an activity/process"
+87,4,anfangen,"fing an, angefangen",to begin something new
+88,4,gewinnen,"gewann, gewonnen",to win
+89,4,wehtun,"tat weh, wehgetan","to hurt, to be painful"
+90,4,öffnen,"öffnete, geöffnet",to open (formal)
+91,4,bezahlen,"bezahlte, bezahlt","to pay, to pay someone"
+92,4,beginnen,"begann, begonnen",to begin (on a date/time)
+93,4,benutzen,"benutzte, benutzt",to use (something)
+94,4,schicken,"schickte, geschickt",to send
+95,4,lachen,"lachte, gelacht",to laugh
+96,4,scheinen,"schien, geschienen","to seem, to shine"
+97,4,ändern,"änderte, geändert",to change (one's personality/behavior)
+98,4,verkaufen,"verkaufte, verkauft",to sell
+99,4,gehören,"gehörte, gehört",to belong to
+100,4,sitzen,"sass, gesessen","to be seated, to stay, to fit (of clothing)"
+101,4,stellen,"stellte, gestellt","to position, to put, to catch"
+102,4,setzen,"setzte, gesetzt","to set, to sit down (refl.)"
+103,4,liegen,"lag, gelegen","to lie, to be located"
+104,4,danken,"dankte, gedankt",to thank
+105,4,legen,"legte, gelegt","to lay, to lean, to lie down"
+106,4,schauen,"schaute, geschaut",to look at (Bayern/Austria)
+107,4,besuchen,"besuchte, besucht",to visit
+108,4,freuen,"freute, gefreut","to make glad, to be glad (refl.), to look forward (refl.)"
+109,4,schließen,"schloss, geschlossen","to shut, to close, to lock, to conclude"
+110,4,einladen,"lud ein, eingeladen","to invite, to load (something into a container)"
+111,4,gefallen,"gefiel, gefallen","to please, to appeal to"
+112,4,wünschen,"wünschte, gewünscht",to wish
+113,4,passen,"passte, gepasst","to fit, to suit"
+114,4,folgen,"folgte, gefolgt",to follow
+115,4,ansehen,"sah an, angesehen","to look at something, to watch something"
+116,4,aussehen,"sah aus, ausgesehen","to look (like), to appear"
+117,4,probieren,"probierte, probiert","to try, to taste, to sample, to probe"
+118,4,träumen,"träumte, geträumt",to dream
+119,4,fernsehen,"sah fern, ferngesehen",to watch TV
+120,4,schwimmen,"schwamm, geschwommen","to swim, to float"
+121,5,einschlafen,"schlief ein, eingeschlafen",to fall asleep
+122,5,reisen,"reiste, gereist",to travel
+123,5,feiern,"feierte, gefeiert",to celebrate
+124,5,antworten,"antwortete, geantwortet","to answer, to reply"
+125,5,wählen,"wählte, gewählt","to choose, to dial (a number), to vote"
+126,5,ausgehen,"ging aus, ausgegangen","to go out, to run out (e.g. of money)"
+127,5,zählen,"zählte, gezählt",to count
+128,5,ankommen,"kam an, angekommen","to arrive, to depend on something"
+129,5,dauern,"dauerte, gedauert","to last, to take (time)"
+130,5,kennenlernen,"lernte kennen, kennengelernt","to meet someone, to get to know someone/something"
+131,5,anmelden,"meldete an, angemeldet","to register, to sign up"
+132,5,lassen,"ließ, gelassen","to let, to leave, to allow"
+133,5,verlassen,"verließ, verlassen","to leave, to trust with something (refl.), to pass away, to die"
+134,5,helfen,"half, geholfen",to help
+135,5,bewegen,"bewegte, bewegt",to move
+136,5,versprechen,"versprach, versprochen","to promise, to hope for, to misspeak"
+137,5,hängen,"hing, gehangen","to hang, to be fond of, depend on"
+138,5,mieten,"mietete, gemietet","to rent, to hire"
+139,5,rauchen,"rauchte, geraucht",to smoke (e.g. a cigarette)
+140,5,sterben,"starb, gestorben",to die
+141,5,heiraten,"heiratete, geheiratet",to marry
+142,5,kämpfen,"kämpfte, gekämpft","to fight, to struggle"
+143,5,fehlen,"fehlte, gefehlt","to lack, to be absent/missing"
+144,5,sorgen,"sorgte, gesorgt","to care, to worry"
+145,5,stecken,"steckte, gesteckt","to stick, to pin"
+146,5,überraschen,"überraschte, überrascht",to surprise
+147,5,vorstellen,"stellte vor, vorgestellt","to introduce, to present oneself (refl.), to move forward, to represent"
+148,5,stehlen,"stahl, gestohlen",to steal
+149,5,stimmen,"stimmte, gestimmt","to be true, to vote, to tune"
+150,5,entscheiden,"entschied, entschieden",to decide
+151,5,vermissen,"vermisste, vermisst",to miss something/someone
+152,5,werfen,"warf, geworfen",to throw
+153,5,erkennen,"erkannte, erkannt","to recognise, to realise"
+154,5,teilen,"teilte, geteilt","to split, to share, to divide"
+155,5,bauen,"baute, gebaut",to build
+156,5,melden,"meldete, gemeldet","to report, to register"
+157,5,brechen,"brach, gebrochen",to break
+158,5,steigen,"stieg, gestiegen","to ascend, to climb, to rise"
+159,5,singen,"sang, gesungen",to sing
+160,5,empfehlen,"empfahl, empfohlen","to recommend, to suggest"
+161,6,aufmachen,"machte auf, aufgemacht","to open (coll.), to head/move off (refl.), to undo something"
+162,6,vertrauen,"vertraute, vertraut",to trust
+163,6,verändern,"veränderte, verändert","to alter, to change something"
+164,6,bitten,"bat, gebeten","to ask, to request"
+165,6,besitzen,"besass, besessen","to own, to possess, to have"
+166,6,merken,"merkte, gemerkt","to notice, to realise, to remember (refl.)"
+167,6,stören,"störte, gestört","to disturb, to interfere"
+168,6,ann,"nahm an, angenommen","to accept, to assume (a hypothesis), to receive, to suppose"
+169,6,übernehmen,"übernahm, übernommen",to take over
+170,6,stattfinden,"fand statt, stattgefunden","to take place, to occur"
+171,6,fangen,"fing, gefangen",to catch
+172,6,enthalten,"enthielt, enthalten","to contain, to include"
+173,6,dienen,"diente, gedient","to serve, to function"
+174,6,verschwinden,"verschwand, verschwunden","to disappear, to get lost"
+175,6,schützen,"schützte, geschützt","to defend (lawyer), to protect (sunprotection)"
+176,6,nennen,"nannte, genannt","to name, to call someone something, to mention"
+177,6,schätzen,"schätzte, geschätzt","to appreciate, to evaluate, to guess"
+178,6,erwarten,"erwartete, erwartet","to expect, to await"
+179,6,drehen,"drehte, gedreht","to turn, to veer"
+180,6,behalten,"behielt, behalten",to keep
+181,6,verpassen,"verpasste, verpasst","to miss (to be late for something, e.g. a train)"
+182,6,schenken,"schenkte, geschenkt","to gift, to give as a present"
+183,6,wachsen,"wuchs, gewachsen","to grow, to increase"
+184,6,springen,"sprang, gesprungen","to spring, to jump"
+185,6,befinden,"befand, befunden","to be located (refl.), to find, to consider (formal)"
+186,6,raten,"riet, geraten","to advise, to recommend, to guess"
+187,6,verbieten,"verbot, verboten","to forbid, to prohibit (with dative)"
+188,6,fallen,"fiel, gefallen","to fall, to fall in battle, to collapse"
+189,6,kümmern,"kümmerte, gekümmert","to take care (refl.), to trouble, to concern"
+190,6,drücken,"drückte, gedrückt","to press, to push"
+191,6,vergleichen,"verglich, verglichen",to compare
+192,6,putzen,"putzte, geputzt","to clean, to rub"
+193,6,einkaufen,"kaufte ein, eingekauft",to shop
+194,6,veröffentlichen,"veröffentlichte, veröffentlicht","to publish, to release"
+195,6,testen,"testete, getestet","to test, to examine"
+196,6,lösen,"löste, gelöst","to loosen, to solve, to separate, to remove"
+197,6,kontrollieren,"kontrollierte, kontrolliert","to control, to check"
+198,6,unterstützen,"unterstützte, unterstützt","to support, to provide help"
+199,6,treiben,"trieb, getrieben","to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
+200,6,tanzen,"tanzte, getanzt",to dance
+201,7,studieren,"studierte, studiert","to study, to go to university/college"
+202,7,sinken,"sank, gesunken","to sink, to drop"
+203,7,klingen,"klang, geklungen",to sound
+204,7,schmecken,"schmeckte, geschmeckt",to taste
+205,7,mitteilen,"teilte mit, mitgeteilt","to inform, to share"
+206,7,streiten,"stritt, gestritten","to argue, to fight, to quarrel"
+207,7,entwickeln,"entwickelte, entwickelt",to develop
+208,7,ersetzen,"ersetzte, ersetzt","to replace, to substitute"
+209,7,leiden,"litt, gelitten","to bear, to endure, to suffer"
+210,7,diskutieren,"diskutierte, diskutiert","to discuss, to debate"
+211,7,rufen,"rief, gerufen","to call out, to call for help, to telephone"
+212,7,vorschlagen,"schlug vor, vorgeschlagen","to suggest, to propose"
+213,7,überzeugen,"überzeugte, überzeugt","to convince, to convince oneself (refl.)"
+214,7,vermuten,"vermutete, vermutet","to assume something is true, to suppose, suspect something"
+215,7,überlegen,"überlegte, überlegt","to consider, to think over"
+216,7,teilnehmen,"nahm teil, teilgenommen","to take part, to participate"
+217,7,gründen,"gründete, gegründet","to found, to establish"
+218,7,überprüfen,"überprüfte, überprüft",to check
+219,7,beraten,"beriet, beraten","to advise, to consult"
+220,7,vertreten,"vertrat, vertreten","to represent, to stand for"
+221,7,bewerben,"bewarb, beworben",to apply (to a job etc.)
+222,7,erstellen,"erstellte, erstellt","to create, to generate, to compile, to set up"
+223,7,korrigieren,"korrigierte, korrigiert","to correct, to rectify, to debug"
+224,7,beenden,"beendete, beendet","to finish, to complete, to terminate (relationship)"
+225,7,anbieten,"bot an, angeboten","to offer, to provide"
+226,7,fordern,"forderte, gefordert","to demand, to require"
+227,7,mitnehmen,"nahm mit, mitgenommen","to carry along, to pick up (something), to take away"
+228,7,mitbringen,"brachte mit, mitgebracht","to bring along, to bring with"
+229,7,sammeln,"sammelte, gesammelt","to collect, to gather"
+230,7,aufpassen,"passte auf, aufgepasst","to watch out, to look after something, to be attentive with something"
+231,7,hassen,"hasste, gehasst",to hate
+232,7,zurückgehen,"ging zurück, zurückgegangen","to go back, to decline"
+233,7,ärgern,"ärgerte, geärgert",to annoy oneself (refl.)
+234,7,schieben,"schob, geschoben",to push
+235,7,kündigen,"kündigte, gekündigt","to terminate, to cancel"
+236,7,heben,"hob, gehoben","to lift, to raise"
+237,7,abholen,"holte ab, abgeholt","to pick up someone or something, to collect"
+238,7,füllen,"füllte, gefüllt",to fill
+239,7,wechseln,"wechselte, gewechselt","to replace, to change, to exchange"
+240,7,wirken,"wirkte, gewirkt","to work, to be effective, to take affect, to act"
+241,8,verletzen,"verletzte, verletzt","to hurt, to injure, to violate (rules, laws, etc.)"
+242,8,zustimmen,"stimmte zu, zugestimmt","to agree, to consent"
+243,8,erhalten,"erhielt, erhalten","to receive (passively), to maintain, to save"
+244,8,erlauben,"erlaubte, erlaubt",to allow/permit something to someone
+245,8,trennen,"trennte, getrennt","to separate, part, uncouple, to disconnect, to isolate"
+246,8,darstellen,"stellte dar, dargestellt","to represent, to portray"
+247,8,greifen,"griff, gegriffen","to grab, to seize, to reach, to capture"
+248,8,entfernen,"entfernte, entfernt","to remove, to recede, to deviate, to desert (military)"
+249,8,verlieben,"verliebte, verliebt",to fall in love (refl.)
+250,8,verdienen,"verdiente, verdient",to earn
+251,8,aufräumen,"räumte auf, aufgeräumt","to tidy up, to clean up"
+252,8,spülen,"spülte, gespült","to rinse, to flush toilets"
+253,8,beschreiben,"beschrieb, beschrieben",to describe
+254,8,verbinden,"verband, verbunden","to join, to connect, to bandage"
+255,8,rennen,"rannte, gerannt","to race, to sprint, to run over someone (aux. with haben)"
+256,8,pflanzen,"pflanzte, gepflanzt",to plant
+257,8,beten,"betete, gebetet",to pray
+258,8,ausruhen,"ruhte aus, ausgeruht","to rest (refl.), to relax"
+259,8,entspannen,"entspannte, entspannt","to relax (refl.), to relieve pressure"
+260,8,verbringen,"verbrachte, verbracht",to spend (time)
+261,8,vorhaben,"hatte vor, vorgehabt",to have something planned
+262,8,erleben,"erlebte, erlebt","to experience, to witness"
+263,8,malen,"malte, gemalt",to paint
+264,8,jagen,"jagte, gejagt",to hunt
+265,8,erkunden,"erkundete, erkundet",to explore
+266,8,erholen,"erholte, erholt",to recover
+267,8,tanken,"tankte, getankt",to refuel
+268,8,planen,"plante, geplant",to plan
+269,8,entdecken,"entdeckte, entdeckt","to discover, to spot"
+270,8,fliegen,"flog, geflogen",to fly
+271,8,erfahren,"erfuhr, erfahren","to experience, to find out, to learn"
+272,8,enttäuschen,"enttäuschte, enttäuscht",to disappoint
+273,8,genießen,"genoss, genossen","to enjoy (an experience), to relish"
+274,8,besichtigen,"besichtigte, besichtigt","to visit, to tour"
+275,8,spazieren,"spazierte, spaziert","to take a walk, to stroll"
+276,8,wandern,"wanderte, gewandert","to hike, to wander"
+277,8,faszinieren,"faszinierte, fasziniert",to fascinate
+278,8,surfen,"surfte, gesurft",to surf
+279,8,trainieren,"trainierte, trainiert","to train, to coach, to work out"
+280,8,erreichen,"erreichte, erreicht",to reach
+281,9,verhindern,"verhinderte, verhindert","to prevent, to inhibit"
+282,9,unterschreiben,"unterschrieb, unterschrieben",to sign (write one's signature)
+283,9,empfangen,"empfing, empfangen","to receive, to welcome (formal), to greet, to conceive (biology)"
+284,9,bestellen,"bestellte, bestellt","to order (e.g. food), to summon, to reserve"
+285,9,buchen,"buchte, gebucht","to book, to reserve"
+286,9,liefern,"lieferte, geliefert","to deliver something, to provide something, to furnish"
+287,9,schneiden,"schnitt, geschnitten","to cut, to prune"
+288,9,sparen,"sparte, gespart","to save up, to conserve"
+289,9,mischen,"mischte, gemischt",to mix
+290,9,ernähren,"ernährte, ernährt","to nourish, to feed"
+291,9,bevorzugen,"bevorzugte, bevorzugt",to prefer
+292,9,braten,"briet, gebraten","to fry, to roast"
+293,9,backen,"backte, gebackt",to bake
+294,9,grillen,"grillte, gegrillt","to grill, to have a barbecue"
+295,9,bereiten,"bereitete, bereitet","to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
+296,9,zubereiten,"bereitete zu, zubereitet","to prepare, to cook in advance"
+297,9,reservieren,"reservierte, reserviert",to reserve
+298,9,servieren,"servierte, serviert",to serve (food or drinks)
+299,9,betreuen,"betreute, betreut","to care for, to supervise"
+300,9,entstehen,"entstand, entstanden","to arise, to emerge, to develop"
+301,9,aufnehmen,"nahm auf, aufgenommen","to pick up, to receive, to take in, to record, to absorb"
+302,9,gelten,"galt, gegolten","to be valid, to be effective, to be worth"
+303,9,verbessern,"verbesserte, verbessert","to improve, to enhance"
+304,9,sichern,"sicherte, gesichert","to secure, to protect"
+305,9,beantworten,"beantwortete, beantwortet",to answer (a question)
+306,9,beschäftigen,"beschäftigte, beschäftigt","to concern oneself with something, to take care of"
+307,9,absolvieren,"absolvierte, absolviert","to complete, to finish, to graduate"
+308,9,üben,"übte, geübt",to practice
+309,9,vorbereiten,"bereitete vor, vorbereitet","to prepare (in advance), to prepare oneself (refl.)"
+310,9,weinen,"weinte, geweint","to weep, cry"
+311,9,einsetzen,"setzte ein, eingesetzt","to insert, to use, to appoint, to risk"
+312,9,nutzen,"nutzte, genutzt","to use, to utilize"
+313,9,warnen,"warnte, gewarnt",to warn
+314,9,klären,"klärte, geklärt",to clarify
+315,9,besprechen,"besprach, besprochen","to discuss (formal, work related)"
+316,9,erhöhen,"erhöhte, erhöht","to increase, to raise"
+317,9,beschränken,"beschränkte, beschränkt","to restrict, to limit"
+318,9,zwingen,"zwang, gezwungen","to force, to compel"
+319,9,berücksichtigen,"berücksichtigte, berücksichtigt","to consider, to take into account"
+320,9,übertragen,"übertrug, übertragen","to transfer, to transmit"
+321,10,beweisen,"bewies, bewiesen","to prove, to demonstrate"
+322,10,erfinden,"erfand, erfunden","to invent, to fabricate (something untrue), to find out"
+323,10,zielen,"zielte, gezielt","to aim, to target"
+324,10,rechnen,"rechnete, gerechnet","to calculate, to reckon"
+325,10,forschen,"forschte, geforscht",to research
+326,10,unterrichten,"unterrichtete, unterrichtet","to teach, to inform"
+327,10,erzielen,"erzielte, erzielt","to achieve, to reach a result"
+328,10,bestehen,"bestand, bestanden","to succeed, to pass (an exam), to consist, to insist"
+329,10,abschließen,"schloss ab, abgeschlossen","to complete, to end, to shut off, to lock up, to conclude (a contract, deal)"
+330,10,loben,"lobte, gelobt",to praise
+331,10,bilden,"bildete, gebildet","to form, to educate oneself (refl.)"
+332,10,ausbilden,"bildete aus, ausgebildet",to train for a profession
+333,10,herausfinden,"fand heraus, herausgefunden","to find something out, to discover"
+334,10,konzentrieren,"konzentrierte, konzentriert","to concentrate, to focus"
+335,10,küssen,"küsste, geküsst","to kiss, to make out"
+336,10,verstecken,"versteckte, versteckt",to hide
+337,10,zurückkommen,"kam zurück, zurückgekommen",to return (to come back)
+338,10,umziehen,"zog um, umgezogen","to change clothes (refl.), to move house"
+339,10,zerstören,"zerstörte, zerstört",to destroy
+340,10,enden,"endete, geendet",to end (passive)
+341,10,abgeben,"gab ab, abgegeben","to hand something in, to emit something, to deliver something, to cede something"
+342,10,töten,"tötete, getötet",to kill
+343,10,achten,"achtete, geachtet","to respect, to regard someone, to pay attention to something"
+344,10,erwachsen,"erwuchs, erwachsen","to grow up, to spring up, to accrue"
+345,10,absagen,"sagte ab, abgesagt","to call off, to cancel"
+346,10,gucken,"guckte, geguckt","to look, to watch, to have a certain facial expression (Northern Germany)"
+347,10,anschauen,"schaute an, angeschaut","to look at, to behold, to take a look at, to watch (Bayern/Austria)"
+348,10,lauten,"lautete, gelautet","to sound, to read (have a certain wording), to be, to state"
+349,10,spüren,"spürte, gespürt",to sense
+350,10,atmen,"atmete, geatmet",to breathe
+351,10,lächeln,"lächelte, gelächelt",to smile
+352,10,fürchten,"fürchtete, gefürchtet","to fear, to be afraid"
+353,10,empfinden,"empfand, empfunden",to feel (emotions)
+354,10,beobachten,"beobachtete, beobachtet","to watch, to observe"
+355,10,riechen,"roch, gerochen","to sniff, to reek, to tolerate someone (coll.)"
+356,10,duften,"duftete, geduftet",to smell
+357,10,blicken,"blickte, geblickt","to look, to glance"
+358,10,anfassen,"fasste an, angefasst",to touch
+359,10,fliehen,"floh, geflohen","to flee, to diverge"
+360,10,abhängen,"hing ab, abgehangen","to leave behind, to outdistance, to uncouple, to depend"
+361,11,gelingen,"gelang, gelungen","to succeed, to manage"
+362,11,herstellen,"stellte her, hergestellt","to manufacture, to produce"
+363,11,verteilen,"verteilte, verteilt","to distribute, to share"
+364,11,treten,"trat, getreten","to step, to read, to kick (a ball)"
+365,11,bewältigen,"bewältigte, bewältigt","to cope with, to get over, to overcome, to manage"
+366,11,ablenken,"lenkte ab, abgelenkt","to distract, to divert, to steer away"
+367,11,meiden,"mied, gemieden",to avoid (+ nouns only)
+368,11,vorgeben,"gab vor, vorgegeben",to pretend
+369,11,decken,"deckte, gedeckt","to cover, to meet"
+370,11,geraten,"geriet, geraten","to get into, to turn out, succeed, to thrive"
+371,11,ergänzen,"ergänzte, ergänzt","to add, to complement, to supplement"
+372,11,laden,"lud, geladen","to load, to charge"
+373,11,richten,"richtete, gerichtet","to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+374,11,verursachen,"verursachte, verursacht",to cause
+375,11,schlagen,"schlug, geschlagen","to hit, to defeat, to beat (cooking)"
+376,11,aufwachsen,"wuchs auf, aufgewachsen","to grow up, to be raised"
+377,11,zunehmen,"nahm zu, zugenommen","to gain weight, to increase"
+378,11,lohnen,"lohnte, gelohnt","to be worthwhile, to pay off"
+379,11,messen,"maß, gemessen","to measure, to gauge"
+380,11,scheiden,"schied, geschieden","to separate, to divorce"
+381,11,entsprechen,"entsprach, entsprochen","to correspond, to comply"
+382,11,mitmachen,"machte mit, mitgemacht","to join in, to take part"
+383,11,wecken,"weckte, geweckt","to wake, to wake up"
+384,11,abnehmen,"nahm ab, abgenommen","to decrease, to lose weight, to accept something, to pick up (of telephones)"
+385,11,bewerten,"bewertete, bewertet","to evaluate (subjectively), to assess, to rate, to judge"
+386,11,stammen,"stammte, gestammt","to descend, originate, be derived"
+387,11,gebären,"gebar, geboren",to give birth
+388,11,stoßen,"stieß, gestoßen","to push, to thurst, to shove"
+389,11,vermeiden,"vermied, vermieden",to avoid (+ nouns or verbs)
+390,11,hervorheben,"hob hervor, hervorgehoben","to point out, to emphasize"
+391,11,erfüllen,"erfüllte, erfüllt","to fill (with something), to fulfill, to come true"
+392,11,entziehen,"entzog, entzogen","to withdraw, deprive"
+393,11,gewöhnen,"gewöhnte an, gewöhnt",to accustom oneself to something (refl.)
+394,11,auswählen,"wählte aus, ausgewählt","to select, to choose"
+395,11,verzichten,"verzichtete, verzichtet","to renounce, to forgo, to do without, to waive"
+396,11,begründen,"begründete, begründet","to justify, to explain"
+397,11,zugeben,"gab zu, zugegeben",to admit
+398,11,besorgen,"besorgte, besorgt","to obtain, to manage"
+399,11,abfahren,"fuhr ab, abgefahren","to depart, to leave, to drive along"
+400,11,abbauen,"baute ab, abgebaut","to dismantle, to deteriorate"
+401,12,lügen,"log, gelogen","to lie, to give false information (unintentionally)"
+402,12,schreien,"schrie, geschrien","to shout, to yell, to scream"
+403,12,entschuldigen,"entschuldigte, entschuldigt","to excuse, to apologise"
+404,12,beschweren,"beschwerte, beschwert",to complain
+405,12,bestätigen,"bestätigte, bestätigt","to confirm, to corroborate"
+406,12,erwähnen,"erwähnte, erwähnt",to mention (to speak of something)
+407,12,informieren,"informierte, informiert",to inform
+408,12,reagieren,"reagierte, reagiert","to react, to respond"
+409,12,äußern,"äußerte, geäußert","to utter, to say, to express"
+410,12,garantieren,"garantierte, garantiert",to guarantee
+411,12,kritisieren,"kritisierte, kritisiert",to criticize
+412,12,ankündigen,"kündigte an, angekündigt","to announce, to declare"
+413,12,aussprechen,"sprach aus, ausgesprochen","to pronounce, express"
+414,12,unterbrechen,"unterbrach, unterbrochen",to interrupt
+415,12,zusagen,"sagte zu, zugesagt","to promise, to accept, to confirm"
+416,12,nachdenken,"dachte nach, nachgedacht","to think, to reflect"
+417,12,zweifeln,"zweifelte, gezweifelt",to doubt
+418,12,einstellen,"stellte ein, eingestellt","to employ someone, to adjust, to cease"
+419,12,bearbeiten,"bearbeitete, bearbeitet",to edit
+420,12,vereinbaren,"vereinbarte, vereinbart","to agree, to arrange"
+421,12,hinweisen,"wies hin, hingewiesen","to indicate, to point out"
+422,12,verwenden,"verwendete, verwendet",to use (formal)
+423,12,reinigen,"reinigte, gereinigt",to clean (formal)
+424,12,geschehen,"geschah, geschehen","to occur, to happen (formal)"
+425,12,beteiligen,"beteiligte, beteiligt","to take part in something (formal), to consult someone"
+426,12,verfügen,"verfügte, verfügt","to have, to possess (formal)"
+427,12,benötigen,"benötigte, benötigt","to need, to require (formal)"
+428,12,schaffen,"schaffte, geschafft","to create, to produce, to achieve/reach a goal"
+429,12,drucken,"druckte, gedruckt",to print
+430,12,erledigen,"erledigte, erledigt","to finish, to take care of, to get something done"
+431,12,herunterladen,"lud herunter, heruntergeladen",to download
+432,12,entlassen,"entließ, entlassen","to dismiss (from a job), to fire, to release (a prisoner or patient)"
+433,12,verschieben,"verschob, verschoben","to move (a meeting), to postpone, to defer"
+434,12,ergeben,"ergab, ergeben","to produce, to arise, to result in, to turn out, to surrender (refl.)"
+435,12,leiten,"leitete, geleitet","to lead, to manage"
+436,12,handeln,"handelte, gehandelt","to act, to trade, to negotiate"
+437,12,schalten,"schaltete, geschaltet","to switch, to operate"
+438,12,prüfen,"prüfte, geprüft","to investigate, to check something, to consider"
+439,12,untersuchen,"untersuchte, untersucht","to examine, to investigate"
+440,12,auswirken,"wirkte aus, ausgewirkt",to impact
+441,13,entwerfen,"entwarf, entworfen","to design, to draw, to draft"
+442,13,reparieren,"reparierte, repariert",to repair
+443,13,unternehmen,"unternahm, unternommen",to undertake
+444,13,präsentieren,"präsentierte, präsentiert","to present, to introduce"
+445,13,auswerten,"wertete aus, ausgewertet","to evaluate (objectively), to analyze"
+446,13,einrichten,"richtete ein, eingerichtet","to set up, to install, to furnish"
+447,13,anerkennen,"erkannte an, anerkannt","to acknowledge, to recognize"
+448,13,verwalten,"verwaltete, verwaltet","to manage, to administer"
+449,13,leisten,"leistete, geleistet","to perform, to afford (refl.)"
+450,13,einführen,"führte ein, eingeführt","to introduce, to implement"
+451,13,beitragen,"trug bei, beigetragen",to contribute
+452,13,anwenden,"wendete an, angewendet","to apply (knowledge, know-how)"
+453,13,versorgen,"versorgte, versorgt","to provide (for someone), to supply, to feed"
+454,13,pflegen,"pflegte, gepflegt","to maintain, to care for (ill/old people)"
+455,13,behandeln,"behandelte, behandelt","to treat (medicinally), to treat (physically), to cover (a subject)"
+456,13,erzeugen,"erzeugte, erzeugt","to generate, produce, to create"
+457,13,installieren,"installierte, installiert","to install, to set up"
+458,13,produzieren,"produzierte, produziert","to produce, to manufacture"
+459,13,verarbeiten,"verarbeitete, verarbeitet","to process, to handle"
+460,13,fressen,"fraß, gefressen","to devour, to eat (of an animal), to gorge, to guzzle"
+461,13,analysieren,"analysierte, analysiert",to analyse
+462,13,beurteilen,"beurteilte, beurteilt",to judge
+463,13,fördern,"förderte, gefördert","to promote, to support"
+464,13,berichten,"berichtete, berichtet","to report, to cover, to indicate, to refer"
+465,13,werben,"warb, geworben",to advertise
+466,13,beeinflußen,"beeinflusste, beeinflusst","to influence, to affect"
+467,13,zulassen,"ließ zu, zugelassen","to allow, to license (for a car)"
+468,13,verurteilen,"verurteilte, verurteilt","to condemn, to sentence (law)"
+469,13,senden,"sandte, gesendet","to broadcast, to send"
+470,13,erfolgen,"erfolgte, erfolgt","to occur, to take place"
+471,13,beugen,"beugte, gebeugt",to bow
+472,13,nicken,"nickte, genickt",to nod
+473,13,beeindrucken,"beeindruckte, beeindruckt",to impress someone
+474,13,mitkommen,"kam mit, mitgekommen","to come with someone, to understand something"
+475,13,reichen,"reichte, gereicht","to suffice, to be enough"
+476,13,regeln,"regelte, geregelt",to regulate
+477,13,frieren,"fror, gefroren","to freeze, to be cold"
+478,13,ordnen,"ordnete, geordnet","to organize, to arrange, to order"
+479,13,saugen,"saugte, gesaugt","to suck, to vacuum, to suckle"
+480,13,abziehen,"zog ab, abgezogen","to withdraw, to go away, to move off"
+481,14,leihen,"lieh, geliehen","to lend, to borrow"
+482,14,finanzieren,"finanzierte, finanziert","to finance, to fund"
+483,14,investieren,"investierte, investiert",to invest
+484,14,abheben,"hob ab, abgehoben",to withdraw (money)
+485,14,überweisen,"überwies, überwiesen",to transfer (money)
+486,14,stärken,"stärkte, gestärkt",to strengthen
+487,14,erleichtern,"erleichterte, erleichtert",to lighten
+488,14,verlängern,"verlängerte, verlängert",to extend
+489,14,vertiefen,"vertiefte, vertieft",to deepen
+490,14,erweitern,"erweiterte, erweitert","to expand, to extend, to broaden"
+491,14,ermöglichen,"ermöglichte, ermöglicht","to enable, to facilitate"
+492,14,bemerken,"bemerkte, bemerkt","to notice, to remark something"
+493,14,begrüßen,"begrüßte, begrüßt","to welcome, to greet"
+494,14,bemühen,"bemühte, bemüht",to make an effort
+495,14,beschließen,"beschloss, beschlossen","to decide something, to end, to close"
+496,14,beauftragen,"beauftragte, beauftragt","to instruct, to give an order"
+497,14,berechnen,"berechnete, berechnet",to calculate something
+498,14,bedanken,"bedankte, bedankt",to thank someone
+499,14,beschädigen,"beschädigte, beschädigt",to damage (objects)
+500,14,beruhigen,"beruhigte, beruhigt",to calm
+501,14,betrinken,"betrank, betrunken",to get drunk (refl.)
+502,14,wetten,"wettete, gewettet",to bet
+503,14,meinen,"meinte, gemeint","to be of the opinion, to mean"
+504,14,zögern,"zögerte, gezögert",to hesitate
+505,14,bewundern,"bewunderte, bewundert",to admire
+506,14,bezeichnen,"bezeichnete, bezeichnet","to designate, to label"
+507,14,überlassen,"überließ, überlassen","to relinquish, to leave something in someone's care"
+508,14,schreiten,"schritt, geschritten","to stride, to step, to proceed"
+509,14,binden,"band, gebunden","to bind, to tie, to tie up, to absorb"
+510,14,gießen,"goss, gegossen","to pour, to cast, to water"
+511,14,blühen,"blühte, geblüht",to bloom
+512,14,lehren,"lehrte, gelehrt","to teach, to educate"
+513,14,abbrechen,"brach ab, abgebrochen","to break off, to abort, to burst off"
+514,14,lenken,"lenkte, gelenkt","to guide, to direct, to steer, to control"
+515,14,tauchen,"tauchte, getaucht","to dive, to submerge, to disappear"
+516,14,wundern,"wunderte, gewundert","to wonder, to be surprised"
+517,14,zusammenarbeiten,"arbeitete zusammen, zusammengearbeitet",to work together
+518,14,zusammenstellen,"stellte zusammen, zusammengestellt",to put together
+519,14,übernachten,"übernachtete, übernachtet",to stay overnight
+520,14,überqueren,"überquerte, überquert",to cross
+521,15,trocknen,"trocknete, getrocknet","to dry, to dehumidify"
+522,15,verwandeln,"verwandelte, verwandelt","to transform, to metamorphose, to turn something into something"
+523,15,erscheinen,"erschien, erschienen","to appear, to seem"
+524,15,schießen,"schoss, geschossen",to shoot
+525,15,verraten,"verriet, verraten","to betray, to reveal"
+526,15,starten,"startete, gestartet","to start (car, airplane, etc), to start a competition"
+527,15,akzeptieren,"akzeptierte, akzeptiert",to accept
+528,15,fassen,"fasste, gefasst",to grasp
+529,15,verlangen,"verlangte, verlangt",to demand
+530,15,wenden,"wendete, gewendet","to turn something, to make a u-turn"
+531,15,beachten,"beachtete, beachtet",to consider
+532,15,feststellen,"stellte fest, festgestellt","to ascertain, to establish"
+533,15,rücken,"rückte, gerückt","to move, to shift"
+534,15,landen,"landete, gelandet",to land (a plane)
+535,15,klappen,"klappte, geklappt","to clap, to fold, to work (out) (coll.)"
+536,15,behaupten,"behauptete, behauptet","to claim, maintain, assert"
+537,15,auftreten,"trat auf, aufgetreten","to appear, to perform"
+538,15,vergeben,"vergab, vergeben","to set (work), to forgive, to assign"
+539,15,begleiten,"begleitete, begleitet","to accompany, to conduct, escort"
+540,15,verlaufen,"verlief, verlaufen","to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)"
+541,15,umgehen,"ging um, umgangen","to avoid, to go around"
+542,15,engagieren,"engagierte, engagiert","to engage, to commit"
+543,15,profitieren,"profitierte, profitiert","to benefit, to profit"
+544,15,prägen,"prägte, geprägt","to shape, to influence"
+545,15,reduzieren,"reduzierte, reduziert","to reduce, to decrease"
+546,15,ablehnen,"lehnte ab, abgelehnt","to reject, to decline, to refuse"
+547,15,angeben,"gab an, angegeben","to indicate, to specify"
+548,15,retten,"rettete, gerettet","to save, to rescue"
+549,15,ausfallen,"fiel aus, ausgefallen",to stand out
+550,15,hinterlassen,"hinterließ, hinterlassen","to leave, to leave behind, to bequeath"
+551,15,anpassen,"passte an, angepasst","to adjust, to adapt"
+552,15,ansprechen,"sprach an, angesprochen","to address, to speak to"
+553,15,anzeigen,"zeigte an, angezeigt","to show, to display"
+554,15,aufbauen,"baute auf, aufgebaut","to build up, to construct"
+555,15,ausführen,"führte aus, ausgeführt","to execute, to carry out"
+556,15,beantragen,"beantragte, beantragt","to apply for, to request"
+557,15,bedienen,"bediente, bedient","to operate, to serve"
+558,15,belegen,"belegte, belegt","to occupy, to reserve, to cover, to prove"
+559,15,betonen,"betonte, betont","to emphasize, to stress"
+560,15,betragen,"betrug, betragen","to amount to, to come to"
+561,16,betreiben,"betrieb, betrieben","to run, to operate"
+562,16,durchführen,"führte durch, durchgeführt","to carry out, to perform"
+563,16,eignen,"eignete, geeignet","to suit, to be suitable"
+564,16,organisieren,"organisierte, organisiert","to organize, to arrange"
+565,16,erheben,"erhob, erhoben","to raise, to collect"
+566,16,errichten,"errichtete, errichtet","to establish, to erect"
+567,16,erteilen,"erteilte, erteilt","to grant, to issue"
+568,16,erwerben,"erwarb, erworben","to acquire, to purchase"
+569,16,eröffnen,"eröffnete, eröffnet","to open, to inaugurate"
+570,16,festlegen,"legte fest, festgelegt","to define, to set"
+571,16,fliessen,"floss, geflossen","to flow, to run"
+572,16,gelangen,"gelangte, gelangt","to reach, to get to"
+573,16,gestalten,"gestaltete, gestaltet","to shape, to design"
+574,16,gewährleisten,"gewährleistete, gewährleistet","to ensure, to guarantee"
+575,16,integrieren,"integrierte, integriert","to integrate, to incorporate"
+576,16,löschen,"löschte, gelöscht","to delete, to erase"
+577,16,scheitern,"scheiterte, gescheitert",to fail
+578,16,speichern,"speicherte, gespeichert","to save, to store"
+579,16,sperren,"sperrte, gesperrt","to block, to lock"
+580,16,steigern,"steigerte, gesteigert","to increase, to boost"
+581,16,steuern,"steuerte, gesteuert","to control, to steer"
+582,16,umsetzen,"setzte um, umgesetzt","to implement, to put into practice"
+583,16,unterscheiden,"unterschied, unterschieden","to distinguish, to differentiate"
+584,16,veranstalten,"veranstaltete, veranstaltet","to organize, to host"
+585,16,verbreiten,"verbreitete, verbreitet","to spread, to distribute"
+586,16,verfassen,"verfasste, verfasst","to compose, to write"
+587,16,verleihen,"verlieh, verliehen","to award, to grant"
+588,16,vermitteln,"vermittelte, vermittelt","to mediate, to convey"
+589,16,verpflichten,"verpflichtete, verpflichtet","to oblige, to commit"
+590,16,verfolgen,"verfolgte, verfolgt","to pursue, to persecute, to trace"
+591,16,weisen,"wies, gewiesen","to show, to indicate"
+592,16,widmen,"widmete, gewidmet","to dedicate, to devote"
+593,16,unterhalten,"unterhielt, unterhalten","to maintain, to entertain, to converse (refl.)"
+594,16,aufregen,"regte auf, aufgeregt","to annoy, to upset (refl.)"
+595,16,klingeln,"klingelte, geklingelt",to ring (to produce the sound of a bell or a similar sound)
+596,16,telefonieren,"telefonierte, telefoniert",to telephone
+597,16,reiten,"ritt, geritten","to ride, to ride on the back of someone/something"
+598,16,schweigen,"schwieg, geschwiegen","to be silent, to remain silent"
+599,16,verbrennen,"verbrannte, verbrannt","to burn, to incinerate, to burn oneself, to scorch (miltary)"
+600,16,verabschieden,"verabschiedete, verabschiedet","to disband, to see someone off, to say goodbye (refl.), to adopt (a law, etc.)"
+601,17,aussteigen,"stieg aus, ausgestiegen","to exit, to get off"
+602,17,stoppen,"stoppte, gestoppt",to stop a movement (vehicle / person)
+603,17,zuhören,"hörte zu, zugehört",to listen to someone/something (with dative)
+604,17,brennen,"brannte, gebrannt","to burn, to have a strong affection for, to induce pain"
+605,17,ausrichten,"richtete aus, ausgerichtet","to align, to arrange, to organize"
+606,17,wiegen,"wog, gewogen","to weight, to balance"
+607,17,ausfüllen,"füllte aus, ausgefüllt","to complete, to fill in, to fill out"
+608,17,ausgeben,"gab aus, ausgegeben","to spend, to expend, to issue"
+609,17,ausreichen,"reichte aus, ausgereicht","to suffice, to be sufficient, to be adequate"
+610,17,austauschen,"tauschte aus, ausgetauscht","to exchange, to replace, to swap"
+611,17,einnehmen,"nahm ein, eingenommen","to capture, to earn, to ingest"
+612,17,einschalten,"schaltete ein, eingeschaltet","to switch on, to intervene, to turn on"
+613,17,einziehen,"zog ein, eingezogen","to move in, to penetrate, to infiltrate"
+614,17,fotografieren,"fotografierte, fotografiert","to take a photo, to photograph"
+615,17,protestieren,"protestierte, protestiert","to protest, to object"
+616,17,realisieren,"realisierte, realisiert","to realize, to implement, to actualize"
+617,17,unterstreichen,"unterstrich, unterstrichen","to underline, to emphasize, to highlight"
+618,17,verbrauchen,"verbrauchte, verbraucht","to consume, to use"
+619,17,vorlesen,"las vor, vorgelesen","to read aloud, to read out"
+620,17,zusammenfassen,"fasste zusammen, zusammengefasst","to summarize, to condense, to abstract"
+621,17,aufführen,"führte auf, aufgeführt","to perform, to present"
+622,17,erschrecken,"erschrak, erschrocken","to be frightened, to frighten"
+623,17,einsteigen,"stieg ein, eingestiegen","to enter, to get in, to board"
+624,17,markieren,"markierte, markiert","to mark, to highlight"
+625,17,begehen,"beging, begangen","to commit, perpetrate (a crime, an offence)"
+626,17,kriegen,"kriegte, gekriegt","to get after asking or fighting, to wage war"
+627,17,ertragen,"ertrug, ertragen","to bear, to stand"
+628,17,verhaften,"verhaftete, verhaftet","to detain, to take into custody"
+629,17,begegnen,"begegnete, begegnet","to encounter (with dative), to meet"
+630,17,wagen,"wagte, gewagt","to venture, to dare, to risk, to jeopardise"
+631,17,zurückziehen,"zog zurück, zurückgezogen","to withdraw, to pull back, to retreat"
+632,17,schaden,"schadete, geschadet","to damage, to harm (someone)"
+633,17,umdrehen,"drehte um, umgedreht",to turn around
+634,17,zitieren,"zitierte, zitiert","to cite, to quote"
+635,17,anhalten,"hielt an, angehalten","to stop (cease moving), to continue, to compel"
+636,17,absehen,"sah ab, abgesehen","to foresee, to overlook, to disregard"
+637,17,zusehen,"sah zu, zugesehen","to watch, to see, to make sure (that something happens)"
+638,17,auffallen,"fiel auf, aufgefallen","to stand out, to catch someone's eye (with dative)"
+639,17,begeistern,"begeisterte, begeistert","to enthuse, to be enthusiastic (refl.)"
+640,17,aufgeben,"gab auf, aufgegeben","to give up on, to give up (refl.), to abandon"
+641,18,bekämpfen,"bekämpfte, bekämpft",to fight against something
+642,18,aktivieren,"aktivierte, aktiviert","to activate, to enable"
+643,18,verhandeln,"verhandelte, verhandelt",to negotiate
+644,18,verhalten,"verhielt, verhalten","to behave (refl.), to act (refl.), to press (coll.)"
+645,18,stürzen,"stürzte, gestürzt","to fall, to rush, to throw, to overturn, to overthrow something"
+646,18,anschließen,"schloss an, angeschlossen","to join, to attach, to affiliate, to connect"
+647,18,bewirken,"bewirkte, bewirkt","to bring about, to cause, to effect"
+648,18,einfügen,"fügte ein, eingefügt","to insert, to infix, to conform"
+649,18,erfordern,"erforderte, erfordert","to require, to demand, to necessitate"
+650,18,ergreifen,"ergriff, ergriffen","to seize, to grasp, to take hold of"
+651,18,erstrecken,"erstreckte, erstreckt","to extend, to span, to bestride"
+652,18,fortsetzen,"setzte fort, fortgesetzt","to continue, to carry on, to extend, to proceed"
+653,18,kopieren,"kopierte, kopiert","to copy, to duplicate"
+654,18,senken,"senkte, gesenkt","to lower, to sink, to drop, to reduce"
+655,18,überwachen,"überwachte, überwacht","to keep under surveillance, to monitor, to observe, to oversee"
+656,18,versehen,"versah, versehen","to provide, to equip, to supply"
+657,18,vorlegen,"legte vor, vorgelegt","to present, to submit, to bring forward"
+658,18,winken,"winkte, gewinkt",to wave
+659,18,zuordnen,"ordnete zu, zugeordnet","to assign, to allocate"
+660,18,ermitteln,"ermittelte, ermittelt","to determine, to ascertain"
+661,18,klicken,"klickte, geklickt",to click
+662,18,verteidigen,"verteidigte, verteidigt",to defend
+663,18,eingehen,"ging ein, eingegangen","to shrink (textile), to wither/die (plants, animals), to assume something"
+664,18,betreffen,"betraf, betroffen","to concern, to affect"
+665,18,anlegen,"legte an, angelegt","to create, to invest"
+666,18,betrachten,"betrachtete, betrachtet","to view, to observe"
+667,18,beziehen,"bezog, bezogen","to refer, to obtain"
+668,18,erfassen,"erfasste, erfasst","to record, to capture"
+669,18,umfassen,"umfasste, umfasst","to include, to comprise"
+670,18,unterliegen,"unterlag, unterlegen","to be subject to, to undergo"
+671,18,vorliegen,"lag vor, vorgelegen","to exist, to be available"
+672,18,vornehmen,"nahm vor, vorgenommen","to undertake, to carry out"
+673,18,basieren,"basierte, basiert",to base
+674,18,genügen,"genügte, genügt","to suffice, to satisfy"
+675,18,definieren,"definierte, definiert",to define
+676,18,berechtigen,"berechtigte, berechtigt","to authorize, to entitle to, to empower"
+677,18,parken,"parkte, geparkt",to park
+678,18,joggen,"joggte, gejoggt",to jog
+679,18,frühstücken,"frühstückte, gefrühstückt",to have breakfast
+680,18,packen,"packte, gepackt","to pack, to grab, to manage"
+681,19,biegen,"bog, gebogen","to turn, to bend"
+682,19,vorkommen,"kam vor, vorgekommen","to occur, to happen, to advance"
+683,19,ablaufen,"lief ab, abgelaufen","to expire, to run out, to discharge"
+684,19,anführen,"führte an, angeführt","to cite, to lead, to quote"
+685,19,ausdrucken,"druckte aus, ausgedruckt","to print, to print out, to print off"
+686,19,ausmachen,"machte aus, ausgemacht","to arrange, to constitute, to represent, to settle"
+687,19,eintragen,"trug ein, eingetragen","to register, to enter, to record, to enrol"
+688,19,erarbeiten,"erarbeitete, erarbeitet","to develop, to elaborate, to work out, to acquire"
+689,19,notieren,"notierte, notiert","to note, to quote"
+690,19,renovieren,"renovierte, renoviert","to refurbish, to renovate"
+691,19,streiken,"streikte, gestreikt","to strike, to be on strike"
+692,19,verschreiben,"verschrieb, verschrieben","to prescribe, to commit oneself to, to misspell by accident"
+693,19,vertreiben,"vertrieb, vertrieben","to expel, to dislodge, to displace"
+694,19,auspacken,"packte aus, ausgepackt","to unpack, to unwrap, to blow the whistle on"
+695,19,existieren,"existierte, existiert",to exist
+696,19,bewahren,"bewahrte, bewahrt","to keep, to preserve (to maintain the condition of)"
+697,19,verzeihen,"verzieh, verziehen","to forgive, to pardon, to excuse"
+698,19,bestrafen,"bestrafte, bestraft",to punish
+699,19,stinken,"stank, gestunken",to stink
+700,19,berühren,"berührte, berührt",to touch
+701,19,anstellen,"stellte an, angestellt","to queue (refl.), to employ someone, to get into mischief"
+702,19,auftauchen,"tauchte auf, aufgetaucht","to arise, to surface, to turn up"
+703,19,einfallen,"fiel ein, eingefallen","to collapse, to come to mind"
+704,19,aussuchen,"suchte aus, ausgesucht","to select, to choose, to pick"
+705,19,streichen,"strich, gestrichen","to stroke, to cancel, to spread, to rub, to paint"
+706,19,festhalten,"hielt fest, festgehalten","to hold someone/something, to retain something, to record something, to detain"
+707,19,bedrohen,"bedrohte, bedroht","to threaten, to menace"
+708,19,weitermachen,"machte weiter, weitergemacht","go on, keep going, continue to do something"
+709,19,abbilden,"bildete ab, abgebildet","to depict, to map, to illustrate"
+710,19,klagen,"klagte, geklagt","to complain, to lament, to sue"
+711,19,kleben,"klebte, geklebt","to stick, to adhere, to bond, to glue"
+712,19,klopfen,"klopfte, geklopft","to knock, to tap (food)"
+713,19,stechen,"stach, gestochen","to sting, to prick, to puncture, to pierce"
+714,19,ableiten,"leitete ab, abgeleitet","to derive, to deduce"
+715,19,abstimmen,"stimmte ab, abgestimmt","to coordinate, to vote, to adjust"
+716,19,anregen,"regte an, angeregt","to encourage, to stimulate, to excite, to inspire"
+717,19,anschaffen,"schaffte an, angeschafft","to purchase, to acquire, to procure"
+718,19,aufbrechen,"brach auf, aufgebrochen","to leave, to set off, to start, to break, to burst"
+719,19,auffordern,"forderte auf, aufgefordert","to request, to invite, to ask"
+720,19,aufhalten,"hielt auf, aufgehalten","to stop, to stay, to delay"
+721,20,aufheben,"hob auf, aufgehoben","to abolish, to lift, to pick up, to keep"
+722,20,aufladen,"lud auf, aufgeladen","to charge, to load, to burden, to impose"
+723,20,auflösen,"löste auf, aufgelöst","to dissolve, to resolve, to annul, to liquidate"
+724,20,aufsteigen,"stieg auf, aufgestiegen","to rise, to ascend, to advance, to climb"
+725,20,auslösen,"löste aus, ausgelöst","to ransom, to trigger, to initiate, to set up"
+726,20,ausüben,"übte aus, ausgeübt","to exercise, to perform, to practice"
+727,20,befürchten,"befürchtete, befürchtet","to fear, to apprehend, to be afraid"
+728,20,beherrschen,"beherrschte, beherrscht","to dominate, to master, to control, to rule"
+729,20,beklagen,"beklagte, beklagt","to complain, to lament, to air grievances"
+730,20,belasten,"belastete, belastet","to burden, to charge, to strain"
+731,20,benennen,"benannte, benannt","to name, to designate, to appoint"
+732,20,besetzen,"besetzte, besetzt","to occupy, to border, to cast"
+733,20,drängen,"drängte, gedrängt","to urge, to push, to cajole, to shove"
+734,20,einleiten,"leitete ein, eingeleitet","to introduce, to initiate, to commence"
+735,20,einschränken,"schränkte ein, eingeschränkt","to limit, to restrict, to stint, to circumscribe"
+736,20,eintreten,"trat ein, eingetreten","to enter, to join, to occur"
+737,20,erregen,"erregte, erregt","to arouse, to stimulate, to agitate"
+738,20,interpretieren,"interpretierte, interpretiert","to interpret, to take as"
+739,20,klettern,"kletterte, geklettert","to climb, to scale"
+740,20,kombinieren,"kombinierte, kombiniert",to combine
+741,20,konsumieren,"konsumierte, konsumiert",to consume
+742,20,nachweisen,"wies nach, nachgewiesen","to prove, to account for, to demonstrate"
+743,20,nähern,"näherte, genähert","to approach, to get closer, to advance"
+744,20,orientieren,"orientierte, orientiert",to orient
+745,20,rechtfertigen,"rechtfertigte, gerechtfertigt","to justify, to warrant, to back up, to exculpate"
+746,20,schimpfen,"schimpfte, geschimpft","to scold, to rant"
+747,20,schütteln,"schüttelte, geschüttelt","to agitate, to shake, to jolt"
+748,20,transportieren,"transportierte, transportiert","to transport, to transfer"
+749,20,verkünden,"verkündete, verkündet","to announce, to proclaim, to declare"
+750,20,verpacken,"verpackte, verpackt","to pack, to wrap, to package"
+751,20,versichern,"versicherte, versichert","to assure, to insure, to cover"
+752,20,voraussetzen,"setzte voraus, vorausgesetzt","to presume, to require, to assume"
+753,20,wahrnehmen,"nahm wahr, wahrgenommen","to perceive, to notice, to observe, to sense"
+754,20,weitergeben,"gab weiter, weitergegeben","to pass on, to impart, to relay"
+755,20,widersprechen,"widersprach, widersprochen","to contradict, to disagree"
+756,20,zugehen,"ging zu, zugegangen","to approach, to close, to happen"
+757,20,zurückgeben,"gab zurück, zurückgegeben","to return, to give back, to answer back"
+758,20,zurückhalten,"hielt zurück, zurückgehalten","to restrain, to hold back, to withhold"
+759,20,überschreiten,"überschritt, überschritten","to exceed, to overstep, to surpass"
+760,20,überleben,"überlebte, überlebt",to survive
+761,21,übergeben,"übergab, übergeben","to hand over, to vomit (refl.)"
+762,21,stützen,"stützte, gestützt","to support, to back, to hold something up, to bolster"
+763,21,rollen,"rollte, gerollt",to roll
+764,21,sondern,"sonderte, gesondert","to separate, to split"
+765,21,einigen,"einigte, geeinigt","to unite, to reconcile, to agree"
+766,21,identifizieren,"identifizierte, identifiziert",to identify
+767,21,schmelzen,"schmolz, geschmolzen",to melt
+768,21,importieren,"importierte, importiert",to import
+769,21,abrufen,"rief ab, abgerufen","to retrieve, to access, to call away"
+770,21,aufweisen,"wies auf, aufgewiesen","to exhibit, to feature, to show, to boast"
+771,21,bedenken,"bedachte, bedacht","to consider, to reflect, to give, to allow for"
+772,21,befassen,"befasste, befasst","to address, to deal with, to attend to"
+773,21,beruhen,"beruhte, beruht","to base on, to depend on"
+774,21,beschleunigen,"beschleunigte, beschleunigt","to accelerate, to speed up"
+775,21,einschließen,"schloss ein, eingeschlossen","to include, to enclose, to lock up, to surround"
+776,21,eingeben,"gab ein, eingegeben","to enter, to input, to give, to supply"
+777,21,fügen,"fügte, gefügt","to acquiesce, to comply, to fit together"
+778,21,gewähren,"gewährte, gewährt","to grant, to afford, to allow, to accord"
+779,21,meistern,"meisterte, gemeistert","to master, to overcome, to cope with"
+780,21,qualifizieren,"qualifizierte, qualifiziert","to qualify, to qualify for"
+781,21,umgeben,"umgab, umgeben","to surround, to enclose, to encompass"
+782,21,verringern,"verringerte, verringert","to decrease, to diminish, to ease, to lower"
+783,21,verstärken,"verstärkte, verstärkt","to amplify, to intensify, to strengthen"
+784,21,vorgehen,"ging vor, vorgegangen","to proceed, to advance, to go ahead"
+785,21,vorwerfen,"warf vor, vorgeworfen","to reproach, to accuse of, to allege"
+786,21,abonnieren,"abonnierte, abonniert",to subscribe
+787,21,kontaktieren,"kontaktierte, kontaktiert",to contact
+788,21,aktualisieren,"aktualisierte, aktualisiert",to update
+789,21,drohen,"drohte, gedroht",to threaten
+790,21,gleichen,"glich, geglichen","to equal, to match, to resemble"
+791,21,herrschen,"herrschte, geherrscht","to rule, to prevail, to control"
+792,21,erweisen,"erwies, erwiesen","to prove (passively), to turn out to be, to show"
+793,21,faulenzen,"faulenzte, gefaulenzt","to chill, to laze around"
+794,21,tauschen,"tauschte, getauscht","to swap, to trade, to exchange"
+795,21,schälen,"schälte, geschält",to peel
+796,21,weggehen,"ging weg, weggegangen","to go away, to leave"
+797,21,irren,"irrte, geirrt",to err
+798,21,ausstellen,"stellte aus, ausgestellt","to exhibit, to display"
+799,21,operieren,"operierte, operiert",to operate
+800,21,auszeichnen,"zeichnete aus, ausgezeichnet","to honor, to distinguish"

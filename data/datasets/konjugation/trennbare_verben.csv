@@ -16,262 +16,262 @@ Nr,exercise,level_verb,answer,question,type,prefix,german,english
 15,1,A1,versuchen,to try,1. verb,ver,suchen,"to seek, to search"
 16,1,A1,verkaufen,to sell,1. verb,ver,kaufen,to buy
 17,1,A1,übersetzen,to translate,1. verb,über,setzen,"to set, to sit down (refl.)"
-18,1,A2,abholen,"to pick up someone or something, to collect",1. verb,ab,holen,to fetch
-19,1,A2,ankommen,"to arrive, to depend on something",1. verb,an,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-20,1,A2,anmelden,"to register, to sign up",1. verb,an,melden,"to report, to register"
-21,1,A2,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",1. verb,an,nehmen,"to take, to cause oneself to be (in some state)"
-22,1,A2,anbieten,"to offer, to provide",1. verb,an,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
-23,1,A2,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",1. verb,auf,machen,"to make, to prepare (e.g. food), to do"
-24,1,A2,aufpassen,"to watch out, to look after something, to be attentive with something",1. verb,auf,passen,"to fit, to suit"
-25,1,A2,einschlafen,to fall asleep,1. verb,ein,schlafen,to sleep
-26,1,A2,einkaufen,to shop,1. verb,ein,kaufen,to buy
-27,1,A2,zurückgehen,"to go back, to decline",1. verb,zurück,gehen,"to go, to leave, to work, to function (coll.)"
-28,1,A2,mitnehmen,"to carry along, to pick up (something), to take away",1. verb,mit,nehmen,"to take, to cause oneself to be (in some state)"
-29,1,A2,mitbringen,"to bring along, to bring with",1. verb,mit,bringen,"to bring, to take, to lead"
-30,1,A2,mitteilen,"to inform, to share",1. verb,mit,teilen,"to split, to share, to divide"
-31,1,A2,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",1. verb,vor,stellen,"to position, to put, to catch"
-32,1,A2,vorschlagen,"to suggest, to propose",1. verb,vor,schlagen,"to hit, to defeat, to beat (cooking)"
-33,1,A2,besitzen,"to own, to possess, to have",1. verb,be,sitzen,"to be seated, to stay, to fit (of clothing)"
-34,1,A2,behalten,to keep,1. verb,be,halten,"to hold, to stop (a movement), to support, to keep"
-35,1,A2,befinden,"to be located (refl.), to find, to consider (formal)",1. verb,be,finden,to find
-36,1,A2,beraten,"to advise, to consult",1. verb,be,raten,"to advise, to recommend, to guess"
-37,1,A2,bewerben,to apply (to a job etc.),1. verb,be,werben,to advertise
-38,1,A2,beenden,"to finish, to complete, to terminate (relationship)",1. verb,be,enden,to end (passive)
-39,1,A2,empfehlen,"to recommend, to suggest",1. verb,emp,fehlen,"to lack, to be absent/missing"
-40,1,A2,entscheiden,to decide,1. verb,ent,scheiden,"to separate, to divorce"
-41,1,A2,enthalten,"to contain, to include",1. verb,ent,halten,"to hold, to stop (a movement), to support, to keep"
-42,1,A2,erkennen,"to recognise, to realise",1. verb,er,kennen,"to know, to be acquainted with, to be familiar with"
-43,1,A2,erwarten,"to expect, to await",1. verb,er,warten,"to wait, to maintain (e.g. a car)"
-44,1,A2,ersetzen,"to replace, to substitute",1. verb,er,setzen,"to set, to sit down (refl.)"
-45,1,A2,erstellen,"to create, to generate, to compile, to set up",1. verb,er,stellen,"to position, to put, to catch"
-46,1,A2,verlassen,"to leave, to trust with something (refl.), to pass away, to die",1. verb,ver,lassen,"to let, to leave, to allow"
-47,1,A2,versprechen,"to promise, to hope for, to misspeak",1. verb,ver,sprechen,to speak
-48,1,A2,verändern,"to alter, to change something",1. verb,ver,ändern,to change (one's personality/behavior)
-49,1,A2,verpassen,"to miss (to be late for something, e.g. a train)",1. verb,ver,passen,"to fit, to suit"
-50,1,A2,verbieten,"to forbid, to prohibit (with dative)",1. verb,ver,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
-51,1,A2,vertreten,"to represent, to stand for",1. verb,ver,treten,"to step, to read, to kick (a ball)"
-52,1,A2,übernehmen,to take over,1. verb,über,nehmen,"to take, to cause oneself to be (in some state)"
-53,1,A2,überlegen,"to consider, to think over",1. verb,über,legen,"to lay, to lean, to lie down"
-54,1,A2,überprüfen,to check,1. verb,über,prüfen,"to investigate, to check something, to consider"
-55,3,B1,abgeben,"to hand something in, to emit something, to deliver something, to cede something",1. verb,ab,geben,to give
-56,3,B1,absagen,"to call off, to cancel",1. verb,ab,sagen,"to say, to tell"
-57,3,B1,abschließen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)",1. verb,ab,schließen,"to shut, to close, to lock, to conclude"
-58,3,B1,ablenken,"to distract, to divert, to steer away",1. verb,ab,lenken,"to guide, to direct, to steer, to control"
-59,3,B1,abnehmen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",1. verb,ab,nehmen,"to take, to cause oneself to be (in some state)"
-60,3,B1,anschauen,"to look at, to behold, to take a look at, to watch (Bayern/Austria)",1. verb,an,schauen,to look at (Bayern/Austria)
-61,3,B1,anfassen,to touch,1. verb,an,fassen,to grasp
-62,3,B1,ankündigen,"to announce, to declare",1. verb,an,kündigen,"to terminate, to cancel"
-63,3,B1,aufwachsen,"to grow up, to be raised",1. verb,auf,wachsen,"to grow, to increase"
-64,3,B1,aufnehmen,"to pick up, to receive, to take in, to record, to absorb",1. verb,auf,nehmen,"to take, to cause oneself to be (in some state)"
-65,3,B1,einsetzen,"to insert, to use, to appoint, to risk",1. verb,ein,setzen,"to set, to sit down (refl.)"
-66,3,B1,einstellen,"to employ someone, to adjust, to cease",1. verb,ein,stellen,"to position, to put, to catch"
-67,3,B1,zustimmen,"to agree, to consent",1. verb,zu,stimmen,"to be true, to vote, to tune"
-68,3,B1,zubereiten,"to prepare, to cook in advance",1. verb,zu,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
-69,3,B1,zunehmen,"to gain weight, to increase",1. verb,zu,nehmen,"to take, to cause oneself to be (in some state)"
-70,3,B1,zugeben,to admit,1. verb,zu,geben,to give
-71,3,B1,zusagen,"to promise, to accept, to confirm",1. verb,zu,sagen,"to say, to tell"
-72,3,B1,zurückkommen,to return (to come back),1. verb,zurück,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-73,3,B1,herausfinden,"to find something out, to discover",1. verb,heraus,finden,to find
-74,3,B1,hervorheben,"to point out, to emphasize",1. verb,hervor,heben,"to lift, to raise"
-75,3,B1,herunterladen,to download,1. verb,herunter,laden,"to load, to charge"
-76,3,B1,herstellen,"to manufacture, to produce",1. verb,her,stellen,"to position, to put, to catch"
-77,3,B1,hinweisen,"to indicate, to point out",1. verb,hin,weisen,"to show, to indicate"
-78,3,B1,mitmachen,"to join in, to take part",1. verb,mit,machen,"to make, to prepare (e.g. food), to do"
-79,3,B1,nachdenken,"to think, to reflect",1. verb,nach,denken,"to think, to consider"
-80,3,B1,vorhaben,to have something planned,1. verb,vor,haben,"to have, to contain"
-81,3,B1,vorbereiten,"to prepare (in advance), to prepare oneself (refl.)",1. verb,vor,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
-82,3,B1,vorgeben,to pretend,1. verb,vor,geben,to give
-83,3,B1,beschreiben,to describe,1. verb,be,schreiben,to write
-84,3,B1,bestellen,"to order (e.g. food), to summon, to reserve",1. verb,be,stellen,"to position, to put, to catch"
-85,3,B1,beweisen,"to prove, to demonstrate",1. verb,be,weisen,"to show, to indicate"
-86,3,B1,bestehen,"to succeed, to pass (an exam), to consist, to insist",1. verb,be,stehen,"to stand, to be, to appear"
-87,3,B1,begründen,"to justify, to explain",1. verb,be,gründen,"to found, to establish"
-88,3,B1,bearbeiten,to edit,1. verb,be,arbeiten,to work
-89,3,B1,besprechen,"to discuss (formal, work related)",1. verb,be,sprechen,to speak
-90,3,B1,beantworten,to answer (a question),1. verb,be,antworten,"to answer, to reply"
-91,3,B1,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)",1. verb,emp,fangen,to catch
-92,3,B1,empfinden,to feel (emotions),1. verb,emp,finden,to find
-93,3,B1,entdecken,"to discover, to spot",1. verb,ent,decken,"to cover, to meet"
-94,3,B1,entstehen,"to arise, to emerge, to develop",1. verb,ent,stehen,"to stand, to be, to appear"
-95,3,B1,entsprechen,"to correspond, to comply",1. verb,ent,sprechen,to speak
-96,3,B1,entziehen,"to withdraw, deprive",1. verb,ent,ziehen,"to pull, to drag, to move"
-97,3,B1,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)",1. verb,ent,lassen,"to let, to leave, to allow"
-98,4,B1,erwachsen,"to grow up, to spring up, to accrue",1. verb,er,wachsen,"to grow, to increase"
-99,4,B1,erhalten,"to receive (passively), to maintain, to save",1. verb,er,halten,"to hold, to stop (a movement), to support, to keep"
-100,4,B1,erleben,"to experience, to witness",1. verb,er,leben,to live
-101,4,B1,erholen,to recover,1. verb,er,holen,to fetch
-102,4,B1,erfahren,"to experience, to find out, to learn",1. verb,er,fahren,"to go (by vehicle), to leave, to drive"
-103,4,B1,erfinden,"to invent, to fabricate (something untrue), to find out",1. verb,er,finden,to find
-104,4,B1,erzielen,"to achieve, to reach a result",1. verb,er,zielen,"to aim, to target"
-105,4,B1,erfüllen,"to fill (with something), to fulfill, to come true",1. verb,er,füllen,to fill
-106,4,B1,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)",1. verb,er,geben,to give
-107,4,B1,erreichen,to reach,1. verb,er,reichen,"to suffice, to be enough"
-108,4,B1,verstecken,to hide,1. verb,ver,stecken,"to stick, to pin"
-109,4,B1,verlieben,to fall in love (refl.),1. verb,ver,lieben,to love
-110,4,B1,verdienen,to earn,1. verb,ver,dienen,"to serve, to function"
-111,4,B1,verbinden,"to join, to connect, to bandage",1. verb,ver,binden,"to bind, to tie, to tie up, to absorb"
-112,4,B1,verbringen,to spend (time),1. verb,ver,bringen,"to bring, to take, to lead"
-113,4,B1,vermeiden,to avoid (+ nouns or verbs),1. verb,ver,meiden,to avoid (+ nouns only)
-114,4,B1,verwenden,to use (formal),1. verb,ver,wenden,"to turn something, to make a u-turn"
-115,4,B1,verschieben,"to move (a meeting), to postpone, to defer",1. verb,ver,schieben,to push
-116,4,B1,verteilen,"to distribute, to share",1. verb,ver,teilen,"to split, to share, to divide"
-117,4,B1,übertragen,"to transfer, to transmit",1. verb,über,tragen,"to wear (clothing), to carry, to hold"
-118,4,B1,umziehen,"to change clothes (refl.), to move house",1. verb,um,ziehen,"to pull, to drag, to move"
-119,4,B1,unterschreiben,to sign (write one's signature),1. verb,unter,schreiben,to write
-120,4,B1,unterrichten,"to teach, to inform",1. verb,unter,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-121,4,B1,unterbrechen,to interrupt,1. verb,unter,brechen,to break
-122,4,B1,untersuchen,"to examine, to investigate",1. verb,unter,suchen,"to seek, to search"
-123,4,B1,zerstören,to destroy,1. verb,zer,stören,"to disturb, to interfere"
-124,4,B1,abbauen,"to dismantle, to deteriorate",1. verb,ab,bauen,to build
-125,4,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",1. verb,ab,hängen,"to hang, to be fond of, depend on"
-126,4,B1,abfahren,"to depart, to leave, to drive along",1. verb,ab,fahren,"to go (by vehicle), to leave, to drive"
-127,4,B1,besorgen,"to obtain, to manage",1. verb,be,sorgen,"to care, to worry"
-128,4,B1,anerkennen,"to acknowledge, to recognize",1. verb,an,erkennen,"to recognise, to realise"
-129,4,B1,anwenden,"to apply (knowledge, know-how)",1. verb,an,wenden,"to turn something, to make a u-turn"
-130,4,B1,einrichten,"to set up, to install, to furnish",1. verb,ein,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-131,4,B1,einführen,"to introduce, to implement",1. verb,ein,führen,"to lead, to guide"
-132,4,B1,zulassen,"to allow, to license (for a car)",1. verb,zu,lassen,"to let, to leave, to allow"
-133,4,B1,mitkommen,"to come with someone, to understand something",1. verb,mit,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-134,4,B1,behandeln,"to treat (medicinally), to treat (physically), to cover (a subject)",1. verb,be,handeln,"to act, to trade, to negotiate"
-135,4,B1,berichten,"to report, to cover, to indicate, to refer",1. verb,be,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-136,4,B1,entwerfen,"to design, to draw, to draft",1. verb,ent,werfen,to throw
-137,4,B1,erfolgen,"to occur, to take place",1. verb,er,folgen,to follow
-138,4,B1,versorgen,"to provide (for someone), to supply, to feed",1. verb,ver,sorgen,"to care, to worry"
-139,4,B1,verarbeiten,"to process, to handle",1. verb,ver,arbeiten,to work
-140,4,B1,unternehmen,to undertake,1. verb,unter,nehmen,"to take, to cause oneself to be (in some state)"
-141,4,B1,abziehen,"to withdraw, to go away, to move off",1. verb,ab,ziehen,"to pull, to drag, to move"
-142,7,B2,abheben,to withdraw (money),1. verb,ab,heben,"to lift, to raise"
-143,7,B2,absehen,"to foresee, to overlook, to disregard",1. verb,ab,sehen,"to see, to see (to something), to realise"
-144,7,B2,angeben,"to indicate, to specify",1. verb,an,geben,to give
-145,7,B2,anpassen,"to adjust, to adapt",1. verb,an,passen,"to fit, to suit"
-146,7,B2,ansprechen,"to address, to speak to",1. verb,an,sprechen,to speak
-147,7,B2,anzeigen,"to show, to display",1. verb,an,zeigen,"to show, to point at, to demonstrate"
-148,7,B2,anhalten,"to stop (cease moving), to continue, to compel",1. verb,an,halten,"to hold, to stop (a movement), to support, to keep"
-149,7,B2,auftreten,"to appear, to perform",1. verb,auf,treten,"to step, to read, to kick (a ball)"
-150,7,B2,aufbauen,"to build up, to construct",1. verb,auf,bauen,to build
-151,7,B2,auffallen,"to stand out, to catch someone's eye (with dative)",1. verb,auf,fallen,"to fall, to fall in battle, to collapse"
-152,7,B2,aufgeben,"to give up on, to give up (refl.), to abandon",1. verb,auf,geben,to give
-153,7,B2,aufführen,"to perform, to present",1. verb,auf,führen,"to lead, to guide"
-154,7,B2,einnehmen,"to capture, to earn, to ingest",1. verb,ein,nehmen,"to take, to cause oneself to be (in some state)"
-155,7,B2,einschalten,"to switch on, to intervene, to turn on",1. verb,ein,schalten,"to switch, to operate"
-156,7,B2,einsteigen,"to enter, to get in, to board",1. verb,ein,steigen,"to ascend, to climb, to rise"
-157,7,B2,einziehen,"to move in, to penetrate, to infiltrate",1. verb,ein,ziehen,"to pull, to drag, to move"
-158,7,B2,zusehen,"to watch, to see, to make sure (that something happens)",1. verb,zu,sehen,"to see, to see (to something), to realise"
-159,7,B2,zuhören,to listen to someone/something (with dative),1. verb,zu,hören,"to hear, to listen to"
-160,7,B2,zurückziehen,"to withdraw, to pull back, to retreat",1. verb,zurück,ziehen,"to pull, to drag, to move"
-161,7,B2,zusammenfassen,"to summarize, to condense, to abstract",1. verb,zusammen,fassen,to grasp
-162,7,B2,vorlesen,"to read aloud, to read out",1. verb,vor,lesen,to read
-163,7,B2,betrinken,to get drunk (refl.),1. verb,be,trinken,to drink
-164,7,B2,bewundern,to admire,1. verb,be,wundern,"to wonder, to be surprised"
-165,7,B2,bemerken,"to notice, to remark something",1. verb,be,merken,"to notice, to realise, to remember (refl.)"
-166,7,B2,beschließen,"to decide something, to end, to close",1. verb,be,schließen,"to shut, to close, to lock, to conclude"
-167,7,B2,berechnen,to calculate something,1. verb,be,rechnen,"to calculate, to reckon"
-168,7,B2,beachten,to consider,1. verb,be,achten,"to respect, to regard someone, to pay attention to something"
-169,7,B2,bedienen,"to operate, to serve",1. verb,be,dienen,"to serve, to function"
-170,7,B2,belegen,"to occupy, to reserve, to cover, to prove",1. verb,be,legen,"to lay, to lean, to lie down"
-171,7,B2,betragen,"to amount to, to come to",1. verb,be,tragen,"to wear (clothing), to carry, to hold"
-172,7,B2,betreiben,"to run, to operate",1. verb,be,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
-173,7,B2,bezeichnen,"to designate, to label",1. verb,be,zeichnen,"to draw, to sketch"
-174,7,B2,begehen,"to commit, perpetrate (a crime, an offence)",1. verb,be,gehen,"to go, to leave, to work, to function (coll.)"
-175,7,B2,erscheinen,"to appear, to seem",1. verb,er,scheinen,"to seem, to shine"
-176,7,B2,erheben,"to raise, to collect",1. verb,er,heben,"to lift, to raise"
-177,7,B2,errichten,"to establish, to erect",1. verb,er,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-178,7,B2,erteilen,"to grant, to issue",1. verb,er,teilen,"to split, to share, to divide"
-179,7,B2,erwerben,"to acquire, to purchase",1. verb,er,werben,to advertise
-180,7,B2,eröffnen,"to open, to inaugurate",1. verb,er,öffnen,to open (formal)
-181,7,B2,ertragen,"to bear, to stand",1. verb,er,tragen,"to wear (clothing), to carry, to hold"
-182,7,B2,verraten,"to betray, to reveal",1. verb,ver,raten,"to advise, to recommend, to guess"
-183,7,B2,vergeben,"to set (work), to forgive, to assign",1. verb,ver,geben,to give
-184,7,B2,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)",1. verb,ver,laufen,"to walk, to flow (of a fluid), to run (of an event)"
-185,7,B2,verfassen,"to compose, to write",1. verb,ver,fassen,to grasp
-186,7,B2,verleihen,"to award, to grant",1. verb,ver,leihen,"to lend, to borrow"
-187,7,B2,verfolgen,"to pursue, to persecute, to trace",1. verb,ver,folgen,to follow
-188,7,B2,verbrennen,"to burn, to incinerate, to burn oneself, to scorch (miltary)",1. verb,ver,brennen,"to burn, to have a strong affection for, to induce pain"
-189,7,B2,verbrauchen,"to consume, to use",1. verb,ver,brauchen,to need
-190,7,B2,überweisen,to transfer (money),1. verb,über,weisen,"to show, to indicate"
-191,7,B2,umgehen,"to avoid, to go around",1. verb,um,gehen,"to go, to leave, to work, to function (coll.)"
-192,8,B2,umsetzen,"to implement, to put into practice",1. verb,um,setzen,"to set, to sit down (refl.)"
-193,8,B2,umdrehen,to turn around,1. verb,um,drehen,"to turn, to veer"
-194,8,B2,unterscheiden,"to distinguish, to differentiate",1. verb,unter,scheiden,"to separate, to divorce"
-195,8,B2,unterhalten,"to maintain, to entertain, to converse (refl.)",1. verb,unter,halten,"to hold, to stop (a movement), to support, to keep"
-196,8,B2,unterstreichen,"to underline, to emphasize, to highlight",1. verb,unter,streichen,"to stroke, to cancel, to spread, to rub, to paint"
-197,8,B2,durchführen,"to carry out, to perform",1. verb,durch,führen,"to lead, to guide"
-198,8,B2,hinterlassen,"to leave, to leave behind, to bequeath",1. verb,hinter,lassen,"to let, to leave, to allow"
-199,8,B2,abbrechen,"to break off, to abort, to burst off",1. verb,ab,brechen,to break
-200,8,B2,zusammenarbeiten,to work together,1. verb,zusammen,arbeiten,to work
-201,8,B2,zusammenstellen,to put together,1. verb,zusammen,stellen,"to position, to put, to catch"
-202,8,B2,überlassen,"to relinquish, to leave something in someone's care",1. verb,über,lassen,"to let, to leave, to allow"
-203,8,B2,überleben,to survive,1. verb,über,leben,to live
-204,8,B2,anstellen,"to queue (refl.), to employ someone, to get into mischief",1. verb,an,stellen,"to position, to put, to catch"
-205,8,B2,auftauchen,"to arise, to surface, to turn up",1. verb,auf,tauchen,"to dive, to submerge, to disappear"
-206,8,B2,einfallen,"to collapse, to come to mind",1. verb,ein,fallen,"to fall, to fall in battle, to collapse"
-207,8,B2,weitermachen,"go on, keep going, continue to do something",1. verb,weiter,machen,"to make, to prepare (e.g. food), to do"
-208,8,B2,bekämpfen,to fight against something,1. verb,be,kämpfen,"to fight, to struggle"
-209,8,B2,verhandeln,to negotiate,1. verb,ver,handeln,"to act, to trade, to negotiate"
-210,8,B2,verhalten,"to behave (refl.), to act (refl.), to press (coll.)",1. verb,ver,halten,"to hold, to stop (a movement), to support, to keep"
-211,8,B2,bewirken,"to bring about, to cause, to effect",1. verb,be,wirken,"to work, to be effective, to take affect, to act"
-212,8,B2,befürchten,"to fear, to apprehend, to be afraid",1. verb,be,fürchten,"to fear, to be afraid"
-213,8,B2,abbilden,"to depict, to map, to illustrate",1. verb,ab,bilden,"to form, to educate oneself (refl.)"
-214,8,B2,ablaufen,"to expire, to run out, to discharge",1. verb,ab,laufen,"to walk, to flow (of a fluid), to run (of an event)"
-215,8,B2,ableiten,"to derive, to deduce",1. verb,ab,leiten,"to lead, to manage"
-216,8,B2,abstimmen,"to coordinate, to vote, to adjust",1. verb,ab,stimmen,"to be true, to vote, to tune"
-217,8,B2,anschließen,"to join, to attach, to affiliate, to connect",1. verb,an,schließen,"to shut, to close, to lock, to conclude"
-218,8,B2,anführen,"to cite, to lead, to quote",1. verb,an,führen,"to lead, to guide"
-219,8,B2,anschaffen,"to purchase, to acquire, to procure",1. verb,an,schaffen,"to create, to produce, to achieve/reach a goal"
-220,8,B2,aufbrechen,"to leave, to set off, to start, to break, to burst",1. verb,auf,brechen,to break
-221,8,B2,auffordern,"to request, to invite, to ask",1. verb,auf,fordern,"to demand, to require"
-222,8,B2,aufhalten,"to stop, to stay, to delay",1. verb,auf,halten,"to hold, to stop (a movement), to support, to keep"
-223,8,B2,aufheben,"to abolish, to lift, to pick up, to keep",1. verb,auf,heben,"to lift, to raise"
-224,8,B2,aufladen,"to charge, to load, to burden, to impose",1. verb,auf,laden,"to load, to charge"
-225,8,B2,auflösen,"to dissolve, to resolve, to annul, to liquidate",1. verb,auf,lösen,"to loosen, to solve, to separate, to remove"
-226,8,B2,aufsteigen,"to rise, to ascend, to advance, to climb",1. verb,auf,steigen,"to ascend, to climb, to rise"
-227,8,B2,einfügen,"to insert, to infix, to conform",1. verb,ein,fügen,"to acquiesce, to comply, to fit together"
-228,8,B2,einleiten,"to introduce, to initiate, to commence",1. verb,ein,leiten,"to lead, to manage"
-229,8,B2,eintragen,"to register, to enter, to record, to enrol",1. verb,ein,tragen,"to wear (clothing), to carry, to hold"
-230,8,B2,eintreten,"to enter, to join, to occur",1. verb,ein,treten,"to step, to read, to kick (a ball)"
-231,8,B2,nachweisen,"to prove, to account for, to demonstrate",1. verb,nach,weisen,"to show, to indicate"
-232,8,B2,vorlegen,"to present, to submit, to bring forward",1. verb,vor,legen,"to lay, to lean, to lie down"
-233,8,B2,vorkommen,"to occur, to happen, to advance",1. verb,vor,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-234,8,B2,voraussetzen,"to presume, to require, to assume",1. verb,voraus,setzen,"to set, to sit down (refl.)"
-235,8,B2,weitergeben,"to pass on, to impart, to relay",1. verb,weiter,geben,to give
-236,8,B2,zuordnen,"to assign, to allocate",1. verb,zu,ordnen,"to organize, to arrange, to order"
-237,8,B2,zugehen,"to approach, to close, to happen",1. verb,zu,gehen,"to go, to leave, to work, to function (coll.)"
-238,8,B2,zurückgeben,"to return, to give back, to answer back",1. verb,zurück,geben,to give
-239,8,B2,zurückhalten,"to restrain, to hold back, to withhold",1. verb,zurück,halten,"to hold, to stop (a movement), to support, to keep"
-240,9,B2,beherrschen,"to dominate, to master, to control, to rule",1. verb,be,herrschen,"to rule, to prevail, to control"
-241,9,B2,beklagen,"to complain, to lament, to air grievances",1. verb,be,klagen,"to complain, to lament, to sue"
-242,9,B2,benennen,"to name, to designate, to appoint",1. verb,be,nennen,"to name, to call someone something, to mention"
-243,9,B2,besetzen,"to occupy, to border, to cast",1. verb,be,setzen,"to set, to sit down (refl.)"
-244,9,B2,erfordern,"to require, to demand, to necessitate",1. verb,er,fordern,"to demand, to require"
-245,9,B2,ergreifen,"to seize, to grasp, to take hold of",1. verb,er,greifen,"to grab, to seize, to reach, to capture"
-246,9,B2,erarbeiten,"to develop, to elaborate, to work out, to acquire",1. verb,er,arbeiten,to work
-247,9,B2,versehen,"to provide, to equip, to supply",1. verb,ver,sehen,"to see, to see (to something), to realise"
-248,9,B2,verpacken,"to pack, to wrap, to package",1. verb,ver,packen,"to pack, to grab, to manage"
-249,9,B2,verschreiben,"to prescribe, to commit oneself to, to misspell by accident",1. verb,ver,schreiben,to write
-250,9,B2,versichern,"to assure, to insure, to cover",1. verb,ver,sichern,"to secure, to protect"
-251,9,B2,vertreiben,"to expel, to dislodge, to displace",1. verb,ver,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
-252,9,B2,anlegen,"to create, to invest",1. verb,an,legen,"to lay, to lean, to lie down"
-253,9,B2,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",1. verb,ein,gehen,"to go, to leave, to work, to function (coll.)"
-254,9,B2,abrufen,"to retrieve, to access, to call away",1. verb,ab,rufen,"to call out, to call for help, to telephone"
-255,9,B2,aufweisen,"to exhibit, to feature, to show, to boast",1. verb,auf,weisen,"to show, to indicate"
-256,9,B2,einschließen,"to include, to enclose, to lock up, to surround",1. verb,ein,schließen,"to shut, to close, to lock, to conclude"
-257,9,B2,eingeben,"to enter, to input, to give, to supply",1. verb,ein,geben,to give
-258,9,B2,vorliegen,"to exist, to be available",1. verb,vor,liegen,"to lie, to be located"
-259,9,B2,vornehmen,"to undertake, to carry out",1. verb,vor,nehmen,"to take, to cause oneself to be (in some state)"
-260,9,B2,vorgehen,"to proceed, to advance, to go ahead",1. verb,vor,gehen,"to go, to leave, to work, to function (coll.)"
-261,9,B2,vorwerfen,"to reproach, to accuse of, to allege",1. verb,vor,werfen,to throw
-262,9,B2,betreffen,"to concern, to affect",1. verb,be,treffen,"to meet, to encounter"
-263,9,B2,beziehen,"to refer, to obtain",1. verb,be,ziehen,"to pull, to drag, to move"
-264,9,B2,bedenken,"to consider, to reflect, to give, to allow for",1. verb,be,denken,"to think, to consider"
-265,9,B2,befassen,"to address, to deal with, to attend to",1. verb,be,fassen,to grasp
-266,9,B2,erfassen,"to record, to capture",1. verb,er,fassen,to grasp
-267,9,B2,erweisen,"to prove (passively), to turn out to be, to show",1. verb,er,weisen,"to show, to indicate"
-268,9,B2,verstärken,"to amplify, to intensify, to strengthen",1. verb,ver,stärken,to strengthen
-269,9,B2,übergeben,"to hand over, to vomit (refl.)",1. verb,über,geben,to give
-270,9,B2,überschreiten,"to exceed, to overstep, to surpass",1. verb,über,schreiten,"to stride, to step, to proceed"
-271,9,B2,umfassen,"to include, to comprise",1. verb,um,fassen,to grasp
-272,9,B2,umgeben,"to surround, to enclose, to encompass",1. verb,um,geben,to give
-273,9,B2,unterliegen,"to be subject to, to undergo",1. verb,unter,liegen,"to lie, to be located"
+18,3,A2,abholen,"to pick up someone or something, to collect",1. verb,ab,holen,to fetch
+19,3,A2,ankommen,"to arrive, to depend on something",1. verb,an,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+20,3,A2,anmelden,"to register, to sign up",1. verb,an,melden,"to report, to register"
+21,3,A2,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",1. verb,an,nehmen,"to take, to cause oneself to be (in some state)"
+22,3,A2,anbieten,"to offer, to provide",1. verb,an,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
+23,3,A2,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",1. verb,auf,machen,"to make, to prepare (e.g. food), to do"
+24,3,A2,aufpassen,"to watch out, to look after something, to be attentive with something",1. verb,auf,passen,"to fit, to suit"
+25,3,A2,einschlafen,to fall asleep,1. verb,ein,schlafen,to sleep
+26,3,A2,einkaufen,to shop,1. verb,ein,kaufen,to buy
+27,3,A2,zurückgehen,"to go back, to decline",1. verb,zurück,gehen,"to go, to leave, to work, to function (coll.)"
+28,3,A2,mitnehmen,"to carry along, to pick up (something), to take away",1. verb,mit,nehmen,"to take, to cause oneself to be (in some state)"
+29,3,A2,mitbringen,"to bring along, to bring with",1. verb,mit,bringen,"to bring, to take, to lead"
+30,3,A2,mitteilen,"to inform, to share",1. verb,mit,teilen,"to split, to share, to divide"
+31,3,A2,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",1. verb,vor,stellen,"to position, to put, to catch"
+32,3,A2,vorschlagen,"to suggest, to propose",1. verb,vor,schlagen,"to hit, to defeat, to beat (cooking)"
+33,3,A2,besitzen,"to own, to possess, to have",1. verb,be,sitzen,"to be seated, to stay, to fit (of clothing)"
+34,3,A2,behalten,to keep,1. verb,be,halten,"to hold, to stop (a movement), to support, to keep"
+35,3,A2,befinden,"to be located (refl.), to find, to consider (formal)",1. verb,be,finden,to find
+36,3,A2,beraten,"to advise, to consult",1. verb,be,raten,"to advise, to recommend, to guess"
+37,3,A2,bewerben,to apply (to a job etc.),1. verb,be,werben,to advertise
+38,3,A2,beenden,"to finish, to complete, to terminate (relationship)",1. verb,be,enden,to end (passive)
+39,3,A2,empfehlen,"to recommend, to suggest",1. verb,emp,fehlen,"to lack, to be absent/missing"
+40,3,A2,entscheiden,to decide,1. verb,ent,scheiden,"to separate, to divorce"
+41,3,A2,enthalten,"to contain, to include",1. verb,ent,halten,"to hold, to stop (a movement), to support, to keep"
+42,3,A2,erkennen,"to recognise, to realise",1. verb,er,kennen,"to know, to be acquainted with, to be familiar with"
+43,3,A2,erwarten,"to expect, to await",1. verb,er,warten,"to wait, to maintain (e.g. a car)"
+44,3,A2,ersetzen,"to replace, to substitute",1. verb,er,setzen,"to set, to sit down (refl.)"
+45,3,A2,erstellen,"to create, to generate, to compile, to set up",1. verb,er,stellen,"to position, to put, to catch"
+46,3,A2,verlassen,"to leave, to trust with something (refl.), to pass away, to die",1. verb,ver,lassen,"to let, to leave, to allow"
+47,3,A2,versprechen,"to promise, to hope for, to misspeak",1. verb,ver,sprechen,to speak
+48,3,A2,verändern,"to alter, to change something",1. verb,ver,ändern,to change (one's personality/behavior)
+49,3,A2,verpassen,"to miss (to be late for something, e.g. a train)",1. verb,ver,passen,"to fit, to suit"
+50,3,A2,verbieten,"to forbid, to prohibit (with dative)",1. verb,ver,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
+51,3,A2,vertreten,"to represent, to stand for",1. verb,ver,treten,"to step, to read, to kick (a ball)"
+52,3,A2,übernehmen,to take over,1. verb,über,nehmen,"to take, to cause oneself to be (in some state)"
+53,3,A2,überlegen,"to consider, to think over",1. verb,über,legen,"to lay, to lean, to lie down"
+54,3,A2,überprüfen,to check,1. verb,über,prüfen,"to investigate, to check something, to consider"
+55,5,B1,abgeben,"to hand something in, to emit something, to deliver something, to cede something",1. verb,ab,geben,to give
+56,5,B1,absagen,"to call off, to cancel",1. verb,ab,sagen,"to say, to tell"
+57,5,B1,abschließen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)",1. verb,ab,schließen,"to shut, to close, to lock, to conclude"
+58,5,B1,ablenken,"to distract, to divert, to steer away",1. verb,ab,lenken,"to guide, to direct, to steer, to control"
+59,5,B1,abnehmen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",1. verb,ab,nehmen,"to take, to cause oneself to be (in some state)"
+60,5,B1,anschauen,"to look at, to behold, to take a look at, to watch (Bayern/Austria)",1. verb,an,schauen,to look at (Bayern/Austria)
+61,5,B1,anfassen,to touch,1. verb,an,fassen,to grasp
+62,5,B1,ankündigen,"to announce, to declare",1. verb,an,kündigen,"to terminate, to cancel"
+63,5,B1,aufwachsen,"to grow up, to be raised",1. verb,auf,wachsen,"to grow, to increase"
+64,5,B1,aufnehmen,"to pick up, to receive, to take in, to record, to absorb",1. verb,auf,nehmen,"to take, to cause oneself to be (in some state)"
+65,5,B1,einsetzen,"to insert, to use, to appoint, to risk",1. verb,ein,setzen,"to set, to sit down (refl.)"
+66,5,B1,einstellen,"to employ someone, to adjust, to cease",1. verb,ein,stellen,"to position, to put, to catch"
+67,5,B1,zustimmen,"to agree, to consent",1. verb,zu,stimmen,"to be true, to vote, to tune"
+68,5,B1,zubereiten,"to prepare, to cook in advance",1. verb,zu,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
+69,5,B1,zunehmen,"to gain weight, to increase",1. verb,zu,nehmen,"to take, to cause oneself to be (in some state)"
+70,5,B1,zugeben,to admit,1. verb,zu,geben,to give
+71,5,B1,zusagen,"to promise, to accept, to confirm",1. verb,zu,sagen,"to say, to tell"
+72,5,B1,zurückkommen,to return (to come back),1. verb,zurück,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+73,5,B1,herausfinden,"to find something out, to discover",1. verb,heraus,finden,to find
+74,5,B1,hervorheben,"to point out, to emphasize",1. verb,hervor,heben,"to lift, to raise"
+75,5,B1,herunterladen,to download,1. verb,herunter,laden,"to load, to charge"
+76,5,B1,herstellen,"to manufacture, to produce",1. verb,her,stellen,"to position, to put, to catch"
+77,5,B1,hinweisen,"to indicate, to point out",1. verb,hin,weisen,"to show, to indicate"
+78,5,B1,mitmachen,"to join in, to take part",1. verb,mit,machen,"to make, to prepare (e.g. food), to do"
+79,5,B1,nachdenken,"to think, to reflect",1. verb,nach,denken,"to think, to consider"
+80,5,B1,vorhaben,to have something planned,1. verb,vor,haben,"to have, to contain"
+81,5,B1,vorbereiten,"to prepare (in advance), to prepare oneself (refl.)",1. verb,vor,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
+82,5,B1,vorgeben,to pretend,1. verb,vor,geben,to give
+83,5,B1,beschreiben,to describe,1. verb,be,schreiben,to write
+84,5,B1,bestellen,"to order (e.g. food), to summon, to reserve",1. verb,be,stellen,"to position, to put, to catch"
+85,5,B1,beweisen,"to prove, to demonstrate",1. verb,be,weisen,"to show, to indicate"
+86,5,B1,bestehen,"to succeed, to pass (an exam), to consist, to insist",1. verb,be,stehen,"to stand, to be, to appear"
+87,5,B1,begründen,"to justify, to explain",1. verb,be,gründen,"to found, to establish"
+88,5,B1,bearbeiten,to edit,1. verb,be,arbeiten,to work
+89,5,B1,besprechen,"to discuss (formal, work related)",1. verb,be,sprechen,to speak
+90,5,B1,beantworten,to answer (a question),1. verb,be,antworten,"to answer, to reply"
+91,5,B1,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)",1. verb,emp,fangen,to catch
+92,5,B1,empfinden,to feel (emotions),1. verb,emp,finden,to find
+93,5,B1,entdecken,"to discover, to spot",1. verb,ent,decken,"to cover, to meet"
+94,5,B1,entstehen,"to arise, to emerge, to develop",1. verb,ent,stehen,"to stand, to be, to appear"
+95,5,B1,entsprechen,"to correspond, to comply",1. verb,ent,sprechen,to speak
+96,5,B1,entziehen,"to withdraw, deprive",1. verb,ent,ziehen,"to pull, to drag, to move"
+97,5,B1,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)",1. verb,ent,lassen,"to let, to leave, to allow"
+98,6,B1,erwachsen,"to grow up, to spring up, to accrue",1. verb,er,wachsen,"to grow, to increase"
+99,6,B1,erhalten,"to receive (passively), to maintain, to save",1. verb,er,halten,"to hold, to stop (a movement), to support, to keep"
+100,6,B1,erleben,"to experience, to witness",1. verb,er,leben,to live
+101,6,B1,erholen,to recover,1. verb,er,holen,to fetch
+102,6,B1,erfahren,"to experience, to find out, to learn",1. verb,er,fahren,"to go (by vehicle), to leave, to drive"
+103,6,B1,erfinden,"to invent, to fabricate (something untrue), to find out",1. verb,er,finden,to find
+104,6,B1,erzielen,"to achieve, to reach a result",1. verb,er,zielen,"to aim, to target"
+105,6,B1,erfüllen,"to fill (with something), to fulfill, to come true",1. verb,er,füllen,to fill
+106,6,B1,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)",1. verb,er,geben,to give
+107,6,B1,erreichen,to reach,1. verb,er,reichen,"to suffice, to be enough"
+108,6,B1,verstecken,to hide,1. verb,ver,stecken,"to stick, to pin"
+109,6,B1,verlieben,to fall in love (refl.),1. verb,ver,lieben,to love
+110,6,B1,verdienen,to earn,1. verb,ver,dienen,"to serve, to function"
+111,6,B1,verbinden,"to join, to connect, to bandage",1. verb,ver,binden,"to bind, to tie, to tie up, to absorb"
+112,6,B1,verbringen,to spend (time),1. verb,ver,bringen,"to bring, to take, to lead"
+113,6,B1,vermeiden,to avoid (+ nouns or verbs),1. verb,ver,meiden,to avoid (+ nouns only)
+114,6,B1,verwenden,to use (formal),1. verb,ver,wenden,"to turn something, to make a u-turn"
+115,6,B1,verschieben,"to move (a meeting), to postpone, to defer",1. verb,ver,schieben,to push
+116,6,B1,verteilen,"to distribute, to share",1. verb,ver,teilen,"to split, to share, to divide"
+117,6,B1,übertragen,"to transfer, to transmit",1. verb,über,tragen,"to wear (clothing), to carry, to hold"
+118,6,B1,umziehen,"to change clothes (refl.), to move house",1. verb,um,ziehen,"to pull, to drag, to move"
+119,6,B1,unterschreiben,to sign (write one's signature),1. verb,unter,schreiben,to write
+120,6,B1,unterrichten,"to teach, to inform",1. verb,unter,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+121,6,B1,unterbrechen,to interrupt,1. verb,unter,brechen,to break
+122,6,B1,untersuchen,"to examine, to investigate",1. verb,unter,suchen,"to seek, to search"
+123,6,B1,zerstören,to destroy,1. verb,zer,stören,"to disturb, to interfere"
+124,6,B1,abbauen,"to dismantle, to deteriorate",1. verb,ab,bauen,to build
+125,6,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",1. verb,ab,hängen,"to hang, to be fond of, depend on"
+126,6,B1,abfahren,"to depart, to leave, to drive along",1. verb,ab,fahren,"to go (by vehicle), to leave, to drive"
+127,6,B1,besorgen,"to obtain, to manage",1. verb,be,sorgen,"to care, to worry"
+128,6,B1,anerkennen,"to acknowledge, to recognize",1. verb,an,erkennen,"to recognise, to realise"
+129,6,B1,anwenden,"to apply (knowledge, know-how)",1. verb,an,wenden,"to turn something, to make a u-turn"
+130,6,B1,einrichten,"to set up, to install, to furnish",1. verb,ein,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+131,6,B1,einführen,"to introduce, to implement",1. verb,ein,führen,"to lead, to guide"
+132,6,B1,zulassen,"to allow, to license (for a car)",1. verb,zu,lassen,"to let, to leave, to allow"
+133,6,B1,mitkommen,"to come with someone, to understand something",1. verb,mit,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+134,6,B1,behandeln,"to treat (medicinally), to treat (physically), to cover (a subject)",1. verb,be,handeln,"to act, to trade, to negotiate"
+135,6,B1,berichten,"to report, to cover, to indicate, to refer",1. verb,be,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+136,6,B1,entwerfen,"to design, to draw, to draft",1. verb,ent,werfen,to throw
+137,6,B1,erfolgen,"to occur, to take place",1. verb,er,folgen,to follow
+138,6,B1,versorgen,"to provide (for someone), to supply, to feed",1. verb,ver,sorgen,"to care, to worry"
+139,6,B1,verarbeiten,"to process, to handle",1. verb,ver,arbeiten,to work
+140,6,B1,unternehmen,to undertake,1. verb,unter,nehmen,"to take, to cause oneself to be (in some state)"
+141,6,B1,abziehen,"to withdraw, to go away, to move off",1. verb,ab,ziehen,"to pull, to drag, to move"
+142,9,B2,abheben,to withdraw (money),1. verb,ab,heben,"to lift, to raise"
+143,9,B2,absehen,"to foresee, to overlook, to disregard",1. verb,ab,sehen,"to see, to see (to something), to realise"
+144,9,B2,angeben,"to indicate, to specify",1. verb,an,geben,to give
+145,9,B2,anpassen,"to adjust, to adapt",1. verb,an,passen,"to fit, to suit"
+146,9,B2,ansprechen,"to address, to speak to",1. verb,an,sprechen,to speak
+147,9,B2,anzeigen,"to show, to display",1. verb,an,zeigen,"to show, to point at, to demonstrate"
+148,9,B2,anhalten,"to stop (cease moving), to continue, to compel",1. verb,an,halten,"to hold, to stop (a movement), to support, to keep"
+149,9,B2,auftreten,"to appear, to perform",1. verb,auf,treten,"to step, to read, to kick (a ball)"
+150,9,B2,aufbauen,"to build up, to construct",1. verb,auf,bauen,to build
+151,9,B2,auffallen,"to stand out, to catch someone's eye (with dative)",1. verb,auf,fallen,"to fall, to fall in battle, to collapse"
+152,9,B2,aufgeben,"to give up on, to give up (refl.), to abandon",1. verb,auf,geben,to give
+153,9,B2,aufführen,"to perform, to present",1. verb,auf,führen,"to lead, to guide"
+154,9,B2,einnehmen,"to capture, to earn, to ingest",1. verb,ein,nehmen,"to take, to cause oneself to be (in some state)"
+155,9,B2,einschalten,"to switch on, to intervene, to turn on",1. verb,ein,schalten,"to switch, to operate"
+156,9,B2,einsteigen,"to enter, to get in, to board",1. verb,ein,steigen,"to ascend, to climb, to rise"
+157,9,B2,einziehen,"to move in, to penetrate, to infiltrate",1. verb,ein,ziehen,"to pull, to drag, to move"
+158,9,B2,zusehen,"to watch, to see, to make sure (that something happens)",1. verb,zu,sehen,"to see, to see (to something), to realise"
+159,9,B2,zuhören,to listen to someone/something (with dative),1. verb,zu,hören,"to hear, to listen to"
+160,9,B2,zurückziehen,"to withdraw, to pull back, to retreat",1. verb,zurück,ziehen,"to pull, to drag, to move"
+161,9,B2,zusammenfassen,"to summarize, to condense, to abstract",1. verb,zusammen,fassen,to grasp
+162,9,B2,vorlesen,"to read aloud, to read out",1. verb,vor,lesen,to read
+163,9,B2,betrinken,to get drunk (refl.),1. verb,be,trinken,to drink
+164,9,B2,bewundern,to admire,1. verb,be,wundern,"to wonder, to be surprised"
+165,9,B2,bemerken,"to notice, to remark something",1. verb,be,merken,"to notice, to realise, to remember (refl.)"
+166,9,B2,beschließen,"to decide something, to end, to close",1. verb,be,schließen,"to shut, to close, to lock, to conclude"
+167,9,B2,berechnen,to calculate something,1. verb,be,rechnen,"to calculate, to reckon"
+168,9,B2,beachten,to consider,1. verb,be,achten,"to respect, to regard someone, to pay attention to something"
+169,9,B2,bedienen,"to operate, to serve",1. verb,be,dienen,"to serve, to function"
+170,9,B2,belegen,"to occupy, to reserve, to cover, to prove",1. verb,be,legen,"to lay, to lean, to lie down"
+171,9,B2,betragen,"to amount to, to come to",1. verb,be,tragen,"to wear (clothing), to carry, to hold"
+172,9,B2,betreiben,"to run, to operate",1. verb,be,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
+173,9,B2,bezeichnen,"to designate, to label",1. verb,be,zeichnen,"to draw, to sketch"
+174,9,B2,begehen,"to commit, perpetrate (a crime, an offence)",1. verb,be,gehen,"to go, to leave, to work, to function (coll.)"
+175,9,B2,erscheinen,"to appear, to seem",1. verb,er,scheinen,"to seem, to shine"
+176,9,B2,erheben,"to raise, to collect",1. verb,er,heben,"to lift, to raise"
+177,9,B2,errichten,"to establish, to erect",1. verb,er,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+178,9,B2,erteilen,"to grant, to issue",1. verb,er,teilen,"to split, to share, to divide"
+179,9,B2,erwerben,"to acquire, to purchase",1. verb,er,werben,to advertise
+180,9,B2,eröffnen,"to open, to inaugurate",1. verb,er,öffnen,to open (formal)
+181,9,B2,ertragen,"to bear, to stand",1. verb,er,tragen,"to wear (clothing), to carry, to hold"
+182,9,B2,verraten,"to betray, to reveal",1. verb,ver,raten,"to advise, to recommend, to guess"
+183,9,B2,vergeben,"to set (work), to forgive, to assign",1. verb,ver,geben,to give
+184,9,B2,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)",1. verb,ver,laufen,"to walk, to flow (of a fluid), to run (of an event)"
+185,9,B2,verfassen,"to compose, to write",1. verb,ver,fassen,to grasp
+186,9,B2,verleihen,"to award, to grant",1. verb,ver,leihen,"to lend, to borrow"
+187,9,B2,verfolgen,"to pursue, to persecute, to trace",1. verb,ver,folgen,to follow
+188,9,B2,verbrennen,"to burn, to incinerate, to burn oneself, to scorch (miltary)",1. verb,ver,brennen,"to burn, to have a strong affection for, to induce pain"
+189,9,B2,verbrauchen,"to consume, to use",1. verb,ver,brauchen,to need
+190,9,B2,überweisen,to transfer (money),1. verb,über,weisen,"to show, to indicate"
+191,9,B2,umgehen,"to avoid, to go around",1. verb,um,gehen,"to go, to leave, to work, to function (coll.)"
+192,10,B2,umsetzen,"to implement, to put into practice",1. verb,um,setzen,"to set, to sit down (refl.)"
+193,10,B2,umdrehen,to turn around,1. verb,um,drehen,"to turn, to veer"
+194,10,B2,unterscheiden,"to distinguish, to differentiate",1. verb,unter,scheiden,"to separate, to divorce"
+195,10,B2,unterhalten,"to maintain, to entertain, to converse (refl.)",1. verb,unter,halten,"to hold, to stop (a movement), to support, to keep"
+196,10,B2,unterstreichen,"to underline, to emphasize, to highlight",1. verb,unter,streichen,"to stroke, to cancel, to spread, to rub, to paint"
+197,10,B2,durchführen,"to carry out, to perform",1. verb,durch,führen,"to lead, to guide"
+198,10,B2,hinterlassen,"to leave, to leave behind, to bequeath",1. verb,hinter,lassen,"to let, to leave, to allow"
+199,10,B2,abbrechen,"to break off, to abort, to burst off",1. verb,ab,brechen,to break
+200,10,B2,zusammenarbeiten,to work together,1. verb,zusammen,arbeiten,to work
+201,10,B2,zusammenstellen,to put together,1. verb,zusammen,stellen,"to position, to put, to catch"
+202,10,B2,überlassen,"to relinquish, to leave something in someone's care",1. verb,über,lassen,"to let, to leave, to allow"
+203,10,B2,überleben,to survive,1. verb,über,leben,to live
+204,10,B2,anstellen,"to queue (refl.), to employ someone, to get into mischief",1. verb,an,stellen,"to position, to put, to catch"
+205,10,B2,auftauchen,"to arise, to surface, to turn up",1. verb,auf,tauchen,"to dive, to submerge, to disappear"
+206,10,B2,einfallen,"to collapse, to come to mind",1. verb,ein,fallen,"to fall, to fall in battle, to collapse"
+207,10,B2,weitermachen,"go on, keep going, continue to do something",1. verb,weiter,machen,"to make, to prepare (e.g. food), to do"
+208,10,B2,bekämpfen,to fight against something,1. verb,be,kämpfen,"to fight, to struggle"
+209,10,B2,verhandeln,to negotiate,1. verb,ver,handeln,"to act, to trade, to negotiate"
+210,10,B2,verhalten,"to behave (refl.), to act (refl.), to press (coll.)",1. verb,ver,halten,"to hold, to stop (a movement), to support, to keep"
+211,10,B2,bewirken,"to bring about, to cause, to effect",1. verb,be,wirken,"to work, to be effective, to take affect, to act"
+212,10,B2,befürchten,"to fear, to apprehend, to be afraid",1. verb,be,fürchten,"to fear, to be afraid"
+213,10,B2,abbilden,"to depict, to map, to illustrate",1. verb,ab,bilden,"to form, to educate oneself (refl.)"
+214,10,B2,ablaufen,"to expire, to run out, to discharge",1. verb,ab,laufen,"to walk, to flow (of a fluid), to run (of an event)"
+215,10,B2,ableiten,"to derive, to deduce",1. verb,ab,leiten,"to lead, to manage"
+216,10,B2,abstimmen,"to coordinate, to vote, to adjust",1. verb,ab,stimmen,"to be true, to vote, to tune"
+217,10,B2,anschließen,"to join, to attach, to affiliate, to connect",1. verb,an,schließen,"to shut, to close, to lock, to conclude"
+218,10,B2,anführen,"to cite, to lead, to quote",1. verb,an,führen,"to lead, to guide"
+219,10,B2,anschaffen,"to purchase, to acquire, to procure",1. verb,an,schaffen,"to create, to produce, to achieve/reach a goal"
+220,10,B2,aufbrechen,"to leave, to set off, to start, to break, to burst",1. verb,auf,brechen,to break
+221,10,B2,auffordern,"to request, to invite, to ask",1. verb,auf,fordern,"to demand, to require"
+222,10,B2,aufhalten,"to stop, to stay, to delay",1. verb,auf,halten,"to hold, to stop (a movement), to support, to keep"
+223,10,B2,aufheben,"to abolish, to lift, to pick up, to keep",1. verb,auf,heben,"to lift, to raise"
+224,10,B2,aufladen,"to charge, to load, to burden, to impose",1. verb,auf,laden,"to load, to charge"
+225,10,B2,auflösen,"to dissolve, to resolve, to annul, to liquidate",1. verb,auf,lösen,"to loosen, to solve, to separate, to remove"
+226,10,B2,aufsteigen,"to rise, to ascend, to advance, to climb",1. verb,auf,steigen,"to ascend, to climb, to rise"
+227,10,B2,einfügen,"to insert, to infix, to conform",1. verb,ein,fügen,"to acquiesce, to comply, to fit together"
+228,10,B2,einleiten,"to introduce, to initiate, to commence",1. verb,ein,leiten,"to lead, to manage"
+229,10,B2,eintragen,"to register, to enter, to record, to enrol",1. verb,ein,tragen,"to wear (clothing), to carry, to hold"
+230,10,B2,eintreten,"to enter, to join, to occur",1. verb,ein,treten,"to step, to read, to kick (a ball)"
+231,10,B2,nachweisen,"to prove, to account for, to demonstrate",1. verb,nach,weisen,"to show, to indicate"
+232,10,B2,vorlegen,"to present, to submit, to bring forward",1. verb,vor,legen,"to lay, to lean, to lie down"
+233,10,B2,vorkommen,"to occur, to happen, to advance",1. verb,vor,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+234,10,B2,voraussetzen,"to presume, to require, to assume",1. verb,voraus,setzen,"to set, to sit down (refl.)"
+235,10,B2,weitergeben,"to pass on, to impart, to relay",1. verb,weiter,geben,to give
+236,10,B2,zuordnen,"to assign, to allocate",1. verb,zu,ordnen,"to organize, to arrange, to order"
+237,10,B2,zugehen,"to approach, to close, to happen",1. verb,zu,gehen,"to go, to leave, to work, to function (coll.)"
+238,10,B2,zurückgeben,"to return, to give back, to answer back",1. verb,zurück,geben,to give
+239,10,B2,zurückhalten,"to restrain, to hold back, to withhold",1. verb,zurück,halten,"to hold, to stop (a movement), to support, to keep"
+240,11,B2,beherrschen,"to dominate, to master, to control, to rule",1. verb,be,herrschen,"to rule, to prevail, to control"
+241,11,B2,beklagen,"to complain, to lament, to air grievances",1. verb,be,klagen,"to complain, to lament, to sue"
+242,11,B2,benennen,"to name, to designate, to appoint",1. verb,be,nennen,"to name, to call someone something, to mention"
+243,11,B2,besetzen,"to occupy, to border, to cast",1. verb,be,setzen,"to set, to sit down (refl.)"
+244,11,B2,erfordern,"to require, to demand, to necessitate",1. verb,er,fordern,"to demand, to require"
+245,11,B2,ergreifen,"to seize, to grasp, to take hold of",1. verb,er,greifen,"to grab, to seize, to reach, to capture"
+246,11,B2,erarbeiten,"to develop, to elaborate, to work out, to acquire",1. verb,er,arbeiten,to work
+247,11,B2,versehen,"to provide, to equip, to supply",1. verb,ver,sehen,"to see, to see (to something), to realise"
+248,11,B2,verpacken,"to pack, to wrap, to package",1. verb,ver,packen,"to pack, to grab, to manage"
+249,11,B2,verschreiben,"to prescribe, to commit oneself to, to misspell by accident",1. verb,ver,schreiben,to write
+250,11,B2,versichern,"to assure, to insure, to cover",1. verb,ver,sichern,"to secure, to protect"
+251,11,B2,vertreiben,"to expel, to dislodge, to displace",1. verb,ver,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
+252,11,B2,anlegen,"to create, to invest",1. verb,an,legen,"to lay, to lean, to lie down"
+253,11,B2,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",1. verb,ein,gehen,"to go, to leave, to work, to function (coll.)"
+254,11,B2,abrufen,"to retrieve, to access, to call away",1. verb,ab,rufen,"to call out, to call for help, to telephone"
+255,11,B2,aufweisen,"to exhibit, to feature, to show, to boast",1. verb,auf,weisen,"to show, to indicate"
+256,11,B2,einschließen,"to include, to enclose, to lock up, to surround",1. verb,ein,schließen,"to shut, to close, to lock, to conclude"
+257,11,B2,eingeben,"to enter, to input, to give, to supply",1. verb,ein,geben,to give
+258,11,B2,vorliegen,"to exist, to be available",1. verb,vor,liegen,"to lie, to be located"
+259,11,B2,vornehmen,"to undertake, to carry out",1. verb,vor,nehmen,"to take, to cause oneself to be (in some state)"
+260,11,B2,vorgehen,"to proceed, to advance, to go ahead",1. verb,vor,gehen,"to go, to leave, to work, to function (coll.)"
+261,11,B2,vorwerfen,"to reproach, to accuse of, to allege",1. verb,vor,werfen,to throw
+262,11,B2,betreffen,"to concern, to affect",1. verb,be,treffen,"to meet, to encounter"
+263,11,B2,beziehen,"to refer, to obtain",1. verb,be,ziehen,"to pull, to drag, to move"
+264,11,B2,bedenken,"to consider, to reflect, to give, to allow for",1. verb,be,denken,"to think, to consider"
+265,11,B2,befassen,"to address, to deal with, to attend to",1. verb,be,fassen,to grasp
+266,11,B2,erfassen,"to record, to capture",1. verb,er,fassen,to grasp
+267,11,B2,erweisen,"to prove (passively), to turn out to be, to show",1. verb,er,weisen,"to show, to indicate"
+268,11,B2,verstärken,"to amplify, to intensify, to strengthen",1. verb,ver,stärken,to strengthen
+269,11,B2,übergeben,"to hand over, to vomit (refl.)",1. verb,über,geben,to give
+270,11,B2,überschreiten,"to exceed, to overstep, to surpass",1. verb,über,schreiten,"to stride, to step, to proceed"
+271,11,B2,umfassen,"to include, to comprise",1. verb,um,fassen,to grasp
+272,11,B2,umgeben,"to surround, to enclose, to encompass",1. verb,um,geben,to give
+273,11,B2,unterliegen,"to be subject to, to undergo",1. verb,unter,liegen,"to lie, to be located"
 274,101,C1,entschließen,to decide (to do something) (refl.),1. verb,ent,schließen,"to shut, to close, to lock, to conclude"
 275,101,C1,verheiraten,"to marry (to perform the marriage), to get married (refl.)",1. verb,ver,heiraten,to marry
 276,101,C1,beschützen,"to protect, defend (security)",1. verb,be,schützen,"to defend (lawyer), to protect (sunprotection)"
@@ -1059,262 +1059,262 @@ Nr,exercise,level_verb,answer,question,type,prefix,german,english
 1058,2,A1,versuchen,to try,2. prefix,ver,suchen,"to seek, to search"
 1059,2,A1,verkaufen,to sell,2. prefix,ver,kaufen,to buy
 1060,2,A1,übersetzen,to translate,2. prefix,über,setzen,"to set, to sit down (refl.)"
-1061,2,A2,abholen,"to pick up someone or something, to collect",2. prefix,ab,holen,to fetch
-1062,2,A2,ankommen,"to arrive, to depend on something",2. prefix,an,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-1063,2,A2,anmelden,"to register, to sign up",2. prefix,an,melden,"to report, to register"
-1064,2,A2,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",2. prefix,an,nehmen,"to take, to cause oneself to be (in some state)"
-1065,2,A2,anbieten,"to offer, to provide",2. prefix,an,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
-1066,2,A2,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",2. prefix,auf,machen,"to make, to prepare (e.g. food), to do"
-1067,2,A2,aufpassen,"to watch out, to look after something, to be attentive with something",2. prefix,auf,passen,"to fit, to suit"
-1068,2,A2,einschlafen,to fall asleep,2. prefix,ein,schlafen,to sleep
-1069,2,A2,einkaufen,to shop,2. prefix,ein,kaufen,to buy
-1070,2,A2,zurückgehen,"to go back, to decline",2. prefix,zurück,gehen,"to go, to leave, to work, to function (coll.)"
-1071,2,A2,mitnehmen,"to carry along, to pick up (something), to take away",2. prefix,mit,nehmen,"to take, to cause oneself to be (in some state)"
-1072,2,A2,mitbringen,"to bring along, to bring with",2. prefix,mit,bringen,"to bring, to take, to lead"
-1073,2,A2,mitteilen,"to inform, to share",2. prefix,mit,teilen,"to split, to share, to divide"
-1074,2,A2,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",2. prefix,vor,stellen,"to position, to put, to catch"
-1075,2,A2,vorschlagen,"to suggest, to propose",2. prefix,vor,schlagen,"to hit, to defeat, to beat (cooking)"
-1076,2,A2,besitzen,"to own, to possess, to have",2. prefix,be,sitzen,"to be seated, to stay, to fit (of clothing)"
-1077,2,A2,behalten,to keep,2. prefix,be,halten,"to hold, to stop (a movement), to support, to keep"
-1078,2,A2,befinden,"to be located (refl.), to find, to consider (formal)",2. prefix,be,finden,to find
-1079,2,A2,beraten,"to advise, to consult",2. prefix,be,raten,"to advise, to recommend, to guess"
-1080,2,A2,bewerben,to apply (to a job etc.),2. prefix,be,werben,to advertise
-1081,2,A2,beenden,"to finish, to complete, to terminate (relationship)",2. prefix,be,enden,to end (passive)
-1082,2,A2,empfehlen,"to recommend, to suggest",2. prefix,emp,fehlen,"to lack, to be absent/missing"
-1083,2,A2,entscheiden,to decide,2. prefix,ent,scheiden,"to separate, to divorce"
-1084,2,A2,enthalten,"to contain, to include",2. prefix,ent,halten,"to hold, to stop (a movement), to support, to keep"
-1085,2,A2,erkennen,"to recognise, to realise",2. prefix,er,kennen,"to know, to be acquainted with, to be familiar with"
-1086,2,A2,erwarten,"to expect, to await",2. prefix,er,warten,"to wait, to maintain (e.g. a car)"
-1087,2,A2,ersetzen,"to replace, to substitute",2. prefix,er,setzen,"to set, to sit down (refl.)"
-1088,2,A2,erstellen,"to create, to generate, to compile, to set up",2. prefix,er,stellen,"to position, to put, to catch"
-1089,2,A2,verlassen,"to leave, to trust with something (refl.), to pass away, to die",2. prefix,ver,lassen,"to let, to leave, to allow"
-1090,2,A2,versprechen,"to promise, to hope for, to misspeak",2. prefix,ver,sprechen,to speak
-1091,2,A2,verändern,"to alter, to change something",2. prefix,ver,ändern,to change (one's personality/behavior)
-1092,2,A2,verpassen,"to miss (to be late for something, e.g. a train)",2. prefix,ver,passen,"to fit, to suit"
-1093,2,A2,verbieten,"to forbid, to prohibit (with dative)",2. prefix,ver,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
-1094,2,A2,vertreten,"to represent, to stand for",2. prefix,ver,treten,"to step, to read, to kick (a ball)"
-1095,2,A2,übernehmen,to take over,2. prefix,über,nehmen,"to take, to cause oneself to be (in some state)"
-1096,2,A2,überlegen,"to consider, to think over",2. prefix,über,legen,"to lay, to lean, to lie down"
-1097,2,A2,überprüfen,to check,2. prefix,über,prüfen,"to investigate, to check something, to consider"
-1098,5,B1,abgeben,"to hand something in, to emit something, to deliver something, to cede something",2. prefix,ab,geben,to give
-1099,5,B1,absagen,"to call off, to cancel",2. prefix,ab,sagen,"to say, to tell"
-1100,5,B1,abschließen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)",2. prefix,ab,schließen,"to shut, to close, to lock, to conclude"
-1101,5,B1,ablenken,"to distract, to divert, to steer away",2. prefix,ab,lenken,"to guide, to direct, to steer, to control"
-1102,5,B1,abnehmen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",2. prefix,ab,nehmen,"to take, to cause oneself to be (in some state)"
-1103,5,B1,anschauen,"to look at, to behold, to take a look at, to watch (Bayern/Austria)",2. prefix,an,schauen,to look at (Bayern/Austria)
-1104,5,B1,anfassen,to touch,2. prefix,an,fassen,to grasp
-1105,5,B1,ankündigen,"to announce, to declare",2. prefix,an,kündigen,"to terminate, to cancel"
-1106,5,B1,aufwachsen,"to grow up, to be raised",2. prefix,auf,wachsen,"to grow, to increase"
-1107,5,B1,aufnehmen,"to pick up, to receive, to take in, to record, to absorb",2. prefix,auf,nehmen,"to take, to cause oneself to be (in some state)"
-1108,5,B1,einsetzen,"to insert, to use, to appoint, to risk",2. prefix,ein,setzen,"to set, to sit down (refl.)"
-1109,5,B1,einstellen,"to employ someone, to adjust, to cease",2. prefix,ein,stellen,"to position, to put, to catch"
-1110,5,B1,zustimmen,"to agree, to consent",2. prefix,zu,stimmen,"to be true, to vote, to tune"
-1111,5,B1,zubereiten,"to prepare, to cook in advance",2. prefix,zu,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
-1112,5,B1,zunehmen,"to gain weight, to increase",2. prefix,zu,nehmen,"to take, to cause oneself to be (in some state)"
-1113,5,B1,zugeben,to admit,2. prefix,zu,geben,to give
-1114,5,B1,zusagen,"to promise, to accept, to confirm",2. prefix,zu,sagen,"to say, to tell"
-1115,5,B1,zurückkommen,to return (to come back),2. prefix,zurück,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-1116,5,B1,herausfinden,"to find something out, to discover",2. prefix,heraus,finden,to find
-1117,5,B1,hervorheben,"to point out, to emphasize",2. prefix,hervor,heben,"to lift, to raise"
-1118,5,B1,herunterladen,to download,2. prefix,herunter,laden,"to load, to charge"
-1119,5,B1,herstellen,"to manufacture, to produce",2. prefix,her,stellen,"to position, to put, to catch"
-1120,5,B1,hinweisen,"to indicate, to point out",2. prefix,hin,weisen,"to show, to indicate"
-1121,5,B1,mitmachen,"to join in, to take part",2. prefix,mit,machen,"to make, to prepare (e.g. food), to do"
-1122,5,B1,nachdenken,"to think, to reflect",2. prefix,nach,denken,"to think, to consider"
-1123,5,B1,vorhaben,to have something planned,2. prefix,vor,haben,"to have, to contain"
-1124,5,B1,vorbereiten,"to prepare (in advance), to prepare oneself (refl.)",2. prefix,vor,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
-1125,5,B1,vorgeben,to pretend,2. prefix,vor,geben,to give
-1126,5,B1,beschreiben,to describe,2. prefix,be,schreiben,to write
-1127,5,B1,bestellen,"to order (e.g. food), to summon, to reserve",2. prefix,be,stellen,"to position, to put, to catch"
-1128,5,B1,beweisen,"to prove, to demonstrate",2. prefix,be,weisen,"to show, to indicate"
-1129,5,B1,bestehen,"to succeed, to pass (an exam), to consist, to insist",2. prefix,be,stehen,"to stand, to be, to appear"
-1130,5,B1,begründen,"to justify, to explain",2. prefix,be,gründen,"to found, to establish"
-1131,5,B1,bearbeiten,to edit,2. prefix,be,arbeiten,to work
-1132,5,B1,besprechen,"to discuss (formal, work related)",2. prefix,be,sprechen,to speak
-1133,5,B1,beantworten,to answer (a question),2. prefix,be,antworten,"to answer, to reply"
-1134,5,B1,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)",2. prefix,emp,fangen,to catch
-1135,5,B1,empfinden,to feel (emotions),2. prefix,emp,finden,to find
-1136,5,B1,entdecken,"to discover, to spot",2. prefix,ent,decken,"to cover, to meet"
-1137,5,B1,entstehen,"to arise, to emerge, to develop",2. prefix,ent,stehen,"to stand, to be, to appear"
-1138,5,B1,entsprechen,"to correspond, to comply",2. prefix,ent,sprechen,to speak
-1139,5,B1,entziehen,"to withdraw, deprive",2. prefix,ent,ziehen,"to pull, to drag, to move"
-1140,5,B1,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)",2. prefix,ent,lassen,"to let, to leave, to allow"
-1141,6,B1,erwachsen,"to grow up, to spring up, to accrue",2. prefix,er,wachsen,"to grow, to increase"
-1142,6,B1,erhalten,"to receive (passively), to maintain, to save",2. prefix,er,halten,"to hold, to stop (a movement), to support, to keep"
-1143,6,B1,erleben,"to experience, to witness",2. prefix,er,leben,to live
-1144,6,B1,erholen,to recover,2. prefix,er,holen,to fetch
-1145,6,B1,erfahren,"to experience, to find out, to learn",2. prefix,er,fahren,"to go (by vehicle), to leave, to drive"
-1146,6,B1,erfinden,"to invent, to fabricate (something untrue), to find out",2. prefix,er,finden,to find
-1147,6,B1,erzielen,"to achieve, to reach a result",2. prefix,er,zielen,"to aim, to target"
-1148,6,B1,erfüllen,"to fill (with something), to fulfill, to come true",2. prefix,er,füllen,to fill
-1149,6,B1,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)",2. prefix,er,geben,to give
-1150,6,B1,erreichen,to reach,2. prefix,er,reichen,"to suffice, to be enough"
-1151,6,B1,verstecken,to hide,2. prefix,ver,stecken,"to stick, to pin"
-1152,6,B1,verlieben,to fall in love (refl.),2. prefix,ver,lieben,to love
-1153,6,B1,verdienen,to earn,2. prefix,ver,dienen,"to serve, to function"
-1154,6,B1,verbinden,"to join, to connect, to bandage",2. prefix,ver,binden,"to bind, to tie, to tie up, to absorb"
-1155,6,B1,verbringen,to spend (time),2. prefix,ver,bringen,"to bring, to take, to lead"
-1156,6,B1,vermeiden,to avoid (+ nouns or verbs),2. prefix,ver,meiden,to avoid (+ nouns only)
-1157,6,B1,verwenden,to use (formal),2. prefix,ver,wenden,"to turn something, to make a u-turn"
-1158,6,B1,verschieben,"to move (a meeting), to postpone, to defer",2. prefix,ver,schieben,to push
-1159,6,B1,verteilen,"to distribute, to share",2. prefix,ver,teilen,"to split, to share, to divide"
-1160,6,B1,übertragen,"to transfer, to transmit",2. prefix,über,tragen,"to wear (clothing), to carry, to hold"
-1161,6,B1,umziehen,"to change clothes (refl.), to move house",2. prefix,um,ziehen,"to pull, to drag, to move"
-1162,6,B1,unterschreiben,to sign (write one's signature),2. prefix,unter,schreiben,to write
-1163,6,B1,unterrichten,"to teach, to inform",2. prefix,unter,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-1164,6,B1,unterbrechen,to interrupt,2. prefix,unter,brechen,to break
-1165,6,B1,untersuchen,"to examine, to investigate",2. prefix,unter,suchen,"to seek, to search"
-1166,6,B1,zerstören,to destroy,2. prefix,zer,stören,"to disturb, to interfere"
-1167,6,B1,abbauen,"to dismantle, to deteriorate",2. prefix,ab,bauen,to build
-1168,6,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",2. prefix,ab,hängen,"to hang, to be fond of, depend on"
-1169,6,B1,abfahren,"to depart, to leave, to drive along",2. prefix,ab,fahren,"to go (by vehicle), to leave, to drive"
-1170,6,B1,besorgen,"to obtain, to manage",2. prefix,be,sorgen,"to care, to worry"
-1171,6,B1,unternehmen,to undertake,2. prefix,unter,nehmen,"to take, to cause oneself to be (in some state)"
-1172,6,B1,anerkennen,"to acknowledge, to recognize",2. prefix,an,erkennen,"to recognise, to realise"
-1173,6,B1,anwenden,"to apply (knowledge, know-how)",2. prefix,an,wenden,"to turn something, to make a u-turn"
-1174,6,B1,einrichten,"to set up, to install, to furnish",2. prefix,ein,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-1175,6,B1,einführen,"to introduce, to implement",2. prefix,ein,führen,"to lead, to guide"
-1176,6,B1,zulassen,"to allow, to license (for a car)",2. prefix,zu,lassen,"to let, to leave, to allow"
-1177,6,B1,mitkommen,"to come with someone, to understand something",2. prefix,mit,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-1178,6,B1,behandeln,"to treat (medicinally), to treat (physically), to cover (a subject)",2. prefix,be,handeln,"to act, to trade, to negotiate"
-1179,6,B1,berichten,"to report, to cover, to indicate, to refer",2. prefix,be,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-1180,6,B1,entwerfen,"to design, to draw, to draft",2. prefix,ent,werfen,to throw
-1181,6,B1,erfolgen,"to occur, to take place",2. prefix,er,folgen,to follow
-1182,6,B1,versorgen,"to provide (for someone), to supply, to feed",2. prefix,ver,sorgen,"to care, to worry"
-1183,6,B1,verarbeiten,"to process, to handle",2. prefix,ver,arbeiten,to work
-1184,6,B1,abziehen,"to withdraw, to go away, to move off",2. prefix,ab,ziehen,"to pull, to drag, to move"
-1185,10,B2,abheben,to withdraw (money),2. prefix,ab,heben,"to lift, to raise"
-1186,10,B2,absehen,"to foresee, to overlook, to disregard",2. prefix,ab,sehen,"to see, to see (to something), to realise"
-1187,10,B2,angeben,"to indicate, to specify",2. prefix,an,geben,to give
-1188,10,B2,anpassen,"to adjust, to adapt",2. prefix,an,passen,"to fit, to suit"
-1189,10,B2,ansprechen,"to address, to speak to",2. prefix,an,sprechen,to speak
-1190,10,B2,anzeigen,"to show, to display",2. prefix,an,zeigen,"to show, to point at, to demonstrate"
-1191,10,B2,anhalten,"to stop (cease moving), to continue, to compel",2. prefix,an,halten,"to hold, to stop (a movement), to support, to keep"
-1192,10,B2,auftreten,"to appear, to perform",2. prefix,auf,treten,"to step, to read, to kick (a ball)"
-1193,10,B2,aufbauen,"to build up, to construct",2. prefix,auf,bauen,to build
-1194,10,B2,auffallen,"to stand out, to catch someone's eye (with dative)",2. prefix,auf,fallen,"to fall, to fall in battle, to collapse"
-1195,10,B2,aufgeben,"to give up on, to give up (refl.), to abandon",2. prefix,auf,geben,to give
-1196,10,B2,aufführen,"to perform, to present",2. prefix,auf,führen,"to lead, to guide"
-1197,10,B2,einnehmen,"to capture, to earn, to ingest",2. prefix,ein,nehmen,"to take, to cause oneself to be (in some state)"
-1198,10,B2,einschalten,"to switch on, to intervene, to turn on",2. prefix,ein,schalten,"to switch, to operate"
-1199,10,B2,einsteigen,"to enter, to get in, to board",2. prefix,ein,steigen,"to ascend, to climb, to rise"
-1200,10,B2,einziehen,"to move in, to penetrate, to infiltrate",2. prefix,ein,ziehen,"to pull, to drag, to move"
-1201,10,B2,zusehen,"to watch, to see, to make sure (that something happens)",2. prefix,zu,sehen,"to see, to see (to something), to realise"
-1202,10,B2,zuhören,to listen to someone/something (with dative),2. prefix,zu,hören,"to hear, to listen to"
-1203,10,B2,zurückziehen,"to withdraw, to pull back, to retreat",2. prefix,zurück,ziehen,"to pull, to drag, to move"
-1204,10,B2,zusammenfassen,"to summarize, to condense, to abstract",2. prefix,zusammen,fassen,to grasp
-1205,10,B2,vorlesen,"to read aloud, to read out",2. prefix,vor,lesen,to read
-1206,10,B2,betrinken,to get drunk (refl.),2. prefix,be,trinken,to drink
-1207,10,B2,bewundern,to admire,2. prefix,be,wundern,"to wonder, to be surprised"
-1208,10,B2,bemerken,"to notice, to remark something",2. prefix,be,merken,"to notice, to realise, to remember (refl.)"
-1209,10,B2,beschließen,"to decide something, to end, to close",2. prefix,be,schließen,"to shut, to close, to lock, to conclude"
-1210,10,B2,berechnen,to calculate something,2. prefix,be,rechnen,"to calculate, to reckon"
-1211,10,B2,beachten,to consider,2. prefix,be,achten,"to respect, to regard someone, to pay attention to something"
-1212,10,B2,bedienen,"to operate, to serve",2. prefix,be,dienen,"to serve, to function"
-1213,10,B2,belegen,"to occupy, to reserve, to cover, to prove",2. prefix,be,legen,"to lay, to lean, to lie down"
-1214,10,B2,betragen,"to amount to, to come to",2. prefix,be,tragen,"to wear (clothing), to carry, to hold"
-1215,10,B2,betreiben,"to run, to operate",2. prefix,be,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
-1216,10,B2,bezeichnen,"to designate, to label",2. prefix,be,zeichnen,"to draw, to sketch"
-1217,10,B2,begehen,"to commit, perpetrate (a crime, an offence)",2. prefix,be,gehen,"to go, to leave, to work, to function (coll.)"
-1218,10,B2,erscheinen,"to appear, to seem",2. prefix,er,scheinen,"to seem, to shine"
-1219,10,B2,erheben,"to raise, to collect",2. prefix,er,heben,"to lift, to raise"
-1220,10,B2,errichten,"to establish, to erect",2. prefix,er,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
-1221,10,B2,erteilen,"to grant, to issue",2. prefix,er,teilen,"to split, to share, to divide"
-1222,10,B2,erwerben,"to acquire, to purchase",2. prefix,er,werben,to advertise
-1223,10,B2,eröffnen,"to open, to inaugurate",2. prefix,er,öffnen,to open (formal)
-1224,10,B2,ertragen,"to bear, to stand",2. prefix,er,tragen,"to wear (clothing), to carry, to hold"
-1225,10,B2,verraten,"to betray, to reveal",2. prefix,ver,raten,"to advise, to recommend, to guess"
-1226,10,B2,vergeben,"to set (work), to forgive, to assign",2. prefix,ver,geben,to give
-1227,10,B2,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)",2. prefix,ver,laufen,"to walk, to flow (of a fluid), to run (of an event)"
-1228,10,B2,verfassen,"to compose, to write",2. prefix,ver,fassen,to grasp
-1229,10,B2,verleihen,"to award, to grant",2. prefix,ver,leihen,"to lend, to borrow"
-1230,10,B2,verfolgen,"to pursue, to persecute, to trace",2. prefix,ver,folgen,to follow
-1231,10,B2,verbrennen,"to burn, to incinerate, to burn oneself, to scorch (miltary)",2. prefix,ver,brennen,"to burn, to have a strong affection for, to induce pain"
-1232,10,B2,verbrauchen,"to consume, to use",2. prefix,ver,brauchen,to need
-1233,10,B2,überweisen,to transfer (money),2. prefix,über,weisen,"to show, to indicate"
-1234,10,B2,umgehen,"to avoid, to go around",2. prefix,um,gehen,"to go, to leave, to work, to function (coll.)"
-1235,11,B2,umsetzen,"to implement, to put into practice",2. prefix,um,setzen,"to set, to sit down (refl.)"
-1236,11,B2,umdrehen,to turn around,2. prefix,um,drehen,"to turn, to veer"
-1237,11,B2,unterscheiden,"to distinguish, to differentiate",2. prefix,unter,scheiden,"to separate, to divorce"
-1238,11,B2,unterhalten,"to maintain, to entertain, to converse (refl.)",2. prefix,unter,halten,"to hold, to stop (a movement), to support, to keep"
-1239,11,B2,unterstreichen,"to underline, to emphasize, to highlight",2. prefix,unter,streichen,"to stroke, to cancel, to spread, to rub, to paint"
-1240,11,B2,durchführen,"to carry out, to perform",2. prefix,durch,führen,"to lead, to guide"
-1241,11,B2,hinterlassen,"to leave, to leave behind, to bequeath",2. prefix,hinter,lassen,"to let, to leave, to allow"
-1242,11,B2,abbrechen,"to break off, to abort, to burst off",2. prefix,ab,brechen,to break
-1243,11,B2,zusammenarbeiten,to work together,2. prefix,zusammen,arbeiten,to work
-1244,11,B2,zusammenstellen,to put together,2. prefix,zusammen,stellen,"to position, to put, to catch"
-1245,11,B2,überlassen,"to relinquish, to leave something in someone's care",2. prefix,über,lassen,"to let, to leave, to allow"
-1246,11,B2,anstellen,"to queue (refl.), to employ someone, to get into mischief",2. prefix,an,stellen,"to position, to put, to catch"
-1247,11,B2,auftauchen,"to arise, to surface, to turn up",2. prefix,auf,tauchen,"to dive, to submerge, to disappear"
-1248,11,B2,einfallen,"to collapse, to come to mind",2. prefix,ein,fallen,"to fall, to fall in battle, to collapse"
-1249,11,B2,weitermachen,"go on, keep going, continue to do something",2. prefix,weiter,machen,"to make, to prepare (e.g. food), to do"
-1250,11,B2,bekämpfen,to fight against something,2. prefix,be,kämpfen,"to fight, to struggle"
-1251,11,B2,verhandeln,to negotiate,2. prefix,ver,handeln,"to act, to trade, to negotiate"
-1252,11,B2,verhalten,"to behave (refl.), to act (refl.), to press (coll.)",2. prefix,ver,halten,"to hold, to stop (a movement), to support, to keep"
-1253,11,B2,überleben,to survive,2. prefix,über,leben,to live
-1254,11,B2,bewirken,"to bring about, to cause, to effect",2. prefix,be,wirken,"to work, to be effective, to take affect, to act"
-1255,11,B2,befürchten,"to fear, to apprehend, to be afraid",2. prefix,be,fürchten,"to fear, to be afraid"
-1256,11,B2,abbilden,"to depict, to map, to illustrate",2. prefix,ab,bilden,"to form, to educate oneself (refl.)"
-1257,11,B2,ablaufen,"to expire, to run out, to discharge",2. prefix,ab,laufen,"to walk, to flow (of a fluid), to run (of an event)"
-1258,11,B2,ableiten,"to derive, to deduce",2. prefix,ab,leiten,"to lead, to manage"
-1259,11,B2,abstimmen,"to coordinate, to vote, to adjust",2. prefix,ab,stimmen,"to be true, to vote, to tune"
-1260,11,B2,anschließen,"to join, to attach, to affiliate, to connect",2. prefix,an,schließen,"to shut, to close, to lock, to conclude"
-1261,11,B2,anführen,"to cite, to lead, to quote",2. prefix,an,führen,"to lead, to guide"
-1262,11,B2,anschaffen,"to purchase, to acquire, to procure",2. prefix,an,schaffen,"to create, to produce, to achieve/reach a goal"
-1263,11,B2,aufbrechen,"to leave, to set off, to start, to break, to burst",2. prefix,auf,brechen,to break
-1264,11,B2,auffordern,"to request, to invite, to ask",2. prefix,auf,fordern,"to demand, to require"
-1265,11,B2,aufhalten,"to stop, to stay, to delay",2. prefix,auf,halten,"to hold, to stop (a movement), to support, to keep"
-1266,11,B2,aufheben,"to abolish, to lift, to pick up, to keep",2. prefix,auf,heben,"to lift, to raise"
-1267,11,B2,aufladen,"to charge, to load, to burden, to impose",2. prefix,auf,laden,"to load, to charge"
-1268,11,B2,auflösen,"to dissolve, to resolve, to annul, to liquidate",2. prefix,auf,lösen,"to loosen, to solve, to separate, to remove"
-1269,11,B2,aufsteigen,"to rise, to ascend, to advance, to climb",2. prefix,auf,steigen,"to ascend, to climb, to rise"
-1270,11,B2,einfügen,"to insert, to infix, to conform",2. prefix,ein,fügen,"to acquiesce, to comply, to fit together"
-1271,11,B2,einleiten,"to introduce, to initiate, to commence",2. prefix,ein,leiten,"to lead, to manage"
-1272,11,B2,eintragen,"to register, to enter, to record, to enrol",2. prefix,ein,tragen,"to wear (clothing), to carry, to hold"
-1273,11,B2,eintreten,"to enter, to join, to occur",2. prefix,ein,treten,"to step, to read, to kick (a ball)"
-1274,11,B2,nachweisen,"to prove, to account for, to demonstrate",2. prefix,nach,weisen,"to show, to indicate"
-1275,11,B2,vorlegen,"to present, to submit, to bring forward",2. prefix,vor,legen,"to lay, to lean, to lie down"
-1276,11,B2,vorkommen,"to occur, to happen, to advance",2. prefix,vor,kommen,"to come, to make it (e.g. over something), to go to, to occur"
-1277,11,B2,voraussetzen,"to presume, to require, to assume",2. prefix,vor,aussetzen,"to pause, to suspend something, to abandon someone, to expose oneself to something (refl.)"
-1278,11,B2,weitergeben,"to pass on, to impart, to relay",2. prefix,weiter,geben,to give
-1279,11,B2,zuordnen,"to assign, to allocate",2. prefix,zu,ordnen,"to organize, to arrange, to order"
-1280,11,B2,zugehen,"to approach, to close, to happen",2. prefix,zu,gehen,"to go, to leave, to work, to function (coll.)"
-1281,11,B2,zurückgeben,"to return, to give back, to answer back",2. prefix,zurück,geben,to give
-1282,11,B2,zurückhalten,"to restrain, to hold back, to withhold",2. prefix,zurück,halten,"to hold, to stop (a movement), to support, to keep"
-1283,12,B2,beherrschen,"to dominate, to master, to control, to rule",2. prefix,be,herrschen,"to rule, to prevail, to control"
-1284,12,B2,beklagen,"to complain, to lament, to air grievances",2. prefix,be,klagen,"to complain, to lament, to sue"
-1285,12,B2,benennen,"to name, to designate, to appoint",2. prefix,be,nennen,"to name, to call someone something, to mention"
-1286,12,B2,besetzen,"to occupy, to border, to cast",2. prefix,be,setzen,"to set, to sit down (refl.)"
-1287,12,B2,erfordern,"to require, to demand, to necessitate",2. prefix,er,fordern,"to demand, to require"
-1288,12,B2,ergreifen,"to seize, to grasp, to take hold of",2. prefix,er,greifen,"to grab, to seize, to reach, to capture"
-1289,12,B2,erarbeiten,"to develop, to elaborate, to work out, to acquire",2. prefix,er,arbeiten,to work
-1290,12,B2,versehen,"to provide, to equip, to supply",2. prefix,ver,sehen,"to see, to see (to something), to realise"
-1291,12,B2,verpacken,"to pack, to wrap, to package",2. prefix,ver,packen,"to pack, to grab, to manage"
-1292,12,B2,verschreiben,"to prescribe, to commit oneself to, to misspell by accident",2. prefix,ver,schreiben,to write
-1293,12,B2,versichern,"to assure, to insure, to cover",2. prefix,ver,sichern,"to secure, to protect"
-1294,12,B2,vertreiben,"to expel, to dislodge, to displace",2. prefix,ver,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
-1295,12,B2,anlegen,"to create, to invest",2. prefix,an,legen,"to lay, to lean, to lie down"
-1296,12,B2,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",2. prefix,ein,gehen,"to go, to leave, to work, to function (coll.)"
-1297,12,B2,abrufen,"to retrieve, to access, to call away",2. prefix,ab,rufen,"to call out, to call for help, to telephone"
-1298,12,B2,aufweisen,"to exhibit, to feature, to show, to boast",2. prefix,auf,weisen,"to show, to indicate"
-1299,12,B2,einschließen,"to include, to enclose, to lock up, to surround",2. prefix,ein,schließen,"to shut, to close, to lock, to conclude"
-1300,12,B2,eingeben,"to enter, to input, to give, to supply",2. prefix,ein,geben,to give
-1301,12,B2,vorliegen,"to exist, to be available",2. prefix,vor,liegen,"to lie, to be located"
-1302,12,B2,vornehmen,"to undertake, to carry out",2. prefix,vor,nehmen,"to take, to cause oneself to be (in some state)"
-1303,12,B2,vorgehen,"to proceed, to advance, to go ahead",2. prefix,vor,gehen,"to go, to leave, to work, to function (coll.)"
-1304,12,B2,vorwerfen,"to reproach, to accuse of, to allege",2. prefix,vor,werfen,to throw
-1305,12,B2,betreffen,"to concern, to affect",2. prefix,be,treffen,"to meet, to encounter"
-1306,12,B2,beziehen,"to refer, to obtain",2. prefix,be,ziehen,"to pull, to drag, to move"
-1307,12,B2,bedenken,"to consider, to reflect, to give, to allow for",2. prefix,be,denken,"to think, to consider"
-1308,12,B2,befassen,"to address, to deal with, to attend to",2. prefix,be,fassen,to grasp
-1309,12,B2,erfassen,"to record, to capture",2. prefix,er,fassen,to grasp
-1310,12,B2,erweisen,"to prove (passively), to turn out to be, to show",2. prefix,er,weisen,"to show, to indicate"
-1311,12,B2,verstärken,"to amplify, to intensify, to strengthen",2. prefix,ver,stärken,to strengthen
-1312,12,B2,übergeben,"to hand over, to vomit (refl.)",2. prefix,über,geben,to give
-1313,12,B2,überschreiten,"to exceed, to overstep, to surpass",2. prefix,über,schreiten,"to stride, to step, to proceed"
-1314,12,B2,umfassen,"to include, to comprise",2. prefix,um,fassen,to grasp
-1315,12,B2,umgeben,"to surround, to enclose, to encompass",2. prefix,um,geben,to give
-1316,12,B2,unterliegen,"to be subject to, to undergo",2. prefix,unter,liegen,"to lie, to be located"
+1061,4,A2,abholen,"to pick up someone or something, to collect",2. prefix,ab,holen,to fetch
+1062,4,A2,ankommen,"to arrive, to depend on something",2. prefix,an,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+1063,4,A2,anmelden,"to register, to sign up",2. prefix,an,melden,"to report, to register"
+1064,4,A2,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose",2. prefix,an,nehmen,"to take, to cause oneself to be (in some state)"
+1065,4,A2,anbieten,"to offer, to provide",2. prefix,an,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
+1066,4,A2,aufmachen,"to open (coll.), to head/move off (refl.), to undo something",2. prefix,auf,machen,"to make, to prepare (e.g. food), to do"
+1067,4,A2,aufpassen,"to watch out, to look after something, to be attentive with something",2. prefix,auf,passen,"to fit, to suit"
+1068,4,A2,einschlafen,to fall asleep,2. prefix,ein,schlafen,to sleep
+1069,4,A2,einkaufen,to shop,2. prefix,ein,kaufen,to buy
+1070,4,A2,zurückgehen,"to go back, to decline",2. prefix,zurück,gehen,"to go, to leave, to work, to function (coll.)"
+1071,4,A2,mitnehmen,"to carry along, to pick up (something), to take away",2. prefix,mit,nehmen,"to take, to cause oneself to be (in some state)"
+1072,4,A2,mitbringen,"to bring along, to bring with",2. prefix,mit,bringen,"to bring, to take, to lead"
+1073,4,A2,mitteilen,"to inform, to share",2. prefix,mit,teilen,"to split, to share, to divide"
+1074,4,A2,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent",2. prefix,vor,stellen,"to position, to put, to catch"
+1075,4,A2,vorschlagen,"to suggest, to propose",2. prefix,vor,schlagen,"to hit, to defeat, to beat (cooking)"
+1076,4,A2,besitzen,"to own, to possess, to have",2. prefix,be,sitzen,"to be seated, to stay, to fit (of clothing)"
+1077,4,A2,behalten,to keep,2. prefix,be,halten,"to hold, to stop (a movement), to support, to keep"
+1078,4,A2,befinden,"to be located (refl.), to find, to consider (formal)",2. prefix,be,finden,to find
+1079,4,A2,beraten,"to advise, to consult",2. prefix,be,raten,"to advise, to recommend, to guess"
+1080,4,A2,bewerben,to apply (to a job etc.),2. prefix,be,werben,to advertise
+1081,4,A2,beenden,"to finish, to complete, to terminate (relationship)",2. prefix,be,enden,to end (passive)
+1082,4,A2,empfehlen,"to recommend, to suggest",2. prefix,emp,fehlen,"to lack, to be absent/missing"
+1083,4,A2,entscheiden,to decide,2. prefix,ent,scheiden,"to separate, to divorce"
+1084,4,A2,enthalten,"to contain, to include",2. prefix,ent,halten,"to hold, to stop (a movement), to support, to keep"
+1085,4,A2,erkennen,"to recognise, to realise",2. prefix,er,kennen,"to know, to be acquainted with, to be familiar with"
+1086,4,A2,erwarten,"to expect, to await",2. prefix,er,warten,"to wait, to maintain (e.g. a car)"
+1087,4,A2,ersetzen,"to replace, to substitute",2. prefix,er,setzen,"to set, to sit down (refl.)"
+1088,4,A2,erstellen,"to create, to generate, to compile, to set up",2. prefix,er,stellen,"to position, to put, to catch"
+1089,4,A2,verlassen,"to leave, to trust with something (refl.), to pass away, to die",2. prefix,ver,lassen,"to let, to leave, to allow"
+1090,4,A2,versprechen,"to promise, to hope for, to misspeak",2. prefix,ver,sprechen,to speak
+1091,4,A2,verändern,"to alter, to change something",2. prefix,ver,ändern,to change (one's personality/behavior)
+1092,4,A2,verpassen,"to miss (to be late for something, e.g. a train)",2. prefix,ver,passen,"to fit, to suit"
+1093,4,A2,verbieten,"to forbid, to prohibit (with dative)",2. prefix,ver,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)"
+1094,4,A2,vertreten,"to represent, to stand for",2. prefix,ver,treten,"to step, to read, to kick (a ball)"
+1095,4,A2,übernehmen,to take over,2. prefix,über,nehmen,"to take, to cause oneself to be (in some state)"
+1096,4,A2,überlegen,"to consider, to think over",2. prefix,über,legen,"to lay, to lean, to lie down"
+1097,4,A2,überprüfen,to check,2. prefix,über,prüfen,"to investigate, to check something, to consider"
+1098,7,B1,abgeben,"to hand something in, to emit something, to deliver something, to cede something",2. prefix,ab,geben,to give
+1099,7,B1,absagen,"to call off, to cancel",2. prefix,ab,sagen,"to say, to tell"
+1100,7,B1,abschließen,"to complete, to end, to shut off, to lock up, to conclude (a contract, deal)",2. prefix,ab,schließen,"to shut, to close, to lock, to conclude"
+1101,7,B1,ablenken,"to distract, to divert, to steer away",2. prefix,ab,lenken,"to guide, to direct, to steer, to control"
+1102,7,B1,abnehmen,"to decrease, to lose weight, to accept something, to pick up (of telephones)",2. prefix,ab,nehmen,"to take, to cause oneself to be (in some state)"
+1103,7,B1,anschauen,"to look at, to behold, to take a look at, to watch (Bayern/Austria)",2. prefix,an,schauen,to look at (Bayern/Austria)
+1104,7,B1,anfassen,to touch,2. prefix,an,fassen,to grasp
+1105,7,B1,ankündigen,"to announce, to declare",2. prefix,an,kündigen,"to terminate, to cancel"
+1106,7,B1,aufwachsen,"to grow up, to be raised",2. prefix,auf,wachsen,"to grow, to increase"
+1107,7,B1,aufnehmen,"to pick up, to receive, to take in, to record, to absorb",2. prefix,auf,nehmen,"to take, to cause oneself to be (in some state)"
+1108,7,B1,einsetzen,"to insert, to use, to appoint, to risk",2. prefix,ein,setzen,"to set, to sit down (refl.)"
+1109,7,B1,einstellen,"to employ someone, to adjust, to cease",2. prefix,ein,stellen,"to position, to put, to catch"
+1110,7,B1,zustimmen,"to agree, to consent",2. prefix,zu,stimmen,"to be true, to vote, to tune"
+1111,7,B1,zubereiten,"to prepare, to cook in advance",2. prefix,zu,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
+1112,7,B1,zunehmen,"to gain weight, to increase",2. prefix,zu,nehmen,"to take, to cause oneself to be (in some state)"
+1113,7,B1,zugeben,to admit,2. prefix,zu,geben,to give
+1114,7,B1,zusagen,"to promise, to accept, to confirm",2. prefix,zu,sagen,"to say, to tell"
+1115,7,B1,zurückkommen,to return (to come back),2. prefix,zurück,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+1116,7,B1,herausfinden,"to find something out, to discover",2. prefix,heraus,finden,to find
+1117,7,B1,hervorheben,"to point out, to emphasize",2. prefix,hervor,heben,"to lift, to raise"
+1118,7,B1,herunterladen,to download,2. prefix,herunter,laden,"to load, to charge"
+1119,7,B1,herstellen,"to manufacture, to produce",2. prefix,her,stellen,"to position, to put, to catch"
+1120,7,B1,hinweisen,"to indicate, to point out",2. prefix,hin,weisen,"to show, to indicate"
+1121,7,B1,mitmachen,"to join in, to take part",2. prefix,mit,machen,"to make, to prepare (e.g. food), to do"
+1122,7,B1,nachdenken,"to think, to reflect",2. prefix,nach,denken,"to think, to consider"
+1123,7,B1,vorhaben,to have something planned,2. prefix,vor,haben,"to have, to contain"
+1124,7,B1,vorbereiten,"to prepare (in advance), to prepare oneself (refl.)",2. prefix,vor,bereiten,"to prepare something (meals, coffee, etc.), to give, to cause (pleasure, trouble, etc.)"
+1125,7,B1,vorgeben,to pretend,2. prefix,vor,geben,to give
+1126,7,B1,beschreiben,to describe,2. prefix,be,schreiben,to write
+1127,7,B1,bestellen,"to order (e.g. food), to summon, to reserve",2. prefix,be,stellen,"to position, to put, to catch"
+1128,7,B1,beweisen,"to prove, to demonstrate",2. prefix,be,weisen,"to show, to indicate"
+1129,7,B1,bestehen,"to succeed, to pass (an exam), to consist, to insist",2. prefix,be,stehen,"to stand, to be, to appear"
+1130,7,B1,begründen,"to justify, to explain",2. prefix,be,gründen,"to found, to establish"
+1131,7,B1,bearbeiten,to edit,2. prefix,be,arbeiten,to work
+1132,7,B1,besprechen,"to discuss (formal, work related)",2. prefix,be,sprechen,to speak
+1133,7,B1,beantworten,to answer (a question),2. prefix,be,antworten,"to answer, to reply"
+1134,7,B1,empfangen,"to receive, to welcome (formal), to greet, to conceive (biology)",2. prefix,emp,fangen,to catch
+1135,7,B1,empfinden,to feel (emotions),2. prefix,emp,finden,to find
+1136,7,B1,entdecken,"to discover, to spot",2. prefix,ent,decken,"to cover, to meet"
+1137,7,B1,entstehen,"to arise, to emerge, to develop",2. prefix,ent,stehen,"to stand, to be, to appear"
+1138,7,B1,entsprechen,"to correspond, to comply",2. prefix,ent,sprechen,to speak
+1139,7,B1,entziehen,"to withdraw, deprive",2. prefix,ent,ziehen,"to pull, to drag, to move"
+1140,7,B1,entlassen,"to dismiss (from a job), to fire, to release (a prisoner or patient)",2. prefix,ent,lassen,"to let, to leave, to allow"
+1141,8,B1,erwachsen,"to grow up, to spring up, to accrue",2. prefix,er,wachsen,"to grow, to increase"
+1142,8,B1,erhalten,"to receive (passively), to maintain, to save",2. prefix,er,halten,"to hold, to stop (a movement), to support, to keep"
+1143,8,B1,erleben,"to experience, to witness",2. prefix,er,leben,to live
+1144,8,B1,erholen,to recover,2. prefix,er,holen,to fetch
+1145,8,B1,erfahren,"to experience, to find out, to learn",2. prefix,er,fahren,"to go (by vehicle), to leave, to drive"
+1146,8,B1,erfinden,"to invent, to fabricate (something untrue), to find out",2. prefix,er,finden,to find
+1147,8,B1,erzielen,"to achieve, to reach a result",2. prefix,er,zielen,"to aim, to target"
+1148,8,B1,erfüllen,"to fill (with something), to fulfill, to come true",2. prefix,er,füllen,to fill
+1149,8,B1,ergeben,"to produce, to arise, to result in, to turn out, to surrender (refl.)",2. prefix,er,geben,to give
+1150,8,B1,erreichen,to reach,2. prefix,er,reichen,"to suffice, to be enough"
+1151,8,B1,verstecken,to hide,2. prefix,ver,stecken,"to stick, to pin"
+1152,8,B1,verlieben,to fall in love (refl.),2. prefix,ver,lieben,to love
+1153,8,B1,verdienen,to earn,2. prefix,ver,dienen,"to serve, to function"
+1154,8,B1,verbinden,"to join, to connect, to bandage",2. prefix,ver,binden,"to bind, to tie, to tie up, to absorb"
+1155,8,B1,verbringen,to spend (time),2. prefix,ver,bringen,"to bring, to take, to lead"
+1156,8,B1,vermeiden,to avoid (+ nouns or verbs),2. prefix,ver,meiden,to avoid (+ nouns only)
+1157,8,B1,verwenden,to use (formal),2. prefix,ver,wenden,"to turn something, to make a u-turn"
+1158,8,B1,verschieben,"to move (a meeting), to postpone, to defer",2. prefix,ver,schieben,to push
+1159,8,B1,verteilen,"to distribute, to share",2. prefix,ver,teilen,"to split, to share, to divide"
+1160,8,B1,übertragen,"to transfer, to transmit",2. prefix,über,tragen,"to wear (clothing), to carry, to hold"
+1161,8,B1,umziehen,"to change clothes (refl.), to move house",2. prefix,um,ziehen,"to pull, to drag, to move"
+1162,8,B1,unterschreiben,to sign (write one's signature),2. prefix,unter,schreiben,to write
+1163,8,B1,unterrichten,"to teach, to inform",2. prefix,unter,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+1164,8,B1,unterbrechen,to interrupt,2. prefix,unter,brechen,to break
+1165,8,B1,untersuchen,"to examine, to investigate",2. prefix,unter,suchen,"to seek, to search"
+1166,8,B1,zerstören,to destroy,2. prefix,zer,stören,"to disturb, to interfere"
+1167,8,B1,abbauen,"to dismantle, to deteriorate",2. prefix,ab,bauen,to build
+1168,8,B1,abhängen,"to leave behind, to outdistance, to uncouple, to depend",2. prefix,ab,hängen,"to hang, to be fond of, depend on"
+1169,8,B1,abfahren,"to depart, to leave, to drive along",2. prefix,ab,fahren,"to go (by vehicle), to leave, to drive"
+1170,8,B1,besorgen,"to obtain, to manage",2. prefix,be,sorgen,"to care, to worry"
+1171,8,B1,unternehmen,to undertake,2. prefix,unter,nehmen,"to take, to cause oneself to be (in some state)"
+1172,8,B1,anerkennen,"to acknowledge, to recognize",2. prefix,an,erkennen,"to recognise, to realise"
+1173,8,B1,anwenden,"to apply (knowledge, know-how)",2. prefix,an,wenden,"to turn something, to make a u-turn"
+1174,8,B1,einrichten,"to set up, to install, to furnish",2. prefix,ein,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+1175,8,B1,einführen,"to introduce, to implement",2. prefix,ein,führen,"to lead, to guide"
+1176,8,B1,zulassen,"to allow, to license (for a car)",2. prefix,zu,lassen,"to let, to leave, to allow"
+1177,8,B1,mitkommen,"to come with someone, to understand something",2. prefix,mit,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+1178,8,B1,behandeln,"to treat (medicinally), to treat (physically), to cover (a subject)",2. prefix,be,handeln,"to act, to trade, to negotiate"
+1179,8,B1,berichten,"to report, to cover, to indicate, to refer",2. prefix,be,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+1180,8,B1,entwerfen,"to design, to draw, to draft",2. prefix,ent,werfen,to throw
+1181,8,B1,erfolgen,"to occur, to take place",2. prefix,er,folgen,to follow
+1182,8,B1,versorgen,"to provide (for someone), to supply, to feed",2. prefix,ver,sorgen,"to care, to worry"
+1183,8,B1,verarbeiten,"to process, to handle",2. prefix,ver,arbeiten,to work
+1184,8,B1,abziehen,"to withdraw, to go away, to move off",2. prefix,ab,ziehen,"to pull, to drag, to move"
+1185,12,B2,abheben,to withdraw (money),2. prefix,ab,heben,"to lift, to raise"
+1186,12,B2,absehen,"to foresee, to overlook, to disregard",2. prefix,ab,sehen,"to see, to see (to something), to realise"
+1187,12,B2,angeben,"to indicate, to specify",2. prefix,an,geben,to give
+1188,12,B2,anpassen,"to adjust, to adapt",2. prefix,an,passen,"to fit, to suit"
+1189,12,B2,ansprechen,"to address, to speak to",2. prefix,an,sprechen,to speak
+1190,12,B2,anzeigen,"to show, to display",2. prefix,an,zeigen,"to show, to point at, to demonstrate"
+1191,12,B2,anhalten,"to stop (cease moving), to continue, to compel",2. prefix,an,halten,"to hold, to stop (a movement), to support, to keep"
+1192,12,B2,auftreten,"to appear, to perform",2. prefix,auf,treten,"to step, to read, to kick (a ball)"
+1193,12,B2,aufbauen,"to build up, to construct",2. prefix,auf,bauen,to build
+1194,12,B2,auffallen,"to stand out, to catch someone's eye (with dative)",2. prefix,auf,fallen,"to fall, to fall in battle, to collapse"
+1195,12,B2,aufgeben,"to give up on, to give up (refl.), to abandon",2. prefix,auf,geben,to give
+1196,12,B2,aufführen,"to perform, to present",2. prefix,auf,führen,"to lead, to guide"
+1197,12,B2,einnehmen,"to capture, to earn, to ingest",2. prefix,ein,nehmen,"to take, to cause oneself to be (in some state)"
+1198,12,B2,einschalten,"to switch on, to intervene, to turn on",2. prefix,ein,schalten,"to switch, to operate"
+1199,12,B2,einsteigen,"to enter, to get in, to board",2. prefix,ein,steigen,"to ascend, to climb, to rise"
+1200,12,B2,einziehen,"to move in, to penetrate, to infiltrate",2. prefix,ein,ziehen,"to pull, to drag, to move"
+1201,12,B2,zusehen,"to watch, to see, to make sure (that something happens)",2. prefix,zu,sehen,"to see, to see (to something), to realise"
+1202,12,B2,zuhören,to listen to someone/something (with dative),2. prefix,zu,hören,"to hear, to listen to"
+1203,12,B2,zurückziehen,"to withdraw, to pull back, to retreat",2. prefix,zurück,ziehen,"to pull, to drag, to move"
+1204,12,B2,zusammenfassen,"to summarize, to condense, to abstract",2. prefix,zusammen,fassen,to grasp
+1205,12,B2,vorlesen,"to read aloud, to read out",2. prefix,vor,lesen,to read
+1206,12,B2,betrinken,to get drunk (refl.),2. prefix,be,trinken,to drink
+1207,12,B2,bewundern,to admire,2. prefix,be,wundern,"to wonder, to be surprised"
+1208,12,B2,bemerken,"to notice, to remark something",2. prefix,be,merken,"to notice, to realise, to remember (refl.)"
+1209,12,B2,beschließen,"to decide something, to end, to close",2. prefix,be,schließen,"to shut, to close, to lock, to conclude"
+1210,12,B2,berechnen,to calculate something,2. prefix,be,rechnen,"to calculate, to reckon"
+1211,12,B2,beachten,to consider,2. prefix,be,achten,"to respect, to regard someone, to pay attention to something"
+1212,12,B2,bedienen,"to operate, to serve",2. prefix,be,dienen,"to serve, to function"
+1213,12,B2,belegen,"to occupy, to reserve, to cover, to prove",2. prefix,be,legen,"to lay, to lean, to lie down"
+1214,12,B2,betragen,"to amount to, to come to",2. prefix,be,tragen,"to wear (clothing), to carry, to hold"
+1215,12,B2,betreiben,"to run, to operate",2. prefix,be,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
+1216,12,B2,bezeichnen,"to designate, to label",2. prefix,be,zeichnen,"to draw, to sketch"
+1217,12,B2,begehen,"to commit, perpetrate (a crime, an offence)",2. prefix,be,gehen,"to go, to leave, to work, to function (coll.)"
+1218,12,B2,erscheinen,"to appear, to seem",2. prefix,er,scheinen,"to seem, to shine"
+1219,12,B2,erheben,"to raise, to collect",2. prefix,er,heben,"to lift, to raise"
+1220,12,B2,errichten,"to establish, to erect",2. prefix,er,richten,"to direct, to judge, to be directed (""auf"" towards, ""gegen"" at)"
+1221,12,B2,erteilen,"to grant, to issue",2. prefix,er,teilen,"to split, to share, to divide"
+1222,12,B2,erwerben,"to acquire, to purchase",2. prefix,er,werben,to advertise
+1223,12,B2,eröffnen,"to open, to inaugurate",2. prefix,er,öffnen,to open (formal)
+1224,12,B2,ertragen,"to bear, to stand",2. prefix,er,tragen,"to wear (clothing), to carry, to hold"
+1225,12,B2,verraten,"to betray, to reveal",2. prefix,ver,raten,"to advise, to recommend, to guess"
+1226,12,B2,vergeben,"to set (work), to forgive, to assign",2. prefix,ver,geben,to give
+1227,12,B2,verlaufen,"to blend, to continue, to get lost (refl.), to go (well, poorly, etc.)",2. prefix,ver,laufen,"to walk, to flow (of a fluid), to run (of an event)"
+1228,12,B2,verfassen,"to compose, to write",2. prefix,ver,fassen,to grasp
+1229,12,B2,verleihen,"to award, to grant",2. prefix,ver,leihen,"to lend, to borrow"
+1230,12,B2,verfolgen,"to pursue, to persecute, to trace",2. prefix,ver,folgen,to follow
+1231,12,B2,verbrennen,"to burn, to incinerate, to burn oneself, to scorch (miltary)",2. prefix,ver,brennen,"to burn, to have a strong affection for, to induce pain"
+1232,12,B2,verbrauchen,"to consume, to use",2. prefix,ver,brauchen,to need
+1233,12,B2,überweisen,to transfer (money),2. prefix,über,weisen,"to show, to indicate"
+1234,12,B2,umgehen,"to avoid, to go around",2. prefix,um,gehen,"to go, to leave, to work, to function (coll.)"
+1235,13,B2,umsetzen,"to implement, to put into practice",2. prefix,um,setzen,"to set, to sit down (refl.)"
+1236,13,B2,umdrehen,to turn around,2. prefix,um,drehen,"to turn, to veer"
+1237,13,B2,unterscheiden,"to distinguish, to differentiate",2. prefix,unter,scheiden,"to separate, to divorce"
+1238,13,B2,unterhalten,"to maintain, to entertain, to converse (refl.)",2. prefix,unter,halten,"to hold, to stop (a movement), to support, to keep"
+1239,13,B2,unterstreichen,"to underline, to emphasize, to highlight",2. prefix,unter,streichen,"to stroke, to cancel, to spread, to rub, to paint"
+1240,13,B2,durchführen,"to carry out, to perform",2. prefix,durch,führen,"to lead, to guide"
+1241,13,B2,hinterlassen,"to leave, to leave behind, to bequeath",2. prefix,hinter,lassen,"to let, to leave, to allow"
+1242,13,B2,abbrechen,"to break off, to abort, to burst off",2. prefix,ab,brechen,to break
+1243,13,B2,zusammenarbeiten,to work together,2. prefix,zusammen,arbeiten,to work
+1244,13,B2,zusammenstellen,to put together,2. prefix,zusammen,stellen,"to position, to put, to catch"
+1245,13,B2,überlassen,"to relinquish, to leave something in someone's care",2. prefix,über,lassen,"to let, to leave, to allow"
+1246,13,B2,anstellen,"to queue (refl.), to employ someone, to get into mischief",2. prefix,an,stellen,"to position, to put, to catch"
+1247,13,B2,auftauchen,"to arise, to surface, to turn up",2. prefix,auf,tauchen,"to dive, to submerge, to disappear"
+1248,13,B2,einfallen,"to collapse, to come to mind",2. prefix,ein,fallen,"to fall, to fall in battle, to collapse"
+1249,13,B2,weitermachen,"go on, keep going, continue to do something",2. prefix,weiter,machen,"to make, to prepare (e.g. food), to do"
+1250,13,B2,bekämpfen,to fight against something,2. prefix,be,kämpfen,"to fight, to struggle"
+1251,13,B2,verhandeln,to negotiate,2. prefix,ver,handeln,"to act, to trade, to negotiate"
+1252,13,B2,verhalten,"to behave (refl.), to act (refl.), to press (coll.)",2. prefix,ver,halten,"to hold, to stop (a movement), to support, to keep"
+1253,13,B2,überleben,to survive,2. prefix,über,leben,to live
+1254,13,B2,bewirken,"to bring about, to cause, to effect",2. prefix,be,wirken,"to work, to be effective, to take affect, to act"
+1255,13,B2,befürchten,"to fear, to apprehend, to be afraid",2. prefix,be,fürchten,"to fear, to be afraid"
+1256,13,B2,abbilden,"to depict, to map, to illustrate",2. prefix,ab,bilden,"to form, to educate oneself (refl.)"
+1257,13,B2,ablaufen,"to expire, to run out, to discharge",2. prefix,ab,laufen,"to walk, to flow (of a fluid), to run (of an event)"
+1258,13,B2,ableiten,"to derive, to deduce",2. prefix,ab,leiten,"to lead, to manage"
+1259,13,B2,abstimmen,"to coordinate, to vote, to adjust",2. prefix,ab,stimmen,"to be true, to vote, to tune"
+1260,13,B2,anschließen,"to join, to attach, to affiliate, to connect",2. prefix,an,schließen,"to shut, to close, to lock, to conclude"
+1261,13,B2,anführen,"to cite, to lead, to quote",2. prefix,an,führen,"to lead, to guide"
+1262,13,B2,anschaffen,"to purchase, to acquire, to procure",2. prefix,an,schaffen,"to create, to produce, to achieve/reach a goal"
+1263,13,B2,aufbrechen,"to leave, to set off, to start, to break, to burst",2. prefix,auf,brechen,to break
+1264,13,B2,auffordern,"to request, to invite, to ask",2. prefix,auf,fordern,"to demand, to require"
+1265,13,B2,aufhalten,"to stop, to stay, to delay",2. prefix,auf,halten,"to hold, to stop (a movement), to support, to keep"
+1266,13,B2,aufheben,"to abolish, to lift, to pick up, to keep",2. prefix,auf,heben,"to lift, to raise"
+1267,13,B2,aufladen,"to charge, to load, to burden, to impose",2. prefix,auf,laden,"to load, to charge"
+1268,13,B2,auflösen,"to dissolve, to resolve, to annul, to liquidate",2. prefix,auf,lösen,"to loosen, to solve, to separate, to remove"
+1269,13,B2,aufsteigen,"to rise, to ascend, to advance, to climb",2. prefix,auf,steigen,"to ascend, to climb, to rise"
+1270,13,B2,einfügen,"to insert, to infix, to conform",2. prefix,ein,fügen,"to acquiesce, to comply, to fit together"
+1271,13,B2,einleiten,"to introduce, to initiate, to commence",2. prefix,ein,leiten,"to lead, to manage"
+1272,13,B2,eintragen,"to register, to enter, to record, to enrol",2. prefix,ein,tragen,"to wear (clothing), to carry, to hold"
+1273,13,B2,eintreten,"to enter, to join, to occur",2. prefix,ein,treten,"to step, to read, to kick (a ball)"
+1274,13,B2,nachweisen,"to prove, to account for, to demonstrate",2. prefix,nach,weisen,"to show, to indicate"
+1275,13,B2,vorlegen,"to present, to submit, to bring forward",2. prefix,vor,legen,"to lay, to lean, to lie down"
+1276,13,B2,vorkommen,"to occur, to happen, to advance",2. prefix,vor,kommen,"to come, to make it (e.g. over something), to go to, to occur"
+1277,13,B2,voraussetzen,"to presume, to require, to assume",2. prefix,vor,aussetzen,"to pause, to suspend something, to abandon someone, to expose oneself to something (refl.)"
+1278,13,B2,weitergeben,"to pass on, to impart, to relay",2. prefix,weiter,geben,to give
+1279,13,B2,zuordnen,"to assign, to allocate",2. prefix,zu,ordnen,"to organize, to arrange, to order"
+1280,13,B2,zugehen,"to approach, to close, to happen",2. prefix,zu,gehen,"to go, to leave, to work, to function (coll.)"
+1281,13,B2,zurückgeben,"to return, to give back, to answer back",2. prefix,zurück,geben,to give
+1282,13,B2,zurückhalten,"to restrain, to hold back, to withhold",2. prefix,zurück,halten,"to hold, to stop (a movement), to support, to keep"
+1283,14,B2,beherrschen,"to dominate, to master, to control, to rule",2. prefix,be,herrschen,"to rule, to prevail, to control"
+1284,14,B2,beklagen,"to complain, to lament, to air grievances",2. prefix,be,klagen,"to complain, to lament, to sue"
+1285,14,B2,benennen,"to name, to designate, to appoint",2. prefix,be,nennen,"to name, to call someone something, to mention"
+1286,14,B2,besetzen,"to occupy, to border, to cast",2. prefix,be,setzen,"to set, to sit down (refl.)"
+1287,14,B2,erfordern,"to require, to demand, to necessitate",2. prefix,er,fordern,"to demand, to require"
+1288,14,B2,ergreifen,"to seize, to grasp, to take hold of",2. prefix,er,greifen,"to grab, to seize, to reach, to capture"
+1289,14,B2,erarbeiten,"to develop, to elaborate, to work out, to acquire",2. prefix,er,arbeiten,to work
+1290,14,B2,versehen,"to provide, to equip, to supply",2. prefix,ver,sehen,"to see, to see (to something), to realise"
+1291,14,B2,verpacken,"to pack, to wrap, to package",2. prefix,ver,packen,"to pack, to grab, to manage"
+1292,14,B2,verschreiben,"to prescribe, to commit oneself to, to misspell by accident",2. prefix,ver,schreiben,to write
+1293,14,B2,versichern,"to assure, to insure, to cover",2. prefix,ver,sichern,"to secure, to protect"
+1294,14,B2,vertreiben,"to expel, to dislodge, to displace",2. prefix,ver,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
+1295,14,B2,anlegen,"to create, to invest",2. prefix,an,legen,"to lay, to lean, to lie down"
+1296,14,B2,eingehen,"to shrink (textile), to wither/die (plants, animals), to assume something",2. prefix,ein,gehen,"to go, to leave, to work, to function (coll.)"
+1297,14,B2,abrufen,"to retrieve, to access, to call away",2. prefix,ab,rufen,"to call out, to call for help, to telephone"
+1298,14,B2,aufweisen,"to exhibit, to feature, to show, to boast",2. prefix,auf,weisen,"to show, to indicate"
+1299,14,B2,einschließen,"to include, to enclose, to lock up, to surround",2. prefix,ein,schließen,"to shut, to close, to lock, to conclude"
+1300,14,B2,eingeben,"to enter, to input, to give, to supply",2. prefix,ein,geben,to give
+1301,14,B2,vorliegen,"to exist, to be available",2. prefix,vor,liegen,"to lie, to be located"
+1302,14,B2,vornehmen,"to undertake, to carry out",2. prefix,vor,nehmen,"to take, to cause oneself to be (in some state)"
+1303,14,B2,vorgehen,"to proceed, to advance, to go ahead",2. prefix,vor,gehen,"to go, to leave, to work, to function (coll.)"
+1304,14,B2,vorwerfen,"to reproach, to accuse of, to allege",2. prefix,vor,werfen,to throw
+1305,14,B2,betreffen,"to concern, to affect",2. prefix,be,treffen,"to meet, to encounter"
+1306,14,B2,beziehen,"to refer, to obtain",2. prefix,be,ziehen,"to pull, to drag, to move"
+1307,14,B2,bedenken,"to consider, to reflect, to give, to allow for",2. prefix,be,denken,"to think, to consider"
+1308,14,B2,befassen,"to address, to deal with, to attend to",2. prefix,be,fassen,to grasp
+1309,14,B2,erfassen,"to record, to capture",2. prefix,er,fassen,to grasp
+1310,14,B2,erweisen,"to prove (passively), to turn out to be, to show",2. prefix,er,weisen,"to show, to indicate"
+1311,14,B2,verstärken,"to amplify, to intensify, to strengthen",2. prefix,ver,stärken,to strengthen
+1312,14,B2,übergeben,"to hand over, to vomit (refl.)",2. prefix,über,geben,to give
+1313,14,B2,überschreiten,"to exceed, to overstep, to surpass",2. prefix,über,schreiten,"to stride, to step, to proceed"
+1314,14,B2,umfassen,"to include, to comprise",2. prefix,um,fassen,to grasp
+1315,14,B2,umgeben,"to surround, to enclose, to encompass",2. prefix,um,geben,to give
+1316,14,B2,unterliegen,"to be subject to, to undergo",2. prefix,unter,liegen,"to lie, to be located"
 1317,100,C1,beschützen,"to protect, defend (security)",2. prefix,be,schützen,"to defend (lawyer), to protect (sunprotection)"
 1318,100,C1,übertreiben,"to exaggerate, to overdo",2. prefix,über,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to"
 1319,100,C1,umtauschen,"to convert, to exchange (currency)",2. prefix,um,tauschen,"to swap, to trade, to exchange"
