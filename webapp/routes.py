@@ -160,7 +160,6 @@ def exercise(unit, exercise):
 def check_answer(unit, exercise):
 
     if request.method == 'GET':
-        print('Test2')
         return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
     user_answer = request.form.get('answer', '')
@@ -254,7 +253,7 @@ def exercise_feedback(unit, exercise):
                                user_answer=result_data["user_answer"] if result_data else None,
                                )
 
-    question_data = session.pop(f"{unit}_question_data", {})
+    question_data = session.get(f"{unit}_question_data", {})
 
     # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
