@@ -1,8 +1,9 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben, deverbale_nomen
 )
 
 # bullet point \u25CF
@@ -245,28 +246,6 @@ INSTRUCTION = {
         32: "Complete the following sentence with the adverb that fits:",
     },
 
-    adjektivdeklinationen: {
-        1: "Complete the sentence with the correct form of the specified adjective:",
-        2: "Complete the sentence with the correct form of the specified adjective:",
-        3: "Complete the sentence with the correct form of the specified adjective:",
-        4: "Complete the sentence with the correct form of the specified adjective:",
-        5: "Complete the sentence with the correct form of the specified adjective:",
-        6: "Complete the sentence with the correct form of the specified adjective:",
-        7: "Complete the sentence with the correct form of the specified adjective:",
-        8: "Complete the sentence with the correct form of the specified adjective:",
-        9: "Complete the sentence with the correct form of the specified adjective:",
-        10: "Complete the sentence with the correct form of the specified adjective:",
-
-        11: "Complete the sentence with the correct form of the specified adjective:",
-        12: "Complete the sentence with the correct form of the specified adjective:",
-        13: "Complete the sentence with the correct form of the specified adjective:",
-        14: "Complete the sentence with the correct form of the specified adjective:",
-        15: "Complete the sentence with the correct form of the specified adjective:",
-
-        16: "Complete the sentence with the correct form of the specified adjective:",
-        17: "Complete the sentence with the correct form of the specified adjective:",
-    },
-
     praesens: {
         1: "Conjugate the following verb in the present tense:",
         2: "Conjugate the following verb in the present tense:",
@@ -423,6 +402,39 @@ INSTRUCTION = {
         1: "Write the Partizip I of the following verb:",
         2: "Write the Partizip I of the following verb:",
         3: "Write the Partizip I of the following verb:",
+    },
+
+    adjektive: {
+        1: "Translate the following adjective:",
+        2: "Translate the following adjective:",
+        3: "Write the Opposite of the following adjective:",
+        4: "Write the Comparative of the following adjective:",
+        5: "Write the Comparative of the following adjective:",
+        6: "Complete the following sentence with the comparative conjunction that fits:",
+        7: "Write the Superlative of the following adjective:",
+        8: "Write the Superlative of the following adjective:",
+    },
+
+    adjektivdeklinationen: {
+        1: "Complete the sentence with the correct form of the specified adjective:",
+        2: "Complete the sentence with the correct form of the specified adjective:",
+        3: "Complete the sentence with the correct form of the specified adjective:",
+        4: "Complete the sentence with the correct form of the specified adjective:",
+        5: "Complete the sentence with the correct form of the specified adjective:",
+        6: "Complete the sentence with the correct form of the specified adjective:",
+        7: "Complete the sentence with the correct form of the specified adjective:",
+        8: "Complete the sentence with the correct form of the specified adjective:",
+        9: "Complete the sentence with the correct form of the specified adjective:",
+        10: "Complete the sentence with the correct form of the specified adjective:",
+
+        11: "Complete the sentence with the correct form of the specified adjective:",
+        12: "Complete the sentence with the correct form of the specified adjective:",
+        13: "Complete the sentence with the correct form of the specified adjective:",
+        14: "Complete the sentence with the correct form of the specified adjective:",
+        15: "Complete the sentence with the correct form of the specified adjective:",
+
+        16: "Complete the sentence with the correct form of the specified adjective:",
+        17: "Complete the sentence with the correct form of the specified adjective:",
     },
 
     trennbare_verben: {

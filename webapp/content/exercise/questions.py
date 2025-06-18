@@ -1,8 +1,9 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben, deverbale_nomen
 )
 
 # bullet point \u25CF
@@ -340,28 +341,6 @@ QUESTION = {
             "<br><br><i>{english}</i>",
     },
 
-    adjektivdeklinationen: {
-        1: "{question} \u25CF {case} \u25CF {adjective}",
-        2: "{question} \u25CF {adjective}",
-        3: "{question} \u25CF {adjective}",
-        4: "{question} \u25CF {adjective}",
-        5: "{question} \u25CF {adjective}",
-        6: "{question} \u25CF {adjective}",
-        7: "{question} \u25CF {adjective}",
-        8: "{question} \u25CF {adjective}",
-        9: "{question} \u25CF {adjective}",
-        10: "{question} \u25CF {adjective}",
-
-        11: "{question} \u25CF {case} \u25CF {adjective}",
-        12: "{question} \u25CF {adjective}",
-        13: "{question} \u25CF {adjective}",
-        14: "{question} \u25CF {adjective}",
-        15: "{question} \u25CF {adjective}",
-
-        16: "{question} \u25CF {case} \u25CF {adjective}",
-        17: "{question} \u25CF {adjective}",
-    },
-
     praesens: {
         1: "{question} \u25CF {person} _____",
         2: "{question} \u25CF {person} _____",
@@ -497,6 +476,44 @@ QUESTION = {
         1: "{question}",
         2: "{question}",
         3: "{question}",
+    },
+
+    adjektive: {
+        1: "{question}",
+        2: "{question}",
+        3: "{question}",
+        4: "{question}"
+           "<br><br><i>{english}</i>",
+        5: "{question}"
+           "<br><br><i>{english}</i>",
+        6: "{question}"
+           "<br><br><i>{english}</i>",
+        7: "{question}"
+           "<br><br><i>{english}</i>",
+        8: "{question}"
+           "<br><br><i>{english}</i>",
+    },
+
+    adjektivdeklinationen: {
+        1: "{question} \u25CF {case} \u25CF {adjective}",
+        2: "{question} \u25CF {adjective}",
+        3: "{question} \u25CF {adjective}",
+        4: "{question} \u25CF {adjective}",
+        5: "{question} \u25CF {adjective}",
+        6: "{question} \u25CF {adjective}",
+        7: "{question} \u25CF {adjective}",
+        8: "{question} \u25CF {adjective}",
+        9: "{question} \u25CF {adjective}",
+        10: "{question} \u25CF {adjective}",
+
+        11: "{question} \u25CF {case} \u25CF {adjective}",
+        12: "{question} \u25CF {adjective}",
+        13: "{question} \u25CF {adjective}",
+        14: "{question} \u25CF {adjective}",
+        15: "{question} \u25CF {adjective}",
+
+        16: "{question} \u25CF {case} \u25CF {adjective}",
+        17: "{question} \u25CF {adjective}",
     },
 
     trennbare_verben: {

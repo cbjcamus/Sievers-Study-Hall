@@ -1,0 +1,247 @@
+Nr,exercise,level,question,answer,german,english
+1,1,15,old,alt,,
+2,1,15,young,jung,,
+3,1,15,new,neu,,
+4,1,11,cheap,billig,,
+5,1,13,expensive,teuer,,
+6,1,12,blue,blau,,
+7,1,13,green,grün,,
+8,1,12,yellow,gelb,,
+9,1,12,grey,grau,,
+10,1,14,red,rot,,
+11,1,14,black,schwarz,,
+12,1,9,white,weiß,,
+13,1,15,"easy, simple",einfach,,
+14,1,13,difficult,schwierig,,
+15,1,15,right,richtig,,
+16,1,13,"false, wrong",falsch,,
+17,1,12,true,wahr,,
+18,1,14,free,frei,,
+19,1,15,"big, tall",groß,,
+20,1,15,small,klein,,
+21,1,15,good,gut,,
+22,1,14,bad,schlecht,,
+23,1,13,normal,normal,,
+24,1,15,fast,schnell,,
+25,1,13,slow,langsam,,
+26,1,15,beautiful,schön,,
+27,1,6,ugly,hässlich,,
+28,1,13,early,früh,,
+29,1,14,late,spät,,
+30,1,11,much,viel,,
+31,2,10,little,wenig,,
+32,2,10,poor,arm,,
+33,2,11,rich,reich,,
+34,2,12,hot,heiß,,
+35,2,12,cold,kalt,,
+36,2,11,clean,sauber,,
+37,2,9,dirty,schmutzig,,
+38,2,15,high,hoch,,
+39,2,10,low,niedrig,,
+40,2,11,far,weit,,
+41,2,8,"close, near",nah,,
+42,2,12,"happy, glad",glücklich,,
+43,2,10,sad,traurig,,
+44,2,11,funny,lustig,,
+45,2,10,tired,müde,,
+46,2,9,stupid,dumm,,
+47,2,9,smart,klug,,
+48,2,11,nice,nett,,
+49,2,5,foggy,neblig,,
+50,2,8,sunny,sonnig,,
+51,2,5,windy,windig,,
+52,2,15,same,gleich,,
+53,2,12,different,unterschiedlich,,
+54,2,15,important,wichtig,,
+55,2,11,sick,krank,,
+56,2,11,healthy,gesund,,
+57,2,15,short,kurz,,
+58,2,15,long,lang,,
+59,2,6,last,letzte,,
+60,2,14,"full, whole",ganz,,
+61,3,15,alt,jung,,old
+62,3,15,jung,alt,,young
+63,3,11,billig,teuer,,cheap
+64,3,13,teuer,billig,,expensive
+65,3,14,schwarz,weiß,,black
+66,3,9,weiß,schwarz,,white
+67,3,15,einfach,schwierig,,"easy, simple"
+68,3,13,schwierig,einfach,,difficult
+69,3,15,richtig,falsch,,right
+70,3,13,falsch,richtig,,"false, wrong"
+71,3,15,groß,klein,,"big, tall"
+72,3,15,klein,groß,,small
+73,3,15,gut,schlecht,,good
+74,3,14,schlecht,gut,,bad
+75,3,15,schnell,langsam,,fast
+76,3,13,langsam,schnell,,slow
+77,3,15,schön,hässlich,,beautiful
+78,3,6,hässlich,schön,,ugly
+79,3,13,früh,spät,,early
+80,3,14,spät,früh,,late
+81,3,11,viel,wenig,,much
+82,3,10,wenig,viel,,little
+83,3,10,arm,reich,,poor
+84,3,11,reich,arm,,rich
+85,3,12,heiß,kalt,,hot
+86,3,12,kalt,heiß,,cold
+87,3,11,sauber,schmutzig,,clean
+88,3,9,schmutzig,sauber,,dirty
+89,3,15,hoch,niedrig,,high
+90,3,10,niedrig,hoch,,low
+91,3,11,weit,nah,,far
+92,3,8,nah,weit,,"close, near"
+93,3,12,glücklich,traurig,,"happy, glad"
+94,3,10,traurig,glücklich,,sad
+95,3,9,dumm,klug,,stupid
+96,3,9,klug,dumm,,smart
+97,3,15,gleich,unterschiedlich,,same
+98,3,12,unterschiedlich,gleich,,different
+99,3,11,krank,gesund,,sick
+100,3,11,gesund,krank,,healthy
+101,3,15,kurz,lang,,short
+102,3,15,lang,kurz,,long
+103,4,15,alt,älter,,old
+104,4,15,jung,jünger,,young
+105,4,15,neu,neuer,,new
+106,4,11,billig,billiger,,cheap
+107,4,13,teuer,teurer,,expensive
+108,4,12,blau,blauer,,blue
+109,4,13,grün,grüner,,green
+110,4,12,gelb,gelber,,yellow
+111,4,12,grau,grauer,,grey
+112,4,14,rot,roter,,red
+113,4,14,schwarz,schwärzer/schwarzer,,black
+114,4,9,weiß,weißer,,white
+115,4,15,einfach,einfacher,,"easy, simple"
+116,4,13,schwierig,schwieriger,,difficult
+117,4,15,richtig,richtiger,,right
+118,4,13,falsch,falscher,,"false, wrong"
+119,4,12,wahr,wahrer,,true
+120,4,14,frei,freier,,free
+121,4,15,groß,größer,,"big, tall"
+122,4,15,klein,kleiner,,small
+123,4,15,gut,besser,,good
+124,4,14,schlecht,schlechter,,bad
+125,4,13,normal,normaler,,normal
+126,4,15,schnell,schneller,,fast
+127,4,13,langsam,langsamer,,slow
+128,4,15,schön,schöner,,beautiful
+129,4,6,hässlich,hässlicher,,ugly
+130,4,13,früh,früher,,early
+131,4,14,spät,später,,late
+132,5,11,viel,mehr,,much
+133,5,10,wenig,weniger,,little
+134,5,10,arm,ärmer,,poor
+135,5,11,reich,reicher,,rich
+136,5,12,heiß,heißer,,hot
+137,5,12,kalt,kälter,,cold
+138,5,11,sauber,sauberer,,clean
+139,5,9,schmutzig,schmutziger,,dirty
+140,5,15,hoch,höher,,high
+141,5,10,niedrig,niedriger,,low
+142,5,11,weit,weiter,,far
+143,5,8,nah,näher,,"close, near"
+144,5,12,glücklich,glücklicher,,"happy, glad"
+145,5,10,traurig,trauriger,,sad
+146,5,11,lustig,lustiger,,funny
+147,5,10,müde,müder,,tired
+148,5,9,dumm,dümmer,,stupid
+149,5,9,klug,klüger,,smart
+150,5,11,nett,netter,,nice
+151,5,5,neblig,nebliger,,foggy
+152,5,8,sonnig,sonniger,,sunny
+153,5,5,windig,windiger,,windy
+154,5,12,unterschiedlich,unterschiedlicher,,different
+155,5,15,wichtig,wichtiger,,important
+156,5,11,krank,kränker,,sick
+157,5,11,gesund,gesünder,,healthy
+158,5,15,kurz,kürzer,,short
+159,5,15,lang,länger,,long
+160,6,,Mein Bruder ist _____ groß wie ich.,so,Mein Bruder ist so groß wie ich.,My brother is as tall as I am.
+161,6,,Das Essen hier ist _____ lecker wie in Italien.,so,Das Essen hier ist so lecker wie in Italien.,The food here is as delicious as in Italy.
+162,6,,Der Park ist _____ schön wie der Garten.,so,Der Park ist so schön wie der Garten.,The park is as beautiful as the garden.
+163,6,,Dieser Film ist _____ spannend wie der letzte.,so,Dieser Film ist so spannend wie der letzte.,This movie is as exciting as the last one.
+164,6,,Sie ist _____ freundlich wie ihre Schwester.,so,Sie ist so freundlich wie ihre Schwester.,She is as friendly as her sister.
+165,6,,Peter ist größer _____ sein Bruder.,als,Peter ist größer als sein Bruder.,Peter is taller than his brother.
+166,6,,Das Auto ist schneller _____ das Fahrrad.,als,Das Auto ist schneller als das Fahrrad.,The car is faster than the bike.
+167,6,,Diese Aufgabe ist schwieriger _____ die letzte.,als,Diese Aufgabe ist schwieriger als die letzte.,This task is more difficult than the last one.
+168,6,,Der Urlaub in den Bergen war besser _____ am Strand.,als,Der Urlaub in den Bergen war besser als am Strand.,The vacation in the mountains was better than at the beach.
+169,6,,Das Buch ist interessanter _____ der Film.,als,Das Buch ist interessanter als der Film.,The book is more interesting than the movie.
+170,6,,Du bist so stark _____ dein Bruder.,wie,Du bist so stark wie dein Bruder.,You are as strong as your brother.
+171,6,,Dieses Kleid ist genauso schön _____ das andere.,wie,Dieses Kleid ist genauso schön wie das andere.,This dress is just as beautiful as the other one.
+172,6,,Der Film war so spannend _____ das Buch.,wie,Der Film war so spannend wie das Buch.,The movie was as exciting as the book.
+173,6,,Das Wetter ist heute genauso schlecht _____ gestern.,wie,Das Wetter ist heute genauso schlecht wie gestern.,The weather today is just as bad as yesterday.
+174,6,,Mein Hund ist genauso freundlich _____ deine Katze.,wie,Mein Hund ist genauso freundlich wie deine Katze.,My dog is just as friendly as your cat.
+175,6,,Er ist älter _____ ich.,als,Er ist älter als ich.,He is older than me.
+176,6,,Diese Stadt ist größer _____ mein Heimatdorf.,als,Diese Stadt ist größer als mein Heimatdorf.,This city is bigger than my hometown.
+177,6,,Der Kuchen schmeckt besser _____ die Torte.,als,Der Kuchen schmeckt besser als die Torte.,The cake tastes better than the tart.
+178,6,,Heute ist es heißer _____ gestern.,als,Heute ist es heißer als gestern.,Today is hotter than yesterday.
+179,6,,Dieses Auto ist schneller _____ das alte.,als,Dieses Auto ist schneller als das alte.,This car is faster than the old one.
+180,6,,Mein Haus ist nicht so groß _____ dein Haus.,wie,Mein Haus ist nicht so groß wie dein Haus.,My house is not as big as your house.
+181,6,,Er ist nicht so schnell _____ sein Bruder.,wie,Er ist nicht so schnell wie sein Bruder.,He is not as fast as his brother.
+182,6,,Das Wetter heute ist nicht so schön _____ gestern.,wie,Das Wetter heute ist nicht so schön wie gestern.,The weather today is not as nice as yesterday.
+183,6,,Diese Stadt ist nicht so laut _____ Berlin.,wie,Diese Stadt ist nicht so laut wie Berlin.,This city is not as loud as Berlin.
+184,6,,Meine Katze ist nicht so verspielt _____ dein Hund.,wie,Meine Katze ist nicht so verspielt wie dein Hund.,My cat is not as playful as your dog.
+185,6,,Der Film war _____ spannend wie das Buch.,nicht so,Der Film war nicht so spannend wie das Buch.,The movie was not as exciting as the book.
+186,6,,Das Hotel war _____ teuer wie erwartet.,nicht so,Das Hotel war nicht so teuer wie erwartet.,The hotel was not as expensive as expected.
+187,6,,Peter ist _____ freundlich wie Maria.,nicht so,Peter ist nicht so freundlich wie Maria.,Peter is not as friendly as Maria.
+188,6,,Mein Auto ist _____ neu wie deins.,nicht so,Mein Auto ist nicht so neu wie deins.,My car is not as new as yours.
+189,6,,Die Aufgabe war _____ schwer wie ich dachte.,nicht so,Die Aufgabe war nicht so schwer wie ich dachte.,The task was not as difficult as I thought.
+190,7,15,alt,am ältesten,,old
+191,7,15,jung,am jüngsten,,young
+192,7,15,neu,am neuesten,,new
+193,7,11,billig,am billigsten,,cheap
+194,7,13,teuer,am teuersten,,expensive
+195,7,12,blau,am blausten,,blue
+196,7,13,grün,am grünsten,,green
+197,7,12,gelb,am gelbsten,,yellow
+198,7,12,grau,am grausten,,grey
+199,7,14,rot,am rotesten,,red
+200,7,14,schwarz,am schwärzesten/am schwarzesten,,black
+201,7,9,weiß,am weißesten,,white
+202,7,15,einfach,am einfachsten,,"easy, simple"
+203,7,13,schwierig,am schwierigsten,,difficult
+204,7,15,richtig,am richtigsten,,right
+205,7,13,falsch,am falschesten,,"false, wrong"
+206,7,12,wahr,am wahrsten,,true
+207,7,14,frei,am freiesten,,free
+208,7,15,groß,am größten,,"big, tall"
+209,7,15,klein,am kleinsten,,small
+210,7,15,gut,am besten,,good
+211,7,14,schlecht,am schlechtesten,,bad
+212,7,13,normal,am normalsten,,normal
+213,7,15,schnell,am schnellsten,,fast
+214,7,13,langsam,am langsamsten,,slow
+215,7,15,schön,am schönsten,,beautiful
+216,7,6,hässlich,am hässlichsten,,ugly
+217,7,13,früh,am frühesten,,early
+218,7,14,spät,am spätesten,,late
+219,8,11,viel,am meisten,,much
+220,8,10,wenig,am wenigsten,,little
+221,8,10,arm,am ärmsten,,poor
+222,8,11,reich,am reichsten,,rich
+223,8,12,heiß,am heißesten,,hot
+224,8,12,kalt,am kältesten,,cold
+225,8,11,sauber,am saubersten,,clean
+226,8,9,schmutzig,am schmutzigsten,,dirty
+227,8,15,hoch,am höchsten,,high
+228,8,10,niedrig,am niedrigsten,,low
+229,8,11,weit,am weitesten,,far
+230,8,8,nah,am nächsten,,"close, near"
+231,8,12,glücklich,am glücklichsten,,"happy, glad"
+232,8,10,traurig,am traurigsten,,sad
+233,8,11,lustig,am lustigsten,,funny
+234,8,10,müde,am müdesten,,tired
+235,8,9,dumm,am dümmsten,,stupid
+236,8,9,klug,am klügsten,,smart
+237,8,11,nett,am nettesten,,nice
+238,8,5,neblig,am nebligsten,,foggy
+239,8,8,sonnig,am sonnigsten,,sunny
+240,8,5,windig,am windigsten,,windy
+241,8,12,unterschiedlich,am unterschiedlichsten,,different
+242,8,15,wichtig,am wichtigsten,,important
+243,8,11,krank,am kränksten,,sick
+244,8,11,gesund,am gesündesten,,healthy
+245,8,15,kurz,am kürzesten,,short
+246,8,15,lang,am längsten,,long

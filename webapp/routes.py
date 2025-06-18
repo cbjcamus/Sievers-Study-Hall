@@ -8,8 +8,7 @@ from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
 from webapp.session_management.pick_a_question import pick_a_question
-from webapp.session_management.session_ import progress, score, result, \
-    print_question_flagged, print_session
+from webapp.session_management.statistics import print_question_flagged
 from webapp.session_management.result import register_result
 from webapp.session_management.conditions import exercise_finished
 from webapp.session_management.normalization import get_list_of_correct_answers, is_equal
@@ -31,12 +30,12 @@ routes = Blueprint("routes", __name__)
 @routes.before_request
 def ensure_session_keys_exist_and_make_session_permanent():
     """Ensure that progress, score, and result exist in the session before handling any request."""
-    if progress not in session:
-        session[progress] = {}
-    if score not in session:
-        session[score] = {}
-    if result not in session:
-        session[result] = {}
+    if 'progress' not in session:
+        session['progress'] = {}
+    if 'score' not in session:
+        session['score'] = {}
+    if 'result' not in session:
+        session['result'] = {}
 
     session.permanent = True
     # session.clear()
@@ -91,6 +90,7 @@ for unit in units:
 def exercise(unit, exercise):
     if exercise_finished(session, unit, exercise) is True:
         register_result(session, unit, exercise)
+        result_data = session.pop(f"{unit}_result", None)
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -98,6 +98,10 @@ def exercise(unit, exercise):
                                unit_page=UNIT_PAGE,
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
+                               is_feedback_box=True,
+                               result=result_data["result"] if result_data else None,
+                               feedback_message=result_data["feedback_message"] if result_data else None,
+                               user_answer=result_data["user_answer"] if result_data else None,
                                )
 
     question_data = pick_a_question(session, unit, exercise)
@@ -201,22 +205,22 @@ def check_answer(unit, exercise):
     }
 
     # Initialize score storage if missing
-    if unit not in session[score]:
-        session[score][unit] = {}
-    if str(exercise) not in session[score][unit]:
-        session[score][unit][str(exercise)] = {}
+    if unit not in session['score']:
+        session['score'][unit] = {}
+    if str(exercise) not in session['score'][unit]:
+        session['score'][unit][str(exercise)] = {}
 
     if correct_answer_condition:
-        session_data = session[progress].get(unit, {})
+        session_data = session['progress'].get(unit, {})
         session_data.setdefault(str(exercise), {})
         session_data[str(exercise)][nr] = 1
-        session[progress][unit] = session_data
-        session[progress].setdefault(unit, {}).setdefault(str(exercise), {})[nr] = 1
+        session['progress'][unit] = session_data
+        session['progress'].setdefault(unit, {}).setdefault(str(exercise), {})[nr] = 1
 
     if not correct_answer_condition:
-        session[score][unit][str(exercise)][nr] = False
-    elif nr not in session[score][unit][str(exercise)]:
-        session[score][unit][str(exercise)][nr] = True
+        session['score'][unit][str(exercise)][nr] = False
+    elif nr not in session['score'][unit][str(exercise)]:
+        session['score'][unit][str(exercise)][nr] = True
 
     session.modified = True
 
@@ -236,6 +240,7 @@ def check_answer(unit, exercise):
 def exercise_feedback(unit, exercise):
     if exercise_finished(session, unit, exercise) is True:
         register_result(session, unit, exercise)
+        result_data = session.pop(f"{unit}_result", None)
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -243,6 +248,10 @@ def exercise_feedback(unit, exercise):
                                unit_page=UNIT_PAGE,
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
+                               is_feedback_box=True,
+                               result=result_data["result"] if result_data else None,
+                               feedback_message=result_data["feedback_message"] if result_data else None,
+                               user_answer=result_data["user_answer"] if result_data else None,
                                )
 
     question_data = session.pop(f"{unit}_question_data", {})
@@ -300,14 +309,14 @@ def exercise_feedback(unit, exercise):
 @routes.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
 def reset_exercise(unit, exercise):
     """Clears progress for a specific unit exercise and removes any stored feedback."""
-    if progress in session and unit in session[progress] and str(exercise) in session[progress][unit]:
-        del session[progress][unit][str(exercise)]
+    if 'progress' in session and unit in session['progress'] and str(exercise) in session['progress'][unit]:
+        del session['progress'][unit][str(exercise)]
 
-    if score in session and unit in session[score] and str(exercise) in session[score][unit]:
-        del session[score][unit][str(exercise)]
+    if 'score' in session and unit in session['score'] and str(exercise) in session['score'][unit]:
+        del session['score'][unit][str(exercise)]
 
-    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
-        del session[result][unit][str(exercise)]
+    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
+        del session['result'][unit][str(exercise)]
 
     session.pop(f"{unit}_result", None)  # Clear any stored feedback
     session.modified = True

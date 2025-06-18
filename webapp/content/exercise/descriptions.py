@@ -1,8 +1,10 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben,
+    deverbale_nomen
 )
 
 DESCRIPTION = {
@@ -202,26 +204,43 @@ DESCRIPTION = {
         8: 'C1 Question Words in sentences',
     },
 
-    adjektivdeklinationen: {
-        1: "Nominative, Accusative, and Dative Adjective Declensions in isolation",
-        2: "Nominative Adjective Declensions in sentences",
-        3: "Accusative Adjective Declensions in sentences",
-        4: "Dative Adjective Declensions in sentences",
-        5: "Definite Articles' Adjective Declensions in sentences",
-        6: "Indefinite Articles' Adjective Declensions in sentences",
-        7: "No Article's Adjective Declensions in sentences",
-        8: "Mix of Nominative, Accusative, and Dative Adjective Declensions in sentences",
-        9: "Mix of Nominative, Accusative, and Dative Adjective Declensions in sentences",
-        10: "Mix of Nominative, Accusative, and Dative Adjective Declensions in sentences",
+    adverbien: {
+        1: "A1 Adverbs in isolation",
+        2: "A1 Adverbs in sentences",
+        3: "A1 Adverbs in isolation",
+        4: "A1 Adverbs in sentences",
 
-        11: "Genitive, Possessive, Negative, and Demonstrative Adjective Declensions in isolation",
-        12: "Genitive Adjective Declensions in sentences",
-        13: "Possessive Articles' Adjective Declensions in sentences",
-        14: "Demonstrative Articles' Adjective Declensions in sentences",
-        15: "Negative Articles' Adjective Declensions in sentences",
+        5: "A2 Adverbs in isolation",
+        6: "A2 Adverbs in sentences",
+        7: "A2 Adverbs in isolation",
+        8: "A2 Adverbs in sentences",
 
-        16: "Neuter and Plural Article's Adjective Declensions in isolation",
-        17: "Neuter and Plural Article's Adjective Declensions in sentences",
+        9: "B1 Adverbs in isolation",
+        10: "B1 Adverbs in sentences",
+        11: "B1 Adverbs in isolation",
+        12: "B1 Adverbs in sentences",
+        13: "B1 Adverbs in isolation",
+        14: "B1 Adverbs in sentences",
+        15: "B1 Adverbs in isolation",
+        16: "B1 Adverbs in sentences",
+
+        17: "B2 Adverbs in isolation",
+        18: "B2 Adverbs in sentences",
+        19: "B2 Adverbs in isolation",
+        20: "B2 Adverbs in sentences",
+        21: "B2 Adverbs in isolation",
+        22: "B2 Adverbs in sentences",
+        23: "B2 Adverbs in isolation",
+        24: "B2 Adverbs in sentences",
+
+        25: "C1 Adverbs in isolation",
+        26: "C1 Adverbs in sentences",
+        27: "C1 Adverbs in isolation",
+        28: "C1 Adverbs in sentences",
+        29: "C1 Adverbs in isolation",
+        30: "C1 Adverbs in sentences",
+        31: "C1 Adverbs in isolation",
+        32: "C1 Adverbs in sentences",
     },
 
     praesens: {
@@ -361,43 +380,57 @@ DESCRIPTION = {
         3: "Partizip I of A1 verbs",
     },
 
-    adverbien: {
-        1: "A1 Adverbs in isolation",
-        2: "A1 Adverbs in sentences",
-        3: "A1 Adverbs in isolation",
-        4: "A1 Adverbs in sentences",
+    adjektive: {
+        1: "A1 Adjectives in isolation",
+        2: "A1 Adjectives in isolation",
+        3: "Opposites of A1 Adjectives in isolation",
+        4: "A1 Comparatives in isolation",
+        5: "A1 Comparatives in isolation",
+        6: "Comparative Conjunctions in sentences",
+        7: "A1 Superlatives in isolation",
+        8: "A1 Superlatives in isolation",
+    },
 
-        5: "A2 Adverbs in isolation",
-        6: "A2 Adverbs in sentences",
-        7: "A2 Adverbs in isolation",
-        8: "A2 Adverbs in sentences",
+    adjektivdeklinationen: {
+        1: "Nominative, Accusative, and Dative Adjective Declensions in isolation",
+        2: "Nominative Adjective Declensions in sentences",
+        3: "Accusative Adjective Declensions in sentences",
+        4: "Dative Adjective Declensions in sentences",
+        5: "Definite Articles' Adjective Declensions in sentences",
+        6: "Indefinite Articles' Adjective Declensions in sentences",
+        7: "No Article's Adjective Declensions in sentences",
+        8: "Mix of Nominative, Accusative, and Dative Adjective Declensions in sentences",
+        9: "Mix of Nominative, Accusative, and Dative Adjective Declensions in sentences",
+        10: "Mix of Nominative, Accusative, and Dative Adjective Declensions in sentences",
 
-        9: "B1 Adverbs in isolation",
-        10: "B1 Adverbs in sentences",
-        11: "B1 Adverbs in isolation",
-        12: "B1 Adverbs in sentences",
-        13: "B1 Adverbs in isolation",
-        14: "B1 Adverbs in sentences",
-        15: "B1 Adverbs in isolation",
-        16: "B1 Adverbs in sentences",
+        11: "Genitive, Possessive, Negative, and Demonstrative Adjective Declensions in isolation",
+        12: "Genitive Adjective Declensions in sentences",
+        13: "Possessive Articles' Adjective Declensions in sentences",
+        14: "Demonstrative Articles' Adjective Declensions in sentences",
+        15: "Negative Articles' Adjective Declensions in sentences",
 
-        17: "B2 Adverbs in isolation",
-        18: "B2 Adverbs in sentences",
-        19: "B2 Adverbs in isolation",
-        20: "B2 Adverbs in sentences",
-        21: "B2 Adverbs in isolation",
-        22: "B2 Adverbs in sentences",
-        23: "B2 Adverbs in isolation",
-        24: "B2 Adverbs in sentences",
+        16: "Neuter and Plural Article's Adjective Declensions in isolation",
+        17: "Neuter and Plural Article's Adjective Declensions in sentences",
+    },
 
-        25: "C1 Adverbs in isolation",
-        26: "C1 Adverbs in sentences",
-        27: "C1 Adverbs in isolation",
-        28: "C1 Adverbs in sentences",
-        29: "C1 Adverbs in isolation",
-        30: "C1 Adverbs in sentences",
-        31: "C1 Adverbs in isolation",
-        32: "C1 Adverbs in sentences",
+    trennbare_verben: {
+        1: "A1 (un)trennbare Verbs with root help",
+        2: "A1 (un)trennbare Verbs with prefix help",
+
+        3: "A2 (un)trennbare Verbs with root help",
+        4: "A2 (un)trennbare Verbs with prefix help",
+
+        5: "B1 (un)trennbare Verbs with root help",
+        6: "B1 (un)trennbare Verbs with root help",
+        7: "B1 (un)trennbare Verbs with prefix help",
+        8: "B1 (un)trennbare Verbs with prefix help",
+
+        9: "B2 (un)trennbare Verbs with root help",
+        10: "B2 (un)trennbare Verbs with root help",
+        11: "B2 (un)trennbare Verbs with root help",
+        12: "B2 (un)trennbare Verbs with prefix help",
+        13: "B2 (un)trennbare Verbs with prefix help",
+        14: "B2 (un)trennbare Verbs with prefix help",
     },
 
     verben: {
@@ -424,26 +457,6 @@ DESCRIPTION = {
         18: "B2 Verbs",
         19: "B2 Verbs",
         20: "B2 Verbs",
-    },
-
-    trennbare_verben: {
-        1: "A1 (un)trennbare Verbs with root help",
-        2: "A1 (un)trennbare Verbs with prefix help",
-
-        3: "A2 (un)trennbare Verbs with root help",
-        4: "A2 (un)trennbare Verbs with prefix help",
-
-        5: "B1 (un)trennbare Verbs with root help",
-        6: "B1 (un)trennbare Verbs with root help",
-        7: "B1 (un)trennbare Verbs with prefix help",
-        8: "B1 (un)trennbare Verbs with prefix help",
-
-        9: "B2 (un)trennbare Verbs with root help",
-        10: "B2 (un)trennbare Verbs with root help",
-        11: "B2 (un)trennbare Verbs with root help",
-        12: "B2 (un)trennbare Verbs with prefix help",
-        13: "B2 (un)trennbare Verbs with prefix help",
-        14: "B2 (un)trennbare Verbs with prefix help",
     },
 
     deverbale_nomen: {

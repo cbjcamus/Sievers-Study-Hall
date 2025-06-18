@@ -1,8 +1,10 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, adjektive, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben,
+    deverbale_nomen
 )
 
 TEMPLATE_PATH = {
@@ -17,7 +19,6 @@ TEMPLATE_PATH = {
     konnektoren: "grammatik/konnektoren.html",
     fragen: "grammatik/fragen.html",
     adverbien: "grammatik/adverbien.html",
-    adjektivdeklinationen: "grammatik/adjektivdeklinationen.html",
 
     praesens: "konjugation/praesens.html",
     imperativ: "konjugation/imperativ.html",
@@ -28,9 +29,11 @@ TEMPLATE_PATH = {
     konjunktiv_I: "konjugation/konjunktiv_I.html",
     partizip_I: "konjugation/partizip_I.html",
 
-    verben: "verben/verben.html",
-    trennbare_verben: "verben/trennbare_verben.html",
+    adjektive: "adjektive/adjektive.html",
+    adjektivdeklinationen: "adjektive/adjektivdeklinationen.html",
 
-    adjektive: "/adjektive.html",
+    trennbare_verben: "verben/trennbare_verben.html",
+    verben: "verben/verben.html",
+
     deverbale_nomen: "/deverbale_substantive.html",
 }

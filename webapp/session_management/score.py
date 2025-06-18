@@ -1,5 +1,4 @@
 from webapp.session_management.total_questions import compute_highest_exercise, compute_total_questions
-from webapp.session_management.session_ import score, result
 
 
 def write_score(session, unit, exercise=None):
@@ -24,10 +23,10 @@ def compute_score(session, unit, exercise=None):
 
 
 def compute_score_exercise_session(session, unit, exercise):
-    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
-        return session[result][unit][str(exercise)]
+    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
+        return session['result'][unit][str(exercise)]
 
-    elif score in session and unit in session[score] and str(exercise) in session[score][unit]:
+    elif 'score'in session and unit in session['score'] and str(exercise) in session['score'][unit]:
         trues = compute_trues(session, unit, exercise)
         falses = compute_falses(session, unit, exercise)
         return compute_fraction(trues, falses)
@@ -53,12 +52,12 @@ def compute_fraction(trues, falses):
 
 
 def compute_trues(session, unit, exercise):
-    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
-        result_exercise = session[result][unit][str(exercise)]
+    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
+        result_exercise = session['result'][unit][str(exercise)]
         trues = result_exercise * compute_total_questions(unit, exercise=exercise)
 
-    elif score in session and unit in session[score] and str(exercise) in session[score][unit]:
-        trues = sum(1 for val in session[score][unit][str(exercise)].values() if val is True)
+    elif 'score' in session and unit in session['score'] and str(exercise) in session['score'][unit]:
+        trues = sum(1 for val in session['score'][unit][str(exercise)].values() if val is True)
 
     else:
         trues = 0
@@ -66,12 +65,12 @@ def compute_trues(session, unit, exercise):
 
 
 def compute_falses(session, unit, exercise):
-    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
-        result_exercise = session[result][unit][str(exercise)]
+    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
+        result_exercise = session['result'][unit][str(exercise)]
         falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
 
-    elif score in session and unit in session[score] and str(exercise) in session[score][unit]:
-        falses = sum(1 for val in session[score][unit][str(exercise)].values() if val is False)
+    elif 'score' in session and unit in session['score'] and str(exercise) in session['score'][unit]:
+        falses = sum(1 for val in session['score'][unit][str(exercise)].values() if val is False)
 
     else:
         falses = 0

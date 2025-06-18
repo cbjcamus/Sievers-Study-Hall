@@ -1,8 +1,11 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_adverbien,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben,
+    deverbale_nomen,
 )
 
 TITLE_PAGE = {
@@ -16,7 +19,7 @@ TITLE_PAGE = {
     pronomen: "Pronomen",
     konnektoren: "Konnektoren",
     fragen: "Fragen",
-    adjektivdeklinationen: "Adjektivdeklinationen",
+    adverbien: "Adverbien",
 
     praesens: "Präsens",
     imperativ: "Imperativ",
@@ -27,9 +30,12 @@ TITLE_PAGE = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    adverbien: "Adverbien",
-    verben: "Verben",
+    adjektive: "Adjektive",
+    adjektivdeklinationen: "Adjektivdeklinationen",
+
     trennbare_verben: "(Un)trennbare Verben",
+    verben: "Verben",
+
     deverbale_nomen: "Deverbale Substantive (Beta)",
     }
 

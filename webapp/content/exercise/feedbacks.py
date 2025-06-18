@@ -1,8 +1,10 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben,
+    deverbale_nomen
 )
 
 FEEDBACK = {
@@ -447,45 +449,6 @@ FEEDBACK = {
             "<br><br>Correct answer(s): {correct_answers}",
     },
 
-    adjektivdeklinationen: {
-        1: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        2: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        3: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        4: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        5: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        6: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        7: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        8: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        9: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        10: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-
-        11: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        12: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        13: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        14: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        15: "{german}"
-           "<br><br>{article}, {gender}, {case} → {correct_answers}",
-
-        16: "{german}"
-            "<br><br>{article}, {gender}, {case} → {correct_answers}",
-        17: "{german}"
-            "<br><br>{article}, {gender}, {case} → {correct_answers}",
-    },
-
     praesens: {
         1: "{previous_question} → {person} {correct_answers}"
            "<br><br>{previous_question} = {english}",
@@ -720,6 +683,59 @@ FEEDBACK = {
         1: "Partizip I of {previous_question} = {correct_answers}",
         2: "Partizip I of {previous_question} = {correct_answers}",
         3: "Partizip I of {previous_question} = {correct_answers}",
+    },
+
+    adjektive: {
+        1: "{previous_question} = {correct_answers}",
+        2: "{previous_question} = {correct_answers}",
+        3: "{previous_question} ↔ {correct_answers}",
+        4: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
+        5: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
+        6: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        7: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
+        8: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
+
+    },
+
+    adjektivdeklinationen: {
+        1: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        2: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        3: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        4: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        5: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        6: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        7: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        8: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        9: "{german}"
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        10: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+
+        11: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        12: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        13: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        14: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        15: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+
+        16: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        17: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
     },
 
     trennbare_verben: {

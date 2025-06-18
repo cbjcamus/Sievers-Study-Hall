@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Adjektive – Practice German Adjective Declension for Free</title>
+    <meta name="description" content="Practice German Adjectives. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+
+{% from "macros.html" import render_exercise_table_row %}
+{% from "macros.html" import render_title %}
+
+<body>
+
+    {{ render_title("Adjektive") }}
+
+    <div class="section">
+        <h2>Introduction</h2>
+        {{ introduction | safe }}
+    </div>
+
+    <div class="section">
+        <h2>A1</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("adjektive", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 6, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adjektive", 8, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">Home</a>
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

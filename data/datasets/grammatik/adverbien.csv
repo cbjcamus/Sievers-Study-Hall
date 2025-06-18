@@ -89,6 +89,7 @@ Nr,exercise,question,answer,german,english
 88,3,already,schon,,
 89,3,maybe,vielleicht,,
 90,3,"still, yet",noch,,
+,3,"too, overly, excessively",zu,,
 91,4,Ich war letztes Jahr _____ im Urlaub.,dort,Ich war letztes Jahr dort im Urlaub.,I was there on vacation last year.
 92,4,_____ gibt es ein schönes Café.,Dort,Dort gibt es ein schönes Café.,There is a nice café there.
 93,4,Meine Freunde wohnen _____.,dort,Meine Freunde wohnen dort.,My friends live there.
@@ -149,6 +150,11 @@ Nr,exercise,question,answer,german,english
 148,4,Wir haben _____ Zeit.,noch,Wir haben noch Zeit.,We still have time.
 149,4,Er ist _____ krank,noch,Er ist noch krank.,He is still sick.
 150,4,Kannst du _____ ein Stück Kuchen essen?,noch,Kannst du noch ein Stück Kuchen essen?,Can you eat another piece of cake?
+151,4,Dieses Kleid ist _____ teuer für mich.,zu,Dieses Kleid ist zu teuer für mich.,This dress is too expensive for me.
+152,4,Er ist _____ interessiert an diesem Thema.,zu,Er ist zu interessiert an diesem Thema.,He is too interested in this topic.
+153,4,Ich liebe dieses Lied _____ sehr.,zu,Ich liebe dieses Lied zu sehr.,I love this song too much.
+154,4,Der Kaffee ist _____ heiß zum Trinken.,zu,Der Kaffee ist zu heiß zum Trinken.,The coffee is too hot to drink.
+155,4,Diese Aufgabe ist _____ schwer für mich.,zu,Diese Aufgabe ist zu schwer für mich.,This task is too difficult for me.
 151,5,the day before yesterday,vorgestern,,
 152,5,the day after tomorrow,übermorgen,,
 153,5,a little,ein bisschen,,

@@ -1,5 +1,4 @@
 from webapp.session_management.total_questions import compute_total_questions, compute_highest_exercise
-from webapp.session_management.session_ import progress, result
 
 
 def compute_answered_questions(session, unit, exercise=None):
@@ -22,15 +21,14 @@ def compute_answered_questions_unit_session(session, unit):
 
 
 def compute_answered_questions_exercise_session(session, unit, exercise):
-    if result in session and unit in session[result] and str(exercise) in session[result][unit]:
+    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
         return compute_total_questions(unit, exercise=exercise)
 
-    elif progress in session and unit in session[progress]:
-        if str(exercise) in session[progress][unit]:
-            return sum(session[progress][unit][str(exercise)].values())
+    elif 'progress' in session and unit in session['progress']:
+        if str(exercise) in session['progress'][unit]:
+            return sum(session['progress'][unit][str(exercise)].values())
         else:
             return 0
 
     else:
         return 0
-

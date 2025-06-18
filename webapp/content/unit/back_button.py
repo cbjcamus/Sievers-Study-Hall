@@ -1,8 +1,10 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    verben, trennbare_verben,
+    deverbale_nomen
 )
 
 BACK_BUTTON = {
@@ -16,7 +18,6 @@ BACK_BUTTON = {
     konnektoren: "Konnektoren",
     fragen: "Fragen",
     adverbien: "Adverbien",
-    adjektivdeklinationen: "Adjektivdeklinationen",
 
     praesens: "Präsens",
     imperativ: "Imperativ",
@@ -27,7 +28,11 @@ BACK_BUTTON = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    verben: "Verben",
+    adjektive: "Adjektive",
+    adjektivdeklinationen: "Adjektivdeklinationen",
+
     trennbare_verben: "(Un)trennbare Verben",
+    verben: "Verben",
+
     deverbale_nomen: "Deverbale Substantive",
     }

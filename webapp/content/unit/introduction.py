@@ -1,8 +1,10 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
-    artikel, pronomen, konnektoren, fragen, adjektivdeklinationen,
+    artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    adverbien, verben, trennbare_verben, deverbale_nomen
+    adjektive, adjektivdeklinationen,
+    trennbare_verben, verben,
+    deverbale_nomen
 )
 
 INTRODUCTION = {
@@ -35,9 +37,6 @@ INTRODUCTION = {
             "<br><br>Wo means Where and Wer means Who. Hope it makes sense.",
     adverbien: "Adverbs, including a mix of Temporal, Local, Modal, and Causal ones at each level."
                "<br><br>Features adverbs not seen in Konnektoren and Fragen.",
-    adjektivdeklinationen: "Adjective Declensions in every grammatical cases, persons, and articles."
-                           "<br><br>I hated that in French as a boy and it's even worse in German."
-                           "<br><br>If it was up to me, Adjective Declensions wouldn't start before C1.",
 
     praesens: "Present tense for each grammatical person."
               "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect.",
@@ -71,10 +70,16 @@ INTRODUCTION = {
                 "<br><br>But why use the Partizip I when you could use a relative clause?"
                 "<br><br>Also you would have to decline it as an adjective. What a mess.",
 
+    adjektive: "Adjectives translations, opposites, comparatives and superlatives in isolation.",
+    adjektivdeklinationen: "Adjective Declensions in every grammatical cases, persons, and articles."
+                           "<br><br>I hated that in French as a boy and it's even worse in German."
+                           "<br><br>If it was up to me, Adjective Declensions wouldn't start before C1.",
+
     trennbare_verben: "Trennbare and Untrennbare verbs to translate from English with either the root or the prefix as an help."
                       "<br><br>The most exotic feature of the German language. The Piña Colada of the Rhine. The Caipirinha of the Elbe.",
     verben: "English to German verb translation exercise."
             "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect."
             "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+
     deverbale_nomen: "",
     }

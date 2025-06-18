@@ -1,21 +1,19 @@
 from data.data_processing.data_loading import load_data
 
-from webapp.session_management.session_ import progress
-
 
 def pick_a_question(session, unit, exercise):
     data = load_data(unit, exercise)
 
-    if progress not in session:
-        session[progress] = {}
+    if 'progress' not in session:
+        session['progress'] = {}
 
-    if unit not in session[progress]:
-        session[progress][unit] = {}
+    if unit not in session['progress']:
+        session['progress'][unit] = {}
 
-    if str(exercise) not in session[progress][unit]:
-        session[progress][unit][str(exercise)] = {}
+    if str(exercise) not in session['progress'][unit]:
+        session['progress'][unit][str(exercise)] = {}
 
-    answered_nrs = session[progress][unit][str(exercise)].keys()
+    answered_nrs = session['progress'][unit][str(exercise)].keys()
     filtered_data = data[~data["Nr"].astype(str).isin(answered_nrs)]
 
     if filtered_data.empty:
