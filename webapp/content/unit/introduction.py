@@ -39,12 +39,12 @@ INTRODUCTION = {
                "<br><br>Features adverbs not seen in Konnektoren and Fragen.",
 
     praesens: "Present tense for each grammatical person."
-              "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect.",
+              "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect. Explanation <a href=https://sieversstudyhall.substack.com/i/165326616/why-are-reflexive-pronouns-missing-in-conjugation-exercises target=\"_blank\">here</a>.",
     partizip_II: "Past Participle used in the Perfekt, Plusquamperfekt, Future II and the Passive voice."
                  "<br><br>I wrote the first script that later became this website to practice the Partizip II. I hold it close to my heart.",
     praeteritum: "Preterit tense."
                  "<br><br>Available for each grammatical person for the most important verbs, then only the 3<sup>rd</sup> singular person is required."
-                 "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect."
+                 "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect. Explanation <a href=https://sieversstudyhall.substack.com/i/165326616/why-are-reflexive-pronouns-missing-in-conjugation-exercises target=\"_blank\">here</a>."
                  "<br><br>Once I spoke to a German teacher about my whereabouts. My level was early B1. "
                  "<br>I used the Präteritum instead of the Perfekt because it's easier: you don't have to think about which hilfsverb to use "
                  "and you don't have to retain the Partizip II in your head."
@@ -60,12 +60,12 @@ INTRODUCTION = {
     praeteritum_partizip_II: "Exercise to practice the Präteritum and Partizip II together.",
     imperativ: "Imperative for the three grammatical persons Du, Ihr and Sie."
                "<br><br>Scream at cyclists, the printer that doesn't work, and your toe that hits a piece of furniture the right way."
-               "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect.",
+               "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect. Explanation <a href=https://sieversstudyhall.substack.com/i/165326616/why-are-reflexive-pronouns-missing-in-conjugation-exercises target=\"_blank\">here</a>.",
     konjunktiv_II: "Konjunktiv II is used to express the subjunctive mood, suggestions and wishes."
                    "<br><br>Politeness' favorite tense.",
     konjunktiv_I: "Konjunktiv I is used to express an indirect or reported speech."
                   "<br><br>Journalists' favorite tense."
-                  "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect.",
+                  "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect. Explanation <a href=https://sieversstudyhall.substack.com/i/165326616/why-are-reflexive-pronouns-missing-in-conjugation-exercises target=\"_blank\">here</a>.",
     partizip_I: "Partizip I is used to express ongoing actions."
                 "<br><br>But why use the Partizip I when you could use a relative clause?"
                 "<br><br>Also you would have to decline it as an adjective. What a mess.",
@@ -76,9 +76,10 @@ INTRODUCTION = {
                            "<br><br>If it was up to me, Adjective Declensions wouldn't start before C1.",
 
     trennbare_verben: "Trennbare and Untrennbare verbs to translate from English with either the root or the prefix as an help."
+                      "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect. Explanation <a href=https://sieversstudyhall.substack.com/i/165326616/why-are-reflexive-pronouns-missing-in-conjugation-exercises target=\"_blank\">here</a>."
                       "<br><br>The most exotic feature of the German language. The Piña Colada of the Rhine. The Caipirinha of the Elbe.",
     verben: "English to German verb translation exercise."
-            "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect."
+            "<br><br>⚠️ For Reflexive verbs, do not write the reflexive pronoun, or your answer will be flagged as incorrect. Explanation <a href=https://sieversstudyhall.substack.com/i/165326616/why-are-reflexive-pronouns-missing-in-conjugation-exercises target=\"_blank\">here</a>."
             "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
 
     deverbale_nomen: "",
