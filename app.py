@@ -20,11 +20,5 @@ app.config['SESSION_FILE_DIR'] = os.path.join(os.path.dirname(__file__), 'flask_
 app.config['SESSION_PERMANENT'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=90)
 
-app.config['SESSION_COOKIE_SECURE'] = True # Only if your app is on HTTPS (which it is on PythonAnywhere)
-app.config['SESSION_COOKIE_HTTPONLY'] = True # Good practice for security
-app.config['SESSION_COOKIE_SAMESITE'] = 'Lax' # Recommended for most cases
-
-app.config['SESSION_COOKIE_DOMAIN'] = '.sieversstudyhall.com' # <<< IMPORTANT: Replace with your actual domain
-app.config['SESSION_COOKIE_PATH'] = '/'
 
 Session(app)

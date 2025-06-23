@@ -21,13 +21,6 @@ app.config['SESSION_PERMANENT'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=90)
 Session(app)
 
-app.config['SESSION_COOKIE_SECURE'] = True # Only if your app is on HTTPS (which it is on PythonAnywhere)
-app.config['SESSION_COOKIE_HTTPONLY'] = True # Good practice for security
-app.config['SESSION_COOKIE_SAMESITE'] = 'Lax' # Recommended for most cases
-
-app.config['SESSION_COOKIE_DOMAIN'] = '.sieversstudyhall.com' # <<< IMPORTANT: Replace with your actual domain
-app.config['SESSION_COOKIE_PATH'] = '/'
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Default to 8080 if PORT is not set

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="Feedback in summary + string for progress and score and result">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="session cookie update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/introduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00030" summary="commit">
-      <option name="closed" value="true" />
-      <created>1743220791107</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1743220791107</updated>
     </task>
     <task id="LOCAL-00031" summary="commit">
       <option name="closed" value="true" />
@@ -541,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750237748142</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="session cookie update">
+      <option name="closed" value="true" />
+      <created>1750598157374</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1750598157375</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -557,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
     <MESSAGE value="faq" />
     <MESSAGE value="readme" />
     <MESSAGE value="praeteritum + partizip II exercise" />
@@ -582,7 +582,8 @@
     <MESSAGE value="praeteritum" />
     <MESSAGE value="June 16th, 2025" />
     <MESSAGE value="Feedback in summary + string for progress and score and result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feedback in summary + string for progress and score and result" />
+    <MESSAGE value="session cookie update" />
+    <option name="LAST_COMMIT_MESSAGE" value="session cookie update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
