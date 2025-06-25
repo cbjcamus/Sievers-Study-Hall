@@ -230,10 +230,10 @@ Nr,exercise,question,answer,german,english
 229,6,_____ hatten wir eine wichtige Besprechung im Büro.,Vorgestern,Vorgestern hatten wir eine wichtige Besprechung im Büro.,"The day before yesterday, we had an important meeting at the office."
 230,6,Meine Großeltern sind _____ aus dem Urlaub zurückgekommen.,vorgestern,Meine Großeltern sind vorgestern aus dem Urlaub zurückgekommen.,My grandparents returned from vacation the day before yesterday.
 231,6,_____ haben wir eine wichtige Prüfung in der Schule.,Übermorgen,Übermorgen haben wir eine wichtige Prüfung in der Schule.,"The day after tomorrow, we have an important exam at school."
-232,6,Meine Eltern kommen übermorgen aus dem Urlaub zurück.,Übermorgen,Meine Eltern kommen übermorgen aus dem Urlaub zurück.,My parents are coming back from vacation the day after tomorrow.
-233,6,Wir fahren übermorgen in die Berge zum Wandern.,Übermorgen,Wir fahren übermorgen in die Berge zum Wandern.,We are going to the mountains for a hike the day after tomorrow.
+232,6,Meine Eltern kommen _____ aus dem Urlaub zurück.,übermorgen,Meine Eltern kommen übermorgen aus dem Urlaub zurück.,My parents are coming back from vacation the day after tomorrow.
+233,6,Wir fahren _____ in die Berge zum Wandern.,übermorgen,Wir fahren übermorgen in die Berge zum Wandern.,We are going to the mountains for a hike the day after tomorrow.
 234,6,_____ beginnt das neue Semester an der Universität.,Übermorgen,Übermorgen beginnt das neue Semester an der Universität.,The new semester at the university starts the day after tomorrow.
-235,6,"Ich muss übermorgen früh aufstehen, weil ich einen Termin habe.",Übermorgen,"Ich muss übermorgen früh aufstehen, weil ich einen Termin habe.",I have to get up early the day after tomorrow because I have an appointment.
+235,6,"Ich muss _____ früh aufstehen, weil ich einen Termin habe.",übermorgen,"Ich muss übermorgen früh aufstehen, weil ich einen Termin habe.",I have to get up early the day after tomorrow because I have an appointment.
 236,6,Ich habe meine Hausaufgaben _____ gemacht.,noch nicht,Ich habe meine Hausaufgaben noch nicht gemacht.,I haven’t done my homework yet.
 237,6,Wir sind _____ fertig.,noch nicht,Wir sind noch nicht fertig.,We’re not finished yet.
 238,6,Er hat das Buch _____ gelesen.,noch nicht,Er hat das Buch noch nicht gelesen.,He hasn’t read the book yet.
@@ -935,363 +935,366 @@ Nr,exercise,question,answer,german,english
 934,24,_____ solltest du deine Träume aufgeben.,Auf keinen Fall,Auf keinen Fall solltest du deine Träume aufgeben.,You should never give up on your dreams.
 935,24,"Sie wollte _____, dass jemand davon erfährt.",auf keinen Fall,"Sie wollte auf keinen Fall, dass jemand davon erfährt.",She absolutely didn't want anyone to find out about it.
 936,24,_____ ist das die richtige Lösung für das Problem.,Auf keinen Fall,Auf keinen Fall ist das die richtige Lösung für das Problem.,That is definitely not the right solution to the problem.
-937,25,"in the meantime, meanwhile, by now, since then",inzwischen,,
-938,25,legally,rechtlich,,
-939,25,"in detail, extensively",ausführlich,,
-940,25,"by no means, not at all",keineswegs,,
-941,25,if necessary,gegebenenfalls,,
-942,25,"of all people, of all times",ausgerechnet,,
-943,25,predominantly,vorwiegend,,
-944,25,accordingly,entsprechend,,
-945,25,"somewhat, more or less",einigermaßen,,
-946,25,side by side,nebeneinander,,
-947,25,colloquially,umgangssprachlich,,
-948,25,temporarily,vorübergehend,,
-949,25,"to conclude, in conclusion",abschließend,,
-950,25,theoretically,theoretisch,,
-951,26,"_____ könnte das Experiment funktionieren, aber es gibt noch viele Unbekannte.",Theoretisch,"Theoretisch könnte das Experiment funktionieren, aber es gibt noch viele Unbekannte.","Theoretically, the experiment could work, but there are still many unknowns."
-952,26,"Man kann _____ in einem Monat eine Sprache lernen, aber es erfordert viel Übung.",theoretisch,"Man kann theoretisch in einem Monat eine Sprache lernen, aber es erfordert viel Übung.","Theoretically, one could learn a language in a month, but it requires a lot of practice."
-953,26,"_____ wäre es möglich, das Problem zu lösen, wenn wir mehr Ressourcen hätten.",Theoretisch,"Theoretisch wäre es möglich, das Problem zu lösen, wenn wir mehr Ressourcen hätten.","Theoretically, it would be possible to solve the problem if we had more resources."
-954,26,"Er kann _____ morgen anreisen, aber es hängt von seinem Zeitplan ab.",theoretisch,"Er kann theoretisch morgen anreisen, aber es hängt von seinem Zeitplan ab.","He could theoretically arrive tomorrow, but it depends on his schedule."
-955,26,"_____ sollten erneuerbare Energien genug Strom liefern können, um den Bedarf zu decken.",Theoretisch,"Theoretisch sollten erneuerbare Energien genug Strom liefern können, um den Bedarf zu decken.","Theoretically, renewable energy should be able to provide enough electricity to meet demand."
-956,26,Ich habe vor einem Jahr mit dem Klavierspielen angefangen und bin _____ ziemlich gut.,inzwischen,Ich habe vor einem Jahr mit dem Klavierspielen angefangen und bin inzwischen ziemlich gut.,"I started playing the piano a year ago, and by now, I’m quite good."
-957,26,Sie ist vor fünf Jahren nach Deutschland gezogen und spricht _____ fließend Deutsch.,inzwischen,Sie ist vor fünf Jahren nach Deutschland gezogen und spricht inzwischen fließend Deutsch.,She moved to Germany five years ago and now speaks fluent German.
-958,26,"Wir mussten lange auf den Zug warten, also haben wir uns _____ einen Kaffee geholt.",inzwischen,"Wir mussten lange auf den Zug warten, also haben wir uns inzwischen einen Kaffee geholt.","We had to wait a long time for the train, so in the meantime, we got a coffee."
-959,26,Das kleine Unternehmen hat sich _____ zu einer großen Firma entwickelt.,inzwischen,Das kleine Unternehmen hat sich inzwischen zu einer großen Firma entwickelt.,The small company has since developed into a large business.
-960,26,"Er hatte anfangs Schwierigkeiten, aber _____ versteht er die Grammatik viel besser.",inzwischen,"Er hatte anfangs Schwierigkeiten, aber inzwischen versteht er die Grammatik viel besser.","He had difficulties at first, but by now, he understands the grammar much better."
-961,26,Die Vereinbarung ist _____ bindend und muss eingehalten werden.,rechtlich,Die Vereinbarung ist rechtlich bindend und muss eingehalten werden.,The agreement is legally binding and must be followed.
-962,26,"Das Vorgehen ist _____ erlaubt, aber moralisch umstritten.",rechtlich,"Das Vorgehen ist rechtlich erlaubt, aber moralisch umstritten.",The procedure is legally allowed but morally controversial.
-963,26,"Er handelt _____ korrekt, auch wenn es unpopulär ist.",rechtlich,"Er handelt rechtlich korrekt, auch wenn es unpopulär ist.","He acts legally correctly, even if it’s unpopular."
-964,26,Die Firma hat sich _____ gegen die Vorwürfe verteidigt.,rechtlich,Die Firma hat sich rechtlich gegen die Vorwürfe verteidigt.,The company defended itself legally against the accusations.
-965,26,"Dieses Problem muss _____ geprüft werden, bevor wir entscheiden.",rechtlich,"Dieses Problem muss rechtlich geprüft werden, bevor wir entscheiden.",This issue must be legally examined before we make a decision.
-966,26,"Der Professor erklärte das komplexe Thema _____, sodass alle es verstanden.",ausführlich,"Der Professor erklärte das komplexe Thema ausführlich, sodass alle es verstanden.","The professor explained the complex topic in detail, so everyone understood it."
-967,26,Sie hat ihre Meinung _____ in dem Bericht dargelegt.,ausführlich,Sie hat ihre Meinung ausführlich in dem Bericht dargelegt.,She presented her opinion in detail in the report.
-968,26,"Wir haben das Problem _____ diskutiert, bevor wir eine Entscheidung trafen.",ausführlich,"Wir haben das Problem ausführlich diskutiert, bevor wir eine Entscheidung trafen.",We discussed the problem in detail before making a decision.
-969,26,Der Zeuge schilderte den Tathergang _____ vor Gericht.,ausführlich,Der Zeuge schilderte den Tathergang ausführlich vor Gericht.,The witness described the course of events in detail in court.
-970,26,Er antwortete _____ auf jede einzelne Frage der Journalisten.,ausführlich,Er antwortete ausführlich auf jede einzelne Frage der Journalisten.,He answered each of the journalists' questions in detail.
-971,26,Wir sollten _____ einen Experten hinzuziehen.,gegebenenfalls,Wir sollten gegebenenfalls einen Experten hinzuziehen.,"We should, if necessary, consult an expert."
-972,26,Gegebenenfalls muss der Vertrag angepasst werden.,gegebenenfalls,Gegebenenfalls muss der Vertrag angepasst werden.,The contract may need to be adjusted if necessary.
-973,26,Bitte bringen Sie _____ alle relevanten Unterlagen mit.,gegebenenfalls,Bitte bringen Sie gegebenenfalls alle relevanten Unterlagen mit.,"Please bring all relevant documents, if applicable."
-974,26,Die Frist kann _____ verlängert werden.,gegebenenfalls,Die Frist kann gegebenenfalls verlängert werden.,The deadline can be extended if needed.
-975,26,Gegebenenfalls werden weitere Maßnahmen ergriffen.,gegebenenfalls,Gegebenenfalls werden weitere Maßnahmen ergriffen.,Further measures will be taken if necessary.
-976,26,Ich bin mit dieser Entscheidung _____ einverstanden.,keineswegs,Ich bin mit dieser Entscheidung keineswegs einverstanden.,I do not agree with this decision at all.
-977,26,"Das bedeutet _____, dass wir aufgeben sollten.",keineswegs,"Das bedeutet keineswegs, dass wir aufgeben sollten.",That by no means means we should give up.
-978,26,"Er war _____ bereit, Kompromisse einzugehen.",keineswegs,"Er war keineswegs bereit, Kompromisse einzugehen.",He was by no means willing to make compromises.
-979,26,Die Ergebnisse sind _____ zufriedenstellend.,keineswegs,Die Ergebnisse sind keineswegs zufriedenstellend.,The results are by no means satisfactory.
-980,26,"_____ wollte ich dich kritisieren, sondern nur helfen.",Keineswegs,"Keineswegs wollte ich dich kritisieren, sondern nur helfen.","I by no means wanted to criticize you, only to help."
-981,26,_____ heute hat er verschlafen und den wichtigen Termin verpasst.,Ausgerechnet,Ausgerechnet heute hat er verschlafen und den wichtigen Termin verpasst.,"Of all days, he overslept today and missed the important appointment."
-982,26,Warum muss _____ ich diese Aufgabe übernehmen?,ausgerechnet,Warum muss ausgerechnet ich diese Aufgabe übernehmen?,"Why do I have to take on this task, of all people?"
-983,26,_____ in dem Moment fiel der Strom aus.,Ausgerechnet,Ausgerechnet in dem Moment fiel der Strom aus.,The power went out at that exact moment.
-984,26,Sie hat sich _____ für das teuerste Modell entschieden.,ausgerechnet,Sie hat sich ausgerechnet für das teuerste Modell entschieden.,"She chose the most expensive model, of all options."
-985,26,"_____ er, der sonst immer pünktlich ist, kam zu spät.",Ausgerechnet,"Ausgerechnet er, der sonst immer pünktlich ist, kam zu spät.","He, of all people—the one who’s always on time—was late."
-986,26,Die Teilnehmer kamen _____ aus dem akademischen Bereich.,vorwiegend,Die Teilnehmer kamen vorwiegend aus dem akademischen Bereich.,The participants came predominantly from the academic field.
-987,26,In dieser Region wird _____ Wein angebaut.,vorwiegend,In dieser Region wird vorwiegend Wein angebaut.,Wine is predominantly cultivated in this region.
-988,26,Die Diskussion drehte sich _____ um finanzielle Fragen.,vorwiegend,Die Diskussion drehte sich vorwiegend um finanzielle Fragen.,The discussion focused predominantly on financial issues.
-989,26,_____ junge Menschen nutzen diese Plattform.,Vorwiegend,Vorwiegend junge Menschen nutzen diese Plattform.,This platform is used predominantly by young people.
-990,26,"Er arbeitet _____ im Homeoffice, reist aber gelegentlich ins Büro.",vorwiegend,"Er arbeitet vorwiegend im Homeoffice, reist aber gelegentlich ins Büro.",He predominantly works from home but occasionally travels to the office.
-991,26,Er hat viel Erfahrung und handelt _____ professionell.,entsprechend,Er hat viel Erfahrung und handelt entsprechend professionell.,He has a lot of experience and acts accordingly professionally.
-992,26,Die Preise wurden _____ der Nachfrage angepasst.,entsprechend,Die Preise wurden entsprechend der Nachfrage angepasst.,The prices were adjusted accordingly to the demand.
-993,26,"Die Mitarbeiter wurden _____ geschult, um den Anforderungen gerecht zu werden.",entsprechend,"Die Mitarbeiter wurden entsprechend geschult, um den Anforderungen gerecht zu werden.",The employees were trained accordingly to meet the requirements.
-994,26,Sie hat ihre Pläne _____ der neuen Situation geändert.,entsprechend,Sie hat ihre Pläne entsprechend der neuen Situation geändert.,She changed her plans accordingly to the new situation.
-995,26,Der Vertrag wurde _____ den gesetzlichen Vorgaben erstellt.,entsprechend,Der Vertrag wurde entsprechend den gesetzlichen Vorgaben erstellt.,The contract was drawn up in accordance with legal requirements.
-996,26,"Der Vortrag war _____ interessant, aber nicht besonders spannend.",einigermaßen,"Der Vortrag war einigermaßen interessant, aber nicht besonders spannend.","The lecture was somewhat interesting, but not particularly exciting."
-997,26,"Ich fühle mich heute _____ fit, obwohl ich wenig geschlafen habe.",einigermaßen,"Ich fühle mich heute einigermaßen fit, obwohl ich wenig geschlafen habe.","I feel reasonably fit today, even though I slept little."
-998,26,Das Problem ist jetzt _____ unter Kontrolle.,einigermaßen,Das Problem ist jetzt einigermaßen unter Kontrolle.,The problem is now more or less under control.
-999,26,"Seine Antwort war _____ überzeugend, aber nicht ganz schlüssig.",einigermaßen,"Seine Antwort war einigermaßen überzeugend, aber nicht ganz schlüssig.","His answer was fairly convincing, but not entirely conclusive."
-1000,26,"Die Situation hat sich _____ verbessert, bleibt aber schwierig.",einigermaßen,"Die Situation hat sich einigermaßen verbessert, bleibt aber schwierig.",The situation has improved to some extent but remains difficult.
-1001,26,Die beiden Konzepte können problemlos _____ existieren.,nebeneinander,Die beiden Konzepte können problemlos nebeneinander existieren.,The two concepts can easily exist side by side.
-1002,26,In diesem Viertel leben Menschen unterschiedlicher Kulturen friedlich _____.,nebeneinander,In diesem Viertel leben Menschen unterschiedlicher Kulturen friedlich nebeneinander.,"In this neighborhood, people from different cultures live peacefully side by side."
-1003,26,Die Bücher stehen ordentlich _____ im Regal.,nebeneinander,Die Bücher stehen ordentlich nebeneinander im Regal.,The books are neatly lined up next to each other on the shelf.
-1004,26,"Theorie und Praxis sollten nicht getrennt, sondern _____ betrachtet werden.",nebeneinander,"Theorie und Praxis sollten nicht getrennt, sondern nebeneinander betrachtet werden.",Theory and practice should not be separated but considered side by side.
-1005,26,"Die Autos parkten dicht _____, sodass kaum Platz blieb.",nebeneinander,"Die Autos parkten dicht nebeneinander, sodass kaum Platz blieb.","The cars were parked closely next to each other, leaving little space."
-1006,26,Dieses Wort wird _____ oft in einem anderen Sinn verwendet.,umgangssprachlich,Dieses Wort wird umgangssprachlich oft in einem anderen Sinn verwendet.,This word is often used in a different sense in colloquial speech.
-1007,26,_____ sagt man einfach „Tschüss“ statt „Auf Wiedersehen“.,Umgangssprachlich,Umgangssprachlich sagt man einfach „Tschüss“ statt „Auf Wiedersehen“.,"Colloquially, people just say ""Tschüss"" instead of ""Auf Wiedersehen."""
-1008,26,Die Redewendung wird _____ in vielen Regionen genutzt.,umgangssprachlich,Die Redewendung wird umgangssprachlich in vielen Regionen genutzt.,The expression is used colloquially in many regions.
-1009,26,"_____ könnte man sagen, dass er total überarbeitet ist.",Umgangssprachlich,"Umgangssprachlich könnte man sagen, dass er total überarbeitet ist.","Colloquially, you could say he’s completely overworked."
-1010,26,"Der Begriff wird _____ verwendet, taucht aber oft auch in der Schriftsprache auf.",umgangssprachlich,"Der Begriff wird umgangssprachlich verwendet, taucht aber oft auch in der Schriftsprache auf.",The term is used colloquially but also often appears in written language.
-1011,26,Die Filiale ist _____ geschlossen wegen Renovierungsarbeiten.,vorübergehend,Die Filiale ist vorübergehend geschlossen wegen Renovierungsarbeiten.,The branch is temporarily closed due to renovation work.
-1012,26,Vorübergehend arbeitet sie in einer anderen Abteilung.,vorübergehend,Vorübergehend arbeitet sie in einer anderen Abteilung.,She is working in another department temporarily.
-1013,26,Der Zugang ist _____ nicht möglich.,vorübergehend,Der Zugang ist vorübergehend nicht möglich.,Access is temporarily unavailable.
-1014,26,"Er lebt _____ bei Freunden, bis er eine Wohnung findet.",vorübergehend,"Er lebt vorübergehend bei Freunden, bis er eine Wohnung findet.",He is temporarily living with friends until he finds an apartment.
-1015,26,"Die Situation hat sich _____ entspannt, bleibt aber kritisch.",vorübergehend,"Die Situation hat sich vorübergehend entspannt, bleibt aber kritisch.",The situation has temporarily eased but remains critical.
-1016,26,"_____ lässt sich sagen, dass die Ergebnisse unsere Hypothese eindeutig bestätigen.",Abschließend,"Abschließend lässt sich sagen, dass die Ergebnisse unsere Hypothese eindeutig bestätigen.","In conclusion, it can be said that the results clearly confirm our hypothesis."
-1017,26,"_____ möchte ich betonen, wie wichtig eine nachhaltige Entwicklung für unsere Zukunft ist.",Abschließend,"Abschließend möchte ich betonen, wie wichtig eine nachhaltige Entwicklung für unsere Zukunft ist.","In conclusion, I would like to emphasize how important sustainable development is for our future."
-1018,26,"_____ stellt der Bericht fest, dass weitere Maßnahmen notwendig sind.",Abschließend,"Abschließend stellt der Bericht fest, dass weitere Maßnahmen notwendig sind.","In conclusion, the report states that further measures are necessary."
-1019,26,"_____ bleibt nur zu hoffen, dass die Reformen tatsächlich umgesetzt werden.",Abschließend,"Abschließend bleibt nur zu hoffen, dass die Reformen tatsächlich umgesetzt werden.","In conclusion, we can only hope that the reforms will actually be implemented."
-1020,26,"_____ kann man festhalten, dass die Diskussion viele neue Perspektiven eröffnet hat.",Abschließend,"Abschließend kann man festhalten, dass die Diskussion viele neue Perspektiven eröffnet hat.","In conclusion, it can be noted that the discussion has opened up many new perspectives."
-1021,26,"_____, was man hört, war das Konzert ein großer Erfolg.",Nach allem,"Nach allem, was man hört, war das Konzert ein großer Erfolg.","By all accounts, the concert was a big success."
-1022,26,"_____, was gesagt wurde, ist er ein zuverlässiger Kollege.",Nach allem,"Nach allem, was gesagt wurde, ist er ein zuverlässiger Kollege.","By all accounts, he is a reliable colleague."
-1023,26,"_____, was bisher berichtet wurde, ist der Plan sinnvoll.",Nach allem,"Nach allem, was bisher berichtet wurde, ist der Plan sinnvoll.","According to everything that has been reported so far, the plan makes sense."
-1024,26,"_____, was man liest, ist dieses Buch sehr empfehlenswert.",Nach allem,"Nach allem, was man liest, ist dieses Buch sehr empfehlenswert.","From what I read, this book is highly recommended."
-1025,26,"_____, was mir erzählt wurde, ist das eine schwierige Aufgabe.",Nach allem,"Nach allem, was mir erzählt wurde, ist das eine schwierige Aufgabe.","From everything I've been told, this is a difficult task."
-1026,27,respectively,jeweils,,
-1027,27,"overall, all in all",insgesamt,,
-1028,27,insanely,wahnsinnig,,
-1029,27,"recklessly, carelessly",leichtsinnig,,
-1030,27,passionately,leidenschaftlich,,
-1031,27,obviously,offensichtlich,,
-1032,27,thoroughly,gründlich,,
-1033,27,"by the way, incidentally",übrigens,,
-1034,27,"just, simply, exactly",eben,,
-1035,27,"anyway, anyhow, in any case",sowieso,,
-1036,27,"just as, equally",ebenso,,
-1037,27,"at least, after all",immerhin,,
-1038,27,ever,je,,
-1039,27,"extensively, in details",ausführlich,,
-1040,28,Die Teilnehmer erhalten _____ ein Zertifikat nach Abschluss des Kurses.,jeweils,Die Teilnehmer erhalten jeweils ein Zertifikat nach Abschluss des Kurses.,The participants each receive a certificate after completing the course.
-1041,28,"Es gibt drei Gruppen, und _____ eine Gruppe arbeitet an einem anderen Projekt.",jeweils,"Es gibt drei Gruppen, und jeweils eine Gruppe arbeitet an einem anderen Projekt.","There are three groups, and each group works on a different project."
-1042,28,Die Prüfungen finden _____ am Montag und Mittwoch statt.,jeweils,Die Prüfungen finden jeweils am Montag und Mittwoch statt.,"The exams take place on Monday and Wednesday, respectively."
-1043,28,Jeder Kunde kann _____ nur ein Produkt kostenlos testen.,jeweils,Jeder Kunde kann jeweils nur ein Produkt kostenlos testen.,Each customer can test only one product for free.
-1044,28,Die Züge fahren _____ alle 30 Minuten vom Hauptbahnhof ab.,jeweils,Die Züge fahren jeweils alle 30 Minuten vom Hauptbahnhof ab.,The trains depart from the main station every 30 minutes.
-1045,28,Es waren _____ 200 Gäste auf der Veranstaltung.,insgesamt,Es waren insgesamt 200 Gäste auf der Veranstaltung.,There were a total of 200 guests at the event.
-1046,28,Das Projekt hat _____ drei Monate gedauert.,insgesamt,Das Projekt hat insgesamt drei Monate gedauert.,The project took a total of three months.
-1047,28,Insgesamt bin ich mit dem Ergebnis sehr zufrieden.,insgesamt,Insgesamt bin ich mit dem Ergebnis sehr zufrieden.,"Overall, I am very satisfied with the result."
-1048,28,Er hat _____ fünf Prüfungen bestanden.,insgesamt,Er hat insgesamt fünf Prüfungen bestanden.,He passed a total of five exams.
-1049,28,_____ betrachtet war das ein sehr erfolgreiches Jahr für uns.,Insgesamt,Insgesamt betrachtet war das ein sehr erfolgreiches Jahr für uns.,"All in all, this was a very successful year for us."
-1050,28,Er spielt _____ Gitarre und träumt von einer Musikkarriere.,leidenschaftlich,Er spielt leidenschaftlich Gitarre und träumt von einer Musikkarriere.,He plays the guitar passionately and dreams of a music career.
-1051,28,Sie diskutierte _____ über Politik mit ihren Freunden.,leidenschaftlich,Sie diskutierte leidenschaftlich über Politik mit ihren Freunden.,She passionately discussed politics with her friends.
-1052,28,Er tanzt _____ Salsa in seiner Freizeit.,leidenschaftlich,Er tanzt leidenschaftlich Salsa in seiner Freizeit.,He passionately dances salsa in his free time.
-1053,28,Sie engagiert sich _____ für den Umweltschutz.,leidenschaftlich,Sie engagiert sich leidenschaftlich für den Umweltschutz.,She is passionately committed to environmental protection.
-1054,28,Der Autor schreibt _____ über historische Themen.,leidenschaftlich,Der Autor schreibt leidenschaftlich über historische Themen.,The author writes passionately about historical topics.
-1055,28,"Ich bin _____ müde, weil ich die ganze Nacht gearbeitet habe.",wahnsinnig,"Ich bin wahnsinnig müde, weil ich die ganze Nacht gearbeitet habe.",I am insanely tired because I worked all night.
-1056,28,"Das Konzert war _____ gut, ich habe jede Sekunde genossen.",wahnsinnig,"Das Konzert war wahnsinnig gut, ich habe jede Sekunde genossen.",The concert was insanely good; I enjoyed every second.
-1057,28,Sie hat sich _____ über die Überraschung gefreut.,wahnsinnig,Sie hat sich wahnsinnig über die Überraschung gefreut.,She was insanely happy about the surprise.
-1058,28,"Er arbeitet _____ hart, um seine Ziele zu erreichen.",wahnsinnig,"Er arbeitet wahnsinnig hart, um seine Ziele zu erreichen.",He works insanely hard to achieve his goals.
-1059,28,Das Essen im neuen Restaurant ist _____ lecker.,wahnsinnig,Das Essen im neuen Restaurant ist wahnsinnig lecker.,The food at the new restaurant is insanely delicious.
-1060,28,Er hat _____ ohne Helm Fahrrad gefahren.,leichtsinnig,Er hat leichtsinnig ohne Helm Fahrrad gefahren.,He rode his bike recklessly without a helmet.
-1061,28,Sie gab _____ ihr ganzes Geld für teure Kleidung aus.,leichtsinnig,Sie gab leichtsinnig ihr ganzes Geld für teure Kleidung aus.,She carelessly spent all her money on expensive clothes.
-1062,28,Er fuhr _____ zu schnell auf der Autobahn.,leichtsinnig,Er fuhr leichtsinnig zu schnell auf der Autobahn.,He drove recklessly too fast on the highway.
-1063,28,"_____ unterschrieb er den Vertrag, ohne ihn genau zu lesen.",Leichtsinnig,"Leichtsinnig unterschrieb er den Vertrag, ohne ihn genau zu lesen.",He carelessly signed the contract without reading it carefully.
-1064,28,"Sie handelte _____, indem sie ohne Vorbereitung zur Prüfung ging.",leichtsinnig,"Sie handelte leichtsinnig, indem sie ohne Vorbereitung zur Prüfung ging.",She acted recklessly by going to the exam without preparation.
-1065,28,"_____ hatte niemand den Bericht gründlich gelesen, sonst wären die Fehler aufgefallen.",Offensichtlich,"Offensichtlich hatte niemand den Bericht gründlich gelesen, sonst wären die Fehler aufgefallen.","Obviously, no one had read the report thoroughly, or the errors would have been noticed."
-1066,28,"Sie war _____ nicht an der Wahrheit interessiert, sondern nur an der Bestätigung ihrer Meinung.",offensichtlich,"Sie war offensichtlich nicht an der Wahrheit interessiert, sondern nur an der Bestätigung ihrer Meinung.","She was obviously not interested in the truth, but only in confirming her opinion."
-1067,28,"Der Termin wurde _____ vergessen, da niemand erschienen ist.",offensichtlich,"Der Termin wurde offensichtlich vergessen, da niemand erschienen ist.","The appointment was obviously forgotten, since no one showed up."
-1068,28,"Er hatte _____ gelogen, denn seine Aussagen widersprachen den Fakten.",offensichtlich,"Er hatte offensichtlich gelogen, denn seine Aussagen widersprachen den Fakten.","He had obviously lied, as his statements contradicted the facts."
-1069,28,"_____ war das Angebot zu gut, um wahr zu sein, was sich später bestätigte.",Offensichtlich,"Offensichtlich war das Angebot zu gut, um wahr zu sein, was sich später bestätigte.","Obviously, the offer was too good to be true, which was confirmed later."
-1070,28,"Bevor wir eine Entscheidung treffen, sollten wir alle Optionen _____ analysieren.",gründlich,"Bevor wir eine Entscheidung treffen, sollten wir alle Optionen gründlich analysieren.","Before making a decision, we should thoroughly analyze all options."
-1071,28,"Er hat den Vertrag _____ gelesen, bevor er unterschrieben hat.",gründlich,"Er hat den Vertrag gründlich gelesen, bevor er unterschrieben hat.",He read the contract thoroughly before signing it.
-1072,28,Die Wohnung wurde vor dem Einzug _____ renoviert.,gründlich,Die Wohnung wurde vor dem Einzug gründlich renoviert.,The apartment was thoroughly renovated before moving in.
-1073,28,Sie bereitet sich immer _____ auf ihre Präsentationen vor.,gründlich,Sie bereitet sich immer gründlich auf ihre Präsentationen vor.,She always prepares thoroughly for her presentations.
-1074,28,Das Thema wurde im Seminar sehr _____ behandelt.,gründlich,Das Thema wurde im Seminar sehr gründlich behandelt.,The topic was covered very thoroughly in the seminar.
-1075,28,"_____, hast du schon von der neuen Ausstellung gehört?",Übrigens,"Übrigens, hast du schon von der neuen Ausstellung gehört?","By the way, have you heard about the new exhibition?"
-1076,28,"Ich komme morgen zur Party, _____ bringe ich einen Freund mit.",übrigens,"Ich komme morgen zur Party, übrigens bringe ich einen Freund mit.","I’m coming to the party tomorrow, by the way, I’m bringing a friend."
-1077,28,"_____, das Restaurant hat jetzt auch vegane Gerichte auf der Karte.",Übrigens,"Übrigens, das Restaurant hat jetzt auch vegane Gerichte auf der Karte.","By the way, the restaurant now also has vegan dishes on the menu."
-1078,28,"Sie hat den Job bekommen, _____ hat sie sich nur aus Spass beworben.",übrigens,"Sie hat den Job bekommen, übrigens hat sie sich nur aus Spass beworben.","She got the job; incidentally, she only applied for fun."
-1079,28,"_____, ich habe gestern deinen Bruder getroffen.",Übrigens,"Übrigens, ich habe gestern deinen Bruder getroffen.","By the way, I met your brother yesterday."
-1080,28,Ich habe _____ eine wichtige E-Mail bekommen.,eben,Ich habe eben eine wichtige E-Mail bekommen.,I just received an important email.
-1081,28,"Manche Dinge kann man nicht ändern, das ist _____ so.",eben,"Manche Dinge kann man nicht ändern, das ist eben so.","Some things cannot be changed, that's just how it is."
-1082,28,"Er war _____ noch hier, aber jetzt ist er verschwunden.",eben,"Er war eben noch hier, aber jetzt ist er verschwunden.","He was just here, but now he’s gone."
-1083,28,"Wenn du Erfolg haben willst, musst du _____ mehr arbeiten.",eben,"Wenn du Erfolg haben willst, musst du eben mehr arbeiten.","If you want to be successful, you simply have to work more."
-1084,28,Das ist _____ der Unterschied zwischen Theorie und Praxis.,eben,Das ist eben der Unterschied zwischen Theorie und Praxis.,That’s exactly the difference between theory and practice.
-1085,28,Er ist _____ talentiert wie sein Bruder.,ebenso,Er ist ebenso talentiert wie sein Bruder.,He is just as talented as his brother.
-1086,28,Die neuen Regeln betreffen _____ die Mitarbeiter wie die Kunden.,ebenso,Die neuen Regeln betreffen ebenso die Mitarbeiter wie die Kunden.,The new rules affect both the employees and the customers equally.
-1087,28,Das Design ist _____ wichtig wie die Funktionalität.,ebenso,Das Design ist ebenso wichtig wie die Funktionalität.,The design is just as important as the functionality.
-1088,28,"Er war müde, aber _____ glücklich über den Erfolg.",ebenso,"Er war müde, aber ebenso glücklich über den Erfolg.",He was tired but equally happy about the success.
-1089,28,Die Stadt ist _____ historisch wie modern.,ebenso,Die Stadt ist ebenso historisch wie modern.,The city is both historical and modern at the same time.
-1090,28,"Du musst dir keine Sorgen machen, es wäre _____ passiert.",sowieso,"Du musst dir keine Sorgen machen, es wäre sowieso passiert.","You don't have to worry, it would have happened anyway."
-1091,28,"Ich gehe nicht ins Kino, ich habe den Film _____ schon gesehen.",sowieso,"Ich gehe nicht ins Kino, ich habe den Film sowieso schon gesehen.",I'm not going to the cinema; I've already seen the movie anyway.
-1092,28,"Es regnet den ganzen Tag, also bleiben wir _____ zu Hause.",sowieso,"Es regnet den ganzen Tag, also bleiben wir sowieso zu Hause.","It's raining all day, so we're staying home anyway."
-1093,28,"Ich hätte das Angebot nicht angenommen, es war _____ nicht interessant.",sowieso,"Ich hätte das Angebot nicht angenommen, es war sowieso nicht interessant.",I wouldn't have accepted the offer; it wasn't interesting anyway.
-1094,28,"Ob du kommst oder nicht, wir feiern die Party _____.",sowieso,"Ob du kommst oder nicht, wir feiern die Party sowieso.","Whether you come or not, we're having the party anyway."
-1095,28,"Es hat geregnet, aber _____ war es nicht kalt.",immerhin,"Es hat geregnet, aber immerhin war es nicht kalt.","It rained, but at least it wasn’t cold."
-1096,28,"Er hat die Prüfung nicht bestanden, aber _____ hat er es versucht.",immerhin,"Er hat die Prüfung nicht bestanden, aber immerhin hat er es versucht.","He didn’t pass the exam, but at least he tried."
-1097,28,"Wir sind zwar spät angekommen, aber _____ haben wir den letzten Zug erwischt.",immerhin,"Wir sind zwar spät angekommen, aber immerhin haben wir den letzten Zug erwischt.","We arrived late, but at least we caught the last train."
-1098,28,"Das Essen war teuer, aber _____ hat es gut geschmeckt.",immerhin,"Das Essen war teuer, aber immerhin hat es gut geschmeckt.","The food was expensive, but at least it tasted good."
-1099,28,"Sie hat den Job nicht bekommen, aber _____ eine Einladung zum nächsten Bewerbungsgespräch.",immerhin,"Sie hat den Job nicht bekommen, aber immerhin eine Einladung zum nächsten Bewerbungsgespräch.","She didn’t get the job, but at least she got an invitation for the next interview."
-1100,28,Hast du _____ eine so spannende Geschichte gehört?,je,Hast du je eine so spannende Geschichte gehört?,Have you ever heard such an exciting story?
-1101,28,"Ich frage mich, ob er _____ die Wahrheit sagen wird.",je,"Ich frage mich, ob er je die Wahrheit sagen wird.",I wonder if he will ever tell the truth.
-1102,28,"Das ist das beste Essen, das ich _____ probiert habe.",je,"Das ist das beste Essen, das ich je probiert habe.",This is the best food I have ever tasted.
-1103,28,"Hast du _____ daran gedacht, ins Ausland zu ziehen?",je,"Hast du je daran gedacht, ins Ausland zu ziehen?",Have you ever thought about moving abroad?
-1104,28,"Er war der freundlichste Mensch, dem ich _____ begegnet bin.",je,"Er war der freundlichste Mensch, dem ich je begegnet bin.",He was the friendliest person I have ever met.
-1105,28,Er hat das Thema sehr _____ erklärt.,ausführlich,Er hat das Thema sehr ausführlich erklärt.,He explained the topic in great detail.
-1106,28,Wir haben _____ über die Probleme diskutiert.,ausführlich,Wir haben ausführlich über die Probleme diskutiert.,We discussed the problems in detail.
-1107,28,Die Anleitung beschreibt den Prozess _____ und verständlich.,ausführlich,Die Anleitung beschreibt den Prozess ausführlich und verständlich.,The instructions describe the process thoroughly and clearly.
-1108,28,Sie antwortete auf alle Fragen _____.,ausführlich,Sie antwortete auf alle Fragen ausführlich.,She answered all the questions thoroughly.
-1109,28,In dem Bericht wird die Situation _____ analysiert.,ausführlich,In dem Bericht wird die Situation ausführlich analysiert.,The situation is analyzed in detail in the report.
-1110,29,"excessively, overly",übermäßig,,
-1111,29,extraordinarily,außerordentlich,,
-1112,29,by far,bei weitem,,
-1113,29,among other things,unter anderem,,
-1114,29,so to speak,sozusagen,,
-1115,29,spatially,räumlich,,
-1116,29,temporally,zeitlich,,
-1117,29,literally,buchstäblich,,
-1118,29,physically,körperlich,,
-1119,29,mentally,geistig,,
-1120,29,"in short, in a nutshell",kurz Gesagt,,
-1121,29,"constantly, continuously",ständig,,
-1122,29,"rigorously, strictly",rigoros,,
-1123,29,"in principle, fundamentally",grundsätzlich,,
-1124,30,Er trinkt _____ viel Kaffee und schläft deshalb schlecht.,übermäßig,Er trinkt übermäßig viel Kaffee und schläft deshalb schlecht.,He drinks an excessive amount of coffee and therefore sleeps poorly.
-1125,30,"Das Essen war _____ salzig, sodass ich es kaum essen konnte.",übermäßig,"Das Essen war übermäßig salzig, sodass ich es kaum essen konnte.","The food was overly salty, so I could barely eat it."
-1126,30,Sie macht sich _____ viele Sorgen über Kleinigkeiten.,übermäßig,Sie macht sich übermäßig viele Sorgen über Kleinigkeiten.,She worries excessively about small things.
-1127,30,_____ lange Bildschirmzeiten können die Augen belasten.,Übermäßig,Übermäßig lange Bildschirmzeiten können die Augen belasten.,Excessive screen time can strain the eyes.
-1128,30,"Er trainiert _____ intensiv, was zu Verletzungen führen kann.",übermäßig,"Er trainiert übermäßig intensiv, was zu Verletzungen führen kann.","He trains overly intensively, which can lead to injuries."
-1129,30,Das Ergebnis war _____ beeindruckend.,außerordentlich,Das Ergebnis war außerordentlich beeindruckend.,The result was extraordinarily impressive.
-1130,30,Sie hat sich _____ über die gute Nachricht gefreut.,außerordentlich,Sie hat sich außerordentlich über die gute Nachricht gefreut.,She was extremely happy about the good news.
-1131,30,Die Aufgabe war _____ schwierig und zeitaufwendig.,außerordentlich,Die Aufgabe war außerordentlich schwierig und zeitaufwendig.,The task was exceptionally difficult and time-consuming.
-1132,30,Er hat sich _____ engagiert und viel zum Erfolg beigetragen.,außerordentlich,Er hat sich außerordentlich engagiert und viel zum Erfolg beigetragen.,He was extraordinarily committed and contributed greatly to the success.
-1133,30,Wir sind _____ dankbar für Ihre Unterstützung.,außerordentlich,Wir sind außerordentlich dankbar für Ihre Unterstützung.,We are extremely grateful for your support.
-1134,30,"Das war _____ nicht die beste Entscheidung, die sie je getroffen hat.",bei weitem,"Das war bei weitem nicht die beste Entscheidung, die sie je getroffen hat.",That was by far not the best decision she has ever made.
-1135,30,Er ist _____ der erfahrenste Mitarbeiter im ganzen Team.,bei weitem,Er ist bei weitem der erfahrenste Mitarbeiter im ganzen Team.,He is by far the most experienced employee in the entire team.
-1136,30,Die neue Lösung ist _____ effizienter als die alte Methode.,bei weitem,Die neue Lösung ist bei weitem effizienter als die alte Methode.,The new solution is by far more efficient than the old method.
-1137,30,Dieses Projekt ist _____ anspruchsvoller als alle vorherigen.,bei weitem,Dieses Projekt ist bei weitem anspruchsvoller als alle vorherigen.,This project is by far more demanding than all the previous ones.
-1138,30,Ihre Leistung war _____ überzeugender als die der anderen Kandidaten.,bei weitem,Ihre Leistung war bei weitem überzeugender als die der anderen Kandidaten.,Her performance was by far more convincing than that of the other candidates.
-1139,30,Bei der Konferenz wurden _____ neue Forschungsergebnisse vorgestellt.,unter anderem,Bei der Konferenz wurden unter anderem neue Forschungsergebnisse vorgestellt.,"At the conference, new research findings were presented, among other things."
-1140,30,Sie spricht _____ fließend Spanisch und Italienisch.,unter anderem,Sie spricht unter anderem fließend Spanisch und Italienisch.,"She speaks, among other things, fluent Spanish and Italian."
-1141,30,Das Unternehmen investiert _____ in erneuerbare Energien.,unter anderem,Das Unternehmen investiert unter anderem in erneuerbare Energien.,"The company is investing, among other things, in renewable energy."
-1142,30,Der Skandal betrifft _____ auch hochrangige Politiker.,unter anderem,Der Skandal betrifft unter anderem auch hochrangige Politiker.,"The scandal involves, among other things, high-ranking politicians."
-1143,30,Die Ausstellung zeigt _____ Werke von Picasso und Kandinsky.,unter anderem,Die Ausstellung zeigt unter anderem Werke von Picasso und Kandinsky.,"The exhibition features, among other things, works by Picasso and Kandinsky."
-1144,30,Er ist _____ das wandelnde Lexikon unserer Abteilung.,sozusagen,Er ist sozusagen das wandelnde Lexikon unserer Abteilung.,"He is, so to speak, the walking encyclopedia of our department."
-1145,30,Dieses Projekt ist _____ der Höhepunkt unserer bisherigen Arbeit.,sozusagen,Dieses Projekt ist sozusagen der Höhepunkt unserer bisherigen Arbeit.,"This project is, so to speak, the highlight of our work so far."
-1146,30,Wir stehen _____ am Anfang einer völlig neuen Entwicklung.,sozusagen,Wir stehen sozusagen am Anfang einer völlig neuen Entwicklung.,"We are, so to speak, at the beginning of an entirely new development."
-1147,30,Sie hat das Unternehmen _____ im Alleingang gerettet.,sozusagen,Sie hat das Unternehmen sozusagen im Alleingang gerettet.,"She saved the company, so to speak, single-handedly."
-1148,30,Der Chef hat das Angebot _____ ohne Zögern akzeptiert.,sozusagen,Der Chef hat das Angebot sozusagen ohne Zögern akzeptiert.,"The boss accepted the offer, so to speak, without hesitation."
-1149,30,"Die Teilnehmer wurden _____ voneinander getrennt, um Störungen zu vermeiden.",räumlich,"Die Teilnehmer wurden räumlich voneinander getrennt, um Störungen zu vermeiden.",The participants were spatially separated to avoid disruptions.
-1150,30,"Wir müssen die Möbel _____ besser anordnen, damit der Raum größer wirkt.",räumlich,"Wir müssen die Möbel räumlich besser anordnen, damit der Raum größer wirkt.",We need to arrange the furniture better spatially so the room appears larger.
-1151,30,"Die beiden Büros sind _____ eng verbunden, aber organisatorisch unabhängig.",räumlich,"Die beiden Büros sind räumlich eng verbunden, aber organisatorisch unabhängig.",The two offices are spatially connected but organizationally independent.
-1152,30,Räumlich ist das Museum sehr großzügig gestaltet.,räumlich,Räumlich ist das Museum sehr großzügig gestaltet.,The museum is very spaciously designed.
-1153,30,Die Aufgaben wurden _____ klar voneinander abgegrenzt.,räumlich,Die Aufgaben wurden räumlich klar voneinander abgegrenzt.,The tasks were clearly separated from each other in terms of space.
-1154,30,Das Projekt ist _____ knapp geplant und erfordert effizientes Arbeiten.,zeitlich,Das Projekt ist zeitlich knapp geplant und erfordert effizientes Arbeiten.,The project is tightly scheduled and requires efficient work.
-1155,30,Wir müssen die Termine _____ besser koordinieren.,zeitlich,Wir müssen die Termine zeitlich besser koordinieren.,We need to coordinate the appointments better in terms of time.
-1156,30,_____ passt mir das Treffen leider nicht.,Zeitlich,Zeitlich passt mir das Treffen leider nicht.,"The meeting doesn’t work for me time-wise, unfortunately."
-1157,30,Die Aufgaben wurden _____ klar strukturiert.,zeitlich,Die Aufgaben wurden zeitlich klar strukturiert.,The tasks were clearly structured in terms of time.
-1158,30,_____ gesehen liegt der Fokus derzeit auf kurzfristigen Zielen.,Zeitlich,Zeitlich gesehen liegt der Fokus derzeit auf kurzfristigen Zielen.,"From a timing perspective, the focus is currently on short-term goals."
-1159,30,"Er fühlt sich _____ stark genug, um die Herausforderung anzunehmen.",körperlich,"Er fühlt sich körperlich stark genug, um die Herausforderung anzunehmen.",He feels physically strong enough to take on the challenge.
-1160,30,Nach dem langen Training war sie _____ erschöpft.,körperlich,Nach dem langen Training war sie körperlich erschöpft.,"After the long training, she was physically exhausted."
-1161,30,"Er wurde _____ kaum gefordert, aber geistig umso mehr.",körperlich,"Er wurde körperlich kaum gefordert, aber geistig umso mehr.","He was hardly challenged physically, but all the more mentally."
-1162,30,"Körperlich ist er zwar fit, aber mental fehlt ihm die Motivation.",körperlich,"Körperlich ist er zwar fit, aber mental fehlt ihm die Motivation.","Physically, he’s fit, but he lacks the mental motivation."
-1163,30,"Sie hat sich _____ gut erholt, aber die seelischen Narben bleiben.",körperlich,"Sie hat sich körperlich gut erholt, aber die seelischen Narben bleiben.","She has physically recovered well, but the emotional scars remain."
-1164,30,Er fühlt sich _____ bereit für die neue Herausforderung.,geistig,Er fühlt sich geistig bereit für die neue Herausforderung.,He feels mentally prepared for the new challenge.
-1165,30,Nach dem langen Arbeitstag war sie _____ erschöpft.,geistig,Nach dem langen Arbeitstag war sie geistig erschöpft.,"After the long workday, she was mentally exhausted."
-1166,30,"Geistig ist er sehr fit, obwohl er körperlich eingeschränkt ist.",geistig,"Geistig ist er sehr fit, obwohl er körperlich eingeschränkt ist.","He’s very fit mentally, even though he’s physically limited."
-1167,30,Das Seminar war _____ sehr anspruchsvoll.,geistig,Das Seminar war geistig sehr anspruchsvoll.,The seminar was very demanding mentally.
-1168,30,Sie hat sich _____ gut auf die Prüfung vorbereitet.,geistig,Sie hat sich geistig gut auf die Prüfung vorbereitet.,She has mentally prepared well for the exam.
-1169,30,Er ist _____ in letzter Minute angekommen.,buchstäblich,Er ist buchstäblich in letzter Minute angekommen.,He literally arrived at the last minute.
-1170,30,"Das war _____ das Schlimmste, was passieren konnte.",buchstäblich,"Das war buchstäblich das Schlimmste, was passieren konnte.",That was literally the worst thing that could happen.
-1171,30,"Sie hat _____ alles gegeben, um ihr Ziel zu erreichen.",buchstäblich,"Sie hat buchstäblich alles gegeben, um ihr Ziel zu erreichen.",She literally gave everything to reach her goal.
-1172,30,"Ich habe _____ tausendmal versucht, ihn zu erreichen.",buchstäblich,"Ich habe buchstäblich tausendmal versucht, ihn zu erreichen.",I literally tried to reach him a thousand times.
-1173,30,Das hat _____ mein Leben verändert.,buchstäblich,Das hat buchstäblich mein Leben verändert.,That literally changed my life.
-1174,30,_____: Er hat das Projekt erfolgreich abgeschlossen.,Kurz gesagt,Kurz gesagt: Er hat das Projekt erfolgreich abgeschlossen.,In short: He completed the project successfully.
-1175,30,_____: Wir stehen vor einer großen Herausforderung.,Kurz gesagt,Kurz gesagt: Wir stehen vor einer großen Herausforderung.,In short: We are facing a major challenge.
-1176,30,_____: Das Unternehmen muss dringend Maßnahmen ergreifen.,Kurz gesagt,Kurz gesagt: Das Unternehmen muss dringend Maßnahmen ergreifen.,In short: The company urgently needs to take action.
-1177,30,_____: Sie haben alle Anforderungen erfüllt.,Kurz gesagt,Kurz gesagt: Sie haben alle Anforderungen erfüllt.,In short: They met all the requirements.
-1178,30,"_____: Das Problem ist komplexer, als es auf den ersten Blick scheint.",Kurz gesagt,"Kurz gesagt: Das Problem ist komplexer, als es auf den ersten Blick scheint.",In short: The problem is more complex than it appears at first glance.
-1179,30,Er ist _____ unterwegs und hat kaum Zeit für sich selbst.,ständig,Er ist ständig unterwegs und hat kaum Zeit für sich selbst.,He is constantly on the move and barely has time for himself.
-1180,30,"Sie musste _____ ihre Pläne ändern, um flexibel zu bleiben.",ständig,"Sie musste ständig ihre Pläne ändern, um flexibel zu bleiben.",She constantly had to change her plans to stay flexible.
-1181,30,"Das Handy klingelt _____, das ist wirklich nervig.",ständig,"Das Handy klingelt ständig, das ist wirklich nervig.","The phone rings constantly, it's really annoying."
-1182,30,Er wird _____ von neuen Aufgaben überrascht.,ständig,Er wird ständig von neuen Aufgaben überrascht.,He’s constantly surprised by new tasks.
-1183,30,Wir haben _____ neue Herausforderungen zu bewältigen.,ständig,Wir haben ständig neue Herausforderungen zu bewältigen.,We constantly have new challenges to overcome.
-1184,30,"Er hat die Regeln _____ eingehalten, ohne Ausnahmen zuzulassen.",rigoros,"Er hat die Regeln rigoros eingehalten, ohne Ausnahmen zuzulassen.",He strictly followed the rules without allowing exceptions.
-1185,30,"Sie kontrolliert ihre Ausgaben _____, um finanziell stabil zu bleiben.",rigoros,"Sie kontrolliert ihre Ausgaben rigoros, um finanziell stabil zu bleiben.",She rigorously controls her expenses to stay financially stable.
-1186,30,Die Firma überprüft die Sicherheitsvorschriften _____.,rigoros,Die Firma überprüft die Sicherheitsvorschriften rigoros.,The company rigorously checks the safety regulations.
-1187,30,"Er plant seine Zeit _____, um seine Ziele zu erreichen.",rigoros,"Er plant seine Zeit rigoros, um seine Ziele zu erreichen.",He plans his time strictly to achieve his goals.
-1188,30,"Das neue System wurde _____ getestet, bevor es implementiert wurde.",rigoros,"Das neue System wurde rigoros getestet, bevor es implementiert wurde.",The new system was rigorously tested before implementation.
-1189,30,"_____ unterstütze ich die Idee, aber wir müssen noch Details klären.",Grundsätzlich,"Grundsätzlich unterstütze ich die Idee, aber wir müssen noch Details klären.","In principle, I support the idea, but we still need to sort out details."
-1190,30,Er ist _____ gegen eine Erhöhung der Steuern.,grundsätzlich,Er ist grundsätzlich gegen eine Erhöhung der Steuern.,He is fundamentally opposed to a tax increase.
-1191,30,"_____ kann jeder mitmachen, der sich anmeldet.",Grundsätzlich,"Grundsätzlich kann jeder mitmachen, der sich anmeldet.","In principle, anyone who signs up can participate."
-1192,30,"Ich finde das _____ sinnvoll, aber es gibt noch offene Fragen.",grundsätzlich,"Ich finde das grundsätzlich sinnvoll, aber es gibt noch offene Fragen.","I find that fundamentally sensible, but there are still open questions."
-1193,30,_____ dürfte diese Neuregelung kein Problem darstellen.,Grundsätzlich,Grundsätzlich dürfte diese Neuregelung kein Problem darstellen.,"In principle, this new regulation should not pose a problem."
-1194,100,truthfully,wahrheitsgemäß,,
-1195,100,rightly,zu Recht,,
-1196,100,wrongly,fälschlicherweise,,
-1197,100,unfairly,ungerecht,,
-1198,100,urgently,dringend,,
-1199,100,objectively,objektiv,,
-1200,100,subjectively,subjektiv,,
-1201,100,organically,,,
-1202,100,casually,,,
-1203,100,intellectually,,,
-1204,100,rightfully,,,
-1205,25,"by all accounts, according to all, from",nach allem,,
-1206,101,,doch,,
-1207,101,,denn,,
-1208,101,,ja,,
-1209,101,,mal,,
-1210,101,,aber,,
-1211,101,,halt/eben,,
-1212,101,,wohl,,
-1213,101,,eigentlich,,
-1214,101,,vielleicht,,
-1215,101,,ruhig/schon,,
-1216,101,,bloß/nur,,
-1217,103,"to here, indicating a specific location",hierhin,,
-1218,103,"toward here, toward the speaker",hierher,,
-1219,103,"to there, indicating movement toward a specific place",dahin,,
-1220,103,"from there, indicating movement away from a specific place",daher,,
-1221,103,around,herum,,
-1222,103,"inside, toward the speaker",herein,,
-1223,103,"out, toward the speaker",heraus,,
-1224,103,"up, toward the speaker",herauf,,
-1225,103,"down, toward the speaker",herunter,,
-1226,103,"forth, from the back to the front, toward the speaker",hervor,,
-1227,103,"into, away from the speaker",hinein,,
-1228,103,"out, away from the speaker",hinaus,,
-1229,103,"up, away from the speaker",hinauf,,
-1230,103,"down, away from the speaker",hinunter,,
-1231,104,"Bringen Sie bitte die Pakete _____, direkt neben die Tür.",hierhin,"Bringen Sie bitte die Pakete hierhin, direkt neben die Tür.","Please bring the packages here, directly next to the door."
-1232,104,"Ich habe meinen Schreibtisch von dort drüben _____ verschoben, weil es ruhiger ist.",hierhin,"Ich habe meinen Schreibtisch von dort drüben hierhin verschoben, weil es ruhiger ist.",I moved my desk from over there to here because it's quieter.
-1233,104,Kannst du den Stuhl _____ stellen? Ich brauche ihn am Tisch.,hierhin,Kannst du den Stuhl hierhin stellen? Ich brauche ihn am Tisch.,Can you place the chair here? I need it at the table.
-1234,104,"Der Bus fährt nicht mehr dorthin, du musst stattdessen _____ kommen.",hierhin,"Der Bus fährt nicht mehr dorthin, du musst stattdessen hierhin kommen.","The bus no longer goes there, so you have to come here instead."
-1235,104,Warum hast du dein Gepäck _____ gelegt und nicht in dein Zimmer?,hierhin,Warum hast du dein Gepäck hierhin gelegt und nicht in dein Zimmer?,Why did you put your luggage here and not in your room?
-1236,104,"Komm bitte _____, ich muss dir etwas Wichtiges zeigen.",hierher,"Komm bitte hierher, ich muss dir etwas Wichtiges zeigen.","Please come here, I need to show you something important."
-1237,104,Warum bist du _____ gezogen und nicht in eine andere Stadt?,hierher,Warum bist du hierher gezogen und nicht in eine andere Stadt?,Why did you move here and not to another city?
-1238,104,"Er kam extra _____, nur um mich zu sehen.",hierher,"Er kam extra hierher, nur um mich zu sehen.",He came all the way here just to see me.
-1239,104,Die Lieferung wird morgen _____ gebracht.,hierher,Die Lieferung wird morgen hierher gebracht.,The delivery will be brought here tomorrow.
-1240,104,"Ich bin _____ gekommen, weil ich die Ruhe und Natur genieße.",hierher,"Ich bin hierher gekommen, weil ich die Ruhe und Natur genieße.",I came here because I enjoy the peace and nature.
-1241,104,"Ich bin gerade aus Italien zurückgekommen, und _____ habe ich dieses Souvenir mitgebracht.",daher,"Ich bin gerade aus Italien zurückgekommen, und daher habe ich dieses Souvenir mitgebracht.","I just came back from Italy, and I brought this souvenir from there."
-1242,104,"Der Zug kommt direkt aus Hamburg, also kommt er _____.",daher,"Der Zug kommt direkt aus Hamburg, also kommt er daher.","The train is coming directly from Hamburg, so it is coming from there."
-1243,104,"Sie erzählte mir von einem wunderschönen Strand, und sie hatte die Idee, _____ zu ziehen.",daher,"Sie erzählte mir von einem wunderschönen Strand, und sie hatte die Idee, daher zu ziehen.","She told me about a beautiful beach, and she had the idea of moving from there."
-1244,104,"Er wurde in Berlin geboren, aber er ist schon lange _____ weggezogen.",daher,"Er wurde in Berlin geboren, aber er ist schon lange daher weggezogen.","He was born in Berlin, but he moved away from there a long time ago."
-1245,104,"Das Wasser in diesem Fluss ist sehr sauber, weil es direkt aus den Bergen _____ fließt.",daher,"Das Wasser in diesem Fluss ist sehr sauber, weil es direkt aus den Bergen daher fließt.",The water in this river is very clean because it flows directly from the mountains there.
-1246,104,"Wir fahren nächstes Wochenende an die Küste, willst du _____ mitkommen?",dahin,"Wir fahren nächstes Wochenende an die Küste, willst du dahin mitkommen?","We are going to the coast next weekend, do you want to come there with us?"
-1247,104,Er hat seine Tasche ins Auto gelegt und ist dann _____ gefahren.,dahin,Er hat seine Tasche ins Auto gelegt und ist dann dahin gefahren.,He put his bag in the car and then drove there.
-1248,104,"Ich wollte schon immer nach Japan reisen, aber ich habe es noch nie _____ geschafft.",dahin,"Ich wollte schon immer nach Japan reisen, aber ich habe es noch nie dahin geschafft.","I have always wanted to travel to Japan, but I have never made it there."
-1249,104,Die Briefe müssen bis morgen _____ geschickt werden.,dahin,Die Briefe müssen bis morgen dahin geschickt werden.,The letters have to be sent there by tomorrow.
-1250,104,"Sie zog in eine andere Stadt, weil sie _____ versetzt wurde.",dahin,"Sie zog in eine andere Stadt, weil sie dahin versetzt wurde.",She moved to another city because she was transferred there.
-1251,104,Wir wohnen gleich um die Ecke _____.,herum,Wir wohnen gleich um die Ecke herum.,The children are running around happily in the garden.
-1252,104,Er schaut sich nervös im Raum _____.,herum,Er schaut sich nervös im Raum herum.,He’s looking around nervously in the room.
-1253,104,Der Lärm um ihn _____ wächst immer stärker an.,herum,Der Lärm um ihn herum wächst immer stärker an.,The noise around him is growing louder and louder.
-1254,104,Überall lagen Bücher und Papiere _____.,herum,Überall lagen Bücher und Papiere herum.,Books and papers were lying around everywhere.
-1255,104,Sie hat das Problem lange überlegt und darüber _____gegrübelt.,herum,Sie hat das Problem lange überlegt und darüber herumgegrübelt.,She thought about the problem for a long time and pondered over it.
-1256,104,"Der Bergsteiger schaute vorsichtig in die tiefe Höhle _____, weil er nicht wusste, was ihn erwartete.",hinein,"Der Bergsteiger schaute vorsichtig in die tiefe Höhle hinein, weil er nicht wusste, was ihn erwartete.",The mountaineer carefully looked into the deep cave because he didn’t know what awaited him.
-1257,104,"Die Lehrerin bat die Schüler, ihre Arbeiten in die Mappe _____ zu legen, bevor sie das Klassenzimmer verließen.",hinein,"Die Lehrerin bat die Schüler, ihre Arbeiten in die Mappe hinein zu legen, bevor sie das Klassenzimmer verließen.",The teacher asked the students to place their work into the folder before leaving the classroom.
-1258,104,"Er warf den Ball über den Zaun und direkt in den Garten _____, ohne zu wissen, dass dort ein Hund war.",hinein,"Er warf den Ball über den Zaun und direkt in den Garten hinein, ohne zu wissen, dass dort ein Hund war.","He threw the ball over the fence and directly into the garden, not knowing that a dog was there."
-1259,104,"Sie blickte ins alte, verlassene Haus _____ und fühlte sich unwohl wegen der Dunkelheit und des Staubs.",hinein,"Sie blickte ins alte, verlassene Haus hinein und fühlte sich unwohl wegen der Dunkelheit und des Staubs.","She looked into the old, abandoned house and felt uncomfortable because of the darkness and dust."
-1260,104,"Das Auto fuhr langsam in den Tunnel _____, während die Lichter flackerten und die Straße immer enger wurde.",hinein,"Das Auto fuhr langsam in den Tunnel hinein, während die Lichter flackerten und die Straße immer enger wurde.",The car slowly drove into the tunnel as the lights flickered and the road became narrower.
-1261,104,"Er rief der Katze zu, vom Baum _____zukommen.",herunter,"Er rief der Katze zu, vom Baum herunterzukommen.",He called to the cat to come down from the tree.
-1262,104,Sie nahm die Kiste vom Regal _____ und stellte sie auf den Boden.,herunter,Sie nahm die Kiste vom Regal herunter und stellte sie auf den Boden.,She took the box down from the shelf and placed it on the floor.
-1263,104,Der Regen tropfte langsam vom Dach _____.,herunter,Der Regen tropfte langsam vom Dach herunter.,The rain slowly dripped down from the roof.
-1264,104,"Er zog vorsichtig die alte Leiter _____, um sie zu reparieren.",herunter,"Er zog vorsichtig die alte Leiter herunter, um sie zu reparieren.",He carefully pulled the old ladder down to repair it.
-1265,104,Der Ball rollte von der Treppe _____ direkt zu mir.,herunter,Der Ball rollte von der Treppe herunter direkt zu mir.,The ball rolled down the stairs directly to me.
-1266,104,"Er rief dem Hund zu, aus der Garage _____zukommen.",heraus,"Er rief dem Hund zu, aus der Garage herauszukommen.",He called out to the dog to come out of the garage.
-1267,104,"Die Kinder kamen laut lachend aus dem Haus _____, um im Garten zu spielen.",heraus,"Die Kinder kamen laut lachend aus dem Haus heraus, um im Garten zu spielen.",The children came out of the house laughing loudly to play in the garden.
-1268,104,Nach langem Nachdenken kam sie endlich mit einer Lösung _____.,heraus,Nach langem Nachdenken kam sie endlich mit einer Lösung heraus.,"After thinking for a long time, she finally came up with a solution."
-1269,104,Er zog vorsichtig das alte Buch aus dem Regal _____.,heraus,Er zog vorsichtig das alte Buch aus dem Regal heraus.,He carefully pulled the old book out of the shelf.
-1270,104,"Sie schaute aus dem Fenster _____, um zu sehen, wer an der Tür war.",heraus,"Sie schaute aus dem Fenster heraus, um zu sehen, wer an der Tür war.",She looked out of the window to see who was at the door.
-1271,104,"Die Wanderer stiegen den steilen Pfad _____, um die atemberaubende Aussicht vom Gipfel zu genießen.",hinauf,"Die Wanderer stiegen den steilen Pfad hinauf, um die atemberaubende Aussicht vom Gipfel zu genießen.",The hikers climbed up the steep path to enjoy the breathtaking view from the summit.
-1272,104,"Er warf den Ball die Treppe _____, sodass sein Freund ihn oben fangen konnte.",hinauf,"Er warf den Ball die Treppe hinauf, sodass sein Freund ihn oben fangen konnte.",He threw the ball up the stairs so that his friend could catch it at the top.
-1273,104,"Sie fuhr mit dem Fahrrad den Hügel _____, obwohl es sehr anstrengend war.",hinauf,"Sie fuhr mit dem Fahrrad den Hügel hinauf, obwohl es sehr anstrengend war.","She rode her bike up the hill, even though it was very exhausting."
-1274,104,"Der Fluss fließt von unten nach oben _____, wenn die Gezeiten wechseln.",hinauf,"Der Fluss fließt von unten nach oben hinauf, wenn die Gezeiten wechseln.",The river flows upward when the tides change.
-1275,104,"Die Katze kletterte geschickt den Baum _____, um sich vor dem Hund zu verstecken.",hinauf,"Die Katze kletterte geschickt den Baum hinauf, um sich vor dem Hund zu verstecken.",The cat skillfully climbed up the tree to hide from the dog.
-1276,104,"Er rief seinem Freund zu, die Treppe _____zukommen.",herauf,"Er rief seinem Freund zu, die Treppe heraufzukommen.",He called to his friend to come up the stairs.
-1277,104,Sie zog den schweren Koffer die Stufen _____.,herauf,Sie zog den schweren Koffer die Stufen herauf.,She pulled the heavy suitcase up the steps.
-1278,104,Der Wind trieb den Nebel langsam den Hang _____.,herauf,Der Wind trieb den Nebel langsam den Hang herauf.,The wind slowly pushed the fog up the slope.
-1279,104,"Die Katze kletterte vorsichtig den Baum _____, als sie gerufen wurde.",herauf,"Die Katze kletterte vorsichtig den Baum herauf, als sie gerufen wurde.",The cat carefully climbed up the tree when it was called.
-1280,104,Der Wanderer kämpfte sich den steilen Weg _____ zu seiner Hütte.,herauf,Der Wanderer kämpfte sich den steilen Weg herauf zu seiner Hütte.,The hiker struggled up the steep path to his cabin.
-1281,104,"Er lehnte sich weit aus dem Fenster _____, um die vorbeiziehenden Wolken besser zu sehen.",hinaus,"Er lehnte sich weit aus dem Fenster hinaus, um die vorbeiziehenden Wolken besser zu sehen.",He leaned far out of the window to see the passing clouds better.
-1282,104,Die Demonstranten liefen aus dem Stadtzentrum _____ in Richtung des Regierungsgebäudes.,hinaus,Die Demonstranten liefen aus dem Stadtzentrum hinaus in Richtung des Regierungsgebäudes.,The protesters walked out of the city center towards the government building.
-1283,104,Der Fluss fließt aus den Bergen _____ und mündet schließlich ins Meer.,hinaus,Der Fluss fließt aus den Bergen hinaus und mündet schließlich ins Meer.,The river flows out of the mountains and eventually empties into the sea.
-1284,104,"Sie fuhr mit dem Fahrrad über die Stadtgrenze _____, um die ländliche Gegend zu erkunden.",hinaus,"Sie fuhr mit dem Fahrrad über die Stadtgrenze hinaus, um die ländliche Gegend zu erkunden.",She rode her bike beyond the city limits to explore the countryside.
-1285,104,Die Kinder rannten voller Freude aus dem Schulgebäude _____ auf den Spielplatz.,hinaus,Die Kinder rannten voller Freude aus dem Schulgebäude hinaus auf den Spielplatz.,The children ran joyfully out of the school building onto the playground.
-1286,104,"Die Wanderer gingen den steilen Pfad _____, um zum Fluss zu gelangen.",hinunter,"Die Wanderer gingen den steilen Pfad hinunter, um zum Fluss zu gelangen.",The hikers walked down the steep path to reach the river.
-1287,104,"Er ließ den Ball die Treppe _____ rollen, bis er am Ende stoppte.",hinunter,"Er ließ den Ball die Treppe hinunter rollen, bis er am Ende stoppte.",He let the ball roll down the stairs until it stopped at the bottom.
-1288,104,"Sie fuhr mit dem Fahrrad den Berg _____, während der Wind ihr ins Gesicht blies.",hinunter,"Sie fuhr mit dem Fahrrad den Berg hinunter, während der Wind ihr ins Gesicht blies.",She rode her bike down the mountain while the wind blew into her face.
-1289,104,Der Schnee rutschte langsam die Hänge _____ und bedeckte das Tal.,hinunter,Der Schnee rutschte langsam die Hänge hinunter und bedeckte das Tal.,The snow slowly slid down the slopes and covered the valley.
-1290,104,"Der Kletterer blickte vorsichtig die Felswand _____, um den nächsten sicheren Griff zu finden.",hinunter,"Der Kletterer blickte vorsichtig die Felswand hinunter, um den nächsten sicheren Griff zu finden.",The climber carefully looked down the rock face to find the next safe grip.
-1291,104,"Bitte treten Sie _____, das Meeting beginnt gleich.",herein,"Bitte treten Sie herein, das Meeting beginnt gleich.","Please step inside, the meeting is about to begin."
-1292,104,"Er rief laut: 'Kommt _____!', als es draußen anfing zu regnen.",herein,"Er rief laut: 'Kommt herein!', als es draußen anfing zu regnen.",He shouted loudly: 'Come in!' when it started to rain outside.
-1293,104,"Die Katze schlich vorsichtig _____, nachdem sie die Tür geöffnet hatte.",herein,"Die Katze schlich vorsichtig herein, nachdem sie die Tür geöffnet hatte.",The cat cautiously crept inside after the door was opened.
-1294,104,"Die Gäste wurden herzlich begrüßt, als sie _____ kamen.",herein,"Die Gäste wurden herzlich begrüßt, als sie herein kamen.",The guests were warmly welcomed as they came inside.
-1295,104,"Sie sah durch das Fenster und bat ihn freundlich, _____ zu kommen.",herein,"Sie sah durch das Fenster und bat ihn freundlich, herein zu kommen.",She looked through the window and kindly asked him to come inside.
-1296,110,"off, away",los,,
+937,25,"to here, indicating a specific location",hierhin,,
+938,25,"toward here, toward the speaker",hierher,,
+939,25,"to there, indicating movement toward a specific place",dahin,,
+940,25,"from there, indicating movement away from a specific place",daher,,
+941,25,around,herum,,
+942,25,"inside, toward the speaker",herein,,
+943,25,"out, toward the speaker",heraus,,
+944,25,"up, toward the speaker",herauf,,
+945,25,"down, toward the speaker",herunter,,
+946,25,"forth, from the back to the front, toward the speaker",hervor,,
+947,25,"into, away from the speaker",hinein,,
+948,25,"out, away from the speaker",hinaus,,
+949,25,"up, away from the speaker",hinauf,,
+950,25,"down, away from the speaker",hinunter,,
+951,26,"Bringen Sie bitte die Pakete _____, direkt neben die Tür.",hierhin,"Bringen Sie bitte die Pakete hierhin, direkt neben die Tür.","Please bring the packages here, directly next to the door."
+952,26,Warum hast du dein Gepäck _____ gelegt und nicht in dein Zimmer?,hierhin,Warum hast du dein Gepäck hierhin gelegt und nicht in dein Zimmer?,Why did you put your luggage here and not in your room?
+953,26,Kannst du den Stuhl _____ stellen? Ich brauche ihn am Tisch.,hierhin,Kannst du den Stuhl hierhin stellen? Ich brauche ihn am Tisch.,Can you place the chair here? I need it at the table.
+954,26,"Komm bitte _____, ich muss dir etwas Wichtiges zeigen.",hierher,"Komm bitte hierher, ich muss dir etwas Wichtiges zeigen.","Please come here, I need to show you something important."
+955,26,Warum bist du _____ gezogen und nicht in eine andere Stadt?,hierher,Warum bist du hierher gezogen und nicht in eine andere Stadt?,Why did you move here and not to another city?
+956,26,"Er kam extra _____, nur um mich zu sehen.",hierher,"Er kam extra hierher, nur um mich zu sehen.",He came all the way here just to see me.
+957,26,"Ich bin gerade aus Italien zurückgekommen, und _____ habe ich dieses Souvenir mitgebracht.",daher,"Ich bin gerade aus Italien zurückgekommen, und daher habe ich dieses Souvenir mitgebracht.","I just came back from Italy, and I brought this souvenir from there."
+958,26,"Der Zug kommt direkt aus Hamburg, also kommt er _____.",daher,"Der Zug kommt direkt aus Hamburg, also kommt er daher.","The train is coming directly from Hamburg, so it is coming from there."
+959,26,"Sie erzählte mir von einem wunderschönen Strand, und sie hatte die Idee, _____ zu ziehen.",daher,"Sie erzählte mir von einem wunderschönen Strand, und sie hatte die Idee, daher zu ziehen.","She told me about a beautiful beach, and she had the idea of moving from there."
+960,26,"Wir fahren nächstes Wochenende an die Küste, willst du _____ mitkommen?",dahin,"Wir fahren nächstes Wochenende an die Küste, willst du dahin mitkommen?","We are going to the coast next weekend, do you want to come there with us?"
+961,26,Er hat seine Tasche ins Auto gelegt und ist dann _____ gefahren.,dahin,Er hat seine Tasche ins Auto gelegt und ist dann dahin gefahren.,He put his bag in the car and then drove there.
+962,26,"Ich wollte schon immer nach Japan reisen, aber ich habe es noch nie _____ geschafft.",dahin,"Ich wollte schon immer nach Japan reisen, aber ich habe es noch nie dahin geschafft.","I have always wanted to travel to Japan, but I have never made it there."
+963,26,We live just around the corner.,herum,We live just around the corner.,The children are running around happily in the garden.
+964,26,Er schaut sich nervös im Raum _____.,herum,Er schaut sich nervös im Raum herum.,He’s looking around nervously in the room.
+965,26,Der Lärm um ihn _____ wächst immer stärker an.,herum,Der Lärm um ihn herum wächst immer stärker an.,The noise around him is growing louder and louder.
+966,26,"Der Bergsteiger schaute vorsichtig in die tiefe Höhle _____, weil er nicht wusste, was ihn erwartete.",hinein,"Der Bergsteiger schaute vorsichtig in die tiefe Höhle hinein, weil er nicht wusste, was ihn erwartete.",The mountaineer carefully looked into the deep cave because he didn’t know what awaited him.
+967,26,"Die Lehrerin bat die Schüler, ihre Arbeiten in die Mappe _____ zu legen, bevor sie das Klassenzimmer verließen.",hinein,"Die Lehrerin bat die Schüler, ihre Arbeiten in die Mappe hinein zu legen, bevor sie das Klassenzimmer verließen.",The teacher asked the students to place their work into the folder before leaving the classroom.
+968,26,"Er warf den Ball über den Zaun und direkt in den Garten _____, ohne zu wissen, dass dort ein Hund war.",hinein,"Er warf den Ball über den Zaun und direkt in den Garten hinein, ohne zu wissen, dass dort ein Hund war.","He threw the ball over the fence and directly into the garden, not knowing that a dog was there."
+969,26,"Er rief der Katze zu, vom Baum _____zukommen.",herunter,"Er rief der Katze zu, vom Baum herunterzukommen.",He called to the cat to come down from the tree.
+970,26,"Er zog vorsichtig die alte Leiter _____, um sie zu reparieren.",herunter,"Er zog vorsichtig die alte Leiter herunter, um sie zu reparieren.",He carefully pulled the old ladder down to repair it.
+971,26,Der Regen tropfte langsam vom Dach _____.,herunter,Der Regen tropfte langsam vom Dach herunter.,The rain slowly dripped down from the roof.
+972,26,"Er rief dem Hund zu, aus der Garage _____zukommen.",heraus,"Er rief dem Hund zu, aus der Garage herauszukommen.",He called out to the dog to come out of the garage.
+973,26,"Die Kinder kamen laut lachend aus dem Haus _____, um im Garten zu spielen.",heraus,"Die Kinder kamen laut lachend aus dem Haus heraus, um im Garten zu spielen.",The children came out of the house laughing loudly to play in the garden.
+974,26,Nach langem Nachdenken kam sie endlich mit einer Lösung _____.,heraus,Nach langem Nachdenken kam sie endlich mit einer Lösung heraus.,"After thinking for a long time, she finally came up with a solution."
+975,26,"Die Wanderer stiegen den steilen Pfad _____, um die atemberaubende Aussicht vom Gipfel zu genießen.",hinauf,"Die Wanderer stiegen den steilen Pfad hinauf, um die atemberaubende Aussicht vom Gipfel zu genießen.",The hikers climbed up the steep path to enjoy the breathtaking view from the summit.
+976,26,"Er warf den Ball die Treppe _____, sodass sein Freund ihn oben fangen konnte.",hinauf,"Er warf den Ball die Treppe hinauf, sodass sein Freund ihn oben fangen konnte.",He threw the ball up the stairs so that his friend could catch it at the top.
+977,26,"Sie fuhr mit dem Fahrrad den Hügel _____, obwohl es sehr anstrengend war.",hinauf,"Sie fuhr mit dem Fahrrad den Hügel hinauf, obwohl es sehr anstrengend war.","She rode her bike up the hill, even though it was very exhausting."
+978,26,"Er rief seinem Freund zu, die Treppe _____zukommen.",herauf,"Er rief seinem Freund zu, die Treppe heraufzukommen.",He called to his friend to come up the stairs.
+979,26,Sie ist von München _____ nach Hamburg gezogen.,herauf,Sie ist von München herauf nach Hamburg gezogen.,She moved from Munich up to Hamburg.
+980,26,Der Weg den Berg _____ war steil und steinig.,herauf,Der Weg den Berg herauf war steil und steinig.,The way up here to the mountain was steep and rocky.
+981,26,"Er lehnte sich weit aus dem Fenster _____, um die vorbeiziehenden Wolken besser zu sehen.",hinaus,"Er lehnte sich weit aus dem Fenster hinaus, um die vorbeiziehenden Wolken besser zu sehen.",He leaned far out of the window to see the passing clouds better.
+982,26,Die Demonstranten liefen aus dem Stadtzentrum _____ in Richtung des Regierungsgebäudes.,hinaus,Die Demonstranten liefen aus dem Stadtzentrum hinaus in Richtung des Regierungsgebäudes.,The protesters walked out of the city center towards the government building.
+983,26,Der Fluss fließt aus den Bergen _____ und mündet schließlich ins Meer.,hinaus,Der Fluss fließt aus den Bergen hinaus und mündet schließlich ins Meer.,The river flows out of the mountains and eventually empties into the sea.
+984,26,"Die Wanderer gingen den steilen Pfad _____, um zum Fluss zu gelangen.",hinunter,"Die Wanderer gingen den steilen Pfad hinunter, um zum Fluss zu gelangen.",The hikers walked down the steep path to reach the river.
+985,26,"Er ließ den Ball die Treppe _____ rollen, bis er am Ende stoppte.",hinunter,"Er ließ den Ball die Treppe hinunter rollen, bis er am Ende stoppte.",He let the ball roll down the stairs until it stopped at the bottom.
+986,26,"Sie fuhr mit dem Fahrrad den Berg _____, während der Wind ihr ins Gesicht blies.",hinunter,"Sie fuhr mit dem Fahrrad den Berg hinunter, während der Wind ihr ins Gesicht blies.",She rode her bike down the mountain while the wind blew into her face.
+987,26,"Bitte treten Sie _____, das Meeting beginnt gleich.",herein,"Bitte treten Sie herein, das Meeting beginnt gleich.","Please step inside, the meeting is about to begin."
+988,26,"Er rief laut: 'Kommt _____!', als es draußen anfing zu regnen.",herein,"Er rief laut: 'Kommt herein!', als es draußen anfing zu regnen.",He shouted loudly: 'Come in!' when it started to rain outside.
+989,26,"Die Katze schlich vorsichtig _____, nachdem sie die Tür geöffnet hatte.",herein,"Die Katze schlich vorsichtig herein, nachdem sie die Tür geöffnet hatte.",The cat cautiously crept inside after the door was opened.
+990,26,Er lehnte sich zurück und streckte demonstrativ das Kinn _____.,hervor,Er lehnte sich zurück und streckte demonstrativ das Kinn hervor.,He leaned back and deliberately stuck his chin out.
+991,26,Aus der alten Kommode ragte eine vergilbte Schublade leicht _____.,hervor,Aus der alten Kommode ragte eine vergilbte Schublade leicht hervor.,A yellowed drawer slightly jutted out of the old dresser.
+992,26,Unter dem Teppich kam eine Ecke des Holzbodens _____.,hervor,Unter dem Teppich kam eine Ecke des Holzbodens hervor.,A corner of the wooden floor peeked out from under the carpet.
+993,27,"in the meantime, meanwhile, by now, since then",inzwischen,,
+994,27,legally,rechtlich,,
+995,27,"in detail, extensively",ausführlich,,
+996,27,"by no means, not at all",keineswegs,,
+997,27,if necessary,gegebenenfalls,,
+998,27,"of all people, of all times",ausgerechnet,,
+999,27,predominantly,vorwiegend,,
+1000,27,accordingly,entsprechend,,
+1001,27,"somewhat, more or less",einigermaßen,,
+1002,27,side by side,nebeneinander,,
+1003,27,colloquially,umgangssprachlich,,
+1004,27,temporarily,vorübergehend,,
+1005,27,"to conclude, in conclusion",abschließend,,
+1006,27,theoretically,theoretisch,,
+1007,27,"by all accounts, according to all, from",nach allem,,
+1008,28,"_____ könnte das Experiment funktionieren, aber es gibt noch viele Unbekannte.",Theoretisch,"Theoretisch könnte das Experiment funktionieren, aber es gibt noch viele Unbekannte.","Theoretically, the experiment could work, but there are still many unknowns."
+1009,28,"Man kann _____ in einem Monat eine Sprache lernen, aber es erfordert viel Übung.",theoretisch,"Man kann theoretisch in einem Monat eine Sprache lernen, aber es erfordert viel Übung.","Theoretically, one could learn a language in a month, but it requires a lot of practice."
+1010,28,"_____ wäre es möglich, das Problem zu lösen, wenn wir mehr Ressourcen hätten.",Theoretisch,"Theoretisch wäre es möglich, das Problem zu lösen, wenn wir mehr Ressourcen hätten.","Theoretically, it would be possible to solve the problem if we had more resources."
+1011,28,"Er kann _____ morgen anreisen, aber es hängt von seinem Zeitplan ab.",theoretisch,"Er kann theoretisch morgen anreisen, aber es hängt von seinem Zeitplan ab.","He could theoretically arrive tomorrow, but it depends on his schedule."
+1012,28,"_____ sollten erneuerbare Energien genug Strom liefern können, um den Bedarf zu decken.",Theoretisch,"Theoretisch sollten erneuerbare Energien genug Strom liefern können, um den Bedarf zu decken.","Theoretically, renewable energy should be able to provide enough electricity to meet demand."
+1013,28,Ich habe vor einem Jahr mit dem Klavierspielen angefangen und bin _____ ziemlich gut.,inzwischen,Ich habe vor einem Jahr mit dem Klavierspielen angefangen und bin inzwischen ziemlich gut.,"I started playing the piano a year ago, and by now, I’m quite good."
+1014,28,Sie ist vor fünf Jahren nach Deutschland gezogen und spricht _____ fließend Deutsch.,inzwischen,Sie ist vor fünf Jahren nach Deutschland gezogen und spricht inzwischen fließend Deutsch.,She moved to Germany five years ago and now speaks fluent German.
+1015,28,"Wir mussten lange auf den Zug warten, also haben wir uns _____ einen Kaffee geholt.",inzwischen,"Wir mussten lange auf den Zug warten, also haben wir uns inzwischen einen Kaffee geholt.","We had to wait a long time for the train, so in the meantime, we got a coffee."
+1016,28,Das kleine Unternehmen hat sich _____ zu einer großen Firma entwickelt.,inzwischen,Das kleine Unternehmen hat sich inzwischen zu einer großen Firma entwickelt.,The small company has since developed into a large business.
+1017,28,"Er hatte anfangs Schwierigkeiten, aber _____ versteht er die Grammatik viel besser.",inzwischen,"Er hatte anfangs Schwierigkeiten, aber inzwischen versteht er die Grammatik viel besser.","He had difficulties at first, but by now, he understands the grammar much better."
+1018,28,Die Vereinbarung ist _____ bindend und muss eingehalten werden.,rechtlich,Die Vereinbarung ist rechtlich bindend und muss eingehalten werden.,The agreement is legally binding and must be followed.
+1019,28,"Das Vorgehen ist _____ erlaubt, aber moralisch umstritten.",rechtlich,"Das Vorgehen ist rechtlich erlaubt, aber moralisch umstritten.",The procedure is legally allowed but morally controversial.
+1020,28,"Er handelt _____ korrekt, auch wenn es unpopulär ist.",rechtlich,"Er handelt rechtlich korrekt, auch wenn es unpopulär ist.","He acts legally correctly, even if it’s unpopular."
+1021,28,Die Firma hat sich _____ gegen die Vorwürfe verteidigt.,rechtlich,Die Firma hat sich rechtlich gegen die Vorwürfe verteidigt.,The company defended itself legally against the accusations.
+1022,28,"Dieses Problem muss _____ geprüft werden, bevor wir entscheiden.",rechtlich,"Dieses Problem muss rechtlich geprüft werden, bevor wir entscheiden.",This issue must be legally examined before we make a decision.
+1023,28,"Der Professor erklärte das komplexe Thema _____, sodass alle es verstanden.",ausführlich,"Der Professor erklärte das komplexe Thema ausführlich, sodass alle es verstanden.","The professor explained the complex topic in detail, so everyone understood it."
+1024,28,Sie hat ihre Meinung _____ in dem Bericht dargelegt.,ausführlich,Sie hat ihre Meinung ausführlich in dem Bericht dargelegt.,She presented her opinion in detail in the report.
+1025,28,"Wir haben das Problem _____ diskutiert, bevor wir eine Entscheidung trafen.",ausführlich,"Wir haben das Problem ausführlich diskutiert, bevor wir eine Entscheidung trafen.",We discussed the problem in detail before making a decision.
+1026,28,Der Zeuge schilderte den Tathergang _____ vor Gericht.,ausführlich,Der Zeuge schilderte den Tathergang ausführlich vor Gericht.,The witness described the course of events in detail in court.
+1027,28,Er antwortete _____ auf jede einzelne Frage der Journalisten.,ausführlich,Er antwortete ausführlich auf jede einzelne Frage der Journalisten.,He answered each of the journalists' questions in detail.
+1028,28,Wir sollten _____ einen Experten hinzuziehen.,gegebenenfalls,Wir sollten gegebenenfalls einen Experten hinzuziehen.,"We should, if necessary, consult an expert."
+1029,28,Gegebenenfalls muss der Vertrag angepasst werden.,gegebenenfalls,Gegebenenfalls muss der Vertrag angepasst werden.,The contract may need to be adjusted if necessary.
+1030,28,Bitte bringen Sie _____ alle relevanten Unterlagen mit.,gegebenenfalls,Bitte bringen Sie gegebenenfalls alle relevanten Unterlagen mit.,"Please bring all relevant documents, if applicable."
+1031,28,Die Frist kann _____ verlängert werden.,gegebenenfalls,Die Frist kann gegebenenfalls verlängert werden.,The deadline can be extended if needed.
+1032,28,Gegebenenfalls werden weitere Maßnahmen ergriffen.,gegebenenfalls,Gegebenenfalls werden weitere Maßnahmen ergriffen.,Further measures will be taken if necessary.
+1033,28,Ich bin mit dieser Entscheidung _____ einverstanden.,keineswegs,Ich bin mit dieser Entscheidung keineswegs einverstanden.,I do not agree with this decision at all.
+1034,28,"Das bedeutet _____, dass wir aufgeben sollten.",keineswegs,"Das bedeutet keineswegs, dass wir aufgeben sollten.",That by no means means we should give up.
+1035,28,"Er war _____ bereit, Kompromisse einzugehen.",keineswegs,"Er war keineswegs bereit, Kompromisse einzugehen.",He was by no means willing to make compromises.
+1036,28,Die Ergebnisse sind _____ zufriedenstellend.,keineswegs,Die Ergebnisse sind keineswegs zufriedenstellend.,The results are by no means satisfactory.
+1037,28,"_____ wollte ich dich kritisieren, sondern nur helfen.",Keineswegs,"Keineswegs wollte ich dich kritisieren, sondern nur helfen.","I by no means wanted to criticize you, only to help."
+1038,28,_____ heute hat er verschlafen und den wichtigen Termin verpasst.,Ausgerechnet,Ausgerechnet heute hat er verschlafen und den wichtigen Termin verpasst.,"Of all days, he overslept today and missed the important appointment."
+1039,28,Warum muss _____ ich diese Aufgabe übernehmen?,ausgerechnet,Warum muss ausgerechnet ich diese Aufgabe übernehmen?,"Why do I have to take on this task, of all people?"
+1040,28,_____ in dem Moment fiel der Strom aus.,Ausgerechnet,Ausgerechnet in dem Moment fiel der Strom aus.,The power went out at that exact moment.
+1041,28,Sie hat sich _____ für das teuerste Modell entschieden.,ausgerechnet,Sie hat sich ausgerechnet für das teuerste Modell entschieden.,"She chose the most expensive model, of all options."
+1042,28,"_____ er, der sonst immer pünktlich ist, kam zu spät.",Ausgerechnet,"Ausgerechnet er, der sonst immer pünktlich ist, kam zu spät.","He, of all people—the one who’s always on time—was late."
+1043,28,Die Teilnehmer kamen _____ aus dem akademischen Bereich.,vorwiegend,Die Teilnehmer kamen vorwiegend aus dem akademischen Bereich.,The participants came predominantly from the academic field.
+1044,28,In dieser Region wird _____ Wein angebaut.,vorwiegend,In dieser Region wird vorwiegend Wein angebaut.,Wine is predominantly cultivated in this region.
+1045,28,Die Diskussion drehte sich _____ um finanzielle Fragen.,vorwiegend,Die Diskussion drehte sich vorwiegend um finanzielle Fragen.,The discussion focused predominantly on financial issues.
+1046,28,_____ junge Menschen nutzen diese Plattform.,Vorwiegend,Vorwiegend junge Menschen nutzen diese Plattform.,This platform is used predominantly by young people.
+1047,28,"Er arbeitet _____ im Homeoffice, reist aber gelegentlich ins Büro.",vorwiegend,"Er arbeitet vorwiegend im Homeoffice, reist aber gelegentlich ins Büro.",He predominantly works from home but occasionally travels to the office.
+1048,28,Er hat viel Erfahrung und handelt _____ professionell.,entsprechend,Er hat viel Erfahrung und handelt entsprechend professionell.,He has a lot of experience and acts accordingly professionally.
+1049,28,Die Preise wurden _____ der Nachfrage angepasst.,entsprechend,Die Preise wurden entsprechend der Nachfrage angepasst.,The prices were adjusted accordingly to the demand.
+1050,28,"Die Mitarbeiter wurden _____ geschult, um den Anforderungen gerecht zu werden.",entsprechend,"Die Mitarbeiter wurden entsprechend geschult, um den Anforderungen gerecht zu werden.",The employees were trained accordingly to meet the requirements.
+1051,28,Sie hat ihre Pläne _____ der neuen Situation geändert.,entsprechend,Sie hat ihre Pläne entsprechend der neuen Situation geändert.,She changed her plans accordingly to the new situation.
+1052,28,Der Vertrag wurde _____ den gesetzlichen Vorgaben erstellt.,entsprechend,Der Vertrag wurde entsprechend den gesetzlichen Vorgaben erstellt.,The contract was drawn up in accordance with legal requirements.
+1053,28,"Der Vortrag war _____ interessant, aber nicht besonders spannend.",einigermaßen,"Der Vortrag war einigermaßen interessant, aber nicht besonders spannend.","The lecture was somewhat interesting, but not particularly exciting."
+1054,28,"Ich fühle mich heute _____ fit, obwohl ich wenig geschlafen habe.",einigermaßen,"Ich fühle mich heute einigermaßen fit, obwohl ich wenig geschlafen habe.","I feel reasonably fit today, even though I slept little."
+1055,28,Das Problem ist jetzt _____ unter Kontrolle.,einigermaßen,Das Problem ist jetzt einigermaßen unter Kontrolle.,The problem is now more or less under control.
+1056,28,"Seine Antwort war _____ überzeugend, aber nicht ganz schlüssig.",einigermaßen,"Seine Antwort war einigermaßen überzeugend, aber nicht ganz schlüssig.","His answer was fairly convincing, but not entirely conclusive."
+1057,28,"Die Situation hat sich _____ verbessert, bleibt aber schwierig.",einigermaßen,"Die Situation hat sich einigermaßen verbessert, bleibt aber schwierig.",The situation has improved to some extent but remains difficult.
+1058,28,Die beiden Konzepte können problemlos _____ existieren.,nebeneinander,Die beiden Konzepte können problemlos nebeneinander existieren.,The two concepts can easily exist side by side.
+1059,28,In diesem Viertel leben Menschen unterschiedlicher Kulturen friedlich _____.,nebeneinander,In diesem Viertel leben Menschen unterschiedlicher Kulturen friedlich nebeneinander.,"In this neighborhood, people from different cultures live peacefully side by side."
+1060,28,Die Bücher stehen ordentlich _____ im Regal.,nebeneinander,Die Bücher stehen ordentlich nebeneinander im Regal.,The books are neatly lined up next to each other on the shelf.
+1061,28,"Theorie und Praxis sollten nicht getrennt, sondern _____ betrachtet werden.",nebeneinander,"Theorie und Praxis sollten nicht getrennt, sondern nebeneinander betrachtet werden.",Theory and practice should not be separated but considered side by side.
+1062,28,"Die Autos parkten dicht _____, sodass kaum Platz blieb.",nebeneinander,"Die Autos parkten dicht nebeneinander, sodass kaum Platz blieb.","The cars were parked closely next to each other, leaving little space."
+1063,28,Dieses Wort wird _____ oft in einem anderen Sinn verwendet.,umgangssprachlich,Dieses Wort wird umgangssprachlich oft in einem anderen Sinn verwendet.,This word is often used in a different sense in colloquial speech.
+1064,28,_____ sagt man einfach „Tschüss“ statt „Auf Wiedersehen“.,Umgangssprachlich,Umgangssprachlich sagt man einfach „Tschüss“ statt „Auf Wiedersehen“.,"Colloquially, people just say ""Tschüss"" instead of ""Auf Wiedersehen."""
+1065,28,Die Redewendung wird _____ in vielen Regionen genutzt.,umgangssprachlich,Die Redewendung wird umgangssprachlich in vielen Regionen genutzt.,The expression is used colloquially in many regions.
+1066,28,"_____ könnte man sagen, dass er total überarbeitet ist.",Umgangssprachlich,"Umgangssprachlich könnte man sagen, dass er total überarbeitet ist.","Colloquially, you could say he’s completely overworked."
+1067,28,"Der Begriff wird _____ verwendet, taucht aber oft auch in der Schriftsprache auf.",umgangssprachlich,"Der Begriff wird umgangssprachlich verwendet, taucht aber oft auch in der Schriftsprache auf.",The term is used colloquially but also often appears in written language.
+1068,28,Die Filiale ist _____ geschlossen wegen Renovierungsarbeiten.,vorübergehend,Die Filiale ist vorübergehend geschlossen wegen Renovierungsarbeiten.,The branch is temporarily closed due to renovation work.
+1069,28,Vorübergehend arbeitet sie in einer anderen Abteilung.,vorübergehend,Vorübergehend arbeitet sie in einer anderen Abteilung.,She is working in another department temporarily.
+1070,28,Der Zugang ist _____ nicht möglich.,vorübergehend,Der Zugang ist vorübergehend nicht möglich.,Access is temporarily unavailable.
+1071,28,"Er lebt _____ bei Freunden, bis er eine Wohnung findet.",vorübergehend,"Er lebt vorübergehend bei Freunden, bis er eine Wohnung findet.",He is temporarily living with friends until he finds an apartment.
+1072,28,"Die Situation hat sich _____ entspannt, bleibt aber kritisch.",vorübergehend,"Die Situation hat sich vorübergehend entspannt, bleibt aber kritisch.",The situation has temporarily eased but remains critical.
+1073,28,"_____ lässt sich sagen, dass die Ergebnisse unsere Hypothese eindeutig bestätigen.",Abschließend,"Abschließend lässt sich sagen, dass die Ergebnisse unsere Hypothese eindeutig bestätigen.","In conclusion, it can be said that the results clearly confirm our hypothesis."
+1074,28,"_____ möchte ich betonen, wie wichtig eine nachhaltige Entwicklung für unsere Zukunft ist.",Abschließend,"Abschließend möchte ich betonen, wie wichtig eine nachhaltige Entwicklung für unsere Zukunft ist.","In conclusion, I would like to emphasize how important sustainable development is for our future."
+1075,28,"_____ stellt der Bericht fest, dass weitere Maßnahmen notwendig sind.",Abschließend,"Abschließend stellt der Bericht fest, dass weitere Maßnahmen notwendig sind.","In conclusion, the report states that further measures are necessary."
+1076,28,"_____ bleibt nur zu hoffen, dass die Reformen tatsächlich umgesetzt werden.",Abschließend,"Abschließend bleibt nur zu hoffen, dass die Reformen tatsächlich umgesetzt werden.","In conclusion, we can only hope that the reforms will actually be implemented."
+1077,28,"_____ kann man festhalten, dass die Diskussion viele neue Perspektiven eröffnet hat.",Abschließend,"Abschließend kann man festhalten, dass die Diskussion viele neue Perspektiven eröffnet hat.","In conclusion, it can be noted that the discussion has opened up many new perspectives."
+1078,28,"_____, was man hört, war das Konzert ein großer Erfolg.",Nach allem,"Nach allem, was man hört, war das Konzert ein großer Erfolg.","By all accounts, the concert was a big success."
+1079,28,"_____, was gesagt wurde, ist er ein zuverlässiger Kollege.",Nach allem,"Nach allem, was gesagt wurde, ist er ein zuverlässiger Kollege.","By all accounts, he is a reliable colleague."
+1080,28,"_____, was bisher berichtet wurde, ist der Plan sinnvoll.",Nach allem,"Nach allem, was bisher berichtet wurde, ist der Plan sinnvoll.","According to everything that has been reported so far, the plan makes sense."
+1081,28,"_____, was man liest, ist dieses Buch sehr empfehlenswert.",Nach allem,"Nach allem, was man liest, ist dieses Buch sehr empfehlenswert.","From what I read, this book is highly recommended."
+1082,28,"_____, was mir erzählt wurde, ist das eine schwierige Aufgabe.",Nach allem,"Nach allem, was mir erzählt wurde, ist das eine schwierige Aufgabe.","From everything I've been told, this is a difficult task."
+1083,29,respectively,jeweils,,
+1084,29,"overall, all in all",insgesamt,,
+1085,29,insanely,wahnsinnig,,
+1086,29,"recklessly, carelessly",leichtsinnig,,
+1087,29,passionately,leidenschaftlich,,
+1088,29,obviously,offensichtlich,,
+1089,29,thoroughly,gründlich,,
+1090,29,"by the way, incidentally",übrigens,,
+1091,29,"just, simply, exactly",eben,,
+1092,29,"anyway, anyhow, in any case",sowieso,,
+1093,29,"just as, equally",ebenso,,
+1094,29,"at least, after all",immerhin,,
+1095,29,ever,je,,
+1096,29,"extensively, in details",ausführlich,,
+1097,30,Die Teilnehmer erhalten _____ ein Zertifikat nach Abschluss des Kurses.,jeweils,Die Teilnehmer erhalten jeweils ein Zertifikat nach Abschluss des Kurses.,The participants each receive a certificate after completing the course.
+1098,30,"Es gibt drei Gruppen, und _____ eine Gruppe arbeitet an einem anderen Projekt.",jeweils,"Es gibt drei Gruppen, und jeweils eine Gruppe arbeitet an einem anderen Projekt.","There are three groups, and each group works on a different project."
+1099,30,Die Prüfungen finden _____ am Montag und Mittwoch statt.,jeweils,Die Prüfungen finden jeweils am Montag und Mittwoch statt.,"The exams take place on Monday and Wednesday, respectively."
+1100,30,Jeder Kunde kann _____ nur ein Produkt kostenlos testen.,jeweils,Jeder Kunde kann jeweils nur ein Produkt kostenlos testen.,Each customer can test only one product for free.
+1101,30,Die Züge fahren _____ alle 30 Minuten vom Hauptbahnhof ab.,jeweils,Die Züge fahren jeweils alle 30 Minuten vom Hauptbahnhof ab.,The trains depart from the main station every 30 minutes.
+1102,30,Es waren _____ 200 Gäste auf der Veranstaltung.,insgesamt,Es waren insgesamt 200 Gäste auf der Veranstaltung.,There were a total of 200 guests at the event.
+1103,30,Das Projekt hat _____ drei Monate gedauert.,insgesamt,Das Projekt hat insgesamt drei Monate gedauert.,The project took a total of three months.
+1104,30,Insgesamt bin ich mit dem Ergebnis sehr zufrieden.,insgesamt,Insgesamt bin ich mit dem Ergebnis sehr zufrieden.,"Overall, I am very satisfied with the result."
+1105,30,Er hat _____ fünf Prüfungen bestanden.,insgesamt,Er hat insgesamt fünf Prüfungen bestanden.,He passed a total of five exams.
+1106,30,_____ betrachtet war das ein sehr erfolgreiches Jahr für uns.,Insgesamt,Insgesamt betrachtet war das ein sehr erfolgreiches Jahr für uns.,"All in all, this was a very successful year for us."
+1107,30,Er spielt _____ Gitarre und träumt von einer Musikkarriere.,leidenschaftlich,Er spielt leidenschaftlich Gitarre und träumt von einer Musikkarriere.,He plays the guitar passionately and dreams of a music career.
+1108,30,Sie diskutierte _____ über Politik mit ihren Freunden.,leidenschaftlich,Sie diskutierte leidenschaftlich über Politik mit ihren Freunden.,She passionately discussed politics with her friends.
+1109,30,Er tanzt _____ Salsa in seiner Freizeit.,leidenschaftlich,Er tanzt leidenschaftlich Salsa in seiner Freizeit.,He passionately dances salsa in his free time.
+1110,30,Sie engagiert sich _____ für den Umweltschutz.,leidenschaftlich,Sie engagiert sich leidenschaftlich für den Umweltschutz.,She is passionately committed to environmental protection.
+1111,30,Der Autor schreibt _____ über historische Themen.,leidenschaftlich,Der Autor schreibt leidenschaftlich über historische Themen.,The author writes passionately about historical topics.
+1112,30,"Ich bin _____ müde, weil ich die ganze Nacht gearbeitet habe.",wahnsinnig,"Ich bin wahnsinnig müde, weil ich die ganze Nacht gearbeitet habe.",I am insanely tired because I worked all night.
+1113,30,"Das Konzert war _____ gut, ich habe jede Sekunde genossen.",wahnsinnig,"Das Konzert war wahnsinnig gut, ich habe jede Sekunde genossen.",The concert was insanely good; I enjoyed every second.
+1114,30,Sie hat sich _____ über die Überraschung gefreut.,wahnsinnig,Sie hat sich wahnsinnig über die Überraschung gefreut.,She was insanely happy about the surprise.
+1115,30,"Er arbeitet _____ hart, um seine Ziele zu erreichen.",wahnsinnig,"Er arbeitet wahnsinnig hart, um seine Ziele zu erreichen.",He works insanely hard to achieve his goals.
+1116,30,Das Essen im neuen Restaurant ist _____ lecker.,wahnsinnig,Das Essen im neuen Restaurant ist wahnsinnig lecker.,The food at the new restaurant is insanely delicious.
+1117,30,Er hat _____ ohne Helm Fahrrad gefahren.,leichtsinnig,Er hat leichtsinnig ohne Helm Fahrrad gefahren.,He rode his bike recklessly without a helmet.
+1118,30,Sie gab _____ ihr ganzes Geld für teure Kleidung aus.,leichtsinnig,Sie gab leichtsinnig ihr ganzes Geld für teure Kleidung aus.,She carelessly spent all her money on expensive clothes.
+1119,30,Er fuhr _____ zu schnell auf der Autobahn.,leichtsinnig,Er fuhr leichtsinnig zu schnell auf der Autobahn.,He drove recklessly too fast on the highway.
+1120,30,"_____ unterschrieb er den Vertrag, ohne ihn genau zu lesen.",Leichtsinnig,"Leichtsinnig unterschrieb er den Vertrag, ohne ihn genau zu lesen.",He carelessly signed the contract without reading it carefully.
+1121,30,"Sie handelte _____, indem sie ohne Vorbereitung zur Prüfung ging.",leichtsinnig,"Sie handelte leichtsinnig, indem sie ohne Vorbereitung zur Prüfung ging.",She acted recklessly by going to the exam without preparation.
+1122,30,"_____ hatte niemand den Bericht gründlich gelesen, sonst wären die Fehler aufgefallen.",Offensichtlich,"Offensichtlich hatte niemand den Bericht gründlich gelesen, sonst wären die Fehler aufgefallen.","Obviously, no one had read the report thoroughly, or the errors would have been noticed."
+1123,30,"Sie war _____ nicht an der Wahrheit interessiert, sondern nur an der Bestätigung ihrer Meinung.",offensichtlich,"Sie war offensichtlich nicht an der Wahrheit interessiert, sondern nur an der Bestätigung ihrer Meinung.","She was obviously not interested in the truth, but only in confirming her opinion."
+1124,30,"Der Termin wurde _____ vergessen, da niemand erschienen ist.",offensichtlich,"Der Termin wurde offensichtlich vergessen, da niemand erschienen ist.","The appointment was obviously forgotten, since no one showed up."
+1125,30,"Er hatte _____ gelogen, denn seine Aussagen widersprachen den Fakten.",offensichtlich,"Er hatte offensichtlich gelogen, denn seine Aussagen widersprachen den Fakten.","He had obviously lied, as his statements contradicted the facts."
+1126,30,"_____ war das Angebot zu gut, um wahr zu sein, was sich später bestätigte.",Offensichtlich,"Offensichtlich war das Angebot zu gut, um wahr zu sein, was sich später bestätigte.","Obviously, the offer was too good to be true, which was confirmed later."
+1127,30,"Bevor wir eine Entscheidung treffen, sollten wir alle Optionen _____ analysieren.",gründlich,"Bevor wir eine Entscheidung treffen, sollten wir alle Optionen gründlich analysieren.","Before making a decision, we should thoroughly analyze all options."
+1128,30,"Er hat den Vertrag _____ gelesen, bevor er unterschrieben hat.",gründlich,"Er hat den Vertrag gründlich gelesen, bevor er unterschrieben hat.",He read the contract thoroughly before signing it.
+1129,30,Die Wohnung wurde vor dem Einzug _____ renoviert.,gründlich,Die Wohnung wurde vor dem Einzug gründlich renoviert.,The apartment was thoroughly renovated before moving in.
+1130,30,Sie bereitet sich immer _____ auf ihre Präsentationen vor.,gründlich,Sie bereitet sich immer gründlich auf ihre Präsentationen vor.,She always prepares thoroughly for her presentations.
+1131,30,Das Thema wurde im Seminar sehr _____ behandelt.,gründlich,Das Thema wurde im Seminar sehr gründlich behandelt.,The topic was covered very thoroughly in the seminar.
+1132,30,"_____, hast du schon von der neuen Ausstellung gehört?",Übrigens,"Übrigens, hast du schon von der neuen Ausstellung gehört?","By the way, have you heard about the new exhibition?"
+1133,30,"Ich komme morgen zur Party, _____ bringe ich einen Freund mit.",übrigens,"Ich komme morgen zur Party, übrigens bringe ich einen Freund mit.","I’m coming to the party tomorrow, by the way, I’m bringing a friend."
+1134,30,"_____, das Restaurant hat jetzt auch vegane Gerichte auf der Karte.",Übrigens,"Übrigens, das Restaurant hat jetzt auch vegane Gerichte auf der Karte.","By the way, the restaurant now also has vegan dishes on the menu."
+1135,30,"Sie hat den Job bekommen, _____ hat sie sich nur aus Spass beworben.",übrigens,"Sie hat den Job bekommen, übrigens hat sie sich nur aus Spass beworben.","She got the job; incidentally, she only applied for fun."
+1136,30,"_____, ich habe gestern deinen Bruder getroffen.",Übrigens,"Übrigens, ich habe gestern deinen Bruder getroffen.","By the way, I met your brother yesterday."
+1137,30,Ich habe _____ eine wichtige E-Mail bekommen.,eben,Ich habe eben eine wichtige E-Mail bekommen.,I just received an important email.
+1138,30,"Manche Dinge kann man nicht ändern, das ist _____ so.",eben,"Manche Dinge kann man nicht ändern, das ist eben so.","Some things cannot be changed, that's just how it is."
+1139,30,"Er war _____ noch hier, aber jetzt ist er verschwunden.",eben,"Er war eben noch hier, aber jetzt ist er verschwunden.","He was just here, but now he’s gone."
+1140,30,"Wenn du Erfolg haben willst, musst du _____ mehr arbeiten.",eben,"Wenn du Erfolg haben willst, musst du eben mehr arbeiten.","If you want to be successful, you simply have to work more."
+1141,30,Das ist _____ der Unterschied zwischen Theorie und Praxis.,eben,Das ist eben der Unterschied zwischen Theorie und Praxis.,That’s exactly the difference between theory and practice.
+1142,30,Er ist _____ talentiert wie sein Bruder.,ebenso,Er ist ebenso talentiert wie sein Bruder.,He is just as talented as his brother.
+1143,30,Die neuen Regeln betreffen _____ die Mitarbeiter wie die Kunden.,ebenso,Die neuen Regeln betreffen ebenso die Mitarbeiter wie die Kunden.,The new rules affect both the employees and the customers equally.
+1144,30,Das Design ist _____ wichtig wie die Funktionalität.,ebenso,Das Design ist ebenso wichtig wie die Funktionalität.,The design is just as important as the functionality.
+1145,30,"Er war müde, aber _____ glücklich über den Erfolg.",ebenso,"Er war müde, aber ebenso glücklich über den Erfolg.",He was tired but equally happy about the success.
+1146,30,Die Stadt ist _____ historisch wie modern.,ebenso,Die Stadt ist ebenso historisch wie modern.,The city is both historical and modern at the same time.
+1147,30,"Du musst dir keine Sorgen machen, es wäre _____ passiert.",sowieso,"Du musst dir keine Sorgen machen, es wäre sowieso passiert.","You don't have to worry, it would have happened anyway."
+1148,30,"Ich gehe nicht ins Kino, ich habe den Film _____ schon gesehen.",sowieso,"Ich gehe nicht ins Kino, ich habe den Film sowieso schon gesehen.",I'm not going to the cinema; I've already seen the movie anyway.
+1149,30,"Es regnet den ganzen Tag, also bleiben wir _____ zu Hause.",sowieso,"Es regnet den ganzen Tag, also bleiben wir sowieso zu Hause.","It's raining all day, so we're staying home anyway."
+1150,30,"Ich hätte das Angebot nicht angenommen, es war _____ nicht interessant.",sowieso,"Ich hätte das Angebot nicht angenommen, es war sowieso nicht interessant.",I wouldn't have accepted the offer; it wasn't interesting anyway.
+1151,30,"Ob du kommst oder nicht, wir feiern die Party _____.",sowieso,"Ob du kommst oder nicht, wir feiern die Party sowieso.","Whether you come or not, we're having the party anyway."
+1152,30,"Es hat geregnet, aber _____ war es nicht kalt.",immerhin,"Es hat geregnet, aber immerhin war es nicht kalt.","It rained, but at least it wasn’t cold."
+1153,30,"Er hat die Prüfung nicht bestanden, aber _____ hat er es versucht.",immerhin,"Er hat die Prüfung nicht bestanden, aber immerhin hat er es versucht.","He didn’t pass the exam, but at least he tried."
+1154,30,"Wir sind zwar spät angekommen, aber _____ haben wir den letzten Zug erwischt.",immerhin,"Wir sind zwar spät angekommen, aber immerhin haben wir den letzten Zug erwischt.","We arrived late, but at least we caught the last train."
+1155,30,"Das Essen war teuer, aber _____ hat es gut geschmeckt.",immerhin,"Das Essen war teuer, aber immerhin hat es gut geschmeckt.","The food was expensive, but at least it tasted good."
+1156,30,"Sie hat den Job nicht bekommen, aber _____ eine Einladung zum nächsten Bewerbungsgespräch.",immerhin,"Sie hat den Job nicht bekommen, aber immerhin eine Einladung zum nächsten Bewerbungsgespräch.","She didn’t get the job, but at least she got an invitation for the next interview."
+1157,30,Hast du _____ eine so spannende Geschichte gehört?,je,Hast du je eine so spannende Geschichte gehört?,Have you ever heard such an exciting story?
+1158,30,"Ich frage mich, ob er _____ die Wahrheit sagen wird.",je,"Ich frage mich, ob er je die Wahrheit sagen wird.",I wonder if he will ever tell the truth.
+1159,30,"Das ist das beste Essen, das ich _____ probiert habe.",je,"Das ist das beste Essen, das ich je probiert habe.",This is the best food I have ever tasted.
+1160,30,"Hast du _____ daran gedacht, ins Ausland zu ziehen?",je,"Hast du je daran gedacht, ins Ausland zu ziehen?",Have you ever thought about moving abroad?
+1161,30,"Er war der freundlichste Mensch, dem ich _____ begegnet bin.",je,"Er war der freundlichste Mensch, dem ich je begegnet bin.",He was the friendliest person I have ever met.
+1162,30,Er hat das Thema sehr _____ erklärt.,ausführlich,Er hat das Thema sehr ausführlich erklärt.,He explained the topic in great detail.
+1163,30,Wir haben _____ über die Probleme diskutiert.,ausführlich,Wir haben ausführlich über die Probleme diskutiert.,We discussed the problems in detail.
+1164,30,Die Anleitung beschreibt den Prozess _____ und verständlich.,ausführlich,Die Anleitung beschreibt den Prozess ausführlich und verständlich.,The instructions describe the process thoroughly and clearly.
+1165,30,Sie antwortete auf alle Fragen _____.,ausführlich,Sie antwortete auf alle Fragen ausführlich.,She answered all the questions thoroughly.
+1166,30,In dem Bericht wird die Situation _____ analysiert.,ausführlich,In dem Bericht wird die Situation ausführlich analysiert.,The situation is analyzed in detail in the report.
+1167,31,"excessively, overly",übermäßig,,
+1168,31,extraordinarily,außerordentlich,,
+1169,31,by far,bei weitem,,
+1170,31,among other things,unter anderem,,
+1171,31,so to speak,sozusagen,,
+1172,31,spatially,räumlich,,
+1173,31,temporally,zeitlich,,
+1174,31,literally,buchstäblich,,
+1175,31,physically,körperlich,,
+1176,31,mentally,geistig,,
+1177,31,"in short, in a nutshell",kurz Gesagt,,
+1178,31,"constantly, continuously",ständig,,
+1179,31,"rigorously, strictly",rigoros,,
+1180,31,"in principle, fundamentally",grundsätzlich,,
+1181,32,Er trinkt _____ viel Kaffee und schläft deshalb schlecht.,übermäßig,Er trinkt übermäßig viel Kaffee und schläft deshalb schlecht.,He drinks an excessive amount of coffee and therefore sleeps poorly.
+1182,32,"Das Essen war _____ salzig, sodass ich es kaum essen konnte.",übermäßig,"Das Essen war übermäßig salzig, sodass ich es kaum essen konnte.","The food was overly salty, so I could barely eat it."
+1183,32,Sie macht sich _____ viele Sorgen über Kleinigkeiten.,übermäßig,Sie macht sich übermäßig viele Sorgen über Kleinigkeiten.,She worries excessively about small things.
+1184,32,_____ lange Bildschirmzeiten können die Augen belasten.,Übermäßig,Übermäßig lange Bildschirmzeiten können die Augen belasten.,Excessive screen time can strain the eyes.
+1185,32,"Er trainiert _____ intensiv, was zu Verletzungen führen kann.",übermäßig,"Er trainiert übermäßig intensiv, was zu Verletzungen führen kann.","He trains overly intensively, which can lead to injuries."
+1186,32,Das Ergebnis war _____ beeindruckend.,außerordentlich,Das Ergebnis war außerordentlich beeindruckend.,The result was extraordinarily impressive.
+1187,32,Sie hat sich _____ über die gute Nachricht gefreut.,außerordentlich,Sie hat sich außerordentlich über die gute Nachricht gefreut.,She was extremely happy about the good news.
+1188,32,Die Aufgabe war _____ schwierig und zeitaufwendig.,außerordentlich,Die Aufgabe war außerordentlich schwierig und zeitaufwendig.,The task was exceptionally difficult and time-consuming.
+1189,32,Er hat sich _____ engagiert und viel zum Erfolg beigetragen.,außerordentlich,Er hat sich außerordentlich engagiert und viel zum Erfolg beigetragen.,He was extraordinarily committed and contributed greatly to the success.
+1190,32,Wir sind _____ dankbar für Ihre Unterstützung.,außerordentlich,Wir sind außerordentlich dankbar für Ihre Unterstützung.,We are extremely grateful for your support.
+1191,32,"Das war _____ nicht die beste Entscheidung, die sie je getroffen hat.",bei weitem,"Das war bei weitem nicht die beste Entscheidung, die sie je getroffen hat.",That was by far not the best decision she has ever made.
+1192,32,Er ist _____ der erfahrenste Mitarbeiter im ganzen Team.,bei weitem,Er ist bei weitem der erfahrenste Mitarbeiter im ganzen Team.,He is by far the most experienced employee in the entire team.
+1193,32,Die neue Lösung ist _____ effizienter als die alte Methode.,bei weitem,Die neue Lösung ist bei weitem effizienter als die alte Methode.,The new solution is by far more efficient than the old method.
+1194,32,Dieses Projekt ist _____ anspruchsvoller als alle vorherigen.,bei weitem,Dieses Projekt ist bei weitem anspruchsvoller als alle vorherigen.,This project is by far more demanding than all the previous ones.
+1195,32,Ihre Leistung war _____ überzeugender als die der anderen Kandidaten.,bei weitem,Ihre Leistung war bei weitem überzeugender als die der anderen Kandidaten.,Her performance was by far more convincing than that of the other candidates.
+1196,32,Bei der Konferenz wurden _____ neue Forschungsergebnisse vorgestellt.,unter anderem,Bei der Konferenz wurden unter anderem neue Forschungsergebnisse vorgestellt.,"At the conference, new research findings were presented, among other things."
+1197,32,Sie spricht _____ fließend Spanisch und Italienisch.,unter anderem,Sie spricht unter anderem fließend Spanisch und Italienisch.,"She speaks, among other things, fluent Spanish and Italian."
+1198,32,Das Unternehmen investiert _____ in erneuerbare Energien.,unter anderem,Das Unternehmen investiert unter anderem in erneuerbare Energien.,"The company is investing, among other things, in renewable energy."
+1199,32,Der Skandal betrifft _____ auch hochrangige Politiker.,unter anderem,Der Skandal betrifft unter anderem auch hochrangige Politiker.,"The scandal involves, among other things, high-ranking politicians."
+1200,32,Die Ausstellung zeigt _____ Werke von Picasso und Kandinsky.,unter anderem,Die Ausstellung zeigt unter anderem Werke von Picasso und Kandinsky.,"The exhibition features, among other things, works by Picasso and Kandinsky."
+1201,32,Er ist _____ das wandelnde Lexikon unserer Abteilung.,sozusagen,Er ist sozusagen das wandelnde Lexikon unserer Abteilung.,"He is, so to speak, the walking encyclopedia of our department."
+1202,32,Dieses Projekt ist _____ der Höhepunkt unserer bisherigen Arbeit.,sozusagen,Dieses Projekt ist sozusagen der Höhepunkt unserer bisherigen Arbeit.,"This project is, so to speak, the highlight of our work so far."
+1203,32,Wir stehen _____ am Anfang einer völlig neuen Entwicklung.,sozusagen,Wir stehen sozusagen am Anfang einer völlig neuen Entwicklung.,"We are, so to speak, at the beginning of an entirely new development."
+1204,32,Sie hat das Unternehmen _____ im Alleingang gerettet.,sozusagen,Sie hat das Unternehmen sozusagen im Alleingang gerettet.,"She saved the company, so to speak, single-handedly."
+1205,32,Der Chef hat das Angebot _____ ohne Zögern akzeptiert.,sozusagen,Der Chef hat das Angebot sozusagen ohne Zögern akzeptiert.,"The boss accepted the offer, so to speak, without hesitation."
+1206,32,"Die Teilnehmer wurden _____ voneinander getrennt, um Störungen zu vermeiden.",räumlich,"Die Teilnehmer wurden räumlich voneinander getrennt, um Störungen zu vermeiden.",The participants were spatially separated to avoid disruptions.
+1207,32,"Wir müssen die Möbel _____ besser anordnen, damit der Raum größer wirkt.",räumlich,"Wir müssen die Möbel räumlich besser anordnen, damit der Raum größer wirkt.",We need to arrange the furniture better spatially so the room appears larger.
+1208,32,"Die beiden Büros sind _____ eng verbunden, aber organisatorisch unabhängig.",räumlich,"Die beiden Büros sind räumlich eng verbunden, aber organisatorisch unabhängig.",The two offices are spatially connected but organizationally independent.
+1209,32,Räumlich ist das Museum sehr großzügig gestaltet.,räumlich,Räumlich ist das Museum sehr großzügig gestaltet.,The museum is very spaciously designed.
+1210,32,Die Aufgaben wurden _____ klar voneinander abgegrenzt.,räumlich,Die Aufgaben wurden räumlich klar voneinander abgegrenzt.,The tasks were clearly separated from each other in terms of space.
+1211,32,Das Projekt ist _____ knapp geplant und erfordert effizientes Arbeiten.,zeitlich,Das Projekt ist zeitlich knapp geplant und erfordert effizientes Arbeiten.,The project is tightly scheduled and requires efficient work.
+1212,32,Wir müssen die Termine _____ besser koordinieren.,zeitlich,Wir müssen die Termine zeitlich besser koordinieren.,We need to coordinate the appointments better in terms of time.
+1213,32,_____ passt mir das Treffen leider nicht.,Zeitlich,Zeitlich passt mir das Treffen leider nicht.,"The meeting doesn’t work for me time-wise, unfortunately."
+1214,32,Die Aufgaben wurden _____ klar strukturiert.,zeitlich,Die Aufgaben wurden zeitlich klar strukturiert.,The tasks were clearly structured in terms of time.
+1215,32,_____ gesehen liegt der Fokus derzeit auf kurzfristigen Zielen.,Zeitlich,Zeitlich gesehen liegt der Fokus derzeit auf kurzfristigen Zielen.,"From a timing perspective, the focus is currently on short-term goals."
+1216,32,"Er fühlt sich _____ stark genug, um die Herausforderung anzunehmen.",körperlich,"Er fühlt sich körperlich stark genug, um die Herausforderung anzunehmen.",He feels physically strong enough to take on the challenge.
+1217,32,Nach dem langen Training war sie _____ erschöpft.,körperlich,Nach dem langen Training war sie körperlich erschöpft.,"After the long training, she was physically exhausted."
+1218,32,"Er wurde _____ kaum gefordert, aber geistig umso mehr.",körperlich,"Er wurde körperlich kaum gefordert, aber geistig umso mehr.","He was hardly challenged physically, but all the more mentally."
+1219,32,"Körperlich ist er zwar fit, aber mental fehlt ihm die Motivation.",körperlich,"Körperlich ist er zwar fit, aber mental fehlt ihm die Motivation.","Physically, he’s fit, but he lacks the mental motivation."
+1220,32,"Sie hat sich _____ gut erholt, aber die seelischen Narben bleiben.",körperlich,"Sie hat sich körperlich gut erholt, aber die seelischen Narben bleiben.","She has physically recovered well, but the emotional scars remain."
+1221,32,Er fühlt sich _____ bereit für die neue Herausforderung.,geistig,Er fühlt sich geistig bereit für die neue Herausforderung.,He feels mentally prepared for the new challenge.
+1222,32,Nach dem langen Arbeitstag war sie _____ erschöpft.,geistig,Nach dem langen Arbeitstag war sie geistig erschöpft.,"After the long workday, she was mentally exhausted."
+1223,32,"Geistig ist er sehr fit, obwohl er körperlich eingeschränkt ist.",geistig,"Geistig ist er sehr fit, obwohl er körperlich eingeschränkt ist.","He’s very fit mentally, even though he’s physically limited."
+1224,32,Das Seminar war _____ sehr anspruchsvoll.,geistig,Das Seminar war geistig sehr anspruchsvoll.,The seminar was very demanding mentally.
+1225,32,Sie hat sich _____ gut auf die Prüfung vorbereitet.,geistig,Sie hat sich geistig gut auf die Prüfung vorbereitet.,She has mentally prepared well for the exam.
+1226,32,Er ist _____ in letzter Minute angekommen.,buchstäblich,Er ist buchstäblich in letzter Minute angekommen.,He literally arrived at the last minute.
+1227,32,"Das war _____ das Schlimmste, was passieren konnte.",buchstäblich,"Das war buchstäblich das Schlimmste, was passieren konnte.",That was literally the worst thing that could happen.
+1228,32,"Sie hat _____ alles gegeben, um ihr Ziel zu erreichen.",buchstäblich,"Sie hat buchstäblich alles gegeben, um ihr Ziel zu erreichen.",She literally gave everything to reach her goal.
+1229,32,"Ich habe _____ tausendmal versucht, ihn zu erreichen.",buchstäblich,"Ich habe buchstäblich tausendmal versucht, ihn zu erreichen.",I literally tried to reach him a thousand times.
+1230,32,Das hat _____ mein Leben verändert.,buchstäblich,Das hat buchstäblich mein Leben verändert.,That literally changed my life.
+1231,32,_____: Er hat das Projekt erfolgreich abgeschlossen.,Kurz gesagt,Kurz gesagt: Er hat das Projekt erfolgreich abgeschlossen.,In short: He completed the project successfully.
+1232,32,_____: Wir stehen vor einer großen Herausforderung.,Kurz gesagt,Kurz gesagt: Wir stehen vor einer großen Herausforderung.,In short: We are facing a major challenge.
+1233,32,_____: Das Unternehmen muss dringend Maßnahmen ergreifen.,Kurz gesagt,Kurz gesagt: Das Unternehmen muss dringend Maßnahmen ergreifen.,In short: The company urgently needs to take action.
+1234,32,_____: Sie haben alle Anforderungen erfüllt.,Kurz gesagt,Kurz gesagt: Sie haben alle Anforderungen erfüllt.,In short: They met all the requirements.
+1235,32,"_____: Das Problem ist komplexer, als es auf den ersten Blick scheint.",Kurz gesagt,"Kurz gesagt: Das Problem ist komplexer, als es auf den ersten Blick scheint.",In short: The problem is more complex than it appears at first glance.
+1236,32,Er ist _____ unterwegs und hat kaum Zeit für sich selbst.,ständig,Er ist ständig unterwegs und hat kaum Zeit für sich selbst.,He is constantly on the move and barely has time for himself.
+1237,32,"Sie musste _____ ihre Pläne ändern, um flexibel zu bleiben.",ständig,"Sie musste ständig ihre Pläne ändern, um flexibel zu bleiben.",She constantly had to change her plans to stay flexible.
+1238,32,"Das Handy klingelt _____, das ist wirklich nervig.",ständig,"Das Handy klingelt ständig, das ist wirklich nervig.","The phone rings constantly, it's really annoying."
+1239,32,Er wird _____ von neuen Aufgaben überrascht.,ständig,Er wird ständig von neuen Aufgaben überrascht.,He’s constantly surprised by new tasks.
+1240,32,Wir haben _____ neue Herausforderungen zu bewältigen.,ständig,Wir haben ständig neue Herausforderungen zu bewältigen.,We constantly have new challenges to overcome.
+1241,32,"Er hat die Regeln _____ eingehalten, ohne Ausnahmen zuzulassen.",rigoros,"Er hat die Regeln rigoros eingehalten, ohne Ausnahmen zuzulassen.",He strictly followed the rules without allowing exceptions.
+1242,32,"Sie kontrolliert ihre Ausgaben _____, um finanziell stabil zu bleiben.",rigoros,"Sie kontrolliert ihre Ausgaben rigoros, um finanziell stabil zu bleiben.",She rigorously controls her expenses to stay financially stable.
+1243,32,Die Firma überprüft die Sicherheitsvorschriften _____.,rigoros,Die Firma überprüft die Sicherheitsvorschriften rigoros.,The company rigorously checks the safety regulations.
+1244,32,"Er plant seine Zeit _____, um seine Ziele zu erreichen.",rigoros,"Er plant seine Zeit rigoros, um seine Ziele zu erreichen.",He plans his time strictly to achieve his goals.
+1245,32,"Das neue System wurde _____ getestet, bevor es implementiert wurde.",rigoros,"Das neue System wurde rigoros getestet, bevor es implementiert wurde.",The new system was rigorously tested before implementation.
+1246,32,"_____ unterstütze ich die Idee, aber wir müssen noch Details klären.",Grundsätzlich,"Grundsätzlich unterstütze ich die Idee, aber wir müssen noch Details klären.","In principle, I support the idea, but we still need to sort out details."
+1247,32,Er ist _____ gegen eine Erhöhung der Steuern.,grundsätzlich,Er ist grundsätzlich gegen eine Erhöhung der Steuern.,He is fundamentally opposed to a tax increase.
+1248,32,"_____ kann jeder mitmachen, der sich anmeldet.",Grundsätzlich,"Grundsätzlich kann jeder mitmachen, der sich anmeldet.","In principle, anyone who signs up can participate."
+1249,32,"Ich finde das _____ sinnvoll, aber es gibt noch offene Fragen.",grundsätzlich,"Ich finde das grundsätzlich sinnvoll, aber es gibt noch offene Fragen.","I find that fundamentally sensible, but there are still open questions."
+1250,32,_____ dürfte diese Neuregelung kein Problem darstellen.,Grundsätzlich,Grundsätzlich dürfte diese Neuregelung kein Problem darstellen.,"In principle, this new regulation should not pose a problem."
+1251,100,truthfully,wahrheitsgemäß,,
+1252,100,rightly,zu Recht,,
+1253,100,wrongly,fälschlicherweise,,
+1254,100,unfairly,ungerecht,,
+1255,100,urgently,dringend,,
+1256,100,objectively,objektiv,,
+1257,100,subjectively,subjektiv,,
+1258,100,organically,,,
+1259,100,casually,,,
+1260,100,intellectually,,,
+1261,100,rightfully,,,
+1262,101,,doch,,
+1263,101,,denn,,
+1264,101,,ja,,
+1265,101,,mal,,
+1266,101,,aber,,
+1267,101,,halt/eben,,
+1268,101,,wohl,,
+1269,101,,eigentlich,,
+1270,101,,vielleicht,,
+1271,101,,ruhig/schon,,
+1272,101,,bloß/nur,,
+1273,104,"Der Bus fährt nicht mehr dorthin, du musst stattdessen _____ kommen.",hierhin,"Der Bus fährt nicht mehr dorthin, du musst stattdessen hierhin kommen.","The bus no longer goes there, so you have to come here instead."
+1274,104,"Ich habe meinen Schreibtisch von dort drüben _____ verschoben, weil es ruhiger ist.",hierhin,"Ich habe meinen Schreibtisch von dort drüben hierhin verschoben, weil es ruhiger ist.",I moved my desk from over there to here because it's quieter.
+1275,104,Die Lieferung wird morgen _____ gebracht.,hierher,Die Lieferung wird morgen hierher gebracht.,The delivery will be brought here tomorrow.
+1276,104,"Ich bin _____ gekommen, weil ich die Ruhe und Natur genieße.",hierher,"Ich bin hierher gekommen, weil ich die Ruhe und Natur genieße.",I came here because I enjoy the peace and nature.
+1277,104,"Er wurde in Berlin geboren, aber er ist schon lange _____ weggezogen.",daher,"Er wurde in Berlin geboren, aber er ist schon lange daher weggezogen.","He was born in Berlin, but he moved away from there a long time ago."
+1278,104,"Das Wasser in diesem Fluss ist sehr sauber, weil es direkt aus den Bergen _____ fließt.",daher,"Das Wasser in diesem Fluss ist sehr sauber, weil es direkt aus den Bergen daher fließt.",The water in this river is very clean because it flows directly from the mountains there.
+1279,104,Die Briefe müssen bis morgen _____ geschickt werden.,dahin,Die Briefe müssen bis morgen dahin geschickt werden.,The letters have to be sent there by tomorrow.
+1280,104,"Sie zog in eine andere Stadt, weil sie _____ versetzt wurde.",dahin,"Sie zog in eine andere Stadt, weil sie dahin versetzt wurde.",She moved to another city because she was transferred there.
+1281,104,Überall lagen Bücher und Papiere _____.,herum,Überall lagen Bücher und Papiere herum.,Books and papers were lying around everywhere.
+1282,104,Sie hat das Problem lange überlegt und darüber _____gegrübelt.,herum,Sie hat das Problem lange überlegt und darüber herumgegrübelt.,She thought about the problem for a long time and pondered over it.
+1283,104,"Sie blickte ins alte, verlassene Haus _____ und fühlte sich unwohl wegen der Dunkelheit und des Staubs.",hinein,"Sie blickte ins alte, verlassene Haus hinein und fühlte sich unwohl wegen der Dunkelheit und des Staubs.","She looked into the old, abandoned house and felt uncomfortable because of the darkness and dust."
+1284,104,"Das Auto fuhr langsam in den Tunnel _____, während die Lichter flackerten und die Straße immer enger wurde.",hinein,"Das Auto fuhr langsam in den Tunnel hinein, während die Lichter flackerten und die Straße immer enger wurde.",The car slowly drove into the tunnel as the lights flickered and the road became narrower.
+1285,104,Sie nahm die Kiste vom Regal _____ und stellte sie auf den Boden.,herunter,Sie nahm die Kiste vom Regal herunter und stellte sie auf den Boden.,She took the box down from the shelf and placed it on the floor.
+1286,104,Der Ball rollte von der Treppe _____ direkt zu mir.,herunter,Der Ball rollte von der Treppe herunter direkt zu mir.,The ball rolled down the stairs directly to me.
+1287,104,Er zog vorsichtig das alte Buch aus dem Regal _____.,heraus,Er zog vorsichtig das alte Buch aus dem Regal heraus.,He carefully pulled the old book out of the shelf.
+1288,104,"Sie schaute aus dem Fenster _____, um zu sehen, wer an der Tür war.",heraus,"Sie schaute aus dem Fenster heraus, um zu sehen, wer an der Tür war.",She looked out of the window to see who was at the door.
+1289,104,"Der Fluss fließt von unten nach oben _____, wenn die Gezeiten wechseln.",hinauf,"Der Fluss fließt von unten nach oben hinauf, wenn die Gezeiten wechseln.",The river flows upward when the tides change.
+1290,104,"Die Katze kletterte geschickt den Baum _____, um sich vor dem Hund zu verstecken.",hinauf,"Die Katze kletterte geschickt den Baum hinauf, um sich vor dem Hund zu verstecken.",The cat skillfully climbed up the tree to hide from the dog.
+1291,104,"Die Katze kletterte vorsichtig den Baum _____, als sie gerufen wurde.",herauf,"Die Katze kletterte vorsichtig den Baum herauf, als sie gerufen wurde.",The cat carefully climbed up the tree when it was called.
+1292,104,Der Wanderer kämpfte sich den steilen Weg _____ zu seiner Hütte.,herauf,Der Wanderer kämpfte sich den steilen Weg herauf zu seiner Hütte.,The hiker struggled up the steep path to his cabin.
+1293,104,"Sie fuhr mit dem Fahrrad über die Stadtgrenze _____, um die ländliche Gegend zu erkunden.",hinaus,"Sie fuhr mit dem Fahrrad über die Stadtgrenze hinaus, um die ländliche Gegend zu erkunden.",She rode her bike beyond the city limits to explore the countryside.
+1294,104,Die Kinder rannten voller Freude aus dem Schulgebäude _____ auf den Spielplatz.,hinaus,Die Kinder rannten voller Freude aus dem Schulgebäude hinaus auf den Spielplatz.,The children ran joyfully out of the school building onto the playground.
+1295,104,Der Schnee rutschte langsam die Hänge _____ und bedeckte das Tal.,hinunter,Der Schnee rutschte langsam die Hänge hinunter und bedeckte das Tal.,The snow slowly slid down the slopes and covered the valley.
+1296,104,"Der Kletterer blickte vorsichtig die Felswand _____, um den nächsten sicheren Griff zu finden.",hinunter,"Der Kletterer blickte vorsichtig die Felswand hinunter, um den nächsten sicheren Griff zu finden.",The climber carefully looked down the rock face to find the next safe grip.
+1297,104,"Die Gäste wurden herzlich begrüßt, als sie _____ kamen.",herein,"Die Gäste wurden herzlich begrüßt, als sie herein kamen.",The guests were warmly welcomed as they came inside.
+1298,104,"Sie sah durch das Fenster und bat ihn freundlich, _____ zu kommen.",herein,"Sie sah durch das Fenster und bat ihn freundlich, herein zu kommen.",She looked through the window and kindly asked him to come inside.
+1299,110,"off, away",los,,

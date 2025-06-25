@@ -426,15 +426,21 @@ INSTRUCTION = {
         8: "Complete the sentence with the correct form of the specified adjective:",
         9: "Complete the sentence with the correct form of the specified adjective:",
         10: "Complete the sentence with the correct form of the specified adjective:",
-
         11: "Complete the sentence with the correct form of the specified adjective:",
         12: "Complete the sentence with the correct form of the specified adjective:",
+
         13: "Complete the sentence with the correct form of the specified adjective:",
         14: "Complete the sentence with the correct form of the specified adjective:",
         15: "Complete the sentence with the correct form of the specified adjective:",
-
         16: "Complete the sentence with the correct form of the specified adjective:",
+
         17: "Complete the sentence with the correct form of the specified adjective:",
+        18: "Complete the sentence with the correct form of the specified adjective:",
+        19: "Complete the sentence with the correct form of the specified adjective:",
+        20: "Complete the sentence with the correct form of the specified adjective:",
+
+        21: "Complete the sentence with the correct form of the specified adjective:",
+        22: "Complete the sentence with the correct form of the specified adjective:",
     },
 
     trennbare_verben: {

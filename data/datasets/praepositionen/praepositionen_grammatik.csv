@@ -1,9 +1,9 @@
 Nr,exercise,question,answer,case,german,english
-1,1,_____ morgen beginnt mein Urlaub.,Ab,,Ab morgen beginnt mein Urlaub.,"From tomorrow on, my vacation begins."
-2,1,Das Konzert startet _____ 19 Uhr.,ab,,Das Konzert startet ab 19 Uhr.,The concert starts from 7 PM.
-3,1,_____ nächster Woche habe ich einen neuen Job.,Ab,,Ab nächster Woche habe ich einen neuen Job.,"From next week on, I have a new job."
+1,1,_____ morgen beginnt mein Urlaub.,Ab,,Ab morgen beginnt mein Urlaub.,My vacation starts from tomorrow.
+2,1,_____ heute bin ich wieder zu Hause.,Ab,,Ab heute bin ich wieder zu Hause.,"As of today, I'm back at home."
+3,1,_____ nächster Woche habe ich einen neuen Job.,Ab,,Ab nächster Woche habe ich einen neuen Job.,I have a new job starting next week.
 4,1,_____ Januar wird das Wetter kälter.,Ab,,Ab Januar wird das Wetter kälter.,"From January on, the weather will get colder."
-5,1,Der Bus fährt _____ 8 Uhr jede Stunde.,ab,,Der Bus fährt ab 8 Uhr jede Stunde.,The bus leaves every hour from 8 AM.
+5,1,Er gilt _____ November.,ab,,Er gilt ab November.,It is valid from November.
 6,1,Ich habe _____ Montag Deutschunterricht.,am,,Ich habe am Montag Deutschunterricht.,I have German class on Monday.
 7,1,Wir fahren _____ Wochenende nach Berlin.,am,,Wir fahren am Wochenende nach Berlin.,We are going to Berlin on the weekend.
 8,1,Mein Geburtstag ist _____ 3. Mai.,am,,Mein Geburtstag ist am 3. Mai.,My birthday is on May 3rd.
@@ -49,10 +49,10 @@ Nr,exercise,question,answer,case,german,english
 48,1,_____ Montag und Freitag arbeite ich viel.,Zwischen,,Zwischen Montag und Freitag arbeite ich viel.,"Between Monday and Friday, I work a lot."
 49,1,Die Pause ist _____ den zwei Unterrichtsstunden.,zwischen,,Die Pause ist zwischen den zwei Unterrichtsstunden.,The break is between the two lessons.
 50,1,_____ Weihnachten und Neujahr habe ich Urlaub.,Zwischen,,Zwischen Weihnachten und Neujahr habe ich Urlaub.,"Between Christmas and New Year, I have vacation."
-51,1,Ich trinke zwei Liter Wasser _____ Tag.,pro,,Ich trinke zwei Liter Wasser pro Tag.,I drink two liters of water per day.
+51,1,Ich trinke zwei Liter Wasser _____ Tag.,pro/am,,Ich trinke zwei Liter Wasser pro Tag.,I drink two liters of water per day.
 52,1,Wir haben zweimal _____ Woche Deutschkurs.,pro,,Wir haben zweimal pro Woche Deutschkurs.,We have German class twice per week.
-53,1,Ich mache einmal _____ Monat einen Ausflug.,pro,,Ich mache einmal pro Monat einen Ausflug.,I go on a trip once per month.
-54,1,Er arbeitet vier Stunden _____ Tag.,pro,,Er arbeitet vier Stunden pro Tag.,He works four hours per day.
+53,1,Ich mache einmal _____ Monat einen Ausflug.,pro/im,,Ich mache einmal pro Monat einen Ausflug.,I go on a trip once per month.
+54,1,Er arbeitet vier Stunden _____ Tag.,pro/am,,Er arbeitet vier Stunden pro Tag.,He works four hours per day.
 55,1,Er betreut vier Klienten _____ Stunde.,pro,,Er betreut vier Klienten pro Stunde.,He sees four clients per hour.
 56,2,Das Bild hängt _____ der Wand.,an,,Das Bild hängt an der Wand.,The picture is hanging on the wall.
 57,2,Ich stehe _____ der Haltestelle.,an,,Ich stehe an der Haltestelle.,I am standing at the bus stop.
@@ -175,7 +175,7 @@ Nr,exercise,question,answer,case,german,english
 174,4,Wir haben das Rezept _____ einer Freundin.,von,,Wir haben das Rezept von einer Freundin.,We got the recipe from a friend.
 175,4,Das Lied ist _____ einer berühmten Band.,von,,Das Lied ist von einer berühmten Band.,The song is by a famous band.
 176,5,_____ morgen beginnt mein Urlaub.,Ab,,Ab morgen beginnt mein Urlaub.,"From tomorrow on, my vacation begins."
-177,5,Das Konzert startet _____ 19 Uhr.,ab,,Das Konzert startet ab 19 Uhr.,The concert starts from 7 PM.
+177,5,_____ heute bin ich wieder zu Hause.,Ab,,Ab heute bin ich wieder zu Hause.,"As of today, I'm back at home."
 178,5,Ich habe _____ Montag Deutschunterricht.,am,,Ich habe am Montag Deutschunterricht.,I have German class on Monday.
 179,5,Wir fahren _____ Wochenende nach Berlin.,am,,Wir fahren am Wochenende nach Berlin.,We are going to Berlin on the weekend.
 180,5,Mein Geburtstag ist _____ 3. Mai.,am,,Mein Geburtstag ist am 3. Mai.,My birthday is on May 3rd.
@@ -233,7 +233,7 @@ Nr,exercise,question,answer,case,german,english
 232,5,_____ 8 und 9 Uhr frühstücke ich.,Zwischen,,Zwischen 8 und 9 Uhr frühstücke ich.,"Between 8 and 9 o’clock, I have breakfast."
 233,5,Der Zug kommt _____ 14 und 15 Uhr an.,zwischen,,Der Zug kommt zwischen 14 und 15 Uhr an.,The train arrives between 2 and 3 PM.
 234,5,_____ Montag und Freitag arbeite ich viel.,Zwischen,,Zwischen Montag und Freitag arbeite ich viel.,"Between Monday and Friday, I work a lot."
-235,6,_____ nächster Woche habe ich einen neuen Job.,Ab,,Ab nächster Woche habe ich einen neuen Job.,"From next week on, I have a new job."
+235,6,_____ nächster Woche habe ich einen neuen Job.,Ab,,Ab nächster Woche habe ich einen neuen Job.,I have a new job starting next week.
 236,6,_____ Januar wird das Wetter kälter.,Ab,,Ab Januar wird das Wetter kälter.,"From January on, the weather will get colder."
 237,6,Das Bild hängt _____ der Wand.,an,,Das Bild hängt an der Wand.,The picture is hanging on the wall.
 238,6,Ich stehe _____ der Haltestelle.,an,,Ich stehe an der Haltestelle.,I am standing at the bus stop.
@@ -293,7 +293,7 @@ Nr,exercise,question,answer,case,german,english
 292,6,Der Tisch steht _____ dem Sofa und dem Stuhl.,zwischen,,Der Tisch steht zwischen dem Sofa und dem Stuhl.,The table is between the sofa and the chair.
 293,7,_____ dem Essen wasche ich meine Hände.,Vor,,Vor dem Essen wasche ich meine Hände.,"Before eating, I wash my hands."
 294,7,Das Buch ist _____ den Heften auf dem Tisch.,zwischen,,Das Buch ist zwischen den Heften auf dem Tisch.,The book is between the notebooks on the table.
-295,7,Der Bus fährt _____ 8 Uhr jede Stunde.,ab,,Der Bus fährt ab 8 Uhr jede Stunde.,The bus leaves every hour from 8 AM.
+295,7,Er gilt _____ November.,ab,,Er gilt ab November.,It is valid from November.
 296,7,Ich gehe _____ den Strand.,an,,Ich gehe an den Strand.,I am going to the beach.
 297,7,Wir fahren _____ die Nordsee.,an,,Wir fahren an die Nordsee.,We are driving to the North Sea.
 298,7,Er stellt das Glas _____ Fenster.,ans,,Er stellt das Glas ans Fenster.,He puts the glass by the window.
@@ -349,9 +349,9 @@ Nr,exercise,question,answer,case,german,english
 348,7,Die Lampe hängt _____ den Regalen.,zwischen,,Die Lampe hängt zwischen den Regalen.,The lamp is hanging between the shelves.
 349,7,Mein Auto ist _____ zwei anderen Autos geparkt.,zwischen,,Mein Auto ist zwischen zwei anderen Autos geparkt.,My car is parked between two other cars.
 350,7,Das Café liegt _____ dem Supermarkt und der Bank.,zwischen,,Das Café liegt zwischen dem Supermarkt und der Bank.,The café is between the supermarket and the bank.
-351,8,_____ nächstem Monat werde ich zweimal pro Woche einen Sprachkurs besuchen.,Ab,,Ab nächstem Monat werde ich zweimal pro Woche einen Sprachkurs besuchen.,"From next month on, I will attend a language course twice a week."
-352,8,Die Bibliothek ist _____ Montag wieder geöffnet.,ab,,Die Bibliothek ist ab Montag wieder geöffnet.,The library will be open again from Monday.
-353,8,_____ sofort ist Rauchen im Gebäude verboten.,Ab,,Ab sofort ist Rauchen im Gebäude verboten.,"From now on, smoking is forbidden in the building."
+351,8,_____ nächstem Monat werde ich zweimal pro Woche einen Sprachkurs besuchen.,Ab,,Ab nächstem Monat werde ich zweimal pro Woche einen Sprachkurs besuchen.,"Starting next month, I will be attending a language course twice a week."
+352,8,Die Bibliothek ist _____ Montag wieder geöffnet.,ab,,Die Bibliothek ist ab Montag wieder geöffnet.,The library is open again from Monday.
+353,8,_____ sofort ist Rauchen im Gebäude verboten.,Ab,,Ab sofort ist Rauchen im Gebäude verboten.,Smoking is prohibited in the building with immediate effect.
 354,8,Wir treffen uns _____ Montag.,am,,Wir treffen uns am Montag.,We meet on Monday.
 355,8,Ich arbeite _____ Computer.,am,,Ich arbeite am Computer.,I work on the computer.
 356,8,_____ 30. Januar beginnt der neue Kurs.,Am,,Am 30. Januar beginnt der neue Kurs.,The new course starts on January 30.
@@ -401,9 +401,9 @@ Nr,exercise,question,answer,case,german,english
 400,8,Ich bleibe _____ Hause.,zu,,Ich bleibe zu Hause.,I am staying at home.
 401,8,Der Tisch steht _____ den Stühlen.,zwischen,,Der Tisch steht zwischen den Stühlen.,The table is between the chairs.
 402,8,Ich sitze _____ meiner Mutter und meinem Vater.,zwischen,,Ich sitze zwischen meiner Mutter und meinem Vater.,I am sitting between my mother and my father.
-403,9,_____ dem Sommer plane ich eine lange Reise durch Europa.,Ab,,Ab dem Sommer plane ich eine lange Reise durch Europa.,"From summer onwards, I am planning a long trip through Europe."
+403,9,_____ dem Sommer plane ich eine lange Reise durch Europa.,Ab,,Ab dem Sommer plane ich eine lange Reise durch Europa.,I'm planning a long trip through Europe starting in the summer.
 404,9,_____ nächstem Jahr wird die Stadt eine neue Umweltsteuer einführen.,Ab,,Ab nächstem Jahr wird die Stadt eine neue Umweltsteuer einführen.,"Starting next year, the city will introduce a new environmental tax."
-405,9,_____ dem ersten Kapitel war das Buch sehr spannend.,Ab,,Ab dem ersten Kapitel war das Buch sehr spannend.,"From the first chapter, the book was very exciting."
+405,9,_____ dem ersten Kapitel war das Buch sehr spannend.,Ab,,Ab dem ersten Kapitel war das Buch sehr spannend.,The book was very exciting from the first chapter onwards.
 406,9,Sie steht _____ Fenster.,am,,Sie steht am Fenster.,She stands at the window.
 407,9,_____ Abend esse ich Brot.,Am,,Am Abend esse ich Brot.,On the evening I eat bread.
 408,9,_____ 1. Oktober fahren wir nach Berlin.,Am,,Am 1. Oktober fahren wir nach Berlin.,We're going to Berlin on October 1.
@@ -454,7 +454,7 @@ Nr,exercise,question,answer,case,german,english
 453,9,_____ 10 und 12 Uhr bin ich im Büro.,Zwischen,,Zwischen 10 und 12 Uhr bin ich im Büro.,Between 10 and 12 o'clock I am in the office.
 454,9,_____ zwei Welten.,Zwischen,,Zwischen zwei Welten.,Between two worlds.
 455,10,_____ sofort sind Reservierungen nur noch online möglich.,Ab,,Ab sofort sind Reservierungen nur noch online möglich.,"From now on, reservations are only possible online."
-456,10,Dieses Spiel ist nur _____ 12 Jahren erlaubt.,ab,,Dieses Spiel ist nur ab 12 Jahren erlaubt.,This game is only allowed for ages 12 and up.
+456,10,Dieses Spiel ist nur _____ 12 Jahren erlaubt.,ab,,Dieses Spiel ist nur ab 12 Jahren erlaubt.,This game is only allowed from the age of 12.
 457,10,Das Haus ist _____ Fluss.,am,,Das Haus ist am Fluss.,The house is on the river.
 458,10,_____ 2. September 2004 wurde mein Bruder geboren.,Am,,Am 2. September 2004 wurde mein Bruder geboren.,"My brother was born on September 2, 2004."
 459,10,Ich wohne _____ der Strasse.,an,,Ich wohne an der Strasse.,I live on the street.
@@ -509,8 +509,8 @@ Nr,exercise,question,answer,case,german,english
 508,11,Das Haus ist _____ dem Baum.,hinter,,Das Haus ist hinter dem Baum.,The house is behind the tree.
 509,11,Sie kommt _____ ihre Kinder.,ohne,,Sie kommt ohne ihre Kinder.,She comes without her children.
 510,11,Die Erde dreht sich _____ die Sonne.,um,,Die Erde dreht sich um die Sonne.,The Earth revolves around the sun.
-511,11,Hausaufgaben sind _____ der 3. Klasse Pflicht.,ab,,Hausaufgaben sind ab der 3. Klasse Pflicht.,Homework is compulsory from the 3rd grade.
-512,11,_____ dem dritten Lied wurde das Konzert richtig spannend.,Ab,,Ab dem dritten Lied wurde das Konzert richtig spannend.,"From the third song, the concert became really exciting."
+511,11,Hausaufgaben sind _____ der 3. Klasse Pflicht.,ab,,Hausaufgaben sind ab der 3. Klasse Pflicht.,Homework is compulsory from the 3rd grade onwards.
+512,11,_____ dem dritten Lied wurde das Konzert richtig spannend.,Ab,,Ab dem dritten Lied wurde das Konzert richtig spannend.,"From the third song onwards, the concert became really exciting."
 513,11,_____ 4. Dezember 2025 habe ich einen Zahnarzttermin.,Am,,Am 4. Dezember 2025 habe ich einen Zahnarzttermin.,"I have a dentist appointment on December 4, 2025."
 514,11,Wir machen _____ 15. Juli eine Grillparty.,am,,Wir machen am 15. Juli eine Grillparty.,We're having a barbecue on July 15.
 515,11,Die Lampe ist _____ der Decke.,an,,Die Lampe ist an der Decke.,The lamp is on the ceiling.

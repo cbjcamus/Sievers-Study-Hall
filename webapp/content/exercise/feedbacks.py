@@ -72,20 +72,20 @@ FEEDBACK = {
     },
 
     praepositionen_verben: {
-        1: "{previous_question} = {german} {correct_answers}",
+        1: "{english} = {german} + {case}",
         2: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
-        3: "{previous_question} = {german} {correct_answers}",
+        3: "{english} = {german} + {case}",
         4: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
 
-        5: "{previous_question} = {german} {correct_answers}",
+        5: "{english} = {german} + {case}",
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
-        7: "{previous_question} = {german} {correct_answers}",
+        7: "{english} = {german} + {case}",
         8: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
@@ -96,29 +96,29 @@ FEEDBACK = {
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        11: "{previous_question} = {german} {correct_answers}",
+        11: "{english} = {german} + {case}",
         12: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        13: "{previous_question} = {german} {correct_answers}",
+        13: "{english} = {german} + {case}",
         14: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        15: "{previous_question} = {german} {correct_answers}",
+        15: "{english} = {german} + {case}",
         16: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        17: "{previous_question} = {german} {correct_answers}",
+        17: "{english} = {german} + {case}",
         18: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        19: "{previous_question} = {german} {correct_answers}",
+        19: "{english} = {german} + {case}",
         20: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        21: "{previous_question} = {german} {correct_answers}",
+        21: "{english} = {german} + {case}",
         22: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
@@ -306,18 +306,18 @@ FEEDBACK = {
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
         14: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
+           "<br><br>{gender}, {case} → {correct_answers}",
         15: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
+           "<br><br>{gender}, {case} → {correct_answers}",
         16: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
+           "<br><br>{gender}, {case} → {correct_answers}",
         17: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
+           "<br><br>{gender}, {case} → {correct_answers}",
         18: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
+           "<br><br>{gender}, {case} → {correct_answers}",
 
         19: "{german}"
-           "<br><br>{person}, {case} → {correct_answers}",
+           "<br><br>{gender}, {case} → {correct_answers}",
         20: "{german}"
             "<br><br>Correct answer(s): {correct_answers}",
     },
@@ -585,8 +585,7 @@ FEEDBACK = {
             "<br><br>{previous_question} = {english}",
         17: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        18: "{previous_question} → er/sie/es {correct_answers}"
-            "<br><br>{previous_question} = {english}",
+        18: "{previous_question} → er/sie/es {correct_answers}",
         19: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         20: "{previous_question} → er/sie/es {correct_answers}"
@@ -720,21 +719,32 @@ FEEDBACK = {
            "<br><br>{article}, {gender}, {case} → {correct_answers}",
         10: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
-
         11: "{german}"
-            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+           "<br><br>{article}, {gender}, {case} → {correct_answers}",
         12: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
+
         13: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
         14: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
         15: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
-
         16: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
+
         17: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        18: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        19: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        20: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+
+        21: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        22: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
     },
 
