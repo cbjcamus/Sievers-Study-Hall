@@ -10,7 +10,7 @@ app = Flask(__name__,
             static_url_path='/webapp/static',
             static_folder='webapp/static',
             template_folder='webapp/templates')
-app.secret_key = 'this_is_a_bad_secret_key_but_I_believe_it_works'
+app.secret_key = 'this_is_a_secret_key_for_local_environment'
 
 app.register_blueprint(routes)
 

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update 25th june">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="key" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,14 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00035" summary="commit">
-      <option name="closed" value="true" />
-      <created>1745911507916</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1745911507916</updated>
     </task>
     <task id="LOCAL-00036" summary="commit">
       <option name="closed" value="true" />
@@ -541,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750840581840</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="key">
+      <option name="closed" value="true" />
+      <created>1750925395237</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1750925395237</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -557,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme" />
     <MESSAGE value="praeteritum + partizip II exercise" />
     <MESSAGE value="fragen and artikel" />
     <MESSAGE value="artikel, UI, few issues" />
@@ -582,7 +578,8 @@
     <MESSAGE value="Feedback in summary + string for progress and score and result" />
     <MESSAGE value="session cookie update" />
     <MESSAGE value="update 25th june" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 25th june" />
+    <MESSAGE value="key" />
+    <option name="LAST_COMMIT_MESSAGE" value="key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
