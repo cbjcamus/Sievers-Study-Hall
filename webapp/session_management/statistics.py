@@ -1,6 +1,6 @@
 import os
-from datetime import datetime
 from flask import request
+from datetime import datetime
 
 
 def print_question_flagged(unit, exercise, feedback_message, user_answer):

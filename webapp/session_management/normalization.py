@@ -4,7 +4,7 @@ from data.data_processing.units import konnektoren
 from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH, get_list_of_synonyms
 
 
-def is_equal(user_answer, correct_answer, question, unit):
+def is_user_answer_correct(user_answer, correct_answer, question, unit):
     synonym_units = [konnektoren]
 
     if user_answer == question and unit in synonym_units:

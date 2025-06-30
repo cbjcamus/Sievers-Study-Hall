@@ -1,4 +1,5 @@
 from webapp.session_management.total_questions import compute_highest_exercise, compute_total_questions
+from webapp.session_management.verification_session import is_key_in_exercise, create_key_in_session
 
 
 def write_score(session, unit, exercise=None):
@@ -13,65 +14,56 @@ def write_score(session, unit, exercise=None):
 
 def compute_score(session, unit, exercise=None):
     if exercise is not None:
-        return compute_score_exercise_session(session, unit, exercise)
+        return compute_score_exercise(session, unit, exercise)
 
     elif exercise is None:
-        return compute_score_unit_session(session, unit)
+        return compute_score_unit(session, unit)
 
     else:
         return None
 
 
-def compute_score_exercise_session(session, unit, exercise):
-    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
-        return session['result'][unit][str(exercise)]
+def compute_score_unit(session, unit):
+    trues_unit = 0
+    falses_unit = 0
+    for exercise in range(1, compute_highest_exercise(unit) + 1):
+        trues_exercise, falses_exercise = compute_trues_and_falses(session, unit, exercise)
+        trues_unit = trues_unit + trues_exercise
+        falses_unit = falses_unit + falses_exercise
+    return compute_fraction(trues_unit, falses_unit)
 
-    elif 'score'in session and unit in session['score'] and str(exercise) in session['score'][unit]:
-        trues = compute_trues(session, unit, exercise)
-        falses = compute_falses(session, unit, exercise)
+
+def compute_score_exercise(session, unit, exercise):
+    if is_key_in_exercise(session, unit, exercise, 'result'):
+        return session[unit][str(exercise)]['result']
+
+    elif is_key_in_exercise(session, unit, exercise, 'progress'):
+        trues, falses = compute_trues_and_falses(session, unit, exercise)
         return compute_fraction(trues, falses)
     else:
         return None
 
 
-def compute_score_unit_session(session, unit):
-    trues = 0
-    falses = 0
-    for exercise in range(1, compute_highest_exercise(unit) + 1):
-        trues = trues + compute_trues(session, unit, exercise)
-        falses = falses + compute_falses(session, unit, exercise)
-    return compute_fraction(trues, falses)
-
-
 def compute_fraction(trues, falses):
     if trues + falses == 0:
-        return 0
-
+        return None
     else:
         return trues / (trues + falses)
 
 
-def compute_trues(session, unit, exercise):
-    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
-        result_exercise = session['result'][unit][str(exercise)]
+def compute_trues_and_falses(session, unit, exercise):
+    if is_key_in_exercise(session, unit, exercise, 'result'):
+        result_exercise = session[unit][str(exercise)]['result']
         trues = result_exercise * compute_total_questions(unit, exercise=exercise)
+        falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
 
-    elif 'score' in session and unit in session['score'] and str(exercise) in session['score'][unit]:
-        trues = sum(1 for val in session['score'][unit][str(exercise)].values() if val is True)
+    elif is_key_in_exercise(session, unit, exercise, 'progress'):
+        create_key_in_session(session, unit, exercise, 'falses')
+        trues = len( set(session[unit][str(exercise)]['progress']) - set(session[unit][str(exercise)]['falses']) )
+        falses = len(session[unit][str(exercise)]['falses'])
 
     else:
         trues = 0
-    return trues
-
-
-def compute_falses(session, unit, exercise):
-    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
-        result_exercise = session['result'][unit][str(exercise)]
-        falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
-
-    elif 'score' in session and unit in session['score'] and str(exercise) in session['score'][unit]:
-        falses = sum(1 for val in session['score'][unit][str(exercise)].values() if val is False)
-
-    else:
         falses = 0
-    return falses
+    return trues, falses
+
