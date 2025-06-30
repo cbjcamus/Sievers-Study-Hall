@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-from data.data_processing.data_loading import load_data
 from data.data_processing.paths import DATA_PATH
+from data.data_processing.data_loading import load_data
 
 
 def compute_total_questions(unit, exercise=None):

@@ -1,44 +1,64 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for, flash, jsonify
 
-from data.data_processing.data_loading import load_data
-from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.units import units
+from data.data_processing.proverbs import get_text_proverb
+from data.data_processing.data_loading import load_data
 
-from webapp.session_management.progress import compute_answered_questions
-from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.score import write_score
-from webapp.session_management.pick_a_question import pick_a_question
+from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.statistics import print_question_flagged
-from webapp.session_management.result import register_result
-from webapp.session_management.conditions import exercise_finished
-from webapp.session_management.normalization import get_list_of_correct_answers, is_equal
+from webapp.session_management.print_session import session_size, print_complete_session
+from webapp.session_management.normalization import get_list_of_correct_answers, is_user_answer_correct
+from webapp.session_management.total_questions import compute_total_questions
+from webapp.session_management.pick_a_question import pick_a_question, is_exercise_finished
+from webapp.session_management.register_update import register_progress, register_false, register_result
+from webapp.session_management.verification_session import create_key_in_session
 
+from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.back_button import BACK_BUTTON
 from webapp.content.unit.introduction import INTRODUCTION
-from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.template_path import TEMPLATE_PATH
 from webapp.content.exercise.feedbacks import FEEDBACK
 from webapp.content.exercise.questions import QUESTION
 from webapp.content.exercise.instructions import INSTRUCTION
 from webapp.content.exercise.descriptions import DESCRIPTION
 
-
 routes = Blueprint("routes", __name__)
 
 
 @routes.before_request
 def ensure_session_keys_exist_and_make_session_permanent():
-    """Ensure that progress, score, and result exist in the session before handling any request."""
-    if 'progress' not in session:
-        session['progress'] = {}
-    if 'score' not in session:
-        session['score'] = {}
-    if 'result' not in session:
-        session['result'] = {}
-
     session.permanent = True
+
+    if 'unfinished_exercise' not in session:
+        session['unfinished_exercise'] = []
+
+    # print_complete_session(session)
+    # print(f"Session size: {session_size(session)} bytes")
     # session.clear()
+
+
+@routes.before_request
+def convert_result():
+    if 'result' in session:
+        for unit in session['result']:
+            if unit not in session:
+                session[unit] = {}
+            for exercise in session['result'][unit]:
+                if str(exercise) not in session[unit]:
+                    session[unit][str(exercise)] = {}
+                session[unit][str(exercise)]['result'] = session['result'][unit][str(exercise)]
+        del session['result']
+
+
+@routes.before_request
+def delete_old_unfinished_exercise():
+    if session_size(session) > 3500:
+        unit, exercise = session['unfinished_exercise'][0]
+        if unit in session and str(exercise) in session[unit]:
+            del session[unit][str(exercise)]
+        session['unfinished_exercise'].remove((unit, exercise))
 
 
 @routes.route('/')
@@ -88,9 +108,12 @@ for unit in units:
 
 @routes.route('/unit/<unit>/exercise/<int:exercise>')
 def exercise(unit, exercise):
-    if exercise_finished(session, unit, exercise) is True:
+    if is_exercise_finished(session, unit, exercise) is True:
         register_result(session, unit, exercise)
-        result_data = session.pop(f"{unit}_result", None)
+        feedback = session.pop(f"feedback", None)
+        result = feedback["result"] if feedback else None
+        feedback_message = feedback["feedback_message"] if feedback else None
+        user_answer = feedback["user_answer"] if feedback else None
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -99,14 +122,13 @@ def exercise(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                is_feedback_box=True,
-                               result=result_data["result"] if result_data else None,
-                               feedback_message=result_data["feedback_message"] if result_data else None,
-                               user_answer=result_data["user_answer"] if result_data else None,
+                               result=result,
+                               feedback_message=feedback_message,
+                               user_answer=user_answer,
                                )
 
     question_data = pick_a_question(session, unit, exercise)
 
-    # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
     english = str(question_data.get("english", ""))
     german = str(question_data.get("german", ""))
@@ -131,7 +153,10 @@ def exercise(unit, exercise):
         prefix=prefix,
     )
 
-    result_data = session.pop(f"{unit}_result", None)
+    feedback = session.pop(f"feedback", None)
+    result = feedback["result"] if feedback else None
+    feedback_message = feedback["feedback_message"] if feedback else None
+    user_answer = feedback["user_answer"] if feedback else None
 
     proverb = get_text_proverb()
 
@@ -143,9 +168,9 @@ def exercise(unit, exercise):
                            question_text=formatted_question,
                            instruction_text=instruction,
                            nr=question_data["Nr"],
-                           result=result_data["result"] if result_data else None,
-                           feedback_message=result_data["feedback_message"] if result_data else None,
-                           user_answer=result_data["user_answer"] if result_data else None,
+                           result=result,
+                           feedback_message=feedback_message,
+                           user_answer=user_answer,
                            unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
@@ -158,6 +183,9 @@ def exercise(unit, exercise):
 
 @routes.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
 def check_answer(unit, exercise):
+
+    create_key_in_session(session, unit, exercise, 'progress')
+    create_key_in_session(session, unit, exercise, 'falses')
 
     if request.method == 'GET':
         return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
@@ -195,35 +223,22 @@ def check_answer(unit, exercise):
         prefix=prefix,
     )
 
-    correct_answer_condition = is_equal(user_answer, correct_answer, question_text, unit)
+    is_answer_correct = is_user_answer_correct(user_answer, correct_answer, question_text, unit)
 
-    session[f"{unit}_result"] = {
-        "result": "correct" if correct_answer_condition else "incorrect",
+    if is_answer_correct:
+        register_progress(session, unit, exercise, nr)
+    elif nr not in session[unit][str(exercise)]['falses']:
+        register_false(session, unit, exercise, nr)
+
+    session.modified = True
+
+    session[f"feedback"] = {
+        "result": "correct" if is_answer_correct else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
     }
 
-    # Initialize score storage if missing
-    if unit not in session['score']:
-        session['score'][unit] = {}
-    if str(exercise) not in session['score'][unit]:
-        session['score'][unit][str(exercise)] = {}
-
-    if correct_answer_condition:
-        session_data = session['progress'].get(unit, {})
-        session_data.setdefault(str(exercise), {})
-        session_data[str(exercise)][nr] = 1
-        session['progress'][unit] = session_data
-        session['progress'].setdefault(unit, {}).setdefault(str(exercise), {})[nr] = 1
-
-    if not correct_answer_condition:
-        session['score'][unit][str(exercise)][nr] = False
-    elif nr not in session['score'][unit][str(exercise)]:
-        session['score'][unit][str(exercise)][nr] = True
-
-    session.modified = True
-
-    session[f"{unit}_question_data"] = question_data.to_dict()
+    session[f"question_data"] = question_data.to_dict()
 
     if session.get('feedback_enabled') is True:
         return redirect(url_for('routes.exercise_feedback',
@@ -237,9 +252,12 @@ def check_answer(unit, exercise):
 
 @routes.route('/feedback/unit/<unit>/exercise/<int:exercise>')
 def exercise_feedback(unit, exercise):
-    if exercise_finished(session, unit, exercise) is True:
+    if is_exercise_finished(session, unit, exercise) is True:
         register_result(session, unit, exercise)
-        result_data = session.pop(f"{unit}_result", None)
+        feedback = session.pop(f"feedback", None)
+        result = feedback["result"] if feedback else None
+        feedback_message = feedback["feedback_message"] if feedback else None
+        user_answer = feedback["user_answer"] if feedback else None
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -248,14 +266,13 @@ def exercise_feedback(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                is_feedback_box=True,
-                               result=result_data["result"] if result_data else None,
-                               feedback_message=result_data["feedback_message"] if result_data else None,
-                               user_answer=result_data["user_answer"] if result_data else None,
+                               result=result,
+                               feedback_message=feedback_message,
+                               user_answer=user_answer,
                                )
 
-    question_data = session.get(f"{unit}_question_data", {})
+    question_data = session.get(f"question_data", {})
 
-    # Ensure values are strings and handle NaN safely
     question_text = str(question_data["question"])
     english = str(question_data.get("english", ""))
     german = str(question_data.get("german", ""))
@@ -280,7 +297,10 @@ def exercise_feedback(unit, exercise):
         prefix=prefix,
     )
 
-    result_data = session.pop(f"{unit}_result", None)
+    feedback = session.pop(f"feedback", None)
+    result = feedback["result"] if feedback else None
+    feedback_message = feedback["feedback_message"] if feedback else None
+    user_answer = feedback["user_answer"] if feedback else None
 
     proverb = get_text_proverb()
 
@@ -292,9 +312,9 @@ def exercise_feedback(unit, exercise):
                            question_text=formatted_question,
                            instruction_text=instruction,
                            nr=question_data["Nr"],
-                           result=result_data["result"] if result_data else None,
-                           feedback_message=result_data["feedback_message"] if result_data else None,
-                           user_answer=result_data["user_answer"] if result_data else None,
+                           result=result,
+                           feedback_message=feedback_message,
+                           user_answer=user_answer,
                            unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
@@ -308,16 +328,21 @@ def exercise_feedback(unit, exercise):
 @routes.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
 def reset_exercise(unit, exercise):
     """Clears progress for a specific unit exercise and removes any stored feedback."""
-    if 'progress' in session and unit in session['progress'] and str(exercise) in session['progress'][unit]:
-        del session['progress'][unit][str(exercise)]
+    '''if is_key_in_exercise(session, unit, exercise, 'progress'):
+        del session[unit][str(exercise)]['progress']
 
-    if 'score' in session and unit in session['score'] and str(exercise) in session['score'][unit]:
-        del session['score'][unit][str(exercise)]
+    if is_key_in_exercise(session, unit, exercise, 'falses'):
+        del session[unit][str(exercise)]['falses']
 
-    if 'result' in session and unit in session['result'] and str(exercise) in session['result'][unit]:
-        del session['result'][unit][str(exercise)]
+    if is_key_in_exercise(session, unit, exercise, 'result'):
+        del session[unit][str(exercise)]['result']'''
 
-    session.pop(f"{unit}_result", None)  # Clear any stored feedback
+    del session[unit][str(exercise)]
+
+    if (unit, exercise) in session['unfinished_exercise']:
+        session['unfinished_exercise'].remove((unit, exercise))
+
+    session.pop(f"feedback", None)
     session.modified = True
     return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
@@ -339,7 +364,7 @@ def flag_question(unit, exercise):
 def set_feedback_toggle():
     data = request.get_json()
     session['feedback_enabled'] = data.get('feedback_enabled', False)
-    return '', 204  # No content
+    return '', 204
 
 
 @routes.route('/get-feedback-toggle')
