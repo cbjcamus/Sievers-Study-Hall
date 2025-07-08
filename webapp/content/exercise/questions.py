@@ -20,6 +20,7 @@ QUESTION = {
            "<br><br><i>{english}</i>",
         4: "{question}"
            "<br><br><i>{english}</i>",
+
         5: "{question}"
            "<br><br><i>{english}</i>",
         6: "{question}"
@@ -31,28 +32,23 @@ QUESTION = {
            "<br><br><i>{english}</i>",
         9: "{question}"
             "<br><br><i>{english}</i>",
-        10: "{question}"
-           "<br><br><i>{english}</i>",
+        10: "{question}",
         11: "{question}"
             "<br><br><i>{english}</i>",
 
         12: "{question}"
             "<br><br><i>{english}</i>",
-        13: "{question}",
-        14: "{question}"
+        13: "{question}"
             "<br><br><i>{english}</i>",
-
+        14: "{question}",
         15: "{question}"
             "<br><br><i>{english}</i>",
+
         16: "{question}",
         17: "{question}"
             "<br><br><i>{english}</i>",
-
         18: "{question}",
         19: "{question}"
-            "<br><br><i>{english}</i>",
-        20: "{question}",
-        21: "{question}"
             "<br><br><i>{english}</i>",
     },
 

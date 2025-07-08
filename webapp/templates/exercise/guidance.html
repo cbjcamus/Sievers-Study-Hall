@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>{{ title_page[unit] }} – Practice German for Free</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+
+    <script>
+        window.onload = function() {
+            document.getElementById("answer")?.focus();
+        };
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("answer")?.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("submit-button")?.click();
+                }
+            });
+        });
+    </script>
+</head>
+
+{% from "macros.html" import render_title %}
+{% from "macros.html" import render_feedback %}
+
+<body>
+    {{ render_title(title_page[unit]) }}
+    <h2 class="exercise-title">Exercise {{ exercise }}</h2>
+
+    <div class="guidance-container">
+
+        <h2>Instruction</h2>
+
+        <p align="left">{{ guidance | safe }}</p>
+
+        <p>
+            <a href="/unit/{{ unit }}/exercise/{{ exercise }}" class="next-question-button">Next</a>
+        </p>
+
+        <script>
+            document.addEventListener("keydown", function(event) {
+                if (event.key === "Enter") {
+                    const nextBtn = document.querySelector(".next-question-button");
+                    if (nextBtn && !document.getElementById("answer")) {
+                        event.preventDefault();
+                        nextBtn.click();
+                    }
+                }
+            });
+        </script>
+
+    </div>
+
+    <div class="back-button-container">
+        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

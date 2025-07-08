@@ -2,7 +2,6 @@ import os
 from datetime import timedelta
 
 from flask import Flask
-# from flask_session import Session
 
 from webapp.routes import routes
 
@@ -14,12 +13,8 @@ app.secret_key = 'this_is_a_secret_key_for_local_environment'
 
 app.register_blueprint(routes)
 
-# Set up server-side session storage
-# app.config['SESSION_TYPE'] = 'filesystem'
-# app.config['SESSION_FILE_DIR'] = os.path.join(os.path.dirname(__file__), 'flask_session')
 app.config['SESSION_PERMANENT'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=30)
-# Session(app)
 
 
 if __name__ == "__main__":

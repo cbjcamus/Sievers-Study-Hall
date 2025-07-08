@@ -11,30 +11,28 @@ DESCRIPTION = {
 
     praepositionen_grammatik: {
         1: "Temporal Prepositions in sentences",
-        2: "Local (Place) Prepositions in sentences",
+        2: "Local (Position) Prepositions in sentences",
         3: "Local (Direction) Prepositions in sentences",
         4: "Modal and Causal Prepositions in sentences",
-        5: "Mix of A1 Prepositions in sentences",
-        6: "Mix of A1 Prepositions in sentences",
-        7: "Mix of A1 Prepositions in sentences",
 
-        8: "Reviewing A1 Prepositions at A2 level in sentences",
-        9: "Reviewing A1 Prepositions at A2 level in sentences",
-        10: "Reviewing A1 Prepositions at A2 level in sentences",
-        11: "Reviewing A1 Prepositions at A2 level in sentences",
+        5: "A1 prepositions at A2 level in Temporal context in sentences",
+        6: "A1 prepositions at A2 level in Local (Position) context in sentences",
+        7: "A1 prepositions at A2 level in Local (Direction) context in sentences",
 
-        12: "A1 Prepositions at B1 level in sentences",
-        13: "B1 Prepositions in isolation",
-        14: "B1 Prepositions in sentences",
+        8: "A1 Prepositions at B1 level in sentences",
+        9: "A1 Prepositions at B1 level in sentences",
+        10: "B1 Prepositions in isolation",
+        11: "B1 Prepositions in sentences",
 
-        15: "A1 Prepositions at B2 level in sentences",
-        16: "B2 Prepositions in isolation",
-        17: "B2 Prepositions in sentences",
+        12: "A1 Prepositions at B2 level in sentences",
+        13: "A1 Prepositions at B2 level in sentences",
+        14: "B2 Prepositions in isolation",
+        15: "B2 Prepositions in sentences",
 
+        16: "C1 prepositions in isolation",
+        17: "C1 prepositions in sentences",
         18: "C1 prepositions in isolation",
         19: "C1 prepositions in sentences",
-        20: "C1 prepositions in isolation",
-        21: "C1 prepositions in sentences",
     },
 
     praepositionen_verben: {

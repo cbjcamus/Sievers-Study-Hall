@@ -12,62 +12,71 @@ FEEDBACK = {
     praepositionen_grammatik: {
         1: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
         2: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
         3: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
         4: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
+
         5: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
         6: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
         7: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
 
         8: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
         9: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        10: "{german}"
-           "<br><br><i>{english}</i>"
+            "<br><br>{explanation}"
            "<br><br>Correct answer(s): {correct_answers}",
+        10: "{previous_question} = {correct_answers}",
         11: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation}"
             "<br><br>Correct answer(s): {correct_answers}",
 
         12: "{german}"
-            "<br><br><i>{english}</i>"
+           "<br><br><i>{english}</i>"
+           "<br><br>{explanation}"
             "<br><br>Correct answer(s): {correct_answers}",
-        13: "{previous_question} = {correct_answers}",
-        14: "{german}"
+        13: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation}"
             "<br><br>Correct answer(s): {correct_answers}",
-
+        14: "{previous_question} = {correct_answers}",
         15: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation}"
             "<br><br>Correct answer(s): {correct_answers}",
+
         16: "{previous_question} = {correct_answers}",
         17: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation}"
             "<br><br>Correct answer(s): {correct_answers}",
-
         18: "{previous_question} = {correct_answers}",
         19: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        20: "{previous_question} = {correct_answers}",
-        21: "{german}"
-            "<br><br><i>{english}</i>"
+            "<br><br>{explanation}"
             "<br><br>Correct answer(s): {correct_answers}",
     },
 

@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 import unicodedata
 
 from data.data_processing.units import konnektoren
@@ -42,20 +44,20 @@ def normalize_umlaut(input_str):
     return unicodedata.normalize('NFC', input_str)
 
 
-def get_list_of_correct_answers(answer, unit, file_path=SYNONYMS_PATH):
+def get_list_of_correct_answers(correct_answer, unit, file_path=SYNONYMS_PATH):
 
-    if "/" in answer:
-        answers = answer.split("/")
+    if "/" in correct_answer:
+        answers = correct_answer.split("/")
         answers = [normalization(answer, unit) for answer in answers]
         return ', '.join(answers)
 
     else:
-        answer = lowercase_first_letter(answer)
-        synonyms = get_list_of_synonyms(answer, unit, file_path=file_path)
+        correct_answer = lowercase_first_letter(correct_answer)
+        synonyms = get_list_of_synonyms(correct_answer, unit, file_path=file_path)
         if not synonyms:
-            return answer
+            return correct_answer
         else:
-            return f"{answer}, {synonyms}"
+            return f"{correct_answer}, {synonyms}"
 
 
 def lowercase_first_letter(s):

@@ -8,32 +8,34 @@ from data.data_processing.units import (
 
 # bullet point \u25CF
 
-INSTRUCTION = {
+GUIDANCE = {
 
     praepositionen_grammatik: {
         1: "Complete the following sentence with the preposition that fits:",
         2: "Complete the following sentence with the preposition that fits:",
         3: "Complete the following sentence with the preposition that fits:",
         4: "Complete the following sentence with the preposition that fits:",
-
         5: "Complete the following sentence with the preposition that fits:",
         6: "Complete the following sentence with the preposition that fits:",
         7: "Complete the following sentence with the preposition that fits:",
 
         8: "Complete the following sentence with the preposition that fits:",
         9: "Complete the following sentence with the preposition that fits:",
-        10: "Translate the following preposition:",
+        10: "Complete the following sentence with the preposition that fits:",
         11: "Complete the following sentence with the preposition that fits:",
 
         12: "Complete the following sentence with the preposition that fits:",
-        13: "Complete the following sentence with the preposition that fits:",
-        14: "Translate the following preposition:",
-        15: "Complete the following sentence with the preposition that fits:",
+        13: "Translate the following preposition:",
+        14: "Complete the following sentence with the preposition that fits:",
 
+        15: "Complete the following sentence with the preposition that fits:",
         16: "Translate the following preposition:",
         17: "Complete the following sentence with the preposition that fits:",
+
         18: "Translate the following preposition:",
         19: "Complete the following sentence with the preposition that fits:",
+        20: "Translate the following preposition:",
+        21: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_verben: {

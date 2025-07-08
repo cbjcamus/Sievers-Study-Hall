@@ -19,6 +19,7 @@ from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.back_button import BACK_BUTTON
 from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
+from webapp.content.exercise.guidance import GUIDANCE
 from webapp.content.exercise.feedbacks import FEEDBACK
 from webapp.content.exercise.questions import QUESTION
 from webapp.content.exercise.instructions import INSTRUCTION
@@ -35,7 +36,7 @@ def ensure_session_keys_exist_and_make_session_permanent():
         session['unfinished_exercise'] = []
 
     # print_complete_session(session)
-    print(f"Session size: {session_size(session)} bytes")
+    # print(f"Session size: {session_size(session)} bytes")
     # session.clear()
 
 
@@ -106,6 +107,41 @@ for unit in units:
     make_route()
 
 
+@routes.route('/guidance/unit/<unit>/exercise/<int:exercise>')
+def guidance(unit, exercise):
+    if is_exercise_finished(session, unit, exercise) is True:
+        register_result(session, unit, exercise)
+        feedback = session.pop(f"feedback", None)
+        result = feedback["result"] if feedback else None
+        feedback_message = feedback["feedback_message"] if feedback else None
+        user_answer = feedback["user_answer"] if feedback else None
+        return render_template("exercise/exercise_completed.html",
+                               unit=unit,
+                               exercise=exercise,
+                               score=write_score,
+                               unit_page=UNIT_PAGE,
+                               title_page=TITLE_PAGE,
+                               back_page=BACK_BUTTON,
+                               is_feedback_box=True,
+                               result=result,
+                               feedback_message=feedback_message,
+                               user_answer=user_answer,
+                               )
+
+    guidance = GUIDANCE[unit][exercise]
+
+    return render_template("exercise/guidance.html",
+                           unit=unit,
+                           exercise=exercise,
+                           guidance=guidance,
+                           unit_page=UNIT_PAGE,
+                           title_page=TITLE_PAGE,
+                           back_page=BACK_BUTTON,
+                           answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+                           total_questions=compute_total_questions(unit, exercise=exercise),
+                           )
+
+
 @routes.route('/unit/<unit>/exercise/<int:exercise>')
 def exercise(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
@@ -129,6 +165,9 @@ def exercise(unit, exercise):
 
     question_data = pick_a_question(session, unit, exercise)
 
+    print('question_data', question_data)
+    print(type(question_data))
+
     question_text = str(question_data["question"])
     english = str(question_data.get("english", ""))
     german = str(question_data.get("german", ""))
@@ -138,6 +177,7 @@ def exercise(unit, exercise):
     article = question_data.get("article", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
+    explanation = question_data.get("explanation", "")
 
     instruction = INSTRUCTION.get(unit, {}).get(exercise, "Translate the following word:")
 
@@ -151,6 +191,7 @@ def exercise(unit, exercise):
         article=article,
         person=person,
         prefix=prefix,
+        explanation=explanation,
     )
 
     feedback = session.pop(f"feedback", None)
@@ -195,8 +236,8 @@ def check_answer(unit, exercise):
 
     data = load_data(unit, exercise)
 
-    question_data = data[data["Nr"] == int(nr)].iloc[0]
-    correct_answer = question_data["answer"]
+    question_data = data[data["Nr"] == int(nr)].iloc[0]# .fillna("")
+    correct_answer = question_data.get("answer", "")
     correct_answers = get_list_of_correct_answers(correct_answer, unit)
     question_text = question_data["question"]
     english = question_data.get("english", "")
@@ -207,6 +248,8 @@ def check_answer(unit, exercise):
     article = question_data.get("article", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
+    explanation = question_data.get("explanation", "")
+
     feedback_template = FEEDBACK.get(unit, {}).get(exercise, "{previous_question} = {correct_answer}")
     feedback_message = feedback_template.format(
         previous_question=question_text,
@@ -221,6 +264,7 @@ def check_answer(unit, exercise):
         article=article,
         person=person,
         prefix=prefix,
+        explanation=explanation,
     )
 
     is_answer_correct = is_user_answer_correct(user_answer, correct_answer, question_text, unit)
@@ -282,6 +326,7 @@ def exercise_feedback(unit, exercise):
     article = question_data.get("article", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
+    explanation = question_data.get("explanation", "")
 
     instruction = INSTRUCTION.get(unit, {}).get(exercise, "Translate the following word:")
 
@@ -295,6 +340,7 @@ def exercise_feedback(unit, exercise):
         article=article,
         person=person,
         prefix=prefix,
+        explanation=explanation,
     )
 
     feedback = session.pop(f"feedback", None)
@@ -328,15 +374,6 @@ def exercise_feedback(unit, exercise):
 @routes.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
 def reset_exercise(unit, exercise):
     """Clears progress for a specific unit exercise and removes any stored feedback."""
-    '''if is_key_in_exercise(session, unit, exercise, 'progress'):
-        del session[unit][str(exercise)]['progress']
-
-    if is_key_in_exercise(session, unit, exercise, 'falses'):
-        del session[unit][str(exercise)]['falses']
-
-    if is_key_in_exercise(session, unit, exercise, 'result'):
-        del session[unit][str(exercise)]['result']'''
-
     del session[unit][str(exercise)]
 
     if (unit, exercise) in session['unfinished_exercise']:
@@ -351,8 +388,9 @@ def reset_exercise(unit, exercise):
 def flag_question(unit, exercise):
     feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
     user_answer = request.args.get('user_answer') or request.form.get('user_answer')
+    result = request.args.get('result') or request.form.get('result')
 
-    print_question_flagged(unit, exercise, feedback_message, user_answer)
+    print_question_flagged(unit, exercise, feedback_message, user_answer, result)
 
     flash("This answer has been flagged for review."
           "<br><br>Thank you!", "info")

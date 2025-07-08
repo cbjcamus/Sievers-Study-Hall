@@ -3,14 +3,14 @@ from flask import request
 from datetime import datetime
 
 
-def print_question_flagged(unit, exercise, feedback_message, user_answer):
+def print_question_flagged(unit, exercise, feedback_message, user_answer, result):
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     STATISTICS_DIR = os.path.join(BASE_DIR, "../statistics")
     QUESTION_FLAGGED_PATH = os.path.join(STATISTICS_DIR, "question_flagged.csv")
     NOW = datetime.now()
 
     create_folder(STATISTICS_DIR)
-    create_file(QUESTION_FLAGGED_PATH, "Nr, IP, date, unit, exercise, feedback_message, user_answer")
+    create_file(QUESTION_FLAGGED_PATH, "Nr, IP, date, unit, exercise, result, feedback_message, user_answer")
 
     next_nr = get_next_number(QUESTION_FLAGGED_PATH)
 
@@ -18,7 +18,7 @@ def print_question_flagged(unit, exercise, feedback_message, user_answer):
     user_ip = forwarded_for.split(',')[0].strip()
 
     with open(QUESTION_FLAGGED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"\n{next_nr}, {user_ip}, {NOW}, {unit}, {exercise}, {feedback_message}, {user_answer}")
+        file.write(f"\n{next_nr}, {user_ip}, {NOW}, {unit}, {exercise}, {result}, {feedback_message}, {user_answer}")
     return
 
 

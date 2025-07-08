@@ -149,6 +149,26 @@ body.day-mode .button {
     gap: 15px;
 }
 
+.guidance-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1f2f40;
+    border-radius: 12px;
+
+    box-sizing: border-box;
+}
+
+body.day-mode .guidance-container {
+    background-color: #deedfa;
+    color: black;
+    border: 2px solid black;
+}
+
 .instruction-container {
     width: 100%;
     max-width: 400px;

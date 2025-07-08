@@ -13,7 +13,9 @@ def pick_a_question(session, unit, exercise):
 
     if filtered_data.empty:
         return None
-    return filtered_data.sample(1).iloc[0]
+
+    random_question = filtered_data.sample(1).iloc[0]# .fillna("")
+    return random_question
 
 
 def is_exercise_finished(session, unit, exercise):
