@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="session update">
-      <change afterPath="$PROJECT_DIR$/webapp/content/exercise/guidance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/data_loading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/normalization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/statistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" afterDir="false" />
-    </list>
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="präpositionen" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -275,14 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00038" summary="commit">
-      <option name="closed" value="true" />
-      <created>1745916705063</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1745916705063</updated>
     </task>
     <task id="LOCAL-00039" summary="faq">
       <option name="closed" value="true" />
@@ -668,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751268251836</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="präpositionen">
+      <option name="closed" value="true" />
+      <created>1751963570070</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1751963570070</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -684,7 +664,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fragen and artikel" />
     <MESSAGE value="artikel, UI, few issues" />
     <MESSAGE value="proverb color" />
     <MESSAGE value="updates" />
@@ -709,7 +688,8 @@
     <MESSAGE value="update 25th june" />
     <MESSAGE value="key" />
     <MESSAGE value="session update" />
-    <option name="LAST_COMMIT_MESSAGE" value="session update" />
+    <MESSAGE value="präpositionen" />
+    <option name="LAST_COMMIT_MESSAGE" value="präpositionen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
