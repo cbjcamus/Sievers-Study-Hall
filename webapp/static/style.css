@@ -307,6 +307,13 @@ body.day-mode .submit-button {
     border: 1px solid black;
 }
 
+.next-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 .next-question-button {
     background-color: white;
     color: #161F23;
@@ -315,10 +322,8 @@ body.day-mode .submit-button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 25px;
     width: 160px;
     text-align: center;
-    margin-bottom: 50px;
     text-decoration: none;
 }
 
@@ -365,6 +370,7 @@ body.day-mode .refresh-button {
 }
 
 .feedback-correct-container {
+    position: relative;
     width: 100%;
     max-width: 400px;
 
@@ -390,6 +396,7 @@ body.day-mode .feedback-correct-container {
 }
 
 .feedback-incorrect-container {
+    position: relative;
     width: 100%;
     max-width: 400px;
 
@@ -433,10 +440,16 @@ body.day-mode .feedback-incorrect-container {
     display: inline;
 }
 
+.flag-form-container {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
 .flag-button {
     background: none;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     cursor: pointer;
     padding: 0;

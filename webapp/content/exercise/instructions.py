@@ -53,16 +53,20 @@ INSTRUCTION = {
         12: "Complete the following sentence with the preposition that fits:",
         13: "Write the preposition that match the following verb:",
         14: "Complete the following sentence with the preposition that fits:",
-
         15: "Write the preposition that match the following verb:",
         16: "Complete the following sentence with the preposition that fits:",
+
         17: "Write the preposition that match the following verb:",
         18: "Complete the following sentence with the preposition that fits:",
-
         19: "Write the preposition that match the following verb:",
         20: "Complete the following sentence with the preposition that fits:",
         21: "Write the preposition that match the following verb:",
         22: "Complete the following sentence with the preposition that fits:",
+
+        23: "Write the preposition that match the following verb:",
+        24: "Complete the following sentence with the preposition that fits:",
+        25: "Write the preposition that match the following verb:",
+        26: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_adjektive: {
@@ -79,16 +83,22 @@ INSTRUCTION = {
     praepositionen_nomen: {
         1: "Write the preposition that match the following noun:",
         2: "Complete the following sentence with the preposition that fits:",
-
         3: "Write the preposition that match the following noun:",
         4: "Complete the following sentence with the preposition that fits:",
+
         5: "Write the preposition that match the following noun:",
         6: "Complete the following sentence with the preposition that fits:",
-
         7: "Write the preposition that match the following noun:",
         8: "Complete the following sentence with the preposition that fits:",
         9: "Write the preposition that match the following noun:",
         10: "Complete the following sentence with the preposition that fits:",
+
+        11: "Write the preposition that match the following noun:",
+        12: "Complete the following sentence with the preposition that fits:",
+        13: "Write the preposition that match the following noun:",
+        14: "Complete the following sentence with the preposition that fits:",
+        15: "Write the preposition that match the following noun:",
+        16: "Complete the following sentence with the preposition that fits:",
     },
 
     artikel: {
@@ -257,7 +267,6 @@ INSTRUCTION = {
         10: "Conjugate the following verb in the present tense:",
         11: "Conjugate the following verb in the present tense:",
         12: "Conjugate the following verb in the present tense:",
-
         13: "Conjugate the following verb in the present tense:",
         14: "Conjugate the following verb in the present tense:",
         15: "Conjugate the following verb in the present tense:",
@@ -266,28 +275,44 @@ INSTRUCTION = {
         18: "Conjugate the following verb in the present tense:",
         19: "Conjugate the following verb in the present tense:",
         20: "Conjugate the following verb in the present tense:",
+
         21: "Conjugate the following verb in the present tense:",
         22: "Conjugate the following verb in the present tense:",
         23: "Conjugate the following verb in the present tense:",
         24: "Conjugate the following verb in the present tense:",
+        25: "Conjugate the following verb in the present tense:",
+        26: "Conjugate the following verb in the present tense:",
+        27: "Conjugate the following verb in the present tense:",
+        28: "Conjugate the following verb in the present tense:",
+        29: "Conjugate the following verb in the present tense:",
+        30: "Conjugate the following verb in the present tense:",
+        31: "Conjugate the following verb in the present tense:",
+        32: "Conjugate the following verb in the present tense:",
+        33: "Conjugate the following verb in the present tense:",
+        34: "Conjugate the following verb in the present tense:",
+        35: "Conjugate the following verb in the present tense:",
+        36: "Conjugate the following verb in the present tense:",
+        37: "Conjugate the following verb in the present tense:",
+        38: "Conjugate the following verb in the present tense:",
+        39: "Conjugate the following verb in the present tense:",
+        40: "Conjugate the following verb in the present tense:",
     },
 
     partizip_II: {
         1: "Write the Partizip II of the following verb:",
         2: "Write the Partizip II of the following verb:",
         3: "Write the Partizip II of the following verb:",
-
         4: "Write the Partizip II of the following verb:",
         5: "Write the Partizip II of the following verb:",
-        6: "Write the Partizip II of the following verb:",
 
+        6: "Write the Partizip II of the following verb:",
         7: "Write the Partizip II of the following verb:",
         8: "Write the Partizip II of the following verb:",
         9: "Write the Partizip II of the following verb:",
         10: "Write the Partizip II of the following verb:",
+
         11: "Write the Partizip II of the following verb:",
         12: "Write the Partizip II of the following verb:",
-
         13: "Write the Partizip II of the following verb:",
         14: "Write the Partizip II of the following verb:",
         15: "Write the Partizip II of the following verb:",
@@ -296,6 +321,17 @@ INSTRUCTION = {
         18: "Write the Partizip II of the following verb:",
         19: "Write the Partizip II of the following verb:",
         20: "Write the Partizip II of the following verb:",
+
+        21: "Write the Partizip II of the following verb:",
+        22: "Write the Partizip II of the following verb:",
+        23: "Write the Partizip II of the following verb:",
+        24: "Write the Partizip II of the following verb:",
+        25: "Write the Partizip II of the following verb:",
+        26: "Write the Partizip II of the following verb:",
+        27: "Write the Partizip II of the following verb:",
+        28: "Write the Partizip II of the following verb:",
+        29: "Write the Partizip II of the following verb:",
+        30: "Write the Partizip II of the following verb:",
     },
 
     praeteritum: {
@@ -307,14 +343,13 @@ INSTRUCTION = {
         5: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         6: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         7: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
-
         8: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         9: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         10: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         11: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
         12: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         13: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
-
         14: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         15: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         16: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
@@ -323,6 +358,17 @@ INSTRUCTION = {
         19: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         20: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         21: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
+        22: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        23: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        24: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        25: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        26: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        27: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        28: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        29: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        30: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        31: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
     },
 
     praeteritum_partizip_II: {
@@ -341,7 +387,6 @@ INSTRUCTION = {
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         7: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
-
         8: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         9: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -350,11 +395,11 @@ INSTRUCTION = {
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         11: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
         12: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         13: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
-
         14: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         15: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -371,16 +416,43 @@ INSTRUCTION = {
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         21: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
+        22: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        23: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        24: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        25: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        26: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        27: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        28: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        29: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        30: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        31: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
     },
 
     imperativ: {
         1: "Conjugate the following verb in the Imperativ:",
         2: "Conjugate the following verb in the Imperativ:",
         3: "Conjugate the following verb in the Imperativ:",
-
         4: "Conjugate the following verb in the Imperativ:",
         5: "Conjugate the following verb in the Imperativ:",
         6: "Conjugate the following verb in the Imperativ:",
+
+        7: "Conjugate the following verb in the Imperativ:",
+        8: "Conjugate the following verb in the Imperativ:",
+        9: "Conjugate the following verb in the Imperativ:",
+        10: "Conjugate the following verb in the Imperativ:",
+        11: "Conjugate the following verb in the Imperativ:",
+        12: "Conjugate the following verb in the Imperativ:",
     },
 
     konjunktiv_II: {
@@ -400,6 +472,8 @@ INSTRUCTION = {
         1: "Write the Partizip I of the following verb:",
         2: "Write the Partizip I of the following verb:",
         3: "Write the Partizip I of the following verb:",
+        4: "Write the Partizip I of the following verb:",
+        5: "Write the Partizip I of the following verb:",
     },
 
     adjektive: {
@@ -444,39 +518,54 @@ INSTRUCTION = {
     trennbare_verben: {
         1: "Translate the following (un)trennbare verb based on the specified root verb:",
         2: "Translate the following (un)trennbare verb based on the specified prefix:",
+        3: "Translate the following (un)trennbare verb:",
 
-        3: "Translate the following (un)trennbare verb based on the specified root verb:",
-        4: "Translate the following (un)trennbare verb based on the specified prefix:",
+        4: "Translate the following (un)trennbare verb based on the specified root verb:",
+        5: "Translate the following (un)trennbare verb based on the specified prefix:",
+        6: "Translate the following (un)trennbare verb:",
 
-        5: "Translate the following (un)trennbare verb based on the specified root verb:",
-        6: "Translate the following (un)trennbare verb based on the specified root verb:",
-        7: "Translate the following (un)trennbare verb based on the specified prefix:",
-        8: "Translate the following (un)trennbare verb based on the specified prefix:",
-
+        7: "Translate the following (un)trennbare verb based on the specified root verb:",
+        8: "Translate the following (un)trennbare verb based on the specified root verb:",
         9: "Translate the following (un)trennbare verb based on the specified root verb:",
         10: "Translate the following (un)trennbare verb based on the specified root verb:",
-        11: "Translate the following (un)trennbare verb based on the specified root verb:",
+        11: "Translate the following (un)trennbare verb based on the specified prefix:",
         12: "Translate the following (un)trennbare verb based on the specified prefix:",
         13: "Translate the following (un)trennbare verb based on the specified prefix:",
         14: "Translate the following (un)trennbare verb based on the specified prefix:",
+        15: "Translate the following (un)trennbare verb:",
+        16: "Translate the following (un)trennbare verb:",
+        17: "Translate the following (un)trennbare verb:",
+        18: "Translate the following (un)trennbare verb:",
+
+        19: "Translate the following (un)trennbare verb based on the specified root verb:",
+        20: "Translate the following (un)trennbare verb based on the specified root verb:",
+        21: "Translate the following (un)trennbare verb based on the specified root verb:",
+        22: "Translate the following (un)trennbare verb based on the specified root verb:",
+        23: "Translate the following (un)trennbare verb based on the specified prefix:",
+        24: "Translate the following (un)trennbare verb based on the specified prefix:",
+        25: "Translate the following (un)trennbare verb based on the specified prefix:",
+        26: "Translate the following (un)trennbare verb based on the specified prefix:",
+        27: "Translate the following (un)trennbare verb:",
+        28: "Translate the following (un)trennbare verb:",
+        29: "Translate the following (un)trennbare verb:",
+        30: "Translate the following (un)trennbare verb:",
     },
 
     verben: {
         1: "Translate the following verb:",
         2: "Translate the following verb:",
         3: "Translate the following verb:",
-
         4: "Translate the following verb:",
         5: "Translate the following verb:",
-        6: "Translate the following verb:",
 
+        6: "Translate the following verb:",
         7: "Translate the following verb:",
         8: "Translate the following verb:",
         9: "Translate the following verb:",
         10: "Translate the following verb:",
+
         11: "Translate the following verb:",
         12: "Translate the following verb:",
-
         13: "Translate the following verb:",
         14: "Translate the following verb:",
         15: "Translate the following verb:",
@@ -485,6 +574,17 @@ INSTRUCTION = {
         18: "Translate the following verb:",
         19: "Translate the following verb:",
         20: "Translate the following verb:",
+
+        21: "Translate the following verb:",
+        22: "Translate the following verb:",
+        23: "Translate the following verb:",
+        24: "Translate the following verb:",
+        25: "Translate the following verb:",
+        26: "Translate the following verb:",
+        27: "Translate the following verb:",
+        28: "Translate the following verb:",
+        29: "Translate the following verb:",
+        30: "Translate the following verb:",
     },
 
     deverbale_nomen: {

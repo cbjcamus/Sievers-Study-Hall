@@ -19,7 +19,27 @@
     <p>All questions have been successfully answered! <br><br>
     Your score for this exercise is {{ score(session, unit, exercise=exercise) }}.</p>
 
+    {% if feedback_message is not none %}
+        <p>Feedback last question:</p>
+    {% endif %}
+
     {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, user_answer) }}
+
+    {% if number_of_incorrect_answers > 0 %}
+        <p>
+            Here are your incorrect answers:
+        </p>
+
+        {% for i in range(number_of_incorrect_answers) %}
+            <div class="feedback-incorrect-container">
+                <!--<p>{{ questions[i] | safe }}</p>-->
+                <p>{{ feedbacks[i] | safe }}</p>
+                <!--<p>Correct answer(s): {{ correct_answers[i] | safe }}</p>-->
+                <p>Your answer: {{ incorrect_answers[i] | safe }}</p>
+            </div>
+        {% endfor %}
+
+    {% endif %}
 
     <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">
         <button type="submit" class="submit-button">Refresh</button>

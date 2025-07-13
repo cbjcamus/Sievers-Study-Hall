@@ -17,6 +17,12 @@ def register_false(session, unit, exercise, nr):
     return
 
 
+def register_user_incorrect_answer(session, unit, exercise, incorrect_answer):
+    create_key_in_session(session, unit, exercise, 'incorrect_answer')
+    session[unit][str(exercise)]['incorrect_answer'].append(incorrect_answer)
+    return
+
+
 def register_result(session, unit, exercise):
     create_key_in_session(session, unit, exercise, 'progress')
     create_key_in_session(session, unit, exercise, 'falses')
@@ -24,11 +30,15 @@ def register_result(session, unit, exercise):
     score_exercise = compute_score(session, unit, exercise)
     session[unit][str(exercise)]['result'] = round(score_exercise, 2)
 
+
     if is_key_in_exercise(session, unit, exercise, 'progress'):
         del session[unit][str(exercise)]['progress']
 
     if is_key_in_exercise(session, unit, exercise, 'falses'):
         del session[unit][str(exercise)]['falses']
+
+    if is_key_in_exercise(session, unit, exercise, 'incorrect_answer'):
+        del session[unit][str(exercise)]['incorrect_answer']
 
     if (unit, exercise) in session['unfinished_exercise']:
         session['unfinished_exercise'].remove((unit, exercise))

@@ -405,9 +405,9 @@ GUIDANCE = {
     },
 
     adjektive: {
-        1: "Translate the following adjective:",
-        2: "Translate the following adjective:",
-        3: "Write the Opposite of the following adjective:",
+        1: "Translate the adjective given in German.",
+        2: "Translate the adjective given in German.",
+        3: "Write the opposite of the adjective given in German.",
         4: "Write the Comparative of the following adjective:",
         5: "Write the Comparative of the following adjective:",
         6: "Complete the following sentence with the comparative conjunction that fits:",
@@ -416,31 +416,31 @@ GUIDANCE = {
     },
 
     adjektivdeklinationen: {
-        1: "Complete the sentence with the correct form of the specified adjective:",
-        2: "Complete the sentence with the correct form of the specified adjective:",
-        3: "Complete the sentence with the correct form of the specified adjective:",
-        4: "Complete the sentence with the correct form of the specified adjective:",
-        5: "Complete the sentence with the correct form of the specified adjective:",
-        6: "Complete the sentence with the correct form of the specified adjective:",
-        7: "Complete the sentence with the correct form of the specified adjective:",
-        8: "Complete the sentence with the correct form of the specified adjective:",
-        9: "Complete the sentence with the correct form of the specified adjective:",
-        10: "Complete the sentence with the correct form of the specified adjective:",
-        11: "Complete the sentence with the correct form of the specified adjective:",
-        12: "Complete the sentence with the correct form of the specified adjective:",
+        1: "Complete the given sentence with the correct declension of the specified adjective.",
+        2: "Complete the given sentence with the correct declension of the specified adjective.",
+        3: "Complete the given sentence with the correct declension of the specified adjective.",
+        4: "Complete the given sentence with the correct declension of the specified adjective.",
+        5: "Complete the given sentence with the correct declension of the specified adjective.",
+        6: "Complete the given sentence with the correct declension of the specified adjective.",
+        7: "Complete the given sentence with the correct declension of the specified adjective.",
+        8: "Complete the given sentence with the correct declension of the specified adjective.",
+        9: "Complete the given sentence with the correct declension of the specified adjective.",
+        10: "Complete the given sentence with the correct declension of the specified adjective.",
+        11: "Complete the given sentence with the correct declension of the specified adjective.",
+        12: "Complete the given sentence with the correct declension of the specified adjective.",
 
-        13: "Complete the sentence with the correct form of the specified adjective:",
-        14: "Complete the sentence with the correct form of the specified adjective:",
-        15: "Complete the sentence with the correct form of the specified adjective:",
-        16: "Complete the sentence with the correct form of the specified adjective:",
+        13: "Complete the given sentence with the correct declension of the specified adjective.",
+        14: "Complete the given sentence with the correct declension of the specified adjective.",
+        15: "Complete the given sentence with the correct declension of the specified adjective.",
+        16: "Complete the given sentence with the correct declension of the specified adjective.",
 
-        17: "Complete the sentence with the correct form of the specified adjective:",
-        18: "Complete the sentence with the correct form of the specified adjective:",
-        19: "Complete the sentence with the correct form of the specified adjective:",
-        20: "Complete the sentence with the correct form of the specified adjective:",
+        17: "Complete the given sentence with the correct declension of the specified adjective.",
+        18: "Complete the given sentence with the correct declension of the specified adjective.",
+        19: "Complete the given sentence with the correct declension of the specified adjective.",
+        20: "Complete the given sentence with the correct declension of the specified adjective.",
 
-        21: "Complete the sentence with the correct form of the specified adjective:",
-        22: "Complete the sentence with the correct form of the specified adjective:",
+        21: "Complete the given sentence with the correct declension of the specified adjective.",
+        22: "Complete the given sentence with the correct declension of the specified adjective.",
     },
 
     trennbare_verben: {
@@ -464,29 +464,37 @@ GUIDANCE = {
     },
 
     verben: {
-        1: "Translate the following verb:",
-        2: "Translate the following verb:",
-        3: "Translate the following verb:",
+        1: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        2: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        3: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        4: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        5: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
 
-        4: "Translate the following verb:",
-        5: "Translate the following verb:",
-        6: "Translate the following verb:",
-
-        7: "Translate the following verb:",
-        8: "Translate the following verb:",
-        9: "Translate the following verb:",
-        10: "Translate the following verb:",
-        11: "Translate the following verb:",
-        12: "Translate the following verb:",
-
-        13: "Translate the following verb:",
-        14: "Translate the following verb:",
-        15: "Translate the following verb:",
-        16: "Translate the following verb:",
-        17: "Translate the following verb:",
-        18: "Translate the following verb:",
-        19: "Translate the following verb:",
-        20: "Translate the following verb:",
+        6: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        7: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        8: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        9: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
+        10: "Find the translation of the given verb in German."
+           "<br><br>⚠️ Do not write any reflexive pronouns, even for reflexive verbs."
+           "<br><br>⚠️ Synonyms are not available for this exercise. Read carefully the entire English translation.",
     },
 
     deverbale_nomen: {

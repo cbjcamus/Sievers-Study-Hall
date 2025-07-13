@@ -1,465 +1,465 @@
-Nr,exercise,question,answer,german,english,case,complement,,
-1,1,the memory of,an,die Erinnerung,,,,,30
-2,1,the belief in,an,der Glaube,,,,,
-3,1,the answer to,auf,die Antwort,,,,,
-4,1,the concentration on,auf,die Konzentration,,,,,
-5,1,the hope for,auf,die Hoffnung,,,,,
-6,1,the translation from,aus,die Übersetzung,,,,,
-7,1,the decision for,für,die Entscheidung,,,,,
-8,1,the apology for,für,die Entschuldigung,,,,,
-9,1,"the concern for, the care for",für,die Sorge,,,,,
-10,1,the decision against,gegen,die Entscheidung,,,,,
-11,1,the protest against,gegen,der Protest,,,,,
-12,1,the translation into,in,die Übersetzung,,,,,
-13,1,the discussion with,mit,die Diskussion,,,,,
-14,1,the game with,mit,das Spiel,,,,,
-15,1,the conversation with,mit,das Gespräch,,,,,
-16,1,the beginning with,mit,der Anfang,,,,,
-17,1,the start with,mit,der Beginn,,,,,
-18,1,the question about,nach,die Frage,,,,,
-19,1,the search for,nach,die Suche,,,,,
-20,1,the smell of,nach,der Geruch,,,,,
-21,1,the anger about,über,der Ärger,,,,,
-22,1,the happiness about,über,das Glück,,,,,
-23,1,the discussion about,über,die Diskussion,,,,,
-24,1,the conversation about,über,das Gespräch,,,,,
-25,1,the request for (something),um,die Bitte,,,,,
-26,1,"the concern for, the worry about",um,die Sorge,,,,,
-27,1,the dream of,von,der Traum,,,,,
-28,1,the expectation of,von,die Erwartung,,,,,
-29,1,the fear of,vor,die Angst,,,,,
-30,1,the invitation to,zu,die Einladung,,,,,
-31,2,Die Erinnerung _____ den Urlaub bleibt unvergesslich.,an,Die Erinnerung an den Urlaub bleibt unvergesslich.,The memory of the vacation remains unforgettable.,,Erinnerung,,
-32,2,Seine Erinnerung _____ die Kindheit ist voller Freude.,an,Seine Erinnerung an die Kindheit ist voller Freude.,His memory of childhood is full of joy.,,Erinnerung,,
-33,2,Der Glaube _____ seine Fähigkeiten gab ihm Kraft.,an,Der Glaube an seine Fähigkeiten gab ihm Kraft.,The belief in his abilities gave him strength.,,Glaube,,
-34,2,Ihr Glaube _____ Gute in Menschen ist beeindruckend.,ans,Ihr Glaube ans Gute in Menschen ist beeindruckend.,Her belief in the good in people is impressive.,,Glaube,,
-35,2,Die Antwort _____ seine Frage war überraschend.,auf,Die Antwort auf seine Frage war überraschend.,The answer to his question was surprising.,,Antwort,,
-36,2,Ihre Antwort _____ die Kritik war sehr professionell.,auf,Ihre Antwort auf die Kritik war sehr professionell.,Her response to the criticism was very professional.,,Antwort,,
-37,2,Die Konzentration _____ die Aufgabe ist entscheidend.,auf,Die Konzentration auf die Aufgabe ist entscheidend.,Concentration on the task is crucial.,,Konzentration,,
-38,2,Ihre Konzentration _____ die Prüfungsvorbereitung war beeindruckend.,auf,Ihre Konzentration auf die Prüfungsvorbereitung war beeindruckend.,Her focus on exam preparation was impressive.,,Konzentration,,
-39,2,Die Hoffnung _____ eine bessere Zukunft bleibt bestehen.,auf,Die Hoffnung auf eine bessere Zukunft bleibt bestehen.,The hope for a better future remains.,,Hoffnung,,
-40,2,Sie setzt ihre Hoffnung _____ die nächste Generation.,auf,Sie setzt ihre Hoffnung auf die nächste Generation.,She places her hope in the next generation.,,Hoffnung,,
-41,2,Die Übersetzung _____ dem Englischen war sehr präzise.,aus,Die Übersetzung aus dem Englischen war sehr präzise.,The translation from English was very precise.,,Übersetzung,,
-42,2,Seine Übersetzung _____ dem Spanischen wurde gelobt.,aus,Seine Übersetzung aus dem Spanischen wurde gelobt.,His translation from Spanish was praised.,,Übersetzung,,
-43,2,Die Entscheidung _____ den Umzug fiel schwer.,für,Die Entscheidung für den Umzug fiel schwer.,The decision to move was difficult.,,Entscheidung,,
-44,2,Ihre Entscheidung _____ das Studium wurde gut überlegt.,für,Ihre Entscheidung für das Studium wurde gut überlegt.,Her decision to study was well-considered.,,Entscheidung,,
-45,2,Die Entschuldigung _____ das Missverständnis wurde akzeptiert.,für,Die Entschuldigung für das Missverständnis wurde akzeptiert.,The apology for the misunderstanding was accepted.,,Entschuldigung,,
-46,2,Seine Entschuldigung _____ den Fehler war aufrichtig.,für,Seine Entschuldigung für den Fehler war aufrichtig.,His apology for the mistake was sincere.,,Entschuldigung,,
-47,2,Die Sorge _____ ihre Kinder steht bei ihr an erster Stelle.,für,Die Sorge für ihre Kinder steht bei ihr an erster Stelle.,Caring for her children is her top priority.,,Sorge,,
-48,2,Seine Sorge _____ die Umwelt motiviert ihn zu handeln.,für,Seine Sorge für die Umwelt motiviert ihn zu handeln.,His concern for the environment motivates him to act.,,Sorge,,
-49,2,Die Entscheidung _____ den Vorschlag fiel einstimmig aus.,gegen,Die Entscheidung gegen den Vorschlag fiel einstimmig aus.,The decision against the proposal was unanimous.,,Entscheidung,,
-50,2,Seine Entscheidung _____ das Angebot überraschte alle.,gegen,Seine Entscheidung gegen das Angebot überraschte alle.,His decision against the offer surprised everyone.,,Entscheidung,,
-51,2,Der Protest _____ die neuen Gesetze war laut.,gegen,Der Protest gegen die neuen Gesetze war laut.,The protest against the new laws was loud.,,Protest,,
-52,2,Ihr Protest _____ die Änderungen fand große Unterstützung.,gegen,Ihr Protest gegen die Änderungen fand große Unterstützung.,Their protest against the changes found great support.,,Protest,,
-53,2,Die Übersetzung _____ mehrere Sprachen ist geplant.,in,Die Übersetzung in mehrere Sprachen ist geplant.,The translation into several languages is planned.,,Übersetzung,,
-54,2,Seine Übersetzung _____ Deutsche war sehr präzise.,ins,Seine Übersetzung ins Deutsche war sehr präzise.,His translation into German was very precise.,,Übersetzung,,
-55,2,Die Diskussion _____ den Kollegen führte zu neuen Ideen.,mit,Die Diskussion mit den Kollegen führte zu neuen Ideen.,The discussion with the colleagues led to new ideas.,,Diskussion,,
-56,2,Seine Diskussion _____ dem Chef war produktiv.,mit,Seine Diskussion mit dem Chef war produktiv.,His discussion with the boss was productive.,,Diskussion,,
-57,2,Das Spiel _____ der neuen Strategie war erfolgreich.,mit,Das Spiel mit der neuen Strategie war erfolgreich.,The game with the new strategy was successful.,,Spiel,,
-58,2,Ihr Spiel _____ dem Ball faszinierte die Zuschauer.,mit,Ihr Spiel mit dem Ball faszinierte die Zuschauer.,Her game with the ball fascinated the spectators.,,Spiel,,
-59,2,Das Gespräch _____ dem Lehrer verlief positiv.,mit,Das Gespräch mit dem Lehrer verlief positiv.,The conversation with the teacher went positively.,,Gespräch,,
-60,2,Ihr Gespräch _____ der Nachbarin dauerte lange.,mit,Ihr Gespräch mit der Nachbarin dauerte lange.,Her conversation with the neighbor lasted a long time.,,Gespräch,,
-61,2,Der Anfang _____ dem neuen Projekt war herausfordernd.,mit,Der Anfang mit dem neuen Projekt war herausfordernd.,The beginning with the new project was challenging.,,Anfang,,
-62,2,Ihr Anfang _____ dem Sport war sehr erfolgreich.,mit,Ihr Anfang mit dem Sport war sehr erfolgreich.,Her start with the sport was very successful.,,Anfang,,
-63,2,Der Beginn _____ der neuen Software verlief reibungslos.,mit,Der Beginn mit der neuen Software verlief reibungslos.,The start with the new software went smoothly.,,Beginn,,
-64,2,Sein Beginn _____ dem Training war motivierend.,mit,Sein Beginn mit dem Training war motivierend.,His start with the training was motivating.,,Beginn,,
-65,2,Die Frage _____ der Zukunft des Projekts bleibt offen.,nach,Die Frage nach der Zukunft des Projekts bleibt offen.,The question about the project's future remains open.,,Frage,,
-66,2,Seine Frage _____ den Details wurde klar beantwortet.,nach,Seine Frage nach den Details wurde klar beantwortet.,His question about the details was answered clearly.,,Frage,,
-67,2,Die Suche _____ einem passenden Kandidaten dauert an.,nach,Die Suche nach einem passenden Kandidaten dauert an.,The search for a suitable candidate continues.,,Suche,,
-68,2,Ihre Suche _____ einer neuen Wohnung war erfolgreich.,nach,Ihre Suche nach einer neuen Wohnung war erfolgreich.,Her search for a new apartment was successful.,,Suche,,
-69,2,Der Geruch _____ Kaffee machte ihn wach.,nach,Der Geruch nach Kaffee machte ihn wach.,The smell of coffee woke him up.,,Geruch,,
-70,2,Der Geruch _____ frischer Farbe war stark.,nach,Der Geruch nach frischer Farbe war stark.,The smell of fresh paint was strong.,,Geruch,,
-71,2,Der Ärger _____ die neue Regelung wächst täglich.,über,Der Ärger über die neue Regelung wächst täglich.,The anger about the new regulation grows daily.,,Ärger,,
-72,2,Ihr Ärger _____ die Verzögerungen war deutlich zu spüren.,über,Ihr Ärger über die Verzögerungen war deutlich zu spüren.,Her anger about the delays was clearly noticeable.,,Ärger,,
-73,2,Ihr Glück _____ die gute Nachricht war ansteckend.,über,Ihr Glück über die gute Nachricht war ansteckend.,Her happiness about the good news was contagious.,,Glück,,
-74,2,Das Glück _____ den gelungenen Abschluss konnte er nicht verbergen.,über,Das Glück über den gelungenen Abschluss konnte er nicht verbergen.,He could not hide his happiness about the successful conclusion.,,Glück,,
-75,2,Die Diskussion _____ die Reformen war konstruktiv.,über,Die Diskussion über die Reformen war konstruktiv.,The discussion about the reforms was constructive.,,Diskussion,,
-76,2,Ihre Diskussion _____ das Projekt führte zu neuen Ideen.,über,Ihre Diskussion über das Projekt führte zu neuen Ideen.,Their discussion about the project led to new ideas.,,Diskussion,,
-77,2,Das Gespräch _____ die neuen Regeln verlief positiv.,über,Das Gespräch über die neuen Regeln verlief positiv.,The conversation about the new rules went positively.,,Gespräch,,
-78,2,Ihr Gespräch _____ die Finanzen dauerte länger als erwartet.,über,Ihr Gespräch über die Finanzen dauerte länger als erwartet.,Their conversation about finances lasted longer than expected.,,Gespräch,,
-79,2,Ihre Bitte _____ Hilfe wurde sofort erhört.,um,Ihre Bitte um Hilfe wurde sofort erhört.,Her request for help was immediately granted.,,Bitte,,
-80,2,Er richtete eine Bitte _____ Geduld ans Publikum.,um,Er richtete eine Bitte um Geduld ans Publikum.,He addressed a request for patience to the audience.,,Bitte,,
-81,2,Die Sorge _____ den Erfolg des Projekts ist verständlich.,um,Die Sorge um den Erfolg des Projekts ist verständlich.,The concern for the project's success is understandable.,,Sorge,,
-82,2,Seine Sorge _____ die Zukunft des Unternehmens ist groß.,um,Seine Sorge um die Zukunft des Unternehmens ist groß.,His concern for the company's future is significant.,,Sorge,,
-83,2,Der Traum _____ einer besseren Welt verbindet uns alle.,von,Der Traum von einer besseren Welt verbindet uns alle.,The dream of a better world connects us all.,,Traum,,
-84,2,Ihr Traum _____ einem eigenen Haus wurde wahr.,von,Ihr Traum von einem eigenen Haus wurde wahr.,Her dream of owning a house came true.,,Traum,,
-85,2,Die Erwartung _____ hohen Ergebnissen setzte alle unter Druck.,von,Die Erwartung von hohen Ergebnissen setzte alle unter Druck.,The expectation of high results put everyone under pressure.,,Erwartung,,
-86,2,Ihre Erwartung _____ einer schnellen Antwort wurde erfüllt.,von,Ihre Erwartung von einer schnellen Antwort wurde erfüllt.,Her expectation of a quick response was met.,,Erwartung,,
-87,2,Die Angst _____ Veränderung hielt ihn zurück.,vor,Die Angst vor Veränderung hielt ihn zurück.,The fear of change held him back.,,Angst,,
-88,2,Ihre Angst _____ dem Scheitern war unbegründet.,vor,Ihre Angst vor dem Scheitern war unbegründet.,Her fear of failure was unfounded.,,Angst,,
-89,2,Die Einladung _____ Feier wurde freudig angenommen.,zur,Die Einladung zur Feier wurde freudig angenommen.,The invitation to the party was happily accepted.,,Einladung,,
-90,2,Ihre Einladung _____ Event überraschte alle.,zum,Ihre Einladung zum Event überraschte alle.,Her invitation to the event surprised everyone.,,Einladung,,
-91,3,the work as,als,die Arbeit,,,,,
-92,3,the thought of,an,der Gedanke,,,,,
-93,3,the change to,an,die Änderung,,,,,
-94,3,the guilt for,an,die Schuld,,,,,
-95,3,the application to,auf,die Bewerbung,,,,,
-96,3,the reaction to,auf,die Reaktion,,,,,
-97,3,the trust in,auf,das Vertrauen,,,,,
-98,3,the pride in,auf,der Stolz,,,,,
-99,3,the call to,bei,der Anruf,,,,,
-100,3,the work at,bei,die Arbeit,,,,,
-101,3,the complaint to,bei,die Beschwerde,,,,,
-102,3,the thanks for,für,der Dank,,,,,
-103,3,the fight for,für,der Kampf,,,,,
-104,3,the fight against,gegen,der Kampf,,,,,
-105,3,the demonstration against,gegen,die Demonstration,,,,,
-106,3,the debate with,mit,die Debatte,,,,,
-107,3,the friendship with,mit,die Freundschaft,,,,,
-108,3,the scent of,nach,der Duft,,,,,
-109,3,the joy about,über,die Freude,,,,,
-110,3,the argument about,über,der Streit,,,,,
-111,3,the grief about,über,die Trauer,,,,,
-112,3,the rage about,über,die Wut,,,,,
-113,3,the report about,über,der Bericht,,,,,
-114,3,the fear for,um,die Angst,,,,,
-115,3,the effort for,um,das Bemühen,,,,,
-116,3,the application for,um,die Bewerbung,,,,,
-117,3,the fight for,um,der Kampf,,,,,
-118,3,the fear of,vor,die Furcht,,,,,
-119,3,the congratulations on,zu,die Gratulation,,,,,
-120,3,the ability to,zu,die Fähigkeit,,,,,
-121,4,Die Arbeit _____ Lehrer ist erfüllend.,als,Die Arbeit als Lehrer ist erfüllend.,The work as a teacher is fulfilling.,,Arbeit,,
-122,4,Seine Arbeit _____ Ingenieur ist sehr anspruchsvoll.,als,Seine Arbeit als Ingenieur ist sehr anspruchsvoll.,His work as an engineer is very demanding.,,Arbeit,,
-123,4,Der Gedanke _____ die Prüfung macht ihn nervös.,an,Der Gedanke an die Prüfung macht ihn nervös.,The thought of the exam makes him nervous.,,Gedanke,,
-124,4,Ihr Gedanke _____ die gemeinsame Zeit machte sie glücklich.,an,Ihr Gedanke an die gemeinsame Zeit machte sie glücklich.,Her thought of the time together made her happy.,,Gedanke,,
-125,4,Die Änderung _____ den Vorschlägen wurde akzeptiert.,an,Die Änderung an den Vorschlägen wurde akzeptiert.,The change to the proposals was accepted.,,Änderung,,
-126,4,Die Änderung _____ der Software hat das Problem gelöst.,an,Die Änderung an der Software hat das Problem gelöst.,The change to the software solved the problem.,,Änderung,,
-127,4,Die Schuld _____ Fehler wurde auf ihn geschoben.,am,Die Schuld am Fehler wurde auf ihn geschoben.,The blame for the mistake was put on him.,,Schuld,,
-128,4,Er übernahm die Schuld _____ Missverständnis.,am,Er übernahm die Schuld am Missverständnis.,He took the blame for the misunderstanding.,,Schuld,,
-129,4,Die Bewerbung _____ diese Stelle war ein Erfolg.,auf,Die Bewerbung auf diese Stelle war ein Erfolg.,The application for this position was a success.,,Bewerbung,,
-130,4,Seine Bewerbung _____ das Praktikum wurde akzeptiert.,auf,Seine Bewerbung auf das Praktikum wurde akzeptiert.,His application for the internship was accepted.,,Bewerbung,,
-131,4,Die Reaktion _____ die neuen Regeln war positiv.,auf,Die Reaktion auf die neuen Regeln war positiv.,The reaction to the new rules was positive.,,Reaktion,,
-132,4,Seine Reaktion _____ den Vorschlag war unerwartet.,auf,Seine Reaktion auf den Vorschlag war unerwartet.,His reaction to the proposal was unexpected.,,Reaktion,,
-133,4,Das Vertrauen _____ seine Erfahrung ist groß.,auf,Das Vertrauen auf seine Erfahrung ist groß.,The trust in his experience is strong.,,Vertrauen,,
-134,4,Ihr Vertrauen _____ das Team motiviert alle.,auf,Ihr Vertrauen auf das Team motiviert alle.,Her trust in the team motivates everyone.,,Vertrauen,,
-135,4,Der Stolz _____ ihre Leistungen war deutlich sichtbar.,auf,Der Stolz auf ihre Leistungen war deutlich sichtbar.,The pride in her achievements was clearly visible.,,Stolz,,
-136,4,Er zeigte Stolz _____ sein Team nach dem Sieg.,auf,Er zeigte Stolz auf sein Team nach dem Sieg.,He showed pride in his team after the victory.,,Stolz,,
-137,4,Der Anruf _____ der Hotline brachte schnelle Hilfe.,bei,Der Anruf bei der Hotline brachte schnelle Hilfe.,The call to the hotline brought quick help.,,Anruf,,
-138,4,Sein Anruf _____ der Firma wurde freundlich beantwortet.,bei,Sein Anruf bei der Firma wurde freundlich beantwortet.,His call to the company was answered kindly.,,Anruf,,
-139,4,Die Arbeit _____ diesem Unternehmen ist sehr anspruchsvoll.,bei,Die Arbeit bei diesem Unternehmen ist sehr anspruchsvoll.,The work at this company is very demanding.,,Arbeit,,
-140,4,Seine Arbeit _____ der Bank dauert schon zehn Jahre.,bei,Seine Arbeit bei der Bank dauert schon zehn Jahre.,His work at the bank has already lasted ten years.,,Arbeit,,
-141,4,Die Beschwerde _____ der Verwaltung wurde ignoriert.,bei,Die Beschwerde bei der Verwaltung wurde ignoriert.,The complaint to the administration was ignored.,,Beschwerde,,
-142,4,Seine Beschwerde _____ der Leitung führte zu einer Lösung.,bei,Seine Beschwerde bei der Leitung führte zu einer Lösung.,His complaint to the management led to a solution.,,Beschwerde,,
-143,4,Der Dank _____ ihre Hilfe war ehrlich und herzlich.,für,Der Dank für ihre Hilfe war ehrlich und herzlich.,The gratitude for her help was sincere and heartfelt.,,Dank,,
-144,4,Sein Dank _____ die Unterstützung wurde mit einem Geschenk ausgedrückt.,für,Sein Dank für die Unterstützung wurde mit einem Geschenk ausgedrückt.,His gratitude for the support was expressed with a gift.,,Dank,,
-145,4,Der Kampf _____ soziale Gerechtigkeit ist noch nicht beendet.,für,Der Kampf für soziale Gerechtigkeit ist noch nicht beendet.,The fight for social justice is not yet over.,,Kampf,,
-146,4,Ihr Kampf _____ bessere Arbeitsbedingungen hat sich gelohnt.,für,Ihr Kampf für bessere Arbeitsbedingungen hat sich gelohnt.,Her fight for better working conditions paid off.,,Kampf,,
-147,4,Der Kampf _____ Diskriminierung dauert an.,gegen,Der Kampf gegen Diskriminierung dauert an.,The fight against discrimination continues.,,Kampf,,
-148,4,Ihr Kampf _____ die Ungerechtigkeit inspirierte viele.,gegen,Ihr Kampf gegen die Ungerechtigkeit inspirierte viele.,Her fight against injustice inspired many.,,Kampf,,
-149,4,Die Demonstration _____ den Krieg zog viele Menschen an.,gegen,Die Demonstration gegen den Krieg zog viele Menschen an.,The demonstration against the war attracted many people.,,Demonstration,,
-150,4,Ihre Demonstration _____ die Umweltzerstörung war friedlich.,gegen,Ihre Demonstration gegen die Umweltzerstörung war friedlich.,Their demonstration against environmental destruction was peaceful.,,Demonstration,,
-151,4,Die Debatte _____ dem Experten war aufschlussreich.,mit,Die Debatte mit dem Experten war aufschlussreich.,The debate with the expert was insightful.,,Debatte,,
-152,4,Ihre Debatte _____ dem Politiker war spannend.,mit,Ihre Debatte mit dem Politiker war spannend.,Her debate with the politician was exciting.,,Debatte,,
-153,4,Die Freundschaft _____ ihr war ihm sehr wichtig.,mit,Die Freundschaft mit ihr war ihm sehr wichtig.,The friendship with her was very important to him.,,Freundschaft,,
-154,4,Seine Freundschaft _____ dem Nachbarn wurde immer enger.,mit,Seine Freundschaft mit dem Nachbarn wurde immer enger.,His friendship with the neighbor grew closer.,,Freundschaft,,
-155,4,Der Duft _____ frischem Brot erfüllte den Raum.,nach,Der Duft nach frischem Brot erfüllte den Raum.,The scent of fresh bread filled the room.,,Duft,,
-156,4,Der Duft _____ Blumen erinnerte sie an den Frühling.,nach,Der Duft nach Blumen erinnerte sie an den Frühling.,The scent of flowers reminded her of spring.,,Duft,,
-157,4,Die Freude _____ den Gewinn war riesig.,über,Die Freude über den Gewinn war riesig.,The joy about the win was enormous.,,Freude,,
-158,4,Seine Freude _____ die Überraschung war nicht zu übersehen.,über,Seine Freude über die Überraschung war nicht zu übersehen.,His joy about the surprise was unmistakable.,,Freude,,
-159,4,Der Streit _____ das Budget dauerte Stunden.,über,Der Streit über das Budget dauerte Stunden.,The argument about the budget lasted for hours.,,Streit,,
-160,4,Ihr Streit _____ die Zukunftspläne endete ohne Ergebnis.,über,Ihr Streit über die Zukunftspläne endete ohne Ergebnis.,Their argument about future plans ended without a result.,,Streit,,
-161,4,Die Trauer _____ den Verlust war überall spürbar.,über,Die Trauer über den Verlust war überall spürbar.,The grief over the loss was palpable everywhere.,,Trauer,,
-162,4,Seine Trauer _____ den Tod seines Freundes war tief.,über,Seine Trauer über den Tod seines Freundes war tief.,His grief over the death of his friend was profound.,,Trauer,,
-163,4,Die Wut _____ die ungerechte Behandlung war groß.,über,Die Wut über die ungerechte Behandlung war groß.,The anger about the unfair treatment was significant.,,Wut,,
-164,4,Ihre Wut _____ den Fehler wurde immer lauter.,über,Ihre Wut über den Fehler wurde immer lauter.,Her anger about the mistake grew louder and louder.,,Wut,,
-165,4,Der Bericht _____ die aktuellen Ereignisse war sehr informativ.,über,Der Bericht über die aktuellen Ereignisse war sehr informativ.,The report about the current events was very informative.,,Bericht,,
-166,4,Ihr Bericht _____ die Reise nach Afrika faszinierte alle.,über,Ihr Bericht über die Reise nach Afrika faszinierte alle.,Her report about the trip to Africa fascinated everyone.,,Bericht,,
-167,4,Die Angst _____ die Sicherheit der Kinder war groß.,um,Die Angst um die Sicherheit der Kinder war groß.,The fear for the safety of the children was significant.,,Angst,,
-168,4,Ihre Angst _____ die Gesundheit ihrer Familie ließ sie nicht los.,um,Ihre Angst um die Gesundheit ihrer Familie ließ sie nicht los.,Her fear for her family's health didn't leave her.,,Angst,,
-169,4,Das Bemühen _____ eine Lösung war spürbar.,um,Das Bemühen um eine Lösung war spürbar.,The effort to find a solution was noticeable.,,Bemühen,,
-170,4,Ihr Bemühen _____ Gerechtigkeit beeindruckte viele.,um,Ihr Bemühen um Gerechtigkeit beeindruckte viele.,Her effort for justice impressed many.,,Bemühen,,
-171,4,Seine Bewerbung _____ die Stelle wurde akzeptiert.,um,Seine Bewerbung um die Stelle wurde akzeptiert.,His application for the position was accepted.,,Bewerbung,,
-172,4,Die Bewerbung _____ ein Stipendium ist eingereicht.,um,Die Bewerbung um ein Stipendium ist eingereicht.,The application for a scholarship has been submitted.,,Bewerbung,,
-173,4,Der Kampf _____ die Führung war hart.,um,Der Kampf um die Führung war hart.,The fight for leadership was tough.,,Kampf,,
-174,4,Ihr Kampf _____ Anerkennung dauerte Jahre.,um,Ihr Kampf um Anerkennung dauerte Jahre.,Her fight for recognition lasted years.,,Kampf,,
-175,4,Die Furcht _____ der Prüfung ließ ihn nicht schlafen.,vor,Die Furcht vor der Prüfung ließ ihn nicht schlafen.,The fear of the exam kept him awake.,,Furcht,,
-176,4,Seine Furcht _____ Ablehnung war sichtbar.,vor,Seine Furcht vor Ablehnung war sichtbar.,His fear of rejection was visible.,,Furcht,,
-177,4,Die Gratulation _____ seinem Sieg war ehrlich gemeint.,zu,Die Gratulation zu seinem Sieg war ehrlich gemeint.,The congratulations on his victory were sincere.,,Gratulation,,
-178,4,Ihre Gratulation _____ seiner Beförderung war herzlich.,zu,Ihre Gratulation zu seiner Beförderung war herzlich.,Her congratulations on his promotion were heartfelt.,,Gratulation,,
-179,4,Die Fähigkeit _____ schneller Analyse ist ein Vorteil.,zu,Die Fähigkeit zu schneller Analyse ist ein Vorteil.,The ability for quick analysis is an advantage.,,Fähigkeit,,
-180,4,Ihre Fähigkeit _____ kreativen Lösungen beeindruckte viele.,zu,Ihre Fähigkeit zu kreativen Lösungen beeindruckte viele.,Her ability for creative solutions impressed many.,,Fähigkeit,,
-181,5,the conviction of,von,die Überzeugung,,,,,
-182,5,the description as,als,die Beschreibung,,,,,
-183,5,the participation in,an,die Teilnahme,,,,,
-184,5,the doubt about,an,der Zweifel,,,,,
-185,5,the interest in,an,das Interesse,,,,,
-186,5,the effect on,auf,die Wirkung,,,,,
-187,5,the joy for,auf,die Freude,,,,,
-188,5,the tension about,auf,die Spannung,,,,,
-189,5,the preparation for,auf,die Vorbereitung,,,,,
-190,5,the application to,bei,die Bewerbung,,,,,
-191,5,the apology to,bei,die Entschuldigung,,,,,
-192,5,the vote for,für,die Stimme,,,,,
-193,5,the responsibility for,für,die Verantwortung,,,,,
-194,5,the advertisement for,für,die Werbung,,,,,
-195,5,the vote against,gegen,die Stimme,,,,,
-196,5,the fight with,mit,der Kampf,,,,,
-197,5,the argument with,mit,der Streit,,,,,
-198,5,the taste of,nach,der Geschmack,,,,,
-199,5,the complaint about,über,die Beschwerde,,,,,
-200,5,the debate about,über,die Debatte,,,,,
-201,5,the information about,über,die Information,,,,,
-202,5,the speech about,über,die Rede,,,,,
-203,5,the knowledge about,über,das Wissen,,,,,
-204,5,the game for,um,das Spiel,,,,,
-205,5,the argument for,um,der Streit,,,,,
-206,5,the bet for,um,die Wette,,,,,
-207,5,the warning of,vor,die Warnung,,,,,
-208,5,the election to,zu,die Wahl,,,,,
-209,5,the contribution to,zu,der Beitrag,,,,,
-210,5,the advice on,zu,der Rat,,,,,
-211,6,Die Überzeugung _____ der Notwendigkeit der Reform war stark.,von,Die Überzeugung von der Notwendigkeit der Reform war stark.,The conviction of the need for reform was strong.,,Überzeugung,,
-212,6,Seine Überzeugung _____ ihrer Ehrlichkeit blieb unerschütterlich.,von,Seine Überzeugung von ihrer Ehrlichkeit blieb unerschütterlich.,His conviction of her honesty remained unwavering.,,Überzeugung,,
-213,6,Die Beschreibung _____ ein talentierter Künstler passt zu ihm.,als,Die Beschreibung als ein talentierter Künstler passt zu ihm.,The description as a talented artist suits him.,,Beschreibung,,
-214,6,Ihre Beschreibung _____ eine zuverlässige Person überzeugt alle.,als,Ihre Beschreibung als eine zuverlässige Person überzeugt alle.,Her description as a reliable person convinces everyone.,,Beschreibung,,
-215,6,Die Teilnahme _____ der Konferenz war sehr lehrreich.,an,Die Teilnahme an der Konferenz war sehr lehrreich.,The participation in the conference was very educational.,,Teilnahme,,
-216,6,Seine Teilnahme _____ Wettbewerb brachte ihm Anerkennung.,am,Seine Teilnahme am Wettbewerb brachte ihm Anerkennung.,His participation in the competition brought him recognition.,,Teilnahme,,
-217,6,Der Zweifel _____ ihrer Aussage wuchs.,an,Der Zweifel an ihrer Aussage wuchs.,The doubt about her statement grew.,,Zweifel,,
-218,6,Er äußerte Zweifel _____ der Richtigkeit der Ergebnisse.,an,Er äußerte Zweifel an der Richtigkeit der Ergebnisse.,He expressed doubts about the accuracy of the results.,,Zweifel,,
-219,6,"Viele Studierende zeigen großes Interesse _____ nachhaltigen Energielösungen, besonders im Rahmen ihrer Abschlussarbeiten.",an,"Viele Studierende zeigen großes Interesse an nachhaltigen Energielösungen, besonders im Rahmen ihrer Abschlussarbeiten.","Many students show great interest in sustainable energy solutions, especially as part of their final projects.",,Interesse,,
-220,6,Sein Interesse _____ moderner Kunst wurde durch einen Besuch im Museum deutlich verstärkt.,an,Sein Interesse an moderner Kunst wurde durch einen Besuch im Museum deutlich verstärkt.,His interest in modern art was significantly enhanced by a visit to the museum.,,Interesse,,
-221,6,Die Wirkung _____ die Zuschauer war enorm.,auf,Die Wirkung auf die Zuschauer war enorm.,The effect on the audience was enormous.,,Wirkung,,
-222,6,Die Medikamente haben eine schnelle Wirkung _____ die Schmerzen.,auf,Die Medikamente haben eine schnelle Wirkung auf die Schmerzen.,The medication has a quick effect on the pain.,,Wirkung,,
-223,6,Die Freude _____ den Urlaub war groß.,auf,Die Freude auf den Urlaub war groß.,The joy about the upcoming vacation was immense.,,Freude,,
-224,6,Er konnte seine Freude _____ die Reise kaum verbergen.,auf,Er konnte seine Freude auf die Reise kaum verbergen.,He could hardly hide his joy about the trip.,,Freude,,
-225,6,Die Spannung _____ die Ergebnisse war kaum auszuhalten.,auf,Die Spannung auf die Ergebnisse war kaum auszuhalten.,The anticipation for the results was almost unbearable.,,Spannung,,
-226,6,Die Spannung _____ das Finale war spürbar.,auf,Die Spannung auf das Finale war spürbar.,The anticipation for the final was palpable.,,Spannung,,
-227,6,Die Vorbereitung _____ die Prüfung lief reibungslos.,auf,Die Vorbereitung auf die Prüfung lief reibungslos.,The preparation for the exam went smoothly.,,Vorbereitung,,
-228,6,Seine Vorbereitung _____ den Wettbewerb war gründlich.,auf,Seine Vorbereitung auf den Wettbewerb war gründlich.,His preparation for the competition was thorough.,,Vorbereitung,,
-229,6,Die Bewerbung _____ der Universität war erfolgreich.,bei,Die Bewerbung bei der Universität war erfolgreich.,The application to the university was successful.,,Bewerbung,,
-230,6,Seine Bewerbung _____ der Firma wurde angenommen.,bei,Seine Bewerbung bei der Firma wurde angenommen.,His application to the company was accepted.,,Bewerbung,,
-231,6,Die Entschuldigung _____ ihrer Freundin war aufrichtig.,bei,Die Entschuldigung bei ihrer Freundin war aufrichtig.,The apology to her friend was sincere.,,Entschuldigung,,
-232,6,Seine Entschuldigung _____ der Lehrerin wurde angenommen.,bei,Seine Entschuldigung bei der Lehrerin wurde angenommen.,His apology to the teacher was accepted.,,Entschuldigung,,
-233,6,Ihre Stimme _____ den Kandidaten machte den Unterschied.,für,Ihre Stimme für den Kandidaten machte den Unterschied.,Her vote for the candidate made the difference.,,Stimme,,
-234,6,Die Stimme _____ die Reform wurde einstimmig abgegeben.,für,Die Stimme für die Reform wurde einstimmig abgegeben.,The vote for the reform was unanimous.,,Stimme,,
-235,6,Die Verantwortung _____ das Projekt liegt bei ihm.,für,Die Verantwortung für das Projekt liegt bei ihm.,The responsibility for the project lies with him.,,Verantwortung,,
-236,6,Ihre Verantwortung _____ die Kinder ist ihr wichtig.,für,Ihre Verantwortung für die Kinder ist ihr wichtig.,Her responsibility for the children is important to her.,,Verantwortung,,
-237,6,Die Werbung _____ das neue Produkt war sehr effektiv.,für,Die Werbung für das neue Produkt war sehr effektiv.,The advertisement for the new product was very effective.,,Werbung,,
-238,6,Die Werbung _____ den Film läuft auf allen Kanälen.,für,Die Werbung für den Film läuft auf allen Kanälen.,The advertisement for the film is running on all channels.,,Werbung,,
-239,6,Die Stimme _____ den Vorschlag wurde laut geäußert.,gegen,Die Stimme gegen den Vorschlag wurde laut geäußert.,The vote against the proposal was expressed loudly.,,Stimme,,
-240,6,Ihre Stimme _____ den Plan beeinflusste die Entscheidung.,gegen,Ihre Stimme gegen den Plan beeinflusste die Entscheidung.,Her vote against the plan influenced the decision.,,Stimme,,
-241,6,Der Kampf _____ den Umständen war schwierig.,mit,Der Kampf mit den Umständen war schwierig.,The fight with the circumstances was difficult.,,Kampf,,
-242,6,Ihr Kampf _____ der Krankheit dauerte Jahre.,mit,Ihr Kampf mit der Krankheit dauerte Jahre.,Her fight with the illness lasted for years.,,Kampf,,
-243,6,Der Streit _____ seinem Bruder war schnell vergessen.,mit,Der Streit mit seinem Bruder war schnell vergessen.,The argument with his brother was quickly forgotten.,,Streit,,
-244,6,Ihr Streit _____ der Kollegin eskalierte schnell.,mit,Ihr Streit mit der Kollegin eskalierte schnell.,Her argument with the colleague escalated quickly.,,Streit,,
-245,6,Der Geschmack _____ Zimt war angenehm.,nach,Der Geschmack nach Zimt war angenehm.,The taste of cinnamon was pleasant.,,Geschmack,,
-246,6,Der Geschmack _____ frischen Kräutern passte perfekt zum Gericht.,nach,Der Geschmack nach frischen Kräutern passte perfekt zum Gericht.,The taste of fresh herbs was perfect for the dish.,,Geschmack,,
-247,6,Die Beschwerde _____ den Service wurde schnell bearbeitet.,über,Die Beschwerde über den Service wurde schnell bearbeitet.,The complaint about the service was processed quickly.,,Beschwerde,,
-248,6,Seine Beschwerde _____ die laute Musik wurde ignoriert.,über,Seine Beschwerde über die laute Musik wurde ignoriert.,His complaint about the loud music was ignored.,,Beschwerde,,
-249,6,Die Debatte _____ die neue Steuer war hitzig.,über,Die Debatte über die neue Steuer war hitzig.,The debate about the new tax was heated.,,Debatte,,
-250,6,Ihre Debatte _____ die Umweltpolitik zog viele Zuhörer an.,über,Ihre Debatte über die Umweltpolitik zog viele Zuhörer an.,Their debate about environmental policy attracted many listeners.,,Debatte,,
-251,6,Die Information _____ die Änderungen wurde per E-Mail verschickt.,über,Die Information über die Änderungen wurde per E-Mail verschickt.,The information about the changes was sent via email.,,Information,,
-252,6,Er suchte nach mehr Informationen _____ die Firma.,über,Er suchte nach mehr Informationen über die Firma.,He looked for more information about the company.,,Information,,
-253,6,Die Rede _____ die Zukunft des Unternehmens war inspirierend.,über,Die Rede über die Zukunft des Unternehmens war inspirierend.,The speech about the company's future was inspiring.,,Rede,,
-254,6,Ihre Rede _____ Gleichberechtigung erhielt viel Applaus.,über,Ihre Rede über Gleichberechtigung erhielt viel Applaus.,Her speech about equality received a lot of applause.,,Rede,,
-255,6,Sein Wissen _____ Geschichte beeindruckte alle.,über,Sein Wissen über Geschichte beeindruckte alle.,His knowledge about history impressed everyone.,,Wissen,,
-256,6,Ihr Wissen _____ Technik ist bemerkenswert.,über,Ihr Wissen über Technik ist bemerkenswert.,Her knowledge about technology is remarkable.,,Wissen,,
-257,6,Das Spiel _____ den Pokal war spannend.,um,Das Spiel um den Pokal war spannend.,The game for the trophy was exciting.,,Spiel,,
-258,6,Ihr Spiel _____ den Sieg zog viele Zuschauer an.,um,Ihr Spiel um den Sieg zog viele Zuschauer an.,Their game for victory attracted many spectators.,,Spiel,,
-259,6,Der Streit _____ das Erbe spaltete die Familie.,um,Der Streit um das Erbe spaltete die Familie.,The argument about the inheritance divided the family.,,Streit,,
-260,6,Ihr Streit _____ die Zuständigkeiten eskalierte schnell.,um,Ihr Streit um die Zuständigkeiten eskalierte schnell.,Their argument about responsibilities escalated quickly.,,Streit,,
-261,6,Die Wette _____ 50 Euro wurde ernst genommen.,um,Die Wette um 50 Euro wurde ernst genommen.,The bet for 50 euros was taken seriously.,,Wette,,
-262,6,Seine Wette _____ den Ausgang des Spiels sorgte für Spannung.,um,Seine Wette um den Ausgang des Spiels sorgte für Spannung.,His bet on the outcome of the game created excitement.,,Wette,,
-263,6,Die Warnung _____ dem Sturm kam rechtzeitig.,vor,Die Warnung vor dem Sturm kam rechtzeitig.,The warning about the storm came in time.,,Warnung,,
-264,6,Ihre Warnung _____ den Gefahren wurde ernst genommen.,vor,Ihre Warnung vor den Gefahren wurde ernst genommen.,Her warning about the dangers was taken seriously.,,Warnung,,
-265,6,Die Wahl _____ ihrem Vorsitzenden wurde einstimmig getroffen.,zu,Die Wahl zu ihrem Vorsitzenden wurde einstimmig getroffen.,The election as their chairperson was unanimous.,,Wahl,,
-266,6,Seine Wahl _____ diesem Posten überraschte viele.,zu,Seine Wahl zu diesem Posten überraschte viele.,His election to this position surprised many.,,Wahl,,
-267,6,Der Beitrag _____ Projekt war entscheidend.,zum,Der Beitrag zum Projekt war entscheidend.,The contribution to the project was crucial.,,Beitrag,,
-268,6,Sein Beitrag _____ Diskussion brachte neue Perspektiven.,zur,Sein Beitrag zur Diskussion brachte neue Perspektiven.,His contribution to the discussion brought new perspectives.,,Beitrag,,
-269,6,Der Rat _____ mehr Geduld war hilfreich.,zu,Der Rat zu mehr Geduld war hilfreich.,The advice for more patience was helpful.,,Rat,,
-270,6,Ihr Rat _____ diesem Thema wurde ernst genommen.,zu,Ihr Rat zu diesem Thema wurde ernst genommen.,Her advice on this topic was taken seriously.,,Rat,,
-271,7,the curiosity about,auf,die Neugier,,,,,
-272,7,the designation as,als,die Bezeichnung,,,,,
-273,7,the illness of,an,die Erkrankung,,,,,
-274,7,the adaptation to,an,die Anpassung,,,,,
-275,7,the reference to,auf,der Bezug,,,,,
-276,7,the jealousy of,auf,die Eifersucht,,,,,
-277,7,the agreement on,auf,die Einigung,,,,,
-278,7,the emergence from,aus,die Entstehung,,,,,
-279,7,the demonstration for,für,die Demonstration,,,,,
-280,7,the suitability for,für,die Eignung,,,,,
-281,7,the immunity against,gegen,die Immunität,,,,,
-282,7,the error in,in,der Irrtum,,,,,
-283,7,the agreement with,mit,die Einigung,,,,,
-284,7,the phone call with,mit,das Telefonat,,,,,
-285,7,the confrontation with,mit,die Auseinandersetzung,,,,,
-286,7,the inquiry about,nach,die Erkundigung,,,,,
-287,7,the longing for,nach,die Sehnsucht,,,,,
-288,7,the amazement about,über,die Verwunderung,,,,,
-289,7,the excitement about,über,die Aufregung,,,,,
-290,7,the horror of,über,das Entsetzen,,,,,
-291,7,the complaint about,über,die Klage,,,,,
-292,7,the dependence on,von,die Abhängigkeit,,,,,
-293,7,the disgust for,vor,der Ekel,,,,,
-294,7,the escape from,vor,die Flucht,,,,,
-295,7,the congratulations on,zu,der Glückwunsch,,,,,
-296,7,the readiness for,zu,die Bereitschaft,,,,,
-297,7,the appointment as,zu,die Ernennung,,,,,
-298,7,the suitability to,zu,die Eignung,,,,,
-299,7,the belonging to,zu,die Zugehörigkeit,,,,,
-300,7,the tendency to,zu,die Neigung,,,,,
-301,7,the suggestion to,zu,die Anregung,,,,,
-302,8,Die Neugier _____ das neue Produkt war spürbar.,auf,Die Neugier auf das neue Produkt war spürbar.,The curiosity about the new product was noticeable.,,Neugier,,
-303,8,Seine Neugier _____ die Lösung des Rätsels war groß.,auf,Seine Neugier auf die Lösung des Rätsels war groß.,His curiosity about the solution to the puzzle was great.,,Neugier,,
-304,8,Die Bezeichnung _____ Held ist übertrieben.,als,Die Bezeichnung als Held ist übertrieben.,The designation as a hero is exaggerated.,,Bezeichnung,,
-305,8,Seine Bezeichnung _____ Experte wurde anerkannt.,als,Seine Bezeichnung als Experte wurde anerkannt.,His designation as an expert was acknowledged.,,Bezeichnung,,
-306,8,Die Erkrankung _____ Grippe war mild.,an,Die Erkrankung an Grippe war mild.,The illness with flu was mild.,,Erkrankung,,
-307,8,Seine Erkrankung _____ Krebs wurde früh erk_____nt.,an,Seine Erkrankung an Krebs wurde früh erkannt.,His illness with cancer was detected early.,,Erkrankung,,
-308,8,Die Anpassung _____ neue Umstände fiel ihr leicht.,an,Die Anpassung an neue Umstände fiel ihr leicht.,Adapting to new circumstances was easy for her.,,Anpassung,,
-309,8,Die Anpassung _____ Klima dauerte mehrere Wochen.,ans,Die Anpassung ans Klima dauerte mehrere Wochen.,The adaptation to the climate took several weeks.,,Anpassung,,
-310,8,Sein Bezug _____ das alte Gesetz war ungenau.,auf,Sein Bezug auf das alte Gesetz war ungenau.,His reference to the old law was inaccurate.,,Bezug,,
-311,8,Ich nehme Bezug _____ Ihren letzten Brief.,auf,Ich nehme Bezug auf Ihren letzten Brief.,I refer to your last letter.,,Bezug,,
-312,8,Ihre Eifersucht _____ seine Kollegin war offensichtlich.,auf,Ihre Eifersucht auf seine Kollegin war offensichtlich.,Her jealousy of his colleague was obvious.,,Eifersucht,,
-313,8,Die Eifersucht _____ den Erfolg anderer kann zerstörerisch sein.,auf,Die Eifersucht auf den Erfolg anderer kann zerstörerisch sein.,Jealousy of others’ success can be destructive.,,Eifersucht,,
-314,8,Die Einigung _____ einen Vertrag dauerte lange.,auf,Die Einigung auf einen Vertrag dauerte lange.,Agreement on a contract took a long time.,,Einigung,,
-315,8,Es kam zur Einigung _____ einen gemeinsamen Plan.,auf,Es kam zur Einigung auf einen gemeinsamen Plan.,They reached an agreement on a common plan.,,Einigung,,
-316,8,Die Entstehung _____ einfachen Verhältnissen beeindruckte viele.,aus,Die Entstehung aus einfachen Verhältnissen beeindruckte viele.,His emergence from humble origins impressed many.,,Entstehung,,
-317,8,Die Entstehung _____ dieser Idee war unerwartet.,aus,Die Entstehung aus dieser Idee war unerwartet.,The emergence from this idea was unexpected.,,Entstehung,,
-318,8,Die Demonstration _____ mehr Lohn war friedlich.,für,Die Demonstration für mehr Lohn war friedlich.,The demonstration for higher wages was peaceful.,,Demonstration,,
-319,8,Es gab eine große Demonstration _____ die Rechte der Minderheiten.,für,Es gab eine große Demonstration für die Rechte der Minderheiten.,There was a large demonstration for minority rights.,,Demonstration,,
-320,8,Ihre Eignung _____ die Stelle wurde überprüft.,für,Ihre Eignung für die Stelle wurde überprüft.,Her suitability for the position was reviewed.,,Eignung,,
-321,8,Die Eignung _____ den Beruf ist gesetzlich geregelt.,für,Die Eignung für den Beruf ist gesetzlich geregelt.,Suitability for the profession is legally regulated.,,Eignung,,
-322,8,Die Immunität _____ das Virus ist noch nicht vollständig entwickelt.,gegen,Die Immunität gegen das Virus ist noch nicht vollständig entwickelt.,Immunity against the virus is not yet fully developed.,,Immunität,,
-323,8,Viele Tiere besitzen eine natürliche Immunität _____ bestimmte Krankheiten.,gegen,Viele Tiere besitzen eine natürliche Immunität gegen bestimmte Krankheiten.,Many animals have natural immunity against certain diseases.,,Immunität,,
-324,8,Sein Irrtum _____ dieser Sache war offensichtlich.,in,Sein Irrtum in dieser Sache war offensichtlich.,His error in this matter was obvious.,,Irrtum,,
-325,8,Der Irrtum _____ der Berechnung führte zum Fehler.,in,Der Irrtum in der Berechnung führte zum Fehler.,The mistake in the calculation led to the error.,,Irrtum,,
-326,8,Die Einigung _____ dem Partner wurde schriftlich festgehalten.,mit,Die Einigung mit dem Partner wurde schriftlich festgehalten.,The agreement with the partner was put in writing.,,Einigung,,
-327,8,Nach langer Diskussion kam es zur Einigung _____ der Gewerkschaft.,mit,Nach langer Diskussion kam es zur Einigung mit der Gewerkschaft.,"After long discussion, an agreement was reached with the union.",,Einigung,,
-328,8,Das Telefonat _____ der Kundin dauerte eine Stunde.,mit,Das Telefonat mit der Kundin dauerte eine Stunde.,The phone call with the client lasted an hour.,,Telefonat,,
-329,8,Mein letztes Telefonat _____ ihm war sehr aufschlussreich.,mit,Mein letztes Telefonat mit ihm war sehr aufschlussreich.,My last phone call with him was very informative.,,Telefonat,,
-330,8,Die Auseinandersetzung _____ dem Thema war intensiv.,mit,Die Auseinandersetzung mit dem Thema war intensiv.,The engagement with the topic was intense.,,Auseinandersetzung,,
-331,8,Seine Auseinandersetzung _____ dem Gegner war hart.,mit,Seine Auseinandersetzung mit dem Gegner war hart.,His confrontation with the opponent was tough.,,Auseinandersetzung,,
-332,8,Die Erkundigung _____ dem Weg war erfolglos.,nach,Die Erkundigung nach dem Weg war erfolglos.,The inquiry about the way was unsuccessful.,,Ekundigung,,
-333,8,Seine Erkundigung _____ dem Preis wurde schnell beantwortet.,nach,Seine Erkundigung nach dem Preis wurde schnell beantwortet.,His inquiry about the price was quickly answered.,,Ekundigung,,
-334,8,Ihre Sehnsucht _____ Ruhe wurde stärker.,nach,Ihre Sehnsucht nach Ruhe wurde stärker.,Her longing for peace grew stronger.,,Sehnsucht,,
-335,8,Die Sehnsucht _____ der Heimat begleitete ihn ständig.,nach,Die Sehnsucht nach der Heimat begleitete ihn ständig.,The longing for home followed him constantly.,,Sehnsucht,,
-336,8,Ihre Verwunderung _____ die Entscheidung war groß.,über,Ihre Verwunderung über die Entscheidung war groß.,Her astonishment about the decision was great.,,Verwunderung,,
-337,8,Meine Verwunderung _____ sein Verhalten war ehrlich.,über,Meine Verwunderung über sein Verhalten war ehrlich.,My surprise at his behavior was genuine.,,Verwunderung,,
-338,8,Die Aufregung _____ das Ergebnis war groß.,über,Die Aufregung über das Ergebnis war groß.,The excitement about the result was huge.,,Aufregung,,
-339,8,Ihre Aufregung _____ den Besuch war spürbar.,über,Ihre Aufregung über den Besuch war spürbar.,Her excitement about the visit was noticeable.,,Aufregung,,
-340,8,Sein Entsetzen _____ den Unfall war deutlich.,über,Sein Entsetzen über den Unfall war deutlich.,His horror at the accident was obvious.,,Entsetzen,,
-341,8,Das Entsetzen _____ die Nachricht war allgemein.,über,Das Entsetzen über die Nachricht war allgemein.,The horror at the news was widespread.,,Entsetzen,,
-342,8,Ihre Klage _____ die Arbeitsbedingungen war berechtigt.,über,Ihre Klage über die Arbeitsbedingungen war berechtigt.,Her complaint about the working conditions was justified.,,Klage,,
-343,8,Die Klage _____ den Lärm wurde ignoriert.,über,Die Klage über den Lärm wurde ignoriert.,The complaint about the noise was ignored.,,Klage,,
-344,8,Die Abhängigkeit _____ Alkohol wurde behandelt.,von,Die Abhängigkeit von Alkohol wurde behandelt.,The dependence on alcohol was treated.,,Abhängigkeit,,
-345,8,Seine Abhängigkeit _____ Geld war offensichtlich.,von,Seine Abhängigkeit von Geld war offensichtlich.,His dependence on money was obvious.,,Abhängigkeit,,
-346,8,Sein Ekel _____ dem Anblick war sichtbar.,vor,Sein Ekel vor dem Anblick war sichtbar.,His disgust at the sight was visible.,,Ekel,,
-347,8,Der Ekel _____ bestimmten Tieren ist weit verbreitet.,vor,Der Ekel vor bestimmten Tieren ist weit verbreitet.,Disgust toward certain animals is widespread.,,Ekel,,
-348,8,Die Flucht _____ dem Feind war erfolgreich.,vor,Die Flucht vor dem Feind war erfolgreich.,The escape from the enemy was successful.,,Flucht,,
-349,8,Seine Flucht _____ der Verantwortung wurde kritisiert.,vor,Seine Flucht vor der Verantwortung wurde kritisiert.,His escape from responsibility was criticized.,,Flucht,,
-350,8,Der Glückwunsch _____ ihrem Erfolg war herzlich.,zu,Der Glückwunsch zu ihrem Erfolg war herzlich.,The congratulations on her success were heartfelt.,,Glückwunsch,,
-351,8,Sein Glückwunsch _____ ihrer Hochzeit war sehr persönlich.,zu,Sein Glückwunsch zu ihrer Hochzeit war sehr persönlich.,His congratulations on her wedding were very personal.,,Glückwunsch,,
-352,8,Die Bereitschaft _____ Veränderungen ist gering.,zu,Die Bereitschaft zu Veränderungen ist gering.,The willingness for change is low.,,Bereitschaft,,
-353,8,Seine Bereitschaft _____ helfen war beeindruckend.,zu,Seine Bereitschaft zu helfen war beeindruckend.,His willingness to help was impressive.,,Bereitschaft,,
-354,8,Die Eignung _____ diesem Beruf muss nachgewiesen werden.,zu,Die Eignung zu diesem Beruf muss nachgewiesen werden.,Suitability for this profession must be proven.,,Eignung,,
-355,8,Seine Eignung _____ dieser Aufgabe ist fraglich.,zu,Seine Eignung zu dieser Aufgabe ist fraglich.,His suitability for this task is questionable.,,Eignung,,
-356,8,Die Zugehörigkeit _____ dieser Gruppe war freiwillig.,zu,Die Zugehörigkeit zu dieser Gruppe war freiwillig.,Belonging to this group was voluntary.,,Zugehörigkeit,,
-357,8,Die Zugehörigkeit _____ einer Nation prägt die Identität.,zu,Die Zugehörigkeit zu einer Nation prägt die Identität.,Belonging to a nation shapes identity.,,Zugehörigkeit,,
-358,8,Ihre Neigung _____ Dramatik ist bekannt.,zu,Ihre Neigung zu Dramatik ist bekannt.,Her tendency toward drama is well known.,,Neigung,,
-359,8,Seine Neigung _____ Extremen ist gefährlich.,zu,Seine Neigung zu Extremen ist gefährlich.,His inclination toward extremes is dangerous.,,Neigung,,
-360,8,Die Anregung _____ neuen Ideen war hilfreich.,zu,Die Anregung zu neuen Ideen war hilfreich.,The stimulation to new ideas was helpful.,,Anregung,,
-361,8,Die Anregung _____ Kreativität fehlte.,zu,Die Anregung zu Kreativität fehlte.,The encouragement toward creativity was lacking.,,Anregung,,
-362,8,Die Ernennung _____ Direktor war überraschend.,zum,Die Ernennung zum Direktor war überraschend.,The appointment as director was surprising.,,Ernennung,,
-363,8,Seine Ernennung _____ Präsidenten wurde gefeiert.,zum,Seine Ernennung zum Präsidenten wurde gefeiert.,His appointment as president was celebrated.,,Ernennung,,
-364,9,the reputation as,als,das Ansehen,,,,,
-365,9,the suffering from,an,das Leiden,,,,,
-366,9,the orientation to,an,die Orientierung,,,,,
-367,9,the revenge on,an,die Rache,,,,,
-368,9,the rage at,auf,die Wut,,,,,
-369,9,the envy of,auf,der Neid,,,,,
-370,9,the waiver of,auf,der Verzicht,,,,,
-371,9,the composition of,aus,die Zusammensetzung,,,,,
-372,9,the commitment to,für,das Engagement,,,,,
-373,9,the revenge for,für,die Rache,,,,,
-374,9,the defense against,gegen,die Verteidigung,,,,,
-375,9,the violation of,gegen,der Verstoß,,,,,
-376,9,the transformation into,in,die Verwandlung,,,,,
-377,9,the distinction in,in,die Unterscheidung,,,,,
-378,9,the deception in,in,die Täuschung,,,,,
-379,9,the structure in,in,die Gliederung,,,,,
-380,9,the conversation with,mit,die Unterhaltung,,,,,
-381,9,the call for,nach,der Ruf,,,,,
-382,9,the stink of,nach,der Gestank,,,,,
-383,9,the entertainment about,über,die Unterhaltung,,,,,
-384,9,the mockery of,über,der Spott,,,,,
-385,9,the astonishment at,über,das Erstaunen,,,,,
-386,9,the liberation from,von,die Befreiung,,,,,
-387,9,the protection against,vor,der Schutz,,,,,
-388,9,the education to,zu,die Erziehung,,,,,
-389,9,the request to,zu,die Aufforderung,,,,,
-390,9,the transport to,zu,die Beförderung,,,,,
-391,9,the decision to,zu,der Entschluss,,,,,
-392,9,the persuasion to,zu,die Überredung,,,,,
-393,9,the compulsion to,zu,der Zwang,,,,,
-394,10,Sein Ansehen _____ Experte wurde nie infrage gestellt.,als,Sein Ansehen als Experte wurde nie infrage gestellt.,His reputation as an expert was never questioned.,,Ansehen,,
-395,10,Das Ansehen _____ zuverlässiger Partner ist wichtig.,als,Das Ansehen als zuverlässiger Partner ist wichtig.,Reputation as a reliable partner is important.,,Ansehen,,
-396,10,Das Leiden _____ Schlaflosigkeit beeinträchtigt ihn stark.,an,Das Leiden an Schlaflosigkeit beeinträchtigt ihn stark.,The suffering from insomnia affects him severely.,,Leiden,,
-397,10,Ihr Leiden _____ Migräne ist chronisch.,an,Ihr Leiden an Migräne ist chronisch.,Her suffering from migraines is chronic.,,Leiden,,
-398,10,Die Orientierung _____ den Zielen ist wichtig.,an,Die Orientierung an den Zielen ist wichtig.,Orientation toward the goals is important.,,Orientierung,,
-399,10,Seine Orientierung _____ traditionellen Werten prägt sein Handeln.,an,Seine Orientierung an traditionellen Werten prägt sein Handeln.,His orientation toward traditional values shapes his actions.,,Orientierung,,
-400,10,Die Rache _____ Täter war grausam.,am,Die Rache am Täter war grausam.,The revenge on the perpetrator was cruel.,,Rache,,
-401,10,Ihre Rache _____ ihm war wohlüberlegt.,an,Ihre Rache an ihm war wohlüberlegt.,Her revenge on him was deliberate.,,Rache,,
-402,10,Ihre Wut _____ den Chef war kaum zu übersehen.,auf,Ihre Wut auf den Chef war kaum zu übersehen.,Her anger at the boss was hard to miss.,,Wut,,
-403,10,Die Wut _____ den Verkehr wuchs mit jeder Minute.,auf,Die Wut auf den Verkehr wuchs mit jeder Minute.,The anger at the traffic grew by the minute.,,Wut,,
-404,10,Sein Neid _____ den Nachbarn war unbegründet.,auf,Sein Neid auf den Nachbarn war unbegründet.,His envy of the neighbor was unfounded.,,Neid,,
-405,10,Der Neid _____ ihren Erfolg war nicht zu übersehen.,auf,Der Neid auf ihren Erfolg war nicht zu übersehen.,The envy of her success was noticeable.,,Neid,,
-406,10,Der Verzicht _____ Luxus fiel ihm schwer.,auf,Der Verzicht auf Luxus fiel ihm schwer.,Renouncing luxury was difficult for him.,,Verzicht,,
-407,10,Sein Verzicht _____ das Erbe überraschte alle.,auf,Sein Verzicht auf das Erbe überraschte alle.,His renunciation of the inheritance surprised everyone.,,Verzicht,,
-408,10,Die Zusammensetzung _____ verschiedenen Stoffen macht das Produkt aus.,aus,Die Zusammensetzung aus verschiedenen Stoffen macht das Produkt aus.,The composition from various materials defines the product.,,Zusammensetzung,,
-409,10,Die Zusammensetzung _____ Experten unterschiedlicher Bereiche war sinnvoll.,aus,Die Zusammensetzung aus Experten unterschiedlicher Bereiche war sinnvoll.,The composition of experts from different fields made sense.,,Zusammensetzung,,
-410,10,Sein Engagement _____ den Umweltschutz ist beeindruckend.,für,Sein Engagement für den Umweltschutz ist beeindruckend.,His commitment to environmental protection is impressive.,,Engagement,,
-411,10,Das Engagement _____ soziale Projekte steigt.,für,Das Engagement für soziale Projekte steigt.,The commitment to social projects is increasing.,,Engagement,,
-412,10,Sie schwor Rache _____ den Betrug.,für,Sie schwor Rache für den Betrug.,She swore revenge for the betrayal.,,Rache,,
-413,10,Die Rache _____ das Unrecht ließ nicht lange auf sich warten.,für,Die Rache für das Unrecht ließ nicht lange auf sich warten.,The revenge for the injustice came quickly.,,Rache,,
-414,10,Die Verteidigung _____ die Angriffe war gut organisiert.,gegen,Die Verteidigung gegen die Angriffe war gut organisiert.,The defense against the attacks was well organized.,,Verteidigung,,
-415,10,Seine Verteidigung _____ die Vorwürfe war überzeugend.,gegen,Seine Verteidigung gegen die Vorwürfe war überzeugend.,His defense against the accusations was convincing.,,Verteidigung,,
-416,10,Sein Verstoß _____ die Regeln blieb nicht unbestraft.,gegen,Sein Verstoß gegen die Regeln blieb nicht unbestraft.,His violation of the rules did not go unpunished.,,Verstoß,,
-417,10,Der Verstoß _____ das Gesetz wurde angezeigt.,gegen,Der Verstoß gegen das Gesetz wurde angezeigt.,The violation of the law was reported.,,Verstoß,,
-418,10,Die Verwandlung _____ einen modernen Raum war beeindruckend.,in,Die Verwandlung in einen modernen Raum war beeindruckend.,The transformation into a modern space was impressive.,,Verwandlung,,
-419,10,Die Verwandlung _____ eine grüne Stadt ist ein großes Ziel.,in,Die Verwandlung in eine grüne Stadt ist ein großes Ziel.,The transformation into a green city is a big goal.,,Verwandlung,,
-420,10,Die Unterscheidung _____ Gruppen hilft beim Verständnis.,in,Die Unterscheidung in Gruppen hilft beim Verständnis.,The distinction into groups helps with understanding.,,Unterscheidung,,
-421,10,Die Unterscheidung _____ Kategorien ist nicht immer einfach.,in,Die Unterscheidung in Kategorien ist nicht immer einfach.,The classification into categories is not always easy.,,Unterscheidung,,
-422,10,Die Täuschung _____ dieser Frage war beabsichtigt.,in,Die Täuschung in dieser Frage war beabsichtigt.,The deception in this matter was intentional.,,Täuschung,,
-423,10,Seine Täuschung _____ Details war schwer zu erkennen.,in,Seine Täuschung in Details war schwer zu erkennen.,His deception in details was hard to detect.,,Täuschung,,
-424,10,Die Gliederung _____ Kapitel macht das Lesen einfacher.,in,Die Gliederung in Kapitel macht das Lesen einfacher.,The division into chapters makes reading easier.,,Gliederung,,
-425,10,Die Gliederung _____ Bereiche ist sinnvoll.,in,Die Gliederung in Bereiche ist sinnvoll.,The structure into sections is practical.,,Gliederung,,
-426,10,Die Unterhaltung _____ dem Gast war sehr angenehm.,mit,Die Unterhaltung mit dem Gast war sehr angenehm.,The conversation with the guest was very pleasant.,,Unterhaltung,,
-427,10,Ich hatte eine interessante Unterhaltung _____ meiner Nachbarin.,mit,Ich hatte eine interessante Unterhaltung mit meiner Nachbarin.,I had an interesting conversation with my neighbor.,,Unterhaltung,,
-428,10,Sein Ruf _____ Freiheit wurde laut.,nach,Sein Ruf nach Freiheit wurde laut.,His call for freedom was loud.,,Ruf,,
-429,10,Der Ruf _____ Reformen wird immer stärker.,nach,Der Ruf nach Reformen wird immer stärker.,The call for reforms is getting stronger.,,Ruf,,
-430,10,Der Gestank _____ Verbranntem war unerträglich.,nach,Der Gestank nach Verbranntem war unerträglich.,The stench of something burnt was unbearable.,,Gestank,,
-431,10,Der Gestank _____ Abfall erfüllte den Raum.,nach,Der Gestank nach Abfall erfüllte den Raum.,The stench of garbage filled the room.,,Gestank,,
-432,10,Die Unterhaltung _____ Politik war sehr spannend.,über,Die Unterhaltung über Politik war sehr spannend.,The conversation about politics was very interesting.,,Unterhaltung,,
-433,10,Unsere Unterhaltung _____ das Buch dauerte stundenlang.,über,Unsere Unterhaltung über das Buch dauerte stundenlang.,Our conversation about the book lasted for hours.,,Unterhaltung,,
-434,10,Sein Spott _____ den Vortrag war verletzend.,über,Sein Spott über den Vortrag war verletzend.,His mockery of the presentation was hurtful.,,Spott,,
-435,10,Der Spott _____ den Politiker war laut.,über,Der Spott über den Politiker war laut.,The mockery of the politician was loud.,,Spott,,
-436,10,Das Erstaunen _____ die Reaktion war groß.,über,Das Erstaunen über die Reaktion war groß.,The astonishment at the reaction was great.,,Erstaunen,,
-437,10,Unser Erstaunen _____ den Sieg war ehrlich.,über,Unser Erstaunen über den Sieg war ehrlich.,Our amazement at the victory was genuine.,,Erstaunen,,
-438,10,Die Befreiung _____ der Last fiel ihm schwer.,von,Die Befreiung von der Last fiel ihm schwer.,Freeing himself from the burden was difficult.,,Befreiung,,
-439,10,Ihre Befreiung _____ der Verantwortung war notwendig.,von,Ihre Befreiung von der Verantwortung war notwendig.,Her release from responsibility was necessary.,,Befreiung,,
-440,10,Der Schutz _____ Kälte ist wichtig im Winter.,vor,Der Schutz vor Kälte ist wichtig im Winter.,Protection from the cold is important in winter.,,Schutz,,
-441,10,Der Schutz _____ Gefahren ist lebenswichtig.,vor,Der Schutz vor Gefahren ist lebenswichtig.,Protection from dangers is vital.,,Schutz,,
-442,10,Die Erziehung _____ Selbstständigkeit beginnt früh.,zu,Die Erziehung zu Selbstständigkeit beginnt früh.,Upbringing toward independence starts early.,,Erziehung,,
-443,10,Die Erziehung _____ Toleranz ist wichtig.,zu,Die Erziehung zu Toleranz ist wichtig.,Education toward tolerance is important.,,Erziehung,,
-444,10,Die Aufforderung _____ Schweigen war deutlich.,zu,Die Aufforderung zu Schweigen war deutlich.,The request to be silent was clear.,,Aufforderung,,
-445,10,Seine Aufforderung _____ Rücksicht wurde ignoriert.,zu,Seine Aufforderung zu Rücksicht wurde ignoriert.,His request for consideration was ignored.,,Aufforderung,,
-446,10,Der Entschluss _____ einem Neuanfang fiel schwer.,zu,Der Entschluss zu einem Neuanfang fiel schwer.,The decision to make a fresh start was hard.,,Entschluss,,
-447,10,Ihr Entschluss _____ dieser Reise war spontan.,zu,Ihr Entschluss zu dieser Reise war spontan.,Her decision to take this trip was spontaneous.,,Entschluss,,
-448,10,Die Überredung _____ Kauf war geschickt.,zum,Die Überredung zum Kauf war geschickt.,The persuasion to make the purchase was clever.,,Überredung,,
-449,10,Seine Überredung _____ dieser Handlung war erfolgreich.,zu,Seine Überredung zu dieser Handlung war erfolgreich.,His persuasion to this action was successful.,,Überredung,,
-450,10,Der Zwang _____ Leistung belastet ihn.,zu,Der Zwang zu Leistung belastet ihn.,The pressure to perform burdens him.,,Zwang,,
-451,10,Der Zwang _____ Ehrlichkeit war unangemessen.,zu,Der Zwang zu Ehrlichkeit war unangemessen.,The compulsion for honesty was inappropriate.,,Zwang,,
-452,10,Die Beförderung _____ Manager war verdient.,zum,Die Beförderung zum Manager war verdient.,The promotion to manager was deserved.,,Beförderung,,
-453,10,Seine Beförderung _____ Direktor wurde gefeiert.,zum,Seine Beförderung zum Direktor wurde gefeiert.,His promotion to director was celebrated.,,Beförderung,,
-454,100,the best about,an,das Beste,,,X,,
-455,100,an increase in,an,die Zunahme,,,X,,
-456,100,a decrease in,an,die Abnahme,,,X,,
-457,100,the need in,an,Bedarf,,,,,
-458,100,the shortage of,an,Mangel,,,,,
-459,100,the trust in (someone's ability),in,Vertrauen,,,,,
-460,100,,um,Verdienst,,,,,
-461,100,,um,das Wissen,,,,,
-462,100,,um,die Geschichte,,,,,
-463,100,,um,die Spekulation,,,,,
-464,100,the request to (someone),an,die Bitte,,,X,,
+Nr,exercise,question,answer,german,english,case,complement
+1,1,the memory of,an,die Erinnerung,,,
+2,1,the answer to,auf,die Antwort,,,
+3,1,the concentration on,auf,die Konzentration,,,
+4,1,the translation from,aus,die Übersetzung,,,
+5,1,the decision for,für,die Entscheidung,,,
+6,1,the decision against,gegen,die Entscheidung,,,
+7,1,the translation into,in,die Übersetzung,,,
+8,1,the discussion with,mit,die Diskussion,,,
+9,1,the game with,mit,das Spiel,,,
+10,1,the question about,nach,die Frage,,,
+11,1,the search for,nach,die Suche,,,
+12,1,the anger about,über,der Ärger,,,
+13,1,the happiness about,über,das Glück,,,
+14,1,the request for (something),um,die Bitte,,,
+15,1,the dream of,von,der Traum,,,
+16,1,the work as,als,die Arbeit,,,
+17,1,the pride in,auf,der Stolz,,,
+18,2,Die Erinnerung _____ den Urlaub bleibt unvergesslich.,an,Die Erinnerung an den Urlaub bleibt unvergesslich.,The memory of the vacation remains unforgettable.,,Erinnerung
+19,2,Seine Erinnerung _____ die Kindheit ist voller Freude.,an,Seine Erinnerung an die Kindheit ist voller Freude.,His memory of childhood is full of joy.,,Erinnerung
+20,2,Die Antwort _____ seine Frage war überraschend.,auf,Die Antwort auf seine Frage war überraschend.,The answer to his question was surprising.,,Antwort
+21,2,Ihre Antwort _____ die Kritik war sehr professionell.,auf,Ihre Antwort auf die Kritik war sehr professionell.,Her response to the criticism was very professional.,,Antwort
+22,2,Die Konzentration _____ die Aufgabe ist entscheidend.,auf,Die Konzentration auf die Aufgabe ist entscheidend.,Concentration on the task is crucial.,,Konzentration
+23,2,Ihre Konzentration _____ die Prüfungsvorbereitung war beeindruckend.,auf,Ihre Konzentration auf die Prüfungsvorbereitung war beeindruckend.,Her focus on exam preparation was impressive.,,Konzentration
+24,2,Die Übersetzung _____ dem Englischen war sehr präzise.,aus,Die Übersetzung aus dem Englischen war sehr präzise.,The translation from English was very precise.,,Übersetzung
+25,2,Seine Übersetzung _____ dem Spanischen wurde gelobt.,aus,Seine Übersetzung aus dem Spanischen wurde gelobt.,His translation from Spanish was praised.,,Übersetzung
+26,2,Die Entscheidung _____ den Umzug fiel schwer.,für,Die Entscheidung für den Umzug fiel schwer.,The decision to move was difficult.,,Entscheidung
+27,2,Ihre Entscheidung _____ das Studium wurde gut überlegt.,für,Ihre Entscheidung für das Studium wurde gut überlegt.,Her decision to study was well-considered.,,Entscheidung
+28,2,Die Entscheidung _____ den Vorschlag fiel einstimmig aus.,gegen,Die Entscheidung gegen den Vorschlag fiel einstimmig aus.,The decision against the proposal was unanimous.,,Entscheidung
+29,2,Seine Entscheidung _____ das Angebot überraschte alle.,gegen,Seine Entscheidung gegen das Angebot überraschte alle.,His decision against the offer surprised everyone.,,Entscheidung
+30,2,Die Übersetzung _____ mehrere Sprachen ist geplant.,in,Die Übersetzung in mehrere Sprachen ist geplant.,The translation into several languages is planned.,,Übersetzung
+31,2,Seine Übersetzung _____ Deutsche war sehr präzise.,ins,Seine Übersetzung ins Deutsche war sehr präzise.,His translation into German was very precise.,,Übersetzung
+32,2,Die Diskussion _____ den Kollegen führte zu neuen Ideen.,mit,Die Diskussion mit den Kollegen führte zu neuen Ideen.,The discussion with the colleagues led to new ideas.,,Diskussion
+33,2,Seine Diskussion _____ dem Chef war produktiv.,mit,Seine Diskussion mit dem Chef war produktiv.,His discussion with the boss was productive.,,Diskussion
+34,2,Das Spiel _____ der neuen Strategie war erfolgreich.,mit,Das Spiel mit der neuen Strategie war erfolgreich.,The game with the new strategy was successful.,,Spiel
+35,2,Ihr Spiel _____ dem Ball faszinierte die Zuschauer.,mit,Ihr Spiel mit dem Ball faszinierte die Zuschauer.,Her game with the ball fascinated the spectators.,,Spiel
+36,2,Die Frage _____ der Zukunft des Projekts bleibt offen.,nach,Die Frage nach der Zukunft des Projekts bleibt offen.,The question about the project's future remains open.,,Frage
+37,2,Seine Frage _____ den Details wurde klar beantwortet.,nach,Seine Frage nach den Details wurde klar beantwortet.,His question about the details was answered clearly.,,Frage
+38,2,Die Suche _____ einem passenden Kandidaten dauert an.,nach,Die Suche nach einem passenden Kandidaten dauert an.,The search for a suitable candidate continues.,,Suche
+39,2,Ihre Suche _____ einer neuen Wohnung war erfolgreich.,nach,Ihre Suche nach einer neuen Wohnung war erfolgreich.,Her search for a new apartment was successful.,,Suche
+40,2,Der Ärger _____ die neue Regelung wächst täglich.,über,Der Ärger über die neue Regelung wächst täglich.,The anger about the new regulation grows daily.,,Ärger
+41,2,Ihr Ärger _____ die Verzögerungen war deutlich zu spüren.,über,Ihr Ärger über die Verzögerungen war deutlich zu spüren.,Her anger about the delays was clearly noticeable.,,Ärger
+42,2,Ihr Glück _____ die gute Nachricht war ansteckend.,über,Ihr Glück über die gute Nachricht war ansteckend.,Her happiness about the good news was contagious.,,Glück
+43,2,Das Glück _____ den gelungenen Abschluss konnte er nicht verbergen.,über,Das Glück über den gelungenen Abschluss konnte er nicht verbergen.,He could not hide his happiness about the successful conclusion.,,Glück
+44,2,Ihre Bitte _____ Hilfe wurde sofort erhört.,um,Ihre Bitte um Hilfe wurde sofort erhört.,Her request for help was immediately granted.,,Bitte
+45,2,Er richtete eine Bitte _____ Geduld ans Publikum.,um,Er richtete eine Bitte um Geduld ans Publikum.,He addressed a request for patience to the audience.,,Bitte
+46,2,Der Traum _____ einer besseren Welt verbindet uns alle.,von,Der Traum von einer besseren Welt verbindet uns alle.,The dream of a better world connects us all.,,Traum
+47,2,Ihr Traum _____ einem eigenen Haus wurde wahr.,von,Ihr Traum von einem eigenen Haus wurde wahr.,Her dream of owning a house came true.,,Traum
+48,2,Die Arbeit _____ Lehrer ist erfüllend.,als,Die Arbeit als Lehrer ist erfüllend.,The work as a teacher is fulfilling.,,Arbeit
+49,2,Seine Arbeit _____ Ingenieur ist sehr anspruchsvoll.,als,Seine Arbeit als Ingenieur ist sehr anspruchsvoll.,His work as an engineer is very demanding.,,Arbeit
+50,2,Der Stolz _____ ihre Leistungen war deutlich sichtbar.,auf,Der Stolz auf ihre Leistungen war deutlich sichtbar.,The pride in her achievements was clearly visible.,,Stolz
+51,2,Er zeigte Stolz _____ sein Team nach dem Sieg.,auf,Er zeigte Stolz auf sein Team nach dem Sieg.,He showed pride in his team after the victory.,,Stolz
+52,3,the fear of,vor,die Angst,,,
+53,3,the invitation to,zu,die Einladung,,,
+54,3,the belief in,an,der Glaube,,,
+55,3,the hope for,auf,die Hoffnung,,,
+56,3,the apology for,für,die Entschuldigung,,,
+57,3,"the concern for, the care for",für,die Sorge,,,
+58,3,the protest against,gegen,der Protest,,,
+59,3,the conversation with,mit,das Gespräch,,,
+60,3,the beginning with,mit,der Anfang,,,
+61,3,the start with,mit,der Beginn,,,
+62,3,the smell of,nach,der Geruch,,,
+63,3,the discussion about,über,die Diskussion,,,
+64,3,the conversation about,über,das Gespräch,,,
+65,3,"the concern for, the worry about",um,die Sorge,,,
+66,3,the expectation of,von,die Erwartung,,,
+67,4,Die Angst _____ Veränderung hielt ihn zurück.,vor,Die Angst vor Veränderung hielt ihn zurück.,The fear of change held him back.,,Angst
+68,4,Ihre Angst _____ dem Scheitern war unbegründet.,vor,Ihre Angst vor dem Scheitern war unbegründet.,Her fear of failure was unfounded.,,Angst
+69,4,Ihre Einladung _____ Event überraschte alle.,zum,Ihre Einladung zum Event überraschte alle.,Her invitation to the event surprised everyone.,,Einladung
+70,4,Die Einladung _____ Feier wurde freudig angenommen.,zur,Die Einladung zur Feier wurde freudig angenommen.,The invitation to the party was happily accepted.,,Einladung
+71,4,Der Glaube _____ seine Fähigkeiten gab ihm Kraft.,an,Der Glaube an seine Fähigkeiten gab ihm Kraft.,The belief in his abilities gave him strength.,,Glaube
+72,4,Ihr Glaube _____ Gute in Menschen ist beeindruckend.,ans,Ihr Glaube ans Gute in Menschen ist beeindruckend.,Her belief in the good in people is impressive.,,Glaube
+73,4,Die Hoffnung _____ eine bessere Zukunft bleibt bestehen.,auf,Die Hoffnung auf eine bessere Zukunft bleibt bestehen.,The hope for a better future remains.,,Hoffnung
+74,4,Sie setzt ihre Hoffnung _____ die nächste Generation.,auf,Sie setzt ihre Hoffnung auf die nächste Generation.,She places her hope in the next generation.,,Hoffnung
+75,4,Die Entschuldigung _____ das Missverständnis wurde akzeptiert.,für,Die Entschuldigung für das Missverständnis wurde akzeptiert.,The apology for the misunderstanding was accepted.,,Entschuldigung
+76,4,Seine Entschuldigung _____ den Fehler war aufrichtig.,für,Seine Entschuldigung für den Fehler war aufrichtig.,His apology for the mistake was sincere.,,Entschuldigung
+77,4,Die Sorge _____ ihre Kinder steht bei ihr an erster Stelle.,für,Die Sorge für ihre Kinder steht bei ihr an erster Stelle.,Caring for her children is her top priority.,,Sorge
+78,4,Seine Sorge _____ die Umwelt motiviert ihn zu handeln.,für,Seine Sorge für die Umwelt motiviert ihn zu handeln.,His concern for the environment motivates him to act.,,Sorge
+79,4,Der Protest _____ die neuen Gesetze war laut.,gegen,Der Protest gegen die neuen Gesetze war laut.,The protest against the new laws was loud.,,Protest
+80,4,Ihr Protest _____ die Änderungen fand große Unterstützung.,gegen,Ihr Protest gegen die Änderungen fand große Unterstützung.,Their protest against the changes found great support.,,Protest
+81,4,Das Gespräch _____ dem Lehrer verlief positiv.,mit,Das Gespräch mit dem Lehrer verlief positiv.,The conversation with the teacher went positively.,,Gespräch
+82,4,Ihr Gespräch _____ der Nachbarin dauerte lange.,mit,Ihr Gespräch mit der Nachbarin dauerte lange.,Her conversation with the neighbor lasted a long time.,,Gespräch
+83,4,Der Anfang _____ dem neuen Projekt war herausfordernd.,mit,Der Anfang mit dem neuen Projekt war herausfordernd.,The beginning with the new project was challenging.,,Anfang
+84,4,Ihr Anfang _____ dem Sport war sehr erfolgreich.,mit,Ihr Anfang mit dem Sport war sehr erfolgreich.,Her start with the sport was very successful.,,Anfang
+85,4,Der Beginn _____ der neuen Software verlief reibungslos.,mit,Der Beginn mit der neuen Software verlief reibungslos.,The start with the new software went smoothly.,,Beginn
+86,4,Sein Beginn _____ dem Training war motivierend.,mit,Sein Beginn mit dem Training war motivierend.,His start with the training was motivating.,,Beginn
+87,4,Der Geruch _____ Kaffee machte ihn wach.,nach,Der Geruch nach Kaffee machte ihn wach.,The smell of coffee woke him up.,,Geruch
+88,4,Der Geruch _____ frischer Farbe war stark.,nach,Der Geruch nach frischer Farbe war stark.,The smell of fresh paint was strong.,,Geruch
+89,4,Die Diskussion _____ die Reformen war konstruktiv.,über,Die Diskussion über die Reformen war konstruktiv.,The discussion about the reforms was constructive.,,Diskussion
+90,4,Ihre Diskussion _____ das Projekt führte zu neuen Ideen.,über,Ihre Diskussion über das Projekt führte zu neuen Ideen.,Their discussion about the project led to new ideas.,,Diskussion
+91,4,Das Gespräch _____ die neuen Regeln verlief positiv.,über,Das Gespräch über die neuen Regeln verlief positiv.,The conversation about the new rules went positively.,,Gespräch
+92,4,Ihr Gespräch _____ die Finanzen dauerte länger als erwartet.,über,Ihr Gespräch über die Finanzen dauerte länger als erwartet.,Their conversation about finances lasted longer than expected.,,Gespräch
+93,4,Die Sorge _____ den Erfolg des Projekts ist verständlich.,um,Die Sorge um den Erfolg des Projekts ist verständlich.,The concern for the project's success is understandable.,,Sorge
+94,4,Seine Sorge _____ die Zukunft des Unternehmens ist groß.,um,Seine Sorge um die Zukunft des Unternehmens ist groß.,His concern for the company's future is significant.,,Sorge
+95,4,Die Erwartung _____ hohen Ergebnissen setzte alle unter Druck.,von,Die Erwartung von hohen Ergebnissen setzte alle unter Druck.,The expectation of high results put everyone under pressure.,,Erwartung
+96,4,Ihre Erwartung _____ einer schnellen Antwort wurde erfüllt.,von,Ihre Erwartung von einer schnellen Antwort wurde erfüllt.,Her expectation of a quick response was met.,,Erwartung
+97,5,the thought of,an,der Gedanke,,,
+98,5,the change to,an,die Änderung,,,
+99,5,the application to,auf,die Bewerbung,,,
+100,5,the reaction to,auf,die Reaktion,,,
+101,5,the call to,bei,der Anruf,,,
+102,5,the work at,bei,die Arbeit,,,
+103,5,the thanks for,für,der Dank,,,
+104,5,the fight against,gegen,der Kampf,,,
+105,5,the debate with,mit,die Debatte,,,
+106,5,the friendship with,mit,die Freundschaft,,,
+107,5,the scent of,nach,der Duft,,,
+108,5,the joy about,über,die Freude,,,
+109,5,the argument about,über,der Streit,,,
+110,5,the grief about,über,die Trauer,,,
+111,5,the fear for,um,die Angst,,,
+112,5,the effort for,um,das Bemühen,,,
+113,5,the conviction of,von,die Überzeugung,,,
+114,5,the congratulations on,zu,die Gratulation,,,
+115,5,the ability to,zu,die Fähigkeit,,,
+116,5,the fear of,vor,die Furcht,,,
+117,6,Der Gedanke _____ die Prüfung macht ihn nervös.,an,Der Gedanke an die Prüfung macht ihn nervös.,The thought of the exam makes him nervous.,,Gedanke
+118,6,Ihr Gedanke _____ die gemeinsame Zeit machte sie glücklich.,an,Ihr Gedanke an die gemeinsame Zeit machte sie glücklich.,Her thought of the time together made her happy.,,Gedanke
+119,6,Die Änderung _____ den Vorschlägen wurde akzeptiert.,an,Die Änderung an den Vorschlägen wurde akzeptiert.,The change to the proposals was accepted.,,Änderung
+120,6,Die Änderung _____ der Software hat das Problem gelöst.,an,Die Änderung an der Software hat das Problem gelöst.,The change to the software solved the problem.,,Änderung
+121,6,Die Bewerbung _____ diese Stelle war ein Erfolg.,auf,Die Bewerbung auf diese Stelle war ein Erfolg.,The application for this position was a success.,,Bewerbung
+122,6,Seine Bewerbung _____ das Praktikum wurde akzeptiert.,auf,Seine Bewerbung auf das Praktikum wurde akzeptiert.,His application for the internship was accepted.,,Bewerbung
+123,6,Die Reaktion _____ die neuen Regeln war positiv.,auf,Die Reaktion auf die neuen Regeln war positiv.,The reaction to the new rules was positive.,,Reaktion
+124,6,Seine Reaktion _____ den Vorschlag war unerwartet.,auf,Seine Reaktion auf den Vorschlag war unerwartet.,His reaction to the proposal was unexpected.,,Reaktion
+125,6,Der Anruf _____ der Hotline brachte schnelle Hilfe.,bei,Der Anruf bei der Hotline brachte schnelle Hilfe.,The call to the hotline brought quick help.,,Anruf
+126,6,Sein Anruf _____ der Firma wurde freundlich beantwortet.,bei,Sein Anruf bei der Firma wurde freundlich beantwortet.,His call to the company was answered kindly.,,Anruf
+127,6,Die Arbeit _____ diesem Unternehmen ist sehr anspruchsvoll.,bei,Die Arbeit bei diesem Unternehmen ist sehr anspruchsvoll.,The work at this company is very demanding.,,Arbeit
+128,6,Seine Arbeit _____ der Bank dauert schon zehn Jahre.,bei,Seine Arbeit bei der Bank dauert schon zehn Jahre.,His work at the bank has already lasted ten years.,,Arbeit
+129,6,Der Dank _____ ihre Hilfe war ehrlich und herzlich.,für,Der Dank für ihre Hilfe war ehrlich und herzlich.,The gratitude for her help was sincere and heartfelt.,,Dank
+130,6,Sein Dank _____ die Unterstützung wurde mit einem Geschenk ausgedrückt.,für,Sein Dank für die Unterstützung wurde mit einem Geschenk ausgedrückt.,His gratitude for the support was expressed with a gift.,,Dank
+131,6,Der Kampf _____ Diskriminierung dauert an.,gegen,Der Kampf gegen Diskriminierung dauert an.,The fight against discrimination continues.,,Kampf
+132,6,Ihr Kampf _____ die Ungerechtigkeit inspirierte viele.,gegen,Ihr Kampf gegen die Ungerechtigkeit inspirierte viele.,Her fight against injustice inspired many.,,Kampf
+133,6,Die Debatte _____ dem Experten war aufschlussreich.,mit,Die Debatte mit dem Experten war aufschlussreich.,The debate with the expert was insightful.,,Debatte
+134,6,Ihre Debatte _____ dem Politiker war spannend.,mit,Ihre Debatte mit dem Politiker war spannend.,Her debate with the politician was exciting.,,Debatte
+135,6,Die Freundschaft _____ ihr war ihm sehr wichtig.,mit,Die Freundschaft mit ihr war ihm sehr wichtig.,The friendship with her was very important to him.,,Freundschaft
+136,6,Seine Freundschaft _____ dem Nachbarn wurde immer enger.,mit,Seine Freundschaft mit dem Nachbarn wurde immer enger.,His friendship with the neighbor grew closer.,,Freundschaft
+137,6,Der Duft _____ frischem Brot erfüllte den Raum.,nach,Der Duft nach frischem Brot erfüllte den Raum.,The scent of fresh bread filled the room.,,Duft
+138,6,Der Duft _____ Blumen erinnerte sie an den Frühling.,nach,Der Duft nach Blumen erinnerte sie an den Frühling.,The scent of flowers reminded her of spring.,,Duft
+139,6,Die Freude _____ den Gewinn war riesig.,über,Die Freude über den Gewinn war riesig.,The joy about the win was enormous.,,Freude
+140,6,Seine Freude _____ die Überraschung war nicht zu übersehen.,über,Seine Freude über die Überraschung war nicht zu übersehen.,His joy about the surprise was unmistakable.,,Freude
+141,6,Der Streit _____ das Budget dauerte Stunden.,über,Der Streit über das Budget dauerte Stunden.,The argument about the budget lasted for hours.,,Streit
+142,6,Ihr Streit _____ die Zukunftspläne endete ohne Ergebnis.,über,Ihr Streit über die Zukunftspläne endete ohne Ergebnis.,Their argument about future plans ended without a result.,,Streit
+143,6,Die Trauer _____ den Verlust war überall spürbar.,über,Die Trauer über den Verlust war überall spürbar.,The grief over the loss was palpable everywhere.,,Trauer
+144,6,Seine Trauer _____ den Tod seines Freundes war tief.,über,Seine Trauer über den Tod seines Freundes war tief.,His grief over the death of his friend was profound.,,Trauer
+145,6,Die Angst _____ die Sicherheit der Kinder war groß.,um,Die Angst um die Sicherheit der Kinder war groß.,The fear for the safety of the children was significant.,,Angst
+146,6,Ihre Angst _____ die Gesundheit ihrer Familie ließ sie nicht los.,um,Ihre Angst um die Gesundheit ihrer Familie ließ sie nicht los.,Her fear for her family's health didn't leave her.,,Angst
+147,6,Das Bemühen _____ eine Lösung war spürbar.,um,Das Bemühen um eine Lösung war spürbar.,The effort to find a solution was noticeable.,,Bemühen
+148,6,Ihr Bemühen _____ Gerechtigkeit beeindruckte viele.,um,Ihr Bemühen um Gerechtigkeit beeindruckte viele.,Her effort for justice impressed many.,,Bemühen
+149,6,Die Überzeugung _____ der Notwendigkeit der Reform war stark.,von,Die Überzeugung von der Notwendigkeit der Reform war stark.,The conviction of the need for reform was strong.,,Überzeugung
+150,6,Seine Überzeugung _____ ihrer Ehrlichkeit blieb unerschütterlich.,von,Seine Überzeugung von ihrer Ehrlichkeit blieb unerschütterlich.,His conviction of her honesty remained unwavering.,,Überzeugung
+151,6,Die Gratulation _____ seinem Sieg war ehrlich gemeint.,zu,Die Gratulation zu seinem Sieg war ehrlich gemeint.,The congratulations on his victory were sincere.,,Gratulation
+152,6,Ihre Gratulation _____ seiner Beförderung war herzlich.,zu,Ihre Gratulation zu seiner Beförderung war herzlich.,Her congratulations on his promotion were heartfelt.,,Gratulation
+153,6,Die Fähigkeit _____ schneller Analyse ist ein Vorteil.,zu,Die Fähigkeit zu schneller Analyse ist ein Vorteil.,The ability for quick analysis is an advantage.,,Fähigkeit
+154,6,Ihre Fähigkeit _____ kreativen Lösungen beeindruckte viele.,zu,Ihre Fähigkeit zu kreativen Lösungen beeindruckte viele.,Her ability for creative solutions impressed many.,,Fähigkeit
+155,6,Die Furcht _____ der Prüfung ließ ihn nicht schlafen.,vor,Die Furcht vor der Prüfung ließ ihn nicht schlafen.,The fear of the exam kept him awake.,,Furcht
+156,6,Seine Furcht _____ Ablehnung war sichtbar.,vor,Seine Furcht vor Ablehnung war sichtbar.,His fear of rejection was visible.,,Furcht
+157,7,the description as,als,die Beschreibung,,,
+158,7,the guilt for,an,die Schuld,,,
+159,7,the participation in,an,die Teilnahme,,,
+160,7,the trust in,auf,das Vertrauen,,,
+161,7,the effect on,auf,die Wirkung,,,
+162,7,the complaint to,bei,die Beschwerde,,,
+163,7,the application to,bei,die Bewerbung,,,
+164,7,the fight for,für,der Kampf,,,
+165,7,the vote for,für,die Stimme,,,
+166,7,the demonstration against,gegen,die Demonstration,,,
+167,7,the fight with,mit,der Kampf,,,
+168,7,the taste of,nach,der Geschmack,,,
+169,7,the rage about,über,die Wut,,,
+170,7,the report about,über,der Bericht,,,
+171,7,the complaint about,über,die Beschwerde,,,
+172,7,the application for,um,die Bewerbung,,,
+173,7,the fight for,um,der Kampf,,,
+174,7,the election to,zu,die Wahl,,,
+175,7,the contribution to,zu,der Beitrag,,,
+176,7,the preparation for,auf,die Vorbereitung,,,
+177,8,Die Beschreibung _____ ein talentierter Künstler passt zu ihm.,als,Die Beschreibung als ein talentierter Künstler passt zu ihm.,The description as a talented artist suits him.,,Beschreibung
+178,8,Ihre Beschreibung _____ eine zuverlässige Person überzeugt alle.,als,Ihre Beschreibung als eine zuverlässige Person überzeugt alle.,Her description as a reliable person convinces everyone.,,Beschreibung
+179,8,Die Schuld _____ Fehler wurde auf ihn geschoben.,am,Die Schuld am Fehler wurde auf ihn geschoben.,The blame for the mistake was put on him.,,Schuld
+180,8,Er übernahm die Schuld _____ Missverständnis.,am,Er übernahm die Schuld am Missverständnis.,He took the blame for the misunderstanding.,,Schuld
+181,8,Seine Teilnahme _____ Wettbewerb brachte ihm Anerkennung.,am,Seine Teilnahme am Wettbewerb brachte ihm Anerkennung.,His participation in the competition brought him recognition.,,Teilnahme
+182,8,Die Teilnahme _____ der Konferenz war sehr lehrreich.,an,Die Teilnahme an der Konferenz war sehr lehrreich.,The participation in the conference was very educational.,,Teilnahme
+183,8,Das Vertrauen _____ seine Erfahrung ist groß.,auf,Das Vertrauen auf seine Erfahrung ist groß.,The trust in his experience is strong.,,Vertrauen
+184,8,Ihr Vertrauen _____ das Team motiviert alle.,auf,Ihr Vertrauen auf das Team motiviert alle.,Her trust in the team motivates everyone.,,Vertrauen
+185,8,Die Wirkung _____ die Zuschauer war enorm.,auf,Die Wirkung auf die Zuschauer war enorm.,The effect on the audience was enormous.,,Wirkung
+186,8,Die Medikamente haben eine schnelle Wirkung _____ die Schmerzen.,auf,Die Medikamente haben eine schnelle Wirkung auf die Schmerzen.,The medication has a quick effect on the pain.,,Wirkung
+187,8,Die Beschwerde _____ der Verwaltung wurde ignoriert.,bei,Die Beschwerde bei der Verwaltung wurde ignoriert.,The complaint to the administration was ignored.,,Beschwerde
+188,8,Seine Beschwerde _____ der Leitung führte zu einer Lösung.,bei,Seine Beschwerde bei der Leitung führte zu einer Lösung.,His complaint to the management led to a solution.,,Beschwerde
+189,8,Die Bewerbung _____ der Universität war erfolgreich.,bei,Die Bewerbung bei der Universität war erfolgreich.,The application to the university was successful.,,Bewerbung
+190,8,Seine Bewerbung _____ der Firma wurde angenommen.,bei,Seine Bewerbung bei der Firma wurde angenommen.,His application to the company was accepted.,,Bewerbung
+191,8,Der Kampf _____ soziale Gerechtigkeit ist noch nicht beendet.,für,Der Kampf für soziale Gerechtigkeit ist noch nicht beendet.,The fight for social justice is not yet over.,,Kampf
+192,8,Ihr Kampf _____ bessere Arbeitsbedingungen hat sich gelohnt.,für,Ihr Kampf für bessere Arbeitsbedingungen hat sich gelohnt.,Her fight for better working conditions paid off.,,Kampf
+193,8,Ihre Stimme _____ den Kandidaten machte den Unterschied.,für,Ihre Stimme für den Kandidaten machte den Unterschied.,Her vote for the candidate made the difference.,,Stimme
+194,8,Die Stimme _____ die Reform wurde einstimmig abgegeben.,für,Die Stimme für die Reform wurde einstimmig abgegeben.,The vote for the reform was unanimous.,,Stimme
+195,8,Die Demonstration _____ den Krieg zog viele Menschen an.,gegen,Die Demonstration gegen den Krieg zog viele Menschen an.,The demonstration against the war attracted many people.,,Demonstration
+196,8,Ihre Demonstration _____ die Umweltzerstörung war friedlich.,gegen,Ihre Demonstration gegen die Umweltzerstörung war friedlich.,Their demonstration against environmental destruction was peaceful.,,Demonstration
+197,8,Der Kampf _____ den Umständen war schwierig.,mit,Der Kampf mit den Umständen war schwierig.,The fight with the circumstances was difficult.,,Kampf
+198,8,Ihr Kampf _____ der Krankheit dauerte Jahre.,mit,Ihr Kampf mit der Krankheit dauerte Jahre.,Her fight with the illness lasted for years.,,Kampf
+199,8,Der Geschmack _____ Zimt war angenehm.,nach,Der Geschmack nach Zimt war angenehm.,The taste of cinnamon was pleasant.,,Geschmack
+200,8,Der Geschmack _____ frischen Kräutern passte perfekt zum Gericht.,nach,Der Geschmack nach frischen Kräutern passte perfekt zum Gericht.,The taste of fresh herbs was perfect for the dish.,,Geschmack
+201,8,Die Wut _____ die ungerechte Behandlung war groß.,über,Die Wut über die ungerechte Behandlung war groß.,The anger about the unfair treatment was significant.,,Wut
+202,8,Ihre Wut _____ den Fehler wurde immer lauter.,über,Ihre Wut über den Fehler wurde immer lauter.,Her anger about the mistake grew louder and louder.,,Wut
+203,8,Der Bericht _____ die aktuellen Ereignisse war sehr informativ.,über,Der Bericht über die aktuellen Ereignisse war sehr informativ.,The report about the current events was very informative.,,Bericht
+204,8,Ihr Bericht _____ die Reise nach Afrika faszinierte alle.,über,Ihr Bericht über die Reise nach Afrika faszinierte alle.,Her report about the trip to Africa fascinated everyone.,,Bericht
+205,8,Die Beschwerde _____ den Service wurde schnell bearbeitet.,über,Die Beschwerde über den Service wurde schnell bearbeitet.,The complaint about the service was processed quickly.,,Beschwerde
+206,8,Seine Beschwerde _____ die laute Musik wurde ignoriert.,über,Seine Beschwerde über die laute Musik wurde ignoriert.,His complaint about the loud music was ignored.,,Beschwerde
+207,8,Seine Bewerbung _____ die Stelle wurde akzeptiert.,um,Seine Bewerbung um die Stelle wurde akzeptiert.,His application for the position was accepted.,,Bewerbung
+208,8,Die Bewerbung _____ ein Stipendium ist eingereicht.,um,Die Bewerbung um ein Stipendium ist eingereicht.,The application for a scholarship has been submitted.,,Bewerbung
+209,8,Der Kampf _____ die Führung war hart.,um,Der Kampf um die Führung war hart.,The fight for leadership was tough.,,Kampf
+210,8,Ihr Kampf _____ Anerkennung dauerte Jahre.,um,Ihr Kampf um Anerkennung dauerte Jahre.,Her fight for recognition lasted years.,,Kampf
+211,8,Die Wahl _____ ihrem Vorsitzenden wurde einstimmig getroffen.,zu,Die Wahl zu ihrem Vorsitzenden wurde einstimmig getroffen.,The election as their chairperson was unanimous.,,Wahl
+212,8,Seine Wahl _____ diesem Posten überraschte viele.,zu,Seine Wahl zu diesem Posten überraschte viele.,His election to this position surprised many.,,Wahl
+213,8,Der Beitrag _____ Projekt war entscheidend.,zum,Der Beitrag zum Projekt war entscheidend.,The contribution to the project was crucial.,,Beitrag
+214,8,Sein Beitrag _____ Diskussion brachte neue Perspektiven.,zur,Sein Beitrag zur Diskussion brachte neue Perspektiven.,His contribution to the discussion brought new perspectives.,,Beitrag
+215,8,Die Vorbereitung _____ die Prüfung lief reibungslos.,auf,Die Vorbereitung auf die Prüfung lief reibungslos.,The preparation for the exam went smoothly.,,Vorbereitung
+216,8,Seine Vorbereitung _____ den Wettbewerb war gründlich.,auf,Seine Vorbereitung auf den Wettbewerb war gründlich.,His preparation for the competition was thorough.,,Vorbereitung
+217,9,the doubt about,an,der Zweifel,,,
+218,9,the interest in,an,das Interesse,,,
+219,9,the joy for,auf,die Freude,,,
+220,9,the tension about,auf,die Spannung,,,
+221,9,the apology to,bei,die Entschuldigung,,,
+222,9,the responsibility for,für,die Verantwortung,,,
+223,9,the advertisement for,für,die Werbung,,,
+224,9,the vote against,gegen,die Stimme,,,
+225,9,the argument with,mit,der Streit,,,
+226,9,the debate about,über,die Debatte,,,
+227,9,the information about,über,die Information,,,
+228,9,the speech about,über,die Rede,,,
+229,9,the knowledge about,über,das Wissen,,,
+230,9,the game for,um,das Spiel,,,
+231,9,the argument for,um,der Streit,,,
+232,9,the bet for,um,die Wette,,,
+233,9,the warning of,vor,die Warnung,,,
+234,9,the advice on,zu,der Rat,,,
+235,9,the demonstration for,für,die Demonstration,,,
+236,10,Der Zweifel _____ ihrer Aussage wuchs.,an,Der Zweifel an ihrer Aussage wuchs.,The doubt about her statement grew.,,Zweifel
+237,10,Er äußerte Zweifel _____ der Richtigkeit der Ergebnisse.,an,Er äußerte Zweifel an der Richtigkeit der Ergebnisse.,He expressed doubts about the accuracy of the results.,,Zweifel
+238,10,"Viele Studierende zeigen großes Interesse _____ nachhaltigen Energielösungen, besonders im Rahmen ihrer Abschlussarbeiten.",an,"Viele Studierende zeigen großes Interesse an nachhaltigen Energielösungen, besonders im Rahmen ihrer Abschlussarbeiten.","Many students show great interest in sustainable energy solutions, especially as part of their final projects.",,Interesse
+239,10,Sein Interesse _____ moderner Kunst wurde durch einen Besuch im Museum deutlich verstärkt.,an,Sein Interesse an moderner Kunst wurde durch einen Besuch im Museum deutlich verstärkt.,His interest in modern art was significantly enhanced by a visit to the museum.,,Interesse
+240,10,Die Freude _____ den Urlaub war groß.,auf,Die Freude auf den Urlaub war groß.,The joy about the upcoming vacation was immense.,,Freude
+241,10,Er konnte seine Freude _____ die Reise kaum verbergen.,auf,Er konnte seine Freude auf die Reise kaum verbergen.,He could hardly hide his joy about the trip.,,Freude
+242,10,Die Spannung _____ die Ergebnisse war kaum auszuhalten.,auf,Die Spannung auf die Ergebnisse war kaum auszuhalten.,The anticipation for the results was almost unbearable.,,Spannung
+243,10,Die Spannung _____ das Finale war spürbar.,auf,Die Spannung auf das Finale war spürbar.,The anticipation for the final was palpable.,,Spannung
+244,10,Die Entschuldigung _____ ihrer Freundin war aufrichtig.,bei,Die Entschuldigung bei ihrer Freundin war aufrichtig.,The apology to her friend was sincere.,,Entschuldigung
+245,10,Seine Entschuldigung _____ der Lehrerin wurde angenommen.,bei,Seine Entschuldigung bei der Lehrerin wurde angenommen.,His apology to the teacher was accepted.,,Entschuldigung
+246,10,Die Verantwortung _____ das Projekt liegt bei ihm.,für,Die Verantwortung für das Projekt liegt bei ihm.,The responsibility for the project lies with him.,,Verantwortung
+247,10,Ihre Verantwortung _____ die Kinder ist ihr wichtig.,für,Ihre Verantwortung für die Kinder ist ihr wichtig.,Her responsibility for the children is important to her.,,Verantwortung
+248,10,Die Werbung _____ das neue Produkt war sehr effektiv.,für,Die Werbung für das neue Produkt war sehr effektiv.,The advertisement for the new product was very effective.,,Werbung
+249,10,Die Werbung _____ den Film läuft auf allen Kanälen.,für,Die Werbung für den Film läuft auf allen Kanälen.,The advertisement for the film is running on all channels.,,Werbung
+250,10,Die Stimme _____ den Vorschlag wurde laut geäußert.,gegen,Die Stimme gegen den Vorschlag wurde laut geäußert.,The vote against the proposal was expressed loudly.,,Stimme
+251,10,Ihre Stimme _____ den Plan beeinflusste die Entscheidung.,gegen,Ihre Stimme gegen den Plan beeinflusste die Entscheidung.,Her vote against the plan influenced the decision.,,Stimme
+252,10,Der Streit _____ seinem Bruder war schnell vergessen.,mit,Der Streit mit seinem Bruder war schnell vergessen.,The argument with his brother was quickly forgotten.,,Streit
+253,10,Ihr Streit _____ der Kollegin eskalierte schnell.,mit,Ihr Streit mit der Kollegin eskalierte schnell.,Her argument with the colleague escalated quickly.,,Streit
+254,10,Die Debatte _____ die neue Steuer war hitzig.,über,Die Debatte über die neue Steuer war hitzig.,The debate about the new tax was heated.,,Debatte
+255,10,Ihre Debatte _____ die Umweltpolitik zog viele Zuhörer an.,über,Ihre Debatte über die Umweltpolitik zog viele Zuhörer an.,Their debate about environmental policy attracted many listeners.,,Debatte
+256,10,Die Information _____ die Änderungen wurde per E-Mail verschickt.,über,Die Information über die Änderungen wurde per E-Mail verschickt.,The information about the changes was sent via email.,,Information
+257,10,Er suchte nach mehr Informationen _____ die Firma.,über,Er suchte nach mehr Informationen über die Firma.,He looked for more information about the company.,,Information
+258,10,Die Rede _____ die Zukunft des Unternehmens war inspirierend.,über,Die Rede über die Zukunft des Unternehmens war inspirierend.,The speech about the company's future was inspiring.,,Rede
+259,10,Ihre Rede _____ Gleichberechtigung erhielt viel Applaus.,über,Ihre Rede über Gleichberechtigung erhielt viel Applaus.,Her speech about equality received a lot of applause.,,Rede
+260,10,Sein Wissen _____ Geschichte beeindruckte alle.,über,Sein Wissen über Geschichte beeindruckte alle.,His knowledge about history impressed everyone.,,Wissen
+261,10,Ihr Wissen _____ Technik ist bemerkenswert.,über,Ihr Wissen über Technik ist bemerkenswert.,Her knowledge about technology is remarkable.,,Wissen
+262,10,Das Spiel _____ den Pokal war spannend.,um,Das Spiel um den Pokal war spannend.,The game for the trophy was exciting.,,Spiel
+263,10,Ihr Spiel _____ den Sieg zog viele Zuschauer an.,um,Ihr Spiel um den Sieg zog viele Zuschauer an.,Their game for victory attracted many spectators.,,Spiel
+264,10,Der Streit _____ das Erbe spaltete die Familie.,um,Der Streit um das Erbe spaltete die Familie.,The argument about the inheritance divided the family.,,Streit
+265,10,Ihr Streit _____ die Zuständigkeiten eskalierte schnell.,um,Ihr Streit um die Zuständigkeiten eskalierte schnell.,Their argument about responsibilities escalated quickly.,,Streit
+266,10,Die Wette _____ 50 Euro wurde ernst genommen.,um,Die Wette um 50 Euro wurde ernst genommen.,The bet for 50 euros was taken seriously.,,Wette
+267,10,Seine Wette _____ den Ausgang des Spiels sorgte für Spannung.,um,Seine Wette um den Ausgang des Spiels sorgte für Spannung.,His bet on the outcome of the game created excitement.,,Wette
+268,10,Die Warnung _____ dem Sturm kam rechtzeitig.,vor,Die Warnung vor dem Sturm kam rechtzeitig.,The warning about the storm came in time.,,Warnung
+269,10,Ihre Warnung _____ den Gefahren wurde ernst genommen.,vor,Ihre Warnung vor den Gefahren wurde ernst genommen.,Her warning about the dangers was taken seriously.,,Warnung
+270,10,Der Rat _____ mehr Geduld war hilfreich.,zu,Der Rat zu mehr Geduld war hilfreich.,The advice for more patience was helpful.,,Rat
+271,10,Ihr Rat _____ diesem Thema wurde ernst genommen.,zu,Ihr Rat zu diesem Thema wurde ernst genommen.,Her advice on this topic was taken seriously.,,Rat
+272,10,Die Demonstration _____ mehr Lohn war friedlich.,für,Die Demonstration für mehr Lohn war friedlich.,The demonstration for higher wages was peaceful.,,Demonstration
+273,10,Es gab eine große Demonstration _____ die Rechte der Minderheiten.,für,Es gab eine große Demonstration für die Rechte der Minderheiten.,There was a large demonstration for minority rights.,,Demonstration
+274,11,the designation as,als,die Bezeichnung,,,
+275,11,the adaptation to,an,die Anpassung,,,
+276,11,the revenge on,an,die Rache,,,
+277,11,the jealousy of,auf,die Eifersucht,,,
+278,11,the envy of,auf,der Neid,,,
+279,11,the composition of,aus,die Zusammensetzung,,,
+280,11,the revenge for,für,die Rache,,,
+281,11,the violation of,gegen,der Verstoß,,,
+282,11,the distinction in,in,die Unterscheidung,,,
+283,11,the agreement with,mit,die Einigung,,,
+284,11,the conversation with,mit,die Unterhaltung,,,
+285,11,the call for,nach,der Ruf,,,
+286,11,the excitement about,über,die Aufregung,,,
+287,11,the entertainment about,über,die Unterhaltung,,,
+288,11,the dependence on,von,die Abhängigkeit,,,
+289,11,the escape from,vor,die Flucht,,,
+290,11,the readiness for,zu,die Bereitschaft,,,
+291,11,the belonging to,zu,die Zugehörigkeit,,,
+292,11,the education to,zu,die Erziehung,,,
+293,11,the decision to,zu,der Entschluss,,,
+294,12,Die Bezeichnung _____ Held ist übertrieben.,als,Die Bezeichnung als Held ist übertrieben.,The designation as a hero is exaggerated.,,Bezeichnung
+295,12,Seine Bezeichnung _____ Experte wurde anerkannt.,als,Seine Bezeichnung als Experte wurde anerkannt.,His designation as an expert was acknowledged.,,Bezeichnung
+296,12,Die Anpassung _____ neue Umstände fiel ihr leicht.,an,Die Anpassung an neue Umstände fiel ihr leicht.,Adapting to new circumstances was easy for her.,,Anpassung
+297,12,Die Anpassung _____ Klima dauerte mehrere Wochen.,ans,Die Anpassung ans Klima dauerte mehrere Wochen.,The adaptation to the climate took several weeks.,,Anpassung
+298,12,Die Rache _____ Täter war grausam.,am,Die Rache am Täter war grausam.,The revenge on the perpetrator was cruel.,,Rache
+299,12,Ihre Rache _____ ihm war wohlüberlegt.,an,Ihre Rache an ihm war wohlüberlegt.,Her revenge on him was deliberate.,,Rache
+300,12,Ihre Eifersucht _____ seine Kollegin war offensichtlich.,auf,Ihre Eifersucht auf seine Kollegin war offensichtlich.,Her jealousy of his colleague was obvious.,,Eifersucht
+301,12,Die Eifersucht _____ den Erfolg anderer kann zerstörerisch sein.,auf,Die Eifersucht auf den Erfolg anderer kann zerstörerisch sein.,Jealousy of others’ success can be destructive.,,Eifersucht
+302,12,Sein Neid _____ den Nachbarn war unbegründet.,auf,Sein Neid auf den Nachbarn war unbegründet.,His envy of the neighbor was unfounded.,,Neid
+303,12,Der Neid _____ ihren Erfolg war nicht zu übersehen.,auf,Der Neid auf ihren Erfolg war nicht zu übersehen.,The envy of her success was noticeable.,,Neid
+304,12,Die Zusammensetzung _____ verschiedenen Stoffen macht das Produkt aus.,aus,Die Zusammensetzung aus verschiedenen Stoffen macht das Produkt aus.,The composition from various materials defines the product.,,Zusammensetzung
+305,12,Die Zusammensetzung _____ Experten unterschiedlicher Bereiche war sinnvoll.,aus,Die Zusammensetzung aus Experten unterschiedlicher Bereiche war sinnvoll.,The composition of experts from different fields made sense.,,Zusammensetzung
+306,12,Sie schwor Rache _____ den Betrug.,für,Sie schwor Rache für den Betrug.,She swore revenge for the betrayal.,,Rache
+307,12,Die Rache _____ das Unrecht ließ nicht lange auf sich warten.,für,Die Rache für das Unrecht ließ nicht lange auf sich warten.,The revenge for the injustice came quickly.,,Rache
+308,12,Sein Verstoß _____ die Regeln blieb nicht unbestraft.,gegen,Sein Verstoß gegen die Regeln blieb nicht unbestraft.,His violation of the rules did not go unpunished.,,Verstoß
+309,12,Der Verstoß _____ das Gesetz wurde angezeigt.,gegen,Der Verstoß gegen das Gesetz wurde angezeigt.,The violation of the law was reported.,,Verstoß
+310,12,Die Unterscheidung _____ Gruppen hilft beim Verständnis.,in,Die Unterscheidung in Gruppen hilft beim Verständnis.,The distinction into groups helps with understanding.,,Unterscheidung
+311,12,Die Unterscheidung _____ Kategorien ist nicht immer einfach.,in,Die Unterscheidung in Kategorien ist nicht immer einfach.,The classification into categories is not always easy.,,Unterscheidung
+312,12,Die Einigung _____ dem Partner wurde schriftlich festgehalten.,mit,Die Einigung mit dem Partner wurde schriftlich festgehalten.,The agreement with the partner was put in writing.,,Einigung
+313,12,Nach langer Diskussion kam es zur Einigung _____ der Gewerkschaft.,mit,Nach langer Diskussion kam es zur Einigung mit der Gewerkschaft.,"After long discussion, an agreement was reached with the union.",,Einigung
+314,12,Die Unterhaltung _____ dem Gast war sehr angenehm.,mit,Die Unterhaltung mit dem Gast war sehr angenehm.,The conversation with the guest was very pleasant.,,Unterhaltung
+315,12,Ich hatte eine interessante Unterhaltung _____ meiner Nachbarin.,mit,Ich hatte eine interessante Unterhaltung mit meiner Nachbarin.,I had an interesting conversation with my neighbor.,,Unterhaltung
+316,12,Sein Ruf _____ Freiheit wurde laut.,nach,Sein Ruf nach Freiheit wurde laut.,His call for freedom was loud.,,Ruf
+317,12,Der Ruf _____ Reformen wird immer stärker.,nach,Der Ruf nach Reformen wird immer stärker.,The call for reforms is getting stronger.,,Ruf
+318,12,Die Aufregung _____ das Ergebnis war groß.,über,Die Aufregung über das Ergebnis war groß.,The excitement about the result was huge.,,Aufregung
+319,12,Ihre Aufregung _____ den Besuch war spürbar.,über,Ihre Aufregung über den Besuch war spürbar.,Her excitement about the visit was noticeable.,,Aufregung
+320,12,Die Unterhaltung _____ Politik war sehr spannend.,über,Die Unterhaltung über Politik war sehr spannend.,The conversation about politics was very interesting.,,Unterhaltung
+321,12,Unsere Unterhaltung _____ das Buch dauerte stundenlang.,über,Unsere Unterhaltung über das Buch dauerte stundenlang.,Our conversation about the book lasted for hours.,,Unterhaltung
+322,12,Die Abhängigkeit _____ Alkohol wurde behandelt.,von,Die Abhängigkeit von Alkohol wurde behandelt.,The dependence on alcohol was treated.,,Abhängigkeit
+323,12,Seine Abhängigkeit _____ Geld war offensichtlich.,von,Seine Abhängigkeit von Geld war offensichtlich.,His dependence on money was obvious.,,Abhängigkeit
+324,12,Die Flucht _____ dem Feind war erfolgreich.,vor,Die Flucht vor dem Feind war erfolgreich.,The escape from the enemy was successful.,,Flucht
+325,12,Seine Flucht _____ der Verantwortung wurde kritisiert.,vor,Seine Flucht vor der Verantwortung wurde kritisiert.,His escape from responsibility was criticized.,,Flucht
+326,12,Die Bereitschaft _____ Veränderungen ist gering.,zu,Die Bereitschaft zu Veränderungen ist gering.,The willingness for change is low.,,Bereitschaft
+327,12,Seine Bereitschaft _____ helfen war beeindruckend.,zu,Seine Bereitschaft zu helfen war beeindruckend.,His willingness to help was impressive.,,Bereitschaft
+328,12,Die Zugehörigkeit _____ dieser Gruppe war freiwillig.,zu,Die Zugehörigkeit zu dieser Gruppe war freiwillig.,Belonging to this group was voluntary.,,Zugehörigkeit
+329,12,Die Zugehörigkeit _____ einer Nation prägt die Identität.,zu,Die Zugehörigkeit zu einer Nation prägt die Identität.,Belonging to a nation shapes identity.,,Zugehörigkeit
+330,12,Die Erziehung _____ Selbstständigkeit beginnt früh.,zu,Die Erziehung zu Selbstständigkeit beginnt früh.,Upbringing toward independence starts early.,,Erziehung
+331,12,Die Erziehung _____ Toleranz ist wichtig.,zu,Die Erziehung zu Toleranz ist wichtig.,Education toward tolerance is important.,,Erziehung
+332,12,Der Entschluss _____ einem Neuanfang fiel schwer.,zu,Der Entschluss zu einem Neuanfang fiel schwer.,The decision to make a fresh start was hard.,,Entschluss
+333,12,Ihr Entschluss _____ dieser Reise war spontan.,zu,Ihr Entschluss zu dieser Reise war spontan.,Her decision to take this trip was spontaneous.,,Entschluss
+334,13,the reputation as,als,das Ansehen,,,
+335,13,the suffering from,an,das Leiden,,,
+336,13,the curiosity about,auf,die Neugier,,,
+337,13,the agreement on,auf,die Einigung,,,
+338,13,the waiver of,auf,der Verzicht,,,
+339,13,the suitability for,für,die Eignung,,,
+340,13,the immunity against,gegen,die Immunität,,,
+341,13,the error in,in,der Irrtum,,,
+342,13,the deception in,in,die Täuschung,,,
+343,13,the phone call with,mit,das Telefonat,,,
+344,13,the inquiry about,nach,die Erkundigung,,,
+345,13,the stink of,nach,der Gestank,,,
+346,13,the horror of,über,das Entsetzen,,,
+347,13,the mockery of,über,der Spott,,,
+348,13,the liberation from,von,die Befreiung,,,
+349,13,the protection against,vor,der Schutz,,,
+350,13,the appointment as,zu,die Ernennung,,,
+351,13,the tendency to,zu,die Neigung,,,
+352,13,the request to,zu,die Aufforderung,,,
+353,13,the persuasion to,zu,die Überredung,,,
+354,14,Sein Ansehen _____ Experte wurde nie infrage gestellt.,als,Sein Ansehen als Experte wurde nie infrage gestellt.,His reputation as an expert was never questioned.,,Ansehen
+355,14,Das Ansehen _____ zuverlässiger Partner ist wichtig.,als,Das Ansehen als zuverlässiger Partner ist wichtig.,Reputation as a reliable partner is important.,,Ansehen
+356,14,Das Leiden _____ Schlaflosigkeit beeinträchtigt ihn stark.,an,Das Leiden an Schlaflosigkeit beeinträchtigt ihn stark.,The suffering from insomnia affects him severely.,,Leiden
+357,14,Ihr Leiden _____ Migräne ist chronisch.,an,Ihr Leiden an Migräne ist chronisch.,Her suffering from migraines is chronic.,,Leiden
+358,14,Die Neugier _____ das neue Produkt war spürbar.,auf,Die Neugier auf das neue Produkt war spürbar.,The curiosity about the new product was noticeable.,,Neugier
+359,14,Seine Neugier _____ die Lösung des Rätsels war groß.,auf,Seine Neugier auf die Lösung des Rätsels war groß.,His curiosity about the solution to the puzzle was great.,,Neugier
+360,14,Die Einigung _____ einen Vertrag dauerte lange.,auf,Die Einigung auf einen Vertrag dauerte lange.,Agreement on a contract took a long time.,,Einigung
+361,14,Es kam zur Einigung _____ einen gemeinsamen Plan.,auf,Es kam zur Einigung auf einen gemeinsamen Plan.,They reached an agreement on a common plan.,,Einigung
+362,14,Der Verzicht _____ Luxus fiel ihm schwer.,auf,Der Verzicht auf Luxus fiel ihm schwer.,Renouncing luxury was difficult for him.,,Verzicht
+363,14,Sein Verzicht _____ das Erbe überraschte alle.,auf,Sein Verzicht auf das Erbe überraschte alle.,His renunciation of the inheritance surprised everyone.,,Verzicht
+364,14,Ihre Eignung _____ die Stelle wurde überprüft.,für,Ihre Eignung für die Stelle wurde überprüft.,Her suitability for the position was reviewed.,,Eignung
+365,14,Die Eignung _____ den Beruf ist gesetzlich geregelt.,für,Die Eignung für den Beruf ist gesetzlich geregelt.,Suitability for the profession is legally regulated.,,Eignung
+366,14,Die Immunität _____ das Virus ist noch nicht vollständig entwickelt.,gegen,Die Immunität gegen das Virus ist noch nicht vollständig entwickelt.,Immunity against the virus is not yet fully developed.,,Immunität
+367,14,Viele Tiere besitzen eine natürliche Immunität _____ bestimmte Krankheiten.,gegen,Viele Tiere besitzen eine natürliche Immunität gegen bestimmte Krankheiten.,Many animals have natural immunity against certain diseases.,,Immunität
+368,14,Sein Irrtum _____ dieser Sache war offensichtlich.,in,Sein Irrtum in dieser Sache war offensichtlich.,His error in this matter was obvious.,,Irrtum
+369,14,Der Irrtum _____ der Berechnung führte zum Fehler.,in,Der Irrtum in der Berechnung führte zum Fehler.,The mistake in the calculation led to the error.,,Irrtum
+370,14,Die Täuschung _____ dieser Frage war beabsichtigt.,in,Die Täuschung in dieser Frage war beabsichtigt.,The deception in this matter was intentional.,,Täuschung
+371,14,Seine Täuschung _____ Details war schwer zu erkennen.,in,Seine Täuschung in Details war schwer zu erkennen.,His deception in details was hard to detect.,,Täuschung
+372,14,Das Telefonat _____ der Kundin dauerte eine Stunde.,mit,Das Telefonat mit der Kundin dauerte eine Stunde.,The phone call with the client lasted an hour.,,Telefonat
+373,14,Mein letztes Telefonat _____ ihm war sehr aufschlussreich.,mit,Mein letztes Telefonat mit ihm war sehr aufschlussreich.,My last phone call with him was very informative.,,Telefonat
+374,14,Die Erkundigung _____ dem Weg war erfolglos.,nach,Die Erkundigung nach dem Weg war erfolglos.,The inquiry about the way was unsuccessful.,,Ekundigung
+375,14,Seine Erkundigung _____ dem Preis wurde schnell beantwortet.,nach,Seine Erkundigung nach dem Preis wurde schnell beantwortet.,His inquiry about the price was quickly answered.,,Ekundigung
+376,14,Der Gestank _____ Verbranntem war unerträglich.,nach,Der Gestank nach Verbranntem war unerträglich.,The stench of something burnt was unbearable.,,Gestank
+377,14,Der Gestank _____ Abfall erfüllte den Raum.,nach,Der Gestank nach Abfall erfüllte den Raum.,The stench of garbage filled the room.,,Gestank
+378,14,Sein Entsetzen _____ den Unfall war deutlich.,über,Sein Entsetzen über den Unfall war deutlich.,His horror at the accident was obvious.,,Entsetzen
+379,14,Das Entsetzen _____ die Nachricht war allgemein.,über,Das Entsetzen über die Nachricht war allgemein.,The horror at the news was widespread.,,Entsetzen
+380,14,Sein Spott _____ den Vortrag war verletzend.,über,Sein Spott über den Vortrag war verletzend.,His mockery of the presentation was hurtful.,,Spott
+381,14,Der Spott _____ den Politiker war laut.,über,Der Spott über den Politiker war laut.,The mockery of the politician was loud.,,Spott
+382,14,Die Befreiung _____ der Last fiel ihm schwer.,von,Die Befreiung von der Last fiel ihm schwer.,Freeing himself from the burden was difficult.,,Befreiung
+383,14,Ihre Befreiung _____ der Verantwortung war notwendig.,von,Ihre Befreiung von der Verantwortung war notwendig.,Her release from responsibility was necessary.,,Befreiung
+384,14,Der Schutz _____ Kälte ist wichtig im Winter.,vor,Der Schutz vor Kälte ist wichtig im Winter.,Protection from the cold is important in winter.,,Schutz
+385,14,Der Schutz _____ Gefahren ist lebenswichtig.,vor,Der Schutz vor Gefahren ist lebenswichtig.,Protection from dangers is vital.,,Schutz
+386,14,Die Ernennung _____ Direktor war überraschend.,zum,Die Ernennung zum Direktor war überraschend.,The appointment as director was surprising.,,Ernennung
+387,14,Seine Ernennung _____ Präsidenten wurde gefeiert.,zum,Seine Ernennung zum Präsidenten wurde gefeiert.,His appointment as president was celebrated.,,Ernennung
+388,14,Ihre Neigung _____ Dramatik ist bekannt.,zu,Ihre Neigung zu Dramatik ist bekannt.,Her tendency toward drama is well known.,,Neigung
+389,14,Seine Neigung _____ Extremen ist gefährlich.,zu,Seine Neigung zu Extremen ist gefährlich.,His inclination toward extremes is dangerous.,,Neigung
+390,14,Die Aufforderung _____ Schweigen war deutlich.,zu,Die Aufforderung zu Schweigen war deutlich.,The request to be silent was clear.,,Aufforderung
+391,14,Seine Aufforderung _____ Rücksicht wurde ignoriert.,zu,Seine Aufforderung zu Rücksicht wurde ignoriert.,His request for consideration was ignored.,,Aufforderung
+392,14,Seine Überredung _____ dieser Handlung war erfolgreich.,zu,Seine Überredung zu dieser Handlung war erfolgreich.,His persuasion to this action was successful.,,Überredung
+393,14,Die Überredung _____ Kauf war geschickt.,zum,Die Überredung zum Kauf war geschickt.,The persuasion to make the purchase was clever.,,Überredung
+394,15,the illness of,an,die Erkrankung,,,
+395,15,the orientation to,an,die Orientierung,,,
+396,15,the reference to,auf,der Bezug,,,
+397,15,the rage at,auf,die Wut,,,
+398,15,the emergence from,aus,die Entstehung,,,
+399,15,the commitment to,für,das Engagement,,,
+400,15,the defense against,gegen,die Verteidigung,,,
+401,15,the transformation into,in,die Verwandlung,,,
+402,15,the structure in,in,die Gliederung,,,
+403,15,the confrontation with,mit,die Auseinandersetzung,,,
+404,15,the longing for,nach,die Sehnsucht,,,
+405,15,the amazement about,über,die Verwunderung,,,
+406,15,the complaint about,über,die Klage,,,
+407,15,the astonishment at,über,das Erstaunen,,,
+408,15,the disgust for,vor,der Ekel,,,
+409,15,the congratulations on,zu,der Glückwunsch,,,
+410,15,the suitability to,zu,die Eignung,,,
+411,15,the suggestion to,zu,die Anregung,,,
+412,15,the transport to,zu,die Beförderung,,,
+413,15,the compulsion to,zu,der Zwang,,,
+414,16,Die Erkrankung _____ Grippe war mild.,an,Die Erkrankung an Grippe war mild.,The illness with flu was mild.,,Erkrankung
+415,16,Seine Erkrankung _____ Krebs wurde früh erk_____nt.,an,Seine Erkrankung an Krebs wurde früh erkannt.,His illness with cancer was detected early.,,Erkrankung
+416,16,Die Orientierung _____ den Zielen ist wichtig.,an,Die Orientierung an den Zielen ist wichtig.,Orientation toward the goals is important.,,Orientierung
+417,16,Seine Orientierung _____ traditionellen Werten prägt sein Handeln.,an,Seine Orientierung an traditionellen Werten prägt sein Handeln.,His orientation toward traditional values shapes his actions.,,Orientierung
+418,16,Sein Bezug _____ das alte Gesetz war ungenau.,auf,Sein Bezug auf das alte Gesetz war ungenau.,His reference to the old law was inaccurate.,,Bezug
+419,16,Ich nehme Bezug _____ Ihren letzten Brief.,auf,Ich nehme Bezug auf Ihren letzten Brief.,I refer to your last letter.,,Bezug
+420,16,Ihre Wut _____ den Chef war kaum zu übersehen.,auf,Ihre Wut auf den Chef war kaum zu übersehen.,Her anger at the boss was hard to miss.,,Wut
+421,16,Die Wut _____ den Verkehr wuchs mit jeder Minute.,auf,Die Wut auf den Verkehr wuchs mit jeder Minute.,The anger at the traffic grew by the minute.,,Wut
+422,16,Die Entstehung _____ einfachen Verhältnissen beeindruckte viele.,aus,Die Entstehung aus einfachen Verhältnissen beeindruckte viele.,His emergence from humble origins impressed many.,,Entstehung
+423,16,Die Entstehung _____ dieser Idee war unerwartet.,aus,Die Entstehung aus dieser Idee war unerwartet.,The emergence from this idea was unexpected.,,Entstehung
+424,16,Sein Engagement _____ den Umweltschutz ist beeindruckend.,für,Sein Engagement für den Umweltschutz ist beeindruckend.,His commitment to environmental protection is impressive.,,Engagement
+425,16,Das Engagement _____ soziale Projekte steigt.,für,Das Engagement für soziale Projekte steigt.,The commitment to social projects is increasing.,,Engagement
+426,16,Die Verteidigung _____ die Angriffe war gut organisiert.,gegen,Die Verteidigung gegen die Angriffe war gut organisiert.,The defense against the attacks was well organized.,,Verteidigung
+427,16,Seine Verteidigung _____ die Vorwürfe war überzeugend.,gegen,Seine Verteidigung gegen die Vorwürfe war überzeugend.,His defense against the accusations was convincing.,,Verteidigung
+428,16,Die Verwandlung _____ einen modernen Raum war beeindruckend.,in,Die Verwandlung in einen modernen Raum war beeindruckend.,The transformation into a modern space was impressive.,,Verwandlung
+429,16,Die Verwandlung _____ eine grüne Stadt ist ein großes Ziel.,in,Die Verwandlung in eine grüne Stadt ist ein großes Ziel.,The transformation into a green city is a big goal.,,Verwandlung
+430,16,Die Gliederung _____ Kapitel macht das Lesen einfacher.,in,Die Gliederung in Kapitel macht das Lesen einfacher.,The division into chapters makes reading easier.,,Gliederung
+431,16,Die Gliederung _____ Bereiche ist sinnvoll.,in,Die Gliederung in Bereiche ist sinnvoll.,The structure into sections is practical.,,Gliederung
+432,16,Die Auseinandersetzung _____ dem Thema war intensiv.,mit,Die Auseinandersetzung mit dem Thema war intensiv.,The engagement with the topic was intense.,,Auseinandersetzung
+433,16,Seine Auseinandersetzung _____ dem Gegner war hart.,mit,Seine Auseinandersetzung mit dem Gegner war hart.,His confrontation with the opponent was tough.,,Auseinandersetzung
+434,16,Ihre Sehnsucht _____ Ruhe wurde stärker.,nach,Ihre Sehnsucht nach Ruhe wurde stärker.,Her longing for peace grew stronger.,,Sehnsucht
+435,16,Die Sehnsucht _____ der Heimat begleitete ihn ständig.,nach,Die Sehnsucht nach der Heimat begleitete ihn ständig.,The longing for home followed him constantly.,,Sehnsucht
+436,16,Ihre Verwunderung _____ die Entscheidung war groß.,über,Ihre Verwunderung über die Entscheidung war groß.,Her astonishment about the decision was great.,,Verwunderung
+437,16,Meine Verwunderung _____ sein Verhalten war ehrlich.,über,Meine Verwunderung über sein Verhalten war ehrlich.,My surprise at his behavior was genuine.,,Verwunderung
+438,16,Ihre Klage _____ die Arbeitsbedingungen war berechtigt.,über,Ihre Klage über die Arbeitsbedingungen war berechtigt.,Her complaint about the working conditions was justified.,,Klage
+439,16,Die Klage _____ den Lärm wurde ignoriert.,über,Die Klage über den Lärm wurde ignoriert.,The complaint about the noise was ignored.,,Klage
+440,16,Das Erstaunen _____ die Reaktion war groß.,über,Das Erstaunen über die Reaktion war groß.,The astonishment at the reaction was great.,,Erstaunen
+441,16,Unser Erstaunen _____ den Sieg war ehrlich.,über,Unser Erstaunen über den Sieg war ehrlich.,Our amazement at the victory was genuine.,,Erstaunen
+442,16,Sein Ekel _____ dem Anblick war sichtbar.,vor,Sein Ekel vor dem Anblick war sichtbar.,His disgust at the sight was visible.,,Ekel
+443,16,Der Ekel _____ bestimmten Tieren ist weit verbreitet.,vor,Der Ekel vor bestimmten Tieren ist weit verbreitet.,Disgust toward certain animals is widespread.,,Ekel
+444,16,Der Glückwunsch _____ ihrem Erfolg war herzlich.,zu,Der Glückwunsch zu ihrem Erfolg war herzlich.,The congratulations on her success were heartfelt.,,Glückwunsch
+445,16,Sein Glückwunsch _____ ihrer Hochzeit war sehr persönlich.,zu,Sein Glückwunsch zu ihrer Hochzeit war sehr persönlich.,His congratulations on her wedding were very personal.,,Glückwunsch
+446,16,Die Eignung _____ diesem Beruf muss nachgewiesen werden.,zu,Die Eignung zu diesem Beruf muss nachgewiesen werden.,Suitability for this profession must be proven.,,Eignung
+447,16,Seine Eignung _____ dieser Aufgabe ist fraglich.,zu,Seine Eignung zu dieser Aufgabe ist fraglich.,His suitability for this task is questionable.,,Eignung
+448,16,Die Anregung _____ neuen Ideen war hilfreich.,zu,Die Anregung zu neuen Ideen war hilfreich.,The stimulation to new ideas was helpful.,,Anregung
+449,16,Die Anregung _____ Kreativität fehlte.,zu,Die Anregung zu Kreativität fehlte.,The encouragement toward creativity was lacking.,,Anregung
+450,16,Die Beförderung _____ Manager war verdient.,zum,Die Beförderung zum Manager war verdient.,The promotion to manager was deserved.,,Beförderung
+451,16,Seine Beförderung _____ Direktor wurde gefeiert.,zum,Seine Beförderung zum Direktor wurde gefeiert.,His promotion to director was celebrated.,,Beförderung
+452,16,Der Zwang _____ Leistung belastet ihn.,zu,Der Zwang zu Leistung belastet ihn.,The pressure to perform burdens him.,,Zwang
+453,16,Der Zwang _____ Ehrlichkeit war unangemessen.,zu,Der Zwang zu Ehrlichkeit war unangemessen.,The compulsion for honesty was inappropriate.,,Zwang
+454,100,the best about,an,das Beste,,,X
+455,100,an increase in,an,die Zunahme,,,X
+456,100,a decrease in,an,die Abnahme,,,X
+457,100,the need in,an,Bedarf,,,
+458,100,the shortage of,an,Mangel,,,
+459,100,the request to (someone),an,die Bitte,,,X
+460,100,the trust in (someone's ability),in,Vertrauen,,,
+461,100,,um,Verdienst,,,
+462,100,,um,das Wissen,,,
+463,100,,um,die Geschichte,,,
+464,100,,um,die Spekulation,,,

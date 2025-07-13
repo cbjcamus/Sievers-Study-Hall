@@ -1,4 +1,5 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for, flash, jsonify
+import pandas as pd
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
@@ -11,8 +12,9 @@ from webapp.session_management.print_session import session_size, print_complete
 from webapp.session_management.normalization import get_list_of_correct_answers, is_user_answer_correct
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.pick_a_question import pick_a_question, is_exercise_finished
-from webapp.session_management.register_update import register_progress, register_false, register_result
+from webapp.session_management.register_update import register_progress, register_false, register_result, register_user_incorrect_answer
 from webapp.session_management.verification_session import create_key_in_session
+from webapp.session_management.fomat_exercise_completed import format_feedback, format_question
 
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
@@ -35,8 +37,8 @@ def ensure_session_keys_exist_and_make_session_permanent():
     if 'unfinished_exercise' not in session:
         session['unfinished_exercise'] = []
 
-    # print_complete_session(session)
-    # print(f"Session size: {session_size(session)} bytes")
+    print_complete_session(session)
+    print(f"Session size: {session_size(session)} bytes")
     # session.clear()
 
 
@@ -110,11 +112,34 @@ for unit in units:
 @routes.route('/guidance/unit/<unit>/exercise/<int:exercise>')
 def guidance(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
-        register_result(session, unit, exercise)
         feedback = session.pop(f"feedback", None)
         result = feedback["result"] if feedback else None
         feedback_message = feedback["feedback_message"] if feedback else None
         user_answer = feedback["user_answer"] if feedback else None
+
+        if 'incorrect_answer' in session[unit][str(exercise)]:
+            incorrect_answers = session[unit][str(exercise)]['incorrect_answer']
+            number_of_incorrect_answers = len(incorrect_answers)
+        else:
+            incorrect_answers = []
+            number_of_incorrect_answers = 0
+
+        if 'falses' in session[unit][str(exercise)]:
+            incorrect_ids = session[unit][str(exercise)]['falses']
+            incorrect_ids = [int(i) for i in incorrect_ids]
+        else:
+            incorrect_ids = []
+
+        data = load_data(unit, exercise)
+        data = data[data["Nr"].isin(incorrect_ids)]
+        data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
+        data = data.sort_values("Nr")
+
+        questions = format_question(data, unit, exercise)
+        feedbacks = format_feedback(data, unit, exercise)
+        correct_answers = [get_list_of_correct_answers(correct_answer, unit) for correct_answer in list(data['answer'])]
+
+        register_result(session, unit, exercise)
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -126,6 +151,11 @@ def guidance(unit, exercise):
                                result=result,
                                feedback_message=feedback_message,
                                user_answer=user_answer,
+                               number_of_incorrect_answers=number_of_incorrect_answers,
+                               incorrect_answers=incorrect_answers,
+                               questions=questions,
+                               feedbacks=feedbacks,
+                               correct_answers=correct_answers,
                                )
 
     guidance = GUIDANCE[unit][exercise]
@@ -145,11 +175,34 @@ def guidance(unit, exercise):
 @routes.route('/unit/<unit>/exercise/<int:exercise>')
 def exercise(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
-        register_result(session, unit, exercise)
         feedback = session.pop(f"feedback", None)
         result = feedback["result"] if feedback else None
         feedback_message = feedback["feedback_message"] if feedback else None
         user_answer = feedback["user_answer"] if feedback else None
+
+        if 'incorrect_answer' in session[unit][str(exercise)]:
+            incorrect_answers = session[unit][str(exercise)]['incorrect_answer']
+            number_of_incorrect_answers = len(incorrect_answers)
+        else:
+            incorrect_answers = []
+            number_of_incorrect_answers = 0
+
+        if 'falses' in session[unit][str(exercise)]:
+            incorrect_ids = session[unit][str(exercise)]['falses']
+            incorrect_ids = [int(i) for i in incorrect_ids]
+        else:
+            incorrect_ids = []
+
+        data = load_data(unit, exercise)
+        data = data[data["Nr"].isin(incorrect_ids)]
+        data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
+        data = data.sort_values("Nr")
+
+        questions = format_question(data, unit, exercise)
+        feedbacks = format_feedback(data, unit, exercise)
+        correct_answers = [get_list_of_correct_answers(correct_answer, unit) for correct_answer in list(data['answer'])]
+
+        register_result(session, unit, exercise)
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -161,12 +214,14 @@ def exercise(unit, exercise):
                                result=result,
                                feedback_message=feedback_message,
                                user_answer=user_answer,
+                               number_of_incorrect_answers=number_of_incorrect_answers,
+                               incorrect_answers=incorrect_answers,
+                               questions=questions,
+                               feedbacks=feedbacks,
+                               correct_answers=correct_answers,
                                )
 
     question_data = pick_a_question(session, unit, exercise)
-
-    print('question_data', question_data)
-    print(type(question_data))
 
     question_text = str(question_data["question"])
     english = str(question_data.get("english", ""))
@@ -273,6 +328,7 @@ def check_answer(unit, exercise):
         register_progress(session, unit, exercise, nr)
     elif nr not in session[unit][str(exercise)]['falses']:
         register_false(session, unit, exercise, nr)
+        register_user_incorrect_answer(session, unit, exercise, user_answer)
 
     session.modified = True
 
@@ -297,11 +353,34 @@ def check_answer(unit, exercise):
 @routes.route('/feedback/unit/<unit>/exercise/<int:exercise>')
 def exercise_feedback(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
-        register_result(session, unit, exercise)
         feedback = session.pop(f"feedback", None)
         result = feedback["result"] if feedback else None
         feedback_message = feedback["feedback_message"] if feedback else None
         user_answer = feedback["user_answer"] if feedback else None
+
+        if 'incorrect_answer' in session[unit][str(exercise)]:
+            incorrect_answers = session[unit][str(exercise)]['incorrect_answer']
+            number_of_incorrect_answers = len(incorrect_answers)
+        else:
+            incorrect_answers = []
+            number_of_incorrect_answers = 0
+
+        if 'falses' in session[unit][str(exercise)]:
+            incorrect_ids = session[unit][str(exercise)]['falses']
+            incorrect_ids = [int(i) for i in incorrect_ids]
+        else:
+            incorrect_ids = []
+
+        data = load_data(unit, exercise)
+        data = data[data["Nr"].isin(incorrect_ids)]
+        data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
+        data = data.sort_values("Nr")
+
+        questions = format_question(data, unit, exercise)
+        feedbacks = format_feedback(data, unit, exercise)
+        correct_answers = [get_list_of_correct_answers(correct_answer, unit) for correct_answer in list(data['answer'])]
+
+        register_result(session, unit, exercise)
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -313,6 +392,11 @@ def exercise_feedback(unit, exercise):
                                result=result,
                                feedback_message=feedback_message,
                                user_answer=user_answer,
+                               number_of_incorrect_answers=number_of_incorrect_answers,
+                               incorrect_answers=incorrect_answers,
+                               questions=questions,
+                               feedbacks=feedbacks,
+                               correct_answers=correct_answers,
                                )
 
     question_data = session.get(f"question_data", {})
@@ -374,7 +458,11 @@ def exercise_feedback(unit, exercise):
 @routes.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
 def reset_exercise(unit, exercise):
     """Clears progress for a specific unit exercise and removes any stored feedback."""
-    del session[unit][str(exercise)]
+    # del session[unit][str(exercise)]
+
+    unit_dict = session.get(unit, {})
+    unit_dict.pop(str(exercise), None)
+    session[unit] = unit_dict
 
     if (unit, exercise) in session['unfinished_exercise']:
         session['unfinished_exercise'].remove((unit, exercise))

@@ -77,19 +77,25 @@ QUESTION = {
         13: "{english} = {question}",
         14: "{question}"
             "<br><br><i>{english}</i>",
-
         15: "{english} = {question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
+
         17: "{english} = {question}",
         18: "{question}"
             "<br><br><i>{english}</i>",
-
         19: "{english} = {question}",
         20: "{question}"
             "<br><br><i>{english}</i>",
         21: "{english} = {question}",
         22: "{question}"
+            "<br><br><i>{english}</i>",
+
+        23: "{english} = {question}",
+        24: "{question}"
+            "<br><br><i>{english}</i>",
+        25: "{english} = {question}",
+        26: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -111,20 +117,29 @@ QUESTION = {
         1: "{question} = {german} _____",
         2: "{question}"
             "<br><br><i>{english}</i>",
-
         3: "{question} = {german} _____",
         4: "{question}"
            "<br><br><i>{english}</i>",
+
         5: "{question} = {german} _____",
         6: "{question}"
            "<br><br><i>{english}</i>",
-
         7: "{question} = {german} _____",
         8: "{question}"
            "<br><br><i>{english}</i>",
         9: "{question} = {german} _____",
         10: "{question}"
            "<br><br><i>{english}</i>",
+
+        11: "{question} = {german} _____",
+        12: "{question}"
+           "<br><br><i>{english}</i>",
+        13: "{question} = {german} _____",
+        14: "{question}"
+           "<br><br><i>{english}</i>",
+        15: "{question} = {german} _____",
+        16: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     artikel: {
@@ -350,7 +365,6 @@ QUESTION = {
         10: "{question} \u25CF {person} _____",
         11: "{question} \u25CF {person} _____",
         12: "{question} \u25CF {person} _____",
-
         13: "{question} \u25CF {person} _____",
         14: "{question} \u25CF {person} _____",
         15: "{question} \u25CF {person} _____",
@@ -359,28 +373,44 @@ QUESTION = {
         18: "{question} \u25CF {person} _____",
         19: "{question} \u25CF {person} _____",
         20: "{question} \u25CF {person} _____",
+
         21: "{question} \u25CF {person} _____",
         22: "{question} \u25CF {person} _____",
         23: "{question} \u25CF {person} _____",
         24: "{question} \u25CF {person} _____",
+        25: "{question} \u25CF {person} _____",
+        26: "{question} \u25CF {person} _____",
+        27: "{question} \u25CF {person} _____",
+        28: "{question} \u25CF {person} _____",
+        29: "{question} \u25CF {person} _____",
+        30: "{question} \u25CF {person} _____",
+        31: "{question} \u25CF {person} _____",
+        32: "{question} \u25CF {person} _____",
+        33: "{question} \u25CF {person} _____",
+        34: "{question} \u25CF {person} _____",
+        35: "{question} \u25CF {person} _____",
+        36: "{question} \u25CF {person} _____",
+        37: "{question} \u25CF {person} _____",
+        38: "{question} \u25CF {person} _____",
+        39: "{question} \u25CF {person} _____",
+        40: "{question} \u25CF {person} _____",
     },
 
     partizip_II: {
         1: "{question}",
         2: "{question}",
         3: "{question}",
-
         4: "{question}",
         5: "{question}",
-        6: "{question}",
 
+        6: "{question}",
         7: "{question}",
         8: "{question}",
         9: "{question}",
         10: "{question}",
+
         11: "{question}",
         12: "{question}",
-
         13: "{question}",
         14: "{question}",
         15: "{question}",
@@ -389,6 +419,17 @@ QUESTION = {
         18: "{question}",
         19: "{question}",
         20: "{question}",
+
+        21: "{question}",
+        22: "{question}",
+        23: "{question}",
+        24: "{question}",
+        25: "{question}",
+        26: "{question}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+        30: "{question}",
     },
 
     praeteritum: {
@@ -400,14 +441,13 @@ QUESTION = {
         5: "{question} \u25CF er/sie/es _____",
         6: "{question} \u25CF er/sie/es _____",
         7: "{question} \u25CF er/sie/es _____",
-
         8: "{question} \u25CF er/sie/es _____",
         9: "{question} \u25CF er/sie/es _____",
         10: "{question} \u25CF er/sie/es _____",
         11: "{question} \u25CF er/sie/es _____",
+
         12: "{question} \u25CF er/sie/es _____",
         13: "{question} \u25CF er/sie/es _____",
-
         14: "{question} \u25CF er/sie/es _____",
         15: "{question} \u25CF er/sie/es _____",
         16: "{question} \u25CF er/sie/es _____",
@@ -416,6 +456,17 @@ QUESTION = {
         19: "{question} \u25CF er/sie/es _____",
         20: "{question} \u25CF er/sie/es _____",
         21: "{question} \u25CF er/sie/es _____",
+
+        22: "{question} \u25CF er/sie/es _____",
+        23: "{question} \u25CF er/sie/es _____",
+        24: "{question} \u25CF er/sie/es _____",
+        25: "{question} \u25CF er/sie/es _____",
+        26: "{question} \u25CF er/sie/es _____",
+        27: "{question} \u25CF er/sie/es _____",
+        28: "{question} \u25CF er/sie/es _____",
+        29: "{question} \u25CF er/sie/es _____",
+        30: "{question} \u25CF er/sie/es _____",
+        31: "{question} \u25CF er/sie/es _____",
     },
 
     praeteritum_partizip_II: {
@@ -427,14 +478,13 @@ QUESTION = {
         5: "{question}",
         6: "{question}",
         7: "{question}",
-
         8: "{question}",
         9: "{question}",
         10: "{question}",
         11: "{question}",
+
         12: "{question}",
         13: "{question}",
-
         14: "{question}",
         15: "{question}",
         16: "{question}",
@@ -443,16 +493,33 @@ QUESTION = {
         19: "{question}",
         20: "{question}",
         21: "{question}",
+
+        22: "{question}",
+        23: "{question}",
+        24: "{question}",
+        25: "{question}",
+        26: "{question}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+        30: "{question}",
+        31: "{question}",
     },
 
     imperativ: {
         1: "{question} \u25CF {person} \u25CF _____",
         2: "{question} \u25CF {person} \u25CF _____",
         3: "{question} \u25CF {person} \u25CF _____",
-
         4: "{question} \u25CF {person} \u25CF _____",
         5: "{question} \u25CF {person} \u25CF _____",
         6: "{question} \u25CF {person} \u25CF _____",
+
+        7: "{question} \u25CF {person} \u25CF _____",
+        8: "{question} \u25CF {person} \u25CF _____",
+        9: "{question} \u25CF {person} \u25CF _____",
+        10: "{question} \u25CF {person} \u25CF _____",
+        11: "{question} \u25CF {person} \u25CF _____",
+        12: "{question} \u25CF {person} \u25CF _____",
     },
 
     konjunktiv_II: {
@@ -472,6 +539,8 @@ QUESTION = {
         1: "{question}",
         2: "{question}",
         3: "{question}",
+        4: "{question}",
+        5: "{question}",
     },
 
     adjektive: {
@@ -522,45 +591,63 @@ QUESTION = {
         1: "{english} &#8594; {german}"
            "<br><br>{question} &#8594; _____ ",
         2: "{question} \u25CF {prefix}",
+        3: "{question}",
 
-        3: "{english} &#8594; {german}"
+        4: "{english} &#8594; {german}"
            "<br><br>{question} &#8594; _____ ",
-        4: "{question} \u25CF {prefix}",
+        5: "{question} \u25CF {prefix}",
+        6: "{question}",
 
-        5: "{english} &#8594; {german}"
+        7: "{english} &#8594; {german}"
            "<br><br>{question} &#8594; _____ ",
-        6: "{english} &#8594; {german}"
+        8: "{english} &#8594; {german}"
            "<br><br>{question} &#8594; _____ ",
-        7: "{question} \u25CF {prefix}",
-        8: "{question} \u25CF {prefix}",
-
         9: "{english} &#8594; {german}"
            "<br><br>{question} &#8594; _____ ",
         10: "{english} &#8594; {german}"
-            "<br><br>{question} &#8594; _____ ",
-        11: "{english} &#8594; {german}"
-            "<br><br>{question} &#8594; _____ ",
+           "<br><br>{question} &#8594; _____ ",
+        11: "{question} \u25CF {prefix}",
         12: "{question} \u25CF {prefix}",
         13: "{question} \u25CF {prefix}",
         14: "{question} \u25CF {prefix}",
+        15: "{question}",
+        16: "{question}",
+        17: "{question}",
+        18: "{question}",
+
+        19: "{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
+        20: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        21: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        22: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        23: "{question} \u25CF {prefix}",
+        24: "{question} \u25CF {prefix}",
+        25: "{question} \u25CF {prefix}",
+        26: "{question} \u25CF {prefix}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+        30: "{question}",
     },
 
     verben: {
         1: "{question}",
         2: "{question}",
         3: "{question}",
-
         4: "{question}",
         5: "{question}",
-        6: "{question}",
 
+        6: "{question}",
         7: "{question}",
         8: "{question}",
         9: "{question}",
         10: "{question}",
+
         11: "{question}",
         12: "{question}",
-
         13: "{question}",
         14: "{question}",
         15: "{question}",
@@ -569,6 +656,17 @@ QUESTION = {
         18: "{question}",
         19: "{question}",
         20: "{question}",
+
+        21: "{question}",
+        22: "{question}",
+        23: "{question}",
+        24: "{question}",
+        25: "{question}",
+        26: "{question}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+        30: "{question}",
     },
 
     deverbale_nomen: {
