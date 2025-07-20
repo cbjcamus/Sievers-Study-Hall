@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="feedback and verben" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="july 20th update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00043" summary="praeteritum + partizip II exercise">
-      <option name="closed" value="true" />
-      <created>1747041893090</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1747041893090</updated>
     </task>
     <task id="LOCAL-00044" summary="fragen and artikel">
       <option name="closed" value="true" />
@@ -546,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753010867241</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="july 20th update">
+      <option name="closed" value="true" />
+      <created>1753010916363</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1753010916363</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -562,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="proverb color" />
     <MESSAGE value="updates" />
     <MESSAGE value="preposition grammatik + removing Basic Simple etc." />
     <MESSAGE value="buttons home + explanations" />
@@ -587,7 +589,8 @@
     <MESSAGE value="session update" />
     <MESSAGE value="präpositionen" />
     <MESSAGE value="feedback and verben" />
-    <option name="LAST_COMMIT_MESSAGE" value="feedback and verben" />
+    <MESSAGE value="july 20th update" />
+    <option name="LAST_COMMIT_MESSAGE" value="july 20th update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
