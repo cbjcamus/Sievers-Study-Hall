@@ -6,10 +6,10 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 5,1,ein _____ Vater,netter,ein netter Vater,nett,Maskulin,Nominativ,Unbestimmt artikel,
 6,1,eine _____ Mutter,nette,eine nette Mutter,nett,Feminin,Nominativ,Unbestimmt artikel,
 7,1,ein _____ Kind,nettes,ein nettes Kind,nett,Neuter,Nominativ,Unbestimmt artikel,
-8,1,Ø _____ Vater,netter,netter Vater,nett,Maskulin,Nominativ,Ohne Artikel,
-9,1,Ø _____ Mutter,nette,nette Mutter,nett,Feminin,Nominativ,Ohne Artikel,
-10,1,Ø _____ Kind,nettes,nettes Kind,nett,Neuter,Nominativ,Ohne Artikel,
-11,1,Ø _____ Eltern,nette,nette Eltern,nett,Plural,Nominativ,Ohne Artikel,
+8,1,Ø _____ Vater,netter,netter Vater,nett,Maskulin,Nominativ,Nullartikel,
+9,1,Ø _____ Mutter,nette,nette Mutter,nett,Feminin,Nominativ,Nullartikel,
+10,1,Ø _____ Kind,nettes,nettes Kind,nett,Neuter,Nominativ,Nullartikel,
+11,1,Ø _____ Eltern,nette,nette Eltern,nett,Plural,Nominativ,Nullartikel,
 12,3,den _____ Vater,netten,den netten Vater,nett,Maskulin,Akkusativ,Bestimmt artikel,
 13,3,die _____ Mutter,nette,die nette Mutter,nett,Feminin,Akkusativ,Bestimmt artikel,
 14,3,das _____ Kind,nette,das nette Kind,nett,Neuter,Akkusativ,Bestimmt artikel,
@@ -17,10 +17,10 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 16,3,einen _____ Vater,netten,einen netten Vater,nett,Maskulin,Akkusativ,Unbestimmt artikel,
 17,3,eine _____ Mutter,nette,eine nette Mutter,nett,Feminin,Akkusativ,Unbestimmt artikel,
 18,3,ein _____ Kind,nettes,ein nettes Kind,nett,Neuter,Akkusativ,Unbestimmt artikel,
-19,3,Ø _____ Vater,netten,netten Vater,nett,Maskulin,Akkusativ,Ohne Artikel,
-20,3,Ø _____ Mutter,nette,nette Mutter,nett,Feminin,Akkusativ,Ohne Artikel,
-21,3,Ø _____ Kind,nettes,nettes Kind,nett,Neuter,Akkusativ,Ohne Artikel,
-22,3,Ø _____ Eltern,nette,nette Eltern,nett,Plural,Akkusativ,Ohne Artikel,
+19,3,Ø _____ Vater,netten,netten Vater,nett,Maskulin,Akkusativ,Nullartikel,
+20,3,Ø _____ Mutter,nette,nette Mutter,nett,Feminin,Akkusativ,Nullartikel,
+21,3,Ø _____ Kind,nettes,nettes Kind,nett,Neuter,Akkusativ,Nullartikel,
+22,3,Ø _____ Eltern,nette,nette Eltern,nett,Plural,Akkusativ,Nullartikel,
 23,5,dem _____ Vater,netten,dem netten Vater,nett,Maskulin,Dativ,Bestimmt artikel,
 24,5,der _____ Mutter,netten,der netten Mutter,nett,Feminin,Dativ,Bestimmt artikel,
 25,5,dem _____ Kind,netten,dem netten Kind,nett,Neuter,Dativ,Bestimmt artikel,
@@ -28,10 +28,10 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 27,5,einem _____ Vater,netten,einem netten Vater,nett,Maskulin,Dativ,Unbestimmt artikel,
 28,5,einer _____ Mutter,netten,einer netten Mutter,nett,Feminin,Dativ,Unbestimmt artikel,
 29,5,einem _____ Kind,netten,einem netten Kind,nett,Neuter,Dativ,Unbestimmt artikel,
-30,5,Ø _____ Vater,nettem,nettem Vater,nett,Maskulin,Dativ,Ohne Artikel,
-31,5,Ø _____ Mutter,netter,netter Mutter,nett,Feminin,Dativ,Ohne Artikel,
-32,5,Ø _____ Kind,nettem,nettem Kind,nett,Neuter,Dativ,Ohne Artikel,
-33,5,Ø _____ Eltern,netten,netten Eltern,nett,Plural,Dativ,Ohne Artikel,
+30,5,Ø _____ Vater,nettem,nettem Vater,nett,Maskulin,Dativ,Nullartikel,
+31,5,Ø _____ Mutter,netter,netter Mutter,nett,Feminin,Dativ,Nullartikel,
+32,5,Ø _____ Kind,nettem,nettem Kind,nett,Neuter,Dativ,Nullartikel,
+33,5,Ø _____ Eltern,netten,netten Eltern,nett,Plural,Dativ,Nullartikel,
 34,2,Ein _____ Lehrer erklärt die Grammatik sehr gut.,kluger,Ein kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Unbestimmt,
 35,2,Ein _____ Hund schläft den ganzen Tag.,alter,Ein alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Unbestimmt,
 36,2,Ein _____ Baum steht im Garten.,schöner,Ein schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Unbestimmt,
@@ -42,11 +42,11 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 41,2,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neuter,Nominativ,Bestimmt,
 42,2,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Bestimmt,
 43,2,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Bestimmt,
-44,2,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Ohne Artikel,
-45,2,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Ohne Artikel,
-46,2,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Ohne Artikel,
-47,2,_____ Schülerin lernt jeden Abend Deutsch.,Fleißige,Fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Ohne Artikel,
-48,2,_____ Nachbarin hilft uns oft.,Freundliche,Freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Ohne Artikel,
+44,2,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Nullartikel,
+45,2,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Nullartikel,
+46,2,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Nullartikel,
+47,2,_____ Schülerin lernt jeden Abend Deutsch.,Fleißige,Fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Nullartikel,
+48,2,_____ Nachbarin hilft uns oft.,Freundliche,Freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Nullartikel,
 49,2,Eine _____ Lehrerin erklärt die Grammatik sehr gut.,kluge,Eine kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Unbestimmt,
 50,2,Eine _____ Katze schläft den ganzen Tag.,alte,Eine alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Unbestimmt,
 51,2,Eine _____ Blume steht im Garten.,schöne,Eine schöne Blume steht im Garten.,schön,Feminin,Nominativ,Unbestimmt,
@@ -67,31 +67,31 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 66,2,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Unbestimmt,
 67,2,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Unbestimmt,
 68,2,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Unbestimmt,
-69,2,_____ Lehrer erklärt die Grammatik sehr gut.,Kluger,Kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Ohne Artikel,
-70,2,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Ohne Artikel,
-71,2,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Ohne Artikel,
-72,2,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Ohne Artikel,
-73,2,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Ohne Artikel,
+69,2,_____ Lehrer erklärt die Grammatik sehr gut.,Kluger,Kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Nullartikel,
+70,2,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Nullartikel,
+71,2,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Nullartikel,
+72,2,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Nullartikel,
+73,2,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Nullartikel,
 74,2,Die _____ Lehrerin erklärt die Grammatik sehr gut.,kluge,Die kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Bestimmt,
 75,2,Die _____ Katze schläft den ganzen Tag.,alte,Die alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Bestimmt,
 76,2,Die _____ Blume steht im Garten.,schöne,Die schöne Blume steht im Garten.,schön,Feminin,Nominativ,Bestimmt,
 77,2,Die _____ Schülerin lernt jeden Abend Deutsch.,fleißige,Die fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Bestimmt,
 78,2,Die _____ Nachbarin hilft uns oft.,freundliche,Die freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Bestimmt,
-79,2,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Ohne Artikel,
-80,2,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Ohne Artikel,
-81,2,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Ohne Artikel,
-82,2,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Ohne Artikel,
-83,2,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Ohne Artikel,
-84,2,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Ohne Artikel,
-85,2,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Ohne Artikel,
-86,2,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Ohne Artikel,
-87,2,_____ Schüler lernen jeden Tag.,Fleißige,Fleißige Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Ohne Artikel,
-88,2,_____ Menschen helfen einander.,Freundliche,Freundliche Menschen helfen einander.,freundlich,Plural,Nominativ,Ohne Artikel,
-89,4,Ich sehe _____ Lehrer im Klassenzimmer.,klugen,Ich sehe klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Ohne Artikel,
-90,4,Sie füttert _____ Hund jeden Morgen.,alten,Sie füttert alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Ohne Artikel,
-91,4,Wir bewundern _____ Baum im Park.,schönen,Wir bewundern schönen Baum im Park.,schön,Maskulin,Akkusativ,Ohne Artikel,
-92,4,Der Professor lobt _____ Studenten.,fleißigen,Der Professor lobt fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Ohne Artikel,
-93,4,Die Gäste begrüßen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Ohne Artikel,
+79,2,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Nullartikel,
+80,2,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Nullartikel,
+81,2,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Nullartikel,
+82,2,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Nullartikel,
+83,2,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Nullartikel,
+84,2,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Nullartikel,
+85,2,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Nullartikel,
+86,2,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Nullartikel,
+87,2,_____ Schüler lernen jeden Tag.,Fleißige,Fleißige Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Nullartikel,
+88,2,_____ Menschen helfen einander.,Freundliche,Freundliche Menschen helfen einander.,freundlich,Plural,Nominativ,Nullartikel,
+89,4,Ich sehe _____ Lehrer im Klassenzimmer.,klugen,Ich sehe klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Nullartikel,
+90,4,Sie füttert _____ Hund jeden Morgen.,alten,Sie füttert alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Nullartikel,
+91,4,Wir bewundern _____ Baum im Park.,schönen,Wir bewundern schönen Baum im Park.,schön,Maskulin,Akkusativ,Nullartikel,
+92,4,Der Professor lobt _____ Studenten.,fleißigen,Der Professor lobt fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Nullartikel,
+93,4,Die Gäste begrüßen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Nullartikel,
 94,4,Ich sehe den _____ Lehrer im Klassenzimmer.,klugen,Ich sehe den klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Bestimmt,
 95,4,Sie füttert den _____ Hund jeden Morgen.,alten,Sie füttert den alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Bestimmt,
 96,4,Wir bewundern den _____ Baum im Park.,schönen,Wir bewundern den schönen Baum im Park.,schön,Maskulin,Akkusativ,Bestimmt,
@@ -107,21 +107,21 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 106,4,Wir bewundern einen _____ Baum im Park.,schönen,Wir bewundern einen schönen Baum im Park.,schön,Maskulin,Akkusativ,Unbestimmt,
 107,4,Der Professor lobt einen _____ Studenten.,fleißigen,Der Professor lobt einen fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Unbestimmt,
 108,4,Die Gäste begrüßen einen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen einen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Unbestimmt,
-109,4,Ich sehe _____ Kinder auf dem Spielplatz.,kluge,Ich sehe kluge Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Ohne Artikel,
-110,4,Sie liest _____ Bücher in der Bibliothek.,alte,Sie liest alte Bücher in der Bibliothek.,alt,Plural,Akkusativ,Ohne Artikel,
-111,4,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Ohne Artikel,
-112,4,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Ohne Artikel,
-113,4,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Ohne Artikel,
+109,4,Ich sehe _____ Kinder auf dem Spielplatz.,kluge,Ich sehe kluge Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Nullartikel,
+110,4,Sie liest _____ Bücher in der Bibliothek.,alte,Sie liest alte Bücher in der Bibliothek.,alt,Plural,Akkusativ,Nullartikel,
+111,4,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Nullartikel,
+112,4,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Nullartikel,
+113,4,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Nullartikel,
 114,4,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Unbestimmt,
 115,4,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neuter,Akkusativ,Unbestimmt,
 116,4,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neuter,Akkusativ,Unbestimmt,
 117,4,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Unbestimmt,
 118,4,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neuter,Akkusativ,Unbestimmt,
-119,4,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Ohne Artikel,
-120,4,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Ohne Artikel,
-121,4,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Ohne Artikel,
-122,4,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Ohne Artikel,
-123,4,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Ohne Artikel,
+119,4,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Nullartikel,
+120,4,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Nullartikel,
+121,4,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Nullartikel,
+122,4,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Nullartikel,
+123,4,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Nullartikel,
 124,4,Ich bewundere die _____ Lehrerin.,kluge,Ich bewundere die kluge Lehrerin.,klug,Feminin,Akkusativ,Bestimmt,
 125,4,Er streichelt die _____ Katze.,alte,Er streichelt die alte Katze.,alt,Feminin,Akkusativ,Bestimmt,
 126,4,Wir gießen die _____ Blume im Garten.,schöne,Wir gießen die schöne Blume im Garten.,schön,Feminin,Akkusativ,Bestimmt,
@@ -137,16 +137,16 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 136,4,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neuter,Akkusativ,Bestimmt,
 137,4,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neuter,Akkusativ,Bestimmt,
 138,4,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neuter,Akkusativ,Bestimmt,
-139,4,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Ohne Artikel,
-140,4,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Ohne Artikel,
-141,4,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Ohne Artikel,
-142,4,Die Lehrerin lobt _____ Schülerin.,fleißige,Die Lehrerin lobt fleißige Schülerin.,fleißig,Feminin,Akkusativ,Ohne Artikel,
-143,4,Sie begrüßen _____ Nachbarin.,freundliche,Sie begrüßen freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Ohne Artikel,
-144,6,Ich helfe _____ Lehrer bei den Hausaufgaben.,klugem,Ich helfe klugem Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Ohne Artikel,
-145,6,Er gibt _____ Hund Futter.,altem,Er gibt altem Hund Futter.,alt,Maskulin,Dativ,Ohne Artikel,
-146,6,Wir danken _____ Künstler für sein Werk.,schönem,Wir danken schönem Künstler für sein Werk.,schön,Maskulin,Dativ,Ohne Artikel,
-147,6,Professor gratuliert _____ Mann.,fleißigem,Professor gratuliert fleißigem Mann.,fleißig,Maskulin,Dativ,Ohne Artikel,
-148,6,Die Gäste schenken _____ Kellner ein Trinkgeld.,freundlichem,Die Gäste schenken freundlichem Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Ohne Artikel,
+139,4,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Nullartikel,
+140,4,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Nullartikel,
+141,4,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Nullartikel,
+142,4,Die Lehrerin lobt _____ Schülerin.,fleißige,Die Lehrerin lobt fleißige Schülerin.,fleißig,Feminin,Akkusativ,Nullartikel,
+143,4,Sie begrüßen _____ Nachbarin.,freundliche,Sie begrüßen freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Nullartikel,
+144,6,Ich helfe _____ Lehrer bei den Hausaufgaben.,klugem,Ich helfe klugem Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Nullartikel,
+145,6,Er gibt _____ Hund Futter.,altem,Er gibt altem Hund Futter.,alt,Maskulin,Dativ,Nullartikel,
+146,6,Wir danken _____ Künstler für sein Werk.,schönem,Wir danken schönem Künstler für sein Werk.,schön,Maskulin,Dativ,Nullartikel,
+147,6,Professor gratuliert _____ Mann.,fleißigem,Professor gratuliert fleißigem Mann.,fleißig,Maskulin,Dativ,Nullartikel,
+148,6,Die Gäste schenken _____ Kellner ein Trinkgeld.,freundlichem,Die Gäste schenken freundlichem Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Nullartikel,
 149,6,Ich helfe einem _____ Lehrer bei den Hausaufgaben.,klugen,Ich helfe einem klugen Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Unbestimmt,
 150,6,Sie gibt einem _____ Hund Futter.,alten,Sie gibt einem alten Hund Futter.,alt,Maskulin,Dativ,Unbestimmt,
 151,6,Wir danken einem _____ Künstler für sein Werk.,schönen,Wir danken einem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Unbestimmt,
@@ -157,11 +157,11 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 156,6,Wir danken den _____ Künstlern für ihre Werke.,schönen,Wir danken den schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Bestimmt,
 157,6,Der Lehrer erklärt den _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt den fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Bestimmt,
 158,6,Die Eltern schenken den _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken den freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Bestimmt,
-159,6,Ich helfe _____ Lehrerin bei den Hausaufgaben.,kluger,Ich helfe kluger Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Ohne Artikel,
-160,6,Er gibt _____ Katze frisches Wasser.,alter,Er gibt alter Katze frisches Wasser.,alt,Feminin,Dativ,Ohne Artikel,
-161,6,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Ohne Artikel,
-162,6,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Ohne Artikel,
-163,6,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Ohne Artikel,
+159,6,Ich helfe _____ Lehrerin bei den Hausaufgaben.,kluger,Ich helfe kluger Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Nullartikel,
+160,6,Er gibt _____ Katze frisches Wasser.,alter,Er gibt alter Katze frisches Wasser.,alt,Feminin,Dativ,Nullartikel,
+161,6,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Nullartikel,
+162,6,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Nullartikel,
+163,6,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Nullartikel,
 164,6,Ich helfe der _____ Lehrerin bei den Hausaufgaben.,klugen,Ich helfe der klugen Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Bestimmt,
 165,6,Er gibt der _____ Katze frisches Wasser.,alten,Er gibt der alten Katze frisches Wasser.,alt,Feminin,Dativ,Bestimmt,
 166,6,Wir danken der _____ Künstlerin für ihr Werk.,schönen,Wir danken der schönen Künstlerin für ihr Werk.,schön,Feminin,Dativ,Bestimmt,
@@ -177,21 +177,21 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 176,6,Wir danken dem _____ Künstler für sein Werk.,schönen,Wir danken dem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Bestimmt,
 177,6,Der Professor erklärt dem _____ Studenten die Aufgabe.,fleißigen,Der Professor erklärt dem fleißigen Studenten die Aufgabe.,fleißig,Maskulin,Dativ,Bestimmt,
 178,6,Die Gäste schenken dem _____ Kellner ein Trinkgeld.,freundlichen,Die Gäste schenken dem freundlichen Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Bestimmt,
-179,6,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Ohne Artikel,
-180,6,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Ohne Artikel,
-181,6,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Ohne Artikel,
-182,6,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Ohne Artikel,
-183,6,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Ohne Artikel,
+179,6,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Nullartikel,
+180,6,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Nullartikel,
+181,6,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Nullartikel,
+182,6,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Nullartikel,
+183,6,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Nullartikel,
 184,6,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Unbestimmt,
 185,6,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Unbestimmt,
 186,6,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Unbestimmt,
 187,6,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Unbestimmt,
 188,6,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Unbestimmt,
-189,6,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Ohne Artikel,
-190,6,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Ohne Artikel,
-191,6,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Ohne Artikel,
-192,6,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Ohne Artikel,
-193,6,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Ohne Artikel,
+189,6,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Nullartikel,
+190,6,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Nullartikel,
+191,6,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Nullartikel,
+192,6,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Nullartikel,
+193,6,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Nullartikel,
 194,6,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Bestimmt,
 195,6,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Bestimmt,
 196,6,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Bestimmt,
@@ -302,71 +302,71 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 301,8,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Unbestimmt,
 302,8,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Unbestimmt,
 303,8,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Unbestimmt,
-304,9,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Ohne Artikel,
-305,9,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Ohne Artikel,
-306,9,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Ohne Artikel,
-307,9,_____ Schülerin lernt jeden Abend Deutsch.,Fleißige,Fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Ohne Artikel,
-308,9,_____ Nachbarin hilft uns oft.,Freundliche,Freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Ohne Artikel,
-309,9,_____ Lehrer erklärt die Grammatik sehr gut.,Kluger,Kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Ohne Artikel,
-310,9,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Ohne Artikel,
-311,9,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Ohne Artikel,
-312,9,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Ohne Artikel,
-313,9,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Ohne Artikel,
-314,9,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Ohne Artikel,
-315,9,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Ohne Artikel,
-316,9,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Ohne Artikel,
-317,9,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Ohne Artikel,
-318,9,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Ohne Artikel,
-319,9,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Ohne Artikel,
-320,9,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Ohne Artikel,
-321,9,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Ohne Artikel,
-322,9,_____ Schüler lernen jeden Tag.,Fleißige,Fleißige Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Ohne Artikel,
-323,9,_____ Menschen helfen einander.,Freundliche,Freundliche Menschen helfen einander.,freundlich,Plural,Nominativ,Ohne Artikel,
-324,9,Ich sehe _____ Lehrer im Klassenzimmer.,klugen,Ich sehe klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Ohne Artikel,
-325,9,Sie füttert _____ Hund jeden Morgen.,alten,Sie füttert alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Ohne Artikel,
-326,9,Wir bewundern _____ Baum im Park.,schönen,Wir bewundern schönen Baum im Park.,schön,Maskulin,Akkusativ,Ohne Artikel,
-327,9,Der Professor lobt _____ Studenten.,fleißigen,Der Professor lobt fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Ohne Artikel,
-328,9,Die Gäste begrüßen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Ohne Artikel,
-329,9,Ich sehe _____ Kinder auf dem Spielplatz.,kluge,Ich sehe kluge Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Ohne Artikel,
-330,9,Sie liest _____ Bücher in der Bibliothek.,alte,Sie liest alte Bücher in der Bibliothek.,alt,Plural,Akkusativ,Ohne Artikel,
-331,9,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Ohne Artikel,
-332,9,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Ohne Artikel,
-333,9,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Ohne Artikel,
-334,9,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Ohne Artikel,
-335,9,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Ohne Artikel,
-336,9,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Ohne Artikel,
-337,9,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Ohne Artikel,
-338,9,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Ohne Artikel,
-339,9,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Ohne Artikel,
-340,9,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Ohne Artikel,
-341,9,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Ohne Artikel,
-342,9,Die Lehrerin lobt _____ Schülerin.,fleißige,Die Lehrerin lobt fleißige Schülerin.,fleißig,Feminin,Akkusativ,Ohne Artikel,
-343,9,Sie begrüßen _____ Nachbarin.,freundliche,Sie begrüßen freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Ohne Artikel,
-344,9,Ich helfe _____ Lehrer bei den Hausaufgaben.,klugem,Ich helfe klugem Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Ohne Artikel,
-345,9,Er gibt _____ Hund Futter.,altem,Er gibt altem Hund Futter.,alt,Maskulin,Dativ,Ohne Artikel,
-346,9,Wir danken _____ Künstler für sein Werk.,schönem,Wir danken schönem Künstler für sein Werk.,schön,Maskulin,Dativ,Ohne Artikel,
-347,9,Professor gratuliert _____ Mann.,fleißigem,Professor gratuliert fleißigem Mann.,fleißig,Maskulin,Dativ,Ohne Artikel,
-348,9,Die Gäste schenken _____ Kellner ein Trinkgeld.,freundlichem,Die Gäste schenken freundlichem Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Ohne Artikel,
-349,9,Ich helfe _____ Lehrerin bei den Hausaufgaben.,kluger,Ich helfe kluger Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Ohne Artikel,
-350,9,Er gibt _____ Katze frisches Wasser.,alter,Er gibt alter Katze frisches Wasser.,alt,Feminin,Dativ,Ohne Artikel,
-351,9,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Ohne Artikel,
-352,9,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Ohne Artikel,
-353,9,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Ohne Artikel,
-354,9,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Ohne Artikel,
-355,9,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Ohne Artikel,
-356,9,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Ohne Artikel,
-357,9,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Ohne Artikel,
-358,9,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Ohne Artikel,
-359,9,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Ohne Artikel,
-360,9,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Ohne Artikel,
-361,9,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Ohne Artikel,
-362,9,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Ohne Artikel,
-363,9,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Ohne Artikel,
+304,9,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Nullartikel,
+305,9,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Nullartikel,
+306,9,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Nullartikel,
+307,9,_____ Schülerin lernt jeden Abend Deutsch.,Fleißige,Fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Nullartikel,
+308,9,_____ Nachbarin hilft uns oft.,Freundliche,Freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Nullartikel,
+309,9,_____ Lehrer erklärt die Grammatik sehr gut.,Kluger,Kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Nullartikel,
+310,9,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Nullartikel,
+311,9,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Nullartikel,
+312,9,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Nullartikel,
+313,9,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Nullartikel,
+314,9,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Nullartikel,
+315,9,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Nullartikel,
+316,9,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Nullartikel,
+317,9,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Nullartikel,
+318,9,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Nullartikel,
+319,9,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Nullartikel,
+320,9,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Nullartikel,
+321,9,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Nullartikel,
+322,9,_____ Schüler lernen jeden Tag.,Fleißige,Fleißige Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Nullartikel,
+323,9,_____ Menschen helfen einander.,Freundliche,Freundliche Menschen helfen einander.,freundlich,Plural,Nominativ,Nullartikel,
+324,9,Ich sehe _____ Lehrer im Klassenzimmer.,klugen,Ich sehe klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Nullartikel,
+325,9,Sie füttert _____ Hund jeden Morgen.,alten,Sie füttert alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Nullartikel,
+326,9,Wir bewundern _____ Baum im Park.,schönen,Wir bewundern schönen Baum im Park.,schön,Maskulin,Akkusativ,Nullartikel,
+327,9,Der Professor lobt _____ Studenten.,fleißigen,Der Professor lobt fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Nullartikel,
+328,9,Die Gäste begrüßen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Nullartikel,
+329,9,Ich sehe _____ Kinder auf dem Spielplatz.,kluge,Ich sehe kluge Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Nullartikel,
+330,9,Sie liest _____ Bücher in der Bibliothek.,alte,Sie liest alte Bücher in der Bibliothek.,alt,Plural,Akkusativ,Nullartikel,
+331,9,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Nullartikel,
+332,9,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Nullartikel,
+333,9,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Nullartikel,
+334,9,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Nullartikel,
+335,9,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Nullartikel,
+336,9,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Nullartikel,
+337,9,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Nullartikel,
+338,9,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Nullartikel,
+339,9,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Nullartikel,
+340,9,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Nullartikel,
+341,9,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Nullartikel,
+342,9,Die Lehrerin lobt _____ Schülerin.,fleißige,Die Lehrerin lobt fleißige Schülerin.,fleißig,Feminin,Akkusativ,Nullartikel,
+343,9,Sie begrüßen _____ Nachbarin.,freundliche,Sie begrüßen freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Nullartikel,
+344,9,Ich helfe _____ Lehrer bei den Hausaufgaben.,klugem,Ich helfe klugem Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Nullartikel,
+345,9,Er gibt _____ Hund Futter.,altem,Er gibt altem Hund Futter.,alt,Maskulin,Dativ,Nullartikel,
+346,9,Wir danken _____ Künstler für sein Werk.,schönem,Wir danken schönem Künstler für sein Werk.,schön,Maskulin,Dativ,Nullartikel,
+347,9,Professor gratuliert _____ Mann.,fleißigem,Professor gratuliert fleißigem Mann.,fleißig,Maskulin,Dativ,Nullartikel,
+348,9,Die Gäste schenken _____ Kellner ein Trinkgeld.,freundlichem,Die Gäste schenken freundlichem Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Nullartikel,
+349,9,Ich helfe _____ Lehrerin bei den Hausaufgaben.,kluger,Ich helfe kluger Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Nullartikel,
+350,9,Er gibt _____ Katze frisches Wasser.,alter,Er gibt alter Katze frisches Wasser.,alt,Feminin,Dativ,Nullartikel,
+351,9,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Nullartikel,
+352,9,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Nullartikel,
+353,9,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Nullartikel,
+354,9,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Nullartikel,
+355,9,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Nullartikel,
+356,9,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Nullartikel,
+357,9,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Nullartikel,
+358,9,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Nullartikel,
+359,9,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Nullartikel,
+360,9,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Nullartikel,
+361,9,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Nullartikel,
+362,9,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Nullartikel,
+363,9,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Nullartikel,
 364,10,Ein _____ Lehrer erklärt die Grammatik sehr gut.,kluger,Ein kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Unbestimmt,8
 365,10,Ein _____ Hund schläft den ganzen Tag.,alter,Ein alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Unbestimmt,8
 366,10,Das _____ Kind stellt viele Fragen.,kluge,Das kluge Kind stellt viele Fragen.,klug,Neuter,Nominativ,Bestimmt,9
 367,10,Das _____ Buch liegt auf dem Tisch.,alte,Das alte Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Bestimmt,9
-368,10,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Ohne Artikel,10
+368,10,_____ Lehrerin erklärt die Grammatik sehr gut.,Kluge,Kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Nullartikel,10
 369,10,Eine _____ Lehrerin erklärt die Grammatik sehr gut.,kluge,Eine kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Unbestimmt,8
 370,10,Eine _____ Katze schläft den ganzen Tag.,alte,Eine alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Unbestimmt,8
 371,10,Die _____ Kinder stellen viele Fragen.,klugen,Die klugen Kinder stellen viele Fragen.,klug,Plural,Nominativ,Bestimmt,9
@@ -374,54 +374,54 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 373,10,Der _____ Lehrer erklärt die Grammatik sehr gut.,kluge,Der kluge Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Bestimmt,10
 374,10,Ein _____ Kind stellt viele Fragen.,kluges,Ein kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Unbestimmt,8
 375,10,Ein _____ Buch liegt auf dem Tisch.,altes,Ein altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Unbestimmt,9
-376,10,_____ Lehrer erklärt die Grammatik sehr gut.,Kluger,Kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Ohne Artikel,9
-377,10,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Ohne Artikel,10
+376,10,_____ Lehrer erklärt die Grammatik sehr gut.,Kluger,Kluger Lehrer erklärt die Grammatik sehr gut.,klug,Maskulin,Nominativ,Nullartikel,9
+377,10,_____ Hund schläft den ganzen Tag.,Alter,Alter Hund schläft den ganzen Tag.,alt,Maskulin,Nominativ,Nullartikel,10
 378,10,Die _____ Lehrerin erklärt die Grammatik sehr gut.,kluge,Die kluge Lehrerin erklärt die Grammatik sehr gut.,klug,Feminin,Nominativ,Bestimmt,10
-379,10,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Ohne Artikel,8
-380,10,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Ohne Artikel,8
-381,10,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Ohne Artikel,9
-382,10,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Ohne Artikel,9
-383,10,Ich sehe _____ Lehrer im Klassenzimmer.,klugen,Ich sehe klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Ohne Artikel,10
+379,10,_____ Kind stellt viele Fragen.,Kluges,Kluges Kind stellt viele Fragen.,klug,Neuter,Nominativ,Nullartikel,8
+380,10,_____ Buch liegt auf dem Tisch.,Altes,Altes Buch liegt auf dem Tisch.,alt,Neuter,Nominativ,Nullartikel,8
+381,10,_____ Kinder stellen viele Fragen.,Kluge,Kluge Kinder stellen viele Fragen.,klug,Plural,Nominativ,Nullartikel,9
+382,10,_____ Bücher liegen auf dem Tisch.,Alte,Alte Bücher liegen auf dem Tisch.,alt,Plural,Nominativ,Nullartikel,9
+383,10,Ich sehe _____ Lehrer im Klassenzimmer.,klugen,Ich sehe klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Nullartikel,10
 384,10,Ich sehe den _____ Lehrer im Klassenzimmer.,klugen,Ich sehe den klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Bestimmt,8
 385,10,Sie füttert den _____ Hund jeden Morgen.,alten,Sie füttert den alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Bestimmt,8
 386,10,Ich bewundere eine _____ Lehrerin.,kluge,Ich bewundere eine kluge Lehrerin.,klug,Feminin,Akkusativ,Unbestimmt,9
 387,10,Er streichelt eine _____ Katze.,alte,Er streichelt eine alte Katze.,alt,Feminin,Akkusativ,Unbestimmt,10
 388,10,Ich sehe einen _____ Lehrer im Klassenzimmer.,klugen,Ich sehe einen klugen Lehrer im Klassenzimmer.,klug,Maskulin,Akkusativ,Unbestimmt,10
-389,10,Ich sehe _____ Kinder auf dem Spielplatz.,kluge,Ich sehe kluge Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Ohne Artikel,8
-390,10,Sie liest _____ Bücher in der Bibliothek.,alte,Sie liest alte Bücher in der Bibliothek.,alt,Plural,Akkusativ,Ohne Artikel,9
+389,10,Ich sehe _____ Kinder auf dem Spielplatz.,kluge,Ich sehe kluge Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Nullartikel,8
+390,10,Sie liest _____ Bücher in der Bibliothek.,alte,Sie liest alte Bücher in der Bibliothek.,alt,Plural,Akkusativ,Nullartikel,9
 391,10,Ich sehe ein _____ Kind auf dem Spielplatz.,kluges,Ich sehe ein kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Unbestimmt,9
 392,10,Sie liest ein _____ Buch jeden Abend.,altes,Sie liest ein altes Buch jeden Abend.,alt,Neuter,Akkusativ,Unbestimmt,10
-393,10,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Ohne Artikel,10
+393,10,Ich sehe _____ Kind auf dem Spielplatz.,kluges,Ich sehe kluges Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Nullartikel,10
 394,10,Ich bewundere die _____ Lehrerin.,kluge,Ich bewundere die kluge Lehrerin.,klug,Feminin,Akkusativ,Bestimmt,8
 395,10,Er streichelt die _____ Katze.,alte,Er streichelt die alte Katze.,alt,Feminin,Akkusativ,Bestimmt,8
 396,10,Ich sehe die _____ Kinder auf dem Spielplatz.,klugen,Ich sehe die klugen Kinder auf dem Spielplatz.,klug,Plural,Akkusativ,Bestimmt,9
 397,10,Sie liest die _____ Bücher in der Bibliothek.,alten,Sie liest die alten Bücher in der Bibliothek.,alt,Plural,Akkusativ,Bestimmt,9
 398,10,Ich sehe das _____ Kind auf dem Spielplatz.,kluge,Ich sehe das kluge Kind auf dem Spielplatz.,klug,Neuter,Akkusativ,Bestimmt,10
-399,10,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Ohne Artikel,8
-400,10,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Ohne Artikel,8
-401,10,Ich helfe _____ Lehrer bei den Hausaufgaben.,klugem,Ich helfe klugem Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Ohne Artikel,9
-402,10,Er gibt _____ Hund Futter.,altem,Er gibt altem Hund Futter.,alt,Maskulin,Dativ,Ohne Artikel,10
+399,10,Ich bewundere _____ Lehrerin.,kluge,Ich bewundere kluge Lehrerin.,klug,Feminin,Akkusativ,Nullartikel,8
+400,10,Er streichelt _____ Katze.,alte,Er streichelt alte Katze.,alt,Feminin,Akkusativ,Nullartikel,8
+401,10,Ich helfe _____ Lehrer bei den Hausaufgaben.,klugem,Ich helfe klugem Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Nullartikel,9
+402,10,Er gibt _____ Hund Futter.,altem,Er gibt altem Hund Futter.,alt,Maskulin,Dativ,Nullartikel,10
 403,10,Ich helfe einem _____ Lehrer bei den Hausaufgaben.,klugen,Ich helfe einem klugen Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Unbestimmt,10
 404,10,Ich helfe den _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe den klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Bestimmt,8
 405,10,Er gibt den _____ Büchern neue Einbände.,alten,Er gibt den alten Büchern neue Einbände.,alt,Plural,Dativ,Bestimmt,9
-406,10,Ich helfe _____ Lehrerin bei den Hausaufgaben.,kluger,Ich helfe kluger Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Ohne Artikel,9
-407,10,Er gibt _____ Katze frisches Wasser.,alter,Er gibt alter Katze frisches Wasser.,alt,Feminin,Dativ,Ohne Artikel,10
+406,10,Ich helfe _____ Lehrerin bei den Hausaufgaben.,kluger,Ich helfe kluger Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Nullartikel,9
+407,10,Er gibt _____ Katze frisches Wasser.,alter,Er gibt alter Katze frisches Wasser.,alt,Feminin,Dativ,Nullartikel,10
 408,10,Ich helfe der _____ Lehrerin bei den Hausaufgaben.,klugen,Ich helfe der klugen Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Bestimmt,10
 409,10,Ich helfe einer _____ Lehrerin bei den Hausaufgaben.,klugen,Ich helfe einer klugen Lehrerin bei den Hausaufgaben.,klug,Feminin,Dativ,Unbestimmt,8
 410,10,Er gibt einer _____ Katze frisches Wasser.,alten,Er gibt einer alten Katze frisches Wasser.,alt,Feminin,Dativ,Unbestimmt,8
 411,10,Ich helfe dem _____ Lehrer bei den Hausaufgaben.,klugen,Ich helfe dem klugen Lehrer bei den Hausaufgaben.,klug,Maskulin,Dativ,Bestimmt,9
 412,10,Sie gibt dem _____ Hund Futter.,alten,Sie gibt dem alten Hund Futter.,alt,Maskulin,Dativ,Bestimmt,9
-413,10,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Ohne Artikel,10
+413,10,Ich helfe _____ Kind bei den Hausaufgaben.,klugem,Ich helfe klugem Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Nullartikel,10
 414,10,Ich helfe einem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe einem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Unbestimmt,8
 415,10,Er gibt einem _____ Buch einen neuen Einband.,alten,Er gibt einem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Unbestimmt,8
-416,10,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Ohne Artikel,9
-417,10,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Ohne Artikel,10
+416,10,Ich helfe _____ Kindern bei den Hausaufgaben.,klugen,Ich helfe klugen Kindern bei den Hausaufgaben.,klug,Plural,Dativ,Nullartikel,9
+417,10,Er gibt _____ Büchern neue Einbände.,alten,Er gibt alten Büchern neue Einbände.,alt,Plural,Dativ,Nullartikel,10
 418,10,Ich helfe dem _____ Kind bei den Hausaufgaben.,klugen,Ich helfe dem klugen Kind bei den Hausaufgaben.,klug,Neuter,Dativ,Bestimmt,10
 419,11,Ein _____ Baum steht im Garten.,schöner,Ein schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Unbestimmt,8
 420,11,Ein _____ Student lernt jeden Abend Deutsch.,fleißiger,Ein fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Unbestimmt,9
 421,11,Das _____ Bild hängt an der Wand.,schöne,Das schöne Bild hängt an der Wand.,schön,Neuter,Nominativ,Bestimmt,9
-422,11,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Ohne Artikel,10
-423,11,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Ohne Artikel,10
+422,11,_____ Katze schläft den ganzen Tag.,Alte,Alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Nullartikel,10
+423,11,_____ Blume steht im Garten.,Schöne,Schöne Blume steht im Garten.,schön,Feminin,Nominativ,Nullartikel,10
 424,11,Eine _____ Blume steht im Garten.,schöne,Eine schöne Blume steht im Garten.,schön,Feminin,Nominativ,Unbestimmt,8
 425,11,Eine _____ Schülerin lernt jeden Abend Deutsch.,fleißige,Eine fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Unbestimmt,8
 426,11,Die _____ Bilder hängen an der Wand.,schönen,Die schönen Bilder hängen an der Wand.,schön,Plural,Nominativ,Bestimmt,9
@@ -429,102 +429,102 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 428,11,Der _____ Baum steht im Garten.,schöne,Der schöne Baum steht im Garten.,schön,Maskulin,Nominativ,Bestimmt,10
 429,11,Ein _____ Bild hängt an der Wand.,schönes,Ein schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Unbestimmt,8
 430,11,Ein _____ Mädchen macht ihre Hausaufgaben.,fleißiges,Ein fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Unbestimmt,8
-431,11,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Ohne Artikel,9
+431,11,_____ Baum steht im Garten.,Schöner,Schöner Baum steht im Garten.,schön,Maskulin,Nominativ,Nullartikel,9
 432,11,Die _____ Katze schläft den ganzen Tag.,alte,Die alte Katze schläft den ganzen Tag.,alt,Feminin,Nominativ,Bestimmt,10
 433,11,Die _____ Blume steht im Garten.,schöne,Die schöne Blume steht im Garten.,schön,Feminin,Nominativ,Bestimmt,10
-434,11,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Ohne Artikel,8
-435,11,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Ohne Artikel,9
-436,11,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Ohne Artikel,9
-437,11,Sie füttert _____ Hund jeden Morgen.,alten,Sie füttert alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Ohne Artikel,10
-438,11,Wir bewundern _____ Baum im Park.,schönen,Wir bewundern schönen Baum im Park.,schön,Maskulin,Akkusativ,Ohne Artikel,10
+434,11,_____ Bild hängt an der Wand.,Schönes,Schönes Bild hängt an der Wand.,schön,Neuter,Nominativ,Nullartikel,8
+435,11,_____ Mädchen macht ihre Hausaufgaben.,Fleißiges,Fleißiges Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Nullartikel,9
+436,11,_____ Bilder hängen an der Wand.,Schöne,Schöne Bilder hängen an der Wand.,schön,Plural,Nominativ,Nullartikel,9
+437,11,Sie füttert _____ Hund jeden Morgen.,alten,Sie füttert alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Nullartikel,10
+438,11,Wir bewundern _____ Baum im Park.,schönen,Wir bewundern schönen Baum im Park.,schön,Maskulin,Akkusativ,Nullartikel,10
 439,11,Wir bewundern den _____ Baum im Park.,schönen,Wir bewundern den schönen Baum im Park.,schön,Maskulin,Akkusativ,Bestimmt,8
 440,11,Der Professor lobt den _____ Studenten.,fleißigen,Der Professor lobt den fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Bestimmt,8
 441,11,Wir gießen eine _____ Blume im Garten.,schöne,Wir gießen eine schöne Blume im Garten.,schön,Feminin,Akkusativ,Unbestimmt,9
 442,11,Sie füttert einen _____ Hund jeden Morgen.,alten,Sie füttert einen alten Hund jeden Morgen.,alt,Maskulin,Akkusativ,Unbestimmt,9
 443,11,Wir bewundern einen _____ Baum im Park.,schönen,Wir bewundern einen schönen Baum im Park.,schön,Maskulin,Akkusativ,Unbestimmt,10
-444,11,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Ohne Artikel,8
-445,11,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Ohne Artikel,8
+444,11,Wir bewundern _____ Bilder im Museum.,schöne,Wir bewundern schöne Bilder im Museum.,schön,Plural,Akkusativ,Nullartikel,8
+445,11,Der Lehrer lobt _____ Schüler.,fleißige,Der Lehrer lobt fleißige Schüler.,fleißig,Plural,Akkusativ,Nullartikel,8
 446,11,Wir bewundern ein _____ Bild im Museum.,schönes,Wir bewundern ein schönes Bild im Museum.,schön,Neuter,Akkusativ,Unbestimmt,9
-447,11,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Ohne Artikel,10
-448,11,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Ohne Artikel,10
+447,11,Sie liest _____ Buch jeden Abend.,altes,Sie liest altes Buch jeden Abend.,alt,Neuter,Akkusativ,Nullartikel,10
+448,11,Wir bewundern _____ Bild im Museum.,schönes,Wir bewundern schönes Bild im Museum.,schön,Neuter,Akkusativ,Nullartikel,10
 449,11,Wir gießen die _____ Blume im Garten.,schöne,Wir gießen die schöne Blume im Garten.,schön,Feminin,Akkusativ,Bestimmt,8
 450,11,Die Lehrerin lobt die _____ Schülerin.,fleißige,Die Lehrerin lobt die fleißige Schülerin.,fleißig,Feminin,Akkusativ,Bestimmt,9
 451,11,Wir bewundern die _____ Bilder im Museum.,schönen,Wir bewundern die schönen Bilder im Museum.,schön,Plural,Akkusativ,Bestimmt,9
 452,11,Sie liest das _____ Buch jeden Abend.,alte,Sie liest das alte Buch jeden Abend.,alt,Neuter,Akkusativ,Bestimmt,10
 453,11,Wir bewundern das _____ Bild im Museum.,schöne,Wir bewundern das schöne Bild im Museum.,schön,Neuter,Akkusativ,Bestimmt,10
-454,11,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Ohne Artikel,8
-455,11,Die Lehrerin lobt _____ Schülerin.,fleißige,Die Lehrerin lobt fleißige Schülerin.,fleißig,Feminin,Akkusativ,Ohne Artikel,8
-456,11,Wir danken _____ Künstler für sein Werk.,schönem,Wir danken schönem Künstler für sein Werk.,schön,Maskulin,Dativ,Ohne Artikel,9
+454,11,Wir gießen _____ Blume im Garten.,schöne,Wir gießen schöne Blume im Garten.,schön,Feminin,Akkusativ,Nullartikel,8
+455,11,Die Lehrerin lobt _____ Schülerin.,fleißige,Die Lehrerin lobt fleißige Schülerin.,fleißig,Feminin,Akkusativ,Nullartikel,8
+456,11,Wir danken _____ Künstler für sein Werk.,schönem,Wir danken schönem Künstler für sein Werk.,schön,Maskulin,Dativ,Nullartikel,9
 457,11,Sie gibt einem _____ Hund Futter.,alten,Sie gibt einem alten Hund Futter.,alt,Maskulin,Dativ,Unbestimmt,9
 458,11,Wir danken einem _____ Künstler für sein Werk.,schönen,Wir danken einem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Unbestimmt,10
 459,11,Wir danken den _____ Künstlern für ihre Werke.,schönen,Wir danken den schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Bestimmt,8
 460,11,Der Lehrer erklärt den _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt den fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Bestimmt,8
-461,11,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Ohne Artikel,9
+461,11,Wir danken _____ Künstlerin für ihr Werk.,schöner,Wir danken schöner Künstlerin für ihr Werk.,schön,Feminin,Dativ,Nullartikel,9
 462,11,Er gibt der _____ Katze frisches Wasser.,alten,Er gibt der alten Katze frisches Wasser.,alt,Feminin,Dativ,Bestimmt,10
 463,11,Wir danken der _____ Künstlerin für ihr Werk.,schönen,Wir danken der schönen Künstlerin für ihr Werk.,schön,Feminin,Dativ,Bestimmt,10
 464,11,Wir danken einer _____ Künstlerin für ihr Werk.,schönen,Wir danken einer schönen Künstlerin für ihr Werk.,schön,Feminin,Dativ,Unbestimmt,8
 465,11,Die Lehrerin erklärt einer _____ Schülerin die Aufgabe.,fleißigen,Die Lehrerin erklärt einer fleißigen Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Unbestimmt,9
 466,11,Wir danken dem _____ Künstler für sein Werk.,schönen,Wir danken dem schönen Künstler für sein Werk.,schön,Maskulin,Dativ,Bestimmt,9
-467,11,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Ohne Artikel,10
-468,11,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Ohne Artikel,10
+467,11,Er gibt _____ Buch einen neuen Einband.,altem,Er gibt altem Buch einen neuen Einband.,alt,Neuter,Dativ,Nullartikel,10
+468,11,Wir danken _____ Gemälde für die Inspiration.,schönem,Wir danken schönem Gemälde für die Inspiration.,schön,Neuter,Dativ,Nullartikel,10
 469,11,Wir danken einem _____ Gemälde für die Inspiration.,schönen,Wir danken einem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Unbestimmt,8
 470,11,Der Lehrer erklärt einem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt einem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Unbestimmt,8
-471,11,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Ohne Artikel,9
+471,11,Wir danken _____ Künstlern für ihre Werke.,schönen,Wir danken schönen Künstlern für ihre Werke.,schön,Plural,Dativ,Nullartikel,9
 472,11,Er gibt dem _____ Buch einen neuen Einband.,alten,Er gibt dem alten Buch einen neuen Einband.,alt,Neuter,Dativ,Bestimmt,9
 473,11,Wir danken dem _____ Gemälde für die Inspiration.,schönen,Wir danken dem schönen Gemälde für die Inspiration.,schön,Neuter,Dativ,Bestimmt,10
 474,12,Ein _____ Kellner bringt das Essen schnell.,freundlicher,Ein freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Unbestimmt,8
 475,12,Das _____ Mädchen macht ihre Hausaufgaben.,fleißige,Das fleißige Mädchen macht ihre Hausaufgaben.,fleißig,Neuter,Nominativ,Bestimmt,8
 476,12,Das _____ Lächeln macht ihn sympathisch.,freundliche,Das freundliche Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Bestimmt,9
-477,12,_____ Schülerin lernt jeden Abend Deutsch.,Fleißige,Fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Ohne Artikel,10
-478,12,_____ Nachbarin hilft uns oft.,Freundliche,Freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Ohne Artikel,10
+477,12,_____ Schülerin lernt jeden Abend Deutsch.,Fleißige,Fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Nullartikel,10
+478,12,_____ Nachbarin hilft uns oft.,Freundliche,Freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Nullartikel,10
 479,12,Eine _____ Nachbarin hilft uns oft.,freundliche,Eine freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Unbestimmt,8
 480,12,Die _____ Schüler lernen jeden Tag.,fleißigen,Die fleißigen Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Bestimmt,9
 481,12,Die _____ Menschen helfen einander.,freundlichen,Die freundlichen Menschen helfen einander.,freundlich,Plural,Nominativ,Bestimmt,9
 482,12,Der _____ Student lernt jeden Abend Deutsch.,fleißige,Der fleißige Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Bestimmt,10
 483,12,Der _____ Kellner bringt das Essen schnell.,freundliche,Der freundliche Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Bestimmt,10
 484,12,Ein _____ Lächeln macht ihn sympathisch.,freundliches,Ein freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Unbestimmt,8
-485,12,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Ohne Artikel,8
-486,12,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Ohne Artikel,9
+485,12,_____ Student lernt jeden Abend Deutsch.,Fleißiger,Fleißiger Student lernt jeden Abend Deutsch.,fleißig,Maskulin,Nominativ,Nullartikel,8
+486,12,_____ Kellner bringt das Essen schnell.,Freundlicher,Freundlicher Kellner bringt das Essen schnell.,freundlich,Maskulin,Nominativ,Nullartikel,9
 487,12,Die _____ Schülerin lernt jeden Abend Deutsch.,fleißige,Die fleißige Schülerin lernt jeden Abend Deutsch.,fleißig,Feminin,Nominativ,Bestimmt,9
 488,12,Die _____ Nachbarin hilft uns oft.,freundliche,Die freundliche Nachbarin hilft uns oft.,freundlich,Feminin,Nominativ,Bestimmt,10
-489,12,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Ohne Artikel,8
-490,12,_____ Schüler lernen jeden Tag.,Fleißige,Fleißige Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Ohne Artikel,8
-491,12,_____ Menschen helfen einander.,Freundliche,Freundliche Menschen helfen einander.,freundlich,Plural,Nominativ,Ohne Artikel,9
-492,12,Der Professor lobt _____ Studenten.,fleißigen,Der Professor lobt fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Ohne Artikel,10
-493,12,Die Gäste begrüßen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Ohne Artikel,10
+489,12,_____ Lächeln macht ihn sympathisch.,Freundliches,Freundliches Lächeln macht ihn sympathisch.,freundlich,Neuter,Nominativ,Nullartikel,8
+490,12,_____ Schüler lernen jeden Tag.,Fleißige,Fleißige Schüler lernen jeden Tag.,fleißig,Plural,Nominativ,Nullartikel,8
+491,12,_____ Menschen helfen einander.,Freundliche,Freundliche Menschen helfen einander.,freundlich,Plural,Nominativ,Nullartikel,9
+492,12,Der Professor lobt _____ Studenten.,fleißigen,Der Professor lobt fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Nullartikel,10
+493,12,Die Gäste begrüßen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Nullartikel,10
 494,12,Die Gäste begrüßen den _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen den freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Bestimmt,8
 495,12,Die Lehrerin lobt eine _____ Schülerin.,fleißige,Die Lehrerin lobt eine fleißige Schülerin.,fleißig,Feminin,Akkusativ,Unbestimmt,9
 496,12,Sie begrüßen eine _____ Nachbarin.,freundliche,Sie begrüßen eine freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Unbestimmt,9
 497,12,Der Professor lobt einen _____ Studenten.,fleißigen,Der Professor lobt einen fleißigen Studenten.,fleißig,Maskulin,Akkusativ,Unbestimmt,10
 498,12,Die Gäste begrüßen einen _____ Kellner herzlich.,freundlichen,Die Gäste begrüßen einen freundlichen Kellner herzlich.,freundlich,Maskulin,Akkusativ,Unbestimmt,10
-499,12,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Ohne Artikel,8
+499,12,Die Eltern begrüßen _____ Nachbarn.,freundliche,Die Eltern begrüßen freundliche Nachbarn.,freundlich,Plural,Akkusativ,Nullartikel,8
 500,12,Der Lehrer lobt ein _____ Mädchen.,fleißiges,Der Lehrer lobt ein fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Unbestimmt,8
 501,12,Die Eltern lieben ein _____ Lächeln.,freundliches,Die Eltern lieben ein freundliches Lächeln.,freundlich,Neuter,Akkusativ,Unbestimmt,9
-502,12,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Ohne Artikel,9
-503,12,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Ohne Artikel,10
+502,12,Der Lehrer lobt _____ Mädchen.,fleißiges,Der Lehrer lobt fleißiges Mädchen.,fleißig,Neuter,Akkusativ,Nullartikel,9
+503,12,Die Eltern lieben _____ Lächeln.,freundliches,Die Eltern lieben freundliches Lächeln.,freundlich,Neuter,Akkusativ,Nullartikel,10
 504,12,Sie begrüßen die _____ Nachbarin.,freundliche,Sie begrüßen die freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Bestimmt,8
 505,12,Der Lehrer lobt die _____ Schüler.,fleißigen,Der Lehrer lobt die fleißigen Schüler.,fleißig,Plural,Akkusativ,Bestimmt,8
 506,12,Die Eltern begrüßen die _____ Nachbarn.,freundlichen,Die Eltern begrüßen die freundlichen Nachbarn.,freundlich,Plural,Akkusativ,Bestimmt,9
 507,12,Der Lehrer lobt das _____ Mädchen.,fleißige,Der Lehrer lobt das fleißige Mädchen.,fleißig,Neuter,Akkusativ,Bestimmt,10
 508,12,Die Eltern lieben das _____ Lächeln ihres Kindes.,freundliche,Die Eltern lieben das freundliche Lächeln ihres Kindes.,freundlich,Neuter,Akkusativ,Bestimmt,10
-509,12,Sie begrüßen _____ Nachbarin.,freundliche,Sie begrüßen freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Ohne Artikel,8
-510,12,Professor gratuliert _____ Mann.,fleißigem,Professor gratuliert fleißigem Mann.,fleißig,Maskulin,Dativ,Ohne Artikel,9
-511,12,Die Gäste schenken _____ Kellner ein Trinkgeld.,freundlichem,Die Gäste schenken freundlichem Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Ohne Artikel,9
+509,12,Sie begrüßen _____ Nachbarin.,freundliche,Sie begrüßen freundliche Nachbarin.,freundlich,Feminin,Akkusativ,Nullartikel,8
+510,12,Professor gratuliert _____ Mann.,fleißigem,Professor gratuliert fleißigem Mann.,fleißig,Maskulin,Dativ,Nullartikel,9
+511,12,Die Gäste schenken _____ Kellner ein Trinkgeld.,freundlichem,Die Gäste schenken freundlichem Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Nullartikel,9
 512,12,Der Professor erklärt einem _____ Studenten die Aufgabe.,fleißigen,Der Professor erklärt einem fleißigen Studenten die Aufgabe.,fleißig,Maskulin,Dativ,Unbestimmt,10
 513,12,Die Gäste schenken einem _____ Kellner ein Trinkgeld.,freundlichen,Die Gäste schenken einem freundlichen Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Unbestimmt,10
 514,12,Die Eltern schenken den _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken den freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Bestimmt,8
-515,12,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Ohne Artikel,8
-516,12,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Ohne Artikel,9
+515,12,Die Lehrerin erklärt _____ Schülerin die Aufgabe.,fleißiger,Die Lehrerin erklärt fleißiger Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Nullartikel,8
+516,12,Die Nachbarn gratulieren _____ Frau zum Geburtstag.,freundlicher,Die Nachbarn gratulieren freundlicher Frau zum Geburtstag.,freundlich,Feminin,Dativ,Nullartikel,9
 517,12,Die Lehrerin erklärt der _____ Schülerin die Aufgabe.,fleißigen,Die Lehrerin erklärt der fleißigen Schülerin die Aufgabe.,fleißig,Feminin,Dativ,Bestimmt,9
 518,12,Die Nachbarn gratulieren der _____ Frau zum Geburtstag.,freundlichen,Die Nachbarn gratulieren der freundlichen Frau zum Geburtstag.,freundlich,Feminin,Dativ,Bestimmt,10
 519,12,Die Nachbarn gratulieren einer _____ Frau zum Geburtstag.,freundlichen,Die Nachbarn gratulieren einer freundlichen Frau zum Geburtstag.,freundlich,Feminin,Dativ,Unbestimmt,8
 520,12,Der Professor erklärt dem _____ Studenten die Aufgabe.,fleißigen,Der Professor erklärt dem fleißigen Studenten die Aufgabe.,fleißig,Maskulin,Dativ,Bestimmt,8
 521,12,Die Gäste schenken dem _____ Kellner ein Trinkgeld.,freundlichen,Die Gäste schenken dem freundlichen Kellner ein Trinkgeld.,freundlich,Maskulin,Dativ,Bestimmt,9
-522,12,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Ohne Artikel,10
-523,12,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Ohne Artikel,10
+522,12,Der Lehrer erklärt _____ Mädchen die Aufgabe.,fleißigem,Der Lehrer erklärt fleißigem Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Nullartikel,10
+523,12,Die Eltern schenken _____ Lächeln viel Bedeutung.,freundlichem,Die Eltern schenken freundlichem Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Nullartikel,10
 524,12,Die Eltern schenken einem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken einem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Unbestimmt,8
-525,12,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Ohne Artikel,9
-526,12,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Ohne Artikel,9
+525,12,Der Lehrer erklärt _____ Schülern die Aufgabe.,fleißigen,Der Lehrer erklärt fleißigen Schülern die Aufgabe.,fleißig,Plural,Dativ,Nullartikel,9
+526,12,Die Eltern schenken _____ Nachbarn ein Geschenk.,freundlichen,Die Eltern schenken freundlichen Nachbarn ein Geschenk.,freundlich,Plural,Dativ,Nullartikel,9
 527,12,Der Lehrer erklärt dem _____ Mädchen die Aufgabe.,fleißigen,Der Lehrer erklärt dem fleißigen Mädchen die Aufgabe.,fleißig,Neuter,Dativ,Bestimmt,10
 528,12,Die Eltern schenken dem _____ Lächeln viel Bedeutung.,freundlichen,Die Eltern schenken dem freundlichen Lächeln viel Bedeutung.,freundlich,Neuter,Dativ,Bestimmt,10
 529,13,des _____ Vaters,netten,des netten Vaters,nett,Maskulin,Genitiv,Bestimmt artikel,
@@ -534,10 +534,10 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 533,13,eines _____ Vaters,netten,eines netten Vaters,nett,Maskulin,Genitiv,Unbestimmt artikel,
 534,13,einer _____ Mutter,netten,einer netten Mutter,nett,Feminin,Genitiv,Unbestimmt artikel,
 535,13,eines _____ Kindes,netten,eines netten Kindes,nett,Neuter,Genitiv,Unbestimmt artikel,
-536,13,Ø _____ Vaters,netten,netten Vaters,nett,Maskulin,Genitiv,Ohne Artikel,
-537,13,Ø _____ Mutter,netter,netter Mutter,nett,Feminin,Genitiv,Ohne Artikel,
-538,13,Ø _____ Kindes,netten,netten Kindes,nett,Neuter,Genitiv,Ohne Artikel,
-539,13,Ø _____ Eltern,netter,netter Eltern,nett,Plural,Genitiv,Ohne Artikel,
+536,13,Ø _____ Vaters,netten,netten Vaters,nett,Maskulin,Genitiv,Nullartikel,
+537,13,Ø _____ Mutter,netter,netter Mutter,nett,Feminin,Genitiv,Nullartikel,
+538,13,Ø _____ Kindes,netten,netten Kindes,nett,Neuter,Genitiv,Nullartikel,
+539,13,Ø _____ Eltern,netter,netter Eltern,nett,Plural,Genitiv,Nullartikel,
 540,14,Das ist das Buch der _____ Lehrerin.,klugen,Das ist das Buch der klugen Lehrerin.,klug,Feminin,Genitiv,Bestimmt,
 541,14,Das ist das Spielzeug der _____ Katze.,alten,Das ist das Spielzeug der alten Katze.,alt,Feminin,Genitiv,Bestimmt,
 542,14,Das ist das Gemälde der _____ Künstlerin.,schönen,Das ist das Gemälde der schönen Künstlerin.,schön,Feminin,Genitiv,Bestimmt,
@@ -563,16 +563,16 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 562,14,Das ist das Gemälde einer _____ Künstlerin.,schönen,Das ist das Gemälde einer schönen Künstlerin.,schön,Feminin,Genitiv,Unbestimmt,
 563,14,Der Erfolg einer _____ Schülerin ist bewundernswert.,fleißigen,Der Erfolg einer fleißigen Schülerin ist bewundernswert.,fleißig,Feminin,Genitiv,Unbestimmt,
 564,14,Das Lob einer _____ Nachbarin war herzlich.,freundlichen,Das Lob einer freundlichen Nachbarin war herzlich.,freundlich,Feminin,Genitiv,Unbestimmt,
-565,14,Das sind die Bücher _____ Kinder.,kluger,Das sind die Bücher kluger Kinder.,klug,Plural,Genitiv,Ohne Artikel,
-566,14,Das sind die Spielsachen _____ Katzen.,alter,Das sind die Spielsachen alter Katzen.,alt,Plural,Genitiv,Ohne Artikel,
-567,14,Das sind die Gemälde _____ Künstler.,schöner,Das sind die Gemälde schöner Künstler.,schön,Plural,Genitiv,Ohne Artikel,
-568,14,Der Erfolg _____ Schüler ist bewundernswert.,fleißiger,Der Erfolg fleißiger Schüler ist bewundernswert.,fleißig,Plural,Genitiv,Ohne Artikel,
-569,14,Das Lob _____ Nachbarn war herzlich.,freundlicher,Das Lob freundlicher Nachbarn war herzlich.,freundlich,Plural,Genitiv,Ohne Artikel,
-570,14,Das ist das Buch _____ Kindes.,klugen,Das ist das Buch klugen Kindes.,klug,Neuter,Genitiv,Ohne Artikel,
-571,14,Das ist das Spielzeug _____ Buches.,alten,Das ist das Spielzeug alten Buches.,alt,Neuter,Genitiv,Ohne Artikel,
-572,14,Das ist das Gemälde _____ Bildes.,schönen,Das ist das Gemälde schönen Bildes.,schön,Neuter,Genitiv,Ohne Artikel,
-573,14,Der Erfolg _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Ohne Artikel,
-574,14,Das Lob _____ Lächelns war herzlich.,freundlichen,Das Lob freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Ohne Artikel,
+565,14,Das sind die Bücher _____ Kinder.,kluger,Das sind die Bücher kluger Kinder.,klug,Plural,Genitiv,Nullartikel,
+566,14,Das sind die Spielsachen _____ Katzen.,alter,Das sind die Spielsachen alter Katzen.,alt,Plural,Genitiv,Nullartikel,
+567,14,Das sind die Gemälde _____ Künstler.,schöner,Das sind die Gemälde schöner Künstler.,schön,Plural,Genitiv,Nullartikel,
+568,14,Der Erfolg _____ Schüler ist bewundernswert.,fleißiger,Der Erfolg fleißiger Schüler ist bewundernswert.,fleißig,Plural,Genitiv,Nullartikel,
+569,14,Das Lob _____ Nachbarn war herzlich.,freundlicher,Das Lob freundlicher Nachbarn war herzlich.,freundlich,Plural,Genitiv,Nullartikel,
+570,14,Das ist das Buch _____ Kindes.,klugen,Das ist das Buch klugen Kindes.,klug,Neuter,Genitiv,Nullartikel,
+571,14,Das ist das Spielzeug _____ Buches.,alten,Das ist das Spielzeug alten Buches.,alt,Neuter,Genitiv,Nullartikel,
+572,14,Das ist das Gemälde _____ Bildes.,schönen,Das ist das Gemälde schönen Bildes.,schön,Neuter,Genitiv,Nullartikel,
+573,14,Der Erfolg _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Nullartikel,
+574,14,Das Lob _____ Lächelns war herzlich.,freundlichen,Das Lob freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Nullartikel,
 575,14,Das ist das Buch eines _____ Kindes.,klugen,Das ist das Buch eines klugen Kindes.,klug,Neuter,Genitiv,Unbestimmt,
 576,14,Das ist das Spielzeug eines _____ Buches.,alten,Das ist das Spielzeug eines alten Buches.,alt,Neuter,Genitiv,Unbestimmt,
 577,14,Das ist das Gemälde eines _____ Bildes.,schönen,Das ist das Gemälde eines schönen Bildes.,schön,Neuter,Genitiv,Unbestimmt,
@@ -583,16 +583,16 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 582,14,Das ist das Gemälde des _____ Bildes.,schönen,Das ist das Gemälde des schönen Bildes.,schön,Neuter,Genitiv,Bestimmt,
 583,14,Der Erfolg des _____ Mädchens ist bewundernswert.,fleißigen,Der Erfolg des fleißigen Mädchens ist bewundernswert.,fleißig,Neuter,Genitiv,Bestimmt,
 584,14,Das Lob des _____ Lächelns war herzlich.,freundlichen,Das Lob des freundlichen Lächelns war herzlich.,freundlich,Neuter,Genitiv,Bestimmt,
-585,14,Das ist das Buch _____ Lehrers.,klugen,Das ist das Buch klugen Lehrers.,klug,Maskulin,Genitiv,Ohne Artikel,
-586,14,Das ist das Spielzeug _____ Hundes.,alten,Das ist das Spielzeug alten Hundes.,alt,Maskulin,Genitiv,Ohne Artikel,
-587,14,Das ist das Gemälde _____ Künstlers.,schönen,Das ist das Gemälde schönen Künstlers.,schön,Maskulin,Genitiv,Ohne Artikel,
-588,14,Der Erfolg _____ Mannes ist bemerkenswert.,fleißigen,Der Erfolg fleißigen Mannes ist bemerkenswert.,fleißig,Maskulin,Genitiv,Ohne Artikel,
-589,14,Das Lob _____ Kellners war herzlich.,freundlichen,Das Lob freundlichen Kellners war herzlich.,freundlich,Maskulin,Genitiv,Ohne Artikel,
-590,14,Das ist das Buch _____ Lehrerin.,kluger,Das ist das Buch kluger Lehrerin.,klug,Feminin,Genitiv,Ohne Artikel,
-591,14,Das ist das Spielzeug _____ Katze.,alter,Das ist das Spielzeug alter Katze.,alt,Feminin,Genitiv,Ohne Artikel,
-592,14,Das ist das Gemälde _____ Künstlerin.,schöner,Das ist das Gemälde schöner Künstlerin.,schön,Feminin,Genitiv,Ohne Artikel,
-593,14,Der Erfolg _____ Schülerin ist bewundernswert.,fleißiger,Der Erfolg fleißiger Schülerin ist bewundernswert.,fleißig,Feminin,Genitiv,Ohne Artikel,
-594,14,Das Lob _____ Nachbarin war herzlich.,freundlicher,Das Lob freundlicher Nachbarin war herzlich.,freundlich,Feminin,Genitiv,Ohne Artikel,
+585,14,Das ist das Buch _____ Lehrers.,klugen,Das ist das Buch klugen Lehrers.,klug,Maskulin,Genitiv,Nullartikel,
+586,14,Das ist das Spielzeug _____ Hundes.,alten,Das ist das Spielzeug alten Hundes.,alt,Maskulin,Genitiv,Nullartikel,
+587,14,Das ist das Gemälde _____ Künstlers.,schönen,Das ist das Gemälde schönen Künstlers.,schön,Maskulin,Genitiv,Nullartikel,
+588,14,Der Erfolg _____ Mannes ist bemerkenswert.,fleißigen,Der Erfolg fleißigen Mannes ist bemerkenswert.,fleißig,Maskulin,Genitiv,Nullartikel,
+589,14,Das Lob _____ Kellners war herzlich.,freundlichen,Das Lob freundlichen Kellners war herzlich.,freundlich,Maskulin,Genitiv,Nullartikel,
+590,14,Das ist das Buch _____ Lehrerin.,kluger,Das ist das Buch kluger Lehrerin.,klug,Feminin,Genitiv,Nullartikel,
+591,14,Das ist das Spielzeug _____ Katze.,alter,Das ist das Spielzeug alter Katze.,alt,Feminin,Genitiv,Nullartikel,
+592,14,Das ist das Gemälde _____ Künstlerin.,schöner,Das ist das Gemälde schöner Künstlerin.,schön,Feminin,Genitiv,Nullartikel,
+593,14,Der Erfolg _____ Schülerin ist bewundernswert.,fleißiger,Der Erfolg fleißiger Schülerin ist bewundernswert.,fleißig,Feminin,Genitiv,Nullartikel,
+594,14,Das Lob _____ Nachbarin war herzlich.,freundlicher,Das Lob freundlicher Nachbarin war herzlich.,freundlich,Feminin,Genitiv,Nullartikel,
 595,15,kein _____ Vater,netter,kein netter Vater,nett,Maskulin,Nominativ,Negationsartikel,
 596,15,keinen _____ Vater,netten,keinen netten Vater,nett,Maskulin,Akkusativ,Negationsartikel,
 597,15,keinem _____ Vater,netten,keinem netten Vater,nett,Maskulin,Dativ,Negationsartikel,
@@ -881,51 +881,123 @@ Nr,exercise,question,answer,german,adjective,gender,case,article,
 880,20,Wir gratulieren dieser _____ Künstlerin zu ihrem Erfolg.,jungen,Wir gratulieren dieser jungen Künstlerin zu ihrem Erfolg.,jung,Feminin,Dativ,Demonstrative artikel,
 881,20,Der Reporter stellt dieser _____ Politikerin eine Frage.,wichtigen,Der Reporter stellt dieser wichtigen Politikerin eine Frage.,wichtig,Feminin,Dativ,Demonstrative artikel,
 882,20,Ich vertraue dieser _____ Nachbarin voll und ganz.,netten,Ich vertraue dieser netten Nachbarin voll und ganz.,nett,Feminin,Dativ,Demonstrative artikel,
-883,21,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Nominativ,Plural Bestimmt artikel,
-884,21,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Akkusativ,Plural Bestimmt artikel,
-885,21,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Dativ,Plural Bestimmt artikel,
-886,21,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Genitiv,Plural Bestimmt artikel,
-887,21,viele _____ Eltern,nette,viele nette Eltern,nett,Plural,Nominativ,Plural Unbestimmt Artikel,
-888,21,viele _____ Eltern,nette,viele nette Eltern,nett,Plural,Akkusativ,Plural Unbestimmt Artikel,
-889,21,vielen _____ Eltern,netten,viele netten Eltern,nett,Plural,Dativ,Plural Unbestimmt Artikel,
-890,21,vieler _____ Eltern,netten,viele netten Eltern,nett,Plural,Genitiv,Plural Unbestimmt Artikel,
-891,22,Alle _____ Schüler haben die Prüfung bestanden.,fleißigen,Alle fleißigen Schüler haben die Prüfung bestanden.,fleißig,Plural,Nominativ,Plural Bestimmt artikel,
-892,22,Alle _____ Gebäude in der Stadt sind denkmalgeschützt.,alten,Alle alten Gebäude in der Stadt sind denkmalgeschützt.,alt,Plural,Nominativ,Plural Bestimmt artikel,
-893,22,Alle _____ Künstler präsentierten ihre Werke.,jungen,Alle jungen Künstler präsentierten ihre Werke.,jung,Plural,Nominativ,Plural Bestimmt artikel,
-894,22,Alle _____ Dokumente liegen auf dem Tisch.,wichtigen,Alle wichtigen Dokumente liegen auf dem Tisch.,wichtig,Plural,Nominativ,Plural Bestimmt artikel,
-895,22,Alle _____ Nachbarn halfen uns beim Umzug.,netten,Alle netten Nachbarn halfen uns beim Umzug.,nett,Plural,Nominativ,Plural Bestimmt artikel,
-896,22,Ich sehe alle _____ Schüler im Klassenzimmer.,fleißigen,Ich sehe alle fleißigen Schüler im Klassenzimmer.,fleißig,Plural,Akkusativ,Plural Bestimmt artikel,
-897,22,Wir besichtigen alle _____ Gebäude in der Stadt.,alten,Wir besichtigen alle alten Gebäude in der Stadt.,alt,Plural,Akkusativ,Plural Bestimmt artikel,
-898,22,Sie hat alle _____ Künstler für die Ausstellung eingeladen.,jungen,Sie hat alle jungen Künstler für die Ausstellung eingeladen.,jung,Plural,Akkusativ,Plural Bestimmt artikel,
-899,22,Er hat alle _____ Dokumente unterschrieben.,wichtigen,Er hat alle wichtigen Dokumente unterschrieben.,wichtig,Plural,Akkusativ,Plural Bestimmt artikel,
-900,22,Wir haben alle _____ Nachbarn zum Grillen eingeladen.,netten,Wir haben alle netten Nachbarn zum Grillen eingeladen.,nett,Plural,Akkusativ,Plural Bestimmt artikel,
-901,22,Er hilft allen _____ Schülern bei den Hausaufgaben.,fleißigen,Er hilft allen fleißigen Schülern bei den Hausaufgaben.,fleißig,Plural,Dativ,Plural Bestimmt artikel,
-902,22,Wir haben mit allen _____ Gebäuden in der Stadt zu tun.,alten,Wir haben mit allen alten Gebäuden in der Stadt zu tun.,alt,Plural,Dativ,Plural Bestimmt artikel,
-903,22,Sie schenkt allen _____ Künstlern eine Leinwand.,jungen,Sie schenkt allen jungen Künstlern eine Leinwand.,jung,Plural,Dativ,Plural Bestimmt artikel,
-904,22,Nach dem Meeting sprechen wir mit allen _____ Partnern.,wichtigen,Nach dem Meeting sprechen wir mit allen wichtigen Partnern.,wichtig,Plural,Dativ,Plural Bestimmt artikel,
-905,22,Ich habe mich mit allen _____ Nachbarn unterhalten.,netten,Ich habe mich mit allen netten Nachbarn unterhalten.,nett,Plural,Dativ,Plural Bestimmt artikel,
-906,22,Trotz aller _____ Schüler gab es Probleme mit der Prüfung.,fleißigen,Trotz aller fleißigen Schüler gab es Probleme mit der Prüfung.,fleißig,Plural,Genitiv,Plural Bestimmt artikel,
-907,22,Wegen aller _____ Gebäude sind die Renovierungskosten hoch.,alten,Wegen aller alten Gebäude sind die Renovierungskosten hoch.,alt,Plural,Genitiv,Plural Bestimmt artikel,
-908,22,Anstelle aller _____ Künstler wurden erfahrene Maler eingeladen.,jungen,Anstelle aller jungen Künstler wurden erfahrene Maler eingeladen.,jung,Plural,Genitiv,Plural Bestimmt artikel,
-909,22,Aufgrund aller _____ Dokumente musste die Entscheidung verschoben werden.,wichtigen,Aufgrund aller wichtigen Dokumente musste die Entscheidung verschoben werden.,wichtig,Plural,Genitiv,Plural Bestimmt artikel,
-910,22,Trotz aller _____ Nachbarn kann es manchmal laut sein.,netten,Trotz aller netten Nachbarn kann es manchmal laut sein.,nett,Plural,Genitiv,Plural Bestimmt artikel,
-911,22,Viele _____ Schüler bereiten sich auf die Prüfung vor.,fleißige,Viele fleißige Schüler bereiten sich auf die Prüfung vor.,fleißig,Plural,Nominativ,Plural Unbestimmt Artikel,
-912,22,Viele _____ Gebäude in der Stadt sind renovierungsbedürftig.,alte,Viele alte Gebäude in der Stadt sind renovierungsbedürftig.,alt,Plural,Nominativ,Plural Unbestimmt Artikel,
-913,22,Viele _____ Künstler träumen von einer großen Karriere.,junge,Viele junge Künstler träumen von einer großen Karriere.,jung,Plural,Nominativ,Plural Unbestimmt Artikel,
-914,22,Viele _____ Dokumente müssen noch unterschrieben werden.,wichtige,Viele wichtige Dokumente müssen noch unterschrieben werden.,wichtig,Plural,Nominativ,Plural Unbestimmt Artikel,
-915,22,Viele _____ Nachbarn kamen zur Feier.,nette,Viele nette Nachbarn kamen zur Feier.,nett,Plural,Nominativ,Plural Unbestimmt Artikel,
-916,22,Ich sehe viele _____ Schüler in der Bibliothek.,fleißige,Ich sehe viele fleißige Schüler in der Bibliothek.,fleißig,Plural,Akkusativ,Plural Unbestimmt Artikel,
-917,22,Wir besuchen viele _____ Gebäude in der Stadt.,alte,Wir besuchen viele alte Gebäude in der Stadt.,alt,Plural,Akkusativ,Plural Unbestimmt Artikel,
-918,22,Sie hat viele _____ Künstler zur Ausstellung eingeladen.,junge,Sie hat viele junge Künstler zur Ausstellung eingeladen.,jung,Plural,Akkusativ,Plural Unbestimmt Artikel,
-919,22,Er hat viele _____ Dokumente durchgesehen.,wichtige,Er hat viele wichtige Dokumente durchgesehen.,wichtig,Plural,Akkusativ,Plural Unbestimmt Artikel,
-920,22,Wir haben viele _____ Nachbarn zum Abendessen eingeladen.,nette,Wir haben viele nette Nachbarn zum Abendessen eingeladen.,nett,Plural,Akkusativ,Plural Unbestimmt Artikel,
-921,22,Er hilft vielen _____ Schülern bei den Hausaufgaben.,fleißigen,Er hilft vielen fleißigen Schülern bei den Hausaufgaben.,fleißig,Plural,Dativ,Plural Unbestimmt Artikel,
-922,22,Wir sprechen mit vielen _____ Menschen über ihre Erfahrungen.,alten,Wir sprechen mit vielen alten Menschen über ihre Erfahrungen.,alt,Plural,Dativ,Plural Unbestimmt Artikel,
-923,22,Sie gibt vielen _____ Künstlern eine Chance.,jungen,Sie gibt vielen jungen Künstlern eine Chance.,jung,Plural,Dativ,Plural Unbestimmt Artikel,
-924,22,Nach dem Vortrag diskutieren wir mit vielen _____ Experten.,wichtigen,Nach dem Vortrag diskutieren wir mit vielen wichtigen Experten.,wichtig,Plural,Dativ,Plural Unbestimmt Artikel,
-925,22,Ich habe mich mit vielen _____ Nachbarn unterhalten.,netten,Ich habe mich mit vielen netten Nachbarn unterhalten.,nett,Plural,Dativ,Plural Unbestimmt Artikel,
-926,22,Trotz vieler _____ Schüler gab es Probleme mit der Prüfung.,fleißiger,Trotz vieler fleißiger Schüler gab es Probleme mit der Prüfung.,fleißig,Plural,Genitiv,Plural Unbestimmt Artikel,
-927,22,Wegen vieler _____ Gebäude sind die Renovierungskosten hoch.,alter,Wegen vieler alter Gebäude sind die Renovierungskosten hoch.,alt,Plural,Genitiv,Plural Unbestimmt Artikel,
-928,22,Anstelle vieler _____ Künstler wurden erfahrene Maler eingeladen.,junger,Anstelle vieler junger Künstler wurden erfahrene Maler eingeladen.,jung,Plural,Genitiv,Plural Unbestimmt Artikel,
-929,22,Aufgrund vieler _____ Dokumente musste die Entscheidung verschoben werden.,wichtiger,Aufgrund vieler wichtiger Dokumente musste die Entscheidung verschoben werden.,wichtig,Plural,Genitiv,Plural Unbestimmt Artikel,
-930,22,Trotz vieler _____ Nachbarn kann es manchmal laut sein.,netter,Trotz vieler netter Nachbarn kann es manchmal laut sein.,nett,Plural,Genitiv,Plural Unbestimmt Artikel,
+883,21,etwas _____ Vater,netter,etwas netter Vater,nett,Maskulin,Nominativ,Singular Menge Artikel,
+884,21,etwas _____ Vater,netten,etwas netten Vater,nett,Maskulin,Akkusativ,Singular Menge Artikel,
+885,21,etwas _____ Vater,nettem,etwas nettem Vater,nett,Maskulin,Dativ,Singular Menge Artikel,
+886,21,etwas _____ Vater,netten,etwas netten Vater,nett,Maskulin,Genitiv,Singular Menge Artikel,
+887,21,etwas _____ Kind,nettes,etwas nettes Kind,nett,Neuter,Nominativ,Singular Menge Artikel,
+888,21,etwas _____ Kind,nettes,etwas nettes Kind,nett,Neuter,Akkusativ,Singular Menge Artikel,
+889,21,etwas _____ Kind,nettem,etwas nettem Kind,nett,Neuter,Dativ,Singular Menge Artikel,
+890,21,etwas _____ Kind,netten,etwas netten Kind,nett,Neuter,Genitiv,Singular Menge Artikel,
+891,21,etwas _____ Mutter,nette,etwas nette Mutter,nett,Feminin,Nominativ,Singular Menge Artikel,
+892,21,etwas _____ Mutter,nette,etwas nette Mutter,nett,Feminin,Akkusativ,Singular Menge Artikel,
+893,21,etwas _____ Mutter,netter,etwas netter Mutter,nett,Feminin,Dativ,Singular Menge Artikel,
+894,21,etwas _____ Mutter,netter,etwas netter Mutter,nett,Feminin,Genitiv,Singular Menge Artikel,
+895,22,Viel _____ Käse aus der Region macht das Frühstück besonders lecker.,frischer,Viel frischer Käse aus der Region macht das Frühstück besonders lecker.,frisch,Maskulin,Nominativ,Singular Menge Artikel,
+896,22,Etwas _____ Kaffee am Morgen hilft mir beim Wachwerden.,heißer,Etwas heißer Kaffee am Morgen hilft mir beim Wachwerden.,heiß,Maskulin,Nominativ,Singular Menge Artikel,
+897,22,Genug _____ Verstand ist in dieser Situation wirklich notwendig.,klarer,Genug klarer Verstand ist in dieser Situation wirklich notwendig.,klar,Maskulin,Nominativ,Singular Menge Artikel,
+898,22,Mehr _____ Schlaf würde dir sicher guttun.,ruhiger,Mehr ruhiger Schlaf würde dir sicher guttun.,ruhig,Maskulin,Nominativ,Singular Menge Artikel,
+899,22,Viel _____ Verkehr stört die Ruhe im Parkviertel.,lauter,Viel lauter Verkehr stört die Ruhe im Parkviertel.,laut,Maskulin,Nominativ,Singular Menge Artikel,
+900,22,Ich habe etwas _____ Tee für dich vorbereitet,heißen,Ich habe etwas heißen Tee für dich vorbereitet,heiß,Maskulin,Akkusativ,Singular Menge Artikel,
+901,22,Wir brauchen viel _____ Käse für das Rezept,frischen,Wir brauchen viel frischen Käse für das Rezept,frisch,Maskulin,Akkusativ,Singular Menge Artikel,
+902,22,"Er trank genug _____ Kaffee, um wach zu bleiben",starken,"Er trank genug starken Kaffee, um wach zu bleiben",stark,Maskulin,Akkusativ,Singular Menge Artikel,
+903,22,Sie wollte mehr _____ Schlaf bekommen,ruhigen,Sie wollte mehr ruhigen Schlaf bekommen,ruhig,Maskulin,Akkusativ,Singular Menge Artikel,
+904,22,Man muss etwas _____ Verstand mitbringen,klaren,Man muss etwas klaren Verstand mitbringen,klar,Maskulin,Akkusativ,Singular Menge Artikel,
+905,22,Mit etwas _____ Kaffee fühlt er sich besser,heißem,Mit etwas heißem Kaffee fühlt er sich besser,heiß,Maskulin,Dativ,Singular Menge Artikel,
+906,22,Sie hilft mit viel _____ Käse beim Kochen,frischem,Sie hilft mit viel frischem Käse beim Kochen,frisch,Maskulin,Dativ,Singular Menge Artikel,
+907,22,Durch genug _____ Verstand konnte er das Problem lösen,klarem,Durch genug klarem Verstand konnte er das Problem lösen,klar,Maskulin,Dativ,Singular Menge Artikel,
+908,22,Er träumt von mehr _____ Schlaf in der Woche,ruhigem,Er träumt von mehr ruhigem Schlaf in der Woche,ruhig,Maskulin,Dativ,Singular Menge Artikel,
+909,22,Mit etwas _____ Wind wird das Segeln spannend,starkem,Mit etwas starkem Wind wird das Segeln spannend,stark,Maskulin,Dativ,Singular Menge Artikel,
+910,22,Der Geschmack viel _____ Käses ist unverwechselbar,frischen,Der Geschmack viel frischen Käses ist unverwechselbar,frisch,Maskulin,Genitiv,Singular Menge Artikel,
+911,22,Die Wirkung etwas _____ Tees ist erstaunlich,heißen,Die Wirkung etwas heißen Tees ist erstaunlich,heiß,Maskulin,Genitiv,Singular Menge Artikel,
+912,22,Die Qualität genug _____ Verstands zeigt sich im Ergebnis,klaren,Die Qualität genug klaren Verstands zeigt sich im Ergebnis,klar,Maskulin,Genitiv,Singular Menge Artikel,
+913,22,Die Bedeutung mehr _____ Schlafs wird oft unterschätzt,ruhigen,Die Bedeutung mehr ruhigen Schlafs wird oft unterschätzt,ruhig,Maskulin,Genitiv,Singular Menge Artikel,
+914,22,Die Stärke etwas _____ Windes wurde deutlich spürbar,starken,Die Stärke etwas starken Windes wurde deutlich spürbar,stark,Maskulin,Genitiv,Singular Menge Artikel,
+915,22,Viel _____ Wasser ist gesund,frisches,Viel frisches Wasser ist gesund,frisch,Neuter,Nominativ,Singular Menge Artikel,
+916,22,Etwas _____ Bier wäre jetzt perfekt,kaltes,Etwas kaltes Bier wäre jetzt perfekt,kalt,Neuter,Nominativ,Singular Menge Artikel,
+917,22,Genug _____ Denken hilft in schwierigen Situationen,klares,Genug klares Denken hilft in schwierigen Situationen,klar,Neuter,Nominativ,Singular Menge Artikel,
+918,22,Mehr _____ Wetter wäre ideal für das Festival,ruhiges,Mehr ruhiges Wetter wäre ideal für das Festival,ruhig,Neuter,Nominativ,Singular Menge Artikel,
+919,22,Etwas _____ Licht blendet mich,starkes,Etwas starkes Licht blendet mich,stark,Neuter,Nominativ,Singular Menge Artikel,
+920,22,Ich brauche viel _____ Wasser nach dem Training,frisches,Ich brauche viel frisches Wasser nach dem Training,frisch,Neuter,Akkusativ,Singular Menge Artikel,
+921,22,Er trinkt etwas _____ Bier am Abend,kaltes,Er trinkt etwas kaltes Bier am Abend,kalt,Neuter,Akkusativ,Singular Menge Artikel,
+922,22,Sie verlangt genug _____ Denken in der Prüfung,klares,Sie verlangt genug klares Denken in der Prüfung,klar,Neuter,Akkusativ,Singular Menge Artikel,
+923,22,Wir wünschen uns mehr _____ Wetter für den Urlaub,ruhiges,Wir wünschen uns mehr ruhiges Wetter für den Urlaub,ruhig,Neuter,Akkusativ,Singular Menge Artikel,
+924,22,Man braucht etwas _____ Licht zum Lesen,starkes,Man braucht etwas starkes Licht zum Lesen,stark,Neuter,Akkusativ,Singular Menge Artikel,
+925,22,Mit viel _____ Wasser kocht man besser,frischem,Mit viel frischem Wasser kocht man besser,frisch,Neuter,Dativ,Singular Menge Artikel,
+926,22,Bei etwas _____ Bier entspannen sie sich gern,kaltem,Bei etwas kaltem Bier entspannen sie sich gern,kalt,Neuter,Dativ,Singular Menge Artikel,
+927,22,Durch genug _____ Denken konnte er die Aufgabe lösen,klarem,Durch genug klarem Denken konnte er die Aufgabe lösen,klar,Neuter,Dativ,Singular Menge Artikel,
+928,22,Mit mehr _____ Wetter wäre die Wanderung angenehmer,ruhigem,Mit mehr ruhigem Wetter wäre die Wanderung angenehmer,ruhig,Neuter,Dativ,Singular Menge Artikel,
+929,22,Unter etwas _____ Licht erkennt man die Details besser,starkem,Unter etwas starkem Licht erkennt man die Details besser,stark,Neuter,Dativ,Singular Menge Artikel,
+930,22,Die Qualität viel _____ Wassers ist entscheidend,frischen,Die Qualität viel frischen Wassers ist entscheidend,frisch,Neuter,Genitiv,Singular Menge Artikel,
+931,22,Der Geschmack etwas _____ Biers ist nicht jedermanns Sache,kalten,Der Geschmack etwas kalten Biers ist nicht jedermanns Sache,kalt,Neuter,Genitiv,Singular Menge Artikel,
+932,22,Die Klarheit genug _____ Denkens zeigt sich im Ergebnis,klaren,Die Klarheit genug klaren Denkens zeigt sich im Ergebnis,klar,Neuter,Genitiv,Singular Menge Artikel,
+933,22,Die Ruhe mehr _____ Wetters hat allen gutgetan,ruhigen,Die Ruhe mehr ruhigen Wetters hat allen gutgetan,ruhig,Neuter,Genitiv,Singular Menge Artikel,
+934,22,Die Intensität etwas _____ Lichts war unangenehm,starken,Die Intensität etwas starken Lichts war unangenehm,stark,Neuter,Genitiv,Singular Menge Artikel,
+935,22,Viel _____ Milch ist heute angekommen,frische,Viel frische Milch ist heute angekommen,frisch,Feminin,Nominativ,Singular Menge Artikel,
+936,22,Etwas _____ Suppe steht noch auf dem Herd,kalte,Etwas kalte Suppe steht noch auf dem Herd,kalt,Feminin,Nominativ,Singular Menge Artikel,
+937,22,Genug _____ Luft tut der Gesundheit gut,klare,Genug klare Luft tut der Gesundheit gut,klar,Feminin,Nominativ,Singular Menge Artikel,
+938,22,Mehr _____ Musik würde helfen,ruhige,Mehr ruhige Musik würde helfen,ruhig,Feminin,Nominativ,Singular Menge Artikel,
+939,22,Etwas _____ Soße passt gut zum Fleisch,starke,Etwas starke Soße passt gut zum Fleisch,stark,Feminin,Nominativ,Singular Menge Artikel,
+940,22,Ich trinke viel _____ Milch zum Frühstück,frische,Ich trinke viel frische Milch zum Frühstück,frisch,Feminin,Akkusativ,Singular Menge Artikel,
+941,22,Er isst etwas _____ Suppe aus dem Kühlschrank,kalte,Er isst etwas kalte Suppe aus dem Kühlschrank,kalt,Feminin,Akkusativ,Singular Menge Artikel,
+942,22,Wir brauchen genug _____ Luft im Raum,klare,Wir brauchen genug klare Luft im Raum,klar,Feminin,Akkusativ,Singular Menge Artikel,
+943,22,Sie hört gern mehr _____ Musik am Abend,ruhige,Sie hört gern mehr ruhige Musik am Abend,ruhig,Feminin,Akkusativ,Singular Menge Artikel,
+944,22,Man verwendet etwas _____ Soße für das Gericht,starke,Man verwendet etwas starke Soße für das Gericht,stark,Feminin,Akkusativ,Singular Menge Artikel,
+945,22,Mit viel _____ Milch gelingt der Kuchen besser,frischer,Mit viel frischer Milch gelingt der Kuchen besser,frisch,Feminin,Dativ,Singular Menge Artikel,
+946,22,Bei etwas _____ Suppe vergeht ihm der Appetit,kalter,Bei etwas kalter Suppe vergeht ihm der Appetit,kalt,Feminin,Dativ,Singular Menge Artikel,
+947,22,Durch genug _____ Luft fühlt man sich wacher,klarer,Durch genug klarer Luft fühlt man sich wacher,klar,Feminin,Dativ,Singular Menge Artikel,
+948,22,Mit mehr _____ Musik kann ich mich konzentrieren,ruhiger,Mit mehr ruhiger Musik kann ich mich konzentrieren,ruhig,Feminin,Dativ,Singular Menge Artikel,
+949,22,Zu etwas _____ Soße passt mildes Gemüse gut,starker,Zu etwas starker Soße passt mildes Gemüse gut,stark,Feminin,Dativ,Singular Menge Artikel,
+950,22,Der Geschmack viel _____ Milch erinnert an früher,frischer,Der Geschmack viel frischer Milch erinnert an früher,frisch,Feminin,Genitiv,Singular Menge Artikel,
+951,22,Die Temperatur etwas _____ Suppe war nicht ideal,kalter,Die Temperatur etwas kalter Suppe war nicht ideal,kalt,Feminin,Genitiv,Singular Menge Artikel,
+952,22,Die Bedeutung genug _____ Luft wird oft unterschätzt,klarer,Die Bedeutung genug klarer Luft wird oft unterschätzt,klar,Feminin,Genitiv,Singular Menge Artikel,
+953,22,Der Einfluss mehr _____ Musik ist wissenschaftlich belegt,ruhiger,Der Einfluss mehr ruhiger Musik ist wissenschaftlich belegt,ruhig,Feminin,Genitiv,Singular Menge Artikel,
+954,22,Die Schärfe etwas _____ Soße überrascht viele,starker,Die Schärfe etwas starker Soße überrascht viele,stark,Feminin,Genitiv,Singular Menge Artikel,
+955,23,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Nominativ,Plural Bestimmt artikel,
+956,23,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Akkusativ,Plural Bestimmt artikel,
+957,23,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Dativ,Plural Bestimmt artikel,
+958,23,alle _____ Eltern,netten,alle netten Eltern,nett,Plural,Genitiv,Plural Bestimmt artikel,
+959,23,viele _____ Eltern,nette,viele nette Eltern,nett,Plural,Nominativ,Plural Unbestimmt Artikel,
+960,23,viele _____ Eltern,nette,viele nette Eltern,nett,Plural,Akkusativ,Plural Unbestimmt Artikel,
+961,23,vielen _____ Eltern,netten,viele netten Eltern,nett,Plural,Dativ,Plural Unbestimmt Artikel,
+962,23,vieler _____ Eltern,netten,viele netten Eltern,nett,Plural,Genitiv,Plural Unbestimmt Artikel,
+963,24,Alle _____ Schüler haben die Prüfung bestanden.,fleißigen,Alle fleißigen Schüler haben die Prüfung bestanden.,fleißig,Plural,Nominativ,Plural Bestimmt artikel,
+964,24,Alle _____ Gebäude in der Stadt sind denkmalgeschützt.,alten,Alle alten Gebäude in der Stadt sind denkmalgeschützt.,alt,Plural,Nominativ,Plural Bestimmt artikel,
+965,24,Alle _____ Künstler präsentierten ihre Werke.,jungen,Alle jungen Künstler präsentierten ihre Werke.,jung,Plural,Nominativ,Plural Bestimmt artikel,
+966,24,Alle _____ Dokumente liegen auf dem Tisch.,wichtigen,Alle wichtigen Dokumente liegen auf dem Tisch.,wichtig,Plural,Nominativ,Plural Bestimmt artikel,
+967,24,Alle _____ Nachbarn halfen uns beim Umzug.,netten,Alle netten Nachbarn halfen uns beim Umzug.,nett,Plural,Nominativ,Plural Bestimmt artikel,
+968,24,Ich sehe alle _____ Schüler im Klassenzimmer.,fleißigen,Ich sehe alle fleißigen Schüler im Klassenzimmer.,fleißig,Plural,Akkusativ,Plural Bestimmt artikel,
+969,24,Wir besichtigen alle _____ Gebäude in der Stadt.,alten,Wir besichtigen alle alten Gebäude in der Stadt.,alt,Plural,Akkusativ,Plural Bestimmt artikel,
+970,24,Sie hat alle _____ Künstler für die Ausstellung eingeladen.,jungen,Sie hat alle jungen Künstler für die Ausstellung eingeladen.,jung,Plural,Akkusativ,Plural Bestimmt artikel,
+971,24,Er hat alle _____ Dokumente unterschrieben.,wichtigen,Er hat alle wichtigen Dokumente unterschrieben.,wichtig,Plural,Akkusativ,Plural Bestimmt artikel,
+972,24,Wir haben alle _____ Nachbarn zum Grillen eingeladen.,netten,Wir haben alle netten Nachbarn zum Grillen eingeladen.,nett,Plural,Akkusativ,Plural Bestimmt artikel,
+973,24,Er hilft allen _____ Schülern bei den Hausaufgaben.,fleißigen,Er hilft allen fleißigen Schülern bei den Hausaufgaben.,fleißig,Plural,Dativ,Plural Bestimmt artikel,
+974,24,Wir haben mit allen _____ Gebäuden in der Stadt zu tun.,alten,Wir haben mit allen alten Gebäuden in der Stadt zu tun.,alt,Plural,Dativ,Plural Bestimmt artikel,
+975,24,Sie schenkt allen _____ Künstlern eine Leinwand.,jungen,Sie schenkt allen jungen Künstlern eine Leinwand.,jung,Plural,Dativ,Plural Bestimmt artikel,
+976,24,Nach dem Meeting sprechen wir mit allen _____ Partnern.,wichtigen,Nach dem Meeting sprechen wir mit allen wichtigen Partnern.,wichtig,Plural,Dativ,Plural Bestimmt artikel,
+977,24,Ich habe mich mit allen _____ Nachbarn unterhalten.,netten,Ich habe mich mit allen netten Nachbarn unterhalten.,nett,Plural,Dativ,Plural Bestimmt artikel,
+978,24,Trotz aller _____ Schüler gab es Probleme mit der Prüfung.,fleißigen,Trotz aller fleißigen Schüler gab es Probleme mit der Prüfung.,fleißig,Plural,Genitiv,Plural Bestimmt artikel,
+979,24,Wegen aller _____ Gebäude sind die Renovierungskosten hoch.,alten,Wegen aller alten Gebäude sind die Renovierungskosten hoch.,alt,Plural,Genitiv,Plural Bestimmt artikel,
+980,24,Anstelle aller _____ Künstler wurden erfahrene Maler eingeladen.,jungen,Anstelle aller jungen Künstler wurden erfahrene Maler eingeladen.,jung,Plural,Genitiv,Plural Bestimmt artikel,
+981,24,Aufgrund aller _____ Dokumente musste die Entscheidung verschoben werden.,wichtigen,Aufgrund aller wichtigen Dokumente musste die Entscheidung verschoben werden.,wichtig,Plural,Genitiv,Plural Bestimmt artikel,
+982,24,Trotz aller _____ Nachbarn kann es manchmal laut sein.,netten,Trotz aller netten Nachbarn kann es manchmal laut sein.,nett,Plural,Genitiv,Plural Bestimmt artikel,
+983,24,Viele _____ Schüler bereiten sich auf die Prüfung vor.,fleißige,Viele fleißige Schüler bereiten sich auf die Prüfung vor.,fleißig,Plural,Nominativ,Plural Unbestimmt Artikel,
+984,24,Viele _____ Gebäude in der Stadt sind renovierungsbedürftig.,alte,Viele alte Gebäude in der Stadt sind renovierungsbedürftig.,alt,Plural,Nominativ,Plural Unbestimmt Artikel,
+985,24,Viele _____ Künstler träumen von einer großen Karriere.,junge,Viele junge Künstler träumen von einer großen Karriere.,jung,Plural,Nominativ,Plural Unbestimmt Artikel,
+986,24,Viele _____ Dokumente müssen noch unterschrieben werden.,wichtige,Viele wichtige Dokumente müssen noch unterschrieben werden.,wichtig,Plural,Nominativ,Plural Unbestimmt Artikel,
+987,24,Viele _____ Nachbarn kamen zur Feier.,nette,Viele nette Nachbarn kamen zur Feier.,nett,Plural,Nominativ,Plural Unbestimmt Artikel,
+988,24,Ich sehe viele _____ Schüler in der Bibliothek.,fleißige,Ich sehe viele fleißige Schüler in der Bibliothek.,fleißig,Plural,Akkusativ,Plural Unbestimmt Artikel,
+989,24,Wir besuchen viele _____ Gebäude in der Stadt.,alte,Wir besuchen viele alte Gebäude in der Stadt.,alt,Plural,Akkusativ,Plural Unbestimmt Artikel,
+990,24,Sie hat viele _____ Künstler zur Ausstellung eingeladen.,junge,Sie hat viele junge Künstler zur Ausstellung eingeladen.,jung,Plural,Akkusativ,Plural Unbestimmt Artikel,
+991,24,Er hat viele _____ Dokumente durchgesehen.,wichtige,Er hat viele wichtige Dokumente durchgesehen.,wichtig,Plural,Akkusativ,Plural Unbestimmt Artikel,
+992,24,Wir haben viele _____ Nachbarn zum Abendessen eingeladen.,nette,Wir haben viele nette Nachbarn zum Abendessen eingeladen.,nett,Plural,Akkusativ,Plural Unbestimmt Artikel,
+993,24,Er hilft vielen _____ Schülern bei den Hausaufgaben.,fleißigen,Er hilft vielen fleißigen Schülern bei den Hausaufgaben.,fleißig,Plural,Dativ,Plural Unbestimmt Artikel,
+994,24,Wir sprechen mit vielen _____ Menschen über ihre Erfahrungen.,alten,Wir sprechen mit vielen alten Menschen über ihre Erfahrungen.,alt,Plural,Dativ,Plural Unbestimmt Artikel,
+995,24,Sie gibt vielen _____ Künstlern eine Chance.,jungen,Sie gibt vielen jungen Künstlern eine Chance.,jung,Plural,Dativ,Plural Unbestimmt Artikel,
+996,24,Nach dem Vortrag diskutieren wir mit vielen _____ Experten.,wichtigen,Nach dem Vortrag diskutieren wir mit vielen wichtigen Experten.,wichtig,Plural,Dativ,Plural Unbestimmt Artikel,
+997,24,Ich habe mich mit vielen _____ Nachbarn unterhalten.,netten,Ich habe mich mit vielen netten Nachbarn unterhalten.,nett,Plural,Dativ,Plural Unbestimmt Artikel,
+998,24,Trotz vieler _____ Schüler gab es Probleme mit der Prüfung.,fleißiger,Trotz vieler fleißiger Schüler gab es Probleme mit der Prüfung.,fleißig,Plural,Genitiv,Plural Unbestimmt Artikel,
+999,24,Wegen vieler _____ Gebäude sind die Renovierungskosten hoch.,alter,Wegen vieler alter Gebäude sind die Renovierungskosten hoch.,alt,Plural,Genitiv,Plural Unbestimmt Artikel,
+1000,24,Anstelle vieler _____ Künstler wurden erfahrene Maler eingeladen.,junger,Anstelle vieler junger Künstler wurden erfahrene Maler eingeladen.,jung,Plural,Genitiv,Plural Unbestimmt Artikel,
+1001,24,Aufgrund vieler _____ Dokumente musste die Entscheidung verschoben werden.,wichtiger,Aufgrund vieler wichtiger Dokumente musste die Entscheidung verschoben werden.,wichtig,Plural,Genitiv,Plural Unbestimmt Artikel,
+1002,24,Trotz vieler _____ Nachbarn kann es manchmal laut sein.,netter,Trotz vieler netter Nachbarn kann es manchmal laut sein.,nett,Plural,Genitiv,Plural Unbestimmt Artikel,

@@ -80,22 +80,31 @@ QUESTION = {
         15: "{english} = {question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
-
         17: "{english} = {question}",
         18: "{question}"
             "<br><br><i>{english}</i>",
+
         19: "{english} = {question}",
         20: "{question}"
             "<br><br><i>{english}</i>",
         21: "{english} = {question}",
         22: "{question}"
             "<br><br><i>{english}</i>",
-
         23: "{english} = {question}",
         24: "{question}"
             "<br><br><i>{english}</i>",
         25: "{english} = {question}",
         26: "{question}"
+            "<br><br><i>{english}</i>",
+
+        27: "{english} = {question}",
+        28: "{question}"
+            "<br><br><i>{english}</i>",
+        29: "{english} = {question}",
+        30: "{question}"
+            "<br><br><i>{english}</i>",
+        31: "{english} = {question}",
+        32: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -295,6 +304,13 @@ QUESTION = {
         7: "{question}",
         8: "{question}"
            "<br><br><i>{english}</i>",
+        9: "{question}",
+        10: "{question}"
+           "<br><br><i>{english}</i>",
+
+        11: "{question}",
+        12: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     adverbien: {
@@ -311,10 +327,10 @@ QUESTION = {
         7: "{question}",
         8: "{question}"
            "<br><br><i>{english}</i>",
-
         9: "{question}",
         10: "{question}"
             "<br><br><i>{english}</i>",
+
         11: "{question}",
         12: "{question}"
             "<br><br><i>{english}</i>",
@@ -324,20 +340,19 @@ QUESTION = {
         15: "{question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
-
         17: "{question}",
         18: "{question}"
             "<br><br><i>{english}</i>",
         19: "{question}",
         20: "{question}"
             "<br><br><i>{english}</i>",
+
         21: "{question}",
         22: "{question}"
             "<br><br><i>{english}</i>",
         23: "{question}",
         24: "{question}"
             "<br><br><i>{english}</i>",
-
         25: "{question}",
         26: "{question}"
             "<br><br><i>{english}</i>",
@@ -349,6 +364,25 @@ QUESTION = {
             "<br><br><i>{english}</i>",
         31: "{question}",
         32: "{question}"
+            "<br><br><i>{english}</i>",
+
+        33: "{question}",
+        34: "{question}"
+            "<br><br><i>{english}</i>",
+        35: "{question}",
+        36: "{question}"
+            "<br><br><i>{english}</i>",
+        37: "{question}",
+        38: "{question}"
+            "<br><br><i>{english}</i>",
+        39: "{question}",
+        40: "{question}"
+            "<br><br><i>{english}</i>",
+        41: "{question}",
+        42: "{question}"
+            "<br><br><i>{english}</i>",
+        43: "{question}",
+        44: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -585,6 +619,8 @@ QUESTION = {
 
         21: "{question} \u25CF {case} \u25CF {adjective}",
         22: "{question} \u25CF {adjective}",
+        23: "{question} \u25CF {case} \u25CF {adjective}",
+        24: "{question} \u25CF {adjective}",
     },
 
     trennbare_verben: {

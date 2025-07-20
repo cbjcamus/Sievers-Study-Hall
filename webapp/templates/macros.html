@@ -42,9 +42,10 @@
     </tr>
 {% endmacro %}
 
-{% macro render_unit_table_row(unit, session, answered_questions, total_questions, score, title_page, unit_page, explanation) %}
+{% macro render_unit_table_row(unit, session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) %}
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
+        <td>{{ unit_stars[unit] }}</td>
         <td>{{ answered_questions(session, unit) }}/{{ total_questions(unit) }}</td>
         <td>
             <span title="Your score for Unit {{ title_page[unit] }}">{{ score(session, unit) }}</span>

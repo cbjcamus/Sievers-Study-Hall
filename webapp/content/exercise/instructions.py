@@ -55,18 +55,24 @@ INSTRUCTION = {
         14: "Complete the following sentence with the preposition that fits:",
         15: "Write the preposition that match the following verb:",
         16: "Complete the following sentence with the preposition that fits:",
-
         17: "Write the preposition that match the following verb:",
         18: "Complete the following sentence with the preposition that fits:",
+
         19: "Write the preposition that match the following verb:",
         20: "Complete the following sentence with the preposition that fits:",
         21: "Write the preposition that match the following verb:",
         22: "Complete the following sentence with the preposition that fits:",
-
         23: "Write the preposition that match the following verb:",
         24: "Complete the following sentence with the preposition that fits:",
         25: "Write the preposition that match the following verb:",
         26: "Complete the following sentence with the preposition that fits:",
+
+        27: "Write the preposition that match the following verb:",
+        28: "Complete the following sentence with the preposition that fits:",
+        29: "Write the preposition that match the following verb:",
+        30: "Complete the following sentence with the preposition that fits:",
+        31: "Write the preposition that match the following verb:",
+        32: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_adjektive: {
@@ -213,6 +219,11 @@ INSTRUCTION = {
 
         7: "Translate the following question word:",
         8: "Complete the following sentence with the question word that fits:",
+        9: "Translate the following question word:",
+        10: "Complete the following sentence with the question word that fits:",
+
+        11: "Translate the following question word:",
+        12: "Complete the following sentence with the question word that fits:",
     },
 
     adverbien: {
@@ -225,25 +236,24 @@ INSTRUCTION = {
         6: "Complete the following sentence with the adverb that fits:",
         7: "Translate the following adverb:",
         8: "Complete the following sentence with the adverb that fits:",
-
         9: "Translate the following adverb:",
         10: "Complete the following sentence with the adverb that fits:",
+
         11: "Translate the following adverb:",
         12: "Complete the following sentence with the adverb that fits:",
         13: "Translate the following adverb:",
         14: "Complete the following sentence with the adverb that fits:",
         15: "Translate the following adverb:",
         16: "Complete the following sentence with the adverb that fits:",
-
         17: "Translate the following adverb:",
         18: "Complete the following sentence with the adverb that fits:",
         19: "Translate the following adverb:",
         20: "Complete the following sentence with the adverb that fits:",
+
         21: "Translate the following adverb:",
         22: "Complete the following sentence with the adverb that fits:",
         23: "Translate the following adverb:",
         24: "Complete the following sentence with the adverb that fits:",
-
         25: "Translate the following adverb:",
         26: "Complete the following sentence with the adverb that fits:",
         27: "Translate the following adverb:",
@@ -252,6 +262,19 @@ INSTRUCTION = {
         30: "Complete the following sentence with the adverb that fits:",
         31: "Translate the following adverb:",
         32: "Complete the following sentence with the adverb that fits:",
+
+        33: "Translate the following adverb:",
+        34: "Complete the following sentence with the adverb that fits:",
+        35: "Translate the following adverb:",
+        36: "Complete the following sentence with the adverb that fits:",
+        37: "Translate the following adverb:",
+        38: "Complete the following sentence with the adverb that fits:",
+        39: "Translate the following adverb:",
+        40: "Complete the following sentence with the adverb that fits:",
+        41: "Translate the following adverb:",
+        42: "Complete the following sentence with the adverb that fits:",
+        43: "Translate the following adverb:",
+        44: "Complete the following sentence with the adverb that fits:",
     },
 
     praesens: {
@@ -513,6 +536,8 @@ INSTRUCTION = {
 
         21: "Complete the sentence with the correct form of the specified adjective:",
         22: "Complete the sentence with the correct form of the specified adjective:",
+        23: "Complete the sentence with the correct form of the specified adjective:",
+        24: "Complete the sentence with the correct form of the specified adjective:",
     },
 
     trennbare_verben: {

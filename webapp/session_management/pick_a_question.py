@@ -25,15 +25,12 @@ def is_exercise_finished(session, unit, exercise):
         answered_nrs = set(session[unit][str(exercise)]['progress'])
 
         if set(data["Nr"].astype(str)) == answered_nrs:
-            print_exercise_completed(unit, exercise)
             return True
 
     if pick_a_question(session, unit, exercise) is None:
-        print_exercise_completed(unit, exercise)
         return True
 
     if is_key_in_exercise(session, unit, exercise, 'result'):
-        print_exercise_completed(unit, exercise)
         return True
 
     else:

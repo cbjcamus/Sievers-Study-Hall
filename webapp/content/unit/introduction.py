@@ -10,7 +10,7 @@ from data.data_processing.units import (
 INTRODUCTION = {
     praepositionen_grammatik: "Prepositions in Temporal, Local, Modal and Causal contexts."
                               "<br><br>Basic prepositions are reviewed up to the B2 level."
-                              "<br><br>Happy suffering.",
+                              "<br><br>Happy suffering 🥰😍😘.",
     praepositionen_verben: "Verb-Preposition pairs."
                            "<br><br>Includes pronominaladverbien in \"Da\" and \"Wo\" at level A2.",
     praepositionen_adjektive: "Adjective-Preposition pairs."
@@ -33,7 +33,7 @@ INTRODUCTION = {
                  "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Adverb: &nbsp; &nbsp; &nbsp; &nbsp; Adverb – Verb – Subjekt – Objektkomplement"
                  "<br> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Zwei Begriffe: Two terms such as \"um zu\" or \"entweder oder\"",
     fragen: "Question words."
-            "<br><br>Mostly useful at A1 and A2 level. B1 and C1 levels are here out of exhaustivity."
+            "<br><br>Mostly useful at A1 and A2 level. B1 to C1 levels are here out of exhaustivity."
             "<br><br>Wo means Where and Wer means Who. Hope it makes sense.",
     adverbien: "Adverbs, including a mix of Temporal, Local, Modal, and Causal ones at each level."
                "<br><br>Features adverbs not seen in Konnektoren and Fragen.",
