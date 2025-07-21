@@ -158,17 +158,17 @@ FEEDBACK = {
     },
 
     praepositionen_adjektive: {
-        1: "{previous_question} = {german} {correct_answers}",
+        1: "{english} = {german}",
         2: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        3: "{previous_question} = {german} {correct_answers}",
+        3: "{english} = {german}",
         4: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        5: "{previous_question} = {german} {correct_answers}",
+        5: "{english} = {german}",
         6: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",

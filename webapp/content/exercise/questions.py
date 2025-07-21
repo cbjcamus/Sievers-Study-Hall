@@ -109,15 +109,15 @@ QUESTION = {
     },
 
     praepositionen_adjektive: {
-        1: "{question} = {german} _____",
+        1: "{english} = {question}",
         2: "{question}"
-            "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>",
 
-        3: "{question} = {german} _____",
+        3: "{english} = {question}",
         4: "{question}"
            "<br><br><i>{english}</i>",
 
-        5: "{question} = {german} _____",
+        5: "{english} = {question}",
         6: "{question}"
            "<br><br><i>{english}</i>",
     },

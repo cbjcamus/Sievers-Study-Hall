@@ -6,13 +6,13 @@ from data.data_processing.data_loading import load_data
 
 from webapp.session_management.score import write_score
 from webapp.session_management.progress import compute_answered_questions
-from webapp.session_management.statistics import print_question_flagged, print_progress_deleted_from_session
+from webapp.session_management.statistics import log_question_flagged, log_progress_deleted_from_session
 from webapp.session_management.print_session import session_size, print_complete_session
 from webapp.session_management.normalization import get_list_of_correct_answers, is_user_answer_correct
 from webapp.session_management.total_questions import compute_total_questions
 from webapp.session_management.pick_a_question import pick_a_question, is_exercise_finished
 from webapp.session_management.register_update import register_progress, register_false, register_result, register_user_incorrect_answer
-from webapp.session_management.verification_session import create_key_in_session
+from webapp.session_management.verification_session import init_session_key
 from webapp.session_management.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
 from webapp.content.unit.stars import STARS
@@ -47,7 +47,7 @@ def delete_old_unfinished_exercise():
     if session_size(session) > 3500:
         unit, exercise = session['unfinished_exercise'][0]
         if unit in session and str(exercise) in session[unit]:
-            print_progress_deleted_from_session(unit, exercise)
+            log_progress_deleted_from_session(unit, exercise)
             del session[unit][str(exercise)]
 
         session['unfinished_exercise'].remove((unit, exercise))
@@ -230,8 +230,8 @@ def exercise(unit, exercise):
 @routes.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
 def check_answer(unit, exercise):
 
-    create_key_in_session(session, unit, exercise, 'progress')
-    create_key_in_session(session, unit, exercise, 'falses')
+    init_session_key(session, unit, exercise, 'progress')
+    init_session_key(session, unit, exercise, 'falses')
 
     if request.method == 'GET':
         return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
@@ -406,7 +406,7 @@ def flag_question(unit, exercise):
     user_answer = request.args.get('user_answer') or request.form.get('user_answer')
     result = request.args.get('result') or request.form.get('result')
 
-    print_question_flagged(unit, exercise, feedback_message, user_answer, result)
+    log_question_flagged(unit, exercise, feedback_message, user_answer, result)
 
     flash("This answer has been flagged for review."
           "<br><br>Thank you!", "info")

@@ -6,8 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="july 20th update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/data_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/proverbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/proverbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/synonyms.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/synonyms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/feedback_exercise_completed.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/feedback_exercise_completed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/print_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/print_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/progress.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/progress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/register_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/register_update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/total_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/total_questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/verification_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/verification_session.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,22 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00045" summary="artikel, UI, few issues">
-      <option name="closed" value="true" />
-      <created>1747641940427</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1747641940427</updated>
-    </task>
-    <task id="LOCAL-00046" summary="proverb color">
-      <option name="closed" value="true" />
-      <created>1747643063106</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1747643063106</updated>
     </task>
     <task id="LOCAL-00047" summary="updates">
       <option name="closed" value="true" />
@@ -550,7 +548,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753012512578</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="july 20th update">
+      <option name="closed" value="true" />
+      <created>1753080034599</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1753080034599</updated>
+    </task>
+    <task id="LOCAL-00095" summary="july 20th update">
+      <option name="closed" value="true" />
+      <created>1753086271368</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1753086271368</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
