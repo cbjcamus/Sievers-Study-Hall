@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="july 20th update">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="refactoring comments functions">
+      <change afterPath="$PROJECT_DIR$/data/data_processing/levels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/other/levels.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/data_loading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/proverbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/proverbs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/synonyms.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/synonyms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/feedback_exercise_completed.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/feedback_exercise_completed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/normalization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/print_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/print_session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/progress.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/progress.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/register_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/register_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/session_management/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/statistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/total_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/total_questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/session_management/verification_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/verification_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,22 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00047" summary="updates">
-      <option name="closed" value="true" />
-      <created>1747681400193</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1747681400193</updated>
-    </task>
-    <task id="LOCAL-00048" summary="preposition grammatik + removing Basic Simple etc.">
-      <option name="closed" value="true" />
-      <created>1747735793226</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1747735793226</updated>
     </task>
     <task id="LOCAL-00049" summary="preposition grammatik + removing Basic Simple etc.">
       <option name="closed" value="true" />
@@ -564,7 +537,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753086271368</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="july 20th update">
+      <option name="closed" value="true" />
+      <created>1753093620801</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1753093620801</updated>
+    </task>
+    <task id="LOCAL-00097" summary="refactoring comments functions">
+      <option name="closed" value="true" />
+      <created>1753093656788</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1753093656788</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -580,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updates" />
     <MESSAGE value="preposition grammatik + removing Basic Simple etc." />
     <MESSAGE value="buttons home + explanations" />
     <MESSAGE value="removing + explanations" />
@@ -605,7 +593,8 @@
     <MESSAGE value="präpositionen" />
     <MESSAGE value="feedback and verben" />
     <MESSAGE value="july 20th update" />
-    <option name="LAST_COMMIT_MESSAGE" value="july 20th update" />
+    <MESSAGE value="refactoring comments functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring comments functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

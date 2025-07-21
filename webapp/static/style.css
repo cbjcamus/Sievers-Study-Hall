@@ -602,7 +602,7 @@ body.day-mode .back-button {
 }
 
 .unit-table td:nth-child(2) {
-    width: 5%;
+    width: 3%;
 }
 
 .unit-table td:nth-child(3) {
@@ -614,7 +614,7 @@ body.day-mode .back-button {
 }
 
 .unit-table td:nth-child(5) {
-    width: 60%;
+    width: 62%;
 }
 
 .unit-table td a.button {
