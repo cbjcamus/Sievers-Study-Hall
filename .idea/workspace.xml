@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="july 20th update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,14 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00044" summary="fragen and artikel">
-      <option name="closed" value="true" />
-      <created>1747222089851</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1747222089851</updated>
     </task>
     <task id="LOCAL-00045" summary="artikel, UI, few issues">
       <option name="closed" value="true" />
@@ -549,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753010916363</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="july 20th update">
+      <option name="closed" value="true" />
+      <created>1753012512577</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1753012512578</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
