@@ -38,7 +38,7 @@ def ensure_session_keys_exist_and_make_session_permanent():
         session['unfinished_exercise'] = []
 
     # print_complete_session(session)
-    # print(f"Session size: {session_size(session)} bytes")
+    #  print(f"Session size: {session_size(session)} bytes")
     # session.clear()
 
 
