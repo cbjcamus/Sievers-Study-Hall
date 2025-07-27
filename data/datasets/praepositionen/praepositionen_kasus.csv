@@ -13,7 +13,7 @@ Nr,exercise,original_exercise,question,answer,german,english,gender,case
 12,1,2,Ich bin in _____ Schule.,der,Ich bin in der Schule.,I am at school.,Feminine,"to indicate that an object is located in, inside another → in + Dat."
 13,1,2,Die Schuhe stehen in _____ Ecke.,der,Die Schuhe stehen in der Ecke.,The shoes are in the corner.,Feminine,"to indicate that an object is located in, inside another → in + Dat."
 14,1,2,Er sitzt in _____ Zimmer.,seinem,Er sitzt in seinem Zimmer.,He is sitting in his room.,Neutrum,"to indicate that an object is located in, inside another → in + Dat."
-15,1,2,Ein Flugzeug fliegt über _____ Stadt.,der,Ein Flugzeug fliegt über der Stadt.,A plane is flying over the city.,Feminine,"general translation of <i>above, over</i> to describe a position → über + Dat."
+15,1,2,Das Flugzeug kreist über _____ Stadt.,der,Das Flugzeug kreist über der Stadt.,The plane circles over the city.,Feminine,"general translation of <i>above, over</i> to describe a position → über + Dat."
 16,1,2,Die Tasche liegt unter _____ Tisch.,dem,Die Tasche liegt unter dem Tisch.,The bag is under the table.,Masculine,"general translation of <i>below, under</i> to describe a position → unter + Dat."
 17,1,2,Der Hund schläft unter _____ Bett.,dem,Der Hund schläft unter dem Bett.,The dog is sleeping under the bed.,Neutrum,"general translation of <i>below, under</i> to describe a position → unter + Dat."
 18,1,2,Die Schuhe stehen unter _____ Stuhl.,dem,Die Schuhe stehen unter dem Stuhl.,The shoes are under the chair.,Masculine,"general translation of <i>below, under</i> to describe a position → unter + Dat."
@@ -212,123 +212,122 @@ Nr,exercise,original_exercise,question,answer,german,english,gender,case
 211,5,4,Ich weiß viel über _____ Kultur Japans.,die,Ich weiß viel über die Kultur Japans.,I know a lot about Japanese culture.,Feminine,wissen über + Akk.
 212,6,5,Ich fahre in _____ Woche nach Spanien.,einer,Ich fahre in einer Woche nach Spanien.,I am going to Spain in a week.,Feminine,to indicate a time in the future → in + Dat.
 213,6,5,In _____ Stunde beginnt der Unterricht.,einer,In einer Stunde beginnt der Unterricht.,The class starts in an hour.,Feminine,to indicate a time in the future → in + Dat.
-214,6,5,Ab _____ Sommer plane ich eine lange Reise durch Europa.,dem,Ab dem Sommer plane ich eine lange Reise durch Europa.,I'm planning a long trip through Europe starting in the summer.,Masculine,to indicate the starting point of a period of time → ab + Dat.
-215,6,6,Ich stehe an _____ Haltestelle.,der,Ich stehe an der Haltestelle.,I am standing at the bus stop.,Feminine,to indicate a position in the immediate vicinity of something → an + Dat.
-216,6,6,Das Haus liegt an _____ Hauptstraße.,der,Das Haus liegt an der Hauptstraße.,The house is on the main road.,Feminine,to indicate a position in the immediate vicinity of something → an + Dat.
-217,6,6,Sie arbeitet bei _____ großen Firma.,einer,Sie arbeitet bei einer großen Firma.,She works at a big company.,Feminine,to indicate a position in and with an institution → bei + Dat.
-218,6,6,Ich lerne Deutsch bei _____ Volkshochschule.,der,Ich lerne Deutsch bei der Volkshochschule.,I learn German at the adult education center.,Feminine,to indicate a position in and with an institution → bei + Dat.
-219,6,6,Sie trifft sich mit mir bei _____ Statue.,der,Sie trifft sich mit mir bei der Statue.,She's meeting me by the statue.,Feminine,to indicate a position around something with some spatial flexibility → bei + Dat.
-220,6,6,Wir machen Urlaub auf _____ Insel Mallorca.,der,Wir machen Urlaub auf der Insel Mallorca.,We're on vacation on the island of Mallorca.,Feminine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
-221,6,6,Viele Leute sind auf _____ Marktplatz.,dem,Viele Leute sind auf dem Marktplatz.,There are lots of people on the market square.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
-222,6,6,Er liest ein Buch auf _____ Balkon.,dem,Er liest ein Buch auf dem Balkon.,He is reading a book on the balcony.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
-223,6,6,Sie studiert in _____ Schweiz.,der,Sie studiert in der Schweiz.,She's studying in Switzerland.,Feminine,"to indicate a position in a country, region or city → in + Dat."
-224,6,6,Meine Großeltern leben in _____ kleinen Dorf.,einem,Meine Großeltern leben in einem kleinen Dorf.,My grandparents live in a small village.,Neutrum,"to indicate a position in a country, region or city → in + Dat."
-225,6,7,Das Kind läuft an _____ Eingang.,den,Das Kind läuft an den Eingang.,The child runs to the entrance.,Masculine,to indicate a direction to the immediate vicinity of something → an + Akk.
-226,6,7,Ich gehe an _____ Strand.,den,Ich gehe an den Strand.,I am going to the beach.,Masculine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
-227,6,7,Die Touristen fahren an _____ See.,den,Die Touristen fahren an den See.,The tourists go to the lake.,Masculine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
-228,6,7,Wir machen einen Spaziergang an _____ Fluss.,den,Wir machen einen Spaziergang an den Fluss.,We go for a walk to the river.,Masculine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
-229,6,7,Wir gehen auf _____ Marktplatz.,den,Wir gehen auf den Marktplatz.,We go to the market square.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
-230,6,7,Sie läuft auf _____ Spielplatz.,den,Sie läuft auf den Spielplatz.,She runs to the playground.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
-231,6,7,Er tritt auf _____ Balkon und schaut hinaus.,den,Er tritt auf den Balkon und schaut hinaus.,He steps onto the balcony and looks out.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
-232,6,7,Wir gehen in _____ Wald spazieren.,den,Wir gehen in den Wald spazieren.,We go for a walk in the forest.,Masculine,to indicate a direction to a delimited space in nature → in + Akk.
-233,6,7,Die Kinder laufen in _____ Park.,den,Die Kinder laufen in den Park.,The children run into the park.,Masculine,to indicate a direction to a delimited space in nature → in + Akk.
-234,6,7,Der Vogel taucht in _____ See.,den,Der Vogel taucht in den See.,The bird is diving into the lake.,Masculine,to indicate a direction to a delimited space in nature → in + Akk.
-235,6,7,Wir fahren in _____ Schweiz.,die,Wir fahren in die Schweiz.,We go to Switzerland.,Feminine,to indicate a direction to a country with an article → in + Akk.
-236,6,7,Das Wasser kommt aus _____ Flasche.,der,Das Wasser kommt aus der Flasche.,The water comes out of the bottle.,Feminine,"to indicate an origin, from an enclosed place → aus + Dat."
-237,6,7,Er geht aus _____ Haus.,dem,Er geht aus dem Haus.,He goes out of the house.,Neutrum,"to indicate an origin, from an enclosed place → aus + Dat."
-238,6,7,Sie steigt aus _____ Bus.,dem,Sie steigt aus dem Bus.,She gets out of the bus.,Masculine,"to indicate an origin, from an enclosed place → aus + Dat."
-239,6,7,Er fährt von _____ Schule nach Hause.,der,Er fährt von der Schule nach Hause.,He is driving home from school.,Feminine,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
-240,6,7,Wir kommen von _____ langen Reise.,einer,Wir kommen von einer langen Reise.,We are coming from a long trip.,Feminine,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
-241,6,7,Sie kommt gerade von _____ Großeltern.,ihren,Sie kommt gerade von ihren Großeltern.,She has just come from her grandparents' house.,Plural,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
-242,7,5,Vor _____ Jahr bin ich nach Deutschland gezogen.,einem,Vor einem Jahr bin ich nach Deutschland gezogen.,I moved to Germany a year ago.,Neutrum,"to indicate a time in the past, equivalent to ""ago"" → vor + Dat."
-243,7,6,Es gibt viele schöne Häuser an _____ Küste.,der,Es gibt viele schöne Häuser an der Küste.,There are many beautiful houses on the coast.,Feminine,"to indicate a position in next to a body of water – Küste, Strand, Meer, See etc. → an + Dat."
-244,7,6,Ich kaufe mein Brot bei _____ Bäckerei.,der,Ich kaufe mein Brot bei der Bäckerei.,I buy my bread at the bakery.,Feminine,to indicate a position in and with an institution → bei + Dat.
-245,7,6,Ich habe mich bei _____ Polizei beschwert.,der,Ich habe mich bei der Polizei beschwert.,I complained to the police.,Feminine,to indicate a position in and with an institution → bei + Dat.
-246,7,6,Wir wohnen bei _____ Schule.,der,Wir wohnen bei der Schule.,We live near the school.,Feminine,to indicate a position around something with some spatial flexibility → bei + Dat.
-247,7,6,Das Restaurant ist bei _____ Kirche.,der,Das Restaurant ist bei der Kirche.,The restaurant is near the church.,Feminine,to indicate a position around something with some spatial flexibility → bei + Dat.
-248,7,6,Er wohnt auf _____ Land.,dem,Er wohnt auf dem Land.,He lives in the countryside.,Masculine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
-249,7,6,Die Hütte liegt auf _____ Berg.,dem,Die Hütte liegt auf dem Berg.,The cottage is on the mountain.,Masculine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
-250,7,6,Es gibt viele Boote auf _____ See.,dem,Es gibt viele Boote auf dem See.,There are lots of boats on the lake.,Masculine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
-251,7,6,Die Kinder spielen auf _____ Wiese.,der,Die Kinder spielen auf der Wiese.,The children play in the meadow.,Feminine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
-252,7,6,Wir sitzen auf _____ Terrasse.,der,Wir sitzen auf der Terrasse.,We sit on the terrace.,Feminine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
-253,7,6,Die Kinder spielen auf _____ Spielplatz.,dem,Die Kinder spielen auf dem Spielplatz.,The children are playing in the playground.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
-254,7,6,Die Touristen machen Fotos auf _____ Rathausplatz.,dem,Die Touristen machen Fotos auf dem Rathausplatz.,The tourists are taking photos on the town hall square.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
-255,7,6,Viele Tiere leben in _____ Bergen.,den,Viele Tiere leben in den Bergen.,Many animals live in the mountains.,Plural,to indicate a position in a delimited space in nature → in + Dat.
-256,7,6,Ich lese gern ein Buch in _____ Natur.,der,Ich lese gern ein Buch in der Natur.,I like to read a book in nature.,Feminine,to indicate a position in a delimited space in nature → in + Dat.
-257,7,7,Wir setzen uns an _____ Tisch.,den,Wir setzen uns an den Tisch.,We sit down at the table.,Masculine,to indicate a direction to the immediate vicinity of something → an + Akk.
-258,7,7,Ich stelle _____ Stuhl an _____ Tisch.,den,Ich stelle den Stuhl an den Tisch.,I put the chair at the table.,Masculine,to indicate a direction to the immediate vicinity of something → an + Akk.
-259,7,7,Wir fahren an _____ Nordsee.,die,Wir fahren an die Nordsee.,We are driving to the North Sea.,Feminine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
-260,7,7,Wir fahren auf _____ Insel.,die,Wir fahren auf die Insel.,We travel onto the island.,Feminine,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
-261,7,7,Wir wandern auf _____ Berg.,den,Wir wandern auf den Berg.,We hike up the mountain.,Masculine,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
-262,7,7,Die Kinder laufen auf _____ Wiese.,die,Die Kinder laufen auf die Wiese.,The children run to the meadow.,Feminine,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
-263,7,7,"Er fährt auf _____ Land, um Ruhe zu finden.",das,"Er fährt auf das Land, um Ruhe zu finden.",He goes to the countryside to find peace and quiet.,Neutrum,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
-264,7,7,"Sie gehen auf _____ Feld, um Gemüse zu ernten.",das,"Sie gehen auf das Feld, um Gemüse zu ernten.",They go to the field to harvest vegetables.,Neutrum,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
-265,7,7,"Ich gehe auf _____ Terrasse, um frische Luft zu holen.",die,"Ich gehe auf die Terrasse, um frische Luft zu holen.",I go out onto the terrace to get some fresh air.,Feminine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
-266,7,7,Die Kinder rennen auf _____ Schulhof.,den,Die Kinder rennen auf den Schulhof.,The children run into the schoolyard.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
-267,7,7,Für seine Arbeit muss er in _____ Wildnis gehen.,die,Für seine Arbeit muss er in die Wildnis gehen.,"For his work, he needs to go in the wilderness.",Feminine,to indicate a direction to a delimited space in nature → in + Akk.
-268,7,7,Er zieht in _____ Türkei.,die,Er zieht in die Türkei.,He moves to Turkey.,Feminine,to indicate a direction to a country with an article → in + Akk.
-269,7,7,Ich reise in _____ USA.,die,Ich reise in die USA.,I'm traveling to the USA.,Feminine,to indicate a direction to a country with an article → in + Akk.
-270,7,7,Sie fliegt in _____ Iran.,den,Sie fliegt in den Iran.,She flies to Iran.,Masculine,to indicate a direction to a country with an article → in + Akk.
-271,7,7,"Wir gehen in _____ Sudan, um dort zu arbeiten.",den,"Wir gehen in den Sudan, um dort zu arbeiten.",We go to Sudan to work there.,Masculine,to indicate a direction to a country with an article → in + Akk.
-272,7,7,Sie trinkt aus _____ Tasse.,einer,Sie trinkt aus einer Tasse.,She drinks from a cup.,Feminine,"to indicate an origin, from an enclosed place → aus + Dat."
-273,7,7,Ich nehme das Buch aus _____ Regal.,dem,Ich nehme das Buch aus dem Regal.,I take the book from the shelf.,Neutrum,"to indicate an origin, from an enclosed place → aus + Dat."
-274,7,7,Ich komme gerade von _____ Arbeit.,der,Ich komme gerade von der Arbeit.,I just came from work.,Feminine,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
-275,8,6,Dieses Buch gehört zu _____ Sammlung.,meiner,Dieses Buch gehört zu meiner Sammlung.,This book belongs to my collection.,Feminine,gehören zu + Dat.
-276,8,6,Er gehört zu _____ besten Spielern.,den,Er gehört zu den besten Spielern.,He belongs to the best players.,Plural,gehören zu + Dat.
-277,8,6,Sie gehört zu _____ Familie.,meiner,Sie gehört zu meiner Familie.,She is part of my family.,Feminine,gehören zu + Dat.
-278,8,6,Ich antworte auf _____ Frage.,deine,Ich antworte auf deine Frage.,I answer your question.,Feminine,antworten auf + Akk.
-279,8,6,Er antwortet auf _____ E-Mail.,die,Er antwortet auf die E-Mail.,He answers the email.,Feminine,antworten auf + Akk.
-280,8,6,Er bittet um _____ Gefallen.,einen,Er bittet um einen Gefallen.,He asks for a favor.,Masculine,bitten um + Akk.
-281,8,6,Ich danke dir für _____ Hilfe.,deine,Ich danke dir für deine Hilfe.,I thank you for your help.,Feminine,danken für + Akk.
-282,8,6,Er dankt seiner Kollegin für _____ Unterstützung.,die,Er dankt seiner Kollegin für die Unterstützung.,He thanks his colleague for her support.,Feminine,danken für + Akk.
-283,8,6,Ich lade dich zu _____ Party ein.,meiner,Ich lade dich zu meiner Party ein.,I invite you to my party.,Feminine,einladen zu + Dat.
-284,8,6,Er lädt uns zu _____ Geburtstag ein.,seinem,Er lädt uns zu seinem Geburtstag ein.,He invites us to his birthday.,Masculine,einladen zu + Dat.
-285,8,6,Sie lädt ihre Freunde zu _____ Abendessen ein.,einem,Sie lädt ihre Freunde zu einem Abendessen ein.,She invites her friends over for dinner.,Neutrum,einladen zu + Dat.
-286,8,6,Ich helfe dir bei _____ Hausaufgaben.,den,Ich helfe dir bei den Hausaufgaben.,I help you with your homework.,Plural,helfen bei + Dat.
-287,8,6,Er hilft bei _____ Organisation.,der,Er hilft bei der Organisation.,He helps with the organization.,Feminine,helfen bei + Dat.
-288,8,6,Sie hilft ihrer Schwester bei _____ Vorbereitungen.,den,Sie hilft ihrer Schwester bei den Vorbereitungen.,She helps her sister with the preparations.,Plural,helfen bei + Dat.
-289,8,6,Ich freue mich auf _____ Sommer.,den,Ich freue mich auf den Sommer.,I am looking forward to summer.,Masculine,sich freuen auf + Akk.
-290,8,6,Er freut sich auf _____ Besuch.,den,Er freut sich auf den Besuch.,He is looking forward to the visit.,Masculine,sich freuen auf + Akk.
-291,8,6,Wir freuen uns auf _____ Konzert nächste Woche.,das,Wir freuen uns auf das Konzert nächste Woche.,We are looking forward to the concert next week.,Neutrum,sich freuen auf + Akk.
-292,8,6,Ich freue mich über _____ Geschenk.,dein,Ich freue mich über dein Geschenk.,I am happy about your gift.,Neutrum,sich freuen über + Akk.
-293,8,6,Sie freut sich über _____ gute Nachricht.,die,Sie freut sich über die gute Nachricht.,She is happy about the good news.,Feminine,sich freuen über + Akk.
-294,8,6,Er freut sich über _____ Lob seines Chefs.,das,Er freut sich über das Lob seines Chefs.,He is delighted with his boss's praise.,Neutrum,sich freuen über + Akk.
-295,8,6,Ich habe mich für _____ teurere Handy entschieden.,das,Ich habe mich für das teurere Handy entschieden.,I decided on the more expensive phone.,Neutrum,entscheiden für + Akk.
-296,8,6,Er hat sich für _____ Studium in Berlin entschieden.,ein,Er hat sich für ein Studium in Berlin entschieden.,He decided to study in Berlin.,Neutrum,entscheiden für + Akk.
-297,8,6,Wir haben uns für _____ kleinere Auto entschieden.,das,Wir haben uns für das kleinere Auto entschieden.,We opted for the smaller car.,Neutrum,entscheiden für + Akk.
-298,8,6,Wir haben uns gegen _____ Kauf des Hauses entschie_____.,den,Wir haben uns gegen den Kauf des Hauses entschieden.,We decided against buying the house.,Masculine,entscheiden gegen + Akk.
-299,8,6,Er entschied sich gegen _____ Jobangebot.,das,Er entschied sich gegen das Jobangebot.,He decided against the job offer.,Neutrum,entscheiden gegen + Akk.
-300,8,6,Ich habe mich gegen _____ Reise im Winter entschieden.,eine,Ich habe mich gegen eine Reise im Winter entschieden.,I decided against traveling in winter.,Feminine,entscheiden gegen + Akk.
-301,8,6,"Ich erwarte von _____, dass du pünktlich bist.",dir,"Ich erwarte von dir, dass du pünktlich bist.",I expect you to be on time.,Du/Dich/Dir,erwarten von + Dat.
-302,8,6,"Mein Chef erwartet von _____, dass ich flexibel arbeite.",mir,"Mein Chef erwartet von mir, dass ich flexibel arbeite.",My boss expects me to work flexibly.,Ich/Mich/Mir,erwarten von + Dat.
-303,8,6,Sie erwartet von _____ Kindern mehr Verantwortung.,ihren,Sie erwartet von ihren Kindern mehr Verantwortung.,She expects more responsibility from her children.,Plural,erwarten von + Dat.
-304,8,6,Ich träume von _____ schönen Urlaub.,einem,Ich träume von einem schönen Urlaub.,I dream of a nice vacation.,Masculine,träumen von + Dat.
-305,8,6,Er träumt von _____ besseren Leben.,einem,Er träumt von einem besseren Leben.,He dreams of a better life.,Neutrum,träumen von + Dat.
-306,8,6,Sie träumt von _____ Karriere als Schauspielerin.,einer,Sie träumt von einer Karriere als Schauspielerin.,She dreams of a career as an actress.,Feminine,träumen von + Dat.
-307,9,8,Der Arzt hat mir zu _____ Diät geraten.,einer,Der Arzt hat mir zu einer Diät geraten.,The doctor advised me to go on a diet.,Feminine,raten zu + Dat.
-308,9,8,Sie rät ihm zu _____ längeren Urlaub.,einem,Sie rät ihm zu einem längeren Urlaub.,She advises him to take a longer vacation.,Masculine,raten zu + Dat.
-309,9,8,Die Raupe wird zu _____ Schmetterling.,einem,Die Raupe wird zu einem Schmetterling.,The caterpillar turns into a butterfly.,Masculine,werden zu + Dat.
-310,9,8,Dieses Kleid passt zu _____ Schuhen.,deinen,Dieses Kleid passt zu deinen Schuhen.,This dress matches your shoes.,Plural,passen zu + Dat.
-311,9,8,Sein Verhalten passt nicht zu _____ Alter.,seinem,Sein Verhalten passt nicht zu seinem Alter.,His behavior doesn’t match his age.,Neutrum,passen zu + Dat.
-312,9,8,Die Farbe passt gut zu _____ Vorhängen.,den,Die Farbe passt gut zu den Vorhängen.,The color goes well with the curtains.,Plural,passen zu + Dat.
-313,9,8,Er kämpft gegen _____ Angst vor dem Fliegen.,seine,Er kämpft gegen seine Angst vor dem Fliegen.,He fights his fear of flying.,Feminine,kämpfen gegen + Akk.
-314,9,8,Ich kämpfe mit _____ neuen Software.,der,Ich kämpfe mit der neuen Software.,I struggle with the new software.,Feminine,kämpfen mit + Dat.
-315,9,8,"Sie kämpft mit _____ Entscheidung, ob sie bleiben o_____ gehen soll.",der,"Sie kämpft mit der Entscheidung, ob sie bleiben oder gehen soll.",She struggles with the decision of whether to stay or go.,Feminine,kämpfen mit + Dat.
-316,9,8,Er sorgt für _____ Familie.,seine,Er sorgt für seine Familie.,He takes care of his family.,Feminine,sorgen für + Akk.
-317,9,8,Sie sorgt jeden Tag für _____ kranke Großmutter.,ihre,Sie sorgt jeden Tag für ihre kranke Großmutter.,She takes care of her sick grandmother every day.,Feminine,sorgen für + Akk.
-318,9,8,Sie sorgt sich um _____ Zukunft ihrer Kinder.,die,Sie sorgt sich um die Zukunft ihrer Kinder.,She worries about the future of her children.,Feminine,sorgen um + Akk.
-319,9,8,Ich sorge mich um _____ Prüfungen.,meine,Ich sorge mich um meine Prüfungen.,I worry about my exams.,Plural,sorgen um + Akk.
-320,9,8,Er sorgt sich sehr um _____ kranke Katze.,seine,Er sorgt sich sehr um seine kranke Katze.,He is very worried about his sick cat.,Feminine,sorgen um + Akk.
-321,9,8,Ich stimme für _____ neuen Plan.,den,Ich stimme für den neuen Plan.,I vote for the new plan.,Masculine,stimmen für + Akk.
-322,9,8,Sie stimmen für _____ besten Kandidaten.,den,Sie stimmen für den besten Kandidaten.,They vote for the best candidate.,Masculine,stimmen für + Akk.
-323,9,8,Wir haben alle für _____ gemeinsame Projekt gestimmt.,das,Wir haben alle für das gemeinsame Projekt gestimmt.,We all voted in favor of the joint project.,Neutrum,stimmen für + Akk.
-324,9,8,Er stimmt gegen _____ Gesetz.,das,Er stimmt gegen das Gesetz.,He votes against the law.,Neutrum,stimmen gegen + Akk.
-325,9,8,Ich stimme gegen _____ Idee.,die,Ich stimme gegen die Idee.,I vote against the idea.,Feminine,stimmen gegen + Akk.
-326,9,8,Sie haben gestern gegen _____ Vorschlag gestimmt.,den,Sie haben gestern gegen den Vorschlag gestimmt.,You voted against the proposal yesterday.,Masculine,stimmen gegen + Akk.
-327,9,8,Vergleiche dein Auto nicht mit _____.,meinem,Vergleiche dein Auto nicht mit meinem.,Don't compare your car with mine.,Neutrum,vergleichen mit + Dat.
-328,9,8,Er kann sich mit _____ nicht vergleichen.,Ihnen,Er kann sich mit Ihnen nicht vergleichen.,He cannot compare with you.,Sie/Sie/Ihnen,vergleichen mit + Dat.
-329,9,8,Ich verlasse mich auf _____.,dich,Ich verlasse mich auf dich.,I rely on you.,Du/Dich/Dir,verlassen auf + Akk.
-330,9,8,Wir verlassen uns auf _____ Team in schwierigen Zeiten.,unser,Wir verlassen uns auf unser Team in schwierigen Zeiten.,We rely on our team in difficult times.,Neutrum,verlassen auf + Akk.
-331,9,8,Ich vertraue auf _____ Fähigkeiten.,meine,Ich vertraue auf meine Fähigkeiten.,I trust in my abilities.,Plural,vertrauen auf + Akk.
-332,9,8,Wir müssen auf _____ Erfahrung vertrauen.,unsere,Wir müssen auf unsere Erfahrung vertrauen.,We must trust in our experience.,Feminine,vertrauen auf + Akk.
-333,9,8,Sie vertraut auf _____ Unterstützung ihrer Freunde.,die,Sie vertraut auf die Unterstützung ihrer Freunde.,She relies on the support of her friends.,Feminine,vertrauen auf + Akk.
+214,6,6,Ich stehe an _____ Haltestelle.,der,Ich stehe an der Haltestelle.,I am standing at the bus stop.,Feminine,to indicate a position in the immediate vicinity of something → an + Dat.
+215,6,6,Das Haus liegt an _____ Hauptstraße.,der,Das Haus liegt an der Hauptstraße.,The house is on the main road.,Feminine,to indicate a position in the immediate vicinity of something → an + Dat.
+216,6,6,Sie arbeitet bei _____ großen Firma.,einer,Sie arbeitet bei einer großen Firma.,She works at a big company.,Feminine,to indicate a position in and with an institution → bei + Dat.
+217,6,6,Ich lerne Deutsch bei _____ Volkshochschule.,der,Ich lerne Deutsch bei der Volkshochschule.,I learn German at the adult education center.,Feminine,to indicate a position in and with an institution → bei + Dat.
+218,6,6,Sie trifft sich mit mir bei _____ Statue.,der,Sie trifft sich mit mir bei der Statue.,She's meeting me by the statue.,Feminine,to indicate a position around something with some spatial flexibility → bei + Dat.
+219,6,6,Wir machen Urlaub auf _____ Insel Mallorca.,der,Wir machen Urlaub auf der Insel Mallorca.,We're on vacation on the island of Mallorca.,Feminine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
+220,6,6,Viele Leute sind auf _____ Marktplatz.,dem,Viele Leute sind auf dem Marktplatz.,There are lots of people on the market square.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
+221,6,6,Er liest ein Buch auf _____ Balkon.,dem,Er liest ein Buch auf dem Balkon.,He is reading a book on the balcony.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
+222,6,6,Sie studiert in _____ Schweiz.,der,Sie studiert in der Schweiz.,She's studying in Switzerland.,Feminine,"to indicate a position in a country, region or city → in + Dat."
+223,6,6,Meine Großeltern leben in _____ kleinen Dorf.,einem,Meine Großeltern leben in einem kleinen Dorf.,My grandparents live in a small village.,Neutrum,"to indicate a position in a country, region or city → in + Dat."
+224,6,7,Das Kind läuft an _____ Eingang.,den,Das Kind läuft an den Eingang.,The child runs to the entrance.,Masculine,to indicate a direction to the immediate vicinity of something → an + Akk.
+225,6,7,Ich gehe an _____ Strand.,den,Ich gehe an den Strand.,I am going to the beach.,Masculine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
+226,6,7,Die Touristen fahren an _____ See.,den,Die Touristen fahren an den See.,The tourists go to the lake.,Masculine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
+227,6,7,Wir machen einen Spaziergang an _____ Fluss.,den,Wir machen einen Spaziergang an den Fluss.,We go for a walk to the river.,Masculine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
+228,6,7,Wir gehen auf _____ Marktplatz.,den,Wir gehen auf den Marktplatz.,We go to the market square.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
+229,6,7,Sie läuft auf _____ Spielplatz.,den,Sie läuft auf den Spielplatz.,She runs to the playground.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
+230,6,7,Er tritt auf _____ Balkon und schaut hinaus.,den,Er tritt auf den Balkon und schaut hinaus.,He steps onto the balcony and looks out.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
+231,6,7,Wir gehen in _____ Wald spazieren.,den,Wir gehen in den Wald spazieren.,We go for a walk in the forest.,Masculine,to indicate a direction to a delimited space in nature → in + Akk.
+232,6,7,Die Kinder laufen in _____ Park.,den,Die Kinder laufen in den Park.,The children run into the park.,Masculine,to indicate a direction to a delimited space in nature → in + Akk.
+233,6,7,Der Vogel taucht in _____ See.,den,Der Vogel taucht in den See.,The bird is diving into the lake.,Masculine,to indicate a direction to a delimited space in nature → in + Akk.
+234,6,7,Wir fahren in _____ Schweiz.,die,Wir fahren in die Schweiz.,We go to Switzerland.,Feminine,to indicate a direction to a country with an article → in + Akk.
+235,6,7,Das Wasser kommt aus _____ Flasche.,der,Das Wasser kommt aus der Flasche.,The water comes out of the bottle.,Feminine,"to indicate an origin, from an enclosed place → aus + Dat."
+236,6,7,Er geht aus _____ Haus.,dem,Er geht aus dem Haus.,He goes out of the house.,Neutrum,"to indicate an origin, from an enclosed place → aus + Dat."
+237,6,7,Sie steigt aus _____ Bus.,dem,Sie steigt aus dem Bus.,She gets out of the bus.,Masculine,"to indicate an origin, from an enclosed place → aus + Dat."
+238,6,7,Er fährt von _____ Schule nach Hause.,der,Er fährt von der Schule nach Hause.,He is driving home from school.,Feminine,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
+239,6,7,Wir kommen von _____ langen Reise.,einer,Wir kommen von einer langen Reise.,We are coming from a long trip.,Feminine,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
+240,6,7,Sie kommt gerade von _____ Großeltern.,ihren,Sie kommt gerade von ihren Großeltern.,She has just come from her grandparents' house.,Plural,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
+241,7,5,Vor _____ Jahr bin ich nach Deutschland gezogen.,einem,Vor einem Jahr bin ich nach Deutschland gezogen.,I moved to Germany a year ago.,Neutrum,"to indicate a time in the past, equivalent to ""ago"" → vor + Dat."
+242,7,6,Es gibt viele schöne Häuser an _____ Küste.,der,Es gibt viele schöne Häuser an der Küste.,There are many beautiful houses on the coast.,Feminine,"to indicate a position in next to a body of water – Küste, Strand, Meer, See etc. → an + Dat."
+243,7,6,Ich kaufe mein Brot bei _____ Bäckerei.,der,Ich kaufe mein Brot bei der Bäckerei.,I buy my bread at the bakery.,Feminine,to indicate a position in and with an institution → bei + Dat.
+244,7,6,Ich habe mich bei _____ Polizei beschwert.,der,Ich habe mich bei der Polizei beschwert.,I complained to the police.,Feminine,to indicate a position in and with an institution → bei + Dat.
+245,7,6,Wir wohnen bei _____ Schule.,der,Wir wohnen bei der Schule.,We live near the school.,Feminine,to indicate a position around something with some spatial flexibility → bei + Dat.
+246,7,6,Das Restaurant ist bei _____ Kirche.,der,Das Restaurant ist bei der Kirche.,The restaurant is near the church.,Feminine,to indicate a position around something with some spatial flexibility → bei + Dat.
+247,7,6,Er wohnt auf _____ Land.,dem,Er wohnt auf dem Land.,He lives in the countryside.,Masculine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
+248,7,6,Die Hütte liegt auf _____ Berg.,dem,Die Hütte liegt auf dem Berg.,The cottage is on the mountain.,Masculine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
+249,7,6,Es gibt viele Boote auf _____ See.,dem,Es gibt viele Boote auf dem See.,There are lots of boats on the lake.,Masculine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
+250,7,6,Die Kinder spielen auf _____ Wiese.,der,Die Kinder spielen auf der Wiese.,The children play in the meadow.,Feminine,"to indicate a position in open, flat or elevated spaces in nature → auf + Dat."
+251,7,6,Wir sitzen auf _____ Terrasse.,der,Wir sitzen auf der Terrasse.,We sit on the terrace.,Feminine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
+252,7,6,Die Kinder spielen auf _____ Spielplatz.,dem,Die Kinder spielen auf dem Spielplatz.,The children are playing in the playground.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
+253,7,6,Die Touristen machen Fotos auf _____ Rathausplatz.,dem,Die Touristen machen Fotos auf dem Rathausplatz.,The tourists are taking photos on the town hall square.,Masculine,"to indicate a position in open urban spaces – terraces, balconies, squares → auf + Dat."
+254,7,6,Viele Tiere leben in _____ Bergen.,den,Viele Tiere leben in den Bergen.,Many animals live in the mountains.,Plural,to indicate a position in a delimited space in nature → in + Dat.
+255,7,6,Ich lese gern ein Buch in _____ Natur.,der,Ich lese gern ein Buch in der Natur.,I like to read a book in nature.,Feminine,to indicate a position in a delimited space in nature → in + Dat.
+256,7,7,Wir setzen uns an _____ Tisch.,den,Wir setzen uns an den Tisch.,We sit down at the table.,Masculine,to indicate a direction to the immediate vicinity of something → an + Akk.
+257,7,7,Ich stelle _____ Stuhl an _____ Tisch.,den,Ich stelle den Stuhl an den Tisch.,I put the chair at the table.,Masculine,to indicate a direction to the immediate vicinity of something → an + Akk.
+258,7,7,Wir fahren an _____ Nordsee.,die,Wir fahren an die Nordsee.,We are driving to the North Sea.,Feminine,"to indicate a direction next to a body of water – Küste, Strand, Meer, See etc. → an + Akk."
+259,7,7,Wir fahren auf _____ Insel.,die,Wir fahren auf die Insel.,We travel onto the island.,Feminine,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
+260,7,7,Wir wandern auf _____ Berg.,den,Wir wandern auf den Berg.,We hike up the mountain.,Masculine,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
+261,7,7,Die Kinder laufen auf _____ Wiese.,die,Die Kinder laufen auf die Wiese.,The children run to the meadow.,Feminine,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
+262,7,7,"Er fährt auf _____ Land, um Ruhe zu finden.",das,"Er fährt auf das Land, um Ruhe zu finden.",He goes to the countryside to find peace and quiet.,Neutrum,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
+263,7,7,"Sie gehen auf _____ Feld, um Gemüse zu ernten.",das,"Sie gehen auf das Feld, um Gemüse zu ernten.",They go to the field to harvest vegetables.,Neutrum,"to indicate a direction to open, flat or elevated spaces in nature → auf + Akk."
+264,7,7,"Ich gehe auf _____ Terrasse, um frische Luft zu holen.",die,"Ich gehe auf die Terrasse, um frische Luft zu holen.",I go out onto the terrace to get some fresh air.,Feminine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
+265,7,7,Die Kinder rennen auf _____ Schulhof.,den,Die Kinder rennen auf den Schulhof.,The children run into the schoolyard.,Masculine,"to indicate a direction to open urban spaces – terraces, balconies, squares → auf + Akk."
+266,7,7,Für seine Arbeit muss er in _____ Wildnis gehen.,die,Für seine Arbeit muss er in die Wildnis gehen.,"For his work, he needs to go in the wilderness.",Feminine,to indicate a direction to a delimited space in nature → in + Akk.
+267,7,7,Er zieht in _____ Türkei.,die,Er zieht in die Türkei.,He moves to Turkey.,Feminine,to indicate a direction to a country with an article → in + Akk.
+268,7,7,Ich reise in _____ USA.,die,Ich reise in die USA.,I'm traveling to the USA.,Feminine,to indicate a direction to a country with an article → in + Akk.
+269,7,7,Sie fliegt in _____ Iran.,den,Sie fliegt in den Iran.,She flies to Iran.,Masculine,to indicate a direction to a country with an article → in + Akk.
+270,7,7,"Wir gehen in _____ Sudan, um dort zu arbeiten.",den,"Wir gehen in den Sudan, um dort zu arbeiten.",We go to Sudan to work there.,Masculine,to indicate a direction to a country with an article → in + Akk.
+271,7,7,Sie trinkt aus _____ Tasse.,einer,Sie trinkt aus einer Tasse.,She drinks from a cup.,Feminine,"to indicate an origin, from an enclosed place → aus + Dat."
+272,7,7,Ich nehme das Buch aus _____ Regal.,dem,Ich nehme das Buch aus dem Regal.,I take the book from the shelf.,Neutrum,"to indicate an origin, from an enclosed place → aus + Dat."
+273,7,7,Ich komme gerade von _____ Arbeit.,der,Ich komme gerade von der Arbeit.,I just came from work.,Feminine,"to indicate an origin, typically from an institution or a place where ""in"" cannot be used → von + Dat."
+274,8,6,Dieses Buch gehört zu _____ Sammlung.,meiner,Dieses Buch gehört zu meiner Sammlung.,This book belongs to my collection.,Feminine,gehören zu + Dat.
+275,8,6,Er gehört zu _____ besten Spielern.,den,Er gehört zu den besten Spielern.,He belongs to the best players.,Plural,gehören zu + Dat.
+276,8,6,Sie gehört zu _____ Familie.,meiner,Sie gehört zu meiner Familie.,She is part of my family.,Feminine,gehören zu + Dat.
+277,8,6,Ich antworte auf _____ Frage.,deine,Ich antworte auf deine Frage.,I answer your question.,Feminine,antworten auf + Akk.
+278,8,6,Er antwortet auf _____ E-Mail.,die,Er antwortet auf die E-Mail.,He answers the email.,Feminine,antworten auf + Akk.
+279,8,6,Er bittet um _____ Gefallen.,einen,Er bittet um einen Gefallen.,He asks for a favor.,Masculine,bitten um + Akk.
+280,8,6,Ich danke dir für _____ Hilfe.,deine,Ich danke dir für deine Hilfe.,I thank you for your help.,Feminine,danken für + Akk.
+281,8,6,Er dankt seiner Kollegin für _____ Unterstützung.,die,Er dankt seiner Kollegin für die Unterstützung.,He thanks his colleague for her support.,Feminine,danken für + Akk.
+282,8,6,Ich lade dich zu _____ Party ein.,meiner,Ich lade dich zu meiner Party ein.,I invite you to my party.,Feminine,einladen zu + Dat.
+283,8,6,Er lädt uns zu _____ Geburtstag ein.,seinem,Er lädt uns zu seinem Geburtstag ein.,He invites us to his birthday.,Masculine,einladen zu + Dat.
+284,8,6,Sie lädt ihre Freunde zu _____ Abendessen ein.,einem,Sie lädt ihre Freunde zu einem Abendessen ein.,She invites her friends over for dinner.,Neutrum,einladen zu + Dat.
+285,8,6,Ich helfe dir bei _____ Hausaufgaben.,den,Ich helfe dir bei den Hausaufgaben.,I help you with your homework.,Plural,helfen bei + Dat.
+286,8,6,Er hilft bei _____ Organisation.,der,Er hilft bei der Organisation.,He helps with the organization.,Feminine,helfen bei + Dat.
+287,8,6,Sie hilft ihrer Schwester bei _____ Vorbereitungen.,den,Sie hilft ihrer Schwester bei den Vorbereitungen.,She helps her sister with the preparations.,Plural,helfen bei + Dat.
+288,8,6,Ich freue mich auf _____ Sommer.,den,Ich freue mich auf den Sommer.,I am looking forward to summer.,Masculine,sich freuen auf + Akk.
+289,8,6,Er freut sich auf _____ Besuch.,den,Er freut sich auf den Besuch.,He is looking forward to the visit.,Masculine,sich freuen auf + Akk.
+290,8,6,Wir freuen uns auf _____ Konzert nächste Woche.,das,Wir freuen uns auf das Konzert nächste Woche.,We are looking forward to the concert next week.,Neutrum,sich freuen auf + Akk.
+291,8,6,Ich freue mich über _____ Geschenk.,dein,Ich freue mich über dein Geschenk.,I am happy about your gift.,Neutrum,sich freuen über + Akk.
+292,8,6,Sie freut sich über _____ gute Nachricht.,die,Sie freut sich über die gute Nachricht.,She is happy about the good news.,Feminine,sich freuen über + Akk.
+293,8,6,Er freut sich über _____ Lob seines Chefs.,das,Er freut sich über das Lob seines Chefs.,He is delighted with his boss's praise.,Neutrum,sich freuen über + Akk.
+294,8,6,Ich habe mich für _____ teurere Handy entschieden.,das,Ich habe mich für das teurere Handy entschieden.,I decided on the more expensive phone.,Neutrum,entscheiden für + Akk.
+295,8,6,Er hat sich für _____ Studium in Berlin entschieden.,ein,Er hat sich für ein Studium in Berlin entschieden.,He decided to study in Berlin.,Neutrum,entscheiden für + Akk.
+296,8,6,Wir haben uns für _____ kleinere Auto entschieden.,das,Wir haben uns für das kleinere Auto entschieden.,We opted for the smaller car.,Neutrum,entscheiden für + Akk.
+297,8,6,Wir haben uns gegen _____ Kauf des Hauses entschie_____.,den,Wir haben uns gegen den Kauf des Hauses entschieden.,We decided against buying the house.,Masculine,entscheiden gegen + Akk.
+298,8,6,Er entschied sich gegen _____ Jobangebot.,das,Er entschied sich gegen das Jobangebot.,He decided against the job offer.,Neutrum,entscheiden gegen + Akk.
+299,8,6,Ich habe mich gegen _____ Reise im Winter entschieden.,eine,Ich habe mich gegen eine Reise im Winter entschieden.,I decided against traveling in winter.,Feminine,entscheiden gegen + Akk.
+300,8,6,"Ich erwarte von _____, dass du pünktlich bist.",dir,"Ich erwarte von dir, dass du pünktlich bist.",I expect you to be on time.,Du/Dich/Dir,erwarten von + Dat.
+301,8,6,"Mein Chef erwartet von _____, dass ich flexibel arbeite.",mir,"Mein Chef erwartet von mir, dass ich flexibel arbeite.",My boss expects me to work flexibly.,Ich/Mich/Mir,erwarten von + Dat.
+302,8,6,Sie erwartet von _____ Kindern mehr Verantwortung.,ihren,Sie erwartet von ihren Kindern mehr Verantwortung.,She expects more responsibility from her children.,Plural,erwarten von + Dat.
+303,8,6,Ich träume von _____ schönen Urlaub.,einem,Ich träume von einem schönen Urlaub.,I dream of a nice vacation.,Masculine,träumen von + Dat.
+304,8,6,Er träumt von _____ besseren Leben.,einem,Er träumt von einem besseren Leben.,He dreams of a better life.,Neutrum,träumen von + Dat.
+305,8,6,Sie träumt von _____ Karriere als Schauspielerin.,einer,Sie träumt von einer Karriere als Schauspielerin.,She dreams of a career as an actress.,Feminine,träumen von + Dat.
+306,9,8,Der Arzt hat mir zu _____ Diät geraten.,einer,Der Arzt hat mir zu einer Diät geraten.,The doctor advised me to go on a diet.,Feminine,raten zu + Dat.
+307,9,8,Sie rät ihm zu _____ längeren Urlaub.,einem,Sie rät ihm zu einem längeren Urlaub.,She advises him to take a longer vacation.,Masculine,raten zu + Dat.
+308,9,8,Die Raupe wird zu _____ Schmetterling.,einem,Die Raupe wird zu einem Schmetterling.,The caterpillar turns into a butterfly.,Masculine,werden zu + Dat.
+309,9,8,Dieses Kleid passt zu _____ Schuhen.,deinen,Dieses Kleid passt zu deinen Schuhen.,This dress matches your shoes.,Plural,passen zu + Dat.
+310,9,8,Sein Verhalten passt nicht zu _____ Alter.,seinem,Sein Verhalten passt nicht zu seinem Alter.,His behavior doesn’t match his age.,Neutrum,passen zu + Dat.
+311,9,8,Die Farbe passt gut zu _____ Vorhängen.,den,Die Farbe passt gut zu den Vorhängen.,The color goes well with the curtains.,Plural,passen zu + Dat.
+312,9,8,Er kämpft gegen _____ Angst vor dem Fliegen.,seine,Er kämpft gegen seine Angst vor dem Fliegen.,He fights his fear of flying.,Feminine,kämpfen gegen + Akk.
+313,9,8,Ich kämpfe mit _____ neuen Software.,der,Ich kämpfe mit der neuen Software.,I struggle with the new software.,Feminine,kämpfen mit + Dat.
+314,9,8,"Sie kämpft mit _____ Entscheidung, ob sie bleiben o_____ gehen soll.",der,"Sie kämpft mit der Entscheidung, ob sie bleiben oder gehen soll.",She struggles with the decision of whether to stay or go.,Feminine,kämpfen mit + Dat.
+315,9,8,Er sorgt für _____ Familie.,seine,Er sorgt für seine Familie.,He takes care of his family.,Feminine,sorgen für + Akk.
+316,9,8,Sie sorgt jeden Tag für _____ kranke Großmutter.,ihre,Sie sorgt jeden Tag für ihre kranke Großmutter.,She takes care of her sick grandmother every day.,Feminine,sorgen für + Akk.
+317,9,8,Sie sorgt sich um _____ Zukunft ihrer Kinder.,die,Sie sorgt sich um die Zukunft ihrer Kinder.,She worries about the future of her children.,Feminine,sorgen um + Akk.
+318,9,8,Ich sorge mich um _____ Prüfungen.,meine,Ich sorge mich um meine Prüfungen.,I worry about my exams.,Plural,sorgen um + Akk.
+319,9,8,Er sorgt sich sehr um _____ kranke Katze.,seine,Er sorgt sich sehr um seine kranke Katze.,He is very worried about his sick cat.,Feminine,sorgen um + Akk.
+320,9,8,Ich stimme für _____ neuen Plan.,den,Ich stimme für den neuen Plan.,I vote for the new plan.,Masculine,stimmen für + Akk.
+321,9,8,Sie stimmen für _____ besten Kandidaten.,den,Sie stimmen für den besten Kandidaten.,They vote for the best candidate.,Masculine,stimmen für + Akk.
+322,9,8,Wir haben alle für _____ gemeinsame Projekt gestimmt.,das,Wir haben alle für das gemeinsame Projekt gestimmt.,We all voted in favor of the joint project.,Neutrum,stimmen für + Akk.
+323,9,8,Er stimmt gegen _____ Gesetz.,das,Er stimmt gegen das Gesetz.,He votes against the law.,Neutrum,stimmen gegen + Akk.
+324,9,8,Ich stimme gegen _____ Idee.,die,Ich stimme gegen die Idee.,I vote against the idea.,Feminine,stimmen gegen + Akk.
+325,9,8,Sie haben gestern gegen _____ Vorschlag gestimmt.,den,Sie haben gestern gegen den Vorschlag gestimmt.,You voted against the proposal yesterday.,Masculine,stimmen gegen + Akk.
+326,9,8,Vergleiche dein Auto nicht mit _____.,meinem,Vergleiche dein Auto nicht mit meinem.,Don't compare your car with mine.,Neutrum,vergleichen mit + Dat.
+327,9,8,Er kann sich mit _____ nicht vergleichen.,Ihnen,Er kann sich mit Ihnen nicht vergleichen.,He cannot compare with you.,Sie/Sie/Ihnen,vergleichen mit + Dat.
+328,9,8,Ich verlasse mich auf _____.,dich,Ich verlasse mich auf dich.,I rely on you.,Du/Dich/Dir,verlassen auf + Akk.
+329,9,8,Wir verlassen uns auf _____ Team in schwierigen Zeiten.,unser,Wir verlassen uns auf unser Team in schwierigen Zeiten.,We rely on our team in difficult times.,Neutrum,verlassen auf + Akk.
+330,9,8,Ich vertraue auf _____ Fähigkeiten.,meine,Ich vertraue auf meine Fähigkeiten.,I trust in my abilities.,Plural,vertrauen auf + Akk.
+331,9,8,Wir müssen auf _____ Erfahrung vertrauen.,unsere,Wir müssen auf unsere Erfahrung vertrauen.,We must trust in our experience.,Feminine,vertrauen auf + Akk.
+332,9,8,Sie vertraut auf _____ Unterstützung ihrer Freunde.,die,Sie vertraut auf die Unterstützung ihrer Freunde.,She relies on the support of her friends.,Feminine,vertrauen auf + Akk.
