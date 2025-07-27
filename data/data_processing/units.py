@@ -3,6 +3,7 @@ praepositionen_verben = 'praepositionen_verben'
 praepositionen_adjektive = 'praepositionen_adjektive'
 praepositionen_nomen = 'praepositionen_nomen'
 praepositionen_adverbien = 'praepositionen_adverbien'
+praepositionen_kasus = 'praepositionen_kasus'
 
 artikel = 'artikel'
 pronomen = 'pronomen'
@@ -25,7 +26,8 @@ trennbare_verben = 'trennbare_verben'
 adjektive = 'adjektive'
 deverbale_nomen = 'deverbale_nomen'
 
-units = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
+units = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+         praepositionen_adverbien, praepositionen_kasus,
          artikel, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
          praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
          verben, trennbare_verben, adjektive, deverbale_nomen,

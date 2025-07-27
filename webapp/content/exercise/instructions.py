@@ -1,5 +1,5 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
@@ -107,6 +107,18 @@ INSTRUCTION = {
         16: "Complete the following sentence with the preposition that fits:",
     },
 
+    praepositionen_kasus: {
+        1: "Complete the following sentence with the article or pronoun that fits:",
+        2: "Complete the following sentence with the article or pronoun that fits:",
+        3: "Complete the following sentence with the article or pronoun that fits:",
+        4: "Complete the following sentence with the article or pronoun that fits:",
+        5: "Complete the following sentence with the article or pronoun that fits:",
+        6: "Complete the following sentence with the article or pronoun that fits:",
+        7: "Complete the following sentence with the article or pronoun that fits:",
+        8: "Complete the following sentence with the article or pronoun that fits:",
+        9: "Complete the following sentence with the article or pronoun that fits:",
+    },
+
     artikel: {
         1: "Write the definite article that fits the case and gender provided:",
         2: "Complete the following sentence with the nominative definite article that fits:",
@@ -160,29 +172,34 @@ INSTRUCTION = {
     },
 
     pronomen: {
-        1: "Complete the following sentence with the nominative pronoun that fits:",
-        2: "Complete the following sentence with the accusative pronoun that fits:",
-        3: "Complete the following sentence with the dative pronoun that fits:",
-        4: "Complete the following sentence with the pronoun that fits:",
-
-        5: "Complete the following sentence with the reflexive pronoun that fits:",
+        1: "Write the pronoun that fits the person and case given:",
+        2: "Complete the following sentence with the nominative pronoun that fits:",
+        3: "Complete the following sentence with the accusative pronoun that fits:",
+        4: "Complete the following sentence with the dative pronoun that fits:",
+        5: "Complete the following sentence with the pronoun that fits:",
         6: "Complete the following sentence with the pronoun that fits:",
-        7: "Complete the following sentence with the pronoun that fits:",
-        8: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
-        9: "Complete the following sentence with the possessive provide that fits:",
-        10: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
-        11: "Complete the following sentence with the possessive pronoun that fits:",
 
-        12: "Translate the following pronoun:",
-        13: "Complete the following sentence with the pronoun that fits:",
-        14: "Complete the following sentence with the nominative relative pronoun that fits:",
-        15: "Complete the following sentence with the accusative relative pronoun that fits:",
-        16: "Complete the following sentence with the dative relative pronoun that fits:",
-        17: "Complete the following sentence with the genitive relative pronoun that fits:",
-        18: "Complete the following sentence with the relative pronoun that fits:",
+        7: "Write the reflexive pronoun that fits the person and case given:",
+        8: "Complete the following sentence with the reflexive pronoun that fits:",
+        9: "Complete the following sentence with the pronoun that fits:",
+        10: "Complete the following sentence with the pronoun that fits:",
+        11: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
+        12: "Complete the following sentence with the possessive provide that fits:",
+        13: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
+        14: "Complete the following sentence with the possessive pronoun that fits:",
 
-        19: "Complete the following sentence with the relative pronoun that fits:",
-        20: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
+        15: "Translate the following pronoun:",
+        16: "Complete the following sentence with the pronoun that fits:",
+        17: "Complete the following sentence with the nominative relative pronoun that fits:",
+        18: "Complete the following sentence with the accusative relative pronoun that fits:",
+        19: "Complete the following sentence with the dative relative pronoun that fits:",
+        20: "Complete the following sentence with the genitive relative pronoun that fits:",
+        21: "Complete the following sentence with the relative pronoun that fits:",
+        22: "Complete the following sentence with the relative pronoun that fits:",
+
+        23: "Complete the following sentence with the relative pronoun that fits:",
+        24: "Complete the following sentence with the relative pronoun that fits:",
+        25: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
     },
 
     konnektoren: {
@@ -247,9 +264,9 @@ INSTRUCTION = {
         16: "Complete the following sentence with the adverb that fits:",
         17: "Translate the following adverb:",
         18: "Complete the following sentence with the adverb that fits:",
+
         19: "Translate the following adverb:",
         20: "Complete the following sentence with the adverb that fits:",
-
         21: "Translate the following adverb:",
         22: "Complete the following sentence with the adverb that fits:",
         23: "Translate the following adverb:",
@@ -258,11 +275,11 @@ INSTRUCTION = {
         26: "Complete the following sentence with the adverb that fits:",
         27: "Translate the following adverb:",
         28: "Complete the following sentence with the adverb that fits:",
+
         29: "Translate the following adverb:",
         30: "Complete the following sentence with the adverb that fits:",
         31: "Translate the following adverb:",
         32: "Complete the following sentence with the adverb that fits:",
-
         33: "Translate the following adverb:",
         34: "Complete the following sentence with the adverb that fits:",
         35: "Translate the following adverb:",

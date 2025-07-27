@@ -1,5 +1,6 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_adverbien,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_adverbien, praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
@@ -18,6 +19,12 @@ INTRODUCTION = {
     praepositionen_nomen: "Noun-Preposition pairs."
                           "<br><br>Verb's and Adjective's younger brother. The annoying one.",
     praepositionen_adverbien: "Just kidding it doesn't exist.",
+    praepositionen_kasus: "All the questions come from other Präpositionen exercises and updated to practice cases"
+                          " following prepositions."
+                          "<br><br>Reminder:"
+                          "<br>&bull; Followed by Accusative: Bis, Durch, Für, Ohne, Genen, Um"
+                          "<br>&bull; Followed by Dative: Aus, Bei, Mit, Seit, Nach, Von, Zu"
+                          "<br>&bull; Followed by Dative or Accusative: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen",
 
     artikel: "Articles marinated in every grammatical cases."
              "<br><br>Includes definite, indefinite, negative, possessive, demonstrative articles and much more."

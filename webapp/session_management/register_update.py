@@ -46,6 +46,9 @@ def register_false(session, unit, exercise, nr):
     Returns:
         None
     """
+    if (unit, exercise) not in session['unfinished_exercise']:
+        session['unfinished_exercise'].append((unit, exercise))
+
     init_session_key(session, unit, exercise, 'falses')
     session[unit][str(exercise)]['falses'].append(nr)
     return
@@ -67,6 +70,9 @@ def register_user_incorrect_answer(session, unit, exercise, incorrect_answer):
     Returns:
         None
     """
+    if (unit, exercise) not in session['unfinished_exercise']:
+        session['unfinished_exercise'].append((unit, exercise))
+
     init_session_key(session, unit, exercise, 'incorrect_answer')
     session[unit][str(exercise)]['incorrect_answer'].append(incorrect_answer)
     return
@@ -97,14 +103,14 @@ def register_result(session, unit, exercise, feedback):
     Returns:
         None
     """
-    if feedback is not None:
-        log_exercise_completed(unit, exercise)
-
     init_session_key(session, unit, exercise, 'progress')
     init_session_key(session, unit, exercise, 'falses')
 
     score_exercise = compute_score(session, unit, exercise)
     session[unit][str(exercise)]['result'] = round(score_exercise, 2)
+
+    if feedback is not None:
+        log_exercise_completed(unit, exercise, score_exercise)
 
     if is_key_in_exercise(session, unit, exercise, 'progress'):
         del session[unit][str(exercise)]['progress']

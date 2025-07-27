@@ -66,9 +66,25 @@
             }
         </script>
 
-        <button type="submit" id="submit-button" class="submit-button">Submit</button>
+        <button type="submit" id="submit-button" class="submit-button" >Submit</button>
 
         </form>
+
+        {% if gender %}
+            <script>
+                function toggleGenderHelp() {
+                    const tooltip = document.getElementById("gender-tooltip");
+                    tooltip.style.display = tooltip.style.display === "none" ? "block" : "none";
+                }
+            </script>
+
+            <div class="gender-help-container">
+                <button type="button" id="gender-help-button" class="gender-help-button" onclick="toggleGenderHelp()" title="Get a guidance for the gender">?</button>
+                <div id="gender-tooltip" class="gender-tooltip" style="display: none;">
+                    {{ gender }}
+                </div>
+            </div>
+        {% endif %}
 
     </div>
 
@@ -99,6 +115,12 @@
     <div class="back-button-container">
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>
     </div>
+
+    {% if session.get('progress_deleted') %}
+        <script>
+            alert("Progress for {{ title_page[session['progress_deleted']['unit']] }}, exercise {{ session['progress_deleted']['exercise'] }} was deleted due to session size.\n\nTo conserve your progress, finish your exercises.");
+        </script>
+    {% endif %}
 
     <script src="/webapp/static/toggleDayMode.js"></script>
 </body>

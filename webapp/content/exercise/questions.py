@@ -1,5 +1,5 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
@@ -151,6 +151,27 @@ QUESTION = {
             "<br><br><i>{english}</i>",
     },
 
+    praepositionen_kasus: {
+        1: "{question}"
+            "<br><br><i>{english}</i>",
+        2: "{question}"
+           "<br><br><i>{english}</i>",
+        3: "{question}"
+           "<br><br><i>{english}</i>",
+        4: "{question}"
+           "<br><br><i>{english}</i>",
+        5: "{question}"
+           "<br><br><i>{english}</i>",
+        6: "{question}"
+           "<br><br><i>{english}</i>",
+        7: "{question}"
+           "<br><br><i>{english}</i>",
+        8: "{question}"
+           "<br><br><i>{english}</i>",
+        9: "{question}"
+           "<br><br><i>{english}</i>",
+    },
+
     artikel: {
         1: "{question} \u25CF {gender}, {case}",
         2: "{question}"
@@ -219,7 +240,7 @@ QUESTION = {
         37: "{question}"
             "<br><br><i>{english}</i>",
         38: "{question} \u25CF {gender}, {case}",
-        39: "{question}"
+        39: "{question} \u25CF {article}" 
             "<br><br><i>{english}</i>",
 
         40: "{question} \u25CF {gender}, {case}",
@@ -232,32 +253,37 @@ QUESTION = {
     },
 
     pronomen: {
-        1: "{question} \u25CF {person}",
+        1: "{person} \u25CF {case}",
         2: "{question} \u25CF {person}",
         3: "{question} \u25CF {person}",
         4: "{question} \u25CF {person}",
-
         5: "{question} \u25CF {person}",
         6: "{question} \u25CF {person}",
-        7: "{question} \u25CF {person}",
-        8: "{question} \u25CF {gender}, {case}",
-        9: "{question}"
+
+        7: "{person} \u25CF {case}",
+        8: "{question} \u25CF {person}",
+        9: "{question} \u25CF {person}",
+        10: "{question} \u25CF {person}",
+        11: "{question} \u25CF {gender}, {case}",
+        12: "{question}"
             "<br><br><i>{english}</i>",
-        10: "{question} \u25CF {gender}, {case}",
-        11: "{question}"
+        13: "{question} \u25CF {gender}, {case}",
+        14: "{question}"
             "<br><br><i>{english}</i>",
 
-        12: "{question}",
-        13: "{question}"
-           "<br><br><i>{english}</i>",
-        14: "{question}",
         15: "{question}",
-        16: "{question}",
+        16: "{question}"
+            "<br><br><i>{english}</i>",
         17: "{question}",
         18: "{question}",
-
         19: "{question}",
         20: "{question}",
+        21: "{question}",
+        22: "{question}",
+
+        23: "{question}",
+        24: "{question}",
+        25: "{question}",
     },
 
     konnektoren: {
@@ -343,10 +369,10 @@ QUESTION = {
         17: "{question}",
         18: "{question}"
             "<br><br><i>{english}</i>",
+
         19: "{question}",
         20: "{question}"
             "<br><br><i>{english}</i>",
-
         21: "{question}",
         22: "{question}"
             "<br><br><i>{english}</i>",
@@ -359,13 +385,13 @@ QUESTION = {
         27: "{question}",
         28: "{question}"
             "<br><br><i>{english}</i>",
+
         29: "{question}",
         30: "{question}"
             "<br><br><i>{english}</i>",
         31: "{question}",
         32: "{question}"
             "<br><br><i>{english}</i>",
-
         33: "{question}",
         34: "{question}"
             "<br><br><i>{english}</i>",

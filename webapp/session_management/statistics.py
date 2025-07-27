@@ -4,7 +4,7 @@ from datetime import datetime
 from data.data_processing.levels import get_level_from_exercise
 
 
-def log_exercise_completed(unit, exercise):
+def log_exercise_completed(unit, exercise, score):
     """
     Logs the completion of an exercise by writing an entry to a CSV file with metadata.
 
@@ -26,7 +26,7 @@ def log_exercise_completed(unit, exercise):
     now = datetime.now()
 
     create_folder(STATISTICS_DIR)
-    create_file(EXERCISE_COMPLETED_PATH, "Nr; IP; date; unit; exercise; level")
+    create_file(EXERCISE_COMPLETED_PATH, "Nr; IP; date; unit; exercise; level; score")
 
     next_nr = get_next_number(EXERCISE_COMPLETED_PATH)
     level = get_level_from_exercise(unit, exercise)
@@ -35,7 +35,7 @@ def log_exercise_completed(unit, exercise):
     user_ip = forwarded_for.split(',')[0].strip()  # Take the first IP if there are multiple
 
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}; {level}")
+        file.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}; {level}; {score}")
     return
 
 

@@ -1,4 +1,7 @@
-from flask import Blueprint, render_template, session, request, redirect, url_for, flash, jsonify
+from flask import Blueprint, render_template, session, request, redirect, url_for, flash, jsonify, Response
+from typing import cast
+
+session = cast(dict, session)
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
@@ -21,11 +24,12 @@ from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.back_button import BACK_BUTTON
 from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
-from webapp.content.exercise.guidance import GUIDANCE
+from webapp.content.unit.guidance_unit import GUIDANCE_UNIT
 from webapp.content.exercise.feedbacks import FEEDBACK
 from webapp.content.exercise.questions import QUESTION
 from webapp.content.exercise.instructions import INSTRUCTION
 from webapp.content.exercise.descriptions import DESCRIPTION
+from webapp.content.exercise.guidance_exercise import GUIDANCE_EXERCISE
 
 routes = Blueprint("routes", __name__)
 
@@ -38,7 +42,7 @@ def ensure_session_keys_exist_and_make_session_permanent():
         session['unfinished_exercise'] = []
 
     # print_complete_session(session)
-    #  print(f"Session size: {session_size(session)} bytes")
+    # print(f"Session size: {session_size(session)} bytes")
     # session.clear()
 
 
@@ -51,6 +55,14 @@ def delete_old_unfinished_exercise():
             del session[unit][str(exercise)]
 
         session['unfinished_exercise'].remove((unit, exercise))
+        session['progress_deleted'] = {'unit': unit, 'exercise': exercise}
+        print(f"Progress deleted for {unit} {exercise}")
+
+
+@routes.after_request
+def clear_progress_deleted_flag(response):
+    session.pop('progress_deleted', None)
+    return response
 
 
 @routes.route('/')
@@ -61,6 +73,7 @@ def home():
                            score=write_score,
                            explanation=INTRODUCTION,
                            title_page=TITLE_PAGE,
+                           button_unit=TITLE_PAGE,
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            )
@@ -128,18 +141,37 @@ def guidance(unit, exercise):
                                feedbacks=feedbacks,
                                )
 
-    guidance = GUIDANCE[unit][exercise]
+    elif unit in GUIDANCE_EXERCISE and exercise in GUIDANCE_EXERCISE[unit]:
+        guidance = GUIDANCE_EXERCISE[unit][exercise]
+        return render_template("exercise/guidance.html",
+                               unit=unit,
+                               exercise=exercise,
+                               guidance=guidance,
+                               unit_page=UNIT_PAGE,
+                               title_page=TITLE_PAGE,
+                               back_page=BACK_BUTTON,
+                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               )
 
-    return render_template("exercise/guidance.html",
-                           unit=unit,
-                           exercise=exercise,
-                           guidance=guidance,
-                           unit_page=UNIT_PAGE,
-                           title_page=TITLE_PAGE,
-                           back_page=BACK_BUTTON,
-                           answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           total_questions=compute_total_questions(unit, exercise=exercise),
-                           )
+    elif unit in GUIDANCE_UNIT:
+        guidance = GUIDANCE_UNIT[unit]
+        return render_template("exercise/guidance.html",
+                               unit=unit,
+                               exercise=exercise,
+                               guidance=guidance,
+                               unit_page=UNIT_PAGE,
+                               title_page=TITLE_PAGE,
+                               back_page=BACK_BUTTON,
+                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               )
+
+    else:
+        return redirect(url_for('routes.exercise',
+                                unit=unit,
+                                exercise=exercise))
+
 
 
 @routes.route('/unit/<unit>/exercise/<int:exercise>')
@@ -224,6 +256,7 @@ def exercise(unit, exercise):
                            total_questions=compute_total_questions(unit, exercise=exercise),
                            proverb=proverb,
                            is_feedback_box=is_feedback_box,
+                           gender=gender,
                            )
 
 
@@ -425,3 +458,37 @@ def set_feedback_toggle():
 def get_feedback_toggle():
     enabled = session.get('feedback_enabled', False)
     return jsonify({'feedback_enabled': enabled})
+
+
+@routes.route('/robots.txt')
+def robots_txt():
+    return Response(
+        "User-agent: *\nDisallow:\nSitemap: https://www.sieversstudyhall.com/sitemap.xml",
+        mimetype='text/plain'
+    )
+
+
+@routes.route('/sitemap.xml')
+def sitemap():
+    from flask import Response, url_for
+    import datetime
+
+    pages = []
+    today = datetime.date.today().isoformat()
+
+    # Static routes
+    pages.append({'loc': url_for('home', _external=True), 'lastmod': today})
+    pages.append({'loc': url_for('settings', _external=True), 'lastmod': today})
+    pages.append({'loc': url_for('contact', _external=True), 'lastmod': today})
+
+    # Dynamic unit routes
+    for unit in units:
+        endpoint = f'dynamic_route_{unit}'
+        try:
+            loc = url_for(endpoint, _external=True)
+            pages.append({'loc': loc, 'lastmod': today})
+        except:
+            pass  # In case the endpoint wasn't properly registered
+
+    sitemap_xml = render_template('sitemap_template.xml', pages=pages)
+    return Response(sitemap_xml, mimetype='application/xml')

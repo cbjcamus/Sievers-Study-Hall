@@ -33,7 +33,7 @@
 
 {% macro render_exercise_table_row(unit, exercise, session, answered_questions, total_questions, score, description_templates) %}
     <tr>
-        <td><a href="/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Exercise {{ exercise }}</a></td>
+        <td><a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Exercise {{ exercise }}</a></td>
         <td>{{ answered_questions(session, unit, exercise=exercise) }}/{{ total_questions(unit, exercise=exercise) }}</td>
         <td>
             <span title="Your score for Exercise {{ exercise }}">{{ score(session, unit, exercise=exercise) }}</span>
