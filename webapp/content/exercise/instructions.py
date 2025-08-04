@@ -19,21 +19,22 @@ INSTRUCTION = {
         5: "Complete the following sentence with the preposition that fits:",
         6: "Complete the following sentence with the preposition that fits:",
         7: "Complete the following sentence with the preposition that fits:",
-
         8: "Complete the following sentence with the preposition that fits:",
+
         9: "Complete the following sentence with the preposition that fits:",
-        10: "Translate the following preposition:",
-        11: "Complete the following sentence with the preposition that fits:",
-
+        10: "Complete the following sentence with the preposition that fits:",
+        11: "Translate the following preposition:",
         12: "Complete the following sentence with the preposition that fits:",
-        13: "Complete the following sentence with the preposition that fits:",
-        14: "Translate the following preposition:",
-        15: "Complete the following sentence with the preposition that fits:",
 
-        16: "Translate the following preposition:",
-        17: "Complete the following sentence with the preposition that fits:",
-        18: "Translate the following preposition:",
-        19: "Complete the following sentence with the preposition that fits:",
+        13: "Complete the following sentence with the preposition that fits:",
+        14: "Complete the following sentence with the preposition that fits:",
+        15: "Translate the following preposition:",
+        16: "Complete the following sentence with the preposition that fits:",
+
+        17: "Translate the following preposition:",
+        18: "Complete the following sentence with the preposition that fits:",
+        19: "Translate the following preposition:",
+        20: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_verben: {
@@ -545,16 +546,18 @@ INSTRUCTION = {
         14: "Complete the sentence with the correct form of the specified adjective:",
         15: "Complete the sentence with the correct form of the specified adjective:",
         16: "Complete the sentence with the correct form of the specified adjective:",
-
         17: "Complete the sentence with the correct form of the specified adjective:",
         18: "Complete the sentence with the correct form of the specified adjective:",
+
         19: "Complete the sentence with the correct form of the specified adjective:",
         20: "Complete the sentence with the correct form of the specified adjective:",
-
         21: "Complete the sentence with the correct form of the specified adjective:",
         22: "Complete the sentence with the correct form of the specified adjective:",
+
         23: "Complete the sentence with the correct form of the specified adjective:",
         24: "Complete the sentence with the correct form of the specified adjective:",
+        25: "Complete the sentence with the correct form of the specified adjective:",
+        26: "Complete the sentence with the correct form of the specified adjective:",
     },
 
     trennbare_verben: {

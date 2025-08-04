@@ -150,8 +150,9 @@ body.day-mode .button {
 }
 
 .guidance-container {
+    text-align: left;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     margin: 10px auto;
 
     padding: 5px;

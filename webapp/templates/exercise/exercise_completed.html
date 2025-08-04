@@ -41,6 +41,7 @@
 
     <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">
         <button type="submit" class="submit-button">Refresh</button>
+        <input type="hidden" name="guidance" value="true">
     </form>
 
     <div class="back-button-container">

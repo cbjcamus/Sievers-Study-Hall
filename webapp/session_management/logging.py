@@ -3,6 +3,9 @@ from flask import request
 from datetime import datetime
 from data.data_processing.levels import get_level_from_exercise
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+LOGS_DIR = os.path.join(BASE_DIR, "../logs")
+
 
 def log_exercise_completed(unit, exercise, score):
     """
@@ -20,12 +23,10 @@ def log_exercise_completed(unit, exercise, score):
     Returns:
         None
     """
-    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    STATISTICS_DIR = os.path.join(BASE_DIR, "../statistics")
-    EXERCISE_COMPLETED_PATH = os.path.join(BASE_DIR, "../statistics", "exercise_completed.csv")
+    EXERCISE_COMPLETED_PATH = os.path.join(LOGS_DIR, "exercise_completed.csv")
     now = datetime.now()
 
-    create_folder(STATISTICS_DIR)
+    create_folder(LOGS_DIR)
     create_file(EXERCISE_COMPLETED_PATH, "Nr; IP; date; unit; exercise; level; score")
 
     next_nr = get_next_number(EXERCISE_COMPLETED_PATH)
@@ -57,12 +58,10 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result):
     Returns:
         None
     """
-    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    STATISTICS_DIR = os.path.join(BASE_DIR, "../statistics")
-    QUESTION_FLAGGED_PATH = os.path.join(STATISTICS_DIR, "question_flagged.csv")
+    QUESTION_FLAGGED_PATH = os.path.join(LOGS_DIR, "question_flagged.csv")
     now = datetime.now()
 
-    create_folder(STATISTICS_DIR)
+    create_folder(LOGS_DIR)
     create_file(QUESTION_FLAGGED_PATH, "Nr; IP; date; unit; exercise; result; feedback_message; user_answer")
 
     next_nr = get_next_number(QUESTION_FLAGGED_PATH)
@@ -90,12 +89,10 @@ def log_progress_deleted_from_session(unit, exercise):
     Returns:
         None
     """
-    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    STATISTICS_DIR = os.path.join(BASE_DIR, "../statistics")
-    PROGRESS_DELETED_PATH = os.path.join(STATISTICS_DIR, "progress_deleted_from_session.csv")
+    PROGRESS_DELETED_PATH = os.path.join(LOGS_DIR, "progress_deleted_from_session.csv")
     now = datetime.now()
 
-    create_folder(STATISTICS_DIR)
+    create_folder(LOGS_DIR)
     create_file(PROGRESS_DELETED_PATH, "Nr; IP; date; unit; exercise")
 
     next_nr = get_next_number(PROGRESS_DELETED_PATH)

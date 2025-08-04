@@ -8,14 +8,14 @@ from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_data
 
 from webapp.session_management.score import write_score
+from webapp.session_management.logging import log_question_flagged, log_progress_deleted_from_session
 from webapp.session_management.progress import compute_answered_questions
-from webapp.session_management.statistics import log_question_flagged, log_progress_deleted_from_session
 from webapp.session_management.print_session import session_size, print_complete_session
 from webapp.session_management.normalization import get_list_of_correct_answers, is_user_answer_correct
-from webapp.session_management.total_questions import compute_total_questions
+from webapp.session_management.total_questions import compute_total_questions, compute_highest_exercise
 from webapp.session_management.pick_a_question import pick_a_question, is_exercise_finished
 from webapp.session_management.register_update import register_progress, register_false, register_result, register_user_incorrect_answer
-from webapp.session_management.verification_session import init_session_key
+from webapp.session_management.verification_session import init_session_key, is_key_in_exercise
 from webapp.session_management.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
 from webapp.content.unit.stars import STARS
@@ -30,6 +30,8 @@ from webapp.content.exercise.questions import QUESTION
 from webapp.content.exercise.instructions import INSTRUCTION
 from webapp.content.exercise.descriptions import DESCRIPTION
 from webapp.content.exercise.guidance_exercise import GUIDANCE_EXERCISE
+
+from webapp.style.icons import STAR_GOLD
 
 routes = Blueprint("routes", __name__)
 
@@ -65,7 +67,22 @@ def clear_progress_deleted_flag(response):
     return response
 
 
-@routes.route('/')
+@routes.after_request
+def clear_empty_unit_dictionary(response):
+    if session_size(session) > 2000:
+        for unit in units:
+            for exercise in range(compute_highest_exercise(unit)):
+                if (is_key_in_exercise(session, unit, exercise, 'falses')
+                        and is_key_in_exercise(session, unit, exercise, 'progress')):
+                    if (len(session[unit][str(exercise)]['falses']) == 0
+                            and len(session[unit][str(exercise)]['progress']) == 0):
+                        unit_dict = session.get(unit, {})
+                        unit_dict.pop(str(exercise), None)
+                        session[unit] = unit_dict
+    return response
+
+
+@routes.route('/', endpoint='home')
 def home():
     return render_template('home.html',
                            answered_questions=compute_answered_questions,
@@ -76,16 +93,17 @@ def home():
                            button_unit=TITLE_PAGE,
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
+                           STAR_GOLD=STAR_GOLD,
                            )
 
 
-@routes.route('/settings')
+@routes.route('/settings', endpoint='settings')
 def settings():
     return render_template('menu/settings.html',
                            )
 
 
-@routes.route('/contact')
+@routes.route('/contact', endpoint='contact')
 def contact():
     return render_template('menu/contact.html',
                            )
@@ -430,7 +448,13 @@ def reset_exercise(unit, exercise):
 
     session.pop(f"feedback", None)
     session.modified = True
-    return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
+
+    guidance = request.form.get('guidance') == 'true'
+
+    if guidance is True:
+        return redirect(url_for('routes.guidance', unit=unit, exercise=exercise))
+    else:
+        return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
 
 @routes.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])

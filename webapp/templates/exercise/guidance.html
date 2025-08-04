@@ -52,6 +52,13 @@
 
     </div>
 
+    <div class="question-count">
+        <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
+        {{ answered_questions }}/{{ total_questions }} <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
+        <input type="hidden" name="guidance" value="true">
+        </form>
+    </div>
+
     <div class="back-button-container">
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>
     </div>

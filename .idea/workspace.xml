@@ -5,10 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="july 27th">
+      <change afterPath="$PROJECT_DIR$/webapp/style/icons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sievers_Study_Hall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sievers_Study_Hall.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/artikel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/pronomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/pronomen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_kasus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_kasus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/guidance_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/guidance_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/guidance_unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/guidance_unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/introduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/stars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/register_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/register_update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/session_management/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/adjektive/adjektivdeklinationen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/adjektive/adjektivdeklinationen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00051" summary="removing + explanations">
-      <option name="closed" value="true" />
-      <created>1747900978668</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1747900978668</updated>
     </task>
     <task id="LOCAL-00052" summary="removing + explanations">
       <option name="closed" value="true" />
@@ -551,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753615446770</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="july 27th">
+      <option name="closed" value="true" />
+      <created>1753624899025</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1753624899025</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

@@ -1,6 +1,6 @@
 from webapp.session_management.score import compute_score
+from webapp.session_management.logging import log_exercise_completed
 from webapp.session_management.verification_session import is_key_in_exercise, init_session_key
-from webapp.session_management.statistics import log_exercise_completed
 
 
 def register_progress(session, unit, exercise, nr):
@@ -110,7 +110,7 @@ def register_result(session, unit, exercise, feedback):
     session[unit][str(exercise)]['result'] = round(score_exercise, 2)
 
     if feedback is not None:
-        log_exercise_completed(unit, exercise, score_exercise)
+        log_exercise_completed(unit, exercise, round(score_exercise, 2))
 
     if is_key_in_exercise(session, unit, exercise, 'progress'):
         del session[unit][str(exercise)]['progress']

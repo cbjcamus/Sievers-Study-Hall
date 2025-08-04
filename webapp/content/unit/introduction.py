@@ -22,7 +22,7 @@ INTRODUCTION = {
     praepositionen_kasus: "All the questions come from other Präpositionen exercises and updated to practice cases"
                           " following prepositions."
                           "<br><br>Reminder:"
-                          "<br>&bull; Followed by Accusative: Bis, Durch, Für, Ohne, Genen, Um"
+                          "<br>&bull; Followed by Accusative: Bis, Durch, Für, Ohne, Gegen, Um"
                           "<br>&bull; Followed by Dative: Aus, Bei, Mit, Seit, Nach, Von, Zu"
                           "<br>&bull; Followed by Dative or Accusative: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen",
 

@@ -27,28 +27,30 @@ QUESTION = {
            "<br><br><i>{english}</i>",
         7: "{question}"
            "<br><br><i>{english}</i>",
-
         8: "{question}"
            "<br><br><i>{english}</i>",
-        9: "{question}"
-            "<br><br><i>{english}</i>",
-        10: "{question}",
-        11: "{question}"
-            "<br><br><i>{english}</i>",
 
+        9: "{question}"
+           "<br><br><i>{english}</i>",
+        10: "{question}"
+            "<br><br><i>{english}</i>",
+        11: "{question}",
         12: "{question}"
             "<br><br><i>{english}</i>",
+
         13: "{question}"
             "<br><br><i>{english}</i>",
-        14: "{question}",
-        15: "{question}"
+        14: "{question}"
+            "<br><br><i>{english}</i>",
+        15: "{question}",
+        16: "{question}"
             "<br><br><i>{english}</i>",
 
-        16: "{question}",
-        17: "{question}"
+        17: "{question}",
+        18: "{question}"
             "<br><br><i>{english}</i>",
-        18: "{question}",
-        19: "{question}"
+        19: "{question}",
+        20: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -254,16 +256,24 @@ QUESTION = {
 
     pronomen: {
         1: "{person} \u25CF {case}",
-        2: "{question} \u25CF {person}",
-        3: "{question} \u25CF {person}",
-        4: "{question} \u25CF {person}",
-        5: "{question} \u25CF {person}",
-        6: "{question} \u25CF {person}",
+        2: "{question}"
+            "<br><br><i>{english}</i>",
+        3: "{question}"
+            "<br><br><i>{english}</i>",
+        4: "{question}"
+            "<br><br><i>{english}</i>",
+        5: "{question}"
+            "<br><br><i>{english}</i>",
+        6: "{question}"
+            "<br><br><i>{english}</i>",
 
         7: "{person} \u25CF {case}",
-        8: "{question} \u25CF {person}",
-        9: "{question} \u25CF {person}",
-        10: "{question} \u25CF {person}",
+        8: "{question}"
+            "<br><br><i>{english}</i>",
+        9: "{question}"
+            "<br><br><i>{english}</i>",
+        10: "{question}"
+            "<br><br><i>{english}</i>",
         11: "{question} \u25CF {gender}, {case}",
         12: "{question}"
             "<br><br><i>{english}</i>",
@@ -274,16 +284,25 @@ QUESTION = {
         15: "{question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
-        17: "{question}",
-        18: "{question}",
-        19: "{question}",
-        20: "{question}",
-        21: "{question}",
-        22: "{question}",
+        17: "{question}"
+            "<br><br><i>{english}</i>",
+        18: "{question}"
+            "<br><br><i>{english}</i>",
+        19: "{question}"
+            "<br><br><i>{english}</i>",
+        20: "{question}"
+            "<br><br><i>{english}</i>",
+        21: "{question}"
+            "<br><br><i>{english}</i>",
+        22: "{question}"
+            "<br><br><i>{english}</i>",
 
-        23: "{question}",
-        24: "{question}",
-        25: "{question}",
+        23: "{question}"
+            "<br><br><i>{english}</i>",
+        24: "{question}"
+            "<br><br><i>{english}</i>",
+        25: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     konnektoren: {
@@ -626,9 +645,9 @@ QUESTION = {
         4: "{question} \u25CF {adjective}",
         5: "{question} \u25CF {case} \u25CF {adjective}",
         6: "{question} \u25CF {adjective}",
-        7: "{question} \u25CF {adjective}",
+        7: "{question} \u25CF {case} \u25CF {adjective}",
         8: "{question} \u25CF {adjective}",
-        9: "{question} \u25CF {adjective}",
+        9: "{question} \u25CF {case} \u25CF {adjective}",
         10: "{question} \u25CF {adjective}",
         11: "{question} \u25CF {adjective}",
         12: "{question} \u25CF {adjective}",
@@ -637,16 +656,18 @@ QUESTION = {
         14: "{question} \u25CF {adjective}",
         15: "{question} \u25CF {case} \u25CF {adjective}",
         16: "{question} \u25CF {adjective}",
-
         17: "{question} \u25CF {case} \u25CF {adjective}",
         18: "{question} \u25CF {adjective}",
+
         19: "{question} \u25CF {case} \u25CF {adjective}",
         20: "{question} \u25CF {adjective}",
-
         21: "{question} \u25CF {case} \u25CF {adjective}",
         22: "{question} \u25CF {adjective}",
+
         23: "{question} \u25CF {case} \u25CF {adjective}",
         24: "{question} \u25CF {adjective}",
+        25: "{question} \u25CF {case} \u25CF {adjective}",
+        26: "{question} \u25CF {adjective}",
     },
 
     trennbare_verben: {
