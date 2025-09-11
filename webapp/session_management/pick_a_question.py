@@ -1,4 +1,6 @@
-from data.data_processing.data_loading import load_data
+import random
+
+from data.data_processing.data_loading import load_data_exercise, load_data_level, is_exercise_multiple_choice
 
 from webapp.session_management.verification_session import is_key_in_exercise, init_session_key
 
@@ -20,7 +22,7 @@ def pick_a_question(session, unit, exercise):
     Returns:
         pandas.Series or None: A single unanswered question row, or None if all have been answered.
     """
-    data = load_data(unit, exercise)
+    data = load_data_exercise(unit, exercise)
 
     init_session_key(session, unit, exercise, 'progress')
     answered_nrs = session[unit][str(exercise)]['progress']
@@ -29,8 +31,37 @@ def pick_a_question(session, unit, exercise):
     if filtered_data.empty:
         return None
 
-    random_question = filtered_data.sample(1).iloc[0]# .fillna("")
+    random_question = filtered_data.sample(1).iloc[0]
     return random_question
+
+
+def pick_other_options(unit, exercise, question):
+    data = load_data_level(unit, exercise)
+
+    other_questions = []
+    if len(data) > 1:
+        sampled_df = data[data["Nr"] != question["Nr"]].sample(
+            min(4, len(data) - 1), replace=False
+        )
+        other_questions = sampled_df.to_dict(orient="records")
+
+    return other_questions
+
+
+def shuffle_options(correct_answer, other_answers):
+    """
+    Returns a list of 5 options in random order.
+
+    Args:
+        correct_answer (str): The correct answer.
+        other_answers (list): List of 4 other answers.
+
+    Returns:
+        list: 5 options shuffled randomly.
+    """
+    options = [correct_answer] + other_answers
+    random.shuffle(options)
+    return options
 
 
 def is_exercise_finished(session, unit, exercise):
@@ -51,7 +82,7 @@ def is_exercise_finished(session, unit, exercise):
         bool: True if the exercise is complete, False otherwise.
     """
     if is_key_in_exercise(session, unit, exercise, 'progress'):
-        data = load_data(unit, exercise)
+        data = load_data_exercise(unit, exercise)
 
         answered_nrs = set(session[unit][str(exercise)]['progress'])
 
@@ -66,3 +97,23 @@ def is_exercise_finished(session, unit, exercise):
 
     else:
         return False
+
+
+def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer):
+
+    if result != "incorrect":
+        return ""
+
+    elif is_exercise_multiple_choice(unit, exercise) is False:
+        return ""
+
+    else:
+        data = load_data_level(unit, exercise)
+
+        match = data.loc[data['answer'] == incorrect_answer, 'question']
+
+        if not match.empty:
+            question = match.iloc[0]
+            return f"({question})"
+        else:
+            return None

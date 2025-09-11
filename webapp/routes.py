@@ -5,7 +5,7 @@ session = cast(dict, session)
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.data_loading import load_data
+from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
 
 from webapp.session_management.score import write_score
 from webapp.session_management.logging import log_question_flagged, log_progress_deleted_from_session
@@ -13,8 +13,10 @@ from webapp.session_management.progress import compute_answered_questions
 from webapp.session_management.print_session import session_size, print_complete_session
 from webapp.session_management.normalization import get_list_of_correct_answers, is_user_answer_correct
 from webapp.session_management.total_questions import compute_total_questions, compute_highest_exercise
-from webapp.session_management.pick_a_question import pick_a_question, is_exercise_finished
-from webapp.session_management.register_update import register_progress, register_false, register_result, register_user_incorrect_answer
+from webapp.session_management.pick_a_question import (pick_a_question, is_exercise_finished, pick_other_options,
+                                                       shuffle_options, get_question_from_incorrect_answer)
+from webapp.session_management.register_update import (register_progress, register_false, register_result,
+                                                       register_user_incorrect_answer)
 from webapp.session_management.verification_session import init_session_key, is_key_in_exercise
 from webapp.session_management.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
@@ -191,7 +193,6 @@ def guidance(unit, exercise):
                                 exercise=exercise))
 
 
-
 @routes.route('/unit/<unit>/exercise/<int:exercise>')
 def exercise(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
@@ -258,7 +259,37 @@ def exercise(unit, exercise):
 
     is_feedback_box = not session.get('feedback_enabled')
 
-    return render_template("exercise/exercise.html",
+    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer)
+
+    if is_exercise_multiple_choice(unit, exercise) is True:
+        other_options = pick_other_options(unit, exercise, question_data)
+
+        other_question_text = [str(option["answer"]) for option in other_options]
+
+        options_text = shuffle_options(str(question_data["answer"]), other_question_text)
+
+        return render_template("exercise/exercise_multiple_choice.html",
+                               unit=unit,
+                               exercise=exercise,
+                               question_text=formatted_question,
+                               instruction_text=instruction,
+                               nr=question_data["Nr"],
+                               result=result,
+                               feedback_message=feedback_message,
+                               user_answer=user_answer,
+                               unit_page=UNIT_PAGE,
+                               title_page=TITLE_PAGE,
+                               back_page=BACK_BUTTON,
+                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               proverb=proverb,
+                               is_feedback_box=is_feedback_box,
+                               gender=gender,
+                               options=options_text,
+                               incorrect_question=incorrect_question,
+                               )
+
+    return render_template("exercise/exercise_input.html",
                            unit=unit,
                            exercise=exercise,
                            question_text=formatted_question,
@@ -275,6 +306,7 @@ def exercise(unit, exercise):
                            proverb=proverb,
                            is_feedback_box=is_feedback_box,
                            gender=gender,
+                           incorrect_question=incorrect_question,
                            )
 
 
@@ -290,7 +322,7 @@ def check_answer(unit, exercise):
     user_answer = request.form.get('answer', '')
     nr = request.form.get('nr')
 
-    data = load_data(unit, exercise)
+    data = load_data_exercise(unit, exercise)
 
     question_data = data[data["Nr"] == int(nr)].iloc[0]# .fillna("")
     correct_answer = question_data.get("answer", "")
@@ -333,7 +365,7 @@ def check_answer(unit, exercise):
 
     session.modified = True
 
-    session[f"feedback"] = {
+    session["feedback"] = {
         "result": "correct" if is_answer_correct else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
@@ -364,6 +396,7 @@ def exercise_feedback(unit, exercise):
         feedbacks = get_feedback_exercise(session, unit, exercise)
 
         register_result(session, unit, exercise, feedback)
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -417,7 +450,30 @@ def exercise_feedback(unit, exercise):
 
     is_feedback_box = True
 
-    return render_template("exercise/feedback.html",
+    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer)
+
+    if is_exercise_multiple_choice(unit, exercise) is True:
+
+        return render_template("exercise/feedback_multiple_choice.html",
+                               unit=unit,
+                               exercise=exercise,
+                               question_text=formatted_question,
+                               instruction_text=instruction,
+                               nr=question_data["Nr"],
+                               result=result,
+                               feedback_message=feedback_message,
+                               user_answer=user_answer,
+                               unit_page=UNIT_PAGE,
+                               title_page=TITLE_PAGE,
+                               back_page=BACK_BUTTON,
+                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               proverb=proverb,
+                               is_feedback_box=is_feedback_box,
+                               incorrect_question=incorrect_question,
+                               )
+
+    return render_template("exercise/feedback_input.html",
                            unit=unit,
                            exercise=exercise,
                            question_text=formatted_question,
@@ -433,6 +489,7 @@ def exercise_feedback(unit, exercise):
                            total_questions=compute_total_questions(unit, exercise=exercise),
                            proverb=proverb,
                            is_feedback_box=is_feedback_box,
+                           incorrect_question=incorrect_question,
                            )
 
 

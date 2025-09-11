@@ -1,6 +1,6 @@
 import pandas as pd
 
-from data.data_processing.data_loading import load_data
+from data.data_processing.data_loading import load_data_exercise
 
 from webapp.content.exercise.feedbacks import FEEDBACK
 from webapp.session_management.normalization import get_list_of_correct_answers
@@ -55,7 +55,7 @@ def get_feedback_exercise(session, unit, exercise):
     else:
         incorrect_ids = []
 
-    data = load_data(unit, exercise)
+    data = load_data_exercise(unit, exercise)
     data = data[data["Nr"].isin(incorrect_ids)]
     data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
     data = data.sort_values("Nr")

@@ -1,9 +1,12 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_kasus,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
-    trennbare_verben, verben, deverbale_nomen
+    trennbare_verben, verben,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
+
+    deverbale_nomen
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -14,9 +17,12 @@ guidance_praepositionen_grammatik_basic = (
     "For each question, you will be provided an incomplete German sentence and its English translation."
     "<br><br>Complete the German sentence with the preposition that fits."
    
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: an, auf, aus, bei, bis, durch, für, gegen, hinter, in, mit, nach, neben, ohne, seit, über, um, unter, von, vor, zu, zwischen."
-    f"<br><br>{ICON_WARN} The correct answer may include an article. In that case, both the form of the prepositional contraction (am, ans, vom, zur etc.) or the extended form (an dem etc.) are correct."
-    f"<br><br>{ICON_WARN} The absence of preposition may be the correct answer. In that case, leave the input block blank and click on the Submit button."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: an, auf, aus, bei, bis, durch,"
+    f" für, gegen, hinter, in, mit, nach, neben, ohne, seit, über, um, unter, von, vor, zu, zwischen."
+    f"<br><br>{ICON_WARN} The correct answer may include an article. In that case, both the form of the prepositional"
+    f" contraction (am, ans, vom, zur etc.) or the extended form (an dem etc.) are correct."
+    f"<br><br>{ICON_WARN} The absence of preposition may be the correct answer. In that case, leave the input block"
+    f" blank and click on the Submit button."
     
     "<h2>Example</h2>"
     "Ich habe _____ Montag Deutschunterricht."
@@ -30,7 +36,8 @@ guidance_praepositionen_grammatik_b1_isolation = (
     "For each question, you will be provided the English translation of a German preposition."
     "<br><br>Find the preposition that fits the English translation."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: ab, anstatt, außerhalb, durch, gegenüber, innerhalb, laut, trotz, während, wegen, zufolge."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: ab, anstatt, außerhalb, durch,"
+    f" gegenüber, innerhalb, laut, trotz, während, wegen, zufolge."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -45,7 +52,8 @@ guidance_praepositionen_grammatik_b1_sentences = (
     "For each question, you will be provided an incomplete German sentence and its English translation."
     "<br><br>Complete the German sentence with the preposition that fits."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: ab, anstatt, außerhalb, durch, gegenüber, innerhalb, laut, trotz, während, wegen, zufolge."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: ab, anstatt, außerhalb, durch,"
+    f" gegenüber, innerhalb, laut, trotz, während, wegen, zufolge."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -61,7 +69,8 @@ guidance_praepositionen_grammatik_b2_isolation = (
     "For each question, you will be provided the English translation of a German preposition."
     "<br><br>Find the preposition that fits the English translation."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: angesichts, anhand, außer, dank, entgegen, entlang, infolge, mangels, mithilfe, mittels."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: angesichts, anhand, außer, dank,"
+    f" entgegen, entlang, infolge, mangels, mithilfe, mittels."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -76,7 +85,8 @@ guidance_praepositionen_grammatik_b2_sentences = (
     "For each question, you will be provided an incomplete German sentence and its English translation."
     "<br><br>Complete the German sentence with the preposition that fits."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: angesichts, anhand, außer, dank, entgegen, entlang, infolge, mangels, mithilfe, mittels."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: angesichts, anhand, außer, dank,"
+    f" entgegen, entlang, infolge, mangels, mithilfe, mittels."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -92,7 +102,8 @@ guidance_praepositionen_grammatik_c1_1_isolation = (
     "For each question, you will be provided the English translation of a German preposition."
     "<br><br>Find the preposition that fits the English translation."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: einschließlich, im Gegensatz zu, inmitten, je nach, nebst, oberhalb, seitens, unterhalb, zusätzlich zu, zwecks."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: einschließlich, im Gegensatz zu,"
+    f" inmitten, je nach, nebst, oberhalb, seitens, unterhalb, zusätzlich zu, zwecks."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -107,7 +118,8 @@ guidance_praepositionen_grammatik_c1_1_sentences = (
     "For each question, you will be provided an incomplete German sentence and its English translation."
     "<br><br>Complete the German sentence with the preposition that fits."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: einschließlich, im Gegensatz zu, inmitten, je nach, nebst, oberhalb, seitens, unterhalb, zusätzlich zu, zwecks."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: einschließlich, im Gegensatz zu,"
+    f" inmitten, je nach, nebst, oberhalb, seitens, unterhalb, zusätzlich zu, zwecks."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -123,7 +135,8 @@ guidance_praepositionen_grammatik_c1_2_isolation = (
     "For each question, you will be provided the English translation of a German preposition."
     "<br><br>Find the preposition that fits the English translation."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: abzüglich, anlässlich, beiderseits, bezüglich, diesseits, jenseits, kraft, zugunsten, zuzüglich."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: abzüglich, anlässlich,"
+    f" beiderseits, bezüglich, diesseits, jenseits, kraft, zugunsten, zuzüglich."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -138,7 +151,8 @@ guidance_praepositionen_grammatik_c1_2_sentences = (
     "For each question, you will be provided an incomplete German sentence and its English translation."
     "<br><br>Complete the German sentence with the preposition that fits."
 
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: abzüglich, anlässlich, beiderseits, bezüglich, diesseits, jenseits, kraft, zugunsten, zuzüglich."
+    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: abzüglich, anlässlich,"
+    f" beiderseits, bezüglich, diesseits, jenseits, kraft, zugunsten, zuzüglich."
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
     f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     
@@ -273,7 +287,8 @@ guidance_pronomen_isolation = (
 
 guidance_pronomen_sentences = (
     "For each question, you will be provided a German sentence and its English translation."
-    "<br><br>The German sentence has a pronoun missing. Find the one that fits, taking into account the grammatical case (and the gender if applicable)."
+    "<br><br>The German sentence has a pronoun missing. Find the one that fits, taking into account the grammatical"
+    " case (and the gender if applicable)."
 
     "<h2>Example</h2>"
     "Heute bin _____ sehr müde."
@@ -282,7 +297,8 @@ guidance_pronomen_sentences = (
 )
 
 guidance_konnektoren_isolation = (
-    "For each question, you will be provided the English translation of a German connector and its grammatical type (conjuntion, subjunction, adverb)."
+    "For each question, you will be provided the English translation of a German connector and its grammatical"
+    " type (conjuntion, subjunction, adverb)."
     "<br><br>Find the German connector that corresponds to that translation and grammatical type."
 
     f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
@@ -313,7 +329,8 @@ guidance_konnektoren_sentences = (
 )
 
 guidance_konnektoren_synonyms = (
-    "For each question, you will be provided a German connector and its grammatical type (conjuntion, subjunction, adverb)."
+    "For each question, you will be provided a German connector and its grammatical type (conjuntion, subjunction,"
+    " adverb)."
     "<br><br>Find a synonym of that connector that has the same grammatical type."
 
     f"<br><br>{ICON_WARN} Do not write more than one synonym, or your answer will be flagged as false."
@@ -385,9 +402,193 @@ guidance_adverbien_sentences = (
     f"<br><br>{ICON_CROSS} fast, nahezu"
 )
 
+guidance_adverbien_hin_her_isolation = (
+    "For each question, you will be provided the English translation of a German adverb."
+    "<br><br>Find the German adverb in \"hin\" or \"her\" that corresponds to that translation."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "down, toward the speaker"
+    f"<br><br>{ICON_CHECK} herunter"
+    f"<br><br>{ICON_CHECK} runter"
+    f"<br><br>{ICON_CHECK} herab"
+    f"<br><br>{ICON_CROSS} herunter, herab"
+    f"<br><br>{ICON_CROSS} hinunter"
+)
+
+guidance_adverbien_hin_her_sentences = (
+    "For each question, you will be provided a German sentence and its English translation."
+    "<br><br>The German sentence has an adverb in \"hin\" or \"her\" missing. Find the one that fits."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "Er zog vorsichtig die alte Leiter _____, um sie zu reparieren."
+    "<br><br><i>He carefully pulled the old ladder down to repair it.</i>"
+    f"<br><br>{ICON_CHECK} herunter"
+    f"<br><br>{ICON_CHECK} runter"
+    f"<br><br>{ICON_CHECK} herab"
+    f"<br><br>{ICON_CROSS} herunter, herab"
+    f"<br><br>{ICON_CROSS} hinunter"
+)
+
+guidance_adverbien_einander_isolation = (
+    "For each question, you will be provided the English translation of a German adverb in \"einander\"."
+    "<br><br>Find the German adverb that corresponds to that translation."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    " Read carefully the entire translation."
+    
+    "<h2>Example</h2>"
+    "with each other, jointly"
+    f"<br><br>{ICON_CHECK} miteinander"
+    f"<br><br>{ICON_CROSS} nebeneinander"
+)
+
+guidance_adverbien_einander_sentences = (
+    "For each question, you will be provided a German sentence and its English translation."
+    "<br><br>The German sentence has an adverb in \"einander\" missing. Find the one that fits."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    " Read carefully the entire translation."
+    
+    "<h2>Example</h2>"
+    "Wir sollten offener _____ kommunizieren, um Missverständnisse zu vermeiden."
+    "<br><br><i>We should communicate more openly with each other to avoid misunderstandings.</i>"
+    f"<br><br>{ICON_CHECK} miteinander"
+    f"<br><br>{ICON_CROSS} nebeneinander"
+)
+
+guidance_adverbien_multiple_choices_english_to_german = (
+    "For each question, you will see the English translation of a German adjective and five German adverbs."
+    "<br>Select the German adverb that correspond to the English translation."
+    
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+
+    "<h2>Example</h2>"
+    "now and then, occasionally"
+    "<br>"
+    "<br>bisweilen"
+    "<br>ab und zu"
+    "<br>wütend"
+    "<br>unterwegs"
+    "<br>zum Abschluss"
+    f"<br><br>{ICON_CHECK} bisweilen"
+    f"<br>{ICON_CHECK} ab und zu"
+    f"<br>{ICON_CROSS} wütend"
+    f"<br>{ICON_CROSS} unterwegs"
+    f"<br>{ICON_CROSS} zum Abschluss"
+)
+
+guidance_adverbien_multiple_choices_german_to_english = (
+    "For each question, you will see a German adverb and five potential English translations."
+    "<br>Select the translation that correspond to the German adverb."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    " Read carefully the entire translation."
+    
+    "<h2>Example</h2>"
+    "wütend"
+    "<br>"
+    "<br>angrily, furiously"
+    "<br>now and then, occasionally"
+    "<br>on the way"
+    "<br>to conclude, in conclusion"
+    "<br>in any case, at least"
+    f"<br><br>{ICON_CHECK} angrily, furiously"
+)
+
+guidance_adjektive_isolation = (
+    "For each question, you will see the English translation of a German adjective."
+    "<br>Find the German adjective that correspond to the translation."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "cheap"
+    f"<br><br>{ICON_CHECK} billig"
+    f"<br><br>{ICON_CHECK} günstig"
+    f"<br><br>{ICON_CROSS} billig, günstig"
+)
+
+guidance_adjektive_opposite = (
+    "For each question, you will see a German adjective."
+    "<br>Write its opposite in German."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "teuer"
+    f"<br><br>{ICON_CHECK} billig"
+    f"<br><br>{ICON_CHECK} günstig"
+    f"<br><br>{ICON_CROSS} billig, günstig"
+)
+
+guidance_adjektive_comparative = (
+    "For each question, you will see a German adjective."
+    "<br>Write its comparative form."
+
+    "<h2>Example</h2>"
+    "alt"
+    f"<br><br>{ICON_CHECK} älter"
+)
+
+guidance_adjektive_superlative = (
+    "For each question, you will see a German adjective."
+    "<br>Write its superlative form."
+
+    "<h2>Example</h2>"
+    "alt"
+    f"<br><br>{ICON_CHECK} am ältesten"
+)
+
+guidance_adjektive_comparison_words = (
+    "For each question, you will be provided a German sentence and its English translation."
+    "<br><br>The German sentence has a comparison word missing. Find the one that fits."
+
+    "<h2>Example</h2>"
+    "Peter ist größer _____ sein Bruder."
+    "<br><br><i>Peter is taller than his brother.</i>"
+    f"<br><br>{ICON_CHECK} als"
+)
+
+guidance_adjektive_multiple_choices_english_to_german = (
+    "For each question, you will see the English translation of a German adjective and five German adjectives."
+    "<br>Select the German adjective that correspond to the English translation."
+
+    "<h2>Example</h2>"
+    "own"
+    "<br><br>eigen"
+    "<br>international"
+    "<br>europäisch"
+    "<br>tot"
+    "<br>einzeln"
+    f"<br><br>{ICON_CHECK} eigen"
+)
+
+guidance_adjektive_multiple_choices_german_to_english = (
+    "For each question, you will see a German adjective and five potential English translations."
+    "<br>Select the translation that correspond to the German adjective."
+
+    "<h2>Example</h2>"
+    "eigen"
+    "<br><br>own"
+    "<br>international"
+    "<br>European"
+    "<br>dead"
+    "<br>single, only"
+    f"<br><br>{ICON_CHECK} own"
+)
+
 guidance_adjektivdeklinationen_isolation = (
     "For each question, you will be provided a German phrase with a case and an adjective."
-    "<br><br>Complete the phrase with the declined adjective, taking into account the article, the gender of the noun and the grammatical case."
+    "<br><br>Complete the phrase with the declined adjective, taking into account the article,"
+    " the gender of the noun and the grammatical case."
 
     "<h2>Example</h2>"
     "ein _____ Vater \u25CF Nominativ \u25CF nett"
@@ -396,7 +597,8 @@ guidance_adjektivdeklinationen_isolation = (
 
 guidance_adjektivdeklinationen_sentences = (
     "For each question, you will be provided an incomplete German sentence and an adjective."
-    "<br><br>Complete the sentence with the adjective properly declined, taking into account the article, the gender of the noun and the grammatical case."
+    "<br><br>Complete the sentence with the adjective properly declined, taking into account the article,"
+    " the gender of the noun and the grammatical case."
 
     "<h2>Example</h2>"
     "Die _____ Kinder stellen viele Fragen. \u25CF klug"
@@ -408,7 +610,7 @@ guidance_trennbare_verben_root = (
     "<br><br>Find the German verb that correspond to the translation and root."
     
     f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
-    "Read carefully the entire translation."
+    " Read carefully the entire translation."
     f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
 
     "<h2>Example</h2>"
@@ -422,7 +624,7 @@ guidance_trennbare_verben_prefix = (
     "<br><br>Find the German verb that correspond to the translation and prefix."
 
     f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
-    "Read carefully the entire translation."
+    " Read carefully the entire translation."
     f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
 
     "<h2>Example</h2>"
@@ -435,13 +637,62 @@ guidance_trennbare_verben_no_help = (
     "<br><br>Find the German verb that correspond to the entire translation."
 
     f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
-    "Read carefully the entire translation."
+    " Read carefully the entire translation."
     f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
 
     "<h2>Example</h2>"
     "to get dressed, to put on, to dress someone, to attract, to pull"
     f"<br><br>{ICON_CHECK} anziehen"
 )
+
+guidance_verben_translation = (
+    "For each question, you will see the English translation of a German verb."
+    "<br>Find the German verb that correspond to the entire translation."
+    
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    f" Read carefully the entire translation."
+    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+    
+    "<h2>Example</h2>"
+    "to make glad, to be glad (refl.), to look forward (refl.)"
+    f"<br><br>{ICON_CHECK} freuen"
+    f"<br><br>{ICON_CROSS} sich freuen"
+)
+
+guidance_verben_multiple_choices_english_to_german = (
+    "For each question, you will see the English translation of a German verb and five German verbs."
+    "<br>Select the German verb that correspond to the entire translation."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    f" Read carefully the entire translation."
+
+    "<h2>Example</h2>"
+    "to replace, to substitute, to compensate for"
+    "<br><br>ersetzen"
+    "<br>leiden"
+    "<br>diskutieren"
+    "<br>rufen"
+    "<br>vorschlagen"
+    f"<br><br>{ICON_CHECK} ersetzen"
+)
+
+guidance_verben_multiple_choices_german_to_english = (
+    "For each question, you will see a German verb and five potential English translations."
+    "<br>Select the translation that correspond to the German verb."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    f" Read carefully the entire translations."
+
+    "<h2>Example</h2>"
+    "ersetzen"
+    "<br><br>to replace, to substitute, to compensate for"
+    "<br>to suffer, to endure, to bear"
+    "<br>to discuss, to debate"
+    "<br>to call, to shout, to summon"
+    "<br>to suggest, to propose"
+    f"<br><br>{ICON_CHECK} to replace, to substitute, to compensate for"
+)
+
 
 GUIDANCE_EXERCISE = {
 
@@ -699,22 +950,63 @@ GUIDANCE_EXERCISE = {
         27: guidance_adverbien_isolation,
         28: guidance_adverbien_sentences,
 
-        29: guidance_adverbien_isolation,
-        30: guidance_adverbien_sentences,
-        31: guidance_adverbien_isolation,
-        32: guidance_adverbien_sentences,
-        33: guidance_adverbien_isolation,
-        34: guidance_adverbien_sentences,
-        35: guidance_adverbien_isolation,
-        36: guidance_adverbien_sentences,
-        37: guidance_adverbien_isolation,
-        38: guidance_adverbien_sentences,
-        39: guidance_adverbien_isolation,
-        40: guidance_adverbien_sentences,
-        41: guidance_adverbien_isolation,
-        42: guidance_adverbien_sentences,
-        43: guidance_adverbien_isolation,
-        44: guidance_adverbien_sentences,
+        29: guidance_adverbien_hin_her_isolation,
+        30: guidance_adverbien_hin_her_sentences,
+        31: guidance_adverbien_einander_isolation,
+        32: guidance_adverbien_einander_sentences,
+        33: guidance_adverbien_multiple_choices_english_to_german,
+        34: guidance_adverbien_multiple_choices_german_to_english,
+        35: guidance_adverbien_multiple_choices_english_to_german,
+        36: guidance_adverbien_multiple_choices_german_to_english,
+        37: guidance_adverbien_multiple_choices_english_to_german,
+        38: guidance_adverbien_multiple_choices_german_to_english,
+        39: guidance_adverbien_multiple_choices_english_to_german,
+        40: guidance_adverbien_multiple_choices_german_to_english,
+        41: guidance_adverbien_multiple_choices_english_to_german,
+        42: guidance_adverbien_multiple_choices_german_to_english,
+        43: guidance_adverbien_multiple_choices_english_to_german,
+        44: guidance_adverbien_multiple_choices_german_to_english,
+    },
+
+    adjektive: {
+        1: guidance_adjektive_isolation,
+        2: guidance_adjektive_isolation,
+        3: guidance_adjektive_isolation,
+        4: guidance_adjektive_opposite,
+        5: guidance_adjektive_opposite,
+        6: guidance_adjektive_comparative,
+        7: guidance_adjektive_comparative,
+        8: guidance_adjektive_comparative,
+        9: guidance_adjektive_superlative,
+        10: guidance_adjektive_superlative,
+        11: guidance_adjektive_superlative,
+        12: guidance_adjektive_comparison_words,
+
+        13: guidance_adjektive_isolation,
+        14: guidance_adjektive_isolation,
+        15: guidance_adjektive_isolation,
+        16: guidance_adjektive_opposite,
+        17: guidance_adjektive_opposite,
+        18: guidance_adjektive_comparative,
+        19: guidance_adjektive_comparative,
+        20: guidance_adjektive_comparative,
+        21: guidance_adjektive_superlative,
+        22: guidance_adjektive_superlative,
+        23: guidance_adjektive_superlative,
+
+        24: guidance_adjektive_multiple_choices_german_to_english,
+        25: guidance_adjektive_multiple_choices_german_to_english,
+        26: guidance_adjektive_multiple_choices_german_to_english,
+        27: guidance_adjektive_multiple_choices_english_to_german,
+        28: guidance_adjektive_multiple_choices_english_to_german,
+        29: guidance_adjektive_multiple_choices_english_to_german,
+
+        30: guidance_adjektive_multiple_choices_german_to_english,
+        31: guidance_adjektive_multiple_choices_german_to_english,
+        32: guidance_adjektive_multiple_choices_german_to_english,
+        33: guidance_adjektive_multiple_choices_english_to_german,
+        34: guidance_adjektive_multiple_choices_english_to_german,
+        35: guidance_adjektive_multiple_choices_english_to_german,
     },
 
     adjektivdeklinationen: {
@@ -784,5 +1076,51 @@ GUIDANCE_EXERCISE = {
         29: guidance_trennbare_verben_no_help,
         30: guidance_trennbare_verben_no_help,
     },
+
+    verben: {
+        1: guidance_verben_translation,
+        2: guidance_verben_translation,
+        3: guidance_verben_translation,
+        4: guidance_verben_translation,
+        5: guidance_verben_translation,
+
+        6: guidance_verben_translation,
+        7: guidance_verben_translation,
+        8: guidance_verben_translation,
+        9: guidance_verben_translation,
+        10: guidance_verben_translation,
+
+        11: guidance_verben_multiple_choices_english_to_german,
+        12: guidance_verben_multiple_choices_english_to_german,
+        13: guidance_verben_multiple_choices_english_to_german,
+        14: guidance_verben_multiple_choices_english_to_german,
+        15: guidance_verben_multiple_choices_english_to_german,
+        16: guidance_verben_multiple_choices_german_to_english,
+        17: guidance_verben_multiple_choices_german_to_english,
+        18: guidance_verben_multiple_choices_german_to_english,
+        19: guidance_verben_multiple_choices_german_to_english,
+        20: guidance_verben_multiple_choices_german_to_english,
+
+        21: guidance_verben_multiple_choices_english_to_german,
+        22: guidance_verben_multiple_choices_english_to_german,
+        23: guidance_verben_multiple_choices_english_to_german,
+        24: guidance_verben_multiple_choices_english_to_german,
+        25: guidance_verben_multiple_choices_english_to_german,
+        26: guidance_verben_multiple_choices_english_to_german,
+        27: guidance_verben_multiple_choices_english_to_german,
+        28: guidance_verben_multiple_choices_english_to_german,
+        29: guidance_verben_multiple_choices_english_to_german,
+        30: guidance_verben_multiple_choices_english_to_german,
+        31: guidance_verben_multiple_choices_german_to_english,
+        32: guidance_verben_multiple_choices_german_to_english,
+        33: guidance_verben_multiple_choices_german_to_english,
+        34: guidance_verben_multiple_choices_german_to_english,
+        35: guidance_verben_multiple_choices_german_to_english,
+        36: guidance_verben_multiple_choices_german_to_english,
+        37: guidance_verben_multiple_choices_german_to_english,
+        38: guidance_verben_multiple_choices_german_to_english,
+        39: guidance_verben_multiple_choices_german_to_english,
+        40: guidance_verben_multiple_choices_german_to_english,
+    }
 
 }

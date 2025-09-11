@@ -1,9 +1,11 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_kasus,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
-    trennbare_verben, verben, deverbale_nomen,
+    trennbare_verben, verben,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    deverbale_nomen,
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -127,16 +129,4 @@ GUIDANCE_UNIT = {
         "freuen"
         f"<br><br>{ICON_CHECK} freuend"
         f"<br><br>{ICON_CROSS} sich freuend",
-
-    verben:
-        "For each question, you will see the English translation of a German verb."
-        "<br>Find the German verb that correspond to the entire translation."
-        
-        f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise. Read carefully the entire translation."
-        f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
-            
-        "<h2>Example</h2>"
-        "to make glad, to be glad (refl.), to look forward (refl.)"
-        f"<br><br>{ICON_CHECK} freuen"
-        f"<br><br>{ICON_CROSS} sich freuen",
 }

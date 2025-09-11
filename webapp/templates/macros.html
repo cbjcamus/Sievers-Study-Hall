@@ -83,7 +83,7 @@
     </script>
 {% endmacro %}
 
-{% macro render_feedback(unit, exercise, is_feedback_box, result, feedback_message, user_answer) %}
+{% macro render_feedback(unit, exercise, is_feedback_box, result, feedback_message, user_answer, incorrect_question) %}
 
     {% if is_feedback_box and result %}
         {% if result == 'correct' %}
@@ -105,7 +105,7 @@
                 {% if feedback_message %}
                     <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
-                <p class="feedback-message">Your answer: {{ user_answer }}</p>
+                <p class="feedback-message">Your answer: {{ user_answer }} {{ incorrect_question }}</p>
 
                 <div class="flag-form-container">
                     <form action="{{ url_for('routes.flag_question', unit=unit, exercise=exercise, feedback_message=feedback_message, user_answer=user_answer, result='Incorrect') }}" method="post" class="flag-form">

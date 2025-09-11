@@ -35,60 +35,42 @@
     {% endif %}
 
     <div class="exercise-container">
-
         {% if question_text %}
             <div class="question-container">
                 <p>{{ question_text | safe }}</p>
             </div>
         {% endif %}
 
-        <form action="{{ url_for('routes.check_answer', unit=unit, exercise=exercise) }}" method="post">
-            <input type="text" id="answer" name="answer" class="input-box" placeholder="Enter answer here" autocomplete="off">
-            <input type="hidden" name="nr" value="{{ nr }}">
-
-            <div class="special-chars">
-                <br>
-                <button type="button" onclick="insertChar('ü')">ü</button>
-                <button type="button" onclick="insertChar('ö')">ö</button>
-                <button type="button" onclick="insertChar('ä')">ä</button>
-                <button type="button" onclick="insertChar('ß')">ß</button>
-            </div>
-
-        <script>
-            function insertChar(char) {
-                const input = document.getElementById('answer');
-                const start = input.selectionStart;
-                const end = input.selectionEnd;
-                const text = input.value;
-                input.value = text.slice(0, start) + char + text.slice(end);
-                input.focus();
-                input.setSelectionRange(start + 1, start + 1);
-            }
-        </script>
-
-        <button type="submit" id="submit-button" class="submit-button" >Submit</button>
-
-        </form>
-
-        {% if gender %}
-            <script>
-                function toggleGenderHelp() {
-                    const tooltip = document.getElementById("gender-tooltip");
-                    tooltip.style.display = tooltip.style.display === "none" ? "block" : "none";
-                }
-            </script>
-
-            <div class="gender-help-container">
-                <button type="button" id="gender-help-button" class="gender-help-button" onclick="toggleGenderHelp()" title="Get a guidance for the gender">m/f/n</button>
-                <div id="gender-tooltip" class="gender-tooltip" style="display: none;">
-                    {{ gender }}
-                </div>
-            </div>
+        {% if user_answer %}
+            <p>
+                <input type="text" class="readonly-input" value="{{ user_answer }}" readonly>
+            </p>
         {% endif %}
 
+        <p>
+            <a href="{{ url_for('routes.exercise', unit=unit, exercise=exercise) }}" class="next-question-button">Next Question</a>
+        </p>
+
+        <script>
+            document.addEventListener("keydown", function(event) {
+                if (event.key === "Enter") {
+                    const nextBtn = document.querySelector(".next-question-button");
+                    if (nextBtn && !document.getElementById("answer")) {
+                        event.preventDefault();
+                        nextBtn.click();
+                    }
+                }
+            });
+        </script>
     </div>
 
-    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, user_answer) }}
+    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, user_answer, incorrect_question) }}
+
+    <div class="question-count">
+        <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
+        {{ answered_questions }}/{{ total_questions }} <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
+        </form>
+    </div>
 
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
@@ -105,12 +87,6 @@
             <p>{{ proverb | safe }}</p>
         </div>
     {% endif %}
-
-    <div class="question-count">
-        <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
-        {{ answered_questions }}/{{ total_questions }} <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
-        </form>
-    </div>
 
     <div class="back-button-container">
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>

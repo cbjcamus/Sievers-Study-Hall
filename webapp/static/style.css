@@ -309,6 +309,27 @@ body.day-mode .submit-button {
     border: 1px solid black;
 }
 
+.option-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 7.5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+body.day-mode .option-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .next-button-container {
     display: flex;
     justify-content: center;

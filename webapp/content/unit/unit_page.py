@@ -2,9 +2,9 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     deverbale_nomen
 )
 
@@ -22,6 +22,12 @@ UNIT_PAGE = {
     fragen: "/fragen",
     adverbien: "/adverbien",
 
+    adjektive: "/adjektive",
+    adjektivdeklinationen: "/adjektivdeklinationen",
+
+    trennbare_verben: "/trennbare_verben",
+    verben: "/verben",
+
     praesens: "/praesens",
     imperativ: "/imperativ",
     partizip_II: "/partizip_II",
@@ -30,12 +36,6 @@ UNIT_PAGE = {
     konjunktiv_II: "/konjunktiv_II",
     konjunktiv_I: "/konjunktiv_I",
     partizip_I: "/partizip_I",
-
-    adjektive: "/adjektive",
-    adjektivdeklinationen: "/adjektivdeklinationen",
-
-    trennbare_verben: "/trennbare_verben",
-    verben: "/verben",
 
     deverbale_nomen: "/deverbale_substantive",
 }

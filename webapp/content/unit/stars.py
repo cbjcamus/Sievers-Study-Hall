@@ -1,9 +1,10 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_kasus,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     deverbale_nomen
 )
 
@@ -22,6 +23,12 @@ STARS = {
     fragen: f"",
     adverbien: f"",
 
+    adjektive: f"",
+    adjektivdeklinationen: f"",
+
+    trennbare_verben: f"{STAR_GOLD}",
+    verben: f"{STAR_GOLD}",
+
     praesens: f"",
     imperativ: f"",
     partizip_II: f"",
@@ -30,12 +37,6 @@ STARS = {
     konjunktiv_II: f"",
     konjunktiv_I: f"",
     partizip_I: f"",
-
-    adjektive: f"",
-    adjektivdeklinationen: f"",
-
-    trennbare_verben: f"{STAR_GOLD}",
-    verben: f"{STAR_GOLD}",
 
     deverbale_nomen: "",
     }

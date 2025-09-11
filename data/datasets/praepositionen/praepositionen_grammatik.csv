@@ -486,10 +486,10 @@ Nr,exercise,question,answer,german,english,explanation,case
 485,12,Bitte beantworten Sie die E-Mail _____ von 24 Stunden.,innerhalb,Bitte beantworten Sie die E-Mail innerhalb von 24 Stunden.,Please reply to the email within 24 hours.,"inside of, within = innerhalb + Gen.",
 486,12,_____ der Schule gibt es strenge Regeln für die Nutzung von Handys.,Innerhalb,Innerhalb der Schule gibt es strenge Regeln für die Nutzung von Handys.,"Inside the school, there are strict rules for the use of mobile phones.","inside of, within = innerhalb + Gen.",
 487,12,_____ der Zeitung wird das Wetter morgen sonnig.,Laut,Laut der Zeitung wird das Wetter morgen sonnig.,"According to the newspaper, the weather will be sunny tomorrow.",according to = laut + Gen.,
-488,12,_____ dem Lehrer müssen wir das Buch bis nächste Woche lesen.,Laut,Laut dem Lehrer müssen wir das Buch bis nächste Woche lesen.,"According to the teacher, we have to read the book by next week.",according to = laut + Gen.,
+488,12,_____ des Lehrers müssen wir das Buch bis nächste Woche lesen.,Laut,Laut des Lehrers müssen wir das Buch bis nächste Woche lesen.,"According to the teacher, we have to read the book by next week.",according to = laut + Gen.,
 489,12,_____ einer Studie trinken Deutsche viel Kaffee.,Laut,Laut einer Studie trinken Deutsche viel Kaffee.,"According to a study, Germans drink a lot of coffee.",according to = laut + Gen.,
-490,12,_____ den Regeln ist das Rauchen hier verboten.,Laut,Laut den Regeln ist das Rauchen hier verboten.,"According to the rules, smoking is prohibited here.",according to = laut + Gen.,
-491,12,_____ meinem Freund ist das Restaurant sehr gut.,Laut,Laut meinem Freund ist das Restaurant sehr gut.,"According to my friend, the restaurant is very good.",according to = laut + Gen.,
+490,12,_____ der Regeln ist das Rauchen hier verboten.,Laut,Laut der Regeln ist das Rauchen hier verboten.,"According to the rules, smoking is prohibited here.",according to = laut + Gen.,
+491,12,_____ meines Freundes ist das Restaurant sehr gut.,Laut,Laut meines Freundes ist das Restaurant sehr gut.,"According to my friend, the restaurant is very good.",according to = laut + Gen.,
 492,12,_____ des Regens gingen wir spazieren.,Trotz,Trotz des Regens gingen wir spazieren.,"Despite the rain, we went for a walk.","despite, regardless of = trotz + Gen.",
 493,12,Er bestand die Prüfung _____ seiner Nervosität.,trotz,Er bestand die Prüfung trotz seiner Nervosität.,He passed the exam despite his nervousness.,"despite, regardless of = trotz + Gen.",
 494,12,_____ des schlechten Wetters fand das Konzert draussen statt.,Trotz,Trotz des schlechten Wetters fand das Konzert draussen statt.,"Despite the bad weather, the concert took place outside.","despite, regardless of = trotz + Gen.",
@@ -791,38 +791,56 @@ Nr,exercise,question,answer,german,english,explanation,case
 790,100,,von wegen,,,,
 791,100,,an statt,,,,
 792,100,,auf hin,,,,
-793,101,"excluding, apart from",ausschließlich,,,"excluding, apart from = ausschließlich",Genitive
-794,101,_____ des Vorstands traf niemand eine Entscheidung über das Projekt.,Ausschließlich,Ausschließlich des Vorstands traf niemand eine Entscheidung über das Projekt.,"Except for the board, no one made a decision about the project.","excluding, apart from = ausschließlich",
-795,101,Die Nutzung des Parkplatzes ist _____ der Belegschaft vorbehalten.,ausschließlich,Die Nutzung des Parkplatzes ist ausschließlich der Belegschaft vorbehalten.,The use of the parking lot is reserved exclusively for the staff.,"excluding, apart from = ausschließlich",
-796,101,_____ der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,Ausschließlich,Ausschließlich der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,"Apart from the costs for accommodation and meals, all expenses were reimbursed.","excluding, apart from = ausschließlich",
-797,101,Der Zugang zu den Daten bleibt _____ der Geschäftsleitung vorbehalten.,ausschließlich,Der Zugang zu den Daten bleibt ausschließlich der Geschäftsleitung vorbehalten.,Access to the data remains exclusively reserved for management.,"excluding, apart from = ausschließlich",
-798,101,_____ der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,Ausschließlich,Ausschließlich der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,A new strategy was developed solely based on scientific findings.,"excluding, apart from = ausschließlich",
-799,102,Ich kaufe mein Brot _____ der Bäckerei.,bei,Ich kaufe mein Brot bei der Bäckerei.,I buy my bread at the bakery.,to indicate a position in and with an institution → bei + Dat.,
-800,102,Wir wohnen _____ der Schule.,bei,Wir wohnen bei der Schule.,We live near the school.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-801,102,Das Restaurant ist _____ der Kirche.,bei,Das Restaurant ist bei der Kirche.,The restaurant is near the church.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-802,102,Potsdam liegt _____ Berlin.,bei,Potsdam liegt bei Berlin.,Potsdam is near Berlin.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-803,102,Meine Mutter ist _____ Friseur.,beim,Meine Mutter ist beim Friseur.,My mother is at the hairdresser.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-804,102,Sie trifft sich mit mir _____ der Statue.,bei,Sie trifft sich mit mir bei der Statue.,She's meeting me by the statue.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-805,110,from ... on,ab,,,,Dative
-806,110,"on, to, next to, attached to",an,,,,Accusative or Dative
-807,110,"on, upon",auf,,,,Accusative or Dative
-808,110,"from, out of, off",aus,,,,Dative
-809,110,"at, near, by, in the vicinity of, among, upon",bei,,,,Dative
-810,110,"until, up to, by, to",bis,,,,Accusative
-811,110,for,für,,,,Accusative
-812,110,"against, for, toward",gegen,,,,Accusative
-813,110,behind,hinter,,,,Accusative or Dative
-814,110,"in, into",in,,,,Accusative or Dative
-815,110,with,mit,,,,Dative
-816,110,"after, to, in the direction of",nach,,,,Dative
-817,110,"next to, in addition to, besides, alongside",neben,,,,Accusative or Dative
-818,110,without,ohne,,,,Accusative
-819,110,per,pro,,,,Accusative
-820,110,"since, for",seit,,,,Dative
-821,110,"above, over, about, across, via, beyond",über,,,,Accusative or Dative
-822,110,"around, at",um,,,,Accusative
-823,110,"under, below, among, between, amid",unter,,,,Accusative or Dative
-824,110,"from, of",von,,,,Dative
-825,110,"before, in front of, ago, against",vor,,,,Accusative or Dative
-826,110,"to, toward, at, by",zu,,,,Dative
-827,110,"between, among",zwischen,,,,Accusative or Dative
+793,100,im Rahmen as part of,,,,,
+794,100,im Laufe (von / des) – “in the course of / over the span of”,,,,,
+795,100,im Hinblick auf – “with regard to / concerning”,,,,,
+796,100,im Zusammenhang mit – “in connection with”,,,,,
+797,100,im Auftrag von – “on behalf of”,,,,,
+798,100,im Interesse von – “in the interest of”,,,,,
+799,100,in Bezug auf – “in relation to / regarding”,,,,,
+800,100,in Folge (+ Gen.) – “as a result of”,,,,,
+801,100,in Anbetracht (+ Gen.) – “in view of / considering”,,,,,
+802,100,auf Grund / aufgrund (+ Gen.) – “because of / due to”,,,,,
+803,100,auf Kosten (+ Gen.) – “at the expense of”,,,,,
+804,100,auf Seiten (+ Gen.) – “on the side of”,,,,,
+805,100,unter Berücksichtigung (+ Gen.) – “taking into account”,,,,,
+806,100,unter Leitung (+ Gen.) – “under the leadership of”,,,,,
+807,100,bei Gelegenheit (+ Gen.) – “on the occasion of / when the chance arises”,,,,,
+808,100,von Seiten (+ Gen.) – “on the part of”,,,,,
+809,100,an Stelle (+ Gen.) – “in place of”,,,,,
+810,100,aus Mangel an (+ Dat.) – “for lack of”,,,,,
+811,101,"excluding, apart from",ausschließlich,,,"excluding, apart from = ausschließlich",Genitive
+812,101,_____ des Vorstands traf niemand eine Entscheidung über das Projekt.,Ausschließlich,Ausschließlich des Vorstands traf niemand eine Entscheidung über das Projekt.,"Except for the board, no one made a decision about the project.","excluding, apart from = ausschließlich",
+813,101,Die Nutzung des Parkplatzes ist _____ der Belegschaft vorbehalten.,ausschließlich,Die Nutzung des Parkplatzes ist ausschließlich der Belegschaft vorbehalten.,The use of the parking lot is reserved exclusively for the staff.,"excluding, apart from = ausschließlich",
+814,101,_____ der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,Ausschließlich,Ausschließlich der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,"Apart from the costs for accommodation and meals, all expenses were reimbursed.","excluding, apart from = ausschließlich",
+815,101,Der Zugang zu den Daten bleibt _____ der Geschäftsleitung vorbehalten.,ausschließlich,Der Zugang zu den Daten bleibt ausschließlich der Geschäftsleitung vorbehalten.,Access to the data remains exclusively reserved for management.,"excluding, apart from = ausschließlich",
+816,101,_____ der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,Ausschließlich,Ausschließlich der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,A new strategy was developed solely based on scientific findings.,"excluding, apart from = ausschließlich",
+817,102,Ich kaufe mein Brot _____ der Bäckerei.,bei,Ich kaufe mein Brot bei der Bäckerei.,I buy my bread at the bakery.,to indicate a position in and with an institution → bei + Dat.,
+818,102,Wir wohnen _____ der Schule.,bei,Wir wohnen bei der Schule.,We live near the school.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+819,102,Das Restaurant ist _____ der Kirche.,bei,Das Restaurant ist bei der Kirche.,The restaurant is near the church.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+820,102,Potsdam liegt _____ Berlin.,bei,Potsdam liegt bei Berlin.,Potsdam is near Berlin.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+821,102,Meine Mutter ist _____ Friseur.,beim,Meine Mutter ist beim Friseur.,My mother is at the hairdresser.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+822,102,Sie trifft sich mit mir _____ der Statue.,bei,Sie trifft sich mit mir bei der Statue.,She's meeting me by the statue.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+823,110,from ... on,ab,,,,Dative
+824,110,"on, to, next to, attached to",an,,,,Accusative or Dative
+825,110,"on, upon",auf,,,,Accusative or Dative
+826,110,"from, out of, off",aus,,,,Dative
+827,110,"at, near, by, in the vicinity of, among, upon",bei,,,,Dative
+828,110,"until, up to, by, to",bis,,,,Accusative
+829,110,for,für,,,,Accusative
+830,110,"against, for, toward",gegen,,,,Accusative
+831,110,behind,hinter,,,,Accusative or Dative
+832,110,"in, into",in,,,,Accusative or Dative
+833,110,with,mit,,,,Dative
+834,110,"after, to, in the direction of",nach,,,,Dative
+835,110,"next to, in addition to, besides, alongside",neben,,,,Accusative or Dative
+836,110,without,ohne,,,,Accusative
+837,110,per,pro,,,,Accusative
+838,110,"since, for",seit,,,,Dative
+839,110,"above, over, about, across, via, beyond",über,,,,Accusative or Dative
+840,110,"around, at",um,,,,Accusative
+841,110,"under, below, among, between, amid",unter,,,,Accusative or Dative
+842,110,"from, of",von,,,,Dative
+843,110,"before, in front of, ago, against",vor,,,,Accusative or Dative
+844,110,"to, toward, at, by",zu,,,,Dative
+845,110,"between, among",zwischen,,,,Accusative or Dative

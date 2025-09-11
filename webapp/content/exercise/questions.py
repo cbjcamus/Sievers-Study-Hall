@@ -1,9 +1,11 @@
 from data.data_processing.units import (
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, praepositionen_kasus,
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_kasus,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
     adjektive, adjektivdeklinationen,
-    trennbare_verben, verben, deverbale_nomen
+    trennbare_verben, verben,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
+    deverbale_nomen
 )
 
 # bullet point \u25CF
@@ -412,23 +414,195 @@ QUESTION = {
         32: "{question}"
             "<br><br><i>{english}</i>",
         33: "{question}",
-        34: "{question}"
-            "<br><br><i>{english}</i>",
+        34: "{question}",
         35: "{question}",
-        36: "{question}"
-            "<br><br><i>{english}</i>",
+        36: "{question}",
         37: "{question}",
-        38: "{question}"
-            "<br><br><i>{english}</i>",
+        38: "{question}",
         39: "{question}",
-        40: "{question}"
-            "<br><br><i>{english}</i>",
+        40: "{question}",
         41: "{question}",
-        42: "{question}"
-            "<br><br><i>{english}</i>",
+        42: "{question}",
         43: "{question}",
-        44: "{question}"
+        44: "{question}",
+    },
+
+    adjektive: {
+        1: "{question}",
+        2: "{question}",
+        3: "{question}",
+        4: "{question}",
+        5: "{question}",
+        6: "{question}"
+           "<br><br><i>{english}</i>",
+        7: "{question}"
+           "<br><br><i>{english}</i>",
+        8: "{question}"
+           "<br><br><i>{english}</i>",
+        9: "{question}"
+           "<br><br><i>{english}</i>",
+        10: "{question}"
+           "<br><br><i>{english}</i>",
+        11: "{question}"
             "<br><br><i>{english}</i>",
+        12: "{question}"
+            "<br><br><i>{english}</i>",
+
+        13: "{question}",
+        14: "{question}",
+        15: "{question}",
+        16: "{question}",
+        17: "{question}",
+        18: "{question}"
+           "<br><br><i>{english}</i>",
+        19: "{question}"
+           "<br><br><i>{english}</i>",
+        20: "{question}"
+           "<br><br><i>{english}</i>",
+        21: "{question}"
+           "<br><br><i>{english}</i>",
+        22: "{question}"
+            "<br><br><i>{english}</i>",
+        23: "{question}"
+            "<br><br><i>{english}</i>",
+
+        24: "{question}",
+        25: "{question}",
+        26: "{question}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+
+        30: "{question}",
+        31: "{question}",
+        32: "{question}",
+        33: "{question}",
+        34: "{question}",
+        35: "{question}",
+    },
+
+    adjektivdeklinationen: {
+        1: "{question} \u25CF {case} \u25CF {adjective}",
+        2: "{question} \u25CF {adjective}",
+        3: "{question} \u25CF {case} \u25CF {adjective}",
+        4: "{question} \u25CF {adjective}",
+        5: "{question} \u25CF {case} \u25CF {adjective}",
+        6: "{question} \u25CF {adjective}",
+        7: "{question} \u25CF {case} \u25CF {adjective}",
+        8: "{question} \u25CF {adjective}",
+        9: "{question} \u25CF {case} \u25CF {adjective}",
+        10: "{question} \u25CF {adjective}",
+        11: "{question} \u25CF {adjective}",
+        12: "{question} \u25CF {adjective}",
+
+        13: "{question} \u25CF {case} \u25CF {adjective}",
+        14: "{question} \u25CF {adjective}",
+        15: "{question} \u25CF {case} \u25CF {adjective}",
+        16: "{question} \u25CF {adjective}",
+        17: "{question} \u25CF {case} \u25CF {adjective}",
+        18: "{question} \u25CF {adjective}",
+
+        19: "{question} \u25CF {case} \u25CF {adjective}",
+        20: "{question} \u25CF {adjective}",
+        21: "{question} \u25CF {case} \u25CF {adjective}",
+        22: "{question} \u25CF {adjective}",
+
+        23: "{question} \u25CF {case} \u25CF {adjective}",
+        24: "{question} \u25CF {adjective}",
+        25: "{question} \u25CF {case} \u25CF {adjective}",
+        26: "{question} \u25CF {adjective}",
+    },
+
+    trennbare_verben: {
+        1: "{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
+        2: "{question} \u25CF {prefix}",
+        3: "{question}",
+
+        4: "{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
+        5: "{question} \u25CF {prefix}",
+        6: "{question}",
+
+        7: "{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
+        8: "{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
+        9: "{english} &#8594; {german}"
+           "<br><br>{question} &#8594; _____ ",
+        10: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        11: "{question} \u25CF {prefix}",
+        12: "{question} \u25CF {prefix}",
+        13: "{question} \u25CF {prefix}",
+        14: "{question} \u25CF {prefix}",
+        15: "{question}",
+        16: "{question}",
+        17: "{question}",
+        18: "{question}",
+
+        19: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        20: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        21: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        22: "{english} &#8594; {german}"
+            "<br><br>{question} &#8594; _____ ",
+        23: "{question} \u25CF {prefix}",
+        24: "{question} \u25CF {prefix}",
+        25: "{question} \u25CF {prefix}",
+        26: "{question} \u25CF {prefix}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+        30: "{question}",
+    },
+
+    verben: {
+        1: "{question}",
+        2: "{question}",
+        3: "{question}",
+        4: "{question}",
+        5: "{question}",
+
+        6: "{question}",
+        7: "{question}",
+        8: "{question}",
+        9: "{question}",
+        10: "{question}",
+
+        11: "{question}",
+        12: "{question}",
+        13: "{question}",
+        14: "{question}",
+        15: "{question}",
+        16: "{question}",
+        17: "{question}",
+        18: "{question}",
+        19: "{question}",
+        20: "{question}",
+
+        21: "{question}",
+        22: "{question}",
+        23: "{question}",
+        24: "{question}",
+        25: "{question}",
+        26: "{question}",
+        27: "{question}",
+        28: "{question}",
+        29: "{question}",
+        30: "{question}",
+        31: "{question}",
+        32: "{question}",
+        33: "{question}",
+        34: "{question}",
+        35: "{question}",
+        36: "{question}",
+        37: "{question}",
+        38: "{question}",
+        39: "{question}",
+        40: "{question}",
     },
 
     praesens: {
@@ -620,136 +794,6 @@ QUESTION = {
         3: "{question}",
         4: "{question}",
         5: "{question}",
-    },
-
-    adjektive: {
-        1: "{question}",
-        2: "{question}",
-        3: "{question}",
-        4: "{question}"
-           "<br><br><i>{english}</i>",
-        5: "{question}"
-           "<br><br><i>{english}</i>",
-        6: "{question}"
-           "<br><br><i>{english}</i>",
-        7: "{question}"
-           "<br><br><i>{english}</i>",
-        8: "{question}"
-           "<br><br><i>{english}</i>",
-    },
-
-    adjektivdeklinationen: {
-        1: "{question} \u25CF {case} \u25CF {adjective}",
-        2: "{question} \u25CF {adjective}",
-        3: "{question} \u25CF {case} \u25CF {adjective}",
-        4: "{question} \u25CF {adjective}",
-        5: "{question} \u25CF {case} \u25CF {adjective}",
-        6: "{question} \u25CF {adjective}",
-        7: "{question} \u25CF {case} \u25CF {adjective}",
-        8: "{question} \u25CF {adjective}",
-        9: "{question} \u25CF {case} \u25CF {adjective}",
-        10: "{question} \u25CF {adjective}",
-        11: "{question} \u25CF {adjective}",
-        12: "{question} \u25CF {adjective}",
-
-        13: "{question} \u25CF {case} \u25CF {adjective}",
-        14: "{question} \u25CF {adjective}",
-        15: "{question} \u25CF {case} \u25CF {adjective}",
-        16: "{question} \u25CF {adjective}",
-        17: "{question} \u25CF {case} \u25CF {adjective}",
-        18: "{question} \u25CF {adjective}",
-
-        19: "{question} \u25CF {case} \u25CF {adjective}",
-        20: "{question} \u25CF {adjective}",
-        21: "{question} \u25CF {case} \u25CF {adjective}",
-        22: "{question} \u25CF {adjective}",
-
-        23: "{question} \u25CF {case} \u25CF {adjective}",
-        24: "{question} \u25CF {adjective}",
-        25: "{question} \u25CF {case} \u25CF {adjective}",
-        26: "{question} \u25CF {adjective}",
-    },
-
-    trennbare_verben: {
-        1: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        2: "{question} \u25CF {prefix}",
-        3: "{question}",
-
-        4: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        5: "{question} \u25CF {prefix}",
-        6: "{question}",
-
-        7: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        8: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        9: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        10: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        11: "{question} \u25CF {prefix}",
-        12: "{question} \u25CF {prefix}",
-        13: "{question} \u25CF {prefix}",
-        14: "{question} \u25CF {prefix}",
-        15: "{question}",
-        16: "{question}",
-        17: "{question}",
-        18: "{question}",
-
-        19: "{english} &#8594; {german}"
-           "<br><br>{question} &#8594; _____ ",
-        20: "{english} &#8594; {german}"
-            "<br><br>{question} &#8594; _____ ",
-        21: "{english} &#8594; {german}"
-            "<br><br>{question} &#8594; _____ ",
-        22: "{english} &#8594; {german}"
-            "<br><br>{question} &#8594; _____ ",
-        23: "{question} \u25CF {prefix}",
-        24: "{question} \u25CF {prefix}",
-        25: "{question} \u25CF {prefix}",
-        26: "{question} \u25CF {prefix}",
-        27: "{question}",
-        28: "{question}",
-        29: "{question}",
-        30: "{question}",
-    },
-
-    verben: {
-        1: "{question}",
-        2: "{question}",
-        3: "{question}",
-        4: "{question}",
-        5: "{question}",
-
-        6: "{question}",
-        7: "{question}",
-        8: "{question}",
-        9: "{question}",
-        10: "{question}",
-
-        11: "{question}",
-        12: "{question}",
-        13: "{question}",
-        14: "{question}",
-        15: "{question}",
-        16: "{question}",
-        17: "{question}",
-        18: "{question}",
-        19: "{question}",
-        20: "{question}",
-
-        21: "{question}",
-        22: "{question}",
-        23: "{question}",
-        24: "{question}",
-        25: "{question}",
-        26: "{question}",
-        27: "{question}",
-        28: "{question}",
-        29: "{question}",
-        30: "{question}",
     },
 
     deverbale_nomen: {

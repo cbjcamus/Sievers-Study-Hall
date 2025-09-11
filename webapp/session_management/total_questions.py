@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 from data.data_processing.paths import DATA_PATH
-from data.data_processing.data_loading import load_data
+from data.data_processing.data_loading import load_data_exercise
 
 
 def compute_total_questions(unit, exercise=None):
@@ -21,13 +21,13 @@ def compute_total_questions(unit, exercise=None):
         int: The total number of questions.
     """
     if exercise is not None:
-        data = load_data(unit, exercise)
+        data = load_data_exercise(unit, exercise)
         total_questions = len(data)
 
     else:
         total_questions = 0
         for exercise in range(0, compute_highest_exercise(unit) + 1):
-            data = load_data(unit, exercise)
+            data = load_data_exercise(unit, exercise)
             total_questions = total_questions + len(data)
 
     return total_questions
