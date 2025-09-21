@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_kasus,
+    praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
@@ -14,7 +14,7 @@ TEMPLATE_PATH = {
     praepositionen_adjektive: "praepositionen/praepositionen_adjektive.html",
     praepositionen_nomen: "praepositionen/praepositionen_nomen.html",
     praepositionen_adverbien: "praepositionen/praepositionen_adverbien.html",
-    praepositionen_kasus: "praepositionen/praepositionen_kasus.html",
+    praepositionen_artikel: "praepositionen/praepositionen_artikel.html",
 
     artikel: "grammatik/artikel.html",
     pronomen: "grammatik/pronomen.html",

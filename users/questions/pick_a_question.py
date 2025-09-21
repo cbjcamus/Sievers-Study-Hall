@@ -1,8 +1,11 @@
 import random
 
+from flask_login import current_user
+
 from data.data_processing.data_loading import load_data_exercise, load_data_level, is_exercise_multiple_choice
 
-from webapp.session_management.verification_session import is_key_in_exercise, init_session_key
+from users.progress.models import UserExerciseState
+from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 
 def pick_a_question(session, unit, exercise):
@@ -24,9 +27,28 @@ def pick_a_question(session, unit, exercise):
     """
     data = load_data_exercise(unit, exercise)
 
-    init_session_key(session, unit, exercise, 'progress')
-    answered_nrs = session[unit][str(exercise)]['progress']
-    filtered_data = data[~data["Nr"].astype(str).isin(answered_nrs)]
+    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
+    ex_str = str(ex_int)
+
+    # ------------------------------------------------------------------
+    # Logged-in: filter with DB state
+    # ------------------------------------------------------------------
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id, unit=unit, exercise=ex_int
+        ).first()
+
+        correct_nrs = set()
+        if row and row.state:
+            # prefer "correct_nrs" (Nr-based); fallback to empty
+            correct_nrs = set(map(int, row.state.get("correct_nrs", [])))
+
+        filtered_data = data[~data["Nr"].astype(int).isin(correct_nrs)]
+
+    else:
+        init_session_key(session, unit, exercise, 'progress')
+        answered_nrs = session[unit][str(exercise)]['progress']
+        filtered_data = data[~data["Nr"].astype(str).isin(answered_nrs)]
 
     if filtered_data.empty:
         return None
@@ -81,6 +103,16 @@ def is_exercise_finished(session, unit, exercise):
     Returns:
         bool: True if the exercise is complete, False otherwise.
     """
+    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
+    ex_str = str(ex_int)
+
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id, unit=unit, exercise=ex_int
+        ).first()
+        if row and row.completed_at:
+            return True
+
     if is_key_in_exercise(session, unit, exercise, 'progress'):
         data = load_data_exercise(unit, exercise)
 

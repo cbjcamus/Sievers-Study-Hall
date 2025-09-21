@@ -1,12 +1,12 @@
 import os
 
 from data.data_processing.units import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
-                                            praepositionen_nomen, praepositionen_adverbien, praepositionen_kasus,
-                                            artikel, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
-                                            praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
-                                            konjunktiv_II, konjunktiv_I, partizip_I,
-                                            verben, trennbare_verben, adjektive, deverbale_nomen,
-                                            )
+                                        praepositionen_nomen, praepositionen_adverbien, praepositionen_artikel,
+                                        artikel, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
+                                        praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
+                                        konjunktiv_II, konjunktiv_I, partizip_I,
+                                        verben, trennbare_verben, adjektive, deverbale_nomen,
+                                        )
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -17,7 +17,7 @@ DATA_PATH = {
     praepositionen_adjektive: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_adjektive.csv"),
     praepositionen_nomen: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_nomen.csv"),
     praepositionen_adverbien: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_adverbien.csv"),
-    praepositionen_kasus: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_kasus.csv"),
+    praepositionen_artikel: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_artikel.csv"),
 
     artikel: os.path.join(BASE_DIR, "datasets/grammatik", "artikel.csv"),
     pronomen: os.path.join(BASE_DIR, "datasets/grammatik", "pronomen.csv"),

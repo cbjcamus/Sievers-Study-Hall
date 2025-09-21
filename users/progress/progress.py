@@ -1,5 +1,9 @@
-from webapp.session_management.total_questions import compute_total_questions, compute_highest_exercise
-from webapp.session_management.verification_session import is_key_in_exercise
+from flask_login import current_user
+
+from users.progress.models import UserExerciseState
+
+from users.questions.total_questions import compute_total_questions, compute_highest_exercise
+from users.session_management.verification_session import is_key_in_exercise
 
 
 def compute_answered_questions(session, unit, exercise=None):
@@ -68,6 +72,37 @@ def compute_answered_questions_exercise(session, unit, exercise):
     Returns:
         int: The number of answered questions for the exercise.
     """
+
+    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
+    ex_str = str(ex_int)
+
+    # DB-first path for authenticated users
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id, unit=unit, exercise=ex_int
+        ).first()
+        if not row or not row.state:
+            return 0
+
+        s = row.state or {}
+        finished = ("score" in s) or ("result" in s) or (row.completed_at is not None)
+
+        if finished:
+            # Prefer stored total; otherwise compute from CSV
+            total = s.get("total_questions")
+            if total is None:
+                total = compute_total_questions(unit, ex_int)
+            return int(total or 0)
+
+        # Not finished → number of correct so far
+        if "correct_nrs" in s:
+            return len(s["correct_nrs"])
+        elif "correct_ids" in s:  # backward compat
+            return len(s["correct_ids"])
+        elif "answered" in s:
+            return int((s["answered"] or {}).get("correct", 0))
+        return 0
+
     if is_key_in_exercise(session, unit, exercise, 'result'):
         return compute_total_questions(unit, exercise=exercise)
 

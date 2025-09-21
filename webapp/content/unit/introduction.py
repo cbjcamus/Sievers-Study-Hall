@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_kasus,
+    praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
@@ -24,7 +24,7 @@ INTRODUCTION = {
         "<br><br>Verb's and Adjective's younger brother. The annoying one.",
     praepositionen_adverbien:
         "Just kidding it doesn't exist.",
-    praepositionen_kasus:
+    praepositionen_artikel:
         "All the questions come from other Präpositionen exercises and updated to practice cases following prepositions."
         "<br><br>Reminder:"
         "<br>&bull; Followed by Accusative: Bis, Durch, Für, Ohne, Gegen, Um"

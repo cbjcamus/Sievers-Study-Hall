@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_kasus,
+    praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
@@ -108,7 +108,7 @@ DESCRIPTION = {
         16: "C1 Noun-Preposition pairs in sentences",
     },
 
-    praepositionen_kasus: {
+    praepositionen_artikel: {
         1: "Articles and Pronouns from Präpositionen in sentences",
         2: "Articles and Pronouns from Präpositionen in sentences",
         3: "Articles and Pronouns from Präpositionen in sentences",

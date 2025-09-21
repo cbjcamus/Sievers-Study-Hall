@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Settings</title>
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+<body>
+
+{% from "macros.html" import render_title with context %}
+
+    {{ render_title("Settings") }}
+
+    <div class="section">
+        <h2>Theme</h2>
+        <table class="settings-table">
+            <tr>
+                <td>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </td>
+                <td>Day mode</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Intermediate feedback page</h2>
+        <table class="settings-table">
+            <tr>
+                <td>
+                    <label class="switch">
+                        <input type="checkbox" id="intermediate-feedback-page-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </td>
+                <td>Add an intermediate feedback page after submitting an answer</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Account</h2>
+        <form method="post" action="{{ url_for('routes.signout') }}">
+            <button type="submit" class="button">Sign out</button>
+        </form>
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+    <script src="/webapp/static/toggleIntermediatePage.js"></script>
+</body>
+</html>

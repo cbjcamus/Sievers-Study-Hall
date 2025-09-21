@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_kasus,
+    praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben,
@@ -13,7 +13,7 @@ BACK_BUTTON = {
     praepositionen_verben: "Präpositionen – Verben",
     praepositionen_adjektive: "Präpositionen – Adjektive",
     praepositionen_nomen: "Präpositionen – Nomen",
-    praepositionen_kasus: "Präpositionen – Kasus",
+    praepositionen_artikel: "Präpositionen – Artikel",
 
     artikel: "Artikel",
     pronomen: "Pronomen",

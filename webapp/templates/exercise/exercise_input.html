@@ -21,7 +21,7 @@
     </script>
 </head>
 
-{% from "macros.html" import render_title %}
+{% from "macros.html" import render_title with context %}
 {% from "macros.html" import render_feedback %}
 
 <body>
@@ -115,12 +115,6 @@
     <div class="back-button-container">
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>
     </div>
-
-    {% if session.get('progress_deleted') %}
-        <script>
-            alert("Progress for {{ title_page[session['progress_deleted']['unit']] }}, exercise {{ session['progress_deleted']['exercise'] }} was deleted due to session size.\n\nTo conserve your progress, finish your exercises.");
-        </script>
-    {% endif %}
 
     <script src="/webapp/static/toggleDayMode.js"></script>
 </body>

@@ -1,10 +1,10 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_kasus,
+    praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,  konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     deverbale_nomen
 )
 
@@ -155,7 +155,7 @@ QUESTION = {
             "<br><br><i>{english}</i>",
     },
 
-    praepositionen_kasus: {
+    praepositionen_artikel: {
         1: "{question}"
             "<br><br><i>{english}</i>",
         2: "{question}"

@@ -1,144 +1,46 @@
-from flask import Blueprint, render_template, session, request, redirect, url_for, flash, jsonify, Response
+from flask import render_template, session, request, redirect, url_for, flash, jsonify
+from flask_login import current_user
 from typing import cast
 
-session = cast(dict, session)
+from . import routes_bp
 
-from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
 
-from webapp.session_management.score import write_score
-from webapp.session_management.logging import log_question_flagged, log_progress_deleted_from_session
-from webapp.session_management.progress import compute_answered_questions
-from webapp.session_management.print_session import session_size, print_complete_session
-from webapp.session_management.normalization import get_list_of_correct_answers, is_user_answer_correct
-from webapp.session_management.total_questions import compute_total_questions, compute_highest_exercise
-from webapp.session_management.pick_a_question import (pick_a_question, is_exercise_finished, pick_other_options,
-                                                       shuffle_options, get_question_from_incorrect_answer)
-from webapp.session_management.register_update import (register_progress, register_false, register_result,
-                                                       register_user_incorrect_answer)
-from webapp.session_management.verification_session import init_session_key, is_key_in_exercise
-from webapp.session_management.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
+from users.users.models import db
+from users.progress.models import UserExerciseState
 
-from webapp.content.unit.stars import STARS
+from users.progress.score import write_score
+from users.session_management.logging import log_question_flagged
+from users.progress.progress import compute_answered_questions
+from users.questions.normalization import get_list_of_correct_answers, is_user_answer_correct
+from users.questions.total_questions import compute_total_questions
+from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, pick_other_options,
+                                             shuffle_options, get_question_from_incorrect_answer)
+from users.progress.register_update import (register_progress, register_result,
+                                            register_incorrect_answer)
+from users.session_management.verification_session import init_session_key
+from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
+
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.back_button import BACK_BUTTON
-from webapp.content.unit.introduction import INTRODUCTION
-from webapp.content.unit.template_path import TEMPLATE_PATH
 from webapp.content.unit.guidance_unit import GUIDANCE_UNIT
 from webapp.content.exercise.feedbacks import FEEDBACK
 from webapp.content.exercise.questions import QUESTION
 from webapp.content.exercise.instructions import INSTRUCTION
-from webapp.content.exercise.descriptions import DESCRIPTION
 from webapp.content.exercise.guidance_exercise import GUIDANCE_EXERCISE
 
-from webapp.style.icons import STAR_GOLD
-
-routes = Blueprint("routes", __name__)
+session = cast(dict, session)
 
 
-@routes.before_request
-def ensure_session_keys_exist_and_make_session_permanent():
-    session.permanent = True
-
-    if 'unfinished_exercise' not in session:
-        session['unfinished_exercise'] = []
-
-    # print_complete_session(session)
-    # print(f"Session size: {session_size(session)} bytes")
-    # session.clear()
-
-
-@routes.before_request
-def delete_old_unfinished_exercise():
-    if session_size(session) > 3500:
-        unit, exercise = session['unfinished_exercise'][0]
-        if unit in session and str(exercise) in session[unit]:
-            log_progress_deleted_from_session(unit, exercise)
-            del session[unit][str(exercise)]
-
-        session['unfinished_exercise'].remove((unit, exercise))
-        session['progress_deleted'] = {'unit': unit, 'exercise': exercise}
-        print(f"Progress deleted for {unit} {exercise}")
-
-
-@routes.after_request
-def clear_progress_deleted_flag(response):
-    session.pop('progress_deleted', None)
-    return response
-
-
-@routes.after_request
-def clear_empty_unit_dictionary(response):
-    if session_size(session) > 2000:
-        for unit in units:
-            for exercise in range(compute_highest_exercise(unit)):
-                if (is_key_in_exercise(session, unit, exercise, 'falses')
-                        and is_key_in_exercise(session, unit, exercise, 'progress')):
-                    if (len(session[unit][str(exercise)]['falses']) == 0
-                            and len(session[unit][str(exercise)]['progress']) == 0):
-                        unit_dict = session.get(unit, {})
-                        unit_dict.pop(str(exercise), None)
-                        session[unit] = unit_dict
-    return response
-
-
-@routes.route('/', endpoint='home')
-def home():
-    return render_template('home.html',
-                           answered_questions=compute_answered_questions,
-                           total_questions=compute_total_questions,
-                           score=write_score,
-                           explanation=INTRODUCTION,
-                           title_page=TITLE_PAGE,
-                           button_unit=TITLE_PAGE,
-                           unit_page=UNIT_PAGE,
-                           unit_stars=STARS,
-                           STAR_GOLD=STAR_GOLD,
-                           )
-
-
-@routes.route('/settings', endpoint='settings')
-def settings():
-    return render_template('menu/settings.html',
-                           )
-
-
-@routes.route('/contact', endpoint='contact')
-def contact():
-    return render_template('menu/contact.html',
-                           )
-
-
-for unit in units:
-    route_path = UNIT_PAGE[unit]
-    template = TEMPLATE_PATH[unit]
-
-    def make_route(unit=unit, template=template):
-        endpoint_name = f'dynamic_route_{unit}'
-        @routes.route(route_path, endpoint=endpoint_name)
-        def dynamic_route():
-            introduction = INTRODUCTION.get(unit, {})
-            return render_template(template,
-                                   answered_questions=compute_answered_questions,
-                                   total_questions=compute_total_questions,
-                                   score=write_score,
-                                   introduction=introduction,
-                                   description_templates=DESCRIPTION,
-                                   )
-        return dynamic_route
-
-    make_route()
-
-
-@routes.route('/guidance/unit/<unit>/exercise/<int:exercise>')
+@routes_bp.route('/guidance/unit/<unit>/exercise/<int:exercise>')
 def guidance(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
-        feedback = session.pop(f"feedback", None)
-        result = feedback["result"] if feedback else None
-        feedback_message = feedback["feedback_message"] if feedback else None
-        user_answer = feedback["user_answer"] if feedback else None
+        feedback = session.pop("feedback", None) or {}
+        result = feedback.get("result")
+        feedback_message = feedback.get("feedback_message")
+        user_answer = feedback.get("user_answer")
 
         incorrect_answers, number_of_incorrect_answers= get_incorrect_answers(session, unit, exercise)
 
@@ -193,13 +95,13 @@ def guidance(unit, exercise):
                                 exercise=exercise))
 
 
-@routes.route('/unit/<unit>/exercise/<int:exercise>')
+@routes_bp.route('/unit/<unit>/exercise/<int:exercise>')
 def exercise(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
-        feedback = session.pop(f"feedback", None)
-        result = feedback["result"] if feedback else None
-        feedback_message = feedback["feedback_message"] if feedback else None
-        user_answer = feedback["user_answer"] if feedback else None
+        feedback = session.pop("feedback", None) or {}
+        result = feedback.get("result")
+        feedback_message = feedback.get("feedback_message")
+        user_answer = feedback.get("user_answer")
 
         incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
 
@@ -250,10 +152,10 @@ def exercise(unit, exercise):
         explanation=explanation,
     )
 
-    feedback = session.pop(f"feedback", None)
-    result = feedback["result"] if feedback else None
-    feedback_message = feedback["feedback_message"] if feedback else None
-    user_answer = feedback["user_answer"] if feedback else None
+    feedback = session.pop("feedback", None) or {}
+    result = feedback.get("result")
+    feedback_message = feedback.get("feedback_message")
+    user_answer = feedback.get("user_answer")
 
     proverb = get_text_proverb()
 
@@ -310,7 +212,7 @@ def exercise(unit, exercise):
                            )
 
 
-@routes.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
+@routes_bp.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
 def check_answer(unit, exercise):
 
     init_session_key(session, unit, exercise, 'progress')
@@ -360,8 +262,8 @@ def check_answer(unit, exercise):
     if is_answer_correct:
         register_progress(session, unit, exercise, nr)
     elif nr not in session[unit][str(exercise)]['falses']:
-        register_false(session, unit, exercise, nr)
-        register_user_incorrect_answer(session, unit, exercise, user_answer)
+        # register_false(session, unit, exercise, nr)
+        register_incorrect_answer(session, unit, exercise, nr, user_answer)
 
     session.modified = True
 
@@ -383,13 +285,13 @@ def check_answer(unit, exercise):
                                 exercise=exercise))
 
 
-@routes.route('/feedback/unit/<unit>/exercise/<int:exercise>')
+@routes_bp.route('/feedback/unit/<unit>/exercise/<int:exercise>')
 def exercise_feedback(unit, exercise):
     if is_exercise_finished(session, unit, exercise) is True:
-        feedback = session.pop(f"feedback", None)
-        result = feedback["result"] if feedback else None
-        feedback_message = feedback["feedback_message"] if feedback else None
-        user_answer = feedback["user_answer"] if feedback else None
+        feedback = session.pop("feedback", None) or {}
+        result = feedback.get("result")
+        feedback_message = feedback.get("feedback_message")
+        user_answer = feedback.get("user_answer")
 
         incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
 
@@ -441,10 +343,10 @@ def exercise_feedback(unit, exercise):
         explanation=explanation,
     )
 
-    feedback = session.pop(f"feedback", None)
-    result = feedback["result"] if feedback else None
-    feedback_message = feedback["feedback_message"] if feedback else None
-    user_answer = feedback["user_answer"] if feedback else None
+    feedback = session.pop("feedback", None) or {}
+    result = feedback.get("result")
+    feedback_message = feedback.get("feedback_message")
+    user_answer = feedback.get("user_answer")
 
     proverb = get_text_proverb()
 
@@ -493,9 +395,19 @@ def exercise_feedback(unit, exercise):
                            )
 
 
-@routes.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
+@routes_bp.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
 def reset_exercise(unit, exercise):
     """Clears progress for a specific unit exercise and removes any stored feedback."""
+
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id, unit=unit, exercise=int(exercise)
+        ).first()
+        if row:
+            # Remove any stored result and JSON state by deleting the row
+            db.session.delete(row)
+            db.session.commit()
+
     unit_dict = session.get(unit, {})
     unit_dict.pop(str(exercise), None)
     session[unit] = unit_dict
@@ -514,7 +426,7 @@ def reset_exercise(unit, exercise):
         return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
 
-@routes.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])
+@routes_bp.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])
 def flag_question(unit, exercise):
     feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
     user_answer = request.args.get('user_answer') or request.form.get('user_answer')
@@ -528,48 +440,14 @@ def flag_question(unit, exercise):
     return redirect(request.referrer)
 
 
-@routes.route('/set-feedback-toggle', methods=['POST'])
+@routes_bp.route('/set-feedback-toggle', methods=['POST'])
 def set_feedback_toggle():
     data = request.get_json()
     session['feedback_enabled'] = data.get('feedback_enabled', False)
     return '', 204
 
 
-@routes.route('/get-feedback-toggle')
+@routes_bp.route('/get-feedback-toggle')
 def get_feedback_toggle():
     enabled = session.get('feedback_enabled', False)
     return jsonify({'feedback_enabled': enabled})
-
-
-@routes.route('/robots.txt')
-def robots_txt():
-    return Response(
-        "User-agent: *\nDisallow:\nSitemap: https://www.sieversstudyhall.com/sitemap.xml",
-        mimetype='text/plain'
-    )
-
-
-@routes.route('/sitemap.xml')
-def sitemap():
-    from flask import Response, url_for
-    import datetime
-
-    pages = []
-    today = datetime.date.today().isoformat()
-
-    # Static routes
-    pages.append({'loc': url_for('home', _external=True), 'lastmod': today})
-    pages.append({'loc': url_for('settings', _external=True), 'lastmod': today})
-    pages.append({'loc': url_for('contact', _external=True), 'lastmod': today})
-
-    # Dynamic unit routes
-    for unit in units:
-        endpoint = f'dynamic_route_{unit}'
-        try:
-            loc = url_for(endpoint, _external=True)
-            pages.append({'loc': loc, 'lastmod': today})
-        except:
-            pass  # In case the endpoint wasn't properly registered
-
-    sitemap_xml = render_template('sitemap_template.xml', pages=pages)
-    return Response(sitemap_xml, mimetype='application/xml')

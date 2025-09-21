@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_kasus,
+    praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
@@ -13,7 +13,7 @@ from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 # bullet point \u25CF
 
 GUIDANCE_UNIT = {
-    praepositionen_kasus:
+    praepositionen_artikel:
         "For each question, you will be provided an incomplete German sentence and its English translation."
         "<br><br>Complete the German sentence with the article or pronoun that fits."
 

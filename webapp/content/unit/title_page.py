@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_kasus,
+    praepositionen_adverbien, praepositionen_artikel,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     artikel, pronomen, konnektoren, fragen, adverbien,
@@ -14,7 +14,7 @@ TITLE_PAGE = {
     praepositionen_adjektive: "Präpositionen – Adjektive",
     praepositionen_nomen: "Präpositionen – Nomen",
     praepositionen_adverbien: "Präpositionen – Adverbien",
-    praepositionen_kasus: "Präpositionen – Kasus",
+    praepositionen_artikel: "Präpositionen – Artikel",
 
     artikel: "Artikel",
     pronomen: "Pronomen",

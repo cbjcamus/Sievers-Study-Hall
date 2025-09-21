@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Sievers Study Hall – Sign in</title>
+    <meta name="description" content="Sign in to save your German practice progress.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+<body>
+
+{% from "macros.html" import render_title with context %}
+
+    {{ render_title("Sievers Study Hall") }}
+
+    {% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+            <div class="flashes">
+                {% for category, message in messages %}
+                    <p class="flash {{ category }}">{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <h2>Sign in</h2>
+
+    <form method="post" action="{{ url_for('routes.signin', next=request.args.get('next')) }}" autocomplete="off">
+        <label for="email">Email</label>
+        <br>
+        <input id="email" name="email" type="email" class="input-authorization" required autofocus>
+        <br><br>
+        <label for="password">Password</label>
+        <br>
+        <input id="password" name="password" type="password" class="input-authorization" required>
+        <br><br>
+        <label><input type="checkbox" name="remember"> Remember me</label>
+        <br><br>
+        <button type="submit" class="button">Sign in</button>
+    </form>
+
+    <p>No account yet? <a href="{{ url_for('routes.signup') }}">Create one</a>.</p>
+
+    <div class="home-button-container">
+        <a href="/" class="button">Home</a>
+    </div>
+
+</body>
+</html>

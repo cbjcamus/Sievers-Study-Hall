@@ -1,5 +1,8 @@
-from webapp.session_management.total_questions import compute_highest_exercise, compute_total_questions
-from webapp.session_management.verification_session import is_key_in_exercise, init_session_key
+from flask_login import current_user
+
+from users.progress.models import UserExerciseState
+from users.questions.total_questions import compute_highest_exercise, compute_total_questions
+from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 
 def write_score(session, unit, exercise=None):
@@ -93,14 +96,60 @@ def compute_score_exercise(session, unit, exercise):
     Returns:
         float or None: The score as a float between 0 and 1, or None if no data is available.
     """
-    if is_key_in_exercise(session, unit, exercise, 'result'):
-        return session[unit][str(exercise)]['result']
+    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
+    ex_str = str(ex_int)
 
-    elif is_key_in_exercise(session, unit, exercise, 'progress'):
-        trues, falses = compute_trues_and_falses(session, unit, exercise)
-        return compute_ratio_correct_answers(trues, falses)
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id, unit=unit, exercise=ex_int
+        ).first()
+        if not row or not row.state:
+            return None
+
+        s = row.state or {}
+        finished = ("score" in s) or ("result" in s) or (row.completed_at is not None)
+
+        if finished:
+            # Prefer explicit stored score/result
+            if "score" in s:
+                try:
+                    return float(s["score"])
+                except (TypeError, ValueError):
+                    return None
+            if "result" in s:
+                try:
+                    return float(s["result"])
+                except (TypeError, ValueError):
+                    return None
+            # Fallback if no score key but IDs exist (rare)
+            correct = len(s.get("correct_ids", []))
+            total = s.get("total_questions")
+            if total is None:
+                total = compute_total_questions(unit, ex_int)
+            return (correct / total) if total else None
+
+        # Not finished → compute from JSON state (answered so far)
+        if "answered" in s:
+            correct = int(s["answered"].get("correct", 0))
+            incorrect = int(s["answered"].get("incorrect", 0))
+            denom = correct + incorrect
+            return (correct / denom) if denom else None
+
+        if "correct_nrs" in s or "incorrect" in s:
+            correct = len(s.get("correct_nrs") or [])
+            incorrect = len((s.get("incorrect") or {}).keys())
+            denom = correct + incorrect
+            return (correct / denom) if denom else None
+
     else:
-        return None
+        if is_key_in_exercise(session, unit, exercise, 'result'):
+            return session[unit][str(exercise)]['result']
+
+        elif is_key_in_exercise(session, unit, exercise, 'progress'):
+            trues, falses = compute_trues_and_falses(session, unit, exercise)
+            return compute_ratio_correct_answers(trues, falses)
+        else:
+            return None
 
 
 def compute_ratio_correct_answers(trues, falses):
@@ -139,18 +188,52 @@ def compute_trues_and_falses(session, unit, exercise):
     Returns:
         tuple: A pair (trues, falses) representing the number of correct and incorrect answers.
     """
-    if is_key_in_exercise(session, unit, exercise, 'result'):
-        result_exercise = session[unit][str(exercise)]['result']
-        trues = result_exercise * compute_total_questions(unit, exercise=exercise)
-        falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
 
-    elif is_key_in_exercise(session, unit, exercise, 'progress'):
-        init_session_key(session, unit, exercise, 'falses')
-        trues = len( set(session[unit][str(exercise)]['progress']) - set(session[unit][str(exercise)]['falses']) )
-        falses = len(session[unit][str(exercise)]['falses'])
+    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
+    ex_str = str(ex_int)
+
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id, unit=unit, exercise=ex_int
+        ).first()
+
+        if not row or not row.state:
+            return 0, 0
+
+        state = row.state or {}
+
+        # Prefer cached score/result if present
+        if "score" in state or "result" in state:
+            try:
+                score = float(state.get("score", state.get("result", 0.0)) or 0.0)
+            except (TypeError, ValueError):
+                score = 0.0
+            total = state.get("total_questions")
+            if total is None:
+                total = compute_total_questions(unit, ex_int)
+            total = int(total or 0)
+            trues = int(round(score * total))
+            falses = max(total - trues, 0)
+            return trues, falses
+
+        # Otherwise derive from per-question state
+        trues = len(state.get("correct_nrs") or state.get("correct_ids") or [])
+        falses = len((state.get("incorrect") or {}).keys())
+        return trues, falses
 
     else:
-        trues = 0
-        falses = 0
-    return trues, falses
+        if is_key_in_exercise(session, unit, exercise, 'result'):
+            result_exercise = session[unit][str(exercise)]['result']
+            trues = result_exercise * compute_total_questions(unit, exercise=exercise)
+            falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
+
+        elif is_key_in_exercise(session, unit, exercise, 'progress'):
+            init_session_key(session, unit, exercise, 'falses')
+            trues = len( set(session[unit][str(exercise)]['progress']) - set(session[unit][str(exercise)]['falses']) )
+            falses = len(session[unit][str(exercise)]['falses'])
+
+        else:
+            trues = 0
+            falses = 0
+        return trues, falses
 

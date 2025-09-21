@@ -8,7 +8,7 @@
 </head>
 <body>
 
-{% from "macros.html" import render_title %}
+{% from "macros.html" import render_title with context %}
 {% from "macros.html" import render_unit_table_row %}
 
     {{ render_title("Sievers Study Hall") }}
@@ -17,7 +17,7 @@
         <h2>Recent Updates</h2>
         <ul>
             <li>Multiple-choice exercises in <a href="https://www.sieversstudyhall.com/verben" target="_blank">Verben</a>, <a href="https://www.sieversstudyhall.com/adjektive" target="_blank">Adjektive</a>, and <a href="https://www.sieversstudyhall.com/adverbien" target="_blank">Adverbien</a>.</li>
-            <li>Präpositionen – Kasus: new unit to practice cases following prepositions.</li>
+            <li>Präpositionen – Artikel: new unit to practice cases following prepositions.</li>
             <li>General: new help button to get an indication on the gender of a noun preceding the article, pronoun or adjective to be completed.</li>
             <li>Präpositionen: I've rebuilt the unit with an enhanced structure and additional feedback.</li>
         </ul>
@@ -44,7 +44,7 @@
             {{ render_unit_table_row("praepositionen_adjektive", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
             {{ render_unit_table_row("praepositionen_nomen", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
             {{ render_unit_table_row("praepositionen_adverbien", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praepositionen_kasus", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
+            {{ render_unit_table_row("praepositionen_artikel", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
         </table>
     </div>
 

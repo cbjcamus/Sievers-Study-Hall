@@ -1,6 +1,6 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_kasus,
+    praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
@@ -216,7 +216,7 @@ FEEDBACK = {
             "<br><br>Correct answer(s): {correct_answers}",
     },
 
-    praepositionen_kasus: {
+    praepositionen_artikel: {
         1: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{case}, {gender} → {correct_answers}",

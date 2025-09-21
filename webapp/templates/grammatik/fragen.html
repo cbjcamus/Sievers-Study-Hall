@@ -7,8 +7,8 @@
     {{ header() }}
 </head>
 
+{% from "macros.html" import render_title with context %}
 {% from "macros.html" import render_exercise_table_row %}
-{% from "macros.html" import render_title %}
 
 <body>
     {{ render_title("Fragen") }}

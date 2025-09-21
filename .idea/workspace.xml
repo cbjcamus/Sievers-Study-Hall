@@ -5,7 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="September 11">
+      <change afterPath="$PROJECT_DIR$/users/progress/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/progress/register_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/progress/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/session_management/print_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/routes/authorization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/routes/background.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/routes/exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/authorization/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/authorization/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/menu/settings_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sievers_Study_Hall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sievers_Study_Hall.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/units.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/units.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/levels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/levels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_kasus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_artikel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/guidance_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/guidance_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/back_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/back_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/guidance_unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/guidance_unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/introduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/stars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/template_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/template_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/title_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/title_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/unit_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/unit_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/feedback_exercise_completed.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/feedback_exercise_completed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/session_management/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/pick_a_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/pick_a_question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/print_session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/progress.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/progress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/register_update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/total_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/total_questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/session_management/verification_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/session_management/verification_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/adjektive/adjektivdeklinationen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/adjektive/adjektivdeklinationen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/adjektive/adjektive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/adjektive/adjektive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_multiple_choice.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_multiple_choice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback_multiple_choice.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback_multiple_choice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/artikel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/fragen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/fragen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/konnektoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/konnektoren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/pronomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/pronomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/imperativ.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/imperativ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_I.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/konjunktiv_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_I.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/partizip_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/praesens.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/praesens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum_partizip_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/konjugation/praeteritum_partizip_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adjektive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adjektive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_grammatik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_kasus.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_artikel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_nomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_nomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/praepositionen/praepositionen_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/verben/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben/trennbare_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/verben/verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/verben/verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/wortschatz/deverbale_substantive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/wortschatz/deverbale_substantive.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,63 +135,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Python.access_counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.artikel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.combine_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.delete_scores.executor&quot;: &quot;Run&quot;,
-    &quot;Python.deutschtrainer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.former_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.level1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.local.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.normalization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.objects.executor&quot;: &quot;Run&quot;,
-    &quot;Python.perfekt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.personal_pronomen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.praepositionen_konjugation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.praeteritum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prateritum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proverbs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.question_templates.executor&quot;: &quot;Run&quot;,
-    &quot;Python.relativesaetze.executor&quot;: &quot;Run&quot;,
-    &quot;Python.score.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.session_.executor&quot;: &quot;Run&quot;,
-    &quot;Python.startpage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.statistics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.verben.executor&quot;: &quot;Run&quot;,
-    &quot;Python.verben_praepositionen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.webapp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.widgets.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/exercise&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.Unnamed.executor": "Run",
+    "Python.access_counter.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.artikel.executor": "Run",
+    "Python.combine_csv.executor": "Run",
+    "Python.delete_scores.executor": "Run",
+    "Python.deutschtrainer.executor": "Run",
+    "Python.former_app.executor": "Run",
+    "Python.graphs.executor": "Run",
+    "Python.level1.executor": "Run",
+    "Python.local.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.normalization.executor": "Run",
+    "Python.objects.executor": "Run",
+    "Python.perfekt.executor": "Run",
+    "Python.personal_pronomen.executor": "Run",
+    "Python.praepositionen_konjugation.executor": "Run",
+    "Python.praeteritum.executor": "Run",
+    "Python.prateritum.executor": "Run",
+    "Python.proverbs.executor": "Run",
+    "Python.question_templates.executor": "Run",
+    "Python.relativesaetze.executor": "Run",
+    "Python.score.executor": "Debug",
+    "Python.session_.executor": "Run",
+    "Python.startpage.executor": "Run",
+    "Python.statistics.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.verben.executor": "Run",
+    "Python.verben_praepositionen.executor": "Run",
+    "Python.webapp.executor": "Run",
+    "Python.widgets.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/menu",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/templates/menu" />
+      <recent name="$PROJECT_DIR$/webapp" />
       <recent name="$PROJECT_DIR$/webapp/templates/exercise" />
       <recent name="$PROJECT_DIR$/webapp/content/unit" />
       <recent name="$PROJECT_DIR$/webapp/templates/praepositionen" />
-      <recent name="$PROJECT_DIR$/webapp/content/exercise" />
-      <recent name="$PROJECT_DIR$/webapp/templates/adjektive" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/users/progress" />
+      <recent name="$PROJECT_DIR$/users/questions" />
+      <recent name="$PROJECT_DIR$/users" />
       <recent name="$PROJECT_DIR$/private/count_ips/logs" />
       <recent name="$PROJECT_DIR$/webapp/templates/adjektive" />
-      <recent name="$PROJECT_DIR$/data/datasets/adjektive" />
-      <recent name="$PROJECT_DIR$/webapp/templates/exercise" />
-      <recent name="$PROJECT_DIR$/webapp/templates/menu" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,14 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00055" summary="pronomen update">
-      <option name="closed" value="true" />
-      <created>1748525813863</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1748525813863</updated>
     </task>
     <task id="LOCAL-00056" summary="check exercise level statistics">
       <option name="closed" value="true" />
@@ -548,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757571973909</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="September 11">
+      <option name="closed" value="true" />
+      <created>1757573603878</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1757573603878</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
