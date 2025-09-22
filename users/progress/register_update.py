@@ -218,7 +218,7 @@ def register_result(session, unit, exercise, feedback):
 
         # optional feedback log hook
         if feedback is not None:
-            log_exercise_completed(unit, ex_int, round(score_final, 2))
+            log_exercise_completed(unit, ex_int, round(score_final, 2), email=current_user.email)
 
         return
 

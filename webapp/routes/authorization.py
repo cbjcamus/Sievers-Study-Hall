@@ -10,9 +10,108 @@ from users.users.models import db, User
 from users.progress.models import UserExerciseState
 from users.progress.service import make_qid
 from users.questions.total_questions import compute_total_questions
+from users.session_management.logging import log_new_signup
 
 from . import routes_bp
 
+'''
+from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
+from flask import current_app
+
+RESET_SALT = "password-reset"  # just a constant string
+
+def _make_serializer():
+    # uses your Flask SECRET_KEY
+    return URLSafeTimedSerializer(current_app.config["SECRET_KEY"])
+
+def generate_reset_token(user):
+    s = _make_serializer()
+    # encode user id (or email); id is fine
+    return s.dumps({"uid": user.id}, salt=RESET_SALT)
+
+def verify_reset_token(token, max_age_seconds=3600):
+    s = _make_serializer()
+    try:
+        data = s.loads(token, salt=RESET_SALT, max_age=max_age_seconds)
+    except SignatureExpired:
+        return None  # token valid but expired
+    except BadSignature:
+        return None
+    uid = data.get("uid")
+    return User.query.get(uid)
+
+import smtplib, ssl
+from email.message import EmailMessage
+
+def send_password_reset_email(to_email, reset_url):
+    msg = EmailMessage()
+    msg["Subject"] = "Reset your Sievers Study Hall password"
+    msg["From"] = "no-reply@sieversstudyhall.com"
+    msg["To"] = to_email
+    msg.set_content(f"Click the link to reset your password:\n{reset_url}\nThis link expires in 1 hour.")
+
+    context = ssl.create_default_context()
+    with smtplib.SMTP_SSL("smtp.yourprovider.tld", 465, context=context) as smtp:
+        smtp.login("SMTP_USERNAME", "SMTP_PASSWORD")
+        smtp.send_message(msg)
+
+# --- Forgot password: request form ---
+@routes_bp.route("/forgot-password", methods=["GET", "POST"])
+def forgot_password():
+    if current_user.is_authenticated:
+        return redirect(url_for("routes.settings"))
+
+    if request.method == "POST":
+        email = (request.form.get("email") or "").strip().lower()
+        user = User.query.filter_by(email=email).first()
+        if user:
+            token = generate_reset_token(user)
+            reset_url = url_for("routes.reset_password", token=token, _external=True)
+            send_password_reset_email(email, reset_url)
+            current_app.logger.info(f"[reset-link] {reset_url}")
+            flash("If that email exists, a reset link has been sent.", "info")
+            # You can also display the link in dev:
+            if current_app.debug:
+                flash(f"Dev reset link: {reset_url}", "info")
+        else:
+            # Do not reveal whether email exists
+            flash("If that email exists, a reset link has been sent.", "info")
+        return redirect(url_for("routes.signin"))
+
+    return render_template("authorization/forgot_password.html")
+
+# --- Reset password: uses token ---
+@routes_bp.route("/reset-password/<token>", methods=["GET", "POST"])
+def reset_password(token):
+    if current_user.is_authenticated:
+        return redirect(url_for("routes.settings"))
+
+    user = verify_reset_token(token)
+    if not user:
+        flash("This reset link is invalid or has expired.", "error")
+        return redirect(url_for("routes.forgot_password"))
+
+    if request.method == "POST":
+        pw1 = request.form.get("password") or ""
+        pw2 = request.form.get("password2") or ""
+        if not pw1 or not pw2:
+            flash("Please enter and confirm your new password.", "error")
+            return redirect(url_for("routes.reset_password", token=token))
+        if pw1 != pw2:
+            flash("Passwords do not match.", "error")
+            return redirect(url_for("routes.reset_password", token=token))
+        if len(pw1) < 8:
+            flash("Password must be at least 8 characters.", "error")
+            return redirect(url_for("routes.reset_password", token=token))
+
+        user.set_password(pw1)
+        db.session.commit()
+        flash("Your password has been updated. Please sign in.", "success")
+        return redirect(url_for("routes.signin"))
+
+    return render_template("authorization/reset_password.html", token=token)
+
+'''
 
 @routes_bp.route("/signin", methods=["GET", "POST"])
 def signin():
@@ -67,6 +166,8 @@ def signup():
         login_user(user)
 
         merge_anonymous_progress_in_database()
+
+        log_new_signup(user)
 
         return redirect(url_for("routes.home"))
 

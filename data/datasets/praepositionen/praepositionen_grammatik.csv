@@ -244,7 +244,7 @@ Nr,exercise,question,answer,german,english,explanation,case
 243,6,Abends ist sie gern _____ Hause und liest ein Buch.,zu,Abends ist sie gern zu Hause und liest ein Buch.,She likes to stay home in the evenings and read a book.,"to indicate a position at home in combination with ""Hause"" → zu + Dat.",
 244,6,Meine Kinder spielen _____ Hause im Garten.,zu,Meine Kinder spielen zu Hause im Garten.,My children are playing in the garden at home.,"to indicate a position at home in combination with ""Hause"" → zu + Dat.",
 245,6,Bist du heute _____ Hause oder unterwegs?,zu,Bist du heute zu Hause oder unterwegs?,Are you at home or on the road today?,"to indicate a position at home in combination with ""Hause"" → zu + Dat.",
-246,6,Sie arbeitet _____ einer großen Firma.,bei,"Zu spät, ich bin schon bei Lidl.","Too late, I'm already at Lidl.",to indicate a position in and with an institution or a company → bei + Dat.,
+246,6,"Zu spät, ich bin schon _____ Lidl.",bei,"Zu spät, ich bin schon bei Lidl.","Too late, I'm already at Lidl.",to indicate a position in and with an institution or a company → bei + Dat.,
 247,6,Paul ist _____ der Arbeit.,bei,Paul ist bei der Arbeit.,Paul is at work.,to indicate a position in and with an institution or a company → bei + Dat.,
 248,6,Ich lerne Deutsch _____ der Volkshochschule,bei,Ich lerne Deutsch bei der Volkshochschule.,I learn German at the adult education center.,to indicate a position in and with an institution or a company → bei + Dat.,
 249,6,Ich habe mich _____ Arzt gelangweilt.,beim,Ich habe mich beim Arzt gelangweilt.,I was bored at the doctor's place.,to indicate a position in and with an institution or a company → bei + Dat.,
@@ -448,7 +448,7 @@ Nr,exercise,question,answer,german,english,explanation,case
 447,11,instead of,anstatt,,,instead of = anstatt + Gen.,Gen.
 448,11,outside of,außerhalb,,,outside of = außerhalb + Gen.,Gen.
 449,11,"through, across",durch,,,"through, across = durch + Akk.",Akk.
-450,11,"opposite of, across from",gegenüber,,,"opposite of, across from = gegenüber + Dative",Dative
+450,11,"opposite of, across from",gegenüber,,,"opposite of, across from = gegenüber + Dat.",Dat.
 451,11,"inside of, within",innerhalb,,,"inside of, within = innerhalb + Gen.",Gen.
 452,11,"according to (preposition, with Genitive)",laut,,,"according to (preposition, with Genitive) = laut + Gen.",Gen.
 453,11,"despite, regardless of",trotz,,,"despite, regardless of = trotz + Gen.",Gen.
@@ -610,16 +610,16 @@ Nr,exercise,question,answer,german,english,explanation,case
 609,14,_____ Silvester machen viele Menschen gute Vorsätze für das neue Jahr.,An/Zu,An/Zu Silvester machen viele Menschen gute Vorsätze für das neue Jahr.,"On New Year's Eve, many people make good resolutions for the new year.",to indicate a Holiday → an/zu + Dat.,
 610,14,_____ Ostern verstecken die Eltern bunte Eier im Garten.,An/Zu,An/Zu Ostern verstecken die Eltern bunte Eier im Garten.,"At Easter, parents hide colorful eggs in the garden.",to indicate a Holiday → an/zu + Dat.,
 611,14,_____ Allerheiligen erweise ich meinen Vorfahren meine Ehrerbietung.,An/Zu,An/Zu Allerheiligen erweise ich meinen Vorfahren meine Ehrerbietung.,On All Saints' Day I pay homage to my ancestors.,to indicate a Holiday → an/zu + Dat.,
-612,15,"along, down",entlang,,,"along, down = entlang",Accusative or Genitive
-613,15,with the help of,mithilfe,,,with the help of = mithilfe,Genitive
-614,15,"in view of, considering, in light of",angesichts,,,"in view of, considering, in light of = angesichts",Genitive
-615,15,based on,anhand,,,based on = anhand,Genitive
-616,15,"except, besides, apart from",außer,,,"except, besides, apart from = außer",Dative
-617,15,thanks to,dank,,,thanks to = dank,Genitive (Dative colloquial)
+612,15,"along, down",entlang,,,"along, down = entlang",Akk. or Gen.
+613,15,with the help of,mithilfe,,,with the help of = mithilfe,Gen.
+614,15,"in view of, considering, in light of",angesichts,,,"in view of, considering, in light of = angesichts",Gen.
+615,15,based on,anhand,,,based on = anhand,Gen.
+616,15,"except, besides, apart from",außer,,,"except, besides, apart from = außer",Dat.
+617,15,thanks to,dank,,,thanks to = dank,Gen. (Dat. colloquial)
 618,15,contrary to,entgegen,,,contrary to = entgegen,Dative
-619,15,as a result of,infolge,,,as a result of = infolge,Genitive
-620,15,due to a lack of,mangels,,,due to a lack of = mangels,Genitive
-621,15,"by means of, through, using",mittels,,,"by means of, through, using = mittels",Genitive
+619,15,as a result of,infolge,,,as a result of = infolge,Gen.
+620,15,due to a lack of,mangels,,,due to a lack of = mangels,Gen.
+621,15,"by means of, through, using",mittels,,,"by means of, through, using = mittels",Gen.
 622,16,Wir sind den ganzen Tag den Strand _____ gelaufen.,entlang,Wir sind den ganzen Tag den Strand entlang gelaufen.,We walked along the beach all day.,"along, down = entlang",
 623,16,_____ der Strasse stehen viele Bäume.,Entlang,Entlang der Strasse stehen viele Bäume.,Along the street there are many trees.,"along, down = entlang",
 624,16,Sie pflanzten Blumen _____ des Zauns.,entlang,Sie pflanzten Blumen entlang des Zauns.,They planted flowers along the fence.,"along, down = entlang",
@@ -670,16 +670,16 @@ Nr,exercise,question,answer,german,english,explanation,case
 669,16,_____ moderner Technologien kann die Effizienz gesteigert werden.,Mittels,Mittels moderner Technologien kann die Effizienz gesteigert werden.,Efficiency can be increased through modern technologies.,"by means of, through, using = mittels",
 670,16,Die Zahlung erfolgt _____ Kreditkarte oder Überweisung.,mittels,Die Zahlung erfolgt mittels Kreditkarte oder Überweisung.,Payment is made by means of credit card or bank transfer.,"by means of, through, using = mittels",
 671,16,Das Unternehmen optimiert seine Prozesse _____ künstlicher Intelligenz.,mittels,Das Unternehmen optimiert seine Prozesse mittels künstlicher Intelligenz.,The company optimizes its processes using artificial intelligence.,"by means of, through, using = mittels",
-672,17,"including, taking into account, inclusive of",einschließlich,,,"including, taking into account, inclusive of = einschließlich",Genitive (Accusative or Dative colloquial)
-673,17,"as opposed to, in contrast to, unlike",im Gegensatz zu,,,"as opposed to, in contrast to, unlike = im Gegensatz zu",Dative
-674,17,in addition to,zusätzlich zu,,,in addition to = zusätzlich zu,Dative
-675,17,"in the middle of, amid, surrounded by",inmitten,,,"in the middle of, amid, surrounded by = inmitten",Genitive
-676,17,"along with, together with",nebst,,,"along with, together with = nebst",Dative
-677,17,above,oberhalb,,,above = oberhalb,Genitive
-678,17,"below, beneath, underneath",unterhalb,,,"below, beneath, underneath = unterhalb",Genitive
-679,17,for the purpose of,zwecks,,,for the purpose of = zwecks,Genitive
-680,17,depending on,je nach/abhängig von,,,depending on = je nach/abhängig von,Dative
-681,17,"on the part of, from the side of",seitens,,,,Genitive
+672,17,"including, taking into account, inclusive of",einschließlich,,,"including, taking into account, inclusive of = einschließlich",Gen. (Akk. or Dat. colloquial)
+673,17,"as opposed to, in contrast to, unlike",im Gegensatz zu,,,"as opposed to, in contrast to, unlike = im Gegensatz zu",Dat.
+674,17,in addition to,zusätzlich zu,,,in addition to = zusätzlich zu,Dat.
+675,17,"in the middle of, amid, surrounded by",inmitten,,,"in the middle of, amid, surrounded by = inmitten",Gen.
+676,17,"along with, together with",nebst,,,"along with, together with = nebst",Dat.
+677,17,above,oberhalb,,,above = oberhalb,Gen.
+678,17,"below, beneath, underneath",unterhalb,,,"below, beneath, underneath = unterhalb",Gen.
+679,17,for the purpose of,zwecks,,,for the purpose of = zwecks,Gen.
+680,17,depending on,je nach/abhängig von,,,depending on = je nach/abhängig von,Dat.
+681,17,"on the part of, from the side of",seitens,,,,Gen.
 682,18,"Alle Teilnehmer, _____ der neuen Kollegen, müssen am Meeting teilnehmen.",einschließlich,"Alle Teilnehmer, einschließlich der neuen Kollegen, müssen am Meeting teilnehmen.","All participants, including the new colleagues, must attend the meeting.","including, taking into account, inclusive of = einschließlich",
 683,18,"Die Reise kostet 1.200 Euro, _____ aller Gebühren und Steuern.",einschließlich,"Die Reise kostet 1.200 Euro, einschließlich aller Gebühren und Steuern.","The trip costs 1,200 euros, including all fees and taxes.","including, taking into account, inclusive of = einschließlich",
 684,18,_____ des Anhangs umfasst der Bericht über 50 Seiten.,Einschließlich,Einschließlich des Anhangs umfasst der Bericht über 50 Seiten.,"Including the appendix, the report consists of over 50 pages.","including, taking into account, inclusive of = einschließlich",
@@ -730,15 +730,15 @@ Nr,exercise,question,answer,german,english,explanation,case
 729,18,_____ des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,Seitens,Seitens des Unternehmens gab es keine Stellungnahme zu den Vorwürfen.,There was no statement from the company regarding the allegations.,"on the part of, from the side of = seitens",
 730,18,Die Entscheidung wurde _____ des Gerichts mit großer Sorgfalt getroffen.,seitens,Die Entscheidung wurde seitens des Gerichts mit großer Sorgfalt getroffen.,The decision was made by the court with great care.,"on the part of, from the side of = seitens",
 731,18,_____ der Eltern gab es viele Beschwerden über das neue Schulsystem.,Seitens,Seitens der Eltern gab es viele Beschwerden über das neue Schulsystem.,There were many complaints from the parents about the new school system.,"on the part of, from the side of = seitens",
-732,19,"on the occasion of, in honor of",anlässlich,,,,Genitive
-733,19,on both sides of,beiderseits,,,,Genitive
-734,19,on this side of,diesseits,,,,Genitive
-735,19,"on the other side of, beyond",jenseits,,,,Genitive
-736,19,"by virtue of, by use of",kraft,,,,Genitive
-737,19,"in favor of, for the benefit of",zugunsten,,,,Genitive
-738,19,"plus, in addition to",zuzüglich,,,,Genitive
-739,19,"minus, after",abzüglich,,,,Genitive
-740,19,regarding,bezüglich,,,,Genitive
+732,19,"on the occasion of, in honor of",anlässlich,,,,Gen.
+733,19,on both sides of,beiderseits,,,,Gen.
+734,19,on this side of,diesseits,,,,Gen.
+735,19,"on the other side of, beyond",jenseits,,,,Gen.
+736,19,"by virtue of, by use of",kraft,,,,Gen.
+737,19,"in favor of, for the benefit of",zugunsten,,,,Gen.
+738,19,"plus, in addition to",zuzüglich,,,,Gen.
+739,19,"minus, after",abzüglich,,,,Gen.
+740,19,regarding,bezüglich,,,,Gen.
 741,20,_____ seines Geburtstags veranstaltete er eine große Feier.,Anlässlich,Anlässlich seines Geburtstags veranstaltete er eine große Feier.,"On the occasion of his birthday, he hosted a big party.","on the occasion of, in honor of = anlässlich",
 742,20,Die Stadt organisierte ein Festival _____ des Jubiläums ihrer Gründung.,anlässlich,Die Stadt organisierte ein Festival anlässlich des Jubiläums ihrer Gründung.,The city organized a festival in honor of the anniversary of its founding.,"on the occasion of, in honor of = anlässlich",
 743,20,_____ der Hochzeit seiner Tochter lud er die gesamte Familie ein.,Anlässlich,Anlässlich der Hochzeit seiner Tochter lud er die gesamte Familie ein.,"On the occasion of his daughter's wedding, he invited the entire family.","on the occasion of, in honor of = anlässlich",
@@ -791,56 +791,50 @@ Nr,exercise,question,answer,german,english,explanation,case
 790,100,,von wegen,,,,
 791,100,,an statt,,,,
 792,100,,auf hin,,,,
-793,100,im Rahmen as part of,,,,,
-794,100,im Laufe (von / des) – “in the course of / over the span of”,,,,,
-795,100,im Hinblick auf – “with regard to / concerning”,,,,,
-796,100,im Zusammenhang mit – “in connection with”,,,,,
-797,100,im Auftrag von – “on behalf of”,,,,,
-798,100,im Interesse von – “in the interest of”,,,,,
-799,100,in Bezug auf – “in relation to / regarding”,,,,,
-800,100,in Folge (+ Gen.) – “as a result of”,,,,,
-801,100,in Anbetracht (+ Gen.) – “in view of / considering”,,,,,
-802,100,auf Grund / aufgrund (+ Gen.) – “because of / due to”,,,,,
-803,100,auf Kosten (+ Gen.) – “at the expense of”,,,,,
-804,100,auf Seiten (+ Gen.) – “on the side of”,,,,,
-805,100,unter Berücksichtigung (+ Gen.) – “taking into account”,,,,,
-806,100,unter Leitung (+ Gen.) – “under the leadership of”,,,,,
-807,100,bei Gelegenheit (+ Gen.) – “on the occasion of / when the chance arises”,,,,,
-808,100,von Seiten (+ Gen.) – “on the part of”,,,,,
-809,100,an Stelle (+ Gen.) – “in place of”,,,,,
-810,100,aus Mangel an (+ Dat.) – “for lack of”,,,,,
-811,101,"excluding, apart from",ausschließlich,,,"excluding, apart from = ausschließlich",Genitive
-812,101,_____ des Vorstands traf niemand eine Entscheidung über das Projekt.,Ausschließlich,Ausschließlich des Vorstands traf niemand eine Entscheidung über das Projekt.,"Except for the board, no one made a decision about the project.","excluding, apart from = ausschließlich",
-813,101,Die Nutzung des Parkplatzes ist _____ der Belegschaft vorbehalten.,ausschließlich,Die Nutzung des Parkplatzes ist ausschließlich der Belegschaft vorbehalten.,The use of the parking lot is reserved exclusively for the staff.,"excluding, apart from = ausschließlich",
-814,101,_____ der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,Ausschließlich,Ausschließlich der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,"Apart from the costs for accommodation and meals, all expenses were reimbursed.","excluding, apart from = ausschließlich",
-815,101,Der Zugang zu den Daten bleibt _____ der Geschäftsleitung vorbehalten.,ausschließlich,Der Zugang zu den Daten bleibt ausschließlich der Geschäftsleitung vorbehalten.,Access to the data remains exclusively reserved for management.,"excluding, apart from = ausschließlich",
-816,101,_____ der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,Ausschließlich,Ausschließlich der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,A new strategy was developed solely based on scientific findings.,"excluding, apart from = ausschließlich",
-817,102,Ich kaufe mein Brot _____ der Bäckerei.,bei,Ich kaufe mein Brot bei der Bäckerei.,I buy my bread at the bakery.,to indicate a position in and with an institution → bei + Dat.,
-818,102,Wir wohnen _____ der Schule.,bei,Wir wohnen bei der Schule.,We live near the school.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-819,102,Das Restaurant ist _____ der Kirche.,bei,Das Restaurant ist bei der Kirche.,The restaurant is near the church.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-820,102,Potsdam liegt _____ Berlin.,bei,Potsdam liegt bei Berlin.,Potsdam is near Berlin.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-821,102,Meine Mutter ist _____ Friseur.,beim,Meine Mutter ist beim Friseur.,My mother is at the hairdresser.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-822,102,Sie trifft sich mit mir _____ der Statue.,bei,Sie trifft sich mit mir bei der Statue.,She's meeting me by the statue.,to indicate a position around something with some spatial flexibility → bei + Dat.,
-823,110,from ... on,ab,,,,Dative
-824,110,"on, to, next to, attached to",an,,,,Accusative or Dative
-825,110,"on, upon",auf,,,,Accusative or Dative
-826,110,"from, out of, off",aus,,,,Dative
-827,110,"at, near, by, in the vicinity of, among, upon",bei,,,,Dative
-828,110,"until, up to, by, to",bis,,,,Accusative
-829,110,for,für,,,,Accusative
-830,110,"against, for, toward",gegen,,,,Accusative
-831,110,behind,hinter,,,,Accusative or Dative
-832,110,"in, into",in,,,,Accusative or Dative
-833,110,with,mit,,,,Dative
-834,110,"after, to, in the direction of",nach,,,,Dative
-835,110,"next to, in addition to, besides, alongside",neben,,,,Accusative or Dative
-836,110,without,ohne,,,,Accusative
-837,110,per,pro,,,,Accusative
-838,110,"since, for",seit,,,,Dative
-839,110,"above, over, about, across, via, beyond",über,,,,Accusative or Dative
-840,110,"around, at",um,,,,Accusative
-841,110,"under, below, among, between, amid",unter,,,,Accusative or Dative
-842,110,"from, of",von,,,,Dative
-843,110,"before, in front of, ago, against",vor,,,,Accusative or Dative
-844,110,"to, toward, at, by",zu,,,,Dative
-845,110,"between, among",zwischen,,,,Accusative or Dative
+793,100,im Rahmen,as part of,,,,
+794,100,im Laufe,in the course of / over the span of,,,,
+795,100,im Hinblick auf,with regard to / concerning,,,,Akk.
+796,100,im Zusammenhang mit,in connection with,,,,Dat.
+797,100,im Auftrag von,on behalf of,,,,Dat.
+798,100,im Interesse von,in the interest of,,,,Dat.
+799,100,auf Kosten,at the expense of,,,,Gen.
+800,100,auf Seiten,on the side of,,,,Gen.
+801,100,unter Berücksichtigung,taking into account,,,,Gen.
+802,100,unter Leitung,under the leadership of,,,,Gen.
+803,100,von Seiten,on the part of,,,,Gen.
+804,100,aus Mangel an,for lack of,,,,Dat.
+805,101,"excluding, apart from",ausschließlich,,,"excluding, apart from = ausschließlich",Gen.
+806,101,_____ des Vorstands traf niemand eine Entscheidung über das Projekt.,Ausschließlich,Ausschließlich des Vorstands traf niemand eine Entscheidung über das Projekt.,"Except for the board, no one made a decision about the project.","excluding, apart from = ausschließlich",
+807,101,Die Nutzung des Parkplatzes ist _____ der Belegschaft vorbehalten.,ausschließlich,Die Nutzung des Parkplatzes ist ausschließlich der Belegschaft vorbehalten.,The use of the parking lot is reserved exclusively for the staff.,"excluding, apart from = ausschließlich",
+808,101,_____ der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,Ausschließlich,Ausschließlich der Kosten für Unterkunft und Verpflegung wurden alle Ausgaben erstattet.,"Apart from the costs for accommodation and meals, all expenses were reimbursed.","excluding, apart from = ausschließlich",
+809,101,Der Zugang zu den Daten bleibt _____ der Geschäftsleitung vorbehalten.,ausschließlich,Der Zugang zu den Daten bleibt ausschließlich der Geschäftsleitung vorbehalten.,Access to the data remains exclusively reserved for management.,"excluding, apart from = ausschließlich",
+810,101,_____ der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,Ausschließlich,Ausschließlich der wissenschaftlichen Erkenntnisse wurde eine neue Strategie entwickelt.,A new strategy was developed solely based on scientific findings.,"excluding, apart from = ausschließlich",
+811,102,Ich kaufe mein Brot _____ der Bäckerei.,bei,Ich kaufe mein Brot bei der Bäckerei.,I buy my bread at the bakery.,to indicate a position in and with an institution → bei + Dat.,
+812,102,Wir wohnen _____ der Schule.,bei,Wir wohnen bei der Schule.,We live near the school.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+813,102,Das Restaurant ist _____ der Kirche.,bei,Das Restaurant ist bei der Kirche.,The restaurant is near the church.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+814,102,Potsdam liegt _____ Berlin.,bei,Potsdam liegt bei Berlin.,Potsdam is near Berlin.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+815,102,Meine Mutter ist _____ Friseur.,beim,Meine Mutter ist beim Friseur.,My mother is at the hairdresser.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+816,102,Sie trifft sich mit mir _____ der Statue.,bei,Sie trifft sich mit mir bei der Statue.,She's meeting me by the statue.,to indicate a position around something with some spatial flexibility → bei + Dat.,
+817,110,from ... on,ab,,,,Dative
+818,110,"on, to, next to, attached to",an,,,,Accusative or Dative
+819,110,"on, upon",auf,,,,Accusative or Dative
+820,110,"from, out of, off",aus,,,,Dative
+821,110,"at, near, by, in the vicinity of, among, upon",bei,,,,Dative
+822,110,"until, up to, by, to",bis,,,,Accusative
+823,110,for,für,,,,Accusative
+824,110,"against, for, toward",gegen,,,,Accusative
+825,110,behind,hinter,,,,Accusative or Dative
+826,110,"in, into",in,,,,Accusative or Dative
+827,110,with,mit,,,,Dative
+828,110,"after, to, in the direction of",nach,,,,Dative
+829,110,"next to, in addition to, besides, alongside",neben,,,,Accusative or Dative
+830,110,without,ohne,,,,Accusative
+831,110,per,pro,,,,Accusative
+832,110,"since, for",seit,,,,Dative
+833,110,"above, over, about, across, via, beyond",über,,,,Accusative or Dative
+834,110,"around, at",um,,,,Accusative
+835,110,"under, below, among, between, amid",unter,,,,Accusative or Dative
+836,110,"from, of",von,,,,Dative
+837,110,"before, in front of, ago, against",vor,,,,Accusative or Dative
+838,110,"to, toward, at, by",zu,,,,Dative
+839,110,"between, among",zwischen,,,,Accusative or Dative

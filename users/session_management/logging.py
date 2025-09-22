@@ -7,7 +7,7 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LOGS_DIR = os.path.join(BASE_DIR, "../logs")
 
 
-def log_exercise_completed(unit, exercise, score):
+def log_exercise_completed(unit, exercise, score, email=None):
     """
     Logs the completion of an exercise by writing an entry to a CSV file with metadata.
 
@@ -27,7 +27,7 @@ def log_exercise_completed(unit, exercise, score):
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(EXERCISE_COMPLETED_PATH, "Nr; IP; date; unit; exercise; level; score")
+    create_file(EXERCISE_COMPLETED_PATH, "Nr; email; IP; date; unit; exercise; level; score")
 
     next_nr = get_next_number(EXERCISE_COMPLETED_PATH)
     level = get_level_from_exercise(unit, exercise)
@@ -36,7 +36,36 @@ def log_exercise_completed(unit, exercise, score):
     user_ip = forwarded_for.split(',')[0].strip()  # Take the first IP if there are multiple
 
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}; {level}; {score}")
+        file.write(f"\n{next_nr}; {email}, {user_ip}; {now}; {unit}; {exercise}; {level}; {score}")
+    return
+
+
+def log_new_signup(user):
+    """
+    Logs the completion of an exercise by writing an entry to a CSV file with metadata.
+
+    Constructs the path to the statistics directory and the 'exercise_completed.csv' file.
+    Ensures the directory and file exist. Determines the next available record number.
+    Retrieves the user's IP address from the request headers (or falls back to remote address).
+    Appends a new line to the CSV file with the current timestamp, IP, unit, and exercise.
+
+    Args:
+        unit (str): The unit identifier of the completed exercise.
+        exercise (str or int): The exercise identifier.
+
+    Returns:
+        None
+    """
+    NEW_SIGNUP_PATH = os.path.join(LOGS_DIR, "new_signups.csv")
+    now = datetime.now()
+
+    create_folder(LOGS_DIR)
+    create_file(NEW_SIGNUP_PATH, "Nr; date; ID; email")
+
+    next_nr = get_next_number(NEW_SIGNUP_PATH)
+
+    with open(NEW_SIGNUP_PATH, "a", encoding="utf-8") as file:
+        file.write(f"\n{next_nr}; {now}, {user.id}; {user.email}")
     return
 
 

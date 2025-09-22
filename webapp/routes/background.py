@@ -21,9 +21,9 @@ def ensure_session_keys_exist_and_make_session_permanent():
     if 'unfinished_exercise' not in session:
         session['unfinished_exercise'] = []
 
-    print_complete_session(session)
-    print_session_size(session)
-    print_user_info_from_db()
+    # print_complete_session(session)
+    # print_session_size(session)
+    # print_user_info_from_db()
     # session.clear()
 
 
