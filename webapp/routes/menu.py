@@ -36,13 +36,13 @@ def home():
                            )
 
 
-@routes_bp.route('/settings_new', endpoint='settings_new')
-def settings_new():
-    return render_template('menu/settings_new.html',
+@routes_bp.route('/settings', endpoint='settings')
+def settings():
+    return render_template('menu/settings.html',
                            )
 
 
-@routes_bp.route('/settings', endpoint='settings')
+@routes_bp.route('/settings_old', endpoint='settings_old')
 def settings_old():
     return render_template('menu/settings_old.html',
                            )

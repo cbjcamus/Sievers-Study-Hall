@@ -9,7 +9,7 @@
 {% from "macros.html" import render_title with context %}
 {% from "macros.html" import render_exercise_table_row %}
 
-<body>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
     {{ render_title("Deverbale Substansive") }}
 
     <div class="section">

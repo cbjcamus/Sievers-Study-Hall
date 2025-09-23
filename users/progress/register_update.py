@@ -66,6 +66,7 @@ def register_progress(session, unit, exercise, nr):
         return
 
 
+'''
 def register_false(session, unit, exercise, nr):
     """
     Records a question as incorrectly answered for a specific unit and exercise.
@@ -88,6 +89,7 @@ def register_false(session, unit, exercise, nr):
     init_session_key(session, unit, exercise, 'falses')
     session[unit][str(exercise)]['falses'].append(nr)
     return
+'''
 
 
 def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
@@ -151,8 +153,8 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
         init_session_key(session, unit, exercise, 'falses')
         session[unit][str(exercise)]['falses'].append(nr)
 
-        init_session_key(session, unit, exercise, 'incorrect_answer')
-        session[unit][str(exercise)]['incorrect_answer'].append(incorrect_answer)
+        # init_session_key(session, unit, exercise, 'incorrect_answer')
+        # session[unit][str(exercise)]['incorrect_answer'].append(incorrect_answer)
     return
 
 

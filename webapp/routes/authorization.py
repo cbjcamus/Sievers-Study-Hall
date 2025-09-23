@@ -2,15 +2,19 @@ from datetime import datetime
 
 from flask import render_template, request, redirect, url_for, flash, session
 from flask_login import login_user, current_user, logout_user, login_required
+from pandas.io.formats.format import return_docstring
 
 from data.data_processing.units import units
 from data.data_processing.data_loading import load_data_exercise
+from users.session_management.verification_session import is_exercise_in_unit
 
 from users.users.models import db, User
 from users.progress.models import UserExerciseState
 from users.progress.service import make_qid
-from users.questions.total_questions import compute_total_questions
+from users.questions.total_questions import compute_total_questions, compute_highest_exercise
 from users.session_management.logging import log_new_signup
+
+from webapp.routes.settings_api import get_or_create_settings
 
 from . import routes_bp
 
@@ -131,6 +135,12 @@ def signin():
 
         login_user(user, remember=remember)
         next_url = request.args.get("next") or url_for("routes.home")
+
+        try:
+            get_or_create_settings(current_user.id)
+        except Exception:
+            pass
+
         return redirect(next_url)
 
     # GET
@@ -165,9 +175,14 @@ def signup():
 
         login_user(user)
 
-        merge_anonymous_progress_in_database()
-
         log_new_signup(user)
+        merge_anonymous_progress_in_database()
+        clean_session_after_signing_up()
+
+        try:
+            get_or_create_settings(current_user.id)
+        except Exception:
+            pass
 
         return redirect(url_for("routes.home"))
 
@@ -181,74 +196,6 @@ def signout():
     logout_user()
     flash("Signed out.", "info")
     return redirect(url_for("routes.signin"))
-
-'''
-def merge_anonymous_progress_in_database():
-    if not current_user.is_authenticated:
-        return
-
-    for unit, unit_data in session.items():
-        if not isinstance(unit_data, dict):
-            continue
-        for exercise_str, ex_data in unit_data.items():
-            try:
-                exercise = int(exercise_str)
-            except (TypeError, ValueError):
-                continue
-            if not isinstance(ex_data, dict):
-                continue
-
-            df = load_data_exercise(unit, str(exercise))
-            total_questions = int(len(df))
-
-            # Nr -> qid mapping
-            mapping = {}
-            for _, row in df.iterrows():
-                nr = int(row["Nr"])
-                qid = make_qid(
-                    unit, exercise,
-                    str(row.get("question", "")),
-                    str(row.get("answer", "")),
-                    str(row.get("type", "")),
-                )
-                mapping[nr] = (qid, row.get("question", ""), row.get("answer", ""), row.get("type", ""))
-
-            # Coerce lists
-            progress_nrs = [int(n) for n in (ex_data.get("progress") or []) if str(n).isdigit()]
-            falses_nrs   = [int(n) for n in (ex_data.get("falses")   or []) if str(n).isdigit()]
-
-            # Merge detailed state first (if any)
-            if progress_nrs or falses_nrs:
-                merge_session_into_db(
-                    user_id=current_user.id,
-                    unit=unit,
-                    exercise=exercise,
-                    session_progress_nrs=progress_nrs,
-                    session_falses_nrs=falses_nrs,
-                    nr_to_qid=mapping,
-                )
-
-            # If only a summarized result exists, cache it in the state JSON
-            if "result" in ex_data:
-                row = _get_or_create_row(current_user.id, unit, exercise)  # import from service or reimplement small
-                s = load_state(current_user.id, unit, exercise)
-                # Keep whatever correct_ids were merged above; just add score + total
-                row.state = {
-                    "correct_ids": s.correct_ids,
-                    "incorrect": s.incorrect,
-                    "score": float(ex_data["result"]),
-                    "total_questions": total_questions,
-                }
-                # Mark completion if full score
-                if float(ex_data["result"]) >= 1.0:
-                    row.completed_at = datetime.utcnow()
-                row.updated_at = datetime.utcnow()
-                db.session.commit()
-
-            # Trim bulky keys from session
-            for key in ("progress", "falses", "incorrect_answer"):
-                ex_data.pop(key, None)
-'''
 
 
 def merge_anonymous_progress_in_database():
@@ -343,3 +290,14 @@ def merge_anonymous_progress_in_database():
             # then trim session keys
             for key in ("progress", "falses", "incorrect_answer"):
                 ex_data.pop(key, None)
+
+
+def clean_session_after_signing_up():
+    for unit in units:
+        if unit in session:
+            del session[unit]
+
+    if 'unfinished_exercise' in session:
+        del session['unfinished_exercise']
+
+    return

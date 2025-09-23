@@ -7,7 +7,7 @@ from . import routes_bp
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
 
-from users.users.models import db
+from users.users.models import db, is_feedback_enabled
 from users.progress.models import UserExerciseState
 
 from users.progress.score import write_score
@@ -42,9 +42,13 @@ def guidance(unit, exercise):
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
 
-        incorrect_answers, number_of_incorrect_answers= get_incorrect_answers(session, unit, exercise)
-
-        feedbacks = get_feedback_exercise(session, unit, exercise)
+        if current_user.is_authenticated:
+            incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
+            feedbacks = get_feedback_exercise(session, unit, exercise)
+        else:
+            number_of_incorrect_answers = 0
+            incorrect_answers = []
+            feedbacks = []
 
         register_result(session, unit, exercise, feedback)
         return render_template("exercise/exercise_completed.html",
@@ -103,11 +107,16 @@ def exercise(unit, exercise):
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
 
-        incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
-
-        feedbacks = get_feedback_exercise(session, unit, exercise)
+        if current_user.is_authenticated:
+            incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
+            feedbacks = get_feedback_exercise(session, unit, exercise)
+        else:
+            number_of_incorrect_answers = 0
+            incorrect_answers = []
+            feedbacks = []
 
         register_result(session, unit, exercise, feedback)
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -159,7 +168,7 @@ def exercise(unit, exercise):
 
     proverb = get_text_proverb()
 
-    is_feedback_box = not session.get('feedback_enabled')
+    is_feedback_box = not is_feedback_enabled()
 
     incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer)
 
@@ -275,7 +284,7 @@ def check_answer(unit, exercise):
 
     session[f"question_data"] = question_data.to_dict()
 
-    if session.get('feedback_enabled') is True:
+    if is_feedback_enabled():
         return redirect(url_for('routes.exercise_feedback',
                                 unit=unit,
                                 exercise=exercise))
@@ -293,9 +302,13 @@ def exercise_feedback(unit, exercise):
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
 
-        incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
-
-        feedbacks = get_feedback_exercise(session, unit, exercise)
+        if current_user.is_authenticated:
+            incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
+            feedbacks = get_feedback_exercise(session, unit, exercise)
+        else:
+            number_of_incorrect_answers = 0
+            incorrect_answers = []
+            feedbacks = []
 
         register_result(session, unit, exercise, feedback)
 
@@ -408,15 +421,16 @@ def reset_exercise(unit, exercise):
             db.session.delete(row)
             db.session.commit()
 
-    unit_dict = session.get(unit, {})
-    unit_dict.pop(str(exercise), None)
-    session[unit] = unit_dict
+    else:
+        unit_dict = session.get(unit, {})
+        unit_dict.pop(str(exercise), None)
+        session[unit] = unit_dict
 
-    if (unit, exercise) in session['unfinished_exercise']:
-        session['unfinished_exercise'].remove((unit, exercise))
+        if (unit, exercise) in session['unfinished_exercise']:
+            session['unfinished_exercise'].remove((unit, exercise))
 
-    session.pop(f"feedback", None)
-    session.modified = True
+        session.pop(f"feedback", None)
+        session.modified = True
 
     guidance = request.form.get('guidance') == 'true'
 
@@ -432,7 +446,10 @@ def flag_question(unit, exercise):
     user_answer = request.args.get('user_answer') or request.form.get('user_answer')
     result = request.args.get('result') or request.form.get('result')
 
-    log_question_flagged(unit, exercise, feedback_message, user_answer, result)
+    if current_user.is_authenticated:
+        log_question_flagged(unit, exercise, feedback_message, user_answer, result, email=current_user.email)
+    else:
+        log_question_flagged(unit, exercise, feedback_message, user_answer, result)
 
     flash("This answer has been flagged for review."
           "<br><br>Thank you!", "info")

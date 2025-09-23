@@ -12,8 +12,10 @@
 {% from "macros.html" import render_title with context %}
 {% from "macros.html" import render_feedback %}
 
-<body>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
     {{ render_title(title_page[unit]) }}
+
     <h2 class="exercise-title">Exercise {{ exercise }}</h2>
 
     <p>All questions have been successfully answered! <br><br>

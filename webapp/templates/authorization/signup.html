@@ -6,7 +6,8 @@
     {% from "macros.html" import header %}
     {{ header() }}
 </head>
-<body>
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
 
 {% from "macros.html" import render_title with context %}
 
