@@ -42,13 +42,9 @@ def guidance(unit, exercise):
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
 
-        if current_user.is_authenticated:
-            incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
-            feedbacks = get_feedback_exercise(session, unit, exercise)
-        else:
-            number_of_incorrect_answers = 0
-            incorrect_answers = []
-            feedbacks = []
+        number_of_incorrect_answers = 0
+        incorrect_answers = []
+        feedbacks = []
 
         register_result(session, unit, exercise, feedback)
         return render_template("exercise/exercise_completed.html",
