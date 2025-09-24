@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="logins">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update after login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00061" summary="update June 6 2025">
-      <option name="closed" value="true" />
-      <created>1749197879753</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1749197879753</updated>
     </task>
     <task id="LOCAL-00062" summary="update June 7 2025">
       <option name="closed" value="true" />
@@ -548,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758612533618</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="update after login">
+      <option name="closed" value="true" />
+      <created>1758696107940</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1758696107940</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -564,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pronomen update" />
     <MESSAGE value="check exercise level statistics" />
     <MESSAGE value="home page" />
     <MESSAGE value="corrections June 3 2025" />
@@ -589,7 +589,8 @@
     <MESSAGE value="August 4th" />
     <MESSAGE value="September 11" />
     <MESSAGE value="logins" />
-    <option name="LAST_COMMIT_MESSAGE" value="logins" />
+    <MESSAGE value="update after login" />
+    <option name="LAST_COMMIT_MESSAGE" value="update after login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
