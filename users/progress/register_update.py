@@ -190,38 +190,43 @@ def register_result(session, unit, exercise, feedback):
     if current_user.is_authenticated:
         total_q = int(compute_total_questions(unit, ex_int) or 0)
 
+        # Use the same scoring function your UI uses
+        # If your project exposes compute_score_exercise(...), use that instead.
+        score_val = compute_score(session, unit, ex_int)
+        try:
+            score_final = float(score_val) if score_val is not None else 0.0
+        except (TypeError, ValueError):
+            score_final = 0.0
+        score_final = round(score_final, 2)
+
         row = UserExerciseState.query.filter_by(
             user_id=current_user.id, unit=unit, exercise=ex_int
         ).first()
-        correct_n = 0
-        if row and row.state:
-            s = row.state or {}
-            # prefer explicit score if it already exists
-            if "score" in s:
-                try:
-                    score_final = float(s["score"])
-                except (TypeError, ValueError):
-                    score_final = 0.0
-            else:
-                # derive from in-progress counts (correct_nrs length)
-                correct_n = len(s.get("correct_nrs") or s.get("correct_ids") or [])
-                score_final = (correct_n / total_q) if total_q > 0 else 0.0
-        else:
-            score_final = 0.0  # nothing tracked; treat as zero
-
         if not row:
             row = UserExerciseState(user_id=current_user.id, unit=unit, exercise=ex_int, state={})
             db.session.add(row)
 
-        row.state = {"score": round(score_final, 2), "total_questions": total_q}
+        # Persist only canonical completion state; drop per-question JSON
+        row.state = {
+            "score": score_final,
+            "total_questions": total_q,
+        }
         row.completed_at = datetime.utcnow()
         row.updated_at = row.completed_at
         db.session.commit()
 
-        # optional feedback log hook
+        # Optional: analytics/logging
         if feedback is not None:
-            log_exercise_completed(unit, ex_int, round(score_final, 2), email=current_user.email)
+            log_exercise_completed(unit, ex_int, score_final, email=current_user.email)
 
+        # We don't need to touch session for logged-in users, but it's harmless to clean:
+        if unit in session and ex_str in session[unit]:
+            for key in ("progress", "falses", "incorrect_answer", "result"):
+                session[unit][ex_str].pop(key, None)
+        session.setdefault("unfinished_exercise", [])
+        if (unit, ex_int) in session["unfinished_exercise"]:
+            session["unfinished_exercise"].remove((unit, ex_int))
+        session.modified = True
         return
 
     else:
