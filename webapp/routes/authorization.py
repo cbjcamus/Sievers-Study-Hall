@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 from flask import render_template, request, redirect, url_for, flash, session
@@ -49,14 +50,17 @@ from email.message import EmailMessage
 def send_password_reset_email(to_email, reset_url):
     msg = EmailMessage()
     msg["Subject"] = "Reset your Sievers Study Hall password"
-    msg["From"] = "no-reply@sieversstudyhall.com"
+    msg["From"] = os.environ["MAIL_USERNAME"]
     msg["To"] = to_email
-    msg.set_content(f"Click the link to reset your password:\n{reset_url}\nThis link expires in 1 hour.")
-
-    context = ssl.create_default_context()
-    with smtplib.SMTP_SSL("smtp.yourprovider.tld", 465, context=context) as smtp:
-        smtp.login("SMTP_USERNAME", "SMTP_PASSWORD")
-        smtp.send_message(msg)
+    msg.set_content(
+        f"Hello,\n\nClick the link to reset your password:\n{reset_url}\n\n"
+        "This link expires in 1 hour.\n\n— Sievers Study Hall"
+    )
+    ctx = ssl.create_default_context()
+    with smtplib.SMTP("smtp.gmail.com", 587, timeout=20) as s:
+        s.starttls(context=ctx)
+        s.login(os.environ["MAIL_USERNAME"], os.environ["MAIL_PASSWORD"])
+        s.send_message(msg)
 
 # --- Forgot password: request form ---
 @routes_bp.route("/forgot-password", methods=["GET", "POST"])
@@ -69,7 +73,7 @@ def forgot_password():
         user = User.query.filter_by(email=email).first()
         if user:
             token = generate_reset_token(user)
-            reset_url = url_for("routes.reset_password", token=token, _external=True)
+            reset_url = url_for("routes.reset_password", token=token, _external=True, _scheme="https")
             send_password_reset_email(email, reset_url)
             current_app.logger.info(f"[reset-link] {reset_url}")
             flash("If that email exists, a reset link has been sent.", "info")

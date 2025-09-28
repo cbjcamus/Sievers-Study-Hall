@@ -23,7 +23,7 @@ def ensure_session_keys_exist_and_make_session_permanent():
 
     # print_complete_session(session)
     # print_session_size(session)
-    print_user_info_from_db()
+    # print_user_info_from_db()
     # session.clear()
 
 

@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update score">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="forgot password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/routes/authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/authorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/authorization/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/authorization/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/background.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00064" summary="test day mode">
-      <option name="closed" value="true" />
-      <created>1749397571341</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1749397571341</updated>
     </task>
     <task id="LOCAL-00065" summary="test day mode">
       <option name="closed" value="true" />
@@ -554,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758784533524</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="forgot password">
+      <option name="closed" value="true" />
+      <created>1759053974955</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1759053974956</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -570,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="home page" />
     <MESSAGE value="corrections June 3 2025" />
     <MESSAGE value="update June 5 2025" />
     <MESSAGE value="update June 6 2025" />
@@ -595,7 +590,8 @@
     <MESSAGE value="logins" />
     <MESSAGE value="update after login" />
     <MESSAGE value="update score" />
-    <option name="LAST_COMMIT_MESSAGE" value="update score" />
+    <MESSAGE value="forgot password" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot password" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
