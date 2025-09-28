@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update after login">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update score">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/progress/register_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/register_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/progress/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/authorization/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/authorization/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00063" summary="update June 7 2025">
-      <option name="closed" value="true" />
-      <created>1749304380467</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1749304380467</updated>
     </task>
     <task id="LOCAL-00064" summary="test day mode">
       <option name="closed" value="true" />
@@ -551,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758724776427</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="update score">
+      <option name="closed" value="true" />
+      <created>1758784533523</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1758784533524</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -567,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="check exercise level statistics" />
     <MESSAGE value="home page" />
     <MESSAGE value="corrections June 3 2025" />
     <MESSAGE value="update June 5 2025" />
@@ -592,7 +594,8 @@
     <MESSAGE value="September 11" />
     <MESSAGE value="logins" />
     <MESSAGE value="update after login" />
-    <option name="LAST_COMMIT_MESSAGE" value="update after login" />
+    <MESSAGE value="update score" />
+    <option name="LAST_COMMIT_MESSAGE" value="update score" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,6 @@
 from flask import render_template, session, Response
+from flask_login import current_user
+
 from typing import cast
 
 from . import routes_bp
@@ -39,6 +41,7 @@ def home():
 @routes_bp.route('/settings', endpoint='settings')
 def settings():
     return render_template('menu/settings.html',
+                           email=current_user.email,
                            )
 
 

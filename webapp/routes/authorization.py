@@ -18,7 +18,6 @@ from webapp.routes.settings_api import get_or_create_settings
 
 from . import routes_bp
 
-'''
 from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 from flask import current_app
 
@@ -115,7 +114,6 @@ def reset_password(token):
 
     return render_template("authorization/reset_password.html", token=token)
 
-'''
 
 @routes_bp.route("/signin", methods=["GET", "POST"])
 def signin():
