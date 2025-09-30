@@ -511,6 +511,10 @@ QUESTION = {
         24: "{question} \u25CF {adjective}",
         25: "{question} \u25CF {case} \u25CF {adjective}",
         26: "{question} \u25CF {adjective}",
+        27: "{question} \u25CF {case} \u25CF {adjective}",
+        28: "{question} \u25CF {adjective}",
+        29: "{question} \u25CF {case} \u25CF {adjective}",
+        30: "{question} \u25CF {adjective}",
     },
 
     trennbare_verben: {

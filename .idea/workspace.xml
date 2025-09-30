@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="forgot password">
-      <change beforePath="$PROJECT_DIR$/webapp/templates/authorization/reset_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/authorization/reset_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/guidance_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/guidance_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/adjektive/adjektivdeklinationen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/adjektive/adjektivdeklinationen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00066" summary="test day mode">
-      <option name="closed" value="true" />
-      <created>1749398210357</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1749398210357</updated>
     </task>
     <task id="LOCAL-00067" summary="test day mode">
       <option name="closed" value="true" />
@@ -548,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759054838151</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="forgot password">
+      <option name="closed" value="true" />
+      <created>1759055353296</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1759055353296</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

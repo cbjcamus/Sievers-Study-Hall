@@ -362,6 +362,10 @@ DESCRIPTION = {
         24: "Adjective Declensions of Singular Articles \"etwas\", \"viel\", \"mehr\" in sentences",
         25: "Adjective Declensions of Plural Articles \"alle\", \"viele\" in isolation",
         26: "Adjective Declensions of Plural Articles \"alle\", \"viele\" in sentences",
+        27: "Comparative Adjective Declensions in isolation",
+        28: "Comparative Adjective Declensions in sentences",
+        29: "Superlative Adjective Declensions in isolation",
+        30: "Superlative Adjective Declensions in sentences",
     },
 
     trennbare_verben: {

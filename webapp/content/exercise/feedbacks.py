@@ -674,6 +674,14 @@ FEEDBACK = {
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
         26: "{german}"
             "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        27: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        28: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        29: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
+        30: "{german}"
+            "<br><br>{article}, {gender}, {case} → {correct_answers}",
     },
 
     trennbare_verben: {

@@ -605,6 +605,46 @@ guidance_adjektivdeklinationen_sentences = (
     f"<br><br>{ICON_CHECK} klugen"
 )
 
+guidance_adjektivdeklinationen_comparative_isolation = (
+    "For each question, you will be provided a German phrase with a case and an adjective."
+    "<br><br>Complete the phrase with the declined <b>comparative</b> adjective, taking into account the article,"
+    " the gender of the noun and the grammatical case."
+
+    "<h2>Example</h2>"
+    "ein _____ Vater \u25CF Nominativ \u25CF nett"
+    f"<br><br>{ICON_CHECK} netterer"
+)
+
+guidance_adjektivdeklinationen_comparative_sentences = (
+    "For each question, you will be provided an incomplete German sentence and an adjective."
+    "<br><br>Complete the sentence with the <b>comparative</b> adjective properly declined, taking into account the article,"
+    " the gender of the noun and the grammatical case."
+
+    "<h2>Example</h2>"
+    "Der _____ Hund läuft im Garten. \u25CF groß"
+    f"<br><br>{ICON_CHECK} größere"
+)
+
+guidance_adjektivdeklinationen_superlative_isolation = (
+    "For each question, you will be provided a German phrase with a case and an adjective."
+    "<br><br>Complete the phrase with the declined <b>superlative</b> adjective, taking into account the article,"
+    " the gender of the noun and the grammatical case."
+
+    "<h2>Example</h2>"
+    "der _____ Vater \u25CF Nominativ \u25CF nett"
+    f"<br><br>{ICON_CHECK} netteste"
+)
+
+guidance_adjektivdeklinationen_superlative_sentences = (
+    "For each question, you will be provided an incomplete German sentence and an adjective."
+    "<br><br>Complete the sentence with the <b>superlative</b> adjective properly declined, taking into account the article,"
+    " the gender of the noun and the grammatical case."
+
+    "<h2>Example</h2>"
+    "Die _____ Blume steht auf dem Tisch. \u25CF schön"
+    f"<br><br>{ICON_CHECK} schönste"
+)
+
 guidance_trennbare_verben_root = (
     "For each question, you will be provided the English translation of a German (un)trennbare verb as well as its root."
     "<br><br>Find the German verb that correspond to the translation and root."
@@ -1039,6 +1079,10 @@ GUIDANCE_EXERCISE = {
         24: guidance_adjektivdeklinationen_sentences,
         25: guidance_adjektivdeklinationen_isolation,
         26: guidance_adjektivdeklinationen_sentences,
+        27: guidance_adjektivdeklinationen_comparative_isolation,
+        28: guidance_adjektivdeklinationen_comparative_sentences,
+        29: guidance_adjektivdeklinationen_superlative_isolation,
+        30: guidance_adjektivdeklinationen_superlative_sentences,
     },
 
     trennbare_verben: {

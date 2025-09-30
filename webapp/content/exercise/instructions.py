@@ -368,6 +368,10 @@ INSTRUCTION = {
         24: "Complete the sentence with the correct form of the specified adjective:",
         25: "Complete the sentence with the correct form of the specified adjective:",
         26: "Complete the sentence with the correct form of the specified adjective:",
+        27: "Complete the sentence with the correct comparative form of the specified adjective:",
+        28: "Complete the sentence with the correct comparative form of the specified adjective:",
+        29: "Complete the sentence with the correct superlative form of the specified adjective:",
+        30: "Complete the sentence with the correct superlative form of the specified adjective:",
     },
 
     trennbare_verben: {
