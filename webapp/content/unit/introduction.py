@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel,
-    artikel, pronomen, konnektoren, fragen, adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -35,6 +35,9 @@ INTRODUCTION = {
         "Articles marinated in every grammatical cases."
         "<br><br>Includes definite, indefinite, negative, possessive, demonstrative articles and much more."
         "<br><br>If you get headaches, it means you're learning.",
+    artikel_genus:
+        "A Dance of Der Die Das."
+        "<br><br>The list of nouns comes from the Goethe Institut.",
     pronomen:
         "Pronouns in every grammatical cases."
         "<br><br>Not genitive though, there are no genitive pronoun in German. Latin does have genitive pronoun,"

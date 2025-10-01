@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
-    artikel, pronomen, konnektoren, fragen, adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -253,6 +253,99 @@ QUESTION = {
 
         42: "{question} \u25CF {gender}, {case}",
         43: "{question}"
+            "<br><br><i>{english}</i>",
+    },
+
+    artikel_genus: {
+        1: "{question}"
+            "<br><br><i>{english}</i>",
+        2: "{question}"
+           "<br><br><i>{english}</i>",
+        3: "{question}"
+           "<br><br><i>{english}</i>",
+        4: "{question}"
+           "<br><br><i>{english}</i>",
+        5: "{question}"
+           "<br><br><i>{english}</i>",
+        6: "{question}"
+           "<br><br><i>{english}</i>",
+        7: "{question}"
+           "<br><br><i>{english}</i>",
+        8: "{question}"
+           "<br><br><i>{english}</i>",
+        9: "{question}"
+           "<br><br><i>{english}</i>",
+        10: "{question}"
+           "<br><br><i>{english}</i>",
+
+        11: "{question}"
+           "<br><br><i>{english}</i>",
+        12: "{question}"
+           "<br><br><i>{english}</i>",
+        13: "{question}"
+           "<br><br><i>{english}</i>",
+        14: "{question}"
+           "<br><br><i>{english}</i>",
+        15: "{question}"
+           "<br><br><i>{english}</i>",
+        16: "{question}"
+           "<br><br><i>{english}</i>",
+        17: "{question}"
+           "<br><br><i>{english}</i>",
+        18: "{question}"
+           "<br><br><i>{english}</i>",
+
+        19: "{question}"
+           "<br><br><i>{english}</i>",
+        20: "{question}"
+            "<br><br><i>{english}</i>",
+        21: "{question}"
+           "<br><br><i>{english}</i>",
+        22: "{question}"
+           "<br><br><i>{english}</i>",
+        23: "{question}"
+           "<br><br><i>{english}</i>",
+        24: "{question}"
+           "<br><br><i>{english}</i>",
+        25: "{question}"
+           "<br><br><i>{english}</i>",
+        26: "{question}"
+           "<br><br><i>{english}</i>",
+        27: "{question}"
+           "<br><br><i>{english}</i>",
+        28: "{question}"
+           "<br><br><i>{english}</i>",
+        29: "{question}"
+           "<br><br><i>{english}</i>",
+        30: "{question}"
+            "<br><br><i>{english}</i>",
+        31: "{question}"
+           "<br><br><i>{english}</i>",
+        32: "{question}"
+           "<br><br><i>{english}</i>",
+        33: "{question}"
+           "<br><br><i>{english}</i>",
+        34: "{question}"
+           "<br><br><i>{english}</i>",
+        35: "{question}"
+           "<br><br><i>{english}</i>",
+        36: "{question}"
+           "<br><br><i>{english}</i>",
+        37: "{question}"
+           "<br><br><i>{english}</i>",
+        38: "{question}"
+           "<br><br><i>{english}</i>",
+        39: "{question}"
+           "<br><br><i>{english}</i>",
+        40: "{question}"
+            "<br><br><i>{english}</i>",
+        41: "{question}"
+            "<br><br><i>{english}</i>",
+        42: "{question}"
+            "<br><br><i>{english}</i>",
+        43: "{question}"
+            "<br><br><i>{english}</i>",
+        44: "{question}"
             "<br><br><i>{english}</i>",
     },
 
