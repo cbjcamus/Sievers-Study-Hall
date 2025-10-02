@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="forgot password">
-      <change afterPath="$PROJECT_DIR$/data/datasets/grammatik/artikel_genus.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/templates/grammatik/artikel_genus.html" afterDir="false" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="Artikel – Genus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/units.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/units.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/back_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/back_button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/guidance_unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/guidance_unit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/introduction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/stars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/template_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/template_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/title_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/title_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/unit_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/unit_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,49 +57,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Unnamed.executor": "Run",
-    "Python.access_counter.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.artikel.executor": "Run",
-    "Python.combine_csv.executor": "Run",
-    "Python.delete_scores.executor": "Run",
-    "Python.deutschtrainer.executor": "Run",
-    "Python.former_app.executor": "Run",
-    "Python.graphs.executor": "Run",
-    "Python.level1.executor": "Run",
-    "Python.local.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.normalization.executor": "Run",
-    "Python.objects.executor": "Run",
-    "Python.perfekt.executor": "Run",
-    "Python.personal_pronomen.executor": "Run",
-    "Python.praepositionen_konjugation.executor": "Run",
-    "Python.praeteritum.executor": "Run",
-    "Python.prateritum.executor": "Run",
-    "Python.proverbs.executor": "Run",
-    "Python.question_templates.executor": "Run",
-    "Python.relativesaetze.executor": "Run",
-    "Python.score.executor": "Debug",
-    "Python.session_.executor": "Run",
-    "Python.startpage.executor": "Run",
-    "Python.statistics.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.verben.executor": "Run",
-    "Python.verben_praepositionen.executor": "Run",
-    "Python.webapp.executor": "Run",
-    "Python.widgets.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/grammatik",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.access_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.artikel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_scores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deutschtrainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.former_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.local.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.normalization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.objects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.perfekt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.personal_pronomen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.praepositionen_konjugation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.praeteritum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prateritum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proverbs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.question_templates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.relativesaetze.executor&quot;: &quot;Run&quot;,
+    &quot;Python.score.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.session_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.startpage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.statistics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verben.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verben_praepositionen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.webapp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.widgets.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/grammatik&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webapp/templates/grammatik" />
@@ -171,14 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00068" summary="test day mode">
-      <option name="closed" value="true" />
-      <created>1749399936946</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1749399936946</updated>
     </task>
     <task id="LOCAL-00069" summary="test day mode">
       <option name="closed" value="true" />
@@ -564,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759221054382</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Artikel – Genus">
+      <option name="closed" value="true" />
+      <created>1759340838458</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1759340838458</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -580,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="corrections June 3 2025" />
     <MESSAGE value="update June 5 2025" />
     <MESSAGE value="update June 6 2025" />
     <MESSAGE value="update June 7 2025" />
@@ -605,7 +588,8 @@
     <MESSAGE value="update after login" />
     <MESSAGE value="update score" />
     <MESSAGE value="forgot password" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot password" />
+    <MESSAGE value="Artikel – Genus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Artikel – Genus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
