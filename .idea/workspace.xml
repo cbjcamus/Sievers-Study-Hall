@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="Artikel – Genus">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="Artikel – Genus levels">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/artikel_genus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/artikel_genus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/levels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/levels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/descriptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/feedbacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/instructions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/grammatik/artikel_genus.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/grammatik/artikel_genus.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00069" summary="test day mode">
-      <option name="closed" value="true" />
-      <created>1749400554450</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1749400554450</updated>
     </task>
     <task id="LOCAL-00070" summary="test day mode">
       <option name="closed" value="true" />
@@ -548,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759340838458</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Artikel – Genus levels">
+      <option name="closed" value="true" />
+      <created>1759395560786</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1759395560787</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -564,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update June 5 2025" />
     <MESSAGE value="update June 6 2025" />
     <MESSAGE value="update June 7 2025" />
     <MESSAGE value="test day mode" />
@@ -589,7 +595,8 @@
     <MESSAGE value="update score" />
     <MESSAGE value="forgot password" />
     <MESSAGE value="Artikel – Genus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Artikel – Genus" />
+    <MESSAGE value="Artikel – Genus levels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Artikel – Genus levels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

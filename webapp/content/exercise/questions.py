@@ -277,7 +277,6 @@ QUESTION = {
            "<br><br><i>{english}</i>",
         10: "{question}"
            "<br><br><i>{english}</i>",
-
         11: "{question}"
            "<br><br><i>{english}</i>",
         12: "{question}"
@@ -294,11 +293,11 @@ QUESTION = {
            "<br><br><i>{english}</i>",
         18: "{question}"
            "<br><br><i>{english}</i>",
-
         19: "{question}"
            "<br><br><i>{english}</i>",
         20: "{question}"
             "<br><br><i>{english}</i>",
+
         21: "{question}"
            "<br><br><i>{english}</i>",
         22: "{question}"
@@ -329,6 +328,7 @@ QUESTION = {
            "<br><br><i>{english}</i>",
         35: "{question}"
            "<br><br><i>{english}</i>",
+
         36: "{question}"
            "<br><br><i>{english}</i>",
         37: "{question}"
@@ -346,6 +346,92 @@ QUESTION = {
         43: "{question}"
             "<br><br><i>{english}</i>",
         44: "{question}"
+            "<br><br><i>{english}</i>",
+        45: "{question}"
+            "<br><br><i>{english}</i>",
+        46: "{question}"
+            "<br><br><i>{english}</i>",
+        47: "{question}"
+            "<br><br><i>{english}</i>",
+        48: "{question}"
+            "<br><br><i>{english}</i>",
+        49: "{question}"
+            "<br><br><i>{english}</i>",
+        50: "{question}"
+            "<br><br><i>{english}</i>",
+        51: "{question}"
+            "<br><br><i>{english}</i>",
+        52: "{question}"
+            "<br><br><i>{english}</i>",
+        53: "{question}"
+            "<br><br><i>{english}</i>",
+        54: "{question}"
+            "<br><br><i>{english}</i>",
+        55: "{question}"
+            "<br><br><i>{english}</i>",
+        56: "{question}"
+            "<br><br><i>{english}</i>",
+        57: "{question}"
+            "<br><br><i>{english}</i>",
+        58: "{question}"
+            "<br><br><i>{english}</i>",
+        59: "{question}"
+            "<br><br><i>{english}</i>",
+        60: "{question}"
+            "<br><br><i>{english}</i>",
+        61: "{question}"
+            "<br><br><i>{english}</i>",
+        62: "{question}"
+            "<br><br><i>{english}</i>",
+        63: "{question}"
+            "<br><br><i>{english}</i>",
+        64: "{question}"
+            "<br><br><i>{english}</i>",
+        65: "{question}"
+            "<br><br><i>{english}</i>",
+        66: "{question}"
+            "<br><br><i>{english}</i>",
+        67: "{question}"
+            "<br><br><i>{english}</i>",
+        68: "{question}"
+            "<br><br><i>{english}</i>",
+        69: "{question}"
+            "<br><br><i>{english}</i>",
+        70: "{question}"
+            "<br><br><i>{english}</i>",
+        71: "{question}"
+            "<br><br><i>{english}</i>",
+        72: "{question}"
+            "<br><br><i>{english}</i>",
+        73: "{question}"
+            "<br><br><i>{english}</i>",
+        74: "{question}"
+            "<br><br><i>{english}</i>",
+        75: "{question}"
+            "<br><br><i>{english}</i>",
+        76: "{question}"
+            "<br><br><i>{english}</i>",
+        77: "{question}"
+            "<br><br><i>{english}</i>",
+        78: "{question}"
+            "<br><br><i>{english}</i>",
+        79: "{question}"
+            "<br><br><i>{english}</i>",
+        80: "{question}"
+            "<br><br><i>{english}</i>",
+        81: "{question}"
+            "<br><br><i>{english}</i>",
+        82: "{question}"
+            "<br><br><i>{english}</i>",
+        83: "{question}"
+            "<br><br><i>{english}</i>",
+        84: "{question}"
+            "<br><br><i>{english}</i>",
+        85: "{question}"
+            "<br><br><i>{english}</i>",
+        86: "{question}"
+            "<br><br><i>{english}</i>",
+        87: "{question}"
             "<br><br><i>{english}</i>",
     },
 

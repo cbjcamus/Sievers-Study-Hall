@@ -377,7 +377,6 @@ FEEDBACK = {
            "<br><br><i>{english}</i>",
         10: "{german}"
            "<br><br><i>{english}</i>",
-
         11: "{german}"
            "<br><br><i>{english}</i>",
         12: "{german}"
@@ -394,11 +393,11 @@ FEEDBACK = {
            "<br><br><i>{english}</i>",
         18: "{german}"
            "<br><br><i>{english}</i>",
-
         19: "{german}"
            "<br><br><i>{english}</i>",
         20: "{german}"
             "<br><br><i>{english}</i>",
+
         21: "{german}"
             "<br><br><i>{english}</i>",
         22: "{german}"
@@ -429,6 +428,7 @@ FEEDBACK = {
             "<br><br><i>{english}</i>",
         35: "{german}"
             "<br><br><i>{english}</i>",
+
         36: "{german}"
             "<br><br><i>{english}</i>",
         37: "{german}"
@@ -446,6 +446,92 @@ FEEDBACK = {
         43: "{german}"
             "<br><br><i>{english}</i>",
         44: "{german}"
+            "<br><br><i>{english}</i>",
+        45: "{german}"
+            "<br><br><i>{english}</i>",
+        46: "{german}"
+            "<br><br><i>{english}</i>",
+        47: "{german}"
+            "<br><br><i>{english}</i>",
+        48: "{german}"
+            "<br><br><i>{english}</i>",
+        49: "{german}"
+            "<br><br><i>{english}</i>",
+        50: "{german}"
+            "<br><br><i>{english}</i>",
+        51: "{german}"
+            "<br><br><i>{english}</i>",
+        52: "{german}"
+            "<br><br><i>{english}</i>",
+        53: "{german}"
+            "<br><br><i>{english}</i>",
+        54: "{german}"
+            "<br><br><i>{english}</i>",
+        55: "{german}"
+            "<br><br><i>{english}</i>",
+        56: "{german}"
+            "<br><br><i>{english}</i>",
+        57: "{german}"
+            "<br><br><i>{english}</i>",
+        58: "{german}"
+            "<br><br><i>{english}</i>",
+        59: "{german}"
+            "<br><br><i>{english}</i>",
+        60: "{german}"
+            "<br><br><i>{english}</i>",
+        61: "{german}"
+            "<br><br><i>{english}</i>",
+        62: "{german}"
+            "<br><br><i>{english}</i>",
+        63: "{german}"
+            "<br><br><i>{english}</i>",
+        64: "{german}"
+            "<br><br><i>{english}</i>",
+        65: "{german}"
+            "<br><br><i>{english}</i>",
+        66: "{german}"
+            "<br><br><i>{english}</i>",
+        67: "{german}"
+            "<br><br><i>{english}</i>",
+        68: "{german}"
+            "<br><br><i>{english}</i>",
+        69: "{german}"
+            "<br><br><i>{english}</i>",
+        70: "{german}"
+            "<br><br><i>{english}</i>",
+        71: "{german}"
+            "<br><br><i>{english}</i>",
+        72: "{german}"
+            "<br><br><i>{english}</i>",
+        73: "{german}"
+            "<br><br><i>{english}</i>",
+        74: "{german}"
+            "<br><br><i>{english}</i>",
+        75: "{german}"
+            "<br><br><i>{english}</i>",
+        76: "{german}"
+            "<br><br><i>{english}</i>",
+        77: "{german}"
+            "<br><br><i>{english}</i>",
+        78: "{german}"
+            "<br><br><i>{english}</i>",
+        79: "{german}"
+            "<br><br><i>{english}</i>",
+        80: "{german}"
+            "<br><br><i>{english}</i>",
+        81: "{german}"
+            "<br><br><i>{english}</i>",
+        82: "{german}"
+            "<br><br><i>{english}</i>",
+        83: "{german}"
+            "<br><br><i>{english}</i>",
+        84: "{german}"
+            "<br><br><i>{english}</i>",
+        85: "{german}"
+            "<br><br><i>{english}</i>",
+        86: "{german}"
+            "<br><br><i>{english}</i>",
+        87: "{german}"
             "<br><br><i>{english}</i>",
     },
 
