@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="nomen - verben verbindungen and French">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="language log">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/session_management/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/session_management/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/adverbien.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,14 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00072" summary="imperative">
-      <option name="closed" value="true" />
-      <created>1749537319151</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1749537319152</updated>
     </task>
     <task id="LOCAL-00073" summary="praeteritum">
       <option name="closed" value="true" />
@@ -549,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761116606244</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="language log">
+      <option name="closed" value="true" />
+      <created>1761120164524</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1761120164524</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -565,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test day mode" />
     <MESSAGE value="imperative" />
     <MESSAGE value="praeteritum" />
     <MESSAGE value="June 16th, 2025" />
@@ -590,7 +590,8 @@
     <MESSAGE value="Artikel – Genus levels" />
     <MESSAGE value="Artikel – Genus update exercises" />
     <MESSAGE value="nomen - verben verbindungen and French" />
-    <option name="LAST_COMMIT_MESSAGE" value="nomen - verben verbindungen and French" />
+    <MESSAGE value="language log" />
+    <option name="LAST_COMMIT_MESSAGE" value="language log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

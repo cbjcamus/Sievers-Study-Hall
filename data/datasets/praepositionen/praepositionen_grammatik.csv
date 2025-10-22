@@ -16,7 +16,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 15,1,_____ Morgen trinke ich immer Kaffee.,Am,Am Morgen trinke ich immer Kaffee.,"In the morning, I always drink coffee.","Le matin, je bois toujours du café.",to indicate a part of the day or a day of the week → an + Dat.,pour indiquer une période de la journée ou un jour de la semaine → an + Dat.,,
 16,1,Ich arbeite _____ 18 Uhr.,bis,Ich arbeite bis 18 Uhr.,I work until 6 PM.,Je travaille jusqu'à 18 heures.,general translation of <i>until</i> → bis + Acc.,traduction générale de <i>jusqu'à</i> → bis + Acc.,,
 17,1,Das Museum ist _____ 20 Uhr geöffnet.,bis,Das Museum ist bis 20 Uhr geöffnet.,The museum is open until 8 PM.,Le musée est ouvert jusqu'à 20h.,general translation of <i>until</i> → bis + Acc.,traduction générale de <i>jusqu'à</i> → bis + Acc.,,
-18,1,_____ nächste Woche muss ich meine Hausaufgaben machen.,Bis,Bis nächste Woche muss ich meine Hausaufgaben machen.,I have to do my homework by next week.,Je dois faire mes devoirs la semaine prochaine.,general translation of <i>until</i> → bis + Acc.,traduction générale de <i>jusqu'à</i> → bis + Acc.,,
+18,1,_____ nächste Woche muss ich meine Hausaufgaben machen.,Bis,Er hat bis fünf Uhr gearbeitet.,He worked until five o'clock.,Il a travaillé jusqu'à cinq heures.,general translation of <i>until</i> → bis + Acc.,traduction générale de <i>jusqu'à</i> → bis + Acc.,,
 19,1,Wir bleiben _____ Sonntag in Hamburg.,bis,Wir bleiben bis Sonntag in Hamburg.,We are staying in Hamburg until Sunday.,Nous restons à Hambourg jusqu'à dimanche.,general translation of <i>until</i> → bis + Acc.,traduction générale de <i>jusqu'à</i> → bis + Acc.,,
 20,1,_____ zum Sommer möchte ich Deutsch lernen.,Bis,Bis zum Sommer möchte ich Deutsch lernen.,I want to learn German by the summer.,Je veux apprendre l'allemand d'ici l'été.,general translation of <i>until</i> → bis + Acc.,traduction générale de <i>jusqu'à</i> → bis + Acc.,,
 21,1,Ich wohne _____ 2018 in Berlin.,seit,Ich wohne seit 2018 in Berlin.,I have been living in Berlin since 2018.,Je vis à Berlin depuis 2018.,general translation of <i>since</i> → seit + Dat.,traduction générale de <i>depuis</i> → seit + Dat.,,
@@ -785,7 +785,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 784,20,Der Kunde äußerte Bedenken _____ der Produktqualität.,bezüglich,Der Kunde äußerte Bedenken bezüglich der Produktqualität.,The customer expressed concerns regarding the product quality.,Le client a exprimé des inquiétudes concernant la qualité du produit.,regarding = bezüglich,concernant = bezüglich,,
 785,20,_____ Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,Bezüglich,Bezüglich Ihrer Anfrage haben wir bereits alle notwendigen Schritte eingeleitet.,"With respect to your inquiry, we have already initiated all necessary steps.","En ce qui concerne votre demande, nous avons déjà entrepris toutes les démarches nécessaires.",regarding = bezüglich,concernant = bezüglich,,
 786,100,for the sake of,zuliebe,,,,,,,
-787,100,for the sake of,halber,,,,,,,
+787,100,for the sake of,halber,,,,,,Genitive,Génitif
 788,100,,um willen,,,,,,,
 789,100,,von an,,,,,,,
 790,100,,von wegen,,,,,,,
