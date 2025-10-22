@@ -2,6 +2,10 @@ import pandas as pd
 import os
 import random
 
+from flask import session, request
+from webapp.i18n import get_language
+
+
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PROVERBS_PATH = os.path.join(BASE_DIR, "datasets/other", "proverbs.csv")
 
@@ -25,10 +29,12 @@ def get_text_proverb():
     """
     proverb = get_random_proverb()
     random_number = random.random()
+    language = get_language(request, session)
+
     if random_number > 0.9:
         formatted_proverb = (f"<b>{change_color(text='Proverb', color='#DAA520')}</b>" # #DAA520
                 f"<br><br>{proverb['german']}"
-                f"<br><br><i>{proverb['english']}</i>")
+                f"<br><br><i>{proverb[language]}</i>")
         return formatted_proverb
     else:
         return None

@@ -1,7 +1,21 @@
 import unicodedata
 
+from flask import session, request
+
 from data.data_processing.units import konnektoren
 from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH, get_list_of_synonyms_for_feedback
+from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice, get_answer_column
+
+from webapp.i18n import get_language
+
+
+def get_correct_answer(unit, exercise, question_data):
+    language = get_language(request, session)
+
+    if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise) == "foreign":
+        return question_data.get(language, "")
+    else:
+        return question_data.get("answer", "")
 
 
 def is_user_answer_correct(user_answer, correct_answer, question, unit):

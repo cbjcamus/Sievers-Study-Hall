@@ -27,7 +27,7 @@
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
     {{ render_title(title_page[unit]) }}
-    <h2 class="exercise-title">Exercise {{ exercise }}</h2>
+    <h2 class="exercise-title">{{ exercise_title }} {{ exercise }}</h2>
 
     {% if instruction_text %}
         <div class="instruction-container">
@@ -82,7 +82,7 @@
     </div>
 
     <div class="back-button-container">
-        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">Back to {{ back_page[unit] }}</a>
+        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }}</a>
     </div>
 
     <script src="/webapp/static/toggleDayMode.js"></script>

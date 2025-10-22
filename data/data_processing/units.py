@@ -17,6 +17,7 @@ adjektivdeklinationen = 'adjektivdeklinationen'
 
 verben = 'verben'
 trennbare_verben = 'trennbare_verben'
+nomen_verben_verbindungen = 'nomen_verben_verbindungen'
 
 praesens = 'praesens'
 imperativ = 'imperativ'
@@ -27,14 +28,12 @@ konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
 
-deverbale_nomen = 'deverbale_nomen'
-
-
-units = [praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-         praepositionen_adverbien, praepositionen_artikel,
-         artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, adjektivdeklinationen,
-         adjektive, deverbale_nomen,
-         verben, trennbare_verben,
-         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I,
-         partizip_I,
-         ]
+units = [
+    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
+    praepositionen_adverbien, praepositionen_artikel,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    adjektive, adjektivdeklinationen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I,
+    partizip_I,
+]

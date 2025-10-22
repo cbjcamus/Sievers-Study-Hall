@@ -1,12 +1,16 @@
 import pandas as pd
 
+from flask import session, request
 from flask_login import current_user
 
 from data.data_processing.data_loading import load_data_exercise
 
 from users.progress.models import UserExerciseState
-from webapp.content.exercise.feedbacks import FEEDBACK
 from users.questions.normalization import get_list_of_correct_answers
+
+from webapp.i18n import get_language
+from webapp.content.exercise.content_exercises import FEEDBACK
+
 
 def get_incorrect_answers(session, unit, exercise):
     """
@@ -124,21 +128,30 @@ def format_feedback(df, unit, exercise):
     Returns:
         list: A list of formatted feedback strings, one for each row in the DataFrame.
     """
-    template = FEEDBACK[unit][exercise]
+    language = get_language(request, session)
+    template = FEEDBACK[language][unit][exercise]
     result = []
     for _, row in df.iterrows():
         formatted = template.format(
             previous_question=row.get("question", ""),
             correct_answers=get_list_of_correct_answers(row.get("answer", ""), unit),
-            english=row.get("english", ""),
             german=row.get("german", ""),
+            english=row.get("english", ""),
+            french=row.get("french", ""),
             adjective=row.get("adjective", ""),
-            gender=row.get("gender", ""),
-            case=row.get("case", ""),
-            article=row.get("article", ""),
+            gender_english=row.get("gender_english", ""),
+            gender_french=row.get("gender_french", ""),
+            case_english=row.get("case_english", ""),
+            case_french=row.get("case_french", ""),
+            article_english=row.get("article_english", ""),
+            article_french=row.get("article_french", ""),
             person=row.get("person", ""),
             prefix=row.get("prefix", ""),
-            explanation=row.get("explanation", "")
+            explanation_english=row.get("explanation_english", ""),
+            explanation_french=row.get("explanation_french", ""),
+            root_german=row.get("root_german", ""),
+            root_english=row.get("root_english", ""),
+            root_french=row.get("root_french", ""),
         )
         result.append(formatted)
     return result

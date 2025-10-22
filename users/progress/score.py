@@ -160,7 +160,7 @@ def compute_ratio_correct_answers(trues, falses):
     if trues + falses == 0:
         return None
     else:
-        return trues / (trues + falses)
+        return round(trues / (trues + falses), 2)
 
 
 def compute_trues_and_falses(session, unit, exercise):

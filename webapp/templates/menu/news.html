@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Sievers Study Hall – Practice German for Free</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros.html" import render_title with context %}
+{% from "macros.html" import render_unit_table_row %}
+
+    {{ render_title("Sievers Study Hall") }}
+
+    <div class="section">
+        <h2>Recent Updates</h2>
+        <ul>
+            <li>You can <a href="https://www.sieversstudyhall.com/signup" >sign up</a> to create an account and save your progress across multiple devices.</li>
+            <li>Multiple-choice exercises in <a href="https://www.sieversstudyhall.com/verben" target="_blank">Verben</a>, <a href="https://www.sieversstudyhall.com/adjektive" target="_blank">Adjektive</a>, and <a href="https://www.sieversstudyhall.com/adverbien" target="_blank">Adverbien</a>.</li>
+        </ul>
+
+        <p>More on updates <a href="https://sieversstudyhall.substack.com/p/updates" target="_blank">here</a>.</p>
+
+    </div>
+
+    <div class="section">
+        <h2>Latest Blog Entries</h2>
+        <ul>
+            <li><a href="https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to" target="_blank">Genders of German Noun from A1 to C1</a></li>
+            <li><a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up" target="_blank">Basic German prepositions uses up to B2</a></li>
+        </ul>
+
+        <p>Subscribe to the Substack <a href="https://sieversstudyhall.substack.com/?r=5t7it6&utm_campaign=pub&utm_medium=web" target="_blank">newsletter</a> to get the next entries in your mailbox.</p>
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

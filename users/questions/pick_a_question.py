@@ -1,11 +1,15 @@
 import random
 
+from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.data_loading import load_data_exercise, load_data_level, is_exercise_multiple_choice
+from data.data_processing.data_loading import (load_data_exercise, load_data_level, is_exercise_multiple_choice,
+get_answer_column, get_question_column)
 
 from users.progress.models import UserExerciseState
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
+
+from webapp.i18n import get_language
 
 
 def pick_a_question(session, unit, exercise):
@@ -30,9 +34,6 @@ def pick_a_question(session, unit, exercise):
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
     ex_str = str(ex_int)
 
-    # ------------------------------------------------------------------
-    # Logged-in: filter with DB state
-    # ------------------------------------------------------------------
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(
             user_id=current_user.id, unit=unit, exercise=ex_int
@@ -84,6 +85,22 @@ def shuffle_options(correct_answer, other_answers):
     options = [correct_answer] + other_answers
     random.shuffle(options)
     return options
+
+
+def get_options_for_multiple_choice_exercises(unit, exercise, question_data):
+    other_options = pick_other_options(unit, exercise, question_data)
+
+    language = get_language(request, session)
+
+    if get_answer_column(unit, exercise) == "foreign":
+        other_question_text = [str(option[language]) for option in other_options]
+        options_text = shuffle_options(str(question_data[language]), other_question_text)
+
+    else:
+        other_question_text = [str(option["answer"]) for option in other_options]
+        options_text = shuffle_options(str(question_data["answer"]), other_question_text)
+
+    return options_text
 
 
 def is_exercise_finished(session, unit, exercise):
@@ -142,7 +159,13 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
     else:
         data = load_data_level(unit, exercise)
 
-        match = data.loc[data['answer'] == incorrect_answer, 'question']
+        language = get_language(request, session)
+
+        if get_question_column(unit, exercise) == "foreign":
+            match = data.loc[data['answer'] == incorrect_answer, language]
+
+        else:
+            match = data.loc[data[language] == incorrect_answer, 'question']
 
         if not match.empty:
             question = match.iloc[0]

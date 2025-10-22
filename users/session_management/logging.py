@@ -1,7 +1,9 @@
 import os
-from flask import request
+from flask import request, session
 from datetime import datetime
 from data.data_processing.levels import get_level_from_exercise
+
+from webapp.i18n import get_language
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LOGS_DIR = os.path.join(BASE_DIR, "../logs")
@@ -27,16 +29,17 @@ def log_exercise_completed(unit, exercise, score, email=None):
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(EXERCISE_COMPLETED_PATH, "Nr; email; IP; date; unit; exercise; level; score")
+    create_file(EXERCISE_COMPLETED_PATH, "Nr; email; IP; date; unit; exercise; level; score; language")
 
     next_nr = get_next_number(EXERCISE_COMPLETED_PATH)
     level = get_level_from_exercise(unit, exercise)
 
     forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
     user_ip = forwarded_for.split(',')[0].strip()  # Take the first IP if there are multiple
+    language = get_language(request, session)
 
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {level}; {score}")
+        file.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {level}; {score}; {language}")
     return
 
 
@@ -91,15 +94,16 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; result; feedback_message; user_answer")
+    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; result; feedback_message; user_answer; language")
 
     next_nr = get_next_number(QUESTION_FLAGGED_PATH)
 
     forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
     user_ip = forwarded_for.split(',')[0].strip()
+    language = get_language(request, session)
 
     with open(QUESTION_FLAGGED_PATH, "a", encoding="utf-8") as filepath:
-        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {result}; {feedback_message}; {user_answer}")
+        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {result}; {feedback_message}; {user_answer}; {language}")
     return
 
 

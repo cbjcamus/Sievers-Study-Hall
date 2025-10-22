@@ -86,6 +86,74 @@ body.day-mode .menu a:hover {
     display: flex;
 }
 
+.lang-container {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 1001;
+}
+
+.lang-button {
+    font-size: 20px;
+    line-height: 1;
+    padding: 6px 10px;
+    border-radius: 0px;
+    border: 0px solid #ccc;
+    background: #131b22;
+    color: white;
+    cursor: pointer;
+}
+
+body.day-mode .lang-button {
+    background: #deedfa;
+    color: black;
+    border: 0px solid black;
+}
+
+.lang-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    background-color: #131b22;
+    border: 1px solid #ccc;
+    min-width: 80px;
+    z-index: 1001;
+    flex-direction: column;
+}
+
+body.day-mode .lang-menu {
+    background-color: #deedfa;
+    color: black;
+    border: 1px solid black;
+}
+
+.lang-menu a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+body.day-mode .lang-menu a { color: black; }
+
+.lang-menu a:hover {
+    background-color: #1f2f40;
+}
+
+body.day-mode .lang-menu a:hover {
+    background-color: #3d6a85;
+}
+
+.lang-menu.show { display: flex; }
+
+.lang-menu a.active {
+    font-weight: bold;
+    pointer-events: none; /* current language non-clickable */
+    opacity: 0.8;
+}
+
 h1 {
     text-align: center;
     margin-top: 0px;
@@ -297,7 +365,7 @@ body.day-mode .special-chars button:hover {
     cursor: pointer;
     border-radius: 5px;
     margin-top: 15px;
-    width: 112px;
+    width: 120px;
     text-align: center;
     margin-bottom: 10px;
     text-decoration: none;

@@ -1,4 +1,4 @@
-from flask import render_template, session, Response
+from flask import render_template, session, Response, request
 from flask_login import current_user
 
 from typing import cast
@@ -11,12 +11,16 @@ from users.progress.score import write_score
 from users.progress.progress import compute_answered_questions
 from users.questions.total_questions import compute_total_questions
 
+from webapp.i18n import get_language
+
 from webapp.content.unit.stars import STARS
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
-from webapp.content.exercise.descriptions import DESCRIPTION
+from webapp.content.exercise.content_exercises import DESCRIPTION
+
+from webapp.content.application.buttons import HOMEPAGE
 
 from webapp.style.icons import STAR_GOLD
 
@@ -45,15 +49,21 @@ def settings():
                            )
 
 
-@routes_bp.route('/settings_old', endpoint='settings_old')
-def settings_old():
-    return render_template('menu/settings_old.html',
-                           )
-
-
 @routes_bp.route('/contact', endpoint='contact')
 def contact():
     return render_template('menu/contact.html',
+                           )
+
+
+@routes_bp.route('/news', endpoint='news')
+def news():
+    return render_template('menu/news.html',
+                           )
+
+
+@routes_bp.route('/about', endpoint='about')
+def about():
+    return render_template('menu/about.html',
                            )
 
 
@@ -65,13 +75,15 @@ for unit in units:
         endpoint_name = f'dynamic_route_{unit}'
         @routes_bp.route(route_path, endpoint=endpoint_name)
         def dynamic_route():
-            introduction = INTRODUCTION.get(unit, {})
+            language = get_language(request, session)
+            introduction = INTRODUCTION[language].get(unit, {})
             return render_template(template,
                                    answered_questions=compute_answered_questions,
                                    total_questions=compute_total_questions,
                                    score=write_score,
                                    introduction=introduction,
-                                   description_templates=DESCRIPTION,
+                                   description_templates=DESCRIPTION[language],
+                                   homepage=HOMEPAGE[language],
                                    )
         return dynamic_route
 

@@ -3,12 +3,11 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
-    trennbare_verben, verben,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    deverbale_nomen
 )
 
-DESCRIPTION = {
+DESCRIPTION_EN = {
 
     praepositionen_grammatik: {
         1: "Temporal Prepositions in sentences",
@@ -79,12 +78,22 @@ DESCRIPTION = {
     praepositionen_adjektive: {
         1: "Up to B1 Adjective-Preposition pairs in isolation",
         2: "Up to B1 Adjective-Preposition pairs in sentences",
+        3: "Up to B1 Adjective-Preposition pairs in isolation",
+        4: "Up to B1 Adjective-Preposition pairs in sentences",
 
-        3: "B2 Adjective-Preposition pairs in isolation",
-        4: "B2 Adjective-Preposition pairs in sentences",
+        5: "B2 Adjective-Preposition pairs in isolation",
+        6: "B2 Adjective-Preposition pairs in sentences",
+        7: "B2 Adjective-Preposition pairs in isolation",
+        8: "B2 Adjective-Preposition pairs in sentences",
+        9: "B2 Adjective-Preposition pairs in isolation",
+        10: "B2 Adjective-Preposition pairs in sentences",
 
-        5: "C1 Adjective-Preposition pairs in isolation",
-        6: "C1 Adjective-Preposition pairs in sentences",
+        11: "C1 Adjective-Preposition pairs in isolation",
+        12: "C1 Adjective-Preposition pairs in sentences",
+        13: "C1 Adjective-Preposition pairs in isolation",
+        14: "C1 Adjective-Preposition pairs in sentences",
+        15: "C1 Adjective-Preposition pairs in isolation",
+        16: "C1 Adjective-Preposition pairs in sentences",
     },
 
     praepositionen_nomen: {
@@ -109,15 +118,16 @@ DESCRIPTION = {
     },
 
     praepositionen_artikel: {
-        1: "Articles and Pronouns from Präpositionen in sentences",
-        2: "Articles and Pronouns from Präpositionen in sentences",
-        3: "Articles and Pronouns from Präpositionen in sentences",
-        4: "Articles and Pronouns from Präpositionen – Verben in sentences",
-        5: "Articles and Pronouns from Präpositionen – Verben in sentences",
-        6: "Articles and Pronouns from Präpositionen in sentences",
-        7: "Articles and Pronouns from Präpositionen in sentences",
-        8: "Articles and Pronouns from Präpositionen – Verben in sentences",
-        9: "Articles and Pronouns from Präpositionen – Verben in sentences",
+        1: "Articles and Pronouns following Prepositions in sentences",
+        2: "Articles and Pronouns following Prepositions in sentences",
+        3: "Articles and Pronouns following Prepositions in sentences",
+        4: "Articles and Pronouns following Verb-Preposition pairs in sentences",
+        5: "Articles and Pronouns following Verb-Preposition pairs in sentences",
+
+        6: "Articles and Pronouns following Prepositions in sentences",
+        7: "Articles and Pronouns following Prepositions in sentences",
+        8: "Articles and Pronouns following Verb-Preposition pairs in sentences",
+        9: "Articles and Pronouns following Verb-Preposition pairs in sentences",
     },
 
     artikel: {
@@ -135,9 +145,9 @@ DESCRIPTION = {
         12: "Indefinite articles in the Nominative case in sentences",
         13: "Indefinite articles in the Accusative case in sentences",
         14: "Indefinite articles in the Dative case in sentences",
-        15: "Indefinite Feminine articles in the Nominative case in sentences",
-        16: "Indefinite Masculine articles in the Accusative case in sentences",
-        17: "Indefinite Neuter articles in the Dative case in sentences",
+        15: "Indefinite Feminine articles in sentences",
+        16: "Indefinite Masculine articles in sentences",
+        17: "Indefinite Neuter articles in sentences",
         18: "Mix of Indefinite articles in the Nominative, Accusative and Dative cases in sentences",
         19: "Mix of Indefinite articles in the Nominative, Accusative and Dative cases in sentences",
         20: "Negative articles <i>Kein</i> in isolation",
@@ -302,17 +312,17 @@ DESCRIPTION = {
 
         5: "B1 Connectors in isolation",
         6: "B1 Connectors in sentences",
-        7: "Synonyms of Connectors at B1 level",
+        7: "Synonyms of Connectors at B1 level in isolation",
 
         8: "B2 Connectors in isolation",
         9: "B2 Connectors in sentences",
         10: "B2 Connectors in isolation",
         11: "B2 Connectors in sentences",
-        12: "Synonyms of Connectors at B2 level",
+        12: "Synonyms of Connectors at B2 level in isolation",
 
         13: "C1 Connectors in isolation",
         14: "C1 Connectors in sentences",
-        15: "Synonyms of Connectors at C1 level",
+        15: "Synonyms of Connectors at C1 level in isolation",
     },
 
     fragen: {
@@ -460,6 +470,53 @@ DESCRIPTION = {
         30: "Superlative Adjective Declensions in sentences",
     },
 
+    verben: {
+        1: "English to German translation of A1 Verbs",
+        2: "English to German translation of A1 Verbs",
+        3: "English to German translation of A1 Verbs",
+        4: "English to German translation of A1 Verbs",
+        5: "English to German translation of A1 Verbs",
+
+        6: "English to German translation of A2 Verbs",
+        7: "English to German translation of A2 Verbs",
+        8: "English to German translation of A2 Verbs",
+        9: "English to German translation of A2 Verbs",
+        10: "English to German translation of A2 Verbs",
+
+        11: "English to German translation of B1 Verbs (Multiple choice)",
+        12: "English to German translation of B1 Verbs (Multiple choice)",
+        13: "English to German translation of B1 Verbs (Multiple choice)",
+        14: "English to German translation of B1 Verbs (Multiple choice)",
+        15: "English to German translation of B1 Verbs (Multiple choice)",
+        16: "German to English translation of B1 Verbs (Multiple choice)",
+        17: "German to English translation of B1 Verbs (Multiple choice)",
+        18: "German to English translation of B1 Verbs (Multiple choice)",
+        19: "German to English translation of B1 Verbs (Multiple choice)",
+        20: "German to English translation of B1 Verbs (Multiple choice)",
+
+        21: "English to German translation of B2 Verbs (Multiple choice)",
+        22: "English to German translation of B2 Verbs (Multiple choice)",
+        23: "English to German translation of B2 Verbs (Multiple choice)",
+        24: "English to German translation of B2 Verbs (Multiple choice)",
+        25: "English to German translation of B2 Verbs (Multiple choice)",
+        26: "German to English translation of B2 Verbs (Multiple choice)",
+        27: "German to English translation of B2 Verbs (Multiple choice)",
+        28: "German to English translation of B2 Verbs (Multiple choice)",
+        29: "German to English translation of B2 Verbs (Multiple choice)",
+        30: "German to English translation of B2 Verbs (Multiple choice)",
+
+        31: "English to German translation of C1 Verbs (Multiple choice)",
+        32: "English to German translation of C1 Verbs (Multiple choice)",
+        33: "English to German translation of C1 Verbs (Multiple choice)",
+        34: "English to German translation of C1 Verbs (Multiple choice)",
+        35: "English to German translation of C1 Verbs (Multiple choice)",
+        36: "German to English translation of C1 Verbs (Multiple choice)",
+        37: "German to English translation of C1 Verbs (Multiple choice)",
+        38: "German to English translation of C1 Verbs (Multiple choice)",
+        39: "German to English translation of C1 Verbs (Multiple choice)",
+        40: "German to English translation of C1 Verbs (Multiple choice)",
+    },
+
     trennbare_verben: {
         1: "A1 (un)trennbare Verbs with root help",
         2: "A1 (un)trennbare Verbs with prefix help",
@@ -496,50 +553,11 @@ DESCRIPTION = {
         30: "B2 (un)trennbare Verbs with no help",
     },
 
-    verben: {
-        1: "English to German translation of A1 Verbs",
-        2: "English to German translation of A1 Verbs",
-        3: "English to German translation of A1 Verbs",
-        4: "English to German translation of A1 Verbs",
-        5: "English to German translation of A1 Verbs",
-
-        6: "English to German translation of A2 Verbs",
-        7: "English to German translation of A2 Verbs",
-        8: "English to German translation of A2 Verbs",
-        9: "English to German translation of A2 Verbs",
-        10: "English to German translation of A2 Verbs",
-
-        11: "English to German translation of B1 Verbs (Multiple choice)",
-        12: "English to German translation of B1 Verbs (Multiple choice)",
-        13: "English to German translation of B1 Verbs (Multiple choice)",
-        14: "English to German translation of B1 Verbs (Multiple choice)",
-        15: "English to German translation of B1 Verbs (Multiple choice)",
-        16: "German to English translation of B1 Verbs (Multiple choice)",
-        17: "German to English translation of B1 Verbs (Multiple choice)",
-        18: "German to English translation of B1 Verbs (Multiple choice)",
-        19: "German to English translation of B1 Verbs (Multiple choice)",
-        20: "German to English translation of B1 Verbs (Multiple choice)",
-
-        21: "English to German translation of B1 Verbs (Multiple choice)",
-        22: "English to German translation of B1 Verbs (Multiple choice)",
-        23: "English to German translation of B1 Verbs (Multiple choice)",
-        24: "English to German translation of B1 Verbs (Multiple choice)",
-        25: "English to German translation of B1 Verbs (Multiple choice)",
-        26: "English to German translation of B1 Verbs (Multiple choice)",
-        27: "English to German translation of B1 Verbs (Multiple choice)",
-        28: "English to German translation of B1 Verbs (Multiple choice)",
-        29: "English to German translation of B1 Verbs (Multiple choice)",
-        30: "English to German translation of B1 Verbs (Multiple choice)",
-        31: "German to English translation of B1 Verbs (Multiple choice)",
-        32: "German to English translation of B1 Verbs (Multiple choice)",
-        33: "German to English translation of B1 Verbs (Multiple choice)",
-        34: "German to English translation of B1 Verbs (Multiple choice)",
-        35: "German to English translation of B1 Verbs (Multiple choice)",
-        36: "German to English translation of B1 Verbs (Multiple choice)",
-        37: "German to English translation of B1 Verbs (Multiple choice)",
-        38: "German to English translation of B1 Verbs (Multiple choice)",
-        39: "German to English translation of B1 Verbs (Multiple choice)",
-        40: "German to English translation of B1 Verbs (Multiple choice)",
+    nomen_verben_verbindungen: {
+        1: "B1 Noun-Verb Combinations with the Noun missing in isolation",
+        2: "B1 Noun-Verb Combinations with the Verb missing in isolation",
+        3: "B1 Noun-Verb Combinations with the Noun missing in sentences",
+        4: "B1 Noun-Verb Combinations with the Verb missing in sentences",
     },
 
     praesens: {
@@ -620,6 +638,17 @@ DESCRIPTION = {
         28: "Partizip II of B2 verbs",
         29: "Partizip II of B2 verbs",
         30: "Partizip II of B2 verbs",
+
+        31: "Partizip II of C1 verbs",
+        32: "Partizip II of C1 verbs",
+        33: "Partizip II of C1 verbs",
+        34: "Partizip II of C1 verbs",
+        35: "Partizip II of C1 verbs",
+        36: "Partizip II of C1 verbs",
+        37: "Partizip II of C1 verbs",
+        38: "Partizip II of C1 verbs",
+        39: "Partizip II of C1 verbs",
+        40: "Partizip II of C1 verbs",
     },
 
     praeteritum: {
@@ -657,6 +686,17 @@ DESCRIPTION = {
         29: "Präteritum (3<sup>rd</sup> Person Singular) of B2 verbs",
         30: "Präteritum (3<sup>rd</sup> Person Singular) of B2 verbs",
         31: "Präteritum (3<sup>rd</sup> Person Singular) of B2 verbs",
+
+        32: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        33: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        34: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        35: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        36: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        37: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        38: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        39: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        40: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
+        41: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
     },
 
     praeteritum_partizip_II: {
@@ -694,6 +734,17 @@ DESCRIPTION = {
         29: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of B2 verbs",
         30: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of B2 verbs",
         31: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of B2 verbs",
+
+        32: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        33: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        34: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        35: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        36: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        37: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        38: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        39: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        40: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
+        41: "Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of C1 verbs",
     },
 
     imperativ: {
@@ -731,25 +782,6 @@ DESCRIPTION = {
         3: "Partizip I of A1 verbs",
         4: "Partizip I of A1 verbs",
         5: "Partizip I of A1 verbs",
-    },
-
-    deverbale_nomen: {
-        1: "Main Deverbal Nouns (nouns derived verbs)",
-        2: "Main Deverbal Nouns (nouns derived verbs)",
-        3: "Deverbal Nouns derived from A1 Verbs",
-        4: "Deverbal Nouns derived from A1 Verbs",
-        5: "Deverbal Nouns derived from A2 Verbs",
-        6: "Deverbal Nouns derived from A2 Verbs",
-        7: "Deverbal Nouns derived from B1 Verbs",
-        8: "Deverbal Nouns derived from B1 Verbs",
-        9: "Deverbal Nouns derived from B1 Verbs",
-        10: "Deverbal Nouns derived from B2 Verbs",
-        11: "Deverbal Nouns derived from B2 Verbs",
-        12: "Deverbal Nouns derived from B2 Verbs",
-        13: "Deverbal Nouns derived from C1 Verbs",
-        14: "Deverbal Nouns derived from C1 Verbs",
-        15: "Deverbal Nouns derived from C1 Verbs",
-        16: "Deverbal Nouns derived from C1 Verbs",
     },
 
 }

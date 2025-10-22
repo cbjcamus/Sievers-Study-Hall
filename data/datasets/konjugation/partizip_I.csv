@@ -1,121 +1,121 @@
-Nr,exercise,question,english_verb,answer,english
-1,1,sein,to be,seiend,being
-2,1,haben,"to have, to contain",habend,having
-3,1,werden,"to become, will, to be done (passive voice)",werdend,becoming
-4,1,können,"can, to be able to",könnend,being able
-5,1,wollen,to want,wollend,wanting
-6,1,müssen,"must, to have to, to be obliged (to do something)",müssend,having to
-7,1,sollen,"shall, to be asked (to do something)",sollend,should
-8,1,mögen,to like,mögend,liking
-9,1,dürfen,"to be allowed (to do something), may",dürfend,being able to
-10,1,wissen,"to know, to have knowledge",wissend,knowing
-11,1,machen,"to make, to prepare (e.g. food), to do",machend,making
-12,1,tun,"to do, to do something to someone",tuend,doing
-13,1,sagen,"to say, to tell",sagend,saying
-14,1,gehen,"to go, to leave, to work, to function (coll.)",gehend,going
-15,1,sehen,"to see, to see (to something), to realise",sehend,seeing
-16,1,geben,to give,gebend,giving
-17,1,kommen,"to come, to make it (e.g. over something), to go to, to occur",kommend,coming
-18,1,glauben,to believe,glaubend,believing
-19,1,reden,to talk,redend,takling
-20,1,hören,"to hear, to listen to",hörend,hearing
-21,2,finden,to find,findend,finding
-22,2,bleiben,"to remain, to stay",bleibend,remaining
-23,2,brauchen,to need,brauchend,needing
-24,2,lieben,to love,liebend,loving
-25,2,bringen,"to bring, to take, to lead",bringend,bringing
-26,2,stehen,"to stand, to be, to appear",stehend,standing
-27,2,heißen,"to be called, to mean",heißend,being called
-28,2,nehmen,"to take, to cause oneself to be (in some state)",nehmend,taking
-29,2,sprechen,to speak,sprechend,speaking
-30,2,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone",bekommend,getting
-31,2,vergessen,"to forget, to leave (forget to take)",vergessend,forgetting
-32,2,halten,"to hold, to stop (a movement), to support, to keep",haltend,holding
-33,2,warten,"to wait, to maintain (e.g. a car)",wartend,waiting
-34,2,kennen,"to know, to be acquainted with, to be familiar with",kennend,knowing
-35,2,verstehen,"to understand, to get along with someone/something",verstehend,understanding
-36,2,denken,"to think, to consider",denkend,thinking
-37,2,leben,to live,lebend,living
-38,2,arbeiten,to work,arbeitend,living
-39,2,essen,to eat,essend,eating
-40,2,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)",bietend,offering
-41,3,aufstehen,"to get up, to be open (e.g. a window, door)",aufstehend,getting up
-42,3,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull",anziehend,getting dressed
-43,3,ausziehen,"to take something off, to undress, to pull out, to move out",ausziehend,undressing
-44,3,spielen,to play,spielend,playing
-45,3,fahren,"to go (by vehicle), to leave, to drive",fahrend,driving
-46,3,versuchen,to try,versuchend,trying
-47,3,erzählen,"to tell, to narrate",erzählend,telling
-48,3,fragen,"to ask, to wonder (refl.)",fragend,asking
-49,3,treffen,"to meet, to encounter",treffend,meeting
-50,3,hoffen,to hope,hoffend,hoping
-51,3,suchen,"to seek, to search",suchend,searching
-52,3,trinken,to drink,trinkend,drinking
-53,3,lernen,"to learn, to study (revise/review materials), to train something",lernend,learning
-54,3,zeigen,"to show, to point at, to demonstrate",zeigend,showing
-55,3,schlafen,to sleep,schlafend,sleeping
-56,3,kaufen,to buy,kaufend,buying
-57,3,laufen,"to walk, to flow (of a fluid), to run (of an event)",laufend,running
-58,3,erklären,"to explain, to declare, to assert",erklärend,explaining
-59,3,zahlen,"to pay (for something), to atone for",zahlend,paying
-60,3,kochen,"to cook, to boil (to heat a liquid), to boil something",kochend,cooking
-61,4,waschen,to wash,waschend,washing
-62,4,aufwachen,to wake up,aufwachend,waking up
-63,4,zeichnen,"to draw, to sketch",zeichnend,drawing
-64,4,wohnen,"to live, to reside, to dwell",wohnend,living
-65,4,schreiben,to write,schreibend,writing
-66,4,tragen,"to wear (clothing), to carry, to hold",tragend,carrying
-67,4,interessieren,"to interest, to be interested in (refl.)",interessierend,interesting
-68,4,ziehen,"to pull, to drag, to move",ziehend,pulling
-69,4,lesen,to read,lesend,reading
-70,4,kosten,"to cost, to taste",kostend,tasting
-71,4,wiederholen,to repeat,wiederholend,repeating
-72,4,übersetzen,to translate,übersetzend,translating
-73,4,buchstabieren,to spell,buchstabierend,spelling
-74,4,bedeuten,"to mean, to signify",bedeutend,significant
-75,4,funktionieren,"to function, to work",funktionierend,functioning
-76,4,erinnern,"to remind, to remember (refl.)",erinnernd,reminiscent
-77,4,fühlen,"to feel, to feel something (good/bad) (refl.)",fühlend,feeling
-78,4,regnen,to rain,regnend,raining
-79,4,schneien,to snow,schneiend,snowing
-80,4,führen,"to lead, to guide",führend,leading
-81,5,passieren,"to happen (conversational), to move beyond, to strain",passierend,passing
-82,5,verlieren,to lose,verlierend,losing
-83,5,bestimmen,to determine,bestimmend,determining
-84,5,holen,to fetch,holend,getting
-85,5,anrufen,"to call by telephone, to call on (someone)",anrufend,calling
-86,5,aufhören,"to stop, to cease an activity/process",aufhörend,stopping
-87,5,anfangen,to begin something new,anfangend,starting
-88,5,gewinnen,to win,gewinnend,winning
-89,5,wehtun,"to hurt, to be painful",wehtund,blowing
-90,5,öffnen,to open (formal),öffnend,opening
-91,5,bezahlen,"to pay, to pay someone",bezahlend,paying
-92,5,beginnen,to begin (on a date/time),beginnend,beginning
-93,5,benutzen,to use (something),benutzend,using
-94,5,schicken,to send,schickend,sending
-95,5,lachen,to laugh,lachend,laughing
-96,5,scheinen,"to seem, to shine",scheinend,seeming
-97,5,ändern,to change (one's personality/behavior),ändernd,changing
-98,5,verkaufen,to sell,verkaufend,selling
-99,5,gehören,to belong to,gehörend,belonging
-100,5,sitzen,"to be seated, to stay, to fit (of clothing)",sitzend,sitting
-101,100,stellen,"to position, to put, to catch",stellend,positioning
-102,100,setzen,"to set, to sit down (refl.)",setzend,setting
-103,100,liegen,"to lie, to be located",liegend,lying
-104,100,danken,to thank,dankend,thanking
-105,100,legen,"to lay, to lean, to lie down",legend,laying
-106,100,schauen,to look at (Bayern/Austria),schauend,looking
-107,100,besuchen,to visit,besuchend,visiting
-108,100,freuen,"to make glad, to be glad (refl.), to look forward (refl.)",freuend,joying
-109,100,schließen,"to shut, to close, to lock, to conclude",schließend,closing
-110,100,einladen,"to invite, to load (something into a container)",einladend,inviting
-111,100,gefallen,"to please, to appeal to",gefallend,pleasing
-112,100,wünschen,to wish,wünschend,desiring
-113,100,passen,"to fit, to suit",passend,fitting
-114,100,folgen,to follow,folgend,following
-115,100,ansehen,"to look at something, to watch something",ansehend,looking
-116,100,aussehen,"to look (like), to appear",aussehend,looking like
-117,100,probieren,"to try, to taste, to sample, to probe",probierend,trying
-118,100,träumen,to dream,träumend,dreaming
-119,100,fernsehen,to watch TV,fernsehend,watching TV
-120,100,schwimmen,"to swim, to float",schwimmend,swimming
+Nr,exercise,question,english_verb,french_verb,answer,english
+1,1,sein,to be,être,seiend,being
+2,1,haben,"to have, to contain","avoir, contenir",habend,having
+3,1,werden,"to become, will, to be done (passive voice)",devenir,werdend,becoming
+4,1,können,"can, to be able to","pouvoir, être capable de",könnend,being able
+5,1,wollen,to want,vouloir,wollend,wanting
+6,1,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",müssend,having to
+7,1,sollen,"shall, to be asked (to do something)","devoir, être invité (à faire quelque chose)",sollend,should
+8,1,mögen,to like,"aimer, apprécier",mögend,liking
+9,1,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",dürfend,being able to
+10,1,wissen,"to know, to have knowledge",savoir,wissend,knowing
+11,1,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)",machend,making
+12,1,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",tuend,doing
+13,1,sagen,"to say, to tell","dire, raconter",sagend,saying
+14,1,gehen,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)",gehend,going
+15,1,sehen,"to see, to realise","voir, se rendre compte",sehend,seeing
+16,1,geben,to give,donner,gebend,giving
+17,1,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire",kommend,coming
+18,1,glauben,to believe,croire,glaubend,believing
+19,1,reden,to talk,"parler, discuter",redend,takling
+20,1,hören,"to hear, to listen to","entendre, écouter",hörend,hearing
+21,2,finden,to find,trouver,findend,finding
+22,2,bleiben,"to remain, to stay",rester,bleibend,remaining
+23,2,brauchen,to need,avoir besoin,brauchend,needing
+24,2,lieben,to love,"aimer, être amoureux de",liebend,loving
+25,2,bringen,"to bring, to take, to lead","apporter, prendre, conduire",bringend,bringing
+26,2,stehen,"to stand, to be, to appear","être debout, apparaître",stehend,standing
+27,2,heißen,"to be called, to mean",être appelé,heißend,being called
+28,2,nehmen,"to take, to cause oneself to be (in some state)","prendre, se mettre (dans un état)",nehmend,taking
+29,2,sprechen,to speak,parler (une langue),sprechend,speaking
+30,2,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone","recevoir, attraper (par exemple un rhume), s'entendre avec quelqu'un",bekommend,getting
+31,2,vergessen,"to forget, to leave (forget to take)",oublier,vergessend,forgetting
+32,2,halten,"to hold, to stop (a movement), to support, to keep","tenir, arrêter (un mouvement), soutenir, garder",haltend,holding
+33,2,warten,"to wait, to maintain (e.g. a car)","attendre, entretenir (par exemple une voiture)",wartend,waiting
+34,2,kennen,"to know, to be acquainted with, to be familiar with","connaître, être familier avec",kennend,knowing
+35,2,verstehen,"to understand, to get along with someone","comprendre, s'entendre avec quelqu'un",verstehend,understanding
+36,2,denken,"to think, to consider","penser, considérer",denkend,thinking
+37,2,leben,to live,vivre,lebend,living
+38,2,arbeiten,to work,travailler,arbeitend,living
+39,2,essen,to eat,manger,essend,eating
+40,2,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)","offrir, enchérir, surgir, se produire (d'une opportunité) (réfl.)",bietend,offering
+41,3,aufstehen,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)",aufstehend,getting up
+42,3,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre, habiller quelqu'un, attirer, tirer",anziehend,getting dressed
+43,3,ausziehen,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, se retirer, sortir",ausziehend,undressing
+44,3,spielen,to play,jouer,spielend,playing
+45,3,fahren,"to go (by vehicle), to leave, to drive","aller (en véhicule), partir, conduire",fahrend,driving
+46,3,versuchen,"to try, to attempt","essayer, tenter",versuchend,trying
+47,3,erzählen,"to tell, to narrate","raconter, narrer",erzählend,telling
+48,3,fragen,"to ask, to wonder (refl.)","demander, se demander (réfl.)",fragend,asking
+49,3,treffen,"to meet, to encounter","rencontrer, se rencontrer",treffend,meeting
+50,3,hoffen,to hope,espérer,hoffend,hoping
+51,3,suchen,"to seek, to search","chercher, rechercher",suchend,searching
+52,3,trinken,to drink,boire,trinkend,drinking
+53,3,lernen,"to learn, to study, to train something","apprendre, étudier, se former à quelque chose",lernend,learning
+54,3,zeigen,"to show, to point at, to demonstrate","montrer, pointer du doigt, démontrer",zeigend,showing
+55,3,schlafen,to sleep,dormir,schlafend,sleeping
+56,3,kaufen,to buy,acheter,kaufend,buying
+57,3,laufen,"to walk, to flow (of a fluid), to run (of an event)","marcher, couler (un fluide), se dérouler (un événement)",laufend,running
+58,3,erklären,"to explain, to declare, to assert","expliquer, déclarer, affirmer",erklärend,explaining
+59,3,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier",zahlend,paying
+60,3,kochen,"to cook, to boil (to heat a liquid), to boil something","cuire, faire bouillir (chauffer un liquide), faire bouillir quelque chose",kochend,cooking
+61,4,waschen,to wash,laver,waschend,washing
+62,4,aufwachen,to wake up,se réveiller,aufwachend,waking up
+63,4,zeichnen,"to draw, to sketch","dessiner, esquisser",zeichnend,drawing
+64,4,wohnen,"to live, to reside, to dwell","vivre, résider, habiter",wohnend,living
+65,4,schreiben,to write,écrire,schreibend,writing
+66,4,tragen,"to wear (clothing), to carry, to hold","porter (des vêtements), transporter, tenir",tragend,carrying
+67,4,interessieren,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)",interessierend,interesting
+68,4,ziehen,"to pull, to drag, to move","tirer, traîner, déplacer",ziehend,pulling
+69,4,lesen,to read,lire,lesend,reading
+70,4,kosten,"to cost, to taste",coûter,kostend,tasting
+71,4,wiederholen,to repeat,répéter,wiederholend,repeating
+72,4,übersetzen,to translate,traduire,übersetzend,translating
+73,4,buchstabieren,to spell,épeler,buchstabierend,spelling
+74,4,bedeuten,"to mean, to signify","vouloir dire, signifier",bedeutend,significant
+75,4,funktionieren,"to function, to work",fonctionner,funktionierend,functioning
+76,4,erinnern,"to remind, to remember (refl.)","rappeler, se souvenir (réfl.)",erinnernd,reminiscent
+77,4,fühlen,"to feel, to feel something (refl.)","sentir, ressentir quelque chose (réfl.)",fühlend,feeling
+78,4,regnen,to rain,pleuvoir,regnend,raining
+79,4,schneien,to snow,neiger,schneiend,snowing
+80,4,führen,"to lead, to guide","guider, conduire",führend,leading
+81,5,passieren,"to happen (colloquial), to move beyond, to strain",se produire,passierend,passing
+82,5,verlieren,to lose,perdre,verlierend,losing
+83,5,bestimmen,to determine,déterminer,bestimmend,determining
+84,5,holen,to fetch,aller chercher,holend,getting
+85,5,anrufen,"to call by telephone, to call on (someone)",appeler par téléphone,anrufend,calling
+86,5,aufhören,"to stop, to cease an activity or process","arrêter, cesser une activité ou un processus",aufhörend,stopping
+87,5,anfangen,to begin something new,commencer quelque chose de nouveau,anfangend,starting
+88,5,gewinnen,to win,gagner,gewinnend,winning
+89,5,wehtun,"to hurt, to be painful","blesser, être douloureux",wehtund,blowing
+90,5,öffnen,to open (formal),ouvrir (formel),öffnend,opening
+91,5,bezahlen,"to pay, to pay someone","payer, payer quelqu'un",bezahlend,paying
+92,5,beginnen,to begin (on a certain date or time),commencer (à une certaine date ou heure),beginnend,beginning
+93,5,benutzen,to use (something),utiliser (quelque chose),benutzend,using
+94,5,schicken,to send,envoyer,schickend,sending
+95,5,lachen,to laugh,rire,lachend,laughing
+96,5,scheinen,"to seem, to shine","paraître, briller",scheinend,seeming
+97,5,ändern,to change (one's personality or behavior),changer (sa personnalité ou son comportement),ändernd,changing
+98,5,verkaufen,to sell,vendre,verkaufend,selling
+99,5,gehören,to belong to,appartenir à,gehörend,belonging
+100,5,sitzen,"to be seated, to stay, to fit (of clothing)","être assis, rester",sitzend,sitting
+101,100,stellen,"to position, to put, to catch","positionner, mettre",stellend,positioning
+102,100,setzen,"to set, to sit down (refl.)",s'asseoir (réfl.),setzend,setting
+103,100,liegen,"to lie, to be located","être allongé, être localisé",liegend,lying
+104,100,danken,to thank,remercier,dankend,thanking
+105,100,legen,"to lay, to lean, to lie down","poser, se pencher, s'allonger",legend,laying
+106,100,schauen,to look at (Bayern and Austria),regarder (Bayern et Autriche),schauend,looking
+107,100,besuchen,to visit,visiter,besuchend,visiting
+108,100,freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)",freuend,joying
+109,100,schließen,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure",schließend,closing
+110,100,einladen,"to invite, to load (something into a container)","inviter, charger (quelque chose dans un conteneur)",einladend,inviting
+111,100,gefallen,"to please, to appeal to",plaire,gefallend,pleasing
+112,100,wünschen,to wish,souhaiter,wünschend,desiring
+113,100,passen,"to fit, to suit","s'adapter, convenir",passend,fitting
+114,100,folgen,to follow,suivre,folgend,following
+115,100,ansehen,"to look at something, to watch something","regarder quelque chose, observer quelque chose",ansehend,looking
+116,100,aussehen,"to look (like), to appear","ressembler, apparaître",aussehend,looking like
+117,100,probieren,"to try, to taste, to sample, to probe","essayer, goûter, échantillonner, sonder",probierend,trying
+118,100,träumen,to dream,rêver,träumend,dreaming
+119,100,fernsehen,to watch TV,regarder la télévision,fernsehend,watching TV
+120,100,schwimmen,"to swim, to float","nager, flotter",schwimmend,swimming

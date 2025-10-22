@@ -1,0 +1,198 @@
+Nr,exercise,question,answer,german,english,french,gender_english,gender_french,case,bedeutung
+1,1,_____ haben,Angst,Angst haben,to be afraid of,avoir peur de,Feminine,Féminin,vor,
+2,1,_____ haben,eine Meinung/eine Ansicht,"eine Meinung haben, eine Meinung vertreten","to have an opinion, to think","avoir une opinion, penser",Feminine,Féminin,,
+3,1,_____ treffen,eine Entscheidung,eine Entscheidung treffen,"to decide, to make a decision","décider, prendre une décision",Feminine,Féminin,,
+4,1,_____ stellen,eine Frage,eine Frage stellen,to ask a question,poser une question,Feminine,Féminin,,
+5,1,_____ führen,ein Gespräch/eine Diskussion,ein Gespräch führen,"to have a conversation, to talk, to discuss","parler, discuter, avoir une conversation",Neuter,Neutre,mit + Dative über + Accusative,
+6,1,_____ finden,eine Lösung,eine Lösung finden,"to solve, to find a solution","résoudre, trouver une solution",Feminine,Féminin,,
+7,1,_____ spielen,eine Rolle,eine Rolle spielen,"to be important, to play a role","être important, jouer un rôle",Feminine,Féminin,für + Accusative,
+8,1,_____ stellen,einen Antrag,einen Antrag stellen,to apply for,soumettre une candidature,Masculine,Masculin,bei / auf,
+9,1,_____ geben,einen Antwort,einen Antwort geben,"to answer, to give an answer",répondre,Masculine,Masculin,,beantworten
+10,1,_____ geben,einen Rat,einen Rat geben,"to advise, to give some advice","conseiller, donner un conseil",Masculine,Masculin,,
+11,1,_____ machen,einen Vorschlag,"einen Vorschlag machen, einen Vorschlag unterbreiten","to suggest, to make a suggestion","suggérer, faire une suggestion",Masculine,Masculin,,
+12,1,_____ haben,Hoffnung,Hoffnung haben,to hope,"espérer, avoir de l'espoir",Feminine,Féminin,,hoffen
+13,1,_____ haben,keine Ahnung,keine Ahnung haben,"to not know, to have no idea","ne pas savoir, avoir aucune idée",Feminine,Féminin,von,nicht wissen
+14,1,_____ haben,Lust/Bock,Lust haben,"to want, to feel like",avoir envie de,Feminine,Féminin,auf,sich etw. wünschen / wollen
+15,1,sich _____ machen,Sorgen,sich Sorgen machen,to worry,"s'inquiéter, se faire du soucis",Neuter,Neutre,,sich sorgen / sich ängstigen / unruhig werden
+16,1,zum _____ bringen,Abschluss,zum Abschluss bringen,to complete,mener à terme,Masculine,Masculin,,
+17,2,Angst _____,haben,Angst haben,to be afraid of,avoir peur de,,,vor,
+18,2,eine Meinung _____,haben/vertreten,"eine Meinung haben, eine Meinung vertreten",to have an opinion,"avoir une opinion, défendre une opinion",,,,
+19,2,eine Entscheidung _____,treffen,eine Entscheidung treffen,"to decide, to make a decision","décider, prendre une décision",,,,
+20,2,eine Frage _____,stellen,eine Frage stellen,to ask a question,poser une question,,,,
+21,2,eine Gespräche _____,führen,eine Gespräche führen,"to have a conversation, to talk, to discuss","parler, discuter, avoir une conversation",,,mit + Dative über + Accusative,
+22,2,eine Lösung _____,finden,eine Lösung finden,"to solve, to find a solution","résoudre, trouver une solution",,,,
+23,2,eine Rolle _____,spielen,eine Rolle spielen,"to be important, to play a role","être important, jouer un rôle",,,für + Accusative,
+24,2,einen Antrag _____,stellen,einen Antrag stellen,to apply for,soumettre une candidature,,,bei / auf,
+25,2,einen Antwort _____,geben,einen Antwort geben,"to answer, to give an answer",répondre,,,,beantworten
+26,2,einen Rat _____,geben,einen Rat geben,"to advise, to give some advice","conseiller, donner un conseil",,,,
+27,2,einen Vorschlag _____,machen/unterbreiten,"einen Vorschlag machen, einen Vorschlag unterbreiten","to suggest, to make a suggestion","suggérer, faire une suggestion",,,,
+28,2,Hoffnung _____,haben,Hoffnung haben,to hope,"espérer, avoir de l'espoir",,,,hoffen
+29,2,keine Ahnung _____,haben,keine Ahnung haben,"to not know, to have no idea","ne pas savoir, avoir aucune idée",,,von,nicht wissen
+30,2,Lust _____,haben,Lust haben,to want,avoir envie de,,,auf,sich etw. wünschen / wollen
+31,2,sich Sorgen _____,machen,sich Sorgen machen,to worry,"s'inquiéter, se faire du soucis",,,,sich sorgen / sich ängstigen / unruhig werden
+32,2,zum Abschluss _____,bringen,zum Abschluss bringen,to complete,mener à terme,,,,
+33,3,"Ich habe _____ vor Spinnen, obwohl ich weiß, dass sie harmlos sind.",Angst,"Ich habe Angst vor Spinnen, obwohl ich weiß, dass sie harmlos sind.","I’m afraid of spiders, even though I know they are harmless.","J’ai peur des araignées, même si je sais qu’elles sont inoffensives.",,,,
+34,3,"Viele Menschen haben _____, ihren Job zu verlieren.",Angst,"Viele Menschen haben Angst, ihren Job zu verlieren.",Many people are afraid of losing their job.,Beaucoup de gens ont peur de perdre leur emploi.,,,,
+35,3,Jeder hat eine _____ zu diesem Thema.,Meinung/Ansicht,Jeder hat eine Meinung zu diesem Thema.,Everyone has an opinion on this topic.,Tout le monde a une opinion sur ce sujet.,,,,
+36,3,Ich habe eine andere _____ als du.,Meinung/Ansicht,Ich habe eine andere Meinung als du.,I have a different opinion than you.,J’ai une opinion différente de la tienne.,,,,
+37,3,Ich muss heute eine wichtige _____ treffen.,Entscheidung,Ich muss heute eine wichtige Entscheidung treffen.,I have to make an important decision today.,Je dois prendre une décision importante aujourd’hui.,,,,
+38,3,"Es ist oft schwer, die richtige _____ zu treffen.",Entscheidung,"Es ist oft schwer, die richtige Entscheidung zu treffen.",It’s often hard to make the right decision.,Il est souvent difficile de prendre la bonne décision.,,,,
+39,3,Darf ich Ihnen eine _____ stellen?,Frage,Darf ich Ihnen eine Frage stellen?,May I ask you a question?,Puis-je vous poser une question ?,,,,
+40,3,Der Schüler hat dem Lehrer eine interessante _____ gestellt.,Frage,Der Schüler hat dem Lehrer eine interessante Frage gestellt.,The student asked the teacher an interesting question.,L’élève a posé une question intéressante au professeur.,,,,
+41,3,Wir haben gestern ein langes _____ geführt.,Gespräch,Wir haben gestern ein langes Gespräch geführt.,We had a long conversation yesterday.,Nous avons eu une longue conversation hier.,,,,
+42,3,Er führt oft _____ mit seinen Kollegen über neue Ideen.,Gespräche/Diskussionen,Er führt oft Gespräche mit seinen Kollegen über neue Ideen.,He often has conversations with his colleagues about new ideas.,Il a souvent des conversations avec ses collègues sur de nouvelles idées.,,,,
+43,3,Wir müssen schnell eine _____ für das Problem finden.,Lösung,Wir müssen schnell eine Lösung für das Problem finden.,We need to find a solution to the problem quickly.,Nous devons trouver rapidement une solution au problème.,,,,
+44,3,Am Ende haben sie gemeinsam eine gute _____ gefunden.,Lösung,Am Ende haben sie gemeinsam eine gute Lösung gefunden.,"In the end, they found a good solution together.","Finalement, ils ont trouvé une bonne solution ensemble.",,,,
+45,3,Geld spielt in meinem Leben keine große _____.,Rolle,Geld spielt in meinem Leben keine große Rolle.,Money doesn’t play a big role in my life.,L’argent ne joue pas un grand rôle dans ma vie.,,,,
+46,3,Erfahrung spielt bei dieser Arbeit eine wichtige _____.,Rolle,Erfahrung spielt bei dieser Arbeit eine wichtige Rolle.,Experience plays an important role in this job.,L’expérience joue un rôle important dans ce travail.,,,,
+47,3,Ich habe gestern einen _____ auf Urlaub gestellt.,Antrag,Ich habe gestern einen Antrag auf Urlaub gestellt.,I submitted a request for vacation yesterday.,J’ai déposé une demande de congé hier.,,,,
+48,3,Sie hat beim Amt einen _____ auf Unterstützung gestellt.,Antrag,Sie hat beim Amt einen Antrag auf Unterstützung gestellt.,She submitted an application for assistance at the office.,Elle a déposé une demande d’aide auprès de l’administration.,,,,
+49,3,Kannst du mir bitte eine klare _____ geben?,Antwort,Kannst du mir bitte eine klare Antwort geben?,Can you please give me a clear answer?,"Peux-tu me donner une réponse claire, s’il te plaît ?",,,,
+50,3,Der Lehrer gab den Schülern eine ausführliche _____.,Antwort,Der Lehrer gab den Schülern eine ausführliche Antwort.,The teacher gave the students a detailed answer.,Le professeur a donné une réponse détaillée aux élèves.,,,,
+51,3,Mein Vater hat mir einen guten _____ gegeben.,Rat,Mein Vater hat mir einen guten Rat gegeben.,My father gave me good advice.,Mon père m’a donné un bon conseil.,,,,
+52,3,"Kannst du mir einen _____ geben, wie ich besser lernen kann?",Rat,"Kannst du mir einen Rat geben, wie ich besser lernen kann?",Can you give me some advice on how to study better?,Peux-tu me donner un conseil pour mieux étudier ?,,,,
+53,3,Darf ich einen _____ machen?,Vorschlag,Darf ich einen Vorschlag machen?,May I make a suggestion?,Puis-je faire une proposition ?,,,,
+54,3,Er hat einen guten _____ für das Wochenende gemacht.,Vorschlag,Er hat einen guten Vorschlag für das Wochenende gemacht.,He made a good suggestion for the weekend.,Il a fait une bonne proposition pour le week-end.,,,,
+55,3,"Ich habe _____, dass alles gut wird.",Hoffnung,"Ich habe Hoffnung, dass alles gut wird.",I have hope that everything will be fine.,J’ai l’espoir que tout ira bien.,,,,
+56,3,Viele Menschen haben _____ auf eine bessere Zukunft.,Hoffnung,Viele Menschen haben Hoffnung auf eine bessere Zukunft.,Many people have hope for a better future.,Beaucoup de gens ont l’espoir d’un avenir meilleur.,,,,
+57,3,"Ich habe keine _____, wo meine Schlüssel sind.",Ahnung,"Ich habe keine Ahnung, wo meine Schlüssel sind.",I have no idea where my keys are.,Je n’ai aucune idée où sont mes clés.,,,,
+58,3,"Sie hatte keine _____, dass er schon verheiratet war.",Ahnung,"Sie hatte keine Ahnung, dass er schon verheiratet war.",She had no idea that he was already married.,Elle n’avait aucune idée qu’il était déjà marié.,,,,
+59,3,Ich habe heute keine _____ zu arbeiten.,Lust/Bock,Ich habe heute keine Lust zu arbeiten.,I don’t feel like working today.,Je n’ai pas envie de travailler aujourd’hui.,,,,
+60,3,"Hast du _____, ins Kino zu gehen?",Lust/Bock,"Hast du Lust, ins Kino zu gehen?",Do you feel like going to the cinema?,Tu as envie d’aller au cinéma ?,,,,
+61,3,Ich mache mir _____ um meine Prüfung.,Sorgen,Ich mache mir Sorgen um meine Prüfung.,I’m worried about my exam.,Je me fais du souci pour mon examen.,,,,
+62,3,"Mach dir keine _____, alles wird gut.",Sorgen,"Mach dir keine Sorgen, alles wird gut.","Don’t worry, everything will be fine.","Ne t’inquiète pas, tout ira bien.",,,,
+63,3,Wir müssen das Projekt endlich zum _____ bringen.,Abschluss,Wir müssen das Projekt endlich zum Abschluss bringen.,We need to finally bring the project to a close.,Nous devons enfin mener le projet à son terme.,,,,
+64,3,Nach Monaten harter Arbeit wurde das Bauvorhaben zum _____ gebracht.,Abschluss,Nach Monaten harter Arbeit wurde das Bauvorhaben zum Abschluss gebracht.,"After months of hard work, the construction project was completed.","Après des mois de travail acharné, le chantier a été mené à son terme.",,,,
+65,4,"Sie _____ Angst, dass ihr Freund sie nicht mehr liebt.",hat,"Sie hat Angst, dass ihr Freund sie nicht mehr liebt.",She is afraid that her boyfriend doesn’t love her anymore.,Elle a peur que son petit ami ne l’aime plus.,,,,
+66,4,Kinder _____ oft Angst im Dunkeln.,haben,Kinder haben oft Angst im Dunkeln.,Children are often afraid in the dark.,Les enfants ont souvent peur dans le noir.,,,,
+67,4,Er _____ eine klare Meinung über Politik.,hat,Er hat eine klare Meinung über Politik.,He has a clear opinion about politics.,Il a une opinion claire sur la politique.,,,,
+68,4,Viele Menschen _____ keine feste Meinung dazu.,haben,Viele Menschen haben keine feste Meinung dazu.,Many people don’t have a firm opinion about it.,Beaucoup de gens n’ont pas d’opinion arrêtée à ce sujet.,,,,
+69,4,Sie hat endlich eine Entscheidung _____ und ist umgezogen.,getroffen,Sie hat endlich eine Entscheidung getroffen und ist umgezogen.,She finally made a decision and moved away.,Elle a enfin pris une décision et a déménagé.,,,,
+70,4,Wir müssen bald eine gemeinsame Entscheidung _____.,treffen,Wir müssen bald eine gemeinsame Entscheidung treffen.,We need to make a joint decision soon.,Nous devons bientôt prendre une décision commune.,,,,
+71,4,"Sie _____ viele Fragen, um das Problem besser zu verstehen.",stellte,"Sie stellte viele Fragen, um das Problem besser zu verstehen.",She asked many questions to understand the problem better.,Elle a posé beaucoup de questions pour mieux comprendre le problème.,,,,
+72,4,Ich möchte eine Frage zu diesem Thema _____.,stellen,Ich möchte eine Frage zu diesem Thema stellen.,I’d like to ask a question about this topic.,J’aimerais poser une question à ce sujet.,,,,
+73,4,Sie _____ ein ernstes Gespräch mit ihrem Chef.,führte,Sie führte ein ernstes Gespräch mit ihrem Chef.,She had a serious conversation with her boss.,Elle a eu une conversation sérieuse avec son patron.,,,,
+74,4,"Es ist wichtig, offene Gespräche in der Familie zu _____.",führen,"Es ist wichtig, offene Gespräche in der Familie zu führen.",It’s important to have open conversations within the family.,Il est important d’avoir des conversations ouvertes dans la famille.,,,,
+75,4,"Es ist nicht leicht, für alles eine Lösung zu _____.",finden,"Es ist nicht leicht, für alles eine Lösung zu finden.",It’s not easy to find a solution for everything.,Il n’est pas facile de trouver une solution à tout.,,,,
+76,4,Nach langem Nachdenken _____ er endlich eine Lösung.,fand,Nach langem Nachdenken fand er endlich eine Lösung.,"After thinking for a long time, he finally found a solution.","Après une longue réflexion, il a enfin trouvé une solution.",,,,
+77,4,In dem Film _____ sie die Hauptrolle.,spielt,In dem Film spielt sie die Hauptrolle.,"In the movie, she plays the main role.","Dans le film, elle joue le rôle principal.",,,,
+78,4,Vertrauen _____ in jeder Beziehung eine große Rolle.,spielt,Vertrauen spielt in jeder Beziehung eine große Rolle.,Trust plays a big role in every relationship.,La confiance joue un grand rôle dans chaque relation.,,,,
+79,4,Er hat ihr einen Heiratsantrag _____.,gestellt,Er hat ihr einen Heiratsantrag gestellt.,He proposed to her.,Il lui a fait une demande en mariage.,,,,
+80,4,Der Antrag wurde pünktlich _____ und genehmigt.,gestellt,Der Antrag wurde pünktlich gestellt und genehmigt.,The application was submitted on time and approved.,La demande a été déposée à temps et approuvée.,,,,
+81,4,Sie wollte keine Antwort auf diese Frage _____.,geben,Sie wollte keine Antwort auf diese Frage geben.,She didn’t want to give an answer to that question.,Elle ne voulait pas donner de réponse à cette question.,,,,
+82,4,Ich kann dir im Moment noch keine Antwort _____.,geben,Ich kann dir im Moment noch keine Antwort geben.,I can’t give you an answer right now.,Je ne peux pas encore te donner de réponse pour le moment.,,,,
+83,4,"Der Arzt _____ ihm den Rat, mehr Sport zu treiben.",gab,"Der Arzt gab ihm den Rat, mehr Sport zu treiben.",The doctor advised him to do more exercise.,Le médecin lui a donné le conseil de faire plus de sport.,,,,
+84,4,"Ich weiß nicht, welchen Rat ich ihr _____ soll.",geben,"Ich weiß nicht, welchen Rat ich ihr geben soll.",I don’t know what advice to give her.,Je ne sais pas quel conseil lui donner.,,,,
+85,4,"Sie _____ den Vorschlag, gemeinsam zu reisen.",machte/unterbreitete,"Sie machte den Vorschlag, gemeinsam zu reisen.",She made the suggestion to travel together.,Elle a fait la proposition de voyager ensemble.,,,,
+86,4,Könnten Sie stattdessen einen konkreten Vorschlag _____?,machen/unterbreiten,Könnten Sie stattdessen einen konkreten Vorschlag machen?,Could you make a concrete suggestion instead?,Pourriez-vous plutôt faire une suggestion concrète ?,,,,
+87,4,"Es erwärmt trotzdem mein Herz zu sehen, dass die Menschen Hoffnung _____.",haben,"Es erwärmt trotzdem mein Herz zu sehen, dass die Menschen Hoffnung haben.",It still warms my heart to see that people have hope.,Cela me fait toujours chaud au cœur de voir que les gens ont de l’espoir.,,,,
+88,4,Trotz der Schwierigkeiten _____ wir noch Hoffnung.,haben,Trotz der Schwierigkeiten haben wir noch Hoffnung.,"Despite the difficulties, we still have hope.","Malgré les difficultés, nous avons encore de l’espoir.",,,,
+89,4,"Wir _____ keine Ahnung, wie das passiert ist.",haben,"Wir haben keine Ahnung, wie das passiert ist.",We have no idea how that happened.,Nous n’avons aucune idée de comment c’est arrivé.,,,,
+90,4,"Er tut so, als _____ er keine Ahnung von der Sache.",hätte,"Er tut so, als hätte er keine Ahnung von der Sache.",He acts as if he had no idea about the matter.,Il fait semblant de n’avoir aucune idée de l’affaire.,,,,
+91,4,Sie _____ Lust auf ein Stück Kuchen.,hat,Sie hat Lust auf ein Stück Kuchen.,She feels like having a piece of cake.,Elle a envie d’un morceau de gâteau.,,,,
+92,4,"Wir _____ Lust, etwas Neues auszuprobieren.",haben,"Wir haben Lust, etwas Neues auszuprobieren.",We feel like trying something new.,Nous avons envie d’essayer quelque chose de nouveau.,,,,
+93,4,"Sie _____ sich Sorgen, weil ihr Sohn krank ist.",macht,"Sie macht sich Sorgen, weil ihr Sohn krank ist.",She is worried because her son is sick.,Elle se fait du souci parce que son fils est malade.,,,,
+94,4,Viele Eltern _____ sich Sorgen um die Zukunft ihrer Kinder.,machen,Viele Eltern machen sich Sorgen um die Zukunft ihrer Kinder.,Many parents worry about their children’s future.,Beaucoup de parents se font du souci pour l’avenir de leurs enfants.,,,,
+95,4,Sie wollen die Verhandlungen bald zum Abschluss _____.,bringen,Sie wollen die Verhandlungen bald zum Abschluss bringen.,They want to bring the negotiations to an end soon.,Ils veulent bientôt conclure les négociations.,,,,
+96,4,Das Team hat die Diskussion erfolgreich zum Abschluss _____.,gebracht,Das Team hat die Diskussion erfolgreich zum Abschluss gebracht.,The team successfully brought the discussion to a conclusion.,L’équipe a mené la discussion à sa conclusion avec succès.,,,,
+97,105,,,kein Interesse haben,to be not interested,,,,,an etw. nicht interessiert sein
+98,105,,,Interesse zeigen,"to be interested in, to show interest",,,,an + Dative,
+99,105,,,Kenntnisse verfügen,to know,,,,über,
+100,105,,,Kritik üben,to criticize,,,,an + Dative,
+101,105,,,"Maßnahmen treffen, ergreifen","to do something, to take action, to take measures",,,,,
+102,105,,,Verhandlungen führen,to negociate,,,,,
+103,105,,,zur Diskussion stehen,to be up to discuss,,,,,
+104,105,,,Ansprüche stellen,to claim,,,,,
+105,105,,,auf der Suche sein,"to look for, to search",,,,nach + Dat.,etw. suchen
+106,105,,,Bescheid sagen/geben,to let somebody know,,,,,
+107,105,,,Beweis führen,,,,,,
+108,105,,,ein Studium abschließen,to graduate from university,,,,,
+109,105,,,eine Gelegenheit ergreifen,,,,,,
+110,105,,,eine Prüfung ablegen,to take an exam,,,,,
+111,105,,,eine Rede halten,to give a speech,,,,,jemandem etw. raten / empfehlen
+112,105,,,einen Beitrag leisten,to contribute,,,,zu + Dative,
+113,105,,,einen Beruf ergreifen,,,,,,
+114,105,,,einen Entschluss fassen,to decide,,,,,
+115,105,,,einen Kurs besuchen,to attend a course,,,,,
+116,105,,,einen Unfall bauen,"to crash, to cause an accident",,,,,
+117,105,,,Erfahrung sammeln,to gain experience,,,,,
+118,105,,,Freundschaft schließen,"to make friends, to become friends",,,,,
+119,105,,,Hilfe leisten,to help,,,,,
+120,105,,,in Anspruch nehmen,,,,,,
+121,105,,,in Aussicht stellen,,,,,,
+122,105,,,in Betracht ziehen,,,,,,
+123,105,,,in der Lage sein,"to be able to, to be in a position to",,,,zu,
+124,105,,,in Erfahrung bringen,,,,,,
+125,105,,,in Erfüllung gehen,,,,,,
+126,105,,,in Frage kommen,"to be a possibility, to come into question",,,,,
+127,105,,,in Gang setzen,,,,,,
+128,105,,,in Kauf nehmen,"to accept, to take the risk",,,,,
+129,105,,,Platz nehmen,,,,,,sich setzen
+130,105,,,Rücksicht nehmen,"to be considerate of, to take something into account",,,,auf,
+131,105,,,sich Gedanken machen,to worry about,,,,,
+132,105,,,sich Mühe geben,,,,,,sich bemühen
+133,105,,,unter Druck setzen,,,,,,
+134,105,,,unter Kontrolle bringen,,,,,,kontrollieren
+135,105,,,Verantwortung übernehmen,,,,,,
+136,105,,,Vorbereitungen treffen,,,,,,
+137,105,,,zu einem Ergebnis kommen,,,,,,
+138,105,,,zu Ende bringen,,,,,Acc.,beenden
+139,105,,,zur Kenntnis nehmen,,,,,,
+140,105,,,zur Sprache bringen,,,,,,
+141,105,,,zur Sprache kommen,,,,,,
+142,105,,,zur Verantwortung ziehen,,,,,,
+143,105,,,zur Verfügung stehen,to be available,,,,,
+144,105,,,zur Verfügung stellen,"to make something available, to provide something",,,,,
+145,105,,,zur Verhandlung kommen,,,,,,
+146,109,,,Abschied nehmen,,,,,von + Dat.,sich verabschieden
+147,109,,,Anerkennung finden,,,,,,anerkannt werden
+148,109,,,Anwendung finden,,,,,,angewendet werden
+149,109,,,auf Ablehnung stoßen,,,,,,abgelehnt werden
+150,109,,,auf die Nerven gehen,,,,,,nerven
+151,109,,,Bescheid wissen,,,,,über + Akk.,etw. wissen / informiert sein
+152,109,,,die Erlaubnis geben,,,,,,erlauben
+153,109,,,die Konsequenzen ziehen,,,,,,
+154,109,,,ein Angebot ablehnen /annehmen,,,,,,ein Angebot (nicht) akzeptieren
+155,109,,,ein Recht haben,,,,,auf + Akk.,die Berechtigung haben
+156,109,,,ein Referat halten,,,,,,referieren
+157,109,,,ein Risiko eingehen,,,,,,riskieren
+158,109,,,ein Versprechen halten,,,,,,versprechen
+159,109,,,eine Auswahl treffen,,,,,unter,auswählen
+160,109,,,eine Forderung erheben,,,,,nach,fordern
+161,109,,,eine Garantie geben,,,,,,garantieren
+162,109,,,eine Verabredung treffen,,,,,,verabreden
+163,109,,,eine Vereinbarung treffen,,,,,,vereinbaren
+164,109,,,einen (guten/schlechten etc.) Eindruck machen,,,,,auf + Akk.,jemanden beeindrucken / jmdm. (nicht) gefallen
+165,109,,,einen Auftrag geben,,,,,,beauftragen
+166,109,,,einen Beruf ausüben,,,,,,"arbeiten, tätig sein"
+167,109,,,Einen Fehler begehen,,,,,,Etwas falsch machen
+168,109,,,einen Fehler machen / begehen,,,,,,etw. falsch machen
+169,109,,,einen Kampf führen,,,,,,kämpfen
+170,109,,,einen Wunsch erfüllen,,,,,Dat.,"tun, was sich jemand wünscht"
+171,109,,,Einfluss haben,,,,,,beeinflussen
+172,109,,,Einfluss nehmen,,,,,auf,beeinflussen
+173,109,,,in Angriff nehmen,,,,,,zu tun beginnen
+174,109,,,in Erwägung ziehen,,,,,,erwägen
+175,109,,,in Kenntnis setzen,,,,,,informieren
+176,109,,,in Ruhe lassen,,,,,"Akk,",jemanden nicht stören
+177,109,,,in Schwierigkeiten bringen,,,,,,schwer machen
+178,109,,,in Verdacht geraten,,,,,,verdächtigt werden
+179,109,,,in Vergessenheit geraten,,,,,,vergessen werden
+180,109,,,in Verlegenheit bringen,,,,,,verlegen machen
+181,109,,,in Zweifel ziehen,,,,,,bezweifeln
+182,109,,,in Rechnung stellen,,,,,,jemandem etwas berechnen
+183,109,,,sich Hoffnung machen,,,,,,hoffen
+184,109,,,sich zum Ziel setzen,,,,,,anstreben
+185,109,,,Stellung nehmen,,,,,,sich äußern
+186,109,,,unter Beweis stellen,,,,,,beweisen
+187,109,,,Verständnis haben,,,,,für + Akk.,etw. verstehen
+188,109,,,Verzicht leisten / üben,,,,,,verzichten
+189,109,,,zu einer Einsicht kommen,,,,,,einsehen
+190,109,,,zum Abschluss kommen,,,,,,abschließen
+191,109,,,zum Ausdruck bringen,,,,,,ausdrücken
+192,109,,,zur Anzeige bringen,,,,,,anzeigen
+193,109,,,zur Debatte stehen,,,,,,soll debattiert werden
+194,109,,,zur Diskussion stellen,,,,,,ansprechen
+195,109,,,zur Folge haben,,,,,,bewirken
+196,109,,,zur Ruhe kommen,,,,,,ruhig werden
+197,109,,,Zweifel hegen,,,,,an,bezweifeln

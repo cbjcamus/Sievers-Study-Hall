@@ -4,10 +4,9 @@ from data.data_processing.units import (praepositionen_grammatik, praepositionen
                                         praepositionen_nomen, praepositionen_adverbien, praepositionen_artikel,
                                         artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
                                         adjektive, adjektivdeklinationen,
-                                        verben, trennbare_verben,
+                                        verben, trennbare_verben, nomen_verben_verbindungen,
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                         konjunktiv_II, konjunktiv_I, partizip_I,
-                                        deverbale_nomen,
                                         )
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -31,8 +30,9 @@ DATA_PATH = {
     adjektive: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive.csv"),
     adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/adjektive", "adjektivdeklinationen.csv"),
 
-    trennbare_verben: os.path.join(BASE_DIR, "datasets/konjugation", "trennbare_verben.csv"),
     verben: os.path.join(BASE_DIR, "datasets/konjugation", "verben.csv"),
+    trennbare_verben: os.path.join(BASE_DIR, "datasets/konjugation", "trennbare_verben.csv"),
+    nomen_verben_verbindungen: os.path.join(BASE_DIR, "datasets/konjugation", "nomen_verben_verbindungen.csv"),
 
     praesens: os.path.join(BASE_DIR, "datasets/konjugation", "praesens.csv"),
     imperativ: os.path.join(BASE_DIR, "datasets/konjugation", "imperativ.csv"),
@@ -43,5 +43,4 @@ DATA_PATH = {
     konjunktiv_I: os.path.join(BASE_DIR, "datasets/konjugation", "konjunktiv_I.csv"),
     partizip_I: os.path.join(BASE_DIR, "datasets/konjugation", "partizip_I.csv"),
 
-    deverbale_nomen: os.path.join(BASE_DIR, "datasets/wortschatz", "deverbale_substantive.csv"),
-             }
+}

@@ -3,10 +3,8 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
-    trennbare_verben, verben,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-
-    deverbale_nomen
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -310,6 +308,11 @@ guidance_konnektoren_isolation = (
     f"<br><br>{ICON_CHECK} deswegen"
     f"<br><br>{ICON_CROSS} deshalb, deswegen"
     f"<br><br>{ICON_CROSS} weshalb"
+    f"<br><br>"
+    
+    "as well as \u25CF Correlative conjunction"
+    f"<br><br>{ICON_CHECK} sowohl als auch"
+    f"<br><br>{ICON_CROSS} sowohl ... als auch"
 )
 
 guidance_konnektoren_sentences = (
@@ -645,54 +648,14 @@ guidance_adjektivdeklinationen_superlative_sentences = (
     f"<br><br>{ICON_CHECK} schönste"
 )
 
-guidance_trennbare_verben_root = (
-    "For each question, you will be provided the English translation of a German (un)trennbare verb as well as its root."
-    "<br><br>Find the German verb that correspond to the translation and root."
-    
-    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
-    " Read carefully the entire translation."
-    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
-
-    "<h2>Example</h2>"
-    "to pull, to drag, to move → ziehen"
-    "<br><br>to get dressed, to put on, to dress someone, to attract, to pull → _____"
-    f"<br><br>{ICON_CHECK} anziehen"
-)
-
-guidance_trennbare_verben_prefix = (
-    "For each question, you will be provided the English translation of a German (un)trennbare verb as well as its prefix."
-    "<br><br>Find the German verb that correspond to the translation and prefix."
-
-    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
-    " Read carefully the entire translation."
-    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
-
-    "<h2>Example</h2>"
-    "to get dressed, to put on, to dress someone, to attract, to pull \u25CF an"
-    f"<br><br>{ICON_CHECK} anziehen"
-)
-
-guidance_trennbare_verben_no_help = (
-    "For each question, you will be provided the English translation of a German (un)trennbare verb."
-    "<br><br>Find the German verb that correspond to the entire translation."
-
-    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
-    " Read carefully the entire translation."
-    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
-
-    "<h2>Example</h2>"
-    "to get dressed, to put on, to dress someone, to attract, to pull"
-    f"<br><br>{ICON_CHECK} anziehen"
-)
-
 guidance_verben_translation = (
     "For each question, you will see the English translation of a German verb."
     "<br>Find the German verb that correspond to the entire translation."
-    
+
     f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
     f" Read carefully the entire translation."
     f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
-    
+
     "<h2>Example</h2>"
     "to make glad, to be glad (refl.), to look forward (refl.)"
     f"<br><br>{ICON_CHECK} freuen"
@@ -733,8 +696,115 @@ guidance_verben_multiple_choices_german_to_english = (
     f"<br><br>{ICON_CHECK} to replace, to substitute, to compensate for"
 )
 
+guidance_trennbare_verben_root = (
+    "For each question, you will be provided the English translation of a German (un)trennbare verb as well as its root."
+    "<br><br>Find the German verb that correspond to the translation and root."
+    
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    " Read carefully the entire translation."
+    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
 
-GUIDANCE_EXERCISE = {
+    "<h2>Example</h2>"
+    "to pull, to drag, to move → ziehen"
+    "<br><br>to get dressed, to put on, to dress someone, to attract, to pull → _____"
+    f"<br><br>{ICON_CHECK} anziehen"
+)
+
+guidance_trennbare_verben_prefix = (
+    "For each question, you will be provided the English translation of a German (un)trennbare verb as well as its prefix."
+    "<br><br>Find the German verb that correspond to the translation and prefix."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    " Read carefully the entire translation."
+    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+
+    "<h2>Example</h2>"
+    "to get dressed, to put on, to dress someone, to attract, to pull \u25CF an"
+    f"<br><br>{ICON_CHECK} anziehen"
+)
+
+guidance_trennbare_verben_no_help = (
+    "For each question, you will be provided the English translation of a German (un)trennbare verb."
+    "<br><br>Find the German verb that correspond to the entire translation."
+
+    f"<br><br>{ICON_WARN} There is only one possible answer per question. Synonyms are not available for this exercise."
+    " Read carefully the entire translation."
+    f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+
+    "<h2>Example</h2>"
+    "to get dressed, to put on, to dress someone, to attract, to pull"
+    f"<br><br>{ICON_CHECK} anziehen"
+)
+
+guidance_nomen_verben_verbindungen_nomen_isolation = (
+    "For each question, you will be provided an incomplete German Noun-Verb Combination and its English translation."
+    "<br><br>Find the German noun that completes the combination."
+
+    f"<br><br>{ICON_WARN} There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+    f"<br><br>{ICON_WARN} The answer may require an article."
+
+    "<h2>Example</h2>"
+    "_____ haben"
+    "<br><br><i>to have an opinion</i>"
+    f"<br><br>{ICON_CHECK} eine Meinung"
+    f"<br><br>{ICON_CHECK} eine Ansicht"
+    f"<br><br>{ICON_CROSS} eine Meinung, eine Ansicht"
+    f"<br><br>{ICON_CROSS} Meinung"
+    f"<br><br>{ICON_CROSS} ein Meinung"
+)
+
+guidance_nomen_verben_verbindungen_verben_isolation = (
+    "For each question, you will be provided an incomplete German Noun-Verb Combination and its English translation."
+    "<br><br>Find the German verb that completes the combination."
+
+    f"<br><br>{ICON_WARN} There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "eine Meinung _____"
+    "<br><br><i>to have an opinion, to think</i>"
+    f"<br><br>{ICON_CHECK} haben"
+    f"<br><br>{ICON_CHECK} vertreten"
+    f"<br><br>{ICON_CROSS} haben, vertreten"
+)
+
+guidance_nomen_verben_verbindungen_nomen_sentences = (
+    "For each question, you will be provided an incomplete German sentence and its English translation."
+    "<br><br>Find the German noun that completes the sentence."
+
+    f"<br><br>{ICON_WARN} There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+    f"<br><br>{ICON_WARN} The answer DOES NOT require an article."
+
+    "<h2>Example</h2>"
+    "Ich habe eine andere _____ als du."
+    "<br><br><i>I have a different opinion than you.</i>"
+    f"<br><br>{ICON_CHECK} Meinung"
+    f"<br><br>{ICON_CHECK} Ansicht"
+    f"<br><br>{ICON_CROSS} Meinung, Ansicht"
+)
+
+guidance_nomen_verben_verbindungen_verben_sentences = (
+    "For each question, you will be provided an incomplete German sentence and its English translation."
+    "<br><br>Find the German verb that completes the sentence."
+
+    f"<br><br>{ICON_WARN} There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+    f"<br><br>{ICON_WARN} The verb must be conjugated in the proper tense and the proper grammatical person."
+
+    "<h2>Example</h2>"
+    "Sie _____ den Vorschlag, gemeinsam zu reisen."
+    "<br><br><i>She made the suggestion to travel together.</i>"
+    f"<br><br>{ICON_CHECK} machte"
+    f"<br><br>{ICON_CHECK} unterbreitete"
+    f"<br><br>{ICON_CROSS} machte, unterbreitete"
+    f"<br><br>{ICON_CROSS} macht"
+    f"<br><br>{ICON_CROSS} machen"
+)
+
+
+GUIDANCE_EXERCISE_EN = {
 
     praepositionen_grammatik: {
         1: guidance_praepositionen_grammatik_basic,
@@ -806,12 +876,22 @@ GUIDANCE_EXERCISE = {
     praepositionen_adjektive: {
         1: guidance_praepositionen_adjektive_isolation,
         2: guidance_praepositionen_adjektive_sentences,
-
         3: guidance_praepositionen_adjektive_isolation,
         4: guidance_praepositionen_adjektive_sentences,
 
         5: guidance_praepositionen_adjektive_isolation,
         6: guidance_praepositionen_adjektive_sentences,
+        7: guidance_praepositionen_adjektive_isolation,
+        8: guidance_praepositionen_adjektive_sentences,
+        9: guidance_praepositionen_adjektive_isolation,
+        10: guidance_praepositionen_adjektive_sentences,
+
+        11: guidance_praepositionen_adjektive_isolation,
+        12: guidance_praepositionen_adjektive_sentences,
+        13: guidance_praepositionen_adjektive_isolation,
+        14: guidance_praepositionen_adjektive_sentences,
+        15: guidance_praepositionen_adjektive_isolation,
+        16: guidance_praepositionen_adjektive_sentences,
     },
 
     praepositionen_nomen: {
@@ -1085,42 +1165,6 @@ GUIDANCE_EXERCISE = {
         30: guidance_adjektivdeklinationen_superlative_sentences,
     },
 
-    trennbare_verben: {
-        1: guidance_trennbare_verben_root,
-        2: guidance_trennbare_verben_prefix,
-        3: guidance_trennbare_verben_no_help,
-
-        4: guidance_trennbare_verben_root,
-        5: guidance_trennbare_verben_prefix,
-        6: guidance_trennbare_verben_no_help,
-
-        7: guidance_trennbare_verben_root,
-        8: guidance_trennbare_verben_root,
-        9: guidance_trennbare_verben_root,
-        10: guidance_trennbare_verben_root,
-        11: guidance_trennbare_verben_prefix,
-        12: guidance_trennbare_verben_prefix,
-        13: guidance_trennbare_verben_prefix,
-        14: guidance_trennbare_verben_prefix,
-        15: guidance_trennbare_verben_no_help,
-        16: guidance_trennbare_verben_no_help,
-        17: guidance_trennbare_verben_no_help,
-        18: guidance_trennbare_verben_no_help,
-
-        19: guidance_trennbare_verben_root,
-        20: guidance_trennbare_verben_root,
-        21: guidance_trennbare_verben_root,
-        22: guidance_trennbare_verben_root,
-        23: guidance_trennbare_verben_prefix,
-        24: guidance_trennbare_verben_prefix,
-        25: guidance_trennbare_verben_prefix,
-        26: guidance_trennbare_verben_prefix,
-        27: guidance_trennbare_verben_no_help,
-        28: guidance_trennbare_verben_no_help,
-        29: guidance_trennbare_verben_no_help,
-        30: guidance_trennbare_verben_no_help,
-    },
-
     verben: {
         1: guidance_verben_translation,
         2: guidance_verben_translation,
@@ -1165,6 +1209,49 @@ GUIDANCE_EXERCISE = {
         38: guidance_verben_multiple_choices_german_to_english,
         39: guidance_verben_multiple_choices_german_to_english,
         40: guidance_verben_multiple_choices_german_to_english,
-    }
+    },
+
+    trennbare_verben: {
+        1: guidance_trennbare_verben_root,
+        2: guidance_trennbare_verben_prefix,
+        3: guidance_trennbare_verben_no_help,
+
+        4: guidance_trennbare_verben_root,
+        5: guidance_trennbare_verben_prefix,
+        6: guidance_trennbare_verben_no_help,
+
+        7: guidance_trennbare_verben_root,
+        8: guidance_trennbare_verben_root,
+        9: guidance_trennbare_verben_root,
+        10: guidance_trennbare_verben_root,
+        11: guidance_trennbare_verben_prefix,
+        12: guidance_trennbare_verben_prefix,
+        13: guidance_trennbare_verben_prefix,
+        14: guidance_trennbare_verben_prefix,
+        15: guidance_trennbare_verben_no_help,
+        16: guidance_trennbare_verben_no_help,
+        17: guidance_trennbare_verben_no_help,
+        18: guidance_trennbare_verben_no_help,
+
+        19: guidance_trennbare_verben_root,
+        20: guidance_trennbare_verben_root,
+        21: guidance_trennbare_verben_root,
+        22: guidance_trennbare_verben_root,
+        23: guidance_trennbare_verben_prefix,
+        24: guidance_trennbare_verben_prefix,
+        25: guidance_trennbare_verben_prefix,
+        26: guidance_trennbare_verben_prefix,
+        27: guidance_trennbare_verben_no_help,
+        28: guidance_trennbare_verben_no_help,
+        29: guidance_trennbare_verben_no_help,
+        30: guidance_trennbare_verben_no_help,
+    },
+
+    nomen_verben_verbindungen: {
+        1: guidance_nomen_verben_verbindungen_nomen_isolation,
+        2: guidance_nomen_verben_verbindungen_verben_isolation,
+        3: guidance_nomen_verben_verbindungen_nomen_sentences,
+        4: guidance_nomen_verben_verbindungen_verben_sentences,
+    },
 
 }

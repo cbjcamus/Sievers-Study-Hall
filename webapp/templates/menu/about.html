@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Sievers Study Hall – Practice German for Free</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros.html" import render_title with context %}
+{% from "macros.html" import render_unit_table_row %}
+
+    {{ render_title("About") }}
+
+    <div class="section">
+        <h2>About the application</h2>
+
+        <p>Sievers Study Hall is an application designed to practice German by training one skill at a time.</p>
+
+        <p>You can read the FAQ <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">here</a>.</p>
+        <br>
+    </div>
+
+    <div class="section">
+        <h2>News and Updates</h2>
+
+        <p>I regularly update the application to provide new exercises as well as to correct issues.</p>
+
+        <p>You can follow these updates by signing-up on the Substack newsletter
+            <a href="https://sieversstudyhall.substack.com/?r=5t7it6&utm_campaign=pub&utm_medium=web" target="_blank">here</a>.</p>
+        <br>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Questions? Comments? Just want to say thank you? Send me an email at: sieversstudyhall@gmail.com</p>
+
+        <p>You can also contact me through my blog on <a href="https://sieversstudyhall.substack.com/" target="_blank">substack</a>.</p>
+        <br>
+    </div>
+
+    <div class="section">
+        <h2>Credits</h2>
+        <p>Thanks to reddit user <a href="https://www.reddit.com/user/lubricated-horse/" target="_blank">lubricated-horse</a> for a list of verbs sorted by frequency: <a href="https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/" target="_blank">link</a>.</p>
+
+        <p>Thanks to reddit user <a href="https://www.reddit.com/r/German/comments/og7e7s/update_heres_the_transcript_of_the_1781_mostused/" target="_blank">Tubbiefox</a> for a list of adverbs, adjectives and verbs listed by frequency: <a href="https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112" target="_blank">link</a>.</p>
+
+        <p>Thanks to Emanuel from <a href="https://yourdailygerman.com/" target="_blank">YourDailyGerman</a> for the valuable feedback.</p>
+
+        <p>German proverbs come from <a href="https://en.wikiquote.org/wiki/German_proverbs" target="_blank">Wikiquote</a>.</p>
+        <br>
+    </div>
+
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

@@ -3,14 +3,13 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
-    trennbare_verben, verben,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    deverbale_nomen
 )
 
 # bullet point \u25CF
 
-INSTRUCTION = {
+INSTRUCTION_EN = {
 
     praepositionen_grammatik: {
         1: "Complete the following sentence with the preposition that fits:",
@@ -81,12 +80,22 @@ INSTRUCTION = {
     praepositionen_adjektive: {
         1: "Write the preposition that match the following adjective:",
         2: "Complete the following sentence with the preposition that fits:",
-
         3: "Write the preposition that match the following adjective:",
         4: "Complete the following sentence with the preposition that fits:",
 
         5: "Write the preposition that match the following adjective:",
         6: "Complete the following sentence with the preposition that fits:",
+        7: "Write the preposition that match the following adjective:",
+        8: "Complete the following sentence with the preposition that fits:",
+        9: "Write the preposition that match the following adjective:",
+        10: "Complete the following sentence with the preposition that fits:",
+
+        11: "Write the preposition that match the following adjective:",
+        12: "Complete the following sentence with the preposition that fits:",
+        13: "Write the preposition that match the following adjective:",
+        14: "Complete the following sentence with the preposition that fits:",
+        15: "Write the preposition that match the following adjective:",
+        16: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_nomen: {
@@ -144,10 +153,10 @@ INSTRUCTION = {
         19: "Complete the following sentence with the indefinite article that fits:",
         20: "Write the Kein-word that fits the case and gender provided:",
         21: "Complete the following sentence with the Kein-word that fits:",
-        22: "Write the possessive article that fits the case and gender provided.",
+        22: "Write the possessive article that fits the case and gender provided:",
         23: "Complete the following sentence with the possessive article that fits."
             "<br><br>All the possessive articles are based on singular pronouns (Ich, Du, Er, Sie, Es).",
-        24: "Write the possessive article that fits the case and gender provided.",
+        24: "Write the possessive article that fits the case and gender provided:",
         25: "Complete the following sentence with the possessive article that fits."
             "<br><br>All the possessive articles are based on plural (Wir, Ihr, Sie) or formal pronouns.",
 
@@ -279,7 +288,7 @@ INSTRUCTION = {
         9: "Complete the following sentence with the pronoun that fits:",
         10: "Complete the following sentence with the pronoun that fits:",
         11: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
-        12: "Complete the following sentence with the possessive provide that fits:",
+        12: "Complete the following sentence with the possessive pronoun that fits:",
         13: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
         14: "Complete the following sentence with the possessive pronoun that fits:",
 
@@ -466,42 +475,6 @@ INSTRUCTION = {
         30: "Complete the sentence with the correct superlative form of the specified adjective:",
     },
 
-    trennbare_verben: {
-        1: "Translate the following (un)trennbare verb based on the specified root verb:",
-        2: "Translate the following (un)trennbare verb based on the specified prefix:",
-        3: "Translate the following (un)trennbare verb:",
-
-        4: "Translate the following (un)trennbare verb based on the specified root verb:",
-        5: "Translate the following (un)trennbare verb based on the specified prefix:",
-        6: "Translate the following (un)trennbare verb:",
-
-        7: "Translate the following (un)trennbare verb based on the specified root verb:",
-        8: "Translate the following (un)trennbare verb based on the specified root verb:",
-        9: "Translate the following (un)trennbare verb based on the specified root verb:",
-        10: "Translate the following (un)trennbare verb based on the specified root verb:",
-        11: "Translate the following (un)trennbare verb based on the specified prefix:",
-        12: "Translate the following (un)trennbare verb based on the specified prefix:",
-        13: "Translate the following (un)trennbare verb based on the specified prefix:",
-        14: "Translate the following (un)trennbare verb based on the specified prefix:",
-        15: "Translate the following (un)trennbare verb:",
-        16: "Translate the following (un)trennbare verb:",
-        17: "Translate the following (un)trennbare verb:",
-        18: "Translate the following (un)trennbare verb:",
-
-        19: "Translate the following (un)trennbare verb based on the specified root verb:",
-        20: "Translate the following (un)trennbare verb based on the specified root verb:",
-        21: "Translate the following (un)trennbare verb based on the specified root verb:",
-        22: "Translate the following (un)trennbare verb based on the specified root verb:",
-        23: "Translate the following (un)trennbare verb based on the specified prefix:",
-        24: "Translate the following (un)trennbare verb based on the specified prefix:",
-        25: "Translate the following (un)trennbare verb based on the specified prefix:",
-        26: "Translate the following (un)trennbare verb based on the specified prefix:",
-        27: "Translate the following (un)trennbare verb:",
-        28: "Translate the following (un)trennbare verb:",
-        29: "Translate the following (un)trennbare verb:",
-        30: "Translate the following (un)trennbare verb:",
-    },
-
     verben: {
         1: "Translate the following verb:",
         2: "Translate the following verb:",
@@ -546,6 +519,49 @@ INSTRUCTION = {
         38: "Translate the following verb:",
         39: "Translate the following verb:",
         40: "Translate the following verb:",
+    },
+
+    trennbare_verben: {
+        1: "Translate the following (un)trennbare verb based on the specified root verb:",
+        2: "Translate the following (un)trennbare verb based on the specified prefix:",
+        3: "Translate the following (un)trennbare verb:",
+
+        4: "Translate the following (un)trennbare verb based on the specified root verb:",
+        5: "Translate the following (un)trennbare verb based on the specified prefix:",
+        6: "Translate the following (un)trennbare verb:",
+
+        7: "Translate the following (un)trennbare verb based on the specified root verb:",
+        8: "Translate the following (un)trennbare verb based on the specified root verb:",
+        9: "Translate the following (un)trennbare verb based on the specified root verb:",
+        10: "Translate the following (un)trennbare verb based on the specified root verb:",
+        11: "Translate the following (un)trennbare verb based on the specified prefix:",
+        12: "Translate the following (un)trennbare verb based on the specified prefix:",
+        13: "Translate the following (un)trennbare verb based on the specified prefix:",
+        14: "Translate the following (un)trennbare verb based on the specified prefix:",
+        15: "Translate the following (un)trennbare verb:",
+        16: "Translate the following (un)trennbare verb:",
+        17: "Translate the following (un)trennbare verb:",
+        18: "Translate the following (un)trennbare verb:",
+
+        19: "Translate the following (un)trennbare verb based on the specified root verb:",
+        20: "Translate the following (un)trennbare verb based on the specified root verb:",
+        21: "Translate the following (un)trennbare verb based on the specified root verb:",
+        22: "Translate the following (un)trennbare verb based on the specified root verb:",
+        23: "Translate the following (un)trennbare verb based on the specified prefix:",
+        24: "Translate the following (un)trennbare verb based on the specified prefix:",
+        25: "Translate the following (un)trennbare verb based on the specified prefix:",
+        26: "Translate the following (un)trennbare verb based on the specified prefix:",
+        27: "Translate the following (un)trennbare verb:",
+        28: "Translate the following (un)trennbare verb:",
+        29: "Translate the following (un)trennbare verb:",
+        30: "Translate the following (un)trennbare verb:",
+    },
+
+    nomen_verben_verbindungen: {
+        1: "Find the missing noun in the Noun-Verb Combination",
+        2: "Find the missing verb in the Noun-Verb Combination",
+        3: "Find the missing noun in the following sentence",
+        4: "Find the missing verb in the following sentence",
     },
 
     praesens: {
@@ -593,39 +609,49 @@ INSTRUCTION = {
     },
 
     partizip_II: {
-        1: "Write the Partizip II of the following verb:",
-        2: "Write the Partizip II of the following verb:",
-        3: "Write the Partizip II of the following verb:",
-        4: "Write the Partizip II of the following verb:",
-        5: "Write the Partizip II of the following verb:",
+        1: "Write the Past Participle (Partizip II) of the following verb:",
+        2: "Write the Past Participle (Partizip II) of the following verb:",
+        3: "Write the Past Participle (Partizip II) of the following verb:",
+        4: "Write the Past Participle (Partizip II) of the following verb:",
+        5: "Write the Past Participle (Partizip II) of the following verb:",
 
-        6: "Write the Partizip II of the following verb:",
-        7: "Write the Partizip II of the following verb:",
-        8: "Write the Partizip II of the following verb:",
-        9: "Write the Partizip II of the following verb:",
-        10: "Write the Partizip II of the following verb:",
+        6: "Write the Past Participle (Partizip II) of the following verb:",
+        7: "Write the Past Participle (Partizip II) of the following verb:",
+        8: "Write the Past Participle (Partizip II) of the following verb:",
+        9: "Write the Past Participle (Partizip II) of the following verb:",
+        10: "Write the Past Participle (Partizip II) of the following verb:",
 
-        11: "Write the Partizip II of the following verb:",
-        12: "Write the Partizip II of the following verb:",
-        13: "Write the Partizip II of the following verb:",
-        14: "Write the Partizip II of the following verb:",
-        15: "Write the Partizip II of the following verb:",
-        16: "Write the Partizip II of the following verb:",
-        17: "Write the Partizip II of the following verb:",
-        18: "Write the Partizip II of the following verb:",
-        19: "Write the Partizip II of the following verb:",
-        20: "Write the Partizip II of the following verb:",
+        11: "Write the Past Participle (Partizip II) of the following verb:",
+        12: "Write the Past Participle (Partizip II) of the following verb:",
+        13: "Write the Past Participle (Partizip II) of the following verb:",
+        14: "Write the Past Participle (Partizip II) of the following verb:",
+        15: "Write the Past Participle (Partizip II) of the following verb:",
+        16: "Write the Past Participle (Partizip II) of the following verb:",
+        17: "Write the Past Participle (Partizip II) of the following verb:",
+        18: "Write the Past Participle (Partizip II) of the following verb:",
+        19: "Write the Past Participle (Partizip II) of the following verb:",
+        20: "Write the Past Participle (Partizip II) of the following verb:",
 
-        21: "Write the Partizip II of the following verb:",
-        22: "Write the Partizip II of the following verb:",
-        23: "Write the Partizip II of the following verb:",
-        24: "Write the Partizip II of the following verb:",
-        25: "Write the Partizip II of the following verb:",
-        26: "Write the Partizip II of the following verb:",
-        27: "Write the Partizip II of the following verb:",
-        28: "Write the Partizip II of the following verb:",
-        29: "Write the Partizip II of the following verb:",
-        30: "Write the Partizip II of the following verb:",
+        21: "Write the Past Participle (Partizip II) of the following verb:",
+        22: "Write the Past Participle (Partizip II) of the following verb:",
+        23: "Write the Past Participle (Partizip II) of the following verb:",
+        24: "Write the Past Participle (Partizip II) of the following verb:",
+        25: "Write the Past Participle (Partizip II) of the following verb:",
+        26: "Write the Past Participle (Partizip II) of the following verb:",
+        27: "Write the Past Participle (Partizip II) of the following verb:",
+        28: "Write the Past Participle (Partizip II) of the following verb:",
+        29: "Write the Past Participle (Partizip II) of the following verb:",
+        30: "Write the Past Participle (Partizip II) of the following verb:",
+        31: "Write the Past Participle (Partizip II) of the following verb:",
+        32: "Write the Past Participle (Partizip II) of the following verb:",
+        33: "Write the Past Participle (Partizip II) of the following verb:",
+        34: "Write the Past Participle (Partizip II) of the following verb:",
+        35: "Write the Past Participle (Partizip II) of the following verb:",
+        36: "Write the Past Participle (Partizip II) of the following verb:",
+        37: "Write the Past Participle (Partizip II) of the following verb:",
+        38: "Write the Past Participle (Partizip II) of the following verb:",
+        39: "Write the Past Participle (Partizip II) of the following verb:",
+        40: "Write the Past Participle (Partizip II) of the following verb:",
     },
 
     praeteritum: {
@@ -663,6 +689,16 @@ INSTRUCTION = {
         29: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         30: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         31: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        32: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        33: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        34: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        35: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        36: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        37: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        38: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        39: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        40: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        41: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
     },
 
     praeteritum_partizip_II: {
@@ -731,6 +767,26 @@ INSTRUCTION = {
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         31: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        32: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        33: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        34: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        35: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        36: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        37: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        38: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        39: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        40: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        41: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
     },
 
     imperativ: {
@@ -768,25 +824,6 @@ INSTRUCTION = {
         3: "Write the Partizip I of the following verb:",
         4: "Write the Partizip I of the following verb:",
         5: "Write the Partizip I of the following verb:",
-    },
-
-    deverbale_nomen: {
-        1: "Complete the blank with the noun that fits:",
-        2: "Complete the blank with the noun that fits:",
-        3: "Complete the blank with the noun that fits:",
-        4: "Complete the blank with the noun that fits:",
-        5: "Complete the blank with the noun that fits:",
-        6: "Complete the blank with the noun that fits:",
-        7: "Complete the blank with the noun that fits:",
-        8: "Complete the blank with the noun that fits:",
-        9: "Complete the blank with the noun that fits:",
-        10: "Complete the blank with the noun that fits:",
-        11: "Complete the blank with the noun that fits:",
-        12: "Complete the blank with the noun that fits:",
-        13: "Complete the blank with the noun that fits:",
-        14: "Complete the blank with the noun that fits:",
-        15: "Complete the blank with the noun that fits:",
-        16: "Complete the blank with the noun that fits:",
     },
 
 }

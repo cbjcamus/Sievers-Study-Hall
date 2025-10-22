@@ -73,6 +73,38 @@ def get_extent(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
     return vals
 
 
+def get_answer_column(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
+    """
+    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
+    and returns the list of exercise IDs to include.
+    """
+    df = pd.read_csv(csv_file)
+
+    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
+    if row.empty:
+        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
+
+    answer_column = row.iloc[0]["answer_column"]
+
+    return answer_column
+
+
+def get_question_column(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
+    """
+    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
+    and returns the list of exercise IDs to include.
+    """
+    df = pd.read_csv(csv_file)
+
+    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
+    if row.empty:
+        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
+
+    question_column = row.iloc[0]["question_column"]
+
+    return question_column
+
+
 def is_exercise_multiple_choice(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
     df = pd.read_csv(csv_file)
     return not df[(df['unit'] == unit) & (df['exercise'] == exercise)].empty

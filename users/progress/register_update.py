@@ -66,32 +66,6 @@ def register_progress(session, unit, exercise, nr):
         return
 
 
-'''
-def register_false(session, unit, exercise, nr):
-    """
-    Records a question as incorrectly answered for a specific unit and exercise.
-
-    Ensures the 'falses' key exists in the session for the given exercise, then appends
-    the question number to the list of incorrect answers.
-
-    Args:
-        session (dict): The session dictionary tracking user progress.
-        unit (str): The unit identifier.
-        exercise (str or int): The exercise identifier.
-        nr (int or str): The question number to mark as incorrect.
-
-    Returns:
-        None
-    """
-    if (unit, exercise) not in session['unfinished_exercise']:
-        session['unfinished_exercise'].append((unit, exercise))
-
-    init_session_key(session, unit, exercise, 'falses')
-    session[unit][str(exercise)]['falses'].append(nr)
-    return
-'''
-
-
 def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
     """
     Stores the user's incorrect answer for a given unit and exercise.
@@ -197,7 +171,7 @@ def register_result(session, unit, exercise, feedback):
             score_final = float(score_val) if score_val is not None else 0.0
         except (TypeError, ValueError):
             score_final = 0.0
-        score_final = round(score_final, 2)
+        # score_final = round(score_final, 2)
 
         row = UserExerciseState.query.filter_by(
             user_id=current_user.id, unit=unit, exercise=ex_int
@@ -234,10 +208,10 @@ def register_result(session, unit, exercise, feedback):
         init_session_key(session, unit, exercise, 'falses')
 
         score_exercise = compute_score(session, unit, exercise)
-        session[unit][str(exercise)]['result'] = round(score_exercise, 2)
+        session[unit][str(exercise)]['result'] = score_exercise
 
         if feedback is not None:
-            log_exercise_completed(unit, exercise, round(score_exercise, 2))
+            log_exercise_completed(unit, exercise, score_exercise)
 
         if is_key_in_exercise(session, unit, exercise, 'progress'):
             del session[unit][str(exercise)]['progress']

@@ -3,9 +3,8 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
-    verben, trennbare_verben,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    deverbale_nomen
 )
 
 from webapp.style.icons import STAR_GOLD, STAR_SILVER
@@ -27,8 +26,9 @@ STARS = {
     adjektive: f"",
     adjektivdeklinationen: f"",
 
-    trennbare_verben: f"{STAR_GOLD}",
     verben: f"{STAR_GOLD}",
+    trennbare_verben: f"{STAR_GOLD}",
+    nomen_verben_verbindungen: f"",
 
     praesens: f"",
     imperativ: f"",
@@ -38,6 +38,4 @@ STARS = {
     konjunktiv_II: f"",
     konjunktiv_I: f"",
     partizip_I: f"",
-
-    deverbale_nomen: "",
-    }
+}
