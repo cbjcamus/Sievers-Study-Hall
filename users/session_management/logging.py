@@ -94,7 +94,7 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; result; feedback_message; user_answer; language")
+    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; language; result; feedback_message; user_answer")
 
     next_nr = get_next_number(QUESTION_FLAGGED_PATH)
 
@@ -103,7 +103,7 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     language = get_language(request, session)
 
     with open(QUESTION_FLAGGED_PATH, "a", encoding="utf-8") as filepath:
-        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {result}; {feedback_message}; {user_answer}; {language}")
+        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {language}; {result}; {feedback_message}; {user_answer}")
     return
 
 
