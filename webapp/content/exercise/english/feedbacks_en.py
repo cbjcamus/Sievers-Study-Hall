@@ -199,37 +199,37 @@ FEEDBACK_EN = {
     },
 
     praepositionen_nomen: {
-        1: "{previous_question} = {german} {correct_answers}",
+        1: "{english} = {german} {correct_answers}",
         2: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        3: "{previous_question} = {german} {correct_answers}",
+        3: "{english} = {german} {correct_answers}",
         4: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        5: "{previous_question} = {german} {correct_answers}",
+        5: "{english} = {german} {correct_answers}",
         6: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        7: "{previous_question} = {german} {correct_answers}",
+        7: "{english} = {german} {correct_answers}",
         8: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        9: "{previous_question} = {german} {correct_answers}",
+        9: "{english} = {german} {correct_answers}",
         10: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        11: "{previous_question} = {german} {correct_answers}",
+        11: "{english} = {german} {correct_answers}",
         12: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
-        13: "{previous_question} = {german} {correct_answers}",
+        13: "{english} = {german} {correct_answers}",
         14: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>Correct answer(s): {correct_answers}",
-        15: "{previous_question} = {german} {correct_answers}",
+        15: "{english} = {german} {correct_answers}",
         16: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",

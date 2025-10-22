@@ -141,30 +141,30 @@ QUESTION_EN = {
     },
 
     praepositionen_nomen: {
-        1: "{question} = {german} _____",
+        1: "{english} = {german} _____",
         2: "{question}"
             "<br><br><i>{english}</i>",
-        3: "{question} = {german} _____",
+        3: "{english} = {german} _____",
         4: "{question}"
            "<br><br><i>{english}</i>",
 
-        5: "{question} = {german} _____",
+        5: "{english} = {german} _____",
         6: "{question}"
            "<br><br><i>{english}</i>",
-        7: "{question} = {german} _____",
+        7: "{english} = {german} _____",
         8: "{question}"
            "<br><br><i>{english}</i>",
-        9: "{question} = {german} _____",
+        9: "{english} = {german} _____",
         10: "{question}"
            "<br><br><i>{english}</i>",
 
-        11: "{question} = {german} _____",
+        11: "{english} = {german} _____",
         12: "{question}"
            "<br><br><i>{english}</i>",
-        13: "{question} = {german} _____",
+        13: "{english} = {german} _____",
         14: "{question}"
            "<br><br><i>{english}</i>",
-        15: "{question} = {german} _____",
+        15: "{english} = {german} _____",
         16: "{question}"
             "<br><br><i>{english}</i>",
     },

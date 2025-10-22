@@ -199,37 +199,37 @@ FEEDBACK_FR = {
     },
 
     praepositionen_nomen: {
-        1: "{previous_question} = {german} {correct_answers}",
+        1: "{french} = {german} {correct_answers}",
         2: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{previous_question} = {german} {correct_answers}",
+        3: "{french} = {german} {correct_answers}",
         4: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        5: "{previous_question} = {german} {correct_answers}",
+        5: "{french} = {german} {correct_answers}",
         6: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        7: "{previous_question} = {german} {correct_answers}",
+        7: "{french} = {german} {correct_answers}",
         8: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        9: "{previous_question} = {german} {correct_answers}",
+        9: "{french} = {german} {correct_answers}",
         10: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        11: "{previous_question} = {german} {correct_answers}",
+        11: "{french} = {german} {correct_answers}",
         12: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{previous_question} = {german} {correct_answers}",
+        13: "{french} = {german} {correct_answers}",
         14: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{previous_question} = {german} {correct_answers}",
+        15: "{french} = {german} {correct_answers}",
         16: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",

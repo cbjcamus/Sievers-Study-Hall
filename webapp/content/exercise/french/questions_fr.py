@@ -141,30 +141,30 @@ QUESTION_FR = {
     },
 
     praepositionen_nomen: {
-        1: "{question} = {german} _____",
+        1: "{french} = {german} _____",
         2: "{question}"
             "<br><br><i>{french}</i>",
-        3: "{question} = {german} _____",
+        3: "{french} = {german} _____",
         4: "{question}"
            "<br><br><i>{french}</i>",
 
-        5: "{question} = {german} _____",
+        5: "{french} = {german} _____",
         6: "{question}"
            "<br><br><i>{french}</i>",
-        7: "{question} = {german} _____",
+        7: "{french} = {german} _____",
         8: "{question}"
            "<br><br><i>{french}</i>",
-        9: "{question} = {german} _____",
+        9: "{french} = {german} _____",
         10: "{question}"
            "<br><br><i>{french}</i>",
 
-        11: "{question} = {german} _____",
+        11: "{french} = {german} _____",
         12: "{question}"
            "<br><br><i>{french}</i>",
-        13: "{question} = {german} _____",
+        13: "{french} = {german} _____",
         14: "{question}"
            "<br><br><i>{french}</i>",
-        15: "{question} = {german} _____",
+        15: "{french} = {german} _____",
         16: "{question}"
             "<br><br><i>{french}</i>",
     },
