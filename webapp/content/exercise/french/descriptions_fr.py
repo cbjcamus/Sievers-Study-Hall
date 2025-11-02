@@ -38,8 +38,8 @@ DESCRIPTION_FR = {
         22: "Prépositions de niveau C1, en contexte",
         23: "Groupe prépositionel de niveau C1, en isolation",
         24: "Groupe prépositionel de niveau C1, en contexte",
-        25: "Postpositions et Circumpositions de niveau C1, en isolation",
-        26: "Postpositions et Circumpositions de niveau C1, en contexte",
+        25: "Postpositions de niveau C1, en isolation",
+        26: "Postpositions de niveau C1, en contexte",
     },
 
     praepositionen_verben: {
