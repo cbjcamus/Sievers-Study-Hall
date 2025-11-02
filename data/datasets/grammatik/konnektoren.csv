@@ -2,7 +2,7 @@ Nr,exercise,question,answer,german,english,french,case_english,case_french
 1,1,,und,,and,et,Coordinating conjunction,Conjonction de coordination
 2,1,,aber,,but,mais,Coordinating conjunction,Conjonction de coordination
 3,1,,oder,,or,ou,Coordinating conjunction,Conjonction de coordination
-4,1,,denn,,"because, for",parce que,Coordinating conjunction,Conjonction de coordination
+4,1,,denn,,"because, for","parce que, car",Coordinating conjunction,Conjonction de coordination
 5,2,Ich gehe einkaufen _____ mein Bruder kocht das Abendessen.,und,Ich gehe einkaufen und mein Bruder kocht das Abendessen.,"I go shopping, and my brother cooks dinner.",Je vais faire les courses et mon frère prépare le dîner.,,
 6,2,Wir lernen Deutsch _____ wir hören deutsche Musik.,und,Wir lernen Deutsch und wir hören deutsche Musik.,"We learn German, and we listen to German music.",Nous apprenons l’allemand et nous écoutons de la musique allemande.,,
 7,2,Sie liest ein Buch _____ ihr Freund schaut einen Film.,und,Sie liest ein Buch und ihr Freund schaut einen Film.,"She reads a book, and her boyfriend watches a movie.",Elle lit un livre et son petit ami regarde un film.,,
@@ -88,20 +88,20 @@ Nr,exercise,question,answer,german,english,french,case_english,case_french
 87,4,"Wir arbeiteten, _____ lange wir konnten, an dem Projekt.",so,"Wir arbeiteten, so lange wir konnten, an dem Projekt.",We worked on the project as long as we could.,Nous avons travaillé sur le projet aussi longtemps que nous le pouvions.,,
 88,4,"Der Hund lief, _____ schnell er konnte, zum Ball.",so,"Der Hund lief, so schnell er konnte, zum Ball.",The dog ran as fast as he could to the ball.,Le chien a couru aussi vite qu'il le pouvait vers la balle.,,
 89,5,,seitdem,,"since, since then","depuis, depuis lors",Subordinating conjunction,Conjonctions de subordination
-90,5,,bis,,until,jusqu'à,Subordinating conjunction,Conjonctions de subordination
+90,5,,bis,,until,jusqu'à ce que,Subordinating conjunction,Conjonctions de subordination
 91,5,,bevor,,before,avant que,Subordinating conjunction,Conjonctions de subordination
 92,5,,nachdem,,after,après que,Subordinating conjunction,Conjonctions de subordination
 93,5,,trotzdem,,"despite it, nevertheless, yet, nonetheless","malgré cela, néanmoins, pourtant",Adverb,Adverbe
-94,5,,weshalb,,"which is why, therefore","c'est pourquoi, par conséquent",Subordinating conjunction,Conjonctions de subordination
-95,5,,damit,,so that,de sorte que,Subordinating conjunction,Conjonctions de subordination
-96,5,,um zu,,in order to,pour que,Correlative conjunction,Conjonction corrélative
+94,5,,weshalb,,"which is why, therefore",c'est pourquoi,Subordinating conjunction,Conjonctions de subordination
+95,5,,damit,,so that,"pour, de sorte que, afin que",Subordinating conjunction,Conjonctions de subordination
+96,5,,um zu,,in order to,"pour que, afin que",Correlative conjunction,Conjonction corrélative
 97,5,,ob,,whether,si,Subordinating conjunction,Conjonctions de subordination
 98,5,,anstatt zu,,instead of,au lieu de,Correlative conjunction,Conjonction corrélative
 99,5,,ohne zu,,without,sans que,Correlative conjunction,Conjonction corrélative
 100,5,,während,,while,"pendant que, alors que",Subordinating conjunction,Conjonctions de subordination
 101,5,,falls,,"in case, if",au cas où,Subordinating conjunction,Conjonctions de subordination
 102,5,,indem,,by,"en, par",Subordinating conjunction,Conjonctions de subordination
-103,5,,sonst,,"otherwise, else",sinon,Adverb,Adverbe
+103,5,,sonst,,"otherwise, else","sinon, autrement",Adverb,Adverbe
 104,5,,sondern,,but rather,mais plutôt,Coordinating conjunction,Conjonction de coordination
 105,6,"Ich warte, _____ du fertig bist.",bis,"Ich warte, bis du fertig bist.",I wait until you are finished.,J'attends jusqu'à ce que tu aies fini.,,
 106,6,"Er bleibt im Büro, _____ er seine Arbeit beendet hat.",bis,"Er bleibt im Büro, bis er seine Arbeit beendet hat.",He stays in the office until he has finished his work.,Il reste au bureau jusqu'à ce qu'il ait fini son travail.,,
@@ -191,14 +191,14 @@ Nr,exercise,question,answer,german,english,french,case_english,case_french
 190,7,obschon,obwohl,,"although, even though","bien que, même si",,
 191,7,dennoch,trotzdem,,"despite it, nevertheless, yet, nonetheless","malgré cela, néanmoins, pourtant",,
 192,7,da,weil,,"because, since","parce que, puisque",,
-193,8,,entweder oder,,either or,"soit ou, soit soit",Correlative conjunction,Conjonction corrélative
+193,8,,entweder oder,,either or,"soit soit, soit ou",Correlative conjunction,Conjonction corrélative
 194,8,,weder noch,,neither nor,ni ni,Correlative conjunction,Conjonction corrélative
-195,8,,sowohl als auch,,as well as,ainsi que,Correlative conjunction,Conjonction corrélative
+195,8,,sowohl als auch,,as well as,à la fois ainsi que,Correlative conjunction,Conjonction corrélative
 196,8,,nicht nur,,not only,pas seulement,Correlative conjunction,Conjonction corrélative
 197,8,,sondern auch,,but also,mais aussi,Correlative conjunction,Conjonction corrélative
-198,8,,einerseits,,on the one hand,d'une part,Adverb,Adverbe
-199,8,,andererseits,,on the other hand,d'autre part,Adverb,Adverbe
-200,8,,dagegen,,"however, on the other hand","cependant, d'un autre côté",Adverb,Adverbe
+198,8,,einerseits,,on the one hand,"d'un côté, d'une part",Adverb,Adverbe
+199,8,,andererseits,,on the other hand,"de l'autre côté, d'autre part",Adverb,Adverbe
+200,8,,dagegen,,"however, on the other hand","par contre, en revanche, d'un autre côté",Adverb,Adverbe
 201,9,"_____ ist der Job sehr anspruchsvoll, andererseits bietet er viele Chancen.",Einerseits,"Einerseits ist der Job sehr anspruchsvoll, andererseits bietet er viele Chancen.","On the one hand, the job is very demanding; on the other hand, it offers many opportunities.","D’un côté, le métier est très exigeant ; de l’autre, il offre de nombreuses opportunités.",,
 202,9,"_____ möchte ich ins Ausland ziehen, andererseits vermisse ich meine Familie.",Einerseits,"Einerseits möchte ich ins Ausland ziehen, andererseits vermisse ich meine Familie.","On the one hand, I want to move abroad; on the other hand, I miss my family.","D’un côté, j’ai envie de partir à l’étranger ; de l’autre, ma famille me manque.",,
 203,9,"_____ ist das Angebot günstig, andererseits gibt es bessere Alternativen.",Einerseits,"Einerseits ist das Angebot günstig, andererseits gibt es bessere Alternativen.","On the one hand, the offer is cheap; on the other hand, there are better alternatives.","D’un côté, l’offre est bon marché ; de l’autre, il existe de meilleures alternatives.",,
@@ -259,13 +259,13 @@ Nr,exercise,question,answer,german,english,french,case_english,case_french
 258,9,"Nicht nur das Wetter war perfekt, _____ die Atmosphäre am Strand war großartig.",sondern auch,"Nicht nur das Wetter war perfekt, sondern auch die Atmosphäre am Strand war großartig.","Not only was the weather perfect, but the atmosphere at the beach was also great.","Non seulement le temps était parfait, mais l’ambiance à la plage était également géniale.",,
 259,9,"Sie arbeitet nicht nur hart in ihrem Job, _____ zu Hause",sondern auch,"Sie arbeitet nicht nur hart in ihrem Job, sondern auch zu Hause","She does not only work hard at her job, but also at home","Elle ne travaille pas seulement dur à son travail, mais aussi à la maison",,
 260,9,"Das Training verbessert nicht nur die körperliche Fitness, _____ die mentale Stärke.",sondern auch,"Das Training verbessert nicht nur die körperliche Fitness, sondern auch die mentale Stärke.",The training improves not only physical fitness but also mental strength.,L’entraînement améliore non seulement la condition physique mais aussi la force mentale.,,
-261,10,,zu diesem Zweck,,for this purpose,à cette fin,Adverb,Adverbe
-262,10,,auf diese Weise,,in this way,de cette façon,Adverb,Adverbe
-263,10,,stattdessen,,instead,plutôt,Adverb,Adverbe
+261,10,,zu diesem Zweck,,for this purpose,"pour cela, à cette fin",Adverb,Adverbe
+262,10,,auf diese Weise,,in this way,"de cette façon, de cette manière",Adverb,Adverbe
+263,10,,stattdessen,,instead,"plutôt, au lieu de cela, à la place",Adverb,Adverbe
 264,10,,auch wenn,,even if,même si,Subordinating conjunction,Conjonctions de subordination
 265,10,,immer wenn,,"everytime, whenever",à chaque fois que,Subordinating conjunction,Conjonctions de subordination
 266,10,,währenddessen,,"meanwhile, in the meantime, by now","pendant ce temps, en attendant",Adverb,Adverbe
-267,10,,wohingegen,,whereas,alors que,Subordinating conjunction,Conjonctions de subordination
+267,10,,wohingegen,,whereas,"tandis que, alors que",Subordinating conjunction,Conjonctions de subordination
 268,10,,folglich,,"consequently, as a result, thereupon","par conséquent, en conséquence",Adverb,Adverbe
 269,10,,solange,,"as long as, so long as",tant que,Subordinating conjunction,Conjonctions de subordination
 270,10,,sobald,,"as soon as, whenever","dès que, chaque fois que",Subordinating conjunction,Conjonctions de subordination
@@ -334,13 +334,13 @@ Nr,exercise,question,answer,german,english,french,case_english,case_french
 333,12,demzufolge,folglich,,"consequently, as a result, thereupon","par conséquent, en conséquence",,
 334,12,infolgedessen,folglich,,"consequently, as a result, thereupon","par conséquent, en conséquence",,
 335,12,sooft,immer wenn,,"everytime, whenever","à chaque fois, à chaque fois",,
-336,12,andernfalls,sonst,,"otherwise, else",sinon,,
-337,12,wogegen,wohingegen,,whereas,alors que,,
-338,12,dafür,dazu,,for this purpose,à cette fin,,
-339,12,zu diesem Zweck,dazu,,for this purpose,à cette fin,,
+336,12,andernfalls,sonst,,"otherwise, else","sinon, autrement",,
+337,12,wogegen,wohingegen,,whereas,"tandis que, alors que",,
+338,12,dafür,dazu,,for this purpose,"pour cela, à cette fin",,
+339,12,zu diesem Zweck,dazu,,for this purpose,"pour cela, à cette fin",,
 340,13,,zumal,,"especially since, particularly because",d'autant plus que,Subordinating conjunction,Conjonctions de subordination
 341,13,,das heißt,,"that is, that means, that is to say",c'est-à-dire que,Correlative conjunction,Conjonction corrélative
-342,13,,soweit,,as far as,"d'après, en ce qui concerne",Subordinating conjunction,Conjonctions de subordination
+342,13,,soweit,,as far as,"d'après ce que, en ce qui concerne",Subordinating conjunction,Conjonctions de subordination
 343,13,,sofern,,"provided, provided that",à condition que,Subordinating conjunction,Conjonctions de subordination
 344,13,,insofern,,"insofar, in that respect, to that extent","dans la mesure où, tant que",Subordinating conjunction,Conjonctions de subordination
 345,13,,als ob,,as if,comme si,Subordinating conjunction,Conjonctions de subordination
@@ -389,12 +389,12 @@ Nr,exercise,question,answer,german,english,french,case_english,case_french
 388,15,insoweit,insofern,,"insofar, in that respect, to that extent","dans la mesure où, tant que",,
 389,15,wenngleich,obwohl,,"although, even though","bien que, même si",,
 390,15,vorausgesetzt,sofern,,"provided, provided that",à condition que,,
-391,15,ansonsten,sonst,,"otherwise, else",sinon,,
-392,15,soviel,soweit,,as far as,"d'après, en ce qui concerne",,
+391,15,ansonsten,sonst,,"otherwise, else","sinon, autrement",,
+392,15,soviel,soweit,,as far as,"d'après ce que, en ce qui concerne",,
 393,15,gleichwohl,trotzdem,,"despite it, nevertheless, yet, nonetheless","malgré cela, néanmoins, pourtant",,
 394,15,nichtsdestotrotz,trotzdem,,"despite it, nevertheless, yet, nonetheless","malgré cela, néanmoins, pourtant",,
-395,15,indes,wohingegen,,whereas,alors que,,
-396,15,indessen,wohingegen,,whereas,alors que,,
+395,15,indes,wohingegen,,whereas,"tandis que, alors que",,
+396,15,indessen,wohingegen,,whereas,"tandis que, alors que",,
 397,100,as ... as,so,,,,Subordinating conjunction,Conjonctions de subordination
 398,100,rather,vielmehr,,,,Adverb,Adverbe
 399,100,"Es war kein Missverständnis, _____ eine bewusste Täuschung.",vielmehr,"Es war kein Missverständnis, vielmehr eine bewusste Täuschung.","It wasn’t a misunderstanding, but rather a deliberate deception.",,,

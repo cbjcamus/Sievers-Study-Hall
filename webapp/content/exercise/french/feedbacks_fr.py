@@ -72,13 +72,31 @@ FEEDBACK_FR = {
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        17: "{french} = {correct_answers}",
+        17: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         18: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         19: "{french} = {correct_answers}",
         20: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        21: "{french} = {correct_answers}",
+        22: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        23: "{french} = {correct_answers}",
+        24: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        25: "{french} = {correct_answers}",
+        26: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
@@ -162,76 +180,117 @@ FEEDBACK_FR = {
     },
 
     praepositionen_adjektive: {
-        1: "{french} = {german}",
+        1: "{french} = {german} + {case_french}",
         2: "{german}"
             "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{french} = {german}",
+        3: "{french} = {german} + {case_french}",
         4: "{german}"
             "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        5: "{french} = {german}",
+        5: "{french} = {german} + {case_french}",
         6: "{german}"
             "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        7: "{french} = {german}",
+        7: "{french} = {german} + {case_french}",
         8: "{german}"
            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        9: "{french} = {german}",
+        9: "{french} = {german} + {case_french}",
         10: "{german}"
             "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        11: "{french} = {german}",
+        11: "{french} = {german} + {case_french}",
         12: "{german}"
             "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{french} = {german}",
+        13: "{french} = {german} + {case_french}",
         14: "{german}"
             "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{french} = {german}",
+        15: "{french} = {german} + {case_french}",
         16: "{german}"
             "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
     praepositionen_nomen: {
-        1: "{french} = {german} {correct_answers}",
+        1: "{french} = {german} + {case_french}",
         2: "{german}"
             "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{french} = {german} {correct_answers}",
+        3: "{french} = {german} + {case_french}",
         4: "{german}"
             "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-
-        5: "{french} = {german} {correct_answers}",
+        5: "{french} = {german} + {case_french}",
         6: "{german}"
             "<br><br><i>{french}</i>"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        7: "{french} = {german} {correct_answers}",
-        8: "{german}"
-            "<br><br><i>{french}</i>"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        9: "{french} = {german} {correct_answers}",
-        10: "{german}"
-            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        11: "{french} = {german} {correct_answers}",
+        7: "{french} = {german} + {case_french}",
+        8: "{german}"
+            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        9: "{french} = {german} + {case_french}",
+        10: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        11: "{french} = {german} + {case_french}",
         12: "{german}"
            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{french} = {german} {correct_answers}",
+        13: "{french} = {german} + {case_french}",
         14: "{german}"
            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{french} = {german} {correct_answers}",
+        15: "{french} = {german} + {case_french}",
         16: "{german}"
             "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+
+        17: "{french} = {german} + {case_french}",
+        18: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        19: "{french} = {german} + {case_french}",
+        20: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        21: "{french} = {german} + {case_french}",
+        22: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        23: "{french} = {german} + {case_french}",
+        24: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        25: "{french} = {german} + {case_french}",
+        26: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
@@ -559,61 +618,54 @@ FEEDBACK_FR = {
         2: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{person}, {case_french} → {correct_answers}",
-        3: "{german}"
-           "<br><br><i>{french}</i>"
-           "<br><br>{person}, {case_french} → {correct_answers}",
+        3: "{french}, {case_french} → {correct_answers}",
         4: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{person}, {case_french} → {correct_answers}",
-        5: "{german}"
-           "<br><br><i>{french}</i>"
-           "<br><br>{person}, {case_french} → {correct_answers}",
+        5: "{french}, {case_french} → {correct_answers}",
         6: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{person}, {case_french} → {correct_answers}",
-
-        7: "{french}, {case_french} → {correct_answers}",
+        7: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>{person}, {case_french} → {correct_answers}",
         8: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{person}, {case_french} → {correct_answers}",
-        9: "{german}"
+        9: "{gender_french}, {case_french} → {correct_answers}"
+           "<br><br>{previous_question} → {german}",
+        10: "{gender_french}, {case_french} → {correct_answers}"
+            "<br><br>{previous_question} → {german}",
+
+        11: "{french}, {case_french} → {correct_answers}",
+        12: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{person}, {case_french} → {correct_answers}",
-        10: "{german}"
-            "<br><br><i>{french}</i>"
-            "<br><br>{person}, {case_french} → {correct_answers}",
-        11: "{german}, {gender_french}, {case_french} → {correct_answers}",
-        12: "{german}"
-            "<br><br><i>{french}</i>"
-            "<br><br>{gender_french}, {case_french} → {correct_answers}",
-        13: "{german}, {gender_french}, {case_french} → {correct_answers}",
+        13: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>{person}, {case_french} → {correct_answers}",
         14: "{german}"
             "<br><br><i>{french}</i>"
-            "<br><br>{gender_french}, {case_french} → {correct_answers}",
-
-        15: "{french} = {correct_answers}",
+            "<br><br>{person}, {case_french} → {correct_answers}",
+        15: "{german}, {gender_french}, {case_french} → {correct_answers}",
         16: "{german}"
             "<br><br><i>{french}</i>"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        17: "{german}"
-            "<br><br><i>{french}</i>"
             "<br><br>{gender_french}, {case_french} → {correct_answers}",
+        17: "{german}, {gender_french}, {case_french} → {correct_answers}",
         18: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{gender_french}, {case_french} → {correct_answers}",
-        19: "{german}"
-            "<br><br><i>{french}</i>"
-            "<br><br>{gender_french}, {case_french} → {correct_answers}",
+
+        19: "{french} = {correct_answers}",
         20: "{german}"
             "<br><br><i>{french}</i>"
-            "<br><br>{gender_french}, {case_french} → {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         21: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{gender_french}, {case_french} → {correct_answers}",
         22: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{gender_french}, {case_french} → {correct_answers}",
-
         23: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{gender_french}, {case_french} → {correct_answers}",
@@ -621,6 +673,19 @@ FEEDBACK_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{gender_french}, {case_french} → {correct_answers}",
         25: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{gender_french}, {case_french} → {correct_answers}",
+        26: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{gender_french}, {case_french} → {correct_answers}",
+
+        27: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{gender_french}, {case_french} → {correct_answers}",
+        28: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{gender_french}, {case_french} → {correct_answers}",
+        29: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
@@ -1006,6 +1071,19 @@ FEEDBACK_FR = {
            "<br><br><i>{french}</i>"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         4: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Réponse(s) correcte(s): {correct_answers}",
+
+        5: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        6: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Réponse(s) correcte(s): {correct_answers}",
+        7: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        8: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>Réponse(s) correcte(s): {correct_answers}",
     },

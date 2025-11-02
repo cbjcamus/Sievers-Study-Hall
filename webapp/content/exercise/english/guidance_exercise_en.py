@@ -11,16 +11,28 @@ from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
 # bullet point \u25CF
 
-guidance_praepositionen_grammatik_basic = (
+guidance_praepositionen_grammatik_isolation = (
+    "For each question, you will be provided the English translation of a German preposition."
+    "<br><br>Find the preposition that fits the English translation."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+    
+    "<h2>Example</h2>"
+    "due to, because of"
+    f"<br><br>{ICON_CHECK} wegen"
+    f"<br><br>{ICON_CHECK} aufgrund"
+    f"<br><br>{ICON_CROSS} wegen, aufgrund"
+)
+
+guidance_praepositionen_grammatik_sentences = (
     "For each question, you will be provided an incomplete German sentence and its English translation."
     "<br><br>Complete the German sentence with the preposition that fits."
-   
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: an, auf, aus, bei, bis, durch,"
-    f" für, gegen, hinter, in, mit, nach, neben, ohne, seit, über, um, unter, von, vor, zu, zwischen."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
     f"<br><br>{ICON_WARN} The correct answer may include an article. In that case, both the form of the prepositional"
     f" contraction (am, ans, vom, zur etc.) or the extended form (an dem etc.) are correct."
-    f"<br><br>{ICON_WARN} The absence of preposition may be the correct answer. In that case, leave the input block"
-    f" blank and click on the Submit button."
     
     "<h2>Example</h2>"
     "Ich habe _____ Montag Deutschunterricht."
@@ -28,138 +40,6 @@ guidance_praepositionen_grammatik_basic = (
     f"<br><br>{ICON_CHECK} am"
     f"<br><br>{ICON_CHECK} an dem"
     f"<br><br>{ICON_CROSS} an"
-)
-
-guidance_praepositionen_grammatik_b1_isolation = (
-    "For each question, you will be provided the English translation of a German preposition."
-    "<br><br>Find the preposition that fits the English translation."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: ab, anstatt, außerhalb, durch,"
-    f" gegenüber, innerhalb, laut, trotz, während, wegen, zufolge."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "due to, because of"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_b1_sentences = (
-    "For each question, you will be provided an incomplete German sentence and its English translation."
-    "<br><br>Complete the German sentence with the preposition that fits."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: ab, anstatt, außerhalb, durch,"
-    f" gegenüber, innerhalb, laut, trotz, während, wegen, zufolge."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "Er konnte nicht kommen _____ einer wichtigen Besprechung."
-    "<br><br><i>He couldn't come because of an important meeting.</i>"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_b2_isolation = (
-    "For each question, you will be provided the English translation of a German preposition."
-    "<br><br>Find the preposition that fits the English translation."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: angesichts, anhand, außer, dank,"
-    f" entgegen, entlang, infolge, mangels, mithilfe, mittels."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "due to, because of"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_b2_sentences = (
-    "For each question, you will be provided an incomplete German sentence and its English translation."
-    "<br><br>Complete the German sentence with the preposition that fits."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: angesichts, anhand, außer, dank,"
-    f" entgegen, entlang, infolge, mangels, mithilfe, mittels."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "Er konnte nicht kommen _____ einer wichtigen Besprechung."
-    "<br><br><i>He couldn't come because of an important meeting.</i>"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_c1_1_isolation = (
-    "For each question, you will be provided the English translation of a German preposition."
-    "<br><br>Find the preposition that fits the English translation."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: einschließlich, im Gegensatz zu,"
-    f" inmitten, je nach, nebst, oberhalb, seitens, unterhalb, zusätzlich zu, zwecks."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "due to, because of"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_c1_1_sentences = (
-    "For each question, you will be provided an incomplete German sentence and its English translation."
-    "<br><br>Complete the German sentence with the preposition that fits."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: einschließlich, im Gegensatz zu,"
-    f" inmitten, je nach, nebst, oberhalb, seitens, unterhalb, zusätzlich zu, zwecks."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "Er konnte nicht kommen _____ einer wichtigen Besprechung."
-    "<br><br><i>He couldn't come because of an important meeting.</i>"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_c1_2_isolation = (
-    "For each question, you will be provided the English translation of a German preposition."
-    "<br><br>Find the preposition that fits the English translation."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: abzüglich, anlässlich,"
-    f" beiderseits, bezüglich, diesseits, jenseits, kraft, zugunsten, zuzüglich."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "due to, because of"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
-)
-
-guidance_praepositionen_grammatik_c1_2_sentences = (
-    "For each question, you will be provided an incomplete German sentence and its English translation."
-    "<br><br>Complete the German sentence with the preposition that fits."
-
-    f"<br><br>{ICON_WARN} Only the following prepositions are available at this level: abzüglich, anlässlich,"
-    f" beiderseits, bezüglich, diesseits, jenseits, kraft, zugunsten, zuzüglich."
-    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
-    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
-    
-    "<h2>Example</h2>"
-    "Er konnte nicht kommen _____ einer wichtigen Besprechung."
-    "<br><br><i>He couldn't come because of an important meeting.</i>"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
 )
 
 guidance_praepositionen_verben_isolation = (
@@ -233,7 +113,7 @@ guidance_praepositionen_adjektive_sentences = (
 )
 
 guidance_praepositionen_nomen_isolation = (
-    "For each question, you will be provided an incomplete German Nomun-Preposition pair and its English translation."
+    "For each question, you will be provided an incomplete German Noun-Preposition pair and its English translation."
     "<br><br>Complete the Noun-Preposition pair with the preposition that fits."
 
     f"<br><br>{ICON_WARN} There is only one correct answer per question."
@@ -290,8 +170,20 @@ guidance_pronomen_sentences = (
 
     "<h2>Example</h2>"
     "Heute bin _____ sehr müde."
-    "<br><br><i>Today I am very tired..</i>"
+    "<br><br><i>Today I am very tired.</i>"
     f"<br><br>{ICON_CHECK} ich"
+)
+
+guidance_pronomen_replacing = (
+    "For each question, you will be provided a German sentence, its English translation, and an object."
+    "<br><br>Replace the object with the pronoun that fits, taking into account the grammatical case and the gender if applicable."
+
+    "<h2>Example</h2>"
+    "Wir besuchen die Schule jeden Tag. \u25CF die Schule"
+    "<br><br><i>We visit the school every day.</i>"
+    f"<br><br>{ICON_CHECK} sie"
+    f"<br><br>{ICON_CROSS} es"
+    f"<br><br>{ICON_CROSS} ihr"
 )
 
 guidance_konnektoren_isolation = (
@@ -807,31 +699,36 @@ guidance_nomen_verben_verbindungen_verben_sentences = (
 GUIDANCE_EXERCISE_EN = {
 
     praepositionen_grammatik: {
-        1: guidance_praepositionen_grammatik_basic,
-        2: guidance_praepositionen_grammatik_basic,
-        3: guidance_praepositionen_grammatik_basic,
-        4: guidance_praepositionen_grammatik_basic,
+        1: guidance_praepositionen_grammatik_sentences,
+        2: guidance_praepositionen_grammatik_sentences,
+        3: guidance_praepositionen_grammatik_sentences,
+        4: guidance_praepositionen_grammatik_sentences,
 
-        5: guidance_praepositionen_grammatik_basic,
-        6: guidance_praepositionen_grammatik_basic,
-        7: guidance_praepositionen_grammatik_basic,
-        8: guidance_praepositionen_grammatik_basic,
+        5: guidance_praepositionen_grammatik_sentences,
+        6: guidance_praepositionen_grammatik_sentences,
+        7: guidance_praepositionen_grammatik_sentences,
+        8: guidance_praepositionen_grammatik_sentences,
 
-        9: guidance_praepositionen_grammatik_basic,
-        10: guidance_praepositionen_grammatik_basic,
-        11: guidance_praepositionen_grammatik_b1_isolation,
-        12: guidance_praepositionen_grammatik_b1_sentences,
+        9: guidance_praepositionen_grammatik_sentences,
+        10: guidance_praepositionen_grammatik_sentences,
+        11: guidance_praepositionen_grammatik_isolation,
+        12: guidance_praepositionen_grammatik_sentences,
 
-        13: guidance_praepositionen_grammatik_basic,
-        14: guidance_praepositionen_grammatik_basic,
-        15: guidance_praepositionen_grammatik_b2_isolation,
-        16: guidance_praepositionen_grammatik_b2_sentences,
+        13: guidance_praepositionen_grammatik_sentences,
+        14: guidance_praepositionen_grammatik_sentences,
+        15: guidance_praepositionen_grammatik_isolation,
+        16: guidance_praepositionen_grammatik_sentences,
 
-        17: guidance_praepositionen_grammatik_c1_1_isolation,
-        18: guidance_praepositionen_grammatik_c1_1_sentences,
-        19: guidance_praepositionen_grammatik_c1_2_isolation,
-        20: guidance_praepositionen_grammatik_c1_2_sentences,
-
+        17: guidance_praepositionen_grammatik_sentences,
+        18: guidance_praepositionen_grammatik_sentences,
+        19: guidance_praepositionen_grammatik_isolation,
+        20: guidance_praepositionen_grammatik_sentences,
+        21: guidance_praepositionen_grammatik_isolation,
+        22: guidance_praepositionen_grammatik_sentences,
+        23: guidance_praepositionen_grammatik_isolation,
+        24: guidance_praepositionen_grammatik_sentences,
+        25: guidance_praepositionen_grammatik_isolation,
+        26: guidance_praepositionen_grammatik_sentences,
     },
 
     praepositionen_verben: {
@@ -899,20 +796,30 @@ GUIDANCE_EXERCISE_EN = {
         2: guidance_praepositionen_nomen_sentences,
         3: guidance_praepositionen_nomen_isolation,
         4: guidance_praepositionen_nomen_sentences,
-
         5: guidance_praepositionen_nomen_isolation,
         6: guidance_praepositionen_nomen_sentences,
+
         7: guidance_praepositionen_nomen_isolation,
         8: guidance_praepositionen_nomen_sentences,
         9: guidance_praepositionen_nomen_isolation,
         10: guidance_praepositionen_nomen_sentences,
-
         11: guidance_praepositionen_nomen_isolation,
         12: guidance_praepositionen_nomen_sentences,
         13: guidance_praepositionen_nomen_isolation,
         14: guidance_praepositionen_nomen_sentences,
         15: guidance_praepositionen_nomen_isolation,
         16: guidance_praepositionen_nomen_sentences,
+
+        17: guidance_praepositionen_nomen_isolation,
+        18: guidance_praepositionen_nomen_sentences,
+        19: guidance_praepositionen_nomen_isolation,
+        20: guidance_praepositionen_nomen_sentences,
+        21: guidance_praepositionen_nomen_isolation,
+        22: guidance_praepositionen_nomen_sentences,
+        23: guidance_praepositionen_nomen_isolation,
+        24: guidance_praepositionen_nomen_sentences,
+        25: guidance_praepositionen_nomen_isolation,
+        26: guidance_praepositionen_nomen_sentences,
     },
 
     artikel: {
@@ -968,32 +875,36 @@ GUIDANCE_EXERCISE_EN = {
     pronomen: {
         1: guidance_pronomen_isolation,
         2: guidance_pronomen_sentences,
-        3: guidance_pronomen_sentences,
+        3: guidance_pronomen_isolation,
         4: guidance_pronomen_sentences,
-        5: guidance_pronomen_sentences,
+        5: guidance_pronomen_isolation,
         6: guidance_pronomen_sentences,
-
-        7: guidance_pronomen_isolation,
+        7: guidance_pronomen_sentences,
         8: guidance_pronomen_sentences,
-        9: guidance_pronomen_sentences,
-        10: guidance_pronomen_sentences,
+        9: guidance_pronomen_replacing,
+        10: guidance_pronomen_replacing,
+
         11: guidance_pronomen_isolation,
         12: guidance_pronomen_sentences,
-        13: guidance_pronomen_isolation,
+        13: guidance_pronomen_sentences,
         14: guidance_pronomen_sentences,
-
         15: guidance_pronomen_isolation,
         16: guidance_pronomen_sentences,
-        17: guidance_pronomen_sentences,
+        17: guidance_pronomen_isolation,
         18: guidance_pronomen_sentences,
-        19: guidance_pronomen_sentences,
+
+        19: guidance_pronomen_isolation,
         20: guidance_pronomen_sentences,
         21: guidance_pronomen_sentences,
         22: guidance_pronomen_sentences,
-
         23: guidance_pronomen_sentences,
         24: guidance_pronomen_sentences,
         25: guidance_pronomen_sentences,
+        26: guidance_pronomen_sentences,
+
+        27: guidance_pronomen_sentences,
+        28: guidance_pronomen_sentences,
+        29: guidance_pronomen_sentences,
     },
 
     konnektoren: {
@@ -1252,6 +1163,11 @@ GUIDANCE_EXERCISE_EN = {
         2: guidance_nomen_verben_verbindungen_verben_isolation,
         3: guidance_nomen_verben_verbindungen_nomen_sentences,
         4: guidance_nomen_verben_verbindungen_verben_sentences,
+
+        5: guidance_nomen_verben_verbindungen_nomen_isolation,
+        6: guidance_nomen_verben_verbindungen_verben_isolation,
+        7: guidance_nomen_verben_verbindungen_nomen_sentences,
+        8: guidance_nomen_verben_verbindungen_verben_sentences,
     },
 
 }
