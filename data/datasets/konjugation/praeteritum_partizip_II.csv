@@ -94,7 +94,7 @@ Nr,exercise,question,answer,english,french
 93,6,benutzen,"benutzte, benutzt",to use (something),utiliser (quelque chose)
 94,6,schicken,"schickte, geschickt",to send,envoyer
 95,6,lachen,"lachte, gelacht",to laugh,rire
-96,6,scheinen,"schien, geschienen","to seem, to shine","paraître, briller"
+96,6,scheinen,"schien, geschienen","to shine, to seem (formal)","briller, paraître (formel)"
 97,6,ändern,"änderte, geändert",to change (one's personality or behavior),changer (sa personnalité ou son comportement)
 98,6,verkaufen,"verkaufte, verkauft",to sell,vendre
 99,6,gehören,"gehörte, gehört",to belong to,appartenir à
@@ -114,7 +114,7 @@ Nr,exercise,question,answer,english,french
 113,7,passen,"passte, gepasst","to fit, to suit","s'adapter, convenir"
 114,7,folgen,"folgte, gefolgt",to follow,suivre
 115,7,ansehen,"sah an, angesehen","to look at something, to watch something","regarder quelque chose, observer quelque chose"
-116,7,aussehen,"sah aus, ausgesehen","to look (like), to appear","ressembler, apparaître"
+116,7,aussehen,"sah aus, ausgesehen","to look like, to appear","paraître, ressembler, apparaître"
 117,7,probieren,"probierte, probiert","to try, to taste, to sample, to probe","essayer, goûter, échantillonner, sonder"
 118,7,träumen,"träumte, geträumt",to dream,rêver
 119,7,fernsehen,"sah fern, ferngesehen",to watch TV,regarder la télévision
@@ -253,7 +253,7 @@ Nr,exercise,question,answer,english,french
 252,14,fliegen,"flog, geflogen","to fly, to travel by plane","voler, voyager en avion"
 253,14,erfahren,"erfuhr, erfahren","to learn, to find out, to experience","apprendre, découvrir, expérimenter"
 254,14,enttäuschen,"enttäuschte, enttäuscht","to disappoint, to let down","décevoir, laisser tomber"
-255,14,genießen,"genoss, genossen","to enjoy, to savor, to relish","apprécier, savourer"
+255,14,genießen,"genoss, genossen","to savor, to relish, to enjoy, to take pleasure in","apprécier, savourer"
 256,14,besichtigen,"besichtigte, besichtigt","to visit, to tour, to inspect","visiter, faire un tour, inspecter"
 257,14,spazieren,"spazierte, spaziert","to stroll, to walk leisurely","flâner, marcher tranquillement"
 258,14,wandern,"wanderte, gewandert","to hike, to wander, to migrate","faire de la randonnée, errer, migrer"
