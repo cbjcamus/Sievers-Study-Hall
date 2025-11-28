@@ -159,14 +159,6 @@
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
     </task>
-    <task id="LOCAL-00079" summary="session cookie update">
-      <option name="closed" value="true" />
-      <created>1750598157374</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1750598157375</updated>
-    </task>
     <task id="LOCAL-00080" summary="session cookie update">
       <option name="closed" value="true" />
       <created>1750663204629</created>
@@ -551,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764315769736</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="update November 28th">
+      <option name="closed" value="true" />
+      <created>1764317227778</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1764317227779</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
