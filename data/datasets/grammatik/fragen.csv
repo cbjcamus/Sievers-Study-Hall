@@ -47,10 +47,10 @@ Nr,exercise,question,answer,german,english,french
 46,2,_____ hast du dieses Buch?,Woher,Woher hast du dieses Buch?,Where did you get this book from?,D'où avez-vous obtenu ce livre?
 47,2,_____ weißt du das?,Woher,Woher weißt du das?,How do you know that? (Where do you know that from?),Comment le sais-tu ? (D'où le sais-tu ?)
 48,2,_____ kommt dieser Lärm?,Woher,Woher kommt dieser Lärm?,Where is this noise coming from?,D'où vient ce bruit ?
-49,3,,welche,,which (feminin),quelle (féminin)
-50,3,,welcher,,which (masculin),quel (masculin)
-51,3,,welches,,which (neuter),"quel, quelle (neutre)"
-52,3,,welche,,which (plural),"quels, quelles (pluriel)"
+49,3,,welche,,which ● feminin,quelle ● féminin
+50,3,,welcher,,which ● masculin,quel ● masculin
+51,3,,welches,,which ● neuter,"quel, quelle ● neutre"
+52,3,,welche,,which ● plural,"quels, quelles ● pluriel"
 53,3,,wie viel,,how much,"combien, quelle quantité (indénombrable)"
 54,3,,wie viele,,how many,combien (dénombrable)
 55,3,,wie spät,,what time/at what time,à quelle heure
@@ -125,12 +125,12 @@ Nr,exercise,question,answer,german,english,french
 124,6,_____ lernst du Deutsch pro Woche?,Wie oft,Wie oft lernst du Deutsch pro Woche?,How often do you study German per week?,À quelle fréquence étudiez-vous l'allemand par semaine ?
 125,6,_____ machst du Urlaub?,Wie oft,Wie oft machst du Urlaub?,How often do you go on vacation?,À quelle fréquence partez-vous en vacances ?
 126,6,_____ kaufst du online ein?,Wie oft,Wie oft kaufst du online ein?,How often do you shop online?,À quelle fréquence faites-vous des achats en ligne ?
-127,7,,wen,,whom (accusative),qui (accusatif)
-128,7,,wem,,to whom (dative),à qui (datif)
-129,7,,wessen,,whose (genitive),dont (génitif)
-130,7,,wie viele,,how many (accusative),combien (accusatif)
-131,7,,wie vielen,,how many (dative),combien (datif)
-132,7,,wie vieler,,how many (genitive),combien (génitif)
+127,7,,wen,,whom ● accusative,qui ● accusatif
+128,7,,wem,,to whom ● dative,à qui ● datif
+129,7,,wessen,,whose ● genitive,dont ● génitif
+130,7,,wie viele,,how many ● accusative,combien ● accusatif
+131,7,,wie vielen,,how many ● dative,combien ● datif
+132,7,,wie vieler,,how many ● genitive,combien ● génitif
 133,8,_____ gehört dieses Buch?,Wem,Wem gehört dieses Buch?,To whom does this book belong?,À qui appartient ce livre ?
 134,8,_____ hast du das Geschenk gegeben?,Wem,Wem hast du das Geschenk gegeben?,To whom did you give the gift?,À qui as-tu offert le cadeau ?
 135,8,_____ kann ich bei diesem Problem helfen?,Wem,Wem kann ich bei diesem Problem helfen?,Whom can I help with this problem?,Qui puis-je aider avec ce problème ?
@@ -161,14 +161,14 @@ Nr,exercise,question,answer,german,english,french
 160,8,"Man kann nie sicher sein, _____ Menschen diese Information erreicht hat.",wie vieler,"Man kann nie sicher sein, wie vieler Menschen diese Information erreicht hat.",You can never be sure how many people this information reached.,On ne peut jamais être sûr du nombre de personnes que ces informations ont touchées.
 161,8,"Sie fragte sich, _____ Dinge sie sich eigentlich entledigen sollte.",wie vieler,"Sie fragte sich, wie vieler Dinge sie sich eigentlich entledigen sollte.",She wondered how many things she should actually get rid of.,Elle se demandait de combien de choses elle devrait réellement se débarrasser.
 162,8,"Wir waren beeindruckt, _____ Sprachen der Redner mächtig war.",wie vieler,"Wir waren beeindruckt, wie vieler Sprachen der Redner mächtig war.",We were impressed by how many languages the speaker was fluent in.,Nous avons été impressionnés par le nombre de langues que l’orateur parlait couramment.
-163,9,,welchen,,which (masculin accusative),quel (accusatif masculin)
-164,9,,welchem,,which (masculin dative),quel (datif masculin)
-165,9,,welches,,which (neuter accusative),quel (accusatif neutre)
-166,9,,welchem,,which (neuter dative),quel (datif neutre)
-167,9,,welche,,which (feminin accusative),quel (accusatif féminin)
-168,9,,welcher,,which (feminin dative),quel (datif féminin)
-169,9,,welche,,which (plural accusative),quel (accusatif pluriel)
-170,9,,welchen,,which (plural dative),quel (datif pluriel)
+163,9,,welchen,,which ● masculin accusative,quel ● accusatif masculin
+164,9,,welchem,,which ● masculin dative,quel ● datif masculin
+165,9,,welches,,which ● neuter accusative,quel ● accusatif neutre
+166,9,,welchem,,which ● neuter dative,quel ● datif neutre
+167,9,,welche,,which ● feminin accusative,quel ● accusatif féminin
+168,9,,welcher,,which ● feminin dative,quel ● datif féminin
+169,9,,welche,,which ● plural accusative,quel ● accusatif pluriel
+170,9,,welchen,,which ● plural dative,quel ● datif pluriel
 171,10,_____ Film möchtest du sehen?,Welchen,Welchen Film möchtest du sehen?,Which movie would you like to watch?,Quel film aimerais-tu regarder ?
 172,10,_____ Kuchen soll ich kaufen?,Welchen,Welchen Kuchen soll ich kaufen?,Which cake should I buy?,Quel gâteau dois-je acheter ?
 173,10,_____ Lehrer hast du gestern getroffen?,Welchen,Welchen Lehrer hast du gestern getroffen?,Which teacher did you meet yesterday?,Quel professeur as-tu rencontré hier ?

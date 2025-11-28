@@ -3,7 +3,7 @@ import pandas as pd
 from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.data_loading import load_data_exercise
+from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
 
 from users.progress.models import UserExerciseState
 from users.questions.normalization import get_list_of_correct_answers
@@ -131,10 +131,19 @@ def format_feedback(df, unit, exercise):
     language = get_language(request, session)
     template = FEEDBACK[language][unit][exercise]
     result = []
+
+
     for _, row in df.iterrows():
+
+        if is_exercise_multiple_choice(unit, exercise) is True:
+            correct_answers = row.get(language, "")
+        else:
+            correct_answers = get_list_of_correct_answers(row.get("answer", ""), unit)
+
         formatted = template.format(
             previous_question=row.get("question", ""),
-            correct_answers=get_list_of_correct_answers(row.get("answer", ""), unit),
+            correct_answer=row.get("answer", ""),
+            correct_answers=correct_answers,
             german=row.get("german", ""),
             english=row.get("english", ""),
             french=row.get("french", ""),

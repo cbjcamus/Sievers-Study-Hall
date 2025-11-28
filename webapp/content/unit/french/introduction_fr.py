@@ -66,11 +66,11 @@ INTRODUCTION_FR = {
         "<br><br>Utiles principalement aux niveaux A1 et A2. Les exercises aux niveaux B1, B2 et C1 ont été créés par exhaustivité."
     ,
     adverbien:
-        "Adverbes temporels, locaux, causaux et modaux à tous les niveaux."
+        "Adverbes temporels, locaux, et modaux à tous les niveaux."
     ,
 
     adjektive:
-        "Traductions, antonymes, comparatifs et superlatifs d'adectifs en isolation."
+        "Traductions, antonymes, comparatifs et superlatifs d'adjectifs en isolation."
     ,
     adjektivdeklinationen:
         "Déclinations d'adjectifs dans tous les cas grammaticaux, avec tous les genres et types d'articles."

@@ -1,19 +1,19 @@
 Nr,exercise,level_verben,question,answer,german,english,french,case_english,case_french,verb,explanation
-1,1,1 - 5 (A1),arbeiten _____,bei,arbeiten bei,to work at,travailler à,Dative,Datif,arbeiten,arbeiten bei + Dat.
-2,1,1 - 5 (A1),arbeiten _____,an,arbeiten an,to work on,travailler sur,Dative,Datif,arbeiten,arbeiten an + Dat.
-3,1,1 - 5 (A1),denken _____,an,denken an,to think of,penser à,Accusative,Accusatif,denken,denken an + Akk.
-4,1,1 - 5 (A1),glauben _____,an,glauben an,to believe in,croire en,Accusative,Accusatif,glauben,glauben an + Akk.
-5,1,1 - 5 (A1),hoffen _____,auf,hoffen auf,to hope for,espérer de,Accusative,Accusatif,hoffen,hoffen auf + Akk.
-6,1,1 - 5 (A1),sich interessieren _____,für,sich interessieren für,to be interested in,s'intéresser à,Accusative,Accusatif,interessieren,sich interessieren für + Akk.
-7,1,1 - 5 (A1),kommen _____,aus,kommen aus,to come from,venir de,Dative,Datif,kommen,kommen aus + Dat.
-8,1,1 - 5 (A1),schreiben _____,über,schreiben über,to write about,écrire sur,Accusative,Accusatif,schreiben,schreiben über + Akk.
-9,1,1 - 5 (A1),schreiben _____,an,schreiben an,to write to,écrire à,Accusative,Accusatif,schreiben,schreiben an + Akk.
-10,1,1 - 5 (A1),sein _____,gegen,sein gegen,to be against,être contre,Accusative,Accusatif,sein,sein gegen + Akk.
-11,1,1 - 5 (A1),sein _____,für,sein für,to be for,être pour,Accusative,Accusatif,sein,sein für + Akk.
-12,1,1 - 5 (A1),spielen _____,mit,spielen mit,to play with,jouer avec,Dative,Datif,spielen,spielen mit + Dat.
-13,1,1 - 5 (A1),treffen _____,mit,treffen mit,to meet with,"rencontrer, retrouver quelqu'un",Dative,Datif,treffen,treffen mit + Dat.
-14,1,1 - 5 (A1),warten _____,auf,warten auf,to wait for,attendre,Accusative,Accusatif,warten,warten auf + Akk.
-15,1,1 - 5 (A1),arbeiten _____,als,arbeiten als,"to work as, to operate as","travailler comme, fonctionner comme",Nominative,Nominatif,arbeiten,arbeiten als + Nom.
+1,1,A1,arbeiten _____,bei,arbeiten bei,to work at,travailler à,Dative,Datif,arbeiten,arbeiten bei + Dat.
+2,1,A1,arbeiten _____,an,arbeiten an,to work on,travailler sur,Dative,Datif,arbeiten,arbeiten an + Dat.
+3,1,A1,denken _____,an,denken an,to think of,penser à,Accusative,Accusatif,denken,denken an + Akk.
+4,1,A1,glauben _____,an,glauben an,to believe in,croire en,Accusative,Accusatif,glauben,glauben an + Akk.
+5,1,A1,hoffen _____,auf,hoffen auf,to hope for,espérer de,Accusative,Accusatif,hoffen,hoffen auf + Akk.
+6,1,A1,sich interessieren _____,für,sich interessieren für,to be interested in,s'intéresser à,Accusative,Accusatif,interessieren,sich interessieren für + Akk.
+7,1,A1,kommen _____,aus,kommen aus,to come from,venir de,Dative,Datif,kommen,kommen aus + Dat.
+8,1,A1,schreiben _____,über,schreiben über,to write about,écrire sur,Accusative,Accusatif,schreiben,schreiben über + Akk.
+9,1,A1,schreiben _____,an,schreiben an,to write to,écrire à,Accusative,Accusatif,schreiben,schreiben an + Akk.
+10,1,A1,sein _____,gegen,sein gegen,to be against,être contre,Accusative,Accusatif,sein,sein gegen + Akk.
+11,1,A1,sein _____,für,sein für,to be for,être pour,Accusative,Accusatif,sein,sein für + Akk.
+12,1,A1,spielen _____,mit,spielen mit,to play with,jouer avec,Dative,Datif,spielen,spielen mit + Dat.
+13,1,A1,treffen _____,mit,treffen mit,to meet with,"rencontrer, retrouver quelqu'un",Dative,Datif,treffen,treffen mit + Dat.
+14,1,A1,warten _____,auf,warten auf,to wait for,attendre,Accusative,Accusatif,warten,warten auf + Akk.
+15,1,A1,arbeiten _____,als,arbeiten als,"to work as, to operate as","travailler comme, fonctionner comme",Nominative,Nominatif,arbeiten,arbeiten als + Nom.
 16,2,,Er arbeitet _____ einer großen Firma.,bei,Er arbeitet bei einer großen Firma.,He works at a big company.,Il travaille dans une grande entreprise.,,,arbeiten,arbeiten bei + Dat.
 17,2,,Ich arbeite _____ Lidl als Verkäufer.,bei,Ich arbeite bei Lidl als Verkäufer.,I work at Lidl as a salesperson.,Je travaille chez Lidl comme vendeur.,,,arbeiten,arbeiten bei + Dat.
 18,2,,Meine Schwester arbeitet _____ BMW in der Entwicklungsabteilung.,bei,Meine Schwester arbeitet bei BMW in der Entwicklungsabteilung.,My sister works at BMW in the development department.,"Ma sœur travaille chez BMW, au département développement.",,,arbeiten,arbeiten bei + Dat.
@@ -59,21 +59,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 58,2,,Er arbeitet _____ Lehrer.,als,Er arbeitet als Lehrer.,He works as a teacher.,Il travaille comme enseignant.,,,arbeiten,arbeiten als + Nom.
 59,2,,Ich arbeite _____ Kellnerin.,als,Ich arbeite als Kellnerin.,I work as a waitress.,Je travaille comme serveuse.,,,arbeiten,arbeiten als + Nom.
 60,2,,Meine Schwester arbeitet _____ Ärztin im Krankenhaus.,als,Meine Schwester arbeitet als Ärztin im Krankenhaus.,My sister works as a doctor in a hospital.,Ma sœur travaille comme médecin dans un hôpital.,,,arbeiten,arbeiten als + Nom.
-61,3,1 - 5 (A1),übersetzen _____,aus,übersetzen aus,to translate from,"traduire de, traduire depuis",Dative,Datif,übersetzen,übersetzen aus + Dat.
-62,3,1 - 5 (A1),übersetzen _____,in,übersetzen in,to translate into,traduire en,Accusative,Accusatif,übersetzen,übersetzen in + Akk.
-63,3,1 - 5 (A1),fragen _____,nach,fragen nach,to ask for,demander,Dative,Datif,fragen,fragen nach + Dat.
-64,3,1 - 5 (A1),suchen _____,nach,suchen nach,to search for,"chercher, rechercher",Dative,Datif,suchen,suchen nach + Dat.
-65,3,1 - 5 (A1),hören _____,auf,hören auf,to listen to,écouter,Accusative,Accusatif,hören,hören auf + Akk.
-66,3,1 - 5 (A1),sprechen _____,mit,sprechen mit,to speak with,parler avec,Dative,Datif,sprechen,sprechen mit + Dat.
-67,3,1 - 5 (A1),anfangen _____,mit,anfangen mit,to start with,commencer à,Dative,Datif,anfangen,anfangen mit + Dat.
-68,3,1 - 5 (A1),aufhören _____,mit,aufhören mit,to stop with,arrêter de,Dative,Datif,aufhören,aufhören mit + Dat.
-69,3,1 - 5 (A1),beginnen _____,mit,beginnen mit,to begin with,pour commencer,Dative,Datif,beginnen,beginnen mit + Dat.
-70,3,1 - 5 (A1),sich erinnern _____,an,sich erinnern an,"to recall, to remember","se rappeler, se souvenir",Accusative,Accusatif,erinnern,sich erinnern an + Akk.
-71,3,1 - 5 (A1),erzählen _____,über,erzählen über,to tell about,raconter,Accusative,Accusatif,erzählen,erzählen über + Akk.
-72,3,1 - 5 (A1),lachen _____,über,lachen über,to laugh about,rire de,Accusative,Accusatif,lachen,lachen über + Akk.
-73,3,1 - 5 (A1),reden _____,über,reden über,to talk about something,parler de quelque chose,Accusative,Accusatif,reden,reden über + Akk.
-74,3,1 - 5 (A1),sprechen _____,über,sprechen über,to talk about,parler de,Accusative,Accusatif,sprechen,sprechen über + Akk.
-75,3,1 - 5 (A1),wissen _____,über,wissen über,to know about,"savoir, connaitre sur",Accusative,Accusatif,wissen,wissen über + Akk.
+61,3,A1,übersetzen _____,aus,übersetzen aus,to translate from,"traduire de, traduire depuis",Dative,Datif,übersetzen,übersetzen aus + Dat.
+62,3,A1,übersetzen _____,in,übersetzen in,to translate into,traduire en,Accusative,Accusatif,übersetzen,übersetzen in + Akk.
+63,3,A1,fragen _____,nach,fragen nach,to ask for,demander,Dative,Datif,fragen,fragen nach + Dat.
+64,3,A1,suchen _____,nach,suchen nach,to search for,"chercher, rechercher",Dative,Datif,suchen,suchen nach + Dat.
+65,3,A1,hören _____,auf,hören auf,to listen to,écouter,Accusative,Accusatif,hören,hören auf + Akk.
+66,3,A1,sprechen _____,mit,sprechen mit,to speak with,parler avec,Dative,Datif,sprechen,sprechen mit + Dat.
+67,3,A1,anfangen _____,mit,anfangen mit,to start with,commencer à,Dative,Datif,anfangen,anfangen mit + Dat.
+68,3,A1,aufhören _____,mit,aufhören mit,to stop with,arrêter de,Dative,Datif,aufhören,aufhören mit + Dat.
+69,3,A1,beginnen _____,mit,beginnen mit,to begin with,pour commencer,Dative,Datif,beginnen,beginnen mit + Dat.
+70,3,A1,sich erinnern _____,an,sich erinnern an,"to recall, to remember","se rappeler, se souvenir",Accusative,Accusatif,erinnern,sich erinnern an + Akk.
+71,3,A1,erzählen _____,über,erzählen über,to tell about,raconter,Accusative,Accusatif,erzählen,erzählen über + Akk.
+72,3,A1,lachen _____,über,lachen über,to laugh about,rire de,Accusative,Accusatif,lachen,lachen über + Akk.
+73,3,A1,reden _____,über,reden über,to talk about something,parler de quelque chose,Accusative,Accusatif,reden,reden über + Akk.
+74,3,A1,sprechen _____,über,sprechen über,to talk about,parler de,Accusative,Accusatif,sprechen,sprechen über + Akk.
+75,3,A1,wissen _____,über,wissen über,to know about,"savoir, connaitre sur",Accusative,Accusatif,wissen,wissen über + Akk.
 76,4,,Ich übersetze den Text _____ dem Englischen.,aus,Ich übersetze den Text aus dem Englischen.,I translate the text from English.,Je traduis le texte de l'anglais.,,,übersetzen,übersetzen aus + Dat.
 77,4,,Sie übersetzt das Buch _____ dem Französischen.,aus,Sie übersetzt das Buch aus dem Französischen.,She translates the book from French.,Elle traduit le livre depuis le français.,,,übersetzen,übersetzen aus + Dat.
 78,4,,Er hat einen Artikel _____ dem Spanischen übersetzt.,aus,Er hat einen Artikel aus dem Spanischen übersetzt.,He has translated an article from Spanish.,Il a traduit un article depuis l'espagnol.,,,übersetzen,übersetzen aus + Dat.
@@ -119,20 +119,20 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 118,4,,Was weißt du _____ die neue Kollegin?,über,Was weißt du über die neue Kollegin?,What do you know about the new colleague?,Que savez-vous du nouveau collègue ?,,,wissen,wissen über + Akk.
 119,4,,Ich weiß viel _____ die Kultur Japans.,über,Ich weiß viel über die Kultur Japans.,I know a lot about Japanese culture.,Je connais beaucoup de choses sur la culture japonaise.,,,wissen,wissen über + Akk.
 120,4,,Er weiß fast alles _____ Computer und Technik.,über,Er weiß fast alles über Computer und Technik.,He knows almost everything about computers and technology.,Il connaît presque tout sur les ordinateurs et la technologie.,,,wissen,wissen über + Akk.
-121,5,1 - 5 (A1),gehören _____,zu,gehören zu,to belong to,appartenir à,Dative,Datif,gehören,gehören zu + Dative
-122,5,6 - 10 (A2),antworten _____,auf,antworten auf,to answer to,répondre à,Accusative,Accusatif,antworten,antworten auf + Accusative
-123,5,6 - 10 (A2),bitten _____,um,bitten um,"to ask for, to plead for","demander, plaider pour",Accusative,Accusatif,bitten,bitten um + Accusative
-124,5,6 - 10 (A2),danken _____,für,danken für,to thank for,remercier pour,Accusative,Accusatif,danken,danken für + Accusative
-125,5,6 - 10 (A2),einladen _____,zu,einladen zu,to invite to,inviter à,Dative,Datif,einladen,einladen zu + Dative
-126,5,6 - 10 (A2),helfen _____,bei,helfen bei,to help with,aider à,Dative,Datif,helfen,helfen bei + Dative
-127,5,6 - 10 (A2),sich freuen _____,auf,sich freuen auf,to look forward to,attendre avec impatience,Accusative,Accusatif,freuen,sich freuen auf + Accusative
-128,5,6 - 10 (A2),sich freuen _____,über,sich freuen über,"to rejoice about, to be happy about","se réjouir de, être heureux de",Accusative,Accusatif,freuen,sich freuen über + Accusative
-129,5,6 - 10 (A2),entscheiden _____,für,entscheiden für,to decide on,décider de,Accusative,Accusatif,entscheiden,entscheiden für + Accusative
-130,5,6 - 10 (A2),entscheiden _____,gegen,entscheiden gegen,to decide against,"renoncer à, refuser de",Accusative,Accusatif,entscheiden,entscheiden gegen + Accusative
-131,5,6 - 10 (A2),erwarten _____,von,erwarten von,to expect from,attendre de,Dative,Datif,erwarten,erwarten von + Dative
-132,5,6 - 10 (A2),fehlen _____,an,fehlen an,to lack,manquer de,Dative,Datif,fehlen,fehlen an + Dative
-133,5,6 - 10 (A2),träumen _____,von,träumen von,to dream of,rêver de,Dative,Datif,träumen,träumen von + Dative
-134,5,6 - 10 (A2),schützen _____,vor,schützen vor,to protect oneself from,se protéger de,Dative,Datif,schützen,schützen vor + Dative
+121,5,A1,gehören _____,zu,gehören zu,to belong to,appartenir à,Dative,Datif,gehören,gehören zu + Dative
+122,5,A2,antworten _____,auf,antworten auf,to answer to,répondre à,Accusative,Accusatif,antworten,antworten auf + Accusative
+123,5,A2,bitten _____,um,bitten um,"to ask for, to plead for","demander, plaider pour",Accusative,Accusatif,bitten,bitten um + Accusative
+124,5,A2,danken _____,für,danken für,to thank for,remercier pour,Accusative,Accusatif,danken,danken für + Accusative
+125,5,A2,einladen _____,zu,einladen zu,to invite to,inviter à,Dative,Datif,einladen,einladen zu + Dative
+126,5,A2,helfen _____,bei,helfen bei,to help with,aider à,Dative,Datif,helfen,helfen bei + Dative
+127,5,A2,sich freuen _____,auf,sich freuen auf,to look forward to,attendre avec impatience,Accusative,Accusatif,freuen,sich freuen auf + Accusative
+128,5,A2,sich freuen _____,über,sich freuen über,"to rejoice about, to be happy about","se réjouir de, être heureux de",Accusative,Accusatif,freuen,sich freuen über + Accusative
+129,5,A2,entscheiden _____,für,entscheiden für,to decide on,décider de,Accusative,Accusatif,entscheiden,entscheiden für + Accusative
+130,5,A2,entscheiden _____,gegen,entscheiden gegen,to decide against,"renoncer à, refuser de",Accusative,Accusatif,entscheiden,entscheiden gegen + Accusative
+131,5,A2,erwarten _____,von,erwarten von,to expect from,attendre de,Dative,Datif,erwarten,erwarten von + Dative
+132,5,A2,fehlen _____,an,fehlen an,to lack,manquer de,Dative,Datif,fehlen,fehlen an + Dative
+133,5,A2,träumen _____,von,träumen von,to dream of,rêver de,Dative,Datif,träumen,träumen von + Dative
+134,5,A2,schützen _____,vor,schützen vor,to protect oneself from,se protéger de,Dative,Datif,schützen,schützen vor + Dative
 135,6,,Dieses Buch gehört _____ meiner Sammlung.,zu,Dieses Buch gehört zu meiner Sammlung.,This book belongs to my collection.,Ce livre fait partie de ma collection.,,,gehören,gehören zu + Dat.
 136,6,,Er gehört _____ den besten Spielern.,zu,Er gehört zu den besten Spielern.,He belongs to the best players.,Il fait partie des meilleurs joueurs.,,,gehören,gehören zu + Dat.
 137,6,,Sie gehört _____ meiner Familie.,zu,Sie gehört zu meiner Familie.,She is part of my family.,Elle fait partie de ma famille.,,,gehören,gehören zu + Dat.
@@ -175,18 +175,18 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 174,6,,Diese Creme schützt _____ Sonnenbrand.,vor,Diese Creme schützt vor Sonnenbrand.,This cream protects against sunburn.,Cette crème protège contre les coups de soleil.,,,schützen,schützen vor + Dat.
 175,6,,Die Polizei schützt die Bürger _____ Kriminalität.,vor,Die Polizei schützt die Bürger vor Kriminalität.,The police protect citizens from crime.,La police protège les citoyens contre la criminalité.,,,schützen,schützen vor + Dat.
 176,6,,Ein Helm schützt dich _____ Verletzungen beim Radfahren.,vor,Ein Helm schützt dich vor Verletzungen beim Radfahren.,A helmet protects you from injury when cycling.,Un casque vous protège des blessures à vélo.,,,schützen,schützen vor + Dat.
-177,7,11 - 20 (B1),raten _____,zu,raten zu,to advise to,conseiller de,Dative,Datif,raten,raten zu + Dative
-178,7,1 - 5 (A1),werden _____,zu,werden zu,"to change into, turn into","se transformer en, devenir",Dative,Datif,werden,werden zu + Dative
-179,7,6 - 10 (A2),passen _____,zu,passen zu,"to match with, to pair with","être assorti à, correspondre à",Dative,Datif,passen,passen zu + Dative
-180,7,6 - 10 (A2),kämpfen _____,gegen,kämpfen gegen,to fight against,lutter contre,Accusative,Accusatif,kämpfen,kämpfen gegen + Accusative
-181,7,6 - 10 (A2),kämpfen _____,mit,kämpfen mit,to struggle with,lutter contre. avoir du mal avec,Dative,Datif,kämpfen,kämpfen mit + Dative
-182,7,6 - 10 (A2),sorgen _____,für,sorgen für,to care for,prendre soin de,Accusative,Accusatif,sorgen,sorgen für + Accusative
-183,7,6 - 10 (A2),sorgen _____,um,sorgen um,to worry about,s'inquiéter de,Accusative,Accusatif,sorgen,sorgen um + Accusative
-184,7,6 - 10 (A2),stimmen _____,für,stimmen für,to vote for,voter pour,Accusative,Accusatif,stimmen,stimmen für + Accusative
-185,7,6 - 10 (A2),stimmen _____,gegen,stimmen gegen,to vote against,voter contre,Accusative,Accusatif,stimmen,stimmen gegen + Accusative
-186,7,6 - 10 (A2),vergleichen _____,mit,vergleichen mit,"to compare to, to compare with",comparer à,Dative,Datif,vergleichen,vergleichen mit + Dative
-187,7,6 - 10 (A2),verlassen _____,auf,verlassen auf,to rely on,compter sur,Accusative,Accusatif,verlassen,verlassen auf + Accusative
-188,7,11 - 20 (B1),vertrauen _____,auf,vertrauen auf,to trust in,faire confiance à,Accusative,Accusatif,vertrauen,vertrauen auf + Accusative
+177,7,B1,raten _____,zu,raten zu,to advise to,conseiller de,Dative,Datif,raten,raten zu + Dative
+178,7,A1,werden _____,zu,werden zu,"to change into, turn into","se transformer en, devenir",Dative,Datif,werden,werden zu + Dative
+179,7,A2,passen _____,zu,passen zu,"to match with, to pair with","être assorti à, correspondre à",Dative,Datif,passen,passen zu + Dative
+180,7,A2,kämpfen _____,gegen,kämpfen gegen,to fight against,lutter contre,Accusative,Accusatif,kämpfen,kämpfen gegen + Accusative
+181,7,A2,kämpfen _____,mit,kämpfen mit,to struggle with,lutter contre. avoir du mal avec,Dative,Datif,kämpfen,kämpfen mit + Dative
+182,7,A2,sorgen _____,für,sorgen für,to care for,prendre soin de,Accusative,Accusatif,sorgen,sorgen für + Accusative
+183,7,A2,sorgen _____,um,sorgen um,to worry about,s'inquiéter de,Accusative,Accusatif,sorgen,sorgen um + Accusative
+184,7,A2,stimmen _____,für,stimmen für,to vote for,voter pour,Accusative,Accusatif,stimmen,stimmen für + Accusative
+185,7,A2,stimmen _____,gegen,stimmen gegen,to vote against,voter contre,Accusative,Accusatif,stimmen,stimmen gegen + Accusative
+186,7,A2,vergleichen _____,mit,vergleichen mit,"to compare to, to compare with",comparer à,Dative,Datif,vergleichen,vergleichen mit + Dative
+187,7,A2,verlassen _____,auf,verlassen auf,to rely on,compter sur,Accusative,Accusatif,verlassen,verlassen auf + Accusative
+188,7,B1,vertrauen _____,auf,vertrauen auf,to trust in,faire confiance à,Accusative,Accusatif,vertrauen,vertrauen auf + Accusative
 189,8,,Ich rate dir _____ mehr Bewegung.,zu,Ich rate dir zu mehr Bewegung.,I advise you to exercise more.,Je vous conseille de faire plus d'exercice.,,,raten,raten zu + Dat.
 190,8,,Der Arzt hat mir _____ einer Diät geraten.,zu,Der Arzt hat mir zu einer Diät geraten.,The doctor advised me to go on a diet.,Le médecin m'a conseillé de faire un régime.,,,raten,raten zu + Dat.
 191,8,,Sie rät ihm _____ einem längeren Urlaub.,zu,Sie rät ihm zu einem längeren Urlaub.,She advises him to take a longer vacation.,Elle lui conseille de prendre des vacances plus longues.,,,raten,raten zu + Dat.
@@ -276,21 +276,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 275,10,,_____ wählt man ihn?,Wozu,Wozu wählt man ihn?,What is he elected for?,Pour quel poste a-t-il été élu ?,,,,
 276,10,,_____ wartest du?,Worauf,Worauf wartest du?,What are you waiting for?,Qu'attendez-vous ?,,,,
 277,10,,_____ zählt das?,Wozu,Wozu zählt das?,What does this count as?,À quoi cela correspond-il ?,,,,
-278,11,6 - 10 (A2),sterben _____,an,sterben an,to die of,mourir de,Accusative,Accusatif,sterben,sterben an + Accusative
-279,11,6 - 10 (A2),kümmern _____,um,kümmern um,"to take care of, to care for","prendre soin de, s'occuper de",Accusative,Accusatif,kümmern,kümmern um + Accusative
-280,11,6 - 10 (A2),ankommen _____,auf,ankommen auf,to depend on,dépendre de,Accusative,Accusatif,ankommen,ankommen auf + Accusative
-281,11,6 - 10 (A2),erkennen _____,an,erkennen an,to recognize by,reconnaître à,Dative,Datif,erkennen,erkennen an + Dative
-282,11,1 - 5 (A1),gehen _____,um,gehen um,"to be about, to revolve around",être à propos de,Accusative,Accusatif,gehen,gehen um + Accusative
-283,11,1 - 5 (A1),anrufen _____,bei,anrufen bei,to call at,appeler (quelqu'un),Dative,Datif,anrufen,anrufen bei + Dative
-284,11,6 - 10 (A2),wählen _____,zu,wählen zu,to elect to,élire,Dative,Datif,wählen,wählen zu + Dative
-285,11,6 - 10 (A2),sterben _____,für,sterben für,to die for,mourir pour,Accusative,Accusatif,sterben,sterben für + Accusative
-286,11,6 - 10 (A2),liegen _____,an,liegen an,"to be due to, to be because of","être dû à, être à cause de",Dative,Datif,liegen,liegen an + Dative
-287,11,11 - 20 (B1),achten _____,auf,achten auf,"to watch, to pay attention to",prêter attention à,Accusative,Accusatif,achten,achten auf + Accusative
-288,11,11 - 20 (B1),beschäftigen _____,mit,beschäftigen mit,"to deal with, to concern onself with, to be occupied with","s'occuper de, se préoccuper de, être occupé par",Dative,Datif,beschäftigen,beschäftigen mit + Dative
-289,11,11 - 20 (B1),beschreiben _____,als,beschreiben als,to describe as,décrire comme,Accusative,Accusatif,beschreiben,beschreiben als + Accusative
-290,11,6 - 10 (A2),entwickeln _____,zu,entwickeln zu,to develop into,se développer en,Dative,Datif,entwickeln,entwickeln zu + Dative
-291,11,11 - 20 (B1),enden _____,mit,enden mit,to end with,se terminer,Dative,Datif,enden,enden mit + Dative
-292,11,11 - 20 (B1),verlieben _____,in,verlieben in,to fall in love with,tomber amoureux de,Accusative,Accusatif,verlieben,verlieben in + Accusative
+278,11,A2,sterben _____,an,sterben an,to die of,mourir de,Accusative,Accusatif,sterben,sterben an + Accusative
+279,11,A2,kümmern _____,um,kümmern um,"to take care of, to care for","prendre soin de, s'occuper de",Accusative,Accusatif,kümmern,kümmern um + Accusative
+280,11,A2,ankommen _____,auf,ankommen auf,to depend on,dépendre de,Accusative,Accusatif,ankommen,ankommen auf + Accusative
+281,11,A2,erkennen _____,an,erkennen an,to recognize by,reconnaître à,Dative,Datif,erkennen,erkennen an + Dative
+282,11,A1,gehen _____,um,gehen um,"to be about, to revolve around",être à propos de,Accusative,Accusatif,gehen,gehen um + Accusative
+283,11,A1,anrufen _____,bei,anrufen bei,to call at,appeler (quelqu'un),Dative,Datif,anrufen,anrufen bei + Dative
+284,11,A2,wählen _____,zu,wählen zu,to elect to,élire,Dative,Datif,wählen,wählen zu + Dative
+285,11,A2,sterben _____,für,sterben für,to die for,mourir pour,Accusative,Accusatif,sterben,sterben für + Accusative
+286,11,A2,liegen _____,an,liegen an,"to be due to, to be because of","être dû à, être à cause de",Dative,Datif,liegen,liegen an + Dative
+287,11,B1,achten _____,auf,achten auf,"to watch, to pay attention to",prêter attention à,Accusative,Accusatif,achten,achten auf + Accusative
+288,11,B1,beschäftigen _____,mit,beschäftigen mit,"to deal with, to concern onself with, to be occupied with","s'occuper de, se préoccuper de, être occupé par",Dative,Datif,beschäftigen,beschäftigen mit + Dative
+289,11,B1,beschreiben _____,als,beschreiben als,to describe as,décrire comme,Accusative,Accusatif,beschreiben,beschreiben als + Accusative
+290,11,A2,entwickeln _____,zu,entwickeln zu,to develop into,se développer en,Dative,Datif,entwickeln,entwickeln zu + Dative
+291,11,B1,enden _____,mit,enden mit,to end with,se terminer,Dative,Datif,enden,enden mit + Dative
+292,11,B1,verlieben _____,in,verlieben in,to fall in love with,tomber amoureux de,Accusative,Accusatif,verlieben,verlieben in + Accusative
 293,12,,Er ist _____ einer schweren Krankheit gestorben.,an,Er ist an einer schweren Krankheit gestorben.,He died of a serious illness.,Il est décédé des suites d'une grave maladie.,,,sterben,
 294,12,,Viele Menschen sterben _____ den Folgen von Rauchen.,an,Viele Menschen sterben an den Folgen von Rauchen.,Many people die from the consequences of smoking.,De nombreuses personnes meurent des suites du tabagisme.,,,sterben,
 295,12,,Sein Großvater ist _____ einem Herzinfarkt gestorben.,an,Sein Großvater ist an einem Herzinfarkt gestorben.,His grandfather died of a heart attack.,Son grand-père est décédé d'une crise cardiaque.,,,sterben,
@@ -336,21 +336,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 335,12,,Sie hat sich _____ ihren Kollegen verliebt.,in,Sie hat sich in ihren Kollegen verliebt.,She fell in love with her colleague.,Elle est tombée amoureuse de son collègue.,,,verlieben,
 336,12,,Er verliebte sich sofort _____ die Stadt.,in,Er verliebte sich sofort in die Stadt.,He immediately fell in love with the city.,Il est immédiatement tombé amoureux de la ville.,,,verlieben,
 337,12,,"Ich habe mich _____ das Lied verliebt, als ich es zum ersten Mal gehört habe.",in,"Ich habe mich in das Lied verliebt, als ich es zum ersten Mal gehört habe.",I fell in love with the song the first time I heard it.,Je suis tombée amoureuse de cette chanson dès la première écoute.,,,verlieben,
-338,13,11 - 20 (B1),diskutieren _____,über,diskutieren über,to discuss about,discuter de,Accusative,Accusatif,diskutieren,diskutieren über + Accusative
-339,13,11 - 20 (B1),diskutieren _____,mit,diskutieren mit,to discuss with,discuter avec,Dative,Datif,diskutieren,diskutieren mit + Dative
-340,13,11 - 20 (B1),ärgern _____,über,ärgern über,to get angry about,se mettre en colère à propos de,Accusative,Accusatif,ärgern,ärgern über + Accusative
-341,13,6 - 10 (A2),schmecken _____,nach,schmecken nach,to taste like,avoir le goût de,Dative,Datif,schmecken,schmecken nach + Dative
-342,13,11 - 20 (B1),abhängen _____,von,abhängen von,to depend on,dépendre de,Dative,Datif,abhängen,abhängen von + Dative
-343,13,11 - 20 (B1),aufpassen _____,auf,aufpassen auf,to watch over,"veiller sur, surveiller",Accusative,Accusatif,aufpassen,aufpassen auf + Accusative
-344,13,1 - 5 (A1),führen _____,zu,führen zu,to lead to,mener à,Dative,Datif,führen,führen zu + Dative
-345,13,1 - 5 (A1),verlieren _____,an,verlieren an,to lose something to someone,perdre quelque chose au profit de quelqu'un,Accusative,Accusatif,verlieren,verlieren an + Accusative
-346,13,1 - 5 (A1),leben _____,von,leben von,to live off,vivre de,Dative,Datif,leben,leben von + Dative
-347,13,11 - 20 (B1),fliehen _____,vor,fliehen vor,to flee from,fuir,Dative,Datif,fliehen,fliehen vor + Dative
-348,13,11 - 20 (B1),fürchten _____,vor,fürchten vor,to be afraid of,avoir peur de,Dative,Datif,fürchten,fürchten vor + Dative
-349,13,11 - 20 (B1),konzentrieren _____,auf,konzentrieren auf,to concentrate on,se concentrer sur,Accusative,Accusatif,konzentrieren,konzentrieren auf + Accusative
-350,13,11 - 20 (B1),riechen _____,nach,riechen nach,to smell like,sentir comme,Dative,Datif,riechen,riechen nach + Dative
-351,13,11 - 20 (B1),stammen _____,aus,stammen aus,"to come from, to originate from","venir de, avoir pour origine",Dative,Datif,stammen,stammen aus + Dative
-352,13,11 - 20 (B1),verzichten _____,auf,verzichten auf,to renounce,renoncer,Accusative,Accusatif,verzichten,verzichten auf + Accusative
+338,13,B1,diskutieren _____,über,diskutieren über,to discuss about,discuter de,Accusative,Accusatif,diskutieren,diskutieren über + Accusative
+339,13,B1,diskutieren _____,mit,diskutieren mit,to discuss with,discuter avec,Dative,Datif,diskutieren,diskutieren mit + Dative
+340,13,B1,ärgern _____,über,ärgern über,to get angry about,se mettre en colère à propos de,Accusative,Accusatif,ärgern,ärgern über + Accusative
+341,13,A2,schmecken _____,nach,schmecken nach,to taste like,avoir le goût de,Dative,Datif,schmecken,schmecken nach + Dative
+342,13,B1,abhängen _____,von,abhängen von,to depend on,dépendre de,Dative,Datif,abhängen,abhängen von + Dative
+343,13,B1,aufpassen _____,auf,aufpassen auf,to watch over,"veiller sur, surveiller",Accusative,Accusatif,aufpassen,aufpassen auf + Accusative
+344,13,A1,führen _____,zu,führen zu,to lead to,mener à,Dative,Datif,führen,führen zu + Dative
+345,13,A1,verlieren _____,an,verlieren an,to lose something to someone,perdre quelque chose au profit de quelqu'un,Accusative,Accusatif,verlieren,verlieren an + Accusative
+346,13,A1,leben _____,von,leben von,to live off,vivre de,Dative,Datif,leben,leben von + Dative
+347,13,B1,fliehen _____,vor,fliehen vor,to flee from,fuir,Dative,Datif,fliehen,fliehen vor + Dative
+348,13,B2,fürchten _____,vor,fürchten vor,to be afraid of,avoir peur de,Dative,Datif,fürchten,fürchten vor + Dative
+349,13,B1,konzentrieren _____,auf,konzentrieren auf,to concentrate on,se concentrer sur,Accusative,Accusatif,konzentrieren,konzentrieren auf + Accusative
+350,13,B1,riechen _____,nach,riechen nach,to smell like,sentir comme,Dative,Datif,riechen,riechen nach + Dative
+351,13,B1,stammen _____,aus,stammen aus,"to come from, to originate from","venir de, avoir pour origine",Dative,Datif,stammen,stammen aus + Dative
+352,13,B1,verzichten _____,auf,verzichten auf,to renounce,renoncer,Accusative,Accusatif,verzichten,verzichten auf + Accusative
 353,14,,Wir diskutieren _____ das Problem.,über,Wir diskutieren über das Problem.,We discuss the problem.,Nous discutons du problème.,,,diskutieren,
 354,14,,Sie diskutiert _____ Politik.,über,Sie diskutiert über Politik.,She discusses politics.,Elle parle de politique.,,,diskutieren,
 355,14,,Er diskutiert gerne _____ Filme und Serien.,über,Er diskutiert gerne über Filme und Serien.,He enjoys discussing movies and series.,Il aime discuter de films et de séries.,,,diskutieren,
@@ -368,7 +368,7 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 367,14,,Alles hängt _____ seiner Entscheidung ab.,von,Alles hängt von seiner Entscheidung ab.,Everything depends on his decision.,Tout dépend de sa décision.,,,abhängen,
 368,14,,"Kannst du bitte _____ meinen Hund aufpassen, während ich weg bin?",auf,"Kannst du bitte auf meinen Hund aufpassen, während ich weg bin?",Can you please take care of my dog while I am away?,Pourriez-vous prendre soin de mon chien pendant mon absence ?,,,aufpassen,
 369,14,,Er passt immer _____ seine kleine Schwester auf.,auf,Er passt immer auf seine kleine Schwester auf.,He always takes care of his little sister.,Il prend toujours soin de sa petite sœur.,,,aufpassen,
-370,14,,"Ich passe gut _____ meine Sachen _____, wenn ich reise.",auf,"Ich passe gut auf meine Sachen auf, wenn ich reise.",I take good care of my things when I travel.,Je prends grand soin de mes affaires lorsque je voyage.,,,aufpassen,
+370,14,,"Ich passe gut _____ meine Sachen auf, wenn ich reise.",auf,"Ich passe gut auf meine Sachen auf, wenn ich reise.",I take good care of my things when I travel.,Je prends grand soin de mes affaires lorsque je voyage.,,,aufpassen,
 371,14,,Diese Regel führt _____ Problemen.,zu,Diese Regel führt zu Problemen.,This rule leads to problems.,Cette règle engendre des problèmes.,,,führen,
 372,14,,Sein Verhalten führt _____ Missverständnissen.,zu,Sein Verhalten führt zu Missverständnissen.,His behavior leads to misunderstandings.,Son comportement engendre des malentendus.,,,führen,
 373,14,,Die neuen Maßnahmen führten _____ einer Verbesserung der Situation.,zu,Die neuen Maßnahmen führten zu einer Verbesserung der Situation.,The new measures led to an improvement in the situation.,Les nouvelles mesures ont permis d'améliorer la situation.,,,führen,
@@ -396,20 +396,20 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 395,14,,"Ich verzichte _____ den Nachtisch, weil ich keinen Hunger habe.",auf,"Ich verzichte auf den Nachtisch, weil ich keinen Hunger habe.",I am skipping dessert because I am not hungry.,Je ne prends pas de dessert car je n'ai pas faim.,,,verzichten,
 396,14,,"Viele Menschen verzichten _____ Plastik, um die Umwelt zu schützen.",auf,"Viele Menschen verzichten auf Plastik, um die Umwelt zu schützen.",Many people avoid plastic to protect the environment.,De nombreuses personnes évitent le plastique pour protéger l'environnement.,,,verzichten,
 397,14,,Er verzichtet aus gesundheitlichen Gründen _____ Alkohol.,auf,Er verzichtet aus gesundheitlichen Gründen auf Alkohol.,He abstains from alcohol for health reasons.,Il s'abstient de consommer de l'alcool pour des raisons de santé.,,,verzichten,
-398,15,11 - 20 (B1),warnen _____,vor,warnen vor,to warn of,avertir de,Dative,Datif,warnen,warnen vor + Dative
-399,15,21 - 40 (B2),zielen _____,auf,zielen auf,to aim at,viser,Accusative,Accusatif,zielen,zielen auf + Accusative
-400,15,11 - 20 (B1),erholen _____,von,erholen von,to recover from,se remettre de,Dative,Datif,erholen,erholen von + Dative
-401,15,11 - 20 (B1),wirken _____,auf,wirken auf,"to affect, to have an effect on","affecter, avoir un effet sur",Accusative,Accusatif,wirken,wirken auf + Accusative
-402,15,11 - 20 (B1),teilnehmen _____,an,teilnehmen an,to participate in,participer à,Dative,Datif,teilnehmen,teilnehmen an + Dative
-403,15,11 - 20 (B1),leiden _____,an,leiden an,to suffer from (an ailment),souffrir de (une maladie),Dative,Datif,leiden,leiden an + Dative
-404,15,11 - 20 (B1),leiden _____,unter,leiden unter,to suffer from (circumstances),souffrir de (circonstances),Dative,Datif,leiden,leiden unter + Dative
-405,15,11 - 20 (B1),überzeugen _____,von,überzeugen von,to convince of,convaincre de,Dative,Datif,überzeugen,überzeugen von + Dative
-406,15,21 - 40 (B2),fordern _____,von,fordern von,to demand from,exiger de,Dative,Datif,fordern,fordern von + Dative
-407,15,6 - 10 (A2),streiten _____,um,streiten um,"to argue about (something concrete), to argue over","se disputer à propos de (quelque chose de concret), se disputer sur",Accusative,Accusatif,streiten,streiten um + Accusative
-408,15,6 - 10 (A2),streiten _____,über,streiten über,to argue about (something abstract),se disputer à propos de (quelque chose d'abstrait),Accusative,Accusatif,streiten,streiten über + Accusative
-409,15,6 - 10 (A2),streiten _____,mit,streiten mit,to argue with,se disputer avec,Dative,Datif,streiten,streiten mit + Dative
-410,15,11 - 20 (B1),vorbereiten _____,auf,vorbereiten auf,to prepare oneself for,se préparer à,Accusative,Accusatif,vorbereiten,vorbereiten auf + Accusative
-411,15,11 - 20 (B1),weinen _____,über,weinen über,to cry about,pleurer à propos,Accusative,Accusatif,weinen,weinen über + Accusative
+398,15,B1,warnen _____,vor,warnen vor,to warn of,avertir de,Dative,Datif,warnen,warnen vor + Dative
+399,15,B2,zielen _____,auf,zielen auf,to aim at,viser,Accusative,Accusatif,zielen,zielen auf + Accusative
+400,15,B1,erholen _____,von,erholen von,to recover from,se remettre de,Dative,Datif,erholen,erholen von + Dative
+401,15,B1,wirken _____,auf,wirken auf,"to affect, to have an effect on","affecter, avoir un effet sur",Accusative,Accusatif,wirken,wirken auf + Accusative
+402,15,B1,teilnehmen _____,an,teilnehmen an,to participate in,participer à,Dative,Datif,teilnehmen,teilnehmen an + Dative
+403,15,B1,leiden _____,an,leiden an,to suffer from (an ailment),souffrir de (une maladie),Dative,Datif,leiden,leiden an + Dative
+404,15,B1,leiden _____,unter,leiden unter,to suffer from (circumstances),souffrir de (circonstances),Dative,Datif,leiden,leiden unter + Dative
+405,15,B2,überzeugen _____,von,überzeugen von,to convince of,convaincre de,Dative,Datif,überzeugen,überzeugen von + Dative
+406,15,B2,fordern _____,von,fordern von,to demand from,exiger de,Dative,Datif,fordern,fordern von + Dative
+407,15,A2,streiten _____,um,streiten um,"to argue about (something concrete), to argue over","se disputer à propos de (quelque chose de concret), se disputer sur",Accusative,Accusatif,streiten,streiten um + Accusative
+408,15,A2,streiten _____,über,streiten über,to argue about (something abstract),se disputer à propos de (quelque chose d'abstrait),Accusative,Accusatif,streiten,streiten über + Accusative
+409,15,A2,streiten _____,mit,streiten mit,to argue with,se disputer avec,Dative,Datif,streiten,streiten mit + Dative
+410,15,B1,vorbereiten _____,auf,vorbereiten auf,to prepare oneself for,se préparer à,Accusative,Accusatif,vorbereiten,vorbereiten auf + Accusative
+411,15,B1,weinen _____,über,weinen über,to cry about,pleurer à propos,Accusative,Accusatif,weinen,weinen über + Accusative
 412,16,,Der Arzt hat ihn _____ den Gefahren des Rauchens gewarnt.,vor,Der Arzt hat ihn vor den Gefahren des Rauchens gewarnt.,The doctor warned him about the dangers of smoking.,Le médecin l'a mis en garde contre les dangers du tabagisme.,,,warnen,
 413,16,,Die Polizei warnt _____ Betrügern im Internet.,vor,Die Polizei warnt vor Betrügern im Internet.,The police warn about online scammers.,La police met en garde contre les arnaqueurs en ligne.,,,warnen,
 414,16,,Die Meteorologen warnen _____ starkem Sturm am Wochenende.,vor,Die Meteorologen warnen vor starkem Sturm am Wochenende.,Meteorologists warn of strong storms at the weekend.,Les météorologues mettent en garde contre de violents orages ce week-end.,,,warnen,
@@ -452,21 +452,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 451,16,,Er weinte _____ den Verlust seines Hundes.,über,Er weinte über den Verlust seines Hundes.,He cried over the loss of his dog.,Il a pleuré la perte de son chien.,,,weinen,
 452,16,,Sie weinte _____ den traurigen Film.,über,Sie weinte über den traurigen Film.,She cried about the sad movie.,Elle a pleuré à cause de ce film triste.,,,weinen,
 453,16,,Ich habe _____ meinen Fehler geweint.,über,Ich habe über meinen Fehler geweint.,I cried over my mistake.,J'ai pleuré à cause de mon erreur.,,,weinen,
-454,17,11 - 20 (B1),geraten _____,in,geraten in,to get into,se retrouver dans,Accusative,Accusatif,geraten,geraten in + Accusative
-455,17,11 - 20 (B1),bestehen _____,aus,bestehen aus,to consist of,être composé de,Dative,Datif,bestehen,bestehen aus + Dative
-456,17,11 - 20 (B1),bestehen _____,auf,bestehen auf,to insist on,"insister sur, exiger",Accusative,Accusatif,bestehen,bestehen auf + Accusative
-457,17,11 - 20 (B1),bestehen _____,in,bestehen in,to consist in,consister en,Dative,Datif,bestehen,bestehen in + Dative
-458,17,11 - 20 (B1),bewerben _____,bei,bewerben bei,to apply at,postuler uprès de,Dative,Datif,bewerben,bewerben bei + Dative
-459,17,11 - 20 (B1),bewerben _____,um,bewerben um,to apply for,postuler à,Accusative,Accusatif,bewerben,bewerben um + Accusative
-460,17,11 - 20 (B1),duften _____,nach,duften nach,to smell of,sentir,Dative,Datif,duften,duften nach + Dative
-461,17,11 - 20 (B1),entstehen _____,aus,entstehen aus,to arise from,"donner lieux à, émerger de",Dative,Datif,entstehen,entstehen aus + Dative
-462,17,6 - 10 (A2),kämpfen _____,um,kämpfen um,"to fight over (something limited, zero-sum)","se battre pour (quelque chose de limité, à somme nulle)",Accusative,Accusatif,kämpfen,kämpfen um + Accusative
-463,17,6 - 10 (A2),kämpfen _____,für,kämpfen für,to fight for (a cause),se battre pour (une cause),Accusative,Accusatif,kämpfen,kämpfen für + Accusative
-464,17,11 - 20 (B1),ernähren _____,von,ernähren von,to nourish from,se nourrir de,Dative,Datif,ernähren,ernähren von + Dative
-465,17,11 - 20 (B1),erfahren _____,von,erfahren von,"to learn about, of","apprendre sur, entendre parler de",Dative,Datif,erfahren,erfahren von + Dative
-466,17,11 - 20 (B1),richten _____,nach,richten nach,to follow,suivre,Dative,Datif,richten,richten nach + Dative
-467,17,11 - 20 (B1),richten _____,an,richten an,to address to,s'adresser à,Accusative,Accusatif,richten,richten an + Accusative
-468,17,1 - 5 (A1),spielen _____,um,spielen um,"to play for (something limited, zero-sum)","jouer pour (quelque chose de limité, à somme nulle)",Accusative,Accusatif,spielen,spielen um + Accusative
+454,17,B1,geraten _____,in,geraten in,to get into,se retrouver dans,Accusative,Accusatif,geraten,geraten in + Accusative
+455,17,B1,bestehen _____,aus,bestehen aus,to consist of,être composé de,Dative,Datif,bestehen,bestehen aus + Dative
+456,17,B1,bestehen _____,auf,bestehen auf,to insist on,"insister sur, exiger",Accusative,Accusatif,bestehen,bestehen auf + Accusative
+457,17,B1,bestehen _____,in,bestehen in,to consist in,consister en,Dative,Datif,bestehen,bestehen in + Dative
+458,17,B1,bewerben _____,bei,bewerben bei,to apply at,postuler uprès de,Dative,Datif,bewerben,bewerben bei + Dative
+459,17,B1,bewerben _____,um,bewerben um,to apply for,postuler à,Accusative,Accusatif,bewerben,bewerben um + Accusative
+460,17,C1,duften _____,nach,duften nach,to smell of,sentir,Dative,Datif,duften,duften nach + Dative
+461,17,B1,entstehen _____,aus,entstehen aus,to arise from,"donner lieux à, émerger de",Dative,Datif,entstehen,entstehen aus + Dative
+462,17,A2,kämpfen _____,um,kämpfen um,"to fight over (something limited, zero-sum)","se battre pour (quelque chose de limité, à somme nulle)",Accusative,Accusatif,kämpfen,kämpfen um + Accusative
+463,17,A2,kämpfen _____,für,kämpfen für,to fight for (a cause),se battre pour (une cause),Accusative,Accusatif,kämpfen,kämpfen für + Accusative
+464,17,B2,ernähren _____,von,ernähren von,to nourish from,se nourrir de,Dative,Datif,ernähren,ernähren von + Dative
+465,17,B1,erfahren _____,von,erfahren von,"to learn about, of","apprendre sur, entendre parler de",Dative,Datif,erfahren,erfahren von + Dative
+466,17,B1,richten _____,nach,richten nach,to follow,suivre,Dative,Datif,richten,richten nach + Dative
+467,17,B1,richten _____,an,richten an,to address to,s'adresser à,Accusative,Accusatif,richten,richten an + Accusative
+468,17,A1,spielen _____,um,spielen um,"to play for (something limited, zero-sum)","jouer pour (quelque chose de limité, à somme nulle)",Accusative,Accusatif,spielen,spielen um + Accusative
 469,18,,Sie ist _____ eine schwierige Situation geraten.,in,Sie ist in eine schwierige Situation geraten.,She got into a difficult situation.,Elle s'est retrouvée dans une situation difficile.,,,geraten,
 470,18,,Er ist _____ finanzielle Schwierigkeiten geraten.,in,Er ist in finanzielle Schwierigkeiten geraten.,He got into financial trouble.,Il a eu des problèmes financiers.,,,geraten,
 471,18,,Die Firma geriet _____ eine Krise nach dem Skandal.,in,Die Firma geriet in eine Krise nach dem Skandal.,The company fell into a crisis following the scandal.,L'entreprise a sombré dans la crise suite au scandale.,,,geraten,
@@ -512,21 +512,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 511,18,,Beide Mannschaften spielen _____ den Einzug ins Finale.,um,Beide Mannschaften spielen um den Einzug ins Finale.,Both teams are playing for a spot in the final.,Les deux équipes se disputent une place en finale.,,,spielen,
 512,18,,Er spielt _____ eine hohe Geldsumme im Casino.,um,Er spielt um eine hohe Geldsumme im Casino.,He is playing for a large amount of money at the casino.,Il joue une grosse somme d'argent au casino.,,,spielen,
 513,18,,Sie spielen _____ den Titel des Stadtmeisters.,um,Sie spielen um den Titel des Stadtmeisters.,They play for the title of city champion.,Ils jouent pour le titre de champion de la ville.,,,spielen,
-514,19,1 - 5 (A1),ändern _____,an,ändern an,to partially change something,modifier partiellement quelque chose,Dative,Datif,ändern,ändern an + Dative
-515,19,6 - 10 (A2),ansehen _____,als,ansehen als,to regard as,considérer comme,Accusative,Accusatif,ansehen,ansehen als + Accusative
-516,19,1 - 5 (A1),kommen _____,auf,kommen auf,"to come up with, to think of","inventer, penser à",Accusative,Accusatif,kommen,kommen auf + Accusative
-517,19,1 - 5 (A1),verstehen _____,von,verstehen von,"to be versed in, to be skilled in","être versé en, être compétent en",Dative,Datif,verstehen,verstehen von + Dative
-518,19,1 - 5 (A1),sich verstehen _____,mit,sich verstehen mit,to get along with,s'entendre avec,Dative,Datif,verstehen,sich verstehen mit + Dative
-519,19,6 - 10 (A2),zählen _____,zu,zählen zu,to count among,être considéré comme,Dative,Datif,zählen,zählen zu + Dative
-520,19,11 - 20 (B1),gewöhnen _____,an,gewöhnen an,to get used to,s'habituer à,Accusative,Accusatif,gewöhnen,gewöhnen an + Accusative
-521,19,21 - 40 (B2),engagieren _____,für,engagieren für,to engage for,s'engager pour,Accusative,Accusatif,engagieren,engagieren für + Accusative
-522,19,21 - 40 (B2),schießen _____,auf,schießen auf,to shoot at,tirer sur,Accusative,Accusatif,schießen,schießen auf + Accusative
-523,19,21 - 40 (B2),verabschieden _____,von,verabschieden von,to say goodbye to,dire au revoir à,Dative,Datif,verabschieden,verabschieden von + Dative
-524,19,21 - 40 (B2),verwandeln _____,in,verwandeln in,to transform into,se transformer en,Accusative,Accusatif,verwandeln,verwandeln in + Accusative
-525,19,21 - 40 (B2),wenden _____,an,wenden an,to turn to,se tourner vers,Accusative,Accusatif,wenden,wenden an + Accusative
-526,19,21 - 40 (B2),wetten _____,um,wetten um,to bet on,parier sur,Accusative,Accusatif,wetten,wetten um + Accusative
-527,19,21 - 40 (B2),zögern _____,mit,zögern mit,"to hesitate with, to hesitate to",hésiter à,Dative,Datif,zögern,zögern mit + Dative
-528,19,21 - 40 (B2),anpassen _____,an,anpassen an,to adjust to,s'adapter à,Accusative,Accusatif,anpassen,anpassen an + Accusative
+514,19,A1,ändern _____,an,ändern an,to partially change something,modifier partiellement quelque chose,Dative,Datif,ändern,ändern an + Dative
+515,19,A2,ansehen _____,als,ansehen als,to regard as,considérer comme,Accusative,Accusatif,ansehen,ansehen als + Accusative
+516,19,A1,kommen _____,auf,kommen auf,"to come up with, to think of","inventer, penser à",Accusative,Accusatif,kommen,kommen auf + Accusative
+517,19,A1,verstehen _____,von,verstehen von,"to be versed in, to be skilled in","être versé en, être compétent en",Dative,Datif,verstehen,verstehen von + Dative
+518,19,A1,sich verstehen _____,mit,sich verstehen mit,to get along with,s'entendre avec,Dative,Datif,verstehen,sich verstehen mit + Dative
+519,19,A2,zählen _____,zu,zählen zu,to count among,être considéré comme,Dative,Datif,zählen,zählen zu + Dative
+520,19,B1,gewöhnen _____,an,gewöhnen an,to get used to,s'habituer à,Accusative,Accusatif,gewöhnen,gewöhnen an + Accusative
+521,19,B2,engagieren _____,für,engagieren für,to engage for,s'engager pour,Accusative,Accusatif,engagieren,engagieren für + Accusative
+522,19,B2,schießen _____,auf,schießen auf,to shoot at,tirer sur,Accusative,Accusatif,schießen,schießen auf + Accusative
+523,19,B2,verabschieden _____,von,verabschieden von,to say goodbye to,dire au revoir à,Dative,Datif,verabschieden,verabschieden von + Dative
+524,19,B2,verwandeln _____,in,verwandeln in,to transform into,se transformer en,Accusative,Accusatif,verwandeln,verwandeln in + Accusative
+525,19,B2,wenden _____,an,wenden an,to turn to,se tourner vers,Accusative,Accusatif,wenden,wenden an + Accusative
+526,19,B2,wetten _____,um,wetten um,to bet on,parier sur,Accusative,Accusatif,wetten,wetten um + Accusative
+527,19,B2,zögern _____,mit,zögern mit,"to hesitate with, to hesitate to",hésiter à,Dative,Datif,zögern,zögern mit + Dative
+528,19,B2,anpassen _____,an,anpassen an,to adjust to,s'adapter à,Accusative,Accusatif,anpassen,anpassen an + Accusative
 529,20,,Er ändert etwas _____ seinem Plan.,an,Er ändert etwas an seinem Plan.,He changes something about his plan.,Il modifie un élément de son plan.,,,ändern,
 530,20,,Wir müssen etwas _____ der Situation ändern.,an,Wir müssen etwas an der Situation ändern.,We have to change something about the situation.,Nous devons changer quelque chose à cette situation.,,,ändern,
 531,20,,Sie hat nichts _____ ihrem Verhalten geändert.,an,Sie hat nichts an ihrem Verhalten geändert.,She has not changed her behavior.,Elle n'a pas changé de comportement.,,,ändern,
@@ -572,21 +572,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 571,20,,Ich habe mich schnell _____ die neue Umgebung angepasst.,an,Ich habe mich schnell an die neue Umgebung angepasst.,I quickly adapted to the new environment.,Je me suis rapidement adapté au nouvel environnement.,,,anpassen,
 572,20,,Sie passt sich _____ die Regeln der Firma an.,an,Sie passt sich an die Regeln der Firma an.,She adapts to the company’s rules.,Elle s'adapte aux règles de l'entreprise.,,,anpassen,
 573,20,,Er hat seinen Lebensstil _____ die neue Situation angepasst.,an,Er hat seinen Lebensstil an die neue Situation angepasst.,He has adapted his lifestyle to the new situation.,Il a adapté son mode de vie à la nouvelle situation.,,,anpassen,
-574,21,21 - 40 (B2),sich aufregen _____,über,sich aufregen über,to get upset about,se fâcher à propos de,Accusative,Accusatif,aufregen,sich aufregen über + Accusative
-575,21,21 - 40 (B2),bezeichnen _____,als,bezeichnen als,to designate as,se désigner comme,Accusative,Accusatif,bezeichnen,bezeichnen als + Accusative
-576,21,21 - 40 (B2),telefonieren _____,mit,telefonieren mit,"to call, to phone with","appeler, être au téléphone avec",Dative,Datif,telefonieren,telefonieren mit + Dative
-577,21,21 - 40 (B2),unterscheiden _____,in,unterscheiden in,to differentiate in,"distinguer, différentier",Dative,Datif,unterscheiden,unterscheiden in + Dative
-578,21,21 - 40 (B2),wundern _____,über,wundern über,to wonder about,"surprendre, s'interroger",Accusative,Accusatif,wundern,wundern über + Accusative
-579,21,21 - 40 (B2),sich bemühen _____,um,sich bemühen um,"to strive for, be eager for",aspirer à,Accusative,Accusatif,bemühen,sich bemühen um + Accusative
-580,21,21 - 40 (B2),bedanken _____,für,bedanken für,to thank for,remercier pour,Accusative,Accusatif,bedanken,bedanken für + Accusative
-581,21,21 - 40 (B2),bedanken _____,bei,bedanken bei,to thank someone,remercier quelqu'un,Dative,Datif,bedanken,bedanken bei + Dative
-582,21,1 - 5 (A1),sein _____,bei,sein bei,"to be busy with, to be in the middle of",être occupé par,Dative,Datif,sein,sein bei + Dative
-583,21,11 - 20 (B1),sich beschweren _____,über,sich beschweren über,to complain about,se plaindre de,Accusative,Accusatif,beschweren,sich beschweren über + Accusative
-584,21,11 - 20 (B1),sich beschweren _____,bei,sich beschweren bei,to complain to,se plaindre auprès de,Dative,Datif,beschweren,sich beschweren bei + Dative
-585,21,11 - 20 (B1),sich entschuldigen _____,für,sich entschuldigen für,to apologize for,"s'excuser de, s'excuser pour",Accusative,Accusatif,entschuldigen,sich entschuldigen für + Accusative
-586,21,11 - 20 (B1),sich entschuldigen _____,bei,sich entschuldigen bei,to apologize to,s'excuser auprès de,Dative,Datif,entschuldigen,sich entschuldigen bei + Dative
-587,21,21 - 40 (B2),ergeben _____,aus,ergeben aus,to result from,résulter de,Dative,Datif,ergeben,ergeben aus + Dative
-588,21,11 - 20 (B1),garantieren _____,für,garantieren für,to guarantee for,garantir,Accusative,Accusatif,garantieren,garantieren für + Accusative
+574,21,B2,sich aufregen _____,über,sich aufregen über,to get upset about,se fâcher à propos de,Accusative,Accusatif,aufregen,sich aufregen über + Accusative
+575,21,B2,bezeichnen _____,als,bezeichnen als,to designate as,se désigner comme,Accusative,Accusatif,bezeichnen,bezeichnen als + Accusative
+576,21,B2,telefonieren _____,mit,telefonieren mit,"to call, to phone with","appeler, être au téléphone avec",Dative,Datif,telefonieren,telefonieren mit + Dative
+577,21,B2,unterscheiden _____,in,unterscheiden in,to differentiate in,"distinguer, différentier",Dative,Datif,unterscheiden,unterscheiden in + Dative
+578,21,B2,wundern _____,über,wundern über,to wonder about,"surprendre, s'interroger",Accusative,Accusatif,wundern,wundern über + Accusative
+579,21,B1,sich bemühen _____,um,sich bemühen um,"to strive for, be eager for",aspirer à,Accusative,Accusatif,bemühen,sich bemühen um + Accusative
+580,21,B2,bedanken _____,für,bedanken für,to thank for,remercier pour,Accusative,Accusatif,bedanken,bedanken für + Accusative
+581,21,B2,bedanken _____,bei,bedanken bei,to thank someone,remercier quelqu'un,Dative,Datif,bedanken,bedanken bei + Dative
+582,21,A1,sein _____,bei,sein bei,"to be busy with, to be in the middle of",être occupé par,Dative,Datif,sein,sein bei + Dative
+583,21,B1,sich beschweren _____,über,sich beschweren über,to complain about,se plaindre de,Accusative,Accusatif,beschweren,sich beschweren über + Accusative
+584,21,B1,sich beschweren _____,bei,sich beschweren bei,to complain to,se plaindre auprès de,Dative,Datif,beschweren,sich beschweren bei + Dative
+585,21,B1,sich entschuldigen _____,für,sich entschuldigen für,to apologize for,"s'excuser de, s'excuser pour",Accusative,Accusatif,entschuldigen,sich entschuldigen für + Accusative
+586,21,B1,sich entschuldigen _____,bei,sich entschuldigen bei,to apologize to,s'excuser auprès de,Dative,Datif,entschuldigen,sich entschuldigen bei + Dative
+587,21,B2,ergeben _____,aus,ergeben aus,to result from,résulter de,Dative,Datif,ergeben,ergeben aus + Dative
+588,21,B1,garantieren _____,für,garantieren für,to guarantee for,garantir,Accusative,Accusatif,garantieren,garantieren für + Accusative
 589,22,,Er regt sich _____ jede Kleinigkeit auf.,über,Er regt sich über jede Kleinigkeit auf.,He gets upset about every little thing.,Il s'énerve pour un rien.,,,aufregen,
 590,22,,Ich rege mich _____ den Lärm auf.,über,Ich rege mich über den Lärm auf.,I get annoyed about the noise.,Le bruit m'agace.,,,aufregen,
 591,22,,Sie regt sich oft _____ unfreundliche Menschen auf.,über,Sie regt sich oft über unfreundliche Menschen auf.,She often gets upset about unfriendly people.,Elle s'énerve souvent à cause des gens désagréables.,,,aufregen,
@@ -632,21 +632,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 631,22,,Der Hersteller garantiert _____ die Qualität des Produkts.,für,Der Hersteller garantiert für die Qualität des Produkts.,The manufacturer guarantees the quality of the product.,Le fabricant garantit la qualité du produit.,,,garantieren,
 632,22,,Ich kann _____ die Pünktlichkeit meines Freundes garantieren.,für,Ich kann für die Pünktlichkeit meines Freundes garantieren.,I can vouch for my friend's punctuality.,Je peux attester de la ponctualité de mon ami.,,,garantieren,
 633,22,,Die Firma garantiert _____ eine schnelle Lieferung.,für,Die Firma garantiert für eine schnelle Lieferung.,The company guarantees fast delivery.,L'entreprise garantit une livraison rapide.,,,garantieren,
-634,23,21 - 40 (B2),hinweisen _____,auf,hinweisen auf,to point out,souligner,Accusative,Accusatif,hinweisen,hinweisen auf + Accusative
-635,23,21 - 40 (B2),nachdenken _____,über,nachdenken über,to think about,réfléchir à,Accusative,Accusatif,nachdenken,nachdenken über + Accusative
-636,23,11 - 20 (B1),reagieren _____,auf,reagieren auf,to react to,réagir à,Accusative,Accusatif,reagieren,reagieren auf + Accusative
-637,23,21 - 40 (B2),senden _____,an,senden an,to send to,envoyer,Accusative,Accusatif,senden,senden an + Accusative
-638,23,21 - 40 (B2),werben _____,für,werben für,to advertise for,faire de la publicité pour,Accusative,Accusatif,werben,werben für + Accusative
-639,23,21 - 40 (B2),sich beteiligen _____,an,sich beteiligen an,to take part in,participer à,Dative,Datif,beteiligen,sich beteiligen an + Dative
-640,23,21 - 40 (B2),einstellen _____,auf,einstellen auf,to adjust to,s'adapter à,Accusative,Accusatif,einstellen,einstellen auf + Accusative
-641,23,21 - 40 (B2),beitragen _____,zu,beitragen zu,to contribute to,contribuer à,Dative,Datif,beitragen,beitragen zu + Dative
-642,23,21 - 40 (B2),zweifeln _____,an,zweifeln an,to doubt,douter de,Dative,Datif,zweifeln,zweifeln an + Dative
-643,23,1 - 5 (A1),_____ sich haben,bei,bei sich haben,"to have with oneself, to carry with oneself","avoir sur soi, emporter avec soi",Dative,Datif,haben,bei sich haben + Dative
-644,23,21 - 40 (B2),sich unterhalten _____,mit,sich unterhalten mit,to talk with,converser avec,Dative,Datif,unterhalten,sich unterhalten mit + Dative
-645,23,21 - 40 (B2),sich unterhalten _____,über,sich unterhalten über,"to talk, converse about",converser à propos de,Accusative,Accusatif,unterhalten,sich unterhalten über + Accusative
-646,23,21 - 40 (B2),verlangen _____,von,verlangen von,to demand from,exiger,Dative,Datif,verlangen,verlangen von + Dative
-647,23,11 - 20 (B1),gelten _____,für,gelten für,to apply to,s'appliquer à,Accusative,Accusatif,gelten,gelten für + Accusative
-648,23,11 - 20 (B1),gelten _____,als,gelten als,to be considered as,être considéré comme,Nominative,Nominatif,gelten,gelten als + Nominative
+634,23,B2,hinweisen _____,auf,hinweisen auf,to point out,souligner,Accusative,Accusatif,hinweisen,hinweisen auf + Accusative
+635,23,B2,nachdenken _____,über,nachdenken über,to think about,réfléchir à,Accusative,Accusatif,nachdenken,nachdenken über + Accusative
+636,23,B1,reagieren _____,auf,reagieren auf,to react to,réagir à,Accusative,Accusatif,reagieren,reagieren auf + Accusative
+637,23,B1,senden _____,an,senden an,to send to,envoyer,Accusative,Accusatif,senden,senden an + Accusative
+638,23,B2,werben _____,für,werben für,to advertise for,faire de la publicité pour,Accusative,Accusatif,werben,werben für + Accusative
+639,23,B2,sich beteiligen _____,an,sich beteiligen an,to take part in,participer à,Dative,Datif,beteiligen,sich beteiligen an + Dative
+640,23,B2,einstellen _____,auf,einstellen auf,to adjust to,s'adapter à,Accusative,Accusatif,einstellen,einstellen auf + Accusative
+641,23,B2,beitragen _____,zu,beitragen zu,to contribute to,contribuer à,Dative,Datif,beitragen,beitragen zu + Dative
+642,23,B2,zweifeln _____,an,zweifeln an,to doubt,douter de,Dative,Datif,zweifeln,zweifeln an + Dative
+643,23,A1,_____ sich haben,bei,bei sich haben,"to have with oneself, to carry with oneself","avoir sur soi, emporter avec soi",Dative,Datif,haben,bei sich haben + Dative
+644,23,B2,sich unterhalten _____,mit,sich unterhalten mit,to talk with,converser avec,Dative,Datif,unterhalten,sich unterhalten mit + Dative
+645,23,B2,sich unterhalten _____,über,sich unterhalten über,"to talk, converse about",converser à propos de,Accusative,Accusatif,unterhalten,sich unterhalten über + Accusative
+646,23,C1,verlangen _____,von,verlangen von,to demand from,exiger,Dative,Datif,verlangen,verlangen von + Dative
+647,23,B1,gelten _____,für,gelten für,to apply to,s'appliquer à,Accusative,Accusatif,gelten,gelten für + Accusative
+648,23,B1,gelten _____,als,gelten als,to be considered as,être considéré comme,Nominative,Nominatif,gelten,gelten als + Nominative
 649,24,,Der Lehrer wies die Schüler _____ die Bedeutung der Hausaufgaben hin.,auf,Der Lehrer wies die Schüler auf die Bedeutung der Hausaufgaben hin.,The teacher pointed out the importance of homework to the students.,L'enseignant a souligné l'importance des devoirs auprès des élèves.,,,hinweisen,
 650,24,,Sie wies _____ die Fehler im Bericht hin.,auf,Sie wies auf die Fehler im Bericht hin.,She pointed out the mistakes in the report.,Elle a relevé les erreurs dans le rapport.,,,hinweisen,
 651,24,,Ich möchte dich _____ einen wichtigen Termin hinweisen.,auf,Ich möchte dich auf einen wichtigen Termin hinweisen.,I would like to draw your attention to an important date.,Je voudrais attirer votre attention sur une date importante.,,,hinweisen,
@@ -692,21 +692,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 691,24,,Er gilt _____ Experte auf diesem Gebiet.,als,Er gilt als Experte auf diesem Gebiet.,He is considered an expert in this field.,Il est considéré comme un expert dans ce domaine.,,,gelten,
 692,24,,Das Buch gilt _____ Klassiker der deutschen Literatur.,als,Das Buch gilt als Klassiker der deutschen Literatur.,The book is considered a classic of German literature.,Ce livre est considéré comme un classique de la littérature allemande.,,,gelten,
 693,24,,Sie gilt _____ sehr zuverlässige Kollegin.,als,Sie gilt als sehr zuverlässige Kollegin.,She is considered a very reliable colleague.,Elle est considérée comme une collègue très fiable.,,,gelten,
-694,25,11 - 20 (B1),informieren _____,über,informieren über,to inform oneself about,s'informer sur,Accusative,Accusatif,informieren,informieren über + Accusative
-695,25,11 - 20 (B1),sich informieren _____,bei,sich informieren bei,"to inform oneself from, to inquire",s'informer auprès de,Dative,Datif,informieren,sich informieren bei + Dative
-696,25,11 - 20 (B1),rechnen _____,mit,rechnen mit,to count on,compter sur,Dative,Datif,rechnen,rechnen mit + Dative
-697,25,11 - 20 (B1),zwingen _____,zu,zwingen zu,to force to,"forcer à, être contraint à",Dative,Datif,zwingen,zwingen zu + Dative
-698,25,11 - 20 (B1),einsetzen _____,für,einsetzen für,to advocate for,militer en faveur de,Accusative,Accusatif,einsetzen,einsetzen für + Accusative
-699,25,6 - 10 (A2),ausgehen _____,von,ausgehen von,to assume,supposer,Dative,Datif,ausgehen,ausgehen von + Dative
-700,25,21 - 40 (B2),berichten _____,von,berichten von,"to report on (something personal, an experience)","faire un compte rendu (de quelque chose de personnel, d'une expérience)",Dative,Datif,berichten,berichten von + Dative
-701,25,21 - 40 (B2),berichten _____,über,berichten über,to report on (something objective),faire rapport sur (quelque chose d'objectif),Accusative,Accusatif,berichten,berichten über + Accusative
-702,25,21 - 40 (B2),eignen _____,für,eignen für,to be suitable for (a concrete goal or group),convernir à (un objectif ou un groupe concret),Accusative,Accusatif,eignen,eignen für + Accusative
-703,25,21 - 40 (B2),eignen _____,zu,eignen zu,to be suitable for (an abstract function),convernir à (une fonction abstraite),Dative,Datif,eignen,eignen zu + Dative
-704,25,11 - 20 (B1),greifen _____,zu,greifen zu,to reach for,se tourner vers,Dative,Datif,greifen,greifen zu + Dative
-705,25,21 - 40 (B2),verfügen _____,über,verfügen über,to have at one's disposal,"avoir à sa disposition, disposer de",Accusative,Accusatif,verfügen,verfügen über + Accusative
-706,25,21 - 40 (B2),sich handeln _____,um,sich handeln um,to be about,"être à propos de, s'agir de",Accusative,Accusatif,handeln,sich handeln um + Accusative
-707,25,21 - 40 (B2),handeln _____,von,handeln von,"to revolve around, to be about","traiter de, être à propos de",Dative,Datif,handeln,handeln von + Dative
-708,25,21 - 40 (B2),handeln _____,mit,handeln mit,"to trade with, to trade in","commercer, commercialiser",Dative,Datif,handeln,handeln mit + Dative
+694,25,B1,informieren _____,über,informieren über,to inform oneself about,s'informer sur,Accusative,Accusatif,informieren,informieren über + Accusative
+695,25,B1,sich informieren _____,bei,sich informieren bei,"to inform oneself from, to inquire",s'informer auprès de,Dative,Datif,informieren,sich informieren bei + Dative
+696,25,B1,rechnen _____,mit,rechnen mit,to count on,compter sur,Dative,Datif,rechnen,rechnen mit + Dative
+697,25,B1,zwingen _____,zu,zwingen zu,to force to,"forcer à, être contraint à",Dative,Datif,zwingen,zwingen zu + Dative
+698,25,B1,einsetzen _____,für,einsetzen für,to advocate for,militer en faveur de,Accusative,Accusatif,einsetzen,einsetzen für + Accusative
+699,25,A2,ausgehen _____,von,ausgehen von,to assume,supposer,Dative,Datif,ausgehen,ausgehen von + Dative
+700,25,B1,berichten _____,von,berichten von,"to report on (something personal, an experience)","faire un compte rendu (de quelque chose de personnel, d'une expérience)",Dative,Datif,berichten,berichten von + Dative
+701,25,B1,berichten _____,über,berichten über,to report on (something objective),faire rapport sur (quelque chose d'objectif),Accusative,Accusatif,berichten,berichten über + Accusative
+702,25,B2,eignen _____,für,eignen für,to be suitable for (a concrete goal or group),convernir à (un objectif ou un groupe concret),Accusative,Accusatif,eignen,eignen für + Accusative
+703,25,B2,eignen _____,zu,eignen zu,to be suitable for (an abstract function),convernir à (une fonction abstraite),Dative,Datif,eignen,eignen zu + Dative
+704,25,B1,greifen _____,zu,greifen zu,to reach for,se tourner vers,Dative,Datif,greifen,greifen zu + Dative
+705,25,B2,verfügen _____,über,verfügen über,to have at one's disposal,"avoir à sa disposition, disposer de",Accusative,Accusatif,verfügen,verfügen über + Accusative
+706,25,B2,sich handeln _____,um,sich handeln um,to be about,"être à propos de, s'agir de",Accusative,Accusatif,handeln,sich handeln um + Accusative
+707,25,B2,handeln _____,von,handeln von,"to revolve around, to be about","traiter de, être à propos de",Dative,Datif,handeln,handeln von + Dative
+708,25,B2,handeln _____,mit,handeln mit,"to trade with, to trade in","commercer, commercialiser",Dative,Datif,handeln,handeln mit + Dative
 709,26,,Der Arzt informierte den Patienten _____ die Risiken der Operation.,über,Der Arzt informierte den Patienten über die Risiken der Operation.,The doctor informed the patient about the risks of the operation.,Le médecin a informé le patient des risques liés à l'opération.,,,informieren,
 710,26,,Wir wurden _____ die neuen Regelungen informiert.,über,Wir wurden über die neuen Regelungen informiert.,We were informed about the new regulations.,Nous avons été informés des nouvelles réglementations.,,,informieren,
 711,26,,Sie informiert ihre Kunden regelmäßig _____ aktuelle Angebote.,über,Sie informiert ihre Kunden regelmäßig über aktuelle Angebote.,It regularly informs its customers about current offers.,Elle informe régulièrement ses clients des offres en cours.,,,informieren,
@@ -752,21 +752,21 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 751,26,,Der Händler handelt _____ exotischen Gewürzen.,mit,Der Händler handelt mit exotischen Gewürzen.,The merchant deals in exotic spices.,Le marchand fait le commerce d'épices exotiques.,,,handeln,
 752,26,,Sie handelt _____ Kunstwerken aus der ganzen Welt.,mit,Sie handelt mit Kunstwerken aus der ganzen Welt.,She deals in artworks from around the world.,Elle commercialise des œuvres d'art du monde entier.,,,handeln,
 753,26,,Die Firma handelt seit Jahren erfolgreich _____ Elektronikprodukten.,mit,Die Firma handelt seit Jahren erfolgreich mit Elektronikprodukten.,The company has been trading successfully in electronic products for many years.,L'entreprise commercialise avec succès des produits électroniques depuis de nombreuses années.,,,handeln,
-754,27,100-102 (C1),befördern _____,zu,befördern zu,to promote to,promouvoir,Dative,Datif,befördern,befördern zu + Dative
-755,27,100-102 (C1),hindern _____,an,hindern an,to prevent from,empêcher de,Dative,Datif,hindern,hindern an + Dative
-756,27,100-102 (C1),anregen _____,zu,anregen zu,to encourage to,"encourager à, inciter à",Dative,Datif,anregen,anregen zu + Dative
-757,27,100-102 (C1),auffordern _____,zu,auffordern zu,to invite to,inviter à,Dative,Datif,auffordern,auffordern zu + Dative
-758,27,100-102 (C1),auseinandersetzen _____,mit,auseinandersetzen mit,to deal with,gérer,Dative,Datif,auseinandersetzen,auseinandersetzen mit + Dative
-759,27,100-102 (C1),basieren _____,auf,basieren auf,to be based on,être basé sur,Dative,Datif,basieren,basieren auf + Dative
-760,27,100-102 (C1),befassen _____,mit,befassen mit,to deal with,gérer,Dative,Datif,befassen,befassen mit + Dative
-761,27,100-102 (C1),befreien _____,von,befreien von,to free from,se libérer de,Dative,Datif,befreien,befreien von + Dative
-762,27,100-102 (C1),beruhen _____,auf,beruhen auf,to be based on,être basé sur,Dative,Datif,beruhen,beruhen auf + Dative
-763,27,100-102 (C1),beziehen _____,auf,beziehen auf,to refer to,faire référence à,Accusative,Accusatif,beziehen,beziehen auf + Accusative
-764,27,100-102 (C1),einigen _____,auf,einigen auf,to agree on,se mettre d'accord sur,Accusative,Accusatif,einigen,einigen auf + Accusative
-765,27,100-102 (C1),entschließen _____,zu,entschließen zu,to resolve to,résoudre à,Dative,Datif,entschließen,entschließen zu + Dative
-766,27,100-102 (C1),erkranken _____,an,erkranken an,to fall ill from,tomber malade de,Dative,Datif,erkranken,erkranken an + Dative
-767,27,100-102 (C1),irren _____,in,irren in,to be mistaken in,se tromper dans,Dative,Datif,irren,irren in + Dative
-768,27,100-102 (C1),erkundigen _____,nach,erkundigen nach,"to ask after, to inquire about","se renseigner sur, demander des nouvelles",Dative,Datif,erkundigen,erkundigen nach + Dative
+754,27,C1,befördern _____,zu,befördern zu,to promote to,promouvoir,Dative,Datif,befördern,befördern zu + Dative
+755,27,C1,hindern _____,an,hindern an,to prevent from,empêcher de,Dative,Datif,hindern,hindern an + Dative
+756,27,C1,anregen _____,zu,anregen zu,to encourage to,"encourager à, inciter à",Dative,Datif,anregen,anregen zu + Dative
+757,27,C1,auffordern _____,zu,auffordern zu,to invite to,inviter à,Dative,Datif,auffordern,auffordern zu + Dative
+758,27,C1,auseinandersetzen _____,mit,auseinandersetzen mit,to deal with,gérer,Dative,Datif,auseinandersetzen,auseinandersetzen mit + Dative
+759,27,C1,basieren _____,auf,basieren auf,to be based on,être basé sur,Dative,Datif,basieren,basieren auf + Dative
+760,27,C1,befassen _____,mit,befassen mit,to deal with,gérer,Dative,Datif,befassen,befassen mit + Dative
+761,27,C1,befreien _____,von,befreien von,to free from,se libérer de,Dative,Datif,befreien,befreien von + Dative
+762,27,C1,beruhen _____,auf,beruhen auf,to be based on,être basé sur,Dative,Datif,beruhen,beruhen auf + Dative
+763,27,C1,beziehen _____,auf,beziehen auf,to refer to,faire référence à,Accusative,Accusatif,beziehen,beziehen auf + Accusative
+764,27,C1,einigen _____,auf,einigen auf,to agree on,se mettre d'accord sur,Accusative,Accusatif,einigen,einigen auf + Accusative
+765,27,C1,entschließen _____,zu,entschließen zu,to resolve to,résoudre à,Dative,Datif,entschließen,entschließen zu + Dative
+766,27,C2,erkranken _____,an,erkranken an,to fall ill from,tomber malade de,Dative,Datif,erkranken,erkranken an + Dative
+767,27,C1,irren _____,in,irren in,to be mistaken in,se tromper dans,Dative,Datif,irren,irren in + Dative
+768,27,C1,erkundigen _____,nach,erkundigen nach,"to ask after, to inquire about","se renseigner sur, demander des nouvelles",Dative,Datif,erkundigen,erkundigen nach + Dative
 769,28,,Sie wurde _____ Abteilungsleiterin befördert.,zur,Sie wurde zur Abteilungsleiterin befördert.,She was promoted to department head.,Elle a été promue chef de département.,,,befördern,
 770,28,,Er wurde nach vielen Jahren harter Arbeit _____ Manager befördert.,zum,Er wurde nach vielen Jahren harter Arbeit zum Manager befördert.,He was promoted to manager after many years of hard work.,Il a été promu manager après de nombreuses années de travail acharné.,,,befördern,
 771,28,,Der Regen hinderte uns _____ der Durchführung des Picknicks.,an,Der Regen hinderte uns an der Durchführung des Picknicks.,The rain prevented us from having the picnic.,La pluie nous a empêchés de faire le pique-nique.,,,hindern,
@@ -791,27 +791,27 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 790,28,,Sie einigten sich _____ einen Termin.,auf,Sie einigten sich auf einen Termin.,They agreed on a date.,Ils se sont mis d'accord sur une date.,,,einigen,
 791,28,,"Ich habe mich entschlossen, das Angebot an_____nehmen.",zu,"Ich habe mich entschlossen, das Angebot anzunehmen.",I have decided to accept the offer.,J'ai décidé d'accepter l'offre.,,,entschliessen,
 792,28,,Er entschloss sich _____ einem Studium im Ausland.,zu,Er entschloss sich zu einem Studium im Ausland.,He decided to study abroad.,Il a décidé d'étudier à l'étranger.,,,entschliessen,
-793,28,,Sie erkr_____kte _____ einer seltenen Kr_____kheit.,an,Sie erkrankte an einer seltenen Krankheit.,She fell ill with a rare disease.,Elle a contracté une maladie rare.,,,erkranken,
-794,28,,Viele Menschen erkr_____ken im Winter _____ Grippe.,an,Viele Menschen erkranken im Winter an Grippe.,Many people get the flu in winter.,Beaucoup de gens attrapent la grippe en hiver.,,,erkranken,
+793,28,,Sie erkrankte _____ einer seltenen Krankheit.,an,Sie erkrankte an einer seltenen Krankheit.,She fell ill with a rare disease.,Elle a contracté une maladie rare.,,,erkranken,
+794,28,,Viele Menschen erkranken im Winter _____ Grippe.,an,Viele Menschen erkranken im Winter an Grippe.,Many people get the flu in winter.,Beaucoup de gens attrapent la grippe en hiver.,,,erkranken,
 795,28,,Ich irre mich _____ diesem Punkt.,in,Ich irre mich in diesem Punkt.,I’m wrong about this point.,Je me trompe sur ce point.,,,irren,
 796,28,,Er irrt sich _____ der Zeit.,in,Er irrt sich in der Zeit.,He is mistaken about the time.,Il se trompe sur l'heure.,,,irren,
 797,28,,Ich erkundige mich _____ dem Preis.,nach,Ich erkundige mich nach dem Preis.,I’m inquiring about the price.,Je me renseigne sur le prix.,,,erkundigen,
 798,28,,Sie erkundigte sich _____ dem Weg.,nach,Sie erkundigte sich nach dem Weg.,She asked for directions.,Elle a demandé son chemin.,,,erkundigen,
-799,29,100-102 (C1),klagen _____,über,klagen über,to complain about,se plaindre de,Accusative,Accusatif,klagen,klagen über + Accusative
-800,29,100-102 (C1),klagen _____,gegen,klagen gegen,to sue,intenter une action en justice,Accusative,Accusatif,klagen,klagen gegen + Accusative
-801,29,100-102 (C1),erziehen _____,zu,erziehen zu,to raise to,élever à,Dative,Datif,erziehen,erziehen zu + Dative
-802,29,100-102 (C1),experimentieren _____,mit,experimentieren mit,to experiment with,expérimenter avec,Dative,Datif,experimentieren,experimentieren mit + Dative
-803,29,100-102 (C1),ausgeben _____,für,ausgeben für,to spend for,dépenser pour,Accusative,Accusatif,ausgeben,ausgeben für + Accusative
-804,29,100-102 (C1),gratulieren _____,zu,gratulieren zu,to gratulate on,félicitations pour,Dative,Datif,gratulieren,gratulieren zu + Dative
-805,29,100-102 (C1),orientieren _____,an,orientieren an,to orient oneself to,s'orienter vers,Dative,Datif,orientieren,orientieren an + Dative
-806,29,100-102 (C1),schimpfen _____,über,schimpfen über,to complain / swear about,se plaindre / jurer à propos de,Accusative,Accusatif,schimpfen,schimpfen über + Accusative
-807,29,100-102 (C1),schimpfen _____,auf,schimpfen auf,to scold about,gronder à propos,Accusative,Accusatif,schimpfen,schimpfen auf + Accusative
-808,29,100-102 (C1),schimpfen _____,mit,schimpfen mit,to scold with,gronder avec,Dative,Datif,schimpfen,schimpfen mit + Dative
-809,29,100-102 (C1),stinken _____,nach,stinken nach,to stink of,puer,Dative,Datif,stinken,stinken nach + Dative
-810,29,100-102 (C1),beklagen _____,über,beklagen über,to complain about,se plaindre de,Accusative,Accusatif,beklagen,beklagen über + Accusative
-811,29,100-102 (C1),einigen _____,mit,einigen mit,to come to an agreement with,parvenir à un accord avec,Dative,Datif,einigen,einigen mit + Dative
-812,29,100-102 (C1),beklagen _____,bei,beklagen bei,to complain to,se plaindre à,Dative,Datif,beklagen,beklagen bei + Dative
-813,29,100-102 (C1),verteidigen _____,gegen,verteidigen gegen,to defend against,se défendre contre,Accusative,Accusatif,verteidigen,verteidigen gegen + Accusative
+799,29,C1,klagen _____,über,klagen über,to complain about,se plaindre de,Accusative,Accusatif,klagen,klagen über + Accusative
+800,29,C1,klagen _____,gegen,klagen gegen,to sue,intenter une action en justice,Accusative,Accusatif,klagen,klagen gegen + Accusative
+801,29,C1,erziehen _____,zu,erziehen zu,to raise to,élever à,Dative,Datif,erziehen,erziehen zu + Dative
+802,29,C1,experimentieren _____,mit,experimentieren mit,to experiment with,expérimenter avec,Dative,Datif,experimentieren,experimentieren mit + Dative
+803,29,B2,ausgeben _____,für,ausgeben für,to spend for,dépenser pour,Accusative,Accusatif,ausgeben,ausgeben für + Accusative
+804,29,C1,gratulieren _____,zu,gratulieren zu,to gratulate on,félicitations pour,Dative,Datif,gratulieren,gratulieren zu + Dative
+805,29,C1,orientieren _____,an,orientieren an,to orient oneself to,s'orienter vers,Dative,Datif,orientieren,orientieren an + Dative
+806,29,C1,schimpfen _____,über,schimpfen über,to complain / swear about,se plaindre / jurer à propos de,Accusative,Accusatif,schimpfen,schimpfen über + Accusative
+807,29,C1,schimpfen _____,auf,schimpfen auf,to scold about,gronder à propos,Accusative,Accusatif,schimpfen,schimpfen auf + Accusative
+808,29,C1,schimpfen _____,mit,schimpfen mit,to scold with,gronder avec,Dative,Datif,schimpfen,schimpfen mit + Dative
+809,29,C1,stinken _____,nach,stinken nach,to stink of,puer,Dative,Datif,stinken,stinken nach + Dative
+810,29,C1,beklagen _____,über,beklagen über,to complain about,se plaindre de,Accusative,Accusatif,beklagen,beklagen über + Accusative
+811,29,C1,einigen _____,mit,einigen mit,to come to an agreement with,parvenir à un accord avec,Dative,Datif,einigen,einigen mit + Dative
+812,29,C1,beklagen _____,bei,beklagen bei,to complain to,se plaindre à,Dative,Datif,beklagen,beklagen bei + Dative
+813,29,C1,verteidigen _____,gegen,verteidigen gegen,to defend against,se défendre contre,Accusative,Accusatif,verteidigen,verteidigen gegen + Accusative
 814,30,,Er zieht das Kind _____ einem verantwortungsvollen Menschen.,zu,Er zieht das Kind zu einem verantwortungsvollen Menschen.,He is raising the child to be a responsible person.,Il élève son enfant pour qu'il devienne une personne responsable.,,,erziehen,
 815,30,,Kinder müssen _____ Toleranz erzogen werden.,zu,Kinder müssen zu Toleranz erzogen werden.,Children must be educated to be tolerant.,Il faut éduquer les enfants à la tolérance.,,,erziehen,
 816,30,,Die Wissenschaftler experimentieren _____ neuen Methoden.,mit,Die Wissenschaftler experimentieren mit neuen Methoden.,The scientists are experimenting with new methods.,Les scientifiques expérimentent de nouvelles méthodes.,,,experimentieren,
@@ -840,18 +840,18 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 839,30,,Sie überredete ihn _____ Reise.,zur,Sie überredete ihn zur Reise.,She persuaded him to take the trip.,Elle l'a persuadé de faire le voyage.,,,überreden,
 840,30,,Der Körper stellt sich _____ die neue Zeit um.,auf,Der Körper stellt sich auf die neue Zeit um.,The body adapts to the new time.,Le corps s'adapte à la nouvelle heure.,,,umstellen,
 841,30,,Wir müssen uns _____ die Situation umstellen.,auf,Wir müssen uns auf die Situation umstellen.,We have to adapt to the situation.,Nous devons nous adapter à la situation.,,,umstellen,
-842,30,,Ich versetze mich _____ de_____e Lage.,in,Ich versetze mich in deine Lage.,I put myself in your position.,Je me mets à votre place.,,,versetzen,
-843,30,,Versetze dich mal _____ me_____e Situation!,in,Versetze dich mal in meine Situation!,Put yourself in my situation!,Mettez-vous à ma place !,,,versetzen,
-844,31,100-102 (C1),neigen _____,zu,neigen zu,to tend to,s'occuper de,Dative,Datif,neigen,neigen zu + Dative
-845,31,100-102 (C1),überreden _____,zu,überreden zu,to persuade to,persuader de,Dative,Datif,überreden,überreden zu + Dative
-846,31,100-102 (C1),umstellen _____,auf,umstellen auf,to switch to,passer à,Accusative,Accusatif,umstellen,umstellen auf + Accusative
-847,31,100-102 (C1),versetzen _____,in,versetzen in,to put into,mettre dans,Accusative,Accusatif,versetzen,versetzen in + Accusative
-848,31,100-102 (C1),wehren _____,gegen,wehren gegen,to defend against,se défendre contre,Accusative,Accusatif,wehren,wehren gegen + Accusative
-849,31,100-102 (C1),zusammensetzen _____,aus,zusammensetzen aus,to assemble from,assembler à partir de,Dative,Datif,zusammensetzen,zusammensetzen aus + Dative
-850,31,100-102 (C1),erkundigen _____,bei,erkundigen bei,to inquire at,pour se renseigner à,Dative,Datif,erkundigen,erkundigen bei + Dative
-851,31,100-102 (C1),erschrecken _____,über,erschrecken über,to get frightened by,avoir peur de,Accusative,Accusatif,erschrecken,erschrecken über + Accusative
-852,31,100-102 (C1),erschrecken _____,vor,erschrecken vor,to be scared of,avoir peur de,Dative,Datif,erschrecken,erschrecken vor + Dative
-853,31,100-102 (C1),verabreden _____,mit,verabreden mit,to arrange to meet with,organiser une rencontre avec,Dative,Datif,verabreden,verabreden mit + Dative
+842,30,,Ich versetze mich _____ deine Lage.,in,Ich versetze mich in deine Lage.,I put myself in your position.,Je me mets à votre place.,,,versetzen,
+843,30,,Versetze dich mal _____ meine Situation!,in,Versetze dich mal in meine Situation!,Put yourself in my situation!,Mettez-vous à ma place !,,,versetzen,
+844,31,C2,neigen _____,zu,neigen zu,to tend to,s'occuper de,Dative,Datif,neigen,neigen zu + Dative
+845,31,C2,überreden _____,zu,überreden zu,to persuade to,persuader de,Dative,Datif,überreden,überreden zu + Dative
+846,31,C1,umstellen _____,auf,umstellen auf,to switch to,passer à,Accusative,Accusatif,umstellen,umstellen auf + Accusative
+847,31,C2,versetzen _____,in,versetzen in,to put into,mettre dans,Accusative,Accusatif,versetzen,versetzen in + Accusative
+848,31,C2,wehren _____,gegen,wehren gegen,to defend against,se défendre contre,Accusative,Accusatif,wehren,wehren gegen + Accusative
+849,31,C2,zusammensetzen _____,aus,zusammensetzen aus,to assemble from,assembler à partir de,Dative,Datif,zusammensetzen,zusammensetzen aus + Dative
+850,31,C1,erkundigen _____,bei,erkundigen bei,to inquire at,pour se renseigner à,Dative,Datif,erkundigen,erkundigen bei + Dative
+851,31,C1,erschrecken _____,über,erschrecken über,to get frightened by,avoir peur de,Accusative,Accusatif,erschrecken,erschrecken über + Accusative
+852,31,C1,erschrecken _____,vor,erschrecken vor,to be scared of,avoir peur de,Dative,Datif,erschrecken,erschrecken vor + Dative
+853,31,C1,verabreden _____,mit,verabreden mit,to arrange to meet with,organiser une rencontre avec,Dative,Datif,verabreden,verabreden mit + Dative
 854,32,,Sie wehren sich _____ die Entscheidung.,gegen,Sie wehren sich gegen die Entscheidung.,They resist the decision.,Ils s'opposent à cette décision.,,,wehren,
 855,32,,Ich wehre mich _____ die Anschuldigungen.,gegen,Ich wehre mich gegen die Anschuldigungen.,I defend myself against the accusations.,Je me défends contre ces accusations.,,,wehren,
 856,32,,Das Möbelstück setzt sich _____ mehreren Teilen zusammen.,aus,Das Möbelstück setzt sich aus mehreren Teilen zusammen.,The piece of furniture is made up of several parts.,Ce meuble est composé de plusieurs parties.,,,zusammensetzen,
@@ -872,14 +872,14 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 871,32,,Wir verabredeten uns _____ Freunden im Restaurant.,mit,Wir verabredeten uns mit Freunden im Restaurant.,We made plans with friends at the restaurant.,Nous avons prévu de retrouver des amis au restaurant.,,,verabreden,
 872,32,,Der Anwalt verteidigt seinen Mandanten _____ die Vorwürfe.,gegen,Der Anwalt verteidigt seinen Mandanten gegen die Vorwürfe.,The lawyer defends his client against the accusations.,L'avocat défend son client contre les accusations.,,,verteidigen,
 873,32,,Sie verteidigt sich _____ die Kritik der Kollegen.,gegen,Sie verteidigt sich gegen die Kritik der Kollegen.,She defends herself against the criticism of her colleagues.,Elle se défend contre les critiques de ses collègues.,,,verteidigen,
-874,100,103+ (C2),beglückwünschen _____,zu,beglückwünschen zu,to congratulate on,,Dative,Datif,beglückwünschen,beglückwünschen zu + Dative
-875,100,103+ (C2),flüchten _____,vor,flüchten vor,to flee from,,Dative,Datif,flüchten,flüchten vor + Dative
-876,100,103+ (C2),demonstrieren _____,für,demonstrieren für,to demonstrate for,,Accusative,Accusatif,demonstrieren,demonstrieren für + Accusative
-877,100,103+ (C2),demonstrieren _____,gegen,demonstrieren gegen,to demonstrate against,,Accusative,Accusatif,demonstrieren,demonstrieren gegen + Accusative
-878,100,100-102 (C1),zuhören _____,bei,zuhören bei,to listen to,,Dative,Datif,zuhören,zuhören bei + Dative
-879,100,100-102 (C1),zusehen _____,bei,zusehen bei,to watch,,Dative,Datif,zusehen,zusehen bei + Dative
-880,100,100-102 (C1),protestieren _____,gegen,protestieren gegen,to protest against,,Accusative,Accusatif,protestieren,protestieren gegen + Accusative
-881,100,103+ (C2),beeilen _____,mit,beeilen mit,to hurry with,,Dative,Datif,beeilen,beeilen mit + Dative
+874,100,C1,beglückwünschen _____,zu,beglückwünschen zu,to congratulate on,,Dative,Datif,beglückwünschen,beglückwünschen zu + Dative
+875,100,D1,flüchten _____,vor,flüchten vor,to flee from,,Dative,Datif,flüchten,flüchten vor + Dative
+876,100,C1,demonstrieren _____,für,demonstrieren für,to demonstrate for,,Accusative,Accusatif,demonstrieren,demonstrieren für + Accusative
+877,100,C1,demonstrieren _____,gegen,demonstrieren gegen,to demonstrate against,,Accusative,Accusatif,demonstrieren,demonstrieren gegen + Accusative
+878,100,C1,zuhören _____,bei,zuhören bei,to listen to,,Dative,Datif,zuhören,zuhören bei + Dative
+879,100,C1,zusehen _____,bei,zusehen bei,to watch,,Dative,Datif,zusehen,zusehen bei + Dative
+880,100,B2,protestieren _____,gegen,protestieren gegen,to protest against,,Accusative,Accusatif,protestieren,protestieren gegen + Accusative
+881,100,C1,beeilen _____,mit,beeilen mit,to hurry with,,Dative,Datif,beeilen,beeilen mit + Dative
 882,101,,Ich beglückwünsche Sie _____ Ihrer erfolgreichen Präsentation.,zu,Ich beglückwünsche Sie zu Ihrer erfolgreichen Präsentation.,I congratulate you on your successful presentation.,,,,beglückwünschen,
 883,101,,Wir beglückwünschten ihn _____ seinem neuen Job.,zu,Wir beglückwünschten ihn zu seinem neuen Job.,We congratulated him on his new job.,,,,beglückwünschen,
 884,101,,Die Flüchtlinge flüchteten _____ dem Krieg.,vor,Die Flüchtlinge flüchteten vor dem Krieg.,The refugees fled from the war.,,,,flüchten,
@@ -896,67 +896,67 @@ Nr,exercise,level_verben,question,answer,german,english,french,case_english,case
 895,101,,Die Schüler protestierten _____ die neuen Regeln.,gegen,Die Schüler protestierten gegen die neuen Regeln.,The students protested against the new rules.,,,,protestieren,
 896,101,,"Beeil dich _____ dem Essen, wir müssen los!",mit,"Beeil dich mit dem Essen, wir müssen los!","Hurry up with your food, we have to leave!",,,,beeilen,
 897,101,,"Ich muss mich _____ der Arbeit beeilen, sonst verpasse ich meinen Termin.",mit,"Ich muss mich mit der Arbeit beeilen, sonst verpasse ich meinen Termin.","I have to hurry with my work, otherwise I will miss my appointment.",,,,beeilen,
-898,102,1 - 5 (A1),halten _____,für,halten für,"to take for, to consider as",,Accusative,Accusatif,halten,
-899,102,1 - 5 (A1),halten _____,von,halten von,to think of / regard,,Dative,Datif,halten,
-900,102,1 - 5 (A1),halten _____,an,halten an,to adhere to,,Accusative,Accusatif,halten,
+898,102,A1,halten _____,für,halten für,"to take for, to consider as",,Accusative,Accusatif,halten,
+899,102,A1,halten _____,von,halten von,to think of / regard,,Dative,Datif,halten,
+900,102,A1,halten _____,an,halten an,to adhere to,,Accusative,Accusatif,halten,
 901,102,,Ich halte ihn _____ sehr intelligent.,für,Ich halte ihn für sehr intelligent.,I consider him to be very intelligent.,,,,halten,
 902,102,,Viele Menschen halten dieses Buch _____ ein Meisterwerk.,für,Viele Menschen halten dieses Buch für ein Meisterwerk.,Many people consider this book a masterpiece.,,,,halten,
 903,102,,Was hältst du _____ ihrem neuen Freund?,von,Was hältst du von ihrem neuen Freund?,What do you think of her new boyfriend?,,,,halten,
 904,102,,Ich halte nicht viel _____ solchen Versprechen.,von,Ich halte nicht viel von solchen Versprechen.,I don't think much of such promises.,,,,halten,
 905,102,,Er hält sich immer _____ die Regeln.,an,Er hält sich immer an die Regeln.,He always sticks to the rules.,,,,halten,
 906,102,,Du musst dich _____ die Vereinbarung halten.,an,Du musst dich an die Vereinbarung halten.,You have to stick to the agreement.,,,,halten,
-907,102,103+ (C2),abbringen _____,von,abbringen von,to dissuade from,,Dative,Datif,abbringen,
-908,102,103+ (C2),adressieren _____,an,adressieren an,to address to,,Accusative,Accusatif,adressieren,
-909,102,103+ (C2),ängstigen _____,um,ängstigen um,to worry about,,Accusative,Accusatif,ängstigen,
-910,102,103+ (C2),ängstigen _____,vor,ängstigen vor,to be afraid of,,Dative,Datif,ängstigen,
-911,102,103+ (C2),ekeln _____,vor,ekeln vor,to be disgusted by,,Dative,Datif,ekeln,
-912,102,103+ (C2),fussen _____,auf,fussen auf,to be based on,,Dative,Datif,fussen,
-913,102,103+ (C2),spotten _____,über,spotten über,to mock about,,Accusative,Accusatif,spotten,
-914,102,103+ (C2),verheimlichen _____,vor,verheimlichen vor,to conceal from,,Dative,Datif,verheimlichen,
-915,102,1 - 5 (A1),bringen _____,um,bringen um,to deprive someone of,,,,bringen,
-916,102,21 - 40 (B2),,auf,anwenden,,,,,anwenden,
-917,102,11 - 20 (B1),,bei,gelten,,,,,gelten,
-918,102,11 - 20 (B1),,über,äußern,,,,,äußern,
-919,102,100-102 (C1),,über,einigen,,,,,einigen,
-920,102,100-102 (C1),,über,herrschen,,,,,herrschen,
-921,102,100-102 (C1),,bei,zuschauen,to watch,,Dative,Datif,zuschauen,
-922,102,103+ (C2),,gegen,verstossen,to violate,,Accusative,Accusatif,verstossen,
-923,102,103+ (C2),,auf,beharren,to insist on,,Dative,Datif,beharren,
-924,102,103+ (C2),,über,debattieren,to debate about,,Accusative,Accusatif,debattieren,
-925,102,103+ (C2),,mit,debattieren,to debate with,,Dative,Datif,debattieren,
-926,102,103+ (C2),,zu,ernennen,to appoint to,,Dative,Datif,ernennen,
-927,102,103+ (C2),,in,gliedern,to divide into,,Accusative,Accusatif,gliedern,
-928,102,103+ (C2),,für,rächen,to take revenge for,,Accusative,Accusatif,rächen,
-929,102,103+ (C2),,an,rächen,to take revenge on,,Dative,Datif,rächen,
-930,102,103+ (C2),,nach,sehnen,to long for,,Dative,Datif,sehnen,
-931,102,103+ (C2),,über,staunen,to marvel at,,Accusative,Accusatif,staunen,
-932,102,103+ (C2),,zu,verleiten,to tempt to,,Dative,Datif,verleiten,
-933,102,103+ (C2),,mit,vertragen,to get along with,,Dative,Datif,vertragen,
-934,102,103+ (C2),,an,appellieren,to appeal to,,,,appellieren,
-935,102,103+ (C2),,an,rächen,to take revenge on,,,,rächen,
-936,102,103+ (C2),,auf,lauschen,,,,,lauschen,
-937,102,103+ (C2),,auf,besinnen,,,,,besinnen,
-938,102,100-102 (C1),,auf,dringen,,,,,dringen,
-939,102,100-102 (C1),,bei,anfragen,,,,,anfragen,
-940,102,103+ (C2),,über,reflektieren,,,,,reflektieren,
-941,102,100-102 (C1),,über,gebieten,,,,,gebieten,
-942,102,100-102 (C1),,über,siegen,,,,,siegen,
-943,102,103+ (C2),,über,triumphieren,,,,,triumphieren,
-944,102,100-102 (C1),,um,ringen,,,,,ringen,
-945,102,100-102 (C1),,um,betrügen,to cheat someone out of,,,,betrügen,
-946,102,103+ (C2),,unter,seufzen,,,,,seufzen,
-947,102,11 - 20 (B1),,nach,rufen,to call for,,Dative,Datif,rufen,
-948,102,6 - 10 (A2),,auf,zählen,,,,,zählen,
-949,102,6 - 10 (A2),,an,hängen,"to be fond of, to be emotionally attached to",,,,hängen,
-950,102,#N/A,,an,aufzählen,to list,,,,aufzählen,
-951,102,#N/A,,auf,horchen,,,,,horchen,
-952,102,#N/A,,mit,abmühen,,,,,abmühen,
-953,102,#N/A,,über,entsetzen,,,,,entsetzen,
-954,102,#N/A,,über,meditieren,,,,,meditieren,
-955,102,#N/A,,über,konferieren,,,,,konferieren,
-956,102,#N/A,,um,anflehen,,,,,anflehen,
-957,102,#N/A,,um,losen,,,,,losen,
-958,102,#N/A,,um,würfeln,,,,,würfeln,
-959,102,#N/A,,um,zanken,,,,,zanken,
-960,102,,Das Kind ruft _____ seiner Mutter.,nach,Das Kind ruft nach seiner Mutter.,The child is calling for his mother.,,,,rufen,
-961,102,,"Er rief _____ Hilfe, aber niemand hörte ihn.",nach,"Er rief nach Hilfe, aber niemand hörte ihn.","He called for help, but no one heard him.",,,,rufen,
+907,102,D1,abbringen _____,von,abbringen von,to dissuade from,,Dative,Datif,abbringen,
+908,102,D1,adressieren _____,an,adressieren an,to address to,,Accusative,Accusatif,adressieren,
+909,102,D1,ängstigen _____,um,ängstigen um,to worry about,,Accusative,Accusatif,ängstigen,
+910,102,D1,ängstigen _____,vor,ängstigen vor,to be afraid of,,Dative,Datif,ängstigen,
+911,102,D1,ekeln _____,vor,ekeln vor,to be disgusted by,,Dative,Datif,ekeln,
+912,102,D1,fussen _____,auf,fussen auf,to be based on,,Dative,Datif,fussen,
+913,102,D1,spotten _____,über,spotten über,to mock about,,Accusative,Accusatif,spotten,
+914,102,D1,verheimlichen _____,vor,verheimlichen vor,to conceal from,,Dative,Datif,verheimlichen,
+915,102,A1,bringen _____,um,bringen um,to deprive someone of,,,,bringen,
+916,102,B2,,auf,anwenden,,,,,anwenden,
+917,102,B1,,bei,gelten,,,,,gelten,
+918,102,B1,,über,äußern,,,,,äußern,
+919,102,C1,,über,einigen,,,,,einigen,
+920,102,C1,,über,herrschen,,,,,herrschen,
+921,102,C2,,bei,zuschauen,to watch,,Dative,Datif,zuschauen,
+922,102,D1,,gegen,verstoßen,to violate,,Accusative,Accusatif,verstoßen,
+923,102,D1,,auf,beharren,to insist on,,Dative,Datif,beharren,
+924,102,D1,,über,debattieren,to debate about,,Accusative,Accusatif,debattieren,
+925,102,D1,,mit,debattieren,to debate with,,Dative,Datif,debattieren,
+926,102,D1,,zu,ernennen,to appoint to,,Dative,Datif,ernennen,
+927,102,D1,,in,gliedern,to divide into,,Accusative,Accusatif,gliedern,
+928,102,D1,,für,rächen,to take revenge for,,Accusative,Accusatif,rächen,
+929,102,D1,,an,rächen,to take revenge on,,Dative,Datif,rächen,
+930,102,D1,,nach,sehnen,to long for,,Dative,Datif,sehnen,
+931,102,D1,,über,staunen,to marvel at,,Accusative,Accusatif,staunen,
+932,102,D1,,zu,verleiten,to tempt to,,Dative,Datif,verleiten,
+933,102,D1,,mit,vertragen,to get along with,,Dative,Datif,vertragen,
+934,102,D1,,an,appellieren,to appeal to,,,,appellieren,
+935,102,D1,,an,rächen,to take revenge on,,,,rächen,
+936,102,D1,,auf,lauschen,,,,,lauschen,
+937,102,D1,,auf,besinnen,,,,,besinnen,
+938,102,C1,,auf,dringen,,,,,dringen,
+939,102,C2,,bei,anfragen,,,,,anfragen,
+940,102,D1,,über,reflektieren,,,,,reflektieren,
+941,102,C2,,über,gebieten,,,,,gebieten,
+942,102,C2,,über,siegen,,,,,siegen,
+943,102,D1,,über,triumphieren,,,,,triumphieren,
+944,102,C2,,um,ringen,,,,,ringen,
+945,102,C1,,um,betrügen,to cheat someone out of,,,,betrügen,
+946,102,D1,,unter,seufzen,,,,,seufzen,
+947,102,B1,,nach,rufen,to call for,,Dative,Datif,rufen,
+948,102,A2,,auf,zählen,,,,,zählen,
+949,102,A2,,an,hängen,"to be fond of, to be emotionally attached to",,,,hängen,
+950,102,D1,,an,aufzählen,to list,,,,aufzählen,
+951,102,D1,,auf,horchen,,,,,horchen,
+952,102,D1,,mit,abmühen,,,,,abmühen,
+953,102,D1,,über,entsetzen,,,,,entsetzen,
+954,102,D1,,über,meditieren,,,,,meditieren,
+955,102,D1,,über,konferieren,,,,,konferieren,
+956,102,D1,,um,anflehen,,,,,anflehen,
+957,102,D1,,um,losen,,,,,losen,
+958,102,D1,,um,würfeln,,,,,würfeln,
+959,102,D1,,um,zanken,,,,,zanken,
+960,102,B1,Das Kind ruft _____ seiner Mutter.,nach,Das Kind ruft nach seiner Mutter.,The child is calling for his mother.,,,,rufen,
+961,102,B1,"Er rief _____ Hilfe, aber niemand hörte ihn.",nach,"Er rief nach Hilfe, aber niemand hörte ihn.","He called for help, but no one heard him.",,,,rufen,

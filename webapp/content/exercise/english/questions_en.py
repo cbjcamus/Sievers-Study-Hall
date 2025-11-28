@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    praepositionen_artikel, praepositionen_adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -217,8 +217,12 @@ QUESTION_EN = {
            "<br><br><i>{english}</i>",
     },
 
+    praepositionen_adverbien: {
+        1: "Something"
+    },
+
     artikel: {
-        1: "{question} \u25CF {gender_english}, {case_english}",
+        1: "{german} \u25CF {gender_english}, {case_english}",
         2: "{question}"
            "<br><br><i>{english}</i>",
         3: "{question}"
@@ -237,7 +241,7 @@ QUESTION_EN = {
            "<br><br><i>{english}</i>",
         10: "{question}"
            "<br><br><i>{english}</i>",
-        11: "{question} \u25CF {gender_english}, {case_english}",
+        11: "{german} \u25CF {gender_english}, {case_english}",
         12: "{question}"
            "<br><br><i>{english}</i>",
         13: "{question}"
@@ -254,20 +258,20 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         19: "{question}"
             "<br><br><i>{english}</i>",
-        20: "{question} \u25CF {gender_english}, {case_english}",
+        20: "{german} \u25CF {gender_english}, {case_english}",
         21: "{question}"
             "<br><br><i>{english}</i>",
-        22: "{question} \u25CF {gender_english}, {case_english}",
+        22: "{german} \u25CF {gender_english}, {case_english}",
         23: "{question}"
             "<br><br><i>{english}</i>",
-        24: "{question} \u25CF {gender_english}, {case_english}",
+        24: "{german} \u25CF {gender_english}, {case_english}",
         25: "{question}"
             "<br><br><i>{english}</i>",
 
-        26: "{question} \u25CF {gender_english}, {case_english}",
+        26: "{german} \u25CF {gender_english}, {case_english}",
         27: "{question}"
             "<br><br><i>{english}</i>",
-        28: "{question} \u25CF {gender_english}, {case_english}",
+        28: "{german} \u25CF {gender_english}, {case_english}",
         29: "{question}"
             "<br><br><i>{english}</i>",
         30: "{question}"
@@ -278,21 +282,21 @@ QUESTION_EN = {
         33: "{question}"
             "<br><br><i>{english}</i>",
 
-        34: "{question} \u25CF {gender_english}, {case_english}",
+        34: "{german} \u25CF {gender_english}, {case_english}",
         35: "{question}"
             "<br><br><i>{english}</i>",
-        36: "{question} \u25CF {gender_english}, {case_english}",
+        36: "{german} \u25CF {gender_english}, {case_english}",
         37: "{question}"
             "<br><br><i>{english}</i>",
-        38: "{question} \u25CF {gender_english}, {case_english}",
+        38: "{german} \u25CF {gender_english}, {case_english}",
         39: "{question} \u25CF {person}" 
             "<br><br><i>{english}</i>",
 
-        40: "{question} \u25CF {gender_english}, {case_english}",
+        40: "{german} \u25CF {gender_english}, {case_english}",
         41: "{question}"
             "<br><br><i>{english}</i>",
 
-        42: "{question} \u25CF {gender_english}, {case_english}",
+        42: "{german} \u25CF {gender_english}, {case_english}",
         43: "{question}"
             "<br><br><i>{english}</i>",
     },
@@ -545,20 +549,40 @@ QUESTION_EN = {
         5: "{english} \u25CF {case_english}",
         6: "{question}"
            "<br><br><i>{english}</i>",
-        7: "{question}",
-
-        8: "{english} \u25CF {case_english}",
-        9: "{question}"
+        7: "{english} \u25CF {case_english}",
+        8: "{question}"
            "<br><br><i>{english}</i>",
-        10: "{english} \u25CF {case_english}",
+        9: "{english} \u25CF {case_english}",
+        10: "{question}"
+            "<br><br><i>{english}</i>",
         11: "{question}"
-           "<br><br><i>{english}</i>",
-        12: "{question}",
+            "<br><br><i>\"{german}\"</i>",
 
-        13: "{english} \u25CF {case_english}",
-        14: "{question}"
+        12: "{english} \u25CF {case_english}",
+        13: "{question}"
+            "<br><br><i>{english}</i>",
+        14: "{english} \u25CF {case_english}",
+        15: "{question}"
            "<br><br><i>{english}</i>",
-        15: "{question}",
+        16: "{english} \u25CF {case_english}",
+        17: "{question}"
+            "<br><br><i>{english}</i>",
+        18: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+
+        19: "{english} \u25CF {case_english}",
+        20: "{question}"
+            "<br><br><i>{english}</i>",
+        21: "{english} \u25CF {case_english}",
+        22: "{question}"
+            "<br><br><i>{english}</i>",
+        23: "{english} \u25CF {case_english}",
+        24: "{question}"
+            "<br><br><i>{english}</i>",
+        25: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        26: "{question}"
+            "<br><br><i>\"{german}\"</i>",
     },
 
     fragen: {
@@ -600,9 +624,9 @@ QUESTION_EN = {
         7: "{english}",
         8: "{question}"
            "<br><br><i>{english}</i>",
-        9: "{english}",
-        10: "{question}"
-            "<br><br><i>{english}</i>",
+        9: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        10: "{german}",
 
         11: "{english}",
         12: "{question}"
@@ -616,10 +640,10 @@ QUESTION_EN = {
         17: "{english}",
         18: "{question}"
             "<br><br><i>{english}</i>",
+        19: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        20: "{german}",
 
-        19: "{english}",
-        20: "{question}"
-            "<br><br><i>{english}</i>",
         21: "{english}",
         22: "{question}"
             "<br><br><i>{english}</i>",
@@ -632,25 +656,61 @@ QUESTION_EN = {
         27: "{english}",
         28: "{question}"
             "<br><br><i>{english}</i>",
+        29: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        30: "{german}",
 
-        29: "{english}",
-        30: "{question}"
-            "<br><br><i>{english}</i>",
         31: "{english}",
         32: "{question}"
             "<br><br><i>{english}</i>",
         33: "{english}",
-        34: "{question}",
+        34: "{question}"
+            "<br><br><i>{english}</i>",
         35: "{english}",
-        36: "{question}",
+        36: "{question}"
+            "<br><br><i>{english}</i>",
         37: "{english}",
-        38: "{question}",
-        39: "{english}",
-        40: "{question}",
+        38: "{question}"
+            "<br><br><i>{english}</i>",
+        39: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        40: "{german}",
+
         41: "{english}",
-        42: "{question}",
+        42: "{question}"
+            "<br><br><i>{english}</i>",
         43: "{english}",
-        44: "{question}",
+        44: "{question}"
+            "<br><br><i>{english}</i>",
+        45: "{english}",
+        46: "{question}"
+            "<br><br><i>{english}</i>",
+        47: "{english}",
+        48: "{question}"
+            "<br><br><i>{english}</i>",
+        49: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        50: "{german}",
+
+        51: "{english}",
+        52: "{question}"
+            "<br><br><i>{english}</i>",
+        53: "{english}",
+        54: "{question}"
+            "<br><br><i>{english}</i>",
+        55: "{english}",
+        56: "{question}"
+            "<br><br><i>{english}</i>",
+        57: "{english}",
+        58: "{question}"
+            "<br><br><i>{english}</i>",
+        59: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        60: "{german}",
+    },
+
+    wortstellung: {
+        1: "",
     },
 
     adjektive: {
@@ -778,16 +838,26 @@ QUESTION_EN = {
         29: "{question}",
         30: "{question}",
 
-        31: "{question}",
-        32: "{question}",
-        33: "{question}",
-        34: "{question}",
-        35: "{question}",
-        36: "{question}",
-        37: "{question}",
-        38: "{question}",
-        39: "{question}",
-        40: "{question}",
+        31: "{english}",
+        32: "{english}",
+        33: "{english}",
+        34: "{english}",
+        35: "{english}",
+        36: "{english}",
+        37: "{english}",
+        38: "{english}",
+        39: "{english}",
+        40: "{english}",
+        41: "{question}",
+        42: "{question}",
+        43: "{question}",
+        44: "{question}",
+        45: "{question}",
+        46: "{question}",
+        47: "{question}",
+        48: "{question}",
+        49: "{question}",
+        50: "{question}",
     },
 
     trennbare_verben: {
@@ -854,6 +924,39 @@ QUESTION_EN = {
            "<br><br><i>{english}</i>",
         8: "{question}"
            "<br><br><i>{english}</i>",
+        9: "{question}"
+           "<br><br><i>{english}</i>",
+        10: "{question}"
+           "<br><br><i>{english}</i>",
+        11: "{question}"
+           "<br><br><i>{english}</i>",
+        12: "{question}"
+           "<br><br><i>{english}</i>",
+
+        13: "{question}"
+           "<br><br><i>{english}</i>",
+        14: "{question}"
+            "<br><br><i>{english}</i>",
+        15: "{question}"
+            "<br><br><i>{english}</i>",
+        16: "{question}"
+            "<br><br><i>{english}</i>",
+        17: "{question}"
+            "<br><br><i>{english}</i>",
+        18: "{question}"
+            "<br><br><i>{english}</i>",
+        19: "{question}"
+            "<br><br><i>{english}</i>",
+        20: "{question}"
+            "<br><br><i>{english}</i>",
+        21: "{question}"
+            "<br><br><i>{english}</i>",
+        22: "{question}"
+            "<br><br><i>{english}</i>",
+        23: "{question}"
+            "<br><br><i>{english}</i>",
+        24: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     praesens: {
@@ -945,6 +1048,16 @@ QUESTION_EN = {
         38: "{question}",
         39: "{question}",
         40: "{question}",
+        41: "{question}",
+        42: "{question}",
+        43: "{question}",
+        44: "{question}",
+        45: "{question}",
+        46: "{question}",
+        47: "{question}",
+        48: "{question}",
+        49: "{question}",
+        50: "{question}",
     },
 
     praeteritum: {
@@ -993,6 +1106,16 @@ QUESTION_EN = {
         39: "{question} \u25CF er/sie/es _____",
         40: "{question} \u25CF er/sie/es _____",
         41: "{question} \u25CF er/sie/es _____",
+        42: "{question} \u25CF er/sie/es _____",
+        43: "{question} \u25CF er/sie/es _____",
+        44: "{question} \u25CF er/sie/es _____",
+        45: "{question} \u25CF er/sie/es _____",
+        46: "{question} \u25CF er/sie/es _____",
+        47: "{question} \u25CF er/sie/es _____",
+        48: "{question} \u25CF er/sie/es _____",
+        49: "{question} \u25CF er/sie/es _____",
+        50: "{question} \u25CF er/sie/es _____",
+        51: "{question} \u25CF er/sie/es _____",
     },
 
     praeteritum_partizip_II: {
@@ -1041,6 +1164,16 @@ QUESTION_EN = {
         39: "{question}",
         40: "{question}",
         41: "{question}",
+        42: "{question}",
+        43: "{question}",
+        44: "{question}",
+        45: "{question}",
+        46: "{question}",
+        47: "{question}",
+        48: "{question}",
+        49: "{question}",
+        50: "{question}",
+        51: "{question}",
     },
 
     imperativ: {

@@ -140,7 +140,7 @@
                 {% if feedback_message %}
                     <p class="feedback-message">{{ feedback_message | safe }}</p>
                 {% endif %}
-                <p class="feedback-message">Your answer: {{ user_answer }} {{ incorrect_question }}</p>
+                <p class="feedback-message">Your answer: {{ user_answer }} {{ incorrect_question | safe }}</p>
 
                 <div class="flag-form-container">
                     <form action="{{ url_for('routes.flag_question', unit=unit, exercise=exercise, feedback_message=feedback_message, user_answer=user_answer, result='Incorrect') }}" method="post" class="flag-form">

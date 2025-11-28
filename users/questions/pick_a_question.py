@@ -3,8 +3,10 @@ import random
 from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.data_loading import (load_data_exercise, load_data_level, is_exercise_multiple_choice,
-get_answer_column, get_question_column)
+from data.data_processing.units import adverbien, konnektoren
+
+from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level,
+                                               is_exercise_multiple_choice, get_answer_column, get_question_column)
 
 from users.progress.models import UserExerciseState
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
@@ -153,10 +155,7 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
     if result != "incorrect":
         return ""
 
-    elif is_exercise_multiple_choice(unit, exercise) is False:
-        return ""
-
-    else:
+    elif is_exercise_multiple_choice(unit, exercise) is True:
         data = load_data_level(unit, exercise)
 
         language = get_language(request, session)
@@ -172,3 +171,19 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
             return f"({question})"
         else:
             return None
+
+    elif unit in [konnektoren, adverbien]:
+        data = load_data_unit(unit)
+
+        language = get_language(request, session)
+
+        match = data.loc[data['answer'] == incorrect_answer, language]
+
+        if not match.empty:
+            question = match.iloc[0]
+            return f"(<i>{question}</i>)"
+        else:
+            return ""
+
+    else:
+        return ""

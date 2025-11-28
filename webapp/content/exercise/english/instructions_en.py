@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    praepositionen_artikel, praepositionen_adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -145,6 +145,10 @@ INSTRUCTION_EN = {
         7: "Complete the following sentence with the article or pronoun that fits:",
         8: "Complete the following sentence with the article or pronoun that fits:",
         9: "Complete the following sentence with the article or pronoun that fits:",
+    },
+
+    praepositionen_adverbien: {
+        1: "Something"
     },
 
     artikel: {
@@ -335,17 +339,28 @@ INSTRUCTION_EN = {
 
         5: "Translate the following connector:",
         6: "Complete the following sentence with the connector that fits:",
-        7: "Find a synonym for the following connector:",
+        7: "Translate the following connector:",
+        8: "Complete the following sentence with the connector that fits:",
+        9: "Translate the following connector:",
+        10: "Complete the following sentence with the connector that fits:",
+        11: "Find a synonym for the following connector:",
 
-        8: "Translate the following connector:",
-        9: "Complete the following sentence with the connector that fits:",
-        10: "Translate the following connector:",
-        11: "Complete the following sentence with the connector that fits:",
-        12: "Find a synonym for the following connector:",
+        12: "Translate the following connector:",
+        13: "Complete the following sentence with the connector that fits:",
+        14: "Translate the following connector:",
+        15: "Complete the following sentence with the connector that fits:",
+        16: "Translate the following connector:",
+        17: "Complete the following sentence with the connector that fits:",
+        18: "Find a synonym for the following connector:",
 
-        13: "Translate the following connector:",
-        14: "Complete the following sentence with the connector that fits:",
-        15: "Find a synonym for the following connector:",
+        19: "Translate the following connector:",
+        20: "Complete the following sentence with the connector that fits:",
+        21: "Translate the following connector:",
+        22: "Complete the following sentence with the connector that fits:",
+        23: "Translate the following connector:",
+        24: "Complete the following sentence with the connector that fits:",
+        25: "Find a synonym for the following connector:",
+        26: "Find a synonym for the following connector:",
     },
 
     fragen: {
@@ -377,8 +392,8 @@ INSTRUCTION_EN = {
         6: "Complete the following sentence with the adverb that fits:",
         7: "Translate the following adverb:",
         8: "Complete the following sentence with the adverb that fits:",
-        9: "Translate the following adverb:",
-        10: "Complete the following sentence with the adverb that fits:",
+        9: "Find a synonym for the following adverb:",
+        10: "Write the Antonym of the following adverb:",
 
         11: "Translate the following adverb:",
         12: "Complete the following sentence with the adverb that fits:",
@@ -388,9 +403,9 @@ INSTRUCTION_EN = {
         16: "Complete the following sentence with the adverb that fits:",
         17: "Translate the following adverb:",
         18: "Complete the following sentence with the adverb that fits:",
+        19: "Find a synonym for the following adverb:",
+        20: "Write the Antonym of the following adverb:",
 
-        19: "Translate the following adverb:",
-        20: "Complete the following sentence with the adverb that fits:",
         21: "Translate the following adverb:",
         22: "Complete the following sentence with the adverb that fits:",
         23: "Translate the following adverb:",
@@ -399,31 +414,53 @@ INSTRUCTION_EN = {
         26: "Complete the following sentence with the adverb that fits:",
         27: "Translate the following adverb:",
         28: "Complete the following sentence with the adverb that fits:",
+        29: "Find a synonym for the following adverb:",
+        30: "Write the Antonym of the following adverb:",
 
-        29: "Translate the following adverb:",
-        30: "Complete the following sentence with the adverb that fits:",
         31: "Translate the following adverb:",
         32: "Complete the following sentence with the adverb that fits:",
-        33: "Find the correct translation of the following adverb:",
-        34: "Find the correct translation of the following adverb:",
-        35: "Find the correct translation of the following adverb:",
-        36: "Find the correct translation of the following adverb:",
-        37: "Find the correct translation of the following adverb:",
-        38: "Find the correct translation of the following adverb:",
-        39: "Find the correct translation of the following adverb:",
-        40: "Find the correct translation of the following adverb:",
-        41: "Find the correct translation of the following adverb:",
-        42: "Find the correct translation of the following adverb:",
-        43: "Find the correct translation of the following adverb:",
-        44: "Find the correct translation of the following adverb:",
+        33: "Translate the following adverb:",
+        34: "Complete the following sentence with the adverb that fits:",
+        35: "Translate the following adverb:",
+        36: "Complete the following sentence with the adverb that fits:",
+        37: "Translate the following adverb:",
+        38: "Complete the following sentence with the adverb that fits:",
+        39: "Find a synonym for the following adverb:",
+        40: "Write the Antonym of the following adverb:",
+
+        41: "Translate the following adverb:",
+        42: "Complete the following sentence with the adverb that fits:",
+        43: "Translate the following adverb:",
+        44: "Complete the following sentence with the adverb that fits:",
+        45: "Translate the following adverb:",
+        46: "Complete the following sentence with the adverb that fits:",
+        47: "Translate the following adverb:",
+        48: "Complete the following sentence with the adverb that fits:",
+        49: "Find a synonym for the following adverb:",
+        50: "Write the Antonym of the following adverb:",
+
+        51: "Translate the following adverb:",
+        52: "Complete the following sentence with the adverb that fits:",
+        53: "Translate the following adverb:",
+        54: "Complete the following sentence with the adverb that fits:",
+        55: "Translate the following adverb:",
+        56: "Complete the following sentence with the adverb that fits:",
+        57: "Translate the following adverb:",
+        58: "Complete the following sentence with the adverb that fits:",
+        59: "Find a synonym for the following adverb:",
+        60: "Write the Antonym of the following adverb:",
+    },
+
+    wortstellung: {
+        1: "",
     },
 
     adjektive: {
         1: "Translate the following adjective:",
         2: "Translate the following adjective:",
         3: "Translate the following adjective:",
-        4: "Write the Opposite of the following adjective:",
-        5: "Write the Opposite of the following adjective:",
+        4: "Write the Antonym of the following adjective:",
+        5: "Write the Antonym of the following adjective:",
         6: "Write the Comparative of the following adjective:",
         7: "Write the Comparative of the following adjective:",
         8: "Write the Comparative of the following adjective:",
@@ -435,8 +472,8 @@ INSTRUCTION_EN = {
         13: "Translate the following adjective:",
         14: "Translate the following adjective:",
         15: "Translate the following adjective:",
-        16: "Write the Opposite of the following adjective:",
-        17: "Write the Opposite of the following adjective:",
+        16: "Write the Antonym of the following adjective:",
+        17: "Write the Antonym of the following adjective:",
         18: "Write the Comparative of the following adjective:",
         19: "Write the Comparative of the following adjective:",
         20: "Write the Comparative of the following adjective:",
@@ -529,6 +566,7 @@ INSTRUCTION_EN = {
         28: "Translate the following verb:",
         29: "Translate the following verb:",
         30: "Translate the following verb:",
+
         31: "Translate the following verb:",
         32: "Translate the following verb:",
         33: "Translate the following verb:",
@@ -539,6 +577,16 @@ INSTRUCTION_EN = {
         38: "Translate the following verb:",
         39: "Translate the following verb:",
         40: "Translate the following verb:",
+        41: "Translate the following verb:",
+        42: "Translate the following verb:",
+        43: "Translate the following verb:",
+        44: "Translate the following verb:",
+        45: "Translate the following verb:",
+        46: "Translate the following verb:",
+        47: "Translate the following verb:",
+        48: "Translate the following verb:",
+        49: "Translate the following verb:",
+        50: "Translate the following verb:",
     },
 
     trennbare_verben: {
@@ -587,6 +635,23 @@ INSTRUCTION_EN = {
         6: "Find the missing verb in the Noun-Verb Combination",
         7: "Find the missing noun in the following sentence",
         8: "Find the missing verb in the following sentence",
+        9: "Find the missing noun in the Noun-Verb Combination",
+        10: "Find the missing verb in the Noun-Verb Combination",
+        11: "Find the missing noun in the following sentence",
+        12: "Find the missing verb in the following sentence",
+
+        13: "Find the missing noun in the Noun-Verb Combination",
+        14: "Find the missing verb in the Noun-Verb Combination",
+        15: "Find the missing noun in the following sentence",
+        16: "Find the missing verb in the following sentence",
+        17: "Find the missing noun in the Noun-Verb Combination",
+        18: "Find the missing verb in the Noun-Verb Combination",
+        19: "Find the missing noun in the following sentence",
+        20: "Find the missing verb in the following sentence",
+        21: "Find the missing noun in the Noun-Verb Combination",
+        22: "Find the missing verb in the Noun-Verb Combination",
+        23: "Find the missing noun in the following sentence",
+        24: "Find the missing verb in the following sentence",
     },
 
     praesens: {
@@ -667,6 +732,7 @@ INSTRUCTION_EN = {
         28: "Write the Past Participle (Partizip II) of the following verb:",
         29: "Write the Past Participle (Partizip II) of the following verb:",
         30: "Write the Past Participle (Partizip II) of the following verb:",
+
         31: "Write the Past Participle (Partizip II) of the following verb:",
         32: "Write the Past Participle (Partizip II) of the following verb:",
         33: "Write the Past Participle (Partizip II) of the following verb:",
@@ -677,6 +743,16 @@ INSTRUCTION_EN = {
         38: "Write the Past Participle (Partizip II) of the following verb:",
         39: "Write the Past Participle (Partizip II) of the following verb:",
         40: "Write the Past Participle (Partizip II) of the following verb:",
+        41: "Write the Past Participle (Partizip II) of the following verb:",
+        42: "Write the Past Participle (Partizip II) of the following verb:",
+        43: "Write the Past Participle (Partizip II) of the following verb:",
+        44: "Write the Past Participle (Partizip II) of the following verb:",
+        45: "Write the Past Participle (Partizip II) of the following verb:",
+        46: "Write the Past Participle (Partizip II) of the following verb:",
+        47: "Write the Past Participle (Partizip II) of the following verb:",
+        48: "Write the Past Participle (Partizip II) of the following verb:",
+        49: "Write the Past Participle (Partizip II) of the following verb:",
+        50: "Write the Past Participle (Partizip II) of the following verb:",
     },
 
     praeteritum: {
@@ -714,6 +790,7 @@ INSTRUCTION_EN = {
         29: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         30: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         31: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
         32: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         33: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         34: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
@@ -724,6 +801,16 @@ INSTRUCTION_EN = {
         39: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         40: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         41: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        42: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        43: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        44: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        45: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        46: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        47: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        48: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        49: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        50: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        51: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
     },
 
     praeteritum_partizip_II: {
@@ -792,6 +879,7 @@ INSTRUCTION_EN = {
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         31: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
         32: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         33: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -811,6 +899,26 @@ INSTRUCTION_EN = {
         40: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         41: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        42: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        43: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        44: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        45: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        46: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        47: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        48: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        49: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        50: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        51: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
     },
 

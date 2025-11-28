@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    praepositionen_artikel, praepositionen_adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -216,8 +216,12 @@ QUESTION_FR = {
            "<br><br><i>{french}</i>",
     },
 
+    praepositionen_adverbien: {
+        1: "Something"
+    },
+
     artikel: {
-        1: "{question} \u25CF {gender_french}, {case_french}",
+        1: "{german} \u25CF {gender_french}, {case_french}",
         2: "{question}"
            "<br><br><i>{french}</i>",
         3: "{question}"
@@ -236,7 +240,7 @@ QUESTION_FR = {
            "<br><br><i>{french}</i>",
         10: "{question}"
            "<br><br><i>{french}</i>",
-        11: "{question} \u25CF {gender_french}, {case_french}",
+        11: "{german} \u25CF {gender_french}, {case_french}",
         12: "{question}"
            "<br><br><i>{french}</i>",
         13: "{question}"
@@ -253,20 +257,20 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         19: "{question}"
             "<br><br><i>{french}</i>",
-        20: "{question} \u25CF {gender_french}, {case_french}",
+        20: "{german} \u25CF {gender_french}, {case_french}",
         21: "{question}"
             "<br><br><i>{french}</i>",
-        22: "{question} \u25CF {gender_french}, {case_french}",
+        22: "{german} \u25CF {gender_french}, {case_french}",
         23: "{question}"
             "<br><br><i>{french}</i>",
-        24: "{question} \u25CF {gender_french}, {case_french}",
+        24: "{german} \u25CF {gender_french}, {case_french}",
         25: "{question}"
             "<br><br><i>{french}</i>",
 
-        26: "{question} \u25CF {gender_french}, {case_french}",
+        26: "{german} \u25CF {gender_french}, {case_french}",
         27: "{question}"
             "<br><br><i>{french}</i>",
-        28: "{question} \u25CF {gender_french}, {case_french}",
+        28: "{german} \u25CF {gender_french}, {case_french}",
         29: "{question}"
             "<br><br><i>{french}</i>",
         30: "{question}"
@@ -277,21 +281,21 @@ QUESTION_FR = {
         33: "{question}"
             "<br><br><i>{french}</i>",
 
-        34: "{question} \u25CF {gender_french}, {case_french}",
+        34: "{german} \u25CF {gender_french}, {case_french}",
         35: "{question}"
             "<br><br><i>{french}</i>",
-        36: "{question} \u25CF {gender_french}, {case_french}",
+        36: "{german} \u25CF {gender_french}, {case_french}",
         37: "{question}"
             "<br><br><i>{french}</i>",
-        38: "{question} \u25CF {gender_french}, {case_french}",
+        38: "{german} \u25CF {gender_french}, {case_french}",
         39: "{question} \u25CF {person}" 
             "<br><br><i>{french}</i>",
 
-        40: "{question} \u25CF {gender_french}, {case_french}",
+        40: "{german} \u25CF {gender_french}, {case_french}",
         41: "{question}"
             "<br><br><i>{french}</i>",
 
-        42: "{question} \u25CF {gender_french}, {case_french}",
+        42: "{german} \u25CF {gender_french}, {case_french}",
         43: "{question}"
             "<br><br><i>{french}</i>",
     },
@@ -544,20 +548,40 @@ QUESTION_FR = {
         5: "{french} \u25CF {case_french}",
         6: "{question}"
            "<br><br><i>{french}</i>",
-        7: "{question}",
-
-        8: "{french} \u25CF {case_french}",
-        9: "{question}"
+        7: "{french} \u25CF {case_french}",
+        8: "{question}"
            "<br><br><i>{french}</i>",
-        10: "{french} \u25CF {case_french}",
+        9: "{french} \u25CF {case_french}",
+        10: "{question}"
+            "<br><br><i>{french}</i>",
         11: "{question}"
-           "<br><br><i>{french}</i>",
-        12: "{question}",
+            "<br><br><i>\"{german}\"</i>",
 
-        13: "{french} \u25CF {case_french}",
-        14: "{question}"
+        12: "{french} \u25CF {case_french}",
+        13: "{question}"
            "<br><br><i>{french}</i>",
-        15: "{question}",
+        14: "{french} \u25CF {case_french}",
+        15: "{question}"
+            "<br><br><i>{french}</i>",
+        16: "{french} \u25CF {case_french}",
+        17: "{question}"
+            "<br><br><i>{french}</i>",
+        18: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+
+        19: "{french} \u25CF {case_french}",
+        20: "{question}"
+            "<br><br><i>{french}</i>",
+        21: "{french} \u25CF {case_french}",
+        22: "{question}"
+            "<br><br><i>{french}</i>",
+        23: "{french} \u25CF {case_french}",
+        24: "{question}"
+            "<br><br><i>{french}</i>",
+        25: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        26: "{question}"
+            "<br><br><i>\"{german}\"</i>",
     },
 
     fragen: {
@@ -599,9 +623,9 @@ QUESTION_FR = {
         7: "{french}",
         8: "{question}"
            "<br><br><i>{french}</i>",
-        9: "{french}",
-        10: "{question}"
-            "<br><br><i>{french}</i>",
+        9: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        10: "{german}",
 
         11: "{french}",
         12: "{question}"
@@ -615,10 +639,10 @@ QUESTION_FR = {
         17: "{french}",
         18: "{question}"
             "<br><br><i>{french}</i>",
+        19: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        20: "{german}",
 
-        19: "{french}",
-        20: "{question}"
-            "<br><br><i>{french}</i>",
         21: "{french}",
         22: "{question}"
             "<br><br><i>{french}</i>",
@@ -631,25 +655,61 @@ QUESTION_FR = {
         27: "{french}",
         28: "{question}"
             "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        30: "{german}",
 
-        29: "{french}",
-        30: "{question}"
-            "<br><br><i>{french}</i>",
         31: "{french}",
         32: "{question}"
             "<br><br><i>{french}</i>",
         33: "{french}",
-        34: "{question}",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
         35: "{french}",
-        36: "{question}",
+        36: "{question}"
+            "<br><br><i>{french}</i>",
         37: "{french}",
-        38: "{question}",
-        39: "{french}",
-        40: "{question}",
+        38: "{question}"
+            "<br><br><i>{french}</i>",
+        39: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        40: "{german}",
+
         41: "{french}",
-        42: "{question}",
+        42: "{question}"
+            "<br><br><i>{french}</i>",
         43: "{french}",
-        44: "{question}",
+        44: "{question}"
+            "<br><br><i>{french}</i>",
+        45: "{french}",
+        46: "{question}"
+            "<br><br><i>{french}</i>",
+        47: "{french}",
+        48: "{question}"
+            "<br><br><i>{french}</i>",
+        49: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        50: "{german}",
+
+        51: "{french}",
+        52: "{question}"
+            "<br><br><i>{french}</i>",
+        53: "{french}",
+        54: "{question}"
+            "<br><br><i>{french}</i>",
+        55: "{french}",
+        56: "{question}"
+            "<br><br><i>{french}</i>",
+        57: "{french}",
+        58: "{question}"
+            "<br><br><i>{french}</i>",
+        59: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        60: "{german}",
+    },
+
+    wortstellung: {
+        1: "",
     },
 
     adjektive: {
@@ -777,16 +837,26 @@ QUESTION_FR = {
         29: "{question}",
         30: "{question}",
 
-        31: "{question}",
-        32: "{question}",
-        33: "{question}",
-        34: "{question}",
-        35: "{question}",
-        36: "{question}",
-        37: "{question}",
-        38: "{question}",
-        39: "{question}",
-        40: "{question}",
+        31: "{french}",
+        32: "{french}",
+        33: "{french}",
+        34: "{french}",
+        35: "{french}",
+        36: "{french}",
+        37: "{french}",
+        38: "{french}",
+        39: "{french}",
+        40: "{french}",
+        41: "{question}",
+        42: "{question}",
+        43: "{question}",
+        44: "{question}",
+        45: "{question}",
+        46: "{question}",
+        47: "{question}",
+        48: "{question}",
+        49: "{question}",
+        50: "{question}",
     },
 
     trennbare_verben: {
@@ -853,6 +923,39 @@ QUESTION_FR = {
            "<br><br><i>{french}</i>",
         8: "{question}"
            "<br><br><i>{french}</i>",
+        9: "{question}"
+           "<br><br><i>{french}</i>",
+        10: "{question}"
+           "<br><br><i>{french}</i>",
+        11: "{question}"
+           "<br><br><i>{french}</i>",
+        12: "{question}"
+           "<br><br><i>{french}</i>",
+
+        13: "{question}"
+           "<br><br><i>{french}</i>",
+        14: "{question}"
+            "<br><br><i>{french}</i>",
+        15: "{question}"
+            "<br><br><i>{french}</i>",
+        16: "{question}"
+            "<br><br><i>{french}</i>",
+        17: "{question}"
+            "<br><br><i>{french}</i>",
+        18: "{question}"
+            "<br><br><i>{french}</i>",
+        19: "{question}"
+            "<br><br><i>{french}</i>",
+        20: "{question}"
+            "<br><br><i>{french}</i>",
+        21: "{question}"
+            "<br><br><i>{french}</i>",
+        22: "{question}"
+            "<br><br><i>{french}</i>",
+        23: "{question}"
+            "<br><br><i>{french}</i>",
+        24: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
     praesens: {
@@ -944,6 +1047,16 @@ QUESTION_FR = {
         38: "{question}",
         39: "{question}",
         40: "{question}",
+        41: "{question}",
+        42: "{question}",
+        43: "{question}",
+        44: "{question}",
+        45: "{question}",
+        46: "{question}",
+        47: "{question}",
+        48: "{question}",
+        49: "{question}",
+        50: "{question}",
     },
 
     praeteritum: {
@@ -992,6 +1105,16 @@ QUESTION_FR = {
         39: "{question} \u25CF er/sie/es _____",
         40: "{question} \u25CF er/sie/es _____",
         41: "{question} \u25CF er/sie/es _____",
+        42: "{question} \u25CF er/sie/es _____",
+        43: "{question} \u25CF er/sie/es _____",
+        44: "{question} \u25CF er/sie/es _____",
+        45: "{question} \u25CF er/sie/es _____",
+        46: "{question} \u25CF er/sie/es _____",
+        47: "{question} \u25CF er/sie/es _____",
+        48: "{question} \u25CF er/sie/es _____",
+        49: "{question} \u25CF er/sie/es _____",
+        50: "{question} \u25CF er/sie/es _____",
+        51: "{question} \u25CF er/sie/es _____",
     },
 
     praeteritum_partizip_II: {
@@ -1040,6 +1163,16 @@ QUESTION_FR = {
         39: "{question}",
         40: "{question}",
         41: "{question}",
+        42: "{question}",
+        43: "{question}",
+        44: "{question}",
+        45: "{question}",
+        46: "{question}",
+        47: "{question}",
+        48: "{question}",
+        49: "{question}",
+        50: "{question}",
+        51: "{question}",
     },
 
     imperativ: {

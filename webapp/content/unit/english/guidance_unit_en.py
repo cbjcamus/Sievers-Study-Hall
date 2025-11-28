@@ -23,6 +23,7 @@ GUIDANCE_UNIT_EN = {
         "<br><br><i>The evening</i>"
         f"<br><br>{ICON_CHECK} Der"
         f"<br><br>{ICON_CHECK} der"
+        f"<br><br>{ICON_CROSS} Die"
     ,
 
     praepositionen_artikel:

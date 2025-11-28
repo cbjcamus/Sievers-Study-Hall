@@ -45,12 +45,12 @@ Nr,exercise,question,answer,german,english,french,person,case_english,case_frenc
 44,2,Morgen trefft _____ euch mit Freunden im Café.,ihr,Morgen trefft ihr euch mit Freunden im Café.,Tomorrow you're meeting friends at the café. (Plural),"Demain, vous rencontrez des amis au café. (Non Formel)",Ihr,Nominative,Nominatif,,
 45,2,_____ reisen im Urlaub oft in exotische Länder.,Sie,Sie reisen im Urlaub oft in exotische Länder.,They often travel to exotic countries on vacation.,Ils voyagent souvent dans des pays exotiques en vacances.,Sie (Plural),Nominative,Nominatif,,
 46,2,Heute Abend feiern _____ eine große Party.,sie,Heute Abend feiern sie eine große Party.,They're having a big party tonight.,Ils organisent une grande fête ce soir.,Sie (Plural),Nominative,Nominatif,,
-47,2,_____ haben gestern einen interessanten Vortrag besucht.,Sie,Sie haben gestern einen interessanten Vortrag besucht.,You attended an interesting lecture yesterday.,Vous avez assisté à une conférence intéressante hier.,Sie (Plural),Nominative,Nominatif,,
+47,2,_____ haben gestern einen interessanten Vortrag besucht.,Sie,Sie haben gestern einen interessanten Vortrag besucht.,They attended an interesting lecture yesterday.,Ils ont assisté à une conférence intéressante hier.,Sie (Plural),Nominative,Nominatif,,
 48,2,_____ haben beim Fußballspiel viele Tore geschossen.,Sie,Sie haben beim Fußballspiel viele Tore geschossen.,They scored a lot of goals in the football match.,Ils ont marqué beaucoup de buts lors du match de football.,Sie (Plural),Nominative,Nominatif,,
 49,2,Nach der Arbeit treffen _____ sich manchmal im Park.,sie,Nach der Arbeit treffen sie sich manchmal im Park.,After work they sometimes meet in the park.,"Après le travail, ils se retrouvent parfois dans le parc.",Sie (Plural),Nominative,Nominatif,,
 50,2,_____ bekommen im Hotel das beste Zimmer.,Sie,Sie bekommen im Hotel das beste Zimmer.,You get the best room in the hotel. (Formal),Vous obtenez la meilleure chambre de l'hôtel. (Formel),Sie (Formell),Nominative,Nominatif,,
 51,2,Heute Abend besuchen _____ eine Aufführung im Theater.,Sie,Heute Abend besuchen Sie eine Aufführung im Theater.,Tonight you are attending a performance at the theater. (Formal),"Ce soir, vous assistez à une représentation au théâtre. (Formel)",Sie (Formell),Nominative,Nominatif,,
-52,2,"_____ können uns jederzeit anrufen, wenn _____ Hilfe brauchen.",Sie,"Sie können uns jederzeit anrufen, wenn Sie Hilfe brauchen.",You can call us anytime if you need help. (Formal),Vous pouvez nous appeler à tout moment si vous avez besoin d'aide. (Formel),Sie (Formell),Nominative,Nominatif,,
+52,2,_____ können uns jederzeit anrufen.,Sie,Sie können uns jederzeit anrufen.,You can call us anytime. (Formal),Vous pouvez nous appeler à tout moment. (Formel),Sie (Formell),Nominative,Nominatif,,
 53,2,_____ haben beim Meeting viele gute Ideen eingebracht.,Sie,Sie haben beim Meeting viele gute Ideen eingebracht.,You brought up many good ideas at the meeting. (Formal),Vous avez évoqué de nombreuses bonnes idées lors de la réunion. (Formel),Sie (Formell),Nominative,Nominatif,,
 54,2,Nach der Besprechung schicken _____ uns die Unterlagen.,Sie,Nach der Besprechung schicken Sie uns die Unterlagen.,"After the meeting, please send us the documents. (Formal)","Après la réunion, veuillez nous envoyer les documents. (Formel)",Sie (Formell),Nominative,Nominatif,,
 55,3,,Mich,,1st Person Singular,1ère Personne Singulier,,Accusative,Accusatif,,
@@ -1154,14 +1154,14 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 1081,100,"Ich verstehe nicht, _____ ihr wichtig ist.",was,"Ich verstehe nicht, was ihr wichtig ist.",I don't understand what is important to her.,Je ne comprends pas ce qui est important pour elle.,,,,,
 1082,100,"Etwas, _____ uns fehlt, ist Geduld.",was,"Etwas, was uns fehlt, ist Geduld.",Something we're lacking is patience.,"Ce qui nous manque, c'est la patience.",,,,,
 1083,100,"Vieles, _____ den Kindern Spaß macht, ist heute verboten.",was,"Vieles, was den Kindern Spaß macht, ist heute verboten.",Many things children enjoy are forbidden today.,De nombreuses choses que les enfants apprécient sont aujourd’hui interdites.,,,,,
-1084,100,sein,seines,,,,,Genitive,Génitif,Masculine,Masculin
-1085,100,sein,seines,,,,,Genitive,Génitif,Neuter,Neutre
-1086,100,sein,seiner,,,,,Genitive,Génitif,Feminine,Féminin
-1087,100,sein,seiner,,,,,Genitive,Génitif,Plural,Pluriel
-1088,100,irgendjemand,,,,,,,,,
-1089,100,irgendjemanden,,,,,,,,,
-1090,100,irgendjemandem,,,,,,,,,
-1091,100,niemandes,,,,,,,,,
-1092,100,jemandes,,,,,,,,,
-1093,100,irgendwas,,,,,,,,,
-1094,100,,,,,,,,,,
+1084,100,,seines,sein,,,,Genitive,Génitif,Masculine,Masculin
+1085,100,,seines,sein,,,,Genitive,Génitif,Neuter,Neutre
+1086,100,,seiner,sein,,,,Genitive,Génitif,Feminine,Féminin
+1087,100,,seiner,sein,,,,Genitive,Génitif,Plural,Pluriel
+1088,100,,,irgendjemand,,,,,,,
+1089,100,,,irgendjemanden,,,,,,,
+1090,100,,,irgendjemandem,,,,,,,
+1091,100,,,niemandes,,,,,,,
+1092,100,,,jemandes,,,,,,,
+1093,100,,,irgendwas,,,,,,,
+1094,100,,alles Weitere,,everything else,,,,,,

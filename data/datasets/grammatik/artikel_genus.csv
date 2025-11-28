@@ -1,6 +1,6 @@
 Nr,exercise,question,answer,german,english,french,level
-1,1,_____ Abend,Der,Der Abend,The evening,Le soir,A1
-2,1,_____ Abfahrt,Die,Die Abfahrt,The farewell,L'adieu,A1
+1,1,_____ Abend,Der,Der Abend,The evening,La soirée,A1
+2,1,_____ Abfahrt,Die,Die Abfahrt,The farewell,Les adieux,A1
 3,1,_____ Abflug,Der,Der Abflug,The departure,Le départ,A1
 4,1,_____ Absender,Der,Der Absender,The sender,L'expéditeur,A1
 5,1,_____ Achtung,Die,Die Achtung,The respect,Le respect,A1
@@ -16,16 +16,16 @@ Nr,exercise,question,answer,german,english,french,level
 15,1,_____ Ansage,Die,Die Ansage,The announcement,L'annonce,A1
 16,1,_____ Anschluss,Der,Der Anschluss,The connection,La connexion,A1
 17,1,_____ Antwort,Die,Die Antwort,The answer,La réponse,A1
-18,1,_____ Anzeige,Die,Die Anzeige,The ad,L'annonce,A1
+18,1,_____ Anzeige,Die,Die Anzeige,The ad,La publicité,A1
 19,1,_____ Apartment,Das,Das Apartment,The apartment,L'appartement,A1
-20,1,_____ Apfel,Der,Der Apfel,The Apple,La Pomme,A1
+20,1,_____ Apfel,Der,Der Apfel,The Apple,La pomme,A1
 21,2,_____ Appartement,Das,Das Appartement,The apartment,L'appartement,A1
 22,2,_____ Appetit,Der,Der Appetit,The appetite,L'appétit,A1
 23,2,_____ April,Der,Der April,April,Avril,A1
 24,2,_____ Arbeit,Die,Die Arbeit,The work,Le travail,A1
 25,2,_____ Arbeitsplatz,Der,Der Arbeitsplatz,The workplace,Le lieu de travail,A1
 26,2,_____ Arm,Der,Der Arm,The arm,Le bras,A1
-27,2,_____ Arzt,Der,Der Arzt,The doctor,Le docteur,A1
+27,2,_____ Arzt,Der,Der Arzt,The doctor,Le médecin,A1
 28,2,_____ Aufgabe,Die,Die Aufgabe,The task,La tâche,A1
 29,2,_____ Aufzug,Der,Der Aufzug,The elevator,L'ascenseur,A1
 30,2,_____ Auge,Das,Das Auge,The eye,L'œil,A1
@@ -79,7 +79,7 @@ Nr,exercise,question,answer,german,english,french,level
 78,4,_____ Cent,Der,Der Cent,The cent,Le cent,A1
 79,4,_____ Chef,Der,Der Chef,The boss,Le patron,A1
 80,4,_____ Computer,Der,Der Computer,The computer,L'ordinateur,A1
-81,5,_____ Dank,Der,Der Dank,The thanks,Les remerciements,A1
+81,5,_____ Dank,Der,Der Dank,The thanks,Merci,A1
 82,5,_____ Datum,Das,Das Datum,The date,La date,A1
 83,5,_____ Dezember,Der,Der Dezember,December,Décembre,A1
 84,5,_____ Dienstag,Der,Der Dienstag,Tuesday,Mardi,A1
@@ -93,7 +93,7 @@ Nr,exercise,question,answer,german,english,french,level
 92,5,_____ Dusche,Die,Die Dusche,The shower,La douche,A1
 93,5,_____ E-Mail,Die,Die E-Mail,The email,L'email,A1
 94,5,_____ Ecke,Die,Die Ecke,The corner,Le coin,A1
-95,5,_____ Ehefrau,Die,Die Ehefrau,The wife,La femme,A1
+95,5,_____ Ehefrau,Die,Die Ehefrau,The wife,L'épouse,A1
 96,5,_____ Ehemann,Der,Der Ehemann,The husband,Le mari,A1
 97,5,_____ Ei,Das,Das Ei,The egg,L'œuf,A1
 98,5,_____ Eingang,Der,Der Eingang,The entrance,L'entrée,A1
@@ -112,7 +112,7 @@ Nr,exercise,question,answer,german,english,french,level
 111,6,_____ Fahrrad,Das,Das Fahrrad,The bike,Le vélo,A1
 112,6,_____ Familie,Die,Die Familie,The family,La famille,A1
 113,6,_____ Familienname,Der,Der Familienname,The family name,Le nom de famille,A1
-114,6,_____ Familienstand,Der,Der Familienstand,Marital status,État matrimonial,A1
+114,6,_____ Familienstand,Der,Der Familienstand,Marital status,État civil,A1
 115,6,_____ Farbe,Die,Die Farbe,The color,La couleur,A1
 116,6,_____ Fax,Das,Das Fax,The fax,Le fax,A1
 117,6,_____ Februar,Der,Der Februar,February,Février,A1
@@ -128,7 +128,7 @@ Nr,exercise,question,answer,german,english,french,level
 127,7,_____ Fleisch,Das,Das Fleisch,The meat,La viande,A1
 128,7,_____ Flughafen,Der,Der Flughafen,The airport,L'aéroport,A1
 129,7,_____ Flugzeug,Das,Das Flugzeug,The plane,L'avion,A1
-130,7,_____ Formular,Das,Das Formular,The form,La forme,A1
+130,7,_____ Formular,Das,Das Formular,The form,Le formulaire,A1
 131,7,_____ Foto,Das,Das Foto,The photo,La photo,A1
 132,7,_____ Frage,Die,Die Frage,The question,La question,A1
 133,7,_____ Frau,Die,Die Frau,The woman,La femme,A1
@@ -140,7 +140,7 @@ Nr,exercise,question,answer,german,english,french,level
 139,7,_____ Frühstück,Das,Das Frühstück,Breakfast,Petit-déjeuner,A1
 140,7,_____ Fuß,Der,Der Fuß,The foot,Le pied,A1
 141,8,_____ Fußball,Der,Der Fußball,Football,Football,A1
-142,8,_____ Führung,Die,Die Führung,The leadership,La direction,A1
+142,8,_____ Führung,Die,Die Führung,The leadership,Le leadership,A1
 143,8,_____ Garten,Der,Der Garten,The garden,Le jardin,A1
 144,8,_____ Gast,Der,Der Gast,The guest,L'invité,A1
 145,8,_____ Geburtsjahr,Das,Das Geburtsjahr,The year of birth,L'année de naissance,A1
@@ -164,17 +164,17 @@ Nr,exercise,question,answer,german,english,french,level
 163,9,_____ Großmutter,Die,Die Großmutter,The grandmother,La grand-mère,A1
 164,9,_____ Großvater,Der,Der Großvater,The grandfather,Le grand-père,A1
 165,9,_____ Gruppe,Die,Die Gruppe,The group,Le groupe,A1
-166,9,_____ Gruß,Der,Der Gruß,The greeting,La salutation,A1
+166,9,_____ Gruß,Der,Der Gruß,The greeting,Le salut,A1
 167,9,_____ Größe,Die,Die Größe,The size,La taille,A1
 168,9,_____ Haar,Das,Das Haar,The hair,Les cheveux,A1
 169,9,_____ Halbpension,Die,Die Halbpension,Half board,Demi-pension,A1
-170,9,_____ Halle,Die,Die Halle,The hall,La salle,A1
+170,9,_____ Halle,Die,Die Halle,The hall,Le hall,A1
 171,9,_____ Haltestelle,Die,Die Haltestelle,The bus stop,L'arrêt de bus,A1
 172,9,_____ Hand,Die,Die Hand,The hand,La main,A1
 173,9,_____ Handy,Das,Das Handy,The phone,Le téléphone,A1
 174,9,_____ Haus,Das,Das Haus,The house,La maison,A1
 175,9,_____ Hausaufgabe,Die,Die Hausaufgabe,The homework,Les devoirs,A1
-176,9,_____ Hausfrau,Die,Die Hausfrau,The housewife,La ménagère,A1
+176,9,_____ Hausfrau,Die,Die Hausfrau,The housewife,La femme au foyer,A1
 177,9,_____ Hausmann,Der,Der Hausmann,The househusband,Le mari au foyer,A1
 178,9,_____ Heimat,Die,Die Heimat,The homeland,La patrie,A1
 179,9,_____ Herbst,Der,Der Herbst,The autumn,L'automne,A1
@@ -194,7 +194,7 @@ Nr,exercise,question,answer,german,english,french,level
 193,10,_____ Januar,Der,Der Januar,January,Janvier,A1
 194,10,_____ Job,Der,Der Job,The job,Le travail,A1
 195,10,_____ Juli,Der,Der Juli,July,Juillet,A1
-196,10,_____ Junge,Der,Der Junge,The young,Les jeunes,A1
+196,10,_____ Junge,Der,Der Junge,The young,Le jeune,A1
 197,10,_____ Juni,Der,Der Juni,June,Juin,A1
 198,10,_____ Kaffee,Der,Der Kaffee,The coffee,Le café,A1
 199,10,_____ Karte,Die,Die Karte,The map,La carte,A1
@@ -204,7 +204,7 @@ Nr,exercise,question,answer,german,english,french,level
 203,11,_____ Kilogramm,Das,Das Kilogramm,The kilogram,Le kilogramme,A1
 204,11,_____ Kilometer,Der,Der Kilometer,The kilometer,Le kilomètre,A1
 205,11,_____ Kind,Das,Das Kind,The child,L'enfant,A1
-206,11,_____ Kindergarten,Der,Der Kindergarten,The kindergarten,Le jardin d'enfants,A1
+206,11,_____ Kindergarten,Der,Der Kindergarten,The kindergarten,La maternelle,A1
 207,11,_____ Kino,Das,Das Kino,The cinema,Le cinéma,A1
 208,11,_____ Kiosk,Der,Der Kiosk,The kiosk,Le kiosque,A1
 209,11,_____ Klasse,Die,Die Klasse,The class,La classe,A1
@@ -225,7 +225,7 @@ Nr,exercise,question,answer,german,english,french,level
 224,12,_____ Land,Das,Das Land,The country,Le pays,A1
 225,12,_____ Leben,Das,Das Leben,The life,La vie,A1
 226,12,_____ Lebensmittel,Das,Das Lebensmittel,The food,La nourriture,A1
-227,12,_____ Lehrer,Der,Der Lehrer,The teacher,Le professeur,A1
+227,12,_____ Lehrer,Der,Der Lehrer,The teacher,L'enseignant,A1
 228,12,_____ Licht,Das,Das Licht,The light,La lumière,A1
 229,12,_____ Lied,Das,Das Lied,The song,La chanson,A1
 230,12,_____ LKW,Der,Der LKW,The truck,Le camion,A1
@@ -254,7 +254,7 @@ Nr,exercise,question,answer,german,english,french,level
 253,13,_____ Mädchen,Das,Das Mädchen,The girl,La fille,A1
 254,13,_____ März,Der,Der März,March,Mars,A1
 255,13,_____ Möbel,Das,Das Möbel,The furniture,Les meubles,A1
-256,13,_____ Nachmittag,Der,Der Nachmittag,The afternoon,L'après midi,A1
+256,13,_____ Nachmittag,Der,Der Nachmittag,The afternoon,L'après-midi,A1
 257,13,_____ Name,Der,Der Name,The name,Le nom,A1
 258,13,_____ Namen,Der,Der Namen,The name,Le nom,A1
 259,13,_____ Norden,Der,Der Norden,The North,Le Nord,A1
@@ -265,7 +265,7 @@ Nr,exercise,question,answer,german,english,french,level
 264,14,_____ Oma,Die,Die Oma,The grandma,La grand-mère,A1
 265,14,_____ Opa,Der,Der Opa,The grandpa,Le grand-père,A1
 266,14,_____ Ordnung,Die,Die Ordnung,The order,L'ordre,A1
-267,14,_____ Ort,Der,Der Ort,The place,Le lieu,A1
+267,14,_____ Ort,Der,Der Ort,The place,L'endroit,A1
 268,14,_____ Osten,Der,Der Osten,The East,L'Est,A1
 269,14,_____ Papier,Das,Das Papier,The paper,Le papier,A1
 270,14,_____ Partner,Der,Der Partner,The partner,Le partenaire,A1
@@ -273,7 +273,7 @@ Nr,exercise,question,answer,german,english,french,level
 272,14,_____ Party,Die,Die Party,The party,La fête,A1
 273,14,_____ Pass,Der,Der Pass,The passport,Le passeport,A1
 274,14,_____ Pause,Die,Die Pause,The break,La pause,A1
-275,14,_____ Pfund,Das,Das Pfund,The pound,La livre sterling,A1
+275,14,_____ Pfund,Das,Das Pfund,The pound,La livre,A1
 276,14,_____ Plan,Der,Der Plan,The plan,Le plan,A1
 277,14,_____ Platz,Der,Der Platz,The space,L'espace,A1
 278,14,_____ Polizei,Die,Die Polizei,The police,La police,A1
@@ -315,7 +315,7 @@ Nr,exercise,question,answer,german,english,french,level
 314,16,_____ Schüler,Der,Der Schüler,The student,L'étudiant,A1
 315,16,_____ See,Der,Der See,The lake,Le lac,A1
 316,16,_____ Sehenswürdigkeit,Die,Die Sehenswürdigkeit,The sight,La vue,A1
-317,16,_____ Sekunde,Die,Die Sekunde,The second,La deuxième,A1
+317,16,_____ Sekunde,Die,Die Sekunde,The second,Le deuxième,A1
 318,16,_____ September,Der,Der September,September,Septembre,A1
 319,16,_____ Sofa,Das,Das Sofa,The sofa,Le canapé,A1
 320,16,_____ Sohn,Der,Der Sohn,The son,Le fils,A1
@@ -350,7 +350,7 @@ Nr,exercise,question,answer,german,english,french,level
 349,18,_____ Tochter,Die,Die Tochter,The daughter,La fille,A1
 350,18,_____ Toilette,Die,Die Toilette,The toilet,Les toilettes,A1
 351,18,_____ Tomate,Die,Die Tomate,The tomato,La tomate,A1
-352,18,_____ Treppe,Die,Die Treppe,The stairs,Les escaliers,A1
+352,18,_____ Treppe,Die,Die Treppe,The stairs,L'escalier,A1
 353,18,_____ Uhr,Die,Die Uhr,The clock,L'horloge,A1
 354,18,_____ Unterricht,Der,Der Unterricht,The lesson,La leçon,A1
 355,18,_____ Unterschrift,Die,Die Unterschrift,The signature,La signature,A1
@@ -368,8 +368,8 @@ Nr,exercise,question,answer,german,english,french,level
 367,19,_____ Wasser,Das,Das Wasser,The water,L'eau,A1
 368,19,_____ Wein,Der,Der Wein,The wine,Le vin,A1
 369,19,_____ Welt,Die,Die Welt,The world,Le monde,A1
-370,19,_____ Westen,Der,Der Westen,The West,L'Occident,A1
-371,19,_____ Wetter,Das,Das Wetter,The weather,La météo,A1
+370,19,_____ Westen,Der,Der Westen,The West,L'Ouest,A1
+371,19,_____ Wetter,Das,Das Wetter,The weather,Le temps,A1
 372,19,_____ Wiederhören,Das,Das Wiederhören,The reunion,Les retrouvailles,A1
 373,19,_____ Wiedersehen,Das,Das Wiedersehen,The reunion,Les retrouvailles,A1
 374,19,_____ Wind,Der,Der Wind,The wind,Le vent,A1
@@ -429,8 +429,8 @@ Nr,exercise,question,answer,german,english,french,level
 428,23,_____ Eis,Das,Das Eis,The ice,La glace,A2
 429,23,_____ Erdgeschoss,Das,Das Erdgeschoss,The ground floor,Le rez-de-chaussée,A2
 430,23,_____ Erfahrung,Die,Die Erfahrung,The experience,L'expérience,A2
-431,23,_____ Erlaubnis,Die,Die Erlaubnis,The permission,La permission,A2
-432,23,_____ Ermäßigung,Die,Die Ermäßigung,The discount,La remise,A2
+431,23,_____ Erlaubnis,Die,Die Erlaubnis,The permission,L'autorisation,A2
+432,23,_____ Ermäßigung,Die,Die Ermäßigung,The discount,La réduction,A2
 433,23,_____ Fach,Das,Das Fach,The subject,Le sujet,A2
 434,23,_____ Fahrplan,Der,Der Fahrplan,The timetable,L'horaire,A2
 435,23,_____ Fan,Der,Der Fan,The fan,Le fan,A2
@@ -441,7 +441,7 @@ Nr,exercise,question,answer,german,english,french,level
 440,23,_____ Flohmarkt,Der,Der Flohmarkt,The flea market,Le marché aux puces,A2
 441,23,_____ Flug,Der,Der Flug,The flight,Le vol,A2
 442,23,_____ Fluss,Der,Der Fluss,The river,La rivière,A2
-443,23,_____ Fotoapparat,Der,Der Fotoapparat,The camera,La caméra,A2
+443,23,_____ Fotoapparat,Der,Der Fotoapparat,The camera,L'appareil photo,A2
 444,23,_____ Freundin,Die,Die Freundin,The girlfriend,La petite amie,A2
 445,23,_____ Fundsache,Die,Die Fundsache,The Lost and Found,Objets trouvés,A2
 446,23,_____ Führerschein,Der,Der Führerschein,The driver's license,Le permis de conduire,A2
@@ -459,7 +459,7 @@ Nr,exercise,question,answer,german,english,french,level
 458,24,_____ Gitarre,Die,Die Gitarre,The guitar,La guitare,A2
 459,24,_____ Grippe,Die,Die Grippe,The flu,La grippe,A2
 460,24,_____ Hals,Der,Der Hals,The neck,Le cou,A2
-461,24,_____ Hamburger,Der,Der Hamburger,The Hamburger,Le Hamburger,A2
+461,24,_____ Hamburger,Der,Der Hamburger,The Hamburger,Le hamburger,A2
 462,24,_____ Handtuch,Das,Das Handtuch,The towel,La serviette,A2
 463,24,_____ Hauptstadt,Die,Die Hauptstadt,The capital,La capitale,A2
 464,24,_____ Haushalt,Der,Der Haushalt,The household,Le ménage,A2
@@ -478,7 +478,7 @@ Nr,exercise,question,answer,german,english,french,level
 477,25,_____ Jeans,Die,Die Jeans,The jeans,Le jean,A2
 478,25,_____ Jugendherberge,Die,Die Jugendherberge,The hostel,L'auberge,A2
 479,25,_____ Kalender,Der,Der Kalender,The calendar,Le calendrier,A2
-480,25,_____ Kamera,Die,Die Kamera,The camera,La caméra,A2
+480,25,_____ Kamera,Die,Die Kamera,The camera,L'appareil photo,A2
 481,25,_____ Katze,Die,Die Katze,The cat,Le chat,A2
 482,25,_____ Kaufhaus,Das,Das Kaufhaus,The department store,Le grand magasin,A2
 483,25,_____ Keller,Der,Der Keller,The cellar,La cave,A2
@@ -496,7 +496,7 @@ Nr,exercise,question,answer,german,english,french,level
 495,26,_____ Krankenkasse,Die,Die Krankenkasse,The health insurance company,La compagnie d'assurance maladie,A2
 496,26,_____ Krankheit,Die,Die Krankheit,The disease,La maladie,A2
 497,26,_____ Kredit,Der,Der Kredit,The loan,Le prêt,A2
-498,26,_____ Kreuzung,Die,Die Kreuzung,The crossing,La traversée,A2
+498,26,_____ Kreuzung,Die,Die Kreuzung,The crossing,Le passage,A2
 499,26,_____ Krimi,Der,Der Krimi,The crime story,L'histoire du crime,A2
 500,26,_____ Kultur,Die,Die Kultur,The culture,La culture,A2
 501,26,_____ Kunst,Die,Die Kunst,Art,Art,A2
@@ -529,7 +529,7 @@ Nr,exercise,question,answer,german,english,french,level
 528,28,_____ Mode,Die,Die Mode,The fashion,La mode,A2
 529,28,_____ Motor,Der,Der Motor,The engine,Le moteur,A2
 530,28,_____ Motorroller,Der,Der Motorroller,The scooter,Le scooter,A2
-531,28,_____ Museum,Das,Das Museum,The Museum,Le Musée,A2
+531,28,_____ Museum,Das,Das Museum,The Museum,Le musée,A2
 532,28,_____ Musik,Die,Die Musik,The music,La musique,A2
 533,28,_____ Müll,Der,Der Müll,The garbage,Les ordures,A2
 534,28,_____ Mütze,Die,Die Mütze,The hat,Le chapeau,A2
@@ -564,10 +564,10 @@ Nr,exercise,question,answer,german,english,french,level
 563,29,_____ Projekt,Das,Das Projekt,The project,Le projet,A2
 564,29,_____ Pullover,Der,Der Pullover,The sweater,Le pull,A2
 565,29,_____ Qualität,Die,Die Qualität,The quality,La qualité,A2
-566,29,_____ Quiz,Das,Das Quiz,The Quiz,Le Quiz,A2
+566,29,_____ Quiz,Das,Das Quiz,The Quiz,Le quiz,A2
 567,29,_____ Rad,Das,Das Rad,The wheel,La roue,A2
 568,30,_____ Radio,Das,Das Radio,The radio,La radio,A2
-569,30,_____ Rathaus,Das,Das Rathaus,The town hall,La mairie,A2
+569,30,_____ Rathaus,Das,Das Rathaus,The town hall,L'hôtel de ville,A2
 570,30,_____ Reifen,Der,Der Reifen,The tire,Le pneu,A2
 571,30,_____ Reihe,Die,Die Reihe,The series,La série,A2
 572,30,_____ Reinigung,Die,Die Reinigung,The cleaning,Le nettoyage,A2
@@ -588,7 +588,7 @@ Nr,exercise,question,answer,german,english,french,level
 587,30,_____ Schere,Die,Die Schere,The scissors,Les ciseaux,A2
 588,31,_____ Schiff,Das,Das Schiff,The ship,Le navire,A2
 589,31,_____ Schirm,Der,Der Schirm,The umbrella,Le parapluie,A2
-590,31,_____ Schlafzimmer,Das,Das Schlafzimmer,The bedroom,La chambre à coucher,A2
+590,31,_____ Schlafzimmer,Das,Das Schlafzimmer,The bedroom,La chambre,A2
 591,31,_____ Schloss,Das,Das Schloss,The castle,Le château,A2
 592,31,_____ Schloss,Das,Das Schloss,The castle,Le château,A2
 593,31,_____ Schmerz,Der,Der Schmerz,The pain,La douleur,A2
@@ -625,13 +625,13 @@ Nr,exercise,question,answer,german,english,french,level
 624,32,_____ Tablette,Die,Die Tablette,The tablet,La tablette,A2
 625,32,_____ Tafel,Die,Die Tafel,The whiteboard,Le tableau blanc,A2
 626,32,_____ Taschengeld,Das,Das Taschengeld,The pocket money,L'argent de poche,A2
-627,32,_____ Tasse,Die,Die Tasse,The cup,La coupe,A2
+627,32,_____ Tasse,Die,Die Tasse,The cup,La tasse,A2
 628,33,_____ Team,Das,Das Team,The team,L'équipe,A2
 629,33,_____ Teller,Der,Der Teller,The dish,Le plat,A2
 630,33,_____ Tennis,Das,Das Tennis,The tennis,Le tennis,A2
 631,33,_____ Theater,Das,Das Theater,The theater,Le théâtre,A2
 632,33,_____ Tier,Das,Das Tier,The animal,L'animal,A2
-633,33,_____ Tipp,Der,Der Tipp,The tip,La pointe,A2
+633,33,_____ Tipp,Der,Der Tipp,The tip,Le pourboire,A2
 634,33,_____ Titel,Der,Der Titel,The title,Le titre,A2
 635,33,_____ Topf,Der,Der Topf,The pot,Le pot,A2
 636,33,_____ Torte,Die,Die Torte,The cake,Le gâteau,A2
@@ -641,13 +641,13 @@ Nr,exercise,question,answer,german,english,french,level
 640,33,_____ Training,Das,Das Training,The training,La formation,A2
 641,33,_____ Traum,Der,Der Traum,The dream,Le rêve,A2
 642,33,_____ Tür,Die,Die Tür,The door,La porte,A2
-643,33,_____ Umzug,Der,Der Umzug,The move,Le mouvement,A2
+643,33,_____ Umzug,Der,Der Umzug,The move,Le déménagement,A2
 644,33,_____ Unfall,Der,Der Unfall,The accident,L'accident,A2
 645,33,_____ Universität,Die,Die Universität,The University,L'Université,A2
-646,33,_____ Unterkunft,Die,Die Unterkunft,The accommodation,Le logement,A2
+646,33,_____ Unterkunft,Die,Die Unterkunft,The accommodation,L'hébergement,A2
 647,33,_____ Unterschied,Der,Der Unterschied,The difference,La différence,A2
 648,34,_____ Veranstaltung,Die,Die Veranstaltung,The event,L'événement,A2
-649,34,_____ Verkehr,Der,Der Verkehr,The traffic,Le trafic,A2
+649,34,_____ Verkehr,Der,Der Verkehr,The traffic,La circulation,A2
 650,34,_____ Verkehrsmittel,Das,Das Verkehrsmittel,The means of transport,Les moyens de transport,A2
 651,34,_____ Vermieterin,Die,Die Vermieterin,The landlady,La propriétaire,A2
 652,34,_____ Verspätung,Die,Die Verspätung,The delay,Le retard,A2
@@ -655,8 +655,8 @@ Nr,exercise,question,answer,german,english,french,level
 654,34,_____ Vogel,Der,Der Vogel,The bird,L'oiseau,A2
 655,34,_____ Vorschlag,Der,Der Vorschlag,The suggestion,La suggestion,A2
 656,34,_____ Wald,Der,Der Wald,The forest,La forêt,A2
-657,34,_____ Web-Seite,Die,Die Web-Seite,The website,Le site Web,A2
-658,34,_____ Webseite,Die,Die Webseite,The website,Le site Web,A2
+657,34,_____ Web-Seite,Die,Die Web-Seite,The website,Le site web,A2
+658,34,_____ Webseite,Die,Die Webseite,The website,Le site web,A2
 659,34,_____ Weg,Der,Der Weg,The path,Le chemin,A2
 660,34,_____ Werkstatt,Die,Die Werkstatt,The workshop,L'atelier,A2
 661,34,_____ Wettbewerb,Der,Der Wettbewerb,The competition,La compétition,A2
@@ -674,7 +674,7 @@ Nr,exercise,question,answer,german,english,french,level
 673,35,_____ Zentrum,Das,Das Zentrum,The center,Le centre,A2
 674,35,_____ Zettel,Der,Der Zettel,The note,La note,A2
 675,35,_____ Zeugnis,Das,Das Zeugnis,The testimony,Le témoignage,A2
-676,35,_____ Ziel,Das,Das Ziel,The goal,Le but,A2
+676,35,_____ Ziel,Das,Das Ziel,The goal,L'objectif,A2
 677,35,_____ Zirkus,Der,Der Zirkus,The circus,Le cirque,A2
 678,35,_____ Zitrone,Die,Die Zitrone,The lemon,Le citron,A2
 679,35,_____ Zoo,Der,Der Zoo,The Zoo,Le zoo,A2
@@ -687,12 +687,12 @@ Nr,exercise,question,answer,german,english,french,level
 686,36,_____ Abgas,Das,Das Abgas,The exhaust gas,Les gaz d'échappement,B1
 687,36,_____ Abitur,Das,Das Abitur,The high school diploma,Le diplôme d'études secondaires,B1
 688,36,_____ Abonnement,Das,Das Abonnement,The subscription,L'abonnement,B1
-689,36,_____ Abschied,Der,Der Abschied,The farewell,L'adieu,B1
+689,36,_____ Abschied,Der,Der Abschied,The farewell,Les adieux,B1
 690,36,_____ Abschluss,Der,Der Abschluss,The conclusion,La conclusion,B1
 691,36,_____ Abschnitt,Der,Der Abschnitt,The section,La section,B1
 692,36,_____ Absenderin,Die,Die Absenderin,The sender,L'expéditeur,B1
-693,36,_____ Abt,Der,Der Abt,The Abbot,L'Abbé,B1
-694,36,_____ Abteilung,Die,Die Abteilung,The Department,Le Département,B1
+693,36,_____ Abt,Der,Der Abt,The Abbot,L'abbé,B1
+694,36,_____ Abteilung,Die,Die Abteilung,The Department,Le département,B1
 695,36,_____ Abwart,Der,Der Abwart,The caretaker,Le gardien,B1
 696,36,_____ Abwartin,Die,Die Abwartin,The caretaker,Le gardien,B1
 697,36,_____ Aktion,Die,Die Aktion,The action,L'action,B1
@@ -707,17 +707,17 @@ Nr,exercise,question,answer,german,english,french,level
 706,37,_____ Amt,Das,Das Amt,The Office,Le bureau,B1
 707,37,_____ Anbieter,Der,Der Anbieter,The provider,Le fournisseur,B1
 708,37,_____ Angabe,Die,Die Angabe,The information,Les informations,B1
-709,37,_____ Anlage,Die,Die Anlage,The attachment,L'attachement,B1
+709,37,_____ Anlage,Die,Die Anlage,The attachment,La pièce jointe,B1
 710,37,_____ Anleitung,Die,Die Anleitung,The instructions,Les instructions,B1
 711,37,_____ Annonce,Die,Die Annonce,The advertisement,La publicité,B1
-712,37,_____ Anspruch,Der,Der Anspruch,The claim,La réclamation,B1
+712,37,_____ Anspruch,Der,Der Anspruch,The claim,La revendication,B1
 713,37,_____ Antrag,Der,Der Antrag,The application,L'application,B1
 714,37,_____ Anwalt,Der,Der Anwalt,The lawyer,L'avocat,B1
 715,37,_____ Anwältin,Die,Die Anwältin,The lawyer,L'avocat,B1
 716,37,_____ Anzahl,Die,Die Anzahl,The number,Le nombre,B1
 717,37,_____ Aprikose,Die,Die Aprikose,The apricot,L'abricot,B1
-718,37,_____ Arbeiter,Der,Der Arbeiter,The worker,Le travailleur,B1
-719,37,_____ Arbeiterin,Die,Die Arbeiterin,The worker,Le travailleur,B1
+718,37,_____ Arbeiter,Der,Der Arbeiter,The worker,L'ouvrier,B1
+719,37,_____ Arbeiterin,Die,Die Arbeiterin,The worker,L'ouvrier,B1
 720,37,_____ Arbeitserlaubnis,Die,Die Arbeitserlaubnis,The work permit,Le permis de travail,B1
 721,37,_____ Arbeitslosigkeit,Die,Die Arbeitslosigkeit,Unemployment,Chômage,B1
 722,38,_____ Arbeitsstelle,Die,Die Arbeitsstelle,The workplace,Le lieu de travail,B1
@@ -747,13 +747,13 @@ Nr,exercise,question,answer,german,english,french,level
 746,39,_____ Backrohr,Das,Das Backrohr,The oven,Le four,B1
 747,39,_____ Badewanne,Die,Die Badewanne,The bathtub,La baignoire,B1
 748,39,_____ Ballett,Das,Das Ballett,The ballet,Le ballet,B1
-749,39,_____ Bancomat,Der,Der Bancomat,The ATM,Le guichet automatique,B1
-750,39,_____ Bancomatkarte,Die,Die Bancomatkarte,The ATM card,La carte ATM,B1
-751,39,_____ Bankleitzahl,Die,Die Bankleitzahl,The bank sort code,Le code guichet de la banque,B1
-752,39,_____ Bankomat,Der,Der Bankomat,The ATM,Le guichet automatique,B1
-753,39,_____ Bankomatkarte,Die,Die Bankomatkarte,The ATM card,La carte ATM,B1
+749,39,_____ Bancomat,Der,Der Bancomat,The ATM,Le distributeur automatique de billets,B1
+750,39,_____ Bancomatkarte,Die,Die Bancomatkarte,The ATM card,La carte bancaire,B1
+751,39,_____ Bankleitzahl,Die,Die Bankleitzahl,The bank sort code,Le code guichet bancaire,B1
+752,39,_____ Bankomat,Der,Der Bankomat,The ATM,Le distributeur automatique de billets,B1
+753,39,_____ Bankomatkarte,Die,Die Bankomatkarte,The ATM card,La carte bancaire,B1
 754,39,_____ Bar,Die,Die Bar,The Bar,Le bar,B1
-755,39,_____ Bargeld,Das,Das Bargeld,The cash,L'argent liquide,B1
+755,39,_____ Bargeld,Das,Das Bargeld,The cash,L'argent,B1
 756,39,_____ Bart,Der,Der Bart,The beard,La barbe,B1
 757,39,_____ Batterie,Die,Die Batterie,The battery,La batterie,B1
 758,39,_____ Bau,Der,Der Bau,The construction,La construction,B1
@@ -761,8 +761,8 @@ Nr,exercise,question,answer,german,english,french,level
 760,39,_____ Bauernhof,Der,Der Bauernhof,The farm,La ferme,B1
 761,39,_____ Beamtin,Die,Die Beamtin,The official,Le responsable,B1
 762,40,_____ Bedarf,Der,Der Bedarf,The need,Le besoin,B1
-763,40,_____ Bedeutung,Die,Die Bedeutung,The meaning,Le sens,B1
-764,40,_____ Bedienungsanleitung,Die,Die Bedienungsanleitung,The operating instructions,Le mode d'emploi,B1
+763,40,_____ Bedeutung,Die,Die Bedeutung,The meaning,La signification,B1
+764,40,_____ Bedienungsanleitung,Die,Die Bedienungsanleitung,The operating instructions,Les instructions d'utilisation,B1
 765,40,_____ Bedingung,Die,Die Bedingung,The condition,La condition,B1
 766,40,_____ Beginn,Der,Der Beginn,The beginning,Le début,B1
 767,40,_____ Begründung,Die,Die Begründung,The reasoning,Le raisonnement,B1
@@ -794,7 +794,7 @@ Nr,exercise,question,answer,german,english,french,level
 793,41,_____ Bildschirm,Der,Der Bildschirm,The screen,L'écran,B1
 794,41,_____ Billett,Das,Das Billett,The ticket,Le billet,B1
 795,41,_____ Biologie,Die,Die Biologie,The biology,La biologie,B1
-796,41,_____ Blitz,Der,Der Blitz,The Flash,Flash,B1
+796,41,_____ Blitz,Der,Der Blitz,The Flash,Le Flash,B1
 797,41,_____ Boden,Der,Der Boden,The floor,Le sol,B1
 798,41,_____ Boot,Das,Das Boot,The boat,Le bateau,B1
 799,41,_____ Botschaft,Die,Die Botschaft,The message,Le message,B1
@@ -803,7 +803,7 @@ Nr,exercise,question,answer,german,english,french,level
 802,42,_____ Briefkasten,Der,Der Briefkasten,The mailbox,La boîte aux lettres,B1
 803,42,_____ Brieftasche,Die,Die Brieftasche,The wallet,Le portefeuille,B1
 804,42,_____ Briefträger,Der,Der Briefträger,The postman,Le facteur,B1
-805,42,_____ Briefträgerin,Die,Die Briefträgerin,The Postwoman,La Factrice,B1
+805,42,_____ Briefträgerin,Die,Die Briefträgerin,The Postwoman,La factrice,B1
 806,42,_____ Briefumschlag,Der,Der Briefumschlag,The envelope,L'enveloppe,B1
 807,42,_____ Broschüre,Die,Die Broschüre,The brochure,La brochure,B1
 808,42,_____ Brust,Die,Die Brust,The chest,Le coffre,B1
@@ -847,7 +847,7 @@ Nr,exercise,question,answer,german,english,french,level
 846,44,_____ Doktorin,Die,Die Doktorin,The Doctor,Le Docteur,B1
 847,44,_____ Dokument,Das,Das Dokument,The document,Le document,B1
 848,44,_____ Donner,Der,Der Donner,The Thunder,Le tonnerre,B1
-849,44,_____ Dose,Die,Die Dose,The tin,L'étain,B1
+849,44,_____ Dose,Die,Die Dose,The tin,La boîte,B1
 850,44,_____ Dreck,Der,Der Dreck,The dirt,La saleté,B1
 851,44,_____ Droge,Die,Die Droge,The drug,Le médicament,B1
 852,44,_____ Drogerie,Die,Die Drogerie,The drugstore,La pharmacie,B1
@@ -870,7 +870,7 @@ Nr,exercise,question,answer,german,english,french,level
 869,45,_____ Einkauf,Der,Der Einkauf,The purchase,L'achat,B1
 870,45,_____ Einkommen,Das,Das Einkommen,The income,Le revenu,B1
 871,45,_____ Einnahme,Die,Die Einnahme,The intake,L'admission,B1
-872,45,_____ Einrichtung,Die,Die Einrichtung,The facility,L'installation,B1
+872,45,_____ Einrichtung,Die,Die Einrichtung,The facility,L'établissement,B1
 873,45,_____ Einschreiben,Das,Das Einschreiben,The registered letter,La lettre recommandée,B1
 874,45,_____ Einwohner,Der,Der Einwohner,The resident,Le résident,B1
 875,45,_____ Einwohnerin,Die,Die Einwohnerin,The resident,Le résident,B1
@@ -893,9 +893,9 @@ Nr,exercise,question,answer,german,english,french,level
 892,46,_____ Ereignis,Das,Das Ereignis,The event,L'événement,B1
 893,46,_____ Erfindung,Die,Die Erfindung,The invention,L'invention,B1
 894,46,_____ Erfolg,Der,Der Erfolg,The success,Le succès,B1
-895,46,_____ Erholung,Die,Die Erholung,The recovery,La reprise,B1
+895,46,_____ Erholung,Die,Die Erholung,The recovery,La récupération,B1
 896,46,_____ Erhöhung,Die,Die Erhöhung,The increase,L'augmentation,B1
-897,46,_____ Erinnerung,Die,Die Erinnerung,The memory,La mémoire,B1
+897,46,_____ Erinnerung,Die,Die Erinnerung,The memory,Le souvenir,B1
 898,46,_____ Erklärung,Die,Die Erklärung,The declaration,La déclaration,B1
 899,46,_____ Erkältung,Die,Die Erkältung,The cold,Le froid,B1
 900,46,_____ Erlebnis,Das,Das Erlebnis,The experience,L'expérience,B1
@@ -921,19 +921,19 @@ Nr,exercise,question,answer,german,english,french,level
 920,47,_____ Fasching,Der,Der Fasching,The Carnival,Le Carnaval,B1
 921,47,_____ Fasnacht,Die,Die Fasnacht,The Carnival,Le Carnaval,B1
 922,48,_____ Fauteuil,Der,Der Fauteuil,The armchair,Le fauteuil,B1
-923,48,_____ Feber,Der,Der Feber,The February,Le mois de février,B1
-924,48,_____ Feld,Das,Das Feld,The field,Le terrain,B1
+923,48,_____ Feber,Der,Der Feber,The February,Le février,B1
+924,48,_____ Feld,Das,Das Feld,The field,Le champ,B1
 925,48,_____ Fernbedienung,Die,Die Fernbedienung,The remote control,La télécommande,B1
 926,48,_____ Fernsehen,Das,Das Fernsehen,The television,La télévision,B1
 927,48,_____ Fernseher,Der,Der Fernseher,The TV,La télévision,B1
 928,48,_____ Festplatte,Die,Die Festplatte,The hard drive,Le disque dur,B1
-929,48,_____ Fett,Das,Das Fett,The fat,La graisse,B1
-930,48,_____ Feuerwehr,Die,Die Feuerwehr,The fire department,Les pompiers,B1
+929,48,_____ Fett,Das,Das Fett,The fat,Le gras,B1
+930,48,_____ Feuerwehr,Die,Die Feuerwehr,The fire department,Le service des pompiers,B1
 931,48,_____ Feuerzeug,Das,Das Feuerzeug,The lighter,Le briquet,B1
 932,48,_____ Figur,Die,Die Figur,The figure,La figure,B1
 933,48,_____ Finger,Der,Der Finger,The finger,Le doigt,B1
 934,48,_____ Fleck,Der,Der Fleck,The stain,La tache,B1
-935,48,_____ Fleischhauer,Der,Der Fleischhauer,The Butcher,Le Boucher,B1
+935,48,_____ Fleischhauer,Der,Der Fleischhauer,The Butcher,Le boucher,B1
 936,48,_____ Flucht,Die,Die Flucht,The escape,L'évasion,B1
 937,48,_____ Flur,Der,Der Flur,The corridor,Le couloir,B1
 938,48,_____ Fläche,Die,Die Fläche,The area,La zone,B1
@@ -953,8 +953,8 @@ Nr,exercise,question,answer,german,english,french,level
 952,49,_____ Fremdsprache,Die,Die Fremdsprache,The foreign language,La langue étrangère,B1
 953,49,_____ Freude,Die,Die Freude,The joy,La joie,B1
 954,49,_____ Freundschaft,Die,Die Freundschaft,The friendship,L'amitié,B1
-955,49,_____ Friede,Der,Der Friede,The Peace,La Paix,B1
-956,49,_____ Frieden,Der,Der Frieden,The Peace,La Paix,B1
+955,49,_____ Friede,Der,Der Friede,The Peace,La paix,B1
+956,49,_____ Frieden,Der,Der Frieden,The Peace,La paix,B1
 957,49,_____ Friseur,Der,Der Friseur,The hairdresser,Le coiffeur,B1
 958,49,_____ Frist,Die,Die Frist,The deadline,La date limite,B1
 959,49,_____ Frisur,Die,Die Frisur,The hairstyle,La coiffure,B1
@@ -967,7 +967,7 @@ Nr,exercise,question,answer,german,english,french,level
 966,50,_____ Fähigkeit,Die,Die Fähigkeit,The ability,La capacité,B1
 967,50,_____ Fähre,Die,Die Fähre,The ferry,Le ferry,B1
 968,50,_____ Führerausweis,Der,Der Führerausweis,The driving license,Le permis de conduire,B1
-969,50,_____ Galerie,Die,Die Galerie,The Gallery,La Galerie,B1
+969,50,_____ Galerie,Die,Die Galerie,The Gallery,La galerie,B1
 970,50,_____ Gang,Der,Der Gang,The aisle,L'allée,B1
 971,50,_____ Garantie,Die,Die Garantie,The guarantee,La garantie,B1
 972,50,_____ Garderobe,Die,Die Garderobe,The wardrobe,La garde-robe,B1
@@ -976,12 +976,12 @@ Nr,exercise,question,answer,german,english,french,level
 975,50,_____ Gaststätte,Die,Die Gaststätte,The restaurant,Le restaurant,B1
 976,50,_____ Gebiet,Das,Das Gebiet,The area,La zone,B1
 977,50,_____ Gebirge,Das,Das Gebirge,The mountains,Les montagnes,B1
-978,50,_____ Gebrauchsanweisung,Die,Die Gebrauchsanweisung,The instructions for use,Les instructions d'utilisation,B1
+978,50,_____ Gebrauchsanweisung,Die,Die Gebrauchsanweisung,The instructions for use,Instructions d'utilisation,B1
 979,50,_____ Geburt,Die,Die Geburt,The birth,La naissance,B1
 980,50,_____ Gebäck,Das,Das Gebäck,The pastries,Les pâtisseries,B1
 981,50,_____ Gebäude,Das,Das Gebäude,The building,Le bâtiment,B1
 982,51,_____ Gebühr,Die,Die Gebühr,The fee,Les frais,B1
-983,51,_____ Gedanke,Der,Der Gedanke,The thought,La pensée,B1
+983,51,_____ Gedanke,Der,Der Gedanke,The thought,L'idée,B1
 984,51,_____ Gedicht,Das,Das Gedicht,The poem,Le poème,B1
 985,51,_____ Geduld,Die,Die Geduld,Patience,Patience,B1
 986,51,_____ Gefahr,Die,Die Gefahr,The danger,Le danger,B1
@@ -993,7 +993,7 @@ Nr,exercise,question,answer,german,english,french,level
 992,51,_____ Gegner,Der,Der Gegner,The opponent,L'adversaire,B1
 993,51,_____ Geheimnis,Das,Das Geheimnis,The secret,Le secret,B1
 994,51,_____ Gehsteig,Der,Der Gehsteig,The sidewalk,Le trottoir,B1
-995,51,_____ Geldautomat,Der,Der Geldautomat,The ATM,Le guichet automatique,B1
+995,51,_____ Geldautomat,Der,Der Geldautomat,The ATM,Le distributeur automatique de billets,B1
 996,51,_____ Gelegenheit,Die,Die Gelegenheit,The opportunity,L'opportunité,B1
 997,51,_____ Gemeinschaft,Die,Die Gemeinschaft,The community,La communauté,B1
 998,51,_____ Generation,Die,Die Generation,The generation,La génération,B1
@@ -1005,7 +1005,7 @@ Nr,exercise,question,answer,german,english,french,level
 1004,52,_____ Gesetz,Das,Das Gesetz,The law,La loi,B1
 1005,52,_____ Gewalt,Die,Die Gewalt,The violence,La violence,B1
 1006,52,_____ Gewerkschaft,Die,Die Gewerkschaft,The union,Le syndicat,B1
-1007,52,_____ Gewinn,Der,Der Gewinn,The profit,Le bénéfice,B1
+1007,52,_____ Gewinn,Der,Der Gewinn,The profit,Le profit,B1
 1008,52,_____ Gewissen,Das,Das Gewissen,The conscience,La conscience,B1
 1009,52,_____ Gewohnheit,Die,Die Gewohnheit,The habit,L'habitude,B1
 1010,52,_____ Gewürz,Das,Das Gewürz,The spice,L'épice,B1
@@ -1015,12 +1015,12 @@ Nr,exercise,question,answer,german,english,french,level
 1014,52,_____ Glace,Die,Die Glace,The ice cream,La glace,B1
 1015,52,_____ Glacé,Die,Die Glacé,The ice cream,La glace,B1
 1016,52,_____ Gold,Das,Das Gold,The gold,L'or,B1
-1017,52,_____ Golf,Das,Das Golf,The Golf,Le Golf,B1
+1017,52,_____ Golf,Das,Das Golf,The Golf,Le golf,B1
 1018,52,_____ Gott,Der,Der Gott,The God,Le Dieu,B1
 1019,52,_____ Grafik,Die,Die Grafik,The graphic,Le graphique,B1
 1020,52,_____ Graphik,Die,Die Graphik,The graphic,Le graphique,B1
 1021,52,_____ Gras,Das,Das Gras,The grass,L'herbe,B1
-1022,53,_____ Gratulation,Die,Die Gratulation,The congratulations,Les félicitations,B1
+1022,53,_____ Gratulation,Die,Die Gratulation,The congratulations,Félicitations,B1
 1023,53,_____ Grenze,Die,Die Grenze,The border,La frontière,B1
 1024,53,_____ Grill,Der,Der Grill,The grill,Le gril,B1
 1025,53,_____ Grund,Der,Der Grund,The reason,La raison,B1
@@ -1124,11 +1124,11 @@ Nr,exercise,question,answer,german,english,french,level
 1123,58,_____ Konfitüre,Die,Die Konfitüre,The jam,La confiture,B1
 1124,58,_____ Konflikt,Der,Der Konflikt,The conflict,Le conflit,B1
 1125,58,_____ Konkurrenz,Die,Die Konkurrenz,The competition,La compétition,B1
-1126,58,_____ Konsulat,Das,Das Konsulat,The Consulate,Le Consulat,B1
+1126,58,_____ Konsulat,Das,Das Konsulat,The Consulate,Le consulat,B1
 1127,58,_____ Konsum,Der,Der Konsum,Consumption,Consommation,B1
 1128,58,_____ Kontrolle,Die,Die Kontrolle,The control,Le contrôle,B1
 1129,58,_____ Kopie,Die,Die Kopie,The copy,La copie,B1
-1130,58,_____ Kopierer,Der,Der Kopierer,The copier,Le copieur,B1
+1130,58,_____ Kopierer,Der,Der Kopierer,The copier,La photocopieuse,B1
 1131,58,_____ Korridor,Der,Der Korridor,The corridor,Le couloir,B1
 1132,58,_____ Kostüm,Das,Das Kostüm,The costume,Le costume,B1
 1133,58,_____ Kraft,Die,Die Kraft,The power,Le pouvoir,B1
@@ -1145,8 +1145,8 @@ Nr,exercise,question,answer,german,english,french,level
 1144,59,_____ Kritik,Die,Die Kritik,The criticism,La critique,B1
 1145,59,_____ Kuli,Der,Der Kuli,Ballpen,Stylo à bille,B1
 1146,59,_____ Kunststoff,Der,Der Kunststoff,The plastic,Le plastique,B1
-1147,59,_____ Kursleiter,Der,Der Kursleiter,The course instructor,L'instructeur du cours,B1
-1148,59,_____ Kursleiterin,Die,Die Kursleiterin,The course instructor,L'instructeur du cours,B1
+1147,59,_____ Kursleiter,Der,Der Kursleiter,The course instructor,Le professeur du cours,B1
+1148,59,_____ Kursleiterin,Die,Die Kursleiterin,The course instructor,Le professeur du cours,B1
 1149,59,_____ Kurve,Die,Die Kurve,The curve,La courbe,B1
 1150,59,_____ Kusine,Die,Die Kusine,The cousin,Le cousin,B1
 1151,59,_____ Kuss,Der,Der Kuss,The Kiss,Le baiser,B1
@@ -1156,7 +1156,7 @@ Nr,exercise,question,answer,german,english,french,level
 1155,59,_____ Käuferin,Die,Die Käuferin,The buyer,L'acheteur,B1
 1156,59,_____ Köchin,Die,Die Köchin,The cook,Le cuisinier,B1
 1157,59,_____ König,Der,Der König,The king,Le roi,B1
-1158,59,_____ Kündigung,Die,Die Kündigung,The termination,La résiliation,B1
+1158,59,_____ Kündigung,Die,Die Kündigung,The termination,La fin,B1
 1159,59,_____ Künstler,Der,Der Künstler,The artist,L'artiste,B1
 1160,59,_____ Künstlerin,Die,Die Künstlerin,The artist,L'artiste,B1
 1161,59,_____ Küste,Die,Die Küste,The coast,La côte,B1
@@ -1168,12 +1168,12 @@ Nr,exercise,question,answer,german,english,french,level
 1167,60,_____ Langweile,Die,Die Langweile,The boredom,L'ennui,B1
 1168,60,_____ Laster,Der,Der Laster,The vice,Le vice,B1
 1169,60,_____ Laufwerk,Das,Das Laufwerk,The drive,Le trajet,B1
-1170,60,_____ Laune,Die,Die Laune,The mood,L'ambiance,B1
+1170,60,_____ Laune,Die,Die Laune,The mood,L'humeur,B1
 1171,60,_____ Lautsprecher,Der,Der Lautsprecher,The loudspeaker,Le haut-parleur,B1
 1172,60,_____ Lebenslauf,Der,Der Lebenslauf,The CV,Le CV,B1
 1173,60,_____ Leder,Das,Das Leder,The leather,Le cuir,B1
 1174,60,_____ Lehre,Die,Die Lehre,The teaching,L'enseignement,B1
-1175,60,_____ Lehrerin,Die,Die Lehrerin,The teacher,Le professeur,B1
+1175,60,_____ Lehrerin,Die,Die Lehrerin,The teacher,L'enseignant,B1
 1176,60,_____ Lehrling,Der,Der Lehrling,The apprentice,L'apprenti,B1
 1177,60,_____ Lehrstelle,Die,Die Lehrstelle,The apprenticeship,L'apprentissage,B1
 1178,60,_____ Leistung,Die,Die Leistung,The performance,La performance,B1
@@ -1210,7 +1210,7 @@ Nr,exercise,question,answer,german,english,french,level
 1209,62,_____ Marille,Die,Die Marille,The apricot,L'abricot,B1
 1210,62,_____ Marke,Die,Die Marke,The brand,La marque,B1
 1211,62,_____ Marmelade,Die,Die Marmelade,The jam,La confiture,B1
-1212,62,_____ Material,Das,Das Material,The material,Le matériel,B1
+1212,62,_____ Material,Das,Das Material,The material,Le matériau,B1
 1213,62,_____ Matura,Die,Die Matura,The Matura,La Matura,B1
 1214,62,_____ Mauer,Die,Die Mauer,The wall,Le mur,B1
 1215,62,_____ Mechaniker,Der,Der Mechaniker,The mechanic,Le mécanicien,B1
@@ -1260,10 +1260,10 @@ Nr,exercise,question,answer,german,english,french,level
 1259,64,_____ Nachhilfe,Die,Die Nachhilfe,The tutoring,Le tutorat,B1
 1260,64,_____ Nachspeise,Die,Die Nachspeise,The dessert,Le dessert,B1
 1261,64,_____ Nacht,Die,Die Nacht,The night,La nuit,B1
-1262,65,_____ Nachteil,Der,Der Nachteil,The disadvantage,L'inconvénient,B1
+1262,65,_____ Nachteil,Der,Der Nachteil,The disadvantage,Le désavantage,B1
 1263,65,_____ Nachwuchs,Der,Der Nachwuchs,The offspring,La progéniture,B1
 1264,65,_____ Nadel,Die,Die Nadel,The needle,L'aiguille,B1
-1265,65,_____ Nagel,Der,Der Nagel,The nail,Le clou,B1
+1265,65,_____ Nagel,Der,Der Nagel,The nail,L'ongle,B1
 1266,65,_____ Nahrungsmittel,Das,Das Nahrungsmittel,The food,La nourriture,B1
 1267,65,_____ Nase,Die,Die Nase,The nose,Le nez,B1
 1268,65,_____ Nebel,Der,Der Nebel,The fog,Le brouillard,B1
@@ -1275,7 +1275,7 @@ Nr,exercise,question,answer,german,english,french,level
 1274,65,_____ Nichte,Die,Die Nichte,The niece,La nièce,B1
 1275,65,_____ Nichtraucherin,Die,Die Nichtraucherin,The non-smoker,Le non-fumeur,B1
 1276,65,_____ Not,Die,Die Not,The misery,La misère,B1
-1277,65,_____ Notaufnahme,Die,Die Notaufnahme,The emergency room,La salle d'urgence,B1
+1277,65,_____ Notaufnahme,Die,Die Notaufnahme,The emergency room,Les urgences,B1
 1278,65,_____ Notausgang,Der,Der Notausgang,The emergency exit,La sortie de secours,B1
 1279,65,_____ Notfall,Der,Der Notfall,The emergency,L'urgence,B1
 1280,65,_____ Notruf,Der,Der Notruf,The emergency call,L'appel d'urgence,B1
@@ -1322,8 +1322,8 @@ Nr,exercise,question,answer,german,english,french,level
 1321,67,_____ Pilz,Der,Der Pilz,The mushroom,Le champignon,B1
 1322,68,_____ Planung,Die,Die Planung,The planning,La planification,B1
 1323,68,_____ Politik,Die,Die Politik,Politics,Politique,B1
-1324,68,_____ Politiker,Der,Der Politiker,The politician,Le politicien,B1
-1325,68,_____ Politikerin,Die,Die Politikerin,The politician,Le politicien,B1
+1324,68,_____ Politiker,Der,Der Politiker,The politician,L'homme politique,B1
+1325,68,_____ Politikerin,Die,Die Politikerin,The politician,L'homme politique,B1
 1326,68,_____ Polizist,Der,Der Polizist,The policeman,Le policier,B1
 1327,68,_____ Polizistin,Die,Die Polizistin,The policewoman,La policière,B1
 1328,68,_____ Portemonnaie,Das,Das Portemonnaie,The wallet,Le portefeuille,B1
@@ -1346,14 +1346,14 @@ Nr,exercise,question,answer,german,english,french,level
 1345,69,_____ Qualifikation,Die,Die Qualifikation,The qualification,La qualification,B1
 1346,69,_____ Quartier,Das,Das Quartier,The neighborhood,Le quartier,B1
 1347,69,_____ Quittung,Die,Die Quittung,The receipt,Le reçu,B1
-1348,69,_____ Rabatt,Der,Der Rabatt,The discount,La remise,B1
+1348,69,_____ Rabatt,Der,Der Rabatt,The discount,La réduction,B1
 1349,69,_____ Radfahrer,Der,Der Radfahrer,The cyclist,Le cycliste,B1
 1350,69,_____ Radfahrerin,Die,Die Radfahrerin,The cyclist,Le cycliste,B1
 1351,69,_____ Rahm,Der,Der Rahm,The cream,La crème,B1
 1352,69,_____ Rand,Der,Der Rand,The edge,Le bord,B1
 1353,69,_____ Rasen,Der,Der Rasen,The lawn,La pelouse,B1
 1354,69,_____ Rat,Der,Der Rat,The Council,Le Conseil,B1
-1355,69,_____ Ratschlag,Der,Der Ratschlag,The advice,Le conseil,B1
+1355,69,_____ Ratschlag,Der,Der Ratschlag,The advice,Les conseils,B1
 1356,69,_____ Raucherin,Die,Die Raucherin,The smoker,Le fumeur,B1
 1357,69,_____ Reaktion,Die,Die Reaktion,The reaction,La réaction,B1
 1358,69,_____ Realität,Die,Die Realität,The reality,La réalité,B1
@@ -1388,7 +1388,7 @@ Nr,exercise,question,answer,german,english,french,level
 1387,71,_____ Rundfahrt,Die,Die Rundfahrt,The tour,La tournée,B1
 1388,71,_____ Rückfahrt,Die,Die Rückfahrt,The return journey,Le voyage de retour,B1
 1389,71,_____ Rückkehr,Die,Die Rückkehr,The Return,Le retour,B1
-1390,71,_____ Saal,Der,Der Saal,The hall,La salle,B1
+1390,71,_____ Saal,Der,Der Saal,The hall,Le hall,B1
 1391,71,_____ Sack,Der,Der Sack,The sack,Le sac,B1
 1392,71,_____ Sahne,Die,Die Sahne,The cream,La crème,B1
 1393,71,_____ Saison,Die,Die Saison,The season,La saison,B1
@@ -1399,8 +1399,8 @@ Nr,exercise,question,answer,german,english,french,level
 1398,71,_____ Schachtel,Die,Die Schachtel,The box,La boîte,B1
 1399,71,_____ Schade,Der,Der Schade,The damage,Les dégâts,B1
 1400,71,_____ Schaden,Der,Der Schaden,The damage,Les dégâts,B1
-1401,71,_____ Schatten,Der,Der Schatten,The Shadow,L'Ombre,B1
-1402,72,_____ Schaufenster,Das,Das Schaufenster,The shop window,La vitrine,B1
+1401,71,_____ Schatten,Der,Der Schatten,The Shadow,L'ombre,B1
+1402,72,_____ Schaufenster,Das,Das Schaufenster,The shop window,La vitrine du magasin,B1
 1403,72,_____ Schauspieler,Der,Der Schauspieler,The actor,L'acteur,B1
 1404,72,_____ Schauspielerin,Die,Die Schauspielerin,The actress,L'actrice,B1
 1405,72,_____ Scheibe,Die,Die Scheibe,The disc,Le disque,B1
@@ -1424,44 +1424,44 @@ Nr,exercise,question,answer,german,english,french,level
 1423,73,_____ Schriftstellerin,Die,Die Schriftstellerin,The writer,L'écrivain,B1
 1424,73,_____ Schritt,Der,Der Schritt,The step,L'étape,B1
 1425,73,_____ Schularbeit,Die,Die Schularbeit,The school work,Le travail scolaire,B1
-1426,73,_____ Schuld,Die,Die Schuld,The blame,Le blâme,B1
+1426,73,_____ Schuld,Die,Die Schuld,The blame,La faute,B1
 1427,73,_____ Schulter,Die,Die Schulter,The shoulder,L'épaule,B1
 1428,73,_____ Schutz,Der,Der Schutz,The protection,La protection,B1
 1429,73,_____ Schwangerschaft,Die,Die Schwangerschaft,The pregnancy,La grossesse,B1
 1430,73,_____ Schwierigkeit,Die,Die Schwierigkeit,The difficulty,La difficulté,B1
 1431,73,_____ Schüssel,Die,Die Schüssel,The bowl,Le bol,B1
 1432,73,_____ Sekretär,Der,Der Sekretär,The Secretary,Le secrétaire,B1
-1433,73,_____ Sekretärin,Die,Die Sekretärin,The secretary,Le secrétaire,B1
+1433,73,_____ Sekretärin,Die,Die Sekretärin,The secretary,La secrétaire,B1
 1434,73,_____ Semester,Das,Das Semester,The semester,Le semestre,B1
 1435,73,_____ Seminar,Das,Das Seminar,The seminar,Le séminaire,B1
 1436,73,_____ Semmel,Die,Die Semmel,The roll,Le rouleau,B1
 1437,73,_____ Sender,Der,Der Sender,The transmitter,L'émetteur,B1
 1438,73,_____ Senior,Der,Der Senior,The senior,Le senior,B1
-1439,73,_____ Seniorin,Die,Die Seniorin,The senior citizen,La personne âgée,B1
+1439,73,_____ Seniorin,Die,Die Seniorin,The senior citizen,Le citoyen âgé,B1
 1440,73,_____ Serie,Die,Die Serie,The series,La série,B1
 1441,73,_____ Sessel,Der,Der Sessel,The armchair,Le fauteuil,B1
 1442,74,_____ Sicherheit,Die,Die Sicherheit,The security,La sécurité,B1
 1443,74,_____ Sieg,Der,Der Sieg,The victory,La victoire,B1
 1444,74,_____ Sieger,Der,Der Sieger,The winner,Le gagnant,B1
 1445,74,_____ Siegerin,Die,Die Siegerin,The winner,Le gagnant,B1
-1446,74,_____ Sinn,Der,Der Sinn,The meaning,Le sens,B1
+1446,74,_____ Sinn,Der,Der Sinn,The meaning,La signification,B1
 1447,74,_____ Sitz,Der,Der Sitz,The seat,Le siège,B1
 1448,74,_____ Ski,Der,Der Ski,The ski,Le ski,B1
 1449,74,_____ Socke,Die,Die Socke,The sock,La chaussette,B1
 1450,74,_____ Sonderangebot,Das,Das Sonderangebot,The special offer,L'offre spéciale,B1
 1451,74,_____ Sorge,Die,Die Sorge,The concern,L'inquiétude,B1
 1452,74,_____ Souvenir,Das,Das Souvenir,The souvenir,Le souvenir,B1
-1453,74,_____ Sozialarbeiter,Der,Der Sozialarbeiter,The social worker,L'assistante sociale,B1
-1454,74,_____ Sozialarbeiterin,Die,Die Sozialarbeiterin,The social worker,L'assistante sociale,B1
+1453,74,_____ Sozialarbeiter,Der,Der Sozialarbeiter,The social worker,L'assistant social,B1
+1454,74,_____ Sozialarbeiterin,Die,Die Sozialarbeiterin,The social worker,L'assistant social,B1
 1455,74,_____ Soße,Die,Die Soße,The sauce,La sauce,B1
 1456,74,_____ Speise,Die,Die Speise,The dish,Le plat,B1
-1457,74,_____ Speisewagen,Der,Der Speisewagen,The dining car,La voiture-restaurant,B1
+1457,74,_____ Speisewagen,Der,Der Speisewagen,The dining car,Le wagon-restaurant,B1
 1458,74,_____ Spezialist,Der,Der Spezialist,The specialist,Le spécialiste,B1
 1459,74,_____ Spezialistin,Die,Die Spezialistin,The specialist,Le spécialiste,B1
 1460,74,_____ Spiegel,Der,Der Spiegel,The mirror,Le miroir,B1
 1461,74,_____ Spieler,Der,Der Spieler,The player,Le joueur,B1
 1462,75,_____ Spielerin,Die,Die Spielerin,The player,Le joueur,B1
-1463,75,_____ Spielplatz,Der,Der Spielplatz,The playground,Le terrain de jeu,B1
+1463,75,_____ Spielplatz,Der,Der Spielplatz,The playground,L'aire de jeux,B1
 1464,75,_____ Spielzeug,Das,Das Spielzeug,The toy,Le jouet,B1
 1465,75,_____ Sportart,Die,Die Sportart,The sport,Le sport,B1
 1466,75,_____ Sportler,Der,Der Sportler,The athlete,L'athlète,B1
@@ -1480,14 +1480,14 @@ Nr,exercise,question,answer,german,english,french,level
 1479,75,_____ Stein,Der,Der Stein,The stone,La pierre,B1
 1480,75,_____ Stempel,Der,Der Stempel,The stamp,Le timbre,B1
 1481,75,_____ Stern,Der,Der Stern,The Star,L'étoile,B1
-1482,76,_____ Steuer,Die,Die Steuer,The tax,La taxe,B1
+1482,76,_____ Steuer,Die,Die Steuer,The tax,L'impôt,B1
 1483,76,_____ Steward,Der,Der Steward,The Steward,L'intendant,B1
 1484,76,_____ Stewardess,Die,Die Stewardess,The stewardess,L'hôtesse de l'air,B1
 1485,76,_____ Stiege,Die,Die Stiege,The Staircase,L'escalier,B1
 1486,76,_____ Stiegenhaus,Das,Das Stiegenhaus,The staircase,L'escalier,B1
 1487,76,_____ Stil,Der,Der Stil,The style,Le style,B1
 1488,76,_____ Stimme,Die,Die Stimme,The voice,La voix,B1
-1489,76,_____ Stimmung,Die,Die Stimmung,The mood,L'ambiance,B1
+1489,76,_____ Stimmung,Die,Die Stimmung,The mood,L'humeur,B1
 1490,76,_____ Stoff,Der,Der Stoff,The fabric,Le tissu,B1
 1491,76,_____ Strafe,Die,Die Strafe,The punishment,La punition,B1
 1492,76,_____ Strafzettel,Der,Der Strafzettel,The ticket,Le billet,B1
@@ -1547,8 +1547,8 @@ Nr,exercise,question,answer,german,english,french,level
 1546,79,_____ Treffpunkt,Der,Der Treffpunkt,The meeting point,Le point de rencontre,B1
 1547,79,_____ Trennung,Die,Die Trennung,The separation,La séparation,B1
 1548,79,_____ Treppenhaus,Das,Das Treppenhaus,The staircase,L'escalier,B1
-1549,79,_____ Trinkgeld,Das,Das Trinkgeld,The tip,La pointe,B1
-1550,79,_____ Tropfen,Der,Der Tropfen,The drop,La goutte,B1
+1549,79,_____ Trinkgeld,Das,Das Trinkgeld,The tip,Le pourboire,B1
+1550,79,_____ Tropfen,Der,Der Tropfen,The drop,La chute,B1
 1551,79,_____ Trottoir,Das,Das Trottoir,The sidewalk,Le trottoir,B1
 1552,79,_____ Träne,Die,Die Träne,The tear,La larme,B1
 1553,79,_____ Tuch,Das,Das Tuch,The cloth,Le tissu,B1
@@ -1562,11 +1562,11 @@ Nr,exercise,question,answer,german,english,french,level
 1561,79,_____ Ufer,Das,Das Ufer,The shore,Le rivage,B1
 1562,80,_____ Umfrage,Die,Die Umfrage,The survey,L'enquête,B1
 1563,80,_____ Umgebung,Die,Die Umgebung,The environment,L'environnement,B1
-1564,80,_____ Umleitung,Die,Die Umleitung,The diversion,La diversion,B1
+1564,80,_____ Umleitung,Die,Die Umleitung,The diversion,Le détournement,B1
 1565,80,_____ Umtausch,Der,Der Umtausch,The exchange,L'échange,B1
 1566,80,_____ Umwelt,Die,Die Umwelt,The environment,L'environnement,B1
 1567,80,_____ Umweltschutz,Der,Der Umweltschutz,Environmental protection,Protection de l'environnement,B1
-1568,80,_____ Umweltverschmutzung,Die,Die Umweltverschmutzung,Environmental pollution,Pollution de l'environnement,B1
+1568,80,_____ Umweltverschmutzung,Die,Die Umweltverschmutzung,Environmental pollution,pollution environnementale,B1
 1569,80,_____ Unglück,Das,Das Unglück,The misfortune,Le malheur,B1
 1570,80,_____ Uniform,Die,Die Uniform,The uniform,L'uniforme,B1
 1571,80,_____ Unterhaltung,Die,Die Unterhaltung,The entertainment,Le divertissement,B1
@@ -1617,7 +1617,7 @@ Nr,exercise,question,answer,german,english,french,level
 1616,82,_____ Visum,Das,Das Visum,The visa,Le visa,B1
 1617,82,_____ Vitamin,Das,Das Vitamin,The vitamin,La vitamine,B1
 1618,82,_____ Vollzeit,Die,Die Vollzeit,The full-time,Le temps plein,B1
-1619,82,_____ Voraussetzung,Die,Die Voraussetzung,The prerequisite,La condition préalable,B1
+1619,82,_____ Voraussetzung,Die,Die Voraussetzung,The prerequisite,Le prérequis,B1
 1620,82,_____ Vorbereitung,Die,Die Vorbereitung,The preparation,La préparation,B1
 1621,82,_____ Vorfahrt,Die,Die Vorfahrt,The right of way,Le droit de passage,B1
 1622,83,_____ Vorort,Der,Der Vorort,The suburb,La banlieue,B1
@@ -1636,7 +1636,7 @@ Nr,exercise,question,answer,german,english,french,level
 1635,83,_____ Ware,Die,Die Ware,The goods,Les marchandises,B1
 1636,83,_____ Waschmittel,Das,Das Waschmittel,The detergent,Le détergent,B1
 1637,83,_____ Wecker,Der,Der Wecker,The alarm clock,Le réveil,B1
-1638,83,_____ Weiterbildung,Die,Die Weiterbildung,Further training,Formation continue,B1
+1638,83,_____ Weiterbildung,Die,Die Weiterbildung,Further training,Formation complémentaire,B1
 1639,83,_____ Werbung,Die,Die Werbung,The advertising,La publicité,B1
 1640,83,_____ Werk,Das,Das Werk,The work,Le travail,B1
 1641,83,_____ Werkzeug,Das,Das Werkzeug,The tool,L'outil,B1
@@ -1656,7 +1656,7 @@ Nr,exercise,question,answer,german,english,french,level
 1655,84,_____ Wohnort,Der,Der Wohnort,The place of residence,Le lieu de résidence,B1
 1656,84,_____ Wohnsitz,Der,Der Wohnsitz,The residence,La résidence,B1
 1657,84,_____ Wolle,Die,Die Wolle,The wool,La laine,B1
-1658,84,_____ Wunde,Die,Die Wunde,The wound,La blessure,B1
+1658,84,_____ Wunde,Die,Die Wunde,The wound,La plaie,B1
 1659,84,_____ Wunder,Das,Das Wunder,The miracle,Le miracle,B1
 1660,84,_____ Wärme,Die,Die Wärme,The warmth,La chaleur,B1
 1661,84,_____ Wörterbuch,Das,Das Wörterbuch,The dictionary,Le dictionnaire,B1
@@ -1666,7 +1666,7 @@ Nr,exercise,question,answer,german,english,french,level
 1665,85,_____ Zahncrème,Die,Die Zahncrème,The toothpaste,Le dentifrice,B1
 1666,85,_____ Zahnpasta,Die,Die Zahnpasta,The toothpaste,Le dentifrice,B1
 1667,85,_____ Zange,Die,Die Zange,The pliers,La pince,B1
-1668,85,_____ Zeichen,Das,Das Zeichen,The sign,Le signe,B1
+1668,85,_____ Zeichen,Das,Das Zeichen,The sign,Le panneau,B1
 1669,85,_____ Zeichnung,Die,Die Zeichnung,The drawing,Le dessin,B1
 1670,85,_____ Zeile,Die,Die Zeile,The line,La ligne,B1
 1671,85,_____ Zeitpunkt,Der,Der Zeitpunkt,The timing,Le timing,B1
@@ -1700,9 +1700,9 @@ Nr,exercise,question,answer,german,english,french,level
 1699,86,_____ Zündholz,Das,Das Zündholz,The match,Le match,B1
 1700,86,_____ Änderung,Die,Die Änderung,The change,Le changement,B1
 1701,86,_____ Ärger,Der,Der Ärger,The anger,La colère,B1
-1702,87,_____ Ärztin,Die,Die Ärztin,The doctor,Le docteur,B1
+1702,87,_____ Ärztin,Die,Die Ärztin,The doctor,Le médecin,B1
 1703,87,_____ Öffentlichkeit,Die,Die Öffentlichkeit,The public,Le public,B1
-1704,87,_____ Übernachtung,Die,Die Übernachtung,The overnight stay,La nuitée,B1
+1704,87,_____ Übernachtung,Die,Die Übernachtung,The overnight stay,Le séjour d'une nuit,B1
 1705,87,_____ Überraschung,Die,Die Überraschung,The surprise,La surprise,B1
 1706,87,_____ Überschrift,Die,Die Überschrift,The headline,Le titre,B1
 1707,87,_____ Übersetzer,Der,Der Übersetzer,The translator,Le traducteur,B1
@@ -1711,25 +1711,25 @@ Nr,exercise,question,answer,german,english,french,level
 1710,87,_____ Überweisung,Die,Die Überweisung,The transfer,Le transfert,B1
 1711,87,_____ Überzeugung,Die,Die Überzeugung,The conviction,La condamnation,B1
 1712,87,_____ Übung,Die,Die Übung,The exercise,L'exercice,B1
-1713,100,_____ Deutsche,"Die, Der","Die, Der Deutsche","The, The German","Le, L'Allemand",A1
-1714,100, Eltern,, Eltern, Parents, Parents,A1
+1713,100,_____ Deutsche,"Die, Der","Die, Der Deutsche","The, The German","Le, l'allemand",A1
+1714,100,_____ Eltern,Die,Die Eltern, Parents, Parents,A1
 1715,100,_____ Erwachsene,"Die, Der","Die, Der Erwachsene","The, The Adult","Le, L'Adulte",A1
-1716,100, Großeltern,, Großeltern,grandparents,grands-parents,A1
-1717,100,_____ Jugendliche,"Die, Der","Die, Der Jugendliche","The, The Teenager",L'Adolescent,A1
-1718,100, Leute,Die, Leute, People, Personnes,A1
+1716,100,_____ Großeltern,Die,Die Großeltern,grandparents,grands-parents,A1
+1717,100,_____ Jugendliche,"Die, Der","Die, Der Jugendliche","The, The Teenager",L'adolescent,A1
+1718,100,_____ Leute,Die,Die Leute, People, Personnes,A1
 1719,100,_____ Liter,"Der, Das","Der, Das Liter","The, The Liter","Le, Le Litre",A1
 1720,100,_____ Teil,"Der, Das","Der, Das Teil","The, The Part","La, La Partie",A1
 1721,100,_____ Verwandte,"Die, Der","Die, Der Verwandte","The, The relative","Le, Le relatif",A1
-1722,100,_____ Blog,"Das, Der","Das, Der Blog","The, The Blog","Le, Le Blog",A2
-1723,100, Ferien,, Ferien, Holidays, Vacances,A2
+1722,100,_____ Blog,"Das, Der","Das, Der Blog","The, The Blog",Le blog,A2
+1723,100,_____ Ferien,Die,Die Ferien, Holidays, Vacances,A2
 1724,100,_____ Tablet,"Das, Der","Das, Der Tablet","The, The Tablet","La, La Tablette",A2
 1725,100,_____ Volleyball,"Der, Das","Der, Das Volleyball",The Volleyball,Le volley-ball,A2
 1726,100,_____ Angehörige,"Die, Der","Die, Der Angehörige","The, The relative","Le, Le relatif",B1
 1727,100,_____ Angestellte,"Der, Die","Der, Die Angestellte","The, The Employee",L'employé,B1
-1728,100, Daten,, Daten, Data, Données,B1
-1729,100, Fachleute,, Fachleute,experts,experts,B1
-1730,100,_____ Klick,"Der, Das","Der, Das Klick","The, The Click","Le, Le Clic",B1
-1731,100, Kosten,, Kosten, Cost, Coût,B1
+1728,100,_____ Daten,Die,Die Daten, Data, Données,B1
+1729,100,_____ Fachleute,Die,Die Fachleute,experts,experts,B1
+1730,100,_____ Klick,"Der, Das","Der, Das Klick","The, The Click","Le, Le Click",B1
+1731,100,_____ Kosten,Die,Die Kosten, Cost, Coût,B1
 1732,100,_____ Kranke,"Die, Der","Die, Der Kranke","The, The Sick","Le, Le Malade",B1
 1733,100,_____ Nichtraucher,"Der, Das","Der, Das Nichtraucher","The, The Non-Smoker","Le, Le Non-fumeur",B1
 1734,100,_____ Plastik,"Das, Der","Das, Der Plastik","The, The Sculpture","La, La Sculpture",B1
@@ -1738,5 +1738,5 @@ Nr,exercise,question,answer,german,english,french,level
 1737,100,_____ Serviceangestellte,"Die, Der","Die, Der Serviceangestellte","The, The service employee",L'employé de service,B1
 1738,100,_____ Studierende,"Die, Der","Die, Der Studierende","The, The Student",L'étudiant,B1
 1739,100,_____ Tote,"Die, Der","Die, Der Tote","The, The Dead","Les, Les Morts",B1
-1740,100,_____ Znüni,"Das, Der","Das, Der Znüni","That, the morning snack","Ça, la collation du matin",B1
+1740,100,_____ Znüni,"Das, Der","Das, Der Znüni","That, the morning snack","Voilà, le goûter du matin",B1
 1741,100,_____ Bekannte,"Die, Der","Die, Der Bekannte","The, The Acquaintance","La, La Connaissance",A1

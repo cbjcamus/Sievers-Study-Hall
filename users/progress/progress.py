@@ -88,10 +88,13 @@ def compute_answered_questions_exercise(session, unit, exercise):
         finished = ("score" in s) or ("result" in s) or (row.completed_at is not None)
 
         if finished:
+            '''
             # Prefer stored total; otherwise compute from CSV
             total = s.get("total_questions")
             if total is None:
                 total = compute_total_questions(unit, ex_int)
+            '''
+            total = compute_total_questions(unit, ex_int)
             return int(total or 0)
 
         # Not finished → number of correct so far

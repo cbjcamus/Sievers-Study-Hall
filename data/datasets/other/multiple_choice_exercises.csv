@@ -24,11 +24,21 @@ multiple-choice,verben,32,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreig
 multiple-choice,verben,33,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
 multiple-choice,verben,34,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
 multiple-choice,verben,35,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
-multiple-choice,verben,36,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",foreign,question
-multiple-choice,verben,37,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",foreign,question
-multiple-choice,verben,38,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",foreign,question
-multiple-choice,verben,39,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",foreign,question
-multiple-choice,verben,40,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",foreign,question
+multiple-choice,verben,36,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple-choice,verben,37,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple-choice,verben,38,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple-choice,verben,39,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple-choice,verben,40,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple-choice,verben,41,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,42,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,43,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,44,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,45,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,46,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,47,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,48,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,49,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple-choice,verben,50,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
 multiple-choice,adjektive,24,"24, 25, 26",answer,foreign
 multiple-choice,adjektive,25,"24, 25, 26",answer,foreign
 multiple-choice,adjektive,26,"24, 25, 26",answer,foreign
@@ -41,13 +51,3 @@ multiple-choice,adjektive,32,"30, 31, 32",answer,foreign
 multiple-choice,adjektive,33,"33, 34, 35",foreign,question
 multiple-choice,adjektive,34,"33, 34, 35",foreign,question
 multiple-choice,adjektive,35,"33, 34, 35",foreign,question
-multiple-choice,adverbien,33,"33, 35, 37, 39, 41",answer,foreign
-multiple-choice,adverbien,34,"34, 36, 38, 40, 42",foreign,question
-multiple-choice,adverbien,35,"33, 35, 37, 39, 41",answer,foreign
-multiple-choice,adverbien,36,"34, 36, 38, 40, 42",foreign,question
-multiple-choice,adverbien,37,"33, 35, 37, 39, 41",answer,foreign
-multiple-choice,adverbien,38,"34, 36, 38, 40, 42",foreign,question
-multiple-choice,adverbien,39,"33, 35, 37, 39, 41",answer,foreign
-multiple-choice,adverbien,40,"34, 36, 38, 40, 42",foreign,question
-multiple-choice,adverbien,41,"33, 35, 37, 39, 41",answer,foreign
-multiple-choice,adverbien,42,"34, 36, 38, 40, 42",foreign,question

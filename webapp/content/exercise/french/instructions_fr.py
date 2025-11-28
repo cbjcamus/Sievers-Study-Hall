@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    praepositionen_artikel, praepositionen_adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -145,6 +145,10 @@ INSTRUCTION_FR = {
         7: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
         8: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
         9: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
+    },
+
+    praepositionen_adverbien: {
+        1: "Something"
     },
 
     artikel: {
@@ -335,17 +339,28 @@ INSTRUCTION_FR = {
 
         5: "Traduisez le connecteur suivant :",
         6: "Complétez la phrase suivante avec le connecteur qui convient :",
-        7: "Trouvez un synonyme pour le connecteur suivant :",
+        7: "Traduisez le connecteur suivant :",
+        8: "Complétez la phrase suivante avec le connecteur qui convient :",
+        9: "Traduisez le connecteur suivant :",
+        10: "Complétez la phrase suivante avec le connecteur qui convient :",
+        11: "Trouvez un synonyme pour le connecteur suivant :",
 
-        8: "Traduisez le connecteur suivant :",
-        9: "Complétez la phrase suivante avec le connecteur qui convient :",
-        10: "Traduisez le connecteur suivant :",
-        11: "Complétez la phrase suivante avec le connecteur qui convient :",
-        12: "Trouvez un synonyme pour le connecteur suivant :",
+        12: "Traduisez le connecteur suivant :",
+        13: "Complétez la phrase suivante avec le connecteur qui convient :",
+        14: "Traduisez le connecteur suivant :",
+        15: "Complétez la phrase suivante avec le connecteur qui convient :",
+        16: "Traduisez le connecteur suivant :",
+        17: "Complétez la phrase suivante avec le connecteur qui convient :",
+        18: "Trouvez un synonyme pour le connecteur suivant :",
 
-        13: "Traduisez le connecteur suivant :",
-        14: "Complétez la phrase suivante avec le connecteur qui convient :",
-        15: "Trouvez un synonyme pour le connecteur suivant :",
+        19: "Traduisez le connecteur suivant :",
+        20: "Complétez la phrase suivante avec le connecteur qui convient :",
+        21: "Traduisez le connecteur suivant :",
+        22: "Complétez la phrase suivante avec le connecteur qui convient :",
+        23: "Traduisez le connecteur suivant :",
+        24: "Complétez la phrase suivante avec le connecteur qui convient :",
+        25: "Trouvez un synonyme pour le connecteur suivant :",
+        26: "Trouvez un synonyme pour le connecteur suivant :",
     },
 
     fragen: {
@@ -377,8 +392,8 @@ INSTRUCTION_FR = {
         6: "Complétez la phrase suivante avec l'adverbe qui convient :",
         7: "Traduisez l'adverbe suivant :",
         8: "Complétez la phrase suivante avec l'adverbe qui convient :",
-        9: "Traduisez l'adverbe suivant :",
-        10: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        9: "Trouvez un synonyme pour l'adverbe suivant :",
+        10: "Écrivez l'antonyme de l'adverbe suivant :",
 
         11: "Traduisez l'adverbe suivant :",
         12: "Complétez la phrase suivante avec l'adverbe qui convient :",
@@ -388,9 +403,9 @@ INSTRUCTION_FR = {
         16: "Complétez la phrase suivante avec l'adverbe qui convient :",
         17: "Traduisez l'adverbe suivant :",
         18: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        19: "Trouvez un synonyme pour l'adverbe suivant :",
+        20: "Écrivez l'antonyme de l'adverbe suivant :",
 
-        19: "Traduisez l'adverbe suivant :",
-        20: "Complétez la phrase suivante avec l'adverbe qui convient :",
         21: "Traduisez l'adverbe suivant :",
         22: "Complétez la phrase suivante avec l'adverbe qui convient :",
         23: "Traduisez l'adverbe suivant :",
@@ -399,23 +414,45 @@ INSTRUCTION_FR = {
         26: "Complétez la phrase suivante avec l'adverbe qui convient :",
         27: "Traduisez l'adverbe suivant :",
         28: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        29: "Trouvez un synonyme pour l'adverbe suivant :",
+        30: "Écrivez l'antonyme de l'adverbe suivant :",
 
-        29: "Traduisez l'adverbe suivant :",
-        30: "Complétez la phrase suivante avec l'adverbe qui convient :",
         31: "Traduisez l'adverbe suivant :",
         32: "Complétez la phrase suivante avec l'adverbe qui convient :",
-        33: "Trouvez la traduction correcte de l'adverbe suivant :",
-        34: "Trouvez la traduction correcte de l'adverbe suivant :",
-        35: "Trouvez la traduction correcte de l'adverbe suivant :",
-        36: "Trouvez la traduction correcte de l'adverbe suivant :",
-        37: "Trouvez la traduction correcte de l'adverbe suivant :",
-        38: "Trouvez la traduction correcte de l'adverbe suivant :",
-        39: "Trouvez la traduction correcte de l'adverbe suivant :",
-        40: "Trouvez la traduction correcte de l'adverbe suivant :",
-        41: "Trouvez la traduction correcte de l'adverbe suivant :",
-        42: "Trouvez la traduction correcte de l'adverbe suivant :",
-        43: "Trouvez la traduction correcte de l'adverbe suivant :",
-        44: "Trouvez la traduction correcte de l'adverbe suivant :",
+        33: "Traduisez l'adverbe suivant :",
+        34: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        35: "Traduisez l'adverbe suivant :",
+        36: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        37: "Traduisez l'adverbe suivant :",
+        38: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        39: "Trouvez un synonyme pour l'adverbe suivant :",
+        40: "Écrivez l'antonyme de l'adverbe suivant :",
+
+        41: "Traduisez l'adverbe suivant :",
+        42: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        43: "Traduisez l'adverbe suivant :",
+        44: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        45: "Traduisez l'adverbe suivant :",
+        46: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        47: "Traduisez l'adverbe suivant :",
+        48: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        49: "Trouvez un synonyme pour l'adverbe suivant :",
+        50: "Écrivez l'antonyme de l'adverbe suivant :",
+
+        51: "Traduisez l'adverbe suivant :",
+        52: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        53: "Traduisez l'adverbe suivant :",
+        54: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        55: "Traduisez l'adverbe suivant :",
+        56: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        57: "Traduisez l'adverbe suivant :",
+        58: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        59: "Trouvez un synonyme pour l'adverbe suivant :",
+        60: "Écrivez l'antonyme de l'adverbe suivant :",
+    },
+
+    wortstellung: {
+        1: "",
     },
 
     adjektive: {
@@ -529,6 +566,7 @@ INSTRUCTION_FR = {
         28: "Traduisez le verbe suivant :",
         29: "Traduisez le verbe suivant :",
         30: "Traduisez le verbe suivant :",
+
         31: "Traduisez le verbe suivant :",
         32: "Traduisez le verbe suivant :",
         33: "Traduisez le verbe suivant :",
@@ -539,6 +577,16 @@ INSTRUCTION_FR = {
         38: "Traduisez le verbe suivant :",
         39: "Traduisez le verbe suivant :",
         40: "Traduisez le verbe suivant :",
+        41: "Traduisez le verbe suivant :",
+        42: "Traduisez le verbe suivant :",
+        43: "Traduisez le verbe suivant :",
+        44: "Traduisez le verbe suivant :",
+        45: "Traduisez le verbe suivant :",
+        46: "Traduisez le verbe suivant :",
+        47: "Traduisez le verbe suivant :",
+        48: "Traduisez le verbe suivant :",
+        49: "Traduisez le verbe suivant :",
+        50: "Traduisez le verbe suivant :",
     },
 
     trennbare_verben: {
@@ -587,6 +635,23 @@ INSTRUCTION_FR = {
         6: "Trouvez le verbe manquant dans la Combinaison Nom-Verbe suivante :",
         7: "Trouvez le nom manquant dans la phrase suivante :",
         8: "Trouvez le verbe manquant dans la phrase suivante :",
+        9: "Trouvez le nom manquant dans la Combinaison Nom-Verbe suivante :",
+        10: "Trouvez le verbe manquant dans la Combinaison Nom-Verbe suivante :",
+        11: "Trouvez le nom manquant dans la phrase suivante :",
+        12: "Trouvez le verbe manquant dans la phrase suivante :",
+
+        13: "Trouvez le nom manquant dans la Combinaison Nom-Verbe suivante :",
+        14: "Trouvez le verbe manquant dans la Combinaison Nom-Verbe suivante :",
+        15: "Trouvez le nom manquant dans la phrase suivante :",
+        16: "Trouvez le verbe manquant dans la phrase suivante :",
+        17: "Trouvez le nom manquant dans la Combinaison Nom-Verbe suivante :",
+        18: "Trouvez le verbe manquant dans la Combinaison Nom-Verbe suivante :",
+        19: "Trouvez le nom manquant dans la phrase suivante :",
+        20: "Trouvez le verbe manquant dans la phrase suivante :",
+        21: "Trouvez le nom manquant dans la Combinaison Nom-Verbe suivante :",
+        22: "Trouvez le verbe manquant dans la Combinaison Nom-Verbe suivante :",
+        23: "Trouvez le nom manquant dans la phrase suivante :",
+        24: "Trouvez le verbe manquant dans la phrase suivante :",
     },
 
     praesens: {
@@ -667,6 +732,7 @@ INSTRUCTION_FR = {
         28: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         29: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         30: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+
         31: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         32: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         33: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
@@ -677,6 +743,16 @@ INSTRUCTION_FR = {
         38: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         39: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         40: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        41: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        42: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        43: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        44: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        45: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        46: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        47: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        48: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        49: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        50: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
     },
 
     praeteritum: {
@@ -714,6 +790,7 @@ INSTRUCTION_FR = {
         29: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         30: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         31: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+
         32: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         33: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         34: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
@@ -724,6 +801,16 @@ INSTRUCTION_FR = {
         39: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         40: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         41: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        42: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        43: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        44: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        45: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        46: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        47: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        48: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        49: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        50: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        51: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
     },
 
     praeteritum_partizip_II: {
@@ -792,6 +879,7 @@ INSTRUCTION_FR = {
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         31: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+
         32: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         33: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -811,6 +899,26 @@ INSTRUCTION_FR = {
         40: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         41: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        42: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        43: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        44: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        45: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        46: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        47: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        48: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        49: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        50: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        51: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
     },
 

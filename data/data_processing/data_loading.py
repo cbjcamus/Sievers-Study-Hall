@@ -6,6 +6,12 @@ from data.data_processing.paths import DATA_PATH
 from data.data_processing.pre_processing import pre_processing
 
 
+def load_data_unit(unit):
+    data = pd.read_csv(DATA_PATH[unit]).fillna("")
+    data = data[data["exercise"] < 100]
+    return data
+
+
 def load_data_exercise(unit, exercise):
     """
     Loads and preprocesses exercise data for a given unit and exercise.

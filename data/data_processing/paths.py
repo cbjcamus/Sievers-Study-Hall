@@ -2,7 +2,7 @@ import os
 
 from data.data_processing.units import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
                                         praepositionen_nomen, praepositionen_adverbien, praepositionen_artikel,
-                                        artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+                                        artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
                                         adjektive, adjektivdeklinationen,
                                         verben, trennbare_verben, nomen_verben_verbindungen,
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
@@ -26,6 +26,7 @@ DATA_PATH = {
     konnektoren: os.path.join(BASE_DIR, "datasets/grammatik", "konnektoren.csv"),
     fragen: os.path.join(BASE_DIR, "datasets/grammatik", "fragen.csv"),
     adverbien: os.path.join(BASE_DIR, "datasets/grammatik", "adverbien.csv"),
+    wortstellung: os.path.join(BASE_DIR, "datasets/grammatik", "wortstellung.csv"),
 
     adjektive: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive.csv"),
     adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/adjektive", "adjektivdeklinationen.csv"),

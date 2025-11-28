@@ -2,7 +2,7 @@ import unicodedata
 
 from flask import session, request
 
-from data.data_processing.units import konnektoren
+from data.data_processing.units import konnektoren, adverbien
 from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH, get_list_of_synonyms_for_feedback
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice, get_answer_column
 
@@ -39,7 +39,7 @@ def is_user_answer_correct(user_answer, correct_answer, question, unit):
     Returns:
         bool: True if the answer is correct, False otherwise.
     """
-    synonym_units = [konnektoren]
+    synonym_units = [konnektoren, adverbien]
 
     if user_answer == question and unit in synonym_units:
         return False
@@ -76,6 +76,7 @@ def normalize_answer(input_str, unit):
     normalized_str = input_str.strip().lower()
     normalized_str = remove_comma(normalized_str)
     normalized_str = normalize_umlaut(normalized_str)
+    normalized_str = replace_umlaut(normalized_str)
     normalized_str = search_for_main_synonym(normalized_str, unit)
     normalized_str = replace_sharp_s(normalized_str)
     return normalized_str
@@ -104,7 +105,9 @@ def remove_comma(input_str):
     Returns:
         str: The string without any commas.
     """
-    return input_str.replace(",", "")
+    output_str = input_str.replace(",", "")
+    output_str = " ".join(output_str.split())
+    return output_str
 
 
 def normalize_umlaut(input_str):
@@ -121,6 +124,22 @@ def normalize_umlaut(input_str):
         str: The normalized string.
     """
     return unicodedata.normalize('NFC', input_str)
+
+
+def replace_umlaut(input_str):
+    """
+    Replaces the German sharp 'ß' character with 'ss' in the input string.
+
+    Args:
+        input_str (str): The string in which to replace umlauts.
+
+    Returns:
+        str: The string with all ü, ä and ö characters replaced by ue, ae, and oe.
+    """
+    output_str = input_str.replace("ä", "ae")
+    output_str = output_str.replace("ö","oe")
+    output_str = output_str.replace("ü","ue")
+    return output_str
 
 
 def get_list_of_correct_answers(correct_answer, unit, file_path=SYNONYMS_PATH):
@@ -143,12 +162,13 @@ def get_list_of_correct_answers(correct_answer, unit, file_path=SYNONYMS_PATH):
     """
     if "/" in correct_answer:
         answers = correct_answer.split("/")
-        answers = [normalize_answer(answer, unit) for answer in answers]
+        # answers = [normalize_answer(answer, unit) for answer in answers]
+        answers = [answer for answer in answers]
         return ', '.join(answers)
 
     else:
-        correct_answer = lowercase_first_letter(correct_answer)
-        synonyms = get_list_of_synonyms_for_feedback(correct_answer, unit, file_path=file_path)
+        # correct_answer = lowercase_first_letter(correct_answer)
+        synonyms = get_list_of_synonyms_for_feedback(lowercase_first_letter(correct_answer), unit, file_path=file_path)
         if not synonyms:
             return correct_answer
         else:
