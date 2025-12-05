@@ -40,8 +40,10 @@ INSTRUCTION_FR = {
         22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         23: "Traduisez le groupe prépositionel ci-dessous :",
         24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        25: "Traduisez la postposition ou la circumposition ci-dessous :",
-        26: "Complétez la phrase ci-dessous avec la postposition ou la circumposition qui convient :",
+        25: "Traduisez la postposition ci-dessous :",
+        26: "Complétez la phrase ci-dessous avec la postposition qui convient :",
+        27: "Trouvez un synonyme pour la préposition suivant :",
+        28: "Trouvez un antonyme pour la préposition suivant :",
     },
 
     praepositionen_verben: {
@@ -81,6 +83,17 @@ INSTRUCTION_FR = {
         30: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         31: "Écrivez la préposition qui correspond au verbe suivant :",
         32: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        33: "Écrivez la préposition qui correspond au verbe suivant :",
+        34: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        35: "Écrivez la préposition qui correspond au verbe suivant :",
+        36: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
+        37: "Écrivez la préposition qui correspond au verbe suivant :",
+        38: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        39: "Écrivez la préposition qui correspond au verbe suivant :",
+        40: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        41: "Écrivez la préposition qui correspond au verbe suivant :",
+        42: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
 
     praepositionen_adjektive: {
@@ -201,6 +214,8 @@ INSTRUCTION_FR = {
 
         42: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
         43: "Complétez la phrase suivante avec l'article qui convient :",
+        44: "Complétez la phrase suivante avec l'article qui convient :",
+        45: "Complétez la phrase suivante avec l'article qui convient :",
     },
 
     artikel_genus: {
@@ -328,6 +343,7 @@ INSTRUCTION_FR = {
         27: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         28: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         29: "Complétez la phrase suivante avec le pronom relatif qui convient – il peut y avoir plusieurs options :",
+        30: "Complétez la phrase suivante avec le pronom relatif qui convient :",
     },
 
     konnektoren: {
@@ -452,7 +468,7 @@ INSTRUCTION_FR = {
     },
 
     wortstellung: {
-        1: "",
+        1: "Placeholder",
     },
 
     adjektive: {

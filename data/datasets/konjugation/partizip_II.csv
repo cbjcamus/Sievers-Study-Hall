@@ -148,7 +148,7 @@ Nr,exercise,question,answer,english,french
 147,8,entscheiden,entschieden,to decide,décider
 148,8,vermissen,vermisst,to miss something or someone,se manquer quelque chose ou quelqu'un
 149,8,werfen,geworfen,to throw,"jeter, lancer"
-150,8,erkennen,erkannt,"to recognise, to realise","reconnaître, réaliser"
+150,8,erkennen,erkannt,"to recognize, to realise","reconnaître, réaliser"
 151,8,teilen,geteilt,"to split, to share, to divide","diviser, partager"
 152,8,bauen,gebaut,to build,construire
 153,8,melden,gemeldet,"to report, to register","signaler, enregistrer"
@@ -715,7 +715,7 @@ Nr,exercise,question,answer,english,french
 714,36,bestrafen,bestraft,to punish,punir
 715,36,stinken,gestunken,to stink,puer
 716,36,berühren,berührt,to touch,toucher
-717,36,anstellen,angestellt,"to queue (refl.), to employ someone, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
+717,36,anstellen,angestellt,"to queue (refl.), to employ someone, to hire, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
 718,36,auftauchen,aufgetaucht,"to arise, to surface, to turn up","surgir, faire surface, apparaître"
 719,36,einfallen,eingefallen,"to collapse, to come to mind","s'effondrer, venir à l'esprit"
 720,36,aussuchen,ausgesucht,"to select, to choose, to pick","sélectionner, choisir, cueillir"
@@ -912,7 +912,7 @@ Nr,exercise,question,answer,english,french
 911,46,publizieren,publiziert,"to publish, to publicize, to announce","publier, faire connaître, annoncer"
 912,46,recyceln,recycelt,to recycle,recycler
 913,46,regieren,regiert,"to govern, to reign, to rule, to command","gouverner, régner, diriger, commander"
-914,46,synchronisieren,synchronisiert,"to synchronize, to dub, to sync, to synchronise","synchroniser, doubler"
+914,46,synchronisieren,synchronisiert,"to synchronize, to dub, to sync","synchroniser, doubler"
 915,46,zurücktreten,zurückgetreten,"to resign, to step back, to step down, to withdraw","démissionner, se retirer, quitter ses fonctions"
 916,46,posten,gepostet,"to post, to shop","poster, acheter"
 917,46,wiederherstellen,wiederhergestellt,"to restore, to recover, to rehabilitate","restaurer, récupérer, réhabiliter"
@@ -939,9 +939,9 @@ Nr,exercise,question,answer,english,french
 938,47,hervorgehen,hervorgegangen,"to result, to arise, to arise from, to emerge","résulter, survenir, provenir de, émerger"
 939,47,verzehren,verzehrt,to consumme (with your mouth),consommer (avec la bouche)
 940,47,ansteigen,angestiegen,to increase,augmenter
-941,48,lehnen,lehnte,to lean,se pencher
-942,48,verbleiben,,to remain,rester
-943,48,vorweisen,,to demonstrate,démontrer
+941,48,lehnen,gelehnt,to lean,se pencher
+942,48,verbleiben,verblieben,to remain,rester
+943,48,vorweisen,vorgewiesen,to demonstrate,démontrer
 944,48,hindern,gehindert,to prevent somebody from doing something,empêcher quelqu'un de faire quelque chose
 945,48,schmerzen,geschmerzt,"to hurt, to ache","faire mal, souffrir"
 946,48,saufen,gesoffen,"to drink (animals), to booze","boire (des animaux), s'enivrer"
@@ -979,26 +979,26 @@ Nr,exercise,question,answer,english,french
 978,49,schiefgehen,schief gegangen,to go wrong,aller mal
 979,49,verschlechtern,verschlechtert,to worsen,s'aggraver
 980,49,abkühlen,abgekühlt,to cool down,pour se rafraîchir
-981,50,stricken,gestrickt,to knit,tricoter
-982,50,erwärmen,erwärmt,to warm,réchauffer
-983,50,ermorden,ermordet,to murder,assassiner
-984,50,scheißen,geschissen,to shit,chier
-985,50,rasieren,rasiert,to shave (refl.),se raser (réfl.)
-986,50,pfeffern,pfefferte,to season with pepper,assaisonner avec du poivre
-987,50,bestreuen,bestreute,to sprinkle,saupoudrer
-988,50,einprägen,eingeprägt,to memorize,mémoriser
-989,50,wiedersehen,wiedergesehen,"to see again, to meet again","revoir, se revoir"
-990,50,verrühren,verrührt,"to stir, to mix","remuer, mélanger"
-991,50,leeren,geleert,to empty,vider
-992,50,kämmen,gekämmt,to comb,peigner
-993,50,salzen,salzte,to season with salt,assaisonner avec du sel
-994,50,beglückwünschen,beglückwünscht,"to congratulate, to felicitate","féliciter, féliciter"
-995,50,kürzen,gekürzt,"to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
-996,50,einschreiben,eingeschrieben,"to sign up, to enroll","s'inscrire, s'inscrire"
-997,50,säubern,gesäubert,to clean,nettoyer
-998,50,verdammen,verdammt,"to condemn, to damn","condamner, damner"
-999,50,entkommen,entkommen,to escape,s'échapper
-1000,50,begraben,begraben,to bury,enterrer
-1001,120,nützen,,,
-1002,120,schleichen,,"to sneak, to creep","se faufiler, ramper"
-1003,120,schwingen,,,
+981,50,scheißen,geschissen,to shit,chier
+982,50,rasieren,rasiert,to shave (refl.),se raser (réfl.)
+983,50,bestreuen,bestreute,to sprinkle,saupoudrer
+984,50,einprägen,eingeprägt,to memorize,mémoriser
+985,50,wiedersehen,wiedergesehen,"to see again, to meet again","revoir, se revoir"
+986,50,verrühren,verrührt,"to stir, to mix","remuer, mélanger"
+987,50,leeren,geleert,to empty,vider
+988,50,kürzen,gekürzt,"to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
+989,50,einschreiben,eingeschrieben,"to sign up, to enroll","s'inscrire, s'inscrire"
+990,50,zuschauen,zugeschaut,"to watch, to look on, to observe","regarder, observer, surveiller"
+991,50,abbringen,abgebracht,to dissuade,dissuader
+992,50,adressieren,adressiert,to address,adresser
+993,50,ängstigen,geängstigt,to frighten,effrayer
+994,50,ekeln,geekelt,to disgust,dégoûter
+995,50,fussen,gefußt,to be based on,être basé sur
+996,50,spotten,gespottet,to mock,se moquer
+997,50,verheimlichen,verheimlicht,to conceal,dissimuler
+998,50,staunen,gestaunt,"to be astonished, to be amazed","être étonné, être émerveillé"
+999,50,debattieren,debattiert,"to discuss, to debate, to argue","discuter, débattre, argumenter"
+1000,50,sehnen,gesehnt,"to long for, to crave","désirer ardemment, avoir envie de"
+1001,100,stricken,gestrickt,to knit,tricoter
+1002,100,erwärmen,erwärmt,to warm,réchauffer
+1003,100,ermorden,ermordet,to murder,assassiner

@@ -5,7 +5,7 @@ Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
 4,1,können,"can, to be able to","pouvoir, être capable de",kann,kannst,kann,können,könnt,können
 5,1,wollen,to want,vouloir,will,willst,will,wollen,wollt,wollen
 6,2,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",muss,musst,muss,müssen,müsst,müssen
-7,2,sollen,"shall, to be asked (to do something)","devoir, être invité (à faire quelque chose)",soll,sollst,soll,sollen,sollt,sollen
+7,2,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)",soll,sollst,soll,sollen,sollt,sollen
 8,2,mögen,to like,"aimer, apprécier",mag,magst,mag,mögen,mögt,mögen
 9,2,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",darf,darfst,darf,dürfen,dürft,dürfen
 10,2,wissen,"to know, to have knowledge",savoir,weiß,weißt,weiß,wissen,wisst,wissen
@@ -94,7 +94,7 @@ Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
 93,19,benutzen,to use (something),utiliser (quelque chose),benutze,benutzt,benutzt,benutzen,benutzt,benutzen
 94,19,schicken,to send,envoyer,schicke,schickst,schickt,schicken,schickt,schicken
 95,19,lachen,to laugh,rire,lache,lachst,lacht,lachen,lacht,lachen
-96,20,scheinen,"to seem, to shine","paraître, briller",scheine,scheinst,scheint,scheinen,scheint,scheinen
+96,20,scheinen,"to shine, to seem (formal)","briller, paraître (formel)",scheine,scheinst,scheint,scheinen,scheint,scheinen
 97,20,ändern,to change (one's personality or behavior),changer (sa personnalité ou son comportement),ändere,änderst,ändert,ändern,ändert,ändern
 98,20,verkaufen,to sell,vendre,verkaufe,verkaufst,verkauft,verkaufen,verkauft,verkaufen
 99,20,gehören,to belong to,appartenir à,gehöre,gehörst,gehört,gehören,gehört,gehören
@@ -114,7 +114,7 @@ Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
 113,23,passen,"to fit, to suit","s'adapter, convenir",passe,passt,passt,passen,passt,passen
 114,23,folgen,to follow,suivre,folge,folgst,folgt,folgen,folgt,folgen
 115,23,ansehen,"to look at something, to watch something","regarder quelque chose, observer quelque chose",sehe an,siehst an,sieht an,sehen an,seht an,sehen an
-116,24,aussehen,"to look (like), to appear","ressembler, apparaître",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus
+116,24,aussehen,"to look like, to appear","paraître, ressembler, apparaître",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus
 117,24,probieren,"to try, to taste, to sample, to probe","essayer, goûter, échantillonner, sonder",probiere,probierst,probiert,probieren,probiert,probieren
 118,24,träumen,to dream,rêver,träume,träumst,träumt,träumen,träumt,träumen
 119,24,fernsehen,to watch TV,regarder la télévision,sehe fern,siehst fern,sieht fern,sehen fern,seht fern,sehen fern
@@ -148,7 +148,7 @@ Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
 147,30,entscheiden,to decide,décider,entscheide,entscheidest,entscheidet,entscheiden,entscheidet,entscheiden
 148,30,vermissen,to miss something or someone,se manquer quelque chose ou quelqu'un,vermisse,vermisst,vermisst,vermissen,vermisst,vermissen
 149,30,werfen,to throw,"jeter, lancer",werfe,wirfst,wirft,werfen,werft,werfen
-150,30,erkennen,"to recognise, to realise","reconnaître, réaliser",erkenne,erkennst,erkennt,erkennen,erkennt,erkennen
+150,30,erkennen,"to recognize, to realise","reconnaître, réaliser",erkenne,erkennst,erkennt,erkennen,erkennt,erkennen
 151,31,teilen,"to split, to share, to divide","diviser, partager",teile,teilst,teilt,teilen,teilt,teilen
 152,31,bauen,to build,construire,baue,baust,baut,bauen,baut,bauen
 153,31,melden,"to report, to register","signaler, enregistrer",melde,meldest,meldet,melden,meldet,melden

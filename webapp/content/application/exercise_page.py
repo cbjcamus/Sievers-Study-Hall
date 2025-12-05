@@ -9,8 +9,8 @@ ENTER_ANSWER_HERE = {
 }
 
 YOUR_ANSWER = {
-    'english': 'Your answer',
-    'french': 'Votre réponse',
+    'english': 'Your answer:',
+    'french': 'Votre réponse :',
 }
 
 ALL_QUESTIONS_SUCCESSFULLY_ANSWERED = {

@@ -843,7 +843,7 @@ Nr,exercise,question,answer,german,english,french,level
 842,44,_____ Diskothek,Die,Die Diskothek,The discotheque,La discothèque,B1
 843,44,_____ Diskussion,Die,Die Diskussion,The discussion,La discussion,B1
 844,44,_____ Distanz,Die,Die Distanz,The distance,La distance,B1
-845,44,_____ Diät,Die,Die Diät,The diet,Le régime alimentaire,B1
+845,44,_____ Diät,Die,Die Diät,The diet,Le régime,B1
 846,44,_____ Doktorin,Die,Die Doktorin,The Doctor,Le Docteur,B1
 847,44,_____ Dokument,Das,Das Dokument,The document,Le document,B1
 848,44,_____ Donner,Der,Der Donner,The Thunder,Le tonnerre,B1
@@ -900,7 +900,7 @@ Nr,exercise,question,answer,german,english,french,level
 899,46,_____ Erkältung,Die,Die Erkältung,The cold,Le froid,B1
 900,46,_____ Erlebnis,Das,Das Erlebnis,The experience,L'expérience,B1
 901,46,_____ Ernte,Die,Die Ernte,The harvest,La récolte,B1
-902,47,_____ Ernährung,Die,Die Ernährung,The diet,Le régime alimentaire,B1
+902,47,_____ Ernährung,Die,Die Ernährung,The diet,Le régime,B1
 903,47,_____ Ersatz,Der,Der Ersatz,The replacement,Le remplacement,B1
 904,47,_____ Erziehung,Die,Die Erziehung,The education,L'éducation,B1
 905,47,_____ Erzählung,Die,Die Erzählung,The story,L'histoire,B1
@@ -1731,7 +1731,7 @@ Nr,exercise,question,answer,german,english,french,level
 1730,100,_____ Klick,"Der, Das","Der, Das Klick","The, The Click","Le, Le Click",B1
 1731,100,_____ Kosten,Die,Die Kosten, Cost, Coût,B1
 1732,100,_____ Kranke,"Die, Der","Die, Der Kranke","The, The Sick","Le, Le Malade",B1
-1733,100,_____ Nichtraucher,"Der, Das","Der, Das Nichtraucher","The, The Non-Smoker","Le, Le non-fumeur",B1
+1733,100,_____ Nichtraucher,"Der, Das","Der, Das Nichtraucher","The, The Non-Smoker","Le, Le Non-fumeur",B1
 1734,100,_____ Plastik,"Das, Der","Das, Der Plastik","The, The Sculpture","La, La Sculpture",B1
 1735,100,_____ Raucher,"Der, Das","Der, Das Raucher","The, The smoker","Le, Le fumeur",B1
 1736,100,_____ Schwammerl,"Der, Das","Der, Das Schwammerl","The, The Mushroom","Le, Le Champignon",B1

@@ -40,8 +40,10 @@ INSTRUCTION_EN = {
         22: "Complete the following sentence with the preposition that fits:",
         23: "Translate the following prepositional phrase:",
         24: "Complete the following sentence with the prepositional phrase that fits:",
-        25: "Translate the following postposition or circumposition:",
-        26: "Complete the following sentence with the postposition or circumposition that fits:",
+        25: "Translate the following postposition:",
+        26: "Complete the following sentence with the postposition that fits:",
+        27: "Find a synonym for the following preposition:",
+        28: "Write an antonym for the following preposition:",
     },
 
     praepositionen_verben: {
@@ -81,6 +83,17 @@ INSTRUCTION_EN = {
         30: "Complete the following sentence with the preposition that fits:",
         31: "Write the preposition that match the following verb:",
         32: "Complete the following sentence with the preposition that fits:",
+        33: "Write the preposition that match the following verb:",
+        34: "Complete the following sentence with the preposition that fits:",
+        35: "Write the preposition that match the following verb:",
+        36: "Complete the following sentence with the preposition that fits:",
+
+        37: "Write the preposition that match the following verb:",
+        38: "Complete the following sentence with the preposition that fits:",
+        39: "Write the preposition that match the following verb:",
+        40: "Complete the following sentence with the preposition that fits:",
+        41: "Write the preposition that match the following verb:",
+        42: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_adjektive: {
@@ -201,6 +214,8 @@ INSTRUCTION_EN = {
 
         42: "Translate the following article based on the case and gender provided:",
         43: "Complete the following sentence with the article that fits:",
+        44: "Complete the following sentence with the article that fits:",
+        45: "Complete the following sentence with the article that fits:",
     },
 
     artikel_genus: {
@@ -328,6 +343,7 @@ INSTRUCTION_EN = {
         27: "Complete the following sentence with the relative pronoun that fits:",
         28: "Complete the following sentence with the relative pronoun that fits:",
         29: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
+        30: "Complete the following sentence with the relative pronoun that fits:",
     },
 
     konnektoren: {
@@ -452,7 +468,7 @@ INSTRUCTION_EN = {
     },
 
     wortstellung: {
-        1: "",
+        1: "Placeholder",
     },
 
     adjektive: {

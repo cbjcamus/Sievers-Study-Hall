@@ -148,7 +148,7 @@ Nr,exercise,question,answer,english,french
 147,9,entscheiden,"entschied, entschieden",to decide,décider
 148,9,vermissen,"vermisste, vermisst",to miss something or someone,se manquer quelque chose ou quelqu'un
 149,9,werfen,"warf, geworfen",to throw,"jeter, lancer"
-150,9,erkennen,"erkannte, erkannt","to recognise, to realise","reconnaître, réaliser"
+150,9,erkennen,"erkannte, erkannt","to recognize, to realise","reconnaître, réaliser"
 151,9,teilen,"teilte, geteilt","to split, to share, to divide","diviser, partager"
 152,9,bauen,"baute, gebaut",to build,construire
 153,9,melden,"meldete, gemeldet","to report, to register","signaler, enregistrer"
@@ -715,7 +715,7 @@ Nr,exercise,question,answer,english,french
 714,37,bestrafen,"bestrafte, bestraft",to punish,punir
 715,37,stinken,"stank, gestunken",to stink,puer
 716,37,berühren,"berührte, berührt",to touch,toucher
-717,37,anstellen,"stellte an, angestellt","to queue (refl.), to employ someone, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
+717,37,anstellen,"stellte an, angestellt","to queue (refl.), to employ someone, to hire, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
 718,37,auftauchen,"tauchte auf, aufgetaucht","to arise, to surface, to turn up","surgir, faire surface, apparaître"
 719,37,einfallen,"fiel ein, eingefallen","to collapse, to come to mind","s'effondrer, venir à l'esprit"
 720,37,aussuchen,"suchte aus, ausgesucht","to select, to choose, to pick","sélectionner, choisir, cueillir"
@@ -865,28 +865,28 @@ Nr,exercise,question,answer,english,french
 864,45,verweisen,"verwies, verwiesen","to refer, to direct","se référer, diriger"
 865,45,vorsehen,"sah vor, vorgesehen","to plan, to provide for","planifier, prévoir"
 866,45,fällen,"fällte, gefällt","to fall, to fell","tomber, tomber"
-867,45,sieben,"siebte, gesiebt",gesiebt,siebte
-868,45,baden,"badete, gebadet",gebadet,badete
-869,45,würzen,"würzte, gewürzt",gewürzt,würzte
-870,45,zerschlagen,"zerschlug, zerschlagen",zerschlagen,zerschlug
-871,45,anklicken,"klickte an, angeklickt",angeklickt,klickte an
-872,45,ausleihen,"lieh aus, ausgeliehen",ausgeliehen,lieh aus
-873,45,austragen,"trug aus, ausgetragen",ausgetragen,trug aus
-874,45,bemalen,"bemalte, bemalt",bemalt,bemalte
-875,45,einpacken,"packte ein, eingepackt",eingepackt,packte ein
-876,45,gratulieren,"gratulierte, gratuliert",gratuliert,gratulierte
-877,45,kommunizieren,"kommunizierte, kommuniziert",kommuniziert,kommunizierte
-878,45,konstruieren,"konstruierte, konstruiert",konstruiert,konstruierte
-879,45,nachfragen,"fragte nach, nachgefragt",nachgefragt,fragte nach
-880,45,recherchieren,"recherchierte, recherchiert",recherchiert,recherchierte
-881,46,scannen,"scannte, gescannt",gescannt,scannte
-882,46,umbauen,"baute um, umgebaut",umgebaut,baute um
-883,46,vergehen,"verging, vergangen",vergangen,verging
-884,46,vermieten,"vermietete, vermietet",vermietet,vermietete
-885,46,vorbeikommen,"kam vorbei, vorbeigekommen",vorbeigekommen,kam vorbei
-886,46,weiterführen,"führte weiter, weitergeführt",weitergeführt,führte weiter
-887,46,weiterleiten,"leitete weiter, weitergeleitet",weitergeleitet,leitete weiter
-888,46,zurückblicken,"blickte zurück, zurückgeblickt",zurückgeblickt,blickte zurück
+867,45,sieben,"siebte, gesiebt","to sieve, to filter","tamiser, filtrer"
+868,45,baden,"badete, gebadet","to bathe, to swim, to take a bath","se baigner, nager, prendre un bain"
+869,45,würzen,"würzte, gewürzt","to season, to flavor","assaisonner, aromatiser"
+870,45,zerschlagen,"zerschlug, zerschlagen","to break, to crush, to defeat, to shatter","briser, écraser, vaincre, anéantir"
+871,45,anklicken,"klickte an, angeklickt","to click, to click on, to press","cliquer, cliquer sur, appuyer"
+872,45,ausleihen,"lieh aus, ausgeliehen","to borrow, to lend, to lend out","emprunter, prêter"
+873,45,austragen,"trug aus, ausgetragen","to deliver, to distribute, to carry out","livrer, distribuer, exécuter"
+874,45,bemalen,"bemalte, bemalt","to paint, to apply makeup, to color","peindre, maquiller, colorier, colorer"
+875,45,einpacken,"packte ein, eingepackt","to pack in, to pack, to wrap, to wrap up","emballer, emballer, conclure"
+876,45,gratulieren,"gratulierte, gratuliert","to congratulate, to compliment on","féliciter, complimenter"
+877,45,kommunizieren,"kommunizierte, kommuniziert","to communicate, to commune, to connect","communiquer, se connecter"
+878,45,konstruieren,"konstruierte, konstruiert","to construct, to design, to build, to fabricate","construire, concevoir, bâtir, fabriquer"
+879,45,nachfragen,"fragte nach, nachgefragt","to ask, to inquire, to demand","demander, s'enquérir, exiger"
+880,45,recherchieren,"recherchierte, recherchiert","to investigate, to research, to do research","enquêter, faire des recherches, mener des recherches"
+881,46,scannen,"scannte, gescannt","to scan, to court, to digitize","scanner, porter devant les tribunaux, numériser"
+882,46,umbauen,"baute um, umgebaut","to rebuild, to reconstruct, to remodel","reconstruire, remodeler"
+883,46,vergehen,"verging, vergangen","to die, to pass, to elapse, to perish","mourir, passer, s'écouler, périr"
+884,46,vermieten,"vermietete, vermietet","to lease, to let, to rent to","louer, donner en location à"
+885,46,vorbeikommen,"kam vorbei, vorbeigekommen","to come by, to come over, to drop by","passer, venir voir, faire un saut"
+886,46,weiterführen,"führte weiter, weitergeführt","to continue, to carry on, to carry forward","continuer, poursuivre, aller de l'avant"
+887,46,weiterleiten,"leitete weiter, weitergeleitet","to forward, to pass on","transmettre, faire passer"
+888,46,zurückblicken,"blickte zurück, zurückgeblickt","to look back, to hark back, to harken back","se souvenir, se remémorer"
 889,46,überreichen,"überreichte, überreicht","to hand over, to present, to submit","remettre, présenter, soumettre"
 890,46,experimentieren,"experimentierte, experimentiert",to experiment,expérimenter
 891,46,umtauschen,"tauschte um, umgetauscht","to convert, to exchange (currency)","convertir, échanger (monnaie)"
@@ -912,7 +912,7 @@ Nr,exercise,question,answer,english,french
 911,47,publizieren,"publizierte, publiziert","to publish, to publicize, to announce","publier, faire connaître, annoncer"
 912,47,recyceln,"recycelte, recycelt",to recycle,recycler
 913,47,regieren,"regierte, regiert","to govern, to reign, to rule, to command","gouverner, régner, diriger, commander"
-914,47,synchronisieren,"synchronisierte, synchronisiert","to synchronize, to dub, to sync, to synchronise","synchroniser, doubler"
+914,47,synchronisieren,"synchronisierte, synchronisiert","to synchronize, to dub, to sync","synchroniser, doubler"
 915,47,zurücktreten,"trat zurück, zurückgetreten","to resign, to step back, to step down, to withdraw","démissionner, se retirer, quitter ses fonctions"
 916,47,posten,"postete, gepostet","to post, to shop","poster, acheter"
 917,47,wiederherstellen,"stellte wieder her, wiederhergestellt","to restore, to recover, to rehabilitate","restaurer, récupérer, réhabiliter"
@@ -939,9 +939,9 @@ Nr,exercise,question,answer,english,french
 938,48,hervorgehen,"ging hervor, hervorgegangen","to result, to arise, to arise from, to emerge","résulter, survenir, provenir de, émerger"
 939,48,verzehren,"verzehrte, verzehrt",to consumme (with your mouth),consommer (avec la bouche)
 940,48,ansteigen,"stieg an, angestiegen",to increase,augmenter
-941,49,lehnen,"gelehnt, lehnte",to lean,se pencher
-942,49,verbleiben,", ",to remain,rester
-943,49,vorweisen,", ",to demonstrate,démontrer
+941,49,lehnen,"lehnte, gelehnt",to lean,se pencher
+942,49,verbleiben,"verblieb, verblieben",to remain,rester
+943,49,vorweisen,"wies vor, vorgewiesen",to demonstrate,démontrer
 944,49,hindern,"hinderte, gehindert",to prevent somebody from doing something,empêcher quelqu'un de faire quelque chose
 945,49,schmerzen,"schmerzte, geschmerzt","to hurt, to ache","faire mal, souffrir"
 946,49,saufen,"soff, gesoffen","to drink (animals), to booze","boire (des animaux), s'enivrer"
@@ -979,27 +979,27 @@ Nr,exercise,question,answer,english,french
 978,50,schiefgehen,"ging schief, schief gegangen",to go wrong,aller mal
 979,50,verschlechtern,"verschlechterte, verschlechtert",to worsen,s'aggraver
 980,50,abkühlen,"kühlte ab, abgekühlt",to cool down,pour se rafraîchir
-981,51,stricken,"strickte, gestrickt",to knit,tricoter
-982,51,erwärmen,"erwärmte, erwärmt",to warm,réchauffer
-983,51,ermorden,"ermordete, ermordet",to murder,assassiner
-984,51,scheißen,"schiss, geschissen",to shit,chier
-985,51,rasieren,"rasierte, rasiert",to shave (refl.),se raser (réfl.)
-986,51,pfeffern,"gepfeffert, pfefferte",to season with pepper,assaisonner avec du poivre
-987,51,bestreuen,"bestreut, bestreute",to sprinkle,saupoudrer
-988,51,einprägen,"prägte, eingeprägt",to memorize,mémoriser
-989,51,wiedersehen,"sah wieder, wiedergesehen","to see again, to meet again","revoir, se revoir"
-990,51,verrühren,"verrührte, verrührt","to stir, to mix","remuer, mélanger"
-991,51,leeren,"leerte, geleert",to empty,vider
-992,51,kämmen,"kämmte, gekämmt",to comb,peigner
-993,51,salzen,"gesalzen, salzte",to season with salt,assaisonner avec du sel
-994,51,beglückwünschen,"beglückwünschte, beglückwünscht","to congratulate, to felicitate","féliciter, féliciter"
-995,51,kürzen,"kürzte, gekürzt","to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
-996,51,einschreiben,"schrieb ein, eingeschrieben","to sign up, to enroll","s'inscrire, s'inscrire"
-997,51,säubern,"säuberte, gesäubert",to clean,nettoyer
-998,51,verdammen,"verdammete, verdammt","to condemn, to damn","condamner, damner"
-999,51,entkommen,"entkam, entkommen",to escape,s'échapper
-1000,51,begraben,"begrub, begraben",to bury,enterrer
-1001,121,nützen,", ",,
-1002,121,schleichen,", ","to sneak, to creep","se faufiler, ramper"
-1003,121,schwingen,", ",,
-1004,121,befehlen,", ",,
+981,51,scheißen,"schiss, geschissen",to shit,chier
+982,51,rasieren,"rasierte, rasiert",to shave (refl.),se raser (réfl.)
+983,51,bestreuen,"bestreut, bestreute",to sprinkle,saupoudrer
+984,51,einprägen,"prägte, eingeprägt",to memorize,mémoriser
+985,51,wiedersehen,"sah wieder, wiedergesehen","to see again, to meet again","revoir, se revoir"
+986,51,verrühren,"verrührte, verrührt","to stir, to mix","remuer, mélanger"
+987,51,leeren,"leerte, geleert",to empty,vider
+988,51,kürzen,"kürzte, gekürzt","to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
+989,51,einschreiben,"schrieb ein, eingeschrieben","to sign up, to enroll","s'inscrire, s'inscrire"
+990,51,zuschauen,"schaute zu, zugeschaut","to watch, to look on, to observe","regarder, observer, surveiller"
+991,51,abbringen,"brachte ab, abgebracht",to dissuade,dissuader
+992,51,adressieren,"adressierte, adressiert",to address,adresser
+993,51,ängstigen,"ängstigte, geängstigt",to frighten,effrayer
+994,51,ekeln,"ekelte, geekelt",to disgust,dégoûter
+995,51,fussen,"fußte, gefußt",to be based on,être basé sur
+996,51,spotten,"spottete, gespottet",to mock,se moquer
+997,51,verheimlichen,"verheimlichte, verheimlicht",to conceal,dissimuler
+998,51,staunen,"staunte, gestaunt","to be astonished, to be amazed","être étonné, être émerveillé"
+999,51,debattieren,"debattierte, debattiert","to discuss, to debate, to argue","discuter, débattre, argumenter"
+1000,51,sehnen,"sehnte, gesehnt","to long for, to crave","désirer ardemment, avoir envie de"
+1001,101,stricken,"strickte, gestrickt",to knit,tricoter
+1002,101,erwärmen,"erwärmte, erwärmt",to warm,réchauffer
+1003,101,ermorden,"ermordete, ermordet",to murder,assassiner
+1004,101,pfeffern,"pfefferte, gepfeffert",to season with pepper,assaisonner avec du poivre

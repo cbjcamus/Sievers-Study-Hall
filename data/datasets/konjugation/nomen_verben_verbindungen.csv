@@ -449,118 +449,193 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 448,20,Beim Fahren sollte man immer Rücksicht auf schwächere Verkehrsteilnehmer _____.,nehmen,Rücksicht nehmen,Beim Fahren sollte man immer Rücksicht auf schwächere Verkehrsteilnehmer nehmen.,"When driving, one should always be considerate of more vulnerable road users.","En conduisant, on devrait toujours faire attention aux usagers de la route plus vulnérables.",,,"Rücksicht nehmen = to be considerate of, to take something into account",Rücksicht nehmen = faire preuve de considération,,
 449,20,"Der Service kann nur in Anspruch _____ werden, wenn man vorher einen Termin vereinbart.",genommen,in Anspruch nehmen,"Der Service kann nur in Anspruch genommen werden, wenn man vorher einen Termin vereinbart.",The service can only be used if you schedule an appointment beforehand.,Le service ne peut être utilisé que si l’on prend un rendez-vous au préalable.,,,"in Anspruch nehmen = to use, to make use of",in Anspruch nehmen = utiliser,,
 450,20,Das neue Projekt _____ zurzeit alle unsere Kapazitäten in Anspruch.,nimmt,in Anspruch nehmen,Das neue Projekt nimmt zurzeit alle unsere Kapazitäten in Anspruch.,The new project is currently using up all our capacities.,Le nouveau projet prend actuellement toutes nos capacités.,,,"in Anspruch nehmen = to use, to make use of",in Anspruch nehmen = utiliser,,
-451,110,,,,eine Auswahl treffen,to make a selection,faire une selection,,,,,unter,auswählen
-452,110,,,,eine Gelegenheit ergreifen,"to take an opportunity, to seize an opportunity","saisir une occasion, saisir une opportunité",,,,,,
-453,110,,,,Verantwortung übernehmen,"to assume responsibility, to take responsibility",,,,,,,
-454,110,,,,Verhandlungen führen,"to negociate, to conduct negotiations","méner des négociations, négocier",,,,,,
-455,110,,,,zur Kenntnis nehmen,"to take note of something, to take notice of something, to recognise","prendre note, prendre connaissance de quelque chose",,,,,,
-456,110,,,,Ansprüche stellen,"to claim, to make demands","réclamer, présenter des réclamations",,,,,,
-457,110,,,,zur Verantwortung ziehen,to hold somebody accountable,tenir pour responsable,,,,,,
-458,110,,,,zur Verhandlung kommen,"to be addressed, to go to trial","être négocier, être porté devant les tribunaux, être jugé",,,,,,
-459,110,,,,aufgaben übernehmen,"to manage tasks, to take on tasks, to do tasks","assumer des tâches, prendre en charge des tâches",,,,,,
-460,120,,,,Anspruch erheben,,,,,,,,
-461,120,,,,Anwendung finden,,,,,,,,angewendet werden
-462,120,,,,Ärger einbringen,,,,,,,,
-463,120,,,,auf Ablehnung stoßen,,,,,,,,abgelehnt werden
-464,120,,,,auf dem Laufenden bleiben,,,,,,,,
-465,120,,,,auf die Nerven gehen,,,,,,,,nerven
-466,120,,,,auf Kritik stoßen,,,,,,,,
-467,120,,,,Auftrag erteilen,,,,,,,,
-468,120,,,,Auskunft erteilen,,,,,,,,
-469,120,,,,Beachtung finden,,,,,,,,
-470,120,,,,Berufung einlegen,,,,,,,,
-471,120,,,,die Erlaubnis geben,,,,,,,,erlauben
-472,120,,,,die Konsequenzen ziehen,,,,,,,,
-473,120,,,,ein Angebot ablehnen,,,,,,,,
-474,120,,,,ein Angebot annehmen,,,,,,,,ein Angebot (nicht) akzeptieren
-475,120,,,,ein Angebot machen,,,,,,,,
-476,120,,,,ein Referat halten,,,,,,,,referieren
-477,120,,,,ein Risiko eingehen,,,,,,,,
-478,120,,,,ein Thema anschneiden ,,,,,,,,
-479,120,,,,ein Urteil fällen,,,,,,,,
-480,120,,,,ein Versprechen halten,,,,,,,,versprechen
-481,120,,,,eine Analyse durchführen,,,,,,,,
-482,120,,,,eine Chance nutzen,,,,,,,,
-483,120,,,,eine Entscheidung fällen,,,,,,,,
-484,120,,,,eine Entscheidung überdenken,,,,,,,,
-485,120,,,,eine Erklärung liefern,,,,,,,,
-486,120,,,,eine Forderung erheben,,,,,,,nach,fordern
-487,120,,,,eine Garantie geben,,,,,,,,garantieren
-488,120,,,,eine Niederlage erleiden,,,,,,,,
-489,120,,,,eine Pflicht erfüllen,,,,,,,,
-490,120,,,,eine Standpunkt vertreten,,,,,,,,
-491,120,,,,eine Straftat begehen,,,,,,,,
-492,120,,,,eine Verabredung treffen,,,,,,,,verabreden
-493,120,,,,eine Vereinbarung treffen,,,,,,,,vereinbaren
-494,120,,,,einen Eindruck machen,to make an impression,,,,,,auf + Akk.,jemanden beeindrucken / jmdm. (nicht) gefallen
-495,120,,,,einen Anruf tätigen,,,,,,,,
-496,120,,,,einen Auftrag geben,,,,,,,,beauftragen
-497,120,,,,einen Beruf ausüben,,,,,,,,"arbeiten, tätig sein"
-498,120,,,,einen Beschluss fassen,,,,,,,,
-499,120,,,,einen Eindruck gewinnen,,,,,,,,
-500,120,,,,einen Eindruck hinterlassen,to leave an impression,,,,,,,
-501,120,,,,einen Kampf führen,,,,,,,,kämpfen
-502,120,,,,einen Kompromiss schließen,,,,,,,,
-503,120,,,,einen Plan umsetzen,,,,,,,,
-504,120,,,,einen Rekord aufstellen,,,,,,,,
-505,120,,,,einen Streit schlichten,,,,,,,,
-506,120,,,,einen Unterschied machen,,,,,,,,
-507,120,,,,einen Vergleich anstellen,,,,,,,,
-508,120,,,,einen Versuch unternehmen,,,,,,,,
-509,120,,,,einen Vertrag abschließen,,,,,,,,
-510,120,,,,einen Vorwurf machen,,,,,,,,
-511,120,,,,einen Wunsch erfüllen,,,,,,,Dat.,"tun, was sich jemand wünscht"
-512,120,,,,Einfluss nehmen,,,,,,,auf,beeinflussen
-513,120,,,,Einspruch erheben,,,,,,,,
-514,120,,,,Freude bereiten,,,,,,,,
-515,120,,,,Gefahr laufen,,,,,,,,
-516,120,,,,Gefallen finden,,,,an,,,,
-517,120,,,,Gewinn einbringen,,,,,,,,
-518,120,,,,Hinweise geben,,,,,,,,
-519,120,,,,in Angriff nehmen,,,,,,,,zu tun beginnen
-520,120,,,,in Auftrag geben,,,,,,,,
-521,120,,,,in Betracht kommen,,,,,,,,
-522,120,,,,in Bewegung bringen,,,,,,,,
-523,120,,,,in die Lage versetzen,,,,,,,,
-524,120,,,,in Erwägung ziehen,,,,,,,,erwägen
-525,120,,,,In Haft nehmen,,,,,,,,
-526,120,,,,in Kenntnis setzen,,,,,,,,informieren
-527,120,,,,in Kraft treten,,,,,,,,
-528,120,,,,in Ohnmacht fallen,,,,,,,,
-529,120,,,,in Ordnung bringen,,,,,,,,
-530,120,,,,in Rechnung stellen,,,,,,,,jemandem etwas berechnen
-531,120,,,,in Schutz nehmen,,,,,,,,
-532,120,,,,in Verbindung stehen,,,,,,,,
-533,120,,,,in Verdacht geraten,,,,,,,,verdächtigt werden
-534,120,,,,in Vergessenheit geraten,,,,,,,,vergessen werden
-535,120,,,,in Verlegenheit bringen,,,,,,,,verlegen machen
-536,120,,,,in Zweifel ziehen,,,,,,,,bezweifeln
-537,120,,,,Klage erheben,,,,,,,,
-538,120,,,,Kontakt aufnehmen,,,,,,,,
-539,120,,,,Mut fassen,,,,,,,,
-540,120,,,,Protest erheben,,,,,,,,
-541,120,,,,seinen Irrtum begehen,,,,,,,,
-542,120,,,,sich Hoffnung machen,,,,,,,,hoffen
-543,120,,,,sich zum Ziel setzen,,,,,,,,anstreben
-544,120,,,,Stellung nehmen,,,,,,,,sich äußern
-545,120,,,,unter Beweis stellen,,,,,,,,beweisen
-546,120,,,,Verständnis haben,,,,,,,für + Akk.,etw. verstehen
-547,120,,,,Verzicht leisten / üben,,,,,,,,verzichten
-548,120,,,,vor Gericht bringen,,,,,,,,
-549,120,,,,Vorwurf erheben,,,,,,,,
-550,120,,,,zu einer Einsicht kommen,,,,,,,,einsehen
-551,120,,,,zum Ausdruck bringen,,,,,,,,ausdrücken
-552,120,,,,zum Opfer fallen,,,,,,,,
-553,120,,,,zum Stehen bringen,,,,,,,,
-554,120,,,,zur Anzeige bringen,,,,,,,,anzeigen
-555,120,,,,zur Debatte stehen,,,,,,,,soll debattiert werden
-556,120,,,,zur Folge haben,,,,,,,,bewirken
-557,120,,,,zur Last fallen,,,,,,,,
-558,120,,,,zur Verzweiflung bringen,,,,,,,,
-559,120,,,,Anerkennung finden,,,,,,,,anerkannt werden
-560,130,_____ bringen,zum Abschluss,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,Masculine,Masculin,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
-561,130,zum Abschluss _____,bringen,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
-562,130,Nach Monaten harter Arbeit wurde das Bauvorhaben _____ gebracht.,zum Abschluss,zum Abschluss bringen,Nach Monaten harter Arbeit wurde das Bauvorhaben zum Abschluss gebracht.,"After months of hard work, the construction project was completed.","Après des mois de travail acharné, le chantier a été mené à son terme.",,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
-563,130,Wir müssen das Projekt endlich _____ bringen.,zum Abschluss,zum Abschluss bringen,Wir müssen das Projekt endlich zum Abschluss bringen.,We need to finally bring the project to a close.,Nous devons enfin mener le projet à son terme.,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
-564,130,Das Team hat die Diskussion erfolgreich zum Abschluss _____.,gebracht,zum Abschluss bringen,Das Team hat die Diskussion erfolgreich zum Abschluss gebracht.,The team successfully brought the discussion to a conclusion.,L’équipe a mené la discussion à sa conclusion avec succès.,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
-565,130,Sie wollen die Verhandlungen bald zum Abschluss _____.,bringen,zum Abschluss bringen,Sie wollen die Verhandlungen bald zum Abschluss bringen.,They want to bring the negotiations to an end soon.,Ils veulent bientôt conclure les négociations.,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+451,21,_____ treffen,eine Auswahl,eine Auswahl treffen,eine Auswahl treffen,to make a selection,faire une selection,Feminine,Féminin,eine Auswahl treffen = to make a selection,eine Auswahl treffen = faire une selection,unter,auswählen
+452,21,_____ führen,Verhandlungen,Verhandlungen führen,Verhandlungen führen,"to negociate, to conduct negotiations","méner des négociations, négocier",Plural,Pluriel,"Verhandlungen führen = to negociate, to conduct negotiations","Verhandlungen führen = méner des négociations, négocier",,
+453,21,_____ nehmen,zur Kenntnis,zur Kenntnis nehmen,zur Kenntnis nehmen,"to take note of something, to take notice of something, to recognise","prendre note, prendre connaissance de quelque chose",,,"zur Kenntnis nehmen = to take note of something, to take notice of something, to recognise","zur Kenntnis nehmen = prendre note, prendre connaissance de quelque chose",,
+454,21,_____ stellen,Ansprüche,Ansprüche stellen,Ansprüche stellen,"to claim, to make demands","réclamer, présenter des réclamations",Plural,Pluriel,"Ansprüche stellen = to claim, to make demands","Ansprüche stellen = réclamer, présenter des réclamations",,
+455,21,_____ übernehmen,Aufgaben,Aufgaben übernehmen,Aufgaben übernehmen,"to manage tasks, to take on tasks, to do tasks","assumer des tâches, prendre en charge des tâches",Plural,Pluriel,"Aufgaben übernehmen = to manage tasks, to take on tasks, to do tasks","Aufgaben übernehmen = assumer des tâches, prendre en charge des tâches",,
+456,21,_____ ablehnen,ein Angebot,ein Angebot ablehnen,ein Angebot ablehnen,to decline an offer,refuser une offre,Neuter,Neutre,ein Angebot ablehnen = to decline an offer,ein Angebot ablehnen = refuser une offre,,
+457,21,_____ annehmen,ein Angebot,ein Angebot annehmen,ein Angebot annehmen,to accept an offer,accepter une offre,Neuter,Neutre,ein Angebot annehmen = to accept an offer,ein Angebot annehmen = accepter une offre,,ein Angebot (nicht) akzeptieren
+458,21,_____ machen,ein Angebot,ein Angebot machen,ein Angebot machen,to make an offer,faire une offre,Neuter,Neutre,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,
+459,21,_____ machen,einen Eindruck,einen Eindruck machen,einen Eindruck machen,to make an impression,faire bonne impression,Masculine,Masculin,einen Eindruck machen = to make an impression,einen Eindruck machen = faire bonne impression,auf + Akk.,jemanden beeindrucken / jmdm. (nicht) gefallen
+460,21,_____ gewinnen,einen Eindruck,einen Eindruck gewinnen,einen Eindruck gewinnen,to gain an impression,se faire une impression,Masculine,Masculin,einen Eindruck gewinnen = to gain an impression,einen Eindruck gewinnen = se faire une impression,,
+461,21,_____ hinterlassen,einen Eindruck,einen Eindruck hinterlassen,einen Eindruck hinterlassen,to leave an impression,laisser une impression,Masculine,Masculin,einen Eindruck hinterlassen = to leave an impression,einen Eindruck hinterlassen = laisser une impression,,
+462,21,_____ führen,einen Kampf,einen Kampf führen,einen Kampf führen,to fight a battle,mener un combat,Masculine,Masculin,einen Kampf führen = to fight a battle,einen Kampf führen = mener un combat,,kämpfen
+463,21,_____ umsetzen,einen Plan,einen Plan umsetzen,einen Plan umsetzen,to implement a plan,mettre un plan à exécution,Masculine,Masculin,einen Plan umsetzen = to implement a plan,einen Plan umsetzen = mettre un plan à exécution,,
+464,21,_____ machen,einen Unterschied,einen Unterschied machen,einen Unterschied machen,to make a difference,faire la différence,Masculine,Masculin,einen Unterschied machen = to make a difference,einen Unterschied machen = faire la différence,,
+465,21,"_____ machen, _____ erheben",einen Vorwurf,einen Vorwurf machen,"einen Vorwurf machen, einen Vorwurf erheben","to make an accusation, to raise an accusation",faire un reproche,Masculine,Masculin,"einen Vorwurf machen, einen Vorwurf erheben = to make an accusation, to raise an accusation","einen Vorwurf machen, einen Vorwurf erheben = faire un reproche",,
+466,22,_____ treffen,eine Auswahl,eine Auswahl treffen,eine Auswahl treffen,to make a selection,faire une selection,Feminine,Féminin,eine Auswahl treffen = to make a selection,eine Auswahl treffen = faire une selection,,
+467,22,Verhandlungen _____,führen,Verhandlungen führen,Verhandlungen führen,"to negociate, to conduct negotiations","méner des négociations, négocier",,,"Verhandlungen führen = to negociate, to conduct negotiations","Verhandlungen führen = méner des négociations, négocier",,
+468,22,zur Kenntnis _____,nehmen,zur Kenntnis nehmen,zur Kenntnis nehmen,"to take note of something, to take notice of something, to recognise","prendre note, prendre connaissance de quelque chose",,,"zur Kenntnis nehmen = to take note of something, to take notice of something, to recognise","zur Kenntnis nehmen = prendre note, prendre connaissance de quelque chose",,
+469,22,Ansprüche _____,stellen,Ansprüche stellen,Ansprüche stellen,"to claim, to make demands","réclamer, présenter des réclamations",,,"Ansprüche stellen = to claim, to make demands","Ansprüche stellen = réclamer, présenter des réclamations",,
+470,22,Aufgaben _____,übernehmen,Aufgaben übernehmen,Aufgaben übernehmen,"to manage tasks, to take on tasks, to do tasks","assumer des tâches, prendre en charge des tâches",,,"Aufgaben übernehmen = to manage tasks, to take on tasks, to do tasks","Aufgaben übernehmen = assumer des tâches, prendre en charge des tâches",,
+471,22,ein Angebot _____,ablehnen,ein Angebot ablehnen,ein Angebot ablehnen,to decline an offer,refuser une offre,,,ein Angebot ablehnen = to decline an offer,ein Angebot ablehnen = refuser une offre,,
+472,22,ein Angebot _____,annehmen,ein Angebot annehmen,ein Angebot annehmen,to accept an offer,accepter une offre,,,ein Angebot annehmen = to accept an offer,ein Angebot annehmen = accepter une offre,,
+473,22,ein Angebot _____,machen,ein Angebot machen,ein Angebot machen,to make an offer,faire une offre,,,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,
+474,22,einen Eindruck _____,machen,einen Eindruck machen,einen Eindruck machen,to make an impression,faire bonne impression,,,einen Eindruck machen = to make an impression,einen Eindruck machen = faire bonne impression,,
+475,22,einen Eindruck _____,gewinnen,einen Eindruck gewinnen,einen Eindruck gewinnen,to gain an impression,se faire une impression,,,einen Eindruck gewinnen = to gain an impression,einen Eindruck gewinnen = se faire une impression,,
+476,22,einen Eindruck _____,hinterlassen,einen Eindruck hinterlassen,einen Eindruck hinterlassen,to leave an impression,laisser une impression,,,einen Eindruck hinterlassen = to leave an impression,einen Eindruck hinterlassen = laisser une impression,,
+477,22,einen Kampf _____,führen,einen Kampf führen,einen Kampf führen,to fight a battle,mener un combat,,,einen Kampf führen = to fight a battle,einen Kampf führen = mener un combat,,
+478,22,einen Plan _____,umsetzen,einen Plan umsetzen,einen Plan umsetzen,to implement a plan,mettre un plan à exécution,,,einen Plan umsetzen = to implement a plan,einen Plan umsetzen = mettre un plan à exécution,,
+479,22,einen Unterschied _____,machen,einen Unterschied machen,einen Unterschied machen,to make a difference,faire la différence,,,einen Unterschied machen = to make a difference,einen Unterschied machen = faire la différence,,
+480,22,einen Vorwurf _____,machen/erheben,einen Vorwurf machen,"einen Vorwurf machen, einen Vorwurf erheben","to make an accusation, to raise an accusation",faire un reproche,,,"einen Vorwurf machen, einen Vorwurf erheben = to make an accusation, to raise an accusation","einen Vorwurf machen, einen Vorwurf erheben = faire un reproche",,
+481,23,"Bevor wir mit dem Projekt beginnen, müssen wir eine klare _____ treffen, welche Methoden wir verwenden wollen.",Auswahl,eine Auswahl treffen,"Bevor wir mit dem Projekt beginnen, müssen wir eine klare Auswahl treffen, welche Methoden wir verwenden wollen.","Before we start the project, we need to make a clear choice about which methods we want to use.","Avant de commencer le projet, nous devons faire un choix clair quant aux méthodes que nous voulons utiliser.",,,eine Auswahl treffen = to make a selection,eine Auswahl treffen = faire une selection,,
+482,23,"Unter Zeitdruck eine sinnvolle _____ zu treffen, fällt vielen Menschen überraschend schwer.",Auswahl,eine Auswahl treffen,"Unter Zeitdruck eine sinnvolle Auswahl zu treffen, fällt vielen Menschen überraschend schwer.",Making a sensible choice under time pressure is surprisingly difficult for many people.,Faire un choix raisonnable sous la pression du temps est étonnamment difficile pour beaucoup de gens.,,,eine Auswahl treffen = to make a selection,eine Auswahl treffen = faire une selection,,
+483,23,"Das Unternehmen führt derzeit intensive _____ mit potenziellen Investoren, um die Finanzierung für das neue Projekt zu sichern.",Verhandlungen,Verhandlungen führen,"Das Unternehmen führt derzeit intensive Verhandlungen mit potenziellen Investoren, um die Finanzierung für das neue Projekt zu sichern.",The company is currently conducting intense negotiations with potential investors to secure funding for the new project.,L’entreprise mène actuellement des négociations intensives avec des investisseurs potentiels afin de sécuriser le financement du nouveau projet.,,,"Verhandlungen führen = to negociate, to conduct negotiations","Verhandlungen führen = méner des négociations, négocier",,
+484,23,"Die Gewerkschaft hat angekündigt, nur dann weitere _____ zu führen, wenn der Arbeitgeber ein verbessertes Angebot vorlegt.",Verhandlungen,Verhandlungen führen,"Die Gewerkschaft hat angekündigt, nur dann weitere Verhandlungen zu führen, wenn der Arbeitgeber ein verbessertes Angebot vorlegt.",The union announced that it will only continue negotiations if the employer presents an improved offer.,Le syndicat a annoncé qu’il ne mènera de nouvelles négociations que si l’employeur présente une offre améliorée.,,,"Verhandlungen führen = to negociate, to conduct negotiations","Verhandlungen führen = méner des négociations, négocier",,
+485,23,"Bitte nehmen Sie _____, dass sich die Bedingungen des Vertrags ab dem nächsten Monat ändern.",zur Kenntnis,zur Kenntnis nehmen,"Bitte nehmen Sie zur Kenntnis, dass sich die Bedingungen des Vertrags ab dem nächsten Monat ändern.",Please take note that the terms of the contract will change starting next month.,Veuillez prendre note que les conditions du contrat changeront à partir du mois prochain.,,,"zur Kenntnis nehmen = to take note of something, to take notice of something, to recognise","zur Kenntnis nehmen = prendre note, prendre connaissance de quelque chose",,
+486,23,"Die Regierung nahm die Kritik der Expertengruppe _____, reagierte jedoch erst Wochen später darauf.",zur Kenntnis,zur Kenntnis nehmen,"Die Regierung nahm die Kritik der Expertengruppe zur Kenntnis, reagierte jedoch erst Wochen später darauf.",The government took note of the expert group's criticism but did not respond until weeks later.,"Le gouvernement a pris note des critiques du groupe d’experts, mais n’y a réagi que plusieurs semaines plus tard.",,,"zur Kenntnis nehmen = to take note of something, to take notice of something, to recognise","zur Kenntnis nehmen = prendre note, prendre connaissance de quelque chose",,
+487,23,"Der neue Kunde stellt hohe _____ an die Qualität unserer Produkte, was zusätzliche Kontrollen erforderlich macht.",Ansprüche,Ansprüche stellen,"Der neue Kunde stellt hohe Ansprüche an die Qualität unserer Produkte, was zusätzliche Kontrollen erforderlich macht.","The new client places high demands on the quality of our products, which requires additional inspections.","Le nouveau client pose des exigences élevées quant à la qualité de nos produits, ce qui nécessite des contrôles supplémentaires.",,,"Ansprüche stellen = to claim, to make demands","Ansprüche stellen = réclamer, présenter des réclamations",,
+488,23,"In der aktuellen Position kann sie endlich die _____ stellen, die ihrer Erfahrung und Qualifikation entsprechen.",Ansprüche,Ansprüche stellen,"In der aktuellen Position kann sie endlich die Ansprüche stellen, die ihrer Erfahrung und Qualifikation entsprechen.","In her current position, she can finally make demands that correspond to her experience and qualifications.","Dans son poste actuel, elle peut enfin formuler des exigences qui correspondent à son expérience et à ses qualifications.",,,"Ansprüche stellen = to claim, to make demands","Ansprüche stellen = réclamer, présenter des réclamations",,
+489,23,"In ihrem neuen Team musste sie schnell mehrere komplexe _____ übernehmen, um den Projektfortschritt zu sichern.",Aufgaben,Aufgaben übernehmen,"In ihrem neuen Team musste sie schnell mehrere komplexe Aufgaben übernehmen, um den Projektfortschritt zu sichern.","In her new team, she had to take on several complex tasks quickly to ensure the project’s progress.","Dans sa nouvelle équipe, elle a dû assumer rapidement plusieurs tâches complexes pour garantir l’avancement du projet.",,,"Aufgaben übernehmen = to manage tasks, to take on tasks, to do tasks","Aufgaben übernehmen = assumer des tâches, prendre en charge des tâches",,
+490,23,"Wenn du langfristig Verantwortung tragen willst, musst du bereit sein, auch unangenehme _____ zu übernehmen.",Aufgaben,Aufgaben übernehmen,"Wenn du langfristig Verantwortung tragen willst, musst du bereit sein, auch unangenehme Aufgaben zu übernehmen.","If you want to take responsibility in the long term, you must be willing to take on unpleasant tasks as well.","Si tu veux assumer des responsabilités à long terme, tu dois aussi être prêt à prendre en charge des tâches désagréables.",,,"Aufgaben übernehmen = to manage tasks, to take on tasks, to do tasks","Aufgaben übernehmen = assumer des tâches, prendre en charge des tâches",,
+491,23,"Trotz der attraktiven Konditionen musste das Unternehmen das _____ ablehnen, weil die Umsetzung zu große Risiken barg.",Angebot,ein Angebot ablehnen,"Trotz der attraktiven Konditionen musste das Unternehmen das Angebot ablehnen, weil die Umsetzung zu große Risiken barg.","Despite the attractive conditions, the company had to reject the offer because the implementation involved too many risks.","Malgré des conditions attractives, l’entreprise a dû refuser l’offre, car sa mise en œuvre comportait trop de risques.",,,ein Angebot ablehnen = to decline an offer,ein Angebot ablehnen = refuser une offre,,
+492,23,"Sie lehnte das _____ ab, da es nicht ihren beruflichen Vorstellungen entsprach und kaum Entwicklungsmöglichkeiten bot.",Angebot,ein Angebot ablehnen,"Sie lehnte das Angebot ab, da es nicht ihren beruflichen Vorstellungen entsprach und kaum Entwicklungsmöglichkeiten bot.",She refused the offer because it didn’t match her professional expectations and offered hardly any opportunities for growth.,"Elle a refusé l’offre, car elle ne correspondait pas à ses attentes professionnelles et offrait peu de perspectives d’évolution.",,,ein Angebot ablehnen = to decline an offer,ein Angebot ablehnen = refuser une offre,,
+493,23,"Nach langen Verhandlungen entschied sich das Unternehmen, das _____ anzunehmen, weil es langfristig stabile Einnahmen versprach.",Angebot,ein Angebot annehmen,"Nach langen Verhandlungen entschied sich das Unternehmen, das Angebot anzunehmen, weil es langfristig stabile Einnahmen versprach.","After lengthy negotiations, the company decided to accept the offer because it promised stable long-term revenue.","Après de longues négociations, l’entreprise a décidé d’accepter l’offre, car elle promettait des revenus stables à long terme.",,,ein Angebot annehmen = to accept an offer,ein Angebot annehmen = accepter une offre,,
+494,23,"Sie nahm das _____ an, obwohl es einen Umzug erforderte, da die beruflichen Perspektiven überzeugend waren.",Angebot,ein Angebot annehmen,"Sie nahm das Angebot an, obwohl es einen Umzug erforderte, da die beruflichen Perspektiven überzeugend waren.","She accepted the offer even though it required moving, because the professional prospects were compelling.","Elle a accepté l’offre, même si elle nécessitait un déménagement, car les perspectives professionnelles étaient convaincantes.",,,ein Angebot annehmen = to accept an offer,ein Angebot annehmen = accepter une offre,,
+495,23,"Das Unternehmen machte der Stadt ein großzügiges _____, um das Bauprojekt schneller genehmigt zu bekommen.",Angebot,ein Angebot machen,"Das Unternehmen machte der Stadt ein großzügiges Angebot, um das Bauprojekt schneller genehmigt zu bekommen.",The company made the city a generous offer to obtain faster approval for the construction project.,L’entreprise a fait une offre généreuse à la ville afin d’obtenir une approbation plus rapide du projet de construction.,,,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,
+496,23,"Er wollte ihr ein faires _____ machen, das sowohl ihre Erfahrung als auch die aktuelle Marktlage widerspiegelt.",Angebot,ein Angebot machen,"Er wollte ihr ein faires Angebot machen, das sowohl ihre Erfahrung als auch die aktuelle Marktlage widerspiegelt.",He wanted to make her a fair offer that reflects both her experience and the current market situation.,Il voulait lui faire une offre équitable qui reflète à la fois son expérience et la situation actuelle du marché.,,,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,
+497,23,"Die Präsentation machte einen starken _____ auf das Publikum, weil sie komplexe Inhalte klar und überzeugend erklärte.",Eindruck,einen Eindruck machen,"Die Präsentation machte einen starken Eindruck auf das Publikum, weil sie komplexe Inhalte klar und überzeugend erklärte.",The presentation made a strong impression on the audience because it explained complex topics clearly and convincingly.,"La présentation a fait une forte impression sur le public, car elle expliquait des sujets complexes de manière claire et convaincante.",,,einen Eindruck machen = to make an impression,einen Eindruck machen = faire bonne impression,,
+498,23,"Sein ruhiges, aber bestimmtes Auftreten machte auf die Geschäftsleitung einen äußerst professionellen _____.",Eindruck,einen Eindruck machen,"Sein ruhiges, aber bestimmtes Auftreten machte auf die Geschäftsleitung einen äußerst professionellen Eindruck.",His calm yet assertive demeanor made an extremely professional impression on the management.,Son attitude calme mais déterminée a donné une impression extrêmement professionnelle à la direction.,,,einen Eindruck machen = to make an impression,einen Eindruck machen = faire bonne impression,,
+499,23,Während des Besuchs konnte die Delegation einen ersten _____ von den geplanten Reformen gewinnen.,Eindruck,einen Eindruck gewinnen,Während des Besuchs konnte die Delegation einen ersten Eindruck von den geplanten Reformen gewinnen.,"During the visit, the delegation was able to gain a first impression of the planned reforms.","Lors de la visite, la délégation a pu se faire une première idée des réformes prévues.",,,einen Eindruck gewinnen = to gain an impression,einen Eindruck gewinnen = se faire une impression,,
+500,23,"Um einen realistischen _____ vom Arbeitsalltag zu gewinnen, hospitierte sie mehrere Tage in der Abteilung.",Eindruck,einen Eindruck gewinnen,"Um einen realistischen Eindruck vom Arbeitsalltag zu gewinnen, hospitierte sie mehrere Tage in der Abteilung.","To gain a realistic impression of the daily work routine, she spent several days observing the department.","Pour se faire une idée réaliste du quotidien professionnel, elle a passé plusieurs jours en observation dans le service.",,,einen Eindruck gewinnen = to gain an impression,einen Eindruck gewinnen = se faire une impression,,
+501,23,Ihr souveränes Auftreten hinterließ bei den Bewertern einen bleibenden _____.,Eindruck,einen Eindruck hinterlassen,Ihr souveränes Auftreten hinterließ bei den Bewertern einen bleibenden Eindruck.,Her confident demeanor left a lasting impression on the evaluators.,Son attitude assurée a laissé une impression durable aux évaluateurs.,,,einen Eindruck hinterlassen = to leave an impression,einen Eindruck hinterlassen = laisser une impression,,
+502,23,Die Architektur des Gebäudes hinterlässt bei Besucherinnen und Besuchern sofort einen besonderen _____.,Eindruck,einen Eindruck hinterlassen,Die Architektur des Gebäudes hinterlässt bei Besucherinnen und Besuchern sofort einen besonderen Eindruck.,The architecture of the building immediately leaves a distinctive impression on visitors.,L’architecture du bâtiment laisse immédiatement une impression particulière aux visiteurs.,,,einen Eindruck hinterlassen = to leave an impression,einen Eindruck hinterlassen = laisser une impression,,
+503,23,Trotz aller Rückschläge führte die Organisation weiterhin einen entschlossenen _____ für mehr soziale Gerechtigkeit.,Kampf,einen Kampf führen,Trotz aller Rückschläge führte die Organisation weiterhin einen entschlossenen Kampf für mehr soziale Gerechtigkeit.,"Despite all setbacks, the organization continued to wage a determined fight for greater social justice.","Malgré tous les revers, l’organisation a poursuivi un combat déterminé pour davantage de justice sociale.",,,einen Kampf führen = to fight a battle,einen Kampf führen = mener un combat,,
+504,23,"Viele Patientinnen und Patienten führen einen täglichen _____ gegen ihre Krankheit, ohne dass die Öffentlichkeit davon etwas mitbekommt.",Kampf,einen Kampf führen,"Viele Patientinnen und Patienten führen einen täglichen Kampf gegen ihre Krankheit, ohne dass die Öffentlichkeit davon etwas mitbekommt.",Many patients fight a daily battle against their illness without the public noticing.,De nombreux patients mènent un combat quotidien contre leur maladie sans que le public ne s’en rende compte.,,,einen Kampf führen = to fight a battle,einen Kampf führen = mener un combat,,
+505,23,"Um den _____ erfolgreich umzusetzen, musste das Team mehrere Abteilungen koordinieren und klare Prioritäten setzen.",Plan,einen Plan umsetzen,"Um den Plan erfolgreich umzusetzen, musste das Team mehrere Abteilungen koordinieren und klare Prioritäten setzen.","To implement the plan successfully, the team had to coordinate several departments and set clear priorities.","Pour mettre le plan en œuvre avec succès, l’équipe a dû coordonner plusieurs services et définir des priorités claires.",,,einen Plan umsetzen = to implement a plan,einen Plan umsetzen = mettre un plan à exécution,,
+506,23,"Viele Unternehmen scheitern nicht an der Ideenfindung, sondern daran, einen gut durchdachten _____ konsequent umzusetzen.",Plan,einen Plan umsetzen,"Viele Unternehmen scheitern nicht an der Ideenfindung, sondern daran, einen gut durchdachten Plan konsequent umzusetzen.","Many companies don’t fail at generating ideas, but at consistently putting a well-designed plan into action.","Beaucoup d’entreprises n’échouent pas dans la génération d’idées, mais dans la mise en œuvre cohérente d’un plan bien conçu.",,,einen Plan umsetzen = to implement a plan,einen Plan umsetzen = mettre un plan à exécution,,
+507,23,"Schon kleine Anpassungen im Arbeitsablauf können einen großen _____ machen, wenn sie konsequent umgesetzt werden.",Unterschied,einen Unterschied machen,"Schon kleine Anpassungen im Arbeitsablauf können einen großen Unterschied machen, wenn sie konsequent umgesetzt werden.",Even small adjustments in the workflow can make a big difference when implemented consistently.,De petits ajustements dans l’organisation du travail peuvent faire une grande différence s’ils sont appliqués de manière cohérente.,,,einen Unterschied machen = to make a difference,einen Unterschied machen = faire la différence,,
+508,23,"Die Unterstützung der lokalen Bevölkerung macht oft den entscheidenden _____, ob ein Projekt langfristig erfolgreich ist.",Unterschied,einen Unterschied machen,"Die Unterstützung der lokalen Bevölkerung macht oft den entscheidenden Unterschied, ob ein Projekt langfristig erfolgreich ist.",The support of the local population often makes the decisive difference in whether a project is successful in the long term.,Le soutien de la population locale fait souvent la différence décisive quant au succès durable d’un projet.,,,einen Unterschied machen = to make a difference,einen Unterschied machen = faire la différence,,
+509,23,"Sie wollte ihm keinen _____ machen, machte aber deutlich, dass sein Verhalten Konsequenzen haben werde.",Vorwurf,einen Vorwurf machen,"Sie wollte ihm keinen Vorwurf machen, machte aber deutlich, dass sein Verhalten Konsequenzen haben werde.","She didn’t want to blame him, but she made it clear that his behaviour would have consequences.","Elle ne voulait pas lui faire de reproche, mais elle a clairement indiqué que son comportement aurait des conséquences.",,,"einen Vorwurf machen, einen Vorwurf erheben = to make an accusation, to raise an accusation","einen Vorwurf machen, einen Vorwurf erheben = faire un reproche",,
+510,23,"Er machte mir den _____, ich hätte wichtige Informationen zurückgehalten, obwohl ich sie rechtzeitig weitergegeben hatte.",Vorwurf,einen Vorwurf machen,"Er machte mir den Vorwurf, ich hätte wichtige Informationen zurückgehalten, obwohl ich sie rechtzeitig weitergegeben hatte.","He accused me of withholding important information, even though I had passed it on in time.","Il m’a reproché d’avoir retenu des informations importantes, alors que je les avais transmises à temps.",,,"einen Vorwurf machen, einen Vorwurf erheben = to make an accusation, to raise an accusation","einen Vorwurf machen, einen Vorwurf erheben = faire un reproche",,
+511,24,"Die Jury _____ eine sorgfältige Auswahl, um Kandidatinnen und Kandidaten mit unterschiedlichem Hintergrund einzubeziehen.",traf,eine Auswahl treffen,"Die Jury traf eine sorgfältige Auswahl, um Kandidatinnen und Kandidaten mit unterschiedlichem Hintergrund einzubeziehen.",The jury made a careful selection to include candidates with different backgrounds.,Le jury a fait une sélection soigneuse afin d’inclure des candidats issus de milieux différents.,,,eine Auswahl treffen = to make a selection,eine Auswahl treffen = faire une selection,,
+512,24,"Um die Kosten zu senken, muss das Unternehmen eine strenge Auswahl _____, welche Projekte weiterhin finanziert werden.",treffen,eine Auswahl treffen,"Um die Kosten zu senken, muss das Unternehmen eine strenge Auswahl treffen, welche Projekte weiterhin finanziert werden.","To reduce costs, the company must make a strict selection of which projects will continue to receive funding.","Pour réduire les coûts, l’entreprise doit faire une sélection stricte des projets qui continueront à être financés.",,,eine Auswahl treffen = to make a selection,eine Auswahl treffen = faire une selection,,
+513,24,"Diplomaten beider Länder _____ tagelang Verhandlungen, um eine Eskalation des Konflikts zu verhindern.",führten,Verhandlungen führen,"Diplomaten beider Länder führten tagelang Verhandlungen, um eine Eskalation des Konflikts zu verhindern.",Diplomats from both countries conducted negotiations for days to prevent the conflict from escalating.,Des diplomates des deux pays ont mené des négociations pendant plusieurs jours pour éviter une escalade du conflit.,,,"Verhandlungen führen = to negociate, to conduct negotiations","Verhandlungen führen = méner des négociations, négocier",,
+514,24,"Bevor wir einen Vertrag unterschreiben, sollten wir klare Verhandlungen _____, damit alle Bedingungen eindeutig festgelegt sind.",führen,Verhandlungen führen,"Bevor wir einen Vertrag unterschreiben, sollten wir klare Verhandlungen führen, damit alle Bedingungen eindeutig festgelegt sind.","Before signing a contract, we should conduct clear negotiations to ensure all terms are clearly defined.","Avant de signer un contrat, nous devrions mener des négociations claires afin que toutes les conditions soient explicitement définies.",,,"Verhandlungen führen = to negociate, to conduct negotiations","Verhandlungen führen = méner des négociations, négocier",,
+515,24,Wir haben Ihre Beschwerde zur Kenntnis _____ und werden den Vorfall sorgfältig prüfen.,genommen,zur Kenntnis nehmen,Wir haben Ihre Beschwerde zur Kenntnis genommen und werden den Vorfall sorgfältig prüfen.,We have taken note of your complaint and will examine the incident carefully.,Nous avons pris note de votre plainte et examinerons soigneusement l’incident.,,,"zur Kenntnis nehmen = to take note of something, to take notice of something, to recognise","zur Kenntnis nehmen = prendre note, prendre connaissance de quelque chose",,
+516,24,"Er _____ zur Kenntnis, dass sein Vorschlag nicht die erwartete Unterstützung erhielt, und überarbeitete ihn anschließend.",nahm,zur Kenntnis nehmen,"Er nahm zur Kenntnis, dass sein Vorschlag nicht die erwartete Unterstützung erhielt, und überarbeitete ihn anschließend.",He took note that his proposal did not receive the expected support and then revised it.,"Il a pris note que sa proposition n’avait pas reçu le soutien attendu, puis l’a révisée.",,,"zur Kenntnis nehmen = to take note of something, to take notice of something, to recognise","zur Kenntnis nehmen = prendre note, prendre connaissance de quelque chose",,
+517,24,"Einige Mitarbeitende _____ unrealistische Ansprüche, ohne die finanziellen Grenzen des Unternehmens zu berücksichtigen.",stellen,Ansprüche stellen,"Einige Mitarbeitende stellen unrealistische Ansprüche, ohne die finanziellen Grenzen des Unternehmens zu berücksichtigen.",Some employees make unrealistic demands without considering the company's financial limitations.,Certains employés posent des exigences irréalistes sans tenir compte des limites financières de l’entreprise.,,,"Ansprüche stellen = to claim, to make demands","Ansprüche stellen = réclamer, présenter des réclamations",,
+518,24,"Der Markt _____ zunehmend neue Ansprüche an Unternehmen, insbesondere im Bereich Nachhaltigkeit und Transparenz.",stellt,Ansprüche stellen,"Der Markt stellt zunehmend neue Ansprüche an Unternehmen, insbesondere im Bereich Nachhaltigkeit und Transparenz.","The market is increasingly placing new demands on companies, especially in the area of sustainability and transparency.","Le marché impose de plus en plus de nouvelles exigences aux entreprises, notamment en matière de durabilité et de transparence.",,,"Ansprüche stellen = to claim, to make demands","Ansprüche stellen = réclamer, présenter des réclamations",,
+519,24,"Nach der Umstrukturierung _____ der Bereichsleiter zusätzliche Aufgaben, die zuvor auf mehrere Abteilungen verteilt waren.",übernahm,Aufgaben übernehmen,"Nach der Umstrukturierung übernahm der Bereichsleiter zusätzliche Aufgaben, die zuvor auf mehrere Abteilungen verteilt waren.","After the restructuring, the department head took on additional tasks that had previously been distributed across several departments.","Après la restructuration, le chef de service a repris des tâches supplémentaires qui étaient auparavant réparties entre plusieurs départements.",,,"Aufgaben übernehmen = to manage tasks, to take on tasks, to do tasks","Aufgaben übernehmen = assumer des tâches, prendre en charge des tâches",,
+520,24,"Um den Arbeitsfluss nicht zu unterbrechen, _____ das Team spontan die Aufgaben der erkrankten Kollegin.",übernahm,Aufgaben übernehmen,"Um den Arbeitsfluss nicht zu unterbrechen, übernahm das Team spontan die Aufgaben der erkrankten Kollegin.","To avoid disrupting the workflow, the team spontaneously took over the tasks of their sick colleague.","Pour ne pas perturber le flux de travail, l’équipe a pris spontanément en charge les tâches de leur collègue malade.",,,"Aufgaben übernehmen = to manage tasks, to take on tasks, to do tasks","Aufgaben übernehmen = assumer des tâches, prendre en charge des tâches",,
+521,24,"Der Ausschuss _____ das Angebot einstimmig ab, nachdem mehrere Unstimmigkeiten in den Unterlagen entdeckt worden waren.",lehnte,ein Angebot ablehnen,"Der Ausschuss lehnte das Angebot einstimmig ab, nachdem mehrere Unstimmigkeiten in den Unterlagen entdeckt worden waren.",The committee unanimously rejected the offer after several inconsistencies in the documents were discovered.,Le comité a refusé l’offre à l’unanimité après avoir découvert plusieurs incohérences dans les documents.,,,ein Angebot ablehnen = to decline an offer,ein Angebot ablehnen = refuser une offre,,
+522,24,"Aus strategischen Gründen _____ der Vorstand das Angebot ab, obwohl es finanziell sehr attraktiv wirkte.",lehnte,ein Angebot ablehnen,"Aus strategischen Gründen lehnte der Vorstand das Angebot ab, obwohl es finanziell sehr attraktiv wirkte.","For strategic reasons, the board rejected the offer even though it appeared very attractive financially.","Pour des raisons stratégiques, le conseil d’administration a refusé l’offre, même si elle semblait très intéressante financièrement.",,,ein Angebot ablehnen = to decline an offer,ein Angebot ablehnen = refuser une offre,,
+523,24,"Der Ausschuss _____ das überarbeitete Angebot an, nachdem alle offenen Fragen geklärt worden waren.",nahm,ein Angebot annehmen,"Der Ausschuss nahm das überarbeitete Angebot an, nachdem alle offenen Fragen geklärt worden waren.",The committee accepted the revised offer after all outstanding questions had been resolved.,Le comité a accepté l’offre révisée après que toutes les questions en suspens eurent été clarifiées.,,,ein Angebot annehmen = to accept an offer,ein Angebot annehmen = accepter une offre,,
+524,24,"Aus Zeitdruck _____ der Kunde schließlich das erste Angebot an, obwohl weitere Vergleiche sinnvoll gewesen wären.",nahm,ein Angebot annehmen,"Aus Zeitdruck nahm der Kunde schließlich das erste Angebot an, obwohl weitere Vergleiche sinnvoll gewesen wären.","Under time pressure, the customer ultimately accepted the first offer, even though further comparisons would have been sensible.","Sous la pression du temps, le client a finalement accepté la première offre, même si d’autres comparaisons auraient été judicieuses.",,,ein Angebot annehmen = to accept an offer,ein Angebot annehmen = accepter une offre,,
+525,24,"Die Bank _____ dem Kunden ein unverbindliches Angebot, das er in Ruhe prüfen konnte.",machte,ein Angebot machen,"Die Bank machte dem Kunden ein unverbindliches Angebot, das er in Ruhe prüfen konnte.",The bank made the client a non-binding offer that he could review at his leisure.,La banque a fait au client une offre sans engagement qu’il pouvait examiner tranquillement.,,,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,
+526,24,"Nachdem mehrere Interessenten abgesprungen waren, _____ der Verkäufer schließlich ein deutlich attraktiveres Angebot.",machte,ein Angebot machen,"Nachdem mehrere Interessenten abgesprungen waren, machte der Verkäufer schließlich ein deutlich attraktiveres Angebot.","After several interested parties had withdrawn, the seller finally made a significantly more attractive offer.","Après que plusieurs intéressés se sont désistés, le vendeur a finalement fait une offre nettement plus attractive.",,,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,
+527,24,"Die ersten Gespräche mit dem Team _____ auf sie einen so positiven Eindruck, dass sie das Jobangebot ernsthaft in Erwägung zog.",machten,einen Eindruck machen,"Die ersten Gespräche mit dem Team machten auf sie einen so positiven Eindruck, dass sie das Jobangebot ernsthaft in Erwägung zog.",The first conversations with the team made such a positive impression on her that she seriously considered the job offer.,Les premiers échanges avec l’équipe lui ont fait une impression si positive qu’elle a sérieusement envisagé d’accepter l’offre d’emploi.,,,einen Eindruck machen = to make an impression,einen Eindruck machen = faire bonne impression,,
+528,24,"Das Gebäude _____ von außen einen unscheinbaren Eindruck, entfaltete jedoch im Inneren eine beeindruckende Atmosphäre.",machte,einen Eindruck machen,"Das Gebäude machte von außen einen unscheinbaren Eindruck, entfaltete jedoch im Inneren eine beeindruckende Atmosphäre.","The building made an unremarkable impression from the outside, but inside it revealed an impressive atmosphere.","Le bâtiment donnait une impression discrète de l’extérieur, mais révélait à l’intérieur une atmosphère impressionnante.",,,einen Eindruck machen = to make an impression,einen Eindruck machen = faire bonne impression,,
+529,24,"In der Diskussion konnte man schnell einen Eindruck davon _____, wie unterschiedlich die Prioritäten der Teilnehmenden waren.",gewinnen,einen Eindruck gewinnen,"In der Diskussion konnte man schnell einen Eindruck davon gewinnen, wie unterschiedlich die Prioritäten der Teilnehmenden waren.","In the discussion, one could quickly gain an impression of how different the participants’ priorities were.","Au cours de la discussion, on pouvait rapidement se faire une idée de la diversité des priorités des participants.",,,einen Eindruck gewinnen = to gain an impression,einen Eindruck gewinnen = se faire une impression,,
+530,24,"Schon nach wenigen Minuten _____ er den Eindruck, dass das Projektteam hervorragend zusammenarbeitet.",gewann,einen Eindruck gewinnen,"Schon nach wenigen Minuten gewann er den Eindruck, dass das Projektteam hervorragend zusammenarbeitet.","After just a few minutes, he gained the impression that the project team worked together exceptionally well.","Au bout de quelques minutes, il s’est fait l’idée que l’équipe projet collaborait remarquablement bien.",,,einen Eindruck gewinnen = to gain an impression,einen Eindruck gewinnen = se faire une impression,,
+531,24,"Der Vortrag _____ einen so positiven Eindruck, dass mehrere Teilnehmende direkt im Anschluss weitere Gespräche vereinbaren wollten.",hinterließ,einen Eindruck hinterlassen,"Der Vortrag hinterließ einen so positiven Eindruck, dass mehrere Teilnehmende direkt im Anschluss weitere Gespräche vereinbaren wollten.",The lecture left such a positive impression that several participants wanted to arrange further discussions right afterward.,La conférence a laissé une impression si positive que plusieurs participants ont voulu organiser d’autres échanges juste après.,,,einen Eindruck hinterlassen = to leave an impression,einen Eindruck hinterlassen = laisser une impression,,
+532,24,"Seine ruhige, analytische Art _____ bei der Geschäftsführung einen besseren Eindruck als jede aufwendig gestaltete Präsentation.",hinterließ,einen Eindruck hinterlassen,"Seine ruhige, analytische Art hinterließ bei der Geschäftsführung einen besseren Eindruck als jede aufwendig gestaltete Präsentation.","His calm, analytical manner left a better impression on the management than any elaborately designed presentation.",Sa manière calme et analytique a laissé une meilleure impression à la direction que n’importe quelle présentation élaborée.,,,einen Eindruck hinterlassen = to leave an impression,einen Eindruck hinterlassen = laisser une impression,,
+533,24,"Das Unternehmen _____ derzeit einen harten Kampf um Marktanteile, da neue Konkurrenten aggressiv expandieren.",führt,einen Kampf führen,"Das Unternehmen führt derzeit einen harten Kampf um Marktanteile, da neue Konkurrenten aggressiv expandieren.",The company is currently fighting a tough battle for market share as new competitors are expanding aggressively.,"L’entreprise mène actuellement une dure bataille pour des parts de marché, car de nouveaux concurrents se développent de manière agressive.",,,einen Kampf führen = to fight a battle,einen Kampf führen = mener un combat,,
+534,24,"Er _____ einen inneren Kampf zwischen Pflichtgefühl und dem Wunsch, endlich eine eigene Entscheidung zu treffen.",führte,einen Kampf führen,"Er führte einen inneren Kampf zwischen Pflichtgefühl und dem Wunsch, endlich eine eigene Entscheidung zu treffen.",He fought an inner battle between a sense of duty and the desire to finally make his own decision.,Il menait un combat intérieur entre le sens du devoir et le désir de prendre enfin sa propre décision.,,,einen Kampf führen = to fight a battle,einen Kampf führen = mener un combat,,
+535,24,"Nachdem die Finanzierung gesichert war, konnten wir endlich beginnen, unseren langfristigen Plan _____.",umzusetzen,einen Plan umsetzen,"Nachdem die Finanzierung gesichert war, konnten wir endlich beginnen, unseren langfristigen Plan umzusetzen.","Once the funding was secured, we could finally begin implementing our long-term plan.","Une fois le financement assuré, nous avons enfin pu commencer à mettre en œuvre notre plan à long terme.",,,einen Plan umsetzen = to implement a plan,einen Plan umsetzen = mettre un plan à exécution,,
+536,24,"Er zeigte beeindruckende Führungsqualitäten, indem er den komplexen Plan Schritt für Schritt _____ und das Team motiviert hielt.",umsetzte,einen Plan umsetzen,"Er zeigte beeindruckende Führungsqualitäten, indem er den komplexen Plan Schritt für Schritt umsetzte und das Team motiviert hielt.",He demonstrated impressive leadership by implementing the complex plan step by step while keeping the team motivated.,Il a fait preuve d’un leadership remarquable en mettant en œuvre le plan complexe étape par étape tout en maintenant la motivation de l’équipe.,,,einen Plan umsetzen = to implement a plan,einen Plan umsetzen = mettre un plan à exécution,,
+537,24,"Ob man Kritik konstruktiv oder verletzend formuliert, kann im Ergebnis einen erheblichen Unterschied _____.",machen,einen Unterschied machen,"Ob man Kritik konstruktiv oder verletzend formuliert, kann im Ergebnis einen erheblichen Unterschied machen.",Whether criticism is expressed constructively or hurtfully can make a significant difference in the outcome.,Le fait d’exprimer une critique de manière constructive ou blessante peut faire une différence considérable dans le résultat.,,,einen Unterschied machen = to make a difference,einen Unterschied machen = faire la différence,,
+538,24,"In Verhandlungen kann es einen Unterschied _____, ob man vorbereitet erscheint oder lediglich spontan reagiert.",machen,einen Unterschied machen,"In Verhandlungen kann es einen Unterschied machen, ob man vorbereitet erscheint oder lediglich spontan reagiert.","In negotiations, it can make a difference whether one appears prepared or merely reacts spontaneously.","Dans une négociation, le fait de paraître préparé plutôt que de réagir spontanément peut faire une vraie différence.",,,einen Unterschied machen = to make a difference,einen Unterschied machen = faire la différence,,
+539,24,"Die Medien _____ der Regierung den Vorwurf, zu spät auf die Krise reagiert zu haben.",machten,einen Vorwurf machen,"Die Medien machten der Regierung den Vorwurf, zu spät auf die Krise reagiert zu haben.",The media accused the government of reacting too late to the crisis.,Les médias ont reproché au gouvernement d’avoir réagi trop tard à la crise.,,,"einen Vorwurf machen, einen Vorwurf erheben = to make an accusation, to raise an accusation","einen Vorwurf machen, einen Vorwurf erheben = faire un reproche",,
+540,24,"Obwohl sie sich entschuldigt hatte, _____ ihr Kollege ihr immer wieder denselben Vorwurf.",machte,einen Vorwurf machen,"Obwohl sie sich entschuldigt hatte, machte ihr Kollege ihr immer wieder denselben Vorwurf.","Although she had apologised, her colleague kept making the same accusation against her.","Bien qu’elle se soit excusée, son collègue lui faisait sans cesse le même reproche.",,,"einen Vorwurf machen, einen Vorwurf erheben = to make an accusation, to raise an accusation","einen Vorwurf machen, einen Vorwurf erheben = faire un reproche",,
+541,110,,,einen Wunsch erfüllen,einen Wunsch erfüllen,,,,,,,Dat.,"tun, was sich jemand wünscht"
+542,110,,,zur Verhandlung kommen,zur Verhandlung kommen,"to be addressed, to go to trial","être négocier, être porté devant les tribunaux, être jugé",,,"zur Verhandlung kommen = to be addressed, to go to trial","zur Verhandlung kommen = être négocier, être porté devant les tribunaux, être jugé",,
+543,110,,,eine Gelegenheit ergreifen,eine Gelegenheit ergreifen,"to take an opportunity, to seize an opportunity","saisir une occasion, saisir une opportunité",,,"eine Gelegenheit ergreifen = to take an opportunity, to seize an opportunity","eine Gelegenheit ergreifen = saisir une occasion, saisir une opportunité",,
+544,110,,,Verantwortung übernehmen,Verantwortung übernehmen,"to assume responsibility, to take responsibility",,,,"Verantwortung übernehmen = to assume responsibility, to take responsibility",Verantwortung übernehmen = ,,
+545,110,,,zur Verantwortung ziehen,zur Verantwortung ziehen,to hold somebody accountable,tenir pour responsable,,,zur Verantwortung ziehen = to hold somebody accountable,zur Verantwortung ziehen = tenir pour responsable,,
+546,120,,,,Anspruch erheben,,,,,,,,
+547,120,,,,Anwendung finden,,,,,,,,angewendet werden
+548,120,,,,Ärger einbringen,,,,,,,,
+549,120,,,,auf Ablehnung stoßen,,,,,,,,abgelehnt werden
+550,120,,,,auf dem Laufenden bleiben,,,,,,,,
+551,120,,,,auf die Nerven gehen,,,,,,,,nerven
+552,120,,,,auf Kritik stoßen,,,,,,,,
+553,120,,,,Auftrag erteilen,,,,,,,,
+554,120,,,,Auskunft erteilen,,,,,,,,
+555,120,,,,Beachtung finden,,,,,,,,
+556,120,,,,Berufung einlegen,,,,,,,,
+557,120,,,,die Erlaubnis geben,,,,,,,,erlauben
+558,120,,,,die Konsequenzen ziehen,,,,,,,,
+559,120,,,,ein Referat halten,,,,,,,,referieren
+560,120,,,,ein Risiko eingehen,,,,,,,,
+561,120,,,,ein Thema anschneiden ,,,,,,,,
+562,120,,,,ein Urteil fällen,,,,,,,,
+563,120,,,,ein Versprechen halten,,,,,,,,versprechen
+564,120,,,,eine Analyse durchführen,,,,,,,,
+565,120,,,,eine Chance nutzen,,,,,,,,
+566,120,,,,eine Entscheidung fällen,,,,,,,,
+567,120,,,,eine Entscheidung überdenken,,,,,,,,
+568,120,,,,eine Erklärung liefern,,,,,,,,
+569,120,,,,eine Forderung erheben,,,,,,,nach,fordern
+570,120,,,,eine Garantie geben,,,,,,,,garantieren
+571,120,,,,eine Niederlage erleiden,,,,,,,,
+572,120,,,,eine Pflicht erfüllen,,,,,,,,
+573,120,,,,eine Standpunkt vertreten,,,,,,,,
+574,120,,,,eine Straftat begehen,,,,,,,,
+575,120,,,,eine Verabredung treffen,,,,,,,,verabreden
+576,120,,,,eine Vereinbarung treffen,,,,,,,,vereinbaren
+577,120,,,,einen Anruf tätigen,,,,,,,,
+578,120,,,,einen Auftrag geben,,,,,,,,beauftragen
+579,120,,,,einen Beruf ausüben,,,,,,,,"arbeiten, tätig sein"
+580,120,,,,einen Beschluss fassen,,,,,,,,
+581,120,,,,einen Kompromiss schließen,,,,,,,,
+582,120,,,,einen Rekord aufstellen,,,,,,,,
+583,120,,,,einen Streit schlichten,,,,,,,,
+584,120,,,,einen Vergleich anstellen,,,,,,,,
+585,120,,,,einen Versuch unternehmen,,,,,,,,
+586,120,,,,einen Vertrag abschließen,,,,,,,,
+587,120,,,,Einfluss nehmen,,,,,,,auf,beeinflussen
+588,120,,,,Einspruch erheben,,,,,,,,
+589,120,,,,Freude bereiten,,,,,,,,
+590,120,,,,Gefahr laufen,,,,,,,,
+591,120,,,,Gefallen finden,,,,an,,,,
+592,120,,,,Gewinn einbringen,,,,,,,,
+593,120,,,,Hinweise geben,,,,,,,,
+594,120,,,,in Angriff nehmen,,,,,,,,zu tun beginnen
+595,120,,,,in Auftrag geben,,,,,,,,
+596,120,,,,in Betracht kommen,,,,,,,,
+597,120,,,,in Bewegung bringen,,,,,,,,
+598,120,,,,in die Lage versetzen,,,,,,,,
+599,120,,,,in Erwägung ziehen,,,,,,,,erwägen
+600,120,,,,In Haft nehmen,,,,,,,,
+601,120,,,,in Kenntnis setzen,,,,,,,,informieren
+602,120,,,,in Kraft treten,,,,,,,,
+603,120,,,,in Ohnmacht fallen,,,,,,,,
+604,120,,,,in Ordnung bringen,,,,,,,,
+605,120,,,,in Rechnung stellen,,,,,,,,jemandem etwas berechnen
+606,120,,,,in Schutz nehmen,,,,,,,,
+607,120,,,,in Verbindung stehen,,,,,,,,
+608,120,,,,in Verdacht geraten,,,,,,,,verdächtigt werden
+609,120,,,,in Vergessenheit geraten,,,,,,,,vergessen werden
+610,120,,,,in Verlegenheit bringen,,,,,,,,verlegen machen
+611,120,,,,in Zweifel ziehen,,,,,,,,bezweifeln
+612,120,,,,Klage erheben,,,,,,,,
+613,120,,,,Kontakt aufnehmen,,,,,,,,
+614,120,,,,Mut fassen,,,,,,,,
+615,120,,,,Protest erheben,,,,,,,,
+616,120,,,,seinen Irrtum begehen,,,,,,,,
+617,120,,,,sich Hoffnung machen,,,,,,,,hoffen
+618,120,,,,sich zum Ziel setzen,,,,,,,,anstreben
+619,120,,,,Stellung nehmen,,,,,,,,sich äußern
+620,120,,,,unter Beweis stellen,,,,,,,,beweisen
+621,120,,,,Verständnis haben,,,,,,,für + Akk.,etw. verstehen
+622,120,,,,Verzicht leisten / üben,,,,,,,,verzichten
+623,120,,,,vor Gericht bringen,,,,,,,,
+624,120,,,,zu einer Einsicht kommen,,,,,,,,einsehen
+625,120,,,,zum Ausdruck bringen,,,,,,,,ausdrücken
+626,120,,,,zum Opfer fallen,,,,,,,,
+627,120,,,,zum Stehen bringen,,,,,,,,
+628,120,,,,zur Anzeige bringen,,,,,,,,anzeigen
+629,120,,,,zur Debatte stehen,,,,,,,,soll debattiert werden
+630,120,,,,zur Folge haben,,,,,,,,bewirken
+631,120,,,,zur Last fallen,,,,,,,,
+632,120,,,,zur Verzweiflung bringen,,,,,,,,
+633,120,,,,Anerkennung finden,,,,,,,,anerkannt werden
+634,130,_____ bringen,zum Abschluss,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,Masculine,Masculin,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+635,130,zum Abschluss _____,bringen,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+636,130,Nach Monaten harter Arbeit wurde das Bauvorhaben _____ gebracht.,zum Abschluss,zum Abschluss bringen,Nach Monaten harter Arbeit wurde das Bauvorhaben zum Abschluss gebracht.,"After months of hard work, the construction project was completed.","Après des mois de travail acharné, le chantier a été mené à son terme.",,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+637,130,Wir müssen das Projekt endlich _____ bringen.,zum Abschluss,zum Abschluss bringen,Wir müssen das Projekt endlich zum Abschluss bringen.,We need to finally bring the project to a close.,Nous devons enfin mener le projet à son terme.,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+638,130,Das Team hat die Diskussion erfolgreich zum Abschluss _____.,gebracht,zum Abschluss bringen,Das Team hat die Diskussion erfolgreich zum Abschluss gebracht.,The team successfully brought the discussion to a conclusion.,L’équipe a mené la discussion à sa conclusion avec succès.,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+639,130,Sie wollen die Verhandlungen bald zum Abschluss _____.,bringen,zum Abschluss bringen,Sie wollen die Verhandlungen bald zum Abschluss bringen.,They want to bring the negotiations to an end soon.,Ils veulent bientôt conclure les négociations.,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,
+640,200,,,,Vorwurf erheben,,,,,,,,

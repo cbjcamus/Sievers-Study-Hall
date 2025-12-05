@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Paramètres</title>
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros.html" import render_title with context %}
+
+    {{ render_title("Paramètres") }}
+
+    <div class="section">
+        <h2>Thème</h2>
+        <table class="settings-table">
+            <tr>
+                <td>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </td>
+                <td>Mode jour</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Page de feedback intermédiaire</h2>
+        <table class="settings-table">
+            <tr>
+                <td>
+                    <label class="switch">
+                        <input type="checkbox" id="intermediate-feedback-page-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </td>
+                <td>Ajouter une page de feedback intermédiaire après avoir soumis une réponse</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Compte</h2>
+        <p>Vous êtes connecté avec l'adresse email suivante : {{ email }}</p>
+
+        <p>
+            <form method="post" action="{{ url_for('routes.signout') }}">
+                <button type="submit" class="button">Se déconnecter</button>
+            </form>
+        </p>
+
+        <!--<p>
+            <form method="post" action="{{ url_for('routes.forgot_password') }}">
+                <button type="submit" class="button">Modifier mon mot de passe</button>
+            </form>
+        </p>-->
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+    <script src="/webapp/static/toggleIntermediatePage.js"></script>
+</body>
+</html>

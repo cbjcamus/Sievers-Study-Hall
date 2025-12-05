@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -12,6 +12,10 @@ from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 # bullet point \u25CF
 
 GUIDANCE_UNIT_FR = {
+    wortstellung:
+        "Placeholder"
+    ,
+
     artikel_genus:
         "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
         "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
@@ -45,7 +49,7 @@ GUIDANCE_UNIT_FR = {
         f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
         "<h2>Exemple</h2>"
-        "freuen \u25CF Ich"
+        "freuen \u25CF Ich _____"
         f"<br><br>{ICON_CHECK} freue"
         f"<br><br>{ICON_CROSS} Ich freue"
         f"<br><br>{ICON_CROSS} freue mich"

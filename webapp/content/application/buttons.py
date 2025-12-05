@@ -27,3 +27,8 @@ REFRESH = {
     'english': 'Refresh',
     'french': 'Rafraîchir',
 }
+
+UNIT_PARTICULARLY_LIKE_BY_USERS = {
+    'english': 'Units particularly liked by users',
+    'french': 'Modules particulièrement appréciés par les utilisateurs',
+}

@@ -20,7 +20,7 @@ from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
-from webapp.content.application.buttons import HOMEPAGE
+from webapp.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from webapp.style.icons import STAR_GOLD
 
@@ -29,6 +29,9 @@ session = cast(dict, session)
 
 @routes_bp.route('/', endpoint='home')
 def home():
+
+    language = get_language(request, session)
+
     return render_template('home.html',
                            answered_questions=compute_answered_questions,
                            total_questions=compute_total_questions,
@@ -39,32 +42,38 @@ def home():
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,
+                           UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
                            )
 
 
 @routes_bp.route('/settings', endpoint='settings')
 def settings():
-    return render_template('menu/settings.html',
-                           email=current_user.email,
-                           )
 
+    language = get_language(request, session)
 
-@routes_bp.route('/contact', endpoint='contact')
-def contact():
-    return render_template('menu/contact.html',
-                           )
+    if language == "english":
+        return render_template('menu/settings_en.html',
+                               email=current_user.email,
+                               )
 
-
-@routes_bp.route('/news', endpoint='news')
-def news():
-    return render_template('menu/news.html',
-                           )
+    elif language == "french":
+        return render_template('menu/settings_fr.html',
+                               email=current_user.email,
+                               )
 
 
 @routes_bp.route('/about', endpoint='about')
 def about():
-    return render_template('menu/about.html',
-                           )
+
+    language = get_language(request, session)
+
+    if language == "english":
+        return render_template('menu/about_en.html',
+                               )
+
+    elif language == "french":
+        return render_template('menu/about_fr.html',
+                               )
 
 
 for unit in units:

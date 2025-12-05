@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Sievers Study Hall – Practiquez votre Allemand gratuitement</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros.html" import render_title with context %}
+{% from "macros.html" import render_unit_table_row %}
+
+    {{ render_title("About") }}
+
+    <div class="section">
+        <h2>À propos de l'application</h2>
+
+        <p>Sievers Study Hall est une application conçue pour pratiquer l'allemand en travaillant une compétence à la fois.</p>
+
+        <p>Vous pouvez consulter la FAQ <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">ici</a>.</p><br>
+    </div>
+
+    <div class="section">
+        <h2>Actualités et mises à jour</h2>
+
+        <p>Je mets régulièrement l'application à jour afin de proposer de nouveaux exercices et d'améliorer ceux déjà existant.</p>
+
+        <p>Vous pouvez suivre ces mises à jour en vous inscrivant à la newsletter Substack
+
+        <a href="https://sieversstudyhall.substack.com/?r=5t7it6&utm_campaign=pub&utm_medium=web" target="_blank">ici</a>.</p>
+
+        <br>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+
+        <p>Pour toute question, commentaires ou remerciement, vous pouvez me contacter à l'adresse suivante : sieversstudyhall@gmail.com</p>
+
+        <p>Vous pouvez aussi me contacter via mon blog sur <a href="https://sieversstudyhall.substack.com/" target="_blank">substack</a>.</p>
+
+        <br>
+    </div>
+
+    <div class="section">
+        <h2>Crédits</h2>
+
+        <p>Merci à l'utilisateur Reddit <a href="https://www.reddit.com/user/lubricated-horse/" target="_blank">lubricated-horse</a> pour une liste de verbes classés par fréquence : <a href="https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/" target="_blank">lien</a>.</p>
+
+        <p>Merci à l'utilisateur Reddit <a href="https://www.reddit.com/r/German/comments/og7e7s/update_heres_the_transcript_of_the_1781_mostused/" target="_blank">Tubbiefox</a> pour une liste d'adverbes, d'adjectifs et de verbes classés par fréquence : <a href="https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112" target="_blank">lien</a>.</p>
+
+        <p>Merci à Emanuel de <a href="https://yourdailygerman.com/" target="_blank">YourDailyGerman</a> pour ses précieux feedbacks.</p>
+
+        <p>Les proverbes allemands proviennent de <a href="https://en.wikiquote.org/wiki/German_proverbs" target="_blank">Wikiquote</a>.</p>
+
+        <br>
+    </div>
+
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

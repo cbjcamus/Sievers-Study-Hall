@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Sievers Study Hall – Sign up</title>
+    <meta name="description" content="Create an account to track your German exercises across devices.">
+    {% from "macros.html" import header %}
+    {{ header() }}
+</head>
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros.html" import render_title with context %}
+
+    {{ render_title("Sievers Study Hall") }}
+
+    {% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+            <div class="flashes">
+                {% for category, message in messages %}
+                    <p class="flash {{ category }}">{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <h2>Créer un compte</h2>
+
+    <form method="post" action="{{ url_for('routes.signup') }}" autocomplete="off">
+        <label for="email">E-mail</label>
+        <br>
+        <input id="email" name="email" type="email" class="input-authorization" required autofocus>
+        <br><br>
+        <label for="password">Mot de passe (minimum 8 caractères)</label>
+        <br>
+        <input id="password" name="password" type="password" minlength="8" class="input-authorization" required>
+        <br><br>
+        <label for="password2">Confirmer le mot de passe</label>
+        <br>
+        <input id="password2" name="password2" type="password" minlength="8" class="input-authorization" required>
+        <br><br>
+        <button type="submit" class="button">S'inscrire</button>
+    </form>
+
+    <p>Vous avez déjà un compte ? <a href="{{ url_for('routes.signin') }}">Se connecter</a>.</p>
+
+    <div class="home-button-container">
+        <a href="/" class="button">Page d'Accueil</a>
+    </div>
+
+</body>
+</html>

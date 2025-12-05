@@ -1,11 +1,11 @@
-Nr,exercise,question,english_verb,french_verb,answer,english
+Nr,exercise,question,english,french,answer,english_
 1,1,sein,to be,être,seiend,being
 2,1,haben,"to have, to contain","avoir, contenir",habend,having
 3,1,werden,"to become, will, to be done (passive voice)",devenir,werdend,becoming
 4,1,können,"can, to be able to","pouvoir, être capable de",könnend,being able
 5,1,wollen,to want,vouloir,wollend,wanting
 6,1,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",müssend,having to
-7,1,sollen,"shall, to be asked (to do something)","devoir, être invité (à faire quelque chose)",sollend,should
+7,1,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)",sollend,should
 8,1,mögen,to like,"aimer, apprécier",mögend,liking
 9,1,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",dürfend,being able to
 10,1,wissen,"to know, to have knowledge",savoir,wissend,knowing
@@ -94,7 +94,7 @@ Nr,exercise,question,english_verb,french_verb,answer,english
 93,5,benutzen,to use (something),utiliser (quelque chose),benutzend,using
 94,5,schicken,to send,envoyer,schickend,sending
 95,5,lachen,to laugh,rire,lachend,laughing
-96,5,scheinen,"to seem, to shine","paraître, briller",scheinend,seeming
+96,5,scheinen,"to shine, to seem (formal)","briller, paraître (formel)",scheinend,seeming
 97,5,ändern,to change (one's personality or behavior),changer (sa personnalité ou son comportement),ändernd,changing
 98,5,verkaufen,to sell,vendre,verkaufend,selling
 99,5,gehören,to belong to,appartenir à,gehörend,belonging
@@ -114,7 +114,7 @@ Nr,exercise,question,english_verb,french_verb,answer,english
 113,100,passen,"to fit, to suit","s'adapter, convenir",passend,fitting
 114,100,folgen,to follow,suivre,folgend,following
 115,100,ansehen,"to look at something, to watch something","regarder quelque chose, observer quelque chose",ansehend,looking
-116,100,aussehen,"to look (like), to appear","ressembler, apparaître",aussehend,looking like
+116,100,aussehen,"to look like, to appear","paraître, ressembler, apparaître",aussehend,looking like
 117,100,probieren,"to try, to taste, to sample, to probe","essayer, goûter, échantillonner, sonder",probierend,trying
 118,100,träumen,to dream,rêver,träumend,dreaming
 119,100,fernsehen,to watch TV,regarder la télévision,fernsehend,watching TV

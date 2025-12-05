@@ -9,8 +9,8 @@ from data.data_processing.units import (
 
 INTRODUCTION_EN = {
     praepositionen_grammatik:
-        "Prepositions in Temporal, Local, Modal and Causal contexts."
-        "<br><br>Basic prepositions are reviewed up to the B2 level."
+        "Prepositions in Temporal, Local, Modal and Causal contexts. You can find a guide to German preposition <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
+        "<br><br>Basic prepositions are reviewed up to the C1 level."
         "<br><br>Happy suffering 🥰😍😘."
     ,
     praepositionen_verben:
@@ -88,7 +88,7 @@ INTRODUCTION_EN = {
         "<br><br>Multiple-choice questions at B1 and B2, with both English to German and German to English translations."
     ,
     trennbare_verben:
-        "Trennbare and Untrennbare verbs to translate from English with either the root or the prefix as an help."
+        "Separable and Inseparable verbs to translate from English with either the root or the prefix as an help."
         "<br><br>The most exotic feature of the German language. The Piña Colada of the Rhine. The Caipirinha of the Elbe."
     ,
     nomen_verben_verbindungen:

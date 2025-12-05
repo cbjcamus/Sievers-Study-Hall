@@ -15,6 +15,7 @@ from users.progress.service import make_qid
 from users.questions.total_questions import compute_total_questions, compute_highest_exercise
 from users.session_management.logging import log_new_signup
 
+from webapp.i18n import get_language
 from webapp.routes.settings_api import get_or_create_settings
 
 from . import routes_bp
@@ -65,6 +66,9 @@ def send_password_reset_email(to_email, reset_url):
 # --- Forgot password: request form ---
 @routes_bp.route("/forgot-password", methods=["GET", "POST"])
 def forgot_password():
+
+    language = get_language(request, session)
+
     if current_user.is_authenticated:
         return redirect(url_for("routes.settings"))
 
@@ -85,11 +89,18 @@ def forgot_password():
             flash("If that email exists, a reset link has been sent.", "info")
         return redirect(url_for("routes.signin"))
 
-    return render_template("authorization/forgot_password.html")
+    if language == 'english':
+        return render_template("authorization/forgot_password_en.html",)
+    elif language == 'french':
+        return render_template("authorization/forgot_password_fr.html",)
+
 
 # --- Reset password: uses token ---
 @routes_bp.route("/reset-password/<token>", methods=["GET", "POST"])
 def reset_password(token):
+
+    language = get_language(request, session)
+
     if current_user.is_authenticated:
         return redirect(url_for("routes.settings"))
 
@@ -116,11 +127,19 @@ def reset_password(token):
         flash("Your password has been updated. Please sign in.", "success")
         return redirect(url_for("routes.signin"))
 
-    return render_template("authorization/reset_password.html", token=token)
+    if language == 'english':
+        return render_template("authorization/reset_password_en.html",
+                               token=token)
+    elif language == 'french':
+        return render_template("authorization/reset_password_fr.html",
+                               token=token)
 
 
 @routes_bp.route("/signin", methods=["GET", "POST"])
 def signin():
+
+    language = get_language(request, session)
+
     # Already logged in? Go to settings.
     if current_user.is_authenticated:
         return redirect(url_for("routes.settings"))
@@ -146,11 +165,17 @@ def signin():
         return redirect(next_url)
 
     # GET
-    return render_template("authorization/signin.html")
+    if language == 'english':
+        return render_template("authorization/signin_en.html")
+    elif language == 'french':
+        return render_template("authorization/signin_fr.html")
 
 
 @routes_bp.route("/signup", methods=["GET", "POST"])
 def signup():
+
+    language = get_language(request, session)
+
     if current_user.is_authenticated:
         return redirect(url_for("routes.settings"))
 
@@ -189,7 +214,10 @@ def signup():
         return redirect(url_for("routes.home"))
 
     # GET
-    return render_template("authorization/signup.html")
+    if language == 'english':
+        return render_template("authorization/signup_en.html")
+    elif language == 'french':
+        return render_template("authorization/signup_fr.html")
 
 
 @routes_bp.route("/signout", methods=["POST"])

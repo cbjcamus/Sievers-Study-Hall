@@ -1,9 +1,10 @@
 import unicodedata
 
+import pandas as pd
 from flask import session, request
 
 from data.data_processing.units import konnektoren, adverbien
-from data.data_processing.synonyms import search_for_main_synonym, SYNONYMS_PATH, get_list_of_synonyms_for_feedback
+from data.data_processing.synonyms import SYNONYMS_PATH, get_list_of_synonyms_for_feedback
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice, get_answer_column
 
 from webapp.i18n import get_language
@@ -73,6 +74,7 @@ def normalize_answer(input_str, unit):
     Returns:
         str: The fully normalized version of the input string.
     """
+
     normalized_str = input_str.strip().lower()
     normalized_str = remove_comma(normalized_str)
     normalized_str = normalize_umlaut(normalized_str)
@@ -137,8 +139,8 @@ def replace_umlaut(input_str):
         str: The string with all ü, ä and ö characters replaced by ue, ae, and oe.
     """
     output_str = input_str.replace("ä", "ae")
-    output_str = output_str.replace("ö","oe")
-    output_str = output_str.replace("ü","ue")
+    output_str = output_str.replace("ö", "oe")
+    output_str = output_str.replace("ü", "ue")
     return output_str
 
 
@@ -188,3 +190,28 @@ def lowercase_first_letter(s):
     if not s:
         return s
     return s[0].lower() + s[1:]
+
+
+def search_for_main_synonym(input_str, unit, csv_file=SYNONYMS_PATH):
+    """
+    Searches for the main synonym of a given input string based on a CSV mapping.
+
+    Loads a CSV file containing synonym mappings, filters the entries for the specified unit,
+    and creates a dictionary that maps lowercase input words to their main synonyms ("output").
+    If the input string is found in the mapping, returns the corresponding synonym in lowercase.
+    Otherwise, returns the original input string in lowercase.
+
+    Args:
+        input_str (str): The input string to look up.
+        unit (str): The unit used to filter the relevant synonym entries.
+        csv_file (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
+
+    Returns:
+        str: The main synonym for the input string, or the original string if no match is found.
+    """
+    df = pd.read_csv(csv_file)
+    df = df[df['unit'] == unit]
+    df['input'] = df['input'].str.lower()
+    df['input'] = [replace_umlaut(normalize_umlaut(entry)) for entry in df['input']]
+    mapping = dict(zip(df["input"], df["output"]))
+    return mapping.get(input_str, input_str).lower()

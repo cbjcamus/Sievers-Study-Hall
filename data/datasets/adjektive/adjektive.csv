@@ -1,929 +1,689 @@
-Nr,exercise,level,points,question,answer,german,english,french
-1,1,1. A1,15,,alt,,old,vieux
-2,1,1. A1,15,,jung,,young,jeune
-3,1,1. A1,15,,neu,,new,nouveau
-4,1,1. A1,11,,billig,,cheap,bon marché
-5,1,1. A1,13,,teuer,,expensive,cher
-6,1,1. A1,12,,blau,,blue,bleu
-7,1,1. A1,13,,grün,,green,vert
-8,1,1. A1,12,,gelb,,yellow,jaune
-9,1,1. A1,12,,grau,,grey,gris
-10,1,1. A1,14,,rot,,red,rouge
-11,1,1. A1,14,,schwarz,,black,noir
-12,1,1. A1,9,,weiß,,white,blanc
-13,1,1. A1,15,,einfach,,"easy, simple","facile, simple"
-14,1,1. A1,13,,schwierig,,difficult,difficile
-15,1,1. A1,15,,richtig,,right,"vrai, correct"
-16,1,1. A1,13,,falsch,,"false, wrong",faux
-17,1,1. A1,12,,wahr,,true,vrai
-18,1,1. A1,14,,frei,,free,gratuit
-19,1,1. A1,15,,groß,,"big, tall",grand
-20,1,1. A1,15,,klein,,small,petit
-21,2,1. A1,15,,gut,,good,bien
-22,2,1. A1,14,,schlecht,,bad,mauvais
-23,2,1. A1,13,,normal,,normal,normale
-24,2,1. A1,15,,schnell,,fast,rapide
-25,2,1. A1,13,,langsam,,slow,lent
-26,2,1. A1,15,,schön,,beautiful,beau
-27,2,1. A1,6,,hässlich,,ugly,laid
-28,2,1. A1,13,,früh,,early,tôt
-29,2,1. A1,14,,spät,,late,"tard, en retard"
-30,2,1. A1,11,,viel,,much,beaucoup
-31,2,1. A1,10,,wenig,,"little, few",peu
-32,2,1. A1,10,,arm,,poor,pauvre
-33,2,1. A1,11,,reich,,rich,riche
-34,2,1. A1,12,,heiß,,hot,chaud
-35,2,1. A1,12,,kalt,,cold,froid
-36,2,1. A1,11,,sauber,,clean,propre
-37,2,1. A1,9,,schmutzig,,dirty,sale
-38,2,1. A1,15,,hoch,,high,haut
-39,2,1. A1,10,,niedrig,,low,bas
-40,2,1. A1,11,,weit,,far,loin
-41,3,1. A1,8,,nah,,"close, near","proche, près"
-42,3,1. A1,12,,glücklich,,"happy, glad","heureux, content"
-43,3,1. A1,10,,traurig,,sad,triste
-44,3,1. A1,11,,lustig,,funny,drôle
-45,3,1. A1,10,,müde,,tired,fatigué
-46,3,1. A1,9,,dumm,,stupid,stupide
-47,3,1. A1,9,,klug,,smart,intelligent
-48,3,1. A1,11,,nett,,nice,"bon, gentils"
-49,3,1. A1,5,,neblig,,foggy,brumeux
-50,3,1. A1,8,,sonnig,,sunny,ensoleillé
-51,3,1. A1,5,,windig,,windy,venteux
-52,3,1. A1,15,,gleich,,same,même
-53,3,1. A1,12,,unterschiedlich,,different,différent
-54,3,1. A1,15,,wichtig,,important,important
-55,3,1. A1,11,,krank,,sick,malade
-56,3,1. A1,11,,gesund,,healthy,en bonne santé
-57,3,1. A1,15,,kurz,,short,court
-58,3,1. A1,15,,lang,,long,long
-59,3,1. A1,6,,letzte,,last,dernier
-60,3,1. A1,14,,ganz,,"full, whole","plein, entier"
-61,4,1. A1,15,alt,jung,,old,vieux
-62,4,1. A1,15,jung,alt,,young,jeune
-63,4,1. A1,11,billig,teuer,,cheap,bon marché
-64,4,1. A1,13,teuer,billig,,expensive,cher
-65,4,1. A1,14,schwarz,weiß,,black,noir
-66,4,1. A1,9,weiß,schwarz,,white,blanc
-67,4,1. A1,15,einfach,schwierig,,"easy, simple","facile, simple"
-68,4,1. A1,13,schwierig,einfach,,difficult,difficile
-69,4,1. A1,15,richtig,falsch,,right,"vrai, correct"
-70,4,1. A1,13,falsch,richtig,,"false, wrong",faux
-71,4,1. A1,15,groß,klein,,"big, tall","grand, grand"
-72,4,1. A1,15,klein,groß,,small,petit
-73,4,1. A1,15,gut,schlecht,,good,bien
-74,4,1. A1,14,schlecht,gut,,bad,mauvais
-75,4,1. A1,15,schnell,langsam,,fast,rapide
-76,4,1. A1,13,langsam,schnell,,slow,lent
-77,4,1. A1,15,schön,hässlich,,beautiful,beau
-78,4,1. A1,6,hässlich,schön,,ugly,laid
-79,4,1. A1,13,früh,spät,,early,tôt
-80,4,1. A1,14,spät,früh,,late,"tard, en retard"
-81,4,1. A1,11,viel,wenig,,much,beaucoup
-82,5,1. A1,10,wenig,viel,,"little, few",peu
-83,5,1. A1,10,arm,reich,,poor,pauvre
-84,5,1. A1,11,reich,arm,,rich,riche
-85,5,1. A1,12,heiß,kalt,,hot,chaud
-86,5,1. A1,12,kalt,heiß,,cold,froid
-87,5,1. A1,11,sauber,schmutzig,,clean,propre
-88,5,1. A1,9,schmutzig,sauber,,dirty,sale
-89,5,1. A1,15,hoch,niedrig,,high,haut
-90,5,1. A1,10,niedrig,hoch,,low,bas
-91,5,1. A1,11,weit,nah,,far,loin
-92,5,1. A1,8,nah,weit,,"close, near","proche, près"
-93,5,1. A1,12,glücklich,traurig,,"happy, glad","heureux, content"
-94,5,1. A1,10,traurig,glücklich,,sad,triste
-95,5,1. A1,9,dumm,klug,,stupid,stupide
-96,5,1. A1,9,klug,dumm,,smart,intelligent
-97,5,1. A1,15,gleich,unterschiedlich,,same,même
-98,5,1. A1,12,unterschiedlich,gleich,,different,différent
-99,5,1. A1,11,krank,gesund,,sick,malade
-100,5,1. A1,11,gesund,krank,,healthy,en bonne santé
-101,5,1. A1,15,kurz,lang,,short,court
-102,5,1. A1,15,lang,kurz,,long,long
-103,6,,15,alt,älter,,old,vieux
-104,6,,15,jung,jünger,,young,jeune
-105,6,,15,neu,neuer,,new,nouveau
-106,6,,11,billig,billiger,,cheap,bon marché
-107,6,,13,teuer,teurer,,expensive,cher
-108,6,,12,blau,blauer,,blue,bleu
-109,6,,13,grün,grüner,,green,vert
-110,6,,12,gelb,gelber,,yellow,jaune
-111,6,,12,grau,grauer,,grey,gris
-112,6,,14,rot,roter,,red,rouge
-113,6,,14,schwarz,schwärzer/schwarzer,,black,noir
-114,6,,9,weiß,weißer,,white,blanc
-115,6,,15,einfach,einfacher,,"easy, simple","facile, simple"
-116,6,,13,schwierig,schwieriger,,difficult,difficile
-117,6,,15,richtig,richtiger,,right,"vrai, correct"
-118,6,,13,falsch,falscher,,"false, wrong",faux
-119,6,,12,wahr,wahrer,,true,vrai
-120,6,,14,frei,freier,,free,gratuit
-121,6,,15,groß,größer,,"big, tall","grand, grand"
-122,6,,15,klein,kleiner,,small,petit
-123,7,,15,gut,besser,,good,bien
-124,7,,14,schlecht,schlechter,,bad,mauvais
-125,7,,13,normal,normaler,,normal,normale
-126,7,,15,schnell,schneller,,fast,rapide
-127,7,,13,langsam,langsamer,,slow,lent
-128,7,,15,schön,schöner,,beautiful,beau
-129,7,,6,hässlich,hässlicher,,ugly,laid
-130,7,,13,früh,früher,,early,tôt
-131,7,,14,spät,später,,late,"tard, en retard"
-132,7,,11,viel,mehr,,much,beaucoup
-133,7,,10,wenig,weniger,,"little, few",peu
-134,7,,10,arm,ärmer,,poor,pauvre
-135,7,,11,reich,reicher,,rich,riche
-136,7,,12,heiß,heißer,,hot,chaud
-137,7,,12,kalt,kälter,,cold,froid
-138,7,,11,sauber,sauberer,,clean,propre
-139,7,,9,schmutzig,schmutziger,,dirty,sale
-140,7,,15,hoch,höher,,high,haut
-141,7,,10,niedrig,niedriger,,low,bas
-142,7,,11,weit,weiter,,far,loin
-143,8,,8,nah,näher,,"close, near","proche, près"
-144,8,,12,glücklich,glücklicher,,"happy, glad","heureux, content"
-145,8,,10,traurig,trauriger,,sad,triste
-146,8,,11,lustig,lustiger,,funny,drôle
-147,8,,10,müde,müder,,tired,fatigué
-148,8,,9,dumm,dümmer,,stupid,stupide
-149,8,,9,klug,klüger,,smart,intelligent
-150,8,,11,nett,netter,,nice,bon
-151,8,,5,neblig,nebliger,,foggy,brumeux
-152,8,,8,sonnig,sonniger,,sunny,ensoleillé
-153,8,,5,windig,windiger,,windy,venteux
-154,8,,12,unterschiedlich,unterschiedlicher,,different,différent
-155,8,,15,wichtig,wichtiger,,important,important
-156,8,,11,krank,kränker,,sick,malade
-157,8,,11,gesund,gesünder,,healthy,en bonne santé
-158,8,,15,kurz,kürzer,,short,court
-159,8,,15,lang,länger,,long,long
-160,9,,15,alt,am ältesten,,old,vieux
-161,9,,15,jung,am jüngsten,,young,jeune
-162,9,,15,neu,am neuesten,,new,nouveau
-163,9,,11,billig,am billigsten,,cheap,bon marché
-164,9,,13,teuer,am teuersten,,expensive,cher
-165,9,,12,blau,am blausten,,blue,bleu
-166,9,,13,grün,am grünsten,,green,vert
-167,9,,12,gelb,am gelbsten,,yellow,jaune
-168,9,,12,grau,am grausten,,grey,gris
-169,9,,14,rot,am rotesten,,red,rouge
-170,9,,14,schwarz,am schwärzesten/am schwarzesten,,black,noir
-171,9,,9,weiß,am weißesten,,white,blanc
-172,9,,15,einfach,am einfachsten,,"easy, simple","facile, simple"
-173,9,,13,schwierig,am schwierigsten,,difficult,difficile
-174,9,,15,richtig,am richtigsten,,right,"vrai, correct"
-175,9,,13,falsch,am falschesten,,"false, wrong",faux
-176,9,,12,wahr,am wahrsten,,true,vrai
-177,9,,14,frei,am freiesten,,free,gratuit
-178,9,,15,groß,am größten,,"big, tall","grand, grand"
-179,9,,15,klein,am kleinsten,,small,petit
-180,10,,15,gut,am besten,,good,bien
-181,10,,14,schlecht,am schlechtesten,,bad,mauvais
-182,10,,13,normal,am normalsten,,normal,normale
-183,10,,15,schnell,am schnellsten,,fast,rapide
-184,10,,13,langsam,am langsamsten,,slow,lent
-185,10,,15,schön,am schönsten,,beautiful,beau
-186,10,,6,hässlich,am hässlichsten,,ugly,laid
-187,10,,13,früh,am frühesten,,early,tôt
-188,10,,14,spät,am spätesten,,late,"tard, en retard"
-189,10,,11,viel,am meisten,,much,beaucoup
-190,10,,10,wenig,am wenigsten,,"little, few",peu
-191,10,,10,arm,am ärmsten,,poor,pauvre
-192,10,,11,reich,am reichsten,,rich,riche
-193,10,,12,heiß,am heißesten,,hot,chaud
-194,10,,12,kalt,am kältesten,,cold,froid
-195,10,,11,sauber,am saubersten,,clean,propre
-196,10,,9,schmutzig,am schmutzigsten,,dirty,sale
-197,10,,15,hoch,am höchsten,,high,haut
-198,10,,10,niedrig,am niedrigsten,,low,faible
-199,10,,11,weit,am weitesten,,far,loin
-200,11,,8,nah,am nächsten,,"close, near","proche, près"
-201,11,,12,glücklich,am glücklichsten,,"happy, glad","heureux, content"
-202,11,,10,traurig,am traurigsten,,sad,triste
-203,11,,11,lustig,am lustigsten,,funny,drôle
-204,11,,10,müde,am müdesten,,tired,fatigué
-205,11,,9,dumm,am dümmsten,,stupid,stupide
-206,11,,9,klug,am klügsten,,smart,intelligent
-207,11,,11,nett,am nettesten,,nice,bon
-208,11,,5,neblig,am nebligsten,,foggy,brumeux
-209,11,,8,sonnig,am sonnigsten,,sunny,ensoleillé
-210,11,,5,windig,am windigsten,,windy,venteux
-211,11,,12,unterschiedlich,am unterschiedlichsten,,different,différent
-212,11,,15,wichtig,am wichtigsten,,important,important
-213,11,,11,krank,am kränksten,,sick,malade
-214,11,,11,gesund,am gesündesten,,healthy,en bonne santé
-215,11,,15,kurz,am kürzesten,,short,court
-216,11,,15,lang,am längsten,,long,long
-217,12,,,Mein Bruder ist _____ groß wie ich.,so,Mein Bruder ist so groß wie ich.,My brother is as tall as I am.,Mon frère est aussi grand que moi.
-218,12,,,Das Essen hier ist _____ lecker wie in Italien.,so,Das Essen hier ist so lecker wie in Italien.,The food here is as delicious as in Italy.,La nourriture ici est aussi délicieuse qu'en Italie.
-219,12,,,Der Park ist _____ schön wie der Garten.,so,Der Park ist so schön wie der Garten.,The park is as beautiful as the garden.,Le parc est aussi beau que le jardin.
-220,12,,,Dieser Film ist _____ spannend wie der letzte.,so,Dieser Film ist so spannend wie der letzte.,This movie is as exciting as the last one.,Ce film est aussi passionnant que le dernier.
-221,12,,,Sie ist _____ freundlich wie ihre Schwester.,so,Sie ist so freundlich wie ihre Schwester.,She is as friendly as her sister.,Elle est aussi amicale que sa sœur.
-222,12,,,Peter ist größer _____ sein Bruder.,als,Peter ist größer als sein Bruder.,Peter is taller than his brother.,Peter est plus grand que son frère.
-223,12,,,Das Auto ist schneller _____ das Fahrrad.,als,Das Auto ist schneller als das Fahrrad.,The car is faster than the bike.,La voiture est plus rapide que le vélo.
-224,12,,,Diese Aufgabe ist schwieriger _____ die letzte.,als,Diese Aufgabe ist schwieriger als die letzte.,This task is more difficult than the last one.,Cette tâche est plus difficile que la dernière.
-225,12,,,Der Urlaub in den Bergen war besser _____ am Strand.,als,Der Urlaub in den Bergen war besser als am Strand.,The vacation in the mountains was better than at the beach.,Les vacances à la montagne étaient meilleures qu'à la plage.
-226,12,,,Das Buch ist interessanter _____ der Film.,als,Das Buch ist interessanter als der Film.,The book is more interesting than the movie.,Le livre est plus intéressant que le film.
-227,12,,,Du bist so stark _____ dein Bruder.,wie,Du bist so stark wie dein Bruder.,You are as strong as your brother.,Tu es aussi fort que ton frère.
-228,12,,,Dieses Kleid ist genauso schön _____ das andere.,wie,Dieses Kleid ist genauso schön wie das andere.,This dress is just as beautiful as the other one.,Cette robe est tout aussi belle que l'autre.
-229,12,,,Der Film war so spannend _____ das Buch.,wie,Der Film war so spannend wie das Buch.,The movie was as exciting as the book.,Le film était aussi passionnant que le livre.
-230,12,,,Das Wetter ist heute genauso schlecht _____ gestern.,wie,Das Wetter ist heute genauso schlecht wie gestern.,The weather today is just as bad as yesterday.,Le temps aujourd'hui est aussi mauvais qu'hier.
-231,12,,,Mein Hund ist genauso freundlich _____ deine Katze.,wie,Mein Hund ist genauso freundlich wie deine Katze.,My dog is just as friendly as your cat.,Mon chien est tout aussi amical que votre chat.
-232,12,,,Er ist älter _____ ich.,als,Er ist älter als ich.,He is older than me.,Il est plus vieux que moi.
-233,12,,,Diese Stadt ist größer _____ mein Heimatdorf.,als,Diese Stadt ist größer als mein Heimatdorf.,This city is bigger than my hometown.,Cette ville est plus grande que ma ville natale.
-234,12,,,Der Kuchen schmeckt besser _____ die Torte.,als,Der Kuchen schmeckt besser als die Torte.,The cake tastes better than the tart.,Le gâteau a meilleur goût que la tarte.
-235,12,,,Heute ist es heißer _____ gestern.,als,Heute ist es heißer als gestern.,Today is hotter than yesterday.,Aujourd'hui il fait plus chaud qu'hier.
-236,12,,,Dieses Auto ist schneller _____ das alte.,als,Dieses Auto ist schneller als das alte.,This car is faster than the old one.,Cette voiture est plus rapide que l'ancienne.
-237,12,,,Mein Haus ist nicht so groß _____ dein Haus.,wie,Mein Haus ist nicht so groß wie dein Haus.,My house is not as big as your house.,Ma maison n'est pas aussi grande que ta maison.
-238,12,,,Er ist nicht so schnell _____ sein Bruder.,wie,Er ist nicht so schnell wie sein Bruder.,He is not as fast as his brother.,Il n'est pas aussi rapide que son frère.
-239,12,,,Das Wetter heute ist nicht so schön _____ gestern.,wie,Das Wetter heute ist nicht so schön wie gestern.,The weather today is not as nice as yesterday.,Le temps aujourd’hui n’est pas aussi beau qu’hier.
-240,12,,,Diese Stadt ist nicht so laut _____ Berlin.,wie,Diese Stadt ist nicht so laut wie Berlin.,This city is not as loud as Berlin.,Cette ville n’est pas aussi bruyante que Berlin.
-241,12,,,Meine Katze ist nicht so verspielt _____ dein Hund.,wie,Meine Katze ist nicht so verspielt wie dein Hund.,My cat is not as playful as your dog.,Mon chat n'est pas aussi joueur que votre chien.
-242,12,,,Der Film war _____ spannend wie das Buch.,nicht so,Der Film war nicht so spannend wie das Buch.,The movie was not as exciting as the book.,Le film n’était pas aussi passionnant que le livre.
-243,12,,,Das Hotel war _____ teuer wie erwartet.,nicht so,Das Hotel war nicht so teuer wie erwartet.,The hotel was not as expensive as expected.,L'hôtel n'était pas aussi cher que prévu.
-244,12,,,Peter ist _____ freundlich wie Maria.,nicht so,Peter ist nicht so freundlich wie Maria.,Peter is not as friendly as Maria.,Peter n'est pas aussi amical que Maria.
-245,12,,,Mein Auto ist _____ neu wie deins.,nicht so,Mein Auto ist nicht so neu wie deins.,My car is not as new as yours.,Ma voiture n'est pas aussi neuve que la tienne.
-246,12,,,Die Aufgabe war _____ schwer wie ich dachte.,nicht so,Die Aufgabe war nicht so schwer wie ich dachte.,The task was not as difficult as I thought.,La tâche n’était pas aussi difficile que je le pensais.
-247,13,2. A2,14,,klar,,clear,clair
-248,13,2. A2,11,,hell,,bright,"clair, brillant"
-249,13,2. A2,12,,dunkel,,dark,sombre
-250,13,2. A2,14,,schwer,,heavy,lourd
-251,13,2. A2,14,,leicht,,light,léger
-252,13,2. A2,13,,breit,,wide,large
-253,13,2. A2,12,,eng,,"tight, narrow","étroit, serré"
-254,13,2. A2,9,,komisch,,"strange, funny","étrange, drôle"
-255,13,2. A2,12,,laut,,loud,fort
-256,13,2. A2,13,,ruhig,,quiet,"calme, silencieux"
-257,13,2. A2,10,,dünn,,thin,mince
-258,13,2. A2,11,,dick,,fat,épais
-259,13,2. A2,12,,zufrieden,,satisfied,satisfait
-260,13,2. A2,8,,sauer,,sour,aigre
-261,13,2. A2,10,,bitter,,bitter,amer
-262,13,2. A2,9,,süß,,sweet,doux
-263,13,2. A2,9,,scharf,,spicy,épicé
-264,13,2. A2,4,,salzig,,salty,salé
-265,13,2. A2,11,,warm,,warm,chaud
-266,13,2. A2,9,,kühl,,cool,froid
-267,14,2. A2,8,,faul,,lazy,paresseux
-268,14,2. A2,8,,fleißig,,hardworking,diligent
-269,14,2. A2,11,,trocken,,dry,sec
-270,14,2. A2,6,,nass,,wet,"humide, mouillé"
-271,14,2. A2,8,,weich,,soft,doux
-272,14,2. A2,12,,hart,,hard,dur
-273,14,2. A2,11,,freundlich,,friendly,amical
-274,14,2. A2,8,,sympathisch,,sympathetic,sympathique
-275,14,2. A2,12,,toll,,great,super
-276,14,2. A2,9,,schrecklich,,terrible,terrible
-277,14,2. A2,11,,schwach,,weak,faible
-278,14,2. A2,14,,stark,,strong,fort
-279,14,2. A2,9,,langweilig,,boring,ennuyeux
-280,14,2. A2,11,,interessant,,interesting,intéressant
-281,14,2. A2,10,,kostenlos,,free of charge,gratuit
-282,14,2. A2,12,,wunderbar,,wonderful,merveilleux
-283,14,2. A2,13,,fertig,,finished,fini
-284,14,2. A2,15,,deutsch,,german,allemand
-285,14,2. A2,12,,notwendig,,necessary,nécessaire
-286,14,2. A2,14,,rund,,round,rond
-287,15,2. A2,13,,kulturell,,cultural,culturel
-288,15,2. A2,15,,möglich,,possible,possible
-289,15,2. A2,13,,aktuell,,current,actuel
-290,15,2. A2,13,,fremd,,foreign,étranger
-291,15,2. A2,11,,erfolgreich,,successful,réussi
-292,15,2. A2,11,,leer,,empty,vide
-293,15,2. A2,13,,voll,,full,plein
-294,15,2. A2,#N/A,,orange,,orange,orange
-295,15,2. A2,#N/A,,rosa,,rose,rose
-296,15,2. A2,#N/A,,lila,,purple,violet
-297,15,2. A2,10,,braun,,brown,brun
-298,15,2. A2,12,,häufig,,frequent,fréquent
-299,15,2. A2,11,,selten,,rare,rare
-300,15,2. A2,12,,sicher,,"safe, secure","sûr, sécurisé"
-301,15,2. A2,11,,gefährlich,,dangerous,dangereux
-302,15,2. A2,9,,nützlich,,useful,utile
-303,15,2. A2,#N/A,,nutzlos,,useless,inutile
-304,15,2. A2,12,,ähnlich,,similar,similaire
-305,15,2. A2,7,,hungrig,,hungry,affamé
-306,15,2. A2,4,,durstig,,thirsty,soif
-307,16,2. A2,,dunkel,hell,,bright,brillant
-308,16,2. A2,,hell,dunkel,,dark,sombre
-309,16,2. A2,,leicht,schwer,,heavy,lourd
-310,16,2. A2,,schwer,leicht,,light,léger
-311,16,2. A2,,eng,breit,,wide,large
-312,16,2. A2,,breit,eng,,"tight, narrow","serré, étroit"
-313,16,2. A2,,ruhig,laut,,loud,fort
-314,16,2. A2,,laut,ruhig,,quiet,calme
-315,16,2. A2,,dick,dünn,,thin,mince
-316,16,2. A2,,dünn,dick,,fat,graisse
-317,16,2. A2,,kühl,warm,,warm,chaud
-318,16,2. A2,,warm,kühl,,cool,cool
-319,16,2. A2,,fleißig,faul,,lazy,paresseux
-320,16,2. A2,,faul,fleißig,,hardworking,travailler dur
-321,16,2. A2,,nass,trocken,,dry,sec
-322,16,2. A2,,trocken,nass,,wet,mouillé
-323,17,2. A2,,hart,weich,,soft,doux
-324,17,2. A2,,weich,hart,,hard,dur
-325,17,2. A2,,schrecklich,toll,,great,super
-326,17,2. A2,,toll,schrecklich,,terrible,terrible
-327,17,2. A2,,stark,schwach,,weak,faible
-328,17,2. A2,,schwach,stark,,strong,fort
-329,17,2. A2,,interessant,langweilig,,boring,ennuyeux
-330,17,2. A2,,langweilig,interessant,,interesting,intéressant
-331,17,2. A2,,voll,leer,,empty,vide
-332,17,2. A2,,leer,voll,,full,plein
-333,17,2. A2,,selten,häufig,,frequent,fréquent
-334,17,2. A2,,häufig,selten,,rare,rare
-335,17,2. A2,,gefährlich,sicher,,"safe, secure","sûr, sécurisé"
-336,17,2. A2,,sicher,gefährlich,,dangerous,dangereux
-337,17,2. A2,,nutzlos,nützlich,,useful,utile
-338,17,2. A2,,nützlich,nutzlos,,useless,inutile
-339,18,2. A2,,klar,klarer,,clear,clair
-340,18,2. A2,,hell,heller,,bright,brillant
-341,18,2. A2,,dunkel,dunkler,,dark,sombre
-342,18,2. A2,,schwer,schwerer,,heavy,lourd
-343,18,2. A2,,leicht,leichter,,light,léger
-344,18,2. A2,,breit,breiter,,wide,large
-345,18,2. A2,,komisch,komischer,,"strange, funny","étrange, drôle"
-346,18,2. A2,,laut,lauter,,loud,fort
-347,18,,,ruhig,ruhiger,,quiet,calme
-348,18,,,dünn,dünner,,thin,mince
-349,18,,,dick,dicker,,fat,graisse
-350,18,,,zufrieden,zufriedener,,satisfied,satisfait
-351,18,,,sauer,saurer,,sour,aigre
-352,18,,,bitter,bitterer,,bitter,amer
-353,18,,,süß,süßer,,sweet,doux
-354,18,,,scharf,scharfer,,spicy,épicé
-355,18,,,salzig,salziger,,salty,salé
-356,18,,,warm,wärmer,,warm,chaud
-357,18,,,kühl,kühler,,cool,cool
-358,18,,,faul,fauler,,lazy,paresseux
-359,19,,,fleißig,fleißiger,,hardworking,travailler dur
-360,19,,,trocken,trockener,,dry,sec
-361,19,,,nass,nasser,,wet,mouillé
-362,19,,,weich,weicher,,soft,doux
-363,19,,,hart,härter,,hard,dur
-364,19,,,freundlich,freundlicher,,friendly,amical
-365,19,,,sympathisch,sympathischer,,sympathetic,sympathique
-366,19,,,toll,toller,,great,super
-367,19,,,schrecklich,schrecklicher,,terrible,terrible
-368,19,,,schwach,schwächer,,weak,faible
-369,19,,,stark,stärker,,strong,fort
-370,19,,,langweilig,langweiliger,,boring,ennuyeux
-371,19,,,interessant,interessanter,,interesting,intéressant
-372,19,,,kostenlos,kostenloser,,free of charge,gratuitement
-373,19,,,wunderbar,wunderbarer,,wonderful,merveilleux
-374,19,,,fertig,fertiger,,finished,fini
-375,19,,,deutsch,deutscher,,german,Allemand
-376,19,,,notwendig,notwendiger,,necessary,nécessaire
-377,19,,,rund,runder,,round,rond
-378,19,,,kulturell,kultureller,,cultural,culturel
-379,20,,,möglich,möglicher,,possible,possible
-380,20,,,aktuell,aktueller,,current,actuel
-381,20,,,fremd,fremder,,foreign,étranger
-382,20,,,erfolgreich,erfolgreicher,,successful,réussi
-383,20,,,leer,leerer,,empty,vide
-384,20,,,voll,voller,,full,plein
-385,20,,,häufig,häufiger,,frequent,fréquent
-386,20,,,selten,seltener,,rare,rare
-387,20,,,sicher,sicherer,,"safe, secure","sûr, sécurisé"
-388,20,,,gefährlich,gefährlicher,,dangerous,dangereux
-389,20,,,nützlich,nützlicher,,useful,utile
-390,20,,,nutzlos,nutzloser,,useless,inutile
-391,20,,,ähnlich,ähnlicher,,similar,similaire
-392,20,,,hungrig,hungriger,,hungry,affamé
-393,20,,,durstig,durstiger,,thirsty,soif
-394,21,,,klar,am klarsten,,clear,clair
-395,21,,,hell,am hellsten,,bright,brillant
-396,21,,,dunkel,am dunkelsten,,dark,sombre
-397,21,,,schwer,am schwersten,,heavy,lourd
-398,21,,,leicht,am leichtesten,,light,léger
-399,21,,,breit,am breitesten,,wide,large
-400,21,,,komisch,am komischsten,,"strange, funny","étrange, drôle"
-401,21,,,laut,am lautesten,,loud,fort
-402,21,,,ruhig,am ruhigsten,,quiet,calme
-403,21,,,dünn,am dünnsten,,thin,mince
-404,21,,,dick,am dicksten,,fat,graisse
-405,21,,,zufrieden,am zufriedensten,,satisfied,satisfait
-406,21,,,sauer,am sauersten,,sour,aigre
-407,21,,,bitter,am bittersten,,bitter,amer
-408,21,,,süß,am süßesten,,sweet,doux
-409,21,,,scharf,am schärfsten,,spicy,épicé
-410,21,,,salzig,am salzigsten,,salty,salé
-411,21,,,warm,am wärmsten,,warm,chaud
-412,21,,,kühl,am kühlsten,,cool,cool
-413,21,,,faul,am faulsten,,lazy,paresseux
-414,22,,,fleißig,am fleißigsten,,hardworking,travailler dur
-415,22,,,trocken,am trockensten,,dry,sec
-416,22,,,nass,am nassesten,,wet,mouillé
-417,22,,,weich,am weichsten,,soft,doux
-418,22,,,hart,am härtesten,,hard,dur
-419,22,,,freundlich,am freundlichsten,,friendly,amical
-420,22,,,sympathisch,am sympathischsten,,sympathetic,sympathique
-421,22,,,toll,am tollsten,,great,super
-422,22,,,schrecklich,am schrecklichsten,,terrible,terrible
-423,22,,,schwach,am schwächsten,,weak,faible
-424,22,,,stark,am stärksten,,strong,fort
-425,22,,,langweilig,am langweiligsten,,boring,ennuyeux
-426,22,,,interessant,am interessantesten,,interesting,intéressant
-427,22,,,kostenlos,am kostenlosesten,,free of charge,gratuitement
-428,22,,,wunderbar,am wunderbarsten,,wonderful,merveilleux
-429,22,,,fertig,am fertigsten,,finished,fini
-430,22,,,deutsch,am deutschesten,,german,Allemand
-431,22,,,notwendig,am notwendigsten,,necessary,nécessaire
-432,22,,,rund,am rundesten,,round,rond
-433,22,,,kulturell,am kulturellsten,,cultural,culturel
-434,23,,,möglich,am möglichsten,,possible,possible
-435,23,,,aktuell,am aktuellsten,,current,actuel
-436,23,,,fremd,am fremdsten,,foreign,étranger
-437,23,,,erfolgreich,am erfolgreichsten,,successful,réussi
-438,23,,,leer,am leersten,,empty,vide
-439,23,,,voll,am vollsten,,full,plein
-440,23,,,häufig,am häufigsten,,frequent,fréquent
-441,23,,,selten,am seltensten,,rare,rare
-442,23,,,sicher,am sichersten,,"safe, secure","sûr, sécurisé"
-443,23,,,gefährlich,am gefährlichsten,,dangerous,dangereux
-444,23,,,nützlich,am nützlichsten,,useful,utile
-445,23,,,nutzlos,am nutzlosesten,,useless,inutile
-446,23,,,ähnlich,am ähnlichsten,,similar,similaire
-447,23,,,hungrig,am hungrigsten,,hungry,affamé
-448,23,,,durstig,am durstigsten,,thirsty,soif
-449,24,3. B1,14,,eigen,,own,propre (le sien)
-450,24,3. B1,14,,international,,international,international
-451,24,3. B1,14,,europäisch,,European,européen
-452,24,3. B1,13,,tot,,dead,mort
-453,24,3. B1,13,,einzeln,,"single, only",célibataire
-454,24,3. B1,13,,lieb,,lovely,beau
-455,24,3. B1,13,,genau,,precise,précis
-456,24,3. B1,13,,deutlich,,clear,clair
-457,24,3. B1,13,,tief,,deep,profond
-458,24,3. B1,13,,modern,,modern,moderne
-459,24,3. B1,13,,praktisch,,practical,pratique
-460,24,3. B1,13,,direkt,,direct,direct
-461,24,3. B1,12,,echt,,real,réel
-462,24,3. B1,12,,allgemein,,general,général
-463,24,3. B1,12,,einzig,,"unique, only","unique, seul"
-464,24,3. B1,12,,gemeinsam,,"common, collective","commun, collectif"
-465,24,3. B1,12,,tatsächlich,,actual,réel
-466,24,3. B1,12,,völlig,,complete,complet
-467,24,3. B1,12,,zusätzlich,,additional,supplémentaire
-468,24,3. B1,12,,öffentlich,,public,publique
-469,24,3. B1,12,,privat,,private,privé
-470,24,3. B1,12,,aktiv,,active,actif
-471,24,3. B1,12,,automatisch,,automatic,automatique
-472,24,3. B1,12,,persönlich,,personal,personnel
-473,24,3. B1,11,,weiblich,,feminine,féminin
-474,24,3. B1,11,,arbeitslos,,unemployed,sans emploi
-475,24,3. B1,11,,streng,,strict,strict
-476,24,3. B1,11,,frisch,,fresh,frais
-477,24,3. B1,11,,willkommen,,welcomed,accueilli
-478,24,3. B1,11,,bunt,,colorful,coloré
-479,24,3. B1,11,,freiwillig,,voluntary,volontaire
-480,24,3. B1,11,,fest,,firm,ferme
-481,24,3. B1,11,,gleichzeitig,,simultaneous,simultané
-482,24,3. B1,11,,knapp,,"scarce, short","rare, court"
-483,24,3. B1,11,,menschlich,,human,humain
-484,24,3. B1,11,,offenbar,,obvious,évident
-485,24,3. B1,11,,regelmäßig,,regular,régulier
-486,24,3. B1,11,,ständig,,constant,constante
-487,24,3. B1,11,,weltweit,,worldwide,mondial
-488,24,3. B1,11,,zahlreich,,numerous,nombreux
-489,25,3. B1,11,,üblich,,usual,habituel
-490,25,3. B1,11,,übrig,,remaining,restant
-491,25,3. B1,11,,sportlich,,athletic,athlétique
-492,25,3. B1,11,,typisch,,typical,typique
-493,25,3. B1,11,,individuell,,individual,individuel
-494,25,3. B1,11,,positiv,,positive,positif
-495,25,3. B1,11,,herzlich,,"warm, cordial","chaleureux, cordial"
-496,25,3. B1,11,,böse,,"evil, angry","méchant, en colère"
-497,25,3. B1,10,,bequem,,"comfortable, convenient","confortable, pratique"
-498,25,3. B1,10,,männlich,,male,mâle
-499,25,3. B1,10,,natürlich,,"natural, self-evident","naturel, évident"
-500,25,3. B1,10,,gültig,,valid,valide
-501,25,3. B1,10,,angenehm,,pleasant,agréable
-502,25,3. B1,10,,aufmerksam,,attentive,attentif
-503,25,3. B1,10,,bereit,,ready,prêt
-504,25,3. B1,10,,beruflich,,professional,professionnel
-505,25,3. B1,10,,ehrlich,,honest,honnête
-506,25,3. B1,10,,eindeutig,,clear,clair
-507,25,3. B1,10,,endgültig,,final,final
-508,25,3. B1,10,,ernst,,serious,sérieux
-509,25,3. B1,10,,eventuell,,possibly,peut-être
-510,25,3. B1,10,,extrem,,extremely,extrêmement
-511,25,3. B1,10,,körperlich,,physical,physique
-512,25,3. B1,10,,perfekt,,perfect,parfait
-513,25,3. B1,10,,rechtlich,,legal,légal
-514,25,3. B1,10,,riesig,,huge,énorme
-515,25,3. B1,10,,sichtbar,,visible,visible
-516,25,3. B1,10,,sinnvoll,,sensible,sensible
-517,25,3. B1,10,,stolz,,proud,fier
-518,25,3. B1,10,,ursprünglich,,original,original
-519,25,3. B1,10,,verantwortlich,,responsible,responsable
-520,25,3. B1,10,,wild,,wild,sauvage
-521,25,3. B1,10,,intensiv,,intensive,intensif
-522,25,3. B1,10,,national,,national,national
-523,25,3. B1,10,,negativ,,negative,négatif
-524,25,3. B1,10,,ordentlich,,orderly,ordonné
-525,25,3. B1,9,,pünktlich,,punctual,ponctuel
-526,25,3. B1,9,,nervös,,nervous,nerveux
-527,25,3. B1,9,,kaputt,,broken,cassé
-528,25,3. B1,9,,wunderschön,,beautiful,beau
-529,26,3. B1,9,,furchtbar,,terrible,terrible
-530,26,3. B1,9,,schwanger,,pregnant,enceinte
-531,26,3. B1,9,,zukünftig,,future,avenir
-532,26,3. B1,9,,durchschnittlich,,average,moyenne
-533,26,3. B1,9,,flexibel,,flexible,flexible
-534,26,3. B1,8,,alltäglich,,everyday,tous les jours
-535,26,3. B1,8,,dankbar,,grateful,reconnaissant
-536,26,3. B1,8,,witzig,,"witty, funny","spirituel, drôle"
-537,26,3. B1,8,,kürzlich,,recent,récent
-538,26,3. B1,8,,einsam,,lonely,solitaire
-539,26,3. B1,8,,flach,,flat,plat
-540,26,3. B1,8,,steil,,steep,raide
-541,26,3. B1,8,,fett,,fat,graisse
-542,26,3. B1,8,,stressig,,stressful,stressant
-543,26,3. B1,8,,neugierig,,curious,curieux
-544,26,3. B1,8,,wahnsinnig,,insane,fou
-545,26,3. B1,8,,hübsch,,pretty,joli
-546,26,3. B1,8,,statistisch,,statistical,statistique
-547,26,3. B1,7,,sinnlos,,pointless,inutile
-548,26,3. B1,7,,mutig,,courageous,courageux
-549,26,3. B1,7,,höflich,,polite,poli
-550,26,3. B1,7,,ärgerlich,,annoying,ennuyeux
-551,26,3. B1,7,,passiv,,passive,passif
-552,26,3. B1,6,,winzig,,tiny,minuscule
-553,26,3. B1,6,,ledig,,single,célibataire
-554,26,3. B1,4,,besonder,,special,spécial
-555,26,3. B1,4,,lecker,,tasty,savoureux
-556,26,3. B1,6,,indirekt,,indirect,indirect
-557,26,3. B1,10,,ideal,,ideal,idéal
-558,26,3. B1,10,,offiziell,,official,officiel
-559,26,3. B1,9,,unabhängig,,independent,indépendant
-560,26,3. B1,9,,abhängig,,dependent,dépendant
-561,26,3. B1,9,,gemütlich,,"cozy, comfortable","douillet, confortable"
-562,26,3. B1,9,,schuld,,responsible,responsable
-563,26,3. B1,9,,komplett,,complete,complet
-564,26,3. B1,8,,optimistisch,,optimistic,optimiste
-565,26,3. B1,8,,realistisch,,realistic,réaliste
-566,26,3. B1,10,,regional,,regional,régional
-567,26,3. B1,10,,traditionell,,traditional,traditionnel
-568,26,3. B1,8,,treu,,loyal,loyal
-569,27,3. B1,14,eigen,,,own,propre
-570,27,3. B1,14,international,,,international,international
-571,27,3. B1,14,europäisch,,,European,européen
-572,27,3. B1,13,tot,,,dead,tout-petit
-573,27,3. B1,13,einzeln,,,"single, only",un seul
-574,27,3. B1,13,lieb,,,lovely,amour
-575,27,3. B1,13,genau,,,precise,exactement
-576,27,3. B1,13,deutlich,,,clear,allemand
-577,27,3. B1,13,tief,,,deep,tief
-578,27,3. B1,13,modern,,,modern,moderne
-579,27,3. B1,13,praktisch,,,practical,pratique
-580,27,3. B1,13,direkt,,,direct,directement
-581,27,3. B1,12,echt,,,real,vrai
-582,27,3. B1,12,allgemein,,,general,en général
-583,27,3. B1,12,einzig,,,"unique, only",un
-584,27,3. B1,12,gemeinsam,,,"common, collective",gemeinsam
-585,27,3. B1,12,tatsächlich,,,actual,tatsächlich
-586,27,3. B1,12,völlig,,,complete,völlig
-587,27,3. B1,12,zusätzlich,,,additional,zusätzlich
-588,27,3. B1,12,öffentlich,,,public,öffentlich
-589,27,3. B1,12,privat,,,private,privé
-590,27,3. B1,12,aktiv,,,active,actif
-591,27,3. B1,12,automatisch,,,automatic,automatiquement
-592,27,3. B1,12,persönlich,,,personal,personnellement
-593,27,3. B1,11,weiblich,,,feminine,weiblich
-594,27,3. B1,11,arbeitslos,,,unemployed,sans emploi
-595,27,3. B1,11,streng,,,strict,renforcer
-596,27,3. B1,11,frisch,,,fresh,frais
-597,27,3. B1,11,willkommen,,,welcomed,volonté
-598,27,3. B1,11,bunt,,,colorful,carie
-599,27,3. B1,11,freiwillig,,,voluntary,libre volonté
-600,27,3. B1,11,fest,,,firm,fête
-601,27,3. B1,11,gleichzeitig,,,simultaneous,gleichzeitig
-602,27,3. B1,11,knapp,,,"scarce, short",knapp
-603,27,3. B1,11,menschlich,,,human,masculin
-604,27,3. B1,11,offenbar,,,obvious,barre d'offre
-605,27,3. B1,11,regelmäßig,,,regular,regelmäßig
-606,27,3. B1,11,ständig,,,constant,debout
-607,27,3. B1,11,weltweit,,,worldwide,monde entier
-608,27,3. B1,11,zahlreich,,,numerous,zahlreich
-609,28,3. B1,11,üblich,,,usual,üblich
-610,28,3. B1,11,übrig,,,remaining,übrig
-611,28,3. B1,11,sportlich,,,athletic,sportif
-612,28,3. B1,11,typisch,,,typical,typique
-613,28,3. B1,11,individuell,,,individual,individuellement
-614,28,3. B1,11,positiv,,,positive,positif
-615,28,3. B1,11,herzlich,,,"warm, cordial",Herzlich
-616,28,3. B1,11,böse,,,"evil, angry",böse
-617,28,3. B1,10,bequem,,,"comfortable, convenient",léguer
-618,28,3. B1,10,männlich,,,male,masculin
-619,28,3. B1,10,natürlich,,,"natural, self-evident",naturellement
-620,28,3. B1,10,gültig,,,valid,gültig
-621,28,3. B1,10,angenehm,,,pleasant,angenehm
-622,28,3. B1,10,aufmerksam,,,attentive,aufmerksam
-623,28,3. B1,10,bereit,,,ready,bereit
-624,28,3. B1,10,beruflich,,,professional,compétent
-625,28,3. B1,10,ehrlich,,,honest,Ehrlich
-626,28,3. B1,10,eindeutig,,,clear,eindeutig
-627,28,3. B1,10,endgültig,,,final,endgültig
-628,28,3. B1,10,ernst,,,serious,Ernest
-629,28,3. B1,10,eventuell,,,possibly,éventuellement
-630,28,3. B1,10,extrem,,,extremely,extrême
-631,28,3. B1,10,körperlich,,,physical,corporellement
-632,28,3. B1,10,perfekt,,,perfect,parfait
-633,28,3. B1,10,rechtlich,,,legal,droit
-634,28,3. B1,10,riesig,,,huge,riesig
-635,28,3. B1,10,sichtbar,,,visible,visible
-636,28,3. B1,10,sinnvoll,,,sensible,sincèrement
-637,28,3. B1,10,stolz,,,proud,Stolz
-638,28,3. B1,10,ursprünglich,,,original,originaire
-639,28,3. B1,10,verantwortlich,,,responsible,verantwortlich
-640,28,3. B1,10,wild,,,wild,sauvage
-641,28,3. B1,10,intensiv,,,intensive,intensif
-642,28,3. B1,10,national,,,national,national
-643,28,3. B1,10,negativ,,,negative,négatif
-644,28,3. B1,10,ordentlich,,,orderly,ordonné
-645,28,3. B1,9,pünktlich,,,punctual,pünktlich
-646,28,3. B1,9,nervös,,,nervous,nerveux
-647,28,3. B1,9,kaputt,,,broken,kaputt
-648,28,3. B1,9,wunderschön,,,beautiful,merveilleux
-649,29,3. B1,9,furchtbar,,,terrible,furchtbar
-650,29,3. B1,9,schwanger,,,pregnant,Schwanger
-651,29,3. B1,9,zukünftig,,,future,zukünftig
-652,29,3. B1,9,durchschnittlich,,,average,durchschnittlich
-653,29,3. B1,9,flexibel,,,flexible,flexible
-654,29,3. B1,8,alltäglich,,,everyday,tous les jours
-655,29,3. B1,8,dankbar,,,grateful,barre d'eau
-656,29,3. B1,8,witzig,,,"witty, funny",witzig
-657,29,3. B1,8,kürzlich,,,recent,court
-658,29,3. B1,8,einsam,,,lonely,un
-659,29,3. B1,8,flach,,,flat,plat
-660,29,3. B1,8,steil,,,steep,acier
-661,29,3. B1,8,fett,,,fat,graisse
-662,29,3. B1,8,stressig,,,stressful,stressant
-663,29,3. B1,8,neugierig,,,curious,neugierig
-664,29,3. B1,8,wahnsinnig,,,insane,wahnsinnig
-665,29,3. B1,8,hübsch,,,pretty,hubsch
-666,29,3. B1,8,statistisch,,,statistical,statistiquement
-667,29,3. B1,7,sinnlos,,,pointless,sans péché
-668,29,3. B1,7,mutig,,,courageous,mutig
-669,29,3. B1,7,höflich,,,polite,höflich
-670,29,3. B1,7,ärgerlich,,,annoying,ärgerlich
-671,29,3. B1,7,passiv,,,passive,passif
-672,29,3. B1,6,winzig,,,tiny,Winzig
-673,29,3. B1,6,ledig,,,single,ledig
-674,29,3. B1,4,besonder,,,special,à part
-675,29,3. B1,4,lecker,,,tasty,interprète
-676,29,3. B1,6,indirekt,,,indirect,indirect
-677,29,3. B1,10,ideal,,,ideal,idéal
-678,29,3. B1,10,offiziell,,,official,officiel
-679,29,3. B1,9,unabhängig,,,independent,indépendant
-680,29,3. B1,9,abhängig,,,dependent,dépendant
-681,29,3. B1,9,gemütlich,,,"cozy, comfortable",exactement
-682,29,3. B1,9,schuld,,,responsible,schuld
-683,29,3. B1,9,komplett,,,complete,complet
-684,29,3. B1,8,optimistisch,,,optimistic,optimiste
-685,29,3. B1,8,realistisch,,,realistic,réaliste
-686,29,3. B1,10,regional,,,regional,régional
-687,29,3. B1,10,traditionell,,,traditional,traditionnellement
-688,29,3. B1,8,treu,,,loyal,bien
-689,100,4. B2,13,,verschieden,,"various, different","divers, différent"
-690,100,4. B2,12,,politisch,,political,politique
-691,100,4. B2,11,,schriftlich,,written,écrit
-692,100,4. B2,11,,selbstständig,,"self-employed, independent","travailleur indépendant, indépendant"
-693,100,4. B2,11,,total,,total,total
-694,100,4. B2,11,,finanziell,,financial,financier
-695,100,4. B2,11,,historisch,,historical,historique
-696,100,4. B2,11,,relativ,,relatively,relativement
-697,100,4. B2,11,,technisch,,technical,technique
-698,100,4. B2,10,,wesentlich,,"essential, significant","essentiel, significatif"
-699,100,4. B2,10,,wirtschaftlich,,economic,économique
-700,100,4. B2,10,,elektronisch,,electronic,électronique
-701,100,4. B2,10,,kritisch,,critical,critique
-702,100,4. B2,9,,recht,,fair,équitable
-703,100,4. B2,9,,unbedingt,,absolutely,absolument
-704,100,4. B2,9,,dicht,,dense,dense
-705,100,4. B2,9,,ewig,,eternal,éternel
-706,100,4. B2,9,,gerecht,,fair,équitable
-707,100,4. B2,9,,künstlich,,artificial,artificiel
-708,100,4. B2,9,,musikalisch,,musical,musical
-709,100,4. B2,9,,recht,,right,droite
-710,100,4. B2,9,,städtisch,,urban,urbain
-711,100,4. B2,9,,ungefähr,,approximate,approximatif
-712,100,4. B2,9,,unglaublich,,unbelievable,incroyable
-713,100,4. B2,9,,unheimlich,,uncanny,étonnant
-714,100,4. B2,9,,wertvoll,,valuable,précieux
-715,100,4. B2,9,,maximal,,"maximum, maximal","maximum, maximal"
-716,100,4. B2,9,,elektrisch,,electrical,électrique
-717,100,4. B2,9,,mobil,,mobile,mobile
-718,100,4. B2,9,,alternativ,,alternative,alternative
-719,100,4. B2,9,,biologisch,,biological,biologique
-720,100,4. B2,9,,digital,,digital,numérique
-721,100,4. B2,9,,theoretisch,,theoretical,théorique
-722,100,4. B2,9,,kreativ,,creative,créatif
-723,100,4. B2,8,,geheim,,secret,secrète
-724,100,4. B2,8,,zufällig,,random,aléatoire
-725,100,4. B2,8,,fit,,fit,ajuster
-726,100,4. B2,8,,preiswert,,"inexpensive, good value","bon marché, bon rapport qualité/prix"
-727,100,4. B2,8,,schädlich,,harmful,nocif
-728,100,4. B2,8,,anwesend,,present,présent
-729,100,4. B2,8,,berufstätig,,working,fonctionnement
-730,100,4. B2,8,,blind,,blind,aveugle
-731,100,4. B2,8,,einheitlich,,uniform,uniforme
-732,100,4. B2,8,,elegant,,elegant,élégant
-733,100,4. B2,8,,fair,,fair,équitable
-734,100,4. B2,8,,feucht,,"moist, humid","humide, humide"
-735,100,4. B2,8,,fällig,,due,exigible
-736,100,4. B2,8,,gar,,even,même
-737,100,4. B2,8,,gewöhnlich,,ordinary,ordinaire
-738,100,4. B2,8,,glatt,,smooth,lisse
-739,100,4. B2,8,,gründlich,,thorough,complet
-740,100,4. B2,8,,heimlich,,secret,secrète
-741,100,4. B2,8,,inner,,inner,intérieur
-742,100,4. B2,8,,interkulturell,,intercultural,interculturel
-743,100,4. B2,8,,merkwürdig,,strange,étrange
-744,100,4. B2,8,,mündlich,,oral,oral
-745,100,4. B2,8,,rechtzeitig,,timely,opportun
-746,100,4. B2,8,,schief,,crooked,courbé
-747,100,4. B2,8,,schlank,,slim,mince
-748,100,4. B2,8,,schuldig,,guilty,coupable
-749,100,4. B2,8,,sogenannt,,so-called,soi-disant
-750,100,4. B2,8,,stumm,,mute,muet
-751,100,4. B2,8,,teilweise,,partial,partiel
-752,100,4. B2,8,,tödlich,,deadly,mortel
-753,100,4. B2,8,,ungewöhnlich,,unusual,inhabituel
-754,100,4. B2,8,,verdächtig,,suspicious,suspect
-755,100,4. B2,8,,vergeblich,,futile,futile
-756,100,4. B2,8,,vermutlich,,probable,probable
-757,100,4. B2,8,,vernünftig,,reasonable,raisonnable
-758,100,4. B2,8,,verständlich,,understandable,compréhensible
-759,100,4. B2,8,,virtuell,,virtual,virtuel
-760,100,4. B2,8,,voraussichtlich,,probably,probablement
-761,100,4. B2,8,,vorläufig,,provisional,provisoire
-762,100,4. B2,8,,zugänglich,,accessible,accessible
-763,100,4. B2,8,,zuverlässig,,reliable,fiable
-764,100,4. B2,8,,seltsam,,strange,étrange
-765,100,4. B2,8,,minimal,,minimal,minimal
-766,100,4. B2,8,,ökologisch,,ecological,écologique
-767,100,4. B2,7,,klasse,,class,classe
-768,100,4. B2,7,,sparsam,,frugal,frugal
-769,100,4. B2,7,,farbig,,colored,coloré
-770,100,4. B2,7,,frech,,cheeky,effronté
-771,100,4. B2,7,,gesamt,,total,total
-772,100,4. B2,7,,giftig,,toxic,toxique
-773,100,4. B2,7,,gleichberechtigt,,equal,égal
-774,100,4. B2,7,,haltbar,,durable,durable
-775,100,4. B2,7,,original,,original,original
-776,100,4. B2,7,,pauschal,,general,général
-777,100,4. B2,7,,populär,,popular,populaire
-778,100,4. B2,7,,prima,,great,super
-779,100,4. B2,7,,reif,,mature,mature
-780,100,4. B2,7,,roh,,raw,brut
-781,100,4. B2,7,,satt,,full,complet
-782,100,4. B2,7,,schick,,chic,chic
-783,100,4. B2,7,,stilistisch,,stylistic,stylistique
-784,100,4. B2,7,,vegetarisch,,vegetarian,végétarien
-785,100,4. B2,7,,wert,,worth,valeur
-786,100,4. B2,7,,ängstlich,,anxious,anxieux
-787,100,4. B2,6,,wach,,awake,éveillé
-788,100,4. B2,6,,harmlos,,harmless,inoffensif
-789,100,4. B2,5,,blass,,pale,pâle
-790,100,4. B2,5,,locker,,relaxed,détendu
-791,100,4. B2,5,,illegal,,illegal,illégal
-792,100,4. B2,11,,weiter,,further,plus loin
-793,100,4. B2,9,,ehemalig,,former,ancien
-794,100,4. B2,9,,eigentlich,,"actual, real","réel, réel"
-795,100,4. B2,9,,gesellschaftlich,,"social, societal","social, sociétal"
-796,100,4. B2,9,,heutig,,"today's, contemporary","d'aujourd'hui, contemporain"
-797,100,4. B2,9,,klassisch,,classic,classique
-798,100,4. B2,9,,konkret,,specifically,béton
-799,100,4. B2,9,,plötzlich,,sudden,soudain
-800,100,4. B2,9,,täglich,,daily,tous les jours
-801,100,4. B2,8,,global,,global,mondial
-802,100,4. B2,8,,jährlich,,yearly,annuel
-803,100,4. B2,7,,monatlich,,monthly,mensuel
-804,100,4. B2,9,,grundsätzlich,,"basic, fundamental","basique, fondamental"
-805,100,4. B2,8,,langfristig,,long-term,à long terme
-806,100,4. B2,8,,unbekannt,,unknown,inconnu
-807,100,4. B2,8,,phantastisch,,fantastic,fantastique
-808,100,4. B2,7,,attraktiv,,attractive,attractif
-809,100,4. B2,13,,"various, different",,verschieden,divers
-810,100,4. B2,12,,political,,politisch,politique
-811,100,4. B2,11,,written,,schriftlich,schriftlich
-812,100,4. B2,11,,"self-employed, independent",,selbstständig,auto-suffisant
-813,100,4. B2,11,,total,,total,total
-814,100,4. B2,11,,financial,,finanziell,financier
-815,100,4. B2,11,,historical,,historisch,historique
-816,100,4. B2,11,,relatively,,relativ,relatif
-817,100,4. B2,11,,technical,,technisch,technique
-818,100,4. B2,10,,"essential, significant",,wesentlich,wesentlich
-819,100,4. B2,10,,economic,,wirtschaftlich,économique
-820,100,4. B2,10,,electronic,,elektronisch,électronique
-821,100,4. B2,10,,critical,,kritisch,critique
-822,100,4. B2,9,,fair,,recht,droit
-823,100,4. B2,9,,absolutely,,unbedingt,insouciant
-824,100,4. B2,9,,dense,,dicht,étanche
-825,100,4. B2,9,,eternal,,ewig,perruque
-826,100,4. B2,9,,fair,,gerecht,droit
-827,100,4. B2,9,,artificial,,künstlich,artistiquement
-828,100,4. B2,9,,musical,,musikalisch,musical
-829,100,4. B2,9,,right,,recht,droit
-830,100,4. B2,9,,urban,,städtisch,table de ville
-831,100,4. B2,9,,approximate,,ungefähr,inexpérimenté
-832,100,4. B2,9,,unbelievable,,unglaublich,incompréhensible
-833,100,4. B2,9,,uncanny,,unheimlich,unheimlich
-834,100,4. B2,9,,valuable,,wertvoll,très utile
-835,100,4. B2,9,,"maximum, maximal",,maximal,maximale
-836,100,4. B2,9,,electrical,,elektrisch,électrique
-837,100,4. B2,9,,mobile,,mobil,mobile
-838,100,4. B2,9,,alternative,,alternativ,alternative
-839,100,4. B2,9,,biological,,biologisch,biologique
-840,100,4. B2,9,,digital,,digital,numérique
-841,100,4. B2,9,,theoretical,,theoretisch,théorique
-842,100,4. B2,9,,creative,,kreativ,créatif
-843,100,4. B2,8,,secret,,geheim,Geheim
-844,100,4. B2,8,,random,,zufällig,zufällig
-845,100,4. B2,8,,fit,,fit,ajuster
-846,100,4. B2,8,,"inexpensive, good value",,preiswert,valeur de prix
-847,100,4. B2,8,,harmful,,schädlich,dommage
-848,100,4. B2,8,,present,,anwesend,réponse
-849,100,4. B2,8,,working,,berufstätig,fonctionnaire
-850,100,4. B2,8,,blind,,blind,aveugle
-851,100,4. B2,8,,uniform,,einheitlich,unitaire
-852,100,4. B2,8,,elegant,,elegant,élégant
-853,100,4. B2,8,,fair,,fair,équitable
-854,100,4. B2,8,,"moist, humid",,feucht,pluie
-855,100,4. B2,8,,due,,fällig,tomber
-856,100,4. B2,8,,even,,gar,gar
-857,100,4. B2,8,,ordinary,,gewöhnlich,gewöhnlich
-858,100,4. B2,8,,smooth,,glatt,glatt
-859,100,4. B2,8,,thorough,,gründlich,gründlich
-860,100,4. B2,8,,secret,,heimlich,heimlich
-861,100,4. B2,8,,inner,,inner,intérieur
-862,100,4. B2,8,,intercultural,,interkulturell,interculturel
-863,100,4. B2,8,,strange,,merkwürdig,merveilleux
-864,100,4. B2,8,,oral,,mündlich,mündlich
-865,100,4. B2,8,,timely,,rechtzeitig,rechtzeitig
-866,100,4. B2,8,,crooked,,schief,schief
-867,100,4. B2,8,,slim,,schlank,schlank
-868,100,4. B2,8,,guilty,,schuldig,schuldig
-869,100,4. B2,8,,so-called,,sogenannt,sogenannt
-870,100,4. B2,8,,mute,,stumm,souche
-871,100,4. B2,8,,partial,,teilweise,teilweise
-872,100,4. B2,8,,deadly,,tödlich,vraiment
-873,100,4. B2,8,,unusual,,ungewöhnlich,ungewöhnlich
-874,100,4. B2,8,,suspicious,,verdächtig,verdächtig
-875,100,4. B2,8,,futile,,vergeblich,à peu près
-876,100,4. B2,8,,probable,,vermutlich,vermutlich
-877,100,4. B2,8,,reasonable,,vernünftig,vernünftig
-878,100,4. B2,8,,understandable,,verständlich,verständlich
-879,100,4. B2,8,,virtual,,virtuell,virtuel
-880,100,4. B2,8,,probably,,voraussichtlich,voraussichtlich
-881,100,4. B2,8,,provisional,,vorläufig,avant
-882,100,4. B2,8,,accessible,,zugänglich,zugänglich
-883,100,4. B2,8,,reliable,,zuverlässig,zuverlässig
-884,100,4. B2,8,,strange,,seltsam,seltsam
-885,100,4. B2,8,,minimal,,minimal,minimal
-886,100,4. B2,8,,ecological,,ökologisch,écologique
-887,100,4. B2,7,,class,,klasse,classe
-888,100,4. B2,7,,frugal,,sparsam,épaves
-889,100,4. B2,7,,colored,,farbig,grande couleur
-890,100,4. B2,7,,cheeky,,frech,français
-891,100,4. B2,7,,total,,gesamt,dans son ensemble
-892,100,4. B2,7,,toxic,,giftig,cadeau
-893,100,4. B2,7,,equal,,gleichberechtigt,gleichberechtigt
-894,100,4. B2,7,,durable,,haltbar,barre d'arrêt
-895,100,4. B2,7,,original,,original,original
-896,100,4. B2,7,,general,,pauschal,pauschal
-897,100,4. B2,7,,popular,,populär,populaire
-898,100,4. B2,7,,great,,prima,première
-899,100,4. B2,7,,mature,,reif,réif
-900,100,4. B2,7,,raw,,roh,roh
-901,100,4. B2,7,,full,,satt,assis
-902,100,4. B2,7,,chic,,schick,schick
-903,100,4. B2,7,,stylistic,,stilistisch,stilistisch
-904,100,4. B2,7,,vegetarian,,vegetarisch,végétarien
-905,100,4. B2,7,,worth,,wert,valeur
-906,100,4. B2,7,,anxious,,ängstlich,angoissé
-907,100,4. B2,6,,awake,,wach,montre
-908,100,4. B2,6,,harmless,,harmlos,sans danger
-909,100,4. B2,5,,pale,,blass,blass
-910,100,4. B2,5,,relaxed,,locker,casier
-911,100,4. B2,5,,illegal,,illegal,illégal
-912,100,4. B2,11,,further,,weiter,suite
-913,100,4. B2,9,,former,,ehemalig,éhémal
-914,100,4. B2,9,,"actual, real",,eigentlich,proprement
-915,100,4. B2,9,,"social, societal",,gesellschaftlich,société
-916,100,4. B2,9,,"today's, contemporary",,heutig,heutig
-917,100,4. B2,9,,classic,,klassisch,classique
-918,100,4. B2,9,,specifically,,konkret,konkret
-919,100,4. B2,9,,sudden,,plötzlich,plötzlich
-920,100,4. B2,9,,daily,,täglich,quotidien
-921,100,4. B2,8,,global,,global,mondial
-922,100,4. B2,8,,yearly,,jährlich,annuellement
-923,100,4. B2,7,,monthly,,monatlich,mensuel
-924,100,4. B2,9,,"basic, fundamental",,grundsätzlich,fondamental
-925,100,4. B2,8,,long-term,,langfristig,débutant
-926,100,4. B2,8,,unknown,,unbekannt,inconnu
-927,100,4. B2,8,,fantastic,,phantastisch,fantasmatique
-928,100,4. B2,7,,attractive,,attraktiv,attrayant
+Nr,exercise,level,points,question,answer,german,english,french,antonym
+1,1,1. A1,15,,alt,,old,vieux,jung
+2,1,1. A1,15,,jung,,young,jeune,alt
+3,1,1. A1,15,,neu,,new,nouveau,
+4,1,1. A1,11,,billig,,cheap,bon marché,teuer
+5,1,1. A1,13,,teuer,,expensive,cher,billig
+6,1,1. A1,12,,blau,,blue,bleu,
+7,1,1. A1,13,,grün,,green,vert,
+8,1,1. A1,12,,gelb,,yellow,jaune,
+9,1,1. A1,12,,grau,,grey,gris,
+10,1,1. A1,14,,rot,,red,rouge,
+11,1,1. A1,14,,schwarz,,black,noir,weiß
+12,1,1. A1,9,,weiß,,white,blanc,schwarz
+13,1,1. A1,15,,einfach,,"easy, simple","facile, simple",schwierig
+14,1,1. A1,13,,schwierig,,difficult,difficile,einfach
+15,1,1. A1,15,,richtig,,right,"vrai, correct",
+16,1,1. A1,13,,falsch,,"false, wrong",faux,
+17,1,1. A1,12,,wahr,,true,vrai,
+18,1,1. A1,14,,frei,,free,gratuit,
+19,1,1. A1,15,,groß,,"big, tall",grand,klein
+20,1,1. A1,15,,klein,,small,petit,groß
+21,2,1. A1,15,,gut,,good,bien,schlecht
+22,2,1. A1,14,,schlecht,,bad,mauvais,gut
+23,2,1. A1,13,,normal,,normal,normale,
+24,2,1. A1,15,,schnell,,fast,rapide,langsam
+25,2,1. A1,13,,langsam,,slow,lent,schnell
+26,2,1. A1,15,,schön,,beautiful,beau,hässlich
+27,2,1. A1,6,,hässlich,,ugly,laid,schön
+28,2,1. A1,13,,früh,,early,tôt,spät
+29,2,1. A1,14,,spät,,late,"tard, en retard",früh
+30,2,1. A1,11,,viel,,much,beaucoup,wenig
+31,2,1. A1,10,,wenig,,"little, few",peu,viel
+32,2,1. A1,10,,arm,,poor,pauvre,reich
+33,2,1. A1,11,,reich,,rich,riche,arm
+34,2,1. A1,12,,heiß,,hot,chaud,kalt
+35,2,1. A1,12,,kalt,,cold,froid,heiß
+36,2,1. A1,11,,sauber,,clean,propre,schmutzig
+37,2,1. A1,9,,schmutzig,,dirty,sale,sauber
+38,2,1. A1,15,,hoch,,high,haut,niedrig
+39,2,1. A1,10,,niedrig,,low,bas,hoch
+40,2,1. A1,11,,weit,,far,loin,nah
+41,3,1. A1,8,,nah,,"close, near","proche, près",weit
+42,3,1. A1,12,,glücklich,,"happy, glad","heureux, content",traurig
+43,3,1. A1,10,,traurig,,sad,triste,glücklich
+44,3,1. A1,11,,lustig,,funny,drôle,
+45,3,1. A1,10,,müde,,tired,fatigué,
+46,3,1. A1,9,,dumm,,stupid,stupide,klug
+47,3,1. A1,9,,klug,,smart,intelligent,dumm
+48,3,1. A1,11,,nett,,nice,"bon, gentils",
+49,3,1. A1,5,,neblig,,foggy,brumeux,
+50,3,1. A1,8,,sonnig,,sunny,ensoleillé,
+51,3,1. A1,5,,windig,,windy,venteux,
+52,3,1. A1,15,,gleich,,same,même,unterschiedlich
+53,3,1. A1,12,,unterschiedlich,,different,différent,gleich
+54,3,1. A1,15,,wichtig,,important,important,
+55,3,1. A1,11,,krank,,sick,malade,gesund
+56,3,1. A1,11,,gesund,,healthy,en bonne santé,krank
+57,3,1. A1,15,,kurz,,short,court,lang
+58,3,1. A1,15,,lang,,long,long,kurz
+59,3,1. A1,6,,letzte,,last,dernier,
+60,3,1. A1,14,,ganz,,"full, whole","plein, entier",
+61,4,1. A1,15,alt,jung,,old,vieux,
+62,4,1. A1,15,jung,alt,,young,jeune,
+63,4,1. A1,11,billig,teuer,,cheap,bon marché,
+64,4,1. A1,13,teuer,billig,,expensive,cher,
+65,4,1. A1,14,schwarz,weiß,,black,noir,
+66,4,1. A1,9,weiß,schwarz,,white,blanc,
+67,4,1. A1,15,einfach,schwierig,,"easy, simple","facile, simple",
+68,4,1. A1,13,schwierig,einfach,,difficult,difficile,
+69,4,1. A1,15,richtig,falsch,,right,"vrai, correct",
+70,4,1. A1,13,falsch,richtig,,"false, wrong",faux,
+71,4,1. A1,15,groß,klein,,"big, tall","grand, grand",
+72,4,1. A1,15,klein,groß,,small,petit,
+73,4,1. A1,15,gut,schlecht,,good,bien,
+74,4,1. A1,14,schlecht,gut,,bad,mauvais,
+75,4,1. A1,15,schnell,langsam,,fast,rapide,
+76,4,1. A1,13,langsam,schnell,,slow,lent,
+77,4,1. A1,15,schön,hässlich,,beautiful,beau,
+78,4,1. A1,6,hässlich,schön,,ugly,laid,
+79,4,1. A1,13,früh,spät,,early,tôt,
+80,4,1. A1,14,spät,früh,,late,"tard, en retard",
+81,4,1. A1,11,viel,wenig,,much,beaucoup,
+82,5,1. A1,10,wenig,viel,,"little, few",peu,
+83,5,1. A1,10,arm,reich,,poor,pauvre,
+84,5,1. A1,11,reich,arm,,rich,riche,
+85,5,1. A1,12,heiß,kalt,,hot,chaud,
+86,5,1. A1,12,kalt,heiß,,cold,froid,
+87,5,1. A1,11,sauber,schmutzig,,clean,propre,
+88,5,1. A1,9,schmutzig,sauber,,dirty,sale,
+89,5,1. A1,15,hoch,niedrig,,high,haut,
+90,5,1. A1,10,niedrig,hoch,,low,bas,
+91,5,1. A1,11,weit,nah,,far,loin,
+92,5,1. A1,8,nah,weit,,"close, near","proche, près",
+93,5,1. A1,12,glücklich,traurig,,"happy, glad","heureux, content",
+94,5,1. A1,10,traurig,glücklich,,sad,triste,
+95,5,1. A1,9,dumm,klug,,stupid,stupide,
+96,5,1. A1,9,klug,dumm,,smart,intelligent,
+97,5,1. A1,15,gleich,unterschiedlich,,same,même,
+98,5,1. A1,12,unterschiedlich,gleich,,different,différent,
+99,5,1. A1,11,krank,gesund,,sick,malade,
+100,5,1. A1,11,gesund,krank,,healthy,en bonne santé,
+101,5,1. A1,15,kurz,lang,,short,court,
+102,5,1. A1,15,lang,kurz,,long,long,
+103,6,,15,alt,älter,,old,vieux,
+104,6,,15,jung,jünger,,young,jeune,
+105,6,,15,neu,neuer,,new,nouveau,
+106,6,,11,billig,billiger,,cheap,bon marché,
+107,6,,13,teuer,teurer,,expensive,cher,
+108,6,,12,blau,blauer,,blue,bleu,
+109,6,,13,grün,grüner,,green,vert,
+110,6,,12,gelb,gelber,,yellow,jaune,
+111,6,,12,grau,grauer,,grey,gris,
+112,6,,14,rot,roter,,red,rouge,
+113,6,,14,schwarz,schwärzer/schwarzer,,black,noir,
+114,6,,9,weiß,weißer,,white,blanc,
+115,6,,15,einfach,einfacher,,"easy, simple","facile, simple",
+116,6,,13,schwierig,schwieriger,,difficult,difficile,
+117,6,,15,richtig,richtiger,,right,"vrai, correct",
+118,6,,13,falsch,falscher,,"false, wrong",faux,
+119,6,,12,wahr,wahrer,,true,vrai,
+120,6,,14,frei,freier,,free,gratuit,
+121,6,,15,groß,größer,,"big, tall","grand, grand",
+122,6,,15,klein,kleiner,,small,petit,
+123,7,,15,gut,besser,,good,bien,
+124,7,,14,schlecht,schlechter,,bad,mauvais,
+125,7,,13,normal,normaler,,normal,normale,
+126,7,,15,schnell,schneller,,fast,rapide,
+127,7,,13,langsam,langsamer,,slow,lent,
+128,7,,15,schön,schöner,,beautiful,beau,
+129,7,,6,hässlich,hässlicher,,ugly,laid,
+130,7,,13,früh,früher,,early,tôt,
+131,7,,14,spät,später,,late,"tard, en retard",
+132,7,,11,viel,mehr,,much,beaucoup,
+133,7,,10,wenig,weniger,,"little, few",peu,
+134,7,,10,arm,ärmer,,poor,pauvre,
+135,7,,11,reich,reicher,,rich,riche,
+136,7,,12,heiß,heißer,,hot,chaud,
+137,7,,12,kalt,kälter,,cold,froid,
+138,7,,11,sauber,sauberer,,clean,propre,
+139,7,,9,schmutzig,schmutziger,,dirty,sale,
+140,7,,15,hoch,höher,,high,haut,
+141,7,,10,niedrig,niedriger,,low,bas,
+142,7,,11,weit,weiter,,far,loin,
+143,8,,8,nah,näher,,"close, near","proche, près",
+144,8,,12,glücklich,glücklicher,,"happy, glad","heureux, content",
+145,8,,10,traurig,trauriger,,sad,triste,
+146,8,,11,lustig,lustiger,,funny,drôle,
+147,8,,10,müde,müder,,tired,fatigué,
+148,8,,9,dumm,dümmer,,stupid,stupide,
+149,8,,9,klug,klüger,,smart,intelligent,
+150,8,,11,nett,netter,,nice,bon,
+151,8,,5,neblig,nebliger,,foggy,brumeux,
+152,8,,8,sonnig,sonniger,,sunny,ensoleillé,
+153,8,,5,windig,windiger,,windy,venteux,
+154,8,,12,unterschiedlich,unterschiedlicher,,different,différent,
+155,8,,15,wichtig,wichtiger,,important,important,
+156,8,,11,krank,kränker,,sick,malade,
+157,8,,11,gesund,gesünder,,healthy,en bonne santé,
+158,8,,15,kurz,kürzer,,short,court,
+159,8,,15,lang,länger,,long,long,
+160,9,,15,alt,am ältesten,,old,vieux,
+161,9,,15,jung,am jüngsten,,young,jeune,
+162,9,,15,neu,am neuesten,,new,nouveau,
+163,9,,11,billig,am billigsten,,cheap,bon marché,
+164,9,,13,teuer,am teuersten,,expensive,cher,
+165,9,,12,blau,am blausten,,blue,bleu,
+166,9,,13,grün,am grünsten,,green,vert,
+167,9,,12,gelb,am gelbsten,,yellow,jaune,
+168,9,,12,grau,am grausten,,grey,gris,
+169,9,,14,rot,am rotesten,,red,rouge,
+170,9,,14,schwarz,am schwärzesten/am schwarzesten,,black,noir,
+171,9,,9,weiß,am weißesten,,white,blanc,
+172,9,,15,einfach,am einfachsten,,"easy, simple","facile, simple",
+173,9,,13,schwierig,am schwierigsten,,difficult,difficile,
+174,9,,15,richtig,am richtigsten,,right,"vrai, correct",
+175,9,,13,falsch,am falschesten,,"false, wrong",faux,
+176,9,,12,wahr,am wahrsten,,true,vrai,
+177,9,,14,frei,am freiesten,,free,gratuit,
+178,9,,15,groß,am größten,,"big, tall","grand, grand",
+179,9,,15,klein,am kleinsten,,small,petit,
+180,10,,15,gut,am besten,,good,bien,
+181,10,,14,schlecht,am schlechtesten,,bad,mauvais,
+182,10,,13,normal,am normalsten,,normal,normale,
+183,10,,15,schnell,am schnellsten,,fast,rapide,
+184,10,,13,langsam,am langsamsten,,slow,lent,
+185,10,,15,schön,am schönsten,,beautiful,beau,
+186,10,,6,hässlich,am hässlichsten,,ugly,laid,
+187,10,,13,früh,am frühesten,,early,tôt,
+188,10,,14,spät,am spätesten,,late,"tard, en retard",
+189,10,,11,viel,am meisten,,much,beaucoup,
+190,10,,10,wenig,am wenigsten,,"little, few",peu,
+191,10,,10,arm,am ärmsten,,poor,pauvre,
+192,10,,11,reich,am reichsten,,rich,riche,
+193,10,,12,heiß,am heißesten,,hot,chaud,
+194,10,,12,kalt,am kältesten,,cold,froid,
+195,10,,11,sauber,am saubersten,,clean,propre,
+196,10,,9,schmutzig,am schmutzigsten,,dirty,sale,
+197,10,,15,hoch,am höchsten,,high,haut,
+198,10,,10,niedrig,am niedrigsten,,low,faible,
+199,10,,11,weit,am weitesten,,far,loin,
+200,11,,8,nah,am nächsten,,"close, near","proche, près",
+201,11,,12,glücklich,am glücklichsten,,"happy, glad","heureux, content",
+202,11,,10,traurig,am traurigsten,,sad,triste,
+203,11,,11,lustig,am lustigsten,,funny,drôle,
+204,11,,10,müde,am müdesten,,tired,fatigué,
+205,11,,9,dumm,am dümmsten,,stupid,stupide,
+206,11,,9,klug,am klügsten,,smart,intelligent,
+207,11,,11,nett,am nettesten,,nice,bon,
+208,11,,5,neblig,am nebligsten,,foggy,brumeux,
+209,11,,8,sonnig,am sonnigsten,,sunny,ensoleillé,
+210,11,,5,windig,am windigsten,,windy,venteux,
+211,11,,12,unterschiedlich,am unterschiedlichsten,,different,différent,
+212,11,,15,wichtig,am wichtigsten,,important,important,
+213,11,,11,krank,am kränksten,,sick,malade,
+214,11,,11,gesund,am gesündesten,,healthy,en bonne santé,
+215,11,,15,kurz,am kürzesten,,short,court,
+216,11,,15,lang,am längsten,,long,long,
+217,12,,,Mein Bruder ist _____ groß wie ich.,so,Mein Bruder ist so groß wie ich.,My brother is as tall as I am.,Mon frère est aussi grand que moi.,
+218,12,,,Das Essen hier ist _____ lecker wie in Italien.,so,Das Essen hier ist so lecker wie in Italien.,The food here is as delicious as in Italy.,La nourriture ici est aussi délicieuse qu'en Italie.,
+219,12,,,Der Park ist _____ schön wie der Garten.,so,Der Park ist so schön wie der Garten.,The park is as beautiful as the garden.,Le parc est aussi beau que le jardin.,
+220,12,,,Dieser Film ist _____ spannend wie der letzte.,so,Dieser Film ist so spannend wie der letzte.,This movie is as exciting as the last one.,Ce film est aussi passionnant que le dernier.,
+221,12,,,Sie ist _____ freundlich wie ihre Schwester.,so,Sie ist so freundlich wie ihre Schwester.,She is as friendly as her sister.,Elle est aussi amicale que sa sœur.,
+222,12,,,Peter ist größer _____ sein Bruder.,als,Peter ist größer als sein Bruder.,Peter is taller than his brother.,Peter est plus grand que son frère.,
+223,12,,,Das Auto ist schneller _____ das Fahrrad.,als,Das Auto ist schneller als das Fahrrad.,The car is faster than the bike.,La voiture est plus rapide que le vélo.,
+224,12,,,Diese Aufgabe ist schwieriger _____ die letzte.,als,Diese Aufgabe ist schwieriger als die letzte.,This task is more difficult than the last one.,Cette tâche est plus difficile que la dernière.,
+225,12,,,Der Urlaub in den Bergen war besser _____ am Strand.,als,Der Urlaub in den Bergen war besser als am Strand.,The vacation in the mountains was better than at the beach.,Les vacances à la montagne étaient meilleures qu'à la plage.,
+226,12,,,Das Buch ist interessanter _____ der Film.,als,Das Buch ist interessanter als der Film.,The book is more interesting than the movie.,Le livre est plus intéressant que le film.,
+227,12,,,Du bist so stark _____ dein Bruder.,wie,Du bist so stark wie dein Bruder.,You are as strong as your brother.,Tu es aussi fort que ton frère.,
+228,12,,,Dieses Kleid ist genauso schön _____ das andere.,wie,Dieses Kleid ist genauso schön wie das andere.,This dress is just as beautiful as the other one.,Cette robe est tout aussi belle que l'autre.,
+229,12,,,Der Film war so spannend _____ das Buch.,wie,Der Film war so spannend wie das Buch.,The movie was as exciting as the book.,Le film était aussi passionnant que le livre.,
+230,12,,,Das Wetter ist heute genauso schlecht _____ gestern.,wie,Das Wetter ist heute genauso schlecht wie gestern.,The weather today is just as bad as yesterday.,Le temps aujourd'hui est aussi mauvais qu'hier.,
+231,12,,,Mein Hund ist genauso freundlich _____ deine Katze.,wie,Mein Hund ist genauso freundlich wie deine Katze.,My dog is just as friendly as your cat.,Mon chien est tout aussi amical que votre chat.,
+232,12,,,Er ist älter _____ ich.,als,Er ist älter als ich.,He is older than me.,Il est plus vieux que moi.,
+233,12,,,Diese Stadt ist größer _____ mein Heimatdorf.,als,Diese Stadt ist größer als mein Heimatdorf.,This city is bigger than my hometown.,Cette ville est plus grande que ma ville natale.,
+234,12,,,Der Kuchen schmeckt besser _____ die Torte.,als,Der Kuchen schmeckt besser als die Torte.,The cake tastes better than the tart.,Le gâteau a meilleur goût que la tarte.,
+235,12,,,Heute ist es heißer _____ gestern.,als,Heute ist es heißer als gestern.,Today is hotter than yesterday.,Aujourd'hui il fait plus chaud qu'hier.,
+236,12,,,Dieses Auto ist schneller _____ das alte.,als,Dieses Auto ist schneller als das alte.,This car is faster than the old one.,Cette voiture est plus rapide que l'ancienne.,
+237,12,,,Mein Haus ist nicht so groß _____ dein Haus.,wie,Mein Haus ist nicht so groß wie dein Haus.,My house is not as big as your house.,Ma maison n'est pas aussi grande que ta maison.,
+238,12,,,Er ist nicht so schnell _____ sein Bruder.,wie,Er ist nicht so schnell wie sein Bruder.,He is not as fast as his brother.,Il n'est pas aussi rapide que son frère.,
+239,12,,,Das Wetter heute ist nicht so schön _____ gestern.,wie,Das Wetter heute ist nicht so schön wie gestern.,The weather today is not as nice as yesterday.,Le temps aujourd’hui n’est pas aussi beau qu’hier.,
+240,12,,,Diese Stadt ist nicht so laut _____ Berlin.,wie,Diese Stadt ist nicht so laut wie Berlin.,This city is not as loud as Berlin.,Cette ville n’est pas aussi bruyante que Berlin.,
+241,12,,,Meine Katze ist nicht so verspielt _____ dein Hund.,wie,Meine Katze ist nicht so verspielt wie dein Hund.,My cat is not as playful as your dog.,Mon chat n'est pas aussi joueur que votre chien.,
+242,12,,,Der Film war _____ spannend wie das Buch.,nicht so,Der Film war nicht so spannend wie das Buch.,The movie was not as exciting as the book.,Le film n’était pas aussi passionnant que le livre.,
+243,12,,,Das Hotel war _____ teuer wie erwartet.,nicht so,Das Hotel war nicht so teuer wie erwartet.,The hotel was not as expensive as expected.,L'hôtel n'était pas aussi cher que prévu.,
+244,12,,,Peter ist _____ freundlich wie Maria.,nicht so,Peter ist nicht so freundlich wie Maria.,Peter is not as friendly as Maria.,Peter n'est pas aussi amical que Maria.,
+245,12,,,Mein Auto ist _____ neu wie deins.,nicht so,Mein Auto ist nicht so neu wie deins.,My car is not as new as yours.,Ma voiture n'est pas aussi neuve que la tienne.,
+246,12,,,Die Aufgabe war _____ schwer wie ich dachte.,nicht so,Die Aufgabe war nicht so schwer wie ich dachte.,The task was not as difficult as I thought.,La tâche n’était pas aussi difficile que je le pensais.,
+247,13,2. A2,14,,klar,,clear,clair,
+248,13,2. A2,11,,hell,,bright,"clair, brillant",
+249,13,2. A2,12,,dunkel,,dark,sombre,
+250,13,2. A2,14,,schwer,,heavy,lourd,
+251,13,2. A2,14,,leicht,,light,léger,
+252,13,2. A2,13,,breit,,wide,large,
+253,13,2. A2,12,,eng,,"tight, narrow","étroit, serré",
+254,13,2. A2,9,,komisch,,"strange, funny","étrange, drôle",
+255,13,2. A2,12,,laut,,loud,fort,
+256,13,2. A2,13,,ruhig,,quiet,"calme, silencieux",
+257,13,2. A2,10,,dünn,,thin,mince,
+258,13,2. A2,11,,dick,,fat,épais,
+259,13,2. A2,12,,zufrieden,,satisfied,satisfait,
+260,13,2. A2,8,,sauer,,sour,aigre,
+261,13,2. A2,10,,bitter,,bitter,amer,
+262,13,2. A2,9,,süß,,sweet,doux,
+263,13,2. A2,9,,scharf,,spicy,épicé,
+264,13,2. A2,4,,salzig,,salty,salé,
+265,13,2. A2,11,,warm,,warm,chaud,
+266,13,2. A2,9,,kühl,,cool,froid,
+267,14,2. A2,8,,faul,,lazy,paresseux,
+268,14,2. A2,8,,fleißig,,hardworking,diligent,
+269,14,2. A2,11,,trocken,,dry,sec,
+270,14,2. A2,6,,nass,,wet,"humide, mouillé",
+271,14,2. A2,8,,weich,,soft,doux,
+272,14,2. A2,12,,hart,,hard,dur,
+273,14,2. A2,11,,freundlich,,friendly,amical,
+274,14,2. A2,8,,sympathisch,,sympathetic,sympathique,
+275,14,2. A2,12,,toll,,great,super,
+276,14,2. A2,9,,schrecklich,,terrible,terrible,
+277,14,2. A2,11,,schwach,,weak,faible,
+278,14,2. A2,14,,stark,,strong,fort,
+279,14,2. A2,9,,langweilig,,boring,ennuyeux,
+280,14,2. A2,11,,interessant,,interesting,intéressant,
+281,14,2. A2,10,,kostenlos,,free of charge,gratuit,
+282,14,2. A2,12,,wunderbar,,wonderful,merveilleux,
+283,14,2. A2,13,,fertig,,finished,fini,
+284,14,2. A2,15,,deutsch,,german,allemand,
+285,14,2. A2,12,,notwendig,,necessary,nécessaire,
+286,14,2. A2,14,,rund,,round,rond,
+287,15,2. A2,13,,kulturell,,cultural,culturel,
+288,15,2. A2,15,,möglich,,possible,possible,
+289,15,2. A2,13,,aktuell,,current,actuel,
+290,15,2. A2,13,,fremd,,foreign,étranger,
+291,15,2. A2,11,,erfolgreich,,successful,réussi,
+292,15,2. A2,11,,leer,,empty,vide,
+293,15,2. A2,13,,voll,,full,plein,
+294,15,2. A2,#N/A,,orange,,orange,orange,
+295,15,2. A2,#N/A,,rosa,,rose,rose,
+296,15,2. A2,#N/A,,lila,,purple,violet,
+297,15,2. A2,10,,braun,,brown,brun,
+298,15,2. A2,12,,häufig,,frequent,fréquent,
+299,15,2. A2,11,,selten,,rare,rare,
+300,15,2. A2,12,,sicher,,"safe, secure","sûr, sécurisé",
+301,15,2. A2,11,,gefährlich,,dangerous,dangereux,
+302,15,2. A2,9,,nützlich,,useful,utile,
+303,15,2. A2,#N/A,,nutzlos,,useless,inutile,
+304,15,2. A2,12,,ähnlich,,similar,similaire,
+305,15,2. A2,7,,hungrig,,hungry,affamé,
+306,15,2. A2,4,,durstig,,thirsty,soif,
+307,16,2. A2,,dunkel,hell,,bright,brillant,
+308,16,2. A2,,hell,dunkel,,dark,sombre,
+309,16,2. A2,,leicht,schwer,,heavy,lourd,
+310,16,2. A2,,schwer,leicht,,light,léger,
+311,16,2. A2,,eng,breit,,wide,large,
+312,16,2. A2,,breit,eng,,"tight, narrow","serré, étroit",
+313,16,2. A2,,ruhig,laut,,loud,fort,
+314,16,2. A2,,laut,ruhig,,quiet,calme,
+315,16,2. A2,,dick,dünn,,thin,mince,
+316,16,2. A2,,dünn,dick,,fat,graisse,
+317,16,2. A2,,kühl,warm,,warm,chaud,
+318,16,2. A2,,warm,kühl,,cool,cool,
+319,16,2. A2,,fleißig,faul,,lazy,paresseux,
+320,16,2. A2,,faul,fleißig,,hardworking,travailler dur,
+321,16,2. A2,,nass,trocken,,dry,sec,
+322,16,2. A2,,trocken,nass,,wet,mouillé,
+323,17,2. A2,,hart,weich,,soft,doux,
+324,17,2. A2,,weich,hart,,hard,dur,
+325,17,2. A2,,schrecklich,toll,,great,super,
+326,17,2. A2,,toll,schrecklich,,terrible,terrible,
+327,17,2. A2,,stark,schwach,,weak,faible,
+328,17,2. A2,,schwach,stark,,strong,fort,
+329,17,2. A2,,interessant,langweilig,,boring,ennuyeux,
+330,17,2. A2,,langweilig,interessant,,interesting,intéressant,
+331,17,2. A2,,voll,leer,,empty,vide,
+332,17,2. A2,,leer,voll,,full,plein,
+333,17,2. A2,,selten,häufig,,frequent,fréquent,
+334,17,2. A2,,häufig,selten,,rare,rare,
+335,17,2. A2,,gefährlich,sicher,,"safe, secure","sûr, sécurisé",
+336,17,2. A2,,sicher,gefährlich,,dangerous,dangereux,
+337,17,2. A2,,nutzlos,nützlich,,useful,utile,
+338,17,2. A2,,nützlich,nutzlos,,useless,inutile,
+339,18,2. A2,,klar,klarer,,clear,clair,
+340,18,2. A2,,hell,heller,,bright,brillant,
+341,18,2. A2,,dunkel,dunkler,,dark,sombre,
+342,18,2. A2,,schwer,schwerer,,heavy,lourd,
+343,18,2. A2,,leicht,leichter,,light,léger,
+344,18,2. A2,,breit,breiter,,wide,large,
+345,18,2. A2,,komisch,komischer,,"strange, funny","étrange, drôle",
+346,18,2. A2,,laut,lauter,,loud,fort,
+347,18,,,ruhig,ruhiger,,quiet,calme,
+348,18,,,dünn,dünner,,thin,mince,
+349,18,,,dick,dicker,,fat,graisse,
+350,18,,,zufrieden,zufriedener,,satisfied,satisfait,
+351,18,,,sauer,saurer,,sour,aigre,
+352,18,,,bitter,bitterer,,bitter,amer,
+353,18,,,süß,süßer,,sweet,doux,
+354,18,,,scharf,scharfer,,spicy,épicé,
+355,18,,,salzig,salziger,,salty,salé,
+356,18,,,warm,wärmer,,warm,chaud,
+357,18,,,kühl,kühler,,cool,cool,
+358,18,,,faul,fauler,,lazy,paresseux,
+359,19,,,fleißig,fleißiger,,hardworking,travailler dur,
+360,19,,,trocken,trockener,,dry,sec,
+361,19,,,nass,nasser,,wet,mouillé,
+362,19,,,weich,weicher,,soft,doux,
+363,19,,,hart,härter,,hard,dur,
+364,19,,,freundlich,freundlicher,,friendly,amical,
+365,19,,,sympathisch,sympathischer,,sympathetic,sympathique,
+366,19,,,toll,toller,,great,super,
+367,19,,,schrecklich,schrecklicher,,terrible,terrible,
+368,19,,,schwach,schwächer,,weak,faible,
+369,19,,,stark,stärker,,strong,fort,
+370,19,,,langweilig,langweiliger,,boring,ennuyeux,
+371,19,,,interessant,interessanter,,interesting,intéressant,
+372,19,,,kostenlos,kostenloser,,free of charge,gratuitement,
+373,19,,,wunderbar,wunderbarer,,wonderful,merveilleux,
+374,19,,,fertig,fertiger,,finished,fini,
+375,19,,,deutsch,deutscher,,german,Allemand,
+376,19,,,notwendig,notwendiger,,necessary,nécessaire,
+377,19,,,rund,runder,,round,rond,
+378,19,,,kulturell,kultureller,,cultural,culturel,
+379,20,,,möglich,möglicher,,possible,possible,
+380,20,,,aktuell,aktueller,,current,actuel,
+381,20,,,fremd,fremder,,foreign,étranger,
+382,20,,,erfolgreich,erfolgreicher,,successful,réussi,
+383,20,,,leer,leerer,,empty,vide,
+384,20,,,voll,voller,,full,plein,
+385,20,,,häufig,häufiger,,frequent,fréquent,
+386,20,,,selten,seltener,,rare,rare,
+387,20,,,sicher,sicherer,,"safe, secure","sûr, sécurisé",
+388,20,,,gefährlich,gefährlicher,,dangerous,dangereux,
+389,20,,,nützlich,nützlicher,,useful,utile,
+390,20,,,nutzlos,nutzloser,,useless,inutile,
+391,20,,,ähnlich,ähnlicher,,similar,similaire,
+392,20,,,hungrig,hungriger,,hungry,affamé,
+393,20,,,durstig,durstiger,,thirsty,soif,
+394,21,,,klar,am klarsten,,clear,clair,
+395,21,,,hell,am hellsten,,bright,brillant,
+396,21,,,dunkel,am dunkelsten,,dark,sombre,
+397,21,,,schwer,am schwersten,,heavy,lourd,
+398,21,,,leicht,am leichtesten,,light,léger,
+399,21,,,breit,am breitesten,,wide,large,
+400,21,,,komisch,am komischsten,,"strange, funny","étrange, drôle",
+401,21,,,laut,am lautesten,,loud,fort,
+402,21,,,ruhig,am ruhigsten,,quiet,calme,
+403,21,,,dünn,am dünnsten,,thin,mince,
+404,21,,,dick,am dicksten,,fat,graisse,
+405,21,,,zufrieden,am zufriedensten,,satisfied,satisfait,
+406,21,,,sauer,am sauersten,,sour,aigre,
+407,21,,,bitter,am bittersten,,bitter,amer,
+408,21,,,süß,am süßesten,,sweet,doux,
+409,21,,,scharf,am schärfsten,,spicy,épicé,
+410,21,,,salzig,am salzigsten,,salty,salé,
+411,21,,,warm,am wärmsten,,warm,chaud,
+412,21,,,kühl,am kühlsten,,cool,cool,
+413,21,,,faul,am faulsten,,lazy,paresseux,
+414,22,,,fleißig,am fleißigsten,,hardworking,travailler dur,
+415,22,,,trocken,am trockensten,,dry,sec,
+416,22,,,nass,am nassesten,,wet,mouillé,
+417,22,,,weich,am weichsten,,soft,doux,
+418,22,,,hart,am härtesten,,hard,dur,
+419,22,,,freundlich,am freundlichsten,,friendly,amical,
+420,22,,,sympathisch,am sympathischsten,,sympathetic,sympathique,
+421,22,,,toll,am tollsten,,great,super,
+422,22,,,schrecklich,am schrecklichsten,,terrible,terrible,
+423,22,,,schwach,am schwächsten,,weak,faible,
+424,22,,,stark,am stärksten,,strong,fort,
+425,22,,,langweilig,am langweiligsten,,boring,ennuyeux,
+426,22,,,interessant,am interessantesten,,interesting,intéressant,
+427,22,,,kostenlos,am kostenlosesten,,free of charge,gratuitement,
+428,22,,,wunderbar,am wunderbarsten,,wonderful,merveilleux,
+429,22,,,fertig,am fertigsten,,finished,fini,
+430,22,,,deutsch,am deutschesten,,german,Allemand,
+431,22,,,notwendig,am notwendigsten,,necessary,nécessaire,
+432,22,,,rund,am rundesten,,round,rond,
+433,22,,,kulturell,am kulturellsten,,cultural,culturel,
+434,23,,,möglich,am möglichsten,,possible,possible,
+435,23,,,aktuell,am aktuellsten,,current,actuel,
+436,23,,,fremd,am fremdsten,,foreign,étranger,
+437,23,,,erfolgreich,am erfolgreichsten,,successful,réussi,
+438,23,,,leer,am leersten,,empty,vide,
+439,23,,,voll,am vollsten,,full,plein,
+440,23,,,häufig,am häufigsten,,frequent,fréquent,
+441,23,,,selten,am seltensten,,rare,rare,
+442,23,,,sicher,am sichersten,,"safe, secure","sûr, sécurisé",
+443,23,,,gefährlich,am gefährlichsten,,dangerous,dangereux,
+444,23,,,nützlich,am nützlichsten,,useful,utile,
+445,23,,,nutzlos,am nutzlosesten,,useless,inutile,
+446,23,,,ähnlich,am ähnlichsten,,similar,similaire,
+447,23,,,hungrig,am hungrigsten,,hungry,affamé,
+448,23,,,durstig,am durstigsten,,thirsty,soif,
+449,24,3. B1,14,,eigen,,own,propre (le sien),
+450,24,3. B1,14,,international,,international,international,
+451,24,3. B1,14,,europäisch,,European,européen,
+452,24,3. B1,13,,tot,,dead,mort,
+453,24,3. B1,13,,einzeln,,"single, only","seul, célibataire",
+454,24,3. B1,13,,lieb,,"dear, kind","cher, gentil",
+455,24,3. B1,13,,genau,,precise,précis,
+456,24,3. B1,13,,deutlich,,"significant, clear","clair, notable, évident",
+457,24,3. B1,13,,tief,,deep,profond,
+458,24,3. B1,13,,modern,,modern,moderne,
+459,24,3. B1,13,,praktisch,,practical,pratique,
+460,24,3. B1,13,,direkt,,direct,direct,
+556,24,3. B1,6,,indirekt,,indirect,indirect,
+461,24,3. B1,12,,echt,,real,réel,
+462,24,3. B1,12,,allgemein,,general,général,
+463,24,3. B1,12,,einzig,,"unique, only","unique, seul",
+464,24,3. B1,12,,gemeinsam,,"common, collective","commun, collectif",
+465,24,3. B1,12,,tatsächlich,,"actual, true","effectif, réel",
+466,24,3. B1,12,,völlig,,complete,complet,
+467,24,3. B1,12,,zusätzlich,,additional,supplémentaire,
+468,25,3. B1,12,,öffentlich,,public,publique,
+469,25,3. B1,12,,privat,,private,privé,
+470,25,3. B1,12,,aktiv,,active,actif,
+551,25,3. B1,7,,passiv,,passive,passif,
+471,25,3. B1,12,,automatisch,,automatic,automatique,
+472,25,3. B1,12,,persönlich,,personal,personnel,
+473,25,3. B1,11,,weiblich,,feminine,féminin,
+474,25,3. B1,11,,arbeitslos,,unemployed,"sans emploi, au chômage",
+475,25,3. B1,11,,streng,,strict,strict,
+476,25,3. B1,11,,frisch,,fresh,frais,
+477,25,3. B1,11,,willkommen,,welcomed,accueilli,
+478,25,3. B1,11,,bunt,,colorful,coloré,
+479,25,3. B1,11,,freiwillig,,voluntary,volontaire,
+480,25,3. B1,11,,fest,,firm,ferme,
+481,25,3. B1,11,,gleichzeitig,,simultaneous,simultané,
+482,25,3. B1,11,,knapp,,"scarce, short","rare, court",
+483,25,3. B1,11,,menschlich,,human,humain,
+484,25,3. B1,11,,offenbar,,obvious,évident,
+485,25,3. B1,11,,regelmäßig,,regular,régulier,
+486,25,3. B1,11,,ständig,,constant,constante,
+487,25,3. B1,11,,weltweit,,worldwide,mondial,
+488,25,3. B1,11,,zahlreich,,numerous,nombreux,
+489,26,3. B1,11,,üblich,,usual,habituel,
+490,26,3. B1,11,,übrig,,remaining,restant,
+491,26,3. B1,11,,sportlich,,athletic,athlétique,
+492,26,3. B1,11,,typisch,,typical,typique,
+493,26,3. B1,11,,individuell,,individual,individuel,
+494,26,3. B1,11,,positiv,,positive,positif,
+495,26,3. B1,11,,herzlich,,"warm, cordial","chaleureux, cordial",
+496,26,3. B1,11,,böse,,"evil, angry","méchant, en colère",
+497,26,3. B1,10,,bequem,,"comfortable, convenient","confortable, pratique",
+498,26,3. B1,10,,männlich,,male,mâle,
+499,26,3. B1,10,,natürlich,,"natural, self-evident","naturel, évident",
+500,26,3. B1,10,,gültig,,valid,valide,
+501,26,3. B1,10,,angenehm,,pleasant,agréable,
+502,26,3. B1,10,,aufmerksam,,attentive,attentif,
+503,26,3. B1,10,,bereit,,ready,prêt,
+504,26,3. B1,10,,beruflich,,professional,professionnel,
+505,26,3. B1,10,,ehrlich,,honest,honnête,
+506,26,3. B1,10,,eindeutig,,clear,clair,
+507,26,3. B1,10,,endgültig,,final,final,
+508,26,3. B1,10,,ernst,,serious,sérieux,
+509,27,3. B1,10,,eventuell,,possibly,peut-être,
+510,27,3. B1,10,,extrem,,extremely,extrêmement,
+511,27,3. B1,10,,körperlich,,physical,physique,
+512,27,3. B1,10,,perfekt,,perfect,parfait,
+513,27,3. B1,10,,rechtlich,,legal,légal,
+514,27,3. B1,10,,riesig,,huge,énorme,
+515,27,3. B1,10,,sichtbar,,visible,visible,
+516,27,3. B1,10,,sinnvoll,,sensible,sensible,
+517,27,3. B1,10,,stolz,,proud,fier,
+518,27,3. B1,10,,ursprünglich,,original,original,
+519,27,3. B1,10,,verantwortlich,,responsible,responsable,
+520,27,3. B1,10,,wild,,wild,sauvage,
+521,27,3. B1,10,,intensiv,,intensive,intensif,
+522,27,3. B1,10,,national,,national,national,
+523,27,3. B1,10,,negativ,,negative,négatif,
+524,27,3. B1,10,,ordentlich,,orderly,ordonné,
+525,27,3. B1,9,,pünktlich,,punctual,ponctuel,
+526,27,3. B1,9,,nervös,,nervous,nerveux,
+527,27,3. B1,9,,kaputt,,broken,cassé,
+528,27,3. B1,9,,wunderschön,,beautiful,beau,
+529,28,3. B1,9,,furchtbar,,terrible,terrible,
+530,28,3. B1,9,,schwanger,,pregnant,enceinte,
+531,28,3. B1,9,,zukünftig,,future,avenir,
+532,28,3. B1,9,,durchschnittlich,,average,moyenne,
+533,28,3. B1,9,,flexibel,,flexible,flexible,
+534,28,3. B1,8,,alltäglich,,everyday,tous les jours,
+535,28,3. B1,8,,dankbar,,grateful,reconnaissant,
+536,28,3. B1,8,,witzig,,"witty, funny","spirituel, drôle",
+537,28,3. B1,8,,kürzlich,,recent,récent,
+538,28,3. B1,8,,einsam,,lonely,solitaire,
+539,28,3. B1,8,,flach,,flat,plat,
+540,28,3. B1,8,,steil,,steep,raide,
+541,28,3. B1,8,,fett,,fat,graisse,
+542,28,3. B1,8,,stressig,,stressful,stressant,
+543,28,3. B1,8,,neugierig,,curious,curieux,
+544,28,3. B1,8,,wahnsinnig,,insane,fou,
+545,28,3. B1,8,,hübsch,,pretty,joli,
+546,28,3. B1,8,,statistisch,,statistical,statistique,
+547,28,3. B1,7,,sinnlos,,pointless,inutile,
+548,28,3. B1,7,,mutig,,courageous,courageux,
+549,29,3. B1,7,,höflich,,polite,poli,
+550,29,3. B1,7,,ärgerlich,,annoying,ennuyeux,
+552,29,3. B1,6,,winzig,,tiny,minuscule,
+553,29,3. B1,6,,ledig,,single,célibataire,
+554,29,3. B1,4,,besonder,,special,spécial,
+555,29,3. B1,4,,lecker,,tasty,savoureux,
+557,29,3. B1,10,,ideal,,ideal,idéal,
+558,29,3. B1,10,,offiziell,,official,officiel,
+559,29,3. B1,9,,unabhängig,,independent,indépendant,
+560,29,3. B1,9,,abhängig,,dependent,dépendant,
+561,29,3. B1,9,,gemütlich,,"cozy, comfortable","douillet, confortable",
+562,29,3. B1,9,,schuld,,responsible,responsable,
+563,29,3. B1,9,,komplett,,complete,complet,
+564,29,3. B1,8,,optimistisch,,optimistic,optimiste,
+565,29,3. B1,8,,realistisch,,realistic,réaliste,
+566,29,3. B1,10,,regional,,regional,régional,
+567,29,3. B1,10,,traditionell,,traditional,traditionnel,
+568,29,3. B1,8,,treu,,loyal,loyal,
+569,100,4. B2,13,,verschieden,,"various, different","divers, différent",
+570,100,4. B2,12,,politisch,,political,politique,
+571,100,4. B2,11,,schriftlich,,written,écrit,
+572,100,4. B2,11,,selbstständig,,"self-employed, independent","travailleur indépendant, indépendant",
+573,100,4. B2,11,,total,,total,total,
+574,100,4. B2,11,,finanziell,,financial,financier,
+575,100,4. B2,11,,historisch,,historical,historique,
+576,100,4. B2,11,,relativ,,relatively,relativement,
+577,100,4. B2,11,,technisch,,technical,technique,
+578,100,4. B2,10,,wesentlich,,"essential, significant","essentiel, significatif",
+579,100,4. B2,10,,wirtschaftlich,,economic,économique,
+580,100,4. B2,10,,elektronisch,,electronic,électronique,
+581,100,4. B2,10,,kritisch,,critical,critique,
+582,100,4. B2,9,,recht,,fair,équitable,
+583,100,4. B2,9,,unbedingt,,absolutely,absolument,
+584,100,4. B2,9,,dicht,,dense,dense,
+585,100,4. B2,9,,ewig,,eternal,éternel,
+586,100,4. B2,9,,gerecht,,fair,équitable,
+587,100,4. B2,9,,künstlich,,artificial,artificiel,
+588,100,4. B2,9,,musikalisch,,musical,musical,
+589,100,4. B2,9,,recht,,right,droite,
+590,100,4. B2,9,,städtisch,,urban,urbain,
+591,100,4. B2,9,,ungefähr,,approximate,approximatif,
+592,100,4. B2,9,,unglaublich,,unbelievable,incroyable,
+593,100,4. B2,9,,unheimlich,,uncanny,étonnant,
+594,100,4. B2,9,,wertvoll,,valuable,précieux,
+595,100,4. B2,9,,maximal,,"maximum, maximal","maximum, maximal",
+596,100,4. B2,9,,elektrisch,,electrical,électrique,
+597,100,4. B2,9,,mobil,,mobile,mobile,
+598,100,4. B2,9,,alternativ,,alternative,alternative,
+599,100,4. B2,9,,biologisch,,biological,biologique,
+600,100,4. B2,9,,digital,,digital,numérique,
+601,100,4. B2,9,,theoretisch,,theoretical,théorique,
+602,100,4. B2,9,,kreativ,,creative,créatif,
+603,100,4. B2,8,,geheim,,secret,secrète,
+604,100,4. B2,8,,zufällig,,random,aléatoire,
+605,100,4. B2,8,,fit,,fit,ajuster,
+606,100,4. B2,8,,preiswert,,"inexpensive, good value","bon marché, bon rapport qualité/prix",
+607,100,4. B2,8,,schädlich,,harmful,nocif,
+608,100,4. B2,8,,anwesend,,present,présent,
+609,100,4. B2,8,,berufstätig,,working,fonctionnement,
+610,100,4. B2,8,,blind,,blind,aveugle,
+611,100,4. B2,8,,einheitlich,,uniform,uniforme,
+612,100,4. B2,8,,elegant,,elegant,élégant,
+613,100,4. B2,8,,fair,,fair,équitable,
+614,100,4. B2,8,,feucht,,"moist, humid","humide, humide",
+615,100,4. B2,8,,fällig,,due,exigible,
+616,100,4. B2,8,,gar,,even,même,
+617,100,4. B2,8,,gewöhnlich,,ordinary,ordinaire,
+618,100,4. B2,8,,glatt,,smooth,lisse,
+619,100,4. B2,8,,gründlich,,thorough,complet,
+620,100,4. B2,8,,heimlich,,secret,secrète,
+621,100,4. B2,8,,inner,,inner,intérieur,
+622,100,4. B2,8,,interkulturell,,intercultural,interculturel,
+623,100,4. B2,8,,merkwürdig,,strange,étrange,
+624,100,4. B2,8,,mündlich,,oral,oral,
+625,100,4. B2,8,,rechtzeitig,,timely,opportun,
+626,100,4. B2,8,,schief,,crooked,courbé,
+627,100,4. B2,8,,schlank,,slim,mince,
+628,100,4. B2,8,,schuldig,,guilty,coupable,
+629,100,4. B2,8,,sogenannt,,so-called,soi-disant,
+630,100,4. B2,8,,stumm,,mute,muet,
+631,100,4. B2,8,,teilweise,,partial,partiel,
+632,100,4. B2,8,,tödlich,,deadly,mortel,
+633,100,4. B2,8,,ungewöhnlich,,unusual,inhabituel,
+634,100,4. B2,8,,verdächtig,,suspicious,suspect,
+635,100,4. B2,8,,vergeblich,,futile,futile,
+636,100,4. B2,8,,vermutlich,,probable,probable,
+637,100,4. B2,8,,vernünftig,,reasonable,raisonnable,
+638,100,4. B2,8,,verständlich,,understandable,compréhensible,
+639,100,4. B2,8,,virtuell,,virtual,virtuel,
+640,100,4. B2,8,,voraussichtlich,,probably,probablement,
+641,100,4. B2,8,,vorläufig,,provisional,provisoire,
+642,100,4. B2,8,,zugänglich,,accessible,accessible,
+643,100,4. B2,8,,zuverlässig,,reliable,fiable,
+644,100,4. B2,8,,seltsam,,strange,étrange,
+645,100,4. B2,8,,minimal,,minimal,minimal,
+646,100,4. B2,8,,ökologisch,,ecological,écologique,
+647,100,4. B2,7,,klasse,,class,classe,
+648,100,4. B2,7,,sparsam,,frugal,frugal,
+649,100,4. B2,7,,farbig,,colored,coloré,
+650,100,4. B2,7,,frech,,cheeky,effronté,
+651,100,4. B2,7,,gesamt,,total,total,
+652,100,4. B2,7,,giftig,,toxic,toxique,
+653,100,4. B2,7,,gleichberechtigt,,equal,égal,
+654,100,4. B2,7,,haltbar,,durable,durable,
+655,100,4. B2,7,,original,,original,original,
+656,100,4. B2,7,,pauschal,,general,général,
+657,100,4. B2,7,,populär,,popular,populaire,
+658,100,4. B2,7,,prima,,great,super,
+659,100,4. B2,7,,reif,,mature,mature,
+660,100,4. B2,7,,roh,,raw,brut,
+661,100,4. B2,7,,satt,,full,complet,
+662,100,4. B2,7,,schick,,chic,chic,
+663,100,4. B2,7,,stilistisch,,stylistic,stylistique,
+664,100,4. B2,7,,vegetarisch,,vegetarian,végétarien,
+665,100,4. B2,7,,wert,,worth,valeur,
+666,100,4. B2,7,,ängstlich,,anxious,anxieux,
+667,100,4. B2,6,,wach,,awake,éveillé,
+668,100,4. B2,6,,harmlos,,harmless,inoffensif,
+669,100,4. B2,5,,blass,,pale,pâle,
+670,100,4. B2,5,,locker,,relaxed,détendu,
+671,100,4. B2,5,,illegal,,illegal,illégal,
+672,100,4. B2,11,,weiter,,further,plus loin,
+673,100,4. B2,9,,ehemalig,,former,ancien,
+674,100,4. B2,9,,eigentlich,,"actual, real","réel, réel",
+675,100,4. B2,9,,gesellschaftlich,,"social, societal","social, sociétal",
+676,100,4. B2,9,,heutig,,"today's, contemporary","d'aujourd'hui, contemporain",
+677,100,4. B2,9,,klassisch,,classic,classique,
+678,100,4. B2,9,,konkret,,specifically,concret,
+679,100,4. B2,9,,plötzlich,,sudden,soudain,
+680,100,4. B2,9,,täglich,,daily,quotidien,
+681,100,4. B2,8,,global,,global,mondial,
+682,100,4. B2,8,,jährlich,,yearly,annuel,
+683,100,4. B2,7,,monatlich,,monthly,mensuel,
+684,100,4. B2,9,,grundsätzlich,,"basic, fundamental","basique, fondamental",
+685,100,4. B2,8,,langfristig,,long-term,à long terme,
+686,100,4. B2,8,,unbekannt,,unknown,inconnu,
+687,100,4. B2,8,,phantastisch,,fantastic,fantastique,
+688,100,4. B2,7,,attraktiv,,attractive,attractif,

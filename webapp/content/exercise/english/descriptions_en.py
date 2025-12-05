@@ -40,6 +40,8 @@ DESCRIPTION_EN = {
         24: "C1 Prepositional phrases, in sentences",
         25: "C1 Postpositions, in isolation",
         26: "C1 Postpositions, in sentences",
+        27: "Synonyms of Prepositions, in isolation",
+        28: "Antonyms of Prepositions, in isolation",
     },
 
     praepositionen_verben: {
@@ -79,6 +81,17 @@ DESCRIPTION_EN = {
         30: "C1 Verb-Preposition pairs, in sentences",
         31: "C1 Verb-Preposition pairs, in isolation",
         32: "C1 Verb-Preposition pairs, in sentences",
+        33: "C1 Verb-Preposition pairs, in isolation",
+        34: "C1 Verb-Preposition pairs, in sentences",
+        35: "C1 Verb-Preposition pairs, in isolation",
+        36: "C1 Verb-Preposition pairs, in sentences",
+
+        37: "C2 Verb-Preposition pairs, in isolation",
+        38: "C2 Verb-Preposition pairs, in sentences",
+        39: "C2 Verb-Preposition pairs, in isolation",
+        40: "C2 Verb-Preposition pairs, in sentences",
+        41: "C2 Verb-Preposition pairs, in isolation",
+        42: "C2 Verb-Preposition pairs, in sentences",
     },
 
     praepositionen_adjektive: {
@@ -198,6 +211,8 @@ DESCRIPTION_EN = {
 
         42: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in isolation",
         43: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in sentences",
+        44: "Articles in Appositions, in sentences",
+        45: "Articles in Appositions, in sentences",
     },
 
     artikel_genus: {
@@ -325,6 +340,7 @@ DESCRIPTION_EN = {
         27: "Mix of Relative Pronouns, in sentences",
         28: "Mix of Relative Pronouns, in sentences",
         29: "Relative Pronouns for locations and directions, in sentences",
+        30: "Relative Pronouns Was und Wer, in sentences",
     },
 
     konnektoren: {
@@ -449,7 +465,7 @@ DESCRIPTION_EN = {
     },
 
     wortstellung: {
-        1: "",
+        1: "Placeholder",
     },
 
     adjektive: {

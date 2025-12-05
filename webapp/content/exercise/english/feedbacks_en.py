@@ -100,28 +100,38 @@ FEEDBACK_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+        27: "{english} = {correct_answers}",
+        28: "{german} ↔ {correct_answer}"
+            "<br><br>{english}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     praepositionen_verben: {
         1: "{english} = {german} + {case_english}",
         2: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
         3: "{english} = {german} + {case_english}",
         4: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
         5: "{english} = {german} + {case_english}",
         6: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
         7: "{english} = {german} + {case_english}",
         8: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
         9: "{german}"
            "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
         10: "{german}"
             "<br><br><i>{english}</i>"
@@ -130,52 +140,85 @@ FEEDBACK_EN = {
         11: "{english} = {german} + {case_english}",
         12: "{german}"
             "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         13: "{english} = {german} + {case_english}",
         14: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         15: "{english} = {german} + {case_english}",
         16: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         17: "{english} = {german} + {case_english}",
         18: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
 
         19: "{english} = {german} + {case_english}",
         20: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         21: "{english} = {german} + {case_english}",
         22: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         23: "{english} = {german} + {case_english}",
         24: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         25: "{english} = {german} + {case_english}",
         26: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
 
         27: "{english} = {german} + {case_english}",
         28: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         29: "{english} = {german} + {case_english}",
         30: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         31: "{english} = {german} + {case_english}",
         32: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         33: "{english} = {german} + {case_english}",
         34: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        35: "{english} = {german} + {case_english}",
+        36: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+
+        37: "{english} = {german} + {case_english}",
+        38: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        39: "{english} = {german} + {case_english}",
+        40: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        41: "{english} = {german} + {case_english}",
+        42: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
     },
 
@@ -436,6 +479,12 @@ FEEDBACK_EN = {
         43: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
+        44: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}, {case_english} → {correct_answers}",
+        45: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}, {case_english} → {correct_answers}",
     },
 
     artikel_genus: {
@@ -690,6 +739,9 @@ FEEDBACK_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
         29: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        30: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
     },
@@ -951,7 +1003,7 @@ FEEDBACK_EN = {
     },
 
     wortstellung: {
-        1: "",
+        1: "Placeholder",
     },
 
     adjektive: {
@@ -1360,109 +1412,109 @@ FEEDBACK_EN = {
     },
 
     partizip_II: {
-        1: "Partizip II {previous_question}: {correct_answers}"
+        1: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        2: "Partizip II {previous_question}: {correct_answers}"
+        2: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        3: "Partizip II {previous_question}: {correct_answers}"
+        3: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        4: "Partizip II {previous_question}: {correct_answers}"
+        4: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        5: "Partizip II {previous_question}: {correct_answers}"
+        5: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
 
-        6: "Partizip II {previous_question}: {correct_answers}"
+        6: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        7: "Partizip II {previous_question}: {correct_answers}"
+        7: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        8: "Partizip II {previous_question}: {correct_answers}"
+        8: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        9: "Partizip II {previous_question}: {correct_answers}"
+        9: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-        10: "Partizip II {previous_question}: {correct_answers}"
+        10: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
 
-        11: "Partizip II {previous_question}: {correct_answers}"
+        11: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        12: "Partizip II {previous_question}: {correct_answers}"
+        12: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        13: "Partizip II {previous_question}: {correct_answers}"
+        13: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        14: "Partizip II {previous_question}: {correct_answers}"
+        14: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        15: "Partizip II {previous_question}: {correct_answers}"
+        15: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        16: "Partizip II {previous_question}: {correct_answers}"
+        16: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        17: "Partizip II {previous_question}: {correct_answers}"
+        17: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        18: "Partizip II {previous_question}: {correct_answers}"
+        18: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        19: "Partizip II {previous_question}: {correct_answers}"
+        19: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        20: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-
-        21: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        22: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        23: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        24: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        25: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        26: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        27: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        28: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        29: "Partizip II {previous_question}: {correct_answers}"
-            "<br><br>{previous_question} = {english}",
-        30: "Partizip II {previous_question}: {correct_answers}"
+        20: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
 
-        31: "Partizip II {previous_question}: {correct_answers}"
+        21: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        32: "Partizip II {previous_question}: {correct_answers}"
+        22: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        33: "Partizip II {previous_question}: {correct_answers}"
+        23: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        34: "Partizip II {previous_question}: {correct_answers}"
+        24: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        35: "Partizip II {previous_question}: {correct_answers}"
+        25: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        36: "Partizip II {previous_question}: {correct_answers}"
+        26: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        37: "Partizip II {previous_question}: {correct_answers}"
+        27: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        38: "Partizip II {previous_question}: {correct_answers}"
+        28: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        39: "Partizip II {previous_question}: {correct_answers}"
+        29: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        40: "Partizip II {previous_question}: {correct_answers}"
+        30: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        41: "Partizip II {previous_question}: {correct_answers}"
+
+        31: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        42: "Partizip II {previous_question}: {correct_answers}"
+        32: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        43: "Partizip II {previous_question}: {correct_answers}"
+        33: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        44: "Partizip II {previous_question}: {correct_answers}"
+        34: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        45: "Partizip II {previous_question}: {correct_answers}"
+        35: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        46: "Partizip II {previous_question}: {correct_answers}"
+        36: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        47: "Partizip II {previous_question}: {correct_answers}"
+        37: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        48: "Partizip II {previous_question}: {correct_answers}"
+        38: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        49: "Partizip II {previous_question}: {correct_answers}"
+        39: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        50: "Partizip II {previous_question}: {correct_answers}"
+        40: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        41: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        42: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        43: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        44: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        45: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        46: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        47: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        48: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        49: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        50: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
     },
 
@@ -1780,11 +1832,16 @@ FEEDBACK_EN = {
     },
 
     partizip_I: {
-        1: "Partizip I {previous_question}: {correct_answers}",
-        2: "Partizip I {previous_question}: {correct_answers}",
-        3: "Partizip I {previous_question}: {correct_answers}",
-        4: "Partizip I {previous_question}: {correct_answers}",
-        5: "Partizip I {previous_question}: {correct_answers}",
+        1: "Partizip I {previous_question} → {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        2: "Partizip I {previous_question} → {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        3: "Partizip I {previous_question} → {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        4: "Partizip I {previous_question} → {correct_answers}"
+           "<br><br>{previous_question} = {english}",
+        5: "Partizip I {previous_question} → {correct_answers}"
+           "<br><br>{previous_question} = {english}",
     },
 
 }

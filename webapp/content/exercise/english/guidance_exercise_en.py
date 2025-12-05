@@ -48,6 +48,34 @@ guidance_praepositionen_grammatik_sentences = (
     f"<br><br>{ICON_CROSS} von"
 )
 
+guidance_praepositionen_grammatik_synonyms = (
+    "For each question, you will be provided a German preposition."
+    "<br><br>Find a synonym of that preposition."
+
+    f"<br><br>{ICON_WARN} There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one synonym, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "wegen"
+    f"<br><br>{ICON_CHECK} aufgrund"
+    f"<br><br>{ICON_CHECK} auf Grund"
+    f"<br><br>{ICON_CROSS} aufgrund, auf Grund"
+)
+
+guidance_praepositionen_grammatik_antonym = (
+    "For each question, you will see a German preposition."
+    "<br>Write its antonym in German."
+
+    f"<br><br>{ICON_WARN} Synonyms are available for this exercise. There may be more than one possible answer."
+    f"<br><br>{ICON_WARN} Do not write more than one answer, or your answer will be flagged as false."
+
+    "<h2>Example</h2>"
+    "trotz"
+    f"<br><br>{ICON_CHECK} wegen"
+    f"<br><br>{ICON_CHECK} aufgrund"
+    f"<br><br>{ICON_CROSS} wegen, aufgrund"
+)
+
 guidance_praepositionen_verben_isolation = (
     "For each question, you will be provided an incomplete German Verb-Preposition pair and its English translation."
     "<br><br>Complete the Verb-Preposition pair with the preposition that fits."
@@ -776,6 +804,8 @@ GUIDANCE_EXERCISE_EN = {
         24: guidance_praepositionen_grammatik_sentences,
         25: guidance_praepositionen_grammatik_isolation,
         26: guidance_praepositionen_grammatik_sentences,
+        27: guidance_praepositionen_grammatik_synonyms,
+        28: guidance_praepositionen_grammatik_antonym,
     },
 
     praepositionen_verben: {
@@ -815,6 +845,17 @@ GUIDANCE_EXERCISE_EN = {
         30: guidance_praepositionen_verben_sentences,
         31: guidance_praepositionen_verben_isolation,
         32: guidance_praepositionen_verben_sentences,
+        33: guidance_praepositionen_verben_isolation,
+        34: guidance_praepositionen_verben_sentences,
+        35: guidance_praepositionen_verben_isolation,
+        36: guidance_praepositionen_verben_sentences,
+
+        37: guidance_praepositionen_verben_isolation,
+        38: guidance_praepositionen_verben_sentences,
+        39: guidance_praepositionen_verben_isolation,
+        40: guidance_praepositionen_verben_sentences,
+        41: guidance_praepositionen_verben_isolation,
+        42: guidance_praepositionen_verben_sentences,
     },
 
     praepositionen_adjektive: {
@@ -917,6 +958,8 @@ GUIDANCE_EXERCISE_EN = {
 
         42: guidance_artikel_isolation,
         43: guidance_artikel_sentences,
+        44: guidance_artikel_sentences,
+        45: guidance_artikel_sentences,
     },
 
     pronomen: {
@@ -952,6 +995,7 @@ GUIDANCE_EXERCISE_EN = {
         27: guidance_pronomen_sentences,
         28: guidance_pronomen_sentences,
         29: guidance_pronomen_sentences,
+        30: guidance_pronomen_sentences,
     },
 
     konnektoren: {

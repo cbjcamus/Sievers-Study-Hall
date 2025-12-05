@@ -9,8 +9,8 @@ from data.data_processing.units import (
 
 INTRODUCTION_FR = {
     praepositionen_grammatik:
-        "Prépositions Allemandes dans divers contextes."
-        "<br><br>L'utilisation des prépositions de base est revu jusqu'au niveau B2."
+        "Prépositions Allemandes dans divers contextes. Vous trouverez un guide sur les prépositions allemandes (en anglais) <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">ici</a>."
+        "<br><br>L'utilisation des prépositions de base est revu jusqu'au niveau C1."
         "<br><br> 🥰😍😘."
     ,
     praepositionen_verben:
@@ -94,7 +94,7 @@ INTRODUCTION_FR = {
         "Présent de l'indicatif Allemand."
     ,
     partizip_II:
-        "Participe Passé utilisé dans Perfekt, dans Plus-quam-perfekt, dans le Future II et avec la forme Passive."
+        "Participe Passé utilisé pour le Perfekt, le Plus-quam-perfekt, le Future II et la forme Passive."
     ,
     praeteritum:
         "Préterit."
@@ -103,20 +103,20 @@ INTRODUCTION_FR = {
         "Exercices pour pratiquer le Participe Passé et le Préterit côte à côte."
     ,
     imperativ:
-        "Imperative for the three grammatical persons Du, Ihr and Sie."
+        "Impératif pour les trois personnes grammaticales Du, Ihr et Sie. "
     ,
     konjunktiv_II:
-        "Konjunktiv II is used to express the subjunctive mood, suggestions and wishes."
-        "<br><br>Politeness' favorite tense."
+        "Le Konjunktiv II est utilisé pour exprimer le mode subjonctif, les suggestions et les souhaits."
+        "<br><br>Le temps préféré de la politesse."
     ,
     konjunktiv_I:
-        "Konjunktiv I is used to express an indirect or reported speech."
-        "<br><br>Journalists' favorite tense."
+        "Le Konjunktiv I est utilisé pour exprimer un discours indirect ou rapporté."
+        "<br><br>Le temps préféré des journalistes."
     ,
     partizip_I:
-        "Partizip I is used to express ongoing actions."
-        "<br><br>But why use the Partizip I when you could use a relative clause?"
-        "<br><br>Also you would have to decline it as an adjective. What a mess."
+        "Le participe présent est utilisé pour exprimer des actions en cours."
+        "<br><br>Mais pourquoi utiliser le participe présent alors que vous pourriez utiliser une proposition relative ?"
+        "<br><br>De plus, vous devriez le décliner comme le reste des adjectifs. Quelle galère."
     ,
 
 }

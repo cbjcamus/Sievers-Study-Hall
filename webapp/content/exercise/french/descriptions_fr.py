@@ -40,6 +40,8 @@ DESCRIPTION_FR = {
         24: "Groupe prépositionel de niveau C1, en contexte",
         25: "Postpositions de niveau C1, en isolation",
         26: "Postpositions de niveau C1, en contexte",
+        27: "Synonymes de Prépositions, en isolation",
+        28: "Antonymes de Prépositions, en isolation",
     },
 
     praepositionen_verben: {
@@ -79,6 +81,17 @@ DESCRIPTION_FR = {
         30: "Paires Verbe-Préposition de niveau C1, en contexte",
         31: "Paires Verbe-Préposition de niveau C1, en isolation",
         32: "Paires Verbe-Préposition de niveau C1, en contexte",
+        33: "Paires Verbe-Préposition de niveau C1, en isolation",
+        34: "Paires Verbe-Préposition de niveau C1, en contexte",
+        35: "Paires Verbe-Préposition de niveau C1, en isolation",
+        36: "Paires Verbe-Préposition de niveau C1, en contexte",
+
+        37: "Paires Verbe-Préposition de niveau C2, en isolation",
+        38: "Paires Verbe-Préposition de niveau C2, en contexte",
+        39: "Paires Verbe-Préposition de niveau C2, en isolation",
+        40: "Paires Verbe-Préposition de niveau C2, en contexte",
+        41: "Paires Verbe-Préposition de niveau C2, en isolation",
+        42: "Paires Verbe-Préposition de niveau C2, en contexte",
     },
 
     praepositionen_adjektive: {
@@ -197,6 +210,9 @@ DESCRIPTION_FR = {
 
         42: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en isolation",
         43: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en contexte",
+        44: "Articles dans des Appositions, en contexte",
+        45: "Articles dans des Appositions, en contexte",
+
     },
 
     artikel_genus: {
@@ -324,6 +340,7 @@ DESCRIPTION_FR = {
         27: "Pronoms Relatifs, en contexte",
         28: "Pronoms Relatifs, en contexte",
         29: "Pronoms Relatifs locaux (Position et Direction), en contexte",
+        30: "Pronoms Relatifs Was et Wer, en contexte",
     },
 
     konnektoren: {
@@ -448,7 +465,7 @@ DESCRIPTION_FR = {
     },
 
     wortstellung: {
-        1: "",
+        1: "Placeholder",
     },
 
     adjektive: {

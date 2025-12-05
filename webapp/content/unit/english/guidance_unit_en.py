@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien,
+    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -12,6 +12,10 @@ from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 # bullet point \u25CF
 
 GUIDANCE_UNIT_EN = {
+    wortstellung:
+        "Placeholder"
+    ,
+
     artikel_genus:
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
@@ -46,7 +50,7 @@ GUIDANCE_UNIT_EN = {
         f"<br><br>{ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
         
         "<h2>Example</h2>"
-        "freuen \u25CF Ich"
+        "freuen \u25CF Ich _____"
         f"<br><br>{ICON_CHECK} freue"
         f"<br><br>{ICON_CROSS} Ich freue"
         f"<br><br>{ICON_CROSS} freue mich"

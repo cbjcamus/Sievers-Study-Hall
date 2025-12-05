@@ -63,6 +63,9 @@ QUESTION_FR = {
         25: "{french}",
         26: "{question}"
             "<br><br><i>{french}</i>",
+        27: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        28: "{german}",
     },
 
     praepositionen_verben: {
@@ -118,6 +121,22 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         31: "{french} = {question}",
         32: "{question}"
+            "<br><br><i>{french}</i>",
+        33: "{french} = {question}",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
+        35: "{french} = {question}",
+        36: "{question}"
+            "<br><br><i>{french}</i>",
+
+        37: "{french} = {question}",
+        38: "{question}"
+            "<br><br><i>{french}</i>",
+        39: "{french} = {question}",
+        40: "{question}"
+            "<br><br><i>{french}</i>",
+        41: "{french} = {question}",
+        42: "{question}"
             "<br><br><i>{french}</i>",
     },
 
@@ -298,6 +317,12 @@ QUESTION_FR = {
         42: "{german} \u25CF {gender_french}, {case_french}",
         43: "{question}"
             "<br><br><i>{french}</i>",
+        44: "{question}"
+            "<br><br><i>{french}</i>"
+            "<br><br>Article : {person}",
+        45: "{question}"
+            "<br><br><i>{french}</i>"
+            "<br><br>Article : {person}",
     },
 
     artikel_genus: {
@@ -534,6 +559,8 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         29: "{question}"
             "<br><br><i>{french}</i>",
+        30: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
     konnektoren: {
@@ -709,7 +736,7 @@ QUESTION_FR = {
     },
 
     wortstellung: {
-        1: "",
+        1: "Placeholder",
     },
 
     adjektive: {
@@ -959,257 +986,473 @@ QUESTION_FR = {
     },
 
     praesens: {
-        1: "{question} \u25CF {person} _____",
-        2: "{question} \u25CF {person} _____",
-        3: "{question} \u25CF {person} _____",
-        4: "{question} \u25CF {person} _____",
-        5: "{question} \u25CF {person} _____",
-        6: "{question} \u25CF {person} _____",
-        7: "{question} \u25CF {person} _____",
-        8: "{question} \u25CF {person} _____",
-        9: "{question} \u25CF {person} _____",
-        10: "{question} \u25CF {person} _____",
-        11: "{question} \u25CF {person} _____",
-        12: "{question} \u25CF {person} _____",
-        13: "{question} \u25CF {person} _____",
-        14: "{question} \u25CF {person} _____",
-        15: "{question} \u25CF {person} _____",
-        16: "{question} \u25CF {person} _____",
-        17: "{question} \u25CF {person} _____",
-        18: "{question} \u25CF {person} _____",
-        19: "{question} \u25CF {person} _____",
-        20: "{question} \u25CF {person} _____",
+        1: "{question} \u25CF {person} _____"
+           "<br><br><i>{french}</i>",
+        2: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        3: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        4: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        5: "{question} \u25CF {person} _____"
+           "<br><br><i>{french}</i>",
+        6: "{question} \u25CF {person} _____"
+           "<br><br><i>{french}</i>",
+        7: "{question} \u25CF {person} _____"
+           "<br><br><i>{french}</i>",
+        8: "{question} \u25CF {person} _____"
+           "<br><br><i>{french}</i>",
+        9: "{question} \u25CF {person} _____"
+           "<br><br><i>{french}</i>",
+        10: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        11: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        12: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        13: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        14: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        15: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        16: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        17: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        18: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        19: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        20: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
 
-        21: "{question} \u25CF {person} _____",
-        22: "{question} \u25CF {person} _____",
-        23: "{question} \u25CF {person} _____",
-        24: "{question} \u25CF {person} _____",
-        25: "{question} \u25CF {person} _____",
-        26: "{question} \u25CF {person} _____",
-        27: "{question} \u25CF {person} _____",
-        28: "{question} \u25CF {person} _____",
-        29: "{question} \u25CF {person} _____",
-        30: "{question} \u25CF {person} _____",
-        31: "{question} \u25CF {person} _____",
-        32: "{question} \u25CF {person} _____",
-        33: "{question} \u25CF {person} _____",
-        34: "{question} \u25CF {person} _____",
-        35: "{question} \u25CF {person} _____",
-        36: "{question} \u25CF {person} _____",
-        37: "{question} \u25CF {person} _____",
-        38: "{question} \u25CF {person} _____",
-        39: "{question} \u25CF {person} _____",
-        40: "{question} \u25CF {person} _____",
+        21: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        22: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        23: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        24: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        25: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        26: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        27: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        28: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        29: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        30: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        31: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        32: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        33: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        34: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        35: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        36: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        37: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        38: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        39: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        40: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
     },
 
     partizip_II: {
-        1: "{question}",
-        2: "{question}",
-        3: "{question}",
-        4: "{question}",
-        5: "{question}",
+        1: "{question}"
+            "<br><br><i>{french}</i>",
+        2: "{question}"
+            "<br><br><i>{french}</i>",
+        3: "{question}"
+            "<br><br><i>{french}</i>",
+        4: "{question}"
+            "<br><br><i>{french}</i>",
+        5: "{question}"
+            "<br><br><i>{french}</i>",
 
-        6: "{question}",
-        7: "{question}",
-        8: "{question}",
-        9: "{question}",
-        10: "{question}",
+        6: "{question}"
+            "<br><br><i>{french}</i>",
+        7: "{question}"
+            "<br><br><i>{french}</i>",
+        8: "{question}"
+            "<br><br><i>{french}</i>",
+        9: "{question}"
+            "<br><br><i>{french}</i>",
+        10: "{question}"
+            "<br><br><i>{french}</i>",
 
-        11: "{question}",
-        12: "{question}",
-        13: "{question}",
-        14: "{question}",
-        15: "{question}",
-        16: "{question}",
-        17: "{question}",
-        18: "{question}",
-        19: "{question}",
-        20: "{question}",
+        11: "{question}"
+            "<br><br><i>{french}</i>",
+        12: "{question}"
+            "<br><br><i>{french}</i>",
+        13: "{question}"
+            "<br><br><i>{french}</i>",
+        14: "{question}"
+            "<br><br><i>{french}</i>",
+        15: "{question}"
+            "<br><br><i>{french}</i>",
+        16: "{question}"
+            "<br><br><i>{french}</i>",
+        17: "{question}"
+            "<br><br><i>{french}</i>",
+        18: "{question}"
+            "<br><br><i>{french}</i>",
+        19: "{question}"
+            "<br><br><i>{french}</i>",
+        20: "{question}"
+            "<br><br><i>{french}</i>",
 
-        21: "{question}",
-        22: "{question}",
-        23: "{question}",
-        24: "{question}",
-        25: "{question}",
-        26: "{question}",
-        27: "{question}",
-        28: "{question}",
-        29: "{question}",
-        30: "{question}",
+        21: "{question}"
+            "<br><br><i>{french}</i>",
+        22: "{question}"
+            "<br><br><i>{french}</i>",
+        23: "{question}"
+            "<br><br><i>{french}</i>",
+        24: "{question}"
+            "<br><br><i>{french}</i>",
+        25: "{question}"
+            "<br><br><i>{french}</i>",
+        26: "{question}"
+            "<br><br><i>{french}</i>",
+        27: "{question}"
+            "<br><br><i>{french}</i>",
+        28: "{question}"
+            "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>{french}</i>",
+        30: "{question}"
+            "<br><br><i>{french}</i>",
 
-        31: "{question}",
-        32: "{question}",
-        33: "{question}",
-        34: "{question}",
-        35: "{question}",
-        36: "{question}",
-        37: "{question}",
-        38: "{question}",
-        39: "{question}",
-        40: "{question}",
-        41: "{question}",
-        42: "{question}",
-        43: "{question}",
-        44: "{question}",
-        45: "{question}",
-        46: "{question}",
-        47: "{question}",
-        48: "{question}",
-        49: "{question}",
-        50: "{question}",
+        31: "{question}"
+            "<br><br><i>{french}</i>",
+        32: "{question}"
+            "<br><br><i>{french}</i>",
+        33: "{question}"
+            "<br><br><i>{french}</i>",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
+        35: "{question}"
+            "<br><br><i>{french}</i>",
+        36: "{question}"
+            "<br><br><i>{french}</i>",
+        37: "{question}"
+            "<br><br><i>{french}</i>",
+        38: "{question}"
+            "<br><br><i>{french}</i>",
+        39: "{question}"
+            "<br><br><i>{french}</i>",
+        40: "{question}"
+            "<br><br><i>{french}</i>",
+        41: "{question}"
+            "<br><br><i>{french}</i>",
+        42: "{question}"
+            "<br><br><i>{french}</i>",
+        43: "{question}"
+            "<br><br><i>{french}</i>",
+        44: "{question}"
+            "<br><br><i>{french}</i>",
+        45: "{question}"
+            "<br><br><i>{french}</i>",
+        46: "{question}"
+            "<br><br><i>{french}</i>",
+        47: "{question}"
+            "<br><br><i>{french}</i>",
+        48: "{question}"
+            "<br><br><i>{french}</i>",
+        49: "{question}"
+            "<br><br><i>{french}</i>",
+        50: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
     praeteritum: {
-        1: "{question} \u25CF {person} _____",
+        1: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
 
-        2: "{question} \u25CF er/sie/es _____",
-        3: "{question} \u25CF er/sie/es _____",
-        4: "{question} \u25CF er/sie/es _____",
-        5: "{question} \u25CF er/sie/es _____",
-        6: "{question} \u25CF er/sie/es _____",
-        7: "{question} \u25CF er/sie/es _____",
-        8: "{question} \u25CF er/sie/es _____",
-        9: "{question} \u25CF er/sie/es _____",
-        10: "{question} \u25CF er/sie/es _____",
-        11: "{question} \u25CF er/sie/es _____",
+        2: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        3: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        4: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        5: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        6: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        7: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        8: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        9: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        10: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        11: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
 
-        12: "{question} \u25CF er/sie/es _____",
-        13: "{question} \u25CF er/sie/es _____",
-        14: "{question} \u25CF er/sie/es _____",
-        15: "{question} \u25CF er/sie/es _____",
-        16: "{question} \u25CF er/sie/es _____",
-        17: "{question} \u25CF er/sie/es _____",
-        18: "{question} \u25CF er/sie/es _____",
-        19: "{question} \u25CF er/sie/es _____",
-        20: "{question} \u25CF er/sie/es _____",
-        21: "{question} \u25CF er/sie/es _____",
+        12: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        13: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        14: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        15: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        16: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        17: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        18: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        19: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        20: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        21: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
 
-        22: "{question} \u25CF er/sie/es _____",
-        23: "{question} \u25CF er/sie/es _____",
-        24: "{question} \u25CF er/sie/es _____",
-        25: "{question} \u25CF er/sie/es _____",
-        26: "{question} \u25CF er/sie/es _____",
-        27: "{question} \u25CF er/sie/es _____",
-        28: "{question} \u25CF er/sie/es _____",
-        29: "{question} \u25CF er/sie/es _____",
-        30: "{question} \u25CF er/sie/es _____",
-        31: "{question} \u25CF er/sie/es _____",
+        22: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        23: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        24: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        25: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        26: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        27: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        28: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        29: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        30: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        31: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
 
-        32: "{question} \u25CF er/sie/es _____",
-        33: "{question} \u25CF er/sie/es _____",
-        34: "{question} \u25CF er/sie/es _____",
-        35: "{question} \u25CF er/sie/es _____",
-        36: "{question} \u25CF er/sie/es _____",
-        37: "{question} \u25CF er/sie/es _____",
-        38: "{question} \u25CF er/sie/es _____",
-        39: "{question} \u25CF er/sie/es _____",
-        40: "{question} \u25CF er/sie/es _____",
-        41: "{question} \u25CF er/sie/es _____",
-        42: "{question} \u25CF er/sie/es _____",
-        43: "{question} \u25CF er/sie/es _____",
-        44: "{question} \u25CF er/sie/es _____",
-        45: "{question} \u25CF er/sie/es _____",
-        46: "{question} \u25CF er/sie/es _____",
-        47: "{question} \u25CF er/sie/es _____",
-        48: "{question} \u25CF er/sie/es _____",
-        49: "{question} \u25CF er/sie/es _____",
-        50: "{question} \u25CF er/sie/es _____",
-        51: "{question} \u25CF er/sie/es _____",
+        32: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        33: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        34: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        35: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        36: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        37: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        38: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        39: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        40: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        41: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        42: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        43: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        44: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        45: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        46: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        47: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        48: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        49: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        50: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
+        51: "{question} \u25CF er/sie/es _____"
+            "<br><br><i>{french}</i>",
     },
 
     praeteritum_partizip_II: {
-        1: "{question}",
+        1: "{question}"
+            "<br><br><i>{french}</i>",
 
-        2: "{question}",
-        3: "{question}",
-        4: "{question}",
-        5: "{question}",
-        6: "{question}",
-        7: "{question}",
-        8: "{question}",
-        9: "{question}",
-        10: "{question}",
-        11: "{question}",
+        2: "{question}"
+            "<br><br><i>{french}</i>",
+        3: "{question}"
+            "<br><br><i>{french}</i>",
+        4: "{question}"
+            "<br><br><i>{french}</i>",
+        5: "{question}"
+            "<br><br><i>{french}</i>",
+        6: "{question}"
+            "<br><br><i>{french}</i>",
+        7: "{question}"
+            "<br><br><i>{french}</i>",
+        8: "{question}"
+            "<br><br><i>{french}</i>",
+        9: "{question}"
+            "<br><br><i>{french}</i>",
+        10: "{question}"
+            "<br><br><i>{french}</i>",
+        11: "{question}"
+            "<br><br><i>{french}</i>",
 
-        12: "{question}",
-        13: "{question}",
-        14: "{question}",
-        15: "{question}",
-        16: "{question}",
-        17: "{question}",
-        18: "{question}",
-        19: "{question}",
-        20: "{question}",
-        21: "{question}",
+        12: "{question}"
+            "<br><br><i>{french}</i>",
+        13: "{question}"
+            "<br><br><i>{french}</i>",
+        14: "{question}"
+            "<br><br><i>{french}</i>",
+        15: "{question}"
+            "<br><br><i>{french}</i>",
+        16: "{question}"
+            "<br><br><i>{french}</i>",
+        17: "{question}"
+            "<br><br><i>{french}</i>",
+        18: "{question}"
+            "<br><br><i>{french}</i>",
+        19: "{question}"
+            "<br><br><i>{french}</i>",
+        20: "{question}"
+            "<br><br><i>{french}</i>",
+        21: "{question}"
+            "<br><br><i>{french}</i>",
 
-        22: "{question}",
-        23: "{question}",
-        24: "{question}",
-        25: "{question}",
-        26: "{question}",
-        27: "{question}",
-        28: "{question}",
-        29: "{question}",
-        30: "{question}",
-        31: "{question}",
+        22: "{question}"
+            "<br><br><i>{french}</i>",
+        23: "{question}"
+            "<br><br><i>{french}</i>",
+        24: "{question}"
+            "<br><br><i>{french}</i>",
+        25: "{question}"
+            "<br><br><i>{french}</i>",
+        26: "{question}"
+            "<br><br><i>{french}</i>",
+        27: "{question}"
+            "<br><br><i>{french}</i>",
+        28: "{question}"
+            "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>{french}</i>",
+        30: "{question}"
+            "<br><br><i>{french}</i>",
+        31: "{question}"
+            "<br><br><i>{french}</i>",
 
-        32: "{question}",
-        33: "{question}",
-        34: "{question}",
-        35: "{question}",
-        36: "{question}",
-        37: "{question}",
-        38: "{question}",
-        39: "{question}",
-        40: "{question}",
-        41: "{question}",
-        42: "{question}",
-        43: "{question}",
-        44: "{question}",
-        45: "{question}",
-        46: "{question}",
-        47: "{question}",
-        48: "{question}",
-        49: "{question}",
-        50: "{question}",
-        51: "{question}",
+        32: "{question}"
+            "<br><br><i>{french}</i>",
+        33: "{question}"
+            "<br><br><i>{french}</i>",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
+        35: "{question}"
+            "<br><br><i>{french}</i>",
+        36: "{question}"
+            "<br><br><i>{french}</i>",
+        37: "{question}"
+            "<br><br><i>{french}</i>",
+        38: "{question}"
+            "<br><br><i>{french}</i>",
+        39: "{question}"
+            "<br><br><i>{french}</i>",
+        40: "{question}"
+            "<br><br><i>{french}</i>",
+        41: "{question}"
+            "<br><br><i>{french}</i>",
+        42: "{question}"
+            "<br><br><i>{french}</i>",
+        43: "{question}"
+            "<br><br><i>{french}</i>",
+        44: "{question}"
+            "<br><br><i>{french}</i>",
+        45: "{question}"
+            "<br><br><i>{french}</i>",
+        46: "{question}"
+            "<br><br><i>{french}</i>",
+        47: "{question}"
+            "<br><br><i>{french}</i>",
+        48: "{question}"
+            "<br><br><i>{french}</i>",
+        49: "{question}"
+            "<br><br><i>{french}</i>",
+        50: "{question}"
+            "<br><br><i>{french}</i>",
+        51: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
     imperativ: {
-        1: "{question} \u25CF {person} \u25CF _____",
-        2: "{question} \u25CF {person} \u25CF _____",
-        3: "{question} \u25CF {person} \u25CF _____",
-        4: "{question} \u25CF {person} \u25CF _____",
-        5: "{question} \u25CF {person} \u25CF _____",
-        6: "{question} \u25CF {person} \u25CF _____",
+        1: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        2: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        3: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        4: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        5: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        6: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
 
-        7: "{question} \u25CF {person} \u25CF _____",
-        8: "{question} \u25CF {person} \u25CF _____",
-        9: "{question} \u25CF {person} \u25CF _____",
-        10: "{question} \u25CF {person} \u25CF _____",
-        11: "{question} \u25CF {person} \u25CF _____",
-        12: "{question} \u25CF {person} \u25CF _____",
+        7: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        8: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        9: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        10: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        11: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
+        12: "{question} \u25CF {person} \u25CF _____"
+            "<br><br><i>{french}</i>",
     },
 
     konjunktiv_II: {
-        1: "{question} \u25CF {person} _____",
+        1: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
     },
 
     konjunktiv_I: {
-        1: "{question} \u25CF {person} _____",
-        2: "{question} \u25CF {person} _____",
-        3: "{question} \u25CF {person} _____",
-        4: "{question} \u25CF {person} _____",
-        5: "{question} \u25CF {person} _____",
-        6: "{question} \u25CF {person} _____",
+        1: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        2: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        3: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        4: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        5: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        6: "{question} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
     },
 
     partizip_I: {
-        1: "{question}",
-        2: "{question}",
-        3: "{question}",
-        4: "{question}",
-        5: "{question}",
+        1: "{question}"
+            "<br><br><i>{french}</i>",
+        2: "{question}"
+            "<br><br><i>{french}</i>",
+        3: "{question}"
+            "<br><br><i>{french}</i>",
+        4: "{question}"
+            "<br><br><i>{french}</i>",
+        5: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
 }

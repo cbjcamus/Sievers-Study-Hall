@@ -148,7 +148,7 @@ Nr,exercise,answer,question,english,french
 147,8,entscheiden,,to decide,décider
 148,8,vermissen,,to miss something or someone,se manquer quelque chose ou quelqu'un
 149,8,werfen,,to throw,"jeter, lancer"
-150,8,erkennen,,"to recognise, to realise","reconnaître, réaliser"
+150,8,erkennen,,"to recognize, to realise","reconnaître, réaliser"
 151,8,teilen,,"to split, to share, to divide","diviser, partager"
 152,8,bauen,,to build,construire
 153,8,melden,,"to report, to register","signaler, enregistrer"
@@ -1115,7 +1115,7 @@ Nr,exercise,answer,question,english,french
 1114,33,bestrafen,,to punish,punir
 1115,33,stinken,,to stink,puer
 1116,33,berühren,,to touch,toucher
-1117,33,anstellen,,"to queue (refl.), to employ someone, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
+1117,33,anstellen,,"to queue (refl.), to employ someone, to hire, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
 1118,33,auftauchen,,"to arise, to surface, to turn up","surgir, faire surface, apparaître"
 1119,33,einfallen,,"to collapse, to come to mind","s'effondrer, venir à l'esprit"
 1120,33,aussuchen,,"to select, to choose, to pick","sélectionner, choisir, cueillir"
@@ -1312,7 +1312,7 @@ Nr,exercise,answer,question,english,french
 1311,38,publizieren,,"to publish, to publicize, to announce","publier, faire connaître, annoncer"
 1312,38,recyceln,,to recycle,recycler
 1313,38,regieren,,"to govern, to reign, to rule, to command","gouverner, régner, diriger, commander"
-1314,38,synchronisieren,,"to synchronize, to dub, to sync, to synchronise","synchroniser, doubler"
+1314,38,synchronisieren,,"to synchronize, to dub, to sync","synchroniser, doubler"
 1315,38,zurücktreten,,"to resign, to step back, to step down, to withdraw","démissionner, se retirer, quitter ses fonctions"
 1316,38,posten,,"to post, to shop","poster, acheter"
 1317,38,wiederherstellen,,"to restore, to recover, to rehabilitate","restaurer, récupérer, réhabiliter"
@@ -1379,26 +1379,26 @@ Nr,exercise,answer,question,english,french
 1378,40,schiefgehen,,to go wrong,aller mal
 1379,40,verschlechtern,,to worsen,s'aggraver
 1380,40,abkühlen,,to cool down,pour se rafraîchir
-1381,40,stricken,,to knit,tricoter
-1382,40,erwärmen,,to warm,réchauffer
-1383,40,ermorden,,to murder,assassiner
-1384,40,scheißen,,to shit,chier
-1385,40,rasieren,,to shave (refl.),se raser (réfl.)
-1386,40,pfeffern,,to season with pepper,assaisonner avec du poivre
-1387,40,bestreuen,,to sprinkle,saupoudrer
-1388,40,einprägen,,to memorize,mémoriser
-1389,40,wiedersehen,,"to see again, to meet again","revoir, se revoir"
-1390,40,verrühren,,"to stir, to mix","remuer, mélanger"
-1391,40,leeren,,to empty,vider
-1392,40,kämmen,,to comb,peigner
-1393,40,salzen,,to season with salt,assaisonner avec du sel
-1394,40,beglückwünschen,,"to congratulate, to felicitate","féliciter, féliciter"
-1395,40,kürzen,,"to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
-1396,40,einschreiben,,"to sign up, to enroll","s'inscrire, s'inscrire"
-1397,40,säubern,,to clean,nettoyer
-1398,40,verdammen,,"to condemn, to damn","condamner, damner"
-1399,40,entkommen,,to escape,s'échapper
-1400,40,begraben,,to bury,enterrer
+1381,40,scheißen,,to shit,chier
+1382,40,rasieren,,to shave (refl.),se raser (réfl.)
+1383,40,bestreuen,,to sprinkle,saupoudrer
+1384,40,einprägen,,to memorize,mémoriser
+1385,40,wiedersehen,,"to see again, to meet again","revoir, se revoir"
+1386,40,verrühren,,"to stir, to mix","remuer, mélanger"
+1387,40,leeren,,to empty,vider
+1388,40,kürzen,,"to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
+1389,40,einschreiben,,"to sign up, to enroll","s'inscrire, s'inscrire"
+1390,40,zuschauen,,"to watch, to look on, to observe","regarder, observer, surveiller"
+1391,40,abbringen,,to dissuade,dissuader
+1392,40,adressieren,,to address,adresser
+1393,40,ängstigen,,to frighten,effrayer
+1394,40,ekeln,,to disgust,dégoûter
+1395,40,fussen,,to be based on,être basé sur
+1396,40,spotten,,to mock,se moquer
+1397,40,verheimlichen,,to conceal,dissimuler
+1398,40,staunen,,"to be astonished, to be amazed","être étonné, être émerveillé"
+1399,40,debattieren,,"to discuss, to debate, to argue","discuter, débattre, argumenter"
+1400,40,sehnen,,"to long for, to crave","désirer ardemment, avoir envie de"
 1401,41,,überleben,to survive,survivre
 1402,41,,duften,"to smell pleasant, to give off a fragrance","sentir bon, dégager un parfum"
 1403,41,,abziehen,"to remove, to deduct, to withdraw","supprimer, déduire, retirer"
@@ -1515,7 +1515,7 @@ Nr,exercise,answer,question,english,french
 1514,43,,bestrafen,to punish,punir
 1515,43,,stinken,to stink,puer
 1516,43,,berühren,to touch,toucher
-1517,43,,anstellen,"to queue (refl.), to employ someone, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
+1517,43,,anstellen,"to queue (refl.), to employ someone, to hire, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
 1518,43,,auftauchen,"to arise, to surface, to turn up","surgir, faire surface, apparaître"
 1519,43,,einfallen,"to collapse, to come to mind","s'effondrer, venir à l'esprit"
 1520,43,,aussuchen,"to select, to choose, to pick","sélectionner, choisir, cueillir"
@@ -1712,7 +1712,7 @@ Nr,exercise,answer,question,english,french
 1711,48,,publizieren,"to publish, to publicize, to announce","publier, faire connaître, annoncer"
 1712,48,,recyceln,to recycle,recycler
 1713,48,,regieren,"to govern, to reign, to rule, to command","gouverner, régner, diriger, commander"
-1714,48,,synchronisieren,"to synchronize, to dub, to sync, to synchronise","synchroniser, doubler"
+1714,48,,synchronisieren,"to synchronize, to dub, to sync","synchroniser, doubler"
 1715,48,,zurücktreten,"to resign, to step back, to step down, to withdraw","démissionner, se retirer, quitter ses fonctions"
 1716,48,,posten,"to post, to shop","poster, acheter"
 1717,48,,wiederherstellen,"to restore, to recover, to rehabilitate","restaurer, récupérer, réhabiliter"
@@ -1779,23 +1779,23 @@ Nr,exercise,answer,question,english,french
 1778,50,,schiefgehen,to go wrong,aller mal
 1779,50,,verschlechtern,to worsen,s'aggraver
 1780,50,,abkühlen,to cool down,pour se rafraîchir
-1781,50,,stricken,to knit,tricoter
-1782,50,,erwärmen,to warm,réchauffer
-1783,50,,ermorden,to murder,assassiner
-1784,50,,scheißen,to shit,chier
-1785,50,,rasieren,to shave (refl.),se raser (réfl.)
-1786,50,,pfeffern,to season with pepper,assaisonner avec du poivre
-1787,50,,bestreuen,to sprinkle,saupoudrer
-1788,50,,einprägen,to memorize,mémoriser
-1789,50,,wiedersehen,"to see again, to meet again","revoir, se revoir"
-1790,50,,verrühren,"to stir, to mix","remuer, mélanger"
-1791,50,,leeren,to empty,vider
-1792,50,,kämmen,to comb,peigner
-1793,50,,salzen,to season with salt,assaisonner avec du sel
-1794,50,,beglückwünschen,"to congratulate, to felicitate","féliciter, féliciter"
-1795,50,,kürzen,"to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
-1796,50,,einschreiben,"to sign up, to enroll","s'inscrire, s'inscrire"
-1797,50,,säubern,to clean,nettoyer
-1798,50,,verdammen,"to condemn, to damn","condamner, damner"
-1799,50,,entkommen,to escape,s'échapper
-1800,50,,begraben,to bury,enterrer
+1781,50,,scheißen,to shit,chier
+1782,50,,rasieren,to shave (refl.),se raser (réfl.)
+1783,50,,bestreuen,to sprinkle,saupoudrer
+1784,50,,einprägen,to memorize,mémoriser
+1785,50,,wiedersehen,"to see again, to meet again","revoir, se revoir"
+1786,50,,verrühren,"to stir, to mix","remuer, mélanger"
+1787,50,,leeren,to empty,vider
+1788,50,,kürzen,"to shorten, to reduce, to abbreviate","réduire, raccourcir, abréger"
+1789,50,,einschreiben,"to sign up, to enroll","s'inscrire, s'inscrire"
+1790,50,,zuschauen,"to watch, to look on, to observe","regarder, observer, surveiller"
+1791,50,,abbringen,to dissuade,dissuader
+1792,50,,adressieren,to address,adresser
+1793,50,,ängstigen,to frighten,effrayer
+1794,50,,ekeln,to disgust,dégoûter
+1795,50,,fussen,to be based on,être basé sur
+1796,50,,spotten,to mock,se moquer
+1797,50,,verheimlichen,to conceal,dissimuler
+1798,50,,staunen,"to be astonished, to be amazed","être étonné, être émerveillé"
+1799,50,,debattieren,"to discuss, to debate, to argue","discuter, débattre, argumenter"
+1800,50,,sehnen,"to long for, to crave","désirer ardemment, avoir envie de"
