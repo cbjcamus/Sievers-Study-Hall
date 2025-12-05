@@ -33,12 +33,7 @@ def home():
     language = get_language(request, session)
 
     return render_template('home.html',
-                           answered_questions=compute_answered_questions,
-                           total_questions=compute_total_questions,
-                           score=write_score,
-                           explanation=INTRODUCTION,
                            title_page=TITLE_PAGE,
-                           button_unit=TITLE_PAGE,
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,

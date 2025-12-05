@@ -57,6 +57,16 @@
     </tr>
 {% endmacro %}
 
+{% macro render_unit_table_row_clean(unit, unit_page, title_page, unit_stars) %}
+    <tr>
+        <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
+        <td>{{ unit_stars[unit] | safe }}</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+{% endmacro %}
+
 {% macro render_title(title) %}
     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0px;">
         <a href="/" style="flex-shrink: 0;">

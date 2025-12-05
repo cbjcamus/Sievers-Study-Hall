@@ -9,62 +9,62 @@
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
 {% from "macros.html" import render_title with context %}
-{% from "macros.html" import render_unit_table_row %}
+{% from "macros.html" import render_unit_table_row_clean %}
 
     {{ render_title("Sievers Study Hall") }}
 
     <div class="section">
         <h2>Präpositionen</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("praepositionen_grammatik", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praepositionen_verben", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praepositionen_adjektive", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praepositionen_nomen", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praepositionen_adverbien", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praepositionen_artikel", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
+            {{ render_unit_table_row_clean("praepositionen_grammatik", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praepositionen_verben", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praepositionen_adjektive", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praepositionen_nomen", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praepositionen_adverbien", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praepositionen_artikel", unit_page, title_page, unit_stars) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Grammatik</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("artikel", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("artikel_genus", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("pronomen", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("konnektoren", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("fragen", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("adverbien", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
+            {{ render_unit_table_row_clean("artikel", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("artikel_genus", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("pronomen", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("konnektoren", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("fragen", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("adverbien", unit_page, title_page, unit_stars) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Adjektive</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("adjektive", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("adjektivdeklinationen", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
+            {{ render_unit_table_row_clean("adjektive", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("adjektivdeklinationen", unit_page, title_page, unit_stars) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Verben</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("verben", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("trennbare_verben", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("nomen_verben_verbindungen", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
+            {{ render_unit_table_row_clean("verben", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("trennbare_verben", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("nomen_verben_verbindungen", unit_page, title_page, unit_stars) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Konjugation</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("praesens", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("partizip_II", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praeteritum", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("praeteritum_partizip_II", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("imperativ", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("konjunktiv_II", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("konjunktiv_I", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
-            {{ render_unit_table_row("partizip_I", session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) }}
+            {{ render_unit_table_row_clean("praesens", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("partizip_II", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praeteritum", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("praeteritum_partizip_II", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("imperativ", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("konjunktiv_II", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("konjunktiv_I", unit_page, title_page, unit_stars) }}
+            {{ render_unit_table_row_clean("partizip_I", unit_page, title_page, unit_stars) }}
         </table>
     </div>
 
