@@ -4,7 +4,7 @@ import pandas as pd
 from flask import session, request
 
 from data.data_processing.units import konnektoren, adverbien
-from data.data_processing.synonyms import SYNONYMS_PATH, get_list_of_synonyms_for_feedback
+from data.data_processing.synonyms import SYNONYMS_PATH, get_list_of_synonyms_for_feedback, df_synonyms
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice, get_answer_column
 
 from webapp.i18n import get_language
@@ -144,7 +144,7 @@ def replace_umlaut(input_str):
     return output_str
 
 
-def get_list_of_correct_answers(correct_answer, unit, file_path=SYNONYMS_PATH):
+def get_list_of_correct_answers(correct_answer, unit):
     """
     Returns a comma-separated list of all valid correct answers for a given input.
 
@@ -170,7 +170,7 @@ def get_list_of_correct_answers(correct_answer, unit, file_path=SYNONYMS_PATH):
 
     else:
         # correct_answer = lowercase_first_letter(correct_answer)
-        synonyms = get_list_of_synonyms_for_feedback(lowercase_first_letter(correct_answer), unit, file_path=file_path)
+        synonyms = get_list_of_synonyms_for_feedback(lowercase_first_letter(correct_answer), unit)
         if not synonyms:
             return correct_answer
         else:
@@ -192,7 +192,7 @@ def lowercase_first_letter(s):
     return s[0].lower() + s[1:]
 
 
-def search_for_main_synonym(input_str, unit, csv_file=SYNONYMS_PATH):
+def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
     """
     Searches for the main synonym of a given input string based on a CSV mapping.
 
@@ -209,9 +209,8 @@ def search_for_main_synonym(input_str, unit, csv_file=SYNONYMS_PATH):
     Returns:
         str: The main synonym for the input string, or the original string if no match is found.
     """
-    df = pd.read_csv(csv_file)
-    df = df[df['unit'] == unit]
-    df['input'] = df['input'].str.lower()
-    df['input'] = [replace_umlaut(normalize_umlaut(entry)) for entry in df['input']]
-    mapping = dict(zip(df["input"], df["output"]))
+    df_synonyms = df_synonyms[df_synonyms['unit'] == unit]
+    df_synonyms['input'] = df_synonyms['input'].str.lower()
+    df_synonyms['input'] = [replace_umlaut(normalize_umlaut(entry)) for entry in df_synonyms['input']]
+    mapping = dict(zip(df_synonyms["input"], df_synonyms["output"]))
     return mapping.get(input_str, input_str).lower()

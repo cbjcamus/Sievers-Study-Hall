@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from data.data_processing.paths import DATA_PATH
+from data.data_processing.paths import DATA_PATH, df_units
 from data.data_processing.data_loading import load_data_exercise
 
 
@@ -46,6 +46,7 @@ def compute_highest_exercise(unit):
     Returns:
         int: The highest valid exercise number for the unit.
     """
-    data = pd.read_csv(DATA_PATH[unit])
+    # data = pd.read_csv(DATA_PATH[unit])
+    data = df_units[unit]
     highest_exercise = np.max(data[data["exercise"] < 100]["exercise"])
     return int(highest_exercise)

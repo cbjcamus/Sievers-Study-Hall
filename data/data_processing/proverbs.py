@@ -9,7 +9,7 @@ from webapp.i18n import get_language
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PROVERBS_PATH = os.path.join(BASE_DIR, "datasets/other", "proverbs.csv")
 
-proverbs = pd.read_csv(PROVERBS_PATH)
+df_proverbs = pd.read_csv(PROVERBS_PATH)
 
 
 def get_text_proverb():
@@ -32,9 +32,10 @@ def get_text_proverb():
     language = get_language(request, session)
 
     if random_number > 0.9:
-        formatted_proverb = (f"<b>{change_color(text='Proverb', color='#DAA520')}</b>" # #DAA520
-                f"<br><br>{proverb['german']}"
-                f"<br><br><i>{proverb[language]}</i>")
+        formatted_proverb = (
+            f"<b>{change_color(text='Proverb', color='#DAA520')}</b>" # #DAA520
+            f"<br><br>{proverb['german']}"
+            f"<br><br><i>{proverb[language]}</i>")
         return formatted_proverb
     else:
         return None
@@ -47,7 +48,7 @@ def get_random_proverb():
     Returns:
         pandas.Series: A single row representing a proverb with its associated data.
     """
-    proverb = proverbs.sample(1).iloc[0]
+    proverb = df_proverbs.sample(1).iloc[0]
     return proverb
 
 

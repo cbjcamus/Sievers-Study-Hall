@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 
 from data.data_processing.units import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
                                         praepositionen_nomen, praepositionen_adverbien, praepositionen_artikel,
@@ -7,7 +8,7 @@ from data.data_processing.units import (praepositionen_grammatik, praepositionen
                                         verben, trennbare_verben, nomen_verben_verbindungen,
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                         konjunktiv_II, konjunktiv_I, partizip_I,
-                                        )
+                                        units)
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -45,3 +46,5 @@ DATA_PATH = {
     partizip_I: os.path.join(BASE_DIR, "datasets/konjugation", "partizip_I.csv"),
 
 }
+
+df_units = {unit: pd.read_csv(DATA_PATH[unit]) for unit in units}
