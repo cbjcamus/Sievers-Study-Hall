@@ -46,10 +46,13 @@
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
         <td>{{ unit_stars[unit] | safe }}</td>
+        <!-- Write your comments here
         <td>{{ answered_questions(session, unit) }}/{{ total_questions(unit) }}</td>
         <td>
             <span title="Your score for Unit {{ title_page[unit] }}">{{ score(session, unit) }}</span>
-        </td>
+        </td> -->
+        <td></td>
+        <td></td>
         <td></td>
     </tr>
 {% endmacro %}
