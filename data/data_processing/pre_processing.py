@@ -55,7 +55,7 @@ def pre_processing_praeteritum(data, exercise):
         data['Nr'] = range(1, len(data) + 1)
 
     else:
-        data['answer'] = data['er/sie/es']
+        data['answer'] = data['er/sie/es'].copy()
 
     return data
 

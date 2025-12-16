@@ -29,13 +29,16 @@ def ensure_session_keys_exist_and_make_session_permanent():
 @routes_bp.before_request
 def delete_old_unfinished_exercise():
     if session_size(session) > 3500:
-        unit, exercise = session['unfinished_exercise'][0]
-        if unit in session and str(exercise) in session[unit]:
-            log_progress_deleted_from_session(unit, exercise)
-            del session[unit][str(exercise)]
+        if not session['unfinished_exercise']:
+            session.clear()
+        else:
+            unit, exercise = session['unfinished_exercise'][0]
+            if unit in session and str(exercise) in session[unit]:
+                log_progress_deleted_from_session(unit, exercise)
+                del session[unit][str(exercise)]
 
-        session['unfinished_exercise'].remove((unit, exercise))
-        session['progress_deleted'] = {'unit': unit, 'exercise': exercise}
+            session['unfinished_exercise'].remove((unit, exercise))
+            session['progress_deleted'] = {'unit': unit, 'exercise': exercise}
         # print(f"Progress deleted for {unit} {exercise}")
 
 
