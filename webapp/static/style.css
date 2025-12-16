@@ -565,6 +565,9 @@ body.day-mode .guidance-modal {
   text-align: left;
 }
 
+.guidance-overlay { display: none; }              /* default hidden */
+.guidance-overlay.is-open { display: flex; }
+
 .question-count {
     margin-top: 0px;
     font-size: 16px;

@@ -161,22 +161,6 @@
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
     </task>
-    <task id="LOCAL-00087" summary="präpositionen">
-      <option name="closed" value="true" />
-      <created>1751963570070</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1751963570070</updated>
-    </task>
-    <task id="LOCAL-00088" summary="präpositionen">
-      <option name="closed" value="true" />
-      <created>1751963665391</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1751963665391</updated>
-    </task>
     <task id="LOCAL-00089" summary="präpositionen">
       <option name="closed" value="true" />
       <created>1751964612147</created>
@@ -553,7 +537,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765898245114</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="December 16th">
+      <option name="closed" value="true" />
+      <created>1765899909446</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1765899909447</updated>
+    </task>
+    <task id="LOCAL-00137" summary="December 16th">
+      <option name="closed" value="true" />
+      <created>1765900152831</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1765900152831</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

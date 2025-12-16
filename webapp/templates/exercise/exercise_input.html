@@ -93,23 +93,16 @@
                   onclick="toggleGuidanceHelp()" title="Help">?</button>
         </div>
 
-        <div id="guidance-overlay" class="guidance-overlay" style="display:none;" aria-hidden="true">
-            <div class="guidance-modal" role="dialog" aria-modal="true" aria-labelledby="guidance-title">
-            <div class="guidance-modal-header">
-                <h2>Instruction</h2>
-                <button type="button" class="guidance-close" onclick="toggleGuidanceHelp()" aria-label="Close">×</button>
-            </div>
-
-                <div class="guidance-modal-body">
-
-                    {{ guidance | safe }}
-
-                    <h2>{{ additional_help | safe }}</h2>
-
-                    <p align="left">{{ consult_faq | safe }}</p>
-                </div>
-            </div>
+      <div id="guidance-overlay" class="guidance-overlay" aria-hidden="true">
+      <div class="guidance-modal" role="dialog" aria-modal="true">
+        <div class="guidance-modal-header">
+          <button type="button" class="guidance-close" onclick="toggleGuidanceHelp(true)" aria-label="Close">×</button>
         </div>
+        <div class="guidance-modal-body">
+          {{ guidance | safe }}
+        </div>
+      </div>
+    </div>
 
     </div>
 
