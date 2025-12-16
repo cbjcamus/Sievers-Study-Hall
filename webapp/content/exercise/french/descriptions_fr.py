@@ -565,9 +565,8 @@ DESCRIPTION_FR = {
         42: "Verbes (un)trennbare en fassen",
         43: "Verbes (un)trennbare en sehen",
         44: "Verbes (un)trennbare en schreiben",
-        45: "Verbes (un)trennbare en schließen",
-        46: "Verbes (un)trennbare en legel",
-
+        45: "Verbes (un)trennbare en legen",
+        46: "Verbes (un)trennbare en schließen",
         47: "Verbes (un)trennbare de niveau C1 aidé de la racine",
         48: "Verbes (un)trennbare de niveau C1 aidé de la racine",
         49: "Verbes (un)trennbare de niveau C1 aidé de la racine",
