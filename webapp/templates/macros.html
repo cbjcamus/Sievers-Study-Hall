@@ -42,7 +42,7 @@
     </tr>
 {% endmacro %}
 
-{% macro render_unit_table_row(unit, session, answered_questions, total_questions, score, title_page, unit_page, explanation, unit_stars) %}
+{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars) %}
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
         <td>{{ unit_stars[unit] | safe }}</td>
