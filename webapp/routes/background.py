@@ -7,8 +7,7 @@ from data.data_processing.units import units
 
 from users.session_management.logging import log_progress_deleted_from_session
 from users.session_management.print_session import session_size
-from users.session_management.print_session import print_complete_session, print_user_info_from_db, print_session_size
-from users.questions.total_questions import compute_highest_exercise
+from data.data_processing.total_questions import highest_exercise
 from users.session_management.verification_session import is_key_in_exercise
 
 session = cast(dict, session)
@@ -40,19 +39,11 @@ def delete_old_unfinished_exercise():
         # print(f"Progress deleted for {unit} {exercise}")
 
 
-'''
-@routes_bp.after_request
-def clear_progress_deleted_flag(response):
-    session.pop('progress_deleted', None)
-    return response
-'''
-
-
 @routes_bp.after_request
 def clear_empty_unit_dictionary(response):
     if session_size(session) > 2000:
         for unit in units:
-            for exercise in range(compute_highest_exercise(unit)):
+            for exercise in range(highest_exercise[unit]):
                 if (is_key_in_exercise(session, unit, exercise, 'falses')
                         and is_key_in_exercise(session, unit, exercise, 'progress')):
                     if (len(session[unit][str(exercise)]['falses']) == 0

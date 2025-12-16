@@ -14,19 +14,19 @@ from users.progress.score import write_score
 from users.session_management.logging import log_question_flagged
 from users.progress.progress import compute_answered_questions
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, is_user_answer_correct
-from users.questions.total_questions import compute_total_questions
-from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, pick_other_options,
-                                             shuffle_options, get_question_from_incorrect_answer, get_options_for_multiple_choice_exercises)
-from users.progress.register_update import (register_progress, register_result,
-                                            register_incorrect_answer)
+from data.data_processing.total_questions import total_question_exercises
+from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, get_question_from_incorrect_answer,
+                                             get_options_for_multiple_choice_exercises)
+from users.progress.register_update import register_progress, register_result, register_incorrect_answer
 from users.session_management.verification_session import init_session_key
 from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
 from webapp.i18n import get_language
 
-from webapp.content.application.buttons import (HOMEPAGE, BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH)
-from ..content.application.exercise_page import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
-    YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE
+from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH)
+from webapp.content.application.exercise_page import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
+    YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
+    ADDITIONAL_HELP, CONSULT_FAQ
 
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
@@ -85,11 +85,14 @@ def guidance(unit, exercise):
                                exercise=exercise,
                                exercise_title=EXERCISE_TITLE[language],
                                guidance=guidance,
+                               additional_help=ADDITIONAL_HELP[language],
+                               consult_faq=CONSULT_FAQ[language],
                                unit_page=UNIT_PAGE,
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               #total_questions=compute_total_questions(unit, exercise=exercise),
+                               total_questions=total_question_exercises[unit][exercise],
                                next=NEXT[language],
                                back_to=BACK_TO[language],
                                )
@@ -105,7 +108,8 @@ def guidance(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               #total_questions=compute_total_questions(unit, exercise=exercise),
+                               total_questions=total_question_exercises[unit][exercise],
                                next=NEXT[language],
                                back_to=BACK_TO[language],
                                )
@@ -220,15 +224,14 @@ def exercise(unit, exercise):
 
     gender = gender_english if get_language(request, session) == 'english' else gender_french
 
+    if unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
+        guidance_popup = GUIDANCE_EXERCISE[language][unit][exercise]
+    elif unit in GUIDANCE_UNIT[language]:
+        guidance_popup = GUIDANCE_UNIT[language][unit]
+    else:
+        guidance_popup = ""
+
     if is_exercise_multiple_choice(unit, exercise) is True:
-
-        '''
-        other_options = pick_other_options(unit, exercise, question_data)
-
-        other_question_text = [str(option["answer"]) for option in other_options]
-
-        options_text = shuffle_options(str(question_data["answer"]), other_question_text)
-        '''
 
         options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_data)
 
@@ -246,10 +249,14 @@ def exercise(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               # total_questions=compute_total_questions(unit, exercise=exercise),
+                               total_questions=total_question_exercises[unit][exercise],
                                proverb=proverb,
                                is_feedback_box=is_feedback_box,
                                gender=gender,
+                               guidance=guidance_popup,
+                               additional_help=ADDITIONAL_HELP[language],
+                               consult_faq=CONSULT_FAQ[language],
                                options=options_text,
                                your_answer=YOUR_ANSWER[language],
                                incorrect_question=incorrect_question,
@@ -270,10 +277,14 @@ def exercise(unit, exercise):
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           total_questions=compute_total_questions(unit, exercise=exercise),
+                           # total_questions=compute_total_questions(unit, exercise=exercise),
+                           total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,
                            is_feedback_box=is_feedback_box,
                            gender=gender,
+                           guidance=guidance_popup,
+                           additional_help=ADDITIONAL_HELP[language],
+                           consult_faq=CONSULT_FAQ[language],
                            your_answer=YOUR_ANSWER[language],
                            incorrect_question=incorrect_question,
                            submit=SUBMIT[language],
@@ -478,6 +489,13 @@ def exercise_feedback(unit, exercise):
 
     incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer)
 
+    if unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
+        guidance_popup = GUIDANCE_EXERCISE[language][unit][exercise]
+    elif unit in GUIDANCE_UNIT[language]:
+        guidance_popup = GUIDANCE_UNIT[language][unit]
+    else:
+        guidance_popup = ""
+
     if is_exercise_multiple_choice(unit, exercise) is True:
 
         return render_template("exercise/feedback_multiple_choice.html",
@@ -494,8 +512,12 @@ def exercise_feedback(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=compute_total_questions(unit, exercise=exercise),
+                               # total_questions=compute_total_questions(unit, exercise=exercise),
+                               total_questions=total_question_exercises[unit][exercise],
                                proverb=proverb,
+                               guidance=guidance_popup,
+                               additional_help=ADDITIONAL_HELP[language],
+                               consult_faq=CONSULT_FAQ[language],
                                is_feedback_box=is_feedback_box,
                                your_answer=YOUR_ANSWER[language],
                                incorrect_question=incorrect_question,
@@ -517,8 +539,12 @@ def exercise_feedback(unit, exercise):
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           total_questions=compute_total_questions(unit, exercise=exercise),
+                           # total_questions=compute_total_questions(unit, exercise=exercise),
+                           total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,
+                           guidance=guidance_popup,
+                           additional_help=ADDITIONAL_HELP[language],
+                           consult_faq=CONSULT_FAQ[language],
                            is_feedback_box=is_feedback_box,
                            your_answer=YOUR_ANSWER[language],
                            incorrect_question=incorrect_question,

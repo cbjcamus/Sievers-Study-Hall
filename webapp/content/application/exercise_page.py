@@ -25,10 +25,20 @@ YOUR_SCORE_FOR_THIS_EXERCISE = {
 
 FEEDBACK_LAST_QUESTION = {
     'english': 'Feedback last question:',
-    'french': 'Feedback dernière question:',
+    'french': 'Feedback dernière question :',
 }
 
 YOUR_INCORRECT_ANSWERS = {
     'english': 'Here are your incorrect answers:',
-    'french': 'Voici vos réponses incorrectes:',
+    'french': 'Voici vos réponses incorrectes :',
+}
+
+ADDITIONAL_HELP = {
+    'english': 'Additional Help',
+    'french': 'Informations Complémentaires',
+}
+
+CONSULT_FAQ = {
+    'english': 'For additional support consult the <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a> or send me an email at sieversstudyhall@gmail.com',
+    'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a> (en anglais) ou envoyez moi un email à sieversstudyhall@gmail.com'
 }

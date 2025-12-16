@@ -6,7 +6,6 @@ praepositionen_adverbien = 'praepositionen_adverbien'
 praepositionen_artikel = 'praepositionen_artikel'
 
 artikel = 'artikel'
-artikel_genus = 'artikel_genus'
 pronomen = 'pronomen'
 konnektoren = 'konnektoren'
 fragen = 'fragen'
@@ -29,12 +28,16 @@ konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
 
+artikel_genus = 'artikel_genus'
+genus_routledge = 'genus_routledge'
+
 units = [
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     verben, trennbare_verben, nomen_verben_verbindungen,
     adjektive, adjektivdeklinationen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I,
     partizip_I,
+    artikel_genus, genus_routledge,
 ]

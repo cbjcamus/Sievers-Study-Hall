@@ -472,6 +472,99 @@ body.day-mode .gender-tooltip {
     border: 1px solid black;
 }
 
+.guidance-help-container {
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+}
+
+.guidance-help-button {
+  background-color: white;
+  color: #131b22;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.guidance-help-button:hover {
+  background-color: #f0f0f0;
+}
+
+body.day-mode .guidance-help-button {
+  border: 1px solid black;
+}
+
+body.day-mode .guidance-help-button:hover {
+  background-color: white;
+}
+
+/* Overlay “page on top” */
+.guidance-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;              /* toggled via JS */
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 9999;
+}
+
+/* Modal card */
+.guidance-modal {
+  width: min(600px, calc(100vw - 40px));
+  max-height: calc(100vh - 60px);
+  overflow: auto;
+  background: #131b22;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.35);
+  padding: 0px 20px;
+}
+
+body.day-mode .guidance-modal {
+  border: 1px solid black;
+  background: #deedfa;
+  color: black;
+}
+
+/* Header with close button */
+.guidance-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  margin-bottom: 0px;
+}
+
+.guidance-close {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+}
+
+.guidance-modal-body {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* Explicitly override common centered elements */
+.guidance-modal-body h1,
+.guidance-modal-body h2,
+.guidance-modal-body h3,
+.guidance-modal-body p,
+.guidance-modal-body ul,
+.guidance-modal-body ol,
+.guidance-modal-body li {
+  text-align: left;
+}
+
 .question-count {
     margin-top: 0px;
     font-size: 16px;

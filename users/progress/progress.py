@@ -1,9 +1,21 @@
 from flask_login import current_user
 
 from users.progress.models import UserExerciseState
+from users.questions.pick_a_question import is_exercise_finished
 
-from users.questions.total_questions import compute_total_questions, compute_highest_exercise
+from data.data_processing.total_questions import total_question_exercises, highest_exercise
 from users.session_management.verification_session import is_key_in_exercise
+
+
+def compute_completed_exercises(session, unit, highest_exercise):
+    highest_exercise_unit = highest_exercise[unit]
+
+    finished_exercises = 0
+    for exercise in range(1, highest_exercise_unit + 1):
+        if is_exercise_finished(session, unit, exercise):
+            finished_exercises = finished_exercises + 1
+
+    return finished_exercises
 
 
 def compute_answered_questions(session, unit, exercise=None):
@@ -47,7 +59,7 @@ def compute_answered_questions_unit(session, unit):
         int: The total number of answered questions in the unit.
     """
     answered_questions = 0
-    for exercise in range(1, compute_highest_exercise(unit) + 1):
+    for exercise in range(1, highest_exercise[unit] + 1):
         answered_questions_exercise = compute_answered_questions_exercise(session, unit, exercise)
         answered_questions = answered_questions + answered_questions_exercise
     return int(answered_questions)
@@ -88,13 +100,7 @@ def compute_answered_questions_exercise(session, unit, exercise):
         finished = ("score" in s) or ("result" in s) or (row.completed_at is not None)
 
         if finished:
-            '''
-            # Prefer stored total; otherwise compute from CSV
-            total = s.get("total_questions")
-            if total is None:
-                total = compute_total_questions(unit, ex_int)
-            '''
-            total = compute_total_questions(unit, ex_int)
+            total = total_question_exercises[unit][ex_int]
             return int(total or 0)
 
         # Not finished → number of correct so far
@@ -107,7 +113,8 @@ def compute_answered_questions_exercise(session, unit, exercise):
         return 0
 
     if is_key_in_exercise(session, unit, exercise, 'result'):
-        return compute_total_questions(unit, exercise=exercise)
+        # return compute_total_questions(unit, exercise=exercise)
+        return total_question_exercises[unit][ex_int]
 
     elif is_key_in_exercise(session, unit, exercise, 'progress'):
         return len(session[unit][str(exercise)]['progress'])

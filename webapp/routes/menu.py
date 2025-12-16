@@ -8,8 +8,8 @@ from . import routes_bp
 from data.data_processing.units import units
 
 from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions
-from users.questions.total_questions import compute_total_questions
+from users.progress.progress import compute_answered_questions, compute_completed_exercises
+from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from webapp.i18n import get_language
 
@@ -37,6 +37,8 @@ def home():
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,
+                           completed_exercises=compute_completed_exercises,
+                           highest_exercise=highest_exercise,
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
                            )
 
@@ -83,7 +85,7 @@ for unit in units:
             introduction = INTRODUCTION[language].get(unit, {})
             return render_template(template,
                                    answered_questions=compute_answered_questions,
-                                   total_questions=compute_total_questions,
+                                   total_questions=total_question_exercises,
                                    score=write_score,
                                    introduction=introduction,
                                    description_templates=DESCRIPTION[language],

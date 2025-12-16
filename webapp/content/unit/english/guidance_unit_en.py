@@ -1,10 +1,11 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    artikel_genus, genus_routledge,
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -14,20 +15,6 @@ from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 GUIDANCE_UNIT_EN = {
     wortstellung:
         "Placeholder"
-    ,
-
-    artikel_genus:
-        "For each question, you will be provided a German noun and its English translation."
-        "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
-
-        f"<br><br>{ICON_WARN} There is only one correct answer per question."
-
-        "<h2>Example</h2>"
-        "_____ Abend"
-        "<br><br><i>The evening</i>"
-        f"<br><br>{ICON_CHECK} Der"
-        f"<br><br>{ICON_CHECK} der"
-        f"<br><br>{ICON_CROSS} Die"
     ,
 
     praepositionen_artikel:
@@ -154,5 +141,33 @@ GUIDANCE_UNIT_EN = {
         "freuen"
         f"<br><br>{ICON_CHECK} freuend"
         f"<br><br>{ICON_CROSS} sich freuend"
+    ,
+
+    artikel_genus:
+        "For each question, you will be provided a German noun and its English translation."
+        "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
+
+        f"<br><br>{ICON_WARN} There is only one correct answer per question."
+
+        "<h2>Example</h2>"
+        "_____ Abend"
+        "<br><br><i>The evening</i>"
+        f"<br><br>{ICON_CHECK} Der"
+        f"<br><br>{ICON_CHECK} der"
+        f"<br><br>{ICON_CROSS} Die"
+    ,
+
+    genus_routledge:
+        "For each question, you will be provided a German noun and its English translation."
+        "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
+
+        f"<br><br>{ICON_WARN} There is only one correct answer per question."
+
+        "<h2>Example</h2>"
+        "_____ Abend"
+        "<br><br><i>The evening</i>"
+        f"<br><br>{ICON_CHECK} Der"
+        f"<br><br>{ICON_CHECK} der"
+        f"<br><br>{ICON_CROSS} Die"
     ,
 }

@@ -3,7 +3,7 @@ import random
 from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.units import adverbien, konnektoren
+from data.data_processing.units import adverbien, konnektoren, fragen, trennbare_verben
 
 from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level,
                                                is_exercise_multiple_choice, get_answer_column, get_question_column)
@@ -172,7 +172,8 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
         else:
             return None
 
-    elif unit in [konnektoren, adverbien]:
+    elif unit in [konnektoren, adverbien, fragen, trennbare_verben]:
+
         data = load_data_unit(unit)
 
         language = get_language(request, session)
@@ -181,6 +182,7 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
 
         if not match.empty:
             question = match.iloc[0]
+            print(question)
             return f"(<i>{question}</i>)"
         else:
             return ""

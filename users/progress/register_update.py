@@ -8,7 +8,8 @@ from users.progress.models import UserExerciseState
 from users.progress.score import compute_score
 from users.session_management.logging import log_exercise_completed
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
-from users.questions.total_questions import compute_total_questions
+from data.data_processing.total_questions import total_question_exercises
+
 
 def register_progress(session, unit, exercise, nr):
     """
@@ -162,7 +163,8 @@ def register_result(session, unit, exercise, feedback):
     ex_str = str(ex_int)
 
     if current_user.is_authenticated:
-        total_q = int(compute_total_questions(unit, ex_int) or 0)
+        # total_q = int(compute_total_questions(unit, ex_int) or 0)
+        total_q = int(total_question_exercises[unit][ex_int] or 0)
 
         # Use the same scoring function your UI uses
         # If your project exposes compute_score_exercise(...), use that instead.
@@ -226,4 +228,5 @@ def register_result(session, unit, exercise, feedback):
             session['unfinished_exercise'].remove((unit, exercise))
 
         session.modified = True
+
     return

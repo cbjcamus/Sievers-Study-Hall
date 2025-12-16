@@ -3,16 +3,14 @@ from datetime import datetime
 
 from flask import render_template, request, redirect, url_for, flash, session
 from flask_login import login_user, current_user, logout_user, login_required
-from pandas.io.formats.format import return_docstring
 
 from data.data_processing.units import units
 from data.data_processing.data_loading import load_data_exercise
-from users.session_management.verification_session import is_exercise_in_unit
 
 from users.users.models import db, User
 from users.progress.models import UserExerciseState
 from users.progress.service import make_qid
-from users.questions.total_questions import compute_total_questions, compute_highest_exercise
+from data.data_processing.total_questions import total_question_exercises
 from users.session_management.logging import log_new_signup
 
 from webapp.i18n import get_language
@@ -262,7 +260,8 @@ def merge_anonymous_progress_in_database():
             if df is None:
                 continue
 
-            total_questions = int(compute_total_questions(unit, ex))
+            # total_questions = int(compute_total_questions(unit, ex))
+            total_questions = int(total_question_exercises[unit][ex])
 
             # ---- Build Nr -> qid mapping ----
             nr_to_qid = {}
@@ -296,7 +295,8 @@ def merge_anonymous_progress_in_database():
 
             if has_summary:
                 score = float(ex_data["result"])
-                total_questions = compute_total_questions(unit, ex)
+                # total_questions = compute_total_questions(unit, ex)
+                total_questions = total_question_exercises[unit][ex]
                 row.state = {"score": score, "total_questions": int(total_questions)}
             else:
                 correct = sorted(set(progress_nrs) - set(falses_nrs))

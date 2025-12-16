@@ -1,10 +1,11 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    artikel_genus, genus_routledge,
 )
 
 from webapp.style.icons import STAR_GOLD, STAR_SILVER
@@ -17,7 +18,6 @@ STARS = {
     praepositionen_artikel: f"",
 
     artikel: f"{STAR_GOLD}",
-    artikel_genus: f"",
     pronomen: f"",
     konnektoren: f"{STAR_GOLD}",
     fragen: f"",
@@ -39,4 +39,7 @@ STARS = {
     konjunktiv_II: f"",
     konjunktiv_I: f"",
     partizip_I: f"",
+
+    artikel_genus: f"",
+    genus_routledge: f"",
 }

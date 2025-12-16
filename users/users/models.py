@@ -35,3 +35,14 @@ def is_feedback_enabled():
     if row and row.settings:
         return row.settings.get("feedback_enabled", DEFAULT_SETTINGS["feedback_enabled"])
     return DEFAULT_SETTINGS["feedback_enabled"]
+
+
+def get_theme():
+    if not current_user.is_authenticated:
+        # anonymous users: fall back to False or your default
+        return DEFAULT_SETTINGS["feedback_enabled"]
+
+    row = UserSettings.query.get(current_user.id)
+    if row and row.settings:
+        return row.settings.get("theme", "night")
+    return DEFAULT_SETTINGS["feedback_enabled"]

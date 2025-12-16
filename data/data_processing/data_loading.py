@@ -2,14 +2,13 @@ import os
 import re
 import pandas as pd
 
-from data.data_processing.paths import DATA_PATH, df_units
+from data.data_processing.paths import df_units
 from data.data_processing.pre_processing import pre_processing
 
 
 def load_data_unit(unit):
-    # data = pd.read_csv(DATA_PATH[unit]).fillna("")
     data = df_units[unit].fillna("")
-    data = data[data["exercise"] < 100]
+    data = data[data["exercise"] < 100].copy()
     return data
 
 
@@ -29,9 +28,8 @@ def load_data_exercise(unit, exercise):
     Returns:
         pandas.DataFrame: The cleaned and preprocessed data for the specified exercise.
     """
-    # data = pd.read_csv(DATA_PATH[unit])
     data = df_units[unit]
-    data = data[data['exercise'] == exercise]
+    data = data[data['exercise'] == exercise].copy()
     data = pre_processing(data, unit, exercise)
     data = data.fillna("")
     return data
@@ -42,7 +40,6 @@ def load_data_level(unit, exercise):
     Loads and preprocesses exercise data for a given unit and exercise,
     filtering using the 'extent' list from the mapping CSV.
     """
-    # data = pd.read_csv(DATA_PATH[unit])
     data = df_units[unit]
 
     extent = get_extent(unit, int(exercise))
@@ -59,12 +56,11 @@ MULTIPLE_CHOICE_PATH = os.path.join(BASE_DIR, "datasets/other", "multiple_choice
 df_multiple_choice = pd.read_csv(MULTIPLE_CHOICE_PATH)
 
 
-def get_extent(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
+def get_extent(unit, exercise):
     """
     Reads the mapping/levels CSV (with columns: unit, exercise, extent)
     and returns the list of exercise IDs to include.
     """
-    # df = pd.read_csv(csv_file)
     df = df_multiple_choice
 
     row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
@@ -84,12 +80,11 @@ def get_extent(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
     return vals
 
 
-def get_answer_column(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
+def get_answer_column(unit, exercise):
     """
     Reads the mapping/levels CSV (with columns: unit, exercise, extent)
     and returns the list of exercise IDs to include.
     """
-    # df = pd.read_csv(csv_file)
     df = df_multiple_choice
 
     row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
@@ -101,12 +96,11 @@ def get_answer_column(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
     return answer_column
 
 
-def get_question_column(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
+def get_question_column(unit, exercise):
     """
     Reads the mapping/levels CSV (with columns: unit, exercise, extent)
     and returns the list of exercise IDs to include.
     """
-    # df = pd.read_csv(csv_file)
     df = df_multiple_choice
 
     row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
@@ -118,7 +112,6 @@ def get_question_column(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
     return question_column
 
 
-def is_exercise_multiple_choice(unit, exercise, csv_file=MULTIPLE_CHOICE_PATH):
-    # df = pd.read_csv(csv_file)
+def is_exercise_multiple_choice(unit, exercise):
     df = df_multiple_choice
     return not df[(df['unit'] == unit) & (df['exercise'] == exercise)].empty

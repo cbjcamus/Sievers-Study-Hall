@@ -1,10 +1,11 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    artikel_genus, genus_routledge
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -14,19 +15,6 @@ from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 GUIDANCE_UNIT_FR = {
     wortstellung:
         "Placeholder"
-    ,
-
-    artikel_genus:
-        "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
-        "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
-
-        f"<br><br>{ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
-
-        "<h2>Exemple</h2>"
-        "_____ Abend"
-        "<br><br><i>Le soir</i>"
-        f"<br><br>{ICON_CHECK} Der"
-        f"<br><br>{ICON_CHECK} der"
     ,
 
     praepositionen_artikel:
@@ -153,5 +141,31 @@ GUIDANCE_UNIT_FR = {
         "freuen"
         f"<br><br>{ICON_CHECK} freuend"
         f"<br><br>{ICON_CROSS} sich freuend"
+    ,
+
+    artikel_genus:
+        "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
+        "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
+
+        f"<br><br>{ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
+
+        "<h2>Exemple</h2>"
+        "_____ Abend"
+        "<br><br><i>Le soir</i>"
+        f"<br><br>{ICON_CHECK} Der"
+        f"<br><br>{ICON_CHECK} der"
+    ,
+
+    genus_routledge:
+        "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
+        "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
+
+        f"<br><br>{ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
+
+        "<h2>Exemple</h2>"
+        "_____ Abend"
+        "<br><br><i>Le soir</i>"
+        f"<br><br>{ICON_CHECK} Der"
+        f"<br><br>{ICON_CHECK} der"
     ,
 }

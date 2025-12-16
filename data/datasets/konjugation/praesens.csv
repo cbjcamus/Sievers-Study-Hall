@@ -39,66 +39,66 @@ Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
 38,8,arbeiten,to work,travailler,arbeite,arbeitest,arbeitet,arbeiten,arbeitet,arbeiten
 39,8,essen,to eat,manger,esse,isst,isst,essen,esst,essen
 40,8,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)","offrir, enchérir, surgir, se produire (d'une opportunité) (réfl.)",biete,bietest,bietet,bieten,bietet,bieten
-41,9,aufstehen,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)",stehe auf,stehst auf,steht auf,stehen auf,steht auf,stehen auf
-42,9,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre, habiller quelqu'un, attirer, tirer",ziehe an,ziehst an,zieht an,ziehen an,zieht an,ziehen an
-43,9,ausziehen,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, se retirer, sortir",ziehe aus,ziehst aus,zieht aus,ziehen aus,zieht aus,ziehen aus
-44,9,spielen,to play,jouer,spiele,spielst,spielt,spielen,spielt,spielen
-45,9,fahren,"to go (by vehicle), to leave, to drive","aller (en véhicule), partir, conduire",fahre,fährst,fährt,fahren,fahrt,fahren
-46,10,versuchen,"to try, to attempt","essayer, tenter",versuche,versuchst,versucht,versuchen,versucht,versuchen
-47,10,erzählen,"to tell, to narrate","raconter, narrer",erzähle,erzählst,erzählt,erzählen,erzählt,erzählen
-48,10,fragen,"to ask, to wonder (refl.)","demander, se demander (réfl.)",frage,fragst,fragt,fragen,fragt,fragen
-49,10,treffen,"to meet, to encounter","rencontrer, se rencontrer",treffe,triffst,trifft,treffen,trefft,treffen
-50,10,hoffen,to hope,espérer,hoffe,hoffst,hofft,hoffen,hofft,hoffen
-51,11,suchen,"to seek, to search","chercher, rechercher",suche,suchst,sucht,suchen,sucht,suchen
-52,11,trinken,to drink,boire,trinke,trinkst,trinkt,trinken,trinkt,trinken
-53,11,lernen,"to learn, to study, to train something","apprendre, étudier, se former à quelque chose",lerne,lernst,lernt,lernen,lernt,lernen
-54,11,zeigen,"to show, to point at, to demonstrate","montrer, pointer du doigt, démontrer",zeige,zeigst,zeigt,zeigen,zeigt,zeigen
-55,11,schlafen,to sleep,dormir,schlafe,schläfst,schläft,schlafen,schlaft,schlafen
-56,12,kaufen,to buy,acheter,kaufe,kaufst,kauft,kaufen,kauft,kaufen
-57,12,laufen,"to walk, to flow (of a fluid), to run (of an event)","marcher, couler (un fluide), se dérouler (un événement)",laufe,läufst,läuft,laufen,lauft,laufen
-58,12,erklären,"to explain, to declare, to assert","expliquer, déclarer, affirmer",erkläre,erklärst,erklärt,erklären,erklärt,erklären
-59,12,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier",zahle,zahlst,zahlt,zahlen,zahlt,zahlen
-60,12,kochen,"to cook, to boil (to heat a liquid), to boil something","cuire, faire bouillir (chauffer un liquide), faire bouillir quelque chose",koche,kochst,kocht,kochen,kocht,kochen
-61,13,waschen,to wash,laver,wasche,wäschst,wäscht,waschen,wascht,waschen
-62,13,aufwachen,to wake up,se réveiller,wache auf,wachst auf,wacht auf,wachen auf,wacht auf,wachen auf
-63,13,zeichnen,"to draw, to sketch","dessiner, esquisser",zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen
-64,13,wohnen,"to live, to reside, to dwell","vivre, résider, habiter",wohne,wohnst,wohnt,wohnen,wohnt,wohnen
-65,13,schreiben,to write,écrire,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben
-66,14,tragen,"to wear (clothing), to carry, to hold","porter (des vêtements), transporter, tenir",trage,trägst,trägt,tragen,tragt,tragen
-67,14,interessieren,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)",interessiere,interessierst,interessiert,interessieren,interessiert,interessieren
-68,14,ziehen,"to pull, to drag, to move","tirer, traîner, déplacer",ziehe,ziehst,zieht,ziehen,zieht,ziehen
-69,14,lesen,to read,lire,lese,liest,liest,lesen,lest,lesen
-70,14,kosten,"to cost, to taste",coûter,koste,kostest,kostet,kosten,kostet,kosten
-71,15,wiederholen,to repeat,répéter,wiederhole,wiederholst,wiederholt,wiederholen,wiederholt,wiederholen
-72,15,übersetzen,to translate,traduire,übersetze,übersetzt,übersetzt,übersetzen,übersetzt,übersetzen
-73,15,buchstabieren,to spell,épeler,buchstabiere,buchstabierst,buchstabiert,buchstabieren,buchstabiert,buchstabieren
-74,15,bedeuten,"to mean, to signify","vouloir dire, signifier",bedeute,bedeutest,bedeutet,bedeuten,bedeutet,bedeuten
-75,15,funktionieren,"to function, to work",fonctionner,funktioniere,funktionierst,funktioniert,funktionieren,funktioniert,funktionieren
-76,16,erinnern,"to remind, to remember (refl.)","rappeler, se souvenir (réfl.)",erinnere,erinnerst,erinnert,erinnern,erinnert,erinnern
-77,16,fühlen,"to feel, to feel something (refl.)","sentir, ressentir quelque chose (réfl.)",fühle,fühlst,fühlt,fühlen,fühlt,fühlen
-78,16,regnen,to rain,pleuvoir,regne,regnest,regnet,regnen,regnet,regnen
-79,16,schneien,to snow,neiger,schneie,schneist,schneit,schneien,schneit,schneien
-80,16,führen,"to lead, to guide","guider, conduire",führe,führst,führt,führen,führt,führen
-81,17,passieren,"to happen (colloquial), to move beyond, to strain",se produire,passiere,passierst,passiert,passieren,passiert,passieren
-82,17,verlieren,to lose,perdre,verliere,verlierst,verliert,verlieren,verliert,verlieren
-83,17,bestimmen,to determine,déterminer,bestimme,bestimmst,bestimmt,bestimmen,bestimmt,bestimmen
-84,17,holen,to fetch,aller chercher,hole,holst,holt,holen,holt,holen
-85,17,anrufen,"to call by telephone, to call on (someone)",appeler par téléphone,rufe an,rufst an,ruft an,rufen an,ruft an,rufen an
-86,18,aufhören,"to stop, to cease an activity or process","arrêter, cesser une activité ou un processus",höre auf,hörst auf,hört auf,hören auf,hört auf,hören auf
-87,18,anfangen,to begin something new,commencer quelque chose de nouveau,fange an,fängst an,fängt an,fangen an,fangt an,fangen an
-88,18,gewinnen,to win,gagner,gewinne,gewinnst,gewinnt,gewinnen,gewinnt,gewinnen
-89,18,wehtun,"to hurt, to be painful","blesser, être douloureux",tue weh,tust weh,tut weh,tun weh,tut weh,tun weh
-90,18,öffnen,to open (formal),ouvrir (formel),öffne,öffnest,öffnet,öffnen,öffnet,öffnen
-91,19,bezahlen,"to pay, to pay someone","payer, payer quelqu'un",bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen
-92,19,beginnen,to begin (on a certain date or time),commencer (à une certaine date ou heure),beginne,beginnst,beginnt,beginnen,beginnt,beginnen
-93,19,benutzen,to use (something),utiliser (quelque chose),benutze,benutzt,benutzt,benutzen,benutzt,benutzen
-94,19,schicken,to send,envoyer,schicke,schickst,schickt,schicken,schickt,schicken
-95,19,lachen,to laugh,rire,lache,lachst,lacht,lachen,lacht,lachen
-96,20,scheinen,"to shine, to seem (formal)","briller, paraître (formel)",scheine,scheinst,scheint,scheinen,scheint,scheinen
-97,20,ändern,to change (one's personality or behavior),changer (sa personnalité ou son comportement),ändere,änderst,ändert,ändern,ändert,ändern
-98,20,verkaufen,to sell,vendre,verkaufe,verkaufst,verkauft,verkaufen,verkauft,verkaufen
-99,20,gehören,to belong to,appartenir à,gehöre,gehörst,gehört,gehören,gehört,gehören
-100,20,sitzen,"to be seated, to stay, to fit (of clothing)","être assis, rester",sitze,sitzt,sitzt,sitzen,sitzt,sitzen
+41,9,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre, habiller quelqu'un, attirer, tirer",ziehe an,ziehst an,zieht an,ziehen an,zieht an,ziehen an
+42,9,ausziehen,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, se retirer, sortir",ziehe aus,ziehst aus,zieht aus,ziehen aus,zieht aus,ziehen aus
+43,9,spielen,to play,jouer,spiele,spielst,spielt,spielen,spielt,spielen
+44,9,fahren,"to go (by vehicle), to leave, to drive","aller (en véhicule), partir, conduire",fahre,fährst,fährt,fahren,fahrt,fahren
+45,9,versuchen,"to try, to attempt","essayer, tenter",versuche,versuchst,versucht,versuchen,versucht,versuchen
+46,10,erzählen,"to tell, to narrate","raconter, narrer",erzähle,erzählst,erzählt,erzählen,erzählt,erzählen
+47,10,fragen,"to ask, to wonder (refl.)","demander, se demander (réfl.)",frage,fragst,fragt,fragen,fragt,fragen
+48,10,treffen,"to meet, to encounter","rencontrer, se rencontrer",treffe,triffst,trifft,treffen,trefft,treffen
+49,10,hoffen,to hope,espérer,hoffe,hoffst,hofft,hoffen,hofft,hoffen
+50,10,suchen,"to seek, to search","chercher, rechercher",suche,suchst,sucht,suchen,sucht,suchen
+51,11,trinken,to drink,boire,trinke,trinkst,trinkt,trinken,trinkt,trinken
+52,11,lernen,"to learn, to study, to train something","apprendre, étudier, se former à quelque chose",lerne,lernst,lernt,lernen,lernt,lernen
+53,11,zeigen,"to show, to point at, to demonstrate","montrer, pointer du doigt, démontrer",zeige,zeigst,zeigt,zeigen,zeigt,zeigen
+54,11,schlafen,to sleep,dormir,schlafe,schläfst,schläft,schlafen,schlaft,schlafen
+55,11,kaufen,to buy,acheter,kaufe,kaufst,kauft,kaufen,kauft,kaufen
+56,12,laufen,"to walk, to flow (of a fluid), to run (of an event)","marcher, couler (un fluide), se dérouler (un événement)",laufe,läufst,läuft,laufen,lauft,laufen
+57,12,erklären,"to explain, to declare, to assert","expliquer, déclarer, affirmer",erkläre,erklärst,erklärt,erklären,erklärt,erklären
+58,12,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier",zahle,zahlst,zahlt,zahlen,zahlt,zahlen
+59,12,kochen,"to cook, to boil (to heat a liquid), to boil something","cuire, faire bouillir (chauffer un liquide), faire bouillir quelque chose",koche,kochst,kocht,kochen,kocht,kochen
+60,12,waschen,to wash,laver,wasche,wäschst,wäscht,waschen,wascht,waschen
+61,13,zeichnen,"to draw, to sketch","dessiner, esquisser",zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen
+62,13,wohnen,"to live, to reside, to dwell","vivre, résider, habiter",wohne,wohnst,wohnt,wohnen,wohnt,wohnen
+63,13,schreiben,to write,écrire,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben
+64,13,tragen,"to wear (clothing), to carry, to hold","porter (des vêtements), transporter, tenir",trage,trägst,trägt,tragen,tragt,tragen
+65,13,interessieren,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)",interessiere,interessierst,interessiert,interessieren,interessiert,interessieren
+66,14,ziehen,"to pull, to drag, to move","tirer, traîner, déplacer",ziehe,ziehst,zieht,ziehen,zieht,ziehen
+67,14,lesen,to read,lire,lese,liest,liest,lesen,lest,lesen
+68,14,kosten,"to cost, to taste",coûter,koste,kostest,kostet,kosten,kostet,kosten
+69,14,wiederholen,to repeat,répéter,wiederhole,wiederholst,wiederholt,wiederholen,wiederholt,wiederholen
+70,14,übersetzen,to translate,traduire,übersetze,übersetzt,übersetzt,übersetzen,übersetzt,übersetzen
+71,15,buchstabieren,to spell,épeler,buchstabiere,buchstabierst,buchstabiert,buchstabieren,buchstabiert,buchstabieren
+72,15,bedeuten,"to mean, to signify","vouloir dire, signifier",bedeute,bedeutest,bedeutet,bedeuten,bedeutet,bedeuten
+73,15,funktionieren,"to function, to work",fonctionner,funktioniere,funktionierst,funktioniert,funktionieren,funktioniert,funktionieren
+74,15,erinnern,"to remind, to remember (refl.)","rappeler, se souvenir (réfl.)",erinnere,erinnerst,erinnert,erinnern,erinnert,erinnern
+75,15,fühlen,"to feel, to feel something (refl.)","sentir, ressentir quelque chose (réfl.)",fühle,fühlst,fühlt,fühlen,fühlt,fühlen
+76,16,regnen,to rain,pleuvoir,regne,regnest,regnet,regnen,regnet,regnen
+77,16,schneien,to snow,neiger,schneie,schneist,schneit,schneien,schneit,schneien
+78,16,führen,"to lead, to guide","guider, conduire",führe,führst,führt,führen,führt,führen
+79,16,passieren,"to happen (colloquial), to move beyond, to strain",se produire,passiere,passierst,passiert,passieren,passiert,passieren
+80,16,verlieren,to lose,perdre,verliere,verlierst,verliert,verlieren,verliert,verlieren
+81,17,holen,to fetch,aller chercher,hole,holst,holt,holen,holt,holen
+82,17,anrufen,"to call by telephone, to call on (someone)",appeler par téléphone,rufe an,rufst an,ruft an,rufen an,ruft an,rufen an
+83,17,aufhören,"to stop, to cease an activity or process","arrêter, cesser une activité ou un processus",höre auf,hörst auf,hört auf,hören auf,hört auf,hören auf
+84,17,anfangen,to begin something new,commencer quelque chose de nouveau,fange an,fängst an,fängt an,fangen an,fangt an,fangen an
+85,17,gewinnen,to win,gagner,gewinne,gewinnst,gewinnt,gewinnen,gewinnt,gewinnen
+86,18,öffnen,to open (formal),ouvrir (formel),öffne,öffnest,öffnet,öffnen,öffnet,öffnen
+87,18,bezahlen,"to pay, to pay someone (transitive)","payer, payer quelqu'un (transitif)",bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen
+88,18,beginnen,to begin (on a certain date or time),commencer (à une certaine date ou heure),beginne,beginnst,beginnt,beginnen,beginnt,beginnen
+89,18,benutzen,to use (transitive),utiliser (transitif),benutze,benutzt,benutzt,benutzen,benutzt,benutzen
+90,18,schicken,to send,envoyer,schicke,schickst,schickt,schicken,schickt,schicken
+91,19,lachen,to laugh,rire,lache,lachst,lacht,lachen,lacht,lachen
+92,19,scheinen,"to shine, to seem (formal)","briller, paraître (formel)",scheine,scheinst,scheint,scheinen,scheint,scheinen
+93,19,ändern,to change (one's personality or behavior),changer (sa personnalité ou son comportement),ändere,änderst,ändert,ändern,ändert,ändern
+94,19,verkaufen,to sell,vendre,verkaufe,verkaufst,verkauft,verkaufen,verkauft,verkaufen
+95,19,gehören,to belong to,appartenir à,gehöre,gehörst,gehört,gehören,gehört,gehören
+96,20,sitzen,"to be seated, to stay, to fit (of clothing)","être assis, rester",sitze,sitzt,sitzt,sitzen,sitzt,sitzen
+97,20,aufstehen,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)",stehe auf,stehst auf,steht auf,stehen auf,steht auf,stehen auf
+98,20,aufwachen,to wake up,se réveiller,wache auf,wachst auf,wacht auf,wachen auf,wacht auf,wachen auf
+99,20,bestimmen,to determine,déterminer,bestimme,bestimmst,bestimmt,bestimmen,bestimmt,bestimmen
+100,20,wehtun,"to hurt, to be painful","blesser, être douloureux",tue weh,tust weh,tut weh,tun weh,tut weh,tun weh
 101,21,stellen,"to position, to put, to catch","positionner, mettre",stelle,stellst,stellt,stellen,stellt,stellen
 102,21,setzen,"to set, to sit down (refl.)",s'asseoir (réfl.),setze,setzt,setzt,setzen,setzt,setzen
 103,21,liegen,"to lie, to be located","être allongé, être localisé",liege,liegst,liegt,liegen,liegt,liegen
@@ -113,89 +113,89 @@ Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
 112,23,wünschen,to wish,souhaiter,wünsche,wünschst,wünscht,wünschen,wünscht,wünschen
 113,23,passen,"to fit, to suit","s'adapter, convenir",passe,passt,passt,passen,passt,passen
 114,23,folgen,to follow,suivre,folge,folgst,folgt,folgen,folgt,folgen
-115,23,ansehen,"to look at something, to watch something","regarder quelque chose, observer quelque chose",sehe an,siehst an,sieht an,sehen an,seht an,sehen an
-116,24,aussehen,"to look like, to appear","paraître, ressembler, apparaître",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus
-117,24,probieren,"to try, to taste, to sample, to probe","essayer, goûter, échantillonner, sonder",probiere,probierst,probiert,probieren,probiert,probieren
-118,24,träumen,to dream,rêver,träume,träumst,träumt,träumen,träumt,träumen
-119,24,fernsehen,to watch TV,regarder la télévision,sehe fern,siehst fern,sieht fern,sehen fern,seht fern,sehen fern
-120,24,schwimmen,"to swim, to float","nager, flotter",schwimme,schwimmst,schwimmt,schwimmen,schwimmt,schwimmen
-121,25,reisen,to travel,voyager,reise,reist,reist,reisen,reist,reisen
-122,25,feiern,to celebrate,célébrer,feiere,feierst,feiert,feiern,feiert,feiern
-123,25,antworten,"to answer, to reply","répondre, répliquer",antworte,antwortest,antwortet,antworten,antwortet,antworten
-124,25,wählen,"to choose, to dial (a number), to vote","choisir, composer (un numéro), voter",wähle,wählst,wählt,wählen,wählt,wählen
-125,25,ausgehen,"to go out, to run out (e.g. of money)","sortir, être à court (par exemple d'argent)",gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus
-126,26,zählen,to count,compter,zähle,zählst,zählt,zählen,zählt,zählen
-127,26,ankommen,"to arrive, to depend on something","arriver, dépendre de quelque chose",komme an,kommst an,kommt an,kommen an,kommt an,kommen an
-128,26,dauern,"to last, to take (time)","durer, prendre (du temps)",dauere,dauerst,dauert,dauern,dauert,dauern
-129,26,kennenlernen,"to meet someone, to get to know someone","rencontrer quelqu'un, apprendre à connaître quelqu'un",lerne kennen,lernst kennen,lernt kennen,lernen kennen,lernt kennen,lernen kennen
-130,26,anmelden,"to register, to sign up",s'inscrire,melde an,meldest an,meldet an,melden an,meldet an,melden an
-131,27,lassen,"to let, to leave, to allow","laisser, quitter, permettre",lasse,lässt,lässt,lassen,lasst,lassen
-132,27,verlassen,"to leave, to trust with something (refl.), to pass away, to die","partir, confier quelque chose (réfl.), décéder, mourir",verlasse,verlässt,verlässt,verlassen,verlasst,verlassen
-133,27,helfen,to help,aider,helfe,hilfst,hilft,helfen,helft,helfen
-134,27,bewegen,to move,se déplacer,bewege,bewegst,bewegt,bewegen,bewegt,bewegen
-135,27,versprechen,"to promise, to hope for, to misspeak","promettre, espérer",verspreche,versprichst,verspricht,versprechen,versprecht,versprechen
-136,28,hängen,"to hang, to be fond of, depend on","accrocher, aimer, dépendre de",hänge,hängst,hängt,hängen,hängt,hängen
-137,28,mieten,"to rent, to hire","louer, embaucher",miete,mietest,mietet,mieten,mietet,mieten
-138,28,rauchen,to smoke (e.g. a cigarette),fumer (par exemple une cigarette),rauche,rauchst,raucht,rauchen,raucht,rauchen
-139,28,sterben,to die,mourir,sterbe,stirbst,stirbt,sterben,sterbt,sterben
-140,28,heiraten,to marry,se marier,heirate,heiratest,heiratet,heiraten,heiratet,heiraten
-141,29,kämpfen,"to fight, to struggle","se battre, lutter",kämpfe,kämpfst,kämpft,kämpfen,kämpft,kämpfen
-142,29,fehlen,"to lack, to be absent or missing","manquer, être absent ou manquant",fehle,fehlst,fehlt,fehlen,fehlt,fehlen
-143,29,sorgen,"to care, to worry","se soucier, s'inquiéter",sorge,sorgst,sorgt,sorgen,sorgt,sorgen
-144,29,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent","introduire, se présenter (réfl.), représenter",stelle vor,stellst vor,stellt vor,stellen vor,stellt vor,stellen vor
-145,29,stehlen,to steal,voler,stehle,stiehlst,stiehlt,stehlen,stehlt,stehlen
-146,30,stimmen,"to be true, to vote, to tune","être vrai, voter, s'accorder",stimme,stimmst,stimmt,stimmen,stimmt,stimmen
-147,30,entscheiden,to decide,décider,entscheide,entscheidest,entscheidet,entscheiden,entscheidet,entscheiden
-148,30,vermissen,to miss something or someone,se manquer quelque chose ou quelqu'un,vermisse,vermisst,vermisst,vermissen,vermisst,vermissen
-149,30,werfen,to throw,"jeter, lancer",werfe,wirfst,wirft,werfen,werft,werfen
-150,30,erkennen,"to recognize, to realise","reconnaître, réaliser",erkenne,erkennst,erkennt,erkennen,erkennt,erkennen
-151,31,teilen,"to split, to share, to divide","diviser, partager",teile,teilst,teilt,teilen,teilt,teilen
-152,31,bauen,to build,construire,baue,baust,baut,bauen,baut,bauen
-153,31,melden,"to report, to register","signaler, enregistrer",melde,meldest,meldet,melden,meldet,melden
-154,31,brechen,to break,"casser, briser",breche,brichst,bricht,brechen,brecht,brechen
-155,31,steigen,"to ascend, to climb, to rise","monter, grimper, s'élever",steige,steigst,steigt,steigen,steigt,steigen
-156,32,singen,to sing,chanter,singe,singst,singt,singen,singt,singen
-157,32,empfehlen,"to recommend, to suggest","recommander, suggérer",empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt,empfehlen
-158,32,verändern,"to alter, to change something","modifier, changer quelque chose",verändere,veränderst,verändert,verändern,verändert,verändern
-159,32,bitten,"to ask, to request","demander, requérir",bitte,bittest,bittet,bitten,bittet,bitten
-160,32,besitzen,"to own, to possess, to have","posséder, avoir",besitze,besitzt,besitzt,besitzen,besitzt,besitzen
-161,33,merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)",merke,merkst,merkt,merken,merkt,merken
-162,33,stören,"to disturb, to interfere","déranger, interférer",störe,störst,stört,stören,stört,stören
-163,33,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose","accepter, supposer (une hypothèse), recevoir",nehme an,nimmst an,nimmt an,nehmen an,nehmt an,nehmen an
-164,33,übernehmen,to take over,"prendre le relais, prendre le contrôle",übernehme,übernimmst,übernimmt,übernehmen,übernehmt,übernehmen
-165,33,stattfinden,"to take place, to occur","avoir lieu, se produire",finde statt,findest statt,findet statt,finden statt,findet statt,finden statt
-166,34,fangen,to catch,attraper,fange,fängst,fängt,fangen,fangt,fangen
-167,34,enthalten,"to contain, to include","contenir, inclure",enthalte,enthältst,enthält,enthalten,enthaltet,enthalten
-168,34,dienen,"to serve, to function","servir, fonctionner",diene,dienst,dient,dienen,dient,dienen
-169,34,verschwinden,"to disappear, to get lost","disparaître, se perdre",verschwinde,verschwindest,verschwindet,verschwinden,verschwindet,verschwinden
-170,34,schützen,"to defend (lawyer), to protect (sunprotection)","défendre (avocat), protéger (protection solaire)",schütze,schützt,schützt,schützen,schützt,schützen
-171,35,nennen,"to name, to call someone something, to mention","nommer, appeler quelqu'un par quelque chose, mentionner",nenne,nennst,nennt,nennen,nennt,nennen
-172,35,schätzen,"to appreciate, to evaluate, to guess","apprécier, évaluer",schätze,schätzt,schätzt,schätzen,schätzt,schätzen
-173,35,erwarten,"to expect, to await",s'attendre à,erwarte,erwartest,erwartet,erwarten,erwartet,erwarten
-174,35,drehen,"to turn, to veer","tourner, dévier",drehe,drehst,dreht,drehen,dreht,drehen
-175,35,behalten,to keep,garder,behalte,behältst,behält,behalten,behaltet,behalten
-176,36,verpassen,"to miss (to be late for something, e.g. a train)","manquer (être en retard pour quelque chose, par exemple un train)",verpasse,verpasst,verpasst,verpassen,verpasst,verpassen
-177,36,schenken,"to gift, to give as a present","offrir, faire un cadeau",schenke,schenkst,schenkt,schenken,schenkt,schenken
-178,36,wachsen,"to grow, to increase","grandir, augmenter",wachse,wächst,wächst,wachsen,wachst,wachsen
-179,36,springen,"to spring, to jump","sauter, bondir",springe,springst,springt,springen,springt,springen
-180,36,befinden,"to be located (refl.), to find, to consider (formal)","être localisé (réfl.), trouver, considérer (formel)",befinde,befindest,befindet,befinden,befindet,befinden
-181,37,fallen,"to fall, to fall in battle, to collapse","tomber, tomber au combat, s'effondrer",falle,fällst,fällt,fallen,fallt,fallen
-182,37,kümmern,"to take care (refl.), to trouble, to concern","prendre soin (réfl.), être troublé par, se préoccuper",kümmere,kümmerst,kümmert,kümmern,kümmert,kümmern
-183,37,drücken,"to press, to push","appuyer, pousser",drücke,drückst,drückt,drücken,drückt,drücken
-184,37,vergleichen,to compare,comparer,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen
-185,37,putzen,"to clean, to rub","nettoyer, frotter",putze,putzt,putzt,putzen,putzt,putzen
-186,38,einkaufen,to shop,"faire les courses, faire du shopping",kaufe ein,kaufst ein,kauft ein,kaufen ein,kauft ein,kaufen ein
-187,38,veröffentlichen,"to publish, to release","publier, diffuser",veröffentliche,veröffentlichst,veröffentlicht,veröffentlichen,veröffentlicht,veröffentlichen
-188,38,testen,"to test, to examine","tester, examiner",teste,testest,testet,testen,testet,testen
-189,38,lösen,"to loosen, to solve, to separate, to remove","desserrer, résoudre, séparer, enlever",löse,löst,löst,lösen,löst,lösen
-190,38,kontrollieren,"to control, to check","contrôler, vérifier",kontrolliere,kontrollierst,kontrolliert,kontrollieren,kontrolliert,kontrollieren
-191,39,unterstützen,"to support, to provide help","soutenir, apporter de l'aide",unterstütze,unterstützt,unterstützt,unterstützen,unterstützt,unterstützen
-192,39,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to","pratiquer (sport), propulser, mettre en avant, pousser (au sens figuré), baiser, flotter, germer, se lever",treibe,treibst,treibt,treiben,treibt,treiben
-193,39,tanzen,to dance,danser,tanze,tanzt,tanzt,tanzen,tanzt,tanzen
-194,39,studieren,"to study, to major in (a subject)","étudier, se spécialiser dans (une matière)",studiere,studierst,studiert,studieren,studiert,studieren
-195,39,sinken,"to sink, to decrease, to drop","couler, diminuer, laisser tomber",sinke,sinkst,sinkt,sinken,sinkt,sinken
-196,40,klingen,"to sound, to ring, to seem","sonner, sonner, sembler",klinge,klingst,klingt,klingen,klingt,klingen
-197,40,schmecken,"to taste, to be tasty",être savoureux,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken
-198,40,mitteilen,"to inform, to notify, to communicate","informer, notifier, communiquer",teile mit,teilst mit,teilt mit,teilen mit,teilt mit,teilen mit
-199,40,streiten,"to argue, to fight, to quarrel","se disputer, se battre, se quereller",streite,streitest,streitet,streiten,streitet,streiten
-200,40,entwickeln,"to develop, to evolve, to create","développer, évoluer, créer",entwickle,entwickelst,entwickelt,entwickeln,entwickelt,entwickeln
+115,23,aussehen,"to look like, to appear","paraître, ressembler, apparaître",sehe aus,siehst aus,sieht aus,sehen aus,seht aus,sehen aus
+116,24,träumen,to dream,rêver,träume,träumst,träumt,träumen,träumt,träumen
+117,24,fernsehen,to watch TV,regarder la télévision,sehe fern,siehst fern,sieht fern,sehen fern,seht fern,sehen fern
+118,24,schwimmen,"to swim, to float","nager, flotter",schwimme,schwimmst,schwimmt,schwimmen,schwimmt,schwimmen
+119,24,reisen,to travel,voyager,reise,reist,reist,reisen,reist,reisen
+120,24,feiern,to celebrate,célébrer,feiere,feierst,feiert,feiern,feiert,feiern
+121,25,antworten,"to answer, to reply","répondre, répliquer",antworte,antwortest,antwortet,antworten,antwortet,antworten
+122,25,wählen,"to choose, to dial (a number), to vote","choisir, composer (un numéro), voter",wähle,wählst,wählt,wählen,wählt,wählen
+123,25,ausgehen,"to go out, to run out (e.g. of money)","sortir, être à court (par exemple d'argent)",gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus
+124,25,zählen,to count,compter,zähle,zählst,zählt,zählen,zählt,zählen
+125,25,ankommen,"to arrive, to depend on something","arriver, dépendre de quelque chose",komme an,kommst an,kommt an,kommen an,kommt an,kommen an
+126,26,dauern,"to last, to take (time)","durer, prendre (du temps)",dauere,dauerst,dauert,dauern,dauert,dauern
+127,26,anmelden,"to register, to sign up",s'inscrire,melde an,meldest an,meldet an,melden an,meldet an,melden an
+128,26,lassen,"to let, to leave, to allow","laisser, quitter, permettre",lasse,lässt,lässt,lassen,lasst,lassen
+129,26,verlassen,"to leave, to trust with something (refl.), to pass away, to die","partir, confier quelque chose (réfl.), décéder, mourir",verlasse,verlässt,verlässt,verlassen,verlasst,verlassen
+130,26,helfen,to help,aider,helfe,hilfst,hilft,helfen,helft,helfen
+131,27,bewegen,to move,se déplacer,bewege,bewegst,bewegt,bewegen,bewegt,bewegen
+132,27,versprechen,"to promise, to hope for, to misspeak","promettre, espérer",verspreche,versprichst,verspricht,versprechen,versprecht,versprechen
+133,27,hängen,"to hang, to be fond of, depend on","accrocher, aimer, dépendre de",hänge,hängst,hängt,hängen,hängt,hängen
+134,27,mieten,"to rent, to hire","louer, embaucher",miete,mietest,mietet,mieten,mietet,mieten
+135,27,rauchen,to smoke (e.g. a cigarette),fumer (par exemple une cigarette),rauche,rauchst,raucht,rauchen,raucht,rauchen
+136,28,sterben,to die,mourir,sterbe,stirbst,stirbt,sterben,sterbt,sterben
+137,28,heiraten,to marry,se marier,heirate,heiratest,heiratet,heiraten,heiratet,heiraten
+138,28,kämpfen,"to fight, to struggle","se battre, lutter",kämpfe,kämpfst,kämpft,kämpfen,kämpft,kämpfen
+139,28,fehlen,"to lack, to be absent or missing","manquer, être absent ou manquant",fehle,fehlst,fehlt,fehlen,fehlt,fehlen
+140,28,sorgen,"to care, to worry","se soucier, s'inquiéter",sorge,sorgst,sorgt,sorgen,sorgt,sorgen
+141,29,vorstellen,"to introduce, to present oneself (refl.), to move forward, to represent","introduire, se présenter (réfl.), représenter",stelle vor,stellst vor,stellt vor,stellen vor,stellt vor,stellen vor
+142,29,stimmen,"to be true, to vote, to tune","être vrai, voter, s'accorder",stimme,stimmst,stimmt,stimmen,stimmt,stimmen
+143,29,entscheiden,to decide,décider,entscheide,entscheidest,entscheidet,entscheiden,entscheidet,entscheiden
+144,29,vermissen,to miss something or someone,se manquer quelque chose ou quelqu'un,vermisse,vermisst,vermisst,vermissen,vermisst,vermissen
+145,29,werfen,to throw,"jeter, lancer",werfe,wirfst,wirft,werfen,werft,werfen
+146,30,erkennen,"to recognize, to realise","reconnaître, réaliser",erkenne,erkennst,erkennt,erkennen,erkennt,erkennen
+147,30,teilen,"to split, to share, to divide","diviser, partager",teile,teilst,teilt,teilen,teilt,teilen
+148,30,bauen,to build,construire,baue,baust,baut,bauen,baut,bauen
+149,30,melden,"to report, to register","signaler, enregistrer",melde,meldest,meldet,melden,meldet,melden
+150,30,brechen,to break,"casser, briser",breche,brichst,bricht,brechen,brecht,brechen
+151,31,steigen,"to ascend, to climb, to rise","monter, grimper, s'élever",steige,steigst,steigt,steigen,steigt,steigen
+152,31,singen,to sing,chanter,singe,singst,singt,singen,singt,singen
+153,31,empfehlen,"to recommend, to suggest","recommander, suggérer",empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt,empfehlen
+154,31,verändern,"to alter, to change something","modifier, changer quelque chose",verändere,veränderst,verändert,verändern,verändert,verändern
+155,31,bitten,"to ask, to request","demander, requérir",bitte,bittest,bittet,bitten,bittet,bitten
+156,32,besitzen,"to own, to possess, to have","posséder, avoir",besitze,besitzt,besitzt,besitzen,besitzt,besitzen
+157,32,merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)",merke,merkst,merkt,merken,merkt,merken
+158,32,stören,"to disturb, to interfere","déranger, interférer",störe,störst,stört,stören,stört,stören
+159,32,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose","accepter, supposer (une hypothèse), recevoir",nehme an,nimmst an,nimmt an,nehmen an,nehmt an,nehmen an
+160,32,übernehmen,to take over,"prendre le relais, prendre le contrôle",übernehme,übernimmst,übernimmt,übernehmen,übernehmt,übernehmen
+161,33,stattfinden,"to take place, to occur","avoir lieu, se produire",finde statt,findest statt,findet statt,finden statt,findet statt,finden statt
+162,33,fangen,to catch,attraper,fange,fängst,fängt,fangen,fangt,fangen
+163,33,enthalten,"to contain, to include","contenir, inclure",enthalte,enthältst,enthält,enthalten,enthaltet,enthalten
+164,33,dienen,"to serve, to function","servir, fonctionner",diene,dienst,dient,dienen,dient,dienen
+165,33,verschwinden,"to disappear, to get lost","disparaître, se perdre",verschwinde,verschwindest,verschwindet,verschwinden,verschwindet,verschwinden
+166,34,schützen,"to defend (lawyer), to protect (sunprotection)","défendre (avocat), protéger (protection solaire)",schütze,schützt,schützt,schützen,schützt,schützen
+167,34,nennen,"to name, to call someone something, to mention","nommer, appeler quelqu'un par quelque chose, mentionner",nenne,nennst,nennt,nennen,nennt,nennen
+168,34,schätzen,"to appreciate, to evaluate, to guess","apprécier, évaluer",schätze,schätzt,schätzt,schätzen,schätzt,schätzen
+169,34,erwarten,"to expect, to await",s'attendre à,erwarte,erwartest,erwartet,erwarten,erwartet,erwarten
+170,34,drehen,"to turn, to veer","tourner, dévier",drehe,drehst,dreht,drehen,dreht,drehen
+171,35,behalten,to keep,garder,behalte,behältst,behält,behalten,behaltet,behalten
+172,35,verpassen,"to miss (to be late for something, e.g. a train)","manquer (être en retard pour quelque chose, par exemple un train)",verpasse,verpasst,verpasst,verpassen,verpasst,verpassen
+173,35,schenken,"to gift, to give as a present","offrir, faire un cadeau",schenke,schenkst,schenkt,schenken,schenkt,schenken
+174,35,wachsen,"to grow, to increase","grandir, augmenter",wachse,wächst,wächst,wachsen,wachst,wachsen
+175,35,springen,"to spring, to jump","sauter, bondir",springe,springst,springt,springen,springt,springen
+176,36,befinden,"to be located (refl.), to find, to consider (formal)","être localisé (réfl.), trouver, considérer (formel)",befinde,befindest,befindet,befinden,befindet,befinden
+177,36,fallen,"to fall, to fall in battle, to collapse","tomber, tomber au combat, s'effondrer",falle,fällst,fällt,fallen,fallt,fallen
+178,36,kümmern,"to take care (refl.), to trouble, to concern","prendre soin (réfl.), être troublé par, se préoccuper",kümmere,kümmerst,kümmert,kümmern,kümmert,kümmern
+179,36,drücken,"to press, to push","appuyer, pousser",drücke,drückst,drückt,drücken,drückt,drücken
+180,36,vergleichen,to compare,comparer,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen
+181,37,putzen,"to clean, to rub","nettoyer, frotter",putze,putzt,putzt,putzen,putzt,putzen
+182,37,einkaufen,to shop,"faire les courses, faire du shopping",kaufe ein,kaufst ein,kauft ein,kaufen ein,kauft ein,kaufen ein
+183,37,veröffentlichen,"to publish, to release","publier, diffuser",veröffentliche,veröffentlichst,veröffentlicht,veröffentlichen,veröffentlicht,veröffentlichen
+184,37,lösen,"to loosen, to solve, to separate, to remove","desserrer, résoudre, séparer, enlever",löse,löst,löst,lösen,löst,lösen
+185,37,unterstützen,"to support, to provide help","soutenir, apporter de l'aide",unterstütze,unterstützt,unterstützt,unterstützen,unterstützt,unterstützen
+186,38,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to","pratiquer (sport), propulser, mettre en avant, pousser (au sens figuré), baiser, flotter, germer, se lever",treibe,treibst,treibt,treiben,treibt,treiben
+187,38,tanzen,to dance,danser,tanze,tanzt,tanzt,tanzen,tanzt,tanzen
+188,38,studieren,"to study, to major in (a subject)","étudier, se spécialiser dans (une matière)",studiere,studierst,studiert,studieren,studiert,studieren
+189,38,schmecken,"to taste, to be tasty",être savoureux,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken
+190,38,mitteilen,"to inform, to notify, to communicate","informer, notifier, communiquer",teile mit,teilst mit,teilt mit,teilen mit,teilt mit,teilen mit
+191,39,streiten,"to argue, to fight, to quarrel","se disputer, se battre, se quereller",streite,streitest,streitet,streiten,streitet,streiten
+192,39,entwickeln,"to develop, to evolve, to create","développer, évoluer, créer",entwickle,entwickelst,entwickelt,entwickeln,entwickelt,entwickeln
+193,39,beenden,"to finish, to end, to complete","finir, terminer, achever",beende,beendest,beendet,beenden,beendet,beenden
+194,39,wechseln,"to change, to switch, to exchange","changer, échanger",wechsle,wechselst,wechselt,wechseln,wechselt,wechseln
+195,39,erhalten,"to receive, to get, to obtain, to preserve","recevoir, obtenir, acquérir, préserver",erhalte,erhältst,erhält,erhalten,erhaltet,erhalten
+196,40,erlauben,"to allow, to permit","permettre, donner l'autorisation",erlaube,erlaubst,erlaubt,erlauben,erlaubt,erlauben
+197,40,darstellen,"to depict, to portray, to represent, to illustrate","dépeindre, représenter, illustrer",stelle,stellst,stellt,stellen,stellt,stellen
+198,40,verdienen,"to earn, to deserve","gagner, mériter",verdiene,verdienst,verdient,verdienen,verdient,verdienen
+199,40,rufen,"to call, to shout, to summon","appeler, crier, convoquer",rufe,rufst,ruft,rufen,ruft,rufen
+200,40,fliegen,"to fly, to travel by plane","voler, voyager en avion",fliege,fliegst,fliegt,fliegen,fliegt,fliegen

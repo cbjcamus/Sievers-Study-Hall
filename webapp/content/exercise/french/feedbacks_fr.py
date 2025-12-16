@@ -1,10 +1,11 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
-    artikel, artikel_genus, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    artikel_genus, genus_routledge,
 )
 
 FEEDBACK_FR = {
@@ -108,23 +109,23 @@ FEEDBACK_FR = {
     },
 
     praepositionen_verben: {
-        1: "{french} = {german} + {case_french}",
+        1: "{explanation_french}",
         2: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{french} = {german} + {case_french}",
+        3: "{explanation_french}",
         4: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        5: "{french} = {german} + {case_french}",
+        5: "{explanation_french}",
         6: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        7: "{french} = {german} + {case_french}",
+        7: "{explanation_french}",
         8: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
@@ -137,85 +138,85 @@ FEEDBACK_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        11: "{french} = {german} + {case_french}",
+        11: "{explanation_french}",
         12: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{french} = {german} + {case_french}",
+        13: "{explanation_french}",
         14: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{french} = {german} + {case_french}",
+        15: "{explanation_french}",
         16: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        17: "{french} = {german} + {case_french}",
+        17: "{explanation_french}",
         18: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        19: "{french} = {german} + {case_french}",
+        19: "{explanation_french}",
         20: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        21: "{french} = {german} + {case_french}",
+        21: "{explanation_french}",
         22: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        23: "{french} = {german} + {case_french}",
+        23: "{explanation_french}",
         24: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        25: "{french} = {german} + {case_french}",
+        25: "{explanation_french}",
         26: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        27: "{french} = {german} + {case_french}",
+        27: "{explanation_french}",
         28: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        29: "{french} = {german} + {case_french}",
+        29: "{explanation_french}",
         30: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        31: "{french} = {german} + {case_french}",
+        31: "{explanation_french}",
         32: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        33: "{french} = {german} + {case_french}",
+        33: "{explanation_french}",
         34: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        35: "{french} = {german} + {case_french}",
+
+        35: "{explanation_french}",
         36: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-
-        37: "{french} = {german} + {case_french}",
+        37: "{explanation_french}",
         38: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        39: "{french} = {german} + {case_french}",
+        39: "{explanation_french}",
         40: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        41: "{french} = {german} + {case_french}",
+        41: "{explanation_french}",
         42: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -223,114 +224,119 @@ FEEDBACK_FR = {
     },
 
     praepositionen_adjektive: {
-        1: "{french} = {german} + {case_french}",
+        1: "{explanation_french}",
         2: "{german}"
             "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{french} = {german} + {case_french}",
+        3: "{explanation_french}",
         4: "{german}"
             "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        5: "{french} = {german} + {case_french}",
+        5: "{explanation_french}",
         6: "{german}"
             "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        7: "{french} = {german} + {case_french}",
+        7: "{explanation_french}",
         8: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        9: "{french} = {german} + {case_french}",
+        9: "{explanation_french}",
         10: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        11: "{french} = {german} + {case_french}",
+        11: "{explanation_french}",
         12: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{french} = {german} + {case_french}",
+        13: "{explanation_french}",
         14: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{french} = {german} + {case_french}",
+        15: "{explanation_french}",
         16: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        17: "{explanation_french}",
+        18: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
     praepositionen_nomen: {
-        1: "{french} = {german} + {case_french}",
+        1: "{explanation_french}",
         2: "{german}"
-            "<br><br><i>{french}</i>"
+           "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{french} = {german} + {case_french}",
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        3: "{explanation_french}",
         4: "{german}"
-            "<br><br><i>{french}</i>"
+           "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        5: "{french} = {german} + {case_french}",
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        5: "{explanation_french}",
         6: "{german}"
-            "<br><br><i>{french}</i>"
+           "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        7: "{french} = {german} + {case_french}",
+        7: "{explanation_french}",
         8: "{german}"
-            "<br><br><i>{french}</i>"
+           "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        9: "{french} = {german} + {case_french}",
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        9: "{explanation_french}",
         10: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        11: "{french} = {german} + {case_french}",
+        11: "{explanation_french}",
         12: "{german}"
-           "<br><br><i>{french}</i>"
+            "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{french} = {german} + {case_french}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        13: "{explanation_french}",
         14: "{german}"
-           "<br><br><i>{french}</i>"
+            "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{french} = {german} + {case_french}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        15: "{explanation_french}",
         16: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        17: "{french} = {german} + {case_french}",
+        17: "{explanation_french}",
         18: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        19: "{french} = {german} + {case_french}",
+        19: "{explanation_french}",
         20: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        21: "{french} = {german} + {case_french}",
+        21: "{explanation_french}",
         22: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        23: "{french} = {german} + {case_french}",
+        23: "{explanation_french}",
         24: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        25: "{french} = {german} + {case_french}",
+        25: "{explanation_french}",
         26: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -368,7 +374,10 @@ FEEDBACK_FR = {
     },
 
     praepositionen_adverbien: {
-        1: "Something"
+        1: "Something",
+        2: "Something",
+        3: "Something",
+        4: "Something",
     },
 
     artikel: {
@@ -485,185 +494,6 @@ FEEDBACK_FR = {
         45: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{person}, {gender_french}, {case_french} → {correct_answers}",
-    },
-
-    artikel_genus: {
-        1: "{german}"
-            "<br><br><i>{french}</i>",
-        2: "{german}"
-           "<br><br><i>{french}</i>",
-        3: "{german}"
-           "<br><br><i>{french}</i>",
-        4: "{german}"
-           "<br><br><i>{french}</i>",
-        5: "{german}"
-           "<br><br><i>{french}</i>",
-        6: "{german}"
-           "<br><br><i>{french}</i>",
-        7: "{german}"
-           "<br><br><i>{french}</i>",
-        8: "{german}"
-           "<br><br><i>{french}</i>",
-        9: "{german}"
-           "<br><br><i>{french}</i>",
-        10: "{german}"
-           "<br><br><i>{french}</i>",
-        11: "{german}"
-           "<br><br><i>{french}</i>",
-        12: "{german}"
-           "<br><br><i>{french}</i>",
-        13: "{german}"
-           "<br><br><i>{french}</i>",
-        14: "{german}"
-           "<br><br><i>{french}</i>",
-        15: "{german}"
-           "<br><br><i>{french}</i>",
-        16: "{german}"
-           "<br><br><i>{french}</i>",
-        17: "{german}"
-           "<br><br><i>{french}</i>",
-        18: "{german}"
-           "<br><br><i>{french}</i>",
-        19: "{german}"
-           "<br><br><i>{french}</i>",
-        20: "{german}"
-            "<br><br><i>{french}</i>",
-
-        21: "{german}"
-            "<br><br><i>{french}</i>",
-        22: "{german}"
-            "<br><br><i>{french}</i>",
-        23: "{german}"
-            "<br><br><i>{french}</i>",
-        24: "{german}"
-            "<br><br><i>{french}</i>",
-        25: "{german}"
-            "<br><br><i>{french}</i>",
-        26: "{german}"
-            "<br><br><i>{french}</i>",
-        27: "{german}"
-            "<br><br><i>{french}</i>",
-        28: "{german}"
-            "<br><br><i>{french}</i>",
-        29: "{german}"
-            "<br><br><i>{french}</i>",
-        30: "{german}"
-            "<br><br><i>{french}</i>",
-        31: "{german}"
-            "<br><br><i>{french}</i>",
-        32: "{german}"
-            "<br><br><i>{french}</i>",
-        33: "{german}"
-            "<br><br><i>{french}</i>",
-        34: "{german}"
-            "<br><br><i>{french}</i>",
-        35: "{german}"
-            "<br><br><i>{french}</i>",
-
-        36: "{german}"
-            "<br><br><i>{french}</i>",
-        37: "{german}"
-            "<br><br><i>{french}</i>",
-        38: "{german}"
-            "<br><br><i>{french}</i>",
-        39: "{german}"
-            "<br><br><i>{french}</i>",
-        40: "{german}"
-            "<br><br><i>{french}</i>",
-        41: "{german}"
-            "<br><br><i>{french}</i>",
-        42: "{german}"
-            "<br><br><i>{french}</i>",
-        43: "{german}"
-            "<br><br><i>{french}</i>",
-        44: "{german}"
-            "<br><br><i>{french}</i>",
-        45: "{german}"
-            "<br><br><i>{french}</i>",
-        46: "{german}"
-            "<br><br><i>{french}</i>",
-        47: "{german}"
-            "<br><br><i>{french}</i>",
-        48: "{german}"
-            "<br><br><i>{french}</i>",
-        49: "{german}"
-            "<br><br><i>{french}</i>",
-        50: "{german}"
-            "<br><br><i>{french}</i>",
-        51: "{german}"
-            "<br><br><i>{french}</i>",
-        52: "{german}"
-            "<br><br><i>{french}</i>",
-        53: "{german}"
-            "<br><br><i>{french}</i>",
-        54: "{german}"
-            "<br><br><i>{french}</i>",
-        55: "{german}"
-            "<br><br><i>{french}</i>",
-        56: "{german}"
-            "<br><br><i>{french}</i>",
-        57: "{german}"
-            "<br><br><i>{french}</i>",
-        58: "{german}"
-            "<br><br><i>{french}</i>",
-        59: "{german}"
-            "<br><br><i>{french}</i>",
-        60: "{german}"
-            "<br><br><i>{french}</i>",
-        61: "{german}"
-            "<br><br><i>{french}</i>",
-        62: "{german}"
-            "<br><br><i>{french}</i>",
-        63: "{german}"
-            "<br><br><i>{french}</i>",
-        64: "{german}"
-            "<br><br><i>{french}</i>",
-        65: "{german}"
-            "<br><br><i>{french}</i>",
-        66: "{german}"
-            "<br><br><i>{french}</i>",
-        67: "{german}"
-            "<br><br><i>{french}</i>",
-        68: "{german}"
-            "<br><br><i>{french}</i>",
-        69: "{german}"
-            "<br><br><i>{french}</i>",
-        70: "{german}"
-            "<br><br><i>{french}</i>",
-        71: "{german}"
-            "<br><br><i>{french}</i>",
-        72: "{german}"
-            "<br><br><i>{french}</i>",
-        73: "{german}"
-            "<br><br><i>{french}</i>",
-        74: "{german}"
-            "<br><br><i>{french}</i>",
-        75: "{german}"
-            "<br><br><i>{french}</i>",
-        76: "{german}"
-            "<br><br><i>{french}</i>",
-        77: "{german}"
-            "<br><br><i>{french}</i>",
-        78: "{german}"
-            "<br><br><i>{french}</i>",
-        79: "{german}"
-            "<br><br><i>{french}</i>",
-        80: "{german}"
-            "<br><br><i>{french}</i>",
-        81: "{german}"
-            "<br><br><i>{french}</i>",
-        82: "{german}"
-            "<br><br><i>{french}</i>",
-        83: "{german}"
-            "<br><br><i>{french}</i>",
-        84: "{german}"
-            "<br><br><i>{french}</i>",
-        85: "{german}"
-            "<br><br><i>{french}</i>",
-        86: "{german}"
-            "<br><br><i>{french}</i>",
-        87: "{german}"
-            "<br><br><i>{french}</i>",
     },
 
     pronomen: {
@@ -816,30 +646,36 @@ FEEDBACK_FR = {
         1: "{french} = {correct_answers}",
         2: "{german}"
            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         3: "{french} = {correct_answers}",
         4: "{german}"
            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         5: "{french} = {correct_answers}",
         6: "{german}"
            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         7: "{french} = {correct_answers}",
         8: "{german}"
            "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         9: "{french} = {correct_answers}",
         10: "{german}"
-           "<br><br><i>{french}</i>"
-           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         11: "{french} = {correct_answers}",
         12: "{german}"
             "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
@@ -1235,6 +1071,71 @@ FEEDBACK_FR = {
         29: "{root_french} → {root_german}"
             "<br><br>{french} → {correct_answers}",
         30: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+
+        31: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        32: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        33: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        34: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        35: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        36: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        37: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        38: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        39: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        40: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        41: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        42: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        43: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        44: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        45: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        46: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        47: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        48: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        49: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        50: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        51: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        52: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        53: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        54: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        55: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        56: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        57: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        58: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        59: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        60: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        61: "{root_french} → {root_german}"
+            "<br><br>{french} → {correct_answers}",
+        62: "{root_french} → {root_german}"
             "<br><br>{french} → {correct_answers}",
     },
 
@@ -1843,5 +1744,367 @@ FEEDBACK_FR = {
         5: "Partizip I {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {french}",
     },
+
+    artikel_genus: {
+        1: "{german}"
+           "<br><br><i>{french}</i>",
+        2: "{german}"
+           "<br><br><i>{french}</i>",
+        3: "{german}"
+           "<br><br><i>{french}</i>",
+        4: "{german}"
+           "<br><br><i>{french}</i>",
+        5: "{german}"
+           "<br><br><i>{french}</i>",
+        6: "{german}"
+           "<br><br><i>{french}</i>",
+        7: "{german}"
+           "<br><br><i>{french}</i>",
+        8: "{german}"
+           "<br><br><i>{french}</i>",
+        9: "{german}"
+           "<br><br><i>{french}</i>",
+        10: "{german}"
+            "<br><br><i>{french}</i>",
+        11: "{german}"
+            "<br><br><i>{french}</i>",
+        12: "{german}"
+            "<br><br><i>{french}</i>",
+        13: "{german}"
+            "<br><br><i>{french}</i>",
+        14: "{german}"
+            "<br><br><i>{french}</i>",
+        15: "{german}"
+            "<br><br><i>{french}</i>",
+        16: "{german}"
+            "<br><br><i>{french}</i>",
+        17: "{german}"
+            "<br><br><i>{french}</i>",
+        18: "{german}"
+            "<br><br><i>{french}</i>",
+        19: "{german}"
+            "<br><br><i>{french}</i>",
+        20: "{german}"
+            "<br><br><i>{french}</i>",
+
+        21: "{german}"
+            "<br><br><i>{french}</i>",
+        22: "{german}"
+            "<br><br><i>{french}</i>",
+        23: "{german}"
+            "<br><br><i>{french}</i>",
+        24: "{german}"
+            "<br><br><i>{french}</i>",
+        25: "{german}"
+            "<br><br><i>{french}</i>",
+        26: "{german}"
+            "<br><br><i>{french}</i>",
+        27: "{german}"
+            "<br><br><i>{french}</i>",
+        28: "{german}"
+            "<br><br><i>{french}</i>",
+        29: "{german}"
+            "<br><br><i>{french}</i>",
+        30: "{german}"
+            "<br><br><i>{french}</i>",
+        31: "{german}"
+            "<br><br><i>{french}</i>",
+        32: "{german}"
+            "<br><br><i>{french}</i>",
+        33: "{german}"
+            "<br><br><i>{french}</i>",
+        34: "{german}"
+            "<br><br><i>{french}</i>",
+        35: "{german}"
+            "<br><br><i>{french}</i>",
+
+        36: "{german}"
+            "<br><br><i>{french}</i>",
+        37: "{german}"
+            "<br><br><i>{french}</i>",
+        38: "{german}"
+            "<br><br><i>{french}</i>",
+        39: "{german}"
+            "<br><br><i>{french}</i>",
+        40: "{german}"
+            "<br><br><i>{french}</i>",
+        41: "{german}"
+            "<br><br><i>{french}</i>",
+        42: "{german}"
+            "<br><br><i>{french}</i>",
+        43: "{german}"
+            "<br><br><i>{french}</i>",
+        44: "{german}"
+            "<br><br><i>{french}</i>",
+        45: "{german}"
+            "<br><br><i>{french}</i>",
+        46: "{german}"
+            "<br><br><i>{french}</i>",
+        47: "{german}"
+            "<br><br><i>{french}</i>",
+        48: "{german}"
+            "<br><br><i>{french}</i>",
+        49: "{german}"
+            "<br><br><i>{french}</i>",
+        50: "{german}"
+            "<br><br><i>{french}</i>",
+        51: "{german}"
+            "<br><br><i>{french}</i>",
+        52: "{german}"
+            "<br><br><i>{french}</i>",
+        53: "{german}"
+            "<br><br><i>{french}</i>",
+        54: "{german}"
+            "<br><br><i>{french}</i>",
+        55: "{german}"
+            "<br><br><i>{french}</i>",
+        56: "{german}"
+            "<br><br><i>{french}</i>",
+        57: "{german}"
+            "<br><br><i>{french}</i>",
+        58: "{german}"
+            "<br><br><i>{french}</i>",
+        59: "{german}"
+            "<br><br><i>{french}</i>",
+        60: "{german}"
+            "<br><br><i>{french}</i>",
+        61: "{german}"
+            "<br><br><i>{french}</i>",
+        62: "{german}"
+            "<br><br><i>{french}</i>",
+        63: "{german}"
+            "<br><br><i>{french}</i>",
+        64: "{german}"
+            "<br><br><i>{french}</i>",
+        65: "{german}"
+            "<br><br><i>{french}</i>",
+        66: "{german}"
+            "<br><br><i>{french}</i>",
+        67: "{german}"
+            "<br><br><i>{french}</i>",
+        68: "{german}"
+            "<br><br><i>{french}</i>",
+        69: "{german}"
+            "<br><br><i>{french}</i>",
+        70: "{german}"
+            "<br><br><i>{french}</i>",
+        71: "{german}"
+            "<br><br><i>{french}</i>",
+        72: "{german}"
+            "<br><br><i>{french}</i>",
+        73: "{german}"
+            "<br><br><i>{french}</i>",
+        74: "{german}"
+            "<br><br><i>{french}</i>",
+        75: "{german}"
+            "<br><br><i>{french}</i>",
+        76: "{german}"
+            "<br><br><i>{french}</i>",
+        77: "{german}"
+            "<br><br><i>{french}</i>",
+        78: "{german}"
+            "<br><br><i>{french}</i>",
+        79: "{german}"
+            "<br><br><i>{french}</i>",
+        80: "{german}"
+            "<br><br><i>{french}</i>",
+        81: "{german}"
+            "<br><br><i>{french}</i>",
+        82: "{german}"
+            "<br><br><i>{french}</i>",
+        83: "{german}"
+            "<br><br><i>{french}</i>",
+        84: "{german}"
+            "<br><br><i>{french}</i>",
+        85: "{german}"
+            "<br><br><i>{french}</i>",
+        86: "{german}"
+            "<br><br><i>{french}</i>",
+        87: "{german}"
+            "<br><br><i>{french}</i>",
+    },
+
+    genus_routledge: {
+        1: "{german}"
+           "<br><br><i>{french}</i>",
+        2: "{german}"
+           "<br><br><i>{french}</i>",
+        3: "{german}"
+           "<br><br><i>{french}</i>",
+        4: "{german}"
+           "<br><br><i>{french}</i>",
+        5: "{german}"
+           "<br><br><i>{french}</i>",
+        6: "{german}"
+           "<br><br><i>{french}</i>",
+        7: "{german}"
+           "<br><br><i>{french}</i>",
+        8: "{german}"
+           "<br><br><i>{french}</i>",
+        9: "{german}"
+           "<br><br><i>{french}</i>",
+        10: "{german}"
+            "<br><br><i>{french}</i>",
+        11: "{german}"
+            "<br><br><i>{french}</i>",
+        12: "{german}"
+            "<br><br><i>{french}</i>",
+        13: "{german}"
+            "<br><br><i>{french}</i>",
+        14: "{german}"
+            "<br><br><i>{french}</i>",
+        15: "{german}"
+            "<br><br><i>{french}</i>",
+        16: "{german}"
+            "<br><br><i>{french}</i>",
+        17: "{german}"
+            "<br><br><i>{french}</i>",
+        18: "{german}"
+            "<br><br><i>{french}</i>",
+        19: "{german}"
+            "<br><br><i>{french}</i>",
+        20: "{german}"
+            "<br><br><i>{french}</i>",
+        21: "{german}"
+            "<br><br><i>{french}</i>",
+        22: "{german}"
+            "<br><br><i>{french}</i>",
+        23: "{german}"
+            "<br><br><i>{french}</i>",
+        24: "{german}"
+            "<br><br><i>{french}</i>",
+        25: "{german}"
+            "<br><br><i>{french}</i>",
+
+        26: "{german}"
+            "<br><br><i>{french}</i>",
+        27: "{german}"
+            "<br><br><i>{french}</i>",
+        28: "{german}"
+            "<br><br><i>{french}</i>",
+        29: "{german}"
+            "<br><br><i>{french}</i>",
+        30: "{german}"
+            "<br><br><i>{french}</i>",
+        31: "{german}"
+            "<br><br><i>{french}</i>",
+        32: "{german}"
+            "<br><br><i>{french}</i>",
+        33: "{german}"
+            "<br><br><i>{french}</i>",
+        34: "{german}"
+            "<br><br><i>{french}</i>",
+        35: "{german}"
+            "<br><br><i>{french}</i>",
+        36: "{german}"
+            "<br><br><i>{french}</i>",
+        37: "{german}"
+            "<br><br><i>{french}</i>",
+        38: "{german}"
+            "<br><br><i>{french}</i>",
+        39: "{german}"
+            "<br><br><i>{french}</i>",
+        40: "{german}"
+            "<br><br><i>{french}</i>",
+        41: "{german}"
+            "<br><br><i>{french}</i>",
+        42: "{german}"
+            "<br><br><i>{french}</i>",
+        43: "{german}"
+            "<br><br><i>{french}</i>",
+        44: "{german}"
+            "<br><br><i>{french}</i>",
+        45: "{german}"
+            "<br><br><i>{french}</i>",
+        46: "{german}"
+            "<br><br><i>{french}</i>",
+        47: "{german}"
+            "<br><br><i>{french}</i>",
+        48: "{german}"
+            "<br><br><i>{french}</i>",
+        49: "{german}"
+            "<br><br><i>{french}</i>",
+        50: "{german}"
+            "<br><br><i>{french}</i>",
+
+        51: "{german}"
+            "<br><br><i>{french}</i>",
+        52: "{german}"
+            "<br><br><i>{french}</i>",
+        53: "{german}"
+            "<br><br><i>{french}</i>",
+        54: "{german}"
+            "<br><br><i>{french}</i>",
+        55: "{german}"
+            "<br><br><i>{french}</i>",
+        56: "{german}"
+            "<br><br><i>{french}</i>",
+        57: "{german}"
+            "<br><br><i>{french}</i>",
+        58: "{german}"
+            "<br><br><i>{french}</i>",
+        59: "{german}"
+            "<br><br><i>{french}</i>",
+        60: "{german}"
+            "<br><br><i>{french}</i>",
+        61: "{german}"
+            "<br><br><i>{french}</i>",
+        62: "{german}"
+            "<br><br><i>{french}</i>",
+        63: "{german}"
+            "<br><br><i>{french}</i>",
+        64: "{german}"
+            "<br><br><i>{french}</i>",
+        65: "{german}"
+            "<br><br><i>{french}</i>",
+        66: "{german}"
+            "<br><br><i>{french}</i>",
+        67: "{german}"
+            "<br><br><i>{french}</i>",
+        68: "{german}"
+            "<br><br><i>{french}</i>",
+        69: "{german}"
+            "<br><br><i>{french}</i>",
+        70: "{german}"
+            "<br><br><i>{french}</i>",
+        71: "{german}"
+            "<br><br><i>{french}</i>",
+        72: "{german}"
+            "<br><br><i>{french}</i>",
+        73: "{german}"
+            "<br><br><i>{french}</i>",
+        74: "{german}"
+            "<br><br><i>{french}</i>",
+        75: "{german}"
+            "<br><br><i>{french}</i>",
+        76: "{german}"
+            "<br><br><i>{french}</i>",
+        77: "{german}"
+            "<br><br><i>{french}</i>",
+        78: "{german}"
+            "<br><br><i>{french}</i>",
+        79: "{german}"
+            "<br><br><i>{french}</i>",
+        80: "{german}"
+            "<br><br><i>{french}</i>",
+        81: "{german}"
+            "<br><br><i>{french}</i>",
+        82: "{german}"
+            "<br><br><i>{french}</i>",
+        83: "{german}"
+            "<br><br><i>{french}</i>",
+        84: "{german}"
+            "<br><br><i>{french}</i>",
+        85: "{german}"
+            "<br><br><i>{french}</i>",
+        86: "{german}"
+            "<br><br><i>{french}</i>",
+        87: "{german}"
+            "<br><br><i>{french}</i>",
+        88: "{german}"
+            "<br><br><i>{french}</i>",
+        89: "{german}"
+            "<br><br><i>{french}</i>",
+    }
 
 }

@@ -209,8 +209,12 @@ def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
     Returns:
         str: The main synonym for the input string, or the original string if no match is found.
     """
-    df_synonyms = df_synonyms[df_synonyms['unit'] == unit]
+    df_synonyms = df_synonyms[df_synonyms['unit'] == unit].copy()
     df_synonyms['input'] = df_synonyms['input'].str.lower()
     df_synonyms['input'] = [replace_umlaut(normalize_umlaut(entry)) for entry in df_synonyms['input']]
+
     mapping = dict(zip(df_synonyms["input"], df_synonyms["output"]))
-    return mapping.get(input_str, input_str).lower()
+
+    main_synonym = mapping.get(input_str, input_str).lower()
+    main_synonym = replace_umlaut(normalize_umlaut(main_synonym))
+    return main_synonym

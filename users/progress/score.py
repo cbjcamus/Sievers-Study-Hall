@@ -1,7 +1,7 @@
 from flask_login import current_user
 
 from users.progress.models import UserExerciseState
-from users.questions.total_questions import compute_highest_exercise, compute_total_questions
+from data.data_processing.total_questions import highest_exercise, total_question_exercises
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 
@@ -72,7 +72,7 @@ def compute_score_unit(session, unit):
     """
     trues_unit = 0
     falses_unit = 0
-    for exercise in range(1, compute_highest_exercise(unit) + 1):
+    for exercise in range(1, highest_exercise[unit] + 1):
         trues_exercise, falses_exercise = compute_trues_and_falses(session, unit, exercise)
         trues_unit = trues_unit + trues_exercise
         falses_unit = falses_unit + falses_exercise
@@ -125,7 +125,8 @@ def compute_score_exercise(session, unit, exercise):
             if finished:
                 total = s.get("total_questions")
                 if total is None:
-                    total = compute_total_questions(unit, ex_int)
+                    # total = compute_total_questions(unit, ex_int)
+                    total = total_question_exercises[unit][ex_int]
                 total = int(total or 0)
                 if total > 0:
                     # With no counts we can't infer split → return None rather than 0.
@@ -194,7 +195,8 @@ def compute_trues_and_falses(session, unit, exercise):
         state = row.state or {}
         total = state.get("total_questions")
         if total is None:
-            total = compute_total_questions(unit, ex_int)
+            # total = compute_total_questions(unit, ex_int)
+            total = total_question_exercises[unit][ex_int]
         total = int(total or 0)
 
         # Finished path: DB has score/result or completed_at set
@@ -217,8 +219,10 @@ def compute_trues_and_falses(session, unit, exercise):
     else:
         if is_key_in_exercise(session, unit, exercise, 'result'):
             result_exercise = session[unit][str(exercise)]['result']
-            trues = result_exercise * compute_total_questions(unit, exercise=exercise)
-            falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
+            # trues = result_exercise * compute_total_questions(unit, exercise=exercise)
+            trues = result_exercise * total_question_exercises[unit][ex_int]
+            # falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
+            falses = (1 - result_exercise) * total_question_exercises[unit][ex_int]
 
         elif is_key_in_exercise(session, unit, exercise, 'progress'):
             init_session_key(session, unit, exercise, 'falses')
