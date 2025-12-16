@@ -88,13 +88,9 @@
             </div>
         {% endif %}
 
-        <div class="guidance-help-container">
-            <button type="button"
-                  id="guidance-help-button"
-                  class="guidance-help-button"
-                  onclick="toggleGuidanceHelp()"
-                  title="Help">?
-            </button>
+        <div class="guidance-help-container" style="position:absolute; bottom:16px; left:18px; z-index:50;">
+          <button type="button" id="guidance-help-button" class="guidance-help-button"
+                  onclick="toggleGuidanceHelp()" title="Help">?</button>
         </div>
 
         <div id="guidance-overlay" class="guidance-overlay" style="display:none;" aria-hidden="true">
