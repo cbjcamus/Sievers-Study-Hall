@@ -525,7 +525,7 @@ body.day-mode .guidance-help-button:hover {
   color: white;
   border-radius: 10px;
   box-shadow: 0px 8px 30px rgba(0,0,0,0.35);
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 body.day-mode .guidance-modal {

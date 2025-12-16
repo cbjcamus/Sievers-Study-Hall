@@ -69,23 +69,16 @@
                   onclick="toggleGuidanceHelp()" title="Help">?</button>
         </div>
 
-        <div id="guidance-overlay" class="guidance-overlay" style="display:none;" aria-hidden="true">
-            <div class="guidance-modal" role="dialog" aria-modal="true" aria-labelledby="guidance-title">
-            <div class="guidance-modal-header">
-                <h2>Instruction</h2>
-                <button type="button" class="guidance-close" onclick="toggleGuidanceHelp()" aria-label="Close">×</button>
-            </div>
-
-                <div class="guidance-modal-body">
-
-                    {{ guidance | safe }}
-
-                    <h2>{{ additional_help | safe }}</h2>
-
-                    <p align="left">{{ consult_faq | safe }}</p>
-                </div>
-            </div>
+      <div id="guidance-overlay" class="guidance-overlay" aria-hidden="true">
+      <div class="guidance-modal" role="dialog" aria-modal="true">
+        <div class="guidance-modal-header">
+          <button type="button" class="guidance-close" onclick="toggleGuidanceHelp(true)" aria-label="Close">×</button>
         </div>
+        <div class="guidance-modal-body">
+          {{ guidance | safe }}
+        </div>
+      </div>
+    </div>
 
     </div>
 
@@ -119,31 +112,29 @@
 
     <script src="/webapp/static/toggleDayMode.js"></script>
 
-   <script>
-        function toggleGuidanceHelp(forceClose = false) {
+    <script>
+      function toggleGuidanceHelp(forceClose = false) {
         const overlay = document.getElementById("guidance-overlay");
         if (!overlay) return;
 
-        const isOpen = overlay.style.display !== "none";
+        const isOpen = overlay.classList.contains("is-open");
         const nextOpen = forceClose ? false : !isOpen;
 
-        overlay.style.display = nextOpen ? "flex" : "none";
+        overlay.classList.toggle("is-open", nextOpen);
         overlay.setAttribute("aria-hidden", nextOpen ? "false" : "true");
-        }
+      }
 
-        // Close when clicking outside the modal
-        document.addEventListener("click", function (e) {
+      document.addEventListener("click", function (e) {
         const overlay = document.getElementById("guidance-overlay");
-        if (!overlay || overlay.style.display === "none") return;
+        if (!overlay || !overlay.classList.contains("is-open")) return;
         if (e.target === overlay) toggleGuidanceHelp(true);
-        });
+      });
 
-        // Close on Escape
-        document.addEventListener("keydown", function (e) {
+      document.addEventListener("keydown", function (e) {
         const overlay = document.getElementById("guidance-overlay");
-        if (!overlay || overlay.style.display === "none") return;
+        if (!overlay || !overlay.classList.contains("is-open")) return;
         if (e.key === "Escape") toggleGuidanceHelp(true);
-        });
+      });
     </script>
 
 </body>
