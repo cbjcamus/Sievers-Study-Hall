@@ -505,11 +505,15 @@ body.day-mode .guidance-help-button:hover {
 .guidance-overlay {
   position: fixed;
   inset: 0;
-  display: flex;              /* toggled via JS */
+  display: none !important;     /* default hidden */
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.45);
   z-index: 9999;
+}
+
+.guidance-overlay.is-open {
+  display: flex !important;     /* shown only when open */
 }
 
 /* Modal card */
@@ -564,9 +568,6 @@ body.day-mode .guidance-modal {
 .guidance-modal-body li {
   text-align: left;
 }
-
-.guidance-overlay { display: none; }              /* default hidden */
-.guidance-overlay.is-open { display: flex; }      /* when open */
 
 .question-count {
     margin-top: 0px;
