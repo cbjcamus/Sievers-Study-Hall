@@ -136,32 +136,30 @@
 
     <script src="/webapp/static/toggleDayMode.js"></script>
 
-    <script>
-        function toggleGuidanceHelp(forceClose = false) {
-        const overlay = document.getElementById("guidance-overlay");
-        if (!overlay) return;
+<script>
+  function toggleGuidanceHelp(forceClose = false) {
+    const overlay = document.getElementById("guidance-overlay");
+    if (!overlay) return;
 
-        const isOpen = overlay.style.display !== "none";
-        const nextOpen = forceClose ? false : !isOpen;
+    const isOpen = overlay.classList.contains("is-open");
+    const nextOpen = forceClose ? false : !isOpen;
 
-        overlay.style.display = nextOpen ? "flex" : "none";
-        overlay.setAttribute("aria-hidden", nextOpen ? "false" : "true");
-        }
+    overlay.classList.toggle("is-open", nextOpen);
+    overlay.setAttribute("aria-hidden", nextOpen ? "false" : "true");
+  }
 
-        // Close when clicking outside the modal
-        document.addEventListener("click", function (e) {
-        const overlay = document.getElementById("guidance-overlay");
-        if (!overlay || overlay.style.display === "none") return;
-        if (e.target === overlay) toggleGuidanceHelp(true);
-        });
+  document.addEventListener("click", function (e) {
+    const overlay = document.getElementById("guidance-overlay");
+    if (!overlay || !overlay.classList.contains("is-open")) return;
+    if (e.target === overlay) toggleGuidanceHelp(true);
+  });
 
-        // Close on Escape
-        document.addEventListener("keydown", function (e) {
-        const overlay = document.getElementById("guidance-overlay");
-        if (!overlay || overlay.style.display === "none") return;
-        if (e.key === "Escape") toggleGuidanceHelp(true);
-        });
-    </script>
+  document.addEventListener("keydown", function (e) {
+    const overlay = document.getElementById("guidance-overlay");
+    if (!overlay || !overlay.classList.contains("is-open")) return;
+    if (e.key === "Escape") toggleGuidanceHelp(true);
+  });
+</script>
 
 </body>
 </html>

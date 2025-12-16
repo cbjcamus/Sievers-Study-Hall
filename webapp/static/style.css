@@ -566,7 +566,7 @@ body.day-mode .guidance-modal {
 }
 
 .guidance-overlay { display: none; }              /* default hidden */
-.guidance-overlay.is-open { display: flex; }
+.guidance-overlay.is-open { display: flex; }      /* when open */
 
 .question-count {
     margin-top: 0px;
