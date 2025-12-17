@@ -77,7 +77,7 @@ def log_new_signup(user):
     return
 
 
-def log_question_flagged(unit, exercise, feedback_message, user_answer, result, email=None):
+def log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason, email=None):
     """
     Logs a flagged question to a CSV file with relevant metadata for review.
 
@@ -99,7 +99,7 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; language; result; feedback_message; user_answer")
+    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; language; result; feedback_message; user_answer; reason;")
 
     next_nr = get_next_number(QUESTION_FLAGGED_PATH)
 
@@ -108,7 +108,7 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     language = get_language(request, session)
 
     with open(QUESTION_FLAGGED_PATH, "a", encoding="utf-8") as filepath:
-        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {language}; {result}; {feedback_message}; {user_answer}")
+        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {language}; {result}; {feedback_message}; {user_answer}; {reason}")
     return
 
 

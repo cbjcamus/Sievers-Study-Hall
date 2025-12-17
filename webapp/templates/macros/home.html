@@ -1,0 +1,20 @@
+{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars) %}
+    <tr>
+        <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
+        <td>{{ unit_stars[unit] | safe }}</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+{% endmacro %}
+
+{% macro render_unit_table_row_clean(unit, unit_page, title_page, unit_stars, completed_exercises, highest_exercise) %}
+    <tr>
+        <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
+        <td>{{ unit_stars[unit] | safe }}</td>
+        <td><!-- {{ completed_exercises(session, unit, highest_exercise) }}/{{ highest_exercise[unit] }}--></td>
+        <td></td>
+        <td></td>
+    </tr>
+{% endmacro %}
+

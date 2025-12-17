@@ -3,7 +3,7 @@
 <head>
     <title>{{ title_page[unit] }} – Practice German for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
-    {% from "macros.html" import header %}
+    {% from "macros/header.html" import header %}
     {{ header() }}
 
     <script>
@@ -21,8 +21,8 @@
     </script>
 </head>
 
-{% from "macros.html" import render_title with context %}
-{% from "macros.html" import render_feedback %}
+{% from "macros/header.html" import render_title with context %}
+{% from "macros/exercise.html" import render_feedback %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -105,11 +105,24 @@
             <p align="left">{{ consult_faq | safe }}</p>
         </div>
       </div>
-    </div>
+      </div>
 
     </div>
 
     {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question) }}
+
+    <script>
+      function toggleFlagForm(button) {
+        const container = button.closest(".flag-form-container");
+        const form = container.querySelector("form.flag-form");
+
+        form.classList.toggle("hidden");
+
+        if (!form.classList.contains("hidden")) {
+          form.querySelector("textarea").focus();
+        }
+      }
+    </script>
 
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}

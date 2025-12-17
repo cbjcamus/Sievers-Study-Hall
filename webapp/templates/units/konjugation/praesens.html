@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Präsens – Practice German Present Tense for Free</title>
+    <meta name="description" content="Practice German Present tense. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+
+{% from "macros/header.html" import render_title with context %}
+{% from "macros/unit.html" import render_exercise_table_row %}
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+    {{ render_title("Präsens") }}
+
+    <div class="section">
+        <h2>Introduction</h2>
+        {{ introduction | safe }}
+    </div>
+
+    <div class="section">
+        <h2>A1</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("praesens", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 6, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 8, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 10, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 12, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 13, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 14, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 15, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 16, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 17, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 18, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 19, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 20, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>A2</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("praesens", 21, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 22, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 23, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 24, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 25, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 26, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 27, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 28, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 29, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 30, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 31, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 32, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 33, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 34, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 35, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 36, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 37, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 38, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 39, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praesens", 40, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">{{ homepage }}</a>
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

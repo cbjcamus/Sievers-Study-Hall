@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Imperativ – Practice German Imperative for Free</title>
+    <meta name="description" content="Practice German Imperative. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+
+{% from "macros/header.html" import render_title with context %}
+{% from "macros/unit.html" import render_exercise_table_row %}
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+    {{ render_title("Imperativ") }}
+
+    <div class="section">
+        <h2>Introduction</h2>
+        {{ introduction | safe }}
+    </div>
+
+    <div class="section">
+        <h2>A1</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("imperativ", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 6, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>A2</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("imperativ", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 8, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 10, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("imperativ", 12, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">{{ homepage }}</a>
+    </div>
+
+    <script src="/webapp/static/toggleDayMode.js"></script>
+</body>
+</html>

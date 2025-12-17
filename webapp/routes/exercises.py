@@ -91,7 +91,6 @@ def guidance(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               #total_questions=compute_total_questions(unit, exercise=exercise),
                                total_questions=total_question_exercises[unit][exercise],
                                next=NEXT[language],
                                back_to=BACK_TO[language],
@@ -249,7 +248,6 @@ def exercise(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               # total_questions=compute_total_questions(unit, exercise=exercise),
                                total_questions=total_question_exercises[unit][exercise],
                                proverb=proverb,
                                is_feedback_box=is_feedback_box,
@@ -277,7 +275,6 @@ def exercise(unit, exercise):
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           # total_questions=compute_total_questions(unit, exercise=exercise),
                            total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,
                            is_feedback_box=is_feedback_box,
@@ -512,7 +509,6 @@ def exercise_feedback(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               # total_questions=compute_total_questions(unit, exercise=exercise),
                                total_questions=total_question_exercises[unit][exercise],
                                proverb=proverb,
                                guidance=guidance_popup,
@@ -539,7 +535,6 @@ def exercise_feedback(unit, exercise):
                            title_page=TITLE_PAGE,
                            back_page=BACK_BUTTON,
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           # total_questions=compute_total_questions(unit, exercise=exercise),
                            total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,
                            guidance=guidance_popup,
@@ -590,11 +585,12 @@ def flag_question(unit, exercise):
     feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
     user_answer = request.args.get('user_answer') or request.form.get('user_answer')
     result = request.args.get('result') or request.form.get('result')
+    reason = request.form.get('reason')
 
     if current_user.is_authenticated:
-        log_question_flagged(unit, exercise, feedback_message, user_answer, result, email=current_user.email)
+        log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason, email=current_user.email)
     else:
-        log_question_flagged(unit, exercise, feedback_message, user_answer, result)
+        log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason)
 
     flash("This answer has been flagged for review."
           "<br><br>Thank you!", "info")
