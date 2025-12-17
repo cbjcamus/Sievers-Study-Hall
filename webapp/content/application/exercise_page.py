@@ -34,11 +34,11 @@ YOUR_INCORRECT_ANSWERS = {
 }
 
 ADDITIONAL_HELP = {
-    'english': 'Additional Help',
+    'english': 'Additional Support',
     'french': 'Informations Complémentaires',
 }
 
 CONSULT_FAQ = {
     'english': 'For additional support consult the <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a> or send me an email at sieversstudyhall@gmail.com',
-    'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a> (en anglais) ou envoyez moi un email à sieversstudyhall@gmail.com'
+    'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq-8cc" target="_blank">FAQ</a> ou envoyez moi un email à sieversstudyhall@gmail.com'
 }
