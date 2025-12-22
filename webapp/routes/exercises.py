@@ -2,24 +2,28 @@ from flask import render_template, session, request, redirect, url_for, flash, j
 from flask_login import current_user
 from typing import cast
 
+from flask_migrate import current
+
 from . import routes_bp
 
+from data.data_processing.levels import get_level_from_exercise
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
+from data.data_processing.total_questions import total_question_exercises
 
-from users.users.models import db, is_feedback_enabled
+from users.users.models import db, is_feedback_enabled, Bookmark
 from users.progress.models import UserExerciseState
 
 from users.progress.score import write_score
-from users.session_management.logging import log_question_flagged
 from users.progress.progress import compute_answered_questions
+from users.progress.register_update import register_progress, register_result, register_incorrect_answer
+from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
+
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, is_user_answer_correct
-from data.data_processing.total_questions import total_question_exercises
 from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, get_question_from_incorrect_answer,
                                              get_options_for_multiple_choice_exercises)
-from users.progress.register_update import register_progress, register_result, register_incorrect_answer
+from users.session_management.logging import log_question_flagged
 from users.session_management.verification_session import init_session_key
-from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
 from webapp.i18n import get_language
 
@@ -28,12 +32,11 @@ from webapp.content.application.exercise_page import YOUR_ANSWER, YOUR_INCORRECT
     YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
     ADDITIONAL_HELP, CONSULT_FAQ
 
+from webapp.content.unit.guidance import GUIDANCE_UNIT
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.back_button import BACK_BUTTON
-from webapp.content.unit.guidance import GUIDANCE_UNIT
 from webapp.content.exercise.content_exercises import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE_EXERCISE
-
 
 session = cast(dict, session)
 
@@ -73,6 +76,7 @@ def guidance(unit, exercise):
                                your_score_for_this_exercise=YOUR_SCORE_FOR_THIS_EXERCISE[language],
                                feedback_last_question=FEEDBACK_LAST_QUESTION[language],
                                your_incorrect_answers=YOUR_INCORRECT_ANSWERS[language],
+                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
                                your_answer=YOUR_ANSWER[language],
                                refresh=REFRESH[language],
                                back_to=BACK_TO[language],
@@ -103,6 +107,8 @@ def guidance(unit, exercise):
                                exercise=exercise,
                                exercise_title=EXERCISE_TITLE[language],
                                guidance=guidance,
+                               additional_help=ADDITIONAL_HELP[language],
+                               consult_faq=CONSULT_FAQ[language],
                                unit_page=UNIT_PAGE,
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
@@ -133,10 +139,13 @@ def exercise(unit, exercise):
         if current_user.is_authenticated:
             incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
             feedbacks = get_feedback_exercise(session, unit, exercise)
+            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, 'incorrect', incorrect_answer)
+                                   for incorrect_answer in incorrect_answers]
         else:
             number_of_incorrect_answers = 0
             incorrect_answers = []
             feedbacks = []
+            incorrect_questions = []
 
         register_result(session, unit, exercise, feedback)
 
@@ -159,7 +168,9 @@ def exercise(unit, exercise):
                                your_score_for_this_exercise=YOUR_SCORE_FOR_THIS_EXERCISE[language],
                                feedback_last_question=FEEDBACK_LAST_QUESTION[language],
                                your_incorrect_answers=YOUR_INCORRECT_ANSWERS[language],
+                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
                                your_answer=YOUR_ANSWER[language],
+                               incorrect_questions=incorrect_questions,
                                refresh=REFRESH[language],
                                back_to=BACK_TO[language],
                                )
@@ -259,6 +270,7 @@ def exercise(unit, exercise):
                                your_answer=YOUR_ANSWER[language],
                                incorrect_question=incorrect_question,
                                back_to=BACK_TO[language],
+                               current_user=current_user,
                                )
 
     return render_template("exercise/exercise_input.html",
@@ -287,6 +299,7 @@ def exercise(unit, exercise):
                            submit=SUBMIT[language],
                            enter_answer_here=ENTER_ANSWER_HERE[language],
                            back_to=BACK_TO[language],
+                           current_user=current_user,
                            )
 
 
@@ -398,10 +411,13 @@ def exercise_feedback(unit, exercise):
         if current_user.is_authenticated:
             incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
             feedbacks = get_feedback_exercise(session, unit, exercise)
+            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
+                                   for incorrect_answer in incorrect_answers]
         else:
             number_of_incorrect_answers = 0
             incorrect_answers = []
             feedbacks = []
+            incorrect_questions = []
 
         register_result(session, unit, exercise, feedback)
 
@@ -424,7 +440,9 @@ def exercise_feedback(unit, exercise):
                                all_questions_successfully_answered=ALL_QUESTIONS_SUCCESSFULLY_ANSWERED[language],
                                your_score_for_this_exercise=YOUR_SCORE_FOR_THIS_EXERCISE[language],
                                feedback_last_question=FEEDBACK_LAST_QUESTION[language],
+                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
                                your_incorrect_answers=YOUR_INCORRECT_ANSWERS[language],
+                               incorrect_questions=incorrect_questions,
                                refresh=REFRESH[language],
                                back_to=BACK_TO[language],
                                )
@@ -609,3 +627,121 @@ def set_feedback_toggle():
 def get_feedback_toggle():
     enabled = session.get('feedback_enabled', False)
     return jsonify({'feedback_enabled': enabled})
+
+
+@routes_bp.route("/bookmark/toggle", methods=["POST"])
+def toggle_bookmark():
+    from flask import request, redirect, url_for, jsonify
+    from users.users.models import Bookmark, db
+
+    bookmark_id = request.form.get("bookmark_id")
+
+    # Case 1: coming from the bookmarks page -> delete by ID
+    if bookmark_id:
+        bookmark = Bookmark.query.filter_by(
+            id=int(bookmark_id),
+            user_id=current_user.id
+        ).first()
+
+        if bookmark:
+            db.session.delete(bookmark)
+            db.session.commit()
+
+            if request.headers.get("X-Requested-With") == "XMLHttpRequest":
+                return jsonify({"bookmarked": False, "deleted": True})
+
+        # if not found, just fall back to redirect/JSON
+        if request.headers.get("X-Requested-With") == "XMLHttpRequest":
+            return jsonify({"bookmarked": False})
+
+        return redirect(request.referrer or url_for("routes.home"))
+
+    # Case 2: coming from an exercise page -> use full data (your existing logic)
+    unit = request.form["unit"]
+    exercise = int(request.form["exercise"])
+    level = request.form["level"]
+    result = request.form["result"]
+    user_answer = request.form.get("user_answer") or ""
+    feedback_message = request.form["feedback_message"]
+
+    bookmark = Bookmark.query.filter_by(
+        user_id=current_user.id,
+        unit=unit,
+        exercise=exercise,
+        level=level,
+        result=result,
+        user_answer=user_answer,
+        feedback_message=feedback_message,
+    ).first()
+
+    bookmarked = False
+
+    if bookmark:
+        db.session.delete(bookmark)
+    else:
+        db.session.add(Bookmark(
+            user_id=current_user.id,
+            unit=unit,
+            exercise=exercise,
+            level=level,
+            result=result,
+            user_answer=user_answer,
+            feedback_message=feedback_message,
+        ))
+        bookmarked = True
+
+    db.session.commit()
+
+    if request.headers.get("X-Requested-With") == "XMLHttpRequest":
+        return jsonify({"bookmarked": bookmarked})
+
+    next_url = request.form.get("next") or request.referrer or url_for("routes.home")
+    return redirect(next_url)
+
+'''
+@routes_bp.route("/bookmark/toggle", methods=["POST"])
+def toggle_bookmark():
+    unit = request.form["unit"]
+    exercise = int(request.form["exercise"])
+    level = get_level_from_exercise(unit, exercise)
+    result = request.form["result"]
+    user_answer = request.form.get("user_answer") or ""
+    feedback_message = request.form["feedback_message"]
+
+    bookmark = Bookmark.query.filter_by(
+        user_id=current_user.id,
+        unit=unit,
+        exercise=exercise,
+        level=level,
+        result=result,
+        user_answer=user_answer,
+        feedback_message=feedback_message,
+    ).first()
+
+    bookmarked = False
+
+    if bookmark:
+        db.session.delete(bookmark)
+    else:
+        bookmark = Bookmark(
+            user_id=current_user.id,
+            unit=unit,
+            exercise=exercise,
+            level=level,
+            result=result,
+            user_answer=user_answer,
+            feedback_message=feedback_message,
+        )
+        db.session.add(bookmark)
+        bookmarked = True
+
+    db.session.commit()
+
+    # If it's an AJAX request, return JSON
+    if request.headers.get("X-Requested-With") == "XMLHttpRequest":
+        return jsonify({"bookmarked": bookmarked})
+
+    # Fallback: normal POST -> redirect
+    next_url = request.form.get("next") or request.referrer or url_for("routes.home")
+    return redirect(next_url)
+'''

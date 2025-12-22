@@ -4,8 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="additional units folder, update in macro, update in flagging">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="faq">
+      <change afterPath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/bookmarks/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/bookmarks/empty_former.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/bookmarks/full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/bookmarks/full_former.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/menu/bookmarks_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/menu/bookmarks_fr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/units/genus/genus_regeln.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_processing/units.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/units.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus_routledge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_routledge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/artikel_genus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_goethe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/levels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/levels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_adjektive.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_adjektive.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_nomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_nomen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/verben/nomen_verben_verbindungen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/verben/nomen_verben_verbindungen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/questions/pick_a_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/pick_a_question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/descriptions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/descriptions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/feedbacks_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/guidance_exercise_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/guidance_exercise_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/instructions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/instructions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/questions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/questions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/descriptions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/descriptions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/feedbacks_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/feedbacks_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/guidance_exercise_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/guidance_exercise_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/instructions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/instructions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/questions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/questions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/back_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/back_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/english/guidance_unit_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/english/guidance_unit_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/english/introduction_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/english/introduction_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/french/guidance_unit_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/french/guidance_unit_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/french/introduction_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/french/introduction_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/stars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/template_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/template_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/title_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/title_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/unit/unit_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/unit_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_multiple_choice.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_multiple_choice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback_multiple_choice.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback_multiple_choice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/render_feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings_fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings_fr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/genus/artikel_genus.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/genus/genus_goethe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/verben/nomen_verben_verbindungen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/verben/nomen_verben_verbindungen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,25 +156,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/genus",
+    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/menu",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/templates/menu" />
+      <recent name="$PROJECT_DIR$/webapp/templates/units/genus" />
       <recent name="$PROJECT_DIR$/webapp/templates/genus" />
       <recent name="$PROJECT_DIR$/webapp/templates/authorization" />
-      <recent name="$PROJECT_DIR$/webapp/templates/menu" />
       <recent name="$PROJECT_DIR$/webapp/templates/grammatik" />
-      <recent name="$PROJECT_DIR$/webapp/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/static/bookmarks" />
+      <recent name="$PROJECT_DIR$/data/datasets/genus" />
       <recent name="$PROJECT_DIR$/webapp/templates/units" />
       <recent name="$PROJECT_DIR$/webapp/templates/macros" />
       <recent name="$PROJECT_DIR$/webapp/templates/genus" />
-      <recent name="$PROJECT_DIR$/data/datasets/verben" />
-      <recent name="$PROJECT_DIR$/data/data_processing" />
     </key>
   </component>
   <component name="RunManager">
@@ -160,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00103" summary="September 11">
-      <option name="closed" value="true" />
-      <created>1757571973909</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1757571973909</updated>
     </task>
     <task id="LOCAL-00104" summary="September 11">
       <option name="closed" value="true" />
@@ -553,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765977884818</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="faq">
+      <option name="closed" value="true" />
+      <created>1765980591747</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1765980591747</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -569,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactoring comments functions" />
     <MESSAGE value="levels" />
     <MESSAGE value="july 27th" />
     <MESSAGE value="August 4th" />
@@ -594,7 +649,8 @@
     <MESSAGE value="December 16th" />
     <MESSAGE value="small updates" />
     <MESSAGE value="additional units folder, update in macro, update in flagging" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional units folder, update in macro, update in flagging" />
+    <MESSAGE value="faq" />
+    <option name="LAST_COMMIT_MESSAGE" value="faq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

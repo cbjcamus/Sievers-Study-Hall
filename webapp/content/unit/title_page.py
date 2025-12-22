@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge,
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 TITLE_PAGE = {
@@ -39,7 +39,8 @@ TITLE_PAGE = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    artikel_genus: "Artikel – Genus",
+    genus_regeln: "Genus – Regeln",
     genus_routledge: "Genus – Routledge",
+    genus_goethe: "Genus – Goethe",
 }
 

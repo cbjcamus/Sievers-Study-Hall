@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge,
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 # bullet point \u25CF
@@ -843,7 +843,6 @@ QUESTION_FR = {
            "<br><br><i>{french}</i>",
         12: "{question}"
            "<br><br><i>{french}</i>",
-
         13: "{question}"
            "<br><br><i>{french}</i>",
         14: "{question}"
@@ -852,6 +851,7 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         16: "{question}"
             "<br><br><i>{french}</i>",
+
         17: "{question}"
             "<br><br><i>{french}</i>",
         18: "{question}"
@@ -867,6 +867,22 @@ QUESTION_FR = {
         23: "{question}"
             "<br><br><i>{french}</i>",
         24: "{question}"
+            "<br><br><i>{french}</i>",
+        25: "{question}"
+            "<br><br><i>{french}</i>",
+        26: "{question}"
+            "<br><br><i>{french}</i>",
+        27: "{question}"
+            "<br><br><i>{french}</i>",
+        28: "{question}"
+            "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>{french}</i>",
+        30: "{question}"
+            "<br><br><i>{french}</i>",
+        31: "{question}"
+            "<br><br><i>{french}</i>",
+        32: "{question}"
             "<br><br><i>{french}</i>",
     },
 
@@ -1340,7 +1356,7 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
     },
 
-    artikel_genus: {
+    genus_regeln: {
         1: "{question}"
            "<br><br><i>{french}</i>",
         2: "{question}"
@@ -1351,6 +1367,7 @@ QUESTION_FR = {
            "<br><br><i>{french}</i>",
         5: "{question}"
            "<br><br><i>{french}</i>",
+
         6: "{question}"
            "<br><br><i>{french}</i>",
         7: "{question}"
@@ -1359,6 +1376,7 @@ QUESTION_FR = {
            "<br><br><i>{french}</i>",
         9: "{question}"
            "<br><br><i>{french}</i>",
+
         10: "{question}"
             "<br><br><i>{french}</i>",
         11: "{question}"
@@ -1369,6 +1387,7 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         14: "{question}"
             "<br><br><i>{french}</i>",
+
         15: "{question}"
             "<br><br><i>{french}</i>",
         16: "{question}"
@@ -1377,145 +1396,16 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         18: "{question}"
             "<br><br><i>{french}</i>",
+
         19: "{question}"
             "<br><br><i>{french}</i>",
         20: "{question}"
             "<br><br><i>{french}</i>",
-
         21: "{question}"
             "<br><br><i>{french}</i>",
         22: "{question}"
             "<br><br><i>{french}</i>",
         23: "{question}"
-            "<br><br><i>{french}</i>",
-        24: "{question}"
-            "<br><br><i>{french}</i>",
-        25: "{question}"
-            "<br><br><i>{french}</i>",
-        26: "{question}"
-            "<br><br><i>{french}</i>",
-        27: "{question}"
-            "<br><br><i>{french}</i>",
-        28: "{question}"
-            "<br><br><i>{french}</i>",
-        29: "{question}"
-            "<br><br><i>{french}</i>",
-        30: "{question}"
-            "<br><br><i>{french}</i>",
-        31: "{question}"
-            "<br><br><i>{french}</i>",
-        32: "{question}"
-            "<br><br><i>{french}</i>",
-        33: "{question}"
-            "<br><br><i>{french}</i>",
-        34: "{question}"
-            "<br><br><i>{french}</i>",
-        35: "{question}"
-            "<br><br><i>{french}</i>",
-
-        36: "{question}"
-            "<br><br><i>{french}</i>",
-        37: "{question}"
-            "<br><br><i>{french}</i>",
-        38: "{question}"
-            "<br><br><i>{french}</i>",
-        39: "{question}"
-            "<br><br><i>{french}</i>",
-        40: "{question}"
-            "<br><br><i>{french}</i>",
-        41: "{question}"
-            "<br><br><i>{french}</i>",
-        42: "{question}"
-            "<br><br><i>{french}</i>",
-        43: "{question}"
-            "<br><br><i>{french}</i>",
-        44: "{question}"
-            "<br><br><i>{french}</i>",
-        45: "{question}"
-            "<br><br><i>{french}</i>",
-        46: "{question}"
-            "<br><br><i>{french}</i>",
-        47: "{question}"
-            "<br><br><i>{french}</i>",
-        48: "{question}"
-            "<br><br><i>{french}</i>",
-        49: "{question}"
-            "<br><br><i>{french}</i>",
-        50: "{question}"
-            "<br><br><i>{french}</i>",
-        51: "{question}"
-            "<br><br><i>{french}</i>",
-        52: "{question}"
-            "<br><br><i>{french}</i>",
-        53: "{question}"
-            "<br><br><i>{french}</i>",
-        54: "{question}"
-            "<br><br><i>{french}</i>",
-        55: "{question}"
-            "<br><br><i>{french}</i>",
-        56: "{question}"
-            "<br><br><i>{french}</i>",
-        57: "{question}"
-            "<br><br><i>{french}</i>",
-        58: "{question}"
-            "<br><br><i>{french}</i>",
-        59: "{question}"
-            "<br><br><i>{french}</i>",
-        60: "{question}"
-            "<br><br><i>{french}</i>",
-        61: "{question}"
-            "<br><br><i>{french}</i>",
-        62: "{question}"
-            "<br><br><i>{french}</i>",
-        63: "{question}"
-            "<br><br><i>{french}</i>",
-        64: "{question}"
-            "<br><br><i>{french}</i>",
-        65: "{question}"
-            "<br><br><i>{french}</i>",
-        66: "{question}"
-            "<br><br><i>{french}</i>",
-        67: "{question}"
-            "<br><br><i>{french}</i>",
-        68: "{question}"
-            "<br><br><i>{french}</i>",
-        69: "{question}"
-            "<br><br><i>{french}</i>",
-        70: "{question}"
-            "<br><br><i>{french}</i>",
-        71: "{question}"
-            "<br><br><i>{french}</i>",
-        72: "{question}"
-            "<br><br><i>{french}</i>",
-        73: "{question}"
-            "<br><br><i>{french}</i>",
-        74: "{question}"
-            "<br><br><i>{french}</i>",
-        75: "{question}"
-            "<br><br><i>{french}</i>",
-        76: "{question}"
-            "<br><br><i>{french}</i>",
-        77: "{question}"
-            "<br><br><i>{french}</i>",
-        78: "{question}"
-            "<br><br><i>{french}</i>",
-        79: "{question}"
-            "<br><br><i>{french}</i>",
-        80: "{question}"
-            "<br><br><i>{french}</i>",
-        81: "{question}"
-            "<br><br><i>{french}</i>",
-        82: "{question}"
-            "<br><br><i>{french}</i>",
-        83: "{question}"
-            "<br><br><i>{french}</i>",
-        84: "{question}"
-            "<br><br><i>{french}</i>",
-        85: "{question}"
-            "<br><br><i>{french}</i>",
-        86: "{question}"
-            "<br><br><i>{french}</i>",
-        87: "{question}"
             "<br><br><i>{french}</i>",
     },
 
@@ -1700,6 +1590,185 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         89: "{question}"
             "<br><br><i>{french}</i>",
-    }
+    },
+
+    genus_goethe: {
+        1: "{question}"
+           "<br><br><i>{french}</i>",
+        2: "{question}"
+           "<br><br><i>{french}</i>",
+        3: "{question}"
+           "<br><br><i>{french}</i>",
+        4: "{question}"
+           "<br><br><i>{french}</i>",
+        5: "{question}"
+           "<br><br><i>{french}</i>",
+        6: "{question}"
+           "<br><br><i>{french}</i>",
+        7: "{question}"
+           "<br><br><i>{french}</i>",
+        8: "{question}"
+           "<br><br><i>{french}</i>",
+        9: "{question}"
+           "<br><br><i>{french}</i>",
+        10: "{question}"
+            "<br><br><i>{french}</i>",
+        11: "{question}"
+            "<br><br><i>{french}</i>",
+        12: "{question}"
+            "<br><br><i>{french}</i>",
+        13: "{question}"
+            "<br><br><i>{french}</i>",
+        14: "{question}"
+            "<br><br><i>{french}</i>",
+        15: "{question}"
+            "<br><br><i>{french}</i>",
+        16: "{question}"
+            "<br><br><i>{french}</i>",
+        17: "{question}"
+            "<br><br><i>{french}</i>",
+        18: "{question}"
+            "<br><br><i>{french}</i>",
+        19: "{question}"
+            "<br><br><i>{french}</i>",
+        20: "{question}"
+            "<br><br><i>{french}</i>",
+
+        21: "{question}"
+            "<br><br><i>{french}</i>",
+        22: "{question}"
+            "<br><br><i>{french}</i>",
+        23: "{question}"
+            "<br><br><i>{french}</i>",
+        24: "{question}"
+            "<br><br><i>{french}</i>",
+        25: "{question}"
+            "<br><br><i>{french}</i>",
+        26: "{question}"
+            "<br><br><i>{french}</i>",
+        27: "{question}"
+            "<br><br><i>{french}</i>",
+        28: "{question}"
+            "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>{french}</i>",
+        30: "{question}"
+            "<br><br><i>{french}</i>",
+        31: "{question}"
+            "<br><br><i>{french}</i>",
+        32: "{question}"
+            "<br><br><i>{french}</i>",
+        33: "{question}"
+            "<br><br><i>{french}</i>",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
+        35: "{question}"
+            "<br><br><i>{french}</i>",
+
+        36: "{question}"
+            "<br><br><i>{french}</i>",
+        37: "{question}"
+            "<br><br><i>{french}</i>",
+        38: "{question}"
+            "<br><br><i>{french}</i>",
+        39: "{question}"
+            "<br><br><i>{french}</i>",
+        40: "{question}"
+            "<br><br><i>{french}</i>",
+        41: "{question}"
+            "<br><br><i>{french}</i>",
+        42: "{question}"
+            "<br><br><i>{french}</i>",
+        43: "{question}"
+            "<br><br><i>{french}</i>",
+        44: "{question}"
+            "<br><br><i>{french}</i>",
+        45: "{question}"
+            "<br><br><i>{french}</i>",
+        46: "{question}"
+            "<br><br><i>{french}</i>",
+        47: "{question}"
+            "<br><br><i>{french}</i>",
+        48: "{question}"
+            "<br><br><i>{french}</i>",
+        49: "{question}"
+            "<br><br><i>{french}</i>",
+        50: "{question}"
+            "<br><br><i>{french}</i>",
+        51: "{question}"
+            "<br><br><i>{french}</i>",
+        52: "{question}"
+            "<br><br><i>{french}</i>",
+        53: "{question}"
+            "<br><br><i>{french}</i>",
+        54: "{question}"
+            "<br><br><i>{french}</i>",
+        55: "{question}"
+            "<br><br><i>{french}</i>",
+        56: "{question}"
+            "<br><br><i>{french}</i>",
+        57: "{question}"
+            "<br><br><i>{french}</i>",
+        58: "{question}"
+            "<br><br><i>{french}</i>",
+        59: "{question}"
+            "<br><br><i>{french}</i>",
+        60: "{question}"
+            "<br><br><i>{french}</i>",
+        61: "{question}"
+            "<br><br><i>{french}</i>",
+        62: "{question}"
+            "<br><br><i>{french}</i>",
+        63: "{question}"
+            "<br><br><i>{french}</i>",
+        64: "{question}"
+            "<br><br><i>{french}</i>",
+        65: "{question}"
+            "<br><br><i>{french}</i>",
+        66: "{question}"
+            "<br><br><i>{french}</i>",
+        67: "{question}"
+            "<br><br><i>{french}</i>",
+        68: "{question}"
+            "<br><br><i>{french}</i>",
+        69: "{question}"
+            "<br><br><i>{french}</i>",
+        70: "{question}"
+            "<br><br><i>{french}</i>",
+        71: "{question}"
+            "<br><br><i>{french}</i>",
+        72: "{question}"
+            "<br><br><i>{french}</i>",
+        73: "{question}"
+            "<br><br><i>{french}</i>",
+        74: "{question}"
+            "<br><br><i>{french}</i>",
+        75: "{question}"
+            "<br><br><i>{french}</i>",
+        76: "{question}"
+            "<br><br><i>{french}</i>",
+        77: "{question}"
+            "<br><br><i>{french}</i>",
+        78: "{question}"
+            "<br><br><i>{french}</i>",
+        79: "{question}"
+            "<br><br><i>{french}</i>",
+        80: "{question}"
+            "<br><br><i>{french}</i>",
+        81: "{question}"
+            "<br><br><i>{french}</i>",
+        82: "{question}"
+            "<br><br><i>{french}</i>",
+        83: "{question}"
+            "<br><br><i>{french}</i>",
+        84: "{question}"
+            "<br><br><i>{french}</i>",
+        85: "{question}"
+            "<br><br><i>{french}</i>",
+        86: "{question}"
+            "<br><br><i>{french}</i>",
+        87: "{question}"
+            "<br><br><i>{french}</i>",
+    },
 
 }

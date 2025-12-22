@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge,
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 INTRODUCTION_FR = {
@@ -116,11 +116,22 @@ INTRODUCTION_FR = {
         "<br><br>De plus, vous devriez le décliner comme le reste des adjectifs. Quelle galère."
     ,
 
-    artikel_genus:
-        "Une Dance de Der Die Das."
-        "<br><br>La liste des noms communs vient du Goethe Institut."
+    genus_regeln:
+        "Practiquez le genre des noms communs à l'aide d'heuristiques."
+        "<br><br>Un guide énumérant ces heuristiques est disponible "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a> (en anglais)."
     ,
     genus_routledge:
+        "Doux désirs dérivent, dansant dès l’aube claire,"
+        "<br>Des doutes disparaissent, le destin se déclare,"
+        "<br>Des voix décidées dessinent leurs pas,"
+        "<br>Der Die Das."
+        "<br><br>La liste des noms communs vient de "
+        "<a href=\"https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112\" target=\"_blank\">ici</a>."
+    ,
+    genus_goethe:
         "Une Dance de Der Die Das."
-        "<br><br>La liste des noms communs vient du Routledge."
+        "<br><br>La liste des noms communs vient du "
+        "<a href=\"https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf\" target=\"_blank\">Goethe Institut</a>."
+    ,
 }

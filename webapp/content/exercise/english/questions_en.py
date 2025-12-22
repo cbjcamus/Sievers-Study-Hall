@@ -5,11 +5,12 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 # bullet point \u25CF
 # arrow &#8594
+
 
 QUESTION_EN = {
 
@@ -843,7 +844,6 @@ QUESTION_EN = {
            "<br><br><i>{english}</i>",
         12: "{question}"
            "<br><br><i>{english}</i>",
-
         13: "{question}"
            "<br><br><i>{english}</i>",
         14: "{question}"
@@ -852,6 +852,7 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         16: "{question}"
             "<br><br><i>{english}</i>",
+
         17: "{question}"
             "<br><br><i>{english}</i>",
         18: "{question}"
@@ -867,6 +868,22 @@ QUESTION_EN = {
         23: "{question}"
             "<br><br><i>{english}</i>",
         24: "{question}"
+            "<br><br><i>{english}</i>",
+        25: "{question}"
+            "<br><br><i>{english}</i>",
+        26: "{question}"
+            "<br><br><i>{english}</i>",
+        27: "{question}"
+            "<br><br><i>{english}</i>",
+        28: "{question}"
+            "<br><br><i>{english}</i>",
+        29: "{question}"
+            "<br><br><i>{english}</i>",
+        30: "{question}"
+            "<br><br><i>{english}</i>",
+        31: "{question}"
+            "<br><br><i>{english}</i>",
+        32: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -1340,7 +1357,7 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
     },
 
-    artikel_genus: {
+    genus_regeln: {
         1: "{question}"
            "<br><br><i>{english}</i>",
         2: "{question}"
@@ -1351,6 +1368,7 @@ QUESTION_EN = {
            "<br><br><i>{english}</i>",
         5: "{question}"
            "<br><br><i>{english}</i>",
+
         6: "{question}"
            "<br><br><i>{english}</i>",
         7: "{question}"
@@ -1359,6 +1377,7 @@ QUESTION_EN = {
            "<br><br><i>{english}</i>",
         9: "{question}"
            "<br><br><i>{english}</i>",
+
         10: "{question}"
             "<br><br><i>{english}</i>",
         11: "{question}"
@@ -1369,6 +1388,7 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         14: "{question}"
             "<br><br><i>{english}</i>",
+
         15: "{question}"
             "<br><br><i>{english}</i>",
         16: "{question}"
@@ -1377,145 +1397,16 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         18: "{question}"
             "<br><br><i>{english}</i>",
+
         19: "{question}"
             "<br><br><i>{english}</i>",
         20: "{question}"
             "<br><br><i>{english}</i>",
-
         21: "{question}"
             "<br><br><i>{english}</i>",
         22: "{question}"
             "<br><br><i>{english}</i>",
         23: "{question}"
-            "<br><br><i>{english}</i>",
-        24: "{question}"
-            "<br><br><i>{english}</i>",
-        25: "{question}"
-            "<br><br><i>{english}</i>",
-        26: "{question}"
-            "<br><br><i>{english}</i>",
-        27: "{question}"
-            "<br><br><i>{english}</i>",
-        28: "{question}"
-            "<br><br><i>{english}</i>",
-        29: "{question}"
-            "<br><br><i>{english}</i>",
-        30: "{question}"
-            "<br><br><i>{english}</i>",
-        31: "{question}"
-            "<br><br><i>{english}</i>",
-        32: "{question}"
-            "<br><br><i>{english}</i>",
-        33: "{question}"
-            "<br><br><i>{english}</i>",
-        34: "{question}"
-            "<br><br><i>{english}</i>",
-        35: "{question}"
-            "<br><br><i>{english}</i>",
-
-        36: "{question}"
-            "<br><br><i>{english}</i>",
-        37: "{question}"
-            "<br><br><i>{english}</i>",
-        38: "{question}"
-            "<br><br><i>{english}</i>",
-        39: "{question}"
-            "<br><br><i>{english}</i>",
-        40: "{question}"
-            "<br><br><i>{english}</i>",
-        41: "{question}"
-            "<br><br><i>{english}</i>",
-        42: "{question}"
-            "<br><br><i>{english}</i>",
-        43: "{question}"
-            "<br><br><i>{english}</i>",
-        44: "{question}"
-            "<br><br><i>{english}</i>",
-        45: "{question}"
-            "<br><br><i>{english}</i>",
-        46: "{question}"
-            "<br><br><i>{english}</i>",
-        47: "{question}"
-            "<br><br><i>{english}</i>",
-        48: "{question}"
-            "<br><br><i>{english}</i>",
-        49: "{question}"
-            "<br><br><i>{english}</i>",
-        50: "{question}"
-            "<br><br><i>{english}</i>",
-        51: "{question}"
-            "<br><br><i>{english}</i>",
-        52: "{question}"
-            "<br><br><i>{english}</i>",
-        53: "{question}"
-            "<br><br><i>{english}</i>",
-        54: "{question}"
-            "<br><br><i>{english}</i>",
-        55: "{question}"
-            "<br><br><i>{english}</i>",
-        56: "{question}"
-            "<br><br><i>{english}</i>",
-        57: "{question}"
-            "<br><br><i>{english}</i>",
-        58: "{question}"
-            "<br><br><i>{english}</i>",
-        59: "{question}"
-            "<br><br><i>{english}</i>",
-        60: "{question}"
-            "<br><br><i>{english}</i>",
-        61: "{question}"
-            "<br><br><i>{english}</i>",
-        62: "{question}"
-            "<br><br><i>{english}</i>",
-        63: "{question}"
-            "<br><br><i>{english}</i>",
-        64: "{question}"
-            "<br><br><i>{english}</i>",
-        65: "{question}"
-            "<br><br><i>{english}</i>",
-        66: "{question}"
-            "<br><br><i>{english}</i>",
-        67: "{question}"
-            "<br><br><i>{english}</i>",
-        68: "{question}"
-            "<br><br><i>{english}</i>",
-        69: "{question}"
-            "<br><br><i>{english}</i>",
-        70: "{question}"
-            "<br><br><i>{english}</i>",
-        71: "{question}"
-            "<br><br><i>{english}</i>",
-        72: "{question}"
-            "<br><br><i>{english}</i>",
-        73: "{question}"
-            "<br><br><i>{english}</i>",
-        74: "{question}"
-            "<br><br><i>{english}</i>",
-        75: "{question}"
-            "<br><br><i>{english}</i>",
-        76: "{question}"
-            "<br><br><i>{english}</i>",
-        77: "{question}"
-            "<br><br><i>{english}</i>",
-        78: "{question}"
-            "<br><br><i>{english}</i>",
-        79: "{question}"
-            "<br><br><i>{english}</i>",
-        80: "{question}"
-            "<br><br><i>{english}</i>",
-        81: "{question}"
-            "<br><br><i>{english}</i>",
-        82: "{question}"
-            "<br><br><i>{english}</i>",
-        83: "{question}"
-            "<br><br><i>{english}</i>",
-        84: "{question}"
-            "<br><br><i>{english}</i>",
-        85: "{question}"
-            "<br><br><i>{english}</i>",
-        86: "{question}"
-            "<br><br><i>{english}</i>",
-        87: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -1700,6 +1591,185 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         89: "{question}"
             "<br><br><i>{english}</i>",
-    }
+    },
+
+    genus_goethe: {
+        1: "{question}"
+           "<br><br><i>{english}</i>",
+        2: "{question}"
+           "<br><br><i>{english}</i>",
+        3: "{question}"
+           "<br><br><i>{english}</i>",
+        4: "{question}"
+           "<br><br><i>{english}</i>",
+        5: "{question}"
+           "<br><br><i>{english}</i>",
+        6: "{question}"
+           "<br><br><i>{english}</i>",
+        7: "{question}"
+           "<br><br><i>{english}</i>",
+        8: "{question}"
+           "<br><br><i>{english}</i>",
+        9: "{question}"
+           "<br><br><i>{english}</i>",
+        10: "{question}"
+            "<br><br><i>{english}</i>",
+        11: "{question}"
+            "<br><br><i>{english}</i>",
+        12: "{question}"
+            "<br><br><i>{english}</i>",
+        13: "{question}"
+            "<br><br><i>{english}</i>",
+        14: "{question}"
+            "<br><br><i>{english}</i>",
+        15: "{question}"
+            "<br><br><i>{english}</i>",
+        16: "{question}"
+            "<br><br><i>{english}</i>",
+        17: "{question}"
+            "<br><br><i>{english}</i>",
+        18: "{question}"
+            "<br><br><i>{english}</i>",
+        19: "{question}"
+            "<br><br><i>{english}</i>",
+        20: "{question}"
+            "<br><br><i>{english}</i>",
+
+        21: "{question}"
+            "<br><br><i>{english}</i>",
+        22: "{question}"
+            "<br><br><i>{english}</i>",
+        23: "{question}"
+            "<br><br><i>{english}</i>",
+        24: "{question}"
+            "<br><br><i>{english}</i>",
+        25: "{question}"
+            "<br><br><i>{english}</i>",
+        26: "{question}"
+            "<br><br><i>{english}</i>",
+        27: "{question}"
+            "<br><br><i>{english}</i>",
+        28: "{question}"
+            "<br><br><i>{english}</i>",
+        29: "{question}"
+            "<br><br><i>{english}</i>",
+        30: "{question}"
+            "<br><br><i>{english}</i>",
+        31: "{question}"
+            "<br><br><i>{english}</i>",
+        32: "{question}"
+            "<br><br><i>{english}</i>",
+        33: "{question}"
+            "<br><br><i>{english}</i>",
+        34: "{question}"
+            "<br><br><i>{english}</i>",
+        35: "{question}"
+            "<br><br><i>{english}</i>",
+
+        36: "{question}"
+            "<br><br><i>{english}</i>",
+        37: "{question}"
+            "<br><br><i>{english}</i>",
+        38: "{question}"
+            "<br><br><i>{english}</i>",
+        39: "{question}"
+            "<br><br><i>{english}</i>",
+        40: "{question}"
+            "<br><br><i>{english}</i>",
+        41: "{question}"
+            "<br><br><i>{english}</i>",
+        42: "{question}"
+            "<br><br><i>{english}</i>",
+        43: "{question}"
+            "<br><br><i>{english}</i>",
+        44: "{question}"
+            "<br><br><i>{english}</i>",
+        45: "{question}"
+            "<br><br><i>{english}</i>",
+        46: "{question}"
+            "<br><br><i>{english}</i>",
+        47: "{question}"
+            "<br><br><i>{english}</i>",
+        48: "{question}"
+            "<br><br><i>{english}</i>",
+        49: "{question}"
+            "<br><br><i>{english}</i>",
+        50: "{question}"
+            "<br><br><i>{english}</i>",
+        51: "{question}"
+            "<br><br><i>{english}</i>",
+        52: "{question}"
+            "<br><br><i>{english}</i>",
+        53: "{question}"
+            "<br><br><i>{english}</i>",
+        54: "{question}"
+            "<br><br><i>{english}</i>",
+        55: "{question}"
+            "<br><br><i>{english}</i>",
+        56: "{question}"
+            "<br><br><i>{english}</i>",
+        57: "{question}"
+            "<br><br><i>{english}</i>",
+        58: "{question}"
+            "<br><br><i>{english}</i>",
+        59: "{question}"
+            "<br><br><i>{english}</i>",
+        60: "{question}"
+            "<br><br><i>{english}</i>",
+        61: "{question}"
+            "<br><br><i>{english}</i>",
+        62: "{question}"
+            "<br><br><i>{english}</i>",
+        63: "{question}"
+            "<br><br><i>{english}</i>",
+        64: "{question}"
+            "<br><br><i>{english}</i>",
+        65: "{question}"
+            "<br><br><i>{english}</i>",
+        66: "{question}"
+            "<br><br><i>{english}</i>",
+        67: "{question}"
+            "<br><br><i>{english}</i>",
+        68: "{question}"
+            "<br><br><i>{english}</i>",
+        69: "{question}"
+            "<br><br><i>{english}</i>",
+        70: "{question}"
+            "<br><br><i>{english}</i>",
+        71: "{question}"
+            "<br><br><i>{english}</i>",
+        72: "{question}"
+            "<br><br><i>{english}</i>",
+        73: "{question}"
+            "<br><br><i>{english}</i>",
+        74: "{question}"
+            "<br><br><i>{english}</i>",
+        75: "{question}"
+            "<br><br><i>{english}</i>",
+        76: "{question}"
+            "<br><br><i>{english}</i>",
+        77: "{question}"
+            "<br><br><i>{english}</i>",
+        78: "{question}"
+            "<br><br><i>{english}</i>",
+        79: "{question}"
+            "<br><br><i>{english}</i>",
+        80: "{question}"
+            "<br><br><i>{english}</i>",
+        81: "{question}"
+            "<br><br><i>{english}</i>",
+        82: "{question}"
+            "<br><br><i>{english}</i>",
+        83: "{question}"
+            "<br><br><i>{english}</i>",
+        84: "{question}"
+            "<br><br><i>{english}</i>",
+        85: "{question}"
+            "<br><br><i>{english}</i>",
+        86: "{question}"
+            "<br><br><i>{english}</i>",
+        87: "{question}"
+            "<br><br><i>{english}</i>",
+    },
 
 }

@@ -6,13 +6,15 @@ from typing import cast
 from . import routes_bp
 
 from data.data_processing.units import units
-
-from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, compute_completed_exercises
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
-from webapp.i18n import get_language
+from users.users.models import Bookmark
+from users.progress.score import write_score
+from users.progress.progress import compute_answered_questions, compute_completed_exercises
 
+from users.questions.pick_a_question import get_question_from_incorrect_answer
+
+from webapp.i18n import get_language
 from webapp.content.unit.stars import STARS
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
@@ -20,6 +22,7 @@ from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
+from webapp.content.application.exercise_page import YOUR_ANSWER
 from webapp.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from webapp.style.icons import STAR_GOLD
@@ -71,6 +74,39 @@ def about():
     elif language == "french":
         return render_template('menu/about_fr.html',
                                )
+
+
+@routes_bp.route("/bookmarks")
+def bookmarks():
+
+    language = get_language(request, session)
+
+    bookmarks = (
+        Bookmark.query
+        .filter_by(user_id=current_user.id)
+        .order_by(Bookmark.created_at.desc())
+        .all()
+    )
+
+    if language == "english":
+        return render_template("menu/bookmarks_en.html",
+                           bookmarks=bookmarks,
+                           is_feedback_box=True,
+                           your_answer=YOUR_ANSWER[language],
+                           title_page=TITLE_PAGE,
+                           force_full_bookmark=True,
+                           get_question_from_incorrect_answer=get_question_from_incorrect_answer,
+                           )
+
+    elif language == "french":
+        return render_template("menu/bookmarks_fr.html",
+                           bookmarks=bookmarks,
+                           is_feedback_box=True,
+                           your_answer=YOUR_ANSWER[language],
+                           title_page=TITLE_PAGE,
+                           force_full_bookmark=True,
+                           get_question_from_incorrect_answer=get_question_from_incorrect_answer,
+                           )
 
 
 for unit in units:

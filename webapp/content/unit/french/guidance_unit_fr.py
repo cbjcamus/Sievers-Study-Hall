@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge
+    genus_regeln, genus_routledge, genus_goethe
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -143,9 +143,12 @@ GUIDANCE_UNIT_FR = {
         f"<br><br>{ICON_CROSS} sich freuend"
     ,
 
-    artikel_genus:
+    genus_regeln:
         "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
         "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
+        
+        "<br><br>→ Un guide expliquant le genre des noms communs est disponible (en anglais) "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a>."
 
         f"<br><br>{ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
 
@@ -159,6 +162,9 @@ GUIDANCE_UNIT_FR = {
     genus_routledge:
         "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
         "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
+        
+        "<br><br>→ Un guide expliquant le genre des noms communs est disponible (en anglais) "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a>."
 
         f"<br><br>{ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
 
@@ -168,4 +174,21 @@ GUIDANCE_UNIT_FR = {
         f"<br><br>{ICON_CHECK} Der"
         f"<br><br>{ICON_CHECK} der"
     ,
+
+    genus_goethe:
+        "Pour chaque question, un nom allemand et sa traduction anglaise vous seront proposés."
+        "<br><br>Trouvez l’article défini (Der, Die ou Das) qui correspond au nom."
+        
+        "<br><br>→ Un guide expliquant le genre des noms communs est disponible (en anglais) "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a>."
+
+        f"<br><br>{ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
+
+        "<h2>Exemple</h2>"
+        "_____ Abend"
+        "<br><br><i>Le soir</i>"
+        f"<br><br>{ICON_CHECK} Der"
+        f"<br><br>{ICON_CHECK} der"
+    ,
+
 }

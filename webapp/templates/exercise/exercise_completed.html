@@ -8,7 +8,7 @@
 </head>
 
 {% from "macros/header.html" import render_title with context %}
-{% from "macros/exercise.html" import render_feedback %}
+{% from "macros/render_feedback.html" import render_feedback %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -23,7 +23,17 @@
         <p>{{ feedback_last_question }}</p>
     {% endif %}
 
-    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question) }}
+    {{ render_feedback(
+        unit=unit,
+        exercise=exercise,
+        is_feedback_box=is_feedback_box,
+        result=result,
+        feedback_message=feedback_message,
+        your_answer=your_answer,
+        user_answer=user_answer,
+        incorrect_question=get_question_from_incorrect_answer(unit, exercise, result, user_answer),
+        current_user=current_user,
+    ) }}
 
     {% if number_of_incorrect_answers > 0 %}
         <p>{{ your_incorrect_answers }}</p>
@@ -31,7 +41,7 @@
         {% for i in range(number_of_incorrect_answers) %}
             <div class="feedback-incorrect-container">
                 <p>{{ feedbacks[i] | safe }}</p>
-                <p>{{ your_answer }} {{ incorrect_answers[i] | safe }}</p>
+                <p>{{ your_answer }} {{ incorrect_answers[i] | safe }} {{ incorrect_questions[i] | safe }}</p>
             </div>
         {% endfor %}
 

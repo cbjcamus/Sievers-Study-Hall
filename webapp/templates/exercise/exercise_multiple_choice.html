@@ -22,7 +22,7 @@
 </head>
 
 {% from "macros/header.html" import render_title with context %}
-{% from "macros/exercise.html" import render_feedback %}
+{% from "macros/render_feedback.html" import render_feedback %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -76,7 +76,7 @@
 
     </div>
 
-    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question) }}
+    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, False) }}
 
     <script>
       function toggleFlagForm(button) {
@@ -89,6 +89,40 @@
           form.querySelector("textarea").focus();
         }
       }
+    </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const form = document.querySelector(".bookmark-form");
+          if (!form) return;
+
+          form.addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const icon = form.querySelector(".bookmark-icon");
+            const full = "{{ url_for('static', filename='bookmarks/full.png') }}";
+            const empty = "{{ url_for('static', filename='bookmarks/empty.png') }}";
+
+            const formData = new FormData(form);
+
+            try {
+              const response = await fetch(form.action, {
+                method: "POST",
+                body: formData,
+                headers: { "X-Requested-With": "XMLHttpRequest" }
+              });
+
+              if (!response.ok) return;
+
+              const data = await response.json();
+              icon.src = data.bookmarked ? full : empty;
+
+            } catch (err) {
+              console.error("Bookmark error:", err);
+            }
+          });
+        });
     </script>
 
     {% with messages = get_flashed_messages(with_categories=true) %}

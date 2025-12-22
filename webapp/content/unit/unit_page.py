@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge,
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 UNIT_PAGE = {
@@ -39,6 +39,7 @@ UNIT_PAGE = {
     konjunktiv_I: "/konjunktiv_I",
     partizip_I: "/partizip_I",
 
-    artikel_genus: "/artikel_genus",
+    genus_regeln: "/genus_regeln",
     genus_routledge: "/genus_routledge",
+    genus_goethe: "/genus_goethe",
 }

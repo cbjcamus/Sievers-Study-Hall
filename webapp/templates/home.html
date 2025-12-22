@@ -29,7 +29,6 @@
         <h2>Grammatik</h2>
         <table class="unit-table">
             {{ render_unit_table_row("artikel", title_page, unit_page, unit_stars) }}
-            {{ render_unit_table_row("artikel_genus", title_page, unit_page, unit_stars) }}
             {{ render_unit_table_row("pronomen", title_page, unit_page, unit_stars) }}
             {{ render_unit_table_row("konnektoren", title_page, unit_page, unit_stars) }}
             {{ render_unit_table_row("fragen", title_page, unit_page, unit_stars) }}
@@ -65,6 +64,15 @@
             {{ render_unit_table_row("konjunktiv_II", title_page, unit_page, unit_stars) }}
             {{ render_unit_table_row("konjunktiv_I", title_page, unit_page, unit_stars) }}
             {{ render_unit_table_row("partizip_I", title_page, unit_page, unit_stars) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Genus</h2>
+        <table class="unit-table">
+            {{ render_unit_table_row("genus_regeln", title_page, unit_page, unit_stars) }}
+            {{ render_unit_table_row("genus_routledge", title_page, unit_page, unit_stars) }}
+            {{ render_unit_table_row("genus_goethe", title_page, unit_page, unit_stars) }}
         </table>
     </div>
 

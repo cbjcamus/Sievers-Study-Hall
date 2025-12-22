@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge,
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 from webapp.style.icons import STAR_GOLD, STAR_SILVER
@@ -40,6 +40,7 @@ STARS = {
     konjunktiv_I: f"",
     partizip_I: f"",
 
-    artikel_genus: f"",
+    genus_regeln: f"",
     genus_routledge: f"",
+    genus_goethe: f"",
 }

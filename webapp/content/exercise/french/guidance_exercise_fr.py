@@ -1346,11 +1346,11 @@ GUIDANCE_EXERCISE_FR = {
         10: guidance_nomen_verben_verbindungen_verben_isolation,
         11: guidance_nomen_verben_verbindungen_nomen_sentences,
         12: guidance_nomen_verben_verbindungen_verben_sentences,
-
         13: guidance_nomen_verben_verbindungen_nomen_isolation,
         14: guidance_nomen_verben_verbindungen_verben_isolation,
         15: guidance_nomen_verben_verbindungen_nomen_sentences,
         16: guidance_nomen_verben_verbindungen_verben_sentences,
+
         17: guidance_nomen_verben_verbindungen_nomen_isolation,
         18: guidance_nomen_verben_verbindungen_verben_isolation,
         19: guidance_nomen_verben_verbindungen_nomen_sentences,
@@ -1359,6 +1359,14 @@ GUIDANCE_EXERCISE_FR = {
         22: guidance_nomen_verben_verbindungen_verben_isolation,
         23: guidance_nomen_verben_verbindungen_nomen_sentences,
         24: guidance_nomen_verben_verbindungen_verben_sentences,
+        25: guidance_nomen_verben_verbindungen_nomen_isolation,
+        26: guidance_nomen_verben_verbindungen_verben_isolation,
+        27: guidance_nomen_verben_verbindungen_nomen_sentences,
+        28: guidance_nomen_verben_verbindungen_verben_sentences,
+        29: guidance_nomen_verben_verbindungen_nomen_isolation,
+        30: guidance_nomen_verben_verbindungen_verben_isolation,
+        31: guidance_nomen_verben_verbindungen_nomen_sentences,
+        32: guidance_nomen_verben_verbindungen_verben_sentences,
     }
 
 }

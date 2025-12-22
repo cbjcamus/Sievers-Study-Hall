@@ -5,7 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    artikel_genus, genus_routledge,
+    genus_regeln, genus_routledge, genus_goethe,
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -143,10 +143,13 @@ GUIDANCE_UNIT_EN = {
         f"<br><br>{ICON_CROSS} sich freuend"
     ,
 
-    artikel_genus:
+    genus_regeln:
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
 
+        "<br><br>→ A guide explaining the gender of nouns is available "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
+        
         f"<br><br>{ICON_WARN} There is only one correct answer per question."
 
         "<h2>Example</h2>"
@@ -160,6 +163,26 @@ GUIDANCE_UNIT_EN = {
     genus_routledge:
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
+        
+        "<br><br>→ A guide explaining the gender of nouns is available "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
+
+        f"<br><br>{ICON_WARN} There is only one correct answer per question."
+
+        "<h2>Example</h2>"
+        "_____ Abend"
+        "<br><br><i>The evening</i>"
+        f"<br><br>{ICON_CHECK} Der"
+        f"<br><br>{ICON_CHECK} der"
+        f"<br><br>{ICON_CROSS} Die"
+    ,
+
+    genus_goethe:
+        "For each question, you will be provided a German noun and its English translation."
+        "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
+        
+        "<br><br>→ A guide explaining the gender of nouns is available "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
 
         f"<br><br>{ICON_WARN} There is only one correct answer per question."
 

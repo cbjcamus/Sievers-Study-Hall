@@ -3,6 +3,7 @@ from datetime import timedelta
 from flask import Flask
 from flask_mail import Mail
 from flask_login import LoginManager
+from flask_migrate import Migrate
 
 from webapp.routes import routes_bp
 from users.users.models import db, User
@@ -27,6 +28,8 @@ mail = Mail()
 mail.init_app(app)
 
 db.init_app(app)
+
+migrate = Migrate(app, db)
 
 # Minimal Flask-Login setup (needed for login_user/logout_user)
 login_manager = LoginManager(app)

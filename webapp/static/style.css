@@ -88,8 +88,8 @@ body.day-mode .menu a:hover {
 
 .lang-container {
     position: absolute;
-    top: 30px;
-    right: 100px;
+    top: 31px;
+    right: 80px;
     z-index: 1001;
 }
 
@@ -678,8 +678,8 @@ body.day-mode .feedback-incorrect-container {
 
 .flag-form-container {
     position: absolute;
-    top: 18px;
-    right: 20px;
+    top: 13px;
+    right: 15px;
 }
 
 .flag-button {
@@ -697,6 +697,36 @@ body.day-mode .flag-button {
 
 .flag-button:hover {
     color: #ccc;
+}
+
+.bookmark-form {
+    position: absolute;
+    top: 0.8rem;
+    left: 0.8rem;
+    margin: 0;
+}
+
+.bookmark-button {
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bookmark-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.bookmark-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.bookmark-list .bookmark-item {
+    margin-bottom: 2rem;  /* adjust as you like */
 }
 
 .flash-messages {
@@ -724,10 +754,10 @@ body.day-mode .flash-message.info {
     border: 2px solid purple;
 }
 
-.flag-form-container{
+.flag-form-container {
   position: absolute;
-  top: 18px;
-  right: 20px;
+  top: 13px;
+  right: 15px;
   z-index: 10;
 
   display: flex;
@@ -736,11 +766,11 @@ body.day-mode .flash-message.info {
   gap: 8px;                /* space between flag and textbox */
 }
 
-.flag-form{
+.flag-form {
   display: block;          /* so it goes under the flag */
 }
 
-.flag-form textarea{
+.flag-form textarea {
   width: 260px;            /* tweak to taste */
   box-sizing: border-box;
 }

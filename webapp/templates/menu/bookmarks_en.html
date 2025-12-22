@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sievers Study Hall – Practice German for Free</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_feedback.html" import render_feedback %}
+
+    {{ render_title("Bookmarks") }}
+
+{% block content %}
+
+{% set force_full_bookmark = True %}
+
+  {% if bookmarks %}
+    <ul class="bookmark-list">
+      {% for bm in bookmarks %}
+        <li class="bookmark-item">
+          <div class="bookmark-meta">
+              {{ bm.created_at.strftime("%Y-%m-%d %H:%M") }},
+              {{ title_page[bm.unit] }}, Exercise {{ bm.exercise }}
+          </div>
+
+            {{ render_feedback(
+                unit=bm.unit,
+                exercise=bm.exercise,
+                is_feedback_box=is_feedback_box,
+                result=bm.result,
+                feedback_message=bm.feedback_message,
+                your_answer=your_answer,
+                user_answer=bm.user_answer,
+                incorrect_question=get_question_from_incorrect_answer(bm.unit, bm.exercise, bm.result, bm.user_answer),
+                current_user=current_user,
+                force_full_bookmark=True,
+                bookmark_id=bm.id
+            ) }}
+
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No bookmarks yet. You can bookmark feedbacks by click on the <img class="bookmark-icon"
+                src="{{ url_for('static', filename='bookmarks/empty.png') }}"
+                > icon in the top left corner of the feedback containers.</p>
+  {% endif %}
+
+{% endblock %}
+
+    <script>
+      function toggleFlagForm(button) {
+        const container = button.closest(".flag-form-container");
+        const form = container.querySelector("form.flag-form");
+
+        form.classList.toggle("hidden");
+
+        if (!form.classList.contains("hidden")) {
+          form.querySelector("textarea").focus();
+        }
+      }
+    </script>
+
+</body>
+</html>

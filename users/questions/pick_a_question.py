@@ -182,7 +182,6 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
 
         if not match.empty:
             question = match.iloc[0]
-            print(question)
             return f"(<i>{question}</i>)"
         else:
             return ""
