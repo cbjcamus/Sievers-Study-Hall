@@ -1,0 +1,71 @@
+.exercise-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.exercise-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.exercise-table td:nth-child(1) {
+    width: 16.66%;
+}
+
+.exercise-table td:nth-child(2) {
+    width: 8.33%;
+}
+
+.exercise-table td:nth-child(3) {
+    width: 8.33%;
+}
+
+.exercise-table td:nth-child(4) {
+    width: 66.66%;
+}
+
+.exercise-table td a.button {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+body.day-mode .button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}

@@ -5,10 +5,12 @@
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 </head>
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/home.html" import render_unit_table_row %}
 
     {{ render_title("Sievers Study Hall") }}
@@ -80,6 +82,5 @@
         {{ STAR_GOLD | safe }} {{ UNIT_PARTICULARLY_LIKE_BY_USERS }} <br>
     </p>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

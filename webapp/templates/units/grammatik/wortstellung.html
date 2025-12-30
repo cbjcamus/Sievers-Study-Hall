@@ -5,9 +5,11 @@
     <meta name="description" content="Practice German Adverbs. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/unit.css') }}">
 </head>
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
@@ -34,6 +36,5 @@
         <a href="/" class="button">{{ homepage }}</a>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

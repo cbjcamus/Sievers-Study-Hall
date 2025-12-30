@@ -16,7 +16,7 @@ INTRODUCTION_EN = {
     ,
     praepositionen_verben:
         "Verb-Preposition pairs."
-        "<br><br>Includes pronominaladverbien in \"Da\" and \"Wo\" at level A2."
+        "<br><br>Includes pronominaladverbien in <i>Da</i> and <i>Wo</i> at level A2."
     ,
     praepositionen_adjektive:
         "Adjective-Preposition pairs."
@@ -59,7 +59,7 @@ INTRODUCTION_EN = {
         "<br> &nbsp; &bull; Adverb:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adverb – Verb – Subject – Object"
         "<br> &nbsp; &bull; Correlative conjunction:"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two or more terms such as \"um zu\", \"entweder oder\" or \"sowohl als auch\""
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two or more terms such as <i>um zu</i>, <i>entweder oder</i> or <i>sowohl als auch</i>"
     ,
     fragen:
         "Question words."

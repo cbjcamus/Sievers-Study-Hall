@@ -16,7 +16,7 @@ INTRODUCTION_FR = {
     ,
     praepositionen_verben:
         "Paires Verbe–Preposition, en isolation et en contexte."
-        "<br><br>Inclu les adverbes pronominaux en \"Da\" et \"Wo\" au niveau A2."
+        "<br><br>Inclu les adverbes pronominaux en <i>Da</i> et <i>Wo</i> au niveau A2."
     ,
     praepositionen_adjektive:
         "Paires Adjectif–Préposition, en isolation et en contexte."
@@ -56,7 +56,7 @@ INTRODUCTION_FR = {
         "<br> &nbsp; &bull; Adverbe:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adverbe – Verbe – Subjet – COD"
         "<br> &nbsp; &bull; Conjonction corrélatives:"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set de deux termes ou plus comme \"um zu\", \"entweder oder\" ou \"sowohl als auch\""
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set de deux termes ou plus comme <i>um zu</i>, <i>entweder oder</i> ou <i>sowohl als auch</i>"
     ,
     fragen:
         "Mots interrogatifs."

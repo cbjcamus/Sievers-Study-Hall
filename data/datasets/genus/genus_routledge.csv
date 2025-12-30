@@ -5,7 +5,7 @@ Nr,exercise,level,question,answer,german,english,french
 4,1,A1,_____ Zeit,die,die Zeit,the time,le temps
 5,1,A1,_____ Frau,die,die Frau,the woman,la femme
 6,1,A1,_____ Mensch,der,der Mensch,the human being,l'être humain
-7,1,A1,_____ Deutsch,das,das Deutsch,German,Allemand
+7,1,A1,_____ Deutsch,das,das Deutsch,the German,l'Allemand
 8,1,A1,_____ Kind,das,das Kind,the child,l'enfant
 9,1,A1,_____ Tag,der,der Tag,the day,le jour
 10,1,A1,_____ Mann,der,der Mann,the man,l'homme
@@ -116,9 +116,9 @@ Nr,exercise,level,question,answer,german,english,french
 115,6,A1,_____ Programm,das,das Programm,the program,le programme
 116,6,A1,_____ Angst,die,die Angst,the fear,la peur
 117,6,A1,_____ Information,die,die Information,the information,les informations
-118,6,A1,_____ Kunst,die,die Kunst,art,art
+118,6,A1,_____ Kunst,die,die Kunst,the art,l'art
 119,6,A1,_____ Musik,die,die Musik,the music,la musique
-120,6,A1,_____ Politik,die,die Politik,politics,politique
+120,6,A1,_____ Politik,die,die Politik,the politics,la politique
 121,7,A1,_____ Beruf,der,der Beruf,the job,le travail
 122,7,A1,_____ Regel,die,die Regel,the rule,la règle
 123,7,A1,_____ Schritt,der,der Schritt,the step,l'étape
@@ -152,7 +152,7 @@ Nr,exercise,level,question,answer,german,english,french
 151,8,A1,_____ Firma,die,die Firma,the Company,la société
 152,8,A1,_____ Kraft,die,die Kraft,the power,le pouvoir
 153,8,A1,_____ Student,der,der Student,the student,l'étudiant
-154,8,A1,_____ Zuhause,das,das Zuhause,home,maison
+154,8,A1,_____ Zuhause,das,das Zuhause,the home,"la maison, le chez-soi"
 155,8,A1,_____ Chance,die,die Chance,the chance,la chance
 156,8,A1,_____ Zeitung,die,die Zeitung,the newspaper,le journal
 157,8,A1,_____ Erfolg,der,der Erfolg,the success,le succès
@@ -200,7 +200,7 @@ Nr,exercise,level,question,answer,german,english,french
 199,10,A1,_____ Sicherheit,die,die Sicherheit,the safety,la sécurité
 200,10,A1,_____ Einsatz,der,der Einsatz,the deployment,le déploiement
 201,11,A1,_____ Gebiet,das,das Gebiet,the area,la région
-202,11,A1,_____ Dank,der,der Dank,thanks,merci
+202,11,A1,_____ Dank,der,der Dank,the thanks,le remerciement
 203,11,A1,_____ Dorf,das,das Dorf,the village,le village
 204,11,A1,_____ Kollege,der,der Kollege,the colleague,le collègue
 205,11,A1,_____ Angabe,die,die Angabe,the information,les informations
@@ -236,7 +236,7 @@ Nr,exercise,level,question,answer,german,english,french
 235,12,A1,_____ Ordnung,die,die Ordnung,the order,l'ordre
 236,12,A1,_____ Stoff,der,der Stoff,the fabric,le tissu
 237,12,A1,_____ Beginn,der,der Beginn,the beginning,le début
-238,12,A1,_____ Glück,das,das Glück,happiness,bonheur
+238,12,A1,_____ Glück,das,das Glück,the happiness,le bonheur
 239,12,A1,_____ Wochenende,das,das Wochenende,the weekend,le week-end
 240,12,A1,_____ Professor,der,der Professor,the professor,le professeur
 241,13,A1,_____ Reihe,die,die Reihe,the series,la série
@@ -270,7 +270,7 @@ Nr,exercise,level,question,answer,german,english,french
 269,14,A1,_____ Einfluss,der,der Einfluss,the influence,l'influence
 270,14,A1,_____ Methode,die,die Methode,the method,la méthode
 271,14,A1,_____ Organisation,die,die Organisation,the organization,l'organisation
-272,14,A1,_____ Liebe,die,die Liebe,love,amour
+272,14,A1,_____ Liebe,die,die Liebe,the love,l'amour
 273,14,A1,_____ Rede,die,die Rede,the speech,le discours
 274,14,A1,_____ Sport,der,der Sport,the sport,le sport
 275,14,A1,_____ Augenblick,der,der Augenblick,the moment,le moment
@@ -318,10 +318,10 @@ Nr,exercise,level,question,answer,german,english,french
 317,16,A1,_____ Sekunde,die,die Sekunde,the second,le second
 318,16,A1,_____ Sonne,die,die Sonne,the sun,le soleil
 319,16,A1,_____ Umstand,der,der Umstand,the circumstance,la circonstance
-320,16,A1,_____ Wissenschaft,die,die Wissenschaft,science,science
+320,16,A1,_____ Wissenschaft,die,die Wissenschaft,science,la science
 321,17,A1,_____ Garten,der,der Garten,the garden,le jardin
 322,17,A1,_____ Küche,die,die Küche,the kitchen,la cuisine
-323,17,A1,_____ Wirklichkeit,die,die Wirklichkeit,reality,réalité
+323,17,A1,_____ Wirklichkeit,die,die Wirklichkeit,the reality,la réalité
 324,17,A1,_____ Druck,der,der Druck,the pressure,la pression
 325,17,A1,_____ Essen,das,das Essen,the food,la nourriture
 326,17,A1,_____ Grundlage,die,die Grundlage,the basis,la base
@@ -407,7 +407,7 @@ Nr,exercise,level,question,answer,german,english,french
 406,21,A1,_____ Erkenntnis,die,die Erkenntnis,the realization,la réalisation
 407,21,A1,_____ Faktor,der,der Faktor,the factor,le facteur
 408,21,A1,_____ Fehler,der,der Fehler,the error,l'erreur
-409,21,A1,_____ Freiheit,die,die Freiheit,freedom,liberté
+409,21,A1,_____ Freiheit,die,die Freiheit,the freedom,la liberté
 410,21,A1,_____ Freizeit,die,die Freizeit,the free time,le temps libre
 411,21,A1,_____ Gegend,die,die Gegend,the area,la région
 412,21,A1,_____ Kritik,die,die Kritik,the criticism,la critique
@@ -426,7 +426,7 @@ Nr,exercise,level,question,answer,german,english,french
 425,22,A1,_____ Karte,die,die Karte,the map,la carte
 426,22,A1,_____ Urlaub,der,der Urlaub,the holidays,les vacances
 427,22,A1,_____ Verantwortung,die,die Verantwortung,the responsibility,la responsabilité
-428,22,A1,_____ Wahrheit,die,die Wahrheit,The truth,La vérité
+428,22,A1,_____ Wahrheit,die,die Wahrheit,the truth,la vérité
 429,22,A1,_____ Gebäude,das,das Gebäude,the building,le bâtiment
 430,22,A1,_____ Gesellschafter,der,der Gesellschafter,the shareholder,l'actionnaire
 431,22,A1,_____ Jahrzehnt,das,das Jahrzehnt,the decade,la décennie
@@ -464,7 +464,7 @@ Nr,exercise,level,question,answer,german,english,french
 463,24,A1,_____ Ehe,die,die Ehe,the marriage,le mariage
 464,24,A1,_____ Ursache,die,die Ursache,the cause,la cause
 465,24,A1,_____ Verlust,der,der Verlust,the loss,la perte
-466,24,A1,_____ Winter,der,der Winter,winter,hiver
+466,24,A1,_____ Winter,der,der Winter,the winter,l'hiver
 467,24,A1,_____ Zuschauer,der,der Zuschauer,the spectator,le spectateur
 468,24,A1,_____ Anzahl,die,die Anzahl,the number,le nombre
 469,24,A1,_____ Insel,die,die Insel,the island,l'île
@@ -476,7 +476,7 @@ Nr,exercise,level,question,answer,german,english,french
 475,24,A1,_____ Vorschlag,der,der Vorschlag,the suggestion,la suggestion
 476,24,A1,_____ Zentimeter,der,der Zentimeter,the centimeter,le centimètre
 477,24,A1,_____ Abstand,der,der Abstand,the distance,la distance
-478,24,A1,_____ Bildung,die,die Bildung,education,éducation
+478,24,A1,_____ Bildung,die,die Bildung,the education,l'éducation
 479,24,A1,_____ Eigenschaft,die,die Eigenschaft,the property,la propriété
 480,24,A1,_____ Generation,die,die Generation,the generation,la génération
 481,25,A1,_____ Leiter,der,der Leiter,the ladder,l'échelle
@@ -495,7 +495,7 @@ Nr,exercise,level,question,answer,german,english,french
 494,25,A1,_____ Element,das,das Element,the element,l'élément
 495,25,A1,_____ Gelegenheit,die,die Gelegenheit,the opportunity,l'opportunité
 496,25,A1,_____ Hof,der,der Hof,the yard,la cour
-497,25,A1,_____ Kommunikation,die,die Kommunikation,communication,communication
+497,25,A1,_____ Kommunikation,die,die Kommunikation,the communication,la communication
 498,25,A1,_____ Mama,die,die Mama,the mother,la mère
 499,25,A1,_____ Museum,das,das Museum,the museum,le musée
 500,25,A1,_____ Nutzung,die,die Nutzung,the use,l'utilisation
@@ -545,17 +545,17 @@ Nr,exercise,level,question,answer,german,english,french
 544,28,A2,_____ Laden,der,der Laden,the store,le magasin
 545,28,A2,_____ Meister,der,der Meister,the master,le maître
 546,28,A2,_____ Stellung,die,die Stellung,the position,la position
-547,28,A2,_____ Zugang,der,der Zugang,access,accéder
+547,28,A2,_____ Zugang,der,der Zugang,the access,l'accès
 548,28,A2,_____ Branche,die,die Branche,the industry,l'industrie
 549,28,A2,_____ Figur,die,die Figur,the character,le personnage
-550,28,A2,_____ Frieden,der,der Frieden,peace,paix
+550,28,A2,_____ Frieden,der,der Frieden,the peace,la paix
 551,28,A2,_____ Industrie,die,die Industrie,the industry,l'industrie
 552,28,A2,_____ Umgang,der,der Umgang,the handling,la manutention
 553,28,A2,_____ Vorgang,der,der Vorgang,the process,le processus
 554,28,A2,_____ Wachstum,das,das Wachstum,the growth,la croissance
 555,28,A2,_____ Büro,das,das Büro,the office,le bureau
 556,28,A2,_____ Darstellung,die,die Darstellung,the representation,la représentation
-557,28,A2,_____ Fußball,der,der Fußball,football,football
+557,28,A2,_____ Fußball,der,der Fußball,football,le football
 558,28,A2,_____ Gewalt,die,die Gewalt,the violence,la violence
 559,28,A2,_____ Institution,die,die Institution,the institution,l'institution
 560,28,A2,_____ Katze,die,die Katze,the cat,le chat
@@ -590,12 +590,12 @@ Nr,exercise,level,question,answer,german,english,french
 589,30,A2,_____ Führung,die,die Führung,the leadership,le leadership
 590,30,A2,_____ Geschwindigkeit,die,die Geschwindigkeit,the speed,la vitesse
 591,30,A2,_____ Gut,das,das Gut,that good,c'est bien
-592,30,A2,_____ Medizin,die,die Medizin,medicine,médecine
+592,30,A2,_____ Medizin,die,die Medizin,medicine,la médecine
 593,30,A2,_____ Nachbar,der,der Nachbar,the neighbor,le voisin
 594,30,A2,_____ Software,die,die Software,the software,le logiciel
 595,30,A2,_____ Stufe,die,die Stufe,the level,le niveau
 596,30,A2,_____ Telefon,das,das Telefon,the phone,le téléphone
-597,30,A2,_____ Terrorismus,der,der Terrorismus,terrorism,terrorisme
+597,30,A2,_____ Terrorismus,der,der Terrorismus,the terrorism,le terrorisme
 598,30,A2,_____ Trainer,der,der Trainer,the coach,l'entraîneur
 599,30,A2,_____ Zweifel,der,der Zweifel,the doubt,le doute
 600,30,A2,_____ Anforderung,die,die Anforderung,the requirement,l'exigence
@@ -647,7 +647,7 @@ Nr,exercise,level,question,answer,german,english,french
 646,33,A2,_____ Manager,der,der Manager,the manager,le gérant
 647,33,A2,_____ Quelle,die,die Quelle,the source,la source
 648,33,A2,_____ Regen,der,der Regen,the rain,la pluie
-649,33,A2,_____ Religion,die,die Religion,religion,religion
+649,33,A2,_____ Religion,die,die Religion,the religion,la religion
 650,33,A2,_____ Spieler,der,der Spieler,the player,le joueur
 651,33,A2,_____ Summe,die,die Summe,the sum,la somme
 652,33,A2,_____ Termin,der,der Termin,the appointment,le rendez-vous
@@ -670,9 +670,9 @@ Nr,exercise,level,question,answer,german,english,french
 669,34,A2,_____ Pause,die,die Pause,the break,la pause
 670,34,A2,_____ Perspektive,die,die Perspektive,the perspective,la perspective
 671,34,A2,_____ Phänomen,das,das Phänomen,the phenomenon,le phénomène
-672,34,A2,_____ Realität,die,die Realität,reality,réalité
+672,34,A2,_____ Realität,die,die Realität,the reality,la réalité
 673,34,A2,_____ Suche,die,die Suche,the search,la recherche
-674,34,A2,_____ Weltkrieg,der,der Weltkrieg,World War,Guerre mondiale
+674,34,A2,_____ Weltkrieg,der,der Weltkrieg,the World War,la guerre mondiale
 675,34,A2,_____ Arbeitgeber,der,der Arbeitgeber,the employer,l'employeur
 676,34,A2,_____ Aufbau,der,der Aufbau,the structure,la structure
 677,34,A2,_____ Bestimmungen,die,die Bestimmungen,the provisions,les dispositions
@@ -680,12 +680,12 @@ Nr,exercise,level,question,answer,german,english,french
 679,34,A2,_____ Brot,das,das Brot,the bread,le pain
 680,34,A2,_____ Flasche,die,die Flasche,the bottle,la bouteille
 681,35,A2,_____ Formel,die,die Formel,the formula,la formule
-682,35,A2,_____ Fortschritt,der,der Fortschritt,progress,progrès
+682,35,A2,_____ Fortschritt,der,der Fortschritt,the progress,le progrès
 683,35,A2,_____ Geburtstag,der,der Geburtstag,the birthday,l'anniversaire
 684,35,A2,_____ Gegenwart,die,die Gegenwart,the present,le présent
 685,35,A2,_____ Hauptstadt,die,die Hauptstadt,the capital,la capitale
 686,35,A2,_____ Mühe,die,die Mühe,the effort,l'effort
-687,35,A2,_____ Nachfrage,die,die Nachfrage,demand,demande
+687,35,A2,_____ Nachfrage,die,die Nachfrage,the demand,la demande
 688,35,A2,_____ Pflicht,die,die Pflicht,the duty,le devoir
 689,35,A2,_____ Studiengang,der,der Studiengang,the study program,le programme d'études
 690,35,A2,_____ Teilnehmer,der,der Teilnehmer,the participant,le participant
@@ -705,7 +705,7 @@ Nr,exercise,level,question,answer,german,english,french
 704,36,A2,_____ Kauf,der,der Kauf,the purchase,l'achat
 705,36,A2,_____ Kino,das,das Kino,the cinema,le cinéma
 706,36,A2,_____ Konkurrenz,die,die Konkurrenz,the competition,la compétition
-707,36,A2,_____ Mathematik,die,die Mathematik,mathematics,mathématiques
+707,36,A2,_____ Mathematik,die,die Mathematik,the mathematics,les mathématiques
 708,36,A2,_____ Schicht,die,die Schicht,the layer,la couche
 709,36,A2,_____ Schwerpunkt,der,der Schwerpunkt,the focus,l'accent
 710,36,A2,_____ Streit,der,der Streit,the dispute,le différend
@@ -717,7 +717,7 @@ Nr,exercise,level,question,answer,german,english,french
 716,36,A2,_____ Gegenteil,das,das Gegenteil,the contrary,le contraire
 717,36,A2,_____ Gemeinschaft,die,die Gemeinschaft,the community,la communauté
 718,36,A2,_____ Gewerkschaft,die,die Gewerkschaft,the union,le syndicat
-719,36,A2,_____ Handel,der,der Handel,trade,commerce
+719,36,A2,_____ Handel,der,der Handel,the trade,le commerce
 720,36,A2,_____ Kanzler,der,der Kanzler,the Chancellor,le chancelier
 721,37,A2,_____ Management,das,das Management,the management,la direction
 722,37,A2,_____ Millimeter,der,der Millimeter,the millimeter,le millimètre
@@ -727,7 +727,7 @@ Nr,exercise,level,question,answer,german,english,french
 726,37,A2,_____ Sitz,der,der Sitz,the seat,le siège
 727,37,A2,_____ Start,der,der Start,the start,le début
 728,37,A2,_____ Tabelle,die,die Tabelle,the table,la table
-729,37,A2,_____ Tourismus,der,der Tourismus,tourism,tourisme
+729,37,A2,_____ Tourismus,der,der Tourismus,the tourism,le tourisme
 730,37,A2,_____ Verdacht,der,der Verdacht,the suspicion,le soupçon
 731,37,A2,_____ Vogel,der,der Vogel,the bird,l'oiseau
 732,37,A2,_____ Widerstand,der,der Widerstand,the resistance,la résistance
@@ -756,7 +756,7 @@ Nr,exercise,level,question,answer,german,english,french
 755,38,A2,_____ Gesundheit,die,die Gesundheit,the health,la santé
 756,38,A2,_____ Park,der,der Park,the park,le parc
 757,38,A2,_____ PC,der,der PC,the PC,le PC
-758,38,A2,_____ Physik,die,die Physik,physics,physique
+758,38,A2,_____ Physik,die,die Physik,physics,la physique
 759,38,A2,_____ Post,die,die Post,the post,le poste
 760,38,A2,_____ Saison,die,die Saison,the season,la saison
 761,39,A2,_____ Stirn,die,die Stirn,the forehead,le front
@@ -766,7 +766,7 @@ Nr,exercise,level,question,answer,german,english,french
 765,39,A2,_____ Auftritt,der,der Auftritt,the performance,la performance
 766,39,A2,_____ Bahnhof,der,der Bahnhof,the station,la station
 767,39,A2,_____ Bundeskanzler,der,der Bundeskanzler,the Federal Chancellor,le chancelier fédéral
-768,39,A2,_____ Demokratie,die,die Demokratie,democracy,démocratie
+768,39,A2,_____ Demokratie,die,die Demokratie,democracy,la démocratie
 769,39,A2,_____ Erwartung,die,die Erwartung,the expectation,l'attente
 770,39,A2,_____ Fahrzeug,das,das Fahrzeug,the vehicle,le véhicule
 771,39,A2,_____ Fotografie,die,die Fotografie,photography,photographie
@@ -777,7 +777,7 @@ Nr,exercise,level,question,answer,german,english,french
 776,39,A2,_____ Liste,die,die Liste,the list,la liste
 777,39,A2,_____ Niveau,das,das Niveau,the level,le niveau
 778,39,A2,_____ Pfarrer,der,der Pfarrer,the pastor,le pasteur
-779,39,A2,_____ Schicksal,das,das Schicksal,fate,destin
+779,39,A2,_____ Schicksal,das,das Schicksal,the fate,la destin
 780,39,A2,_____ Schrift,die,die Schrift,the writing,l'écriture
 781,40,A2,_____ Standort,der,der Standort,the location,l'emplacement
 782,40,A2,_____ Verlag,der,der Verlag,the publisher,l'éditeur
@@ -798,9 +798,9 @@ Nr,exercise,level,question,answer,german,english,french
 797,40,A2,_____ Abitur,das,das Abitur,the high school diploma,le diplôme d'études secondaires
 798,40,A2,_____ Bedarf,der,der Bedarf,the need,le besoin
 799,40,A2,_____ Beratung,die,die Beratung,the consultation,la consultation
-800,40,A2,_____ Beschäftigung,die,die Beschäftigung,employment,emploi
+800,40,A2,_____ Beschäftigung,die,die Beschäftigung,the employment,l'emploi
 801,41,A2,_____ Betrachtung,die,die Betrachtung,the consideration,la considération
-802,41,A2,_____ Frühjahr,das,das Frühjahr,spring,printemps
+802,41,A2,_____ Frühjahr,das,das Frühjahr,the spring,le printemps
 803,41,A2,_____ Gewicht,das,das Gewicht,the weight,le poids
 804,41,A2,_____ Journalist,der,der Journalist,the journalist,le journaliste
 805,41,A2,_____ Kompetenz,die,die Kompetenz,the competence,la compétence
@@ -811,7 +811,7 @@ Nr,exercise,level,question,answer,german,english,french
 810,41,A2,_____ Treppe,die,die Treppe,the stairs,l'escalier
 811,41,A2,_____ Vermögen,das,das Vermögen,the assets,les actifs
 812,41,A2,_____ Wesen,das,das Wesen,the essence,l'essence
-813,41,A2,_____ Arbeitslosigkeit,die,die Arbeitslosigkeit,unemployment,chômage
+813,41,A2,_____ Arbeitslosigkeit,die,die Arbeitslosigkeit,the unemployment,le chômage
 814,41,A2,_____ Beobachtung,die,die Beobachtung,the observation,l'observation
 815,41,A2,_____ Bestandteil,der,der Bestandteil,the component,le composant
 816,41,A2,_____ Beteiligung,die,die Beteiligung,the participation,la participation
@@ -865,7 +865,7 @@ Nr,exercise,level,question,answer,german,english,french
 864,44,A2,_____ Quartal,das,das Quartal,the quarter,le trimestre
 865,44,A2,_____ Rad,das,das Rad,the wheel,la roue
 866,44,A2,_____ Rechner,der,der Rechner,the computer,l'ordinateur
-867,44,A2,_____ Schlaf,der,der Schlaf,sleep,dormir
+867,44,A2,_____ Schlaf,der,der Schlaf,the sleep,le sommeil
 868,44,A2,_____ Sender,der,der Sender,the broadcaster,le diffuseur
 869,44,A2,_____ Tal,das,das Tal,the valley,la vallée
 870,44,A2,_____ Tiefe,die,die Tiefe,the depth,la profondeur
@@ -878,12 +878,12 @@ Nr,exercise,level,question,answer,german,english,french
 877,44,A2,_____ Bewohner,der,der Bewohner,the resident,le résident
 878,44,A2,_____ Charakter,der,der Charakter,the character,le personnage
 879,44,A2,_____ Einkommen,das,das Einkommen,the income,le revenu
-880,44,A2,_____ Erziehung,die,die Erziehung,education,éducation
+880,44,A2,_____ Erziehung,die,die Erziehung,the education,l'éducation
 881,45,A2,_____ Geburt,die,die Geburt,the birth,la naissance
 882,45,A2,_____ Halle,die,die Halle,the hall,le hall
 883,45,A2,_____ Herausforderung,die,die Herausforderung,the challenge,le défi
-884,45,A2,_____ Informationstechnologie,die,die Informationstechnologie,information technology,informatique
-885,45,A2,_____ Mittag,der,der Mittag,midday,midi
+884,45,A2,_____ Informationstechnologie,die,die Informationstechnologie,information technology,l'informatique
+885,45,A2,_____ Mittag,der,der Mittag,midday,le midi
 886,45,A2,_____ Niederlage,die,die Niederlage,the defeat,la défaite
 887,45,A2,_____ Norm,die,die Norm,the norm,la norme
 888,45,A2,_____ Reform,die,die Reform,the reform,la réforme
@@ -897,7 +897,7 @@ Nr,exercise,level,question,answer,german,english,french
 896,45,A2,_____ Träne,die,die Träne,the tear,la larme
 897,45,A2,_____ Trauer,die,die Trauer,the grief,le deuil
 898,45,A2,_____ Vorstand,der,der Vorstand,the board,le conseil d'administration
-899,45,A2,_____ Zufall,der,der Zufall,chance,chance
+899,45,A2,_____ Zufall,der,der Zufall,the chance,la chance
 900,45,A2,_____ Zustimmung,die,die Zustimmung,the consent,le consentement
 901,46,A2,_____ Annahme,die,die Annahme,the assumption,l'hypothèse
 902,46,A2,_____ Argument,das,das Argument,the argument,l'argument
@@ -910,7 +910,7 @@ Nr,exercise,level,question,answer,german,english,french
 909,46,A2,_____ Disziplin,die,die Disziplin,the discipline,la discipline
 910,46,A2,_____ Existenz,die,die Existenz,the existence,l'existence
 911,46,A2,_____ Fraktion,die,die Fraktion,the parliamentary group,le groupe parlementaire
-912,46,A2,_____ Grundgesetz,das,das Grundgesetz,the Basic Law,la Loi fondamentale
+912,46,A2,_____ Grundgesetz,das,das Grundgesetz,the Basic Law,la loi fondamentale
 913,46,A2,_____ Händler,der,der Händler,the dealer,le concessionnaire
 914,46,A2,_____ Hinblick,der,der Hinblick,the view,la vue
 915,46,A2,_____ Individuum,das,das Individuum,the individual,l'individu
@@ -1029,7 +1029,7 @@ Nr,exercise,level,question,answer,german,english,french
 1028,52,B1,_____ Feind,der,der Feind,the enemy,l'ennemi
 1029,52,B1,_____ Flucht,die,die Flucht,the escape,l'évasion
 1030,52,B1,_____ Flüchtling,der,der Flüchtling,the refugee,le réfugié
-1031,52,B1,_____ Geschlecht,das,das Geschlecht,gender,genre
+1031,52,B1,_____ Geschlecht,das,das Geschlecht,the gender,le genre
 1032,52,B1,_____ Gewissen,das,das Gewissen,the conscience,la conscience
 1033,52,B1,_____ Gläubiger,der,der Gläubiger,the creditor,le créancier
 1034,52,B1,_____ Griff,der,der Griff,the handle,la poignée
@@ -1069,7 +1069,7 @@ Nr,exercise,level,question,answer,german,english,french
 1068,54,B1,_____ Ball,der,der Ball,the ball,la balle
 1069,54,B1,_____ Bemerkung,die,die Bemerkung,the remark,la remarque
 1070,54,B1,_____ Besitz,der,der Besitz,the possession,la possession
-1071,54,B1,_____ Chemie,die,die Chemie,chemistry,chimie
+1071,54,B1,_____ Chemie,die,die Chemie,the chemistry,la chimie
 1072,54,B1,_____ Distanz,die,die Distanz,the distance,la distance
 1073,54,B1,_____ Ei,das,das Ei,the egg,l'œuf
 1074,54,B1,_____ Frist,die,die Frist,the deadline,la date limite
@@ -1140,12 +1140,12 @@ Nr,exercise,level,question,answer,german,english,french
 1139,57,B1,_____ Gas,das,das Gas,the gas,le gaz
 1140,57,B1,_____ Gen,das,das Gen,the gene,le gène
 1141,58,B1,_____ Hitze,die,die Hitze,the heat,la chaleur
-1142,58,B1,_____ Kindheit,die,die Kindheit,childhood,enfance
+1142,58,B1,_____ Kindheit,die,die Kindheit,the childhood,l'enfance
 1143,58,B1,_____ Klavier,das,das Klavier,the piano,le piano
 1144,58,B1,_____ Konzentration,die,die Konzentration,the concentration,la concentration
 1145,58,B1,_____ Leib,der,der Leib,the body,le corps
 1146,58,B1,_____ Maler,der,der Maler,the painter,le peintre
-1147,58,B1,_____ Menschheit,die,die Menschheit,humanity,humanité
+1147,58,B1,_____ Menschheit,die,die Menschheit,the humanity,l'humanité
 1148,58,B1,_____ Milch,die,die Milch,the milk,le lait
 1149,58,B1,_____ Mord,der,der Mord,the murder,le meurtre
 1150,58,B1,_____ Pilot,der,der Pilot,the pilot,le pilote
@@ -1164,12 +1164,12 @@ Nr,exercise,level,question,answer,german,english,french
 1163,59,B1,_____ Eis,das,das Eis,the ice,la glace
 1164,59,B1,_____ Empfang,der,der Empfang,the reception,la réception
 1165,59,B1,_____ Empfänger,der,der Empfänger,the recipient,le destinataire
-1166,59,B1,_____ Ernährung,die,die Ernährung,nutrition,nutrition
+1166,59,B1,_____ Ernährung,die,die Ernährung,the nutrition,la nutrition
 1167,59,B1,_____ Gesichtspunkt,der,der Gesichtspunkt,the point of view,le point de vue
 1168,59,B1,_____ Großmutter,die,die Großmutter,the grandmother,la grand-mère
 1169,59,B1,_____ Herkunft,die,die Herkunft,the origin,l'origine
 1170,59,B1,_____ Hochzeit,die,die Hochzeit,the wedding,le mariage
-1171,59,B1,_____ Hunger,der,der Hunger,hunger,faim
+1171,59,B1,_____ Hunger,der,der Hunger,the hunger,la faim
 1172,59,B1,_____ Konjunktur,die,die Konjunktur,the economy,l'économie
 1173,59,B1,_____ Konkurrent,der,der Konkurrent,the competitor,le concurrent
 1174,59,B1,_____ Last,die,die Last,the burden,le fardeau
@@ -1231,7 +1231,7 @@ Nr,exercise,level,question,answer,german,english,french
 1230,62,B1,_____ Sprung,der,der Sprung,the jump,le saut
 1231,62,B1,_____ Symptom,das,das Symptom,the symptom,le symptôme
 1232,62,B1,_____ Tennis,das,das Tennis,tennis,tennis
-1233,62,B1,_____ Top,das,das Top,top,haut
+1233,62,B1,_____ Top,das,das Top,the top,le haut
 1234,62,B1,_____ Tuch,das,das Tuch,the cloth,le tissu
 1235,62,B1,_____ Überraschung,die,die Überraschung,the surprise,la surprise
 1236,62,B1,_____ Übersetzung,die,die Übersetzung,the translation,la traduction
@@ -1314,7 +1314,7 @@ Nr,exercise,level,question,answer,german,english,french
 1313,66,B1,_____ Lastkraftwagen,der,der Lastkraftwagen,the truck,le camion
 1314,66,B1,_____ Lohn,der,der Lohn,the wage,le salaire
 1315,66,B1,_____ Magen,der,der Magen,the stomach,l'estomac
-1316,66,B1,_____ Mode,die,die Mode,fashion,mode
+1316,66,B1,_____ Mode,die,die Mode,the fashion,la mode
 1317,66,B1,_____ Mörder,der,der Mörder,the murderer,le meurtrier
 1318,66,B1,_____ Öffnung,die,die Öffnung,the opening,l'ouverture
 1319,66,B1,_____ Partie,die,die Partie,the game,le jeu
@@ -1358,7 +1358,7 @@ Nr,exercise,level,question,answer,german,english,french
 1357,68,B1,_____ Märchen,das,das Märchen,the fairy tale,le conte de fées
 1358,68,B1,_____ Mittelalter,das,das Mittelalter,the Middle Ages,le Moyen Âge
 1359,68,B1,_____ Möbel,das,das Möbel,the furniture,les meubles
-1360,68,B1,_____ Moderne,die,die Moderne,modernity,modernité
+1360,68,B1,_____ Moderne,die,die Moderne,the modernity,la modernité
 1361,69,B1,_____ Nerv,der,der Nerv,the nerve,le nerf
 1362,69,B1,_____ Ofen,der,der Ofen,the oven,le four
 1363,69,B1,_____ Pflege,die,die Pflege,the care,les soins
@@ -1370,14 +1370,14 @@ Nr,exercise,level,question,answer,german,english,french
 1369,69,B1,_____ Rücktritt,der,der Rücktritt,the resignation,la démission
 1370,69,B1,_____ Schrank,der,der Schrank,the cupboard,le placard
 1371,69,B1,_____ Sekretärin,die,die Sekretärin,the secretary,la secrétaire
-1372,69,B1,_____ Solidarität,die,die Solidarität,solidarity,solidarité
+1372,69,B1,_____ Solidarität,die,die Solidarität,the solidarity,la solidarité
 1373,69,B1,_____ Sportler,der,der Sportler,the athlete,l'athlète
-1374,69,B1,_____ Stabilität,die,die Stabilität,stability,stabilité
+1374,69,B1,_____ Stabilität,die,die Stabilität,the stability,la stabilité
 1375,69,B1,_____ Status,der,der Status,the status,le statut
 1376,69,B1,_____ Staub,der,der Staub,the dust,la poussière
 1377,69,B1,_____ Tanz,der,der Tanz,the dance,la danse
 1378,69,B1,_____ Topf,der,der Topf,the pot,le pot
-1379,69,B1,_____ Überblick,der,der Überblick,overview,aperçu
+1379,69,B1,_____ Überblick,der,der Überblick,the overview,l'aperçu
 1380,69,B1,_____ Unsicherheit,die,die Unsicherheit,the uncertainty,l'incertitude
 1381,70,B1,_____ Vorhang,der,der Vorhang,the curtain,le rideau
 1382,70,B1,_____ Winkel,der,der Winkel,the angle,l'angle
@@ -1387,7 +1387,7 @@ Nr,exercise,level,question,answer,german,english,french
 1386,70,B1,_____ Akt,der,der Akt,the act,la loi
 1387,70,B1,_____ Akteur,der,der Akteur,the actor,l'acteur
 1388,70,B1,_____ Allianz,die,die Allianz,the alliance,l'alliance
-1389,70,B1,_____ Armut,die,die Armut,poverty,pauvreté
+1389,70,B1,_____ Armut,die,die Armut,the poverty,la pauvreté
 1390,70,B1,_____ Ausgleich,der,der Ausgleich,the compensation,la compensation
 1391,70,B1,_____ Begeisterung,die,die Begeisterung,the enthusiasm,l'enthousiasme
 1392,70,B1,_____ Bezirk,der,der Bezirk,the district,le district
@@ -1420,7 +1420,7 @@ Nr,exercise,level,question,answer,german,english,french
 1419,71,B1,_____ Senat,der,der Senat,the Senate,le sénat
 1420,71,B1,_____ Steuerung,die,die Steuerung,the control,le contrôle
 1421,72,B1,_____ Stolz,der,der Stolz,the pride,la fierté
-1422,72,B1,_____ Teilnahme,die,die Teilnahme,participation,participation
+1422,72,B1,_____ Teilnahme,die,die Teilnahme,the participation,la participation
 1423,72,B1,_____ Universum,das,das Universum,the universe,l'univers
 1424,72,B1,_____ Unterhaltung,die,die Unterhaltung,the entertainment,le divertissement
 1425,72,B1,_____ Unterlagen,die,die Unterlagen,the documents,les documents
@@ -1450,7 +1450,7 @@ Nr,exercise,level,question,answer,german,english,french
 1449,73,B1,_____ Bildschirm,der,der Bildschirm,the screen,l'écran
 1450,73,B1,_____ Blüte,die,die Blüte,the flower,la fleur
 1451,73,B1,_____ Brille,die,die Brille,the glasses,les lunettes
-1452,73,B1,_____ Datenverarbeitung,die,die Datenverarbeitung,data processing,informatique
+1452,73,B1,_____ Datenverarbeitung,die,die Datenverarbeitung,data processing,l'informatique
 1453,73,B1,_____ Eigentümer,der,der Eigentümer,the owner,le propriétaire
 1454,73,B1,_____ Eintragung,die,die Eintragung,the registration,l'inscription
 1455,73,B1,_____ Ensemble,das,das Ensemble,the ensemble,l'ensemble
@@ -1471,7 +1471,7 @@ Nr,exercise,level,question,answer,german,english,french
 1470,74,B1,_____ Lärm,der,der Lärm,the noise,le bruit
 1471,74,B1,_____ Liter,der,der Liter,the liter,le litre
 1472,74,B1,_____ Lokal,das,das Lokal,the restaurant,le restaurant
-1473,74,B1,_____ Malerei,die,die Malerei,painting,peinture
+1473,74,B1,_____ Malerei,die,die Malerei,the painting,la peinture
 1474,74,B1,_____ Maßstab,der,der Maßstab,the scale,l'échelle
 1475,74,B1,_____ Materie,die,die Materie,the matter,la question
 1476,74,B1,_____ Münze,die,die Münze,the coin,la pièce
@@ -1482,19 +1482,19 @@ Nr,exercise,level,question,answer,german,english,french
 1481,75,B1,_____ Schuldner,der,der Schuldner,the debtor,le débiteur
 1482,75,B1,_____ Sportart,die,die Sportart,the sport,le sport
 1483,75,B1,_____ Stamm,der,der Stamm,the tribe,la tribu
-1484,75,B1,_____ Streifen,der,der Streifen,Stripes,Rayures
+1484,75,B1,_____ Streifen,der,der Streifen,the stripe,la rayure
 1485,75,B1,_____ Tasse,die,die Tasse,the cup,la tasse
 1486,75,B1,_____ Teppich,der,der Teppich,the carpet,le tapis
 1487,75,B1,_____ Teufel,der,der Teufel,the devil,le diable
 1488,75,B1,_____ Überprüfung,die,die Überprüfung,the review,la critique
-1489,75,B1,_____ Unsinn,der,der Unsinn,nonsense,absurdité
+1489,75,B1,_____ Unsinn,der,der Unsinn,nonsense,l'absurdité
 1490,75,B1,_____ Verbot,das,das Verbot,the ban,l'interdiction
 1491,75,B1,_____ Vermutung,die,die Vermutung,the assumption,l'hypothèse
 1492,75,B1,_____ Versammlung,die,die Versammlung,the assembly,l'assemblée
 1493,75,B1,_____ Wäsche,die,die Wäsche,the laundry,la lessive
 1494,75,B1,_____ Werkstatt,die,die Werkstatt,the workshop,l'atelier
-1495,75,B1,_____ Wirtschaftspolitik,die,die Wirtschaftspolitik,economic policy,politique économique
-1496,75,B1,_____ Zeug,das,das Zeug,that stuff,ce truc
+1495,75,B1,_____ Wirtschaftspolitik,die,die Wirtschaftspolitik,economic policy,la politique économique
+1496,75,B1,_____ Zeug,das,das Zeug,the  stuff,le truc
 1497,75,B1,_____ Zunge,die,die Zunge,the tongue,la langue
 1498,75,B1,_____ Zwang,der,der Zwang,the compulsion,la compulsion
 1499,75,B1,_____ Antibiotikum,das,das Antibiotikum,the antibiotic,l'antibiotique
@@ -1509,7 +1509,7 @@ Nr,exercise,level,question,answer,german,english,french
 1508,76,B1,_____ Bearbeitung,die,die Bearbeitung,the processing,le traitement
 1509,76,B1,_____ Besonderheit,die,die Besonderheit,the special feature,la caractéristique spéciale
 1510,76,B1,_____ Betracht,der,der Betracht,the consideration,la considération
-1511,76,B1,_____ Biologie,die,die Biologie,biology,biologie
+1511,76,B1,_____ Biologie,die,die Biologie,biology,la biologie
 1512,76,B1,_____ Breite,die,die Breite,the width,la largeur
 1513,76,B1,_____ Butter,die,die Butter,the butter,le beurre
 1514,76,B1,_____ Champion,der,der Champion,the champion,le champion
@@ -1531,7 +1531,7 @@ Nr,exercise,level,question,answer,german,english,french
 1530,77,B1,_____ Handwerk,das,das Handwerk,the craft,l'artisanat
 1531,77,B1,_____ Heft,das,das Heft,the booklet,le livret
 1532,77,B1,_____ Helfer,der,der Helfer,the helper,l'assistant
-1533,77,B1,_____ Intelligenz,die,die Intelligenz,intelligence,intelligence
+1533,77,B1,_____ Intelligenz,die,die Intelligenz,the intelligence,l'intelligence
 1534,77,B1,_____ Jäger,der,der Jäger,the hunter,le chasseur
 1535,77,B1,_____ Kartoffel,die,die Kartoffel,the potato,la pomme de terre
 1536,77,B1,_____ Käse,der,der Käse,the cheese,le fromage
@@ -1576,7 +1576,7 @@ Nr,exercise,level,question,answer,german,english,french
 1575,79,B1,_____ Vergnügen,das,das Vergnügen,the pleasure,le plaisir
 1576,79,B1,_____ Verhaltensweise,die,die Verhaltensweise,the behavior,le comportement
 1577,79,B1,_____ Vermieter,der,der Vermieter,the landlord,le propriétaire
-1578,79,B1,_____ Vernunft,die,die Vernunft,reason,raison
+1578,79,B1,_____ Vernunft,die,die Vernunft,the reason,la raison
 1579,79,B1,_____ Verordnung,die,die Verordnung,the regulation,le règlement
 1580,79,B1,_____ Villa,die,die Villa,the villa,la villa
 1581,80,B1,_____ Vormittag,der,der Vormittag,the morning,le matin
@@ -1597,7 +1597,7 @@ Nr,exercise,level,question,answer,german,english,french
 1596,80,B1,_____ Chor,der,der Chor,the choir,le chœur
 1597,80,B1,_____ Design,das,das Design,the design,le design
 1598,80,B1,_____ Dolmetscher,der,der Dolmetscher,the interpreter,l'interprète
-1599,80,B1,_____ Durchschnitt,der,der Durchschnitt,average,moyenne
+1599,80,B1,_____ Durchschnitt,der,der Durchschnitt,the average,la moyenne
 1600,80,B1,_____ Ehepaar,das,das Ehepaar,the couple,le couple
 1601,81,B1,_____ Einbruch,der,der Einbruch,the break-in,l'effraction
 1602,81,B1,_____ Eintritt,der,der Eintritt,the entry,l'entrée
@@ -1605,7 +1605,7 @@ Nr,exercise,level,question,answer,german,english,french
 1604,81,B1,_____ Europäer,der,der Europäer,the Europeans,les Européens
 1605,81,B1,_____ Fabrik,die,die Fabrik,the factory,l'usine
 1606,81,B1,_____ Furcht,die,die Furcht,the fear,la peur
-1607,81,B1,_____ Geduld,die,die Geduld,patience,patience
+1607,81,B1,_____ Geduld,die,die Geduld,the patience,la patience
 1608,81,B1,_____ General,der,der General,the general,le général
 1609,81,B1,_____ Getränk,das,das Getränk,the drink,la boisson
 1610,81,B1,_____ Gewehr,das,das Gewehr,the rifle,le fusil
@@ -1625,13 +1625,13 @@ Nr,exercise,level,question,answer,german,english,french
 1624,82,B1,_____ Magazin,das,das Magazin,the magazine,le magazine
 1625,82,B1,_____ Marktanteil,der,der Marktanteil,the market share,la part de marché
 1626,82,B1,_____ Maus,die,die Maus,the mouse,la souris
-1627,82,B1,_____ Menschenrecht,das,das Menschenrecht,human rights,droits de l'homme
+1627,82,B1,_____ Menschenrecht,das,das Menschenrecht,the human right,le droit de l'homme
 1628,82,B1,_____ Mieter,der,der Mieter,the tenant,le locataire
 1629,82,B1,_____ Militär,das,das Militär,the military,l'armée
 1630,82,B1,_____ Minderheit,die,die Minderheit,the minority,la minorité
 1631,82,B1,_____ Ministerium,das,das Ministerium,the ministry,le ministère
 1632,82,B1,_____ Mythos,der,der Mythos,the myth,le mythe
-1633,82,B1,_____ Naturwissenschaft,die,die Naturwissenschaft,natural science,sciences naturelles
+1633,82,B1,_____ Naturwissenschaft,die,die Naturwissenschaft,natural science,la sciences naturelle
 1634,82,B1,_____ Parkplatz,der,der Parkplatz,the parking lot,le parking
 1635,82,B1,_____ Partnerschaft,die,die Partnerschaft,the partnership,le partenariat
 1636,82,B1,_____ Periode,die,die Periode,the period,la période
@@ -1654,7 +1654,7 @@ Nr,exercise,level,question,answer,german,english,french
 1653,83,B1,_____ Vitamin,das,das Vitamin,the vitamin,la vitamine
 1654,83,B1,_____ Volkswirtschaft,die,die Volkswirtschaft,the economy,l'économie
 1655,83,B1,_____ Vorlesung,die,die Vorlesung,the lecture,la conférence
-1656,83,B1,_____ Weiterbildung,die,die Weiterbildung,further education,formation continue
+1656,83,B1,_____ Weiterbildung,die,die Weiterbildung,the further education,la formation continue
 1657,83,B1,_____ Zielsetzung,die,die Zielsetzung,the objective,l'objectif
 1658,83,B1,_____ Zucker,der,der Zucker,the sugar,le sucre
 1659,83,B1,_____ Abkommen,das,das Abkommen,the agreement,l'accord
@@ -1681,7 +1681,7 @@ Nr,exercise,level,question,answer,german,english,french
 1680,84,B1,_____ Forum,das,das Forum,the forum,le forum
 1681,85,B1,_____ Frequenz,die,die Frequenz,the frequency,la fréquence
 1682,85,B1,_____ Frucht,die,die Frucht,the fruit,le fruit
-1683,85,B1,_____ Gerechtigkeit,die,die Gerechtigkeit,justice,justice
+1683,85,B1,_____ Gerechtigkeit,die,die Gerechtigkeit,the justice,la justice
 1684,85,B1,_____ Gipfel,der,der Gipfel,the summit,le sommet
 1685,85,B1,_____ Großteil,der,der Großteil,the majority,la majorité
 1686,85,B1,_____ Hörer,der,der Hörer,the listener,l'auditeur
@@ -1702,7 +1702,7 @@ Nr,exercise,level,question,answer,german,english,french
 1701,86,B1,_____ Pistole,die,die Pistole,the pistol,le pistolet
 1702,86,B1,_____ Reichweite,die,die Reichweite,the range,la gamme
 1703,86,B1,_____ Reparatur,die,die Reparatur,the repair,la réparation
-1704,86,B1,_____ Respekt,der,der Respekt,respect,respect
+1704,86,B1,_____ Respekt,der,der Respekt,the respect,le respect
 1705,86,B1,_____ Rose,die,die Rose,the rose,la rose
 1706,86,B1,_____ Rucksack,der,der Rucksack,the backpack,le sac à dos
 1707,86,B1,_____ Sänger,der,der Sänger,the singer,le chanteur
@@ -1757,7 +1757,7 @@ Nr,exercise,level,question,answer,german,english,french
 1756,88,B1,_____ Riff,das,das Riff,the reef,le récif
 1757,88,B1,_____ Schlange,die,die Schlange,the snake,le serpent
 1758,88,B1,_____ Schwein,das,das Schwein,the pig,le cochon
-1759,88,B1,_____ Selbstständigkeit,die,die Selbstständigkeit,self-employment,travail indépendant
+1759,88,B1,_____ Selbstständigkeit,die,die Selbstständigkeit,the self-employment,le travail indépendant
 1760,88,B1,_____ Siedlung,die,die Siedlung,the settlement,le règlement
 1761,89,B1,_____ Spruch,der,der Spruch,the saying,le dicton
 1762,89,B1,_____ Stellungnahme,die,die Stellungnahme,the statement,la déclaration
@@ -1765,5 +1765,5 @@ Nr,exercise,level,question,answer,german,english,french
 1764,89,B1,_____ Strömung,die,die Strömung,the current,le courant
 1765,89,B1,_____ Verbindlichkeit,die,die Verbindlichkeit,the obligation,l'obligation
 1766,89,B1,_____ Volumen,das,das Volumen,the volume,le volume
-1767,89,B1,_____ Zugriff,der,der Zugriff,access,accéder
+1767,89,B1,_____ Zugriff,der,der Zugriff,the access,l'accès
 1768,89,B1,_____ Zuhörer,der,der Zuhörer,the listener,l'auditeur

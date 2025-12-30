@@ -11,7 +11,8 @@ from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
 from data.data_processing.total_questions import total_question_exercises
 
-from users.users.models import db, is_feedback_enabled, Bookmark
+from users.users.models import db, is_feedback_enabled, Bookmark, get_filename_full_bookmark, \
+    get_filename_empty_bookmark
 from users.progress.models import UserExerciseState
 
 from users.progress.score import write_score
@@ -80,6 +81,8 @@ def guidance(unit, exercise):
                                your_answer=YOUR_ANSWER[language],
                                refresh=REFRESH[language],
                                back_to=BACK_TO[language],
+                               icon_full=get_filename_full_bookmark(),
+                               icon_empty=get_filename_empty_bookmark(),
                                )
 
     elif unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
@@ -113,7 +116,6 @@ def guidance(unit, exercise):
                                title_page=TITLE_PAGE,
                                back_page=BACK_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               #total_questions=compute_total_questions(unit, exercise=exercise),
                                total_questions=total_question_exercises[unit][exercise],
                                next=NEXT[language],
                                back_to=BACK_TO[language],
@@ -173,6 +175,8 @@ def exercise(unit, exercise):
                                incorrect_questions=incorrect_questions,
                                refresh=REFRESH[language],
                                back_to=BACK_TO[language],
+                               icon_full=get_filename_full_bookmark(),
+                               icon_empty=get_filename_empty_bookmark(),
                                )
 
     question_data = pick_a_question(session, unit, exercise)
@@ -271,6 +275,8 @@ def exercise(unit, exercise):
                                incorrect_question=incorrect_question,
                                back_to=BACK_TO[language],
                                current_user=current_user,
+                               icon_full=get_filename_full_bookmark(),
+                               icon_empty=get_filename_empty_bookmark(),
                                )
 
     return render_template("exercise/exercise_input.html",
@@ -300,6 +306,8 @@ def exercise(unit, exercise):
                            enter_answer_here=ENTER_ANSWER_HERE[language],
                            back_to=BACK_TO[language],
                            current_user=current_user,
+                           icon_full=get_filename_full_bookmark(),
+                           icon_empty=get_filename_empty_bookmark(),
                            )
 
 
@@ -445,6 +453,8 @@ def exercise_feedback(unit, exercise):
                                incorrect_questions=incorrect_questions,
                                refresh=REFRESH[language],
                                back_to=BACK_TO[language],
+                               icon_full=get_filename_full_bookmark(),
+                               icon_empty=get_filename_empty_bookmark(),
                                )
 
     question_data = session.get(f"question_data", {})
@@ -537,6 +547,8 @@ def exercise_feedback(unit, exercise):
                                incorrect_question=incorrect_question,
                                next_question=NEXT_QUESTION[language],
                                back_to=BACK_TO[language],
+                               icon_full=get_filename_full_bookmark(),
+                               icon_empty=get_filename_empty_bookmark(),
                                )
 
     return render_template("exercise/feedback_input.html",
@@ -563,6 +575,8 @@ def exercise_feedback(unit, exercise):
                            incorrect_question=incorrect_question,
                            next_question=NEXT_QUESTION[language],
                            back_to=BACK_TO[language],
+                           icon_full=get_filename_full_bookmark(),
+                           icon_empty=get_filename_empty_bookmark(),
                            )
 
 

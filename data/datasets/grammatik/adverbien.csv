@@ -1,14 +1,14 @@
 Nr,exercise,question,answer,german,english,french,explanation_english,explanation_french,opposite,type
 1,1,,hier,,here,ici,hier = here,hier = ici,dort,local
-2,1,,immer,,always,toujours,immer = always,immer = toujours,nie,temporal
-3,1,,jetzt,,now,maintenant,jetzt = now,jetzt = maintenant,,temporal
+2,1,,immer,,always,toujours,immer = always,immer = toujours,nie,temporal - frequency
+3,1,,jetzt,,now,maintenant,jetzt = now,jetzt = maintenant,,temporal - point in time
 4,1,,sehr,,very,très,sehr = very,sehr = très,,modal
-5,1,,bald,,soon,bientôt,bald = soon,bald = bientôt,,temporal
+5,1,,bald,,soon,bientôt,bald = soon,bald = bientôt,,temporal - point in time
 6,1,,fast,,almost,presque,fast = almost,fast = presque,,modal
-7,1,,gestern,,yesterday,hier,gestern = yesterday,gestern = hier,morgen,temporal
-8,1,,heute,,today,aujourd'hui,heute = today,heute = aujourd'hui,,temporal
-9,1,,morgen,,tomorrow,demain,morgen = tomorrow,morgen = demain,gestern,temporal
-10,1,,manchmal,,sometimes,parfois,manchmal = sometimes,manchmal = parfois,,temporal
+7,1,,gestern,,yesterday,hier,gestern = yesterday,gestern = hier,morgen,temporal - point in time
+8,1,,heute,,today,aujourd'hui,heute = today,heute = aujourd'hui,,temporal - point in time
+9,1,,morgen,,tomorrow,demain,morgen = tomorrow,morgen = demain,gestern,temporal - point in time
+10,1,,manchmal,,sometimes,parfois,manchmal = sometimes,manchmal = parfois,,temporal - frequency
 11,2,Ich bin _____.,hier,Ich bin hier.,I am here.,Je suis là.,hier = here,hier = ici,,
 12,2,_____ ist es sehr ruhig.,Hier,Hier ist es sehr ruhig.,It is very quiet here.,C'est très calme ici.,hier = here,hier = ici,,
 13,2,Wir treffen uns _____.,hier,Wir treffen uns hier.,We are meeting here.,Nous nous réunissons ici.,hier = here,hier = ici,,
@@ -59,8 +59,8 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 58,2,Er ist _____ sehr lustig.,manchmal,Er ist manchmal sehr lustig.,He is sometimes very funny.,Il est parfois très drôle.,manchmal = sometimes,manchmal = parfois,,
 59,2,Wir besuchen _____ unsere Großeltern.,manchmal,Wir besuchen manchmal unsere Großeltern.,We sometimes visit our grandparents.,Nous rendons parfois visite à nos grands-parents.,manchmal = sometimes,manchmal = parfois,,
 60,2,_____ brauche ich eine Pause.,Manchmal,Manchmal brauche ich eine Pause.,Sometimes I need a break.,"Parfois, j'ai besoin d'une pause.",manchmal = sometimes,manchmal = parfois,,
-61,3,,nie,,never,jamais,nie = never,nie = jamais,immer,temporal
-62,3,,oft,,"often, frequently","souvent, fréquemment","oft = often, frequently","oft = souvent, fréquemment",,temporal
+61,3,,nie,,never,jamais,nie = never,nie = jamais,immer,temporal - frequency
+62,3,,oft,,"often, frequently","souvent, fréquemment","oft = often, frequently","oft = souvent, fréquemment",,temporal - frequency
 63,3,,links,,left,à gauche,links = left,links = à gauche,recht,local
 64,3,,rechts,,right,à droite,rechts = right,rechts = à droite,links,local
 65,3,,nicht,,not,ne ... pas,nicht = not,nicht = ne ... pas,,modal
@@ -119,16 +119,16 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 118,4,Ich liebe dieses Lied _____ sehr.,zu,Ich liebe dieses Lied zu sehr.,I love this song too much.,J'aime trop cette chanson.,"zu = too, overly, excessively","zu = trop, excessivement",,
 119,4,Der Kaffee ist _____ heiß zum Trinken.,zu,Der Kaffee ist zu heiß zum Trinken.,The coffee is too hot to drink.,Le café est trop chaud pour être bu.,"zu = too, overly, excessively","zu = trop, excessivement",,
 120,4,Diese Aufgabe ist _____ schwer für mich.,zu,Diese Aufgabe ist zu schwer für mich.,This task is too difficult for me.,Cette tâche est trop difficile pour moi.,"zu = too, overly, excessively","zu = trop, excessivement",,
-121,5,,selten,,"rarely, seldom",rarement,"selten = rarely, seldom",selten = rarement,,
-122,5,,gerade,,"right now, just, currently","tout de suite, en ce moment-même, actuellement","gerade = right now, just, currently","gerade = tout de suite, en ce moment-même, actuellement",,
-123,5,,geradeaus,,straight ahead,tout droit,geradeaus = straight ahead,geradeaus = tout droit,,
-124,5,,genug,,enough,assez,genug = enough,genug = assez,,
-125,5,,dort,,there,là,dort = there,dort = là,hier,
-126,5,,gleich,,right away,"tout de suite, immédiatement",gleich = right away,"gleich = tout de suite, immédiatement",,
-127,5,,vielleicht,,maybe,peut être,vielleicht = maybe,vielleicht = peut être,,
-128,5,,wirklich,,"really, truly",vraiment,"wirklich = really, truly",wirklich = vraiment,,
-129,5,,meistens,,"mostly, usually","principalement, habituellement","meistens = mostly, usually","meistens = principalement, habituellement",,
-130,5,,gern,,gladly,volontiers,gern = gladly,gern = volontiers,,
+121,5,,selten,,"rarely, seldom",rarement,"selten = rarely, seldom",selten = rarement,,temporal - frequency
+122,5,,gerade,,"right now, just, currently","tout de suite, en ce moment-même, actuellement","gerade = right now, just, currently","gerade = tout de suite, en ce moment-même, actuellement",,temporal - point in time
+123,5,,geradeaus,,straight ahead,tout droit,geradeaus = straight ahead,geradeaus = tout droit,,local
+124,5,,genug,,enough,assez,genug = enough,genug = assez,,modal
+125,5,,dort,,there,là,dort = there,dort = là,hier,local
+126,5,,gleich,,"right away, at once","tout de suite, immédiatement","gleich = right away, at once","gleich = tout de suite, immédiatement",,temporal - point in time
+127,5,,vielleicht,,maybe,peut être,vielleicht = maybe,vielleicht = peut être,,modal
+128,5,,wirklich,,"really, truly",vraiment,"wirklich = really, truly",wirklich = vraiment,,modal
+129,5,,meistens,,"mostly, usually","principalement, habituellement","meistens = mostly, usually","meistens = principalement, habituellement",,temporal - frequency
+130,5,,gern,,gladly,volontiers,gern = gladly,gern = volontiers,,modal
 131,6,Ich gehe _____ ins Kino.,selten,Ich gehe selten ins Kino.,I rarely go to the cinema.,Je vais rarement au cinéma.,"selten = rarely, seldom",selten = rarement,,
 132,6,Er isst _____ Süßigkeiten.,selten,Er isst selten Süßigkeiten.,He rarely eats sweets.,Il mange rarement des sucreries.,"selten = rarely, seldom",selten = rarement,,
 133,6,Wir haben _____ Schnee im Winter.,selten,Wir haben selten Schnee im Winter.,We rarely have snow in winter.,Nous avons rarement de la neige en hiver.,"selten = rarely, seldom",selten = rarement,,
@@ -154,11 +154,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 153,6,Meine Freunde wohnen _____.,dort,Meine Freunde wohnen dort.,My friends live there.,Mes amis vivent là-bas.,dort = there,dort = là,,
 154,6,Wir treffen uns _____ um 18 Uhr.,dort,Wir treffen uns dort um 18 Uhr.,We will meet there at 6 PM.,Nous nous retrouverons là-bas à 18 heures.,dort = there,dort = là,,
 155,6,Er arbeitet _____ seit fünf Jahren.,dort,Er arbeitet dort seit fünf Jahren.,He has been working there for five years.,Il travaille là depuis cinq ans.,dort = there,dort = là,,
-156,6,"Ich komme _____, warte bitte eine Minute.",gleich,"Ich komme gleich, warte bitte eine Minute.","I’ll come right away, please wait a minute.","J'arrive tout de suite, veuillez patienter une minute.",gleich = right away,"gleich = tout de suite, immédiatement",,
-157,6,"Der Film beginnt _____, also beeil dich!",gleich,"Der Film beginnt gleich, also beeil dich!","The movie is starting very soon, so hurry up!","Le film commence immédiatement, alors dépêchez-vous !",gleich = right away,"gleich = tout de suite, immédiatement",,
-158,6,Kannst du mir _____ helfen?,gleich,Kannst du mir gleich helfen?,Can you help me right away?,Pouvez-vous m'aider tout de suite ?,gleich = right away,"gleich = tout de suite, immédiatement",,
-159,6,"Der Bus fährt _____ ab, wir müssen uns beeilen.",gleich,"Der Bus fährt gleich ab, wir müssen uns beeilen.","The bus is leaving very soon, we have to hurry.","Le bus part tout bientôt, il faut se dépêcher.",gleich = right away,"gleich = tout de suite, immédiatement",,
-160,6,Ich rufe dich _____ zurück.,gleich,Ich rufe dich gleich zurück.,I'll call you back right away.,Je te rappelle tout de suite.,gleich = right away,"gleich = tout de suite, immédiatement",,
+156,6,"Ich komme _____, warte bitte eine Minute.",gleich,"Ich komme gleich, warte bitte eine Minute.","I’ll come right away, please wait a minute.","J'arrive tout de suite, veuillez patienter une minute.","gleich = right away, at once","gleich = tout de suite, immédiatement",,
+157,6,"Der Film beginnt _____, also beeil dich!",gleich,"Der Film beginnt gleich, also beeil dich!","The movie is starting very soon, so hurry up!","Le film commence immédiatement, alors dépêchez-vous !","gleich = right away, at once","gleich = tout de suite, immédiatement",,
+158,6,Kannst du mir _____ helfen?,gleich,Kannst du mir gleich helfen?,Can you help me right away?,Pouvez-vous m'aider tout de suite ?,"gleich = right away, at once","gleich = tout de suite, immédiatement",,
+159,6,"Der Bus fährt _____ ab, wir müssen uns beeilen.",gleich,"Der Bus fährt gleich ab, wir müssen uns beeilen.","The bus is leaving very soon, we have to hurry.","Le bus part tout bientôt, il faut se dépêcher.","gleich = right away, at once","gleich = tout de suite, immédiatement",,
+160,6,Ich rufe dich _____ zurück.,gleich,Ich rufe dich gleich zurück.,I'll call you back right away.,Je te rappelle tout de suite.,"gleich = right away, at once","gleich = tout de suite, immédiatement",,
 161,6,_____ gehe ich heute ins Kino.,Vielleicht,Vielleicht gehe ich heute ins Kino.,Maybe I will go to the cinema today.,Peut-être que j'irai au cinéma aujourd'hui.,vielleicht = maybe,vielleicht = peut être,,
 162,6,Er kommt _____ später.,vielleicht,Er kommt vielleicht später.,He might come later.,Il pourrait venir plus tard.,vielleicht = maybe,vielleicht = peut être,,
 163,6,_____ regnet es morgen.,Vielleicht,Vielleicht regnet es morgen.,Maybe it will rain tomorrow.,Peut-être qu'il pleuvra demain.,vielleicht = maybe,vielleicht = peut être,,
@@ -179,16 +179,16 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 178,6,Wir reisen _____.,gern,Wir reisen gern.,We like traveling.,Nous aimons voyager.,gern = gladly,gern = volontiers,,
 179,6,Sie hört _____ Musik.,gern,Sie hört gern Musik.,She likes listening to music.,Elle aime écouter de la musique.,gern = gladly,gern = volontiers,,
 180,6,Ich helfe dir _____.,gern,Ich helfe dir gern.,I am happy to help you.,Je suis heureux de vous aider.,gern = gladly,gern = volontiers,,
-181,7,,dann,,then,"ensuite, alors",dann = then,"dann = ensuite, alors",,
+181,7,,dann,,then,"ensuite, alors",dann = then,"dann = ensuite, alors",,temporal - point in time
 182,7,,ein bisschen,,a little,un peu,ein bisschen = a little,ein bisschen = un peu,,
 183,7,,wieder,,again,"encore, à nouveau",wieder = again,"wieder = encore, à nouveau",,
-184,7,,innen,,inside,à l'intérieur,innen = inside,innen = à l'intérieur,außen,
+184,7,,innen,,inside,à l'intérieur,innen = inside,innen = à l'intérieur,außen,local
 185,7,,außen,,outside,"dehors, à l'extérieur",außen = outside,"außen = dehors, à l'extérieur",innen,
 186,7,,mindestens,,"at least, minimum","au moins, au minimum","mindestens = at least, minimum","mindestens = au moins, au minimum",add at most,
 187,7,,höchstens,,"at most, maximum","au plus, au maximum","höchstens = at most, maximum","höchstens = au plus, au maximum",,
-188,7,,regelmässig,,regularly,régulièrement,regelmässig = regularly,regelmässig = régulièrement,,
-189,7,,früher,,"earlier, previously, sooner","plus tôt, auparavant","früher = earlier, previously, sooner","früher = plus tôt, auparavant",später,
-190,7,,später,,"later, later on",plus tard,"später = later, later on",später = plus tard,früher,
+188,7,,regelmässig,,regularly,régulièrement,regelmässig = regularly,regelmässig = régulièrement,,temporal - frequency
+189,7,,früher,,"earlier, previously, sooner","plus tôt, auparavant","früher = earlier, previously, sooner","früher = plus tôt, auparavant",später,temporal - point in time
+190,7,,später,,"later, later on",plus tard,"später = later, later on",später = plus tard,früher,temporal - point in time
 191,8,"Ich stehe auf, _____ mache ich mir einen Kaffee.",dann,"Ich stehe auf, dann mache ich mir einen Kaffee.","I get up, then I make myself a coffee.","Je me lève, puis je me fais un café.",dann = then,"dann = ensuite, alors",,
 192,8,"Er geht zur Arbeit, _____ beginnt er mit seinem ersten Meeting.",dann,"Er geht zur Arbeit, dann beginnt er mit seinem ersten Meeting.","He goes to work, then he starts his first meeting.","Il va au travail, puis il commence sa première réunion.",dann = then,"dann = ensuite, alors",,
 193,8,"Wir kaufen die Zutaten ein, _____ kochen wir das Abendessen.",dann,"Wir kaufen die Zutaten ein, dann kochen wir das Abendessen.","We buy the ingredients, then we cook dinner.","Nous achetons les ingrédients, puis nous préparons le dîner.",dann = then,"dann = ensuite, alors",,
@@ -265,7 +265,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 264,11,,schnell,,"quickly, rapidly","vite, rapidement","schnell = quickly, rapidly","schnell = vite, rapidement",langsam,
 265,11,,morgen früh,,tomorrow morning,demain matin,morgen früh = tomorrow morning,morgen früh = demain matin,,
 266,11,,natürlich,,"naturally, of course","naturellement, bien sûr","natürlich = naturally, of course","natürlich = naturellement, bien sûr",,
-267,11,,da drüben,,over there,là-bas,da drüben = over there,da drüben = là-bas,,
+267,11,,da drüben,,"over there, yonder",là-bas,"da drüben = over there, yonder",da drüben = là-bas,,
 268,12,Ich war _____ in Berlin.,einmal,Ich war einmal in Berlin.,I was in Berlin once.,J'étais à Berlin une fois.,einmal = once,einmal = une fois,,
 269,12,Kannst du das noch _____ sagen?,einmal,Kannst du das noch einmal sagen?,Can you say that again?,Peux-tu le répéter ?,einmal = once,einmal = une fois,,
 270,12,Ich möchte _____ nach Japan reisen.,einmal,Ich möchte einmal nach Japan reisen.,I would like to travel to Japan one day.,J'aimerais voyager au Japon un jour.,einmal = once,einmal = une fois,,
@@ -311,11 +311,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 310,12,"_____ kannst du mich jederzeit anrufen, wenn du Fragen hast.",Natürlich,"Natürlich kannst du mich jederzeit anrufen, wenn du Fragen hast.","Of course, you can call me anytime if you have questions.","Bien sûr, vous pouvez m'appeler à tout moment si vous avez des questions.","natürlich = naturally, of course","natürlich = naturellement, bien sûr",,
 311,12,"Es ist _____ wichtig, gesund zu essen.",natürlich,"Es ist natürlich wichtig, gesund zu essen.","Naturally, it is important to eat healthily.","Naturellement, il est important de manger sainement.","natürlich = naturally, of course","natürlich = naturellement, bien sûr",,
 312,12,"Sie war nervös vor der Prüfung, was _____ verständlich ist.",natürlich,"Sie war nervös vor der Prüfung, was natürlich verständlich ist.","She was nervous before the exam, which is naturally understandable.","Elle était nerveuse avant l’examen, ce qui est naturellement compréhensible.","natürlich = naturally, of course","natürlich = naturellement, bien sûr",,
-313,12,Siehst du das Café _____? Dort gibt es den besten Kuchen.,da drüben,Siehst du das Café da drüben? Dort gibt es den besten Kuchen.,Do you see the café over there? They have the best cake.,Tu vois le café là-bas ? Ils ont les meilleurs gâteaux.,da drüben = over there,da drüben = là-bas,,
-314,12,Mein Auto steht _____ auf dem Parkplatz.,da drüben,Mein Auto steht da drüben auf dem Parkplatz.,My car is parked over there in the parking lot.,Ma voiture est garée là-bas sur le parking.,da drüben = over there,da drüben = là-bas,,
-315,12,"_____ ist ein schöner Park, lass uns dort spazieren gehen.",Da drüben,"Da drüben ist ein schöner Park, lass uns dort spazieren gehen.","Over there is a beautiful park, let's go for a walk there.","Là-bas il y a un beau parc, allons nous y promener.",da drüben = over there,da drüben = là-bas,,
-316,12,"Ich glaube, ich habe ihn _____ an der Bushaltestelle gesehen.",da drüben,"Ich glaube, ich habe ihn da drüben an der Bushaltestelle gesehen.",I think I saw him over there at the bus stop.,"Je crois que je l'ai vu là-bas, à l'arrêt de bus.",da drüben = over there,da drüben = là-bas,,
-317,12,"Das Kino ist nicht weit, es ist gleich _____ an der Ecke.",da drüben,"Das Kino ist nicht weit, es ist gleich da drüben an der Ecke.","The cinema isn't far, it's just over there at the corner.","Le cinéma n'est pas loin, il est juste là-bas au coin.",da drüben = over there,da drüben = là-bas,,
+313,12,Siehst du das Café _____? Dort gibt es den besten Kuchen.,da drüben,Siehst du das Café da drüben? Dort gibt es den besten Kuchen.,Do you see the café over there? They have the best cake.,Tu vois le café là-bas ? Ils ont les meilleurs gâteaux.,"da drüben = over there, yonder",da drüben = là-bas,,
+314,12,Mein Auto steht _____ auf dem Parkplatz.,da drüben,Mein Auto steht da drüben auf dem Parkplatz.,My car is parked over there in the parking lot.,Ma voiture est garée là-bas sur le parking.,"da drüben = over there, yonder",da drüben = là-bas,,
+315,12,"_____ ist ein schöner Park, lass uns dort spazieren gehen.",Da drüben,"Da drüben ist ein schöner Park, lass uns dort spazieren gehen.","Over there is a beautiful park, let's go for a walk there.","Là-bas il y a un beau parc, allons nous y promener.","da drüben = over there, yonder",da drüben = là-bas,,
+316,12,"Ich glaube, ich habe ihn _____ an der Bushaltestelle gesehen.",da drüben,"Ich glaube, ich habe ihn da drüben an der Bushaltestelle gesehen.",I think I saw him over there at the bus stop.,"Je crois que je l'ai vu là-bas, à l'arrêt de bus.","da drüben = over there, yonder",da drüben = là-bas,,
+317,12,"Das Kino ist nicht weit, es ist gleich _____ an der Ecke.",da drüben,"Das Kino ist nicht weit, es ist gleich da drüben an der Ecke.","The cinema isn't far, it's just over there at the corner.","Le cinéma n'est pas loin, il est juste là-bas au coin.","da drüben = over there, yonder",da drüben = là-bas,,
 318,13,,vorn,,"in the front, at the front","devant, à l'avant","vorn = in the front, at the front","vorn = devant, à l'avant",hinten,
 319,13,,hinten,,at the back,à l'arrière,hinten = at the back,hinten = à l'arrière,vorn,
 320,13,,oben,,"above, at the top","au-dessus, en haut","oben = above, at the top","oben = au-dessus, en haut",unten,
@@ -443,7 +443,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 442,17,,vor kurzem,,recently,récemment,vor kurzem = recently,vor kurzem = récemment,,
 443,17,,zurzeit,,currently,actuellement,zurzeit = currently,zurzeit = actuellement,,
 444,17,,damals,,"at that time, back then","à cette époque-là, à l'époque","damals = at that time, back then","damals = à cette époque-là, à l'époque",,
-445,17,,zukünftig,,"in the future, from now on","dans le futur, à partir de maintenant","zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
+445,17,,zukünftig,,in the future,"dans le futur, à l'avenir",zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
 446,17,,hoffentlich,,hopefully,"avec un peu de chance, avec espoir",hoffentlich = hopefully,"hoffentlich = avec un peu de chance, avec espoir",,
 447,17,,gestern Abend,,yesterday evening,hier soir,gestern abend = yesterday evening,gestern abend = hier soir,,
 448,18,_____ senden Sie uns die erforderlichen Unterlagen bis Freitag.,Bitte,Bitte senden Sie uns die erforderlichen Unterlagen bis Freitag.,Please send us the required documents by Friday.,Veuillez nous envoyer les documents requis avant vendredi.,bitte = please,"bitte = s'il te plaît, s'il vous plaît",,
@@ -481,11 +481,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 480,18,"_____ wohnte ich in einer kleinen Stadt, jetzt lebe ich in Berlin.",Damals,"Damals wohnte ich in einer kleinen Stadt, jetzt lebe ich in Berlin.","Back then, I lived in a small town, now I live in Berlin.","À l'époque, je vivais dans une petite ville, maintenant je vis à Berlin.","damals = at that time, back then","damals = à cette époque-là, à l'époque",,
 481,18,"Er war _____ sehr schüchtern, aber jetzt ist er viel selbstbewusster.",damals,"Er war damals sehr schüchtern, aber jetzt ist er viel selbstbewusster.","He was very shy back then, but now he is much more confident.","Il était très timide à l’époque, mais maintenant il est beaucoup plus confiant.","damals = at that time, back then","damals = à cette époque-là, à l'époque",,
 482,18,"_____ gab es noch keine sozialen Medien, wir haben Briefe geschrieben.",Damals,"Damals gab es noch keine sozialen Medien, wir haben Briefe geschrieben.","Back then, there were no social media, we wrote letters.","À l’époque, il n’y avait pas de réseaux sociaux, on écrivait des lettres.","damals = at that time, back then","damals = à cette époque-là, à l'époque",,
-483,18,_____ möchte ich in einem anderen Land leben.,Zukünftig,Zukünftig möchte ich in einem anderen Land leben.,"In the future, I want to live in another country.","À l’avenir, je veux vivre dans un autre pays.","zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
-484,18,Die Firma wird _____ mehr in erneuerbare Energien investieren.,zukünftig,Die Firma wird zukünftig mehr in erneuerbare Energien investieren.,The company will invest more in renewable energy in the future.,L’entreprise investira davantage dans les énergies renouvelables à l’avenir.,"zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
-485,18,_____ werde ich mehr auf meine Gesundheit achten.,Zukünftig,Zukünftig werde ich mehr auf meine Gesundheit achten.,"In the future, I will take better care of my health.","À l’avenir, je prendrai mieux soin de ma santé.","zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
-486,18,"Er hofft, dass er _____ weniger Überstunden machen muss.",zukünftig,"Er hofft, dass er zukünftig weniger Überstunden machen muss.",He hopes that he will have to work fewer overtime hours in the future.,Il espère qu’il devra faire moins d’heures supplémentaires à l’avenir.,"zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
-487,18,_____ wollen wir unsere Produktion umweltfreundlicher gestalten.,Zukünftig,Zukünftig wollen wir unsere Produktion umweltfreundlicher gestalten.,"In the future, we want to make our production more environmentally friendly.","À l’avenir, nous souhaitons rendre notre production plus respectueuse de l’environnement.","zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
+483,18,_____ möchte ich in einem anderen Land leben.,Zukünftig,Zukünftig möchte ich in einem anderen Land leben.,"In the future, I want to live in another country.","À l’avenir, je veux vivre dans un autre pays.",zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
+484,18,Die Firma wird _____ mehr in erneuerbare Energien investieren.,zukünftig,Die Firma wird zukünftig mehr in erneuerbare Energien investieren.,The company will invest more in renewable energy in the future.,L’entreprise investira davantage dans les énergies renouvelables à l’avenir.,zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
+485,18,_____ werde ich mehr auf meine Gesundheit achten.,Zukünftig,Zukünftig werde ich mehr auf meine Gesundheit achten.,"In the future, I will take better care of my health.","À l’avenir, je prendrai mieux soin de ma santé.",zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
+486,18,"Er hofft, dass er _____ weniger Überstunden machen muss.",zukünftig,"Er hofft, dass er zukünftig weniger Überstunden machen muss.",He hopes that he will have to work fewer overtime hours in the future.,Il espère qu’il devra faire moins d’heures supplémentaires à l’avenir.,zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
+487,18,_____ wollen wir unsere Produktion umweltfreundlicher gestalten.,Zukünftig,Zukünftig wollen wir unsere Produktion umweltfreundlicher gestalten.,"In the future, we want to make our production more environmentally friendly.","À l’avenir, nous souhaitons rendre notre production plus respectueuse de l’environnement.",zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
 488,18,_____ wird das Wetter morgen besser.,Hoffentlich,Hoffentlich wird das Wetter morgen besser.,"Hopefully, the weather will be better tomorrow.",J'espère que le temps sera meilleur demain.,hoffentlich = hopefully,"hoffentlich = avec un peu de chance, avec espoir",,
 489,18,"Er hat hart für die Prüfung gelernt, _____ besteht er sie.",hoffentlich,"Er hat hart für die Prüfung gelernt, hoffentlich besteht er sie.","He studied hard for the exam; hopefully, he will pass it.",Il a étudié dur pour l'examen ; il espère le réussir.,hoffentlich = hopefully,"hoffentlich = avec un peu de chance, avec espoir",,
 490,18,_____ können wir uns bald wiedersehen.,Hoffentlich,Hoffentlich können wir uns bald wiedersehen.,"Hopefully, we can see each other again soon.",J'espère que nous pourrons nous revoir bientôt.,hoffentlich = hopefully,"hoffentlich = avec un peu de chance, avec espoir",,
@@ -499,7 +499,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 498,19,heute früh,heute Morgen,Heute früh habe ich meine Präsentation noch einmal überarbeitet.,this morning,ce matin,heute morgen = this morning,heute morgen = ce matin,,
 499,19,heute Vormittag,heute Morgen,"Heute Vormittag hatten wir eine Besprechung, die länger gedauert hat als geplant.",this morning,ce matin,heute morgen = this morning,heute morgen = ce matin,,
 500,19,zirka,circa,Wir erwarten zirka zwanzig Gäste am Samstag.,"approximately, about","environ, approximativement","circa = approximately, about","circa = environ, approximativement",,
-501,19,dort drüben,da drüben,Die Apotheke ist dort drüben an der Ecke.,over there,là-bas,da drüben = over there,da drüben = là-bas,,
+501,19,dort drüben,da drüben,Die Apotheke ist dort drüben an der Ecke.,"over there, yonder",là-bas,"da drüben = over there, yonder",da drüben = là-bas,,
 502,19,nachher,danach,Wir treffen uns nachher im Café.,"after, afterwards, thereafter","après, par la suite","danach = after, afterwards, thereafter","danach = après, par la suite",,
 503,19,tatsächlich,eigentlich,Das Ergebnis war tatsächlich besser als geplant.,"actually, indeed","en fait, en effet","eigentlich = actually, indeed","eigentlich = en fait, en effet",,
 504,19,überhaupt nicht,gar nicht,Ich habe überhaupt nicht damit gerechnet.,"not at all, not even","pas du tout, même pas","gar nicht = not at all, not even","gar nicht = pas du tout, même pas",,
@@ -512,7 +512,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 511,19,vorne,vorn,Das Museum liegt vorne am Platz.,"in the front, at the front","devant, à l'avant","vorn = in the front, at the front","vorn = devant, à l'avant",,
 512,19,ganz,ziemlich,Der Film war ganz interessant.,"quite, fairly","assez, franchement","ziemlich = quite, fairly","ziemlich = assez, franchement",,
 513,19,unglücklicherweise,leider,Unglücklicherweise mussten wir die Reise absagen.,unfortunately,malheureusement,leider = unfortunately,leider = malheureusement,,
-514,19,in der Zukunft,zukünftig,In der Zukunft wollen wir neue Projekte gemeinsam entwickeln.,"in the future, from now on","dans le futur, à partir de maintenant","zukünftig = in the future, from now on","zukünftig = dans le futur, à partir de maintenant",,
+514,19,in der Zukunft,zukünftig,In der Zukunft wollen wir neue Projekte gemeinsam entwickeln.,in the future,"dans le futur, à l'avenir",zukünftig = in the future,"zukünftig = dans le futur, à l'avenir",,
 515,20,,langsam,schnell,"schnell = quickly, rapidly","schnell = vite, rapidement",langsam = slowly,langsam = lentement,schnell,
 516,20,,schnell,langsam,langsam = slowly,langsam = lentement,"schnell = quickly, rapidly","schnell = vite, rapidement",langsam,
 517,20,,vorn,hinten,hinten = at the back,hinten = à l'arrière,"vorn = in the front, at the front","vorn = devant, à l'avant",hinten,
@@ -901,7 +901,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 900,35,,beiseite,,aside,"à l'écart, à part",beiseite = aside,"beiseite = à l'écart, à part",,
 901,35,,vielerorts,,in many places,"en de nombreux endroits, à plusieurs endroits",vielerorts = in many places,"vielerorts = en de nombreux endroits, à plusieurs endroits",,
 902,35,,hierzulande,,"in this country, in this part of the world","dans ce pays, dans cette partie du monde","hierzulande = in this country, in this part of the world","hierzulande = dans ce pays, dans cette partie du monde",,
-903,35,,anderswo,,elsewhere,ailleurs,anderswo = elsewhere,anderswo = ailleurs,,
+903,35,,anderswo,,"elsewhere, somewhere else",ailleurs,"anderswo = elsewhere, somewhere else",anderswo = ailleurs,,
 904,36,Ich bin gerade _____ und kann nicht ans Telefon gehen.,unterwegs,Ich bin gerade unterwegs und kann nicht ans Telefon gehen.,I’m currently on the way and can’t answer the phone.,,unterwegs = on the way,unterwegs = en route,,
 905,36,_____ habe ich viele interessante Menschen kennengelernt.,Unterwegs,Unterwegs habe ich viele interessante Menschen kennengelernt.,"While traveling, I met many interesting people.",,unterwegs = on the way,unterwegs = en route,,
 906,36,Wir sind seit Stunden _____ und machen jetzt eine Pause.,unterwegs,Wir sind seit Stunden unterwegs und machen jetzt eine Pause.,We’ve been on the road for hours and are taking a break now.,,unterwegs = on the way,unterwegs = en route,,
@@ -942,11 +942,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 941,36,"_____ legt man großen Wert auf gründliche Verfahren, auch wenn sie mehr Zeit in Anspruch nehmen.",Hierzulande,"Hierzulande legt man großen Wert auf gründliche Verfahren, auch wenn sie mehr Zeit in Anspruch nehmen.","In this country, great importance is placed on thorough procedures, even if they take more time.","Dans ce pays, on accorde beaucoup d’importance aux procédures minutieuses, même si elles prennent plus de temps.","hierzulande = in this country, in this part of the world","hierzulande = dans ce pays, dans cette partie du monde",,
 942,36,"Obwohl nachhaltige Lösungen weltweit an Bedeutung gewinnen, zögern _____ noch immer viele Branchen mit konsequenten Maßnahmen.",hierzulande,"Obwohl nachhaltige Lösungen weltweit an Bedeutung gewinnen, zögern hierzulande noch immer viele Branchen mit konsequenten Maßnahmen.","Although sustainable solutions are gaining importance worldwide, many sectors here still hesitate to take consistent action.","Bien que les solutions durables gagnent en importance dans le monde, de nombreux secteurs hésitent encore ici à agir de manière cohérente.","hierzulande = in this country, in this part of the world","hierzulande = dans ce pays, dans cette partie du monde",,
 943,36,"_____ zeigt sich zunehmend, dass Transparenz und nachvollziehbare Entscheidungen entscheidend für das Vertrauen der Öffentlichkeit sind.",Hierzulande,"Hierzulande zeigt sich zunehmend, dass Transparenz und nachvollziehbare Entscheidungen entscheidend für das Vertrauen der Öffentlichkeit sind.",It is increasingly clear in this country that transparency and well-reasoned decisions are crucial for public trust.,"Ici, il devient de plus en plus évident que la transparence et des décisions compréhensibles sont essentielles pour la confiance du public.","hierzulande = in this country, in this part of the world","hierzulande = dans ce pays, dans cette partie du monde",,
-944,36,"Während hier strenge Auflagen gelten, werden ähnliche Projekte _____ deutlich großzügiger gehandhabt.",anderswo,"Während hier strenge Auflagen gelten, werden ähnliche Projekte anderswo deutlich großzügiger gehandhabt.","While strict regulations apply here, similar projects are handled much more leniently elsewhere.","Alors qu’ici des règles strictes s’appliquent, des projets similaires sont gérés beaucoup plus librement ailleurs.",anderswo = elsewhere,anderswo = ailleurs,,
-945,36,"Viele Herausforderungen, die hier neu erscheinen, wurden _____ bereits erfolgreich gelöst.",anderswo,"Viele Herausforderungen, die hier neu erscheinen, wurden anderswo bereits erfolgreich gelöst.",Many challenges that seem new here have already been successfully solved elsewhere.,De nombreux défis qui semblent nouveaux ici ont déjà été résolus avec succès ailleurs.,anderswo = elsewhere,anderswo = ailleurs,,
-946,36,"Die Reform wirkt ambitioniert, doch _____ ist ein vergleichbares Niveau längst erreicht.",anderswo,"Die Reform wirkt ambitioniert, doch anderswo ist ein vergleichbares Niveau längst erreicht.","The reform seems ambitious, but elsewhere a similar level has long been achieved.","La réforme paraît ambitieuse, mais ailleurs un niveau comparable est atteint depuis longtemps.",anderswo = elsewhere,anderswo = ailleurs,,
-947,36,"_____ wird stärker in Forschung investiert, was langfristig zu deutlich höheren Innovationsraten führt.",Anderswo,"Anderswo wird stärker in Forschung investiert, was langfristig zu deutlich höheren Innovationsraten führt.","Elsewhere, much more is invested in research, which in the long run leads to significantly higher innovation rates.","Ailleurs, on investit davantage dans la recherche, ce qui conduit à long terme à des taux d’innovation nettement plus élevés.",anderswo = elsewhere,anderswo = ailleurs,,
-948,36,"Die öffentliche Debatte verläuft _____ oft pragmatischer, weil emotionale Argumente weniger stark dominieren.",anderswo,"Die öffentliche Debatte verläuft anderswo oft pragmatischer, weil emotionale Argumente weniger stark dominieren.","Public debate elsewhere is often more pragmatic, because emotional arguments are less dominant.","Ailleurs, le débat public est souvent plus pragmatique, car les arguments émotionnels y dominent moins.",anderswo = elsewhere,anderswo = ailleurs,,
+944,36,"Während hier strenge Auflagen gelten, werden ähnliche Projekte _____ deutlich großzügiger gehandhabt.",anderswo,"Während hier strenge Auflagen gelten, werden ähnliche Projekte anderswo deutlich großzügiger gehandhabt.","While strict regulations apply here, similar projects are handled much more leniently elsewhere.","Alors qu’ici des règles strictes s’appliquent, des projets similaires sont gérés beaucoup plus librement ailleurs.","anderswo = elsewhere, somewhere else",anderswo = ailleurs,,
+945,36,"Viele Herausforderungen, die hier neu erscheinen, wurden _____ bereits erfolgreich gelöst.",anderswo,"Viele Herausforderungen, die hier neu erscheinen, wurden anderswo bereits erfolgreich gelöst.",Many challenges that seem new here have already been successfully solved elsewhere.,De nombreux défis qui semblent nouveaux ici ont déjà été résolus avec succès ailleurs.,"anderswo = elsewhere, somewhere else",anderswo = ailleurs,,
+946,36,"Die Reform wirkt ambitioniert, doch _____ ist ein vergleichbares Niveau längst erreicht.",anderswo,"Die Reform wirkt ambitioniert, doch anderswo ist ein vergleichbares Niveau längst erreicht.","The reform seems ambitious, but elsewhere a similar level has long been achieved.","La réforme paraît ambitieuse, mais ailleurs un niveau comparable est atteint depuis longtemps.","anderswo = elsewhere, somewhere else",anderswo = ailleurs,,
+947,36,"_____ wird stärker in Forschung investiert, was langfristig zu deutlich höheren Innovationsraten führt.",Anderswo,"Anderswo wird stärker in Forschung investiert, was langfristig zu deutlich höheren Innovationsraten führt.","Elsewhere, much more is invested in research, which in the long run leads to significantly higher innovation rates.","Ailleurs, on investit davantage dans la recherche, ce qui conduit à long terme à des taux d’innovation nettement plus élevés.","anderswo = elsewhere, somewhere else",anderswo = ailleurs,,
+948,36,"Die öffentliche Debatte verläuft _____ oft pragmatischer, weil emotionale Argumente weniger stark dominieren.",anderswo,"Die öffentliche Debatte verläuft anderswo oft pragmatischer, weil emotionale Argumente weniger stark dominieren.","Public debate elsewhere is often more pragmatic, because emotional arguments are less dominant.","Ailleurs, le débat public est souvent plus pragmatique, car les arguments émotionnels y dominent moins.","anderswo = elsewhere, somewhere else",anderswo = ailleurs,,
 949,37,,miteinander,,"with each other, jointly","les uns avec les autres, conjointement","miteinander = with each other, jointly","miteinander = les uns avec les autres, conjointement",,
 950,37,,nebeneinander,,side by side,côte à côte,nebeneinander = side by side,nebeneinander = côte à côte,,
 951,37,,aneinander,,"at each other, conflictingly","l'un à l'autre, de manière conflictuelle","aneinander = at each other, conflictingly","aneinander = l'un à l'autre, de manière conflictuelle",,
@@ -1196,7 +1196,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 1195,47,,unter anderem,,among other things,entre autres choses,unter anderem = among other things,unter anderem = entre autres choses,,
 1196,47,,nach allem,,"by all accounts, according to all","de l'avis général, selon tous","nach allem = by all accounts, according to all","nach allem = de l'avis général, selon tous",,
 1197,47,,auf und ab,,up and down,de haut en bas,auf und ab = up and down,auf und ab = de haut en bas,,
-1198,47,,hin und her,,back and forth,aller et retour,hin und her = back and forth,hin und her = aller et retour,,
+1198,47,,hin und her,,"back and forth, to and fro","d'avant en arrière, d'un bout à l'autre","hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
 1199,47,,nach und nach,,"bit by bit, little by little, gradually","petit à petit, peu à peu","nach und nach = bit by bit, little by little, gradually","nach und nach = petit à petit, peu à peu",,
 1200,48,"Er arbeitet _____, um sich seinen Traum vom eigenen Café zu erfüllen.",von früh bis spät,"Er arbeitet von früh bis spät, um sich seinen Traum vom eigenen Café zu erfüllen.",He works from early till late to fulfill his dream of owning a café.,Il travaille du matin au soir pour réaliser son rêve d'ouvrir un café.,"von früh bis spät = the whole day, from morning to night, from dawn to dusk","von früh bis spät = toute la journée, du matin au soir, de l'aube au crépuscule",,
 1201,48,_____ herrschte auf dem Festival eine ausgelassene Stimmung.,Von früh bis spät,Von früh bis spät herrschte auf dem Festival eine ausgelassene Stimmung.,"From morning till night, the atmosphere at the festival was exuberant.","Du matin au soir, l'ambiance au festival était exubérante.","von früh bis spät = the whole day, from morning to night, from dawn to dusk","von früh bis spät = toute la journée, du matin au soir, de l'aube au crépuscule",,
@@ -1238,11 +1238,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 1237,48,"Der Ball sprang mehrmals _____, bevor er zur Ruhe kam.",auf und ab,"Der Ball sprang mehrmals auf und ab, bevor er zur Ruhe kam.",The ball bounced up and down several times before coming to rest.,La balle a rebondi plusieurs fois avant de s'immobiliser.,auf und ab = up and down,auf und ab = de haut en bas,,
 1238,48,"Sie hüpfte voller Freude _____, als sie die Nachricht hörte.",auf und ab,"Sie hüpfte voller Freude auf und ab, als sie die Nachricht hörte.",She jumped up and down with joy when she heard the news.,Elle a sauté de joie en apprenant la nouvelle.,auf und ab = up and down,auf und ab = de haut en bas,,
 1239,48,"Der Puls des Lichts flackerte _____, als ob es atmen würde.",auf und ab,"Der Puls des Lichts flackerte auf und ab, als ob es atmen würde.","The light flickered up and down, as if it were breathing.","La lumière vacillait de haut en bas, comme si elle respirait.",auf und ab = up and down,auf und ab = de haut en bas,,
-1240,48,"Er ging nervös _____, während er auf das Ergebnis wartete.",hin und her,"Er ging nervös hin und her, während er auf das Ergebnis wartete.",He paced back and forth nervously while waiting for the result.,Il faisait les cent pas nerveusement en attendant le résultat.,hin und her = back and forth,hin und her = aller et retour,,
-1241,48,Die Pendeluhr schwang gleichmäßig _____.,hin und her,Die Pendeluhr schwang gleichmäßig hin und her.,The pendulum clock swung evenly back and forth.,L'horloge à pendule oscillait régulièrement d'avant en arrière.,hin und her = back and forth,hin und her = aller et retour,,
-1242,48,"Der Hund rannte unermüdlich _____, um den Ball zu holen.",hin und her,"Der Hund rannte unermüdlich hin und her, um den Ball zu holen.",The dog ran back and forth tirelessly to fetch the ball.,Le chien courait sans relâche d'un bout à l'autre pour rapporter la balle.,hin und her = back and forth,hin und her = aller et retour,,
-1243,48,Die Blätter wurden vom Wind _____ geweht.,hin und her,Die Blätter wurden vom Wind hin und her geweht.,The leaves were blown back and forth by the wind.,Les feuilles étaient ballottées par le vent.,hin und her = back and forth,hin und her = aller et retour,,
-1244,48,"Auf dem Bildschirm bewegte sich eine Linie _____, als Teil des Tests.",hin und her,"Auf dem Bildschirm bewegte sich eine Linie hin und her, als Teil des Tests.",A line moved back and forth on the screen as part of the test.,Une ligne se déplaçait d'avant en arrière sur l'écran dans le cadre du test.,hin und her = back and forth,hin und her = aller et retour,,
+1240,48,"Er ging nervös _____, während er auf das Ergebnis wartete.",hin und her,"Er ging nervös hin und her, während er auf das Ergebnis wartete.",He paced back and forth nervously while waiting for the result.,Il faisait les cent pas nerveusement en attendant le résultat.,"hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
+1241,48,Die Pendeluhr schwang gleichmäßig _____.,hin und her,Die Pendeluhr schwang gleichmäßig hin und her.,The pendulum clock swung evenly back and forth.,L'horloge à pendule oscillait régulièrement d'avant en arrière.,"hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
+1242,48,"Der Hund rannte unermüdlich _____, um den Ball zu holen.",hin und her,"Der Hund rannte unermüdlich hin und her, um den Ball zu holen.",The dog ran back and forth tirelessly to fetch the ball.,Le chien courait sans relâche d'un bout à l'autre pour rapporter la balle.,"hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
+1243,48,Die Blätter wurden vom Wind _____ geweht.,hin und her,Die Blätter wurden vom Wind hin und her geweht.,The leaves were blown back and forth by the wind.,Les feuilles étaient ballottées par le vent.,"hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
+1244,48,"Auf dem Bildschirm bewegte sich eine Linie _____, als Teil des Tests.",hin und her,"Auf dem Bildschirm bewegte sich eine Linie hin und her, als Teil des Tests.",A line moved back and forth on the screen as part of the test.,Une ligne se déplaçait d'avant en arrière sur l'écran dans le cadre du test.,"hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
 1245,48,"_____ erkannte das Team, dass die bisherigen Annahmen nicht mehr tragfähig waren.",Nach und nach,"Nach und nach erkannte das Team, dass die bisherigen Annahmen nicht mehr tragfähig waren.","Gradually, the team realized that the previous assumptions were no longer viable.","Peu à peu, l’équipe a compris que les hypothèses précédentes n’étaient plus tenables.","nach und nach = bit by bit, little by little, gradually","nach und nach = petit à petit, peu à peu",,
 1246,48,"Die Spannung löste sich _____, als die Ergebnisse vollständig erklärt wurden.",nach und nach,"Die Spannung löste sich nach und nach, als die Ergebnisse vollständig erklärt wurden.",The tension gradually eased as the results were fully explained.,La tension s’est peu à peu dissipée lorsque les résultats ont été entièrement expliqués.,"nach und nach = bit by bit, little by little, gradually","nach und nach = petit à petit, peu à peu",,
 1247,48,"_____ setzte sich die Erkenntnis durch, dass eine grundlegende Reform unvermeidlich war.",Nach und nach,"Nach und nach setzte sich die Erkenntnis durch, dass eine grundlegende Reform unvermeidlich war.","Little by little, the realization took hold that a fundamental reform was unavoidable.","Peu à peu, l’idée qu’une réforme fondamentale était inévitable s’est imposée.","nach und nach = bit by bit, little by little, gradually","nach und nach = petit à petit, peu à peu",,
@@ -1270,7 +1270,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 1269,49,mitunter,ab und zu,Mitunter führen kleine Versäumnisse zu großen Verzögerungen.,"now and then, occasionally","de temps en temps, occasionnellement","ab und zu = now and then, occasionally","ab und zu = de temps en temps, occasionnellement",,
 1270,49,von Zeit zu Zeit,ab und zu,Von Zeit zu Zeit überprüfen wir die wichtigsten Kennzahlen.,"now and then, occasionally","de temps en temps, occasionnellement","ab und zu = now and then, occasionally","ab und zu = de temps en temps, occasionnellement",,
 1271,49,zuweilen,ab und zu,Zuweilen entwickeln sich Projekte völlig anders als geplant.,"now and then, occasionally","de temps en temps, occasionnellement","ab und zu = now and then, occasionally","ab und zu = de temps en temps, occasionnellement",,
-1272,49,vor und zurück,hin und her,"Die Diskussion ging vor und zurück, ohne zu einem Ergebnis zu kommen.",back and forth,aller et retour,hin und her = back and forth,hin und her = aller et retour,,
+1272,49,vor und zurück,hin und her,"Die Diskussion ging vor und zurück, ohne zu einem Ergebnis zu kommen.","back and forth, to and fro","d'avant en arrière, d'un bout à l'autre","hin und her = back and forth, to and fro","hin und her = d'avant en arrière, d'un bout à l'autre",,
 1273,49,jemals,je,"Ich frage mich, ob er das jemals offen zugeben würde.",ever,"déjà, un jour",je = ever,"je = déjà, un jour",,
 1274,50,,rückwärts,vorwärts,"vorwärts = forward, onward","vorwärts = en avant, vers l'avant","rückwärts = backward, retrospectively","rückwärts = en arrière, retrospectivement",,
 1275,50,,vorwärts,rückwärts,"rückwärts = backward, retrospectively","rückwärts = en arrière, retrospectivement","vorwärts = forward, onward","vorwärts = en avant, vers l'avant",,
@@ -1845,3 +1845,27 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 1844,200,Sie lernt Deutsch und _____ auch Französisch.,zusätzlich,Sie lernt Deutsch und zusätzlich auch Französisch.,She is learning German and additionally French.,Elle apprend l'allemand et également le français.,zusätzlich = additionally,zusätzlich = en plus,,
 1845,200,Das Hotel bietet kostenloses Frühstück und _____ ein Fitnessstudio.,zusätzlich,Das Hotel bietet kostenloses Frühstück und zusätzlich ein Fitnessstudio.,The hotel offers free breakfast and additionally a gym.,L'hôtel propose un petit-déjeuner gratuit et une salle de sport.,zusätzlich = additionally,zusätzlich = en plus,,
 1846,200,Er hat sein Studium abgeschlossen und _____ ein Praktikum gemacht.,zusätzlich,Er hat sein Studium abgeschlossen und zusätzlich ein Praktikum gemacht.,He completed his studies and additionally did an internship.,Il a terminé ses études et a également effectué un stage.,zusätzlich = additionally,zusätzlich = en plus,,
+1847,200,,hin und wieder,,now and again,,,,,
+1848,200,,lange nicht/noch lange nicht/längst nicht/noch längst nicht,,not nearly,,,,,
+1849,200,,weitaus,,by far,,,,,
+1850,200,,von nun an,,from now on,,,,,
+1851,200,,augenblicklich,,at the moment,,,,,
+1852,200,,gegenwärtig,,"at present, currently",,,,,
+1853,200,,einst,,once,,,,,
+1854,200,,soeben,,,,,,,
+1855,200,,fordem,,,,,,,
+1856,200,,vorhin,,,,,,,
+1857,200,,alsbald,,,,,,,
+1858,200,,darauf,,after that,,,,,
+1859,200,,daraufhin,,after that,,,,,
+1860,200,,hernach,,,,,,,
+1861,200,,nächstens,,,,,,,
+1862,200,,fortan,,,,,,,
+1863,200,,nunmehr,,,,,,,
+1864,200,,unterdessen,,,,,,,
+1865,200,,vorläufig,,,,,,,
+1866,200,,währenddem,,,,,,,
+1867,200,,abermals,,,,,,,
+1868,200,,gelegentlich,,occasionaly,,,,,
+1869,200,,unaufhörlich,,,,,,,
+1870,200,,zuweilen,,,,,,,

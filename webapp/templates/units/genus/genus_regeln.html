@@ -5,9 +5,11 @@
     <meta name="description" content="Practice German Articles. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/unit.css') }}">
 </head>
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
@@ -37,38 +39,40 @@
             {{ render_exercise_table_row("genus_regeln", 7, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 8, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 10, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B1</h2>
         <table class="exercise-table">
-            {{ render_exercise_table_row("genus_regeln", 10, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 11, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 12, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 13, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 14, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 15, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B2</h2>
         <table class="exercise-table">
-            {{ render_exercise_table_row("genus_regeln", 15, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 16, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 17, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 18, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 19, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 20, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>C1</h2>
         <table class="exercise-table">
-            {{ render_exercise_table_row("genus_regeln", 19, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("genus_regeln", 20, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 21, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 22, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 23, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 24, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 25, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
@@ -76,6 +80,5 @@
         <a href="/" class="button">{{ homepage }}</a>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ from . import routes_bp
 from data.data_processing.units import units
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
-from users.users.models import Bookmark
+from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark
 from users.progress.score import write_score
 from users.progress.progress import compute_answered_questions, compute_completed_exercises
 
@@ -90,13 +90,15 @@ def bookmarks():
 
     if language == "english":
         return render_template("menu/bookmarks_en.html",
-                           bookmarks=bookmarks,
-                           is_feedback_box=True,
-                           your_answer=YOUR_ANSWER[language],
-                           title_page=TITLE_PAGE,
-                           force_full_bookmark=True,
-                           get_question_from_incorrect_answer=get_question_from_incorrect_answer,
-                           )
+                               bookmarks=bookmarks,
+                               is_feedback_box=True,
+                               your_answer=YOUR_ANSWER[language],
+                               title_page=TITLE_PAGE,
+                               force_full_bookmark=True,
+                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
+                               icon_empty=get_filename_empty_bookmark(),
+                               icon_full=get_filename_full_bookmark(),
+                               )
 
     elif language == "french":
         return render_template("menu/bookmarks_fr.html",
@@ -106,6 +108,8 @@ def bookmarks():
                            title_page=TITLE_PAGE,
                            force_full_bookmark=True,
                            get_question_from_incorrect_answer=get_question_from_incorrect_answer,
+                            icon_empty=get_filename_empty_bookmark(),
+                            icon_full=get_filename_full_bookmark(),
                            )
 
 

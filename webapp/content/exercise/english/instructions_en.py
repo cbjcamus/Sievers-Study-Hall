@@ -675,24 +675,23 @@ INSTRUCTION_EN = {
         3: "Write the Past Participle (Partizip II) of the following verb:",
         4: "Write the Past Participle (Partizip II) of the following verb:",
         5: "Write the Past Participle (Partizip II) of the following verb:",
-
         6: "Write the Past Participle (Partizip II) of the following verb:",
         7: "Write the Past Participle (Partizip II) of the following verb:",
+
         8: "Write the Past Participle (Partizip II) of the following verb:",
         9: "Write the Past Participle (Partizip II) of the following verb:",
         10: "Write the Past Participle (Partizip II) of the following verb:",
-
         11: "Write the Past Participle (Partizip II) of the following verb:",
         12: "Write the Past Participle (Partizip II) of the following verb:",
         13: "Write the Past Participle (Partizip II) of the following verb:",
         14: "Write the Past Participle (Partizip II) of the following verb:",
+
         15: "Write the Past Participle (Partizip II) of the following verb:",
         16: "Write the Past Participle (Partizip II) of the following verb:",
         17: "Write the Past Participle (Partizip II) of the following verb:",
         18: "Write the Past Participle (Partizip II) of the following verb:",
         19: "Write the Past Participle (Partizip II) of the following verb:",
         20: "Write the Past Participle (Partizip II) of the following verb:",
-
         21: "Write the Past Participle (Partizip II) of the following verb:",
         22: "Write the Past Participle (Partizip II) of the following verb:",
         23: "Write the Past Participle (Partizip II) of the following verb:",
@@ -700,10 +699,10 @@ INSTRUCTION_EN = {
         25: "Write the Past Participle (Partizip II) of the following verb:",
         26: "Write the Past Participle (Partizip II) of the following verb:",
         27: "Write the Past Participle (Partizip II) of the following verb:",
+
         28: "Write the Past Participle (Partizip II) of the following verb:",
         29: "Write the Past Participle (Partizip II) of the following verb:",
         30: "Write the Past Participle (Partizip II) of the following verb:",
-
         31: "Write the Past Participle (Partizip II) of the following verb:",
         32: "Write the Past Participle (Partizip II) of the following verb:",
         33: "Write the Past Participle (Partizip II) of the following verb:",
@@ -714,6 +713,7 @@ INSTRUCTION_EN = {
         38: "Write the Past Participle (Partizip II) of the following verb:",
         39: "Write the Past Participle (Partizip II) of the following verb:",
         40: "Write the Past Participle (Partizip II) of the following verb:",
+
         41: "Write the Past Participle (Partizip II) of the following verb:",
         42: "Write the Past Participle (Partizip II) of the following verb:",
         43: "Write the Past Participle (Partizip II) of the following verb:",
@@ -724,6 +724,16 @@ INSTRUCTION_EN = {
         48: "Write the Past Participle (Partizip II) of the following verb:",
         49: "Write the Past Participle (Partizip II) of the following verb:",
         50: "Write the Past Participle (Partizip II) of the following verb:",
+        51: "Write the Past Participle (Partizip II) of the following verb:",
+        52: "Write the Past Participle (Partizip II) of the following verb:",
+        53: "Write the Past Participle (Partizip II) of the following verb:",
+        54: "Write the Past Participle (Partizip II) of the following verb:",
+        55: "Write the Past Participle (Partizip II) of the following verb:",
+        56: "Write the Past Participle (Partizip II) of the following verb:",
+        57: "Write the Past Participle (Partizip II) of the following verb:",
+        58: "Write the Past Participle (Partizip II) of the following verb:",
+        59: "Write the Past Participle (Partizip II) of the following verb:",
+        60: "Write the Past Participle (Partizip II) of the following verb:",
     },
 
     praeteritum: {
@@ -739,18 +749,17 @@ INSTRUCTION_EN = {
         9: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         10: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         11: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
-
         12: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         13: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         14: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         15: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
         16: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         17: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         18: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         19: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         20: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         21: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
-
         22: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         23: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         24: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
@@ -758,10 +767,10 @@ INSTRUCTION_EN = {
         26: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         27: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         28: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
         29: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         30: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         31: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
-
         32: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         33: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         34: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
@@ -772,6 +781,7 @@ INSTRUCTION_EN = {
         39: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         40: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         41: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+
         42: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         43: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         44: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
@@ -782,12 +792,21 @@ INSTRUCTION_EN = {
         49: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         50: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
         51: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        52: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        53: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        54: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        55: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        56: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        57: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        58: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        59: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        60: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
+        61: "Conjugate the following verb in the Präteritum (3<sup>rd</sup> Person Singular):",
     },
 
     praeteritum_partizip_II: {
         1: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
-
         2: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         3: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -808,13 +827,13 @@ INSTRUCTION_EN = {
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         11: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
-
         12: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         13: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         14: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
         15: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         16: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -829,7 +848,6 @@ INSTRUCTION_EN = {
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         21: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
-
         22: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         23: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -842,6 +860,7 @@ INSTRUCTION_EN = {
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         27: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
         28: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         29: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -850,7 +869,6 @@ INSTRUCTION_EN = {
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         31: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
-
         32: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         33: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -869,6 +887,7 @@ INSTRUCTION_EN = {
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         40: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+
         41: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         42: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
@@ -890,6 +909,24 @@ INSTRUCTION_EN = {
         50: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
         51: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        52: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        53: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        54: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        55: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        56: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        57: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        58: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        59: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
+            "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
+        60: "Write the Präteritum (3<sup>rd</sup> Person Singular) and Partizip II of the following verb."
             "<br><br>Use the formats \"spielte gespielt\" or \"spielte, gespielt\".",
     },
 
@@ -941,23 +978,25 @@ INSTRUCTION_EN = {
         7: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         8: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         9: "Write the definite article (Der, Die or Das) that fits the noun provided:",
-
         10: "Write the definite article (Der, Die or Das) that fits the noun provided:",
+
         11: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         12: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         13: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         14: "Write the definite article (Der, Die or Das) that fits the noun provided:",
-
         15: "Write the definite article (Der, Die or Das) that fits the noun provided:",
+
         16: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         17: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         18: "Write the definite article (Der, Die or Das) that fits the noun provided:",
-
         19: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         20: "Write the definite article (Der, Die or Das) that fits the noun provided:",
+
         21: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         22: "Write the definite article (Der, Die or Das) that fits the noun provided:",
         23: "Write the definite article (Der, Die or Das) that fits the noun provided:",
+        24: "Write the definite article (Der, Die or Das) that fits the noun provided:",
+        25: "Write the definite article (Der, Die or Das) that fits the noun provided:",
     },
 
     genus_routledge: {

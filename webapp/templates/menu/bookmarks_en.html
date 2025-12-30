@@ -5,10 +5,12 @@
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/exercise.css') }}">
 </head>
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
 
     {{ render_title("Bookmarks") }}
@@ -37,7 +39,9 @@
                 incorrect_question=get_question_from_incorrect_answer(bm.unit, bm.exercise, bm.result, bm.user_answer),
                 current_user=current_user,
                 force_full_bookmark=True,
-                bookmark_id=bm.id
+                icon_full=icon_full,
+                icon_empty=icon_empty,
+                bookmark_id=bm.id,
             ) }}
 
         </li>
@@ -45,7 +49,7 @@
     </ul>
   {% else %}
     <p>No bookmarks yet. You can bookmark feedbacks by click on the <img class="bookmark-icon"
-                src="{{ url_for('static', filename='bookmarks/empty.png') }}"
+                src="{{ url_for('static', filename='bookmarks/' ~ icon_empty) }}"
                 > icon in the top left corner of the feedback containers.</p>
   {% endif %}
 

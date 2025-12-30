@@ -5,11 +5,12 @@
     <meta name="description" content="Sign in to save your German practice progress.">
     {% from "macros/header.html" import header %}
     {{ header() }}
-</head>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/authorization.css') }}"></head>
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 
     {{ render_title("Sievers Study Hall") }}
 

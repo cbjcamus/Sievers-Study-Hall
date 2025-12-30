@@ -1,0 +1,203 @@
+body {
+    background-color: #131b22; /* #101621 #161F23 */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+body.day-mode {
+  background-color: #deedfa;
+  color: black;
+}
+
+a {
+    color: white; /* or any color you want */
+}
+
+a:hover {
+    /*color: lightgray;  or another color when hovering */
+}
+
+body.day-mode a {
+    color: black;
+}
+
+.hamburger-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hamburger {
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+body.day-mode .hamburger {
+    color: black;
+    background: #deedfa;
+    border: black;
+}
+
+.menu {
+    display: none;
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #131b22;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    flex-direction: column;
+}
+
+body.day-mode .menu {
+    color: black
+    background-color: #deedfa;
+    border: 1px solid black;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+body.day-mode .menu a {
+    color: black;
+    background-color: #deedfa;
+}
+
+.menu a:hover {
+    background-color: #1f2f40;
+}
+
+body.day-mode .menu a:hover {
+    background-color: #3d6a85;
+}
+
+.menu.show {
+    display: flex;
+}
+
+.lang-container {
+    position: absolute;
+    top: 31px;
+    right: 80px;
+    z-index: 1001;
+}
+
+.lang-button {
+    font-size: 20px;
+    line-height: 1;
+    padding: 6px 10px;
+    border-radius: 0px;
+    border: 0px solid #ccc;
+    background: #131b22;
+    color: white;
+    cursor: pointer;
+}
+
+body.day-mode .lang-button {
+    background: #deedfa;
+    color: black;
+    border: 0px solid black;
+}
+
+.lang-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    background-color: #131b22;
+    border: 1px solid #ccc;
+    min-width: 80px;
+    z-index: 1001;
+    flex-direction: column;
+}
+
+body.day-mode .lang-menu {
+    background-color: #deedfa;
+    color: black;
+    border: 1px solid black;
+}
+
+.lang-menu a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+body.day-mode .lang-menu a { color: black; }
+
+.lang-menu a:hover {
+    background-color: #1f2f40;
+}
+
+body.day-mode .lang-menu a:hover {
+    background-color: #3d6a85;
+}
+
+.lang-menu.show { display: flex; }
+
+.lang-menu a.active {
+    font-weight: bold;
+    pointer-events: none; /* current language non-clickable */
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.section {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+body.day-mode .button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.home-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

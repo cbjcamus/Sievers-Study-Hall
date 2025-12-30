@@ -1,0 +1,64 @@
+{% macro render_title(title) %}
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0px;">
+        <a href="/" style="flex-shrink: 0;">
+            <img src="/webapp/static/logo.png" alt="Logo" style="height: 75px;">
+        </a>
+        <h1 style="flex-grow: 1; text-align: center; margin: 0;">{{title}}</h1>
+        <div style="width: 75px;"></div> <!-- Spacer to balance the logo -->
+    </div>
+
+    <div class="lang-container">
+      <button class="lang-button" onclick="toggleLangMenu()" aria-haspopup="true" aria-expanded="false">
+        {{ (lang_code or 'en')|upper }}
+      </button>
+      <div id="lang-menu" class="lang-menu" role="menu">
+        <a role="menuitem" href="{{ url_for('routes.set_lang', code='en') }}" class="{{ 'active' if lang_code=='en' else '' }}">EN</a>
+        <a role="menuitem" href="{{ url_for('routes.set_lang', code='fr') }}" class="{{ 'active' if lang_code=='fr' else '' }}">FR</a>
+      </div>
+    </div>
+
+    <div class="hamburger-container">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div id="menu" class="menu">
+            <a href="/">Home</a>
+
+            {% if current_user.is_authenticated %}
+                <a href="{{ url_for('routes.settings') }}">Settings</a>
+                <a href="{{ url_for('routes.bookmarks') }}">Bookmarks</a>
+            {% else %}
+                <a href="{{ url_for('routes.signin') }}">Login</a>
+            {% endif %}
+
+            <a href="/about">About</a>
+        </div>
+    </div>
+
+    <script>
+    function toggleMenu() {
+        var menu = document.getElementById('menu');
+        menu.classList.toggle('show');
+    }
+    </script>
+
+    <script>
+    function toggleLangMenu() {
+      var menu = document.getElementById('lang-menu');
+      var btn  = document.querySelector('.lang-button');
+      var isOpen = menu.classList.toggle('show');
+      if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+
+    // close when clicking outside
+    document.addEventListener('click', function(e) {
+      var menu = document.getElementById('lang-menu');
+      var btn = document.querySelector('.lang-button');
+      if (!menu || !btn) return;
+      if (!menu.contains(e.target) && !btn.contains(e.target)) {
+        if (menu.classList.contains('show')) {
+          menu.classList.remove('show');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      }
+    });
+    </script>
+{% endmacro %}

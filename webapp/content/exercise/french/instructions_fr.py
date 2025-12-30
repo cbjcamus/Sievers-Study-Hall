@@ -675,24 +675,23 @@ INSTRUCTION_FR = {
         3: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         4: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         5: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
-
         6: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         7: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+
         8: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         9: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         10: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
-
         11: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         12: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         13: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         14: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+
         15: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         16: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         17: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         18: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         19: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         20: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
-
         21: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         22: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         23: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
@@ -700,10 +699,10 @@ INSTRUCTION_FR = {
         25: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         26: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         27: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+
         28: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         29: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         30: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
-
         31: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         32: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         33: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
@@ -714,6 +713,7 @@ INSTRUCTION_FR = {
         38: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         39: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         40: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+
         41: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         42: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         43: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
@@ -724,6 +724,16 @@ INSTRUCTION_FR = {
         48: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         49: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
         50: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        51: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        52: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        53: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        54: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        55: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        56: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        57: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        58: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        59: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
+        60: "Écrivez le Participe Passé (Partizip II) du verbe suivant :",
     },
 
     praeteritum: {
@@ -739,18 +749,17 @@ INSTRUCTION_FR = {
         9: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         10: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         11: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
-
         12: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         13: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         14: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         15: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+
         16: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         17: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         18: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         19: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         20: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         21: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
-
         22: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         23: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         24: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
@@ -758,10 +767,10 @@ INSTRUCTION_FR = {
         26: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         27: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         28: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+
         29: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         30: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         31: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
-
         32: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         33: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         34: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
@@ -772,6 +781,7 @@ INSTRUCTION_FR = {
         39: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         40: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         41: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+
         42: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         43: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         44: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
@@ -782,12 +792,21 @@ INSTRUCTION_FR = {
         49: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         50: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
         51: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        52: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        53: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        54: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        55: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        56: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        57: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        58: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        59: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        60: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
+        61: "Conjuguez le verbe suivant au Préterit (Präteritum) à la 3<sup>ème</sup> personne du singulier :",
     },
 
     praeteritum_partizip_II: {
         1: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
-
         2: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         3: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -808,13 +827,13 @@ INSTRUCTION_FR = {
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         11: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
-
         12: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         13: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         14: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+
         15: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         16: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -829,7 +848,6 @@ INSTRUCTION_FR = {
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         21: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
-
         22: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         23: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -842,6 +860,7 @@ INSTRUCTION_FR = {
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         27: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+
         28: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         29: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -850,7 +869,6 @@ INSTRUCTION_FR = {
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         31: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
-
         32: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         33: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -869,6 +887,7 @@ INSTRUCTION_FR = {
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         40: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+
         41: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         42: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
@@ -890,6 +909,24 @@ INSTRUCTION_FR = {
         50: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
         51: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        52: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        53: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        54: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        55: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        56: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        57: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        58: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        59: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
+            "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
+        60: "Écrivez le Préerit (Präteritum) – 3<sup>ème</sup> personne du singulier) et le Participe Passé (Partizip II) du verbe suivant."
             "<br><br>Utilisez les formats \"spielte gespielt\" ou \"spielte, gespielt\".",
     },
 
@@ -941,23 +978,25 @@ INSTRUCTION_FR = {
         7: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         8: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         9: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
-
         10: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
+
         11: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         12: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         13: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         14: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
-
         15: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
+
         16: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         17: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         18: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
-
         19: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         20: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
+
         21: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         22: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         23: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
+        24: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
+        25: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
     },
 
     genus_routledge: {

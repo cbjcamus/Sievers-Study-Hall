@@ -6,22 +6,11 @@
     {% from "macros/header.html" import header %}
     {{ header() }}
 
-    <script>
-        window.onload = function() {
-            document.getElementById("answer")?.focus();
-        };
-        document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById("answer")?.addEventListener("keypress", function(event) {
-                if (event.key === "Enter") {
-                    event.preventDefault();
-                    document.getElementById("submit-button")?.click();
-                }
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/exercise.css') }}">
+    <script src="{{ url_for('static', filename='js/answer-input.js') }}" defer></script>
 </head>
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
@@ -76,54 +65,11 @@
 
     </div>
 
-    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, False) }}
+    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, False, icon_full, icon_empty) }}
 
-    <script>
-      function toggleFlagForm(button) {
-        const container = button.closest(".flag-form-container");
-        const form = container.querySelector("form.flag-form");
+    <script src="{{ url_for('static', filename='js/flags.js') }}" defer></script>
 
-        form.classList.toggle("hidden");
-
-        if (!form.classList.contains("hidden")) {
-          form.querySelector("textarea").focus();
-        }
-      }
-    </script>
-
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const form = document.querySelector(".bookmark-form");
-          if (!form) return;
-
-          form.addEventListener("submit", async function (event) {
-            event.preventDefault();
-
-            const icon = form.querySelector(".bookmark-icon");
-            const full = "{{ url_for('static', filename='bookmarks/full.png') }}";
-            const empty = "{{ url_for('static', filename='bookmarks/empty.png') }}";
-
-            const formData = new FormData(form);
-
-            try {
-              const response = await fetch(form.action, {
-                method: "POST",
-                body: formData,
-                headers: { "X-Requested-With": "XMLHttpRequest" }
-              });
-
-              if (!response.ok) return;
-
-              const data = await response.json();
-              icon.src = data.bookmarked ? full : empty;
-
-            } catch (err) {
-              console.error("Bookmark error:", err);
-            }
-          });
-        });
-    </script>
+    <script src="{{ url_for('static', filename='js/bookmarks.js') }}" defer></script>
 
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
@@ -151,32 +97,7 @@
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }}</a>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
-
-    <script>
-      function toggleGuidanceHelp(forceClose = false) {
-        const overlay = document.getElementById("guidance-overlay");
-        if (!overlay) return;
-
-        const isOpen = overlay.classList.contains("is-open");
-        const nextOpen = forceClose ? false : !isOpen;
-
-        overlay.classList.toggle("is-open", nextOpen);
-        overlay.setAttribute("aria-hidden", nextOpen ? "false" : "true");
-      }
-
-      document.addEventListener("click", function (e) {
-        const overlay = document.getElementById("guidance-overlay");
-        if (!overlay || !overlay.classList.contains("is-open")) return;
-        if (e.target === overlay) toggleGuidanceHelp(true);
-      });
-
-      document.addEventListener("keydown", function (e) {
-        const overlay = document.getElementById("guidance-overlay");
-        if (!overlay || !overlay.classList.contains("is-open")) return;
-        if (e.key === "Escape") toggleGuidanceHelp(true);
-      });
-    </script>
+    <script src="{{ url_for('static', filename='js/guidance.js') }}" defer></script>
 
 </body>
 </html>

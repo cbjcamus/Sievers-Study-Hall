@@ -1,4 +1,4 @@
-{% macro render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, force_full_bookmark, bookmark_id) %}
+{% macro render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, force_full_bookmark, icon_full, icon_empty, bookmark_id) %}
 
     {% if is_feedback_box and result %}
         {% if result == 'correct' %}
@@ -36,7 +36,9 @@
         {% if current_user.is_authenticated and feedback_message %}
           <form method="post"
                 action="{{ url_for('routes.toggle_bookmark') }}"
-                class="bookmark-form">
+                class="bookmark-form"
+                data-icon-full="{{ url_for('static', filename='bookmarks/' ~ icon_full) }}"
+                data-icon-empty="{{ url_for('static', filename='bookmarks/' ~ icon_empty) }}">
 
             {# If bookmark_id is provided (bookmarks page), use it #}
             {% if bookmark_id is defined %}
@@ -58,9 +60,9 @@
               <img
                 class="bookmark-icon"
                 src="{% if force_full_bookmark or is_bookmarked %}
-                        {{ url_for('static', filename='bookmarks/full.png') }}
+                        {{ url_for('static', filename='bookmarks/' ~ icon_full) }}
                      {% else %}
-                        {{ url_for('static', filename='bookmarks/empty.png') }}
+                        {{ url_for('static', filename='bookmarks/' ~ icon_empty) }}
                      {% endif %}"
                 alt="bookmark icon">
             </button>
@@ -104,7 +106,10 @@
                 {% if current_user.is_authenticated and feedback_message %}
                 <form method="post"
                       action="{{ url_for('routes.toggle_bookmark') }}"
-                      class="bookmark-form">
+                      class="bookmark-form"
+                      data-icon-full="{{ url_for('static', filename='bookmarks/' ~ icon_full) }}"
+                      data-icon-empty="{{ url_for('static', filename='bookmarks/' ~ icon_empty) }}">
+
                   <input type="hidden" name="unit" value="{{ unit }}">
                   <input type="hidden" name="exercise" value="{{ exercise }}">
                   <input type="hidden" name="level" value="{{ level }}">
@@ -119,9 +124,9 @@
                       <img
                           class="bookmark-icon"
                           src="{% if force_full_bookmark or is_bookmarked %}
-                                  {{ url_for('static', filename='bookmarks/full.png') }}
+                                  {{ url_for('static', filename='bookmarks/' ~ icon_full) }}
                                {% else %}
-                                  {{ url_for('static', filename='bookmarks/empty.png') }}
+                                  {{ url_for('static', filename='bookmarks/' ~ icon_empty) }}
                                {% endif %}"
                           alt="bookmark icon">
                     </button>

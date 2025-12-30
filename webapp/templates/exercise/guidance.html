@@ -6,22 +6,11 @@
     {% from "macros/header.html" import header %}
     {{ header() }}
 
-    <script>
-        window.onload = function() {
-            document.getElementById("answer")?.focus();
-        };
-        document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById("answer")?.addEventListener("keypress", function(event) {
-                if (event.key === "Enter") {
-                    event.preventDefault();
-                    document.getElementById("submit-button")?.click();
-                }
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/exercise.css') }}">
+    <script src="{{ url_for('static', filename='js/answer-input.js') }}" defer></script>
 </head>
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -67,6 +56,5 @@
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }}</a>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

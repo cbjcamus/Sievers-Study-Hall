@@ -1351,18 +1351,17 @@ FEEDBACK_EN = {
            "<br><br>{previous_question} = {english}",
         5: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
-
         6: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
         7: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
+
         8: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
         9: "Partizip II {previous_question} → {correct_answers}"
            "<br><br>{previous_question} = {english}",
         10: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-
         11: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         12: "Partizip II {previous_question} → {correct_answers}"
@@ -1371,6 +1370,7 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         14: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
+
         15: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         16: "Partizip II {previous_question} → {correct_answers}"
@@ -1383,7 +1383,6 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         20: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-
         21: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         22: "Partizip II {previous_question} → {correct_answers}"
@@ -1398,13 +1397,13 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         27: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
+
         28: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         29: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         30: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
-
         31: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         32: "Partizip II {previous_question} → {correct_answers}"
@@ -1425,6 +1424,7 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         40: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
+
         41: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         42: "Partizip II {previous_question} → {correct_answers}"
@@ -1444,6 +1444,26 @@ FEEDBACK_EN = {
         49: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
         50: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        51: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        52: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        53: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        54: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        55: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        56: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        57: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        58: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        59: "Partizip II {previous_question} → {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        60: "Partizip II {previous_question} → {correct_answers}"
             "<br><br>{previous_question} = {english}",
     },
 
@@ -1471,7 +1491,6 @@ FEEDBACK_EN = {
            "<br><br>{previous_question} = {english}",
         11: "{previous_question} → er/sie/es {correct_answers}"
            "<br><br>{previous_question} = {english}",
-
         12: "{previous_question} → er/sie/es {correct_answers}"
            "<br><br>{previous_question} = {english}",
         13: "{previous_question} → er/sie/es {correct_answers}"
@@ -1480,18 +1499,19 @@ FEEDBACK_EN = {
            "<br><br>{previous_question} = {english}",
         15: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
+
         16: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         17: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        18: "{previous_question} → er/sie/es {correct_answers}",
+        18: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
         19: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         20: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         21: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-
         22: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         23: "{previous_question} → er/sie/es {correct_answers}"
@@ -1504,14 +1524,15 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         27: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        28: "{previous_question} → er/sie/es {correct_answers}",
+        28: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+
         29: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         30: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         31: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-
         32: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         33: "{previous_question} → er/sie/es {correct_answers}"
@@ -1524,13 +1545,15 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         37: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        38: "{previous_question} → er/sie/es {correct_answers}",
+        38: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
         39: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         40: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         41: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
+
         42: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         43: "{previous_question} → er/sie/es {correct_answers}"
@@ -1543,12 +1566,33 @@ FEEDBACK_EN = {
             "<br><br>{previous_question} = {english}",
         47: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
-        48: "{previous_question} → er/sie/es {correct_answers}",
+        48: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
         49: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         50: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
         51: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        52: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        53: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        54: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        55: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        56: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        57: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        58: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        59: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        60: "{previous_question} → er/sie/es {correct_answers}"
+            "<br><br>{previous_question} = {english}",
+        61: "{previous_question} → er/sie/es {correct_answers}"
             "<br><br>{previous_question} = {english}",
     },
 
@@ -1556,7 +1600,6 @@ FEEDBACK_EN = {
         1: "{previous_question}, {correct_answers}"
            "<br><br>{previous_question} = {english}"
            "<br><br>Correct answer: {correct_answers}",
-
         2: "{previous_question}, {correct_answers}"
            "<br><br>{previous_question} = {english}"
            "<br><br>Correct answer: {correct_answers}",
@@ -1587,7 +1630,6 @@ FEEDBACK_EN = {
         11: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
-
         12: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
@@ -1597,6 +1639,7 @@ FEEDBACK_EN = {
         14: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
+
         15: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
@@ -1618,7 +1661,6 @@ FEEDBACK_EN = {
         21: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
-
         22: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
@@ -1637,6 +1679,7 @@ FEEDBACK_EN = {
         27: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
+
         28: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
@@ -1649,7 +1692,6 @@ FEEDBACK_EN = {
         31: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
-
         32: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
@@ -1677,6 +1719,7 @@ FEEDBACK_EN = {
         40: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
+
         41: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
@@ -1710,6 +1753,34 @@ FEEDBACK_EN = {
         51: "{previous_question}, {correct_answers}"
             "<br><br>{previous_question} = {english}"
             "<br><br>Correct answer: {correct_answers}",
+        52: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        53: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        54: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        55: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        56: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        57: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        58: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        59: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+        60: "{previous_question}, {correct_answers}"
+            "<br><br>{previous_question} = {english}"
+            "<br><br>Correct answer: {correct_answers}",
+
     },
 
     imperativ: {
@@ -1776,77 +1847,83 @@ FEEDBACK_EN = {
     genus_regeln: {
         1: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         2: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         3: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         4: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         5: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>exception to the rule: {explanation_english}",
+           "<br><br>Exception to the rule: {explanation_english}",
 
         6: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         7: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         8: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         9: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>exception to the rule: {explanation_english}",
-
+           "<br><br>Rule: {explanation_english}",
         10: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Exception to the rule: {explanation_english}",
+
         11: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         12: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         13: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{explanation_english}",
+           "<br><br>Rule: {explanation_english}",
         14: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>exception to the rule: {explanation_english}",
-
+           "<br><br>Rule: {explanation_english}",
         15: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+           "<br><br><i>{english}</i>"
+           "<br><br>Exception to the rule: {explanation_english}",
+
         16: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+            "<br><br>Rule: {explanation_english}",
         17: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+            "<br><br>Rule: {explanation_english}",
         18: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>exception to the rule: {explanation_english}",
-
+            "<br><br>Rule: {explanation_english}",
         19: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+            "<br><br>Rule: {explanation_english}",
         20: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+            "<br><br>Exception to the rule: {explanation_english}",
+
         21: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+            "<br><br>Rule: {explanation_english}",
         22: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}",
+            "<br><br>Rule: {explanation_english}",
         23: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>exception to the rule: {explanation_english}",
+            "<br><br>Rule: {explanation_english}",
+        24: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Rule: {explanation_english}",
+        25: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Exception to the rule: {explanation_english}",
     },
 
     genus_routledge: {

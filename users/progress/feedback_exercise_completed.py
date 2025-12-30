@@ -132,7 +132,6 @@ def format_feedback(df, unit, exercise):
     template = FEEDBACK[language][unit][exercise]
     result = []
 
-
     for _, row in df.iterrows():
 
         if is_exercise_multiple_choice(unit, exercise) is True:

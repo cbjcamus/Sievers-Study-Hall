@@ -1,0 +1,13 @@
+.input-authorization {
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #1E2A30;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}

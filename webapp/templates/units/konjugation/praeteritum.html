@@ -5,9 +5,11 @@
     <meta name="description" content="Practice German Preterit. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/unit.css') }}">
 </head>
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
@@ -38,28 +40,22 @@
             {{ render_exercise_table_row("praeteritum", 9, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 10, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 12, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 13, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 14, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 15, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B2</h2>
         <table class="exercise-table">
-            {{ render_exercise_table_row("praeteritum", 12, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("praeteritum", 13, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("praeteritum", 14, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("praeteritum", 15, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 16, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 17, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 18, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 19, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 20, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 21, session, answered_questions, total_questions, score, description_templates) }}
-        </table>
-    </div>
-
-    <div class="section">
-        <h2>C1</h2>
-        <table class="exercise-table">
             {{ render_exercise_table_row("praeteritum", 22, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 23, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 24, session, answered_questions, total_questions, score, description_templates) }}
@@ -67,15 +63,15 @@
             {{ render_exercise_table_row("praeteritum", 26, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 27, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 28, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("praeteritum", 29, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("praeteritum", 30, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("praeteritum", 31, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
-        <h2>C2</h2>
+        <h2>C1</h2>
         <table class="exercise-table">
+            {{ render_exercise_table_row("praeteritum", 29, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 30, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 31, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 32, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 33, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 34, session, answered_questions, total_questions, score, description_templates) }}
@@ -96,6 +92,16 @@
             {{ render_exercise_table_row("praeteritum", 49, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 50, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("praeteritum", 51, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 52, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 53, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 54, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 55, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 56, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 57, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 58, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 59, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 60, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("praeteritum", 61, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
@@ -103,6 +109,5 @@
         <a href="/" class="button">{{ homepage }}</a>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

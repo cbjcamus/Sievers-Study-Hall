@@ -50,6 +50,20 @@ def get_theme():
     return DEFAULT_SETTINGS["theme"]
 
 
+def get_filename_empty_bookmark():
+    if get_theme() == 'day':
+        return "empty_day.png"
+    else:
+        return "empty.png"
+
+
+def get_filename_full_bookmark():
+    if get_theme() == 'day':
+        return "full_day.png"
+    else:
+        return "full.png"
+
+
 class Bookmark(db.Model):
     __tablename__ = "bookmarks"
 

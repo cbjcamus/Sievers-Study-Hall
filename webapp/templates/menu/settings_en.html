@@ -4,10 +4,12 @@
     <title>Settings</title>
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/settings.css') }}">
 </head>
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 
     {{ render_title("Settings") }}
 
@@ -67,7 +69,7 @@
         </p>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
-    <script src="/webapp/static/toggleIntermediatePage.js"></script>
+    <script src="{{ url_for('static', filename='js/toggleDayMode.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/toggleIntermediatePage.js') }}"></script>
 </body>
 </html>

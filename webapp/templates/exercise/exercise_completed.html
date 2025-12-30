@@ -5,9 +5,11 @@
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/exercise.css') }}">
 </head>
 
-{% from "macros/header.html" import render_title with context %}
+{% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
@@ -33,6 +35,9 @@
         user_answer=user_answer,
         incorrect_question=get_question_from_incorrect_answer(unit, exercise, result, user_answer),
         current_user=current_user,
+        force_full_bookmark=False,
+        icon_full=icon_full,
+        icon_empty=icon_empty,
     ) }}
 
     {% if number_of_incorrect_answers > 0 %}
@@ -62,6 +67,5 @@
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }}</a>
     </div>
 
-    <script src="/webapp/static/toggleDayMode.js"></script>
 </body>
 </html>

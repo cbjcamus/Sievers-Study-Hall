@@ -1,0 +1,662 @@
+.exercise-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.guidance-container {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1f2f40;
+    border-radius: 12px;
+
+    box-sizing: border-box;
+}
+
+body.day-mode .guidance-container {
+    background-color: #deedfa;
+    color: black;
+    border: 2px solid black;
+}
+
+.instruction-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: center;
+
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.exercise-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+
+    padding: 5px;
+    background-color: #1f2f40;
+    border-radius: 12px;
+
+    box-sizing: border-box;
+}
+
+body.day-mode .exercise-container {
+    background-color: #deedfa;
+    color: black;
+    border: 2px solid black;
+}
+
+.question-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.input-box {
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #1E2A30;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
+
+body.day-mode .input-box {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+}
+
+body.day-mode .input-box:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.readonly-input {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #5e5e5e;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
+
+body.day-mode .readonly-input {
+    color: black;
+    border: 2px solid black;
+    background-color: #e0e0e0;
+}
+
+body.day-mode .readonly-input:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.special-chars button {
+    background-color: white;
+    color: #131b22;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.special-chars button:hover {
+    background-color: #f0f0f0;
+}
+
+body.day-mode .special-chars button {
+    border: 1px solid black;
+}
+
+body.day-mode .special-chars button:hover {
+    background-color: white;
+}
+
+.submit-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 7.5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+body.day-mode .submit-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.option-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 7.5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+body.day-mode .option-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.next-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.next-question-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 7.5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+}
+
+body.day-mode .next-question-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.gender-help-container {
+    position: absolute;
+    bottom: 16px;
+    right: 18px;
+}
+
+.gender-help-button {
+    background-color: white;
+    color: #131b22;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gender-help-button:hover {
+    background-color: #f0f0f0;
+}
+
+body.day-mode .gender-help-button {
+    border: 1px solid black;
+}
+
+body.day-mode .gender-help-button:hover {
+    background-color: white;
+}
+
+.gender-tooltip {
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+    background-color: white;
+    color: #131b22;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+body.day-mode .gender-tooltip {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.guidance-help-container {
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+}
+
+.guidance-help-button {
+  background-color: white;
+  color: #131b22;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.guidance-help-button:hover {
+  background-color: #f0f0f0;
+}
+
+body.day-mode .guidance-help-button {
+  border: 1px solid black;
+}
+
+body.day-mode .guidance-help-button:hover {
+  background-color: white;
+}
+
+/* Overlay “page on top” */
+.guidance-overlay {
+  position: fixed;
+  inset: 0;
+  display: none !important;     /* default hidden */
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 9999;
+}
+
+.guidance-overlay.is-open {
+  display: flex !important;     /* shown only when open */
+}
+
+/* Modal card */
+.guidance-modal {
+  width: min(600px, calc(100vw - 40px));
+  max-height: calc(100vh - 60px);
+  overflow: auto;
+  background: #131b22;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.35);
+  padding: 10px 20px;
+}
+
+body.day-mode .guidance-modal {
+  border: 1px solid black;
+  background: #deedfa;
+  color: black;
+}
+
+/* Header with close button */
+.guidance-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  margin-bottom: 0px;
+}
+
+.guidance-close {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+}
+
+.guidance-modal-body {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* Explicitly override common centered elements */
+.guidance-modal-body h1,
+.guidance-modal-body h2,
+.guidance-modal-body h3,
+.guidance-modal-body p,
+.guidance-modal-body ul,
+.guidance-modal-body ol,
+.guidance-modal-body li {
+  text-align: left;
+}
+
+.question-count {
+    margin-top: 0px;
+    font-size: 16px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the entire line */
+    gap: 5px;
+}
+
+body.day-mode .question-count {
+    color: black;
+}
+
+.refresh-form {
+    display: inline;
+    margin-left: 5px;
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+body.day-mode .refresh-button {
+    color: black;
+}
+
+.refresh-button:hover {
+    color: #ccc;
+}
+
+.feedback-correct-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #1F311C;
+    padding: 5px;
+    border-radius: 12px;
+
+    margin: 20px auto;
+    text-align: center;
+
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body.day-mode .feedback-correct-container {
+    background-color: #deedfa;
+    color: black;
+    border: 2px solid green;
+}
+
+.feedback-incorrect-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #3A1E1E;
+    padding: 5px;
+    border-radius: 12px;
+
+    margin: 20px auto;
+    text-align: center;
+
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body.day-mode .feedback-incorrect-container {
+    background-color: #deedfa;
+    color: black;
+    border: 2px solid red;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.feedback-message {
+    width: 100%;
+    max-width: 400px;
+}
+
+.flag-form {
+    display: inline;
+}
+
+.flag-form-container {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+
+.flag-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+body.day-mode .flag-button {
+    color: black;
+}
+
+.flag-button:hover {
+    color: #ccc;
+}
+
+.bookmark-form {
+    position: absolute;
+    top: 0.8rem;
+    left: 0.8rem;
+    margin: 0;
+}
+
+.bookmark-button {
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bookmark-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.bookmark-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.bookmark-list .bookmark-item {
+    margin-bottom: 2rem;  /* adjust as you like */
+}
+
+.flash-messages {
+    text-align: center;
+}
+
+.flash-message.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+    background-color: #401f2e;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 12px;
+}
+
+body.day-mode .flash-message.info {
+    color: black;
+    background-color: #deedfa;
+    border: 2px solid purple;
+}
+
+.flag-form-container {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;   /* keeps flag at the right edge */
+  gap: 8px;                /* space between flag and textbox */
+}
+
+.flag-form {
+  display: block;          /* so it goes under the flag */
+}
+
+.flag-form textarea {
+  width: 260px;            /* tweak to taste */
+  box-sizing: border-box;
+}
+
+.hidden{
+  display: none;
+}
+
+.flag-form textarea{
+  width: 260px;
+  padding: 5px 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body.day-mode .flag-form textarea{
+  border: 1px solid black;
+}
+
+/* Flag submit button: reuse your button style */
+.flag-form button{
+  background-color: white;
+  color: #161F23;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.day-mode .flag-form button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.flag-form button:hover{
+  background-color: #ccc;
+}
+
+.proverb-container {
+    width: 100%;
+    max-width: 400px;
+
+    margin: 20px auto; /* Centers the container itself */
+    padding: 5px;
+
+    background-color: #332116; /* #2a1c31 */
+    border-radius: 12px;
+    text-align: center;
+
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+body.day-mode .proverb-container {
+    background-color: #deedfa;
+    color: black;
+    border: 2px solid orange;
+}
+
+.back-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 10px 20px; /* Increased padding for better spacing */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    width: auto; /* Dynamic width */
+    min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
+    max-width: 300px; /* Prevents it from being too wide */
+    word-wrap: break-word; /* Allows multi-line if necessary */
+    white-space: normal; /* Enables wrapping */
+    text-decoration: none;
+}
+
+body.day-mode .back-button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.back-button:hover {
+    background-color: #ccc;
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-bottom: 30px;
+}
