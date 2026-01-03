@@ -815,6 +815,8 @@ GUIDANCE_EXERCISE_FR = {
         26: guidance_praepositionen_grammatik_sentences,
         27: guidance_praepositionen_grammatik_synonyms,
         28: guidance_praepositionen_grammatik_antonym,
+
+        29: guidance_praepositionen_grammatik_sentences,
     },
 
     praepositionen_verben: {

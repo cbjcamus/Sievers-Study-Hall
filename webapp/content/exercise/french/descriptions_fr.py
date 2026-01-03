@@ -43,6 +43,8 @@ DESCRIPTION_FR = {
         26: "Postpositions de niveau C1, en contexte",
         27: "Synonymes de Prépositions, en isolation",
         28: "Antonymes de Prépositions, en isolation",
+
+        29: "Prépositions de base au niveau C2, en contexte",
     },
 
     praepositionen_verben: {

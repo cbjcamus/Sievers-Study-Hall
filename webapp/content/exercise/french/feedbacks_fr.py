@@ -106,6 +106,11 @@ FEEDBACK_FR = {
             "<br><br>{french}"
             "<br><br>{explanation_french}"
             "<br><br>Correct answer(s): {correct_answers}",
+
+        29: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
     praepositionen_verben: {

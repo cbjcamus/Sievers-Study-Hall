@@ -43,6 +43,8 @@ DESCRIPTION_EN = {
         26: "C1 Postpositions, in sentences",
         27: "Synonyms of Prepositions, in isolation",
         28: "Antonyms of Prepositions, in isolation",
+
+        29: "A1 Prepositions at C2 level, in sentences",
     },
 
     praepositionen_verben: {

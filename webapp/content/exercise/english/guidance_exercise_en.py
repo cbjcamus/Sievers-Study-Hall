@@ -35,6 +35,8 @@ guidance_praepositionen_grammatik_sentences = (
     f"<br><br>{ICON_WARN} The correct answer may include an article. In that case, both the form of the prepositional"
     f" contraction (am, ans, vom, zur etc.) or the extended form (an dem etc.) are correct."
     
+    f"<br><br>➡️ You can find a guide to German preposition <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
+    
     "<h2>Examples</h2>"
     "Ich habe _____ Montag Deutschunterricht."
     "<br><br><i>I have German class on Monday.</i>"
@@ -806,6 +808,8 @@ GUIDANCE_EXERCISE_EN = {
         26: guidance_praepositionen_grammatik_sentences,
         27: guidance_praepositionen_grammatik_synonyms,
         28: guidance_praepositionen_grammatik_antonym,
+
+        29: guidance_praepositionen_grammatik_sentences,
     },
 
     praepositionen_verben: {

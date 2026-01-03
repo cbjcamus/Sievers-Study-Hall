@@ -45,6 +45,8 @@ INSTRUCTION_EN = {
         26: "Complete the following sentence with the postposition that fits:",
         27: "Find a synonym for the following preposition:",
         28: "Write an antonym for the following preposition:",
+
+        29: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_verben: {

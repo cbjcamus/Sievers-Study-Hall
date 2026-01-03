@@ -68,6 +68,9 @@ QUESTION_EN = {
         27: "{question}"
             "<br><br><i>\"{german}\"</i>",
         28: "{german}",
+
+        29: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     praepositionen_verben: {

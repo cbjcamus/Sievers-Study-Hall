@@ -45,6 +45,8 @@ INSTRUCTION_FR = {
         26: "Complétez la phrase ci-dessous avec la postposition qui convient :",
         27: "Trouvez un synonyme pour la préposition suivant :",
         28: "Trouvez un antonyme pour la préposition suivant :",
+
+        29: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
 
     praepositionen_verben: {
