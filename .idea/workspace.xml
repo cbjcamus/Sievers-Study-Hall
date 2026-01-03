@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update New Year Edition">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update praepositionen grammatik">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/descriptions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/descriptions_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/feedbacks_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/guidance_exercise_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/guidance_exercise_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/instructions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/instructions_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/questions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/questions_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/descriptions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/descriptions_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/feedbacks_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/feedbacks_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/guidance_exercise_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/guidance_exercise_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/instructions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/instructions_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/questions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/questions_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_grammatik.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00107" summary="logins">
-      <option name="closed" value="true" />
-      <created>1758527531306</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1758527531306</updated>
     </task>
     <task id="LOCAL-00108" summary="logins">
       <option name="closed" value="true" />
@@ -566,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767085372479</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="update praepositionen grammatik">
+      <option name="closed" value="true" />
+      <created>1767449748890</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1767449748890</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -582,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="August 4th" />
     <MESSAGE value="September 11" />
     <MESSAGE value="logins" />
     <MESSAGE value="update after login" />
@@ -607,7 +594,8 @@
     <MESSAGE value="faq" />
     <MESSAGE value="update christmas edition" />
     <MESSAGE value="update New Year Edition" />
-    <option name="LAST_COMMIT_MESSAGE" value="update New Year Edition" />
+    <MESSAGE value="update praepositionen grammatik" />
+    <option name="LAST_COMMIT_MESSAGE" value="update praepositionen grammatik" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

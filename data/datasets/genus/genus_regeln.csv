@@ -314,9 +314,9 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 313,20,_____ Beton,der,der Beton,the concrete,le béton,materials are usually Neuter,les matériaux sont généralement Neutres
 314,20,_____ Seide,die,die Seide,the silk,la soie,materials are usually Neuter,les matériaux sont généralement Neutres
 315,20,_____ Keramik,die,die Keramik,the ceramics,la céramique,materials are usually Neuter,les matériaux sont généralement Neutres
-316,20,_____ Kenntnis,die,die Kenntnis,the knowledge,la connaissance,materials are usually Neuter,les matériaux sont généralement Neutres
-317,20,_____ Erlaubnis,die,die Erlaubnis,the permission,l'autorisation,materials are usually Neuter,les matériaux sont généralement Neutres
-318,20,_____ Wildnis,die,die Wildnis,the wilderness,la nature sauvage,materials are usually Neuter,les matériaux sont généralement Neutres
+316,20,_____ Kenntnis,die,die Kenntnis,the knowledge,la connaissance,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+317,20,_____ Erlaubnis,die,die Erlaubnis,the permission,l'autorisation,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+318,20,_____ Wildnis,die,die Wildnis,the wilderness,la nature sauvage,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
 319,21,_____ Mercedes,der,der Mercedes,the Mercedes,la Mercedes,car names from brands are Masculine,les noms de voitures des marques sont Masculins
 320,22,_____ Toyota,der,der Toyota,the Toyota,la Toyota,car names from brands are Masculine,les noms de voitures des marques sont Masculins
 321,23,_____ Tesla,der,der Tesla,the Tesla,la Tesla,car names from brands are Masculine,les noms de voitures des marques sont Masculins
