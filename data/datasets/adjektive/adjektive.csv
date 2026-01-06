@@ -10,7 +10,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 9,1,1. A1,12,,grau,,grey,gris,
 10,1,1. A1,14,,rot,,red,rouge,
 11,1,1. A1,14,,schwarz,,black,noir,weiß
-12,1,1. A1,9,,weiß,,white,blanc,schwarz
+12,1,1. A1,11,,weiß,,white,blanc,schwarz
 13,1,1. A1,15,,einfach,,"easy, simple","facile, simple",schwierig
 14,1,1. A1,13,,schwierig,,difficult,difficile,einfach
 15,1,1. A1,15,,richtig,,right,"vrai, correct",
@@ -25,7 +25,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 24,2,1. A1,15,,schnell,,fast,rapide,langsam
 25,2,1. A1,13,,langsam,,slow,lent,schnell
 26,2,1. A1,15,,schön,,beautiful,beau,hässlich
-27,2,1. A1,6,,hässlich,,ugly,laid,schön
+27,2,1. A1,8,,hässlich,,ugly,laid,schön
 28,2,1. A1,13,,früh,,early,tôt,spät
 29,2,1. A1,14,,spät,,late,"tard, en retard",früh
 30,2,1. A1,11,,viel,,much,beaucoup,wenig
@@ -47,9 +47,9 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 46,3,1. A1,9,,dumm,,stupid,stupide,klug
 47,3,1. A1,9,,klug,,smart,intelligent,dumm
 48,3,1. A1,11,,nett,,nice,"bon, gentils",
-49,3,1. A1,5,,neblig,,foggy,brumeux,
+49,3,1. A1,7,,neblig,,foggy,brumeux,
 50,3,1. A1,8,,sonnig,,sunny,ensoleillé,
-51,3,1. A1,5,,windig,,windy,venteux,
+51,3,1. A1,7,,windig,,windy,venteux,
 52,3,1. A1,15,,gleich,,same,même,unterschiedlich
 53,3,1. A1,12,,unterschiedlich,,different,différent,gleich
 54,3,1. A1,15,,wichtig,,important,important,
@@ -57,14 +57,14 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 56,3,1. A1,11,,gesund,,healthy,en bonne santé,krank
 57,3,1. A1,15,,kurz,,short,court,lang
 58,3,1. A1,15,,lang,,long,long,kurz
-59,3,1. A1,6,,letzte,,last,dernier,
+59,3,1. A1,8,,letzte,,last,dernier,
 60,3,1. A1,14,,ganz,,"full, whole","plein, entier",
 61,4,1. A1,15,alt,jung,,old,vieux,
 62,4,1. A1,15,jung,alt,,young,jeune,
 63,4,1. A1,11,billig,teuer,,cheap,bon marché,
 64,4,1. A1,13,teuer,billig,,expensive,cher,
 65,4,1. A1,14,schwarz,weiß,,black,noir,
-66,4,1. A1,9,weiß,schwarz,,white,blanc,
+66,4,1. A1,11,weiß,schwarz,,white,blanc,
 67,4,1. A1,15,einfach,schwierig,,"easy, simple","facile, simple",
 68,4,1. A1,13,schwierig,einfach,,difficult,difficile,
 69,4,1. A1,15,richtig,falsch,,right,"vrai, correct",
@@ -76,7 +76,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 75,4,1. A1,15,schnell,langsam,,fast,rapide,
 76,4,1. A1,13,langsam,schnell,,slow,lent,
 77,4,1. A1,15,schön,hässlich,,beautiful,beau,
-78,4,1. A1,6,hässlich,schön,,ugly,laid,
+78,4,1. A1,8,hässlich,schön,,ugly,laid,
 79,4,1. A1,13,früh,spät,,early,tôt,
 80,4,1. A1,14,spät,früh,,late,"tard, en retard",
 81,4,1. A1,11,viel,wenig,,much,beaucoup,
@@ -112,7 +112,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 111,6,,12,grau,grauer,,grey,gris,
 112,6,,14,rot,roter,,red,rouge,
 113,6,,14,schwarz,schwärzer/schwarzer,,black,noir,
-114,6,,9,weiß,weißer,,white,blanc,
+114,6,,11,weiß,weißer,,white,blanc,
 115,6,,15,einfach,einfacher,,"easy, simple","facile, simple",
 116,6,,13,schwierig,schwieriger,,difficult,difficile,
 117,6,,15,richtig,richtiger,,right,"vrai, correct",
@@ -127,7 +127,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 126,7,,15,schnell,schneller,,fast,rapide,
 127,7,,13,langsam,langsamer,,slow,lent,
 128,7,,15,schön,schöner,,beautiful,beau,
-129,7,,6,hässlich,hässlicher,,ugly,laid,
+129,7,,8,hässlich,hässlicher,,ugly,laid,
 130,7,,13,früh,früher,,early,tôt,
 131,7,,14,spät,später,,late,"tard, en retard",
 132,7,,11,viel,mehr,,much,beaucoup,
@@ -149,9 +149,9 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 148,8,,9,dumm,dümmer,,stupid,stupide,
 149,8,,9,klug,klüger,,smart,intelligent,
 150,8,,11,nett,netter,,nice,bon,
-151,8,,5,neblig,nebliger,,foggy,brumeux,
+151,8,,7,neblig,nebliger,,foggy,brumeux,
 152,8,,8,sonnig,sonniger,,sunny,ensoleillé,
-153,8,,5,windig,windiger,,windy,venteux,
+153,8,,7,windig,windiger,,windy,venteux,
 154,8,,12,unterschiedlich,unterschiedlicher,,different,différent,
 155,8,,15,wichtig,wichtiger,,important,important,
 156,8,,11,krank,kränker,,sick,malade,
@@ -169,7 +169,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 168,9,,12,grau,am grausten,,grey,gris,
 169,9,,14,rot,am rotesten,,red,rouge,
 170,9,,14,schwarz,am schwärzesten/am schwarzesten,,black,noir,
-171,9,,9,weiß,am weißesten,,white,blanc,
+171,9,,11,weiß,am weißesten,,white,blanc,
 172,9,,15,einfach,am einfachsten,,"easy, simple","facile, simple",
 173,9,,13,schwierig,am schwierigsten,,difficult,difficile,
 174,9,,15,richtig,am richtigsten,,right,"vrai, correct",
@@ -184,7 +184,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 183,10,,15,schnell,am schnellsten,,fast,rapide,
 184,10,,13,langsam,am langsamsten,,slow,lent,
 185,10,,15,schön,am schönsten,,beautiful,beau,
-186,10,,6,hässlich,am hässlichsten,,ugly,laid,
+186,10,,8,hässlich,am hässlichsten,,ugly,laid,
 187,10,,13,früh,am frühesten,,early,tôt,
 188,10,,14,spät,am spätesten,,late,"tard, en retard",
 189,10,,11,viel,am meisten,,much,beaucoup,
@@ -206,9 +206,9 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 205,11,,9,dumm,am dümmsten,,stupid,stupide,
 206,11,,9,klug,am klügsten,,smart,intelligent,
 207,11,,11,nett,am nettesten,,nice,bon,
-208,11,,5,neblig,am nebligsten,,foggy,brumeux,
+208,11,,7,neblig,am nebligsten,,foggy,brumeux,
 209,11,,8,sonnig,am sonnigsten,,sunny,ensoleillé,
-210,11,,5,windig,am windigsten,,windy,venteux,
+210,11,,7,windig,am windigsten,,windy,venteux,
 211,11,,12,unterschiedlich,am unterschiedlichsten,,different,différent,
 212,11,,15,wichtig,am wichtigsten,,important,important,
 213,11,,11,krank,am kränksten,,sick,malade,
@@ -262,13 +262,13 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 261,13,2. A2,10,,bitter,,bitter,amer,
 262,13,2. A2,9,,süß,,sweet,doux,
 263,13,2. A2,9,,scharf,,spicy,épicé,
-264,13,2. A2,4,,salzig,,salty,salé,
+264,13,2. A2,6,,salzig,,salty,salé,
 265,13,2. A2,11,,warm,,warm,chaud,
 266,13,2. A2,9,,kühl,,cool,froid,
 267,14,2. A2,8,,faul,,lazy,paresseux,
 268,14,2. A2,8,,fleißig,,hardworking,diligent,
 269,14,2. A2,11,,trocken,,dry,sec,
-270,14,2. A2,6,,nass,,wet,"humide, mouillé",
+270,14,2. A2,8,,nass,,wet,"humide, mouillé",
 271,14,2. A2,8,,weich,,soft,doux,
 272,14,2. A2,12,,hart,,hard,dur,
 273,14,2. A2,11,,freundlich,,friendly,amical,
@@ -304,7 +304,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 303,15,2. A2,#N/A,,nutzlos,,useless,inutile,
 304,15,2. A2,12,,ähnlich,,similar,similaire,
 305,15,2. A2,7,,hungrig,,hungry,affamé,
-306,15,2. A2,4,,durstig,,thirsty,soif,
+306,15,2. A2,6,,durstig,,thirsty,soif,
 307,16,2. A2,,dunkel,hell,,bright,brillant,
 308,16,2. A2,,hell,dunkel,,dark,sombre,
 309,16,2. A2,,leicht,schwer,,heavy,lourd,
@@ -552,9 +552,9 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 549,29,3. B1,7,,höflich,,polite,poli,
 550,29,3. B1,7,,ärgerlich,,annoying,ennuyeux,
 552,29,3. B1,6,,winzig,,tiny,minuscule,
-553,29,3. B1,6,,ledig,,single,célibataire,
-554,29,3. B1,4,,besonder,,special,spécial,
-555,29,3. B1,4,,lecker,,tasty,savoureux,
+553,29,3. B1,8,,ledig,,single,célibataire,
+554,29,3. B1,6,,besonder,,special,spécial,
+555,29,3. B1,6,,lecker,,tasty,savoureux,
 557,29,3. B1,10,,ideal,,ideal,idéal,
 558,29,3. B1,10,,offiziell,,official,officiel,
 559,29,3. B1,9,,unabhängig,,independent,indépendant,
@@ -649,7 +649,7 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 648,100,4. B2,7,,sparsam,,frugal,frugal,
 649,100,4. B2,7,,farbig,,colored,coloré,
 650,100,4. B2,7,,frech,,cheeky,effronté,
-651,100,4. B2,7,,gesamt,,total,total,
+651,100,4. B2,9,,gesamt,,total,total,
 652,100,4. B2,7,,giftig,,toxic,toxique,
 653,100,4. B2,7,,gleichberechtigt,,equal,égal,
 654,100,4. B2,7,,haltbar,,durable,durable,
@@ -665,11 +665,11 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 664,100,4. B2,7,,vegetarisch,,vegetarian,végétarien,
 665,100,4. B2,7,,wert,,worth,valeur,
 666,100,4. B2,7,,ängstlich,,anxious,anxieux,
-667,100,4. B2,6,,wach,,awake,éveillé,
+667,100,4. B2,8,,wach,,awake,éveillé,
 668,100,4. B2,6,,harmlos,,harmless,inoffensif,
-669,100,4. B2,5,,blass,,pale,pâle,
-670,100,4. B2,5,,locker,,relaxed,détendu,
-671,100,4. B2,5,,illegal,,illegal,illégal,
+669,100,4. B2,7,,blass,,pale,pâle,
+670,100,4. B2,7,,locker,,relaxed,détendu,
+671,100,4. B2,7,,illegal,,illegal,illégal,
 672,100,4. B2,11,,weiter,,further,plus loin,
 673,100,4. B2,9,,ehemalig,,former,ancien,
 674,100,4. B2,9,,eigentlich,,"actual, real","réel, réel",

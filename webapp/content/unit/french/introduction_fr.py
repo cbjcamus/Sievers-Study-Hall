@@ -10,12 +10,11 @@ from data.data_processing.units import (
 
 INTRODUCTION_FR = {
     praepositionen_grammatik:
-        "Prépositions Allemandes dans divers contextes. Vous trouverez un guide sur les prépositions allemandes (en anglais) <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">ici</a>."
-        "<br><br>L'utilisation des prépositions de base est revu jusqu'au niveau C1."
-        "<br><br> 🥰😍😘."
+        "Prépositions Allemandes dans divers contextes. Vous trouverez un guide et un curriculum sur les prépositions allemandes"
+        " <a href=\"https://sieversstudyhall.substack.com/p/guide-des-prepositions-allemandes\" target=\"_blank\">ici</a>."
     ,
     praepositionen_verben:
-        "Paires Verbe–Preposition, en isolation et en contexte."
+        "Paires Verbe–Préposition, en isolation et en contexte."
         "<br><br>Inclu les adverbes pronominaux en <i>Da</i> et <i>Wo</i> au niveau A2."
     ,
     praepositionen_adjektive:
@@ -97,7 +96,7 @@ INTRODUCTION_FR = {
         "Préterit."
     ,
     praeteritum_partizip_II:
-        "Exercices pour pratiquer le Participe Passé et le Préterit côte à côte."
+        "Exercices pour pratiquer le Participe Passé et le Préterit côte-à-côte."
     ,
     imperativ:
         "Impératif pour les trois personnes grammaticales Du, Ihr et Sie. "

@@ -5,6 +5,15 @@ from data.data_processing.total_questions import highest_exercise, total_questio
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 
+def update_score_in_session(session, unit):
+    score = session.setdefault('score', {})
+
+    score[unit] = compute_score_unit(session, unit)
+
+    session.modified = True
+    return
+
+
 def write_score(session, unit, exercise=None):
     """
     Computes and returns the score as a percentage string for a given unit or exercise.
@@ -233,4 +242,3 @@ def compute_trues_and_falses(session, unit, exercise):
             trues = 0
             falses = 0
         return trues, falses
-

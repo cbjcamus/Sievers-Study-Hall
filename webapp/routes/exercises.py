@@ -16,7 +16,7 @@ from users.users.models import db, is_feedback_enabled, Bookmark, get_filename_f
 from users.progress.models import UserExerciseState
 
 from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions
+from users.progress.progress import compute_answered_questions, update_progress_in_session
 from users.progress.register_update import register_progress, register_result, register_incorrect_answer
 from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
@@ -58,6 +58,8 @@ def guidance(unit, exercise):
         feedbacks = []
 
         register_result(session, unit, exercise, feedback)
+        update_progress_in_session(session, unit)
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -150,6 +152,7 @@ def exercise(unit, exercise):
             incorrect_questions = []
 
         register_result(session, unit, exercise, feedback)
+        update_progress_in_session(session, unit)
 
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
@@ -428,6 +431,7 @@ def exercise_feedback(unit, exercise):
             incorrect_questions = []
 
         register_result(session, unit, exercise, feedback)
+        update_progress_in_session(session, unit)
 
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
@@ -603,6 +607,8 @@ def reset_exercise(unit, exercise):
 
         session.pop(f"feedback", None)
         session.modified = True
+
+    update_progress_in_session(session, unit)
 
     guidance = request.form.get('guidance') == 'true'
 

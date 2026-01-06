@@ -10,7 +10,7 @@ from data.data_processing.total_questions import total_question_exercises, highe
 
 from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark
 from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, compute_completed_exercises
+from users.progress.progress import compute_answered_questions, compute_completed_exercises, update_progress_in_session
 
 from users.questions.pick_a_question import get_question_from_incorrect_answer
 
@@ -20,6 +20,8 @@ from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
+from webapp.content.unit.french.description_fr import DESCRIPTION_FR
+from webapp.content.unit.english.description_en import DESCRIPTION_EN
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
 from webapp.content.application.exercise_page import YOUR_ANSWER
@@ -35,12 +37,28 @@ def home():
 
     language = get_language(request, session)
 
+    if language == 'english':
+        description = DESCRIPTION_EN
+    elif language == 'french':
+        description = DESCRIPTION_FR
+
+    if not isinstance(session.get('progress'), dict):
+        session['progress'] = {}
+
+    progress = session['progress']
+    for unit in units:
+        if unit not in progress:
+            update_progress_in_session(session, unit)
+
+    session.modified = True
+
     return render_template('home.html',
                            title_page=TITLE_PAGE,
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,
-                           completed_exercises=compute_completed_exercises,
+                           description=description,
+                           completed_exercises=progress,
                            highest_exercise=highest_exercise,
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
                            )
@@ -123,6 +141,9 @@ for unit in units:
         def dynamic_route():
             language = get_language(request, session)
             introduction = INTRODUCTION[language].get(unit, {})
+
+            update_progress_in_session(session, unit)
+
             return render_template(template,
                                    answered_questions=compute_answered_questions,
                                    total_questions=total_question_exercises,

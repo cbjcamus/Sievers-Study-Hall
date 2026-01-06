@@ -18,6 +18,15 @@ def compute_completed_exercises(session, unit, highest_exercise):
     return finished_exercises
 
 
+def update_progress_in_session(session, unit):
+    progress = session.setdefault('progress', {})
+
+    progress[unit] = compute_completed_exercises(session, unit, highest_exercise)
+
+    session.modified = True
+    return
+
+
 def compute_answered_questions(session, unit, exercise=None):
     """
     Computes the number of answered questions for a given unit or a specific exercise.

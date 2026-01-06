@@ -10,8 +10,7 @@ from data.data_processing.units import (
 
 INTRODUCTION_EN = {
     praepositionen_grammatik:
-        "Prepositions in Temporal, Local, Modal and Causal contexts. You can find a guide to German preposition <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
-        "<br><br>Basic prepositions are reviewed up to the C1 level."
+        "Prepositions in Temporal, Local, Modal and Causal contexts. You can find a guide and curriculum for German preposition <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
         "<br><br>Happy suffering 🥰😍😘."
     ,
     praepositionen_verben:
@@ -141,7 +140,7 @@ INTRODUCTION_EN = {
     ,
 
     genus_regeln:
-        "Practice the gender or nouns based on thumb rules."
+        "Practice the gender of nouns based on thumb rules."
         "<br><br>A guide listing these thumb rules is available "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
     ,
