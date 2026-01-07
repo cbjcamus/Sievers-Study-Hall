@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen,
+    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe
@@ -27,6 +27,17 @@ GUIDANCE_UNIT_FR = {
         "Das Bild hängt an _____ Tür."
         "<br><br><i>Le tableau est accroché à la porte.</i>"
         f"<br><br>{ICON_CHECK} der"
+    ,
+
+    adjektive_konjunktionen:
+    "Pour chaque question, vous recevrez une phrase allemande et sa traduction française"
+
+    "<br><br>Il manque une conjunction dans la phrase allemande. Trouvez celui qui convient."
+
+    "<h2>Exemple</h2>"
+    "Peter ist größer _____ sein Bruder."
+    "<br><br><i>Peter est plus grand que son frère."
+    f"<br><br>{ICON_CHECK} als"
     ,
 
     praesens:

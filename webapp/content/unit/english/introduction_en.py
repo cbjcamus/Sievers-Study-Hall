@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, adjektivdeklinationen,
+    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -49,7 +49,6 @@ INTRODUCTION_EN = {
     ,
     konnektoren:
         "Connectors include coordinating conjunctions, subordinating conjunctions, correlative conjunctions and adverbs that connect two sentences together."
-        "<br><br>I've added levels to learn the different synonyms of each connectors."
         "<br><br>⚠️ The following definitions are used:"
         "<br> &nbsp; &bull; Coordinating conjunction:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Coordinating conjunction – Subject – Verb – Object"
@@ -77,6 +76,9 @@ INTRODUCTION_EN = {
         "Adjective Declensions in every grammatical cases, persons, and articles."
         "<br><br>I hated that in French as a boy and it's even worse in German."
         "<br><br>If it was up to me, Adjective Declensions wouldn't start before C1."
+    ,
+    adjektive_konjunktionen:
+        "Conjunctions and Constructions for adjectives such as <i>wie</i>, <i>als</i> and <i>so</i>."
     ,
 
     verben:

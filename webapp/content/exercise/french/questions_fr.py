@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen,
+    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -637,27 +637,34 @@ QUESTION_FR = {
         10: "{question} \u25CF {adjective}",
         11: "{question} \u25CF {adjective}",
         12: "{question} \u25CF {adjective}",
-
         13: "{question} \u25CF {case_french} \u25CF {adjective}",
         14: "{question} \u25CF {adjective}",
+
         15: "{question} \u25CF {case_french} \u25CF {adjective}",
         16: "{question} \u25CF {adjective}",
         17: "{question} \u25CF {case_french} \u25CF {adjective}",
         18: "{question} \u25CF {adjective}",
-
         19: "{question} \u25CF {case_french} \u25CF {adjective}",
         20: "{question} \u25CF {adjective}",
         21: "{question} \u25CF {case_french} \u25CF {adjective}",
         22: "{question} \u25CF {adjective}",
-
         23: "{question} \u25CF {case_french} \u25CF {adjective}",
         24: "{question} \u25CF {adjective}",
+
         25: "{question} \u25CF {case_french} \u25CF {adjective}",
         26: "{question} \u25CF {adjective}",
+
         27: "{question} \u25CF {case_french} \u25CF {adjective}",
         28: "{question} \u25CF {adjective}",
         29: "{question} \u25CF {case_french} \u25CF {adjective}",
         30: "{question} \u25CF {adjective}",
+    },
+
+    adjektive_konjunktionen: {
+        1: "{question}"
+           "<br><br><i>{french}</i>",
+        2: "{question}"
+           "<br><br><i>{french}</i>",
     },
 
     verben: {

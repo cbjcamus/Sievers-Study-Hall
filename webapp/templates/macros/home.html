@@ -1,10 +1,10 @@
-{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) %}
+{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) %}
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
         <td>{{ unit_stars[unit] | safe }}</td>
         <td>{{ completed_exercises[unit] }}/{{ highest_exercise[unit] }}</td>
         <td></td>
-        <td>{{ description[unit] | safe }}</td>
+        <td>{{ home_description[unit] | safe }}</td>
     </tr>
 {% endmacro %}
 

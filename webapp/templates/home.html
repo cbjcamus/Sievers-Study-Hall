@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <title>Sievers Study Hall – Practice German for Free</title>
-    <meta name="description, completed_exercises, highest_exercise" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    <meta name="home_description, completed_exercises, highest_exercise" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
 
@@ -18,63 +18,64 @@
     <div class="section">
         <h2>Präpositionen</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("praepositionen_grammatik", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praepositionen_verben", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praepositionen_adjektive", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praepositionen_nomen", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praepositionen_adverbien", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praepositionen_artikel", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praepositionen_grammatik", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praepositionen_verben", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praepositionen_adjektive", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praepositionen_nomen", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praepositionen_adverbien", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praepositionen_artikel", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Grammatik</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("artikel", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("pronomen", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("konnektoren", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("fragen", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("adverbien", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("artikel", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("pronomen", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("konnektoren", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("fragen", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("adverbien", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Adjektive</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("adjektive", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("adjektivdeklinationen", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("adjektive", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("adjektivdeklinationen", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("adjektive_konjunktionen", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Verben</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("verben", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("trennbare_verben", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("nomen_verben_verbindungen", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("verben", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("trennbare_verben", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("nomen_verben_verbindungen", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Konjugation</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("praesens", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("partizip_II", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praeteritum", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("praeteritum_partizip_II", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("imperativ", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("konjunktiv_II", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("konjunktiv_I", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("partizip_I", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praesens", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("partizip_II", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praeteritum", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("praeteritum_partizip_II", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("imperativ", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("konjunktiv_II", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("konjunktiv_I", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("partizip_I", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
         </table>
     </div>
 
     <div class="section">
         <h2>Genus</h2>
         <table class="unit-table">
-            {{ render_unit_table_row("genus_regeln", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("genus_routledge", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
-            {{ render_unit_table_row("genus_goethe", title_page, unit_page, unit_stars, description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("genus_regeln", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("genus_routledge", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
+            {{ render_unit_table_row("genus_goethe", title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) }}
         </table>
     </div>
 

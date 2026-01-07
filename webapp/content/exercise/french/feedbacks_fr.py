@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen,
+    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -105,7 +105,7 @@ FEEDBACK_FR = {
         28: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         29: "{german}"
             "<br><br><i>{french}</i>"
@@ -710,7 +710,7 @@ FEEDBACK_FR = {
         10: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         11: "{french} = {correct_answers}",
         12: "{german}"
@@ -736,7 +736,7 @@ FEEDBACK_FR = {
         20: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         21: "{french} = {correct_answers}",
         22: "{german}"
@@ -762,85 +762,85 @@ FEEDBACK_FR = {
         30: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         31: "{french} = {correct_answers}",
         32: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         33: "{french} = {correct_answers}",
         34: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         35: "{french} = {correct_answers}",
         36: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         37: "{french} = {correct_answers}",
         38: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         39: "{french} = {correct_answers}",
         40: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         41: "{french} = {correct_answers}",
         42: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         43: "{french} = {correct_answers}",
         44: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         45: "{french} = {correct_answers}",
         46: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         47: "{french} = {correct_answers}",
         48: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         49: "{french} = {correct_answers}",
         50: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
         51: "{french} = {correct_answers}",
         52: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         53: "{french} = {correct_answers}",
         54: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         55: "{french} = {correct_answers}",
         56: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         57: "{french} = {correct_answers}",
         58: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         59: "{french} = {correct_answers}",
         60: "{german} ↔ {correct_answer}"
             "<br><br>{french}"
             "<br><br>{explanation_french}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
     wortstellung: {
@@ -859,35 +859,32 @@ FEEDBACK_FR = {
         9: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
         10: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
         11: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        12: "{german}"
-           "<br><br><i>{french}</i>"
-           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
+        12: "{french} = {correct_answers}",
         13: "{french} = {correct_answers}",
-        14: "{french} = {correct_answers}",
-        15: "{french} ↔ {correct_answers}",
+        14: "{french} ↔ {correct_answers}",
+        15: "{previous_question} ↔ {correct_answers}",
         16: "{previous_question} ↔ {correct_answers}",
-        17: "{previous_question} ↔ {correct_answers}",
+        17: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
         18: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
         19: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        20: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
+        20: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
         21: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
         22: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        23: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
 
+        23: "{french} = {correct_answers}",
         24: "{french} = {correct_answers}",
         25: "{french} = {correct_answers}",
-        26: "{french} = {correct_answers}",
+        26: "{previous_question} = {correct_answers}",
         27: "{previous_question} = {correct_answers}",
         28: "{previous_question} = {correct_answers}",
-        29: "{previous_question} = {correct_answers}",
 
+        29: "{french} = {correct_answers}",
         30: "{french} = {correct_answers}",
         31: "{french} = {correct_answers}",
         32: "{french} = {correct_answers}",
         33: "{french} = {correct_answers}",
         34: "{french} = {correct_answers}",
-        35: "{french} = {correct_answers}",
     },
 
     adjektivdeklinationen: {
@@ -915,11 +912,11 @@ FEEDBACK_FR = {
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         12: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
-
         13: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         14: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
+
         15: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         16: "{german}"
@@ -928,7 +925,6 @@ FEEDBACK_FR = {
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         18: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
-
         19: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         20: "{german}"
@@ -937,15 +933,16 @@ FEEDBACK_FR = {
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         22: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
-
         23: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         24: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
+
         25: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         26: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
+
         27: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         28: "{german}"
@@ -954,6 +951,17 @@ FEEDBACK_FR = {
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
         30: "{german}"
             "<br><br>{article_french}, {gender_french}, {case_french} → {correct_answers}",
+    },
+
+    adjektive_konjunktionen: {
+        1: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br><i>{explanation_french}</i>"
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        2: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br><i>{explanation_french}</i>"
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
 
     verben: {

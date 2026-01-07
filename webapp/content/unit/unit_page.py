@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen,
+    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -25,6 +25,7 @@ UNIT_PAGE = {
 
     adjektive: "/adjektive",
     adjektivdeklinationen: "/adjektivdeklinationen",
+    adjektive_konjunktionen: "/adjektive_konjunktionen",
 
     verben: "/verben",
     trennbare_verben: "/trennbare_verben",

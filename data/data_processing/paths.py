@@ -4,7 +4,7 @@ import pandas as pd
 from data.data_processing.units import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
                                         praepositionen_nomen, praepositionen_adverbien, praepositionen_artikel,
                                         artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-                                        adjektive, adjektivdeklinationen,
+                                        adjektive, adjektivdeklinationen, adjektive_konjunktionen,
                                         verben, trennbare_verben, nomen_verben_verbindungen,
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                         konjunktiv_II, konjunktiv_I, partizip_I,
@@ -32,6 +32,7 @@ DATA_PATH = {
 
     adjektive: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive.csv"),
     adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/adjektive", "adjektivdeklinationen.csv"),
+    adjektive_konjunktionen: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive_konjunktionen.csv"),
 
     verben: os.path.join(BASE_DIR, "datasets/verben", "verben.csv"),
     trennbare_verben: os.path.join(BASE_DIR, "datasets/verben", "trennbare_verben.csv"),

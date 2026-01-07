@@ -8,91 +8,91 @@ from data.data_processing.units import (
     genus_regeln, genus_routledge, genus_goethe,
 )
 
-DESCRIPTION_EN = {
+HOME_DESCRIPTION_FR = {
     praepositionen_grammatik:
-        "Prepositions in every context"
+        "Prépositions Allemandes dans tous les contextes"
     ,
     praepositionen_verben:
-        "Verb-Preposition pairs"
+        "Paires Verbe–Préposition"
     ,
     praepositionen_adjektive:
-        "Adjective-Preposition pairs"
+        "Paires Adjectif–Préposition"
     ,
     praepositionen_nomen:
-        "Noun-Preposition pairs"
+        "Paires Nom–Préposition"
     ,
     praepositionen_adverbien:
-        "Adverb-Preposition pairs"
+        "Paires Adverbes–Préposition"
     ,
     praepositionen_artikel:
-        "Cases following Prepositions"
+        "Cas grammatiques suivant les Prépositions"
     ,
 
     artikel:
-        "Articles marinated in every grammatical cases"
+        "Articles marinés dans tous les cas grammaticaux"
     ,
     pronomen:
-        "Pronouns in every grammatical cases"
+        "Pronoms dans tous les cas grammaticaux"
     ,
     konnektoren:
-        "Conjunctions and Causal Adverbs"
+        "Conjonctions et Adverbes causaux"
     ,
     fragen:
-        "Question words"
+        "Mots Interrogatifs."
     ,
     adverbien:
-        "Adverbs, Adverbs and some more Adverbs"
+        "Adverbes temporels, locaux, et modaux à tous les niveaux"
     ,
 
     adjektive:
-        "Adjectives translations, antonyms, comparatives and superlatives"
+        "Traductions, antonymes, comparatifs et superlatifs d'Adjectifs"
     ,
     adjektivdeklinationen:
-        "All the Adjective Declensions"
+        "Toutes les Déclinations d'Adjectifs"
     ,
 
     verben:
-        "Translations of German Verbs"
+        "Traduction de Verbes Allemands"
     ,
     trennbare_verben:
-        "Separable and Inseparable Verbs"
+        "Verbes séparables et inséparables"
     ,
     nomen_verben_verbindungen:
-        "Noun-Verb Combinations"
+        "Combinaisons Nom-Verbe"
     ,
 
     praesens:
-        "Present tense of German Verbs"
+        "Présent de l'indicatif Allemand."
     ,
     partizip_II:
-        "Past Participle"
+        "Participe Passé "
     ,
     praeteritum:
-        "Preterit tense"
+        "Préterit."
     ,
     praeteritum_partizip_II:
-        "Präteritum and Partizip II to practice together"
+        "Participe Passé & Préterit côte-à-côte."
     ,
     imperativ:
-        "Imperative tense"
+        "Impératif"
     ,
     konjunktiv_II:
-        "Subjunctive II"
+        "Subjonctif II"
     ,
     konjunktiv_I:
-        "Subjunctive I"
+        "Subjonctif I"
     ,
     partizip_I:
-        "Present Participle"
+        "Participe Présent"
     ,
 
     genus_regeln:
-        "Gender of german nouns – guides & thumb rules"
+        "Genre des noms communs – Règles et Guides"
     ,
     genus_routledge:
-        "Gender of german nouns – list from Routledge"
+        "Genre des noms communs – liste de Routledge"
     ,
     genus_goethe:
-        "Gender of german nouns – list from Goethe-Institut"
+        "Genre des noms communs – liste du Goethe-Institut"
     ,
 }

@@ -20,8 +20,8 @@ from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
-from webapp.content.unit.french.description_fr import DESCRIPTION_FR
-from webapp.content.unit.english.description_en import DESCRIPTION_EN
+from webapp.content.unit.french.home_description_fr import HOME_DESCRIPTION_FR
+from webapp.content.unit.english.home_description_en import HOME_DESCRIPTION_EN
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
 from webapp.content.application.exercise_page import YOUR_ANSWER
@@ -38,9 +38,9 @@ def home():
     language = get_language(request, session)
 
     if language == 'english':
-        description = DESCRIPTION_EN
+        home_description = HOME_DESCRIPTION_EN
     elif language == 'french':
-        description = DESCRIPTION_FR
+        home_description = HOME_DESCRIPTION_FR
 
     if not isinstance(session.get('progress'), dict):
         session['progress'] = {}
@@ -57,7 +57,7 @@ def home():
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,
-                           description=description,
+                           home_description=home_description,
                            completed_exercises=progress,
                            highest_exercise=highest_exercise,
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
