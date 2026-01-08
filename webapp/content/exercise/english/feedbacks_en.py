@@ -1482,7 +1482,8 @@ FEEDBACK_EN = {
 
     praeteritum: {
         1: "{previous_question} → {person} {correct_answers}"
-           "<br><br>{previous_question} = {english}",
+           "<br><br>{previous_question} = {english}"
+           "<br><br>Correct answer: {correct_answers}",
 
         2: "{previous_question} → er/sie/es {correct_answers}"
            "<br><br>{previous_question} = {english}",

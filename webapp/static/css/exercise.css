@@ -660,3 +660,38 @@ body.day-mode .back-button {
     margin-top: auto;
     padding-bottom: 30px;
 }
+
+.next-exercise-button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 10px 20px; /* Increased padding for better spacing */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    width: auto; /* Dynamic width */
+    min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
+    max-width: 300px; /* Prevents it from being too wide */
+    word-wrap: break-word; /* Allows multi-line if necessary */
+    white-space: normal; /* Enables wrapping */
+    text-decoration: none;
+}
+
+body.day-mode .next-exercise-button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.next-exercise-button:hover {
+    background-color: #ccc;
+}
+
+.next-exercise-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+}

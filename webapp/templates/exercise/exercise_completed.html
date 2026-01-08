@@ -52,6 +52,13 @@
 
     {% endif %}
 
+    <div class="next-exercise-button-container">
+        <a href="{{ '/guidance/unit/{}/exercise/{}'.format(unit, next_exercise) if next_exercise is not none else unit_page.get(unit, '/') }}"
+           class="next-exercise-button">
+            {{ next_exercise_text }} →
+        </a>
+    </div>
+
     <div>
         <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">
             <button type="submit" class="submit-button">{{ refresh }} &#8634;</button>
@@ -64,7 +71,7 @@
     </div><br>
 
     <div class="back-button-container">
-        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }}</a>
+        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>
     </div>
 
 </body>

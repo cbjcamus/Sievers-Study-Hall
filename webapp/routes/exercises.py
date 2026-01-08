@@ -9,14 +9,14 @@ from . import routes_bp
 from data.data_processing.levels import get_level_from_exercise
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
-from data.data_processing.total_questions import total_question_exercises
+from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from users.users.models import db, is_feedback_enabled, Bookmark, get_filename_full_bookmark, \
     get_filename_empty_bookmark
 from users.progress.models import UserExerciseState
 
 from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, update_progress_in_session
+from users.progress.progress import compute_answered_questions, update_progress_in_session, get_next_exercise
 from users.progress.register_update import register_progress, register_result, register_incorrect_answer
 from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
@@ -28,7 +28,7 @@ from users.session_management.verification_session import init_session_key
 
 from webapp.i18n import get_language
 
-from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH)
+from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH, NEXT_EXERCISE)
 from webapp.content.application.exercise_page import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
     YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
     ADDITIONAL_HELP, CONSULT_FAQ
@@ -59,6 +59,8 @@ def guidance(unit, exercise):
 
         register_result(session, unit, exercise, feedback)
         update_progress_in_session(session, unit)
+        next_exercise = get_next_exercise(unit, exercise, highest_exercise)
+        next_exercise_text = NEXT_EXERCISE[language]
 
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
@@ -85,6 +87,8 @@ def guidance(unit, exercise):
                                back_to=BACK_TO[language],
                                icon_full=get_filename_full_bookmark(),
                                icon_empty=get_filename_empty_bookmark(),
+                               next_exercise=next_exercise,
+                               next_exercise_text=next_exercise_text,
                                )
 
     elif unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
@@ -154,6 +158,9 @@ def exercise(unit, exercise):
         register_result(session, unit, exercise, feedback)
         update_progress_in_session(session, unit)
 
+        next_exercise = get_next_exercise(unit, exercise, highest_exercise)
+        next_exercise_text = NEXT_EXERCISE[language]
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -180,6 +187,8 @@ def exercise(unit, exercise):
                                back_to=BACK_TO[language],
                                icon_full=get_filename_full_bookmark(),
                                icon_empty=get_filename_empty_bookmark(),
+                               next_exercise=next_exercise,
+                               next_exercise_text=next_exercise_text,
                                )
 
     question_data = pick_a_question(session, unit, exercise)
@@ -433,6 +442,9 @@ def exercise_feedback(unit, exercise):
         register_result(session, unit, exercise, feedback)
         update_progress_in_session(session, unit)
 
+        next_exercise = get_next_exercise(unit, exercise, highest_exercise)
+        next_exercise_text = NEXT_EXERCISE[language]
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -459,6 +471,8 @@ def exercise_feedback(unit, exercise):
                                back_to=BACK_TO[language],
                                icon_full=get_filename_full_bookmark(),
                                icon_empty=get_filename_empty_bookmark(),
+                               next_exercise=next_exercise,
+                               next_exercise_text=next_exercise_text,
                                )
 
     question_data = session.get(f"question_data", {})

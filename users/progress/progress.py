@@ -18,6 +18,16 @@ def compute_completed_exercises(session, unit, highest_exercise):
     return finished_exercises
 
 
+def get_next_exercise(unit, current_exercise, highest_exercise):
+    highest_exercise_unit = highest_exercise[unit]
+
+    if current_exercise == highest_exercise_unit:
+        return None
+
+    else:
+        return current_exercise + 1
+
+
 def update_progress_in_session(session, unit):
     progress = session.setdefault('progress', {})
 

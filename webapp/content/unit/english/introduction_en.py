@@ -104,7 +104,7 @@ INTRODUCTION_EN = {
     ,
     praeteritum:
         "Preterit tense."
-        "<br><br>Available for each grammatical person for the most important verbs,"
+        "<br><br>Available for each grammatical person for the most important verbs, "
         "then only the 3<sup>rd</sup> singular person is required."
         "<br><br>Once I spoke to a German teacher about my whereabouts. My level was early B1. "
         "<br>I used the Präteritum instead of the Perfekt because it's easier: you don't have to think about which"
@@ -150,7 +150,7 @@ INTRODUCTION_EN = {
         "Deep dreams drift, daring dusk to dance"
         "<br>Dark doubts dissolve, daylight dares advance:"
         "<br>Determined voices decide, declare, and pass,"
-        "<br>Der Die Das."
+        "<br>Der, Die, Das."
         "<br><br>The list of nouns comes from "
         "<a href=\"https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112\" target=\"_blank\">here</a>."
     ,

@@ -127,7 +127,7 @@ INTRODUCTION_FR = {
         "Doux désirs dérivent, dansant dès l’aube claire,"
         "<br>Des doutes disparaissent, le destin se déclare,"
         "<br>Des voix décidées dessinent leurs pas,"
-        "<br>Der Die Das."
+        "<br>Der, Die, Das."
         "<br><br>La liste des noms communs vient de "
         "<a href=\"https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112\" target=\"_blank\">ici</a>."
     ,

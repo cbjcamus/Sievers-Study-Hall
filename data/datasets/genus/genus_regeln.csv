@@ -88,336 +88,353 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 87,5,_____ Kunde,der,der Kunde,the customer,le client,most words finishing in -e are Feminine,la majorité des mots se terminant par -e sont Féminins.
 88,5,_____ Käse,der,der Käse,the cheese,le fromage,most words finishing in -e are Feminine,la majorité des mots se terminant par -e sont Féminins.
 89,5,_____ Junge,der,der Junge,the boy,le garçon,most words finishing in -e are Feminine,la majorité des mots se terminant par -e sont Féminins.
-90,6,_____ Fernseher,der,der Fernseher,the TV,la télévision,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-91,7,_____ Computer,der,der Computer,the computer,l'ordinateur,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-92,8,_____ Mixer,der,der Mixer,the mixer,le mixeurs,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-93,9,_____ Kühlschrank,der,der Kühlschrank,the refrigerator,le réfrigérateur,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-94,6,_____ Herd,der,der Herd,the stove,la cuisinière,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-95,7,_____ Grill,der,der Grill,the grill,le gril,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-96,8,_____ Schnellkochtopf,der,der Schnellkochtopf,the pressure cooker,l'autocuiseur,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-97,9,_____ Toaster,der,der Toaster,the toaster,le grille-pain,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-98,6,_____ Ofen,der,der Ofen,the oven,le four,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-99,7,_____ Schweizer,der,der Schweizer,the swiss,le suisse,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
-100,8,_____ Italiener,der,der Italiener,the Italian,l'Italien,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
-101,9,_____ Amerikaner,der,der Amerikaner,the American,l'Américain,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
-102,6,_____ Spanier,der,der Spanier,the Spaniard,l'Espagnol,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
-103,7,_____ Brasilianer,der,der Brasilianer,the Brazilian,le Brésilien,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
-104,8,_____ Regen,der,der Regen,the rain,la pluie,weathers are usually Masculine,les temps sont généralement Masculins
-105,9,_____ Hagel,der,der Hagel,the hail,la grêle,weathers are usually Masculine,les temps sont généralement Masculins
-106,6,_____ Wind,der,der Wind,the wind,le vent,weathers are usually Masculine,les temps sont généralement Masculins
-107,7,_____ Nebel,der,der Nebel,the fog,le brouillard,weathers are usually Masculine,les temps sont généralement Masculins
-108,8,_____ Sturm,der,der Sturm,the storm,la tempête,weathers are usually Masculine,les temps sont généralement Masculins
-109,9,_____ Schnee,der,der Schnee,the snow,la neige,weathers are usually Masculine,les temps sont généralement Masculins
-110,6,_____ Motor,der,der Motor,the engine,le moteur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
-111,7,_____ Autor,der,der Autor,the author,l'auteur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
-112,8,_____ Direktor,der,der Direktor,the director,le directeur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
-113,9,_____ Professor,der,der Professor,the professor,le professeur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
-114,6,_____ Doktor,der,der Doktor,the doctor,le médecin,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
-115,7,_____ Schweizerin,die,die Schweizerin,the Swiss woman,la Suissesse,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
-116,8,_____ Französin,die,die Französin,the Frenchwoman,la Française,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
-117,9,_____ Spanierin,die,die Spanierin,the Spanish woman,la femme espagnole,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
-118,6,_____ Polin,die,die Polin,the Polish woman,la femme polonaise,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
-119,7,_____ Kanadierin,die,die Kanadierin,the Canadian,le Canadien,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
-120,8,_____ Freiheit,die,die Freiheit,the freedom,la liberté,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-121,9,_____ Schönheit,die,die Schönheit,the beauty,la beauté,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-122,6,_____ Gesundheit,die,die Gesundheit,the health,la santé,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-123,7,_____ ​​Gleichheit,die,die ​​Gleichheit,the equality,l'égalité,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-124,8,_____ Reinheit,die,die Reinheit,the purity,la pureté,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-125,9,_____ Trockenheit,die,die Trockenheit,the drought,la sécheresse,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-126,6,_____ Minderheit,die,die Minderheit,the minority,la minorité,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-127,7,_____ Sicherheit,die,die Sicherheit,the safety,la sécurité,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-128,8,_____ Besonderheit,die,die Besonderheit,the special feature,la caractéristique spéciale,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
-129,9,_____ Möglichkeit,die,die Möglichkeit,the possibility,la possibilité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-130,6,_____ Gerechtigkeit,die,die Gerechtigkeit,the justice,la justice,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-131,7,_____ Fähigkeit,die,die Fähigkeit,the ability,la capacité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-132,8,_____ Einsamkeit,die,die Einsamkeit,the loneliness,la solitude,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-133,9,_____ Arbeitslosigkeit,die,die Arbeitslosigkeit,the unemployment,le chômage,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-134,6,_____ Tätigkeit,die,die Tätigkeit,the activity,l'activité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-135,7,_____ Freundlichkeit,die,die Freundlichkeit,the friendliness,la convivialité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-136,8,_____ Aufmerksamkeit,die,die Aufmerksamkeit,the attention,l'attention,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
-137,9,_____ Reaktion,die,die Reaktion,the reaction,la réaction,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-138,6,_____ Diskussion,die,die Diskussion,the discussion,la discussion,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-139,7,_____ Information,die,die Information,the information,l'information,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-140,8,_____ Definition,die,die Definition,the definition,la définition,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-141,9,_____ Emotion,die,die Emotion,the emotion,l'émotion,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-142,6,_____ Demonstration,die,die Demonstration,the demonstration,la démonstration,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-143,7,_____ Produktion,die,die Produktion,the production,la production,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-144,8,_____ Nation,die,die Nation,the nation,la nation,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-145,9,_____ Funktion,die,die Funktion,the function,la fonction,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
-146,6,_____ Mädchen,das,das Mädchen,the girl,la fille,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
-147,7,_____ Kätzchen,das,das Kätzchen,the kitten,le chaton,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
-148,8,_____ Häuschen,das,das Häuschen,the little house,la petite maison,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
-149,9,_____ Jährlein,das,das Jährlein,the year,l'année,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
-150,6,_____ Fräulein,das,das Fräulein,the young lady,la jeune femme,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
-151,7,_____ Dokument,das,das Dokument,the document,le document,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-152,8,_____ Monument,das,das Monument,the monument,le monument,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-153,9,_____ Testament,das,das Testament,the will,le testament,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-154,6,_____ Medikament,das,das Medikament,the drug,le médicament,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-155,7,_____ Instrument,das,das Instrument,the instrument,l'instrument,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-156,8,_____ Kaffee,der,der Kaffee,the coffee,le café,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
-157,9,_____ Kakao,der,der Kakao,the cocoa,le cacao,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
-158,6,_____ Most,der,der Most,the cider,le cidre,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
-159,7,_____ Saft,der,der Saft,the juice,le jus,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
-160,8,_____ Tee,der,der Tee,the tea,le thé,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
-161,10,_____ Moment,der,der Moment,the moment,le moment,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-162,10,_____ Zement,der,der Zement,the cement,le ciment,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
-163,10,_____ Klima,das,das Klima,the climate,le climat,weathers are usually Masculine,les temps sont généralement Masculins
-164,10,_____ Wolke,die,die Wolke,the cloud,le nuage,weathers are usually Masculine,les temps sont généralement Masculins
-165,10,_____ Wetter,das,das Wetter,the weather,la météo,weathers are usually Masculine,les temps sont généralement Masculins
-166,10,_____ Mikrowelle,die,die Mikrowelle,the microwave,le micro-ondes,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-167,10,_____ Spülmaschine,die,die Spülmaschine,the dishwasher,le lave-vaisselle,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
-168,11,_____ Sinn,der,der Sinn,the meaning,la signification,senses are usually Masculine,les sens sont généralement Masculins
-169,12,_____ Blick,der,der Blick,the view,la vue,senses are usually Masculine,les sens sont généralement Masculins
-170,13,_____ Duft,der,der Duft,the scent,le parfum,senses are usually Masculine,les sens sont généralement Masculins
-171,14,_____ Klang,der,der Klang,the sound,le son,senses are usually Masculine,les sens sont généralement Masculins
-172,11,_____ Geschmack,der,der Geschmack,the taste,le goût,senses are usually Masculine,les sens sont généralement Masculins
-173,12,_____ Norden,der,der Norden,the north,le nord,cardinal directions are Masculine,les points cardinaux sont Masculins
-174,13,_____ Süden,der,der Süden,the south,le sud,cardinal directions are Masculine,les points cardinaux sont Masculins
-175,14,_____ Osten,der,der Osten,the East,l'Est,cardinal directions are Masculine,les points cardinaux sont Masculins
-176,11,_____ Westen,der,der Westen,the West,l'Ouest,cardinal directions are Masculine,les points cardinaux sont Masculins
-177,12,_____ König,der,der König,the king,le roi,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
-178,13,_____ Honig,der,der Honig,the honey,le miel,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
-179,14,_____ Essig,der,der Essig,the vinegar,le vinaigre,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
-180,11,_____ Käfig,der,der Käfig,the cage,la cage,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
-181,12,_____ Zweig,der,der Zweig,the branch,la branche,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
-182,13,_____ Teig,der,der Teig,the dough,la pâte,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
-183,14,_____ Mannschaft,die,die Mannschaft,the team,l'équipe,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-184,11,_____ Freundschaft,die,die Freundschaft,the friendship,l'amitié,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-185,12,_____ Gesellschaft,die,die Gesellschaft,the society,la société,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-186,13,_____ Gemeinschaft,die,die Gemeinschaft,the community,la communauté,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-187,14,_____ Landschaft,die,die Landschaft,the landscape,le paysage,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-188,11,_____ Bereitschaft,die,die Bereitschaft,the willingness,la volonté,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-189,12,_____ Leserschaft,die,die Leserschaft,the readership,le lectorat,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
-190,13,_____ Phantasie,die,die Phantasie,the imagination,l'imagination,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-191,14,_____ Poesie,die,die Poesie,the poetry,la poésie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-192,11,_____ Energie,die,die Energie,the energy,l'énergie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-193,12,_____ Melodie,die,die Melodie,the melody,la mélodie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-194,13,_____ Demokratie,die,die Demokratie,the democracy,la démocratie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-195,14,_____ Familie,die,die Familie,the family,la famille,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-196,11,_____ Industrie,die,die Industrie,the industry,l'industrie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-197,12,_____ Musik,die,die Musik,the music,la musique,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-198,13,_____ Politik,die,die Politik,the politics,la politique,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-199,14,_____ Kritik,die,die Kritik,the criticism,la critique,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-200,11,_____ Technik,die,die Technik,the technology,la technologie,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-201,12,_____ Mathematik,die,die Mathematik,the mathematics,les mathématiques,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-202,13,_____ Fabrik,die,die Fabrik,the factory,l'usine,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-203,14,_____ Statistik,die,die Statistik,the statistics,les statistiques,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
-204,11,_____ Qualität,die,die Qualität,the quality,la qualité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-205,12,_____ Universität,die,die Universität,the university,l'université,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-206,13,_____ Aktivität,die,die Aktivität,the activity,l'activité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-207,14,_____ Identität,die,die Identität,the identity,l'identité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-208,11,_____ Realität,die,die Realität,the reality,la réalité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-209,12,_____ Autorität,die,die Autorität,the authority,l'autorité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-210,13,_____ Nationalität,die,die Nationalität,the nationality,la nationalité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-211,14,_____ Flexibilität,die,die Flexibilität,the flexibility,la flexibilité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-212,11,_____ Produktivität,die,die Produktivität,the productivity,la productivité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
-213,12,_____ Natur,die,die Natur,the nature,la nature,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
-214,13,_____ Kultur,die,die Kultur,the culture,la culture,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
-215,14,_____ Temperatur,die,die Temperatur,the temperature,la température,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
-216,11,_____ Struktur,die,die Struktur,the structure,la structure,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
-217,12,_____ Figur,die,die Figur,the character,le personnage,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
-218,13,_____ Bäckerei,die,die Bäckerei,the bakery,la boulangerie,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
-219,14,_____ Metzgerei,die,die Metzgerei,the butcher shop,la boucherie,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
-220,11,_____ Polizei,die,die Polizei,the police,la police,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
-221,12,_____ Partei,die,die Partei,the party,la fête,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
-222,13,_____ Schreiberei,die,die Schreiberei,the writing,l'écriture,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
-223,14,_____ Leben,das,das Leben,the life,la vie,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
-224,11,_____ Essen,das,das Essen,the food,la nourriture,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
-225,12,_____ Lernen,das,das Lernen,the learning,l'apprentissage,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
-226,13,_____ Studium,das,das Studium,the study,l'étude,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-227,14,_____ Zentrum,das,das Zentrum,the center,le centre,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-228,11,_____ Datum,das,das Datum,the date,la date,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-229,12,_____ Museum,das,das Museum,the museum,le musée,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-230,13,_____ Gymnasium,das,das Gymnasium,the high school,le lycée,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-231,14,_____ Publikum,das,das Publikum,the audience,le public,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-232,11,_____ Album,das,das Album,the album,l'album,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-233,12,_____ Medium,das,das Medium,the medium,le médium,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-234,13,_____ Stadium,das,das Stadium,the stage,la scène,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-235,14,_____ Maximum,das,das Maximum,the maximum,le maximum,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-236,11,_____ Minimum,das,das Minimum,the minimum,le minimum,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
-237,12,_____ Gefühl,das,das Gefühl,the feeling,le sentiment,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-238,13,_____ Geschenk,das,das Geschenk,the gift,le cadeau,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-239,14,_____ Gewölk,das,das Gewölk,the cloud,le nuage,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-240,11,_____ Gebäude,das,das Gebäude,the building,le bâtiment,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-241,12,_____ Getränk,das,das Getränk,the drink,la boisson,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-242,13,_____ Gepäck,das,das Gepäck,the luggage,les bagages,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-243,14,_____ Gebirge,das,das Gebirge,the mountains,les montagnes,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-244,15,_____ Gehör,das,das Gehör,the hearing,l'audience,senses are usually Masculine,les sens sont généralement Masculins
-245,15,_____ Gebrauch,der,der Gebrauch,the use,l'utilisation,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-246,15,_____ Gedanke,der,der Gedanke,the thought,la pensée,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-247,15,_____ Gefahr,die,die Gefahr,the danger,le danger,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-248,15,_____ Gemeinde,die,die Gemeinde,the community,la communauté,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
-249,15,_____ Zombie,der,der Zombie,the zombie,le zombie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-250,15,_____ Hippie,der,der Hippie,the hippie,le hippie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-251,15,_____ Knie,das,das Knie,the knee,le genou,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
-252,16,_____ Wein,der,der Wein,the wine,le vin,alcohols are usually Masculine,les alcools sont généralement Masculins
-253,17,_____ Champagner,der,der Champagner,the champagne,le champagne,alcohols are usually Masculine,les alcools sont généralement Masculins
-254,18,_____ Cocktail,der,der Cocktail,the cocktail,le cocktail,alcohols are usually Masculine,les alcools sont généralement Masculins
-255,19,_____ Sekt,der,der Sekt,the sparkling wine,le vin mousseux,alcohols are usually Masculine,les alcools sont généralement Masculins
-256,16,_____ Alkohol,der,der Alkohol,the alcohol,l'alcool,alcohols are usually Masculine,les alcools sont généralement Masculins
-257,17,_____ Schnaps,der,der Schnaps,the schnapps,le schnaps,alcohols are usually Masculine,les alcools sont généralement Masculins
-258,18,_____ Saft,der,der Saft,the juice,le jus,alcohols are usually Masculine,les alcools sont généralement Masculins
-259,19,_____ Elephant,der,der Elephant,the elephant,l'éléphant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
-260,16,_____ Diamant,der,der Diamant,the diamond,le diamant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
-261,17,_____ Emigrant,der,der Emigrant,the emigrant,l'émigrant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
-262,18,_____ Praktikant,der,der Praktikant,the intern,le stagiaire,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
-263,19,_____ Demonstrant,der,der Demonstrant,the demonstrator,le manifestant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
-264,16,_____ Lieferant,der,der Lieferant,the supplier,le fournisseur,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
-265,17,_____ Ingenieur,der,der Ingenieur,the engineer,l'ingénieur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-266,18,_____ Friseur,der,der Friseur,the hairdresser,le coiffeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-267,19,_____ Chauffeur,der,der Chauffeur,the chauffeur,le chauffeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-268,16,_____ Amateur,der,der Amateur,the amateur,l'amateur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-269,17,_____ Regisseur,der,der Regisseur,the director,le directeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-270,18,_____ Jongleur,der,der Jongleur,the juggler,le jongleur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-271,19,_____ Schlaf,der,der Schlaf,the sleep,le sommeil,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-272,16,_____ Lauf,der,der Lauf,the run,la course,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-273,17,_____ Ruf,der,der Ruf,the reputation,la réputation,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-274,18,_____ Wurf,der,der Wurf,the throw,le lancer,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-275,19,_____ Kampf,der,der Kampf,the fight,le combat,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-276,16,_____ Etikette,die,die Etikette,the etiquette,l'étiquette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-277,17,_____ Zigarette,die,die Zigarette,the cigarette,la cigarette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-278,18,_____ Vignette,die,die Vignette,the vignette,la vignette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-279,19,_____ Diskette,die,die Diskette,the floppy disk,la disquette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-280,16,_____ Marionette,die,die Marionette,the puppet,la marionnette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-281,17,_____ Kassette,die,die Kassette,the cassette,la cassette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-282,18,_____ Serviette,die,die Serviette,the napkin,la serviette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
-283,19,_____ Diskothek,die,die Diskothek,the discotheque,la discothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-284,16,_____ Apothek,die,die Apothek,the pharmacy,la pharmacie,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-285,17,_____ Bibliothek,die,die Bibliothek,the library,la bibliothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-286,18,_____ Vinothek,die,die Vinothek,the wine shop,la cave à vin,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-287,19,_____ Videothek,die,die Videothek,the video store,le vidéoclub,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-288,16,_____ Hypothek,die,die Hypothek,the mortgage,l'hypothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-289,17,_____ Pinakothek,die,die Pinakothek,the Pinakothek,la Pinacothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
-290,18,_____ Mandarine,die,die Mandarine,the mandarin,la mandarine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
-291,19,_____ Violine,die,die Violine,the violin,le violon,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
-292,16,_____ Lawine,die,die Lawine,the avalanche,l'avalanche,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
-293,17,_____ Maschine,die,die Maschine,the machine,la machine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
-294,18,_____ Marine,die,die Marine,the navy,la marine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
-295,19,_____ Fahrt,die,die Fahrt,the ride,le trajet,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-296,16,_____ Tat,die,die Tat,the act,la loi,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-297,17,_____ Sicht,die,die Sicht,the view,la vue,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-298,18,_____ Schlacht,die,die Schlacht,the battle,la bataille,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-299,19,_____ Arbeit,die,die Arbeit,the work,le travail,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-300,16,_____ Glas,das,das Glas,the glass,le verre,materials are usually Neuter,les matériaux sont généralement Neutres
-301,17,_____ Gold,das,das Gold,the gold,l'or,materials are usually Neuter,les matériaux sont généralement Neutres
-302,18,_____ Silber,das,das Silber,the silver,l'argent,materials are usually Neuter,les matériaux sont généralement Neutres
-303,19,_____ Papier,das,das Papier,the paper,le papier,materials are usually Neuter,les matériaux sont généralement Neutres
-304,16,_____ Holz,das,das Holz,the wood,le bois,materials are usually Neuter,les matériaux sont généralement Neutres
-305,17,_____ Ergebnis,das,das Ergebnis,the result,le résultat,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-306,18,_____ Zeugnis,das,das Zeugnis,"the certificat, the testimony","le certificat, le témoignage",nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-307,19,_____ Verständnis,das,das Verständnis,the understanding,la compréhension,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-308,16,_____ Ereignis,das,das Ereignis,the event,l'événement,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-309,17,_____ Geheimnis,das,das Geheimnis,the secret,le secret,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-310,20,_____ Bier,das,das Bier,the beer,la bière,alcohols are usually Masculine,les alcools sont généralement Masculins
-311,20,_____ Stahl,der,der Stahl,the steel,l'acier,materials are usually Neuter,les matériaux sont généralement Neutres
-312,20,_____ Bronze,die,die Bronze,the bronze,le bronze,materials are usually Neuter,les matériaux sont généralement Neutres
-313,20,_____ Beton,der,der Beton,the concrete,le béton,materials are usually Neuter,les matériaux sont généralement Neutres
-314,20,_____ Seide,die,die Seide,the silk,la soie,materials are usually Neuter,les matériaux sont généralement Neutres
-315,20,_____ Keramik,die,die Keramik,the ceramics,la céramique,materials are usually Neuter,les matériaux sont généralement Neutres
-316,20,_____ Kenntnis,die,die Kenntnis,the knowledge,la connaissance,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-317,20,_____ Erlaubnis,die,die Erlaubnis,the permission,l'autorisation,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-318,20,_____ Wildnis,die,die Wildnis,the wilderness,la nature sauvage,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
-319,21,_____ Mercedes,der,der Mercedes,the Mercedes,la Mercedes,car names from brands are Masculine,les noms de voitures des marques sont Masculins
-320,22,_____ Toyota,der,der Toyota,the Toyota,la Toyota,car names from brands are Masculine,les noms de voitures des marques sont Masculins
-321,23,_____ Tesla,der,der Tesla,the Tesla,la Tesla,car names from brands are Masculine,les noms de voitures des marques sont Masculins
-322,24,_____ Citroen,der,der Citroen,the Citroen,la Citroën,car names from brands are Masculine,les noms de voitures des marques sont Masculins
-323,21,_____ Subaru,der,der Subaru,the Subaru,la Subaru,car names from brands are Masculine,les noms de voitures des marques sont Masculins
-324,22,_____ Stein,der,der Stein,the stone,la pierre,stones are usually Masculine,les pierres sont généralement Masculines
-325,23,_____ Diamant,der,der Diamant,the diamond,le diamant,stones are usually Masculine,les pierres sont généralement Masculines
-326,24,_____ Saphir,der,der Saphir,the sapphire,le saphir,stones are usually Masculine,les pierres sont généralement Masculines
-327,21,_____ Lapislazuli,der,der Lapislazuli,the lapis lazuli,le lapis-lazuli,stones are usually Masculine,les pierres sont généralement Masculines
-328,22,_____ Fels,der,der Fels,the rock,le rocher,stones are usually Masculine,les pierres sont généralement Masculines
-329,23,_____ Stern,der,der Stern,the star,la star,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-330,24,_____ Mond,der,der Mond,the moon,la lune,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-331,21,_____ Asteroid,der,der Asteroid,the asteroid,l'astéroïde,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-332,22,_____ Komet,der,der Komet,the comet,la comète,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-333,23,_____ Planet,der,der Planet,the planet,la planète,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-334,24,_____ Euro,der,der Euro,the euro,l'euro,currencies are usually Masculine,les devises sont généralement Masculines
-335,21,_____ Dollar,der,der Dollar,the dollar,le dollar,currencies are usually Masculine,les devises sont généralement Masculines
-336,22,_____ Schilling,der,der Schilling,the shilling,le shilling,currencies are usually Masculine,les devises sont généralement Masculines
-337,23,_____ Franken,der,der Franken,the frank,le franc,currencies are usually Masculine,les devises sont généralement Masculines
-338,24,_____ Pfennig,der,der Pfennig,the penny,le sou,currencies are usually Masculine,les devises sont généralement Masculines
-339,21,_____ Kapitalismus,der,der Kapitalismus,the capitalism,le capitalisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
-340,22,_____ Kommunismus,der,der Kommunismus,the communism,le communisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
-341,23,_____ Sozialismus,der,der Sozialismus,the socialism,le socialisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
-342,24,_____ Realismus,der,der Realismus,the realism,le réalisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
-343,21,_____ Tourismus,der,der Tourismus,the tourism,le tourisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
-344,22,_____ Lehrling,der,der Lehrling,the apprentice,l'apprenti,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
-345,23,_____ Flüchtling,der,der Flüchtling,the refugee,le réfugié,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
-346,24,_____ Schmetterling,der,der Schmetterling,the butterfly,le papillon,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
-347,21,_____ Zwilling,der,der Zwilling,the twin,le jumeau,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
-348,22,_____ Feigling,der,der Feigling,the coward,le lâche,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
-349,23,_____ Kontrast,der,der Kontrast,the contrast,le contraste,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
-350,24,_____ Dynast,der,der Dynast,the dynast,la dynastie,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
-351,21,_____ Fast,der,der Fast,the fast,le jeûne,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
-352,22,_____ Gymnast,der,der Gymnast,the gymnast,la gymnaste,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
-353,23,_____ Enthusiast,der,der Enthusiast,the enthusiast,l'enthousiaste,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
-354,24,_____ Eins,die,die Eins,the one,le un,numbers are Feminine,les nombres sont Féminins
-355,21,_____ Zwei,die,die Zwei,the two,le deux,numbers are Feminine,les nombres sont Féminins
-356,22,_____ Drei,die,die Drei,the three,le trois,numbers are Feminine,les nombres sont Féminins
-357,23,_____ Vier,die,die Vier,the four,le quatre,numbers are Feminine,les nombres sont Féminins
-358,24,_____ Million,die,die Million,the million,le million,numbers are Feminine,les nombres sont Féminins
-359,21,_____ Milliarde,die,die Milliarde,the billion,le milliard,numbers are Feminine,les nombres sont Féminins
-360,22,_____ Dekade,die,die Dekade,the decade,la décennie,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
-361,23,_____ Blockade,die,die Blockade,the blockade,le blocus,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
-362,24,_____ Limonade,die,die Limonade,the lemonade,la limonade,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
-363,21,_____ Schokolade,die,die Schokolade,the chocolate,le chocolat,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
-364,22,_____ Parade,die,die Parade,the parade,le défilé,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
-365,23,_____ Perspektive,die,die Perspektive,the perspective,la perspective,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
-366,24,_____ Initiative,die,die Initiative,the initiative,l'initiative,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
-367,21,_____ Alternative,die,die Alternative,the alternative,l'alternative,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
-368,22,_____ Offensive,die,die Offensive,the offensive,l'offensive,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
-369,23,_____ Defensive,die,die Defensive,the defense,la défense,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
-370,24,_____ Intelligenz,die,die Intelligenz,the intelligence,l'intelligence,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
-371,21,_____ Tendenz,die,die Tendenz,the tendency,la tendance,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
-372,22,_____ Existenz,die,die Existenz,the existence,l'existence,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
-373,23,_____ Konkurrenz,die,die Konkurrenz,the competition,la compétition,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
-374,24,_____ Frequenz,die,die Frequenz,the frequency,la fréquence,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
-375,21,_____ Arroganz,die,die Arroganz,the arrogance,l'arrogance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
-376,22,_____ Distanz,die,die Distanz,the distance,la distance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
-377,23,_____ Toleranz,die,die Toleranz,the tolerance,la tolérance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
-378,24,_____ Eleganz,die,die Eleganz,the elegance,l'élégance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
-379,21,_____ Relevanz,die,die Relevanz,the relevance,la pertinence,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
-380,22,_____ Analysis,die,die Analysis,the analysis,l'analyse,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
-381,23,_____ Basis,die,die Basis,the base,la base,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
-382,24,_____ Thesis,die,die Thesis,the thesis,la thèse,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
-383,21,_____ Dosis,die,die Dosis,the dose,la dose,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
-384,22,_____ Psychosis,die,die Psychosis,the psychosis,la psychose,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
-385,23,_____ Krieg,die,die Krieg,the war,la guerre,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-386,24,_____ Waffe,die,die Waffe,the weapon,l'arme,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-387,21,_____ Kugel,die,die Kugel,the ball,la balle,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-388,22,_____ Armee,die,die Armee,the army,l'armée,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-389,23,_____ Schlacht,die,die Schlacht,the battle,la bataille,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-390,24,_____ Gute,das,das Gute,the good,le bien,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
-391,21,_____ Böse,das,das Böse,the evil,le mal,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
-392,22,_____ Neue,das,das Neue,the new,le nouveau,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
-393,23,_____ Blau,das,das Blau,the blue,le bleu,colors are Neuter,les couleurs sont Neutres
-394,24,_____ Gelb,das,das Gelb,the yellow,le jaune,colors are Neuter,les couleurs sont Neutres
-395,21,_____ Rot,das,das Rot,the red,le rouge,colors are Neuter,les couleurs sont Neutres
-396,22,_____ Grün,das,das Grün,the green,le vert,colors are Neuter,les couleurs sont Neutres
-397,23,_____ Schwarz,das,das Schwarz,the black,le noir,colors are Neuter,les couleurs sont Neutres
-398,24,_____ Ganges,der,der Ganges,the Ganges,le Gange,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-399,21,_____ Nil,der,der Nil,the Nile,le Nil,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-400,22,_____ Amazonas,der,der Amazonas,the Amazon river,l'Amazone,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-401,23,_____ Volga,der,der Volga,the Volga,la Volga,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-402,24,_____ Po,der,der Po,the Po river,le Pô,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-403,21,_____ Mont Blanc,der,der Mont Blanc,the Mont Blanc,le Mont Blanc,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-404,22,_____ Mount Everest,der,der Mount Everest,Mount Everest,le Mont Everest,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-405,23,_____ Himalaya,der,der Himalaya,the Himalayas,l'Himalaya,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-406,24,_____ Aconcagua,der,der Aconcagua,the Aconcagua,l'Aconcagua,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-407,21,_____ Elbe,die,die Elbe,the Elbe,l'Elbe,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-408,22,_____ Donau,die,die Donau,the Danube,le Danube,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-409,23,_____ Weser,die,die Weser,the Weser,le Weser,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-410,24,_____ Oder,die,die Oder,the Oder,l'Oder,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-411,21,"_____ ""Hilton""",das,"das ""Hilton""","the ""Hilton""",le « Hilton »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-412,22,"_____ ""Kranzler""",das,"das ""Kranzler""","the ""Kranzler""",le « Kranzler »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-413,23,"_____ ""Kapitol""",das,"das ""Kapitol""","the ""Capitol""",le « Capitole »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-414,24,"_____ ""Roxy""",das,"das ""Roxy""","the ""Roxy""",le « Roxy »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-415,25,_____ Sonne,die,die Sonne,the sun,le soleil,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-416,25,_____ Mark,die,die Mark,the Mark,le Mark,currencies are usually Masculine,les devises sont généralement Masculines
-417,25,_____ Pfund,das,das Pfund,the pound,la livre,currencies are usually Masculine,les devises sont généralement Masculines
-418,25,_____ Krone,die,die Krone,the crown,la couronne,currencies are usually Masculine,les devises sont généralement Masculines
-419,25,_____ Loire,die,die Loire,the Loire,la Loire,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-420,25,_____ Themse,die,die Themse,the Thames,la Tamise,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-421,25,_____ Rhein,der,der Rhein,the Rhine,le Rhin,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-422,25,_____ Main,der,der Main,the Main,le Main,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+90,5,_____ Ende,das,das Ende,the end,la fin,most words finishing in -e are Feminine,la majorité des mots se terminant par -e sont Féminins.
+91,6,_____ Fernseher,der,der Fernseher,the TV,la télévision,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+92,7,_____ Computer,der,der Computer,the computer,l'ordinateur,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+93,8,_____ Mixer,der,der Mixer,the mixer,le mixeurs,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+94,9,_____ Kühlschrank,der,der Kühlschrank,the refrigerator,le réfrigérateur,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+95,6,_____ Herd,der,der Herd,the stove,la cuisinière,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+96,7,_____ Grill,der,der Grill,the grill,le gril,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+97,8,_____ Schnellkochtopf,der,der Schnellkochtopf,the pressure cooker,l'autocuiseur,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+98,9,_____ Toaster,der,der Toaster,the toaster,le grille-pain,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+99,6,_____ Ofen,der,der Ofen,the oven,le four,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+100,7,_____ Schweizer,der,der Schweizer,the swiss,le suisse,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
+101,8,_____ Italiener,der,der Italiener,the Italian,l'Italien,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
+102,9,_____ Amerikaner,der,der Amerikaner,the American,l'Américain,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
+103,6,_____ Spanier,der,der Spanier,the Spaniard,l'Espagnol,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
+104,7,_____ Brasilianer,der,der Brasilianer,the Brazilian,le Brésilien,nationalities finishing in -er are Masculine,les nationalités se terminant par -er sont Masculines
+105,8,_____ Regen,der,der Regen,the rain,la pluie,weathers are usually Masculine,les temps sont généralement Masculins
+106,9,_____ Hagel,der,der Hagel,the hail,la grêle,weathers are usually Masculine,les temps sont généralement Masculins
+107,6,_____ Wind,der,der Wind,the wind,le vent,weathers are usually Masculine,les temps sont généralement Masculins
+108,7,_____ Nebel,der,der Nebel,the fog,le brouillard,weathers are usually Masculine,les temps sont généralement Masculins
+109,8,_____ Sturm,der,der Sturm,the storm,la tempête,weathers are usually Masculine,les temps sont généralement Masculins
+110,9,_____ Schnee,der,der Schnee,the snow,la neige,weathers are usually Masculine,les temps sont généralement Masculins
+111,6,_____ Motor,der,der Motor,the engine,le moteur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
+112,7,_____ Autor,der,der Autor,the author,l'auteur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
+113,8,_____ Direktor,der,der Direktor,the director,le directeur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
+114,9,_____ Professor,der,der Professor,the professor,le professeur,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
+115,6,_____ Doktor,der,der Doktor,the doctor,le médecin,words finishing in -or are Masculine,les mots se terminant par -or sont Masculins
+116,7,_____ Schweizerin,die,die Schweizerin,the Swiss woman,la Suissesse,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
+117,8,_____ Französin,die,die Französin,the Frenchwoman,la Française,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
+118,9,_____ Spanierin,die,die Spanierin,the Spanish woman,la femme espagnole,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
+119,6,_____ Polin,die,die Polin,the Polish woman,la femme polonaise,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
+120,7,_____ Kanadierin,die,die Kanadierin,the Canadian,le Canadien,nationalities finishing in -in are Feminine,les nationalités se terminant par -in sont Féminines
+121,8,_____ Freiheit,die,die Freiheit,the freedom,la liberté,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+122,9,_____ Schönheit,die,die Schönheit,the beauty,la beauté,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+123,6,_____ Gesundheit,die,die Gesundheit,the health,la santé,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+124,7,_____ ​​Gleichheit,die,die ​​Gleichheit,the equality,l'égalité,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+125,8,_____ Reinheit,die,die Reinheit,the purity,la pureté,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+126,9,_____ Trockenheit,die,die Trockenheit,the drought,la sécheresse,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+127,6,_____ Minderheit,die,die Minderheit,the minority,la minorité,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+128,7,_____ Sicherheit,die,die Sicherheit,the safety,la sécurité,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+129,8,_____ Besonderheit,die,die Besonderheit,the special feature,la caractéristique spéciale,words finishing in -heit are Feminine,les mots se terminant par -heit sont Féminins
+130,9,_____ Möglichkeit,die,die Möglichkeit,the possibility,la possibilité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+131,6,_____ Gerechtigkeit,die,die Gerechtigkeit,the justice,la justice,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+132,7,_____ Fähigkeit,die,die Fähigkeit,the ability,la capacité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+133,8,_____ Einsamkeit,die,die Einsamkeit,the loneliness,la solitude,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+134,9,_____ Arbeitslosigkeit,die,die Arbeitslosigkeit,the unemployment,le chômage,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+135,6,_____ Tätigkeit,die,die Tätigkeit,the activity,l'activité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+136,7,_____ Freundlichkeit,die,die Freundlichkeit,the friendliness,la convivialité,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+137,8,_____ Aufmerksamkeit,die,die Aufmerksamkeit,the attention,l'attention,words finishing in -keit are Feminine,les mots se terminant par -keit sont Féminins
+138,9,_____ Reaktion,die,die Reaktion,the reaction,la réaction,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+139,6,_____ Diskussion,die,die Diskussion,the discussion,la discussion,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+140,7,_____ Information,die,die Information,the information,l'information,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+141,8,_____ Definition,die,die Definition,the definition,la définition,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+142,9,_____ Emotion,die,die Emotion,the emotion,l'émotion,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+143,6,_____ Demonstration,die,die Demonstration,the demonstration,la démonstration,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+144,7,_____ Produktion,die,die Produktion,the production,la production,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+145,8,_____ Nation,die,die Nation,the nation,la nation,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+146,9,_____ Funktion,die,die Funktion,the function,la fonction,words finishing in -ion are Feminine,les mots se terminant par -ion sont Féminins
+147,6,_____ Mädchen,das,das Mädchen,the girl,la fille,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
+148,7,_____ Kätzchen,das,das Kätzchen,the kitten,le chaton,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
+149,8,_____ Häuschen,das,das Häuschen,the little house,la petite maison,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
+150,9,_____ Jährlein,das,das Jährlein,the year,l'année,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
+151,6,_____ Fräulein,das,das Fräulein,the young lady,la jeune femme,words finishing in -chen and -lein are Neuter,les mots se terminant par -chen et -lein sont Neutres
+152,7,_____ Dokument,das,das Dokument,the document,le document,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+153,8,_____ Monument,das,das Monument,the monument,le monument,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+154,9,_____ Testament,das,das Testament,the will,le testament,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+155,6,_____ Medikament,das,das Medikament,the drug,le médicament,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+156,7,_____ Instrument,das,das Instrument,the instrument,l'instrument,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+157,8,_____ Kaffee,der,der Kaffee,the coffee,le café,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
+158,9,_____ Kakao,der,der Kakao,the cocoa,le cacao,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
+159,6,_____ Most,der,der Most,the cider,le cidre,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
+160,7,_____ Saft,der,der Saft,the juice,le jus,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
+161,8,_____ Tee,der,der Tee,the tea,le thé,plant-based drinks are usually Masculine,les boissons à base de plantes sont généralement Masculines
+162,10,_____ Moment,der,der Moment,the moment,le moment,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+163,10,_____ Zement,der,der Zement,the cement,le ciment,words finishing in -ment are usually Neuter,les mots se terminant par -ment sont généralement Neutres
+164,10,_____ Klima,das,das Klima,the climate,le climat,weathers are usually Masculine,les temps sont généralement Masculins
+165,10,_____ Wolke,die,die Wolke,the cloud,le nuage,weathers are usually Masculine,les temps sont généralement Masculins
+166,10,_____ Wetter,das,das Wetter,the weather,la météo,weathers are usually Masculine,les temps sont généralement Masculins
+167,10,_____ Mikrowelle,die,die Mikrowelle,the microwave,le micro-ondes,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+168,10,_____ Spülmaschine,die,die Spülmaschine,the dishwasher,le lave-vaisselle,appliances are usually Masculine,les appareils électroménagers sont généralement Masculins
+169,11,_____ Sinn,der,der Sinn,the meaning,la signification,senses are usually Masculine,les sens sont généralement Masculins
+170,12,_____ Blick,der,der Blick,the view,la vue,senses are usually Masculine,les sens sont généralement Masculins
+171,13,_____ Duft,der,der Duft,the scent,le parfum,senses are usually Masculine,les sens sont généralement Masculins
+172,14,_____ Klang,der,der Klang,the sound,le son,senses are usually Masculine,les sens sont généralement Masculins
+173,11,_____ Geschmack,der,der Geschmack,the taste,le goût,senses are usually Masculine,les sens sont généralement Masculins
+174,12,_____ Norden,der,der Norden,the north,le nord,cardinal directions are Masculine,les points cardinaux sont Masculins
+175,13,_____ Süden,der,der Süden,the south,le sud,cardinal directions are Masculine,les points cardinaux sont Masculins
+176,14,_____ Osten,der,der Osten,the East,l'Est,cardinal directions are Masculine,les points cardinaux sont Masculins
+177,11,_____ Westen,der,der Westen,the West,l'Ouest,cardinal directions are Masculine,les points cardinaux sont Masculins
+178,12,_____ König,der,der König,the king,le roi,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
+179,13,_____ Honig,der,der Honig,the honey,le miel,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
+180,14,_____ Essig,der,der Essig,the vinegar,le vinaigre,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
+181,11,_____ Käfig,der,der Käfig,the cage,la cage,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
+182,12,_____ Zweig,der,der Zweig,the branch,la branche,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
+183,13,_____ Teig,der,der Teig,the dough,la pâte,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
+184,14,_____ Mannschaft,die,die Mannschaft,the team,l'équipe,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+185,11,_____ Freundschaft,die,die Freundschaft,the friendship,l'amitié,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+186,12,_____ Gesellschaft,die,die Gesellschaft,the society,la société,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+187,13,_____ Gemeinschaft,die,die Gemeinschaft,the community,la communauté,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+188,14,_____ Landschaft,die,die Landschaft,the landscape,le paysage,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+189,11,_____ Bereitschaft,die,die Bereitschaft,the willingness,la volonté,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+190,12,_____ Leserschaft,die,die Leserschaft,the readership,le lectorat,nouns finishing in -schaft are Feminine,les noms se terminant par -schaft sont Féminins
+191,13,_____ Phantasie,die,die Phantasie,the imagination,l'imagination,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+192,14,_____ Poesie,die,die Poesie,the poetry,la poésie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+193,11,_____ Energie,die,die Energie,the energy,l'énergie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+194,12,_____ Melodie,die,die Melodie,the melody,la mélodie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+195,13,_____ Demokratie,die,die Demokratie,the democracy,la démocratie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+196,14,_____ Familie,die,die Familie,the family,la famille,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+197,11,_____ Industrie,die,die Industrie,the industry,l'industrie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+198,12,_____ Musik,die,die Musik,the music,la musique,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+199,13,_____ Politik,die,die Politik,the politics,la politique,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+200,14,_____ Kritik,die,die Kritik,the criticism,la critique,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+201,11,_____ Technik,die,die Technik,the technology,la technologie,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+202,12,_____ Mathematik,die,die Mathematik,the mathematics,les mathématiques,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+203,13,_____ Fabrik,die,die Fabrik,the factory,l'usine,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+204,14,_____ Statistik,die,die Statistik,the statistics,les statistiques,nouns finishing in -ik are usually Feminine,les noms se terminant par -ik sont généralement Féminins
+205,11,_____ Qualität,die,die Qualität,the quality,la qualité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+206,12,_____ Universität,die,die Universität,the university,l'université,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+207,13,_____ Aktivität,die,die Aktivität,the activity,l'activité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+208,14,_____ Identität,die,die Identität,the identity,l'identité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+209,11,_____ Realität,die,die Realität,the reality,la réalité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+210,12,_____ Autorität,die,die Autorität,the authority,l'autorité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+211,13,_____ Nationalität,die,die Nationalität,the nationality,la nationalité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+212,14,_____ Flexibilität,die,die Flexibilität,the flexibility,la flexibilité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+213,11,_____ Produktivität,die,die Produktivität,the productivity,la productivité,nouns finishing in -tät are Feminine,les noms se terminant par -tät sont Féminins
+214,12,_____ Natur,die,die Natur,the nature,la nature,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
+215,13,_____ Kultur,die,die Kultur,the culture,la culture,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
+216,14,_____ Temperatur,die,die Temperatur,the temperature,la température,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
+217,11,_____ Struktur,die,die Struktur,the structure,la structure,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
+218,12,_____ Figur,die,die Figur,the character,le personnage,nouns finishing in -ur are Feminine,les noms se terminant par -ur sont Féminins
+219,13,_____ Bäckerei,die,die Bäckerei,the bakery,la boulangerie,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
+220,14,_____ Metzgerei,die,die Metzgerei,the butcher shop,la boucherie,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
+221,11,_____ Polizei,die,die Polizei,the police,la police,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
+222,12,_____ Partei,die,die Partei,the party,la fête,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
+223,13,_____ Schreiberei,die,die Schreiberei,the writing,l'écriture,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
+224,14,_____ Leben,das,das Leben,the life,la vie,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
+225,11,_____ Essen,das,das Essen,the food,la nourriture,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
+226,12,_____ Lernen,das,das Lernen,the learning,l'apprentissage,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
+227,13,_____ Studium,das,das Studium,the study,l'étude,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+228,14,_____ Zentrum,das,das Zentrum,the center,le centre,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+229,11,_____ Datum,das,das Datum,the date,la date,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+230,12,_____ Museum,das,das Museum,the museum,le musée,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+231,13,_____ Gymnasium,das,das Gymnasium,the high school,le lycée,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+232,14,_____ Publikum,das,das Publikum,the audience,le public,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+233,11,_____ Album,das,das Album,the album,l'album,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+234,12,_____ Medium,das,das Medium,the medium,le médium,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+235,13,_____ Stadium,das,das Stadium,the stage,la scène,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+236,14,_____ Maximum,das,das Maximum,the maximum,le maximum,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+237,11,_____ Minimum,das,das Minimum,the minimum,le minimum,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
+238,12,_____ Gefühl,das,das Gefühl,the feeling,le sentiment,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+239,13,_____ Geschenk,das,das Geschenk,the gift,le cadeau,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+240,14,_____ Gewölk,das,das Gewölk,the cloud,le nuage,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+241,11,_____ Gebäude,das,das Gebäude,the building,le bâtiment,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+242,12,_____ Getränk,das,das Getränk,the drink,la boisson,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+243,13,_____ Gepäck,das,das Gepäck,the luggage,les bagages,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+244,14,_____ Gebirge,das,das Gebirge,the mountains,les montagnes,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+245,15,_____ Gehör,das,das Gehör,the hearing,l'audience,senses are usually Masculine,les sens sont généralement Masculins
+246,15,_____ Gebrauch,der,der Gebrauch,the use,l'utilisation,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+247,15,_____ Gedanke,der,der Gedanke,the thought,la pensée,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+248,15,_____ Gefahr,die,die Gefahr,the danger,le danger,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+249,15,_____ Gemeinde,die,die Gemeinde,the community,la communauté,nouns beginning in Ge- are usually Neuter,les noms commençant par Ge- sont généralement Neutres
+250,15,_____ Zombie,der,der Zombie,the zombie,le zombie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+251,15,_____ Hippie,der,der Hippie,the hippie,le hippie,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+252,15,_____ Knie,das,das Knie,the knee,le genou,nouns finishing in -ie are usually Feminine,les noms se terminant par -ie sont généralement Féminins
+253,16,_____ Wein,der,der Wein,the wine,le vin,alcohols are usually Masculine,les alcools sont généralement Masculins
+254,17,_____ Champagner,der,der Champagner,the champagne,le champagne,alcohols are usually Masculine,les alcools sont généralement Masculins
+255,18,_____ Cocktail,der,der Cocktail,the cocktail,le cocktail,alcohols are usually Masculine,les alcools sont généralement Masculins
+256,19,_____ Sekt,der,der Sekt,the sparkling wine,le vin mousseux,alcohols are usually Masculine,les alcools sont généralement Masculins
+257,16,_____ Alkohol,der,der Alkohol,the alcohol,l'alcool,alcohols are usually Masculine,les alcools sont généralement Masculins
+258,17,_____ Schnaps,der,der Schnaps,the schnapps,le schnaps,alcohols are usually Masculine,les alcools sont généralement Masculins
+259,18,_____ Saft,der,der Saft,the juice,le jus,alcohols are usually Masculine,les alcools sont généralement Masculins
+260,19,_____ Elephant,der,der Elephant,the elephant,l'éléphant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
+261,16,_____ Diamant,der,der Diamant,the diamond,le diamant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
+262,17,_____ Emigrant,der,der Emigrant,the emigrant,l'émigrant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
+263,18,_____ Praktikant,der,der Praktikant,the intern,le stagiaire,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
+264,19,_____ Demonstrant,der,der Demonstrant,the demonstrator,le manifestant,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
+265,16,_____ Lieferant,der,der Lieferant,the supplier,le fournisseur,nouns finishing in -ant are Masculine,les noms se terminant par -ant sont Masculins
+266,17,_____ Ingenieur,der,der Ingenieur,the engineer,l'ingénieur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
+267,18,_____ Friseur,der,der Friseur,the hairdresser,le coiffeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
+268,19,_____ Chauffeur,der,der Chauffeur,the chauffeur,le chauffeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
+269,16,_____ Amateur,der,der Amateur,the amateur,l'amateur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
+270,17,_____ Regisseur,der,der Regisseur,the director,le directeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
+271,18,_____ Jongleur,der,der Jongleur,the juggler,le jongleur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
+272,19,_____ Schlaf,der,der Schlaf,the sleep,le sommeil,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
+273,16,_____ Lauf,der,der Lauf,the run,la course,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
+274,17,_____ Ruf,der,der Ruf,the reputation,la réputation,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
+275,18,_____ Wurf,der,der Wurf,the throw,le lancer,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
+276,19,_____ Kampf,der,der Kampf,the fight,le combat,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
+277,16,_____ Etikette,die,die Etikette,the etiquette,l'étiquette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+278,17,_____ Zigarette,die,die Zigarette,the cigarette,la cigarette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+279,18,_____ Vignette,die,die Vignette,the vignette,la vignette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+280,19,_____ Diskette,die,die Diskette,the floppy disk,la disquette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+281,16,_____ Marionette,die,die Marionette,the puppet,la marionnette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+282,17,_____ Kassette,die,die Kassette,the cassette,la cassette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+283,18,_____ Serviette,die,die Serviette,the napkin,la serviette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
+284,19,_____ Diskothek,die,die Diskothek,the discotheque,la discothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+285,16,_____ Apothek,die,die Apothek,the pharmacy,la pharmacie,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+286,17,_____ Bibliothek,die,die Bibliothek,the library,la bibliothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+287,18,_____ Vinothek,die,die Vinothek,the wine shop,la cave à vin,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+288,19,_____ Videothek,die,die Videothek,the video store,le vidéoclub,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+289,16,_____ Hypothek,die,die Hypothek,the mortgage,l'hypothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+290,17,_____ Pinakothek,die,die Pinakothek,the Pinakothek,la Pinacothèque,nouns finishing in -thek are Feminine,les noms se terminant par -thek sont Féminins
+291,18,_____ Mandarine,die,die Mandarine,the mandarin,la mandarine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
+292,19,_____ Violine,die,die Violine,the violin,le violon,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
+293,16,_____ Lawine,die,die Lawine,the avalanche,l'avalanche,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
+294,17,_____ Maschine,die,die Maschine,the machine,la machine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
+295,18,_____ Marine,die,die Marine,the navy,la marine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
+296,19,_____ Fahrt,die,die Fahrt,the ride,le trajet,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
+297,16,_____ Tat,die,die Tat,the act,la loi,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
+298,17,_____ Sicht,die,die Sicht,the view,la vue,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
+299,18,_____ Schlacht,die,die Schlacht,the battle,la bataille,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
+300,19,_____ Arbeit,die,die Arbeit,the work,le travail,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
+301,16,_____ Glas,das,das Glas,the glass,le verre,materials are usually Neuter,les matériaux sont généralement Neutres
+302,17,_____ Gold,das,das Gold,the gold,l'or,materials are usually Neuter,les matériaux sont généralement Neutres
+303,18,_____ Silber,das,das Silber,the silver,l'argent,materials are usually Neuter,les matériaux sont généralement Neutres
+304,19,_____ Papier,das,das Papier,the paper,le papier,materials are usually Neuter,les matériaux sont généralement Neutres
+305,16,_____ Holz,das,das Holz,the wood,le bois,materials are usually Neuter,les matériaux sont généralement Neutres
+306,17,_____ Ergebnis,das,das Ergebnis,the result,le résultat,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+307,18,_____ Zeugnis,das,das Zeugnis,"the certificat, the testimony","le certificat, le témoignage",nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+308,19,_____ Verständnis,das,das Verständnis,the understanding,la compréhension,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+309,16,_____ Ereignis,das,das Ereignis,the event,l'événement,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+310,17,_____ Geheimnis,das,das Geheimnis,the secret,le secret,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+311,18,_____ Team,das,das Team,the team,l'équipe,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+312,19,_____ Internet,das,das Internet,the internet,internet,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+313,16,_____ Marketing,das,das Marketing,the marketing,le marketing,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+314,17,_____ Design,das,das Design,the design,le design,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+315,18,_____ Smartphone,das,das Smartphone,the smartphone,le smartphone,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+316,19,_____ Streaming,das,das Streaming,the streaming,le streaming,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+317,16,_____ Homeoffice,das,das Homeoffice,the home office,le travail à domicile,words coming from the English language are usually Neuter,les noms venant de la langue anglaise sont souvent Neutres
+318,17,_____ Beispiel,das,das Beispiel,the example,l'exemple,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+319,18,_____ Mal,das,das Mal,the time,la fois,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+320,19,_____ Problem,das,das Problem,the problem,le problème,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+321,16,_____ Ziel,das,das Ziel,the goal,l'objectif,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+322,17,_____ Prinzip,das,das Prinzip,the principle,le principe,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+323,18,_____ Thema,das,das Thema,the topic,le sujet,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+324,19,_____ Objekt,das,das Objekt,the object,l'objet,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+325,16,_____ Subjekt,das,das Subjekt,the subject,le sujet,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+326,17,_____ Ding,das,das Ding,the thing,la chose,concepts and abstractions are usually Neuter,les mots désignant des concepts et abstractions sont souvent Neutres
+326,20,_____ Bier,das,das Bier,the beer,la bière,alcohols are usually Masculine,les alcools sont généralement Masculins
+327,20,_____ Stahl,der,der Stahl,the steel,l'acier,materials are usually Neuter,les matériaux sont généralement Neutres
+328,20,_____ Bronze,die,die Bronze,the bronze,le bronze,materials are usually Neuter,les matériaux sont généralement Neutres
+329,20,_____ Beton,der,der Beton,the concrete,le béton,materials are usually Neuter,les matériaux sont généralement Neutres
+330,20,_____ Seide,die,die Seide,the silk,la soie,materials are usually Neuter,les matériaux sont généralement Neutres
+331,20,_____ Keramik,die,die Keramik,the ceramics,la céramique,materials are usually Neuter,les matériaux sont généralement Neutres
+332,20,_____ Kenntnis,die,die Kenntnis,the knowledge,la connaissance,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+333,20,_____ Erlaubnis,die,die Erlaubnis,the permission,l'autorisation,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+334,20,_____ Wildnis,die,die Wildnis,the wilderness,la nature sauvage,nouns finishing in -nis are mostly Neuter,les noms se terminant par -nis sont pour la plupart Neutres
+335,21,_____ Mercedes,der,der Mercedes,the Mercedes,la Mercedes,car names from brands are Masculine,les noms de voitures des marques sont Masculins
+336,22,_____ Toyota,der,der Toyota,the Toyota,la Toyota,car names from brands are Masculine,les noms de voitures des marques sont Masculins
+337,23,_____ Tesla,der,der Tesla,the Tesla,la Tesla,car names from brands are Masculine,les noms de voitures des marques sont Masculins
+338,24,_____ Citroen,der,der Citroen,the Citroen,la Citroën,car names from brands are Masculine,les noms de voitures des marques sont Masculins
+339,21,_____ Subaru,der,der Subaru,the Subaru,la Subaru,car names from brands are Masculine,les noms de voitures des marques sont Masculins
+340,22,_____ Stein,der,der Stein,the stone,la pierre,stones are usually Masculine,les pierres sont généralement Masculines
+341,23,_____ Diamant,der,der Diamant,the diamond,le diamant,stones are usually Masculine,les pierres sont généralement Masculines
+342,24,_____ Saphir,der,der Saphir,the sapphire,le saphir,stones are usually Masculine,les pierres sont généralement Masculines
+343,21,_____ Lapislazuli,der,der Lapislazuli,the lapis lazuli,le lapis-lazuli,stones are usually Masculine,les pierres sont généralement Masculines
+344,22,_____ Fels,der,der Fels,the rock,le rocher,stones are usually Masculine,les pierres sont généralement Masculines
+345,23,_____ Stern,der,der Stern,the star,la star,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+346,24,_____ Mond,der,der Mond,the moon,la lune,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+347,21,_____ Asteroid,der,der Asteroid,the asteroid,l'astéroïde,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+348,22,_____ Komet,der,der Komet,the comet,la comète,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+349,23,_____ Planet,der,der Planet,the planet,la planète,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+350,24,_____ Euro,der,der Euro,the euro,l'euro,currencies are usually Masculine,les devises sont généralement Masculines
+351,21,_____ Dollar,der,der Dollar,the dollar,le dollar,currencies are usually Masculine,les devises sont généralement Masculines
+352,22,_____ Schilling,der,der Schilling,the shilling,le shilling,currencies are usually Masculine,les devises sont généralement Masculines
+353,23,_____ Franken,der,der Franken,the frank,le franc,currencies are usually Masculine,les devises sont généralement Masculines
+354,24,_____ Pfennig,der,der Pfennig,the penny,le sou,currencies are usually Masculine,les devises sont généralement Masculines
+355,21,_____ Kapitalismus,der,der Kapitalismus,the capitalism,le capitalisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
+356,22,_____ Kommunismus,der,der Kommunismus,the communism,le communisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
+357,23,_____ Sozialismus,der,der Sozialismus,the socialism,le socialisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
+358,24,_____ Realismus,der,der Realismus,the realism,le réalisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
+359,21,_____ Tourismus,der,der Tourismus,the tourism,le tourisme,nouns finishing in -ismus are Masculine,les noms se terminant par -ismus sont Masculins
+360,22,_____ Lehrling,der,der Lehrling,the apprentice,l'apprenti,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
+361,23,_____ Flüchtling,der,der Flüchtling,the refugee,le réfugié,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
+362,24,_____ Schmetterling,der,der Schmetterling,the butterfly,le papillon,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
+363,21,_____ Zwilling,der,der Zwilling,the twin,le jumeau,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
+364,22,_____ Feigling,der,der Feigling,the coward,le lâche,nouns finishing in -ling are Masculine,les noms se terminant par -ling sont Masculins
+365,23,_____ Kontrast,der,der Kontrast,the contrast,le contraste,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
+366,24,_____ Dynast,der,der Dynast,the dynast,la dynastie,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
+367,21,_____ Fast,der,der Fast,the fast,le jeûne,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
+368,22,_____ Gymnast,der,der Gymnast,the gymnast,la gymnaste,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
+369,23,_____ Enthusiast,der,der Enthusiast,the enthusiast,l'enthousiaste,nouns finishing in -ast are Masculine,les noms se terminant par -ast sont Masculins
+370,24,_____ Eins,die,die Eins,the one,le un,numbers are Feminine,les nombres sont Féminins
+371,21,_____ Zwei,die,die Zwei,the two,le deux,numbers are Feminine,les nombres sont Féminins
+372,22,_____ Drei,die,die Drei,the three,le trois,numbers are Feminine,les nombres sont Féminins
+373,23,_____ Vier,die,die Vier,the four,le quatre,numbers are Feminine,les nombres sont Féminins
+374,24,_____ Million,die,die Million,the million,le million,numbers are Feminine,les nombres sont Féminins
+375,21,_____ Milliarde,die,die Milliarde,the billion,le milliard,numbers are Feminine,les nombres sont Féminins
+376,22,_____ Dekade,die,die Dekade,the decade,la décennie,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
+377,23,_____ Blockade,die,die Blockade,the blockade,le blocus,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
+378,24,_____ Limonade,die,die Limonade,the lemonade,la limonade,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
+379,21,_____ Schokolade,die,die Schokolade,the chocolate,le chocolat,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
+380,22,_____ Parade,die,die Parade,the parade,le défilé,nouns finishing in -ade are Feminine,les noms se terminant par -ade sont Féminins
+381,23,_____ Perspektive,die,die Perspektive,the perspective,la perspective,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
+382,24,_____ Initiative,die,die Initiative,the initiative,l'initiative,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
+383,21,_____ Alternative,die,die Alternative,the alternative,l'alternative,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
+384,22,_____ Offensive,die,die Offensive,the offensive,l'offensive,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
+385,23,_____ Defensive,die,die Defensive,the defense,la défense,nouns finishing in -ive are Feminine,les noms se terminant par -ive sont Féminins
+386,24,_____ Intelligenz,die,die Intelligenz,the intelligence,l'intelligence,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
+387,21,_____ Tendenz,die,die Tendenz,the tendency,la tendance,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
+388,22,_____ Existenz,die,die Existenz,the existence,l'existence,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
+389,23,_____ Konkurrenz,die,die Konkurrenz,the competition,la compétition,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
+390,24,_____ Frequenz,die,die Frequenz,the frequency,la fréquence,nouns finishing in -enz are Feminine,les noms se terminant par -enz sont Féminins
+391,21,_____ Arroganz,die,die Arroganz,the arrogance,l'arrogance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
+392,22,_____ Distanz,die,die Distanz,the distance,la distance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
+393,23,_____ Toleranz,die,die Toleranz,the tolerance,la tolérance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
+394,24,_____ Eleganz,die,die Eleganz,the elegance,l'élégance,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
+395,21,_____ Relevanz,die,die Relevanz,the relevance,la pertinence,nouns finishing in -anz are Feminine,les noms se terminant par -anz sont Féminins
+396,22,_____ Analysis,die,die Analysis,the analysis,l'analyse,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
+397,23,_____ Basis,die,die Basis,the base,la base,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
+398,24,_____ Thesis,die,die Thesis,the thesis,la thèse,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
+399,21,_____ Dosis,die,die Dosis,the dose,la dose,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
+400,22,_____ Psychosis,die,die Psychosis,the psychosis,la psychose,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
+401,23,_____ Krieg,die,die Krieg,the war,la guerre,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+402,24,_____ Waffe,die,die Waffe,the weapon,l'arme,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+403,21,_____ Kugel,die,die Kugel,the ball,la balle,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+404,22,_____ Armee,die,die Armee,the army,l'armée,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+405,23,_____ Schlacht,die,die Schlacht,the battle,la bataille,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+406,24,_____ Gute,das,das Gute,the good,le bien,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
+407,21,_____ Böse,das,das Böse,the evil,le mal,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
+408,22,_____ Neue,das,das Neue,the new,le nouveau,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
+409,23,_____ Blau,das,das Blau,the blue,le bleu,colors are Neuter,les couleurs sont Neutres
+410,24,_____ Gelb,das,das Gelb,the yellow,le jaune,colors are Neuter,les couleurs sont Neutres
+411,21,_____ Rot,das,das Rot,the red,le rouge,colors are Neuter,les couleurs sont Neutres
+412,22,_____ Grün,das,das Grün,the green,le vert,colors are Neuter,les couleurs sont Neutres
+413,23,_____ Schwarz,das,das Schwarz,the black,le noir,colors are Neuter,les couleurs sont Neutres
+414,24,_____ Ganges,der,der Ganges,the Ganges,le Gange,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+415,21,_____ Nil,der,der Nil,the Nile,le Nil,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+416,22,_____ Amazonas,der,der Amazonas,the Amazon river,l'Amazone,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+417,23,_____ Volga,der,der Volga,the Volga,la Volga,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+418,24,_____ Po,der,der Po,the Po river,le Pô,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+419,21,_____ Mont Blanc,der,der Mont Blanc,the Mont Blanc,le Mont Blanc,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+420,22,_____ Mount Everest,der,der Mount Everest,Mount Everest,le Mont Everest,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+421,23,_____ Himalaya,der,der Himalaya,the Himalayas,l'Himalaya,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+422,24,_____ Aconcagua,der,der Aconcagua,the Aconcagua,l'Aconcagua,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+423,21,_____ Elbe,die,die Elbe,the Elbe,l'Elbe,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+424,22,_____ Donau,die,die Donau,the Danube,le Danube,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+425,23,_____ Weser,die,die Weser,the Weser,le Weser,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+426,24,_____ Oder,die,die Oder,the Oder,l'Oder,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+427,21,"_____ ""Hilton""",das,"das ""Hilton""","the ""Hilton""",le « Hilton »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+428,22,"_____ ""Kranzler""",das,"das ""Kranzler""","the ""Kranzler""",le « Kranzler »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+429,23,"_____ ""Kapitol""",das,"das ""Kapitol""","the ""Capitol""",le « Capitole »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+430,24,"_____ ""Roxy""",das,"das ""Roxy""","the ""Roxy""",le « Roxy »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+431,25,_____ Sonne,die,die Sonne,the sun,le soleil,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+432,25,_____ Mark,die,die Mark,the Mark,le Mark,currencies are usually Masculine,les devises sont généralement Masculines
+433,25,_____ Pfund,das,das Pfund,the pound,la livre,currencies are usually Masculine,les devises sont généralement Masculines
+434,25,_____ Krone,die,die Krone,the crown,la couronne,currencies are usually Masculine,les devises sont généralement Masculines
+435,25,_____ Loire,die,die Loire,the Loire,la Loire,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+436,25,_____ Themse,die,die Themse,the Thames,la Tamise,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+437,25,_____ Rhein,der,der Rhein,the Rhine,le Rhin,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+438,25,_____ Main,der,der Main,the Main,le Main,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
