@@ -1,3 +1,5 @@
+# EXERCISE PAGE
+
 EXERCISE_TITLE = {
     'english': 'Exercise',
     'french': 'Exercice',
@@ -41,4 +43,11 @@ ADDITIONAL_HELP = {
 CONSULT_FAQ = {
     'english': 'For additional support consult the <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a> or send me an email at sieversstudyhall@gmail.com',
     'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq-8cc" target="_blank">FAQ</a> ou envoyez moi un email à sieversstudyhall@gmail.com'
+}
+
+# HOME PAGE
+
+META_DESCRIPTION = {
+    'english': 'Practice German with interactive exercises. Improve your grammar and get instantaneous feedback, for free.',
+    'french': 'Pratiquez l’allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.',
 }

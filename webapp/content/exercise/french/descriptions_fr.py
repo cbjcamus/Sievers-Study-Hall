@@ -456,8 +456,8 @@ DESCRIPTION_FR = {
 
         27: "Déclinations d'Adjectifs à la suite d'Articles singuliers <i>etwas</i>, <i>viel</i>, <i>mehr</i>, en isolation",
         28: "Déclinations d'Adjectifs à la suite d'Articles singuliers <i>etwas</i>, <i>viel</i>, <i>mehr</i>, en contexte",
-        29: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i>, <i>viele</i>, en isolation",
-        30: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i>, <i>viele</i>, en contexte",
+        29: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i>, <i>viele</i>, et Articles numéraux, en isolation",
+        30: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i>, <i>viele</i>, et Articles numéraux, en contexte",
     },
 
     adjektive_konjunktionen: {

@@ -20,11 +20,12 @@ from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
+from webapp.content.unit.home_description import HOME_DESCRIPTION
 from webapp.content.unit.french.home_description_fr import HOME_DESCRIPTION_FR
 from webapp.content.unit.english.home_description_en import HOME_DESCRIPTION_EN
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
-from webapp.content.application.exercise_page import YOUR_ANSWER
+from webapp.content.application.text import YOUR_ANSWER, META_DESCRIPTION
 from webapp.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from webapp.style.icons import STAR_GOLD
@@ -37,10 +38,8 @@ def home():
 
     language = get_language(request, session)
 
-    if language == 'english':
-        home_description = HOME_DESCRIPTION_EN
-    elif language == 'french':
-        home_description = HOME_DESCRIPTION_FR
+    home_description = HOME_DESCRIPTION[language]
+    meta_description = META_DESCRIPTION[language]
 
     if not isinstance(session.get('progress'), dict):
         session['progress'] = {}
@@ -61,6 +60,7 @@ def home():
                            completed_exercises=progress,
                            highest_exercise=highest_exercise,
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
+                           meta_description=meta_description,
                            )
 
 
@@ -141,6 +141,7 @@ for unit in units:
         def dynamic_route():
             language = get_language(request, session)
             introduction = INTRODUCTION[language].get(unit, {})
+            meta_description = META_DESCRIPTION[language].get(unit, {})
 
             update_progress_in_session(session, unit)
 
@@ -151,6 +152,7 @@ for unit in units:
                                    introduction=introduction,
                                    description_templates=DESCRIPTION[language],
                                    homepage=HOMEPAGE[language],
+                                   meta_description=meta_description,
                                    )
         return dynamic_route
 
@@ -165,27 +167,29 @@ def robots_txt():
     )
 
 
-@routes_bp.route('/sitemap.xml')
-def sitemap():
-    from flask import Response, url_for
-    import datetime
+from flask import Response, url_for, render_template
+from werkzeug.routing import BuildError
+import datetime
 
+@routes_bp.route("/sitemap.xml")
+def sitemap():
     pages = []
     today = datetime.date.today().isoformat()
 
-    # Static routes
-    pages.append({'loc': url_for('home', _external=True), 'lastmod': today})
-    pages.append({'loc': url_for('settings', _external=True), 'lastmod': today})
-    pages.append({'loc': url_for('contact', _external=True), 'lastmod': today})
-
-    # Dynamic unit routes
-    for unit in units:
-        endpoint = f'dynamic_route_{unit}'
+    def add(endpoint: str):
         try:
-            loc = url_for(endpoint, _external=True)
-            pages.append({'loc': loc, 'lastmod': today})
-        except:
-            pass  # In case the endpoint wasn't properly registered
+            pages.append({"loc": url_for(endpoint, _external=True), "lastmod": today})
+        except BuildError:
+            pass
 
-    sitemap_xml = render_template('sitemap_template.xml', pages=pages)
-    return Response(sitemap_xml, mimetype='application/xml')
+    # IMPORTANT: if these routes are on a blueprint, you likely need the blueprint prefix.
+    # Example: "routes_bp.home" or "menu.home" depending on how you named/registered it.
+    add("home")
+    add("settings")
+    add("about")
+
+    for unit in units:
+        add(f"dynamic_route_{unit}")  # or add(f"routes_bp.dynamic_route_{unit}") if blueprint-prefixed
+
+    sitemap_xml = render_template("sitemap_template.xml", pages=pages)
+    return Response(sitemap_xml, mimetype="application/xml")

@@ -29,7 +29,7 @@ from users.session_management.verification_session import init_session_key
 from webapp.i18n import get_language
 
 from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH, NEXT_EXERCISE)
-from webapp.content.application.exercise_page import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
+from webapp.content.application.text import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
     YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
     ADDITIONAL_HELP, CONSULT_FAQ
 

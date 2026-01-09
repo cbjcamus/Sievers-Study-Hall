@@ -40,6 +40,13 @@
         icon_empty=icon_empty,
     ) }}
 
+    <div class="next-exercise-button-container">
+        <a href="{{ '/guidance/unit/{}/exercise/{}'.format(unit, next_exercise) if next_exercise is not none else unit_page.get(unit, '/') }}"
+           class="next-exercise-button">
+            {{ next_exercise_text }} →
+        </a>
+    </div>
+
     {% if number_of_incorrect_answers > 0 %}
         <p>{{ your_incorrect_answers }}</p>
 
@@ -49,15 +56,7 @@
                 <p>{{ your_answer }} {{ incorrect_answers[i] | safe }} {{ incorrect_questions[i] | safe }}</p>
             </div>
         {% endfor %}
-
     {% endif %}
-
-    <div class="next-exercise-button-container">
-        <a href="{{ '/guidance/unit/{}/exercise/{}'.format(unit, next_exercise) if next_exercise is not none else unit_page.get(unit, '/') }}"
-           class="next-exercise-button">
-            {{ next_exercise_text }} →
-        </a>
-    </div>
 
     <div>
         <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">

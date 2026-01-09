@@ -4,30 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="adjektive update">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="next exercise button + adjektivdeklinationen + genus">
+      <change afterPath="$PROJECT_DIR$/webapp/content/unit/english/meta_description_en.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/content/unit/french/meta_description_fr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/content/unit/home_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/content/unit/meta_description.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/adjektive/adjektivdeklinationen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus_routledge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_routledge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/konnektoren.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_grammatik.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/progress/progress.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/progress.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/questions/pick_a_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/pick_a_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/application/buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/application/buttons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/feedbacks_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/english/introduction_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/english/introduction_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/content/unit/french/introduction_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/unit/french/introduction_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/application/exercise_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/application/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/descriptions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/descriptions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/french/descriptions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/french/descriptions_fr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/routes/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/static/css/exercise.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/exercise.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_multiple_choice.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_multiple_choice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback_input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback_multiple_choice.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback_multiple_choice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/adjektive/adjektivdeklinationen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/adjektive/adjektivdeklinationen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/adjektive/adjektive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/adjektive/adjektive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/units/adjektive/adjektive_konjunktionen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/adjektive/adjektive_konjunktionen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/genus/genus_goethe.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/genus/genus_goethe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/genus/genus_regeln.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/genus/genus_regeln.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/units/genus/genus_routledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/genus/genus_routledge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/grammatik/adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/grammatik/adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/grammatik/artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/grammatik/artikel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/grammatik/fragen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/grammatik/fragen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/grammatik/konnektoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/grammatik/konnektoren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/grammatik/pronomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/grammatik/pronomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/grammatik/wortstellung.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/grammatik/wortstellung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/imperativ.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/imperativ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/konjunktiv_I.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/konjunktiv_I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/konjunktiv_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/konjunktiv_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/partizip_I.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/partizip_I.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/partizip_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/partizip_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/praesens.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/praesens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/praeteritum.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/praeteritum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/konjugation/praeteritum_partizip_II.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/konjugation/praeteritum_partizip_II.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_adjektive.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_adjektive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_adverbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_adverbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_artikel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_grammatik.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_grammatik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_nomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_nomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/praepositionen/praepositionen_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/verben/nomen_verben_verbindungen.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/verben/nomen_verben_verbindungen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/verben/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/verben/trennbare_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/verben/verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/verben/verben.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -122,16 +142,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/templates/units/adjektive",
+    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/content/unit/french",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webapp/templates/units/adjektive" />
       <recent name="$PROJECT_DIR$/webapp/content/unit/french" />
       <recent name="$PROJECT_DIR$/webapp/content/unit/english" />
+      <recent name="$PROJECT_DIR$/webapp/templates/units/adjektive" />
       <recent name="$PROJECT_DIR$/webapp/templates/menu" />
       <recent name="$PROJECT_DIR$/webapp/templates/units/genus" />
     </key>
@@ -182,30 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00113" summary="forgot password">
-      <option name="closed" value="true" />
-      <created>1759053974955</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1759053974956</updated>
-    </task>
-    <task id="LOCAL-00114" summary="forgot password">
-      <option name="closed" value="true" />
-      <created>1759054838151</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1759054838151</updated>
-    </task>
-    <task id="LOCAL-00115" summary="forgot password">
-      <option name="closed" value="true" />
-      <created>1759055353296</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1759055353296</updated>
     </task>
     <task id="LOCAL-00116" summary="forgot password">
       <option name="closed" value="true" />
@@ -575,7 +571,31 @@
       <option name="project" value="LOCAL" />
       <updated>1767811181102</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="next exercise button + adjektivdeklinationen + genus">
+      <option name="closed" value="true" />
+      <created>1767891485198</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1767891485198</updated>
+    </task>
+    <task id="LOCAL-00163" summary="next exercise button + adjektivdeklinationen + genus">
+      <option name="closed" value="true" />
+      <created>1767891589067</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1767891589067</updated>
+    </task>
+    <task id="LOCAL-00164" summary="next exercise button + adjektivdeklinationen + genus">
+      <option name="closed" value="true" />
+      <created>1767893558172</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1767893558172</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -591,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update score" />
     <MESSAGE value="forgot password" />
     <MESSAGE value="Artikel – Genus" />
     <MESSAGE value="Artikel – Genus levels" />
@@ -616,7 +635,8 @@
     <MESSAGE value="small update" />
     <MESSAGE value="home page" />
     <MESSAGE value="adjektive update" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjektive update" />
+    <MESSAGE value="next exercise button + adjektivdeklinationen + genus" />
+    <option name="LAST_COMMIT_MESSAGE" value="next exercise button + adjektivdeklinationen + genus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

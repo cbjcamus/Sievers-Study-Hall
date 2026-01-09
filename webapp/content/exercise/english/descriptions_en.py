@@ -456,8 +456,8 @@ DESCRIPTION_EN = {
 
         27: "Adjective Declensions of Singular Articles <i>etwas</i>, <i>viel</i>, <i>mehr</i>, in isolation",
         28: "Adjective Declensions of Singular Articles <i>etwas</i>, <i>viel</i>, <i>mehr</i>, in sentences",
-        29: "Adjective Declensions of Plural Articles <i>alle</i>, <i>viele</i>, in isolation",
-        30: "Adjective Declensions of Plural Articles <i>alle</i>, <i>viele</i>, in sentences",
+        29: "Adjective Declensions of Plural Articles <i>alle</i>, <i>viele</i>, and Numeral Articles, in isolation",
+        30: "Adjective Declensions of Plural Articles <i>alle</i>, <i>viele</i>, and Numeral Articles, in sentences",
     },
 
     adjektive_konjunktionen: {

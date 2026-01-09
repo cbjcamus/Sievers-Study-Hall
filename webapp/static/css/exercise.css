@@ -670,7 +670,7 @@ body.day-mode .back-button {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
     width: auto; /* Dynamic width */
     min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
     max-width: 300px; /* Prevents it from being too wide */
@@ -693,5 +693,5 @@ body.day-mode .next-exercise-button {
     display: flex;
     justify-content: center;
     margin-top: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
