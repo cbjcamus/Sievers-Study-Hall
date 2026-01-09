@@ -184,12 +184,12 @@ def sitemap():
 
     # IMPORTANT: if these routes are on a blueprint, you likely need the blueprint prefix.
     # Example: "routes_bp.home" or "menu.home" depending on how you named/registered it.
-    add("home")
-    add("settings")
-    add("about")
+    add("routes_bp.home")
+    add("routes_bp.settings")
+    add("routes_bp.contact")
 
     for unit in units:
-        add(f"dynamic_route_{unit}")  # or add(f"routes_bp.dynamic_route_{unit}") if blueprint-prefixed
+        add(f"routes_bp.dynamic_route_{unit}")
 
     sitemap_xml = render_template("sitemap_template.xml", pages=pages)
     return Response(sitemap_xml, mimetype="application/xml")
