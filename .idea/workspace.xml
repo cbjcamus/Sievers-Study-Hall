@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update meta" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update meta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/application/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/application/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Artikel – Genus levels">
-      <option name="closed" value="true" />
-      <created>1759395560786</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1759395560787</updated>
     </task>
     <task id="LOCAL-00119" summary="Artikel – Genus update exercises">
       <option name="closed" value="true" />
@@ -551,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767956924296</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="update meta">
+      <option name="closed" value="true" />
+      <created>1767957244393</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1767957244393</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

@@ -141,7 +141,7 @@ for unit in units:
         def dynamic_route():
             language = get_language(request, session)
             introduction = INTRODUCTION[language].get(unit, {})
-            meta_description = META_DESCRIPTION[language].get(unit, {})
+            meta_description = META_DESCRIPTION[language]
 
             update_progress_in_session(session, unit)
 
