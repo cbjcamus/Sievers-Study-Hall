@@ -175,7 +175,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 174,12,_____ Norden,der,der Norden,the north,le nord,cardinal directions are Masculine,les points cardinaux sont Masculins
 175,13,_____ Süden,der,der Süden,the south,le sud,cardinal directions are Masculine,les points cardinaux sont Masculins
 176,14,_____ Osten,der,der Osten,the East,l'Est,cardinal directions are Masculine,les points cardinaux sont Masculins
-177,11,_____ Westen,der,der Westen,the West,l'Ouest,cardinal directions are Masculine,les points cardinaux sont Masculins
+177,11,_____ Westen,der,der Westen,The West,L'Ouest,cardinal directions are Masculine,les points cardinaux sont Masculins
 178,12,_____ König,der,der König,the king,le roi,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
 179,13,_____ Honig,der,der Honig,the honey,le miel,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
 180,14,_____ Essig,der,der Essig,the vinegar,le vinaigre,nouns finishing in -ig are Masculine ,les noms se terminant par -ig sont Masculins
@@ -222,9 +222,9 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 221,11,_____ Polizei,die,die Polizei,the police,la police,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
 222,12,_____ Partei,die,die Partei,the party,la fête,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
 223,13,_____ Schreiberei,die,die Schreiberei,the writing,l'écriture,nouns finishing in -ei are Feminine,les noms se terminant par -ei sont Féminins
-224,14,_____ Leben,das,das Leben,the life,la vie,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
-225,11,_____ Essen,das,das Essen,the food,la nourriture,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
-226,12,_____ Lernen,das,das Lernen,the learning,l'apprentissage,verbs as nouns finishing in -en are Neuter,les verbes utilisés comme noms et se terminant par -en sont Neutres
+224,14,_____ Leben,das,das Leben,the life,la vie,nouns formed from verb stems that end in -en are usually Neuter,les noms formés à partir de racines verbales se terminant par -en sont généralement neutres
+225,11,_____ Essen,das,das Essen,the food,la nourriture,nouns formed from verb stems that end in -en are usually Neuter,les noms formés à partir de racines verbales se terminant par -en sont généralement neutres
+226,12,_____ Lernen,das,das Lernen,the learning,l'apprentissage,nouns formed from verb stems that end in -en are usually Neuter,les noms formés à partir de racines verbales se terminant par -en sont généralement neutres
 227,13,_____ Studium,das,das Studium,the study,l'étude,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
 228,14,_____ Zentrum,das,das Zentrum,the center,le centre,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
 229,11,_____ Datum,das,das Datum,the date,la date,nouns finishing in -um are Neuter,les noms se terminant par -um sont Neutres
@@ -271,11 +271,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 270,16,_____ Amateur,der,der Amateur,the amateur,l'amateur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
 271,17,_____ Regisseur,der,der Regisseur,the director,le directeur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
 272,18,_____ Jongleur,der,der Jongleur,the juggler,le jongleur,nouns finishing in -eur are Masculine,les noms se terminant par -eur sont Masculins
-273,19,_____ Schlaf,der,der Schlaf,the sleep,le sommeil,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-274,16,_____ Lauf,der,der Lauf,the run,la course,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-275,17,_____ Ruf,der,der Ruf,the reputation,la réputation,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-276,18,_____ Wurf,der,der Wurf,the throw,le lancer,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
-277,19,_____ Kampf,der,der Kampf,the fight,le combat,nouns coming from verbs not finishing in -en or -t are usually Masculine,les noms dérivés de verbes ne se terminant pas par -en ou -t sont généralement Masculins
+273,19,_____ Schlaf,der,der Schlaf,the sleep,le sommeil,nouns formed from verb stems that do not end in -en or -t are usually masculine,les noms formés à partir de racines verbales qui ne se terminent pas par -en ou -t sont généralement masculins
+274,16,_____ Lauf,der,der Lauf,the run,la course,nouns formed from verb stems that do not end in -en or -t are usually masculine,les noms formés à partir de racines verbales qui ne se terminent pas par -en ou -t sont généralement masculins
+275,17,_____ Ruf,der,der Ruf,the reputation,la réputation,nouns formed from verb stems that do not end in -en or -t are usually masculine,les noms formés à partir de racines verbales qui ne se terminent pas par -en ou -t sont généralement masculins
+276,18,_____ Wurf,der,der Wurf,the throw,le lancer,nouns formed from verb stems that do not end in -en or -t are usually masculine,les noms formés à partir de racines verbales qui ne se terminent pas par -en ou -t sont généralement masculins
+277,19,_____ Kampf,der,der Kampf,the fight,le combat,nouns formed from verb stems that do not end in -en or -t are usually masculine,les noms formés à partir de racines verbales qui ne se terminent pas par -en ou -t sont généralement masculins
 278,16,_____ Etikette,die,die Etikette,the etiquette,l'étiquette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
 279,17,_____ Zigarette,die,die Zigarette,the cigarette,la cigarette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
 280,18,_____ Vignette,die,die Vignette,the vignette,la vignette,nouns finishing in -ette are Feminine,les noms se terminant par -ette sont Féminins
@@ -295,11 +295,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 294,16,_____ Lawine,die,die Lawine,the avalanche,l'avalanche,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
 295,17,_____ Maschine,die,die Maschine,the machine,la machine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
 296,18,_____ Marine,die,die Marine,the navy,la marine,nouns finishing in -ine are Feminine,les noms se terminant par -ine sont Féminins
-297,19,_____ Fahrt,die,die Fahrt,the ride,le trajet,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-298,16,_____ Tat,die,die Tat,the act,la loi,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-299,17,_____ Sicht,die,die Sicht,the view,la vue,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-300,18,_____ Schlacht,die,die Schlacht,the battle,la bataille,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
-301,19,_____ Arbeit,die,die Arbeit,the work,le travail,verbs as nouns finishing in -t are usually Feminine,les verbes utilisés comme noms et se terminant par -t sont généralement Féminins
+297,19,_____ Fahrt,die,die Fahrt,the ride,le trajet,nouns formed from verb stems that end in -t are usually feminine,les noms formés à partir de racines verbales se terminant par -t sont généralement féminins
+298,16,_____ Tat,die,die Tat,the act,la loi,nouns formed from verb stems that end in -t are usually feminine,les noms formés à partir de racines verbales se terminant par -t sont généralement féminins
+299,17,_____ Sicht,die,die Sicht,the view,la vue,nouns formed from verb stems that end in -t are usually feminine,les noms formés à partir de racines verbales se terminant par -t sont généralement féminins
+300,18,_____ Schlacht,die,die Schlacht,the battle,la bataille,nouns formed from verb stems that end in -t are usually feminine,les noms formés à partir de racines verbales se terminant par -t sont généralement féminins
+301,19,_____ Arbeit,die,die Arbeit,the work,le travail,nouns formed from verb stems that end in -t are usually feminine,les noms formés à partir de racines verbales se terminant par -t sont généralement féminins
 302,16,_____ Glas,das,das Glas,the glass,le verre,materials are usually Neuter,les matériaux sont généralement Neutres
 303,17,_____ Gold,das,das Gold,the gold,l'or,materials are usually Neuter,les matériaux sont généralement Neutres
 304,18,_____ Silber,das,das Silber,the silver,l'argent,materials are usually Neuter,les matériaux sont généralement Neutres
@@ -402,41 +402,41 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 401,24,_____ Thesis,die,die Thesis,the thesis,la thèse,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
 402,21,_____ Dosis,die,die Dosis,the dose,la dose,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
 403,22,_____ Psychosis,die,die Psychosis,the psychosis,la psychose,nouns finishing in -sis are Feminine,les noms se terminant par -sis sont Féminins
-404,23,_____ Krieg,die,die Krieg,the war,la guerre,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-405,24,_____ Waffe,die,die Waffe,the weapon,l'arme,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-406,21,_____ Kugel,die,die Kugel,the ball,la balle,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-407,22,_____ Armee,die,die Armee,the army,l'armée,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-408,23,_____ Schlacht,die,die Schlacht,the battle,la bataille,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
-409,24,_____ Gute,das,das Gute,the good,le bien,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
-410,21,_____ Böse,das,das Böse,the evil,le mal,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
-411,22,_____ Neue,das,das Neue,the new,le nouveau,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
-412,23,_____ Blau,das,das Blau,the blue,le bleu,colors are Neuter,les couleurs sont Neutres
-413,24,_____ Gelb,das,das Gelb,the yellow,le jaune,colors are Neuter,les couleurs sont Neutres
-414,21,_____ Rot,das,das Rot,the red,le rouge,colors are Neuter,les couleurs sont Neutres
-415,22,_____ Grün,das,das Grün,the green,le vert,colors are Neuter,les couleurs sont Neutres
-416,23,_____ Schwarz,das,das Schwarz,the black,le noir,colors are Neuter,les couleurs sont Neutres
-417,24,_____ Ganges,der,der Ganges,the Ganges,le Gange,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-418,21,_____ Nil,der,der Nil,the Nile,le Nil,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-419,22,_____ Amazonas,der,der Amazonas,the Amazon river,l'Amazone,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-420,23,_____ Volga,der,der Volga,the Volga,la Volga,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-421,24,_____ Po,der,der Po,the Po river,le Pô,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-422,21,_____ Mont Blanc,der,der Mont Blanc,the Mont Blanc,le Mont Blanc,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-423,22,_____ Mount Everest,der,der Mount Everest,Mount Everest,le Mont Everest,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-424,23,_____ Himalaya,der,der Himalaya,the Himalayas,l'Himalaya,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-425,24,_____ Aconcagua,der,der Aconcagua,the Aconcagua,l'Aconcagua,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
-426,21,_____ Elbe,die,die Elbe,the Elbe,l'Elbe,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-427,22,_____ Donau,die,die Donau,the Danube,le Danube,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-428,23,_____ Weser,die,die Weser,the Weser,le Weser,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-429,24,_____ Oder,die,die Oder,the Oder,l'Oder,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-430,21,"_____ ""Hilton""",das,"das ""Hilton""","the ""Hilton""",le « Hilton »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-431,22,"_____ ""Kranzler""",das,"das ""Kranzler""","the ""Kranzler""",le « Kranzler »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-432,23,"_____ ""Kapitol""",das,"das ""Kapitol""","the ""Capitol""",le « Capitole »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-433,24,"_____ ""Roxy""",das,"das ""Roxy""","the ""Roxy""",le « Roxy »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
-434,25,_____ Sonne,die,die Sonne,the sun,le soleil,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-435,25,_____ Mark,die,die Mark,the Mark,le Mark,currencies are usually Masculine,les devises sont généralement Masculines
-436,25,_____ Pfund,das,das Pfund,the pound,la livre,currencies are usually Masculine,les devises sont généralement Masculines
-437,25,_____ Krone,die,die Krone,the crown,la couronne,currencies are usually Masculine,les devises sont généralement Masculines
-438,25,_____ Loire,die,die Loire,the Loire,la Loire,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-439,25,_____ Themse,die,die Themse,the Thames,la Tamise,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-440,25,_____ Rhein,der,der Rhein,the Rhine,le Rhin,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-441,25,_____ Main,der,der Main,the Main,le Main,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+404,23,_____ Waffe,die,die Waffe,the weapon,l'arme,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+405,24,_____ Kugel,die,die Kugel,the ball,la balle,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+406,21,_____ Armee,die,die Armee,the army,l'armée,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+407,22,_____ Schlacht,die,die Schlacht,the battle,la bataille,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins
+408,23,_____ Gute,das,das Gute,the good,le bien,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
+409,24,_____ Böse,das,das Böse,the evil,le mal,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
+410,21,_____ Neue,das,das Neue,the new,le nouveau,abstract adjectives as nouns are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
+411,22,_____ Blau,das,das Blau,the blue,le bleu,colors are Neuter,les couleurs sont Neutres
+412,23,_____ Gelb,das,das Gelb,the yellow,le jaune,colors are Neuter,les couleurs sont Neutres
+413,24,_____ Rot,das,das Rot,the red,le rouge,colors are Neuter,les couleurs sont Neutres
+414,21,_____ Grün,das,das Grün,the green,le vert,colors are Neuter,les couleurs sont Neutres
+415,22,_____ Schwarz,das,das Schwarz,the black,le noir,colors are Neuter,les couleurs sont Neutres
+416,23,_____ Ganges,der,der Ganges,the Ganges,le Gange,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+417,24,_____ Nil,der,der Nil,the Nile,le Nil,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+418,21,_____ Amazonas,der,der Amazonas,the Amazon river,l'Amazone,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+419,22,_____ Volga,der,der Volga,the Volga,la Volga,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+420,23,_____ Po,der,der Po,the Po river,le Pô,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+421,24,_____ Mont Blanc,der,der Mont Blanc,the Mont Blanc,le Mont Blanc,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+422,21,_____ Mount Everest,der,der Mount Everest,Mount Everest,le Mont Everest,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+423,22,_____ Himalaya,der,der Himalaya,the Himalayas,l'Himalaya,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+424,23,_____ Aconcagua,der,der Aconcagua,the Aconcagua,l'Aconcagua,mountains and mountain ranges are usually Masculine,les montagnes sont généralement Masculines
+425,24,_____ Elbe,die,die Elbe,the Elbe,l'Elbe,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+426,21,_____ Donau,die,die Donau,the Danube,le Danube,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+427,22,_____ Weser,die,die Weser,the Weser,le Weser,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+428,23,_____ Oder,die,die Oder,the Oder,l'Oder,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+429,24,"_____ ""Hilton""",das,"das ""Hilton""","the ""Hilton""",le « Hilton »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+430,21,"_____ ""Kranzler""",das,"das ""Kranzler""","the ""Kranzler""",le « Kranzler »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+431,22,"_____ ""Kapitol""",das,"das ""Kapitol""","the ""Capitol""",le « Capitole »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+432,23,"_____ ""Roxy""",das,"das ""Roxy""","the ""Roxy""",le « Roxy »,"hotels, cafés, restaurants and cinemas are Neuter","les hotels, les cafés, les restaurant et les cinémas sont Neutres"
+433,25,_____ Sonne,die,die Sonne,the sun,le soleil,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+434,25,_____ Mark,die,die Mark,the Mark,le Mark,currencies are usually Masculine,les devises sont généralement Masculines
+435,25,_____ Pfund,das,das Pfund,the pound,la livre,currencies are usually Masculine,les devises sont généralement Masculines
+436,25,_____ Krone,die,die Krone,the crown,la couronne,currencies are usually Masculine,les devises sont généralement Masculines
+437,25,_____ Loire,die,die Loire,the Loire,la Loire,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+438,25,_____ Themse,die,die Themse,the Thames,la Tamise,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+439,25,_____ Rhein,der,der Rhein,the Rhine,le Rhin,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+440,25,_____ Main,der,der Main,the Main,le Main,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+441,25,_____ Krieg,der,der Krieg,the war,la guerre,nouns in the context of war are usually Feminine,les noms dans le contexte de la guerre sont généralement Féminins

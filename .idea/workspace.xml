@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update January 17th">
-      <change beforePath="$PROJECT_DIR$/webapp/templates/macros/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/units/verben/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/verben/trennbare_verben.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/grammatik/artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/grammatik/artikel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/content/exercise/english/guidance_exercise_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/content/exercise/english/guidance_exercise_en.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,22 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00122" summary="flagged questions">
-      <option name="closed" value="true" />
-      <created>1761121462514</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1761121462515</updated>
-    </task>
-    <task id="LOCAL-00123" summary="praepositionen nomen">
-      <option name="closed" value="true" />
-      <created>1761122388843</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1761122388843</updated>
     </task>
     <task id="LOCAL-00124" summary="update november 2nd">
       <option name="closed" value="true" />
@@ -554,7 +540,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768639360535</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="update January 17th">
+      <option name="closed" value="true" />
+      <created>1768639670066</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1768639670066</updated>
+    </task>
+    <task id="LOCAL-00172" summary="update January 17th">
+      <option name="closed" value="true" />
+      <created>1768639802100</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1768639802101</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
