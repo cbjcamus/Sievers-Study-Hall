@@ -3,7 +3,7 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
+    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
 )
@@ -29,6 +29,7 @@ HOME_DESCRIPTION_EN = {
     verben: "Translations of German Verbs",
     trennbare_verben: "Separable and Inseparable Verbs",
     nomen_verben_verbindungen:"Noun-Verb Combinations",
+    nomen_verben_wortstaemme: "Noun-Verb Pairs with the same etymological root",
 
     praesens: "Present tense of German Verbs",
     partizip_II: "Past Participle",

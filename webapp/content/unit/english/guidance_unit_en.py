@@ -23,6 +23,8 @@ GUIDANCE_UNIT_EN = {
 
         f"<br><br>{ICON_WARN} There is only one correct answer per question."
 
+        f"<br><br>➡️ If you need help on the gender of the noun, click on the m/f/n/pl button."
+
         "<h2>Example</h2>"
         "Das Bild hängt an _____ Tür."
         "<br><br><i>The picture hangs on the door.</i>"
@@ -157,7 +159,7 @@ GUIDANCE_UNIT_EN = {
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
 
-        "<br><br>→ A guide explaining the gender of nouns is available "
+        "<br><br>➡️ A guide explaining the gender of nouns is available "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
         
         f"<br><br>{ICON_WARN} There is only one correct answer per question."
@@ -174,7 +176,7 @@ GUIDANCE_UNIT_EN = {
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
         
-        "<br><br>→ A guide explaining the gender of nouns is available "
+        "<br><br>➡️ A guide explaining the gender of nouns is available "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
 
         f"<br><br>{ICON_WARN} There is only one correct answer per question."
@@ -191,7 +193,7 @@ GUIDANCE_UNIT_EN = {
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (Der, Die or Das) that fits the noun."
         
-        "<br><br>→ A guide explaining the gender of nouns is available "
+        "<br><br>➡️ A guide explaining the gender of nouns is available "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
 
         f"<br><br>{ICON_WARN} There is only one correct answer per question."

@@ -173,9 +173,9 @@ body.day-mode .submit-button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 15px;
     width: 250px;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
 }
@@ -658,7 +658,6 @@ body.day-mode .back-button {
     display: flex;
     justify-content: center;
     margin-top: auto;
-    padding-bottom: 30px;
 }
 
 .next-exercise-button {
@@ -672,7 +671,7 @@ body.day-mode .back-button {
     text-align: center;
     margin-top: 5px;
     width: auto; /* Dynamic width */
-    min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
+    min-width: 150px;
     max-width: 300px; /* Prevents it from being too wide */
     word-wrap: break-word; /* Allows multi-line if necessary */
     white-space: normal; /* Enables wrapping */
@@ -690,6 +689,13 @@ body.day-mode .next-exercise-button {
 }
 
 .next-exercise-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+
+.signup-button-container {
     display: flex;
     justify-content: center;
     margin-top: auto;

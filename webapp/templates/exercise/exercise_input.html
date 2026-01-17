@@ -34,7 +34,14 @@
         {% endif %}
 
         <form action="{{ url_for('routes.check_answer', unit=unit, exercise=exercise) }}" method="post">
-            <input type="text" id="answer" name="answer" class="input-box" placeholder="{{ enter_answer_here }}" autocomplete="off">
+            <input type="text"
+                   id="answer"
+                   name="answer"
+                   class="input-box"
+                   placeholder="{{ enter_answer_here }}"
+                   autocomplete="off"
+                   spellcheck="false"
+                   autocapitalize="off">
             <input type="hidden" name="nr" value="{{ nr }}">
 
             <div class="special-chars">

@@ -3,7 +3,7 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
+    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
 )
@@ -87,6 +87,9 @@ INTRODUCTION_FR = {
         "Combinaisons nom-verbe commençant au niveau B1."
         "<br><br>Par souci d'exhaustivité, j'utilise une définition large de Nomen-Verben Verbindungen, "
         "qui incluent des combinaisons telles que <i>Lust haben</i> ou <i>Angst haben</i>."
+    ,
+    nomen_verben_wortstaemme:
+        "Paires Nom-Verbe avec la même racine étymologique."
     ,
 
     praesens:

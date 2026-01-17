@@ -31,9 +31,9 @@ from webapp.i18n import get_language
 from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH, NEXT_EXERCISE)
 from webapp.content.application.text import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
     YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
-    ADDITIONAL_HELP, CONSULT_FAQ
+    ADDITIONAL_HELP, CONSULT_FAQ, NOT_AUTHENTICATED
 
-from webapp.content.unit.guidance import GUIDANCE_UNIT
+from ..content.unit.unit_content_by_language import GUIDANCE_UNIT
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.back_button import BACK_BUTTON
@@ -62,6 +62,8 @@ def guidance(unit, exercise):
         next_exercise = get_next_exercise(unit, exercise, highest_exercise)
         next_exercise_text = NEXT_EXERCISE[language]
 
+        current_user_not_authenticated = not current_user.is_authenticated
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -89,6 +91,8 @@ def guidance(unit, exercise):
                                icon_empty=get_filename_empty_bookmark(),
                                next_exercise=next_exercise,
                                next_exercise_text=next_exercise_text,
+                               current_user_not_authenticated=current_user_not_authenticated,
+                               not_authenticated_text=NOT_AUTHENTICATED[language],
                                )
 
     elif unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
@@ -161,6 +165,8 @@ def exercise(unit, exercise):
         next_exercise = get_next_exercise(unit, exercise, highest_exercise)
         next_exercise_text = NEXT_EXERCISE[language]
 
+        current_user_not_authenticated = not current_user.is_authenticated
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -189,6 +195,8 @@ def exercise(unit, exercise):
                                icon_empty=get_filename_empty_bookmark(),
                                next_exercise=next_exercise,
                                next_exercise_text=next_exercise_text,
+                               current_user_not_authenticated=current_user_not_authenticated,
+                               not_authenticated_text=NOT_AUTHENTICATED[language],
                                )
 
     question_data = pick_a_question(session, unit, exercise)
@@ -340,7 +348,6 @@ def check_answer(unit, exercise):
     data = load_data_exercise(unit, exercise)
 
     question_data = data[data["Nr"] == int(nr)].iloc[0]# .fillna("")
-    # correct_answer = question_data.get("answer", "")
     correct_answer = get_correct_answer(unit, exercise, question_data)
     correct_answers = get_list_of_correct_answers(correct_answer, unit)
     question_text = question_data["question"]
@@ -394,7 +401,6 @@ def check_answer(unit, exercise):
     if is_answer_correct:
         register_progress(session, unit, exercise, nr)
     elif nr not in session[unit][str(exercise)]['falses']:
-        # register_false(session, unit, exercise, nr)
         register_incorrect_answer(session, unit, exercise, nr, user_answer)
 
     session.modified = True
@@ -445,6 +451,8 @@ def exercise_feedback(unit, exercise):
         next_exercise = get_next_exercise(unit, exercise, highest_exercise)
         next_exercise_text = NEXT_EXERCISE[language]
 
+        current_user_not_authenticated = not current_user.is_authenticated
+
         return render_template("exercise/exercise_completed.html",
                                unit=unit,
                                exercise=exercise,
@@ -473,6 +481,8 @@ def exercise_feedback(unit, exercise):
                                icon_empty=get_filename_empty_bookmark(),
                                next_exercise=next_exercise,
                                next_exercise_text=next_exercise_text,
+                               current_user_not_authenticated=current_user_not_authenticated,
+                               not_authenticated_text=NOT_AUTHENTICATED[language],
                                )
 
     question_data = session.get(f"question_data", {})

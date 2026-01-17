@@ -3,7 +3,7 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
+    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
 )
@@ -31,6 +31,7 @@ STARS = {
     verben: f"{STAR_GOLD}",
     trennbare_verben: f"{STAR_GOLD}",
     nomen_verben_verbindungen: f"",
+    nomen_verben_wortstaemme: f"",
 
     praesens: f"",
     imperativ: f"",
@@ -41,7 +42,7 @@ STARS = {
     konjunktiv_I: f"",
     partizip_I: f"",
 
-    genus_regeln: f"",
-    genus_routledge: f"",
-    genus_goethe: f"",
+    genus_regeln: f"{STAR_GOLD}",
+    genus_routledge: f"{STAR_GOLD}",
+    genus_goethe: f"{STAR_GOLD}",
 }

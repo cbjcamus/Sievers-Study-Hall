@@ -45,6 +45,11 @@ CONSULT_FAQ = {
     'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq-8cc" target="_blank">FAQ</a> ou envoyez moi un email à sieversstudyhall@gmail.com'
 }
 
+NOT_AUTHENTICATED = {
+    'english': 'You are not logged-in. Sign-up to save your progress:',
+    'french': 'Vous n\'êtes pas connecté. Créez un compte pour enregistrer votre progrès:',
+}
+
 # HOME PAGE
 
 META_DESCRIPTION = {

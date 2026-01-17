@@ -125,7 +125,7 @@ Nr,exercise,answer,question,english,french
 124,7,zählen,,to count,compter
 125,7,ankommen,,"to arrive, to depend on something","arriver, dépendre de quelque chose"
 126,7,dauern,,"to last, to take (time)","durer, prendre (du temps)"
-127,7,anmelden,,"to register, to sign up",s'inscrire
+127,7,anmelden,,"to register, to sign up, to sign on",s'inscrire
 128,7,lassen,,"to let, to leave, to allow","laisser, quitter, permettre"
 129,7,verlassen,,"to leave, to trust with something (refl.), to pass away, to die","partir, confier quelque chose (réfl.), décéder, mourir"
 130,7,helfen,,to help,aider
@@ -263,7 +263,7 @@ Nr,exercise,answer,question,english,french
 262,12,überraschen,,to surprise,surprendre
 263,12,verbieten,,"to forbid, to prohibit","interdire, prohiber"
 264,12,verhindern,,"to prevent, to hinder, to stop","empêcher, entraver, arrêter"
-265,12,unterschreiben,,to sign,signer
+265,12,unterschreiben,,"to sign, to subscribe, to unterwrite","signer, souscrire"
 266,12,empfangen,,"to receive, to welcome, to greet","recevoir, accueillir, saluer"
 267,12,bestellen,,"to order, to reserve","commander, réserver"
 268,12,buchen,,"to book, to reserve",réserver
@@ -463,7 +463,7 @@ Nr,exercise,answer,question,english,french
 462,17,,überraschen,to surprise,surprendre
 463,17,,verbieten,"to forbid, to prohibit","interdire, prohiber"
 464,17,,verhindern,"to prevent, to hinder, to stop","empêcher, entraver, arrêter"
-465,17,,unterschreiben,to sign,signer
+465,17,,unterschreiben,"to sign, to subscribe, to unterwrite","signer, souscrire"
 466,17,,empfangen,"to receive, to welcome, to greet","recevoir, accueillir, saluer"
 467,17,,bestellen,"to order, to reserve","commander, réserver"
 468,17,,buchen,"to book, to reserve",réserver
@@ -748,7 +748,7 @@ Nr,exercise,answer,question,english,french
 747,24,ergreifen,,"to seize, to grasp, to take hold of","saisir, s'emparer de"
 748,24,kopieren,,"to copy, to duplicate","copier, dupliquer"
 749,24,versehen,,"to provide, to equip, to supply","fournir, équiper, approvisionner"
-750,24,winken,,to wave,faire signe
+750,24,winken,,"to wave, to beckon",faire signe
 751,24,anlegen,,"to create, to invest","créer, investir"
 752,24,umfassen,,"to include, to comprise","inclure, comprendre"
 753,24,vornehmen,,"to undertake, to carry out","entreprendre, réaliser"
@@ -789,11 +789,11 @@ Nr,exercise,answer,question,english,french
 788,25,vorlegen,,"to present, to submit, to bring forward","présenter, soumettre, avancer"
 789,25,zuordnen,,"to assign, to allocate","attribuer, allouer"
 790,25,betrachten,,"to view, to observe","voir, observer"
-791,25,beziehen,,"to refer, to obtain","se référer, obtenir"
+791,25,beziehen,,"to refer, to relate, to obtain, to cover, move into","se référer, obtenir"
 792,25,basieren,,to base,à la base
 793,25,stechen,,"to sting, to prick, to puncture, to pierce","piquer, percer"
 794,25,bergen,,"to recover, to rescue, to save, to salvage","récupérer, secourir, sauver, sauver"
-795,25,kehren,,"to return, to sweep","retourner, balayer"
+795,25,kehren,,"to sweep, to return","retourner, balayer"
 796,25,baden,,"to bathe, to swim, to take a bath","se baigner, nager, prendre un bain"
 797,25,demonstrieren,,"to demonstrate, to show","démontrer, montrer"
 798,25,schmerzen,,"to hurt, to ache","faire mal, souffrir"
@@ -948,7 +948,7 @@ Nr,exercise,answer,question,english,french
 947,29,,ergreifen,"to seize, to grasp, to take hold of","saisir, s'emparer de"
 948,29,,kopieren,"to copy, to duplicate","copier, dupliquer"
 949,29,,versehen,"to provide, to equip, to supply","fournir, équiper, approvisionner"
-950,29,,winken,to wave,faire signe
+950,29,,winken,"to wave, to beckon",faire signe
 951,29,,anlegen,"to create, to invest","créer, investir"
 952,29,,umfassen,"to include, to comprise","inclure, comprendre"
 953,29,,vornehmen,"to undertake, to carry out","entreprendre, réaliser"
@@ -989,17 +989,17 @@ Nr,exercise,answer,question,english,french
 988,30,,vorlegen,"to present, to submit, to bring forward","présenter, soumettre, avancer"
 989,30,,zuordnen,"to assign, to allocate","attribuer, allouer"
 990,30,,betrachten,"to view, to observe","voir, observer"
-991,30,,beziehen,"to refer, to obtain","se référer, obtenir"
+991,30,,beziehen,"to refer, to relate, to obtain, to cover, move into","se référer, obtenir"
 992,30,,basieren,to base,à la base
 993,30,,stechen,"to sting, to prick, to puncture, to pierce","piquer, percer"
 994,30,,bergen,"to recover, to rescue, to save, to salvage","récupérer, secourir, sauver, sauver"
-995,30,,kehren,"to return, to sweep","retourner, balayer"
+995,30,,kehren,"to sweep, to return","retourner, balayer"
 996,30,,baden,"to bathe, to swim, to take a bath","se baigner, nager, prendre un bain"
 997,30,,demonstrieren,"to demonstrate, to show","démontrer, montrer"
 998,30,,schmerzen,"to hurt, to ache","faire mal, souffrir"
 999,30,,spalten,"to split, to divide","diviser, diviser"
 1000,30,,graben,"to dig, to excavate, to delve","creuser, fouiller, excaver"
-1001,31,quellen,,"to soak, to swell","tremper, gonfler"
+1001,31,quellen,,"to soak, to swell, to well, to spring","tremper, gonfler"
 1002,31,klicken,,to click,cliquer
 1003,31,senken,,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
 1004,31,irren,,to err,se tromper
@@ -1117,7 +1117,7 @@ Nr,exercise,answer,question,english,french
 1116,33,notieren,,"to note, to quote","à noter, à citer"
 1117,33,streiken,,"to strike, to be on strike","faire grève, être en grève"
 1118,33,verschreiben,,"to prescribe, to commit oneself to, to misspell by accident","prescrire, s'engager à, faire une faute d'orthographe par accident"
-1119,33,vertreiben,,"to expel, to dislodge, to displace","expulser, déloger, déplacer"
+1119,33,vertreiben,,"to expel, to dislodge, to displace, to put on the market, to sell","expulser, déloger, déplacer"
 1120,33,auspacken,,"to unpack, to unwrap, to blow the whistle on","déballer, dénoncer"
 1121,34,existieren,,to exist,exister
 1122,34,bedrohen,,"to threaten, to menace",menacer
@@ -1138,7 +1138,7 @@ Nr,exercise,answer,question,english,french
 1137,34,umgeben,,"to surround, to enclose, to encompass","entourer, enfermer, englober"
 1138,34,verringern,,"to decrease, to diminish, to ease, to lower","diminuer, soulager, abaisser"
 1139,34,kontaktieren,,to contact,contacter
-1140,34,dringen,,to penetrate,pénétrer
+1140,34,dringen,,"to insist, the seep, to penetrate","insister, s'infiltrer, pénétrer"
 1141,34,vorwerfen,,"to reproach, to accuse of, to allege","reprocher, accuser de, alléguer"
 1142,34,verwirklichen,,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre"
 1143,34,formen,,"to form, to shape, to model, to mold, to fashion","former, modeler, façonner"
@@ -1276,7 +1276,7 @@ Nr,exercise,answer,question,english,french
 1275,37,räumen,,"to clear, to remove, to vacate","déblayer, débrancher, dégager"
 1276,37,spritzen,,"to inject, to spray, to splash","injecter, pulvériser, gicler, éclabousser"
 1277,37,stopfen,,"to stuff, to darn, to jam","bourrer, combler"
-1278,37,wachen,,"to wakem, to guard, to be awake","veiller, réveiller, surveiller"
+1278,37,wachen,,"to wake, to guard, to be awake","veiller, réveiller, surveiller"
 1279,37,weggehen,,"to go away, to leave","s'en aller, quitter"
 1280,37,bügeln,,to iron,repasser (des vêtements)
 1281,38,schwellen,,"to swell, to expand, to rise","gonfler, enfler"
@@ -1357,7 +1357,7 @@ Nr,exercise,answer,question,english,french
 1356,39,optimieren,,"to optimize, to improve, to steamline",optimiser
 1357,39,platzieren,,"to place, to position, to be placed",placer
 1358,39,schwinden,,"to diminish, to fade, to shrink","disparaître, diminuer, s'évanouir"
-1359,39,übereinstimmen,,"to agree, to conur, to correspond","concorder, correspondre, coïncider"
+1359,39,übereinstimmen,,"to agree, to concur, to correspond","concorder, correspondre, coïncider"
 1360,39,anfragen,,"to ask, to inquire, to enquire, to request",demander
 1361,40,beibehalten,,"to maintain, to keep, to retain",maintenir
 1362,40,deaktivieren,,"to deactivate, to disable",désactiver
@@ -1399,7 +1399,7 @@ Nr,exercise,answer,question,english,french
 1398,40,ausgestalten,,"to design, to shape, to arrange","aménager, arranger, décorer"
 1399,40,doppeln,,"to double, to duplicate, to fold","doubler, dupliquer, reproduire"
 1400,40,herschieben,,to push along,rapprocher
-1401,41,,quellen,"to soak, to swell","tremper, gonfler"
+1401,41,,quellen,"to soak, to swell, to well, to spring","tremper, gonfler"
 1402,41,,klicken,to click,cliquer
 1403,41,,senken,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
 1404,41,,irren,to err,se tromper
@@ -1517,7 +1517,7 @@ Nr,exercise,answer,question,english,french
 1516,43,,notieren,"to note, to quote","à noter, à citer"
 1517,43,,streiken,"to strike, to be on strike","faire grève, être en grève"
 1518,43,,verschreiben,"to prescribe, to commit oneself to, to misspell by accident","prescrire, s'engager à, faire une faute d'orthographe par accident"
-1519,43,,vertreiben,"to expel, to dislodge, to displace","expulser, déloger, déplacer"
+1519,43,,vertreiben,"to expel, to dislodge, to displace, to put on the market, to sell","expulser, déloger, déplacer"
 1520,43,,auspacken,"to unpack, to unwrap, to blow the whistle on","déballer, dénoncer"
 1521,44,,existieren,to exist,exister
 1522,44,,bedrohen,"to threaten, to menace",menacer
@@ -1538,7 +1538,7 @@ Nr,exercise,answer,question,english,french
 1537,44,,umgeben,"to surround, to enclose, to encompass","entourer, enfermer, englober"
 1538,44,,verringern,"to decrease, to diminish, to ease, to lower","diminuer, soulager, abaisser"
 1539,44,,kontaktieren,to contact,contacter
-1540,44,,dringen,to penetrate,pénétrer
+1540,44,,dringen,"to insist, the seep, to penetrate","insister, s'infiltrer, pénétrer"
 1541,44,,vorwerfen,"to reproach, to accuse of, to allege","reprocher, accuser de, alléguer"
 1542,44,,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre"
 1543,44,,formen,"to form, to shape, to model, to mold, to fashion","former, modeler, façonner"
@@ -1676,7 +1676,7 @@ Nr,exercise,answer,question,english,french
 1675,47,,räumen,"to clear, to remove, to vacate","déblayer, débrancher, dégager"
 1676,47,,spritzen,"to inject, to spray, to splash","injecter, pulvériser, gicler, éclabousser"
 1677,47,,stopfen,"to stuff, to darn, to jam","bourrer, combler"
-1678,47,,wachen,"to wakem, to guard, to be awake","veiller, réveiller, surveiller"
+1678,47,,wachen,"to wake, to guard, to be awake","veiller, réveiller, surveiller"
 1679,47,,weggehen,"to go away, to leave","s'en aller, quitter"
 1680,47,,bügeln,to iron,repasser (des vêtements)
 1681,48,,schwellen,"to swell, to expand, to rise","gonfler, enfler"
@@ -1757,7 +1757,7 @@ Nr,exercise,answer,question,english,french
 1756,49,,optimieren,"to optimize, to improve, to steamline",optimiser
 1757,49,,platzieren,"to place, to position, to be placed",placer
 1758,49,,schwinden,"to diminish, to fade, to shrink","disparaître, diminuer, s'évanouir"
-1759,49,,übereinstimmen,"to agree, to conur, to correspond","concorder, correspondre, coïncider"
+1759,49,,übereinstimmen,"to agree, to concur, to correspond","concorder, correspondre, coïncider"
 1760,49,,anfragen,"to ask, to inquire, to enquire, to request",demander
 1761,50,,beibehalten,"to maintain, to keep, to retain",maintenir
 1762,50,,deaktivieren,"to deactivate, to disable",désactiver

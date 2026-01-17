@@ -25,8 +25,8 @@ body.day-mode a {
 
 .hamburger-container {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 15px;
 }
 
 .hamburger {
@@ -47,8 +47,8 @@ body.day-mode .hamburger {
     display: none;
     font-size: 24px;
     position: absolute;
-    right: 10px;
-    top: 50px;
+    right: 45px;
+    top: 15px;
     background-color: #131b22;
     border: 1px solid #ccc;
     z-index: 1000;
@@ -88,15 +88,15 @@ body.day-mode .menu a:hover {
 
 .lang-container {
     position: absolute;
-    top: 31px;
-    right: 80px;
+    top: 70px;
+    right: 25px;
     z-index: 1001;
 }
 
 .lang-button {
     font-size: 20px;
     line-height: 1;
-    padding: 6px 10px;
+    padding: 0px 0px;
     border-radius: 0px;
     border: 0px solid #ccc;
     background: #131b22;
@@ -113,8 +113,8 @@ body.day-mode .lang-button {
 .lang-menu {
     display: none;
     position: absolute;
-    right: 0;
-    top: 36px;
+    right: 36px;
+    top: 0px;
     background-color: #131b22;
     border: 1px solid #ccc;
     min-width: 80px;
@@ -136,7 +136,9 @@ body.day-mode .lang-menu {
     font-size: 20px;
 }
 
-body.day-mode .lang-menu a { color: black; }
+body.day-mode .lang-menu a {
+    color: black;
+}
 
 .lang-menu a:hover {
     background-color: #1f2f40;
@@ -146,7 +148,9 @@ body.day-mode .lang-menu a:hover {
     background-color: #3d6a85;
 }
 
-.lang-menu.show { display: flex; }
+.lang-menu.show {
+    display: flex;
+}
 
 .lang-menu a.active {
     font-weight: bold;
@@ -167,7 +171,7 @@ h2 {
 
 .section {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: normal;
 }
 
@@ -175,13 +179,13 @@ h2 {
     background-color: white;
     color: #161F23;
     border: none;
+    border-radius: 5px;
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 0px;
     width: auto;
     text-align: center;
+    margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
 }

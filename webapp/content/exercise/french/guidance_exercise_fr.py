@@ -3,7 +3,7 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
+    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
 )
 
@@ -183,6 +183,8 @@ guidance_artikel_sentences = (
     "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en anglais."
     "<br><br>Il manque un article dans la phrase allemande. Trouvez celui qui convient, en tenant compte du cas et du genre."
 
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+
     "<h2>Exemple</h2>"
     "_____ Woche hat sieben Tage."
     "<br><br><i>La semaine compte sept jours.</i>"
@@ -190,8 +192,8 @@ guidance_artikel_sentences = (
 )
 
 guidance_pronomen_isolation = (
-    "Pour chaque question, vous recevrez un pronom allemand ainsi qu'un cas."
-    "<br><br>Écrivez l'article qui correspond au cas."
+    "Pour chaque question, vous recevrez un pronom allemand ainsi qu'un cas grammatical."
+    "<br><br>Écrivez l'article qui correspond au cas grammatical."
 
     "<h2>Exemple</h2>"
     "1re personne du singulier \u25CF Nominatif"
@@ -295,6 +297,8 @@ guidance_fragen_sentences = (
     f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
     f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+
     "<h2>Exemple</h2>"
     "_____ lernst du Deutsch?"
     "<br><br><i>Pourquoi apprenez-vous l'allemand?</i>"
@@ -707,6 +711,8 @@ guidance_nomen_verben_verbindungen_nomen_isolation = (
     f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     f"<br><br>{ICON_WARN} La réponse peut nécessiter un article et/ou une préposition."
 
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+    
     "<h2>Exemples</h2>"
     "_____ haben"
     "<br><br><i>avoir une opinion, penser</i>"
@@ -779,6 +785,34 @@ guidance_nomen_verben_verbindungen_verben_sentences = (
     f"<br><br>{ICON_CROSS} machen"
 )
 
+guidance_nomen_verben_wortstaemme_verben = (
+    "Pour chaque question, vous recevrez une paire Nom-Verbe allemande incomplète et sa traduction française."
+    "<br><br>Trouvez le verb allemand qui complète cette paire."
+
+    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    " Lisez attentivement toute la traduction."
+    f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+
+    "<h2>Exemple</h2>"
+    "le travail → die Arbeit"
+    "<br><br>travailler → _____"
+    f"<br><br>{ICON_CHECK} arbeiten"
+)
+
+guidance_nomen_verben_wortstaemme_nomen = (
+    "Pour chaque question, vous recevrez une paire Nom-Verbe allemande incomplète et sa traduction française."
+    "<br><br>Trouvez le nom allemand qui complète cette paire."
+
+    f"<br><br>{ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+    
+    "<h2>Exemple</h2>"
+    "travailler → arbeiten"
+    "<br><br>le travail → _____"
+    f"<br><br>{ICON_CHECK} die Arbeit"
+)
 
 GUIDANCE_EXERCISE_FR = {
 
@@ -984,29 +1018,31 @@ GUIDANCE_EXERCISE_FR = {
         6: guidance_pronomen_sentences,
         7: guidance_pronomen_sentences,
         8: guidance_pronomen_sentences,
+        9: guidance_pronomen_replacing,
+        10: guidance_pronomen_replacing,
 
-        9: guidance_pronomen_isolation,
-        10: guidance_pronomen_sentences,
-        11: guidance_pronomen_replacing,
-        12: guidance_pronomen_replacing,
+        11: guidance_pronomen_isolation,
+        12: guidance_pronomen_sentences,
+        13: guidance_pronomen_replacing,
+        14: guidance_pronomen_replacing,
 
         15: guidance_pronomen_isolation,
         16: guidance_pronomen_sentences,
-        17: guidance_pronomen_isolation,
+        17: guidance_pronomen_sentences,
         18: guidance_pronomen_sentences,
-
-        19: guidance_pronomen_isolation,
+        19: guidance_pronomen_sentences,
         20: guidance_pronomen_sentences,
         21: guidance_pronomen_sentences,
         22: guidance_pronomen_sentences,
+
         23: guidance_pronomen_sentences,
         24: guidance_pronomen_sentences,
         25: guidance_pronomen_sentences,
-        26: guidance_pronomen_sentences,
-
+        26: guidance_pronomen_isolation,
         27: guidance_pronomen_sentences,
-        28: guidance_pronomen_sentences,
+        28: guidance_pronomen_isolation,
         29: guidance_pronomen_sentences,
+
         30: guidance_pronomen_sentences,
     },
 
@@ -1039,8 +1075,10 @@ GUIDANCE_EXERCISE_FR = {
         22: guidance_konnektoren_sentences,
         23: guidance_konnektoren_isolation,
         24: guidance_konnektoren_sentences,
-        25: guidance_konnektoren_synonyms,
-        26: guidance_konnektoren_synonyms,
+        25: guidance_konnektoren_isolation,
+        26: guidance_konnektoren_sentences,
+        27: guidance_konnektoren_synonyms,
+        28: guidance_konnektoren_synonyms,
     },
 
     fragen: {
@@ -1332,6 +1370,14 @@ GUIDANCE_EXERCISE_FR = {
         60: guidance_trennbare_verben_prefix,
         61: guidance_trennbare_verben_prefix,
         62: guidance_trennbare_verben_prefix,
+        63: guidance_trennbare_verben_no_help,
+        64: guidance_trennbare_verben_no_help,
+        65: guidance_trennbare_verben_no_help,
+        66: guidance_trennbare_verben_no_help,
+        67: guidance_trennbare_verben_no_help,
+        68: guidance_trennbare_verben_no_help,
+        69: guidance_trennbare_verben_no_help,
+        70: guidance_trennbare_verben_no_help,
     },
 
     nomen_verben_verbindungen: {
@@ -1369,6 +1415,71 @@ GUIDANCE_EXERCISE_FR = {
         30: guidance_nomen_verben_verbindungen_verben_isolation,
         31: guidance_nomen_verben_verbindungen_nomen_sentences,
         32: guidance_nomen_verben_verbindungen_verben_sentences,
-    }
+    },
 
+    nomen_verben_wortstaemme: {
+        1: guidance_nomen_verben_wortstaemme_verben,
+        2: guidance_nomen_verben_wortstaemme_nomen,
+
+        3: guidance_nomen_verben_wortstaemme_verben,
+        4: guidance_nomen_verben_wortstaemme_nomen,
+        5: guidance_nomen_verben_wortstaemme_verben,
+        6: guidance_nomen_verben_wortstaemme_nomen,
+        7: guidance_nomen_verben_wortstaemme_verben,
+        8: guidance_nomen_verben_wortstaemme_nomen,
+
+        9: guidance_nomen_verben_wortstaemme_verben,
+        10: guidance_nomen_verben_wortstaemme_nomen,
+        11: guidance_nomen_verben_wortstaemme_verben,
+        12: guidance_nomen_verben_wortstaemme_nomen,
+        13: guidance_nomen_verben_wortstaemme_verben,
+        14: guidance_nomen_verben_wortstaemme_nomen,
+        15: guidance_nomen_verben_wortstaemme_verben,
+        16: guidance_nomen_verben_wortstaemme_nomen,
+        17: guidance_nomen_verben_wortstaemme_verben,
+        18: guidance_nomen_verben_wortstaemme_nomen,
+        19: guidance_nomen_verben_wortstaemme_verben,
+        20: guidance_nomen_verben_wortstaemme_nomen,
+        21: guidance_nomen_verben_wortstaemme_verben,
+        22: guidance_nomen_verben_wortstaemme_nomen,
+        23: guidance_nomen_verben_wortstaemme_verben,
+        24: guidance_nomen_verben_wortstaemme_nomen,
+        25: guidance_nomen_verben_wortstaemme_verben,
+        26: guidance_nomen_verben_wortstaemme_nomen,
+        27: guidance_nomen_verben_wortstaemme_verben,
+        28: guidance_nomen_verben_wortstaemme_nomen,
+
+        29: guidance_nomen_verben_wortstaemme_verben,
+        30: guidance_nomen_verben_wortstaemme_nomen,
+        31: guidance_nomen_verben_wortstaemme_verben,
+        32: guidance_nomen_verben_wortstaemme_nomen,
+        33: guidance_nomen_verben_wortstaemme_verben,
+        34: guidance_nomen_verben_wortstaemme_nomen,
+        35: guidance_nomen_verben_wortstaemme_verben,
+        36: guidance_nomen_verben_wortstaemme_nomen,
+        37: guidance_nomen_verben_wortstaemme_verben,
+        38: guidance_nomen_verben_wortstaemme_nomen,
+        39: guidance_nomen_verben_wortstaemme_verben,
+        40: guidance_nomen_verben_wortstaemme_nomen,
+        41: guidance_nomen_verben_wortstaemme_verben,
+        42: guidance_nomen_verben_wortstaemme_nomen,
+        43: guidance_nomen_verben_wortstaemme_verben,
+        44: guidance_nomen_verben_wortstaemme_nomen,
+        45: guidance_nomen_verben_wortstaemme_verben,
+        46: guidance_nomen_verben_wortstaemme_nomen,
+        47: guidance_nomen_verben_wortstaemme_verben,
+        48: guidance_nomen_verben_wortstaemme_nomen,
+        49: guidance_nomen_verben_wortstaemme_verben,
+        50: guidance_nomen_verben_wortstaemme_nomen,
+        51: guidance_nomen_verben_wortstaemme_verben,
+        52: guidance_nomen_verben_wortstaemme_nomen,
+        53: guidance_nomen_verben_wortstaemme_verben,
+        54: guidance_nomen_verben_wortstaemme_nomen,
+        55: guidance_nomen_verben_wortstaemme_verben,
+        56: guidance_nomen_verben_wortstaemme_nomen,
+        57: guidance_nomen_verben_wortstaemme_verben,
+        58: guidance_nomen_verben_wortstaemme_nomen,
+        59: guidance_nomen_verben_wortstaemme_verben,
+        60: guidance_nomen_verben_wortstaemme_nomen,
+    },
 }

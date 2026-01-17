@@ -18,11 +18,8 @@ from webapp.i18n import get_language
 from webapp.content.unit.stars import STARS
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
-from webapp.content.unit.introduction import INTRODUCTION
 from webapp.content.unit.template_path import TEMPLATE_PATH
-from webapp.content.unit.home_description import HOME_DESCRIPTION
-from webapp.content.unit.french.home_description_fr import HOME_DESCRIPTION_FR
-from webapp.content.unit.english.home_description_en import HOME_DESCRIPTION_EN
+from ..content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
 from webapp.content.application.text import YOUR_ANSWER, META_DESCRIPTION
@@ -140,12 +137,14 @@ for unit in units:
         @routes_bp.route(route_path, endpoint=endpoint_name)
         def dynamic_route():
             language = get_language(request, session)
+            title_page=TITLE_PAGE[unit]
             introduction = INTRODUCTION[language].get(unit, {})
             meta_description = META_DESCRIPTION[language]
 
             update_progress_in_session(session, unit)
 
             return render_template(template,
+                                   title_page=title_page,
                                    answered_questions=compute_answered_questions,
                                    total_questions=total_question_exercises,
                                    score=write_score,

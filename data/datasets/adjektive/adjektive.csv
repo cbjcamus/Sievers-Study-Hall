@@ -13,10 +13,10 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 12,1,1. A1,11,,weiß,,white,blanc,schwarz
 13,1,1. A1,15,,einfach,,"easy, simple","facile, simple",schwierig
 14,1,1. A1,13,,schwierig,,difficult,difficile,einfach
-15,1,1. A1,15,,richtig,,right,"vrai, correct",
+15,1,1. A1,15,,richtig,,right,"correct, juste",
 16,1,1. A1,13,,falsch,,"false, wrong",faux,
 17,1,1. A1,12,,wahr,,true,vrai,
-18,1,1. A1,14,,frei,,free,gratuit,
+18,1,1. A1,14,,frei,,free,libre,
 19,1,1. A1,15,,groß,,"big, tall",grand,klein
 20,1,1. A1,15,,klein,,small,petit,groß
 21,2,1. A1,15,,gut,,good,bien,schlecht
@@ -307,14 +307,14 @@ Nr,exercise,level,points,question,answer,german,english,french,antonym
 306,16,2. A2,,sicher,gefährlich,,dangerous,dangereux,
 307,16,2. A2,,nutzlos,nützlich,,useful,utile,
 308,16,2. A2,,nützlich,nutzlos,,useless,inutile,
-309,17,2. A2,,klar,klarer,,clear,clair,
-310,17,2. A2,,hell,heller,,bright,brillant,
-311,17,2. A2,,dunkel,dunkler,,dark,sombre,
-312,17,2. A2,,schwer,schwerer,,heavy,lourd,
-313,17,2. A2,,leicht,leichter,,light,léger,
-314,17,2. A2,,breit,breiter,,wide,large,
-315,17,2. A2,,komisch,komischer,,"strange, funny","étrange, drôle",
-316,17,2. A2,,laut,lauter,,loud,fort,
+309,17,,,klar,klarer,,clear,clair,
+310,17,,,hell,heller,,bright,brillant,
+311,17,,,dunkel,dunkler,,dark,sombre,
+312,17,,,schwer,schwerer,,heavy,lourd,
+313,17,,,leicht,leichter,,light,léger,
+314,17,,,breit,breiter,,wide,large,
+315,17,,,komisch,komischer,,"strange, funny","étrange, drôle",
+316,17,,,laut,lauter,,loud,fort,
 317,17,,,ruhig,ruhiger,,quiet,calme,
 318,17,,,dünn,dünner,,thin,mince,
 319,17,,,dick,dicker,,fat,graisse,

@@ -47,6 +47,14 @@
         </a>
     </div>
 
+    {% if current_user_not_authenticated %}
+        <p>{{ not_authenticated_text }}</p>
+        <div class="signup-button-container">
+            <a href="{{ url_for('routes.signup') }}" class="next-exercise-button">
+                Sign-Up</a>
+        </div>
+    {% endif %}
+
     {% if number_of_incorrect_answers > 0 %}
         <p>{{ your_incorrect_answers }}</p>
 

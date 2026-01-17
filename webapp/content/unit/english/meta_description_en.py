@@ -3,7 +3,7 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
+    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
 )
@@ -62,6 +62,9 @@ META_DESCRIPTION_EN = {
     ,
     nomen_verben_verbindungen:
         'Practice German Noun–Verb Combinations with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    nomen_verben_wortstaemme:
+        'Practice German Noun–Verb etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 
     praesens:
