@@ -6,7 +6,8 @@
     {% from "macros/header.html" import header %}
     {{ header() }}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/home.css', v='2026-01-17-1') }}">
 </head>
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 

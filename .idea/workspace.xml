@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update January 17th">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/macros/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/units/verben/trennbare_verben.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/units/verben/trennbare_verben.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00121" summary="language log">
-      <option name="closed" value="true" />
-      <created>1761120164524</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1761120164524</updated>
     </task>
     <task id="LOCAL-00122" summary="flagged questions">
       <option name="closed" value="true" />
@@ -554,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768638514244</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="update January 17th">
+      <option name="closed" value="true" />
+      <created>1768639360535</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1768639360535</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
