@@ -291,8 +291,12 @@ DESCRIPTION_FR = {
         24: "Connecteurs de niveau C1, en contexte",
         25: "Connecteurs de niveau C1, en isolation",
         26: "Connecteurs de niveau C1, en contexte",
-        27: "Synonymes de Connecteurs de niveau C1, en isolation",
-        28: "Synonymes de Connecteurs de niveau C1, en isolation",
+        27: "Connecteurs de niveau C1, en isolation",
+        28: "Connecteurs de niveau C1, en contexte",
+        29: "Synonymes de Connecteurs de niveau C1, en isolation",
+        30: "Synonymes de Connecteurs de niveau C1, en isolation",
+        31: "Synonymes de Connecteurs de niveau C1, en isolation",
+        32: "Synonymes de Connecteurs de niveau C1, en isolation",
     },
 
     fragen: {
@@ -381,6 +385,28 @@ DESCRIPTION_FR = {
         58: "Autres Adverbses, en contexte",
         59: "Synonymes d'Adverbes de niveau C1, en isolation",
         60: "Antonymes d'Adverbes de niveau C1, en isolation",
+
+        61: "Adverbes Modaux, en isolation",
+        62: "Adverbes Modaux, en contexte",
+        63: "Adverbes Temporaux en -mals, -falls et -mal, en isolation",
+        64: "Adverbes Temporaux en -mals, -falls et -mal, en contexte",
+        65: "Adverbes Locaux en -wärts, en isolation",
+        66: "Adverbes Locaux en -wärts, en contexte",
+        67: "Phrases adverbiales constituées de prépositions, en isolation",
+        68: "Phrases adverbiales constituées de prépositions, en contexte",
+        69: "Synonymes d'Adverbes de niveau C1, en isolation",
+        70: "Antonymes d'Adverbes de niveau C1, en isolation",
+
+        71: "Adverbes Modaux, en isolation",
+        72: "Adverbes Modaux, en contexte",
+        73: "Adverbes Temporaux, en isolation",
+        74: "Adverbes Temporaux, en contexte",
+        75: "Adverbes Locaux en Hin et Her, en isolation",
+        76: "Adverbes Locaux en Hin et Her, en contexte",
+        77: "Autres Adverbses, en isolation",
+        78: "Autres Adverbses, en contexte",
+        79: "Synonymes d'Adverbes de niveau C1, en isolation",
+        80: "Antonymes d'Adverbes de niveau C1, en isolation",
     },
 
     wortstellung: {
@@ -464,11 +490,13 @@ DESCRIPTION_FR = {
     },
 
     adjektive_konjunktionen: {
-        1: "Conjonctions comparative, en contexte",
+        1: "Conjonctions d'adjectifs, en contexte",
 
         2: "Conjunctions d'adjectifs, en contexte",
 
         3: "Conjunctions d'adjectifs, en contexte",
+
+        4: "Conjunctions d'adjectifs, en contexte",
     },
 
     verben: {
@@ -704,6 +732,41 @@ DESCRIPTION_FR = {
         56: "Nom manquant dans la paire Nom-Verbe",
         57: "Verbe manquant dans la paire Nom-Verbe",
         58: "Nom manquant dans la paire Nom-Verbe",
+
+        59: "Verbe manquant dans la paire Nom-Verbe",
+        60: "Nom manquant dans la paire Nom-Verbe",
+        61: "Verbe manquant dans la paire Nom-Verbe",
+        62: "Nom manquant dans la paire Nom-Verbe",
+        63: "Verbe manquant dans la paire Nom-Verbe",
+        64: "Nom manquant dans la paire Nom-Verbe",
+        65: "Verbe manquant dans la paire Nom-Verbe",
+        66: "Nom manquant dans la paire Nom-Verbe",
+        67: "Verbe manquant dans la paire Nom-Verbe",
+        68: "Nom manquant dans la paire Nom-Verbe",
+        69: "Verbe manquant dans la paire Nom-Verbe",
+        70: "Nom manquant dans la paire Nom-Verbe",
+        71: "Verbe manquant dans la paire Nom-Verbe",
+        72: "Nom manquant dans la paire Nom-Verbe",
+        73: "Verbe manquant dans la paire Nom-Verbe",
+        74: "Nom manquant dans la paire Nom-Verbe",
+        75: "Verbe manquant dans la paire Nom-Verbe",
+        76: "Nom manquant dans la paire Nom-Verbe",
+        77: "Verbe manquant dans la paire Nom-Verbe",
+        78: "Nom manquant dans la paire Nom-Verbe",
+        79: "Verbe manquant dans la paire Nom-Verbe",
+        80: "Nom manquant dans la paire Nom-Verbe",
+        81: "Verbe manquant dans la paire Nom-Verbe",
+        82: "Nom manquant dans la paire Nom-Verbe",
+        83: "Verbe manquant dans la paire Nom-Verbe",
+        84: "Nom manquant dans la paire Nom-Verbe",
+        85: "Verbe manquant dans la paire Nom-Verbe",
+        86: "Nom manquant dans la paire Nom-Verbe",
+        87: "Verbe manquant dans la paire Nom-Verbe",
+        88: "Nom manquant dans la paire Nom-Verbe",
+        89: "Verbe manquant dans la paire Nom-Verbe",
+        90: "Nom manquant dans la paire Nom-Verbe",
+        91: "Verbe manquant dans la paire Nom-Verbe",
+        92: "Nom manquant dans la paire Nom-Verbe",
     },
 
     praesens: {
@@ -1035,7 +1098,9 @@ DESCRIPTION_FR = {
         22: "Articles Définis suivant des règles de niveau C1, en isolation",
         23: "Articles Définis suivant des règles de niveau C1, en isolation",
         24: "Articles Définis suivant des règles de niveau C1, en isolation",
-        25: "Articles Définis, exceptions aux règles, en isolation",
+        25: "Articles Définis suivant des règles de niveau C1, en isolation",
+        26: "Articles Définis suivant des règles de niveau C1, en isolation",
+        27: "Articles Définis, exceptions aux règles, en isolation",
     },
 
     genus_routledge: {

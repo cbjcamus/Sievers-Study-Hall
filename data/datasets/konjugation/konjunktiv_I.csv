@@ -1,43 +1,43 @@
-Nr,exercise,question,english,french,ich,du,er/sie/es,wir,ihr,Sie
-1,1,sein,to be,être,sei,seiest,sei,seien,seiet,seien
-2,1,haben,"to have, to contain","avoir, contenir",habe,habest,habe,haben,habet,haben
-3,1,werden,"to become, will, to be done (passive voice)",devenir,werde,werdest,werde,werden,werdet,werden
-4,1,können,"can, to be able to","pouvoir, être capable de",könne,könnest,könne,können,könnet,können
-5,1,wollen,to want,vouloir,wolle,wollest,wolle,wollen,wollet,wollen
-6,1,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",müsse,müssest,müsse,müssen,müsset,müssen
-7,1,sollen,"shall, to be asked (to do something)","devoir, être invité (à faire quelque chose)",solle,sollest,solle,sollen,sollet,sollen
-8,2,mögen,to like,"aimer, apprécier",möge,mögest,möge,mögen,möget,mögen
-9,2,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",dürfe,dürfest,dürfe,dürfen,dürfet,dürfen
-10,2,wissen,to know,savoir,wisse,wissest,wisse,wissen,wisset,wissen
-11,2,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)",mache,machest,mache,machen,machet,machen
-12,2,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",tue,tuest,tue,tun,tuet,tun
-13,2,sagen,"to say, to tell","dire, raconter",sage,sagest,sage,sagen,saget,sagen
-14,2,gehen,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)",gehe,gehest,gehe,gehen,gehet,gehen
-15,3,sehen,"to see, to see (to something), to realise","voir, se rendre compte",sehe,sehest,sehe,sehen,sehet,sehen
-16,3,geben,to give,donner,gebe,gebest,gebe,geben,gebet,geben
-17,3,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire",komme,kommest,komme,kommen,kommet,kommen
-18,3,glauben,to believe,croire,glaube,glaubest,glaube,glauben,glaubet,glauben
-19,3,reden,to talk,"parler, discuter",rede,redest,rede,reden,redet,reden
-20,3,hören,"to hear, to listen to","entendre, écouter",höre,hörest,höre,hören,höret,hören
-21,3,finden,to find,trouver,finde,findest,finde,finden,findet,finden
-22,4,bleiben,"to remain, to stay",rester,bleibe,bleibest,bleibe,bleiben,bleibet,bleiben
-23,4,brauchen,to need,avoir besoin,brauche,brauchest,brauche,brauchen,brauchet,brauchen
-24,4,lieben,to love,"aimer, être amoureux de",liebe,liebest,liebe,lieben,liebet,lieben
-25,4,bringen,"to bring, to take, to lead","apporter, prendre, conduire",bringe,bringest,bringe,bringen,bringet,bringen
-26,4,stehen,"to stand, to be, to appear","être debout, apparaître",stehe,stehest,stehe,stehen,stehet,stehen
-27,4,heißen,"to be called, to mean",être appelé,heiße,heißest,heiße,heißen,hei ßet,heißen
-28,4,nehmen,"to take, to cause oneself to be (in some state)","prendre, se mettre (dans un état)",nehme,nehmest,nehme,nehmen,nehmet,nehmen
-29,5,sprechen,to speak,parler (une langue),spreche,sprechest,spreche,sprechen,sprechet,sprechen
-30,5,bekommen,"to receive, to catch (e.g. a cold), to sit well with someone","recevoir, attraper (par exemple un rhume), s'entendre avec quelqu'un",bekomme,bekommest,bekomme,bekommen,bekommet,bekommen
-31,5,vergessen,"to forget, to leave (forget to take)",oublier,vergesse,vergessest,vergesse,vergessen,vergesset,vergessen
-32,5,halten,"to hold, to stop (a movement), to support, to keep","tenir, arrêter (un mouvement), soutenir, garder",halte,haltest,halte,halten,haltet,halten
-33,5,warten,"to wait, to maintain (e.g. a car)","attendre, entretenir (par exemple une voiture)",warte,wartest,warte,warten,wartet,warten
-34,5,kennen,"to know, to be acquainted with, to be familiar with","connaître, être familier avec",kenne,kennest,kenne,kennen,kennet,kennen
-35,5,verstehen,"to understand, to get along with someone/something","comprendre, s'entendre avec quelqu'un",verstehe,verstehest,verstehe,verstehen,verstehet,verstehen
-36,6,denken,"to think, to consider","penser, considérer",denke,denkest,denke,denken,denket,denken
-37,6,leben,to live,vivre,lebe,lebest,lebe,leben,lebet,leben
-38,6,arbeiten,to work,travailler,arbeite,arbeitest,arbeite,arbeiten,arbeitet,arbeiten
-39,6,essen,to eat,manger,esse,essest,esse,essen,esset,essen
-40,6,bieten,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)","offrir, enchérir, surgir, se produire (d'une opportunité) (réfl.)",biete,bietest,biete,bieten,bietet,bieten
-41,6,aufstehen,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)",stehe auf,stehest auf,stehe auf,stehen auf,stehet auf,stehen auf
-42,6,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre, habiller quelqu'un, attirer, tirer",ziehe an,ziehest an,ziehe an,ziehen an,ziehet an,ziehen an
+Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
+1,1,sein,,,to be,être,sei,seiest,sei,seien,seiet,seien
+2,1,haben,,,"to have, to contain","avoir, contenir",habe,habest,habe,haben,habet,haben
+3,1,werden,,,"to become, will, to be done (passive voice)",devenir,werde,werdest,werde,werden,werdet,werden
+4,1,können,,,"can, to be able to","pouvoir, être capable de",könne,könnest,könne,können,könnet,können
+5,1,wollen,,,to want,vouloir,wolle,wollest,wolle,wollen,wollet,wollen
+6,1,müssen,,,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",müsse,müssest,müsse,müssen,müsset,müssen
+7,1,sollen,,,"shall, to be asked (to do something)","devoir, être invité (à faire quelque chose)",solle,sollest,solle,sollen,sollet,sollen
+8,2,mögen,,,to like,"aimer, apprécier",möge,mögest,möge,mögen,möget,mögen
+9,2,dürfen,,,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",dürfe,dürfest,dürfe,dürfen,dürfet,dürfen
+10,2,wissen,,,to know,savoir,wisse,wissest,wisse,wissen,wisset,wissen
+11,2,machen,,,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)",mache,machest,mache,machen,machet,machen
+12,2,tun,,,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",tue,tuest,tue,tun,tuet,tun
+13,2,sagen,,,"to say, to tell","dire, raconter",sage,sagest,sage,sagen,saget,sagen
+14,2,gehen,,,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)",gehe,gehest,gehe,gehen,gehet,gehen
+15,3,sehen,,,"to see, to see (to something), to realise","voir, se rendre compte",sehe,sehest,sehe,sehen,sehet,sehen
+16,3,geben,,,to give,donner,gebe,gebest,gebe,geben,gebet,geben
+17,3,kommen,,,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire",komme,kommest,komme,kommen,kommet,kommen
+18,3,glauben,,,to believe,croire,glaube,glaubest,glaube,glauben,glaubet,glauben
+19,3,reden,,,to talk,"parler, discuter",rede,redest,rede,reden,redet,reden
+20,3,hören,,,"to hear, to listen to","entendre, écouter",höre,hörest,höre,hören,höret,hören
+21,3,finden,,,to find,trouver,finde,findest,finde,finden,findet,finden
+22,4,bleiben,,,"to remain, to stay",rester,bleibe,bleibest,bleibe,bleiben,bleibet,bleiben
+23,4,brauchen,,,to need,avoir besoin,brauche,brauchest,brauche,brauchen,brauchet,brauchen
+24,4,lieben,,,to love,"aimer, être amoureux de",liebe,liebest,liebe,lieben,liebet,lieben
+25,4,bringen,,,"to bring, to take, to lead","apporter, prendre, conduire",bringe,bringest,bringe,bringen,bringet,bringen
+26,4,stehen,,,"to stand, to be, to appear","être debout, apparaître",stehe,stehest,stehe,stehen,stehet,stehen
+27,4,heißen,,,"to be called, to mean",être appelé,heiße,heißest,heiße,heißen,hei ßet,heißen
+28,4,nehmen,,,"to take, to cause oneself to be (in some state)","prendre, se mettre (dans un état)",nehme,nehmest,nehme,nehmen,nehmet,nehmen
+29,5,sprechen,,,to speak,parler (une langue),spreche,sprechest,spreche,sprechen,sprechet,sprechen
+30,5,bekommen,,,"to receive, to catch (e.g. a cold), to sit well with someone","recevoir, attraper (par exemple un rhume), s'entendre avec quelqu'un",bekomme,bekommest,bekomme,bekommen,bekommet,bekommen
+31,5,vergessen,,,"to forget, to leave (forget to take)",oublier,vergesse,vergessest,vergesse,vergessen,vergesset,vergessen
+32,5,halten,,,"to hold, to stop (a movement), to support, to keep","tenir, arrêter (un mouvement), soutenir, garder",halte,haltest,halte,halten,haltet,halten
+33,5,warten,,,"to wait, to maintain (e.g. a car)","attendre, entretenir (par exemple une voiture)",warte,wartest,warte,warten,wartet,warten
+34,5,kennen,,,"to know, to be acquainted with, to be familiar with","connaître, être familier avec",kenne,kennest,kenne,kennen,kennet,kennen
+35,5,verstehen,,,"to understand, to get along with someone/something","comprendre, s'entendre avec quelqu'un",verstehe,verstehest,verstehe,verstehen,verstehet,verstehen
+36,6,denken,,,"to think, to consider","penser, considérer",denke,denkest,denke,denken,denket,denken
+37,6,leben,,,to live,vivre,lebe,lebest,lebe,leben,lebet,leben
+38,6,arbeiten,,,to work,travailler,arbeite,arbeitest,arbeite,arbeiten,arbeitet,arbeiten
+39,6,essen,,,to eat,manger,esse,essest,esse,essen,esset,essen
+40,6,bieten,,,"to offer, to bid, to arise, to occur (of an opportunity) (refl.)","offrir, enchérir, surgir, se produire (d'une opportunité) (réfl.)",biete,bietest,biete,bieten,bietet,bieten
+41,6,aufstehen,,,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)",stehe auf,stehest auf,stehe auf,stehen auf,stehet auf,stehen auf
+42,6,anziehen,,,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre, habiller quelqu'un, attirer, tirer",ziehe an,ziehest an,ziehe an,ziehen an,ziehet an,ziehen an

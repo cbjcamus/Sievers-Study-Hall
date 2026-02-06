@@ -11,6 +11,7 @@
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
+{% from "macros/unit.html" import render_exercise_empty_row %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -72,12 +73,7 @@
             {{ render_exercise_table_row("adverbien", 28, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 29, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 30, session, answered_questions, total_questions, score, description_templates) }}
-        </table>
-    </div>
-
-    <div class="section">
-        <h2>C1</h2>
-        <table class="exercise-table">
+            {{ render_exercise_empty_row() }}
             {{ render_exercise_table_row("adverbien", 31, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 32, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 33, session, answered_questions, total_questions, score, description_templates) }}
@@ -88,6 +84,12 @@
             {{ render_exercise_table_row("adverbien", 38, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 39, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 40, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>C1</h2>
+        <table class="exercise-table">
             {{ render_exercise_table_row("adverbien", 41, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 42, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 43, session, answered_questions, total_questions, score, description_templates) }}
@@ -98,6 +100,7 @@
             {{ render_exercise_table_row("adverbien", 48, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 49, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 50, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
             {{ render_exercise_table_row("adverbien", 51, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 52, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 53, session, answered_questions, total_questions, score, description_templates) }}
@@ -108,6 +111,28 @@
             {{ render_exercise_table_row("adverbien", 58, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 59, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adverbien", 60, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("adverbien", 61, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 62, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 63, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 64, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 65, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 66, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 67, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 68, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 69, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 70, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("adverbien", 71, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 72, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 73, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 74, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 75, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 76, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 77, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 78, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 79, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("adverbien", 80, session, answered_questions, total_questions, score, description_templates) }}
          </table>
     </div>
 

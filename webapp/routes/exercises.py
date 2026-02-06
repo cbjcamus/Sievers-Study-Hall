@@ -24,7 +24,7 @@ from users.questions.normalization import get_correct_answer, get_list_of_correc
 from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, get_question_from_incorrect_answer,
                                              get_options_for_multiple_choice_exercises)
 from users.session_management.logging import log_question_flagged
-from users.session_management.verification_session import init_session_key
+from users.session_management.verification_session import init_session_key, is_key_in_session
 
 from webapp.i18n import get_language
 
@@ -32,6 +32,7 @@ from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SU
 from webapp.content.application.text import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
     YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
     ADDITIONAL_HELP, CONSULT_FAQ, NOT_AUTHENTICATED
+from webapp.content.application.popup import get_popup_title, get_popup_text
 
 from ..content.unit.unit_content_by_language import GUIDANCE_UNIT
 from webapp.content.unit.unit_page import UNIT_PAGE
@@ -58,7 +59,10 @@ def guidance(unit, exercise):
         feedbacks = []
 
         register_result(session, unit, exercise, feedback)
-        update_progress_in_session(session, unit)
+
+        if current_user.is_authenticated:
+            update_progress_in_session(session, unit)
+
         next_exercise = get_next_exercise(unit, exercise, highest_exercise)
         next_exercise_text = NEXT_EXERCISE[language]
 
@@ -160,7 +164,9 @@ def exercise(unit, exercise):
             incorrect_questions = []
 
         register_result(session, unit, exercise, feedback)
-        update_progress_in_session(session, unit)
+
+        if current_user.is_authenticated:
+            update_progress_in_session(session, unit)
 
         next_exercise = get_next_exercise(unit, exercise, highest_exercise)
         next_exercise_text = NEXT_EXERCISE[language]
@@ -265,6 +271,13 @@ def exercise(unit, exercise):
     else:
         guidance_popup = ""
 
+    if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
+        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'])
+        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'])
+    else:
+        clearance_popup_title = None
+        clearance_popup_text = None
+
     if is_exercise_multiple_choice(unit, exercise) is True:
 
         options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_data)
@@ -297,6 +310,8 @@ def exercise(unit, exercise):
                                current_user=current_user,
                                icon_full=get_filename_full_bookmark(),
                                icon_empty=get_filename_empty_bookmark(),
+                               clearance_popup_title=clearance_popup_title,
+                               clearance_popup_text=clearance_popup_text,
                                )
 
     return render_template("exercise/exercise_input.html",
@@ -328,6 +343,8 @@ def exercise(unit, exercise):
                            current_user=current_user,
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
+                           clearance_popup_title=clearance_popup_title,
+                           clearance_popup_text=clearance_popup_text,
                            )
 
 
@@ -446,7 +463,9 @@ def exercise_feedback(unit, exercise):
             incorrect_questions = []
 
         register_result(session, unit, exercise, feedback)
-        update_progress_in_session(session, unit)
+
+        if current_user.is_authenticated:
+            update_progress_in_session(session, unit)
 
         next_exercise = get_next_exercise(unit, exercise, highest_exercise)
         next_exercise_text = NEXT_EXERCISE[language]
@@ -549,6 +568,13 @@ def exercise_feedback(unit, exercise):
     else:
         guidance_popup = ""
 
+    if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
+        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'])
+        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'])
+    else:
+        clearance_popup_title = None
+        clearance_popup_text = None
+
     if is_exercise_multiple_choice(unit, exercise) is True:
 
         return render_template("exercise/feedback_multiple_choice.html",
@@ -577,6 +603,8 @@ def exercise_feedback(unit, exercise):
                                back_to=BACK_TO[language],
                                icon_full=get_filename_full_bookmark(),
                                icon_empty=get_filename_empty_bookmark(),
+                               clearance_popup_title=clearance_popup_title,
+                               clearance_popup_text=clearance_popup_text,
                                )
 
     return render_template("exercise/feedback_input.html",
@@ -605,6 +633,8 @@ def exercise_feedback(unit, exercise):
                            back_to=BACK_TO[language],
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
+                           clearance_popup_title=clearance_popup_title,
+                           clearance_popup_text=clearance_popup_text,
                            )
 
 
@@ -621,6 +651,8 @@ def reset_exercise(unit, exercise):
             db.session.delete(row)
             db.session.commit()
 
+        update_progress_in_session(session, unit)
+
     else:
         unit_dict = session.get(unit, {})
         unit_dict.pop(str(exercise), None)
@@ -631,8 +663,6 @@ def reset_exercise(unit, exercise):
 
         session.pop(f"feedback", None)
         session.modified = True
-
-    update_progress_in_session(session, unit)
 
     guidance = request.form.get('guidance') == 'true'
 
@@ -741,51 +771,3 @@ def toggle_bookmark():
 
     next_url = request.form.get("next") or request.referrer or url_for("routes.home")
     return redirect(next_url)
-
-'''
-@routes_bp.route("/bookmark/toggle", methods=["POST"])
-def toggle_bookmark():
-    unit = request.form["unit"]
-    exercise = int(request.form["exercise"])
-    level = get_level_from_exercise(unit, exercise)
-    result = request.form["result"]
-    user_answer = request.form.get("user_answer") or ""
-    feedback_message = request.form["feedback_message"]
-
-    bookmark = Bookmark.query.filter_by(
-        user_id=current_user.id,
-        unit=unit,
-        exercise=exercise,
-        level=level,
-        result=result,
-        user_answer=user_answer,
-        feedback_message=feedback_message,
-    ).first()
-
-    bookmarked = False
-
-    if bookmark:
-        db.session.delete(bookmark)
-    else:
-        bookmark = Bookmark(
-            user_id=current_user.id,
-            unit=unit,
-            exercise=exercise,
-            level=level,
-            result=result,
-            user_answer=user_answer,
-            feedback_message=feedback_message,
-        )
-        db.session.add(bookmark)
-        bookmarked = True
-
-    db.session.commit()
-
-    # If it's an AJAX request, return JSON
-    if request.headers.get("X-Requested-With") == "XMLHttpRequest":
-        return jsonify({"bookmarked": bookmarked})
-
-    # Fallback: normal POST -> redirect
-    next_url = request.form.get("next") or request.referrer or url_for("routes.home")
-    return redirect(next_url)
-'''

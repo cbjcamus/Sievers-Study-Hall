@@ -42,9 +42,10 @@ def home():
         session['progress'] = {}
 
     progress = session['progress']
-    for unit in units:
-        if unit not in progress:
-            update_progress_in_session(session, unit)
+    if current_user.is_authenticated:
+        for unit in units:
+            if unit not in progress:
+                update_progress_in_session(session, unit)
 
     session.modified = True
 
@@ -58,6 +59,7 @@ def home():
                            highest_exercise=highest_exercise,
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
                            meta_description=meta_description,
+                           user_is_connected=current_user.is_authenticated,
                            )
 
 
@@ -141,7 +143,8 @@ for unit in units:
             introduction = INTRODUCTION[language].get(unit, {})
             meta_description = META_DESCRIPTION[language]
 
-            update_progress_in_session(session, unit)
+            if current_user.is_authenticated:
+                update_progress_in_session(session, unit)
 
             return render_template(template,
                                    title_page=title_page,

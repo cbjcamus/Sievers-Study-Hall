@@ -351,31 +351,31 @@ FEEDBACK_EN = {
     praepositionen_artikel: {
         1: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         2: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         3: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         4: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         5: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         6: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         7: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         8: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
         9: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br>{case_english}, {gender_english} → {correct_answers}",
+           "<br><br>{explanation_english}",
     },
 
     praepositionen_adverbien: {
@@ -583,74 +583,94 @@ FEEDBACK_EN = {
     },
 
     konnektoren: {
-        1: "{english} ({case_english}) → {correct_answers} ",
+        1: "{english} ({case_english}) → {correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         2: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
-        3: "{english} ({case_english}) → {correct_answers} ",
+        3: "{english} ({case_english}) → {correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         4: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
-        5: "{english} ({case_english}) → {correct_answers} ",
+        5: "{english} ({case_english}) → {correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        7: "{english} ({case_english}) → {correct_answers} ",
+        7: "{english} ({case_english}) → {correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         8: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        9: "{english} ({case_english}) → {correct_answers} ",
+        9: "{english} ({case_english}) → {correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         10: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         11: "{english} = {correct_answers}",
 
-        12: "{english} ({case_english}) → {correct_answers} ",
+        12: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         13: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        14: "{english} ({case_english}) → {correct_answers} ",
+        14: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         15: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        16: "{english} ({case_english}) → {correct_answers} ",
+        16: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         17: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         18: "{english} = {correct_answers}",
 
-        19: "{english} ({case_english}) → {correct_answers} ",
+        19: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         20: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        21: "{english} ({case_english}) → {correct_answers} ",
+        21: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         22: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        23: "{english} ({case_english}) → {correct_answers} ",
+        23: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         24: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        25: "{english} ({case_english}) → {correct_answers} ",
+        25: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         26: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        27: "{english} = {correct_answers}",
-        28: "{english} = {correct_answers}",
+        27: "{english} ({case_english}) → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        28: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        29: "{english} = {correct_answers}",
+        30: "{english} = {correct_answers}",
+        31: "{english} = {correct_answers}",
+        32: "{english} = {correct_answers}",
     },
 
     fragen: {
@@ -847,6 +867,58 @@ FEEDBACK_EN = {
             "<br><br>{english}"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+
+        61: "{english} = {correct_answers}",
+        62: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        63: "{english} = {correct_answers}",
+        64: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        65: "{english} = {correct_answers}",
+        66: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        67: "{english} = {correct_answers}",
+        68: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        69: "{english} = {correct_answers}",
+        70: "{german} ↔ {correct_answer}"
+            "<br><br>{english}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+
+        71: "{english} = {correct_answers}",
+        72: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        73: "{english} = {correct_answers}",
+        74: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        75: "{english} = {correct_answers}",
+        76: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        77: "{english} = {correct_answers}",
+        78: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        79: "{english} = {correct_answers}",
+        80: "{german} ↔ {correct_answer}"
+            "<br><br>{english}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     wortstellung: {
@@ -962,17 +1034,22 @@ FEEDBACK_EN = {
     adjektive_konjunktionen: {
         1: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br><i>{explanation_english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
         2: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br><i>{explanation_english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
         3: "{german}"
            "<br><br><i>{english}</i>"
-           "<br><br><i>{explanation_english}</i>"
+           "<br><br>{explanation_english}"
+           "<br><br>Correct answer(s): {correct_answers}",
+
+        4: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
     },
 
@@ -1473,10 +1550,107 @@ FEEDBACK_EN = {
         58: "{root_english} → {previous_question}"
             "<br><br>{english} → {correct_answer}"
             "<br><br>Correct answer(s): {correct_answers}",
+
         59: "{root_english} → {previous_question}"
             "<br><br>{english} → {correct_answer}"
             "<br><br>Correct answer(s): {correct_answers}",
         60: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        61: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        62: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        63: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        64: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        65: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        66: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        67: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        68: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        69: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        70: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        71: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        72: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        73: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        74: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        75: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        76: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        77: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        78: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        79: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        80: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        81: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        82: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        83: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        84: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        85: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        86: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        87: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        88: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        89: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        90: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        91: "{root_english} → {previous_question}"
+            "<br><br>{english} → {correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        92: "{root_english} → {previous_question}"
             "<br><br>{english} → {correct_answer}"
             "<br><br>Correct answer(s): {correct_answers}",
     },
@@ -2189,6 +2363,12 @@ FEEDBACK_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>Rule: {explanation_english}",
         25: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Rule: {explanation_english}",
+        26: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Rule: {explanation_english}",
+        27: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Exception to the rule: {explanation_english}",
     },

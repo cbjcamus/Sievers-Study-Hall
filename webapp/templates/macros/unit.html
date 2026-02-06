@@ -8,3 +8,12 @@
         <td>{{ description_templates[unit].get(exercise, "") | safe }}</td>
     </tr>
 {% endmacro %}
+
+{% macro render_exercise_empty_row() %}
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+{% endmacro %}

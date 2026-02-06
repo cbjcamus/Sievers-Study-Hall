@@ -1,14 +1,18 @@
-{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise) %}
+{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise, user_is_connected) %}
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
         <td>{{ unit_stars[unit] | safe }}</td>
-        <td>{{ completed_exercises[unit] }}/{{ highest_exercise[unit] }}</td>
+        {% if user_is_connected %}
+            <td>{{ completed_exercises[unit] }}/{{ highest_exercise[unit] }}</td>
+        {% else %}
+            <td></td>
+        {% endif %}
         <!-- <td></td>-->
         <td>{{ home_description[unit] | safe }}</td>
     </tr>
 {% endmacro %}
 
-{% macro render_unit_table_row_clean(unit, unit_page, title_page, unit_stars, completed_exercises, highest_exercise) %}
+{% macro render_unit_table_row_not_connected(unit, unit_page, title_page, unit_stars, completed_exercises, highest_exercise) %}
     <tr>
         <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
         <td>{{ unit_stars[unit] | safe }}</td>

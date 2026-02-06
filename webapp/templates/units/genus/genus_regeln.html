@@ -11,6 +11,7 @@
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
+{% from "macros/unit.html" import render_exercise_empty_row %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -73,6 +74,8 @@
             {{ render_exercise_table_row("genus_regeln", 23, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 24, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("genus_regeln", 25, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 26, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus_regeln", 27, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 

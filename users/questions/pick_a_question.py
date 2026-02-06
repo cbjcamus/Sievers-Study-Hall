@@ -140,10 +140,10 @@ def is_exercise_finished(session, unit, exercise):
         if set(data["Nr"].astype(str)) == answered_nrs:
             return True
 
-    if pick_a_question(session, unit, exercise) is None:
+    if is_key_in_exercise(session, unit, exercise, 'result'):
         return True
 
-    if is_key_in_exercise(session, unit, exercise, 'result'):
+    if pick_a_question(session, unit, exercise) is None:
         return True
 
     else:

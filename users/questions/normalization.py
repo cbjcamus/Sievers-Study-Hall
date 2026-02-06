@@ -1,5 +1,5 @@
 import unicodedata
-
+import string
 import pandas as pd
 from flask import session, request
 
@@ -76,25 +76,20 @@ def normalize_answer(input_str, unit):
     """
 
     normalized_str = input_str.strip().lower()
-    normalized_str = remove_comma(normalized_str)
-    normalized_str = normalize_umlaut(normalized_str)
-    normalized_str = replace_umlaut(normalized_str)
+    normalized_str = remove_punctuation(normalized_str)
+    normalized_str = replace_german_characters(normalized_str)
     normalized_str = search_for_main_synonym(normalized_str, unit)
-    normalized_str = replace_sharp_s(normalized_str)
     return normalized_str
 
 
-def replace_sharp_s(input_str):
+def remove_punctuation(input_str: str) -> str:
     """
-    Replaces the German sharp 'ß' character with 'ss' in the input string.
-
-    Args:
-        input_str (str): The string in which to replace 'ß'.
-
-    Returns:
-        str: The string with all 'ß' characters replaced by 'ss'.
+    Removes all punctuation from the input string and normalizes spaces.
     """
-    return input_str.replace("ß", "ss")
+    translator = str.maketrans("", "", string.punctuation)
+    output_str = input_str.translate(translator)
+    output_str = " ".join(output_str.split())
+    return output_str
 
 
 def remove_comma(input_str):
@@ -110,6 +105,19 @@ def remove_comma(input_str):
     output_str = input_str.replace(",", "")
     output_str = " ".join(output_str.split())
     return output_str
+
+
+def replace_sharp_s(input_str):
+    """
+    Replaces the German sharp 'ß' character with 'ss' in the input string.
+
+    Args:
+        input_str (str): The string in which to replace 'ß'.
+
+    Returns:
+        str: The string with all 'ß' characters replaced by 'ss'.
+    """
+    return input_str.replace("ß", "ss")
 
 
 def normalize_umlaut(input_str):
@@ -144,6 +152,13 @@ def replace_umlaut(input_str):
     return output_str
 
 
+def replace_german_characters(input_string):
+    output_string = normalize_umlaut(input_string)
+    output_string = replace_umlaut(output_string)
+    output_string = replace_sharp_s(output_string)
+    return output_string
+
+
 def get_list_of_correct_answers(correct_answer, unit):
     """
     Returns a comma-separated list of all valid correct answers for a given input.
@@ -164,12 +179,9 @@ def get_list_of_correct_answers(correct_answer, unit):
     """
     if "/" in correct_answer:
         answers = correct_answer.split("/")
-        # answers = [normalize_answer(answer, unit) for answer in answers]
-        answers = [answer for answer in answers]
         return ', '.join(answers)
 
     else:
-        # correct_answer = lowercase_first_letter(correct_answer)
         synonyms = get_list_of_synonyms_for_feedback(lowercase_first_letter(correct_answer), unit)
         if not synonyms:
             return correct_answer
@@ -211,10 +223,10 @@ def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
     """
     df_synonyms = df_synonyms[df_synonyms['unit'] == unit].copy()
     df_synonyms['input'] = df_synonyms['input'].str.lower()
-    df_synonyms['input'] = [replace_umlaut(normalize_umlaut(entry)) for entry in df_synonyms['input']]
+    df_synonyms['input'] = [replace_german_characters(entry) for entry in df_synonyms['input']]
 
     mapping = dict(zip(df_synonyms["input"], df_synonyms["output"]))
 
     main_synonym = mapping.get(input_str, input_str).lower()
-    main_synonym = replace_umlaut(normalize_umlaut(main_synonym))
+    main_synonym = replace_german_characters(main_synonym)
     return main_synonym

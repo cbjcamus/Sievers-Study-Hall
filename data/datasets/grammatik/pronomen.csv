@@ -91,7 +91,7 @@ Nr,exercise,question,answer,german,english,french,person,case_english,case_frenc
 90,4,Der Hund hat _____ sofort erkannt.,uns,Der Hund hat uns sofort erkannt.,The dog recognized us immediately.,Le chien nous a reconnu immédiatement.,Uns,Accusative,Accusatif,,
 91,4,Morgen nimmt der Chef _____ in sein Büro mit.,uns,Morgen nimmt der Chef uns in sein Büro mit.,Tomorrow the boss will take us to his office.,"Demain, le patron nous emmènera à son bureau.",Uns,Accusative,Accusatif,,
 92,4,"Wenn du _____ brauchst, ruf einfach an.",uns,"Wenn du uns brauchst, ruf einfach an.","If you need us, just call.","Si vous avez besoin de nous, appelez-nous.",Uns,Accusative,Accusatif,,
-93,4,Ich habe _____ gestern in der Stadt getroffen.,uns,Ich habe uns gestern in der Stadt getroffen.,I met us in town yesterday.,Je nous ai rencontré en ville hier.,Uns,Accusative,Accusatif,,
+93,4,Wir haben _____ gestern in der Stadt getroffen.,uns,Wir haben uns gestern in der Stadt getroffen.,We met in town yesterday.,Nous nous sommes rencontrés hier en ville.,Uns,Accusative,Accusatif,,
 94,4,Die Lehrerin hat _____ gestern gelobt.,euch,Die Lehrerin hat euch gestern gelobt.,The teacher praised you yesterday. (Plural),Le professeur t'a félicité hier. (Pluriel),Ihr,Accusative,Accusatif,,
 95,4,Ich werde _____ morgen ins Kino einladen.,euch,Ich werde euch morgen ins Kino einladen.,I'll invite you to the cinema tomorrow. (Plural),Je t'invite au cinéma demain. (Pluriel),Ihr,Accusative,Accusatif,,
 96,4,Der Hund hat _____ im Garten gesehen.,euch,Der Hund hat euch im Garten gesehen.,The dog saw you in the garden. (Plural),Le chien t'a vu dans le jardin. (Pluriel),Ihr,Accusative,Accusatif,,
@@ -175,7 +175,7 @@ Nr,exercise,question,answer,german,english,french,person,case_english,case_frenc
 174,7,Kannst du _____ bitte auf den Tisch legen?,es,Kannst du es bitte auf den Tisch legen?,Can you please put it on the table?,"Peux-tu le mettre sur la table, s'il te plaît ?",Es,Accusative,Accusatif,,
 175,7,Der Hund hat _____ sofort gefressen.,es,Der Hund hat es sofort gefressen.,The dog ate it immediately.,Le chien l'a mangé immédiatement.,Es,Accusative,Accusatif,,
 176,7,"Wenn du _____ brauchst, ruf einfach an.",uns,"Wenn du uns brauchst, ruf einfach an.","If you need us, just call.","Si vous avez besoin de nous, appelez-nous.",Wir,Accusative,Accusatif,,
-177,7,Ich habe _____ gestern in der Stadt getroffen.,uns,Ich habe uns gestern in der Stadt getroffen.,I met us in town yesterday.,Je nous ai rencontré en ville hier.,Wir,Accusative,Accusatif,,
+177,7,Wir haben _____ gestern in der Stadt getroffen.,uns,Wir haben uns gestern in der Stadt getroffen.,We met in town yesterday.,Nous nous sommes rencontrés hier en ville.,Wir,Accusative,Accusatif,,
 178,7,Die Lehrerin hat _____ gestern gelobt.,euch,Die Lehrerin hat euch gestern gelobt.,The teacher praised you yesterday. (Plural),Le professeur t'a félicité hier. (Pluriel),Ihr,Accusative,Accusatif,,
 179,7,Ich werde _____ morgen ins Kino einladen.,euch,Ich werde euch morgen ins Kino einladen.,I'll invite you to the cinema tomorrow. (Plural),Je t'invite au cinéma demain. (Pluriel),Ihr,Accusative,Accusatif,,
 180,7,Der Hund hat _____ im Garten gesehen.,euch,Der Hund hat euch im Garten gesehen.,The dog saw you in the garden. (Plural),Le chien t'a vu dans le jardin. (Pluriel),Ihr,Accusative,Accusatif,,
@@ -398,7 +398,7 @@ Nr,exercise,question,answer,german,english,french,person,case_english,case_frenc
 397,13,Kannst du _____ bitte auf den Tisch legen?,es,Kannst du es bitte auf den Tisch legen?,Can you please put it on the table?,"Peux-tu le mettre sur la table, s'il te plaît ?",Es,Accusative,Accusatif,,
 398,13,Der Hund hat _____ sofort gefressen.,es,Der Hund hat es sofort gefressen.,The dog ate it immediately.,Le chien l'a mangé immédiatement.,Es,Accusative,Accusatif,,
 399,13,"Wenn du _____ brauchst, ruf einfach an.",uns,"Wenn du uns brauchst, ruf einfach an.","If you need us, just call.","Si vous avez besoin de nous, appelez-nous.",Wir,Accusative,Accusatif,,
-400,13,Ich habe _____ gestern in der Stadt getroffen.,uns,Ich habe uns gestern in der Stadt getroffen.,I met us in town yesterday.,Je nous ai rencontré en ville hier.,Wir,Accusative,Accusatif,,
+400,13,Wir haben _____ gestern in der Stadt getroffen.,uns,Wir haben uns gestern in der Stadt getroffen.,We met in town yesterday.,Nous nous sommes rencontrés hier en ville.,Wir,Accusative,Accusatif,,
 401,13,Die Lehrerin hat _____ gestern gelobt.,euch,Die Lehrerin hat euch gestern gelobt.,The teacher praised you yesterday. (Plural),Le professeur t'a félicité hier. (Pluriel),Ihr,Accusative,Accusatif,,
 402,13,Ich werde _____ morgen ins Kino einladen.,euch,Ich werde euch morgen ins Kino einladen.,I'll invite you to the cinema tomorrow. (Plural),Je t'invite au cinéma demain. (Pluriel),Ihr,Accusative,Accusatif,,
 403,13,Der Hund hat _____ im Garten gesehen.,euch,Der Hund hat euch im Garten gesehen.,The dog saw you in the garden. (Plural),Le chien t'a vu dans le jardin. (Pluriel),Ihr,Accusative,Accusatif,,
@@ -927,60 +927,60 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 854,25,"Japan, _____ die besten Sushi-Rezepte kommen, ist weltweit für seine Küche bekannt.",woher,"Japan, woher die besten Sushi-Rezepte kommen, ist weltweit für seine Küche bekannt.","Japan, where the best sushi recipes come from, is known worldwide for its cuisine.","Le Japon, d'où proviennent les meilleures recettes de sushi, est connu dans le monde entier pour sa cuisine.",,,,,
 855,25,"Wien, _____ die klassischen Walzer ihren Ursprung haben, ist die Hauptstadt der Musik.",woher,"Wien, woher die klassischen Walzer ihren Ursprung haben, ist die Hauptstadt der Musik.","Vienna, where the classical waltzes originate, is the capital of music.","Vienne, berceau des valses classiques, est la capitale de la musique.",,,,,
 856,25,"Indien, _____ der beste Tee importiert wird, ist ein Land mit langer Teetradition.",woher,"Indien, woher der beste Tee importiert wird, ist ein Land mit langer Teetradition.","India, from where the best tea is imported, is a country with a long tea tradition.","L’Inde, d’où est importé le meilleur thé, est un pays avec une longue tradition du thé.",,,,,
-857,26,,meinen,mein,mine,,,Accusative,Accusatif,Masculine,Masculin
-858,26,,meins,mein,mine,,,Accusative,Accusatif,Neuter,Neutre
-859,26,,meine,mein,mine,,,Accusative,Accusatif,Feminine,Féminin
-860,26,,meine,mein,mine,,,Accusative,Accusatif,Plural,Pluriel
-861,26,,deinen,dein,yours - Singular,,,Accusative,Accusatif,Masculine,Masculin
-862,26,,deins,dein,yours - Singular,,,Accusative,Accusatif,Neuter,Neutre
-863,26,,deine,dein,yours - Singular,,,Accusative,Accusatif,Feminine,Féminin
-864,26,,deine,dein,yours - Singular,,,Accusative,Accusatif,Plural,Pluriel
-865,26,,seinen,sein,his/its,,,Accusative,Accusatif,Masculine,Masculin
-866,26,,seins,sein,his/its,,,Accusative,Accusatif,Neuter,Neutre
-867,26,,seine,sein,his/its,,,Accusative,Accusatif,Feminine,Féminin
-868,26,,seine,sein,his/its,,,Accusative,Accusatif,Plural,Pluriel
-869,26,,ihren,ihre,hers,,,Accusative,Accusatif,Masculine,Masculin
-870,26,,ihres,ihre,hers,,,Accusative,Accusatif,Neuter,Neutre
-871,26,,ihre,ihre,hers,,,Accusative,Accusatif,Feminine,Féminin
-872,26,,ihre,ihre,hers,,,Accusative,Accusatif,Plural,Pluriel
-873,26,,meinem,mein,mine,,,Dative,Datif,Masculine,Masculin
-874,26,,meinem,mein,mine,,,Dative,Datif,Neuter,Neutre
-875,26,,meiner,mein,mine,,,Dative,Datif,Feminine,Féminin
-876,26,,meinen,mein,mine,,,Dative,Datif,Plural,Pluriel
-877,26,,deinem,dein,yours - Singular,,,Dative,Datif,Masculine,Masculin
-878,26,,deinem,dein,yours - Singular,,,Dative,Datif,Neuter,Neutre
-879,26,,deiner,dein,yours - Singular,,,Dative,Datif,Feminine,Féminin
-880,26,,deinen,dein,yours - Singular,,,Dative,Datif,Plural,Pluriel
-881,26,,seinem,sein,his/its,,,Dative,Datif,Masculine,Masculin
-882,26,,seinem,sein,his/its,,,Dative,Datif,Neuter,Neutre
-883,26,,seiner,sein,his/its,,,Dative,Datif,Feminine,Féminin
-884,26,,seinen,sein,his/its,,,Dative,Datif,Plural,Pluriel
-885,26,,ihrem,ihre,hers,,,Dative,Datif,Masculine,Masculin
-886,26,,ihrem,ihre,hers,,,Dative,Datif,Neuter,Neutre
-887,26,,ihrer,ihre,hers,,,Dative,Datif,Feminine,Féminin
-888,26,,ihren,ihre,hers,,,Dative,Datif,Plural,Pluriel
-889,26,,meiner,mein,mine,,,Nominative,Nominatif,Masculine,Masculin
-890,26,,meins,mein,mine,,,Nominative,Nominatif,Neuter,Neutre
-891,26,,meine,mein,mine,,,Nominative,Nominatif,Feminine,Féminin
-892,26,,meine,mein,mine,,,Nominative,Nominatif,Plural,Pluriel
-893,26,,deiner,dein,yours - Singular,,,Nominative,Nominatif,Masculine,Masculin
-894,26,,deins,dein,yours - Singular,,,Nominative,Nominatif,Neuter,Neutre
-895,26,,deine,dein,yours - Singular,,,Nominative,Nominatif,Feminine,Féminin
-896,26,,deine,dein,yours - Singular,,,Nominative,Nominatif,Plural,Pluriel
-897,26,,seiner,sein,his/its,,,Nominative,Nominatif,Masculine,Masculin
-898,26,,seins,sein,his/its,,,Nominative,Nominatif,Neuter,Neutre
-899,26,,seine,sein,his/its,,,Nominative,Nominatif,Feminine,Féminin
-900,26,,seine,sein,his/its,,,Nominative,Nominatif,Plural,Pluriel
-901,26,,ihrer,ihre,hers,,,Nominative,Nominatif,Masculine,Masculin
-902,26,,ihres,ihre,hers,,,Nominative,Nominatif,Neuter,Neutre
-903,26,,ihre,ihre,hers,,,Nominative,Nominatif,Feminine,Féminin
-904,26,,ihre,ihre,hers,,,Nominative,Nominatif,Plural,Pluriel
+857,26,,meinen,mein,mine,"le mien, la mienne",,Accusative,Accusatif,Masculine,Masculin
+858,26,,meines,mein,mine,"le mien, la mienne",,Accusative,Accusatif,Neuter,Neutre
+859,26,,meine,mein,mine,"le mien, la mienne",,Accusative,Accusatif,Feminine,Féminin
+860,26,,meine,mein,mine,"les miens, les miennes",,Accusative,Accusatif,Plural,Pluriel
+861,26,,deinen,dein,yours - Singular,"le tien, la tienne",,Accusative,Accusatif,Masculine,Masculin
+862,26,,deines,dein,yours - Singular,"le tien, la tienne",,Accusative,Accusatif,Neuter,Neutre
+863,26,,deine,dein,yours - Singular,"le tien, la tienne",,Accusative,Accusatif,Feminine,Féminin
+864,26,,deine,dein,yours - Singular,"les tiens, les tiennes",,Accusative,Accusatif,Plural,Pluriel
+865,26,,seinen,sein,his/its,"le sien, la sienne",,Accusative,Accusatif,Masculine,Masculin
+866,26,,seins,sein,his/its,"le sien, la sienne",,Accusative,Accusatif,Neuter,Neutre
+867,26,,seine,sein,his/its,"le sien, la sienne",,Accusative,Accusatif,Feminine,Féminin
+868,26,,seine,sein,his/its,"les siens, les siennes",,Accusative,Accusatif,Plural,Pluriel
+869,26,,ihren,ihre,hers,"le sien, la sienne",,Accusative,Accusatif,Masculine,Masculin
+870,26,,ihres,ihre,hers,"le sien, la sienne",,Accusative,Accusatif,Neuter,Neutre
+871,26,,ihre,ihre,hers,"le sien, la sienne",,Accusative,Accusatif,Feminine,Féminin
+872,26,,ihre,ihre,hers,"les siens, les siennes",,Accusative,Accusatif,Plural,Pluriel
+873,26,,meinem,mein,mine,"le mien, la mienne",,Dative,Datif,Masculine,Masculin
+874,26,,meinem,mein,mine,"le mien, la mienne",,Dative,Datif,Neuter,Neutre
+875,26,,meiner,mein,mine,"le mien, la mienne",,Dative,Datif,Feminine,Féminin
+876,26,,meinen,mein,mine,"les miens, les miennes",,Dative,Datif,Plural,Pluriel
+877,26,,deinem,dein,yours - Singular,"le tien, la tienne",,Dative,Datif,Masculine,Masculin
+878,26,,deinem,dein,yours - Singular,"le tien, la tienne",,Dative,Datif,Neuter,Neutre
+879,26,,deiner,dein,yours - Singular,"le tien, la tienne",,Dative,Datif,Feminine,Féminin
+880,26,,deinen,dein,yours - Singular,"les tiens, les tiennes",,Dative,Datif,Plural,Pluriel
+881,26,,seinem,sein,his/its,"le sien, la sienne",,Dative,Datif,Masculine,Masculin
+882,26,,seinem,sein,his/its,"le sien, la sienne",,Dative,Datif,Neuter,Neutre
+883,26,,seiner,sein,his/its,"le sien, la sienne",,Dative,Datif,Feminine,Féminin
+884,26,,seinen,sein,his/its,"les siens, les siennes",,Dative,Datif,Plural,Pluriel
+885,26,,ihrem,ihre,hers,"le sien, la sienne",,Dative,Datif,Masculine,Masculin
+886,26,,ihrem,ihre,hers,"le sien, la sienne",,Dative,Datif,Neuter,Neutre
+887,26,,ihrer,ihre,hers,"le sien, la sienne",,Dative,Datif,Feminine,Féminin
+888,26,,ihren,ihre,hers,"les siens, les siennes",,Dative,Datif,Plural,Pluriel
+889,26,,meiner,mein,mine,"le mien, la mienne",,Nominative,Nominatif,Masculine,Masculin
+890,26,,meines,mein,mine,"le mien, la mienne",,Nominative,Nominatif,Neuter,Neutre
+891,26,,meine,mein,mine,"le mien, la mienne",,Nominative,Nominatif,Feminine,Féminin
+892,26,,meine,mein,mine,"les miens, les miennes",,Nominative,Nominatif,Plural,Pluriel
+893,26,,deiner,dein,yours - Singular,"le tien, la tienne",,Nominative,Nominatif,Masculine,Masculin
+894,26,,deines,dein,yours - Singular,"le tien, la tienne",,Nominative,Nominatif,Neuter,Neutre
+895,26,,deine,dein,yours - Singular,"le tien, la tienne",,Nominative,Nominatif,Feminine,Féminin
+896,26,,deine,dein,yours - Singular,"les tiens, les tiennes",,Nominative,Nominatif,Plural,Pluriel
+897,26,,seiner,sein,his/its,"le sien, la sienne",,Nominative,Nominatif,Masculine,Masculin
+898,26,,seins,sein,his/its,"le sien, la sienne",,Nominative,Nominatif,Neuter,Neutre
+899,26,,seine,sein,his/its,"le sien, la sienne",,Nominative,Nominatif,Feminine,Féminin
+900,26,,seine,sein,his/its,"les siens, les siennes",,Nominative,Nominatif,Plural,Pluriel
+901,26,,ihrer,ihre,hers,"le sien, la sienne",,Nominative,Nominatif,Masculine,Masculin
+902,26,,ihres,ihre,hers,"le sien, la sienne",,Nominative,Nominatif,Neuter,Neutre
+903,26,,ihre,ihre,hers,"le sien, la sienne",,Nominative,Nominatif,Feminine,Féminin
+904,26,,ihre,ihre,hers,"les siens, les siennes",,Nominative,Nominatif,Plural,Pluriel
 905,27,Welchen Stift willst du? – Ich nehme _____.,meinen,Welchen Stift willst du? – Ich nehme meinen.,Which pen do you want? – I’ll take mine.,Quel stylo veux-tu ? – Je prends le mien.,,Accusative,Accusatif,Masculine,Masculin
-906,27,"Du hast ein Handy? – Ja, ich sehe _____ auf dem Tisch.",meins,"Du hast ein Handy? – Ja, ich sehe meins auf dem Tisch.","You have a phone? – Yes, I see mine on the table.","Tu as un téléphone ? – Oui, je vois le mien sur la table.",,Accusative,Accusatif,Neuter,Neutre
+906,27,"Du hast ein Handy? – Ja, ich sehe _____ auf dem Tisch.",meines,"Du hast ein Handy? – Ja, ich sehe meines auf dem Tisch.","You have a phone? – Yes, I see mine on the table.","Tu as un téléphone ? – Oui, je vois le mien sur la table.",,Accusative,Accusatif,Neuter,Neutre
 907,27,Welche Tasche gefällt dir? – Ich mag _____.,meine,Welche Tasche gefällt dir? – Ich mag meine.,Which bag do you like? – I like mine.,Quel sac aimes-tu ? – J’aime le mien.,,Accusative,Accusatif,Feminine,Féminin
 908,27,Wo sind deine Bücher? – Ich suche _____ gerade.,meine,Wo sind deine Bücher? – Ich suche meine gerade.,Where are your books? – I’m looking for mine right now.,Où sont tes livres ? – Je cherche les miens en ce moment.,,Accusative,Accusatif,Plural,Pluriel
 909,27,Ich sehe deinen Bruder. – Ich sehe _____ auch.,deinen,Ich sehe deinen Bruder. – Ich sehe deinen auch.,I see your brother. – I see yours too.,Je vois ton frère. – Je vois le tien aussi.,,Accusative,Accusatif,Masculine,Masculin
-910,27,Welches Fahrrad meinst du? – Ich meine _____.,deins,Welches Fahrrad meinst du? – Ich meine deins.,Which bike do you mean? – I mean yours.,De quel vélo parles-tu ? – Je parle du tien.,,Accusative,Accusatif,Neuter,Neutre
+910,27,Welches Fahrrad meinst du? – Ich meine _____.,deines,Welches Fahrrad meinst du? – Ich meine deines.,Which bike do you mean? – I mean yours.,De quel vélo parles-tu ? – Je parle du tien.,,Accusative,Accusatif,Neuter,Neutre
 911,27,Ich finde meine Tasche nicht. – Vielleicht hast du _____ bei mir vergessen.,deine,Ich finde meine Tasche nicht. – Vielleicht hast du deine bei mir vergessen.,I can't find my bag. – Maybe you left yours at my place.,Je ne trouve pas mon sac. – Peut-être que tu as laissé le tien chez moi.,,Accusative,Accusatif,Feminine,Féminin
 912,27,Ich habe meine Bücher. – Ich habe _____ noch nicht gesehen.,deine,Ich habe meine Bücher. – Ich habe deine noch nicht gesehen.,I have my books. – I haven’t seen yours yet.,J’ai mes livres. – Je n’ai pas encore vu les vôtres.,,Accusative,Accusatif,Plural,Pluriel
 913,27,Ich kenne seinen Bruder. – Ich habe _____ gestern getroffen.,seinen,"Hast du seinen Stift gesehen? Ich glaube, seinen ist hinter.",Have you seen his pen? – I think his is behind.,Tu as vu son stylo ? – Je pense que le sien est derrière.,,Accusative,Accusatif,Masculine,Masculin
@@ -1008,69 +1008,69 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 935,27,Ich erzähle meiner Schwester alles. – Sie erzählt _____ auch alles.,ihrer,Ich erzähle meiner Schwester alles. – Sie erzählt ihrer auch alles.,I tell my sister everything. – She tells hers everything too.,Je dis tout à ma sœur. – Elle dit tout à la sienne aussi.,,Dative,Datif,Feminine,Féminin
 936,27,Ich helfe meinen Freunden. – Und sie hilft _____.,ihren,Ich helfe meinen Freunden. – Und sie hilft ihren.,I help my friends. – And she helps hers.,J'aide mes amis. – Et elle aide les siens.,,Dative,Datif,Plural,Pluriel
 937,27,"Benutze deinen Rucksack, _____ ist schon voll.",meiner,"Benutze deinen Rucksack, meiner ist schon voll.","Use your backpack, mine is already full.","Utilise ton sac à dos, le mien est déjà plein.",,Nominative,Nominatif,Masculine,Masculin
-938,27,Kann ich Ihr Telefon benutzen? _____ hat keinen Akku.,Meins,Kann ich Ihr Telefon benutzen? Meins hat keinen Akku.,Can I use your phone? Mine has no battery.,Puis-je utiliser ton téléphone ? Le mien n'a plus de batterie.,,Nominative,Nominatif,Neuter,Neutre
+938,27,Kann ich Ihr Telefon benutzen? _____ hat keinen Akku.,Meines,Kann ich Ihr Telefon benutzen? Meines hat keinen Akku.,Can I use your phone? Mine has no battery.,Puis-je utiliser ton téléphone ? Le mien n'a plus de batterie.,,Nominative,Nominatif,Neuter,Neutre
 939,27,Ihre Wohnung war sehr beliebt. _____ ist bereits weg.,Meine,Ihre Wohnung war sehr beliebt. Meine ist bereits weg.,Your apartment was very popular. Mine is already gone.,Ton appartement était très prisé. Le mien est déjà parti.,,Nominative,Nominatif,Feminine,Féminin
 940,27,_____ sind draußen im Garten.,Meine,Meine sind draußen im Garten.,Mine are outside in the garden.,Les miennes sont dehors dans le jardin.,,Nominative,Nominatif,Plural,Pluriel
 941,27,Wo sind die Koffer? – _____ steht neben der Tür.,Deiner,Wo sind die Koffer? – Deiner steht neben der Tür.,Where are the suitcases? – Yours is next to the door.,Où sont les valises ? – La tienne est à côté de la porte.,,Nominative,Nominatif,Masculine,Masculin
-942,27,Wir haben jeweils ein Paket erhalten. Hier ist _____.,deins,Wir haben jeweils ein Paket erhalten. Hier ist deins.,We received one package each. Here is yours.,Nous avons reçu un colis chacun. Voici le vôtre.,,Nominative,Nominatif,Neuter,Neutre
+942,27,Wir haben jeweils ein Paket erhalten. Hier ist _____.,deines,Wir haben jeweils ein Paket erhalten. Hier ist deines.,We received one package each. Here is yours.,Nous avons reçu un colis chacun. Voici le vôtre.,,Nominative,Nominatif,Neuter,Neutre
 943,27,Meine Uhr ist rot und _____ ist blau.,deine,Meine Uhr ist rot und deine ist blau.,My watch is red and yours is blue.,Ma montre est rouge et la tienne est bleue.,,Nominative,Nominatif,Feminine,Féminin
 944,27,_____ sind hier auf dem Tisch.,Deine,Deine sind hier auf dem Tisch.,Yours are here on the table.,Les vôtres sont ici sur la table.,,Nominative,Nominatif,Plural,Pluriel
 945,27,_____ ist der schwarze Mantel dort.,Seiner,Seiner ist der schwarze Mantel dort.,His is the black coat over there.,C'est lui qui porte ce manteau noir là-bas.,,Nominative,Nominatif,Masculine,Masculin
-946,27,_____ ist das Auto mit dem kaputten Spiegel.,Seins,Seins ist das Auto mit dem kaputten Spiegel.,His is the car with the broken mirror.,C'est sa voiture avec le rétroviseur cassé.,,Nominative,Nominatif,Neuter,Neutre
+946,27,_____ ist das Auto mit dem kaputten Spiegel.,Seines,Seines ist das Auto mit dem kaputten Spiegel.,His is the car with the broken mirror.,C'est sa voiture avec le rétroviseur cassé.,,Nominative,Nominatif,Neuter,Neutre
 947,27,_____ ist die rote Jacke.,Seine,Seine ist die rote Jacke.,His is the red jacket.,C'est lui qui porte la veste rouge.,,Nominative,Nominatif,Feminine,Féminin
 948,27,_____ sind noch im Schrank.,Seine,Seine sind noch im Schrank.,His are still in the closet.,Les siens sont toujours dans le placard.,,Nominative,Nominatif,Plural,Pluriel
 949,27,_____ ist der rote Schal auf dem Stuhl.,Ihrer,Ihrer ist der rote Schal auf dem Stuhl.,Hers is the red scarf on the chair.,C'est elle qui porte l'écharpe rouge sur la chaise.,,Nominative,Nominatif,Masculine,Masculin
 950,27,_____ ist das helle Zimmer mit dem Balkon.,Ihres,Ihres ist das helle Zimmer mit dem Balkon.,Hers is the bright room with the balcony.,C'est sa chambre lumineuse avec le balcon.,,Nominative,Nominatif,Neuter,Neutre
 951,27,_____ ist die Tasche mit den Blumen.,Ihre,Ihre ist die Tasche mit den Blumen.,Hers is the bag with the flowers.,"C'est le sien, le sac avec les fleurs.",,Nominative,Nominatif,Feminine,Féminin
 952,27,_____ sind die Bücher da drüben.,Ihre,Ihre sind die Bücher da drüben.,Hers are the books over there.,Ce sont ses livres là-bas.,,Nominative,Nominatif,Plural,Pluriel
-953,28,,unseren,unser,,,ours,Accusative,Accusatif,Masculine,Masculin
-954,28,,unseres,unser,,,ours,Accusative,Accusatif,Neuter,Neutre
-955,28,,unsere,unser,,,ours,Accusative,Accusatif,Feminine,Féminin
-956,28,,unsere,unser,,,ours,Accusative,Accusatif,Plural,Pluriel
-957,28,,euren,eure,,,yours - Plural,Accusative,Accusatif,Masculine,Masculin
-958,28,,eures,eure,,,yours - Plural,Accusative,Accusatif,Neuter,Neutre
-959,28,,eure,eure,,,yours - Plural,Accusative,Accusatif,Feminine,Féminin
-960,28,,eure,eure,,,yours - Plural,Accusative,Accusatif,Plural,Pluriel
-961,28,,ihren,ihre,,,theirs,Accusative,Accusatif,Masculine,Masculin
-962,28,,ihres,ihre,,,theirs,Accusative,Accusatif,Neuter,Neutre
-963,28,,ihre,ihre,,,theirs,Accusative,Accusatif,Feminine,Féminin
-964,28,,ihre,ihre,,,theirs,Accusative,Accusatif,Plural,Pluriel
-965,28,,Ihren,Ihre,,,yours - Formal,Accusative,Accusatif,Masculine,Masculin
-966,28,,Ihres,Ihre,,,yours - Formal,Accusative,Accusatif,Neuter,Neutre
-967,28,,Ihre,Ihre,,,yours - Formal,Accusative,Accusatif,Feminine,Féminin
-968,28,,Ihre,Ihre,,,yours - Formal,Accusative,Accusatif,Plural,Pluriel
-969,28,,unserem,unser,,,ours,Dative,Datif,Masculine,Masculin
-970,28,,unserem,unser,,,ours,Dative,Datif,Neuter,Neutre
-971,28,,unserer,unser,,,ours,Dative,Datif,Feminine,Féminin
-972,28,,unseren,unser,,,ours,Dative,Datif,Plural,Pluriel
-973,28,,eurem,eure,,,yours - Plural,Dative,Datif,Masculine,Masculin
-974,28,,eurem,eure,,,yours - Plural,Dative,Datif,Neuter,Neutre
-975,28,,eurer,eure,,,yours - Plural,Dative,Datif,Feminine,Féminin
-976,28,,euren,eure,,,yours - Plural,Dative,Datif,Plural,Pluriel
-977,28,,ihrem,ihre,,,theirs,Dative,Datif,Masculine,Masculin
-978,28,,ihrem,ihre,,,theirs,Dative,Datif,Neuter,Neutre
-979,28,,ihrer,ihre,,,theirs,Dative,Datif,Feminine,Féminin
-980,28,,ihren,ihre,,,theirs,Dative,Datif,Plural,Pluriel
-981,28,,Ihrem,ihre,,,yours - Formal,Dative,Datif,Masculine,Masculin
-982,28,,Ihrem,ihre,,,yours - Formal,Dative,Datif,Neuter,Neutre
-983,28,,Ihrer,ihre,,,yours - Formal,Dative,Datif,Feminine,Féminin
-984,28,,Ihren,ihre,,,yours - Formal,Dative,Datif,Plural,Pluriel
-985,28,,unserer,unser,,,ours,Nominative,Nominatif,Masculine,Masculin
-986,28,,unseres,unser,,,ours,Nominative,Nominatif,Neuter,Neutre
-987,28,,unsere,unser,,,ours,Nominative,Nominatif,Feminine,Féminin
-988,28,,unsere,unser,,,ours,Nominative,Nominatif,Plural,Pluriel
-989,28,,eurer,eure,,,yours - Plural,Nominative,Nominatif,Masculine,Masculin
-990,28,,eures,eure,,,yours - Plural,Nominative,Nominatif,Neuter,Neutre
-991,28,,eure,eure,,,yours - Plural,Nominative,Nominatif,Feminine,Féminin
-992,28,,eure,eure,,,yours - Plural,Nominative,Nominatif,Plural,Pluriel
-993,28,,ihrer,ihre,,,theirs,Nominative,Nominatif,Masculine,Masculin
-994,28,,ihres,ihre,,,theirs,Nominative,Nominatif,Neuter,Neutre
-995,28,,ihre,ihre,,,theirs,Nominative,Nominatif,Feminine,Féminin
-996,28,,ihre,ihre,,,theirs,Nominative,Nominatif,Plural,Pluriel
-997,28,,Ihrer,Ihre,,,yours - Formal,Nominative,Nominatif,Masculine,Masculin
-998,28,,Ihres,Ihre,,,yours - Formal,Nominative,Nominatif,Neuter,Neutre
-999,28,,Ihre,Ihre,,,yours - Formal,Nominative,Nominatif,Feminine,Féminin
-1000,28,,Ihre,Ihre,,,yours - Formal,Nominative,Nominatif,Plural,Pluriel
+953,28,,unseren,unser,ours,"le nôtre, la nôtre",,Accusative,Accusatif,Masculine,Masculin
+954,28,,unseres,unser,ours,"le nôtre, la nôtre",,Accusative,Accusatif,Neuter,Neutre
+955,28,,unsere,unser,ours,"le nôtre, la nôtre",,Accusative,Accusatif,Feminine,Féminin
+956,28,,unsere,unser,ours,les nôtres,,Accusative,Accusatif,Plural,Pluriel
+957,28,,euren,eure,yours - Plural,"le vôtre, la vôtre",,Accusative,Accusatif,Masculine,Masculin
+958,28,,eures,eure,yours - Plural,"le vôtre, la vôtre",,Accusative,Accusatif,Neuter,Neutre
+959,28,,eure,eure,yours - Plural,"le vôtre, la vôtre",,Accusative,Accusatif,Feminine,Féminin
+960,28,,eure,eure,yours - Plural,les vôtres,,Accusative,Accusatif,Plural,Pluriel
+961,28,,ihren,ihre,theirs,"le leur, la leur",,Accusative,Accusatif,Masculine,Masculin
+962,28,,ihres,ihre,theirs,"le leur, la leur",,Accusative,Accusatif,Neuter,Neutre
+963,28,,ihre,ihre,theirs,"le leur, la leur",,Accusative,Accusatif,Feminine,Féminin
+964,28,,ihre,ihre,theirs,les leurs,,Accusative,Accusatif,Plural,Pluriel
+965,28,,Ihren,Ihre,yours - Formal,"le vôtre, la vôtre",,Accusative,Accusatif,Masculine,Masculin
+966,28,,Ihres,Ihre,yours - Formal,"le vôtre, la vôtre",,Accusative,Accusatif,Neuter,Neutre
+967,28,,Ihre,Ihre,yours - Formal,"le vôtre, la vôtre",,Accusative,Accusatif,Feminine,Féminin
+968,28,,Ihre,Ihre,yours - Formal,les vôtres,,Accusative,Accusatif,Plural,Pluriel
+969,28,,unserem,unser,ours,"le nôtre, la nôtre",,Dative,Datif,Masculine,Masculin
+970,28,,unserem,unser,ours,"le nôtre, la nôtre",,Dative,Datif,Neuter,Neutre
+971,28,,unserer,unser,ours,"le nôtre, la nôtre",,Dative,Datif,Feminine,Féminin
+972,28,,unseren,unser,ours,les nôtres,,Dative,Datif,Plural,Pluriel
+973,28,,eurem,eure,yours - Plural,"le vôtre, la vôtre",,Dative,Datif,Masculine,Masculin
+974,28,,eurem,eure,yours - Plural,"le vôtre, la vôtre",,Dative,Datif,Neuter,Neutre
+975,28,,eurer,eure,yours - Plural,"le vôtre, la vôtre",,Dative,Datif,Feminine,Féminin
+976,28,,euren,eure,yours - Plural,les vôtres,,Dative,Datif,Plural,Pluriel
+977,28,,ihrem,ihre,theirs,"le leur, la leur",,Dative,Datif,Masculine,Masculin
+978,28,,ihrem,ihre,theirs,"le leur, la leur",,Dative,Datif,Neuter,Neutre
+979,28,,ihrer,ihre,theirs,"le leur, la leur",,Dative,Datif,Feminine,Féminin
+980,28,,ihren,ihre,theirs,les leurs,,Dative,Datif,Plural,Pluriel
+981,28,,Ihrem,ihre,yours - Formal,"le vôtre, la vôtre",,Dative,Datif,Masculine,Masculin
+982,28,,Ihrem,ihre,yours - Formal,"le vôtre, la vôtre",,Dative,Datif,Neuter,Neutre
+983,28,,Ihrer,ihre,yours - Formal,"le vôtre, la vôtre",,Dative,Datif,Feminine,Féminin
+984,28,,Ihren,ihre,yours - Formal,les vôtres,,Dative,Datif,Plural,Pluriel
+985,28,,unserer,unser,ours,"le nôtre, la nôtre",,Nominative,Nominatif,Masculine,Masculin
+986,28,,unseres,unser,ours,"le nôtre, la nôtre",,Nominative,Nominatif,Neuter,Neutre
+987,28,,unsere,unser,ours,"le nôtre, la nôtre",,Nominative,Nominatif,Feminine,Féminin
+988,28,,unsere,unser,ours,les nôtres,,Nominative,Nominatif,Plural,Pluriel
+989,28,,eurer,eure,yours - Plural,"le vôtre, la vôtre",,Nominative,Nominatif,Masculine,Masculin
+990,28,,eures,eure,yours - Plural,"le vôtre, la vôtre",,Nominative,Nominatif,Neuter,Neutre
+991,28,,eure,eure,yours - Plural,"le vôtre, la vôtre",,Nominative,Nominatif,Feminine,Féminin
+992,28,,eure,eure,yours - Plural,les vôtres,,Nominative,Nominatif,Plural,Pluriel
+993,28,,ihrer,ihre,theirs,"le leur, la leur",,Nominative,Nominatif,Masculine,Masculin
+994,28,,ihres,ihre,theirs,"le leur, la leur",,Nominative,Nominatif,Neuter,Neutre
+995,28,,ihre,ihre,theirs,"le leur, la leur",,Nominative,Nominatif,Feminine,Féminin
+996,28,,ihre,ihre,theirs,les leurs,,Nominative,Nominatif,Plural,Pluriel
+997,28,,Ihrer,Ihre,yours - Formal,"le vôtre, la vôtre",,Nominative,Nominatif,Masculine,Masculin
+998,28,,Ihres,Ihre,yours - Formal,"le vôtre, la vôtre",,Nominative,Nominatif,Neuter,Neutre
+999,28,,Ihre,Ihre,yours - Formal,"le vôtre, la vôtre",,Nominative,Nominatif,Feminine,Féminin
+1000,28,,Ihre,Ihre,yours - Formal,les vôtres,,Nominative,Nominatif,Plural,Pluriel
 1001,29,Ich sehe euren Hund. – Ich sehe _____ auch.,unseren,Ich sehe euren Hund. – Ich sehe unseren auch.,I see your dog. – I see ours too.,Je vois ton chien. – Je vois le nôtre aussi.,,Accusative,Accusatif,Masculine,Masculin
 1002,29,Welches Zelt gehört euch? – _____ steht ganz hinten.,Unseres,Welches Zelt gehört euch? – Unseres steht ganz hinten.,Which tent is yours? – Ours is all the way in the back.,Quelle est ta tente ? – La nôtre est tout au fond.,,Accusative,Accusatif,Neuter,Neutre
 1003,29,Ich nehme meine Tasche. – Holst du _____?,unsere,Ich nehme meine Tasche. – Holst du unsere?,I’ll take my bag. – Will you get ours?,Je prends mon sac. – Tu prends le nôtre ?,,Accusative,Accusatif,Feminine,Féminin
@@ -1201,14 +1201,17 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 1128,100,,,jeder davon,each one of them,,,,,,
 1129,100,,,keiner von Ihnen,none of them,,,,,,
 1130,100,,,keiner davon,none of them,,,,,,
-1131,100,,,eines unter ihnen,one among them,,,,,,
-1132,100,,,keines unter ihnen,none among them,,,,,,
-1133,100,,,,one of whom,,,,,,
-1134,100,,,,most of which,,,,,,
-1135,100,,,,some of which,,,,,,
-1136,100,,,derentwegen,,,,,,,
-1137,100,,,dessentwillen,,,,,,,
-1138,100,,,jedermann,,,,,,,
-1139,100,,,lauter,,,,,,,
-1140,100,,,meinesgleichen,,,,,,,
-1141,100,,,unsereiner,,,,,,,
+1131,100,,,nichts davon,none of them,,,,,,
+1132,100,,,eines unter ihnen,one among them,,,,,,
+1133,100,,,keines unter ihnen,none among them,,,,,,
+1134,100,,,,one of whom,,,,,,
+1135,100,,,,most of which,,,,,,
+1136,100,,,,some of which,,,,,,
+1137,100,,,derentwegen,,,,,,,
+1138,100,,,dessentwillen,,,,,,,
+1139,100,,,jedermann,,,,,,,
+1140,100,,,lauter,,,,,,,
+1141,100,,,meinesgleichen,,,,,,,
+1142,100,,,unsereiner,,,,,,,
+1143,100,,,so etwas,something like that,,,,,,
+1144,100,,,keinerlei,,,,,,,

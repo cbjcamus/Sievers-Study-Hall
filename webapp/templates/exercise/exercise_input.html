@@ -137,6 +137,18 @@
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>
     </div>
 
+    {% if clearance_popup_title %}
+        <div id="popup-overlay" class="popup-overlay" role="dialog" aria-modal="true">
+            <div class="popup-card">
+                <button class="popup-close" aria-label="Close" onclick="document.getElementById('popup-overlay').style.display='none'">
+                  ×
+                </button>
+                <div class="popup-title">{{ clearance_popup_title | safe }}</div>
+                <div class="popup-text">{{ clearance_popup_text | safe }}</div>
+            </div>
+        </div>
+    {% endif %}
+
     <script src="{{ url_for('static', filename='js/guidance.js') }}" defer></script>
 
 </body>

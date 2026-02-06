@@ -56,5 +56,5 @@ META_DESCRIPTION = {
     'english': 'Practice German with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
                'Practice Präpositionen, Artikel, Pronomen, Konnektoren, Adverbien, Genus, Partizip II, Präteritum and much more.',
     'french': 'Pratiquez l’allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-              'Practiquez les Präpositionen, Artikel, Pronomen, Konnektoren, Adverbien, Genus, Partizip II, Präteritum et bien plusMETA_DESCRIPTION[language].get(unit, {}).',
+              'Practiquez les Präpositionen, Artikel, Pronomen, Konnektoren, Adverbien, Genus, Partizip II, Präteritum et bien plus.',
 }

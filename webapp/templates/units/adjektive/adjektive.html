@@ -11,6 +11,7 @@
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
+{% from "macros/unit.html" import render_exercise_empty_row %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -35,13 +36,13 @@
             {{ render_exercise_table_row("adjektive", 9, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 10, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 11, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("adjektive", 12, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>A2</h2>
         <table class="exercise-table">
+            {{ render_exercise_table_row("adjektive", 12, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 13, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 14, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 15, session, answered_questions, total_questions, score, description_templates) }}
@@ -52,19 +53,18 @@
             {{ render_exercise_table_row("adjektive", 20, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 21, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 22, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("adjektive", 23, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 
     <div class="section">
         <h2>B1</h2>
         <table class="exercise-table">
+            {{ render_exercise_table_row("adjektive", 23, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 24, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 25, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 26, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 27, session, answered_questions, total_questions, score, description_templates) }}
             {{ render_exercise_table_row("adjektive", 28, session, answered_questions, total_questions, score, description_templates) }}
-            {{ render_exercise_table_row("adjektive", 29, session, answered_questions, total_questions, score, description_templates) }}
         </table>
     </div>
 

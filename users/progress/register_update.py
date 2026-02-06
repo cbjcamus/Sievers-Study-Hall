@@ -192,7 +192,7 @@ def register_result(session, unit, exercise, feedback):
         db.session.commit()
 
         # Optional: analytics/logging
-        if feedback is not None:
+        if len(feedback) > 0:
             log_exercise_completed(unit, ex_int, score_final, email=current_user.email)
 
         # We don't need to touch session for logged-in users, but it's harmless to clean:
@@ -212,7 +212,7 @@ def register_result(session, unit, exercise, feedback):
         score_exercise = compute_score(session, unit, exercise)
         session[unit][str(exercise)]['result'] = score_exercise
 
-        if feedback is not None:
+        if len(feedback) > 0:
             log_exercise_completed(unit, exercise, score_exercise)
 
         if is_key_in_exercise(session, unit, exercise, 'progress'):

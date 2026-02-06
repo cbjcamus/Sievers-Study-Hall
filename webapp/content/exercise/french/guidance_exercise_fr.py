@@ -15,111 +15,111 @@ guidance_praepositionen_grammatik_isolation = (
     "Pour chaque question, vous recevrez la traduction française d'une préposition allemande."
     "<br><br>Trouvez la préposition qui correspond à la traduction française."
 
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
     "<h2>Exemple</h2>"
     "à cause de, dû à"
-    f"<br><br>{ICON_CHECK} wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CROSS} wegen, aufgrund"
+    f"<br><br> &nbsp; {ICON_CHECK} wegen"
+    f"<br><br> &nbsp; {ICON_CHECK} aufgrund"
+    f"<br><br> &nbsp; {ICON_CROSS} wegen, aufgrund"
 )
 
 guidance_praepositionen_grammatik_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Complétez la phrase allemande avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br>{ICON_WARN} La bonne réponse peut être l'absence de préposition. Dans ce cas, laissez le champ de saisie vide."
-    f"<br><br>{ICON_WARN} La bonne réponse peut inclure un article. Dans ce cas, la forme de la prépositionnelle"
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} La bonne réponse peut être l'absence de préposition. Dans ce cas, laissez le champ de saisie vide."
+    f"<br><br> &nbsp; {ICON_WARN} La bonne réponse peut inclure un article. Dans ce cas, la forme de la prépositionnelle"
     f" contraction (am, ans, vom, zur etc.) ou la forme étendue (an dem etc.) sont correctes."
     
     "<h2>Exemples</h2>"
     "Ich habe _____ Montag Deutschunterricht."
     "<br><br><i>J'ai un cours d'allemand lundi.</i>"
-    f"<br><br>{ICON_CHECK} am"
-    f"<br><br>{ICON_CHECK} an dem"
-    f"<br><br>{ICON_CROSS} an"
+    f"<br><br> &nbsp; {ICON_CHECK} am"
+    f"<br><br> &nbsp; {ICON_CHECK} an dem"
+    f"<br><br> &nbsp; {ICON_CROSS} an"
 
-    "<br><br><br>Ich trinke eine Tasse _____ Kaffee."
+    "<br><br>Ich trinke eine Tasse _____ Kaffee."
     "<br><br><i>Je bois une tasse de café.</i>"
-    f"<br><br>{ICON_CHECK} "
-    f"<br><br>{ICON_CROSS} von"
+    f"<br><br> &nbsp; {ICON_CHECK} "
+    f"<br><br> &nbsp; {ICON_CROSS} von"
 )
 
 guidance_praepositionen_grammatik_synonyms = (
     "Pour chaque question, vous recevrez une préposition allemande."
     "<br><br>Trouvez un synonyme de cette préposition."
 
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
 
     "<h2>Exemple</h2>"
     "wegen"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CHECK} auf Grund"
-    f"<br><br>{ICON_CROSS} aufgrund, auf Grund"
+    f"<br><br> &nbsp; {ICON_CHECK} aufgrund"
+    f"<br><br> &nbsp; {ICON_CHECK} auf Grund"
+    f"<br><br> &nbsp; {ICON_CROSS} aufgrund, auf Grund"
 )
 
 guidance_praepositionen_grammatik_antonym = (
     "Pour chaque question, vous recevrez une préposition allemande."
     "<br>Trouvez un antonyme de cette préposition."
 
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
     "<h2>Exemple</h2>"
     "trotz"
-    f"<br><br>{ICON_CHECK} aufgrund"
-    f"<br><br>{ICON_CHECK} auf Grund"
-    f"<br><br>{ICON_CROSS} aufgrund, auf Grund"
+    f"<br><br> &nbsp; {ICON_CHECK} aufgrund"
+    f"<br><br> &nbsp; {ICON_CHECK} auf Grund"
+    f"<br><br> &nbsp; {ICON_CROSS} aufgrund, auf Grund"
 )
 
 guidance_praepositionen_verben_isolation = (
     "Pour chaque question, vous recevrez un couple verbe-préposition allemand incomplet et sa traduction française."
     "<br><br>Complétez le couple verbe-préposition avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "penser à = denken _____"
-    f"<br><br>{ICON_CHECK} an"
+    f"<br><br> &nbsp; {ICON_CHECK} an"
 )
 
 guidance_praepositionen_verben_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Complétez la phrase allemande avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "Ich denke _____ meine Mutter.</i>"
     "<br><br><i>Je pense à ma mère.</i>"
-    f"<br><br>{ICON_CHECK} an"
+    f"<br><br> &nbsp; {ICON_CHECK} an"
 )
 
 guidance_praepositionen_verben_dawort = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Da- qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "— Vermissen Sie Ihr Land? <br><bt>— Ja, ich denke oft _____."
     "<br><br><i>— Votre pays vous manque-t-il? <br><bt>— Oui, j'y pense souvent.</i>"
-    f"<br><br>{ICON_CHECK} daran"
+    f"<br><br> &nbsp; {ICON_CHECK} daran"
 )
 
 guidance_praepositionen_verben_wowort = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Wo- qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "_____ denkst du?"
     "<br><br><i>À quoi pensez-vous?</i>"
-    f"<br><br>{ICON_CHECK} Woran"
+    f"<br><br> &nbsp; {ICON_CHECK} Woran"
 )
 
 guidance_praepositionen_adjektive_isolation = (
@@ -127,46 +127,46 @@ guidance_praepositionen_adjektive_isolation = (
 
     "<br><br>Complétez le couple adjectif-préposition avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "curieux de = neugierig _____"
-    f"<br><br>{ICON_CHECK} auf"
+    f"<br><br> &nbsp; {ICON_CHECK} auf"
 )
 
 guidance_praepositionen_adjektive_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Complétez la phrase allemande avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "Ich bin neugierig _____ die Ergebnisse der Untersuchung."
     "<br><br><i>Je suis curieux de connaître les résultats de l'enquête.</i>"
-    f"<br><br>{ICON_CHECK} auf"
+    f"<br><br> &nbsp; {ICON_CHECK} auf"
 )
 
 guidance_praepositionen_nomen_isolation = (
     "Pour chaque question, vous recevrez un couple nom-préposition allemand incomplet et sa traduction française."
     "<br><br>Complétez le couple nom-préposition avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "la fierté de = der Stolz _____"
-    f"<br><br>{ICON_CHECK} auf"
+    f"<br><br> &nbsp; {ICON_CHECK} auf"
 )
 
 guidance_praepositionen_nomen_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Complétez la phrase allemande avec la préposition qui convient."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
     
     "<h2>Exemple</h2>"
     "Er zeigte Stolz _____ sein Team nach dem Sieg."
     "<br><br><i>Il a montré sa fierté envers son équipe après la victoire.</i>"
-    f"<br><br>{ICON_CHECK} auf"
+    f"<br><br> &nbsp; {ICON_CHECK} auf"
 )
 
 guidance_artikel_isolation = (
@@ -176,7 +176,7 @@ guidance_artikel_isolation = (
     
     "<h2>Exemple</h2>"
     "der/die/das \u25CF Féminin, Nominatif"
-    f"<br><br>{ICON_CHECK} die"
+    f"<br><br> &nbsp; {ICON_CHECK} die"
 )
 
 guidance_artikel_sentences = (
@@ -188,7 +188,7 @@ guidance_artikel_sentences = (
     "<h2>Exemple</h2>"
     "_____ Woche hat sieben Tage."
     "<br><br><i>La semaine compte sept jours.</i>"
-    f"<br><br>{ICON_CHECK} Die"
+    f"<br><br> &nbsp; {ICON_CHECK} Die"
 )
 
 guidance_pronomen_isolation = (
@@ -197,7 +197,7 @@ guidance_pronomen_isolation = (
 
     "<h2>Exemple</h2>"
     "1re personne du singulier \u25CF Nominatif"
-    f"<br><br>{ICON_CHECK} Ich"
+    f"<br><br> &nbsp; {ICON_CHECK} Ich"
 )
 
 guidance_pronomen_sentences = (
@@ -208,7 +208,7 @@ guidance_pronomen_sentences = (
     "<h2>Exemple</h2>"
     "Heute bin _____ sehr müde."
     "<br><br><i>Aujourd'hui, je suis très fatigué.</i>"
-    f"<br><br>{ICON_CHECK} ich"
+    f"<br><br> &nbsp; {ICON_CHECK} ich"
 )
 
 guidance_pronomen_replacing = (
@@ -218,75 +218,83 @@ guidance_pronomen_replacing = (
     "<h2>Exemple</h2>"
     "Wir besuchen die Schule jeden Tag. \u25CF die Schule"
     "<br><br><i>Nous visitons l'école tous les jours.</i>"
-    f"<br><br>{ICON_CHECK} sie"
-    f"<br><br>{ICON_CROSS} es"
-    f"<br><br>{ICON_CROSS} ihr"
+    f"<br><br> &nbsp; {ICON_CHECK} sie"
+    f"<br><br> &nbsp; {ICON_CROSS} es"
+    f"<br><br> &nbsp; {ICON_CROSS} ihr"
 )
 
 guidance_konnektoren_isolation = (
-    "Pour chaque question, vous recevrez la traduction française d'un connecteur allemand et son type grammatical "
-    " (conjonction, subjonction, adverbe)."
-    "<br><br>Trouvez le connecteur allemand qui correspond à cette traduction et à ce type grammatical."
+    "Pour chaque question, vous recevrez la traduction française d'un connecteur allemand et sa catégorie grammaticale "
+    " (conjonction de coordination, conjonctions de subordination, adverbe, conjonction corrélative)."
+    "<br><br>Trouvez le connecteur allemand qui correspond à cette traduction et à cette catégorie grammaticale."
 
-    f"<br><br>{ICON_WARN} Synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} Ne donnez pas plusieurs réponses, sinon votre réponse sera considérée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Les synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} Tenez compte de la catégorie grammaticale du connecteur. Si votre réponse est une traduction littérale correcte, "
+    f" mais que la catégorie grammaticale est incorrecte, votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Ne donnez pas plusieurs réponses, sinon votre réponse sera considérée comme fausse."
 
     "<h2>Exemple</h2>"
-    "par conséquent, pour cette raison, à cause de cela \u25CF Adverbe"
-    f"<br><br>{ICON_CHECK} deshalb"
-    f"<br><br>{ICON_CHECK} deswegen"
-    f"<br><br>{ICON_CROSS} deshalb, deswegen"
-    f"<br><br>{ICON_CROSS} weshalb"
+    "parce que, car \u25CF Conjonction de coordination"
+    f"<br><br> &nbsp; {ICON_CHECK} denn"
+    f"<br><br> &nbsp; {ICON_CROSS} weil (C'est une conjonction de subordination, pas une conjonction de coordination)"
     f"<br><br>"
     
-    "ainsi que \u25CF Conjonction corrélative"
-    f"<br><br>{ICON_CHECK} sowohl als auch"
-    f"<br><br>{ICON_CROSS} sowohl ... als auch"
+    "pour cette raison, à cause de cela \u25CF Adverbe"
+    f"<br><br> &nbsp; {ICON_CHECK} deshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} deswegen"
+    f"<br><br> &nbsp; {ICON_CROSS} deshalb, deswegen"
+    f"<br><br> &nbsp; {ICON_CROSS} weshalb (C'est une conjonctions de subordination, pas un adverbe)"
+    f"<br><br>"
+    
+    "à la fois ainsi que \u25CF Conjonction corrélative"
+    f"<br><br> &nbsp; {ICON_CHECK} sowohl als auch"
+    f"<br><br> &nbsp; {ICON_CHECK} sowohl ... als auch"
+    f"<br><br> &nbsp; {ICON_CROSS} sowie (C'est une conjonction de coordination, pas une conjonction corrélative)"
 )
 
 guidance_konnektoren_sentences = (
     "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en anglais."
     "<br><br>Il manque un connecteur dans la phrase allemande. Trouvez celui qui convient."
 
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera considérée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera considérée comme fausse."
 
     "<h2>Exemple</h2>"
     "Es regnet stark, _____ nehme ich meinen Regenschirm."
     "<br><br><i>Il pleut fort, donc je prends mon parapluie.</i>"
-    f"<br><br>{ICON_CHECK} deshalb"
-    f"<br><br>{ICON_CHECK} deswegen"
-    f"<br><br>{ICON_CROSS} deshalb, deswegen"
-    f"<br><br>{ICON_CROSS} weshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} deshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} deswegen"
+    f"<br><br> &nbsp; {ICON_CROSS} deshalb, deswegen"
+    f"<br><br> &nbsp; {ICON_CROSS} weshalb"
 )
 
 guidance_konnektoren_synonyms = (
     "Pour chaque question, vous recevrez un connecteur allemand et son type grammatical (conjonction, subjonction, adverbe)."
     "<br><br>Trouvez un synonyme de ce connecteur qui a le même type grammatical."
 
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
 
     "<h2>Exemple</h2>"
     "darum \u25CF Adverbe"
-    f"<br><br>{ICON_CHECK} deshalb"
-    f"<br><br>{ICON_CHECK} deswegen"
-    f"<br><br>{ICON_CROSS} deshalb, deswegen"
-    f"<br><br>{ICON_CROSS} darum"
-    f"<br><br>{ICON_CROSS} weshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} deshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} deswegen"
+    f"<br><br> &nbsp; {ICON_CROSS} deshalb, deswegen"
+    f"<br><br> &nbsp; {ICON_CROSS} darum"
+    f"<br><br> &nbsp; {ICON_CROSS} weshalb"
 )
 
 guidance_fragen_isolation = (
     "Pour chaque question, vous recevrez la traduction française d'un mot interrogatif allemand."
     "<br><br>Trouvez le mot interrogatif allemand qui correspond à cette traduction."
     
-    f"<br><br>{ICON_WARN} Synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera considérée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera considérée comme fausse."
 
     "<h2>Exemple</h2>"
     "Pourquoi"
-    f"<br><br>{ICON_CHECK} Warum"
-    f"<br><br>{ICON_CHECK} Weshalb"
-    f"<br><br>{ICON_CROSS} Warum, Weshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} Warum"
+    f"<br><br> &nbsp; {ICON_CHECK} Weshalb"
+    f"<br><br> &nbsp; {ICON_CROSS} Warum, Weshalb"
 )
 
 guidance_fragen_sentences = (
@@ -294,17 +302,17 @@ guidance_fragen_sentences = (
 
     "<br><br>Il manque un mot interrogatif dans la phrase allemande. Trouvez celui qui convient."
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
 
     "<h2>Exemple</h2>"
     "_____ lernst du Deutsch?"
     "<br><br><i>Pourquoi apprenez-vous l'allemand?</i>"
-    f"<br><br>{ICON_CHECK} Warum"
-    f"<br><br>{ICON_CHECK} Weshalb"
-    f"<br><br>{ICON_CROSS} Warum, Weshalb"
+    f"<br><br> &nbsp; {ICON_CHECK} Warum"
+    f"<br><br> &nbsp; {ICON_CHECK} Weshalb"
+    f"<br><br> &nbsp; {ICON_CROSS} Warum, Weshalb"
 )
 
 guidance_adverbien_isolation = (
@@ -312,123 +320,123 @@ guidance_adverbien_isolation = (
 
     "<br><br>Trouvez l'adverbe allemand correspondant à cette traduction."
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     "<h2>Exemple</h2>"
     "almost"
-    f"<br><br>{ICON_CHECK} fast"
-    f"<br><br>{ICON_CHECK} nahezu"
-    f"<br><br>{ICON_CROSS} fast, nahezu"
+    f"<br><br> &nbsp; {ICON_CHECK} fast"
+    f"<br><br> &nbsp; {ICON_CHECK} nahezu"
+    f"<br><br> &nbsp; {ICON_CROSS} fast, nahezu"
 )
 
 guidance_adverbien_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande et sa traduction française."
     "<br><br>Il manque un adverbe dans la phrase allemande. Trouvez celui qui convient."
 
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     "<h2>Exemple</h2>"
     "Ich bin _____ fertig."
     "<br><br><i>J'ai presque fini.</i>"
-    f"<br><br>{ICON_CHECK} fast"
-    f"<br><br>{ICON_CHECK} nahezu"
-    f"<br><br>{ICON_CROSS} fast, nahezu"
+    f"<br><br> &nbsp; {ICON_CHECK} fast"
+    f"<br><br> &nbsp; {ICON_CHECK} nahezu"
+    f"<br><br> &nbsp; {ICON_CROSS} fast, nahezu"
 )
 
 guidance_adverbien_synonyms = (
     "Pour chaque question, vous recevrez un adverbe allemand."
     "<br><br>Trouvez un synonyme de cet adverbe."
 
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
 
     "<h2>Exemple</h2>"
     "mindestens"
-    f"<br><br>{ICON_CHECK} wenigstens"
-    f"<br><br>{ICON_CHECK} zumindest"
-    f"<br><br>{ICON_CROSS} wenigstens, zumindest"
+    f"<br><br> &nbsp; {ICON_CHECK} wenigstens"
+    f"<br><br> &nbsp; {ICON_CHECK} zumindest"
+    f"<br><br> &nbsp; {ICON_CROSS} wenigstens, zumindest"
 )
 
 guidance_adverbien_antonym = (
     "Pour chaque question, vous verrez un adverbe allemand."
     "<br>Écrivez son antonyme en allemand."
 
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
     "<h2>Exemple</h2>"
     "immer"
-    f"<br><br>{ICON_CHECK} nie"
-    f"<br><br>{ICON_CHECK} nimmer"
-    f"<br><br>{ICON_CROSS} nie, nimmer"
+    f"<br><br> &nbsp; {ICON_CHECK} nie"
+    f"<br><br> &nbsp; {ICON_CHECK} nimmer"
+    f"<br><br> &nbsp; {ICON_CROSS} nie, nimmer"
 )
 
 guidance_adverbien_hin_her_isolation = (
     "Pour chaque question, vous recevrez la traduction française d'un adverbe allemand."
     "<br><br>Trouvez l'adverbe allemand dans «hin» ou «her» correspondant à cette traduction."
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     "<h2>Exemple</h2>"
     "down, towards the speaker"
-    f"<br><br>{ICON_CHECK} herunter"
-    f"<br><br>{ICON_CHECK} runter"
-    f"<br><br>{ICON_CHECK} herab"
-    f"<br><br>{ICON_CROSS} herunter, herab"
-    f"<br><br>{ICON_CROSS} hinunter"
+    f"<br><br> &nbsp; {ICON_CHECK} herunter"
+    f"<br><br> &nbsp; {ICON_CHECK} runter"
+    f"<br><br> &nbsp; {ICON_CHECK} herab"
+    f"<br><br> &nbsp; {ICON_CROSS} herunter, herab"
+    f"<br><br> &nbsp; {ICON_CROSS} hinunter"
 )
 
 guidance_adverbien_hin_her_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande et sa traduction française"
     "<br><br>La phrase allemande manque un adverbe dans «hin» ou «her». Trouvez celui qui convient."
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     "<h2>Exemple</h2>"
     "Er zog vorsichtig die alte Leiter _____, um sie zu reparieren."
     "<br><br><i>Il a soigneusement descendu la vieille échelle pour la réparer.</i>"
-    f"<br><br>{ICON_CHECK} herunter"
-    f"<br><br>{ICON_CHECK} runter"
-    f"<br><br>{ICON_CHECK} herab"
-    f"<br><br>{ICON_CROSS} herunter, herab"
-    f"<br><br>{ICON_CROSS} hinunter"
+    f"<br><br> &nbsp; {ICON_CHECK} herunter"
+    f"<br><br> &nbsp; {ICON_CHECK} runter"
+    f"<br><br> &nbsp; {ICON_CHECK} herab"
+    f"<br><br> &nbsp; {ICON_CROSS} herunter, herab"
+    f"<br><br> &nbsp; {ICON_CROSS} hinunter"
 )
 
 guidance_adverbien_einander_isolation = (
     "Pour chaque question, vous recevrez la traduction française d'un adverbe allemand dans «einander»."
     "<br><br>Trouvez l'adverbe allemand correspondant à cette traduction."
 
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule réponse possible par question. Les synonymes ne sont pas disponibles pour cet exercice. "
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule réponse possible par question. Les synonymes ne sont pas disponibles pour cet exercice. "
     "Lisez attentivement la traduction complète."
 
     "<h2>Exemple</h2>"
     "avec l'autre, conjointement"
-    f"<br><br>{ICON_CHECK} miteinander"
-    f"<br><br>{ICON_CROSS} nebeneinander"
+    f"<br><br> &nbsp; {ICON_CHECK} miteinander"
+    f"<br><br> &nbsp; {ICON_CROSS} nebeneinander"
 )
 
 guidance_adverbien_einander_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande et sa traduction française."
     "<br><br>Il manque un adverbe dans «einander» dans la phrase allemande. Trouvez celui qui convient."
 
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule réponse possible par question. Aucun synonyme n'est disponible pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule réponse possible par question. Aucun synonyme n'est disponible pour cet exercice."
     "Lisez attentivement la traduction complète."
     
     "<h2>Exemple</h2>"
     "Wir sollten offener _____ kommunizieren, um Missverständnisse zu vermeiden."
     "<br><br><i>Nous devrions communiquer plus ouvertement les uns avec les autres pour éviter les malentendus.</i>"
-    f"<br><br>{ICON_CHECK} miteinander"
-    f"<br><br>{ICON_CROSS} nebeneinander"
+    f"<br><br> &nbsp; {ICON_CHECK} miteinander"
+    f"<br><br> &nbsp; {ICON_CROSS} nebeneinander"
 )
 
 guidance_adverbien_multiple_choices_english_to_german = (
     "Pour chaque question, vous verrez la traduction française d'un adjectif et de cinq adverbes allemands."
     "<br>Sélectionnez l'adverbe allemand correspondant à la traduction française"
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
     
     "<h2>Exemple</h2>"
     "de temps en temps, de temps en temps"
@@ -438,18 +446,18 @@ guidance_adverbien_multiple_choices_english_to_german = (
     "<br>wütend"
     "<br>Unterwegs"
     "<br>zum Abschluss"
-    f"<br><br>{ICON_CHECK} bisweilen"
-    f"<br>{ICON_CHECK} ab et zu"
-    f"<br>{ICON_CROSS} wütend"
-    f"<br>{ICON_CROSS} chemins de fer"
-    f"<br>{ICON_CROSS} pour un Abschluss"
+    f"<br><br> &nbsp; {ICON_CHECK} bisweilen"
+    f"<br> &nbsp; {ICON_CHECK} ab et zu"
+    f"<br> &nbsp; {ICON_CROSS} wütend"
+    f"<br> &nbsp; {ICON_CROSS} chemins de fer"
+    f"<br> &nbsp; {ICON_CROSS} pour un Abschluss"
 )
 
 guidance_adverbien_multiple_choices_german_to_english = (
     "Pour chaque question, vous verrez un adverbe allemand et cinq traductions française possibles."
     "<br>Sélectionnez la traduction correspondant à l'adverbe allemand."
     
-    f"<br><br>{ICON_WARN} Il n'y a qu'une seule réponse possible par question. Les synonymes ne sont pas disponibles pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule réponse possible par question. Les synonymes ne sont pas disponibles pour cet exercice."
     "Lisez attentivement la traduction complète."
     
     "<h2>Exemple</h2>"
@@ -460,35 +468,35 @@ guidance_adverbien_multiple_choices_german_to_english = (
     "<br>en chemin"
     "<br>pour conclure, en conclusion"
     "<br>en tout cas, au moins"
-    f"<br><br>{ICON_CHECK} avec colère, furieusement"
+    f"<br><br> &nbsp; {ICON_CHECK} avec colère, furieusement"
 )
 
 guidance_adjektive_isolation = (
     "Pour chaque question, vous verrez la traduction française d'un adjectif allemand."
     "<br>Trouvez l'adjectif allemand correspondant à la traduction."
 
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     "<h2>Exemple</h2>"
     "bon marché"
-    f"<br><br>{ICON_CHECK} billig"
-    f"<br><br>{ICON_CHECK} günstig"
-    f"<br><br>{ICON_CROSS} billig, günstig"
+    f"<br><br> &nbsp; {ICON_CHECK} billig"
+    f"<br><br> &nbsp; {ICON_CHECK} günstig"
+    f"<br><br> &nbsp; {ICON_CROSS} billig, günstig"
 )
 
 guidance_adjektive_antonym = (
     "Pour chaque question, vous verrez un adjectif allemand."
     "<br>Écrivez son contraire en allemand."
     
-    f"<br><br>{ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
     "<h2>Exemple</h2>"
     "teuer"
-    f"<br><br>{ICON_CHECK} billig"
-    f"<br><br>{ICON_CHECK} günstig"
-    f"<br><br>{ICON_CROSS} billig, günstig"
+    f"<br><br> &nbsp; {ICON_CHECK} billig"
+    f"<br><br> &nbsp; {ICON_CHECK} günstig"
+    f"<br><br> &nbsp; {ICON_CROSS} billig, günstig"
 )
 
 guidance_adjektive_comparative = (
@@ -497,7 +505,7 @@ guidance_adjektive_comparative = (
 
     "<h2>Exemple</h2>"
     "alt"
-    f"<br><br>{ICON_CHECK} älter"
+    f"<br><br> &nbsp; {ICON_CHECK} älter"
 )
 
 guidance_adjektive_superlative = (
@@ -506,7 +514,7 @@ guidance_adjektive_superlative = (
     
     "<h2>Exemple</h2>"
     "alt"
-    f"<br><br>{ICON_CHECK} am ältesten"
+    f"<br><br> &nbsp; {ICON_CHECK} am ältesten"
 )
 
 guidance_adjektive_comparison_words = (
@@ -517,7 +525,7 @@ guidance_adjektive_comparison_words = (
     "<h2>Exemple</h2>"
     "Peter ist größer _____ sein Bruder."
     "<br><br><i>Peter est plus grand que son frère."
-    f"<br><br>{ICON_CHECK} als"
+    f"<br><br> &nbsp; {ICON_CHECK} als"
 )
 
 guidance_adjektive_multiple_choices_english_to_german = (
@@ -531,7 +539,7 @@ guidance_adjektive_multiple_choices_english_to_german = (
     "<br>europäisch"
     "<br>tot"
     "<br>einzeln"
-    f"<br><br>{ICON_CHECK} eigen"
+    f"<br><br> &nbsp; {ICON_CHECK} eigen"
 )
 
 guidance_adjektive_multiple_choices_german_to_english = (
@@ -545,7 +553,7 @@ guidance_adjektive_multiple_choices_german_to_english = (
     "<br>européen"
     "<br>mort"
     "<br>célibataire"
-    f"<br><br>{ICON_CHECK} own"
+    f"<br><br> &nbsp; {ICON_CHECK} own"
 )
 
 guidance_adjektivdeklinationen_isolation = (
@@ -556,7 +564,7 @@ guidance_adjektivdeklinationen_isolation = (
 
     "<h2>Exemple</h2>"
     "ein _____ Vater \u25CF Nominativ \u25CF nett"
-    f"<br><br>{ICON_CHECK} netter"
+    f"<br><br> &nbsp; {ICON_CHECK} netter"
 )
 
 guidance_adjektivdeklinationen_sentences = (
@@ -567,7 +575,7 @@ guidance_adjektivdeklinationen_sentences = (
 
     "<h2>Exemple</h2>"
     "Die _____ Kinder stellen viele Fragen. \u25CF klug"
-    f"<br><br>{ICON_CHECK} klugen"
+    f"<br><br> &nbsp; {ICON_CHECK} klugen"
 )
 
 guidance_adjektivdeklinationen_comparative_isolation = (
@@ -578,7 +586,7 @@ guidance_adjektivdeklinationen_comparative_isolation = (
 
     "<h2>Exemple</h2>"
     "ein _____ Vater \u25CF Nominativ \u25CF nett"
-    f"<br><br>{ICON_CHECK} netterer"
+    f"<br><br> &nbsp; {ICON_CHECK} netterer"
 )
 
 guidance_adjektivdeklinationen_comparative_sentences = (
@@ -589,7 +597,7 @@ guidance_adjektivdeklinationen_comparative_sentences = (
 
     "<h2>Exemple</h2>"
     "Der _____ Hund läuft im Garten. \u25CF groß"
-    f"<br><br>{ICON_CHECK} größere"
+    f"<br><br> &nbsp; {ICON_CHECK} größere"
 )
 
 guidance_adjektivdeklinationen_superlative_isolation = (
@@ -600,7 +608,7 @@ guidance_adjektivdeklinationen_superlative_isolation = (
 
     "<h2>Exemple</h2>"
     "der _____ Vater \u25CF Nominatif \u25CF nett"
-    f"<br><br>{ICON_CHECK} netteste"
+    f"<br><br> &nbsp; {ICON_CHECK} netteste"
 )
 
 guidance_adjektivdeklinationen_superlative_sentences = (
@@ -611,28 +619,28 @@ guidance_adjektivdeklinationen_superlative_sentences = (
 
     "<h2>Exemple</h2>"
     "Die _____ Blume steht auf dem Tisch. \u25CF schön"
-    f"<br><br>{ICON_CHECK} schönste"
+    f"<br><br> &nbsp; {ICON_CHECK} schönste"
 )
 
 guidance_verben_translation = (
     "Pour chaque question, vous verrez la traduction française d’un verbe allemand."
     "<br>Trouvez le verbe allemand qui correspond à l’ensemble de la traduction."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     f" Lisez attentivement toute la traduction."
-    f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
     "<h2>Exemple</h2>"
     "rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
-    f"<br><br>{ICON_CHECK} freuen"
-    f"<br><br>{ICON_CROSS} sich freuen"
+    f"<br><br> &nbsp; {ICON_CHECK} freuen"
+    f"<br><br> &nbsp; {ICON_CROSS} sich freuen"
 )
 
 guidance_verben_multiple_choices_english_to_german = (
     "Pour chaque question, vous verrez la traduction française d’un verbe allemand et cinq verbes allemands."
     "<br>Sélectionnez le verbe allemand qui correspond à l’ensemble de la traduction."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     f" Lisez attentivement toute la traduction."
 
     "<h2>Exemple</h2>"
@@ -642,14 +650,14 @@ guidance_verben_multiple_choices_english_to_german = (
     "<br>diskutieren"
     "<br>rufen"
     "<br>vorschlagen"
-    f"<br><br>{ICON_CHECK} ersetzen"
+    f"<br><br> &nbsp; {ICON_CHECK} ersetzen"
 )
 
 guidance_verben_multiple_choices_german_to_english = (
     "Pour chaque question, vous verrez un verbe allemand et cinq traductions française possibles."
     "<br>Sélectionnez la traduction qui correspond au verbe allemand."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     f" Lisez attentivement toutes les traductions."
 
     "<h2>Exemple</h2>"
@@ -659,7 +667,7 @@ guidance_verben_multiple_choices_german_to_english = (
     "<br>discuter, débattre"
     "<br>appeler, crier, convoquer"
     "<br>suggérer, proposer"
-    f"<br><br>{ICON_CHECK} remplacer, substituer, compenser"
+    f"<br><br> &nbsp; {ICON_CHECK} remplacer, substituer, compenser"
 )
 
 guidance_trennbare_verben_root = (
@@ -667,151 +675,151 @@ guidance_trennbare_verben_root = (
     
     "<br><br>Trouvez le verbe allemand qui correspond à la traduction et à la racine."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
     "<h2>Exemple</h2>"
     "tirer, traîner, déplacer → ziehen"
     "<br><br>s'habiller, mettre, habiller quelqu'un, attirer, tirer → _____"
-    f"<br><br>{ICON_CHECK} anziehen"
+    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
 )
 
 guidance_trennbare_verben_prefix = (
     "Pour chaque question, vous recevrez la traduction française d’un verbe allemand (séparable ou inséparable) ainsi que son préfixe."
     "<br><br>Trouvez le verbe allemand qui correspond à la traduction et au préfixe."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
     "<h2>Exemple</h2>"
     "s'habiller, mettre, habiller quelqu'un, attirer, tirer \u25CF an"
-    f"<br><br>{ICON_CHECK} anziehen"
+    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
 )
 
 guidance_trennbare_verben_no_help = (
     "Pour chaque question, vous recevrez la traduction française d’un verbe allemand (séparable ou inséparable)."
     "<br><br>Trouvez le verbe allemand qui correspond à l’ensemble de la traduction."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
     "<h2>Exemple</h2>"
     "s'habiller, mettre, habiller quelqu'un, attirer, tirer"
-    f"<br><br>{ICON_CHECK} anziehen"
+    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
 )
 
 guidance_nomen_verben_verbindungen_nomen_isolation = (
     "Pour chaque question, vous recevrez une combination Nom-Verbe allemande incomplète et sa traduction française."
     "<br><br>Trouvez le nom allemand qui complète cette combination."
 
-    f"<br><br>{ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br>{ICON_WARN} La réponse peut nécessiter un article et/ou une préposition."
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peut nécessiter un article et/ou une préposition."
 
     f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
     
     "<h2>Exemples</h2>"
     "_____ haben"
     "<br><br><i>avoir une opinion, penser</i>"
-    f"<br><br>{ICON_CHECK} eine Meinung"
-    f"<br><br>{ICON_CHECK} eine Ansicht"
-    f"<br><br>{ICON_CROSS} eine Meinung, eine Ansicht"
-    f"<br><br>{ICON_CROSS} Meinung"
-    f"<br><br>{ICON_CROSS} ein Meinung"
+    f"<br><br> &nbsp; {ICON_CHECK} eine Meinung"
+    f"<br><br> &nbsp; {ICON_CHECK} eine Ansicht"
+    f"<br><br> &nbsp; {ICON_CROSS} eine Meinung, eine Ansicht"
+    f"<br><br> &nbsp; {ICON_CROSS} Meinung"
+    f"<br><br> &nbsp; {ICON_CROSS} ein Meinung"
 
-    "<br><br><br>_____ nehmen"
+    "<br><br>_____ nehmen"
     "<br><br><i>accepter</i>"
-    f"<br><br>{ICON_CHECK} in Kauf"
-    f"<br><br>{ICON_CROSS} Kauf"
+    f"<br><br> &nbsp; {ICON_CHECK} in Kauf"
+    f"<br><br> &nbsp; {ICON_CROSS} Kauf"
 )
 
 guidance_nomen_verben_verbindungen_verben_isolation = (
     "Pour chaque question, vous recevrez une combination Nom-Verbe allemande incomplète et sa traduction française."
     "<br><br>Trouvez le verb allemand qui complète cette combination."
 
-    f"<br><br>{ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
     "<h2>Exemple</h2>"
     "eine Meinung _____"
     "<br><br><i>avoir une opinion, penser</i>"
-    f"<br><br>{ICON_CHECK} haben"
-    f"<br><br>{ICON_CHECK} vertreten"
-    f"<br><br>{ICON_CROSS} haben, vertreten"
+    f"<br><br> &nbsp; {ICON_CHECK} haben"
+    f"<br><br> &nbsp; {ICON_CHECK} vertreten"
+    f"<br><br> &nbsp; {ICON_CROSS} haben, vertreten"
 )
 
 guidance_nomen_verben_verbindungen_nomen_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Trouvez le nom allemand qui complète cette phrase."
 
-    f"<br><br>{ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br>{ICON_WARN} La réponse peux nécessiter une préposition."
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peux nécessiter une préposition."
 
     "<h2>Exemples</h2>"
     "Ich habe eine andere _____ als du."
     "<br><br><i>J’ai une opinion différente de la tienne.</i>"
-    f"<br><br>{ICON_CHECK} Meinung"
-    f"<br><br>{ICON_CHECK} Ansicht"
-    f"<br><br>{ICON_CROSS} Meinung, Ansicht"
+    f"<br><br> &nbsp; {ICON_CHECK} Meinung"
+    f"<br><br> &nbsp; {ICON_CHECK} Ansicht"
+    f"<br><br> &nbsp; {ICON_CROSS} Meinung, Ansicht"
 
-    "<br><br><br>Ich will dieses Projekt unbedingt _____ bringen, bevor ich in den Urlaub fahre."
+    "<br><br>Ich will dieses Projekt unbedingt _____ bringen, bevor ich in den Urlaub fahre."
     "<br><br><i>Je veux absolument terminer ce projet avant de partir en vacances.</i>"
-    f"<br><br>{ICON_CHECK} zu Ende"
-    f"<br><br>{ICON_CHECK} zum Abschluss"
-    f"<br><br>{ICON_CROSS} Ende"
-    f"<br><br>{ICON_CROSS} Abschluss"
-    f"<br><br>{ICON_CROSS} zu Ende, zum Abschluss"
+    f"<br><br> &nbsp; {ICON_CHECK} zu Ende"
+    f"<br><br> &nbsp; {ICON_CHECK} zum Abschluss"
+    f"<br><br> &nbsp; {ICON_CROSS} Ende"
+    f"<br><br> &nbsp; {ICON_CROSS} Abschluss"
+    f"<br><br> &nbsp; {ICON_CROSS} zu Ende, zum Abschluss"
 )
 
 guidance_nomen_verben_verbindungen_verben_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
     "<br><br>Trouvez le verb allemand qui complète cette phrase."
 
-    f"<br><br>{ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br>{ICON_WARN} Le verbe doit être conjugué au temps et la personne correcte."
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Le verbe doit être conjugué au temps et la personne correcte."
 
     "<h2>Exemple</h2>"
     "Sie _____ den Vorschlag, gemeinsam zu reisen."
     "<br><br><i>Elle a fait la proposition de voyager ensemble.</i>"
-    f"<br><br>{ICON_CHECK} machte"
-    f"<br><br>{ICON_CHECK} unterbreitete"
-    f"<br><br>{ICON_CROSS} machte, unterbreitete"
-    f"<br><br>{ICON_CROSS} macht"
-    f"<br><br>{ICON_CROSS} machen"
+    f"<br><br> &nbsp; {ICON_CHECK} machte"
+    f"<br><br> &nbsp; {ICON_CHECK} unterbreitete"
+    f"<br><br> &nbsp; {ICON_CROSS} machte, unterbreitete"
+    f"<br><br> &nbsp; {ICON_CROSS} macht"
+    f"<br><br> &nbsp; {ICON_CROSS} machen"
 )
 
 guidance_nomen_verben_wortstaemme_verben = (
     "Pour chaque question, vous recevrez une paire Nom-Verbe allemande incomplète et sa traduction française."
     "<br><br>Trouvez le verb allemand qui complète cette paire."
 
-    f"<br><br>{ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br>{ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
     "<h2>Exemple</h2>"
     "le travail → die Arbeit"
     "<br><br>travailler → _____"
-    f"<br><br>{ICON_CHECK} arbeiten"
+    f"<br><br> &nbsp; {ICON_CHECK} arbeiten"
 )
 
 guidance_nomen_verben_wortstaemme_nomen = (
     "Pour chaque question, vous recevrez une paire Nom-Verbe allemande incomplète et sa traduction française."
     "<br><br>Trouvez le nom allemand qui complète cette paire."
 
-    f"<br><br>{ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br>{ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
     f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
     
     "<h2>Exemple</h2>"
     "travailler → arbeiten"
     "<br><br>le travail → _____"
-    f"<br><br>{ICON_CHECK} die Arbeit"
+    f"<br><br> &nbsp; {ICON_CHECK} die Arbeit"
 )
 
 GUIDANCE_EXERCISE_FR = {
@@ -1077,8 +1085,12 @@ GUIDANCE_EXERCISE_FR = {
         24: guidance_konnektoren_sentences,
         25: guidance_konnektoren_isolation,
         26: guidance_konnektoren_sentences,
-        27: guidance_konnektoren_synonyms,
-        28: guidance_konnektoren_synonyms,
+        27: guidance_konnektoren_isolation,
+        28: guidance_konnektoren_sentences,
+        29: guidance_konnektoren_synonyms,
+        30: guidance_konnektoren_synonyms,
+        31: guidance_konnektoren_synonyms,
+        32: guidance_konnektoren_synonyms,
     },
 
     fragen: {
@@ -1167,6 +1179,28 @@ GUIDANCE_EXERCISE_FR = {
         58: guidance_adverbien_sentences,
         59: guidance_adverbien_synonyms,
         60: guidance_adverbien_antonym,
+
+        61: guidance_adverbien_isolation,
+        62: guidance_adverbien_sentences,
+        63: guidance_adverbien_isolation,
+        64: guidance_adverbien_sentences,
+        65: guidance_adverbien_isolation,
+        66: guidance_adverbien_sentences,
+        67: guidance_adverbien_isolation,
+        68: guidance_adverbien_sentences,
+        69: guidance_adverbien_synonyms,
+        70: guidance_adverbien_antonym,
+
+        71: guidance_adverbien_isolation,
+        72: guidance_adverbien_sentences,
+        73: guidance_adverbien_isolation,
+        74: guidance_adverbien_sentences,
+        75: guidance_adverbien_isolation,
+        76: guidance_adverbien_sentences,
+        77: guidance_adverbien_isolation,
+        78: guidance_adverbien_sentences,
+        79: guidance_adverbien_synonyms,
+        80: guidance_adverbien_antonym,
     },
 
     adjektive: {
@@ -1479,7 +1513,40 @@ GUIDANCE_EXERCISE_FR = {
         56: guidance_nomen_verben_wortstaemme_nomen,
         57: guidance_nomen_verben_wortstaemme_verben,
         58: guidance_nomen_verben_wortstaemme_nomen,
+
         59: guidance_nomen_verben_wortstaemme_verben,
         60: guidance_nomen_verben_wortstaemme_nomen,
+        61: guidance_nomen_verben_wortstaemme_verben,
+        62: guidance_nomen_verben_wortstaemme_nomen,
+        63: guidance_nomen_verben_wortstaemme_verben,
+        64: guidance_nomen_verben_wortstaemme_nomen,
+        65: guidance_nomen_verben_wortstaemme_verben,
+        66: guidance_nomen_verben_wortstaemme_nomen,
+        67: guidance_nomen_verben_wortstaemme_verben,
+        68: guidance_nomen_verben_wortstaemme_nomen,
+        69: guidance_nomen_verben_wortstaemme_verben,
+        70: guidance_nomen_verben_wortstaemme_nomen,
+        71: guidance_nomen_verben_wortstaemme_verben,
+        72: guidance_nomen_verben_wortstaemme_nomen,
+        73: guidance_nomen_verben_wortstaemme_verben,
+        74: guidance_nomen_verben_wortstaemme_nomen,
+        75: guidance_nomen_verben_wortstaemme_verben,
+        76: guidance_nomen_verben_wortstaemme_nomen,
+        77: guidance_nomen_verben_wortstaemme_verben,
+        78: guidance_nomen_verben_wortstaemme_nomen,
+        79: guidance_nomen_verben_wortstaemme_verben,
+        80: guidance_nomen_verben_wortstaemme_nomen,
+        81: guidance_nomen_verben_wortstaemme_verben,
+        82: guidance_nomen_verben_wortstaemme_nomen,
+        83: guidance_nomen_verben_wortstaemme_verben,
+        84: guidance_nomen_verben_wortstaemme_nomen,
+        85: guidance_nomen_verben_wortstaemme_verben,
+        86: guidance_nomen_verben_wortstaemme_nomen,
+        87: guidance_nomen_verben_wortstaemme_verben,
+        88: guidance_nomen_verben_wortstaemme_nomen,
+        89: guidance_nomen_verben_wortstaemme_verben,
+        90: guidance_nomen_verben_wortstaemme_nomen,
+        91: guidance_nomen_verben_wortstaemme_verben,
+        92: guidance_nomen_verben_wortstaemme_nomen,
     },
 }
