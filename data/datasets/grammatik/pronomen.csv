@@ -342,7 +342,7 @@ Nr,exercise,question,answer,german,english,french,person,case_english,case_frenc
 341,11,,Euch,,2nd Person Plural,2ème Personne Pluriel,,Reflexive & Dative,Réfléchi & Datif,,
 342,11,,Sich,,3rd Person Plural,3ème Personne Pluriel,,Reflexive & Dative,Réfléchi & Datif,,
 343,11,,Sich,,Formal (You),Formel (Vous),,Reflexive & Dative,Réfléchi & Datif,,
-344,12,Ich dusche _____ jeden Morgen.,mich,Ich dusche mich jeden Morgen.,I take a shower every morning.,Je prends une douche tous les matins.,Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
+344,12,Ich dusche _____ jeden Morgen.,mich,Ich dusche mich jeden Morgen.,I shower every morning.,Je prends une douche tous les matins.,Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
 345,12,Nach dem Sport ziehe ich _____ um.,mich,Nach dem Sport ziehe ich mich um.,I change my clothes after exercising.,"Après avoir fait de l’exercice, je change de vêtements.",Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
 346,12,Heute Abend bade ich _____.,mich,Heute Abend bade ich mich.,I'm going to take a bath tonight.,Ce soir je prends un bain.,Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
 347,12,Hast du _____ schon geduscht?,dich,Hast du dich schon geduscht?,Have you already taken a shower?,As-tu déjà pris une douche ?,Du,Reflexive & Accusative,Réfléchi & Accusatif,,
@@ -422,7 +422,7 @@ Nr,exercise,question,answer,german,english,french,person,case_english,case_frenc
 421,13,Die Idee mit dem Ausflug gefällt _____ sehr gut.,ihnen,Die Idee mit dem Ausflug gefällt ihnen sehr gut.,They really like the idea of the trip.,Ils aiment vraiment l’idée du voyage.,Sie (Plural),Dative,Datif,,
 422,13,Nach dem Meeting hat der Chef _____ ein Kompliment gemacht.,Ihnen,Nach dem Meeting hat der Chef Ihnen ein Kompliment gemacht.,"After the meeting, the boss complimented you. (Formal)","Après la réunion, le patron vous a complimenté. (Formel)",Sie (Formell),Dative,Datif,,
 423,13,"Der Hund folgt immer _____, wenn Sie ihn rufen.",Ihnen,"Der Hund folgt immer Ihnen, wenn Sie ihn rufen.",The dog always follows you when you call him. (Formal),Le chien vous suit toujours lorsque vous l'appelez. (Formel),Sie (Formell),Dative,Datif,,
-424,13,Ich dusche _____ jeden Morgen.,mich,Ich dusche mich jeden Morgen.,I take a shower every morning.,Je prends une douche tous les matins.,Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
+424,13,Ich dusche _____ jeden Morgen.,mich,Ich dusche mich jeden Morgen.,I shower every morning.,Je prends une douche tous les matins.,Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
 425,13,Heute Abend bade ich _____.,mich,Heute Abend bade ich mich.,I'm going to take a bath tonight.,Ce soir je prends un bain.,Ich,Reflexive & Accusative,Réfléchi & Accusatif,,
 426,13,Ziehst du _____ nach dem Sport um?,dich,Ziehst du dich nach dem Sport um?,Do you change your clothes after playing sports?,Changez-vous de vêtements après avoir fait de l’exercice ?,Du,Reflexive & Accusative,Réfléchi & Accusatif,,
 427,13,Er duscht _____ jeden Morgen vor der Arbeit.,sich,Er duscht sich jeden Morgen vor der Arbeit.,He showers every morning before work.,Il prend une douche tous les matins avant d'aller travailler.,Er,Reflexive & Accusative,Réfléchi & Accusatif,,
@@ -1218,10 +1218,3 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 1145,100,,,die Letzteren,,,,,,,
 1146,100,,,von Seiten anderer,,,,,,,
 1147,100,,,von Außenstehenden,,by outsiders,,,,,
-1148,300,Sind Sie mit der Regel zufrieden?,ihr,Sind Sie mit ihr zufrieden?,Are you satisfied with the rule?,Êtes-vous satisfait de la règle ?,der Regel,Dative,Datif,Feminine,Féminin
-1149,300,Ich mache Saft aus den Orangen.,ihnen,Ich mache Saft aus ihnen.,I make juice from the oranges.,Je fais du jus à partir des oranges.,den Orangen,Dative,Datif,Plural,Pluriel
-1150,300,Der Tisch passt zu der Wohnung.,ihr,Der Tisch passt zu ihr.,The table fits the apartment.,La table s'adapte à l'appartement.,der Wohnung,Dative,Datif,Feminine,Féminin
-1151,300,Ich habe immer Probleme mit dem Nachnamen.,ihm,Ich habe immer Probleme mit ihm.,I always struggle with the last name.,J'ai toujours du mal avec le nom de famille.,dem Nachnamen,Dative,Datif,Masculine,Masculin
-1152,300,Er nickte mit dem Kopf.,ihm,Er nickte mit ihm.,He nodded with the head.,Il hocha la tête.,dem Kopf,Dative,Datif,Masculine,Masculin
-1153,300,Ihr Telefon liegt neben dem Bild.,ihm,Ihr Telefon liegt neben ihm.,Your phone is next to the picture.,Votre téléphone est à côté de la photo.,dem Bild,Dative,Datif,Neuter,Neutre
-1154,300,Er ist mit den Preisen des Produkts nicht einverstanden.,ihnen,Er ist mit ihnen nicht einverstanden.,He disagrees with the prices of the product.,Il n’est pas d’accord avec les prix du produit.,den Preisen des Produkts,Dative,Datif,Plural,Pluriel
