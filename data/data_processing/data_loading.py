@@ -1,7 +1,4 @@
-import os
-import re
-import pandas as pd
-
+from data.data_processing.exercise_type import get_extent
 from data.data_processing.paths import df_units
 from data.data_processing.pre_processing import pre_processing
 
@@ -50,68 +47,3 @@ def load_data_level(unit, exercise):
     data = pre_processing(data, unit, exercise)
     return data.fillna("")
 
-
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-MULTIPLE_CHOICE_PATH = os.path.join(BASE_DIR, "datasets/other", "multiple_choice_exercises.csv")
-df_multiple_choice = pd.read_csv(MULTIPLE_CHOICE_PATH)
-
-
-def get_extent(unit, exercise):
-    """
-    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
-    and returns the list of exercise IDs to include.
-    """
-    df = df_multiple_choice
-
-    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
-    if row.empty:
-        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
-
-    row0 = row.iloc[0]
-
-    if 'extent' not in df.columns or pd.isna(row0['extent']):
-        raise KeyError("'extent' column missing or empty in mapping CSV.")
-
-    # Extract numbers robustly: handles "11, 12, 13" or "11 12 13"
-    vals = [int(x) for x in re.findall(r'\d+', str(row0['extent']))]
-    if not vals:
-        raise ValueError(f"No valid exercise numbers found in extent for unit={unit}, exercise={exercise}")
-
-    return vals
-
-
-def get_answer_column(unit, exercise):
-    """
-    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
-    and returns the list of exercise IDs to include.
-    """
-    df = df_multiple_choice
-
-    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
-    if row.empty:
-        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
-
-    answer_column = row.iloc[0]["answer_column"]
-
-    return answer_column
-
-
-def get_question_column(unit, exercise):
-    """
-    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
-    and returns the list of exercise IDs to include.
-    """
-    df = df_multiple_choice
-
-    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
-    if row.empty:
-        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
-
-    question_column = row.iloc[0]["question_column"]
-
-    return question_column
-
-
-def is_exercise_multiple_choice(unit, exercise):
-    df = df_multiple_choice
-    return not df[(df['unit'] == unit) & (df['exercise'] == exercise)].empty

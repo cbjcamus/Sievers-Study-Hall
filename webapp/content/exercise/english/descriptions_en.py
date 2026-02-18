@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
+    zahlen,
 )
 
 DESCRIPTION_EN = {
@@ -41,7 +42,7 @@ DESCRIPTION_EN = {
         24: "C1 Prepositional phrases, in sentences",
         25: "C1 Postpositions, in isolation",
         26: "C1 Postpositions, in sentences",
-        27: "Synonyms of Prepositions, in isolation",
+        27: "Synonyms of Prepositions, in sentences",
         28: "Antonyms of Prepositions, in isolation",
 
         29: "A1 Prepositions at C2 level, in sentences",
@@ -155,13 +156,27 @@ DESCRIPTION_EN = {
         1: "Articles and Pronouns following Prepositions, in sentences",
         2: "Articles and Pronouns following Prepositions, in sentences",
         3: "Articles and Pronouns following Prepositions, in sentences",
-        4: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        4: "Articles and Pronouns following Prepositions, in sentences",
         5: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        6: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
 
-        6: "Articles and Pronouns following Prepositions, in sentences",
         7: "Articles and Pronouns following Prepositions, in sentences",
-        8: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        8: "Articles and Pronouns following Prepositions, in sentences",
         9: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        10: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+
+        11: "Articles and Pronouns following Prepositions, in sentences",
+        12: "Articles and Pronouns following Prepositions, in sentences",
+        13: "Articles and Pronouns following Prepositions, in sentences",
+        14: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        15: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        16: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        17: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        18: "Articles and Pronouns following Adjective-Preposition pairs, in sentences",
+        19: "Articles and Pronouns following Adjective-Preposition pairs, in sentences",
+        20: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
+        21: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
+        22: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
     },
 
     praepositionen_adverbien: {
@@ -202,25 +217,23 @@ DESCRIPTION_EN = {
         27: "Demonstrative articles <em>Diese</em>, in sentences",
         28: "Articles <em>Jede</em>, in isolation",
         29: "Articles <em>Jede</em>, in sentences",
-        30: "Definite articles with prepositions in the Accusative and Dative cases, in sentences",
-        31: "Definite articles with prepositions in the Accusative and Dative cases, in sentences",
-        32: "A2 articles, in isolation",
-        33: "A2 articles, in sentences",
+        30: "A2 articles, in isolation",
+        31: "A2 articles, in sentences",
 
-        34: "Definite, Indefinite and Negative articles in the Genitive case, in isolation",
-        35: "Definite, Indefinite and Negative articles in the Genitive case, in sentences",
-        36: "<em>Diese</em> and <em>Jede</em> in the Genitive case, in isolation",
-        37: "<em>Diese</em> and <em>Jede</em> in the Genitive case, in sentences",
-        38: "Possessive articles in the Genitive case, in isolation",
-        39: "Possessive articles in the Genitive case, in sentences",
+        32: "Definite, Indefinite and Negative articles in the Genitive case, in isolation",
+        33: "Definite, Indefinite and Negative articles in the Genitive case, in sentences",
+        34: "<em>Diese</em> and <em>Jede</em> in the Genitive case, in isolation",
+        35: "<em>Diese</em> and <em>Jede</em> in the Genitive case, in sentences",
+        36: "Possessive articles in the Genitive case, in isolation",
+        37: "Possessive articles in the Genitive case, in sentences",
 
-        40: "<em>Jene</em>, <em>Eine der</em> and <em>Irgendeine</em> articles, in isolation",
-        41: "<em>Jene</em>, <em>Eine der</em> and <em>Irgendeine</em> articles, in sentences",
+        38: "<em>Jene</em>, <em>Eine der</em> and <em>Irgendeine</em> articles, in isolation",
+        39: "<em>Jene</em>, <em>Eine der</em> and <em>Irgendeine</em> articles, in sentences",
 
-        42: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in isolation",
-        43: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in sentences",
-        44: "Articles in Appositions, in sentences",
-        45: "Articles in Appositions, in sentences",
+        40: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in isolation",
+        41: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in sentences",
+        42: "Articles in Appositions, in sentences",
+        43: "Articles in Appositions, in sentences",
     },
 
     pronomen: {
@@ -273,7 +286,7 @@ DESCRIPTION_EN = {
         8: "B1 Connectors, in sentences",
         9: "B1 Connectors, in isolation",
         10: "B1 Connectors, in sentences",
-        11: "Synonyms of Connectors at B1 level, in isolation",
+        11: "Synonyms of Connectors at B1 level, in sentences",
 
         12: "B2 Connectors, in isolation",
         13: "B2 Connectors, in sentences",
@@ -281,7 +294,7 @@ DESCRIPTION_EN = {
         15: "B2 Connectors, in sentences",
         16: "B2 Connectors, in isolation",
         17: "B2 Connectors, in sentences",
-        18: "Synonyms of Connectors at B2 level, in isolation",
+        18: "Synonyms of Connectors at B2 level, in sentences",
 
         19: "C1 Connectors, in isolation",
         20: "C1 Connectors, in sentences",
@@ -293,10 +306,10 @@ DESCRIPTION_EN = {
         26: "C1 Connectors, in sentences",
         27: "C1 Connectors, in isolation",
         28: "C1 Connectors, in sentences",
-        29: "Synonyms of Connectors at C1 level, in isolation",
-        30: "Synonyms of Connectors at C1 level, in isolation",
-        31: "Synonyms of Connectors at C1 level, in isolation",
-        32: "Synonyms of Connectors at C1 level, in isolation",
+        29: "Synonyms of Connectors at C1 level, in sentences",
+        30: "Synonyms of Connectors at C1 level, in sentences",
+        31: "Synonyms of Connectors at C1 level, in sentences",
+        32: "Synonyms of Connectors at C1 level, in sentences",
     },
 
     fragen: {
@@ -316,6 +329,9 @@ DESCRIPTION_EN = {
 
         11: 'C1 Question Words, in isolation',
         12: 'C1 Question Words, in sentences',
+
+        13: 'Welche and Wie viele in the Genitive, in isolation',
+        14: 'Welche and Wie viele in the Genitive, in sentences',
     },
 
     adverbien: {
@@ -328,7 +344,7 @@ DESCRIPTION_EN = {
         6: "A2 Adverbs, in sentences",
         7: "A2 Adverbs, in isolation",
         8: "A2 Adverbs, in sentences",
-        9: "Synonyms of A1 and A2 Adverbs, in isolation",
+        9: "Synonyms of A1 and A2 Adverbs, in sentences",
         10: "Antonyms of A1 and A2 Adverbs, in isolation",
 
         11: "B1 Adverbs, in isolation",
@@ -339,7 +355,7 @@ DESCRIPTION_EN = {
         16: "B1 Adverbs, in sentences",
         17: "B1 Adverbs, in isolation",
         18: "B1 Adverbs, in sentences",
-        19: "Synonyms of B1 Adverbs, in isolation",
+        19: "Synonyms of B1 Adverbs, in sentences",
         20: "Antonyms of B1 Adverbs, in isolation",
 
         21: "B2 Adverbs, in isolation",
@@ -350,7 +366,7 @@ DESCRIPTION_EN = {
         26: "B2 Adverbs, in sentences",
         27: "B2 Adverbs, in isolation",
         28: "B2 Adverbs, in sentences",
-        29: "Synonyms of B2 Adverbs, in isolation",
+        29: "Synonyms of B2 Adverbs, in sentences",
         30: "Antonyms of B2 Adverbs, in isolation",
 
         31: "B2 Adverbs, in isolation",
@@ -361,7 +377,7 @@ DESCRIPTION_EN = {
         36: "B2 Adverbs, in sentences",
         37: "B2 Adverbs, in isolation",
         38: "B2 Adverbs, in sentences",
-        39: "Synonyms of B2 Adverbs, in isolation",
+        39: "Synonyms of B2 Adverbs, in sentences",
         40: "Antonyms of B2 Adverbs, in isolation",
 
         41: "Temporal Adverbs, in isolation",
@@ -372,7 +388,7 @@ DESCRIPTION_EN = {
         46: "Modal Adverbs, in sentences",
         47: "Adverbs in <i>-einander</i>, in isolation",
         48: "Adverbs in <i>-einander</i>, in sentences",
-        49: "Synonyms of C1 Adverbs, in isolation",
+        49: "Synonyms of C1 Adverbs, in sentences",
         50: "Antonyms of C1 Adverbs, in isolation",
 
         51: "Temporal Adverbs in <i>-mals</i>, <i>-falls</i> and <i>-mal</i>, in isolation",
@@ -383,7 +399,7 @@ DESCRIPTION_EN = {
         56: "Modal Adverbs, in sentences",
         57: "Adverbial phrases made of prepositions, in isolation",
         58: "Adverbial phrases made of prepositions, in sentences",
-        59: "Synonyms of C1 Adverbs, in isolation",
+        59: "Synonyms of C1 Adverbs, in sentences",
         60: "Antonyms of C1 Adverbs, in isolation",
 
         61: "Temporal Adverbs, in isolation",
@@ -394,7 +410,7 @@ DESCRIPTION_EN = {
         66: "Modal Adverbs in <i>-weise</i>, in sentences",
         67: "Other Adverbs, in isolation",
         68: "Other Adverbs, in sentences",
-        69: "Synonyms of C1 Adverbs, in isolation",
+        69: "Synonyms of C1 Adverbs, in sentences",
         70: "Antonyms of C1 Adverbs, in isolation",
 
         71: "Temporal Adverbs, in isolation",
@@ -405,8 +421,8 @@ DESCRIPTION_EN = {
         76: "Other Adverbs, in sentences",
         77: "Other Adverbs, in isolation",
         78: "Other Adverbs, in sentences",
-        79: "Synonyms of C1 Adverbs, in isolation",
-        80: "Synonyms of C1 Adverbs, in isolation",
+        79: "Synonyms of C1 Adverbs, in sentences",
+        80: "Synonyms of C1 Adverbs, in sentences",
     },
 
     wortstellung: {
@@ -438,12 +454,12 @@ DESCRIPTION_EN = {
         21: "A2 Superlatives, in isolation",
         22: "A2 Superlatives, in isolation",
 
-        23: "B1 German to English Adjectives translations (Multiple choice)",
-        24: "B1 German to English Adjectives translations (Multiple choice)",
-        25: "B1 German to English Adjectives translations (Multiple choice)",
-        26: "B1 English to German Adjectives translations (Multiple choice)",
-        27: "B1 English to German Adjectives translations (Multiple choice)",
-        28: "B1 English to German Adjectives translations (Multiple choice)",
+        23: "B1 English to German Adjectives translations (Multiple choice)",
+        24: "B1 English to German Adjectives translations (Multiple choice)",
+        25: "B1 English to German Adjectives translations (Multiple choice)",
+        26: "B1 German to English Adjectives translations (Multiple choice)",
+        27: "B1 German to English Adjectives translations (Multiple choice)",
+        28: "B1 German to English Adjectives translations (Multiple choice)",
 
         29: "B2 German to English Adjectives translations (Multiple choice)",
         30: "B2 German to English Adjectives translations (Multiple choice)",
@@ -573,10 +589,10 @@ DESCRIPTION_EN = {
         12: "B1 (un)trennbare Verbs with prefix help",
         13: "B1 (un)trennbare Verbs with prefix help",
         14: "B1 (un)trennbare Verbs with prefix help",
-        15: "B1 (un)trennbare Verbs with no help",
-        16: "B1 (un)trennbare Verbs with no help",
-        17: "B1 (un)trennbare Verbs with no help",
-        18: "B1 (un)trennbare Verbs with no help",
+        15: "B1 (un)trennbare Verbs with no help (Multiple Choice)",
+        16: "B1 (un)trennbare Verbs with no help (Multiple Choice)",
+        17: "B1 (un)trennbare Verbs with no help (Multiple Choice)",
+        18: "B1 (un)trennbare Verbs with no help (Multiple Choice)",
 
         19: "B2 (un)trennbare Verbs with root help",
         20: "B2 (un)trennbare Verbs with root help",
@@ -586,10 +602,10 @@ DESCRIPTION_EN = {
         24: "B2 (un)trennbare Verbs with prefix help",
         25: "B2 (un)trennbare Verbs with prefix help",
         26: "B2 (un)trennbare Verbs with prefix help",
-        27: "B2 (un)trennbare Verbs with no help",
-        28: "B2 (un)trennbare Verbs with no help",
-        29: "B2 (un)trennbare Verbs with no help",
-        30: "B2 (un)trennbare Verbs with no help",
+        27: "B2 (un)trennbare Verbs with no help (Multiple Choice)",
+        28: "B2 (un)trennbare Verbs with no help (Multiple Choice)",
+        29: "B2 (un)trennbare Verbs with no help (Multiple Choice)",
+        30: "B2 (un)trennbare Verbs with no help (Multiple Choice)",
 
         31: "(Un)trennbare Verbs in geben",
         32: "(Un)trennbare Verbs in stellen",
@@ -1288,5 +1304,36 @@ DESCRIPTION_EN = {
         86: "Definite Articles, in isolation",
         87: "Definite Articles, in isolation",
     },
+
+    zahlen: {
+        1: "Numbers from 0 to 10, in isolation",
+        2: "Numbers from 11 to 20, in isolation",
+        3: "Numbers from 21 to 100, in isolation",
+        4: "Numbers from 21 to 100, in isolation",
+        5: "Numbers from 21 to 100, in isolation",
+        6: "Numbers from 21 to 100, in isolation",
+        7: "Numbers from 101 to 1'000, in isolation",
+        8: "Numbers from 1'001 to 1'000'000, in isolation",
+        9: "Time of the day, in isolation",
+        10: "Time of the day, in isolation",
+
+        11: "Numbers above one million, in isolation",
+        12: "Decimal Numbers, in isolation",
+        13: "Ordinal Numbers (<i>first</i>, <i>second</i>) from 1 to 10, in isolation",
+        14: "Ordinal Numbers (<i>first</i>, <i>second</i>) from 11 to 20, in isolation",
+        15: "Ordinal Numbers (<i>first</i>, <i>second</i>) from 21 to 31, in isolation",
+        16: "Ordinal Numbers (<i>first</i>, <i>second</i>), in sentences",
+
+        17: "Sequential Adverbs (<i>erstens</i>, <i>zweitens</i>), in isolation",
+        18: "Sequential Adverbs (<i>erstens</i>, <i>zweitens</i>), in sentences",
+        19: "Adverbs <i>einmal</i>, <i>zweimal</i> etc., in isolation",
+        20: "Adverbs <i>einmal</i>, <i>zweimal</i> etc., in sentences",
+
+        21: "Fractions (<i>a third</i>, <i>a fourth</i>), in isolation",
+        22: "Fractions (<i>a third</i>, <i>a fourth</i>), in sentences",
+
+        23: "Genitive form of numbers, in isolation",
+        24: "Genitive form of numbers, in sentences",
+    }
 
 }

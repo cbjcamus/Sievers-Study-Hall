@@ -18,15 +18,20 @@ GUIDANCE_UNIT_FR = {
     ,
 
     praepositionen_artikel:
-        "Pour chaque question, une phrase allemande incomplète et sa traduction anglaise vous seront proposées."
-        "<br><br>Complétez la phrase allemande avec l’article ou le pronom approprié."
+        "Pour chaque question, une phrase allemande incomplète, sa traduction anglaise, "
+        "une préposition et un article ou un pronom vous seront présentées."
+        
+        "<br><br>Complétez la phrase allemande avec la préposition et l’article ou le pronom appropriés."
 
-        f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule bonne réponse par question."
+        f"<br><br>➡️ Si vous avez besoin d'aide pour déterminer le genre du nom, cliquez sur le bouton m/f/n/pl."
 
         "<h2>Exemple</h2>"
-        "Das Bild hängt an _____ Tür. \u25CF der/die/das"
-        "<br><br><i>Le tableau est accroché à la porte.</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} der"
+        "Ein Zettel klebt _____ Schrank. \u25CF an \u25CF der/die/das"
+        "<br><br><i>Ein Zettel klebt am Schrank.</i>"
+        f"<br><br> &nbsp; {ICON_CHECK} am"
+        f"<br><br> &nbsp; {ICON_CHECK} an dem"
+        f"<br><br> &nbsp; {ICON_CROSS} dem"
+        f"<br><br> &nbsp; {ICON_CROSS} an"
     ,
 
     adjektive_konjunktionen:

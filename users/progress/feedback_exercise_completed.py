@@ -3,7 +3,8 @@ import pandas as pd
 from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
+from data.data_processing.data_loading import load_data_exercise
+from data.data_processing.exercise_type import is_exercise_multiple_choice
 
 from users.progress.models import UserExerciseState
 from users.questions.normalization import get_list_of_correct_answers
@@ -146,7 +147,6 @@ def format_feedback(df, unit, exercise):
             german=row.get("german", ""),
             english=row.get("english", ""),
             french=row.get("french", ""),
-            adjective=row.get("adjective", ""),
             gender_english=row.get("gender_english", ""),
             gender_french=row.get("gender_french", ""),
             case_english=row.get("case_english", ""),
@@ -155,6 +155,9 @@ def format_feedback(df, unit, exercise):
             article_french=row.get("article_french", ""),
             person=row.get("person", ""),
             prefix=row.get("prefix", ""),
+            article=row.get("article", ""),
+            adjective=row.get("adjective", ""),
+            preposition=row.get("preposition", ""),
             explanation_english=row.get("explanation_english", ""),
             explanation_french=row.get("explanation_french", ""),
             root_german=row.get("root_german", ""),

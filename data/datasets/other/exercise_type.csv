@@ -1,0 +1,85 @@
+type,unit,exercise,extent,answer_column,question_column
+multiple_choice,verben,11,"11, 12, 13, 14, 15",answer,foreign
+multiple_choice,verben,12,"11, 12, 13, 14, 15",answer,foreign
+multiple_choice,verben,13,"11, 12, 13, 14, 15",answer,foreign
+multiple_choice,verben,14,"11, 12, 13, 14, 15",answer,foreign
+multiple_choice,verben,15,"11, 12, 13, 14, 15",answer,foreign
+multiple_choice,verben,16,"16, 17, 18, 19, 20",foreign,question
+multiple_choice,verben,17,"16, 17, 18, 19, 20",foreign,question
+multiple_choice,verben,18,"16, 17, 18, 19, 20",foreign,question
+multiple_choice,verben,19,"16, 17, 18, 19, 20",foreign,question
+multiple_choice,verben,20,"16, 17, 18, 19, 20",foreign,question
+multiple_choice,verben,21,"21, 22, 23, 24, 25",answer,foreign
+multiple_choice,verben,22,"21, 22, 23, 24, 25",answer,foreign
+multiple_choice,verben,23,"21, 22, 23, 24, 25",answer,foreign
+multiple_choice,verben,24,"21, 22, 23, 24, 25",answer,foreign
+multiple_choice,verben,25,"21, 22, 23, 24, 25",answer,foreign
+multiple_choice,verben,26,"26, 27, 28, 29, 30",foreign,question
+multiple_choice,verben,27,"26, 27, 28, 29, 30",foreign,question
+multiple_choice,verben,28,"26, 27, 28, 29, 30",foreign,question
+multiple_choice,verben,29,"26, 27, 28, 29, 30",foreign,question
+multiple_choice,verben,30,"26, 27, 28, 29, 30",foreign,question
+multiple_choice,verben,31,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,32,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,33,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,34,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,35,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,36,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,37,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,38,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,39,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,40,"31, 32, 33, 34, 35, 36, 37, 38, 39, 40",answer,foreign
+multiple_choice,verben,41,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,42,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,43,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,44,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,45,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,46,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,47,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,48,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,49,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,verben,50,"41, 42, 43, 44, 45, 46, 47, 48, 49, 50",foreign,question
+multiple_choice,adjektive,23,"23, 24, 25",answer,foreign
+multiple_choice,adjektive,24,"23, 24, 25",answer,foreign
+multiple_choice,adjektive,25,"23, 24, 25",answer,foreign
+multiple_choice,adjektive,26,"26, 27, 28",foreign,question
+multiple_choice,adjektive,27,"26, 27, 28",foreign,question
+multiple_choice,adjektive,28,"26, 27, 28",foreign,question
+multiple_choice,adjektive,30,"30, 31, 32",answer,foreign
+multiple_choice,adjektive,31,"30, 31, 32",answer,foreign
+multiple_choice,adjektive,32,"30, 31, 32",answer,foreign
+multiple_choice,adjektive,33,"33, 34, 35",foreign,question
+multiple_choice,adjektive,34,"33, 34, 35",foreign,question
+multiple_choice,adjektive,35,"33, 34, 35",foreign,question
+multiple_choice,trennbare_verben,15,"15,16,17,18",answer,foreign
+multiple_choice,trennbare_verben,16,"15,16,17,18",answer,foreign
+multiple_choice,trennbare_verben,17,"15,16,17,18",answer,foreign
+multiple_choice,trennbare_verben,18,"15,16,17,18",answer,foreign
+multiple_choice,trennbare_verben,27,"27,28,29,30",answer,foreign
+multiple_choice,trennbare_verben,28,"27,28,29,30",answer,foreign
+multiple_choice,trennbare_verben,29,"27,28,29,30",answer,foreign
+multiple_choice,trennbare_verben,30,"27,28,29,30",answer,foreign
+multiple_choice,trennbare_verben,63,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,64,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,65,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,66,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,67,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,68,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,69,"63,64,65,66,67,68,69,70",answer,foreign
+multiple_choice,trennbare_verben,70,"63,64,65,66,67,68,69,70",answer,foreign
+synonym,konnektoren,11,,,
+synonym,konnektoren,18,,,
+synonym,konnektoren,29,,,
+synonym,konnektoren,30,,,
+synonym,konnektoren,31,,,
+synonym,konnektoren,32,,,
+synonym,adverbien,9,,,
+synonym,adverbien,19,,,
+synonym,adverbien,29,,,
+synonym,adverbien,39,,,
+synonym,adverbien,49,,,
+synonym,adverbien,59,,,
+synonym,adverbien,69,,,
+synonym,adverbien,79,,,
+synonym,adverbien,80,,,
+synonym,praepositionen_grammatik,27,,,

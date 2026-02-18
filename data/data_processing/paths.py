@@ -9,6 +9,7 @@ from data.data_processing.units import (praepositionen_grammatik, praepositionen
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                         konjunktiv_II, konjunktiv_I, partizip_I,
                                         genus_regeln, genus_routledge, genus_goethe,
+                                        zahlen,
                                         units,
                                         )
 
@@ -51,6 +52,8 @@ DATA_PATH = {
     genus_regeln: os.path.join(BASE_DIR, "datasets/genus", "genus_regeln.csv"),
     genus_routledge: os.path.join(BASE_DIR, "datasets/genus", "genus_routledge.csv"),
     genus_goethe: os.path.join(BASE_DIR, "datasets/genus", "genus_goethe.csv"),
+
+    zahlen: os.path.join(BASE_DIR, "datasets/sonstige", "zahlen.csv"),
 }
 
 df_units = {unit: pd.read_csv(DATA_PATH[unit]) for unit in units}

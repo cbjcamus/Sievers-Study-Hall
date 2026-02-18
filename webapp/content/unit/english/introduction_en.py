@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
+    zahlen,
 )
 
 INTRODUCTION_EN = {
@@ -31,9 +32,10 @@ INTRODUCTION_EN = {
     praepositionen_artikel:
         "All the questions come from other Präpositionen exercises and updated to practice cases following prepositions."
         "<br><br>Reminder:"
-        "<br>&bull; Followed by Accusative: Bis, Durch, Für, Ohne, Gegen, Um"
-        "<br>&bull; Followed by Dative: Aus, Bei, Mit, Seit, Nach, Von, Zu"
-        "<br>&bull; Followed by Dative or Accusative: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
+        "<br>&bull; Followed by the Accusative case: Bis, Durch, Für, Ohne, Gegen, Um"
+        "<br>&bull; Followed by the Dative case: Aus, Bei, Mit, Seit, Nach, Von, Zu"
+        "<br>&bull; Followed by the Dative or the Accusative case: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
+        "<br>&bull; Followed by the Genitive case: Anstatt, Außerhalb, Innerhalb, Laut, Trotz, Während, Wegen"
     ,
 
     artikel:
@@ -109,18 +111,6 @@ INTRODUCTION_EN = {
         "Preterit tense."
         "<br><br>Available for each grammatical person for the most important verbs, "
         "then only the 3<sup>rd</sup> singular person is required."
-        "<br><br>Once I spoke to a German teacher about my whereabouts. My level was early B1. "
-        "<br>I used the Präteritum instead of the Perfekt because it's easier: you don't have to think about which"
-        "hilfsverb to use and you don't have to retain the Partizip II in your head."
-        "<br>She cut me off several times and told me to use the Perfekt instead. "
-        "<br>And yes I knew the Präteritum is mostly used in writing and not while speaking."
-        "<br>That wasn't the point. "
-        "My goal was to express myself in German, something I wasn't able to do everyday. "
-        "<br>Not every conversation needs to be an oral examination. "
-        "There is nothing more frustrating than expressing your thoughts in a new language while someone corrects "
-        "every single mistake. "
-        "<br>If you're a language teacher be mindful of that. "
-        "<br>It's my website I get to rant whenever and wherever I want."
     ,
     praeteritum_partizip_II:
         "Exercise to practice the Präteritum and Partizip II together."
@@ -161,5 +151,9 @@ INTRODUCTION_EN = {
         "A Dance of Der Die Das."
         "<br><br>The list of nouns comes from the "
         "<a href=\"https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf\" target=\"_blank\">Goethe Institut</a>."
+    ,
+
+    zahlen:
+        "Numbers in all their forms, including cardinal, ordinal, sequential, adverbial, fractional and multiplier."
     ,
 }

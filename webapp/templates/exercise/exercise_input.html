@@ -89,19 +89,19 @@
                   onclick="toggleGuidanceHelp()" title="Help">?</button>
         </div>
 
-      <div id="guidance-overlay" class="guidance-overlay" aria-hidden="true">
-      <div class="guidance-modal" role="dialog" aria-modal="true">
-        <div class="guidance-modal-header">
-            <h2>Instruction</h2>
-          <button type="button" class="guidance-close" onclick="toggleGuidanceHelp(true)" aria-label="Close">×</button>
+        <div id="guidance-overlay" class="guidance-overlay" aria-hidden="true">
+            <div class="guidance-modal" role="dialog" aria-modal="true">
+                <div class="guidance-modal-header">
+                    <h2>Instruction</h2>
+                    <button type="button" class="guidance-close" onclick="toggleGuidanceHelp(true)" aria-label="Close">×</button>
+                </div>
+                <div class="guidance-modal-body">
+                    {{ guidance | safe }}
+                    <h2>{{ additional_help | safe }}</h2>
+                    <p align="left">{{ consult_faq | safe }}</p>
+                </div>
+            </div>
         </div>
-        <div class="guidance-modal-body">
-            {{ guidance | safe }}
-            <h2>{{ additional_help | safe }}</h2>
-            <p align="left">{{ consult_faq | safe }}</p>
-        </div>
-      </div>
-      </div>
 
     </div>
 
@@ -121,17 +121,17 @@
         {% endif %}
     {% endwith %}
 
-    {% if proverb %}
-        <div class="proverb-container">
-            <p>{{ proverb | safe }}</p>
-        </div>
-    {% endif %}
-
     <div class="question-count">
         <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
         {{ answered_questions }}/{{ total_questions }} <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
         </form>
     </div>
+
+    {% if proverb %}
+        <div class="proverb-container">
+            <p>{{ proverb | safe }}</p>
+        </div>
+    {% endif %}
 
     <div class="back-button-container">
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>

@@ -2,13 +2,12 @@ from flask import render_template, session, request, redirect, url_for, flash, j
 from flask_login import current_user
 from typing import cast
 
-from flask_migrate import current
-
 from . import routes_bp
 
 from data.data_processing.levels import get_level_from_exercise
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice
+from data.data_processing.data_loading import load_data_exercise
+from data.data_processing.exercise_type import is_exercise_multiple_choice
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from users.users.models import db, is_feedback_enabled, Bookmark, get_filename_full_bookmark, \
@@ -20,7 +19,8 @@ from users.progress.progress import compute_answered_questions, update_progress_
 from users.progress.register_update import register_progress, register_result, register_incorrect_answer
 from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
 
-from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, is_user_answer_correct
+from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, is_user_answer_correct, \
+    get_first_correct_answer
 from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, get_question_from_incorrect_answer,
                                              get_options_for_multiple_choice_exercises)
 from users.session_management.logging import log_question_flagged
@@ -53,6 +53,7 @@ def guidance(unit, exercise):
         result = feedback.get("result")
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
+        previous_question = feedback.get("previous_question")
 
         number_of_incorrect_answers = 0
         incorrect_answers = []
@@ -80,6 +81,7 @@ def guidance(unit, exercise):
                                result=result,
                                feedback_message=feedback_message,
                                user_answer=user_answer,
+                               previous_question=previous_question,
                                number_of_incorrect_answers=number_of_incorrect_answers,
                                incorrect_answers=incorrect_answers,
                                feedbacks=feedbacks,
@@ -151,11 +153,12 @@ def exercise(unit, exercise):
         result = feedback.get("result")
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
+        previous_question = feedback.get("previous_question")
 
         if current_user.is_authenticated:
             incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
             feedbacks = get_feedback_exercise(session, unit, exercise)
-            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, 'incorrect', incorrect_answer)
+            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, 'incorrect', incorrect_answer, "")
                                    for incorrect_answer in incorrect_answers]
         else:
             number_of_incorrect_answers = 0
@@ -185,6 +188,7 @@ def exercise(unit, exercise):
                                result=result,
                                feedback_message=feedback_message,
                                user_answer=user_answer,
+                               previous_question=previous_question,
                                number_of_incorrect_answers=number_of_incorrect_answers,
                                incorrect_answers=incorrect_answers,
                                feedbacks=feedbacks,
@@ -211,7 +215,6 @@ def exercise(unit, exercise):
     german = str(question_data.get("german", ""))
     english = str(question_data.get("english", ""))
     french = str(question_data.get("french", ""))
-    adjective = question_data.get("adjective", "")
     gender_english = question_data.get("gender_english", "")
     gender_french = question_data.get("gender_french", "")
     case_english = question_data.get("case_english", "")
@@ -220,6 +223,9 @@ def exercise(unit, exercise):
     article_french = question_data.get("article_french", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
+    article = question_data.get("article", "")
+    adjective = question_data.get("adjective", "")
+    preposition = question_data.get("preposition", "")
     explanation_english = question_data.get("explanation_english", "")
     explanation_french = question_data.get("explanation_french", "")
     root_german = question_data.get("root_german", "")
@@ -234,7 +240,6 @@ def exercise(unit, exercise):
         german=german,
         english=english,
         french=french,
-        adjective=adjective,
         gender_english=gender_english,
         gender_french=gender_french,
         case_english=case_english,
@@ -243,6 +248,9 @@ def exercise(unit, exercise):
         article_french=article_french,
         person=person,
         prefix=prefix,
+        article=article,
+        adjective=adjective,
+        preposition=preposition,
         explanation_english=explanation_english,
         explanation_french=explanation_french,
         root_german=root_german,
@@ -255,12 +263,13 @@ def exercise(unit, exercise):
     result = feedback.get("result")
     feedback_message = feedback.get("feedback_message")
     user_answer = feedback.get("user_answer")
+    previous_question = feedback.get("previous_question")
 
     proverb = get_text_proverb()
 
     is_feedback_box = not is_feedback_enabled()
 
-    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer)
+    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
 
     gender = gender_english if get_language(request, session) == 'english' else gender_french
 
@@ -367,11 +376,11 @@ def check_answer(unit, exercise):
     question_data = data[data["Nr"] == int(nr)].iloc[0]# .fillna("")
     correct_answer = get_correct_answer(unit, exercise, question_data)
     correct_answers = get_list_of_correct_answers(correct_answer, unit)
+    first_correct_answer = get_first_correct_answer(correct_answer)
     question_text = question_data["question"]
     german = question_data.get("german", "")
     english = question_data.get("english", "")
     french = question_data.get("french", "")
-    adjective = question_data.get("adjective", "")
     gender_english = question_data.get("gender_english", "")
     gender_french = question_data.get("gender_french", "")
     case_english = question_data.get("case_english", "")
@@ -380,6 +389,9 @@ def check_answer(unit, exercise):
     article_french = question_data.get("article_french", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
+    article = question_data.get("article", "")
+    adjective = question_data.get("adjective", "")
+    preposition = question_data.get("preposition", "")
     explanation_english = question_data.get("explanation_english", "")
     explanation_french = question_data.get("explanation_french", "")
     root_german = question_data.get("root_german", "")
@@ -392,11 +404,11 @@ def check_answer(unit, exercise):
         previous_question=question_text,
         correct_answer=correct_answer,
         correct_answers=correct_answers,
+        first_correct_answer=first_correct_answer,
         user_answer=user_answer,
         german=german,
         english=english,
         french=french,
-        adjective=adjective,
         gender_english=gender_english,
         gender_french=gender_french,
         case_english=case_english,
@@ -405,6 +417,9 @@ def check_answer(unit, exercise):
         article_french=article_french,
         person=person,
         prefix=prefix,
+        article=article,
+        adjective=adjective,
+        preposition=preposition,
         explanation_english=explanation_english,
         explanation_french=explanation_french,
         root_german=root_german,
@@ -413,7 +428,7 @@ def check_answer(unit, exercise):
         type=type,
     )
 
-    is_answer_correct = is_user_answer_correct(user_answer, correct_answer, question_text, unit)
+    is_answer_correct = is_user_answer_correct(user_answer, correct_answer, question_text, unit, exercise)
 
     if is_answer_correct:
         register_progress(session, unit, exercise, nr)
@@ -426,6 +441,7 @@ def check_answer(unit, exercise):
         "result": "correct" if is_answer_correct else "incorrect",
         "feedback_message": feedback_message,
         "user_answer": user_answer,
+        "previous_question": question_text,
     }
 
     session[f"question_data"] = question_data.to_dict()
@@ -450,11 +466,12 @@ def exercise_feedback(unit, exercise):
         result = feedback.get("result")
         feedback_message = feedback.get("feedback_message")
         user_answer = feedback.get("user_answer")
+        previous_question = feedback.get("previous_question")
 
         if current_user.is_authenticated:
             incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
             feedbacks = get_feedback_exercise(session, unit, exercise)
-            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
+            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer, "")
                                    for incorrect_answer in incorrect_answers]
         else:
             number_of_incorrect_answers = 0
@@ -484,6 +501,7 @@ def exercise_feedback(unit, exercise):
                                result=result,
                                feedback_message=feedback_message,
                                user_answer=user_answer,
+                               previous_question=previous_question,
                                number_of_incorrect_answers=number_of_incorrect_answers,
                                your_answer=YOUR_ANSWER[language],
                                incorrect_answers=incorrect_answers,
@@ -510,7 +528,6 @@ def exercise_feedback(unit, exercise):
     german = str(question_data.get("german", ""))
     english = str(question_data.get("english", ""))
     french = str(question_data.get("french", ""))
-    adjective = question_data.get("adjective", "")
     gender_english = question_data.get("gender_english", "")
     gender_french = question_data.get("gender_french", "")
     case_english = question_data.get("case_english", "")
@@ -519,6 +536,9 @@ def exercise_feedback(unit, exercise):
     article_french = question_data.get("article_french", "")
     person = question_data.get("person", "")
     prefix = question_data.get("prefix", "")
+    article = question_data.get("article", "")
+    adjective = question_data.get("adjective", "")
+    preposition = question_data.get("preposition", "")
     explanation_english = question_data.get("explanation_english", "")
     explanation_french = question_data.get("explanation_french", "")
     root_german = question_data.get("root_german", "")
@@ -533,7 +553,6 @@ def exercise_feedback(unit, exercise):
         german=german,
         english=english,
         french=french,
-        adjective=adjective,
         gender_english=gender_english,
         gender_french=gender_french,
         case_english=case_english,
@@ -542,6 +561,9 @@ def exercise_feedback(unit, exercise):
         article_french=article_french,
         person=person,
         prefix=prefix,
+        article=article,
+        adjective=adjective,
+        preposition=preposition,
         explanation_english=explanation_english,
         explanation_french=explanation_french,
         root_german=root_german,
@@ -554,12 +576,13 @@ def exercise_feedback(unit, exercise):
     result = feedback.get("result")
     feedback_message = feedback.get("feedback_message")
     user_answer = feedback.get("user_answer")
+    previous_question = feedback.get("previous_question")
 
     proverb = get_text_proverb()
 
     is_feedback_box = True
 
-    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer)
+    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
 
     if unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
         guidance_popup = GUIDANCE_EXERCISE[language][unit][exercise]

@@ -3,10 +3,11 @@ import random
 from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.units import adverbien, konnektoren, fragen, trennbare_verben
+from data.data_processing.units import adverbien, konnektoren, fragen, trennbare_verben, praepositionen_verben, \
+    praepositionen_adjektive, praepositionen_nomen
 
-from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level,
-                                               is_exercise_multiple_choice, get_answer_column, get_question_column)
+from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level)
+from data.data_processing.exercise_type import get_answer_column, get_question_column, is_exercise_multiple_choice
 
 from users.progress.models import UserExerciseState
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
@@ -150,14 +151,13 @@ def is_exercise_finished(session, unit, exercise):
         return False
 
 
-def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer):
+def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer, question_text):
 
     if result != "incorrect":
         return ""
 
     elif is_exercise_multiple_choice(unit, exercise) is True:
         data = load_data_level(unit, exercise)
-
         language = get_language(request, session)
 
         if get_question_column(unit, exercise) == "foreign":
@@ -173,9 +173,7 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
             return None
 
     elif unit in [konnektoren, adverbien, fragen, trennbare_verben]:
-
         data = load_data_unit(unit)
-
         language = get_language(request, session)
 
         match = data.loc[data['answer'] == incorrect_answer, language]
@@ -185,6 +183,22 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer)
             return f"(<i>{question}</i>)"
         else:
             return ""
+
+    elif unit in [praepositionen_verben, praepositionen_adjektive, praepositionen_nomen]:
+        data = load_data_unit(unit)
+        language = get_language(request, session)
+
+        combination = question_text.replace("_____", incorrect_answer)
+
+        match_explanation = data.loc[data["combination"] == combination, f"explanation_{language}"]
+
+        if match_explanation.empty:
+            return ""
+
+        else:
+            match_explanation = match_explanation.iloc[0]
+            print("question", match_explanation)
+            return f"<br><br><i>{match_explanation}</i>"
 
     else:
         return ""

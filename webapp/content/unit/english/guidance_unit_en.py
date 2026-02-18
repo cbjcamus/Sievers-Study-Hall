@@ -18,17 +18,19 @@ GUIDANCE_UNIT_EN = {
     ,
 
     praepositionen_artikel:
-        "For each question, you will be provided an incomplete German sentence and its English translation."
-        "<br><br>Complete the German sentence with the article or pronoun that fits."
-
-        f"<br><br> &nbsp; {ICON_WARN} There is only one correct answer per question."
+        "For each question, you will be provided an incomplete German sentence, its English translation, "
+        "a preposition and an article or a pronoun."
+        "<br><br>Complete the German sentence with the preposition and the article or pronoun that fits."
 
         f"<br><br>➡️ If you need help on the gender of the noun, click on the m/f/n/pl button."
 
         "<h2>Example</h2>"
-        "Das Bild hängt an _____ Tür. \u25CF der/die/das"
-        "<br><br><i>The picture hangs on the door.</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} der"
+        "Ein Zettel klebt _____ Schrank. \u25CF an \u25CF der/die/das"
+        "<br><br><i>A note is stuck to the closet.</i>"
+        f"<br><br> &nbsp; {ICON_CHECK} am"
+        f"<br><br> &nbsp; {ICON_CHECK} an dem"
+        f"<br><br> &nbsp; {ICON_CROSS} dem"
+        f"<br><br> &nbsp; {ICON_CROSS} an"
     ,
 
     adjektive_konjunktionen:

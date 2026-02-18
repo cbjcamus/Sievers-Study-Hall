@@ -30,6 +30,7 @@ body.day-mode .guidance-container {
     width: 100%;
     max-width: 400px;
     margin: 10px auto;
+    margin-bottom: 5px auto;
     text-align: center;
 
     display: block;
@@ -45,7 +46,7 @@ body.day-mode .guidance-container {
     max-width: 400px;
     margin: 10px auto;
 
-    padding: 5px;
+    padding: 1px 5px;
     background-color: #1f2f40;
     border-radius: 12px;
 
@@ -125,7 +126,7 @@ body.day-mode .readonly-input:focus {
     background-color: white;
     color: #131b22;
     border: none;
-    padding: 5px 10px;
+    padding: 3px 10px;
     margin: 2px;
     font-size: 16px;
     cursor: pointer;
@@ -399,7 +400,7 @@ body.day-mode .refresh-button {
     max-width: 400px;
 
     background-color: #1F311C;
-    padding: 5px;
+    padding: 1px 5px;
     border-radius: 12px;
 
     margin: 20px auto;
@@ -425,7 +426,7 @@ body.day-mode .feedback-correct-container {
     max-width: 400px;
 
     background-color: #3A1E1E;
-    padding: 5px;
+    padding: 1px 5px;
     border-radius: 12px;
 
     margin: 20px auto;
@@ -531,7 +532,7 @@ body.day-mode .flag-button {
     text-align: center;
     color: white;
     background-color: #401f2e;
-    padding: 5px;
+    padding: 1px 5px;
     margin: 10px auto;
     border-radius: 12px;
 }
@@ -563,7 +564,7 @@ body.day-mode .flash-message.info {
     box-sizing: border-box;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -577,11 +578,11 @@ body.day-mode .flash-message.info {
     font-family: inherit;
 }
 
-body.day-mode .flag-form textarea{
+body.day-mode .flag-form textarea {
     border: 1px solid black;
 }
 
-.flag-form button{
+.flag-form button {
     background-color: white;
     color: #161F23;
     border: none;
@@ -591,7 +592,7 @@ body.day-mode .flag-form textarea{
     border-radius: 5px;
 }
 
-body.day-mode .flag-form button{
+body.day-mode .flag-form button {
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -606,7 +607,7 @@ body.day-mode .flag-form button{
     max-width: 400px;
 
     margin: 20px auto; /* Centers the container itself */
-    padding: 5px;
+    padding: 1px 5px;
 
     background-color: #332116; /* #2a1c31 */
     border-radius: 12px;

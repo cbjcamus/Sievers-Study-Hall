@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
+    zahlen,
 )
 
 # bullet point \u25CF
@@ -154,15 +155,30 @@ INSTRUCTION_FR = {
     },
 
     praepositionen_artikel: {
-        1: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        2: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        3: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        4: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        5: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        6: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        7: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        8: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-        9: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
+        1: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        2: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        3: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        4: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        5: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        6: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+
+        7: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        8: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        9: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        10: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+
+        11: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        12: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        13: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        14: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        15: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        16: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        17: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        18: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        19: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        20: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        21: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        22: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
     },
 
     praepositionen_adverbien: {
@@ -205,25 +221,23 @@ INSTRUCTION_FR = {
         27: "Complétez la phrase suivante avec l'article démonstratif qui convient :",
         28: "Écrivez le mot \"jede\" qui correspond au cas et au genre fournis :",
         29: "Complétez la phrase suivante avec le mot \"jede\" qui convient :",
-        30: "Complétez la phrase suivante avec l'article qui convient :",
+        30: "Traduisez l'article suivant :",
         31: "Complétez la phrase suivante avec l'article qui convient :",
-        32: "Traduisez l'article suivant :",
-        33: "Complétez la phrase suivante avec l'article qui convient :",
 
+        32: "Rédigez l'article qui correspond au cas et au genre fournis :",
+        33: "Complétez la phrase suivante avec l'article génitif qui convient :",
         34: "Rédigez l'article qui correspond au cas et au genre fournis :",
         35: "Complétez la phrase suivante avec l'article génitif qui convient :",
-        36: "Rédigez l'article qui correspond au cas et au genre fournis :",
-        37: "Complétez la phrase suivante avec l'article génitif qui convient :",
-        38: "Écrivez l'article possessif qui correspond au cas et au genre fournis :",
-        39: "Complétez la phrase suivante avec l'article possessif qui convient :",
+        36: "Écrivez l'article possessif qui correspond au cas et au genre fournis :",
+        37: "Complétez la phrase suivante avec l'article possessif qui convient :",
+
+        38: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
+        39: "Complétez la phrase suivante avec l'article qui convient :",
 
         40: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
         41: "Complétez la phrase suivante avec l'article qui convient :",
-
-        42: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
+        42: "Complétez la phrase suivante avec l'article qui convient :",
         43: "Complétez la phrase suivante avec l'article qui convient :",
-        44: "Complétez la phrase suivante avec l'article qui convient :",
-        45: "Complétez la phrase suivante avec l'article qui convient :",
     },
 
     pronomen: {
@@ -319,6 +333,9 @@ INSTRUCTION_FR = {
 
         11: "Traduisez le mot interrogatif suivant :",
         12: "Complétez la phrase suivante avec le mot interrogatif qui convient :",
+
+        13: "Traduisez le mot interrogatif suivant :",
+        14: "Complétez la phrase suivante avec le mot interrogatif qui convient :",
     },
 
     adverbien: {
@@ -1290,6 +1307,37 @@ INSTRUCTION_FR = {
         85: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         86: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
         87: "Écrivez l'article défini (Der, Die ou Das) qui correspond au nom fourni :",
+    },
+
+    zahlen: {
+        1: "Écrivez la forme écrite du nombre suivant :",
+        2: "Écrivez la forme écrite du nombre suivant :",
+        3: "Écrivez la forme écrite du nombre suivant :",
+        4: "Écrivez la forme écrite du nombre suivant :",
+        5: "Écrivez la forme écrite du nombre suivant :",
+        6: "Écrivez la forme écrite du nombre suivant :",
+        7: "Écrivez la forme écrite du nombre suivant :",
+        8: "Écrivez la forme écrite du nombre suivant :",
+        9: "Écrivez la forme écrite de l'heure suivante :",
+        10: "Écrivez la forme écrite de l'heure suivante :",
+
+        11: "Écrivez la forme écrite du nombre suivant :",
+        12: "Écrivez la forme écrite du nombre suivant :",
+        13: "Traduisez le nombre ordinal suivant :",
+        14: "Traduisez le nombre ordinal suivant :",
+        15: "Traduisez le nombre ordinal suivant :",
+        16: "Complétez la phrase suivante avec le nombre ordinal qui convient :",
+
+        17: "Traduisez l'adverbe de séquence suivant :",
+        18: "Complétez la phrase suivante avec l'adverbe de séquence qui convient :",
+        19: "Traduisez l'adverbe de fréquence suivant :",
+        20: "Complétez la phrase suivante avec l'adverbe de fréquence qui convient :",
+
+        21: "Traduisez la fraction suivante :",
+        22: "Complétez la phrase suivante avec la fraction qui convient :",
+
+        23: "Donnez la forme génitive du nombre suivant :",
+        24: "Complétez la phrase suivante avec la forme génitive du nombre qui convient :",
     },
 
 }

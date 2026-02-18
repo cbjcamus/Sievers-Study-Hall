@@ -5,6 +5,7 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    zahlen,
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -822,6 +823,152 @@ guidance_nomen_verben_wortstaemme_nomen = (
     f"<br><br> &nbsp; {ICON_CHECK} die Arbeit"
 )
 
+guidance_zahlen_number = (
+    "Pour chaque question, un nombre vous sera fourni."
+    "<br><br>Écrivez la forme écrite allemande de ce nombre."
+
+    "<h2>Exemples</h2>"
+    "2"
+    f"<br><br> &nbsp; {ICON_CHECK} zwei"
+    
+    "<br><br>1,23"
+    f"<br><br> &nbsp; {ICON_CHECK} eins Komma zwei drei"
+    f"<br><br> &nbsp; {ICON_CROSS} eins Punkt zwei drei"
+)
+
+guidance_zahlen_time_spelled = (
+    "Pour chaque question, une heure de la journée vous sera donnée."
+    "<br><br>Écrivez la version écrite allemande de cette heure."
+
+    "<h2>Exemples</h2>"
+    "8h"
+    f"<br><br> &nbsp; {ICON_CHECK} acht Uhr"
+    f"<br><br> &nbsp; {ICON_CHECK} acht Uhr null"
+
+    "<br><br>17:50"
+    f"<br><br> &nbsp; {ICON_CHECK} siebzehn Uhr fünfzig"
+    f"<br><br> &nbsp; {ICON_CHECK} zehn vor sechs"
+)
+
+guidance_zahlen_time_digital = (
+    "Pour chaque question, on vous donnera une heure de la journée."
+    "<br><br>Écrivez la version digitale de cette heure."
+
+    "<h2>Exemple</h2>"
+    "Viertel vor neun"
+    f"<br><br> &nbsp; {ICON_CHECK} 8:45"
+    f"<br><br> &nbsp; {ICON_CHECK} 08:45"
+)
+
+guidance_zahlen_ordinal_isolation = (
+    "Pour chaque question, un nombre ordinal vous sera fourni en français."
+    "<br><br>Traduisez ce nombre ordinal en allemand."
+
+    f"<br><br> &nbsp; {ICON_WARN} Le nombre ordinal doit être décliné sous la forme <i>-e</i>."
+
+    "<h2>Exemple</h2>"
+    "premier"
+    f"<br><br> &nbsp; {ICON_CHECK} erste"
+    f"<br><br> &nbsp; {ICON_CROSS} ersten"
+)
+
+guidance_zahlen_ordinal_sentence = (
+    "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en anglais."
+    "<br><br>Il manque un nombre ordinal dans la phrase allemande. Trouvez celui qui convient."
+
+    f"<br><br> &nbsp; {ICON_WARN} Le nombre ordinal doit être décliné en fonction du contexte."
+
+    "<h2>Exemple</h2>"
+    "Sie wohnt im _____ Stock."
+    "<br><br><i>Elle habite au deuxième étage.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} zweiten"
+    f"<br><br> &nbsp; {ICON_CROSS} zweite"
+)
+
+guidance_zahlen_adverb_isolation = (
+    "Pour chaque question, un adverbe français vous sera fourni."
+    "<br><br>Traduisez cet adverbe en allemand."
+
+    "<h2>Exemple</h2>"
+    "troisièmement"
+    f"<br><br> &nbsp; {ICON_CHECK} drittens"
+)
+
+guidance_zahlen_adverb_sentence = (
+    "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en anglais."
+    "<br><br>Il manque un adverbe dans la phrase allemande. Trouvez celui qui convient."
+
+    "<h2>Exemple</h2>"
+    "_____ fehlt uns im Moment das nötige Budget."
+    "<br><br><i>Troisièmement, il nous manque actuellement le budget nécessaire.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Drittens"
+)
+
+guidance_zahlen_fraction_isolation = (
+    "Pour chaque question, vous recevrez une fraction en français."
+    "<br><br>Traduisez cette fraction en allemand."
+
+    "<h2>Exemple</h2>"
+    "un tiers"
+    f"<br><br> &nbsp; {ICON_CHECK} ein Drittel"
+)
+
+guidance_zahlen_fraction_sentence = (
+    "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en français."
+    "<br><br>Il manque une fraction dans la phrase allemande. Trouvez celle qui convient."
+
+    "<h2>Exemple</h2>"
+    "_____ der Teilnehmenden hat den Kurs vorzeitig beendet."
+    "<br><br><i>La moitié des participants a quitté le cours prématurément.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Die Hälfte"
+)
+
+guidance_zahlen_multiplier_isolation = (
+    "For each question, you will be provided an English multiplier."
+    "<br><br>Translate this multiplier in German."
+
+    "<h2>Example</h2>"
+    "fourfold"
+    f"<br><br> &nbsp; {ICON_CHECK} vierfach"
+)
+
+guidance_zahlen_multiplier_sentence = (
+    "For each question, you will be provided a German sentence and its English translation."
+    "<br><br>The German sentence has a multiplier missing. Find the one that fits."
+
+    f"<br><br> &nbsp; {ICON_WARN} The multiplier should be declined based on the context."
+
+    "<h2>Example</h2>"
+    "Das Risiko ist _____: finanziell und reputationsbezogen."
+    "<br><br><i>The risk is twofold: financial and reputational.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} zweifach"
+)
+
+guidance_zahlen_genitive_isolation = (
+    "Pour chaque question, un nombre vous sera fourni."
+    "<br><br>Ecrivez la forme génitive de ce nombre."
+
+    "<h2>Exemple</h2>"
+    "3"
+    f"<br><br> &nbsp; {ICON_CHECK} dreier"
+)
+
+guidance_zahlen_genitive_sentence = (
+    "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en français."
+    "<br><br>Il manque la forme génitive d'un nombre dans la phrase allemande. Trouvez celle qui convient."
+
+    "<h2>Exemples</h2>"
+    "Der Ausschuss einigte sich nach intensiver Debatte auf einen Kompromiss _____ Parteien."
+    "<br><br><i>Après un débat intense, la commission s’est accordée sur un compromis entre sept partis.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} siebener"
+    f"<br><br> &nbsp; {ICON_CHECK} von sieben"
+
+    "<br><br>Die Lösung ergibt sich aus der Kombination _____ voneinander abhängiger Faktoren."
+    "<br><br><i>La solution résulte de la combinaison de quatre facteurs interdépendants.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} vierer"
+    f"<br><br> &nbsp; {ICON_CROSS} von vier (la déclinaison de l'adjectif ne correspond pas)"
+)
+
 GUIDANCE_EXERCISE_FR = {
 
     praepositionen_grammatik: {
@@ -996,25 +1143,23 @@ GUIDANCE_EXERCISE_FR = {
         27: guidance_artikel_sentences,
         28: guidance_artikel_isolation,
         29: guidance_artikel_sentences,
-        30: guidance_artikel_sentences,
+        30: guidance_artikel_isolation,
         31: guidance_artikel_sentences,
+
         32: guidance_artikel_isolation,
         33: guidance_artikel_sentences,
-
         34: guidance_artikel_isolation,
         35: guidance_artikel_sentences,
         36: guidance_artikel_isolation,
         37: guidance_artikel_sentences,
+
         38: guidance_artikel_isolation,
         39: guidance_artikel_sentences,
 
         40: guidance_artikel_isolation,
         41: guidance_artikel_sentences,
-
-        42: guidance_artikel_isolation,
+        42: guidance_artikel_sentences,
         43: guidance_artikel_sentences,
-        44: guidance_artikel_sentences,
-        45: guidance_artikel_sentences,
     },
 
     pronomen: {
@@ -1110,6 +1255,9 @@ GUIDANCE_EXERCISE_FR = {
 
         11: guidance_fragen_isolation,
         12: guidance_fragen_sentences,
+
+        13: guidance_fragen_isolation,
+        14: guidance_fragen_sentences,
     },
 
     adverbien: {
@@ -1228,12 +1376,12 @@ GUIDANCE_EXERCISE_FR = {
         21: guidance_adjektive_superlative,
         22: guidance_adjektive_superlative,
 
-        23: guidance_adjektive_multiple_choices_german_to_english,
-        24: guidance_adjektive_multiple_choices_german_to_english,
-        25: guidance_adjektive_multiple_choices_german_to_english,
-        26: guidance_adjektive_multiple_choices_english_to_german,
-        27: guidance_adjektive_multiple_choices_english_to_german,
-        28: guidance_adjektive_multiple_choices_english_to_german,
+        23: guidance_adjektive_multiple_choices_english_to_german,
+        24: guidance_adjektive_multiple_choices_english_to_german,
+        25: guidance_adjektive_multiple_choices_english_to_german,
+        26: guidance_adjektive_multiple_choices_german_to_english,
+        27: guidance_adjektive_multiple_choices_german_to_english,
+        28: guidance_adjektive_multiple_choices_german_to_english,
 
         29: guidance_adjektive_multiple_choices_german_to_english,
         30: guidance_adjektive_multiple_choices_german_to_english,
@@ -1548,5 +1696,35 @@ GUIDANCE_EXERCISE_FR = {
         90: guidance_nomen_verben_wortstaemme_nomen,
         91: guidance_nomen_verben_wortstaemme_verben,
         92: guidance_nomen_verben_wortstaemme_nomen,
+    },
+
+    zahlen: {
+        1: guidance_zahlen_number,
+        2: guidance_zahlen_number,
+        3: guidance_zahlen_number,
+        4: guidance_zahlen_number,
+        5: guidance_zahlen_number,
+        6: guidance_zahlen_number,
+        7: guidance_zahlen_number,
+        8: guidance_zahlen_number,
+        9: guidance_zahlen_time_spelled,
+        10: guidance_zahlen_time_digital,
+
+        11: guidance_zahlen_number,
+        12: guidance_zahlen_number,
+        13: guidance_zahlen_ordinal_isolation,
+        14: guidance_zahlen_ordinal_isolation,
+        15: guidance_zahlen_ordinal_isolation,
+        16: guidance_zahlen_ordinal_sentence,
+
+        17: guidance_zahlen_adverb_isolation,
+        18: guidance_zahlen_adverb_sentence,
+        19: guidance_zahlen_adverb_isolation,
+        20: guidance_zahlen_adverb_sentence,
+        21: guidance_zahlen_fraction_isolation,
+        22: guidance_zahlen_fraction_sentence,
+
+        23: guidance_zahlen_genitive_isolation,
+        24: guidance_zahlen_genitive_sentence,
     },
 }

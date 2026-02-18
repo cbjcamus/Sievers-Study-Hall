@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
+    zahlen,
 )
 
 # bullet point \u25CF
@@ -154,15 +155,30 @@ INSTRUCTION_EN = {
     },
 
     praepositionen_artikel: {
-        1: "Complete the following sentence with the article or pronoun that fits:",
-        2: "Complete the following sentence with the article or pronoun that fits:",
-        3: "Complete the following sentence with the article or pronoun that fits:",
-        4: "Complete the following sentence with the article or pronoun that fits:",
-        5: "Complete the following sentence with the article or pronoun that fits:",
-        6: "Complete the following sentence with the article or pronoun that fits:",
-        7: "Complete the following sentence with the article or pronoun that fits:",
-        8: "Complete the following sentence with the article or pronoun that fits:",
-        9: "Complete the following sentence with the article or pronoun that fits:",
+        1: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        2: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        3: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        4: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        5: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        6: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+
+        7: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        8: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        9: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        10: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+
+        11: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        12: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        13: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        14: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        15: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        16: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        17: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        18: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        19: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        20: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        21: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        22: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
     },
 
     praepositionen_adverbien: {
@@ -206,25 +222,23 @@ INSTRUCTION_EN = {
         27: "Complete the following sentence with the demonstrative article that fits:",
         28: "Write jede-word that fits the case and gender provided:",
         29: "Complete the following sentence with the jede-word that fits:",
-        30: "Complete the following sentence with the article that fits:",
+        30: "Translate the following article:",
         31: "Complete the following sentence with the article that fits:",
-        32: "Translate the following article:",
-        33: "Complete the following sentence with the article that fits:",
 
+        32: "Write the article that fits the case and gender provided:",
+        33: "Complete the following sentence with the genitive article that fits:",
         34: "Write the article that fits the case and gender provided:",
         35: "Complete the following sentence with the genitive article that fits:",
-        36: "Write the article that fits the case and gender provided:",
-        37: "Complete the following sentence with the genitive article that fits:",
-        38: "Write the possessive article that fits the case and gender provided:",
-        39: "Complete the following sentence with the possessive article that fits:",
+        36: "Write the possessive article that fits the case and gender provided:",
+        37: "Complete the following sentence with the possessive article that fits:",
+
+        38: "Translate the following article based on the case and gender provided:",
+        39: "Complete the following sentence with the article that fits:",
 
         40: "Translate the following article based on the case and gender provided:",
         41: "Complete the following sentence with the article that fits:",
-
-        42: "Translate the following article based on the case and gender provided:",
+        42: "Complete the following sentence with the article that fits:",
         43: "Complete the following sentence with the article that fits:",
-        44: "Complete the following sentence with the article that fits:",
-        45: "Complete the following sentence with the article that fits:",
     },
 
     pronomen: {
@@ -320,6 +334,9 @@ INSTRUCTION_EN = {
 
         11: "Translate the following question word:",
         12: "Complete the following sentence with the question word that fits:",
+
+        13: "Translate the following question word:",
+        14: "Complete the following sentence with the question word that fits:",
     },
 
     adverbien: {
@@ -1291,6 +1308,37 @@ INSTRUCTION_EN = {
         85: "Write the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun provided:",
         86: "Write the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun provided:",
         87: "Write the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun provided:",
+    },
+
+    zahlen: {
+        1: "Write the spelled form of the following number:",
+        2: "Write the spelled form of the following number:",
+        3: "Write the spelled form of the following number:",
+        4: "Write the spelled form of the following number:",
+        5: "Write the spelled form of the following number:",
+        6: "Write the spelled form of the following number:",
+        7: "Write the spelled form of the following number:",
+        8: "Write the spelled form of the following number:",
+        9: "Write the spelled form of the following hour:",
+        10: "Write the spelled form of the following hour:",
+
+        11: "Write the spelled form of the following number:",
+        12: "Write the spelled form of the following number:",
+        13: "Translate the following ordinal number:",
+        14: "Translate the following ordinal number:",
+        15: "Translate the following ordinal number:",
+        16: "Complete the following sentence with the ordinal number that fits:",
+
+        17: "Translate the following sequential adverb:",
+        18: "Complete the following sentence with the sequential adverb that fits:",
+        19: "Translate the following adverb of frequency:",
+        20: "Complete the following sentence with the adverb of frequency that fits:",
+
+        21: "Translate the following fraction:",
+        22: "Complete the following sentence with the fraction that fits:",
+
+        23: "Provide the spelled genitive form of the following number:",
+        24: "Complete the following sentence with the genitive form of the number that fits:",
     },
 
 }

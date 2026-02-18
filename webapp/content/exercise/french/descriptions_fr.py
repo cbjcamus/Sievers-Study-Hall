@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe, nomen_verben_wortstaemme,
+    zahlen,
 )
 
 DESCRIPTION_FR = {
@@ -41,7 +42,7 @@ DESCRIPTION_FR = {
         24: "Groupe prépositionel de niveau C1, en contexte",
         25: "Postpositions de niveau C1, en isolation",
         26: "Postpositions de niveau C1, en contexte",
-        27: "Synonymes de Prépositions, en isolation",
+        27: "Synonymes de Prépositions, en contexte",
         28: "Antonymes de Prépositions, en isolation",
 
         29: "Prépositions de base au niveau C2, en contexte",
@@ -155,12 +156,27 @@ DESCRIPTION_FR = {
         1: "Articles et Pronoms à la suite de Prépositions, en contexte",
         2: "Articles et Pronoms à la suite de Prépositions, en contexte",
         3: "Articles et Pronoms à la suite de Prépositions, en contexte",
-        4: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        4: "Articles et Pronoms à la suite de Prépositions, en contexte",
         5: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
-        6: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        6: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+
         7: "Articles et Pronoms à la suite de Prépositions, en contexte",
-        8: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        8: "Articles et Pronoms à la suite de Prépositions, en contexte",
         9: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        10: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+
+        11: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        12: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        13: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        14: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        15: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        16: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        17: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        18: "Articles et Pronoms à la suite de Paires Adjectif-Préposition, en contexte",
+        19: "Articles et Pronoms à la suite de Paires Adjectif-Préposition, en contexte",
+        20: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
+        21: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
+        22: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
     },
 
     praepositionen_adverbien: {
@@ -201,25 +217,23 @@ DESCRIPTION_FR = {
         27: "Articles Démonstratifs <em>Diese</em>, en contexte",
         28: "Articles <em>Jede</em>, en isolation",
         29: "Articles <em>Jede</em>, en contexte",
-        30: "Articles Définis à la suite de Prépositions dans les cas Accusatif et Datif, en contexte",
-        31: "Articles Définis à la suite de Prépositions dans les cas Accusatif et Datif, en contexte",
-        32: "Articles de niveau A2, en isolation",
-        33: "Articles de niveau A2, en contexte",
+        30: "Articles de niveau A2, en isolation",
+        31: "Articles de niveau A2, en contexte",
 
-        34: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en isolation",
-        35: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en contexte",
-        36: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en isolation",
-        37: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en contexte",
-        38: "Articles Posséssifs dans le cas Génitif, en isolation",
-        39: "Articles Posséssifs dans le cas Génitif, en contexte",
+        32: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en isolation",
+        33: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en contexte",
+        34: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en isolation",
+        35: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en contexte",
+        36: "Articles Posséssifs dans le cas Génitif, en isolation",
+        37: "Articles Posséssifs dans le cas Génitif, en contexte",
 
-        40: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en isolation",
-        41: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en contexte",
+        38: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en isolation",
+        39: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en contexte",
 
-        42: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en isolation",
-        43: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en contexte",
-        44: "Articles dans des Appositions, en contexte",
-        45: "Articles dans des Appositions, en contexte",
+        40: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en isolation",
+        41: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en contexte",
+        42: "Articles dans des Appositions, en contexte",
+        43: "Articles dans des Appositions, en contexte",
 
     },
 
@@ -273,7 +287,7 @@ DESCRIPTION_FR = {
         8: "Connecteurs de niveau B1, en contexte",
         9: "Connecteurs de niveau B1, en isolation",
         10: "Connecteurs de niveau B1, en contexte",
-        11: "Synonymes de Connecteurs de niveau B1, en isolation",
+        11: "Synonymes de Connecteurs de niveau B1, en contexte",
 
         12: "Connecteurs de niveau B2, en isolation",
         13: "Connecteurs de niveau B2, en contexte",
@@ -281,7 +295,7 @@ DESCRIPTION_FR = {
         15: "Connecteurs de niveau B2, en contexte",
         16: "Connecteurs de niveau B2, en isolation",
         17: "Connecteurs de niveau B2, en contexte",
-        18: "Synonymes de Connecteurs de niveau B2, en isolation",
+        18: "Synonymes de Connecteurs de niveau B2, en contexte",
 
         19: "Connecteurs de niveau C1, en isolation",
         20: "Connecteurs de niveau C1, en contexte",
@@ -293,10 +307,10 @@ DESCRIPTION_FR = {
         26: "Connecteurs de niveau C1, en contexte",
         27: "Connecteurs de niveau C1, en isolation",
         28: "Connecteurs de niveau C1, en contexte",
-        29: "Synonymes de Connecteurs de niveau C1, en isolation",
-        30: "Synonymes de Connecteurs de niveau C1, en isolation",
-        31: "Synonymes de Connecteurs de niveau C1, en isolation",
-        32: "Synonymes de Connecteurs de niveau C1, en isolation",
+        29: "Synonymes de Connecteurs de niveau C1, en contexte",
+        30: "Synonymes de Connecteurs de niveau C1, en contexte",
+        31: "Synonymes de Connecteurs de niveau C1, en contexte",
+        32: "Synonymes de Connecteurs de niveau C1, en contexte",
     },
 
     fragen: {
@@ -316,6 +330,9 @@ DESCRIPTION_FR = {
 
         11: 'Mots Interrogatifs de niveau C1, en isolation',
         12: 'Mots Interrogatifs de niveau C1, en contexte',
+
+        13: 'Welche et Wie viele au Génitif, en isolation',
+        14: 'Welche et Wie viele au Génitif, en contexte',
     },
 
     adverbien: {
@@ -328,7 +345,7 @@ DESCRIPTION_FR = {
         6: "Adverbes de niveau A2, en contexte",
         7: "Adverbes de niveau A2, en isolation",
         8: "Adverbes de niveau A2, en contexte",
-        9: "Synonymes d'Adverbes de niveau A1 et A2, en isolation",
+        9: "Synonymes d'Adverbes de niveau A1 et A2, en contexte",
         10: "Antonymes d'Adverbes de niveau A1 et A2, en isolation",
 
         11: "Adverbes de niveau B1, en isolation",
@@ -339,7 +356,7 @@ DESCRIPTION_FR = {
         16: "Adverbes de niveau B1, en contexte",
         17: "Adverbes de niveau B1, en isolation",
         18: "Adverbes de niveau B1, en contexte",
-        19: "Synonymes d'Adverbes de niveau B1, en isolation",
+        19: "Synonymes d'Adverbes de niveau B1, en contexte",
         20: "Antonymes d'Adverbes de niveau B1, en isolation",
 
         21: "Adverbes de niveau B2, en isolation",
@@ -350,7 +367,7 @@ DESCRIPTION_FR = {
         26: "Adverbes de niveau B2, en contexte",
         27: "Adverbes de niveau B2, en isolation",
         28: "Adverbes de niveau B2, en contexte",
-        29: "Synonymes d'Adverbes de niveau B2, en isolation",
+        29: "Synonymes d'Adverbes de niveau B2, en contexte",
         30: "Antonymes d'Adverbes de niveau B2, en isolation",
 
         31: "Adverbes Modaux, en isolation",
@@ -361,7 +378,7 @@ DESCRIPTION_FR = {
         36: "Adverbes Locaux, en contexte",
         37: "Adverbes en -einander, en isolation",
         38: "Adverbes en -einander, en contexte",
-        39: "Synonymes d'Adverbes de niveau C1, en isolation",
+        39: "Synonymes d'Adverbes de niveau C1, en contexte",
         40: "Antonymes d'Adverbes de niveau C1, en isolation",
 
         41: "Adverbes Modaux, en isolation",
@@ -372,7 +389,7 @@ DESCRIPTION_FR = {
         46: "Adverbes Locaux en -wärts, en contexte",
         47: "Phrases adverbiales constituées de prépositions, en isolation",
         48: "Phrases adverbiales constituées de prépositions, en contexte",
-        49: "Synonymes d'Adverbes de niveau C1, en isolation",
+        49: "Synonymes d'Adverbes de niveau C1, en contexte",
         50: "Antonymes d'Adverbes de niveau C1, en isolation",
 
         51: "Adverbes Modaux, en isolation",
@@ -383,7 +400,7 @@ DESCRIPTION_FR = {
         56: "Adverbes Locaux en Hin et Her, en contexte",
         57: "Autres Adverbses, en isolation",
         58: "Autres Adverbses, en contexte",
-        59: "Synonymes d'Adverbes de niveau C1, en isolation",
+        59: "Synonymes d'Adverbes de niveau C1, en contexte",
         60: "Antonymes d'Adverbes de niveau C1, en isolation",
 
         61: "Adverbes Modaux, en isolation",
@@ -394,7 +411,7 @@ DESCRIPTION_FR = {
         66: "Adverbes Locaux en -wärts, en contexte",
         67: "Phrases adverbiales constituées de prépositions, en isolation",
         68: "Phrases adverbiales constituées de prépositions, en contexte",
-        69: "Synonymes d'Adverbes de niveau C1, en isolation",
+        69: "Synonymes d'Adverbes de niveau C1, en contexte",
         70: "Antonymes d'Adverbes de niveau C1, en isolation",
 
         71: "Adverbes Modaux, en isolation",
@@ -405,7 +422,7 @@ DESCRIPTION_FR = {
         76: "Adverbes Locaux en Hin et Her, en contexte",
         77: "Autres Adverbses, en isolation",
         78: "Autres Adverbses, en contexte",
-        79: "Synonymes d'Adverbes de niveau C1, en isolation",
+        79: "Synonymes d'Adverbes de niveau C1, en contexte",
         80: "Antonymes d'Adverbes de niveau C1, en isolation",
     },
 
@@ -438,12 +455,12 @@ DESCRIPTION_FR = {
         21: "Superlatifs d'Adjectifs de niveau A2, en isolation",
         22: "Superlatifs d'Adjectifs de niveau A2, en isolation",
 
-        23: "Traductions d'Adjectifs de niveau B1 de l'Allemand vers le Français (Choix Multiple)",
-        24: "Traductions d'Adjectifs de niveau B1 de l'Allemand vers le Français (Choix Multiple)",
-        25: "Traductions d'Adjectifs de niveau B1 de l'Allemand vers le Français (Choix Multiple)",
-        26: "Traductions d'Adjectifs de niveau B1 du Français vers l'Allemand (Choix Multiple)",
-        27: "Traductions d'Adjectifs de niveau B1 du Français vers l'Allemand (Choix Multiple)",
-        28: "Traductions d'Adjectifs de niveau B1 du Français vers l'Allemand (Choix Multiple)",
+        23: "Traductions d'Adjectifs de niveau B1 du Français vers l'Allemand (Choix Multiple)",
+        24: "Traductions d'Adjectifs de niveau B1 du Français vers l'Allemand (Choix Multiple)",
+        25: "Traductions d'Adjectifs de niveau B1 du Français vers l'Allemand (Choix Multiple)",
+        26: "Traductions d'Adjectifs de niveau B1 de l'Allemand vers le Français (Choix Multiple)",
+        27: "Traductions d'Adjectifs de niveau B1 de l'Allemand vers le Français (Choix Multiple)",
+        28: "Traductions d'Adjectifs de niveau B1 de l'Allemand vers le Français (Choix Multiple)",
 
         29: "Traductions d'Adjectifs de niveau B2 de l'Allemand vers le Français (Choix Multiple)",
         30: "Traductions d'Adjectifs de niveau B2 de l'Allemand vers le Français (Choix Multiple)",
@@ -573,10 +590,10 @@ DESCRIPTION_FR = {
         12: "Verbes (un)trennbare de niveau B1 aidé du préfixe",
         13: "Verbes (un)trennbare de niveau B1 aidé du préfixe",
         14: "Verbes (un)trennbare de niveau B1 aidé du préfixe",
-        15: "Verbes (un)trennbare de niveau B1 sans aide",
-        16: "Verbes (un)trennbare de niveau B1 sans aide",
-        17: "Verbes (un)trennbare de niveau B1 sans aide",
-        18: "Verbes (un)trennbare de niveau B1 sans aide",
+        15: "Verbes (un)trennbare de niveau B1 sans aide (Choix Multiple)",
+        16: "Verbes (un)trennbare de niveau B1 sans aide (Choix Multiple)",
+        17: "Verbes (un)trennbare de niveau B1 sans aide (Choix Multiple)",
+        18: "Verbes (un)trennbare de niveau B1 sans aide (Choix Multiple)",
 
         19: "Verbes (un)trennbare de niveau B2 aidé de la racine",
         20: "Verbes (un)trennbare de niveau B2 aidé de la racine",
@@ -586,10 +603,10 @@ DESCRIPTION_FR = {
         24: "Verbes (un)trennbare de niveau B2 aidé du préfixe",
         25: "Verbes (un)trennbare de niveau B2 aidé du préfixe",
         26: "Verbes (un)trennbare de niveau B2 aidé du préfixe",
-        27: "Verbes (un)trennbare de niveau B2 sans aide",
-        28: "Verbes (un)trennbare de niveau B2 sans aide",
-        29: "Verbes (un)trennbare de niveau B2 sans aide",
-        30: "Verbes (un)trennbare de niveau B2 sans aide",
+        27: "Verbes (un)trennbare de niveau B2 sans aide (Choix Multiple)",
+        28: "Verbes (un)trennbare de niveau B2 sans aide (Choix Multiple)",
+        29: "Verbes (un)trennbare de niveau B2 sans aide (Choix Multiple)",
+        30: "Verbes (un)trennbare de niveau B2 sans aide (Choix Multiple)",
 
         31: "Verbes (un)trennbare en geben",
         32: "Verbes (un)trennbare en stellen",
@@ -1288,5 +1305,36 @@ DESCRIPTION_FR = {
         86: "Articles Définis, en isolation",
         87: "Articles Définis, en isolation",
     },
+
+    zahlen: {
+        1: "Nombres de 0 à 10, en isolation",
+        2: "Nombres de 11 à 20, en isolation",
+        3: "Nombres de 21 à 100, en isolation",
+        4: "Nombres de 21 à 100, en isolation",
+        5: "Nombres de 21 à 100, en isolation",
+        6: "Nombres de 21 à 100, en isolation",
+        7: "Nombres de 101 à 1'000, en isolation",
+        8: "Nombres de 1'001 à 1'000'000, en isolation",
+        9: "Heures de la journée, en isolation",
+        10: "Heures de la journée, en isolation",
+
+        11: "Nombres au-dessus de 1 Million, en isolation",
+        12: "Nombres Décimaux, en isolation",
+        13: "Nombres Ordinaux (<i>premier</i>, <i>deuxième</i>) de 1 à 10, en isolation",
+        14: "Nombres Ordinaux (<i>premier</i>, <i>deuxième</i>) de 11 à 20, en isolation",
+        15: "Nombres Ordinaux (<i>premier</i>, <i>deuxième</i>) de 21 à 31, en isolation",
+        16: "Nombres Ordinaux (<i>premier</i>, <i>deuxième</i>), en contexte",
+
+        17: "Adverbes séquentiels (<i>erstens</i>, <i>zweitens</i>), en isolation",
+        18: "Adverbes séquentiels (<i>erstens</i>, <i>zweitens</i>), en contexte",
+        19: "Adverbes <i>einmal</i>, <i>zweimal</i> etc., en isolation",
+        20: "Adverbes <i>einmal</i>, <i>zweimal</i> etc., en contexte",
+
+        21: "Fractions (<i>un tier</i>, <i>un quart</i>), en isolation",
+        22: "Fractions (<i>un tier</i>, <i>un quart</i>), en contexte",
+
+        23: "Formes génitives des nombres, en isolation",
+        24: "Formes génitives des nombres, en contexte",
+    }
 
 }

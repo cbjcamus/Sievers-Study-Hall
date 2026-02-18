@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
+    zahlen,
 )
 
 TEMPLATE_PATH = {
@@ -44,4 +45,6 @@ TEMPLATE_PATH = {
     genus_regeln: "units/genus/genus_regeln.html",
     genus_routledge: "units/genus/genus_routledge.html",
     genus_goethe: "units/genus/genus_goethe.html",
+
+    zahlen: "units/sonstige/zahlen.html",
 }

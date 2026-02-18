@@ -6,6 +6,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
+    zahlen,
 )
 
 INTRODUCTION_FR = {
@@ -32,6 +33,7 @@ INTRODUCTION_FR = {
         "<br>&bull; Prépositions suivies par l'Accusatif: Bis, Durch, Für, Ohne, Gegen, Um"
         "<br>&bull; Prépositions suivies par le Datif: Aus, Bei, Mit, Seit, Nach, Von, Zu"
         "<br>&bull; Prépositions suivies par l'Accusatif ou le Datif: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
+        "<br>&bull; Prépositions suivies par le Génitif: Anstatt, Außerhalb, Innerhalb, Laut, Trotz, Während, Wegen"
     ,
 
     artikel:
@@ -138,5 +140,9 @@ INTRODUCTION_FR = {
         "Une Dance de Der Die Das."
         "<br><br>La liste des noms communs vient du "
         "<a href=\"https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf\" target=\"_blank\">Goethe Institut</a>."
+    ,
+
+    zahlen:
+        "Les nombres sous toutes leurs formes, y compris les nombres cardinaux, ordinaux, séquentiels, adverbiaux, fractionnaires et multiplicateurs."
     ,
 }

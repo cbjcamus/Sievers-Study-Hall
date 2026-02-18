@@ -3,9 +3,9 @@ import string
 import pandas as pd
 from flask import session, request
 
-from data.data_processing.units import konnektoren, adverbien
-from data.data_processing.synonyms import SYNONYMS_PATH, get_list_of_synonyms_for_feedback, df_synonyms
-from data.data_processing.data_loading import load_data_exercise, is_exercise_multiple_choice, get_answer_column
+from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms
+from data.data_processing.exercise_type import get_answer_column, is_exercise_multiple_choice, is_exercise_synonym
+from data.data_processing.units import zahlen
 
 from webapp.i18n import get_language
 
@@ -19,7 +19,7 @@ def get_correct_answer(unit, exercise, question_data):
         return question_data.get("answer", "")
 
 
-def is_user_answer_correct(user_answer, correct_answer, question, unit):
+def is_user_answer_correct(user_answer, correct_answer, question, unit, exercise):
     """
     Determines whether the user's answer is correct, with optional support for multiple correct answers
     and unit-specific normalization and synonym handling.
@@ -40,9 +40,8 @@ def is_user_answer_correct(user_answer, correct_answer, question, unit):
     Returns:
         bool: True if the answer is correct, False otherwise.
     """
-    synonym_units = [konnektoren, adverbien]
 
-    if user_answer == question and unit in synonym_units:
+    if is_exercise_synonym(unit, exercise) and user_answer == question:
         return False
 
     user_answer = normalize_answer(user_answer, unit)
@@ -187,6 +186,15 @@ def get_list_of_correct_answers(correct_answer, unit):
             return correct_answer
         else:
             return f"{correct_answer}, {synonyms}"
+
+
+def get_first_correct_answer(correct_answer):
+
+    if "/" in correct_answer:
+        answers = correct_answer.split("/")
+        return remove_punctuation(answers[0])
+    else:
+        return remove_punctuation(correct_answer)
 
 
 def lowercase_first_letter(s):

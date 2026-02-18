@@ -46,7 +46,7 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 45,9,versuchen,,,"to try, to attempt","essayer, tenter",versuche,versuchst,versucht,versuchen,versucht,versuchen
 46,10,erzählen,,,"to tell, to narrate","raconter, narrer",erzähle,erzählst,erzählt,erzählen,erzählt,erzählen
 47,10,fragen,,,"to ask, to wonder (refl.)","demander, se demander (réfl.)",frage,fragst,fragt,fragen,fragt,fragen
-48,10,treffen,,,"to meet, to encounter","rencontrer, se rencontrer",treffe,triffst,trifft,treffen,trefft,treffen
+48,10,treffen,,,"to meet (refl.), to encounter (refl.), to hit, to affect","rencontrer (refl.), se rencontrer (refl.), heurter, frapper",treffe,triffst,trifft,treffen,trefft,treffen
 49,10,hoffen,,,to hope,espérer,hoffe,hoffst,hofft,hoffen,hofft,hoffen
 50,10,suchen,,,"to seek, to search","chercher, rechercher",suche,suchst,sucht,suchen,sucht,suchen
 51,11,trinken,,,to drink,boire,trinke,trinkst,trinkt,trinken,trinkt,trinken
@@ -195,7 +195,7 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 194,39,wechseln,,,"to change, to switch, to exchange","changer, échanger",wechsle,wechselst,wechselt,wechseln,wechselt,wechseln
 195,39,erhalten,,,"to receive, to get, to obtain, to preserve","recevoir, obtenir, acquérir, préserver",erhalte,erhältst,erhält,erhalten,erhaltet,erhalten
 196,40,erlauben,,,"to allow, to permit","permettre, donner l'autorisation",erlaube,erlaubst,erlaubt,erlauben,erlaubt,erlauben
-197,40,darstellen,,,"to depict, to portray, to represent, to illustrate","dépeindre, représenter, illustrer",stelle,stellst,stellt,stellen,stellt,stellen
+197,40,darstellen,,,"to depict, to portray, to represent, to illustrate","dépeindre, représenter, illustrer",stelle dar,stellst dar,stellt dar,stellen dar,stellt dar,stellen dar
 198,40,verdienen,,,"to earn, to deserve","gagner, mériter",verdiene,verdienst,verdient,verdienen,verdient,verdienen
 199,40,rufen,,,"to call, to shout, to summon","appeler, crier, convoquer",rufe,rufst,ruft,rufen,ruft,rufen
 200,40,fliegen,,,"to fly, to travel by plane","voler, voyager en avion",fliege,fliegst,fliegt,fliegen,fliegt,fliegen
