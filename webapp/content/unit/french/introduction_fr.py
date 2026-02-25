@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -68,7 +68,10 @@ INTRODUCTION_FR = {
     ,
 
     adjektive:
-        "Traductions, antonymes, comparatifs et superlatifs d'adjectifs en isolation."
+        "Traductions d'adjectifs en isolation."
+    ,
+    komparativ_superlativ:
+        "Comparatifs et Superlatifs d'Adjectifs."
     ,
     adjektivdeklinationen:
         "Déclinations d'adjectifs dans tous les cas grammaticaux, avec tous les genres et types d'articles."

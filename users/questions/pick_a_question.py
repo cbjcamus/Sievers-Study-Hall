@@ -4,7 +4,7 @@ from flask import session, request
 from flask_login import current_user
 
 from data.data_processing.units import adverbien, konnektoren, fragen, trennbare_verben, praepositionen_verben, \
-    praepositionen_adjektive, praepositionen_nomen
+    praepositionen_adjektive, praepositionen_nomen, adjektive
 
 from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level)
 from data.data_processing.exercise_type import get_answer_column, get_question_column, is_exercise_multiple_choice
@@ -172,7 +172,7 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
         else:
             return None
 
-    elif unit in [konnektoren, adverbien, fragen, trennbare_verben]:
+    elif unit in [konnektoren, adverbien, fragen, trennbare_verben, adjektive]:
         data = load_data_unit(unit)
         language = get_language(request, session)
 
@@ -188,17 +188,25 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
         data = load_data_unit(unit)
         language = get_language(request, session)
 
-        combination = question_text.replace("_____", incorrect_answer)
+        combination = get_combination_from_question_text(unit, question_text, incorrect_answer)
 
         match_explanation = data.loc[data["combination"] == combination, f"explanation_{language}"]
-
         if match_explanation.empty:
             return ""
 
         else:
             match_explanation = match_explanation.iloc[0]
-            print("question", match_explanation)
             return f"<br><br><i>{match_explanation}</i>"
 
     else:
         return ""
+
+
+def get_combination_from_question_text(unit, question_text, incorrect_answer):
+    data = load_data_unit(unit)
+
+    correct_combination = data.loc[data["question"] == question_text, f"combination"].iloc[0]
+    correct_question_text = data.loc[data["combination"] == correct_combination, f"question"].iloc[0]
+    combination = correct_question_text.replace("_____", incorrect_answer)
+
+    return combination

@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -1012,43 +1012,97 @@ FEEDBACK_EN = {
     },
 
     adjektive: {
-        1: "{english} = {correct_answers}",
-        2: "{english} = {correct_answers}",
-        3: "{english} = {correct_answers}",
-        4: "{previous_question} ↔ {correct_answers}",
-        5: "{previous_question} ↔ {correct_answers}",
-        6: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        7: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        8: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        9: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        10: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        11: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
+        1: "{english} = {correct_answers}"
+           "{explanation_english}",
+        2: "{english} = {correct_answers}"
+           "{explanation_english}",
+        3: "{english} = {correct_answers}"
+           "{explanation_english}",
 
-        12: "{english} = {correct_answers}",
-        13: "{english} = {correct_answers}",
-        14: "{english} = {correct_answers}",
-        15: "{previous_question} ↔ {correct_answers}",
-        16: "{previous_question} ↔ {correct_answers}",
-        17: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        18: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        19: "Comparative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        20: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        21: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
-        22: "Superlative {previous_question} (<i>{english}</i>) → {correct_answers}",
+        4: "{english} = {correct_answers}"
+           "{explanation_english}",
+        5: "{english} = {correct_answers}"
+           "{explanation_english}",
+        6: "{english} = {correct_answers}"
+           "{explanation_english}",
 
-        23: "{english} = {correct_answers}",
-        24: "{english} = {correct_answers}",
-        25: "{english} = {correct_answers}",
-        26: "{previous_question} = {correct_answers}",
-        27: "{previous_question} = {correct_answers}",
-        28: "{previous_question} = {correct_answers}",
+        7: "{english} = {correct_answers}"
+           "{explanation_english}",
+        8: "{english} = {correct_answers}"
+           "{explanation_english}",
+        9: "{english} = {correct_answers}"
+           "{explanation_english}",
+        10: "{english} = {correct_answers}"
+            "{explanation_english}",
+        11: "{english} = {correct_answers}"
+            "{explanation_english}",
+        12: "{english} = {correct_answers}"
+            "{explanation_english}",
 
-        29: "{english} = {correct_answers}",
-        30: "{english} = {correct_answers}",
-        31: "{english} = {correct_answers}",
-        32: "{english} = {correct_answers}",
-        33: "{english} = {correct_answers}",
-        34: "{english} = {correct_answers}",
+        13: "{english} = {correct_answers}"
+            "{explanation_english}",
+        14: "{english} = {correct_answers}"
+            "{explanation_english}",
+        15: "{english} = {correct_answers}"
+            "{explanation_english}",
+        16: "{english} = {correct_answers}"
+            "{explanation_english}",
+        17: "{english} = {correct_answers}"
+            "{explanation_english}",
+        18: "{english} = {correct_answers}"
+            "{explanation_english}",
+        19: "{english} = {correct_answers}"
+            "{explanation_english}",
+        20: "{english} = {correct_answers}"
+            "{explanation_english}",
+        21: "{english} = {correct_answers}"
+            "{explanation_english}",
+        22: "{english} = {correct_answers}"
+            "{explanation_english}",
+        23: "{english} = {correct_answers}"
+            "{explanation_english}",
+        24: "{english} = {correct_answers}"
+            "{explanation_english}",
+    },
+
+    komparativ_superlativ: {
+        1: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        2: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        3: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        4: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        5: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        6: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+
+        7: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        8: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        9: "{explanation_english}"
+           "<br><br><i>{english}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        10: "{explanation_english}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        11: "{explanation_english}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        12: "{explanation_english}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     adjektivdeklinationen: {

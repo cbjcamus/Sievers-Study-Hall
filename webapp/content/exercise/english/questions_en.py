@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -646,52 +646,58 @@ QUESTION_EN = {
         1: "{english}",
         2: "{english}",
         3: "{english}",
-        4: "{question}",
-        5: "{question}",
-        6: "{question}"
-           "<br><br><i>{english}</i>",
-        7: "{question}"
-           "<br><br><i>{english}</i>",
-        8: "{question}"
-           "<br><br><i>{english}</i>",
-        9: "{question}"
-           "<br><br><i>{english}</i>",
-        10: "{question}"
-            "<br><br><i>{english}</i>",
-        11: "{question}"
-            "<br><br><i>{english}</i>",
 
-        12: "{english}",
+        4: "{english}",
+        5: "{english}",
+        6: "{english}",
+
+        7: "{english}",
+        8: "{english}",
+        9: "{english}",
+        10: "{english}",
+        11: "{english}",
+        12: "{german}",
+
         13: "{english}",
         14: "{english}",
-        15: "{question}",
-        16: "{question}",
-        17: "{question}"
-            "<br><br><i>{english}</i>",
-        18: "{question}"
-            "<br><br><i>{english}</i>",
-        19: "{question}"
-            "<br><br><i>{english}</i>",
-        20: "{question}"
-            "<br><br><i>{english}</i>",
-        21: "{question}"
-            "<br><br><i>{english}</i>",
-        22: "{question}"
-            "<br><br><i>{english}</i>",
+        15: "{english}",
+        16: "{english}",
+        17: "{english}",
+        18: "{english}",
+        19: "{english}",
+        20: "{english}",
+        21: "{english}",
+        22: "{german}",
+        23: "{german}",
+        24: "{german}",
+    },
 
-        23: "{english}",
-        24: "{english}",
-        25: "{english}",
-        26: "{question}",
-        27: "{question}",
-        28: "{question}",
+    komparativ_superlativ: {
+        1: "{german}"
+           "<br><br><i>{english}</i>",
+        2: "{german}"
+           "<br><br><i>{english}</i>",
+        3: "{german}"
+           "<br><br><i>{english}</i>",
+        4: "{german}"
+           "<br><br><i>{english}</i>",
+        5: "{german}"
+           "<br><br><i>{english}</i>",
+        6: "{german}"
+           "<br><br><i>{english}</i>",
 
-        29: "{english}",
-        30: "{english}",
-        31: "{english}",
-        32: "{english}",
-        33: "{english}",
-        34: "{english}",
+        7: "{german}"
+           "<br><br><i>{english}</i>",
+        8: "{german}"
+           "<br><br><i>{english}</i>",
+        9: "{german}"
+           "<br><br><i>{english}</i>",
+        10: "{german}"
+            "<br><br><i>{english}</i>",
+        11: "{german}"
+            "<br><br><i>{english}</i>",
+        12: "{german}"
+            "<br><br><i>{english}</i>",
     },
 
     adjektivdeklinationen: {

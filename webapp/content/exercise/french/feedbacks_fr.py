@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -1012,43 +1012,97 @@ FEEDBACK_FR = {
     },
 
     adjektive: {
-        1: "{french} = {correct_answers}",
-        2: "{french} = {correct_answers}",
-        3: "{french} ↔ {correct_answers}",
-        4: "{previous_question} ↔ {correct_answers}",
-        5: "{previous_question} ↔ {correct_answers}",
-        6: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        7: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        8: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        9: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        10: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        11: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
+        1: "{french} = {correct_answers}"
+           "{explanation_french}",
+        2: "{french} = {correct_answers}"
+           "{explanation_french}",
+        3: "{french} = {correct_answers}"
+           "{explanation_french}",
 
-        12: "{french} = {correct_answers}",
-        13: "{french} = {correct_answers}",
-        14: "{french} ↔ {correct_answers}",
-        15: "{previous_question} ↔ {correct_answers}",
-        16: "{previous_question} ↔ {correct_answers}",
-        17: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        18: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        19: "Comparatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        20: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        21: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
-        22: "Superlatif {previous_question} (<i>{french}</i>) → {correct_answers}",
+        4: "{french} = {correct_answers}"
+           "{explanation_french}",
+        5: "{french} = {correct_answers}"
+           "{explanation_french}",
+        6: "{french} = {correct_answers}"
+           "{explanation_french}",
 
-        23: "{french} = {correct_answers}",
-        24: "{french} = {correct_answers}",
-        25: "{french} = {correct_answers}",
-        26: "{previous_question} = {correct_answers}",
-        27: "{previous_question} = {correct_answers}",
-        28: "{previous_question} = {correct_answers}",
+        7: "{french} = {correct_answers}"
+           "{explanation_french}",
+        8: "{french} = {correct_answers}"
+           "{explanation_french}",
+        9: "{french} = {correct_answers}"
+           "{explanation_french}",
+        10: "{french} = {correct_answers}"
+            "{explanation_french}",
+        11: "{french} = {correct_answers}"
+            "{explanation_french}",
+        12: "{french} = {correct_answers}"
+            "{explanation_french}",
 
-        29: "{french} = {correct_answers}",
-        30: "{french} = {correct_answers}",
-        31: "{french} = {correct_answers}",
-        32: "{french} = {correct_answers}",
-        33: "{french} = {correct_answers}",
-        34: "{french} = {correct_answers}",
+        13: "{french} = {correct_answers}"
+            "{explanation_french}",
+        14: "{french} = {correct_answers}"
+            "{explanation_french}",
+        15: "{french} = {correct_answers}"
+            "{explanation_french}",
+        16: "{french} = {correct_answers}"
+            "{explanation_french}",
+        17: "{french} = {correct_answers}"
+            "{explanation_french}",
+        18: "{french} = {correct_answers}"
+            "{explanation_french}",
+        19: "{french} = {correct_answers}"
+            "{explanation_french}",
+        20: "{french} = {correct_answers}"
+            "{explanation_french}",
+        21: "{french} = {correct_answers}"
+            "{explanation_french}",
+        22: "{french} = {correct_answers}"
+            "{explanation_french}",
+        23: "{french} = {correct_answers}"
+            "{explanation_french}",
+        24: "{french} = {correct_answers}"
+            "{explanation_french}",
+    },
+
+    komparativ_superlativ: {
+        1: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        2: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        3: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        4: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        5: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        6: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+
+        7: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        8: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        9: "{explanation_french}"
+           "<br><br><i>{french}</i>"
+           "<br><br>Correct answer(s): {correct_answers}",
+        10: "{explanation_french}"
+            "<br><br><i>{french}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        11: "{explanation_french}"
+            "<br><br><i>{french}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        12: "{explanation_french}"
+            "<br><br><i>{french}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     adjektivdeklinationen: {

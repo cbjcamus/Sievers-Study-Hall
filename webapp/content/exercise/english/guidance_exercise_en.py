@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, adjektivdeklinationen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     zahlen,
@@ -509,6 +509,7 @@ guidance_adjektive_comparative = (
 
     "<h2>Example</h2>"
     "alt"
+    "<br><br><i>old</i>"
     f"<br><br> &nbsp; {ICON_CHECK} älter"
 )
 
@@ -516,9 +517,13 @@ guidance_adjektive_superlative = (
     "For each question, you will see a German adjective."
     "<br>Write its superlative form."
 
+    f"<br><br>{ICON_WARN} Write the Superlative form including \"am\""
+
     "<h2>Example</h2>"
     "alt"
+    "<br><br><i>old</i>"
     f"<br><br> &nbsp; {ICON_CHECK} am ältesten"
+    f"<br><br> &nbsp; {ICON_CROSS} älteste"
 )
 
 guidance_adjektive_comparison_words = (
@@ -1350,40 +1355,46 @@ GUIDANCE_EXERCISE_EN = {
         1: guidance_adjektive_isolation,
         2: guidance_adjektive_isolation,
         3: guidance_adjektive_isolation,
-        4: guidance_adjektive_antonym,
-        5: guidance_adjektive_antonym,
-        6: guidance_adjektive_comparative,
-        7: guidance_adjektive_comparative,
-        8: guidance_adjektive_comparative,
-        9: guidance_adjektive_superlative,
-        10: guidance_adjektive_superlative,
-        11: guidance_adjektive_superlative,
 
+        4: guidance_adjektive_isolation,
+        5: guidance_adjektive_isolation,
+        6: guidance_adjektive_isolation,
+
+        7: guidance_adjektive_isolation,
+        8: guidance_adjektive_isolation,
+        9: guidance_adjektive_isolation,
+        10: guidance_adjektive_isolation,
+        11: guidance_adjektive_isolation,
         12: guidance_adjektive_isolation,
+
         13: guidance_adjektive_isolation,
         14: guidance_adjektive_isolation,
-        15: guidance_adjektive_antonym,
-        16: guidance_adjektive_antonym,
-        17: guidance_adjektive_comparative,
-        18: guidance_adjektive_comparative,
-        19: guidance_adjektive_comparative,
-        20: guidance_adjektive_superlative,
-        21: guidance_adjektive_superlative,
-        22: guidance_adjektive_superlative,
+        15: guidance_adjektive_isolation,
+        16: guidance_adjektive_isolation,
+        17: guidance_adjektive_isolation,
+        18: guidance_adjektive_isolation,
+        19: guidance_adjektive_isolation,
+        20: guidance_adjektive_isolation,
+        21: guidance_adjektive_isolation,
+        22: guidance_adjektive_isolation,
+        23: guidance_adjektive_isolation,
+        24: guidance_adjektive_isolation,
+    },
 
-        23: guidance_adjektive_multiple_choices_english_to_german,
-        24: guidance_adjektive_multiple_choices_english_to_german,
-        25: guidance_adjektive_multiple_choices_english_to_german,
-        26: guidance_adjektive_multiple_choices_german_to_english,
-        27: guidance_adjektive_multiple_choices_german_to_english,
-        28: guidance_adjektive_multiple_choices_german_to_english,
+    komparativ_superlativ: {
+        1: guidance_adjektive_comparative,
+        2: guidance_adjektive_comparative,
+        3: guidance_adjektive_comparative,
+        4: guidance_adjektive_superlative,
+        5: guidance_adjektive_superlative,
+        6: guidance_adjektive_superlative,
 
-        29: guidance_adjektive_multiple_choices_german_to_english,
-        30: guidance_adjektive_multiple_choices_german_to_english,
-        31: guidance_adjektive_multiple_choices_german_to_english,
-        32: guidance_adjektive_multiple_choices_english_to_german,
-        33: guidance_adjektive_multiple_choices_english_to_german,
-        34: guidance_adjektive_multiple_choices_english_to_german,
+        7: guidance_adjektive_comparative,
+        8: guidance_adjektive_comparative,
+        9: guidance_adjektive_comparative,
+        10: guidance_adjektive_superlative,
+        11: guidance_adjektive_superlative,
+        12: guidance_adjektive_superlative,
     },
 
     adjektivdeklinationen: {

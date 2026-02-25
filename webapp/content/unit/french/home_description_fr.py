@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, adjektivdeklinationen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -23,8 +23,10 @@ HOME_DESCRIPTION_FR = {
     fragen: "Mots Interrogatifs.",
     adverbien: "Adverbes temporels, locaux, et modaux à tous les niveaux",
 
-    adjektive: "Traductions, antonymes, comparatifs et superlatifs d'Adjectifs",
+    adjektive: "Traductions d'Adjectifs Allemands",
+    komparativ_superlativ: "Comparatifs et Superlatifs d'adctifs",
     adjektivdeklinationen: "Toutes les Déclinations d'Adjectifs",
+    adjektive_konjunktionen: "Conjonctions et Constructions d'Adjectifs",
 
     verben: "Traduction de Verbes Allemands",
     trennbare_verben: "Verbes séparables et inséparables",

@@ -2,7 +2,7 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_artikel, praepositionen_adverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -645,54 +645,58 @@ QUESTION_FR = {
         1: "{french}",
         2: "{french}",
         3: "{french}",
-        4: "{question}",
-        5: "{question}",
-        6: "{question}"
-           "<br><br><i>{french}</i>",
-        7: "{question}"
-           "<br><br><i>{french}</i>",
-        8: "{question}"
-           "<br><br><i>{french}</i>",
-        9: "{question}"
-           "<br><br><i>{french}</i>",
-        10: "{question}"
-            "<br><br><i>{french}</i>",
-        11: "{question}"
-            "<br><br><i>{french}</i>",
-        12: "{question}"
-            "<br><br><i>{french}</i>",
+
+        4: "{french}",
+        5: "{french}",
+        6: "{french}",
+
+        7: "{french}",
+        8: "{french}",
+        9: "{french}",
+        10: "{french}",
+        11: "{french}",
+        12: "{german}",
 
         13: "{french}",
         14: "{french}",
         15: "{french}",
-        16: "{question}",
-        17: "{question}",
-        18: "{question}"
-            "<br><br><i>{french}</i>",
-        19: "{question}"
-            "<br><br><i>{french}</i>",
-        20: "{question}"
-            "<br><br><i>{french}</i>",
-        21: "{question}"
-            "<br><br><i>{french}</i>",
-        22: "{question}"
-            "<br><br><i>{french}</i>",
-        23: "{question}"
-            "<br><br><i>{french}</i>",
+        16: "{french}",
+        17: "{french}",
+        18: "{french}",
+        19: "{french}",
+        20: "{french}",
+        21: "{french}",
+        22: "{german}",
+        23: "{german}",
+        24: "{german}",
+    },
 
-        24: "{french}",
-        25: "{french}",
-        26: "{french}",
-        27: "{question}",
-        28: "{question}",
-        29: "{question}",
+    komparativ_superlativ: {
+        1: "{german}"
+           "<br><br><i>{french}</i>",
+        2: "{german}"
+           "<br><br><i>{french}</i>",
+        3: "{german}"
+           "<br><br><i>{french}</i>",
+        4: "{german}"
+           "<br><br><i>{french}</i>",
+        5: "{german}"
+           "<br><br><i>{french}</i>",
+        6: "{german}"
+           "<br><br><i>{french}</i>",
 
-        30: "{french}",
-        31: "{french}",
-        32: "{french}",
-        33: "{question}",
-        34: "{question}",
-        35: "{question}",
+        7: "{german}"
+           "<br><br><i>{french}</i>",
+        8: "{german}"
+           "<br><br><i>{french}</i>",
+        9: "{german}"
+           "<br><br><i>{french}</i>",
+        10: "{german}"
+            "<br><br><i>{french}</i>",
+        11: "{german}"
+            "<br><br><i>{french}</i>",
+        12: "{german}"
+            "<br><br><i>{french}</i>",
     },
 
     adjektivdeklinationen: {

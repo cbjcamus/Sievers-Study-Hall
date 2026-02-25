@@ -175,7 +175,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 174,12,_____ Norden,der,der Norden,the north,le nord,cardinal directions are Masculine,les points cardinaux sont Masculins
 175,13,_____ Süden,der,der Süden,the south,le sud,cardinal directions are Masculine,les points cardinaux sont Masculins
 176,14,_____ Osten,der,der Osten,the East,l'Est,cardinal directions are Masculine,les points cardinaux sont Masculins
-177,11,_____ Westen,der,der Westen,the West,l'Ouest,cardinal directions are Masculine,les points cardinaux sont Masculins
+177,11,_____ Westen,der,der Westen,The West,L'Ouest,cardinal directions are Masculine,les points cardinaux sont Masculins
 178,12,_____ König,der,der König,the king,le roi,words finishing in -ig are Masculine ,les noms communs se terminant par -ig sont Masculins
 179,13,_____ Honig,der,der Honig,the honey,le miel,words finishing in -ig are Masculine ,les noms communs se terminant par -ig sont Masculins
 180,14,_____ Essig,der,der Essig,the vinegar,le vinaigre,words finishing in -ig are Masculine ,les noms communs se terminant par -ig sont Masculins
@@ -404,7 +404,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 403,25,_____ Dosis,die,die Dosis,the dose,la dose,words finishing in -sis are Feminine,les noms communs se terminant par -sis sont Féminins
 404,26,_____ Psychosis,die,die Psychosis,the psychosis,la psychose,words finishing in -sis are Feminine,les noms communs se terminant par -sis sont Féminins
 405,21,_____ Waffe,die,die Waffe,the weapon,l'arme,words in the context of war are usually Feminine,les noms communs liés à la guerre sont généralement Féminins
-406,22,_____ Kugel,die,die Kugel,the ball,la balle,words in the context of war are usually Feminine,les noms communs liés à la guerre sont généralement Féminins
+406,22,_____ Kugel,die,die Kugel,"the ball, the bullet",la balle (le projectile),words in the context of war are usually Feminine,les noms communs liés à la guerre sont généralement Féminins
 407,23,_____ Armee,die,die Armee,the army,l'armée,words in the context of war are usually Feminine,les noms communs liés à la guerre sont généralement Féminins
 408,24,_____ Schlacht,die,die Schlacht,the battle,la bataille,words in the context of war are usually Feminine,les noms communs liés à la guerre sont généralement Féminins
 409,25,_____ Gute,das,das Gute,the good,le bien,abstract adjectives as words are Neuter,les adjectifs abstraits utilisés comme noms sont Neutres
@@ -437,31 +437,31 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 436,22,_____ Deich,der,der Deich,the dike,la digue,words finishing in -ich are usually Masculine,les noms communs se terminant par -ich sont généralement Masculins
 437,23,_____ Streich,der,der Streich,the prank,la farce,words finishing in -ich are usually Masculine,les noms communs se terminant par -ich sont généralement Masculins
 438,24,_____ Strich,der,der Strich,the line,la ligne,words finishing in -ich are usually Masculine,les noms communs se terminant par -ich sont généralement Masculins
-439,25,_____ Reich,das,das Reich,the Empire,l'Empire,words finishing in -ich are usually Masculine,les noms communs se terminant par -ich sont généralement Masculins
-440,26,_____ Thema,das,das Thema,the topic,le sujet,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
-441,21,_____ Schema,das,das Schema,the scheme,le système,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
-442,22,_____ Klima,das,das Klima,the climate,le climat,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
-443,23,_____ Drama,das,das Drama,the drama,le drame,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
-444,24,_____ Trauma,das,das Trauma,the trauma,le traumatisme,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
-445,25,_____ Schicksal,das,das Schicksal,the fate,le destin,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-446,26,_____ Rinnsal,das,das Rinnsal,the stream,le ruisseau,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-447,21,_____ Rätsel,das,das Rätsel,the puzzle,le puzzle,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-448,22,_____ Scheusal,das,das Scheusal,the monster,le monstre,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-449,23,_____ Gerinnsel,das,das Gerinnsel,the clot,le caillot,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-450,24,_____ Mitbringsel,das,das Mitbringsel,the souvenir,le souvenir,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-451,25,_____ Deutsch,das,das Deutsch,German (the language),l'Allemand (la langue),languages are Neuter,les langues sont Neutres
-452,26,_____ Französisch,das,das Französisch,French (the language),le Français (la langue),languages are Neuter,les langues sont Neutres
-453,21,_____ English,das,das English,English (the language),l'Anglais (la langue),languages are Neuter,les langues sont Neutres
-454,22,_____ Spanish,das,das Spanish,Spanish (the language),l'Espagnol  (la langue),languages are Neuter,les langues sont Neutres
-455,23,_____ Arabisch,das,das Arabisch,Arabic (the language),l'Arabe (la langue),languages are Neuter,les langues sont Neutres
-456,27,_____ Sonne,die,die Sonne,the sun,le soleil,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
-457,27,_____ Mark,die,die Mark,the Mark,le Mark,currencies are usually Masculine,les devises sont généralement Masculines
-458,27,_____ Pfund,das,das Pfund,the pound,la livre,currencies are usually Masculine,les devises sont généralement Masculines
-459,27,_____ Krone,die,die Krone,the crown,la couronne,currencies are usually Masculine,les devises sont généralement Masculines
-460,27,_____ Loire,die,die Loire,the Loire,la Loire,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-461,27,_____ Themse,die,die Themse,the Thames,la Tamise,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
-462,27,_____ Rhein,der,der Rhein,the Rhine,le Rhin,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-463,27,_____ Main,der,der Main,the Main,le Main,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
-464,27,_____ Krieg,der,der Krieg,the war,la guerre,words in the context of war are usually Feminine,les noms communs dans le contexte de la guerre sont généralement Féminins
-465,27,_____ Mühsal,die,die Mühsal,the hardship,la difficulté,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
-466,27,_____ Trübsal,die,die Trübsal,the gloom,la tristesse,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+439,25,_____ Thema,das,das Thema,the topic,le sujet,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
+440,26,_____ Schema,das,das Schema,the scheme,le système,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
+441,21,_____ Klima,das,das Klima,the climate,le climat,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
+442,22,_____ Drama,das,das Drama,the drama,le drame,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
+443,23,_____ Trauma,das,das Trauma,the trauma,le traumatisme,words finishing in -ma of Greek origins are Neuter,les noms communs se terminant par -ma et d’origine Grecque sont Neutres
+444,24,_____ Schicksal,das,das Schicksal,the fate,le destin,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+445,25,_____ Rinnsal,das,das Rinnsal,the stream,le ruisseau,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+446,26,_____ Rätsel,das,das Rätsel,the puzzle,le puzzle,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+447,21,_____ Scheusal,das,das Scheusal,the monster,le monstre,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+448,22,_____ Gerinnsel,das,das Gerinnsel,the clot,le caillot,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+449,23,_____ Mitbringsel,das,das Mitbringsel,the souvenir,le souvenir,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+450,24,_____ Deutsch,das,das Deutsch,German (the language),l'Allemand (la langue),languages are Neuter,les langues sont Neutres
+451,25,_____ Französisch,das,das Französisch,French (the language),le Français (la langue),languages are Neuter,les langues sont Neutres
+452,26,_____ English,das,das English,English (the language),l'Anglais (la langue),languages are Neuter,les langues sont Neutres
+453,21,_____ Spanish,das,das Spanish,Spanish (the language),l'Espagnol  (la langue),languages are Neuter,les langues sont Neutres
+454,22,_____ Arabisch,das,das Arabisch,Arabic (the language),l'Arabe (la langue),languages are Neuter,les langues sont Neutres
+455,27,_____ Sonne,die,die Sonne,the sun,le soleil,objects in space are usually Masculine,les objets dans l'espace sont généralement Masculins
+456,27,_____ Mark,die,die Mark,the Mark,le Mark,currencies are usually Masculine,les devises sont généralement Masculines
+457,27,_____ Pfund,das,das Pfund,the pound,la livre,currencies are usually Masculine,les devises sont généralement Masculines
+458,27,_____ Krone,die,die Krone,the crown,la couronne,currencies are usually Masculine,les devises sont généralement Masculines
+459,27,_____ Loire,die,die Loire,the Loire,la Loire,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+460,27,_____ Themse,die,die Themse,the Thames,la Tamise,rivers outside Germany are usually Masculine,les rivières et fleuves en dehors de l'Allemagne sont généralement Masculines
+461,27,_____ Rhein,der,der Rhein,the Rhine,le Rhin,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+462,27,_____ Main,der,der Main,the Main,le Main,rivers inside Germany are usually Feminine,les rivières et fleuves d'Allemagne sont généralement Féminines
+463,27,_____ Krieg,der,der Krieg,the war,la guerre,words in the context of war are usually Feminine,les noms communs dans le contexte de la guerre sont généralement Féminins
+464,27,_____ Mühsal,die,die Mühsal,the hardship,la difficulté,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+465,27,_____ Trübsal,die,die Trübsal,the gloom,la tristesse,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
+466,27,_____ Reich,das,das Reich,the Empire,l'Empire,words finishing in -ich are usually Masculine,les noms communs se terminant par -ich sont généralement Masculins
