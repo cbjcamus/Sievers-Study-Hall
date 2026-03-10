@@ -3,8 +3,10 @@ import pandas as pd
 
 from data.data_processing.units import (praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive,
                                         praepositionen_nomen, praepositionen_adverbien, praepositionen_artikel,
+                                        pronominaladverbien,
                                         artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
                                         adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+                                        adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
                                         verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                         konjunktiv_II, konjunktiv_I, partizip_I,
@@ -23,6 +25,7 @@ DATA_PATH = {
     praepositionen_nomen: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_nomen.csv"),
     praepositionen_adverbien: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_adverbien.csv"),
     praepositionen_artikel: os.path.join(BASE_DIR, "datasets/praepositionen", "praepositionen_artikel.csv"),
+    pronominaladverbien: os.path.join(BASE_DIR, "datasets/praepositionen", "pronominaladverbien.csv"),
 
     artikel: os.path.join(BASE_DIR, "datasets/grammatik", "artikel.csv"),
     pronomen: os.path.join(BASE_DIR, "datasets/grammatik", "pronomen.csv"),
@@ -35,6 +38,8 @@ DATA_PATH = {
     komparativ_superlativ: os.path.join(BASE_DIR, "datasets/adjektive", "komparativ_superlativ.csv"),
     adjektivdeklinationen: os.path.join(BASE_DIR, "datasets/adjektive", "adjektivdeklinationen.csv"),
     adjektive_konjunktionen: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive_konjunktionen.csv"),
+    adjektive_verben_wortstaemme: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive_verben_wortstaemme.csv"),
+    adjektive_nomen_wortstaemme: os.path.join(BASE_DIR, "datasets/adjektive", "adjektive_nomen_wortstaemme.csv"),
 
     verben: os.path.join(BASE_DIR, "datasets/verben", "verben.csv"),
     trennbare_verben: os.path.join(BASE_DIR, "datasets/verben", "trennbare_verben.csv"),

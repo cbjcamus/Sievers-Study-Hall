@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien,
+    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe, nomen_verben_wortstaemme,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 DESCRIPTION_FR = {
@@ -34,18 +34,18 @@ DESCRIPTION_FR = {
 
         17: "Prépositions de base au niveau C1, en contexte",
         18: "Prépositions de base au niveau C1, en contexte",
-        19: "Prépositions de niveau C1, en isolation",
-        20: "Prépositions de niveau C1, en contexte",
+        19: "Prépositions de base au niveau C1, en contexte",
+        20: "Prépositions de base au niveau C1, en contexte",
         21: "Prépositions de niveau C1, en isolation",
         22: "Prépositions de niveau C1, en contexte",
-        23: "Groupe prépositionel de niveau C1, en isolation",
-        24: "Groupe prépositionel de niveau C1, en contexte",
-        25: "Postpositions de niveau C1, en isolation",
-        26: "Postpositions de niveau C1, en contexte",
-        27: "Synonymes de Prépositions, en contexte",
-        28: "Antonymes de Prépositions, en isolation",
-
-        29: "Prépositions de base au niveau C2, en contexte",
+        23: "Prépositions de niveau C1, en isolation",
+        24: "Prépositions de niveau C1, en contexte",
+        25: "Groupe prépositionel de niveau C1, en isolation",
+        26: "Groupe prépositionel de niveau C1, en contexte",
+        27: "Postpositions de niveau C1, en isolation",
+        28: "Postpositions de niveau C1, en contexte",
+        29: "Synonymes de Prépositions, en contexte",
+        30: "Antonymes de Prépositions, en isolation",
     },
 
     praepositionen_verben: {
@@ -58,44 +58,42 @@ DESCRIPTION_FR = {
         6: "Paires Verbe-Préposition de niveau A2, en contexte",
         7: "Paires Verbe-Préposition de niveau A2, en isolation",
         8: "Paires Verbe-Préposition de niveau A2, en contexte",
-        9: "Adverbes pronominal en Da-, en contexte",
-        10: "Adverbes pronominal en Wo-, en contexte",
 
+        9: "Paires Verbe-Préposition de niveau B1, en isolation",
+        10: "Paires Verbe-Préposition de niveau B1, en contexte",
         11: "Paires Verbe-Préposition de niveau B1, en isolation",
         12: "Paires Verbe-Préposition de niveau B1, en contexte",
         13: "Paires Verbe-Préposition de niveau B1, en isolation",
         14: "Paires Verbe-Préposition de niveau B1, en contexte",
         15: "Paires Verbe-Préposition de niveau B1, en isolation",
         16: "Paires Verbe-Préposition de niveau B1, en contexte",
-        17: "Paires Verbe-Préposition de niveau B1, en isolation",
-        18: "Paires Verbe-Préposition de niveau B1, en contexte",
 
+        17: "Paires Verbe-Préposition de niveau B2, en isolation",
+        18: "Paires Verbe-Préposition de niveau B2, en contexte",
         19: "Paires Verbe-Préposition de niveau B2, en isolation",
         20: "Paires Verbe-Préposition de niveau B2, en contexte",
         21: "Paires Verbe-Préposition de niveau B2, en isolation",
         22: "Paires Verbe-Préposition de niveau B2, en contexte",
         23: "Paires Verbe-Préposition de niveau B2, en isolation",
         24: "Paires Verbe-Préposition de niveau B2, en contexte",
-        25: "Paires Verbe-Préposition de niveau B2, en isolation",
-        26: "Paires Verbe-Préposition de niveau B2, en contexte",
 
+        25: "Paires Verbe-Préposition de niveau C1, en isolation",
+        26: "Paires Verbe-Préposition de niveau C1, en contexte",
         27: "Paires Verbe-Préposition de niveau C1, en isolation",
         28: "Paires Verbe-Préposition de niveau C1, en contexte",
         29: "Paires Verbe-Préposition de niveau C1, en isolation",
         30: "Paires Verbe-Préposition de niveau C1, en contexte",
         31: "Paires Verbe-Préposition de niveau C1, en isolation",
         32: "Paires Verbe-Préposition de niveau C1, en contexte",
-        33: "Paires Verbe-Préposition de niveau C1, en isolation",
-        34: "Paires Verbe-Préposition de niveau C1, en contexte",
 
+        33: "Paires Verbe-Préposition de niveau C2, en isolation",
+        34: "Paires Verbe-Préposition de niveau C2, en contexte",
         35: "Paires Verbe-Préposition de niveau C2, en isolation",
         36: "Paires Verbe-Préposition de niveau C2, en contexte",
         37: "Paires Verbe-Préposition de niveau C2, en isolation",
         38: "Paires Verbe-Préposition de niveau C2, en contexte",
         39: "Paires Verbe-Préposition de niveau C2, en isolation",
         40: "Paires Verbe-Préposition de niveau C2, en contexte",
-        41: "Paires Verbe-Préposition de niveau C2, en isolation",
-        42: "Paires Verbe-Préposition de niveau C2, en contexte",
     },
 
     praepositionen_adjektive: {
@@ -184,6 +182,16 @@ DESCRIPTION_FR = {
         2: "Something",
         3: "Something",
         4: "Something",
+    },
+
+    pronominaladverbien: {
+        1: "Adverbes pronominal en Da- en tant que pronoms, en contexte",
+
+        2: "Adverbes pronominal en Da- en tant que pronoms, en contexte",
+        3: "Adverbes pronominal en Da- en tant que compléments prépositionnels, en contexte",
+        4: "Adverbes pronominal en Wo- en tant que mot interrogatifs, en contexte",
+
+        5: "Adverbes pronominal en Wo- en tant que pronoms relatifs, en contexte",
     },
 
     artikel: {
@@ -520,6 +528,54 @@ DESCRIPTION_FR = {
         3: "Conjunctions d'adjectifs, en contexte",
 
         4: "Conjunctions d'adjectifs, en contexte",
+    },
+
+    adjektive_verben_wortstaemme: {
+        1: "Adjectif manquant dans la paire Adjectif-Verbe",
+        2: "Verbe manquant dans la paire Adjectif-Verbe",
+        3: "Adjectif manquant dans la paire Adjectif-Verbe",
+        4: "Verbe manquant dans la paire Adjectif-Verbe",
+
+        5: "Adjectif manquant dans la paire Adjectif-Verbe",
+        6: "Verbe manquant dans la paire Adjectif-Verbe",
+        7: "Adjectif manquant dans la paire Adjectif-Verbe",
+        8: "Verbe manquant dans la paire Adjectif-Verbe",
+        9: "Adjectif manquant dans la paire Adjectif-Verbe",
+        10: "Verbe manquant dans la paire Adjectif-Verbe",
+
+        11: "Adjectif manquant dans la paire Adjectif-Verbe",
+        12: "Verbe manquant dans la paire Adjectif-Verbe",
+        13: "Adjectif manquant dans la paire Adjectif-Verbe",
+        14: "Verbe manquant dans la paire Adjectif-Verbe",
+        15: "Adjectif manquant dans la paire Adjectif-Verbe",
+        16: "Verbe manquant dans la paire Adjectif-Verbe",
+        17: "Adjectif manquant dans la paire Adjectif-Verbe",
+        18: "Verbe manquant dans la paire Adjectif-Verbe",
+        19: "Adjectif manquant dans la paire Adjectif-Verbe",
+        20: "Verbe manquant dans la paire Adjectif-Verbe",
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: "Adjectif manquant dans la paire Adjectif-Nom",
+        2: "Nom commun manquant dans la paire Adjectif-Nom",
+        3: "Adjectif manquant dans la paire Adjectif-Nom",
+        4: "Nom commun manquant dans la paire Adjectif-Nom",
+
+        5: "Adjectif manquant dans la paire Adjectif-Nom",
+        6: "Nom commun manquant dans la paire Adjectif-Nom",
+        7: "Adjectif manquant dans la paire Adjectif-Nom",
+        8: "Nom commun manquant dans la paire Adjectif-Nom",
+
+        9: "Adjectif manquant dans la paire Adjectif-Nom",
+        10: "Nom commun manquant dans la paire Adjectif-Nom",
+        11: "Adjectif manquant dans la paire Adjectif-Nom",
+        12: "Nom commun manquant dans la paire Adjectif-Nom",
+        13: "Adjectif manquant dans la paire Adjectif-Nom",
+        14: "Nom commun manquant dans la paire Adjectif-Nom",
+        15: "Adjectif manquant dans la paire Adjectif-Nom",
+        16: "Nom commun manquant dans la paire Adjectif-Nom",
+        17: "Adjectif manquant dans la paire Adjectif-Nom",
+        18: "Nom commun manquant dans la paire Adjectif-Nom",
     },
 
     verben: {

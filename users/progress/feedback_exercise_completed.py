@@ -144,6 +144,7 @@ def format_feedback(df, unit, exercise):
             previous_question=row.get("question", ""),
             correct_answer=row.get("answer", ""),
             correct_answers=correct_answers,
+            first_correct_answer=row.get("first_correct_answer", ""),
             german=row.get("german", ""),
             english=row.get("english", ""),
             french=row.get("french", ""),

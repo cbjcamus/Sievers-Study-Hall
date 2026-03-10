@@ -128,7 +128,7 @@ Nr,exercise,question,answer,german,english,french
 127,7,aufhören,"hörte auf, aufgehört",,"to stop, to cease an activity or process","arrêter, cesser une activité ou un processus"
 128,7,anfangen,"fing an, angefangen",,to begin something new,commencer quelque chose de nouveau
 129,7,gewinnen,"gewann, gewonnen",,to win,gagner
-130,7,öffnen,"öffnete, geöffnet",,to open (formal),ouvrir (formel)
+130,7,öffnen,"öffnete, geöffnet",,to open,ouvrir
 131,7,bezahlen,"bezahlte, bezahlt",,"to pay, to pay someone (transitive)","payer, payer quelqu'un (transitif)"
 132,7,beginnen,"begann, begonnen",,to begin (on a certain date or time),commencer (à une certaine date ou heure)
 133,7,benutzen,"benutzte, benutzt",,to use (transitive),utiliser (transitif)
@@ -535,7 +535,7 @@ Nr,exercise,question,answer,german,english,french
 534,27,fürchten,"fürchtete, gefürchtet",,"to fear, to be afraid of",avoir peur de
 535,27,überzeugen,"überzeugte, überzeugt",,"to convince, to persuade","convaincre, persuader"
 536,27,vermuten,"vermutete, vermutet",,"to suspect, to assume, to suppose","soupçonner, supposer, présumer"
-537,27,überlegen,"überlegte, überlegt",,"to consider, to think about, to reflect","considérer, penser à, réfléchir"
+537,27,überlegen,"überlegte, überlegt",,"to consider, to think about, to reflect, to lay over","considérer, penser à, réfléchir, recouvrir, poser par-dessus"
 538,27,vertreten,"vertrat, vertreten",,"to represent, to advocate, to stand in for","représenter, défendre, se substituer"
 539,27,betreuen,"betreute, betreut",,"to look after, to care for, to supervise","prendre soin de, soigner, superviser"
 540,27,verursachen,"verursachte, verursacht",,"to cause, to provoke, to bring about","causer, provoquer"
@@ -1281,7 +1281,7 @@ Nr,exercise,question,answer,german,english,french
 1280,64,lauschen,"lauschte, gelauscht",,"to listen, to eavesdrop","écouter, espionner"
 1281,64,aufbringen,"brachte auf, aufgebracht",,"to capture, to raise, to antagonise",appliquer
 1282,64,befestigen,"befestigte, befestigt",,"to attach, to fasten, to secure",fixer
-1283,64,begrenzen,"begrenzt, begrenzt",,"to limit, to restrict, to bound","limiter, resteindre, confiner"
+1283,64,begrenzen,"begrenzte, begrenzt",,"to limit, to restrict, to bound","limiter, resteindre, confiner"
 1284,64,entnehmen,"entnahm, entnommen",,"to extract, to gather from, to remove","retirer, tirer, déduire"
 1285,64,optimieren,"optimierte, optimiert",,"to optimize, to improve, to steamline",optimiser
 1286,64,platzieren,"platzierte, platziert",,"to place, to position, to be placed",placer
@@ -1307,7 +1307,7 @@ Nr,exercise,question,answer,german,english,french
 1306,65,erschöpfen,"erschöpfte, erschöpft",,"to exhaust, to deplete, to drain",épuiser
 1307,65,gedeihen,"gedieh, gediehen",,"to flourish, to prosper, to thrive","prospérer, s'épanouir, croître, fleurir"
 1308,65,schweben,"schwebte, geschwebt",,"to over, to float, to glide","flotter, planer"
-1309,66,spinnen,"spann, gesponnen",,"to spin, to act strangely, to act up","tisser, filer"
+1309,65,spinnen,"spann, gesponnen",,"to spin, to act strangely, to act up","tisser, filer"
 1310,66,entführen,"entführte, entführt",,"to abduct, to kidnap","enlever, kidnapper"
 1311,66,dämpfen,"dämpfte, gedämpft",,"to dampen, to steam, to attenuate, to reduce","étouffer, amortir"
 1312,66,dehnen,"dehnte, gedehnt",,"to extend, to stretch, to expand, to dilate","étirer, étendre allonger"

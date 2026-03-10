@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien,
+    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 # bullet point \u25CF
@@ -53,7 +53,8 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         18: "{question}"
             "<br><br><i>{french}</i>",
-        19: "{french}",
+        19: "{question}"
+            "<br><br><i>{french}</i>",
         20: "{question}"
             "<br><br><i>{french}</i>",
         21: "{french}",
@@ -65,12 +66,12 @@ QUESTION_FR = {
         25: "{french}",
         26: "{question}"
             "<br><br><i>{french}</i>",
-        27: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        28: "{german}",
-
-        29: "{question}"
+        27: "{french}",
+        28: "{question}"
             "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        30: "{german}",
     },
 
     praepositionen_verben: {
@@ -87,11 +88,10 @@ QUESTION_FR = {
         7: "{french} = {question}",
         8: "{question}"
            "<br><br><i>{french}</i>",
-        9: "{question}"
-           "<br><br><i>{french}</i>",
+
+        9: "{french} = {question}",
         10: "{question}"
             "<br><br><i>{french}</i>",
-
         11: "{french} = {question}",
         12: "{question}"
             "<br><br><i>{french}</i>",
@@ -101,10 +101,10 @@ QUESTION_FR = {
         15: "{french} = {question}",
         16: "{question}"
             "<br><br><i>{french}</i>",
+
         17: "{french} = {question}",
         18: "{question}"
             "<br><br><i>{french}</i>",
-
         19: "{french} = {question}",
         20: "{question}"
             "<br><br><i>{french}</i>",
@@ -114,10 +114,10 @@ QUESTION_FR = {
         23: "{french} = {question}",
         24: "{question}"
             "<br><br><i>{french}</i>",
+
         25: "{french} = {question}",
         26: "{question}"
             "<br><br><i>{french}</i>",
-
         27: "{french} = {question}",
         28: "{question}"
             "<br><br><i>{french}</i>",
@@ -127,10 +127,10 @@ QUESTION_FR = {
         31: "{french} = {question}",
         32: "{question}"
             "<br><br><i>{french}</i>",
+
         33: "{french} = {question}",
         34: "{question}"
             "<br><br><i>{french}</i>",
-
         35: "{french} = {question}",
         36: "{question}"
             "<br><br><i>{french}</i>",
@@ -139,9 +139,6 @@ QUESTION_FR = {
             "<br><br><i>{french}</i>",
         39: "{french} = {question}",
         40: "{question}"
-            "<br><br><i>{french}</i>",
-        41: "{french} = {question}",
-        42: "{question}"
             "<br><br><i>{french}</i>",
     },
 
@@ -275,6 +272,21 @@ QUESTION_FR = {
         2: "Something",
         3: "Something",
         4: "Something",
+    },
+
+    pronominaladverbien: {
+        1: "{question}"
+           "<br><br><i>{french}</i>",
+
+        2: "{question}"
+           "<br><br><i>{french}</i>",
+        3: "{question}"
+           "<br><br><i>{french}</i>",
+        4: "{question}"
+           "<br><br><i>{french}</i>",
+
+        5: "{question}"
+           "<br><br><i>{french}</i>",
     },
 
     artikel: {
@@ -747,6 +759,92 @@ QUESTION_FR = {
 
         4: "{question}"
            "<br><br><i>{french}</i>",
+    },
+
+    adjektive_verben_wortstaemme: {
+        1: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        2: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        3: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        4: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+
+        5: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        6: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        7: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        8: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        9: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        10: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+
+        11: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        12: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        13: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        14: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        15: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        16: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        17: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        18: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        19: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        20: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        2: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        3: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        4: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+
+        5: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        6: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        7: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        8: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+
+        9: "{root_french} → {question}"
+           "<br><br>{french} → _____",
+        10: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        11: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        12: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        13: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        14: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        15: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        16: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        17: "{root_french} → {question}"
+            "<br><br>{french} → _____",
+        18: "{root_french} → {question}"
+            "<br><br>{french} → _____",
     },
 
     verben: {

@@ -3,6 +3,7 @@ from data.data_processing.units import (
     praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme, pronominaladverbien,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -15,6 +16,7 @@ BACK_BUTTON = {
     praepositionen_adjektive: "Präpositionen – Adjektive",
     praepositionen_nomen: "Präpositionen – Nomen",
     praepositionen_artikel: "Präpositionen – Artikel",
+    pronominaladverbien: "Pronominaladverbien",
 
     artikel: "Artikel",
     pronomen: "Pronomen",
@@ -27,6 +29,8 @@ BACK_BUTTON = {
     komparativ_superlativ: "Komparativ & Superlativ",
     adjektivdeklinationen: "Adjektivdeklinationen",
     adjektive_konjunktionen: "Adjektive – Konjunktionen",
+    adjektive_verben_wortstaemme: "Adjektive – Verben Wortstämme",
+    adjektive_nomen_wortstaemme: "Adjektive – Nomen Wortstämme",
 
     verben: "Verben",
     trennbare_verben: "(Un)trennbare Verben",

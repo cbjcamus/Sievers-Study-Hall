@@ -1,8 +1,9 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien,
+    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
@@ -34,18 +35,18 @@ DESCRIPTION_EN = {
 
         17: "A1 Prepositions at C1 level, in sentences",
         18: "A1 Prepositions at C1 level, in sentences",
-        19: "C1 Prepositions, in isolation",
-        20: "C1 Prepositions, in sentences",
+        19: "A1 Prepositions at C1 level, in sentences",
+        20: "A1 Prepositions at C1 level, in sentences",
         21: "C1 Prepositions, in isolation",
         22: "C1 Prepositions, in sentences",
-        23: "C1 Prepositional phrases, in isolation",
-        24: "C1 Prepositional phrases, in sentences",
-        25: "C1 Postpositions, in isolation",
-        26: "C1 Postpositions, in sentences",
-        27: "Synonyms of Prepositions, in sentences",
-        28: "Antonyms of Prepositions, in isolation",
-
-        29: "A1 Prepositions at C2 level, in sentences",
+        23: "C1 Prepositions, in isolation",
+        24: "C1 Prepositions, in sentences",
+        25: "C1 Prepositional phrases, in isolation",
+        26: "C1 Prepositional phrases, in sentences",
+        27: "C1 Postpositions, in isolation",
+        28: "C1 Postpositions, in sentences",
+        29: "Synonyms of Prepositions, in sentences",
+        30: "Antonyms of Prepositions, in isolation",
     },
 
     praepositionen_verben: {
@@ -58,44 +59,42 @@ DESCRIPTION_EN = {
         6: "A2 Verb-Preposition pairs, in sentences",
         7: "A2 Verb-Preposition pairs, in isolation",
         8: "A2 Verb-Preposition pairs, in sentences",
-        9: "Da-Words, in sentences",
-        10: "Wo-Words, in sentences",
 
+        9: "B1 Verb-Preposition pairs, in isolation",
+        10: "B1 Verb-Preposition pairs, in sentences",
         11: "B1 Verb-Preposition pairs, in isolation",
         12: "B1 Verb-Preposition pairs, in sentences",
         13: "B1 Verb-Preposition pairs, in isolation",
         14: "B1 Verb-Preposition pairs, in sentences",
         15: "B1 Verb-Preposition pairs, in isolation",
         16: "B1 Verb-Preposition pairs, in sentences",
-        17: "B1 Verb-Preposition pairs, in isolation",
-        18: "B1 Verb-Preposition pairs, in sentences",
 
+        17: "B2 Verb-Preposition pairs, in isolation",
+        18: "B2 Verb-Preposition pairs, in sentences",
         19: "B2 Verb-Preposition pairs, in isolation",
         20: "B2 Verb-Preposition pairs, in sentences",
         21: "B2 Verb-Preposition pairs, in isolation",
         22: "B2 Verb-Preposition pairs, in sentences",
         23: "B2 Verb-Preposition pairs, in isolation",
         24: "B2 Verb-Preposition pairs, in sentences",
-        25: "B2 Verb-Preposition pairs, in isolation",
-        26: "B2 Verb-Preposition pairs, in sentences",
 
+        25: "C1 Verb-Preposition pairs, in isolation",
+        26: "C1 Verb-Preposition pairs, in sentences",
         27: "C1 Verb-Preposition pairs, in isolation",
         28: "C1 Verb-Preposition pairs, in sentences",
         29: "C1 Verb-Preposition pairs, in isolation",
         30: "C1 Verb-Preposition pairs, in sentences",
         31: "C1 Verb-Preposition pairs, in isolation",
         32: "C1 Verb-Preposition pairs, in sentences",
-        33: "C1 Verb-Preposition pairs, in isolation",
-        34: "C1 Verb-Preposition pairs, in sentences",
 
+        33: "C2 Verb-Preposition pairs, in isolation",
+        34: "C2 Verb-Preposition pairs, in sentences",
         35: "C2 Verb-Preposition pairs, in isolation",
         36: "C2 Verb-Preposition pairs, in sentences",
         37: "C2 Verb-Preposition pairs, in isolation",
         38: "C2 Verb-Preposition pairs, in sentences",
         39: "C2 Verb-Preposition pairs, in isolation",
         40: "C2 Verb-Preposition pairs, in sentences",
-        41: "C2 Verb-Preposition pairs, in isolation",
-        42: "C2 Verb-Preposition pairs, in sentences",
     },
 
     praepositionen_adjektive: {
@@ -184,6 +183,16 @@ DESCRIPTION_EN = {
         2: "Something",
         3: "Something",
         4: "Something",
+    },
+
+    pronominaladverbien: {
+        1: "Da-words as pronouns, in sentences",
+
+        2: "Da-words as pronouns, in sentences",
+        3: "Da-words as prepositional objects, in sentences",
+        4: "Wo-words as question-words, in sentences",
+
+        5: "Wo-words as relative pronouns, in sentences",
     },
 
     artikel: {
@@ -519,6 +528,54 @@ DESCRIPTION_EN = {
         3: "Adjective Conjunctions, in sentences",
 
         4: "Adjective Conjunctions, in sentences",
+    },
+
+    adjektive_verben_wortstaemme: {
+        1: "B1 Adjective-Verb Pairs with the Adjective missing, in isolation",
+        2: "B1 Adjective-Verb Pairs with the Verb missing, in isolation",
+        3: "B1 Adjective-Verb Pairs with the Adjective missing, in sentences",
+        4: "B1 Adjective-Verb Pairs with the Verb missing, in sentences",
+
+        5: "B2 Adjective-Verb Pairs with the Adjective missing, in isolation",
+        6: "B2 Adjective-Verb Pairs with the Verb missing, in isolation",
+        7: "B2 Adjective-Verb Pairs with the Adjective missing, in sentences",
+        8: "B2 Adjective-Verb Pairs with the Verb missing, in sentences",
+        9: "B2 Adjective-Verb Pairs with the Adjective missing, in isolation",
+        10: "B2 Adjective-Verb Pairs with the Verb missing, in isolation",
+
+        11: "C1 Adjective-Verb Pairs with the Adjective missing, in isolation",
+        12: "C1 Adjective-Verb Pairs with the Verb missing, in isolation",
+        13: "C1 Adjective-Verb Pairs with the Adjective missing, in sentences",
+        14: "C1 Adjective-Verb Pairs with the Verb missing, in sentences",
+        15: "C1 Adjective-Verb Pairs with the Adjective missing, in isolation",
+        16: "C1 Adjective-Verb Pairs with the Verb missing, in isolation",
+        17: "C1 Adjective-Verb Pairs with the Adjective missing, in isolation",
+        18: "C1 Adjective-Verb Pairs with the Verb missing, in isolation",
+        19: "C1 Adjective-Verb Pairs with the Adjective missing, in sentences",
+        20: "C1 Adjective-Verb Pairs with the Verb missing, in sentences",
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: "A2 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        2: "A2 Adjective-Noun Pairs with the Noun missing, in isolation",
+        3: "A2 Adjective-Noun Pairs with the Adjective missing, in sentences",
+        4: "A2 Adjective-Noun Pairs with the Noun missing, in sentences",
+
+        5: "B1 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        6: "B1 Adjective-Noun Pairs with the Noun missing, in isolation",
+        7: "B1 Adjective-Noun Pairs with the Adjective missing, in sentences",
+        8: "B1 Adjective-Noun Pairs with the Noun missing, in sentences",
+
+        9: "B2 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        10: "B2 Adjective-Noun Pairs with the Noun missing, in isolation",
+        11: "B2 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        12: "B2 Adjective-Noun Pairs with the Noun missing, in isolation",
+        13: "B2 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        14: "B2 Adjective-Noun Pairs with the Noun missing, in isolation",
+        15: "B2 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        16: "B2 Adjective-Noun Pairs with the Noun missing, in isolation",
+        17: "B2 Adjective-Noun Pairs with the Adjective missing, in isolation",
+        18: "B2 Adjective-Noun Pairs with the Noun missing, in isolation",
     },
 
     verben: {

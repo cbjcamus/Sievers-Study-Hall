@@ -1,8 +1,8 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel,
+    praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     zahlen,
@@ -99,30 +99,6 @@ guidance_praepositionen_verben_sentences = (
     f"<br><br> &nbsp; {ICON_CHECK} an"
 )
 
-guidance_praepositionen_verben_dawort = (
-    "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
-    "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Da- qui convient."
-    
-    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
-    
-    "<h2>Exemple</h2>"
-    "— Vermissen Sie Ihr Land? <br><bt>— Ja, ich denke oft _____."
-    "<br><br><i>— Votre pays vous manque-t-il? <br><bt>— Oui, j'y pense souvent.</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} daran"
-)
-
-guidance_praepositionen_verben_wowort = (
-    "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
-    "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Wo- qui convient."
-    
-    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
-    
-    "<h2>Exemple</h2>"
-    "_____ denkst du?"
-    "<br><br><i>À quoi pensez-vous?</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} Woran"
-)
-
 guidance_praepositionen_adjektive_isolation = (
     "Pour chaque question, vous recevrez un couple adjectif-préposition allemand incomplet et sa traduction française."
 
@@ -168,6 +144,30 @@ guidance_praepositionen_nomen_sentences = (
     "Er zeigte Stolz _____ sein Team nach dem Sieg."
     "<br><br><i>Il a montré sa fierté envers son équipe après la victoire.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} auf"
+)
+
+guidance_pronominaladverbien_dawort = (
+    "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
+    "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Da- qui convient."
+
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+
+    "<h2>Exemple</h2>"
+    "Ich habe lange gearbeitet und wurde _____ gelobt."
+    f"<br><br>J’ai travaillé longtemps et j’ai été félicité pour cela."
+    f"<br><br> &nbsp; {ICON_CHECK} dafür"
+)
+
+guidance_pronominaladverbien_wowort = (
+    "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
+    "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Wo- qui convient."
+
+    f"<br><br> &nbsp; {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
+
+    "<h2>Exemple</h2>"
+    "_____ denkst du?"
+    "<br><br><i>À quoi pensez-vous?</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Woran"
 )
 
 guidance_artikel_isolation = (
@@ -628,6 +628,61 @@ guidance_adjektivdeklinationen_superlative_sentences = (
     f"<br><br> &nbsp; {ICON_CHECK} schönste"
 )
 
+guidance_adjektive_verben_wortstaemme_adjektive = (
+    "Pour chaque question, vous recevrez une paire Adjectif-Verbe allemande incomplète et sa traduction française."
+    "<br><br>Trouvez l'Adjectif allemand qui complète cette paire."
+
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+
+    "<h2>Exemple</h2>"
+    "aimer, apprécier → mögen"
+    "<br><br>possible → _____"
+    f"<br><br> &nbsp; {ICON_CHECK} möglich"
+)
+
+guidance_adjektive_verben_wortstaemme_verben = (
+    "Pour chaque question, vous recevrez une paire Adjectif-Verbe allemande incomplète et sa traduction française."
+    "<br><br>Trouvez le Verbe allemand qui complète cette paire."
+
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+
+    "<h2>Exemple</h2>"
+    "possible → möglich"
+    "<br><br>aimer, apprécier → _____"
+    f"<br><br> &nbsp; {ICON_CHECK} mögen"
+)
+
+guidance_adjektive_nomen_wortstaemme_adjektive = (
+    "Pour chaque question, vous recevrez une paire Nom-Adjectif allemande incomplète et sa traduction française."
+    "<br><br>Trouvez l'Adjectif allemand qui complète cette paire."
+
+    f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
+    " Lisez attentivement toute la traduction."
+    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+
+    "<h2>Exemple</h2>"
+    "la direction → die Richtung"
+    "<br><br>correct, juste → _____"
+    f"<br><br> &nbsp; {ICON_CHECK} richtig"
+)
+
+guidance_adjektive_nomen_wortstaemme_nomen = (
+    "Pour chaque question, vous recevrez une paire Nom-Adjectif allemande incomplète et sa traduction française."
+    "<br><br>Trouvez le Nom allemand qui complète cette paire."
+
+    f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+
+    "<h2>Exemple</h2>"
+    "correct, juste → richtig"
+    "<br><br>la direction → _____"
+    f"<br><br> &nbsp; {ICON_CHECK} die Richtung"
+)
+
 guidance_verben_translation = (
     "Pour chaque question, vous verrez la traduction française d’un verbe allemand."
     "<br>Trouvez le verbe allemand qui correspond à l’ensemble de la traduction."
@@ -744,7 +799,7 @@ guidance_nomen_verben_verbindungen_nomen_isolation = (
 
 guidance_nomen_verben_verbindungen_verben_isolation = (
     "Pour chaque question, vous recevrez une combination Nom-Verbe allemande incomplète et sa traduction française."
-    "<br><br>Trouvez le verb allemand qui complète cette combination."
+    "<br><br>Trouvez le Verbe allemand qui complète cette combination."
 
     f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
     f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
@@ -783,7 +838,7 @@ guidance_nomen_verben_verbindungen_nomen_sentences = (
 
 guidance_nomen_verben_verbindungen_verben_sentences = (
     "Pour chaque question, vous recevrez une phrase allemande incomplète et sa traduction française."
-    "<br><br>Trouvez le verb allemand qui complète cette phrase."
+    "<br><br>Trouvez le Verbe allemand qui complète cette phrase."
 
     f"<br><br> &nbsp; {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
     f"<br><br> &nbsp; {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
@@ -801,7 +856,7 @@ guidance_nomen_verben_verbindungen_verben_sentences = (
 
 guidance_nomen_verben_wortstaemme_verben = (
     "Pour chaque question, vous recevrez une paire Nom-Verbe allemande incomplète et sa traduction française."
-    "<br><br>Trouvez le verb allemand qui complète cette paire."
+    "<br><br>Trouvez le Verbe allemand qui complète cette paire."
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
@@ -999,7 +1054,7 @@ GUIDANCE_EXERCISE_FR = {
 
         17: guidance_praepositionen_grammatik_sentences,
         18: guidance_praepositionen_grammatik_sentences,
-        19: guidance_praepositionen_grammatik_isolation,
+        19: guidance_praepositionen_grammatik_sentences,
         20: guidance_praepositionen_grammatik_sentences,
         21: guidance_praepositionen_grammatik_isolation,
         22: guidance_praepositionen_grammatik_sentences,
@@ -1007,10 +1062,10 @@ GUIDANCE_EXERCISE_FR = {
         24: guidance_praepositionen_grammatik_sentences,
         25: guidance_praepositionen_grammatik_isolation,
         26: guidance_praepositionen_grammatik_sentences,
-        27: guidance_praepositionen_grammatik_synonyms,
-        28: guidance_praepositionen_grammatik_antonym,
-
-        29: guidance_praepositionen_grammatik_sentences,
+        27: guidance_praepositionen_grammatik_isolation,
+        28: guidance_praepositionen_grammatik_sentences,
+        29: guidance_praepositionen_grammatik_synonyms,
+        30: guidance_praepositionen_grammatik_antonym,
     },
 
     praepositionen_verben: {
@@ -1023,44 +1078,42 @@ GUIDANCE_EXERCISE_FR = {
         6: guidance_praepositionen_verben_sentences,
         7: guidance_praepositionen_verben_isolation,
         8: guidance_praepositionen_verben_sentences,
-        9: guidance_praepositionen_verben_dawort,
-        10: guidance_praepositionen_verben_wowort,
 
+        9: guidance_praepositionen_verben_isolation,
+        10: guidance_praepositionen_verben_sentences,
         11: guidance_praepositionen_verben_isolation,
         12: guidance_praepositionen_verben_sentences,
         13: guidance_praepositionen_verben_isolation,
         14: guidance_praepositionen_verben_sentences,
         15: guidance_praepositionen_verben_isolation,
         16: guidance_praepositionen_verben_sentences,
+
         17: guidance_praepositionen_verben_isolation,
         18: guidance_praepositionen_verben_sentences,
-
         19: guidance_praepositionen_verben_isolation,
         20: guidance_praepositionen_verben_sentences,
         21: guidance_praepositionen_verben_isolation,
         22: guidance_praepositionen_verben_sentences,
         23: guidance_praepositionen_verben_isolation,
         24: guidance_praepositionen_verben_sentences,
+
         25: guidance_praepositionen_verben_isolation,
         26: guidance_praepositionen_verben_sentences,
-
         27: guidance_praepositionen_verben_isolation,
         28: guidance_praepositionen_verben_sentences,
         29: guidance_praepositionen_verben_isolation,
         30: guidance_praepositionen_verben_sentences,
         31: guidance_praepositionen_verben_isolation,
         32: guidance_praepositionen_verben_sentences,
+
         33: guidance_praepositionen_verben_isolation,
         34: guidance_praepositionen_verben_sentences,
         35: guidance_praepositionen_verben_isolation,
         36: guidance_praepositionen_verben_sentences,
-
         37: guidance_praepositionen_verben_isolation,
         38: guidance_praepositionen_verben_sentences,
         39: guidance_praepositionen_verben_isolation,
         40: guidance_praepositionen_verben_sentences,
-        41: guidance_praepositionen_verben_isolation,
-        42: guidance_praepositionen_verben_sentences,
     },
 
     praepositionen_adjektive: {
@@ -1115,6 +1168,16 @@ GUIDANCE_EXERCISE_FR = {
         24: guidance_praepositionen_nomen_sentences,
         25: guidance_praepositionen_nomen_isolation,
         26: guidance_praepositionen_nomen_sentences,
+    },
+
+    pronominaladverbien: {
+        1: guidance_pronominaladverbien_dawort,
+
+        2: guidance_pronominaladverbien_dawort,
+        3: guidance_pronominaladverbien_dawort,
+        4: guidance_pronominaladverbien_wowort,
+
+        5: guidance_pronominaladverbien_wowort,
     },
 
     artikel: {
@@ -1436,7 +1499,54 @@ GUIDANCE_EXERCISE_FR = {
         28: guidance_adjektivdeklinationen_sentences,
         29: guidance_adjektivdeklinationen_isolation,
         30: guidance_adjektivdeklinationen_sentences,
+    },
 
+    adjektive_verben_wortstaemme: {
+        1: guidance_adjektive_verben_wortstaemme_adjektive,
+        2: guidance_adjektive_verben_wortstaemme_verben,
+        3: guidance_adjektive_verben_wortstaemme_adjektive,
+        4: guidance_adjektive_verben_wortstaemme_verben,
+
+        5: guidance_adjektive_verben_wortstaemme_adjektive,
+        6: guidance_adjektive_verben_wortstaemme_verben,
+        7: guidance_adjektive_verben_wortstaemme_adjektive,
+        8: guidance_adjektive_verben_wortstaemme_verben,
+        9: guidance_adjektive_verben_wortstaemme_adjektive,
+        10: guidance_adjektive_verben_wortstaemme_verben,
+
+        11: guidance_adjektive_verben_wortstaemme_adjektive,
+        12: guidance_adjektive_verben_wortstaemme_verben,
+        13: guidance_adjektive_verben_wortstaemme_adjektive,
+        14: guidance_adjektive_verben_wortstaemme_verben,
+        15: guidance_adjektive_verben_wortstaemme_adjektive,
+        16: guidance_adjektive_verben_wortstaemme_verben,
+        17: guidance_adjektive_verben_wortstaemme_adjektive,
+        18: guidance_adjektive_verben_wortstaemme_verben,
+        19: guidance_adjektive_verben_wortstaemme_adjektive,
+        20: guidance_adjektive_verben_wortstaemme_verben,
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: guidance_adjektive_nomen_wortstaemme_adjektive,
+        2: guidance_adjektive_nomen_wortstaemme_nomen,
+        3: guidance_adjektive_nomen_wortstaemme_adjektive,
+        4: guidance_adjektive_nomen_wortstaemme_nomen,
+
+        5: guidance_adjektive_nomen_wortstaemme_adjektive,
+        6: guidance_adjektive_nomen_wortstaemme_nomen,
+        7: guidance_adjektive_nomen_wortstaemme_adjektive,
+        8: guidance_adjektive_nomen_wortstaemme_nomen,
+
+        9: guidance_adjektive_nomen_wortstaemme_adjektive,
+        10: guidance_adjektive_nomen_wortstaemme_nomen,
+        11: guidance_adjektive_nomen_wortstaemme_adjektive,
+        12: guidance_adjektive_nomen_wortstaemme_nomen,
+        13: guidance_adjektive_nomen_wortstaemme_adjektive,
+        14: guidance_adjektive_nomen_wortstaemme_nomen,
+        15: guidance_adjektive_nomen_wortstaemme_adjektive,
+        16: guidance_adjektive_nomen_wortstaemme_nomen,
+        17: guidance_adjektive_nomen_wortstaemme_adjektive,
+        18: guidance_adjektive_nomen_wortstaemme_nomen,
     },
 
     verben: {

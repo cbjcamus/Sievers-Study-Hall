@@ -14,186 +14,184 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 13,1,,langsamer,langsam,slow,lent,"langsam, langsamer, am langsamsten","langsam, langsamer, am langsamsten",langsamer,am langsamsten
 14,1,,schöner,schön,beautiful,beau,"schön, schöner, am schönsten","schön, schöner, am schönsten",schöner,am schönsten
 15,1,,hässlicher,hässlich,ugly,laid,"hässlich, hässlicher, am hässlichsten","hässlich, hässlicher, am hässlichsten",hässlicher,am hässlichsten
-16,1,,unterschiedlicher,unterschiedlich,different,différent,"unterschiedlich, unterschiedlicher, am unterschiedlichsten","unterschiedlich, unterschiedlicher, am unterschiedlichsten",unterschiedlicher,am unterschiedlichsten
-17,1,,wichtiger,wichtig,important,important,"wichtig, wichtiger, am wichtigsten","wichtig, wichtiger, am wichtigsten",wichtiger,am wichtigsten
-18,2,,höher,hoch,high,haut,"hoch, höher, am höchsten","hoch, höher, am höchsten",höher,am höchsten
-19,2,,niedriger,niedrig,low,bas,"niedrig, niedriger, am niedrigsten","niedrig, niedriger, am niedrigsten",niedriger,am niedrigsten
-20,2,,kürzer,kurz,short,court,"kurz, kürzer, am kürzesten","kurz, kürzer, am kürzesten",kürzer,am kürzesten
-21,2,,länger,lang,long,long,"lang, länger, am längsten","lang, länger, am längsten",länger,am längsten
-22,2,,roter,rot,red,rouge,"rot, roter, am rotesten","rot, roter, am rotesten",roter,am rotesten
-23,2,,schwärzer,schwarz,black,noir,"schwarz, schwärzer, am schwärzesten","schwarz, schwärzer, am schwärzesten",schwärzer,am schwärzesten
-24,2,,weißer,weiß,white,blanc,"weiß, weißer, am weißesten","weiß, weißer, am weißesten",weißer,am weißesten
-25,2,,blauer,blau,blue,bleu,"blau, blauer, am blausten","blau, blauer, am blausten",blauer,am blausten
-26,2,,grüner,grün,green,vert,"grün, grüner, am grünsten","grün, grüner, am grünsten",grüner,am grünsten
-27,2,,gelber,gelb,yellow,jaune,"gelb, gelber, am gelbsten","gelb, gelber, am gelbsten",gelber,am gelbsten
-28,2,,grauer,grau,grey,gris,"grau, grauer, am grausten","grau, grauer, am grausten",grauer,am grausten
-29,2,,freier,frei,free,libre,"frei, freier, am freiesten","frei, freier, am freiesten",freier,am freiesten
-30,2,,später,spät,late,"tard, en retard","spät, später, am spätesten","spät, später, am spätesten",später,am spätesten
-31,2,,früher,früh,early,tôt,"früh, früher, am frühesten","früh, früher, am frühesten",früher,am frühesten
-32,2,,billiger,billig,cheap,bon marché,"billig, billiger, am billigsten","billig, billiger, am billigsten",billiger,am billigsten
-33,2,,teurer,teuer,expensive,cher,"teuer, teurer, am teuersten","teuer, teurer, am teuersten",teurer,am teuersten
-34,2,,normaler,normal,normal,normale,"normal, normaler, am normalsten","normal, normaler, am normalsten",normaler,am normalsten
-35,2,,wahrer,wahr,true,vrai,"wahr, wahrer, am wahrsten","wahr, wahrer, am wahrsten",wahrer,am wahrsten
-36,2,,heißer,heiß,hot,chaud,"heiß, heißer, am heißesten","heiß, heißer, am heißesten",heißer,am heißesten
-37,2,,kälter,kalt,cold,froid,"kalt, kälter, am kältesten","kalt, kälter, am kältesten",kälter,am kältesten
-38,3,,glücklicher,glücklich,"happy, glad","heureux, content","glücklich, glücklicher, am glücklichsten","glücklich, glücklicher, am glücklichsten",glücklicher,am glücklichsten
-39,3,,trauriger,traurig,sad,triste,"traurig, trauriger, am traurigsten","traurig, trauriger, am traurigsten",trauriger,am traurigsten
-40,3,,mehr,viel,much,beaucoup,"viel, mehr, am meisten","viel, mehr, am meisten",mehr,am meisten
-41,3,,weniger,wenig,little,peu,"wenig, weniger, am wenigsten","wenig, weniger, am wenigsten",weniger,am wenigsten
-42,3,,reicher,reich,rich,riche,"reich, reicher, am reichsten","reich, reicher, am reichsten",reicher,am reichsten
-43,3,,ärmer,arm,poor,pauvre,"arm, ärmer, am ärmsten","arm, ärmer, am ärmsten",ärmer,am ärmsten
-44,3,,schmutziger,schmutzig,dirty,sale,"schmutzig, schmutziger, am schmutzigsten","schmutzig, schmutziger, am schmutzigsten",schmutziger,am schmutzigsten
-45,3,,sauberer,sauber,clean,propre,"sauber, sauberer, am saubersten","sauber, sauberer, am saubersten",sauberer,am saubersten
-46,3,,weiter,weit,far,loin,"weit, weiter, am weitesten","weit, weiter, am weitesten",weiter,am weitesten
-47,3,,näher,nah,"close, near","proche, près","nah, näher, am nächsten","nah, näher, am nächsten",näher,am nächsten
-48,3,,lustiger,lustig,funny,drôle,"lustig, lustiger, am lustigsten","lustig, lustiger, am lustigsten",lustiger,am lustigsten
-49,3,,netter,nett,nice,"bon, gentils","nett, netter, am nettesten","nett, netter, am nettesten",netter,am nettesten
-50,3,,gesünder,gesund,healthy,"sain, en bonne santé","gesund, gesünder, am gesündesten","gesund, gesünder, am gesündesten",gesünder,am gesündesten
-51,3,,müder,müde,tired,fatigué,"müde, müder, am müdesten","müde, müder, am müdesten",müder,am müdesten
-52,3,,dümmer,dumm,stupid,stupide,"dumm, dümmer, am dümmsten","dumm, dümmer, am dümmsten",dümmer,am dümmsten
-53,3,,klüger,klug,smart,intelligent,"klug, klüger, am klügsten","klug, klüger, am klügsten",klüger,am klügsten
-54,4,,am ältesten,alt,old,vieux,"alt, älter, am ältesten","alt, älter, am ältesten",älter,am ältesten
-55,4,,am jüngsten,jung,young,jeune,"jung, jünger, am jüngsten","jung, jünger, am jüngsten",jünger,am jüngsten
-56,4,,am neuesten,neu,new,nouveau,"neu, neuer, am neuesten","neu, neuer, am neuesten",neuer,am neuesten
-57,4,,am einfachsten,einfach,"easy, simple","facile, simple","einfach, einfacher, am einfachsten","einfach, einfacher, am einfachsten",einfacher,am einfachsten
-58,4,,am schwierigsten,schwierig,difficult,difficile,"schwierig, schwieriger, am schwierigsten","schwierig, schwieriger, am schwierigsten",schwieriger,am schwierigsten
-59,4,,am richtigsten,richtig,"right, correct","correct, juste","richtig, richtiger, am richtigsten","richtig, richtiger, am richtigsten",richtiger,am richtigsten
-60,4,,am falschesten,falsch,"false, wrong",faux,"falsch, falscher, am falschesten","falsch, falscher, am falschesten",falscher,am falschesten
-61,4,,am größten,groß,"big, tall",grand,"groß, größer, am größten","groß, größer, am größten",größer,am größten
-62,4,,am kleinsten,klein,small,petit,"klein, kleiner, am kleinsten","klein, kleiner, am kleinsten",kleiner,am kleinsten
-63,4,,am besten,gut,good,"bon, bien","gut, besser, am besten","gut, besser, am besten",besser,am besten
-64,4,,am schlechtesten,schlecht,bad,mauvais,"schlecht, schlechter, am schlechtesten","schlecht, schlechter, am schlechtesten",schlechter,am schlechtesten
-65,4,,am schnellsten,schnell,fast,rapide,"schnell, schneller, am schnellsten","schnell, schneller, am schnellsten",schneller,am schnellsten
-66,4,,am langsamsten,langsam,slow,lent,"langsam, langsamer, am langsamsten","langsam, langsamer, am langsamsten",langsamer,am langsamsten
-67,4,,am schönsten,schön,beautiful,beau,"schön, schöner, am schönsten","schön, schöner, am schönsten",schöner,am schönsten
-68,4,,am hässlichsten,hässlich,ugly,laid,"hässlich, hässlicher, am hässlichsten","hässlich, hässlicher, am hässlichsten",hässlicher,am hässlichsten
-69,4,,am unterschiedlichsten,unterschiedlich,different,différent,"unterschiedlich, unterschiedlicher, am unterschiedlichsten","unterschiedlich, unterschiedlicher, am unterschiedlichsten",unterschiedlicher,am unterschiedlichsten
-70,4,,am wichtigsten,wichtig,important,important,"wichtig, wichtiger, am wichtigsten","wichtig, wichtiger, am wichtigsten",wichtiger,am wichtigsten
-71,5,,am höchsten,hoch,high,haut,"hoch, höher, am höchsten","hoch, höher, am höchsten",höher,am höchsten
-72,5,,am niedrigsten,niedrig,low,bas,"niedrig, niedriger, am niedrigsten","niedrig, niedriger, am niedrigsten",niedriger,am niedrigsten
-73,5,,am kürzesten,kurz,short,court,"kurz, kürzer, am kürzesten","kurz, kürzer, am kürzesten",kürzer,am kürzesten
-74,5,,am längsten,lang,long,long,"lang, länger, am längsten","lang, länger, am längsten",länger,am längsten
-75,5,,am rotesten,rot,red,rouge,"rot, roter, am rotesten","rot, roter, am rotesten",roter,am rotesten
-76,5,,am schwärzesten,schwarz,black,noir,"schwarz, schwärzer, am schwärzesten","schwarz, schwärzer, am schwärzesten",schwärzer,am schwärzesten
-77,5,,am weißesten,weiß,white,blanc,"weiß, weißer, am weißesten","weiß, weißer, am weißesten",weißer,am weißesten
-78,5,,am blausten,blau,blue,bleu,"blau, blauer, am blausten","blau, blauer, am blausten",blauer,am blausten
-79,5,,am grünsten,grün,green,vert,"grün, grüner, am grünsten","grün, grüner, am grünsten",grüner,am grünsten
-80,5,,am gelbsten,gelb,yellow,jaune,"gelb, gelber, am gelbsten","gelb, gelber, am gelbsten",gelber,am gelbsten
-81,5,,am grausten,grau,grey,gris,"grau, grauer, am grausten","grau, grauer, am grausten",grauer,am grausten
-82,5,,am freiesten,frei,free,libre,"frei, freier, am freiesten","frei, freier, am freiesten",freier,am freiesten
-83,5,,am spätesten,spät,late,"tard, en retard","spät, später, am spätesten","spät, später, am spätesten",später,am spätesten
-84,5,,am frühesten,früh,early,tôt,"früh, früher, am frühesten","früh, früher, am frühesten",früher,am frühesten
-85,5,,am billigsten,billig,cheap,bon marché,"billig, billiger, am billigsten","billig, billiger, am billigsten",billiger,am billigsten
-86,5,,am teuersten,teuer,expensive,cher,"teuer, teurer, am teuersten","teuer, teurer, am teuersten",teurer,am teuersten
-87,5,,am normalsten,normal,normal,normale,"normal, normaler, am normalsten","normal, normaler, am normalsten",normaler,am normalsten
-88,5,,am wahrsten,wahr,true,vrai,"wahr, wahrer, am wahrsten","wahr, wahrer, am wahrsten",wahrer,am wahrsten
-89,5,,am heißesten,heiß,hot,chaud,"heiß, heißer, am heißesten","heiß, heißer, am heißesten",heißer,am heißesten
-90,5,,am kältesten,kalt,cold,froid,"kalt, kälter, am kältesten","kalt, kälter, am kältesten",kälter,am kältesten
-91,6,,am glücklichsten,glücklich,"happy, glad","heureux, content","glücklich, glücklicher, am glücklichsten","glücklich, glücklicher, am glücklichsten",glücklicher,am glücklichsten
-92,6,,am traurigsten,traurig,sad,triste,"traurig, trauriger, am traurigsten","traurig, trauriger, am traurigsten",trauriger,am traurigsten
-93,6,,am meisten,viel,much,beaucoup,"viel, mehr, am meisten","viel, mehr, am meisten",mehr,am meisten
-94,6,,am wenigsten,wenig,little,peu,"wenig, weniger, am wenigsten","wenig, weniger, am wenigsten",weniger,am wenigsten
-95,6,,am reichsten,reich,rich,riche,"reich, reicher, am reichsten","reich, reicher, am reichsten",reicher,am reichsten
-96,6,,am ärmsten,arm,poor,pauvre,"arm, ärmer, am ärmsten","arm, ärmer, am ärmsten",ärmer,am ärmsten
-97,6,,am schmutzigsten,schmutzig,dirty,sale,"schmutzig, schmutziger, am schmutzigsten","schmutzig, schmutziger, am schmutzigsten",schmutziger,am schmutzigsten
-98,6,,am saubersten,sauber,clean,propre,"sauber, sauberer, am saubersten","sauber, sauberer, am saubersten",sauberer,am saubersten
-99,6,,am weitesten,weit,far,loin,"weit, weiter, am weitesten","weit, weiter, am weitesten",weiter,am weitesten
-100,6,,am nächsten,nah,"close, near","proche, près","nah, näher, am nächsten","nah, näher, am nächsten",näher,am nächsten
-101,6,,am lustigsten,lustig,funny,drôle,"lustig, lustiger, am lustigsten","lustig, lustiger, am lustigsten",lustiger,am lustigsten
-102,6,,am nettesten,nett,nice,"bon, gentils","nett, netter, am nettesten","nett, netter, am nettesten",netter,am nettesten
-103,6,,am gesündesten,gesund,healthy,"sain, en bonne santé","gesund, gesünder, am gesündesten","gesund, gesünder, am gesündesten",gesünder,am gesündesten
-104,6,,am müdesten,müde,tired,fatigué,"müde, müder, am müdesten","müde, müder, am müdesten",müder,am müdesten
-105,6,,am dümmsten,dumm,stupid,stupide,"dumm, dümmer, am dümmsten","dumm, dümmer, am dümmsten",dümmer,am dümmsten
-106,6,,am klügsten,klug,smart,intelligent,"klug, klüger, am klügsten","klug, klüger, am klügsten",klüger,am klügsten
-107,7,,kränker,krank,sick,malade,"krank, kränker, am kränksten","krank, kränker, am kränksten",kränker,am kränksten
-108,7,,brauner,braun,brown,brun,"braun, brauner, am braunsten","braun, brauner, am braunsten",brauner,am braunsten
-109,7,,deutscher,deutsch,german,allemand,"deutsch, deutscher, am deutschesten","deutsch, deutscher, am deutschesten",deutscher,am deutschesten
-110,7,,möglicher,möglich,"possible, likely",possible,"möglich, möglicher, am möglichsten","möglich, möglicher, am möglichsten",möglicher,am möglichsten
-111,7,,klarer,klar,clear,clair,"klar, klarer, am klarsten","klar, klarer, am klarsten",klarer,am klarsten
-112,7,,schwerer,schwer,heavy,lourd,"schwer, schwerer, am schwersten","schwer, schwerer, am schwersten",schwerer,am schwersten
-113,7,,leichter,leicht,light,léger,"leicht, leichter, am leichtesten","leicht, leichter, am leichtesten",leichter,am leichtesten
-114,7,,stärker,stark,strong,fort,"stark, stärker, am stärksten","stark, stärker, am stärksten",stärker,am stärksten
-115,7,,schwächer,schwach,weak,faible,"schwach, schwächer, am schwächsten","schwach, schwächer, am schwächsten",schwächer,am schwächsten
-116,7,,fertiger,fertig,finished,fini,"fertig, fertiger, am fertigsten","fertig, fertiger, am fertigsten",fertiger,am fertigsten
-117,7,,kultureller,kulturell,cultural,culturel,"kulturell, kultureller, am kulturellsten","kulturell, kultureller, am kulturellsten",kultureller,am kulturellsten
-118,7,,aktueller,aktuell,current,actuel,"aktuell, aktueller, am aktuellsten","aktuell, aktueller, am aktuellsten",aktueller,am aktuellsten
-119,7,,dunkler,dunkel,dark,sombre,"dunkel, dunkler, am dunkelsten","dunkel, dunkler, am dunkelsten",dunkler,am dunkelsten
-120,7,,heller,hell,"bright, light, clear","clair, brillant","hell, heller, am hellsten","hell, heller, am hellsten",heller,am hellsten
-121,8,,voller,voll,"full, fully",plein,"voll, voller, am vollsten","voll, voller, am vollsten",voller,am vollsten
-122,8,,leerer,leer,empty,vide,"leer, leerer, am leersten","leer, leerer, am leersten",leerer,am leersten
-123,8,,breiter,breit,wide,large,"breit, breiter, am breitesten","breit, breiter, am breitesten",breiter,am breitesten
-124,8,,ruhiger,ruhig,"calm, quiet","calme, silencieux","ruhig, ruhiger, am ruhigsten","ruhig, ruhiger, am ruhigsten",ruhiger,am ruhigsten
-125,8,,lauter,laut,loud,fort,"laut, lauter, am lautesten","laut, lauter, am lautesten",lauter,am lautesten
-126,8,,zufriedener,zufrieden,satisfied,satisfait,"zufrieden, zufriedener, am zufriedensten","zufrieden, zufriedener, am zufriedensten",zufriedener,am zufriedensten
-127,8,,härter,hart,"hard, tough",dur,"hart, härter, am härtesten","hart, härter, am härtesten",härter,am härtesten
-128,8,,weicher,weich,soft,doux,"weich, weicher, am weichsten","weich, weicher, am weichsten",weicher,am weichsten
-129,8,,toller,toll,great,super,"toll, toller, am tollsten","toll, toller, am tollsten",toller,am tollsten
-130,8,,schrecklicher,schrecklich,terrible,terrible,"schrecklich, schrecklicher, am schrecklichsten","schrecklich, schrecklicher, am schrecklichsten",schrecklicher,am schrecklichsten
-131,8,,wunderbarer,wunderbar,wonderful,merveilleux,"wunderbar, wunderbarer, am wunderbarsten","wunderbar, wunderbarer, am wunderbarsten",wunderbarer,am wunderbarsten
-132,8,,häufiger,häufig,frequent,fréquent,"häufig, häufiger, am häufigsten","häufig, häufiger, am häufigsten",häufiger,am häufigsten
-133,8,,seltener,selten,rare,rare,"selten, seltener, am seltensten","selten, seltener, am seltensten",seltener,am seltensten
-134,8,,sicherer,sicher,"safe, secure","sûr, sécurisé","sicher, sicherer, am sichersten","sicher, sicherer, am sichersten",sicherer,am sichersten
-135,8,,kostenloser,kostenlos,free of charge,gratuit,"kostenlos, kostenloser, am kostenlosesten","kostenlos, kostenloser, am kostenlosesten",kostenloser,am kostenlosesten
-136,9,,ähnlicher,ähnlich,similar,similaire,"ähnlich, ähnlicher, am ähnlichsten","ähnlich, ähnlicher, am ähnlichsten",ähnlicher,am ähnlichsten
-137,9,,dicker,dick,"thick, fat, swollen",épais,"dick, dicker, am dicksten","dick, dicker, am dicksten",dicker,am dicksten
-138,9,,dünner,dünn,thin,mince,"dünn, dünner, am dünnsten","dünn, dünner, am dünnsten",dünner,am dünnsten
-139,9,,wärmer,warm,warm,"chaud, doux","warm, wärmer, am wärmsten","warm, wärmer, am wärmsten",wärmer,am wärmsten
-140,9,,kühler,kühl,cool,"frais, froid","kühl, kühler, am kühlsten","kühl, kühler, am kühlsten",kühler,am kühlsten
-141,9,,trockener,trocken,dry,sec,"trocken, trockener, am trockensten","trocken, trockener, am trockensten",trockener,am trockensten
-142,9,,nasser,nass,wet,"humide, mouillé","nass, nasser, am nassesten","nass, nasser, am nassesten",nasser,am nassesten
-143,9,,freundlicher,freundlich,friendly,amical,"freundlich, freundlicher, am freundlichsten","freundlich, freundlicher, am freundlichsten",freundlicher,am freundlichsten
-144,9,,interessanter,interessant,interesting,intéressant,"interessant, interessanter, am interessantesten","interessant, interessanter, am interessantesten",interessanter,am interessantesten
-145,9,,langweiliger,langweilig,boring,ennuyeux,"langweilig, langweiliger, am langweiligsten","langweilig, langweiliger, am langweiligsten",langweiliger,am langweiligsten
-146,9,,erfolgreicher,erfolgreich,successful,"réussi, prospère, fructueux","erfolgreich, erfolgreicher, am erfolgreichsten","erfolgreich, erfolgreicher, am erfolgreichsten",erfolgreicher,am erfolgreichsten
-147,9,,komischer,komisch,"strange, funny","étrange, drôle","komisch, komischer, am komischsten","komisch, komischer, am komischsten",komischer,am komischsten
-148,9,,fauler,faul,lazy,paresseux,"faul, fauler, am faulsten","faul, fauler, am faulsten",fauler,am faulsten
-149,9,,fleißiger,fleißig,hardworking,diligent,"fleißig, fleißiger, am fleißigsten","fleißig, fleißiger, am fleißigsten",fleißiger,am fleißigsten
-150,9,,sonniger,sonnig,sunny,ensoleillé,"sonnig, sonniger, am sonnigsten","sonnig, sonniger, am sonnigsten",sonniger,am sonnigsten
-151,9,,nebliger,neblig,foggy,brumeux,"neblig, nebliger, am nebligsten","neblig, nebliger, am nebligsten",nebliger,am nebligsten
-152,9,,windiger,windig,windy,venteux,"windig, windiger, am windigsten","windig, windiger, am windigsten",windiger,am windigsten
-153,10,,am kränksten,krank,sick,malade,"krank, kränker, am kränksten","krank, kränker, am kränksten",kränker,am kränksten
-154,10,,am braunsten,braun,brown,brun,"braun, brauner, am braunsten","braun, brauner, am braunsten",brauner,am braunsten
-155,10,,am deutschesten,deutsch,german,allemand,"deutsch, deutscher, am deutschesten","deutsch, deutscher, am deutschesten",deutscher,am deutschesten
-156,10,,am möglichsten,möglich,"possible, likely",possible,"möglich, möglicher, am möglichsten","möglich, möglicher, am möglichsten",möglicher,am möglichsten
-157,10,,am klarsten,klar,clear,clair,"klar, klarer, am klarsten","klar, klarer, am klarsten",klarer,am klarsten
-158,10,,am schwersten,schwer,heavy,lourd,"schwer, schwerer, am schwersten","schwer, schwerer, am schwersten",schwerer,am schwersten
-159,10,,am leichtesten,leicht,light,léger,"leicht, leichter, am leichtesten","leicht, leichter, am leichtesten",leichter,am leichtesten
-160,10,,am stärksten,stark,strong,fort,"stark, stärker, am stärksten","stark, stärker, am stärksten",stärker,am stärksten
-161,10,,am schwächsten,schwach,weak,faible,"schwach, schwächer, am schwächsten","schwach, schwächer, am schwächsten",schwächer,am schwächsten
-162,10,,am fertigsten,fertig,finished,fini,"fertig, fertiger, am fertigsten","fertig, fertiger, am fertigsten",fertiger,am fertigsten
-163,10,,am kulturellsten,kulturell,cultural,culturel,"kulturell, kultureller, am kulturellsten","kulturell, kultureller, am kulturellsten",kultureller,am kulturellsten
-164,10,,am aktuellsten,aktuell,current,actuel,"aktuell, aktueller, am aktuellsten","aktuell, aktueller, am aktuellsten",aktueller,am aktuellsten
-165,10,,am dunkelsten,dunkel,dark,sombre,"dunkel, dunkler, am dunkelsten","dunkel, dunkler, am dunkelsten",dunkler,am dunkelsten
-166,10,,am hellsten,hell,"bright, light, clear","clair, brillant","hell, heller, am hellsten","hell, heller, am hellsten",heller,am hellsten
-167,11,,am vollsten,voll,"full, fully",plein,"voll, voller, am vollsten","voll, voller, am vollsten",voller,am vollsten
-168,11,,am leersten,leer,empty,vide,"leer, leerer, am leersten","leer, leerer, am leersten",leerer,am leersten
-169,11,,am breitesten,breit,wide,large,"breit, breiter, am breitesten","breit, breiter, am breitesten",breiter,am breitesten
-170,11,,am ruhigsten,ruhig,"calm, quiet","calme, silencieux","ruhig, ruhiger, am ruhigsten","ruhig, ruhiger, am ruhigsten",ruhiger,am ruhigsten
-171,11,,am lautesten,laut,loud,fort,"laut, lauter, am lautesten","laut, lauter, am lautesten",lauter,am lautesten
-172,11,,am zufriedensten,zufrieden,satisfied,satisfait,"zufrieden, zufriedener, am zufriedensten","zufrieden, zufriedener, am zufriedensten",zufriedener,am zufriedensten
-173,11,,am härtesten,hart,"hard, tough",dur,"hart, härter, am härtesten","hart, härter, am härtesten",härter,am härtesten
-174,11,,am weichsten,weich,soft,doux,"weich, weicher, am weichsten","weich, weicher, am weichsten",weicher,am weichsten
-175,11,,am tollsten,toll,great,super,"toll, toller, am tollsten","toll, toller, am tollsten",toller,am tollsten
-176,11,,am schrecklichsten,schrecklich,terrible,terrible,"schrecklich, schrecklicher, am schrecklichsten","schrecklich, schrecklicher, am schrecklichsten",schrecklicher,am schrecklichsten
-177,11,,am wunderbarsten,wunderbar,wonderful,merveilleux,"wunderbar, wunderbarer, am wunderbarsten","wunderbar, wunderbarer, am wunderbarsten",wunderbarer,am wunderbarsten
-178,11,,am häufigsten,häufig,frequent,fréquent,"häufig, häufiger, am häufigsten","häufig, häufiger, am häufigsten",häufiger,am häufigsten
-179,11,,am seltensten,selten,rare,rare,"selten, seltener, am seltensten","selten, seltener, am seltensten",seltener,am seltensten
-180,11,,am sichersten,sicher,"safe, secure","sûr, sécurisé","sicher, sicherer, am sichersten","sicher, sicherer, am sichersten",sicherer,am sichersten
-181,11,,am kostenlosesten,kostenlos,free of charge,gratuit,"kostenlos, kostenloser, am kostenlosesten","kostenlos, kostenloser, am kostenlosesten",kostenloser,am kostenlosesten
-182,12,,am ähnlichsten,ähnlich,similar,similaire,"ähnlich, ähnlicher, am ähnlichsten","ähnlich, ähnlicher, am ähnlichsten",ähnlicher,am ähnlichsten
-183,12,,am dicksten,dick,"thick, fat, swollen",épais,"dick, dicker, am dicksten","dick, dicker, am dicksten",dicker,am dicksten
-184,12,,am dünnsten,dünn,thin,mince,"dünn, dünner, am dünnsten","dünn, dünner, am dünnsten",dünner,am dünnsten
-185,12,,am wärmsten,warm,warm,"chaud, doux","warm, wärmer, am wärmsten","warm, wärmer, am wärmsten",wärmer,am wärmsten
-186,12,,am kühlsten,kühl,cool,"frais, froid","kühl, kühler, am kühlsten","kühl, kühler, am kühlsten",kühler,am kühlsten
-187,12,,am trockensten,trocken,dry,sec,"trocken, trockener, am trockensten","trocken, trockener, am trockensten",trockener,am trockensten
-188,12,,am nassesten,nass,wet,"humide, mouillé","nass, nasser, am nassesten","nass, nasser, am nassesten",nasser,am nassesten
-189,12,,am freundlichsten,freundlich,friendly,amical,"freundlich, freundlicher, am freundlichsten","freundlich, freundlicher, am freundlichsten",freundlicher,am freundlichsten
-190,12,,am interessantesten,interessant,interesting,intéressant,"interessant, interessanter, am interessantesten","interessant, interessanter, am interessantesten",interessanter,am interessantesten
-191,12,,am langweiligsten,langweilig,boring,ennuyeux,"langweilig, langweiliger, am langweiligsten","langweilig, langweiliger, am langweiligsten",langweiliger,am langweiligsten
-192,12,,am erfolgreichsten,erfolgreich,successful,"réussi, prospère, fructueux","erfolgreich, erfolgreicher, am erfolgreichsten","erfolgreich, erfolgreicher, am erfolgreichsten",erfolgreicher,am erfolgreichsten
-193,12,,am komischsten,komisch,"strange, funny","étrange, drôle","komisch, komischer, am komischsten","komisch, komischer, am komischsten",komischer,am komischsten
-194,12,,am faulsten,faul,lazy,paresseux,"faul, fauler, am faulsten","faul, fauler, am faulsten",fauler,am faulsten
-195,12,,am fleißigsten,fleißig,hardworking,diligent,"fleißig, fleißiger, am fleißigsten","fleißig, fleißiger, am fleißigsten",fleißiger,am fleißigsten
-196,12,,am sonnigsten,sonnig,sunny,ensoleillé,"sonnig, sonniger, am sonnigsten","sonnig, sonniger, am sonnigsten",sonniger,am sonnigsten
-197,12,,am nebligsten,neblig,foggy,brumeux,"neblig, nebliger, am nebligsten","neblig, nebliger, am nebligsten",nebliger,am nebligsten
-198,12,,am windigsten,windig,windy,venteux,"windig, windiger, am windigsten","windig, windiger, am windigsten",windiger,am windigsten
+16,1,,wichtiger,wichtig,important,important,"wichtig, wichtiger, am wichtigsten","wichtig, wichtiger, am wichtigsten",wichtiger,am wichtigsten
+17,2,,höher,hoch,high,haut,"hoch, höher, am höchsten","hoch, höher, am höchsten",höher,am höchsten
+18,2,,niedriger,niedrig,low,bas,"niedrig, niedriger, am niedrigsten","niedrig, niedriger, am niedrigsten",niedriger,am niedrigsten
+19,2,,kürzer,kurz,short,court,"kurz, kürzer, am kürzesten","kurz, kürzer, am kürzesten",kürzer,am kürzesten
+20,2,,länger,lang,long,long,"lang, länger, am längsten","lang, länger, am längsten",länger,am längsten
+21,2,,roter,rot,red,rouge,"rot, roter, am rotesten","rot, roter, am rotesten",roter,am rotesten
+22,2,,schwärzer,schwarz,black,noir,"schwarz, schwärzer, am schwärzesten","schwarz, schwärzer, am schwärzesten",schwärzer,am schwärzesten
+23,2,,weißer,weiß,white,blanc,"weiß, weißer, am weißesten","weiß, weißer, am weißesten",weißer,am weißesten
+24,2,,blauer,blau,blue,bleu,"blau, blauer, am blausten","blau, blauer, am blausten",blauer,am blausten
+25,2,,grüner,grün,green,vert,"grün, grüner, am grünsten","grün, grüner, am grünsten",grüner,am grünsten
+26,2,,gelber,gelb,yellow,jaune,"gelb, gelber, am gelbsten","gelb, gelber, am gelbsten",gelber,am gelbsten
+27,2,,grauer,grau,grey,gris,"grau, grauer, am grausten","grau, grauer, am grausten",grauer,am grausten
+28,2,,freier,frei,free,libre,"frei, freier, am freiesten","frei, freier, am freiesten",freier,am freiesten
+29,2,,später,spät,late,"tard, en retard","spät, später, am spätesten","spät, später, am spätesten",später,am spätesten
+30,2,,früher,früh,early,tôt,"früh, früher, am frühesten","früh, früher, am frühesten",früher,am frühesten
+31,2,,billiger,billig,cheap,bon marché,"billig, billiger, am billigsten","billig, billiger, am billigsten",billiger,am billigsten
+32,2,,teurer,teuer,expensive,cher,"teuer, teurer, am teuersten","teuer, teurer, am teuersten",teurer,am teuersten
+33,2,,normaler,normal,normal,normale,"normal, normaler, am normalsten","normal, normaler, am normalsten",normaler,am normalsten
+34,2,,wahrer,wahr,true,vrai,"wahr, wahrer, am wahrsten","wahr, wahrer, am wahrsten",wahrer,am wahrsten
+35,2,,heißer,heiß,hot,chaud,"heiß, heißer, am heißesten","heiß, heißer, am heißesten",heißer,am heißesten
+36,2,,kälter,kalt,cold,froid,"kalt, kälter, am kältesten","kalt, kälter, am kältesten",kälter,am kältesten
+37,3,,glücklicher,glücklich,"happy, glad","heureux, content","glücklich, glücklicher, am glücklichsten","glücklich, glücklicher, am glücklichsten",glücklicher,am glücklichsten
+38,3,,trauriger,traurig,sad,triste,"traurig, trauriger, am traurigsten","traurig, trauriger, am traurigsten",trauriger,am traurigsten
+39,3,,mehr,viel,much,beaucoup,"viel, mehr, am meisten","viel, mehr, am meisten",mehr,am meisten
+40,3,,weniger,wenig,little,peu,"wenig, weniger, am wenigsten","wenig, weniger, am wenigsten",weniger,am wenigsten
+41,3,,reicher,reich,rich,riche,"reich, reicher, am reichsten","reich, reicher, am reichsten",reicher,am reichsten
+42,3,,ärmer,arm,poor,pauvre,"arm, ärmer, am ärmsten","arm, ärmer, am ärmsten",ärmer,am ärmsten
+43,3,,schmutziger,schmutzig,dirty,sale,"schmutzig, schmutziger, am schmutzigsten","schmutzig, schmutziger, am schmutzigsten",schmutziger,am schmutzigsten
+44,3,,sauberer,sauber,clean,propre,"sauber, sauberer, am saubersten","sauber, sauberer, am saubersten",sauberer,am saubersten
+45,3,,weiter,weit,far,loin,"weit, weiter, am weitesten","weit, weiter, am weitesten",weiter,am weitesten
+46,3,,näher,nah,"close, near","proche, près","nah, näher, am nächsten","nah, näher, am nächsten",näher,am nächsten
+47,3,,lustiger,lustig,funny,drôle,"lustig, lustiger, am lustigsten","lustig, lustiger, am lustigsten",lustiger,am lustigsten
+48,3,,netter,nett,nice,"bon, gentils","nett, netter, am nettesten","nett, netter, am nettesten",netter,am nettesten
+49,3,,gesünder,gesund,healthy,"sain, en bonne santé","gesund, gesünder, am gesündesten","gesund, gesünder, am gesündesten",gesünder,am gesündesten
+50,3,,müder,müde,tired,fatigué,"müde, müder, am müdesten","müde, müder, am müdesten",müder,am müdesten
+51,3,,dümmer,dumm,stupid,stupide,"dumm, dümmer, am dümmsten","dumm, dümmer, am dümmsten",dümmer,am dümmsten
+52,3,,klüger,klug,smart,intelligent,"klug, klüger, am klügsten","klug, klüger, am klügsten",klüger,am klügsten
+53,4,,am ältesten,alt,old,vieux,"alt, älter, am ältesten","alt, älter, am ältesten",älter,am ältesten
+54,4,,am jüngsten,jung,young,jeune,"jung, jünger, am jüngsten","jung, jünger, am jüngsten",jünger,am jüngsten
+55,4,,am neuesten,neu,new,nouveau,"neu, neuer, am neuesten","neu, neuer, am neuesten",neuer,am neuesten
+56,4,,am einfachsten,einfach,"easy, simple","facile, simple","einfach, einfacher, am einfachsten","einfach, einfacher, am einfachsten",einfacher,am einfachsten
+57,4,,am schwierigsten,schwierig,difficult,difficile,"schwierig, schwieriger, am schwierigsten","schwierig, schwieriger, am schwierigsten",schwieriger,am schwierigsten
+58,4,,am richtigsten,richtig,"right, correct","correct, juste","richtig, richtiger, am richtigsten","richtig, richtiger, am richtigsten",richtiger,am richtigsten
+59,4,,am falschesten,falsch,"false, wrong",faux,"falsch, falscher, am falschesten","falsch, falscher, am falschesten",falscher,am falschesten
+60,4,,am größten,groß,"big, tall",grand,"groß, größer, am größten","groß, größer, am größten",größer,am größten
+61,4,,am kleinsten,klein,small,petit,"klein, kleiner, am kleinsten","klein, kleiner, am kleinsten",kleiner,am kleinsten
+62,4,,am besten,gut,good,"bon, bien","gut, besser, am besten","gut, besser, am besten",besser,am besten
+63,4,,am schlechtesten,schlecht,bad,mauvais,"schlecht, schlechter, am schlechtesten","schlecht, schlechter, am schlechtesten",schlechter,am schlechtesten
+64,4,,am schnellsten,schnell,fast,rapide,"schnell, schneller, am schnellsten","schnell, schneller, am schnellsten",schneller,am schnellsten
+65,4,,am langsamsten,langsam,slow,lent,"langsam, langsamer, am langsamsten","langsam, langsamer, am langsamsten",langsamer,am langsamsten
+66,4,,am schönsten,schön,beautiful,beau,"schön, schöner, am schönsten","schön, schöner, am schönsten",schöner,am schönsten
+67,4,,am hässlichsten,hässlich,ugly,laid,"hässlich, hässlicher, am hässlichsten","hässlich, hässlicher, am hässlichsten",hässlicher,am hässlichsten
+68,4,,am wichtigsten,wichtig,important,important,"wichtig, wichtiger, am wichtigsten","wichtig, wichtiger, am wichtigsten",wichtiger,am wichtigsten
+69,5,,am höchsten,hoch,high,haut,"hoch, höher, am höchsten","hoch, höher, am höchsten",höher,am höchsten
+70,5,,am niedrigsten,niedrig,low,bas,"niedrig, niedriger, am niedrigsten","niedrig, niedriger, am niedrigsten",niedriger,am niedrigsten
+71,5,,am kürzesten,kurz,short,court,"kurz, kürzer, am kürzesten","kurz, kürzer, am kürzesten",kürzer,am kürzesten
+72,5,,am längsten,lang,long,long,"lang, länger, am längsten","lang, länger, am längsten",länger,am längsten
+73,5,,am rotesten,rot,red,rouge,"rot, roter, am rotesten","rot, roter, am rotesten",roter,am rotesten
+74,5,,am schwärzesten,schwarz,black,noir,"schwarz, schwärzer, am schwärzesten","schwarz, schwärzer, am schwärzesten",schwärzer,am schwärzesten
+75,5,,am weißesten,weiß,white,blanc,"weiß, weißer, am weißesten","weiß, weißer, am weißesten",weißer,am weißesten
+76,5,,am blausten,blau,blue,bleu,"blau, blauer, am blausten","blau, blauer, am blausten",blauer,am blausten
+77,5,,am grünsten,grün,green,vert,"grün, grüner, am grünsten","grün, grüner, am grünsten",grüner,am grünsten
+78,5,,am gelbsten,gelb,yellow,jaune,"gelb, gelber, am gelbsten","gelb, gelber, am gelbsten",gelber,am gelbsten
+79,5,,am grausten,grau,grey,gris,"grau, grauer, am grausten","grau, grauer, am grausten",grauer,am grausten
+80,5,,am freiesten,frei,free,libre,"frei, freier, am freiesten","frei, freier, am freiesten",freier,am freiesten
+81,5,,am spätesten,spät,late,"tard, en retard","spät, später, am spätesten","spät, später, am spätesten",später,am spätesten
+82,5,,am frühesten,früh,early,tôt,"früh, früher, am frühesten","früh, früher, am frühesten",früher,am frühesten
+83,5,,am billigsten,billig,cheap,bon marché,"billig, billiger, am billigsten","billig, billiger, am billigsten",billiger,am billigsten
+84,5,,am teuersten,teuer,expensive,cher,"teuer, teurer, am teuersten","teuer, teurer, am teuersten",teurer,am teuersten
+85,5,,am normalsten,normal,normal,normale,"normal, normaler, am normalsten","normal, normaler, am normalsten",normaler,am normalsten
+86,5,,am wahrsten,wahr,true,vrai,"wahr, wahrer, am wahrsten","wahr, wahrer, am wahrsten",wahrer,am wahrsten
+87,5,,am heißesten,heiß,hot,chaud,"heiß, heißer, am heißesten","heiß, heißer, am heißesten",heißer,am heißesten
+88,5,,am kältesten,kalt,cold,froid,"kalt, kälter, am kältesten","kalt, kälter, am kältesten",kälter,am kältesten
+89,6,,am glücklichsten,glücklich,"happy, glad","heureux, content","glücklich, glücklicher, am glücklichsten","glücklich, glücklicher, am glücklichsten",glücklicher,am glücklichsten
+90,6,,am traurigsten,traurig,sad,triste,"traurig, trauriger, am traurigsten","traurig, trauriger, am traurigsten",trauriger,am traurigsten
+91,6,,am meisten,viel,much,beaucoup,"viel, mehr, am meisten","viel, mehr, am meisten",mehr,am meisten
+92,6,,am wenigsten,wenig,little,peu,"wenig, weniger, am wenigsten","wenig, weniger, am wenigsten",weniger,am wenigsten
+93,6,,am reichsten,reich,rich,riche,"reich, reicher, am reichsten","reich, reicher, am reichsten",reicher,am reichsten
+94,6,,am ärmsten,arm,poor,pauvre,"arm, ärmer, am ärmsten","arm, ärmer, am ärmsten",ärmer,am ärmsten
+95,6,,am schmutzigsten,schmutzig,dirty,sale,"schmutzig, schmutziger, am schmutzigsten","schmutzig, schmutziger, am schmutzigsten",schmutziger,am schmutzigsten
+96,6,,am saubersten,sauber,clean,propre,"sauber, sauberer, am saubersten","sauber, sauberer, am saubersten",sauberer,am saubersten
+97,6,,am weitesten,weit,far,loin,"weit, weiter, am weitesten","weit, weiter, am weitesten",weiter,am weitesten
+98,6,,am nächsten,nah,"close, near","proche, près","nah, näher, am nächsten","nah, näher, am nächsten",näher,am nächsten
+99,6,,am lustigsten,lustig,funny,drôle,"lustig, lustiger, am lustigsten","lustig, lustiger, am lustigsten",lustiger,am lustigsten
+100,6,,am nettesten,nett,nice,"bon, gentils","nett, netter, am nettesten","nett, netter, am nettesten",netter,am nettesten
+101,6,,am gesündesten,gesund,healthy,"sain, en bonne santé","gesund, gesünder, am gesündesten","gesund, gesünder, am gesündesten",gesünder,am gesündesten
+102,6,,am müdesten,müde,tired,fatigué,"müde, müder, am müdesten","müde, müder, am müdesten",müder,am müdesten
+103,6,,am dümmsten,dumm,stupid,stupide,"dumm, dümmer, am dümmsten","dumm, dümmer, am dümmsten",dümmer,am dümmsten
+104,6,,am klügsten,klug,smart,intelligent,"klug, klüger, am klügsten","klug, klüger, am klügsten",klüger,am klügsten
+105,7,,kränker,krank,sick,malade,"krank, kränker, am kränksten","krank, kränker, am kränksten",kränker,am kränksten
+106,7,,brauner,braun,brown,brun,"braun, brauner, am braunsten","braun, brauner, am braunsten",brauner,am braunsten
+107,7,,deutscher,deutsch,german,allemand,"deutsch, deutscher, am deutschesten","deutsch, deutscher, am deutschesten",deutscher,am deutschesten
+108,7,,möglicher,möglich,"possible, likely",possible,"möglich, möglicher, am möglichsten","möglich, möglicher, am möglichsten",möglicher,am möglichsten
+109,7,,klarer,klar,clear,clair,"klar, klarer, am klarsten","klar, klarer, am klarsten",klarer,am klarsten
+110,7,,schwerer,schwer,heavy,lourd,"schwer, schwerer, am schwersten","schwer, schwerer, am schwersten",schwerer,am schwersten
+111,7,,leichter,leicht,light,léger,"leicht, leichter, am leichtesten","leicht, leichter, am leichtesten",leichter,am leichtesten
+112,7,,stärker,stark,strong,fort,"stark, stärker, am stärksten","stark, stärker, am stärksten",stärker,am stärksten
+113,7,,schwächer,schwach,weak,faible,"schwach, schwächer, am schwächsten","schwach, schwächer, am schwächsten",schwächer,am schwächsten
+114,7,,fertiger,fertig,finished,fini,"fertig, fertiger, am fertigsten","fertig, fertiger, am fertigsten",fertiger,am fertigsten
+115,7,,kultureller,kulturell,cultural,culturel,"kulturell, kultureller, am kulturellsten","kulturell, kultureller, am kulturellsten",kultureller,am kulturellsten
+116,7,,aktueller,aktuell,current,actuel,"aktuell, aktueller, am aktuellsten","aktuell, aktueller, am aktuellsten",aktueller,am aktuellsten
+117,7,,dunkler,dunkel,dark,sombre,"dunkel, dunkler, am dunkelsten","dunkel, dunkler, am dunkelsten",dunkler,am dunkelsten
+118,7,,heller,hell,"bright, light, clear","clair, brillant","hell, heller, am hellsten","hell, heller, am hellsten",heller,am hellsten
+119,8,,voller,voll,"full, fully",plein,"voll, voller, am vollsten","voll, voller, am vollsten",voller,am vollsten
+120,8,,leerer,leer,empty,vide,"leer, leerer, am leersten","leer, leerer, am leersten",leerer,am leersten
+121,8,,breiter,breit,wide,large,"breit, breiter, am breitesten","breit, breiter, am breitesten",breiter,am breitesten
+122,8,,ruhiger,ruhig,"calm, quiet","calme, silencieux","ruhig, ruhiger, am ruhigsten","ruhig, ruhiger, am ruhigsten",ruhiger,am ruhigsten
+123,8,,lauter,laut,loud,fort,"laut, lauter, am lautesten","laut, lauter, am lautesten",lauter,am lautesten
+124,8,,zufriedener,zufrieden,satisfied,satisfait,"zufrieden, zufriedener, am zufriedensten","zufrieden, zufriedener, am zufriedensten",zufriedener,am zufriedensten
+125,8,,härter,hart,"hard, tough",dur,"hart, härter, am härtesten","hart, härter, am härtesten",härter,am härtesten
+126,8,,weicher,weich,soft,doux,"weich, weicher, am weichsten","weich, weicher, am weichsten",weicher,am weichsten
+127,8,,toller,toll,great,super,"toll, toller, am tollsten","toll, toller, am tollsten",toller,am tollsten
+128,8,,schrecklicher,schrecklich,terrible,terrible,"schrecklich, schrecklicher, am schrecklichsten","schrecklich, schrecklicher, am schrecklichsten",schrecklicher,am schrecklichsten
+129,8,,wunderbarer,wunderbar,wonderful,merveilleux,"wunderbar, wunderbarer, am wunderbarsten","wunderbar, wunderbarer, am wunderbarsten",wunderbarer,am wunderbarsten
+130,8,,häufiger,häufig,frequent,fréquent,"häufig, häufiger, am häufigsten","häufig, häufiger, am häufigsten",häufiger,am häufigsten
+131,8,,seltener,selten,rare,rare,"selten, seltener, am seltensten","selten, seltener, am seltensten",seltener,am seltensten
+132,8,,sicherer,sicher,"safe, secure","sûr, sécurisé","sicher, sicherer, am sichersten","sicher, sicherer, am sichersten",sicherer,am sichersten
+133,8,,kostenloser,kostenlos,free of charge,gratuit,"kostenlos, kostenloser, am kostenlosesten","kostenlos, kostenloser, am kostenlosesten",kostenloser,am kostenlosesten
+134,9,,ähnlicher,ähnlich,similar,similaire,"ähnlich, ähnlicher, am ähnlichsten","ähnlich, ähnlicher, am ähnlichsten",ähnlicher,am ähnlichsten
+135,9,,dicker,dick,"thick, fat, swollen",épais,"dick, dicker, am dicksten","dick, dicker, am dicksten",dicker,am dicksten
+136,9,,dünner,dünn,thin,mince,"dünn, dünner, am dünnsten","dünn, dünner, am dünnsten",dünner,am dünnsten
+137,9,,wärmer,warm,warm,"chaud, doux","warm, wärmer, am wärmsten","warm, wärmer, am wärmsten",wärmer,am wärmsten
+138,9,,kühler,kühl,cool,"frais, froid","kühl, kühler, am kühlsten","kühl, kühler, am kühlsten",kühler,am kühlsten
+139,9,,trockener,trocken,dry,sec,"trocken, trockener, am trockensten","trocken, trockener, am trockensten",trockener,am trockensten
+140,9,,nasser,nass,wet,"humide, mouillé","nass, nasser, am nassesten","nass, nasser, am nassesten",nasser,am nassesten
+141,9,,freundlicher,freundlich,friendly,amical,"freundlich, freundlicher, am freundlichsten","freundlich, freundlicher, am freundlichsten",freundlicher,am freundlichsten
+142,9,,interessanter,interessant,interesting,intéressant,"interessant, interessanter, am interessantesten","interessant, interessanter, am interessantesten",interessanter,am interessantesten
+143,9,,langweiliger,langweilig,boring,ennuyeux,"langweilig, langweiliger, am langweiligsten","langweilig, langweiliger, am langweiligsten",langweiliger,am langweiligsten
+144,9,,erfolgreicher,erfolgreich,successful,"réussi, prospère, fructueux","erfolgreich, erfolgreicher, am erfolgreichsten","erfolgreich, erfolgreicher, am erfolgreichsten",erfolgreicher,am erfolgreichsten
+145,9,,komischer,komisch,"strange, funny","étrange, drôle","komisch, komischer, am komischsten","komisch, komischer, am komischsten",komischer,am komischsten
+146,9,,fauler,faul,lazy,paresseux,"faul, fauler, am faulsten","faul, fauler, am faulsten",fauler,am faulsten
+147,9,,fleißiger,fleißig,hardworking,diligent,"fleißig, fleißiger, am fleißigsten","fleißig, fleißiger, am fleißigsten",fleißiger,am fleißigsten
+148,9,,sonniger,sonnig,sunny,ensoleillé,"sonnig, sonniger, am sonnigsten","sonnig, sonniger, am sonnigsten",sonniger,am sonnigsten
+149,9,,nebliger,neblig,foggy,brumeux,"neblig, nebliger, am nebligsten","neblig, nebliger, am nebligsten",nebliger,am nebligsten
+150,9,,windiger,windig,windy,venteux,"windig, windiger, am windigsten","windig, windiger, am windigsten",windiger,am windigsten
+151,10,,am kränksten,krank,sick,malade,"krank, kränker, am kränksten","krank, kränker, am kränksten",kränker,am kränksten
+152,10,,am braunsten,braun,brown,brun,"braun, brauner, am braunsten","braun, brauner, am braunsten",brauner,am braunsten
+153,10,,am deutschesten,deutsch,german,allemand,"deutsch, deutscher, am deutschesten","deutsch, deutscher, am deutschesten",deutscher,am deutschesten
+154,10,,am möglichsten,möglich,"possible, likely",possible,"möglich, möglicher, am möglichsten","möglich, möglicher, am möglichsten",möglicher,am möglichsten
+155,10,,am klarsten,klar,clear,clair,"klar, klarer, am klarsten","klar, klarer, am klarsten",klarer,am klarsten
+156,10,,am schwersten,schwer,heavy,lourd,"schwer, schwerer, am schwersten","schwer, schwerer, am schwersten",schwerer,am schwersten
+157,10,,am leichtesten,leicht,light,léger,"leicht, leichter, am leichtesten","leicht, leichter, am leichtesten",leichter,am leichtesten
+158,10,,am stärksten,stark,strong,fort,"stark, stärker, am stärksten","stark, stärker, am stärksten",stärker,am stärksten
+159,10,,am schwächsten,schwach,weak,faible,"schwach, schwächer, am schwächsten","schwach, schwächer, am schwächsten",schwächer,am schwächsten
+160,10,,am fertigsten,fertig,finished,fini,"fertig, fertiger, am fertigsten","fertig, fertiger, am fertigsten",fertiger,am fertigsten
+161,10,,am kulturellsten,kulturell,cultural,culturel,"kulturell, kultureller, am kulturellsten","kulturell, kultureller, am kulturellsten",kultureller,am kulturellsten
+162,10,,am aktuellsten,aktuell,current,actuel,"aktuell, aktueller, am aktuellsten","aktuell, aktueller, am aktuellsten",aktueller,am aktuellsten
+163,10,,am dunkelsten,dunkel,dark,sombre,"dunkel, dunkler, am dunkelsten","dunkel, dunkler, am dunkelsten",dunkler,am dunkelsten
+164,10,,am hellsten,hell,"bright, light, clear","clair, brillant","hell, heller, am hellsten","hell, heller, am hellsten",heller,am hellsten
+165,11,,am vollsten,voll,"full, fully",plein,"voll, voller, am vollsten","voll, voller, am vollsten",voller,am vollsten
+166,11,,am leersten,leer,empty,vide,"leer, leerer, am leersten","leer, leerer, am leersten",leerer,am leersten
+167,11,,am breitesten,breit,wide,large,"breit, breiter, am breitesten","breit, breiter, am breitesten",breiter,am breitesten
+168,11,,am ruhigsten,ruhig,"calm, quiet","calme, silencieux","ruhig, ruhiger, am ruhigsten","ruhig, ruhiger, am ruhigsten",ruhiger,am ruhigsten
+169,11,,am lautesten,laut,loud,fort,"laut, lauter, am lautesten","laut, lauter, am lautesten",lauter,am lautesten
+170,11,,am zufriedensten,zufrieden,satisfied,satisfait,"zufrieden, zufriedener, am zufriedensten","zufrieden, zufriedener, am zufriedensten",zufriedener,am zufriedensten
+171,11,,am härtesten,hart,"hard, tough",dur,"hart, härter, am härtesten","hart, härter, am härtesten",härter,am härtesten
+172,11,,am weichsten,weich,soft,doux,"weich, weicher, am weichsten","weich, weicher, am weichsten",weicher,am weichsten
+173,11,,am tollsten,toll,great,super,"toll, toller, am tollsten","toll, toller, am tollsten",toller,am tollsten
+174,11,,am schrecklichsten,schrecklich,terrible,terrible,"schrecklich, schrecklicher, am schrecklichsten","schrecklich, schrecklicher, am schrecklichsten",schrecklicher,am schrecklichsten
+175,11,,am wunderbarsten,wunderbar,wonderful,merveilleux,"wunderbar, wunderbarer, am wunderbarsten","wunderbar, wunderbarer, am wunderbarsten",wunderbarer,am wunderbarsten
+176,11,,am häufigsten,häufig,frequent,fréquent,"häufig, häufiger, am häufigsten","häufig, häufiger, am häufigsten",häufiger,am häufigsten
+177,11,,am seltensten,selten,rare,rare,"selten, seltener, am seltensten","selten, seltener, am seltensten",seltener,am seltensten
+178,11,,am sichersten,sicher,"safe, secure","sûr, sécurisé","sicher, sicherer, am sichersten","sicher, sicherer, am sichersten",sicherer,am sichersten
+179,11,,am kostenlosesten,kostenlos,free of charge,gratuit,"kostenlos, kostenloser, am kostenlosesten","kostenlos, kostenloser, am kostenlosesten",kostenloser,am kostenlosesten
+180,12,,am ähnlichsten,ähnlich,similar,similaire,"ähnlich, ähnlicher, am ähnlichsten","ähnlich, ähnlicher, am ähnlichsten",ähnlicher,am ähnlichsten
+181,12,,am dicksten,dick,"thick, fat, swollen",épais,"dick, dicker, am dicksten","dick, dicker, am dicksten",dicker,am dicksten
+182,12,,am dünnsten,dünn,thin,mince,"dünn, dünner, am dünnsten","dünn, dünner, am dünnsten",dünner,am dünnsten
+183,12,,am wärmsten,warm,warm,"chaud, doux","warm, wärmer, am wärmsten","warm, wärmer, am wärmsten",wärmer,am wärmsten
+184,12,,am kühlsten,kühl,cool,"frais, froid","kühl, kühler, am kühlsten","kühl, kühler, am kühlsten",kühler,am kühlsten
+185,12,,am trockensten,trocken,dry,sec,"trocken, trockener, am trockensten","trocken, trockener, am trockensten",trockener,am trockensten
+186,12,,am nassesten,nass,wet,"humide, mouillé","nass, nasser, am nassesten","nass, nasser, am nassesten",nasser,am nassesten
+187,12,,am freundlichsten,freundlich,friendly,amical,"freundlich, freundlicher, am freundlichsten","freundlich, freundlicher, am freundlichsten",freundlicher,am freundlichsten
+188,12,,am interessantesten,interessant,interesting,intéressant,"interessant, interessanter, am interessantesten","interessant, interessanter, am interessantesten",interessanter,am interessantesten
+189,12,,am langweiligsten,langweilig,boring,ennuyeux,"langweilig, langweiliger, am langweiligsten","langweilig, langweiliger, am langweiligsten",langweiliger,am langweiligsten
+190,12,,am erfolgreichsten,erfolgreich,successful,"réussi, prospère, fructueux","erfolgreich, erfolgreicher, am erfolgreichsten","erfolgreich, erfolgreicher, am erfolgreichsten",erfolgreicher,am erfolgreichsten
+191,12,,am komischsten,komisch,"strange, funny","étrange, drôle","komisch, komischer, am komischsten","komisch, komischer, am komischsten",komischer,am komischsten
+192,12,,am faulsten,faul,lazy,paresseux,"faul, fauler, am faulsten","faul, fauler, am faulsten",fauler,am faulsten
+193,12,,am fleißigsten,fleißig,hardworking,diligent,"fleißig, fleißiger, am fleißigsten","fleißig, fleißiger, am fleißigsten",fleißiger,am fleißigsten
+194,12,,am sonnigsten,sonnig,sunny,ensoleillé,"sonnig, sonniger, am sonnigsten","sonnig, sonniger, am sonnigsten",sonniger,am sonnigsten
+195,12,,am nebligsten,neblig,foggy,brumeux,"neblig, nebliger, am nebligsten","neblig, nebliger, am nebligsten",nebliger,am nebligsten
+196,12,,am windigsten,windig,windy,venteux,"windig, windiger, am windigsten","windig, windiger, am windigsten",windiger,am windigsten

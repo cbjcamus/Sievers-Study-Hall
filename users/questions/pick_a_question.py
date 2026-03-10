@@ -4,7 +4,8 @@ from flask import session, request
 from flask_login import current_user
 
 from data.data_processing.units import adverbien, konnektoren, fragen, trennbare_verben, praepositionen_verben, \
-    praepositionen_adjektive, praepositionen_nomen, adjektive
+    praepositionen_adjektive, praepositionen_nomen, adjektive, adjektive_nomen_wortstaemme, \
+    adjektive_verben_wortstaemme, nomen_verben_wortstaemme
 
 from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level)
 from data.data_processing.exercise_type import get_answer_column, get_question_column, is_exercise_multiple_choice
@@ -172,7 +173,8 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
         else:
             return None
 
-    elif unit in [konnektoren, adverbien, fragen, trennbare_verben, adjektive]:
+    elif unit in [konnektoren, adverbien, fragen, trennbare_verben, adjektive,
+                  adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
         data = load_data_unit(unit)
         language = get_language(request, session)
 

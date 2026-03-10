@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_artikel,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 INTRODUCTION_FR = {
@@ -34,6 +34,9 @@ INTRODUCTION_FR = {
         "<br>&bull; Prépositions suivies par le Datif: Aus, Bei, Mit, Seit, Nach, Von, Zu"
         "<br>&bull; Prépositions suivies par l'Accusatif ou le Datif: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
         "<br>&bull; Prépositions suivies par le Génitif: Anstatt, Außerhalb, Innerhalb, Laut, Trotz, Während, Wegen"
+    ,
+    pronominaladverbien:
+        "Adverbes pronominaux en <i>Da-</i> et en <i>Wo-</i>"
     ,
 
     artikel:
@@ -78,6 +81,12 @@ INTRODUCTION_FR = {
     ,
     adjektive_konjunktionen:
         "Conjonctions et Constructions pour adjectifs tels que <i>wie</i>, <i>als</i> et <i>so</i>."
+    ,
+    adjektive_verben_wortstaemme:
+        "Paires Adjectif-Verbe avec la même racine étymologique."
+    ,
+    adjektive_nomen_wortstaemme:
+        "Paires Adjectif-Nom commun avec la même racine étymologique."
     ,
 
     verben:

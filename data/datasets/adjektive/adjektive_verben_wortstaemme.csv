@@ -1,0 +1,528 @@
+Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root_english,french,root_french,adjective_german,adjective_english,adjective_french,verb_german,verb_english,verb_french
+1,1,A2,A2,A1,mögen,möglich,,"possible, likely",to like,possible,"aimer, apprécier",möglich,"possible, likely",possible,mögen,to like,"aimer, apprécier"
+2,1,A2,A2,A1,kosten,kostenlos,,free of charge,"to cost, to taste",gratuit,coûter,kostenlos,free of charge,gratuit,kosten,"to cost, to taste",coûter
+3,1,A2,A2,A1,interessieren,interessant,,interesting,"to interest, to be interested in (refl.)",intéressant,"intéresser, être intéressé par (réfl.)",interessant,interesting,intéressant,interessieren,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)"
+4,1,A2,A2,A2,veröffentlichen,öffentlich,,public,"to publish, to release",publique,"publier, diffuser",öffentlich,public,publique,veröffentlichen,"to publish, to release","publier, diffuser"
+5,1,B1,A1,B1,richten,richtig,,"right, correct","to direct, to adjust, to focus, to judge","correct, juste","diriger, ajuster, focaliser, juger",richtig,"right, correct","correct, juste",richten,"to direct, to adjust, to focus, to judge","diriger, ajuster, focaliser, juger"
+6,1,B1,A1,B1,erhöhen,hoch,,high,"to increase, to raise, to enhance",haut,"augmenter, élever, rehausser",hoch,high,haut,erhöhen,"to increase, to raise, to enhance","augmenter, élever, rehausser"
+7,1,B1,A1,B1,erweitern,weit,,far,"to expand, to broaden, to widen, to extend",loin,"étendre, élargir, étendre",weit,far,loin,erweitern,"to expand, to broaden, to widen, to extend","étendre, élargir, étendre"
+8,1,B1,A2,B1,klären,klar,,clear,"to clarify, to resolve, to clear up",clair,"clarifier, résoudre, éclaircir",klar,clear,clair,klären,"to clarify, to resolve, to clear up","clarifier, résoudre, éclaircir"
+9,1,B1,A2,B1,sichern,sicher,,"safe, secure","to secure, to safeguard, to back up","sûr, sécurisé","sécuriser, sauvegarder",sicher,"safe, secure","sûr, sécurisé",sichern,"to secure, to safeguard, to back up","sécuriser, sauvegarder"
+10,1,B1,B1,B1,nutzen,nutzlos,,useless,"to use, to utilize, to benefit from",inutile,"utiliser, exploiter, bénéficier de",nutzlos,useless,inutile,nutzen,"to use, to utilize, to benefit from","utiliser, exploiter, bénéficier de"
+11,1,B1,B1,B1,nutzen,nützlich,,useful,"to use, to utilize, to benefit from",utile,"utiliser, exploiter, bénéficier de",nützlich,useful,utile,nutzen,"to use, to utilize, to benefit from","utiliser, exploiter, bénéficier de"
+12,1,B1,B1,B1,töten,tot,,dead,"to kill, to slay",mort,"tuer, égorger",tot,dead,mort,töten,"to kill, to slay","tuer, égorger"
+13,1,B1,B1,A1,lieben,lieb,,lovely,to love,"cher, gentil","aimer, être amoureux de",lieb,lovely,"cher, gentil",lieben,to love,"aimer, être amoureux de"
+14,1,B1,B1,A1,arbeiten,arbeitslos,,unemployed,to work,"sans emploi, au chômage",travailler,arbeitslos,unemployed,"sans emploi, au chômage",arbeiten,to work,travailler
+15,1,B1,B1,A1,sehen,sichtbar,,visible,"to see, to realise",visible,"voir, se rendre compte",sichtbar,visible,visible,sehen,"to see, to realise","voir, se rendre compte"
+16,2,A2,A2,A1,möglich,mögen,,to like,"possible, likely","aimer, apprécier",possible,möglich,"possible, likely",possible,mögen,to like,"aimer, apprécier"
+17,2,A2,A2,A1,kostenlos,kosten,,"to cost, to taste",free of charge,coûter,gratuit,kostenlos,free of charge,gratuit,kosten,"to cost, to taste",coûter
+18,2,A2,A2,A1,interessant,interessieren,,"to interest, to be interested in (refl.)",interesting,"intéresser, être intéressé par (réfl.)",intéressant,interessant,interesting,intéressant,interessieren,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)"
+19,2,A2,A2,A2,öffentlich,veröffentlichen,,"to publish, to release",public,"publier, diffuser",publique,öffentlich,public,publique,veröffentlichen,"to publish, to release","publier, diffuser"
+20,2,B1,A1,B1,richtig,richten,,"to direct, to adjust, to focus, to judge","right, correct","diriger, ajuster, focaliser, juger","correct, juste",richtig,"right, correct","correct, juste",richten,"to direct, to adjust, to focus, to judge","diriger, ajuster, focaliser, juger"
+21,2,B1,A1,B1,hoch,erhöhen,,"to increase, to raise, to enhance",high,"augmenter, élever, rehausser",haut,hoch,high,haut,erhöhen,"to increase, to raise, to enhance","augmenter, élever, rehausser"
+22,2,B1,A1,B1,weit,erweitern,,"to expand, to broaden, to widen, to extend",far,"étendre, élargir, étendre",loin,weit,far,loin,erweitern,"to expand, to broaden, to widen, to extend","étendre, élargir, étendre"
+23,2,B1,A2,B1,klar,klären,,"to clarify, to resolve, to clear up",clear,"clarifier, résoudre, éclaircir",clair,klar,clear,clair,klären,"to clarify, to resolve, to clear up","clarifier, résoudre, éclaircir"
+24,2,B1,A2,B1,sicher,sichern,,"to secure, to safeguard, to back up","safe, secure","sécuriser, sauvegarder","sûr, sécurisé",sicher,"safe, secure","sûr, sécurisé",sichern,"to secure, to safeguard, to back up","sécuriser, sauvegarder"
+25,2,B1,B1,B1,nutzlos,nutzen,,"to use, to utilize, to benefit from",useless,"utiliser, exploiter, bénéficier de",inutile,nutzlos,useless,inutile,nutzen,"to use, to utilize, to benefit from","utiliser, exploiter, bénéficier de"
+26,2,B1,B1,B1,nützlich,nutzen,,"to use, to utilize, to benefit from",useful,"utiliser, exploiter, bénéficier de",utile,nützlich,useful,utile,nutzen,"to use, to utilize, to benefit from","utiliser, exploiter, bénéficier de"
+27,2,B1,B1,B1,tot,töten,,"to kill, to slay",dead,"tuer, égorger",mort,tot,dead,mort,töten,"to kill, to slay","tuer, égorger"
+28,2,B1,B1,A1,lieb,lieben,,to love,lovely,"aimer, être amoureux de","cher, gentil",lieb,lovely,"cher, gentil",lieben,to love,"aimer, être amoureux de"
+29,2,B1,B1,A1,arbeitslos,arbeiten,,to work,unemployed,travailler,"sans emploi, au chômage",arbeitslos,unemployed,"sans emploi, au chômage",arbeiten,to work,travailler
+30,2,B1,B1,A1,sichtbar,sehen,,"to see, to realise",visible,"voir, se rendre compte",visible,sichtbar,visible,visible,sehen,"to see, to realise","voir, se rendre compte"
+31,3,B1,B1,A1,stehen,ständig,,constant,"to stand, to be, to appear",constante,"être debout, apparaître",ständig,constant,constante,stehen,"to stand, to be, to appear","être debout, apparaître"
+32,3,B1,B1,A1,zahlen,zahlreich,,numerous,"to pay (for something), to atone for",nombreux,"payer (pour quelque chose), expier",zahlreich,numerous,nombreux,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier"
+33,3,B1,B1,B1,üben,üblich,,usual,"to practice, to exercise, to rehearse",habituel,"pratiquer, s'exercer, répéter",üblich,usual,habituel,üben,"to practice, to exercise, to rehearse","pratiquer, s'exercer, répéter"
+34,3,B1,B1,B1,gelten,gültig,,valid,"to apply, to be valid, to count",valide,"appliquer, être valide, compter",gültig,valid,valide,gelten,"to apply, to be valid, to count","appliquer, être valide, compter"
+35,3,B1,B1,A2,merken,aufmerksam,,attentive,"to notice, to realise, to remember (refl.)",attentif,"remarquer, se rendre compte, se souvenir (réfl.)",aufmerksam,attentive,attentif,merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)"
+36,3,B1,B1,A2,antworten,verantwortlich,,responsible,"to answer, to reply",responsable,"répondre, répliquer",verantwortlich,responsible,responsable,antworten,"to answer, to reply","répondre, répliquer"
+37,3,B1,B1,B1,fürchten,furchtbar,,terrible,"to fear, to be afraid of",terrible,avoir peur de,furchtbar,terrible,terrible,fürchten,"to fear, to be afraid of",avoir peur de
+38,3,B1,B1,A2,danken,dankbar,,grateful,to thank,reconnaissant,remercier,dankbar,grateful,reconnaissant,danken,to thank,remercier
+39,3,B1,B1,B1,ärgern,ärgerlich,,annoying,"to annoy, to irritate, to anger",ennuyeux,"irriter, mettre en colère",ärgerlich,annoying,ennuyeux,ärgern,"to annoy, to irritate, to anger","irriter, mettre en colère"
+40,3,B1,B1,B1,scheiden,geschieden,,"separated, divorced","to separate, to divorce, to part","séparé, divorcé","se séparer, divorcer",geschieden,"separated, divorced","séparé, divorcé",scheiden,"to separate, to divorce, to part","se séparer, divorcer"
+41,3,B1,B1,A1,öffnen,offen,,"open, honest",to open,"ouvert, franc",ouvrir,offen,"open, honest","ouvert, franc",öffnen,to open,ouvrir
+42,3,B1,B1,A2,schließen,geschlossen,,closed,"to shut, to close, to lock, to conclude",fermé,"fermer, clore, verrouiller, conclure",geschlossen,closed,fermé,schließen,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure"
+43,3,B1,B1,A2,freuen,froh,,"happy, glad","to make glad, to be glad (refl.), to look forward (refl.)","heureux, content","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)",froh,"happy, glad","heureux, content",freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
+44,3,B1,B1,A1,scheinen,wahrscheinlich,,"possible, likely","to shine, to seem (formal)",possible,"briller, paraître (formel)",wahrscheinlich,"possible, likely",possible,scheinen,"to shine, to seem (formal)","briller, paraître (formel)"
+45,4,B1,B1,A1,ständig,stehen,,"to stand, to be, to appear",constant,"être debout, apparaître",constante,ständig,constant,constante,stehen,"to stand, to be, to appear","être debout, apparaître"
+46,4,B1,B1,A1,zahlreich,zahlen,,"to pay (for something), to atone for",numerous,"payer (pour quelque chose), expier",nombreux,zahlreich,numerous,nombreux,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier"
+47,4,B1,B1,B1,üblich,üben,,"to practice, to exercise, to rehearse",usual,"pratiquer, s'exercer, répéter",habituel,üblich,usual,habituel,üben,"to practice, to exercise, to rehearse","pratiquer, s'exercer, répéter"
+48,4,B1,B1,B1,gültig,gelten,,"to apply, to be valid, to count",valid,"appliquer, être valide, compter",valide,gültig,valid,valide,gelten,"to apply, to be valid, to count","appliquer, être valide, compter"
+49,4,B1,B1,A2,aufmerksam,merken,,"to notice, to realise, to remember (refl.)",attentive,"remarquer, se rendre compte, se souvenir (réfl.)",attentif,aufmerksam,attentive,attentif,merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)"
+50,4,B1,B1,A2,verantwortlich,antworten,,"to answer, to reply",responsible,"répondre, répliquer",responsable,verantwortlich,responsible,responsable,antworten,"to answer, to reply","répondre, répliquer"
+51,4,B1,B1,B1,furchtbar,fürchten,,"to fear, to be afraid of",terrible,avoir peur de,terrible,furchtbar,terrible,terrible,fürchten,"to fear, to be afraid of",avoir peur de
+52,4,B1,B1,A2,dankbar,danken,,to thank,grateful,remercier,reconnaissant,dankbar,grateful,reconnaissant,danken,to thank,remercier
+53,4,B1,B1,B1,ärgerlich,ärgern,,"to annoy, to irritate, to anger",annoying,"irriter, mettre en colère",ennuyeux,ärgerlich,annoying,ennuyeux,ärgern,"to annoy, to irritate, to anger","irriter, mettre en colère"
+54,4,B1,B1,B1,geschieden,scheiden,,"to separate, to divorce, to part","separated, divorced","se séparer, divorcer","séparé, divorcé",geschieden,"separated, divorced","séparé, divorcé",scheiden,"to separate, to divorce, to part","se séparer, divorcer"
+55,4,B1,B1,A1,offen,öffnen,,to open,"open, honest",ouvrir,"ouvert, franc",offen,"open, honest","ouvert, franc",öffnen,to open,ouvrir
+56,4,B1,B1,A2,geschlossen,schließen,,"to shut, to close, to lock, to conclude",closed,"fermer, clore, verrouiller, conclure",fermé,geschlossen,closed,fermé,schließen,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure"
+57,4,B1,B1,A2,froh,freuen,,"to make glad, to be glad (refl.), to look forward (refl.)","happy, glad","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)","heureux, content",froh,"happy, glad","heureux, content",freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
+58,4,B1,B1,A1,wahrscheinlich,scheinen,,"to shine, to seem (formal)","possible, likely","briller, paraître (formel)",possible,wahrscheinlich,"possible, likely",possible,scheinen,"to shine, to seem (formal)","briller, paraître (formel)"
+59,5,B2,A1,B2,vergrößern,groß,,"big, tall",to enlarge,grand,pour agrandir,groß,"big, tall",grand,vergrößern,to enlarge,pour agrandir
+60,5,B2,A1,B2,gleichen,gleich,,same,"to equal, to match, to resemble",même,"égaler, ressembler",gleich,same,même,gleichen,"to equal, to match, to resemble","égaler, ressembler"
+61,5,B2,B1,B2,unterscheiden,unterschiedlich,,"other, different","to distinguish, to differentiate","autre, différent","distinguer, différencier",unterschiedlich,"other, different","autre, différent",unterscheiden,"to distinguish, to differentiate","distinguer, différencier"
+62,5,B2,A1,B2,verlängern,lang,,long,"to extend, to prolong",long,"étendre, prolonger",lang,long,long,verlängern,"to extend, to prolong","étendre, prolonger"
+63,5,B2,A1,B2,stärken,stark,,strong,"to strengthen, to reinforce",fort,"renforcer, consolider",stark,strong,fort,stärken,"to strengthen, to reinforce","renforcer, consolider"
+64,5,B2,A2,B2,erleichtern,leicht,,light,"to facilitate, to ease, to relieve",léger,"faciliter, alléger, soulager",leicht,light,léger,erleichtern,"to facilitate, to ease, to relieve","faciliter, alléger, soulager"
+65,5,B2,A2,B2,erschrecken,schrecklich,,terrible,"to be frightened, to frighten",terrible,"avoir peur, effrayer",schrecklich,terrible,terrible,erschrecken,"to be frightened, to frighten","avoir peur, effrayer"
+66,5,B2,A2,B2,trocknen,trocken,,dry,"to dry, to dehumidify",sec,"sécher, déshumidifier",trocken,dry,sec,trocknen,"to dry, to dehumidify","sécher, déshumidifier"
+67,5,B2,A2,B2,erfolgen,erfolgreich,,successful,"to occur, to take place","réussi, prospère, fructueux","se produire, avoir lieu",erfolgreich,successful,"réussi, prospère, fructueux",erfolgen,"to occur, to take place","se produire, avoir lieu"
+68,5,B2,B1,B2,eignen,eigen,,own,"to be suitable, to be appropriate",propre (le sien),"être convenable, être approprié",eigen,own,propre (le sien),eignen,"to be suitable, to be appropriate","être convenable, être approprié"
+69,5,B2,B1,B2,ordnen,ordentlich,,orderly,"to arrange, to organize, to classify",ordonné,"arranger, organiser, classer",ordentlich,orderly,ordonné,ordnen,"to arrange, to organize, to classify","arranger, organiser, classer"
+70,5,B2,B1,B2,abhängen,abhängig,,dependent,"to depend on, to hang out (coll.)",dépendant,"dépendre de, fréquenter (coll.)",abhängig,dependent,dépendant,abhängen,"to depend on, to hang out (coll.)","dépendre de, fréquenter (coll.)"
+71,5,B2,B1,B2,erfordern,erforderlich,,necessary,"to require, to demand, to necessitate",nécessaire,"exiger, nécessiter",erforderlich,necessary,nécessaire,erfordern,"to require, to demand, to necessitate","exiger, nécessiter"
+72,5,B2,B1,B2,benötigen,nötig,,necessary,"to need, to require (formal)",nécessaire,"avoir besoin, exiger",nötig,necessary,nécessaire,benötigen,"to need, to require (formal)","avoir besoin, exiger"
+73,5,B2,B2,B2,regeln,regelmäßig,,regular,"to regulate, to control, to settle",régulier,"réguler, contrôler, régler",regelmäßig,regular,régulier,regeln,"to regulate, to control, to settle","réguler, contrôler, régler"
+74,5,B2,B2,B1,vertrauen,treu,,loyal,to trust,loyal,faire confiance,treu,loyal,loyal,vertrauen,to trust,faire confiance
+75,5,B2,B2,A1,schreiben,schriftlich,,written,to write,écrit,écrire,schriftlich,written,écrit,schreiben,to write,écrire
+76,5,B2,B2,B2,finanzieren,finanziell,,financial,"to finance, to fund",financier,"financer, financer",finanziell,financial,financier,finanzieren,"to finance, to fund","financer, financer"
+77,5,B2,B2,A1,sein,wesentlich,,"essential, substantial",to be,essentiel,être,wesentlich,"essential, substantial",essentiel,sein,to be,être
+78,5,B2,B2,B1,kritisieren,kritisch,,critical,"to criticize, to censure",critique,"critiquer, censurer",kritisch,critical,critique,kritisieren,"to criticize, to censure","critiquer, censurer"
+79,6,B2,A1,B2,groß,vergrößern,,to enlarge,"big, tall",pour agrandir,grand,groß,"big, tall",grand,vergrößern,to enlarge,pour agrandir
+80,6,B2,A1,B2,gleich,gleichen,,"to equal, to match, to resemble",same,"égaler, ressembler",même,gleich,same,même,gleichen,"to equal, to match, to resemble","égaler, ressembler"
+81,6,B2,B1,B2,unterschiedlich,unterscheiden,,"to distinguish, to differentiate","other, different","distinguer, différencier","autre, différent",unterschiedlich,"other, different","autre, différent",unterscheiden,"to distinguish, to differentiate","distinguer, différencier"
+82,6,B2,A1,B2,lang,verlängern,,"to extend, to prolong",long,"étendre, prolonger",long,lang,long,long,verlängern,"to extend, to prolong","étendre, prolonger"
+83,6,B2,A1,B2,stark,stärken,,"to strengthen, to reinforce",strong,"renforcer, consolider",fort,stark,strong,fort,stärken,"to strengthen, to reinforce","renforcer, consolider"
+84,6,B2,A2,B2,leicht,erleichtern,,"to facilitate, to ease, to relieve",light,"faciliter, alléger, soulager",léger,leicht,light,léger,erleichtern,"to facilitate, to ease, to relieve","faciliter, alléger, soulager"
+85,6,B2,A2,B2,schrecklich,erschrecken,,"to be frightened, to frighten",terrible,"avoir peur, effrayer",terrible,schrecklich,terrible,terrible,erschrecken,"to be frightened, to frighten","avoir peur, effrayer"
+86,6,B2,A2,B2,trocken,trocknen,,"to dry, to dehumidify",dry,"sécher, déshumidifier",sec,trocken,dry,sec,trocknen,"to dry, to dehumidify","sécher, déshumidifier"
+87,6,B2,A2,B2,erfolgreich,erfolgen,,"to occur, to take place",successful,"se produire, avoir lieu","réussi, prospère, fructueux",erfolgreich,successful,"réussi, prospère, fructueux",erfolgen,"to occur, to take place","se produire, avoir lieu"
+88,6,B2,B1,B2,eigen,eignen,,"to be suitable, to be appropriate",own,"être convenable, être approprié",propre (le sien),eigen,own,propre (le sien),eignen,"to be suitable, to be appropriate","être convenable, être approprié"
+89,6,B2,B1,B2,ordentlich,ordnen,,"to arrange, to organize, to classify",orderly,"arranger, organiser, classer",ordonné,ordentlich,orderly,ordonné,ordnen,"to arrange, to organize, to classify","arranger, organiser, classer"
+90,6,B2,B1,B2,abhängig,abhängen,,"to depend on, to hang out (coll.)",dependent,"dépendre de, fréquenter (coll.)",dépendant,abhängig,dependent,dépendant,abhängen,"to depend on, to hang out (coll.)","dépendre de, fréquenter (coll.)"
+91,6,B2,B1,B2,erforderlich,erfordern,,"to require, to demand, to necessitate",necessary,"exiger, nécessiter",nécessaire,erforderlich,necessary,nécessaire,erfordern,"to require, to demand, to necessitate","exiger, nécessiter"
+92,6,B2,B1,B2,nötig,benötigen,,"to need, to require (formal)",necessary,"avoir besoin, exiger",nécessaire,nötig,necessary,nécessaire,benötigen,"to need, to require (formal)","avoir besoin, exiger"
+93,6,B2,B2,B2,regelmäßig,regeln,,"to regulate, to control, to settle",regular,"réguler, contrôler, régler",régulier,regelmäßig,regular,régulier,regeln,"to regulate, to control, to settle","réguler, contrôler, régler"
+94,6,B2,B2,B1,treu,vertrauen,,to trust,loyal,faire confiance,loyal,treu,loyal,loyal,vertrauen,to trust,faire confiance
+95,6,B2,B2,A1,schriftlich,schreiben,,to write,written,écrire,écrit,schriftlich,written,écrit,schreiben,to write,écrire
+96,6,B2,B2,B2,finanziell,finanzieren,,"to finance, to fund",financial,"financer, financer",financier,finanziell,financial,financier,finanzieren,"to finance, to fund","financer, financer"
+97,6,B2,B2,A1,wesentlich,sein,,to be,"essential, substantial",être,essentiel,wesentlich,"essential, substantial",essentiel,sein,to be,être
+98,6,B2,B2,B1,kritisch,kritisieren,,"to criticize, to censure",critical,"critiquer, censurer",critique,kritisch,critical,critique,kritisieren,"to criticize, to censure","critiquer, censurer"
+99,7,B2,B2,A1,können,künstlich,,artificial,"can, to be able to",artificiel,"pouvoir, être capable de",künstlich,artificial,artificiel,können,"can, to be able to","pouvoir, être capable de"
+100,7,B2,B2,A1,glauben,unglaublich,,unbelievable,to believe,incroyable,croire,unglaublich,unbelievable,incroyable,glauben,to believe,croire
+101,7,B2,B2,B2,schaden,schädlich,,harmful,"to damage, to harm (someone)",nocif,"endommager, nuire (à quelqu'un)",schädlich,harmful,nocif,schaden,"to damage, to harm (someone)","endommager, nuire (à quelqu'un)"
+102,7,B2,B2,A2,fallen,fällig,,due,"to fall, to fall in battle, to collapse",exigible,"tomber, tomber au combat, s'effondrer",fällig,due,exigible,fallen,"to fall, to fall in battle, to collapse","tomber, tomber au combat, s'effondrer"
+103,7,B2,B2,B1,gewöhnen,gewöhnlich,,ordinary,"to get used to, to accustom oneself","ordinaire, habituel","s'habituer à, s'accoutumer",gewöhnlich,ordinary,"ordinaire, habituel",gewöhnen,"to get used to, to accustom oneself","s'habituer à, s'accoutumer"
+104,7,B2,B2,A1,sollen,schuldig,,guilty,"shall, to be asked to (do something), to be supposed to (do something)",coupable,"devoir, être invité (à faire quelque chose)",schuldig,guilty,coupable,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)"
+105,7,B2,B2,A2,verlassen,zuverlässig,,reliable,"to leave, to trust with something (refl.), to pass away, to die",fiable,"partir, confier quelque chose (réfl.), décéder, mourir",zuverlässig,reliable,fiable,verlassen,"to leave, to trust with something (refl.), to pass away, to die","partir, confier quelque chose (réfl.), décéder, mourir"
+106,7,B2,B2,B1,sparen,sparsam,,frugal,"to save, to conserve",économe,"sauver, conserver",sparsam,frugal,économe,sparen,"to save, to conserve","sauver, conserver"
+107,7,B2,B2,B1,sammeln,gesamt,,"total, entire","to collect, to gather, to accumulate","total, complet","recueillir, rassembler, accumuler",gesamt,"total, entire","total, complet",sammeln,"to collect, to gather, to accumulate","recueillir, rassembler, accumuler"
+108,7,B2,B2,A1,halten,haltbar,,durable,"to hold, to stop (a movement), to support, to keep","durable, résistant","tenir, arrêter (un mouvement), soutenir, garder",haltbar,durable,"durable, résistant",halten,"to hold, to stop (a movement), to support, to keep","tenir, arrêter (un mouvement), soutenir, garder"
+109,7,B2,B2,A1,kennen,bekannt,,known,"to know, to be acquainted with, to be familiar with",connu,"connaître, être familier avec",bekannt,known,connu,kennen,"to know, to be acquainted with, to be familiar with","connaître, être familier avec"
+110,7,B2,B2,B1,reinigen,rein,,pure,"to clean, to cleanse",pur,"nettoyer, purifier",rein,pure,pur,reinigen,"to clean, to cleanse","nettoyer, purifier"
+111,7,B2,B2,A1,wissen,wissenschaftlich,,scientific,"to know, to have knowledge",scientifique,savoir,wissenschaftlich,scientific,scientifique,wissen,"to know, to have knowledge",savoir
+112,7,B2,B2,B2,heilen,heilig,,holy,to heal,sacré,guérir,heilig,holy,sacré,heilen,to heal,guérir
+113,7,B2,B2,B2,verfügen,verfügbar,,"available, at hand","to have at one’s disposal (formal), to possess, to control","disponible, accessible","avoir à sa disposition (formel), posséder, contrôler",verfügbar,"available, at hand","disponible, accessible",verfügen,"to have at one’s disposal (formal), to possess, to control","avoir à sa disposition (formel), posséder, contrôler"
+114,7,B2,B2,A1,leben,lebendig,,"alive, lively",to live,"vivant, vif",vivre,lebendig,"alive, lively","vivant, vif",leben,to live,vivre
+115,7,B2,B2,B1,empfinden,empfindlich,,sensitive,"to feel, to sense, to perceive",sensible,"sentir, pressentir, percevoir",empfindlich,sensitive,sensible,empfinden,"to feel, to sense, to perceive","sentir, pressentir, percevoir"
+116,7,B2,B2,A2,entscheiden,entscheidend,,"decisive, crucial",to decide,décisif,décider,entscheidend,"decisive, crucial",décisif,entscheiden,to decide,décider
+117,7,B2,B2,B2,ausreichen,ausreichend,,sufficient,"to suffice, to be sufficient, to be adequate",suffisant,"suffire, être suffisant, être adéquat",ausreichend,sufficient,suffisant,ausreichen,"to suffice, to be sufficient, to be adequate","suffire, être suffisant, être adéquat"
+118,7,B2,B2,B2,aufregen,aufgeregt,,excited,"to upset, to agitate, to annoy",excité,"déranger, agiter, ennuyer",aufgeregt,excited,excité,aufregen,"to upset, to agitate, to annoy","déranger, agiter, ennuyer"
+119,8,B2,B2,A1,künstlich,können,,"can, to be able to",artificial,"pouvoir, être capable de",artificiel,künstlich,artificial,artificiel,können,"can, to be able to","pouvoir, être capable de"
+120,8,B2,B2,A1,unglaublich,glauben,,to believe,unbelievable,croire,incroyable,unglaublich,unbelievable,incroyable,glauben,to believe,croire
+121,8,B2,B2,B2,schädlich,schaden,,"to damage, to harm (someone)",harmful,"endommager, nuire (à quelqu'un)",nocif,schädlich,harmful,nocif,schaden,"to damage, to harm (someone)","endommager, nuire (à quelqu'un)"
+122,8,B2,B2,A2,fällig,fallen,,"to fall, to fall in battle, to collapse",due,"tomber, tomber au combat, s'effondrer",exigible,fällig,due,exigible,fallen,"to fall, to fall in battle, to collapse","tomber, tomber au combat, s'effondrer"
+123,8,B2,B2,B1,gewöhnlich,gewöhnen,,"to get used to, to accustom oneself",ordinary,"s'habituer à, s'accoutumer","ordinaire, habituel",gewöhnlich,ordinary,"ordinaire, habituel",gewöhnen,"to get used to, to accustom oneself","s'habituer à, s'accoutumer"
+124,8,B2,B2,A1,schuldig,sollen,,"shall, to be asked to (do something), to be supposed to (do something)",guilty,"devoir, être invité (à faire quelque chose)",coupable,schuldig,guilty,coupable,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)"
+125,8,B2,B2,A2,zuverlässig,verlassen,,"to leave, to trust with something (refl.), to pass away, to die",reliable,"partir, confier quelque chose (réfl.), décéder, mourir",fiable,zuverlässig,reliable,fiable,verlassen,"to leave, to trust with something (refl.), to pass away, to die","partir, confier quelque chose (réfl.), décéder, mourir"
+126,8,B2,B2,B1,sparsam,sparen,,"to save, to conserve",frugal,"sauver, conserver",économe,sparsam,frugal,économe,sparen,"to save, to conserve","sauver, conserver"
+127,8,B2,B2,B1,gesamt,sammeln,,"to collect, to gather, to accumulate","total, entire","recueillir, rassembler, accumuler","total, complet",gesamt,"total, entire","total, complet",sammeln,"to collect, to gather, to accumulate","recueillir, rassembler, accumuler"
+128,8,B2,B2,A1,haltbar,halten,,"to hold, to stop (a movement), to support, to keep",durable,"tenir, arrêter (un mouvement), soutenir, garder","durable, résistant",haltbar,durable,"durable, résistant",halten,"to hold, to stop (a movement), to support, to keep","tenir, arrêter (un mouvement), soutenir, garder"
+129,8,B2,B2,A1,bekannt,kennen,,"to know, to be acquainted with, to be familiar with",known,"connaître, être familier avec",connu,bekannt,known,connu,kennen,"to know, to be acquainted with, to be familiar with","connaître, être familier avec"
+130,8,B2,B2,B1,rein,reinigen,,"to clean, to cleanse",pure,"nettoyer, purifier",pur,rein,pure,pur,reinigen,"to clean, to cleanse","nettoyer, purifier"
+131,8,B2,B2,A1,wissenschaftlich,wissen,,"to know, to have knowledge",scientific,savoir,scientifique,wissenschaftlich,scientific,scientifique,wissen,"to know, to have knowledge",savoir
+132,8,B2,B2,B2,heilig,heilen,,to heal,holy,guérir,sacré,heilig,holy,sacré,heilen,to heal,guérir
+133,8,B2,B2,B2,verfügbar,verfügen,,"to have at one’s disposal (formal), to possess, to control","available, at hand","avoir à sa disposition (formel), posséder, contrôler","disponible, accessible",verfügbar,"available, at hand","disponible, accessible",verfügen,"to have at one’s disposal (formal), to possess, to control","avoir à sa disposition (formel), posséder, contrôler"
+134,8,B2,B2,A1,lebendig,leben,,to live,"alive, lively",vivre,"vivant, vif",lebendig,"alive, lively","vivant, vif",leben,to live,vivre
+135,8,B2,B2,B1,empfindlich,empfinden,,"to feel, to sense, to perceive",sensitive,"sentir, pressentir, percevoir",sensible,empfindlich,sensitive,sensible,empfinden,"to feel, to sense, to perceive","sentir, pressentir, percevoir"
+136,8,B2,B2,A2,entscheidend,entscheiden,,to decide,"decisive, crucial",décider,décisif,entscheidend,"decisive, crucial",décisif,entscheiden,to decide,décider
+137,8,B2,B2,B2,ausreichend,ausreichen,,"to suffice, to be sufficient, to be adequate",sufficient,"suffire, être suffisant, être adéquat",suffisant,ausreichend,sufficient,suffisant,ausreichen,"to suffice, to be sufficient, to be adequate","suffire, être suffisant, être adéquat"
+138,8,B2,B2,B2,aufgeregt,aufregen,,"to upset, to agitate, to annoy",excited,"déranger, agiter, ennuyer",excité,aufgeregt,excited,excité,aufregen,"to upset, to agitate, to annoy","déranger, agiter, ennuyer"
+139,9,B2,B2,B1,enttäuschen,enttäuscht,,disappointed,"to disappoint, to let down",déçu,"décevoir, laisser tomber",enttäuscht,disappointed,déçu,enttäuschen,"to disappoint, to let down","décevoir, laisser tomber"
+140,9,B2,B2,B1,überraschen,überrascht,,surprised,to surprise,surpris,surprendre,überrascht,surprised,surpris,überraschen,to surprise,surprendre
+141,9,B2,B2,A2,helfen,hilfreich,,helpful,to help,"aidant, utile",aider,hilfreich,helpful,"aidant, utile",helfen,to help,aider
+142,9,B2,B2,B2,reichen,reichlich,,plenty,"to reach, to hand, to be enough",abondant,"atteindre, mettre la main, être suffisant",reichlich,plenty,abondant,reichen,"to reach, to hand, to be enough","atteindre, mettre la main, être suffisant"
+143,9,B2,B2,B2,erheben,erheblich,,"significant, considerable","to raise, to collect, to levy",considérable,"lever, collecter, prélever",erheblich,"significant, considerable",considérable,erheben,"to raise, to collect, to levy","lever, collecter, prélever"
+144,9,B2,B2,A1,sollen,schuld,,responsible,"shall, to be asked to (do something), to be supposed to (do something)",responsable,"devoir, être invité (à faire quelque chose)",schuld,responsible,responsable,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)"
+145,9,B2,B2,A2,vergleichen,vergleichbar,,comparable,to compare,comparable,comparer,vergleichbar,comparable,comparable,vergleichen,to compare,comparer
+146,9,B2,B2,A2,merken,merkwürdig,,"strange, funny","to notice, to realise, to remember (refl.)","étrange, drôle","remarquer, se rendre compte, se souvenir (réfl.)",merkwürdig,"strange, funny","étrange, drôle",merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)"
+147,9,B2,B2,A2,erhalten,erhältlich,,"available, at hand","to receive, to get, to obtain, to preserve","disponible, accessible","recevoir, obtenir, acquérir, préserver",erhältlich,"available, at hand","disponible, accessible",erhalten,"to receive, to get, to obtain, to preserve","recevoir, obtenir, acquérir, préserver"
+148,9,B2,B2,A2,sorgen,sorgfältig,,"careful, cautious","to care, to worry","prudent, vigilant","se soucier, s'inquiéter",sorgfältig,"careful, cautious","prudent, vigilant",sorgen,"to care, to worry","se soucier, s'inquiéter"
+149,9,B2,B2,A1,kommen,künftig,,future,"to come, to make it (e.g. over something), to go to, to occur",futur,"venir, aller à, se produire",künftig,future,futur,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire"
+150,10,B2,B2,B1,enttäuscht,enttäuschen,,"to disappoint, to let down",disappointed,"décevoir, laisser tomber",déçu,enttäuscht,disappointed,déçu,enttäuschen,"to disappoint, to let down","décevoir, laisser tomber"
+151,10,B2,B2,B1,überrascht,überraschen,,to surprise,surprised,surprendre,surpris,überrascht,surprised,surpris,überraschen,to surprise,surprendre
+152,10,B2,B2,A2,hilfreich,helfen,,to help,helpful,aider,"aidant, utile",hilfreich,helpful,"aidant, utile",helfen,to help,aider
+153,10,B2,B2,B2,reichlich,reichen,,"to reach, to hand, to be enough",plenty,"atteindre, mettre la main, être suffisant",abondant,reichlich,plenty,abondant,reichen,"to reach, to hand, to be enough","atteindre, mettre la main, être suffisant"
+154,10,B2,B2,B2,erheblich,erheben,,"to raise, to collect, to levy","significant, considerable","lever, collecter, prélever",considérable,erheblich,"significant, considerable",considérable,erheben,"to raise, to collect, to levy","lever, collecter, prélever"
+155,10,B2,B2,A1,schuld,sollen,,"shall, to be asked to (do something), to be supposed to (do something)",responsible,"devoir, être invité (à faire quelque chose)",responsable,schuld,responsible,responsable,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)"
+156,10,B2,B2,A2,vergleichbar,vergleichen,,to compare,comparable,comparer,comparable,vergleichbar,comparable,comparable,vergleichen,to compare,comparer
+157,10,B2,B2,A2,merkwürdig,merken,,"to notice, to realise, to remember (refl.)","strange, funny","remarquer, se rendre compte, se souvenir (réfl.)","étrange, drôle",merkwürdig,"strange, funny","étrange, drôle",merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)"
+158,10,B2,B2,A2,erhältlich,erhalten,,"to receive, to get, to obtain, to preserve","available, at hand","recevoir, obtenir, acquérir, préserver","disponible, accessible",erhältlich,"available, at hand","disponible, accessible",erhalten,"to receive, to get, to obtain, to preserve","recevoir, obtenir, acquérir, préserver"
+159,10,B2,B2,A2,sorgfältig,sorgen,,"to care, to worry","careful, cautious","se soucier, s'inquiéter","prudent, vigilant",sorgfältig,"careful, cautious","prudent, vigilant",sorgen,"to care, to worry","se soucier, s'inquiéter"
+160,10,B2,B2,A1,künftig,kommen,,"to come, to make it (e.g. over something), to go to, to occur",future,"venir, aller à, se produire",futur,künftig,future,futur,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire"
+161,11,C1,A1,C1,vereinfachen,einfach,,"easy, simple","to simplify, to demystify, to deskill, to dumb down","facile, simple","simplifier, démystifier, déqualifier, abêtir",einfach,"easy, simple","facile, simple",vereinfachen,"to simplify, to demystify, to deskill, to dumb down","simplifier, démystifier, déqualifier, abêtir"
+162,11,C1,A1,C1,ergänzen,ganz,,"whole, entire, complete","to complement, to add, to supplement","entier, complet","compléter, ajouter, suppléer",ganz,"whole, entire, complete","entier, complet",ergänzen,"to complement, to add, to supplement","compléter, ajouter, suppléer"
+163,11,C1,A1,C1,heizen,heiß,,hot,"to heat, to warm, to fuel",chaud,"chauffer, se chauffer",heiß,hot,chaud,heizen,"to heat, to warm, to fuel","chauffer, se chauffer"
+164,11,C1,A1,C1,nähern,nah,,"close, near","to approach, to get closer, to advance","proche, près","s'approcher, se rapprocher, avancer",nah,"close, near","proche, près",nähern,"to approach, to get closer, to advance","s'approcher, se rapprocher, avancer"
+165,11,C1,A2,C1,aktualisieren,aktuell,,current,to update,actuel,mettre à jour,aktuell,current,actuel,aktualisieren,to update,mettre à jour
+166,11,C1,A2,C1,ruhen,ruhig,,"calm, quiet","to rest, to be at rest, to repose","calme, silencieux",reposer,ruhig,"calm, quiet","calme, silencieux",ruhen,"to rest, to be at rest, to repose",reposer
+167,11,C1,A2,C1,beruhigen,ruhig,,"calm, quiet","to calm, to reassure, to soothe","calme, silencieux","calmer, rassurer, apaiser",ruhig,"calm, quiet","calme, silencieux",beruhigen,"to calm, to reassure, to soothe","calmer, rassurer, apaiser"
+168,11,C1,A2,C1,lauten,laut,,loud,"to read, to sound, to go (as in “it goes like…”)",fort,"lire, sonner",laut,loud,fort,lauten,"to read, to sound, to go (as in “it goes like…”)","lire, sonner"
+169,11,C1,A2,C1,wundern,wunderbar,,wonderful,"to surprise, to amaze",merveilleux,"surprendre, étonner",wunderbar,wonderful,merveilleux,wundern,"to surprise, to amaze","surprendre, étonner"
+170,11,C1,A2,C1,langweilen,langweilig,,boring,"to bore, to be bored, to be boring",ennuyeux,"s'ennuyer, être ennuyé, être ennuyeux",langweilig,boring,ennuyeux,langweilen,"to bore, to be bored, to be boring","s'ennuyer, être ennuyé, être ennuyeux"
+171,11,C1,A2,C1,faulenzen,faul,,lazy,"to chill, to laze around",paresseux,"se détendre, paresser",faul,lazy,paresseux,faulenzen,"to chill, to laze around","se détendre, paresser"
+172,11,C1,B1,C1,deuten,deutlich,,"articulate, clear, distinct, considerable","to indicate, to interpret, to point","clair, notable, évident","interpréter, indiquer",deutlich,"articulate, clear, distinct, considerable","clair, notable, évident",deuten,"to indicate, to interpret, to point","interpréter, indiquer"
+173,11,C1,B1,C1,vertiefen,tief,,deep,"to deepen, to intensify",profond,"approfondir, intensifier",tief,deep,profond,vertiefen,"to deepen, to intensify","approfondir, intensifier"
+174,11,C1,B1,C1,bereiten,bereit,,ready,"to prepare, to cause",prêt,"préparer, provoquer",bereit,ready,prêt,bereiten,"to prepare, to cause","préparer, provoquer"
+175,11,C1,B2,C1,vergehen,vergangen,,past,"to die, to pass, to elapse, to perish",passé,"mourir, passer, s'écouler, périr",vergangen,past,passé,vergehen,"to die, to pass, to elapse, to perish","mourir, passer, s'écouler, périr"
+176,11,C1,B2,C1,wachen,wach,,awake,"to wake, to guard, to be awake",éveillé,"veiller, réveiller, surveiller",wach,awake,éveillé,wachen,"to wake, to guard, to be awake","veiller, réveiller, surveiller"
+177,11,C1,B2,C1,vorsehen,vorsichtig,,"careful, cautious","to plan, to provide for","prudent, vigilant","planifier, prévoir",vorsichtig,"careful, cautious","prudent, vigilant",vorsehen,"to plan, to provide for","planifier, prévoir"
+178,11,C1,B2,C1,gebären,geboren,,born,to give birth to,né,donner naissance à,geboren,born,né,gebären,to give birth to,donner naissance à
+179,11,C1,B2,C1,genügen,ungenügend,,insufficient,"to suffice, to satisfy",insuffisant,"suffire, satisfaire",ungenügend,insufficient,insuffisant,genügen,"to suffice, to satisfy","suffire, satisfaire"
+180,11,C1,B2,C1,dringen,dringend,,urgent,"to insist, the seep, to penetrate",urgent,"insister, s'infiltrer, pénétrer",dringend,urgent,urgent,dringen,"to insist, the seep, to penetrate","insister, s'infiltrer, pénétrer"
+181,12,C1,A1,C1,einfach,vereinfachen,,"to simplify, to demystify, to deskill, to dumb down","easy, simple","simplifier, démystifier, déqualifier, abêtir","facile, simple",einfach,"easy, simple","facile, simple",vereinfachen,"to simplify, to demystify, to deskill, to dumb down","simplifier, démystifier, déqualifier, abêtir"
+182,12,C1,A1,C1,ganz,ergänzen,,"to complement, to add, to supplement","whole, entire, complete","compléter, ajouter, suppléer","entier, complet",ganz,"whole, entire, complete","entier, complet",ergänzen,"to complement, to add, to supplement","compléter, ajouter, suppléer"
+183,12,C1,A1,C1,heiß,heizen,,"to heat, to warm, to fuel",hot,"chauffer, se chauffer",chaud,heiß,hot,chaud,heizen,"to heat, to warm, to fuel","chauffer, se chauffer"
+184,12,C1,A1,C1,nah,nähern,,"to approach, to get closer, to advance","close, near","s'approcher, se rapprocher, avancer","proche, près",nah,"close, near","proche, près",nähern,"to approach, to get closer, to advance","s'approcher, se rapprocher, avancer"
+185,12,C1,A2,C1,aktuell,aktualisieren,,to update,current,mettre à jour,actuel,aktuell,current,actuel,aktualisieren,to update,mettre à jour
+186,12,C1,A2,C1,ruhig,ruhen,,"to rest, to be at rest, to repose","calm, quiet",reposer,"calme, silencieux",ruhig,"calm, quiet","calme, silencieux",ruhen,"to rest, to be at rest, to repose",reposer
+187,12,C1,A2,C1,ruhig,beruhigen,,"to calm, to reassure, to soothe","calm, quiet","calmer, rassurer, apaiser","calme, silencieux",ruhig,"calm, quiet","calme, silencieux",beruhigen,"to calm, to reassure, to soothe","calmer, rassurer, apaiser"
+188,12,C1,A2,C1,laut,lauten,,"to read, to sound, to go (as in “it goes like…”)",loud,"lire, sonner",fort,laut,loud,fort,lauten,"to read, to sound, to go (as in “it goes like…”)","lire, sonner"
+189,12,C1,A2,C1,wunderbar,wundern,,"to surprise, to amaze",wonderful,"surprendre, étonner",merveilleux,wunderbar,wonderful,merveilleux,wundern,"to surprise, to amaze","surprendre, étonner"
+190,12,C1,A2,C1,langweilig,langweilen,,"to bore, to be bored, to be boring",boring,"s'ennuyer, être ennuyé, être ennuyeux",ennuyeux,langweilig,boring,ennuyeux,langweilen,"to bore, to be bored, to be boring","s'ennuyer, être ennuyé, être ennuyeux"
+191,12,C1,A2,C1,faul,faulenzen,,"to chill, to laze around",lazy,"se détendre, paresser",paresseux,faul,lazy,paresseux,faulenzen,"to chill, to laze around","se détendre, paresser"
+192,12,C1,B1,C1,deutlich,deuten,,"to indicate, to interpret, to point","articulate, clear, distinct, considerable","interpréter, indiquer","clair, notable, évident",deutlich,"articulate, clear, distinct, considerable","clair, notable, évident",deuten,"to indicate, to interpret, to point","interpréter, indiquer"
+193,12,C1,B1,C1,tief,vertiefen,,"to deepen, to intensify",deep,"approfondir, intensifier",profond,tief,deep,profond,vertiefen,"to deepen, to intensify","approfondir, intensifier"
+194,12,C1,B1,C1,bereit,bereiten,,"to prepare, to cause",ready,"préparer, provoquer",prêt,bereit,ready,prêt,bereiten,"to prepare, to cause","préparer, provoquer"
+195,12,C1,B2,C1,vergangen,vergehen,,"to die, to pass, to elapse, to perish",past,"mourir, passer, s'écouler, périr",passé,vergangen,past,passé,vergehen,"to die, to pass, to elapse, to perish","mourir, passer, s'écouler, périr"
+196,12,C1,B2,C1,wach,wachen,,"to wake, to guard, to be awake",awake,"veiller, réveiller, surveiller",éveillé,wach,awake,éveillé,wachen,"to wake, to guard, to be awake","veiller, réveiller, surveiller"
+197,12,C1,B2,C1,vorsichtig,vorsehen,,"to plan, to provide for","careful, cautious","planifier, prévoir","prudent, vigilant",vorsichtig,"careful, cautious","prudent, vigilant",vorsehen,"to plan, to provide for","planifier, prévoir"
+198,12,C1,B2,C1,geboren,gebären,,to give birth to,born,donner naissance à,né,geboren,born,né,gebären,to give birth to,donner naissance à
+199,12,C1,B2,C1,ungenügend,genügen,,"to suffice, to satisfy",insufficient,"suffire, satisfaire",insuffisant,ungenügend,insufficient,insuffisant,genügen,"to suffice, to satisfy","suffire, satisfaire"
+200,12,C1,B2,C1,dringend,dringen,,"to insist, the seep, to penetrate",urgent,"insister, s'infiltrer, pénétrer",urgent,dringend,urgent,urgent,dringen,"to insist, the seep, to penetrate","insister, s'infiltrer, pénétrer"
+201,13,C1,B2,C1,begeistern,begeistert,,enthusiastic,"to enthuse, to be enthusiastic (refl.)",enthousiaste,"enthousiasmer, être enthousiaste (réfl.)",begeistert,enthusiastic,enthousiaste,begeistern,"to enthuse, to be enthusiastic (refl.)","enthousiasmer, être enthousiaste (réfl.)"
+202,13,C1,B2,C1,verwirklichen,wirklich,,"real, genuine","to realize, to actualize, to fulfill, to implement",réel,"réaliser, concrétiser, accomplir, mettre en œuvre",wirklich,"real, genuine",réel,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre"
+203,13,C1,C1,B1,töten,tödlich,,deadly,"to kill, to slay",mortel,"tuer, égorger",tödlich,deadly,mortel,töten,"to kill, to slay","tuer, égorger"
+204,13,C1,C1,C1,werten,wert,,"worth, worthy, dear","to assess, to consider, to value","valable, cher",évaluer,wert,"worth, worthy, dear","valable, cher",werten,"to assess, to consider, to value",évaluer
+205,13,C1,C1,A1,bestimmen,bestimmt,,"certain, determined",to determine,"déterminé, destiné",déterminer,bestimmt,"certain, determined","déterminé, destiné",bestimmen,to determine,déterminer
+206,13,C1,C1,C1,begeistern,geistig,,"mental, spiritual","to enthuse, to be enthusiastic (refl.)","mental, intellectuel","enthousiasmer, être enthousiaste (réfl.)",geistig,"mental, spiritual","mental, intellectuel",begeistern,"to enthuse, to be enthusiastic (refl.)","enthousiasmer, être enthousiaste (réfl.)"
+207,13,C1,C1,A2,nennen,sogenannt,,so-called,"to name, to call someone something, to mention",soi-disant,"nommer, appeler quelqu'un par quelque chose, mentionner",sogenannt,so-called,soi-disant,nennen,"to name, to call someone something, to mention","nommer, appeler quelqu'un par quelque chose, mentionner"
+208,13,C1,C1,A2,teilen,teilweise,,partial,"to split, to share, to divide",partiel,"diviser, partager",teilweise,partial,partiel,teilen,"to split, to share, to divide","diviser, partager"
+209,13,C1,C1,B1,vermuten,vermutlich,,"probable, assumed","to suspect, to assume, to suppose",supposé,"soupçonner, supposer, présumer",vermutlich,"probable, assumed",supposé,vermuten,"to suspect, to assume, to suppose","soupçonner, supposer, présumer"
+210,13,C1,C1,A1,verstehen,verständlich,,understandable,"to understand, to get along with someone",compréhensible,"comprendre, s'entendre avec quelqu'un",verständlich,understandable,compréhensible,verstehen,"to understand, to get along with someone","comprendre, s'entendre avec quelqu'un"
+211,13,C1,C1,B2,angeben,angeblich,,alleged,"to state, to declare, to show off",prétendu,"déclarer, affirmer, se vanter",angeblich,alleged,prétendu,angeben,"to state, to declare, to show off","déclarer, affirmer, se vanter"
+212,13,C1,C1,C1,ausschließen,ausschließlich,,exclusive,"to exclude, to eliminate",exclusif,"exclure, éliminer",ausschließlich,exclusive,exclusif,ausschließen,"to exclude, to eliminate","exclure, éliminer"
+213,13,C1,C1,B1,nachdenken,nachdenklich,,pensive,"to think about, to reflect, to ponder",pensif,"penser à, réfléchir, méditer",nachdenklich,pensive,pensif,nachdenken,"to think about, to reflect, to ponder","penser à, réfléchir, méditer"
+214,13,C1,C1,B1,verlieben,verliebt,,in love,to fall in love,amoureux,tomber amoureux,verliebt,in love,amoureux,verlieben,to fall in love,tomber amoureux
+215,13,C1,C1,B1,verbieten,verboten,,prohibited,"to forbid, to prohibit",interdit,"interdire, prohiber",verboten,prohibited,interdit,verbieten,"to forbid, to prohibit","interdire, prohiber"
+216,13,C1,C1,B2,fließen,fließend,,fluent,"to flow, to run",courant,"couler, courir",fließend,fluent,courant,fließen,"to flow, to run","couler, courir"
+217,13,C1,C1,C1,senken,senkrecht,,vertical,"to lower, to sink, to drop, to reduce",perpendiculaire,"abaisser, couler, laisser tomber, réduire",senkrecht,vertical,perpendiculaire,senken,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
+218,13,C1,C1,C1,ausdrücken,ausdrücklich,,explicit,"to express, to articulate, to convey, to embody","explicite, exprès","exprimer, articuler, transmettre, incarner",ausdrücklich,explicit,"explicite, exprès",ausdrücken,"to express, to articulate, to convey, to embody","exprimer, articuler, transmettre, incarner"
+219,13,C1,C1,B2,ausführen,ausführlich,,detailed,"to carry out, to execute, to perform",détaillé,"réaliser, exécuter, accomplir",ausführlich,detailed,détaillé,ausführen,"to carry out, to execute, to perform","réaliser, exécuter, accomplir"
+220,13,C1,C1,A2,dauern,dauerhaft,,"permanent, lasting","to last, to take (time)","durable, permanent","durer, prendre (du temps)",dauerhaft,"permanent, lasting","durable, permanent",dauern,"to last, to take (time)","durer, prendre (du temps)"
+221,14,C1,B2,C1,begeistert,begeistern,,"to enthuse, to be enthusiastic (refl.)",enthusiastic,"enthousiasmer, être enthousiaste (réfl.)",enthousiaste,begeistert,enthusiastic,enthousiaste,begeistern,"to enthuse, to be enthusiastic (refl.)","enthousiasmer, être enthousiaste (réfl.)"
+222,14,C1,B2,C1,wirklich,verwirklichen,,"to realize, to actualize, to fulfill, to implement","real, genuine","réaliser, concrétiser, accomplir, mettre en œuvre",réel,wirklich,"real, genuine",réel,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre"
+223,14,C1,C1,B1,tödlich,töten,,"to kill, to slay",deadly,"tuer, égorger",mortel,tödlich,deadly,mortel,töten,"to kill, to slay","tuer, égorger"
+224,14,C1,C1,C1,wert,werten,,"to assess, to consider, to value","worth, worthy, dear",évaluer,"valable, cher",wert,"worth, worthy, dear","valable, cher",werten,"to assess, to consider, to value",évaluer
+225,14,C1,C1,A1,bestimmt,bestimmen,,to determine,"certain, determined",déterminer,"déterminé, destiné",bestimmt,"certain, determined","déterminé, destiné",bestimmen,to determine,déterminer
+226,14,C1,C1,C1,geistig,begeistern,,"to enthuse, to be enthusiastic (refl.)","mental, spiritual","enthousiasmer, être enthousiaste (réfl.)","mental, intellectuel",geistig,"mental, spiritual","mental, intellectuel",begeistern,"to enthuse, to be enthusiastic (refl.)","enthousiasmer, être enthousiaste (réfl.)"
+227,14,C1,C1,A2,sogenannt,nennen,,"to name, to call someone something, to mention",so-called,"nommer, appeler quelqu'un par quelque chose, mentionner",soi-disant,sogenannt,so-called,soi-disant,nennen,"to name, to call someone something, to mention","nommer, appeler quelqu'un par quelque chose, mentionner"
+228,14,C1,C1,A2,teilweise,teilen,,"to split, to share, to divide",partial,"diviser, partager",partiel,teilweise,partial,partiel,teilen,"to split, to share, to divide","diviser, partager"
+229,14,C1,C1,B1,vermutlich,vermuten,,"to suspect, to assume, to suppose","probable, assumed","soupçonner, supposer, présumer",supposé,vermutlich,"probable, assumed",supposé,vermuten,"to suspect, to assume, to suppose","soupçonner, supposer, présumer"
+230,14,C1,C1,A1,verständlich,verstehen,,"to understand, to get along with someone",understandable,"comprendre, s'entendre avec quelqu'un",compréhensible,verständlich,understandable,compréhensible,verstehen,"to understand, to get along with someone","comprendre, s'entendre avec quelqu'un"
+231,14,C1,C1,B2,angeblich,angeben,,"to state, to declare, to show off",alleged,"déclarer, affirmer, se vanter",prétendu,angeblich,alleged,prétendu,angeben,"to state, to declare, to show off","déclarer, affirmer, se vanter"
+232,14,C1,C1,C1,ausschließlich,ausschließen,,"to exclude, to eliminate",exclusive,"exclure, éliminer",exclusif,ausschließlich,exclusive,exclusif,ausschließen,"to exclude, to eliminate","exclure, éliminer"
+233,14,C1,C1,B1,nachdenklich,nachdenken,,"to think about, to reflect, to ponder",pensive,"penser à, réfléchir, méditer",pensif,nachdenklich,pensive,pensif,nachdenken,"to think about, to reflect, to ponder","penser à, réfléchir, méditer"
+234,14,C1,C1,B1,verliebt,verlieben,,to fall in love,in love,tomber amoureux,amoureux,verliebt,in love,amoureux,verlieben,to fall in love,tomber amoureux
+235,14,C1,C1,B1,verboten,verbieten,,"to forbid, to prohibit",prohibited,"interdire, prohiber",interdit,verboten,prohibited,interdit,verbieten,"to forbid, to prohibit","interdire, prohiber"
+236,14,C1,C1,B2,fließend,fließen,,"to flow, to run",fluent,"couler, courir",courant,fließend,fluent,courant,fließen,"to flow, to run","couler, courir"
+237,14,C1,C1,C1,senkrecht,senken,,"to lower, to sink, to drop, to reduce",vertical,"abaisser, couler, laisser tomber, réduire",perpendiculaire,senkrecht,vertical,perpendiculaire,senken,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
+238,14,C1,C1,C1,ausdrücklich,ausdrücken,,"to express, to articulate, to convey, to embody",explicit,"exprimer, articuler, transmettre, incarner","explicite, exprès",ausdrücklich,explicit,"explicite, exprès",ausdrücken,"to express, to articulate, to convey, to embody","exprimer, articuler, transmettre, incarner"
+239,14,C1,C1,B2,ausführlich,ausführen,,"to carry out, to execute, to perform",detailed,"réaliser, exécuter, accomplir",détaillé,ausführlich,detailed,détaillé,ausführen,"to carry out, to execute, to perform","réaliser, exécuter, accomplir"
+240,14,C1,C1,A2,dauerhaft,dauern,,"to last, to take (time)","permanent, lasting","durer, prendre (du temps)","durable, permanent",dauerhaft,"permanent, lasting","durable, permanent",dauern,"to last, to take (time)","durer, prendre (du temps)"
+241,15,C1,C1,A1,machen,mächtig,,"powerful, mighty","to make, to prepare (e.g. food), to do",puissant,"faire, préparer (par exemple de la nourriture)",mächtig,"powerful, mighty",puissant,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)"
+242,15,C1,C1,A1,sprechen,sprachlich,,linguistic,to speak,linguistique,parler (une langue),sprachlich,linguistic,linguistique,sprechen,to speak,parler (une langue)
+243,15,C1,C1,B1,wirken,wirksam,,effective,"to have an effect, to work",efficace,"avoir un effet, functionner",wirksam,effective,efficace,wirken,"to have an effect, to work","avoir un effet, functionner"
+244,15,C1,C1,B2,betrachten,beträchtlich,,considerable,"to view, to observe",considérable,"voir, observer",beträchtlich,considerable,considérable,betrachten,"to view, to observe","voir, observer"
+245,15,C1,C1,C1,bemerken,bemerkenswert,,remarkable,"to notice, to observe, to remark",remarquable,"remarquer, observer",bemerkenswert,remarkable,remarquable,bemerken,"to notice, to observe, to remark","remarquer, observer"
+246,15,C1,C1,B1,verbinden,unverbindlich,,non-binding,"to connect, to link, to join, to bandage",sans engagement,"connecter, lier, joindre, bander",unverbindlich,non-binding,sans engagement,verbinden,"to connect, to link, to join, to bandage","connecter, lier, joindre, bander"
+247,15,C1,C1,A2,fangen,fähig,,"capable, able",to catch,capable,attraper,fähig,"capable, able",capable,fangen,to catch,attraper
+248,15,C1,C1,C1,bedenken,bedenklich,,dubious,"to consider, to reflect, to give, to allow for",douteux,"considérer, réfléchir, donner, permettre",bedenklich,dubious,douteux,bedenken,"to consider, to reflect, to give, to allow for","considérer, réfléchir, donner, permettre"
+249,15,C1,C1,A2,fehlen,fehlerhaft,,faulty,"to lack, to be absent or missing",défectueux,"manquer, être absent ou manquant",fehlerhaft,faulty,défectueux,fehlen,"to lack, to be absent or missing","manquer, être absent ou manquant"
+250,15,C1,C1,B1,leiden,leidenschaftlich,,passionate,"to suffer, to endure, to bear",passionné,"souffrir, endurer, supporter",leidenschaftlich,passionate,passionné,leiden,"to suffer, to endure, to bear","souffrir, endurer, supporter"
+251,15,C1,C1,B1,liefern,lieferbar,,deliverable,"to deliver, to supply",livrable,"livrer, approvisionner",lieferbar,deliverable,livrable,liefern,"to deliver, to supply","livrer, approvisionner"
+252,15,C1,C1,A2,träumen,traumhaft,,dreamy,to dream,rêveur,rêver,traumhaft,dreamy,rêveur,träumen,to dream,rêver
+253,15,C1,C1,B2,erleichtern,erleichtert,,relieved,"to facilitate, to ease, to relieve",soulagé,"faciliter, alléger, soulager",erleichtert,relieved,soulagé,erleichtern,"to facilitate, to ease, to relieve","faciliter, alléger, soulager"
+254,15,C1,C1,C1,locken,lockig,,curly,"to entice, to lure, to rock, to tempt",bouclé,"attirer, allécher",lockig,curly,bouclé,locken,"to entice, to lure, to rock, to tempt","attirer, allécher"
+255,15,C1,C1,C1,ertragen,erträglich,,bearable,"to bear, to stand",supportable,"supporter, se tenir debout",erträglich,bearable,supportable,ertragen,"to bear, to stand","supporter, se tenir debout"
+256,15,C1,C1,A2,helfen,hilflos,,helpless,to help,sans défense,aider,hilflos,helpless,sans défense,helfen,to help,aider
+257,15,C1,C1,B1,überlegen,überlegen,,superior,"to consider, to think about, to reflect, to lay over",supérieur,"considérer, penser à, réfléchir, recouvrir, poser par-dessus",überlegen,superior,supérieur,überlegen,"to consider, to think about, to reflect, to lay over","considérer, penser à, réfléchir, recouvrir, poser par-dessus"
+258,15,C1,C1,A2,erkennen,erkennbar,,recognizable,"to recognize, to realise",reconnaissable,"reconnaître, réaliser",erkennbar,recognizable,reconnaissable,erkennen,"to recognize, to realise","reconnaître, réaliser"
+259,15,C1,C1,A1,scheinen,scheinbar,,apparent,"to shine, to seem (formal)",apparent,"briller, paraître (formel)",scheinbar,apparent,apparent,scheinen,"to shine, to seem (formal)","briller, paraître (formel)"
+260,15,C1,C1,B1,enden,unendlich,,infinite,"to end, to finish, to conclude",infini,"terminer, achever, conclure",unendlich,infinite,infini,enden,"to end, to finish, to conclude","terminer, achever, conclure"
+261,16,C1,C1,A1,mächtig,machen,,"to make, to prepare (e.g. food), to do","powerful, mighty","faire, préparer (par exemple de la nourriture)",puissant,mächtig,"powerful, mighty",puissant,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)"
+262,16,C1,C1,A1,sprachlich,sprechen,,to speak,linguistic,parler (une langue),linguistique,sprachlich,linguistic,linguistique,sprechen,to speak,parler (une langue)
+263,16,C1,C1,B1,wirksam,wirken,,"to have an effect, to work",effective,"avoir un effet, functionner",efficace,wirksam,effective,efficace,wirken,"to have an effect, to work","avoir un effet, functionner"
+264,16,C1,C1,B2,beträchtlich,betrachten,,"to view, to observe",considerable,"voir, observer",considérable,beträchtlich,considerable,considérable,betrachten,"to view, to observe","voir, observer"
+265,16,C1,C1,C1,bemerkenswert,bemerken,,"to notice, to observe, to remark",remarkable,"remarquer, observer",remarquable,bemerkenswert,remarkable,remarquable,bemerken,"to notice, to observe, to remark","remarquer, observer"
+266,16,C1,C1,B1,unverbindlich,verbinden,,"to connect, to link, to join, to bandage",non-binding,"connecter, lier, joindre, bander",sans engagement,unverbindlich,non-binding,sans engagement,verbinden,"to connect, to link, to join, to bandage","connecter, lier, joindre, bander"
+267,16,C1,C1,A2,fähig,fangen,,to catch,"capable, able",attraper,capable,fähig,"capable, able",capable,fangen,to catch,attraper
+268,16,C1,C1,C1,bedenklich,bedenken,,"to consider, to reflect, to give, to allow for",dubious,"considérer, réfléchir, donner, permettre",douteux,bedenklich,dubious,douteux,bedenken,"to consider, to reflect, to give, to allow for","considérer, réfléchir, donner, permettre"
+269,16,C1,C1,A2,fehlerhaft,fehlen,,"to lack, to be absent or missing",faulty,"manquer, être absent ou manquant",défectueux,fehlerhaft,faulty,défectueux,fehlen,"to lack, to be absent or missing","manquer, être absent ou manquant"
+270,16,C1,C1,B1,leidenschaftlich,leiden,,"to suffer, to endure, to bear",passionate,"souffrir, endurer, supporter",passionné,leidenschaftlich,passionate,passionné,leiden,"to suffer, to endure, to bear","souffrir, endurer, supporter"
+271,16,C1,C1,B1,lieferbar,liefern,,"to deliver, to supply",deliverable,"livrer, approvisionner",livrable,lieferbar,deliverable,livrable,liefern,"to deliver, to supply","livrer, approvisionner"
+272,16,C1,C1,A2,traumhaft,träumen,,to dream,dreamy,rêver,rêveur,traumhaft,dreamy,rêveur,träumen,to dream,rêver
+273,16,C1,C1,B2,erleichtert,erleichtern,,"to facilitate, to ease, to relieve",relieved,"faciliter, alléger, soulager",soulagé,erleichtert,relieved,soulagé,erleichtern,"to facilitate, to ease, to relieve","faciliter, alléger, soulager"
+274,16,C1,C1,C1,lockig,locken,,"to entice, to lure, to rock, to tempt",curly,"attirer, allécher",bouclé,lockig,curly,bouclé,locken,"to entice, to lure, to rock, to tempt","attirer, allécher"
+275,16,C1,C1,C1,erträglich,ertragen,,"to bear, to stand",bearable,"supporter, se tenir debout",supportable,erträglich,bearable,supportable,ertragen,"to bear, to stand","supporter, se tenir debout"
+276,16,C1,C1,A2,hilflos,helfen,,to help,helpless,aider,sans défense,hilflos,helpless,sans défense,helfen,to help,aider
+277,16,C1,C1,B1,überlegen,überlegen,,"to consider, to think about, to reflect, to lay over",superior,"considérer, penser à, réfléchir, recouvrir, poser par-dessus",supérieur,überlegen,superior,supérieur,überlegen,"to consider, to think about, to reflect, to lay over","considérer, penser à, réfléchir, recouvrir, poser par-dessus"
+278,16,C1,C1,A2,erkennbar,erkennen,,"to recognize, to realise",recognizable,"reconnaître, réaliser",reconnaissable,erkennbar,recognizable,reconnaissable,erkennen,"to recognize, to realise","reconnaître, réaliser"
+279,16,C1,C1,A1,scheinbar,scheinen,,"to shine, to seem (formal)",apparent,"briller, paraître (formel)",apparent,scheinbar,apparent,apparent,scheinen,"to shine, to seem (formal)","briller, paraître (formel)"
+280,16,C1,C1,B1,unendlich,enden,,"to end, to finish, to conclude",infinite,"terminer, achever, conclure",infini,unendlich,infinite,infini,enden,"to end, to finish, to conclude","terminer, achever, conclure"
+281,17,C1,C1,A1,denken,denkbar,,conceivable,"to think, to consider",concevable,"penser, considérer",denkbar,conceivable,concevable,denken,"to think, to consider","penser, considérer"
+282,17,C1,C1,A1,denken,undenkbar,,unconceivable,"to think, to consider",impensable,"penser, considérer",undenkbar,unconceivable,impensable,denken,"to think, to consider","penser, considérer"
+283,17,C1,C1,B2,betreiben,betrieblich,,operational,"to operate, to run, to conduct",opérationnel,"opérer, diriger, conduire",betrieblich,operational,opérationnel,betreiben,"to operate, to run, to conduct","opérer, diriger, conduire"
+284,17,C1,C1,B1,bemühen,mühsam,,tedious,"to make an effort, to strive",fastidieux,"faire un effort, s'efforcer",mühsam,tedious,fastidieux,bemühen,"to make an effort, to strive","faire un effort, s'efforcer"
+285,17,C1,C1,B2,zulassen,zulässig,,permissible,"to allow, to permit, to license",permis,"permettre, autoriser, autoriser",zulässig,permissible,permis,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
+286,17,C1,C1,B2,zulassen,unzulässig,,inadmissible,"to allow, to permit, to license",inadmissible,"permettre, autoriser, autoriser",unzulässig,inadmissible,inadmissible,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
+287,17,C1,C1,B1,erreichen,erreichbar,,reachable,"to reach, to achieve, to attain",accessible,"atteindre, réaliser, parvenir",erreichbar,reachable,accessible,erreichen,"to reach, to achieve, to attain","atteindre, réaliser, parvenir"
+288,17,C1,C1,B1,verbinden,verbindlich,,binding,"to connect, to link, to join, to bandage",obligatoire,"connecter, lier, joindre, bander",verbindlich,binding,obligatoire,verbinden,"to connect, to link, to join, to bandage","connecter, lier, joindre, bander"
+289,17,C1,C1,C1,auffallen,auffällig,,noticeable,"to stand out, to catch someone's eye (with dative)",perceptible,"se démarquer, attirer l'attention (avec le datif)",auffällig,noticeable,perceptible,auffallen,"to stand out, to catch someone's eye (with dative)","se démarquer, attirer l'attention (avec le datif)"
+290,17,C1,C1,B1,spüren,spürbar,,noticeable,"to feel, to sense, to perceive",visible,"sentir, pressentir, percevoir",spürbar,noticeable,visible,spüren,"to feel, to sense, to perceive","sentir, pressentir, percevoir"
+291,17,C1,C1,A2,verändern,unverändert,,unchanged,"to alter, to change something",inchangé,"modifier, changer quelque chose",unverändert,unchanged,inchangé,verändern,"to alter, to change something","modifier, changer quelque chose"
+292,17,C1,C1,A2,verändern,verändert,,changed,"to alter, to change something",modifié,"modifier, changer quelque chose",verändert,changed,modifié,verändern,"to alter, to change something","modifier, changer quelque chose"
+293,17,C1,C1,B2,fließen,flüssig,,fluid,"to flow, to run",fluide,"couler, courir",flüssig,fluid,fluide,fließen,"to flow, to run","couler, courir"
+294,17,C1,C1,A2,erwarten,unerwartet,,unexpected,"to expect, to await",inattendu,s'attendre à,unerwartet,unexpected,inattendu,erwarten,"to expect, to await",s'attendre à
+295,17,C1,C1,A1,suchen,süchtig,,addictive,"to seek, to search","accro, addict","chercher, rechercher",süchtig,addictive,"accro, addict",suchen,"to seek, to search","chercher, rechercher"
+296,17,C1,C1,B1,vertrauen,vertraut,,trusted,to trust,"de confiance, familier",faire confiance,vertraut,trusted,"de confiance, familier",vertrauen,to trust,faire confiance
+297,17,C1,C1,B2,eignen,geeignet,,suitable,"to be suitable, to be appropriate",approprié,"être convenable, être approprié",geeignet,suitable,approprié,eignen,"to be suitable, to be appropriate","être convenable, être approprié"
+298,17,C1,C1,B2,eignen,ungeeignet,,unsuitable,"to be suitable, to be appropriate",inapproprié,"être convenable, être approprié",ungeeignet,unsuitable,inapproprié,eignen,"to be suitable, to be appropriate","être convenable, être approprié"
+299,17,C1,C1,C1,belasten,belastbar,,durable,"to burden, to charge, to strain",durable,"charger, accabler, mettre à rude épreuve",belastbar,durable,durable,belasten,"to burden, to charge, to strain","charger, accabler, mettre à rude épreuve"
+300,17,C1,C1,B1,entspannen,entspannt,,relaxed,"to relax, to unwind",détendu,"se détendre, se relaxer",entspannt,relaxed,détendu,entspannen,"to relax, to unwind","se détendre, se relaxer"
+301,18,C1,C1,A1,denkbar,denken,,"to think, to consider",conceivable,"penser, considérer",concevable,denkbar,conceivable,concevable,denken,"to think, to consider","penser, considérer"
+302,18,C1,C1,A1,undenkbar,denken,,"to think, to consider",unconceivable,"penser, considérer",impensable,undenkbar,unconceivable,impensable,denken,"to think, to consider","penser, considérer"
+303,18,C1,C1,B2,betrieblich,betreiben,,"to operate, to run, to conduct",operational,"opérer, diriger, conduire",opérationnel,betrieblich,operational,opérationnel,betreiben,"to operate, to run, to conduct","opérer, diriger, conduire"
+304,18,C1,C1,B1,mühsam,bemühen,,"to make an effort, to strive",tedious,"faire un effort, s'efforcer",fastidieux,mühsam,tedious,fastidieux,bemühen,"to make an effort, to strive","faire un effort, s'efforcer"
+305,18,C1,C1,B2,zulässig,zulassen,,"to allow, to permit, to license",permissible,"permettre, autoriser, autoriser",permis,zulässig,permissible,permis,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
+306,18,C1,C1,B2,unzulässig,zulassen,,"to allow, to permit, to license",inadmissible,"permettre, autoriser, autoriser",inadmissible,unzulässig,inadmissible,inadmissible,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
+307,18,C1,C1,B1,erreichbar,erreichen,,"to reach, to achieve, to attain",reachable,"atteindre, réaliser, parvenir",accessible,erreichbar,reachable,accessible,erreichen,"to reach, to achieve, to attain","atteindre, réaliser, parvenir"
+308,18,C1,C1,B1,verbindlich,verbinden,,"to connect, to link, to join, to bandage",binding,"connecter, lier, joindre, bander",obligatoire,verbindlich,binding,obligatoire,verbinden,"to connect, to link, to join, to bandage","connecter, lier, joindre, bander"
+309,18,C1,C1,C1,auffällig,auffallen,,"to stand out, to catch someone's eye (with dative)",noticeable,"se démarquer, attirer l'attention (avec le datif)",perceptible,auffällig,noticeable,perceptible,auffallen,"to stand out, to catch someone's eye (with dative)","se démarquer, attirer l'attention (avec le datif)"
+310,18,C1,C1,B1,spürbar,spüren,,"to feel, to sense, to perceive",noticeable,"sentir, pressentir, percevoir",visible,spürbar,noticeable,visible,spüren,"to feel, to sense, to perceive","sentir, pressentir, percevoir"
+311,18,C1,C1,A2,unverändert,verändern,,"to alter, to change something",unchanged,"modifier, changer quelque chose",inchangé,unverändert,unchanged,inchangé,verändern,"to alter, to change something","modifier, changer quelque chose"
+312,18,C1,C1,A2,verändert,verändern,,"to alter, to change something",changed,"modifier, changer quelque chose",modifié,verändert,changed,modifié,verändern,"to alter, to change something","modifier, changer quelque chose"
+313,18,C1,C1,B2,flüssig,fließen,,"to flow, to run",fluid,"couler, courir",fluide,flüssig,fluid,fluide,fließen,"to flow, to run","couler, courir"
+314,18,C1,C1,A2,unerwartet,erwarten,,"to expect, to await",unexpected,s'attendre à,inattendu,unerwartet,unexpected,inattendu,erwarten,"to expect, to await",s'attendre à
+315,18,C1,C1,A1,süchtig,suchen,,"to seek, to search",addictive,"chercher, rechercher","accro, addict",süchtig,addictive,"accro, addict",suchen,"to seek, to search","chercher, rechercher"
+316,18,C1,C1,B1,vertraut,vertrauen,,to trust,trusted,faire confiance,"de confiance, familier",vertraut,trusted,"de confiance, familier",vertrauen,to trust,faire confiance
+317,18,C1,C1,B2,geeignet,eignen,,"to be suitable, to be appropriate",suitable,"être convenable, être approprié",approprié,geeignet,suitable,approprié,eignen,"to be suitable, to be appropriate","être convenable, être approprié"
+318,18,C1,C1,B2,ungeeignet,eignen,,"to be suitable, to be appropriate",unsuitable,"être convenable, être approprié",inapproprié,ungeeignet,unsuitable,inapproprié,eignen,"to be suitable, to be appropriate","être convenable, être approprié"
+319,18,C1,C1,C1,belastbar,belasten,,"to burden, to charge, to strain",durable,"charger, accabler, mettre à rude épreuve",durable,belastbar,durable,durable,belasten,"to burden, to charge, to strain","charger, accabler, mettre à rude épreuve"
+320,18,C1,C1,B1,entspannt,entspannen,,"to relax, to unwind",relaxed,"se détendre, se relaxer",détendu,entspannt,relaxed,détendu,entspannen,"to relax, to unwind","se détendre, se relaxer"
+321,19,C1,C1,C1,langweilen,gelangweilt,,bored,"to bore, to be bored, to be boring",ennuyé,"s'ennuyer, être ennuyé, être ennuyeux",gelangweilt,bored,ennuyé,langweilen,"to bore, to be bored, to be boring","s'ennuyer, être ennuyé, être ennuyeux"
+322,19,C1,C1,A1,verlieren,verloren,,lost,to lose,perdu,perdre,verloren,lost,perdu,verlieren,to lose,perdre
+323,19,C1,C1,A1,regnen,regnerisch,,rainy,to rain,pluvieux,pleuvoir,regnerisch,rainy,pluvieux,regnen,to rain,pleuvoir
+324,19,C1,C1,A2,erlauben,erlaubt,,allowed,"to allow, to permit",autorisé,"permettre, donner l'autorisation",erlaubt,allowed,autorisé,erlauben,"to allow, to permit","permettre, donner l'autorisation"
+325,19,C1,C1,B1,berücksichtigen,rücksichtslos,,reckless,"to consider, to take into account",téméraire,"considérer, prendre en compte",rücksichtslos,reckless,téméraire,berücksichtigen,"to consider, to take into account","considérer, prendre en compte"
+326,19,C1,C1,B1,berücksichtigen,rücksichtsvoll,,considerate,"to consider, to take into account",prévenant,"considérer, prendre en compte",rücksichtsvoll,considerate,prévenant,berücksichtigen,"to consider, to take into account","considérer, prendre en compte"
+327,19,C1,C1,C1,anstellen,angestellt,,employed,"to queue (refl.), to employ someone, to hire, to get into mischief",employé,"faire la queue (réfl.), employer quelqu'un, faire des bêtises",angestellt,employed,employé,anstellen,"to queue (refl.), to employ someone, to hire, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
+328,19,C1,C1,A1,tragen,tragfähig,,viable,"to wear (clothing), to carry, to hold",viable,"porter (des vêtements), transporter, tenir",tragfähig,viable,viable,tragen,"to wear (clothing), to carry, to hold","porter (des vêtements), transporter, tenir"
+329,19,C1,C1,B1,vertrauen,vertraulich,,confidential,to trust,confidentiel,faire confiance,vertraulich,confidential,confidentiel,vertrauen,to trust,faire confiance
+330,19,C1,C1,C1,widersprechen,widersprüchlich,,contradictory,"to contradict, to disagree",contradictoire,"contredire, être en désaccord",widersprüchlich,contradictory,contradictoire,widersprechen,"to contradict, to disagree","contredire, être en désaccord"
+331,19,C1,C1,C1,anschauen,anschaulich,,vivid,"to look at, to behold, to take a look at, to watch (Bayern and Austria)",vif,"regarder, contempler, jeter un coup d'œil à, observer (Bayern et Autriche)",anschaulich,vivid,vif,anschauen,"to look at, to behold, to take a look at, to watch (Bayern and Austria)","regarder, contempler, jeter un coup d'œil à, observer (Bayern et Autriche)"
+332,19,C1,C1,C1,ansprechen,anspruchsvoll,,demanding,"to address, to speak to, to appeal to",exigeant,"s'adresser à, parler à, faire appel à",anspruchsvoll,demanding,exigeant,ansprechen,"to address, to speak to, to appeal to","s'adresser à, parler à, faire appel à"
+333,19,C1,C1,C1,anwenden,anwendbar,,applicable,"to apply, to make use of",en vigueur,"appliquer, faire usage de",anwendbar,applicable,en vigueur,anwenden,"to apply, to make use of","appliquer, faire usage de"
+334,20,C1,C1,C1,gelangweilt,langweilen,,"to bore, to be bored, to be boring",bored,"s'ennuyer, être ennuyé, être ennuyeux",ennuyé,gelangweilt,bored,ennuyé,langweilen,"to bore, to be bored, to be boring","s'ennuyer, être ennuyé, être ennuyeux"
+335,20,C1,C1,A1,verloren,verlieren,,to lose,lost,perdre,perdu,verloren,lost,perdu,verlieren,to lose,perdre
+336,20,C1,C1,A1,regnerisch,regnen,,to rain,rainy,pleuvoir,pluvieux,regnerisch,rainy,pluvieux,regnen,to rain,pleuvoir
+337,20,C1,C1,A2,erlaubt,erlauben,,"to allow, to permit",allowed,"permettre, donner l'autorisation",autorisé,erlaubt,allowed,autorisé,erlauben,"to allow, to permit","permettre, donner l'autorisation"
+338,20,C1,C1,B1,rücksichtslos,berücksichtigen,,"to consider, to take into account",reckless,"considérer, prendre en compte",téméraire,rücksichtslos,reckless,téméraire,berücksichtigen,"to consider, to take into account","considérer, prendre en compte"
+339,20,C1,C1,B1,rücksichtsvoll,berücksichtigen,,"to consider, to take into account",considerate,"considérer, prendre en compte",prévenant,rücksichtsvoll,considerate,prévenant,berücksichtigen,"to consider, to take into account","considérer, prendre en compte"
+340,20,C1,C1,C1,angestellt,anstellen,,"to queue (refl.), to employ someone, to hire, to get into mischief",employed,"faire la queue (réfl.), employer quelqu'un, faire des bêtises",employé,angestellt,employed,employé,anstellen,"to queue (refl.), to employ someone, to hire, to get into mischief","faire la queue (réfl.), employer quelqu'un, faire des bêtises"
+341,20,C1,C1,A1,tragfähig,tragen,,"to wear (clothing), to carry, to hold",viable,"porter (des vêtements), transporter, tenir",viable,tragfähig,viable,viable,tragen,"to wear (clothing), to carry, to hold","porter (des vêtements), transporter, tenir"
+342,20,C1,C1,B1,vertraulich,vertrauen,,to trust,confidential,faire confiance,confidentiel,vertraulich,confidential,confidentiel,vertrauen,to trust,faire confiance
+343,20,C1,C1,C1,widersprüchlich,widersprechen,,"to contradict, to disagree",contradictory,"contredire, être en désaccord",contradictoire,widersprüchlich,contradictory,contradictoire,widersprechen,"to contradict, to disagree","contredire, être en désaccord"
+344,20,C1,C1,C1,anschaulich,anschauen,,"to look at, to behold, to take a look at, to watch (Bayern and Austria)",vivid,"regarder, contempler, jeter un coup d'œil à, observer (Bayern et Autriche)",vif,anschaulich,vivid,vif,anschauen,"to look at, to behold, to take a look at, to watch (Bayern and Austria)","regarder, contempler, jeter un coup d'œil à, observer (Bayern et Autriche)"
+345,20,C1,C1,C1,anspruchsvoll,ansprechen,,"to address, to speak to, to appeal to",demanding,"s'adresser à, parler à, faire appel à",exigeant,anspruchsvoll,demanding,exigeant,ansprechen,"to address, to speak to, to appeal to","s'adresser à, parler à, faire appel à"
+346,20,C1,C1,C1,anwendbar,anwenden,,"to apply, to make use of",applicable,"appliquer, faire usage de",en vigueur,anwendbar,applicable,en vigueur,anwenden,"to apply, to make use of","appliquer, faire usage de"
+347,121,C2,A1,C2,,,,,,,,frei,free,libre,freien,,
+348,121,C2,A1,C2,,,,,,,,schmutzig,dirty,sale,verschmutzen,to pollute,"polluer, salir"
+349,121,C2,A2,C2,,,,,,,,schwer,heavy,lourd,beschweren,"to complain, to weigh down","se plaindre, alourdir"
+350,121,C2,A2,C2,,,,,,,,breit,wide,large,breiten,,
+351,121,C2,A2,C2,,,,,,,,ähnlich,similar,similaire,ähneln,,
+352,121,C2,A2,C2,,,,,,,,kühl,cool,"frais, froid",kühlen,,
+353,121,C2,B1,C2,,,,,,,,gefährlich,dangerous,dangereux,gefährden,to endanger,mettre en danger
+354,121,C2,B1,C2,,,,,,,,beruflich,professional,professionnel,berufen,,
+355,121,C2,B1,C2,,,,,,,,kaputt,broken,cassé,kaputtgehen,,
+356,121,C2,B1,C2,,,,,,,,verschieden,"different, various","divers, différent",verscheiden,"to decease, to die, to pass away",
+357,121,C2,B1,C2,,,,,,,,zuständig,responsible,responsable,zustehen,"to be entitled to, to to be due","avoir droit à, être dû"
+358,121,C2,B2,C2,,,,,,,,zukünftig,future,futur,zukommen,,
+359,121,C2,B2,C2,,,,,,,,dicht,dense,dense,dichten,,
+360,121,C2,B2,C2,,,,,,,,giftig,toxic,toxique,vergiften,to poison,empoisonner
+361,121,C2,B2,C2,,,,,,,,durstig,thirsty,assoiffé,dürsten,,
+362,121,C2,B2,C2,,,,,,,,eilig,hurry,"pressé, urgent",eilen,"to hurry, to rush, to be urgent, to haste","se dépêcher, se hâter, être urgent"
+363,121,C2,B2,C2,,,,,,,,kompliziert,complicated,compliqué,komplizieren,,
+364,121,C2,B2,C2,,,,,,,,anstrengend,exhausting,épuisant,anstrengen,"to exert, to strain, to make an effort, to apply","exercer, se démener, faire un effort, appliquer"
+365,121,C2,B2,C2,,,,,,,,ausgezeichnet,"excellent, distinguished","excellent, distingué",auszeichnen,"to honor, to distinguish","honorer, distinguer"
+366,121,C2,B2,C2,,,,,,,,stabil,stable,stable,stabilisieren,,
+367,121,C2,B2,C2,,,,,,,,reif,"mature, ripe",mûr,reifen,,
+368,121,C2,C1,C2,,,,,,,,einheitlich,uniform,uniforme,einen,,
+369,121,C2,C1,C2,,,,,,,,zugänglich,accessible,accessible,zugehen,"to approach, to close, to happen","s'approcher, se fermer, se produire"
+370,121,C2,C1,C2,,,,,,,,verständlich,understandable,compréhensible,verständigen,,
+371,121,C2,C1,C2,,,,,,,,knackig,crisp,croustillant,knacken,,
+372,121,C2,C1,C2,,,,,,,,vereinbar,compatible,compatible,vereinen,,
+373,121,C2,C1,C2,,,,,,,,absichtlich,deliberate,intentionnel,absehen,"to foresee, to overlook, to disregard","prévoir, négliger"
+374,121,C2,C1,C2,,,,,,,,motiviert,motivated,motivé,motivieren,"to motivate, to give reasons, to inspire","motiver, donner des raisons, inspirer"
+375,121,C2,C1,C2,,,,,,,,zweifellos,doubtless,indubitable,zweifeln,"to doubt, to question","douter, remettre en question"
+376,121,C2,C1,C2,,,,,,,,zweifelhaft,doubtful,douteux,zweifeln,"to doubt, to question","douter, remettre en question"
+377,121,C2,C1,C2,,,,,,,,experimentell,experimental,expérimental,experimentieren,to experiment,expérimenter
+378,121,C2,C1,C2,,,,,,,,hervorragend,terrific,formidable,hervorragen,,
+379,121,C2,C1,C2,,,,,,,,verlegen,embarrassed,gêné,verlegen,,
+380,121,C2,C1,C2,,,,,,,,ahnungslos,unsuspecting,sans méfiance,ahnen,,
+381,121,C2,C1,C2,,,,,,,,ersichtlich,evident,évident,ersehen,,
+382,151,D1,B1,D1,offenbar,offenbaren,,,"obvious, evident",,évident,offenbar,"obvious, evident",évident,offenbaren,,
+383,151,D1,A1,D1,,,,,,,,alt,old,vieux,altern,to age,vieillir
+384,151,D1,A1,D1,,,,,,,,neu,new,nouveau,erneuern,,
+385,151,D1,A1,D1,,,,,,,,schwierig,difficult,difficile,erschweren,to burden,accabler
+386,151,D1,A1,D1,,,,,,,,klein,small,petit,verkleinern,to reduce,réduire
+387,151,D1,A1,D1,,,,,,,,schlecht,bad,mauvais,verschlechtern,to worsen,s'aggraver
+388,151,D1,A1,D1,,,,,,,,kurz,short,court,verkürzen,to shorten,raccourcir
+389,151,D1,A1,D1,,,,,,,,heiß,hot,chaud,erhitzen,,
+390,151,D1,A1,D1,,,,,,,,reich,rich,riche,bereichern,,
+391,151,D1,A1,D1,,,,,,,,sauber,clean,propre,säubern,to clean,nettoyer
+392,151,D1,A2,D1,,,,,,,,krank,sick,malade,erkranken,,
+393,151,D1,A2,D1,,,,,,,,fertig,finished,fini,fertigen,,
+394,151,D1,A2,D1,,,,,,,,leer,empty,vide,leeren,to empty,vider
+395,151,D1,A2,D1,,,,,,,,eng,"tight, narrow","étroit, serré",engen,,
+396,151,D1,A2,D1,,,,,,,,zufrieden,satisfied,satisfait,befriedigen,,
+397,151,D1,A2,D1,,,,,,,,hart,"hard, tough",dur,härten,to harden,durcir
+398,151,D1,A2,D1,,,,,,,,schrecklich,terrible,terrible,schrecken,,
+399,151,D1,A2,D1,,,,,,,,warm,warm,"chaud, doux",wärmen,,
+400,151,D1,A2,D1,,,,,,,,warm,warm,"chaud, doux",erwärmen,to warm,réchauffer
+401,151,D1,A2,D1,,,,,,,,kühl,cool,"frais, froid",abkühlen,to cool down,pour se rafraîchir
+402,151,D1,A2,D1,,,,,,,,freundlich,friendly,amical,befreunden,to befriend (refl.),se lier d'amitié (réfl.)
+403,151,D1,A2,D1,,,,,,,,scharf,spicy,épicé,schärfen,,
+404,151,D1,B1,D1,,,,,,,,offenbar,"obvious, evident",évident,offenbaren,,
+405,151,D1,B1,D1,,,,,,,,nervös,nervous,nerveux,nerven,"to annoy someone, to get on someone's nerves","ennuyer quelqu'un, taper sur les nerfs de quelqu'un"
+406,151,D1,B1,D1,,,,,,,,kaputt,broken,cassé,kaputtmachen,,
+407,151,D1,B1,D1,,,,,,,,mutig,courageous,courageux,ermutigen,,
+408,151,D1,B1,D1,,,,,,,,verheiratet,married,marié,verheiraten,"to marry (to perform the marriage), to get married (refl.)","se marier (célébrer le mariage), se marier (réfl.)"
+409,151,D1,B1,D1,,,,,,,,günstig,cheap,bon marché,begünstigen,,
+410,151,D1,B2,D1,,,,,,,,sinnvoll,sensible,sensible,besinnen,,
+411,151,D1,B2,D1,,,,,,,,unsicher,unsure,incertain,verunsichern,,
+412,151,D1,B2,D1,,,,,,,,wirtschaftlich,economic,économique,erwirtschaften,,
+413,151,D1,B2,D1,,,,,,,,unbedingt,"absolute, unconditional","inconditionnel, absolu",bedingen,,
+414,151,D1,B2,D1,,,,,,,,harmlos,harmless,inoffensif,verharmlosen,,
+415,151,D1,B2,D1,,,,,,,,glatt,"smooth, slippery",lisse,glätten,,
+416,151,D1,B2,D1,,,,,,,,beliebt,popular,populaire,belieben,,
+417,151,D1,B2,D1,,,,,,,,bescheiden,modest,modeste,bescheiden,,
+418,151,D1,B2,D1,,,,,,,,fein,"fine, refined","fin, raffiné",verfeinern,,
+419,151,D1,B2,D1,,,,,,,,schlank,thin,mince,schlingen,,
+420,151,D1,B2,D1,,,,,,,,vollständig,"whole, entire, complete","entier, complet",vervollständigen,,
+421,151,D1,C1,D1,,,,,,,,gespannt,tense,tendu,spannen,,
+422,151,D1,C1,D1,,,,,,,,verdächtig,suspicious,suspect,verdächtigen,,
+423,151,D1,C1,D1,,,,,,,,blind,blind,aveugle,blenden,,
+424,151,D1,C1,D1,,,,,,,,gar,"cooked, done, refined","bien cuit, à point",garen,,
+425,151,D1,C1,D1,,,,,,,,schief,crooked,"oblique, de travers",schiefgehen,to go wrong,aller mal
+426,151,D1,C1,D1,,,,,,,,spezifisch,specific,spécifique,spezifizieren,,
+427,151,D1,C1,D1,,,,,,,,erstaunlich,astonishing,étonnant,erstaunen,,
+428,151,D1,C1,D1,,,,,,,,mangelhaft,deficient,inadéquat,mangeln,,
+429,151,D1,C1,D1,,,,,,,,mangelhaft,deficient,inadéquat,bemängeln,,
+430,151,D1,C1,D1,,,,,,,,strafbar,punishable,punissable,strafen,,
+431,151,D1,C1,D1,,,,,,,,gestresst,stressed,stressé,stressen,,
+432,151,D1,C1,D1,,,,,,,,erneuerbar,renewable,renouvelable,erneuern,,
+433,151,D1,C1,D1,,,,,,,,locker,relaxed,lâche,lockern,,
+434,151,D1,C1,D1,,,,,,,,beliebig,"any, whichever","n'importe quel, quelconque",belieben,,
+435,151,D1,C1,D1,,,,,,,,aufwendig,elaborate,élaborer,aufwenden,,
+436,151,D1,C1,D1,,,,,,,,flüchtig,volatile,volatil,flüchten,,
+437,151,D1,C1,D1,,,,,,,,spannend,exciting,passionnant,spannen,,
+438,151,D1,C1,D1,,,,,,,,reibungslos,Smoothly,Doucement,reiben,,
+439,151,D1,C1,D1,,,,,,,,ansteckend,contagious,contagieux,anstecken,,
+440,151,D1,C1,D1,,,,,,,,hemmungslos,uninhibited,sans inhibition,hemmen,,
+441,151,D1,C1,D1,,,,,,,,nachlässig,negligent,négligent,vernachlässigen,,
+442,171,D2,A1,D2,,,,,,,,jung,young,jeune,verjüngen,,
+443,171,D2,A1,D2,,,,,,,,falsch,"false, wrong",faux,fälschen,,
+444,171,D2,A1,D2,,,,,,,,niedrig,low,bas,erniedrigen,,
+445,171,D2,A1,D2,,,,,,,,wahr,true,vrai,wahrhaben,,
+446,171,D2,A1,D2,,,,,,,,wahr,true,vrai,wahrsagen,,
+447,171,D2,A1,D2,,,,,,,,kalt,cold,froid,erkalten,,
+448,171,D2,A1,D2,,,,,,,,sauber,clean,propre,saubermachen,,
+449,171,D2,A1,D2,,,,,,,,müde,tired,fatigué,ermüden,,
+450,171,D2,A1,D2,,,,,,,,dumm,stupid,stupide,verdummen,,
+451,171,D2,A1,D2,,,,,,,,schwach,weak,faible,schwächeln,,
+452,171,D2,A2,D2,,,,,,,,dunkel,dark,sombre,dunkeln,,
+453,171,D2,A2,D2,,,,,,,,weich,soft,doux,erweichen,,
+454,171,D2,A2,D2,,,,,,,,dünn,thin,mince,verdünnen,,
+455,171,D2,A2,D2,,,,,,,,faul,lazy,paresseux,faulen,,
+456,171,D2,A2,D2,,,,,,,,bewölkt,cloudy,nuageux,bewölken,,
+457,171,D2,A2,D2,,,,,,,,bitter,bitter,amer,verbittern,,
+458,171,D2,A2,D2,,,,,,,,süß,sweet,sucré,süßen,,
+459,171,D2,A2,D2,,,,,,,,sauer,sour,aigre,säuern,,
+460,171,D2,B1,D2,,,,,,,,notwendig,necessary,nécessaire,notwenden,,
+461,171,D2,B1,D2,,,,,,,,zusätzlich,additional,supplémentaire,zusetzen,,
+462,171,D2,B1,D2,,,,,,,,willkommen,welcome,accueilli,bewillkommnen,,
+463,171,D2,B1,D2,,,,,,,,fremd,foreign,étranger,verfremden,,
+464,171,D2,B1,D2,,,,,,,,fremd,foreign,étranger,befremden,,
+465,171,D2,B1,D2,,,,,,,,fremd,foreign,étranger,entfremden,,
+466,171,D2,B1,D2,,,,,,,,aufmerksam,attentive,attentif,aufmerken,to pay attention,faire attention
+467,171,D2,B1,D2,,,,,,,,schwanger,pregnant,enceinte,schwängern,,
+468,171,D2,B1,D2,,,,,,,,fett,fat,gras,fetten,,
+469,171,D2,B1,D2,,,,,,,,fett,fat,gras,einfetten,,
+470,171,D2,B1,D2,,,,,,,,günstig,cheap,bon marché,vergünstigen,,
+471,171,D2,B1,D2,,,,,,,,schlimm,bad,mauvais,verschlimmern,,
+472,171,D2,B1,D2,,,,,,,,schlimm,bad,mauvais,verschlimmbessern,,
+473,171,D2,B1,D2,,,,,,,,schmal,"tight, narrow","étroit, serré",schmälern,,
+474,171,D2,B1,D2,,,,,,,,blöd,stupid,stupide,blödeln,,
+475,171,D2,B2,D2,,,,,,,,perfekt,perfect,parfait,perfektionieren,,
+476,171,D2,B2,D2,,,,,,,,flach,"flat, shallow","plat, superficiel",verflachen,,
+477,171,D2,B2,D2,,,,,,,,wild,wild,sauvage,wildern,,
+478,171,D2,B2,D2,,,,,,,,durchschnittlich,average,moyenne,durchschneiden,,
+479,171,D2,B2,D2,,,,,,,,hübsch,pretty,joli,aufhübschen,,
+480,171,D2,B2,D2,,,,,,,,selbstständig,"self-employed, independent","autonome, indépendant, à son compte",verselbstständigen,,
+481,171,D2,B2,D2,,,,,,,,zufällig,random,"aléatoire, fortuit",zufallen,,
+482,171,D2,B2,D2,,,,,,,,voraussichtlich,"expected, anticipated","prévu, anticipé",voraussehen,,
+483,171,D2,B2,D2,,,,,,,,ängstlich,anxious,craintif,ängstigen,to frighten,effrayer
+484,171,D2,B2,D2,,,,,,,,blass,pale,pâle,erblassen,,
+485,171,D2,B2,D2,,,,,,,,blass,pale,pâle,verblassen,,
+486,171,D2,B2,D2,,,,,,,,nachhaltig,"sustainable, lasting",durable,nachhalten,,
+487,171,D2,B2,D2,,,,,,,,berühmt,famous,célèbre,rühmen,,
+488,171,D2,B2,D2,,,,,,,,eifersüchtig,"jealous, envious","jaloux, envieux",ereifern,,
+489,171,D2,B2,D2,,,,,,,,ziemlich,considerable,"pas mal de, assez",ziemen,,
+490,171,D2,B2,D2,,,,,,,,schüchtern,shy,timide,einschüchtern,,
+491,171,D2,B2,D2,,,,,,,,verrückt,crazy,fou,verrücken,,
+492,171,D2,B2,D2,,,,,,,,wütend,angry,furieux,wüten,,
+493,171,D2,B2,D2,,,,,,,,eindeutig,"articulate, clear, distinct, considerable","clair, notable, évident",eindeuten,,
+494,171,D2,B2,D2,,,,,,,,herrlich,wonderful,merveilleux,verherrlichen,,
+495,171,D2,B2,D2,,,,,,,,gering,low,bas,geringschätzen,,
+496,171,D2,B2,D2,,,,,,,,populär,popular,populaire,pauschalisieren,,
+497,171,D2,C1,D2,,,,,,,,vorläufig,provisional,"provisoire, préliminaire",vorlaufen,,
+498,171,D2,C1,D2,,,,,,,,spitz,pointed,pointu,anspitzen,,
+499,171,D2,C1,D2,,,,,,,,spitz,pointed,pointu,zuspitzen,,
+500,171,D2,C1,D2,,,,,,,,angemessen,appropriate,approprié,anmessen,,
+501,171,D2,C1,D2,,,,,,,,stumm,mute,muet,verstummen,,
+502,171,D2,C1,D2,,,,,,,,friedlich,peaceful,pacifique,befrieden,,
+503,171,D2,C1,D2,,,,,,,,erneut,anew,nouveau,erneuen,,
+504,171,D2,C1,D2,,,,,,,,rau,rough,rugueux,aufrauen,,
+505,171,D2,C1,D2,,,,,,,,fortgeschritten,advanced,avancé,fortschreiten,,
+506,171,D2,C1,D2,,,,,,,,taub,deaf,sourd,betäuben,,
+507,171,D2,C1,D2,,,,,,,,pauschal,blanket,forfaitaire,pauschalisieren,,
+508,171,D2,C1,D2,,,,,,,,mager,"skinny, meager",maigre,abmagern,,
+509,171,D2,C1,D2,,,,,,,,gewaltig,enormous,énorme,walten,,
+510,171,D2,C1,D2,,,,,,,,gelegentlich,occasional,occasionnel,gelegen,,
+511,171,D2,C1,D2,,,,,,,,umstritten,controversial,controversé,umstreiten,,
+512,171,D2,C1,D2,,,,,,,,fähig,"capable, able",capable,befähigen,,
+513,171,D2,C1,D2,,,,,,,,fromm,pious,pieux,frömmeln,,
+514,171,D2,C1,D2,,,,,,,,korrupt,corrupt,corrompu,korrumpieren,,
+515,171,D2,C1,D2,,,,,,,,vielfach,multiple,plusieurs fois,vervielfachen,,
+516,171,D2,C1,D2,,,,,,,,sanft,soft,doux,besänftigen,,
+517,171,D2,C1,D2,,,,,,,,schlicht,"simple, plain",simple,schlichten,,
+518,171,D2,C1,D2,,,,,,,,vollkommen,"perfect, complete","parfait, complet",vervollkommnen,,
+519,171,D2,C1,D2,,,,,,,,vermeintlich,supposedly,soi-disant,vermeinen,,
+520,171,D2,C1,D2,,,,,,,,flüchtig,volatile,volatil,verflüchtigen,,
+521,171,D2,C1,D2,,,,,,,,mutmaßlich,"alleged, suspected, presumed","présumé, probable",mutmaßen,,
+522,171,D2,C1,D2,,,,,,,,boshaft,malicious,malveillant,erbosen,,
+523,171,D2,C1,D2,,,,,,,,ekelhaft,disgusting,dégoûtant,ekeln,to disgust,dégoûter
+524,171,D2,C1,D2,,,,,,,,eklig,disgusting,dégoûtant,ekeln,to disgust,dégoûter
+525,171,D2,C1,D2,,,,,,,,geizig,stingy,avare,geizen,,
+526,171,D2,C1,D2,,,,,,,,schlampig,sloppy,négligent,schlampen,,
+527,171,D2,C1,D2,,,,,,,,spöttisch,mocking,railleur,spötteln,,

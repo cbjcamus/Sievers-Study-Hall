@@ -836,11 +836,11 @@ Das Hotel, in dem wir übernachtet haben, hatte ein tolles Frühstück.",The hot
 <br>
 <br>
 Die Wohnung, in der ich seit drei Jahren wohne, ist sehr ruhig.",The apartment where I've lived for three years is very quiet.,L'appartement où je vis depuis trois ans est très calme.,,,,,
-820,25,"Die Straße, _____ Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt.",wo/in deren,"Die Straße, wo der Name des berühmten Schriftstellers erwähnt wird, ist in der Altstadt.
+820,25,"Die Straße, _____ Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt.",wo der/in deren,"Die Straße, wo der Name des berühmten Schriftstellers erwähnt wird, ist in der Altstadt.
 <br>
 <br>
 Die Straße, in deren Name der berühmte Schriftsteller erwähnt wird, ist in der Altstadt.",The street in which the famous writer's name is mentioned is in the Old Town.,La rue dans laquelle le nom du célèbre écrivain est mentionné se trouve dans la vieille ville.,,,,,
-821,25,"Der Raum, _____ Decke repariert werden muss, ist geschlossen.",wo/in dessen,"Der Raum, wo die Decke repariert werden muss, ist geschlossen.
+821,25,"Der Raum, _____ Decke repariert werden muss, ist geschlossen.",wo die/in dessen,"Der Raum, wo die Decke repariert werden muss, ist geschlossen.
 <br>
 <br>
 Der Raum, in dessen Decke repariert werden muss, ist geschlossen.",The room where the ceiling needs to be repaired is closed.,La pièce où le plafond doit être réparé est fermée.,,,,,
@@ -851,7 +851,7 @@ Das ist das Dorf, in das ich gezogen bin.",This is the village I moved to.,C'est
 823,25,"Das ist der Park, _____ die Kinder laufen.",wohin/in den,"Das ist der Park, wohin die Kinder laufen.
 <br>
 <br>
-Das ist der Park, in den die Kinder laufen.",This is the park where the children run.,C'est le parc où courent les enfants.,,,,,
+Das ist der Park, in den die Kinder laufen.",That's the park the children run to.,C'est le parc où les enfants vont courir.,,,,,
 824,25,"Die Stadt, _____ ich meinen Freund eingeladen habe, ist wunderschön.",wohin/in die,"Die Stadt, wohin ich meinen Freund eingeladen habe, ist wunderschön.
 <br>
 <br>
@@ -1153,7 +1153,7 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 1080,100,,seiner,sein,,,,Genitive,Génitif,Plural,Pluriel
 1081,100,,,alle,all,,,,,,
 1082,100,,,jeder,each,,,,,,
-1083,100,,,kein,,,,,,,
+1083,100,,,kein,none,,,,,,
 1084,100,,,welche/einige/manche,,,,,,,
 1085,100,,,irgendjemand,,,,,,,
 1086,100,,,irgendjemanden,,,,,,,
@@ -1214,7 +1214,8 @@ Der Raum, aus dem die seltsamen Geräusche kommen, ist verschlossen.",The room f
 1141,100,,,Die übrigen,,,,,,,
 1142,100,,,Die meisten,,,,,,,
 1143,100,,,die wenigsten,,,,,,,
-1144,100,,,Die Ersteren,,,,,,,
-1145,100,,,die Letzteren,,,,,,,
+1144,100,,,Die Ersteren,,les uns,,,,,
+1145,100,,,die Letzteren,,les autres,,,,,
 1146,100,,,von Seiten anderer,,,,,,,
 1147,100,,,von Außenstehenden,,by outsiders,,,,,
+1148,100,,,eines,one thing,une chose,,,,,

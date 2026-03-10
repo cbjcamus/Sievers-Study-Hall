@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien,
+    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 # bullet point \u25CF
@@ -36,18 +36,18 @@ INSTRUCTION_FR = {
 
         17: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         18: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        19: "Traduisez la préposition ci-dessous :",
+        19: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         20: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         21: "Traduisez la préposition ci-dessous :",
         22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        23: "Traduisez le groupe prépositionel ci-dessous :",
+        23: "Traduisez la préposition ci-dessous :",
         24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        25: "Traduisez la postposition ci-dessous :",
-        26: "Complétez la phrase ci-dessous avec la postposition qui convient :",
-        27: "Trouvez un synonyme pour la préposition suivant :",
-        28: "Trouvez un antonyme pour la préposition suivant :",
-
-        29: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        25: "Traduisez le groupe prépositionel ci-dessous :",
+        26: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        27: "Traduisez la postposition ci-dessous :",
+        28: "Complétez la phrase ci-dessous avec la postposition qui convient :",
+        29: "Trouvez un synonyme pour la préposition suivant :",
+        30: "Trouvez un antonyme pour la préposition suivant :",
     },
 
     praepositionen_verben: {
@@ -60,44 +60,42 @@ INSTRUCTION_FR = {
         6: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         7: "Écrivez la préposition qui correspond au verbe suivant :",
         8: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        9: "Complétez la phrase suivante avec l'Adverbe Pronominal en Da- qui convient :",
-        10: "Complétez la phrase suivante avec l'Adverbe Pronominal en Da- qui convient :",
 
+        9: "Écrivez la préposition qui correspond au verbe suivant :",
+        10: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         11: "Écrivez la préposition qui correspond au verbe suivant :",
         12: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         13: "Écrivez la préposition qui correspond au verbe suivant :",
         14: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         15: "Écrivez la préposition qui correspond au verbe suivant :",
         16: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         17: "Écrivez la préposition qui correspond au verbe suivant :",
         18: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         19: "Écrivez la préposition qui correspond au verbe suivant :",
         20: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         21: "Écrivez la préposition qui correspond au verbe suivant :",
         22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         23: "Écrivez la préposition qui correspond au verbe suivant :",
         24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         25: "Écrivez la préposition qui correspond au verbe suivant :",
         26: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         27: "Écrivez la préposition qui correspond au verbe suivant :",
         28: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         29: "Écrivez la préposition qui correspond au verbe suivant :",
         30: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         31: "Écrivez la préposition qui correspond au verbe suivant :",
         32: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         33: "Écrivez la préposition qui correspond au verbe suivant :",
         34: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         35: "Écrivez la préposition qui correspond au verbe suivant :",
         36: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         37: "Écrivez la préposition qui correspond au verbe suivant :",
         38: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         39: "Écrivez la préposition qui correspond au verbe suivant :",
         40: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        41: "Écrivez la préposition qui correspond au verbe suivant :",
-        42: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
 
     praepositionen_adjektive: {
@@ -186,6 +184,16 @@ INSTRUCTION_FR = {
         2: "Something",
         3: "Something",
         4: "Something",
+    },
+
+    pronominaladverbien: {
+        1: "Complétez la phrase suivante avec l'Adverbe Pronominal en <i>Da</i> qui convient :",
+
+        2: "Complétez la phrase suivante avec l'Adverbe Pronominal en <i>Da</i> qui convient :",
+        3: "Complétez la phrase suivante avec l'Adverbe Pronominal en <i>Da</i> qui convient :",
+        4: "Complétez la phrase suivante avec l'Adverbe Pronominal en <i>Wo</i> qui convient :",
+
+        5: "Complétez la phrase suivante avec l'Adverbe Pronominal en <i>Wo</i> qui convient :",
     },
 
     artikel: {
@@ -523,6 +531,54 @@ INSTRUCTION_FR = {
         3: "Complétez la phrase suivante avec la conjonction qui convient :",
 
         4: "Complétez la phrase suivante avec la conjonction ou la préposition qui convient :",
+    },
+
+    adjektive_verben_wortstaemme: {
+        1: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        2: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        3: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        4: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+
+        5: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        6: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        7: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        8: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        9: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        10: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+
+        11: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        12: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        13: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        14: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        15: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        16: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        17: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        18: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+        19: "Trouvez l'adjectif manquant dans la paire Adjectif-Verbe suivante :",
+        20: "Trouvez le verbe manquant dans la paire Adjectif-Verbe suivante :",
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        2: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+        3: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        4: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+
+        5: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        6: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+        7: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        8: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+
+        9: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        10: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+        11: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        12: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+        13: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        14: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+        15: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        16: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
+        17: "Trouvez l'adjectif manquant dans la paire Adjectif-Nom suivante :",
+        18: "Trouvez le nom commun manquant dans la paire Adjectif-Nom suivante :",
     },
 
     verben: {

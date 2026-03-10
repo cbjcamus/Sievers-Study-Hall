@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_artikel,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 HOME_DESCRIPTION_EN = {
@@ -16,6 +16,7 @@ HOME_DESCRIPTION_EN = {
     praepositionen_nomen: "Noun-Preposition pairs",
     praepositionen_adverbien: "Adverb-Preposition pairs",
     praepositionen_artikel: "Cases following Prepositions",
+    pronominaladverbien: "Da-words and Wo-words",
 
     artikel: "Articles marinated in every grammatical cases",
     pronomen: "Pronouns in every grammatical cases",
@@ -27,6 +28,8 @@ HOME_DESCRIPTION_EN = {
     komparativ_superlativ: "Adjectives' comparative and superlative forms",
     adjektivdeklinationen: "All the Adjective Declensions",
     adjektive_konjunktionen: "Adjective Conjunctions and Constructions",
+    adjektive_verben_wortstaemme: "Adjective-Verb Pairs with the same etymological root",
+    adjektive_nomen_wortstaemme: "Adjective-Noun Pairs with the same etymological root",
 
     verben: "Translations of German Verbs",
     trennbare_verben: "Separable and Inseparable Verbs",

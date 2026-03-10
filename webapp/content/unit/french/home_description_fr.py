@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_artikel,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 HOME_DESCRIPTION_FR = {
@@ -16,6 +16,7 @@ HOME_DESCRIPTION_FR = {
     praepositionen_nomen: "Paires Nom–Préposition",
     praepositionen_adverbien: "Paires Adverbes–Préposition",
     praepositionen_artikel: "Cas grammatiques suivant les Prépositions",
+    pronominaladverbien: "Mots en <i>da-</i> et en <i>wo-</i>",
 
     artikel: "Articles marinés dans tous les cas grammaticaux",
     pronomen: "Pronoms dans tous les cas grammaticaux",
@@ -27,6 +28,8 @@ HOME_DESCRIPTION_FR = {
     komparativ_superlativ: "Comparatifs et Superlatifs d'adctifs",
     adjektivdeklinationen: "Toutes les Déclinations d'Adjectifs",
     adjektive_konjunktionen: "Conjonctions et Constructions d'Adjectifs",
+    adjektive_verben_wortstaemme: "Paires Adjectif-Verbe avec la même racine étymologique",
+    adjektive_nomen_wortstaemme: "Paires Adjectif-Nom commun avec la même racine étymologique",
 
     verben: "Traduction de Verbes Allemands",
     trennbare_verben: "Verbes séparables et inséparables",

@@ -31,8 +31,8 @@ FEEDBACK_LAST_QUESTION = {
 }
 
 YOUR_INCORRECT_ANSWERS = {
-    'english': 'Here are your incorrect answers:',
-    'french': 'Voici vos réponses incorrectes :',
+    'english': 'Your incorrect answers:',
+    'french': 'Vos réponses incorrectes :',
 }
 
 ADDITIONAL_HELP = {

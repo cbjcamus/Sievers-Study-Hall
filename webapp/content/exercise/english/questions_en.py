@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien,
+    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 # bullet point \u25CF
@@ -54,7 +54,8 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         18: "{question}"
             "<br><br><i>{english}</i>",
-        19: "{english}",
+        19: "{question}"
+            "<br><br><i>{english}</i>",
         20: "{question}"
             "<br><br><i>{english}</i>",
         21: "{english}",
@@ -66,12 +67,12 @@ QUESTION_EN = {
         25: "{english}",
         26: "{question}"
             "<br><br><i>{english}</i>",
-        27: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        28: "{german}",
-
-        29: "{question}"
+        27: "{english}",
+        28: "{question}"
             "<br><br><i>{english}</i>",
+        29: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        30: "{german}",
     },
 
     praepositionen_verben: {
@@ -88,11 +89,10 @@ QUESTION_EN = {
         7: "{english} = {question}",
         8: "{question}"
            "<br><br><i>{english}</i>",
-        9: "{question}"
-           "<br><br><i>{english}</i>",
+
+        9: "{english} = {question}",
         10: "{question}"
             "<br><br><i>{english}</i>",
-
         11: "{english} = {question}",
         12: "{question}"
             "<br><br><i>{english}</i>",
@@ -102,10 +102,10 @@ QUESTION_EN = {
         15: "{english} = {question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
+
         17: "{english} = {question}",
         18: "{question}"
             "<br><br><i>{english}</i>",
-
         19: "{english} = {question}",
         20: "{question}"
             "<br><br><i>{english}</i>",
@@ -115,10 +115,10 @@ QUESTION_EN = {
         23: "{english} = {question}",
         24: "{question}"
             "<br><br><i>{english}</i>",
+
         25: "{english} = {question}",
         26: "{question}"
             "<br><br><i>{english}</i>",
-
         27: "{english} = {question}",
         28: "{question}"
             "<br><br><i>{english}</i>",
@@ -128,10 +128,10 @@ QUESTION_EN = {
         31: "{english} = {question}",
         32: "{question}"
             "<br><br><i>{english}</i>",
+
         33: "{english} = {question}",
         34: "{question}"
             "<br><br><i>{english}</i>",
-
         35: "{english} = {question}",
         36: "{question}"
             "<br><br><i>{english}</i>",
@@ -140,9 +140,6 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         39: "{english} = {question}",
         40: "{question}"
-            "<br><br><i>{english}</i>",
-        41: "{english} = {question}",
-        42: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -276,6 +273,21 @@ QUESTION_EN = {
         2: "Something",
         3: "Something",
         4: "Something",
+    },
+
+    pronominaladverbien: {
+        1: "{question}"
+           "<br><br><i>{english}</i>",
+
+        2: "{question}"
+           "<br><br><i>{english}</i>",
+        3: "{question}"
+           "<br><br><i>{english}</i>",
+        4: "{question}"
+           "<br><br><i>{english}</i>",
+
+        5: "{question}"
+           "<br><br><i>{english}</i>",
     },
 
     artikel: {
@@ -748,6 +760,92 @@ QUESTION_EN = {
 
         4: "{question}"
            "<br><br><i>{english}</i>",
+    },
+
+    adjektive_verben_wortstaemme: {
+        1: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        2: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        3: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        4: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+
+        5: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        6: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        7: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        8: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        9: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        10: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+
+        11: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        12: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        13: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        14: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        15: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        16: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        17: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        18: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        19: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        20: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        2: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        3: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        4: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+
+        5: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        6: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        7: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        8: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+
+        9: "{root_english} → {question}"
+           "<br><br>{english} → _____",
+        10: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        11: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        12: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        13: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        14: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        15: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        16: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        17: "{root_english} → {question}"
+            "<br><br>{english} → _____",
+        18: "{root_english} → {question}"
+            "<br><br>{english} → _____",
     },
 
     verben: {

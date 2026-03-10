@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_artikel,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 INTRODUCTION_EN = {
@@ -16,7 +16,8 @@ INTRODUCTION_EN = {
     ,
     praepositionen_verben:
         "Verb-Preposition pairs."
-        "<br><br>Includes pronominaladverbien in <i>Da</i> and <i>Wo</i> at level A2."
+        "<br><br>Exercises for pronominal adverbs in <i>Da</i> and <i>Wo</i> can be found "
+        "<a href=\"/pronominaladverbien\" target=\"_blank\">here</a>."
     ,
     praepositionen_adjektive:
         "Adjective-Preposition pairs."
@@ -36,6 +37,13 @@ INTRODUCTION_EN = {
         "<br>&bull; Followed by the Dative case: Aus, Bei, Mit, Seit, Nach, Von, Zu"
         "<br>&bull; Followed by the Dative or the Accusative case: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
         "<br>&bull; Followed by the Genitive case: Anstatt, Außerhalb, Innerhalb, Laut, Trotz, Während, Wegen"
+    ,
+    pronominaladverbien:
+        "Pronominal adverbs in <i>Da-</i> and in <i>Wo-</i>."
+        "<br><br>Feel free to check the following guides for "
+        "<a href=\"https://yourdailygerman.com/da-words-meaning-german/\" target=\"_blank\">Da-words</a> and "
+        "<a href=\"https://yourdailygerman.com/german-wo-comounds-explained/\" target=\"_blank\">Wo-words</a> written by Emanuel from "
+        "<a href=\"https://yourdailygerman.com/\" target=\"_blank\">YourDailyGerman</a>."
     ,
 
     artikel:
@@ -84,6 +92,12 @@ INTRODUCTION_EN = {
     ,
     adjektive_konjunktionen:
         "Conjunctions and Constructions for adjectives such as <i>wie</i>, <i>als</i> and <i>so</i>."
+    ,
+    adjektive_verben_wortstaemme:
+        "Adjective-Verb Pairs with the same etymological root."
+    ,
+    adjektive_nomen_wortstaemme:
+        "Adjective-Noun Pairs with the same etymological root."
     ,
 
     verben:

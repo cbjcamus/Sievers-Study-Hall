@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien,
+    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    zahlen, adjektive_nomen_wortstaemme,
 )
 
 # bullet point \u25CF
@@ -36,18 +36,18 @@ INSTRUCTION_EN = {
 
         17: "Complete the following sentence with the preposition that fits:",
         18: "Complete the following sentence with the preposition that fits:",
-        19: "Translate the following preposition:",
+        19: "Complete the following sentence with the preposition that fits:",
         20: "Complete the following sentence with the preposition that fits:",
         21: "Translate the following preposition:",
         22: "Complete the following sentence with the preposition that fits:",
-        23: "Translate the following prepositional phrase:",
-        24: "Complete the following sentence with the prepositional phrase that fits:",
-        25: "Translate the following postposition:",
-        26: "Complete the following sentence with the postposition that fits:",
-        27: "Find a synonym for the following preposition:",
-        28: "Write an antonym for the following preposition:",
-
-        29: "Complete the following sentence with the preposition that fits:",
+        23: "Translate the following preposition:",
+        24: "Complete the following sentence with the preposition that fits:",
+        25: "Translate the following prepositional phrase:",
+        26: "Complete the following sentence with the prepositional phrase that fits:",
+        27: "Translate the following postposition:",
+        28: "Complete the following sentence with the postposition that fits:",
+        29: "Find a synonym for the following preposition:",
+        30: "Write an antonym for the following preposition:",
     },
 
     praepositionen_verben: {
@@ -60,44 +60,42 @@ INSTRUCTION_EN = {
         6: "Complete the following sentence with the preposition that fits:",
         7: "Write the preposition that match the following verb:",
         8: "Complete the following sentence with the preposition that fits:",
-        9: "Complete the following sentence with the Da-Wort that fits:",
-        10: "Complete the following sentence with the Wo-Wort that fits:",
 
+        9: "Write the preposition that match the following verb:",
+        10: "Complete the following sentence with the preposition that fits:",
         11: "Write the preposition that match the following verb:",
         12: "Complete the following sentence with the preposition that fits:",
         13: "Write the preposition that match the following verb:",
         14: "Complete the following sentence with the preposition that fits:",
         15: "Write the preposition that match the following verb:",
         16: "Complete the following sentence with the preposition that fits:",
+
         17: "Write the preposition that match the following verb:",
         18: "Complete the following sentence with the preposition that fits:",
-
         19: "Write the preposition that match the following verb:",
         20: "Complete the following sentence with the preposition that fits:",
         21: "Write the preposition that match the following verb:",
         22: "Complete the following sentence with the preposition that fits:",
         23: "Write the preposition that match the following verb:",
         24: "Complete the following sentence with the preposition that fits:",
+
         25: "Write the preposition that match the following verb:",
         26: "Complete the following sentence with the preposition that fits:",
-
         27: "Write the preposition that match the following verb:",
         28: "Complete the following sentence with the preposition that fits:",
         29: "Write the preposition that match the following verb:",
         30: "Complete the following sentence with the preposition that fits:",
         31: "Write the preposition that match the following verb:",
         32: "Complete the following sentence with the preposition that fits:",
+
         33: "Write the preposition that match the following verb:",
         34: "Complete the following sentence with the preposition that fits:",
-
         35: "Write the preposition that match the following verb:",
         36: "Complete the following sentence with the preposition that fits:",
         37: "Write the preposition that match the following verb:",
         38: "Complete the following sentence with the preposition that fits:",
         39: "Write the preposition that match the following verb:",
         40: "Complete the following sentence with the preposition that fits:",
-        41: "Write the preposition that match the following verb:",
-        42: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_adjektive: {
@@ -186,6 +184,16 @@ INSTRUCTION_EN = {
         2: "Something",
         3: "Something",
         4: "Something",
+    },
+
+    pronominaladverbien: {
+        1: "Complete the following sentence with the adverb pronominal in <i>Da</i> that fits:",
+
+        2: "Complete the following sentence with the adverb pronominal in <i>Da</i> that fits:",
+        3: "Complete the following sentence with the adverb pronominal in <i>Da</i> that fits:",
+        4: "Complete the following sentence with the adverb pronominal in <i>Wo</i> that fits:",
+
+        5: "Complete the following sentence with the adverb pronominal in <i>Wo</i> that fits:",
     },
 
     artikel: {
@@ -524,6 +532,54 @@ INSTRUCTION_EN = {
         3: "Complete the following sentence with the conjunction that fits:",
 
         4: "Complete the following sentence with the conjunction or preposition that fits:",
+    },
+
+    adjektive_verben_wortstaemme: {
+        1: "Find the missing Adjective in the following Adjective-Verb pair:",
+        2: "Find the missing Verb in the following Adjective-Verb pair:",
+        3: "Find the missing Adjective in the following Adjective-Verb pair:",
+        4: "Find the missing Verb in the following Adjective-Verb pair:",
+
+        5: "Find the missing Adjective in the following Adjective-Verb pair:",
+        6: "Find the missing Verb in the following Adjective-Verb pair:",
+        7: "Find the missing Adjective in the following Adjective-Verb pair:",
+        8: "Find the missing Verb in the following Adjective-Verb pair:",
+        9: "Find the missing Adjective in the following Adjective-Verb pair:",
+        10: "Find the missing Verb in the following Adjective-Verb pair:",
+
+        11: "Find the missing Adjective in the following Adjective-Verb pair:",
+        12: "Find the missing Verb in the following Adjective-Verb pair:",
+        13: "Find the missing Adjective in the following Adjective-Verb pair:",
+        14: "Find the missing Verb in the following Adjective-Verb pair:",
+        15: "Find the missing Adjective in the following Adjective-Verb pair:",
+        16: "Find the missing Verb in the following Adjective-Verb pair:",
+        17: "Find the missing Adjective in the following Adjective-Verb pair:",
+        18: "Find the missing Verb in the following Adjective-Verb pair:",
+        19: "Find the missing Adjective in the following Adjective-Verb pair:",
+        20: "Find the missing Verb in the following Adjective-Verb pair:",
+    },
+
+    adjektive_nomen_wortstaemme: {
+        1: "Find the missing Adjective in the following Adjective-Noun pair:",
+        2: "Find the missing Noun in the following Adjective-Noun pair:",
+        3: "Find the missing Adjective in the following Adjective-Noun pair:",
+        4: "Find the missing Noun in the following Adjective-Noun pair:",
+
+        5: "Find the missing Adjective in the following Adjective-Noun pair:",
+        6: "Find the missing Noun in the following Adjective-Noun pair:",
+        7: "Find the missing Adjective in the following Adjective-Noun pair:",
+        8: "Find the missing Noun in the following Adjective-Noun pair:",
+
+        9: "Find the missing Adjective in the following Adjective-Noun pair:",
+        10: "Find the missing Noun in the following Adjective-Noun pair:",
+        11: "Find the missing Adjective in the following Adjective-Noun pair:",
+        12: "Find the missing Noun in the following Adjective-Noun pair:",
+        13: "Find the missing Adjective in the following Adjective-Noun pair:",
+        14: "Find the missing Noun in the following Adjective-Noun pair:",
+        15: "Find the missing Adjective in the following Adjective-Noun pair:",
+        16: "Find the missing Noun in the following Adjective-Noun pair:",
+        17: "Find the missing Adjective in the following Adjective-Noun pair:",
+        18: "Find the missing Noun in the following Adjective-Noun pair:",
     },
 
     verben: {
