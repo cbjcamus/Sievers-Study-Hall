@@ -210,10 +210,6 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
 def get_combination_from_question_text(unit, question_text, incorrect_answer):
     data = load_data_unit(unit)
 
-    print('unit', unit)
-    print('question_text', question_text)
-    print('incorrect_answer', incorrect_answer)
-
     correct_combination = data.loc[data["question"] == question_text, f"combination"].iloc[0]
     correct_question_text = data.loc[data["combination"] == correct_combination, f"question"].iloc[0]
     combination = correct_question_text.replace("_____", incorrect_answer)
