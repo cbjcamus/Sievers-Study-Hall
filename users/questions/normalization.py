@@ -5,7 +5,6 @@ from flask import session, request
 
 from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms
 from data.data_processing.exercise_type import get_answer_column, is_exercise_multiple_choice, is_exercise_synonym
-from data.data_processing.units import zahlen
 
 from webapp.i18n import get_language
 

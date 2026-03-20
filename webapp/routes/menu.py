@@ -19,7 +19,7 @@ from webapp.content.unit.stars import STARS
 from webapp.content.unit.unit_page import UNIT_PAGE
 from webapp.content.unit.title_page import TITLE_PAGE
 from webapp.content.unit.template_path import TEMPLATE_PATH
-from ..content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
+from webapp.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
 from webapp.content.exercise.content_exercises import DESCRIPTION
 
 from webapp.content.application.text import YOUR_ANSWER, META_DESCRIPTION

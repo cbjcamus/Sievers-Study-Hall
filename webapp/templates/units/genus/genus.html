@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Genus – Practice German Articles for Free</title>
+    <meta name="description" content="{{ meta_description }}">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/unit.css') }}">
+</head>
+
+{% from "macros/render_title.html" import render_title with context %}
+{% from "macros/unit.html" import render_exercise_table_row %}
+{% from "macros/unit.html" import render_exercise_empty_row %}
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+    {{ render_title(title_page) }}
+
+    <div class="section">
+        <h2>Introduction</h2>
+        {{ introduction | safe }}
+    </div>
+
+    <div class="section">
+        <h2>A1</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("genus", 1, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 2, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 3, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 4, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 5, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 6, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 7, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 8, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>A2</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("genus", 9, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 10, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 11, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 12, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 13, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 14, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 15, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 16, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 17, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 18, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>B1</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("genus", 19, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 20, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 21, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 22, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 23, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 24, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 25, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 26, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 27, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 28, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 29, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 30, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("genus", 31, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 32, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 33, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 34, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 35, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 36, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 37, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 38, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 39, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 40, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("genus", 41, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 42, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 43, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 44, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 45, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 46, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 47, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 48, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 49, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 50, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 51, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>B2</h2>
+        <table class="exercise-table">
+            {{ render_exercise_table_row("genus", 52, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 53, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 54, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 55, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 56, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 57, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 58, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 59, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 60, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("genus", 61, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 62, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 63, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 64, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 65, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 66, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 67, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 68, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 69, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 70, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("genus", 71, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 72, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 73, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 74, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 75, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 76, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 77, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 78, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 79, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 80, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("genus", 81, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 82, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 83, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 84, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 85, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 86, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 87, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 88, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 89, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 90, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_empty_row() }}
+            {{ render_exercise_table_row("genus", 91, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 92, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 93, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 94, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 95, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 96, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 97, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 98, session, answered_questions, total_questions, score, description_templates) }}
+            {{ render_exercise_table_row("genus", 99, session, answered_questions, total_questions, score, description_templates) }}
+        </table>
+    </div>
+
+    <div class="home-button-container">
+        <a href="/" class="button">{{ homepage }}</a>
+    </div>
+
+</body>
+</html>

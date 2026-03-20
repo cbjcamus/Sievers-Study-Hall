@@ -35,8 +35,8 @@ konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
 
 genus_regeln = 'genus_regeln'
-genus_routledge = 'genus_routledge'
-genus_goethe = 'genus_goethe'
+genus = 'genus'
+plural = 'plural'
 
 zahlen = 'zahlen'
 
@@ -49,6 +49,6 @@ units = [
     adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I,
     partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
+    genus_regeln, genus, plural,
     zahlen,
 ]

@@ -6,8 +6,8 @@ from data.data_processing.units import (
     adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    genus_regeln, genus,
+    zahlen, plural,
 )
 
 TEMPLATE_PATH = {
@@ -48,8 +48,8 @@ TEMPLATE_PATH = {
     partizip_I: "units/konjugation/partizip_I.html",
 
     genus_regeln: "units/genus/genus_regeln.html",
-    genus_routledge: "units/genus/genus_routledge.html",
-    genus_goethe: "units/genus/genus_goethe.html",
+    genus: "units/genus/genus.html",
+    plural: "units/genus/plural.html",
 
     zahlen: "units/sonstige/zahlen.html",
 }

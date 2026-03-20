@@ -41,7 +41,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 40,3,B1,B1,B1,scheiden,geschieden,,"separated, divorced","to separate, to divorce, to part","séparé, divorcé","se séparer, divorcer",geschieden,"separated, divorced","séparé, divorcé",scheiden,"to separate, to divorce, to part","se séparer, divorcer"
 41,3,B1,B1,A1,öffnen,offen,,"open, honest",to open,"ouvert, franc",ouvrir,offen,"open, honest","ouvert, franc",öffnen,to open,ouvrir
 42,3,B1,B1,A2,schließen,geschlossen,,closed,"to shut, to close, to lock, to conclude",fermé,"fermer, clore, verrouiller, conclure",geschlossen,closed,fermé,schließen,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure"
-43,3,B1,B1,A2,freuen,froh,,"happy, glad","to make glad, to be glad (refl.), to look forward (refl.)","heureux, content","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)",froh,"happy, glad","heureux, content",freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
+43,3,B1,B1,A2,sich freuen,froh,,"happy, glad","to make glad, to be glad (refl.), to look forward (refl.)","heureux, content","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)",froh,"happy, glad","heureux, content",sich freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
 44,3,B1,B1,A1,scheinen,wahrscheinlich,,"possible, likely","to shine, to seem (formal)",possible,"briller, paraître (formel)",wahrscheinlich,"possible, likely",possible,scheinen,"to shine, to seem (formal)","briller, paraître (formel)"
 45,4,B1,B1,A1,ständig,stehen,,"to stand, to be, to appear",constant,"être debout, apparaître",constante,ständig,constant,constante,stehen,"to stand, to be, to appear","être debout, apparaître"
 46,4,B1,B1,A1,zahlreich,zahlen,,"to pay (for something), to atone for",numerous,"payer (pour quelque chose), expier",nombreux,zahlreich,numerous,nombreux,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier"
@@ -55,7 +55,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 54,4,B1,B1,B1,geschieden,scheiden,,"to separate, to divorce, to part","separated, divorced","se séparer, divorcer","séparé, divorcé",geschieden,"separated, divorced","séparé, divorcé",scheiden,"to separate, to divorce, to part","se séparer, divorcer"
 55,4,B1,B1,A1,offen,öffnen,,to open,"open, honest",ouvrir,"ouvert, franc",offen,"open, honest","ouvert, franc",öffnen,to open,ouvrir
 56,4,B1,B1,A2,geschlossen,schließen,,"to shut, to close, to lock, to conclude",closed,"fermer, clore, verrouiller, conclure",fermé,geschlossen,closed,fermé,schließen,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure"
-57,4,B1,B1,A2,froh,freuen,,"to make glad, to be glad (refl.), to look forward (refl.)","happy, glad","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)","heureux, content",froh,"happy, glad","heureux, content",freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
+57,4,B1,B1,A2,froh,sich freuen,,"to make glad, to be glad (refl.), to look forward (refl.)","happy, glad","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)","heureux, content",froh,"happy, glad","heureux, content",sich freuen,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
 58,4,B1,B1,A1,wahrscheinlich,scheinen,,"to shine, to seem (formal)","possible, likely","briller, paraître (formel)",possible,wahrscheinlich,"possible, likely",possible,scheinen,"to shine, to seem (formal)","briller, paraître (formel)"
 59,5,B2,A1,B2,vergrößern,groß,,"big, tall",to enlarge,grand,pour agrandir,groß,"big, tall",grand,vergrößern,to enlarge,pour agrandir
 60,5,B2,A1,B2,gleichen,gleich,,same,"to equal, to match, to resemble",même,"égaler, ressembler",gleich,same,même,gleichen,"to equal, to match, to resemble","égaler, ressembler"
@@ -212,7 +212,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 211,13,C1,C1,B2,angeben,angeblich,,alleged,"to state, to declare, to show off",prétendu,"déclarer, affirmer, se vanter",angeblich,alleged,prétendu,angeben,"to state, to declare, to show off","déclarer, affirmer, se vanter"
 212,13,C1,C1,C1,ausschließen,ausschließlich,,exclusive,"to exclude, to eliminate",exclusif,"exclure, éliminer",ausschließlich,exclusive,exclusif,ausschließen,"to exclude, to eliminate","exclure, éliminer"
 213,13,C1,C1,B1,nachdenken,nachdenklich,,pensive,"to think about, to reflect, to ponder",pensif,"penser à, réfléchir, méditer",nachdenklich,pensive,pensif,nachdenken,"to think about, to reflect, to ponder","penser à, réfléchir, méditer"
-214,13,C1,C1,B1,verlieben,verliebt,,in love,to fall in love,amoureux,tomber amoureux,verliebt,in love,amoureux,verlieben,to fall in love,tomber amoureux
+214,13,C1,C1,B1,sich verlieben,verliebt,,in love,to fall in love,amoureux,tomber amoureux,verliebt,in love,amoureux,sich verlieben,to fall in love,tomber amoureux
 215,13,C1,C1,B1,verbieten,verboten,,prohibited,"to forbid, to prohibit",interdit,"interdire, prohiber",verboten,prohibited,interdit,verbieten,"to forbid, to prohibit","interdire, prohiber"
 216,13,C1,C1,B2,fließen,fließend,,fluent,"to flow, to run",courant,"couler, courir",fließend,fluent,courant,fließen,"to flow, to run","couler, courir"
 217,13,C1,C1,C1,senken,senkrecht,,vertical,"to lower, to sink, to drop, to reduce",perpendiculaire,"abaisser, couler, laisser tomber, réduire",senkrecht,vertical,perpendiculaire,senken,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
@@ -232,7 +232,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 231,14,C1,C1,B2,angeblich,angeben,,"to state, to declare, to show off",alleged,"déclarer, affirmer, se vanter",prétendu,angeblich,alleged,prétendu,angeben,"to state, to declare, to show off","déclarer, affirmer, se vanter"
 232,14,C1,C1,C1,ausschließlich,ausschließen,,"to exclude, to eliminate",exclusive,"exclure, éliminer",exclusif,ausschließlich,exclusive,exclusif,ausschließen,"to exclude, to eliminate","exclure, éliminer"
 233,14,C1,C1,B1,nachdenklich,nachdenken,,"to think about, to reflect, to ponder",pensive,"penser à, réfléchir, méditer",pensif,nachdenklich,pensive,pensif,nachdenken,"to think about, to reflect, to ponder","penser à, réfléchir, méditer"
-234,14,C1,C1,B1,verliebt,verlieben,,to fall in love,in love,tomber amoureux,amoureux,verliebt,in love,amoureux,verlieben,to fall in love,tomber amoureux
+234,14,C1,C1,B1,verliebt,sich verlieben,,to fall in love,in love,tomber amoureux,amoureux,verliebt,in love,amoureux,sich verlieben,to fall in love,tomber amoureux
 235,14,C1,C1,B1,verboten,verbieten,,"to forbid, to prohibit",prohibited,"interdire, prohiber",interdit,verboten,prohibited,interdit,verbieten,"to forbid, to prohibit","interdire, prohiber"
 236,14,C1,C1,B2,fließend,fließen,,"to flow, to run",fluent,"couler, courir",courant,fließend,fluent,courant,fließen,"to flow, to run","couler, courir"
 237,14,C1,C1,C1,senkrecht,senken,,"to lower, to sink, to drop, to reduce",vertical,"abaisser, couler, laisser tomber, réduire",perpendiculaire,senkrecht,vertical,perpendiculaire,senken,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
@@ -282,7 +282,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 281,17,C1,C1,A1,denken,denkbar,,conceivable,"to think, to consider",concevable,"penser, considérer",denkbar,conceivable,concevable,denken,"to think, to consider","penser, considérer"
 282,17,C1,C1,A1,denken,undenkbar,,unconceivable,"to think, to consider",impensable,"penser, considérer",undenkbar,unconceivable,impensable,denken,"to think, to consider","penser, considérer"
 283,17,C1,C1,B2,betreiben,betrieblich,,operational,"to operate, to run, to conduct",opérationnel,"opérer, diriger, conduire",betrieblich,operational,opérationnel,betreiben,"to operate, to run, to conduct","opérer, diriger, conduire"
-284,17,C1,C1,B1,bemühen,mühsam,,tedious,"to make an effort, to strive",fastidieux,"faire un effort, s'efforcer",mühsam,tedious,fastidieux,bemühen,"to make an effort, to strive","faire un effort, s'efforcer"
+284,17,C1,C1,B1,sich bemühen,mühsam,,tedious,"to make an effort, to strive",fastidieux,"faire un effort, s'efforcer",mühsam,tedious,fastidieux,sich bemühen,"to make an effort, to strive","faire un effort, s'efforcer"
 285,17,C1,C1,B2,zulassen,zulässig,,permissible,"to allow, to permit, to license",permis,"permettre, autoriser, autoriser",zulässig,permissible,permis,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
 286,17,C1,C1,B2,zulassen,unzulässig,,inadmissible,"to allow, to permit, to license",inadmissible,"permettre, autoriser, autoriser",unzulässig,inadmissible,inadmissible,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
 287,17,C1,C1,B1,erreichen,erreichbar,,reachable,"to reach, to achieve, to attain",accessible,"atteindre, réaliser, parvenir",erreichbar,reachable,accessible,erreichen,"to reach, to achieve, to attain","atteindre, réaliser, parvenir"
@@ -302,7 +302,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 301,18,C1,C1,A1,denkbar,denken,,"to think, to consider",conceivable,"penser, considérer",concevable,denkbar,conceivable,concevable,denken,"to think, to consider","penser, considérer"
 302,18,C1,C1,A1,undenkbar,denken,,"to think, to consider",unconceivable,"penser, considérer",impensable,undenkbar,unconceivable,impensable,denken,"to think, to consider","penser, considérer"
 303,18,C1,C1,B2,betrieblich,betreiben,,"to operate, to run, to conduct",operational,"opérer, diriger, conduire",opérationnel,betrieblich,operational,opérationnel,betreiben,"to operate, to run, to conduct","opérer, diriger, conduire"
-304,18,C1,C1,B1,mühsam,bemühen,,"to make an effort, to strive",tedious,"faire un effort, s'efforcer",fastidieux,mühsam,tedious,fastidieux,bemühen,"to make an effort, to strive","faire un effort, s'efforcer"
+304,18,C1,C1,B1,mühsam,sich bemühen,,"to make an effort, to strive",tedious,"faire un effort, s'efforcer",fastidieux,mühsam,tedious,fastidieux,sich bemühen,"to make an effort, to strive","faire un effort, s'efforcer"
 305,18,C1,C1,B2,zulässig,zulassen,,"to allow, to permit, to license",permissible,"permettre, autoriser, autoriser",permis,zulässig,permissible,permis,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
 306,18,C1,C1,B2,unzulässig,zulassen,,"to allow, to permit, to license",inadmissible,"permettre, autoriser, autoriser",inadmissible,unzulässig,inadmissible,inadmissible,zulassen,"to allow, to permit, to license","permettre, autoriser, autoriser"
 307,18,C1,C1,B1,erreichbar,erreichen,,"to reach, to achieve, to attain",reachable,"atteindre, réaliser, parvenir",accessible,erreichbar,reachable,accessible,erreichen,"to reach, to achieve, to attain","atteindre, réaliser, parvenir"
@@ -360,7 +360,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 359,121,C2,B2,C2,,,,,,,,dicht,dense,dense,dichten,,
 360,121,C2,B2,C2,,,,,,,,giftig,toxic,toxique,vergiften,to poison,empoisonner
 361,121,C2,B2,C2,,,,,,,,durstig,thirsty,assoiffé,dürsten,,
-362,121,C2,B2,C2,,,,,,,,eilig,hurry,"pressé, urgent",eilen,"to hurry, to rush, to be urgent, to haste","se dépêcher, se hâter, être urgent"
+362,121,C2,B2,C2,,,,,,,,eilig,"in a hurry, urgent","pressé, urgent",eilen,"to hurry, to rush, to be urgent, to haste","se dépêcher, se hâter, être urgent"
 363,121,C2,B2,C2,,,,,,,,kompliziert,complicated,compliqué,komplizieren,,
 364,121,C2,B2,C2,,,,,,,,anstrengend,exhausting,épuisant,anstrengen,"to exert, to strain, to make an effort, to apply","exercer, se démener, faire un effort, appliquer"
 365,121,C2,B2,C2,,,,,,,,ausgezeichnet,"excellent, distinguished","excellent, distingué",auszeichnen,"to honor, to distinguish","honorer, distinguer"
@@ -526,3 +526,4 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 525,171,D2,C1,D2,,,,,,,,geizig,stingy,avare,geizen,,
 526,171,D2,C1,D2,,,,,,,,schlampig,sloppy,négligent,schlampen,,
 527,171,D2,C1,D2,,,,,,,,spöttisch,mocking,railleur,spötteln,,
+528,171,D1,A1,D1,,,,,,,,traurig,sad,triste,trauern,to mourn,être en deuil

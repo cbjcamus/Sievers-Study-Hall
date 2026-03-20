@@ -3,10 +3,11 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
+    adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
-    zahlen, adjektive_nomen_wortstaemme,
+    genus_regeln, genus,
+    zahlen, plural,
 )
 
 INTRODUCTION_FR = {
@@ -140,7 +141,7 @@ INTRODUCTION_FR = {
         "<br><br>Un guide énumérant ces heuristiques est disponible "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a> (en anglais)."
     ,
-    genus_routledge:
+    genus:
         "Doux désirs dérivent, dansant dès l’aube claire,"
         "<br>Des doutes disparaissent, le destin se déclare,"
         "<br>Des voix décidées dessinent leurs pas,"
@@ -148,13 +149,12 @@ INTRODUCTION_FR = {
         "<br><br>La liste des noms communs vient de "
         "<a href=\"https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112\" target=\"_blank\">ici</a>."
     ,
-    genus_goethe:
-        "Une Dance de Der Die Das."
-        "<br><br>La liste des noms communs vient du "
-        "<a href=\"https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf\" target=\"_blank\">Goethe Institut</a>."
+    plural:
+        "Forme Plurielle des noms communs allemands les plus utilisés."
     ,
 
     zahlen:
         "Les nombres sous toutes leurs formes, y compris les nombres cardinaux, ordinaux, séquentiels, adverbiaux, fractionnaires et multiplicateurs."
     ,
+
 }

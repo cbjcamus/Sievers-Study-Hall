@@ -3,10 +3,11 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
+    adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
-    zahlen, adjektive_nomen_wortstaemme,
+    genus_regeln, genus,
+    zahlen, plural,
 )
 
 HOME_DESCRIPTION_FR = {
@@ -46,8 +47,8 @@ HOME_DESCRIPTION_FR = {
     partizip_I: "Participe Présent",
 
     genus_regeln: "Genre des noms communs – Règles et Guides",
-    genus_routledge: "Genre des noms communs – liste de Routledge",
-    genus_goethe: "Genre des noms communs – liste du Goethe-Institut",
+    genus: "Genre des noms communs",
 
     zahlen: "Nombres dans toutes leurs formes",
+    plural: "Forme Plurielle des noms communs allemands les plus utilisés",
 }

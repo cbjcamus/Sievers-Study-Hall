@@ -5,7 +5,8 @@ from data.data_processing.units import (
     adjektive, adjektivdeklinationen, adjektive_konjunktionen,
     trennbare_verben, verben,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
+    genus_regeln, genus,
+    plural,
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
@@ -48,13 +49,18 @@ GUIDANCE_UNIT_EN = {
         "<br>Conjugate the verb in the Present tense for that pronoun."
         
         f"<br><br> &nbsp; {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
-        f"<br><br> &nbsp; {ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+        f"<br><br> &nbsp; {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
         
-        "<h2>Example</h2>"
-        "freuen \u25CF Ich _____"
-        f"<br><br> &nbsp; {ICON_CHECK} freue"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich freue"
-        f"<br><br> &nbsp; {ICON_CROSS} freue mich"
+        "<h2>Examples</h2>"
+        "haben \u25CF Ich _____"
+        f"<br><br> &nbsp; {ICON_CHECK} habe"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich habe"
+        f"<br><br> &nbsp; {ICON_CROSS} ich habe"
+        
+        "<br><br>sich freuen \u25CF Ich _____"
+        f"<br><br> &nbsp; {ICON_CHECK} freue mich"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich freue mich"
+        f"<br><br> &nbsp; {ICON_CROSS} freue"
     ,
 
     partizip_II:
@@ -62,27 +68,37 @@ GUIDANCE_UNIT_EN = {
         "<br>Provide the Partizip II (Past Participle) of the given verb."
         
         f"<br><br> &nbsp; {ICON_WARN} Do not write any Hilfsverb, or your answer will be flagged as incorrect."
-        f"<br><br> &nbsp; {ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+        f"<br><br> &nbsp; {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
         
-        "<h2>Example</h2>"
-        "freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} gefreut"
-        f"<br><br> &nbsp; {ICON_CROSS} sich gefreut"
-        f"<br><br> &nbsp; {ICON_CROSS} hat gefreut"
+        "<h2>Examples</h2>"
+        "erinnern"
+        f"<br><br> &nbsp; {ICON_CHECK} erinnert"
+        f"<br><br> &nbsp; {ICON_CHECK} sich erinnert"
+        f"<br><br> &nbsp; {ICON_CROSS} hat erinnert"
+        
+        "<br><br>sich freuen"
+        f"<br><br> &nbsp; {ICON_CHECK} sich gefreut"
+        f"<br><br> &nbsp; {ICON_CROSS} gefreute"
+        f"<br><br> &nbsp; {ICON_CROSS} hat sich gefreut"
     ,
 
     praeteritum:
         "For each question, you will see a German verb."
-        "<br>Conjugate the verb in the Präteritum tense (Preterit) at the 3rd person Singular (Er/Sie/Es) of the given verb."
+        "<br>Conjugate the verb in the Präteritum tense (Preterit) using the indicated person."
         
         f"<br><br> &nbsp; {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
-        f"<br><br> &nbsp; {ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+        f"<br><br> &nbsp; {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
         
-        "<h2>Example</h2>"
-        "freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} freute"
-        f"<br><br> &nbsp; {ICON_CROSS} freute sich"
-        f"<br><br> &nbsp; {ICON_CROSS} er freute"
+        "<h2>Examples</h2>"
+        "erinnern"
+        f"<br><br> &nbsp; {ICON_CHECK} erinnerte"
+        f"<br><br> &nbsp; {ICON_CHECK} erinnerte sich"
+        f"<br><br> &nbsp; {ICON_CROSS} er erinnerte"
+        
+        "<br><br>sich freuen"
+        f"<br><br> &nbsp; {ICON_CHECK} freute sich"
+        f"<br><br> &nbsp; {ICON_CROSS} freute"
+        f"<br><br> &nbsp; {ICON_CROSS} er freute sich"
     ,
 
     praeteritum_partizip_II:
@@ -108,16 +124,17 @@ GUIDANCE_UNIT_EN = {
         "<br>Conjugate the verb in the Imperative tense for that pronoun."
         
         f"<br><br> &nbsp; {ICON_WARN} Write personal pronouns only in the case of the 3rd Plural."
-        f"<br><br> &nbsp; {ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+        f"<br><br> &nbsp; {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
         
         "<h2>Example</h2>"
-        "freuen \u25CF Du"
-        f"<br><br> &nbsp; {ICON_CHECK} freu"
-        f"<br><br> &nbsp; {ICON_CROSS} Du freu"
-        f"<br><br> &nbsp; {ICON_CROSS} freu dich"
-        "<br><br>freuen \u25CF Sie"
-        f"<br><br> &nbsp; {ICON_CHECK} freuen Sie"
-        f"<br><br> &nbsp; {ICON_CROSS} freuen"
+        "sich freuen \u25CF Du"
+        f"<br><br> &nbsp; {ICON_CHECK} freu dich"
+        f"<br><br> &nbsp; {ICON_CHECK} freue dich"
+        f"<br><br> &nbsp; {ICON_CROSS} Du freu dich"
+
+        "<br><br>sich freuen \u25CF Sie"
+        f"<br><br> &nbsp; {ICON_CHECK} freuen Sie sich"
+        f"<br><br> &nbsp; {ICON_CROSS} freuen Sie"
         f"<br><br> &nbsp; {ICON_CROSS} freuen sich"
     ,
 
@@ -149,12 +166,12 @@ GUIDANCE_UNIT_EN = {
         "For each question, you will see a German verb."
         "<br>Provide the Partizip I (Present Participle) of the given verb."
         
-        f"<br><br> &nbsp; {ICON_WARN} Do not write any reflexive pronoun, even if the verb is usually reflexive."
+        f"<br><br> &nbsp; {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
         
         "<h2>Example</h2>"
-        "freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} freuend"
-        f"<br><br> &nbsp; {ICON_CROSS} sich freuend"
+        "sich freuen"
+        f"<br><br> &nbsp; {ICON_CHECK} sich freuend"
+        f"<br><br> &nbsp; {ICON_CROSS} freuend"
     ,
 
     genus_regeln:
@@ -174,7 +191,7 @@ GUIDANCE_UNIT_EN = {
         f"<br><br> &nbsp; {ICON_CROSS} Die"
     ,
 
-    genus_routledge:
+    genus:
         "For each question, you will be provided a German noun and its English translation."
         "<br><br>Find the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun."
         
@@ -191,20 +208,17 @@ GUIDANCE_UNIT_EN = {
         f"<br><br> &nbsp; {ICON_CROSS} Die"
     ,
 
-    genus_goethe:
+    plural:
         "For each question, you will be provided a German noun and its English translation."
-        "<br><br>Find the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun."
-        
-        "<br><br>➡️ A guide explaining the gender of nouns is available "
-        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
+        "<br><br>Find the plural form of this noun."
 
         f"<br><br> &nbsp; {ICON_WARN} There is only one correct answer per question."
 
         "<h2>Example</h2>"
-        "_____ Abend"
-        "<br><br><i>The evening</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} Der"
-        f"<br><br> &nbsp; {ICON_CHECK} der"
-        f"<br><br> &nbsp; {ICON_CROSS} Die"
+        "Singular: die Stunde (<i>the hour</i>)"
+        "<br><br>Plural: die _____"
+        f"<br><br> &nbsp; {ICON_CHECK} Stunden"
+        f"<br><br> &nbsp; {ICON_CHECK} stunden"
+        f"<br><br> &nbsp; {ICON_CROSS} Stunde"
     ,
 }

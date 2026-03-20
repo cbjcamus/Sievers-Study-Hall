@@ -3,10 +3,11 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
+    adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
-    zahlen, adjektive_nomen_wortstaemme,
+    genus_regeln, genus,
+    zahlen, plural,
 )
 
 META_DESCRIPTION_EN = {
@@ -104,14 +105,14 @@ META_DESCRIPTION_EN = {
     genus_regeln:
         'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
-    genus_routledge:
-        'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    genus_goethe:
+    genus:
         'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 
     zahlen:
         'Practice the German numbers with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    plural:
+        'Practice the plurals of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 }

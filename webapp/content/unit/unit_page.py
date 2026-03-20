@@ -6,8 +6,8 @@ from data.data_processing.units import (
     adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
-    zahlen,
+    genus_regeln, genus,
+    zahlen, plural,
 )
 
 UNIT_PAGE = {
@@ -48,8 +48,8 @@ UNIT_PAGE = {
     partizip_I: "/partizip_I",
 
     genus_regeln: "/genus_regeln",
-    genus_routledge: "/genus_routledge",
-    genus_goethe: "/genus_goethe",
+    genus: "/genus",
+    plural: "/plural",
 
-    zahlen: "/zahlen"
+    zahlen: "/zahlen",
 }

@@ -1,0 +1,1649 @@
+Nr,exercise,question,answer,german,english,french,level_routledge,level_goethe,level
+1,1,das Jahr,Jahre,die Jahre,the year,l'année,A1,A1,A1
+2,1,das Beispiel,Beispiele,die Beispiele,the example,l'exemple,A1,A1,A1
+3,1,die Zeit,Zeiten,die Zeiten,the time,le temps,A1,A1,A1
+4,1,die Frau,Frauen,die Frauen,the woman,la femme,A1,A1,A1
+5,1,der Mensch,Menschen,die Menschen,the human being,l'être humain,A1,A1,A1
+6,1,das Kind,Kinder,die Kinder,the child,l'enfant,A1,A1,A1
+7,1,der Tag,Tage,die Tage,the day,le jour,A1,A1,A1
+8,1,der Mann,Männer,die Männer,the man,l'homme,A1,A1,A1
+9,1,das Land,Länder,die Länder,the country,le pays,A1,A1,A1
+10,1,die Frage,Fragen,die Fragen,the question,la question,A1,A1,A1
+11,1,das Haus,Häuser,die Häuser,the house,la maison,A1,A1,A1
+12,1,die Arbeit,Arbeiten,die Arbeiten,the work,le travail,A1,A1,A1
+13,1,das Prozent,Prozente,die Prozente,the percent,le pourcentage,A1,A1,A1
+14,1,die Hand,Hände,die Hände,the hand,la main,A1,A1,A1
+15,1,die Stadt,Städte,die Städte,the city,la ville,A1,A1,A1
+16,1,der Herr,Herren,die Herren,"the gentleman, the lord","le monsieur, le seigneur",A1,A1,A1
+17,1,der Teil,Teile,die Teile,the part,la partie,A1,A1,A1
+18,1,das Problem,Probleme,die Probleme,the problem,le problème,A1,A1,A1
+19,1,die Welt,Welten,die Welten,the world,le monde,A1,A1,A1
+20,1,das Ende,Enden,die Enden,the end,la fin,A1,A1,A1
+21,2,die Million,Millionen,die Millionen,the million,le million,A1,A1,A1
+22,2,die Schule,Schulen,die Schulen,the school,l'école,A1,A1,A1
+23,2,die Woche,Wochen,die Wochen,the week,la semaine,A1,A1,A1
+24,2,der Vater,Väter,die Väter,the father,le père,A1,A1,A1
+25,2,das Leben,Leben,die Leben,the life,la vie,A1,A1,A1
+26,2,die Mutter,Mütter,die Mütter,the mother,la mère,A1,A1,A1
+27,2,das Auge,Augen,die Augen,the eye,l'œil,A1,A1,A1
+28,2,das Geld,Gelder,die Gelder,the money,l'argent,A1,A1,A1
+29,2,die Stunde,Stunden,die Stunden,the hour,l'heure,A1,A1,A1
+30,2,der Name,Namen,die Namen,the name,le nom,A1,A1,A1
+31,2,der Kopf,Köpfe,die Köpfe,the head,la tête,A1,A1,A1
+32,2,das Bild,Bilder,die Bilder,the image,l'image,A1,A1,A1
+33,2,das Buch,Bücher,die Bücher,the book,le livre,A1,A1,A1
+34,2,das Wasser,Wasser,die Wasser,the water,l'eau,A1,A1,A1
+35,2,die Stelle,Stellen,die Stellen,the spot,l'endroit,A1,A1,A1
+36,2,die Familie,Familien,die Familien,the family,la famille,A1,A1,A1
+37,2,der Morgen,Morgen,die Morgen,the morning,le matin,A1,A1,A1
+38,2,der Abend,Abende,die Abende,the evening,la soirée,A1,A1,A1
+39,2,die Aufgabe,Aufgaben,die Aufgaben,the task,la tâche,A1,A1,A1
+40,2,der Freund,Freunde,die Freunde,the friend,l'ami,A1,A1,A1
+41,3,das Thema,Themen,die Themen,the topic,le sujet,A1,A1,A1
+42,3,der Euro,Euro,die Euro,the euro,l'euro,A1,A1,A1
+43,3,der Raum,Räume,die Räume,the space,l'espace,A1,A1,A1
+44,3,der Blick,Blicke,die Blicke,the view,la vue,A1,A1,A1
+45,3,der Platz,Plätze,die Plätze,the space,l'espace,A1,A1,A1
+46,3,die Uhr,Uhren,die Uhren,the clock,l'horloge,A1,A1,A1
+47,3,die Straße,Straßen,die Straßen,the street,la rue,A1,A1,A1
+48,3,die Minute,Minuten,die Minuten,the minute,la minute,A1,A1,A1
+49,3,die Gruppe,Gruppen,die Gruppen,the group,le groupe,A1,A1,A1
+50,3,die Sprache,Sprachen,die Sprachen,the language,la langue,A1,A1,A1
+51,3,der Anfang,Anfänge,die Anfänge,the beginning,le début,A1,A1,A1
+52,3,der Ort,Orte,die Orte,the place,l'endroit,A1,A1,A1
+53,3,der Moment,Momente,die Momente,the moment,le moment,A1,A1,A1
+54,3,die Milliarde,Milliarden,die Milliarden,the billion,le milliard,A1,A1,A1
+55,3,der Schüler,Schüler,die Schüler,the student,l'étudiant,A1,A1,A1
+56,3,der Text,Texte,die Texte,the text,le texte,A1,A1,A1
+57,3,das Ergebnis,Ergebnisse,die Ergebnisse,the result,le résultat,A1,A1,A1
+58,3,die Wohnung,Wohnungen,die Wohnungen,the apartment,l'appartement,A1,A1,A1
+59,3,das Gespräch,Gespräche,die Gespräche,the conversation,la conversation,A1,A1,A1
+60,3,der Meter,Meter,die Meter,the meter,le compteur,A1,A1,A1
+61,4,der Lehrer,Lehrer,die Lehrer,the teacher,l'enseignant,A1,A1,A1
+62,4,der Preis,Preise,die Preise,the price,le prix,A1,A1,A1
+63,4,der Sohn,Söhne,die Söhne,the son,le fils,A1,A1,A1
+64,4,die Information,Informationen,die Informationen,the information,les informations,A1,A1,A1
+65,4,der Beruf,Berufe,die Berufe,the job,le travail,A1,A1,A1
+66,4,das Auto,Autos,die Autos,the car,la voiture,A1,A1,A1
+67,4,der Tisch,Tische,die Tische,the table,la table,A1,A1,A1
+68,4,das Licht,Lichter,die Lichter,the light,la lumière,A1,A1,A1
+69,4,die Bank,Bänke,die Bänke,the Bank,la Banque,A1,A1,A1
+70,4,die Tochter,Töchter,die Töchter,the daughter,la fille,A1,A1,A1
+71,4,der Film,Filme,die Filme,the film,le film,A1,A1,A1
+72,4,der Doktor,Doktoren,die Doktoren,the doctor,le médecin,A1,A1,A1
+73,4,das Mädchen,Mädchen,die Mädchen,the girl,la fille,A1,A1,A1
+74,4,der Arm,Arme,die Arme,the arm,le bras,A1,A1,A1
+75,4,die Firma,Firmen,die Firmen,the Company,la société,A1,A1,A1
+76,4,der Student,Studenten,die Studenten,the student,l'étudiant,A1,A1,A1
+77,4,die Zeitung,Zeitungen,die Zeitungen,the newspaper,le journal,A1,A1,A1
+78,4,der Satz,Sätze,die Sätze,the sentence,la phrase,A1,A1,A1
+79,4,das Angebot,Angebote,die Angebote,the offer,l'offre,A1,A1,A1
+80,4,das Zimmer,Zimmer,die Zimmer,the room,la chambre,A1,A1,A1
+81,5,der Chef,Chefs,die Chefs,the boss,le patron,A1,A1,A1
+82,5,der Zug,Züge,die Züge,the train,le train,A1,A1,A1
+83,5,der Arzt,Ärzte,die Ärzte,the doctor,le médecin,A1,A1,A1
+84,5,der Fuß,Füße,die Füße,the foot,le pied,A1,A1,A1
+85,5,die Klasse,Klassen,die Klassen,the class,la classe,A1,A1,A1
+86,5,die Lösung,Lösungen,die Lösungen,the solution,la solution,A1,A1,A1
+87,5,der Junge,Jungen,die Jungen,the boy,le garçon,A1,A1,A1
+88,5,das Studium,Studien,die Studien,the study,l'étude,A1,A1,A1
+89,5,das Bett,Betten,die Betten,the bed,le lit,A1,A1,A1
+90,5,der Kunde,Kunden,die Kunden,the customer,le client,A1,A1,A1
+91,5,das Geschäft,Geschäfte,die Geschäfte,the business,l'entreprise,A1,A1,A1
+92,5,der Gast,Gäste,die Gäste,the guest,l'invité,A1,A1,A1
+93,5,das Dorf,Dörfer,die Dörfer,the village,le village,A1,A1,A1
+94,5,der Kollege,Kollegen,die Kollegen,the colleague,le collègue,A1,A1,A1
+95,5,der Bruder,Brüder,die Brüder,the brother,le frère,A1,A1,A1
+96,5,der Sommer,Sommer,die Sommer,the summer,l'été,A1,A1,A1
+97,5,die Antwort,Antworten,die Antworten,the answer,la réponse,A1,A1,A1
+98,5,das Alter,Alter,die Alter,the age,l'âge,A1,A1,A1
+99,5,die Polizei,Polizeien,die Polizeien,the police,la police,A1,A1,A1
+100,5,der Kilometer,Kilometer,die Kilometer,the kilometer,le kilomètre,A1,A1,A1
+101,6,die Hilfe,Hilfen,die Hilfen,the help,l'aide,A1,A1,A1
+102,6,der Computer,Computer,die Computer,the computer,l'ordinateur,A1,A1,A1
+103,6,die Mitte,Mitten,die Mitten,the middle,le milieu,A1,A1,A1
+104,6,die Ordnung,Ordnungen,die Ordnungen,the order,l'ordre,A1,A1,A1
+105,6,das Wochenende,Wochenenden,die Wochenenden,the weekend,le week-end,A1,A1,A1
+106,6,die Schwester,Schwestern,die Schwestern,the sister,la sœur,A1,A1,A1
+107,6,die Reise,Reisen,die Reisen,the trip,le voyage,A1,A1,A1
+108,6,das Haar,Haare,die Haare,the hair,les cheveux,A1,A1,A1
+109,6,der Brief,Briefe,die Briefe,the letter,la lettre,A1,A1,A1
+110,6,die Größe,Größen,die Größen,the size,la taille,A1,A1,A1
+111,6,der Sport,Sporte,die Sporte,the sport,le sport,A1,A1,A1
+112,6,der Mund,Münder,die Münder,the mouth,la bouche,A1,A1,A1
+113,6,die Aussage,Aussagen,die Aussagen,the statement,la déclaration,A1,A1,A1
+114,6,die Farbe,Farben,die Farben,the color,la couleur,A1,A1,A1
+115,6,das Bein,Beine,die Beine,the leg,la jambe,A1,A1,A1
+116,6,der Kurs,Kurse,die Kurse,the course,le cours,A1,A1,A1
+117,6,das Papier,Papiere,die Papiere,the paper,le papier,A1,A1,A1
+118,6,die Sekunde,Sekunden,die Sekunden,the second,le second,A1,A1,A1
+119,6,der Garten,Gärten,die Gärten,the garden,le jardin,A1,A1,A1
+120,6,die Küche,Küchen,die Küchen,the kitchen,la cuisine,A1,A1,A1
+121,7,das Essen,Essen,die Essen,the food,la nourriture,A1,A1,A1
+122,7,das Meer,Meere,die Meere,the sea,la mer,A1,A1,A1
+123,7,der Plan,Pläne,die Pläne,the plan,le plan,A1,A1,A1
+124,7,der Baum,Bäume,die Bäume,the tree,l'arbre,A1,A1,A1
+125,7,der Schluss,Schlüsse,die Schlüsse,the end,la fin,A1,A1,A1
+126,7,das Glas,Gläser,die Gläser,the glass,le verre,A1,A1,A1
+127,7,die Praxis,Praxen,die Praxen,the practice,la pratique,A1,A1,A1
+128,7,der Hund,Hunde,die Hunde,the dog,le chien,A1,A1,A1
+129,7,die Maschine,Maschinen,die Maschinen,the machine,la machine,A1,A1,A1
+130,7,die Nummer,Nummern,die Nummern,the number,le nombre,A1,A1,A1
+131,7,der Verein,Vereine,die Vereine,the Union,l'Union,A1,A1,A1
+132,7,der Wagen,Wagen,die Wagen,the car,la voiture,A1,A1,A1
+133,7,der Wind,Winde,die Winde,the wind,le vent,A1,A1,A1
+134,7,der Job,Jobs,die Jobs,the job,le travail,A1,A1,A1
+135,7,der Unterricht,Unterrichte,die Unterrichte,the lesson,la leçon,A1,A1,A1
+136,7,das Hotel,Hotels,die Hotels,the hotel,l'hôtel,A1,A1,A1
+137,7,der Fehler,Fehler,die Fehler,the error,l'erreur,A1,A1,A1
+138,7,die Freizeit,Freizeiten,die Freizeiten,the free time,le temps libre,A1,A1,A1
+139,7,der Partner,Partner,die Partner,the partner,le partenaire,A1,A1,A1
+140,7,der See,Seen,die Seen,the lake,le lac,A1,A1,A1
+141,8,der Arbeitsplatz,Arbeitsplätze,die Arbeitsplätze,the workplace,le lieu de travail,A1,A1,A1
+142,8,die Karte,Karten,die Karten,the map,la carte,A1,A1,A1
+143,8,der Urlaub,Urlaube,die Urlaube,the holidays,les vacances,A1,A1,A1
+144,8,die Prüfung,Prüfungen,die Prüfungen,the exam,l'examen,A1,A1,A1
+145,8,die Bitte,Bitten,die Bitten,the request,la demande,A1,A1,A1
+146,8,der Winter,Winter,die Winter,the winter,l'hiver,A1,A1,A1
+147,8,der Zentimeter,Zentimeter,die Zentimeter,the centimeter,le centimètre,A1,A1,A1
+148,8,die Ecke,Ecken,die Ecken,the corner,le coin,A1,A1,A1
+149,8,der Herbst,Herbste,die Herbste,the autumn,l'automne,A1,A1,A1
+150,9,die Seite,Seiten,die Seiten,the page,la page,A1,A2,A2
+151,9,der Weg,Wege,die Wege,the way,le chemin,A1,A2,A2
+152,9,die Geschichte,Geschichten,die Geschichten,the story,l'histoire,A1,A2,A2
+153,9,das Paar,Paare,die Paare,the couple,le couple,A1,A2,A2
+154,9,die Universität,Universitäten,die Universitäten,the university,l'université,A1,A2,A2
+155,9,das Ziel,Ziele,die Ziele,the goal,l'objectif,A1,A2,A2
+156,9,die Person,Personen,die Personen,the person,la personne,A1,A2,A2
+157,9,das Ding,Dinge,die Dinge,the thing,la chose,A1,A2,A2
+158,9,die Zahl,Zahlen,die Zahlen,the number,le nombre,A1,A2,A2
+159,9,das Interesse,Interessen,die Interessen,the interest,l'intérêt,A1,A2,A2
+160,9,die Tür,Türen,die Türen,the door,la porte,A1,A2,A2
+161,9,das Stück,Stücke,die Stücke,the piece,la pièce,A1,A2,A2
+162,9,die Situation,Situationen,die Situationen,the situation,la situation,A1,A2,A2
+163,9,das Programm,Programme,die Programme,the program,le programme,A1,A2,A2
+164,9,die Angst,Ängste,die Ängste,the fear,la peur,A1,A2,A2
+165,9,die Kunst,Künste,die Künste,the art,l'art,A1,A2,A2
+166,9,die Musik,Musiken,die Musiken,the music,la musique,A1,A2,A2
+167,9,die Erfahrung,Erfahrungen,die Erfahrungen,the experience,l'expérience,A1,A2,A2
+168,9,das Spiel,Spiele,die Spiele,the game,le jeu,A1,A2,A2
+169,9,der Markt,Märkte,die Märkte,the market,le marché,A1,A2,A2
+170,10,die Kirche,Kirchen,die Kirchen,the church,l'église,A1,A2,A2
+171,10,die Kultur,Kulturen,die Kulturen,the culture,la culture,A1,A2,A2
+172,10,das Projekt,Projekte,die Projekte,the project,le projet,A1,A2,A2
+173,10,der Körper,Körper,die Körper,the body,le corps,A1,A2,A2
+174,10,das Fenster,Fenster,die Fenster,the window,la fenêtre,A1,A2,A2
+175,10,die Meinung,Meinungen,die Meinungen,the opinion,l'opinion,A1,A2,A2
+176,10,die Idee,Ideen,die Ideen,the idea,l'idée,A1,A2,A2
+177,10,das Produkt,Produkte,die Produkte,the product,le produit,A1,A2,A2
+178,10,das Mittel,Mittel,die Mittel,"the mean, the remedy",le moyen,A1,A2,A2
+179,10,die Natur,Naturen,die Naturen,the nature,la nature,A1,A2,A2
+180,10,der Mitarbeiter,Mitarbeiter,die Mitarbeiter,the employee,l'employé,A1,A2,A2
+181,10,der Spaß,Späße,die Späße,the fun,le plaisir,A1,A2,A2
+182,10,das Tier,Tiere,die Tiere,the animal,l'animal,A1,A2,A2
+183,10,das Fach,Fächer,die Fächer,the subject,le sujet,A1,A2,A2
+184,10,der Kontakt,Kontakte,die Kontakte,the contact,le contact,A1,A2,A2
+185,10,die Menge,Mengen,die Mengen,the amount,la quantité,A1,A2,A2
+186,10,der Unterschied,Unterschiede,die Unterschiede,the difference,la différence,A1,A2,A2
+187,10,das Theater,Theater,die Theater,the theatre,le théâtre,A1,A2,A2
+188,10,die Ausbildung,Ausbildungen,die Ausbildungen,the training,la formation,A1,A2,A2
+189,10,das Gerät,Geräte,die Geräte,the device,l'appareil,A1,A2,A2
+190,11,der Vertrag,Verträge,die Verträge,the contract,le contrat,A1,A2,A2
+191,11,die Reihe,Reihen,die Reihen,the series,la série,A1,A2,A2
+192,11,die Liebe,Lieben,die Lieben,the love,l'amour,A1,A2,A2
+193,11,die Krankheit,Krankheiten,die Krankheiten,the disease,la maladie,A1,A2,A2
+194,11,der Wunsch,Wünsche,die Wünsche,the desire,le désir,A1,A2,A2
+195,11,der Artikel,Artikel,die Artikel,the article,l'article,A1,A2,A2
+196,11,der Rücken,Rücken,die Rücken,the back,le dos,A1,A2,A2
+197,11,der Himmel,Himmel,die Himmel,the sky,le ciel,A1,A2,A2
+198,11,die Bibliothek,Bibliotheken,die Bibliotheken,the library,la bibliothèque,A1,A2,A2
+199,11,die Kenntnis,Kenntnisse,die Kenntnisse,the knowledge,la connaissance,A1,A2,A2
+200,11,der Wald,Wälder,die Wälder,the forest,la forêt,A1,A2,A2
+201,11,die Freundin,Freundinnen,die Freundinnen,the girlfriend,la petite amie,A1,A2,A2
+202,11,der Haushalt,Haushalte,die Haushalte,the household,le ménage,A1,A2,A2
+203,11,das Team,Teams,die Teams,the team,l'équipe,A1,A2,A2
+204,11,der Titel,Titel,die Titel,the title,le titre,A1,A2,A2
+205,11,der Rest,Reste,die Reste,the rest,le reste,A1,A2,A2
+206,11,der Besuch,Besuche,die Besuche,the visit,la visite,A1,A2,A2
+207,11,das Zentrum,Zentren,die Zentren,the center,le centre,A1,A2,A2
+208,11,der Berg,Berge,die Berge,the mountain,la montagne,A1,A2,A2
+209,11,das Ohr,Ohren,die Ohren,the ear,l'oreille,A1,A2,A2
+210,12,das Schiff,Schiffe,die Schiffe,the ship,le navire,A1,A2,A2
+211,12,die Ausstellung,Ausstellungen,die Ausstellungen,the exhibition,l'exposition,A1,A2,A2
+212,12,das Gericht,Gerichte,die Gerichte,the court,le tribunal,A1,A2,A2
+213,12,der Traum,Träume,die Träume,the dream,le rêve,A1,A2,A2
+214,12,die Qualität,Qualitäten,die Qualitäten,the quality,la qualité,A1,A2,A2
+215,12,die Insel,Inseln,die Inseln,the island,l'île,A1,A2,A2
+216,12,das Instrument,Instrumente,die Instrumente,the instrument,l'instrument,A1,A2,A2
+217,12,die Nachricht,Nachrichten,die Nachrichten,the message,le message,A1,A2,A2
+218,12,der Vorschlag,Vorschläge,die Vorschläge,the suggestion,la suggestion,A1,A2,A2
+219,12,das Blatt,Blätter,die Blätter,the leaf,la feuille,A1,A2,A2
+220,12,das Interview,Interviews,die Interviews,the interview,l'interview,A1,A2,A2
+221,12,die Dame,Damen,die Damen,the lady,la dame,A1,A2,A2
+222,12,das Museum,Museen,die Museen,the museum,le musée,A1,A2,A2
+223,12,die Bahn,Bahnen,die Bahnen,the train,le train,A2,A1,A2
+224,12,das Flugzeug,Flugzeuge,die Flugzeuge,The plane,L'avion,A2,A1,A2
+225,12,das Foto,Fotos,die Fotos,the photo,la photo,A2,A1,A2
+226,12,die Veranstaltung,Veranstaltungen,die Veranstaltungen,the event,l'événement,A2,A2,A2
+227,12,das Hobby,Hobbys,die Hobbys,the hobby,le passe-temps,A2,A1,A2
+228,12,der Kaffee,Kaffees,die Kaffees,the coffee,le café,A2,A1,A2
+229,12,die Lust,Lüste,die Lüste,the lust,la convoitise,A2,A2,A2
+230,13,der Nachmittag,Nachmittage,die Nachmittage,the afternoon,l'après-midi,A2,A1,A2
+231,13,die Rechnung,Rechnungen,die Rechnungen,the bill,le projet de loi,A2,A1,A2
+232,13,das Schloss,Schlösser,die Schlösser,the castle,le château,A2,A2,A2
+233,13,das Fest,Feste,die Feste,the party,la fête,A2,A2,A2
+234,13,die Landschaft,Landschaften,die Landschaften,the landscape,le paysage,A2,A2,A2
+235,13,die Mannschaft,Mannschaften,die Mannschaften,the team,l'équipe,A2,A2,A2
+236,13,der Laden,Läden,die Läden,the store,le magasin,A2,A1,A2
+237,13,das Büro,Büros,die Büros,the office,le bureau,A2,A2,A2
+238,13,der Fußball,Fußbälle,die Fußbälle,football,le football,A2,A1,A2
+239,13,die Katze,Katzen,die Katzen,the cat,le chat,A2,A2,A2
+240,13,das Pferd,Pferde,die Pferde,the horse,le cheval,A2,A2,A2
+241,13,das Feuer,Feuer,die Feuer,the fire,le feu,A2,A1,A2
+242,13,der Stuhl,Stühle,die Stühle,the chair,la chaise,A2,A2,A2
+243,13,der Ausländer,Ausländer,die Ausländer,the foreigner,l'étranger,A2,A1,A2
+244,13,der Club,Clubs,die Clubs,the club,le club,A2,A2,A2
+245,13,der Fluss,Flüsse,die Flüsse,the river,la rivière,A2,A2,A2
+246,13,die Führung,Führungen,die Führungen,the leadership,le leadership,A2,A1,A2
+247,13,der Nachbar,Nachbarn,die Nachbarn,the neighbor,le voisin,A2,A2,A2
+248,13,das Telefon,Telefone,die Telefone,the phone,le téléphone,A2,A1,A2
+249,13,das Bad,Bäder,die Bäder,the bathroom,la salle de bain,A2,A1,A2
+250,14,der Bus,Busse,die Busse,the bus,le bus,A2,A1,A2
+251,14,die Messe,Messen,die Messen,the fair,la foire,A2,A2,A2
+252,14,das Fahrrad,Fahrräder,die Fahrräder,the bike,le vélo,A2,A1,A2
+253,14,das Krankenhaus,Krankenhäuser,die Krankenhäuser,the hospital,l'hôpital,A2,A2,A2
+254,14,der Fisch,Fische,die Fische,the fish,le poisson,A2,A1,A2
+255,14,der Schmerz,Schmerzen,die Schmerzen,the pain,la douleur,A2,A2,A2
+256,14,die Tasche,Taschen,die Taschen,the bag,le sac,A2,A1,A2
+257,14,der Wein,Weine,die Weine,the wine,le vin,A2,A1,A2
+258,14,der Wettbewerb,Wettbewerbe,die Wettbewerbe,the competition,la compétition,A2,A2,A2
+259,14,das Wetter,Wetter,die Wetter,the weather,la météo,A2,A1,A2
+260,14,die Ahnung,Ahnungen,die Ahnungen,the feeling,le sentiment,A2,A2,A2
+261,14,das Kleid,Kleider,die Kleider,the dress,la robe,A2,A2,A2
+262,14,der Termin,Termine,die Termine,the appointment,le rendez-vous,A2,A1,A2
+263,14,der Test,Tests,die Tests,the test,le test,A2,A1,A2
+264,14,der Tourist,Touristen,die Touristen,the tourist,le touriste,A2,A2,A2
+265,14,das Bier,Biere,die Biere,the beer,la bière,A2,A1,A2
+266,14,das Konzert,Konzerte,die Konzerte,the concert,le concert,A2,A2,A2
+267,14,das Lied,Lieder,die Lieder,the song,la chanson,A2,A1,A2
+268,14,die Pause,Pausen,die Pausen,the break,la pause,A2,A1,A2
+269,14,das Brot,Brote,die Brote,the bread,le pain,A2,A1,A2
+270,15,die Flasche,Flaschen,die Flaschen,the bottle,la bouteille,A2,A1,A2
+271,15,der Geburtstag,Geburtstage,die Geburtstage,the birthday,l'anniversaire,A2,A1,A2
+272,15,die Hauptstadt,Hauptstädte,die Hauptstädte,the capital,la capitale,A2,A2,A2
+273,15,das Kilogramm,Kilogramme,die Kilogramme,the kilogram,le kilogramme,A2,A1,A2
+274,15,die Adresse,Adressen,die Adressen,the address,l'adresse,A2,A1,A2
+275,15,der Hals,Hälse,die Hälse,the neck,le cou,A2,A2,A2
+276,15,die Heimat,Heimaten,die Heimaten,the homeland,la patrie,A2,A1,A2
+277,15,das Kino,Kinos,die Kinos,the cinema,le cinéma,A2,A1,A2
+278,15,der Fahrer,Fahrer,die Fahrer,the driver,le conducteur,A2,A1,A2
+279,15,das Gegenteil,Gegenteile,die Gegenteile,the contrary,le contraire,A2,A2,A2
+280,15,der Vogel,Vögel,die Vögel,the bird,l'oiseau,A2,A2,A2
+281,15,der Verkehr,Verkehre,die Verkehre,the traffic,la circulation,A2,A2,A2
+282,15,der Anschluss,Anschlüsse,die Anschlüsse,the connection,la connexion,A2,A1,A2
+283,15,der Flughafen,Flughäfen,die Flughäfen,the airport,l'aéroport,A2,A1,A2
+284,15,der Park,Parks,die Parks,the park,le parc,A2,A2,A2
+285,15,die Post,Posten,die Posten,the post,le poste,A2,A1,A2
+286,15,der Bahnhof,Bahnhöfe,die Bahnhöfe,the station,la station,A2,A1,A2
+287,15,die Kasse,Kassen,die Kassen,the cash register,la caisse enregistreuse,A2,A1,A2
+288,15,das Radio,Radios,die Radios,the radio,la radio,A2,A2,A2
+289,15,der Unfall,Unfälle,die Unfälle,the accident,l'accident,A2,A2,A2
+290,16,das Frühjahr,Frühjahre,die Frühjahre,the spring,le printemps,A2,A1,A2
+291,16,das Gewicht,Gewichte,die Gewichte,the weight,le poids,A2,A1,A2
+292,16,das Lebensmittel,Lebensmittel,die Lebensmittel,the food,la nourriture,A2,A1,A2
+293,16,der Strand,Strände,die Strände,the beach,la plage,A2,A2,A2
+294,16,die Treppe,Treppen,die Treppen,the stairs,l'escalier,A2,A1,A2
+295,16,die Brücke,Brücken,die Brücken,the bridge,le pont,A2,A2,A2
+296,16,die CD,CDs,die CDs,the CD,le CD,A2,A1,A2
+297,16,der Schuh,Schuhe,die Schuhe,the shoe,la chaussure,A2,A1,A2
+298,16,die Sendung,Sendungen,die Sendungen,the broadcast,la diffusion,A2,A2,A2
+299,16,das Viertel,Viertel,die Viertel,the quarter,le trimestre,A2,A1,A2
+300,16,die Kamera,Kameras,die Kameras,the camera,l'appareil photo,A2,A2,A2
+301,16,der Kredit,Kredite,die Kredite,the loan,le prêt,A2,A2,A2
+302,16,das Rad,Räder,die Räder,the wheel,la roue,A2,A2,A2
+303,16,die Zigarette,Zigaretten,die Zigaretten,the cigarette,la cigarette,A2,A1,A2
+304,16,die Halle,Hallen,die Hallen,the hall,le hall,A2,A1,A2
+305,16,der Mittag,Mittage,die Mittage,midday,le midi,A2,A1,A2
+306,16,das Restaurant,Restaurants,die Restaurants,the restaurant,le restaurant,A2,A1,A2
+307,16,die Schülerin,Schülerinnen,die Schülerinnen,the student,l'étudiant,A2,A2,A2
+308,16,der Service,Services,die Services,the service,le service,A2,A2,A2
+309,16,der Bescheid,Bescheide,die Bescheide,the decision,la décision,A2,A2,A2
+310,17,die Blume,Blumen,die Blumen,the flower,la fleur,A2,A1,A2
+311,17,das Training,Trainings,die Trainings,the training,la formation,A2,A2,A2
+312,17,der Verkäufer,Verkäufer,die Verkäufer,the seller,le vendeur,A2,A1,A2
+313,17,die Auskunft,Auskünfte,die Auskünfte,the information,les informations,A2,A1,A2
+314,17,der Koffer,Koffer,die Koffer,the suitcase,la valise,A2,A1,A2
+315,17,der Schlüssel,Schlüssel,die Schlüssel,the key,la clé,A2,A1,A2
+316,17,das Café,Cafés,die Cafés,the café,le café,A2,A1,A2
+317,17,die Datei,Dateien,die Dateien,the file,le fichier,A2,A2,A2
+318,17,der Keller,Keller,die Keller,the cellar,la cave,A2,A2,A2
+319,17,das Konto,Konten,die Konten,the account,le compte,A2,A1,A2
+320,17,der Bauch,Bäuche,die Bäuche,the belly,le ventre,A2,A1,A2
+321,17,die Hose,Hosen,die Hosen,the pants,le pantalon,A2,A2,A2
+322,17,der Motor,Motoren,die Motoren,the engine,le moteur,A2,A2,A2
+323,17,die Wolke,Wolken,die Wolken,the cloud,le nuage,A2,A2,A2
+324,17,der Zahn,Zähne,die Zähne,the tooth,la dent,A2,A2,A2
+325,17,der Fan,Fans,die Fans,the fan,le ventilateur,A2,A2,A2
+326,17,die Tour,Touren,die Touren,the tour,la tournée,A2,A2,A2
+327,18,das Mal,Male,die Male,the time,le temps,A1,B1,B1
+328,18,der Fall,Fälle,die Fälle,the case,l'affaire,A1,B1,B1
+329,18,das Recht,Rechte,die Rechte,the right,le droit,A1,B1,B1
+330,18,der Grund,Gründe,die Gründe,the reason,la raison,A1,B1,B1
+331,18,die Art,Arten,die Arten,the type,le type,A1,B1,B1
+332,18,der Bereich,Bereiche,die Bereiche,the area,la région,A1,B1,B1
+333,18,die Gesellschaft,Gesellschaften,die Gesellschaften,the society,la société,A1,B1,B1
+334,18,die Möglichkeit,Möglichkeiten,die Möglichkeiten,the possibility,la possibilité,A1,B1,B1
+335,18,die Form,Formen,die Formen,the form,la forme,A1,B1,B1
+336,18,die Entwicklung,Entwicklungen,die Entwicklungen,the development,le développement,A1,B1,B1
+337,18,der Sinn,Sinne,die Sinne,the meaning,la signification,A1,B1,B1
+338,18,die Nacht,Nächte,die Nächte,the night,la nuit,A1,B1,B1
+339,18,das System,Systeme,die Systeme,the system,le système,A1,B1,B1
+340,18,der Wert,Werte,die Werte,the value,la valeur,A1,B1,B1
+341,18,die Folge,Folgen,die Folgen,the consequence,la conséquence,A1,B1,B1
+342,18,die Rolle,Rollen,die Rollen,the role,le rôle,A1,B1,B1
+343,18,die Bedeutung,Bedeutungen,die Bedeutungen,the meaning,la signification,A1,B1,B1
+344,18,der Krieg,Kriege,die Kriege,the war,la guerre,A1,B1,B1
+345,18,der Punkt,Punkte,die Punkte,the point,le point,A1,B1,B1
+346,18,die Abbildung,Abbildungen,die Abbildungen,the illustration,l'illustration,A1,B1,B1
+347,19,der Boden,Böden,die Böden,the ground,le sol,A1,B1,B1
+348,19,das Werk,Werke,die Werke,the work,le travail,A1,B1,B1
+349,19,die Stimme,Stimmen,die Stimmen,the voice,la voix,A1,B1,B1
+350,19,die Richtung,Richtungen,die Richtungen,the direction,la direction,A1,B1,B1
+351,19,die Politik,Politiken,die Politiken,the politics,la politique,A1,B1,B1
+352,19,die Regel,Regeln,die Regeln,the rule,la règle,A1,B1,B1
+353,19,der Schritt,Schritte,die Schritte,the step,l'étape,A1,B1,B1
+354,19,der Gott,Götter,die Götter,the god,le dieu,A1,B1,B1
+355,19,die Beziehung,Beziehungen,die Beziehungen,the relationship,la relation,A1,B1,B1
+356,19,die Zukunft,Zukünfte,die Zukünfte,the future,l'avenir,A1,B1,B1
+357,19,das Gefühl,Gefühle,die Gefühle,the feeling,le sentiment,A1,B1,B1
+358,19,das Verhältnis,Verhältnisse,die Verhältnisse,the relationship,la relation,A1,B1,B1
+359,19,der Gedanke,Gedanken,die Gedanken,the thought,la pensée,A1,B1,B1
+360,19,die Entscheidung,Entscheidungen,die Entscheidungen,the decision,la décision,A1,B1,B1
+361,19,der Prozess,Prozesse,die Prozesse,the process,le processus,A1,B1,B1
+362,19,der Betrieb,Betriebe,die Betriebe,the operation,l'opération,A1,B1,B1
+363,19,der Zusammenhang,Zusammenhänge,die Zusammenhänge,the connection,la connexion,A1,B1,B1
+364,19,das Gesetz,Gesetze,die Gesetze,the law,la loi,A1,B1,B1
+365,19,die Kraft,Kräfte,die Kräfte,the power,le pouvoir,A1,B1,B1
+366,19,die Chance,Chancen,die Chancen,the chance,la chance,A1,B1,B1
+367,20,der Erfolg,Erfolge,die Erfolge,the success,le succès,A1,B1,B1
+368,20,die Grenze,Grenzen,die Grenzen,the border,la frontière,A1,B1,B1
+369,20,die Lage,Lagen,die Lagen,the location,l'emplacement,A1,B1,B1
+370,20,die Leistung,Leistungen,die Leistungen,the performance,la performance,A1,B1,B1
+371,20,das Mitglied,Mitglieder,die Mitglieder,the member,le membre,A1,B1,B1
+372,20,das Verhalten,Verhalten,die Verhalten,the behavior,le comportement,A1,B1,B1
+373,20,die Höhe,Höhen,die Höhen,the height,la hauteur,A1,B1,B1
+374,20,die Luft,Lüfte,die Lüfte,the air,l'air,A1,B1,B1
+375,20,der Vergleich,Vergleiche,die Vergleiche,the comparison,la comparaison,A1,B1,B1
+376,20,das Modell,Modelle,die Modelle,the model,le modèle,A1,B1,B1
+377,20,der Tod,Tode,die Tode,the death,la mort,A1,B1,B1
+378,20,die Wirtschaft,Wirtschaften,die Wirtschaften,the economy,l'économie,A1,B1,B1
+379,20,die Bewegung,Bewegungen,die Bewegungen,the movement,le mouvement,A1,B1,B1
+380,20,die Sicherheit,Sicherheiten,die Sicherheiten,the safety,la sécurité,A1,B1,B1
+381,20,das Gebiet,Gebiete,die Gebiete,the area,la région,A1,B1,B1
+382,20,die Angabe,Angaben,die Angaben,the information,les informations,A1,B1,B1
+383,20,das Herz,Herzen,die Herzen,the heart,le cœur,A1,B1,B1
+384,20,der Anspruch,Ansprüche,die Ansprüche,the claim,la réclamation,A1,B1,B1
+385,20,die Verbindung,Verbindungen,die Verbindungen,the connection,la connexion,A1,B1,B1
+386,20,die Vorstellung,Vorstellungen,die Vorstellungen,the idea,l'idée,A1,B1,B1
+387,21,der Patient,Patienten,die Patienten,the patient,le patient,A1,B1,B1
+388,21,die Gefahr,Gefahren,die Gefahren,the danger,le danger,A1,B1,B1
+389,21,der Stoff,Stoffe,die Stoffe,the fabric,le tissu,A1,B1,B1
+390,21,der Beginn,Beginne,die Beginne,the beginning,le début,A1,B1,B1
+391,21,der Professor,Professoren,die Professoren,the professor,le professeur,A1,B1,B1
+392,21,die Bevölkerung,Bevölkerungen,die Bevölkerungen,the population,la population,A1,B1,B1
+393,21,das Institut,Institute,die Institute,the institute,l'institut,A1,B1,B1
+394,21,die Erde,Erden,die Erden,the earth,la terre,A1,B1,B1
+395,21,der Vorteil,Vorteile,die Vorteile,the advantage,l'avantage,A1,B1,B1
+396,21,der Autor,Autoren,die Autoren,the author,l'auteur,A1,B1,B1
+397,21,die Bedingung,Bedingungen,die Bedingungen,the condition,la condition,A1,B1,B1
+398,21,das Risiko,Risiken,die Risiken,the risk,le risque,A1,B1,B1
+399,21,die Wahl,Wahlen,die Wahlen,the choice,le choix,A1,B1,B1
+400,21,die Wirkung,Wirkungen,die Wirkungen,the effect,l'effet,A1,B1,B1
+401,21,die Untersuchung,Untersuchungen,die Untersuchungen,the investigation,l'enquête,A1,B1,B1
+402,21,der Einfluss,Einflüsse,die Einflüsse,the influence,l'influence,A1,B1,B1
+403,21,die Methode,Methoden,die Methoden,the method,la méthode,A1,B1,B1
+404,21,die Organisation,Organisationen,die Organisationen,the organization,l'organisation,A1,B1,B1
+405,21,die Rede,Reden,die Reden,the speech,le discours,A1,B1,B1
+406,21,der Augenblick,Augenblicke,die Augenblicke,the moment,le moment,A1,B1,B1
+407,22,die Diskussion,Diskussionen,die Diskussionen,the discussion,la discussion,A1,B1,B1
+408,22,die Forderung,Forderungen,die Forderungen,the requirement,l'exigence,A1,B1,B1
+409,22,der Kreis,Kreise,die Kreise,the circle,le cercle,A1,B1,B1
+410,22,die Technik,Techniken,die Techniken,the technology,la technologie,A1,B1,B1
+411,22,der Versuch,Versuche,die Versuche,the attempt,la tentative,A1,B1,B1
+412,22,die Schwierigkeit,Schwierigkeiten,die Schwierigkeiten,the difficulty,la difficulté,A1,B1,B1
+413,22,die Tätigkeit,Tätigkeiten,die Tätigkeiten,the activity,l'activité,A1,B1,B1
+414,22,die Voraussetzung,Voraussetzungen,die Voraussetzungen,the prerequisite,prérequis,A1,B1,B1
+415,22,der Kampf,Kämpfe,die Kämpfe,the fight,le combat,A1,B1,B1
+416,22,der Künstler,Künstler,die Künstler,the artist,l'artiste,A1,B1,B1
+417,22,die Region,Regionen,die Regionen,the region,la région,A1,B1,B1
+418,22,der Eindruck,Eindrücke,die Eindrücke,the impression,l'impression,A1,B1,B1
+419,22,die Reaktion,Reaktionen,die Reaktionen,the reaction,la réaction,A1,B1,B1
+420,22,der Beitrag,Beiträge,die Beiträge,the contribution,la contribution,A1,B1,B1
+421,22,die Linie,Linien,die Linien,the line,la ligne,A1,B1,B1
+422,22,der Gegensatz,Gegensätze,die Gegensätze,the contrast,le contraste,A1,B1,B1
+423,22,das Kapitel,Kapitel,die Kapitel,the chapter,le chapitre,A1,B1,B1
+424,22,die Literatur,Literaturen,die Literaturen,literature,littérature,A1,B1,B1
+425,22,der Bürger,Bürger,die Bürger,the citizen,le citoyen,A1,B1,B1
+426,22,der Inhalt,Inhalte,die Inhalte,the content,le contenu,A1,B1,B1
+427,23,die Wand,Wände,die Wände,the wall,le mur,A1,B1,B1
+428,23,der/die Jugendliche,Jugendliche,die Jugendliche,the young,"le jeune, la jeune",B1,A1,B1
+429,23,die Erinnerung,Erinnerungen,die Erinnerungen,the memory,le souvenir,A1,B1,B1
+430,23,die Wirklichkeit,Wirklichkeiten,die Wirklichkeiten,the reality,la réalité,A1,B1,B1
+431,23,der Druck,Drucke,die Drucke,the pressure,la pression,A1,B1,B1
+432,23,der Zustand,Zustände,die Zustände,the condition,la condition,A1,B1,B1
+433,23,die Hälfte,Hälften,die Hälften,the half,la moitié,A1,B1,B1
+434,23,der Dienst,Dienste,die Dienste,the service,le service,A1,B1,B1
+435,23,der Gegenstand,Gegenstände,die Gegenstände,the object,l'objet,A1,B1,B1
+436,23,der Zeitpunkt,Zeitpunkte,die Zeitpunkte,the time,le temps,A1,B1,B1
+437,23,der Auftrag,Aufträge,die Aufträge,the order,l'ordre,A1,B1,B1
+438,23,die Freude,Freuden,die Freuden,the joy,la joie,A1,B1,B1
+439,23,der Hinweis,Hinweise,die Hinweise,the hint,l'indice,A1,B1,B1
+440,23,das Netz,Netze,die Netze,the network,le réseau,A1,B1,B1
+441,23,die Forschung,Forschungen,die Forschungen,the research,la recherche,A1,B1,B1
+442,23,die Haut,Häute,die Häute,the skin,la peau,A1,B1,B1
+443,23,der Ausdruck,Ausdrücke,die Ausdrücke,the expression,l'expression,A1,B1,B1
+444,23,der Finger,Finger,die Finger,the finger,le doigt,A1,B1,B1
+445,23,der Roman,Romane,die Romane,the novel,le roman,A1,B1,B1
+446,23,die Theorie,Theorien,die Theorien,the theory,la théorie,A1,B1,B1
+447,24,die Umwelt,Umwelten,die Umwelten,the environment,l'environnement,A1,B1,B1
+448,24,der Politiker,Politiker,die Politiker,the politician,l'homme politique,A1,B1,B1
+449,24,die Schulter,Schultern,die Schultern,the shoulder,l'épaule,A1,B1,B1
+450,24,das Zeichen,Zeichen,die Zeichen,the sign,le signe,A1,B1,B1
+451,24,das Material,Materialien,die Materialien,the material,le matériau,A1,B1,B1
+452,24,die Produktion,Produktionen,die Produktionen,the production,la production,A1,B1,B1
+453,24,der Schaden,Schäden,die Schäden,the damage,le dégât,A1,B1,B1
+454,24,die Sorge,Sorgen,die Sorgen,the worry,l'inquiétude,A1,B1,B1
+455,24,die Tatsache,Tatsachen,die Tatsachen,the fact,le fait,A1,B1,B1
+456,24,die Umgebung,Umgebungen,die Umgebungen,the environment,l'environnement,A1,B1,B1
+457,24,der Zweck,Zwecke,die Zwecke,the purpose,le but,A1,B1,B1
+458,24,der Antrag,Anträge,die Anträge,the application,l'application,A1,B1,B1
+459,24,der/das Grad,Grade,die Grade,the degree,le degré,B1,A1,B1
+460,24,der Schutz,Schutze,die Schutze,the protection,la protection,A1,B1,B1
+461,24,die Energie,Energien,die Energien,the energy,l'énergie,A1,B1,B1
+462,24,die Erklärung,Erklärungen,die Erklärungen,the explanation,l'explication,A1,B1,B1
+463,24,der Gang,Gänge,die Gänge,the aisle,l'allée,A1,B1,B1
+464,24,das Amt,Ämter,die Ämter,the Office,le Bureau,A1,B1,B1
+465,24,die Einrichtung,Einrichtungen,die Einrichtungen,the facility,l'installation,A1,B1,B1
+466,24,das Feld,Felder,die Felder,the field,le champ,A1,B1,B1
+467,25,das Publikum,Publika,die Publika,the audience,le public,A1,B1,B1
+468,25,die Studie,Studien,die Studien,the study,l'étude,A1,B1,B1
+469,25,die Spur,Spuren,die Spuren,the trail,le sentier,A1,B1,B1
+470,25,der Faktor,Faktoren,die Faktoren,the factor,le facteur,A1,B1,B1
+471,25,die Freiheit,Freiheiten,die Freiheiten,the freedom,la liberté,A1,B1,B1
+472,25,die Gegend,Gegenden,die Gegenden,the area,la région,A1,B1,B1
+473,25,die Kritik,Kritiken,die Kritiken,the criticism,la critique,A1,B1,B1
+474,25,der Typ,Typen,die Typen,the type,le type,A1,B1,B1
+475,25,das Ereignis,Ereignisse,die Ereignisse,the event,l'événement,A1,B1,B1
+476,25,die Kontrolle,Kontrollen,die Kontrollen,the control,le contrôle,A1,B1,B1
+477,25,das Opfer,Opfer,die Opfer,the victim,la victime,A1,B1,B1
+478,25,die Aufnahme,Aufnahmen,die Aufnahmen,the recording,l'enregistrement,A1,B1,B1
+479,25,die Fähigkeit,Fähigkeiten,die Fähigkeiten,the ability,la capacité,A1,B1,B1
+480,25,die Verantwortung,Verantwortungen,die Verantwortungen,the responsibility,la responsabilité,A1,B1,B1
+481,25,die Wahrheit,Wahrheiten,die Wahrheiten,the truth,la vérité,A1,B1,B1
+482,25,das Gebäude,Gebäude,die Gebäude,the building,le bâtiment,A1,B1,B1
+483,25,die Hoffnung,Hoffnungen,die Hoffnungen,the hope,l'espoir,A1,B1,B1
+484,25,der Bericht,Berichte,die Berichte,the report,le rapport,A1,B1,B1
+485,25,der Gewinn,Gewinne,die Gewinne,the profit,le profit,A1,B1,B1
+486,25,der König,Könige,die Könige,the king,le roi,A1,B1,B1
+487,26,der Sieg,Siege,die Siege,the victory,la victoire,A1,B1,B1
+488,26,die Tat,Taten,die Taten,the act,la loi,A1,B1,B1
+489,26,der Direktor,Direktoren,die Direktoren,the director,le directeur,A1,B1,B1
+490,26,der Rand,Ränder,die Ränder,the edge,le bord,A1,B1,B1
+491,26,der Abschnitt,Abschnitte,die Abschnitte,the section,la section,A1,B1,B1
+492,26,der Bauer,Bauern,die Bauern,the farmer,le fermier,A1,B1,B1
+493,26,die Ehe,Ehen,die Ehen,the marriage,le mariage,A1,B1,B1
+494,26,die Ursache,Ursachen,die Ursachen,the cause,la cause,A1,B1,B1
+495,26,der Verlust,Verluste,die Verluste,the loss,la perte,A1,B1,B1
+496,26,der Zuschauer,Zuschauer,die Zuschauer,the spectator,le spectateur,A1,B1,B1
+497,26,die Störung,Störungen,die Störungen,the disruption,la perturbation,A1,B1,B1
+498,26,der Vertreter,Vertreter,die Vertreter,the representative,le représentant,A1,B1,B1
+499,26,die Generation,Generationen,die Generationen,the generation,la génération,A1,B1,B1
+500,26,der Leiter,Leitern,die Leitern,the leader,le leader,A1,B1,B1
+501,26,die Leiter,Leitern,die Leitern,the ladder,l'échelle,A1,B1,B1
+502,26,der Abschluss,Abschlüsse,die Abschlüsse,the conclusion,la conclusion,A1,B1,B1
+503,26,die Tradition,Traditionen,die Traditionen,the tradition,la tradition,A1,B1,B1
+504,26,die Anlage,Anlagen,die Anlagen,the attachment,la pièce jointe,A1,B1,B1
+505,26,die Behörde,Behörden,die Behörden,the authority,l'autorité,A1,B1,B1
+506,26,die Bühne,Bühnen,die Bühnen,the stage,la scène,A1,B1,B1
+507,27,die Gelegenheit,Gelegenheiten,die Gelegenheiten,the opportunity,l'opportunité,A1,B1,B1
+508,27,der Hof,Höfe,die Höfe,the yard,la cour,A1,B1,B1
+509,27,die Kommunikation,Kommunikationen,die Kommunikationen,the communication,la communication,A1,B1,B1
+510,27,das Verständnis,Verständnisse,die Verständnisse,the understanding,la compréhension,A1,B1,B1
+511,27,die Zusammenarbeit,Zusammenarbeiten,die Zusammenarbeiten,the collaboration,la collaboration,A1,B1,B1
+512,27,der Stein,Steine,die Steine,the stone,la pierre,A2,B1,B1
+513,27,die Änderung,Änderungen,die Änderungen,the change,le changement,A2,B1,B1
+514,27,die Ausnahme,Ausnahmen,die Ausnahmen,the exception,l'exception,A2,B1,B1
+515,27,der Bau,Bauten,die Bauten,the construction,la construction,A2,B1,B1
+516,27,der Konflikt,Konflikte,die Konflikte,the conflict,le conflit,A2,B1,B1
+517,27,die Leitung,Leitungen,die Leitungen,the management,la direction,A2,B1,B1
+518,27,die Mehrheit,Mehrheiten,die Mehrheiten,the majority,la majorité,A2,B1,B1
+519,27,die Aktivität,Aktivitäten,die Aktivitäten,the activity,l'activité,A2,B1,B1
+520,27,das Dach,Dächer,die Dächer,the roof,le toit,A2,B1,B1
+521,27,der Kandidat,Kandidaten,die Kandidaten,the candidate,le candidat,A2,B1,B1
+522,27,die Mauer,Mauern,die Mauern,the wall,le mur,A2,B1,B1
+523,27,die Runde,Runden,die Runden,the round,le rond,A2,B1,B1
+524,27,der Stern,Sterne,die Sterne,the star,la star,A2,B1,B1
+525,27,der Experte,Experten,die Experten,the expert,l'expert,A2,B1,B1
+526,27,der Meister,Meister,die Meister,the master,le maître,A2,B1,B1
+527,28,der Zugang,Zugänge,die Zugänge,the access,l'accès,A2,B1,B1
+528,28,die Figur,Figuren,die Figuren,the character,le personnage,A2,B1,B1
+529,28,die Industrie,Industrien,die Industrien,the industry,l'industrie,A2,B1,B1
+530,28,die Darstellung,Darstellungen,die Darstellungen,the representation,la représentation,A2,B1,B1
+531,28,die Gewalt,Gewalten,die Gewalten,the violence,la violence,A2,B1,B1
+532,28,das Lager,Lager,die Lager,the warehouse,l'entrepôt,A2,B1,B1
+533,28,die Lehre,Lehren,die Lehren,the teaching,l'enseignement,A2,B1,B1
+534,28,der Rat,Räte,die Räte,the council,le conseil,A2,B1,B1
+535,28,der Schatten,Schatten,die Schatten,the shadow,l'ombre,A2,B1,B1
+536,28,die Strecke,Strecken,die Strecken,the route,la route,A2,B1,B1
+537,28,die Szene,Szenen,die Szenen,the scene,la scène,A2,B1,B1
+538,28,die Dauer,Dauern,die Dauern,the duration,la durée,A2,B1,B1
+539,28,die Nase,Nasen,die Nasen,the nose,le nez,A2,B1,B1
+540,28,das Tor,Tore,die Tore,the gate,la porte,A2,B1,B1
+541,28,die Aktion,Aktionen,die Aktionen,the action,l'action,A2,B1,B1
+542,28,die Ausgabe,Ausgaben,die Ausgaben,the issue,le problème,A2,B1,B1
+543,28,die Geschwindigkeit,Geschwindigkeiten,die Geschwindigkeiten,the speed,la vitesse,A2,B1,B1
+544,28,die Medizin,Medizinen,die Medizinen,medicine,la médecine,A2,B1,B1
+545,28,die Stufe,Stufen,die Stufen,the level,le niveau,A2,B1,B1
+546,28,der Trainer,Trainer,die Trainer,the coach,l'entraîneur,A2,B1,B1
+547,29,der Zweifel,Zweifel,die Zweifel,the doubt,le doute,A2,B1,B1
+548,29,die Vorschrift,Vorschriften,die Vorschriften,the regulation,le règlement,A2,B1,B1
+549,29,der Mangel,Mängel,die Mängel,the shortage,la pénurie,A2,B1,B1
+550,29,der Richter,Richter,die Richter,the judge,le juge,A2,B1,B1
+551,29,das Urteil,Urteile,die Urteile,the verdict,le verdict,A2,B1,B1
+552,29,der Anbieter,Anbieter,die Anbieter,the provider,le fournisseur,A2,B1,B1
+553,29,die Decke,Decken,die Decken,the ceiling,le plafond,A2,B1,B1
+554,29,die Schuld,Schulden,die Schulden,the blame,la faute,A2,B1,B1
+555,29,die Stimmung,Stimmungen,die Stimmungen,the mood,l'humeur,A2,B1,B1
+556,29,die Alternative,Alternativen,die Alternativen,the alternative,l'alternative,A2,B1,B1
+557,29,der Leser,Leser,die Leser,the reader,le lecteur,A2,B1,B1
+558,29,die Tante,Tanten,die Tanten,the aunt,la tante,A2,B1,B1
+559,29,die Temperatur,Temperaturen,die Temperaturen,the temperature,la température,A2,B1,B1
+560,29,die Ware,Waren,die Waren,the goods,la marchandise,A2,B1,B1
+561,29,die Brust,Brüste,die Brüste,the breast,le sein,A2,B1,B1
+562,29,die Einführung,Einführungen,die Einführungen,the introduction,l'introduction,A2,B1,B1
+563,29,die Länge,Längen,die Längen,the length,la longueur,A2,B1,B1
+564,29,das Loch,Löcher,die Löcher,the hole,le trou,A2,B1,B1
+565,29,die Religion,Religionen,die Religionen,the religion,la religion,A2,B1,B1
+566,29,der Spieler,Spieler,die Spieler,the player,le joueur,A2,B1,B1
+567,30,die Summe,Summen,die Summen,the sum,la somme,A2,B1,B1
+568,30,der Vorwurf,Vorwürfe,die Vorwürfe,the accusation,l'accusation,A2,B1,B1
+569,30,der Wissenschaftler,Wissenschaftler,die Wissenschaftler,the scientist,le scientifique,A2,B1,B1
+570,30,die Krise,Krisen,die Krisen,the crisis,la crise,A2,B1,B1
+571,30,die Landwirtschaft,Landwirtschaften,die Landwirtschaften,agriculture,agriculture,A2,B1,B1
+572,30,die Realität,Realitäten,die Realitäten,the reality,la réalité,A2,B1,B1
+573,30,die Botschaft,Botschaften,die Botschaften,the message,le message,A2,B1,B1
+574,30,der Fortschritt,Fortschritte,die Fortschritte,the progress,le progrès,A2,B1,B1
+575,30,die Mühe,Mühen,die Mühen,the effort,l'effort,A2,B1,B1
+576,30,die Nachfrage,Nachfragen,die Nachfragen,the demand,la demande,A2,B1,B1
+577,30,die Pflicht,Pflichten,die Pflichten,the duty,le devoir,A2,B1,B1
+578,30,der Teilnehmer,Teilnehmer,die Teilnehmer,the participant,le participant,A2,B1,B1
+579,30,die Fremdsprache,Fremdsprachen,die Fremdsprachen,the foreign language,la langue étrangère,A2,B1,B1
+580,30,der Gegner,Gegner,die Gegner,the opponent,l'adversaire,A2,B1,B1
+581,30,der Käufer,Käufer,die Käufer,the buyer,l'acheteur,A2,B1,B1
+582,30,die Verwaltung,Verwaltungen,die Verwaltungen,the administration,l'administration,A2,B1,B1
+583,30,der Betrag,Beträge,die Beträge,the amount,la quantité,A2,B1,B1
+584,30,der Kauf,Käufe,die Käufe,the purchase,l'achat,A2,B1,B1
+585,30,die Konkurrenz,Konkurrenzen,die Konkurrenzen,the competition,la compétition,A2,B1,B1
+586,30,der Streit,Streite,die Streite,the dispute,le différend,A2,B1,B1
+587,31,die Gemeinschaft,Gemeinschaften,die Gemeinschaften,the community,la communauté,A2,B1,B1
+588,31,die Gewerkschaft,Gewerkschaften,die Gewerkschaften,the union,le syndicat,A2,B1,B1
+589,31,der Handel,Händel,die Händel,the trade,le commerce,A2,B1,B1
+590,31,der Nachteil,Nachteile,die Nachteile,the disadvantage,le désavantage,A2,B1,B1
+591,31,der Sitz,Sitze,die Sitze,the seat,le siège,A2,B1,B1
+592,31,der Start,Starts,die Starts,the start,le début,A2,B1,B1
+593,31,die Tabelle,Tabellen,die Tabellen,the table,la table,A2,B1,B1
+594,31,der Verdacht,Verdachte,die Verdachte,the suspicion,le soupçon,A2,B1,B1
+595,31,der/die Beamte,Beamte,die Beamte,the civil servant,le fonctionnaire,B1,A1,B1
+596,31,die Planung,Planungen,die Planungen,the planning,la planification,A2,B1,B1
+597,31,der Polizist,Polizisten,die Polizisten,the police officer,l'agent de police,A2,B1,B1
+598,31,der Schriftsteller,Schriftsteller,die Schriftsteller,the writer,l'écrivain,A2,B1,B1
+599,31,die Steuer,Steuern,die Steuern,the tax,l'impôt,A2,B1,B1
+600,31,das Steuer,Steuern,die Steuern,the steering wheel,le volant,B1,B1,B1
+601,31,die Therapie,Therapien,die Therapien,the therapy,la thérapie,A2,B1,B1
+602,31,die Verletzung,Verletzungen,die Verletzungen,the injury,la blessure,A2,B1,B1
+603,31,die Auswahl,Auswahlen,die Auswahlen,the selection,la sélection,A2,B1,B1
+604,31,die Beschreibung,Beschreibungen,die Beschreibungen,the description,la description,A2,B1,B1
+605,31,das Boot,Boote,die Boote,the boat,le bateau,A2,B1,B1
+606,31,die Fläche,Flächen,die Flächen,the area,la région,A2,B1,B1
+607,32,die Saison,Saisons,die Saisons,the season,la saison,A2,B1,B1
+608,32,der Auftritt,Auftritte,die Auftritte,the performance,la performance,A2,B1,B1
+609,32,das Fahrzeug,Fahrzeuge,die Fahrzeuge,the vehicle,le véhicule,A2,B1,B1
+610,32,die Fotografie,Fotografien,die Fotografien,photography,photographie,A2,B1,B1
+611,32,der Hersteller,Hersteller,die Hersteller,the manufacturer,le fabricant,A2,B1,B1
+612,32,das Holz,Hölzer,die Hölzer,the wood,le bois,A2,B1,B1
+613,32,das Knie,Knie,die Knie,the knee,le genou,A2,B1,B1
+614,32,die Liste,Listen,die Listen,the list,la liste,A2,B1,B1
+615,32,die Schrift,Schriften,die Schriften,the writing,l'écriture,A2,B1,B1
+616,32,der Verlag,Verlage,die Verlage,the publisher,l'éditeur,A2,B1,B1
+617,32,die Abteilung,Abteilungen,die Abteilungen,the Department,le Département,A2,B1,B1
+618,32,der Beweis,Beweise,die Beweise,the proof,la preuve,A2,B1,B1
+619,32,das Detail,Details,die Details,the detail,le détail,A2,B1,B1
+620,32,die Integration,Integrationen,die Integrationen,the integration,l'intégration,A2,B1,B1
+621,32,das Abitur,Abiture,die Abiture,the high school diploma,le diplôme d'études secondaires,A2,B1,B1
+622,32,der Bedarf,Bedarfe,die Bedarfe,the need,le besoin,A2,B1,B1
+623,32,die Beratung,Beratungen,die Beratungen,the consultation,la consultation,A2,B1,B1
+624,32,die Beschäftigung,Beschäftigungen,die Beschäftigungen,the employment,l'emploi,A2,B1,B1
+625,32,der Journalist,Journalisten,die Journalisten,the journalist,le journaliste,A2,B1,B1
+626,32,der Spiegel,Spiegel,die Spiegel,the mirror,le miroir,A2,B1,B1
+627,33,die Lippe,Lippen,die Lippen,the lip,la lèvre,A2,B1,B1
+628,33,der Start,Starts,die Starts,the start,le début,A2,B1,B1
+629,33,die Taste,Tasten,die Tasten,the key,la clé,A2,B1,B1
+630,33,die Versicherung,Versicherungen,die Versicherungen,the insurance,l'assurance,A2,B1,B1
+631,33,die Vorbereitung,Vorbereitungen,die Vorbereitungen,the preparation,la préparation,A2,B1,B1
+632,33,der Anwalt,Anwälte,die Anwälte,the lawyer,l'avocat,A2,B1,B1
+633,33,das Seminar,Seminare,die Seminare,the seminar,le séminaire,A2,B1,B1
+634,33,die Technologie,Technologien,die Technologien,the technology,la technologie,A2,B1,B1
+635,33,das Erlebnis,Erlebnisse,die Erlebnisse,the experience,l'expérience,A2,B1,B1
+636,33,das Grundstück,Grundstücke,die Grundstücke,the property,la propriété,A2,B1,B1
+637,33,der Kanal,Kanäle,die Kanäle,the canal,le canal,A2,B1,B1
+638,33,die Karriere,Karrieren,die Karrieren,the career,la carrière,A2,B1,B1
+639,33,der Rechner,Rechner,die Rechner,the computer,l'ordinateur,A2,B1,B1
+640,33,der Schlaf,Schläfe,die Schläfe,the sleep,le sommeil,A2,B1,B1
+641,33,der Sender,Sender,die Sender,the broadcaster,le diffuseur,A2,B1,B1
+642,33,das Tal,Täler,die Täler,the valley,la vallée,A2,B1,B1
+643,33,der Bewohner,Bewohner,die Bewohner,the resident,le résident,A2,B1,B1
+644,33,das Einkommen,Einkommen,die Einkommen,the income,le revenu,A2,B1,B1
+645,33,die Geburt,Geburten,die Geburten,the birth,la naissance,A2,B1,B1
+646,33,die Herausforderung,Herausforderungen,die Herausforderungen,the challenge,le défi,A2,B1,B1
+647,34,die Reform,Reformen,die Reformen,the reform,la réforme,A2,B1,B1
+648,34,der Schauspieler,Schauspieler,die Schauspieler,the actor,l'acteur,A2,B1,B1
+649,34,der Sturm,Stürme,die Stürme,the storm,la tempête,A2,B1,B1
+650,34,die Träne,Tränen,die Tränen,the tear,la larme,A2,B1,B1
+651,34,der Zufall,Zufälle,die Zufälle,the chance,la chance,A2,B1,B1
+652,34,die Zustimmung,Zustimmungen,die Zustimmungen,the consent,le consentement,A2,B1,B1
+653,34,der/die Angehörige,Angehörige,die Angehörige,the relative,le proche,B1,B1,B1
+654,34,der Händler,Händler,die Händler,the dealer,le concessionnaire,A2,B1,B1
+655,34,die Katastrophe,Katastrophen,die Katastrophen,the catastrophe,la catastrophe,A2,B1,B1
+656,34,der Musiker,Musiker,die Musiker,the musician,le musicien,A2,B1,B1
+657,34,das Personal,Personale,die Personale,the staff,le personnel,A2,B1,B1
+658,34,der Sand,Sande,die Sande,the sand,le sable,A2,B1,B1
+659,34,die Station,Stationen,die Stationen,the station,la station,A2,B1,B1
+660,34,das Wunder,Wunder,die Wunder,the miracle,le miracle,A2,B1,B1
+661,34,die Begründung,Begründungen,die Begründungen,the reason,la raison,A2,B1,B1
+662,34,die Entfernung,Entfernungen,die Entfernungen,the distance,la distance,A2,B1,B1
+663,34,der Fleck,Flecke,die Flecke,the stain,la tache,A2,B1,B1
+664,34,die Not,Nöte,die Nöte,"the need, the hardship","la nécessité, la détresse",A2,B1,B1
+665,34,der Unternehmer,Unternehmer,die Unternehmer,the entrepreneur,l'entrepreneur,A2,B1,B1
+666,34,das Video,Videos,die Videos,the video,la vidéo,A2,B1,B1
+667,35,der/die Angestellte,Angestellte,die Angestellte,the employee,l'employé,B1,B1,B1
+668,35,die Erzählung,Erzählungen,die Erzählungen,the story,l'histoire,A2,B1,B1
+669,35,das Gedicht,Gedichte,die Gedichte,the poem,le poème,A2,B1,B1
+670,35,die Operation,Operationen,die Operationen,the operation,l'opération,A2,B1,B1
+671,35,die Qualifikation,Qualifikationen,die Qualifikationen,the qualification,la qualification,A2,B1,B1
+672,35,der/die Verwandte,Verwandte,die Verwandte,the relative,le proche,B1,A1,B1
+673,35,die Zahlung,Zahlungen,die Zahlungen,the payment,le paiement,A2,B1,B1
+674,35,der Arbeiter,Arbeiter,die Arbeiter,the worker,l'ouvrier,A2,B1,B1
+675,35,der Fernseher,Fernseher,die Fernseher,the TV,la télévision,A2,B1,B1
+676,35,der Stil,Stile,die Stile,the style,le style,A2,B1,B1
+677,35,die Vermittlung,Vermittlungen,die Vermittlungen,the mediation,la médiation,A2,B1,B1
+678,35,der Einwohner,Einwohner,die Einwohner,the inhabitant,l'habitant,A2,B1,B1
+679,35,die Hütte,Hütten,die Hütten,the hut,la cabane,A2,B1,B1
+680,35,das Symbol,Symbole,die Symbole,the symbol,le symbole,A2,B1,B1
+681,35,der Täter,Täter,die Täter,the perpetrator,l'auteur,A2,B1,B1
+682,35,die Trennung,Trennungen,die Trennungen,the separation,la séparation,A2,B1,B1
+683,35,die Zeitschrift,Zeitschriften,die Zeitschriften,the magazine,le magazine,B1,A2,B1
+684,35,der Architekt,Architekten,die Architekten,the architect,l'architecte,B1,B1,B1
+685,35,die Flucht,Fluchten,die Fluchten,the escape,l'évasion,B1,B1,B1
+686,35,das Geschlecht,Geschlechter,die Geschlechter,the gender,le genre,B1,B1,B1
+687,36,das Gewissen,Gewissen,die Gewissen,the conscience,la conscience,B1,B1,B1
+688,36,der Halt,Halte,die Halte,the stop,l'arrêt,B1,B1,B1
+689,36,das Hemd,Hemden,die Hemden,the shirt,la chemise,B1,A2,B1
+690,36,die Infektion,Infektionen,die Infektionen,the infection,l'infection,B1,B1,B1
+691,36,der Kindergarten,Kindergärten,die Kindergärten,the kindergarten,la maternelle,B1,A1,B1
+692,36,das Klima,Klimata,die Klimata,the climate,le climat,B1,B1,B1
+693,36,die Kündigung,Kündigungen,die Kündigungen,the termination,la fin,B1,B1,B1
+694,36,der Mantel,Mäntel,die Mäntel,the coat,le manteau,B1,A2,B1
+695,36,die Oper,Opern,die Opern,the opera,l'opéra,B1,B1,B1
+696,36,das Orchester,Orchester,die Orchester,the orchestra,l'orchestre,B1,B1,B1
+697,36,das Paket,Pakete,die Pakete,the package,le paquet,B1,A2,B1
+698,36,die Scheibe,Scheiben,die Scheiben,the disc,le disque,B1,B1,B1
+699,36,der Stress,Stresse,die Stresse,the stress,le stress,B1,A2,B1
+700,36,der Transport,Transporte,die Transporte,the transport,le transport,B1,B1,B1
+701,36,der Alkohol,Alkohole,die Alkohole,the alcohol,l'alcool,B1,B1,B1
+702,36,der Aufenthalt,Aufenthalte,die Aufenthalte,the stay,le séjour,B1,B1,B1
+703,36,der Ball,Bälle,die Bälle,the ball,la balle,B1,A2,B1
+704,36,die Distanz,Distanzen,die Distanzen,the distance,la distance,B1,B1,B1
+705,36,das Ei,Eier,die Eier,the egg,l'œuf,B1,A1,B1
+706,36,die Frist,Fristen,die Fristen,the deadline,la date limite,B1,B1,B1
+707,37,das Geschenk,Geschenke,die Geschenke,the gift,le cadeau,B1,A1,B1
+708,37,das Heim,Heime,die Heime,the home,la maison,B1,B1,B1
+709,37,die Konferenz,Konferenzen,die Konferenzen,the conference,la conférence,B1,B1,B1
+710,37,das Kreuz,Kreuze,die Kreuze,the cross,la croix,B1,B1,B1
+711,37,das Regal,Regale,die Regale,the shelf,l'étagère,B1,B1,B1
+712,37,der Ring,Ringe,die Ringe,the ring,la bague,B1,A2,B1
+713,37,die Übung,Übungen,die Übungen,the exercise,l'exercice,B1,B1,B1
+714,37,der Vortrag,Vorträge,die Vorträge,the lecture,la conférence,B1,B1,B1
+715,37,die Zeile,Zeilen,die Zeilen,the line,la ligne,B1,B1,B1
+716,37,der Eingang,Eingänge,die Eingänge,the entrance,l'entrée,B1,A1,B1
+717,37,der Flug,Flüge,die Flüge,the flight,le vol,B1,A2,B1
+718,37,die Freundschaft,Freundschaften,die Freundschaften,the friendship,l'amitié,B1,B1,B1
+719,37,das Frühstück,Frühstücke,die Frühstücke,breakfast,petit-déjeuner,B1,A1,B1
+720,37,das Geheimnis,Geheimnisse,die Geheimnisse,the secret,le secret,B1,B1,B1
+721,37,der Geschmack,Geschmäcker,die Geschmäcker,the taste,le goût,B1,B1,B1
+722,37,der Hafen,Häfen,die Häfen,the port,le port,B1,B1,B1
+723,37,die Klinik,Kliniken,die Kliniken,the clinic,la clinique,B1,B1,B1
+724,37,die Lehrerin,Lehrerinnen,die Lehrerinnen,the teacher,l'enseignant,B1,B1,B1
+725,37,die Marke,Marken,die Marken,the brand,la marque,B1,B1,B1
+726,37,das Medikament,Medikamente,die Medikamente,the drug,le médicament,B1,A2,B1
+727,38,die Miete,Mieten,die Mieten,the rent,le loyer,B1,A1,B1
+728,38,das Öl,Öle,die Öle,the oil,l'huile,B1,A1,B1
+729,38,der Pass,Pässe,die Pässe,the passport,le passeport,B1,A1,B1
+730,38,die Phantasie,Phantasien,die Phantasien,the imagination,l'imagination,B1,B1,B1
+731,38,der Schreck,Schrecke,die Schrecke,the fright,la peur,B1,B1,B1
+732,38,die Serie,Serien,die Serien,the series,la série,B1,B1,B1
+733,38,der Tee,Tees,die Tees,the tea,le thé,B1,A1,B1
+734,38,der Turm,Türme,die Türme,the tower,la tour,B1,B1,B1
+735,38,die Überzeugung,Überzeugungen,die Überzeugungen,the conviction,la condamnation,B1,B1,B1
+736,38,der Dialog,Dialoge,die Dialoge,the dialogue,le dialogue,B1,B1,B1
+737,38,die/das E-Mail,E-Mails,die E-Mails,the email,l'e-mail,B1,A1,B1
+738,38,die Entschuldigung,Entschuldigungen,die Entschuldigungen,the apology,l'excuse,B1,A1,B1
+739,38,die Erhöhung,Erhöhungen,die Erhöhungen,the increase,l'augmentation,B1,B1,B1
+740,38,das Gas,Gase,die Gase,the gas,le gaz,B1,B1,B1
+741,38,die Kindheit,Kindheiten,die Kindheiten,the childhood,l'enfance,B1,B1,B1
+742,38,das Klavier,Klaviere,die Klaviere,the piano,le piano,B1,A2,B1
+743,38,der Maler,Maler,die Maler,the painter,le peintre,B1,B1,B1
+744,38,die Milch,Milchen,die Milchen,the milk,le lait,B1,A1,B1
+745,38,der Stock,Stöcke,die Stöcke,the stick,le bâton,B1,A1,B1
+746,38,die Strafe,Strafen,die Strafen,the punishment,la punition,B1,B1,B1
+747,39,der Übersetzer,Übersetzer,die Übersetzer,the translator,le traducteur,B1,B1,B1
+748,39,das Ufer,Ufer,die Ufer,the shore,le rivage,B1,B1,B1
+749,39,die Umfrage,Umfragen,die Umfragen,the survey,l'enquête,B1,B1,B1
+750,39,das Baby,Babys,die Babys,the baby,le bébé,B1,A1,B1
+751,39,das Eis,Eis,die Eis,the ice,la glace,B1,A2,B1
+752,39,der Empfang,Empfänge,die Empfänge,the reception,la réception,B1,B1,B1
+753,39,der Empfänger,Empfänger,die Empfänger,the recipient,le destinataire,B1,A1,B1
+754,39,die Großmutter,Großmütter,die Großmütter,the grandmother,la grand-mère,B1,A1,B1
+755,39,die Herkunft,Herkünfte,die Herkünfte,the origin,l'origine,B1,B1,B1
+756,39,die Hochzeit,Hochzeiten,die Hochzeiten,the wedding,le mariage,B1,A1,B1
+757,39,das Medium,Medien,die Medien,the medium,le médium,B1,B1,B1
+758,39,die Note,Noten,die Noten,the grade,la note,B1,A2,B1
+759,39,der Onkel,Onkel,die Onkel,the uncle,l'oncle,B1,B1,B1
+760,39,der Protest,Proteste,die Proteste,the protest,la manifestation,B1,B1,B1
+761,39,der Sieger,Sieger,die Sieger,the winner,le gagnant,B1,B1,B1
+762,39,die Statistik,Statistiken,die Statistiken,the statistics,les statistiques,B1,B1,B1
+763,39,das Taxi,Taxis,die Taxis,the taxi,le taxi,B1,A1,B1
+764,39,der Witz,Witze,die Witze,the joke,la blague,B1,A2,B1
+765,39,der Abschied,Abschiede,die Abschiede,the farewell,les adieux,B1,B1,B1
+766,39,der Flur,Flure,die Flure,the corridor,le couloir,B1,B1,B1
+767,40,der Held,Helden,die Helden,the hero,le héros,B1,B1,B1
+768,40,die Kette,Ketten,die Ketten,the chain,la chaîne,B1,A2,B1
+769,40,die Kleidung,Kleidungen,die Kleidungen,the clothing,les vêtements,B1,A1,B1
+770,40,die Kneipe,Kneipen,die Kneipen,the pub,le pub,B1,B1,B1
+771,40,die Küste,Küsten,die Küsten,the coast,la côte,B1,B1,B1
+772,40,das Messer,Messer,die Messer,the knife,le couteau,B1,A2,B1
+773,40,der Passagier,Passagiere,die Passagiere,the passenger,le passager,B1,B1,B1
+774,40,der Quadratmeter,Quadratmeter,die Quadratmeter,the square meter,le mètre carré,B1,A1,B1
+775,40,der Saal,Säle,die Säle,the hall,le hall,B1,B1,B1
+776,40,das Tuch,Tücher,die Tücher,the cloth,le tissu,B1,B1,B1
+777,40,die Überraschung,Überraschungen,die Überraschungen,the surprise,la surprise,B1,B1,B1
+778,40,die Übersetzung,Übersetzungen,die Übersetzungen,the translation,la traduction,B1,A2,B1
+779,40,das Virus,Viren,die Viren,the virus,le virus,B1,B1,B1
+780,40,die Werbung,Werbungen,die Werbungen,the advertising,la publicité,B1,B1,B1
+781,40,die Wiese,Wiesen,die Wiesen,the meadow,la prairie,B1,B1,B1
+782,40,das Zelt,Zelte,die Zelte,the tent,la tente,B1,A2,B1
+783,40,die Anzeige,Anzeigen,die Anzeigen,the ad,la publicité,B1,A1,B1
+784,40,die Burg,Burgen,die Burgen,the castle,le château,B1,B1,B1
+785,40,der Dialekt,Dialekte,die Dialekte,the dialect,le dialecte,B1,B1,B1
+786,40,das Gefängnis,Gefängnisse,die Gefängnisse,the prison,la prison,B1,B1,B1
+787,41,der Katalog,Kataloge,die Kataloge,the catalogue,le catalogue,B1,B1,B1
+788,41,die Meldung,Meldungen,die Meldungen,the message,le message,B1,B1,B1
+789,41,der Nebel,Nebel,die Nebel,the fog,le brouillard,B1,B1,B1
+790,41,die Oma,Omas,die Omas,the grandma,la grand-mère,B1,A1,B1
+791,41,der Schein,Scheine,die Scheine,the appearance,l'apparence,B1,B1,B1
+792,41,das Stadion,Stadien,die Stadien,the stadium,le stade,B1,B1,B1
+793,41,der Tipp,Tipps,die Tipps,the tip,le pourboire,B1,A2,B1
+794,41,das Wiedersehen,Wiedersehen,die Wiedersehen,the reunion,les retrouvailles,B1,A1,B1
+795,41,die Wunde,Wunden,die Wunden,the wound,la plaie,B1,B1,B1
+796,41,die Zeuge,Zeugen,die Zeugen,the witness,le témoin,B1,B1,B1
+797,41,das Zeugnis,Zeugnisse,die Zeugnisse,the testimony,le témoignage,B1,A2,B1
+798,41,der Bogen,Bögen,die Bögen,the bow,l'arc,B1,A1,B1
+799,41,die Droge,Drogen,die Drogen,the drug,le médicament,B1,B1,B1
+800,41,die Geschwister,Geschwister,die Geschwister,the sibling,le frère ou la soeur,B1,A1,B1
+801,41,das Gramm,Gramme,die Gramme,the gram,le gramme,B1,A1,B1
+802,41,die Kiste,Kisten,die Kisten,the box,la boîte,B1,B1,B1
+803,41,der Knochen,Knochen,die Knochen,the bone,l'os,B1,B1,B1
+804,41,der Lohn,Löhne,die Löhne,the wage,le salaire,B1,B1,B1
+805,41,der Magen,Mägen,die Mägen,the stomach,l'estomac,B1,A2,B1
+806,41,die Mode,Moden,die Moden,the fashion,la mode,B1,A2,B1
+807,42,das Rathaus,Rathäuser,die Rathäuser,the town hall,l'hôtel de ville,B1,A2,B1
+808,42,die Rente,Renten,die Renten,the pension,la pension,B1,B1,B1
+809,42,der Teller,Teller,die Teller,the dish,le plat,B1,A2,B1
+810,42,der Zettel,Zettel,die Zettel,the note,la note,B1,A2,B1
+811,42,der Zins,Zinsen,die Zinsen,the interest,l'intérêt,B1,B1,B1
+812,42,die Zone,Zonen,die Zonen,the zone,la zone,B1,B1,B1
+813,42,der Buchstabe,Buchstaben,die Buchstaben,the letter,la lettre,B1,A1,B1
+814,42,das Dokument,Dokumente,die Dokumente,the document,le document,B1,B1,B1
+815,42,die Einzelheit,Einzelheiten,die Einzelheiten,the detail,le détail,B1,B1,B1
+816,42,die Kollegin,Kolleginnen,die Kolleginnen,the colleague,le collègue,B1,A2,B1
+817,42,die Kurve,Kurven,die Kurven,the curve,la courbe,B1,B1,B1
+818,42,das Märchen,Märchen,die Märchen,the fairy tale,le conte de fées,B1,B1,B1
+819,42,das Möbel,Möbel,die Möbel,the furniture,le meuble,B1,A1,B1
+820,42,der Nerv,Nerven,die Nerven,the nerve,le nerf,B1,B1,B1
+821,42,der Ofen,Öfen,die Öfen,the oven,le four,B1,B1,B1
+822,42,der Profi,Profis,die Profis,the professional,le professionnel,B1,B1,B1
+823,42,der Rock,Röcke,die Röcke,the rock,le rocher,B1,A2,B1
+824,42,der Schrank,Schränke,die Schränke,the cupboard,le placard,B1,A1,B1
+825,42,die Sekretärin,Sekretärinnen,die Sekretärinnen,the secretary,la secrétaire,B1,B1,B1
+826,42,der Sportler,Sportler,die Sportler,the athlete,l'athlète,B1,B1,B1
+827,43,der Staub,Stäube,die Stäube,the dust,la poussière,B1,B1,B1
+828,43,der Tanz,Tänze,die Tänze,the dance,la danse,B1,B1,B1
+829,43,der Topf,Töpfe,die Töpfe,the pot,le pot,B1,A2,B1
+830,43,das Abenteuer,Abenteuer,die Abenteuer,the adventure,l'aventure,B1,B1,B1
+831,43,die Einladung,Einladungen,die Einladungen,the invitation,l'invitation,B1,A1,B1
+832,43,die Empfehlung,Empfehlungen,die Empfehlungen,the recommendation,la recommandation,B1,B1,B1
+833,43,die Eröffnung,Eröffnungen,die Eröffnungen,the opening,l'ouverture,B1,B1,B1
+834,43,die Flüssigkeit,Flüssigkeiten,die Flüssigkeiten,the liquid,le liquide,B1,B1,B1
+835,43,das Gebirge,Gebirge,die Gebirge,the mountain,la montagne,B1,B1,B1
+836,43,das Gras,Gräser,die Gräser,the grass,l'herbe,B1,B1,B1
+837,43,der Hügel,Hügel,die Hügel,the hill,la colline,B1,B1,B1
+838,43,der Ingenieur,Ingenieure,die Ingenieure,the engineer,l'ingénieur,B1,B1,B1
+839,43,der Muskel,Muskeln,die Muskeln,the muscle,le muscle,B1,B1,B1
+840,43,die Teilnahme,Teilnahmen,die Teilnahmen,the participation,la participation,B1,B1,B1
+841,43,die Unterhaltung,Unterhaltungen,die Unterhaltungen,the entertainment,le divertissement,B1,B1,B1
+842,43,die Vertretung,Vertretungen,die Vertretungen,the representation,la représentation,B1,B1,B1
+843,43,das Werkzeug,Werkzeuge,die Werkzeuge,the tool,l'outil,B1,B1,B1
+844,43,die Zeichnung,Zeichnungen,die Zeichnungen,the drawing,le dessin,B1,B1,B1
+845,43,die Zwiebel,Zwiebeln,die Zwiebeln,the onion,l'oignon,B1,B1,B1
+846,43,der Backofen,Backöfen,die Backöfen,the oven,le four,B1,B1,B1
+847,44,der Bildschirm,Bildschirme,die Bildschirme,the screen,l'écran,B1,B1,B1
+848,44,die Brille,Brillen,die Brillen,the glasses,les lunettes,B1,A2,B1
+849,44,die Enttäuschung,Enttäuschungen,die Enttäuschungen,the disappointment,la déception,B1,B1,B1
+850,44,das Festival,Festivals,die Festivals,the festival,le festival,B1,A2,B1
+851,44,die Galerie,Galerien,die Galerien,the gallery,la galerie,B1,B1,B1
+852,44,das Gemüse,Gemüse,die Gemüse,the vegetable,le légume,B1,A1,B1
+853,44,der Großvater,Großväter,die Großväter,the grandfather,le grand-père,B1,A1,B1
+854,44,der Liter,Liter,die Liter,the liter,le litre,B1,A1,B1
+855,44,das Lokal,Lokale,die Lokale,the restaurant,le restaurant,B1,A1,B1
+856,44,die Münze,Münzen,die Münzen,the coin,la pièce,B1,B1,B1
+857,44,das Netzwerk,Netzwerke,die Netzwerke,the network,le réseau,B1,B1,B1
+858,44,das Praktikum,Praktika,die Praktika,the internship,le stage,B1,A1,B1
+859,44,der Sack,Säcke,die Säcke,the sack,le sac,B1,B1,B1
+860,44,die Sportart,Sportarten,die Sportarten,the sport,le sport,B1,B1,B1
+861,44,die Tasse,Tassen,die Tassen,the cup,la tasse,B1,A2,B1
+862,44,der Teppich,Teppiche,die Teppiche,the carpet,le tapis,B1,B1,B1
+863,44,das Verbot,Verbote,die Verbote,the ban,l'interdiction,B1,B1,B1
+864,44,die Versammlung,Versammlungen,die Versammlungen,the assembly,l'assemblée,B1,B1,B1
+865,44,die Wäsche,Wäschen,die Wäschen,the laundry,la lessive,B1,A2,B1
+866,44,die Werkstatt,Werkstätten,die Werkstätten,the workshop,l'atelier,B1,A2,B1
+867,45,das Zeug,Zeuge,die Zeuge,the  stuff,le truc,B1,B1,B1
+868,45,der Anzug,Anzüge,die Anzüge,the suit,le costume,B1,A2,B1
+869,45,der Ausflug,Ausflüge,die Ausflüge,the excursion,l'excursion,B1,A1,B1
+870,45,der Ausgang,Ausgänge,die Ausgänge,the outcome,le résultat,B1,A1,B1
+871,45,die Erfindung,Erfindungen,die Erfindungen,the invention,l'invention,B1,B1,B1
+872,45,der Ersatz,Ersätze,die Ersätze,the replacement,le remplacement,B1,B1,B1
+873,45,die Feuerwehr,Feuerwehren,die Feuerwehren,the fire department,le service des pompiers,B1,B1,B1
+874,45,das Fieber,Fieber,die Fieber,the fever,la fièvre,B1,A1,B1
+875,45,die Gebühr,Gebühren,die Gebühren,the fee,les frais,B1,B1,B1
+876,45,das Heft,Hefte,die Hefte,the booklet,le livret,B1,A2,B1
+877,45,die Intelligenz,Intelligenzen,die Intelligenzen,the intelligence,l'intelligence,B1,B1,B1
+878,45,die Kartoffel,Kartoffeln,die Kartoffeln,the potato,la pomme de terre,B1,A1,B1
+879,45,der Käse,Käse,die Käse,the cheese,le fromage,B1,A2,B1
+880,45,der Kompromiss,Kompromisse,die Kompromisse,the compromise,le compromis,B1,B1,B1
+881,45,die Lieferung,Lieferungen,die Lieferungen,the delivery,la livraison,B1,B1,B1
+882,45,die Party,Partys,die Partys,the party,la fête,B1,A1,B1
+883,45,der Salon,Salons,die Salons,the salon,le salon,B1,B1,B1
+884,45,die Schauspielerin,Schauspielerinnen,die Schauspielerinnen,the actress,l'actrice,B1,B1,B1
+885,45,die Schwangerschaft,Schwangerschaften,die Schwangerschaften,the pregnancy,la grossesse,B1,B1,B1
+886,45,die Steckdose,Steckdosen,die Steckdosen,the socket,la prise,B1,B1,B1
+887,46,die Tafel,Tafeln,die Tafeln,the whiteboard,le tableau blanc,B1,A2,B1
+888,46,das Talent,Talente,die Talente,the talent,le talent,B1,B1,B1
+889,46,das Tempo,Tempi,die Tempi,the pace,le rythme,B1,B1,B1
+890,46,die Unterschrift,Unterschriften,die Unterschriften,the signature,la signature,B1,A1,B1
+891,46,das Vergnügen,Vergnügen,die Vergnügen,the pleasure,le plaisir,B1,B1,B1
+892,46,der Vermieter,Vermieter,die Vermieter,the landlord,le propriétaire,B1,A1,B1
+893,46,der Vormittag,Vormittage,die Vormittage,the morning,le matin,B1,A1,B1
+894,46,das Wohnzimmer,Wohnzimmer,die Wohnzimmer,the living room,le salon,B1,A2,B1
+895,46,die Autobahn,Autobahnen,die Autobahnen,the motorway,l'autoroute,B1,A1,B1
+896,46,die Batterie,Batterien,die Batterien,the battery,la batterie,B1,B1,B1
+897,46,die Chefin,Chefinnen,die Chefinnen,the boss,le patron,B1,A2,B1
+898,46,der Durchschnitt,Durchschnitte,die Durchschnitte,the average,la moyenne,B1,B1,B1
+899,46,das Ehepaar,Ehepaare,die Ehepaare,the couple,le couple,B1,B1,B1
+900,46,der Einbruch,Einbrüche,die Einbrüche,the break-in,l'effraction,B1,B1,B1
+901,46,der Eintritt,Eintritte,die Eintritte,the entry,l'entrée,B1,A1,B1
+902,46,die Erholung,Erholungen,die Erholungen,the recovery,la récupération,B1,B1,B1
+903,46,der Europäer,Europäer,die Europäer,the European,l'Européen,B1,A1,B1
+904,46,die Fabrik,Fabriken,die Fabriken,the factory,l'usine,B1,B1,B1
+905,46,das Getränk,Getränke,die Getränke,the drink,la boisson,B1,A1,B1
+906,46,der Handwerker,Handwerker,die Handwerker,the craftsman,l'artisan,B1,B1,B1
+907,47,die Kassette,Kassetten,die Kassetten,the cassette,la cassette,B1,B1,B1
+908,47,der Kasten,Kästen,die Kästen,the box,la boîte,B1,B1,B1
+909,47,das Magazin,Magazine,die Magazine,the magazine,le magazine,B1,B1,B1
+910,47,der Mieter,Mieter,die Mieter,the tenant,le locataire,B1,B1,B1
+911,47,die Minderheit,Minderheiten,die Minderheiten,the minority,la minorité,B1,B1,B1
+912,47,die Scheidung,Scheidungen,die Scheidungen,the divorce,le divorce,B1,B1,B1
+913,47,der Spezialist,Spezialisten,die Spezialisten,the specialist,le spécialiste,B1,B1,B1
+914,47,das Ticket,Tickets,die Tickets,the ticket,le billet,B1,A1,B1
+915,47,die Uniform,Uniformen,die Uniformen,the uniform,l'uniforme,B1,B1,B1
+916,47,das Vitamin,Vitamine,die Vitamine,the vitamin,la vitamine,B1,B1,B1
+917,47,die Weiterbildung,Weiterbildungen,die Weiterbildungen,the further education,la formation continue,B1,B1,B1
+918,47,der Zucker,Zucker,die Zucker,the sugar,le sucre,B1,A2,B1
+919,47,der Apfel,Äpfel,die Äpfel,the Apple,la pomme,B1,A1,B1
+920,47,die Bar,Bars,die Bars,the bar,le bar,B1,B1,B1
+921,47,das Datum,Daten,die Daten,the date,la date,B1,A1,B1
+922,47,das Forum,Foren,die Foren,the forum,le forum,B1,B1,B1
+923,47,die Frucht,Früchte,die Früchte,the fruit,le fruit,B1,B1,B1
+924,47,der Hörer,Hörer,die Hörer,the listener,l'auditeur,B1,B1,B1
+925,47,die Jacke,Jacken,die Jacken,the jacket,la veste,B1,A1,B1
+926,47,die Lampe,Lampen,die Lampen,the lamp,la lampe,B1,A2,B1
+927,48,das Metall,Metalle,die Metalle,the metal,le métal,B1,B1,B1
+928,48,der Ordner,Ordner,die Ordner,the folder,le dossier,B1,B1,B1
+929,48,der Ozean,Ozeane,die Ozeane,the ocean,l'océan,B1,B1,B1
+930,48,die Reparatur,Reparaturen,die Reparaturen,the repair,la réparation,B1,A1,B1
+931,48,die Rose,Rosen,die Rosen,the rose,la rose,B1,A2,B1
+932,48,der Rucksack,Rucksäcke,die Rucksäcke,the backpack,le sac à dos,B1,A2,B1
+933,48,der Sänger,Sänger,die Sänger,the singer,le chanteur,B1,B1,B1
+934,48,die Tablette,Tabletten,die Tabletten,the tablet,la tablette,B1,A2,B1
+935,48,der Umzug,Umzüge,die Umzüge,the move,le déménagement,B1,A2,B1
+936,48,der Abfall,Abfälle,die Abfälle,the waste,les déchets,B1,B1,B1
+937,48,der Ausweis,Ausweise,die Ausweise,the ID card,la carte d'identité,B1,A1,B1
+938,48,das Diplom,Diplome,die Diplome,the diploma,le diplôme,B1,B1,B1
+939,48,die Feier,Feiern,die Feiern,the party,la fête,B1,A2,B1
+940,48,der Frühling,Frühlinge,die Frühlinge,the spring,le printemps,B1,A1,B1
+941,48,der Gruß,Grüße,die Grüße,the greeting,la salutation,B1,A1,B1
+942,48,die Kerze,Kerzen,die Kerzen,the candle,la bougie,B1,B1,B1
+943,48,der Koch,Köche,die Köche,the cook,le cuisinier,B1,B1,B1
+944,48,die Krankenkasse,Krankenkassen,die Krankenkassen,the health insurance company,la compagnie d'assurance maladie,B1,A2,B1
+945,48,der Kunststoff,Kunststoffe,die Kunststoffe,the plastic,le plastique,B1,B1,B1
+946,48,die Laune,Launen,die Launen,the mood,l'humeur,B1,B1,B1
+947,49,das Nahrungsmittel,Nahrungsmittel,die Nahrungsmittel,the food,la nourriture,B1,B1,B1
+948,49,die Schlange,Schlangen,die Schlangen,the snake,le serpent,B1,B1,B1
+949,49,das Schwein,Schweine,die Schweine,the pig,le cochon,B1,A2,B1
+950,49,der Zuhörer,Zuhörer,die Zuhörer,the listener,l'auditeur,B1,B1,B1
+951,50,das Wort,Wörter,die Wörter,the word,le mot,A1,B2,B2
+952,50,das Unternehmen,Unternehmen,die Unternehmen,the company,l'entreprise,A1,B2,B2
+953,50,der Monat,Monate,die Monate,the month,le mois,A1,B2,B2
+954,50,der Staat,Staaten,die Staaten,the State,l'État,A1,B2,B2
+955,50,das Gesicht,Gesichter,die Gesichter,the face,le visage,A1,B2,B2
+956,50,die Weise,Weisen,die Weisen,the way,le chemin,A1,B2,B2
+957,50,die Regierung,Regierungen,die Regierungen,the government,le gouvernement,A1,B2,B2
+958,50,der Begriff,Begriffe,die Begriffe,the term,le terme,A1,B2,B2
+959,50,die Funktion,Funktionen,die Funktionen,the function,la fonction,A1,B2,B2
+960,50,das Jahrhundert,Jahrhunderte,die Jahrhunderte,the century,le siècle,A1,B2,B2
+961,50,der Rahmen,Rahmen,die Rahmen,the frame,le cadre,A1,B2,B2
+962,50,der Absatz,Absätze,die Absätze,the paragraph,le paragraphe,A1,B2,B2
+963,50,der Präsident,Präsidenten,die Präsidenten,the president,le président,A1,B2,B2
+964,50,die Partei,Parteien,die Parteien,the party,la fête,A1,B2,B2
+965,50,der Einsatz,Einsätze,die Einsätze,the deployment,le déploiement,A1,B2,B2
+966,50,die Verfügung,Verfügungen,die Verfügungen,the order,l'ordre,A1,B2,B2
+967,50,die Anwendung,Anwendungen,die Anwendungen,the application,l'application,A1,B2,B2
+968,50,der Dollar,Dollar,die Dollar,the dollar,le dollar,A1,B2,B2
+969,50,das Verfahren,Verfahren,die Verfahren,the procedure,la procédure,A1,B2,B2
+970,50,die Maßnahme,Maßnahmen,die Maßnahmen,the measure,la mesure,A1,B2,B2
+971,51,die Ebene,Ebenen,die Ebenen,the level,le niveau,A1,B2,B2
+972,51,die Einheit,Einheiten,die Einheiten,the unit,l'unité,A1,B2,B2
+973,51,das Lächeln,Lächeln,die Lächeln,the smile,le sourire,A1,B2,B2
+974,51,das Prinzip,Prinzipien,die Prinzipien,the principle,le principe,A1,B2,B2
+975,51,die Struktur,Strukturen,die Strukturen,the structure,la structure,A1,B2,B2
+976,51,die Macht,Mächte,die Mächte,the power,le pouvoir,A1,B2,B2
+977,51,die Veränderung,Veränderungen,die Veränderungen,the change,le changement,A1,B2,B2
+978,51,das Konzept,Konzepte,die Konzepte,the concept,le concept,A1,B2,B2
+979,51,die Zelle,Zellen,die Zellen,the cell,la cellule,A1,B2,B2
+980,51,das Maß,Maße,die Maße,the measure,la mesure,A1,B2,B2
+981,51,der Ansatz,Ansätze,die Ansätze,the approach,l'approche,A1,B2,B2
+982,51,der Aspekt,Aspekte,die Aspekte,the aspect,l'aspect,A1,B2,B2
+983,51,der Umstand,Umstände,die Umstände,the circumstance,la circonstance,A1,B2,B2
+984,51,die Wissenschaft,Wissenschaften,die Wissenschaften,science,la science,A1,B2,B2
+985,51,die Grundlage,Grundlagen,die Grundlagen,the basis,la base,A1,B2,B2
+986,51,die Gemeinde,Gemeinden,die Gemeinden,the community,la communauté,A1,B2,B2
+987,51,die Position,Positionen,die Positionen,the position,la position,A1,B2,B2
+988,51,die Bundesrepublik,Bundesrepubliken,die Bundesrepubliken,the Federal Republic,la République fédérale,A1,B2,B2
+989,51,die Sicht,Sichten,die Sichten,the view,la vue,A1,B2,B2
+990,51,der Soldat,Soldaten,die Soldaten,the soldier,le soldat,A1,B2,B2
+991,52,das Volk,Völker,die Völker,the people,le peuple,A1,B2,B2
+992,52,der Angriff,Angriffe,die Angriffe,the attack,l'attaque,A1,B2,B2
+993,52,der Anteil,Anteile,die Anteile,the proportion,la proportion,A1,B2,B2
+994,52,der/die Beschäftigte,Beschäftigte,die Beschäftigte,the employee,l'employé,B1,B2,B2
+995,52,der Lauf,Läufe,die Läufe,the run,la course,A1,B2,B2
+996,52,der Anschlag,Anschläge,die Anschläge,the attack,l'attaque,A1,B2,B2
+997,52,die Behandlung,Behandlungen,die Behandlungen,the treatment,le traitement,A1,B2,B2
+998,52,die Hochschule,Hochschulen,die Hochschulen,the university,l'université,A1,B2,B2
+999,52,der/die Vorsitzende,Vorsitzenden,die Vorsitzenden,the chairperson,le président,B1,B2,B2
+1000,52,die Analyse,Analysen,die Analysen,the analysis,l'analyse,A1,B2,B2
+1001,52,die Erkenntnis,Erkenntnisse,die Erkenntnisse,the realization,la réalisation,A1,B2,B2
+1002,52,das Objekt,Objekte,die Objekte,the object,l'objet,A1,B2,B2
+1003,52,der Sprecher,Sprecher,die Sprecher,the speaker,l'orateur,A1,B2,B2
+1004,52,der Gesellschafter,Gesellschafter,die Gesellschafter,the shareholder,l'actionnaire,A1,B2,B2
+1005,52,das Jahrzehnt,Jahrzehnte,die Jahrzehnte,the decade,la décennie,A1,B2,B2
+1006,52,die Regelung,Regelungen,die Regelungen,the regulation,le règlement,A1,B2,B2
+1007,52,der Bezug,Bezüge,die Bezüge,the reference,la référence,A1,B2,B2
+1008,52,die Einstellung,Einstellungen,die Einstellungen,the attitude,l'attitude,A1,B2,B2
+1009,52,die Union,Unionen,die Unionen,the Union,l'Union,A1,B2,B2
+1010,52,der Besucher,Besucher,die Besucher,the visitor,le visiteur,A1,B2,B2
+1011,53,der Bund,Bünde,die Bünde,the federal government,le gouvernement fédéral,A1,B2,B2
+1012,53,die Geographie,Geographien,die Geographien,geography,géographie,A1,B2,B2
+1013,53,der Hintergrund,Hintergründe,die Hintergründe,the background,le contexte,A1,B2,B2
+1014,53,der Abstand,Abstände,die Abstände,the distance,la distance,A1,B2,B2
+1015,53,die Bildung,Bildungen,die Bildungen,the education,l'éducation,A1,B2,B2
+1016,53,die Eigenschaft,Eigenschaften,die Eigenschaften,the property,la propriété,A1,B2,B2
+1017,53,der Geist,Geister,die Geister,the spirit,l'esprit,A1,B2,B2
+1018,53,der Stand,Stände,die Stände,the stand,le stand,A1,B2,B2
+1019,53,das Element,Elemente,die Elemente,the element,l'élément,A1,B2,B2
+1020,53,die Mama,Mamas,die Mamas,the mother,la mère,A1,B2,B2
+1021,53,die Nutzung,Nutzungen,die Nutzungen,the use,l'utilisation,A1,B2,B2
+1022,53,die Basis,Basen,die Basen,the base,la base,A1,B2,B2
+1023,53,das Kriterium,Kriterien,die Kriterien,the criterion,le critère,A1,B2,B2
+1024,53,die Ansicht,Ansichten,die Ansichten,the view,la vue,A2,B2,B2
+1025,53,die Auseinandersetzung,Auseinandersetzungen,die Auseinandersetzungen,the dispute,le différend,A2,B2,B2
+1026,53,die Bürgermeister,Bürgermeister,die Bürgermeister,the mayor,le maire,B1,B2,B2
+1027,53,die Definition,Definitionen,die Definitionen,the definition,la définition,A2,B2,B2
+1028,53,die Masse,Massen,die Massen,the mass,la masse,A2,B2,B2
+1029,53,die Nation,Nationen,die Nationen,the nation,la nation,A2,B2,B2
+1030,53,die Phase,Phasen,die Phasen,the phase,la phase,A2,B2,B2
+1031,54,der Ton,Tone,die Tone,the tone,le ton,A2,B2,B2
+1032,54,die Gestalt,Gestalten,die Gestalten,the shape,la forme,A2,B2,B2
+1033,54,die Stellung,Stellungen,die Stellungen,the position,la position,A2,B2,B2
+1034,54,die Branche,Branchen,die Branchen,the industry,l'industrie,A2,B2,B2
+1035,54,der Umgang,Umgänge,die Umgänge,the handling,la manutention,A2,B2,B2
+1036,54,der Vorgang,Vorgänge,die Vorgänge,the process,le processus,A2,B2,B2
+1037,54,die Institution,Institutionen,die Institutionen,the institution,l'institution,A2,B2,B2
+1038,54,der Konzern,Konzerne,die Konzerne,the group,le groupe,A2,B2,B2
+1039,54,die Spitze,Spitzen,die Spitzen,the summit,le sommet,A2,B2,B2
+1040,54,die Weltmeisterschaft,Weltmeisterschaften,die Weltmeisterschaften,the World Cup,la Coupe du monde,A2,B2,B2
+1041,54,das Blut,Blute,die Blute,the blood,le sang,A2,B2,B2
+1042,54,das Gymnasium,Gymnasien,die Gymnasien,the high school,le lycée,A2,B2,B2
+1043,54,die Konsequenz,Konsequenzen,die Konsequenzen,the consequence,la conséquence,A2,B2,B2
+1044,54,der Verband,Verbände,die Verbände,the association,l'association,A2,B2,B2
+1045,54,die Aktie,Aktien,die Aktien,the stock,le stock,A2,B2,B2
+1046,54,der Anlass,Anlässe,die Anlässe,the occasion,l'occasion,A2,B2,B2
+1047,54,das Bundesland,Bundesländer,die Bundesländer,the federal state,l'État fédéral,A2,B2,B2
+1048,54,das Gut,Güter,die Güter,the good,le bien,A2,B2,B2
+1049,54,die Software,Softwares,die Softwares,the software,le logiciel,A2,B2,B2
+1050,54,die Anforderung,Anforderungen,die Anforderungen,the requirement,l'exigence,A2,B2,B2
+1051,55,die Belastung,Belastungen,die Belastungen,the burden,le fardeau,A2,B2,B2
+1052,55,der Effekt,Effekte,die Effekte,the effect,l'effet,A2,B2,B2
+1053,55,der Umfang,Umfänge,die Umfänge,the scope,la portée,A2,B2,B2
+1054,55,die Kommission,Kommissionen,die Kommissionen,the Commission,la Commission,A2,B2,B2
+1055,55,der Terrorist,Terroristen,die Terroristen,the terrorist,le terroriste,A2,B2,B2
+1056,55,die Welle,Wellen,die Wellen,the wave,la vague,A2,B2,B2
+1057,55,die Auswirkung,Auswirkungen,die Auswirkungen,the effect,l'effet,A2,B2,B2
+1058,55,das Bedürfnis,Bedürfnisse,die Bedürfnisse,the need,le besoin,A2,B2,B2
+1059,55,die Haltung,Haltungen,die Haltungen,the attitude,l'attitude,A2,B2,B2
+1060,55,die Waffe,Waffen,die Waffen,the weapon,l'arme,A2,B2,B2
+1061,55,die Fahrt,Fahrten,die Fahrten,the ride,le trajet,A2,B2,B2
+1062,55,die Förderung,Förderungen,die Förderungen,the promotion,la promotion,A2,B2,B2
+1063,55,die Koalition,Koalitionen,die Koalitionen,the coalition,la coalition,A2,B2,B2
+1064,55,der Manager,Manager,die Manager,the manager,le gérant,A2,B2,B2
+1065,55,die Quelle,Quellen,die Quellen,the source,la source,A2,B2,B2
+1066,55,der Umsatz,Umsätze,die Umsätze,the revenue,le revenu,A2,B2,B2
+1067,55,die Verwendung,Verwendungen,die Verwendungen,the use,l'utilisation,A2,B2,B2
+1068,55,die Bundesregierung,Bundesregierungen,die Bundesregierungen,the Federal Government,le gouvernement fédéral,A2,B2,B2
+1069,55,das Merkmal,Merkmale,die Merkmale,the characteristic,la caractéristique,A2,B2,B2
+1070,55,das Parlament,Parlamente,die Parlamente,the parliament,le parlement,A2,B2,B2
+1071,56,die Perspektive,Perspektiven,die Perspektiven,the perspective,la perspective,A2,B2,B2
+1072,56,das Phänomen,Phänomene,die Phänomene,the phenomenon,le phénomène,A2,B2,B2
+1073,56,die Suche,Suchen,die Suchen,the search,la recherche,A2,B2,B2
+1074,56,der Weltkrieg,Weltkriege,die Weltkriege,the World War,la guerre mondiale,A2,B2,B2
+1075,56,der Arbeitgeber,Arbeitgeber,die Arbeitgeber,the employer,l'employeur,A2,B2,B2
+1076,56,der Aufbau,Aufbauten,die Aufbauten,the structure,la structure,A2,B2,B2
+1077,56,die Formel,Formeln,die Formeln,the formula,la formule,A2,B2,B2
+1078,56,der Wille,Willen,die Willen,the will,le testament,A2,B2,B2
+1079,56,die Debatte,Debatten,die Debatten,the debate,le débat,A2,B2,B2
+1080,56,die Hinsicht,Hinsichten,die Hinsichten,the view,la vue,A2,B2,B2
+1081,56,die Weile,Weilen,die Weilen,the while,pendant ce temps,A2,B2,B2
+1082,56,die Schicht,Schichten,die Schichten,the layer,la couche,A2,B2,B2
+1083,56,der Schwerpunkt,Schwerpunkte,die Schwerpunkte,the focus,l'accent,A2,B2,B2
+1084,56,die Verhandlung,Verhandlungen,die Verhandlungen,the negotiation,la négociation,A2,B2,B2
+1085,56,der Ablauf,Abläufe,die Abläufe,the process,le processus,A2,B2,B2
+1086,56,der Arbeitnehmer,Arbeitnehmer,die Arbeitnehmer,the employee,l'employé,A2,B2,B2
+1087,56,das Drittel,Drittel,die Drittel,the third,le troisième,A2,B2,B2
+1088,56,der Kanzler,Kanzler,die Kanzler,the Chancellor,le chancelier,A2,B2,B2
+1089,56,das Management,Managements,die Managements,the management,la direction,A2,B2,B2
+1090,56,der Millimeter,Millimeter,die Millimeter,the millimeter,le millimètre,A2,B2,B2
+1091,57,der Minister,Minister,die Minister,the minister,le ministre,A2,B2,B2
+1092,57,die Platte,Platten,die Platten,the record,le record,A2,B2,B2
+1093,57,der Widerstand,Widerstände,die Widerstände,the resistance,la résistance,A2,B2,B2
+1094,57,die Investition,Investitionen,die Investitionen,the investment,l'investissement,A2,B2,B2
+1095,57,die Stärke,Stärken,die Stärken,the strength,la force,A2,B2,B2
+1096,57,die Überlegung,Überlegungen,die Überlegungen,the consideration,la considération,A2,B2,B2
+1097,57,die Armee,Armeen,die Armeen,the army,l'armée,A2,B2,B2
+1098,57,die Atmosphäre,Atmosphären,die Atmosphären,the atmosphere,l'atmosphère,A2,B2,B2
+1099,57,die Erkrankung,Erkrankungen,die Erkrankungen,the disease,la maladie,A2,B2,B2
+1100,57,das Gehirn,Gehirne,die Gehirne,the brain,le cerveau,A2,B2,B2
+1101,57,die Stirn,Stirnen,die Stirnen,the forehead,le front,A2,B2,B2
+1102,57,die Strategie,Strategien,die Strategien,the strategy,la stratégie,A2,B2,B2
+1103,57,der Wechsel,Wechsel,die Wechsel,the change,le changement,A2,B2,B2
+1104,57,der Bundeskanzler,Bundeskanzler,die Bundeskanzler,the Federal Chancellor,le chancelier fédéral,A2,B2,B2
+1105,57,die Demokratie,Demokratien,die Demokratien,democracy,la démocratie,A2,B2,B2
+1106,57,die Erwartung,Erwartungen,die Erwartungen,the expectation,l'attente,A2,B2,B2
+1107,57,die Kombination,Kombinationen,die Kombinationen,the combination,la combinaison,A2,B2,B2
+1108,57,das Niveau,Niveaus,die Niveaus,the level,le niveau,A2,B2,B2
+1109,57,der Pfarrer,Pfarrer,die Pfarrer,the pastor,le pasteur,A2,B2,B2
+1110,57,das Schicksal,Schicksale,die Schicksale,the fate,la destin,A2,B2,B2
+1111,58,der Standort,Standorte,die Standorte,the location,l'emplacement,A2,B2,B2
+1112,58,die Dimension,Dimensionen,die Dimensionen,the dimension,la dimension,A2,B2,B2
+1113,58,der Forscher,Forscher,die Forscher,the researcher,le chercheur,A2,B2,B2
+1114,58,die Kategorie,Kategorien,die Kategorien,the category,la catégorie,A2,B2,B2
+1115,58,der Organismus,Organismen,die Organismen,the organism,l'organisme,A2,B2,B2
+1116,58,die Verbesserung,Verbesserungen,die Verbesserungen,the improvement,l'amélioration,A2,B2,B2
+1117,58,die Verpflichtung,Verpflichtungen,die Verpflichtungen,the obligation,l'obligation,A2,B2,B2
+1118,58,die Betrachtung,Betrachtungen,die Betrachtungen,the consideration,la considération,A2,B2,B2
+1119,58,die Kompetenz,Kompetenzen,die Kompetenzen,the competence,la compétence,A2,B2,B2
+1120,58,der Mittelpunkt,Mittelpunkte,die Mittelpunkte,the center,le centre,A2,B2,B2
+1121,58,das Vermögen,Vermögen,die Vermögen,the assets,le patrimoine,A2,B2,B2
+1122,58,das Wesen,Wesen,die Wesen,the essence,l'essence,A2,B2,B2
+1123,58,die Beobachtung,Beobachtungen,die Beobachtungen,the observation,l'observation,A2,B2,B2
+1124,58,der Bestandteil,Bestandteile,die Bestandteile,the component,le composant,A2,B2,B2
+1125,58,die Beteiligung,Beteiligungen,die Beteiligungen,the participation,la participation,A2,B2,B2
+1126,58,die Bewertung,Bewertungen,die Bewertungen,the rating,la note,A2,B2,B2
+1127,58,die Bezeichnung,Bezeichnungen,die Bezeichnungen,the designation,la désignation,A2,B2,B2
+1128,58,der Gebrauch,Gebräuche,die Gebräuche,the use,l'utilisation,A2,B2,B2
+1129,58,der Geschäftsführer,Geschäftsführer,die Geschäftsführer,the managing director,le directeur général,A2,B2,B2
+1130,58,der Ministerpräsident,Ministerpräsidenten,die Ministerpräsidenten,the Prime Minister,le Premier ministre,A2,B2,B2
+1131,59,der Ruf,Rufe,die Rufe,the reputation,la réputation,A2,B2,B2
+1132,59,das Signal,Signale,die Signale,the signal,le signal,A2,B2,B2
+1133,59,der Standard,Standards,die Standards,the standard,la norme,A2,B2,B2
+1134,59,die Substanz,Substanzen,die Substanzen,the substance,la substance,A2,B2,B2
+1135,59,das Teilchen,Teilchen,die Teilchen,the particle,la particule,A2,B2,B2
+1136,59,der Vordergrund,Vordergründe,die Vordergründe,the foreground,le premier plan,A2,B2,B2
+1137,59,das Experiment,Experimente,die Experimente,the experiment,l'expérience,A2,B2,B2
+1138,59,der Grundsatz,Grundsätze,die Grundsätze,the principle,le principe,A2,B2,B2
+1139,59,die Komponente,Komponenten,die Komponenten,the component,le composant,A2,B2,B2
+1140,59,die Oberfläche,Oberflächen,die Oberflächen,the surface,la surface,A2,B2,B2
+1141,59,das Reich,Reiche,die Reiche,the Empire,l'Empire,A2,B2,B2
+1142,59,das Rennen,Rennen,die Rennen,the race,la course,A2,B2,B2
+1143,59,der Schlag,Schläge,die Schläge,the blow,le coup,A2,B2,B2
+1144,59,die Spannung,Spannungen,die Spannungen,the tension,la tension,A2,B2,B2
+1145,59,die Truppe,Truppen,die Truppen,the troop,la troupe,A2,B2,B2
+1146,59,das Umfeld,Umfelder,die Umfelder,the environment,l'environnement,A2,B2,B2
+1147,59,der Verbraucher,Verbraucher,die Verbraucher,the consumer,le consommateur,A2,B2,B2
+1148,59,der Verkauf,Verkäufe,die Verkäufe,the sale,la vente,A2,B2,B2
+1149,59,das Vorjahr,Vorjahre,die Vorjahre,the previous year,l'année précédente,A2,B2,B2
+1150,59,die Bilanz,Bilanzen,die Bilanzen,the balance sheet,le bilan,A2,B2,B2
+1151,60,die Identität,Identitäten,die Identitäten,the identity,l'identité,A2,B2,B2
+1152,60,das Quartal,Quartale,die Quartale,the quarter,le trimestre,A2,B2,B2
+1153,60,die Tiefe,Tiefen,die Tiefen,the depth,la profondeur,A2,B2,B2
+1154,60,der Verlauf,Verläufe,die Verläufe,the course,le cours,A2,B2,B2
+1155,60,der Aktionär,Aktionäre,die Aktionäre,the shareholder,l'actionnaire,A2,B2,B2
+1156,60,die Auffassung,Auffassungen,die Auffassungen,the view,la vue,A2,B2,B2
+1157,60,der Charakter,Charaktere,die Charaktere,the character,le personnage,A2,B2,B2
+1158,60,die Informationstechnologie,Informationstechnologien,die Informationstechnologien,information technology,l'informatique,A2,B2,B2
+1159,60,die Niederlage,Niederlagen,die Niederlagen,the defeat,la défaite,A2,B2,B2
+1160,60,die Norm,Normen,die Normen,the norm,la norme,A2,B2,B2
+1161,60,die Sitzung,Sitzungen,die Sitzungen,the session,la session,A2,B2,B2
+1162,60,der Vorstand,Vorstände,die Vorstände,the board,le conseil d'administration,A2,B2,B2
+1163,60,die Annahme,Annahmen,die Annahmen,the assumption,l'hypothèse,A2,B2,B2
+1164,60,das Argument,Argumente,die Argumente,the argument,l'argument,A2,B2,B2
+1165,60,das Arzneimittel,Arzneimittel,die Arzneimittel,the drug,le médicament,A2,B2,B2
+1166,60,der Außenminister,Außenminister,die Außenminister,the foreign minister,le ministre des Affaires étrangères,A2,B2,B2
+1167,60,der Benutzer,Benutzer,die Benutzer,the user,l'utilisateur,A2,B2,B2
+1168,60,die Disziplin,Disziplinen,die Disziplinen,the discipline,la discipline,A2,B2,B2
+1169,60,die Existenz,Existenzen,die Existenzen,the existence,l'existence,A2,B2,B2
+1170,60,die Fraktion,Fraktionen,die Fraktionen,the parliamentary group,le groupe parlementaire,A2,B2,B2
+1171,61,das Grundgesetz,Grundgesetze,die Grundgesetze,the Basic Law,la loi fondamentale,A2,B2,B2
+1172,61,das Individuum,Individuen,die Individuen,the individual,l'individu,A2,B2,B2
+1173,61,das Motiv,Motive,die Motive,the motif,le motif,A2,B2,B2
+1174,61,die Opposition,Oppositionen,die Oppositionen,the opposition,l'opposition,A2,B2,B2
+1175,61,der Papa,Papas,die Papas,the dad,le père,A2,B2,B2
+1176,61,die Tendenz,Tendenzen,die Tendenzen,the tendency,la tendance,A2,B2,B2
+1177,61,die Umsetzung,Umsetzungen,die Umsetzungen,the implementation,la mise en œuvre,A2,B2,B2
+1178,61,die Versorgung,Versorgungen,die Versorgungen,the supply,l'approvisionnement,A2,B2,B2
+1179,61,die Angelegenheit,Angelegenheiten,die Angelegenheiten,the matter,la question,A2,B2,B2
+1180,61,das Ausmaß,Ausmaße,die Ausmaße,the extent,l'étendue,A2,B2,B2
+1181,61,das Engagement,Engagements,die Engagements,the commitment,l'engagement,A2,B2,B2
+1182,61,die Handlung,Handlungen,die Handlungen,the plot,l'intrigue,A2,B2,B2
+1183,61,das Immunsystem,Immunsysteme,die Immunsysteme,the immune system,le système immunitaire,A2,B2,B2
+1184,61,die Persönlichkeit,Persönlichkeiten,die Persönlichkeiten,the personality,la personnalité,A2,B2,B2
+1185,61,der Schreibtisch,Schreibtische,die Schreibtische,the desk,le bureau,A2,B2,B2
+1186,61,die Seele,Seelen,die Seelen,the soul,l'âme,A2,B2,B2
+1187,61,die Unternehmung,Unternehmungen,die Unternehmungen,the company,l'entreprise,A2,B2,B2
+1188,61,die Vereinbarung,Vereinbarungen,die Vereinbarungen,the agreement,l'accord,A2,B2,B2
+1189,61,die Wahrnehmung,Wahrnehmungen,die Wahrnehmungen,the perception,la perception,A2,B2,B2
+1190,61,die Äußerung,Äußerungen,die Äußerungen,the statement,la déclaration,A2,B2,B2
+1191,62,die Begegnung,Begegnungen,die Begegnungen,the encounter,la rencontre,A2,B2,B2
+1192,62,die Dienstleistung,Dienstleistungen,die Dienstleistungen,the service,le service,A2,B2,B2
+1193,62,die Ferne,Fernen,die Fernen,the distance,la distance,A2,B2,B2
+1194,62,die Gründung,Gründungen,die Gründungen,the founding,la fondation,A2,B2,B2
+1195,62,die Sammlung,Sammlungen,die Sammlungen,the collection,la collection,A2,B2,B2
+1196,62,die Tonne,Tonnen,die Tonnen,the barrel,le tonneau,A2,B2,B2
+1197,62,der Träger,Träger,die Träger,the carrier,le transporteur,A2,B2,B2
+1198,62,der Trend,Trends,die Trends,the trend,la tendance,A2,B2,B2
+1199,62,die Variante,Varianten,die Varianten,the variant,la variante,A2,B2,B2
+1200,62,der Aufwand,Aufwände,die Aufwände,the effort,l'effort,A2,B2,B2
+1201,62,die Berechnung,Berechnungen,die Berechnungen,the calculation,le calcul,A2,B2,B2
+1202,62,der Bestandteil,Bestandteile,die Bestandteile,the component,le composant,A2,B2,B2
+1203,62,das Entwicklungsland,Entwicklungsländer,die Entwicklungsländer,the developing country,le pays en développement,A2,B2,B2
+1204,62,der Entwurf,Entwürfe,die Entwürfe,the design,le design,A2,B2,B2
+1205,62,die Fachhochschule,Fachhochschulen,die Fachhochschulen,the university of applied sciences,l'université des sciences appliquées,A2,B2,B2
+1206,62,die Finanzierung,Finanzierungen,die Finanzierungen,the financing,le financement,A2,B2,B2
+1207,62,der Impuls,Impulse,die Impulse,the impulse,l'impulsion,A2,B2,B2
+1208,62,der Kern,Kerne,die Kerne,the core,le noyau,A2,B2,B2
+1209,62,der Rang,Ränge,die Ränge,the rank,le rang,A2,B2,B2
+1210,62,der Regisseur,Regisseure,die Regisseure,the director,le directeur,A2,B2,B2
+1211,63,die Republik,Republiken,die Republiken,the Republic,la République,A2,B2,B2
+1212,63,der Wahlkampf,Wahlkampfen,die Wahlkampfen,the election campaign,la campagne électorale,A2,B2,B2
+1213,63,die Anstrengung,Anstrengungen,die Anstrengungen,the effort,l'effort,A2,B2,B2
+1214,63,die Behinderung,Behinderungen,die Behinderungen,the disability,le handicap,A2,B2,B2
+1215,63,die Berücksichtigung,Berücksichtigungen,die Berücksichtigungen,the consideration,la considération,A2,B2,B2
+1216,63,der Bord,Borde,die Borde,the board,le conseil d'administration,A2,B2,B2
+1217,63,der Dichter,Dichter,die Dichter,the poet,le poète,A2,B2,B2
+1218,63,der Eingriff,Eingriffe,die Eingriffe,the procedure,la procédure,A2,B2,B2
+1219,63,die Kooperation,Kooperationen,die Kooperationen,the cooperation,la coopération,A2,B2,B2
+1220,63,die Übertragung,Übertragungen,die Übertragungen,the transfer,le transfert,B1,B2,B2
+1221,63,die Verfassung,Verfassungen,die Verfassungen,the constitution,la constitution,B1,B2,B2
+1222,63,die Absicht,Absichten,die Absichten,the intention,l'intention,B1,B2,B2
+1223,63,die Aufmerksamkeit,Aufmerksamkeiten,die Aufmerksamkeiten,the attention,l'attention,B1,B2,B2
+1224,63,der Beschluss,Beschlüsse,die Beschlüsse,the decision,la décision,B1,B2,B2
+1225,63,die Bibel,Bibeln,die Bibeln,the Bible,la Bible,B1,B2,B2
+1226,63,die Bindung,Bindungen,die Bindungen,the bond,le lien,B1,B2,B2
+1227,63,die Börse,Börsen,die Börsen,the stock exchange,la bourse,B1,B2,B2
+1228,63,der Ehegatte,Ehegatten,die Ehegatten,the spouse,le conjoint,B1,B2,B2
+1229,63,die Einschätzung,Einschätzungen,die Einschätzungen,the assessment,l'évaluation,B1,B2,B2
+1230,63,das Elektron,Elektronen,die Elektronen,the electron,l'électron,B1,B2,B2
+1231,64,die Entstehung,Entstehungen,die Entstehungen,the origin,l'origine,B1,B2,B2
+1232,64,die Erweiterung,Erweiterungen,die Erweiterungen,the expansion,l'expansion,B1,B2,B2
+1233,64,der Feind,Feinde,die Feinde,the enemy,l'ennemi,B1,B2,B2
+1234,64,der Flüchtling,Flüchtlinge,die Flüchtlinge,the refugee,le réfugié,B1,B2,B2
+1235,64,der Gläubiger,Gläubiger,die Gläubiger,the creditor,le créancier,B1,B2,B2
+1236,64,der Griff,Griffe,die Griffe,the handle,la poignée,B1,B2,B2
+1237,64,der Kontinent,Kontinente,die Kontinente,the continent,le continent,B1,B2,B2
+1238,64,die Nebenwirkung,Nebenwirkungen,die Nebenwirkungen,the side effect,l'effet secondaire,B1,B2,B2
+1239,64,die Ressource,Ressourcen,die Ressourcen,the resource,la ressource,B1,B2,B2
+1240,64,die Revolution,Revolutionen,die Revolutionen,the revolution,la révolution,B1,B2,B2
+1241,64,die Richtlinie,Richtlinien,die Richtlinien,the guideline,la ligne directrice,B1,B2,B2
+1242,64,die These,Thesen,die Thesen,the thesis,la thèse,B1,B2,B2
+1243,64,der Übergang,Übergänge,die Übergänge,the transition,la transition,B1,B2,B2
+1244,64,das Vorbild,Vorbilder,die Vorbilder,the model,le modèle,B1,B2,B2
+1245,64,der Widerspruch,Widersprüche,die Widersprüche,the contradiction,la contradiction,B1,B2,B2
+1246,64,die Wüste,Wüsten,die Wüsten,the desert,le désert,B1,B2,B2
+1247,64,die Anerkennung,Anerkennungen,die Anerkennungen,the recognition,la reconnaissance,B1,B2,B2
+1248,64,die Aussicht,Aussichten,die Aussichten,the view,la vue,B1,B2,B2
+1249,64,die Bemerkung,Bemerkungen,die Bemerkungen,the remark,la remarque,B1,B2,B2
+1250,64,der Besitz,Besitze,die Besitze,the possession,la possession,B1,B2,B2
+1251,65,die Chemie,Chemien,die Chemien,the chemistry,la chimie,B1,B2,B2
+1252,65,die Gestaltung,Gestaltungen,die Gestaltungen,the design,le design,B1,B2,B2
+1253,65,der Höhepunkt,Höhepunkte,die Höhepunkte,the highlight,le point culminant,B1,B2,B2
+1254,65,der Horizont,Horizonte,die Horizonte,the horizon,l'horizon,B1,B2,B2
+1255,65,die Notwendigkeit,Notwendigkeiten,die Notwendigkeiten,the need,le besoin,B1,B2,B2
+1256,65,das Organ,Organe,die Organe,the organ,l'organe,B1,B2,B2
+1257,65,die Presse,Pressen,die Pressen,the press,la presse,B1,B2,B2
+1258,65,die Rechtsprechung,Rechtsprechungen,die Rechtsprechungen,the jurisprudence,la jurisprudence,B1,B2,B2
+1259,65,die Ausführung,Ausführungen,die Ausführungen,the execution,l'exécution,B1,B2,B2
+1260,65,der Besitzer,Besitzer,die Besitzer,the owner,le propriétaire,B1,B2,B2
+1261,65,das Center,Center,die Center,the center,le centre,B1,B2,B2
+1262,65,die Erscheinung,Erscheinungen,die Erscheinungen,the appearance,l'apparence,B1,B2,B2
+1263,65,das Geräusch,Geräusche,die Geräusche,the noise,le bruit,B1,B2,B2
+1264,65,die Interpretation,Interpretationen,die Interpretationen,the interpretation,l'interprétation,B1,B2,B2
+1265,65,die Klage,Klagen,die Klagen,the lawsuit,le procès,B1,B2,B2
+1266,65,die Prognose,Prognosen,die Prognosen,the forecast,la prévision,B1,B2,B2
+1267,65,das Protein,Proteine,die Proteine,the protein,la protéine,B1,B2,B2
+1268,65,das Protokoll,Protokolle,die Protokolle,the protocol,le protocole,B1,B2,B2
+1269,65,die Vorgabe,Vorgaben,die Vorgaben,the requirement,l'exigence,B1,B2,B2
+1270,65,die Wende,Wenden,die Wenden,the turn,le tour,B1,B2,B2
+1271,66,die Abhängigkeit,Abhängigkeiten,die Abhängigkeiten,the dependence,la dépendance,B1,B2,B2
+1272,66,der Arbeitsmarkt,Arbeitsmärkte,die Arbeitsmärkte,the labor market,le marché du travail,B1,B2,B2
+1273,66,der Austausch,Austausche,die Austausche,the exchange,l'échange,B1,B2,B2
+1274,66,die Bombe,Bomben,die Bomben,the bomb,la bombe,B1,B2,B2
+1275,66,das Gen,Gene,die Gene,the gene,le gène,B1,B2,B2
+1276,66,die Konzentration,Konzentrationen,die Konzentrationen,the concentration,la concentration,B1,B2,B2
+1277,66,der Leib,Leiber,die Leiber,the body,le corps,B1,B2,B2
+1278,66,der Mord,Morde,die Morde,the murder,le meurtre,B1,B2,B2
+1279,66,der Pilot,Piloten,die Piloten,the pilot,le pilote,B1,B2,B2
+1280,66,das Resultat,Resultate,die Resultate,the result,le résultat,B1,B2,B2
+1281,66,der Riese,Riesen,die Riesen,the giant,le géant,B1,B2,B2
+1282,66,die Differenz,Differenzen,die Differenzen,the difference,la différence,B1,B2,B2
+1283,66,die Dunkelheit,Dunkelheiten,die Dunkelheiten,the darkness,l'obscurité,B1,B2,B2
+1284,66,das Dutzend,Dutzende,die Dutzende,the dozen,la douzaine,B1,B2,B2
+1285,66,der Gesichtspunkt,Gesichtspunkte,die Gesichtspunkte,the point of view,le point de vue,B1,B2,B2
+1286,66,die Konjunktur,Konjunkturen,die Konjunkturen,the economy,l'économie,B1,B2,B2
+1287,66,der Konkurrent,Konkurrenten,die Konkurrenten,the competitor,le concurrent,B1,B2,B2
+1288,66,die Last,Lasten,die Lasten,the burden,le fardeau,B1,B2,B2
+1289,66,das Lebensjahr,Lebensjahre,die Lebensjahre,the year of life,l'année de la vie,B1,B2,B2
+1290,66,die Mischung,Mischungen,die Mischungen,the mixture,le mélange,B1,B2,B2
+1291,67,das Muster,Muster,die Muster,the pattern,le modèle,B1,B2,B2
+1292,67,der Nachfolger,Nachfolger,die Nachfolger,the successor,le successeur,B1,B2,B2
+1293,67,das Potenzial,Potenziale,die Potenziale,the potential,le potentiel,B1,B2,B2
+1294,67,der Reiz,Reize,die Reize,the appeal,l'appel,B1,B2,B2
+1295,67,der Rohstoff,Rohstoffe,die Rohstoffe,the raw material,la matière première,B1,B2,B2
+1296,67,der Sachverhalt,Sachverhalte,die Sachverhalte,the facts,les faits,B1,B2,B2
+1297,67,der Schuss,Schüsse,die Schüsse,the shot,le coup,B1,B2,B2
+1298,67,die Sicherung,Sicherungen,die Sicherungen,the safety,la sécurité,B1,B2,B2
+1299,67,die Strahlung,Strahlungen,die Strahlungen,the radiation,le rayonnement,B1,B2,B2
+1300,67,das Turnier,Turniere,die Turniere,the tournament,le tournoi,B1,B2,B2
+1301,67,die Übernahme,Übernahmen,die Übernahmen,the takeover,la prise de contrôle,B1,B2,B2
+1302,67,die Verarbeitung,Verarbeitungen,die Verarbeitungen,the processing,le traitement,B1,B2,B2
+1303,67,die Veröffentlichung,Veröffentlichungen,die Veröffentlichungen,the publication,la publication,B1,B2,B2
+1304,67,die Verteilung,Verteilungen,die Verteilungen,the distribution,la distribution,B1,B2,B2
+1305,67,die Wiedervereinigung,Wiedervereinigungen,die Wiedervereinigungen,the reunification,la réunification,B1,B2,B2
+1306,67,die Benutzung,Benutzungen,die Benutzungen,the use,l'utilisation,B1,B2,B2
+1307,67,die Beurteilung,Beurteilungen,die Beurteilungen,the assessment,l'évaluation,B1,B2,B2
+1308,67,der Bewerber,Bewerber,die Bewerber,the applicant,le demandeur,B1,B2,B2
+1309,67,das Defizit,Defizite,die Defizite,the deficit,le déficit,B1,B2,B2
+1310,67,die Einschränkung,Einschränkungen,die Einschränkungen,the restriction,la restriction,B1,B2,B2
+1311,68,die Ermittlung,Ermittlungen,die Ermittlungen,the investigation,l'enquête,B1,B2,B2
+1312,68,der Ertrag,Erträge,die Erträge,the yield,le rendement,B1,B2,B2
+1313,68,das Format,Formate,die Formate,the format,le format,B1,B2,B2
+1314,68,die Herstellung,Herstellungen,die Herstellungen,the production,la production,B1,B2,B2
+1315,68,der Kaiser,Kaiser,die Kaiser,the emperor,l'empereur,B1,B2,B2
+1316,68,die Kammer,Kammern,die Kammern,the chamber,la chambre,B1,B2,B2
+1317,68,der Kritiker,Kritiker,die Kritiker,the critic,le critique,B1,B2,B2
+1318,68,die Messung,Messungen,die Messungen,the measurement,la mesure,B1,B2,B2
+1319,68,das Motto,Mottos,die Mottos,the motto,la devise,B1,B2,B2
+1320,68,der Nutzer,Nutzer,die Nutzer,the user,l'utilisateur,B1,B2,B2
+1321,68,die Premiere,Premieren,die Premieren,the premiere,la première,B1,B2,B2
+1322,68,die Probe,Proben,die Proben,the sample,l'échantillon,B1,B2,B2
+1323,68,die Schwäche,Schwächen,die Schwächen,the weakness,la faiblesse,B1,B2,B2
+1324,68,der Sektor,Sektoren,die Sektoren,the sector,le secteur,B1,B2,B2
+1325,68,der Sprung,Sprünge,die Sprünge,the jump,le saut,B1,B2,B2
+1326,68,das Symptom,Symptome,die Symptome,the symptom,le symptôme,B1,B2,B2
+1327,68,das Top,Tops,die Tops,the top,le haut,B1,B2,B2
+1328,68,die Verbreitung,Verbreitungen,die Verbreitungen,the spread,l'étalement,B1,B2,B2
+1329,68,das Vorhaben,Vorhaben,die Vorhaben,the project,le projet,B1,B2,B2
+1330,68,die Vorlage,Vorlagen,die Vorlagen,the template,le modèle,B1,B2,B2
+1331,69,der Anhänger,Anhänger,die Anhänger,the follower,le suiveur,B1,B2,B2
+1332,69,die Aufklärung,Aufklärungen,die Aufklärungen,the Enlightenment,les Lumières,B1,B2,B2
+1333,69,die Auflösung,Auflösungen,die Auflösungen,the resolution,la résolution,B1,B2,B2
+1334,69,die Bestellung,Bestellungen,die Bestellungen,the order,l'ordre,B1,B2,B2
+1335,69,der Bude,Buden,die Buden,the booth,le stand,B1,B2,B2
+1336,69,das Bündnis,Bündnisse,die Bündnisse,the alliance,l'alliance,B1,B2,B2
+1337,69,die Durchführung,Durchführungen,die Durchführungen,the implementation,la mise en œuvre,B1,B2,B2
+1338,69,die Einigung,Einigungen,die Einigungen,the agreement,l'accord,B1,B2,B2
+1339,69,die Einsicht,Einsichten,die Einsichten,the insight,l'intuition,B1,B2,B2
+1340,69,das Gedächtnis,Gedächtnisse,die Gedächtnisse,the memory,le souvenir,B1,B2,B2
+1341,69,die Gleichung,Gleichungen,die Gleichungen,the equation,l'équation,B1,B2,B2
+1342,69,die Herrschaft,Herrschaften,die Herrschaften,the rule,la règle,B1,B2,B2
+1343,69,die Infrastruktur,Infrastrukturen,die Infrastrukturen,the infrastructure,l'infrastructure,B1,B2,B2
+1344,69,die Mission,Missionen,die Missionen,the mission,la mission,B1,B2,B2
+1345,69,die Mitteilung,Mitteilungen,die Mitteilungen,the message,le message,B1,B2,B2
+1346,69,die Nahrung,Nahrungen,die Nahrungen,the food,la nourriture,B1,B2,B2
+1347,69,der Offizier,Offiziere,die Offiziere,the officer,l'officier,B1,B2,B2
+1348,69,die Philosophie,Philosophien,die Philosophien,the philosophy,la philosophie,B1,B2,B2
+1349,69,die Realisierung,Realisierungen,die Realisierungen,the realization,la réalisation,B1,B2,B2
+1350,69,der Schnitt,Schnitte,die Schnitte,the cut,la coupe,B1,B2,B2
+1351,70,die Schnittstelle,Schnittstellen,die Schnittstellen,the interface,l'interface,B1,B2,B2
+1352,70,die Sehnsucht,Sehnsüchte,die Sehnsüchte,the longing,le désir,B1,B2,B2
+1353,70,der Skandal,Skandale,die Skandale,the scandal,le scandale,B1,B2,B2
+1354,70,die Wurzel,Wurzeln,die Wurzeln,the root,la racine,B1,B2,B2
+1355,70,der Anblick,Anblicke,die Anblicke,the sight,la vue,B1,B2,B2
+1356,70,das Anliegen,Anliegen,die Anliegen,the concern,la préoccupation,B1,B2,B2
+1357,70,die Anpassung,Anpassungen,die Anpassungen,the adaptation,l'adaptation,B1,B2,B2
+1358,70,der Anstieg,Anstiege,die Anstiege,the increase,l'augmentation,B1,B2,B2
+1359,70,das Arbeitsamt,Arbeitsämter,die Arbeitsämter,the employment office,le bureau de l'emploi,B1,B2,B2
+1360,70,der Befehl,Befehle,die Befehle,the command,la commande,B1,B2,B2
+1361,70,die Bereitschaft,Bereitschaften,die Bereitschaften,the willingness,la volonté,B1,B2,B2
+1362,70,die Beschwerde,Beschwerden,die Beschwerden,the complaint,la plainte,B1,B2,B2
+1363,70,die Bundesliga,Bundesligen,die Bundesligen,the Bundesliga,la Bundesliga,B1,B2,B2
+1364,70,die Ehre,Ehren,die Ehren,the honor,l'honneur,B1,B2,B2
+1365,70,das Eigentum,Eigentümer,die Eigentümer,the property,la propriété,B1,B2,B2
+1366,70,der Einzelfall,Einzelfälle,die Einzelfälle,the individual case,le cas individuel,B1,B2,B2
+1367,70,die Epoche,Epochen,die Epochen,the era,l'ère,B1,B2,B2
+1368,70,der Erreger,Erreger,die Erreger,the pathogen,le pathogène,B1,B2,B2
+1369,70,die Feststellung,Feststellungen,die Feststellungen,the finding,la découverte,B1,B2,B2
+1370,70,die Formulierung,Formulierungen,die Formulierungen,the wording,la formulation,B1,B2,B2
+1371,71,das Gelände,Gelände,die Gelände,the area,la région,B1,B2,B2
+1372,71,der/die Geliebte,Geliebte,die Geliebte,the lover,l'amant,B1,B2,B2
+1373,71,die Inszenierung,Inszenierungen,die Inszenierungen,the staging,la mise en scène,B1,B2,B2
+1374,71,der Kapitän,Kapitäne,die Kapitäne,the captain,le capitaine,B1,B2,B2
+1375,71,der Kontext,Kontexte,die Kontexte,the context,le contexte,B1,B2,B2
+1376,71,das Kunstwerk,Kunstwerke,die Kunstwerke,the artwork,l'œuvre d'art,B1,B2,B2
+1377,71,das Lebewesen,Lebewesen,die Lebewesen,the living being,l'être vivant,B1,B2,B2
+1378,71,der Lastkraftwagen,Lastkraftwagen,die Lastkraftwagen,the truck,le camion,B1,B2,B2
+1379,71,der Mörder,Mörder,die Mörder,the murderer,le meurtrier,B1,B2,B2
+1380,71,die Öffnung,Öffnungen,die Öffnungen,the opening,l'ouverture,B1,B2,B2
+1381,71,die Partie,Partien,die Partien,the game,le jeu,B1,B2,B2
+1382,71,die Reflexion,Reflexionen,die Reflexionen,the reflection,le reflet,B1,B2,B2
+1383,71,die Show,Shows,die Shows,the show,le spectacle,B1,B2,B2
+1384,71,die Stiftung,Stiftungen,die Stiftungen,the foundation,la fondation,B1,B2,B2
+1385,71,die Unterscheidung,Unterscheidungen,die Unterscheidungen,the distinction,la distinction,B1,B2,B2
+1386,71,die Version,Versionen,die Versionen,the version,la version,B1,B2,B2
+1387,71,der Wähler,Wähler,die Wähler,the voter,l'électeur,B1,B2,B2
+1388,71,die Wechselwirkung,Wechselwirkungen,die Wechselwirkungen,the interaction,l'interaction,B1,B2,B2
+1389,71,der Abbau,Abbaue,die Abbaue,the dismantling,le démantèlement,B1,B2,B2
+1390,71,die Agentur,Agenturen,die Agenturen,the agency,l'agence,B1,B2,B2
+1391,72,die Akademie,Akademien,die Akademien,the academy,l'académie,B1,B2,B2
+1392,72,die Anfrage,Anfragen,die Anfragen,the request,la demande,B1,B2,B2
+1393,72,die Aufführung,Aufführungen,die Aufführungen,the performance,la performance,B1,B2,B2
+1394,72,die Auflage,Auflagen,die Auflagen,the edition,l'édition,B1,B2,B2
+1395,72,der Ausbau,Ausbaue,die Ausbaue,the expansion,l'expansion,B1,B2,B2
+1396,72,der Bär,Bären,die Bären,the bear,l'ours,B1,B2,B2
+1397,72,das Bedenken,Bedenken,die Bedenken,the concern,la préoccupation,B1,B2,B2
+1398,72,die Erfüllung,Erfüllungen,die Erfüllungen,the fulfillment,l'accomplissement,B1,B2,B2
+1399,72,der Führer,Führer,die Führer,the leader,le leader,B1,B2,B2
+1400,72,die Fusion,Fusionen,die Fusionen,the merger,la fusion,B1,B2,B2
+1401,72,der Geruch,Gerüche,die Gerüche,the smell,l'odeur,B1,B2,B2
+1402,72,das Gleichgewicht,Gleichgewichte,die Gleichgewichte,the balance,l'équilibre,B1,B2,B2
+1403,72,der Investor,Investoren,die Investoren,the investor,l'investisseur,B1,B2,B2
+1404,72,der Kerl,Kerle,die Kerle,the guy,le gars,B1,B2,B2
+1405,72,der Komponist,Komponisten,die Komponisten,the composer,le compositeur,B1,B2,B2
+1406,72,das Labor,Labors,die Labors,the laboratory,le laboratoire,B1,B2,B2
+1407,72,der Landkreis,Landkreise,die Landkreise,the district,le district,B1,B2,B2
+1408,72,die Plattform,Plattformen,die Plattformen,the platform,la plateforme,B1,B2,B2
+1409,72,der Posten,Posten,die Posten,the position,la position,B1,B2,B2
+1410,72,das Regime,Regime,die Regime,the regime,le régime,B1,B2,B2
+1411,73,der Rücktritt,Rücktritte,die Rücktritte,the resignation,la démission,B1,B2,B2
+1412,73,die Solidarität,Solidaritäten,die Solidaritäten,the solidarity,la solidarité,B1,B2,B2
+1413,73,der Status,Status,die Status,the status,le statut,B1,B2,B2
+1414,73,der Überblick,Überblicke,die Überblicke,the overview,l'aperçu,B1,B2,B2
+1415,73,die Unsicherheit,Unsicherheiten,die Unsicherheiten,the uncertainty,l'incertitude,B1,B2,B2
+1416,73,der Vorhang,Vorhänge,die Vorhänge,the curtain,le rideau,B1,B2,B2
+1417,73,der Winkel,Winkel,die Winkel,the angle,l'angle,B1,B2,B2
+1418,73,das Zitat,Zitate,die Zitate,the quote,la citation,B1,B2,B2
+1419,73,die Abgrenzung,Abgrenzungen,die Abgrenzungen,the demarcation,la démarcation,B1,B2,B2
+1420,73,der Akt,Akte,die Akte,the act,la loi,B1,B2,B2
+1421,73,der Akteur,Akteure,die Akteure,the actor,l'acteur,B1,B2,B2
+1422,73,die Allianz,Allianzen,die Allianzen,the alliance,l'alliance,B1,B2,B2
+1423,73,der Ausgleich,Ausgleiche,die Ausgleiche,the compensation,la compensation,B1,B2,B2
+1424,73,die Begeisterung,Begeisterungen,die Begeisterungen,the enthusiasm,l'enthousiasme,B1,B2,B2
+1425,73,der Bezirk,Bezirke,die Bezirke,the district,le district,B1,B2,B2
+1426,73,die Diagnose,Diagnosen,die Diagnosen,the diagnosis,le diagnostic,B1,B2,B2
+1427,73,der Durchmesser,Durchmesser,die Durchmesser,the diameter,le diamètre,B1,B2,B2
+1428,73,der Felsen,Felsen,die Felsen,the rocks,les rochers,B1,B2,B2
+1429,73,das Fräulein,Fräulein,die Fräulein,the young lady,la jeune femme,B1,B2,B2
+1430,73,der Friedhof,Friedhöfe,die Friedhöfe,the cemetery,le cimetière,B1,B2,B2
+1431,74,die Front,Fronten,die Fronten,the front,le devant,B1,B2,B2
+1432,74,die Fülle,Füllen,die Füllen,the abundance,l'abondance,B1,B2,B2
+1433,74,das Geschäftsjahr,Geschäftsjahre,die Geschäftsjahre,the financial year,l'exercice financier,B1,B2,B2
+1434,74,die Großstadt,Großstädte,die Großstädte,the big city,la grande ville,B1,B2,B2
+1435,74,der Hang,Hänge,die Hänge,the slope,la pente,B1,B2,B2
+1436,74,der Kongress,Kongresse,die Kongresse,the congress,le congrès,B1,B2,B2
+1437,74,der Nachweis,Nachweise,die Nachweise,the proof,la preuve,B1,B2,B2
+1438,74,die Orientierung,Orientierungen,die Orientierungen,the orientation,l'orientation,B1,B2,B2
+1439,74,der Personenkraftwagen,Personenkraftwagen,die Personenkraftwagen,the passenger car,la voiture de tourisme,B1,B2,B2
+1440,74,der Rhythmus,Rhythmen,die Rhythmen,the rhythm,le rythme,B1,B2,B2
+1441,74,die Rücksicht,Rücksichten,die Rücksichten,the consideration,la considération,B1,B2,B2
+1442,74,der Senat,Senate,die Senate,the Senate,le sénat,B1,B2,B2
+1443,74,die Steuerung,Steuerungen,die Steuerungen,the control,le contrôle,B1,B2,B2
+1444,74,das Universum,Universen,die Universen,the universe,l'univers,B1,B2,B2
+1445,74,die Vereinigung,Vereinigungen,die Vereinigungen,the association,l'association,B1,B2,B2
+1446,74,die Volkshochschule,Volkshochschulen,die Volkshochschulen,the adult education center,le centre d'éducation des adultes,B1,B2,B2
+1447,74,die Wahrscheinlichkeit,Wahrscheinlichkeiten,die Wahrscheinlichkeiten,the probability,la probabilité,B1,B2,B2
+1448,74,die Wange,Wangen,die Wangen,the cheek,la joue,B1,B2,B2
+1449,74,die Zunahme,Zunahmen,die Zunahmen,the increase,l'augmentation,B1,B2,B2
+1450,74,die Ablehnung,Ablehnungen,die Ablehnungen,the rejection,le rejet,B1,B2,B2
+1451,75,die Abstimmung,Abstimmungen,die Abstimmungen,the vote,le vote,B1,B2,B2
+1452,75,die Anordnung,Anordnungen,die Anordnungen,the arrangement,l'arrangement,B1,B2,B2
+1453,75,die Anregung,Anregungen,die Anregungen,the suggestion,la suggestion,B1,B2,B2
+1454,75,der Aufsatz,Aufsätze,die Aufsätze,the essay,l'essai,B1,B2,B2
+1455,75,die Bakterie,Bakterien,die Bakterien,the bacterium,la bactérie,B1,B2,B2
+1456,75,der Befund,Befunde,die Befunde,the finding,la découverte,B1,B2,B2
+1457,75,die Bemühung,Bemühungen,die Bemühungen,the effort,l'effort,B1,B2,B2
+1458,75,der Beobachter,Beobachter,die Beobachter,the observer,l'observateur,B1,B2,B2
+1459,75,der Berater,Berater,die Berater,the consultant,le consultant,B1,B2,B2
+1460,75,der Betrachter,Betrachter,die Betrachter,the viewer,le spectateur,B1,B2,B2
+1461,75,das Betriebssystem,Betriebssysteme,die Betriebssysteme,the operating system,le système d'exploitation,B1,B2,B2
+1462,75,die Blüte,Blüten,die Blüten,the flower,la fleur,B1,B2,B2
+1463,75,die Datenverarbeitung,Datenverarbeitungen,die Datenverarbeitungen,data processing,l'informatique,B1,B2,B2
+1464,75,der Eigentümer,Eigentümer,die Eigentümer,the owner,le propriétaire,B1,B2,B2
+1465,75,das Ensemble,Ensembles,die Ensembles,the ensemble,l'ensemble,B1,B2,B2
+1466,75,die Faust,Fäuste,die Fäuste,the fist,le poing,B1,B2,B2
+1467,75,die Genehmigung,Genehmigungen,die Genehmigungen,the approval,l'approbation,B1,B2,B2
+1468,75,die Grundschule,Grundschulen,die Grundschulen,the primary school,l'école primaire,B1,B2,B2
+1469,75,die Höhle,Höhlen,die Höhlen,the cave,la grotte,B1,B2,B2
+1470,75,die Innenstadt,Innenstädte,die Innenstädte,the city center,le centre-ville,B1,B2,B2
+1471,76,das Kloster,Klöster,die Klöster,the monastery,le monastère,B1,B2,B2
+1472,76,die Kohle,Kohlen,die Kohlen,the coal,le charbon,B1,B2,B2
+1473,76,der Konsument,Konsumenten,die Konsumenten,the consumer,le consommateur,B1,B2,B2
+1474,76,die Malerei,Malereien,die Malereien,the painting,la peinture,B1,B2,B2
+1475,76,der Maßstab,Maßstäbe,die Maßstäbe,the scale,l'échelle,B1,B2,B2
+1476,76,die Materie,Materien,die Materien,the matter,la question,B1,B2,B2
+1477,76,der Rückgang,Rückgänge,die Rückgänge,the decline,le déclin,B1,B2,B2
+1478,76,der Schuldner,Schuldner,die Schuldner,the debtor,le débiteur,B1,B2,B2
+1479,76,der Stamm,Stämme,die Stämme,the tribe,la tribu,B1,B2,B2
+1480,76,der Streifen,Streifen,die Streifen,the stripe,la rayure,B1,B2,B2
+1481,76,der Teufel,Teufel,die Teufel,the devil,le diable,B1,B2,B2
+1482,76,die Überprüfung,Überprüfungen,die Überprüfungen,the review,la critique,B1,B2,B2
+1483,76,die Vermutung,Vermutungen,die Vermutungen,the assumption,l'hypothèse,B1,B2,B2
+1484,76,die Wirtschaftspolitik,Wirtschaftspolitiken,die Wirtschaftspolitiken,economic policy,la politique économique,B1,B2,B2
+1485,76,die Zunge,Zungen,die Zungen,the tongue,la langue,B1,B2,B2
+1486,76,der Zwang,Zwänge,die Zwänge,the compulsion,la compulsion,B1,B2,B2
+1487,76,das Antibiotikum,Antibiotika,die Antibiotika,the antibiotic,l'antibiotique,B1,B2,B2
+1488,76,die Anweisung,Anweisungen,die Anweisungen,the instruction,l'instruction,B1,B2,B2
+1489,76,die Architektur,Architekturen,die Architekturen,the architecture,l'architecture,B1,B2,B2
+1490,76,das Atom,Atome,die Atome,the atom,l'atome,B1,B2,B2
+1491,77,der Aufstieg,Aufstiege,die Aufstiege,the rise,la montée,B1,B2,B2
+1492,77,die Ausstattung,Ausstattungen,die Ausstattungen,the equipment,l'équipement,B1,B2,B2
+1493,77,die Bearbeitung,Bearbeitungen,die Bearbeitungen,the processing,le traitement,B1,B2,B2
+1494,77,die Besonderheit,Besonderheiten,die Besonderheiten,the special feature,la caractéristique spéciale,B1,B2,B2
+1495,77,die Breite,Breiten,die Breiten,the width,la largeur,B1,B2,B2
+1496,77,der Champion,Champions,die Champions,the champion,le champion,B1,B2,B2
+1497,77,die Differenzierung,Differenzierungen,die Differenzierungen,the differentiation,la différenciation,B1,B2,B2
+1498,77,der Dirigent,Dirigenten,die Dirigenten,the conductor,le chef d'orchestre,B1,B2,B2
+1499,77,die Entdeckung,Entdeckungen,die Entdeckungen,the discovery,la découverte,B1,B2,B2
+1500,77,die Fluggesellschaft,Fluggesellschaften,die Fluggesellschaften,the airline,la compagnie aérienne,B1,B2,B2
+1501,77,das Gerücht,Gerüchte,die Gerüchte,the rumor,la rumeur,B1,B2,B2
+1502,77,der Gesetzgeber,Gesetzgeber,die Gesetzgeber,the legislator,le législateur,B1,B2,B2
+1503,77,die Gliederung,Gliederungen,die Gliederungen,the structure,la structure,B1,B2,B2
+1504,77,das Grab,Gräber,die Gräber,the grave,la tombe,B1,B2,B2
+1505,77,der Grenzwert,Grenzwerte,die Grenzwerte,the limit value,la valeur limite,B1,B2,B2
+1506,77,das Handwerk,Handwerke,die Handwerke,the craft,l'artisanat,B1,B2,B2
+1507,77,der Helfer,Helfer,die Helfer,the helper,l'assistant,B1,B2,B2
+1508,77,der Jäger,Jäger,die Jäger,the hunter,le chasseur,B1,B2,B2
+1509,77,der Klang,Klänge,die Klänge,the sound,le son,B1,B2,B2
+1510,77,die Königin,Königinnen,die Königinnen,the queen,la reine,B1,B2,B2
+1511,78,die Konstruktion,Konstruktionen,die Konstruktionen,the construction,la construction,B1,B2,B2
+1512,78,der Kreislauf,Kreisläufe,die Kreisläufe,the cycle,le cycle,B1,B2,B2
+1513,78,die Kugel,Kugeln,die Kugeln,the ball,la balle,B1,B2,B2
+1514,78,die Kuh,Kühe,die Kühe,the cow,la vache,B1,B2,B2
+1515,78,die Leiche,Leichen,die Leichen,the corpse,le cadavre,B1,B2,B2
+1516,78,die Leidenschaft,Leidenschaften,die Leidenschaften,the passion,la passion,B1,B2,B2
+1517,78,die Leistungsfähigkeit,Leistungsfähigkeiten,die Leistungsfähigkeiten,the performance,la performance,B1,B2,B2
+1518,78,die Liga,Ligen,die Ligen,the league,la ligue,B1,B2,B2
+1519,78,das Milligramm,Milligramme,die Milligramme,the milligram,le milligramme,B1,B2,B2
+1520,78,der Nacken,Nacken,die Nacken,the neck,le cou,B1,B2,B2
+1521,78,der Parteitag,Parteitage,die Parteitage,the party congress,le congrès du parti,B1,B2,B2
+1522,78,der Planet,Planeten,die Planeten,the planet,la planète,B1,B2,B2
+1523,78,der Priester,Priester,die Priester,the priest,le prêtre,B1,B2,B2
+1524,78,die Problematik,Problematiken,die Problematiken,the problem,le problème,B1,B2,B2
+1525,78,die Rezession,Rezessionen,die Rezessionen,the recession,la récession,B1,B2,B2
+1526,78,der Schweiß,Schweiße,die Schweiße,the sweat,la sueur,B1,B2,B2
+1527,78,die Skala,Skalas,die Skalas,the scale,l'échelle,B1,B2,B2
+1528,78,die Spalte,Spalten,die Spalten,the column,la colonne,B1,B2,B2
+1529,78,das Spektrum,Spektren,die Spektren,the spectrum,le spectre,B1,B2,B2
+1530,78,das Tagebuch,Tagebücher,die Tagebücher,the diary,le journal,B1,B2,B2
+1531,79,die Unruhe,Unruhen,die Unruhen,the unrest,les troubles,B1,B2,B2
+1532,79,der Ursprung,Ursprünge,die Ursprünge,the origin,l'origine,B1,B2,B2
+1533,79,das Verbrechen,Verbrechen,die Verbrechen,the crime,le crime,B1,B2,B2
+1534,79,die Verhaltensweise,Verhaltensweisen,die Verhaltensweisen,the behavior,le comportement,B1,B2,B2
+1535,79,die Verordnung,Verordnungen,die Verordnungen,the regulation,le règlement,B1,B2,B2
+1536,79,die Zerstörung,Zerstörungen,die Zerstörungen,the destruction,la destruction,B1,B2,B2
+1537,79,die Zulassung,Zulassungen,die Zulassungen,the approval,l'approbation,B1,B2,B2
+1538,79,die Zusammensetzung,Zusammensetzungen,die Zusammensetzungen,the composition,la composition,B1,B2,B2
+1539,79,die Abschreibung,Abschreibungen,die Abschreibungen,the depreciation,la dépréciation,B1,B2,B2
+1540,79,die Achse,Achsen,die Achsen,the axis,l'axe,B1,B2,B2
+1541,79,die Aufregung,Aufregungen,die Aufregungen,the excitement,l'excitation,B1,B2,B2
+1542,79,der Chip,Chips,die Chips,the chip,la puce,B1,B2,B2
+1543,79,der Chor,Chöre,die Chöre,the choir,le chœur,B1,B2,B2
+1544,79,das Design,Designs,die Designs,the design,le design,B1,B2,B2
+1545,79,der Dolmetscher,Dolmetscher,die Dolmetscher,the interpreter,l'interprète,B1,B2,B2
+1546,79,die Furcht,Fürchte,die Fürchte,the fear,la peur,B1,B2,B2
+1547,79,der General,Generäle,die Generäle,the general,le général,B1,B2,B2
+1548,79,das Gewehr,Gewehre,die Gewehre,the rifle,le fusil,B1,B2,B2
+1549,79,das Glied,Glieder,die Glieder,the member,le membre,B1,B2,B2
+1550,79,der Graf,Grafen,die Grafen,the Count,le comte,B1,B2,B2
+1551,80,das Gremium,Gremien,die Gremien,the committee,le comité,B1,B2,B2
+1552,80,das Gutachten,Gutachten,die Gutachten,the expert opinion,l'avis des experts,B1,B2,B2
+1553,80,die Haustür,Haustüren,die Haustüren,the front door,la porte d'entrée,B1,B2,B2
+1554,80,die Hypothese,Hypothesen,die Hypothesen,the hypothesis,l'hypothèse,B1,B2,B2
+1555,80,der Kommentar,Kommentare,die Kommentare,the comment,le commentaire,B1,B2,B2
+1556,80,die Konzeption,Konzeptionen,die Konzeptionen,the concept,le concept,B1,B2,B2
+1557,80,die Kreativität,Kreativitäten,die Kreativitäten,the creativity,la créativité,B1,B2,B2
+1558,80,der Marktanteil,Marktanteile,die Marktanteile,the market share,la part de marché,B1,B2,B2
+1559,80,die Maus,Mäuse,die Mäuse,the mouse,la souris,B1,B2,B2
+1560,80,das Menschenrecht,Menschenrechte,die Menschenrechte,the human right,le droit de l'homme,B1,B2,B2
+1561,80,das Ministerium,Ministerien,die Ministerien,the ministry,le ministère,B1,B2,B2
+1562,80,der Mythos,Mythen,die Mythen,the myth,le mythe,B1,B2,B2
+1563,80,die Naturwissenschaft,Naturwissenschaften,die Naturwissenschaften,natural science,la sciences naturelle,B1,B2,B2
+1564,80,der Parkplatz,Parkplätze,die Parkplätze,the parking lot,le parking,B1,B2,B2
+1565,80,die Partnerschaft,Partnerschaften,die Partnerschaften,the partnership,le partenariat,B1,B2,B2
+1566,80,die Periode,Perioden,die Perioden,the period,la période,B1,B2,B2
+1567,80,das Präparat,Präparate,die Präparate,the preparation,la préparation,B1,B2,B2
+1568,80,die Provinz,Provinzen,die Provinzen,the province,la province,B1,B2,B2
+1569,80,die Rahmenbedingung,Rahmenbedingungen,die Rahmenbedingungen,the framework conditions,les conditions-cadres,B1,B2,B2
+1570,80,der Regierungschef,Regierungschefs,die Regierungschefs,the head of government,le chef du gouvernement,B1,B2,B2
+1571,81,die Säule,Säulen,die Säulen,the pillar,le pilier,B1,B2,B2
+1572,81,die Schönheit,Schönheiten,die Schönheiten,the beauty,la beauté,B1,B2,B2
+1573,81,die Steigerung,Steigerungen,die Steigerungen,the increase,l'augmentation,B1,B2,B2
+1574,81,der Stellvertreter,Stellvertreter,die Stellvertreter,the deputy,le député,B1,B2,B2
+1575,81,die Subvention,Subventionen,die Subventionen,the subsidy,la subvention,B1,B2,B2
+1576,81,der Tunnel,Tunnel,die Tunnel,the tunnel,le tunnel,B1,B2,B2
+1577,81,die Übersicht,Übersichten,die Übersichten,the overview,aperçu,B1,B2,B2
+1578,81,die Vorlesung,Vorlesungen,die Vorlesungen,the lecture,la conférence,B1,B2,B2
+1579,81,das Abkommen,Abkommen,die Abkommen,the agreement,l'accord,B1,B2,B2
+1580,81,der Absolvent,Absolventen,die Absolventen,the graduate,le diplômé,B1,B2,B2
+1581,81,die Abwehr,Abwehren,die Abwehren,the defense,la défense,B1,B2,B2
+1582,81,die Arbeitskraft,Arbeitskräfte,die Arbeitskräfte,the workforce,la main-d'œuvre,B1,B2,B2
+1583,81,der Assistent,Assistenten,die Assistenten,the assistant,l'assistant,B1,B2,B2
+1584,81,die Auswertung,Auswertungen,die Auswertungen,the evaluation,l'évaluation,B1,B2,B2
+1585,81,die Bedrohung,Bedrohungen,die Bedrohungen,the threat,la menace,B1,B2,B2
+1586,81,die Bekämpfung,Bekämpfungen,die Bekämpfungen,the fight,le combat,B1,B2,B2
+1587,81,die Beschränkung,Beschränkungen,die Beschränkungen,the restriction,la restriction,B1,B2,B2
+1588,81,der Block,Blöcke,die Blöcke,the block,le bloc,B1,B2,B2
+1589,81,das Darlehen,Darlehen,die Darlehen,the loan,le prêt,B1,B2,B2
+1590,81,die Erhaltung,Erhaltungen,die Erhaltungen,the preservation,la préservation,B1,B2,B2
+1591,82,der Erzähler,Erzähler,die Erzähler,the narrator,le narrateur,B1,B2,B2
+1592,82,der Fachbereich,Fachbereiche,die Fachbereiche,the department,le département,B1,B2,B2
+1593,82,die Fassung,Fassungen,die Fassungen,the version,la version,B1,B2,B2
+1594,82,der Flügel,Flügel,die Flügel,the wing,l'aile,B1,B2,B2
+1595,82,die Frequenz,Frequenzen,die Frequenzen,the frequency,la fréquence,B1,B2,B2
+1596,82,die Gerechtigkeit,Gerechtigkeiten,die Gerechtigkeiten,the justice,la justice,B1,B2,B2
+1597,82,der Gipfel,Gipfel,die Gipfel,the summit,le sommet,B1,B2,B2
+1598,82,der Großteil,Großteile,die Großteile,the majority,la majorité,B1,B2,B2
+1599,82,das Industrieland,Industrieländer,die Industrieländer,the industrialized country,le pays industrialisé,B1,B2,B2
+1600,82,die Jagd,Jagden,die Jagden,the hunt,la chasse,B1,B2,B2
+1601,82,die Jahreszeit,Jahreszeiten,die Jahreszeiten,the season,la saison,B1,B2,B2
+1602,82,die Linse,Linsen,die Linsen,the lens,la lentille,B1,B2,B2
+1603,82,die Lücke,Lücken,die Lücken,the gap,l'écart,B1,B2,B2
+1604,82,der Missbrauch,Missbräuche,die Missbräuche,the abuse,l'abus,B1,B2,B2
+1605,82,die Motivation,Motivationen,die Motivationen,the motivation,la motivation,B1,B2,B2
+1606,82,die Option,Optionen,die Optionen,the option,l'option,B1,B2,B2
+1607,82,der Physiker,Physiker,die Physiker,the physicist,le physicien,B1,B2,B2
+1608,82,die Pistole,Pistolen,die Pistolen,the pistol,le pistolet,B1,B2,B2
+1609,82,die Reichweite,Reichweiten,die Reichweiten,the range,la gamme,B1,B2,B2
+1610,82,die Tageszeitung,Tageszeitungen,die Tageszeitungen,the daily newspaper,le quotidien,B1,B2,B2
+1611,83,der Therapeut,Therapeuten,die Therapeuten,the therapist,le thérapeute,B1,B2,B2
+1612,83,der Veranstalter,Veranstalter,die Veranstalter,the organizer,l'organisateur,B1,B2,B2
+1613,83,die Verknüpfung,Verknüpfungen,die Verknüpfungen,the link,le lien,B1,B2,B2
+1614,83,das Vorfeld,Vorfelder,die Vorfelder,the apron,le tablier,B1,B2,B2
+1615,83,der Vorgänger,Vorgänger,die Vorgänger,the predecessor,le prédécesseur,B1,B2,B2
+1616,83,die Währung,Währungen,die Währungen,the currency,la monnaie,B1,B2,B2
+1617,83,der Weltmeister,Weltmeister,die Weltmeister,the world champion,le champion du monde,B1,B2,B2
+1618,83,die Zuordnung,Zuordnungen,die Zuordnungen,the assignment,l'affectation,B1,B2,B2
+1619,83,der Zuwachs,Zuwächse,die Zuwächse,the increase,l'augmentation,B1,B2,B2
+1620,83,die Akte,Akten,die Akten,the file,le fichier,B1,B2,B2
+1621,83,die Anleihe,Anleihen,die Anleihen,the bond,le lien,B1,B2,B2
+1622,83,die Arbeitszeit,Arbeitszeiten,die Arbeitszeiten,the working hours,les heures de travail,B1,B2,B2
+1623,83,der Aufsichtsrat,Aufsichtsräte,die Aufsichtsräte,the supervisory board,le conseil de surveillance,B1,B2,B2
+1624,83,der Ausgangspunkt,Ausgangspunkte,die Ausgangspunkte,the starting point,le point de départ,B1,B2,B2
+1625,83,die Ausrichtung,Ausrichtungen,die Ausrichtungen,the alignment,l'alignement,B1,B2,B2
+1626,83,der Einblick,Einblicke,die Einblicke,the insight,l'intuition,B1,B2,B2
+1627,83,der Engel,Engel,die Engel,the angel,l'ange,B1,B2,B2
+1628,83,die Erfassung,Erfassungen,die Erfassungen,the recording,l'enregistrement,B1,B2,B2
+1629,83,die Fahne,Fahnen,die Fahnen,the flag,le drapeau,B1,B2,B2
+1630,83,die Fakultät,Fakultäten,die Fakultäten,the faculty,la faculté,B1,B2,B2
+1631,84,die Fassade,Fassaden,die Fassaden,the facade,la façade,B1,B2,B2
+1632,84,das Gewebe,Gewebe,die Gewebe,the tissue,le tissu,B1,B2,B2
+1633,84,der Jurist,Juristen,die Juristen,the lawyer,l'avocat,B1,B2,B2
+1634,84,die Kommune,Kommunen,die Kommunen,the municipality,la municipalité,B1,B2,B2
+1635,84,die Koralle,Korallen,die Korallen,the coral,le corail,B1,B2,B2
+1636,84,die Landesregierung,Landesregierungen,die Landesregierungen,the state government,le gouvernement de l'État,B1,B2,B2
+1637,84,der Philosoph,Philosophen,die Philosophen,the philosopher,le philosophe,B1,B2,B2
+1638,84,der Prinz,Prinzen,die Prinzen,the prince,le prince,B1,B2,B2
+1639,84,das Profil,Profile,die Profile,the profile,le profil,B1,B2,B2
+1640,84,die Relation,Relationen,die Relationen,the relationship,la relation,B1,B2,B2
+1641,84,das Riff,Riffe,die Riffe,the reef,le récif,B1,B2,B2
+1642,84,die Siedlung,Siedlungen,die Siedlungen,the settlement,le règlement,B1,B2,B2
+1643,84,der Spruch,Sprüche,die Sprüche,the saying,le dicton,B1,B2,B2
+1644,84,die Stellungnahme,Stellungnahmen,die Stellungnahmen,the statement,la déclaration,B1,B2,B2
+1645,84,der Strahl,Strahlen,die Strahlen,the beam,le faisceau,B1,B2,B2
+1646,84,die Strömung,Strömungen,die Strömungen,the current,le courant,B1,B2,B2
+1647,84,das Volumen,Volumen,die Volumen,the volume,le volume,B1,B2,B2
+1648,84,der Zugriff,Zugriffe,die Zugriffe,the access,l'accès,B1,B2,B2

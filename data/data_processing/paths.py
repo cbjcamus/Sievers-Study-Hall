@@ -10,7 +10,7 @@ from data.data_processing.units import (praepositionen_grammatik, praepositionen
                                         verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
                                         praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II,
                                         konjunktiv_II, konjunktiv_I, partizip_I,
-                                        genus_regeln, genus_routledge, genus_goethe,
+                                        genus_regeln, genus, plural,
                                         zahlen,
                                         units,
                                         )
@@ -56,8 +56,8 @@ DATA_PATH = {
     partizip_I: os.path.join(BASE_DIR, "datasets/konjugation", "partizip_I.csv"),
 
     genus_regeln: os.path.join(BASE_DIR, "datasets/genus", "genus_regeln.csv"),
-    genus_routledge: os.path.join(BASE_DIR, "datasets/genus", "genus_routledge.csv"),
-    genus_goethe: os.path.join(BASE_DIR, "datasets/genus", "genus_goethe.csv"),
+    genus: os.path.join(BASE_DIR, "datasets/genus", "genus.csv"),
+    plural: os.path.join(BASE_DIR, "datasets/genus", "plural.csv"),
 
     zahlen: os.path.join(BASE_DIR, "datasets/sonstige", "zahlen.csv"),
 }

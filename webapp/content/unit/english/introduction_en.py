@@ -3,10 +3,11 @@ from data.data_processing.units import (
     praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
+    adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
-    zahlen, adjektive_nomen_wortstaemme,
+    genus_regeln, genus,
+    zahlen, plural,
 )
 
 INTRODUCTION_EN = {
@@ -87,7 +88,7 @@ INTRODUCTION_EN = {
     ,
     adjektivdeklinationen:
         "Adjective Declensions in every grammatical cases, persons, and articles."
-        "<br><br>I hated that in French as a boy and it's even worse in German."
+        "<br><br>I hated that in French when I was a kid and it's even worse in German."
         "<br><br>If it was up to me, Adjective Declensions wouldn't start before C1."
     ,
     adjektive_konjunktionen:
@@ -156,7 +157,7 @@ INTRODUCTION_EN = {
         "<br><br>A guide listing these thumb rules is available "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
     ,
-    genus_routledge:
+    genus:
         "Deep dreams drift, daring dusk to dance"
         "<br>Dark doubts dissolve, daylight dares advance:"
         "<br>Determined voices decide, declare, and pass,"
@@ -164,13 +165,11 @@ INTRODUCTION_EN = {
         "<br><br>The list of nouns comes from "
         "<a href=\"https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112\" target=\"_blank\">here</a>."
     ,
-    genus_goethe:
-        "A Dance of Der Die Das."
-        "<br><br>The list of nouns comes from the "
-        "<a href=\"https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf\" target=\"_blank\">Goethe Institut</a>."
-    ,
 
     zahlen:
         "Numbers in all their forms, including cardinal, ordinal, sequential, adverbial, fractional and multiplier."
+    ,
+    plural:
+        "Plurals of common German nouns."
     ,
 }

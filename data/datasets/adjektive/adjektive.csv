@@ -1,7 +1,7 @@
 Nr,exercise,question,answer,german,english,french,explanation_english,explanation_french,antonym
 1,1,,alt,,old,vieux,<br><br>alt ↔ jung,<br><br>alt ↔ jung,jung
 2,1,,jung,,young,jeune,<br><br>jung ↔ alt,<br><br>jung ↔ alt,alt
-3,1,,neu,,new,nouveau,,,
+3,1,,neu,,new,nouveau,​,​,
 4,1,,einfach,,"easy, simple","facile, simple",<br><br>einfach ↔ schwierig,<br><br>einfach ↔ schwierig,schwierig
 5,1,,schwierig,,difficult,difficile,<br><br>schwierig ↔ einfach,<br><br>schwierig ↔ einfach,einfach
 6,1,,richtig,,"right, correct","correct, juste",<br><br>richtig ↔ falsch,<br><br>richtig ↔ falsch,falsch
@@ -22,25 +22,25 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 21,2,,ganz,,"whole, entire, complete","entier, complet",<br><br>ganz ↔ unvollständig,<br><br>ganz ↔ unvollständig,unvollständig
 22,2,,hoch,,high,haut,<br><br>hoch ↔ niedrig,<br><br>hoch ↔ niedrig,niedrig
 23,2,,niedrig,,low,bas,<br><br>niedrig ↔ hoch,<br><br>niedrig ↔ hoch,hoch
-24,2,,rot,,red,rouge,,,
+24,2,,rot,,red,rouge,​,​,
 25,2,,schwarz,,black,noir,<br><br>schwarz ↔ weiß,<br><br>schwarz ↔ weiß,weiß
 26,2,,weiß,,white,blanc,<br><br>weiß ↔ schwarz,<br><br>weiß ↔ schwarz,schwarz
-27,2,,blau,,blue,bleu,,,
-28,2,,grün,,green,vert,,,
-29,2,,gelb,,yellow,jaune,,,
-30,2,,grau,,grey,gris,,,
-31,2,,frei,,free,libre,,,
+27,2,,blau,,blue,bleu,​,​,
+28,2,,grün,,green,vert,​,​,
+29,2,,gelb,,yellow,jaune,​,​,
+30,2,,grau,,grey,gris,​,​,
+31,2,,frei,,free,libre,​,​,
 32,2,,spät,,late,"tard, en retard",<br><br>spät ↔ früh,<br><br>spät ↔ früh,früh
 33,2,,früh,,early,tôt,<br><br>früh ↔ spät,<br><br>früh ↔ spät,spät
 34,2,,billig,,cheap,bon marché,<br><br>billig ↔ teuer,<br><br>billig ↔ teuer,teuer
 35,2,,teuer,,expensive,cher,<br><br>teuer ↔ billig,<br><br>teuer ↔ billig,billig
-36,2,,normal,,normal,normale,,,
-37,2,,wahr,,true,vrai,,,
+36,2,,normal,,normal,normale,​,​,
+37,2,,wahr,,true,vrai,​,​,
 38,2,,heiß,,hot,chaud,<br><br>heiß ↔ kalt,<br><br>heiß ↔ kalt,kalt
 39,2,,kalt,,cold,froid,<br><br>kalt ↔ heiß,<br><br>kalt ↔ heiß,heiß
-40,2,,nett,,nice,"bon, gentils",,,
+40,2,,nett,,nice,"bon, gentils",​,​,
 41,3,,glücklich,,"happy, glad","heureux, content",<br><br>glücklich ↔ unglücklich,<br><br>glücklich ↔ unglücklich,unglücklich
-42,3,,traurig,,sad,triste,,,
+42,3,,traurig,,sad,triste,​,​,
 43,3,,unglücklich,,unhappy,malheureux,<br><br>unglücklich ↔ glücklich,<br><br>unglücklich ↔ glücklich,glücklich
 44,3,,viel,,much,beaucoup,<br><br>viel ↔ wenig,<br><br>viel ↔ wenig,wenig
 45,3,,wenig,,little,peu,<br><br>wenig ↔ viel,<br><br>wenig ↔ viel,viel
@@ -50,32 +50,32 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 49,3,,sauber,,clean,propre,<br><br>sauber ↔ schmutzig,<br><br>sauber ↔ schmutzig,schmutzig
 50,3,,weit,,far,loin,<br><br>weit ↔ nah,<br><br>weit ↔ nah,nah
 51,3,,nah,,"close, near","proche, près",<br><br>nah ↔ weit,<br><br>nah ↔ weit,weit
-52,3,,lustig,,funny,drôle,,,
+52,3,,lustig,,funny,drôle,​,​,
 53,3,,gesund,,healthy,"sain, en bonne santé",<br><br>gesund ↔ ungesund,<br><br>gesund ↔ ungesund,ungesund
-54,3,,müde,,tired,fatigué,,,
+54,3,,müde,,tired,fatigué,​,​,
 55,3,,dumm,,stupid,stupide,<br><br>dumm ↔ klug,<br><br>dumm ↔ klug,klug
 56,3,,klug,,smart,intelligent,<br><br>klug ↔ dumm,<br><br>klug ↔ dumm,dumm
-57,3,,letzte,,last,dernier,,,
-58,3,,erste,,first,premier,,,
+57,3,,letzte,,last,dernier,​,​,
+58,3,,erste,,first,premier,​,​,
 59,3,,stark,,strong,fort,<br><br>stark ↔ schwach,<br><br>stark ↔ schwach,schwach
 60,3,,schwach,,weak,faible,<br><br>schwach ↔ stark,<br><br>schwach ↔ stark,stark
-61,4,,krank,,sick,malade,,,
-62,4,,orange,,orange,orange,,,
-63,4,,rosa,,rose,rose,,,
-64,4,,lila,,purple,violet,,,
-65,4,,braun,,brown,brun,,,
-66,4,,deutsch,,german,allemand,,,
+61,4,,krank,,sick,malade,​,​,
+62,4,,orange,,orange,orange,​,​,
+63,4,,rosa,,rose,rose,​,​,
+64,4,,lila,,purple,violet,​,​,
+65,4,,braun,,brown,brun,​,​,
+66,4,,deutsch,,german,allemand,​,​,
 67,4,,möglich,,"possible, likely",possible,<br><br>möglich ↔ unmöglich,<br><br>möglich ↔ unmöglich,unmöglich
 68,4,,unmöglich,,"impossible, unlikely",impossible,<br><br>unmöglich ↔ möglich,<br><br>unmöglich ↔ möglich,möglich
 69,4,,klar,,clear,clair,<br><br>klar ↔ unklar,<br><br>klar ↔ unklar,unklar
 70,4,,schwer,,heavy,lourd,<br><br>schwer ↔ leicht,<br><br>schwer ↔ leicht,leicht
 71,4,,leicht,,light,léger,<br><br>leicht ↔ schwer,<br><br>leicht ↔ schwer,schwer
-72,4,,fertig,,finished,fini,,,
-73,4,,kulturell,,cultural,culturel,,,
-74,4,,aktuell,,current,actuel,,,
+72,4,,fertig,,finished,fini,​,​,
+73,4,,kulturell,,cultural,culturel,​,​,
+74,4,,aktuell,,current,actuel,​,​,
 75,4,,dunkel,,dark,sombre,<br><br>dunkel ↔ hell,<br><br>dunkel ↔ hell,hell
 76,4,,hell,,"bright, light, clear","clair, brillant",<br><br>hell ↔ dunkel,<br><br>hell ↔ dunkel,dunkel
-77,4,,praktisch,,practical,pratique,,,
+77,4,,praktisch,,practical,pratique,​,​,
 78,4,,ruhig,,"calm, quiet","calme, silencieux",<br><br>ruhig ↔ unruhig,<br><br>ruhig ↔ unruhig,unruhig
 79,4,,leise,,"quiet, soft",silencieux,<br><br>leise ↔ laut,<br><br>leise ↔ laut,laut
 80,4,,laut,,loud,fort,<br><br>laut ↔ leise,<br><br>laut ↔ leise,leise
@@ -89,12 +89,12 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 88,5,,weich,,soft,doux,<br><br>weich ↔ hart,<br><br>weich ↔ hart,hart
 89,5,,toll,,great,super,<br><br>toll ↔ schrecklich,<br><br>toll ↔ schrecklich,schrecklich
 90,5,,schrecklich,,terrible,terrible,<br><br>schrecklich ↔ toll,<br><br>schrecklich ↔ toll,toll
-91,5,,wunderbar,,wonderful,merveilleux,,,
+91,5,,wunderbar,,wonderful,merveilleux,​,​,
 92,5,,häufig,,frequent,fréquent,<br><br>häufig ↔ selten,<br><br>häufig ↔ selten,selten
 93,5,,selten,,rare,rare,<br><br>selten ↔ häufig,<br><br>selten ↔ häufig,häufig
 94,5,,sicher,,"safe, secure","sûr, sécurisé",<br><br>sicher ↔ unsicher,<br><br>sicher ↔ unsicher,unsicher
-95,5,,kostenlos,,free of charge,gratuit,,,
-96,5,,ähnlich,,similar,similaire,,,
+95,5,,kostenlos,,free of charge,gratuit,​,​,
+96,5,,ähnlich,,similar,similaire,​,​,
 97,5,,dick,,"thick, fat, swollen",épais,<br><br>dick ↔ dünn,<br><br>dick ↔ dünn,dünn
 98,5,,dünn,,thin,mince,<br><br>dünn ↔ dick,<br><br>dünn ↔ dick,dick
 99,5,,warm,,warm,"chaud, doux",<br><br>warm ↔ kühl,<br><br>warm ↔ kühl,kühl
@@ -105,20 +105,20 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 104,6,,interessant,,interesting,intéressant,<br><br>interessant ↔ langweilig,<br><br>interessant ↔ langweilig,langweilig
 105,6,,langweilig,,boring,ennuyeux,<br><br>langweilig ↔ interessant,<br><br>langweilig ↔ interessant,interessant
 106,6,,erfolgreich,,successful,"réussi, prospère, fructueux",<br><br>erfolgreich ↔ erfolglos,<br><br>erfolgreich ↔ erfolglos,erfolglos
-107,6,,komisch,,"strange, funny","étrange, drôle",,,
+107,6,,komisch,,"strange, funny","étrange, drôle",​,​,
 108,6,,faul,,lazy,paresseux,<br><br>faul ↔ fleißig,<br><br>faul ↔ fleißig,fleißig
 109,6,,fleißig,,hardworking,diligent,<br><br>fleißig ↔ faul,<br><br>fleißig ↔ faul,faul
-110,6,,sonnig,,sunny,ensoleillé,,,
-111,6,,neblig,,foggy,brumeux,,,
-112,6,,windig,,windy,venteux,,,
-113,6,,bewölkt,,cloudy,nuageux,,,
+110,6,,sonnig,,sunny,ensoleillé,​,​,
+111,6,,neblig,,foggy,brumeux,​,​,
+112,6,,windig,,windy,venteux,​,​,
+113,6,,bewölkt,,cloudy,nuageux,​,​,
 114,6,,öffentlich,,public,publique,<br><br>öffentlich ↔ privat,<br><br>öffentlich ↔ privat,privat
 115,6,,privat,,private,privé,<br><br>privat ↔ öffentlich,<br><br>privat ↔ öffentlich,öffentlich
-116,6,,bitter,,bitter,amer,,,
-117,6,,süß,,sweet,sucré,,,
-118,6,,scharf,,spicy,épicé,,,
-119,6,,sauer,,sour,aigre,,,
-120,6,,salzig,,salty,salé,,,
+116,6,,bitter,,bitter,amer,​,​,
+117,6,,süß,,sweet,sucré,​,​,
+118,6,,scharf,,spicy,épicé,​,​,
+119,6,,sauer,,sour,aigre,​,​,
+120,6,,salzig,,salty,salé,​,​,
 121,7,,modern,,modern,moderne,<br><br>modern ↔ traditionell,<br><br>modern ↔ traditionell,traditionell
 122,7,,traditionell,,traditional,traditionnel,<br><br>traditionell ↔ modern,<br><br>traditionell ↔ modern,modern
 123,7,,notwendig,,necessary,nécessaire,<br><br>notwendig ↔ unnötig,<br><br>notwendig ↔ unnötig,unnötig
@@ -126,353 +126,353 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 125,7,,nutzlos,,useless,inutile,<br><br>nutzlos ↔ nützlich,<br><br>nutzlos ↔ nützlich,nützlich
 126,7,,nützlich,,useful,utile,<br><br>nützlich ↔ nutzlos,<br><br>nützlich ↔ nutzlos,nutzlos
 127,7,,sympathisch,,sympathetic,sympathique,<br><br>sympathisch ↔ unsympathisch,<br><br>sympathisch ↔ unsympathisch,unsympathisch
-128,7,,eigen,,own,propre (le sien),,,
-129,7,,tot,,dead,mort,,,
-130,7,,lieb,,lovely,"cher, gentil",,,
-131,7,,genau,,precise,précis,,,
-132,7,,deutlich,,"articulate, clear, distinct, considerable","clair, notable, évident",,,
-133,7,,tief,,deep,profond,,,
-134,7,,echt,,"real, genuine",réel,,,
+128,7,,eigen,,own,propre (le sien),​,​,
+129,7,,tot,,dead,mort,​,​,
+130,7,,lieb,,lovely,"cher, gentil",​,​,
+131,7,,genau,,precise,précis,​,​,
+132,7,,deutlich,,"articulate, clear, distinct, considerable","clair, notable, évident",​,​,
+133,7,,tief,,deep,profond,​,​,
+134,7,,echt,,"real, genuine",réel,​,​,
 135,7,,direkt,,direct,direct,<br><br>direkt ↔ indirekt,<br><br>direkt ↔ indirekt,indirekt
 136,7,,indirekt,,indirect,indirect,<br><br>indirekt ↔ direkt,<br><br>indirekt ↔ direkt,direkt
-137,7,,allgemein,,general,général,,,
-138,7,,einzig,,"unique, only, sole","unique, seul",,,
-139,7,,gemeinsam,,"common, collective","commun, collectif",,,
-140,7,,tatsächlich,,actual,"effectif, réel",,,
-141,8,,zusätzlich,,additional,supplémentaire,,,
+137,7,,allgemein,,general,général,​,​,
+138,7,,einzig,,"unique, only, sole","unique, seul",​,​,
+139,7,,gemeinsam,,"common, collective","commun, collectif",​,​,
+140,7,,tatsächlich,,actual,"effectif, réel",​,​,
+141,8,,zusätzlich,,additional,supplémentaire,​,​,
 142,8,,aktiv,,active,actif,<br><br>aktiv ↔ passiv,<br><br>aktiv ↔ passiv,passiv
 143,8,,passiv,,passive,passif,<br><br>passiv ↔ aktiv,<br><br>passiv ↔ aktiv,aktiv
 144,8,,automatisch,,automatic,automatique,<br><br>automatisch ↔ manuell,<br><br>automatisch ↔ manuell,manuell
 145,8,,manuell,,manual,manuel,<br><br>manuell ↔ automatisch,<br><br>manuell ↔ automatisch,automatisch
-146,8,,persönlich,,personal,personnel,,,
+146,8,,persönlich,,personal,personnel,​,​,
 147,8,,weiblich,,feminine,féminin,<br><br>weiblich ↔ männlich,<br><br>weiblich ↔ männlich,männlich
 148,8,,männlich,,male,mâle,<br><br>männlich ↔ weiblich,<br><br>männlich ↔ weiblich,weiblich
 149,8,,arbeitslos,,unemployed,"sans emploi, au chômage",<br><br>arbeitslos ↔ berufstätig,<br><br>arbeitslos ↔ berufstätig,berufstätig
 150,8,,streng,,strict,strict,<br><br>streng ↔ flexibel,<br><br>streng ↔ flexibel,flexibel
 151,8,,flexibel,,flexible,flexible,<br><br>flexibel ↔ streng,<br><br>flexibel ↔ streng,streng
-152,8,,frisch,,fresh,frais,,,
+152,8,,frisch,,fresh,frais,​,​,
 153,8,,willkommen,,welcome,accueilli,<br><br>willkommen ↔ unwillkommen,<br><br>willkommen ↔ unwillkommen,unwillkommen
-154,8,,bunt,,colorful,coloré,,,
+154,8,,bunt,,colorful,coloré,​,​,
 155,8,,freiwillig,,voluntary,volontaire,<br><br>freiwillig ↔ unfreiwillig,<br><br>freiwillig ↔ unfreiwillig,unfreiwillig
-156,8,,fest,,firm,ferme,,,
-157,8,,gleichzeitig,,simultaneous,simultané,,,
-158,8,,knapp,,"scarce, short","rare, court",,,
-159,8,,menschlich,,human,humain,,,
-160,8,,offenbar,,"obvious, evident",évident,,,
-161,9,,fremd,,foreign,étranger,,,
-162,9,,ständig,,constant,constante,,,
-163,9,,zahlreich,,numerous,nombreux,,,
-164,9,,üblich,,usual,habituel,,,
-165,9,,übrig,,remaining,restant,,,
-166,9,,sportlich,,athletic,athlétique,,,
-167,9,,typisch,,typical,typique,,,
-168,9,,individuell,,individual,individuel,,,
+156,8,,fest,,firm,ferme,​,​,
+157,8,,gleichzeitig,,simultaneous,simultané,​,​,
+158,8,,knapp,,"scarce, short","rare, court",​,​,
+159,8,,menschlich,,human,humain,​,​,
+160,8,,offenbar,,"obvious, evident",évident,​,​,
+161,9,,fremd,,foreign,étranger,​,​,
+162,9,,ständig,,constant,constante,​,​,
+163,9,,zahlreich,,numerous,nombreux,​,​,
+164,9,,üblich,,usual,habituel,​,​,
+165,9,,übrig,,remaining,restant,​,​,
+166,9,,sportlich,,athletic,athlétique,​,​,
+167,9,,typisch,,typical,typique,​,​,
+168,9,,individuell,,individual,individuel,​,​,
 169,9,,positiv,,positive,positif,<br><br>positiv ↔ negativ,<br><br>positiv ↔ negativ,negativ
 170,9,,negativ,,negative,négatif,<br><br>negativ ↔ positiv,<br><br>negativ ↔ positiv,positiv
-171,9,,herzlich,,"warm, cordial","chaleureux, cordial",,,
-172,9,,böse,,"evil, angry","méchant, en colère",,,
+171,9,,herzlich,,"warm, cordial","chaleureux, cordial",​,​,
+172,9,,böse,,"evil, angry","méchant, en colère",​,​,
 173,9,,bequem,,"comfortable, convenient","confortable, pratique",<br><br>bequem ↔ unbequem,<br><br>bequem ↔ unbequem,unbequem
-174,9,,natürlich,,"natural, self-evident","naturel, évident",,,
+174,9,,natürlich,,"natural, self-evident","naturel, évident",​,​,
 175,9,,gültig,,valid,valide,<br><br>gültig ↔ ungültig,<br><br>gültig ↔ ungültig,ungültig
 176,9,,angenehm,,"pleasant, pleasing",agréable,<br><br>angenehm ↔ unangenehm,<br><br>angenehm ↔ unangenehm,unangenehm
 177,9,,aufmerksam,,attentive,attentif,<br><br>aufmerksam ↔ unaufmerksam,<br><br>aufmerksam ↔ unaufmerksam,unaufmerksam
-178,9,,bereit,,ready,prêt,,,
+178,9,,bereit,,ready,prêt,​,​,
 179,9,,gefährlich,,dangerous,dangereux,<br><br>gefährlich ↔ ungefährlich,<br><br>gefährlich ↔ ungefährlich,ungefährlich
-180,9,,beruflich,,professional,professionnel,,,
+180,9,,beruflich,,professional,professionnel,​,​,
 181,10,,ehrlich,,honest,honnête,<br><br>ehrlich ↔ unehrlich,<br><br>ehrlich ↔ unehrlich,unehrlich
-182,10,,ernst,,serious,sérieux,,,
-183,10,,extrem,,extreme,extrêmement,,,
-184,10,,stolz,,proud,fier,,,
+182,10,,ernst,,serious,sérieux,​,​,
+183,10,,extrem,,extreme,extrêmement,​,​,
+184,10,,stolz,,proud,fier,​,​,
 185,10,,riesig,,huge,énorme,<br><br>riesig ↔ winzig,<br><br>riesig ↔ winzig,winzig
 186,10,,winzig,,tiny,minuscule,<br><br>winzig ↔ riesig,<br><br>winzig ↔ riesig,riesig
 187,10,,sichtbar,,visible,visible,<br><br>sichtbar ↔ unsichtbar,<br><br>sichtbar ↔ unsichtbar,unsichtbar
 188,10,,unsichtbar,,invisible,invisible,<br><br>unsichtbar ↔ sichtbar,<br><br>unsichtbar ↔ sichtbar,sichtbar
-189,10,,verantwortlich,,responsible,responsable,,,
-190,10,,ordentlich,,orderly,ordonné,,,
-191,10,,pünktlich,,punctual,ponctuel,,,
-192,10,,nervös,,nervous,nerveux,,,
-193,10,,kaputt,,broken,cassé,,,
-194,10,,furchtbar,,terrible,terrible,,,
-195,10,,schwanger,,pregnant,enceinte,,,
-196,10,,dankbar,,grateful,reconnaissant,,,
-197,10,,fett,,fat,gras,,,
-198,10,,stressig,,stressful,stressant,,,
-199,10,,neugierig,,"curious, eager",curieux,,,
-200,10,,mutig,,courageous,courageux,,,
+189,10,,verantwortlich,,responsible,responsable,​,​,
+190,10,,ordentlich,,orderly,ordonné,​,​,
+191,10,,pünktlich,,punctual,ponctuel,​,​,
+192,10,,nervös,,nervous,nerveux,​,​,
+193,10,,kaputt,,broken,cassé,​,​,
+194,10,,furchtbar,,terrible,terrible,​,​,
+195,10,,schwanger,,pregnant,enceinte,​,​,
+196,10,,dankbar,,grateful,reconnaissant,​,​,
+197,10,,fett,,fat,gras,​,​,
+198,10,,stressig,,stressful,stressant,​,​,
+199,10,,neugierig,,"curious, eager",curieux,​,​,
+200,10,,mutig,,courageous,courageux,​,​,
 201,11,,höflich,,"polite, courteous","poli, courtois",<br><br>höflich ↔ unhöflich,<br><br>höflich ↔ unhöflich,unhöflich
 202,11,,unhöflich,,"rude, impolite","malpoli, impoli",<br><br>unhöflich ↔ höflich,<br><br>unhöflich ↔ höflich,höflich
-203,11,,ärgerlich,,annoying,ennuyeux,,,
-204,11,,ledig,,"single, celibate",célibataire,,,
-205,11,,verheiratet,,married,marié,,,
-206,11,,geschieden,,"separated, divorced","séparé, divorcé",,,
-207,11,,lecker,,tasty,savoureux,,,
+203,11,,ärgerlich,,annoying,ennuyeux,​,​,
+204,11,,ledig,,"single, celibate",célibataire,​,​,
+205,11,,verheiratet,,married,marié,​,​,
+206,11,,geschieden,,"separated, divorced","séparé, divorcé",​,​,
+207,11,,lecker,,tasty,savoureux,​,​,
 208,11,,offiziell,,official,officiel,<br><br>offiziell ↔ inoffiziell,<br><br>offiziell ↔ inoffiziell,inoffiziell
 209,11,,unabhängig,,independent,indépendant,<br><br>unabhängig ↔ abhängig,<br><br>unabhängig ↔ abhängig,abhängig
 210,11,,abhängig,,dependent,dépendant,<br><br>abhängig ↔ unabhängig,<br><br>abhängig ↔ unabhängig,unabhängig
-211,11,,gemütlich,,"cozy, comfortable","douillet, confortable",,,
+211,11,,gemütlich,,"cozy, comfortable","douillet, confortable",​,​,
 212,11,,optimistisch,,optimistic,optimiste,<br><br>optimistisch ↔ pessimistisch,<br><br>optimistisch ↔ pessimistisch,pessimistisch
 213,11,,pessimistisch,,pessimistic,pessimiste,<br><br>pessimistisch ↔ optimistisch,<br><br>pessimistisch ↔ optimistisch,optimistisch
 214,11,,realistisch,,realistic,réaliste,<br><br>realistisch ↔ unrealistisch,<br><br>realistisch ↔ unrealistisch,unrealistisch
 215,11,,offen,,"open, honest","ouvert, franc",<br><br>offen ↔ geschlossen,<br><br>offen ↔ geschlossen,geschlossen
 216,11,,geschlossen,,closed,fermé,<br><br>geschlossen ↔ offen,<br><br>geschlossen ↔ offen,offen
-217,11,,verschieden,,"different, various","divers, différent",,,
+217,11,,verschieden,,"different, various","divers, différent",​,​,
 218,11,,halb,,half,demi,<br><br>halb ↔ doppelt,<br><br>halb ↔ doppelt,doppelt
 219,11,,doppelt,,double,double,<br><br>doppelt ↔ halb,<br><br>doppelt ↔ halb,halb
-220,11,,kreativ,,creative,créatif,,,
+220,11,,kreativ,,creative,créatif,​,​,
 221,12,günstig,billig,günstig,cheap,bon marché,<br><br>billig ↔ ungünstig,<br><br>billig ↔ ungünstig,ungünstig
 222,12,wahrscheinlich,möglich,wahrscheinlich,"possible, likely",possible,<br><br>möglich ↔ unwahrscheinlich,<br><br>möglich ↔ unwahrscheinlich,unwahrscheinlich
-223,12,schlimm,schlecht,schlimm,bad,mauvais,,,
-224,12,froh,glücklich,froh,"happy, glad","heureux, content",,,
-225,12,super,toll,super,great,super,,,
-226,12,erforderlich,notwendig,erforderlich,necessary,nécessaire,,,
-227,12,nötig,notwendig,nötig,necessary,nécessaire,,,
-228,12,zuständig,verantwortlich,zuständig,responsible,responsable,,,
-229,12,schmal,eng,schmal,"tight, narrow","étroit, serré",,,
-230,12,völlig,ganz,völlig,"whole, entire, complete","entier, complet",,,
-231,12,klasse,toll,klasse,great,super,,,
-232,12,wunderschön,schön,wunderschön,beautiful,beau,,,
-233,12,intelligent,klug,intelligent,smart,intelligent,,,
-234,12,blöd,dumm,blöd,stupid,stupide,,,
-235,12,seltsam,komisch,seltsam,"strange, funny","étrange, drôle",,,
-236,12,einzeln,einzig,einzeln,"unique, only, sole","unique, seul",,,
-237,12,korrekt,richtig,korrekt,"right, correct","correct, juste",,,
-238,12,unterschiedlich,anders,unterschiedlich,"other, different","autre, différent",,,
-239,13,,biologisch,,biological,biologique,,,
-240,13,,frech,,cheeky,"effronté, insolent",,,
+223,12,schlimm,schlecht,schlimm,bad,mauvais,​,​,
+224,12,froh,glücklich,froh,"happy, glad","heureux, content",​,​,
+225,12,super,toll,super,great,super,​,​,
+226,12,erforderlich,notwendig,erforderlich,necessary,nécessaire,​,​,
+227,12,nötig,notwendig,nötig,necessary,nécessaire,​,​,
+228,12,zuständig,verantwortlich,zuständig,responsible,responsable,​,​,
+229,12,schmal,eng,schmal,"tight, narrow","étroit, serré",​,​,
+230,12,völlig,ganz,völlig,"whole, entire, complete","entier, complet",​,​,
+231,12,klasse,toll,klasse,great,super,​,​,
+232,12,wunderschön,schön,wunderschön,beautiful,beau,​,​,
+233,12,intelligent,klug,intelligent,smart,intelligent,​,​,
+234,12,blöd,dumm,blöd,stupid,stupide,​,​,
+235,12,seltsam,komisch,seltsam,"strange, funny","étrange, drôle",​,​,
+236,12,einzeln,einzig,einzeln,"unique, only, sole","unique, seul",​,​,
+237,12,korrekt,richtig,korrekt,"right, correct","correct, juste",​,​,
+238,12,unterschiedlich,anders,unterschiedlich,"other, different","autre, différent",​,​,
+239,13,,biologisch,,biological,biologique,​,​,
+240,13,,frech,,cheeky,"effronté, insolent",​,​,
 241,13,,ungünstig,,unfavorable,défavorable,<br><br>ungünstig ↔ günstig,<br><br>ungünstig ↔ günstig,günstig
 242,13,,zukünftig,,future,futur,<br><br>zukünftig ↔ vergangen,<br><br>zukünftig ↔ vergangen,vergangen
 243,13,,regelmäßig,,regular,régulier,<br><br>regelmäßig ↔ unregelmäßig,<br><br>regelmäßig ↔ unregelmäßig,unregelmäßig
 244,13,,unregelmäßig,,irregular,irrégulier,<br><br>unregelmäßig ↔ regelmäßig,<br><br>unregelmäßig ↔ regelmäßig,regelmäßig
-245,13,,endgültig,,"final, ultimate, definitive","final, définitif",,,
-246,13,,perfekt,,perfect,parfait,,,
-247,13,,ursprünglich,,original,original,,,
-248,13,,einsam,,lonely,solitaire,,,
+245,13,,endgültig,,"final, ultimate, definitive","final, définitif",​,​,
+246,13,,perfekt,,perfect,parfait,​,​,
+247,13,,ursprünglich,,original,original,​,​,
+248,13,,einsam,,lonely,solitaire,​,​,
 249,13,,vergangen,,past,passé,<br><br>vergangen ↔ zukünftig,<br><br>vergangen ↔ zukünftig,zukünftig
-250,13,,kürzlich,,recent,récent,,,
+250,13,,kürzlich,,recent,récent,​,​,
 251,13,,flach,,"flat, shallow","plat, superficiel",<br><br>flach ↔ steil,<br><br>flach ↔ steil,steil
 252,13,,steil,,steep,raide,<br><br>steil ↔ flach,<br><br>steil ↔ flach,flach
-253,13,,besondere,,special,spécial,,,
-254,13,,körperlich,,physical,physique,,,
+253,13,,besondere,,special,spécial,​,​,
+254,13,,körperlich,,physical,physique,​,​,
 255,13,,sinnvoll,,sensible,sensible,<br><br>sinnvoll ↔ sinnlos,<br><br>sinnvoll ↔ sinnlos,sinnlos
 256,13,,sinnlos,,pointless,inutile,<br><br>sinnlos ↔ sinnvoll,<br><br>sinnlos ↔ sinnvoll,sinnvoll
 257,13,,rechtlich,,legal,légal,<br><br>rechtlich ↔ illegal,<br><br>rechtlich ↔ illegal,illegal
 258,13,,illegal,,illegal,illégal,<br><br>illegal ↔ rechtlich,<br><br>illegal ↔ rechtlich,rechtlich
 259,14,,unsicher,,unsure,incertain,<br><br>unsicher ↔ sicher,<br><br>unsicher ↔ sicher,sicher
-260,14,,wild,,wild,sauvage,,,
-261,14,,intensiv,,intensive,intensif,,,
-262,14,,durchschnittlich,,average,moyenne,,,
-263,14,,alltäglich,,everyday,tous les jours,,,
-264,14,,hübsch,,pretty,joli,,,
-265,14,,treu,,loyal,loyal,,,
+260,14,,wild,,wild,sauvage,​,​,
+261,14,,intensiv,,intensive,intensif,​,​,
+262,14,,durchschnittlich,,average,moyenne,​,​,
+263,14,,alltäglich,,everyday,tous les jours,​,​,
+264,14,,hübsch,,pretty,joli,​,​,
+265,14,,treu,,loyal,loyal,​,​,
 266,14,,schriftlich,,written,écrit,<br><br>schriftlich ↔ mündlich,<br><br>schriftlich ↔ mündlich,mündlich
 267,14,,mündlich,,oral,oral,<br><br>mündlich ↔ schriftlich,<br><br>mündlich ↔ schriftlich,schriftlich
-268,14,,selbstständig,,"self-employed, independent","autonome, indépendant, à son compte",,,
-269,14,,finanziell,,financial,financier,,,
-270,14,,historisch,,historical,historisch,,,
-271,14,,technisch,,technical,technique,,,
+268,14,,selbstständig,,"self-employed, independent","autonome, indépendant, à son compte",​,​,
+269,14,,finanziell,,financial,financier,​,​,
+270,14,,historisch,,historical,historisch,​,​,
+271,14,,technisch,,technical,technique,​,​,
 272,14,,wesentlich,,"essential, substantial",essentiel,<br><br>wesentlich ↔ unwesentlich,<br><br>wesentlich ↔ unwesentlich,unwesentlich
-273,14,,wirtschaftlich,,economic,économique,,,
-274,14,,elektronisch,,electronic,électronique,,,
-275,14,,kritisch,,critical,critique,,,
-276,14,,unbedingt,,"absolute, unconditional","inconditionnel, absolu",,,
-277,14,,dicht,,dense,dense,,,
-278,14,,ewig,,eternal,éternel,,,
-279,15,,künstlich,,artificial,artificiel,,,
-280,15,,ideal,,ideal,idéal,,,
-281,15,,relativ,,relative,relatif,,,
-282,15,,musikalisch,,musical,musical,,,
+273,14,,wirtschaftlich,,economic,économique,​,​,
+274,14,,elektronisch,,electronic,électronique,​,​,
+275,14,,kritisch,,critical,critique,​,​,
+276,14,,unbedingt,,"absolute, unconditional","inconditionnel, absolu",​,​,
+277,14,,dicht,,dense,dense,​,​,
+278,14,,ewig,,eternal,éternel,​,​,
+279,15,,künstlich,,artificial,artificiel,​,​,
+280,15,,ideal,,ideal,idéal,​,​,
+281,15,,relativ,,relative,relatif,​,​,
+282,15,,musikalisch,,musical,musical,​,​,
 283,15,,städtisch,,urban,urbain,<br><br>städtisch ↔ ländlich,<br><br>städtisch ↔ ländlich,ländlich
 284,15,,ländlich,,rural,rural,<br><br>ländlich ↔ stadtisch,<br><br>ländlich ↔ stadtisch,stadtisch
-285,15,,ungefähr,,approximate,"approximate, proche",,,
-286,15,,unglaublich,,unbelievable,incroyable,,,
+285,15,,ungefähr,,approximate,"approximate, proche",​,​,
+286,15,,unglaublich,,unbelievable,incroyable,​,​,
 287,15,,wertvoll,,valuable,précieux,<br><br>wertvoll ↔ wertlos,<br><br>wertvoll ↔ wertlos,wertlos
 288,15,,wertlos,,worthless,sans valeur,<br><br>wertlos ↔ wertvoll,<br><br>wertlos ↔ wertvoll,wertvoll
 289,15,,maximal,,"maximum, maximal",maximal,<br><br>maximal ↔ minimal,<br><br>maximal ↔ minimal,minimal
 290,15,,minimal,,minimal,minimal,<br><br>minimal ↔ maximal,<br><br>minimal ↔ maximal,maximal
-291,15,,geheim,,secret,secret,,,
-292,15,,zufällig,,random,"aléatoire, fortuit",,,
-293,15,,fit,,fit,"en forme, fit",,,
+291,15,,geheim,,secret,secret,​,​,
+292,15,,zufällig,,random,"aléatoire, fortuit",​,​,
+293,15,,fit,,fit,"en forme, fit",​,​,
 294,15,,schädlich,,harmful,nocif,<br><br>schädlich ↔ harmlos,<br><br>schädlich ↔ harmlos,harmlos
 295,15,,harmlos,,harmless,inoffensif,<br><br>harmlos ↔ schädlich,<br><br>harmlos ↔ schädlich,schädlich
 296,15,,anwesend,,present,présent,<br><br>anwesend ↔ abwesend,<br><br>anwesend ↔ abwesend,abwesend
 297,15,,abwesend,,absent,absent,<br><br>abwesend ↔ anwesend,<br><br>abwesend ↔ anwesend,anwesend
 298,15,,berufstätig,,"employed, working","actif, employé",<br><br>berufstätig ↔ arbeitslos,<br><br>berufstätig ↔ arbeitslos,arbeitslos
-299,16,,elegant,,elegant,élégant,,,
+299,16,,elegant,,elegant,élégant,​,​,
 300,16,,fair,,fair,"juste, équitable",<br><br>fair ↔ unfair,<br><br>fair ↔ unfair,unfair
 301,16,,unfair,,unfair,"injuste, inéquitable",<br><br>unfair ↔ fair,<br><br>unfair ↔ fair,fair
-302,16,,fällig,,due,exigible,,,
-303,16,,gewöhnlich,,ordinary,"ordinaire, habituel",,,
-304,16,,ungewöhnlich,,unusual,inhabituel,,,
+302,16,,fällig,,due,exigible,​,​,
+303,16,,gewöhnlich,,ordinary,"ordinaire, habituel",​,​,
+304,16,,ungewöhnlich,,unusual,inhabituel,​,​,
 305,16,,glatt,,"smooth, slippery",lisse,<br><br>glatt ↔ grob,<br><br>glatt ↔ grob,grob
 306,16,,grob,,rough,grossier,<br><br>grob ↔ glatt,<br><br>grob ↔ glatt,glatt
-307,16,,gründlich,,thorough,"minutieux, rigoureux",,,
-308,16,,rechtzeitig,,"timely, punctual",opportun,,,
+307,16,,gründlich,,thorough,"minutieux, rigoureux",​,​,
+308,16,,rechtzeitig,,"timely, punctual",opportun,​,​,
 309,16,,schuldig,,guilty,coupable,<br><br>schuldig ↔ unschuldig,<br><br>schuldig ↔ unschuldig,unschuldig
 310,16,,unschuldig,,innocent,innocent,<br><br>unschuldig ↔ schuldig,<br><br>unschuldig ↔ schuldig,schuldig
-311,16,,vernünftig,,reasonable,raisonnable,,,
-312,16,,voraussichtlich,,"expected, anticipated","prévu, anticipé",,,
+311,16,,vernünftig,,reasonable,raisonnable,​,​,
+312,16,,voraussichtlich,,"expected, anticipated","prévu, anticipé",​,​,
 313,16,,zuverlässig,,reliable,fiable,<br><br>zuverlässig ↔ unzuverlässig,<br><br>zuverlässig ↔ unzuverlässig,unzuverlässig
-314,16,,sparsam,,frugal,économe,,,
-315,16,,gesamt,,"total, entire","total, complet",,,
-316,16,,giftig,,toxic,toxique,,,
-317,16,,satt,,full,rassasié,,,
-318,16,,haltbar,,durable,"durable, résistant",,,
-319,17,,unhaltbar,,untenable,intenable,,,
-320,17,,schick,,chic,chic,,,
-321,17,,vegetarisch,,vegetarian,végétarien,,,
-322,17,,ängstlich,,anxious,craintif,,,
-323,17,,wach,,awake,éveillé,,,
-324,17,,blass,,pale,pâle,,,
-325,17,,weiter,,further,"plus loin, lointain",,,
+314,16,,sparsam,,frugal,économe,​,​,
+315,16,,gesamt,,"total, entire","total, complet",​,​,
+316,16,,giftig,,toxic,toxique,​,​,
+317,16,,satt,,full,rassasié,​,​,
+318,16,,haltbar,,durable,"durable, résistant",​,​,
+319,17,,unhaltbar,,untenable,intenable,​,​,
+320,17,,schick,,chic,chic,​,​,
+321,17,,vegetarisch,,vegetarian,végétarien,​,​,
+322,17,,ängstlich,,anxious,craintif,​,​,
+323,17,,wach,,awake,éveillé,​,​,
+324,17,,blass,,pale,pâle,​,​,
+325,17,,weiter,,further,"plus loin, lointain",​,​,
 326,17,,ehemalig,,former,ancien,<br><br>ehemalig ↔ nächste,<br><br>ehemalig ↔ nächste,nächste
 327,17,,nächste,,next,suivant,<br><br>nächste ↔ ehemalig,<br><br>nächste ↔ ehemalig,ehemalig
-328,17,,gesellschaftlich,,"social, societal","social, sociétale",,,
-329,17,,heutig,,"today's, contemporary","actuel, d'aujourd'hui",,,
-330,17,,konkret,,"concrete, specific",concret,,,
-331,17,,plötzlich,,sudden,soudain,,,
-332,17,,täglich,,daily,quotidien,,,
-333,17,,jährlich,,yearly,annuel,,,
-334,17,,monatlich,,monthly,mensuel,,,
-335,17,,wöchentlich,,weekly,hebdomadaire,,,
-336,17,,grundsätzlich,,"basic, fundamental",fondamental,,,
+328,17,,gesellschaftlich,,"social, societal","social, sociétale",​,​,
+329,17,,heutig,,"today's, contemporary","actuel, d'aujourd'hui",​,​,
+330,17,,konkret,,"concrete, specific",concret,​,​,
+331,17,,plötzlich,,sudden,soudain,​,​,
+332,17,,täglich,,daily,quotidien,​,​,
+333,17,,jährlich,,yearly,annuel,​,​,
+334,17,,monatlich,,monthly,mensuel,​,​,
+335,17,,wöchentlich,,weekly,hebdomadaire,​,​,
+336,17,,grundsätzlich,,"basic, fundamental",fondamental,​,​,
 337,17,,langfristig,,long-term,à long terme ,<br><br>langfristig ↔ kurzfristig,<br><br>langfristig ↔ kurzfristig,kurzfristig
-338,17,,hungrig,,hungry,affamé,,,
-339,18,,durstig,,thirsty,assoiffé,,,
+338,17,,hungrig,,hungry,affamé,​,​,
+339,18,,durstig,,thirsty,assoiffé,​,​,
 340,18,,kurzfristig,,short-term,à court terme,<br><br>kurzfristig ↔ langfristig,<br><br>kurzfristig ↔ langfristig,langfristig
-341,18,,unbekannt,,unknown,inconnu,,,
-342,18,,bekannt,,known,connu,,,
-343,18,,attraktiv,,attractive,attrayant,,,
+341,18,,unbekannt,,unknown,inconnu,​,​,
+342,18,,bekannt,,known,connu,​,​,
+343,18,,attraktiv,,attractive,attrayant,​,​,
 344,18,,egal,,"unimportant, all the same","sans importance, égal",<br><br>egal ↔ wichtig,<br><br>egal ↔ wichtig,wichtig
 345,18,,rein,,pure,pur,<br><br>rein ↔ unrein,<br><br>rein ↔ unrein,unrein
-346,18,,wissenschaftlich,,scientific,scientifique,,,
-347,18,,eilig,,hurry,"pressé, urgent",,,
-348,18,,gegenseitig,,"mutual, reciprocal, opposite","réciproque, mutuel",,,
-349,18,,rund,,round,rond,,,
-350,18,,blond,,blond,blond,,,
-351,18,,vielfältig,,"diverse, varied","varié, divers",,,
-352,18,,nachhaltig,,"sustainable, lasting",durable,,,
-353,18,,mild,,mild,doux,,,
-354,18,,kräftig,,vigorous,"fort, vigoureux",,,
+346,18,,wissenschaftlich,,scientific,scientifique,​,​,
+347,18,,eilig,,"in a hurry, urgent","pressé, urgent",​,​,
+348,18,,gegenseitig,,"mutual, reciprocal, opposite","réciproque, mutuel",​,​,
+349,18,,rund,,round,rond,​,​,
+350,18,,blond,,blond,blond,​,​,
+351,18,,vielfältig,,"diverse, varied","varié, divers",​,​,
+352,18,,nachhaltig,,"sustainable, lasting",durable,​,​,
+353,18,,mild,,mild,doux,​,​,
+354,18,,kräftig,,vigorous,"fort, vigoureux",​,​,
 355,18,,heilig,,holy,sacré,<br><br>heilig ↔ unheilig,<br><br>heilig ↔ unheilig,unheilig
-356,18,,peinlich,,awkward,"embarrassant, gênant",,,
-357,18,,verfügbar,,"available, at hand","disponible, accessible",,,
-358,18,,vorsichtig,,"careful, cautious","prudent, vigilant",,,
-359,19,,lebendig,,"alive, lively","vivant, vif",,,
-360,19,,moralisch,,moral,moral,,,
-361,19,,empfindlich,,sensitive,sensible,,,
+356,18,,peinlich,,awkward,"embarrassant, gênant",​,​,
+357,18,,verfügbar,,"available, at hand","disponible, accessible",​,​,
+358,18,,vorsichtig,,"careful, cautious","prudent, vigilant",​,​,
+359,19,,lebendig,,"alive, lively","vivant, vif",​,​,
+360,19,,moralisch,,moral,moral,​,​,
+361,19,,empfindlich,,sensitive,sensible,​,​,
 362,19,,beliebt,,popular,populaire,<br><br>beliebt ↔ unbeliebt,<br><br>beliebt ↔ unbeliebt,unbeliebt
 363,19,,unbeliebt,,impopular,impopulaire,<br><br>unbeliebt ↔ beliebt,<br><br>unbeliebt ↔ beliebt,beliebt
-364,19,,großzügig,,generous,généreux,,,
-365,19,,berühmt,,famous,célèbre,,,
-366,19,,bescheiden,,modest,modeste,,,
-367,19,,eifersüchtig,,"jealous, envious","jaloux, envieux",,,
-368,19,,geboren,,born,né,,,
+364,19,,großzügig,,generous,généreux,​,​,
+365,19,,berühmt,,famous,célèbre,​,​,
+366,19,,bescheiden,,modest,modeste,​,​,
+367,19,,eifersüchtig,,"jealous, envious","jaloux, envieux",​,​,
+368,19,,geboren,,born,né,​,​,
 369,19,,kompliziert,,complicated,compliqué,<br><br>kompliziert ↔ unkompliziert,<br><br>kompliziert ↔ unkompliziert,unkompliziert
-370,19,,anstrengend,,exhausting,épuisant,,,
-371,19,,entscheidend,,"decisive, crucial",décisif,,,
-372,19,,aggressiv,,aggressive,agressif,,,
+370,19,,anstrengend,,exhausting,épuisant,​,​,
+371,19,,entscheidend,,"decisive, crucial",décisif,​,​,
+372,19,,aggressiv,,aggressive,agressif,​,​,
 373,19,,ungenügend,,insufficient,insuffisant,<br><br>ungenügend ↔ ausreichend,<br><br>ungenügend ↔ ausreichend,ausreichend
 374,19,,ausreichend,,sufficient,suffisant,<br><br>ausreichend ↔ ungenügend,<br><br>ausreichend ↔ ungenügend,ungenügend
-375,19,,aufgeregt,,excited,excité,,,
-376,19,,enttäuscht,,disappointed,déçu,,,
-377,19,,überrascht,,surprised,surpris,,,
+375,19,,aufgeregt,,excited,excité,​,​,
+376,19,,enttäuscht,,disappointed,déçu,​,​,
+377,19,,überrascht,,surprised,surpris,​,​,
 378,19,,unheimlich,,uncanny,"effrayant, étrange",<br><br>unheimlich ↔ heimlich,<br><br>unheimlich ↔ heimlich,heimlich
-379,20,,ziemlich,,considerable,"pas mal de, assez",,,
-380,20,,fein,,"fine, refined","fin, raffiné",,,
-381,20,,brav,,well-behaved,sage,,,
+379,20,,ziemlich,,considerable,"pas mal de, assez",​,​,
+380,20,,fein,,"fine, refined","fin, raffiné",​,​,
+381,20,,brav,,well-behaved,sage,​,​,
 382,20,,geduldig,,patient,patient,<br><br>geduldig ↔ ungeduldig,<br><br>geduldig ↔ ungeduldig,ungeduldig
 383,20,,ungeduldig,,impatient,impatient,<br><br>ungeduldig ↔ geduldig,<br><br>ungeduldig ↔ geduldig,geduldig
-384,20,,hilfreich,,helpful,"aidant, utile",,,
-385,20,,gemein,,"common, nasty",méchant,,,
-386,20,,genial,,"brillant, ingenious","génial, ingénieux",,,
-387,20,,schüchtern,,shy,timide,,,
-388,20,,dringend,,urgent,urgent,,,
-389,20,,verrückt,,crazy,fou,,,
-390,20,,ausgezeichnet,,"excellent, distinguished","excellent, distingué",,,
-391,20,,lokal,,local,local,,,
-392,20,,einverstanden,,agreed,"d'accord, en accord",,,
-393,20,,national,,national,national,,,
-394,20,,regional,,regional,régional,,,
-395,20,,weltweit,,worldwide,mondial,,,
-396,20,,global,,global,global,,,
-397,20,,international,,international,international,,,
-398,20,,europäisch,,European,européen,,,
-399,21,,unentschieden,,undecided,indécis,,,
-400,21,,reichlich,,plenty,abondant,,,
-401,21,,sachlich,,factual,factuel,,,
-402,21,,ehrgeizig,,ambitious,ambitieux,,,
-403,21,,begeistert,,enthusiastic,enthousiaste,,,
+384,20,,hilfreich,,helpful,"aidant, utile",​,​,
+385,20,,gemein,,"common, nasty",méchant,​,​,
+386,20,,genial,,"brillant, ingenious","génial, ingénieux",​,​,
+387,20,,schüchtern,,shy,timide,​,​,
+388,20,,dringend,,urgent,urgent,​,​,
+389,20,,verrückt,,crazy,fou,​,​,
+390,20,,ausgezeichnet,,"excellent, distinguished","excellent, distingué",​,​,
+391,20,,lokal,,local,local,​,​,
+392,20,,einverstanden,,agreed,"d'accord, en accord",​,​,
+393,20,,national,,national,national,​,​,
+394,20,,regional,,regional,régional,​,​,
+395,20,,weltweit,,worldwide,mondial,​,​,
+396,20,,global,,global,global,​,​,
+397,20,,international,,international,international,​,​,
+398,20,,europäisch,,European,européen,​,​,
+399,21,,unentschieden,,undecided,indécis,​,​,
+400,21,,reichlich,,plenty,abondant,​,​,
+401,21,,sachlich,,factual,factuel,​,​,
+402,21,,ehrgeizig,,ambitious,ambitieux,​,​,
+403,21,,begeistert,,enthusiastic,enthousiaste,​,​,
 404,21,,erheblich,,"significant, considerable",considérable,<br><br>erheblich ↔ unerheblich,<br><br>erheblich ↔ unerheblich,unerheblich
-405,21,,schuld,,responsible,responsable,,,
-406,21,,stabil,,stable,stable,,,
-407,21,,telefonisch,,"by phone, telephonic","par téléphone, téléphonique",,,
-408,21,,vergleichbar,,comparable,comparable,,,
+405,21,,schuld,,responsible,responsable,​,​,
+406,21,,stabil,,stable,stable,​,​,
+407,21,,telefonisch,,"by phone, telephonic","par téléphone, téléphonique",​,​,
+408,21,,vergleichbar,,comparable,comparable,​,​,
 409,21,,einseitig,,one-sided,"unilatéral, partial",<br><br>einseitig ↔ zweiseitig,<br><br>einseitig ↔ zweiseitig,zweiseitig
-410,21,,wütend,,angry,furieux,,,
-411,21,,formell,,formal,formel,,,
-412,21,,umweltfreundlich,,environmentally friendly,respectueux de l'environnement,,,
-413,21,,vegan,,vegan,vegan,,,
-414,21,,komplex,,complex,complexe,,,
-415,21,,reif,,"mature, ripe",mûr,,,
-416,21,,zentral,,central,central,,,
-417,21,,romantisch,,romantic,romatique,,,
-418,21,,fantastisch,,fantastic,fantastique,,,
-419,22,sozial,gesellschaftlich,sozial,"social, societal","social, sociétale",,,
-420,22,speziell,besondere,speziell,special,spécial,,,
-421,22,gerecht,fair,gerecht,fair,"juste, équitable",,,
-422,22,witzig,lustig,witzig,funny,drôle,,,
-423,22,eindeutig,deutlich,eindeutig,"articulate, clear, distinct, considerable","clair, notable, évident",,,
-424,22,selbstverständlich,natürlich,selbstverständlich,"natural, self-evident","naturel, évident",,,
-425,22,still,ruhig,still,"calm, quiet","calme, silencieux",,,
-426,22,geöffnet,offen,geöffnet,"open, honest","ouvert, franc",,,
-427,22,merkwürdig,komisch,merkwürdig,"strange, funny","étrange, drôle",,,
-428,22,prima,toll,prima,great,super,,,
-429,22,eventuell,möglich,eventuell,"possible, likely",possible,,,
-430,22,vorhanden,verfügbar,vorhanden,"available, at hand","disponible, accessible",,,
-431,23,herrlich,wunderbar,herrlich,wonderful,merveilleux,,,
-432,23,gering,niedrig,gering,low,bas,,,
-433,23,komplett,ganz,komplett,"whole, entire, complete","entier, complet",,,
-434,23,schlank,dünn,schlank,thin,mince,,,
-435,23,absolut,unbedingt,absolut,"absolute, unconditional","inconditionnel, absolu",,,
-436,23,ausländisch,fremd,ausländisch,foreign,étranger,,,
-437,23,gesetzlich,rechtlich,gesetzlich,legal,légal,,,
-438,23,total,gesamt,total,"total, entire","total, complet",,,
-439,23,recht,fair,recht,fair,"juste, équitable",,,
+410,21,,wütend,,angry,furieux,​,​,
+411,21,,formell,,formal,formel,​,​,
+412,21,,umweltfreundlich,,environmentally friendly,respectueux de l'environnement,​,​,
+413,21,,vegan,,vegan,vegan,​,​,
+414,21,,komplex,,complex,complexe,​,​,
+415,21,,reif,,"mature, ripe",mûr,​,​,
+416,21,,zentral,,central,central,​,​,
+417,21,,romantisch,,romantic,romatique,​,​,
+418,21,,fantastisch,,fantastic,fantastique,​,​,
+419,22,sozial,gesellschaftlich,sozial,"social, societal","social, sociétale",​,​,
+420,22,speziell,besondere,speziell,special,spécial,​,​,
+421,22,gerecht,fair,gerecht,fair,"juste, équitable",​,​,
+422,22,witzig,lustig,witzig,funny,drôle,​,​,
+423,22,eindeutig,deutlich,eindeutig,"articulate, clear, distinct, considerable","clair, notable, évident",​,​,
+424,22,selbstverständlich,natürlich,selbstverständlich,"natural, self-evident","naturel, évident",​,​,
+425,22,still,ruhig,still,"calm, quiet","calme, silencieux",​,​,
+426,22,geöffnet,offen,geöffnet,"open, honest","ouvert, franc",​,​,
+427,22,merkwürdig,komisch,merkwürdig,"strange, funny","étrange, drôle",​,​,
+428,22,prima,toll,prima,great,super,​,​,
+429,22,eventuell,möglich,eventuell,"possible, likely",possible,​,​,
+430,22,vorhanden,verfügbar,vorhanden,"available, at hand","disponible, accessible",​,​,
+431,23,herrlich,wunderbar,herrlich,wonderful,merveilleux,​,​,
+432,23,gering,niedrig,gering,low,bas,​,​,
+433,23,komplett,ganz,komplett,"whole, entire, complete","entier, complet",​,​,
+434,23,schlank,dünn,schlank,thin,mince,​,​,
+435,23,absolut,unbedingt,absolut,"absolute, unconditional","inconditionnel, absolu",​,​,
+436,23,ausländisch,fremd,ausländisch,foreign,étranger,​,​,
+437,23,gesetzlich,rechtlich,gesetzlich,legal,légal,​,​,
+438,23,total,gesamt,total,"total, entire","total, complet",​,​,
+439,23,recht,fair,recht,fair,"juste, équitable",​,​,
 440,23,erhältlich,verfügbar,erhältlich,"available, at hand","disponible, accessible",<br><br>verfügbar ↔ unerhältlich,<br><br>verfügbar ↔ unerhältlich,unerhältlich
-441,23,sorgfältig,vorsichtig,sorgfältig,"careful, cautious","prudent, vigilant",,,
-442,23,vollständig,ganz,vollständig,"whole, entire, complete","entier, complet",,,
-443,24,fröhlich,glücklich,fröhlich,"happy, glad","heureux, content",,,
-444,24,feucht,nass,feucht,wet,"humide, mouillé",,,
-445,24,künftig,zukünftig,künftig,future,futur,,,
-446,24,unmittelbar,direkt,unmittelbar,direct,direct,,,
-447,24,populär,beliebt,populär,popular,populaire,,,
-448,24,gewiss,bestimmt,gewiss,"certain, determined","déterminé, destiné",,,
-449,24,professionell,beruflich,professionell,professional,professionnel,,,
-450,24,eigentlich,tatsächlich,eigentlich,actual,"effectif, réel",,,
-451,24,wirklich,echt,wirklich,"real, genuine",réel,,,
-452,24,offensichtlich,offenbar,offensichtlich,"obvious, evident",évident,,,
-453,100,,einheimisch,,"indigenous, domestic, native",indigène,,,
-454,100,,amerikanisch,,American,américain,,,
-455,100,,französisch,,French,français,,,
-456,100,,italienisch,,Italian,italien,,,
-457,100,,russisch,,Russian,russe,,,
-458,100,,englisch,,english,anglais,,,
-459,100,,österreichisch,,Austrian,autrichien,,,
-460,100,,bayerisch,,Bavarian,bavarois,,,
-461,100,,britisch,,British,britannique,,,
-462,100,,chinesisch,,Chinese,chinois,,,
-463,100,,arabisch,,arabic,arabe,,,
-464,100,,niederländisch,,Dutch,néerlandais,,,
-465,100,,osteuropäisch,,Eastern European,est-européen,,,
-466,100,,portugiesisch,,Portuguese,portugais,,,
-467,100,,schottisch,,Scottish,écossais,,,
-468,100,,spanisch,,Spanish,espagnol,,,
-469,100,,tschechisch,,Czech,tchèque,,,
-470,100,,griechisch,,Greek,grec,,,
-471,100,,indisch,,Indian,indien,,,
-472,100,,ungarisch,,Hungarian,hongrois,,,
-473,100,,ostdeutsch,,East German,est-allemand,,,
-474,100,,westdeutsch,,West German,Allemagne de l'Ouest,,,
-475,100,,ethnisch,,,,,,
-476,100,,römisch,,,,,,
-477,100,,holländisch,,,,,,
+441,23,sorgfältig,vorsichtig,sorgfältig,"careful, cautious","prudent, vigilant",​,​,
+442,23,vollständig,ganz,vollständig,"whole, entire, complete","entier, complet",​,​,
+443,24,fröhlich,glücklich,fröhlich,"happy, glad","heureux, content",​,​,
+444,24,feucht,nass,feucht,wet,"humide, mouillé",​,​,
+445,24,künftig,zukünftig,künftig,future,futur,​,​,
+446,24,unmittelbar,direkt,unmittelbar,direct,direct,​,​,
+447,24,populär,beliebt,populär,popular,populaire,​,​,
+448,24,gewiss,bestimmt,gewiss,"certain, determined","déterminé, destiné",​,​,
+449,24,professionell,beruflich,professionell,professional,professionnel,​,​,
+450,24,eigentlich,tatsächlich,eigentlich,actual,"effectif, réel",​,​,
+451,24,wirklich,echt,wirklich,"real, genuine",réel,​,​,
+452,24,offensichtlich,offenbar,offensichtlich,"obvious, evident",évident,​,​,
+453,100,,einheimisch,,"indigenous, domestic, native",indigène,​,​,
+454,100,,amerikanisch,,American,américain,​,​,
+455,100,,französisch,,French,français,​,​,
+456,100,,italienisch,,Italian,italien,​,​,
+457,100,,russisch,,Russian,russe,​,​,
+458,100,,englisch,,english,anglais,​,​,
+459,100,,österreichisch,,Austrian,autrichien,​,​,
+460,100,,bayerisch,,Bavarian,bavarois,​,​,
+461,100,,britisch,,British,britannique,​,​,
+462,100,,chinesisch,,Chinese,chinois,​,​,
+463,100,,arabisch,,arabic,arabe,​,​,
+464,100,,niederländisch,,Dutch,néerlandais,​,​,
+465,100,,osteuropäisch,,Eastern European,est-européen,​,​,
+466,100,,portugiesisch,,Portuguese,portugais,​,​,
+467,100,,schottisch,,Scottish,écossais,​,​,
+468,100,,spanisch,,Spanish,espagnol,​,​,
+469,100,,tschechisch,,Czech,tchèque,​,​,
+470,100,,griechisch,,Greek,grec,​,​,
+471,100,,indisch,,Indian,indien,​,​,
+472,100,,ungarisch,,Hungarian,hongrois,​,​,
+473,100,,ostdeutsch,,East German,est-allemand,​,​,
+474,100,,westdeutsch,,West German,Allemagne de l'Ouest,​,​,
+475,100,,ethnisch,,,,​,​,
+476,100,,römisch,,,,​,​,
+477,100,,holländisch,,,,​,​,

@@ -6,7 +6,7 @@ from data.data_processing.units import (
     adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus_routledge, genus_goethe,
+    genus_regeln, genus, plural,
     zahlen,
 )
 
@@ -50,8 +50,8 @@ STARS = {
     partizip_I: f"",
 
     genus_regeln: f"{STAR_GOLD}",
-    genus_routledge: f"{STAR_GOLD}",
-    genus_goethe: f"{STAR_GOLD}",
+    genus: f"{STAR_GOLD}",
+    plural: f"",
 
     zahlen: f"",
 }
