@@ -2137,176 +2137,260 @@ QUESTION_EN = {
     },
 
     plural: {
-        1: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        2: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        3: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        4: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        5: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        6: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        7: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        8: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        9: "Singular: {question} (<i>{english}</i>)"
-           "<br><br>Plural: die _____",
-        10: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        11: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        12: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        13: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        14: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        15: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        16: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        17: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        18: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        19: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        20: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        21: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        22: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        23: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        24: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        25: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
+        1: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        2: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        3: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        4: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        5: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        6: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        7: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        8: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        9: "Singular: {question}"
+           "<br><br>Plural: die _____"
+           "<br><br><i>{english}</i>",
+        10: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        11: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        12: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        13: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        14: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        15: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        16: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        17: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        18: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        19: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        20: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        21: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        22: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        23: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        24: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        25: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
 
-        26: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        27: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        28: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        29: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        30: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        31: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        32: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        33: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        34: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        35: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        36: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        37: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        38: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        39: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        40: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        41: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        42: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        43: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        44: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        45: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        46: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        47: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        48: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        49: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        50: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
+        26: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        27: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        28: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        29: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        30: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        31: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        32: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        33: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        34: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        35: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        36: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        37: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        38: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        39: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        40: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        41: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        42: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        43: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        44: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        45: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        46: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        47: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        48: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        49: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        50: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
 
-        51: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        52: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        53: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        54: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        55: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        56: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        57: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        58: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        59: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        60: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        61: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        62: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        63: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        64: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        65: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        66: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        67: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        68: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        69: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        70: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        71: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        72: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        73: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        74: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        75: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        76: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        77: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        78: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        79: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        80: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        81: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        82: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        83: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
-        84: "Singular: {question} (<i>{english}</i>)"
-            "<br><br>Plural: die _____",
+        51: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        52: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        53: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        54: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        55: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        56: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        57: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        58: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        59: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        60: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        61: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        62: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        63: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        64: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        65: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        66: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        67: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        68: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        69: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        70: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        71: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        72: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        73: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        74: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        75: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        76: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        77: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        78: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        79: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        80: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        81: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        82: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        83: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
+        84: "Singular: {question}"
+            "<br><br>Plural: die _____"
+            "<br><br><i>{english}</i>",
     },
 
     zahlen: {
