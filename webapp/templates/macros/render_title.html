@@ -28,6 +28,7 @@
                 <a href="{{ url_for('routes.settings') }}">Settings</a>
                 <a href="{{ url_for('routes.bookmarks') }}">Bookmarks</a>
             {% else %}
+                <a href="{{ url_for('routes.settings_not_connected') }}">Settings</a>
                 <a href="{{ url_for('routes.signin') }}">Login</a>
             {% endif %}
 

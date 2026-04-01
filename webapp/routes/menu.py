@@ -68,15 +68,27 @@ def settings():
 
     language = get_language(request, session)
 
-    if language == "english":
-        return render_template('menu/settings_en.html',
-                               email=current_user.email,
-                               )
+    page = {
+        'english': 'menu/settings_en.html',
+        'french': 'menu/settings_fr.html',
+    }
 
-    elif language == "french":
-        return render_template('menu/settings_fr.html',
-                               email=current_user.email,
-                               )
+    return render_template(page[language],
+                           email=current_user.email,
+                           )
+
+
+@routes_bp.route('/settings_not_connected', endpoint='settings_not_connected')
+def settings_not_connected():
+
+    language = get_language(request, session)
+
+    page = {
+        'english': 'menu/settings_not_connected_en.html',
+        'french': 'menu/settings_not_connected_fr.html',
+    }
+
+    return render_template(page[language])
 
 
 @routes_bp.route('/about', endpoint='about')
@@ -84,13 +96,12 @@ def about():
 
     language = get_language(request, session)
 
-    if language == "english":
-        return render_template('menu/about_en.html',
-                               )
+    page = {
+        'english': 'menu/about_en.html',
+        'french': 'menu/about_fr.html',
+    }
 
-    elif language == "french":
-        return render_template('menu/about_fr.html',
-                               )
+    return render_template(page[language])
 
 
 @routes_bp.route("/bookmarks")
@@ -105,29 +116,21 @@ def bookmarks():
         .all()
     )
 
-    if language == "english":
-        return render_template("menu/bookmarks_en.html",
-                               bookmarks=bookmarks,
-                               is_feedback_box=True,
-                               your_answer=YOUR_ANSWER[language],
-                               title_page=TITLE_PAGE,
-                               force_full_bookmark=True,
-                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
-                               icon_empty=get_filename_empty_bookmark(),
-                               icon_full=get_filename_full_bookmark(),
-                               )
+    page = {
+        'english': 'menu/bookmarks_en.html',
+        'french': 'menu/bookmarks_fr.html',
+    }
 
-    elif language == "french":
-        return render_template("menu/bookmarks_fr.html",
-                           bookmarks=bookmarks,
-                           is_feedback_box=True,
-                           your_answer=YOUR_ANSWER[language],
-                           title_page=TITLE_PAGE,
-                           force_full_bookmark=True,
-                           get_question_from_incorrect_answer=get_question_from_incorrect_answer,
+    return render_template(page[language],
+                            bookmarks=bookmarks,
+                            is_feedback_box=True,
+                            your_answer=YOUR_ANSWER[language],
+                            title_page=TITLE_PAGE,
+                            force_full_bookmark=True,
+                            get_question_from_incorrect_answer=get_question_from_incorrect_answer,
                             icon_empty=get_filename_empty_bookmark(),
                             icon_full=get_filename_full_bookmark(),
-                           )
+                            )
 
 
 for unit in units:

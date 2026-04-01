@@ -1,7 +1,7 @@
 .exercise-title {
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-weight: normal;
 }
 
@@ -30,7 +30,9 @@ body.day-mode .guidance-container {
     width: 100%;
     max-width: 400px;
     margin: 10px auto;
-    margin-bottom: 5px auto;
+    margin-bottom: -2px;
+    margin-top: -4px;
+
     text-align: center;
 
     display: block;
@@ -73,7 +75,7 @@ body.day-mode .exercise-container {
 }
 
 .input-box {
-    margin: 5px;
+    margin: 0px;
     margin-bottom: 0px;
     padding: 10px;
     font-size: 16px;
@@ -98,8 +100,8 @@ body.day-mode .input-box:focus {
 }
 
 .readonly-input {
-    margin: 5px;
-    margin-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 4px;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -128,6 +130,8 @@ body.day-mode .readonly-input:focus {
     border: none;
     padding: 3px 10px;
     margin: 2px;
+    margin-top: -2px;
+    margin-bottom: -2px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
@@ -153,7 +157,7 @@ body.day-mode .special-chars button:hover {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
     width: 120px;
     text-align: center;
     margin-bottom: 10px;
@@ -190,7 +194,7 @@ body.day-mode .option-button {
 .next-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
@@ -215,15 +219,15 @@ body.day-mode .next-question-button {
 
 .gender-help-container {
     position: absolute;
-    bottom: 16px;
-    right: 18px;
+    bottom: 12px;
+    right: 14px;
 }
 
 .gender-help-button {
     background-color: white;
     color: #131b22;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 5px;
     margin: 2px;
     font-size: 16px;
     cursor: pointer;
@@ -263,8 +267,8 @@ body.day-mode .gender-tooltip {
 
 .guidance-help-container {
   position: absolute;
-  bottom: 16px;
-  left: 18px;
+  bottom: 12px;
+  left: 14px;
 }
 
 .guidance-help-button {
@@ -323,7 +327,6 @@ body.day-mode .guidance-modal {
   color: black;
 }
 
-/* Header with close button */
 .guidance-modal-header {
   display: flex;
   align-items: center;
@@ -347,7 +350,6 @@ body.day-mode .guidance-modal {
     line-height: 1;
 }
 
-/* Explicitly override common centered elements */
 .guidance-modal-body h1,
 .guidance-modal-body h2,
 .guidance-modal-body h3,
@@ -403,7 +405,8 @@ body.day-mode .refresh-button {
     padding: 1px 5px;
     border-radius: 12px;
 
-    margin: 20px auto;
+    margin: 15px auto;
+    margin-bottom: 10px;
     text-align: center;
 
     display: block;
@@ -429,7 +432,8 @@ body.day-mode .feedback-correct-container {
     padding: 1px 5px;
     border-radius: 12px;
 
-    margin: 20px auto;
+    margin: 15px auto;
+    margin-bottom: 10px;
     text-align: center;
 
     display: block;
@@ -606,7 +610,9 @@ body.day-mode .flag-form button {
     width: 100%;
     max-width: 400px;
 
-    margin: 20px auto; /* Centers the container itself */
+    margin: 15px auto; /* Centers the container itself */
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 1px 5px;
 
     background-color: #332116; /* #2a1c31 */
@@ -635,7 +641,7 @@ body.day-mode .proverb-container {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     width: auto; /* Dynamic width */
     min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
     max-width: 300px; /* Prevents it from being too wide */

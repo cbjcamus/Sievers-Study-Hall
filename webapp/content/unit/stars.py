@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
 
@@ -28,17 +28,18 @@ STARS = {
     adverbien: f"{STAR_GOLD}",
     wortstellung: f"",
 
+    genus_regeln: f"{STAR_GOLD}",
+    genus: f"{STAR_GOLD}",
+    plural: f"",
+
     adjektive: f"",
     komparativ_superlativ: f"",
     adjektivdeklinationen: f"",
     adjektive_konjunktionen: f"",
-    adjektive_verben_wortstaemme: f"",
-    adjektive_nomen_wortstaemme: f"",
 
     verben: f"{STAR_GOLD}",
     trennbare_verben: f"{STAR_GOLD}",
     nomen_verben_verbindungen: f"",
-    nomen_verben_wortstaemme: f"",
 
     praesens: f"",
     imperativ: f"",
@@ -49,9 +50,9 @@ STARS = {
     konjunktiv_I: f"",
     partizip_I: f"",
 
-    genus_regeln: f"{STAR_GOLD}",
-    genus: f"{STAR_GOLD}",
-    plural: f"",
+    nomen_verben_wortstaemme: f"",
+    adjektive_verben_wortstaemme: f"",
+    adjektive_nomen_wortstaemme: f"",
 
     zahlen: f"",
 }

@@ -13,17 +13,18 @@ fragen = 'fragen'
 adverbien = 'adverbien'
 wortstellung = 'wortstellung'
 
+genus_regeln = 'genus_regeln'
+genus = 'genus'
+plural = 'plural'
+
 adjektive = 'adjektive'
 komparativ_superlativ = 'komparativ_superlativ'
 adjektivdeklinationen = 'adjektivdeklinationen'
 adjektive_konjunktionen = 'adjektive_konjunktionen'
-adjektive_verben_wortstaemme = 'adjektive_verben_wortstaemme'
-adjektive_nomen_wortstaemme = 'adjektive_nomen_wortstaemme'
 
 verben = 'verben'
 trennbare_verben = 'trennbare_verben'
 nomen_verben_verbindungen = 'nomen_verben_verbindungen'
-nomen_verben_wortstaemme = 'nomen_verben_wortstaemme'
 
 praesens = 'praesens'
 imperativ = 'imperativ'
@@ -34,9 +35,9 @@ konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
 
-genus_regeln = 'genus_regeln'
-genus = 'genus'
-plural = 'plural'
+nomen_verben_wortstaemme = 'nomen_verben_wortstaemme'
+adjektive_verben_wortstaemme = 'adjektive_verben_wortstaemme'
+adjektive_nomen_wortstaemme = 'adjektive_nomen_wortstaemme'
 
 zahlen = 'zahlen'
 
@@ -44,11 +45,10 @@ units = [
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I,
-    partizip_I,
     genus_regeln, genus, plural,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 ]

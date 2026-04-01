@@ -2,12 +2,12 @@ from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus,
-    zahlen, plural,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
+    zahlen,
 )
 
 TEMPLATE_PATH = {
@@ -26,17 +26,18 @@ TEMPLATE_PATH = {
     adverbien: "units/grammatik/adverbien.html",
     wortstellung: "units/grammatik/wortstellung.html",
 
+    genus_regeln: "units/genus/genus_regeln.html",
+    genus: "units/genus/genus.html",
+    plural: "units/genus/plural.html",
+
     adjektive: "units/adjektive/adjektive.html",
     komparativ_superlativ: "units/adjektive/komparativ_superlativ.html",
     adjektivdeklinationen: "units/adjektive/adjektivdeklinationen.html",
     adjektive_konjunktionen: "units/adjektive/adjektive_konjunktionen.html",
-    adjektive_verben_wortstaemme: "units/adjektive/adjektive_verben_wortstaemme.html",
-    adjektive_nomen_wortstaemme: "units/adjektive/adjektive_nomen_wortstaemme.html",
 
     verben: "units/verben/verben.html",
     trennbare_verben: "units/verben/trennbare_verben.html",
     nomen_verben_verbindungen: "units/verben/nomen_verben_verbindungen.html",
-    nomen_verben_wortstaemme: "units/verben/nomen_verben_wortstaemme.html",
 
     praesens: "units/konjugation/praesens.html",
     imperativ: "units/konjugation/imperativ.html",
@@ -47,9 +48,9 @@ TEMPLATE_PATH = {
     konjunktiv_I: "units/konjugation/konjunktiv_I.html",
     partizip_I: "units/konjugation/partizip_I.html",
 
-    genus_regeln: "units/genus/genus_regeln.html",
-    genus: "units/genus/genus.html",
-    plural: "units/genus/plural.html",
+    nomen_verben_wortstaemme: "units/wortstaemme/nomen_verben_wortstaemme.html",
+    adjektive_verben_wortstaemme: "units/wortstaemme/adjektive_verben_wortstaemme.html",
+    adjektive_nomen_wortstaemme: "units/wortstaemme/adjektive_nomen_wortstaemme.html",
 
     zahlen: "units/sonstige/zahlen.html",
 }

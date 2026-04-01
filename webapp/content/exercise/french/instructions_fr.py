@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
-    adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
 
@@ -118,8 +118,13 @@ INSTRUCTION_FR = {
         14: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         15: "Écrivez la préposition qui correspond à l'adjectif suivant :",
         16: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         17: "Écrivez la préposition qui correspond à l'adjectif suivant :",
         18: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        19: "Écrivez la préposition qui correspond à l'adjectif suivant :",
+        20: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        21: "Écrivez la préposition qui correspond à l'adjectif suivant :",
+        22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
 
     praepositionen_nomen: {
@@ -127,20 +132,20 @@ INSTRUCTION_FR = {
         2: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         3: "Écrivez la préposition qui correspond au nom suivant :",
         4: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         5: "Écrivez la préposition qui correspond au nom suivant :",
         6: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         7: "Écrivez la préposition qui correspond au nom suivant :",
         8: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         9: "Écrivez la préposition qui correspond au nom suivant :",
         10: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         11: "Écrivez la préposition qui correspond au nom suivant :",
         12: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         13: "Écrivez la préposition qui correspond au nom suivant :",
         14: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         15: "Écrivez la préposition qui correspond au nom suivant :",
         16: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         17: "Écrivez la préposition qui correspond au nom suivant :",
         18: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         19: "Écrivez la préposition qui correspond au nom suivant :",
@@ -151,6 +156,11 @@ INSTRUCTION_FR = {
         24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         25: "Écrivez la préposition qui correspond au nom suivant :",
         26: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        27: "Écrivez la préposition qui correspond au nom suivant :",
+        28: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
+        29: "Écrivez la préposition qui correspond au nom suivant :",
+        30: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
 
     praepositionen_artikel: {

@@ -11,3 +11,14 @@
     max-width: 300px;
     text-align: center;
 }
+
+body.day-mode .input-authorization {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+}
+
+body.day-mode .input-authorization:focus {
+    outline: none;
+    border: 2px solid black;
+}

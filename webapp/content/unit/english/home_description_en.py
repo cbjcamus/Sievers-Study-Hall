@@ -1,13 +1,13 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
     praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
-    artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
-    adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus,
-    zahlen, plural,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
+    zahlen,
 )
 
 HOME_DESCRIPTION_EN = {
@@ -34,7 +34,7 @@ HOME_DESCRIPTION_EN = {
 
     verben: "Translations of German Verbs",
     trennbare_verben: "Separable and Inseparable Verbs",
-    nomen_verben_verbindungen:"Noun-Verb Combinations",
+    nomen_verben_verbindungen:"Noun-Verb Combinations and other idioms",
     nomen_verben_wortstaemme: "Noun-Verb Pairs with the same etymological root",
 
     praesens: "Present tense of German Verbs",

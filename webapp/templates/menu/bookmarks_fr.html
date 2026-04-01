@@ -25,7 +25,7 @@
         <li class="bookmark-item">
           <div class="bookmark-meta">
               {{ bm.created_at.strftime("%Y-%m-%d %H:%M") }},
-              {{ title_page[bm.unit] }}, Exercise {{ bm.exercise }}
+              {{ title_page[bm.unit] }}, Exercice {{ bm.exercise }}
           </div>
 
             {{ render_feedback(
@@ -36,7 +36,7 @@
                 feedback_message=bm.feedback_message,
                 your_answer=your_answer,
                 user_answer=bm.user_answer,
-                incorrect_question=get_question_from_incorrect_answer(bm.unit, bm.exercise, bm.result, bm.user_answer),
+                incorrect_question=get_question_from_incorrect_answer(bm.unit, bm.exercise, bm.result, bm.user_answer, bm.question_text),
                 current_user=current_user,
                 force_full_bookmark=True,
                 icon_full=icon_full,

@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
-    adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
 
@@ -118,8 +118,13 @@ INSTRUCTION_EN = {
         14: "Complete the following sentence with the preposition that fits:",
         15: "Write the preposition that match the following adjective:",
         16: "Complete the following sentence with the preposition that fits:",
+
         17: "Write the preposition that match the following adjective:",
         18: "Complete the following sentence with the preposition that fits:",
+        19: "Write the preposition that match the following adjective:",
+        20: "Complete the following sentence with the preposition that fits:",
+        21: "Write the preposition that match the following adjective:",
+        22: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_nomen: {
@@ -127,20 +132,20 @@ INSTRUCTION_EN = {
         2: "Complete the following sentence with the preposition that fits:",
         3: "Write the preposition that match the following noun:",
         4: "Complete the following sentence with the preposition that fits:",
+
         5: "Write the preposition that match the following noun:",
         6: "Complete the following sentence with the preposition that fits:",
-
         7: "Write the preposition that match the following noun:",
         8: "Complete the following sentence with the preposition that fits:",
         9: "Write the preposition that match the following noun:",
         10: "Complete the following sentence with the preposition that fits:",
         11: "Write the preposition that match the following noun:",
         12: "Complete the following sentence with the preposition that fits:",
+
         13: "Write the preposition that match the following noun:",
         14: "Complete the following sentence with the preposition that fits:",
         15: "Write the preposition that match the following noun:",
         16: "Complete the following sentence with the preposition that fits:",
-
         17: "Write the preposition that match the following noun:",
         18: "Complete the following sentence with the preposition that fits:",
         19: "Write the preposition that match the following noun:",
@@ -151,6 +156,11 @@ INSTRUCTION_EN = {
         24: "Complete the following sentence with the preposition that fits:",
         25: "Write the preposition that match the following noun:",
         26: "Complete the following sentence with the preposition that fits:",
+        27: "Write the preposition that match the following noun:",
+        28: "Complete the following sentence with the preposition that fits:",
+
+        29: "Write the preposition that match the following noun:",
+        30: "Complete the following sentence with the preposition that fits:",
     },
 
     praepositionen_artikel: {

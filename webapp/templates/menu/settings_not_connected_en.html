@@ -43,6 +43,7 @@
         </table>
     </div>
 
+
     <div class="section">
         <h2>Special Characters' Buttons</h2>
         <table class="settings-table">
@@ -56,17 +57,6 @@
                 <td>Add buttons for special characters below the input bar</td>
             </tr>
         </table>
-    </div>
-
-    <div class="section">
-        <h2>Account</h2>
-        <p>You are connected with {{ email }}</p>
-
-        <p>
-            <form method="post" action="{{ url_for('routes.signout') }}">
-                <button type="submit" class="button">Sign out</button>
-            </form>
-        </p>
     </div>
 
     <div class="section">

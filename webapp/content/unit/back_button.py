@@ -1,13 +1,13 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme, pronominaladverbien,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus,
-    zahlen, plural,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
+    zahlen,
 )
 
 BACK_BUTTON = {
@@ -25,17 +25,18 @@ BACK_BUTTON = {
     adverbien: "Adverbien",
     wortstellung: "Wortstellung",
 
+    genus_regeln: "Genus – Regeln",
+    genus: "Genus",
+    plural: "Plural",
+
     adjektive: "Adjektive",
     komparativ_superlativ: "Komparativ & Superlativ",
     adjektivdeklinationen: "Adjektivdeklinationen",
     adjektive_konjunktionen: "Adjektive – Konjunktionen",
-    adjektive_verben_wortstaemme: "Adjektive – Verben Wortstämme",
-    adjektive_nomen_wortstaemme: "Adjektive – Nomen Wortstämme",
 
     verben: "Verben",
     trennbare_verben: "(Un)trennbare Verben",
-    nomen_verben_verbindungen: "Nomen – Verben Verbindungen",
-    nomen_verben_wortstaemme: "Nomen – Verben Wortstämme",
+    nomen_verben_verbindungen: "Nomen-Verben Verbindungen",
 
     praesens: "Präsens",
     imperativ: "Imperativ",
@@ -46,9 +47,9 @@ BACK_BUTTON = {
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Partizip I",
 
-    genus_regeln: "Genus – Regeln",
-    genus: "Genus",
-    plural: "Plural",
+    nomen_verben_wortstaemme: "Nomen-Verben Wortstämme",
+    adjektive_verben_wortstaemme: "Adjektive-Verben Wortstämme",
+    adjektive_nomen_wortstaemme: "Adjektive-Nomen Wortstämme",
 
     zahlen: "Zahlen",
 }

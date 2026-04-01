@@ -1,10 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, pronominaladverbien,
-    artikel, pronomen, konnektoren, fragen, adverbien,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
+    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
 
@@ -660,7 +662,6 @@ guidance_adjektive_nomen_wortstaemme_adjektive = (
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
 
     "<h2>Exemple</h2>"
     "la direction → die Richtung"
@@ -689,12 +690,12 @@ guidance_verben_translation = (
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     f" Lisez attentivement toute la traduction."
-    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
 
     "<h2>Exemple</h2>"
     "rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
-    f"<br><br> &nbsp; {ICON_CHECK} freuen"
-    f"<br><br> &nbsp; {ICON_CROSS} sich freuen"
+    f"<br><br> &nbsp; {ICON_CHECK} sich freuen"
+    f"<br><br> &nbsp; {ICON_CROSS} freuen"
 )
 
 guidance_verben_multiple_choices_english_to_german = (
@@ -738,7 +739,7 @@ guidance_trennbare_verben_root = (
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
 
     "<h2>Exemple</h2>"
     "tirer, traîner, déplacer → ziehen"
@@ -752,7 +753,7 @@ guidance_trennbare_verben_prefix = (
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
 
     "<h2>Exemple</h2>"
     "s'habiller, mettre, habiller quelqu'un, attirer, tirer \u25CF an"
@@ -765,7 +766,7 @@ guidance_trennbare_verben_no_help = (
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
 
     "<h2>Exemple</h2>"
     "s'habiller, mettre, habiller quelqu'un, attirer, tirer"
@@ -860,7 +861,7 @@ guidance_nomen_verben_wortstaemme_verben = (
 
     f"<br><br> &nbsp; {ICON_WARN} Il n’y a qu’une seule réponse possible par question. Les synonymes ne sont pas acceptés pour cet exercice."
     " Lisez attentivement toute la traduction."
-    f"<br><br> &nbsp; {ICON_WARN} N’écrivez pas de pronom réfléchi, même si le verbe est habituellement réfléchi."
+    f"<br><br> &nbsp; {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
 
     "<h2>Exemple</h2>"
     "le travail → die Arbeit"
@@ -1135,8 +1136,13 @@ GUIDANCE_EXERCISE_FR = {
         14: guidance_praepositionen_adjektive_sentences,
         15: guidance_praepositionen_adjektive_isolation,
         16: guidance_praepositionen_adjektive_sentences,
+
         17: guidance_praepositionen_adjektive_isolation,
         18: guidance_praepositionen_adjektive_sentences,
+        19: guidance_praepositionen_adjektive_isolation,
+        20: guidance_praepositionen_adjektive_sentences,
+        21: guidance_praepositionen_adjektive_isolation,
+        22: guidance_praepositionen_adjektive_sentences,
     },
 
     praepositionen_nomen: {
@@ -1144,20 +1150,20 @@ GUIDANCE_EXERCISE_FR = {
         2: guidance_praepositionen_nomen_sentences,
         3: guidance_praepositionen_nomen_isolation,
         4: guidance_praepositionen_nomen_sentences,
+
         5: guidance_praepositionen_nomen_isolation,
         6: guidance_praepositionen_nomen_sentences,
-
         7: guidance_praepositionen_nomen_isolation,
         8: guidance_praepositionen_nomen_sentences,
         9: guidance_praepositionen_nomen_isolation,
         10: guidance_praepositionen_nomen_sentences,
         11: guidance_praepositionen_nomen_isolation,
         12: guidance_praepositionen_nomen_sentences,
+
         13: guidance_praepositionen_nomen_isolation,
         14: guidance_praepositionen_nomen_sentences,
         15: guidance_praepositionen_nomen_isolation,
         16: guidance_praepositionen_nomen_sentences,
-
         17: guidance_praepositionen_nomen_isolation,
         18: guidance_praepositionen_nomen_sentences,
         19: guidance_praepositionen_nomen_isolation,
@@ -1168,6 +1174,11 @@ GUIDANCE_EXERCISE_FR = {
         24: guidance_praepositionen_nomen_sentences,
         25: guidance_praepositionen_nomen_isolation,
         26: guidance_praepositionen_nomen_sentences,
+        27: guidance_praepositionen_nomen_isolation,
+        28: guidance_praepositionen_nomen_sentences,
+
+        29: guidance_praepositionen_nomen_isolation,
+        30: guidance_praepositionen_nomen_sentences,
     },
 
     pronominaladverbien: {

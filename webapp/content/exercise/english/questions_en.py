@@ -1,13 +1,13 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
-    adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
+    genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
-    genus_regeln, genus,
-    zahlen, plural,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
+    zahlen,
 )
 
 # bullet point \u25CF
@@ -171,8 +171,15 @@ QUESTION_EN = {
         15: "{english} = {question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
+
         17: "{english} = {question}",
         18: "{question}"
+            "<br><br><i>{english}</i>",
+        19: "{english} = {question}",
+        20: "{question}"
+            "<br><br><i>{english}</i>",
+        21: "{english} = {question}",
+        22: "{question}"
             "<br><br><i>{english}</i>",
     },
 
@@ -183,10 +190,10 @@ QUESTION_EN = {
         3: "{english} = {question}",
         4: "{question}"
            "<br><br><i>{english}</i>",
+
         5: "{english} = {question}",
         6: "{question}"
            "<br><br><i>{english}</i>",
-
         7: "{english} = {question}",
         8: "{question}"
            "<br><br><i>{english}</i>",
@@ -196,13 +203,13 @@ QUESTION_EN = {
         11: "{english} = {question}",
         12: "{question}"
             "<br><br><i>{english}</i>",
+
         13: "{english} = {question}",
         14: "{question}"
             "<br><br><i>{english}</i>",
         15: "{english} = {question}",
         16: "{question}"
             "<br><br><i>{english}</i>",
-
         17: "{english} = {question}",
         18: "{question}"
             "<br><br><i>{english}</i>",
@@ -217,6 +224,13 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         25: "{english} = {question}",
         26: "{question}"
+            "<br><br><i>{english}</i>",
+        27: "{english} = {question}",
+        28: "{question}"
+            "<br><br><i>{english}</i>",
+
+        29: "{english} = {question}",
+        30: "{question}"
             "<br><br><i>{english}</i>",
     },
 

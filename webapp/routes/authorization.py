@@ -87,10 +87,12 @@ def forgot_password():
             flash("If that email exists, a reset link has been sent.", "info")
         return redirect(url_for("routes.signin"))
 
-    if language == 'english':
-        return render_template("authorization/forgot_password_en.html",)
-    elif language == 'french':
-        return render_template("authorization/forgot_password_fr.html",)
+    page = {
+        'english': 'authorization/forgot_password_en.html',
+        'french': 'authorization/forgot_password_fr.html',
+    }
+
+    return render_template(page[language])
 
 
 # --- Reset password: uses token ---
@@ -125,12 +127,13 @@ def reset_password(token):
         flash("Your password has been updated. Please sign in.", "success")
         return redirect(url_for("routes.signin"))
 
-    if language == 'english':
-        return render_template("authorization/reset_password_en.html",
-                               token=token)
-    elif language == 'french':
-        return render_template("authorization/reset_password_fr.html",
-                               token=token)
+    page = {
+        'english': 'authorization/reset_password_en.html',
+        'french': 'authorization/reset_password_fr.html',
+    }
+
+    return render_template(page[language],
+                           token=token)
 
 
 @routes_bp.route("/signin", methods=["GET", "POST"])
@@ -162,11 +165,12 @@ def signin():
 
         return redirect(next_url)
 
-    # GET
-    if language == 'english':
-        return render_template("authorization/signin_en.html")
-    elif language == 'french':
-        return render_template("authorization/signin_fr.html")
+    page = {
+        'english': 'authorization/signin_en.html',
+        'french': 'authorization/signin_fr.html',
+    }
+
+    return render_template(page[language])
 
 
 @routes_bp.route("/signup", methods=["GET", "POST"])
@@ -211,11 +215,12 @@ def signup():
 
         return redirect(url_for("routes.home"))
 
-    # GET
-    if language == 'english':
-        return render_template("authorization/signup_en.html")
-    elif language == 'french':
-        return render_template("authorization/signup_fr.html")
+    page = {
+        'english': 'authorization/signup_en.html',
+        'french': 'authorization/signup_fr.html',
+    }
+
+    return render_template(page[language])
 
 
 @routes_bp.route("/signout", methods=["POST"])

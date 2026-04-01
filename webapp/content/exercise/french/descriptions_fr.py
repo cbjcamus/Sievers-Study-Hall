@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen, adjektive_verben_wortstaemme,
-    adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
 
@@ -116,8 +116,13 @@ DESCRIPTION_FR = {
         14: "Paires Adjectif-Préposition de niveau C1, en contexte",
         15: "Paires Adjectif-Préposition de niveau C1, en isolation",
         16: "Paires Adjectif-Préposition de niveau C1, en contexte",
-        17: "Paires Adjectif-Préposition de niveau C1, en isolation",
-        18: "Paires Adjectif-Préposition de niveau C1, en contexte",
+
+        17: "Paires Adjectif-Préposition de niveau C2, en isolation",
+        18: "Paires Adjectif-Préposition de niveau C2, en contexte",
+        19: "Paires Adjectif-Préposition de niveau C2, en isolation",
+        20: "Paires Adjectif-Préposition de niveau C2, en contexte",
+        21: "Paires Adjectif-Préposition de niveau C2, en isolation",
+        22: "Paires Adjectif-Préposition de niveau C2, en contexte",
     },
 
     praepositionen_nomen: {
@@ -125,20 +130,20 @@ DESCRIPTION_FR = {
         2: "Paires Nom-Préposition jusqu'au niveau B1, en contexte",
         3: "Paires Nom-Préposition jusqu'au niveau B1, en isolation",
         4: "Paires Nom-Préposition jusqu'au niveau B1, en contexte",
-        5: "Paires Nom-Préposition jusqu'au niveau B1, en isolation",
-        6: "Paires Nom-Préposition jusqu'au niveau B1, en contexte",
 
+        5: "Paires Nom-Préposition de niveau B2, en isolation",
+        6: "Paires Nom-Préposition de niveau B2, en contexte",
         7: "Paires Nom-Préposition de niveau B2, en isolation",
         8: "Paires Nom-Préposition de niveau B2, en contexte",
         9: "Paires Nom-Préposition de niveau B2, en isolation",
         10: "Paires Nom-Préposition de niveau B2, en contexte",
         11: "Paires Nom-Préposition de niveau B2, en isolation",
         12: "Paires Nom-Préposition de niveau B2, en contexte",
-        13: "Paires Nom-Préposition de niveau B2, en isolation",
-        14: "Paires Nom-Préposition de niveau B2, en contexte",
-        15: "Paires Nom-Préposition de niveau B2, en isolation",
-        16: "Paires Nom-Préposition de niveau B2, en contexte",
 
+        13: "Paires Nom-Préposition de niveau C1, en isolation",
+        14: "Paires Nom-Préposition de niveau C1, en contexte",
+        15: "Paires Nom-Préposition de niveau C1, en isolation",
+        16: "Paires Nom-Préposition de niveau C1, en contexte",
         17: "Paires Nom-Préposition de niveau C1, en isolation",
         18: "Paires Nom-Préposition de niveau C1, en contexte",
         19: "Paires Nom-Préposition de niveau C1, en isolation",
@@ -149,6 +154,11 @@ DESCRIPTION_FR = {
         24: "Paires Nom-Préposition de niveau C1, en contexte",
         25: "Paires Nom-Préposition de niveau C1, en isolation",
         26: "Paires Nom-Préposition de niveau C1, en contexte",
+        27: "Paires Nom-Préposition de niveau C1, en isolation",
+        28: "Paires Nom-Préposition de niveau C1, en contexte",
+
+        29: "Paires Nom-Préposition de niveau C1, en isolation",
+        30: "Paires Nom-Préposition de niveau C1, en contexte",
     },
 
     praepositionen_artikel: {

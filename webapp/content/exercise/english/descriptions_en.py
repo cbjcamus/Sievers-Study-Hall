@@ -1,12 +1,12 @@
 from data.data_processing.units import (
     praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_artikel, praepositionen_adverbien, pronominaladverbien,
+    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    verben, trennbare_verben, nomen_verben_verbindungen, nomen_verben_wortstaemme,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
 
@@ -118,8 +118,13 @@ DESCRIPTION_EN = {
         14: "C1 Adjective-Preposition pairs, in sentences",
         15: "C1 Adjective-Preposition pairs, in isolation",
         16: "C1 Adjective-Preposition pairs, in sentences",
-        17: "C1 Adjective-Preposition pairs, in isolation",
-        18: "C1 Adjective-Preposition pairs, in sentences",
+
+        17: "C2 Adjective-Preposition pairs, in isolation",
+        18: "C2 Adjective-Preposition pairs, in sentences",
+        19: "C2 Adjective-Preposition pairs, in isolation",
+        20: "C2 Adjective-Preposition pairs, in sentences",
+        21: "C2 Adjective-Preposition pairs, in isolation",
+        22: "C2 Adjective-Preposition pairs, in sentences",
     },
 
     praepositionen_nomen: {
@@ -127,20 +132,20 @@ DESCRIPTION_EN = {
         2: "Up to B1 Noun-Preposition pairs, in sentences",
         3: "Up to B1 Noun-Preposition pairs, in isolation",
         4: "Up to B1 Noun-Preposition pairs, in sentences",
-        5: "Up to B1 Noun-Preposition pairs, in isolation",
-        6: "Up to B1 Noun-Preposition pairs, in sentences",
 
+        5: "B2 Noun-Preposition pairs, in isolation",
+        6: "B2 Noun-Preposition pairs, in sentences",
         7: "B2 Noun-Preposition pairs, in isolation",
         8: "B2 Noun-Preposition pairs, in sentences",
         9: "B2 Noun-Preposition pairs, in isolation",
         10: "B2 Noun-Preposition pairs, in sentences",
         11: "B2 Noun-Preposition pairs, in isolation",
         12: "B2 Noun-Preposition pairs, in sentences",
-        13: "B2 Noun-Preposition pairs, in isolation",
-        14: "B2 Noun-Preposition pairs, in sentences",
-        15: "B2 Noun-Preposition pairs, in isolation",
-        16: "B2 Noun-Preposition pairs, in sentences",
 
+        13: "C1 Noun-Preposition pairs, in isolation",
+        14: "C1 Noun-Preposition pairs, in sentences",
+        15: "C1 Noun-Preposition pairs, in isolation",
+        16: "C1 Noun-Preposition pairs, in sentences",
         17: "C1 Noun-Preposition pairs, in isolation",
         18: "C1 Noun-Preposition pairs, in sentences",
         19: "C1 Noun-Preposition pairs, in isolation",
@@ -151,6 +156,11 @@ DESCRIPTION_EN = {
         24: "C1 Noun-Preposition pairs, in sentences",
         25: "C1 Noun-Preposition pairs, in isolation",
         26: "C1 Noun-Preposition pairs, in sentences",
+        27: "C1 Noun-Preposition pairs, in isolation",
+        28: "C1 Noun-Preposition pairs, in sentences",
+
+        29: "C2 Noun-Preposition pairs, in isolation",
+        30: "C2 Noun-Preposition pairs, in sentences",
     },
 
     praepositionen_artikel: {
