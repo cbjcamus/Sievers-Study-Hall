@@ -1263,23 +1263,25 @@ GUIDANCE_EXERCISE_EN = {
 
         24: guidance_pronomen_isolation,
         25: guidance_pronomen_sentences,
-        26: guidance_pronomen_sentences,
+        26: guidance_pronomen_isolation,
         27: guidance_pronomen_sentences,
         28: guidance_pronomen_sentences,
-        29: guidance_pronomen_isolation,
+        29: guidance_pronomen_sentences,
         30: guidance_pronomen_sentences,
         31: guidance_pronomen_isolation,
         32: guidance_pronomen_sentences,
-
         33: guidance_pronomen_isolation,
         34: guidance_pronomen_sentences,
+
         35: guidance_pronomen_isolation,
         36: guidance_pronomen_sentences,
         37: guidance_pronomen_isolation,
         38: guidance_pronomen_sentences,
         39: guidance_pronomen_isolation,
         40: guidance_pronomen_sentences,
-        41: guidance_pronomen_sentences,
+        41: guidance_pronomen_isolation,
+        42: guidance_pronomen_sentences,
+        43: guidance_pronomen_sentences,
     },
 
     konnektoren: {

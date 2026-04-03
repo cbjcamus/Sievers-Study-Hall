@@ -1255,27 +1255,40 @@ GUIDANCE_EXERCISE_FR = {
 
         11: guidance_pronomen_isolation,
         12: guidance_pronomen_sentences,
-        13: guidance_pronomen_replacing,
-        14: guidance_pronomen_replacing,
+        13: guidance_pronomen_sentences,
+        14: guidance_pronomen_sentences,
 
         15: guidance_pronomen_isolation,
         16: guidance_pronomen_sentences,
-        17: guidance_pronomen_sentences,
+        17: guidance_pronomen_isolation,
         18: guidance_pronomen_sentences,
         19: guidance_pronomen_sentences,
         20: guidance_pronomen_sentences,
         21: guidance_pronomen_sentences,
         22: guidance_pronomen_sentences,
-
         23: guidance_pronomen_sentences,
-        24: guidance_pronomen_sentences,
+
+        24: guidance_pronomen_isolation,
         25: guidance_pronomen_sentences,
         26: guidance_pronomen_isolation,
         27: guidance_pronomen_sentences,
-        28: guidance_pronomen_isolation,
+        28: guidance_pronomen_sentences,
         29: guidance_pronomen_sentences,
-
         30: guidance_pronomen_sentences,
+        31: guidance_pronomen_isolation,
+        32: guidance_pronomen_sentences,
+        33: guidance_pronomen_isolation,
+        34: guidance_pronomen_sentences,
+
+        35: guidance_pronomen_isolation,
+        36: guidance_pronomen_sentences,
+        37: guidance_pronomen_isolation,
+        38: guidance_pronomen_sentences,
+        39: guidance_pronomen_isolation,
+        40: guidance_pronomen_sentences,
+        41: guidance_pronomen_isolation,
+        42: guidance_pronomen_sentences,
+        43: guidance_pronomen_sentences,
     },
 
     konnektoren: {

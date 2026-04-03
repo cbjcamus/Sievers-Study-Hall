@@ -431,35 +431,38 @@ QUESTION_EN = {
         23: "{question}"
             "<br><br><i>{english}</i>",
 
-        24: "{english} \u25CF {case_english}",
+        24: "{english}",
         25: "{question}"
             "<br><br><i>{english}</i>",
-        26: "{question}"
-            "<br><br><i>{english}</i>",
+        26: "{english} \u25CF {case_english}",
         27: "{question}"
             "<br><br><i>{english}</i>",
         28: "{question}"
             "<br><br><i>{english}</i>",
-        29: "{german} \u25CF {gender_english}, {case_english}",
+        29: "{question}"
+            "<br><br><i>{english}</i>",
         30: "{question}"
             "<br><br><i>{english}</i>",
         31: "{german} \u25CF {gender_english}, {case_english}",
         32: "{question}"
             "<br><br><i>{english}</i>",
-
-        33: "{english}, {gender_english}, {case_english}",
-        34: "{question} \u25CF {gender_english}"
+        33: "{german} \u25CF {gender_english}, {case_english}",
+        34: "{question}"
             "<br><br><i>{english}</i>",
+
         35: "{english}, {gender_english}, {case_english}",
         36: "{question} \u25CF {gender_english}"
             "<br><br><i>{english}</i>",
-        37: "{english}",
-        38: "{question}"
+        37: "{english}, {gender_english}, {case_english}",
+        38: "{question} \u25CF {gender_english}"
             "<br><br><i>{english}</i>",
         39: "{english}",
         40: "{question}"
             "<br><br><i>{english}</i>",
-        41: "{question}"
+        41: "{english}",
+        42: "{question}"
+            "<br><br><i>{english}</i>",
+        43: "{question}"
             "<br><br><i>{english}</i>",
     },
 

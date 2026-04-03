@@ -663,6 +663,7 @@ FEEDBACK_EN = {
         15: "{english} = {correct_answers}",
         16: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>{case_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         17: "{gender_english}, {case_english} → {correct_answers}",
         18: "{german}"
@@ -684,46 +685,51 @@ FEEDBACK_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
 
-        24: "{english} \u25CF {case_english} = {correct_answers}",
+        24: "{english} = {correct_answers}",
         25: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{case_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        26: "{english} \u25CF {case_english} = {correct_answers}",
+        27: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{person} \u25CF {case_english} → {first_correct_answer}"
             "<br><br>Correct answer(s): {correct_answers}",
-        26: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>{gender_english}, {case_english} → {correct_answers}",
-        27: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>{gender_english}, {case_english} → {correct_answers}",
         28: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        29: "{german}, {gender_english}, {case_english} → {correct_answers}",
-        30: "{german}"
+            "<br><br>{gender_english}, {case_english} → {correct_answers}",
+        29: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
+        30: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
         31: "{german}, {gender_english}, {case_english} → {correct_answers}",
         32: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
-
-        33: "{english}, {gender_english}, {case_english} → {correct_answers}",
+        33: "{german}, {gender_english}, {case_english} → {correct_answers}",
         34: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
+
         35: "{english}, {gender_english}, {case_english} → {correct_answers}",
         36: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
-        37: "{english} = {correct_answers}",
+        37: "{english}, {gender_english}, {case_english} → {correct_answers}",
         38: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>{gender_english}, {case_english} → {correct_answers}",
         39: "{english} = {correct_answers}",
         40: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
-        41: "{german}"
+        41: "{english} = {correct_answers}",
+        42: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        43: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>Correct answer(s): {correct_answers}",
     },

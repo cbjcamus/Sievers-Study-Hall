@@ -229,8 +229,8 @@ grammatik,pronomen,27,pronomen 27,B2
 grammatik,pronomen,28,pronomen 28,B2
 grammatik,pronomen,29,pronomen 29,B2
 grammatik,pronomen,30,pronomen 30,B2
-grammatik,pronomen,31,pronomen 31,C1
-grammatik,pronomen,32,pronomen 32,C1
+grammatik,pronomen,31,pronomen 31,B2
+grammatik,pronomen,32,pronomen 32,B2
 grammatik,pronomen,33,pronomen 33,C1
 grammatik,pronomen,34,pronomen 34,C1
 grammatik,pronomen,35,pronomen 35,C1
@@ -240,6 +240,8 @@ grammatik,pronomen,38,pronomen 38,C1
 grammatik,pronomen,39,pronomen 39,C1
 grammatik,pronomen,40,pronomen 40,C1
 grammatik,pronomen,41,pronomen 41,C1
+grammatik,pronomen,42,pronomen 42,C1
+grammatik,pronomen,43,pronomen 43,C1
 grammatik,konnektoren,1,konnektoren 1,A1
 grammatik,konnektoren,2,konnektoren 2,A1
 grammatik,konnektoren,3,konnektoren 3,A2
