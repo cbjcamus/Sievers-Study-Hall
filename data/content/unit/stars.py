@@ -1,0 +1,59 @@
+from data.data_processing.units import (
+    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
+    artikel, pronomen, praepositionen_artikel, verben_artikel,
+    konnektoren, fragen, adverbien, wortstellung,
+    genus_regeln, genus, plural,
+    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
+    verben, trennbare_verben, nomen_verben_verbindungen,
+    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
+    zahlen,
+)
+
+from webapp.style.icons import STAR_GOLD, STAR_SILVER
+
+STARS = {
+    praepositionen: f"{STAR_GOLD}",
+    praepositionen_verben: f"{STAR_GOLD}",
+    praepositionen_adjektive: f"",
+    praepositionen_nomen: f"",
+    pronominaladverbien: f"",
+
+    artikel: f"{STAR_GOLD}",
+    pronomen: f"",
+    praepositionen_artikel: f"",
+    verben_artikel: f"",
+
+    konnektoren: f"{STAR_GOLD}",
+    fragen: f"",
+    adverbien: f"{STAR_GOLD}",
+    wortstellung: f"",
+
+    genus_regeln: f"{STAR_GOLD}",
+    genus: f"{STAR_GOLD}",
+    plural: f"",
+
+    adjektive: f"",
+    komparativ_superlativ: f"",
+    adjektivdeklinationen: f"",
+    adjektive_konjunktionen: f"",
+
+    verben: f"{STAR_GOLD}",
+    trennbare_verben: f"{STAR_GOLD}",
+    nomen_verben_verbindungen: f"",
+
+    praesens: f"",
+    imperativ: f"",
+    partizip_II: f"{STAR_GOLD}",
+    praeteritum: f"{STAR_GOLD}",
+    praeteritum_partizip_II: f"",
+    konjunktiv_II: f"",
+    konjunktiv_I: f"",
+    partizip_I: f"",
+
+    nomen_verben_wortstaemme: f"",
+    adjektive_verben_wortstaemme: f"",
+    adjektive_nomen_wortstaemme: f"",
+
+    zahlen: f"",
+}

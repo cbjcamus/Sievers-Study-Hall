@@ -12,6 +12,12 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .input-authorization {
+        font-size: 13px;
+    }
+}
+
 body.day-mode .input-authorization {
     color: black;
     border: 2px solid black;

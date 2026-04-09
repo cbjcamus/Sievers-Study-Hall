@@ -1,4 +1,4 @@
-{% macro render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, force_full_bookmark, icon_full, icon_empty, bookmark_id) %}
+{% macro render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, force_full_bookmark, icon_full, icon_empty, icon_flag, bookmark_id) %}
 
     {% if is_feedback_box and result %}
         {% if result == 'correct' %}
@@ -13,7 +13,9 @@
                             class="flag-button"
                             title="Flag this answer as having an error"
                             onclick="toggleFlagForm(this)">
-                        &#127987;
+                        <img src="{{ url_for('static', filename=icon_flag) }}"
+                             alt="Flag"
+                             class="flag-icon">
                     </button>
 
                     <form action="{{ url_for('routes.flag_question', unit=unit, exercise=exercise) }}"
@@ -37,8 +39,8 @@
           <form method="post"
                 action="{{ url_for('routes.toggle_bookmark') }}"
                 class="bookmark-form"
-                data-icon-full="{{ url_for('static', filename='bookmarks/' ~ icon_full) }}"
-                data-icon-empty="{{ url_for('static', filename='bookmarks/' ~ icon_empty) }}">
+                data-icon-full="{{ url_for('static', filename=icon_full) }}"
+                data-icon-empty="{{ url_for('static', filename=icon_empty) }}">
 
             {# If bookmark_id is provided (bookmarks page), use it #}
             {% if bookmark_id is defined %}
@@ -60,9 +62,9 @@
               <img
                 class="bookmark-icon"
                 src="{% if force_full_bookmark or is_bookmarked %}
-                        {{ url_for('static', filename='bookmarks/' ~ icon_full) }}
+                        {{ url_for('static', filename=icon_full) }}
                      {% else %}
-                        {{ url_for('static', filename='bookmarks/' ~ icon_empty) }}
+                        {{ url_for('static', filename=icon_empty) }}
                      {% endif %}"
                 alt="bookmark icon">
             </button>
@@ -83,7 +85,9 @@
                             class="flag-button"
                             title="Flag this answer as having an error"
                             onclick="toggleFlagForm(this)">
-                        &#127987;
+                        <img src="{{ url_for('static', filename=icon_flag) }}"
+                             alt="Flag"
+                             class="flag-icon">
                     </button>
 
                     <form action="{{ url_for('routes.flag_question', unit=unit, exercise=exercise) }}"
@@ -107,8 +111,8 @@
                 <form method="post"
                       action="{{ url_for('routes.toggle_bookmark') }}"
                       class="bookmark-form"
-                      data-icon-full="{{ url_for('static', filename='bookmarks/' ~ icon_full) }}"
-                      data-icon-empty="{{ url_for('static', filename='bookmarks/' ~ icon_empty) }}">
+                      data-icon-full="{{ url_for('static', filename=icon_full) }}"
+                      data-icon-empty="{{ url_for('static', filename=icon_empty) }}">
 
                   <input type="hidden" name="unit" value="{{ unit }}">
                   <input type="hidden" name="exercise" value="{{ exercise }}">
@@ -124,9 +128,9 @@
                       <img
                           class="bookmark-icon"
                           src="{% if force_full_bookmark or is_bookmarked %}
-                                  {{ url_for('static', filename='bookmarks/' ~ icon_full) }}
+                                  {{ url_for('static', filename=icon_full) }}
                                {% else %}
-                                  {{ url_for('static', filename='bookmarks/' ~ icon_empty) }}
+                                  {{ url_for('static', filename=icon_empty) }}
                                {% endif %}"
                           alt="bookmark icon">
                     </button>

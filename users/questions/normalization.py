@@ -1,16 +1,14 @@
 import unicodedata
 import string
-import pandas as pd
-from flask import session, request
 
 from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms
 from data.data_processing.exercise_type import get_answer_column, is_exercise_multiple_choice, is_exercise_synonym
 
-from webapp.i18n import get_language
+from data.data_processing.data_loading import load_data_question
 
 
-def get_correct_answer(unit, exercise, question_data):
-    language = get_language(request, session)
+def get_correct_answer(unit, exercise, question_id, language):
+    question_data = load_data_question(unit, exercise, question_id)
 
     if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise) == "foreign":
         return question_data.get(language, "")
@@ -18,7 +16,7 @@ def get_correct_answer(unit, exercise, question_data):
         return question_data.get("answer", "")
 
 
-def is_user_answer_correct(user_answer, correct_answer, question, unit, exercise):
+def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
     """
     Determines whether the user's answer is correct, with optional support for multiple correct answers
     and unit-specific normalization and synonym handling.
@@ -38,9 +36,15 @@ def is_user_answer_correct(user_answer, correct_answer, question, unit, exercise
 
     Returns:
         bool: True if the answer is correct, False otherwise.
+        :param exercise:
     """
 
-    if is_exercise_synonym(unit, exercise) and user_answer == question:
+    question_data = load_data_question(unit, exercise, question_id)
+    question_text = str(question_data["question"])
+
+    correct_answer = get_correct_answer(unit, exercise, question_id, language)
+
+    if is_exercise_synonym(unit, exercise) and user_answer == question_text:
         return False
 
     user_answer = normalize_answer(user_answer, unit)
@@ -170,7 +174,6 @@ def get_list_of_correct_answers(correct_answer, unit):
     Args:
         correct_answer (str): The expected answer or list of acceptable answers separated by '/'.
         unit (str): The unit used to retrieve the appropriate synonym mappings.
-        file_path (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
 
     Returns:
         str: A comma-separated list of valid correct answers and synonyms.
@@ -223,7 +226,7 @@ def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
     Args:
         input_str (str): The input string to look up.
         unit (str): The unit used to filter the relevant synonym entries.
-        csv_file (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
+        df_synonyms (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
 
     Returns:
         str: The main synonym for the input string, or the original string if no match is found.

@@ -38,6 +38,7 @@
         force_full_bookmark=False,
         icon_full=icon_full,
         icon_empty=icon_empty,
+        icon_flag=icon_flag,
     ) }}
 
     <div class="next-exercise-button-container">
@@ -59,16 +60,40 @@
         <p>{{ your_incorrect_answers }}</p>
 
         {% for i in range(number_of_incorrect_answers) %}
-            <div class="feedback-incorrect-container">
-                <p>{{ feedbacks[i] | safe }}</p>
-                <p>{{ your_answer }} {{ incorrect_answers[i] | safe }} {{ incorrect_questions[i] | safe }}</p>
-            </div>
+            {{ render_feedback(
+                    unit=unit,
+                    exercise=exercise,
+                    is_feedback_box=is_feedback_box,
+                    result='incorrect',
+                    feedback_message=feedbacks[i],
+                    your_answer=your_answer,
+                    user_answer=incorrect_answers[i],
+                    incorrect_question=incorrect_questions[i],
+                    current_user=current_user,
+                    force_full_bookmark=False,
+                    icon_full=icon_full,
+                    icon_empty=icon_empty,
+                    icon_flag=icon_flag,
+                ) }}
         {% endfor %}
     {% endif %}
 
-    <div>
+    <script src="{{ url_for('static', filename='js/flags.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/bookmarks.js') }}" defer></script>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <p class="flash-message {{ category }}">{{ message | safe }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <div class="back-button-container">
         <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">
-            <button type="submit" class="submit-button">{{ refresh }} &#8634;</button>
+            <button type="submit" class="back-button">{{ refresh }} &#8634;</button>
             <input type="hidden" name="guidance" value="true">
         </form>
     </div><br>
@@ -81,5 +106,15 @@
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>
     </div>
 
+    <script>
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            const btn = document.querySelector(".next-exercise-button");
+            if (btn) {
+                btn.click();
+            }
+        }
+    });
+    </script>
 </body>
 </html>

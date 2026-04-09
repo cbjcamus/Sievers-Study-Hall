@@ -6,8 +6,7 @@ from flask_login import LoginManager
 from flask_migrate import Migrate
 
 from webapp.routes import routes_bp
-from users.users.models import db, User
-from users.progress.models import UserExerciseState  # noqa: F401
+from users.users.models import db, User, UserExerciseState
 
 app = Flask(__name__,
             static_url_path='/webapp/static',

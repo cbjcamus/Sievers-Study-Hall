@@ -169,6 +169,18 @@ h2 {
     font-weight: normal;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    body {
+        font-size: 14px;
+    }
+}
+
 .section {
     text-align: left;
     margin-bottom: 15px;
@@ -188,6 +200,12 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 13px;
+    }
 }
 
 body.day-mode .button {

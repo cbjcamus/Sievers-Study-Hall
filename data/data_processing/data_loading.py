@@ -47,3 +47,13 @@ def load_data_level(unit, exercise):
     data = pre_processing(data, unit, exercise)
     return data.fillna("")
 
+
+def load_data_question(unit, exercise, question_id):
+    if question_id is None:
+        return None
+
+    df = load_data_exercise(unit, exercise)
+
+    question_data = df[df["Nr"] == int(question_id)].iloc[0]
+
+    return question_data

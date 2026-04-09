@@ -1,7 +1,8 @@
 from flask_login import current_user
 
-from users.progress.models import UserExerciseState
 from data.data_processing.total_questions import highest_exercise, total_question_exercises
+
+from users.users.models import UserExerciseState
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 

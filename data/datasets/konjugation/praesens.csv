@@ -9,10 +9,10 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 8,2,,,mögen,to like,"aimer, apprécier",mag,magst,mag,mögen,mögt,mögen
 9,2,,,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",darf,darfst,darf,dürfen,dürft,dürfen
 10,2,,,wissen,"to know, to have knowledge",savoir,weiß,weißt,weiß,wissen,wisst,wissen
-11,3,,,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)",mache,machst,macht,machen,macht,machen
+11,3,,,machen,"to make, to prepare, to do","faire, préparer",mache,machst,macht,machen,macht,machen
 12,3,,,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",tue,tust,tut,tun,tut,tun
 13,3,,,sagen,"to say, to tell","dire, raconter",sage,sagst,sagt,sagen,sagt,sagen
-14,3,,,gehen,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)",gehe,gehst,geht,gehen,geht,gehen
+14,3,,,gehen,"to go, to leave, to work, to function (coll.), to be going (Dat.), to be all right (Dat.)","aller, partir, fonctionner (familier)",gehe,gehst,geht,gehen,geht,gehen
 15,3,,,sehen,"to see, to realise","voir, se rendre compte",sehe,siehst,sieht,sehen,seht,sehen
 16,4,,,geben,to give,donner,gebe,gibst,gibt,geben,gebt,geben
 17,4,,,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire",komme,kommst,kommt,kommen,kommt,kommen
@@ -187,7 +187,7 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 186,38,,,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to","pratiquer (sport), propulser, mettre en avant, pousser (au sens figuré), baiser, flotter, germer, se lever",treibe,treibst,treibt,treiben,treibt,treiben
 187,38,,,tanzen,to dance,danser,tanze,tanzt,tanzt,tanzen,tanzt,tanzen
 188,38,,,studieren,"to study, to major in (a subject)","étudier, se spécialiser dans (une matière)",studiere,studierst,studiert,studieren,studiert,studieren
-189,38,,,schmecken,"to taste, to be tasty",être savoureux,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken
+189,38,,,schmecken,"to taste, to be tasty, to enjoy (with Dat.)","être savoureux, apprécier (avec Dat.)",schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken
 190,38,,,mitteilen,"to inform, to notify, to communicate","informer, notifier, communiquer",teile mit,teilst mit,teilt mit,teilen mit,teilt mit,teilen mit
 191,39,,,streiten,"to argue, to fight, to quarrel","se disputer, se battre, se quereller",streite,streitest,streitet,streiten,streitet,streiten
 192,39,,,entwickeln,"to develop, to evolve, to create","développer, évoluer, créer",entwickle,entwickelst,entwickelt,entwickeln,entwickelt,entwickeln

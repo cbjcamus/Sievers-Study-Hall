@@ -1,19 +1,12 @@
 import random
 
-from flask import session, request
 from flask_login import current_user
 
-from data.data_processing.units import adverbien, konnektoren, fragen, trennbare_verben, praepositionen_verben, \
-    praepositionen_adjektive, praepositionen_nomen, adjektive, adjektive_nomen_wortstaemme, \
-    adjektive_verben_wortstaemme, nomen_verben_wortstaemme
+from data.data_processing.data_loading import (load_data_exercise, load_data_level, load_data_question)
+from data.data_processing.exercise_type import get_answer_column, is_exercise_multiple_choice
 
-from data.data_processing.data_loading import (load_data_unit, load_data_exercise, load_data_level)
-from data.data_processing.exercise_type import get_answer_column, get_question_column, is_exercise_multiple_choice
-
-from users.progress.models import UserExerciseState
-from users.session_management.verification_session import is_key_in_exercise, init_session_key
-
-from webapp.i18n import get_language
+from users.users.models import UserExerciseState
+from users.session_management.verification_session import init_session_key
 
 
 def pick_a_question(session, unit, exercise):
@@ -59,7 +52,26 @@ def pick_a_question(session, unit, exercise):
         return None
 
     random_question = filtered_data.sample(1).iloc[0]
-    return random_question
+    return random_question["Nr"]
+
+
+def get_options_for_multiple_choice_exercises(unit, exercise, question_ID, language):
+    if is_exercise_multiple_choice(unit, exercise) is False:
+        return None
+
+    question_data = load_data_question(unit, exercise, question_ID)
+
+    other_options = pick_other_options(unit, exercise, question_data)
+
+    if get_answer_column(unit, exercise) == "foreign":
+        other_question_text = [str(option[language]) for option in other_options]
+        options_text = shuffle_options(str(question_data[language]), other_question_text)
+
+    else:
+        other_question_text = [str(option["answer"]) for option in other_options]
+        options_text = shuffle_options(str(question_data["answer"]), other_question_text)
+
+    return options_text
 
 
 def pick_other_options(unit, exercise, question):
@@ -89,129 +101,3 @@ def shuffle_options(correct_answer, other_answers):
     options = [correct_answer] + other_answers
     random.shuffle(options)
     return options
-
-
-def get_options_for_multiple_choice_exercises(unit, exercise, question_data):
-    other_options = pick_other_options(unit, exercise, question_data)
-
-    language = get_language(request, session)
-
-    if get_answer_column(unit, exercise) == "foreign":
-        other_question_text = [str(option[language]) for option in other_options]
-        options_text = shuffle_options(str(question_data[language]), other_question_text)
-
-    else:
-        other_question_text = [str(option["answer"]) for option in other_options]
-        options_text = shuffle_options(str(question_data["answer"]), other_question_text)
-
-    return options_text
-
-
-def is_exercise_finished(session, unit, exercise):
-    """
-    Determines whether a given exercise has been completed by the user.
-
-    The exercise is considered finished if:
-    - All question IDs in the data match those stored in session['progress'].
-    - OR no more questions are available to pick.
-    - OR a 'result' key exists in the session for that unit and exercise.
-
-    Args:
-        session (dict): The session dictionary tracking user progress.
-        unit (str): The unit identifier.
-        exercise (str or int): The exercise identifier (converted to string for lookup).
-
-    Returns:
-        bool: True if the exercise is complete, False otherwise.
-    """
-    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
-
-    if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id, unit=unit, exercise=ex_int
-        ).first()
-        if row and row.completed_at:
-            return True
-
-    if is_key_in_exercise(session, unit, exercise, 'progress'):
-        data = load_data_exercise(unit, exercise)
-
-        answered_nrs = set(session[unit][str(exercise)]['progress'])
-
-        if set(data["Nr"].astype(str)) == answered_nrs:
-            return True
-
-    if is_key_in_exercise(session, unit, exercise, 'result'):
-        return True
-
-    if pick_a_question(session, unit, exercise) is None:
-        return True
-
-    else:
-        return False
-
-
-def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer, question_text):
-
-    if result != "incorrect":
-        return ""
-
-    elif is_exercise_multiple_choice(unit, exercise) is True:
-        data = load_data_level(unit, exercise)
-        language = get_language(request, session)
-
-        if get_question_column(unit, exercise) == "foreign":
-            match = data.loc[data['answer'] == incorrect_answer, language]
-
-        else:
-            match = data.loc[data[language] == incorrect_answer, 'question']
-
-        if not match.empty:
-            question = match.iloc[0]
-            return f"(<i>{question}</i>)"
-        else:
-            return None
-
-    elif unit in [konnektoren, adverbien, fragen, trennbare_verben, adjektive,
-                  adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
-        data = load_data_unit(unit)
-        language = get_language(request, session)
-
-        match = data.loc[data['answer'] == incorrect_answer, language]
-
-        if not match.empty:
-            question = match.iloc[0]
-            return f"(<i>{question}</i>)"
-        else:
-            return ""
-
-    elif unit in [praepositionen_verben, praepositionen_adjektive, praepositionen_nomen]:
-        if question_text == "":
-            return ""
-
-        data = load_data_unit(unit)
-        language = get_language(request, session)
-
-        combination = get_combination_from_question_text(unit, question_text, incorrect_answer)
-
-        match_explanation = data.loc[data["combination"] == combination, f"explanation_{language}"]
-        if match_explanation.empty:
-            return ""
-
-        else:
-            match_explanation = match_explanation.iloc[0]
-            return f"<br><br><i>{match_explanation}</i>"
-
-    else:
-        return ""
-
-
-def get_combination_from_question_text(unit, question_text, incorrect_answer):
-    data = load_data_unit(unit)
-
-    correct_combination = data.loc[data["question"] == question_text, f"combination"].iloc[0]
-    correct_question_text = data.loc[data["combination"] == correct_combination, f"question"].iloc[0]
-    combination = correct_question_text.replace("_____", incorrect_answer)
-
-    return combination

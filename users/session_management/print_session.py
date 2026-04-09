@@ -3,7 +3,7 @@ import json
 from data.data_processing.units import units
 
 from flask_login import current_user
-from users.progress.models import UserExerciseState
+from users.users.models import UserExerciseState
 
 
 def print_complete_session(session):

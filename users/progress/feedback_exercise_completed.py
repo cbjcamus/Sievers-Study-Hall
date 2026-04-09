@@ -1,16 +1,13 @@
 import pandas as pd
 
-from flask import session, request
 from flask_login import current_user
 
+from data.content.exercise.content_exercises import FEEDBACK
 from data.data_processing.data_loading import load_data_exercise
-from data.data_processing.exercise_type import is_exercise_multiple_choice
+from data.data_processing.exercise_type import is_exercise_multiple_choice, get_answer_column
 
-from users.progress.models import UserExerciseState
-from users.questions.normalization import get_list_of_correct_answers
-
-from webapp.i18n import get_language
-from webapp.content.exercise.content_exercises import FEEDBACK
+from users.users.models import UserExerciseState
+from users.questions.normalization import get_list_of_correct_answers, get_first_correct_answer
 
 
 def get_incorrect_answers(session, unit, exercise):
@@ -59,7 +56,7 @@ def get_incorrect_answers(session, unit, exercise):
         return incorrect_answers, number_of_incorrect_answers
 
 
-def get_feedback_exercise(session, unit, exercise):
+def get_feedback_exercise(session, unit, exercise, language):
     """
     Generates detailed feedback for all incorrect answers from a given exercise.
 
@@ -108,11 +105,11 @@ def get_feedback_exercise(session, unit, exercise):
     data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
     data = data.sort_values("Nr")
 
-    feedbacks = format_feedback(data, unit, exercise)
+    feedbacks = format_feedback(data, unit, exercise, language)
     return feedbacks
 
 
-def format_feedback(df, unit, exercise):
+def format_feedback(df, unit, exercise, language):
     """
     Formats feedback messages for each row in a DataFrame using a predefined template.
 
@@ -129,13 +126,12 @@ def format_feedback(df, unit, exercise):
     Returns:
         list: A list of formatted feedback strings, one for each row in the DataFrame.
     """
-    language = get_language(request, session)
     template = FEEDBACK[language][unit][exercise]
     result = []
 
     for _, row in df.iterrows():
 
-        if is_exercise_multiple_choice(unit, exercise) is True:
+        if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise) == "foreign":
             correct_answers = row.get(language, "")
         else:
             correct_answers = get_list_of_correct_answers(row.get("answer", ""), unit)
@@ -144,7 +140,7 @@ def format_feedback(df, unit, exercise):
             previous_question=row.get("question", ""),
             correct_answer=row.get("answer", ""),
             correct_answers=correct_answers,
-            first_correct_answer=row.get("first_correct_answer", ""),
+            first_correct_answer=get_first_correct_answer(row.get("answer", "")),
             german=row.get("german", ""),
             english=row.get("english", ""),
             french=row.get("french", ""),
@@ -165,5 +161,9 @@ def format_feedback(df, unit, exercise):
             root_english=row.get("root_english", ""),
             root_french=row.get("root_french", ""),
         )
+
+        formatted = formatted.replace("→ ", "→&nbsp;")
+        formatted = formatted.replace("= ", "=&nbsp;")
+
         result.append(formatted)
     return result

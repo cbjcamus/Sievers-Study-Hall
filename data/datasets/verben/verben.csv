@@ -9,10 +9,10 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 8,1,,mögen,mögen,to like,"aimer, apprécier",,
 9,1,,dürfen,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",,
 10,1,,wissen,wissen,"to know, to have knowledge",savoir,,
-11,1,,machen,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)",Sometimes Reflexive,Parfois Réfléchi
+11,1,,machen,machen,"to make, to prepare, to do","faire, préparer",Sometimes Reflexive,Parfois Réfléchi
 12,1,,tun,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",Sometimes Reflexive,Parfois Réfléchi
 13,1,,sagen,sagen,"to say, to tell","dire, raconter",Sometimes Reflexive,Parfois Réfléchi
-14,1,,gehen,gehen,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)",Sometimes Reflexive,Parfois Réfléchi
+14,1,,gehen,gehen,"to go, to leave, to work, to function (coll.), to be going (Dat.), to be all right (Dat.)","aller, partir, fonctionner (familier)",Sometimes Reflexive,Parfois Réfléchi
 15,1,,sehen,sehen,"to see, to realise","voir, se rendre compte",Sometimes Reflexive,Parfois Réfléchi
 16,1,,geben,geben,to give,donner,Sometimes Reflexive,Parfois Réfléchi
 17,1,,kommen,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire",Sometimes Reflexive,Parfois Réfléchi
@@ -46,7 +46,7 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 45,3,,versuchen,versuchen,"to try, to attempt","essayer, tenter",,
 46,3,,erzählen,erzählen,"to tell, to narrate","raconter, narrer",,
 47,3,,fragen,fragen,"to ask, to wonder (refl.)","demander, se demander (réfl.)",,
-48,3,,treffen,treffen,"to meet (refl.), to encounter (refl.), to hit, to affect","rencontrer (refl.), se rencontrer (refl.), heurter, frapper",Sometimes Reflexive,Parfois Réfléchi
+48,3,,treffen/sich treffen,treffen,"to meet (refl.), to encounter (refl.), to hit, to affect","rencontrer (refl.), se rencontrer (refl.), heurter, frapper",Mostly Reflexive,Principalement Réfléchi
 49,3,,hoffen,hoffen,to hope,espérer,,
 50,3,,suchen,suchen,"to seek, to search","chercher, rechercher",,
 51,3,,trinken,trinken,to drink,boire,,
@@ -187,7 +187,7 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 186,10,,treiben,treiben,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to","pratiquer (sport), propulser, mettre en avant, pousser (au sens figuré), baiser, flotter, germer, se lever",Sometimes Reflexive,Parfois Réfléchi
 187,10,,tanzen,tanzen,to dance,danser,,
 188,10,,studieren,studieren,"to study, to major in (a subject)","étudier, se spécialiser dans (une matière)",,
-189,10,,schmecken,schmecken,"to taste, to be tasty",être savoureux,,
+189,10,,schmecken,schmecken,"to taste, to be tasty, to enjoy (with Dat.)","être savoureux, apprécier (avec Dat.)",,
 190,10,,mitteilen,mitteilen,"to inform, to notify, to communicate","informer, notifier, communiquer",,
 191,10,,streiten,streiten,"to argue, to fight, to quarrel","se disputer, se battre, se quereller",Sometimes Reflexive,Parfois Réfléchi
 192,10,,entwickeln,entwickeln,"to develop, to evolve, to create","développer, évoluer, créer",Sometimes Reflexive,Parfois Réfléchi
@@ -256,7 +256,7 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 255,12,,besichtigen,besichtigen,"to visit, to tour, to inspect","visiter, faire un tour, inspecter",,
 256,12,,spazieren,spazieren,"to stroll, to walk leisurely","flâner, marcher tranquillement",,
 257,12,,wandern,wandern,"to hike, to wander, to migrate","faire de la randonnée, errer, migrer",,
-258,12,,surfen,surfen,to surf (waves or the internet),surfer (sur les vagues ou sur Internet),,
+258,12,,surfen,surfen,to surf,surfer,,
 259,12,,trainieren,trainieren,"to train, to practice, to coach","entraîner, pratiquer, coacher",Sometimes Reflexive,Parfois Réfléchi
 260,12,,erreichen,erreichen,"to reach, to achieve, to attain","atteindre, réaliser, parvenir",,
 261,12,,stecken,stecken,"to stick, to pin","coller, épingler",Sometimes Reflexive,Parfois Réfléchi
@@ -456,7 +456,7 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 455,17,besichtigen,,besichtigen,"to visit, to tour, to inspect","visiter, faire un tour, inspecter",,
 456,17,spazieren,,spazieren,"to stroll, to walk leisurely","flâner, marcher tranquillement",,
 457,17,wandern,,wandern,"to hike, to wander, to migrate","faire de la randonnée, errer, migrer",,
-458,17,surfen,,surfen,to surf (waves or the internet),surfer (sur les vagues ou sur Internet),,
+458,17,surfen,,surfen,to surf,surfer,,
 459,17,trainieren,,trainieren,"to train, to practice, to coach","entraîner, pratiquer, coacher",Sometimes Reflexive,Parfois Réfléchi
 460,17,erreichen,,erreichen,"to reach, to achieve, to attain","atteindre, réaliser, parvenir",,
 461,17,stecken,,stecken,"to stick, to pin","coller, épingler",Sometimes Reflexive,Parfois Réfléchi

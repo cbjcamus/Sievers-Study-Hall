@@ -2,13 +2,13 @@ from flask_login import current_user
 
 from datetime import datetime
 
-from users.users.models import db
-from users.progress.models import UserExerciseState
+from data.data_processing.total_questions import total_question_exercises
+from users.session_management.session_update import update_session_dictionary, add_new_id_in_session
 
+from users.users.models import db, UserExerciseState
 from users.progress.score import compute_score
 from users.session_management.logging import log_exercise_completed
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
-from data.data_processing.total_questions import total_question_exercises
 
 
 def register_progress(session, unit, exercise, nr):
@@ -59,11 +59,13 @@ def register_progress(session, unit, exercise, nr):
         return
 
     else:
-        if (unit, exercise) not in session['unfinished_exercise']:
-            session['unfinished_exercise'].append((unit, exercise))
+        #if (unit, exercise) not in session['unfinished_exercise']:
+        #    session['unfinished_exercise'].append((unit, exercise))
 
         init_session_key(session, unit, exercise, 'progress')
         session[unit][str(exercise)]['progress'].append(nr)
+
+        # add_new_id_in_session(session, "current_exercise", "progress", nr)
         return
 
 
@@ -122,14 +124,13 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
         return
 
     else:
-        if (unit, exercise) not in session['unfinished_exercise']:
-            session['unfinished_exercise'].append((unit, exercise))
+        # if (unit, exercise) not in session['unfinished_exercise']:
+        #     session['unfinished_exercise'].append((unit, exercise))
 
         init_session_key(session, unit, exercise, 'falses')
         session[unit][str(exercise)]['falses'].append(nr)
 
-        # init_session_key(session, unit, exercise, 'incorrect_answer')
-        # session[unit][str(exercise)]['incorrect_answer'].append(incorrect_answer)
+        # add_new_id_in_session(session, "current_exercise", "falses", nr)
     return
 
 
@@ -183,10 +184,17 @@ def register_result(session, unit, exercise, feedback):
             db.session.add(row)
 
         # Persist only canonical completion state; drop per-question JSON
+        '''row.state = {
+            "score": score_final,
+            "total_questions": total_q,
+        }'''
+        old_state = row.state or {}
         row.state = {
+            **old_state,
             "score": score_final,
             "total_questions": total_q,
         }
+
         row.completed_at = datetime.utcnow()
         row.updated_at = row.completed_at
         db.session.commit()

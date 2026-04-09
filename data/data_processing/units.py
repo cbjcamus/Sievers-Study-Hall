@@ -1,13 +1,15 @@
-praepositionen_grammatik = 'praepositionen_grammatik'
+praepositionen = 'praepositionen'
 praepositionen_verben = 'praepositionen_verben'
 praepositionen_adjektive = 'praepositionen_adjektive'
 praepositionen_nomen = 'praepositionen_nomen'
 praepositionen_adverbien = 'praepositionen_adverbien'
 pronominaladverbien = 'pronominaladverbien'
-praepositionen_artikel = 'praepositionen_artikel'
 
 artikel = 'artikel'
 pronomen = 'pronomen'
+praepositionen_artikel = 'praepositionen_artikel'
+verben_artikel = 'verben_artikel'
+
 konnektoren = 'konnektoren'
 fragen = 'fragen'
 adverbien = 'adverbien'
@@ -42,9 +44,9 @@ adjektive_nomen_wortstaemme = 'adjektive_nomen_wortstaemme'
 zahlen = 'zahlen'
 
 units = [
-    praepositionen_grammatik, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen,
-    praepositionen_adverbien, praepositionen_artikel, pronominaladverbien,
-    artikel, pronomen, konnektoren, fragen, adverbien, wortstellung,
+    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
+    artikel, pronomen, praepositionen_artikel, verben_artikel,
+    konnektoren, fragen, adverbien, wortstellung,
     genus_regeln, genus, plural,
     verben, trennbare_verben, nomen_verben_verbindungen,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,

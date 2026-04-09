@@ -73,16 +73,43 @@ def are_special_characters_enabled():
 
 def get_filename_empty_bookmark():
     if get_theme() == 'day':
-        return "empty_day.png"
+        return "icons/bookmark/empty_day.png"
     else:
-        return "empty.png"
+        return "icons/bookmark/empty.png"
 
 
 def get_filename_full_bookmark():
     if get_theme() == 'day':
-        return "full_day.png"
+        return "icons/bookmark/full_day.png"
     else:
-        return "full.png"
+        return "icons/bookmark/full.png"
+
+
+def get_filename_flag():
+    if get_theme() == 'day':
+        return "icons/flag/flag_black.png"
+    else:
+        return "icons/flag/flag_white.png"
+
+
+class UserExerciseState(db.Model):
+    __tablename__ = "user_exercise_state"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False, index=True)
+    unit = db.Column(db.String(64), nullable=False)          # e.g., "verben", "adverbien"
+    exercise = db.Column(db.Integer, nullable=False)         # display number (1..N), can be shifted later
+    # Mirrors your session but keyed by stable content hashes (qids); structure example:
+    # { "correct_ids": ["qid1","qid2"], "incorrect": {"qid7": "mein falsches wort"} }
+    state = db.Column(db.JSON, nullable=False, default=dict)
+
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    completed_at = db.Column(db.DateTime, nullable=True)
+
+    __table_args__ = (
+        db.UniqueConstraint("user_id", "unit", "exercise", name="uq_user_unit_exercise"),
+        db.Index("idx_unit_exercise", "unit", "exercise"),
+    )
 
 
 class Bookmark(db.Model):

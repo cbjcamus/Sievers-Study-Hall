@@ -1,16 +1,17 @@
 import os
 from datetime import datetime
+from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 
+from flask import current_app
 from flask import render_template, request, redirect, url_for, flash, session
 from flask_login import login_user, current_user, logout_user, login_required
 
 from data.data_processing.units import units
 from data.data_processing.data_loading import load_data_exercise
-
-from users.users.models import db, User
-from users.progress.models import UserExerciseState
-from users.progress.service import make_qid
 from data.data_processing.total_questions import total_question_exercises
+
+from users.users.models import db, User, UserExerciseState
+from users.users.service import make_qid
 from users.session_management.logging import log_new_signup
 
 from webapp.i18n import get_language
@@ -18,8 +19,6 @@ from webapp.routes.settings_api import get_or_create_settings
 
 from . import routes_bp
 
-from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
-from flask import current_app
 
 RESET_SALT = "password-reset"  # just a constant string
 

@@ -2,43 +2,39 @@ from flask import render_template, session, request, redirect, url_for, flash, j
 from flask_login import current_user
 from typing import cast
 
-from . import routes_bp
+from data.content.unit.unit_page import UNIT_PAGE
+from data.content.unit.title_page import TITLE_PAGE
+from data.content.unit.back_button import BACK_BUTTON
 
-from data.data_processing.levels import get_level_from_exercise
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.data_loading import load_data_exercise
 from data.data_processing.exercise_type import is_exercise_multiple_choice
-from data.data_processing.total_questions import total_question_exercises, highest_exercise
+from data.data_processing.total_questions import total_question_exercises
+from users.session_management.session_update import update_session_dictionary, read_feedback
 
-from users.users.models import db, is_feedback_enabled, Bookmark, get_filename_full_bookmark, \
-    get_filename_empty_bookmark
-from users.progress.models import UserExerciseState
+from users.users.models import db, is_feedback_enabled, get_filename_full_bookmark, \
+    get_filename_empty_bookmark, get_filename_flag, UserExerciseState
 
-from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, update_progress_in_session, get_next_exercise
-from users.progress.register_update import register_progress, register_result, register_incorrect_answer
-from users.progress.feedback_exercise_completed import get_feedback_exercise, get_incorrect_answers
+from users.progress.progress import compute_answered_questions, update_progress_in_session
+from users.progress.register_update import register_progress, register_incorrect_answer
+from users.progress.is_exercise_finished import is_exercise_finished
 
-from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, is_user_answer_correct, \
-    get_first_correct_answer
-from users.questions.pick_a_question import (pick_a_question, is_exercise_finished, get_question_from_incorrect_answer,
-                                             get_options_for_multiple_choice_exercises)
+from users.questions.normalization import is_user_answer_correct
+from users.questions.content_format import format_instruction, format_question, get_gender, get_guidance, \
+    format_feedback, get_question_from_incorrect_answer
+from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
+from .exercise_completed import render_exercise_completed_template
+
 from users.session_management.logging import log_question_flagged
 from users.session_management.verification_session import init_session_key, is_key_in_session
 
+from . import routes_bp
+
 from webapp.i18n import get_language
 
-from webapp.content.application.buttons import (BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, REFRESH, NEXT_EXERCISE)
-from webapp.content.application.text import YOUR_ANSWER, YOUR_INCORRECT_ANSWERS, FEEDBACK_LAST_QUESTION, \
-    YOUR_SCORE_FOR_THIS_EXERCISE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, EXERCISE_TITLE, ENTER_ANSWER_HERE, \
-    ADDITIONAL_HELP, CONSULT_FAQ, NOT_AUTHENTICATED
-from webapp.content.application.popup import get_popup_title, get_popup_text
+from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
+from data.content.application.popup import get_popup_title, get_popup_text
+from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT
 
-from ..content.unit.unit_content_by_language import GUIDANCE_UNIT
-from webapp.content.unit.unit_page import UNIT_PAGE
-from webapp.content.unit.title_page import TITLE_PAGE
-from webapp.content.unit.back_button import BACK_BUTTON
-from webapp.content.exercise.content_exercises import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE_EXERCISE
 
 session = cast(dict, session)
 
@@ -49,78 +45,14 @@ def guidance(unit, exercise):
     language = get_language(request, session)
 
     if is_exercise_finished(session, unit, exercise) is True:
-        feedback = session.pop("feedback", None) or {}
-        result = feedback.get("result")
-        feedback_message = feedback.get("feedback_message")
-        user_answer = feedback.get("user_answer")
-        previous_question = feedback.get("previous_question")
+        return render_exercise_completed_template(session, unit, exercise, language)
 
-        number_of_incorrect_answers = 0
-        incorrect_answers = []
-        feedbacks = []
+    update_session_dictionary(session, "current_exercise", "unit", unit)
+    update_session_dictionary(session, "current_exercise", "exercise", exercise)
 
-        register_result(session, unit, exercise, feedback)
+    guidance = get_guidance(unit, exercise, language)
 
-        if current_user.is_authenticated:
-            update_progress_in_session(session, unit)
-
-        next_exercise = get_next_exercise(unit, exercise, highest_exercise)
-        next_exercise_text = NEXT_EXERCISE[language]
-
-        current_user_not_authenticated = not current_user.is_authenticated
-
-        return render_template("exercise/exercise_completed.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               score=write_score,
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
-                               is_feedback_box=True,
-                               result=result,
-                               feedback_message=feedback_message,
-                               user_answer=user_answer,
-                               previous_question=previous_question,
-                               number_of_incorrect_answers=number_of_incorrect_answers,
-                               incorrect_answers=incorrect_answers,
-                               feedbacks=feedbacks,
-                               all_questions_successfully_answered=ALL_QUESTIONS_SUCCESSFULLY_ANSWERED[language],
-                               your_score_for_this_exercise=YOUR_SCORE_FOR_THIS_EXERCISE[language],
-                               feedback_last_question=FEEDBACK_LAST_QUESTION[language],
-                               your_incorrect_answers=YOUR_INCORRECT_ANSWERS[language],
-                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
-                               your_answer=YOUR_ANSWER[language],
-                               refresh=REFRESH[language],
-                               back_to=BACK_TO[language],
-                               icon_full=get_filename_full_bookmark(),
-                               icon_empty=get_filename_empty_bookmark(),
-                               next_exercise=next_exercise,
-                               next_exercise_text=next_exercise_text,
-                               current_user_not_authenticated=current_user_not_authenticated,
-                               not_authenticated_text=NOT_AUTHENTICATED[language],
-                               )
-
-    elif unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
-        guidance = GUIDANCE_EXERCISE[language][unit][exercise]
-        return render_template("exercise/guidance.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               guidance=guidance,
-                               additional_help=ADDITIONAL_HELP[language],
-                               consult_faq=CONSULT_FAQ[language],
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
-                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=total_question_exercises[unit][exercise],
-                               next=NEXT[language],
-                               back_to=BACK_TO[language],
-                               )
-
-    elif unit in GUIDANCE_UNIT[language]:
-        guidance = GUIDANCE_UNIT[language][unit]
+    if guidance:
         return render_template("exercise/guidance.html",
                                unit=unit,
                                exercise=exercise,
@@ -149,187 +81,48 @@ def exercise(unit, exercise):
     language = get_language(request, session)
 
     if is_exercise_finished(session, unit, exercise) is True:
-        feedback = session.pop("feedback", None) or {}
-        result = feedback.get("result")
-        feedback_message = feedback.get("feedback_message")
-        user_answer = feedback.get("user_answer")
-        previous_question = feedback.get("previous_question")
+        return render_exercise_completed_template(session, unit, exercise, language)
 
-        if current_user.is_authenticated:
-            incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
-            feedbacks = get_feedback_exercise(session, unit, exercise)
-            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, 'incorrect', incorrect_answer, "")
-                                   for incorrect_answer in incorrect_answers]
-        else:
-            number_of_incorrect_answers = 0
-            incorrect_answers = []
-            feedbacks = []
-            incorrect_questions = []
+    formated_instruction = format_instruction(unit, exercise, language)
 
-        register_result(session, unit, exercise, feedback)
+    question_id = pick_a_question(session, unit, exercise)
+    formated_question_text = format_question(unit, exercise, language, question_id)
 
-        if current_user.is_authenticated:
-            update_progress_in_session(session, unit)
+    result, user_answer, previous_question_id = read_feedback(session)
 
-        next_exercise = get_next_exercise(unit, exercise, highest_exercise)
-        next_exercise_text = NEXT_EXERCISE[language]
+    feedback_message = format_feedback(unit, exercise, language, previous_question_id)
+    previous_question = format_question(unit, exercise, language, previous_question_id)
+    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
 
-        current_user_not_authenticated = not current_user.is_authenticated
+    gender = get_gender(unit, exercise, language, question_id)
 
-        return render_template("exercise/exercise_completed.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               score=write_score,
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
-                               is_feedback_box=True,
-                               result=result,
-                               feedback_message=feedback_message,
-                               user_answer=user_answer,
-                               previous_question=previous_question,
-                               number_of_incorrect_answers=number_of_incorrect_answers,
-                               incorrect_answers=incorrect_answers,
-                               feedbacks=feedbacks,
-                               all_questions_successfully_answered=ALL_QUESTIONS_SUCCESSFULLY_ANSWERED[language],
-                               your_score_for_this_exercise=YOUR_SCORE_FOR_THIS_EXERCISE[language],
-                               feedback_last_question=FEEDBACK_LAST_QUESTION[language],
-                               your_incorrect_answers=YOUR_INCORRECT_ANSWERS[language],
-                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
-                               your_answer=YOUR_ANSWER[language],
-                               incorrect_questions=incorrect_questions,
-                               refresh=REFRESH[language],
-                               back_to=BACK_TO[language],
-                               icon_full=get_filename_full_bookmark(),
-                               icon_empty=get_filename_empty_bookmark(),
-                               next_exercise=next_exercise,
-                               next_exercise_text=next_exercise_text,
-                               current_user_not_authenticated=current_user_not_authenticated,
-                               not_authenticated_text=NOT_AUTHENTICATED[language],
-                               )
+    guidance_popup = get_guidance(unit, exercise, language)
 
-    question_data = pick_a_question(session, unit, exercise)
-
-    question_text = str(question_data["question"])
-    german = str(question_data.get("german", ""))
-    english = str(question_data.get("english", ""))
-    french = str(question_data.get("french", ""))
-    gender_english = question_data.get("gender_english", "")
-    gender_french = question_data.get("gender_french", "")
-    case_english = question_data.get("case_english", "")
-    case_french = question_data.get("case_french", "")
-    article_english = question_data.get("article_english", "")
-    article_french = question_data.get("article_french", "")
-    person = question_data.get("person", "")
-    prefix = question_data.get("prefix", "")
-    article = question_data.get("article", "")
-    adjective = question_data.get("adjective", "")
-    preposition = question_data.get("preposition", "")
-    explanation_english = question_data.get("explanation_english", "")
-    explanation_french = question_data.get("explanation_french", "")
-    root_german = question_data.get("root_german", "")
-    root_english = question_data.get("root_english", "")
-    root_french = question_data.get("root_french", "")
-    type = question_data.get("type", "")
-
-    instruction = INSTRUCTION[language].get(unit, {}).get(exercise, "Translate the following word:")
-
-    formatted_question = QUESTION[language].get(unit, {}).get(exercise, "{question}").format(
-        question=question_text,
-        german=german,
-        english=english,
-        french=french,
-        gender_english=gender_english,
-        gender_french=gender_french,
-        case_english=case_english,
-        case_french=case_french,
-        article_english=article_english,
-        article_french=article_french,
-        person=person,
-        prefix=prefix,
-        article=article,
-        adjective=adjective,
-        preposition=preposition,
-        explanation_english=explanation_english,
-        explanation_french=explanation_french,
-        root_german=root_german,
-        root_english=root_english,
-        root_french=root_french,
-        type=type,
-    )
-
-    feedback = session.pop("feedback", None) or {}
-    result = feedback.get("result")
-    feedback_message = feedback.get("feedback_message")
-    user_answer = feedback.get("user_answer")
-    previous_question = feedback.get("previous_question")
-
-    proverb = get_text_proverb()
+    proverb = get_text_proverb(language)
 
     is_feedback_box = not is_feedback_enabled()
 
-    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
-
-    gender = gender_english if get_language(request, session) == 'english' else gender_french
-
-    if unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
-        guidance_popup = GUIDANCE_EXERCISE[language][unit][exercise]
-    elif unit in GUIDANCE_UNIT[language]:
-        guidance_popup = GUIDANCE_UNIT[language][unit]
-    else:
-        guidance_popup = ""
-
     if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
-        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'])
-        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'])
+        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'], language)
+        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
     else:
         clearance_popup_title = None
         clearance_popup_text = None
 
+    options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_id, language)
+
     if is_exercise_multiple_choice(unit, exercise) is True:
+        template = "exercise/exercise_multiple_choice.html"
+    else:
+        template = "exercise/exercise_input.html"
 
-        options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_data)
-
-        return render_template("exercise/exercise_multiple_choice.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               question_text=formatted_question,
-                               instruction_text=instruction,
-                               nr=question_data["Nr"],
-                               result=result,
-                               feedback_message=feedback_message,
-                               user_answer=user_answer,
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
-                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=total_question_exercises[unit][exercise],
-                               proverb=proverb,
-                               is_feedback_box=is_feedback_box,
-                               gender=gender,
-                               guidance=guidance_popup,
-                               additional_help=ADDITIONAL_HELP[language],
-                               consult_faq=CONSULT_FAQ[language],
-                               options=options_text,
-                               your_answer=YOUR_ANSWER[language],
-                               incorrect_question=incorrect_question,
-                               back_to=BACK_TO[language],
-                               current_user=current_user,
-                               icon_full=get_filename_full_bookmark(),
-                               icon_empty=get_filename_empty_bookmark(),
-                               clearance_popup_title=clearance_popup_title,
-                               clearance_popup_text=clearance_popup_text,
-                               )
-
-    return render_template("exercise/exercise_input.html",
+    return render_template(template,
                            unit=unit,
                            exercise=exercise,
                            exercise_title=EXERCISE_TITLE[language],
-                           question_text=formatted_question,
-                           instruction_text=instruction,
-                           nr=question_data["Nr"],
+                           instruction_text=formated_instruction,
+                           question_text=formated_question_text,
+                           nr=question_id,
                            result=result,
                            feedback_message=feedback_message,
                            user_answer=user_answer,
@@ -344,6 +137,7 @@ def exercise(unit, exercise):
                            guidance=guidance_popup,
                            additional_help=ADDITIONAL_HELP[language],
                            consult_faq=CONSULT_FAQ[language],
+                           options=options_text,
                            your_answer=YOUR_ANSWER[language],
                            incorrect_question=incorrect_question,
                            submit=SUBMIT[language],
@@ -352,6 +146,7 @@ def exercise(unit, exercise):
                            current_user=current_user,
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
+                           icon_flag=get_filename_flag(),
                            clearance_popup_title=clearance_popup_title,
                            clearance_popup_text=clearance_popup_text,
                            )
@@ -369,91 +164,32 @@ def check_answer(unit, exercise):
         return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
 
     user_answer = request.form.get('answer', '')
-    nr = request.form.get('nr')
+    question_id = request.form.get('nr')
 
-    data = load_data_exercise(unit, exercise)
-
-    question_data = data[data["Nr"] == int(nr)].iloc[0]# .fillna("")
-    correct_answer = get_correct_answer(unit, exercise, question_data)
-    correct_answers = get_list_of_correct_answers(correct_answer, unit)
-    first_correct_answer = get_first_correct_answer(correct_answer)
-    question_text = question_data["question"]
-    german = question_data.get("german", "")
-    english = question_data.get("english", "")
-    french = question_data.get("french", "")
-    gender_english = question_data.get("gender_english", "")
-    gender_french = question_data.get("gender_french", "")
-    case_english = question_data.get("case_english", "")
-    case_french = question_data.get("case_french", "")
-    article_english = question_data.get("article_english", "")
-    article_french = question_data.get("article_french", "")
-    person = question_data.get("person", "")
-    prefix = question_data.get("prefix", "")
-    article = question_data.get("article", "")
-    adjective = question_data.get("adjective", "")
-    preposition = question_data.get("preposition", "")
-    explanation_english = question_data.get("explanation_english", "")
-    explanation_french = question_data.get("explanation_french", "")
-    root_german = question_data.get("root_german", "")
-    root_english = question_data.get("root_english", "")
-    root_french = question_data.get("root_french", "")
-    type = question_data.get("type", "")
-
-    feedback_template = FEEDBACK[language].get(unit, {}).get(exercise, "{previous_question} = {correct_answer}")
-    feedback_message = feedback_template.format(
-        previous_question=question_text,
-        correct_answer=correct_answer,
-        correct_answers=correct_answers,
-        first_correct_answer=first_correct_answer,
-        user_answer=user_answer,
-        german=german,
-        english=english,
-        french=french,
-        gender_english=gender_english,
-        gender_french=gender_french,
-        case_english=case_english,
-        case_french=case_french,
-        article_english=article_english,
-        article_french=article_french,
-        person=person,
-        prefix=prefix,
-        article=article,
-        adjective=adjective,
-        preposition=preposition,
-        explanation_english=explanation_english,
-        explanation_french=explanation_french,
-        root_german=root_german,
-        root_english=root_english,
-        root_french=root_french,
-        type=type,
-    )
-
-    is_answer_correct = is_user_answer_correct(user_answer, correct_answer, question_text, unit, exercise)
+    is_answer_correct = is_user_answer_correct(unit, exercise, question_id, user_answer, language)
+    result = "correct" if is_answer_correct else "incorrect"
 
     if is_answer_correct:
-        register_progress(session, unit, exercise, nr)
-    elif nr not in session[unit][str(exercise)]['falses']:
-        register_incorrect_answer(session, unit, exercise, nr, user_answer)
+        register_progress(session, unit, exercise, question_id)
+    elif question_id not in session[unit][str(exercise)]['falses']:
+        register_incorrect_answer(session, unit, exercise, question_id, user_answer)
 
     session.modified = True
 
-    session["feedback"] = {
-        "result": "correct" if is_answer_correct else "incorrect",
-        "feedback_message": feedback_message,
-        "user_answer": user_answer,
-        "previous_question": question_text,
-    }
+    update_session_dictionary(session, "feedback", "result", result)
+    update_session_dictionary(session, "feedback", "user_answer", user_answer)
+    update_session_dictionary(session, "feedback", "previous_question_id", question_id)
 
-    session[f"question_data"] = question_data.to_dict()
+    update_session_dictionary(session, "current_exercise", "question_id", question_id)
 
     if is_feedback_enabled():
-        return redirect(url_for('routes.exercise_feedback',
-                                unit=unit,
-                                exercise=exercise))
+        route = 'routes.exercise_feedback'
     else:
-        return redirect(url_for('routes.exercise',
-                                unit=unit,
-                                exercise=exercise))
+        route = 'routes.exercise'
+
+    return redirect(url_for(route,
+                            unit=unit,
+                            exercise=exercise))
 
 
 @routes_bp.route('/feedback/unit/<unit>/exercise/<int:exercise>')
@@ -462,181 +198,45 @@ def exercise_feedback(unit, exercise):
     language = get_language(request, session)
 
     if is_exercise_finished(session, unit, exercise) is True:
-        feedback = session.pop("feedback", None) or {}
-        result = feedback.get("result")
-        feedback_message = feedback.get("feedback_message")
-        user_answer = feedback.get("user_answer")
-        previous_question = feedback.get("previous_question")
+        return render_exercise_completed_template(session, unit, exercise, language)
 
-        if current_user.is_authenticated:
-            incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
-            feedbacks = get_feedback_exercise(session, unit, exercise)
-            incorrect_questions = [get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer, "")
-                                   for incorrect_answer in incorrect_answers]
-        else:
-            number_of_incorrect_answers = 0
-            incorrect_answers = []
-            feedbacks = []
-            incorrect_questions = []
+    question_id = session.get("current_exercise").get("question_id")
 
-        register_result(session, unit, exercise, feedback)
+    formated_instruction = format_instruction(unit, exercise, language)
+    formated_question_text = format_question(unit, exercise, language, question_id)
 
-        if current_user.is_authenticated:
-            update_progress_in_session(session, unit)
+    result, user_answer, previous_question_id = read_feedback(session)
 
-        next_exercise = get_next_exercise(unit, exercise, highest_exercise)
-        next_exercise_text = NEXT_EXERCISE[language]
-
-        current_user_not_authenticated = not current_user.is_authenticated
-
-        return render_template("exercise/exercise_completed.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               score=write_score,
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
-                               is_feedback_box=True,
-                               result=result,
-                               feedback_message=feedback_message,
-                               user_answer=user_answer,
-                               previous_question=previous_question,
-                               number_of_incorrect_answers=number_of_incorrect_answers,
-                               your_answer=YOUR_ANSWER[language],
-                               incorrect_answers=incorrect_answers,
-                               feedbacks=feedbacks,
-                               all_questions_successfully_answered=ALL_QUESTIONS_SUCCESSFULLY_ANSWERED[language],
-                               your_score_for_this_exercise=YOUR_SCORE_FOR_THIS_EXERCISE[language],
-                               feedback_last_question=FEEDBACK_LAST_QUESTION[language],
-                               get_question_from_incorrect_answer=get_question_from_incorrect_answer,
-                               your_incorrect_answers=YOUR_INCORRECT_ANSWERS[language],
-                               incorrect_questions=incorrect_questions,
-                               refresh=REFRESH[language],
-                               back_to=BACK_TO[language],
-                               icon_full=get_filename_full_bookmark(),
-                               icon_empty=get_filename_empty_bookmark(),
-                               next_exercise=next_exercise,
-                               next_exercise_text=next_exercise_text,
-                               current_user_not_authenticated=current_user_not_authenticated,
-                               not_authenticated_text=NOT_AUTHENTICATED[language],
-                               )
-
-    question_data = session.get(f"question_data", {})
-
-    question_text = str(question_data["question"])
-    german = str(question_data.get("german", ""))
-    english = str(question_data.get("english", ""))
-    french = str(question_data.get("french", ""))
-    gender_english = question_data.get("gender_english", "")
-    gender_french = question_data.get("gender_french", "")
-    case_english = question_data.get("case_english", "")
-    case_french = question_data.get("case_french", "")
-    article_english = question_data.get("article_english", "")
-    article_french = question_data.get("article_french", "")
-    person = question_data.get("person", "")
-    prefix = question_data.get("prefix", "")
-    article = question_data.get("article", "")
-    adjective = question_data.get("adjective", "")
-    preposition = question_data.get("preposition", "")
-    explanation_english = question_data.get("explanation_english", "")
-    explanation_french = question_data.get("explanation_french", "")
-    root_german = question_data.get("root_german", "")
-    root_english = question_data.get("root_english", "")
-    root_french = question_data.get("root_french", "")
-    type = question_data.get("type", "")
-
-    instruction = INSTRUCTION[language].get(unit, {}).get(exercise, "Translate the following word:")
-
-    formatted_question = QUESTION[language].get(unit, {}).get(exercise, "{question}").format(
-        question=question_text,
-        german=german,
-        english=english,
-        french=french,
-        gender_english=gender_english,
-        gender_french=gender_french,
-        case_english=case_english,
-        case_french=case_french,
-        article_english=article_english,
-        article_french=article_french,
-        person=person,
-        prefix=prefix,
-        article=article,
-        adjective=adjective,
-        preposition=preposition,
-        explanation_english=explanation_english,
-        explanation_french=explanation_french,
-        root_german=root_german,
-        root_english=root_english,
-        root_french=root_french,
-        type=type,
-    )
-
-    feedback = session.pop("feedback", None) or {}
-    result = feedback.get("result")
-    feedback_message = feedback.get("feedback_message")
-    user_answer = feedback.get("user_answer")
-    previous_question = feedback.get("previous_question")
-
-    proverb = get_text_proverb()
-
-    is_feedback_box = True
+    feedback_message = format_feedback(unit, exercise, language, question_id)
+    previous_question = format_question(unit, exercise, language, question_id)
 
     incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
 
-    if unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
-        guidance_popup = GUIDANCE_EXERCISE[language][unit][exercise]
-    elif unit in GUIDANCE_UNIT[language]:
-        guidance_popup = GUIDANCE_UNIT[language][unit]
-    else:
-        guidance_popup = ""
+    guidance_popup = get_guidance(unit, exercise, language)
+
+    proverb = get_text_proverb(language)
+
+    is_feedback_box = True
 
     if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
-        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'])
-        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'])
+        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'], language)
+        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
     else:
         clearance_popup_title = None
         clearance_popup_text = None
 
     if is_exercise_multiple_choice(unit, exercise) is True:
+        template = "exercise/feedback_multiple_choice.html"
+    else:
+        template = "exercise/feedback_input.html"
 
-        return render_template("exercise/feedback_multiple_choice.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               question_text=formatted_question,
-                               instruction_text=instruction,
-                               nr=question_data["Nr"],
-                               result=result,
-                               feedback_message=feedback_message,
-                               user_answer=user_answer,
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
-                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=total_question_exercises[unit][exercise],
-                               proverb=proverb,
-                               guidance=guidance_popup,
-                               additional_help=ADDITIONAL_HELP[language],
-                               consult_faq=CONSULT_FAQ[language],
-                               is_feedback_box=is_feedback_box,
-                               your_answer=YOUR_ANSWER[language],
-                               incorrect_question=incorrect_question,
-                               next_question=NEXT_QUESTION[language],
-                               back_to=BACK_TO[language],
-                               icon_full=get_filename_full_bookmark(),
-                               icon_empty=get_filename_empty_bookmark(),
-                               clearance_popup_title=clearance_popup_title,
-                               clearance_popup_text=clearance_popup_text,
-                               )
-
-    return render_template("exercise/feedback_input.html",
+    return render_template(template,
                            unit=unit,
                            exercise=exercise,
                            exercise_title=EXERCISE_TITLE[language],
-                           question_text=formatted_question,
-                           instruction_text=instruction,
-                           nr=question_data["Nr"],
+                           question_text=formated_question_text,
+                           instruction_text=formated_instruction,
+                           nr=question_id,
                            result=result,
                            feedback_message=feedback_message,
                            user_answer=user_answer,
@@ -656,6 +256,7 @@ def exercise_feedback(unit, exercise):
                            back_to=BACK_TO[language],
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
+                           icon_flag=get_filename_flag(),
                            clearance_popup_title=clearance_popup_title,
                            clearance_popup_text=clearance_popup_text,
                            )

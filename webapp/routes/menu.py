@@ -1,30 +1,28 @@
-from flask import render_template, session, Response, request
+from flask import session, request
 from flask_login import current_user
 
 from typing import cast
 
-from . import routes_bp
-
+from data.content.unit.stars import STARS
+from data.content.unit.unit_page import UNIT_PAGE
+from data.content.unit.title_page import TITLE_PAGE
+from data.content.unit.template_path import TEMPLATE_PATH
+from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
+from data.content.exercise.content_exercises import DESCRIPTION
 from data.data_processing.units import units
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
-from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark
+from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
 from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, compute_completed_exercises, update_progress_in_session
+from users.progress.progress import compute_answered_questions, update_progress_in_session
+from users.questions.content_format import get_question_from_incorrect_answer
 
-from users.questions.pick_a_question import get_question_from_incorrect_answer
+from . import routes_bp
+
+from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
+from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from webapp.i18n import get_language
-from webapp.content.unit.stars import STARS
-from webapp.content.unit.unit_page import UNIT_PAGE
-from webapp.content.unit.title_page import TITLE_PAGE
-from webapp.content.unit.template_path import TEMPLATE_PATH
-from webapp.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
-from webapp.content.exercise.content_exercises import DESCRIPTION
-
-from webapp.content.application.text import YOUR_ANSWER, META_DESCRIPTION
-from webapp.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
-
 from webapp.style.icons import STAR_GOLD
 
 session = cast(dict, session)
@@ -130,6 +128,7 @@ def bookmarks():
                             get_question_from_incorrect_answer=get_question_from_incorrect_answer,
                             icon_empty=get_filename_empty_bookmark(),
                             icon_full=get_filename_full_bookmark(),
+                           icon_flag=get_filename_flag(),
                             )
 
 

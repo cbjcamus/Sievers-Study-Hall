@@ -47,6 +47,12 @@
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .button {
+        font-size: 13px;
+    }
+}
+
 body.day-mode .button {
     background-color: white;
     color: black;

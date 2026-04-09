@@ -2,17 +2,13 @@ import pandas as pd
 import os
 import random
 
-from flask import session, request
-from webapp.i18n import get_language
-
-
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PROVERBS_PATH = os.path.join(BASE_DIR, "datasets/other", "proverbs.csv")
 
 df_proverbs = pd.read_csv(PROVERBS_PATH)
 
 
-def get_text_proverb():
+def get_text_proverb(language):
     """
     Returns a formatted proverb formatted_proverb with a 10% probability.
 
@@ -29,7 +25,6 @@ def get_text_proverb():
     """
     proverb = get_random_proverb()
     random_number = random.random()
-    language = get_language(request, session)
 
     if random_number > 0.9:
         formatted_proverb = (

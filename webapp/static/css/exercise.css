@@ -78,7 +78,7 @@ body.day-mode .exercise-container {
     margin: 3px;
     margin-bottom: 0px;
     padding: 10px;
-    font-size: 16px;
+    font: inherit;
     border-radius: 5px;
     border: 1px solid white;
     background-color: #1E2A30;
@@ -103,7 +103,7 @@ body.day-mode .input-box:focus {
     margin: 3px;
     margin-bottom: 4px;
     padding: 10px;
-    font-size: 16px;
+    font: inherit;
     border-radius: 5px;
     border: 1px solid white;
     background-color: #5e5e5e;
@@ -132,7 +132,7 @@ body.day-mode .readonly-input:focus {
     margin: 2px;
     margin-top: -2px;
     margin-bottom: -2px;
-    font-size: 16px;
+    font: inherit;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -154,7 +154,7 @@ body.day-mode .special-chars button:hover {
     color: #161F23;
     border: none;
     padding: 7.5px 15px;
-    font-size: 16px;
+    font: inherit;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
@@ -175,12 +175,12 @@ body.day-mode .submit-button {
     color: #161F23;
     border: none;
     padding: 7.5px 15px;
-    font-size: 16px;
+    font: inherit;
     cursor: pointer;
     border-radius: 5px;
     width: 250px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
     text-decoration: none;
 }
@@ -203,7 +203,7 @@ body.day-mode .option-button {
     color: #161F23;
     border: none;
     padding: 7.5px 15px;
-    font-size: 16px;
+    font: inherit;
     cursor: pointer;
     border-radius: 5px;
     width: 160px;
@@ -229,7 +229,7 @@ body.day-mode .next-question-button {
     border: none;
     padding: 5px 5px;
     margin: 2px;
-    font-size: 16px;
+    font: inherit;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -266,87 +266,86 @@ body.day-mode .gender-tooltip {
 }
 
 .guidance-help-container {
-  position: absolute;
-  bottom: 12px;
-  left: 14px;
+    position: absolute;
+    bottom: 12px;
+    left: 14px;
 }
 
 .guidance-help-button {
-  background-color: white;
-  color: #131b22;
-  border: none;
-  padding: 5px 10px;
-  margin: 2px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
+    background-color: white;
+    color: #131b22;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .guidance-help-button:hover {
-  background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 body.day-mode .guidance-help-button {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 body.day-mode .guidance-help-button:hover {
-  background-color: white;
+    background-color: white;
 }
 
 /* Overlay “page on top” */
 .guidance-overlay {
-  position: fixed;
-  inset: 0;
-  display: none !important;     /* default hidden */
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.45);
-  z-index: 9999;
+    position: fixed;
+    inset: 0;
+    display: none !important;     /* default hidden */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 9999;
 }
 
 .guidance-overlay.is-open {
-  display: flex !important;     /* shown only when open */
+    display: flex !important;     /* shown only when open */
 }
 
 /* Modal card */
 .guidance-modal {
-  width: min(600px, calc(100vw - 40px));
-  max-height: calc(100vh - 60px);
-  overflow: auto;
-  background: #131b22;
-  color: white;
-  border-radius: 10px;
-  box-shadow: 0px 8px 30px rgba(0,0,0,0.35);
-  padding: 10px 20px;
+    width: min(600px, calc(100vw - 40px));
+    max-height: calc(100vh - 60px);
+    overflow: auto;
+    background: #131b22;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.35);
+    padding: 10px 20px;
 }
 
 body.day-mode .guidance-modal {
-  border: 1px solid black;
-  background: #deedfa;
-  color: black;
+    border: 1px solid black;
+    background: #deedfa;
+    color: black;
 }
 
 .guidance-modal-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2px;
-  margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+    margin-bottom: 0px;
 }
 
 .guidance-close {
-  background: transparent;
-  border: none;
-  font-size: 22px;
-  line-height: 1;
-  cursor: pointer;
-  color: inherit;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: inherit;
 }
 
 .guidance-modal-body {
     text-align: left;
-    font-size: 16px;
     line-height: 1;
 }
 
@@ -357,12 +356,11 @@ body.day-mode .guidance-modal {
 .guidance-modal-body ul,
 .guidance-modal-body ol,
 .guidance-modal-body li {
-  text-align: left;
+    text-align: left;
 }
 
 .question-count {
     margin-top: 0px;
-    font-size: 16px;
     color: #ddd;
     display: flex;
     align-items: center;
@@ -382,7 +380,7 @@ body.day-mode .question-count {
 .refresh-button {
     background: none;
     border: none;
-    font-size: 16px;
+    font: inherit;
     color: white;
     cursor: pointer;
     padding: 0;
@@ -414,7 +412,6 @@ body.day-mode .refresh-button {
     word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
-    font-size: 16px;
 }
 
 body.day-mode .feedback-correct-container {
@@ -441,7 +438,6 @@ body.day-mode .feedback-correct-container {
     word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
-    font-size: 16px;
 }
 
 body.day-mode .feedback-incorrect-container {
@@ -547,6 +543,11 @@ body.day-mode .flash-message.info {
     border: 2px solid purple;
 }
 
+.flag-icon {
+    width: 18px;
+    height: 18px;
+}
+
 .flag-form-container {
     position: absolute;
     top: 13px;
@@ -575,7 +576,7 @@ body.day-mode .flash-message.info {
 .flag-form textarea {
     width: 260px;
     padding: 5px 8px;
-    font-size: 16px;
+    font: inherit;
     border-radius: 5px;
     border: none;
     box-sizing: border-box;
@@ -591,7 +592,7 @@ body.day-mode .flag-form textarea {
     color: #161F23;
     border: none;
     padding: 5px 10px;
-    font-size: 16px;
+    font: inherit;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -637,7 +638,6 @@ body.day-mode .proverb-container {
     color: #161F23;
     border: none;
     padding: 10px 20px; /* Increased padding for better spacing */
-    font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
@@ -648,6 +648,8 @@ body.day-mode .proverb-container {
     word-wrap: break-word; /* Allows multi-line if necessary */
     white-space: normal; /* Enables wrapping */
     text-decoration: none;
+
+    font: inherit;
 }
 
 body.day-mode .back-button {
@@ -671,11 +673,10 @@ body.day-mode .back-button {
     color: #161F23;
     border: none;
     padding: 10px 20px; /* Increased padding for better spacing */
-    font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
     width: auto; /* Dynamic width */
     min-width: 150px;
     max-width: 300px; /* Prevents it from being too wide */

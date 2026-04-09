@@ -6,7 +6,6 @@ from flask_login import current_user
 from . import routes_bp
 
 from data.data_processing.units import units
-from data.data_processing.total_questions import highest_exercise
 
 from users.session_management.logging import log_progress_deleted_from_session
 from users.session_management.print_session import session_size, print_session_size, print_complete_session
@@ -38,9 +37,13 @@ def clear_progress_for_unconnected_users():
 
 @routes_bp.before_request
 def delete_old_unfinished_exercise():
-    if session_size(session) > 3000:
+    if session_size(session) > 3500:
         if not session['unfinished_exercise']:
-            session.clear()
+            keys_to_keep = {"_user_id", "_fresh", "_id", "csrf_token"}
+            for key in list(session.keys()):
+                if key not in keys_to_keep:
+                    session.pop(key, None)
+            # session.clear()
         else:
             unit, exercise = session['unfinished_exercise'][0]
             if unit in session and str(exercise) in session[unit]:
