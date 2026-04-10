@@ -164,6 +164,8 @@ def format_feedback(df, unit, exercise, language):
 
         formatted = formatted.replace("→ ", "→&nbsp;")
         formatted = formatted.replace("= ", "=&nbsp;")
+        formatted = formatted.replace("+ ", "+&nbsp;")
+        formatted = formatted.replace("\u25CF ", "\u25CF&nbsp;")
 
         result.append(formatted)
     return result

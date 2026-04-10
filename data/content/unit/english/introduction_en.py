@@ -50,10 +50,10 @@ INTRODUCTION_EN = {
     praepositionen_artikel:
         "All the questions come from other Präpositionen exercises and updated to practice cases following prepositions."
         "<br><br>Reminder:"
-        "<br>&bull; Followed by the Accusative case: Bis, Durch, Für, Ohne, Gegen, Um"
-        "<br>&bull; Followed by the Dative case: Aus, Bei, Mit, Seit, Nach, Von, Zu"
-        "<br>&bull; Followed by the Dative or the Accusative case: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
-        "<br>&bull; Followed by the Genitive case: Anstatt, Außerhalb, Innerhalb, Laut, Trotz, Während, Wegen"
+        "<br>&bull; Followed by the Accusative case: bis, durch, für, gegen, ohne, um"
+        "<br>&bull; Followed by the Dative case: aus, bei, mit, nach, seit, von, zu"
+        "<br>&bull; Followed by the Dative or the Accusative case: an, auf, hinter, in, neben, unter, über, vor, zwischen"
+        "<br>&bull; Followed by the Genitive case: anstatt, außerhalb, innerhalb, laut, trotz, während, wegen"
     ,
     verben_artikel:
         "Cases following Verbs"

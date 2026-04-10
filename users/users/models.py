@@ -25,10 +25,12 @@ class UserSettings(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), primary_key=True)
     settings = db.Column(MutableDict.as_mutable(SQLITE_JSON), nullable=False, default=dict)
 
+
 DEFAULT_SETTINGS = {
     "feedback_enabled": True,
     "theme": "night",
     "special_characters_enabled": True,
+    "instruction_page_enabled": True,
 }
 
 
@@ -68,6 +70,23 @@ def are_special_characters_enabled():
     return anon_settings.get(
         "special_characters_enabled",
         DEFAULT_SETTINGS["special_characters_enabled"]
+    )
+
+
+def is_instruction_page_enabled():
+    if current_user.is_authenticated:
+        row = UserSettings.query.get(current_user.id)
+        if row and row.settings:
+            return row.settings.get(
+                "instruction_page_enabled",
+                DEFAULT_SETTINGS["instruction_page_enabled"]
+            )
+        return DEFAULT_SETTINGS["instruction_page_enabled"]
+
+    anon_settings = session.get("settings", {})
+    return anon_settings.get(
+        "instruction_page_enabled",
+        DEFAULT_SETTINGS["instruction_page_enabled"]
     )
 
 

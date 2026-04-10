@@ -5,6 +5,7 @@ from typing import cast
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
 from data.content.unit.back_button import BACK_BUTTON
+from data.data_processing.data_loading import load_data_question, load_question_text
 
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.exercise_type import is_exercise_multiple_choice
@@ -12,7 +13,7 @@ from data.data_processing.total_questions import total_question_exercises
 from users.session_management.session_update import update_session_dictionary, read_feedback
 
 from users.users.models import db, is_feedback_enabled, get_filename_full_bookmark, \
-    get_filename_empty_bookmark, get_filename_flag, UserExerciseState
+    get_filename_empty_bookmark, get_filename_flag, UserExerciseState, is_instruction_page_enabled
 
 from users.progress.progress import compute_answered_questions, update_progress_in_session
 from users.progress.register_update import register_progress, register_incorrect_answer
@@ -52,7 +53,7 @@ def guidance(unit, exercise):
 
     guidance = get_guidance(unit, exercise, language)
 
-    if guidance:
+    if guidance and is_instruction_page_enabled():
         return render_template("exercise/guidance.html",
                                unit=unit,
                                exercise=exercise,
@@ -91,7 +92,7 @@ def exercise(unit, exercise):
     result, user_answer, previous_question_id = read_feedback(session)
 
     feedback_message = format_feedback(unit, exercise, language, previous_question_id)
-    previous_question = format_question(unit, exercise, language, previous_question_id)
+    previous_question = load_question_text(unit, exercise, previous_question_id)
     incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
 
     gender = get_gender(unit, exercise, language, question_id)
@@ -288,7 +289,11 @@ def reset_exercise(unit, exercise):
         session.pop(f"feedback", None)
         session.modified = True
 
+    next_url = request.form.get("next")
     guidance = request.form.get('guidance') == 'true'
+
+    if next_url:
+        return redirect(next_url)
 
     if guidance is True:
         return redirect(url_for('routes.guidance', unit=unit, exercise=exercise))

@@ -43,10 +43,10 @@ INTRODUCTION_FR = {
     praepositionen_artikel:
         "Questions venant des autres exercises sur les prépositions pour s'exercer sur les cas grammaticaux suivant les prépositions allemandes."
         "<br><br>Rappel:"
-        "<br>&bull; Prépositions suivies par l'Accusatif: Bis, Durch, Für, Ohne, Gegen, Um"
-        "<br>&bull; Prépositions suivies par le Datif: Aus, Bei, Mit, Seit, Nach, Von, Zu"
-        "<br>&bull; Prépositions suivies par l'Accusatif ou le Datif: An, Auf, In, Hinter, Vor, Über, Unter, Neben, Zwischen"
-        "<br>&bull; Prépositions suivies par le Génitif: Anstatt, Außerhalb, Innerhalb, Laut, Trotz, Während, Wegen"
+        "<br>&bull; Prépositions suivies par l'Accusatif: bis, durch, für, gegen, ohne, um"
+        "<br>&bull; Prépositions suivies par le Datif: aus, bei, mit, nach, seit, von, zu"
+        "<br>&bull; Prépositions suivies par l'Accusatif ou le Datif: an, auf, hinter, in, neben, unter, über, vor, zwischen"
+        "<br>&bull; Prépositions suivies par le Génitif: anstatt, außerhalb, innerhalb, laut, trotz, während, wegen"
     ,
     verben_artikel:
         "Cas grammatiques suivant les Verbes"

@@ -76,3 +76,7 @@ body.day-mode .button {
     align-items: flex-start;
     gap: 15px;
 }
+
+.refresh-form {
+    display: inline;
+}

@@ -140,3 +140,34 @@ def compute_answered_questions_exercise(session, unit, exercise):
 
     else:
         return 0
+
+
+def is_exercise_started(session, unit, exercise):
+    ex_int = int(exercise)
+    ex_str = str(ex_int)
+
+    if current_user.is_authenticated:
+        row = UserExerciseState.query.filter_by(
+            user_id=current_user.id,
+            unit=unit,
+            exercise=ex_int
+        ).first()
+
+        if not row:
+            return False
+
+        state = row.state or {}
+        return bool(
+            state.get("correct_nrs")
+            or state.get("incorrect")
+            or row.completed_at is not None
+        )
+
+    state = session.get(unit, {}).get(ex_str, {})
+    return bool(
+        state.get("progress")
+        or state.get("falses")
+        or state.get("incorrect_answer")
+        or "result" in state
+        or "score" in state
+    )

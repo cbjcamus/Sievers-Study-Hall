@@ -14,7 +14,7 @@ from data.data_processing.total_questions import total_question_exercises, highe
 
 from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
 from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, update_progress_in_session
+from users.progress.progress import compute_answered_questions, update_progress_in_session, is_exercise_started
 from users.questions.content_format import get_question_from_incorrect_answer
 
 from . import routes_bp
@@ -157,6 +157,7 @@ for unit in units:
                                    description_templates=DESCRIPTION[language],
                                    homepage=HOMEPAGE[language],
                                    meta_description=meta_description,
+                                   is_exercise_started=is_exercise_started,
                                    )
         return dynamic_route
 

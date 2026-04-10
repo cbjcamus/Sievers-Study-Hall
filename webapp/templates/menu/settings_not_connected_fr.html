@@ -59,6 +59,21 @@
     </div>
 
     <div class="section">
+        <h2>Page d'Instruction</h2>
+        <table class="settings-table">
+            <tr>
+                <td>
+                    <label class="switch">
+                        <input type="checkbox" id="instruction-page-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </td>
+                <td>Afficher la page d'instructions avant de commencer un exercice</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
         <h2>Actualités et Mises à jour</h2>
 
         <p>Pour recevoir les actualités et rester au courant des mises à jour, inscrivez-vous à la newsletter Substack.</p>
@@ -76,5 +91,6 @@
     <script src="{{ url_for('static', filename='js/toggleDayMode.js') }}"></script>
     <script src="{{ url_for('static', filename='js/toggleIntermediatePage.js') }}"></script>
     <script src="{{ url_for('static', filename='js/toggleSpecialCharactersButtons.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/toggleInstructionPage.js') }}"></script>
 </body>
 </html>

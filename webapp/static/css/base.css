@@ -223,3 +223,12 @@ body.day-mode .button {
     justify-content: center;
     margin-top: 20px;
 }
+
+.refresh-button {
+    background: none;
+    border: none;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}

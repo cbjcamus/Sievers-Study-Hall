@@ -6,10 +6,10 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 5,1,_____ Donnerstag,der,der Donnerstag,Thursday,Jeudi,days of the week are Masculine,les jours de la semaine sont Masculins
 6,2,_____ Samstag,der,der Samstag,Saturday,Samedi,days of the week are Masculine,les jours de la semaine sont Masculins
 7,3,_____ Sonntag,der,der Sonntag,Sunday,Dimanche,days of the week are Masculine,les jours de la semaine sont Masculins
-8,4,_____ Abend,der,der Abend,the evening,la soirée,parts of the day are mostly Masculine,les parties de la journée sont principalement Masculines
-9,1,_____ Morgen,der,der Morgen,the morning,le matin,parts of the day are mostly Masculine,les parties de la journée sont principalement Masculines
-10,2,_____ Vormittag,der,der Vormittag,the morning,le matin,parts of the day are mostly Masculine,les parties de la journée sont principalement Masculines
-11,3,_____ Nachmittag,der,der Nachmittag,the afternoon,l'après-midi,parts of the day are mostly Masculine,les parties de la journée sont principalement Masculines
+8,4,_____ Abend,der,der Abend,the evening,la soirée,parts of the day are mostly Masculine,les parties de la journée sont généralement Masculines
+9,1,_____ Morgen,der,der Morgen,the morning,le matin,parts of the day are mostly Masculine,les parties de la journée sont généralement Masculines
+10,2,_____ Vormittag,der,der Vormittag,the morning,le matin,parts of the day are mostly Masculine,les parties de la journée sont généralement Masculines
+11,3,_____ Nachmittag,der,der Nachmittag,the afternoon,l'après-midi,parts of the day are mostly Masculine,les parties de la journée sont généralement Masculines
 12,4,_____ Januar,der,der Januar,January,Janvier,months are Masculine,les mois sont Masculins
 13,1,_____ Februar,der,der Februar,February,Février,months are Masculine,les mois sont Masculins
 14,2,_____ März,der,der März,March,Mars,months are Masculine,les mois sont Masculins
@@ -74,7 +74,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 73,1,_____ Lamm,das,das Lamm,the lamb,l'agneau,young individuals and young animals are usually Neuter,les jeunes individus et les jeunes animaux sont généralement Neutres
 74,2,_____ Ferkel,das,das Ferkel,the piglet,le porcelet,young individuals and young animals are usually Neuter,les jeunes individus et les jeunes animaux sont généralement Neutres
 75,3,_____ Kalb,das,das Kalb,the calf,le veau,young individuals and young animals are usually Neuter,les jeunes individus et les jeunes animaux sont généralement Neutres
-76,5,_____ Nacht,die,die Nacht,the night,la nuit,part of the day are mostly Masculine,les parties de la journée sont principalement Masculines
+76,5,_____ Nacht,die,die Nacht,the night,la nuit,part of the day are mostly Masculine,les parties de la journée sont généralement Masculines
 77,5,_____ Baum,der,der Baum,the tree,l'arbre,nature words are usually Feminine,les noms communs liés à la nature sont généralement Féminins
 78,5,_____ Apfel,der,der Apfel,the Apple,la pomme,nature words are usually Feminine,les noms communs liés à la nature sont généralement Féminins
 79,5,_____ Sellerie,der,der Sellerie,the celery,le céleri,nature words are usually Feminine,les noms communs liés à la nature sont généralement Féminins
@@ -109,11 +109,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 108,7,_____ Nebel,der,der Nebel,the fog,le brouillard,weathers are usually Masculine,les temps et la météo sont généralement Masculins
 109,8,_____ Sturm,der,der Sturm,the storm,la tempête,weathers are usually Masculine,les temps et la météo sont généralement Masculins
 110,9,_____ Schnee,der,der Schnee,the snow,la neige,weathers are usually Masculine,les temps et la météo sont généralement Masculins
-111,6,_____ Motor,der,der Motor,the engine,le moteur,words finishing in -or are Masculine,les noms communs se terminant par -or sont Masculins
-112,7,_____ Autor,der,der Autor,the author,l'auteur,words finishing in -or are Masculine,les noms communs se terminant par -or sont Masculins
-113,8,_____ Direktor,der,der Direktor,the director,le directeur,words finishing in -or are Masculine,les noms communs se terminant par -or sont Masculins
-114,9,_____ Professor,der,der Professor,the professor,le professeur,words finishing in -or are Masculine,les noms communs se terminant par -or sont Masculins
-115,6,_____ Doktor,der,der Doktor,the doctor,le médecin,words finishing in -or are Masculine,les noms communs se terminant par -or sont Masculins
+111,6,_____ Motor,der,der Motor,the engine,le moteur,words finishing in -or are usually Masculine,les noms communs se terminant par -or sont généralement Masculins
+112,7,_____ Autor,der,der Autor,the author,l'auteur,words finishing in -or are usually Masculine,les noms communs se terminant par -or sont généralement Masculins
+113,8,_____ Direktor,der,der Direktor,the director,le directeur,words finishing in -or are usually Masculine,les noms communs se terminant par -or sont généralement Masculins
+114,9,_____ Professor,der,der Professor,the professor,le professeur,words finishing in -or are usually Masculine,les noms communs se terminant par -or sont généralement Masculins
+115,6,_____ Doktor,der,der Doktor,the doctor,le médecin,words finishing in -or are usually Masculine,les noms communs se terminant par -or sont généralement Masculins
 116,7,_____ Schweizerin,die,die Schweizerin,the Swiss woman,la Suissesse,word designating a woman by her nationality or origin are Feminine,les noms communs désignant une femmes par sa nationalité ou son origine sont Féminins
 117,8,_____ Französin,die,die Französin,the Frenchwoman,la Française,word designating a woman by her nationality or origin are Feminine,les noms communs désignant une femmes par sa nationalité ou son origine sont Féminins
 118,9,_____ Spanierin,die,die Spanierin,the Spanish woman,la femme espagnole,word designating a woman by her nationality or origin are Feminine,les noms communs désignant une femmes par sa nationalité ou son origine sont Féminins
@@ -136,15 +136,15 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 135,6,_____ Tätigkeit,die,die Tätigkeit,the activity,l'activité,words finishing in -keit are Feminine,les noms communs se terminant par -keit sont Féminins
 136,7,_____ Freundlichkeit,die,die Freundlichkeit,the friendliness,la convivialité,words finishing in -keit are Feminine,les noms communs se terminant par -keit sont Féminins
 137,8,_____ Aufmerksamkeit,die,die Aufmerksamkeit,the attention,l'attention,words finishing in -keit are Feminine,les noms communs se terminant par -keit sont Féminins
-138,9,_____ Reaktion,die,die Reaktion,the reaction,la réaction,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-139,6,_____ Diskussion,die,die Diskussion,the discussion,la discussion,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-140,7,_____ Information,die,die Information,the information,l'information,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-141,8,_____ Definition,die,die Definition,the definition,la définition,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-142,9,_____ Emotion,die,die Emotion,the emotion,l'émotion,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-143,6,_____ Demonstration,die,die Demonstration,the demonstration,la démonstration,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-144,7,_____ Produktion,die,die Produktion,the production,la production,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-145,8,_____ Nation,die,die Nation,the nation,la nation,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
-146,9,_____ Funktion,die,die Funktion,the function,la fonction,words finishing in -ion are Feminine,les noms communs se terminant par -ion sont Féminins
+138,9,_____ Reaktion,die,die Reaktion,the reaction,la réaction,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+139,6,_____ Diskussion,die,die Diskussion,the discussion,la discussion,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+140,7,_____ Information,die,die Information,the information,l'information,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+141,8,_____ Definition,die,die Definition,the definition,la définition,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+142,9,_____ Emotion,die,die Emotion,the emotion,l'émotion,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+143,6,_____ Demonstration,die,die Demonstration,the demonstration,la démonstration,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+144,7,_____ Produktion,die,die Produktion,the production,la production,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+145,8,_____ Nation,die,die Nation,the nation,la nation,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
+146,9,_____ Funktion,die,die Funktion,the function,la fonction,words finishing in -ion are usually Feminine,les noms communs se terminant par -ion sont généralement Féminins
 147,6,_____ Mädchen,das,das Mädchen,the girl,la fille,words finishing with the suffixes -chen and -lein are Neuter,les noms communs se terminant par les suffixes -chen et -lein sont Neutres
 148,7,_____ Kätzchen,das,das Kätzchen,the kitten,le chaton,words finishing with the suffixes -chen and -lein are Neuter,les noms communs se terminant par les suffixes -chen et -lein sont Neutres
 149,8,_____ Häuschen,das,das Häuschen,the little house,la petite maison,words finishing with the suffixes -chen and -lein are Neuter,les noms communs se terminant par les suffixes -chen et -lein sont Neutres
@@ -212,11 +212,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 211,13,_____ Nationalität,die,die Nationalität,the nationality,la nationalité,words finishing in -tät are Feminine,les noms communs se terminant par -tät sont Féminins
 212,14,_____ Flexibilität,die,die Flexibilität,the flexibility,la flexibilité,words finishing in -tät are Feminine,les noms communs se terminant par -tät sont Féminins
 213,11,_____ Produktivität,die,die Produktivität,the productivity,la productivité,words finishing in -tät are Feminine,les noms communs se terminant par -tät sont Féminins
-214,12,_____ Natur,die,die Natur,the nature,la nature,words finishing in -ur are Feminine,les noms communs se terminant par -ur sont Féminins
-215,13,_____ Kultur,die,die Kultur,the culture,la culture,words finishing in -ur are Feminine,les noms communs se terminant par -ur sont Féminins
-216,14,_____ Temperatur,die,die Temperatur,the temperature,la température,words finishing in -ur are Feminine,les noms communs se terminant par -ur sont Féminins
-217,11,_____ Struktur,die,die Struktur,the structure,la structure,words finishing in -ur are Feminine,les noms communs se terminant par -ur sont Féminins
-218,12,_____ Figur,die,die Figur,the character,le personnage,words finishing in -ur are Feminine,les noms communs se terminant par -ur sont Féminins
+214,12,_____ Natur,die,die Natur,the nature,la nature,words finishing in -ur are usually Feminine,les noms communs se terminant par -ur sont généralement Féminins
+215,13,_____ Kultur,die,die Kultur,the culture,la culture,words finishing in -ur are usually Feminine,les noms communs se terminant par -ur sont généralement Féminins
+216,14,_____ Temperatur,die,die Temperatur,the temperature,la température,words finishing in -ur are usually Feminine,les noms communs se terminant par -ur sont généralement Féminins
+217,11,_____ Struktur,die,die Struktur,the structure,la structure,words finishing in -ur are usually Feminine,les noms communs se terminant par -ur sont généralement Féminins
+218,12,_____ Figur,die,die Figur,the character,le personnage,words finishing in -ur are usually Feminine,les noms communs se terminant par -ur sont généralement Féminins
 219,13,_____ Bäckerei,die,die Bäckerei,the bakery,la boulangerie,words finishing in -ei are Feminine,les noms communs se terminant par -ei sont Féminins
 220,14,_____ Metzgerei,die,die Metzgerei,the butcher shop,la boucherie,words finishing in -ei are Feminine,les noms communs se terminant par -ei sont Féminins
 221,11,_____ Polizei,die,die Polizei,the police,la police,words finishing in -ei are Feminine,les noms communs se terminant par -ei sont Féminins
@@ -244,7 +244,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 243,13,_____ Gepäck,das,das Gepäck,the luggage,les bagages,words beginning in Ge- are usually Neuter,les noms communs commençant par Ge- sont généralement Neutres
 244,14,_____ Gebirge,das,das Gebirge,the mountains,les montagnes,words beginning in Ge- are usually Neuter,les noms communs commençant par Ge- sont généralement Neutres
 245,15,_____ Gehör,das,das Gehör,the hearing,l'audience,senses are usually Masculine,les sens sont généralement Masculins
-246,15,_____ Abitur,das,das Abitur,the high school diploma,le diplôme d'études secondaires,words finishing in -ur are Feminine,les noms communs se terminant par -ur sont Féminins
+246,15,_____ Abitur,das,das Abitur,the high school diploma,le diplôme d'études secondaires,words finishing in -ur are usually Feminine,les noms communs se terminant par -ur sont généralement Féminins
 247,15,_____ Gebrauch,der,der Gebrauch,the use,l'utilisation,words beginning in Ge- are usually Neuter,les noms communs commençant par Ge- sont généralement Neutres
 248,15,_____ Gedanke,der,der Gedanke,the thought,la pensée,words beginning in Ge- are usually Neuter,les noms communs commençant par Ge- sont généralement Neutres
 249,15,_____ Gefahr,die,die Gefahr,the danger,le danger,words beginning in Ge- are usually Neuter,les noms communs commençant par Ge- sont généralement Neutres
@@ -392,11 +392,11 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 391,26,_____ Existenz,die,die Existenz,the existence,l'existence,words finishing in -enz are Feminine,les noms communs se terminant par -enz sont Féminins
 392,21,_____ Konkurrenz,die,die Konkurrenz,the competition,la compétition,words finishing in -enz are Feminine,les noms communs se terminant par -enz sont Féminins
 393,22,_____ Frequenz,die,die Frequenz,the frequency,la fréquence,words finishing in -enz are Feminine,les noms communs se terminant par -enz sont Féminins
-394,23,_____ Arroganz,die,die Arroganz,the arrogance,l'arrogance,words finishing in -anz are Feminine,les noms communs se terminant par -anz sont Féminins
-395,24,_____ Distanz,die,die Distanz,the distance,la distance,words finishing in -anz are Feminine,les noms communs se terminant par -anz sont Féminins
-396,25,_____ Toleranz,die,die Toleranz,the tolerance,la tolérance,words finishing in -anz are Feminine,les noms communs se terminant par -anz sont Féminins
-397,26,_____ Eleganz,die,die Eleganz,the elegance,l'élégance,words finishing in -anz are Feminine,les noms communs se terminant par -anz sont Féminins
-398,21,_____ Relevanz,die,die Relevanz,the relevance,la pertinence,words finishing in -anz are Feminine,les noms communs se terminant par -anz sont Féminins
+394,23,_____ Arroganz,die,die Arroganz,the arrogance,l'arrogance,words finishing in -anz are usually Feminine,les noms communs se terminant par -anz sont généralement Féminins
+395,24,_____ Distanz,die,die Distanz,the distance,la distance,words finishing in -anz are usually Feminine,les noms communs se terminant par -anz sont généralement Féminins
+396,25,_____ Toleranz,die,die Toleranz,the tolerance,la tolérance,words finishing in -anz are usually Feminine,les noms communs se terminant par -anz sont généralement Féminins
+397,26,_____ Eleganz,die,die Eleganz,the elegance,l'élégance,words finishing in -anz are usually Feminine,les noms communs se terminant par -anz sont généralement Féminins
+398,21,_____ Relevanz,die,die Relevanz,the relevance,la pertinence,words finishing in -anz are usually Feminine,les noms communs se terminant par -anz sont généralement Féminins
 399,22,_____ Analysis,die,die Analysis,the analysis,l'analyse,words finishing in -sis are Feminine,les noms communs se terminant par -sis sont Féminins
 400,23,_____ Basis,die,die Basis,the base,la base,words finishing in -sis are Feminine,les noms communs se terminant par -sis sont Féminins
 401,24,_____ Thesis,die,die Thesis,the thesis,la thèse,words finishing in -sis are Feminine,les noms communs se terminant par -sis sont Féminins
@@ -464,3 +464,4 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 463,27,_____ Mühsal,die,die Mühsal,the hardship,la difficulté,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
 464,27,_____ Trübsal,die,die Trübsal,the gloom,la tristesse,words finishing with the suffixes -sal and -sel are usually Neuter,les noms communs se terminant par les suffixes -sal et -sel sont généralement Neutres
 465,27,_____ Reich,das,das Reich,the Empire,l'Empire,words finishing in -ich are usually Masculine,les noms communs se terminant par -ich sont généralement Masculins
+466,27,_____ Tanz,der,der Tanz,the dance,la danse,words finishing in -anz are usually Feminine,les noms communs se terminant par -anz sont généralement Féminins

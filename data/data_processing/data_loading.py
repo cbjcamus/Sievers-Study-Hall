@@ -57,3 +57,13 @@ def load_data_question(unit, exercise, question_id):
     question_data = df[df["Nr"] == int(question_id)].iloc[0]
 
     return question_data
+
+
+def load_question_text(unit, exercise, question_id):
+    question_data = load_data_question(unit, exercise, question_id)
+
+    if question_data is None:
+        return None
+
+    else:
+        return question_data["question"]
