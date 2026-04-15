@@ -1,6 +1,6 @@
 .exercise-title {
     text-align: center;
-    margin-top: 0px;
+    margin-top: -5px;
     margin-bottom: 0px;
     font-weight: normal;
 }
@@ -181,7 +181,7 @@ body.day-mode .submit-button {
     width: 250px;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-decoration: none;
 }
 

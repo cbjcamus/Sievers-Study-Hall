@@ -1284,10 +1284,11 @@ GUIDANCE_EXERCISE_FR = {
         36: guidance_pronomen_sentences,
         37: guidance_pronomen_isolation,
         38: guidance_pronomen_sentences,
-        39: guidance_pronomen_isolation,
-        40: guidance_pronomen_sentences,
-        41: guidance_pronomen_isolation,
-        42: guidance_pronomen_sentences,
+        39: guidance_pronomen_sentences,
+
+        40: guidance_pronomen_isolation,
+        41: guidance_pronomen_sentences,
+        42: guidance_pronomen_isolation,
         43: guidance_pronomen_sentences,
     },
 

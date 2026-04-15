@@ -5,9 +5,12 @@ from typing import cast
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
 from data.content.unit.back_button import BACK_BUTTON
-from data.data_processing.data_loading import load_data_question, load_question_text
+from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
+from data.content.application.popup import get_popup_title, get_popup_text
+from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT
 
 from data.data_processing.proverbs import get_text_proverb
+from data.data_processing.data_loading import load_question_text
 from data.data_processing.exercise_type import is_exercise_multiple_choice
 from data.data_processing.total_questions import total_question_exercises
 from users.session_management.session_update import update_session_dictionary, read_feedback
@@ -23,18 +26,14 @@ from users.questions.normalization import is_user_answer_correct
 from users.questions.content_format import format_instruction, format_question, get_gender, get_guidance, \
     format_feedback, get_question_from_incorrect_answer
 from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
-from .exercise_completed import render_exercise_completed_template
 
 from users.session_management.logging import log_question_flagged
 from users.session_management.verification_session import init_session_key, is_key_in_session
 
 from . import routes_bp
+from .exercise_completed import render_exercise_completed_template
 
 from webapp.i18n import get_language
-
-from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
-from data.content.application.popup import get_popup_title, get_popup_text
-from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT
 
 
 session = cast(dict, session)
@@ -112,17 +111,17 @@ def exercise(unit, exercise):
 
     options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_id, language)
 
-    if is_exercise_multiple_choice(unit, exercise) is True:
-        template = "exercise/exercise_multiple_choice.html"
-    else:
-        template = "exercise/exercise_input.html"
+    exercise_is_input = not is_exercise_multiple_choice(unit, exercise)
+    exercise_is_multiple_choice = is_exercise_multiple_choice(unit, exercise)
 
-    return render_template(template,
+    return render_template("exercise/exercise.html",
                            unit=unit,
                            exercise=exercise,
                            exercise_title=EXERCISE_TITLE[language],
                            instruction_text=formated_instruction,
                            question_text=formated_question_text,
+                           exercise_is_input=exercise_is_input,
+                           exercise_is_multiple_choice=exercise_is_multiple_choice,
                            nr=question_id,
                            result=result,
                            feedback_message=feedback_message,
@@ -226,12 +225,7 @@ def exercise_feedback(unit, exercise):
         clearance_popup_title = None
         clearance_popup_text = None
 
-    if is_exercise_multiple_choice(unit, exercise) is True:
-        template = "exercise/feedback_multiple_choice.html"
-    else:
-        template = "exercise/feedback_input.html"
-
-    return render_template(template,
+    return render_template("exercise/feedback.html",
                            unit=unit,
                            exercise=exercise,
                            exercise_title=EXERCISE_TITLE[language],

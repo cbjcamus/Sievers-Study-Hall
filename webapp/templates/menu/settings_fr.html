@@ -5,7 +5,7 @@
     {% from "macros/header.html" import header %}
     {{ header() }}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/settings.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
 </head>
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -73,6 +73,7 @@
         </table>
     </div>
 
+    {% if current_user.is_authenticated %}
     <div class="section">
         <h2>Compte</h2>
         <p>Vous êtes connecté avec l'adresse email suivante : {{ email }}</p>
@@ -82,8 +83,8 @@
                 <button type="submit" class="button">Se déconnecter</button>
             </form>
         </p>
-
     </div>
+    {% endif %}
 
     <div class="section">
         <h2>Actualités et Mises à jour</h2>
@@ -100,9 +101,9 @@
             </p>
     </div>
 
-    <script src="{{ url_for('static', filename='js/toggleDayMode.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/toggleIntermediatePage.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/toggleSpecialCharactersButtons.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/toggleInstructionPage.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/settings/toggleDayMode.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/settings/toggleIntermediatePage.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/settings/toggleSpecialCharactersButtons.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/settings/toggleInstructionPage.js') }}"></script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Progression – Practice German for Free</title>
+    <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
+</head>
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros/render_title.html" import render_title with context %}
+{% from "macros/render_feedback.html" import render_feedback %}
+
+    {{ render_title("Progression – Beta") }}
+
+    <div class="section">
+        <h2>Progression</h2>
+        <table class="progress-table">
+            {% for level in levels %}
+                <tr>
+                    <td>
+                        <a href="/guidance/unit/{{ random_unit_exercise[level][0] }}/exercise/{{ random_unit_exercise[level][1] }}" class="button">Exercise {{ level }} aléatoire</a>
+                    </td>
+                    <td>Vous avez complété {{ fractions[level] }}% des exercises de niveau {{ level }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Exercices inachevés</h2>
+        <table class="progress-table">
+            {% for (unit, exercise) in unfinished_exercises %}
+                <tr>
+                    <td>
+                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Finir l'exercice</a>
+                    </td>
+                    <td>{{ get_level_from_exercise(unit, exercise) }}</td>
+                    <td>{{ title_page[unit] }} {{ exercise }}</td>
+                    <td>
+                        {{ answered_questions(session, unit, exercise=exercise) }}/{{ total_questions[unit][exercise] }}
+                    </td>
+                    <td>
+                        {% if is_exercise_started(session, unit, exercise) %}
+                            <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
+                                <input type="hidden" name="next" value="{{ request.path }}">
+                                <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
+                            </form>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <span title="Your score for Exercise {{ exercise }}">{{ score(session, unit, exercise=exercise) }}</span>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    {% if current_user.is_authenticated %}
+    <div class="section">
+        <h2>Exercices avec les scores le plus bas</h2>
+        <table class="progress-table">
+            {% for (unit, exercise, score_) in lowest_score_exercises %}
+                <tr>
+                    <td>
+                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Répéter l'exercice</a>
+                    </td>
+                    <td>{{ get_level_from_exercise(unit, exercise) }}</td>
+                    <td>{{ title_page[unit] }} {{ exercise }}</td>
+                    <td>
+                        <span title="Your score for Exercise {{ exercise }}">{{ score(session, unit, exercise=exercise) }}</span>
+                    </td>
+                    <td>
+                        {% if is_exercise_started(session, unit, exercise) %}
+                            <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
+                                <input type="hidden" name="next" value="{{ request.path }}">
+                                <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
+                            </form>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+</body>
+</html>

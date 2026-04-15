@@ -11,25 +11,36 @@
 }
 
 .exercise-table td:nth-child(1) {
-    width: 16.66%;
+    width: 15%;
 }
 
 .exercise-table td:nth-child(2) {
-    width: 8.33%;
+    width: 5%;
 }
 
 .exercise-table td:nth-child(3) {
-    width: 8.33%;
+    width: 5%;
+    text-align: left;
 }
 
 .exercise-table td:nth-child(4) {
-    width: 66.66%;
+    width: 5%;
+}
+
+.exercise-table td:nth-child(5) {
+    width: 60%;
 }
 
 .exercise-table td a.button {
     display: inline-block;
     width: 90px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .exercise-table td a.button {
+        width: 70px;
+    }
 }
 
 .button {
@@ -75,8 +86,4 @@ body.day-mode .button {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
-}
-
-.refresh-form {
-    display: inline;
 }

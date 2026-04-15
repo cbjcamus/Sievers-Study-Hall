@@ -394,19 +394,20 @@ QUESTION_EN = {
         34: "{question}"
             "<br><br><i>{english}</i>",
 
-        35: "{english}, {gender_english}, {case_english}",
-        36: "{question} \u25CF {gender_english}"
+        35: "{english}",
+        36: "{question}"
             "<br><br><i>{english}</i>",
-        37: "{english}, {gender_english}, {case_english}",
-        38: "{question} \u25CF {gender_english}"
+        37: "{english}",
+        38: "{question}"
             "<br><br><i>{english}</i>",
-        39: "{english}",
-        40: "{question}"
+        39: "{question}"
             "<br><br><i>{english}</i>",
-        41: "{english}",
-        42: "{question}"
+
+        40: "{english}, {gender_english}, {case_english}",
+        41: "{question} \u25CF {gender_english}"
             "<br><br><i>{english}</i>",
-        43: "{question}"
+        42: "{english}, {gender_english}, {case_english}",
+        43: "{question} \u25CF {gender_english}"
             "<br><br><i>{english}</i>",
     },
 
@@ -457,6 +458,35 @@ QUESTION_EN = {
             "<br><br><i>{english}</i>",
         22: "{question} \u25CF {preposition} \u25CF {person}"
             "<br><br><i>{english}</i>",
+
+        23: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        24: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        25: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        26: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        27: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        28: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        29: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        30: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        31: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        32: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        33: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        34: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        35: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
+        36: "{question} \u25CF {preposition} \u25CF {person}"
+            "<br><br><i>{english}</i>",
     },
 
     verben_artikel: {
@@ -472,6 +502,13 @@ QUESTION_EN = {
         5: "{question} \u25CF {person}"
            "<br><br><i>{english}</i>",
         6: "{question} \u25CF {person}"
+           "<br><br><i>{english}</i>",
+
+        7: "{question} \u25CF {person}"
+           "<br><br><i>{english}</i>",
+        8: "{question} \u25CF {person}"
+           "<br><br><i>{english}</i>",
+        9: "{question} \u25CF {person}"
            "<br><br><i>{english}</i>",
     },
 

@@ -56,7 +56,7 @@ INTRODUCTION_EN = {
         "<br>&bull; Followed by the Genitive case: anstatt, außerhalb, innerhalb, laut, trotz, während, wegen"
     ,
     verben_artikel:
-        "Cases following Verbs"
+        "Cases following Verbs."
     ,
 
     konnektoren:

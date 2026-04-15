@@ -243,3 +243,22 @@ def compute_trues_and_falses(session, unit, exercise):
             trues = 0
             falses = 0
         return trues, falses
+
+
+def get_lowest_scored_exercises(limit=10):
+    if not current_user.is_authenticated:
+        return []
+
+    rows = UserExerciseState.query.filter_by(
+        user_id=current_user.id
+    ).all()
+
+    scored = [
+        (row.unit, row.exercise, (row.state or {}).get("score"))
+        for row in rows
+        if (row.state or {}).get("score") is not None
+    ]
+
+    scored.sort(key=lambda x: x[2])
+
+    return scored[:limit]

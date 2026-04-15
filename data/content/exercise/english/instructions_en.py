@@ -265,15 +265,16 @@ INSTRUCTION_EN = {
         33: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
         34: "Complete the following sentence with the possessive pronoun that fits:",
 
-        35: "Provide the translation of the following pronoun in <i>davon</i> or in <i>von ihnen</i>:",
-        36: "Complete the following sentence with the pronoun in <i>davon</i> or in <i>von ihnen</i> that fits:",
-        37: "Provide the translation of the following pronoun in <i>davon</i> or in <i>von ihnen</i>:",
-        38: "Complete the following sentence with the pronoun in <i>davon</i> or in <i>von ihnen</i> that fits:",
-        39: "Translate the following pronoun in <i>die ...</i>:",
-        40: "Complete the following sentence with the pronoun in <i>die ...</i> that fits:",
-        41: "Translate the following pronoun:",
-        42: "Complete the following sentence with the pronoun that fits:",
-        43: "Complete the following sentence with the relative pronoun that fits:",
+        35: "Translate the following pronoun in <i>die ...</i>:",
+        36: "Complete the following sentence with the pronoun in <i>die ...</i> that fits:",
+        37: "Translate the following pronoun:",
+        38: "Complete the following sentence with the pronoun that fits:",
+        39: "Complete the following sentence with the relative pronoun that fits:",
+
+        40: "Provide the translation of the following pronoun in <i>davon</i> or in <i>von ihnen</i>:",
+        41: "Complete the following sentence with the pronoun in <i>davon</i> or in <i>von ihnen</i> that fits:",
+        42: "Provide the translation of the following pronoun in <i>davon</i> or in <i>von ihnen</i>:",
+        43: "Complete the following sentence with the pronoun in <i>davon</i> or in <i>von ihnen</i> that fits:",
     },
 
     praepositionen_artikel: {
@@ -301,6 +302,21 @@ INSTRUCTION_EN = {
         20: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
         21: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
         22: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+
+        23: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        24: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        25: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        26: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        27: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        28: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        29: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        30: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        31: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        32: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        33: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        34: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        35: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+        36: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
     },
 
     verben_artikel: {
@@ -311,6 +327,10 @@ INSTRUCTION_EN = {
         4: "Complete the following sentence with the article or pronoun that fits:",
         5: "Complete the following sentence with the article or pronoun that fits:",
         6: "Complete the following sentence with the article or pronoun that fits:",
+
+        7: "Complete the following sentence with the article or pronoun that fits:",
+        8: "Complete the following sentence with the article or pronoun that fits:",
+        9: "Complete the following sentence with the article or pronoun that fits:",
     },
 
     konnektoren: {

@@ -261,15 +261,17 @@ DESCRIPTION_EN = {
         33: "Possessive Pronouns linked to Plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) and Formal pronouns, in isolation",
         34: "Possessive Pronouns linked to Plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) and Formal pronouns, in sentences",
 
-        35: "Singular Pronouns in <i>davon</i> and in <i>von ihnen</i>, in isolation",
-        36: "Singular Pronouns in <i>davon</i> and in <i>von ihnen</i>, in sentences",
-        37: "Plural Pronouns in <i>davon</i> and in <i>von ihnen</i>, in isolation",
-        38: "Plural Pronouns in <i>davon</i> and in <i>von ihnen</i>, in sentences",
-        39: "C1 Pronouns in <i>die ...</i>, in isolation",
-        40: "C1 Pronouns in <i>die ...</i>, in sentences",
-        41: "C1 Pronouns, in isolation",
-        42: "C1 Pronouns, in sentences",
-        43: "Relative Pronouns Was und Wer, in sentences",
+        35: "C1 Pronouns, in isolation",
+        36: "C1 Pronouns, in sentences",
+        37: "C1 Pronouns in <i>die ...</i>, in isolation",
+        38: "C1 Pronouns in <i>die ...</i>, in sentences",
+        39: "Relative Pronouns Was und Wer, in sentences",
+
+        40: "Singular Pronouns in <i>davon</i> and in <i>von ihnen</i>, in isolation",
+        41: "Singular Pronouns in <i>davon</i> and in <i>von ihnen</i>, in sentences",
+        42: "Plural Pronouns in <i>davon</i> and in <i>von ihnen</i>, in isolation",
+        43: "Plural Pronouns in <i>davon</i> and in <i>von ihnen</i>, in sentences",
+
     },
 
     praepositionen_artikel: {
@@ -297,6 +299,21 @@ DESCRIPTION_EN = {
         20: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
         21: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
         22: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
+
+        23: "Articles and Pronouns following Prepositions, in sentences",
+        24: "Articles and Pronouns following Prepositions, in sentences",
+        25: "Articles and Pronouns following Prepositions, in sentences",
+        26: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        27: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        28: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        29: "Articles and Pronouns following Verb-Preposition pairs, in sentences",
+        30: "Articles and Pronouns following Adjective-Preposition pairs, in sentences",
+        31: "Articles and Pronouns following Adjective-Preposition pairs, in sentences",
+        32: "Articles and Pronouns following Adjective-Preposition pairs, in sentences",
+        33: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
+        34: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
+        35: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
+        36: "Articles and Pronouns following Noun-Preposition pairs, in sentences",
     },
 
     verben_artikel: {
@@ -307,6 +324,10 @@ DESCRIPTION_EN = {
         4: "Articles and Pronouns following Verbs, in sentences",
         5: "Articles and Pronouns following Verbs, in sentences",
         6: "Articles and Pronouns following Verbs, in sentences",
+
+        7: "Articles and Pronouns following Verbs, in sentences",
+        8: "Articles and Pronouns following Verbs, in sentences",
+        9: "Articles and Pronouns following Verbs, in sentences",
     },
 
     konnektoren: {

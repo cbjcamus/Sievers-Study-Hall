@@ -6,21 +6,22 @@ from typing import cast
 from data.content.unit.stars import STARS
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
-from data.content.unit.template_path import TEMPLATE_PATH
 from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
 from data.content.exercise.content_exercises import DESCRIPTION
+from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
+from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
+
 from data.data_processing.units import units
+from data.data_processing.levels import get_exercises_by_unit_and_level, levels, get_level_from_exercise
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
-from users.progress.score import write_score
-from users.progress.progress import compute_answered_questions, update_progress_in_session, is_exercise_started
+from users.progress.score import write_score, get_lowest_scored_exercises
+from users.progress.progress import compute_answered_questions, update_progress_in_session, is_exercise_started, \
+    get_fraction_exercises_finished_by_level, get_random_unit_and_lowest_unfinished_exercise, get_unfinished_exercises
 from users.questions.content_format import get_question_from_incorrect_answer
 
 from . import routes_bp
-
-from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
-from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from webapp.i18n import get_language
 from webapp.style.icons import STAR_GOLD
@@ -61,6 +62,51 @@ def home():
                            )
 
 
+for unit in units:
+    route_path = UNIT_PAGE[unit]
+    template = 'unit.html'
+
+    def make_route(unit=unit, template=template):
+        endpoint_name = f'dynamic_route_{unit}'
+        @routes_bp.route(route_path, endpoint=endpoint_name)
+        def dynamic_route():
+            language = get_language(request, session)
+            title_page=TITLE_PAGE[unit]
+            introduction = INTRODUCTION[language].get(unit, {})
+            meta_description = META_DESCRIPTION[language]
+
+            exercises_A1 = get_exercises_by_unit_and_level(unit, 'A1')
+            exercises_A2 = get_exercises_by_unit_and_level(unit, 'A2')
+            exercises_B1 = get_exercises_by_unit_and_level(unit, 'B1')
+            exercises_B2 = get_exercises_by_unit_and_level(unit, 'B2')
+            exercises_C1 = get_exercises_by_unit_and_level(unit, 'C1')
+            exercises_C2 = get_exercises_by_unit_and_level(unit, 'C2')
+
+            if current_user.is_authenticated:
+                update_progress_in_session(session, unit)
+
+            return render_template(template,
+                                   title_page=title_page,
+                                   answered_questions=compute_answered_questions,
+                                   total_questions=total_question_exercises,
+                                   score=write_score,
+                                   introduction=introduction,
+                                   description_templates=DESCRIPTION[language],
+                                   homepage=HOMEPAGE[language],
+                                   meta_description=meta_description,
+                                   is_exercise_started=is_exercise_started,
+                                   exercises_A1=exercises_A1,
+                                   exercises_A2=exercises_A2,
+                                   exercises_B1=exercises_B1,
+                                   exercises_B2=exercises_B2,
+                                   exercises_C1=exercises_C1,
+                                   exercises_C2=exercises_C2,
+                                   )
+        return dynamic_route
+
+    make_route()
+
+
 @routes_bp.route('/settings', endpoint='settings')
 def settings():
 
@@ -71,22 +117,12 @@ def settings():
         'french': 'menu/settings_fr.html',
     }
 
+    email = current_user.email if current_user.is_authenticated else None
+
     return render_template(page[language],
-                           email=current_user.email,
+                           email=email,
+                           is_authenticated=current_user.is_authenticated,
                            )
-
-
-@routes_bp.route('/settings_not_connected', endpoint='settings_not_connected')
-def settings_not_connected():
-
-    language = get_language(request, session)
-
-    page = {
-        'english': 'menu/settings_not_connected_en.html',
-        'french': 'menu/settings_not_connected_fr.html',
-    }
-
-    return render_template(page[language])
 
 
 @routes_bp.route('/about', endpoint='about')
@@ -132,36 +168,37 @@ def bookmarks():
                             )
 
 
-for unit in units:
-    route_path = UNIT_PAGE[unit]
-    template = TEMPLATE_PATH[unit]
+@routes_bp.route("/progress")
+def progress():
 
-    def make_route(unit=unit, template=template):
-        endpoint_name = f'dynamic_route_{unit}'
-        @routes_bp.route(route_path, endpoint=endpoint_name)
-        def dynamic_route():
-            language = get_language(request, session)
-            title_page=TITLE_PAGE[unit]
-            introduction = INTRODUCTION[language].get(unit, {})
-            meta_description = META_DESCRIPTION[language]
+    language = get_language(request, session)
 
-            if current_user.is_authenticated:
-                update_progress_in_session(session, unit)
+    page = {
+        'english': 'menu/progress_en.html',
+        'french': 'menu/progress_fr.html',
+    }
 
-            return render_template(template,
-                                   title_page=title_page,
-                                   answered_questions=compute_answered_questions,
-                                   total_questions=total_question_exercises,
-                                   score=write_score,
-                                   introduction=introduction,
-                                   description_templates=DESCRIPTION[language],
-                                   homepage=HOMEPAGE[language],
-                                   meta_description=meta_description,
-                                   is_exercise_started=is_exercise_started,
-                                   )
-        return dynamic_route
+    fraction_level_finished = {level: get_fraction_exercises_finished_by_level(session, level) for level in levels}
+    random_unit_exercise = {level: get_random_unit_and_lowest_unfinished_exercise(session, level) for level in levels}
 
-    make_route()
+    unfinished_exercises = get_unfinished_exercises(session)
+
+    lowest_score_exercises = get_lowest_scored_exercises()
+
+    return render_template(
+        page[language],
+        title_page=TITLE_PAGE,
+        levels=levels,
+        fractions=fraction_level_finished,
+        random_unit_exercise=random_unit_exercise,
+        unfinished_exercises=unfinished_exercises,
+        answered_questions=compute_answered_questions,
+        total_questions=total_question_exercises,
+        score=write_score,
+        is_exercise_started=is_exercise_started,
+        lowest_score_exercises=lowest_score_exercises,
+        get_level_from_exercise=get_level_from_exercise,
+        )
 
 
 @routes_bp.route('/robots.txt')

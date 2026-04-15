@@ -49,7 +49,7 @@ INTRODUCTION_FR = {
         "<br>&bull; Prépositions suivies par le Génitif: anstatt, außerhalb, innerhalb, laut, trotz, während, wegen"
     ,
     verben_artikel:
-        "Cas grammatiques suivant les Verbes"
+        "Cas grammatiques suivant les Verbes."
     ,
 
     konnektoren:

@@ -261,15 +261,16 @@ DESCRIPTION_FR = {
         33: "Pronoms Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et Formel, en isolation",
         34: "Pronoms Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et Formel, en contexte",
 
-        35: "Pronoms singuliers en <i>davon</i> et en <i>von ihnen</i>, en isolation",
-        36: "Pronoms singuliers en <i>davon</i> et en <i>von ihnen</i>, en contexte",
-        37: "Pronoms pluriels en <i>davon</i> et en <i>von ihnen</i>, en isolation",
-        38: "Pronoms pluriels en <i>davon</i> et en <i>von ihnen</i>, en contexte",
-        39: "Pronoms en <i>die ...</i>, en isolation",
-        40: "Pronoms en <i>die ...</i>, en contexte",
-        41: "Pronoms de niveaux C1, en isolation",
-        42: "Pronoms de niveaux C1, en contexte",
-        43: "Pronoms Relatifs Was et Wer, en contexte",
+        35: "Pronoms de niveaux C1, en isolation",
+        36: "Pronoms de niveaux C1, en contexte",
+        37: "Pronoms en <i>die ...</i>, en isolation",
+        38: "Pronoms en <i>die ...</i>, en contexte",
+        39: "Pronoms Relatifs Was et Wer, en contexte",
+
+        40: "Pronoms singuliers en <i>davon</i> et en <i>von ihnen</i>, en isolation",
+        41: "Pronoms singuliers en <i>davon</i> et en <i>von ihnen</i>, en contexte",
+        42: "Pronoms pluriels en <i>davon</i> et en <i>von ihnen</i>, en isolation",
+        43: "Pronoms pluriels en <i>davon</i> et en <i>von ihnen</i>, en contexte",
     },
 
     praepositionen_artikel: {
@@ -297,6 +298,21 @@ DESCRIPTION_FR = {
         20: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
         21: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
         22: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
+
+        23: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        24: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        25: "Articles et Pronoms à la suite de Prépositions, en contexte",
+        26: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        27: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        28: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        29: "Articles et Pronoms à la suite de Paires Verbe-Préposition, en contexte",
+        30: "Articles et Pronoms à la suite de Paires Adjectif-Préposition, en contexte",
+        31: "Articles et Pronoms à la suite de Paires Adjectif-Préposition, en contexte",
+        32: "Articles et Pronoms à la suite de Paires Adjectif-Préposition, en contexte",
+        33: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
+        34: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
+        35: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
+        36: "Articles et Pronoms à la suite de Paires Nom-Préposition, en contexte",
     },
 
     verben_artikel: {
@@ -307,6 +323,10 @@ DESCRIPTION_FR = {
         4: "Articles et Pronoms à la suite de Verbes, en contexte",
         5: "Articles et Pronoms à la suite de Verbes, en contexte",
         6: "Articles et Pronoms à la suite de Verbes, en contexte",
+
+        7: "Articles et Pronoms à la suite de Verbes, en contexte",
+        8: "Articles et Pronoms à la suite de Verbes, en contexte",
+        9: "Articles et Pronoms à la suite de Verbes, en contexte",
     },
 
     konnektoren: {

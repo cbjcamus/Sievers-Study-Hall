@@ -591,25 +591,26 @@ FEEDBACK_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
 
-        35: "{english}, {gender_english}, {case_english} → {correct_answers}",
+        35: "{english} = {correct_answers}",
         36: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>{gender_english}, {case_english} → {correct_answers}",
-        37: "{english}, {gender_english}, {case_english} → {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers}",
+        37: "{english} = {correct_answers}",
         38: "{german}"
             "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+        39: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}",
+
+        40: "{english}, {gender_english}, {case_english} → {correct_answers}",
+        41: "{german}"
+            "<br><br><i>{english}</i>"
             "<br><br>{gender_english}, {case_english} → {correct_answers}",
-        39: "{english} = {correct_answers}",
-        40: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
-        41: "{english} = {correct_answers}",
-        42: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
+        42: "{english}, {gender_english}, {case_english} → {correct_answers}",
         43: "{german}"
             "<br><br><i>{english}</i>"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>{gender_english}, {case_english} → {correct_answers}",
     },
 
     praepositionen_artikel: {
@@ -725,6 +726,77 @@ FEEDBACK_EN = {
             "<br><br>{person}, {gender_english}{case_english} → {article}"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+
+        23: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        24: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        25: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        26: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        27: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        28: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        29: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        30: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        31: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        32: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        33: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        34: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        35: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        36: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{person}, {gender_english}{case_english} → {article}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     verben_artikel: {
@@ -750,6 +822,19 @@ FEEDBACK_EN = {
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
         6: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
+           "<br><br>Correct answer(s): {correct_answers}",
+
+        7: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
+           "<br><br>Correct answer(s): {correct_answers}",
+        8: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
+           "<br><br>Correct answer(s): {correct_answers}",
+        9: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
@@ -2877,205 +2962,304 @@ FEEDBACK_EN = {
 
     genus: {
         1: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         2: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         3: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         4: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         5: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         6: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         7: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         8: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         9: "{german}"
-           "<br><br><i>{english}</i>",
+           "<br><br><i>{english}</i>"
+           "{explanation_english}",
         10: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         11: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         12: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         13: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         14: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         15: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         16: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         17: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         18: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         19: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         20: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         21: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         22: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         23: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         24: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         25: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
 
         26: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         27: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         28: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         29: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         30: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         31: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         32: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         33: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         34: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         35: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         36: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         37: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         38: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         39: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         40: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         41: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         42: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         43: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         44: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         45: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         46: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         47: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         48: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         49: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         50: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
 
         51: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         52: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         53: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         54: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         55: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         56: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         57: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         58: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         59: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         60: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         61: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         62: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         63: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         64: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         65: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         66: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         67: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         68: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         69: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         70: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         71: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         72: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         73: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         74: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         75: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         76: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         77: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         78: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         79: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         80: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         81: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         82: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         83: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         84: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         85: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         86: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         87: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         88: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         89: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         90: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         91: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         92: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         93: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         94: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         95: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         96: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         97: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         98: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
         99: "{german}"
-            "<br><br><i>{english}</i>",
+            "<br><br><i>{english}</i>"
+            "{explanation_english}",
     },
 
     plural: {

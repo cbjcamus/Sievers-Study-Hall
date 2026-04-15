@@ -264,15 +264,16 @@ INSTRUCTION_FR = {
         33: "Fournissez la traduction du pronom possessif qui correspond au cas et au genre fournis :",
         34: "Complétez la phrase suivante avec le pronom possessif qui convient :",
 
-        35: "Fournissez la traduction du pronom en <i>davon</i> ou en <i>von ihnen</i> suivant :",
-        36: "Complétez la phrase suivante avec le pronom en <i>davon</i> ou en <i>von ihnen</i> qui convient :",
-        37: "Fournissez la traduction du pronom en <i>davon</i> ou en <i>von ihnen</i> suivant :",
-        38: "Complétez la phrase suivante avec le pronom en <i>davon</i> ou en <i>von ihnen</i> qui convient :",
-        39: "Fournissez la traduction du pronom en <i>die ...</i> :",
-        40: "Complétez la phrase suivante avec le pronom en <i>die ...</i> qui convient :",
-        41: "Traduisez le pronom suivant :",
-        42: "Complétez la phrase suivante avec le pronom qui convient :",
-        43: "Complétez la phrase suivante avec le pronom relatif qui convient :",
+        35: "Fournissez la traduction du pronom en <i>die ...</i> :",
+        36: "Complétez la phrase suivante avec le pronom en <i>die ...</i> qui convient :",
+        37: "Traduisez le pronom suivant :",
+        38: "Complétez la phrase suivante avec le pronom qui convient :",
+        39: "Complétez la phrase suivante avec le pronom relatif qui convient :",
+
+        40: "Fournissez la traduction du pronom en <i>davon</i> ou en <i>von ihnen</i> suivant :",
+        41: "Complétez la phrase suivante avec le pronom en <i>davon</i> ou en <i>von ihnen</i> qui convient :",
+        42: "Fournissez la traduction du pronom en <i>davon</i> ou en <i>von ihnen</i> suivant :",
+        43: "Complétez la phrase suivante avec le pronom en <i>davon</i> ou en <i>von ihnen</i> qui convient :",
     },
 
     praepositionen_artikel: {
@@ -300,6 +301,21 @@ INSTRUCTION_FR = {
         20: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
         21: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
         22: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+
+        23: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        24: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        25: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        26: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        27: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        28: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        29: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        30: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        31: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        32: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        33: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        34: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        35: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+        36: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
     },
 
     verben_artikel: {
@@ -310,6 +326,10 @@ INSTRUCTION_FR = {
         4: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
         5: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
         6: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
+
+        7: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
+        8: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
+        9: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
     },
 
     konnektoren: {

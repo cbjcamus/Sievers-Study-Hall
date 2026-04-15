@@ -1,5 +1,8 @@
+import random
+
 from flask_login import current_user
 
+from data.data_processing.levels import get_exercises_by_level, df_level
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from users.users.models import UserExerciseState
@@ -171,3 +174,100 @@ def is_exercise_started(session, unit, exercise):
         or "result" in state
         or "score" in state
     )
+
+
+def is_exercise_completed_db(user_id, unit, exercise):
+    row = UserExerciseState.query.filter_by(
+        user_id=user_id,
+        unit=unit,
+        exercise=exercise
+    ).first()
+
+    if not row or not row.state:
+        return False
+
+    return "score" in row.state
+
+
+def is_exercise_completed_session(session, unit, exercise):
+    unit_data = session.get(unit, {})
+    exercise_data = unit_data.get(str(exercise), {})
+
+    return exercise_data.get("result") is not None
+
+
+def is_exercise_completed(unit, exercise, session):
+    if current_user.is_authenticated:
+        return is_exercise_completed_db(current_user.id, unit, exercise)
+    return is_exercise_completed_session(session, unit, exercise)
+
+
+def get_fraction_exercises_finished_by_level(session, level):
+    df_level = get_exercises_by_level(level)
+
+    if df_level.empty:
+        return 0.0
+
+    total = len(df_level)
+    done = 0
+
+    for _, row in df_level.iterrows():
+        unit = row["unit"]
+        exercise = row["exercise"]
+
+        if is_exercise_completed(unit, exercise, session):
+            done += 1
+
+    fraction = done / total
+
+    return int(round(fraction * 100))
+
+
+def get_random_unit_and_lowest_unfinished_exercise(session, level):
+    df_level = get_exercises_by_level(level)
+
+    if df_level.empty:
+        return None, None
+
+    unfinished_rows = []
+
+    for _, row in df_level.iterrows():
+        unit = row["unit"]
+        exercise = row["exercise"]
+
+        if not is_exercise_completed(unit, exercise, session):
+            unfinished_rows.append((unit, exercise))
+
+    if not unfinished_rows:
+        return None, None
+
+    unfinished_units = list({unit for unit, _ in unfinished_rows})
+    chosen_unit = random.choice(unfinished_units)
+
+    unfinished_exercises_in_unit = [
+        exercise
+        for unit, exercise in unfinished_rows
+        if unit == chosen_unit
+    ]
+
+    chosen_exercise = min(unfinished_exercises_in_unit)
+
+    return chosen_unit, chosen_exercise
+
+
+def get_unfinished_exercises(session, df_level=df_level):
+    df_all = df_level
+
+    if df_all.empty:
+        return []
+
+    unfinished = []
+
+    for _, row in df_all.iterrows():
+        unit = row["unit"]
+        exercise = row["exercise"]
+
+        if not is_exercise_completed(unit, exercise, session) and is_exercise_started(session, unit, exercise):
+            unfinished.append((unit, exercise))
+
+    return unfinished

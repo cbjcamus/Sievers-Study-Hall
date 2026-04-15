@@ -78,8 +78,8 @@
         {% endfor %}
     {% endif %}
 
-    <script src="{{ url_for('static', filename='js/flags.js') }}" defer></script>
-    <script src="{{ url_for('static', filename='js/bookmarks.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/exercise/flags.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/exercise/bookmarks.js') }}" defer></script>
 
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
