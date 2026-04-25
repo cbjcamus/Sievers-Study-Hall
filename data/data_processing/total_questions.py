@@ -1,7 +1,7 @@
 import numpy as np
 
-from data.data_processing.units import units
 from data.data_processing.paths import df_units
+from data.data_processing.units import units
 from data.data_processing.data_loading import load_data_exercise
 
 

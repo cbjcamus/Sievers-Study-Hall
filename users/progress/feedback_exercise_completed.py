@@ -2,9 +2,10 @@ import pandas as pd
 
 from flask_login import current_user
 
-from data.content.exercise.content_exercises import FEEDBACK
+from data.content.exercise.templates import FEEDBACK
 from data.data_processing.data_loading import load_data_exercise
-from data.data_processing.exercise_type import is_exercise_multiple_choice, get_answer_column
+from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column
+from users.questions.content_format import get_template
 
 from users.users.models import UserExerciseState
 from users.questions.normalization import get_list_of_correct_answers, get_first_correct_answer
@@ -126,7 +127,7 @@ def format_feedback(df, unit, exercise, language):
     Returns:
         list: A list of formatted feedback strings, one for each row in the DataFrame.
     """
-    template = FEEDBACK[language][unit][exercise]
+    template = get_template(unit, exercise, language, FEEDBACK)
     result = []
 
     for _, row in df.iterrows():

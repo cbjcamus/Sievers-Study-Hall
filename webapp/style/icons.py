@@ -5,3 +5,5 @@ ICON_WARN = "⚠️"
 
 STAR_GOLD = "<span style='color: gold; font-size: 0.9em;'>★</span>"
 STAR_SILVER = "<span style='color: silver;'>★</span>"
+
+# blues #1f2f40 #2c4a60 #3d6a85

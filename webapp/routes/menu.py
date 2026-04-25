@@ -7,19 +7,18 @@ from data.content.unit.stars import STARS
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
 from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
-from data.content.exercise.content_exercises import DESCRIPTION
 from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
 from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from data.data_processing.units import units
-from data.data_processing.levels import get_exercises_by_unit_and_level, levels, get_level_from_exercise
+from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
 from users.progress.score import write_score, get_lowest_scored_exercises
 from users.progress.progress import compute_answered_questions, update_progress_in_session, is_exercise_started, \
     get_fraction_exercises_finished_by_level, get_random_unit_and_lowest_unfinished_exercise, get_unfinished_exercises
-from users.questions.content_format import get_question_from_incorrect_answer
+from users.questions.content_format import format_correction, format_description
 
 from . import routes_bp
 
@@ -71,7 +70,7 @@ for unit in units:
         @routes_bp.route(route_path, endpoint=endpoint_name)
         def dynamic_route():
             language = get_language(request, session)
-            title_page=TITLE_PAGE[unit]
+            title_page = TITLE_PAGE[unit]
             introduction = INTRODUCTION[language].get(unit, {})
             meta_description = META_DESCRIPTION[language]
 
@@ -91,7 +90,7 @@ for unit in units:
                                    total_questions=total_question_exercises,
                                    score=write_score,
                                    introduction=introduction,
-                                   description_templates=DESCRIPTION[language],
+                                   format_description=format_description,
                                    homepage=HOMEPAGE[language],
                                    meta_description=meta_description,
                                    is_exercise_started=is_exercise_started,
@@ -156,16 +155,17 @@ def bookmarks():
     }
 
     return render_template(page[language],
-                            bookmarks=bookmarks,
-                            is_feedback_box=True,
-                            your_answer=YOUR_ANSWER[language],
-                            title_page=TITLE_PAGE,
-                            force_full_bookmark=True,
-                            get_question_from_incorrect_answer=get_question_from_incorrect_answer,
-                            icon_empty=get_filename_empty_bookmark(),
-                            icon_full=get_filename_full_bookmark(),
+                           bookmarks=bookmarks,
+                           is_feedback_box=True,
+                           your_answer=YOUR_ANSWER[language],
+                           title_page=TITLE_PAGE,
+                           force_full_bookmark=True,
+                           format_correction=format_correction,
+                           icon_empty=get_filename_empty_bookmark(),
+                           icon_full=get_filename_full_bookmark(),
                            icon_flag=get_filename_flag(),
-                            )
+                           language=language,
+                           )
 
 
 @routes_bp.route("/progress")

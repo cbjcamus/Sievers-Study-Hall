@@ -2,7 +2,7 @@ import random
 
 from flask_login import current_user
 
-from data.data_processing.levels import get_exercises_by_level, df_level
+from data.data_processing.exercises import get_exercises_by_level, df_exercises
 from data.data_processing.total_questions import total_question_exercises, highest_exercise
 
 from users.users.models import UserExerciseState
@@ -255,8 +255,8 @@ def get_random_unit_and_lowest_unfinished_exercise(session, level):
     return chosen_unit, chosen_exercise
 
 
-def get_unfinished_exercises(session, df_level=df_level):
-    df_all = df_level
+def get_unfinished_exercises(session, df_exercises=df_exercises):
+    df_all = df_exercises
 
     if df_all.empty:
         return []
@@ -269,5 +269,8 @@ def get_unfinished_exercises(session, df_level=df_level):
 
         if not is_exercise_completed(unit, exercise, session) and is_exercise_started(session, unit, exercise):
             unfinished.append((unit, exercise))
+
+            if len(unfinished) >= 10:
+                break
 
     return unfinished

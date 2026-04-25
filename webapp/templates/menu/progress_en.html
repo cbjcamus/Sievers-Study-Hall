@@ -35,10 +35,9 @@
             {% for (unit, exercise) in unfinished_exercises %}
                 <tr>
                     <td>
-                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Finish Exercise</a>
+                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">{{ title_page[unit] }} {{ exercise }}</a>
                     </td>
                     <td>{{ get_level_from_exercise(unit, exercise) }}</td>
-                    <td>{{ title_page[unit] }} {{ exercise }}</td>
                     <td>
                         {{ answered_questions(session, unit, exercise=exercise) }}/{{ total_questions[unit][exercise] }}
                     </td>
@@ -65,12 +64,11 @@
             {% for (unit, exercise, score_) in lowest_score_exercises %}
                 <tr>
                     <td>
-                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">Repeat Exercise</a>
+                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">{{ title_page[unit] }} {{ exercise }}</a>
                     </td>
                     <td>{{ get_level_from_exercise(unit, exercise) }}</td>
-                    <td>{{ title_page[unit] }} {{ exercise }}</td>
                     <td>
-                        <span title="Your score for Exercise {{ exercise }}">{{ score(session, unit, exercise=exercise) }}</span>
+                        {{ answered_questions(session, unit, exercise=exercise) }}/{{ total_questions[unit][exercise] }}
                     </td>
                     <td>
                         {% if is_exercise_started(session, unit, exercise) %}
@@ -79,6 +77,9 @@
                                 <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
                             </form>
                         {% endif %}
+                    </td>
+                    <td>
+                        <span title="Your score for Exercise {{ exercise }}">{{ score(session, unit, exercise=exercise) }}</span>
                     </td>
                 </tr>
             {% endfor %}

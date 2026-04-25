@@ -11,9 +11,8 @@ from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMI
 
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.data_loading import load_question_text
-from data.data_processing.exercise_type import is_exercise_multiple_choice
+from data.data_processing.exercises import is_exercise_multiple_choice
 from data.data_processing.total_questions import total_question_exercises
-from users.session_management.session_update import update_session_dictionary, read_feedback
 
 from users.users.models import db, is_feedback_enabled, get_filename_full_bookmark, \
     get_filename_empty_bookmark, get_filename_flag, UserExerciseState, is_instruction_page_enabled
@@ -23,11 +22,12 @@ from users.progress.register_update import register_progress, register_incorrect
 from users.progress.is_exercise_finished import is_exercise_finished
 
 from users.questions.normalization import is_user_answer_correct
-from users.questions.content_format import format_instruction, format_question, get_gender, get_guidance, \
-    format_feedback, get_question_from_incorrect_answer
+from users.questions.content_format import format_instruction, format_question, format_gender, format_guidance, \
+    format_feedback, format_correction
 from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
 
 from users.session_management.logging import log_question_flagged
+from users.session_management.session_update import update_session_dictionary, read_feedback
 from users.session_management.verification_session import init_session_key, is_key_in_session
 
 from . import routes_bp
@@ -50,7 +50,7 @@ def guidance(unit, exercise):
     update_session_dictionary(session, "current_exercise", "unit", unit)
     update_session_dictionary(session, "current_exercise", "exercise", exercise)
 
-    guidance = get_guidance(unit, exercise, language)
+    guidance = format_guidance(unit, exercise, language)
 
     if guidance and is_instruction_page_enabled():
         return render_template("exercise/guidance.html",
@@ -92,11 +92,11 @@ def exercise(unit, exercise):
 
     feedback_message = format_feedback(unit, exercise, language, previous_question_id)
     previous_question = load_question_text(unit, exercise, previous_question_id)
-    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
+    correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 
-    gender = get_gender(unit, exercise, language, question_id)
+    gender = format_gender(unit, exercise, language, question_id)
 
-    guidance_popup = get_guidance(unit, exercise, language)
+    guidance_popup = format_guidance(unit, exercise, language)
 
     proverb = get_text_proverb(language)
 
@@ -139,7 +139,7 @@ def exercise(unit, exercise):
                            consult_faq=CONSULT_FAQ[language],
                            options=options_text,
                            your_answer=YOUR_ANSWER[language],
-                           incorrect_question=incorrect_question,
+                           correction=correction,
                            submit=SUBMIT[language],
                            enter_answer_here=ENTER_ANSWER_HERE[language],
                            back_to=BACK_TO[language],
@@ -209,10 +209,9 @@ def exercise_feedback(unit, exercise):
 
     feedback_message = format_feedback(unit, exercise, language, question_id)
     previous_question = format_question(unit, exercise, language, question_id)
+    correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 
-    incorrect_question = get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question)
-
-    guidance_popup = get_guidance(unit, exercise, language)
+    guidance_popup = format_guidance(unit, exercise, language)
 
     proverb = get_text_proverb(language)
 
@@ -246,7 +245,7 @@ def exercise_feedback(unit, exercise):
                            consult_faq=CONSULT_FAQ[language],
                            is_feedback_box=is_feedback_box,
                            your_answer=YOUR_ANSWER[language],
-                           incorrect_question=incorrect_question,
+                           correction=correction,
                            next_question=NEXT_QUESTION[language],
                            back_to=BACK_TO[language],
                            icon_full=get_filename_full_bookmark(),

@@ -5,6 +5,11 @@
     font-weight: normal;
 }
 
+h2 {
+    font-weight: normal;
+    margin-top: 20px;
+}
+
 .guidance-container {
     text-align: left;
     width: 100%;
@@ -461,14 +466,32 @@ body.day-mode .feedback-incorrect-container {
     max-width: 400px;
 }
 
+.flag-icon {
+    width: 18px;
+    height: 18px;
+}
+
 .flag-form {
-    display: inline;
+    position: absolute;
+
+    right: 0px;   /* pushes it left of the flag */
+    top: -70px;    /* moves it upward */
+
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
 }
 
 .flag-form-container {
     position: absolute;
     top: 13px;
     right: 15px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0px;
 }
 
 .flag-button {
@@ -486,6 +509,43 @@ body.day-mode .flag-button {
 
 .flag-button:hover {
     color: #ccc;
+}
+
+.flag-form textarea {
+    width: 260px;
+    padding: 5px 8px;
+    font: inherit;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    font-family: inherit;}
+
+.hidden {
+    display: none;
+}
+
+body.day-mode .flag-form textarea {
+    border: 1px solid black;
+}
+
+.flag-form button {
+    background-color: white;
+    color: #161F23;
+    border: none;
+    padding: 5px 10px;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body.day-mode .flag-form button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.flag-form button:hover{
+    background-color: #ccc;
 }
 
 .bookmark-form {
@@ -541,70 +601,6 @@ body.day-mode .flash-message.info {
     color: black;
     background-color: #deedfa;
     border: 2px solid purple;
-}
-
-.flag-icon {
-    width: 18px;
-    height: 18px;
-}
-
-.flag-form-container {
-    position: absolute;
-    top: 13px;
-    right: 15px;
-    z-index: 10;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 8px;
-}
-
-.flag-form {
-    display: block;
-}
-
-.flag-form textarea {
-    width: 260px;
-    box-sizing: border-box;
-}
-
-.hidden {
-    display: none;
-}
-
-.flag-form textarea {
-    width: 260px;
-    padding: 5px 8px;
-    font: inherit;
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
-    font-family: inherit;
-}
-
-body.day-mode .flag-form textarea {
-    border: 1px solid black;
-}
-
-.flag-form button {
-    background-color: white;
-    color: #161F23;
-    border: none;
-    padding: 5px 10px;
-    font: inherit;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-body.day-mode .flag-form button {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
-
-.flag-form button:hover{
-    background-color: #ccc;
 }
 
 .proverb-container {

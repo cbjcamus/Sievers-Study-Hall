@@ -1,8 +1,8 @@
 import json
+from flask_login import current_user
 
 from data.data_processing.units import units
 
-from flask_login import current_user
 from users.users.models import UserExerciseState
 
 

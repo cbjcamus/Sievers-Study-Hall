@@ -1,4 +1,5 @@
 import os
+
 import pandas as pd
 
 from data.data_processing.units import (
@@ -12,7 +13,7 @@ from data.data_processing.units import (
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
     units,
-    )
+)
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 

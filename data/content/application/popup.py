@@ -1,4 +1,5 @@
 from typing import cast
+
 from flask import session
 
 from data.content.unit.title_page import TITLE_PAGE
@@ -27,7 +28,7 @@ def get_popup_text(unit, exercise, language):
 
         'french': (
             f"Progression effacée pour {TITLE_PAGE[unit]} - Exercice {exercise} en raison d'une mémoire insuffisante."
-            f"<br><br>Pour enregistrer votre progression sur le long terme et sur plusieurs appareils, et pour accéder à des fonctionnalité supplémentaires comme les marque-pages, "
+            f"<br><br>Pour sauvegarder votre progression sur le long terme et sur plusieurs appareils, et pour accéder à des fonctionnalité supplémentaires comme les marque-pages, "
             f"<a href=\" /signup\" target=\"_blank\">créez un compte</a>. "
             f"<br><br>Pour plus d'informations, consultez la "
             f"<a href=\"https://sieversstudyhall.substack.com/p/faq-8cc\" target=\"_blank\">Foire-à-Questions</a>."

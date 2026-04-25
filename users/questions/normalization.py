@@ -2,18 +2,22 @@ import unicodedata
 import string
 
 from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms
-from data.data_processing.exercise_type import get_answer_column, is_exercise_multiple_choice, is_exercise_synonym
+from data.data_processing.exercises import is_exercise_multiple_choice, is_exercise_synonym, get_answer_column
 
 from data.data_processing.data_loading import load_data_question
 
 
 def get_correct_answer(unit, exercise, question_id, language):
     question_data = load_data_question(unit, exercise, question_id)
+    answer_column = get_answer_column(unit, exercise, language)
 
-    if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise) == "foreign":
+    return question_data.get(answer_column, "")
+'''
+    if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise, language) == "foreign":
         return question_data.get(language, "")
     else:
         return question_data.get("answer", "")
+'''
 
 
 def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
@@ -42,11 +46,10 @@ def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
     question_data = load_data_question(unit, exercise, question_id)
     question_text = str(question_data["question"])
 
-    correct_answer = get_correct_answer(unit, exercise, question_id, language)
-
     if is_exercise_synonym(unit, exercise) and user_answer == question_text:
         return False
 
+    correct_answer = get_correct_answer(unit, exercise, question_id, language)
     user_answer = normalize_answer(user_answer, unit)
 
     if "/" in correct_answer:
@@ -234,6 +237,7 @@ def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
     df_synonyms = df_synonyms[df_synonyms['unit'] == unit].copy()
     df_synonyms['input'] = df_synonyms['input'].str.lower()
     df_synonyms['input'] = [replace_german_characters(entry) for entry in df_synonyms['input']]
+    df_synonyms['input'] = [remove_punctuation(entry) for entry in df_synonyms['input']]
 
     mapping = dict(zip(df_synonyms["input"], df_synonyms["output"]))
 

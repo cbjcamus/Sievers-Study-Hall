@@ -1,8 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
+    konnektoren, fragen, adverbien, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -26,17 +25,18 @@ HOME_DESCRIPTION_FR = {
     fragen: "Mots Interrogatifs.",
     adverbien: "Adverbes temporels, locaux, et modaux à tous les niveaux",
 
-    adjektive: "Traductions d'Adjectifs Allemands",
-    komparativ_superlativ: "Comparatifs et Superlatifs d'adctifs",
-    adjektivdeklinationen: "Toutes les Déclinations d'Adjectifs",
-    adjektive_konjunktionen: "Conjonctions et Constructions d'Adjectifs",
-    adjektive_verben_wortstaemme: "Paires Adjectif-Verbe avec la même racine étymologique",
-    adjektive_nomen_wortstaemme: "Paires Adjectif-Nom commun avec la même racine étymologique",
+    genus_regeln: "Genre des noms communs – Règles et Guides",
+    genus: "Genre des noms communs",
+    plural: "Forme Plurielle des noms communs allemands les plus utilisés",
 
     verben: "Traduction de Verbes Allemands",
     trennbare_verben: "Verbes séparables et inséparables",
     nomen_verben_verbindungen: "Combinaisons Nom-Verbe et autres expressions",
-    nomen_verben_wortstaemme: "Paires Nom-Verbe avec la même racine étymologique",
+
+    adjektive: "Traductions d'Adjectifs Allemands",
+    komparativ_superlativ: "Comparatifs et Superlatifs d'adctifs",
+    adjektivdeklinationen: "Toutes les Déclinations d'Adjectifs",
+    adjektive_konjunktionen: "Conjonctions et Constructions d'Adjectifs",
 
     praesens: "Présent de l'indicatif Allemand.",
     partizip_II: "Participe Passé",
@@ -47,9 +47,9 @@ HOME_DESCRIPTION_FR = {
     konjunktiv_I: "Subjonctif I",
     partizip_I: "Participe Présent",
 
-    genus_regeln: "Genre des noms communs – Règles et Guides",
-    genus: "Genre des noms communs",
-    plural: "Forme Plurielle des noms communs allemands les plus utilisés",
+    nomen_verben_wortstaemme: "Paires Nom-Verbe avec la même racine étymologique",
+    adjektive_verben_wortstaemme: "Paires Adjectif-Verbe avec la même racine étymologique",
+    adjektive_nomen_wortstaemme: "Paires Adjectif-Nom commun avec la même racine étymologique",
 
     zahlen: "Nombres dans toutes leurs formes",
 }

@@ -31,14 +31,14 @@ TEMPLATE_PATH = {
     genus: "units/genus/genus.html",
     plural: "units/genus/plural.html",
 
+    verben: "units/verben/verben.html",
+    trennbare_verben: "units/verben/trennbare_verben.html",
+    nomen_verben_verbindungen: "units/verben/nomen_verben_verbindungen.html",
+
     adjektive: "units/adjektive/adjektive.html",
     komparativ_superlativ: "units/adjektive/komparativ_superlativ.html",
     adjektivdeklinationen: "units/adjektive/adjektivdeklinationen.html",
     adjektive_konjunktionen: "units/adjektive/adjektive_konjunktionen.html",
-
-    verben: "units/verben/verben.html",
-    trennbare_verben: "units/verben/trennbare_verben.html",
-    nomen_verben_verbindungen: "units/verben/nomen_verben_verbindungen.html",
 
     praesens: "units/konjugation/praesens.html",
     imperativ: "units/konjugation/imperativ.html",

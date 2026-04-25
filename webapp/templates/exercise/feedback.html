@@ -41,17 +41,7 @@
             <a href="{{ url_for('routes.exercise', unit=unit, exercise=exercise) }}" class="next-question-button">{{ next_question }} →</a>
         </div>
 
-        <script>
-            document.addEventListener("keydown", function(event) {
-                if (event.key === "Enter") {
-                    const nextBtn = document.querySelector(".next-question-button");
-                    if (nextBtn && !document.getElementById("answer")) {
-                        event.preventDefault();
-                        nextBtn.click();
-                    }
-                }
-            });
-        </script>
+        <script src="{{ url_for('static', filename='js/exercise/enterNextQuestionButton.js') }}" defer></script>
 
         <div class="guidance-help-container" style="position:absolute; bottom:12px; left:14px; z-index:50;">
             <button type="button"
@@ -66,7 +56,7 @@
             <div class="guidance-modal" role="dialog" aria-modal="true">
                 <div class="guidance-modal-header">
                     <h2>Instruction</h2>
-                  <button type="button" class="guidance-close" onclick="toggleGuidanceHelp(true)" aria-label="Close">×</button>
+                    <button type="button" class="guidance-close" onclick="toggleGuidanceHelp(true)" aria-label="Close">×</button>
                 </div>
                 <div class="guidance-modal-body">
                     {{ guidance | safe }}
@@ -78,7 +68,7 @@
 
     </div>
 
-    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, incorrect_question, current_user, False, icon_full, icon_empty, icon_flag) }}
+    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, correction, current_user, False, icon_full, icon_empty, icon_flag) }}
 
     <script src="{{ url_for('static', filename='js/exercise/flags.js') }}" defer></script>
     <script src="{{ url_for('static', filename='js/exercise/bookmarks.js') }}" defer></script>

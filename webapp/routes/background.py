@@ -1,14 +1,13 @@
 from flask import session
-from typing import cast
-
 from flask_login import current_user
+from typing import cast
 
 from . import routes_bp
 
 from data.data_processing.units import units
 
 from users.session_management.logging import log_progress_deleted_from_session
-from users.session_management.print_session import session_size, print_session_size, print_complete_session
+from users.session_management.print_session import session_size
 from users.session_management.verification_session import is_key_in_exercise, is_key_in_session
 
 session = cast(dict, session)

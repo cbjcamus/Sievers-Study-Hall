@@ -1,10 +1,11 @@
 import os
+import re
 from flask import request, session
 from datetime import datetime
 
-from data.data_processing.levels import get_level_from_exercise
+from data.data_processing.exercises import get_level_from_exercise
 
-from users.users.models import db, is_feedback_enabled, get_theme
+from users.users.models import is_feedback_enabled, get_theme
 
 from webapp.i18n import get_language
 
@@ -107,6 +108,11 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     user_ip = forwarded_for.split(',')[0].strip()
     language = get_language(request, session)
 
+    result = format_entry(result)
+    feedback_message = format_entry(feedback_message)
+    user_answer = format_entry(user_answer)
+    reason = format_entry(reason)
+
     with open(QUESTION_FLAGGED_PATH, "a", encoding="utf-8") as filepath:
         filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {language}; {result}; {feedback_message}; {user_answer}; {reason}")
     return
@@ -207,3 +213,17 @@ def get_next_number(file):
                     pass
 
     return next_nr
+
+
+def format_entry(input):
+    output = input.replace("&nbsp;", "")
+    output = output.replace("<br>", "")
+    output = clean_single_line(output)
+
+    return output
+
+
+def clean_single_line(text):
+    if text is None:
+        return ""
+    return re.sub(r"\s+", " ", str(text)).strip()

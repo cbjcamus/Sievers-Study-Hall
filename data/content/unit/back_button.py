@@ -31,14 +31,14 @@ BACK_BUTTON = {
     genus: "Genus",
     plural: "Plural",
 
+    verben: "Verben",
+    trennbare_verben: "(Un)trennbare Verben",
+    nomen_verben_verbindungen: "Nomen-Verben Verbindungen",
+
     adjektive: "Adjektive",
     komparativ_superlativ: "Komparativ & Superlativ",
     adjektivdeklinationen: "Adjektivdeklinationen",
     adjektive_konjunktionen: "Adjektive – Konjunktionen",
-
-    verben: "Verben",
-    trennbare_verben: "(Un)trennbare Verben",
-    nomen_verben_verbindungen: "Nomen-Verben Verbindungen",
 
     praesens: "Präsens",
     imperativ: "Imperativ",

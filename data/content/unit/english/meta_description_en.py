@@ -1,8 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
+    konnektoren, fragen, adverbien, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -50,6 +49,26 @@ META_DESCRIPTION_EN = {
         'Practice German Adverbs with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 
+    verben:
+        'Practice German Verbs with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    trennbare_verben:
+        'Practice German Separable and Inseparable Verbs (Trennbare and Untrennbare) with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    nomen_verben_verbindungen:
+        'Practice German Noun–Verb Combinations with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+
+    genus_regeln:
+        'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    genus:
+        'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    plural:
+        'Practice the plurals of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+
     adjektive:
         'Practice German Adjectives with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
@@ -61,24 +80,6 @@ META_DESCRIPTION_EN = {
     ,
     adjektive_konjunktionen:
         'Practice German Adjective Conjunctions with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    adjektive_verben_wortstaemme:
-        'Practice German Adjective–Verb etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    adjektive_nomen_wortstaemme:
-        'Practice German Adjective–Noun etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    verben:
-        'Practice German Verbs with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    trennbare_verben:
-        'Practice German Separable and Inseparable Verbs (Trennbare and Untrennbare) with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    nomen_verben_verbindungen:
-        'Practice German Noun–Verb Combinations with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    nomen_verben_wortstaemme:
-        'Practice German Noun–Verb etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 
     praesens:
@@ -106,17 +107,17 @@ META_DESCRIPTION_EN = {
         'Practice the German Present Participle (Partizip I) with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 
-    genus_regeln:
-        'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    nomen_verben_wortstaemme:
+        'Practice German Noun–Verb etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
-    genus:
-        'Practice the Gender of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    adjektive_verben_wortstaemme:
+        'Practice German Adjective–Verb etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
+    ,
+    adjektive_nomen_wortstaemme:
+        'Practice German Adjective–Noun etymological Pairs with the same root with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 
     zahlen:
         'Practice the German numbers with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-    ,
-    plural:
-        'Practice the plurals of German nouns with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
     ,
 }

@@ -33,7 +33,7 @@
         feedback_message=feedback_message,
         your_answer=your_answer,
         user_answer=user_answer,
-        incorrect_question=get_question_from_incorrect_answer(unit, exercise, result, user_answer, previous_question),
+        correction=format_correction(unit, exercise, language, result, user_answer, previous_question),
         current_user=current_user,
         force_full_bookmark=False,
         icon_full=icon_full,
@@ -68,7 +68,7 @@
                     feedback_message=feedbacks[i],
                     your_answer=your_answer,
                     user_answer=incorrect_answers[i],
-                    incorrect_question=incorrect_questions[i],
+                    correction=corrections[i],
                     current_user=current_user,
                     force_full_bookmark=False,
                     icon_full=icon_full,
@@ -106,15 +106,7 @@
         <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>
     </div>
 
-    <script>
-    document.addEventListener("keydown", function(event) {
-        if (event.key === "Enter") {
-            const btn = document.querySelector(".next-exercise-button");
-            if (btn) {
-                btn.click();
-            }
-        }
-    });
-    </script>
+    <script src="{{ url_for('static', filename='js/exercise/enterNextExerciseButton.js') }}" defer></script>
+
 </body>
 </html>

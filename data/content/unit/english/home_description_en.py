@@ -1,8 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
+    konnektoren, fragen, adverbien, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -30,14 +29,14 @@ HOME_DESCRIPTION_EN = {
     genus: "Gender of german nouns",
     plural: "Plurals of common German nouns",
 
+    verben: "Translations of German Verbs",
+    trennbare_verben: "Separable and Inseparable Verbs",
+    nomen_verben_verbindungen: "Noun-Verb Combinations and other idioms",
+
     adjektive: "Translations of German Adjectives",
     komparativ_superlativ: "Adjectives' comparative and superlative forms",
     adjektivdeklinationen: "All the Adjective Declensions",
     adjektive_konjunktionen: "Adjective Conjunctions and Constructions",
-
-    verben: "Translations of German Verbs",
-    trennbare_verben: "Separable and Inseparable Verbs",
-    nomen_verben_verbindungen:"Noun-Verb Combinations and other idioms",
 
     praesens: "Present tense of German Verbs",
     partizip_II: "Past Participle",

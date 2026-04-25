@@ -1,5 +1,5 @@
-from data.data_processing.exercise_type import get_extent
 from data.data_processing.paths import df_units
+from data.data_processing.exercises import get_multiple_choice_extent
 from data.data_processing.pre_processing import pre_processing
 
 
@@ -39,7 +39,7 @@ def load_data_level(unit, exercise):
     """
     data = df_units[unit]
 
-    extent = get_extent(unit, int(exercise))
+    extent = get_multiple_choice_extent(unit, int(exercise))
 
     data['exercise'] = data['exercise'].astype(int)
     data = data[data['exercise'].isin(extent)]

@@ -39,6 +39,9 @@ INTRODUCTION_EN = {
     artikel:
         "Articles marinated in every grammatical cases."
         "<br><br>Includes definite, indefinite, negative, possessive, demonstrative articles and much more."
+        "<br><br>You can practice the grammatical cases that follow prepositions and verbs in the modules "
+        "<a href=\"/praepositionen_artikel\" target=\"_blank\">Präpositionen – Artikel</a> and "
+        "<a href=\"/verben_artikel\" target=\"_blank\">Verben – Artikel</a>."
         "<br><br>If you get headaches, it means you're learning."
     ,
     pronomen:
@@ -61,6 +64,7 @@ INTRODUCTION_EN = {
 
     konnektoren:
         "Connectors include coordinating conjunctions, subordinating conjunctions, correlative conjunctions and adverbs that connect two sentences together."
+        "<br><br>Conjunctions used with adjectives are done in <a href=\"/adjektive_konjunktionen\" target=\"_blank\">Adjektive – Konjunktionen</a>."
         "<br><br>⚠️ The following definitions are used:"
         "<br> &nbsp; &bull; Coordinating conjunction:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Coordinating conjunction - Subject - Verb - Object"
@@ -72,16 +76,37 @@ INTRODUCTION_EN = {
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two or more terms such as <i>um zu</i>, <i>entweder oder</i> or <i>sowohl als auch</i>"
     ,
     fragen:
-        "Question words."
-        "<br><br>Mostly useful at A1 and A2 level. B1 to C1 levels are here out of exhaustivity."
+        "Question words such as <i>Wer</i>, <i>Wann</i>, <i>Wo</i>, <i>Wie</i>, <i>Warum</i>, <i>Was</i>."
+        "<br><br>Question words in <i>Wo-</i> are done in "
+        "<a href=\"/pronominaladverbien\" target=\"_blank\">Pronominaladverbien</a>."
         "<br><br>Wo means Where and Wer means Who. Hope it makes sense."
     ,
     adverbien:
-        "Adverbs, including a mix of Temporal, Local, and Modal ones at each level (Causal adverbs are done in Konnektoren)."
-        "<br><br>Features adverbs not seen in Konnektoren and Fragen."
+        "Adverbs, including a mix of Temporal, Local, and Modal ones at each level – Causal adverbs are done in Konnektoren."
+        "<br><br>Features adverbs not seen in "
+        "<a href=\"/konnektoren\" target=\"_blank\">Konnektoren</a> and "
+        "<a href=\"/fragen\" target=\"_blank\">Fragen</a>."
     ,
     wortstellung:
         ""
+    ,
+
+    genus_regeln:
+        "Practice the gender of nouns based on thumb rules."
+        "<br><br>A guide listing these thumb rules is available "
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
+        "<br><br>Once you've finished these exercises, you can continue practicing with more nouns "
+        "<a href=\"/genus\" target=\"_blank\">here</a>."
+    ,
+    genus:
+        "Deep dreams drift, daring dusk to dance"
+        "<br>Dark doubts dissolve, daylight dares advance:"
+        "<br>Determined voices decide, declare, and pass,"
+        "<br>Der, Die, Das."
+        "<br><br> I recommend practicing with the module <a href=\"/genus_regeln\" target=\"_blank\">Genus – Regeln</a> before tackling these exercises."
+    ,
+    plural:
+        "Plurals of common German nouns."
     ,
 
     adjektive:
@@ -98,12 +123,6 @@ INTRODUCTION_EN = {
     adjektive_konjunktionen:
         "Conjunctions and Constructions for adjectives such as <i>wie</i>, <i>als</i> and <i>so</i>."
     ,
-    adjektive_verben_wortstaemme:
-        "Adjective-Verb Pairs with the same etymological root."
-    ,
-    adjektive_nomen_wortstaemme:
-        "Adjective-Noun Pairs with the same etymological root."
-    ,
 
     verben:
         "English to German verb translation exercises at A1 and A2."
@@ -115,9 +134,6 @@ INTRODUCTION_EN = {
     ,
     nomen_verben_verbindungen:
         "Noun-Verb Combinations and other idioms."
-    ,
-    nomen_verben_wortstaemme:
-        "Noun-Verb Pairs with the same etymological root."
     ,
 
     praesens:
@@ -154,24 +170,17 @@ INTRODUCTION_EN = {
         "<br><br>Also you would have to decline it as an adjective. What a mess."
     ,
 
-    genus_regeln:
-        "Practice the gender of nouns based on thumb rules."
-        "<br><br>A guide listing these thumb rules is available "
-        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
+    nomen_verben_wortstaemme:
+        "Noun-Verb Pairs with the same etymological root."
     ,
-    genus:
-        "Deep dreams drift, daring dusk to dance"
-        "<br>Dark doubts dissolve, daylight dares advance:"
-        "<br>Determined voices decide, declare, and pass,"
-        "<br>Der, Die, Das."
-        "<br><br>The list of nouns comes from "
-        "<a href=\"https://docs.google.com/spreadsheets/d/1r9HwvVpo35MFxnJ_5W6RKlDfx5VzmQVcnpJTgrNUY9I/edit?gid=1814339112#gid=1814339112\" target=\"_blank\">here</a>."
+    adjektive_verben_wortstaemme:
+        "Adjective-Verb Pairs with the same etymological root."
+    ,
+    adjektive_nomen_wortstaemme:
+        "Adjective-Noun Pairs with the same etymological root."
     ,
 
     zahlen:
         "Numbers in all their forms, including cardinal, ordinal, sequential, adverbial, fractional and multiplier."
-    ,
-    plural:
-        "Plurals of common German nouns."
     ,
 }

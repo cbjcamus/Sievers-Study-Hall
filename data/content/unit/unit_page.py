@@ -31,14 +31,14 @@ UNIT_PAGE = {
     genus: "/genus",
     plural: "/plural",
 
+    verben: "/verben",
+    trennbare_verben: "/trennbare_verben",
+    nomen_verben_verbindungen: "/nomen_verben_verbindungen",
+
     adjektive: "/adjektive",
     komparativ_superlativ: "/komparativ_superlativ",
     adjektivdeklinationen: "/adjektivdeklinationen",
     adjektive_konjunktionen: "/adjektive_konjunktionen",
-
-    verben: "/verben",
-    trennbare_verben: "/trennbare_verben",
-    nomen_verben_verbindungen: "/nomen_verben_verbindungen",
 
     praesens: "/praesens",
     imperativ: "/imperativ",

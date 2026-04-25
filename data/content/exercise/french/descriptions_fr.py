@@ -10,8 +10,23 @@ from data.data_processing.units import (
     zahlen,
 )
 
-DESCRIPTION_FR = {
+DESCRIPTION_UNIT_FR = {
+    verben_artikel: "Articles et Pronoms à la suite de Verbes, en contexte",
 
+    adjektive_konjunktionen: "Conjonctions d'adjectifs, en contexte",
+
+    konjunktiv_II: "Subjonctif II (Konjunktiv II) des Verbes les plus importants",
+
+    konjunktiv_I: "Subjonctif I (Konjunktiv I) de Verbes de niveau A1",
+
+    partizip_I: "Participe Présent (Partizip I) de Verbes de niveau A1",
+
+    genus: "Articles Définis, en isolation",
+
+    plural: "Forme Plurielle de noms communs Allemands, en isolation",
+}
+
+DESCRIPTION_EXERCISE_FR = {
     praepositionen: {
         1: "Prépositions temporelles, en contexte",
         2: "Prépositions locales (Position), en contexte",
@@ -182,44 +197,44 @@ DESCRIPTION_FR = {
         8: "Articles Définis Pluriels, en contexte",
         9: "Articles Définis dans les cas Nominatif, Accusatif et Datif, en contexte",
         10: "Articles Définis dans les cas Nominatif, Accusatif et Datif, en contexte",
-        11: "Articles Indéfinis <i>Ein</i>, en isolation",
-        12: "Articles Indéfinis dans le cas Nominatif, en contexte",
-        13: "Articles Indéfinis dans le cas Accusatif, en contexte",
-        14: "Articles Indéfinis dans le cas Datif, en contexte",
-        15: "Articles Indéfinis Féminins, en contexte",
-        16: "Articles Indéfinis Masculins, en contexte",
-        17: "Articles Indéfinis Neutres, en contexte",
-        18: "Articles Indéfinis dans les cas Nominatif, Accusatif et Datif, en contexte",
+        11: "Articles Définis dans les cas Nominatif, Accusatif et Datif, en contexte",
+        12: "Articles Indéfinis <i>Ein</i>, en isolation",
+        13: "Articles Indéfinis dans le cas Nominatif, en contexte",
+        14: "Articles Indéfinis dans le cas Accusatif, en contexte",
+        15: "Articles Indéfinis dans le cas Datif, en contexte",
+        16: "Articles Indéfinis Féminins, en contexte",
+        17: "Articles Indéfinis Masculins, en contexte",
+        18: "Articles Indéfinis Neutres, en contexte",
         19: "Articles Indéfinis dans les cas Nominatif, Accusatif et Datif, en contexte",
-        20: "Articles Négatifs <i>Kein</i>, en isolation",
-        21: "Articles Négatifs <i>Kein</i>, en contexte",
-        22: "Articles Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en isolation",
-        23: "Articles Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en contexte",
-        24: "Articles Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et du Pronom Formel, en isolation",
-        25: "Articles Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et du Pronom Formel, en contexte",
+        20: "Articles Indéfinis dans les cas Nominatif, Accusatif et Datif, en contexte",
+        21: "Articles Négatifs <i>Kein</i>, en isolation",
+        22: "Articles Négatifs <i>Kein</i>, en contexte",
+        23: "Articles Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en isolation",
+        24: "Articles Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en contexte",
+        25: "Articles Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et du Pronom Formel, en isolation",
+        26: "Articles Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et du Pronom Formel, en contexte",
 
-        26: "Articles Démonstratifs <em>Diese</em>, en isolation",
-        27: "Articles Démonstratifs <em>Diese</em>, en contexte",
-        28: "Articles <em>Jede</em>, en isolation",
-        29: "Articles <em>Jede</em>, en contexte",
-        30: "Articles de niveau A2, en isolation",
-        31: "Articles de niveau A2, en contexte",
+        27: "Articles Démonstratifs <em>Diese</em>, en isolation",
+        28: "Articles Démonstratifs <em>Diese</em>, en contexte",
+        29: "Articles <em>Jede</em>, en isolation",
+        30: "Articles <em>Jede</em>, en contexte",
+        31: "Articles de niveau A2, en isolation",
+        32: "Articles de niveau A2, en contexte",
 
-        32: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en isolation",
-        33: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en contexte",
-        34: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en isolation",
-        35: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en contexte",
-        36: "Articles Posséssifs dans le cas Génitif, en isolation",
-        37: "Articles Posséssifs dans le cas Génitif, en contexte",
+        33: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en isolation",
+        34: "Articles Définis, Indéfinis et Négatifs dans le cas Génitif, en contexte",
+        35: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en isolation",
+        36: "Articles <em>Diese</em> et <em>Jede</em> dans le cas Génitif, en contexte",
+        37: "Articles Posséssifs dans le cas Génitif, en isolation",
+        38: "Articles Posséssifs dans le cas Génitif, en contexte",
 
-        38: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en isolation",
-        39: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en contexte",
+        39: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en isolation",
+        40: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en contexte",
 
-        40: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en isolation",
-        41: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en contexte",
-        42: "Articles dans des Appositions, en contexte",
+        41: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en isolation",
+        42: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en contexte",
         43: "Articles dans des Appositions, en contexte",
-
+        44: "Articles dans des Appositions, en contexte",
     },
 
     pronomen: {
@@ -354,14 +369,14 @@ DESCRIPTION_FR = {
 
         19: "Connecteurs de niveau C1, en isolation",
         20: "Connecteurs de niveau C1, en contexte",
-        21: "Connecteurs de niveau C1, en isolation",
-        22: "Connecteurs de niveau C1, en contexte",
-        23: "Connecteurs de niveau C1, en isolation",
-        24: "Connecteurs de niveau C1, en contexte",
-        25: "Connecteurs de niveau C1, en isolation",
-        26: "Connecteurs de niveau C1, en contexte",
-        27: "Connecteurs de niveau C1, en isolation",
-        28: "Connecteurs de niveau C1, en contexte",
+        21: "Connecteurs de niveau C1 (Conjonctions), en isolation",
+        22: "Connecteurs de niveau C1 (Conjonctions), en contexte",
+        23: "Connecteurs de niveau C1 (Adverbes), en isolation",
+        24: "Connecteurs de niveau C1 (Adverbes), en contexte",
+        25: "Connecteurs de niveau C1 (Expressions Adverbiales), en isolation",
+        26: "Connecteurs de niveau C1 (Expressions Adverbiales), en contexte",
+        27: "Connecteurs de niveau C1 (Conjonctions), en isolation",
+        28: "Connecteurs de niveau C1 (Conjonctions), en contexte",
         29: "Synonymes de Connecteurs de niveau C1, en contexte",
         30: "Synonymes de Connecteurs de niveau C1, en contexte",
         31: "Synonymes de Connecteurs de niveau C1, en contexte",
@@ -378,16 +393,18 @@ DESCRIPTION_FR = {
         5: 'Mots Interrogatifs de niveau B1, en isolation',
         6: 'Mots Interrogatifs de niveau B1, en contexte',
 
-        7: 'Mots Interrogatifs de niveau B2, en isolation',
-        8: 'Mots Interrogatifs de niveau B2, en contexte',
-        9: 'Mots Interrogatifs de niveau B2, en isolation (\"Welch-Party\")',
-        10: 'Mots Interrogatifs de niveau B2, en contexte (\"Welch-Party\")',
+        7: '<i>Wer</i> et <i>Wie viele</i> à l\'Accusative et au Dative, en isolation',
+        8: '<i>Wer</i> et <i>Wie viele</i> à l\'Accusative et au Dative, en contexte',
+        9: '<i>Welche</i> à l\'Accusative et au Dative, en isolation',
+        10: '<i>Welche</i> à l\'Accusative et au Dative, en contexte',
 
         11: 'Mots Interrogatifs de niveau C1, en isolation',
         12: 'Mots Interrogatifs de niveau C1, en contexte',
+        13: 'Pronom Interrogatif <i>Welche</i>, en isolation',
+        14: 'Pronom Interrogatif <i>Welche</i>, en contexte',
 
-        13: 'Welche et Wie viele au Génitif, en isolation',
-        14: 'Welche et Wie viele au Génitif, en contexte',
+        15: '<i>Welche</i> et <i>Wie viele</i> au Génitif, en isolation',
+        16: '<i>Welche</i> et <i>Wie viele</i> au Génitif, en contexte',
     },
 
     adverbien: {
@@ -551,20 +568,22 @@ DESCRIPTION_FR = {
         16: "Déclinations d'Adjectifs dans le cas Génitif, en contexte",
         17: "Déclinations d'Adjectifs sans Article, en isolation",
         18: "Déclinations d'Adjectifs sans Article, en contexte",
-        19: "Déclinations d'Adjectifs à la suite de l'Article Négatif <i>Kein</i>, en isolation",
-        20: "Déclinations d'Adjectifs à la suite de l'Article Négatif <i>Kein</i>, en contexte",
-        21: "Déclinations d'Adjectifs Comparatifs, en isolation",
-        22: "Déclinations d'Adjectifs Comparatifs, en contexte",
-        23: "Déclinations d'Adjectifs Superlatifs, en isolation",
-        24: "Déclinations d'Adjectifs Superlatifs, en contexte",
+        19: "Déclinations d'Adjectifs Comparatifs, en isolation",
+        20: "Déclinations d'Adjectifs Comparatifs, en contexte",
+        21: "Déclinations d'Adjectifs Superlatifs, en isolation",
+        22: "Déclinations d'Adjectifs Superlatifs, en contexte",
 
+        23: "Déclinations d'Adjectifs à la suite de l'Article Négatif <i>Kein</i>, en isolation",
+        24: "Déclinations d'Adjectifs à la suite de l'Article Négatif <i>Kein</i>, en contexte",
         25: "Déclinations d'Adjectifs à la suite d'Articles Démonstratifs, en isolation",
         26: "Déclinations d'Adjectifs à la suite d'Articles Démonstratifs, en contexte",
+        27: "Déclinations d'Adjectifs à la suite d'Articles Numéraux, en isolation",
+        28: "Déclinations d'Adjectifs à la suite d'Articles Numéraux, en contexte",
 
-        27: "Déclinations d'Adjectifs à la suite d'Articles singuliers <i>etwas</i>, <i>viel</i>, <i>mehr</i>, en isolation",
-        28: "Déclinations d'Adjectifs à la suite d'Articles singuliers <i>etwas</i>, <i>viel</i>, <i>mehr</i>, en contexte",
-        29: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i>, <i>viele</i>, et Articles numéraux, en isolation",
-        30: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i>, <i>viele</i>, et Articles numéraux, en contexte",
+        29: "Déclinations d'Adjectifs à la suite d'Articles singuliers <i>etwas</i>, <i>viel</i>, <i>mehr</i>, en isolation",
+        30: "Déclinations d'Adjectifs à la suite d'Articles singuliers <i>etwas</i>, <i>viel</i>, <i>mehr</i>, en contexte",
+        31: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i> et <i>viele</i>, en isolation",
+        32: "Déclinations d'Adjectifs à la suite d'Articles pluriels <i>alle</i> et <i>viele</i>, en contexte",
     },
 
     adjektive_konjunktionen: {

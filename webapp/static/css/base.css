@@ -12,7 +12,8 @@ body.day-mode {
 }
 
 p {
-    line-height: 1.3;
+    /*line-height: 1.3;*/
+    /*margin: 1.3;*/
 }
 
 a {
@@ -49,7 +50,7 @@ body.day-mode a {
 
 .hamburger-container {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 15px;
 }
 
@@ -64,12 +65,12 @@ body.day-mode a {
 @media (max-width: 768px) {
     .hamburger-container {
         position: absolute;
-        top: 10px;
+        top: 25px;
         right: 15px;
     }
 
     .hamburger {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -94,6 +95,8 @@ body.day-mode .hamburger {
 @media (max-width: 768px) {
     .menu {
         font-size: 18px;
+        right: 40px;
+        top: 10px;
     }
 }
 
@@ -130,9 +133,9 @@ body.day-mode .menu a:hover {
 
 .lang-container {
     position: absolute;
-    top: 70px;
-    right: 25px;
-    z-index: 1001;
+    top: 37px;
+    right: 75px;
+    /*z-index: 1001;*/
 }
 
 .lang-button {
@@ -148,12 +151,12 @@ body.day-mode .menu a:hover {
 
 @media (max-width: 768px) {
     .lang-container {
-        top: 55px;
-        right: 23px;
+        top: 35px;
+        right: 60px;
     }
 
     .lang-button {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -173,6 +176,13 @@ body.day-mode .lang-button {
     min-width: 80px;
     z-index: 1001;
     flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .lang-menu {
+        right: 31px;
+        top: 0px;
+    }
 }
 
 body.day-mode .lang-menu {

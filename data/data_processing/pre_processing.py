@@ -1,4 +1,5 @@
 import pandas as pd
+
 from data.data_processing.units import praesens, praeteritum, imperativ, konjunktiv_II, konjunktiv_I
 
 

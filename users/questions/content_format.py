@@ -1,29 +1,36 @@
-from flask import request, session
+from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION
 
-from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
-from data.content.exercise.content_exercises import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE_EXERCISE
-from data.content.unit.unit_content_by_language import GUIDANCE_UNIT
-from data.data_processing.exercise_type import is_exercise_multiple_choice, get_question_column
 from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
     adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
     praepositionen_adjektive, praepositionen_nomen
+from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column
+from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
 
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer
-from webapp.i18n import get_language
 
 
-def get_guidance(unit, exercise, language):
-    if unit in GUIDANCE_EXERCISE[language] and exercise in GUIDANCE_EXERCISE[language][unit]:
-        guidance = GUIDANCE_EXERCISE[language][unit][exercise]
-    elif unit in GUIDANCE_UNIT[language]:
-        guidance = GUIDANCE_UNIT[language][unit]
+def get_template(unit, exercise, language, TEMPLATE):
+    if unit in TEMPLATE[language]['exercise'] and exercise in TEMPLATE[language]['exercise'][unit]:
+        template = TEMPLATE[language]['exercise'][unit][exercise]
+    elif unit in TEMPLATE[language]['unit']:
+        template = TEMPLATE[language]['unit'][unit]
     else:
-        guidance = None
+        template = None
+    return template
+
+
+def format_description(unit, exercise, language):
+    description = get_template(unit, exercise, language, DESCRIPTION)
+    return description
+
+
+def format_guidance(unit, exercise, language):
+    guidance = get_template(unit, exercise, language, GUIDANCE)
     return guidance
 
 
 def format_instruction(unit, exercise, language):
-    instruction = INSTRUCTION[language].get(unit, {}).get(exercise, "Translate the following word:")
+    instruction = get_template(unit, exercise, language, INSTRUCTION)
     return instruction
 
 
@@ -55,7 +62,9 @@ def format_question(unit, exercise, language, question_ID):
     root_french = question_data.get("root_french", "")
     type = question_data.get("type", "")
 
-    formatted_question = QUESTION[language].get(unit, {}).get(exercise, "{question}").format(
+    question_template = get_template(unit, exercise, language, QUESTION)
+
+    formatted_question = question_template.format(
         question=question_text,
         german=german,
         english=english,
@@ -115,7 +124,8 @@ def format_feedback(unit, exercise, language, question_ID):
     root_french = question_data.get("root_french", "")
     type = question_data.get("type", "")
 
-    feedback_template = FEEDBACK[language].get(unit, {}).get(exercise, "{previous_question} = {correct_answer}")
+    feedback_template = get_template(unit, exercise, language, FEEDBACK)
+
     feedback_message = feedback_template.format(
         previous_question=question_text,
         correct_answer=correct_answer,
@@ -152,7 +162,7 @@ def format_feedback(unit, exercise, language, question_ID):
     return feedback_message
 
 
-def get_gender(unit, exercise, language, question_ID):
+def format_gender(unit, exercise, language, question_ID):
     question_data = load_data_question(unit, exercise, question_ID)
     gender_english = question_data.get("gender_english", "")
     gender_french = question_data.get("gender_french", "")
@@ -161,20 +171,15 @@ def get_gender(unit, exercise, language, question_ID):
     return gender
 
 
-def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer, question_text):
-
+def format_correction(unit, exercise, language, result, incorrect_answer, question_text):
     if result != "incorrect":
         return ""
 
-    elif is_exercise_multiple_choice(unit, exercise) is True:
+    if is_exercise_multiple_choice(unit, exercise) is True:
         data = load_data_level(unit, exercise)
-        language = get_language(request, session)
 
-        if get_question_column(unit, exercise) == "foreign":
-            match = data.loc[data['answer'] == incorrect_answer, language]
-
-        else:
-            match = data.loc[data[language] == incorrect_answer, 'question']
+        question_column = get_question_column(unit, exercise, language)
+        match = data.loc[data['answer'] == incorrect_answer, question_column]
 
         if not match.empty:
             question = match.iloc[0]
@@ -182,11 +187,30 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
         else:
             return None
 
-    elif unit in [konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive,
-                  adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
+    elif unit == konnektoren:
         data = load_data_unit(unit)
-        language = get_language(request, session)
+        match = data.loc[data['konnektor'] == incorrect_answer, f"explanation_{language}"]
 
+        if not match.empty:
+            question = match.iloc[0]
+            return f"<br><br>{match.iloc[0]}"
+        else:
+            return ""
+
+    elif unit == fragen:
+        data = load_data_unit(unit)
+        match = data.loc[data['fragen'] == incorrect_answer, f"explanation_{language}"]
+
+        if not match.empty:
+            question = match.iloc[0]
+            return f"<br><br>{match.iloc[0]}"
+        else:
+            return ""
+
+    elif unit in [adverbien, verben, trennbare_verben, adjektive,
+                  adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
+
+        data = load_data_unit(unit)
         match = data.loc[data['answer'] == incorrect_answer, language]
 
         if not match.empty:
@@ -200,8 +224,6 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
             return ""
 
         data = load_data_unit(unit)
-        language = get_language(request, session)
-
         combination = get_combination_from_question_text(unit, question_text, incorrect_answer)
 
         match_explanation = data.loc[data["combination"] == combination, f"explanation_{language}"]
@@ -217,10 +239,10 @@ def get_question_from_incorrect_answer(unit, exercise, result, incorrect_answer,
 
 
 def get_combination_from_question_text(unit, question_text, incorrect_answer):
-    data = load_data_unit(unit)
+    if not question_text:
+        return None
 
-    print('question_text', question_text)
-    print('incorrect_answer', incorrect_answer)
+    data = load_data_unit(unit)
 
     correct_combination = data.loc[data["question"] == question_text, f"combination"].iloc[0]
     correct_question_text = data.loc[data["combination"] == correct_combination, f"question"].iloc[0]

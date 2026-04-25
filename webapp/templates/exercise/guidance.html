@@ -31,24 +31,14 @@
             <a href="/unit/{{ unit }}/exercise/{{ exercise }}" class="next-question-button">{{ next }}</a>
         </div>
 
-        <script>
-            document.addEventListener("keydown", function(event) {
-                if (event.key === "Enter") {
-                    const nextBtn = document.querySelector(".next-question-button");
-                    if (nextBtn && !document.getElementById("answer")) {
-                        event.preventDefault();
-                        nextBtn.click();
-                    }
-                }
-            });
-        </script>
+        <script src="{{ url_for('static', filename='js/exercise/enterNextQuestionButton.js') }}" defer></script>
 
     </div>
 
     <div class="question-count">
         <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post" class="refresh-form">
-        {{ answered_questions }}/{{ total_questions }} <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
-        <input type="hidden" name="guidance" value="true">
+            {{ answered_questions }}/{{ total_questions }} <button type="submit" class="refresh-button" title="Reset progress">&#8634;</button>
+            <input type="hidden" name="guidance" value="true">
         </form>
     </div>
 

@@ -3,6 +3,7 @@ routes_bp = Blueprint("routes", __name__)
 
 from webapp.i18n import get_lang_code, dict_key_for  # noqa: E402
 
+
 @routes_bp.app_context_processor
 def inject_language():
     code = get_lang_code(request, session)
@@ -10,6 +11,7 @@ def inject_language():
         "lang_code": code,               # "en" or "fr"
         "language": dict_key_for(code),  # "english" or "french" (your dict key)
     }
+
 
 @routes_bp.route("/lang/<code>")
 def set_lang(code):

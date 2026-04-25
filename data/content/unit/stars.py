@@ -10,7 +10,7 @@ from data.data_processing.units import (
     zahlen,
 )
 
-from webapp.style.icons import STAR_GOLD, STAR_SILVER
+from webapp.style.icons import STAR_GOLD
 
 STARS = {
     praepositionen: f"{STAR_GOLD}",
@@ -33,14 +33,14 @@ STARS = {
     genus: f"{STAR_GOLD}",
     plural: f"",
 
+    verben: f"{STAR_GOLD}",
+    trennbare_verben: f"{STAR_GOLD}",
+    nomen_verben_verbindungen: f"",
+
     adjektive: f"",
     komparativ_superlativ: f"",
     adjektivdeklinationen: f"",
     adjektive_konjunktionen: f"",
-
-    verben: f"{STAR_GOLD}",
-    trennbare_verben: f"{STAR_GOLD}",
-    nomen_verben_verbindungen: f"",
 
     praesens: f"",
     imperativ: f"",

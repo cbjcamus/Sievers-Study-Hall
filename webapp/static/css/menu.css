@@ -69,3 +69,10 @@ input:checked + .slider:before {
     padding: 15px 10px;
     text-align: left;
 }
+
+.progress-table td a.button {
+    display: inline-block;
+    hyphens: auto;
+    width: 90%;
+    text-align: center;
+}

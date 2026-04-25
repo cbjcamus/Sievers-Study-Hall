@@ -1,8 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, konnektoren, praepositionen_artikel, verben_artikel,
-    fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
+    fragen, adverbien, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -28,9 +27,11 @@ META_DESCRIPTION_FR = {
     ,
 
     artikel:
-        'Pratiquez les articles allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'    ,
+        'Pratiquez les articles allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
     pronomen:
-        'Pratiquez les pronoms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'    ,
+        'Pratiquez les pronoms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
     praepositionen_artikel:
         'Pratiquez les cas suivant les prépositions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
@@ -39,12 +40,33 @@ META_DESCRIPTION_FR = {
     ,
 
     konnektoren:
-        'Pratiquez les conjonctions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'    ,
+        'Pratiquez les conjonctions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
     fragen:
         'Pratiquez les mots interrogatifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adverbien:
         'Pratiquez les adverbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+
+    genus_regeln:
+        'Pratiquez le Genre des Noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+    genus:
+        'Pratiquez le Genre des Noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+    plural:
+        'Pratiquez le pluriel des noms communs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+
+    verben:
+        'Pratiquez les verbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+    trennbare_verben:
+        'Pratiquez les verbes séparables et inséparables (trennbare et untrennbare) allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+    nomen_verben_verbindungen:
+        'Pratiquez les combinaisons Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     adjektive:
@@ -58,25 +80,6 @@ META_DESCRIPTION_FR = {
     ,
     adjektive_konjunktionen:
         'Pratiquez les conjonctions d\'adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-    adjektive_verben_wortstaemme:
-        'Pratiquez les paires etymologiques Adjectifs–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-    adjektive_nomen_wortstaemme:
-        'Pratiquez les paires etymologiques Adjectifs–Noms communs allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-
-    verben:
-        'Pratiquez les verbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-    trennbare_verben:
-        'Pratiquez les verbes séparables et inséparables (trennbare et untrennbare) allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-    nomen_verben_verbindungen:
-        'Pratiquez les combinaisons Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-    nomen_verben_wortstaemme:
-        'Pratiquez les paires etymologiques Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     praesens:
@@ -104,18 +107,17 @@ META_DESCRIPTION_FR = {
         'Pratiquez le Participe Présent (Partizip I) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
-    genus_regeln:
-        'Pratiquez le Genre des Noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    nomen_verben_wortstaemme:
+        'Pratiquez les paires etymologiques Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
-    genus:
-        'Pratiquez le Genre des Noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    adjektive_verben_wortstaemme:
+        'Pratiquez les paires etymologiques Adjectifs–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
-    plural:
-        'Pratiquez le pluriel des noms communs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    adjektive_nomen_wortstaemme:
+        'Pratiquez les paires etymologiques Adjectifs–Noms communs allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     zahlen:
         'Pratiquez les Nombres allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
-
 }

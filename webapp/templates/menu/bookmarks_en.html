@@ -36,7 +36,7 @@
                 feedback_message=bm.feedback_message,
                 your_answer=your_answer,
                 user_answer=bm.user_answer,
-                incorrect_question=get_question_from_incorrect_answer(bm.unit, bm.exercise, bm.result, bm.user_answer, bm.question_text),
+                correction=format_correction(bm.unit, bm.exercise, language, bm.result, bm.user_answer, bm.question_text),
                 current_user=current_user,
                 force_full_bookmark=True,
                 icon_full=icon_full,
@@ -49,25 +49,14 @@
       {% endfor %}
     </ul>
   {% else %}
-    <p>No bookmarks yet. You can bookmark feedbacks by click on the <img class="bookmark-icon"
-                src="{{ url_for('static', filename='bookmarks/' ~ icon_empty) }}"
-                > icon in the top left corner of the feedback containers.</p>
+    <p>No bookmarks yet. You can bookmark feedbacks by click on the
+        <img class="bookmark-icon" src="{{ url_for('static', filename=icon_empty) }}">
+        icon in the top left corner of the feedback containers.</p>
   {% endif %}
 
 {% endblock %}
 
-    <script>
-      function toggleFlagForm(button) {
-        const container = button.closest(".flag-form-container");
-        const form = container.querySelector("form.flag-form");
-
-        form.classList.toggle("hidden");
-
-        if (!form.classList.contains("hidden")) {
-          form.querySelector("textarea").focus();
-        }
-      }
-    </script>
+    <script src="{{ url_for('static', filename='js/exercise/flags.js') }}" defer></script>
 
 </body>
 </html>
