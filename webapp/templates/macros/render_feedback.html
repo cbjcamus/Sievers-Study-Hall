@@ -35,43 +35,42 @@
                     </form>
                 </div>
 
-        {% if current_user.is_authenticated and feedback_message %}
-          <form method="post"
-                action="{{ url_for('routes.toggle_bookmark') }}"
-                class="bookmark-form"
-                data-icon-full="{{ url_for('static', filename=icon_full) }}"
-                data-icon-empty="{{ url_for('static', filename=icon_empty) }}">
+                {% if current_user.is_authenticated and feedback_message %}
+                    <form method="post"
+                        action="{{ url_for('routes.toggle_bookmark') }}"
+                        class="bookmark-form"
+                        data-icon-full="{{ url_for('static', filename=icon_full) }}"
+                        data-icon-empty="{{ url_for('static', filename=icon_empty) }}">
 
-            {# If bookmark_id is provided (bookmarks page), use it #}
-            {% if bookmark_id is defined %}
-              <input type="hidden" name="bookmark_id" value="{{ bookmark_id }}">
-            {% else %}
-              {# exercise page: keep the old fields #}
-              <input type="hidden" name="unit" value="{{ unit }}">
-              <input type="hidden" name="exercise" value="{{ exercise }}">
-              <input type="hidden" name="level" value="{{ level }}">
-              <input type="hidden" name="result" value="{{ result }}">
-              <input type="hidden" name="user_answer" value="{{ user_answer }}">
-              <input type="hidden" name="feedback_message" value="{{ feedback_message }}">
-              <input type="hidden" name="next" value="{{ request.path }}">
-            {% endif %}
+                        {# If bookmark_id is provided (bookmarks page), use it #}
+                        {% if bookmark_id is defined %}
+                            <input type="hidden" name="bookmark_id" value="{{ bookmark_id }}">
+                        {% else %}
+                            {# exercise page: keep the old fields #}
+                            <input type="hidden" name="unit" value="{{ unit }}">
+                            <input type="hidden" name="exercise" value="{{ exercise }}">
+                            <input type="hidden" name="level" value="{{ level }}">
+                            <input type="hidden" name="result" value="{{ result }}">
+                            <input type="hidden" name="user_answer" value="{{ user_answer }}">
+                            <input type="hidden" name="feedback_message" value="{{ feedback_message }}">
+                            <input type="hidden" name="next" value="{{ request.path }}">
+                        {% endif %}
 
-            <button type="submit"
-                    class="bookmark-button"
-                    aria-label="Toggle bookmark">
-              <img
-                class="bookmark-icon"
-                src="{% if force_full_bookmark or is_bookmarked %}
-                        {{ url_for('static', filename=icon_full) }}
-                     {% else %}
-                        {{ url_for('static', filename=icon_empty) }}
-                     {% endif %}"
-                alt="bookmark icon">
-            </button>
-          </form>
-        {% endif %}
-
+                        <button type="submit"
+                                class="bookmark-button"
+                                aria-label="Toggle bookmark">
+                            <img class="bookmark-icon"
+                                src="{% if force_full_bookmark or is_bookmarked %}
+                                        {{ url_for('static', filename=icon_full) }}
+                                     {% else %}
+                                        {{ url_for('static', filename=icon_empty) }}
+                                     {% endif %}"
+                                alt="bookmark icon">
+                        </button>
+                    </form>
+                {% endif %}
             </div>
+
         {% else %}
             <div class='feedback-incorrect-container'>
                 <p class="incorrect">Incorrect</p>
@@ -114,25 +113,24 @@
                       data-icon-full="{{ url_for('static', filename=icon_full) }}"
                       data-icon-empty="{{ url_for('static', filename=icon_empty) }}">
 
-                  <input type="hidden" name="unit" value="{{ unit }}">
-                  <input type="hidden" name="exercise" value="{{ exercise }}">
-                  <input type="hidden" name="level" value="{{ level }}">
-                  <input type="hidden" name="result" value="{{ result }}">
-                  <input type="hidden" name="user_answer" value="{{ user_answer }}">
-                  <input type="hidden" name="feedback_message" value="{{ feedback_message }}">
-                  <input type="hidden" name="next" value="{{ request.path }}">
+                    <input type="hidden" name="unit" value="{{ unit }}">
+                    <input type="hidden" name="exercise" value="{{ exercise }}">
+                    <input type="hidden" name="level" value="{{ level }}">
+                    <input type="hidden" name="result" value="{{ result }}">
+                    <input type="hidden" name="user_answer" value="{{ user_answer }}">
+                    <input type="hidden" name="feedback_message" value="{{ feedback_message }}">
+                    <input type="hidden" name="next" value="{{ request.path }}">
 
                     <button type="submit"
                             class="bookmark-button"
                             aria-label="Toggle bookmark">
-                      <img
-                          class="bookmark-icon"
-                          src="{% if force_full_bookmark or is_bookmarked %}
+                        <img class="bookmark-icon"
+                            src="{% if force_full_bookmark or is_bookmarked %}
                                   {{ url_for('static', filename=icon_full) }}
                                {% else %}
                                   {{ url_for('static', filename=icon_empty) }}
                                {% endif %}"
-                          alt="bookmark icon">
+                            alt="bookmark icon">
                     </button>
                 </form>
               {% endif %}

@@ -244,7 +244,13 @@ def get_combination_from_question_text(unit, question_text, incorrect_answer):
 
     data = load_data_unit(unit)
 
-    correct_combination = data.loc[data["question"] == question_text, f"combination"].iloc[0]
+    matches = data.loc[data["question"] == question_text, "combination"]
+
+    if matches.empty:
+        return ""
+
+    correct_combination = matches.iloc[0]
+
     correct_question_text = data.loc[data["combination"] == correct_combination, f"question"].iloc[0]
     combination = correct_question_text.replace("_____", incorrect_answer)
 
