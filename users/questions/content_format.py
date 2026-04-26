@@ -219,6 +219,11 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         else:
             return ""
 
+
+    else:
+        return ""
+
+'''
     elif unit in [praepositionen_verben, praepositionen_adjektive, praepositionen_nomen]:
         if question_text == "":
             return ""
@@ -233,10 +238,7 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         else:
             match_explanation = match_explanation.iloc[0]
             return f"<br><br><i>{match_explanation}</i>"
-
-    else:
-        return ""
-
+'''
 
 def get_combination_from_question_text(unit, question_text, incorrect_answer):
     if not question_text:

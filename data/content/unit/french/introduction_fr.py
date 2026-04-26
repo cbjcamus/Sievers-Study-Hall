@@ -16,7 +16,8 @@ INTRODUCTION_FR = {
     ,
     praepositionen_verben:
         "Paires Verbe–Préposition, en isolation et en contexte."
-        "<br><br>Inclu les adverbes pronominaux en <i>Da</i> et <i>Wo</i> au niveau A2."
+        "<br><br>Les adverbes pronominaux en <i>Da</i> et <i>Wo</i> se trouvent. "
+        "<a href=\"/pronominaladverbien\" target=\"_blank\">ici</a>."
     ,
     praepositionen_adjektive:
         "Paires Adjectif–Préposition, en isolation et en contexte."

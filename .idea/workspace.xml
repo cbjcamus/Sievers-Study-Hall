@@ -6,21 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update April 25th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/unit/french/introduction_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/unit/french/introduction_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/questions/content_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/content_format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/static/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise_completed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/feedback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/guidance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/macros/render_feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/render_feedback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/about_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/about_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/about_fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/about_fr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/bookmarks_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/bookmarks_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/bookmarks_fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/bookmarks_fr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/progress_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/progress_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/progress_fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/progress_fr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/unit.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/unit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00148" summary="small updates">
-      <option name="closed" value="true" />
-      <created>1765958522948</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1765958522949</updated>
     </task>
     <task id="LOCAL-00149" summary="small updates">
       <option name="closed" value="true" />
@@ -571,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777132756113</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="update April 25th">
+      <option name="closed" value="true" />
+      <created>1777142015540</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1777142015540</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
