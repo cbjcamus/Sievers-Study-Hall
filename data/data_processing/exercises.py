@@ -124,10 +124,10 @@ def get_question_column(unit, exercise, language):
     """
 
     if is_exercise_multiple_choice_foreign(unit, exercise):
-        return language
+        return 'question'
 
     else:
-        return 'question'
+        return language
 
 '''
 

@@ -4,7 +4,7 @@ from flask_login import current_user
 
 from data.data_processing.data_loading import (load_data_exercise, load_data_level, load_data_question)
 from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column, \
-    is_exercise_multiple_choice_foreign
+    is_exercise_multiple_choice_foreign, get_question_column
 
 from users.users.models import UserExerciseState
 from users.session_management.verification_session import init_session_key
@@ -61,12 +61,13 @@ def get_options_for_multiple_choice_exercises(unit, exercise, question_ID, langu
         return None
 
     question_data = load_data_question(unit, exercise, question_ID)
+    answer_column = get_answer_column(unit, exercise, language)
+    correct_answer = question_data[answer_column]
 
     other_options = pick_other_options(unit, exercise, question_data)
-    answer_column = get_answer_column(unit, exercise, language)
-    other_question_text = [str(option[answer_column]) for option in other_options]
+    other_answers = [str(option[answer_column]) for option in other_options]
 
-    options_text = shuffle_options(str(question_data[language]), other_question_text)
+    options_text = shuffle_options(str(correct_answer), other_answers)
 
     return options_text
 
