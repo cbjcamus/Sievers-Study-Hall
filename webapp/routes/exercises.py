@@ -9,9 +9,10 @@ from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANS
 from data.content.application.popup import get_popup_title, get_popup_text
 from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT
 
+from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.data_loading import load_question_text
 from data.data_processing.exercises import is_exercise_multiple_choice
+from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 
 from users.users.models import db, is_feedback_enabled, get_filename_full_bookmark, \
@@ -38,9 +39,33 @@ from webapp.i18n import get_language
 
 session = cast(dict, session)
 
+REMOVED_UNIT_REDIRECTS = {
+    "genus_routledge": "genus",
+    "genus_goethe": "genus",
+    "artikel_genus": "genus",
+    "praeteritum_partizip_II": "partizip_II",
+    "praepositionen_grammatik": "praepositionen",
+}
+
+
+def resolve_unit_redirect(unit, exercise=None):
+    new_unit = REMOVED_UNIT_REDIRECTS.get(unit)
+
+    if new_unit:
+        return redirect(url_for(
+            "routes.dynamic_route_" + new_unit
+        ), code=301)
+
+    return None
 
 @routes_bp.route('/guidance/unit/<unit>/exercise/<int:exercise>')
 def guidance(unit, exercise):
+    redirected = resolve_unit_redirect(unit, exercise)
+    if redirected:
+        return redirected
+
+    if unit not in units:
+        return redirect(url_for("routes_bp.home"), code=302)
 
     language = get_language(request, session)
 
@@ -77,6 +102,12 @@ def guidance(unit, exercise):
 
 @routes_bp.route('/unit/<unit>/exercise/<int:exercise>')
 def exercise(unit, exercise):
+    redirected = resolve_unit_redirect(unit, exercise)
+    if redirected:
+        return redirected
+
+    if unit not in units:
+        return redirect(url_for("routes_bp.home"), code=302)
 
     language = get_language(request, session)
 
@@ -194,6 +225,12 @@ def check_answer(unit, exercise):
 
 @routes_bp.route('/feedback/unit/<unit>/exercise/<int:exercise>')
 def exercise_feedback(unit, exercise):
+    redirected = resolve_unit_redirect(unit, exercise)
+    if redirected:
+        return redirected
+
+    if unit not in units:
+        return redirect(url_for("routes_bp.home"), code=302)
 
     language = get_language(request, session)
 

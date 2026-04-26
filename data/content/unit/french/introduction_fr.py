@@ -16,7 +16,7 @@ INTRODUCTION_FR = {
     ,
     praepositionen_verben:
         "Paires Verbe–Préposition, en isolation et en contexte."
-        "<br><br>Les adverbes pronominaux en <i>Da</i> et <i>Wo</i> se trouvent. "
+        "<br><br>Les adverbes pronominaux en <i>Da</i> et <i>Wo</i> se trouvent "
         "<a href=\"/pronominaladverbien\" target=\"_blank\">ici</a>."
     ,
     praepositionen_adjektive:
@@ -26,7 +26,7 @@ INTRODUCTION_FR = {
         "Paires Nom–Préposition, en isolation et en contexte."
     ,
     pronominaladverbien:
-        "Adverbes pronominaux en <i>Da-</i> et en <i>Wo-</i>"
+        "Adverbes pronominaux en <i>Da-</i> et en <i>Wo-</i>."
     ,
 
     artikel:
