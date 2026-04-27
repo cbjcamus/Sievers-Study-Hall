@@ -132,7 +132,7 @@ def format_feedback(df, unit, exercise, language):
 
     for _, row in df.iterrows():
 
-        if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise) == "foreign":
+        if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise, language) == "foreign":
             correct_answers = row.get(language, "")
         else:
             correct_answers = get_list_of_correct_answers(row.get("answer", ""), unit)
