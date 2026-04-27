@@ -224,8 +224,6 @@ def sitemap():
         except BuildError:
             pass
 
-    # IMPORTANT: if these routes are on a blueprint, you likely need the blueprint prefix.
-    # Example: "routes_bp.home" or "menu.home" depending on how you named/registered it.
     add("routes.home")
     add("routes.settings")
     add("routes.contact")

@@ -65,7 +65,7 @@ def guidance(unit, exercise):
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes_bp.home"), code=302)
+        return redirect(url_for("routes.home"), code=302)
 
     language = get_language(request, session)
 
@@ -107,7 +107,7 @@ def exercise(unit, exercise):
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes_bp.home"), code=302)
+        return redirect(url_for("routes.home"), code=302)
 
     language = get_language(request, session)
 
@@ -230,7 +230,7 @@ def exercise_feedback(unit, exercise):
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes_bp.home"), code=302)
+        return redirect(url_for("routes.home"), code=302)
 
     language = get_language(request, session)
 
