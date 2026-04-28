@@ -11,7 +11,7 @@ from data.data_processing.units import (
 
 META_DESCRIPTION_FR = {
     praepositionen:
-        'Pratiquez les prépositions allemanded avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les prépositions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     praepositionen_verben:
         'Pratiquez les paires verbe–preposition allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
@@ -108,13 +108,13 @@ META_DESCRIPTION_FR = {
     ,
 
     nomen_verben_wortstaemme:
-        'Pratiquez les paires etymologiques Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires étymologiques Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektive_verben_wortstaemme:
-        'Pratiquez les paires etymologiques Adjectifs–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires étymologiques Adjectifs–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektive_nomen_wortstaemme:
-        'Pratiquez les paires etymologiques Adjectifs–Noms communs allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires étymologiques Adjectifs–Noms communs allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     zahlen:

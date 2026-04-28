@@ -7,7 +7,7 @@ from data.content.unit.back_button import BACK_BUTTON
 from data.content.application.text import EXERCISE_TITLE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, \
     YOUR_SCORE_FOR_THIS_EXERCISE, FEEDBACK_LAST_QUESTION, YOUR_INCORRECT_ANSWERS, YOUR_ANSWER, NOT_AUTHENTICATED
 from data.content.application.buttons import NEXT_EXERCISE, REFRESH, BACK_TO
-from data.data_processing.total_questions import highest_exercise
+from data.data_processing.total_questions import highest_exercise_per_unit
 
 from users.users.models import get_filename_full_bookmark, get_filename_empty_bookmark, get_filename_flag
 from users.progress.score import write_score
@@ -42,7 +42,7 @@ def render_exercise_completed_template(session, unit, exercise, language):
     if current_user.is_authenticated:
         update_progress_in_session(session, unit)
 
-    next_exercise = get_next_exercise(unit, exercise, highest_exercise)
+    next_exercise = get_next_exercise(unit, exercise, highest_exercise_per_unit)
     next_exercise_text = NEXT_EXERCISE[language]
 
     current_user_not_authenticated = not current_user.is_authenticated

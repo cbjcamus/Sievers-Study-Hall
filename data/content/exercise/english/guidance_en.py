@@ -9,8 +9,6 @@ from data.data_processing.units import (
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
-# bullet point \u25CF
-
 GUIDANCE_UNIT_EN = {
     praepositionen_artikel:
         "For each question, you will be provided an incomplete German sentence, its English translation, "
@@ -507,7 +505,7 @@ guidance_konnektoren_isolation = (
     f"<br><br> &nbsp; {ICON_CROSS} weshalb (It's a subordinating conjunction, not an adverb)"
     f"<br><br>"
     
-    "both and \u25CF Correlative conjunction"
+    "both ... and \u25CF Correlative conjunction"
     f"<br><br> &nbsp; {ICON_CHECK} sowohl als auch"
     f"<br><br> &nbsp; {ICON_CHECK} sowohl ... als auch"
     f"<br><br> &nbsp; {ICON_CROSS} sowie (It's a coordinating conjunction, not a correlative conjunction)"
@@ -530,7 +528,7 @@ guidance_konnektoren_sentences = (
 )
 
 guidance_konnektoren_synonyms = (
-    "For each question, you will be provided a German connector and its grammatical type (conjuntion, subjunction,"
+    "For each question, you will be provided a German connector and its grammatical type (coordinating conjunction, subordinating conjunction,"
     " adverb)."
     "<br><br>Find a synonym of that connector that has the same grammatical type."
 

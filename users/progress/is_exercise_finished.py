@@ -26,7 +26,6 @@ def is_exercise_finished(session, unit, exercise):
         bool: True if the exercise is complete, False otherwise.
     """
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(

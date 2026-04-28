@@ -5,7 +5,7 @@ from flask_mail import Mail
 from flask_login import LoginManager
 
 from webapp.routes import routes_bp
-from users.users.models import db, User, UserExerciseState
+from users.users.models import db, User
 
 app = Flask(__name__,
             static_url_path='/webapp/static',

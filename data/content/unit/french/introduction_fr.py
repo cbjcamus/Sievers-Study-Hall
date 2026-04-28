@@ -31,7 +31,7 @@ INTRODUCTION_FR = {
 
     artikel:
         "Articles marinés dans tous les cas grammaticaux."
-        "<br><br>Inclu: articles définis, indéfinis, négatifs, possessifs, demonstratifs et bien plus encore."
+        "<br><br>Inclut: articles définis, indéfinis, négatifs, possessifs, démonstratifs et bien plus encore."
         "<br><br>Les cas grammaticaux suivant les prépositions et verbes peuvent être pratiquées dans les modules "
         "<a href=\"/praepositionen_artikel\" target=\"_blank\">Präpositionen – Artikel</a> et "
         "<a href=\"/verben_artikel\" target=\"_blank\">Verben – Artikel</a>."
@@ -40,7 +40,7 @@ INTRODUCTION_FR = {
         "Pronoms dans tous les cas grammaticaux."
         "<br><br>En fait non, pas de pronoms génitifs. Il y a des pronoms génitifs dans le Latin,"
         " pourquoi pas en Allemand ?"
-        "<br><br>Inclu les pronoms réflechis, relatifs, résolus, réceptifs, récents, récurrents et réconfortants."
+        "<br><br>Inclut les pronoms réfléchis, relatifs, résolus, réceptifs, récents, récurrents et réconfortants."
     ,
     praepositionen_artikel:
         "Questions venant des autres exercises sur les prépositions pour s'exercer sur les cas grammaticaux suivant les prépositions allemandes."
@@ -51,7 +51,7 @@ INTRODUCTION_FR = {
         "<br>&bull; Prépositions suivies par le Génitif: anstatt, außerhalb, innerhalb, laut, trotz, während, wegen"
     ,
     verben_artikel:
-        "Cas grammatiques suivant les Verbes."
+        "Cas grammaticaux suivant les Verbes."
     ,
 
     konnektoren:
@@ -92,7 +92,7 @@ INTRODUCTION_FR = {
     ,
 
     genus_regeln:
-        "Practiquez le genre des noms communs à l'aide d'heuristiques."
+        "Pratiquez le genre des noms communs à l'aide d'heuristiques."
         "<br><br>Un guide énumérant ces heuristiques est disponible "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a> (en anglais)."
         "<br><br>Une fois ces exercices terminés, vous pouvez continuer à vous entraîner avec d'autres noms "

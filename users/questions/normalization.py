@@ -2,7 +2,7 @@ import unicodedata
 import string
 
 from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms
-from data.data_processing.exercises import is_exercise_multiple_choice, is_exercise_synonym, get_answer_column
+from data.data_processing.exercises import is_exercise_synonym, get_answer_column
 
 from data.data_processing.data_loading import load_data_question
 
@@ -33,13 +33,18 @@ def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
     the normalized user answer matches any of them.
 
     Args:
-        user_answer (str): The answer submitted by the user.
-        correct_answer (str): The correct answer string, possibly with multiple options separated by '/'.
-        question (str): The original question prompt, used to detect echoing.
         unit (str): The unit name, used for normalization and synonym-specific logic.
+        exercise (int): The exercise number.
+        question_id (int): The question's id, or Nr.
+        user_answer (str): The answer submitted by the user.
+        language (str): The User's language
 
     Returns:
         bool: True if the answer is correct, False otherwise.
+        :param language:
+        :param question_id:
+        :param unit:
+        :param user_answer:
         :param exercise:
     """
 
@@ -217,7 +222,7 @@ def lowercase_first_letter(s):
     return s[0].lower() + s[1:]
 
 
-def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
+def search_for_main_synonym(input_str, unit, df=df_synonyms):
     """
     Searches for the main synonym of a given input string based on a CSV mapping.
 
@@ -229,17 +234,17 @@ def search_for_main_synonym(input_str, unit, df_synonyms=df_synonyms):
     Args:
         input_str (str): The input string to look up.
         unit (str): The unit used to filter the relevant synonym entries.
-        df_synonyms (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
+        df (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
 
     Returns:
         str: The main synonym for the input string, or the original string if no match is found.
     """
-    df_synonyms = df_synonyms[df_synonyms['unit'] == unit].copy()
-    df_synonyms['input'] = df_synonyms['input'].str.lower()
-    df_synonyms['input'] = [replace_german_characters(entry) for entry in df_synonyms['input']]
-    df_synonyms['input'] = [remove_punctuation(entry) for entry in df_synonyms['input']]
+    df = df[df['unit'] == unit].copy()
+    df['input'] = df['input'].str.lower()
+    df['input'] = [replace_german_characters(entry) for entry in df['input']]
+    df['input'] = [remove_punctuation(entry) for entry in df['input']]
 
-    mapping = dict(zip(df_synonyms["input"], df_synonyms["output"]))
+    mapping = dict(zip(df["input"], df["output"]))
 
     main_synonym = mapping.get(input_str, input_str).lower()
     main_synonym = replace_german_characters(main_synonym)

@@ -23,7 +23,7 @@ def compute_highest_exercise(unit):
     return int(highest_exercise_unit)
 
 
-highest_exercise = {unit: compute_highest_exercise(unit) for unit in units}
+highest_exercise_per_unit = {unit: compute_highest_exercise(unit) for unit in units}
 
 
 def compute_total_questions(unit, exercise=None):
@@ -47,7 +47,7 @@ def compute_total_questions(unit, exercise=None):
 
     else:
         total_questions = 0
-        for exercise in range(0, highest_exercise[unit] + 1):
+        for exercise in range(0, highest_exercise_per_unit[unit] + 1):
             data = load_data_exercise(unit, exercise)
             total_questions = total_questions + len(data)
 
@@ -56,5 +56,5 @@ def compute_total_questions(unit, exercise=None):
 
 total_question_units = {unit: compute_total_questions(unit) for unit in units}
 total_question_exercises = {unit: {exercise: compute_total_questions(unit, exercise)
-                                   for exercise in range(1, highest_exercise[unit] + 1)}
+                                   for exercise in range(1, highest_exercise_per_unit[unit] + 1)}
                             for unit in units}

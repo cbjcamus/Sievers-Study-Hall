@@ -39,7 +39,7 @@
         {% endif %}
 
         <div id="next-button-container" class="next-button-container">
-            <a href="{{ url_for('routes.exercise', unit=unit, exercise=exercise) }}" class="next-question-button">{{ next_question }} →</a>
+            <a href="{{ url_for('routes.exercise_page', unit=unit, exercise=exercise) }}" class="next-question-button">{{ next_question }} →</a>
         </div>
 
         <script src="{{ url_for('static', filename='js/exercise/enterNextQuestionButton.js') }}" defer></script>

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 
 from flask import session
 from flask_login import UserMixin, current_user
@@ -7,12 +7,17 @@ from werkzeug.security import generate_password_hash, check_password_hash
 db = SQLAlchemy()
 
 from sqlalchemy.ext.mutable import MutableDict
-from sqlalchemy.dialects.sqlite import JSON as SQLITE_JSON  # or PostgreSQL JSONB
+from sqlalchemy.dialects.sqlite import JSON as SQLITE_JSON
 
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(255), unique=True, nullable=False, index=True)
+
+    def __init__(self, email, **kwargs):
+        super().__init__(**kwargs)
+        self.email = email
+
     password_hash = db.Column(db.String(255), nullable=False)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
 
@@ -116,13 +121,13 @@ class UserExerciseState(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False, index=True)
-    unit = db.Column(db.String(64), nullable=False)          # e.g., "verben", "adverbien"
-    exercise = db.Column(db.Integer, nullable=False)         # display number (1..N), can be shifted later
+    unit = db.Column(db.String(64), nullable=False)
+    exercise = db.Column(db.Integer, nullable=False)
     # Mirrors your session but keyed by stable content hashes (qids); structure example:
     # { "correct_ids": ["qid1","qid2"], "incorrect": {"qid7": "mein falsches wort"} }
     state = db.Column(db.JSON, nullable=False, default=dict)
 
-    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
+    updated_at = db.Column(db.DateTime, default=datetime.now(timezone.utc), onupdate=datetime.now(timezone.utc), nullable=False)
     completed_at = db.Column(db.DateTime, nullable=True)
 
     __table_args__ = (
@@ -142,28 +147,18 @@ class Bookmark(db.Model):
         nullable=False,
     )
 
-    # "konnektoren" etc.
     unit = db.Column(db.String(64), nullable=False)
-
-    # internal exercise number (int)
     exercise = db.Column(db.Integer, nullable=False)
-
-    # CEFR level, e.g. "A1", "B2"
     level = db.Column(db.String(8), nullable=False)
 
-    # "correct" / "incorrect" (you’ll enforce values in the app logic)
     result = db.Column(db.String(10), nullable=False)
-
-    # what the user typed (can be empty / None)
     user_answer = db.Column(db.Text, nullable=True)
-
-    # full rendered feedback snapshot
     feedback_message = db.Column(db.Text, nullable=False)
 
     created_at = db.Column(
         db.DateTime,
         nullable=False,
-        default=datetime.utcnow,
+        default=datetime.now(timezone.utc),
     )
 
     # relationship back to the user

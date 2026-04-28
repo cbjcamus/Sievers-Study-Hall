@@ -20,7 +20,7 @@ def load_data_exercise(unit, exercise):
 
     Args:
         unit (str): The unit name used to locate the CSV file in DATA_PATH.
-        exercise (str): The specific exercise to filter and preprocess.
+        exercise (int): The specific exercise to filter and preprocess.
 
     Returns:
         pandas.DataFrame: The cleaned and preprocessed data for the specified exercise.

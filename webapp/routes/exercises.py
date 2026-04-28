@@ -1,4 +1,4 @@
-from flask import render_template, session, request, redirect, url_for, flash, jsonify
+from flask import render_template, session, request, redirect, url_for, flash, jsonify, abort
 from flask_login import current_user
 from typing import cast
 
@@ -11,7 +11,7 @@ from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMI
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.exercises import is_exercise_multiple_choice
+from data.data_processing.exercises import is_exercise_multiple_choice, does_unit_exercise_exist
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 
@@ -48,7 +48,7 @@ REMOVED_UNIT_REDIRECTS = {
 }
 
 
-def resolve_unit_redirect(unit, exercise=None):
+def resolve_unit_redirect(unit):
     new_unit = REMOVED_UNIT_REDIRECTS.get(unit)
 
     if new_unit:
@@ -60,12 +60,12 @@ def resolve_unit_redirect(unit, exercise=None):
 
 @routes_bp.route('/guidance/unit/<unit>/exercise/<int:exercise>')
 def guidance(unit, exercise):
-    redirected = resolve_unit_redirect(unit, exercise)
+    redirected = resolve_unit_redirect(unit)
     if redirected:
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes.home"), code=302)
+        return redirect(url_for("routes.home_page"), code=302)
 
     language = get_language(request, session)
 
@@ -75,14 +75,14 @@ def guidance(unit, exercise):
     update_session_dictionary(session, "current_exercise", "unit", unit)
     update_session_dictionary(session, "current_exercise", "exercise", exercise)
 
-    guidance = format_guidance(unit, exercise, language)
+    guidance_text = format_guidance(unit, exercise, language)
 
-    if guidance and is_instruction_page_enabled():
+    if guidance_text and is_instruction_page_enabled():
         return render_template("exercise/guidance.html",
                                unit=unit,
                                exercise=exercise,
                                exercise_title=EXERCISE_TITLE[language],
-                               guidance=guidance,
+                               guidance=guidance_text,
                                additional_help=ADDITIONAL_HELP[language],
                                consult_faq=CONSULT_FAQ[language],
                                unit_page=UNIT_PAGE,
@@ -95,19 +95,22 @@ def guidance(unit, exercise):
                                )
 
     else:
-        return redirect(url_for('routes.exercise',
+        return redirect(url_for('routes.exercise_page',
                                 unit=unit,
                                 exercise=exercise))
 
 
 @routes_bp.route('/unit/<unit>/exercise/<int:exercise>')
-def exercise(unit, exercise):
-    redirected = resolve_unit_redirect(unit, exercise)
+def exercise_page(unit, exercise):
+    redirected = resolve_unit_redirect(unit)
     if redirected:
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes.home"), code=302)
+        return redirect(url_for("routes.home_page"), code=302)
+
+    if not does_unit_exercise_exist(unit, exercise):
+        abort(404)
 
     language = get_language(request, session)
 
@@ -134,7 +137,7 @@ def exercise(unit, exercise):
     is_feedback_box = not is_feedback_enabled()
 
     if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
-        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'], language)
+        clearance_popup_title = get_popup_title(language)
         clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
     else:
         clearance_popup_title = None
@@ -192,7 +195,7 @@ def check_answer(unit, exercise):
     init_session_key(session, unit, exercise, 'falses')
 
     if request.method == 'GET':
-        return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
+        return redirect(url_for('routes.exercise_page', unit=unit, exercise=exercise))
 
     user_answer = request.form.get('answer', '')
     question_id = request.form.get('nr')
@@ -214,9 +217,9 @@ def check_answer(unit, exercise):
     update_session_dictionary(session, "current_exercise", "question_id", question_id)
 
     if is_feedback_enabled():
-        route = 'routes.exercise_feedback'
+        route = 'routes.feedback_page'
     else:
-        route = 'routes.exercise'
+        route = 'routes.exercise_page'
 
     return redirect(url_for(route,
                             unit=unit,
@@ -224,18 +227,30 @@ def check_answer(unit, exercise):
 
 
 @routes_bp.route('/feedback/unit/<unit>/exercise/<int:exercise>')
-def exercise_feedback(unit, exercise):
-    redirected = resolve_unit_redirect(unit, exercise)
+def feedback_page(unit, exercise):
+    redirected = resolve_unit_redirect(unit)
     if redirected:
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes.home"), code=302)
+        return redirect(url_for("routes.home_page"), code=302)
+
+    if not does_unit_exercise_exist(unit, exercise):
+        abort(404)
 
     language = get_language(request, session)
 
     if is_exercise_finished(session, unit, exercise) is True:
         return render_exercise_completed_template(session, unit, exercise, language)
+
+    current_exercise = session.get("current_exercise")
+
+    if (
+        not current_exercise
+        or current_exercise.get("unit") != unit
+        or int(current_exercise.get("exercise")) != int(exercise)
+    ):
+        return redirect(url_for("routes.exercise", unit=unit, exercise=exercise))
 
     question_id = session.get("current_exercise").get("question_id")
 
@@ -255,7 +270,7 @@ def exercise_feedback(unit, exercise):
     is_feedback_box = True
 
     if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
-        clearance_popup_title = get_popup_title(session['popup']['unit'], session['popup']['exercise'], language)
+        clearance_popup_title = get_popup_title(language)
         clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
     else:
         clearance_popup_title = None
@@ -320,15 +335,15 @@ def reset_exercise(unit, exercise):
         session.modified = True
 
     next_url = request.form.get("next")
-    guidance = request.form.get('guidance') == 'true'
+    guidance_bool = request.form.get('guidance') == 'true'
 
     if next_url:
         return redirect(next_url)
 
-    if guidance is True:
+    if guidance_bool is True:
         return redirect(url_for('routes.guidance', unit=unit, exercise=exercise))
     else:
-        return redirect(url_for('routes.exercise', unit=unit, exercise=exercise))
+        return redirect(url_for('routes.exercise_page', unit=unit, exercise=exercise))
 
 
 @routes_bp.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])
@@ -387,7 +402,7 @@ def toggle_bookmark():
         if request.headers.get("X-Requested-With") == "XMLHttpRequest":
             return jsonify({"bookmarked": False})
 
-        return redirect(request.referrer or url_for("routes.home"))
+        return redirect(request.referrer or url_for("routes.home_page"))
 
     # Case 2: coming from an exercise page -> use full data (your existing logic)
     unit = request.form["unit"]
@@ -428,5 +443,5 @@ def toggle_bookmark():
     if request.headers.get("X-Requested-With") == "XMLHttpRequest":
         return jsonify({"bookmarked": bookmarked})
 
-    next_url = request.form.get("next") or request.referrer or url_for("routes.home")
+    next_url = request.form.get("next") or request.referrer or url_for("routes.home_page")
     return redirect(next_url)

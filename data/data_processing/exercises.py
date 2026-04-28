@@ -193,3 +193,13 @@ def get_multiple_choice_extent(unit, exercise):
     return vals
 
 '''
+
+def does_unit_exercise_exist(unit, exercise, df=df_exercises):
+    """
+    Returns True if (unit, exercise) exists in df_exercises.
+    """
+    return (
+        ((df["unit"] == unit) &
+         (df["exercise"] == int(exercise)))
+        .any()
+    )

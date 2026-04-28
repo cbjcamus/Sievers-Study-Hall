@@ -1,6 +1,6 @@
 from flask_login import current_user
 
-from data.data_processing.total_questions import highest_exercise, total_question_exercises
+from data.data_processing.total_questions import highest_exercise_per_unit, total_question_exercises
 
 from users.users.models import UserExerciseState
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
@@ -82,7 +82,7 @@ def compute_score_unit(session, unit):
     """
     trues_unit = 0
     falses_unit = 0
-    for exercise in range(1, highest_exercise[unit] + 1):
+    for exercise in range(1, highest_exercise_per_unit[unit] + 1):
         trues_exercise, falses_exercise = compute_trues_and_falses(session, unit, exercise)
         trues_unit = trues_unit + trues_exercise
         falses_unit = falses_unit + falses_exercise
@@ -107,7 +107,6 @@ def compute_score_exercise(session, unit, exercise):
         float or None: The score as a float between 0 and 1, or None if no data is available.
     """
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(
@@ -129,8 +128,8 @@ def compute_score_exercise(session, unit, exercise):
 
         # Otherwise compute from trues/falses (mirrors anonymous logic)
         trues, falses = compute_trues_and_falses(session, unit, ex_int)
-        denom = trues + falses
-        if denom <= 0:
+        denominator = trues + falses
+        if denominator <= 0:
             # If finished but no stored score and counts are empty, try total-based fallback.
             if finished:
                 total = s.get("total_questions")
@@ -193,7 +192,6 @@ def compute_trues_and_falses(session, unit, exercise):
     """
 
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(
@@ -205,7 +203,6 @@ def compute_trues_and_falses(session, unit, exercise):
         state = row.state or {}
         total = state.get("total_questions")
         if total is None:
-            # total = compute_total_questions(unit, ex_int)
             total = total_question_exercises[unit][ex_int]
         total = int(total or 0)
 

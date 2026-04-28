@@ -1,5 +1,5 @@
 from flask import jsonify, request, session
-from flask_login import login_required, current_user
+from flask_login import current_user
 
 from . import routes_bp
 from users.users.models import db, are_special_characters_enabled
@@ -12,7 +12,6 @@ def get_or_create_settings(user_id):
         row = UserSettings(user_id=user_id, settings=dict(DEFAULT_SETTINGS))
         db.session.add(row); db.session.commit()
     else:
-        # backfill any new defaults without overwriting existing values
         changed = False
         for k, v in DEFAULT_SETTINGS.items():
             if k not in row.settings:
@@ -64,6 +63,7 @@ def api_settings():
             settings[key] = value
 
     if current_user.is_authenticated:
+        row = UserSettings.query.get(current_user.id)
         row.settings = settings
         db.session.commit()
     else:

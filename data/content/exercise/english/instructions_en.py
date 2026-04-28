@@ -10,8 +10,6 @@ from data.data_processing.units import (
     zahlen,
 )
 
-# bullet point \u25CF
-
 INSTRUCTION_UNIT_EN = {
     praepositionen_artikel:
         "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
@@ -862,5 +860,3 @@ INSTRUCTION_EXERCISE_EN = {
         24: "Complete the following sentence with the genitive form of the number that fits:",
     },
 }
-# arrow &#8594
-

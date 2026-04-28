@@ -28,7 +28,7 @@ def get_text_proverb(language):
 
     if random_number > 0.9:
         formatted_proverb = (
-            f"<b>{change_color(text='Proverb', color='#DAA520')}</b>" # #DAA520
+            f"<b>{change_color(text='Proverb', color='#DAA520')}</b>"
             f"<br><br>{proverb['german']}"
             f"<br><br><i>{proverb[language]}</i>")
         return formatted_proverb
@@ -49,7 +49,7 @@ def get_random_proverb():
 
 def change_color(text, color="#AEEEEE"):
     """
-    Wraps the given text in a HTML <span> tag with a specified text color.
+    Wraps the given text in an HTML <span> tag with a specified text color.
 
     Args:
         text (str): The text to be styled.

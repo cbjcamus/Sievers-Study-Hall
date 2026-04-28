@@ -1,5 +1,5 @@
 from flask import session, request
-from flask_login import current_user
+from flask_login import current_user, login_required
 
 from typing import cast
 
@@ -12,7 +12,7 @@ from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY
 
 from data.data_processing.units import units
 from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise
-from data.data_processing.total_questions import total_question_exercises, highest_exercise
+from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
 from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
 from users.progress.score import write_score, get_lowest_scored_exercises
@@ -39,10 +39,10 @@ def home():
     if not isinstance(session.get('progress'), dict):
         session['progress'] = {}
 
-    progress = session['progress']
+    completed_exercises = session['progress']
     if current_user.is_authenticated:
         for unit in units:
-            if unit not in progress:
+            if unit not in completed_exercises:
                 update_progress_in_session(session, unit)
 
     session.modified = True
@@ -53,8 +53,8 @@ def home():
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,
                            home_description=home_description,
-                           completed_exercises=progress,
-                           highest_exercise=highest_exercise,
+                           completed_exercises=completed_exercises,
+                           highest_exercise=highest_exercise_per_unit,
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
                            meta_description=meta_description,
                            user_is_connected=current_user.is_authenticated,
@@ -65,7 +65,7 @@ for unit in units:
     route_path = UNIT_PAGE[unit]
     template = 'unit.html'
 
-    def make_route(unit=unit, template=template):
+    def make_route(unit=unit):
         endpoint_name = f'dynamic_route_{unit}'
         @routes_bp.route(route_path, endpoint=endpoint_name)
         def dynamic_route():
@@ -138,11 +138,12 @@ def about():
 
 
 @routes_bp.route("/bookmarks")
+@login_required
 def bookmarks():
 
     language = get_language(request, session)
 
-    bookmarks = (
+    bookmark = (
         Bookmark.query
         .filter_by(user_id=current_user.id)
         .order_by(Bookmark.created_at.desc())
@@ -155,7 +156,7 @@ def bookmarks():
     }
 
     return render_template(page[language],
-                           bookmarks=bookmarks,
+                           bookmarks=bookmark,
                            is_feedback_box=True,
                            your_answer=YOUR_ANSWER[language],
                            title_page=TITLE_PAGE,
@@ -201,15 +202,17 @@ def progress():
         )
 
 
-@routes_bp.route('/robots.txt')
+@routes_bp.route("/robots.txt")
 def robots_txt():
-    return Response(
-        "User-agent: *\nDisallow:\nSitemap: https://www.sieversstudyhall.com/sitemap.xml",
-        mimetype='text/plain'
+    content = (
+        "User-agent: *\n"
+        "Disallow:\n"
+        "Sitemap: https://www.sieversstudyhall.com/sitemap.xml\n"
     )
+    return Response(content, mimetype="text/plain")
 
 
-from flask import Response, url_for, render_template
+from flask import Response, url_for, render_template, current_app
 from werkzeug.routing import BuildError
 import datetime
 
@@ -220,13 +223,16 @@ def sitemap():
 
     def add(endpoint: str):
         try:
-            pages.append({"loc": url_for(endpoint, _external=True), "lastmod": today})
+            pages.append({
+                "loc": url_for(endpoint, _external=True),
+                "lastmod": today
+            })
         except BuildError:
-            pass
+            current_app.logger.warning(
+                f"Could not build sitemap URL for endpoint: {endpoint}"
+            )
 
     add("routes.home")
-    add("routes.settings")
-    add("routes.contact")
 
     for unit in units:
         add(f"routes.dynamic_route_{unit}")

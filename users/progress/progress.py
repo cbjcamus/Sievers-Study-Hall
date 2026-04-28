@@ -3,7 +3,7 @@ import random
 from flask_login import current_user
 
 from data.data_processing.exercises import get_exercises_by_level, df_exercises
-from data.data_processing.total_questions import total_question_exercises, highest_exercise
+from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
 from users.users.models import UserExerciseState
 from users.progress.is_exercise_finished import is_exercise_finished
@@ -34,7 +34,7 @@ def get_next_exercise(unit, current_exercise, highest_exercise):
 def update_progress_in_session(session, unit):
     progress = session.setdefault('progress', {})
 
-    progress[unit] = compute_completed_exercises(session, unit, highest_exercise)
+    progress[unit] = compute_completed_exercises(session, unit, highest_exercise_per_unit)
 
     session.modified = True
     return
@@ -81,7 +81,7 @@ def compute_answered_questions_unit(session, unit):
         int: The total number of answered questions in the unit.
     """
     answered_questions = 0
-    for exercise in range(1, highest_exercise[unit] + 1):
+    for exercise in range(1, highest_exercise_per_unit[unit] + 1):
         answered_questions_exercise = compute_answered_questions_exercise(session, unit, exercise)
         answered_questions = answered_questions + answered_questions_exercise
     return int(answered_questions)
@@ -108,7 +108,6 @@ def compute_answered_questions_exercise(session, unit, exercise):
     """
 
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     # DB-first path for authenticated users
     if current_user.is_authenticated:
@@ -128,7 +127,7 @@ def compute_answered_questions_exercise(session, unit, exercise):
         # Not finished → number of correct so far
         if "correct_nrs" in s:
             return len(s["correct_nrs"])
-        elif "correct_ids" in s:  # backward compat
+        elif "correct_ids" in s:
             return len(s["correct_ids"])
         elif "answered" in s:
             return int((s["answered"] or {}).get("correct", 0))
@@ -255,15 +254,14 @@ def get_random_unit_and_lowest_unfinished_exercise(session, level):
     return chosen_unit, chosen_exercise
 
 
-def get_unfinished_exercises(session, df_exercises=df_exercises):
-    df_all = df_exercises
+def get_unfinished_exercises(session, df=df_exercises):
 
-    if df_all.empty:
+    if df.empty:
         return []
 
     unfinished = []
 
-    for _, row in df_all.iterrows():
+    for _, row in df.iterrows():
         unit = row["unit"]
         exercise = row["exercise"]
 

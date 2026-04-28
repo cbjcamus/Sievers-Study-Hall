@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 
 from flask import current_app
@@ -264,9 +264,6 @@ def merge_anonymous_progress_in_database():
             if df is None:
                 continue
 
-            # total_questions = int(compute_total_questions(unit, ex))
-            total_questions = int(total_question_exercises[unit][ex])
-
             # ---- Build Nr -> qid mapping ----
             nr_to_qid = {}
             for _, row in df.iterrows():
@@ -282,7 +279,6 @@ def merge_anonymous_progress_in_database():
                 )
                 nr_to_qid[nr] = qid
 
-            # inside your loop per (unit, ex):
             progress_nrs = [int(n) for n in (ex_data.get("progress") or []) if str(n).isdigit()]
             falses_nrs   = [int(n) for n in (ex_data.get("falses")   or []) if str(n).isdigit()]
             wrong_texts  = list(ex_data.get("incorrect_answer", [])) or []
@@ -299,7 +295,6 @@ def merge_anonymous_progress_in_database():
 
             if has_summary:
                 score = float(ex_data["result"])
-                # total_questions = compute_total_questions(unit, ex)
                 total_questions = total_question_exercises[unit][ex]
                 row.state = {"score": score, "total_questions": int(total_questions)}
             else:
@@ -319,7 +314,7 @@ def merge_anonymous_progress_in_database():
                     "incorrect": {str(k): v for k, v in {**old_incorrect, **inc_map}.items()},
                 }
 
-            row.updated_at = datetime.utcnow()
+            row.updated_at = datetime.now(timezone.utc)
             db.session.commit()
             # then trim session keys
             for key in ("progress", "falses", "incorrect_answer"):

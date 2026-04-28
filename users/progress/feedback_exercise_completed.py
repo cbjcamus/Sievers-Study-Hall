@@ -5,10 +5,10 @@ from flask_login import current_user
 from data.content.exercise.templates import FEEDBACK
 from data.data_processing.data_loading import load_data_exercise
 from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column
-from users.questions.content_format import get_template
 
 from users.users.models import UserExerciseState
-from users.questions.normalization import get_list_of_correct_answers, get_first_correct_answer
+from users.questions.content_format import get_template, format_feedback
+from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer
 
 
 def get_incorrect_answers(session, unit, exercise):
@@ -30,7 +30,6 @@ def get_incorrect_answers(session, unit, exercise):
     """
 
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     # ----------------------------------------------------------
     # Logged-in: get from DB state
@@ -70,13 +69,13 @@ def get_feedback_exercise(session, unit, exercise, language):
         session (dict): The session dictionary storing user progress.
         unit (str): The unit identifier.
         exercise (str or int): The exercise identifier (converted to string for lookup).
+        language (str): The User's language
 
     Returns:
         list: A list of formatted feedback strings for each incorrect answer.
     """
 
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     # ---- collect incorrect Nrs ----
     incorrect_ids = []
@@ -106,11 +105,11 @@ def get_feedback_exercise(session, unit, exercise, language):
     data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
     data = data.sort_values("Nr")
 
-    feedbacks = format_feedback(data, unit, exercise, language)
+    feedbacks = format_feedbacks(data, unit, exercise, language)
     return feedbacks
 
 
-def format_feedback(df, unit, exercise, language):
+def format_feedbacks(df, unit, exercise, language):
     """
     Formats feedback messages for each row in a DataFrame using a predefined template.
 
@@ -123,6 +122,7 @@ def format_feedback(df, unit, exercise, language):
         df (pandas.DataFrame): The filtered exercise data containing incorrect answers.
         unit (str): The unit identifier used to select the appropriate template.
         exercise (str): The exercise identifier used to select the appropriate template.
+        language (str): The User's language
 
     Returns:
         list: A list of formatted feedback strings, one for each row in the DataFrame.
@@ -132,14 +132,26 @@ def format_feedback(df, unit, exercise, language):
 
     for _, row in df.iterrows():
 
+        question_id = row.get("Nr", "")
+
+        formatted = format_feedback(unit, exercise, language, question_id)
+
+        result.append(formatted)
+
+        '''
         if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise, language) == "foreign":
             correct_answers = row.get(language, "")
         else:
             correct_answers = get_list_of_correct_answers(row.get("answer", ""), unit)
+        
+
+        correct_answer = get_correct_answer(unit, exercise, question_id, language)
+        correct_answers = get_list_of_correct_answers(correct_answer, unit)
 
         formatted = template.format(
             previous_question=row.get("question", ""),
-            correct_answer=row.get("answer", ""),
+            #correct_answer=row.get("answer", ""),
+            correct_answer=correct_answer,
             correct_answers=correct_answers,
             first_correct_answer=get_first_correct_answer(row.get("answer", "")),
             german=row.get("german", ""),
@@ -167,6 +179,5 @@ def format_feedback(df, unit, exercise, language):
         formatted = formatted.replace("= ", "=&nbsp;")
         formatted = formatted.replace("+ ", "+&nbsp;")
         formatted = formatted.replace("\u25CF ", "\u25CF&nbsp;")
-
-        result.append(formatted)
+        '''
     return result

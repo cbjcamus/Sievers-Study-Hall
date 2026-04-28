@@ -1,9 +1,8 @@
 from flask_login import current_user
 
-from datetime import datetime
+from datetime import datetime, timezone
 
 from data.data_processing.total_questions import total_question_exercises
-from users.session_management.session_update import update_session_dictionary, add_new_id_in_session
 
 from users.users.models import db, UserExerciseState
 from users.progress.score import compute_score
@@ -54,7 +53,7 @@ def register_progress(session, unit, exercise, nr):
         if "total_questions" in s: next_state["total_questions"] = s["total_questions"]
 
         row.state = next_state
-        row.updated_at = datetime.utcnow()
+        row.updated_at = datetime.now(timezone.utc)
         db.session.commit()
         return
 
@@ -80,6 +79,7 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
         session (dict): The session dictionary tracking user input.
         unit (str): The unit identifier.
         exercise (str or int): The exercise identifier.
+        nr (str): Question ID, or Nr.
         incorrect_answer (str): The user's incorrect answer to store.
 
     Returns:
@@ -119,7 +119,7 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
             next_state["total_questions"] = s["total_questions"]
 
         row.state = next_state
-        row.updated_at = datetime.utcnow()
+        row.updated_at = datetime.now(timezone.utc)
         db.session.commit()
         return
 
@@ -195,7 +195,7 @@ def register_result(session, unit, exercise, feedback):
             "total_questions": total_q,
         }
 
-        row.completed_at = datetime.utcnow()
+        row.completed_at = datetime.now(timezone.utc)
         row.updated_at = row.completed_at
         db.session.commit()
 

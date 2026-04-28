@@ -79,11 +79,9 @@
         <h2>Account</h2>
         <p>You are connected with {{ email }}</p>
 
-        <p>
-            <form method="post" action="{{ url_for('routes.signout') }}">
-                <button type="submit" class="button">Sign out</button>
-            </form>
-        </p>
+        <form method="post" action="{{ url_for('routes.signout') }}">
+            <button type="submit" class="button">Sign out</button>
+        </form>
     </div>
     {% endif %}
 

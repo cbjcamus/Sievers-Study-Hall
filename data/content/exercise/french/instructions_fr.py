@@ -10,8 +10,6 @@ from data.data_processing.units import (
     zahlen,
 )
 
-# bullet point \u25CF
-
 INSTRUCTION_UNIT_FR = {
     praepositionen_artikel:
         "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
@@ -89,7 +87,7 @@ INSTRUCTION_EXERCISE_FR = {
         22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         23: "Traduisez la préposition ci-dessous :",
         24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        25: "Traduisez le groupe prépositionel ci-dessous :",
+        25: "Traduisez le groupe prépositionnel ci-dessous :",
         26: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         27: "Traduisez la postposition ci-dessous :",
         28: "Complétez la phrase ci-dessous avec la postposition qui convient :",
@@ -864,5 +862,3 @@ INSTRUCTION_EXERCISE_FR = {
     },
 
 }
-# arrow &#8594
-

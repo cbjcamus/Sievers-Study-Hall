@@ -11,6 +11,10 @@ from webapp.i18n import get_language
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LOGS_DIR = os.path.join(BASE_DIR, "../logs")
+EXERCISE_COMPLETED_PATH = os.path.join(LOGS_DIR, "exercise_completed.csv")
+NEW_SIGNUP_PATH = os.path.join(LOGS_DIR, "new_signups.csv")
+QUESTION_FLAGGED_PATH = os.path.join(LOGS_DIR, "question_flagged.csv")
+PROGRESS_DELETED_PATH = os.path.join(LOGS_DIR, "progress_deleted_from_session.csv")
 
 
 def log_exercise_completed(unit, exercise, score, email=None):
@@ -25,11 +29,12 @@ def log_exercise_completed(unit, exercise, score, email=None):
     Args:
         unit (str): The unit identifier of the completed exercise.
         exercise (str or int): The exercise identifier.
+        score (): The score
+        email (str): The user's email if the user is connected
 
     Returns:
         None
     """
-    EXERCISE_COMPLETED_PATH = os.path.join(LOGS_DIR, "exercise_completed.csv")
     now = datetime.now()
 
     create_folder(LOGS_DIR)
@@ -59,13 +64,11 @@ def log_new_signup(user):
     Appends a new line to the CSV file with the current timestamp, IP, unit, and exercise.
 
     Args:
-        unit (str): The unit identifier of the completed exercise.
-        exercise (str or int): The exercise identifier.
+        user
 
     Returns:
         None
     """
-    NEW_SIGNUP_PATH = os.path.join(LOGS_DIR, "new_signups.csv")
     now = datetime.now()
 
     create_folder(LOGS_DIR)
@@ -92,11 +95,12 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
         feedback_message (str): The feedback message explaining the issue.
         user_answer (str): The user's submitted answer.
         result (str): The evaluation result (e.g., "correct", "incorrect").
+        reason (str): The user's reason for flagging
+        email (str): The user's email if connected
 
     Returns:
         None
     """
-    QUESTION_FLAGGED_PATH = os.path.join(LOGS_DIR, "question_flagged.csv")
     now = datetime.now()
 
     create_folder(LOGS_DIR)
@@ -133,7 +137,6 @@ def log_progress_deleted_from_session(unit, exercise):
     Returns:
         None
     """
-    PROGRESS_DELETED_PATH = os.path.join(LOGS_DIR, "progress_deleted_from_session.csv")
     now = datetime.now()
 
     create_folder(LOGS_DIR)
@@ -215,8 +218,8 @@ def get_next_number(file):
     return next_nr
 
 
-def format_entry(input):
-    output = input.replace("&nbsp;", "")
+def format_entry(input_text):
+    output = input_text.replace("&nbsp;", "")
     output = output.replace("<br>", "")
     output = clean_single_line(output)
 

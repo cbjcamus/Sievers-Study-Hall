@@ -9,8 +9,6 @@ from data.data_processing.units import (
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
-# bullet point \u25CF
-
 GUIDANCE_UNIT_FR = {
     wortstellung:
         "Placeholder"
@@ -89,7 +87,7 @@ GUIDANCE_UNIT_FR = {
     ,
 
     plural:
-        "Pour chaque question, un nom comun allemand et sa traduction en français vous sera proposé."
+        "Pour chaque question, un nom commun allemand et sa traduction en français vous sera proposé."
         "<br><br>Trouvez la forme plurielle de ce nom."
 
         f"<br><br> {ICON_WARN} Il n'y a qu'une seule bonne réponse par question."
@@ -503,7 +501,7 @@ guidance_konnektoren_isolation = (
     f"<br><br> &nbsp; {ICON_CROSS} weshalb (C'est une conjonctions de subordination, pas un adverbe)"
     f"<br><br>"
     
-    "à la fois ainsi que \u25CF Conjonction corrélative"
+    "à la fois ... ainsi que \u25CF Conjonction corrélative"
     f"<br><br> &nbsp; {ICON_CHECK} sowohl als auch"
     f"<br><br> &nbsp; {ICON_CHECK} sowohl ... als auch"
     f"<br><br> &nbsp; {ICON_CROSS} sowie (C'est une conjonction de coordination, pas une conjonction corrélative)"
@@ -562,7 +560,7 @@ guidance_fragen_sentences = (
     f"<br><br> {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     
-    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, cliquez sur le bouton m/f/n/pl."
 
     "<h2>Exemple</h2>"
     "_____ lernst du Deutsch?"
@@ -930,7 +928,7 @@ guidance_adjektive_nomen_wortstaemme_nomen = (
     f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
-    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, cliquez sur le bouton m/f/n/pl."
 
     "<h2>Exemple</h2>"
     "correct, juste → richtig"
@@ -1035,7 +1033,7 @@ guidance_nomen_verben_verbindungen_nomen_isolation = (
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
     f"<br><br> {ICON_WARN} La réponse peut nécessiter un article et/ou une préposition."
 
-    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, cliquez sur le bouton m/f/n/pl."
     
     "<h2>Exemples</h2>"
     "_____ haben"
@@ -1130,7 +1128,7 @@ guidance_nomen_verben_wortstaemme_nomen = (
     f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
-    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, clickez sur le bouton m/f/n/pl."
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, cliquez sur le bouton m/f/n/pl."
     
     "<h2>Exemple</h2>"
     "travailler → arbeiten"
@@ -1261,7 +1259,7 @@ guidance_zahlen_multiplier_sentence = (
 
 guidance_zahlen_genitive_isolation = (
     "Pour chaque question, un nombre vous sera fourni."
-    "<br><br>Ecrivez la forme génitive de ce nombre."
+    "<br><br>Écrivez la forme génitive de ce nombre."
 
     "<h2>Exemple</h2>"
     "3"

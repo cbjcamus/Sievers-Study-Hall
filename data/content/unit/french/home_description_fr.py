@@ -18,8 +18,8 @@ HOME_DESCRIPTION_FR = {
 
     artikel: "Articles marinés dans tous les cas grammaticaux",
     pronomen: "Pronoms dans tous les cas grammaticaux",
-    praepositionen_artikel: "Cas grammatiques suivant les Prépositions",
-    verben_artikel: "Cas grammatiques suivant les Verbes",
+    praepositionen_artikel: "Cas grammaticaux suivant les Prépositions",
+    verben_artikel: "Cas grammaticaux suivant les Verbes",
 
     konnektoren: "Conjonctions et Adverbes causaux",
     fragen: "Mots Interrogatifs.",
@@ -34,7 +34,7 @@ HOME_DESCRIPTION_FR = {
     nomen_verben_verbindungen: "Combinaisons Nom-Verbe et autres expressions",
 
     adjektive: "Traductions d'Adjectifs Allemands",
-    komparativ_superlativ: "Comparatifs et Superlatifs d'adctifs",
+    komparativ_superlativ: "Comparatifs et Superlatifs d'Adjectifs",
     adjektivdeklinationen: "Toutes les Déclinations d'Adjectifs",
     adjektive_konjunktionen: "Conjonctions et Constructions d'Adjectifs",
 

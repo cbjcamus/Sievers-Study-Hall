@@ -3,8 +3,7 @@ import random
 from flask_login import current_user
 
 from data.data_processing.data_loading import (load_data_exercise, load_data_level, load_data_question)
-from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column, \
-    is_exercise_multiple_choice_foreign, get_question_column
+from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column
 
 from users.users.models import UserExerciseState
 from users.session_management.verification_session import init_session_key
@@ -30,7 +29,6 @@ def pick_a_question(session, unit, exercise):
     data = load_data_exercise(unit, exercise)
 
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-    ex_str = str(ex_int)
 
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(
@@ -56,11 +54,11 @@ def pick_a_question(session, unit, exercise):
     return random_question["Nr"]
 
 
-def get_options_for_multiple_choice_exercises(unit, exercise, question_ID, language):
+def get_options_for_multiple_choice_exercises(unit, exercise, question_id, language):
     if is_exercise_multiple_choice(unit, exercise) is False:
         return None
 
-    question_data = load_data_question(unit, exercise, question_ID)
+    question_data = load_data_question(unit, exercise, question_id)
     answer_column = get_answer_column(unit, exercise, language)
     correct_answer = question_data[answer_column]
 

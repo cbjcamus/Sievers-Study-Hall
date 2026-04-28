@@ -3,5 +3,9 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.8 (Deutsch Partizip II)" />
   </component>
+  <component name="ProjectResources">
+    <resource url="http://www.sitemaps.org/schemas/sitemap/0.9" location="$PROJECT_DIR$" />
+    <resource url="https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Sievers_Study_Hall)" project-jdk-type="Python SDK" />
 </project>

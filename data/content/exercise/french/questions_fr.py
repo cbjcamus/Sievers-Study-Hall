@@ -10,9 +10,6 @@ from data.data_processing.units import (
     zahlen,
 )
 
-# bullet point \u25CF
-# arrow &#8594
-
 QUESTION_UNIT_FR = {
     pronominaladverbien:
         "{question}"

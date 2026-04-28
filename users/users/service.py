@@ -1,6 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from hashlib import sha1
 from typing import Dict, List, Tuple
 
@@ -49,7 +49,7 @@ def save_correct(user_id: int, unit: str, exercise: int, qid: str, total_questio
         s.correct_ids.append(qid)
     s.incorrect.pop(qid, None)
     row.state = {"correct_ids": s.correct_ids, "incorrect": s.incorrect}
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     row.updated_at = now
     if total_questions is not None and len(s.correct_ids) >= total_questions:
         row.completed_at = now
@@ -64,7 +64,7 @@ def save_incorrect(user_id: int, unit: str, exercise: int, qid: str, given_answe
     if (qid not in s.incorrect) and (qid not in s.correct_ids):
         s.incorrect[qid] = given_answer
         row.state = {"correct_ids": s.correct_ids, "incorrect": s.incorrect}
-        row.updated_at = datetime.utcnow()
+        row.updated_at = datetime.now(timezone.utc)
         db.session.commit()
 
 def reset_state(user_id: int, unit: str, exercise: int) -> None:
@@ -119,7 +119,7 @@ def merge_session_into_db(
             s.incorrect[qid] = ""  # or a session_provided_text if you have it
 
     row.state = {"correct_ids": s.correct_ids, "incorrect": s.incorrect}
-    row.updated_at = datetime.utcnow()
+    row.updated_at = datetime.now(timezone.utc)
     db.session.commit()
 
 # ---------- housekeeping (TTL for unfinished) ----------
@@ -129,7 +129,7 @@ def prune_abandoned_unfinished(days: int = 10) -> int:
     Delete rows not completed and not updated recently to save space.
     Returns number of rows deleted.
     """
-    cutoff = datetime.utcnow() - timedelta(days=days)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     q = UserExerciseState.__table__.delete().where(
         (UserExerciseState.completed_at.is_(None)) & (UserExerciseState.updated_at < cutoff)
     )

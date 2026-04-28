@@ -7,7 +7,7 @@ from data.content.unit.title_page import TITLE_PAGE
 session = cast(dict, session)
 
 
-def get_popup_title(unit, exercise, language):
+def get_popup_title(language):
     popup_title = {
         'english': 'Progress erased',
         'french': 'Progrès effacé',
