@@ -5,7 +5,7 @@ from datetime import datetime
 
 from data.data_processing.exercises import get_level_from_exercise
 
-from users.users.models import is_feedback_enabled, get_theme
+from users.users.settings import is_feedback_enabled, get_theme
 
 from webapp.i18n import get_language
 

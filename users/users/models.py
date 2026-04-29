@@ -1,9 +1,9 @@
 from datetime import datetime, timezone
 
-from flask import session
-from flask_login import UserMixin, current_user
+from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
+
 db = SQLAlchemy()
 
 from sqlalchemy.ext.mutable import MutableDict
@@ -31,91 +31,6 @@ class UserSettings(db.Model):
     settings = db.Column(MutableDict.as_mutable(SQLITE_JSON), nullable=False, default=dict)
 
 
-DEFAULT_SETTINGS = {
-    "feedback_enabled": True,
-    "theme": "night",
-    "special_characters_enabled": True,
-    "instruction_page_enabled": True,
-}
-
-
-def is_feedback_enabled():
-    if current_user.is_authenticated:
-        row = UserSettings.query.get(current_user.id)
-        if row and row.settings:
-            return row.settings.get("feedback_enabled", DEFAULT_SETTINGS["feedback_enabled"])
-        return DEFAULT_SETTINGS["feedback_enabled"]
-
-    anon_settings = session.get("settings", {})
-    return anon_settings.get("feedback_enabled", DEFAULT_SETTINGS["feedback_enabled"])
-
-
-def get_theme():
-    if current_user.is_authenticated:
-        row = UserSettings.query.get(current_user.id)
-        if row and row.settings:
-            return row.settings.get("theme", DEFAULT_SETTINGS["theme"])
-        return DEFAULT_SETTINGS["theme"]
-
-    anon_settings = session.get("settings", {})
-    return anon_settings.get("theme", DEFAULT_SETTINGS["theme"])
-
-
-def are_special_characters_enabled():
-    if current_user.is_authenticated:
-        row = UserSettings.query.get(current_user.id)
-        if row and row.settings:
-            return row.settings.get(
-                "special_characters_enabled",
-                DEFAULT_SETTINGS["special_characters_enabled"]
-            )
-        return DEFAULT_SETTINGS["special_characters_enabled"]
-
-    anon_settings = session.get("settings", {})
-    return anon_settings.get(
-        "special_characters_enabled",
-        DEFAULT_SETTINGS["special_characters_enabled"]
-    )
-
-
-def is_instruction_page_enabled():
-    if current_user.is_authenticated:
-        row = UserSettings.query.get(current_user.id)
-        if row and row.settings:
-            return row.settings.get(
-                "instruction_page_enabled",
-                DEFAULT_SETTINGS["instruction_page_enabled"]
-            )
-        return DEFAULT_SETTINGS["instruction_page_enabled"]
-
-    anon_settings = session.get("settings", {})
-    return anon_settings.get(
-        "instruction_page_enabled",
-        DEFAULT_SETTINGS["instruction_page_enabled"]
-    )
-
-
-def get_filename_empty_bookmark():
-    if get_theme() == 'day':
-        return "icons/bookmark/empty_day.png"
-    else:
-        return "icons/bookmark/empty.png"
-
-
-def get_filename_full_bookmark():
-    if get_theme() == 'day':
-        return "icons/bookmark/full_day.png"
-    else:
-        return "icons/bookmark/full.png"
-
-
-def get_filename_flag():
-    if get_theme() == 'day':
-        return "icons/flag/flag_black.png"
-    else:
-        return "icons/flag/flag_white.png"
-
-
 class UserExerciseState(db.Model):
     __tablename__ = "user_exercise_state"
 
@@ -141,11 +56,7 @@ class Bookmark(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
 
-    user_id = db.Column(
-        db.Integer,
-        db.ForeignKey("user.id"),
-        nullable=False,
-    )
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False,)
 
     unit = db.Column(db.String(64), nullable=False)
     exercise = db.Column(db.Integer, nullable=False)
@@ -155,17 +66,19 @@ class Bookmark(db.Model):
     user_answer = db.Column(db.Text, nullable=True)
     feedback_message = db.Column(db.Text, nullable=False)
 
-    created_at = db.Column(
-        db.DateTime,
-        nullable=False,
-        default=datetime.now(timezone.utc),
-    )
+    created_at = db.Column(db.DateTime, nullable=False, default=datetime.now(timezone.utc),)
 
     # relationship back to the user
-    user = db.relationship(
-        "User",
-        backref=db.backref("bookmarks", lazy="dynamic")
-    )
+    user = db.relationship("User",backref=db.backref("bookmarks", lazy="dynamic"))
 
     def __repr__(self):
         return f"<Bookmark id={self.id} user_id={self.user_id} unit={self.unit} exercise={self.exercise}>"
+
+
+class UserUnitHomeProgress(db.Model):
+    __tablename__ = "user_unit_home_progress"
+
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), primary_key=True)
+    unit = db.Column(db.String(100), primary_key=True)
+    completed_exercises = db.Column(db.Integer, default=0)
+    updated_at = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))

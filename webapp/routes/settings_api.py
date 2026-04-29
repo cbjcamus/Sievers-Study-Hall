@@ -2,8 +2,9 @@ from flask import jsonify, request, session
 from flask_login import current_user
 
 from . import routes_bp
-from users.users.models import db, are_special_characters_enabled
-from users.users.models import UserSettings, DEFAULT_SETTINGS, get_theme
+from users.users.models import db
+from users.users.models import UserSettings
+from users.users.settings import DEFAULT_SETTINGS, get_theme, are_special_characters_enabled
 
 
 def get_or_create_settings(user_id):

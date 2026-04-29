@@ -46,7 +46,7 @@ CONSULT_FAQ = {
 }
 
 NOT_AUTHENTICATED = {
-    'english': 'You are not logged-in. Sign-up to save your progress:',
+    'english': 'You\'re not logged-in. Sign-up to save your progress:',
     'french': 'Vous n\'êtes pas connecté. Créez un compte pour enregistrer votre progrès:',
 }
 

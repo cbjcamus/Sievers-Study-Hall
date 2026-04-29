@@ -789,48 +789,55 @@ FEEDBACK_EXERCISE_EN = {
     },
 
     fragen: {
-        1: "{english} = {correct_answers}",
+        1: "{english} = {first_correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         2: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
-        3: "{english} = {correct_answers}",
+        3: "{english} = {first_correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         4: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
-        5: "{english} = {correct_answers}",
+        5: "{english} = {first_correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
 
-        7: "{english} = {correct_answers}",
+        7: "{english} = {first_correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         8: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
-        9: "{english} = {correct_answers}",
+        9: "{english} = {first_correct_answer}"
+           "<br><br>Correct answer(s): {correct_answers}",
         10: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        11: "{english} = {correct_answers}",
+        11: "{english} = {first_correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         12: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-
-        13: "{english} = {correct_answers}",
+        13: "{english} = {first_correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         14: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
 
-        15: "{english} = {correct_answers}",
+        15: "{english} = {first_correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
         16: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"

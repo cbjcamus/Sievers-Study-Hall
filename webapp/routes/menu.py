@@ -14,10 +14,12 @@ from data.data_processing.units import units
 from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise
 from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
-from users.users.models import Bookmark, get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
+from users.users.models import Bookmark
+from users.users.settings import get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
 from users.progress.score import write_score, get_lowest_scored_exercises
-from users.progress.progress import compute_answered_questions, update_progress_in_session, is_exercise_started, \
-    get_fraction_exercises_finished_by_level, get_random_unit_and_lowest_unfinished_exercise, get_unfinished_exercises
+from users.progress.progress import compute_answered_questions, update_progress_in_home_page, is_exercise_started, \
+    get_fraction_exercises_finished_by_level, get_random_unit_and_lowest_unfinished_exercise, get_unfinished_exercises, \
+    get_progress_home_page
 from users.questions.content_format import format_correction, format_description
 
 from . import routes_bp
@@ -36,6 +38,7 @@ def home():
     home_description = HOME_DESCRIPTION[language]
     meta_description = META_DESCRIPTION[language]
 
+    '''
     if not isinstance(session.get('progress'), dict):
         session['progress'] = {}
 
@@ -43,9 +46,12 @@ def home():
     if current_user.is_authenticated:
         for unit in units:
             if unit not in completed_exercises:
-                update_progress_in_session(session, unit)
+                update_progress_in_home_page(session, unit)
 
     session.modified = True
+    '''
+
+    completed_exercises = {unit: get_progress_home_page(session, unit) for unit in units}
 
     return render_template('home.html',
                            title_page=TITLE_PAGE,
@@ -81,8 +87,7 @@ for unit in units:
             exercises_C1 = get_exercises_by_unit_and_level(unit, 'C1')
             exercises_C2 = get_exercises_by_unit_and_level(unit, 'C2')
 
-            if current_user.is_authenticated:
-                update_progress_in_session(session, unit)
+            update_progress_in_home_page(session, unit)
 
             return render_template(template,
                                    title_page=title_page,

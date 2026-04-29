@@ -1,7 +1,7 @@
 import unicodedata
 import string
 
-from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms
+from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms, get_list_of_synonyms
 from data.data_processing.exercises import is_exercise_synonym, get_answer_column
 
 from data.data_processing.data_loading import load_data_question
@@ -12,12 +12,6 @@ def get_correct_answer(unit, exercise, question_id, language):
     answer_column = get_answer_column(unit, exercise, language)
 
     return question_data.get(answer_column, "")
-'''
-    if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise, language) == "foreign":
-        return question_data.get(language, "")
-    else:
-        return question_data.get("answer", "")
-'''
 
 
 def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
@@ -62,8 +56,9 @@ def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
         correct_answers = [normalize_answer(answer, unit) for answer in correct_answers]
         return user_answer in correct_answers
     else:
-        correct_answer = normalize_answer(correct_answer, unit)
-        return user_answer == correct_answer
+        correct_answers = get_list_of_synonyms(lowercase_first_letter(correct_answer), unit)
+        correct_answers = [normalize_answer(correct_answer_, unit) for correct_answer_ in correct_answers]
+        return user_answer in correct_answers
 
 
 def normalize_answer(input_str, unit):
@@ -88,7 +83,7 @@ def normalize_answer(input_str, unit):
     normalized_str = input_str.strip().lower()
     normalized_str = remove_punctuation(normalized_str)
     normalized_str = replace_german_characters(normalized_str)
-    normalized_str = search_for_main_synonym(normalized_str, unit)
+    # normalized_str = search_for_main_synonym(normalized_str, unit)
     return normalized_str
 
 

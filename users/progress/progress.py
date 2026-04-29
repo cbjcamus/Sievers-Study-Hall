@@ -1,11 +1,13 @@
 import random
 
+from datetime import datetime, timezone
+
 from flask_login import current_user
 
 from data.data_processing.exercises import get_exercises_by_level, df_exercises
 from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
-from users.users.models import UserExerciseState
+from users.users.models import db, UserExerciseState, UserUnitHomeProgress
 from users.progress.is_exercise_finished import is_exercise_finished
 from users.session_management.verification_session import is_key_in_exercise
 
@@ -31,13 +33,68 @@ def get_next_exercise(unit, current_exercise, highest_exercise):
         return current_exercise + 1
 
 
-def update_progress_in_session(session, unit):
-    progress = session.setdefault('progress', {})
+def update_progress_in_home_page(session, unit):
+    completed_exercises = compute_completed_exercises(session, unit, highest_exercise_per_unit)
 
-    progress[unit] = compute_completed_exercises(session, unit, highest_exercise_per_unit)
+    if current_user.is_authenticated:
 
+        if unit in session:
+            session.pop(unit, None)
+            session.modified = True
+
+        row = UserUnitHomeProgress.query.filter_by(
+            user_id=current_user.id,
+            unit=unit
+        ).first()
+
+        if row is None:
+            row = UserUnitHomeProgress(
+                user_id=current_user.id,
+                unit=unit,
+                completed_exercises=completed_exercises,
+            )
+            db.session.add(row)
+        else:
+            row.completed_exercises = completed_exercises
+
+        db.session.commit()
+
+        if "progress" in session:
+            session["progress"].pop(unit, None)
+
+            if not session["progress"]:
+                session.pop("progress", None)
+
+            session.modified = True
+
+        return
+
+    progress = session.setdefault("progress", {})
+    progress[unit] = completed_exercises
     session.modified = True
-    return
+
+
+def get_progress_home_page(session, unit):
+    if current_user.is_authenticated:
+        row = UserUnitHomeProgress.query.filter_by(
+            user_id=current_user.id,
+            unit=unit
+        ).first()
+
+        if row is not None:
+            return row.completed_exercises
+
+        elif "progress" in session and unit in session["progress"]:
+            return session["progress"][unit]
+
+        return "–"
+
+    else:
+        if "progress" in session and unit in session["progress"]:
+            return session["progress"][unit]
+
+        else:
+            return 0
 
 
 def compute_answered_questions(session, unit, exercise=None):

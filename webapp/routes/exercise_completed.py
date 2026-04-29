@@ -9,9 +9,9 @@ from data.content.application.text import EXERCISE_TITLE, ALL_QUESTIONS_SUCCESSF
 from data.content.application.buttons import NEXT_EXERCISE, REFRESH, BACK_TO
 from data.data_processing.total_questions import highest_exercise_per_unit
 
-from users.users.models import get_filename_full_bookmark, get_filename_empty_bookmark, get_filename_flag
+from users.users.settings import get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
 from users.progress.score import write_score
-from users.progress.progress import update_progress_in_session, get_next_exercise
+from users.progress.progress import update_progress_in_home_page, get_next_exercise
 from users.progress.register_update import register_result
 from users.progress.feedback_exercise_completed import get_incorrect_answers, get_feedback_exercise
 from users.questions.content_format import format_correction, format_question, format_feedback
@@ -39,8 +39,7 @@ def render_exercise_completed_template(session, unit, exercise, language):
 
     register_result(session, unit, exercise, feedback)
 
-    if current_user.is_authenticated:
-        update_progress_in_session(session, unit)
+    update_progress_in_home_page(session, unit)
 
     next_exercise = get_next_exercise(unit, exercise, highest_exercise_per_unit)
     next_exercise_text = NEXT_EXERCISE[language]

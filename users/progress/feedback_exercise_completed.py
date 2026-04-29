@@ -127,7 +127,6 @@ def format_feedbacks(df, unit, exercise, language):
     Returns:
         list: A list of formatted feedback strings, one for each row in the DataFrame.
     """
-    template = get_template(unit, exercise, language, FEEDBACK)
     result = []
 
     for _, row in df.iterrows():
@@ -137,47 +136,4 @@ def format_feedbacks(df, unit, exercise, language):
         formatted = format_feedback(unit, exercise, language, question_id)
 
         result.append(formatted)
-
-        '''
-        if is_exercise_multiple_choice(unit, exercise) and get_answer_column(unit, exercise, language) == "foreign":
-            correct_answers = row.get(language, "")
-        else:
-            correct_answers = get_list_of_correct_answers(row.get("answer", ""), unit)
-        
-
-        correct_answer = get_correct_answer(unit, exercise, question_id, language)
-        correct_answers = get_list_of_correct_answers(correct_answer, unit)
-
-        formatted = template.format(
-            previous_question=row.get("question", ""),
-            #correct_answer=row.get("answer", ""),
-            correct_answer=correct_answer,
-            correct_answers=correct_answers,
-            first_correct_answer=get_first_correct_answer(row.get("answer", "")),
-            german=row.get("german", ""),
-            english=row.get("english", ""),
-            french=row.get("french", ""),
-            gender_english=row.get("gender_english", ""),
-            gender_french=row.get("gender_french", ""),
-            case_english=row.get("case_english", ""),
-            case_french=row.get("case_french", ""),
-            article_english=row.get("article_english", ""),
-            article_french=row.get("article_french", ""),
-            person=row.get("person", ""),
-            prefix=row.get("prefix", ""),
-            article=row.get("article", ""),
-            adjective=row.get("adjective", ""),
-            preposition=row.get("preposition", ""),
-            explanation_english=row.get("explanation_english", ""),
-            explanation_french=row.get("explanation_french", ""),
-            root_german=row.get("root_german", ""),
-            root_english=row.get("root_english", ""),
-            root_french=row.get("root_french", ""),
-        )
-
-        formatted = formatted.replace("→ ", "→&nbsp;")
-        formatted = formatted.replace("= ", "=&nbsp;")
-        formatted = formatted.replace("+ ", "+&nbsp;")
-        formatted = formatted.replace("\u25CF ", "\u25CF&nbsp;")
-        '''
     return result

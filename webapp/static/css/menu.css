@@ -74,6 +74,7 @@ input:checked + .slider:before {
     display: inline-block;
     hyphens: auto;
     width: 90%;
+    min-width: 120px;
     max-width: 180px;
     text-align: center;
 }

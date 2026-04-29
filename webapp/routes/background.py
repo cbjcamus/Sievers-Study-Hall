@@ -8,6 +8,7 @@ from data.data_processing.units import units
 
 from users.session_management.logging import log_progress_deleted_from_session
 from users.session_management.print_session import session_size
+from users.session_management.print_session import print_complete_session, print_session_size, print_user_info_from_db
 from users.session_management.verification_session import is_key_in_exercise, is_key_in_session
 
 session = cast(dict, session)

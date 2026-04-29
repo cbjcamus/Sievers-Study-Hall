@@ -15,10 +15,11 @@ from data.data_processing.exercises import is_exercise_multiple_choice, does_uni
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 
-from users.users.models import db, is_feedback_enabled, get_filename_full_bookmark, \
-    get_filename_empty_bookmark, get_filename_flag, UserExerciseState, is_instruction_page_enabled
+from users.users.models import db, UserExerciseState
+from users.users.settings import is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark, \
+    get_filename_full_bookmark, get_filename_flag
 
-from users.progress.progress import compute_answered_questions, update_progress_in_session
+from users.progress.progress import compute_answered_questions, update_progress_in_home_page
 from users.progress.register_update import register_progress, register_incorrect_answer
 from users.progress.is_exercise_finished import is_exercise_finished
 
@@ -321,7 +322,7 @@ def reset_exercise(unit, exercise):
             db.session.delete(row)
             db.session.commit()
 
-        update_progress_in_session(session, unit)
+        update_progress_in_home_page(session, unit)
 
     else:
         unit_dict = session.get(unit, {})

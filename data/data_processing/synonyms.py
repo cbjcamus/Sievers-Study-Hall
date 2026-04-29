@@ -25,3 +25,24 @@ def get_list_of_synonyms_for_feedback(correct_answer, unit, df=df_synonyms):
     filtered = df[(df['unit'] == unit) & (df['output'] == correct_answer)]
     synonyms = ', '.join(filtered['input'])
     return synonyms
+
+
+def get_list_of_synonyms(correct_answer, unit, df=df_synonyms):
+    """
+    Retrieves a comma-separated list of synonyms corresponding to a given main answer.
+
+    Loads a CSV file containing synonym mappings, filters rows where the 'unit' matches
+    and the 'output' (main synonym) equals the given answer. Then joins all matching
+    'input' entries (the synonyms) into a single comma-separated string.
+
+    Args:
+        correct_answer (str): The main synonym to find associated variants for.
+        unit (str): The unit used to filter the relevant entries.
+        df (str): Path to the synonyms CSV file (default is SYNONYMS_PATH).
+
+    Returns:
+        str: A comma-separated string of synonyms for the given answer.
+    """
+    filtered = df[(df['unit'] == unit) & (df['output'] == correct_answer)]
+    correct_answers = [correct_answer] + filtered['input'].to_list()
+    return correct_answers

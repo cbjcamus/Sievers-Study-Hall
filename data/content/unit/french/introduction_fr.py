@@ -55,8 +55,11 @@ INTRODUCTION_FR = {
     ,
 
     konnektoren:
-        "Les connecteurs incluent les conjonction de coordination, les conjonctions de subordination, les conjonctions corrélatives et les adverbes qui relient des phrases entre elles."
-        "<br><br>Les conjonctions utilisées avec des adjectifs sont pratiquées dans le module <a href=\"/adjektive_konjunktionen\" target=\"_blank\">Adjektive – Konjunktionen</a>."
+        "Les connecteurs (ou éléments de liaisons) incluent les conjonction de coordination, les conjonctions de subordination, les conjonctions corrélatives et les adverbes qui relient des phrases entre elles."
+        "<br><br>Les conjonctions utilisées avec des adjectifs sont pratiquées dans le module "
+        "<a href=\"/adjektive_konjunktionen\" target=\"_blank\">Adjektive – Konjunktionen</a>, "
+        "tandis que les pronoms relatifs sont pratiqués dans "
+        "<a href=\"/pronomen\" target=\"_blank\">Pronomen</a>."
         "<br><br>⚠️ Les définitions suivantes sont utilisées:"
         "<br> &nbsp; &bull; Conjonction de coordination:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Conjonction de coordination - Sujet - Verbe - COD"
@@ -65,7 +68,7 @@ INTRODUCTION_FR = {
         "<br> &nbsp; &bull; Adverbe:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adverbe - Verbe - Subjet - COD"
         "<br> &nbsp; &bull; Conjonction corrélatives:"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set de deux termes ou plus comme <i>um zu</i>, <i>entweder oder</i> ou <i>sowohl als auch</i>"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set de deux termes ou plus comme <i>um ... zu</i>, <i>entweder ... oder</i> ou <i>sowohl ... als auch</i>"
     ,
     fragen:
         "Mots interrogatifs tels que <i>Wer</i>, <i>Wann</i>, <i>Wo</i>, <i>Wie</i>, <i>Warum</i>, <i>Was</i>."

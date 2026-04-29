@@ -4,7 +4,6 @@ from data.data_processing.data_loading import load_data_exercise
 
 from users.users.models import UserExerciseState
 from users.questions.pick_a_question import pick_a_question
-
 from users.session_management.verification_session import is_key_in_exercise
 
 
