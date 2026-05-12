@@ -15,7 +15,6 @@ QUESTION_UNIT_FR = {
         "{question}"
         "<br><br><i>{french}</i>",
 
-
     praepositionen_artikel:
         "{question} \u25CF {preposition} \u25CF {person}"
         "<br><br><i>{french}</i>",
@@ -25,7 +24,8 @@ QUESTION_UNIT_FR = {
         "<br><br><i>{french}</i>",
 
     wortstellung:
-        "Placeholder",
+        "<i>{french}</i>"
+        "{indication_french}",
 
     komparativ_superlativ:
         "{german}"
@@ -34,7 +34,6 @@ QUESTION_UNIT_FR = {
     adjektive_konjunktionen:
         "{question}"
         "<br><br><i>{french}</i>",
-
 
     nomen_verben_verbindungen:
         "{question}"

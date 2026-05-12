@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, genus_regeln, genus, plural,
+    konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -80,6 +80,9 @@ INTRODUCTION_FR = {
         "Comprend des adverbes qui n'apparaissent pas dans les modules "
         "<a href=\"/konnektoren\" target=\"_blank\">Konnektoren</a> et "
         "<a href=\"/fragen\" target=\"_blank\">Fragen</a>."
+    ,
+    wortstellung:
+        "Ordre des mots dans les phrases Allemandes."
     ,
 
     verben:

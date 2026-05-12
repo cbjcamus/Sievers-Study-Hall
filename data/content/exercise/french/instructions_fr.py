@@ -18,7 +18,7 @@ INSTRUCTION_UNIT_FR = {
         "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
 
     wortstellung:
-        "Placeholder",
+        "Construisez la phrase qui traduit la phrase française suivante en prenant en compte des indications potentielles :",
 
     verben:
         "Traduisez le verbe suivant :",

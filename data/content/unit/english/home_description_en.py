@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, genus_regeln, genus, plural,
+    konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -24,6 +24,7 @@ HOME_DESCRIPTION_EN = {
     konnektoren: "Conjunctions and Causal Adverbs",
     fragen: "Question words" ,
     adverbien: "Adverbs, Adverbs and some more Adverbs",
+    wortstellung: "Word Order in German sentences",
 
     genus_regeln: "Gender of german nouns – guides & thumb rules",
     genus: "Gender of german nouns",

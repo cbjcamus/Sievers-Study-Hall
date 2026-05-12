@@ -18,7 +18,7 @@ INSTRUCTION_UNIT_EN = {
         "Complete the following sentence with the article or pronoun that fits:",
 
     wortstellung:
-        "Placeholder",
+        "Build the sentence that translates the following English sentence, taking into account the potential indications:",
 
     verben:
         "Translate the following verb:",

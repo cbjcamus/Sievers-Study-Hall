@@ -487,7 +487,26 @@ DESCRIPTION_EXERCISE_EN = {
     },
 
     wortstellung: {
-        1: "Placeholder",
+        1: "Simples German sentences",
+        2: "Simples German sentences with adjectives and adverbs",
+        3: "Simples German sentences with temporal and local phrases in first position",
+        4: "Simples German sentences with modal verbs",
+        5: "Simples German sentences with separable (<i>trennbare</i>) verbs",
+        6: "Simples German sentences in the perfect tense",
+        7: "German sentences mixing modal verbs, past tenses and separable (<i>trennbare</i>) verbs",
+        8: "German sentences mixing modal verbs, past tenses and separable (<i>trennbare</i>) verbs",
+        9: "Simple questions in W-Words",
+        10: "Questions in W-Words with modal verbs, separable (<i>trennbare</i>) verbs and in past tenses",
+        11: "Simple Yes-No questions",
+        12: "Yes-No questions with modal verbs, separable (<i>trennbare</i>) verbs and in past tenses",
+        13: "Simples German sentences with coordinating conjunctions <i>und</i>, <i>oder</i>, <i>aber</i> and <i>denn</i>",
+        14: "Simples German sentences with coordinating conjunctions <i>und</i>, <i>oder</i>, <i>aber</i> and <i>denn</i>",
+        15: "Position of <i>Nicht</i>",
+        16: "Position of <i>Nicht</i>",
+        17: "German sentences with comparative conjunctions <i>so</i>, <i>wie</i>, <i>als</i>",
+        18: "Simple German sentences in the Imperative",
+        19: "Sentences with objects and adverbial phrases",
+        20: "Sentences with objects and adverbial phrases",
     },
 
     adjektive: {

@@ -196,6 +196,58 @@ body.day-mode .option-button {
     border: 1px solid black;
 }
 
+.word-order-line {
+    width: 100%;
+    max-width: 350px;
+    height: 1px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+body.day-mode .word-order-line {
+    background-color: black;
+}
+
+
+.word-order-selected,
+.word-order-available {
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 0px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 10px;
+
+    box-sizing: border-box;
+}
+
+.word-order-word {
+    background-color: white;
+    color: #161F23;
+    border: none;
+
+    padding: 7.5px 10px;
+    margin: 0;           /* important: remove old margins */
+
+    font: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body.day-mode .word-order-word {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.word-order-submit-button {
+    margin-top: 0px;
+}
+
 .next-button-container {
     display: flex;
     justify-content: center;

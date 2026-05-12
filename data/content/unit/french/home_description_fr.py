@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, genus_regeln, genus, plural,
+    konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -24,6 +24,7 @@ HOME_DESCRIPTION_FR = {
     konnektoren: "Conjonctions et Adverbes causaux",
     fragen: "Mots Interrogatifs.",
     adverbien: "Adverbes temporels, locaux, et modaux à tous les niveaux",
+    wortstellung: "Ordre des mots dans les phrases Allemandes",
 
     genus_regeln: "Genre des noms communs – Règles et Guides",
     genus: "Genre des noms communs",

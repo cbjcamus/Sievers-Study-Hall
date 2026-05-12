@@ -1,10 +1,12 @@
-from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION
+import random
+import string
 
 from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
     adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
     praepositionen_adjektive, praepositionen_nomen
 from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column
 from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
+from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION
 
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer
 
@@ -57,6 +59,8 @@ def format_question(unit, exercise, language, question_id):
     preposition = question_data.get("preposition", "")
     explanation_english = question_data.get("explanation_english", "")
     explanation_french = question_data.get("explanation_french", "")
+    indication_english = question_data.get("indication_english", "")
+    indication_french = question_data.get("indication_french", "")
     root_german = question_data.get("root_german", "")
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
@@ -81,10 +85,11 @@ def format_question(unit, exercise, language, question_id):
         preposition=preposition,
         explanation_english=explanation_english,
         explanation_french=explanation_french,
+        indication_english=indication_english,
+        indication_french=indication_french,
         root_german=root_german,
         root_english=root_english,
         root_french=root_french,
-        type=type,
     )
 
     formatted_question = formatted_question.replace("\u25CF ", "\u25CF&nbsp;")
@@ -101,6 +106,7 @@ def format_feedback(unit, exercise, language, question_id):
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
     correct_answers = get_list_of_correct_answers(correct_answer, unit)
     first_correct_answer = get_first_correct_answer(correct_answer)
+    correct_answers_bullet_points = get_list_of_correct_answers(correct_answer, unit, bullet_points=True)
     question_text = question_data["question"]
     german = question_data.get("german", "")
     english = question_data.get("english", "")
@@ -118,6 +124,8 @@ def format_feedback(unit, exercise, language, question_id):
     preposition = question_data.get("preposition", "")
     explanation_english = question_data.get("explanation_english", "")
     explanation_french = question_data.get("explanation_french", "")
+    indication_english = question_data.get("indication_english", "")
+    indication_french = question_data.get("indication_french", "")
     root_german = question_data.get("root_german", "")
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
@@ -129,6 +137,7 @@ def format_feedback(unit, exercise, language, question_id):
         correct_answer=correct_answer,
         correct_answers=correct_answers,
         first_correct_answer=first_correct_answer,
+        correct_answers_bullet_points=correct_answers_bullet_points,
         # user_answer=user_answer,
         german=german,
         english=english,
@@ -146,10 +155,11 @@ def format_feedback(unit, exercise, language, question_id):
         preposition=preposition,
         explanation_english=explanation_english,
         explanation_french=explanation_french,
+        indication_english=indication_english,
+        indication_french=indication_french,
         root_german=root_german,
         root_english=root_english,
         root_french=root_french,
-        type=type,
     )
 
     feedback_message = feedback_message.replace("→ ", "→&nbsp;")
@@ -255,3 +265,24 @@ def get_combination_from_question_text(unit, question_text, incorrect_answer):
     combination = correct_question_text.replace("_____", incorrect_answer)
 
     return combination
+
+
+def format_options_word_order(unit, exercise, question_id):
+    question_data = load_data_question(unit, exercise, question_id)
+
+    question_text = question_data["german"]
+
+    # Remove punctuation
+    question_text = question_text.translate(str.maketrans('', '', string.punctuation))
+
+    # Lowercase first letter of first word
+    if question_text:
+        question_text = question_text[0].lower() + question_text[1:]
+
+    # Split into list of words
+    options = question_text.split()
+
+    # Shuffle in place
+    random.shuffle(options)
+
+    return options

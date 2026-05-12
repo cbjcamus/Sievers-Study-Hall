@@ -164,7 +164,7 @@ def replace_german_characters(input_string):
     return output_string
 
 
-def get_list_of_correct_answers(correct_answer, unit):
+def get_list_of_correct_answers(correct_answer, unit, bullet_points=False):
     """
     Returns a comma-separated list of all valid correct answers for a given input.
 
@@ -183,6 +183,10 @@ def get_list_of_correct_answers(correct_answer, unit):
     """
     if "/" in correct_answer:
         answers = correct_answer.split("/")
+
+        if bullet_points:
+            return ''.join(f"<br><br>{answer}" for answer in answers)
+
         return ', '.join(answers)
 
     else:

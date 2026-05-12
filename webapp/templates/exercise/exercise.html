@@ -38,7 +38,7 @@
 
             {% if exercise_is_input %}
                 <input type="text"
-                       id="answer"
+                       id="input-answer"
                        name="answer"
                        class="input-box"
                        placeholder="{{ enter_answer_here }}"
@@ -59,7 +59,7 @@
 
                 <script src="{{ url_for('static', filename='js/exercise/insertSpecialCharacter.js') }}" defer></script>
 
-                <button type="submit" id="submit-button" class="submit-button" >{{ submit }}</button>
+                <button type="submit" id="input-submit-button" class="submit-button" >{{ submit }}</button>
             {% endif %}
 
             {% if exercise_is_multiple_choice %}
@@ -70,10 +70,37 @@
                 <div><button type="submit" name="answer" value="{{ options[4] }}" class="option-button">{{ options[4] }}</button></div>
             {% endif %}
 
+            {% if exercise_is_word_order %}
+                <input type="hidden" id="word-order-answer" name="answer" value="">
+
+                <div class="word-order-line"></div>
+
+                <div id="selected-words" class="word-order-selected"></div>
+
+                <div class="word-order-line"></div>
+
+                <div id="available-words" class="word-order-available">
+                    {% for word in word_order_words %}
+                        <button type="button"
+                                class="word-order-word"
+                                data-word="{{ word }}"
+                                data-index="{{ loop.index0 }}">
+                            {{ word }}
+                        </button>
+                    {% endfor %}
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+                <script src="{{ url_for('static', filename='js/exercise/wordOrder.js') }}" defer></script>
+
+                <button type="submit" id="word-order-submit-button" class="submit-button word-order-submit-button">
+                {{ submit }}
+                </button>
+            {% endif %}
+
         </form>
 
         {% if gender %}
-
             <script src="{{ url_for('static', filename='js/exercise/toggleGenderHelp.js') }}" defer></script>
 
             <div class="gender-help-container">

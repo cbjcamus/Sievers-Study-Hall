@@ -8,7 +8,6 @@ from data.data_processing.units import (
     konjunktiv_I, partizip_I, )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
-
 GUIDANCE_UNIT_EN = {
     praepositionen_artikel:
         "For each question, you will be provided an incomplete German sentence, its English translation, "
@@ -49,7 +48,28 @@ GUIDANCE_UNIT_EN = {
     ,
 
     wortstellung:
-        "Placeholder"
+        "For each question, you will be provided an English sentence and a series of German words."
+        "<br><br>Construct the German sentence that translate the English sentence and is grammatically correct."
+
+        f"<br><br> {ICON_WARN} There may be more than one possible answer."
+        f"<br><br> {ICON_WARN} The first word or group forming the German sentence may be indicated."
+        f"<br><br> {ICON_WARN} If there is no indication, the first word should be the subject."
+
+        "<h2>Examples</h2>"
+        "<i>I take my gloves</i>"
+        "<br><br>nehme Handschuhe ich meine"
+        f"<br><br> &nbsp; {ICON_CHECK} ich nehme meine Handschuhe"
+
+        "<br><br><br><i>In the evening I watch a film.</i>"
+        "<br><br>In first position: temporal phrase"
+        "<br><br>sehe am Film ich Abend einen"
+        f"<br><br> &nbsp; {ICON_CHECK} Am Abend sehe ich einen Film."
+        f"<br><br> &nbsp; {ICON_CROSS} Ich sehe am Abend einen Film. (doesn't respect the first position indication)"
+
+        "<br><br><br><i>He must work today.</i>"
+        "<br><br>arbeiten er heute muss"
+        f"<br><br> &nbsp; {ICON_CHECK} Er muss heute arbeiten."
+        f"<br><br> &nbsp; {ICON_CROSS} Heute muss er arbeiten. (in the absence of any indication, the first word must be the subject)"
     ,
 
     genus_regeln:
@@ -240,6 +260,7 @@ GUIDANCE_UNIT_EN = {
         f"<br><br> &nbsp; {ICON_CROSS} freuend"
     ,
 }
+
 
 guidance_praepositionen_isolation = (
     "For each question, you will be provided the English translation of a German preposition."

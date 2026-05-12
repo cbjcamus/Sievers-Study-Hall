@@ -24,7 +24,8 @@ QUESTION_UNIT_EN = {
         "<br><br><i>{english}</i>",
 
     wortstellung:
-        "Placeholder",
+        "<i>{english}</i>"
+        "{indication_english}",
 
     komparativ_superlativ:
         "{german}"

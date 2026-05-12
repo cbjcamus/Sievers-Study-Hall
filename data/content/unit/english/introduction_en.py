@@ -90,7 +90,7 @@ INTRODUCTION_EN = {
         "<a href=\"/fragen\" target=\"_blank\">Fragen</a>."
     ,
     wortstellung:
-        ""
+        "Word Order in German sentences."
     ,
 
     genus_regeln:

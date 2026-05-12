@@ -499,7 +499,26 @@ DESCRIPTION_EXERCISE_FR = {
     },
 
     wortstellung: {
-        1: "Placeholder",
+        1: "Phrases simples en Allemand",
+        2: "Phrases simples en Allemand avec des adjectifs et des adverbes",
+        3: "Phrases simples en Allemand avec des expressions temporelles et locales en première position",
+        4: "Phrases simples en Allemand avec des verbes modaux",
+        5: "Phrases simples en Allemand avec des verbes séparables (<i>trennbare</i>)",
+        6: "Phrases simples en Allemand au Passé Composé",
+        7: "Combinaisons de verbes modaux, de verbes séparables (<i>trennbare</i>) et au Passé Composé",
+        8: "Combinaisons de verbes modaux, de verbes séparables (<i>trennbare</i>) et au Passé Composé",
+        9: "Questions ouvertes avec des mots et W-",
+        10: "Questions ouvertes avec des mots et W-, des verbes modaux, des verbes séparables et au Passé Composé",
+        11: "Questions fermées (Oui/Non)",
+        12: "Questions fermées (Oui/Non) avec des verbes modaux, des verbes séparables et au Passé Composé",
+        13: "Phrases en Allemand avec les conjonctions de coordinations <i>und</i>, <i>oder</i>, <i>aber</i> et <i>denn</i>",
+        14: "Phrases en Allemand avec les conjonctions de coordinations <i>und</i>, <i>oder</i>, <i>aber</i> et <i>denn</i>",
+        15: "Position de <i>Nicht</i>",
+        16: "Position de <i>Nicht</i>",
+        17: "Phrases en Allemand avec les conjonctions comparative <i>so</i>, <i>wie</i>, <i>als</i>",
+        18: "Phrases en Allemand à l'Impératif",
+        19: "Phrases en Allemand avec des combinaisons d'objects et d\'expressions adverbiales",
+        20: "Phrases en Allemand avec des combinaisons d'objects et d\'expressions adverbiales",
     },
 
     adjektive: {

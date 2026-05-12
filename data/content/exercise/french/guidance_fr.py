@@ -10,10 +10,6 @@ from data.data_processing.units import (
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
 GUIDANCE_UNIT_FR = {
-    wortstellung:
-        "Placeholder"
-    ,
-
     praepositionen_artikel:
         "Pour chaque question, une phrase allemande incomplète, sa traduction anglaise, "
         "une préposition et un article ou un pronom vous seront présentées."
@@ -52,6 +48,31 @@ GUIDANCE_UNIT_FR = {
         f"<br><br> &nbsp; {ICON_CROSS} ein"
         f"<br><br> &nbsp; {ICON_CROSS} eine"
         f"<br><br> &nbsp; {ICON_CROSS} den"
+    ,
+
+    wortstellung:
+        "Pour chaque question, une phrase en anglais et une série de mots en allemand vous seront proposées."
+        "<br><br>Construisez la phrase en allemand qui traduit la phrase en anglais et qui est grammaticalement correcte."
+
+        f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+        f"<br><br> {ICON_WARN} Le premier mot ou groupe formant la phrase en allemand peut être indiqué."
+        f"<br><br> {ICON_WARN} En l'absence d'indication, le premier mot doit être le sujet."
+
+        "<h2>Exemples</h2>"
+        "<i>Je prends mes gants</i>"
+        "<br><br>nehme Handschuhe ich meine"
+        f"<br><br> &nbsp; {ICON_CHECK} ich nehme meine Handschuhe"
+
+        "<br><br><br><i>Le soir je regarde un film.</i>"
+        "<br><br>En première position : expression temporelle"
+        "<br><br>sehe am Film ich Abend einen"
+        f"<br><br> &nbsp; {ICON_CHECK} Am Abend sehe ich einen Film."
+        f"<br><br> &nbsp; {ICON_CROSS} Ich sehe am Abend einen Film. (ne respecte pas l'indication du mot en première position)"
+
+        "<br><br><br><i>Il doit travailler aujourd’hui.</i>"
+        "<br><br>arbeiten er heute muss"
+        f"<br><br> &nbsp; {ICON_CHECK} Er muss heute arbeiten."
+        f"<br><br> &nbsp; {ICON_CROSS} Heute muss er arbeiten. (à défaut d'indication contraire, le premier mot doit être le sujet)"
     ,
 
     genus_regeln:

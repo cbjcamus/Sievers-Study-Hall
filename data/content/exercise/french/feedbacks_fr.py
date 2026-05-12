@@ -28,7 +28,14 @@ FEEDBACK_UNIT_FR = {
         "{german}"
         "<br><br><i>{french}</i>"
         "<br><br>{explanation_french}"
-        "<br><br>Correct answer(s): {correct_answers}",
+        "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+
+    wortstellung:
+        "<i>{french}</i>"
+        "{indication_french}"
+        "<br><br>{german}"
+        "<br><br>{french}"
+        "<br><br>Réponse(s) correcte(s) : {correct_answers_bullet_points}",
 
     adjektive:
         "{french} = {correct_answers}"
@@ -1049,10 +1056,6 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br>{french}"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-    },
-
-    wortstellung: {
-        1: "Placeholder",
     },
 
     adjektivdeklinationen: {

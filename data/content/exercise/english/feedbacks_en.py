@@ -31,7 +31,11 @@ FEEDBACK_UNIT_EN = {
         "<br><br>Correct answer(s): {correct_answers}",
 
     wortstellung:
-        "Placeholder",
+        "<i>{english}</i>"
+        "{indication_english}"
+        "<br><br>{german}"
+        "<br><br>{explanation_english}"
+        "<br><br>Correct answer(s): {correct_answers_bullet_points}",
 
     adjektive:
         "{english} = {correct_answers}"

@@ -1,7 +1,7 @@
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, konnektoren, praepositionen_artikel, verben_artikel,
-    fragen, adverbien, genus_regeln, genus, plural,
+    artikel, pronomen, praepositionen_artikel, verben_artikel,
+    fragen, konnektoren, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
@@ -47,6 +47,9 @@ META_DESCRIPTION_FR = {
     ,
     adverbien:
         'Pratiquez les adverbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+    wortstellung:
+        'Pratiquez l\'ordre des mots dans les phrases allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     genus_regeln:
