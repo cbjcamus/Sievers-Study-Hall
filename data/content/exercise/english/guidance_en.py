@@ -49,8 +49,10 @@ GUIDANCE_UNIT_EN = {
 
     wortstellung:
         "For each question, you will be provided an English sentence and a series of German words."
-        "<br><br>Construct the German sentence that translate the English sentence and is grammatically correct."
+        "<br><br>Construct the German sentence that translate the English sentence, is grammatically correct,"
+        " and complies with the potential indications."
 
+        f"<br><br> {ICON_WARN} Every word has to be used."
         f"<br><br> {ICON_WARN} There may be more than one possible answer."
         f"<br><br> {ICON_WARN} The first word or group forming the German sentence may be indicated."
         f"<br><br> {ICON_WARN} If there is no indication, the first word should be the subject."

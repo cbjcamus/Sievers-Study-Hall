@@ -51,9 +51,11 @@ GUIDANCE_UNIT_FR = {
     ,
 
     wortstellung:
-        "Pour chaque question, une phrase en anglais et une série de mots en allemand vous seront proposées."
-        "<br><br>Construisez la phrase en allemand qui traduit la phrase en anglais et qui est grammaticalement correcte."
+        "Pour chaque question, une phrase en français et une série de mots en allemand vous seront proposées."
+        "<br><br>Construisez la phrase en allemand qui traduit la phrase en français, qui est grammaticalement correcte,"
+        " et qui respecte les potentielles indications."
 
+        f"<br><br> {ICON_WARN} Tous les mots proposés doivent être utilisés."
         f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
         f"<br><br> {ICON_WARN} Le premier mot ou groupe formant la phrase en allemand peut être indiqué."
         f"<br><br> {ICON_WARN} En l'absence d'indication, le premier mot doit être le sujet."
