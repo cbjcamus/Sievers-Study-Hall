@@ -273,8 +273,9 @@ def format_options_word_order(unit, exercise, question_id):
     question_text = question_data["german"]
 
     # Remove punctuation
-    question_text = question_text.translate(str.maketrans('', '', string.punctuation))
-
+    question_text = question_text.translate(
+        str.maketrans('', '', string.punctuation.replace('-', ''))
+    )
     # Lowercase first letter of first word
     if question_text:
         question_text = question_text[0].lower() + question_text[1:]

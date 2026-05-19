@@ -164,7 +164,7 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        11: "{french} = {correct_answers}",
+        11: "{explanation_french}",
         12: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -178,7 +178,7 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{french} = {correct_answers}",
+        15: "{explanation_french}",
         16: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -200,22 +200,22 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        21: "{french} = {correct_answers}",
+        21: "{explanation_french}",
         22: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        23: "{french} = {correct_answers}",
+        23: "{explanation_french}",
         24: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        25: "{french} = {correct_answers}",
+        25: "{explanation_french}",
         26: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        27: "{french} = {correct_answers}",
+        27: "{explanation_french}",
         28: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -785,10 +785,16 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        29: "{french} = {correct_answers}",
-        30: "{french} = {correct_answers}",
+        29: "{french} \u25CF {case_french} → {first_correct_answer}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        30: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         31: "{french} = {correct_answers}",
         32: "{french} = {correct_answers}",
+        33: "{french} = {correct_answers}",
+        34: "{french} = {correct_answers}",
     },
 
     fragen: {

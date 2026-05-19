@@ -525,13 +525,16 @@ QUESTION_EXERCISE_EN = {
         27: "{english} \u25CF {case_english}",
         28: "{question}"
             "<br><br><i>{english}</i>",
-        29: "{question}"
-            "<br><br><i>\"{german}\"</i>",
+        29: "{english} \u25CF {case_english}",
         30: "{question}"
-            "<br><br><i>\"{german}\"</i>",
+            "<br><br><i>{english}</i>",
         31: "{question}"
             "<br><br><i>\"{german}\"</i>",
         32: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        33: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        34: "{question}"
             "<br><br><i>\"{german}\"</i>",
     },
 

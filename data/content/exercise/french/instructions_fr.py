@@ -354,10 +354,12 @@ INSTRUCTION_EXERCISE_FR = {
         26: "Complétez la phrase suivante avec le connecteur qui convient :",
         27: "Traduisez le connecteur suivant :",
         28: "Complétez la phrase suivante avec le connecteur qui convient :",
-        29: "Trouvez un synonyme pour le connecteur suivant :",
-        30: "Trouvez un synonyme pour le connecteur suivant :",
+        29: "Traduisez le connecteur suivant :",
+        30: "Complétez la phrase suivante avec le connecteur qui convient :",
         31: "Trouvez un synonyme pour le connecteur suivant :",
         32: "Trouvez un synonyme pour le connecteur suivant :",
+        33: "Trouvez un synonyme pour le connecteur suivant :",
+        34: "Trouvez un synonyme pour le connecteur suivant :",
     },
 
     fragen: {

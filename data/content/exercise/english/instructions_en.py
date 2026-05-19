@@ -353,10 +353,12 @@ INSTRUCTION_EXERCISE_EN = {
         26: "Complete the following sentence with the connector that fits:",
         27: "Translate the following connector:",
         28: "Complete the following sentence with the connector that fits:",
-        29: "Find a synonym for the following connector:",
-        30: "Find a synonym for the following connector:",
+        29: "Translate the following connector:",
+        30: "Complete the following sentence with the connector that fits:",
         31: "Find a synonym for the following connector:",
         32: "Find a synonym for the following connector:",
+        33: "Find a synonym for the following connector:",
+        34: "Find a synonym for the following connector:",
     },
 
     fragen: {

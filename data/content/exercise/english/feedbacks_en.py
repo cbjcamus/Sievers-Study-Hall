@@ -164,7 +164,7 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        11: "{english} = {correct_answers}",
+        11: "{explanation_english}",
         12: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
@@ -178,7 +178,7 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        15: "{english} = {correct_answers}",
+        15: "{explanation_english}",
         16: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
@@ -200,22 +200,22 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        21: "{english} = {correct_answers}",
+        21: "{explanation_english}",
         22: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        23: "{english} = {correct_answers}",
+        23: "{explanation_english}",
         24: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        25: "{english} = {correct_answers}",
+        25: "{explanation_english}",
         26: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        27: "{english} = {correct_answers}",
+        27: "{explanation_english}",
         28: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
@@ -786,10 +786,16 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        29: "{english} = {correct_answers}",
-        30: "{english} = {correct_answers}",
+        29: "{english} \u25CF {case_english} → {first_correct_answer}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        30: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
         31: "{english} = {correct_answers}",
         32: "{english} = {correct_answers}",
+        33: "{english} = {correct_answers}",
+        34: "{english} = {correct_answers}",
     },
 
     fragen: {

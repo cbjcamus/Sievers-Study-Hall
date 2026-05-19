@@ -9,9 +9,22 @@
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update May 12th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/descriptions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/descriptions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/content/exercise/english/guidance_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/guidance_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/instructions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/instructions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/questions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/questions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/descriptions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/descriptions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/content/exercise/french/guidance_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/guidance_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/instructions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/instructions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/questions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/questions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/exercises.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/exercises.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/konnektoren.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/wortstellung.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/wortstellung.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/questions/content_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/content_format.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,22 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00157" summary="update praepositionen grammatik">
-      <option name="closed" value="true" />
-      <created>1767451457071</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1767451457072</updated>
-    </task>
-    <task id="LOCAL-00158" summary="small update">
-      <option name="closed" value="true" />
-      <created>1767603215407</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1767603215407</updated>
     </task>
     <task id="LOCAL-00159" summary="home page">
       <option name="closed" value="true" />
@@ -563,7 +560,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778593464143</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="update May 12th">
+      <option name="closed" value="true" />
+      <created>1778652519495</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1778652519496</updated>
+    </task>
+    <task id="LOCAL-00207" summary="update May 12th">
+      <option name="closed" value="true" />
+      <created>1778654127376</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1778654127376</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

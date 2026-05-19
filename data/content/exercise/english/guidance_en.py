@@ -1590,10 +1590,12 @@ GUIDANCE_EXERCISE_EN = {
         26: guidance_konnektoren_sentences,
         27: guidance_konnektoren_isolation,
         28: guidance_konnektoren_sentences,
-        29: guidance_konnektoren_synonyms,
-        30: guidance_konnektoren_synonyms,
+        29: guidance_konnektoren_isolation,
+        30: guidance_konnektoren_sentences,
         31: guidance_konnektoren_synonyms,
         32: guidance_konnektoren_synonyms,
+        33: guidance_konnektoren_synonyms,
+        34: guidance_konnektoren_synonyms,
     },
 
     fragen: {
