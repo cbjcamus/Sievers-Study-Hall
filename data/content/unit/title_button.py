@@ -10,7 +10,7 @@ from data.data_processing.units import (
     zahlen,
 )
 
-BACK_BUTTON = {
+TITLE_BUTTON = {
     praepositionen: "Präpositionen",
     praepositionen_verben: "Präpositionen – Verben",
     praepositionen_adjektive: "Präpositionen – Adjektive",

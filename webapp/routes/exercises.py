@@ -4,7 +4,7 @@ from typing import cast
 
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
-from data.content.unit.back_button import BACK_BUTTON
+from data.content.unit.title_button import TITLE_BUTTON
 from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
 from data.content.application.popup import get_popup_title, get_popup_text
 from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT
@@ -89,7 +89,7 @@ def guidance(unit, exercise):
                                consult_faq=CONSULT_FAQ[language],
                                unit_page=UNIT_PAGE,
                                title_page=TITLE_PAGE,
-                               back_page=BACK_BUTTON,
+                               back_page=TITLE_BUTTON,
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
                                total_questions=total_question_exercises[unit][exercise],
                                next=NEXT[language],
@@ -172,7 +172,7 @@ def exercise_page(unit, exercise):
                            user_answer=user_answer,
                            unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
-                           back_page=BACK_BUTTON,
+                           back_page=TITLE_BUTTON,
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
                            total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,
@@ -298,7 +298,7 @@ def feedback_page(unit, exercise):
                            user_answer=user_answer,
                            unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
-                           back_page=BACK_BUTTON,
+                           back_page=TITLE_BUTTON,
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
                            total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,

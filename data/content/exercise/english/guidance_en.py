@@ -55,7 +55,9 @@ GUIDANCE_UNIT_EN = {
         f"<br><br> {ICON_WARN} Every word has to be used."
         f"<br><br> {ICON_WARN} There may be more than one possible answer."
         f"<br><br> {ICON_WARN} The first word or group forming the German sentence may be indicated."
-        f"<br><br> {ICON_WARN} If there is no indication, the first word should be the subject."
+        f"<br><br> {ICON_WARN} If there is no indication, the first word must be the subject."
+
+        f"<br><br>➡️ You can find a guide to German Word Order <a href=\"https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft\" target=\"_blank\">here</a>."
 
         "<h2>Examples</h2>"
         "<i>I take my gloves</i>"

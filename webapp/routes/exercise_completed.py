@@ -3,7 +3,7 @@ from flask_login import current_user
 
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
-from data.content.unit.back_button import BACK_BUTTON
+from data.content.unit.title_button import TITLE_BUTTON
 from data.content.application.text import EXERCISE_TITLE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, \
     YOUR_SCORE_FOR_THIS_EXERCISE, FEEDBACK_LAST_QUESTION, YOUR_INCORRECT_ANSWERS, YOUR_ANSWER, NOT_AUTHENTICATED
 from data.content.application.buttons import NEXT_EXERCISE, REFRESH, BACK_TO
@@ -53,7 +53,7 @@ def render_exercise_completed_template(session, unit, exercise, language):
                            score=write_score,
                            unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
-                           back_page=BACK_BUTTON,
+                           back_page=TITLE_BUTTON,
                            is_feedback_box=True,
                            result=result,
                            feedback_message=feedback_message,

@@ -6,6 +6,7 @@ from typing import cast
 from data.content.unit.stars import STARS
 from data.content.unit.unit_page import UNIT_PAGE
 from data.content.unit.title_page import TITLE_PAGE
+from data.content.unit.title_button import TITLE_BUTTON
 from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
 from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
 from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
@@ -55,6 +56,7 @@ def home():
 
     return render_template('home.html',
                            title_page=TITLE_PAGE,
+                           title_button=TITLE_BUTTON,
                            unit_page=UNIT_PAGE,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,

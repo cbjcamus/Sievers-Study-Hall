@@ -25,7 +25,7 @@ TITLE_PAGE = {
     konnektoren: "Konnektoren",
     fragen: "Fragen",
     adverbien: "Adverbien",
-    wortstellung: "Wortstellung",
+    wortstellung: "Wortstellung – Beta",
 
     genus_regeln: "Genus – Regeln",
     genus: "Genus",

@@ -82,7 +82,7 @@ INTRODUCTION_FR = {
         "<a href=\"/fragen\" target=\"_blank\">Fragen</a>."
     ,
     wortstellung:
-        "Ordre des mots dans les phrases Allemandes."
+        "Ordre des mots dans les phrases Allemandes. Actuellement en Beta-testing."
     ,
 
     verben:

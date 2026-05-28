@@ -90,7 +90,8 @@ INTRODUCTION_EN = {
         "<a href=\"/fragen\" target=\"_blank\">Fragen</a>."
     ,
     wortstellung:
-        "Word Order in German sentences."
+        "Word Order in German sentences. Currently in Beta-testing."
+        "<br><br>You can already check my guide for German Word Order <a href=\"https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft\" target=\"_blank\">here</a> (currently a draft)."
     ,
 
     genus_regeln:
