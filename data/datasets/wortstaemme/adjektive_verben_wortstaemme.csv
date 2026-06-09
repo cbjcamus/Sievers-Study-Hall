@@ -203,7 +203,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 202,13,C1,B2,C1,verwirklichen,wirklich,,"real, genuine","to realize, to actualize, to fulfill, to implement",réel,"réaliser, concrétiser, accomplir, mettre en œuvre",wirklich,"real, genuine",réel,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre"
 203,13,C1,C1,B1,töten,tödlich,,deadly,"to kill, to slay",mortel,"tuer, égorger",tödlich,deadly,mortel,töten,"to kill, to slay","tuer, égorger"
 204,13,C1,C1,C1,werten,wert,,"worth, worthy, dear","to assess, to consider, to value","valable, cher",évaluer,wert,"worth, worthy, dear","valable, cher",werten,"to assess, to consider, to value",évaluer
-205,13,C1,C1,A1,bestimmen,bestimmt,,"certain, determined",to determine,"déterminé, destiné",déterminer,bestimmt,"certain, determined","déterminé, destiné",bestimmen,to determine,déterminer
+205,13,C1,C1,A1,bestimmen,bestimmt,,"certain, determined","to determine, to assign, to decide, to ascertain","déterminé, destiné","déterminer, fixer, décider, identifier, assigner",bestimmt,"certain, determined","déterminé, destiné",bestimmen,"to determine, to assign, to decide, to ascertain","déterminer, fixer, décider, identifier, assigner"
 206,13,C1,C1,C1,begeistern,geistig,,"mental, spiritual","to enthuse, to be enthusiastic (refl.)","mental, intellectuel","enthousiasmer, être enthousiaste (réfl.)",geistig,"mental, spiritual","mental, intellectuel",begeistern,"to enthuse, to be enthusiastic (refl.)","enthousiasmer, être enthousiaste (réfl.)"
 207,13,C1,C1,A2,nennen,sogenannt,,so-called,"to name, to call someone something, to mention",soi-disant,"nommer, appeler quelqu'un par quelque chose, mentionner",sogenannt,so-called,soi-disant,nennen,"to name, to call someone something, to mention","nommer, appeler quelqu'un par quelque chose, mentionner"
 208,13,C1,C1,A2,teilen,teilweise,,partial,"to split, to share, to divide",partiel,"diviser, partager",teilweise,partial,partiel,teilen,"to split, to share, to divide","diviser, partager"
@@ -223,7 +223,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 222,14,C1,B2,C1,wirklich,verwirklichen,,"to realize, to actualize, to fulfill, to implement","real, genuine","réaliser, concrétiser, accomplir, mettre en œuvre",réel,wirklich,"real, genuine",réel,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre"
 223,14,C1,C1,B1,tödlich,töten,,"to kill, to slay",deadly,"tuer, égorger",mortel,tödlich,deadly,mortel,töten,"to kill, to slay","tuer, égorger"
 224,14,C1,C1,C1,wert,werten,,"to assess, to consider, to value","worth, worthy, dear",évaluer,"valable, cher",wert,"worth, worthy, dear","valable, cher",werten,"to assess, to consider, to value",évaluer
-225,14,C1,C1,A1,bestimmt,bestimmen,,to determine,"certain, determined",déterminer,"déterminé, destiné",bestimmt,"certain, determined","déterminé, destiné",bestimmen,to determine,déterminer
+225,14,C1,C1,A1,bestimmt,bestimmen,,"to determine, to assign, to decide, to ascertain","certain, determined","déterminer, fixer, décider, identifier, assigner","déterminé, destiné",bestimmt,"certain, determined","déterminé, destiné",bestimmen,"to determine, to assign, to decide, to ascertain","déterminer, fixer, décider, identifier, assigner"
 226,14,C1,C1,C1,geistig,begeistern,,"to enthuse, to be enthusiastic (refl.)","mental, spiritual","enthousiasmer, être enthousiaste (réfl.)","mental, intellectuel",geistig,"mental, spiritual","mental, intellectuel",begeistern,"to enthuse, to be enthusiastic (refl.)","enthousiasmer, être enthousiaste (réfl.)"
 227,14,C1,C1,A2,sogenannt,nennen,,"to name, to call someone something, to mention",so-called,"nommer, appeler quelqu'un par quelque chose, mentionner",soi-disant,sogenannt,so-called,soi-disant,nennen,"to name, to call someone something, to mention","nommer, appeler quelqu'un par quelque chose, mentionner"
 228,14,C1,C1,A2,teilweise,teilen,,"to split, to share, to divide",partial,"diviser, partager",partiel,teilweise,partial,partiel,teilen,"to split, to share, to divide","diviser, partager"
@@ -438,7 +438,7 @@ Nr,exercise,level,level_adjektive,level_verb,question,answer,german,english,root
 437,151,D1,C1,D1,,,,,,,,spannend,exciting,passionnant,spannen,,
 438,151,D1,C1,D1,,,,,,,,reibungslos,Smoothly,Doucement,reiben,,
 439,151,D1,C1,D1,,,,,,,,ansteckend,contagious,contagieux,anstecken,,
-440,151,D1,C1,D1,,,,,,,,hemmungslos,uninhibited,sans inhibition,hemmen,,
+440,151,D1,C1,D1,,,,,,,,hemmungslos,unrestrained,effréné,hemmen,,
 441,151,D1,C1,D1,,,,,,,,nachlässig,negligent,négligent,vernachlässigen,,
 442,171,D2,A1,D2,,,,,,,,jung,young,jeune,verjüngen,,
 443,171,D2,A1,D2,,,,,,,,falsch,"false, wrong",faux,fälschen,,

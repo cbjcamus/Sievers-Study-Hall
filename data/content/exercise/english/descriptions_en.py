@@ -542,6 +542,21 @@ DESCRIPTION_EXERCISE_EN = {
         49: "TeKaMoLo",
         50: "Adverbs intensifying adjectives",
 
+        51: "Subordinating conjunctions and Causal adverbs at B2 level",
+        52: "Subordinating conjunctions and Causal adverbs at B2 level",
+        53: "Subordinating conjunctions and Causal adverbs at B2 level",
+        54: "Subordinating conjunctions and Causal adverbs at B2 level",
+        55: "Subordinating conjunctions and Causal adverbs at B2 level",
+        56: "Subordinating conjunctions and Causal adverbs at B2 level",
+        57: "<i>zu</i> + Infinitive with modal verbs",
+        58: "<i>zu</i> + Infinitive with in the Perfect and Passive voice",
+        59: "Accusative and Dative objects as full nouns and pronouns",
+        60: "Accusative and Dative objects as full nouns and pronouns",
+        61: "Questions in <i>Wo-</i>",
+        62: "Reflexive Pronouns for subjects as nouns or pronouns",
+        63: "Relative clauses with <i>wo</i>, <i>woher</i> and <i>wohin</i>",
+        64: "Relative clauses with <i>wo</i>, <i>woher</i> and <i>wohin</i>",
+
     },
 
     adjektive: {

@@ -34,7 +34,8 @@ FEEDBACK_UNIT_EN = {
         "{german}"
         "<br><br><i>{english}</i>"
         "{indication_english}"
-        "<br><br>{explanation_english}",
+        "<br><br>{explanation_english}"
+        "<br><br>Correct answer(s): {correct_answers_bullet_points}",
 
     adjektive:
         "{english} = {correct_answers}"

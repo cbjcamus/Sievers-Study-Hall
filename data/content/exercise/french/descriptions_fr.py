@@ -553,6 +553,21 @@ DESCRIPTION_EXERCISE_FR = {
         48: "Constructions d'adjectifs avec une clause supplémentaire (<i>so ... wie</i>, <i>als</i>, <i>je ... umso</i>)",
         49: "TeKaMoLo",
         50: "Adverbes accentuant les Adjectifs",
+
+        51: "Conjonctions de Subordination et Adverbes Causaux de niveau B2",
+        52: "Conjonctions de Subordination et Adverbes Causaux de niveau B2",
+        53: "Conjonctions de Subordination et Adverbes Causaux de niveau B2",
+        54: "Conjonctions de Subordination et Adverbes Causaux de niveau B2",
+        55: "Conjonctions de Subordination et Adverbes Causaux de niveau B2",
+        56: "Conjonctions de Subordination et Adverbes Causaux de niveau B2",
+        57: "<i>zu</i> + Infinitif avec des verbes modaux",
+        58: "<i>zu</i> + Infinitif au passé composé et au passif",
+        59: "Objets Accusatifs et Datifs en tant que noms et pronoms",
+        60: "Objets Accusatifs et Datifs en tant que noms et pronoms",
+        61: "Questions en <i>Wo-</i>",
+        62: "Pronoms Réfléchis avec des sujets en tant que noms et pronoms",
+        63: "Propositions relatives avec <i>wo</i>, <i>woher</i> et <i>wohin</i>",
+        64: "Propositions relatives avec <i>wo</i>, <i>woher</i> et <i>wohin</i>",
     },
 
     adjektive: {

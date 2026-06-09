@@ -3,7 +3,7 @@ Nr,exercise,question,answer,german,english,french
 2,1,werden,"wurde, geworden",,"to become, will, to be done (passive voice)",devenir
 3,1,wissen,"wusste, gewusst",,"to know, to have knowledge",savoir
 4,1,tun,"tat, getan",,"to do, to do something to someone","faire, faire quelque chose à quelqu'un"
-5,1,gehen,"ging, gegangen",,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)"
+5,1,gehen,"ging, gegangen",,"to go, to leave, to work, to function (coll.), to be going (Dat.), to be all right (Dat.)","aller, partir, fonctionner (familier)"
 6,1,sehen,"sah, gesehen",,"to see, to realise","voir, se rendre compte"
 7,1,geben,"gab, gegeben",,to give,donner
 8,1,kommen,"kam, gekommen",,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire"
@@ -25,7 +25,7 @@ Nr,exercise,question,answer,german,english,french
 24,2,anziehen,"zog an, angezogen",,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre, habiller quelqu'un, attirer, tirer"
 25,2,ausziehen,"zog aus, ausgezogen",,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, se retirer, sortir"
 26,2,fahren,"fuhr, gefahren",,"to go (by vehicle), to leave, to drive","aller (en véhicule), partir, conduire"
-27,2,treffen,"traf, getroffen",,"to meet, to encounter","rencontrer, se rencontrer"
+27,2,treffen,"traf, getroffen",,"to meet (refl.), to encounter (refl.), to hit, to affect","rencontrer (refl.), se rencontrer (refl.), heurter, frapper"
 28,2,trinken,"trank, getrunken",,to drink,boire
 29,2,schlafen,"schlief, geschlafen",,to sleep,dormir
 30,2,laufen,"lief, gelaufen",,"to walk, to flow (of a fluid), to run (of an event)","marcher, couler (un fluide), se dérouler (un événement)"
@@ -42,7 +42,7 @@ Nr,exercise,question,answer,german,english,french
 41,2,scheinen,"schien, geschienen",,"to shine, to seem (formal)","briller, paraître (formel)"
 42,2,sitzen,"sass, gesessen",,"to be seated, to stay, to fit (of clothing)","être assis, rester"
 43,2,aufstehen,"stand auf, aufgestanden",,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)"
-44,2,wehtun,"tat weh, wehgetan",,"to hurt, to be painful","blesser, être douloureux"
+44,2,wehtun,"tat weh/tat sich weh, wehgetan/sich wehgetan",,"to hurt, to be painful","blesser, être douloureux"
 45,3,sein,"war, gewesen",,to be,être
 46,3,haben,"hatte, gehabt",,"to have, to contain","avoir, contenir"
 47,3,werden,"wurde, geworden",,"to become, will, to be done (passive voice)",devenir
@@ -53,10 +53,10 @@ Nr,exercise,question,answer,german,english,french
 52,3,mögen,"mochte, gemocht",,to like,"aimer, apprécier"
 53,3,dürfen,"durfte, gedurft",,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut"
 54,3,wissen,"wusste, gewusst",,"to know, to have knowledge",savoir
-55,3,machen,"machte, gemacht",,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)"
+55,3,machen,"machte, gemacht",,"to make, to prepare, to do","faire, préparer"
 56,3,tun,"tat, getan",,"to do, to do something to someone","faire, faire quelque chose à quelqu'un"
 57,3,sagen,"sagte, gesagt",,"to say, to tell","dire, raconter"
-58,3,gehen,"ging, gegangen",,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)"
+58,3,gehen,"ging, gegangen",,"to go, to leave, to work, to function (coll.), to be going (Dat.), to be all right (Dat.)","aller, partir, fonctionner (familier)"
 59,3,sehen,"sah, gesehen",,"to see, to realise","voir, se rendre compte"
 60,3,geben,"gab, gegeben",,to give,donner
 61,3,kommen,"kam, gekommen",,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire"
@@ -107,7 +107,7 @@ Nr,exercise,question,answer,german,english,french
 106,6,wohnen,"wohnte, gewohnt",,"to live, to reside, to dwell","vivre, résider, habiter"
 107,6,schreiben,"schrieb, geschrieben",,to write,écrire
 108,6,tragen,"trug, getragen",,"to wear (clothing), to carry, to hold","porter (des vêtements), transporter, tenir"
-109,6,interessieren,"interessierte, interessiert",,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)"
+109,6,interessieren,"interessierte/interessierte sich, interessiert/sich interessiert",,"to interest, to be interested in (refl.)","intéresser, être intéressé par (réfl.)"
 110,6,ziehen,"zog, gezogen",,"to pull, to drag, to move","tirer, traîner, déplacer"
 111,6,lesen,"las, gelesen",,to read,lire
 112,6,kosten,"kostete, gekostet",,"to cost, to taste",coûter
@@ -116,8 +116,8 @@ Nr,exercise,question,answer,german,english,french
 115,6,buchstabieren,"buchstabierte, buchstabiert",,to spell,épeler
 116,6,bedeuten,"bedeutete, bedeutet",,"to mean, to signify","vouloir dire, signifier"
 117,6,funktionieren,"funktionierte, funktioniert",,"to function, to work",fonctionner
-118,6,erinnern,"erinnerte, erinnert",,"to remind, to remember (refl.)","rappeler, se souvenir (réfl.)"
-119,6,fühlen,"fühlte, gefühlt",,"to feel, to feel something (refl.)","sentir, ressentir quelque chose (réfl.)"
+118,6,erinnern,"erinnerte/erinnerte sich, erinnert/sich erinnert",,"to remind, to remember (refl.)","rappeler, se souvenir (réfl.)"
+119,6,fühlen,"fühlte/fühlte sich, gefühlt/sich gefühlt",,"to feel, to feel something (refl.)","sentir, ressentir quelque chose (réfl.)"
 120,6,regnen,"regnete, geregnet",,to rain,pleuvoir
 121,6,schneien,"schneite, geschneit",,to snow,neiger
 122,6,führen,"führte, geführt",,"to lead, to guide","guider, conduire"
@@ -141,8 +141,8 @@ Nr,exercise,question,answer,german,english,french
 140,7,sitzen,"sass, gesessen",,"to be seated, to stay, to fit (of clothing)","être assis, rester"
 141,7,aufstehen,"stand auf, aufgestanden",,"to get up, to be open (e.g. a window, door)","se lever, être ouvert (par exemple une fenêtre, une porte)"
 142,7,aufwachen,"wachte auf, aufgewacht",,to wake up,se réveiller
-143,7,bestimmen,"bestimmte, bestimmt",,to determine,déterminer
-144,7,wehtun,"tat weh, wehgetan",,"to hurt, to be painful","blesser, être douloureux"
+143,7,bestimmen,"bestimmte, bestimmt",,"to determine, to assign, to decide, to ascertain","déterminer, fixer, décider, identifier, assigner"
+144,7,wehtun,"tat weh/tat sich weh, wehgetan/sich wehgetan",,"to hurt, to be painful","blesser, être douloureux"
 145,8,liegen,"lag, gelegen",,"to lie, to be located","être allongé, être localisé"
 146,8,schließen,"schloss, geschlossen",,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure"
 147,8,einladen,"lud ein, eingeladen",,"to invite, to load (something into a container)","inviter, charger (quelque chose dans un conteneur)"
@@ -152,14 +152,14 @@ Nr,exercise,question,answer,german,english,french
 151,8,schwimmen,"schwamm, geschwommen",,"to swim, to float","nager, flotter"
 152,8,ausgehen,"ging aus, ausgegangen",,"to go out, to run out (e.g. of money)","sortir, être à court (par exemple d'argent)"
 153,8,ankommen,"kam an, angekommen",,"to arrive, to depend on something","arriver, dépendre de quelque chose"
-154,8,anmelden,"meldete an, angemeldet",,"to register, to sign up",s'inscrire
+154,8,anmelden,"meldete an, angemeldet",,"to register, to sign up, to sign on",s'inscrire
 155,8,lassen,"ließ, gelassen",,"to let, to leave, to allow","laisser, quitter, permettre"
 156,8,verlassen,"verließ, verlassen",,"to leave, to trust with something (refl.), to pass away, to die","partir, confier quelque chose (réfl.), décéder, mourir"
 157,8,helfen,"half, geholfen",,to help,aider
 158,8,versprechen,"versprach, versprochen",,"to promise, to hope for, to misspeak","promettre, espérer"
 159,8,hängen,"hing, gehangen",,"to hang, to be fond of, depend on","accrocher, aimer, dépendre de"
 160,8,sterben,"starb, gestorben",,to die,mourir
-161,8,entscheiden,"entschied, entschieden",,to decide,décider
+161,8,entscheiden,"entschied/entschied sich, entschieden/sich entschieden",,to decide,décider
 162,8,werfen,"warf, geworfen",,to throw,"jeter, lancer"
 163,8,erkennen,"erkannte, erkannt",,"to recognize, to realise","reconnaître, réaliser"
 164,8,brechen,"brach, gebrochen",,to break,"casser, briser"
@@ -178,7 +178,7 @@ Nr,exercise,question,answer,german,english,french
 177,9,behalten,"behielt, behalten",,to keep,garder
 178,9,wachsen,"wuchs, gewachsen",,"to grow, to increase","grandir, augmenter"
 179,9,springen,"sprang, gesprungen",,"to spring, to jump","sauter, bondir"
-180,9,befinden,"befand, befunden",,"to be located (refl.), to find, to consider (formal)","être localisé (réfl.), trouver, considérer (formel)"
+180,9,befinden,"befand/befand sich, befunden/sich befunden",,"to be located (refl.), to find, to consider (formal)","être localisé (réfl.), trouver, considérer (formel)"
 181,9,fallen,"fiel, gefallen",,"to fall, to fall in battle, to collapse","tomber, tomber au combat, s'effondrer"
 182,9,vergleichen,"verglich, verglichen",,to compare,comparer
 183,9,treiben,"trieb, getrieben",,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to","pratiquer (sport), propulser, mettre en avant, pousser (au sens figuré), baiser, flotter, germer, se lever"
@@ -193,7 +193,7 @@ Nr,exercise,question,answer,german,english,french
 192,10,legen,"legte, gelegt",,"to lay, to lean, to lie down","poser, se pencher, s'allonger"
 193,10,schauen,"schaute, geschaut",,to look at (Bayern and Austria),regarder (Bayern et Autriche)
 194,10,besuchen,"besuchte, besucht",,to visit,visiter
-195,10,freuen,"freute, gefreut",,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
+195,10,sich freuen,"freute sich, sich gefreut",,"to make glad, to be glad (refl.), to look forward (refl.)","rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
 196,10,schließen,"schloss, geschlossen",,"to shut, to close, to lock, to conclude","fermer, clore, verrouiller, conclure"
 197,10,einladen,"lud ein, eingeladen",,"to invite, to load (something into a container)","inviter, charger (quelque chose dans un conteneur)"
 198,10,gefallen,"gefiel, gefallen",,"to please, to appeal to",plaire
@@ -228,7 +228,7 @@ Nr,exercise,question,answer,german,english,french
 227,11,sorgen,"sorgte, gesorgt",,"to care, to worry","se soucier, s'inquiéter"
 228,12,vorstellen,"stellte vor, vorgestellt",,"to introduce, to present oneself (refl.), to move forward, to represent","introduire, se présenter (réfl.), représenter"
 229,12,stimmen,"stimmte, gestimmt",,"to be true, to vote, to tune","être vrai, voter, s'accorder"
-230,12,entscheiden,"entschied, entschieden",,to decide,décider
+230,12,entscheiden,"entschied/entschied sich, entschieden/sich entschieden",,to decide,décider
 231,12,vermissen,"vermisste, vermisst",,to miss something or someone,se manquer quelque chose ou quelqu'un
 232,12,werfen,"warf, geworfen",,to throw,"jeter, lancer"
 233,12,erkennen,"erkannte, erkannt",,"to recognize, to realise","reconnaître, réaliser"
@@ -261,9 +261,9 @@ Nr,exercise,question,answer,german,english,french
 260,13,schenken,"schenkte, geschenkt",,"to gift, to give as a present","offrir, faire un cadeau"
 261,13,wachsen,"wuchs, gewachsen",,"to grow, to increase","grandir, augmenter"
 262,13,springen,"sprang, gesprungen",,"to spring, to jump","sauter, bondir"
-263,13,befinden,"befand, befunden",,"to be located (refl.), to find, to consider (formal)","être localisé (réfl.), trouver, considérer (formel)"
+263,13,befinden,"befand/befand sich, befunden/sich befunden",,"to be located (refl.), to find, to consider (formal)","être localisé (réfl.), trouver, considérer (formel)"
 264,13,fallen,"fiel, gefallen",,"to fall, to fall in battle, to collapse","tomber, tomber au combat, s'effondrer"
-265,13,kümmern,"kümmerte, gekümmert",,"to take care (refl.), to trouble, to concern","prendre soin (réfl.), être troublé par, se préoccuper"
+265,13,kümmern,"kümmerte/kümmerte sich, gekümmert/sich gekümmert",,"to take care (refl.), to trouble, to concern","prendre soin (réfl.), être troublé par, se préoccuper"
 266,13,drücken,"drückte, gedrückt",,"to press, to push","appuyer, pousser"
 267,13,vergleichen,"verglich, verglichen",,to compare,comparer
 268,14,putzen,"putzte, geputzt",,"to clean, to rub","nettoyer, frotter"
@@ -274,7 +274,7 @@ Nr,exercise,question,answer,german,english,french
 273,14,treiben,"trieb, getrieben",,"to practice (sport), to propel, to put forth, to urge (figuratively), to fuck, to float, to sprout, to get up to","pratiquer (sport), propulser, mettre en avant, pousser (au sens figuré), baiser, flotter, germer, se lever"
 274,14,tanzen,"tanzte, getanzt",,to dance,danser
 275,14,studieren,"studierte, studiert",,"to study, to major in (a subject)","étudier, se spécialiser dans (une matière)"
-276,14,schmecken,"schmeckte, geschmeckt",,"to taste, to be tasty",être savoureux
+276,14,schmecken,"schmeckte, geschmeckt",,"to taste, to be tasty, to enjoy (with Dat.)","être savoureux, apprécier (avec Dat.)"
 277,14,mitteilen,"teilte mit, mitgeteilt",,"to inform, to notify, to communicate","informer, notifier, communiquer"
 278,14,streiten,"stritt, gestritten",,"to argue, to fight, to quarrel","se disputer, se battre, se quereller"
 279,14,entwickeln,"entwickelte, entwickelt",,"to develop, to evolve, to create","développer, évoluer, créer"
@@ -292,9 +292,9 @@ Nr,exercise,question,answer,german,english,french
 291,15,stehlen,"stahl, gestohlen",,to steal,voler
 292,15,leiden,"litt, gelitten",,"to suffer, to endure, to bear","souffrir, endurer, supporter"
 293,15,vorschlagen,"schlug vor, vorgeschlagen",,"to suggest, to propose","suggérer, proposer"
-294,15,teilnehmen,"nahm teil, teilgenommen",,"to participate, to take part","participer, prendre part"
+294,15,teilnehmen,"nahm teil, teilgenommen",,"to participate, to take part, to partake","participer, prendre part"
 295,15,beraten,"beriet, beraten",,"to advise, to consult, to discuss","conseiller, consulter, discuter"
-296,15,bewerben,"bewarb, beworben",,"to apply (for a job, position)","postuler (à un emploi, un poste)"
+296,15,bewerben,"bewarb/bewarb sich, beworben/sich beworben",,"to apply (for a job, position)","postuler (à un emploi, un poste)"
 297,15,anbieten,"bot an, angeboten",,"to offer, to provide, to propose","offrir, fournir, proposer"
 298,15,mitnehmen,"nahm mit, mitgenommen",,"to take along, to take with",emporter
 299,15,mitbringen,"brachte mit, mitgebracht",,"to bring along, to bring with",apporter
@@ -307,7 +307,7 @@ Nr,exercise,question,answer,german,english,french
 306,15,erfahren,"erfuhr, erfahren",,"to learn, to find out, to experience","apprendre, découvrir, expérimenter"
 307,15,genießen,"genoss, genossen",,"to savor, to relish, to enjoy, to take pleasure in","apprécier, savourer"
 308,15,verbieten,"verbot, verboten",,"to forbid, to prohibit","interdire, prohiber"
-309,15,unterschreiben,"unterschrieb, unterschrieben",,to sign,signer
+309,15,unterschreiben,"unterschrieb, unterschrieben",,"to sign, to subscribe, to unterwrite","signer, souscrire"
 310,16,empfangen,"empfing, empfangen",,"to receive, to welcome, to greet","recevoir, accueillir, saluer"
 311,16,raten,"riet, geraten",,"to advise, to recommend, to guess","conseiller, recommander, deviner"
 312,16,schneiden,"schnitt, geschnitten",,"to cut, to slice","couper, trancher"
@@ -367,7 +367,7 @@ Nr,exercise,question,answer,german,english,french
 366,18,gründen,"gründete, gegründet",,"to found, to establish, to start","fonder, établir, démarrer"
 367,18,überprüfen,"überprüfte, überprüft",,"to check, to examine, to verify","vérifier, examiner"
 368,18,beraten,"beriet, beraten",,"to advise, to consult, to discuss","conseiller, consulter, discuter"
-369,18,bewerben,"bewarb, beworben",,"to apply (for a job, position)","postuler (à un emploi, un poste)"
+369,18,bewerben,"bewarb/bewarb sich, beworben/sich beworben",,"to apply (for a job, position)","postuler (à un emploi, un poste)"
 370,18,erstellen,"erstellte, erstellt",,"to create, to prepare, to compile","créer, préparer, compiler"
 371,18,korrigieren,"korrigierte, korrigiert",,"to correct, to fix, to revise","corriger, réparer, réviser"
 372,18,anbieten,"bot an, angeboten",,"to offer, to provide, to propose","offrir, fournir, proposer"
@@ -387,19 +387,19 @@ Nr,exercise,question,answer,german,english,french
 386,19,trennen,"trennte, getrennt",,"to separate, to divide, to split","séparer, diviser"
 387,19,greifen,"griff, gegriffen",,"to grab, to grasp, to seize","saisir, s'emparer"
 388,19,entfernen,"entfernte, entfernt",,"to remove, to eliminate","supprimer, éliminer"
-389,19,verlieben,"verliebte, verliebt",,to fall in love,tomber amoureux
+389,19,sich verlieben,"verliebte sich, sich verliebt",,to fall in love,tomber amoureux
 390,19,aufräumen,"räumte auf, aufgeräumt",,"to tidy up, to clean up, to clear","ranger, nettoyer, débarrasser"
 391,19,beschreiben,"beschrieb, beschrieben",,"to describe, to depict","décrire, représenter"
 392,19,verbinden,"verband, verbunden",,"to connect, to link, to join, to bandage","connecter, lier, joindre, bander"
 393,20,rennen,"rannte, gerannt",,"to run, to race, to sprint","courir, faire la course, sprinter"
 394,20,pflanzen,"pflanzte, gepflanzt",,"to plant, to sow","planter, semer"
-395,20,ausruhen,"ruhte aus, ausgeruht",,"to rest, to relax","se reposer, se détendre"
-396,20,entspannen,"entspannte, entspannt",,"to relax, to unwind","se détendre, se relaxer"
+395,20,ausruhen,"ruhte aus/ruhte sich aus, ausgeruht/sich ausgeruht",,"to rest, to relax","se reposer, se détendre"
+396,20,entspannen,"entspannte/entspannte sich, entspannt/sich entspannt",,"to relax, to unwind","se détendre, se relaxer"
 397,20,verbringen,"verbrachte, verbracht",,"to spend (time), to pass",passer (du temps)
 398,20,vorhaben,"hatte vor, vorgehabt",,"to intend, to plan, to be up to","avoir l'intention de, planifier, être à la hauteur"
 399,20,erleben,"erlebte, erlebt",,"to experience, to live through","expérimenter, vivre"
 400,20,malen,"malte, gemalt",,"to paint, to draw","peindre, dessiner"
-401,20,erholen,"erholte, erholt",,"to recover, to recuperate","récupérer, se rétablir"
+401,20,erholen,"erholte/erholte sich, erholt/sich erholt",,"to recover, to recuperate","récupérer, se rétablir"
 402,20,planen,"plante, geplant",,"to plan, to schedule","planifier, programmer"
 403,20,entdecken,"entdeckte, entdeckt",,"to discover, to find","découvrir, trouver"
 404,20,erfahren,"erfuhr, erfahren",,"to learn, to find out, to experience","apprendre, découvrir, expérimenter"
@@ -408,7 +408,7 @@ Nr,exercise,question,answer,german,english,french
 407,20,besichtigen,"besichtigte, besichtigt",,"to visit, to tour, to inspect","visiter, faire un tour, inspecter"
 408,20,spazieren,"spazierte, spaziert",,"to stroll, to walk leisurely","flâner, marcher tranquillement"
 409,20,wandern,"wanderte, gewandert",,"to hike, to wander, to migrate","faire de la randonnée, errer, migrer"
-410,20,surfen,"surfte, gesurft",,to surf (waves or the internet),surfer (sur les vagues ou sur Internet)
+410,20,surfen,"surfte, gesurft",,to surf,surfer
 411,20,trainieren,"trainierte, trainiert",,"to train, to practice, to coach","entraîner, pratiquer, coacher"
 412,20,erreichen,"erreichte, erreicht",,"to reach, to achieve, to attain","atteindre, réaliser, parvenir"
 413,21,stecken,"steckte, gesteckt",,"to stick, to pin","coller, épingler"
@@ -434,7 +434,7 @@ Nr,exercise,question,answer,german,english,french
 433,22,verbessern,"verbesserte, verbessert",,"to improve, to enhance, to correct","améliorer, renforcer, corriger"
 434,22,sichern,"sicherte, gesichert",,"to secure, to safeguard, to back up","sécuriser, sauvegarder"
 435,22,beantworten,"beantwortete, beantwortet",,"to answer, to reply to (transitive)","répondre, répliquer à (transitif)"
-436,22,beschäftigen,"beschäftigte, beschäftigt",,"to employ, to occupy, to engage","employer, occuper, engager"
+436,22,beschäftigen,"beschäftigte/beschäftigte sich, beschäftigt/sich beschäftigt",,"to employ, to occupy, to engage","employer, occuper, engager"
 437,22,vorbereiten,"bereitete vor, vorbereitet",,"to prepare, to get ready, to prepare in advance",se préparer
 438,22,weinen,"weinte, geweint",,"to cry, to weep","pleurer, sangloter"
 439,22,einsetzen,"setzte ein, eingesetzt",,"to use, to apply, to deploy, to insert","utiliser, appliquer, déployer, insérer"
@@ -457,7 +457,7 @@ Nr,exercise,question,answer,german,english,french
 456,23,bilden,"bildete, gebildet",,"to form, to constitute, to educate","former, constituer, éduquer"
 457,23,ausbilden,"bildete aus, ausgebildet",,"to train, to educate, to develop","former, éduquer, développer (une compétence)"
 458,23,herausfinden,"fand heraus, herausgefunden",,"to find out, to discover, to figure out","découvrir, comprendre"
-459,23,konzentrieren,"konzentrierte, konzentriert",,"to concentrate, to focus","se concentrer, se focaliser"
+459,23,konzentrieren,"konzentrierte/konzentrierte sich, konzentriert/sich konzentriert",,"to concentrate, to focus","se concentrer, se focaliser"
 460,23,küssen,"küsste, geküsst",,"to kiss, to make out","embrasser, peloter"
 461,23,zurückkommen,"kam zurück, zurückgekommen",,"to come back, to return","revenir, retourner"
 462,23,umziehen,"zog um, umgezogen",,"to move (house), to change clothes","déménager, changer de vêtements"
@@ -497,13 +497,13 @@ Nr,exercise,question,answer,german,english,french
 496,25,stoßen,"stieß, gestoßen",,"to push, to bump, to kick, to thrust","pousser, cogner, donner un coup de pied"
 497,25,vermeiden,"vermied, vermieden",,"to avoid, to prevent","éviter, empêcher"
 498,25,erfüllen,"erfüllte, erfüllt",,"to fulfill, to satisfy, to carry out","accomplir, satisfaire, réaliser"
-499,25,gewöhnen,"gewöhnte, gewöhnt",,"to get used to, to accustom oneself","s'habituer à, s'accoutumer"
+499,25,gewöhnen,"gewöhnte/gewöhnte sich, gewöhnt/sich gewöhnt",,"to get used to, to accustom oneself","s'habituer à, s'accoutumer"
 500,25,auswählen,"wählte aus, ausgewählt",,"to choose, to select","choisir, sélectionner"
 501,25,verzichten,"verzichtete, verzichtet",,"to renounce, to give up, to do without, to forgo","renoncer, abandonner, se passer de"
 502,25,begründen,"begründete, begründet",,"to justify, to explain, to establish","justifier, expliquer, établir"
 503,25,lügen,"log, gelogen",,"to lie, to tell a falsehood","mentir, dire une fausseté"
 504,25,schreien,"schrie, geschrien",,"to scream, to shout, to yell","crier, hurler"
-505,25,entschuldigen,"entschuldigte, entschuldigt",,"to excuse, to apologize","excuser, s'excuser"
+505,25,entschuldigen,"entschuldigte/entschuldigte sich, entschuldigt/sich entschuldigt",,"to excuse, to apologize","excuser, s'excuser"
 506,25,bestätigen,"bestätigte, bestätigt",,"to confirm, to acknowledge, to endorse","confirmer, reconnaître, approuver"
 507,25,informieren,"informierte, informiert",,"to inform, to notify","informer, notifier"
 508,25,reagieren,"reagierte, reagiert",,"to react, to respond","réagir, répondre"
@@ -527,7 +527,7 @@ Nr,exercise,question,answer,german,english,french
 526,26,starten,"startete, gestartet",,"to start, to launch, to take off","démarrer, lancer, décoller"
 527,26,akzeptieren,"akzeptierte, akzeptiert",,to accept,accepter
 528,26,organisieren,"organisierte, organisiert",,"to organize, to arrange","organiser, arranger"
-529,26,bemühen,"bemühte, bemüht",,"to make an effort, to strive","faire un effort, s'efforcer"
+529,26,sich bemühen,"bemühte sich, sich bemüht",,"to make an effort, to strive","faire un effort, s'efforcer"
 530,26,joggen,"joggte, gejoggt",,to jog,faire du jogging
 531,26,erwähnen,"erwähnte, erwähnt",,"to mention, to refer to","mentionner, faire référence à"
 532,26,loben,"lobte, gelobt",,"to praise, to commend","louer, féliciter"
@@ -546,10 +546,10 @@ Nr,exercise,question,answer,german,english,french
 545,27,bearbeiten,"bearbeitete, bearbeitet",,"to edit, to process, to work on","éditer, traiter, travailler sur"
 546,27,vereinbaren,"vereinbarte, vereinbart",,"to agree, to arrange, to settle","convenir, arranger, régler"
 547,27,hinweisen,"wies hin, hingewiesen",,"to indicate, to point out, to refer","indiquer, faire remarquer, se référer"
-548,27,verwenden,"verwendete, verwendet",,"to use, to employ, to utilize","utiliser, employer, exploiter"
+548,27,verwenden,"verwendete, verwendet/verwandt",,"to use, to employ, to utilize","utiliser, employer, exploiter"
 549,27,reinigen,"reinigte, gereinigt",,"to clean, to cleanse","nettoyer, purifier"
 550,27,geschehen,"geschah, geschehen",,"to happen, to occur, to take place","se produire, avoir lieu (formel)"
-551,27,brennen,"brannte, gebrannt",,"to burn, to have a strong affection for, to induce pain","brûler, avoir une forte affection pour, provoquer de la douleur"
+551,27,brennen,"brannte, gebrannt",,"to burn, to have a strong affection for, to induce pain, to tan","brûler, avoir une forte affection pour, provoquer de la douleur"
 552,27,kriegen,"kriegte, gekriegt",,"to get after asking or fighting, to wage war","obtenir après avoir demandé ou combattu, faire la guerre"
 553,28,zurückgehen,"ging zurück, zurückgegangen",,"to go back, to decrease, to decline","revenir en arrière, diminuer, décliner"
 554,28,entlassen,"entließ, entlassen",,"to dismiss, to fire, to release","congédier, licencier, libérer"
@@ -574,7 +574,7 @@ Nr,exercise,question,answer,german,english,french
 573,28,erwerben,"erwarb, erworben",,"to acquire, to purchase, to gain","acquérir, acheter, gagner"
 574,28,verleihen,"verlieh, verliehen",,"to award, to grant, to lend","attribuer, accorder, prêter"
 575,29,fließen,"floss, geflossen",,"to flow, to run","couler, courir"
-576,29,unterscheiden,"unterschied, unterschieden",,"to distinguish, to differentiate","distinguer, différencier"
+576,29,unterscheiden,"unterschied/unterschied sich, unterschieden/sich unterschieden",,"to distinguish, to differentiate","distinguer, différencier"
 577,29,weisen,"wies, gewiesen",,"to point, to direct, to indicate","pointer, diriger, indiquer"
 578,29,betreiben,"betrieb, betrieben",,"to operate, to run, to conduct","opérer, diriger, conduire"
 579,29,unterhalten,"unterhielt, unterhalten",,"to entertain, to maintain, to support, to convert","divertir, entretenir, soutenir, convertir"
@@ -587,7 +587,7 @@ Nr,exercise,question,answer,german,english,french
 586,29,wiegen,"wog, gewogen",,"to weight, to balance",peser
 587,29,einziehen,"zog ein, eingezogen",,"to move in, to penetrate, to infiltrate","s'introduire, pénétrer, s'infiltrer"
 588,29,erschrecken,"erschrak, erschrocken",,"to be frightened, to frighten","avoir peur, effrayer"
-589,29,verhalten,"verhielt, verhalten",,"to behave (refl.), to act (refl.), to press (coll.)","se comporter (réfl.), agir (réfl.), faire pression (familier)"
+589,29,sich verhalten,"verhielt sich, sich verhalten",,"to behave (refl.), to act (refl.), to press (coll.)","se comporter (réfl.), agir (réfl.), faire pression (familier)"
 590,29,gleichen,"glich, geglichen",,"to equal, to match, to resemble","égaler, ressembler"
 591,29,eingehen,"ging ein, eingegangen",,"to shrink (textile), to wither, to die (plants, animals), to assume something","rétrécir (textile), se faner, mourir (plantes, animaux), prendre quelque chose"
 592,29,betreffen,"betraf, betroffen",,"to concern, to affect","concerner, affecter"
@@ -611,14 +611,14 @@ Nr,exercise,question,answer,german,english,french
 610,30,betragen,"betrug, betragen",,"to amount to, to come to","s'élever à, arriver à"
 611,30,beißen,"biss, gebissen",,to bite,mordre
 612,30,einnehmen,"nahm ein, eingenommen",,"to capture, to earn, to ingest","capturer, gagner, ingérer"
-613,30,beziehen,"bezog, bezogen",,"to refer, to obtain","se référer, obtenir"
+613,30,beziehen,"bezog, bezogen",,"to refer, to relate, to obtain, to cover, to move into","se référer, obtenir"
 614,30,stechen,"stach, gestochen",,"to sting, to prick, to puncture, to pierce","piquer, percer"
 615,30,bergen,"barg, geborgen",,"to recover, to rescue, to save, to salvage","récupérer, secourir, sauver, sauver"
 616,30,spalten,"spaltete, gespalten",,"to split, to divide","diviser, diviser"
 617,30,graben,"grub, gegraben",,"to dig, to excavate, to delve","creuser, fouiller, excaver"
 618,31,zurückgehen,"ging zurück, zurückgegangen",,"to go back, to decrease, to decline","revenir en arrière, diminuer, décliner"
 619,31,aufmachen,"machte auf, aufgemacht",,"to open (coll.), to head or move off (refl.), to undo something","ouvrir (familier), se diriger ou s'éloigner (réfl.), défaire quelque chose"
-620,31,beteiligen,"beteiligte, beteiligt",,"to participate, to be involved, to take part","participer, être impliqué, prendre part"
+620,31,sich beteiligen,"beteiligte/beteiligte sich, beteiligt/sich beteiligt",,"to participate, to be involved, to take part","participer, être impliqué, prendre part"
 621,31,verfügen,"verfügte, verfügt",,"to have at one’s disposal (formal), to possess, to control","avoir à sa disposition (formel), posséder, contrôler"
 622,31,benötigen,"benötigte, benötigt",,"to need, to require (formal)","avoir besoin, exiger"
 623,31,drucken,"druckte, gedruckt",,to print,imprimer
@@ -631,7 +631,7 @@ Nr,exercise,question,answer,german,english,french
 630,31,schalten,"schaltete, geschaltet",,"to switch, to shift gears, to turn on, to turn off","changer, changer de vitesse, allumer, éteindre"
 631,31,prüfen,"prüfte, geprüft",,"to check, to examine, to test, to investigate","vérifier, examiner, tester, enquêter"
 632,31,untersuchen,"untersuchte, untersucht",,"to investigate, to examine, to analyze","enquêter, examiner, analyser"
-633,31,auswirken,"wirkte aus, ausgewirkt",,"to affect, to have an impact","affecter, avoir un impact"
+633,31,auswirken,"wirkte aus/wirkte sich aus, ausgewirkt/sich ausgewirkt",,"to affect, to have an impact","affecter, avoir un impact"
 634,31,unternehmen,"unternahm, unternommen",,"to undertake, to attempt, to take action","entreprendre, tenter, agir"
 635,31,präsentieren,"präsentierte, präsentiert",,"to present, to showcase","présenter, mettre en valeur"
 636,31,einrichten,"richtete ein, eingerichtet",,"to set up, to furnish, to arrange","installer, meubler, aménager"
@@ -694,7 +694,7 @@ Nr,exercise,question,answer,german,english,french
 693,34,ausführen,"führte aus, ausgeführt",,"to carry out, to execute, to perform","réaliser, exécuter, accomplir"
 694,34,bedienen,"bediente, bedient",,"to serve, to operate, to use","servir, opérer, utiliser"
 695,34,durchführen,"führte durch, durchgeführt",,"to carry out, to conduct, to implement","réaliser, mener, mettre en œuvre"
-696,34,eignen,"eignete, geeignet",,"to be suitable, to be appropriate","être convenable, être approprié"
+696,34,eignen,"eignete/eignete sich, geeignet/sich geeignet",,"to be suitable, to be appropriate","être convenable, être approprié"
 697,34,festlegen,"legte fest, festgelegt",,"to define, to determine, to set","définir, déterminer, établir"
 698,35,fließen,"floss, geflossen",,"to flow, to run","couler, courir"
 699,35,gelangen,"gelangte, gelangt",,"to reach, to arrive","atteindre, arriver"
@@ -707,10 +707,10 @@ Nr,exercise,question,answer,german,english,french
 706,35,steigern,"steigerte, gesteigert",,"to increase, to boost, to enhance","augmenter, stimuler, améliorer"
 707,35,steuern,"steuerte, gesteuert",,"to steer, to control, to govern","diriger, contrôler, gouverner"
 708,35,umsetzen,"setzte um, umgesetzt",,"to implement, to apply, to put into practice","mettre en œuvre, appliquer, mettre en pratique"
-709,35,unterscheiden,"unterschied, unterschieden",,"to distinguish, to differentiate","distinguer, différencier"
+709,35,unterscheiden,"unterschied/unterschied sich, unterschieden/sich unterschieden",,"to distinguish, to differentiate","distinguer, différencier"
 710,35,verfolgen,"verfolgte, verfolgt",,"to pursue, to track, to follow, to prosecute","poursuivre, pister, suivre"
 711,35,weisen,"wies, gewiesen",,"to point, to direct, to indicate","pointer, diriger, indiquer"
-712,35,widmen,"widmete, gewidmet",,"to dedicate, to devote",consacrer
+712,35,widmen,"widmete/widmete sich, gewidmet/sich gewidmet",,"to dedicate, to devote",consacrer
 713,35,betreiben,"betrieb, betrieben",,"to operate, to run, to conduct","opérer, diriger, conduire"
 714,35,errichten,"errichtete, errichtet",,"to build, to erect, to establish","construire, ériger, établir"
 715,35,unterhalten,"unterhielt, unterhalten",,"to entertain, to maintain, to support, to convert","divertir, entretenir, soutenir, convertir"
@@ -741,7 +741,7 @@ Nr,exercise,question,answer,german,english,french
 740,37,zitieren,"zitierte, zitiert",,"to cite, to quote",citer
 741,37,aktivieren,"aktivierte, aktiviert",,"to activate, to enable","activer, permettre"
 742,37,verhandeln,"verhandelte, verhandelt",,to negotiate,négocier
-743,37,verhalten,"verhielt, verhalten",,"to behave (refl.), to act (refl.), to press (coll.)","se comporter (réfl.), agir (réfl.), faire pression (familier)"
+743,37,sich verhalten,"verhielt sich, sich verhalten",,"to behave (refl.), to act (refl.), to press (coll.)","se comporter (réfl.), agir (réfl.), faire pression (familier)"
 744,37,stürzen,"stürzte, gestürzt",,"to fall, to rush, to throw, to overturn, to overthrow something","tomber, se précipiter, jeter, renverser, renverser quelque chose"
 745,37,einfügen,"fügte ein, eingefügt",,"to insert, to infix, to conform","insérer, infixer, se conformer"
 746,37,fortsetzen,"setzte fort, fortgesetzt",,"to continue, to carry on, to extend, to proceed","continuer, poursuivre, étendre, procéder"
@@ -779,7 +779,7 @@ Nr,exercise,question,answer,german,english,french
 778,39,vorgehen,"ging vor, vorgegangen",,"to proceed, to advance, to go ahead","procéder, avancer, aller de l'avant"
 779,39,vorliegen,"lag vor, vorgelegen",,"to exist, to be available","exister, être disponible"
 780,39,meiden,"mied, gemieden",,"to avoid, to shun","éviter, fuir"
-781,39,lohnen,"lohnte, gelohnt",,"to be worthwhile, to pay off","être utile, être rentable"
+781,39,sich lohnen,"lohnte sich, sich gelohnt",,"to be worthwhile, to pay off","être utile, être rentable"
 782,39,abfahren,"fuhr ab, abgefahren",,"to depart, to leave","partir, quitter"
 783,39,zurückgeben,"gab zurück, zurückgegeben",,"to return, to give back, to answer back","rendre, répondre"
 784,39,verstecken,"versteckte, versteckt",,"to hide, to conceal","cacher, dissimuler"
@@ -797,7 +797,7 @@ Nr,exercise,question,answer,german,english,french
 796,39,erfordern,"erforderte, erfordert",,"to require, to demand, to necessitate","exiger, nécessiter"
 797,39,ausmachen,"machte aus, ausgemacht",,"to arrange, to constitute, to represent, to settle","organiser, constituer, représenter, régler"
 798,40,beißen,"biss, gebissen",,to bite,mordre
-799,40,aufregen,"regte auf, aufgeregt",,"to upset, to agitate, to annoy","déranger, agiter, ennuyer"
+799,40,aufregen,"regte auf/regte sich auf, aufgeregt/sich aufgeregt",,"to upset, to agitate, to annoy","déranger, agiter, ennuyer"
 800,40,vergrößern,"vergrößerte, vergrößert",,to enlarge,pour agrandir
 801,40,trocknen,"trocknete, getrocknet",,"to dry, to dehumidify","sécher, déshumidifier"
 802,40,beten,"betete, gebetet",,to pray,prier
@@ -816,7 +816,7 @@ Nr,exercise,question,answer,german,english,french
 815,40,schmerzen,"schmerzte, geschmerzt",,"to hurt, to ache","faire mal, souffrir"
 816,40,spalten,"spaltete, gespalten",,"to split, to divide","diviser, diviser"
 817,40,graben,"grub, gegraben",,"to dig, to excavate, to delve","creuser, fouiller, excaver"
-818,41,quellen,"quoll, gequollen",,"to soak, to swell","tremper, gonfler"
+818,41,quellen,"quoll, gequollen",,"to soak, to swell, to well, to spring","tremper, gonfler"
 819,41,mitkommen,"kam mit, mitgekommen",,"to come along, to keep up","venir, suivre"
 820,41,widersprechen,"widersprach, widersprochen",,"to contradict, to disagree","contredire, être en désaccord"
 821,41,frieren,"fror, gefroren",,"to freeze, to feel cold","geler, avoir froid"
@@ -857,13 +857,13 @@ Nr,exercise,question,answer,german,english,french
 856,42,ablaufen,"lief ab, abgelaufen",,"to expire, to run out, to discharge","expirer, s'épuiser, se décharger"
 857,42,eintragen,"trug ein, eingetragen",,"to register, to enter, to record, to enrol","inscrire, entrer, enregistrer, inscrire"
 858,43,verschreiben,"verschrieb, verschrieben",,"to prescribe, to commit oneself to, to misspell by accident","prescrire, s'engager à, faire une faute d'orthographe par accident"
-859,43,vertreiben,"vertrieb, vertrieben",,"to expel, to dislodge, to displace","expulser, déloger, déplacer"
+859,43,vertreiben,"vertrieb, vertrieben",,"to expel, to dislodge, to displace, to put on the market, to sell","expulser, déloger, déplacer"
 860,43,überschreiten,"überschritt, überschritten",,"to exceed, to overstep, to surpass","dépasser, outrepasser, surpasser"
 861,43,übergeben,"übergab, übergeben",,"to hand over, to vomit (refl.)","remettre, vomir (réfl.)"
 862,43,abrufen,"rief ab, abgerufen",,"to retrieve, to access, to call away","récupérer, accéder, appeler"
 863,43,einschließen,"schloss ein, eingeschlossen",,"to include, to enclose, to lock up, to surround","inclure, enfermer, entourer"
 864,43,umgeben,"umgab, umgeben",,"to surround, to enclose, to encompass","entourer, enfermer, englober"
-865,43,dringen,"drang, gedrungen",,to penetrate,pénétrer
+865,43,dringen,"drang, gedrungen",,"to insist, the seep, to penetrate","insister, s'infiltrer, pénétrer"
 866,43,vorwerfen,"warf vor, vorgeworfen",,"to reproach, to accuse of, to allege","reprocher, accuser de, alléguer"
 867,43,ausschließen,"schloss aus, ausgeschlossen",,"to exclude, to eliminate","exclure, éliminer"
 868,43,hingehen,"ging hin, hingegangen",,"to go (there), (of time) to pass","aller (là-bas), passer (le temps)"
@@ -879,7 +879,7 @@ Nr,exercise,question,answer,german,english,french
 878,44,zusehen,"sah zu, zugesehen",,"to watch, to see, to make sure (that something happens)","regarder, voir, s'assurer (que quelque chose se passe)"
 879,44,aufheben,"hob auf, aufgehoben",,"to abolish, to lift, to pick up, to keep","abolir, lever, ramasser, garder"
 880,44,festhalten,"hielt fest, festgehalten",,"to hold, to retain something, to record something, to detain","détenir, conserver quelque chose, enregistrer quelque chose, détenir"
-881,44,eintreten,"trat ein, eingetreten",,"to enter, to join, to occur","entrer, se joindre, se produire"
+881,44,eintreten,"trat ein, eingetreten",,"to enter, to join, to occur, to step in","entrer, se joindre, se produire"
 882,44,wahrnehmen,"nahm wahr, wahrgenommen",,"to perceive, to notice, to observe, to sense","percevoir, remarquer, observer, pressentir"
 883,44,benennen,"benannte, benannt",,"to name, to designate, to appoint","nommer, désigner"
 884,44,umbringen,"brachte um, umgebracht",,"to kill, to murder, to be very angry at someone","tuer, assassiner, être très en colère contre quelqu'un"
@@ -910,7 +910,7 @@ Nr,exercise,question,answer,german,english,french
 909,45,zurückhalten,"hielt zurück, zurückgehalten",,"to restrain, to hold back, to withhold","restreindre, retenir"
 910,45,erweisen,"erwies, erwiesen",,"to prove (passively), to turn out to be, to show","prouver (passivement), s'avérer être, montrer"
 911,45,übertreiben,"übertrieb, übertrieben",,"to exaggerate, to overdo","exagérer, exagérer"
-912,45,begeben,"begab, begeben",,"to proceed to, to repair to, to endorse, to happen","procéder, réparer, approuver, se produire"
+912,45,sich begeben,"begab sich, sich begeben",,"to proceed to, to repair to, to endorse, to happen","procéder, réparer, approuver, se produire"
 913,45,angehen,"ging an, angegangen",,"to concern, to tackle (a problem), to turn on (a machine)","s'inquiéter, s'attaquer (à un problème), mettre en marche (une machine)"
 914,45,vergehen,"verging, vergangen",,"to die, to pass, to elapse, to perish","mourir, passer, s'écouler, périr"
 915,45,abbiegen,"bog ab, abgebogen",,"to turn, to turn off, to bend","tourner, éteindre, plier"
@@ -931,7 +931,7 @@ Nr,exercise,question,answer,german,english,french
 930,47,quellen,"quoll, gequollen",,"to soak, to swell, to well, to spring","tremper, gonfler"
 931,47,klicken,"klickte, geklickt",,to click,cliquer
 932,47,senken,"senkte, gesenkt",,"to lower, to sink, to drop, to reduce","abaisser, couler, laisser tomber, réduire"
-933,47,irren,"irrte, geirrt",,to err,se tromper
+933,47,irren,"irrte/irrte sich, geirrt/sich geirrt",,"to err, to wander",se tromper
 934,47,mitkommen,"kam mit, mitgekommen",,"to come along, to keep up","venir, suivre"
 935,47,grillen,"grillte, gegrillt",,"to grill, to barbecue","griller, faire un barbecue"
 936,47,saugen,"saugte, gesaugt",,"to suck, to vacuum, to suckle","sucer, aspirer, téter"
@@ -940,7 +940,7 @@ Nr,exercise,question,answer,german,english,french
 939,47,ankündigen,"kündigte an, angekündigt",,"to announce, to declare","annoncer, déclarer"
 940,47,verarbeiten,"verarbeitete, verarbeitet",,"to process, to handle, to work through","traiter, manipuler, travailler"
 941,47,frieren,"fror, gefroren",,"to freeze, to feel cold","geler, avoir froid"
-942,47,bedanken,"bedankte, bedankt",,to thank,remercier
+942,47,bedanken,"bedankte/bedankte sich, bedankt/sich bedankt",,to thank,remercier
 943,47,tanken,"tankte, getankt",,"to refuel, to fill up","faire le plein, faire le plein"
 944,47,beruhigen,"beruhigte, beruhigt",,"to calm, to reassure, to soothe","calmer, rassurer, apaiser"
 945,47,zögern,"zögerte, gezögert",,to hesitate,hésiter
@@ -959,7 +959,7 @@ Nr,exercise,question,answer,german,english,french
 958,48,auffallen,"fiel auf, aufgefallen",,"to stand out, to catch someone's eye (with dative)","se démarquer, attirer l'attention (avec le datif)"
 959,48,aufgeben,"gab auf, aufgegeben",,"to give up on, to give up (refl.), to abandon","renoncer à, abandonner (réfl.),"
 960,48,bekämpfen,"bekämpfte, bekämpft",,to fight against something,lutter contre quelque chose
-961,48,erstrecken,"erstreckte, erstreckt",,"to extend, to span, to bestride","étendre, enjamber"
+961,48,erstrecken,"erstreckte/erstreckte sich, erstreckt/sich erstreckt",,"to extend, to span, to bestride","étendre, enjamber"
 962,48,mischen,"mischte, gemischt",,"to mix, to blend",mélanger
 963,48,ergänzen,"ergänzte, ergänzt",,"to complement, to add, to supplement","compléter, ajouter, suppléer"
 964,48,überwachen,"überwachte, überwacht",,"to keep under surveillance, to monitor, to observe, to oversee","surveiller, observer, superviser"
@@ -975,7 +975,7 @@ Nr,exercise,question,answer,german,english,french
 974,49,nachweisen,"wies nach, nachgewiesen",,"to prove, to account for, to demonstrate","prouver, rendre compte de, démontrer"
 975,49,weitergeben,"gab weiter, weitergegeben",,"to pass on, to impart, to relay","transmettre, relayer"
 976,49,sondern,"sonderte, gesondert",,"to separate, to split","séparer, diviser"
-977,49,einigen,"einigte, geeinigt",,"to unite, to reconcile, to agree","s'unir, se réconcilier, s'accorder"
+977,49,einigen,"einigte/einigte sich, geeinigt/sich geeinigt",,"to unite, to reconcile, to agree","s'unir, se réconcilier, s'accorder"
 978,49,aufweisen,"wies auf, aufgewiesen",,"to exhibit, to feature, to show, to boast","exposer, mettre en valeur, montrer, se vanter"
 979,49,eingeben,"gab ein, eingegeben",,"to enter, to input, to give, to supply","entrer, saisir, donner, fournir"
 980,49,abonnieren,"abonnierte, abonniert",,to subscribe,s'abonner
@@ -1057,7 +1057,7 @@ Nr,exercise,question,answer,german,english,french
 1056,53,stützen,"stützte, gestützt",,"to support, to back, to hold something up, to bolster","soutenir, appuyer, soutenir quelque chose, étayer"
 1057,53,abrufen,"rief ab, abgerufen",,"to retrieve, to access, to call away","récupérer, accéder, appeler"
 1058,53,bedenken,"bedachte, bedacht",,"to consider, to reflect, to give, to allow for","considérer, réfléchir, donner, permettre"
-1059,53,befassen,"befasste, befasst",,"to address, to deal with, to attend to","s'adresser à, traiter, s'occuper de"
+1059,53,befassen,"befasste/befasste sich, befasst/sich befasst",,"to address, to deal with, to attend to","s'adresser à, traiter, s'occuper de"
 1060,53,beschleunigen,"beschleunigte, beschleunigt",,"to accelerate, to speed up",accélérer
 1061,53,einschließen,"schloss ein, eingeschlossen",,"to include, to enclose, to lock up, to surround","inclure, enfermer, entourer"
 1062,53,fügen,"fügte, gefügt",,"to acquiesce, to comply, to fit together","acquiescer, se conformer, s'adapter"
@@ -1087,7 +1087,7 @@ Nr,exercise,question,answer,german,english,french
 1086,54,zittern,"zitterte, gezittert",,"to shiver, to tremble, to fear","trembler, frissonner, grelotter"
 1087,54,hochladen,"lud hoch, hochgeladen",,to upload,"uploader, télécharger"
 1088,54,züchten,"züchtete, gezüchtet",,"to breed, to grow","se reproduire, grandir"
-1089,54,wehren,"wehrte, gewehrt",,"to defend, to resist","défendre, résister"
+1089,54,sich wehren,"wehrte sich, sich gewehrt",,"to defend, to resist","défendre, résister"
 1090,55,beleidigen,"beleidigte, beleidigt",,"to offend someone, to insult someone","offenser quelqu'un, insulter quelqu'un"
 1091,55,verklagen,"verklagte, verklagt",,"to sue, to bring a suit against, to bring an action against","poursuivre en justice, intenter un procès"
 1092,55,isolieren,"isolierte, isoliert",,"to isolate, to insulate",isoler
@@ -1101,7 +1101,7 @@ Nr,exercise,question,answer,german,english,french
 1100,55,faulenzen,"faulenzte, gefaulenzt",,"to chill, to laze around","se détendre, paresser"
 1101,55,umtauschen,"tauschte um, umgetauscht",,"to convert, to exchange (currency)","convertir, échanger (monnaie)"
 1102,55,anprobieren,"probierte an, anprobiert",,"to try on, to fit, to fit on","essayer, ajuster, s'adapter à"
-1103,55,duschen,"duschte, geduscht",,"to shower, to have a shower, to take a shower","se doucher, prendre une douche"
+1103,55,duschen,"duschte/duschte sich, geduscht/sich geduscht",,"to shower, to have a shower, to take a shower","se doucher, prendre une douche"
 1104,55,husten,"hustete, gehustet",,"to cough, to have a cough","tousser, toussoter"
 1105,55,zelten,"zeltete, gezeltet",,"to camp, to camp out, to tent",camper
 1106,55,genesen,"genas, genesen",,"to recover, to convalesce, to get well",se rétablir
@@ -1148,8 +1148,8 @@ Nr,exercise,question,answer,german,english,french
 1147,57,belasten,"belastete, belastet",,"to burden, to charge, to strain","charger, accabler, mettre à rude épreuve"
 1148,57,interpretieren,"interpretierte, interpretiert",,"to interpret, to take as","interpréter, prendre comme"
 1149,57,kombinieren,"kombinierte, kombiniert",,to combine,combiner
-1150,58,nähern,"näherte, genähert",,"to approach, to get closer, to advance","s'approcher, se rapprocher, avancer"
-1151,58,orientieren,"orientierte, orientiert",,to orient,orienter
+1150,58,nähern,"näherte/näherte sich, genähert/sich genähert",,"to approach, to get closer, to advance","s'approcher, se rapprocher, avancer"
+1151,58,sich orientieren,"orientierte sich, sich orientiert",,to orient,orienter
 1152,58,rechtfertigen,"rechtfertigte, gerechtfertigt",,"to justify, to warrant, to back up, to exculpate","justifier, garantir, appuyer, disculper"
 1153,58,transportieren,"transportierte, transportiert",,"to transport, to transfer","transporter, transférer"
 1154,58,wahrnehmen,"nahm wahr, wahrgenommen",,"to perceive, to notice, to observe, to sense","percevoir, remarquer, observer, pressentir"
@@ -1159,7 +1159,7 @@ Nr,exercise,question,answer,german,english,french
 1158,58,meistern,"meisterte, gemeistert",,"to master, to overcome, to cope with","maîtriser, surmonter, faire face à"
 1159,58,drohen,"drohte, gedroht",,to threaten,menacer
 1160,58,vereinfachen,"vereinfachte, vereinfacht",,"to simplify, to demystify, to deskill, to dumb down","simplifier, démystifier, déqualifier, abêtir"
-1161,58,spezialisieren,"spezialisierte, spezialisiert",,"to specialize, to specialise, to differentiate, to focus","se spécialiser, se différencier, se concentrer"
+1161,58,sich spezialisieren,"spezialisierte sich, sich spezialisiert",,"to specialize, to specialise, to differentiate, to focus","se spécialiser, se différencier, se concentrer"
 1162,58,umbringen,"brachte um, umgebracht",,"to kill, to murder, to be very angry at someone","tuer, assassiner, être très en colère contre quelqu'un"
 1163,58,beeinträchtigen,"beeinträchtigte, beeinträchtigt",,"to affect, to impair, to alloy, to compromise","affecter, altérer, allier, compromettre"
 1164,58,beinhalten,"beinhaltete, beinhaltet",,"to include, to contain, to entail, to comprise","inclure, contenir, impliquer, comprendre"
@@ -1175,13 +1175,13 @@ Nr,exercise,question,answer,german,english,french
 1174,59,ausdrücken,"drückte aus, ausgedrückt",,"to express, to articulate, to convey, to embody","exprimer, articuler, transmettre, incarner"
 1175,59,anfallen,"fiel an, angefallen",,"to accrue, to accumulate, to arise, to incur","s'accumuler, survenir, encourir"
 1176,59,einhalten,"hielt ein, eingehalten",,"to observe, to adhere, to comply","observer, adhérer, se conformer"
-1177,59,ereignen,"ereignete, ereignet",,"to happen, to occur, to bechance","se produire, avoir lieu, être fortuit"
+1177,59,sich ereignen,"ereignete sich, sich ereignet",,"to happen, to occur, to bechance","se produire, avoir lieu, être fortuit"
 1178,59,publizieren,"publizierte, publiziert",,"to publish, to publicize, to announce","publier, faire connaître, annoncer"
 1179,59,regieren,"regierte, regiert",,"to govern, to reign, to rule, to command","gouverner, régner, diriger, commander"
 1180,59,synchronisieren,"synchronisierte, synchronisiert",,"to synchronize, to dub, to sync","synchroniser, doubler"
 1181,59,hinzufügen,"fügte hinzu, hinzugefügt",,to add,ajouter
 1182,59,entkommen,"entkam, entkommen",,to escape,s'échapper
-1183,59,rächen,"rächte, gerächt",,to take revenge (refl.),se venger (réfl.)
+1183,59,rächen,"rächte/rächte sich, gerächt/sich gerächt",,to take revenge (refl.),se venger (réfl.)
 1184,59,schleichen,"schlich, geschlichen",,"to sneak, to creep","se faufiler, ramper"
 1185,59,blitzen,"blitzte, geblitzt",,to flash,"clignoter, étinceler, flasher, scintiller"
 1186,59,herausfordern,"forderte heraus, herausgefordert",,"to challenge, to provoke, to banter to","défier, affronter"
@@ -1209,14 +1209,14 @@ Nr,exercise,question,answer,german,english,french
 1208,60,weggehen,"ging weg, weggegangen",,"to go away, to leave","s'en aller, quitter"
 1209,60,bügeln,"bügelte, gebügelt",,to iron,repasser (des vêtements)
 1210,61,schwellen,"schwoll, geschwollen",,"to swell, to expand, to rise","gonfler, enfler"
-1211,61,amüsieren,"amüsierte, amüsiert",,"to amuse, to entertain, to enjoy oneself","amuser, divertir, se faire plaisir"
+1211,61,amüsieren,"amüsierte/amüsierte sich, amüsiert/sich amüsiert",,"to amuse, to entertain, to enjoy oneself","amuser, divertir, se faire plaisir"
 1212,61,lauten,"lautete, gelautet",,"to read, to sound, to go (as in “it goes like…”)","lire, sonner"
 1213,61,anfassen,"fasste an, angefasst",,"to touch, to handle","toucher, manipuler"
 1214,61,vorgeben,"gab vor, vorgegeben",,"to claim, to pretend, to set (a pace)","revendiquer, prétendre, donner (un rythme)"
 1215,61,erkunden,"erkundete, erkundet",,"to explore, to investigate","explorer, enquêter"
 1216,61,beauftragen,"beauftragte, beauftragt",,"to assign, to commission, to instruct","assigner, commissionner, instruire"
 1217,61,beeindrucken,"beeindruckte, beeindruckt",,to impress,impressionner
-1218,61,wundern,"wunderte, gewundert",,"to surprise, to amaze","surprendre, étonner"
+1218,61,wundern,"wunderte/wunderte sich, gewundert/sich gewundert",,"to surprise, to amaze","surprendre, étonner"
 1219,61,überqueren,"überquerte, überquert",,to cross,traverser
 1220,61,verfassen,"verfasste, verfasst",,"to write, to compose, to draft","écrire, composer, rédiger"
 1221,61,einschlafen,"schlief ein, eingeschlafen",,to fall asleep,s'endormir
@@ -1252,7 +1252,7 @@ Nr,exercise,question,answer,german,english,french
 1251,63,tauschen,"tauschte, getauscht",,"to swap, to trade, to exchange","échanger, troquer, échanger"
 1252,63,übertreiben,"übertrieb, übertrieben",,"to exaggerate, to overdo","exagérer, exagérer"
 1253,63,agieren,"agierte, agiert",,"to act, to operate, to perform, to act out","agir, opérer, exécuter"
-1254,63,begeben,"begab, begeben",,"to proceed to, to repair to, to endorse, to happen","procéder, réparer, approuver, se produire"
+1254,63,sich begeben,"begab sich, sich begeben",,"to proceed to, to repair to, to endorse, to happen","procéder, réparer, approuver, se produire"
 1255,63,bremsen,"bremste, gebremst",,"to slow down, to brake, to decelerate, to retard","ralentir, freiner, décélérer, retarder"
 1256,63,dokumentieren,"dokumentierte, dokumentiert",,"to record, to document, to demonstrate, to evidence","enregistrer, documenter, démontrer, prouver"
 1257,63,einreichen,"reichte ein, eingereicht",,"to submit, to present, to bring, to bring in, to deposit","soumettre, présenter, apporter, déposer"
@@ -1265,12 +1265,12 @@ Nr,exercise,question,answer,german,english,french
 1264,63,kommunizieren,"kommunizierte, kommuniziert",,"to communicate, to commune, to connect","communiquer, se connecter"
 1265,63,scannen,"scannte, gescannt",,"to scan, to court, to digitize","scanner, porter devant les tribunaux, numériser"
 1266,63,vergehen,"verging, vergangen",,"to die, to pass, to elapse, to perish","mourir, passer, s'écouler, périr"
-1267,63,verabreden,"verabredete, verabredet",,"to arrange, to make an appointment","prendre rendez-vous, convenir d'un rendez-vous"
+1267,63,verabreden,"verabredete/verabredete sich, verabredet/sich verabredet",,"to arrange, to make an appointment","prendre rendez-vous, convenir d'un rendez-vous"
 1268,63,kommentieren,"kommentierte, kommentiert",,to comment,commenter
 1269,63,abbiegen,"bog ab, abgebogen",,"to turn, to turn off, to bend","tourner, éteindre, plier"
 1270,64,aufzeigen,"zeigte auf, aufgezeigt",,"to point out, to demonstrate, to indicate","souligner, démontrer, indiquer"
-1271,64,auseinandersetzen,"setzte auseinander, auseinandergesetzt",,"to discuss, to engage, to altercate, to argue with","discuter, s'engager, se disputer, argumenter avec"
-1272,64,langweilen,"langweilte, gelangweilt",,"to bore, to be bored, to be boring","s'ennuyer, être ennuyé, être ennuyeux"
+1271,64,auseinandersetzen,"setzte auseinander/setzte sich auseinander, auseinandergesetzt/sich auseinandergesetzt",,"to discuss, to engage, to altercate, to argue with","discuter, s'engager, se disputer, argumenter avec"
+1272,64,langweilen,"langweilte/langweilte sich, gelangweilt/sich gelangweilt",,"to bore, to be bored, to be boring","s'ennuyer, être ennuyé, être ennuyeux"
 1273,64,losgehen,"ging los, losgegangen",,"to leave, to go off, to advance","partir, s'en aller, avancer"
 1274,64,recyceln,"recycelte, recycelt",,to recycle,recycler
 1275,64,aushalten,"hielt aus, ausgehalten",,"to bear, to endure, to withstand, to tolerate","supporter, endurer, résister, tolérer"
@@ -1304,7 +1304,7 @@ Nr,exercise,question,answer,german,english,french
 1303,65,beleben,"belebte, belebt",,"to invigorate, to animate, to revive","animer, revivre, relancer"
 1304,65,brüllen,"brüllte, gebrüllt",,"to bellow, to howl, to roar, to bray",hurler
 1305,65,erlöschen,"erlosch, erloschen",,"to go out, to die out, to expire",s'éteindre
-1306,65,erschöpfen,"erschöpfte, erschöpft",,"to exhaust, to deplete, to drain",épuiser
+1306,65,erschöpfen,"erschöpfte/erschöpfte sich, erschöpft/sich erschöpft",,"to exhaust, to deplete, to drain",épuiser
 1307,65,gedeihen,"gedieh, gediehen",,"to flourish, to prosper, to thrive","prospérer, s'épanouir, croître, fleurir"
 1308,65,schweben,"schwebte, geschwebt",,"to over, to float, to glide","flotter, planer"
 1309,65,spinnen,"spann, gesponnen",,"to spin, to act strangely, to act up","tisser, filer"
@@ -1322,7 +1322,7 @@ Nr,exercise,question,answer,german,english,french
 1321,66,rinnen,"rann, geronnen",,"to flow, to trickle, to run",canaliser
 1322,66,weben,"webte, gewebt",,"to weave, to fabricate","tisser, tramer"
 1323,66,anhaben,"hatte an, angehabt",,"to have on, to wear, to harm, to damage","porter, arborer, avoir, posséder"
-1324,66,erkälten,"erkältete, erkältet",,"to catch a cold, to get cold","attraper un rhume, prendre froid"
+1324,66,sich erkälten,"erkältete sich, sich erkältet",,"to catch a cold, to get cold","attraper un rhume, prendre froid"
 1325,66,abkommen,"kam ab, abgekommen",,"to diverge, to deviate, to stray, to depart","s'éloigner, s'écarter, maigrir"
 1326,66,ausgestalten,"gestaltete aus, ausgestaltet",,"to design, to shape, to arrange","aménager, arranger, décorer"
 1327,66,doppeln,"doppelte, gedoppelt",,"to double, to duplicate, to fold","doubler, dupliquer, reproduire"
