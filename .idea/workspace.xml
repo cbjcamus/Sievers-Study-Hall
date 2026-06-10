@@ -7,35 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update May 28th">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update June 9th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/descriptions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/descriptions_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/descriptions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/descriptions_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/praepositionen_artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/praepositionen_artikel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/pronomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/pronomen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/verben_artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/verben_artikel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/genus/plural.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/plural.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/imperativ.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/imperativ.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/partizip_I.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/partizip_I.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/partizip_II.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/praesens.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/praesens.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/praeteritum.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/praeteritum.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/konjugation/praeteritum_partizip_II.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/konjugation/praeteritum_partizip_II.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/other/exercises.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/exercises.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_nomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_nomen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/pronominaladverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/pronominaladverbien.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/konnektoren.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/wortstellung.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/wortstellung.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/verben/trennbare_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/verben/trennbare_verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/verben/verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/verben/verben.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_verben_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_verben_wortstaemme.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/nomen_verben_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/nomen_verben_wortstaemme.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/static/js/exercise/insertSpecialCharacter.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/js/exercise/insertSpecialCharacter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,14 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00162" summary="next exercise button + adjektivdeklinationen + genus">
-      <option name="closed" value="true" />
-      <created>1767891485198</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1767891485198</updated>
     </task>
     <task id="LOCAL-00163" summary="next exercise button + adjektivdeklinationen + genus">
       <option name="closed" value="true" />
@@ -586,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779984252076</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="update June 9th">
+      <option name="closed" value="true" />
+      <created>1781009251569</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1781009251569</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -602,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="faq" />
     <MESSAGE value="update christmas edition" />
     <MESSAGE value="update New Year Edition" />
     <MESSAGE value="update praepositionen grammatik" />
@@ -627,7 +602,8 @@
     <MESSAGE value="update May 12th" />
     <MESSAGE value="update May 19th" />
     <MESSAGE value="update May 28th" />
-    <option name="LAST_COMMIT_MESSAGE" value="update May 28th" />
+    <MESSAGE value="update June 9th" />
+    <option name="LAST_COMMIT_MESSAGE" value="update June 9th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
