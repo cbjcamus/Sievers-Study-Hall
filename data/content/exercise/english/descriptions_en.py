@@ -557,6 +557,21 @@ DESCRIPTION_EXERCISE_EN = {
         63: "Relative clauses with <i>wo</i>, <i>woher</i> and <i>wohin</i>",
         64: "Relative clauses with <i>wo</i>, <i>woher</i> and <i>wohin</i>",
 
+        65: "Subordinating conjunctions and Causal adverbs at C1 level",
+        66: "Subordinating conjunctions and Causal adverbs at C1 level",
+        67: "Subordinating conjunctions and Causal adverbs at C1 level",
+        68: "Subordinating conjunctions and Causal adverbs at C1 level",
+        69: "<i>Wo</i>-words as relative pronouns",
+        70: "Reported speech using Konjunktiv I",
+        71: "Conditional Inversion",
+        72: "Concessive Inversion",
+        73: "3 verbs: Modals in the Perfect tense",
+        74: "3 verbs: Passive voice with Modals",
+        75: "3 verbs: Passive voice in the Perfect tense",
+        76: "3 verbs: Future tense with Modals",
+        77: "3 verbs: Future II (Future Perfect)",
+        78: "3 verbs: Modals for supposition in the Perfect tense",
+
     },
 
     adjektive: {

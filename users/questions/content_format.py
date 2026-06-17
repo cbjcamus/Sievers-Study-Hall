@@ -277,8 +277,28 @@ def format_options_word_order(unit, exercise, question_id):
         str.maketrans('', '', string.punctuation.replace('-', ''))
     )
     # Lowercase first letter of first word
+    list_do_not_lowercase = [
+        'Paris',
+        'Deutschland',
+        'Frankreich',
+        'München',
+        'Rom',
+        'Wien',
+        'Berlin',
+        'Italien',
+        'Spanien',
+        'Österreich',
+        'Japan',
+        'Indien',
+        'Paul',
+        'Peter',
+    ]
+
     if question_text:
-        question_text = question_text[0].lower() + question_text[1:]
+        first_word = question_text.split()[0]
+
+        if first_word not in list_do_not_lowercase:
+            question_text = question_text[0].lower() + question_text[1:]
 
     # Split into list of words
     options = question_text.split()

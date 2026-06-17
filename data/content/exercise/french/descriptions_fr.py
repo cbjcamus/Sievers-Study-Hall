@@ -568,6 +568,21 @@ DESCRIPTION_EXERCISE_FR = {
         62: "Pronoms Réfléchis avec des sujets en tant que noms et pronoms",
         63: "Propositions relatives avec <i>wo</i>, <i>woher</i> et <i>wohin</i>",
         64: "Propositions relatives avec <i>wo</i>, <i>woher</i> et <i>wohin</i>",
+
+        65: "Conjonctions de Subordination et Adverbes Causaux de niveau C1",
+        66: "Conjonctions de Subordination et Adverbes Causaux de niveau C1",
+        67: "Conjonctions de Subordination et Adverbes Causaux de niveau C1",
+        68: "Conjonctions de Subordination et Adverbes Causaux de niveau C1",
+        69: "Pronoms relatifs en <i>Wo-</i>",
+        70: "Discours rapporté avec le Konjunktiv I",
+        71: "Inversion conditionnelle",
+        72: "Inversion concessive",
+        73: "3 verbes: Verbes Modaux au Passé Composé",
+        74: "3 verbes: Verbes Modaux avec la Voix Passive ",
+        75: "3 verbes: Passé Composé avec la Voix Passive",
+        76: "3 verbes: Verbes Modaux au Futur",
+        77: "3 verbes: Futur Composé (Futur II)",
+        78: "3 verbes: Verbes Modaux utilisés pour exprimer une supposition au Passé Composé",
     },
 
     adjektive: {
