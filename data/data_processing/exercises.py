@@ -122,7 +122,7 @@ def get_answer_column(unit, exercise, language):
 
     answer_column = row.iloc[0]["answer_column"]
 
-    return answer_column
+    return answer_column lol
 '''
 
 
