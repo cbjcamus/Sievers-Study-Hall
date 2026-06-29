@@ -184,12 +184,16 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         return ""
 
     if is_exercise_multiple_choice(unit, exercise) is True:
+        print('test')
         data = load_data_level(unit, exercise)
 
         question_column = get_question_column(unit, exercise, language)
+        print('question_column', question_column)
         answer_column = get_answer_column(unit, exercise, language)
+        print('answer_column', answer_column)
 
         match = data.loc[data[answer_column] == incorrect_answer, question_column]
+        print('match', match)
 
         if not match.empty:
             question = match.iloc[0]

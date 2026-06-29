@@ -154,9 +154,6 @@ def exercise_page(unit, exercise):
     exercise_is_multiple_choice_target = is_exercise_multiple_choice_target(unit, exercise)
     exercise_is_word_order = is_exercise_word_order(unit, exercise)
 
-    print("exercise_is_multiple_choice_target", exercise_is_multiple_choice_target)
-    print("exercise_is_multiple_choice_native", exercise_is_multiple_choice_native)
-
     if exercise_is_word_order:
         word_order_words = format_options_word_order(unit, exercise, question_id)
     else:

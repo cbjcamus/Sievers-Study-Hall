@@ -133,7 +133,7 @@ def get_question_column(unit, exercise, language):
     """
 
     if is_exercise_multiple_choice_native(unit, exercise):
-        return 'question'
+        return 'german'
 
     else:
         return language
