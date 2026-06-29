@@ -234,10 +234,15 @@ GUIDANCE_UNIT_FR = {
 
         f"<br><br> {ICON_WARN} N’écrivez pas le pronom personnel, sinon votre réponse sera considérée comme incorrecte."
 
-        "<h2>Exemple</h2>"
+        "<h2>Exemples</h2>"
         "sein \u25CF Du"
         f"<br><br> &nbsp; {ICON_CHECK} wärest"
         f"<br><br> &nbsp; {ICON_CROSS} Du wärest"
+
+        "<br><br>geben \u25CF er/sie/es"
+        f"<br><br> &nbsp; {ICON_CHECK} gäbest"
+        f"<br><br> &nbsp; {ICON_CHECK} gäbst"
+        f"<br><br> &nbsp; {ICON_CROSS} würdest geben"
     ,
 
     konjunktiv_I:
@@ -710,7 +715,7 @@ guidance_adverbien_einander_sentences = (
     f"<br><br> &nbsp; {ICON_CROSS} nebeneinander"
 )
 
-guidance_adverbien_multiple_choices_english_to_german = (
+guidance_adverbien_multiple_choices_french_to_german = (
     "Pour chaque question, vous verrez la traduction française d'un adjectif et de cinq adverbes allemands."
     "<br>Sélectionnez l'adverbe allemand correspondant à la traduction française"
     
@@ -731,7 +736,7 @@ guidance_adverbien_multiple_choices_english_to_german = (
     f"<br> &nbsp; {ICON_CROSS} pour un Abschluss"
 )
 
-guidance_adverbien_multiple_choices_german_to_english = (
+guidance_adverbien_multiple_choices_german_to_french = (
     "Pour chaque question, vous verrez un adverbe allemand et cinq traductions française possibles."
     "<br>Sélectionnez la traduction correspondant à l'adverbe allemand."
     
@@ -811,7 +816,7 @@ guidance_adjektive_comparison_words = (
     f"<br><br> &nbsp; {ICON_CHECK} als"
 )
 
-guidance_adjektive_multiple_choices_english_to_german = (
+guidance_adjektive_multiple_choices_french_to_german = (
     "Pour chaque question, vous verrez la traduction française d’un adjectif allemand et cinq adjectifs allemands."
     "<br>Sélectionnez l’adjectif allemand qui correspond à la traduction française"
 
@@ -825,7 +830,7 @@ guidance_adjektive_multiple_choices_english_to_german = (
     f"<br><br> &nbsp; {ICON_CHECK} eigen"
 )
 
-guidance_adjektive_multiple_choices_german_to_english = (
+guidance_adjektive_multiple_choices_german_to_french = (
     "Pour chaque question, vous verrez un adjectif allemand et cinq traductions française possibles."
     "<br>Sélectionnez la traduction qui correspond à l’adjectif allemand."
 
@@ -973,7 +978,7 @@ guidance_verben_translation = (
     f"<br><br> &nbsp; {ICON_CROSS} freuen"
 )
 
-guidance_verben_multiple_choices_english_to_german = (
+guidance_verben_multiple_choices_french_to_german = (
     "Pour chaque question, vous verrez la traduction française d’un verbe allemand et cinq verbes allemands."
     "<br>Sélectionnez le verbe allemand qui correspond à l’ensemble de la traduction."
 
@@ -990,7 +995,7 @@ guidance_verben_multiple_choices_english_to_german = (
     f"<br><br> &nbsp; {ICON_CHECK} ersetzen"
 )
 
-guidance_verben_multiple_choices_german_to_english = (
+guidance_verben_multiple_choices_german_to_french = (
     "Pour chaque question, vous verrez un verbe allemand et cinq traductions française possibles."
     "<br>Sélectionnez la traduction qui correspond au verbe allemand."
 
@@ -1260,7 +1265,7 @@ guidance_zahlen_fraction_sentence = (
 )
 
 guidance_zahlen_multiplier_isolation = (
-    "For each question, you will be provided an English multiplier."
+    "For each question, you will be provided an french multiplier."
     "<br><br>Translate this multiplier in German."
 
     "<h2>Example</h2>"
@@ -1269,7 +1274,7 @@ guidance_zahlen_multiplier_isolation = (
 )
 
 guidance_zahlen_multiplier_sentence = (
-    "For each question, you will be provided a German sentence and its English translation."
+    "For each question, you will be provided a German sentence and its french translation."
     "<br><br>The German sentence has a multiplier missing. Find the one that fits."
 
     f"<br><br> {ICON_WARN} The multiplier should be declined based on the context."
@@ -1389,6 +1394,8 @@ GUIDANCE_EXERCISE_FR = {
         38: guidance_praepositionen_verben_sentences,
         39: guidance_praepositionen_verben_isolation,
         40: guidance_praepositionen_verben_sentences,
+        41: guidance_praepositionen_verben_isolation,
+        42: guidance_praepositionen_verben_sentences,
     },
 
     praepositionen_adjektive: {
@@ -1855,56 +1862,126 @@ GUIDANCE_EXERCISE_FR = {
         2: guidance_verben_translation,
         3: guidance_verben_translation,
         4: guidance_verben_translation,
-        5: guidance_verben_translation,
 
+        5: guidance_verben_translation,
         6: guidance_verben_translation,
         7: guidance_verben_translation,
         8: guidance_verben_translation,
-        9: guidance_verben_translation,
-        10: guidance_verben_translation,
 
-        11: guidance_verben_multiple_choices_english_to_german,
-        12: guidance_verben_multiple_choices_english_to_german,
-        13: guidance_verben_multiple_choices_english_to_german,
-        14: guidance_verben_multiple_choices_english_to_german,
-        15: guidance_verben_multiple_choices_english_to_german,
-        16: guidance_verben_multiple_choices_german_to_english,
-        17: guidance_verben_multiple_choices_german_to_english,
-        18: guidance_verben_multiple_choices_german_to_english,
-        19: guidance_verben_multiple_choices_german_to_english,
-        20: guidance_verben_multiple_choices_german_to_english,
+        9: guidance_verben_multiple_choices_german_to_french,
+        10: guidance_verben_multiple_choices_german_to_french,
+        11: guidance_verben_multiple_choices_german_to_french,
+        12: guidance_verben_multiple_choices_german_to_french,
+        13: guidance_verben_multiple_choices_german_to_french,
+        14: guidance_verben_multiple_choices_german_to_french,
+        15: guidance_verben_multiple_choices_german_to_french,
+        16: guidance_verben_multiple_choices_german_to_french,
+        17: guidance_verben_multiple_choices_french_to_german,
+        18: guidance_verben_multiple_choices_french_to_german,
+        19: guidance_verben_multiple_choices_french_to_german,
+        20: guidance_verben_multiple_choices_french_to_german,
+        21: guidance_verben_multiple_choices_french_to_german,
+        22: guidance_verben_multiple_choices_french_to_german,
+        23: guidance_verben_multiple_choices_french_to_german,
+        24: guidance_verben_multiple_choices_french_to_german,
 
-        21: guidance_verben_multiple_choices_english_to_german,
-        22: guidance_verben_multiple_choices_english_to_german,
-        23: guidance_verben_multiple_choices_english_to_german,
-        24: guidance_verben_multiple_choices_english_to_german,
-        25: guidance_verben_multiple_choices_english_to_german,
-        26: guidance_verben_multiple_choices_german_to_english,
-        27: guidance_verben_multiple_choices_german_to_english,
-        28: guidance_verben_multiple_choices_german_to_english,
-        29: guidance_verben_multiple_choices_german_to_english,
-        30: guidance_verben_multiple_choices_german_to_english,
+        25: guidance_verben_multiple_choices_german_to_french,
+        26: guidance_verben_multiple_choices_german_to_french,
+        27: guidance_verben_multiple_choices_german_to_french,
+        28: guidance_verben_multiple_choices_german_to_french,
+        29: guidance_verben_multiple_choices_german_to_french,
+        30: guidance_verben_multiple_choices_german_to_french,
+        31: guidance_verben_multiple_choices_german_to_french,
+        32: guidance_verben_multiple_choices_german_to_french,
+        33: guidance_verben_multiple_choices_german_to_french,
+        34: guidance_verben_multiple_choices_german_to_french,
+        35: guidance_verben_multiple_choices_german_to_french,
+        36: guidance_verben_multiple_choices_german_to_french,
+        37: guidance_verben_multiple_choices_german_to_french,
+        38: guidance_verben_multiple_choices_german_to_french,
+        39: guidance_verben_multiple_choices_german_to_french,
+        40: guidance_verben_multiple_choices_german_to_french,
+        41: guidance_verben_multiple_choices_french_to_german,
+        42: guidance_verben_multiple_choices_french_to_german,
+        43: guidance_verben_multiple_choices_french_to_german,
+        44: guidance_verben_multiple_choices_french_to_german,
+        45: guidance_verben_multiple_choices_french_to_german,
+        46: guidance_verben_multiple_choices_french_to_german,
+        47: guidance_verben_multiple_choices_french_to_german,
+        48: guidance_verben_multiple_choices_french_to_german,
+        49: guidance_verben_multiple_choices_french_to_german,
+        50: guidance_verben_multiple_choices_french_to_german,
+        51: guidance_verben_multiple_choices_french_to_german,
+        52: guidance_verben_multiple_choices_french_to_german,
+        53: guidance_verben_multiple_choices_french_to_german,
+        54: guidance_verben_multiple_choices_french_to_german,
+        55: guidance_verben_multiple_choices_french_to_german,
+        56: guidance_verben_multiple_choices_french_to_german,
 
-        31: guidance_verben_multiple_choices_english_to_german,
-        32: guidance_verben_multiple_choices_english_to_german,
-        33: guidance_verben_multiple_choices_english_to_german,
-        34: guidance_verben_multiple_choices_english_to_german,
-        35: guidance_verben_multiple_choices_english_to_german,
-        36: guidance_verben_multiple_choices_english_to_german,
-        37: guidance_verben_multiple_choices_english_to_german,
-        38: guidance_verben_multiple_choices_english_to_german,
-        39: guidance_verben_multiple_choices_english_to_german,
-        40: guidance_verben_multiple_choices_english_to_german,
-        41: guidance_verben_multiple_choices_german_to_english,
-        42: guidance_verben_multiple_choices_german_to_english,
-        43: guidance_verben_multiple_choices_german_to_english,
-        44: guidance_verben_multiple_choices_german_to_english,
-        45: guidance_verben_multiple_choices_german_to_english,
-        46: guidance_verben_multiple_choices_german_to_english,
-        47: guidance_verben_multiple_choices_german_to_english,
-        48: guidance_verben_multiple_choices_german_to_english,
-        49: guidance_verben_multiple_choices_german_to_english,
-        50: guidance_verben_multiple_choices_german_to_english,
+        57: guidance_verben_multiple_choices_german_to_french,
+        58: guidance_verben_multiple_choices_german_to_french,
+        59: guidance_verben_multiple_choices_german_to_french,
+        60: guidance_verben_multiple_choices_german_to_french,
+        61: guidance_verben_multiple_choices_german_to_french,
+        62: guidance_verben_multiple_choices_german_to_french,
+        63: guidance_verben_multiple_choices_german_to_french,
+        64: guidance_verben_multiple_choices_german_to_french,
+        65: guidance_verben_multiple_choices_german_to_french,
+        66: guidance_verben_multiple_choices_german_to_french,
+        67: guidance_verben_multiple_choices_german_to_french,
+        68: guidance_verben_multiple_choices_german_to_french,
+        69: guidance_verben_multiple_choices_german_to_french,
+        70: guidance_verben_multiple_choices_german_to_french,
+        71: guidance_verben_multiple_choices_german_to_french,
+        72: guidance_verben_multiple_choices_german_to_french,
+        73: guidance_verben_multiple_choices_german_to_french,
+        74: guidance_verben_multiple_choices_german_to_french,
+        75: guidance_verben_multiple_choices_german_to_french,
+        76: guidance_verben_multiple_choices_german_to_french,
+        77: guidance_verben_multiple_choices_german_to_french,
+        78: guidance_verben_multiple_choices_german_to_french,
+        79: guidance_verben_multiple_choices_german_to_french,
+        80: guidance_verben_multiple_choices_german_to_french,
+        81: guidance_verben_multiple_choices_german_to_french,
+        82: guidance_verben_multiple_choices_german_to_french,
+        83: guidance_verben_multiple_choices_german_to_french,
+        84: guidance_verben_multiple_choices_german_to_french,
+        85: guidance_verben_multiple_choices_german_to_french,
+        86: guidance_verben_multiple_choices_german_to_french,
+        87: guidance_verben_multiple_choices_german_to_french,
+        88: guidance_verben_multiple_choices_german_to_french,
+        89: guidance_verben_multiple_choices_french_to_german,
+        90: guidance_verben_multiple_choices_french_to_german,
+        91: guidance_verben_multiple_choices_french_to_german,
+        92: guidance_verben_multiple_choices_french_to_german,
+        93: guidance_verben_multiple_choices_french_to_german,
+        94: guidance_verben_multiple_choices_french_to_german,
+        95: guidance_verben_multiple_choices_french_to_german,
+        96: guidance_verben_multiple_choices_french_to_german,
+        97: guidance_verben_multiple_choices_french_to_german,
+        98: guidance_verben_multiple_choices_french_to_german,
+        99: guidance_verben_multiple_choices_french_to_german,
+        100: guidance_verben_multiple_choices_french_to_german,
+        101: guidance_verben_multiple_choices_french_to_german,
+        102: guidance_verben_multiple_choices_french_to_german,
+        103: guidance_verben_multiple_choices_french_to_german,
+        104: guidance_verben_multiple_choices_french_to_german,
+        105: guidance_verben_multiple_choices_french_to_german,
+        106: guidance_verben_multiple_choices_french_to_german,
+        107: guidance_verben_multiple_choices_french_to_german,
+        108: guidance_verben_multiple_choices_french_to_german,
+        109: guidance_verben_multiple_choices_french_to_german,
+        110: guidance_verben_multiple_choices_french_to_german,
+        111: guidance_verben_multiple_choices_french_to_german,
+        112: guidance_verben_multiple_choices_french_to_german,
+        113: guidance_verben_multiple_choices_french_to_german,
+        114: guidance_verben_multiple_choices_french_to_german,
+        115: guidance_verben_multiple_choices_french_to_german,
+        116: guidance_verben_multiple_choices_french_to_german,
+        117: guidance_verben_multiple_choices_french_to_german,
+        118: guidance_verben_multiple_choices_french_to_german,
+        119: guidance_verben_multiple_choices_french_to_german,
+        120: guidance_verben_multiple_choices_french_to_german,
     },
 
     trennbare_verben: {
@@ -1933,21 +2010,21 @@ GUIDANCE_EXERCISE_FR = {
         20: guidance_trennbare_verben_root,
         21: guidance_trennbare_verben_root,
         22: guidance_trennbare_verben_root,
-        23: guidance_trennbare_verben_prefix,
-        24: guidance_trennbare_verben_prefix,
+        23: guidance_trennbare_verben_root,
+        24: guidance_trennbare_verben_root,
         25: guidance_trennbare_verben_prefix,
         26: guidance_trennbare_verben_prefix,
-        27: guidance_trennbare_verben_no_help,
-        28: guidance_trennbare_verben_no_help,
-        29: guidance_trennbare_verben_no_help,
-        30: guidance_trennbare_verben_no_help,
+        27: guidance_trennbare_verben_prefix,
+        28: guidance_trennbare_verben_prefix,
+        29: guidance_trennbare_verben_prefix,
+        30: guidance_trennbare_verben_prefix,
+        31: guidance_trennbare_verben_no_help,
+        32: guidance_trennbare_verben_no_help,
+        33: guidance_trennbare_verben_no_help,
+        34: guidance_trennbare_verben_no_help,
+        35: guidance_trennbare_verben_no_help,
+        36: guidance_trennbare_verben_no_help,
 
-        31: guidance_trennbare_verben_root,
-        32: guidance_trennbare_verben_root,
-        33: guidance_trennbare_verben_root,
-        34: guidance_trennbare_verben_root,
-        35: guidance_trennbare_verben_root,
-        36: guidance_trennbare_verben_root,
         37: guidance_trennbare_verben_root,
         38: guidance_trennbare_verben_root,
         39: guidance_trennbare_verben_root,
@@ -1966,22 +2043,55 @@ GUIDANCE_EXERCISE_FR = {
         52: guidance_trennbare_verben_root,
         53: guidance_trennbare_verben_root,
         54: guidance_trennbare_verben_root,
-        55: guidance_trennbare_verben_prefix,
-        56: guidance_trennbare_verben_prefix,
-        57: guidance_trennbare_verben_prefix,
-        58: guidance_trennbare_verben_prefix,
-        59: guidance_trennbare_verben_prefix,
-        60: guidance_trennbare_verben_prefix,
-        61: guidance_trennbare_verben_prefix,
-        62: guidance_trennbare_verben_prefix,
-        63: guidance_verben_multiple_choices_english_to_german,
-        64: guidance_verben_multiple_choices_english_to_german,
-        65: guidance_verben_multiple_choices_english_to_german,
-        66: guidance_verben_multiple_choices_english_to_german,
-        67: guidance_verben_multiple_choices_english_to_german,
-        68: guidance_verben_multiple_choices_english_to_german,
-        69: guidance_verben_multiple_choices_english_to_german,
-        70: guidance_verben_multiple_choices_english_to_german,
+        55: guidance_trennbare_verben_root,
+        56: guidance_trennbare_verben_root,
+        57: guidance_trennbare_verben_root,
+        58: guidance_trennbare_verben_root,
+        59: guidance_trennbare_verben_root,
+        60: guidance_trennbare_verben_root,
+        61: guidance_trennbare_verben_root,
+        62: guidance_trennbare_verben_root,
+        63: guidance_trennbare_verben_root,
+        64: guidance_trennbare_verben_root,
+        65: guidance_trennbare_verben_root,
+        66: guidance_trennbare_verben_root,
+        67: guidance_trennbare_verben_root,
+        68: guidance_trennbare_verben_root,
+        69: guidance_trennbare_verben_root,
+        70: guidance_trennbare_verben_prefix,
+        71: guidance_trennbare_verben_prefix,
+        72: guidance_trennbare_verben_prefix,
+        73: guidance_trennbare_verben_prefix,
+        74: guidance_trennbare_verben_prefix,
+        75: guidance_trennbare_verben_prefix,
+        76: guidance_trennbare_verben_prefix,
+        77: guidance_trennbare_verben_prefix,
+        78: guidance_trennbare_verben_prefix,
+        79: guidance_trennbare_verben_prefix,
+        80: guidance_trennbare_verben_prefix,
+        81: guidance_trennbare_verben_prefix,
+        82: guidance_trennbare_verben_prefix,
+        83: guidance_trennbare_verben_prefix,
+        84: guidance_trennbare_verben_prefix,
+        85: guidance_trennbare_verben_prefix,
+        86: guidance_trennbare_verben_prefix,
+        87: guidance_verben_multiple_choices_french_to_german,
+        88: guidance_verben_multiple_choices_french_to_german,
+        89: guidance_verben_multiple_choices_french_to_german,
+        90: guidance_verben_multiple_choices_french_to_german,
+        91: guidance_verben_multiple_choices_french_to_german,
+        92: guidance_verben_multiple_choices_french_to_german,
+        93: guidance_verben_multiple_choices_french_to_german,
+        94: guidance_verben_multiple_choices_french_to_german,
+        95: guidance_verben_multiple_choices_french_to_german,
+        96: guidance_verben_multiple_choices_french_to_german,
+        97: guidance_verben_multiple_choices_french_to_german,
+        98: guidance_verben_multiple_choices_french_to_german,
+        99: guidance_verben_multiple_choices_french_to_german,
+        100: guidance_verben_multiple_choices_french_to_german,
+        101: guidance_verben_multiple_choices_french_to_german,
+        102: guidance_verben_multiple_choices_french_to_german,
+        103: guidance_verben_multiple_choices_french_to_german,
     },
 
     nomen_verben_verbindungen: {

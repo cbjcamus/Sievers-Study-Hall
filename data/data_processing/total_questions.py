@@ -19,7 +19,7 @@ def compute_highest_exercise(unit):
         int: The highest valid exercise number for the unit.
     """
     data = df_units[unit]
-    highest_exercise_unit = np.max(data[data["exercise"] < 100]["exercise"])
+    highest_exercise_unit = np.max(data[data["exercise"] < 1000]["exercise"])
     return int(highest_exercise_unit)
 
 

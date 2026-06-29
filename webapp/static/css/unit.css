@@ -33,13 +33,13 @@
 
 .exercise-table td a.button {
     display: inline-block;
-    width: 90px;
+    width: 100px;
     text-align: center;
 }
 
 @media (max-width: 768px) {
     .exercise-table td a.button {
-        width: 70px;
+        width: 80px;
     }
 }
 

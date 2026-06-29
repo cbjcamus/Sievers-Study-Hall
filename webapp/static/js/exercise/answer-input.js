@@ -1,8 +1,10 @@
 window.onload = function () {
-    const answer = document.getElementById("input-answer");
+    const input =
+        document.getElementById("input-answer") ||
+        document.getElementById("local-mc-input");
 
-    if (answer) {
-        answer.focus();
+    if (input) {
+        input.focus();
     }
 };
 

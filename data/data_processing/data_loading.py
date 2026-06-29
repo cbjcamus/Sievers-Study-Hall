@@ -5,7 +5,7 @@ from data.data_processing.pre_processing import pre_processing
 
 def load_data_unit(unit):
     data = df_units[unit].fillna("")
-    data = data[data["exercise"] < 100].copy()
+    data = data[data["exercise"] < 1000].copy()
     return data
 
 

@@ -11,8 +11,8 @@ from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMI
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.exercises import is_exercise_multiple_choice, does_unit_exercise_exist, is_exercise_input, \
-    is_exercise_word_order
+from data.data_processing.exercises import is_exercise_multiple_choice_native, does_unit_exercise_exist, is_exercise_input, \
+    is_exercise_word_order, is_exercise_multiple_choice_target
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 
@@ -24,7 +24,7 @@ from users.progress.progress import compute_answered_questions, update_progress_
 from users.progress.register_update import register_progress, register_incorrect_answer
 from users.progress.is_exercise_finished import is_exercise_finished
 
-from users.questions.normalization import is_user_answer_correct
+from users.questions.normalization import is_user_answer_correct, get_correct_answer
 from users.questions.content_format import format_instruction, format_question, format_gender, format_guidance, \
     format_feedback, format_correction, format_options_word_order
 from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
@@ -124,6 +124,8 @@ def exercise_page(unit, exercise):
     question_id = pick_a_question(session, unit, exercise)
     formated_question_text = format_question(unit, exercise, language, question_id)
 
+    correct_answer = get_correct_answer(unit, exercise, question_id, language)
+
     result, user_answer, previous_question_id = read_feedback(session)
 
     feedback_message = format_feedback(unit, exercise, language, previous_question_id)
@@ -148,8 +150,12 @@ def exercise_page(unit, exercise):
     options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_id, language)
 
     exercise_is_input = is_exercise_input(unit, exercise)
-    exercise_is_multiple_choice = is_exercise_multiple_choice(unit, exercise)
+    exercise_is_multiple_choice_native = is_exercise_multiple_choice_native(unit, exercise)
+    exercise_is_multiple_choice_target = is_exercise_multiple_choice_target(unit, exercise)
     exercise_is_word_order = is_exercise_word_order(unit, exercise)
+
+    print("exercise_is_multiple_choice_target", exercise_is_multiple_choice_target)
+    print("exercise_is_multiple_choice_native", exercise_is_multiple_choice_native)
 
     if exercise_is_word_order:
         word_order_words = format_options_word_order(unit, exercise, question_id)
@@ -162,8 +168,10 @@ def exercise_page(unit, exercise):
                            exercise_title=EXERCISE_TITLE[language],
                            instruction_text=formated_instruction,
                            question_text=formated_question_text,
+                           correct_answer=correct_answer,
                            exercise_is_input=exercise_is_input,
-                           exercise_is_multiple_choice=exercise_is_multiple_choice,
+                           exercise_is_multiple_choice_native=exercise_is_multiple_choice_native,
+                           exercise_is_multiple_choice_target=exercise_is_multiple_choice_target,
                            exercise_is_word_order=exercise_is_word_order,
                            word_order_words=word_order_words,
                            nr=question_id,

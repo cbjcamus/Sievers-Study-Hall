@@ -52,16 +52,25 @@ def is_exercise_multiple_choice(unit, exercise):
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'].isin(['multiple_choice', 'multiple_choice_foreign']))
+        (df['type'].isin(['multiple_choice_target', 'multiple_choice_native']))
     ].empty
 
 
-def is_exercise_multiple_choice_foreign(unit, exercise):
+def is_exercise_multiple_choice_native(unit, exercise):
     df = df_exercises
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'] == 'multiple_choice_foreign')
+        (df['type'] == 'multiple_choice_native')
+    ].empty
+
+
+def is_exercise_multiple_choice_target(unit, exercise):
+    df = df_exercises
+    return not df[
+        (df['unit'] == unit) &
+        (df['exercise'] == exercise) &
+        (df['type'] == 'multiple_choice_target')
     ].empty
 
 
@@ -98,7 +107,7 @@ def get_answer_column(unit, exercise, language):
     and returns the list of exercise IDs to include.
     """
 
-    if is_exercise_multiple_choice_foreign(unit, exercise):
+    if is_exercise_multiple_choice_native(unit, exercise):
         return language
 
     else:
@@ -123,7 +132,7 @@ def get_question_column(unit, exercise, language):
     and returns the list of exercise IDs to include.
     """
 
-    if is_exercise_multiple_choice_foreign(unit, exercise):
+    if is_exercise_multiple_choice_native(unit, exercise):
         return 'question'
 
     else:
@@ -162,7 +171,7 @@ def get_multiple_choice_extent(unit, exercise):
 
     exercise_type = row["type"].iloc[0]
 
-    if exercise_type not in ["multiple_choice", "multiple_choice_foreign"]:
+    if exercise_type not in ["multiple_choice_target", "multiple_choice_native"]:
         return ''
 
     exercises = df[

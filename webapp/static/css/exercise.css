@@ -196,6 +196,10 @@ body.day-mode .option-button {
     border: 1px solid black;
 }
 
+.local-mc-options {
+    margin-top: 20px;
+}
+
 .word-order-line {
     width: 100%;
     max-width: 350px;

@@ -1,5 +1,5 @@
 Nr,exercise,question,answer,combination,german,english,french,gender_english,gender_french,expression,case_preposition,explanation_english,explanation_french,verb,level verb NVV,level verb root,level chatgpt,NVV,is_NVV,root_verb
-1,1,vor etw.<sup>Dat</sup> _____ haben,Angst,Angst haben,vor etw.<sup>Dat</sup> Angst haben,to be afraid of,avoir peur de,Feminine,Féminin,vor etw.<sup>Dat</sup> Angst haben,vor + Dat.,vor etw.<sup>Dat</sup> Angst haben = to be afraid of,vor etw.<sup>Dat</sup> Angst haben = avoir peur de,,,B1,B1,Angst haben,borderline NVV,sich fürchten
+1,1,vor etw.<sup>Dat</sup> _____ haben,Angst,Angst haben,vor etw.<sup>Dat</sup> Angst haben,to be afraid of,avoir peur de,Feminine,Féminin,vor etw.<sup>Dat</sup> Angst haben,vor + Dat.,vor etw.<sup>Dat</sup> Angst haben = to be afraid of,vor etw.<sup>Dat</sup> Angst haben = avoir peur de,,,B2,B1,Angst haben,borderline NVV,sich fürchten
 2,1,_____ stellen,eine Frage,eine Frage stellen,eine Frage stellen,to ask a question,poser une question,Feminine,Féminin,,an + Dat.,eine Frage stellen = to ask a question,eine Frage stellen = poser une question,,,A1,B1,eine Frage stellen,yes,fragen
 3,1,_____ geben,eine Antwort,eine Antwort geben,eine Antwort geben,"to answer, to give an answer",répondre,Feminine,Féminin,,auf + Acc.,"eine Antwort geben = to answer, to give an answer",eine Antwort geben = répondre,,,A2,B1,eine Antwort geben,yes,antworten
 4,1,_____ geben,einen Rat,einen Rat geben,einen Rat geben,"to advise, to give some advice","conseiller, donner un conseil",Masculine,Masculin,,,"einen Rat geben = to advise, to give some advice","einen Rat geben = conseiller, donner un conseil",,,B1,B1B2,einen Rat geben,yes,raten
@@ -63,8 +63,8 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 62,5,nach jdm./etw.<sup>Dat</sup> _____ sein,auf der Suche,auf der Suche sein,nach jdm./etw.<sup>Dat</sup> auf der Suche sein,"to look for, to search","chercher, être à la recherche de",Feminine,Féminin,nach jdm./etw.<sup>Dat</sup> auf der Suche sein,nach + Dat.,"nach jdm./etw.<sup>Dat</sup> auf der Suche sein = to look for, to search","nach jdm./etw.<sup>Dat</sup> auf der Suche sein = chercher, être à la recherche de",,,A1,B1B2,auf der Suche sein,borderline NVV,suchen
 63,5,"_____ sagen, geben",Bescheid,"Bescheid sagen, Bescheid geben",jdm. Bescheid sagen/geben,to let somebody know,faire passer un message,Masculine,Masculin,jdm. Bescheid sagen/geben,,jdm. Bescheid sagen/geben = to let somebody know,jdm. Bescheid sagen/geben = faire passer un message,,,B1,B2,"Bescheid sagen, Bescheid geben",yes,informieren
 64,5,_____ sein,in der Lage,in der Lage sein,in der Lage sein,"to be able to, to be in a position to","pourvoir, être capable de",Feminine,Féminin,,zu + Inf.,"in der Lage sein = to be able to, to be in a position to","in der Lage sein = pourvoir, être capable de",,,A1,B2,in der Lage sein,fixed expression (not NVV),können
-65,5,_____ treffen,Vorbereitungen,Vorbereitungen treffen,Vorbereitungen treffen,"to prepare, to make preparations","préparer, faire des préparatifs",Plural,Pluriel,,,"Vorbereitungen treffen = to prepare, to make preparations","Vorbereitungen treffen = préparer, faire des préparatifs",,,B1,B2,Vorbereitungen treffen,yes,vorbereiten
-66,5,sich<sup>Acc/Dat</sup> _____ geben,Mühe,sich Mühe geben,sich<sup>Acc/Dat</sup> Mühe geben,"to take care, to make an effort",faire un effort,Feminine,Féminin,sich<sup>Acc/Dat</sup> Mühe geben,,"sich<sup>Acc/Dat</sup> Mühe geben = to take care, to make an effort",sich<sup>Acc/Dat</sup> Mühe geben = faire un effort,,,B1,B1,sich Mühe geben,yes,sich bemühen
+65,5,_____ treffen,Vorbereitungen,Vorbereitungen treffen,Vorbereitungen treffen,"to prepare, to make preparations","préparer, faire des préparatifs",Plural,Pluriel,,,"Vorbereitungen treffen = to prepare, to make preparations","Vorbereitungen treffen = préparer, faire des préparatifs",,,A2,B2,Vorbereitungen treffen,yes,vorbereiten
+66,5,sich<sup>Acc/Dat</sup> _____ geben,Mühe,sich Mühe geben,sich<sup>Acc/Dat</sup> Mühe geben,"to take care, to make an effort",faire un effort,Feminine,Féminin,sich<sup>Acc/Dat</sup> Mühe geben,,"sich<sup>Acc/Dat</sup> Mühe geben = to take care, to make an effort",sich<sup>Acc/Dat</sup> Mühe geben = faire un effort,,,B2,B1,sich Mühe geben,yes,sich bemühen
 67,5,_____ machen,ein Angebot,ein Angebot machen,ein Angebot machen,to make an offer,faire une offre,Neuter,Neutre,,für + Acc.,ein Angebot machen = to make an offer,ein Angebot machen = faire une offre,,,B1,B1B2,ein Angebot machen,yes,anbieten
 68,5,_____ wissen,Bescheid,Bescheid wissen,Bescheid wissen,to be in the know,être au courant,Masculine,Masculin,,über + Acc.,Bescheid wissen = to be in the know,Bescheid wissen = être au courant,,,B2,Bescheid wissen,fixed expression,"informiert sein, wissen",
 69,5,_____ kommen,ums Leben,ums Leben kommen,ums Leben kommen,"to perish, to lose one's life","mourir, périr",Neuter,Neutre,,,"ums Leben kommen = to perish, to lose one's life","ums Leben kommen = mourir, périr",kommen,A1,B2,ums Leben kommen,fixed expression,sterben,
@@ -120,11 +120,11 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 119,8,Für seine Karriere hat er häufige Geschäftsreisen in Kauf _____.,genommen,in Kauf nehmen,Für seine Karriere hat er häufige Geschäftsreisen in Kauf genommen.,"For his career, he accepted frequent business trips.","Pour sa carrière, il a accepté de nombreux voyages d’affaires.",,,,,"in Kauf nehmen = to accept, to take the risk",in Kauf nehmen = accepter,,,,,,,
 120,8,"Um das Projekt erfolgreich abzuschließen, müssen wir jetzt mehr Stress und Überstunden in Kauf _____.",nehmen,in Kauf nehmen,"Um das Projekt erfolgreich abzuschließen, müssen wir jetzt mehr Stress und Überstunden in Kauf nehmen.","To complete the project successfully, we now have to accept more stress and overtime.","Pour terminer le projet avec succès, nous devons maintenant accepter plus de stress et d’heures supplémentaires.",,,,,"in Kauf nehmen = to accept, to take the risk",in Kauf nehmen = accepter,,,,,,,
 121,9,_____ treffen,Maßnahmen,"Maßnahmen treffen, Maßnahmen ergreifen","Maßnahmen treffen, Maßnahmen ergreifen","to do something, to take action, to take measures","agir, prendre des mesures",Plural,Pluriel,,,"Maßnahmen treffen, Maßnahmen ergreifen = to do something, to take action, to take measures","Maßnahmen treffen, Maßnahmen ergreifen = agir, prendre des mesures",,,,B2,"Maßnahmen treffen, Maßnahmen ergreifen",yes,"Maßnahmen ergreifen, handeln"
-122,9,_____ haben,Zweifel,"Zweifel haben, Zweifel hegen","Zweifel haben, Zweifel hegen","to doubt, to have doubts","douter, avoir des doutes",Masculine,Masculin,,an + Dat.,"Zweifel haben, Zweifel hegen = to doubt, to have doubts","Zweifel haben, Zweifel hegen = douter, avoir des doutes",,,C2,B2,"Zweifel haben, Zweifel hegen",borderline NVV,zweifeln
+122,9,_____ haben,Zweifel,"Zweifel haben, Zweifel hegen","Zweifel haben, Zweifel hegen","to doubt, to have doubts","douter, avoir des doutes",Masculine,Masculin,,an + Dat.,"Zweifel haben, Zweifel hegen = to doubt, to have doubts","Zweifel haben, Zweifel hegen = douter, avoir des doutes",,,C1,B2,"Zweifel haben, Zweifel hegen",borderline NVV,zweifeln
 123,9,sich<sup>Dat</sup> _____ machen,Gedanken,sich Gedanken machen,sich<sup>Dat</sup> Gedanken machen,"to think about, to be concerned about","réfléchir, se faire du souci, être inquiet",Plural,Pluriel,sich<sup>Dat</sup> Gedanken machen,über + Acc. / um + Acc.,"sich<sup>Dat</sup> Gedanken machen = to think about, to be concerned about","sich<sup>Dat</sup> Gedanken machen = réfléchir, se faire du souci, être inquiet",,,,B1B2,sich Gedanken machen,yes,"nachdenken, überlegen"
 124,9,_____ haben,einen Einfluss,einen Einfluss haben,einen Einfluss haben,to have an influence,"avoir une influence, avoir de l'influence",Masculine,Masculin,,auf + Acc.,einen Einfluss haben = to have an influence,"einen Einfluss haben = avoir une influence, avoir de l'influence",,,B2,B2,einen Einfluss haben,borderline NVV,beeinflussen
 125,9,_____ treffen,eine Wahl,eine Wahl treffen,eine Wahl treffen,to make a choice,faire un choix,Feminine,Féminin,,,eine Wahl treffen = to make a choice,eine Wahl treffen = faire un choix,,,A2,B2,eine Wahl treffen,yes,wählen
-126,9,_____ geben,die Erlaubnis,die Erlaubnis geben,die Erlaubnis geben,to give permission,donner la permission,Feminine,Féminin,,,die Erlaubnis geben = to give permission,die Erlaubnis geben = donner la permission,geben,A1,A2,B1B2,die Erlaubnis geben,yes,erlauben
+126,9,_____ geben,die Erlaubnis,die Erlaubnis geben,die Erlaubnis geben,to give permission,donner la permission,Feminine,Féminin,,,die Erlaubnis geben = to give permission,die Erlaubnis geben = donner la permission,geben,A1,B1,B1B2,die Erlaubnis geben,yes,erlauben
 127,9,_____ bringen,in Schwierigkeiten,in Schwierigkeiten bringen,in Schwierigkeiten bringen,to get into trouble,mettre en difficulté,Plural,Pluriel,,,in Schwierigkeiten bringen = to get into trouble,in Schwierigkeiten bringen = mettre en difficulté,,,,B2,in Schwierigkeiten bringen,semi-NVV,"gefährden, Probleme verursachen"
 128,9,_____ leisten,einen Beitrag,einen Beitrag leisten,einen Beitrag leisten,to contribute,"apporter une contribution, contribuer",Masculine,Masculin,,zu + Dat.,einen Beitrag leisten = to contribute,"einen Beitrag leisten = apporter une contribution, contribuer",,,B2,B2C1,einen Beitrag leisten,yes,beitragen
 129,9,etw.<sup>Acc</sup> _____ bringen,zu Ende,zu Ende bringen,etw.<sup>Acc</sup> zu Ende bringen,"to finish, to complete","finir, achever",Neuter,Neutre,etw.<sup>Acc</sup> zu Ende bringen,,"etw.<sup>Acc</sup> zu Ende bringen = to finish, to complete","etw.<sup>Acc</sup> zu Ende bringen = finir, achever",,,,B2,zu Ende bringen,fixed expression,"beenden, fertigstellen"
@@ -184,7 +184,7 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 183,13,_____ stehen,zur Verfügung,zur Verfügung stehen,zur Verfügung stehen,to be available,être disponible,Feminine,Féminin,,für + Acc.,zur Verfügung stehen = to be available,zur Verfügung stehen = être disponible,,,,B2,zur Verfügung stehen,no (fixed expression),verfügbar sein
 184,13,jdm. etw.<sup>Acc</sup> _____ stellen,zur Verfügung,zur Verfügung stellen,jdm. etw.<sup>Acc</sup> zur Verfügung stellen,"to make something available, to provide something",fournir,Feminine,Féminin,jdm. etw.<sup>Acc</sup> zur Verfügung stellen,,"jdm. etw.<sup>Acc</sup> zur Verfügung stellen = to make something available, to provide something",jdm. etw.<sup>Acc</sup> zur Verfügung stellen = fournir,,,C1,B2C1,zur Verfügung stellen,yes,bereitstellen
 185,13,_____ kommen,in Frage,in Frage kommen,in Frage kommen,"to be a possibility, to come into question","être éligible, être pris en considération",Feminine,Féminin,,für + Acc.,"in Frage kommen = to be a possibility, to come into question","in Frage kommen = être éligible, être pris en considération",,,,B2,in Frage kommen,fixed expression,"möglich sein, infrage sein"
-186,13,etw.<sup>Acc</sup> _____ stellen,in Frage,in Frage stellen,etw.<sup>Acc</sup> in Frage stellen,"to question, to challenge, to come into question","remettre en question, mettre en cause, contester",Feminine,Féminin,etw.<sup>Acc</sup> in Frage stellen,,"etw.<sup>Acc</sup> in Frage stellen = to question, to challenge, to come into question","etw.<sup>Acc</sup> in Frage stellen = remettre en question, mettre en cause, contester",,,D1,B2C1,in Frage stellen,yes,bezweifeln
+186,13,etw.<sup>Acc</sup> _____ stellen,in Frage,in Frage stellen,etw.<sup>Acc</sup> in Frage stellen,"to question, to challenge, to come into question","remettre en question, mettre en cause, contester",Feminine,Féminin,etw.<sup>Acc</sup> in Frage stellen,,"etw.<sup>Acc</sup> in Frage stellen = to question, to challenge, to come into question","etw.<sup>Acc</sup> in Frage stellen = remettre en question, mettre en cause, contester",,,C2,B2C1,in Frage stellen,yes,bezweifeln
 187,13,_____ treffen,eine Entscheidung,eine Entscheidung treffen,eine Entscheidung treffen,"to decide, to make a decision","décider, prendre une décision",Feminine,Féminin,,,"eine Entscheidung treffen = to decide, to make a decision","eine Entscheidung treffen = décider, prendre une décision",,,A2,B2,eine Entscheidung treffen,yes,entscheiden
 188,13,für etw.<sup>Acc</sup> _____ haben,Verständnis,Verständnis haben,für etw.<sup>Acc</sup> Verständnis haben,be understanding,faire preuve de compréhension,Neuter,Neutre,für etw.<sup>Acc</sup> Verständnis haben,für + Acc.,für etw.<sup>Acc</sup> Verständnis haben = be understanding,für etw.<sup>Acc</sup> Verständnis haben = faire preuve de compréhension,haben,A1,A1,B1B2,Verständnis haben,borderline NVV,verstehen
 189,13,_____ ablegen,eine Prüfung,eine Prüfung ablegen,eine Prüfung ablegen,to take an exam,passer un examen,Feminine,Féminin,,,eine Prüfung ablegen = to take an exam,eine Prüfung ablegen = passer un examen,,,,B2,eine Prüfung ablegen,yes,"geprüft werden, eine Prüfung machen"
@@ -239,9 +239,9 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 238,16,Er hat mehrere Prüfungen an einem Tag _____ und war danach völlig erschöpft.,abgelegt,eine Prüfung ablegen,Er hat mehrere Prüfungen an einem Tag abgelegt und war danach völlig erschöpft.,He took several exams in one day and was completely exhausted afterward.,Il a passé plusieurs examens en une seule journée et était complètement épuisé après.,,,,,eine Prüfung ablegen = to take an exam,eine Prüfung ablegen = passer un examen,,,,,,,
 239,16,Bei der Abschlussfeier hat der beste Student eine inspirierende Rede _____.,gehalten,eine Rede halten,Bei der Abschlussfeier hat der beste Student eine inspirierende Rede gehalten.,"At the graduation ceremony, the top student delivered an inspiring speech.","Lors de la cérémonie de fin d’études, le meilleur étudiant a tenu un discours inspirant.",,,,,über etw.<sup>Acc</sup> eine Rede halten = to give a speech,"über etw.<sup>Acc</sup> eine Rede halten = faire un discours, prononcer un discours",,,,,,,
 240,16,"Wenn man eine gute Rede _____ will, sollte man sie vorher gründlich vorbereiten.",halten,eine Rede halten,"Wenn man eine gute Rede halten will, sollte man sie vorher gründlich vorbereiten.","If you want to give a good speech, you should prepare it thoroughly beforehand.","Si on veut prononcer un bon discours, il faut bien le préparer à l’avance.",,,,,über etw.<sup>Acc</sup> eine Rede halten = to give a speech,"über etw.<sup>Acc</sup> eine Rede halten = faire un discours, prononcer un discours",,,,,,,
-241,17,_____ leisten,Hilfe,Hilfe leisten,Hilfe leisten,"to help, to provide assistance","aider, fournir de l'aide",Feminine,Féminin,,,"Hilfe leisten = to help, to provide assistance","Hilfe leisten = aider, fournir de l'aide",,,A2,B2,Hilfe leisten,yes,helfen
-242,17,_____ zeigen,Interesse,Interesse zeigen,Interesse zeigen,"to be interested in, to show interest",montrer de l'intérêt,Neuter,Neutre,,an + Dat.,"Interesse zeigen = to be interested in, to show interest",Interesse zeigen = montrer de l'intérêt,,,A1,B2,Interesse zeigen,yes,sich interessieren für
-243,17,_____ schließen,Freundschaft,Freundschaft schließen,Freundschaft schließen,"to make friends, to become friends",se faire des amis,Feminine,Féminin,,mit + Dat.,"Freundschaft schließen = to make friends, to become friends",Freundschaft schließen = se faire des amis,,,D1,B2,Freundschaft schließen,yes,anfreunden
+241,17,_____ leisten,Hilfe,Hilfe leisten,Hilfe leisten,"to help, to provide assistance","aider, fournir de l'aide",Feminine,Féminin,,,"Hilfe leisten = to help, to provide assistance","Hilfe leisten = aider, fournir de l'aide",,,A1,B2,Hilfe leisten,yes,helfen
+242,17,_____ zeigen,Interesse,Interesse zeigen,Interesse zeigen,"to be interested in, to show interest",montrer de l'intérêt,Neuter,Neutre,,an + Dat.,"Interesse zeigen = to be interested in, to show interest",Interesse zeigen = montrer de l'intérêt,,,A2,B2,Interesse zeigen,yes,sich interessieren für
+243,17,_____ schließen,Freundschaft,Freundschaft schließen,Freundschaft schließen,"to make friends, to become friends",se faire des amis,Feminine,Féminin,,mit + Dat.,"Freundschaft schließen = to make friends, to become friends",Freundschaft schließen = se faire des amis,,,C2,B2,Freundschaft schließen,yes,anfreunden
 244,17,_____ nehmen,Platz,Platz nehmen,Platz nehmen,"to seat, to take a seat","s'assoir, prendre place",Masculine,Masculin,,,"Platz nehmen = to seat, to take a seat","Platz nehmen = s'assoir, prendre place",,,A2,B2,Platz nehmen,yes (formal NVV),sich setzen
 245,17,etw.<sup>Acc</sup> über jdn./etw.<sup>Acc</sup> _____ bringen,in Erfahrung,in Erfahrung bringen,etw.<sup>Acc</sup> über jdn./etw.<sup>Acc</sup> in Erfahrung bringen,"to find out, to learn, to come to know","apprendre, se renseigner",Feminine,Féminin,etw.<sup>Acc</sup> über jdn./etw.<sup>Acc</sup> in Erfahrung bringen,über + Acc.,"etw.<sup>Acc</sup> über jdn./etw.<sup>Acc</sup> in Erfahrung bringen = to find out, to learn, to come to know","etw.<sup>Acc</sup> über jdn./etw.<sup>Acc</sup> in Erfahrung bringen = apprendre, se renseigner",,,,C1,in Erfahrung bringen,yes,"herausfinden, erfahren"
 246,17,_____ gehen,in Erfüllung,in Erfüllung gehen,in Erfüllung gehen,"to come true, to fulfill",se réaliser,Feminine,Féminin,,,"in Erfüllung gehen = to come true, to fulfill",in Erfüllung gehen = se réaliser,,,,B2C1,in Erfüllung gehen,fixed expression,sich erfüllen
@@ -467,88 +467,88 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 466,32,"Die Situation war so chaotisch, dass niemand richtig zur Ruhe _____ konnte.",kommen,zur Ruhe kommen,"Die Situation war so chaotisch, dass niemand richtig zur Ruhe kommen konnte.",The situation was so chaotic that no one could really calm down.,La situation était tellement chaotique que personne ne pouvait vraiment se détendre.,,,,,"zur Ruhe kommen = to calm down, to relax","zur Ruhe kommen = se calmer, se reposer",,,,,,,
 467,32,Erst nach mehreren Tests konnte die Forschung zu einem klaren Ergebnis _____.,kommen,zu einem Ergebnis kommen,Erst nach mehreren Tests konnte die Forschung zu einem klaren Ergebnis kommen.,Only after several tests was the research able to reach a clear result.,Ce n’est qu’après plusieurs tests que la recherche a pu arriver à un résultat clair.,,,,,"zu einem Ergebnis kommen = to reach a conclusion, to arrive at a finding, to be an outcome","zu einem Ergebnis kommen = parvenir à un résultat, arriver à un résultat",,,,,,,
 468,32,"Wenn beide Seiten kompromissbereit sind, kann man schneller zu einem Ergebnis _____.",kommen,zu einem Ergebnis kommen,"Wenn beide Seiten kompromissbereit sind, kann man schneller zu einem Ergebnis kommen.","If both sides are willing to compromise, you can reach a result more quickly.","Si les deux parties sont prêtes à faire des compromis, on peut arriver plus vite à un résultat.",,,,,"zu einem Ergebnis kommen = to reach a conclusion, to arrive at a finding, to be an outcome","zu einem Ergebnis kommen = parvenir à un résultat, arriver à un résultat",,,,,,,
-469,105,,,Freude bereiten,Freude bereiten,give pleasure,apporter de la joie,,,,,,,bereiten,C1,,B1B2,Freude bereiten,borderline NVV,erfreuen
-470,110,,,ein Referat halten,ein Referat halten,Give a presentation,,,,,,,,halten,A1,,B2,ein Referat halten,yes,"referieren, vortragen"
-471,110,,,ein Risiko eingehen,ein Risiko eingehen,Take a risk,,,,,,,,eingehen,B2,,B2,ein Risiko eingehen,yes,riskieren
-472,110,,,einen Auftrag geben,einen Auftrag geben,place an order,,,,,,,,geben,A1,,B2,einen Auftrag geben,yes,beauftragen
-473,110,,,Gefahr laufen,Gefahr laufen,Run a risk,,,,,,,,laufen,A1,,B2,Gefahr laufen,yes,riskieren
-474,110,,,Gefallen finden,Gefallen finden,Take a liking to,,,,,an,,,finden,A1,,B2,Gefallen finden,yes,gefallen an etwas finden ≈ mögen
-475,110,,,Kontakt aufnehmen,Kontakt aufnehmen,make contact,,,,,,,,aufnehmen,B1,,B2,Kontakt aufnehmen,yes,kontaktieren
-476,110,,,Mut fassen,Mut fassen,take courage,,,,,,,,fassen,B2,,B2,Mut fassen,yes,"sich ermutigen, mutig werden"
-477,110,,,sich Hoffnung machen,sich Hoffnung machen,give oneself hope,,,,,,,,machen,A1,,B2,sich Hoffnung machen,borderline NVV,hoffen
-478,110,,,eine Niederlage erleiden,eine Niederlage erleiden,suffer a defeat,,,,,,,,erleiden,C1,,B2,eine Niederlage erleiden,yes,verlieren
-479,110,,,Auskunft geben,Auskunft geben,to provide information,,,,,über,,,geben,A1,,B2,Auskunft geben,yes,informieren
-480,110,,,viel Worte machen,viel Worte machen,to make a big deal out of,,,,,um,,,machen,A1,,B2,viel Worte machen,yes,viel reden
-481,115,,,ein Gefühl erwecken,ein Gefühl erwecken,,,,,,bei,,,erwecken,D1,,B2C1,ein Gefühl erwecken,borderline NVV,"wirken, den Eindruck erwecken"
-482,115,,,eine Erklärung liefern,eine Erklärung liefern,provide an explanation,,,,,,,,liefern,B1,,B2C1,eine Erklärung liefern,borderline NVV,erklären
-483,115,,,auf Ablehnung stoßen,auf Ablehnung stoßen,Be rejected,,,,,,,,stoßen,B1,,B2C1,auf Ablehnung stoßen,yes,abgelehnt werden
-484,115,,,auf Kritik stoßen,auf Kritik stoßen,Be criticized,,,,,,,,stoßen,B1,,B2C1,auf Kritik stoßen,yes,kritisiert werden
-485,115,,,eine Analyse durchführen,eine Analyse durchführen,conduct an analysis,,,,,,,,durchführen,B2,,B2C1,eine Analyse durchführen,yes,analysieren
-486,115,,,eine Vereinbarung treffen,eine Vereinbarung treffen,reach an agreement,,,,,,,,treffen,A1,,B2C1,eine Vereinbarung treffen,yes,vereinbaren
-487,115,,,Einfluss nehmen,Einfluss nehmen,Exert influence,,,,,auf,,,nehmen,A1,,B2C1,Einfluss nehmen,yes,beeinflussen
-488,115,,,in Angriff nehmen,in Angriff nehmen,Tackle,,,,,,,,nehmen,A1,,B2C1,in Angriff nehmen,yes,"beginnen, angehen"
-489,115,,,in Bewegung bringen,in Bewegung bringen,Set in motion,,,,,,,,bringen,A1,,B2C1,in Bewegung bringen,yes,"bewegen, auslösen"
-490,115,,,in Schutz nehmen,in Schutz nehmen,take someone under one's protection,,,,,,,,nehmen,A1,,B2C1,in Schutz nehmen,yes,verteidigen
-491,115,,,in Verlegenheit bringen,in Verlegenheit bringen,embarrass,,,,,,,,bringen,A1,,B2C1,in Verlegenheit bringen,yes,"beschämen, in Bedrängnis bringen"
-492,115,,,sich zum Ziel setzen,sich zum Ziel setzen,set oneself a goal,,,,,,,,setzen,A2,,B2C1,sich zum Ziel setzen,yes,sich vornehmen
-493,115,,,zu einer Einsicht kommen,zu einer Einsicht kommen,come to an understanding,,,,,,,,kommen,A1,,B2C1,zu einer Einsicht kommen,borderline NVV,einsehen
-494,115,,,zum Ausdruck bringen,zum Ausdruck bringen,express oneself,,,,,,,,bringen,A1,,B2C1,zum Ausdruck bringen,yes,ausdrücken
-495,115,,,zur Folge haben,zur Folge haben,have consequences,,,,,,,,haben,A1,,B2C1,zur Folge haben,yes,"verursachen, bewirken"
-496,115,,,zur Verzweiflung bringen,zur Verzweiflung bringen,drive someone to despair,,,,,,,,bringen,A1,,B2C1,zur Verzweiflung bringen,yes,verzweifeln lassen
-497,115,,,Anerkennung finden,Anerkennung finden,gain recognition,,,,,,,,finden,A1,,B2C1,Anerkennung finden,borderline NVV,anerkannt werden
-498,115,,,in die Lage versetzen,in die Lage versetzen,put someone in a position,,,,,,,,versetzen,C2,,B2C1,in die Lage versetzen,yes,"befähigen, ermöglichen"
-499,115,,,in die Länge ziehen,in die Länge ziehen,,,,,,,,,ziehen,A1,,B2C1,in die Länge ziehen,borderline NVV,verlängern
-500,115,,,sich in ein Abenteuer einlassen,sich in ein Abenteuer einlassen,to embark on an adventure,,,,,,,,einlassen,D1,,B2C1,sich in ein Abenteuer einlassen,no (lexical verb),wagen
-501,115,,,in ein Lied einstimmen,in ein Lied einstimmen,to sing along to a song,,,,,,,,einstimmen,D1,,B2C1,in ein Lied einstimmen,no,mitsingen
-502,115,,,"Vertrauen, Zuversicht setzen","Vertrauen, Zuversicht setzen","to place trust, confidence in",,,,,in,,,setzen,A2,,B2C1,Vertrauen setzen (auf),borderline NVV,vertrauen
-503,115,,,Herr sein,Herr sein,to be in control,,,,,über,,,sein,A1,,B2C1,Zuversicht setzen (auf),borderline NVV,hoffen
-504,120,,,sich an etwas satt essen,sich an etwas satt essen,to eat from something to satiety,,,,,Dat.,,,essen,A1,,C1,ein gutes Wort einlegen,yes,sich einsetzen für
-505,120,,,zur Verantwortung ziehen,zur Verantwortung ziehen,to hold somebody accountable,tenir pour responsable,,,,,zur Verantwortung ziehen = to hold somebody accountable,zur Verantwortung ziehen = tenir pour responsable,ziehen,A1,,C1,eine Gelegenheit ergreifen,yes,nutzen
-506,120,,,eine Entscheidung fällen,eine Entscheidung fällen,make a decision,,,,,,,,fällen,B2,,C1,zur Verantwortung ziehen,yes,belangen
-507,120,,,die Konsequenzen ziehen,die Konsequenzen ziehen,Draw conclusions,,,,,,,,ziehen,A1,,C1,eine Entscheidung fällen,yes,entscheiden
-508,120,,,in Kenntnis setzen,in Kenntnis setzen,Inform,,,,,,,,setzen,A2,,C1,in Kenntnis setzen,yes,informieren
-509,120,,,Anspruch erheben,Anspruch erheben,Make a claim,,,,,,,,erheben,B2,,C1,Anspruch erheben,yes,beanspruchen
-510,120,,,Anwendung finden,Anwendung finden,Be applied,,,,,,,,finden,A1,,C1,Anwendung finden,borderline NVV,angewendet werden
-511,120,,,Auftrag erteilen,Auftrag erteilen,Place an order,,,,,,,,erteilen,B2,,C1,Auftrag erteilen,yes,beauftragen
-512,120,,,Auskunft erteilen,Auskunft erteilen,Provide information,,,,,,,,erteilen,B2,,C1,Auskunft erteilen,yes,informieren
-513,120,,,Beachtung finden,Beachtung finden,Receive attention,,,,,,,,finden,A1,,C1,Beachtung finden,borderline NVV,beachtet werden
-514,120,,,ein Urteil fällen,ein Urteil fällen,Make a judgment,,,,,,,,fällen,B2,,C1,ein Urteil fällen,yes,urteilen
-515,120,,,eine Forderung erheben,eine Forderung erheben,make a demand,,,,,nach,,,erheben,B2,,C1,eine Forderung erheben,yes,fordern
-516,120,,,einen Beschluss fassen,einen Beschluss fassen,pass a resolution,,,,,,,,fassen,B2,,C1,einen Beschluss fassen,yes,beschließen
-517,120,,,einen Kompromiss schließen,einen Kompromiss schließen,reach a compromise,,,,,,,,schließen,A2,,C1,einen Kompromiss schließen,yes,sich einigen
-518,120,,,Einspruch erheben,Einspruch erheben,Lodge an objection,,,,,,,,erheben,B2,,C1,Einspruch erheben,yes,widersprechen
-519,120,,,in Auftrag geben,in Auftrag geben,Commission,,,,,,,,geben,A1,,C1,in Auftrag geben,yes,beauftragen
-520,120,,,in Erwägung ziehen,in Erwägung ziehen,Consider,,,,,,,,ziehen,A1,,C1,in Erwägung ziehen,yes,erwägen
-521,120,,,In Haft nehmen,In Haft nehmen,Take into custody,,,,,,,,nehmen,A1,,C1,in Haft nehmen,yes,verhaften
-522,120,,,in Kraft treten,in Kraft treten,Come into force,,,,,,,,treten,B1,,C1,in Kraft treten,fixed expression,wirksam werden
-523,120,,,in Rechnung stellen,in Rechnung stellen,charge,,,,,,,,stellen,A2,,C1,in Rechnung stellen,yes,berechnen
-524,120,,,in Verdacht geraten,in Verdacht geraten,come under suspicion,,,,,,,,geraten,B1,,C1,in Verdacht geraten,fixed expression,verdächtigt werden
-525,120,,,in Zweifel ziehen,in Zweifel ziehen,cast doubt on,,,,,,,,ziehen,A1,,C1,in Zweifel ziehen,yes,bezweifeln
-526,120,,,Klage erheben,Klage erheben,file a lawsuit,,,,,,,,erheben,B2,,C1,Klage erheben,yes,klagen
-527,120,,,Protest erheben,Protest erheben,protest,,,,,,,,erheben,B2,,C1,Protest erheben,yes,protestieren
-528,120,,,Stellung nehmen,Stellung nehmen,take a stand,,,,,,,,nehmen,A1,,C1,Stellung nehmen,yes,"reagieren, kommentieren"
-529,120,,,unter Beweis stellen,unter Beweis stellen,prove oneself,,,,,,,,stellen,A2,,C1,unter Beweis stellen,yes,beweisen
-530,120,,,Verzicht leisten / üben,Verzicht leisten / üben,make sacrifices,,,,,,,,leisten,B2,,C1,Verzicht leisten / üben,borderline NVV,verzichten
-531,120,,,vor Gericht bringen,vor Gericht bringen,take to court,,,,,,,,bringen,A1,,C1,vor Gericht bringen,yes,verklagen
-532,120,,,zur Anzeige bringen,zur Anzeige bringen,report to the police,,,,,,,,bringen,A1,,C1,zur Anzeige bringen,yes,anzeigen
-533,120,,,zur Last fallen,zur Last fallen,be a burden,,,,,,,,fallen,A2,,C1,zur Last fallen,fixed expression,angelastet werden
-534,130,,,eine Straftat begehen,eine Straftat begehen,commit a crime,,,,,,,,begehen,C1,,C1,eine Straftat begehen,yes,straffällig werden
-535,130,,,einen Vergleich anstellen,einen Vergleich anstellen,make a comparison,,,,,,,,anstellen,C1,,C1,einen Vergleich anstellen,no (lexical verb),vergleichen
-536,140,,,Berufung einlegen,Berufung einlegen,file an appeal,,,,,,,,einlegen,C2,,C1,Berufung einlegen,yes,Berufung einlegen ≈ appellieren
-537,140,,,einen Anruf tätigen,einen Anruf tätigen,make a phone call,,,,,,,,tätigen,D1,,C1,einen Anruf tätigen,yes (bureaucratic NVV),anrufen
-538,140,,,"ins rechte Licht setzen, rücken","ins rechte Licht setzen, rücken",,,,,,,,,setzen,A2,,C1,ins rechte Licht setzen / rücken,borderline NVV,positiv darstellen
-539,140,,,die Aufsicht führen,die Aufsicht führen,to supervise,,,,,über,,,führen,A1,,C1,die Aufsicht führen,yes,beaufsichtigen
-540,140,,,Gericht halten,Gericht halten,"to hold court, to adjudicate",,,,,über,,,halten,A1,,C1,Gericht halten,yes,richten
-541,140,,,Sorge tragen,Sorge tragen,,,,,,um,,,tragen,A1,,C1,Sorge tragen (für),yes,sich kümmern um
-542,140,,,sich verdient machen,sich verdient machen,,,,,,um,,,machen,A1,,C1,sich verdient machen (um),borderline NVV,sich auszeichnen
-543,140,,,Vorwurf erheben,Vorwurf erheben,,,,,,,,,,,,,Vorwurf erheben,yes,vorwerfen
-544,140,,,Acht geben auf,Acht geben auf,,,,,,,,,,,,,Acht geben auf,borderline NVV / fixed expression,aufpassen auf
-545,200,_____ bringen,zum Abschluss,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,Masculine,Masculin,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
-546,200,zum Abschluss _____,bringen,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
-547,200,Nach Monaten harter Arbeit wurde das Bauvorhaben _____ gebracht.,zum Abschluss,zum Abschluss bringen,Nach Monaten harter Arbeit wurde das Bauvorhaben zum Abschluss gebracht.,"After months of hard work, the construction project was completed.","Après des mois de travail acharné, le chantier a été mené à son terme.",,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
-548,200,Wir müssen das Projekt endlich _____ bringen.,zum Abschluss,zum Abschluss bringen,Wir müssen das Projekt endlich zum Abschluss bringen.,We need to finally bring the project to a close.,Nous devons enfin mener le projet à son terme.,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
-549,200,Das Team hat die Diskussion erfolgreich zum Abschluss _____.,gebracht,zum Abschluss bringen,Das Team hat die Diskussion erfolgreich zum Abschluss gebracht.,The team successfully brought the discussion to a conclusion.,L’équipe a mené la discussion à sa conclusion avec succès.,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
-550,200,Sie wollen die Verhandlungen bald zum Abschluss _____.,bringen,zum Abschluss bringen,Sie wollen die Verhandlungen bald zum Abschluss bringen.,They want to bring the negotiations to an end soon.,Ils veulent bientôt conclure les négociations.,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
-551,200,,,an die Arbeit gehen,,,,,,,,,,,,,,,,
-552,200,,,sich an die Arbeit,,,,,,,,,,,,,,,,
-553,200,,,in Arbeit sein,,,,,,,,,,,,,,,,
+469,1005,,,Freude bereiten,Freude bereiten,give pleasure,apporter de la joie,,,,,,,bereiten,C1,,B1B2,Freude bereiten,borderline NVV,erfreuen
+470,1010,,,ein Referat halten,ein Referat halten,Give a presentation,,,,,,,,halten,A1,,B2,ein Referat halten,yes,"referieren, vortragen"
+471,1010,,,ein Risiko eingehen,ein Risiko eingehen,Take a risk,,,,,,,,eingehen,B2,,B2,ein Risiko eingehen,yes,riskieren
+472,1010,,,einen Auftrag geben,einen Auftrag geben,place an order,,,,,,,,geben,A1,,B2,einen Auftrag geben,yes,beauftragen
+473,1010,,,Gefahr laufen,Gefahr laufen,Run a risk,,,,,,,,laufen,A1,,B2,Gefahr laufen,yes,riskieren
+474,1010,,,Gefallen finden,Gefallen finden,Take a liking to,,,,,an,,,finden,A1,,B2,Gefallen finden,yes,gefallen an etwas finden ≈ mögen
+475,1010,,,Kontakt aufnehmen,Kontakt aufnehmen,make contact,,,,,,,,aufnehmen,B1,,B2,Kontakt aufnehmen,yes,kontaktieren
+476,1010,,,Mut fassen,Mut fassen,take courage,,,,,,,,fassen,B2,,B2,Mut fassen,yes,"sich ermutigen, mutig werden"
+477,1010,,,sich Hoffnung machen,sich Hoffnung machen,give oneself hope,,,,,,,,machen,A1,,B2,sich Hoffnung machen,borderline NVV,hoffen
+478,1010,,,eine Niederlage erleiden,eine Niederlage erleiden,suffer a defeat,,,,,,,,erleiden,C1,,B2,eine Niederlage erleiden,yes,verlieren
+479,1010,,,Auskunft geben,Auskunft geben,to provide information,,,,,über,,,geben,A1,,B2,Auskunft geben,yes,informieren
+480,1010,,,viel Worte machen,viel Worte machen,to make a big deal out of,,,,,um,,,machen,A1,,B2,viel Worte machen,yes,viel reden
+481,1015,,,ein Gefühl erwecken,ein Gefühl erwecken,,,,,,bei,,,erwecken,C2,,B2C1,ein Gefühl erwecken,borderline NVV,"wirken, den Eindruck erwecken"
+482,1015,,,eine Erklärung liefern,eine Erklärung liefern,provide an explanation,,,,,,,,liefern,B1,,B2C1,eine Erklärung liefern,borderline NVV,erklären
+483,1015,,,auf Ablehnung stoßen,auf Ablehnung stoßen,Be rejected,,,,,,,,stoßen,B2,,B2C1,auf Ablehnung stoßen,yes,abgelehnt werden
+484,1015,,,auf Kritik stoßen,auf Kritik stoßen,Be criticized,,,,,,,,stoßen,B2,,B2C1,auf Kritik stoßen,yes,kritisiert werden
+485,1015,,,eine Analyse durchführen,eine Analyse durchführen,conduct an analysis,,,,,,,,durchführen,B2,,B2C1,eine Analyse durchführen,yes,analysieren
+486,1015,,,eine Vereinbarung treffen,eine Vereinbarung treffen,reach an agreement,,,,,,,,treffen,A1,,B2C1,eine Vereinbarung treffen,yes,vereinbaren
+487,1015,,,Einfluss nehmen,Einfluss nehmen,Exert influence,,,,,auf,,,nehmen,A1,,B2C1,Einfluss nehmen,yes,beeinflussen
+488,1015,,,in Angriff nehmen,in Angriff nehmen,Tackle,,,,,,,,nehmen,A1,,B2C1,in Angriff nehmen,yes,"beginnen, angehen"
+489,1015,,,in Bewegung bringen,in Bewegung bringen,Set in motion,,,,,,,,bringen,A1,,B2C1,in Bewegung bringen,yes,"bewegen, auslösen"
+490,1015,,,in Schutz nehmen,in Schutz nehmen,take someone under one's protection,,,,,,,,nehmen,A1,,B2C1,in Schutz nehmen,yes,verteidigen
+491,1015,,,in Verlegenheit bringen,in Verlegenheit bringen,embarrass,,,,,,,,bringen,A1,,B2C1,in Verlegenheit bringen,yes,"beschämen, in Bedrängnis bringen"
+492,1015,,,sich zum Ziel setzen,sich zum Ziel setzen,set oneself a goal,,,,,,,,setzen,A2,,B2C1,sich zum Ziel setzen,yes,sich vornehmen
+493,1015,,,zu einer Einsicht kommen,zu einer Einsicht kommen,come to an understanding,,,,,,,,kommen,A1,,B2C1,zu einer Einsicht kommen,borderline NVV,einsehen
+494,1015,,,zum Ausdruck bringen,zum Ausdruck bringen,express oneself,,,,,,,,bringen,A1,,B2C1,zum Ausdruck bringen,yes,ausdrücken
+495,1015,,,zur Folge haben,zur Folge haben,have consequences,,,,,,,,haben,A1,,B2C1,zur Folge haben,yes,"verursachen, bewirken"
+496,1015,,,zur Verzweiflung bringen,zur Verzweiflung bringen,drive someone to despair,,,,,,,,bringen,A1,,B2C1,zur Verzweiflung bringen,yes,verzweifeln lassen
+497,1015,,,Anerkennung finden,Anerkennung finden,gain recognition,,,,,,,,finden,A1,,B2C1,Anerkennung finden,borderline NVV,anerkannt werden
+498,1015,,,in die Lage versetzen,in die Lage versetzen,put someone in a position,,,,,,,,versetzen,C1,,B2C1,in die Lage versetzen,yes,"befähigen, ermöglichen"
+499,1015,,,in die Länge ziehen,in die Länge ziehen,,,,,,,,,ziehen,A1,,B2C1,in die Länge ziehen,borderline NVV,verlängern
+500,1015,,,sich in ein Abenteuer einlassen,sich in ein Abenteuer einlassen,to embark on an adventure,,,,,,,,einlassen,C2,,B2C1,sich in ein Abenteuer einlassen,no (lexical verb),wagen
+501,1015,,,in ein Lied einstimmen,in ein Lied einstimmen,to sing along to a song,,,,,,,,einstimmen,C2,,B2C1,in ein Lied einstimmen,no,mitsingen
+502,1015,,,"Vertrauen, Zuversicht setzen","Vertrauen, Zuversicht setzen","to place trust, confidence in",,,,,in,,,setzen,A2,,B2C1,Vertrauen setzen (auf),borderline NVV,vertrauen
+503,1015,,,Herr sein,Herr sein,to be in control,,,,,über,,,sein,A1,,B2C1,Zuversicht setzen (auf),borderline NVV,hoffen
+504,1020,,,sich an etwas satt essen,sich an etwas satt essen,to eat from something to satiety,,,,,Dat.,,,essen,A1,,C1,ein gutes Wort einlegen,yes,sich einsetzen für
+505,1020,,,zur Verantwortung ziehen,zur Verantwortung ziehen,to hold somebody accountable,tenir pour responsable,,,,,zur Verantwortung ziehen = to hold somebody accountable,zur Verantwortung ziehen = tenir pour responsable,ziehen,A1,,C1,eine Gelegenheit ergreifen,yes,nutzen
+506,1020,,,eine Entscheidung fällen,eine Entscheidung fällen,make a decision,,,,,,,,fällen,B2,,C1,zur Verantwortung ziehen,yes,belangen
+507,1020,,,die Konsequenzen ziehen,die Konsequenzen ziehen,Draw conclusions,,,,,,,,ziehen,A1,,C1,eine Entscheidung fällen,yes,entscheiden
+508,1020,,,in Kenntnis setzen,in Kenntnis setzen,Inform,,,,,,,,setzen,A2,,C1,in Kenntnis setzen,yes,informieren
+509,1020,,,Anspruch erheben,Anspruch erheben,Make a claim,,,,,,,,erheben,B2,,C1,Anspruch erheben,yes,beanspruchen
+510,1020,,,Anwendung finden,Anwendung finden,Be applied,,,,,,,,finden,A1,,C1,Anwendung finden,borderline NVV,angewendet werden
+511,1020,,,Auftrag erteilen,Auftrag erteilen,Place an order,,,,,,,,erteilen,C1,,C1,Auftrag erteilen,yes,beauftragen
+512,1020,,,Auskunft erteilen,Auskunft erteilen,Provide information,,,,,,,,erteilen,C1,,C1,Auskunft erteilen,yes,informieren
+513,1020,,,Beachtung finden,Beachtung finden,Receive attention,,,,,,,,finden,A1,,C1,Beachtung finden,borderline NVV,beachtet werden
+514,1020,,,ein Urteil fällen,ein Urteil fällen,Make a judgment,,,,,,,,fällen,B2,,C1,ein Urteil fällen,yes,urteilen
+515,1020,,,eine Forderung erheben,eine Forderung erheben,make a demand,,,,,nach,,,erheben,B2,,C1,eine Forderung erheben,yes,fordern
+516,1020,,,einen Beschluss fassen,einen Beschluss fassen,pass a resolution,,,,,,,,fassen,B2,,C1,einen Beschluss fassen,yes,beschließen
+517,1020,,,einen Kompromiss schließen,einen Kompromiss schließen,reach a compromise,,,,,,,,schließen,A1,,C1,einen Kompromiss schließen,yes,sich einigen
+518,1020,,,Einspruch erheben,Einspruch erheben,Lodge an objection,,,,,,,,erheben,B2,,C1,Einspruch erheben,yes,widersprechen
+519,1020,,,in Auftrag geben,in Auftrag geben,Commission,,,,,,,,geben,A1,,C1,in Auftrag geben,yes,beauftragen
+520,1020,,,in Erwägung ziehen,in Erwägung ziehen,Consider,,,,,,,,ziehen,A1,,C1,in Erwägung ziehen,yes,erwägen
+521,1020,,,In Haft nehmen,In Haft nehmen,Take into custody,,,,,,,,nehmen,A1,,C1,in Haft nehmen,yes,verhaften
+522,1020,,,in Kraft treten,in Kraft treten,Come into force,,,,,,,,treten,B2,,C1,in Kraft treten,fixed expression,wirksam werden
+523,1020,,,in Rechnung stellen,in Rechnung stellen,charge,,,,,,,,stellen,A2,,C1,in Rechnung stellen,yes,berechnen
+524,1020,,,in Verdacht geraten,in Verdacht geraten,come under suspicion,,,,,,,,geraten,B2,,C1,in Verdacht geraten,fixed expression,verdächtigt werden
+525,1020,,,in Zweifel ziehen,in Zweifel ziehen,cast doubt on,,,,,,,,ziehen,A1,,C1,in Zweifel ziehen,yes,bezweifeln
+526,1020,,,Klage erheben,Klage erheben,file a lawsuit,,,,,,,,erheben,B2,,C1,Klage erheben,yes,klagen
+527,1020,,,Protest erheben,Protest erheben,protest,,,,,,,,erheben,B2,,C1,Protest erheben,yes,protestieren
+528,1020,,,Stellung nehmen,Stellung nehmen,take a stand,,,,,,,,nehmen,A1,,C1,Stellung nehmen,yes,"reagieren, kommentieren"
+529,1020,,,unter Beweis stellen,unter Beweis stellen,prove oneself,,,,,,,,stellen,A2,,C1,unter Beweis stellen,yes,beweisen
+530,1020,,,Verzicht leisten / üben,Verzicht leisten / üben,make sacrifices,,,,,,,,leisten,B2,,C1,Verzicht leisten / üben,borderline NVV,verzichten
+531,1020,,,vor Gericht bringen,vor Gericht bringen,take to court,,,,,,,,bringen,A1,,C1,vor Gericht bringen,yes,verklagen
+532,1020,,,zur Anzeige bringen,zur Anzeige bringen,report to the police,,,,,,,,bringen,A1,,C1,zur Anzeige bringen,yes,anzeigen
+533,1020,,,zur Last fallen,zur Last fallen,be a burden,,,,,,,,fallen,B1,,C1,zur Last fallen,fixed expression,angelastet werden
+534,1030,,,eine Straftat begehen,eine Straftat begehen,commit a crime,,,,,,,,begehen,C1,,C1,eine Straftat begehen,yes,straffällig werden
+535,1030,,,einen Vergleich anstellen,einen Vergleich anstellen,make a comparison,,,,,,,,anstellen,C1,,C1,einen Vergleich anstellen,no (lexical verb),vergleichen
+536,1040,,,Berufung einlegen,Berufung einlegen,file an appeal,,,,,,,,einlegen,C1,,C1,Berufung einlegen,yes,Berufung einlegen ≈ appellieren
+537,1040,,,einen Anruf tätigen,einen Anruf tätigen,make a phone call,,,,,,,,tätigen,C2,,C1,einen Anruf tätigen,yes (bureaucratic NVV),anrufen
+538,1040,,,"ins rechte Licht setzen, rücken","ins rechte Licht setzen, rücken",,,,,,,,,setzen,A2,,C1,ins rechte Licht setzen / rücken,borderline NVV,positiv darstellen
+539,1040,,,die Aufsicht führen,die Aufsicht führen,to supervise,,,,,über,,,führen,A2,,C1,die Aufsicht führen,yes,beaufsichtigen
+540,1040,,,Gericht halten,Gericht halten,"to hold court, to adjudicate",,,,,über,,,halten,A1,,C1,Gericht halten,yes,richten
+541,1040,,,Sorge tragen,Sorge tragen,,,,,,um,,,tragen,A1,,C1,Sorge tragen (für),yes,sich kümmern um
+542,1040,,,sich verdient machen,sich verdient machen,,,,,,um,,,machen,A1,,C1,sich verdient machen (um),borderline NVV,sich auszeichnen
+543,1040,,,Vorwurf erheben,Vorwurf erheben,,,,,,,,,,,,,Vorwurf erheben,yes,vorwerfen
+544,1040,,,Acht geben auf,Acht geben auf,,,,,,,,,,,,,Acht geben auf,borderline NVV / fixed expression,aufpassen auf
+545,2000,_____ bringen,zum Abschluss,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,Masculine,Masculin,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
+546,2000,zum Abschluss _____,bringen,zum Abschluss bringen,zum Abschluss bringen,to complete,mener à terme,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
+547,2000,Nach Monaten harter Arbeit wurde das Bauvorhaben _____ gebracht.,zum Abschluss,zum Abschluss bringen,Nach Monaten harter Arbeit wurde das Bauvorhaben zum Abschluss gebracht.,"After months of hard work, the construction project was completed.","Après des mois de travail acharné, le chantier a été mené à son terme.",,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
+548,2000,Wir müssen das Projekt endlich _____ bringen.,zum Abschluss,zum Abschluss bringen,Wir müssen das Projekt endlich zum Abschluss bringen.,We need to finally bring the project to a close.,Nous devons enfin mener le projet à son terme.,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
+549,2000,Das Team hat die Diskussion erfolgreich zum Abschluss _____.,gebracht,zum Abschluss bringen,Das Team hat die Diskussion erfolgreich zum Abschluss gebracht.,The team successfully brought the discussion to a conclusion.,L’équipe a mené la discussion à sa conclusion avec succès.,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
+550,2000,Sie wollen die Verhandlungen bald zum Abschluss _____.,bringen,zum Abschluss bringen,Sie wollen die Verhandlungen bald zum Abschluss bringen.,They want to bring the negotiations to an end soon.,Ils veulent bientôt conclure les négociations.,,,,,zum Abschluss bringen = to complete,zum Abschluss bringen = mener à terme,,,,,,,
+551,2000,,,an die Arbeit gehen,,,,,,,,,,,,,,,,
+552,2000,,,sich an die Arbeit,,,,,,,,,,,,,,,,
+553,2000,,,in Arbeit sein,,,,,,,,,,,,,,,,
