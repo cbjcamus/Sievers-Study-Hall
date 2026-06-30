@@ -196,6 +196,15 @@ body.day-mode .option-button {
     border: 1px solid black;
 }
 
+.show-options-button {
+    width: 170px;
+    margin-top: 5px;
+}
+
+.native-mc-options {
+    margin-top: 15px;
+}
+
 .local-mc-options {
     margin-top: 20px;
 }
@@ -250,6 +259,7 @@ body.day-mode .word-order-word {
 
 .word-order-submit-button {
     margin-top: 0px;
+    width: 150px;
 }
 
 .next-button-container {

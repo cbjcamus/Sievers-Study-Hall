@@ -7,7 +7,7 @@ from data.content.unit.title_page import TITLE_PAGE
 from data.content.unit.title_button import TITLE_BUTTON
 from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
 from data.content.application.popup import get_popup_title, get_popup_text
-from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT
+from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, SHOW_OPTIONS
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
@@ -17,8 +17,9 @@ from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 
 from users.users.models import db, UserExerciseState
-from users.users.settings import is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark, \
-    get_filename_full_bookmark, get_filename_flag
+from users.users.settings import (is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark,
+    get_filename_full_bookmark, get_filename_flag, are_options_in_multiple_choice_exercises_hidden,
+    are_options_in_word_order_exercises_hidden)
 
 from users.progress.progress import compute_answered_questions, update_progress_in_home_page
 from users.progress.register_update import register_progress, register_incorrect_answer
@@ -170,11 +171,14 @@ def exercise_page(unit, exercise):
                            exercise_is_multiple_choice_native=exercise_is_multiple_choice_native,
                            exercise_is_multiple_choice_target=exercise_is_multiple_choice_target,
                            exercise_is_word_order=exercise_is_word_order,
+                           options_in_multiple_choice_exercises_hidden=are_options_in_multiple_choice_exercises_hidden(),
+                           options_in_word_order_exercises_hidden=are_options_in_word_order_exercises_hidden(),
                            word_order_words=word_order_words,
                            nr=question_id,
                            result=result,
                            feedback_message=feedback_message,
                            user_answer=user_answer,
+                           show_options=SHOW_OPTIONS[language],
                            unit_page=UNIT_PAGE,
                            title_page=TITLE_PAGE,
                            back_page=TITLE_BUTTON,

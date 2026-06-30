@@ -37,3 +37,8 @@ NEXT_EXERCISE = {
     'english': 'Next Exercise',
     'french': 'Exercice Suivant',
 }
+
+SHOW_OPTIONS = {
+    'english': 'Show Options',
+    'french': 'Montrer les Options',
+}

@@ -184,10 +184,6 @@ def register_result(session, unit, exercise, feedback):
             db.session.add(row)
 
         # Persist only canonical completion state; drop per-question JSON
-        '''row.state = {
-            "score": score_final,
-            "total_questions": total_q,
-        }'''
         old_state = row.state or {}
         row.state = {
             **old_state,

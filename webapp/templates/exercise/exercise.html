@@ -63,11 +63,43 @@
             {% endif %}
 
             {% if exercise_is_multiple_choice_native %}
-                <div><button type="submit" name="answer" value="{{ options[0] }}" class="option-button">{{ options[0] }}</button></div>
-                <div><button type="submit" name="answer" value="{{ options[1] }}" class="option-button">{{ options[1] }}</button></div>
-                <div><button type="submit" name="answer" value="{{ options[2] }}" class="option-button">{{ options[2] }}</button></div>
-                <div><button type="submit" name="answer" value="{{ options[3] }}" class="option-button">{{ options[3] }}</button></div>
-                <div><button type="submit" name="answer" value="{{ options[4] }}" class="option-button">{{ options[4] }}</button></div>
+                {% if options_in_multiple_choice_exercises_hidden %}
+                    <button
+                        type="button"
+                        class="submit-button show-options-button"
+                        data-target="native-mc-options">
+                        {{ show_options }}
+                    </button>
+
+                    <div id="native-mc-options" class="native-mc-options" style="display:none;">
+                        {% for option in options %}
+                            <div>
+                                <button type="submit"
+                                        name="answer"
+                                        value="{{ option }}"
+                                        class="option-button">
+                                    {{ option }}
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <script src="{{ url_for('static', filename='js/exercise/showOptions.js') }}" defer></script>
+
+                {% else %}
+                    <div id="native-mc-options" class="native-mc-options">
+                        {% for option in options %}
+                            <div>
+                                <button type="submit"
+                                        name="answer"
+                                        value="{{ option }}"
+                                        class="option-button">
+                                    {{ option }}
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
             {% endif %}
 
             {% if exercise_is_multiple_choice_target %}

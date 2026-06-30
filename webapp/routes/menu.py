@@ -39,19 +39,6 @@ def home():
     home_description = HOME_DESCRIPTION[language]
     meta_description = META_DESCRIPTION[language]
 
-    '''
-    if not isinstance(session.get('progress'), dict):
-        session['progress'] = {}
-
-    completed_exercises = session['progress']
-    if current_user.is_authenticated:
-        for unit in units:
-            if unit not in completed_exercises:
-                update_progress_in_home_page(session, unit)
-
-    session.modified = True
-    '''
-
     completed_exercises = {unit: get_progress_home_page(session, unit) for unit in units}
 
     return render_template('home.html',

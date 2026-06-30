@@ -8,6 +8,8 @@ DEFAULT_SETTINGS = {
     "theme": "night",
     "special_characters_enabled": True,
     "instruction_page_enabled": True,
+    "hide_options_multiple_choices": False,
+    "hide_options_word_order": False,
 }
 
 
@@ -86,3 +88,37 @@ def get_filename_flag():
         return "icons/flag/flag_black.png"
     else:
         return "icons/flag/flag_white.png"
+
+
+def are_options_in_multiple_choice_exercises_hidden():
+    if current_user.is_authenticated:
+        row = UserSettings.query.get(current_user.id)
+        if row and row.settings:
+            return row.settings.get(
+                "hide_options_multiple_choices",
+                DEFAULT_SETTINGS["hide_options_multiple_choices"]
+            )
+        return DEFAULT_SETTINGS["hide_options_multiple_choices"]
+
+    anon_settings = session.get("settings", {})
+    return anon_settings.get(
+        "hide_options_multiple_choices",
+        DEFAULT_SETTINGS["hide_options_multiple_choices"]
+    )
+
+
+def are_options_in_word_order_exercises_hidden():
+    if current_user.is_authenticated:
+        row = UserSettings.query.get(current_user.id)
+        if row and row.settings:
+            return row.settings.get(
+                "hide_options_word_order",
+                DEFAULT_SETTINGS["hide_options_word_order"]
+            )
+        return DEFAULT_SETTINGS["hide_options_word_order"]
+
+    anon_settings = session.get("settings", {})
+    return anon_settings.get(
+        "hide_options_word_order",
+        DEFAULT_SETTINGS["hide_options_word_order"]
+    )

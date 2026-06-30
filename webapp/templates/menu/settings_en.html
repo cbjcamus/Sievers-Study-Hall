@@ -30,7 +30,7 @@
     </div>
 
     <div class="section">
-        <h2>Intermediate feedback page</h2>
+        <h2>Feedback Page</h2>
         <table class="settings-table">
             <tr>
                 <td>
@@ -60,7 +60,7 @@
     </div>
 
     <div class="section">
-        <h2>Instruction page</h2>
+        <h2>Instruction Page</h2>
         <table class="settings-table">
             <tr>
                 <td>
@@ -70,6 +70,21 @@
                     </label>
                 </td>
                 <td>Show the instruction page before starting an exercise</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Hide Options</h2>
+        <table class="settings-table">
+            <tr>
+                <td>
+                    <label class="switch">
+                        <input type="checkbox" id="hide-options-multiple-choices-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </td>
+                <td>Hide Options in Multiple Choice Exercises</td>
             </tr>
         </table>
     </div>
@@ -103,6 +118,7 @@
     <script src="{{ url_for('static', filename='js/settings/toggleDayMode.js') }}"></script>
     <script src="{{ url_for('static', filename='js/settings/toggleIntermediatePage.js') }}"></script>
     <script src="{{ url_for('static', filename='js/settings/toggleSpecialCharactersButtons.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/settings/toggleHideOptionsMultipleChoices.js') }}"></script>
     <script src="{{ url_for('static', filename='js/settings/toggleInstructionPage.js') }}"></script>
 </body>
 </html>

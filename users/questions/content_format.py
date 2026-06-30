@@ -97,6 +97,14 @@ def format_question(unit, exercise, language, question_id):
     return formatted_question
 
 
+def format_wiktionary_link(input, language):
+
+    if language == 'english':
+        return f'<a href="https://en.wiktionary.org/wiki/{input}#German" target="_blank">{input}</a>'
+    else:
+        return f'<a href="https://fr.wiktionary.org/wiki/{input}#German" target="_blank">{input}</a>'
+
+
 def format_feedback(unit, exercise, language, question_id):
     if question_id is None:
         return None
@@ -104,11 +112,13 @@ def format_feedback(unit, exercise, language, question_id):
     question_data = load_data_question(unit, exercise, question_id)
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
+    correct_answer_wiktionary = format_wiktionary_link(correct_answer, language)
     correct_answers = get_list_of_correct_answers(correct_answer, unit)
     first_correct_answer = get_first_correct_answer(correct_answer)
     correct_answers_bullet_points = get_list_of_correct_answers(correct_answer, unit, bullet_points=True)
     question_text = question_data["question"]
     german = question_data.get("german", "")
+    german_wiktionary = format_wiktionary_link(german, language)
     english = question_data.get("english", "")
     french = question_data.get("french", "")
     gender_english = question_data.get("gender_english", "")
@@ -127,6 +137,7 @@ def format_feedback(unit, exercise, language, question_id):
     indication_english = question_data.get("indication_english", "")
     indication_french = question_data.get("indication_french", "")
     root_german = question_data.get("root_german", "")
+    root_german_wiktionary = format_wiktionary_link(root_german, language)
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
 
@@ -135,11 +146,13 @@ def format_feedback(unit, exercise, language, question_id):
     feedback_message = feedback_template.format(
         previous_question=question_text,
         correct_answer=correct_answer,
+        correct_answer_wiktionary= correct_answer_wiktionary,
         correct_answers=correct_answers,
         first_correct_answer=first_correct_answer,
         correct_answers_bullet_points=correct_answers_bullet_points,
         # user_answer=user_answer,
         german=german,
+        german_wiktionary=german_wiktionary,
         english=english,
         french=french,
         gender_english=gender_english,
@@ -158,6 +171,7 @@ def format_feedback(unit, exercise, language, question_id):
         indication_english=indication_english,
         indication_french=indication_french,
         root_german=root_german,
+        root_german_wiktionary=root_german_wiktionary,
         root_english=root_english,
         root_french=root_french,
     )
@@ -184,16 +198,12 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         return ""
 
     if is_exercise_multiple_choice(unit, exercise) is True:
-        print('test')
         data = load_data_level(unit, exercise)
 
         question_column = get_question_column(unit, exercise, language)
-        print('question_column', question_column)
         answer_column = get_answer_column(unit, exercise, language)
-        print('answer_column', answer_column)
 
         match = data.loc[data[answer_column] == incorrect_answer, question_column]
-        print('match', match)
 
         if not match.empty:
             question = match.iloc[0]

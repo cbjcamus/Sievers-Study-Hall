@@ -113,18 +113,6 @@ def get_answer_column(unit, exercise, language):
     else:
         return 'answer'
 
-'''
-    df = df_exercise_type[df_exercise_type['type'] == 'multiple_choice']
-
-    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
-    if row.empty:
-        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
-
-    answer_column = row.iloc[0]["answer_column"]
-
-    return answer_column lol
-'''
-
 
 def get_question_column(unit, exercise, language):
     """
@@ -137,19 +125,6 @@ def get_question_column(unit, exercise, language):
 
     else:
         return language
-
-'''
-
-    df = df_exercise_type[df_exercise_type['type'] == 'multiple_choice']
-
-    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
-    if row.empty:
-        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
-
-    question_column = row.iloc[0]["question_column"]
-
-    return question_column
-'''
 
 
 def get_multiple_choice_extent(unit, exercise):
@@ -182,26 +157,6 @@ def get_multiple_choice_extent(unit, exercise):
 
     return exercises
 
-'''
-    df = df_exercise_type[df_exercise_type['type'] == 'multiple_choice']
-
-    row = df.loc[(df['unit'] == unit) & (df['exercise'] == exercise)]
-    if row.empty:
-        raise ValueError(f"No mapping row for unit={unit} exercise={exercise}")
-
-    row0 = row.iloc[0]
-
-    if 'extent' not in df.columns or pd.isna(row0['extent']):
-        raise KeyError("'extent' column missing or empty in mapping CSV.")
-
-    # Extract numbers robustly: handles "11, 12, 13" or "11 12 13"
-    vals = [int(x) for x in re.findall(r'\d+', str(row0['extent']))]
-    if not vals:
-        raise ValueError(f"No valid exercise numbers found in extent for unit={unit}, exercise={exercise}")
-
-    return vals
-
-'''
 
 def does_unit_exercise_exist(unit, exercise, df=df_exercises):
     """
