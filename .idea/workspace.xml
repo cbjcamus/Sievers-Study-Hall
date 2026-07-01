@@ -7,24 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update June 29th">
-      <change afterPath="$PROJECT_DIR$/webapp/static/js/exercise/showOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/js/settings/toggleHideOptionsMultipleChoices.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/js/settings/toggleHideOptionsWordOrder.js" afterDir="false" />
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update June 30th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/application/buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/application/buttons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_processing/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_processing/exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/progress/register_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/progress/register_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/questions/content_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/content_format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/users/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/users/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/static/css/exercise.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/exercise.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/settings_fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/settings_fr.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,14 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00171" summary="update January 17th">
-      <option name="closed" value="true" />
-      <created>1768639670066</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1768639670066</updated>
     </task>
     <task id="LOCAL-00172" summary="update January 17th">
       <option name="closed" value="true" />
@@ -576,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782749028211</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="update June 30th">
+      <option name="closed" value="true" />
+      <created>1782830280996</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1782830280996</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -592,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update praepositionen grammatik" />
     <MESSAGE value="small update" />
     <MESSAGE value="home page" />
     <MESSAGE value="adjektive update" />
@@ -617,7 +601,8 @@
     <MESSAGE value="update June 9th" />
     <MESSAGE value="update June 17th" />
     <MESSAGE value="update June 29th" />
-    <option name="LAST_COMMIT_MESSAGE" value="update June 29th" />
+    <MESSAGE value="update June 30th" />
+    <option name="LAST_COMMIT_MESSAGE" value="update June 30th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
