@@ -720,100 +720,100 @@ FEEDBACK_EXERCISE_EN = {
     },
 
     konnektoren: {
-        1: "{english} \u25CF {case_english} → {first_correct_answer}"
-           "<br><br>Correct answer(s): {correct_answers}",
+        1: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         2: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
-           "<br><br>Correct answer(s): {correct_answers}",
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
-        3: "{english} \u25CF {case_english} → {first_correct_answer}"
-           "<br><br>Correct answer(s): {correct_answers}",
+        3: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         4: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
-           "<br><br>Correct answer(s): {correct_answers}",
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
-        5: "{english} \u25CF {case_english} → {first_correct_answer}"
-           "<br><br>Correct answer(s): {correct_answers}",
+        5: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
-           "<br><br>Correct answer(s): {correct_answers}",
-        7: "{english} \u25CF {case_english} → {first_correct_answer}"
-           "<br><br>Correct answer(s): {correct_answers}",
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        7: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         8: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
-           "<br><br>Correct answer(s): {correct_answers}",
-        9: "{english} \u25CF {case_english} → {first_correct_answer}"
-           "<br><br>Correct answer(s): {correct_answers}",
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        9: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+           "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         10: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        11: "{english} = {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        11: "{english} = {correct_answers_wiktionary}",
 
-        12: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+        12: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         13: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        14: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        14: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         15: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        16: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        16: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         17: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        18: "{english} = {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        18: "{english} = {correct_answers_wiktionary}",
 
-        19: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+        19: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         20: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        21: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        21: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         22: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        23: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        23: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         24: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        25: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        25: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         26: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        27: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        27: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         28: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        29: "{english} \u25CF {case_english} → {first_correct_answer}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        29: "{english} \u25CF {case_english} → {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         30: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
-        31: "{english} = {correct_answers}",
-        32: "{english} = {correct_answers}",
-        33: "{english} = {correct_answers}",
-        34: "{english} = {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        31: "{english} = {correct_answers_wiktionary}",
+        32: "{english} = {correct_answers_wiktionary}",
+        33: "{english} = {correct_answers_wiktionary}",
+        34: "{english} = {correct_answers_wiktionary}",
     },
 
     fragen: {
