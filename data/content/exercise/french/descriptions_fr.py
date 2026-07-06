@@ -230,13 +230,20 @@ DESCRIPTION_EXERCISE_FR = {
         37: "Articles Posséssifs dans le cas Génitif, en isolation",
         38: "Articles Posséssifs dans le cas Génitif, en contexte",
 
-        39: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en isolation",
-        40: "Articles <em>Jene</em>, <em>Eine der</em> et <em>Irgendeine</em>, en contexte",
+        39: "Articles <em>Jene</em> et <em>Eine der</em>, en isolation",
+        40: "Articles <em>Jene</em> et <em>Eine der</em>, en contexte",
 
-        41: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en isolation",
-        42: "Articles <em>Diejenige</em> et <em>Dieselbe</em>, en contexte",
+        41: "Adjectifs utilisés comme Articles, en isolation",
+        42: "Adjectifs utilisés comme Articles, en contexte",
         43: "Articles dans des Appositions, en contexte",
         44: "Articles dans des Appositions, en contexte",
+
+        45: "Articles <em>Irgendeine</em>, en isolation",
+        46: "Articles <em>Irgendeine</em>, en contexte",
+        47: "Articles <em>Diejenige</em>, en isolation",
+        48: "Articles <em>Diejenige</em>, en contexte",
+        49: "Articles <em>Dieselbe</em>, en isolation",
+        50: "Articles <em>Dieselbe</em>, en contexte",
     },
 
     pronomen: {
@@ -273,21 +280,20 @@ DESCRIPTION_EXERCISE_FR = {
         28: "Pronoms Relatifs, en contexte",
         29: "Pronoms Relatifs, en contexte",
         30: "Pronoms Relatifs locaux (Position et Direction), en contexte",
-        31: "Pronoms Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en isolation",
-        32: "Pronoms Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en contexte",
-        33: "Pronoms Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et Formel, en isolation",
-        34: "Pronoms Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et Formel, en contexte",
 
-        35: "Pronoms de niveaux C1, en isolation",
-        36: "Pronoms de niveaux C1, en contexte",
-        37: "Pronoms en <i>die ...</i>, en isolation",
-        38: "Pronoms en <i>die ...</i>, en contexte",
-        39: "Pronoms Relatifs Was et Wer, en contexte",
+        31: "Pronoms de substitutions <i>einer</i>, <i>eine</i>, <i>eines</i> and <i>welche</i>, en isolation",
+        32: "Pronoms de substitutions <i>einer</i>, <i>eine</i>, <i>eines</i> and <i>welche</i>, en contexte",
+        33: "Pronoms Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en isolation",
+        34: "Pronoms Posséssifs des Pronoms Singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), en contexte",
+        35: "Pronoms Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et Formel, en isolation",
+        36: "Pronoms Posséssifs des Pronoms Pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) et Formel, en contexte",
+        37: "Pronoms Relatifs Was et Wer, en contexte",
+        38: "<i>Dies</i> pour désigner une clause entière, en contexte",
 
-        40: "Pronoms singuliers en <i>davon</i> et en <i>von ihnen</i>, en isolation",
-        41: "Pronoms singuliers en <i>davon</i> et en <i>von ihnen</i>, en contexte",
-        42: "Pronoms pluriels en <i>davon</i> et en <i>von ihnen</i>, en isolation",
-        43: "Pronoms pluriels en <i>davon</i> et en <i>von ihnen</i>, en contexte",
+        39: "Pronoms de niveaux C2, en isolation",
+        40: "Pronoms de niveaux C2, en contexte",
+        41: "Pronoms en <i>die ...</i>, en isolation",
+        42: "Pronoms en <i>die ...</i>, en contexte",
     },
 
     praepositionen_artikel: {

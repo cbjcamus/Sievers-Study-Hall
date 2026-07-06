@@ -493,7 +493,7 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 492,1015,,,sich zum Ziel setzen,sich zum Ziel setzen,set oneself a goal,,,,,,,,setzen,A2,,B2C1,sich zum Ziel setzen,yes,sich vornehmen
 493,1015,,,zu einer Einsicht kommen,zu einer Einsicht kommen,come to an understanding,,,,,,,,kommen,A1,,B2C1,zu einer Einsicht kommen,borderline NVV,einsehen
 494,1015,,,zum Ausdruck bringen,zum Ausdruck bringen,express oneself,,,,,,,,bringen,A1,,B2C1,zum Ausdruck bringen,yes,ausdrücken
-495,1015,,,zur Folge haben,zur Folge haben,have consequences,,,,,,,,haben,A1,,B2C1,zur Folge haben,yes,"verursachen, bewirken"
+495,1015,,,zur Folge haben,zur Folge haben,"to have consequences, to result in",,,,,,,,haben,A1,,B2C1,zur Folge haben,yes,"verursachen, bewirken"
 496,1015,,,zur Verzweiflung bringen,zur Verzweiflung bringen,drive someone to despair,,,,,,,,bringen,A1,,B2C1,zur Verzweiflung bringen,yes,verzweifeln lassen
 497,1015,,,Anerkennung finden,Anerkennung finden,gain recognition,,,,,,,,finden,A1,,B2C1,Anerkennung finden,borderline NVV,anerkannt werden
 498,1015,,,in die Lage versetzen,in die Lage versetzen,put someone in a position,,,,,,,,versetzen,C1,,B2C1,in die Lage versetzen,yes,"befähigen, ermöglichen"
@@ -504,7 +504,7 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 503,1015,,,Herr sein,Herr sein,to be in control,,,,,über,,,sein,A1,,B2C1,Zuversicht setzen (auf),borderline NVV,hoffen
 504,1020,,,sich an etwas satt essen,sich an etwas satt essen,to eat from something to satiety,,,,,Dat.,,,essen,A1,,C1,ein gutes Wort einlegen,yes,sich einsetzen für
 505,1020,,,zur Verantwortung ziehen,zur Verantwortung ziehen,to hold somebody accountable,tenir pour responsable,,,,,zur Verantwortung ziehen = to hold somebody accountable,zur Verantwortung ziehen = tenir pour responsable,ziehen,A1,,C1,eine Gelegenheit ergreifen,yes,nutzen
-506,1020,,,eine Entscheidung fällen,eine Entscheidung fällen,make a decision,,,,,,,,fällen,B2,,C1,zur Verantwortung ziehen,yes,belangen
+506,1020,,,eine Entscheidung fällen,eine Entscheidung fällen,make a decision,,,,,,,,fällen,C1,,C1,zur Verantwortung ziehen,yes,belangen
 507,1020,,,die Konsequenzen ziehen,die Konsequenzen ziehen,Draw conclusions,,,,,,,,ziehen,A1,,C1,eine Entscheidung fällen,yes,entscheiden
 508,1020,,,in Kenntnis setzen,in Kenntnis setzen,Inform,,,,,,,,setzen,A2,,C1,in Kenntnis setzen,yes,informieren
 509,1020,,,Anspruch erheben,Anspruch erheben,Make a claim,,,,,,,,erheben,B2,,C1,Anspruch erheben,yes,beanspruchen
@@ -512,7 +512,7 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 511,1020,,,Auftrag erteilen,Auftrag erteilen,Place an order,,,,,,,,erteilen,C1,,C1,Auftrag erteilen,yes,beauftragen
 512,1020,,,Auskunft erteilen,Auskunft erteilen,Provide information,,,,,,,,erteilen,C1,,C1,Auskunft erteilen,yes,informieren
 513,1020,,,Beachtung finden,Beachtung finden,Receive attention,,,,,,,,finden,A1,,C1,Beachtung finden,borderline NVV,beachtet werden
-514,1020,,,ein Urteil fällen,ein Urteil fällen,Make a judgment,,,,,,,,fällen,B2,,C1,ein Urteil fällen,yes,urteilen
+514,1020,,,ein Urteil fällen,ein Urteil fällen,Make a judgment,,,,,,,,fällen,C1,,C1,ein Urteil fällen,yes,urteilen
 515,1020,,,eine Forderung erheben,eine Forderung erheben,make a demand,,,,,nach,,,erheben,B2,,C1,eine Forderung erheben,yes,fordern
 516,1020,,,einen Beschluss fassen,einen Beschluss fassen,pass a resolution,,,,,,,,fassen,B2,,C1,einen Beschluss fassen,yes,beschließen
 517,1020,,,einen Kompromiss schließen,einen Kompromiss schließen,reach a compromise,,,,,,,,schließen,A1,,C1,einen Kompromiss schließen,yes,sich einigen
@@ -552,3 +552,4 @@ Nr,exercise,question,answer,combination,german,english,french,gender_english,gen
 551,2000,,,an die Arbeit gehen,,,,,,,,,,,,,,,,
 552,2000,,,sich an die Arbeit,,,,,,,,,,,,,,,,
 553,2000,,,in Arbeit sein,,,,,,,,,,,,,,,,
+554,2000,,,auf etwas Wert legen,,,,,,,,,,,,,,,,

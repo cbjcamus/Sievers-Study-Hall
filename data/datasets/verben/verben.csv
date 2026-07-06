@@ -7,7 +7,7 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 6,1,,müssen,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",,
 7,1,,sollen,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)",,
 8,1,,mögen,mögen,to like,"aimer, apprécier",,
-9,1,,dürfen,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",,
+9,1,,dürfen,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), pouvoir",,
 10,1,,wissen,wissen,"to know, to have knowledge",savoir,,
 11,1,,machen,machen,"to make, to prepare, to do","faire, préparer",Sometimes Reflexive,Parfois Réfléchi
 12,1,,tun,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",Sometimes Reflexive,Parfois Réfléchi
@@ -1280,14 +1280,14 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 1279,64,,,saufen,"to drink (animals), to booze","boire (des animaux), s'enivrer",,
 1280,64,,,abonnieren,to subscribe,s'abonner,Sometimes Reflexive,Parfois Réfléchi
 1281,65,,,ablaufen,"to expire, to run out, to discharge","expirer, s'épuiser, se décharger",,
-1282,65,,,anführen,"to cite, to lead, to quote","citer, diriger",,
+1282,65,,,anführen,"to cite, to lead, to quote, to instruct","citer, diriger, instruire",,
 1283,65,,,vertreiben,"to expel, to dislodge, to displace, to put on the market, to sell","expulser, déloger, déplacer",Sometimes Reflexive,Parfois Réfléchi
 1284,65,,,erteilen,"to grant, to issue, to give","accorder, délivrer, donner",,
 1285,65,,,erfassen,"to record, to capture, to collect","enregistrer, capturer, collecter",,
 1286,65,,,übergeben,"to hand over, to vomit (refl.)","remettre, vomir (réfl.)",Sometimes Reflexive,Parfois Réfléchi
 1287,65,,,stützen,"to support, to back, to hold something up, to bolster","soutenir, appuyer, soutenir quelque chose, étayer",Sometimes Reflexive,Parfois Réfléchi
 1288,65,,,befassen,"to address, to deal with, to attend to","s'adresser à, traiter, s'occuper de",Mostly Reflexive,Principalement Réfléchi
-1289,65,,,beruhen,"to base on, to depend on","se baser sur, dépendre de",,
+1289,65,,,beruhen,"to base on, to depend on, to consist","se baser sur, dépendre de, se composer de",,
 1290,65,,,vorwerfen,"to reproach, to accuse of, to allege","reprocher, accuser de, alléguer",,
 1291,65,,,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre",Sometimes Reflexive,Parfois Réfléchi
 1292,65,,,siegen,"to win, to prevail, to triumph","gagner, triompher, prévaloir",,
@@ -1920,14 +1920,14 @@ Nr,exercise,question,answer,german,english,french,transitivity_english,transitiv
 1919,96,,saufen,saufen,"to drink (animals), to booze","boire (des animaux), s'enivrer",,
 1920,96,,abonnieren,abonnieren,to subscribe,s'abonner,,
 1921,97,,ablaufen,ablaufen,"to expire, to run out, to discharge","expirer, s'épuiser, se décharger",,
-1922,97,,anführen,anführen,"to cite, to lead, to quote","citer, diriger",,
+1922,97,,anführen,anführen,"to cite, to lead, to quote, to instruct","citer, diriger, instruire",,
 1923,97,,vertreiben,vertreiben,"to expel, to dislodge, to displace, to put on the market, to sell","expulser, déloger, déplacer",,
 1924,97,,erteilen,erteilen,"to grant, to issue, to give","accorder, délivrer, donner",,
 1925,97,,erfassen,erfassen,"to record, to capture, to collect","enregistrer, capturer, collecter",,
 1926,97,,übergeben,übergeben,"to hand over, to vomit (refl.)","remettre, vomir (réfl.)",,
 1927,97,,stützen,stützen,"to support, to back, to hold something up, to bolster","soutenir, appuyer, soutenir quelque chose, étayer",,
 1928,97,,befassen,befassen,"to address, to deal with, to attend to","s'adresser à, traiter, s'occuper de",,
-1929,97,,beruhen,beruhen,"to base on, to depend on","se baser sur, dépendre de",,
+1929,97,,beruhen,beruhen,"to base on, to depend on, to consist","se baser sur, dépendre de, se composer de",,
 1930,97,,vorwerfen,vorwerfen,"to reproach, to accuse of, to allege","reprocher, accuser de, alléguer",,
 1931,97,,verwirklichen,verwirklichen,"to realize, to actualize, to fulfill, to implement","réaliser, concrétiser, accomplir, mettre en œuvre",,
 1932,97,,siegen,siegen,"to win, to prevail, to triumph","gagner, triompher, prévaloir",,

@@ -1521,6 +1521,13 @@ GUIDANCE_EXERCISE_FR = {
         42: guidance_artikel_sentences,
         43: guidance_artikel_sentences,
         44: guidance_artikel_sentences,
+
+        45: guidance_artikel_isolation,
+        46: guidance_artikel_sentences,
+        47: guidance_artikel_isolation,
+        48: guidance_artikel_sentences,
+        49: guidance_artikel_isolation,
+        50: guidance_artikel_sentences,
     },
 
     pronomen: {
@@ -1557,16 +1564,20 @@ GUIDANCE_EXERCISE_FR = {
         28: guidance_pronomen_relative_sentences,
         29: guidance_pronomen_relative_sentences,
         30: guidance_pronomen_relative_sentences,
+
         31: guidance_pronomen_isolation,
         32: guidance_pronomen_sentences,
         33: guidance_pronomen_isolation,
         34: guidance_pronomen_sentences,
-
         35: guidance_pronomen_isolation,
         36: guidance_pronomen_sentences,
-        37: guidance_pronomen_isolation,
+        37: guidance_pronomen_relative_sentences,
         38: guidance_pronomen_sentences,
-        39: guidance_pronomen_relative_sentences,
+
+        39: guidance_pronomen_isolation,
+        40: guidance_pronomen_sentences,
+        41: guidance_pronomen_isolation,
+        42: guidance_pronomen_sentences
     },
 
     konnektoren: {

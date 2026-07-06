@@ -9,7 +9,30 @@
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update June 30th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/exercise/exercise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/descriptions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/descriptions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/feedbacks_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/guidance_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/guidance_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/instructions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/instructions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/english/questions_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/english/questions_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/descriptions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/descriptions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/feedbacks_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/guidance_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/guidance_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/instructions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/instructions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content/exercise/french/questions_fr.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/content/exercise/french/questions_fr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/artikel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/praepositionen_artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/praepositionen_artikel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/pronomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/pronomen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/verben_artikel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/verben_artikel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/exercises.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/exercises.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/praepositionen/praepositionen_verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/konnektoren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/konnektoren.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/verben/nomen_verben_verbindungen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/verben/nomen_verben_verbindungen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/verben/trennbare_verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/verben/trennbare_verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/verben/verben.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/verben/verben.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_verben_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_verben_wortstaemme.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/nomen_verben_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/nomen_verben_wortstaemme.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/questions/content_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/questions/content_format.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,55 +87,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Unnamed.executor": "Run",
-    "Python.access_counter.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.artikel.executor": "Run",
-    "Python.checks.executor": "Run",
-    "Python.combine_csv.executor": "Run",
-    "Python.delete_scores.executor": "Run",
-    "Python.deutschtrainer.executor": "Run",
-    "Python.former_app.executor": "Run",
-    "Python.graphs.executor": "Run",
-    "Python.level1.executor": "Run",
-    "Python.local.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.normalization.executor": "Run",
-    "Python.objects.executor": "Run",
-    "Python.perfekt.executor": "Run",
-    "Python.personal_pronomen.executor": "Run",
-    "Python.praepositionen_konjugation.executor": "Run",
-    "Python.praeteritum.executor": "Run",
-    "Python.prateritum.executor": "Run",
-    "Python.pre_update_checks.executor": "Run",
-    "Python.proverbs.executor": "Run",
-    "Python.question_templates.executor": "Run",
-    "Python.relativesaetze.executor": "Run",
-    "Python.score.executor": "Debug",
-    "Python.session_.executor": "Run",
-    "Python.startpage.executor": "Run",
-    "Python.statistics.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test_Nr.executor": "Run",
-    "Python.to_run.executor": "Run",
-    "Python.total_questions.executor": "Run",
-    "Python.verben.executor": "Run",
-    "Python.verben_praepositionen.executor": "Run",
-    "Python.verbformen.executor": "Run",
-    "Python.webapp.executor": "Run",
-    "Python.widgets.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/static/js/settings",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "preferences.externalResources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.access_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.artikel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combine_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_scores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deutschtrainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feedbacks_en.executor&quot;: &quot;Run&quot;,
+    &quot;Python.former_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.local.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.normalization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.objects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.perfekt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.personal_pronomen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.praepositionen_konjugation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.praeteritum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prateritum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pre_update_checks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proverbs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.question_templates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.relativesaetze.executor&quot;: &quot;Run&quot;,
+    &quot;Python.score.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.session_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.startpage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.statistics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_Nr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.to_run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.total_questions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verben.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verben_praepositionen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verbformen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.webapp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.widgets.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/clementcamus/PycharmProjects/Sievers_Study_Hall/webapp/static/js/settings&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webapp/static/js/settings" />
@@ -168,22 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00172" summary="update January 17th">
-      <option name="closed" value="true" />
-      <created>1768639802100</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1768639802101</updated>
-    </task>
-    <task id="LOCAL-00173" summary="update January 17th">
-      <option name="closed" value="true" />
-      <created>1768644439577</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1768644439578</updated>
     </task>
     <task id="LOCAL-00174" summary="update February 6th">
       <option name="closed" value="true" />
@@ -561,7 +569,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782830280996</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="update June 30th">
+      <option name="closed" value="true" />
+      <created>1782891121151</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1782891121152</updated>
+    </task>
+    <task id="LOCAL-00222" summary="update June 30th">
+      <option name="closed" value="true" />
+      <created>1782891326715</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1782891326716</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

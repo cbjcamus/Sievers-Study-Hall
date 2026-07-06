@@ -4,7 +4,8 @@ import string
 from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
     adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
     praepositionen_adjektive, praepositionen_nomen
-from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column
+from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column, \
+    is_exercise_multiple_choice_target, is_exercise_multiple_choice_native
 from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
 from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION
 
@@ -98,11 +99,24 @@ def format_question(unit, exercise, language, question_id):
 
 
 def format_wiktionary_link(input, language):
+    if "," in input:
+        list_ = [item.strip() for item in input.split(",")]
+        list_ = [format_unique_link(item, language) for item in list_]
+        return ", ".join(list_)
+    else:
+        return format_unique_link(input, language)
+
+
+def format_unique_link(input, language):
+    input_link = input.replace("sich ", "")
+    input_link = input_link.replace("die ", "")
+    input_link = input_link.replace("das ", "")
+    input_link = input_link.replace("der ", "")
 
     if language == 'english':
-        return f'<a href="https://en.wiktionary.org/wiki/{input}#German" target="_blank">{input}</a>'
+        return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
     else:
-        return f'<a href="https://fr.wiktionary.org/wiki/{input}#German" target="_blank">{input}</a>'
+        return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
 
 
 def format_feedback(unit, exercise, language, question_id):
@@ -114,9 +128,12 @@ def format_feedback(unit, exercise, language, question_id):
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
     correct_answer_wiktionary = format_wiktionary_link(correct_answer, language)
     correct_answers = get_list_of_correct_answers(correct_answer, unit)
+    correct_answers_wiktionary = format_wiktionary_link(correct_answers, language)
     first_correct_answer = get_first_correct_answer(correct_answer)
+    first_correct_answer_wiktionary = format_wiktionary_link(first_correct_answer, language)
     correct_answers_bullet_points = get_list_of_correct_answers(correct_answer, unit, bullet_points=True)
     question_text = question_data["question"]
+    previous_question_wiktionary = format_wiktionary_link(question_text, language)
     german = question_data.get("german", "")
     german_wiktionary = format_wiktionary_link(german, language)
     english = question_data.get("english", "")
@@ -145,10 +162,13 @@ def format_feedback(unit, exercise, language, question_id):
 
     feedback_message = feedback_template.format(
         previous_question=question_text,
+        previous_question_wiktionary=previous_question_wiktionary,
         correct_answer=correct_answer,
         correct_answer_wiktionary= correct_answer_wiktionary,
         correct_answers=correct_answers,
+        correct_answers_wiktionary=correct_answers_wiktionary,
         first_correct_answer=first_correct_answer,
+        first_correct_answer_wiktionary=first_correct_answer_wiktionary,
         correct_answers_bullet_points=correct_answers_bullet_points,
         # user_answer=user_answer,
         german=german,
@@ -203,44 +223,66 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         question_column = get_question_column(unit, exercise, language)
         answer_column = get_answer_column(unit, exercise, language)
 
-        match = data.loc[data[answer_column] == incorrect_answer, question_column]
+        match_question = data.loc[data[answer_column] == incorrect_answer, question_column]
 
-        if not match.empty:
-            question = match.iloc[0]
+        if not match_question.empty:
+            question = match_question.iloc[0]
+
+            if is_exercise_multiple_choice_target(unit, exercise):
+                incorrect_answer = format_wiktionary_link(incorrect_answer, language)
+            if is_exercise_multiple_choice_native(unit, exercise):
+                question = format_wiktionary_link(question, language)
+
             return f"<br><br>{incorrect_answer} = {question}"
         else:
             return None
 
     elif unit == konnektoren:
         data = load_data_unit(unit)
-        match = data.loc[data['konnektor'] == incorrect_answer, f"explanation_{language}"]
+        match_question = data.loc[data['konnektor'] == incorrect_answer, f"explanation_{language}"]
 
-        if not match.empty:
-            return f"<br><br>{match.iloc[0]}"
+        if not match_question.empty:
+            return f"<br><br>{match_question.iloc[0]}"
         else:
             return ""
 
     elif unit == fragen:
         data = load_data_unit(unit)
-        match = data.loc[data['fragen'] == incorrect_answer, f"explanation_{language}"]
+        match_question = data.loc[data['fragen'] == incorrect_answer, f"explanation_{language}"]
 
-        if not match.empty:
-            return f"<br><br>{match.iloc[0]}"
+        if not match_question.empty:
+            return f"<br><br>{match_question.iloc[0]}"
         else:
             return ""
 
-    elif unit in [adverbien, verben, trennbare_verben, adjektive,
+    elif unit in [adverbien, verben, adjektive,
                   adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
 
         data = load_data_unit(unit)
-        match = data.loc[data['answer'] == incorrect_answer, language]
+        match_question = data.loc[data['answer'] == incorrect_answer, language]
 
-        if not match.empty:
-            question = match.iloc[0]
+        if not match_question.empty:
+            question = match_question.iloc[0]
+            incorrect_answer = format_wiktionary_link(incorrect_answer, language)
             return f"<br><br>{incorrect_answer} = {question}"
         else:
             return ""
 
+    elif unit == trennbare_verben:
+
+        data = load_data_unit(unit)
+        match_question = data.loc[data['answer'] == incorrect_answer, language]
+        match_root_german = data.loc[data['answer'] == incorrect_answer, "root_german"]
+        match_root_english = data.loc[data['answer'] == incorrect_answer, f"root_{language}"]
+
+        if not match_question.empty:
+            question = match_question.iloc[0]
+            root_german = format_wiktionary_link(match_root_german.iloc[0], language)
+            root_english = match_root_english.iloc[0]
+            incorrect_answer = format_wiktionary_link(incorrect_answer, language)
+            return f"<br><br>{incorrect_answer} = {question}<br><br>{root_german} = {root_english}"
+        else:
+            return ""
 
     else:
         return ""

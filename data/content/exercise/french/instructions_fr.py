@@ -270,6 +270,13 @@ INSTRUCTION_EXERCISE_FR = {
         42: "Complétez la phrase suivante avec l'article qui convient :",
         43: "Complétez la phrase suivante avec l'article qui convient :",
         44: "Complétez la phrase suivante avec l'article qui convient :",
+
+        45: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
+        46: "Complétez la phrase suivante avec l'article qui convient :",
+        47: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
+        48: "Complétez la phrase suivante avec l'article qui convient :",
+        49: "Traduisez l'article suivant en fonction du cas et du genre fournis :",
+        50: "Complétez la phrase suivante avec l'article qui convient :",
     },
 
     pronomen: {
@@ -306,21 +313,20 @@ INSTRUCTION_EXERCISE_FR = {
         28: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         29: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         30: "Complétez la phrase suivante avec le pronom relatif qui convient – il peut y avoir plusieurs options :",
-        31: "Fournissez la traduction du pronom possessif qui correspond au cas et au genre fournis :",
-        32: "Complétez la phrase suivante avec le pronom possessif qui convient :",
+
+        31: "Traduisez le pronom suivant :",
+        32: "Complétez la phrase suivante avec le pronom qui convient :",
         33: "Fournissez la traduction du pronom possessif qui correspond au cas et au genre fournis :",
         34: "Complétez la phrase suivante avec le pronom possessif qui convient :",
-
-        35: "Fournissez la traduction du pronom en <i>die ...</i> :",
-        36: "Complétez la phrase suivante avec le pronom en <i>die ...</i> qui convient :",
-        37: "Traduisez le pronom suivant :",
+        35: "Fournissez la traduction du pronom possessif qui correspond au cas et au genre fournis :",
+        36: "Complétez la phrase suivante avec le pronom possessif qui convient :",
+        37: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         38: "Complétez la phrase suivante avec le pronom qui convient :",
-        39: "Complétez la phrase suivante avec le pronom relatif qui convient :",
 
-        40: "Fournissez la traduction du pronom en <i>davon</i> ou en <i>von ihnen</i> suivant :",
-        41: "Complétez la phrase suivante avec le pronom en <i>davon</i> ou en <i>von ihnen</i> qui convient :",
-        42: "Fournissez la traduction du pronom en <i>davon</i> ou en <i>von ihnen</i> suivant :",
-        43: "Complétez la phrase suivante avec le pronom en <i>davon</i> ou en <i>von ihnen</i> qui convient :",
+        39: "Fournissez la traduction du pronom en <i>die ...</i> :",
+        40: "Complétez la phrase suivante avec le pronom en <i>die ...</i> qui convient :",
+        41: "Traduisez le pronom suivant :",
+        42: "Complétez la phrase suivante avec le pronom qui convient :",
     },
 
     konnektoren: {

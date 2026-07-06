@@ -269,6 +269,13 @@ INSTRUCTION_EXERCISE_EN = {
         42: "Complete the following sentence with the article that fits:",
         43: "Complete the following sentence with the article that fits:",
         44: "Complete the following sentence with the article that fits:",
+
+        45: "Translate the following article based on the case and gender provided:",
+        46: "Complete the following sentence with the article that fits:",
+        47: "Translate the following article based on the case and gender provided:",
+        48: "Complete the following sentence with the article that fits:",
+        49: "Translate the following article based on the case and gender provided:",
+        50: "Complete the following sentence with the article that fits:",
     },
 
     pronomen: {
@@ -305,21 +312,20 @@ INSTRUCTION_EXERCISE_EN = {
         28: "Complete the following sentence with the relative pronoun that fits:",
         29: "Complete the following sentence with the relative pronoun that fits:",
         30: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
-        31: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
-        32: "Complete the following sentence with the possessive pronoun that fits:",
+
+        31: "Translate the following pronoun:",
+        32: "Complete the following sentence with the pronoun that fits:",
         33: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
         34: "Complete the following sentence with the possessive pronoun that fits:",
-
-        35: "Translate the following pronoun in <i>die ...</i>:",
-        36: "Complete the following sentence with the pronoun in <i>die ...</i> that fits:",
-        37: "Translate the following pronoun:",
+        35: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
+        36: "Complete the following sentence with the possessive pronoun that fits:",
+        37: "Complete the following sentence with the relative pronoun that fits:",
         38: "Complete the following sentence with the pronoun that fits:",
-        39: "Complete the following sentence with the relative pronoun that fits:",
 
-        40: "Provide the translation of the following pronoun in <i>davon</i> or in <i>von ihnen</i>:",
-        41: "Complete the following sentence with the pronoun in <i>davon</i> or in <i>von ihnen</i> that fits:",
-        42: "Provide the translation of the following pronoun in <i>davon</i> or in <i>von ihnen</i>:",
-        43: "Complete the following sentence with the pronoun in <i>davon</i> or in <i>von ihnen</i> that fits:",
+        39: "Translate the following pronoun in <i>die ...</i>:",
+        40: "Complete the following sentence with the pronoun in <i>die ...</i> that fits:",
+        41: "Translate the following pronoun:",
+        42: "Complete the following sentence with the pronoun that fits:",
     },
 
     konnektoren: {

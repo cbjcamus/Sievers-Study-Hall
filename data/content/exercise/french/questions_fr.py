@@ -390,7 +390,7 @@ QUESTION_EXERCISE_FR = {
         40: "{question}"
             "<br><br><i>{french}</i>",
 
-        41: "{german} \u25CF {gender_french}, {case_french}",
+        41: "{french} \u25CF {gender_french}",
         42: "{question}"
             "<br><br><i>{french}</i>",
         43: "{question}"
@@ -399,6 +399,16 @@ QUESTION_EXERCISE_FR = {
         44: "{question}"
             "<br><br><i>{french}</i>"
             "<br><br>Article : {person}",
+
+        45: "{german} \u25CF {gender_french}, {case_french}",
+        46: "{question}"
+            "<br><br><i>{french}</i>",
+        47: "{german} \u25CF {gender_french}, {case_french}",
+        48: "{question}"
+            "<br><br><i>{french}</i>",
+        49: "{german} \u25CF {gender_french}, {case_french}",
+        50: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
     pronomen: {
@@ -457,27 +467,26 @@ QUESTION_EXERCISE_FR = {
             "<br><br><i>{french}</i>",
         30: "{question}"
             "<br><br><i>{french}</i>",
-        31: "{german} \u25CF {gender_french}, {case_french}",
+
+        31: "{french} \u25CF {case_french}, {gender_french}",
         32: "{question}"
             "<br><br><i>{french}</i>",
         33: "{german} \u25CF {gender_french}, {case_french}",
         34: "{question}"
             "<br><br><i>{french}</i>",
-
-        35: "{french}",
+        35: "{german} \u25CF {gender_french}, {case_french}",
         36: "{question}"
             "<br><br><i>{french}</i>",
-        37: "{french}",
+        37: "{question}"
+            "<br><br><i>{french}</i>",
         38: "{question}"
             "<br><br><i>{french}</i>",
-        39: "{question}"
-            "<br><br><i>{french}</i>",
 
-        40: "{french}, {gender_french}, {case_french}",
-        41: "{question} \u25CF {gender_french}"
+        39: "{french}",
+        40: "{question}"
             "<br><br><i>{french}</i>",
-        42: "{french}, {gender_french}, {case_french}",
-        43: "{question} \u25CF {gender_french}"
+        41: "{french}",
+        42: "{question}"
             "<br><br><i>{french}</i>",
     },
 

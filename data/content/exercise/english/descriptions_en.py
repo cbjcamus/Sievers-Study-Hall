@@ -231,13 +231,20 @@ DESCRIPTION_EXERCISE_EN = {
         37: "Possessive articles in the Genitive case, in isolation",
         38: "Possessive articles in the Genitive case, in sentences",
 
-        39: "<em>Jene</em>, <em>Eine der</em> and <em>Irgendeine</em> articles, in isolation",
-        40: "<em>Jene</em>, <em>Eine der</em> and <em>Irgendeine</em> articles, in sentences",
+        39: "<em>Jene</em> and <em>Eine der</em> articles, in isolation",
+        40: "<em>Jene</em> and <em>Eine der</em> articles, in sentences",
 
-        41: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in isolation",
-        42: "<em>Diejenige</em> and <em>Dieselbe</em> articles, in sentences",
+        41: "Adjectives as articles, in isolation",
+        42: "Adjectives as articles, in sentences",
         43: "Articles in Appositions, in sentences",
         44: "Articles in Appositions, in sentences",
+
+        45: "<em>Irgendeine</em> articles, in isolation",
+        46: "<em>Irgendeine</em> articles, in sentences",
+        47: "<em>Diejenige</em> articles, in isolation",
+        48: "<em>Diejenige</em> articles, in sentences",
+        49: "<em>Dieselbe</em> articles, in isolation",
+        50: "<em>Dieselbe</em> articles, in sentences",
     },
 
     pronomen: {
@@ -274,22 +281,20 @@ DESCRIPTION_EXERCISE_EN = {
         28: "Mix of Relative Pronouns, in sentences",
         29: "Mix of Relative Pronouns, in sentences",
         30: "Relative Pronouns for locations and directions, in sentences",
-        31: "Possessive Pronouns linked to Singular pronouns (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), in isolation",
-        32: "Possessive Pronouns linked to Singular pronouns (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), in sentences",
-        33: "Possessive Pronouns linked to Plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) and Formal pronouns, in isolation",
-        34: "Possessive Pronouns linked to Plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) and Formal pronouns, in sentences",
 
-        35: "C1 Pronouns, in isolation",
-        36: "C1 Pronouns, in sentences",
-        37: "C1 Pronouns in <i>die ...</i>, in isolation",
-        38: "C1 Pronouns in <i>die ...</i>, in sentences",
-        39: "Relative Pronouns Was und Wer, in sentences",
+        31: "Substitution pronouns <i>einer</i>, <i>eine</i>, <i>eines</i>, and <i>welche</i>, in isolation",
+        32: "Substitution pronouns <i>einer</i>, <i>eine</i>, <i>eines</i>, and <i>welche</i>, in sentences",
+        33: "Possessive Pronouns linked to Singular pronouns (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), in isolation",
+        34: "Possessive Pronouns linked to Singular pronouns (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>), in sentences",
+        35: "Possessive Pronouns linked to Plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) and Formal pronouns, in isolation",
+        36: "Possessive Pronouns linked to Plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) and Formal pronouns, in sentences",
+        37: "Relative Pronouns Was und Wer, in sentences",
+        38: "<i>Dies</i> to refer to an entire clause, in sentences",
 
-        40: "Singular Pronouns in <i>davon</i> and in <i>von ihnen</i>, in isolation",
-        41: "Singular Pronouns in <i>davon</i> and in <i>von ihnen</i>, in sentences",
-        42: "Plural Pronouns in <i>davon</i> and in <i>von ihnen</i>, in isolation",
-        43: "Plural Pronouns in <i>davon</i> and in <i>von ihnen</i>, in sentences",
-
+        39: "C2 Pronouns, in isolation",
+        40: "C2 Pronouns, in sentences",
+        41: "C2 Pronouns in <i>die ...</i>, in isolation",
+        42: "C2 Pronouns in <i>die ...</i>, in sentences",
     },
 
     praepositionen_artikel: {

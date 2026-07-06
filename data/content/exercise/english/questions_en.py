@@ -389,7 +389,7 @@ QUESTION_EXERCISE_EN = {
         40: "{question}"
             "<br><br><i>{english}</i>",
 
-        41: "{german} \u25CF {gender_english}, {case_english}",
+        41: "{english} \u25CF {gender_english}",
         42: "{question}"
             "<br><br><i>{english}</i>",
         43: "{question}"
@@ -398,6 +398,16 @@ QUESTION_EXERCISE_EN = {
         44: "{question}"
             "<br><br><i>{english}</i>"
             "<br><br>Article: {person}",
+
+        45: "{german} \u25CF {gender_english}, {case_english}",
+        46: "{question}"
+            "<br><br><i>{english}</i>",
+        47: "{german} \u25CF {gender_english}, {case_english}",
+        48: "{question}"
+            "<br><br><i>{english}</i>",
+        49: "{german} \u25CF {gender_english}, {case_english}",
+        50: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     pronomen: {
@@ -456,27 +466,26 @@ QUESTION_EXERCISE_EN = {
             "<br><br><i>{english}</i>",
         30: "{question}"
             "<br><br><i>{english}</i>",
-        31: "{german} \u25CF {gender_english}, {case_english}",
+
+        31: "{english} \u25CF {case_english}, {gender_english}",
         32: "{question}"
             "<br><br><i>{english}</i>",
         33: "{german} \u25CF {gender_english}, {case_english}",
         34: "{question}"
             "<br><br><i>{english}</i>",
-
-        35: "{english}",
+        35: "{german} \u25CF {gender_english}, {case_english}",
         36: "{question}"
             "<br><br><i>{english}</i>",
-        37: "{english}",
+        37: "{question}"
+            "<br><br><i>{english}</i>",
         38: "{question}"
             "<br><br><i>{english}</i>",
-        39: "{question}"
-            "<br><br><i>{english}</i>",
 
-        40: "{english}, {gender_english}, {case_english}",
-        41: "{question} \u25CF {gender_english}"
+        39: "{english}",
+        40: "{question}"
             "<br><br><i>{english}</i>",
-        42: "{english}, {gender_english}, {case_english}",
-        43: "{question} \u25CF {gender_english}"
+        41: "{english}",
+        42: "{question}"
             "<br><br><i>{english}</i>",
     },
 
