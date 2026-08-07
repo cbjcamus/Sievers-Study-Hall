@@ -112,6 +112,7 @@ def format_unique_link(input, language):
     input_link = input_link.replace("die ", "")
     input_link = input_link.replace("das ", "")
     input_link = input_link.replace("der ", "")
+    input_link = input_link.replace("am ", "")
 
     if language == 'english':
         return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'

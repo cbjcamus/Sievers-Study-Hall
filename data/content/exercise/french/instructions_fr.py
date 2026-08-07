@@ -63,36 +63,41 @@ INSTRUCTION_EXERCISE_FR = {
         2: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         3: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         4: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         5: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+
         6: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         7: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         8: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
         9: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         10: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        11: "Traduisez la préposition ci-dessous :",
+
+        11: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         12: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
-        13: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        13: "Traduisez la préposition ci-dessous :",
         14: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        15: "Traduisez la préposition ci-dessous :",
-        16: "Complétez la phrase ci-dessous avec la préposition qui convient :",
 
+        15: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        16: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         17: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         18: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        19: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        19: "Traduisez la préposition ci-dessous :",
         20: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        21: "Traduisez la préposition ci-dessous :",
+
+        21: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        23: "Traduisez la préposition ci-dessous :",
+        23: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        25: "Traduisez le groupe prépositionnel ci-dessous :",
+        25: "Traduisez la préposition ci-dessous :",
         26: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        27: "Traduisez la postposition ci-dessous :",
-        28: "Complétez la phrase ci-dessous avec la postposition qui convient :",
+        27: "Traduisez le groupe prépositionnel ci-dessous :",
+        28: "Complétez la phrase ci-dessous avec la préposition qui convient :",
         29: "Trouvez un synonyme pour la préposition suivant :",
         30: "Trouvez un antonyme pour la préposition suivant :",
+
+        31: "Traduisez la préposition ci-dessous :",
+        32: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        33: "Traduisez la postposition ci-dessous :",
+        34: "Complétez la phrase ci-dessous avec la postposition qui convient :",
     },
 
     praepositionen_verben: {
@@ -404,8 +409,8 @@ INSTRUCTION_EXERCISE_FR = {
         6: "Complétez la phrase suivante avec l'adverbe qui convient :",
         7: "Traduisez l'adverbe suivant :",
         8: "Complétez la phrase suivante avec l'adverbe qui convient :",
-        9: "Trouvez un synonyme pour l'adverbe suivant :",
-        10: "Écrivez l'antonyme de l'adverbe suivant :",
+        9: "Traduisez l'adverbe suivant :",
+        10: "Complétez la phrase suivante avec l'adverbe qui convient :",
 
         11: "Traduisez l'adverbe suivant :",
         12: "Complétez la phrase suivante avec l'adverbe qui convient :",
@@ -426,8 +431,8 @@ INSTRUCTION_EXERCISE_FR = {
         26: "Complétez la phrase suivante avec l'adverbe qui convient :",
         27: "Traduisez l'adverbe suivant :",
         28: "Complétez la phrase suivante avec l'adverbe qui convient :",
-        29: "Trouvez un synonyme pour l'adverbe suivant :",
-        30: "Écrivez l'antonyme de l'adverbe suivant :",
+        29: "Traduisez l'adverbe suivant :",
+        30: "Complétez la phrase suivante avec l'adverbe qui convient :",
 
         31: "Traduisez l'adverbe suivant :",
         32: "Complétez la phrase suivante avec l'adverbe qui convient :",
@@ -448,8 +453,8 @@ INSTRUCTION_EXERCISE_FR = {
         46: "Complétez la phrase suivante avec l'adverbe qui convient :",
         47: "Traduisez l'adverbe suivant :",
         48: "Complétez la phrase suivante avec l'adverbe qui convient :",
-        49: "Trouvez un synonyme pour l'adverbe suivant :",
-        50: "Écrivez l'antonyme de l'adverbe suivant :",
+        49: "Traduisez l'adverbe suivant :",
+        50: "Complétez la phrase suivante avec l'adverbe qui convient :",
 
         51: "Traduisez l'adverbe suivant :",
         52: "Complétez la phrase suivante avec l'adverbe qui convient :",
@@ -460,7 +465,7 @@ INSTRUCTION_EXERCISE_FR = {
         57: "Traduisez l'adverbe suivant :",
         58: "Complétez la phrase suivante avec l'adverbe qui convient :",
         59: "Trouvez un synonyme pour l'adverbe suivant :",
-        60: "Écrivez l'antonyme de l'adverbe suivant :",
+        60: "Trouvez un synonyme pour l'adverbe suivant :",
 
         61: "Traduisez l'adverbe suivant :",
         62: "Complétez la phrase suivante avec l'adverbe qui convient :",
@@ -471,7 +476,7 @@ INSTRUCTION_EXERCISE_FR = {
         67: "Traduisez l'adverbe suivant :",
         68: "Complétez la phrase suivante avec l'adverbe qui convient :",
         69: "Trouvez un synonyme pour l'adverbe suivant :",
-        70: "Écrivez l'antonyme de l'adverbe suivant :",
+        70: "Trouvez un synonyme pour l'adverbe suivant :",
 
         71: "Traduisez l'adverbe suivant :",
         72: "Complétez la phrase suivante avec l'adverbe qui convient :",

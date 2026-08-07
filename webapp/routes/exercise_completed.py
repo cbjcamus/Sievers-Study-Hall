@@ -7,6 +7,8 @@ from data.content.unit.title_button import TITLE_BUTTON
 from data.content.application.text import EXERCISE_TITLE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, \
     YOUR_SCORE_FOR_THIS_EXERCISE, FEEDBACK_LAST_QUESTION, YOUR_INCORRECT_ANSWERS, YOUR_ANSWER, NOT_AUTHENTICATED
 from data.content.application.buttons import NEXT_EXERCISE, REFRESH, BACK_TO
+
+from data.data_processing.exercises import get_level_from_exercise
 from data.data_processing.total_questions import highest_exercise_per_unit
 
 from users.users.settings import get_filename_empty_bookmark, get_filename_full_bookmark, get_filename_flag
@@ -46,6 +48,8 @@ def render_exercise_completed_template(session, unit, exercise, language):
 
     current_user_not_authenticated = not current_user.is_authenticated
 
+    level_exercise = get_level_from_exercise(unit, exercise)
+
     return render_template("exercise/exercise_completed.html",
                            unit=unit,
                            exercise=exercise,
@@ -71,6 +75,7 @@ def render_exercise_completed_template(session, unit, exercise, language):
                            corrections=corrections,
                            refresh=REFRESH[language],
                            back_to=BACK_TO[language],
+                           level_exercise=level_exercise,
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
                            icon_flag=get_filename_flag(),

@@ -1316,29 +1316,29 @@ GUIDANCE_EXERCISE_FR = {
         2: guidance_praepositionen_sentences,
         3: guidance_praepositionen_sentences,
         4: guidance_praepositionen_sentences,
-
         5: guidance_praepositionen_sentences,
+
         6: guidance_praepositionen_sentences,
         7: guidance_praepositionen_sentences,
         8: guidance_praepositionen_sentences,
-
         9: guidance_praepositionen_sentences,
         10: guidance_praepositionen_sentences,
-        11: guidance_praepositionen_isolation,
+
+        11: guidance_praepositionen_sentences,
         12: guidance_praepositionen_sentences,
-
-        13: guidance_praepositionen_sentences,
+        13: guidance_praepositionen_isolation,
         14: guidance_praepositionen_sentences,
-        15: guidance_praepositionen_isolation,
-        16: guidance_praepositionen_sentences,
 
+        15: guidance_praepositionen_sentences,
+        16: guidance_praepositionen_sentences,
         17: guidance_praepositionen_sentences,
         18: guidance_praepositionen_sentences,
-        19: guidance_praepositionen_sentences,
+        19: guidance_praepositionen_isolation,
         20: guidance_praepositionen_sentences,
-        21: guidance_praepositionen_isolation,
+
+        21: guidance_praepositionen_sentences,
         22: guidance_praepositionen_sentences,
-        23: guidance_praepositionen_isolation,
+        23: guidance_praepositionen_sentences,
         24: guidance_praepositionen_sentences,
         25: guidance_praepositionen_isolation,
         26: guidance_praepositionen_sentences,
@@ -1346,6 +1346,11 @@ GUIDANCE_EXERCISE_FR = {
         28: guidance_praepositionen_sentences,
         29: guidance_praepositionen_synonyms,
         30: guidance_praepositionen_antonym,
+
+        31: guidance_praepositionen_isolation,
+        32: guidance_praepositionen_sentences,
+        33: guidance_praepositionen_isolation,
+        34: guidance_praepositionen_sentences,
     },
 
     praepositionen_verben: {
@@ -1655,8 +1660,8 @@ GUIDANCE_EXERCISE_FR = {
         6: guidance_adverbien_sentences,
         7: guidance_adverbien_isolation,
         8: guidance_adverbien_sentences,
-        9: guidance_adverbien_synonyms,
-        10: guidance_adverbien_antonym,
+        9: guidance_adverbien_isolation,
+        10: guidance_adverbien_sentences,
 
         11: guidance_adverbien_isolation,
         12: guidance_adverbien_sentences,
@@ -1677,8 +1682,8 @@ GUIDANCE_EXERCISE_FR = {
         26: guidance_adverbien_sentences,
         27: guidance_adverbien_isolation,
         28: guidance_adverbien_sentences,
-        29: guidance_adverbien_synonyms,
-        30: guidance_adverbien_antonym,
+        29: guidance_adverbien_isolation,
+        30: guidance_adverbien_sentences,
 
         31: guidance_adverbien_isolation,
         32: guidance_adverbien_sentences,
@@ -1699,8 +1704,8 @@ GUIDANCE_EXERCISE_FR = {
         46: guidance_adverbien_sentences,
         47: guidance_adverbien_isolation,
         48: guidance_adverbien_sentences,
-        49: guidance_adverbien_synonyms,
-        50: guidance_adverbien_antonym,
+        49: guidance_adverbien_isolation,
+        50: guidance_adverbien_sentences,
 
         51: guidance_adverbien_isolation,
         52: guidance_adverbien_sentences,
@@ -1711,7 +1716,7 @@ GUIDANCE_EXERCISE_FR = {
         57: guidance_adverbien_isolation,
         58: guidance_adverbien_sentences,
         59: guidance_adverbien_synonyms,
-        60: guidance_adverbien_antonym,
+        60: guidance_adverbien_synonyms,
 
         61: guidance_adverbien_isolation,
         62: guidance_adverbien_sentences,
@@ -1722,7 +1727,7 @@ GUIDANCE_EXERCISE_FR = {
         67: guidance_adverbien_isolation,
         68: guidance_adverbien_sentences,
         69: guidance_adverbien_synonyms,
-        70: guidance_adverbien_antonym,
+        70: guidance_adverbien_synonyms,
 
         71: guidance_adverbien_isolation,
         72: guidance_adverbien_sentences,

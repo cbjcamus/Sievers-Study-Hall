@@ -7,7 +7,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 6,1,,müssend,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)","having to, being obliged to",devant
 7,1,,sollend,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)",being asked to,étant invité à
 8,1,,mögend,mögen,to like,"aimer, apprécier",liking,aimant
-9,1,,dürfend,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",being allowed to,étant autorisé à
+9,1,,dürfend,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), pouvoir",being allowed to,étant autorisé à
 10,1,,wissend,wissen,"to know, to have knowledge",savoir,knowing,connaissant
 11,1,,machend,machen,"to make, to prepare, to do","faire, préparer",making,fabriquant
 12,1,,tuend,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",doing,faisant
@@ -51,7 +51,7 @@ Nr,exercise,question,answer,german,english,french,explanation_english,explanatio
 50,3,,lernend,lernen,"to learn, to study, to train something","apprendre, étudier, se former à quelque chose",searching,cherchant
 51,3,,zeigend,zeigen,"to show, to point at, to demonstrate","montrer, pointer du doigt, démontrer",drinking,buvant
 52,3,,schlafend,schlafen,to sleep,dormir,learning,apprenant
-53,3,,kaufend,kaufen,to buy,acheter,showing,montrer
+53,3,,kaufend,kaufen,to buy,acheter,showing,montrant
 54,3,,laufend,laufen,"to walk, to flow (of a fluid), to run (of an event)","marcher, couler (un fluide), se dérouler (un événement)",sleeping,dormant
 55,3,,zahlend,zahlen,"to pay (for something), to atone for","payer (pour quelque chose), expier",buying,achetant
 56,3,,kochend,kochen,"to cook, to boil (to heat a liquid), to boil something","cuire, faire bouillir (chauffer un liquide), faire bouillir quelque chose",walking,marchant

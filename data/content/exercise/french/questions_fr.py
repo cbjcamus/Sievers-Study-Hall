@@ -104,44 +104,46 @@ QUESTION_EXERCISE_FR = {
            "<br><br><i>{french}</i>",
         4: "{question}"
            "<br><br><i>{french}</i>",
-
         5: "{question}"
            "<br><br><i>{french}</i>",
+
         6: "{question}"
            "<br><br><i>{french}</i>",
         7: "{question}"
            "<br><br><i>{french}</i>",
         8: "{question}"
            "<br><br><i>{french}</i>",
-
         9: "{question}"
            "<br><br><i>{french}</i>",
         10: "{question}"
-            "<br><br><i>{french}</i>",
-        11: "{french}",
+           "<br><br><i>{french}</i>",
+
+        11: "{question}"
+           "<br><br><i>{french}</i>",
         12: "{question}"
             "<br><br><i>{french}</i>",
-
-        13: "{question}"
-            "<br><br><i>{french}</i>",
+        13: "{french}",
         14: "{question}"
             "<br><br><i>{french}</i>",
-        15: "{french}",
+
+        15: "{question}"
+            "<br><br><i>{french}</i>",
         16: "{question}"
             "<br><br><i>{french}</i>",
-
         17: "{question}"
             "<br><br><i>{french}</i>",
         18: "{question}"
             "<br><br><i>{french}</i>",
-        19: "{question}"
-            "<br><br><i>{french}</i>",
+        19: "{french}",
         20: "{question}"
             "<br><br><i>{french}</i>",
-        21: "{french}",
+
+        21: "{question}"
+            "<br><br><i>{french}</i>",
         22: "{question}"
             "<br><br><i>{french}</i>",
-        23: "{french}",
+        23: "{question}"
+            "<br><br><i>{french}</i>",
         24: "{question}"
             "<br><br><i>{french}</i>",
         25: "{french}",
@@ -153,6 +155,13 @@ QUESTION_EXERCISE_FR = {
         29: "{question}"
             "<br><br><i>\"{german}\"</i>",
         30: "{german}",
+
+        31: "{french}",
+        32: "{question}"
+            "<br><br><i>{french}</i>",
+        33: "{french}",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
     },
 
     praepositionen_verben: {
@@ -597,9 +606,9 @@ QUESTION_EXERCISE_FR = {
         7: "{french}",
         8: "{question}"
            "<br><br><i>{french}</i>",
-        9: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        10: "{german}",
+        9: "{french}",
+        10: "{question}"
+            "<br><br><i>{french}</i>",
 
         11: "{french}",
         12: "{question}"
@@ -629,9 +638,9 @@ QUESTION_EXERCISE_FR = {
         27: "{french}",
         28: "{question}"
             "<br><br><i>{french}</i>",
-        29: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        30: "{german}",
+        29: "{french}",
+        30: "{question}"
+            "<br><br><i>{french}</i>",
 
         31: "{french}",
         32: "{question}"
@@ -661,9 +670,9 @@ QUESTION_EXERCISE_FR = {
         47: "{french}",
         48: "{question}"
             "<br><br><i>{french}</i>",
-        49: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        50: "{german}",
+        49: "{french}",
+        50: "{question}"
+            "<br><br><i>{french}</i>",
 
         51: "{french}",
         52: "{question}"
@@ -679,7 +688,8 @@ QUESTION_EXERCISE_FR = {
             "<br><br><i>{french}</i>",
         59: "{question}"
             "<br><br><i>\"{german}\"</i>",
-        60: "{german}",
+        60: "{question}"
+            "<br><br><i>\"{german}\"</i>",
 
         61: "{french}",
         62: "{question}"
@@ -695,7 +705,8 @@ QUESTION_EXERCISE_FR = {
             "<br><br><i>{french}</i>",
         69: "{question}"
             "<br><br><i>\"{german}\"</i>",
-        70: "{german}",
+        70: "{question}"
+            "<br><br><i>\"{german}\"</i>",
 
         71: "{french}",
         72: "{question}"

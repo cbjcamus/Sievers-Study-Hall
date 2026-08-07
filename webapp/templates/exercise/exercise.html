@@ -235,7 +235,9 @@
     {% endif %}
 
     <div class="back-button-container">
-        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>
+        <a href="{{ unit_page.get(unit, '/') }}#{{ level_exercise }}" class="back-button">
+            {{ back_to }} {{ back_page[unit] }} ↩
+        </a>
     </div>
 
     {% if clearance_popup_title %}

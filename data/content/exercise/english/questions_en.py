@@ -104,44 +104,46 @@ QUESTION_EXERCISE_EN = {
            "<br><br><i>{english}</i>",
         4: "{question}"
            "<br><br><i>{english}</i>",
-
         5: "{question}"
            "<br><br><i>{english}</i>",
+
         6: "{question}"
            "<br><br><i>{english}</i>",
         7: "{question}"
            "<br><br><i>{english}</i>",
         8: "{question}"
            "<br><br><i>{english}</i>",
-
         9: "{question}"
            "<br><br><i>{english}</i>",
         10: "{question}"
-            "<br><br><i>{english}</i>",
-        11: "{english}",
+           "<br><br><i>{english}</i>",
+
+        11: "{question}"
+           "<br><br><i>{english}</i>",
         12: "{question}"
             "<br><br><i>{english}</i>",
-
-        13: "{question}"
-            "<br><br><i>{english}</i>",
+        13: "{english}",
         14: "{question}"
             "<br><br><i>{english}</i>",
-        15: "{english}",
+
+        15: "{question}"
+            "<br><br><i>{english}</i>",
         16: "{question}"
             "<br><br><i>{english}</i>",
-
         17: "{question}"
             "<br><br><i>{english}</i>",
         18: "{question}"
             "<br><br><i>{english}</i>",
-        19: "{question}"
-            "<br><br><i>{english}</i>",
+        19: "{english}",
         20: "{question}"
             "<br><br><i>{english}</i>",
-        21: "{english}",
+
+        21: "{question}"
+            "<br><br><i>{english}</i>",
         22: "{question}"
             "<br><br><i>{english}</i>",
-        23: "{english}",
+        23: "{question}"
+            "<br><br><i>{english}</i>",
         24: "{question}"
             "<br><br><i>{english}</i>",
         25: "{english}",
@@ -153,6 +155,13 @@ QUESTION_EXERCISE_EN = {
         29: "{question}"
             "<br><br><i>\"{german}\"</i>",
         30: "{german}",
+
+        31: "{english}",
+        32: "{question}"
+            "<br><br><i>{english}</i>",
+        33: "{english}",
+        34: "{question}"
+            "<br><br><i>{english}</i>",
     },
 
     praepositionen_verben: {
@@ -596,9 +605,9 @@ QUESTION_EXERCISE_EN = {
         7: "{english}",
         8: "{question}"
            "<br><br><i>{english}</i>",
-        9: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        10: "{german}",
+        9: "{english}",
+        10: "{question}"
+            "<br><br><i>{english}</i>",
 
         11: "{english}",
         12: "{question}"
@@ -628,9 +637,9 @@ QUESTION_EXERCISE_EN = {
         27: "{english}",
         28: "{question}"
             "<br><br><i>{english}</i>",
-        29: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        30: "{german}",
+        29: "{english}",
+        30: "{question}"
+            "<br><br><i>{english}</i>",
 
         31: "{english}",
         32: "{question}"
@@ -660,9 +669,9 @@ QUESTION_EXERCISE_EN = {
         47: "{english}",
         48: "{question}"
             "<br><br><i>{english}</i>",
-        49: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        50: "{german}",
+        49: "{english}",
+        50: "{question}"
+            "<br><br><i>{english}</i>",
 
         51: "{english}",
         52: "{question}"
@@ -678,7 +687,8 @@ QUESTION_EXERCISE_EN = {
             "<br><br><i>{english}</i>",
         59: "{question}"
             "<br><br><i>\"{german}\"</i>",
-        60: "{german}",
+        60: "{question}"
+            "<br><br><i>\"{german}\"</i>",
 
         61: "{english}",
         62: "{question}"
@@ -694,7 +704,8 @@ QUESTION_EXERCISE_EN = {
             "<br><br><i>{english}</i>",
         69: "{question}"
             "<br><br><i>\"{german}\"</i>",
-        70: "{german}",
+        70: "{question}"
+            "<br><br><i>\"{german}\"</i>",
 
         71: "{english}",
         72: "{question}"

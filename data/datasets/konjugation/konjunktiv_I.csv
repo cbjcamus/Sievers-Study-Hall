@@ -5,15 +5,15 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 4,1,,,können,"can, to be able to","pouvoir, être capable de",könne,könnest,könne,können,könnet,können
 5,1,,,wollen,to want,vouloir,wolle,wollest,wolle,wollen,wollet,wollen
 6,1,,,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",müsse,müssest,müsse,müssen,müsset,müssen
-7,1,,,sollen,"shall, to be asked (to do something)","devoir, être invité (à faire quelque chose)",solle,sollest,solle,sollen,sollet,sollen
+7,1,,,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)",solle,sollest,solle,sollen,sollet,sollen
 8,2,,,mögen,to like,"aimer, apprécier",möge,mögest,möge,mögen,möget,mögen
-9,2,,,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",dürfe,dürfest,dürfe,dürfen,dürfet,dürfen
-10,2,,,wissen,to know,savoir,wisse,wissest,wisse,wissen,wisset,wissen
-11,2,,,machen,"to make, to prepare (e.g. food), to do","faire, préparer (par exemple de la nourriture)",mache,machest,mache,machen,machet,machen
+9,2,,,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), pouvoir",dürfe,dürfest,dürfe,dürfen,dürfet,dürfen
+10,2,,,wissen,"to know, to have knowledge",savoir,wisse,wissest,wisse,wissen,wisset,wissen
+11,2,,,machen,"to make, to prepare, to do","faire, préparer",mache,machest,mache,machen,machet,machen
 12,2,,,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",tue,tuest,tue,tun,tuet,tun
 13,2,,,sagen,"to say, to tell","dire, raconter",sage,sagest,sage,sagen,saget,sagen
-14,2,,,gehen,"to go, to leave, to work, to function (coll.)","aller, partir, fonctionner (familier)",gehe,gehest,gehe,gehen,gehet,gehen
-15,3,,,sehen,"to see, to see (to something), to realise","voir, se rendre compte",sehe,sehest,sehe,sehen,sehet,sehen
+14,2,,,gehen,"to go, to leave, to work, to function (coll.), to be going (Dat.), to be all right (Dat.)","aller, partir, fonctionner (familier)",gehe,gehest,gehe,gehen,gehet,gehen
+15,3,,,sehen,"to see, to realise","voir, se rendre compte",sehe,sehest,sehe,sehen,sehet,sehen
 16,3,,,geben,to give,donner,gebe,gebest,gebe,geben,gebet,geben
 17,3,,,kommen,"to come, to make it (e.g. over something), to go to, to occur","venir, aller à, se produire",komme,kommest,komme,kommen,kommet,kommen
 18,3,,,glauben,to believe,croire,glaube,glaubest,glaube,glauben,glaubet,glauben
@@ -33,7 +33,7 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 32,5,,,halten,"to hold, to stop (a movement), to support, to keep","tenir, arrêter (un mouvement), soutenir, garder",halte,haltest,halte,halten,haltet,halten
 33,5,,,warten,"to wait, to maintain (e.g. a car)","attendre, entretenir (par exemple une voiture)",warte,wartest,warte,warten,wartet,warten
 34,5,,,kennen,"to know, to be acquainted with, to be familiar with","connaître, être familier avec",kenne,kennest,kenne,kennen,kennet,kennen
-35,5,,,verstehen,"to understand, to get along with someone or something","comprendre, s'entendre avec quelqu'un",verstehe,verstehest,verstehe,verstehen,verstehet,verstehen
+35,5,,,verstehen,"to understand, to get along with someone","comprendre, s'entendre avec quelqu'un",verstehe,verstehest,verstehe,verstehen,verstehet,verstehen
 36,6,,,denken,"to think, to consider","penser, considérer",denke,denkest,denke,denken,denket,denken
 37,6,,,leben,to live,vivre,lebe,lebest,lebe,leben,lebet,leben
 38,6,,,arbeiten,to work,travailler,arbeite,arbeitest,arbeite,arbeiten,arbeitet,arbeiten

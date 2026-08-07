@@ -138,11 +138,11 @@ FEEDBACK_EXERCISE_EN = {
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
-
         5: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
+
         6: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
@@ -155,7 +155,6 @@ FEEDBACK_EXERCISE_EN = {
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
            "<br><br>Correct answer(s): {correct_answers}",
-
         9: "{german}"
            "<br><br><i>{english}</i>"
            "<br><br>{explanation_english}"
@@ -164,26 +163,29 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        11: "{explanation_english}",
+
+        11: "{german}"
+           "<br><br><i>{english}</i>"
+           "<br><br>{explanation_english}"
+           "<br><br>Correct answer(s): {correct_answers}",
         12: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-
-        13: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
+        13: "{explanation_english}",
         14: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        15: "{explanation_english}",
+
+        15: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
         16: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-
         17: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
@@ -192,20 +194,24 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        19: "{german}"
-            "<br><br><i>{english}</i>"
-            "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
+        19: "{explanation_english}",
         20: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        21: "{explanation_english}",
+
+        21: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
         22: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        23: "{explanation_english}",
+        23: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
         24: "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
@@ -223,6 +229,17 @@ FEEDBACK_EXERCISE_EN = {
         29: "{english} = {correct_answers}",
         30: "{german} ↔ {first_correct_answer}"
             "<br><br>{english}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+
+        31: "{explanation_english}",
+        32: "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        33: "{explanation_english}",
+        34: "{german}"
+            "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
     },
@@ -900,8 +917,8 @@ FEEDBACK_EXERCISE_EN = {
            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         9: "{english} = {first_correct_answer_wiktionary}"
            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        10: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{english}"
+        10: "{german}"
+            "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
@@ -962,8 +979,8 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         29: "{english} = {first_correct_answer_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        30: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{english}"
+        30: "{german}"
+            "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
@@ -1023,8 +1040,8 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         49: "{english} = {first_correct_answer_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        50: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{english}"
+        50: "{german}"
+            "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
@@ -1054,9 +1071,7 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         59: "{english} = {first_correct_answer_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        60: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{english}"
-            "<br><br>{explanation_english}"
+        60: "{english} = {first_correct_answer_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
         61: "{english} = {first_correct_answer_wiktionary}"
@@ -1085,9 +1100,7 @@ FEEDBACK_EXERCISE_EN = {
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         69: "{english} = {first_correct_answer_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        70: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{english}"
-            "<br><br>{explanation_english}"
+        70: "{english} = {first_correct_answer_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
 
         71: "{english} = {first_correct_answer_wiktionary}"

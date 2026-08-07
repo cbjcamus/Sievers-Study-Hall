@@ -25,7 +25,7 @@
 
     {% if exercises_A1 is not none %}
     <div class="section">
-        <h2>A1</h2>
+        <h2 id="A1">A1</h2>
         <table class="exercise-table">
             {% for row in exercises_A1.itertuples() %}
                 {{ render_exercise_table_row(
@@ -40,6 +40,11 @@
                     language,
                     format_description
                 ) }}
+
+                {% if (row.unit, row.exercise) in separations %}
+                    {{ render_exercise_empty_row() }}
+                {% endif %}
+
             {% endfor %}
         </table>
     </div>
@@ -47,7 +52,7 @@
 
     {% if exercises_A2 is not none %}
     <div class="section">
-        <h2>A2</h2>
+        <h2 id="A2">A2</h2>
         <table class="exercise-table">
             {% for row in exercises_A2.itertuples() %}
                 {{ render_exercise_table_row(
@@ -62,6 +67,11 @@
                     language,
                     format_description
                 ) }}
+
+                {% if (row.unit, row.exercise) in separations %}
+                    {{ render_exercise_empty_row() }}
+                {% endif %}
+
             {% endfor %}
         </table>
     </div>
@@ -69,7 +79,7 @@
 
     {% if exercises_B1 is not none %}
     <div class="section">
-        <h2>B1</h2>
+        <h2 id="B1">B1</h2>
         <table class="exercise-table">
             {% for row in exercises_B1.itertuples() %}
                 {{ render_exercise_table_row(
@@ -84,6 +94,11 @@
                     language,
                     format_description
                 ) }}
+
+                {% if (row.unit, row.exercise) in separations %}
+                    {{ render_exercise_empty_row() }}
+                {% endif %}
+
             {% endfor %}
         </table>
     </div>
@@ -91,7 +106,7 @@
 
     {% if exercises_B2 is not none %}
     <div class="section">
-        <h2>B2</h2>
+        <h2 id="B2">B2</h2>
         <table class="exercise-table">
             {% for row in exercises_B2.itertuples() %}
                 {{ render_exercise_table_row(
@@ -106,6 +121,10 @@
                     language,
                     format_description
                 ) }}
+
+                {% if (row.unit, row.exercise) in separations %}
+                    {{ render_exercise_empty_row() }}
+                {% endif %}
             {% endfor %}
         </table>
     </div>
@@ -113,7 +132,7 @@
 
     {% if exercises_C1 is not none %}
     <div class="section">
-        <h2>C1</h2>
+        <h2 id="C1">C1</h2>
         <table class="exercise-table">
             {% for row in exercises_C1.itertuples() %}
                 {{ render_exercise_table_row(
@@ -128,6 +147,11 @@
                     language,
                     format_description
                 ) }}
+
+                {% if (row.unit, row.exercise) in separations %}
+                    {{ render_exercise_empty_row() }}
+                {% endif %}
+
             {% endfor %}
         </table>
     </div>
@@ -135,7 +159,7 @@
 
     {% if exercises_C2 is not none %}
     <div class="section">
-        <h2>C2</h2>
+        <h2 id="C2">C2</h2>
         <table class="exercise-table">
             {% for row in exercises_C2.itertuples() %}
                 {{ render_exercise_table_row(
@@ -150,6 +174,11 @@
                     language,
                     format_description
                 ) }}
+
+                {% if (row.unit, row.exercise) in separations %}
+                    {{ render_exercise_empty_row() }}
+                {% endif %}
+
             {% endfor %}
         </table>
     </div>
@@ -158,6 +187,8 @@
     <div class="home-button-container">
         <a href="/" class="button">{{ homepage }}</a>
     </div>
+
+    <script src="{{ url_for('static', filename='js/menu/resetExercise.js') }}" defer></script>
 
 </body>
 </html>

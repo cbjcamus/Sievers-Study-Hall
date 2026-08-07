@@ -138,11 +138,11 @@ FEEDBACK_EXERCISE_FR = {
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-
         5: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+
         6: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
@@ -155,7 +155,6 @@ FEEDBACK_EXERCISE_FR = {
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-
         9: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>{explanation_french}"
@@ -164,26 +163,29 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        11: "{explanation_french}",
+
+        11: "{german}"
+           "<br><br><i>{french}</i>"
+           "<br><br>{explanation_french}"
+           "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         12: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-
-        13: "{german}"
-            "<br><br><i>{french}</i>"
-            "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        13: "{explanation_french}",
         14: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        15: "{explanation_french}",
+
+        15: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         16: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-
         17: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -192,20 +194,24 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        19: "{german}"
-            "<br><br><i>{french}</i>"
-            "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        19: "{explanation_french}",
         20: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        21: "{explanation_french}",
+
+        21: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         22: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        23: "{explanation_french}",
+        23: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         24: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
@@ -223,6 +229,17 @@ FEEDBACK_EXERCISE_FR = {
         29: "{french} = {correct_answers}",
         30: "{german} ↔ {first_correct_answer}"
             "<br><br>{french}"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+
+        31: "{explanation_french}",
+        32: "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        33: "{explanation_french}",
+        34: "{german}"
+            "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
     },
@@ -899,8 +916,8 @@ FEEDBACK_EXERCISE_FR = {
            "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         9: "{french} = {first_correct_answer_wiktionary}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
-        10: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{french}"
+        10: "{german}"
+            "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
 
@@ -961,8 +978,8 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         29: "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
-        30: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{french}"
+        30: "{german}"
+            "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
 
@@ -1022,8 +1039,8 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         49: "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
-        50: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{french}"
+        50: "{german}"
+            "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
 
@@ -1053,9 +1070,7 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         59: "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
-        60: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{french}"
-            "<br><br>{explanation_french}"
+        60: "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
 
         61: "{french} = {first_correct_answer_wiktionary}"
@@ -1084,9 +1099,7 @@ FEEDBACK_EXERCISE_FR = {
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         69: "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
-        70: "{german} ↔ {first_correct_answer_wiktionary}"
-            "<br><br>{french}"
-            "<br><br>{explanation_french}"
+        70: "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
 
         71: "{french} = {first_correct_answer_wiktionary}"

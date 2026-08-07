@@ -11,8 +11,9 @@ from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMI
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.exercises import is_exercise_multiple_choice_native, does_unit_exercise_exist, is_exercise_input, \
-    is_exercise_word_order, is_exercise_multiple_choice_target
+from data.data_processing.exercises import is_exercise_multiple_choice_native, does_unit_exercise_exist, \
+    is_exercise_input, \
+    is_exercise_word_order, is_exercise_multiple_choice_target, get_level_from_exercise
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 
@@ -160,6 +161,8 @@ def exercise_page(unit, exercise):
     else:
         word_order_words = None
 
+    level_exercise = get_level_from_exercise(unit, exercise)
+
     return render_template("exercise/exercise.html",
                            unit=unit,
                            exercise=exercise,
@@ -196,6 +199,7 @@ def exercise_page(unit, exercise):
                            submit=SUBMIT[language],
                            enter_answer_here=ENTER_ANSWER_HERE[language],
                            back_to=BACK_TO[language],
+                           level_exercise=level_exercise,
                            current_user=current_user,
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),

@@ -7,7 +7,7 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 6,2,,,müssen,"must, to have to, to be obliged (to do something)","devoir, être obligé (de faire quelque chose)",muss,musst,muss,müssen,müsst,müssen
 7,2,,,sollen,"shall, to be asked to (do something), to be supposed to (do something)","devoir, être invité (à faire quelque chose)",soll,sollst,soll,sollen,sollt,sollen
 8,2,,,mögen,to like,"aimer, apprécier",mag,magst,mag,mögen,mögt,mögen
-9,2,,,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), peut",darf,darfst,darf,dürfen,dürft,dürfen
+9,2,,,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), pouvoir",darf,darfst,darf,dürfen,dürft,dürfen
 10,2,,,wissen,"to know, to have knowledge",savoir,weiß,weißt,weiß,wissen,wisst,wissen
 11,3,,,machen,"to make, to prepare, to do","faire, préparer",mache,machst,macht,machen,macht,machen
 12,3,,,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un",tue,tust,tut,tun,tut,tun
@@ -147,7 +147,7 @@ Nr,exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 146,30,,,steigen,"to ascend, to climb, to rise","monter, grimper, s'élever",steige,steigst,steigt,steigen,steigt,steigen
 147,30,,,singen,to sing,chanter,singe,singst,singt,singen,singt,singen
 148,30,,,empfehlen,"to recommend, to suggest","recommander, suggérer",empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt,empfehlen
-149,30,,,bitten,"to ask, to request","demander, requérir",bitte,bittest,bittet,bitten,bittet,bitten
+149,30,,,bitten,"to ask, to beg, to plead, to request","demander, prier (quelqu'un de faire quelque chose), requérir, inviter poliment",bitte,bittest,bittet,bitten,bittet,bitten
 150,30,,,merken,"to notice, to realise, to remember (refl.)","remarquer, se rendre compte, se souvenir (réfl.)",merke,merkst,merkt,merken,merkt,merken
 151,31,,,stören,"to disturb, to interfere","déranger, interférer",störe,störst,stört,stören,stört,stören
 152,31,,,annehmen,"to accept, to assume (a hypothesis), to receive, to suppose","accepter, supposer (une hypothèse), recevoir",nehme an,nimmst an,nimmt an,nehmen an,nehmt an,nehmen an

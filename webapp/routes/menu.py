@@ -13,6 +13,7 @@ from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY
 
 from data.data_processing.units import units
 from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise
+from data.data_processing.separations import separations
 from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
 from users.users.models import Bookmark
@@ -94,6 +95,7 @@ for unit in units:
                                    exercises_B2=exercises_B2,
                                    exercises_C1=exercises_C1,
                                    exercises_C2=exercises_C2,
+                                   separations=separations,
                                    )
         return dynamic_route
 

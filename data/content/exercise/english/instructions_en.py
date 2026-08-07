@@ -61,36 +61,41 @@ INSTRUCTION_EXERCISE_EN = {
         2: "Complete the following sentence with the preposition that fits:",
         3: "Complete the following sentence with the preposition that fits:",
         4: "Complete the following sentence with the preposition that fits:",
-
         5: "Complete the following sentence with the preposition that fits:",
+
         6: "Complete the following sentence with the preposition that fits:",
         7: "Complete the following sentence with the preposition that fits:",
         8: "Complete the following sentence with the preposition that fits:",
-
         9: "Complete the following sentence with the preposition that fits:",
         10: "Complete the following sentence with the preposition that fits:",
-        11: "Translate the following preposition:",
+
+        11: "Complete the following sentence with the preposition that fits:",
         12: "Complete the following sentence with the preposition that fits:",
-
-        13: "Complete the following sentence with the preposition that fits:",
+        13: "Translate the following preposition:",
         14: "Complete the following sentence with the preposition that fits:",
-        15: "Translate the following preposition:",
-        16: "Complete the following sentence with the preposition that fits:",
 
+        15: "Complete the following sentence with the preposition that fits:",
+        16: "Complete the following sentence with the preposition that fits:",
         17: "Complete the following sentence with the preposition that fits:",
         18: "Complete the following sentence with the preposition that fits:",
-        19: "Complete the following sentence with the preposition that fits:",
+        19: "Translate the following preposition:",
         20: "Complete the following sentence with the preposition that fits:",
-        21: "Translate the following preposition:",
+
+        21: "Complete the following sentence with the preposition that fits:",
         22: "Complete the following sentence with the preposition that fits:",
-        23: "Translate the following preposition:",
+        23: "Complete the following sentence with the preposition that fits:",
         24: "Complete the following sentence with the preposition that fits:",
-        25: "Translate the following prepositional phrase:",
-        26: "Complete the following sentence with the prepositional phrase that fits:",
-        27: "Translate the following postposition:",
-        28: "Complete the following sentence with the postposition that fits:",
+        25: "Translate the following preposition:",
+        26: "Complete the following sentence with the preposition that fits:",
+        27: "Translate the following prepositional phrase:",
+        28: "Complete the following sentence with the prepositional phrase that fits:",
         29: "Find a synonym for the following preposition:",
         30: "Write an antonym for the following preposition:",
+
+        31: "Translate the following preposition:",
+        32: "Complete the following sentence with the preposition that fits:",
+        33: "Translate the following postposition:",
+        34: "Complete the following sentence with the postposition that fits:",
     },
 
     praepositionen_verben: {
@@ -403,8 +408,8 @@ INSTRUCTION_EXERCISE_EN = {
         6: "Complete the following sentence with the adverb that fits:",
         7: "Translate the following adverb:",
         8: "Complete the following sentence with the adverb that fits:",
-        9: "Find a synonym for the following adverb:",
-        10: "Write the Antonym of the following adverb:",
+        9: "Translate the following adverb:",
+        10: "Complete the following sentence with the adverb that fits:",
 
         11: "Translate the following adverb:",
         12: "Complete the following sentence with the adverb that fits:",
@@ -425,8 +430,8 @@ INSTRUCTION_EXERCISE_EN = {
         26: "Complete the following sentence with the adverb that fits:",
         27: "Translate the following adverb:",
         28: "Complete the following sentence with the adverb that fits:",
-        29: "Find a synonym for the following adverb:",
-        30: "Write the Antonym of the following adverb:",
+        29: "Translate the following adverb:",
+        30: "Complete the following sentence with the adverb that fits:",
 
         31: "Translate the following adverb:",
         32: "Complete the following sentence with the adverb that fits:",
@@ -447,8 +452,8 @@ INSTRUCTION_EXERCISE_EN = {
         46: "Complete the following sentence with the adverb that fits:",
         47: "Translate the following adverb:",
         48: "Complete the following sentence with the adverb that fits:",
-        49: "Find a synonym for the following adverb:",
-        50: "Write the Antonym of the following adverb:",
+        49: "Translate the following adverb:",
+        50: "Complete the following sentence with the adverb that fits:",
 
         51: "Translate the following adverb:",
         52: "Complete the following sentence with the adverb that fits:",
@@ -459,7 +464,7 @@ INSTRUCTION_EXERCISE_EN = {
         57: "Translate the following adverb:",
         58: "Complete the following sentence with the adverb that fits:",
         59: "Find a synonym for the following adverb:",
-        60: "Write the Antonym of the following adverb:",
+        60: "Find a synonym for the following adverb:",
 
         61: "Translate the following adverb:",
         62: "Complete the following sentence with the adverb that fits:",
@@ -470,7 +475,7 @@ INSTRUCTION_EXERCISE_EN = {
         67: "Translate the following adverb:",
         68: "Complete the following sentence with the adverb that fits:",
         69: "Find a synonym for the following adverb:",
-        70: "Write the Antonym of the following adverb:",
+        70: "Find a synonym for the following adverb:",
 
         71: "Translate the following adverb:",
         72: "Complete the following sentence with the adverb that fits:",
