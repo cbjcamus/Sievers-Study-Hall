@@ -27,7 +27,7 @@ STARS = {
     konnektoren: f"{STAR_GOLD}",
     fragen: f"",
     adverbien: f"{STAR_GOLD}",
-    wortstellung: f"",
+    wortstellung: f"{STAR_GOLD}",
 
     genus_regeln: f"{STAR_GOLD}",
     genus: f"{STAR_GOLD}",
