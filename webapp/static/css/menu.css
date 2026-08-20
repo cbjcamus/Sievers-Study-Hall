@@ -78,3 +78,38 @@ input:checked + .slider:before {
     max-width: 180px;
     text-align: center;
 }
+
+#page-loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    z-index: 9999;
+}
+
+#page-loading-progress {
+    height: 100%;
+    width: 0;
+    background: #4CAF50;
+    animation: loading-progress 2s ease-out forwards;
+}
+
+@keyframes loading-progress {
+    0%   { width: 0; }
+    50%  { width: 70%; }
+    100% { width: 90%; }
+}
+
+#page-loading-bar.loaded #page-loading-progress {
+    width: 100%;
+    animation: none;
+    transition: width 0.2s ease;
+}
+
+#page-loading-bar.hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}

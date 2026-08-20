@@ -11,6 +11,10 @@
 </head>
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
+    <div id="page-loading-bar">
+        <div id="page-loading-progress"></div>
+    </div>
+
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
 
@@ -87,6 +91,18 @@
         </table>
     </div>
     {% endif %}
+
+    <script>
+        window.addEventListener("load", function () {
+            const loadingBar = document.getElementById("page-loading-bar");
+
+            loadingBar.classList.add("loaded");
+
+            setTimeout(function () {
+                loadingBar.classList.add("hidden");
+            }, 200);
+        });
+    </script>
 
 </body>
 </html>
