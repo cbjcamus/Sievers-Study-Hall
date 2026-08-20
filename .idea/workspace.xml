@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update August 7th">
+    <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update August 20th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/macros/render_title.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/macros/render_title.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00179" summary="update February 18th">
-      <option name="closed" value="true" />
-      <created>1772007543830</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1772007543830</updated>
     </task>
     <task id="LOCAL-00180" summary="update February 25th">
       <option name="closed" value="true" />
@@ -561,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786173714700</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="update August 20th">
+      <option name="closed" value="true" />
+      <created>1787216662441</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1787216662441</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -577,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjektive update" />
     <MESSAGE value="next exercise button + adjektivdeklinationen + genus" />
     <MESSAGE value="update meta" />
     <MESSAGE value="update January 17th" />
@@ -602,7 +603,8 @@
     <MESSAGE value="update June 30th" />
     <MESSAGE value="update July 6th" />
     <MESSAGE value="update August 7th" />
-    <option name="LAST_COMMIT_MESSAGE" value="update August 7th" />
+    <MESSAGE value="update August 20th" />
+    <option name="LAST_COMMIT_MESSAGE" value="update August 20th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

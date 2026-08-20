@@ -310,3 +310,48 @@ body.day-mode .button {
     cursor: pointer;
     padding: 0;
 }
+
+
+#progress-loading-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+#progress-loading-overlay.visible {
+    display: flex;
+}
+
+.progress-loading-box {
+    width: 300px;
+    text-align: center;
+}
+
+.progress-loading-bar {
+    margin-top: 10px;
+    height: 5px;
+    background: #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.progress-loading-bar-inner {
+    height: 100%;
+    width: 30%;
+    background: #555;
+    animation: progress-loading 1.2s infinite ease-in-out;
+}
+
+@keyframes progress-loading {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(400%);
+    }
+}
