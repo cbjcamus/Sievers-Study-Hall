@@ -311,15 +311,22 @@ body.day-mode .button {
     padding: 0;
 }
 
+body.day-mode .refresh-button {
+    color: black;
+}
 
 #progress-loading-overlay {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(19, 27, 34, 0.8);
     z-index: 9999;
     align-items: center;
     justify-content: center;
+}
+
+body.day-mode #progress-loading-overlay {
+    background: rgba(222, 237, 250, 0.8);
 }
 
 #progress-loading-overlay.visible {

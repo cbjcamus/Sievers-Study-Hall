@@ -98,7 +98,7 @@ INTRODUCTION_EN = {
         "Practice the gender of nouns based on thumb rules."
         "<br><br>A guide listing these thumb rules is available "
         "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
-        "<br><br>Once you've finished these exercises, you can continue practicing with more nouns "
+        "<br><br>Once you have finished these exercises, you can continue practicing with more nouns "
         "<a href=\"/genus\" target=\"_blank\">here</a>."
     ,
     genus:
