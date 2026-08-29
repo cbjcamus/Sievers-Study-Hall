@@ -9,9 +9,17 @@
   <component name="ChangeListManager">
     <list default="true" id="3e2b679b-8502-45b1-8fff-dc5156f1a53a" name="Changes" comment="update August 20th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/progress_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/progress_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/templates/menu/progress_fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/menu/progress_fr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/pronomen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/artikel_pronomen_kasus/pronomen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/genus/genus_regeln.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/other/synonyms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/satzbildung/adverbien.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_nomen_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_nomen_wortstaemme.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_verben_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/adjektive_verben_wortstaemme.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datasets/wortstaemme/nomen_verben_wortstaemme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets/wortstaemme/nomen_verben_wortstaemme.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/routes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727340858731</updated>
-    </task>
-    <task id="LOCAL-00182" summary="update March 11th">
-      <option name="closed" value="true" />
-      <created>1773253949632</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1773253949632</updated>
     </task>
     <task id="LOCAL-00183" summary="update March 11th">
       <option name="closed" value="true" />
@@ -564,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787217645140</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="update August 20th">
+      <option name="closed" value="true" />
+      <created>1787301465969</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1787301465969</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>

@@ -17,7 +17,7 @@ def inject_language():
 def set_lang(code):
     if code in ("en", "fr"):
         session["lang"] = code
-    return redirect(request.referrer or url_for("routes.home_page"))
+    return redirect(request.referrer or url_for("routes.home"))
 
 
 # Import submodules so their route decorators run

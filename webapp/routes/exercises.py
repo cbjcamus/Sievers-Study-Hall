@@ -69,7 +69,7 @@ def guidance(unit, exercise):
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes.home_page"), code=302)
+        return redirect(url_for("routes.home"), code=302)
 
     language = get_language(request, session)
 
@@ -111,7 +111,7 @@ def exercise_page(unit, exercise):
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes.home_page"), code=302)
+        return redirect(url_for("routes.home"), code=302)
 
     if not does_unit_exercise_exist(unit, exercise):
         abort(404)
@@ -256,7 +256,7 @@ def feedback_page(unit, exercise):
         return redirected
 
     if unit not in units:
-        return redirect(url_for("routes.home_page"), code=302)
+        return redirect(url_for("routes.home"), code=302)
 
     if not does_unit_exercise_exist(unit, exercise):
         abort(404)
@@ -273,7 +273,7 @@ def feedback_page(unit, exercise):
         or current_exercise.get("unit") != unit
         or int(current_exercise.get("exercise")) != int(exercise)
     ):
-        return redirect(url_for("routes.exercise", unit=unit, exercise=exercise))
+        return redirect(url_for("routes.exercise_page", unit=unit, exercise=exercise))
 
     question_id = session.get("current_exercise").get("question_id")
 
@@ -425,7 +425,7 @@ def toggle_bookmark():
         if request.headers.get("X-Requested-With") == "XMLHttpRequest":
             return jsonify({"bookmarked": False})
 
-        return redirect(request.referrer or url_for("routes.home_page"))
+        return redirect(request.referrer or url_for("routes.home"))
 
     # Case 2: coming from an exercise page -> use full data (your existing logic)
     unit = request.form["unit"]
@@ -466,5 +466,5 @@ def toggle_bookmark():
     if request.headers.get("X-Requested-With") == "XMLHttpRequest":
         return jsonify({"bookmarked": bookmarked})
 
-    next_url = request.form.get("next") or request.referrer or url_for("routes.home_page")
+    next_url = request.form.get("next") or request.referrer or url_for("routes.home")
     return redirect(next_url)
