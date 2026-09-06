@@ -3,12 +3,14 @@ from data.content.exercise.english.feedbacks_en import FEEDBACK_UNIT_EN, FEEDBAC
 from data.content.exercise.english.guidance_en import GUIDANCE_UNIT_EN, GUIDANCE_EXERCISE_EN
 from data.content.exercise.english.instructions_en import INSTRUCTION_UNIT_EN, INSTRUCTION_EXERCISE_EN
 from data.content.exercise.english.questions_en import QUESTION_UNIT_EN, QUESTION_EXERCISE_EN
+from data.content.exercise.english.prompts_en import PROMPT_UNIT_EN, PROMPT_EXERCISE_EN
 
 from data.content.exercise.french.descriptions_fr import DESCRIPTION_UNIT_FR, DESCRIPTION_EXERCISE_FR
 from data.content.exercise.french.feedbacks_fr import FEEDBACK_UNIT_FR, FEEDBACK_EXERCISE_FR
 from data.content.exercise.french.guidance_fr import GUIDANCE_UNIT_FR, GUIDANCE_EXERCISE_FR
 from data.content.exercise.french.instructions_fr import INSTRUCTION_UNIT_FR, INSTRUCTION_EXERCISE_FR
 from data.content.exercise.french.questions_fr import QUESTION_UNIT_FR, QUESTION_EXERCISE_FR
+from data.content.exercise.french.prompts_fr import PROMPT_UNIT_FR, PROMPT_EXERCISE_FR
 
 DESCRIPTION_EN = {
     'unit': DESCRIPTION_UNIT_EN,
@@ -83,4 +85,19 @@ QUESTION_FR = {
 QUESTION = {
     'english': QUESTION_EN,
     'french': QUESTION_FR,
+}
+
+PROMPT_EN = {
+    'unit': PROMPT_UNIT_EN,
+    'exercise': PROMPT_EXERCISE_EN,
+}
+
+PROMPT_FR = {
+    'unit': PROMPT_UNIT_FR,
+    'exercise': PROMPT_EXERCISE_FR,
+}
+
+PROMPT = {
+    'english': PROMPT_EN,
+    'french': PROMPT_FR,
 }

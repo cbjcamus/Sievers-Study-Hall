@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 from webapp.style.icons import STAR_GOLD
@@ -56,4 +56,5 @@ STARS = {
     adjektive_nomen_wortstaemme: f"",
 
     zahlen: f"",
+    alpha: f"",
 }

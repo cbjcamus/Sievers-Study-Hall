@@ -7,9 +7,10 @@ from data.data_processing.units import konnektoren, adverbien, fragen, verben, t
 from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column, \
     is_exercise_multiple_choice_target, is_exercise_multiple_choice_native
 from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
-from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION
+from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT
 
-from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer
+from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer, \
+    remove_punctuation
 
 
 def get_template(unit, exercise, language, template):
@@ -109,10 +110,13 @@ def format_wiktionary_link(input, language):
 
 def format_unique_link(input, language):
     input_link = input.replace("sich ", "")
+    input_link = input_link.replace("am ", "")
+    input_link = input_link.replace("aufs ", "")
+    input_link = input_link.replace("auf das ", "")
     input_link = input_link.replace("die ", "")
     input_link = input_link.replace("das ", "")
     input_link = input_link.replace("der ", "")
-    input_link = input_link.replace("am ", "")
+    input_link = remove_punctuation(input_link)
 
     if language == 'english':
         return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
@@ -120,7 +124,7 @@ def format_unique_link(input, language):
         return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
 
 
-def format_feedback(unit, exercise, language, question_id):
+def format_feedback(unit, exercise, language, question_id, user_answer=None, translation=None, other_errors=None):
     if question_id is None:
         return None
 
@@ -159,6 +163,8 @@ def format_feedback(unit, exercise, language, question_id):
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
 
+    other_errors = "" if (other_errors == "none" or other_errors is None) else "<br><br>" + other_errors
+
     feedback_template = get_template(unit, exercise, language, FEEDBACK)
 
     feedback_message = feedback_template.format(
@@ -171,7 +177,9 @@ def format_feedback(unit, exercise, language, question_id):
         first_correct_answer=first_correct_answer,
         first_correct_answer_wiktionary=first_correct_answer_wiktionary,
         correct_answers_bullet_points=correct_answers_bullet_points,
-        # user_answer=user_answer,
+        user_answer=user_answer,
+        translation=translation,
+        other_errors=other_errors,
         german=german,
         german_wiktionary=german_wiktionary,
         english=english,
@@ -364,3 +372,67 @@ def format_options_word_order(unit, exercise, question_id):
     random.shuffle(options)
 
     return options
+
+
+def format_prompt(unit, exercise, language, question_id, user_answer):
+    if question_id is None:
+        return None
+
+    question_data = load_data_question(unit, exercise, question_id)
+
+    question_text = str(question_data["question"])
+    german = str(question_data.get("german", ""))
+    english = str(question_data.get("english", ""))
+    french = str(question_data.get("french", ""))
+    gender_english = question_data.get("gender_english", "")
+    gender_french = question_data.get("gender_french", "")
+    case_english = question_data.get("case_english", "")
+    case_french = question_data.get("case_french", "")
+    article_english = question_data.get("article_english", "")
+    article_french = question_data.get("article_french", "")
+    person = question_data.get("person", "")
+    prefix = question_data.get("prefix", "")
+    article = question_data.get("article", "")
+    adjective = question_data.get("adjective", "")
+    preposition = question_data.get("preposition", "")
+    explanation_english = question_data.get("explanation_english", "")
+    explanation_french = question_data.get("explanation_french", "")
+    indication_english = question_data.get("indication_english", "")
+    indication_french = question_data.get("indication_french", "")
+    root_german = question_data.get("root_german", "")
+    root_english = question_data.get("root_english", "")
+    root_french = question_data.get("root_french", "")
+
+    prompt_template = get_template(unit, exercise, language, PROMPT)
+
+    formatted_prompt = prompt_template.format(
+        question=question_text,
+        user_answer=user_answer,
+        german=german,
+        english=english,
+        french=french,
+        gender_english=gender_english,
+        gender_french=gender_french,
+        case_english=case_english,
+        case_french=case_french,
+        article_english=article_english,
+        article_french=article_french,
+        person=person,
+        prefix=prefix,
+        article=article,
+        adjective=adjective,
+        preposition=preposition,
+        explanation_english=explanation_english,
+        explanation_french=explanation_french,
+        indication_english=indication_english,
+        indication_french=indication_french,
+        root_german=root_german,
+        root_english=root_english,
+        root_french=root_french,
+    )
+
+    formatted_prompt = formatted_prompt.replace("\u25CF ", "\u25CF&nbsp;")
+
+    print(formatted_prompt)
+
+    return formatted_prompt

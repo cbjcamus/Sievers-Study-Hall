@@ -1381,3 +1381,12 @@ sonstige,zahlen,21,zahlen 21,B2,input,2
 sonstige,zahlen,22,zahlen 22,B2,input,2
 sonstige,zahlen,23,zahlen 23,C1,input,2
 sonstige,zahlen,24,zahlen 24,C1,input,2
+sonstige,alpha,1,alpha 1,A1,prompt,2
+sonstige,alpha,2,alpha 2,A2,prompt,2
+sonstige,alpha,3,alpha 3,B1,prompt,2
+sonstige,alpha,4,alpha 4,B1,prompt,2
+sonstige,alpha,5,alpha 5,B1,prompt,2
+sonstige,alpha,6,alpha 6,B2,prompt,2
+sonstige,alpha,7,alpha 7,B2,prompt,2
+sonstige,alpha,8,alpha 8,B2,prompt,2
+sonstige,alpha,9,alpha 9,B2,prompt,2

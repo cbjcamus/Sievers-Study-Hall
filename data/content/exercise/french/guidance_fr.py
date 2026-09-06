@@ -3,13 +3,36 @@ from data.data_processing.units import (
     artikel, pronomen, konnektoren, fragen, adverbien, adjektive, komparativ_superlativ, adjektivdeklinationen, verben,
     trennbare_verben, nomen_verben_verbindungen,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, wortstellung, praepositionen_artikel, verben_artikel, genus_regeln, genus, plural, adjektive_konjunktionen,
-    praesens, partizip_II, praeteritum, praeteritum_partizip_II, imperativ, konjunktiv_II, konjunktiv_I, partizip_I,
+    praepositionen_artikel, verben_artikel, wortstellung, genus_regeln, genus, plural,
+    adjektive_konjunktionen, praesens, partizip_II, praeteritum, praeteritum_partizip_II, imperativ, konjunktiv_II,
+    konjunktiv_I, partizip_I,
+    zahlen, alpha,
 )
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
 GUIDANCE_UNIT_FR = {
+    alpha:
+        "Pour chaque question, vous recevrez une conjonction allemande, sa traduction en français et sa catégorie grammaticale "
+        " (conjonction de coordination, conjonctions de subordination, adverbe, conjonction corrélative)."
+        "<br><br>Écrivez une phrase en allemand en utilisant cette conjonction."
+    
+        f"<br><br> {ICON_WARN} Tenez compte de la catégorie grammaticale de la conjonction. La proposition contenant la conjonction "
+        f"doit respecter l'ordre correct des mots."
+        f"<br><br> {ICON_WARN} La phrase en allemand doit être cohérente."
+        f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les cas et les fautes d'orthographe, sont acceptables tant que la phrase reste compréhensible."
+        f"<br><br> {ICON_WARN} L'évaluation, la correction et les commentaires sont fournis par un modèle de langage (LLM)."
+        f" Les modèles de langage peuvent commettre des erreurs. Vérifiez les informations importantes."
+    
+        "<h2>Exemples</h2>"
+        f"deshalb"
+        f"<br><br>pour cette raison, à cause de cela \u25CF Adverbe"
+        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich ein Glas Wasser."
+        f"<br><br> &nbsp; {ICON_CROSS} Ich habe Durst, deshalb ich trinke ein Glas Wasser. (L'ordre des mots est incorrect)"
+        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich eine Glas Wasser. (Erreur acceptable)"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich trinke ein Glas Wasser, deshalb habe ich Durst. (La phrase est incohérente)"
+,
+
     praepositionen_artikel:
         "Pour chaque question, une phrase allemande incomplète, sa traduction anglaise, "
         "une préposition et un article ou un pronom vous seront présentées."
@@ -503,12 +526,12 @@ guidance_pronomen_relative_sentences = (
 )
 
 guidance_konnektoren_isolation = (
-    "Pour chaque question, vous recevrez la traduction française d'un connecteur allemand et sa catégorie grammaticale "
+    "Pour chaque question, vous recevrez la traduction française d'une conjonction allemande et sa catégorie grammaticale "
     " (conjonction de coordination, conjonctions de subordination, adverbe, conjonction corrélative)."
-    "<br><br>Trouvez le connecteur allemand qui correspond à cette traduction et à cette catégorie grammaticale."
+    "<br><br>Trouvez la conjonction allemande qui correspond à cette traduction et à cette catégorie grammaticale."
 
     f"<br><br> {ICON_WARN} Les synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
-    f"<br><br> {ICON_WARN} Tenez compte de la catégorie grammaticale du connecteur. Si votre réponse est une traduction littérale correcte, "
+    f"<br><br> {ICON_WARN} Tenez compte de la catégorie grammaticale de la conjonction. Si votre réponse est une traduction littérale correcte, "
     f" mais que la catégorie grammaticale est incorrecte, votre réponse sera signalée comme fausse."
     f"<br><br> {ICON_WARN} Ne donnez pas plusieurs réponses, sinon votre réponse sera considérée comme fausse."
     f"<br><br> {ICON_WARN} Avec une Conjonction de Coordination, l'ordre des mots est le même que dans la clause principale. "
@@ -537,7 +560,7 @@ guidance_konnektoren_isolation = (
 
 guidance_konnektoren_sentences = (
     "Pour chaque question, vous recevrez une phrase en allemand et sa traduction en anglais."
-    "<br><br>Il manque un connecteur dans la phrase allemande. Trouvez celui qui convient."
+    "<br><br>Il manque une conjonction dans la phrase allemande. Trouvez celui qui convient."
 
     f"<br><br> {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera considérée comme fausse."
@@ -552,8 +575,8 @@ guidance_konnektoren_sentences = (
 )
 
 guidance_konnektoren_synonyms = (
-    "Pour chaque question, vous recevrez un connecteur allemand et son type grammatical (conjonction, subjonction, adverbe)."
-    "<br><br>Trouvez un synonyme de ce connecteur qui a le même type grammatical."
+    "Pour chaque question, vous recevrez une conjonction allemande et son type grammatical (conjonction de coordination, conjonction de subordination, adverbe)."
+    "<br><br>Trouvez un synonyme de cette conjonction qui a le même type grammatical."
 
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'un synonyme, sinon votre réponse sera considérée comme fausse."
 

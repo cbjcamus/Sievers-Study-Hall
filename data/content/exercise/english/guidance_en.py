@@ -3,12 +3,36 @@ from data.data_processing.units import (
     artikel, pronomen, konnektoren, fragen, adverbien, adjektive, komparativ_superlativ, adjektivdeklinationen, verben,
     trennbare_verben, nomen_verben_verbindungen,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, praepositionen_artikel, verben_artikel, wortstellung, genus_regeln, genus, plural,
+    praepositionen_artikel, verben_artikel, wortstellung, genus_regeln, genus, plural,
     adjektive_konjunktionen, praesens, partizip_II, praeteritum, praeteritum_partizip_II, imperativ, konjunktiv_II,
-    konjunktiv_I, partizip_I, )
+    konjunktiv_I, partizip_I,
+    zahlen, alpha,
+)
 
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
+
 GUIDANCE_UNIT_EN = {
+
+    alpha:
+        "For each question, you will be provided a German connector, its English translation, and its grammatical"
+        " category (coordinating conjunction, subordinating conjunction, adverb, correlative conjunction)."
+        "<br><br>Write a sentence German using that connector."
+    
+        f"<br><br> {ICON_WARN} Take the connector's grammatical category into account. The clause that contain the connector "
+        f"must have the correct word order."
+        f"<br><br> {ICON_WARN} The German sentence must be coherent."
+        f"<br><br> {ICON_WARN} Secondary mistakes such as cases and spelling mistakes are acceptable as long as the sentence is understandable."
+        f"<br><br> {ICON_WARN} The grading, correction and feedback are provided with a LLM. LLMs may make mistakes. Verify important information."
+
+        "<h2>Examples</h2>"
+        f"deshalb"
+        f"<br><br>therefore, for this reason, because of that \u25CF Adverb"
+        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich ein Glas Wasser."
+        f"<br><br> &nbsp; {ICON_CROSS} Ich habe Durst, deshalb ich trinke ein Glas Wasser. (Word order incorrect)"
+        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich eine Glas Wasser. (Acceptable mistake)"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich trinke ein Glas Wasser, deshalb habe ich Durst. (Incoherent sentence)"
+    ,
+
     praepositionen_artikel:
         "For each question, you will be provided an incomplete German sentence, its English translation, "
         "a preposition and an article or a pronoun."

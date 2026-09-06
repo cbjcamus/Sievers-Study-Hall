@@ -3,7 +3,6 @@ import string
 
 from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms, get_list_of_synonyms
 from data.data_processing.exercises import is_exercise_synonym, get_answer_column
-
 from data.data_processing.data_loading import load_data_question
 
 
@@ -201,9 +200,12 @@ def get_first_correct_answer(correct_answer):
 
     if "/" in correct_answer:
         answers = correct_answer.split("/")
-        return remove_punctuation(answers[0])
+        #return remove_punctuation(answers[0])
+        return answers[0]
     else:
-        return remove_punctuation(correct_answer)
+        #return remove_punctuation(correct_answer)
+        return correct_answer
+
 
 
 def lowercase_first_letter(s):

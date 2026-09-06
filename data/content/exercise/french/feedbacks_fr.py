@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 FEEDBACK_UNIT_FR = {
@@ -117,6 +117,12 @@ FEEDBACK_UNIT_FR = {
     plural:
         "{previous_question} &#8594 die {correct_answer}"
         "<br><br><i>{french}</i>",
+
+    alpha:
+        "{user_answer}"
+        "<br><br><i>{translation}</i>"
+        "<br><br>{explanation_french}"
+        "{other_errors}",
 }
 
 FEEDBACK_EXERCISE_FR = {

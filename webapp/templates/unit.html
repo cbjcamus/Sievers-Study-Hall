@@ -28,21 +28,26 @@
         <h2 id="A1">A1</h2>
         <table class="exercise-table">
             {% for row in exercises_A1.itertuples() %}
-                {{ render_exercise_table_row(
-                    row.unit,
-                    row.exercise,
-                    session,
-                    answered_questions,
-                    total_questions,
-                    score,
-                    description_templates,
-                    is_exercise_started,
-                    language,
-                    format_description
-                ) }}
 
-                {% if (row.unit, row.exercise) in separations %}
-                    {{ render_exercise_empty_row() }}
+                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+
+                    {{ render_exercise_table_row(
+                        row.unit,
+                        row.exercise,
+                        session,
+                        answered_questions,
+                        total_questions,
+                        score,
+                        description_templates,
+                        is_exercise_started,
+                        language,
+                        format_description
+                    ) }}
+
+                    {% if (row.unit, row.exercise) in separations %}
+                        {{ render_exercise_empty_row() }}
+                    {% endif %}
+
                 {% endif %}
 
             {% endfor %}
@@ -55,21 +60,26 @@
         <h2 id="A2">A2</h2>
         <table class="exercise-table">
             {% for row in exercises_A2.itertuples() %}
-                {{ render_exercise_table_row(
-                    row.unit,
-                    row.exercise,
-                    session,
-                    answered_questions,
-                    total_questions,
-                    score,
-                    description_templates,
-                    is_exercise_started,
-                    language,
-                    format_description
-                ) }}
 
-                {% if (row.unit, row.exercise) in separations %}
-                    {{ render_exercise_empty_row() }}
+                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+
+                    {{ render_exercise_table_row(
+                        row.unit,
+                        row.exercise,
+                        session,
+                        answered_questions,
+                        total_questions,
+                        score,
+                        description_templates,
+                        is_exercise_started,
+                        language,
+                        format_description
+                    ) }}
+
+                    {% if (row.unit, row.exercise) in separations %}
+                        {{ render_exercise_empty_row() }}
+                    {% endif %}
+
                 {% endif %}
 
             {% endfor %}
@@ -82,21 +92,26 @@
         <h2 id="B1">B1</h2>
         <table class="exercise-table">
             {% for row in exercises_B1.itertuples() %}
-                {{ render_exercise_table_row(
-                    row.unit,
-                    row.exercise,
-                    session,
-                    answered_questions,
-                    total_questions,
-                    score,
-                    description_templates,
-                    is_exercise_started,
-                    language,
-                    format_description
-                ) }}
 
-                {% if (row.unit, row.exercise) in separations %}
-                    {{ render_exercise_empty_row() }}
+                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+
+                    {{ render_exercise_table_row(
+                        row.unit,
+                        row.exercise,
+                        session,
+                        answered_questions,
+                        total_questions,
+                        score,
+                        description_templates,
+                        is_exercise_started,
+                        language,
+                        format_description
+                    ) }}
+
+                    {% if (row.unit, row.exercise) in separations %}
+                        {{ render_exercise_empty_row() }}
+                    {% endif %}
+
                 {% endif %}
 
             {% endfor %}
@@ -109,22 +124,28 @@
         <h2 id="B2">B2</h2>
         <table class="exercise-table">
             {% for row in exercises_B2.itertuples() %}
-                {{ render_exercise_table_row(
-                    row.unit,
-                    row.exercise,
-                    session,
-                    answered_questions,
-                    total_questions,
-                    score,
-                    description_templates,
-                    is_exercise_started,
-                    language,
-                    format_description
-                ) }}
 
-                {% if (row.unit, row.exercise) in separations %}
-                    {{ render_exercise_empty_row() }}
+                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+
+                    {{ render_exercise_table_row(
+                        row.unit,
+                        row.exercise,
+                        session,
+                        answered_questions,
+                        total_questions,
+                        score,
+                        description_templates,
+                        is_exercise_started,
+                        language,
+                        format_description
+                    ) }}
+
+                    {% if (row.unit, row.exercise) in separations %}
+                        {{ render_exercise_empty_row() }}
+                    {% endif %}
+
                 {% endif %}
+
             {% endfor %}
         </table>
     </div>
@@ -135,21 +156,26 @@
         <h2 id="C1">C1</h2>
         <table class="exercise-table">
             {% for row in exercises_C1.itertuples() %}
-                {{ render_exercise_table_row(
-                    row.unit,
-                    row.exercise,
-                    session,
-                    answered_questions,
-                    total_questions,
-                    score,
-                    description_templates,
-                    is_exercise_started,
-                    language,
-                    format_description
-                ) }}
 
-                {% if (row.unit, row.exercise) in separations %}
-                    {{ render_exercise_empty_row() }}
+                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+
+                    {{ render_exercise_table_row(
+                        row.unit,
+                        row.exercise,
+                        session,
+                        answered_questions,
+                        total_questions,
+                        score,
+                        description_templates,
+                        is_exercise_started,
+                        language,
+                        format_description
+                    ) }}
+
+                    {% if (row.unit, row.exercise) in separations %}
+                        {{ render_exercise_empty_row() }}
+                    {% endif %}
+
                 {% endif %}
 
             {% endfor %}
@@ -162,21 +188,26 @@
         <h2 id="C2">C2</h2>
         <table class="exercise-table">
             {% for row in exercises_C2.itertuples() %}
-                {{ render_exercise_table_row(
-                    row.unit,
-                    row.exercise,
-                    session,
-                    answered_questions,
-                    total_questions,
-                    score,
-                    description_templates,
-                    is_exercise_started,
-                    language,
-                    format_description
-                ) }}
 
-                {% if (row.unit, row.exercise) in separations %}
-                    {{ render_exercise_empty_row() }}
+                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+
+                    {{ render_exercise_table_row(
+                        row.unit,
+                        row.exercise,
+                        session,
+                        answered_questions,
+                        total_questions,
+                        score,
+                        description_templates,
+                        is_exercise_started,
+                        language,
+                        format_description
+                    ) }}
+
+                    {% if (row.unit, row.exercise) in separations %}
+                        {{ render_exercise_empty_row() }}
+                    {% endif %}
+
                 {% endif %}
 
             {% endfor %}

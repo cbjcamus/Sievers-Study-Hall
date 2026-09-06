@@ -11,7 +11,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
     units,
 )
 
@@ -61,6 +61,7 @@ DATA_PATH = {
     adjektive_nomen_wortstaemme: os.path.join(BASE_DIR, "datasets/wortstaemme", "adjektive_nomen_wortstaemme.csv"),
 
     zahlen: os.path.join(BASE_DIR, "datasets/sonstige", "zahlen.csv"),
+    alpha: os.path.join(BASE_DIR, "datasets/sonstige", "alpha.csv"),
 }
 
 df_units = {unit: pd.read_csv(DATA_PATH[unit]) for unit in units}

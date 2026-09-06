@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 DESCRIPTION_UNIT_EN = {
@@ -24,6 +24,8 @@ DESCRIPTION_UNIT_EN = {
     genus: "Definite Articles, in isolation",
 
     plural: "Plural form of German nouns, in isolation",
+
+    alpha: "Practice Connectors, in sentences"
 }
 
 DESCRIPTION_EXERCISE_EN = {

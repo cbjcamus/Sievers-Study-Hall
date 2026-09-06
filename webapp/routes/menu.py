@@ -12,7 +12,8 @@ from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
 from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from data.data_processing.units import units
-from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise
+from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise, \
+    is_exercise_prompt
 from data.data_processing.separations import separations
 from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
@@ -96,6 +97,7 @@ for unit in units:
                                    exercises_C1=exercises_C1,
                                    exercises_C2=exercises_C2,
                                    separations=separations,
+                                   is_exercise_prompt=is_exercise_prompt,
                                    )
         return dynamic_route
 
@@ -231,7 +233,8 @@ def sitemap():
     add("routes.home")
 
     for unit in units:
-        add(f"routes.dynamic_route_{unit}")
+        if unit != 'test':
+            add(f"routes.dynamic_route_{unit}")
 
     sitemap_xml = render_template("sitemap_template.xml", pages=pages)
     return Response(sitemap_xml, mimetype="application/xml")

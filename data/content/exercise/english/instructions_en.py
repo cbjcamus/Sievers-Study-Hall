@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 INSTRUCTION_UNIT_EN = {
@@ -52,6 +52,9 @@ INSTRUCTION_UNIT_EN = {
 
     plural:
         "Write the plural form of the German noun displayed below:",
+
+    alpha:
+        "Write a sentence (or a couple of sentences) that uses the following connector:",
 }
 
 INSTRUCTION_EXERCISE_EN = {

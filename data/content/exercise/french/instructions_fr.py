@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 INSTRUCTION_UNIT_FR = {
@@ -55,6 +55,9 @@ INSTRUCTION_UNIT_FR = {
 
     plural:
         "Complétez la forme plurielle du nom commun suivant :",
+
+    alpha:
+        "Rédigez une phrase (ou deux) en utilisant la conjonction suivante :",
 }
 
 INSTRUCTION_EXERCISE_FR = {
@@ -335,44 +338,44 @@ INSTRUCTION_EXERCISE_FR = {
     },
 
     konnektoren: {
-        1: "Traduisez le connecteur suivant :",
-        2: "Complétez la phrase suivante avec le connecteur qui convient :",
+        1: "Traduisez la conjonction suivante :",
+        2: "Complétez la phrase suivante avec la conjonction qui convient :",
 
-        3: "Traduisez le connecteur suivant :",
-        4: "Complétez la phrase suivante avec le connecteur qui convient :",
+        3: "Traduisez la conjonction suivante :",
+        4: "Complétez la phrase suivante avec la conjonction qui convient :",
 
-        5: "Traduisez le connecteur suivant :",
-        6: "Complétez la phrase suivante avec le connecteur qui convient :",
-        7: "Traduisez le connecteur suivant :",
-        8: "Complétez la phrase suivante avec le connecteur qui convient :",
-        9: "Traduisez le connecteur suivant :",
-        10: "Complétez la phrase suivante avec le connecteur qui convient :",
-        11: "Trouvez un synonyme pour le connecteur suivant :",
+        5: "Traduisez la conjonction suivante :",
+        6: "Complétez la phrase suivante avec la conjonction qui convient :",
+        7: "Traduisez la conjonction suivante :",
+        8: "Complétez la phrase suivante avec la conjonction qui convient :",
+        9: "Traduisez la conjonction suivante :",
+        10: "Complétez la phrase suivante avec la conjonction qui convient :",
+        11: "Trouvez un synonyme pour la conjonction suivante :",
 
-        12: "Traduisez le connecteur suivant :",
-        13: "Complétez la phrase suivante avec le connecteur qui convient :",
-        14: "Traduisez le connecteur suivant :",
-        15: "Complétez la phrase suivante avec le connecteur qui convient :",
-        16: "Traduisez le connecteur suivant :",
-        17: "Complétez la phrase suivante avec le connecteur qui convient :",
-        18: "Trouvez un synonyme pour le connecteur suivant :",
+        12: "Traduisez la conjonction suivante :",
+        13: "Complétez la phrase suivante avec la conjonction qui convient :",
+        14: "Traduisez la conjonction suivante :",
+        15: "Complétez la phrase suivante avec la conjonction qui convient :",
+        16: "Traduisez la conjonction suivante :",
+        17: "Complétez la phrase suivante avec la conjonction qui convient :",
+        18: "Trouvez un synonyme pour la conjonction suivante :",
 
-        19: "Traduisez le connecteur suivant :",
-        20: "Complétez la phrase suivante avec le connecteur qui convient :",
-        21: "Traduisez le connecteur suivant :",
-        22: "Complétez la phrase suivante avec le connecteur qui convient :",
-        23: "Traduisez le connecteur suivant :",
-        24: "Complétez la phrase suivante avec le connecteur qui convient :",
-        25: "Traduisez le connecteur suivant :",
-        26: "Complétez la phrase suivante avec le connecteur qui convient :",
-        27: "Traduisez le connecteur suivant :",
-        28: "Complétez la phrase suivante avec le connecteur qui convient :",
-        29: "Traduisez le connecteur suivant :",
-        30: "Complétez la phrase suivante avec le connecteur qui convient :",
-        31: "Trouvez un synonyme pour le connecteur suivant :",
-        32: "Trouvez un synonyme pour le connecteur suivant :",
-        33: "Trouvez un synonyme pour le connecteur suivant :",
-        34: "Trouvez un synonyme pour le connecteur suivant :",
+        19: "Traduisez la conjonction suivante :",
+        20: "Complétez la phrase suivante avec la conjonction qui convient :",
+        21: "Traduisez la conjonction suivante :",
+        22: "Complétez la phrase suivante avec la conjonction qui convient :",
+        23: "Traduisez la conjonction suivante :",
+        24: "Complétez la phrase suivante avec la conjonction qui convient :",
+        25: "Traduisez la conjonction suivante :",
+        26: "Complétez la phrase suivante avec la conjonction qui convient :",
+        27: "Traduisez la conjonction suivante :",
+        28: "Complétez la phrase suivante avec la conjonction qui convient :",
+        29: "Traduisez la conjonction suivante :",
+        30: "Complétez la phrase suivante avec la conjonction qui convient :",
+        31: "Trouvez un synonyme pour la conjonction suivante :",
+        32: "Trouvez un synonyme pour la conjonction suivante :",
+        33: "Trouvez un synonyme pour la conjonction suivante :",
+        34: "Trouvez un synonyme pour la conjonction suivante :",
     },
 
     fragen: {

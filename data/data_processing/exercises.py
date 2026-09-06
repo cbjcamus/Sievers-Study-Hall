@@ -101,6 +101,15 @@ def is_exercise_word_order(unit, exercise):
     ].empty
 
 
+def is_exercise_prompt(unit, exercise):
+    df = df_exercises
+    return not df[
+        (df['unit'] == unit) &
+        (df['exercise'] == exercise) &
+        (df['type'] == 'prompt')
+    ].empty
+
+
 def get_answer_column(unit, exercise, language):
     """
     Reads the mapping/levels CSV (with columns: unit, exercise, extent)
@@ -167,3 +176,10 @@ def does_unit_exercise_exist(unit, exercise, df=df_exercises):
          (df["exercise"] == int(exercise)))
         .any()
     )
+
+
+def get_type_from_exercise(unit, exercise, df=df_exercises):
+    result = df[(df['unit'] == unit) & (df['exercise'] == exercise)]
+    if not result.empty:
+        return result.iloc[0]['type']
+    return "N/A"

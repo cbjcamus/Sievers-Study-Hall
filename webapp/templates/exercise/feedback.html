@@ -32,9 +32,15 @@
             </div>
         {% endif %}
 
-        {% if user_answer %}
+        {% if user_answer and exercise_is_input %}
             <p>
                 <input type="text" class="readonly-input" value="{{ user_answer }}" readonly>
+            </p>
+        {% endif %}
+
+        {% if user_answer and exercise_is_prompt %}
+            <p>
+                <textarea class="readonly-prompt" readonly>{{ user_answer }}</textarea>
             </p>
         {% endif %}
 

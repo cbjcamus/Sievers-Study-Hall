@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 DESCRIPTION_UNIT_FR = {
@@ -24,6 +24,8 @@ DESCRIPTION_UNIT_FR = {
     genus: "Articles Définis, en isolation",
 
     plural: "Forme Plurielle de noms communs Allemands, en isolation",
+
+    alpha: "Pratiquez les Conjonctions, en contexte",
 }
 
 DESCRIPTION_EXERCISE_FR = {
@@ -358,44 +360,44 @@ DESCRIPTION_EXERCISE_FR = {
     },
 
     konnektoren: {
-        1: "Connecteurs de niveau A1, en isolation",
-        2: "Connecteurs de niveau A1, en contexte",
+        1: "Conjonctions de niveau A1, en isolation",
+        2: "Conjonctions de niveau A1, en contexte",
 
-        3: "Connecteurs de niveau A2, en isolation",
-        4: "Connecteurs de niveau A2, en contexte",
+        3: "Conjonctions de niveau A2, en isolation",
+        4: "Conjonctions de niveau A2, en contexte",
 
-        5: "Connecteurs de niveau B1, en isolation",
-        6: "Connecteurs de niveau B1, en contexte",
-        7: "Connecteurs de niveau B1, en isolation",
-        8: "Connecteurs de niveau B1, en contexte",
-        9: "Connecteurs de niveau B1, en isolation",
-        10: "Connecteurs de niveau B1, en contexte",
-        11: "Synonymes de Connecteurs de niveau B1, en contexte",
+        5: "Conjonctions de niveau B1, en isolation",
+        6: "Conjonctions de niveau B1, en contexte",
+        7: "Conjonctions de niveau B1, en isolation",
+        8: "Conjonctions de niveau B1, en contexte",
+        9: "Conjonctions de niveau B1, en isolation",
+        10: "Conjonctions de niveau B1, en contexte",
+        11: "Synonymes de Conjonctions de niveau B1, en contexte",
 
-        12: "Connecteurs de niveau B2, en isolation",
-        13: "Connecteurs de niveau B2, en contexte",
-        14: "Connecteurs de niveau B2, en isolation",
-        15: "Connecteurs de niveau B2, en contexte",
-        16: "Connecteurs de niveau B2, en isolation",
-        17: "Connecteurs de niveau B2, en contexte",
-        18: "Synonymes de Connecteurs de niveau B2, en contexte",
+        12: "Conjonctions de niveau B2, en isolation",
+        13: "Conjonctions de niveau B2, en contexte",
+        14: "Conjonctions de niveau B2, en isolation",
+        15: "Conjonctions de niveau B2, en contexte",
+        16: "Conjonctions de niveau B2, en isolation",
+        17: "Conjonctions de niveau B2, en contexte",
+        18: "Synonymes de Conjonctions de niveau B2, en contexte",
 
-        19: "Connecteurs de niveau C1, en isolation",
-        20: "Connecteurs de niveau C1, en contexte",
-        21: "Connecteurs de niveau C1 (Conjonctions), en isolation",
-        22: "Connecteurs de niveau C1 (Conjonctions), en contexte",
-        23: "Connecteurs de niveau C1 (Adverbes), en isolation",
-        24: "Connecteurs de niveau C1 (Adverbes), en contexte",
-        25: "Connecteurs de niveau C1 (Expressions Adverbiales), en isolation",
-        26: "Connecteurs de niveau C1 (Expressions Adverbiales), en contexte",
-        27: "Connecteurs de niveau C1 (Dérivés de <i>wenn></i> et <i>dass </i>), en isolation",
-        28: "Connecteurs de niveau C1 (Dérivés de <i>wenn></i> et <i>dass </i>), en contexte",
-        29: "Connecteurs de niveau C1 (Conjonctions), en isolation",
-        30: "Connecteurs de niveau C1 (Conjonctions), en contexte",
-        31: "Synonymes de Connecteurs de niveau C1, en contexte",
-        32: "Synonymes de Connecteurs de niveau C1, en contexte",
-        33: "Synonymes de Connecteurs de niveau C1, en contexte",
-        34: "Synonymes de Connecteurs de niveau C1, en contexte",
+        19: "Conjonctions de niveau C1, en isolation",
+        20: "Conjonctions de niveau C1, en contexte",
+        21: "Conjonctions de niveau C1 (Conjonctions), en isolation",
+        22: "Conjonctions de niveau C1 (Conjonctions), en contexte",
+        23: "Conjonctions de niveau C1 (Adverbes), en isolation",
+        24: "Conjonctions de niveau C1 (Adverbes), en contexte",
+        25: "Conjonctions de niveau C1 (Expressions Adverbiales), en isolation",
+        26: "Conjonctions de niveau C1 (Expressions Adverbiales), en contexte",
+        27: "Conjonctions de niveau C1 (Dérivés de <i>wenn></i> et <i>dass </i>), en isolation",
+        28: "Conjonctions de niveau C1 (Dérivés de <i>wenn></i> et <i>dass </i>), en contexte",
+        29: "Conjonctions de niveau C1 (Conjonctions), en isolation",
+        30: "Conjonctions de niveau C1 (Conjonctions), en contexte",
+        31: "Synonymes de Conjonctions de niveau C1, en contexte",
+        32: "Synonymes de Conjonctions de niveau C1, en contexte",
+        33: "Synonymes de Conjonctions de niveau C1, en contexte",
+        34: "Synonymes de Conjonctions de niveau C1, en contexte",
     },
 
     fragen: {

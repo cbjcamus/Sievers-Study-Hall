@@ -163,6 +163,35 @@
                 </button>
             {% endif %}
 
+            {% if exercise_is_prompt %}
+                <textarea id="prompt-answer"
+                          name="answer"
+                          class="prompt-box"
+                          placeholder="{{ enter_answer_here }}"
+                          autocomplete="off"
+                          spellcheck="false"
+                          maxlength="300"
+                          rows="4"></textarea>
+
+                {% if special_characters_enabled %}
+                    <div class="special-chars">
+                        <br>
+                        <button type="button" onclick="insertChar('ü')">ü</button>
+                        <button type="button" onclick="insertChar('ö')">ö</button>
+                        <button type="button" onclick="insertChar('ä')">ä</button>
+                        <button type="button" onclick="insertChar('ß')">ß</button>
+                    </div>
+                {% endif %}
+
+                <script src="{{ url_for('static', filename='js/exercise/insertSpecialCharacter.js') }}" defer></script>
+
+                <button type="submit"
+                        id="prompt-submit-button"
+                        class="submit-button">
+                    {{ submit }}
+                </button>
+            {% endif %}
+
         </form>
 
         {% if gender %}

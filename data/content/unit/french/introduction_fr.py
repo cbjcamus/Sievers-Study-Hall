@@ -55,7 +55,7 @@ INTRODUCTION_FR = {
     ,
 
     konnektoren:
-        "Les connecteurs (ou éléments de liaisons) incluent les conjonction de coordination, les conjonctions de subordination, les conjonctions corrélatives et les adverbes qui relient des phrases entre elles."
+        "Les conjonctions (ou éléments de liaisons) incluent les conjonction de coordination, les conjonctions de subordination, les conjonctions corrélatives et les adverbes qui relient des phrases entre elles."
         "<br><br>Les conjonctions utilisées avec des adjectifs sont pratiquées dans le module "
         "<a href=\"/adjektive_konjunktionen\" target=\"_blank\">Adjektive – Konjunktionen</a>, "
         "tandis que les pronoms relatifs sont pratiqués dans "

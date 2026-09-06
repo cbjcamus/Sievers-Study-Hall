@@ -42,6 +42,7 @@ adjektive_verben_wortstaemme = 'adjektive_verben_wortstaemme'
 adjektive_nomen_wortstaemme = 'adjektive_nomen_wortstaemme'
 
 zahlen = 'zahlen'
+alpha = 'alpha'
 
 units = [
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
@@ -52,5 +53,5 @@ units = [
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 ]

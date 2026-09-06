@@ -13,9 +13,10 @@ from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.exercises import is_exercise_multiple_choice_native, does_unit_exercise_exist, \
     is_exercise_input, \
-    is_exercise_word_order, is_exercise_multiple_choice_target, get_level_from_exercise
+    is_exercise_word_order, is_exercise_multiple_choice_target, get_level_from_exercise, is_exercise_prompt
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
+from users.questions.prompting import get_response_from_prompt
 
 from users.users.models import db, UserExerciseState
 from users.users.settings import (is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark,
@@ -28,7 +29,7 @@ from users.progress.is_exercise_finished import is_exercise_finished
 
 from users.questions.normalization import is_user_answer_correct, get_correct_answer
 from users.questions.content_format import format_instruction, format_question, format_gender, format_guidance, \
-    format_feedback, format_correction, format_options_word_order
+    format_feedback, format_correction, format_options_word_order, format_prompt
 from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
 
 from users.session_management.logging import log_question_flagged
@@ -128,9 +129,9 @@ def exercise_page(unit, exercise):
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
 
-    result, user_answer, previous_question_id = read_feedback(session)
+    result, user_answer, previous_question_id, translation, other_errors = read_feedback(session)
 
-    feedback_message = format_feedback(unit, exercise, language, previous_question_id)
+    feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation)
     previous_question = load_question_text(unit, exercise, previous_question_id)
     correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 
@@ -155,6 +156,7 @@ def exercise_page(unit, exercise):
     exercise_is_multiple_choice_native = is_exercise_multiple_choice_native(unit, exercise)
     exercise_is_multiple_choice_target = is_exercise_multiple_choice_target(unit, exercise)
     exercise_is_word_order = is_exercise_word_order(unit, exercise)
+    exercise_is_prompt = is_exercise_prompt(unit, exercise)
 
     if exercise_is_word_order:
         word_order_words = format_options_word_order(unit, exercise, question_id)
@@ -174,6 +176,7 @@ def exercise_page(unit, exercise):
                            exercise_is_multiple_choice_native=exercise_is_multiple_choice_native,
                            exercise_is_multiple_choice_target=exercise_is_multiple_choice_target,
                            exercise_is_word_order=exercise_is_word_order,
+                           exercise_is_prompt=exercise_is_prompt,
                            options_in_multiple_choice_exercises_hidden=are_options_in_multiple_choice_exercises_hidden(),
                            options_in_word_order_exercises_hidden=are_options_in_word_order_exercises_hidden(),
                            word_order_words=word_order_words,
@@ -223,7 +226,16 @@ def check_answer(unit, exercise):
     user_answer = request.form.get('answer', '')
     question_id = request.form.get('nr')
 
-    is_answer_correct = is_user_answer_correct(unit, exercise, question_id, user_answer, language)
+    if is_exercise_prompt(unit, exercise):
+        prompt = format_prompt(unit, exercise, language, question_id, user_answer)
+        response = get_response_from_prompt(prompt)
+        is_answer_correct = response['inquiry_correct'] == 'yes' and response['inquiry_correct'] == 'yes'
+        update_session_dictionary(session, "feedback", "translation", response['translation'])
+        update_session_dictionary(session, "feedback", "other_errors", response['other_errors'])
+
+    else:
+        is_answer_correct = is_user_answer_correct(unit, exercise, question_id, user_answer, language)
+
     result = "correct" if is_answer_correct else "incorrect"
 
     if is_answer_correct:
@@ -236,10 +248,9 @@ def check_answer(unit, exercise):
     update_session_dictionary(session, "feedback", "result", result)
     update_session_dictionary(session, "feedback", "user_answer", user_answer)
     update_session_dictionary(session, "feedback", "previous_question_id", question_id)
-
     update_session_dictionary(session, "current_exercise", "question_id", question_id)
 
-    if is_feedback_enabled():
+    if is_feedback_enabled() or is_exercise_prompt(unit, exercise):
         route = 'routes.feedback_page'
     else:
         route = 'routes.exercise_page'
@@ -280,9 +291,9 @@ def feedback_page(unit, exercise):
     formated_instruction = format_instruction(unit, exercise, language)
     formated_question_text = format_question(unit, exercise, language, question_id)
 
-    result, user_answer, previous_question_id = read_feedback(session)
+    result, user_answer, previous_question_id, translation, other_errors = read_feedback(session)
 
-    feedback_message = format_feedback(unit, exercise, language, question_id)
+    feedback_message = format_feedback(unit, exercise, language, question_id, user_answer, translation, other_errors)
     previous_question = format_question(unit, exercise, language, question_id)
     correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 
@@ -298,6 +309,9 @@ def feedback_page(unit, exercise):
     else:
         clearance_popup_title = None
         clearance_popup_text = None
+
+    exercise_is_input = is_exercise_input(unit, exercise)
+    exercise_is_prompt = is_exercise_prompt(unit, exercise)
 
     return render_template("exercise/feedback.html",
                            unit=unit,
@@ -328,6 +342,8 @@ def feedback_page(unit, exercise):
                            icon_flag=get_filename_flag(),
                            clearance_popup_title=clearance_popup_title,
                            clearance_popup_text=clearance_popup_text,
+                           exercise_is_input=exercise_is_input,
+                           exercise_is_prompt=exercise_is_prompt,
                            )
 
 

@@ -812,3 +812,61 @@ body.day-mode .next-exercise-button {
     text-align: left;
     line-height: 1.35;
 }
+
+.prompt-box {
+    margin: 3px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font: inherit;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #1E2A30;
+    color: white;
+
+    width: 80%;
+    max-width: 600px;
+    min-height: 100px;
+
+    text-align: left;
+    resize: both;
+    box-sizing: border-box;
+}
+
+body.day-mode .prompt-box {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+}
+
+body.day-mode .prompt-box:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.readonly-prompt {
+    margin: 3px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font: inherit;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #5e5e5e;
+    color: white;
+
+    width: 80%;
+    max-width: 600px;
+    min-height: 100px;
+
+    text-align: left;
+}
+
+body.day-mode .readonly-prompt {
+    color: black;
+    border: 2px solid black;
+    background-color: #e0e0e0;
+}
+
+body.day-mode .readonly-prompt:focus {
+    outline: none;
+    border: 2px solid black;
+}

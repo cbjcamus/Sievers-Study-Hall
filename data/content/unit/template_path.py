@@ -7,7 +7,7 @@ from data.data_processing.units import (
     verben, trennbare_verben, nomen_verben_verbindungen,
     praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen,
+    zahlen, alpha,
 )
 
 TEMPLATE_PATH = {
@@ -54,4 +54,5 @@ TEMPLATE_PATH = {
     adjektive_nomen_wortstaemme: "units/wortstaemme/adjektive_nomen_wortstaemme.html",
 
     zahlen: "units/sonstige/zahlen.html",
+    alpha: "units/sonstige/alpha.html",
 }
