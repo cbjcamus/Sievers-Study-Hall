@@ -13,7 +13,7 @@ from data.data_processing.units import (
 prompt_konnektoren = """
 You are evaluating a focused German connector exercise.
 
-Target connector: {question}
+Target connector: {german}
 
 Student sentence:
 "{user_answer}"

@@ -44,6 +44,7 @@ def get_incorrect_answers(session, unit, exercise):
                 answers = list(incorrect.values())
                 return answers, len(answers)
             return [], 0
+        return [], 0
 
     else:
         if 'incorrect_answer' in session[unit][str(exercise)]:

@@ -25,7 +25,6 @@ def get_response_from_prompt(prompt):
     response = json.loads(response)
 
     print(response)
-    print(type(response))
 
     return response
 
