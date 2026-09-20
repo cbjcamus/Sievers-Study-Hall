@@ -1,4 +1,5 @@
-from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, antonym
+from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, \
+    antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, adjektive, komparativ_superlativ, adjektivdeklinationen, verben,
@@ -572,6 +573,29 @@ guidance_konnektoren_synonyms = (
     f"<br><br> &nbsp; {ICON_CROSS} weshalb"
 )
 
+guidance_konnektoren_prompt = (
+    "Pour chaque question, un connecteur allemand, sa traduction française et sa catégorie grammaticale "
+    "(conjonction de coordination, conjonction de subordination, adverbe, conjonction corrélative) vous seront indiqués."
+    "<br><br>Écrivez une phrase en allemand utilisant ce connecteur."
+
+    f"<br><br> {ICON_WARN} Tenez compte de la catégorie grammaticale du connecteur. La proposition contenant le connecteur "
+    f"doit respecter l'ordre des mots correspondant."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe, sont acceptées tant que la phrase"
+    f" reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés. Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom, votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemples</h2>"
+    f"deshalb"
+    f"<br><br><i>donc, c'est pourquoi, pour cette raison ● Adverbe</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich ein Glas Wasser."
+    f"<br><br> &nbsp; {ICON_CROSS} Ich habe Durst, deshalb ich trinke ein Glas Wasser. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich eine Glas Wasser. (Erreur acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich trinke ein Glas Wasser, deshalb habe ich Durst. (Phrase incohérente)"
+)
+
 guidance_fragen_isolation = (
     "Pour chaque question, vous recevrez la traduction française d'un mot interrogatif allemand."
     "<br><br>Trouvez le mot interrogatif allemand correspondant à cette traduction."
@@ -602,6 +626,27 @@ guidance_fragen_sentences = (
     f"<br><br> &nbsp; {ICON_CHECK} Warum"
     f"<br><br> &nbsp; {ICON_CHECK} Weshalb"
     f"<br><br> &nbsp; {ICON_CROSS} Warum, Weshalb"
+)
+
+guidance_fragen_prompt = (
+    "Pour chaque question, un mot interrogatif allemand et sa traduction française vous seront indiqués."
+    "<br><br>Écrivez une phrase en allemand utilisant ce mot interrogatif."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre des mots correct."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe, sont acceptées tant que la phrase"
+    f" reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés. Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom, votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemples</h2>"
+    f"Wo"
+    f"<br><br><i>Où</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Wo ist der Stuhl?"
+    f"<br><br> &nbsp; {ICON_CROSS} Wo der Stuhl ist? (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Wo ist das Stuhl? (Erreur acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Wer ist der Stuhl? (Phrase incohérente)"
 )
 
 guidance_adverbien_isolation = (
@@ -659,6 +704,27 @@ guidance_adverbien_antonym = (
     f"<br><br> &nbsp; {ICON_CHECK} nie"
     f"<br><br> &nbsp; {ICON_CHECK} nimmer"
     f"<br><br> &nbsp; {ICON_CROSS} nie, nimmer"
+)
+
+guidance_adverbien_prompt = (
+    "Pour chaque question, un adverbe allemand et sa traduction française vous seront indiqués."
+    "<br><br>Écrivez une phrase en allemand utilisant cet adverbe."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre des mots correct."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe, sont acceptées tant que la phrase"
+    f" reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés. Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom, votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemples</h2>"
+    f"heute"
+    f"<br><br><i>aujourd'hui</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Heute esse ich ein Sandwich."
+    f"<br><br> &nbsp; {ICON_CROSS} Heute ich esse ein Sandwich. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Heute esse ich eine Sandwich. (Erreur acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Heute esse ich Wasser. (Phrase incohérente)"
 )
 
 guidance_adjektive_isolation = (
@@ -1250,11 +1316,13 @@ GUIDANCE_SUBCATEGORY_FR = {
         isolation: guidance_konnektoren_isolation,
         context: guidance_konnektoren_sentences,
         synonym: guidance_konnektoren_synonyms,
+        prompt: guidance_konnektoren_prompt,
     },
 
     fragen: {
         isolation: guidance_fragen_isolation,
         context: guidance_fragen_sentences,
+        prompt: guidance_fragen_prompt,
     },
 
     adverbien: {
@@ -1262,6 +1330,7 @@ GUIDANCE_SUBCATEGORY_FR = {
         context: guidance_adverbien_sentences,
         synonym: guidance_adverbien_synonyms,
         antonym: guidance_adverbien_antonym,
+        prompt: guidance_adverbien_prompt,
     },
 
     adjektive: {

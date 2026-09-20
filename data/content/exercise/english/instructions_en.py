@@ -1,4 +1,4 @@
-from data.data_processing.exercises import isolation, context, synonym, antonym
+from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -78,11 +78,13 @@ INSTRUCTION_SUBCATEGORY_EN = {
         isolation: "Translate the following connector:",
         context: "Complete the following sentence with the connector that fits:",
         synonym: "Find a synonym for the following connector:",
+        prompt: "Write one or two sentences using the following connector:"
     },
 
     fragen: {
         isolation: "Translate the following question word:",
         context: "Complete the following sentence with the question word that fits:",
+        prompt: "Write one or two sentences using the following question word:"
     },
 
     adverbien: {
@@ -90,6 +92,7 @@ INSTRUCTION_SUBCATEGORY_EN = {
         context: "Complete the following sentence with the adverb that fits:",
         synonym: "Find a synonym for the following adverb:",
         antonym: "Write an antonym of the following adverb:",
+        prompt: "Write one or two sentences using the following adverb:"
     },
 
     adjektive: {

@@ -1,5 +1,5 @@
 from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, \
-    antonym
+    antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -146,6 +146,9 @@ QUESTION_SUBCATEGORY_FR = {
         synonym:
             "{question}"
             "<br><br><i>\"{german}\"</i>",
+        prompt:
+            "{german}"
+            "<br><br><i>{french} \u25CF {case_french}</i>",
     },
 
     fragen: {
@@ -153,6 +156,9 @@ QUESTION_SUBCATEGORY_FR = {
             "{french}",
         context:
             "{question}"
+            "<br><br><i>{french}</i>",
+        prompt:
+            "{german}"
             "<br><br><i>{french}</i>",
     },
 
@@ -167,6 +173,9 @@ QUESTION_SUBCATEGORY_FR = {
             "<br><br><i>\"{german}\"</i>",
         antonym:
             "{german}",
+        prompt:
+            "{german}"
+            "<br><br><i>{french}</i>",
     },
 
     adjektive: {

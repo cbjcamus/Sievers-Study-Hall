@@ -1,5 +1,5 @@
 from data.data_processing.exercises import isolation, context, multiple_choice_native, multiple_choice_target, synonym, \
-    antonym
+    antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -190,6 +190,11 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         synonym:
             "{french} = {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     fragen: {
@@ -201,6 +206,11 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     adverbien: {
@@ -220,6 +230,11 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br>{french}"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     verben: {

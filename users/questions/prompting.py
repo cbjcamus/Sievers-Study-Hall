@@ -66,12 +66,6 @@ def get_response_from_prompt(prompt):
 
     message = response.choices[0].message
 
-    print("content:", message.content)
-    print("reasoning:", getattr(message, "reasoning", None))
-    print("finish_reason:", response.choices[0].finish_reason)
-
     response_dict = json.loads(message.content)
 
-    print(response_dict)
-    print("commentary:", response_dict["commentary"])
     return response_dict

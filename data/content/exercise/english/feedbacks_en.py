@@ -1,5 +1,5 @@
 from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, \
-    antonym
+    antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -190,6 +190,11 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         synonym:
             "{english} = {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     fragen: {
@@ -201,6 +206,11 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     adverbien: {
@@ -220,6 +230,11 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br>{english}"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     verben: {

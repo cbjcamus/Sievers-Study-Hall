@@ -1,5 +1,5 @@
 from data.data_processing.exercises import isolation, context, synonym, multiple_choice_target, multiple_choice_native, \
-    antonym
+    antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, adjektive, komparativ_superlativ, adjektivdeklinationen, verben,
@@ -1255,11 +1255,13 @@ GUIDANCE_SUBCATEGORY_EN = {
         isolation: guidance_konnektoren_isolation,
         context: guidance_konnektoren_sentences,
         synonym: guidance_konnektoren_synonyms,
+        prompt: guidance_konnektoren_prompt,
     },
 
     fragen: {
         isolation: guidance_fragen_isolation,
         context: guidance_fragen_sentences,
+        prompt: guidance_fragen_prompt,
     },
 
     adverbien: {
@@ -1267,6 +1269,7 @@ GUIDANCE_SUBCATEGORY_EN = {
         context: guidance_adverbien_sentences,
         synonym: guidance_adverbien_synonyms,
         antonym: guidance_adverbien_antonym,
+        prompt: guidance_adverbien_prompt,
     },
 
     adjektive: {

@@ -1,4 +1,4 @@
-from data.data_processing.exercises import isolation, context, synonym, antonym
+from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -78,11 +78,13 @@ INSTRUCTION_SUBCATEGORY_FR = {
         isolation: "Traduisez la conjonction suivante :",
         context: "Complétez la phrase suivante avec la conjonction qui convient :",
         synonym: "Trouvez un synonyme pour la conjonction suivante :",
+        prompt: "Écrivez une ou deux phrase utilisant la conjonction suivante :"
     },
 
     fragen: {
         isolation: "Traduisez le mot interrogatif suivant :",
         context: "Complétez la phrase suivante avec le mot interrogatif qui convient :",
+        prompt: "Écrivez une ou deux phrase utilisant le mot interrogatif suivant :"
     },
 
     adverbien: {
@@ -90,6 +92,7 @@ INSTRUCTION_SUBCATEGORY_FR = {
         context: "Complétez la phrase suivante avec l'adverbe qui convient :",
         synonym: "Trouvez un synonyme pour l'adverbe suivant :",
         antonym: "Trouvez un antonyme pour l'adverbe suivant :",
+        prompt: "Écrivez une ou deux phrase utilisant l'adverbe suivant :"
     },
 
     adjektive: {

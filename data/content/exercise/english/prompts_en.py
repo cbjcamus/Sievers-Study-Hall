@@ -1,13 +1,7 @@
+from data.data_processing.exercises import prompt
+
 from data.data_processing.units import (
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha
+    konnektoren, fragen, adverbien, alpha
 )
 
 prompt_konnektoren = """
@@ -29,6 +23,9 @@ meaning_coherent:
 Is the intended meaning of the entire sentence understandable and logically coherent?
 If the sentence is odd or contradictory, then "no".
 Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in English.
 
 commentary:
 If the inquiry is incorrect, explain why it's incorrect.
@@ -58,6 +55,9 @@ Is the intended meaning of the entire sentence understandable and logically cohe
 If the sentence is odd or contradictory, then "no".
 Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
 
+translation:
+The user's sentence's translation in English.
+
 commentary:
 If the inquiry is incorrect, explain why it's incorrect.
 If the meaning is incoherent, explain why.
@@ -86,6 +86,9 @@ Is the intended meaning of the entire sentence understandable and logically cohe
 If the sentence is odd or contradictory, then "no".
 Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
 
+translation:
+The user's sentence's translation in English.
+
 commentary:
 If the inquiry is incorrect, explain why it's incorrect.
 If the meaning is incoherent, explain why.
@@ -104,7 +107,17 @@ PROMPT_CATEGORY_EN = {
 }
 
 PROMPT_SUBCATEGORY_EN = {
+    konnektoren: {
+        prompt: prompt_konnektoren,
+    },
 
+    fragen: {
+        prompt: prompt_fragen,
+    },
+
+    adverbien: {
+        prompt: prompt_adverbien,
+    },
 }
 
 PROMPT_EXERCISE_EN = {

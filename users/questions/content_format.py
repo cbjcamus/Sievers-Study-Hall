@@ -459,6 +459,4 @@ def format_prompt(unit, exercise, language, question_id, user_answer):
 
     formatted_prompt = formatted_prompt.replace("\u25CF ", "\u25CF&nbsp;")
 
-    print(formatted_prompt)
-
     return formatted_prompt
