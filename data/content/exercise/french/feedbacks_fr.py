@@ -515,7 +515,7 @@ FEEDBACK_EXERCISE_FR = {
            "<br><br>Règle : {explanation_french}",
         3: "{german}"
            "<br><br><i>{french}</i>"
-           "<br><br>Règle : explanation_french}",
+           "<br><br>Règle : {explanation_french}",
         4: "{german}"
            "<br><br><i>{french}</i>"
            "<br><br>Règle : {explanation_french}",
@@ -595,54 +595,54 @@ FEEDBACK_EXERCISE_FR = {
     },
 
     zahlen: {
-        1: "{previous_question} → {answer}"
+        1: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        2: "{previous_question} → {answer}"
+        2: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        3: "{previous_question} → {answer}"
+        3: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        4: "{previous_question} → {answer}"
+        4: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        5: "{previous_question} → {answer}"
+        5: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        6: "{previous_question} → {answer}"
+        6: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        7: "{previous_question} → {answer}"
+        7: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        8: "{previous_question} → {answer}"
+        8: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        9: "{previous_question} → {answer}"
+        9: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        10: "{previous_question} → {answer}"
+        10: "{previous_question} → {first_correct_answer}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        11: "{previous_question} → {answer}"
+        11: "{previous_question} → {first_correct_answer}"
            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        12: "{previous_question} → {answer}"
+        12: "{previous_question} → {first_correct_answer}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        13: "{french} = {answer}",
-        14: "{french} = {answer}",
-        15: "{french} = {answer}",
+        13: "{french} = {first_correct_answer}",
+        14: "{french} = {first_correct_answer}",
+        15: "{french} = {first_correct_answer}",
         16: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{case_french} → {first_correct_answer}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        17: "{french} = {answer}",
+        17: "{french} = {first_correct_answer}",
         18: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
-        19: "{french} = {answer}",
+        19: "{french} = {first_correct_answer}",
         20: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        21: "{french} = {answer}",
+        21: "{french} = {first_correct_answer}",
         22: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
 
-        23: "Génitif {previous_question}: {answer}",
+        23: "Génitif de {previous_question} : {first_correct_answer}",
         24: "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",

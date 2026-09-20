@@ -54,9 +54,12 @@ def load_data_question(unit, exercise, question_id):
 
     df = load_data_exercise(unit, exercise)
 
-    question_data = df[df["Nr"] == int(question_id)].iloc[0]
+    question_data = df[df["Nr"] == int(question_id)]
 
-    return question_data
+    if question_data.empty:
+        return None
+
+    return question_data.iloc[0]
 
 
 def load_question_text(unit, exercise, question_id):
