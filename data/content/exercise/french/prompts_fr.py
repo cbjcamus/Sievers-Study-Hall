@@ -105,6 +105,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target adverb.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
+Commentary should be in French.
 """
 
 PROMPT_UNIT_FR = {
