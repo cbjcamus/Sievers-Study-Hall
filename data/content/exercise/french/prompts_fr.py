@@ -1,4 +1,4 @@
-from click import prompt
+from data.data_processing.exercises import prompt
 
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
