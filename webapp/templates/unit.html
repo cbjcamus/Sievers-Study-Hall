@@ -1,225 +1,83 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>{{ title_page }} – Practice German Grammar for Free</title>
+    <title>{{ unit_name }} – Practice German Grammar for Free</title>
     <meta name="description" content="{{ meta_description }}">
     {% from "macros/header.html" import header %}
     {{ header() }}
 
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/unit.css', v='2026-06-29-1') }}">
+          href="{{ url_for('static', filename='css/unit.css', v='2026-09-19-1') }}">
 </head>
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/unit.html" import render_exercise_table_row %}
 {% from "macros/unit.html" import render_exercise_empty_row %}
+{% from "macros/button.html" import display_button %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
-    {{ render_title(title_page) }}
+    {{ render_title(unit_name) }}
 
-    <div class="section">
-        <h2>Introduction</h2>
-        {{ introduction | safe }}
+    <div class="section section-no-table">
+        <div class="section-header">
+            <h2>Introduction</h2>
+        </div>
+
+        <div class="section-content">
+            {{ introduction | safe }}
+        </div>
     </div>
 
-    {% if exercises_A1 is not none %}
-    <div class="section">
-        <h2 id="A1">A1</h2>
-        <table class="exercise-table">
-            {% for row in exercises_A1.itertuples() %}
+    {% for level in levels %}
+        {% set exercises = exercises_by_level[level] %}
 
-                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
+        {% if exercises is not none %}
+            <div class="section">
 
-                    {{ render_exercise_table_row(
-                        row.unit,
-                        row.exercise,
-                        session,
-                        answered_questions,
-                        total_questions,
-                        score,
-                        description_templates,
-                        is_exercise_started,
-                        language,
-                        format_description
-                    ) }}
+                <div class="section-header">
+                    <h2 id="{{ level }}">{{ level }}</h2>
+                    {{ display_button() }}
+                </div>
 
-                    {% if (row.unit, row.exercise) in separations %}
-                        {{ render_exercise_empty_row() }}
-                    {% endif %}
+                <div class="section-content">
+                    <table class="exercise-table">
+                        {% for row in exercises.itertuples() %}
 
-                {% endif %}
+                            {{ render_exercise_table_row(
+                                row.unit,
+                                row.exercise,
+                                session,
+                                answered_questions,
+                                total_questions,
+                                score,
+                                description_templates,
+                                is_exercise_started,
+                                language,
+                                format_description,
+                                format_information_icon,
+                                format_information_text
+                            ) }}
 
-            {% endfor %}
-        </table>
-    </div>
-    {% endif %}
+                            {% if (row.unit, row.exercise) in separations %}
+                                {{ render_exercise_empty_row() }}
+                            {% endif %}
 
-    {% if exercises_A2 is not none %}
-    <div class="section">
-        <h2 id="A2">A2</h2>
-        <table class="exercise-table">
-            {% for row in exercises_A2.itertuples() %}
+                        {% endfor %}
+                    </table>
+                </div>
 
-                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
-
-                    {{ render_exercise_table_row(
-                        row.unit,
-                        row.exercise,
-                        session,
-                        answered_questions,
-                        total_questions,
-                        score,
-                        description_templates,
-                        is_exercise_started,
-                        language,
-                        format_description
-                    ) }}
-
-                    {% if (row.unit, row.exercise) in separations %}
-                        {{ render_exercise_empty_row() }}
-                    {% endif %}
-
-                {% endif %}
-
-            {% endfor %}
-        </table>
-    </div>
-    {% endif %}
-
-    {% if exercises_B1 is not none %}
-    <div class="section">
-        <h2 id="B1">B1</h2>
-        <table class="exercise-table">
-            {% for row in exercises_B1.itertuples() %}
-
-                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
-
-                    {{ render_exercise_table_row(
-                        row.unit,
-                        row.exercise,
-                        session,
-                        answered_questions,
-                        total_questions,
-                        score,
-                        description_templates,
-                        is_exercise_started,
-                        language,
-                        format_description
-                    ) }}
-
-                    {% if (row.unit, row.exercise) in separations %}
-                        {{ render_exercise_empty_row() }}
-                    {% endif %}
-
-                {% endif %}
-
-            {% endfor %}
-        </table>
-    </div>
-    {% endif %}
-
-    {% if exercises_B2 is not none %}
-    <div class="section">
-        <h2 id="B2">B2</h2>
-        <table class="exercise-table">
-            {% for row in exercises_B2.itertuples() %}
-
-                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
-
-                    {{ render_exercise_table_row(
-                        row.unit,
-                        row.exercise,
-                        session,
-                        answered_questions,
-                        total_questions,
-                        score,
-                        description_templates,
-                        is_exercise_started,
-                        language,
-                        format_description
-                    ) }}
-
-                    {% if (row.unit, row.exercise) in separations %}
-                        {{ render_exercise_empty_row() }}
-                    {% endif %}
-
-                {% endif %}
-
-            {% endfor %}
-        </table>
-    </div>
-    {% endif %}
-
-    {% if exercises_C1 is not none %}
-    <div class="section">
-        <h2 id="C1">C1</h2>
-        <table class="exercise-table">
-            {% for row in exercises_C1.itertuples() %}
-
-                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
-
-                    {{ render_exercise_table_row(
-                        row.unit,
-                        row.exercise,
-                        session,
-                        answered_questions,
-                        total_questions,
-                        score,
-                        description_templates,
-                        is_exercise_started,
-                        language,
-                        format_description
-                    ) }}
-
-                    {% if (row.unit, row.exercise) in separations %}
-                        {{ render_exercise_empty_row() }}
-                    {% endif %}
-
-                {% endif %}
-
-            {% endfor %}
-        </table>
-    </div>
-    {% endif %}
-
-    {% if exercises_C2 is not none %}
-    <div class="section">
-        <h2 id="C2">C2</h2>
-        <table class="exercise-table">
-            {% for row in exercises_C2.itertuples() %}
-
-                {% if not is_exercise_prompt(row.unit, row.exercise) or current_user.is_authenticated %}
-
-                    {{ render_exercise_table_row(
-                        row.unit,
-                        row.exercise,
-                        session,
-                        answered_questions,
-                        total_questions,
-                        score,
-                        description_templates,
-                        is_exercise_started,
-                        language,
-                        format_description
-                    ) }}
-
-                    {% if (row.unit, row.exercise) in separations %}
-                        {{ render_exercise_empty_row() }}
-                    {% endif %}
-
-                {% endif %}
-
-            {% endfor %}
-        </table>
-    </div>
-    {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
 
     <div class="home-button-container">
         <a href="/" class="button">{{ homepage }}</a>
     </div>
 
     <script src="{{ url_for('static', filename='js/menu/resetExercise.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/menu/toggleSection.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/menu/clickRowLinkUnit.js') }}" defer></script>
 
 </body>
 </html>

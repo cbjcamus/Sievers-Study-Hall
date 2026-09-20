@@ -1,9 +1,8 @@
 from flask import render_template
 from flask_login import current_user
 
-from data.content.unit.unit_page import UNIT_PAGE
-from data.content.unit.title_page import TITLE_PAGE
-from data.content.unit.title_button import TITLE_BUTTON
+from data.content.unit.unit_url_path import UNIT_URL_PATH
+from data.content.unit.unit_content_by_language import UNIT_NAME
 from data.content.application.text import EXERCISE_TITLE, ALL_QUESTIONS_SUCCESSFULLY_ANSWERED, \
     YOUR_SCORE_FOR_THIS_EXERCISE, FEEDBACK_LAST_QUESTION, YOUR_INCORRECT_ANSWERS, YOUR_ANSWER, NOT_AUTHENTICATED
 from data.content.application.buttons import NEXT_EXERCISE, REFRESH, BACK_TO
@@ -30,8 +29,11 @@ def render_exercise_completed_template(session, unit, exercise, language):
     feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation)
 
     if current_user.is_authenticated:
-        incorrect_answers, number_of_incorrect_answers = get_incorrect_answers(session, unit, exercise)
-        feedbacks = get_feedback_exercise(session, unit, exercise, language)
+        incorrect = get_incorrect_answers(session, unit, exercise)
+        number_of_incorrect_answers = len(incorrect)
+        incorrect_answers = [x["answer"] for x in incorrect.values()]
+
+        feedbacks = get_feedback_exercise(session, unit, exercise, language, incorrect)
         corrections = [format_correction(unit, exercise, language, 'incorrect', incorrect_answer, "")
                                for incorrect_answer in incorrect_answers]
     else:
@@ -56,9 +58,8 @@ def render_exercise_completed_template(session, unit, exercise, language):
                            exercise=exercise,
                            exercise_title=EXERCISE_TITLE[language],
                            score=write_score,
-                           unit_page=UNIT_PAGE,
-                           title_page=TITLE_PAGE,
-                           back_page=TITLE_BUTTON,
+                           unit_url_path=UNIT_URL_PATH,
+                           unit_name=UNIT_NAME[language][unit],
                            is_feedback_box=True,
                            result=result,
                            feedback_message=feedback_message,

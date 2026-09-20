@@ -5,7 +5,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -46,7 +46,6 @@ STARS = {
     imperativ: f"",
     partizip_II: f"{STAR_GOLD}",
     praeteritum: f"{STAR_GOLD}",
-    praeteritum_partizip_II: f"",
     konjunktiv_II: f"",
     konjunktiv_I: f"",
     partizip_I: f"",

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>{{ title_page[unit] }} – Practice German Grammar for Free</title>
+    <title>{{ unit_name }} – Practice German Grammar for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
@@ -13,10 +13,13 @@
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
+{% from "macros/button.html" import display_back_button %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
-    {{ render_title(title_page[unit]) }}
+<div class="exercise-page">
+
+    {{ render_title(unit_name) }}
 
     <h2 class="exercise-title">{{ exercise_title }} {{ exercise }}</h2>
 
@@ -49,7 +52,6 @@
 
                 {% if special_characters_enabled %}
                     <div class="special-chars">
-                        <br>
                         <button type="button" onclick="insertChar('ü')">ü</button>
                         <button type="button" onclick="insertChar('ö')">ö</button>
                         <button type="button" onclick="insertChar('ä')">ä</button>
@@ -171,11 +173,11 @@
                           autocomplete="off"
                           spellcheck="false"
                           maxlength="300"
-                          rows="4"></textarea>
+                          rows="4"
+                          autofocus></textarea>
 
                 {% if special_characters_enabled %}
                     <div class="special-chars">
-                        <br>
                         <button type="button" onclick="insertChar('ü')">ü</button>
                         <button type="button" onclick="insertChar('ö')">ö</button>
                         <button type="button" onclick="insertChar('ä')">ä</button>
@@ -236,7 +238,8 @@
 
     </div>
 
-    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, correction, current_user, False, icon_full, icon_empty, icon_flag) }}
+    {{ render_feedback(unit, exercise, is_feedback_box, result, feedback_message, your_answer, user_answer, correction,
+    current_user, False, icon_full, icon_empty, icon_flag) }}
 
     <script src="{{ url_for('static', filename='js/exercise/flags.js') }}" defer></script>
     <script src="{{ url_for('static', filename='js/exercise/bookmarks.js') }}" defer></script>
@@ -263,11 +266,7 @@
         </div>
     {% endif %}
 
-    <div class="back-button-container">
-        <a href="{{ unit_page.get(unit, '/') }}#{{ level_exercise }}" class="back-button">
-            {{ back_to }} {{ back_page[unit] }} ↩
-        </a>
-    </div>
+    {{ display_back_button(unit_url_path, level_exercise, back_to, unit_name) }}
 
     {% if clearance_popup_title %}
         <div id="popup-overlay" class="popup-overlay" role="dialog" aria-modal="true">
@@ -283,5 +282,6 @@
 
     <script src="{{ url_for('static', filename='js/exercise/guidance.js') }}" defer></script>
 
+</div>
 </body>
 </html>

@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>{{ title_page[unit] }} – Practice German Grammar for Free</title>
+    <title>{{ unit_name }} – Practice German Grammar for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
 
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/exercise.css', v='2026-04-25-1') }}">
+          href="{{ url_for('static', filename='css/exercise.css', v='2026-09-19-1') }}">
 </head>
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
+{% from "macros/button.html" import display_back_button %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
+<div class="exercise-page">
 
-    {{ render_title(title_page[unit]) }}
+    {{ render_title(unit_name) }}
 
     <h2 class="exercise-title">{{ exercise_title }} {{ exercise }}</h2>
 
-    <p>{{ all_questions_successfully_answered }}<br><br>
-    {{ your_score_for_this_exercise }} {{ score(session, unit, exercise=exercise) }}.</p>
+    <div class="completion-summary">
+        <p>{{ all_questions_successfully_answered }}</p>
+
+        <p>
+            {{ your_score_for_this_exercise }}
+            {{ score(session, unit, exercise=exercise) }}.
+        </p>
+    </div>
 
     {% if feedback_message is not none %}
-        <p>{{ feedback_last_question }}</p>
+        <div class="completion-section">
+            <p>{{ feedback_last_question }}</p>
+
+            {{ render_feedback(
+                unit=unit,
+                exercise=exercise,
+                is_feedback_box=is_feedback_box,
+                result=result,
+                feedback_message=feedback_message,
+                your_answer=your_answer,
+                user_answer=user_answer,
+                correction=format_correction(unit, exercise, language, result, user_answer, previous_question),
+                current_user=current_user,
+                force_full_bookmark=False,
+                icon_full=icon_full,
+                icon_empty=icon_empty,
+                icon_flag=icon_flag,
+            ) }}
+        </div>
     {% endif %}
 
-    {{ render_feedback(
-        unit=unit,
-        exercise=exercise,
-        is_feedback_box=is_feedback_box,
-        result=result,
-        feedback_message=feedback_message,
-        your_answer=your_answer,
-        user_answer=user_answer,
-        correction=format_correction(unit, exercise, language, result, user_answer, previous_question),
-        current_user=current_user,
-        force_full_bookmark=False,
-        icon_full=icon_full,
-        icon_empty=icon_empty,
-        icon_flag=icon_flag,
-    ) }}
-
-    <div class="next-exercise-button-container">
-        <a href="{{ '/guidance/unit/{}/exercise/{}'.format(unit, next_exercise) if next_exercise is not none else unit_page.get(unit, '/') }}"
-           class="next-exercise-button">
-            {{ next_exercise_text }} →
-        </a>
+    <div class="completion-section">
+        <div class="next-exercise-button-container">
+            <a href="{{ url_for('routes.guidance', unit=unit, exercise=next_exercise) if next_exercise is not none else unit_url_path.get(unit, '/') }}"
+               class="next-exercise-button">
+                {{ next_exercise_text }} →
+            </a>
+        </div>
     </div>
 
     {% if current_user_not_authenticated %}
-        <p>{{ not_authenticated_text }}</p>
-        <div class="signup-button-container">
-            <a href="{{ url_for('routes.signup') }}" class="next-exercise-button">
-                Sign-Up</a>
+        <div class="completion-section">
+            <p>{{ not_authenticated_text }}</p>
+
+            <div class="signup-button-container">
+                <a href="{{ url_for('routes.signup') }}"
+                   class="next-exercise-button">
+                    Sign-Up
+                </a>
+            </div>
         </div>
     {% endif %}
 
     {% if number_of_incorrect_answers > 0 %}
-        <p>{{ your_incorrect_answers }}</p>
+        <div class="completion-section">
+            <p>{{ your_incorrect_answers }}</p>
 
-        {% for i in range(number_of_incorrect_answers) %}
-            {{ render_feedback(
+            {% for i in range(number_of_incorrect_answers) %}
+                {{ render_feedback(
                     unit=unit,
                     exercise=exercise,
                     is_feedback_box=is_feedback_box,
@@ -76,7 +94,8 @@
                     icon_empty=icon_empty,
                     icon_flag=icon_flag,
                 ) }}
-        {% endfor %}
+            {% endfor %}
+        </div>
     {% endif %}
 
     <script src="{{ url_for('static', filename='js/exercise/flags.js') }}" defer></script>
@@ -92,20 +111,19 @@
         {% endif %}
     {% endwith %}
 
-    <div class="back-button-container">
+    <div class="completion-refresh-container">
         <form action="{{ url_for('routes.reset_exercise', unit=unit, exercise=exercise) }}" method="post">
-            <button type="submit" class="back-button">{{ refresh }} &#8634;</button>
+            <button type="submit" class="next-exercise-button">
+                {{ refresh }} &#8634;
+            </button>
             <input type="hidden" name="guidance" value="true">
         </form>
-    </div><br>
-
-    <div class="back-button-container">
-        <a href="{{ unit_page.get(unit, '/') }}#{{ level_exercise }}" class="back-button">
-            {{ back_to }} {{ back_page[unit] }} ↩
-        </a>
     </div>
+
+    {{ display_back_button(unit_url_path, level_exercise, back_to, unit_name) }}
 
     <script src="{{ url_for('static', filename='js/exercise/enterNextExerciseButton.js') }}" defer></script>
 
+</div>
 </body>
 </html>

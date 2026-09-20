@@ -1,12 +1,16 @@
 {% macro header() %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpeg" href="/webapp/static/logo_fav.png">
-    <link rel="apple-touch-icon" href="/static/logo.png">
+    <link rel="icon"
+          type="image/png"
+          href="{{ url_for('static', filename='logo_fav.png') }}">
+
+    <link rel="apple-touch-icon"
+          href="{{ url_for('static', filename='logo.png') }}">
 
     <script>
         if (localStorage.getItem("mode") === "day") {
-          document.documentElement.classList.add("day-mode");
+            document.documentElement.classList.add("day-mode");
         }
     </script>
 
@@ -21,7 +25,7 @@
     </style>
 
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/base.css', v='2026-08-20-1') }}">
+          href="{{ url_for('static', filename='css/base.css', v='2026-09-19-1') }}">
 
     <script>
         window.addEventListener('DOMContentLoaded', function() {

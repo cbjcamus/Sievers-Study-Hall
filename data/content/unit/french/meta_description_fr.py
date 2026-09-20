@@ -4,7 +4,7 @@ from data.data_processing.units import (
     fragen, konnektoren, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
@@ -14,7 +14,7 @@ META_DESCRIPTION_FR = {
         'Pratiquez les prépositions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     praepositionen_verben:
-        'Pratiquez les paires verbe–preposition allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires verbe–préposition allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     praepositionen_adjektive:
         'Pratiquez les paires adjectif–préposition allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
@@ -23,7 +23,7 @@ META_DESCRIPTION_FR = {
         'Pratiquez les paires nom–préposition allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     pronominaladverbien:
-        'Pratiquez les mot en da- et en wo- avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les adverbes pronominaux en da- et en wo- avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     artikel:
@@ -33,10 +33,10 @@ META_DESCRIPTION_FR = {
         'Pratiquez les pronoms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     praepositionen_artikel:
-        'Pratiquez les cas suivant les prépositions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les cas régis par les prépositions allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     verben_artikel:
-        'Pratiquez les cas suivant les verbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les cas régis par les verbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     konnektoren:
@@ -53,74 +53,71 @@ META_DESCRIPTION_FR = {
     ,
 
     genus_regeln:
-        'Pratiquez le Genre des Noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le genre des noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     genus:
-        'Pratiquez le Genre des Noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le genre des noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     plural:
-        'Pratiquez le pluriel des noms communs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le pluriel des noms allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     verben:
         'Pratiquez les verbes allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     trennbare_verben:
-        'Pratiquez les verbes séparables et inséparables (trennbare et untrennbare) allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les verbes allemands séparables et inséparables (trennbare et untrennbare) avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     nomen_verben_verbindungen:
-        'Pratiquez les combinaisons Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les combinaisons nom–verbe allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     adjektive:
         'Pratiquez les adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     komparativ_superlativ:
-        'Pratiquez les adjectifs comparatifs et superlatifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le comparatif et le superlatif des adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektivdeklinationen:
-        'Pratiquez les déclinations d\'adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les déclinaison des adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektive_konjunktionen:
         'Pratiquez les conjonctions d\'adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     praesens:
-        'Pratiquez le Présent de l\'Indicatif allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le présent de l\'indicatif allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     partizip_II:
-        'Pratiquez le Participe Passé (Partizip II) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le participe passé (Partizip II) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     praeteritum:
-        'Pratiquez le Préterit (Präteritum) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-    ,
-    praeteritum_partizip_II:
-        'Pratiquez le Préterit et le Participe Passé (Präteritum et Partizip II) allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le Präteritum (préterit) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     imperativ:
-        'Pratiquez l\'Impératif allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez l\'impératif allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     konjunktiv_II:
-        'Pratiquez le Subjonctif (Konjunktiv II) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le Konjunktiv II allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     konjunktiv_I:
-        'Pratiquez le Subjonctif (Konjunktiv I) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le Konjunktiv I allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     partizip_I:
-        'Pratiquez le Participe Présent (Partizip I) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le participe présent (Partizip I) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     nomen_verben_wortstaemme:
-        'Pratiquez les paires étymologiques Nom–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires étymologiques nom–verbe allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektive_verben_wortstaemme:
-        'Pratiquez les paires étymologiques Adjectifs–Verbes allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires étymologiques adjectif–verbe allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektive_nomen_wortstaemme:
-        'Pratiquez les paires étymologiques Adjectifs–Noms communs allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les paires étymologiques adjectif–nom allemandes avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 
     zahlen:
-        'Pratiquez les Nombres allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les nombres allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
 }

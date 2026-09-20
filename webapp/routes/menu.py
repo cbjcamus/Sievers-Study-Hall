@@ -4,14 +4,12 @@ from flask_login import current_user, login_required
 from typing import cast
 
 from data.content.unit.stars import STARS
-from data.content.unit.unit_page import UNIT_PAGE
-from data.content.unit.title_page import TITLE_PAGE
-from data.content.unit.title_button import TITLE_BUTTON
-from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION
+from data.content.unit.unit_url_path import UNIT_URL_PATH
+from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION, UNIT_NAME
 from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
 from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
-from data.data_processing.units import units
+from data.data_processing.units import units, units_without_alpha
 from data.data_processing.exercises import get_exercises_by_unit_and_level, levels, get_level_from_exercise, \
     is_exercise_prompt
 from data.data_processing.separations import separations
@@ -23,7 +21,8 @@ from users.progress.score import write_score, get_lowest_scored_exercises
 from users.progress.progress import compute_answered_questions, update_progress_in_home_page, is_exercise_started, \
     get_fraction_exercises_finished_by_level, get_random_unit_and_lowest_unfinished_exercise, get_unfinished_exercises, \
     get_progress_home_page
-from users.questions.content_format import format_correction, format_description
+from users.questions.content_format import format_correction, format_description, format_information_text, \
+    format_information_icon
 
 from . import routes_bp
 
@@ -44,9 +43,9 @@ def home():
     completed_exercises = {unit: get_progress_home_page(session, unit) for unit in units}
 
     return render_template('home.html',
-                           title_page=TITLE_PAGE,
-                           title_button=TITLE_BUTTON,
-                           unit_page=UNIT_PAGE,
+                           unit_name=UNIT_NAME[language],
+                           title_button=UNIT_NAME[language],
+                           unit_url_path=UNIT_URL_PATH,
                            unit_stars=STARS,
                            STAR_GOLD=STAR_GOLD,
                            home_description=home_description,
@@ -59,7 +58,7 @@ def home():
 
 
 for unit in units:
-    route_path = UNIT_PAGE[unit]
+    route_path = UNIT_URL_PATH[unit]
     template = 'unit.html'
 
     def make_route(unit=unit):
@@ -67,35 +66,30 @@ for unit in units:
         @routes_bp.route(route_path, endpoint=endpoint_name)
         def dynamic_route():
             language = get_language(request, session)
-            title_page = TITLE_PAGE[unit]
             introduction = INTRODUCTION[language].get(unit, {})
             meta_description = META_DESCRIPTION[language]
 
-            exercises_A1 = get_exercises_by_unit_and_level(unit, 'A1')
-            exercises_A2 = get_exercises_by_unit_and_level(unit, 'A2')
-            exercises_B1 = get_exercises_by_unit_and_level(unit, 'B1')
-            exercises_B2 = get_exercises_by_unit_and_level(unit, 'B2')
-            exercises_C1 = get_exercises_by_unit_and_level(unit, 'C1')
-            exercises_C2 = get_exercises_by_unit_and_level(unit, 'C2')
+            exercises_by_level = {
+                level: get_exercises_by_unit_and_level(unit, level)
+                for level in levels
+            }
 
             update_progress_in_home_page(session, unit)
 
             return render_template(template,
-                                   title_page=title_page,
+                                   unit_name=UNIT_NAME[language][unit],
                                    answered_questions=compute_answered_questions,
                                    total_questions=total_question_exercises,
                                    score=write_score,
                                    introduction=introduction,
                                    format_description=format_description,
+                                   format_information_icon=format_information_icon,
+                                   format_information_text=format_information_text,
                                    homepage=HOMEPAGE[language],
                                    meta_description=meta_description,
                                    is_exercise_started=is_exercise_started,
-                                   exercises_A1=exercises_A1,
-                                   exercises_A2=exercises_A2,
-                                   exercises_B1=exercises_B1,
-                                   exercises_B2=exercises_B2,
-                                   exercises_C1=exercises_C1,
-                                   exercises_C2=exercises_C2,
+                                   exercises_by_level=exercises_by_level,
+                                   levels=levels,
                                    separations=separations,
                                    is_exercise_prompt=is_exercise_prompt,
                                    )
@@ -154,10 +148,10 @@ def bookmarks():
     }
 
     return render_template(page[language],
+                           unit_name=UNIT_NAME[language],
                            bookmarks=bookmark,
                            is_feedback_box=True,
                            your_answer=YOUR_ANSWER[language],
-                           title_page=TITLE_PAGE,
                            force_full_bookmark=True,
                            format_correction=format_correction,
                            icon_empty=get_filename_empty_bookmark(),
@@ -186,7 +180,7 @@ def progress():
 
     return render_template(
         page[language],
-        title_page=TITLE_PAGE,
+        unit_name=UNIT_NAME[language],
         levels=levels,
         fractions=fraction_level_finished,
         random_unit_exercise=random_unit_exercise,
@@ -232,9 +226,8 @@ def sitemap():
 
     add("routes.home")
 
-    for unit in units:
-        if unit != 'test':
-            add(f"routes.dynamic_route_{unit}")
+    for unit in units_without_alpha:
+        add(f"routes.dynamic_route_{unit}")
 
     sitemap_xml = render_template("sitemap_template.xml", pages=pages)
     return Response(sitemap_xml, mimetype="application/xml")

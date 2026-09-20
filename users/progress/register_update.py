@@ -68,7 +68,7 @@ def register_progress(session, unit, exercise, nr):
         return
 
 
-def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
+def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer, translation=None, commentary=None):
     """
     Stores the user's incorrect answer for a given unit and exercise.
 
@@ -102,11 +102,17 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
         correct_nrs = {int(n) for n in s.get("correct_nrs", [])}
         incorrect = {int(k): v for k, v in (s.get("incorrect") or {}).items()}
 
-        # Only record an incorrect if this Nr isn’t already marked correct
+        # Only record an incorrect if this Nr isn't already marked correct
         if nr_int not in correct_nrs:
-            # Keep first wrong answer; don’t overwrite if already recorded
-            if nr_int not in incorrect:
-                incorrect[nr_int] = incorrect_answer or ""
+            key = str(nr_int)
+
+            # Keep first incorrect attempt
+            if key not in incorrect:
+                incorrect[key] = {
+                    "answer": incorrect_answer or "",
+                    "translation": translation or "",
+                    "commentary": commentary or ""
+                }
 
         # Rebuild state; preserve any finished fields if present
         next_state = {
@@ -120,6 +126,7 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer):
 
         row.state = next_state
         row.updated_at = datetime.now(timezone.utc)
+
         db.session.commit()
         return
 

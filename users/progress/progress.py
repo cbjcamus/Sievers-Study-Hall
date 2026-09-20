@@ -1,7 +1,5 @@
 import random
 
-from datetime import datetime, timezone
-
 from flask_login import current_user
 
 from data.data_processing.exercises import get_exercises_by_level, df_exercises

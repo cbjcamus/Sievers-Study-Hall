@@ -37,12 +37,12 @@ YOUR_INCORRECT_ANSWERS = {
 
 ADDITIONAL_HELP = {
     'english': 'Additional Support',
-    'french': 'Informations Complémentaires',
+    'french': 'Informations complémentaires',
 }
 
 CONSULT_FAQ = {
     'english': 'For additional support consult the <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">FAQ</a> or send me an email at sieversstudyhall@gmail.com',
-    'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq-8cc" target="_blank">FAQ</a> ou envoyez moi un email à sieversstudyhall@gmail.com'
+    'french': 'Pour plus d\'information, consultez le <a href="https://sieversstudyhall.substack.com/p/faq-8cc" target="_blank">FAQ</a> ou envoyez moi un email à sieversstudyhall@gmail.com',
 }
 
 NOT_AUTHENTICATED = {
@@ -54,7 +54,7 @@ NOT_AUTHENTICATED = {
 
 META_DESCRIPTION = {
     'english': 'Practice German with interactive exercises. Improve your grammar and get instantaneous feedback, for free.'
-               'Practice Präpositionen, Artikel, Pronomen, Konnektoren, Adverbien, Genus, Partizip II, Präteritum and much more.',
+               'Practice prepositions, articles, pronouns, connectors, adverbs, genre, past participle, preterit and much more.',
     'french': 'Pratiquez l’allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
-              'Pratiquez les Präpositionen, Artikel, Pronomen, Konnektoren, Adverbien, Genus, Partizip II, Präteritum et bien plus.',
+              'Pratiquez les prepositions, articles, pronouns, conjonctions, adverbes, genres, participes passés, prétérit et bien plus.',
 }

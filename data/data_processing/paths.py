@@ -64,4 +64,9 @@ DATA_PATH = {
     alpha: os.path.join(BASE_DIR, "datasets/sonstige", "alpha.csv"),
 }
 
-df_units = {unit: pd.read_csv(DATA_PATH[unit]) for unit in units}
+df_units = {
+    unit: pd.read_csv(DATA_PATH[unit]).assign(
+        Nr=lambda df: range(1, len(df) + 1)
+    )
+    for unit in units
+}

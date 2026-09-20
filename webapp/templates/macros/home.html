@@ -1,15 +1,24 @@
-{% macro render_unit_table_row(unit, title_page, unit_page, unit_stars, home_description, completed_exercises, highest_exercise, user_is_connected) %}
-    <tr>
-        <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
-        <td>{{ unit_stars[unit] | safe }}</td>
+{% macro render_unit_table_row(unit, unit_name, unit_url_path, unit_stars, home_description, completed_exercises, highest_exercise, user_is_connected) %}
+    <tr class="unit-row">
+        <td>
+            <a href="{{ unit_url_path[unit] }}" class="unit-link">
+                {{ unit_name[unit] }}
+            </a>
+        </td>
+        <td>
+            <span class="unit-star"
+                  title="Units particularly liked by users">
+                {{ unit_stars[unit] | safe }}
+            </span>
+        </td>
         <td>{{ completed_exercises[unit] }}/{{ highest_exercise[unit] }}</td>
         <td>{{ home_description[unit] | safe }}</td>
     </tr>
 {% endmacro %}
 
-{% macro render_unit_table_row_not_connected(unit, unit_page, title_page, unit_stars, completed_exercises, highest_exercise) %}
+{% macro render_unit_table_row_not_connected(unit, unit_url_path, unit_name, unit_stars, completed_exercises, highest_exercise) %}
     <tr>
-        <td><a href="{{ unit_page[unit] }}" class="button">{{ title_page[unit] }}</a></td>
+        <td><a href="{{ unit_url_path[unit] }}" class="button">{{ unit_name[unit] }}</a></td>
         <td>{{ unit_stars[unit] | safe }}</td>
         <td><!-- {{ completed_exercises(session, unit, highest_exercise) }}/{{ highest_exercise[unit] }}--></td>
         <td></td>

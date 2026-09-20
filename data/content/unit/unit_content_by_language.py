@@ -6,10 +6,17 @@ from data.content.unit.english.introduction_en import INTRODUCTION_EN
 from data.content.unit.english.meta_description_en import META_DESCRIPTION_EN
 from data.content.exercise.french.descriptions_fr import DESCRIPTION_UNIT_FR
 from data.content.exercise.french.guidance_fr import GUIDANCE_UNIT_FR
+from data.content.unit.english.unit_name_en import UNIT_NAME_EN
 from data.content.unit.french.home_description_fr import HOME_DESCRIPTION_FR
 from data.content.unit.french.introduction_fr import INTRODUCTION_FR
 from data.content.unit.french.meta_description_fr import META_DESCRIPTION_FR
+from data.content.unit.french.unit_name_fr import UNIT_NAME_FR
 
+
+UNIT_NAME = {
+    'english': UNIT_NAME_EN,
+    'french': UNIT_NAME_FR,
+}
 
 DESCRIPTION_UNIT = {
     'english': DESCRIPTION_UNIT_EN,
@@ -40,3 +47,4 @@ INTRODUCTION = {
     'english': INTRODUCTION_EN,
     'french': INTRODUCTION_FR,
 }
+

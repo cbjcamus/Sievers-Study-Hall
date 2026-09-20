@@ -40,7 +40,7 @@
             {% for (unit, exercise) in unfinished_exercises %}
                 <tr>
                     <td>
-                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">{{ title_page[unit] }} {{ exercise }}</a>
+                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">{{ unit_name[unit] }} {{ exercise }}</a>
                     </td>
                     <td>{{ get_level_from_exercise(unit, exercise) }}</td>
                     <td>
@@ -69,7 +69,7 @@
             {% for (unit, exercise, score_) in lowest_score_exercises %}
                 <tr>
                     <td>
-                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">{{ title_page[unit] }} {{ exercise }}</a>
+                        <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="button">{{ unit_name }} {{ exercise }}</a>
                     </td>
                     <td>{{ get_level_from_exercise(unit, exercise) }}</td>
                     <td>

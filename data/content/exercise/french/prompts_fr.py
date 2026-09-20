@@ -5,7 +5,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -13,7 +13,7 @@ from data.data_processing.units import (
 prompt_konnektoren = """
 You are evaluating a focused German connector exercise.
 
-Target connector: {german}
+Target connector: {german} (French: {french})
 
 Student sentence:
 "{user_answer}"
@@ -29,7 +29,7 @@ meaning_coherent:
 Is the intended meaning of the entire sentence understandable and logically coherent?
 Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
 
-other_errors:
+commentary:
 Identify grammatical or spelling errors that are unrelated to the correct use of the target connector.
 Give a brief correction for grammatical and spelling mistakes. 
 Do not provide a correction when the meaning is incoherent, 
@@ -41,12 +41,20 @@ Return ONLY a valid JSON object with exactly these keys:
   "meaning_coherent": "yes" or "no",
   "german_sentence": "exact student sentence",
   "translation": "French translation of the intended meaning",
-  "other_errors": "a brief description and correction (in French) or let it blank"
+  "commentary": "a brief description and correction (in French) or let it blank"
 }}
 """
 
 PROMPT_UNIT_FR = {
     alpha: prompt_konnektoren,
+}
+
+PROMPT_CATEGORY_FR = {
+
+}
+
+PROMPT_SUBCATEGORY_FR = {
+
 }
 
 PROMPT_EXERCISE_FR = {

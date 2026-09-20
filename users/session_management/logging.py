@@ -3,7 +3,8 @@ import re
 from flask import request, session
 from datetime import datetime
 
-from data.data_processing.exercises import get_level_from_exercise, get_type_from_exercise
+from data.data_processing.exercises import get_level_from_exercise, get_category_from_exercise, \
+    get_subcategory_from_exercise
 
 from users.users.settings import is_feedback_enabled, get_theme
 
@@ -38,11 +39,12 @@ def log_exercise_completed(unit, exercise, score, email=None):
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(EXERCISE_COMPLETED_PATH, "Nr; email; IP; date; unit; exercise; level; exercise_type; score; language; feedback-enabled; theme")
+    create_file(EXERCISE_COMPLETED_PATH, "Nr; email; IP; date; unit; exercise; level; category; subcategory; score; language; feedback-enabled; theme")
 
     next_nr = get_next_number(EXERCISE_COMPLETED_PATH)
     level = get_level_from_exercise(unit, exercise)
-    exercise_type = get_type_from_exercise(unit, exercise)
+    category = get_category_from_exercise(unit, exercise)
+    subcategory = get_subcategory_from_exercise(unit, exercise)
 
     forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
     user_ip = forwarded_for.split(',')[0].strip()  # Take the first IP if there are multiple
@@ -51,7 +53,7 @@ def log_exercise_completed(unit, exercise, score, email=None):
     theme = get_theme()
 
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {level}; {exercise_type}; {score}; {language}; {feedback}; {theme}")
+        file.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {level}; {category}; {subcategory}; {score}; {language}; {feedback}; {theme}")
     return
 
 

@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>{{ title_page[unit] }} – Practice German Grammar for Free</title>
+    <title>{{ unit_name }} – Practice German Grammar for Free</title>
     <meta name="description" content="Practice German with interactive exercises. Perfect your grammar and boost your language skills online for free.">
     {% from "macros/header.html" import header %}
     {{ header() }}
 
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/exercise.css', v='2026-04-25-1') }}">
-    <script src="{{ url_for('static', filename='js/exercise/answer-input.js') }}" defer></script>
+          href="{{ url_for('static', filename='css/exercise.css', v='2026-06-29-1') }}">
 </head>
 
 {% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_back_button %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
+<div class="exercise-page">
 
-    {{ render_title(title_page[unit]) }}
+    {{ render_title(unit_name) }}
     <h2 class="exercise-title">{{ exercise_title }} {{ exercise }}</h2>
 
     <div class="guidance-container">
 
         <h2>Instruction</h2>
 
-        <p align="left">{{ guidance | safe }}</p>
+        <p>{{ guidance | safe }}</p>
 
         <h2>{{ additional_help | safe }}</h2>
 
-        <p align="left">{{ consult_faq | safe }}</p>
+        <p>{{ consult_faq | safe }}</p>
 
         <div class="next-button-container">
-            <a href="/unit/{{ unit }}/exercise/{{ exercise }}" class="next-question-button">{{ next }}</a>
+            <a href="{{ url_for('routes.exercise_page', unit=unit, exercise=exercise) }}"
+               class="next-question-button">{{ next }}</a>
         </div>
 
         <script src="{{ url_for('static', filename='js/exercise/enterNextQuestionButton.js') }}" defer></script>
@@ -43,9 +45,8 @@
         </form>
     </div>
 
-    <div class="back-button-container">
-        <a href="{{ unit_page.get(unit, '/') }}" class="back-button">{{ back_to }} {{ back_page[unit] }} ↩</a>
-    </div>
+    {{ display_back_button(unit_url_path, level_exercise, back_to, unit_name) }}
 
+</div>
 </body>
 </html>

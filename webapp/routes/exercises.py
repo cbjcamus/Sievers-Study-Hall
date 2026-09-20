@@ -2,18 +2,17 @@ from flask import render_template, session, request, redirect, url_for, flash, j
 from flask_login import current_user
 from typing import cast
 
-from data.content.unit.unit_page import UNIT_PAGE
-from data.content.unit.title_page import TITLE_PAGE
-from data.content.unit.title_button import TITLE_BUTTON
+from data.content.unit.unit_content_by_language import UNIT_NAME
+from data.content.unit.unit_url_path import UNIT_URL_PATH
 from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
 from data.content.application.popup import get_popup_title, get_popup_text
 from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, SHOW_OPTIONS
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.exercises import is_exercise_multiple_choice_native, does_unit_exercise_exist, \
-    is_exercise_input, \
-    is_exercise_word_order, is_exercise_multiple_choice_target, get_level_from_exercise, is_exercise_prompt
+from data.data_processing.exercises import (is_exercise_multiple_choice_native, does_unit_exercise_exist,
+    is_exercise_input, is_exercise_word_order, is_exercise_multiple_choice_target,
+                                            get_level_from_exercise, is_exercise_prompt)
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 from users.questions.prompting import get_response_from_prompt
@@ -90,9 +89,8 @@ def guidance(unit, exercise):
                                guidance=guidance_text,
                                additional_help=ADDITIONAL_HELP[language],
                                consult_faq=CONSULT_FAQ[language],
-                               unit_page=UNIT_PAGE,
-                               title_page=TITLE_PAGE,
-                               back_page=TITLE_BUTTON,
+                               unit_url_path=UNIT_URL_PATH,
+                               unit_name=UNIT_NAME[language][unit],
                                answered_questions=compute_answered_questions(session, unit, exercise=exercise),
                                total_questions=total_question_exercises[unit][exercise],
                                next=NEXT[language],
@@ -129,7 +127,7 @@ def exercise_page(unit, exercise):
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
 
-    result, user_answer, previous_question_id, translation, other_errors = read_feedback(session)
+    result, user_answer, previous_question_id, translation, commentary = read_feedback(session)
 
     feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation)
     previous_question = load_question_text(unit, exercise, previous_question_id)
@@ -185,9 +183,8 @@ def exercise_page(unit, exercise):
                            feedback_message=feedback_message,
                            user_answer=user_answer,
                            show_options=SHOW_OPTIONS[language],
-                           unit_page=UNIT_PAGE,
-                           title_page=TITLE_PAGE,
-                           back_page=TITLE_BUTTON,
+                           unit_url_path=UNIT_URL_PATH,
+                           unit_name=UNIT_NAME[language][unit],
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
                            total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,
@@ -229,10 +226,11 @@ def check_answer(unit, exercise):
     if is_exercise_prompt(unit, exercise):
         prompt = format_prompt(unit, exercise, language, question_id, user_answer)
         response = get_response_from_prompt(prompt)
-        is_answer_correct = response['inquiry_correct'] == 'yes' and response['inquiry_correct'] == 'yes'
-        update_session_dictionary(session, "feedback", "translation", response['translation'])
-        update_session_dictionary(session, "feedback", "other_errors", response['other_errors'])
-
+        is_answer_correct = response['inquiry_correct'] == 'yes' and response['meaning_coherent'] == 'yes'
+        translation = response.get("translation", "")
+        commentary = response.get("commentary", "")
+        update_session_dictionary(session, "feedback", "translation", translation)
+        update_session_dictionary(session, "feedback", "commentary", commentary)
     else:
         is_answer_correct = is_user_answer_correct(unit, exercise, question_id, user_answer, language)
 
@@ -241,7 +239,11 @@ def check_answer(unit, exercise):
     if is_answer_correct:
         register_progress(session, unit, exercise, question_id)
     elif question_id not in session[unit][str(exercise)]['falses']:
-        register_incorrect_answer(session, unit, exercise, question_id, user_answer)
+        if is_exercise_prompt(unit, exercise):
+            register_incorrect_answer(session, unit, exercise, question_id, user_answer,
+                                      translation=translation, commentary=commentary)
+        else:
+            register_incorrect_answer(session, unit, exercise, question_id, user_answer)
 
     session.modified = True
 
@@ -291,9 +293,9 @@ def feedback_page(unit, exercise):
     formated_instruction = format_instruction(unit, exercise, language)
     formated_question_text = format_question(unit, exercise, language, question_id)
 
-    result, user_answer, previous_question_id, translation, other_errors = read_feedback(session)
+    result, user_answer, previous_question_id, translation, commentary = read_feedback(session)
 
-    feedback_message = format_feedback(unit, exercise, language, question_id, user_answer, translation, other_errors)
+    feedback_message = format_feedback(unit, exercise, language, question_id, user_answer, translation, commentary)
     previous_question = format_question(unit, exercise, language, question_id)
     correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 
@@ -323,9 +325,8 @@ def feedback_page(unit, exercise):
                            result=result,
                            feedback_message=feedback_message,
                            user_answer=user_answer,
-                           unit_page=UNIT_PAGE,
-                           title_page=TITLE_PAGE,
-                           back_page=TITLE_BUTTON,
+                           unit_url_path=UNIT_URL_PATH,
+                           unit_name=UNIT_NAME[language][unit],
                            answered_questions=compute_answered_questions(session, unit, exercise=exercise),
                            total_questions=total_question_exercises[unit][exercise],
                            proverb=proverb,

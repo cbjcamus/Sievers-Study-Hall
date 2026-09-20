@@ -5,12 +5,12 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, praeteritum_partizip_II, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
 
-UNIT_PAGE = {
+UNIT_URL_PATH = {
     praepositionen: "/praepositionen",
     praepositionen_verben: "/praepositionen_verben",
     praepositionen_adjektive: "/praepositionen_adjektive",
@@ -44,7 +44,6 @@ UNIT_PAGE = {
     imperativ: "/imperativ",
     partizip_II: "/partizip_II",
     praeteritum: "/praeteritum",
-    praeteritum_partizip_II: "/praeteritum_partizip_II",
     konjunktiv_II: "/konjunktiv_II",
     konjunktiv_I: "/konjunktiv_I",
     partizip_I: "/partizip_I",

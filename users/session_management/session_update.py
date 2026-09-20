@@ -30,9 +30,9 @@ def read_feedback(session):
     user_answer = feedback.get("user_answer")
     previous_question_id = feedback.get("previous_question_id")
     translation = feedback.get("translation", "")
-    other_errors = feedback.get("other_errors", "")
+    commentary = feedback.get("commentary", "")
 
-    return result, user_answer, previous_question_id, translation, other_errors
+    return result, user_answer, previous_question_id, translation, commentary
 
 
 def add_new_id_in_session(session, dictionary, key, question_id):

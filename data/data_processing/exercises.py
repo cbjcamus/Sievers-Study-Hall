@@ -8,6 +8,18 @@ df_exercises = pd.read_csv(EXERCISES_PATH)
 
 levels = ["A1", "A2", "B1", "B2", "C1", "C2",]
 
+isolation = 'isolation'
+context = 'context'
+synonym = 'synonym'
+antonym = 'antonym'
+
+multiple_choice = 'multiple_choice'
+multiple_choice_native = 'multiple_choice_native'
+multiple_choice_target = 'multiple_choice_target'
+
+word_order = 'word_order'
+prompt = 'prompt'
+
 
 def get_level_from_exercise(unit, exercise, df=df_exercises):
     result = df[(df['unit'] == unit) & (df['exercise'] == exercise)]
@@ -47,30 +59,12 @@ def get_exercises_by_unit_and_level(unit, level, df_level=df_exercises):
     return df_filtered
 
 
-def is_exercise_multiple_choice(unit, exercise):
+def is_exercise_input(unit, exercise):
     df = df_exercises
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'].isin(['multiple_choice_target', 'multiple_choice_native']))
-    ].empty
-
-
-def is_exercise_multiple_choice_native(unit, exercise):
-    df = df_exercises
-    return not df[
-        (df['unit'] == unit) &
-        (df['exercise'] == exercise) &
-        (df['type'] == 'multiple_choice_native')
-    ].empty
-
-
-def is_exercise_multiple_choice_target(unit, exercise):
-    df = df_exercises
-    return not df[
-        (df['unit'] == unit) &
-        (df['exercise'] == exercise) &
-        (df['type'] == 'multiple_choice_target')
+        (df['category'] == 'input')
     ].empty
 
 
@@ -79,17 +73,35 @@ def is_exercise_synonym(unit, exercise):
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'] == 'synonym')
+        (df['subcategory'] == 'synonym')
     ].empty
 
 
-def is_exercise_input(unit, exercise):
+def is_exercise_multiple_choice(unit, exercise):
     df = df_exercises
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'].isin(['input', 'synonym']))
-    ].empty
+        (df['category'] == 'multiple_choice')
+        ].empty
+
+
+def is_exercise_multiple_choice_native(unit, exercise):
+    df = df_exercises
+    return not df[
+        (df['unit'] == unit) &
+        (df['exercise'] == exercise) &
+        (df['subcategory'] == 'multiple_choice_native')
+        ].empty
+
+
+def is_exercise_multiple_choice_target(unit, exercise):
+    df = df_exercises
+    return not df[
+        (df['unit'] == unit) &
+        (df['exercise'] == exercise) &
+        (df['subcategory'] == 'multiple_choice_target')
+        ].empty
 
 
 def is_exercise_word_order(unit, exercise):
@@ -97,7 +109,7 @@ def is_exercise_word_order(unit, exercise):
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'] == 'word_order')
+        (df['category'] == 'word_order')
     ].empty
 
 
@@ -106,7 +118,7 @@ def is_exercise_prompt(unit, exercise):
     return not df[
         (df['unit'] == unit) &
         (df['exercise'] == exercise) &
-        (df['type'] == 'prompt')
+        (df['category'] == 'prompt')
     ].empty
 
 
@@ -153,15 +165,15 @@ def get_multiple_choice_extent(unit, exercise):
     if row.empty:
         return ''
 
-    exercise_type = row["type"].iloc[0]
+    exercise_subcategory = row["subcategory"].iloc[0]
 
-    if exercise_type not in ["multiple_choice_target", "multiple_choice_native"]:
+    if exercise_subcategory not in ["multiple_choice_target", "multiple_choice_native"]:
         return ''
 
     exercises = df[
         (df["unit"] == unit) &
         (df["level"] == level) &
-        (df["type"] == exercise_type)
+        (df["subcategory"] == exercise_subcategory)
     ]["exercise"].tolist()
 
     return exercises
@@ -178,8 +190,15 @@ def does_unit_exercise_exist(unit, exercise, df=df_exercises):
     )
 
 
-def get_type_from_exercise(unit, exercise, df=df_exercises):
+def get_category_from_exercise(unit, exercise, df=df_exercises):
     result = df[(df['unit'] == unit) & (df['exercise'] == exercise)]
     if not result.empty:
-        return result.iloc[0]['type']
+        return result.iloc[0]['category']
+    return "N/A"
+
+
+def get_subcategory_from_exercise(unit, exercise, df=df_exercises):
+    result = df[(df['unit'] == unit) & (df['exercise'] == exercise)]
+    if not result.empty:
+        return result.iloc[0]['subcategory']
     return "N/A"

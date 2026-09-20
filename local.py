@@ -6,6 +6,7 @@ from flask_login import LoginManager
 from flask_migrate import Migrate
 
 from users.users.models import db, User
+from webapp.migration import migrate_incorrect_state
 
 from webapp.routes import routes_bp
 
@@ -46,6 +47,9 @@ app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=30)
 
 with app.app_context():
     db.create_all()
+
+#with app.app_context():
+#    migrate_incorrect_state()
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Default to 8080 if PORT is not set

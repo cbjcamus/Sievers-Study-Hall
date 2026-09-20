@@ -5,19 +5,31 @@ from data.data_processing.units import konnektoren, adverbien, fragen, verben, t
     adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
     praepositionen_adjektive, praepositionen_nomen
 from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column, \
-    is_exercise_multiple_choice_target, is_exercise_multiple_choice_native
+    is_exercise_multiple_choice_target, is_exercise_multiple_choice_native, get_category_from_exercise, \
+    get_subcategory_from_exercise
 from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
-from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT
+from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT, INFORMATION
 
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer, \
     remove_punctuation
 
 
 def get_template(unit, exercise, language, template):
+    subcategory = get_subcategory_from_exercise(unit, exercise)
+    category = get_category_from_exercise(unit, exercise)
+
     if unit in template[language]['exercise'] and exercise in template[language]['exercise'][unit]:
         template = template[language]['exercise'][unit][exercise]
+
+    elif unit in template[language]['subcategory'] and subcategory in template[language]['subcategory'][unit]:
+        template = template[language]['subcategory'][unit][subcategory]
+
+    elif unit in template[language]['category'] and category in template[language]['category'][unit]:
+        template = template[language]['category'][unit][category]
+
     elif unit in template[language]['unit']:
         template = template[language]['unit'][unit]
+
     else:
         template = None
     return template
@@ -26,6 +38,20 @@ def get_template(unit, exercise, language, template):
 def format_description(unit, exercise, language):
     description = get_template(unit, exercise, language, DESCRIPTION)
     return description
+
+
+def format_information_text(unit, exercise, language):
+    text = get_template(unit, exercise, language, INFORMATION)
+    return text
+
+
+def format_information_icon(unit, exercise, language):
+    text = get_template(unit, exercise, language, INFORMATION)
+    if text is None:
+        icon = ""
+    else:
+        icon = 'ⓘ'
+    return icon
 
 
 def format_guidance(unit, exercise, language):
@@ -99,17 +125,17 @@ def format_question(unit, exercise, language, question_id):
     return formatted_question
 
 
-def format_wiktionary_link(input, language):
-    if "," in input:
-        list_ = [item.strip() for item in input.split(",")]
+def format_wiktionary_link(input_string, language):
+    if "," in input_string:
+        list_ = [item.strip() for item in input_string.split(",")]
         list_ = [format_unique_link(item, language) for item in list_]
         return ", ".join(list_)
     else:
-        return format_unique_link(input, language)
+        return format_unique_link(input_string, language)
 
 
-def format_unique_link(input, language):
-    input_link = input.replace("sich ", "")
+def format_unique_link(input_string, language):
+    input_link = input_string.replace("sich ", "")
     input_link = input_link.replace("am ", "")
     input_link = input_link.replace("aufs ", "")
     input_link = input_link.replace("auf das ", "")
@@ -124,7 +150,7 @@ def format_unique_link(input, language):
         return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
 
 
-def format_feedback(unit, exercise, language, question_id, user_answer=None, translation=None, other_errors=None):
+def format_feedback(unit, exercise, language, question_id, user_answer=None, translation=None, commentary=None):
     if question_id is None:
         return None
 
@@ -163,7 +189,7 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
 
-    other_errors = "" if (other_errors == "none" or other_errors is None) else "<br><br>" + other_errors
+    commentary = "" if (commentary == "none" or commentary is None) else "<br><br>" + commentary
 
     feedback_template = get_template(unit, exercise, language, FEEDBACK)
 
@@ -179,7 +205,7 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
         correct_answers_bullet_points=correct_answers_bullet_points,
         user_answer=user_answer,
         translation=translation,
-        other_errors=other_errors,
+        commentary=commentary,
         german=german,
         german_wiktionary=german_wiktionary,
         english=english,

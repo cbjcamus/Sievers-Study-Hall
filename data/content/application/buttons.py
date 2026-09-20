@@ -1,6 +1,6 @@
 HOMEPAGE = {
-    'english': 'Homepage',
-    'french': 'Page d\'Accueil',
+    'english': "Homepage",
+    'french': "Page d'Accueil",
 }
 
 BACK_TO = {
@@ -20,7 +20,7 @@ SUBMIT = {
 
 NEXT_QUESTION = {
     'english': 'Next Question',
-    'french': 'Question Suivante',
+    'french': 'Question suivante',
 }
 
 REFRESH = {
@@ -35,10 +35,10 @@ UNIT_PARTICULARLY_LIKE_BY_USERS = {
 
 NEXT_EXERCISE = {
     'english': 'Next Exercise',
-    'french': 'Exercice Suivant',
+    'french': 'Exercice suivant',
 }
 
 SHOW_OPTIONS = {
     'english': 'Show Options',
-    'french': 'Montrer les Options',
+    'french': 'Montrer les options',
 }

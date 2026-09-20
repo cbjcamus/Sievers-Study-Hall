@@ -1,11 +1,13 @@
 {% macro render_title(title) %}
-    <div style="display: flex; align-items: flex-start; justify-content: space-between; margin: 0px;">
-        <a href="/" style="flex-shrink: 0; margin: 0;">
-            <img src="/webapp/static/logo.png"
+    <div class="title-container">
+        <a href="{{ url_for('routes.home') }}" class="logo-link">
+            <img src="{{ url_for('static', filename='logo.png') }}"
                  alt="Logo"
                  class="logo">
         </a>
-        <h1 style="flex-grow: 1; text-align: center; margin: 0;">{{ title }}</h1>
+
+        <h1 class="page-title">{{ title }}</h1>
+
         <div class="counter_logo"></div>
     </div>
 
@@ -29,21 +31,29 @@
     </div>
 
     <div class="hamburger-container">
-        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <button class="hamburger"
+            onclick="toggleMenu()"
+            aria-label="Menu"
+            aria-haspopup="true"
+            aria-expanded="false">
+            ☰
+        </button>
         <div id="menu" class="menu">
-            <a href="/">Home</a>
+            <a href="{{ url_for('routes.home') }}">Home</a>
 
-            {% if current_user.is_authenticated %}
-                <a href="{{ url_for('routes.progress') }}" class="progress-link">Progress</a>
-                <a href="{{ url_for('routes.bookmarks') }}">Bookmarks</a>
-                <a href="{{ url_for('routes.settings') }}">Settings</a>
-            {% else %}
+            {% if not current_user.is_authenticated %}
                 <a href="{{ url_for('routes.signin') }}">Login</a>
-                <a href="{{ url_for('routes.progress') }}" class="progress-link">Progress</a>
-                <a href="{{ url_for('routes.settings') }}">Settings</a>
             {% endif %}
 
-            <a href="/about">About</a>
+            <a href="{{ url_for('routes.progress') }}" class="progress-link">Progress</a>
+
+            {% if current_user.is_authenticated %}
+                <a href="{{ url_for('routes.bookmarks') }}">Bookmarks</a>
+            {% endif %}
+
+            <a href="{{ url_for('routes.settings') }}">Settings</a>
+
+            <a href="{{ url_for('routes.about') }}">About</a>
         </div>
     </div>
 

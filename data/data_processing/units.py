@@ -32,7 +32,6 @@ praesens = 'praesens'
 imperativ = 'imperativ'
 partizip_II = 'partizip_II'
 praeteritum = 'praeteritum'
-praeteritum_partizip_II = 'praeteritum_partizip_II'
 konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
 partizip_I = 'partizip_I'
@@ -55,3 +54,7 @@ units = [
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 ]
+
+units_without_alpha = units.copy()
+units_without_alpha.remove('alpha')
+

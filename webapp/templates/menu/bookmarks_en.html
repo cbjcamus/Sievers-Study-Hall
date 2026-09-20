@@ -26,7 +26,7 @@
         <li class="bookmark-item">
           <div class="bookmark-meta">
               {{ bm.created_at.strftime("%Y-%m-%d %H:%M") }},
-              {{ title_page[bm.unit] }}, Exercise {{ bm.exercise }}
+              {{ unit_name[bm.unit] }}, Exercise {{ bm.exercise }}
           </div>
 
             {{ render_feedback(

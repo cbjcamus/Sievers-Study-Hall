@@ -1,3 +1,10 @@
+.exercise-page {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
 .exercise-title {
     text-align: center;
     margin-top: -5px;
@@ -16,9 +23,7 @@ h2 {
     max-width: 600px;
     margin: 10px auto;
 
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 5px 15px;
     background-color: #1f2f40;
     border-radius: 12px;
 
@@ -34,15 +39,10 @@ body.day-mode .guidance-container {
 .instruction-container {
     width: 100%;
     max-width: 400px;
-    margin: 10px auto;
-    margin-bottom: -2px;
-    margin-top: -4px;
+    margin: -4px auto -2px;
 
     text-align: center;
 
-    display: block;
-    white-space: normal;
-    word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
@@ -55,7 +55,9 @@ body.day-mode .guidance-container {
 
     padding: 1px 5px;
     background-color: #1f2f40;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 
     box-sizing: border-box;
 }
@@ -69,64 +71,86 @@ body.day-mode .exercise-container {
 .question-container {
     width: 100%;
     max-width: 400px;
-    margin: 0px auto;
+    margin: 0 auto;
     text-align: center;
 
-    display: block;
-    white-space: normal;
-    word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
 
-.input-box {
+.input-box,
+.readonly-input,
+.prompt-box,
+.readonly-prompt {
     margin: 3px;
-    margin-bottom: 0px;
     padding: 10px;
     font: inherit;
     border-radius: 5px;
     border: 1px solid white;
-    background-color: #1E2A30;
     color: white;
     width: 80%;
+}
+
+.input-box {
+    margin-bottom: 0;
+    background-color: #1E2A30;
     max-width: 300px;
     text-align: center;
 }
 
-body.day-mode .input-box {
+body.day-mode .input-box,
+body.day-mode .prompt-box {
     color: black;
     border: 2px solid black;
     background-color: white;
 }
 
-body.day-mode .input-box:focus {
-    outline: none;
-    border: 2px solid black;
-}
-
 .readonly-input {
-    margin: 3px;
     margin-bottom: 4px;
-    padding: 10px;
-    font: inherit;
-    border-radius: 5px;
-    border: 1px solid white;
     background-color: #5e5e5e;
-    color: white;
-    width: 80%;
     max-width: 300px;
     text-align: center;
 }
 
-body.day-mode .readonly-input {
+body.day-mode .readonly-input,
+body.day-mode .readonly-prompt {
     color: black;
     border: 2px solid black;
     background-color: #e0e0e0;
 }
 
-body.day-mode .readonly-input:focus {
+.prompt-box {
+    margin-bottom: 0;
+    background-color: #1E2A30;
+    max-width: 600px;
+    min-height: 100px;
+    text-align: left;
+    resize: both;
+    box-sizing: border-box;
+}
+
+.readonly-prompt {
+    margin-bottom: 0;
+    background-color: #5e5e5e;
+    max-width: 600px;
+    min-height: 100px;
+    text-align: left;
+}
+
+
+body.day-mode .input-box:focus,
+body.day-mode .readonly-input:focus,
+body.day-mode .prompt-box:focus,
+body.day-mode .readonly-prompt:focus {
     outline: none;
     border: 2px solid black;
+}
+
+.special-chars {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
 }
 
 .special-chars button {
@@ -134,9 +158,6 @@ body.day-mode .readonly-input:focus {
     color: #131b22;
     border: none;
     padding: 3px 10px;
-    margin: 2px;
-    margin-top: -2px;
-    margin-bottom: -2px;
     font: inherit;
     cursor: pointer;
     border-radius: 5px;
@@ -185,7 +206,7 @@ body.day-mode .submit-button {
     border-radius: 5px;
     width: 250px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 15px;
     text-decoration: none;
 }
@@ -227,7 +248,7 @@ body.day-mode .word-order-line {
     width: 100%;
     max-width: 350px;
     margin: 20px auto;
-    padding: 0px 0;
+    padding: 0;
 
     display: flex;
     flex-wrap: wrap;
@@ -244,7 +265,7 @@ body.day-mode .word-order-line {
     border: none;
 
     padding: 7.5px 10px;
-    margin: 0;           /* important: remove old margins */
+    margin: 0;
 
     font: inherit;
     cursor: pointer;
@@ -258,14 +279,14 @@ body.day-mode .word-order-word {
 }
 
 .word-order-submit-button {
-    margin-top: 0px;
+    margin-top: 0;
     width: 150px;
 }
 
 .next-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -298,7 +319,7 @@ body.day-mode .next-question-button {
     background-color: white;
     color: #131b22;
     border: none;
-    padding: 5px 5px;
+    padding: 5px;
     margin: 2px;
     font: inherit;
     cursor: pointer;
@@ -340,6 +361,7 @@ body.day-mode .gender-tooltip {
     position: absolute;
     bottom: 12px;
     left: 14px;
+    z-index: 50;
 }
 
 .guidance-help-button {
@@ -365,11 +387,10 @@ body.day-mode .guidance-help-button:hover {
     background-color: white;
 }
 
-/* Overlay “page on top” */
 .guidance-overlay {
     position: fixed;
     inset: 0;
-    display: none !important;     /* default hidden */
+    display: none !important;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.45);
@@ -377,10 +398,9 @@ body.day-mode .guidance-help-button:hover {
 }
 
 .guidance-overlay.is-open {
-    display: flex !important;     /* shown only when open */
+    display: flex !important;
 }
 
-/* Modal card */
 .guidance-modal {
     width: min(600px, calc(100vw - 40px));
     max-height: calc(100vh - 60px);
@@ -403,7 +423,7 @@ body.day-mode .guidance-modal {
     align-items: center;
     justify-content: space-between;
     gap: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .guidance-close {
@@ -431,11 +451,11 @@ body.day-mode .guidance-modal {
 }
 
 .question-count {
-    margin-top: 0px;
+    margin-top: 0;
     color: #ddd;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the entire line */
+    justify-content: center;
     gap: 5px;
 }
 
@@ -465,66 +485,59 @@ body.day-mode .refresh-button {
     color: #ccc;
 }
 
-.feedback-correct-container {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-
-    background-color: #1F311C;
-    padding: 1px 5px;
-    border-radius: 12px;
-
-    margin: 15px auto;
-    margin-bottom: 10px;
-    text-align: center;
-
-    display: block;
-    white-space: normal;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    box-sizing: border-box;
-}
-
-body.day-mode .feedback-correct-container {
-    background-color: #deedfa;
-    color: black;
-    border: 2px solid green;
-}
-
+.feedback-correct-container,
 .feedback-incorrect-container {
     position: relative;
     width: 100%;
     max-width: 400px;
 
-    background-color: #3A1E1E;
     padding: 1px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 
-    margin: 15px auto;
-    margin-bottom: 10px;
+    margin: 15px auto 10px;
     text-align: center;
 
-    display: block;
-    white-space: normal;
-    word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
 
+.feedback-correct-container {
+    background-color: #1F311C;
+}
+
+.feedback-incorrect-container {
+    background-color: #3A1E1E;
+}
+
+body.day-mode .feedback-correct-container,
 body.day-mode .feedback-incorrect-container {
     background-color: #deedfa;
     color: black;
-    border: 2px solid red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+body.day-mode .feedback-correct-container {
+    border-color: green;
+}
+
+body.day-mode .feedback-incorrect-container {
+    border-color: red;
+}
+
+.correct,
+.incorrect {
+    font-weight: bold;
 }
 
 .correct {
     color: green;
-    font-weight: bold;
 }
 
 .incorrect {
     color: red;
-    font-weight: bold;
 }
 
 .feedback-message {
@@ -540,8 +553,8 @@ body.day-mode .feedback-incorrect-container {
 .flag-form {
     position: absolute;
 
-    right: 0px;   /* pushes it left of the flag */
-    top: -70px;    /* moves it upward */
+    right: 0;
+    top: -70px;
 
     display: flex;
     align-items: flex-end;
@@ -552,12 +565,12 @@ body.day-mode .feedback-incorrect-container {
     position: absolute;
     top: 13px;
     right: 15px;
-    z-index: 10;
+    z-index: 99;
 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 0px;
+    gap: 0;
 }
 
 .flag-button {
@@ -584,7 +597,22 @@ body.day-mode .flag-button {
     border-radius: 5px;
     border: none;
     box-sizing: border-box;
-    font-family: inherit;}
+}
+
+@media (max-width: 768px) {
+    .flag-form {
+        right: -5px;
+        gap: 5px;
+    }
+
+    .flag-form textarea {
+        width: 200px;
+    }
+
+    .flag-form button {
+        padding: 5px 8px;
+    }
+}
 
 .hidden {
     display: none;
@@ -641,7 +669,7 @@ body.day-mode .flag-form button {
 }
 
 .bookmark-list .bookmark-item {
-    margin-bottom: 2rem;  /* adjust as you like */
+    margin-bottom: 2rem;
 }
 
 .flash-messages {
@@ -673,18 +701,16 @@ body.day-mode .flash-message.info {
     width: 100%;
     max-width: 400px;
 
-    margin: 15px auto; /* Centers the container itself */
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px auto;
     padding: 1px 5px;
 
-    background-color: #332116; /* #2a1c31 */
+    background-color: #332116;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+
     text-align: center;
 
-    display: block;
-    white-space: normal;
-    word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
@@ -699,16 +725,14 @@ body.day-mode .proverb-container {
     background-color: white;
     color: #161F23;
     border: none;
-    padding: 10px 20px; /* Increased padding for better spacing */
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
     margin-top: 10px;
-    width: auto; /* Dynamic width */
-    min-width: 200px; /* Ensures "Adjektivdeklinationen" fits on one line */
-    max-width: 300px; /* Prevents it from being too wide */
-    word-wrap: break-word; /* Allows multi-line if necessary */
-    white-space: normal; /* Enables wrapping */
+    width: auto;
+    min-width: 200px;
+    max-width: 300px;
     text-decoration: none;
 
     font: inherit;
@@ -728,23 +752,24 @@ body.day-mode .back-button {
     display: flex;
     justify-content: center;
     margin-top: auto;
+    padding-top: 20px;
 }
 
 .next-exercise-button {
     background-color: white;
     color: #161F23;
     border: none;
-    padding: 10px 20px; /* Increased padding for better spacing */
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
     margin-top: 10px;
-    width: auto; /* Dynamic width */
+    width: auto;
     min-width: 150px;
-    max-width: 300px; /* Prevents it from being too wide */
-    word-wrap: break-word; /* Allows multi-line if necessary */
-    white-space: normal; /* Enables wrapping */
+    max-width: 300px;
     text-decoration: none;
+
+    font: inherit;
 }
 
 body.day-mode .next-exercise-button {
@@ -757,18 +782,10 @@ body.day-mode .next-exercise-button {
     background-color: #ccc;
 }
 
-.next-exercise-button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    padding-bottom: 10px;
-}
-
+.next-exercise-button-container,
 .signup-button-container {
     display: flex;
     justify-content: center;
-    margin-top: auto;
-    padding-bottom: 5px;
 }
 
 .popup-overlay {
@@ -813,60 +830,21 @@ body.day-mode .next-exercise-button {
     line-height: 1.35;
 }
 
-.prompt-box {
-    margin: 3px;
-    margin-bottom: 0px;
-    padding: 10px;
-    font: inherit;
-    border-radius: 5px;
-    border: 1px solid white;
-    background-color: #1E2A30;
-    color: white;
-
-    width: 80%;
-    max-width: 600px;
-    min-height: 100px;
-
-    text-align: left;
-    resize: both;
-    box-sizing: border-box;
+.completion-summary {
+    margin-bottom: 16px;
 }
 
-body.day-mode .prompt-box {
-    color: black;
-    border: 2px solid black;
-    background-color: white;
+.completion-summary p {
+    margin: 8px 0;
 }
 
-body.day-mode .prompt-box:focus {
-    outline: none;
-    border: 2px solid black;
+.completion-section {
+    margin-bottom: 16px;
 }
 
-.readonly-prompt {
-    margin: 3px;
-    margin-bottom: 0px;
-    padding: 10px;
-    font: inherit;
-    border-radius: 5px;
-    border: 1px solid white;
-    background-color: #5e5e5e;
-    color: white;
-
-    width: 80%;
-    max-width: 600px;
-    min-height: 100px;
-
-    text-align: left;
-}
-
-body.day-mode .readonly-prompt {
-    color: black;
-    border: 2px solid black;
-    background-color: #e0e0e0;
-}
-
-body.day-mode .readonly-prompt:focus {
-    outline: none;
-    border: 2px solid black;
+.completion-refresh-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
