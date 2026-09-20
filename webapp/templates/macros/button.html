@@ -7,7 +7,7 @@
     ></button>
 {% endmacro %}
 
-{% macro display_back_button(unit_url_path, level_exercise, back_to, unit_name) %}
+{% macro display_back_button(unit_url_path, level_exercise, back_to, unit, unit_name) %}
     <div class="back-button-container">
         <a href="{{ unit_url_path.get(unit, '/') }}#{{ level_exercise }}" class="back-button">
             {{ back_to }} {{ unit_name }} ↩

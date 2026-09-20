@@ -7,7 +7,7 @@
     {{ header() }}
 
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/exercise.css', v='2026-09-19-1') }}">
+          href="{{ url_for('static', filename='css/exercise.css', v='2026-09-20-1') }}">
 </head>
 
 {% from "macros/render_title.html" import render_title with context %}
@@ -120,7 +120,7 @@
         </form>
     </div>
 
-    {{ display_back_button(unit_url_path, level_exercise, back_to, unit_name) }}
+    {{ display_back_button(unit_url_path, level_exercise, back_to, unit, unit_name) }}
 
     <script src="{{ url_for('static', filename='js/exercise/enterNextExerciseButton.js') }}" defer></script>
 
