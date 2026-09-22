@@ -1,3 +1,4 @@
+from data.data_processing.exercises import isolation, context, synonym
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -29,6 +30,33 @@ DESCRIPTION_UNIT_FR = {
 }
 
 DESCRIPTION_SUBCATEGORY_FR = {
+    praepositionen_verben: {
+        isolation: "Paires verbe-préposition, en isolation",
+        context: "Paires verbe-préposition, en contexte",
+    },
+
+    praepositionen_adjektive: {
+        isolation: "Paires adjectif-préposition, en isolation",
+        context: "Paires adjectif-préposition, en contexte",
+    },
+
+    praepositionen_nomen: {
+        isolation: "Paires nom-préposition, en isolation",
+        context: "Paires nom-préposition, en contexte",
+    },
+
+    adjektive: {
+        isolation: "Adjectifs de niveau A1, en isolation",
+        synonym: "Synonymes d'adjectifs, en isolation",
+    },
+
+    praesens: {
+        isolation: "Présent de l'indicatif, en isolation",
+    },
+
+    imperativ: {
+        isolation: "Impératif, en isolation",
+    },
 
 }
 
@@ -77,120 +105,6 @@ DESCRIPTION_EXERCISE_FR = {
         32: "Prépositions de niveau C2, en contexte",
         33: "Postpositions, en isolation",
         34: "Postpositions, en contexte",
-    },
-
-    praepositionen_verben: {
-        1: "Paires verbe-préposition de niveau A1, en isolation",
-        2: "Paires verbe-préposition de niveau A1, en contexte",
-        3: "Paires verbe-préposition de niveau A1, en isolation",
-        4: "Paires verbe-préposition de niveau A1, en contexte",
-
-        5: "Paires verbe-préposition de niveau A2, en isolation",
-        6: "Paires verbe-préposition de niveau A2, en contexte",
-        7: "Paires verbe-préposition de niveau A2, en isolation",
-        8: "Paires verbe-préposition de niveau A2, en contexte",
-
-        9: "Paires verbe-préposition de niveau B1, en isolation",
-        10: "Paires verbe-préposition de niveau B1, en contexte",
-        11: "Paires verbe-préposition de niveau B1, en isolation",
-        12: "Paires verbe-préposition de niveau B1, en contexte",
-        13: "Paires verbe-préposition de niveau B1, en isolation",
-        14: "Paires verbe-préposition de niveau B1, en contexte",
-        15: "Paires verbe-préposition de niveau B1, en isolation",
-        16: "Paires verbe-préposition de niveau B1, en contexte",
-
-        17: "Paires verbe-préposition de niveau B2, en isolation",
-        18: "Paires verbe-préposition de niveau B2, en contexte",
-        19: "Paires verbe-préposition de niveau B2, en isolation",
-        20: "Paires verbe-préposition de niveau B2, en contexte",
-        21: "Paires verbe-préposition de niveau B2, en isolation",
-        22: "Paires verbe-préposition de niveau B2, en contexte",
-        23: "Paires verbe-préposition de niveau B2, en isolation",
-        24: "Paires verbe-préposition de niveau B2, en contexte",
-        25: "Paires verbe-préposition de niveau B2, en isolation",
-        26: "Paires verbe-préposition de niveau B2, en contexte",
-
-        27: "Paires verbe-préposition de niveau C1, en isolation",
-        28: "Paires verbe-préposition de niveau C1, en contexte",
-        29: "Paires verbe-préposition de niveau C1, en isolation",
-        30: "Paires verbe-préposition de niveau C1, en contexte",
-        31: "Paires verbe-préposition de niveau C1, en isolation",
-        32: "Paires verbe-préposition de niveau C1, en contexte",
-        33: "Paires verbe-préposition de niveau C1, en isolation",
-        34: "Paires verbe-préposition de niveau C1, en contexte",
-        35: "Paires verbe-préposition de niveau C1, en isolation",
-        36: "Paires verbe-préposition de niveau C1, en contexte",
-
-        37: "Paires verbe-préposition de niveau C2, en isolation",
-        38: "Paires verbe-préposition de niveau C2, en contexte",
-        39: "Paires verbe-préposition de niveau C2, en isolation",
-        40: "Paires verbe-préposition de niveau C2, en contexte",
-        41: "Paires verbe-préposition de niveau C2, en isolation",
-        42: "Paires verbe-préposition de niveau C2, en contexte",
-    },
-
-    praepositionen_adjektive: {
-        1: "Paires adjectif-préposition jusqu'au niveau B1, en isolation",
-        2: "Paires adjectif-préposition jusqu'au niveau B1, en contexte",
-        3: "Paires adjectif-préposition jusqu'au niveau B1, en isolation",
-        4: "Paires adjectif-préposition jusqu'au niveau B1, en contexte",
-
-        5: "Paires adjectif-préposition de niveau B2, en isolation",
-        6: "Paires adjectif-préposition de niveau B2, en contexte",
-        7: "Paires adjectif-préposition de niveau B2, en isolation",
-        8: "Paires adjectif-préposition de niveau B2, en contexte",
-        9: "Paires adjectif-préposition de niveau B2, en isolation",
-        10: "Paires adjectif-préposition de niveau B2, en contexte",
-
-        11: "Paires adjectif-préposition de niveau C1, en isolation",
-        12: "Paires adjectif-préposition de niveau C1, en contexte",
-        13: "Paires adjectif-préposition de niveau C1, en isolation",
-        14: "Paires adjectif-préposition de niveau C1, en contexte",
-        15: "Paires adjectif-préposition de niveau C1, en isolation",
-        16: "Paires adjectif-préposition de niveau C1, en contexte",
-
-        17: "Paires adjectif-préposition de niveau C2, en isolation",
-        18: "Paires adjectif-préposition de niveau C2, en contexte",
-        19: "Paires adjectif-préposition de niveau C2, en isolation",
-        20: "Paires adjectif-préposition de niveau C2, en contexte",
-        21: "Paires adjectif-préposition de niveau C2, en isolation",
-        22: "Paires adjectif-préposition de niveau C2, en contexte",
-    },
-
-    praepositionen_nomen: {
-        1: "Paires nom-préposition jusqu'au niveau B1, en isolation",
-        2: "Paires nom-préposition jusqu'au niveau B1, en contexte",
-        3: "Paires nom-préposition jusqu'au niveau B1, en isolation",
-        4: "Paires nom-préposition jusqu'au niveau B1, en contexte",
-
-        5: "Paires nom-préposition de niveau B2, en isolation",
-        6: "Paires nom-préposition de niveau B2, en contexte",
-        7: "Paires nom-préposition de niveau B2, en isolation",
-        8: "Paires nom-préposition de niveau B2, en contexte",
-        9: "Paires nom-préposition de niveau B2, en isolation",
-        10: "Paires nom-préposition de niveau B2, en contexte",
-        11: "Paires nom-préposition de niveau B2, en isolation",
-        12: "Paires nom-préposition de niveau B2, en contexte",
-
-        13: "Paires nom-préposition de niveau C1, en isolation",
-        14: "Paires nom-préposition de niveau C1, en contexte",
-        15: "Paires nom-préposition de niveau C1, en isolation",
-        16: "Paires nom-préposition de niveau C1, en contexte",
-        17: "Paires nom-préposition de niveau C1, en isolation",
-        18: "Paires nom-préposition de niveau C1, en contexte",
-        19: "Paires nom-préposition de niveau C1, en isolation",
-        20: "Paires nom-préposition de niveau C1, en contexte",
-        21: "Paires nom-préposition de niveau C1, en isolation",
-        22: "Paires nom-préposition de niveau C1, en contexte",
-        23: "Paires nom-préposition de niveau C1, en isolation",
-        24: "Paires nom-préposition de niveau C1, en contexte",
-        25: "Paires nom-préposition de niveau C1, en isolation",
-        26: "Paires nom-préposition de niveau C1, en contexte",
-        27: "Paires nom-préposition de niveau C1, en isolation",
-        28: "Paires nom-préposition de niveau C1, en contexte",
-
-        29: "Paires nom-préposition de niveau C1, en isolation",
-        30: "Paires nom-préposition de niveau C1, en contexte",
     },
 
     pronominaladverbien: {
@@ -351,20 +265,6 @@ DESCRIPTION_EXERCISE_FR = {
         34: "Articles et pronoms à la suite de paires nom-préposition, en contexte",
         35: "Articles et pronoms à la suite de paires nom-préposition, en contexte",
         36: "Articles et pronoms à la suite de paires nom-préposition, en contexte",
-    },
-
-    verben_artikel: {
-        1: "Articles et pronoms à la suite de verbes, en contexte",
-        2: "Articles et pronoms à la suite de verbes, en contexte",
-        3: "Articles et pronoms à la suite de verbes, en contexte",
-
-        4: "Articles et pronoms à la suite de verbes, en contexte",
-        5: "Articles et pronoms à la suite de verbes, en contexte",
-        6: "Articles et pronoms à la suite de verbes, en contexte",
-
-        7: "Articles et pronoms à la suite de verbes, en contexte",
-        8: "Articles et pronoms à la suite de verbes, en contexte",
-        9: "Articles et pronoms à la suite de verbes, en contexte",
     },
 
     konnektoren: {
@@ -615,36 +515,6 @@ DESCRIPTION_EXERCISE_FR = {
         76: "3 verbes: verbes Modaux au Futur",
         77: "3 verbes: Futur Composé (Futur II)",
         78: "3 verbes: verbes Modaux utilisés pour exprimer une supposition au passé composé",
-    },
-
-    adjektive: {
-        1: "Adjectifs de niveau A1, en isolation",
-        2: "Adjectifs de niveau A1, en isolation",
-        3: "Adjectifs de niveau A1, en isolation",
-
-        4: "Adjectifs de niveau A2, en isolation",
-        5: "Adjectifs de niveau A2, en isolation",
-        6: "Adjectifs de niveau A2, en isolation",
-
-        7: "Adjectifs de niveau B1, en isolation",
-        8: "Adjectifs de niveau B1, en isolation",
-        9: "Adjectifs de niveau B1, en isolation",
-        10: "Adjectifs de niveau B1, en isolation",
-        11: "Adjectifs de niveau B1, en isolation",
-        12: "Synonymes d'adjectifs, en isolation",
-
-        13: "Adjectifs de niveau B2, en isolation",
-        14: "Adjectifs de niveau B2, en isolation",
-        15: "Adjectifs de niveau B2, en isolation",
-        16: "Adjectifs de niveau B2, en isolation",
-        17: "Adjectifs de niveau B2, en isolation",
-        18: "Adjectifs de niveau B2, en isolation",
-        19: "Adjectifs de niveau B2, en isolation",
-        20: "Adjectifs de niveau B2, en isolation",
-        21: "Adjectifs de niveau B2, en isolation",
-        22: "Synonymes d'adjectifs, en isolation",
-        23: "Synonymes d'adjectifs, en isolation",
-        24: "Synonymes d'adjectifs, en isolation",
     },
 
     komparativ_superlativ: {
@@ -985,51 +855,6 @@ DESCRIPTION_EXERCISE_FR = {
         32: "Combinaisons nom-verbe de niveau C1 sans le verbe, en contexte",
     },
 
-    praesens: {
-        1: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        2: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        3: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        4: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        5: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        6: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        7: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        8: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        9: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        10: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        11: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        12: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        13: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        14: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        15: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-        16: "Présent de l'indicatif de verbes de niveau A1, en isolation",
-
-        17: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        18: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        19: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        20: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        21: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        22: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        23: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        24: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        25: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        26: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        27: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        28: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        29: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        30: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        31: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-        32: "Présent de l'indicatif de verbes de niveau A2, en isolation",
-
-        33: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        34: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        35: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        36: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        37: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        38: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        39: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-        40: "Présent de l'indicatif de verbes de niveau B1, en isolation",
-    },
-
     partizip_II: {
         1: "Participe passé (Partizip II) de verbes irréguliers de niveau A1",
         2: "Participe passé (Partizip II) de verbes irréguliers de niveau A1",
@@ -1195,22 +1020,6 @@ DESCRIPTION_EXERCISE_FR = {
         75: "Préterit (Präteritum) (3<sup>rd</sup> personne du singulier) de verbes de niveau C1",
         76: "Préterit (Präteritum) (3<sup>rd</sup> personne du singulier) de verbes de niveau C1",
         77: "Préterit (Präteritum) (3<sup>rd</sup> personne du singulier) de verbes de niveau C1",
-    },
-
-    imperativ: {
-        1: "Impératif de verbes de niveau A1",
-        2: "Impératif de verbes de niveau A1",
-        3: "Impératif de verbes de niveau A1",
-        4: "Impératif de verbes de niveau A1",
-        5: "Impératif de verbes de niveau A1",
-        6: "Impératif de verbes de niveau A1",
-
-        7: "Impératif de verbes de niveau A2",
-        8: "Impératif de verbes de niveau A2",
-        9: "Impératif de verbes de niveau A2",
-        10: "Impératif de verbes de niveau A2",
-        11: "Impératif de verbes de niveau A2",
-        12: "Impératif de verbes de niveau A2",
     },
 
     adjektive_verben_wortstaemme: {
@@ -1425,3 +1234,210 @@ DESCRIPTION_EXERCISE_FR = {
         24: "Formes génitives des nombres, en contexte",
     },
 }
+
+'''
+    praepositionen_verben: {
+        1: "Paires verbe-préposition de niveau A1, en isolation",
+        2: "Paires verbe-préposition de niveau A1, en contexte",
+        3: "Paires verbe-préposition de niveau A1, en isolation",
+        4: "Paires verbe-préposition de niveau A1, en contexte",
+
+        5: "Paires verbe-préposition de niveau A2, en isolation",
+        6: "Paires verbe-préposition de niveau A2, en contexte",
+        7: "Paires verbe-préposition de niveau A2, en isolation",
+        8: "Paires verbe-préposition de niveau A2, en contexte",
+
+        9: "Paires verbe-préposition de niveau B1, en isolation",
+        10: "Paires verbe-préposition de niveau B1, en contexte",
+        11: "Paires verbe-préposition de niveau B1, en isolation",
+        12: "Paires verbe-préposition de niveau B1, en contexte",
+        13: "Paires verbe-préposition de niveau B1, en isolation",
+        14: "Paires verbe-préposition de niveau B1, en contexte",
+        15: "Paires verbe-préposition de niveau B1, en isolation",
+        16: "Paires verbe-préposition de niveau B1, en contexte",
+
+        17: "Paires verbe-préposition de niveau B2, en isolation",
+        18: "Paires verbe-préposition de niveau B2, en contexte",
+        19: "Paires verbe-préposition de niveau B2, en isolation",
+        20: "Paires verbe-préposition de niveau B2, en contexte",
+        21: "Paires verbe-préposition de niveau B2, en isolation",
+        22: "Paires verbe-préposition de niveau B2, en contexte",
+        23: "Paires verbe-préposition de niveau B2, en isolation",
+        24: "Paires verbe-préposition de niveau B2, en contexte",
+        25: "Paires verbe-préposition de niveau B2, en isolation",
+        26: "Paires verbe-préposition de niveau B2, en contexte",
+
+        27: "Paires verbe-préposition de niveau C1, en isolation",
+        28: "Paires verbe-préposition de niveau C1, en contexte",
+        29: "Paires verbe-préposition de niveau C1, en isolation",
+        30: "Paires verbe-préposition de niveau C1, en contexte",
+        31: "Paires verbe-préposition de niveau C1, en isolation",
+        32: "Paires verbe-préposition de niveau C1, en contexte",
+        33: "Paires verbe-préposition de niveau C1, en isolation",
+        34: "Paires verbe-préposition de niveau C1, en contexte",
+        35: "Paires verbe-préposition de niveau C1, en isolation",
+        36: "Paires verbe-préposition de niveau C1, en contexte",
+
+        37: "Paires verbe-préposition de niveau C2, en isolation",
+        38: "Paires verbe-préposition de niveau C2, en contexte",
+        39: "Paires verbe-préposition de niveau C2, en isolation",
+        40: "Paires verbe-préposition de niveau C2, en contexte",
+        41: "Paires verbe-préposition de niveau C2, en isolation",
+        42: "Paires verbe-préposition de niveau C2, en contexte",
+    },
+
+    praepositionen_adjektive: {
+        1: "Paires adjectif-préposition jusqu'au niveau B1, en isolation",
+        2: "Paires adjectif-préposition jusqu'au niveau B1, en contexte",
+        3: "Paires adjectif-préposition jusqu'au niveau B1, en isolation",
+        4: "Paires adjectif-préposition jusqu'au niveau B1, en contexte",
+
+        5: "Paires adjectif-préposition de niveau B2, en isolation",
+        6: "Paires adjectif-préposition de niveau B2, en contexte",
+        7: "Paires adjectif-préposition de niveau B2, en isolation",
+        8: "Paires adjectif-préposition de niveau B2, en contexte",
+        9: "Paires adjectif-préposition de niveau B2, en isolation",
+        10: "Paires adjectif-préposition de niveau B2, en contexte",
+
+        11: "Paires adjectif-préposition de niveau C1, en isolation",
+        12: "Paires adjectif-préposition de niveau C1, en contexte",
+        13: "Paires adjectif-préposition de niveau C1, en isolation",
+        14: "Paires adjectif-préposition de niveau C1, en contexte",
+        15: "Paires adjectif-préposition de niveau C1, en isolation",
+        16: "Paires adjectif-préposition de niveau C1, en contexte",
+
+        17: "Paires adjectif-préposition de niveau C2, en isolation",
+        18: "Paires adjectif-préposition de niveau C2, en contexte",
+        19: "Paires adjectif-préposition de niveau C2, en isolation",
+        20: "Paires adjectif-préposition de niveau C2, en contexte",
+        21: "Paires adjectif-préposition de niveau C2, en isolation",
+        22: "Paires adjectif-préposition de niveau C2, en contexte",
+    },
+
+    praepositionen_nomen: {
+        1: "Paires nom-préposition jusqu'au niveau B1, en isolation",
+        2: "Paires nom-préposition jusqu'au niveau B1, en contexte",
+        3: "Paires nom-préposition jusqu'au niveau B1, en isolation",
+        4: "Paires nom-préposition jusqu'au niveau B1, en contexte",
+
+        5: "Paires nom-préposition de niveau B2, en isolation",
+        6: "Paires nom-préposition de niveau B2, en contexte",
+        7: "Paires nom-préposition de niveau B2, en isolation",
+        8: "Paires nom-préposition de niveau B2, en contexte",
+        9: "Paires nom-préposition de niveau B2, en isolation",
+        10: "Paires nom-préposition de niveau B2, en contexte",
+        11: "Paires nom-préposition de niveau B2, en isolation",
+        12: "Paires nom-préposition de niveau B2, en contexte",
+
+        13: "Paires nom-préposition de niveau C1, en isolation",
+        14: "Paires nom-préposition de niveau C1, en contexte",
+        15: "Paires nom-préposition de niveau C1, en isolation",
+        16: "Paires nom-préposition de niveau C1, en contexte",
+        17: "Paires nom-préposition de niveau C1, en isolation",
+        18: "Paires nom-préposition de niveau C1, en contexte",
+        19: "Paires nom-préposition de niveau C1, en isolation",
+        20: "Paires nom-préposition de niveau C1, en contexte",
+        21: "Paires nom-préposition de niveau C1, en isolation",
+        22: "Paires nom-préposition de niveau C1, en contexte",
+        23: "Paires nom-préposition de niveau C1, en isolation",
+        24: "Paires nom-préposition de niveau C1, en contexte",
+        25: "Paires nom-préposition de niveau C1, en isolation",
+        26: "Paires nom-préposition de niveau C1, en contexte",
+        27: "Paires nom-préposition de niveau C1, en isolation",
+        28: "Paires nom-préposition de niveau C1, en contexte",
+
+        29: "Paires nom-préposition de niveau C1, en isolation",
+        30: "Paires nom-préposition de niveau C1, en contexte",
+    },
+    
+        adjektive: {
+        1: "Adjectifs de niveau A1, en isolation",
+        2: "Adjectifs de niveau A1, en isolation",
+        3: "Adjectifs de niveau A1, en isolation",
+
+        4: "Adjectifs de niveau A2, en isolation",
+        5: "Adjectifs de niveau A2, en isolation",
+        6: "Adjectifs de niveau A2, en isolation",
+
+        7: "Adjectifs de niveau B1, en isolation",
+        8: "Adjectifs de niveau B1, en isolation",
+        9: "Adjectifs de niveau B1, en isolation",
+        10: "Adjectifs de niveau B1, en isolation",
+        11: "Adjectifs de niveau B1, en isolation",
+        12: "Synonymes d'adjectifs, en isolation",
+
+        13: "Adjectifs de niveau B2, en isolation",
+        14: "Adjectifs de niveau B2, en isolation",
+        15: "Adjectifs de niveau B2, en isolation",
+        16: "Adjectifs de niveau B2, en isolation",
+        17: "Adjectifs de niveau B2, en isolation",
+        18: "Adjectifs de niveau B2, en isolation",
+        19: "Adjectifs de niveau B2, en isolation",
+        20: "Adjectifs de niveau B2, en isolation",
+        21: "Adjectifs de niveau B2, en isolation",
+        22: "Synonymes d'adjectifs, en isolation",
+        23: "Synonymes d'adjectifs, en isolation",
+        24: "Synonymes d'adjectifs, en isolation",
+    },
+    
+        praesens: {
+        1: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        2: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        3: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        4: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        5: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        6: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        7: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        8: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        9: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        10: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        11: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        12: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        13: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        14: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        15: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+        16: "Présent de l'indicatif de verbes de niveau A1, en isolation",
+
+        17: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        18: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        19: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        20: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        21: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        22: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        23: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        24: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        25: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        26: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        27: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        28: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        29: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        30: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        31: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+        32: "Présent de l'indicatif de verbes de niveau A2, en isolation",
+
+        33: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        34: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        35: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        36: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        37: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        38: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        39: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+        40: "Présent de l'indicatif de verbes de niveau B1, en isolation",
+    },
+    
+        imperativ: {
+        1: "Impératif de verbes de niveau A1",
+        2: "Impératif de verbes de niveau A1",
+        3: "Impératif de verbes de niveau A1",
+        4: "Impératif de verbes de niveau A1",
+        5: "Impératif de verbes de niveau A1",
+        6: "Impératif de verbes de niveau A1",
+
+        7: "Impératif de verbes de niveau A2",
+        8: "Impératif de verbes de niveau A2",
+        9: "Impératif de verbes de niveau A2",
+        10: "Impératif de verbes de niveau A2",
+        11: "Impératif de verbes de niveau A2",
+        12: "Impératif de verbes de niveau A2",
+    },
+'''

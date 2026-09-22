@@ -25,6 +25,7 @@ h2 {
 
     padding: 5px 15px;
     background-color: #1f2f40;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 12px;
 
     box-sizing: border-box;
@@ -847,4 +848,27 @@ body.day-mode .next-exercise-button {
     justify-content: center;
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+.signup-prompt-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 12px 15px 15px;
+    background-color: #1f2f40;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.signup-prompt-container p {
+    margin: 5px 0 15px;
+}
+
+body.day-mode .signup-prompt-container {
+    background-color: #deedfa;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }

@@ -145,9 +145,9 @@ def format_unique_link(input_string, language):
     input_link = remove_punctuation(input_link)
 
     if language == 'english':
-        return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
+        return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input_link}</a>'
     else:
-        return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#German" target="_blank">{input}</a>'
+        return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#German" target="_blank">{input_link}</a>'
 
 
 def format_feedback(unit, exercise, language, question_id, user_answer=None, translation=None, commentary=None):
@@ -167,6 +167,9 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
     previous_question_wiktionary = format_wiktionary_link(question_text, language)
     german = question_data.get("german", "")
     german_wiktionary = format_wiktionary_link(german, language)
+
+    print(german)
+    print(german_wiktionary)
     english = question_data.get("english", "")
     french = question_data.get("french", "")
     gender_english = question_data.get("gender_english", "")

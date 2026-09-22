@@ -13,6 +13,7 @@
 
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/render_feedback.html" import render_feedback %}
+{% from "macros/button.html" import display_homepage_button %}
 
     {{ render_title("Bookmarks") }}
 
@@ -58,6 +59,8 @@
 {% endblock %}
 
     <script src="{{ url_for('static', filename='js/exercise/flags.js') }}" defer></script>
+
+    {{ display_homepage_button(homepage) }}
 
 </body>
 </html>

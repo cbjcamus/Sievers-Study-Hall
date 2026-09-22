@@ -10,6 +10,7 @@
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
 {% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
 
     {{ render_title("About") }}
 
@@ -51,6 +52,8 @@
         <p>German proverbs come from <a href="https://en.wikiquote.org/wiki/German_proverbs" target="_blank">Wikiquote</a>.</p>
         <br>
     </div>
+
+    {{ display_homepage_button(homepage) }}
 
 </body>
 </html>

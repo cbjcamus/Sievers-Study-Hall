@@ -11,6 +11,7 @@
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
 {% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
 
     {{ render_title("Sievers Study Hall") }}
 
@@ -44,9 +45,7 @@
 
     <p><a href="{{ url_for('routes.forgot_password') }}">I forgot my password</a></p>
 
-    <div class="home-button-container">
-        <a href="/" class="button">Homepage</a>
-    </div>
+    {{ display_homepage_button(homepage) }}
 
 </body>
 </html>

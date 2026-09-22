@@ -6,6 +6,7 @@ from flask import current_app
 from flask import render_template, request, redirect, url_for, flash, session
 from flask_login import login_user, current_user, logout_user, login_required
 
+from data.content.application.buttons import HOMEPAGE
 from data.data_processing.units import units
 from data.data_processing.data_loading import load_data_exercise
 from data.data_processing.total_questions import total_question_exercises
@@ -169,7 +170,9 @@ def signin():
         'french': 'authorization/signin_fr.html',
     }
 
-    return render_template(page[language])
+    return render_template(page[language],
+                           homepage=HOMEPAGE[language],
+                           )
 
 
 @routes_bp.route("/signup", methods=["GET", "POST"])
@@ -219,7 +222,9 @@ def signup():
         'french': 'authorization/signup_fr.html',
     }
 
-    return render_template(page[language])
+    return render_template(page[language],
+                           homepage=HOMEPAGE[language],
+                           )
 
 
 @routes_bp.route("/signout", methods=["POST"])

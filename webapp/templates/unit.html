@@ -14,6 +14,7 @@
 {% from "macros/unit.html" import render_exercise_table_row %}
 {% from "macros/unit.html" import render_exercise_empty_row %}
 {% from "macros/button.html" import display_button %}
+{% from "macros/button.html" import display_homepage_button %}
 
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
@@ -71,9 +72,7 @@
         {% endif %}
     {% endfor %}
 
-    <div class="home-button-container">
-        <a href="/" class="button">{{ homepage }}</a>
-    </div>
+    {{ display_homepage_button(homepage) }}
 
     <script src="{{ url_for('static', filename='js/menu/resetExercise.js') }}" defer></script>
     <script src="{{ url_for('static', filename='js/menu/toggleSection.js') }}" defer></script>

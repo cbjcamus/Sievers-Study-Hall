@@ -271,7 +271,7 @@ h2 {
     margin-right: auto;
 }
 
-.section .section-no-border{
+.section .section-no-border {
     border: 0px solid white;
 }
 
@@ -369,7 +369,7 @@ body.day-mode .button {
 .home-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .refresh-button {

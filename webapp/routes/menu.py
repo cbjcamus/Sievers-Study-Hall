@@ -6,7 +6,9 @@ from typing import cast
 from data.content.unit.stars import STARS
 from data.content.unit.unit_url_path import UNIT_URL_PATH
 from data.content.unit.unit_content_by_language import HOME_DESCRIPTION, INTRODUCTION, UNIT_NAME
-from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION
+from data.content.application.text import YOUR_ANSWER, META_DESCRIPTION, SECTION_PREPOSITION, SECTION_ARTICLES, \
+    SECTION_SENTENCE_STRUCTURE, SECTION_ADJECTIVES, SECTION_VERBS, SECTION_NOUNS, SECTION_CONJUGATION, \
+    SECTION_ETYMOLOGY, SECTION_OTHER
 from data.content.application.buttons import HOMEPAGE, UNIT_PARTICULARLY_LIKE_BY_USERS
 
 from data.data_processing.units import units, units_without_alpha
@@ -54,6 +56,15 @@ def home():
                            UNIT_PARTICULARLY_LIKE_BY_USERS=UNIT_PARTICULARLY_LIKE_BY_USERS[language],
                            meta_description=meta_description,
                            user_is_connected=current_user.is_authenticated,
+                           prepositions=SECTION_PREPOSITION[language],
+                           articles=SECTION_ARTICLES[language],
+                           sentence_structure=SECTION_SENTENCE_STRUCTURE[language],
+                           adjectives=SECTION_ADJECTIVES[language],
+                           verbs=SECTION_VERBS[language],
+                           nouns=SECTION_NOUNS[language],
+                           conjugation=SECTION_CONJUGATION[language],
+                           etymology=SECTION_ETYMOLOGY[language],
+                           other=SECTION_OTHER[language],
                            )
 
 
@@ -112,6 +123,7 @@ def settings():
 
     return render_template(page[language],
                            email=email,
+                           homepage=HOMEPAGE[language],
                            is_authenticated=current_user.is_authenticated,
                            )
 
@@ -158,6 +170,7 @@ def bookmarks():
                            icon_full=get_filename_full_bookmark(),
                            icon_flag=get_filename_flag(),
                            language=language,
+                           homepage=HOMEPAGE[language],
                            )
 
 
@@ -178,6 +191,8 @@ def progress():
 
     lowest_score_exercises = get_lowest_scored_exercises()
 
+    print(UNIT_NAME[language])
+
     return render_template(
         page[language],
         unit_name=UNIT_NAME[language],
@@ -191,7 +206,8 @@ def progress():
         is_exercise_started=is_exercise_started,
         lowest_score_exercises=lowest_score_exercises,
         get_level_from_exercise=get_level_from_exercise,
-        )
+        homepage=HOMEPAGE[language],
+    )
 
 
 @routes_bp.route("/robots.txt")

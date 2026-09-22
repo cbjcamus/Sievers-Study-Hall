@@ -11,6 +11,7 @@
 <body class="{{ 'day-mode' if is_day_mode else '' }}">
 
 {% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
 
     {{ render_title("Settings") }}
 
@@ -120,5 +121,8 @@
     <script src="{{ url_for('static', filename='js/settings/toggleSpecialCharactersButtons.js') }}"></script>
     <script src="{{ url_for('static', filename='js/settings/toggleHideOptionsMultipleChoices.js') }}"></script>
     <script src="{{ url_for('static', filename='js/settings/toggleInstructionPage.js') }}"></script>
+
+    {{ display_homepage_button(homepage) }}
+
 </body>
 </html>
