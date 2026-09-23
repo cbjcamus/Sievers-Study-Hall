@@ -35,4 +35,16 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="alternate"
+          hreflang="en"
+          href="{{ request.base_url }}?lang=en">
+
+    <link rel="alternate"
+          hreflang="fr"
+          href="{{ request.base_url }}?lang=fr">
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="{{ request.base_url }}">
+
 {% endmacro %}

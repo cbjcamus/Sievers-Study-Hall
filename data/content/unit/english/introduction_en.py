@@ -64,7 +64,7 @@ INTRODUCTION_EN = {
 
     konnektoren:
         "Connectors include coordinating conjunctions, subordinating conjunctions, correlative conjunctions and adverbs that connect two sentences."
-        "<br><br>Conjunctions used with adjectives are done in "
+        "<br><br>Conjunctions used with adjectives are covered in "
         "<a href=\"/adjektive_konjunktionen\" target=\"_blank\">Adjektive – Konjunktionen</a>, "
         "while relative pronouns are done in <a href=\"/pronomen\" target=\"_blank\">Pronomen</a>."
         "<br><br>⚠️ The following definitions are used:"
@@ -91,7 +91,7 @@ INTRODUCTION_EN = {
     ,
     wortstellung:
         "Word Order in German sentences."
-        "<br><br>You can already check my guide for German Word Order <a href=\"https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft\" target=\"_blank\">here</a> (currently a draft)."
+        "<br><br>You can check my guide to German word order <a href=\"https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft\" target=\"_blank\">here</a> (currently a draft)."
     ,
 
     genus_regeln:

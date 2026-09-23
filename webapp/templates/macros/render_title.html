@@ -16,8 +16,13 @@
             {{ (lang_code or 'en')|upper }}
         </button>
         <div id="lang-menu" class="lang-menu" role="menu">
-            <a role="menuitem" href="{{ url_for('routes.set_lang', code='en') }}" class="{{ 'active' if lang_code=='en' else '' }}">EN</a>
-            <a role="menuitem" href="{{ url_for('routes.set_lang', code='fr') }}" class="{{ 'active' if lang_code=='fr' else '' }}">FR</a>
+            <a role="menuitem"
+               href="{{ url_for('routes.set_lang', code='en') }}"
+               class="{{ 'active' if lang_code=='en' else '' }}">EN</a>
+
+            <a role="menuitem"
+               href="{{ url_for('routes.set_lang', code='fr') }}"
+               class="{{ 'active' if lang_code=='fr' else '' }}">FR</a>
         </div>
     </div>
 

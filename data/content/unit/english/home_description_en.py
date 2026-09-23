@@ -11,9 +11,9 @@ from data.data_processing.units import (
 
 HOME_DESCRIPTION_EN = {
     praepositionen: "Prepositions in every context",
-    praepositionen_verben: "Verb-Preposition pairs",
-    praepositionen_adjektive: "Adjective-Preposition pairs",
-    praepositionen_nomen: "Noun-Preposition pairs",
+    praepositionen_verben: "Verb-preposition pairs",
+    praepositionen_adjektive: "Adjective-preposition pairs",
+    praepositionen_nomen: "Noun-preposition pairs",
     pronominaladverbien: "Da-words and Wo-words",
 
     artikel: "Articles in every grammatical case",
@@ -39,13 +39,13 @@ HOME_DESCRIPTION_EN = {
     adjektivdeklinationen: "German adjective declensions",
     adjektive_konjunktionen: "Adjective conjunctions and constructions",
 
-    praesens: "Present Tense of German Verbs",
-    partizip_II: "Past Participle",
-    praeteritum: "Preterit Tense",
+    praesens: "Present tense of German Verbs",
+    partizip_II: "Past participle",
+    praeteritum: "Preterit tense",
     imperativ: "Imperative",
     konjunktiv_II: "Konjunktive II",
     konjunktiv_I: "Konjunktive I",
-    partizip_I: "Present Participle",
+    partizip_I: "Present participle",
 
     adjektive_verben_wortstaemme: "Adjective-verb pairs with the same root",
     adjektive_nomen_wortstaemme: "Adjective-noun pairs with the same root",

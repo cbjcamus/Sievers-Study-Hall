@@ -138,7 +138,9 @@ def about():
         'french': 'menu/about_fr.html',
     }
 
-    return render_template(page[language])
+    return render_template(page[language],
+                           homepage=HOMEPAGE[language],
+                           )
 
 
 @routes_bp.route("/bookmarks")

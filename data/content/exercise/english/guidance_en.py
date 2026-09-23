@@ -59,7 +59,7 @@ GUIDANCE_UNIT_EN = {
 
         f"<br><br> {ICON_WARN} Every word has to be used."
         f"<br><br> {ICON_WARN} There may be more than one possible answer."
-        f"<br><br> {ICON_WARN} The first word or group forming the German sentence may be indicated."
+        f"<br><br> {ICON_WARN} The first word or group of the German sentence may be indicated."
         f"<br><br> {ICON_WARN} If there is no indication, the first word must be the subject."
 
         f"<br><br>➡️ You can find a guide to German Word Order <a href=\"https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft\" target=\"_blank\">here</a>."
@@ -73,12 +73,12 @@ GUIDANCE_UNIT_EN = {
         "<br><br>In first position: temporal phrase"
         "<br><br>sehe am Film ich Abend einen"
         f"<br><br> &nbsp; {ICON_CHECK} Am Abend sehe ich einen Film."
-        f"<br><br> &nbsp; {ICON_CROSS} Ich sehe am Abend einen Film. (doesn't respect the first position indication)"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich sehe am Abend einen Film. (doesn't follow the first-position instruction)"
 
         "<br><br><br><i>He must work today.</i>"
         "<br><br>arbeiten er heute muss"
         f"<br><br> &nbsp; {ICON_CHECK} Er muss heute arbeiten."
-        f"<br><br> &nbsp; {ICON_CROSS} Heute muss er arbeiten. (in the absence of any indication, the first word must be the subject)"
+        f"<br><br> &nbsp; {ICON_CROSS} Heute muss er arbeiten. (if no first-position instruction is given, the first word must be the subject)"
     ,
 
     genus_regeln:
@@ -280,9 +280,9 @@ guidance_praepositionen_sentences = (
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
     f"<br><br> {ICON_WARN} The correct answer may be no preposition. In that case, leave the input box empty."
     f"<br><br> {ICON_WARN} The correct answer may include an article. In that case, both the form of the prepositional"
-    f" contraction (am, ans, vom, zur etc.) or the extended form (an dem etc.) are correct."
+    f" contraction (am, ans, vom, zur etc.) and the extended form (an dem etc.) are accepted."
     
-    f"<br><br>➡️ You can find a guide to German preposition <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
+    f"<br><br>➡️ You can find a guide to German prepositions <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
     
     "<h2>Examples</h2>"
     "Ich habe _____ Montag Deutschunterricht."
@@ -1103,7 +1103,7 @@ guidance_zahlen_number = (
 )
 
 guidance_zahlen_time_spelled = (
-    "For each question, you will be given a time of the day."
+    "For each question, you will be given a time of day."
     "<br><br>Write the German spelled form of that time."
 
     "<h2>Examples</h2>"
@@ -1117,7 +1117,7 @@ guidance_zahlen_time_spelled = (
 )
 
 guidance_zahlen_time_digital = (
-    "For each question, you will be given a time of the day."
+    "For each question, you will be given a time of day."
     "<br><br>Write the digital version of that time."
 
     "<h2>Example</h2>"
@@ -1236,6 +1236,13 @@ guidance_zahlen_multiplier_sentence = (
 )
 
 GUIDANCE_SUBCATEGORY_EN = {
+    praepositionen: {
+        isolation: guidance_praepositionen_isolation,
+        context: guidance_praepositionen_sentences,
+        synonym: guidance_praepositionen_synonyms,
+        antonym: guidance_praepositionen_antonym,
+    },
+
     praepositionen_verben: {
         isolation: guidance_praepositionen_verben_isolation,
         context: guidance_praepositionen_verben_sentences,
@@ -1287,48 +1294,6 @@ GUIDANCE_SUBCATEGORY_EN = {
 
 
 GUIDANCE_EXERCISE_EN = {
-    praepositionen: {
-        1: guidance_praepositionen_sentences,
-        2: guidance_praepositionen_sentences,
-        3: guidance_praepositionen_sentences,
-        4: guidance_praepositionen_sentences,
-        5: guidance_praepositionen_sentences,
-
-        6: guidance_praepositionen_sentences,
-        7: guidance_praepositionen_sentences,
-        8: guidance_praepositionen_sentences,
-        9: guidance_praepositionen_sentences,
-        10: guidance_praepositionen_sentences,
-
-        11: guidance_praepositionen_sentences,
-        12: guidance_praepositionen_sentences,
-        13: guidance_praepositionen_isolation,
-        14: guidance_praepositionen_sentences,
-
-        15: guidance_praepositionen_sentences,
-        16: guidance_praepositionen_sentences,
-        17: guidance_praepositionen_sentences,
-        18: guidance_praepositionen_sentences,
-        19: guidance_praepositionen_isolation,
-        20: guidance_praepositionen_sentences,
-
-        21: guidance_praepositionen_sentences,
-        22: guidance_praepositionen_sentences,
-        23: guidance_praepositionen_sentences,
-        24: guidance_praepositionen_sentences,
-        25: guidance_praepositionen_isolation,
-        26: guidance_praepositionen_sentences,
-        27: guidance_praepositionen_isolation,
-        28: guidance_praepositionen_sentences,
-        29: guidance_praepositionen_synonyms,
-        30: guidance_praepositionen_antonym,
-
-        31: guidance_praepositionen_isolation,
-        32: guidance_praepositionen_sentences,
-        33: guidance_praepositionen_isolation,
-        34: guidance_praepositionen_sentences,
-    },
-
     pronominaladverbien: {
         1: guidance_pronominaladverbien_dawort,
 
@@ -1844,275 +1809,45 @@ GUIDANCE_CATEGORY_EN = {
 }
 
 '''
-    praepositionen_verben: {
-        1: guidance_praepositionen_verben_isolation,
-        2: guidance_praepositionen_verben_sentences,
-        3: guidance_praepositionen_verben_isolation,
-        4: guidance_praepositionen_verben_sentences,
+    praepositionen: {
+        1: guidance_praepositionen_sentences,
+        2: guidance_praepositionen_sentences,
+        3: guidance_praepositionen_sentences,
+        4: guidance_praepositionen_sentences,
+        5: guidance_praepositionen_sentences,
 
-        5: guidance_praepositionen_verben_isolation,
-        6: guidance_praepositionen_verben_sentences,
-        7: guidance_praepositionen_verben_isolation,
-        8: guidance_praepositionen_verben_sentences,
+        6: guidance_praepositionen_sentences,
+        7: guidance_praepositionen_sentences,
+        8: guidance_praepositionen_sentences,
+        9: guidance_praepositionen_sentences,
+        10: guidance_praepositionen_sentences,
 
-        9: guidance_praepositionen_verben_isolation,
-        10: guidance_praepositionen_verben_sentences,
-        11: guidance_praepositionen_verben_isolation,
-        12: guidance_praepositionen_verben_sentences,
-        13: guidance_praepositionen_verben_isolation,
-        14: guidance_praepositionen_verben_sentences,
-        15: guidance_praepositionen_verben_isolation,
-        16: guidance_praepositionen_verben_sentences,
+        11: guidance_praepositionen_sentences,
+        12: guidance_praepositionen_sentences,
+        13: guidance_praepositionen_isolation,
+        14: guidance_praepositionen_sentences,
 
-        17: guidance_praepositionen_verben_isolation,
-        18: guidance_praepositionen_verben_sentences,
-        19: guidance_praepositionen_verben_isolation,
-        20: guidance_praepositionen_verben_sentences,
-        21: guidance_praepositionen_verben_isolation,
-        22: guidance_praepositionen_verben_sentences,
-        23: guidance_praepositionen_verben_isolation,
-        24: guidance_praepositionen_verben_sentences,
+        15: guidance_praepositionen_sentences,
+        16: guidance_praepositionen_sentences,
+        17: guidance_praepositionen_sentences,
+        18: guidance_praepositionen_sentences,
+        19: guidance_praepositionen_isolation,
+        20: guidance_praepositionen_sentences,
 
-        25: guidance_praepositionen_verben_isolation,
-        26: guidance_praepositionen_verben_sentences,
-        27: guidance_praepositionen_verben_isolation,
-        28: guidance_praepositionen_verben_sentences,
-        29: guidance_praepositionen_verben_isolation,
-        30: guidance_praepositionen_verben_sentences,
-        31: guidance_praepositionen_verben_isolation,
-        32: guidance_praepositionen_verben_sentences,
+        21: guidance_praepositionen_sentences,
+        22: guidance_praepositionen_sentences,
+        23: guidance_praepositionen_sentences,
+        24: guidance_praepositionen_sentences,
+        25: guidance_praepositionen_isolation,
+        26: guidance_praepositionen_sentences,
+        27: guidance_praepositionen_isolation,
+        28: guidance_praepositionen_sentences,
+        29: guidance_praepositionen_synonyms,
+        30: guidance_praepositionen_antonym,
 
-        33: guidance_praepositionen_verben_isolation,
-        34: guidance_praepositionen_verben_sentences,
-        35: guidance_praepositionen_verben_isolation,
-        36: guidance_praepositionen_verben_sentences,
-        37: guidance_praepositionen_verben_isolation,
-        38: guidance_praepositionen_verben_sentences,
-        39: guidance_praepositionen_verben_isolation,
-        40: guidance_praepositionen_verben_sentences,
-        41: guidance_praepositionen_verben_isolation,
-        42: guidance_praepositionen_verben_sentences,
+        31: guidance_praepositionen_isolation,
+        32: guidance_praepositionen_sentences,
+        33: guidance_praepositionen_isolation,
+        34: guidance_praepositionen_sentences,
     },
-
-    praepositionen_adjektive: {
-        1: guidance_praepositionen_adjektive_isolation,
-        2: guidance_praepositionen_adjektive_sentences,
-        3: guidance_praepositionen_adjektive_isolation,
-        4: guidance_praepositionen_adjektive_sentences,
-
-        5: guidance_praepositionen_adjektive_isolation,
-        6: guidance_praepositionen_adjektive_sentences,
-        7: guidance_praepositionen_adjektive_isolation,
-        8: guidance_praepositionen_adjektive_sentences,
-        9: guidance_praepositionen_adjektive_isolation,
-        10: guidance_praepositionen_adjektive_sentences,
-
-        11: guidance_praepositionen_adjektive_isolation,
-        12: guidance_praepositionen_adjektive_sentences,
-        13: guidance_praepositionen_adjektive_isolation,
-        14: guidance_praepositionen_adjektive_sentences,
-        15: guidance_praepositionen_adjektive_isolation,
-        16: guidance_praepositionen_adjektive_sentences,
-
-        17: guidance_praepositionen_adjektive_isolation,
-        18: guidance_praepositionen_adjektive_sentences,
-        19: guidance_praepositionen_adjektive_isolation,
-        20: guidance_praepositionen_adjektive_sentences,
-        21: guidance_praepositionen_adjektive_isolation,
-        22: guidance_praepositionen_adjektive_sentences,
-    },
-
-    praepositionen_nomen: {
-        1: guidance_praepositionen_nomen_isolation,
-        2: guidance_praepositionen_nomen_sentences,
-        3: guidance_praepositionen_nomen_isolation,
-        4: guidance_praepositionen_nomen_sentences,
-
-        5: guidance_praepositionen_nomen_isolation,
-        6: guidance_praepositionen_nomen_sentences,
-        7: guidance_praepositionen_nomen_isolation,
-        8: guidance_praepositionen_nomen_sentences,
-        9: guidance_praepositionen_nomen_isolation,
-        10: guidance_praepositionen_nomen_sentences,
-        11: guidance_praepositionen_nomen_isolation,
-        12: guidance_praepositionen_nomen_sentences,
-
-        13: guidance_praepositionen_nomen_isolation,
-        14: guidance_praepositionen_nomen_sentences,
-        15: guidance_praepositionen_nomen_isolation,
-        16: guidance_praepositionen_nomen_sentences,
-        17: guidance_praepositionen_nomen_isolation,
-        18: guidance_praepositionen_nomen_sentences,
-        19: guidance_praepositionen_nomen_isolation,
-        20: guidance_praepositionen_nomen_sentences,
-        21: guidance_praepositionen_nomen_isolation,
-        22: guidance_praepositionen_nomen_sentences,
-        23: guidance_praepositionen_nomen_isolation,
-        24: guidance_praepositionen_nomen_sentences,
-        25: guidance_praepositionen_nomen_isolation,
-        26: guidance_praepositionen_nomen_sentences,
-        27: guidance_praepositionen_nomen_isolation,
-        28: guidance_praepositionen_nomen_sentences,
-
-        29: guidance_praepositionen_nomen_isolation,
-        30: guidance_praepositionen_nomen_sentences,
-    },
-    
-        fragen: {
-        1: guidance_fragen_isolation,
-        2: guidance_fragen_sentences,
-
-        3: guidance_fragen_isolation,
-        4: guidance_fragen_sentences,
-
-        5: guidance_fragen_isolation,
-        6: guidance_fragen_sentences,
-
-        7: guidance_fragen_isolation,
-        8: guidance_fragen_sentences,
-        9: guidance_fragen_isolation,
-        10: guidance_fragen_sentences,
-
-        11: guidance_fragen_isolation,
-        12: guidance_fragen_sentences,
-        13: guidance_fragen_isolation,
-        14: guidance_fragen_sentences,
-
-        15: guidance_fragen_isolation,
-        16: guidance_fragen_sentences,
-    },
-
-    konnektoren: {
-        1: guidance_konnektoren_isolation,
-        2: guidance_konnektoren_sentences,
-
-        3: guidance_konnektoren_isolation,
-        4: guidance_konnektoren_sentences,
-
-        5: guidance_konnektoren_isolation,
-        6: guidance_konnektoren_sentences,
-        7: guidance_konnektoren_isolation,
-        8: guidance_konnektoren_sentences,
-        9: guidance_konnektoren_isolation,
-        10: guidance_konnektoren_sentences,
-        11: guidance_konnektoren_synonyms,
-
-        12: guidance_konnektoren_isolation,
-        13: guidance_konnektoren_sentences,
-        14: guidance_konnektoren_isolation,
-        15: guidance_konnektoren_sentences,
-        16: guidance_konnektoren_isolation,
-        17: guidance_konnektoren_sentences,
-        18: guidance_konnektoren_synonyms,
-
-        19: guidance_konnektoren_isolation,
-        20: guidance_konnektoren_sentences,
-        21: guidance_konnektoren_isolation,
-        22: guidance_konnektoren_sentences,
-        23: guidance_konnektoren_isolation,
-        24: guidance_konnektoren_sentences,
-        25: guidance_konnektoren_isolation,
-        26: guidance_konnektoren_sentences,
-        27: guidance_konnektoren_isolation,
-        28: guidance_konnektoren_sentences,
-        29: guidance_konnektoren_isolation,
-        30: guidance_konnektoren_sentences,
-        31: guidance_konnektoren_synonyms,
-        32: guidance_konnektoren_synonyms,
-        33: guidance_konnektoren_synonyms,
-        34: guidance_konnektoren_synonyms,
-    },
-
-    adverbien: {
-        1: guidance_adverbien_isolation,
-        2: guidance_adverbien_sentences,
-        3: guidance_adverbien_isolation,
-        4: guidance_adverbien_sentences,
-
-        5: guidance_adverbien_isolation,
-        6: guidance_adverbien_sentences,
-        7: guidance_adverbien_isolation,
-        8: guidance_adverbien_sentences,
-        9: guidance_adverbien_isolation,
-        10: guidance_adverbien_sentences,
-
-        11: guidance_adverbien_isolation,
-        12: guidance_adverbien_sentences,
-        13: guidance_adverbien_isolation,
-        14: guidance_adverbien_sentences,
-        15: guidance_adverbien_isolation,
-        16: guidance_adverbien_sentences,
-        17: guidance_adverbien_isolation,
-        18: guidance_adverbien_sentences,
-        19: guidance_adverbien_synonyms,
-        20: guidance_adverbien_antonym,
-
-        21: guidance_adverbien_isolation,
-        22: guidance_adverbien_sentences,
-        23: guidance_adverbien_isolation,
-        24: guidance_adverbien_sentences,
-        25: guidance_adverbien_isolation,
-        26: guidance_adverbien_sentences,
-        27: guidance_adverbien_isolation,
-        28: guidance_adverbien_sentences,
-        29: guidance_adverbien_isolation,
-        30: guidance_adverbien_sentences,
-
-        31: guidance_adverbien_isolation,
-        32: guidance_adverbien_sentences,
-        33: guidance_adverbien_isolation,
-        34: guidance_adverbien_sentences,
-        35: guidance_adverbien_isolation,
-        36: guidance_adverbien_sentences,
-        37: guidance_adverbien_isolation,
-        38: guidance_adverbien_sentences,
-        39: guidance_adverbien_synonyms,
-        40: guidance_adverbien_antonym,
-
-        41: guidance_adverbien_isolation,
-        42: guidance_adverbien_sentences,
-        43: guidance_adverbien_isolation,
-        44: guidance_adverbien_sentences,
-        45: guidance_adverbien_isolation,
-        46: guidance_adverbien_sentences,
-        47: guidance_adverbien_isolation,
-        48: guidance_adverbien_sentences,
-        49: guidance_adverbien_isolation,
-        50: guidance_adverbien_sentences,
-
-        51: guidance_adverbien_isolation,
-        52: guidance_adverbien_sentences,
-        53: guidance_adverbien_isolation,
-        54: guidance_adverbien_sentences,
-        55: guidance_adverbien_isolation,
-        56: guidance_adverbien_sentences,
-        57: guidance_adverbien_isolation,
-        58: guidance_adverbien_sentences,
-        59: guidance_adverbien_synonyms,
-        60: guidance_adverbien_synonyms,
-
-        61: guidance_adverbien_isolation,
-        62: guidance_adverbien_sentences,
-        63: guidance_adverbien_isolation,
-        64: guidance_adverbien_sentences,
-        65: guidance_adverbien_isolation,
-        66: guidance_adverbien_sentences,
-        67: guidance_adverbien_isolation,
-        68: guidance_adverbien_sentences,
-        69: guidance_adverbien_synonyms,
-        70: guidance_adverbien_synonyms,
-
-        71: guidance_adverbien_isolation,
-        72: guidance_adverbien_sentences,
-        73: guidance_adverbien_isolation,
-        74: guidance_adverbien_sentences,
-        75: guidance_adverbien_isolation,
-        76: guidance_adverbien_sentences,
-        77: guidance_adverbien_isolation,
-        78: guidance_adverbien_sentences,
-        79: guidance_adverbien_synonyms,
-        80: guidance_adverbien_antonym,
-    },
-
-
 '''
