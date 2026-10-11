@@ -111,6 +111,8 @@ QUESTION_SUBCATEGORY_FR = {
             "<br><br><i>\"{german}\"</i>",
         antonym:
             "{german}",
+        prompt:
+            "{french}",
     },
 
     praepositionen_verben: {
@@ -208,75 +210,6 @@ QUESTION_CATEGORY_FR = {
 }
 
 QUESTION_EXERCISE_FR = {
-    praepositionen: {
-        1: "{question}"
-           "<br><br><i>{french}</i>",
-        2: "{question}"
-           "<br><br><i>{french}</i>",
-        3: "{question}"
-           "<br><br><i>{french}</i>",
-        4: "{question}"
-           "<br><br><i>{french}</i>",
-        5: "{question}"
-           "<br><br><i>{french}</i>",
-
-        6: "{question}"
-           "<br><br><i>{french}</i>",
-        7: "{question}"
-           "<br><br><i>{french}</i>",
-        8: "{question}"
-           "<br><br><i>{french}</i>",
-        9: "{question}"
-           "<br><br><i>{french}</i>",
-        10: "{question}"
-           "<br><br><i>{french}</i>",
-
-        11: "{question}"
-           "<br><br><i>{french}</i>",
-        12: "{question}"
-            "<br><br><i>{french}</i>",
-        13: "{french}",
-        14: "{question}"
-            "<br><br><i>{french}</i>",
-
-        15: "{question}"
-            "<br><br><i>{french}</i>",
-        16: "{question}"
-            "<br><br><i>{french}</i>",
-        17: "{question}"
-            "<br><br><i>{french}</i>",
-        18: "{question}"
-            "<br><br><i>{french}</i>",
-        19: "{french}",
-        20: "{question}"
-            "<br><br><i>{french}</i>",
-
-        21: "{question}"
-            "<br><br><i>{french}</i>",
-        22: "{question}"
-            "<br><br><i>{french}</i>",
-        23: "{question}"
-            "<br><br><i>{french}</i>",
-        24: "{question}"
-            "<br><br><i>{french}</i>",
-        25: "{french}",
-        26: "{question}"
-            "<br><br><i>{french}</i>",
-        27: "{french}",
-        28: "{question}"
-            "<br><br><i>{french}</i>",
-        29: "{question}"
-            "<br><br><i>\"{german}\"</i>",
-        30: "{german}",
-
-        31: "{french}",
-        32: "{question}"
-            "<br><br><i>{french}</i>",
-        33: "{french}",
-        34: "{question}"
-            "<br><br><i>{french}</i>",
-    },
-
     artikel: {
         1: "{german} \u25CF {gender_french}, {case_french}",
         2: "{question}"
@@ -641,3 +574,74 @@ QUESTION_EXERCISE_FR = {
             "<br><br><i>{french}</i>",
     },
 }
+
+'''
+    praepositionen: {
+        1: "{question}"
+           "<br><br><i>{french}</i>",
+        2: "{question}"
+           "<br><br><i>{french}</i>",
+        3: "{question}"
+           "<br><br><i>{french}</i>",
+        4: "{question}"
+           "<br><br><i>{french}</i>",
+        5: "{question}"
+           "<br><br><i>{french}</i>",
+
+        6: "{question}"
+           "<br><br><i>{french}</i>",
+        7: "{question}"
+           "<br><br><i>{french}</i>",
+        8: "{question}"
+           "<br><br><i>{french}</i>",
+        9: "{question}"
+           "<br><br><i>{french}</i>",
+        10: "{question}"
+           "<br><br><i>{french}</i>",
+
+        11: "{question}"
+           "<br><br><i>{french}</i>",
+        12: "{question}"
+            "<br><br><i>{french}</i>",
+        13: "{french}",
+        14: "{question}"
+            "<br><br><i>{french}</i>",
+
+        15: "{question}"
+            "<br><br><i>{french}</i>",
+        16: "{question}"
+            "<br><br><i>{french}</i>",
+        17: "{question}"
+            "<br><br><i>{french}</i>",
+        18: "{question}"
+            "<br><br><i>{french}</i>",
+        19: "{french}",
+        20: "{question}"
+            "<br><br><i>{french}</i>",
+
+        21: "{question}"
+            "<br><br><i>{french}</i>",
+        22: "{question}"
+            "<br><br><i>{french}</i>",
+        23: "{question}"
+            "<br><br><i>{french}</i>",
+        24: "{question}"
+            "<br><br><i>{french}</i>",
+        25: "{french}",
+        26: "{question}"
+            "<br><br><i>{french}</i>",
+        27: "{french}",
+        28: "{question}"
+            "<br><br><i>{french}</i>",
+        29: "{question}"
+            "<br><br><i>\"{german}\"</i>",
+        30: "{german}",
+
+        31: "{french}",
+        32: "{question}"
+            "<br><br><i>{french}</i>",
+        33: "{french}",
+        34: "{question}"
+            "<br><br><i>{french}</i>",
+    },
+    '''

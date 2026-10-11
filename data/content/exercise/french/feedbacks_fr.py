@@ -139,7 +139,8 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         isolation:
-            "{explanation_french}",
+            "{explanation_french}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
         synonym:
             "{french} = {correct_answers}",
         antonym:
@@ -147,6 +148,11 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br>{french}"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "{commentary}",
     },
 
     praepositionen_verben: {
@@ -193,7 +199,7 @@ FEEDBACK_SUBCATEGORY_FR = {
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
-            "<br><br>{explanation_english}"
+            "<br><br>{explanation_french}"
             "{commentary}",
     },
 
@@ -209,7 +215,7 @@ FEEDBACK_SUBCATEGORY_FR = {
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
-            "<br><br>{explanation_english}"
+            "<br><br>{explanation_french}"
             "{commentary}",
     },
 
@@ -233,7 +239,7 @@ FEEDBACK_SUBCATEGORY_FR = {
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
-            "<br><br>{explanation_english}"
+            "<br><br>{explanation_french}"
             "{commentary}",
     },
 

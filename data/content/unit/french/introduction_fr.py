@@ -30,7 +30,7 @@ INTRODUCTION_FR = {
     ,
 
     artikel:
-        "Articles marinés dans tous les cas grammaticaux."
+        "Articles allemands à tous les cas grammaticaux."
         "<br><br>Inclut : articles définis, indéfinis, négatifs, possessifs, démonstratifs et bien plus encore."
         "<br><br>Les cas grammaticaux régis par les prépositions et les verbes peuvent être pratiqués dans les modules "
         "<a href=\"/praepositionen_artikel\" target=\"_blank\">Präpositionen – Artikel</a> et "
@@ -43,7 +43,8 @@ INTRODUCTION_FR = {
         "<br><br>Inclut les pronoms réfléchis, relatifs, résolus, réceptifs, récents, récurrents et réconfortants."
     ,
     praepositionen_artikel:
-        "Questions venant des autres exercices sur les prépositions pour s'exercer sur les cas grammaticaux régis par les prépositions allemandes."
+        "Questions venant des autres exercices sur les prépositions pour s'exercer sur les cas grammaticaux régis"
+        " par les prépositions allemandes."
         "<br><br>Rappel: "
         "<br>&bull; Prépositions suivies de l'accusatif : bis, durch, für, gegen, ohne, um"
         "<br>&bull; Prépositions suivies du datif : aus, bei, mit, nach, seit, von, zu"
@@ -55,7 +56,8 @@ INTRODUCTION_FR = {
     ,
 
     konnektoren:
-        "Les conjonctions (ou éléments de liaison) incluent les conjonctions de coordination, les conjonctions de subordination, les conjonctions corrélatives et les adverbes qui relient des phrases entre elles."
+        "Les conjonctions (ou éléments de liaison) incluent les conjonctions de coordination,"
+        " les conjonctions de subordination, les conjonctions corrélatives et les adverbes qui relient des phrases entre elles."
         "<br><br>Les conjonctions utilisées avec des adjectifs sont pratiquées dans le module "
         "<a href=\"/adjektive_konjunktionen\" target=\"_blank\">Adjektive – Konjunktionen</a>, "
         "tandis que les pronoms relatifs sont pratiqués dans "
@@ -63,16 +65,17 @@ INTRODUCTION_FR = {
         "<br><br>⚠️ Les définitions suivantes sont utilisées :"
         "<br> &nbsp; &bull; Conjonction de coordination :"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Conjonction de coordination - Sujet - Verbe - COD"
-        "<br> &nbsp; &bull; Conjonctions de subordination :"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Conjonctions de subordination - Sujet - COD - Verbe"
+        "<br> &nbsp; &bull; Conjonction de subordination :"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Conjonction de subordination - Sujet - COD - Verbe"
         "<br> &nbsp; &bull; Adverbe :"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adverbe - Verbe - Sujet - COD"
         "<br> &nbsp; &bull; Conjonctions corrélatives :"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ensemble de deux termes ou plus comme <i>um ... zu</i>, <i>entweder ... oder</i> ou <i>sowohl ... als auch</i>"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ensemble de deux termes ou plus comme <i>um ... zu</i>,"
+        " <i>entweder ... oder</i> ou <i>sowohl ... als auch</i>"
     ,
     fragen:
         "Mots interrogatifs tels que <i>Wer</i>, <i>Wann</i>, <i>Wo</i>, <i>Wie</i>, <i>Warum</i>, <i>Was</i>."
-        "<br><br>Les mots interrogatifs en <i>Wo-</i> sont pratiqués dans le module "
+        "<br><br>Les adverbes pronominaux tels que worauf, womit et worüber sont abordés dans le module "
         "<a href=\"/pronominaladverbien\" target=\"_blank\">Pronominaladverbien</a>."
     ,
     adverbien:
@@ -100,7 +103,8 @@ INTRODUCTION_FR = {
     genus_regeln:
         "Pratiquez le genre des noms communs à l'aide de règles empiriques."
         "<br><br>Un guide énumérant ces heuristiques est disponible "
-        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a> (en anglais)."
+        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">ici</a>"
+        " (en anglais)."
         "<br><br>Une fois ces exercices terminés, vous pouvez continuer à vous entraîner avec d'autres noms "
         "<a href=\"/genus\" target=\"_blank\">ici</a>."
     ,
@@ -109,7 +113,8 @@ INTRODUCTION_FR = {
         "<br>Des doutes disparaissent, le destin se déclare,"
         "<br>Des voix décidées dessinent leurs pas,"
         "<br>Der, Die, Das."
-        "<br><br>Je recommande de s'exercer avec le module <a href=\"/genus_regeln\" target=\"_blank\">Genus – Regeln</a> avant de s'attaquer à ces exercices."
+        "<br><br>Je recommande de s'exercer avec le module"
+        " <a href=\"/genus_regeln\" target=\"_blank\">Genus – Regeln</a> avant de s'attaquer à ces exercices."
     ,
     plural:
         "Forme plurielle des noms communs allemands les plus utilisés."
@@ -129,29 +134,33 @@ INTRODUCTION_FR = {
     ,
 
     praesens:
-        "Présent de l'indicatif allemand."
+        "Conjugaison des verbes allemands au présent de l'indicatif à toutes les personnes grammaticales."
     ,
     partizip_II:
         "Participe passé utilisé pour le Perfekt, le Plusquamperfekt, le Futur II et la voix passive."
     ,
     praeteritum:
-        "Préterit."
+        "Prétérit.<br><br>La conjugaison est demandée à toutes les personnes grammaticales pour les verbes les plus importants."
+        " Pour les autres verbes, seule la troisième personne du singulier est demandée."
     ,
     imperativ:
         "Impératif pour les trois formes du, ihr et Sie."
+        "<br><br>Si vous devez criez sur les cyclistes, sur l'imprimante qui ne fonctionne pas et sur le meuble contre"
+        " lequel vous venez de vous cogner l'orteil, faites-le correctement."
     ,
     konjunktiv_II:
-        "Le Konjunktiv II est utilisé notamment pour exprimer des situations hypothétiques, des souhaits, des suggestions et des demandes polies."
-        "<br><br>Le temps préféré de la politesse."
+        "Le Konjunktiv II est utilisé notamment pour exprimer des situations hypothétiques, des souhaits,"
+        " des suggestions et des demandes polies."
+        "<br><br>Le mode préféré de la politesse."
     ,
     konjunktiv_I:
         "Le Konjunktiv I est utilisé pour exprimer un discours indirect ou rapporté."
-        "<br><br>Le temps préféré des journalistes."
+        "<br><br>Le mode préféré des journalistes."
     ,
     partizip_I:
         "Le participe présent est utilisé pour exprimer des actions en cours."
         "<br><br>Mais pourquoi utiliser le participe présent alors que vous pourriez utiliser une proposition relative ?"
-        "<br><br>De plus, vous devriez le décliner comme un adjectif. Quelle galère."
+        "<br><br>Et lorsqu'il est employé devant un nom, il faut le décliner comme un adjectif. Quelle galère."
     ,
 
     nomen_verben_wortstaemme:
@@ -161,11 +170,12 @@ INTRODUCTION_FR = {
         "Paires adjectif-verbe avec la même racine étymologique."
     ,
     adjektive_nomen_wortstaemme:
-        "Paires adjectif-nom commun avec la même racine étymologique."
+        "Paires adjectif-nom avec la même racine étymologique."
     ,
 
     zahlen:
-        "Les nombres sous toutes leurs formes, y compris les nombres cardinaux, ordinaux, séquentiels, adverbiaux, fractionnaires et multiplicateurs."
+        "Les nombres sous toutes leurs formes, y compris les nombres cardinaux, ordinaux, séquentiels, adverbiaux,"
+        " fractionnaires et multiplicatifs."
     ,
     alpha:
         "Environnement de test."

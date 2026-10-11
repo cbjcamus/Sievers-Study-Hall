@@ -121,6 +121,10 @@ def format_question(unit, exercise, language, question_id):
     )
 
     formatted_question = formatted_question.replace("\u25CF ", "\u25CF&nbsp;")
+    formatted_question = formatted_question.replace("→ ", "→&nbsp;")
+    formatted_question = formatted_question.replace("= ", "=&nbsp;")
+    formatted_question = formatted_question.replace("+ ", "+&nbsp;")
+    formatted_question = formatted_question.replace("\u25CF ", "\u25CF&nbsp;")
 
     return formatted_question
 
@@ -139,9 +143,12 @@ def format_unique_link(input_string, language):
     input_link = input_link.replace("am ", "")
     input_link = input_link.replace("aufs ", "")
     input_link = input_link.replace("auf das ", "")
-    input_link = input_link.replace("die ", "")
-    input_link = input_link.replace("das ", "")
-    input_link = input_link.replace("der ", "")
+
+    for article in ("die ", "das ", "der "):
+        if input_link.startswith(article):
+            input_link = input_link.removeprefix(article)
+            break
+
     input_link = remove_punctuation(input_link)
 
     if language == 'english':
@@ -168,8 +175,6 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
     german = question_data.get("german", "")
     german_wiktionary = format_wiktionary_link(german, language)
 
-    print(german)
-    print(german_wiktionary)
     english = question_data.get("english", "")
     french = question_data.get("french", "")
     gender_english = question_data.get("gender_english", "")

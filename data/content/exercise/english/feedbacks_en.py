@@ -139,7 +139,8 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
         isolation:
-            "{explanation_english}",
+            "{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
         synonym:
             "{english} = {correct_answers}",
         antonym:
@@ -147,6 +148,11 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br>{english}"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     praepositionen_verben: {

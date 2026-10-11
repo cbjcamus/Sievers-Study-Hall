@@ -37,7 +37,7 @@ INTRODUCTION_EN = {
     ,
 
     artikel:
-        "Articles marinated in every grammatical case."
+        "Articles in every grammatical case."
         "<br><br>Includes definite, indefinite, negative, possessive, demonstrative articles and much more."
         "<br><br>You can practice the grammatical cases that follow prepositions and verbs in the modules "
         "<a href=\"/praepositionen_artikel\" target=\"_blank\">Präpositionen – Artikel</a> and "
@@ -46,8 +46,8 @@ INTRODUCTION_EN = {
     ,
     pronomen:
         "Pronouns in every grammatical case."
-        "<br><br>Not genitive though, there are no genitive pronouns in German. Latin does have genitive pronouns,"
-        " why not German?"
+        "<br><br>Not genitive though, there are no genitive personal pronouns in German."
+        " Latin does have genitive personal pronouns, why not German?"
         "<br><br>Includes reflexive, relative, relentless, reliable, and resolute pronouns."
     ,
     praepositionen_artikel:
@@ -79,8 +79,8 @@ INTRODUCTION_EN = {
     ,
     fragen:
         "Question words such as <i>Wer</i>, <i>Wann</i>, <i>Wo</i>, <i>Wie</i>, <i>Warum</i>, <i>Was</i>."
-        "<br><br>Question words in <i>Wo-</i> are done in "
-        "<a href=\"/pronominaladverbien\" target=\"_blank\">Pronominaladverbien</a>."
+        "<br><br>Pronominal adverbs such as worauf, womit and worüber are covered in the "
+        "<a href=\"/pronominaladverbien\" target=\"_blank\">Pronominaladverbien</a> unit."
         "<br><br>Wo means \"where\" and Wer means \"who\". Hope it makes sense."
     ,
     adverbien:
@@ -124,7 +124,7 @@ INTRODUCTION_EN = {
         "<br><br>If it was up to me, Adjective Declensions wouldn't start before level C1."
     ,
     adjektive_konjunktionen:
-        "Conjunctions and Constructions for adjectives such as <i>wie</i>, <i>als</i> and <i>so</i>."
+        "Conjunctions and constructions for adjectives such as <i>wie</i>, <i>als</i> and <i>so</i>."
     ,
 
     verben:
@@ -167,17 +167,17 @@ INTRODUCTION_EN = {
     partizip_I:
         "Partizip I is used to express ongoing actions."
         "<br><br>But why use the Partizip I when you could use a relative clause?"
-        "<br><br>Also you would have to decline it like an adjective. What a mess."
+        "<br><br>And when you use it before a noun, you have to decline it like an adjective. What a mess."
     ,
 
     nomen_verben_wortstaemme:
         "Noun–verb pairs sharing the same root."
     ,
     adjektive_verben_wortstaemme:
-        "Adjective-verb Pairs sharing the same root."
+        "Adjective-verb pairs sharing the same root."
     ,
     adjektive_nomen_wortstaemme:
-        "Adjective-Noun Pairs sharing the same root."
+        "Adjective-noun pairs sharing the same root."
     ,
 
     zahlen:

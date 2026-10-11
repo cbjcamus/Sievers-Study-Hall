@@ -225,7 +225,7 @@ def check_answer(unit, exercise):
 
     if is_exercise_prompt(unit, exercise):
         prompt = format_prompt(unit, exercise, language, question_id, user_answer)
-        response = get_response_from_prompt(prompt)
+        response = get_response_from_prompt(unit, exercise, prompt)
         is_answer_correct = response['inquiry_correct'] == 'yes' and response['meaning_coherent'] == 'yes'
         translation = response.get("translation", "")
         commentary = response.get("commentary", "")

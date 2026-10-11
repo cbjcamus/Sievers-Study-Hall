@@ -79,7 +79,7 @@ META_DESCRIPTION_FR = {
         'Pratiquez le comparatif et le superlatif des adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektivdeklinationen:
-        'Pratiquez les déclinaison des adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez les déclinaisons des adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     adjektive_konjunktionen:
         'Pratiquez les conjonctions d\'adjectifs allemands avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
@@ -92,7 +92,7 @@ META_DESCRIPTION_FR = {
         'Pratiquez le participe passé (Partizip II) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     praeteritum:
-        'Pratiquez le Präteritum (préterit) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+        'Pratiquez le Präteritum (prétérit) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     imperativ:
         'Pratiquez l\'impératif allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'

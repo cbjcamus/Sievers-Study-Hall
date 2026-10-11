@@ -2,6 +2,9 @@ import os
 import json
 
 from huggingface_hub import InferenceClient
+from huggingface_hub.errors import BadRequestError
+
+from users.session_management.logging import log_prompt_usage
 
 response_format = {
     "type": "json_schema",
@@ -42,30 +45,50 @@ response_format = {
 }
 
 
-def get_response_from_prompt(prompt):
+def get_response_from_prompt(unit, exercise, prompt):
     client = InferenceClient(
         api_key=os.environ["HF_TOKEN"],
         provider="groq",
     )
 
-    response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
+    def make_request():
+        response = client.chat.completions.create(
+            model="openai/gpt-oss-120b",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+            temperature=0.7,
+            max_tokens=500,
+            response_format=response_format,
+            extra_body={
+                "reasoning_effort": "low"
             }
-        ],
-        temperature=0.7,
-        max_tokens=500,
-        response_format=response_format,
-        extra_body = {
-            "reasoning_effort": "low"
-        }
-    )
+        )
 
-    message = response.choices[0].message
+        input_tokens = response.usage.prompt_tokens
+        output_tokens = response.usage.completion_tokens
+        usage= response.usage
 
-    response_dict = json.loads(message.content)
+        log_prompt_usage(unit, exercise, input_tokens, output_tokens, usage)
 
-    return response_dict
+        return json.loads(response.choices[0].message.content)
+
+    try:
+        return make_request()
+
+    except BadRequestError as e:
+        if "json_validate_failed" not in str(e):
+            raise
+
+        # Retry once
+        try:
+            return make_request()
+
+        except BadRequestError as retry_error:
+            if "json_validate_failed" not in str(retry_error):
+                raise
+
+            return None

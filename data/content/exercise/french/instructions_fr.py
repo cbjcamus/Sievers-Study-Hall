@@ -21,6 +21,9 @@ INSTRUCTION_UNIT_FR = {
     wortstellung:
         "Traduisez la phrase française suivante en tenant compte des indications éventuelles :",
 
+    adjektive_konjunktionen:
+        "Complétez la phrase suivante avec le mot qui convient :",
+
     verben:
         "Traduisez le verbe suivant :",
 
@@ -46,10 +49,10 @@ INSTRUCTION_UNIT_FR = {
         "Donnez le participe présent (Partizip I) du verbe suivant :",
 
     genus_regeln:
-        "Donnez l'article défini (Der, Die, Das) correspondant au cas et au genre indiqués :",
+        "Donnez l'article défini (der, die ou das) correspondant au nom indiqué :",
 
     genus:
-        "Donnez l'article défini (Der, Die, Das) correspondant au cas et au genre indiqués :",
+        "Donnez l'article défini (der, die ou das) correspondant au nom indiqué :",
 
     plural:
         "Donnez le pluriel du nom suivant :",
@@ -59,6 +62,14 @@ INSTRUCTION_UNIT_FR = {
 }
 
 INSTRUCTION_SUBCATEGORY_FR = {
+    praepositionen: {
+        context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        isolation: "Traduisez la préposition ci-dessous :",
+        synonym: "Trouvez un synonyme pour la préposition suivante :",
+        antonym: "Trouvez un antonyme pour la préposition suivante :",
+        prompt: "Écrivez une phrase en allemand en utilisant la préposition suivante dans le sens indiqué :"
+    },
+
     praepositionen_verben: {
         isolation: "Donnez la préposition associée au verbe suivant :",
         context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
@@ -75,24 +86,24 @@ INSTRUCTION_SUBCATEGORY_FR = {
     },
 
     konnektoren: {
-        isolation: "Traduisez la conjonction suivante :",
-        context: "Complétez la phrase suivante avec la conjonction qui convient :",
-        synonym: "Trouvez un synonyme pour la conjonction suivante :",
-        prompt: "Écrivez une ou deux phrase utilisant la conjonction suivante :"
+        isolation: "Traduisez le connecteur suivant :",
+        context: "Complétez la phrase suivante avec le connecteur qui convient :",
+        prompt: "Écrivez une ou deux phrases utilisant le connecteur suivant :",
+        synonym: "Trouvez un synonyme pour le connecteur suivant :",
     },
 
     fragen: {
         isolation: "Traduisez le mot interrogatif suivant :",
         context: "Complétez la phrase suivante avec le mot interrogatif qui convient :",
-        prompt: "Écrivez une ou deux phrase utilisant le mot interrogatif suivant :"
+        prompt: "Écrivez une ou deux phrases utilisant le mot interrogatif suivant :",
     },
 
     adverbien: {
         isolation: "Traduisez l'adverbe suivant :",
         context: "Complétez la phrase suivante avec l'adverbe qui convient :",
+        prompt: "Écrivez une ou deux phrases utilisant l'adverbe suivant :",
         synonym: "Trouvez un synonyme pour l'adverbe suivant :",
         antonym: "Trouvez un antonyme pour l'adverbe suivant :",
-        prompt: "Écrivez une ou deux phrase utilisant l'adverbe suivant :"
     },
 
     adjektive: {
@@ -107,45 +118,8 @@ INSTRUCTION_CATEGORY_FR = {
 
 INSTRUCTION_EXERCISE_FR = {
     praepositionen: {
-        1: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        2: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        3: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        4: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        5: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
-        6: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        7: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        8: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        9: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        10: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
-        11: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        12: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        13: "Traduisez la préposition ci-dessous :",
-        14: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
-        15: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        16: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        17: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        18: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        19: "Traduisez la préposition ci-dessous :",
-        20: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-
-        21: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        22: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        23: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        24: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        25: "Traduisez la préposition ci-dessous :",
-        26: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        27: "Traduisez le groupe prépositionnel ci-dessous :",
-        28: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        29: "Trouvez un synonyme pour la préposition suivante :",
-        30: "Trouvez un antonyme pour la préposition suivante :",
-
-        31: "Traduisez la préposition ci-dessous :",
-        32: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        33: "Traduisez la postposition ci-dessous :",
-        34: "Complétez la phrase ci-dessous avec la postposition qui convient :",
+        40: "Traduisez le groupe prépositionnel ci-dessous :",
+        41: "Complétez la phrase ci-dessous avec le groupe prépositionnel qui convient :",
     },
 
     pronominaladverbien: {
@@ -285,51 +259,41 @@ INSTRUCTION_EXERCISE_FR = {
     },
 
     adjektivdeklinationen: {
-        1: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        1: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         2: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        3: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        3: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         4: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        5: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        5: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         6: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        7: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        7: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         8: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        9: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        9: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         10: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        11: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        11: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         12: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         13: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         14: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
 
-        15: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        15: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         16: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        17: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        17: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         18: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        19: "Complétez la phrase avec la forme comparative correcte de l'adjectif indiqué :",
+        19: "Complétez le groupe nominal avec la forme comparative correcte de l'adjectif indiqué :",
         20: "Complétez la phrase avec la forme comparative correcte de l'adjectif indiqué :",
-        21: "Complétez la phrase avec la forme superlative correcte de l'adjectif indiqué :",
+        21: "Complétez le groupe nominal avec la forme superlative correcte de l'adjectif indiqué :",
         22: "Complétez la phrase avec la forme superlative correcte de l'adjectif indiqué :",
 
-        23: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        23: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         24: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        25: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        25: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         26: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        27: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        27: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         28: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
 
-        29: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        29: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         30: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-        31: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
+        31: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         32: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-    },
-
-    adjektive_konjunktionen: {
-        1: "Complétez la phrase suivante avec la conjonction ou la préposition qui convient :",
-
-        2: "Complétez la phrase suivante avec la conjonction qui convient :",
-
-        3: "Complétez la phrase suivante avec la conjonction qui convient :",
-
-        4: "Complétez la phrase suivante avec la conjonction ou la préposition qui convient :",
     },
 
     trennbare_verben: {
@@ -636,7 +600,7 @@ INSTRUCTION_EXERCISE_FR = {
         7: "Écrivez le nombre suivant en toutes lettres :",
         8: "Écrivez le nombre suivant en toutes lettres :",
         9: "Écrivez la forme écrite de l'heure suivante :",
-        10: "Écrivez la forme écrite de l'heure suivante :",
+        10: "Écrivez l'heure suivante sous forme numérique :",
 
         11: "Écrivez le nombre suivant en toutes lettres :",
         12: "Écrivez le nombre suivant en toutes lettres :",

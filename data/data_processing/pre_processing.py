@@ -57,6 +57,7 @@ def pre_processing_praeteritum(data, exercise):
 
     else:
         data['answer'] = data['er/sie/es'].copy()
+        data['person'] = 'er/sie/es'
 
     return data
 

@@ -16,7 +16,7 @@ HOME_DESCRIPTION_FR = {
     praepositionen_nomen: "Paires nom–préposition",
     pronominaladverbien: "Mots en <i>da-</i> et en <i>wo-</i>",
 
-    artikel: "Articles marinés dans tous les cas grammaticaux",
+    artikel: "Articles allemands à tous les cas grammaticaux",
     pronomen: "Pronoms dans tous les cas grammaticaux",
     praepositionen_artikel: "Cas grammaticaux régis par les prépositions",
     verben_artikel: "Cas grammaticaux régis par les verbes",
@@ -41,7 +41,7 @@ HOME_DESCRIPTION_FR = {
 
     praesens: "Présent de l'indicatif allemand.",
     partizip_II: "Participe passé (Partizip II)",
-    praeteritum: "Préterit (Präteritum)",
+    praeteritum: "Prétérit (Präteritum)",
     imperativ: "Impératif",
     konjunktiv_II: "Konjunktiv II",
     konjunktiv_I: "Konjunktiv I",

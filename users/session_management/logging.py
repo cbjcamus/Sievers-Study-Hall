@@ -16,6 +16,7 @@ EXERCISE_COMPLETED_PATH = os.path.join(LOGS_DIR, "exercise_completed.csv")
 NEW_SIGNUP_PATH = os.path.join(LOGS_DIR, "new_signups.csv")
 QUESTION_FLAGGED_PATH = os.path.join(LOGS_DIR, "question_flagged.csv")
 PROGRESS_DELETED_PATH = os.path.join(LOGS_DIR, "progress_deleted_from_session.csv")
+PROMPT_USAGE_PATH = os.path.join(LOGS_DIR, "prompt_usage.csv")
 
 
 def log_exercise_completed(unit, exercise, score, email=None):
@@ -152,6 +153,37 @@ def log_progress_deleted_from_session(unit, exercise):
 
     with open(PROGRESS_DELETED_PATH, "a", encoding="utf-8") as filepath:
         filepath.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}")
+    return
+
+
+def log_prompt_usage(unit, exercise, input_token, output_token, usage):
+    """
+    Logs the deletion of progress data from the session to a CSV file for auditing purposes.
+
+    Ensures the statistics folder and 'progress_deleted_from_session.csv' file exist.
+    Retrieves the current timestamp, determines the next record number, and extracts the user's IP address.
+    Writes a new entry to the file with the unit, exercise, and metadata.
+
+    Args:
+        unit (str): The unit identifier where progress was deleted.
+        exercise (str or int): The exercise identifier.
+
+    Returns:
+        None
+    """
+    now = datetime.now()
+
+    create_folder(LOGS_DIR)
+    create_file(PROMPT_USAGE_PATH, "Nr; IP; date; unit; exercise; level; input_token; output_token; usage")
+
+    next_nr = get_next_number(PROMPT_USAGE_PATH)
+    level = get_level_from_exercise(unit, exercise)
+
+    forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
+    user_ip = forwarded_for.split(',')[0].strip()
+
+    with open(PROMPT_USAGE_PATH, "a", encoding="utf-8") as filepath:
+        filepath.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}; {level}; {input_token}; {output_token}; {usage}")
     return
 
 

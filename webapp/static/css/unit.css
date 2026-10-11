@@ -1,9 +1,10 @@
 .exercise-table {
-    width: 100%;
+    width: calc(100% + 20px);
     table-layout: fixed;
     border-collapse: collapse;
     margin-top: -10px;
     margin-left: -10px;
+    margin-right: -10px;
 }
 
 .exercise-table td {
@@ -161,4 +162,9 @@ body.day-mode .button {
     user-select: none;
 
     font-size: 14px;
+}
+
+.refresh-button {
+    font-size: 1.2rem;
+    line-height: 1;
 }
