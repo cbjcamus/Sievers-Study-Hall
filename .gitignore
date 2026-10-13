@@ -4,3 +4,23 @@
 /instance/
 /.idea
 /proofing/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Local-only benchmark scripts, not meant to be committed
+benchmark_exercise_state_cache.py
+loadtest/
