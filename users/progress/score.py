@@ -3,6 +3,7 @@ from flask_login import current_user
 from data.data_processing.total_questions import highest_exercise_per_unit, total_question_exercises
 
 from users.users.models import UserExerciseState
+from users.progress.exercise_state_cache import get_user_exercise_states
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 
@@ -246,9 +247,7 @@ def get_lowest_scored_exercises(limit=10):
     if not current_user.is_authenticated:
         return []
 
-    rows = UserExerciseState.query.filter_by(
-        user_id=current_user.id
-    ).all()
+    rows = get_user_exercise_states(current_user.id).values()
 
     scored = [
         (row.unit, row.exercise, (row.state or {}).get("score"))
