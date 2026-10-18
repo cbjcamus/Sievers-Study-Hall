@@ -384,8 +384,8 @@ DESCRIPTION_EXERCISE_FR = {
         21: "Adverbes de niveau B1, en contexte",
         22: "Adverbes de niveau B1 (dérivés d'adjectifs), en isolation",
         23: "Adverbes de niveau B1 (dérivés d'adjectifs), en contexte",
-        24: "Synonymes d'adverbes de niveau B1, en contexte",
-        25: "Antonymes d'adverbes de niveau B1, en isolation",
+        24: "Synonymes d'adverbes de niveau A1 à B1, en contexte",
+        25: "Antonymes d'adverbes de niveau A1 à B1, en isolation",
 
         26: "Adverbes de niveau B2, en isolation",
         27: "Adverbes de niveau B2, en contexte",
