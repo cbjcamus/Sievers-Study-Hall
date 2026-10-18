@@ -7,6 +7,7 @@ from data.data_processing.total_questions import total_question_exercises, highe
 
 from users.users.models import db, UserExerciseState, UserUnitHomeProgress
 from users.progress.is_exercise_finished import is_exercise_finished
+from users.progress.exercise_state_cache import get_user_exercise_states
 from users.session_management.verification_session import is_key_in_exercise
 
 
@@ -204,11 +205,7 @@ def is_exercise_started(session, unit, exercise):
     ex_str = str(ex_int)
 
     if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id,
-            unit=unit,
-            exercise=ex_int
-        ).first()
+        row = get_user_exercise_states(current_user.id).get((unit, ex_int))
 
         if not row:
             return False
@@ -231,11 +228,7 @@ def is_exercise_started(session, unit, exercise):
 
 
 def is_exercise_completed_db(user_id, unit, exercise):
-    row = UserExerciseState.query.filter_by(
-        user_id=user_id,
-        unit=unit,
-        exercise=exercise
-    ).first()
+    row = get_user_exercise_states(user_id).get((unit, exercise))
 
     if not row or not row.state:
         return False
