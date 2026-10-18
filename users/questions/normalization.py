@@ -48,19 +48,19 @@ def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
         return False
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
-    user_answer = normalize_answer(user_answer, unit)
+    user_answer = normalize_answer(user_answer)
 
     if "/" in correct_answer:
         correct_answers = correct_answer.split("/")
-        correct_answers = [normalize_answer(answer, unit) for answer in correct_answers]
+        correct_answers = [normalize_answer(answer) for answer in correct_answers]
         return user_answer in correct_answers
     else:
         correct_answers = get_list_of_synonyms(lowercase_first_letter(correct_answer), unit)
-        correct_answers = [normalize_answer(correct_answer_, unit) for correct_answer_ in correct_answers]
+        correct_answers = [normalize_answer(correct_answer_) for correct_answer_ in correct_answers]
         return user_answer in correct_answers
 
 
-def normalize_answer(input_str, unit):
+def normalize_answer(input_str):
     """
     Normalizes the input string for comparison by applying a series of standard transformations.
 
@@ -82,7 +82,6 @@ def normalize_answer(input_str, unit):
     normalized_str = input_str.strip().lower()
     normalized_str = remove_punctuation(normalized_str)
     normalized_str = replace_german_characters(normalized_str)
-    # normalized_str = search_for_main_synonym(normalized_str, unit)
     return normalized_str
 
 
@@ -163,7 +162,7 @@ def replace_german_characters(input_string):
     return output_string
 
 
-def get_list_of_correct_answers(correct_answer, unit, bullet_points=False):
+def get_list_of_correct_answers(correct_answer, unit, exercise, question_id, with_synonym_question=False, bullet_points=False):
     """
     Returns a comma-separated list of all valid correct answers for a given input.
 
@@ -186,14 +185,21 @@ def get_list_of_correct_answers(correct_answer, unit, bullet_points=False):
         if bullet_points:
             return ''.join(f"<br><br>{answer}" for answer in answers)
 
-        return ', '.join(answers)
+        return answers
 
     else:
-        synonyms = get_list_of_synonyms_for_feedback(lowercase_first_letter(correct_answer), unit)
-        if not synonyms:
-            return correct_answer
-        else:
-            return f"{correct_answer}, {synonyms}"
+        synonyms = get_list_of_synonyms_for_feedback(
+            lowercase_first_letter(correct_answer),
+            unit,
+            exercise,
+            question_id,
+            exercise_is_synonym=(
+                False if with_synonym_question
+                else is_exercise_synonym(unit, exercise)
+            )
+        )
+
+        return [correct_answer] + synonyms
 
 
 def get_first_correct_answer(correct_answer):

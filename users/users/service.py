@@ -28,11 +28,25 @@ class State:
     def empty(cls) -> "State":
         return cls(correct_ids=[], incorrect={})
 
+def get_user_exercise_state(user_id, unit, exercise):
+    return UserExerciseState.query.filter_by(
+        user_id=user_id,
+        unit=unit,
+        exercise=int(exercise)
+    ).first()
+
 def _get_or_create_row(user_id: int, unit: str, exercise: int) -> UserExerciseState:
-    row = UserExerciseState.query.filter_by(user_id=user_id, unit=unit, exercise=exercise).first()
-    if not row:
-        row = UserExerciseState(user_id=user_id, unit=unit, exercise=exercise, state={})
+    row = get_user_exercise_state(user_id, unit, exercise)
+
+    if row is None:
+        row = UserExerciseState(
+            user_id=user_id,
+            unit=unit,
+            exercise=int(exercise),
+            state={}
+        )
         db.session.add(row)
+
     return row
 
 def load_state(user_id: int, unit: str, exercise: int) -> State:

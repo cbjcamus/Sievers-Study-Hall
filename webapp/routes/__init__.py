@@ -12,14 +12,6 @@ def inject_language():
         "language": dict_key_for(code),
     }
 
-'''
-@routes_bp.route("/lang/<code>")
-def set_lang(code):
-    if code in ("en", "fr"):
-        session["lang"] = code
-    return redirect(request.referrer or url_for("routes.home"))
-'''
-
 
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 

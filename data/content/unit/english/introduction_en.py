@@ -75,7 +75,9 @@ INTRODUCTION_EN = {
         "<br> &nbsp; &bull; Adverb:"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adverb - Verb - Subject - Object"
         "<br> &nbsp; &bull; Correlative conjunction:"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two or more terms such as <i>um ... zu</i>, <i>entweder ... oder</i> or <i>sowohl ... als auch</i>"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Two or more terms such as <i>entweder ... oder</i> or <i>sowohl ... als auch</i>"
+        "<br> &nbsp; &bull; Infinitive construction:"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set of two prepositions such as <i>um ... zu</i> or <i>anstatt ... zu</i>"
     ,
     fragen:
         "Question words such as <i>Wer</i>, <i>Wann</i>, <i>Wo</i>, <i>Wie</i>, <i>Warum</i>, <i>Was</i>."

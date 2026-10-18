@@ -130,10 +130,11 @@ def format_question(unit, exercise, language, question_id):
 
 
 def format_wiktionary_link(input_string, language):
-    if "," in input_string:
-        list_ = [item.strip() for item in input_string.split(",")]
-        list_ = [format_unique_link(item, language) for item in list_]
-        return ", ".join(list_)
+    if isinstance(input_string, list):
+        return ", ".join(
+            format_unique_link(item, language)
+            for item in input_string
+        )
     else:
         return format_unique_link(input_string, language)
 
@@ -149,7 +150,10 @@ def format_unique_link(input_string, language):
             input_link = input_link.removeprefix(article)
             break
 
-    input_link = remove_punctuation(input_link)
+    # input_link = remove_punctuation(input_link)
+
+    if contains_punctuation(input_link):
+        return input_link
 
     if language == 'english':
         return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input_link}</a>'
@@ -165,11 +169,13 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
     correct_answer_wiktionary = format_wiktionary_link(correct_answer, language)
-    correct_answers = get_list_of_correct_answers(correct_answer, unit)
+    correct_answers = get_list_of_correct_answers(correct_answer, unit, exercise, question_id)
     correct_answers_wiktionary = format_wiktionary_link(correct_answers, language)
     first_correct_answer = get_first_correct_answer(correct_answer)
     first_correct_answer_wiktionary = format_wiktionary_link(first_correct_answer, language)
-    correct_answers_bullet_points = get_list_of_correct_answers(correct_answer, unit, bullet_points=True)
+    list_of_synonyms = get_list_of_correct_answers(correct_answer, unit, exercise, question_id, with_synonym_question=True)
+    list_of_synonyms_wiktionary = format_wiktionary_link(list_of_synonyms, language)
+    correct_answers_bullet_points = get_list_of_correct_answers(correct_answer, unit, exercise, question_id, bullet_points=True)
     question_text = question_data["question"]
     previous_question_wiktionary = format_wiktionary_link(question_text, language)
     german = question_data.get("german", "")
@@ -208,6 +214,8 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
         correct_answer_wiktionary= correct_answer_wiktionary,
         correct_answers=correct_answers,
         correct_answers_wiktionary=correct_answers_wiktionary,
+        list_of_synonyms=list_of_synonyms,
+        list_of_synonyms_wiktionary=list_of_synonyms_wiktionary,
         first_correct_answer=first_correct_answer,
         first_correct_answer_wiktionary=first_correct_answer_wiktionary,
         correct_answers_bullet_points=correct_answers_bullet_points,
@@ -468,3 +476,7 @@ def format_prompt(unit, exercise, language, question_id, user_answer):
     formatted_prompt = formatted_prompt.replace("\u25CF ", "\u25CF&nbsp;")
 
     return formatted_prompt
+
+
+def contains_punctuation(text):
+    return any(char in string.punctuation for char in text)

@@ -32,31 +32,6 @@ def get_incorrect_answers(session, unit, exercise):
     # ----------------------------------------------------------
     # Logged-in: get from DB state
     # ----------------------------------------------------------
-    '''
-    if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id, unit=unit, exercise=ex_int
-        ).first()
-        if row and row.state:
-            incorrect = row.state.get("incorrect", {})
-            if incorrect:
-                answers = list(incorrect.values())
-                return answers, len(answers)
-            return [], 0
-        return [], 0
-    '''
-
-    '''
-    else:
-        if 'incorrect_answer' in session[unit][str(exercise)]:
-            incorrect_answers = session[unit][str(exercise)]['incorrect_answer']
-            number_of_incorrect_answers = len(incorrect_answers)
-        else:
-            incorrect_answers = []
-            number_of_incorrect_answers = 0
-
-        return incorrect_answers, number_of_incorrect_answers
-    '''
 
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(
@@ -98,33 +73,6 @@ def get_feedback_exercise(session, unit, exercise, language, incorrect):
     Returns:
         list: A list of formatted feedback strings for each incorrect answer.
     """
-
-    '''
-    ex_int = int(exercise) if not isinstance(exercise, int) else exercise
-
-    # ---- collect incorrect Nrs ----
-    incorrect_ids = []
-
-    if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id, unit=unit, exercise=ex_int
-        ).first()
-        if row and row.state:
-            inc = row.state.get("incorrect") or {}
-            # keys are Nrs (stored as str in JSON); coerce to int
-            incorrect_ids = [int(k) for k in inc.keys()]
-            # incorrect_ids.sort()  # deterministic order (ascending)
-
-    else:
-        if 'falses' in session[unit][str(exercise)]:
-            incorrect_ids = session[unit][str(exercise)]['falses']
-            incorrect_ids = [int(i) for i in incorrect_ids]
-        else:
-            incorrect_ids = []
-
-    if not incorrect_ids:
-        return []
-    '''
 
     incorrect_ids = [int(k) for k in incorrect]
 

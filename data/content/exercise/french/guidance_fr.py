@@ -548,6 +548,7 @@ guidance_konnektoren_isolation = (
     f"<br><br> {ICON_WARN} Avec une conjonction de subordination, le verbe se place à la fin de la proposition."
     f"<br><br> {ICON_WARN} Avec un adverbe, le verbe vient en deuxième position."
     f"<br><br> {ICON_WARN} Une conjonction corrélative comporte deux parties qui ne sont pas directement contiguës."
+    f"<br><br> {ICON_WARN} Une construction infinitive es composé de deux prépositions."
 
     "<h2>Exemple</h2>"
     "parce que, car \u25CF Conjonction de coordination"
@@ -1862,48 +1863,3 @@ GUIDANCE_EXERCISE_FR = {
         24: guidance_zahlen_genitive_sentence,
     },
 }
-
-'''
-    praepositionen: {
-        1: guidance_praepositionen_sentences,
-        2: guidance_praepositionen_sentences,
-        3: guidance_praepositionen_sentences,
-        4: guidance_praepositionen_sentences,
-        5: guidance_praepositionen_sentences,
-
-        6: guidance_praepositionen_sentences,
-        7: guidance_praepositionen_sentences,
-        8: guidance_praepositionen_sentences,
-        9: guidance_praepositionen_sentences,
-        10: guidance_praepositionen_sentences,
-
-        11: guidance_praepositionen_sentences,
-        12: guidance_praepositionen_sentences,
-        13: guidance_praepositionen_isolation,
-        14: guidance_praepositionen_sentences,
-
-        15: guidance_praepositionen_sentences,
-        16: guidance_praepositionen_sentences,
-        17: guidance_praepositionen_sentences,
-        18: guidance_praepositionen_sentences,
-        19: guidance_praepositionen_isolation,
-        20: guidance_praepositionen_sentences,
-
-        21: guidance_praepositionen_sentences,
-        22: guidance_praepositionen_sentences,
-        23: guidance_praepositionen_sentences,
-        24: guidance_praepositionen_sentences,
-        25: guidance_praepositionen_isolation,
-        26: guidance_praepositionen_sentences,
-        27: guidance_praepositionen_isolation,
-        28: guidance_praepositionen_sentences,
-        29: guidance_praepositionen_synonyms,
-        30: guidance_praepositionen_antonym,
-
-        31: guidance_praepositionen_isolation,
-        32: guidance_praepositionen_sentences,
-        33: guidance_praepositionen_isolation,
-        34: guidance_praepositionen_sentences,
-    },
-
-'''

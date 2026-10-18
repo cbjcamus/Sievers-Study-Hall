@@ -104,7 +104,7 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer, tra
 
         # Only record an incorrect if this Nr isn't already marked correct
         if nr_int not in correct_nrs:
-            key = str(nr_int)
+            key = nr_int
 
             # Keep first incorrect attempt
             if key not in incorrect:

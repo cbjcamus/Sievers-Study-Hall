@@ -533,6 +533,7 @@ guidance_konnektoren_isolation = (
     f"<br><br> {ICON_WARN} With a subordinating conjunction, the verb goes to the end of the clause."
     f"<br><br> {ICON_WARN} With an adverb, the verb goes second."
     f"<br><br> {ICON_WARN} A correlative conjunction has two parts not directly next to each other."
+    f"<br><br> {ICON_WARN} An infinitive construction is made of two prepositions."
 
     "<h2>Examples</h2>"
     "because, for \u25CF Coordinating conjunction"
@@ -1833,47 +1834,3 @@ GUIDANCE_EXERCISE_EN = {
 GUIDANCE_CATEGORY_EN = {
 
 }
-
-'''
-    praepositionen: {
-        1: guidance_praepositionen_sentences,
-        2: guidance_praepositionen_sentences,
-        3: guidance_praepositionen_sentences,
-        4: guidance_praepositionen_sentences,
-        5: guidance_praepositionen_sentences,
-
-        6: guidance_praepositionen_sentences,
-        7: guidance_praepositionen_sentences,
-        8: guidance_praepositionen_sentences,
-        9: guidance_praepositionen_sentences,
-        10: guidance_praepositionen_sentences,
-
-        11: guidance_praepositionen_sentences,
-        12: guidance_praepositionen_sentences,
-        13: guidance_praepositionen_isolation,
-        14: guidance_praepositionen_sentences,
-
-        15: guidance_praepositionen_sentences,
-        16: guidance_praepositionen_sentences,
-        17: guidance_praepositionen_sentences,
-        18: guidance_praepositionen_sentences,
-        19: guidance_praepositionen_isolation,
-        20: guidance_praepositionen_sentences,
-
-        21: guidance_praepositionen_sentences,
-        22: guidance_praepositionen_sentences,
-        23: guidance_praepositionen_sentences,
-        24: guidance_praepositionen_sentences,
-        25: guidance_praepositionen_isolation,
-        26: guidance_praepositionen_sentences,
-        27: guidance_praepositionen_isolation,
-        28: guidance_praepositionen_sentences,
-        29: guidance_praepositionen_synonyms,
-        30: guidance_praepositionen_antonym,
-
-        31: guidance_praepositionen_isolation,
-        32: guidance_praepositionen_sentences,
-        33: guidance_praepositionen_isolation,
-        34: guidance_praepositionen_sentences,
-    },
-'''

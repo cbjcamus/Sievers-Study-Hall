@@ -141,18 +141,19 @@ FEEDBACK_SUBCATEGORY_EN = {
         isolation:
             "{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
-        synonym:
-            "{english} = {correct_answers}",
-        antonym:
-            "{german} ↔ {first_correct_answer}"
-            "<br><br>{english}"
-            "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_english}"
             "{commentary}",
+        synonym:
+            "{english} = {list_of_synonyms}"
+            "<br><br>Correct answer(s): {correct_answers}",
+        antonym:
+            "{german} ↔ {first_correct_answer}"
+            "<br><br>{english}"
+            "<br><br>{explanation_english}"
+            "<br><br>Correct answer(s): {correct_answers}",
     },
 
     praepositionen_verben: {
@@ -194,13 +195,14 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        synonym:
-            "{english} = {correct_answers_wiktionary}",
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_english}"
             "{commentary}",
+        synonym:
+            "{english} = {list_of_synonyms_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
     },
 
     fragen: {
@@ -228,19 +230,19 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
         synonym:
-            "{english} = {first_correct_answer_wiktionary}"
+            "{english} = {list_of_synonyms_wiktionary}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
         antonym:
             "{german} ↔ {first_correct_answer_wiktionary}"
             "<br><br>{english}"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers_wiktionary}",
-        prompt:
-            "{user_answer}"
-            "<br><br><i>{translation}</i>"
-            "<br><br>{explanation_english}"
-            "{commentary}",
     },
 
     verben: {

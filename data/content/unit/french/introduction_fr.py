@@ -70,8 +70,9 @@ INTRODUCTION_FR = {
         "<br> &nbsp; &bull; Adverbe :"
         "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Adverbe - Verbe - Sujet - COD"
         "<br> &nbsp; &bull; Conjonctions corrélatives :"
-        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ensemble de deux termes ou plus comme <i>um ... zu</i>,"
-        " <i>entweder ... oder</i> ou <i>sowohl ... als auch</i>"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ensemble de deux termes ou plus comme <i>entweder ... oder</i> ou <i>sowohl ... als auch</i>"
+        "<br> &nbsp; &bull; Construction infinitive :"
+        "<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ensemble de deux prépositions comme <i>um ... zu</i> ou <i>anstatt ... zu</i>"
     ,
     fragen:
         "Mots interrogatifs tels que <i>Wer</i>, <i>Wann</i>, <i>Wo</i>, <i>Wie</i>, <i>Warum</i>, <i>Was</i>."
