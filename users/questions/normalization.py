@@ -188,6 +188,9 @@ def get_list_of_correct_answers(correct_answer, unit, exercise, question_id, wit
         return answers
 
     else:
+        if bullet_points:
+            return correct_answer
+
         synonyms = get_list_of_synonyms_for_feedback(
             lowercase_first_letter(correct_answer),
             unit,

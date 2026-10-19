@@ -464,16 +464,17 @@ DESCRIPTION_EXERCISE_FR = {
         7: "Combinaisons de verbes modaux, de verbes séparables (<i>trennbare</i>) et au passé composé",
         8: "Combinaisons de verbes modaux, de verbes séparables (<i>trennbare</i>) et au passé composé",
         9: "Questions ouvertes introduites par un mot interrogatif en W-",
-        10: "Questions ouvertes introduites par un mot interrogatif en W-, des verbes modaux, des verbes séparables"
-            " et au passé composé",
+        10: "Questions ouvertes avec des verbes modaux, des verbes séparables et des verbes au passé"
+            " (Perfekt et Präteritum)",
         11: "Questions fermées (Oui/Non)",
-        12: "Questions fermées (Oui/Non) avec des verbes modaux, des verbes séparables et au passé composé",
-        13: "Phrases en allemand avec les conjonctions de coordinations <i>und</i>, <i>oder</i>, <i>aber</i> et <i>denn</i>",
-        14: "Phrases en allemand avec les conjonctions de coordinations <i>und</i>, <i>oder</i>, <i>aber</i> et <i>denn</i>",
-        15: "Position de <i>Nicht</i>",
-        16: "Position de <i>Nicht</i>",
-        17: "Phrases en allemand avec les conjonctions comparative <i>so</i>, <i>wie</i>, <i>als</i>",
-        18: "Phrases en allemand à l'Impératif",
+        12: "Questions fermées (oui/non) avec des verbes modaux, des verbes séparables et des verbes au passé"
+            " (Perfekt et Präteritum)",
+        13: "Phrases en allemand avec les conjonctions de coordination <i>und</i>, <i>oder</i>, <i>aber</i> et <i>denn</i>",
+        14: "Phrases en allemand avec les conjonctions de coordination <i>und</i>, <i>oder</i>, <i>aber</i> et <i>denn</i>",
+        15: "Position de <i>nicht</i>",
+        16: "Position de <i>nicht</i>",
+        17: "Phrases en allemand avec les conjonctions comparatives <i>so</i>, <i>wie</i>, et <i>als</i>",
+        18: "Phrases en allemand à l'impératif",
         19: "Phrases en allemand avec des combinaisons d'objets et d\'expressions adverbiales",
         20: "Phrases en allemand avec des combinaisons d'objets et d\'expressions adverbiales",
 

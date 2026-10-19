@@ -169,8 +169,9 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
     correct_answer_wiktionary = format_wiktionary_link(correct_answer, language)
-    correct_answers = get_list_of_correct_answers(correct_answer, unit, exercise, question_id)
-    correct_answers_wiktionary = format_wiktionary_link(correct_answers, language)
+    correct_answers_list = get_list_of_correct_answers(correct_answer, unit, exercise, question_id)
+    correct_answers = ", ".join(format_unique_link(item, language) for item in correct_answers_list)
+    correct_answers_wiktionary = format_wiktionary_link(correct_answers_list, language)
     first_correct_answer = get_first_correct_answer(correct_answer)
     first_correct_answer_wiktionary = format_wiktionary_link(first_correct_answer, language)
     list_of_synonyms = get_list_of_correct_answers(correct_answer, unit, exercise, question_id, with_synonym_question=True)
