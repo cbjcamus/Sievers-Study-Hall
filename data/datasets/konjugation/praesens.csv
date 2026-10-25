@@ -123,7 +123,7 @@ exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 25,,,ausgehen,"to go out, to run out (e.g. of money), to go out (of a light or fire), to assume","sortir, être à court (par exemple d'argent), s'éteindre (lumière ou feu), supposer",gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus
 25,,,zählen,"to count, to matter","compter, avoir de l'importance",zähle,zählst,zählt,zählen,zählt,zählen
 25,,,ankommen,"to arrive, to depend on something","arriver, dépendre de quelque chose",komme an,kommst an,kommt an,kommen an,kommt an,kommen an
-25,,,dauern,"to last, to take (time)","durer, prendre (du temps)",dauere,dauerst,dauert,dauern,dauert,dauern
+1000,,,dauern,"to last, to take (time)","durer, prendre (du temps)",dauere,dauerst,dauert,dauern,dauert,dauern
 26,,,anmelden,"to register, to sign up, to announce, to log in (refl.)","inscrire, s'inscrire (réfl.), annoncer, se connecter (réfl.)",melde an/melde mich an,meldest an/meldest dich an,meldet an/meldet sich an,melden an/melden uns an,meldet an/meldet euch an,melden an/melden sich an
 26,,,lassen,"to let, to leave, to allow, to have something done","laisser, permettre, faire faire quelque chose",lasse,lässt,lässt,lassen,lasst,lassen
 26,,,verlassen,"to leave, to abandon, to rely on (refl.)","quitter, abandonner, se fier à (réfl.), compter sur (réfl.)",verlasse/verlasse mich,verlässt/verlässt dich,verlässt/verlässt sich,verlassen/verlassen uns,verlasst/verlasst euch,verlassen/verlassen sich
@@ -160,7 +160,7 @@ exercise,question,answer,german,english,french,ich,du,er/sie/es,wir,ihr,Sie
 32,,,planen,"to plan, to schedule","planifier, programmer",plane,planst,plant,planen,plant,planen
 32,,,üben,"to practise, to exercise, to rehearse","s'exercer, pratiquer, répéter",übe,übst,übt,üben,übt,üben
 33,,,verändern,"to alter, to change, to transform (refl.)","modifier, changer, se transformer (réfl.)",verändere/verändere mich,veränderst/veränderst dich,verändert/verändert sich,verändern/verändern uns,verändert/verändert euch,verändern/verändern sich
-33,,,stattfinden,"to take place, to occur","avoir lieu, se produire",finde statt,findest statt,findet statt,finden statt,findet statt,finden statt
+1000,,,stattfinden,"to take place, to occur","avoir lieu, se produire",finde statt,findest statt,findet statt,finden statt,findet statt,finden statt
 33,,,stimmen,"to be correct, to be true, to vote, to tune","être correct, être vrai, voter, accorder (un instrument)",stimme,stimmst,stimmt,stimmen,stimmt,stimmen
 33,,,versprechen,"to promise, to hold promise, to misspeak (refl.)","promettre, laisser espérer, faire un lapsus (réfl.)",verspreche/verspreche mich,versprichst/versprichst dich,verspricht/verspricht sich,versprechen/versprechen uns,versprecht/versprecht euch,versprechen/versprechen sich
 33,,,erkennen,"to recognise, to realise, to identify","reconnaître, se rendre compte, identifier",erkenne,erkennst,erkennt,erkennen,erkennt,erkennen
