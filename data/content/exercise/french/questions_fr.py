@@ -180,6 +180,14 @@ QUESTION_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>",
     },
 
+    verben: {
+        isolation:
+            "{french}",
+        prompt:
+            "{german}"
+            "<br><br><i>{french}</i>",
+    },
+
     adjektive: {
         isolation:
             "{french}",
@@ -193,15 +201,6 @@ QUESTION_SUBCATEGORY_FR = {
         context:
             "{question} \u25CF {adjective}"
             "<br><br><i>{french}</i>",
-    },
-
-    verben: {
-        isolation:
-            "{french}",
-        multiple_choice_native:
-            "{german}",
-        multiple_choice_target:
-            "{french}",
     },
 }
 

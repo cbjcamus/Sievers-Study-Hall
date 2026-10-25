@@ -129,6 +129,95 @@ def format_question(unit, exercise, language, question_id):
     return formatted_question
 
 
+praepositionen_dictionary = {
+    'ab': 'ab',
+    'als': 'als',
+    'an': 'an',
+    'an dem': 'an',
+    'am': 'an',
+    'an das': 'an',
+    'ans': 'an',
+    'auf': 'auf',
+    'aufm': 'auf',
+    'auf dem': 'auf',
+    'auf das': 'auf',
+    'aufs': 'auf',
+    'aus': 'aus',
+    'ausm': 'aus',
+    'aus dem': 'aus',
+    'außer': 'außer',
+    'bei': 'bei',
+    'bei dem': 'bei',
+    'beim': 'bei',
+    'bis': 'bis',
+    'durch': 'durch',
+    'durchs': 'durch',
+    'durch das': 'durch',
+    'für': 'für',
+    'fürs': 'für',
+    'für das': 'für',
+    'gegen': 'gegen',
+    'gegenüber': 'gegenüber',
+    'hinter': 'hinter',
+    'hinters': 'hinter',
+    'hinter das': 'hinter',
+    'hinterm': 'hinter',
+    'hinter dem': 'hinter',
+    'in': 'in',
+    'in dem': 'in',
+    'im': 'in',
+    'in das': 'in',
+    'ins': 'in',
+    'mit': 'mit',
+    'nach': 'nach',
+    'neben': 'neben',
+    'ohne': 'ohne',
+    'pro': 'pro',
+    'seit': 'seit',
+    'um': 'um',
+    'ums': 'um',
+    'um das': 'um',
+    'über': 'über',
+    'übers': 'über',
+    'über das': 'über',
+    'überm': 'über',
+    'über dem': 'über',
+    'unter': 'unter',
+    'unters': 'unter',
+    'unter das': 'unter',
+    'unterm': 'unter',
+    'unter dem': 'unter',
+    'von': 'von',
+    'von dem': 'von',
+    'vom': 'von',
+    'vor': 'vor',
+    'vors': 'vor',
+    'vor das': 'vor',
+    'wie': 'wie',
+    'zu': 'zu',
+    'zu dem' : 'zu',
+    'zum': 'zu',
+    'zu der': 'zu',
+    'zur': 'zu',
+    'zwischen': 'zwischen',
+}
+
+
+def format_praepositionen_link(input_string, language):
+    input_string = input_string.lower()
+
+    if input_string in list(praepositionen_dictionary.keys()):
+        if language == 'english':
+            return (f'<a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up#§'
+                    f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>')
+        else:
+            return (f'<a href="https://sieversstudyhall.substack.com/p/guide-des-prepositions-allemandes#§'
+                    f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>')
+
+    else:
+        return format_wiktionary_link(input_string, language)
+
+
 def format_wiktionary_link(input_string, language):
     if isinstance(input_string, list):
         return ", ".join(
@@ -158,7 +247,7 @@ def format_unique_link(input_string, language):
     if language == 'english':
         return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input_string}</a>'
     else:
-        return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#German" target="_blank">{input_string}</a>'
+        return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#Allemand" target="_blank">{input_string}</a>'
 
 
 def format_feedback(unit, exercise, language, question_id, user_answer=None, translation=None, commentary=None):
@@ -169,9 +258,10 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
     correct_answer_wiktionary = format_wiktionary_link(correct_answer, language)
+    correct_answer_praepositionen = format_praepositionen_link(correct_answer, language)
     correct_answers_list = get_list_of_correct_answers(correct_answer, unit, exercise, question_id)
-    correct_answers = ", ".join(format_unique_link(item, language) for item in correct_answers_list)
-    correct_answers_wiktionary = format_wiktionary_link(correct_answers_list, language)
+    correct_answers = ", ".join(item for item in correct_answers_list)
+    correct_answers_wiktionary = ", ".join(format_unique_link(item, language) for item in correct_answers_list)
     first_correct_answer = get_first_correct_answer(correct_answer)
     first_correct_answer_wiktionary = format_wiktionary_link(first_correct_answer, language)
     list_of_synonyms = get_list_of_correct_answers(correct_answer, unit, exercise, question_id, with_synonym_question=True)
@@ -212,7 +302,8 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
         previous_question=question_text,
         previous_question_wiktionary=previous_question_wiktionary,
         correct_answer=correct_answer,
-        correct_answer_wiktionary= correct_answer_wiktionary,
+        correct_answer_wiktionary=correct_answer_wiktionary,
+        correct_answer_praepositionen=correct_answer_praepositionen,
         correct_answers=correct_answers,
         correct_answers_wiktionary=correct_answers_wiktionary,
         list_of_synonyms=list_of_synonyms,

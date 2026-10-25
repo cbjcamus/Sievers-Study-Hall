@@ -348,7 +348,7 @@ guidance_praepositionen_prompt = (
     "Pour chaque question, une préposition allemande et une de ses fonctions seront présentées."
     "<br><br>Rédigez une phrase en allemand en utilisant cette préposition dans cette fonction précise."
 
-    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre des mots correct."
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
     f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
     f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de conjugaison ou d'orthographe,"
     f" sont acceptées tant que la phrase reste compréhensible et cohérente."
@@ -661,7 +661,7 @@ guidance_fragen_prompt = (
     "Pour chaque question, un mot interrogatif allemand et sa traduction française seront présentés."
     "<br><br>Écrivez une phrase en allemand utilisant ce mot interrogatif."
 
-    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre des mots correct."
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
     f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
     f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe,"
     f" sont acceptées tant que la phrase reste compréhensible et cohérente."
@@ -741,7 +741,7 @@ guidance_adverbien_prompt = (
     "Pour chaque question, un adverbe allemand et sa traduction française seront présentés."
     "<br><br>Écrivez une phrase en allemand utilisant cet adverbe."
 
-    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre des mots correct."
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
     f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
     f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe,"
     f" sont acceptées tant que la phrase reste compréhensible et cohérente."
@@ -758,6 +758,167 @@ guidance_adverbien_prompt = (
     f"<br><br> &nbsp; {ICON_CROSS} Heute ich esse ein Sandwich. (Ordre des mots incorrect)"
     f"<br><br> &nbsp; {ICON_CHECK} Heute esse ich eine Sandwich. (Erreur acceptable)"
     f"<br><br> &nbsp; {ICON_CROSS} Heute esse ich Wasser. (Phrase incohérente)"
+)
+
+guidance_verben_translation = (
+    "Pour chaque question, la traduction française d’un verbe allemand sera présentée."
+    "<br>Donnez le verbe allemand correspondant à l’ensemble de la traduction."
+
+    f"<br><br> {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+
+    "<h2>Exemple</h2>"
+    "rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
+    f"<br><br> &nbsp; {ICON_CHECK} sich freuen"
+    f"<br><br> &nbsp; {ICON_CROSS} freuen"
+)
+
+guidance_verben_prompt = (
+    "Pour chaque question, un verbe allemand et sa traduction française seront présentés."
+    "<br><br>Écrivez une phrase en allemand utilisant ce verbe."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemples</h2>"
+    f"essen"
+    f"<br><br><i>manger</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Ich esse heute ein Sandwich."
+    f"<br><br> &nbsp; {ICON_CROSS} Heute ich esse ein Sandwich. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Heute esse ich eine Sandwich. (Erreur acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich esse ein Auto. (Phrase incohérente)"
+)
+
+guidance_trennbare_verben_root = (
+    "Pour chaque question, la traduction française d’un verbe allemand (séparable ou inséparable)"
+    " ainsi que sa racine seront présentées."
+    "<br><br>Trouvez le verbe allemand correspondant à la traduction et à la racine."
+
+    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
+    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+
+    "<h2>Exemple</h2>"
+    "tirer, traîner, déplacer → ziehen"
+    "<br><br>s'habiller, mettre, habiller quelqu'un, attirer, tirer → _____"
+    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
+)
+
+guidance_trennbare_verben_prefix = (
+    "Pour chaque question, la traduction française d’un verbe allemand (séparable ou inséparable)"
+    " ainsi que son préfixe seront présentés."
+    "<br><br>Donnez le verbe allemand correspondant à la traduction et au préfixe."
+
+    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
+    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+
+    "<h2>Exemple</h2>"
+    "s'habiller, mettre, habiller quelqu'un, attirer, tirer \u25CF an"
+    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
+)
+
+guidance_trennbare_verben_no_help = (
+    "Pour chaque question, la traduction française d’un verbe allemand (séparable ou inséparable) sera présentée."
+    "<br><br>Trouvez le verbe allemand correspondant à l’ensemble de la traduction."
+
+    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
+    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+
+    "<h2>Exemple</h2>"
+    "s'habiller, mettre, habiller quelqu'un, attirer, tirer"
+    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
+)
+
+guidance_nomen_verben_verbindungen_nomen_isolation = (
+    "Pour chaque question, une combinaison nom-verbe allemande incomplète et sa traduction française seront présentées."
+    "<br><br>Trouvez le nom allemand qui complète cette combinaison."
+
+    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un article et/ou une préposition."
+
+    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, cliquez sur le bouton m/f/n/pl."
+
+    "<h2>Exemples</h2>"
+    "_____ haben"
+    "<br><br><i>avoir une opinion, penser</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} eine Meinung"
+    f"<br><br> &nbsp; {ICON_CHECK} eine Ansicht"
+    f"<br><br> &nbsp; {ICON_CROSS} eine Meinung, eine Ansicht"
+    f"<br><br> &nbsp; {ICON_CROSS} Meinung"
+    f"<br><br> &nbsp; {ICON_CROSS} ein Meinung"
+
+    "<br><br>_____ nehmen"
+    "<br><br><i>accepter</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} in Kauf"
+    f"<br><br> &nbsp; {ICON_CROSS} Kauf"
+)
+
+guidance_nomen_verben_verbindungen_verben_isolation = (
+    "Pour chaque question, une combinaison nom-verbe allemande incomplète et sa traduction française seront présentées."
+    "<br><br>Trouvez le verbe allemand qui complète cette combinaison."
+
+    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+
+    "<h2>Exemple</h2>"
+    "eine Meinung _____"
+    "<br><br><i>avoir une opinion, penser</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} haben"
+    f"<br><br> &nbsp; {ICON_CHECK} vertreten"
+    f"<br><br> &nbsp; {ICON_CROSS} haben, vertreten"
+)
+
+guidance_nomen_verben_verbindungen_nomen_sentences = (
+    "Pour chaque question, une phrase allemande incomplète et sa traduction française seront présentées."
+    "<br><br>Trouvez le nom allemand qui complète cette phrase."
+
+    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter une préposition."
+
+    "<h2>Exemples</h2>"
+    "Ich habe eine andere _____ als du."
+    "<br><br><i>J’ai une opinion différente de la tienne.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Meinung"
+    f"<br><br> &nbsp; {ICON_CHECK} Ansicht"
+    f"<br><br> &nbsp; {ICON_CROSS} Meinung, Ansicht"
+
+    "<br><br>Ich will dieses Projekt unbedingt _____ bringen, bevor ich in den Urlaub fahre."
+    "<br><br><i>Je veux absolument terminer ce projet avant de partir en vacances.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} zu Ende"
+    f"<br><br> &nbsp; {ICON_CHECK} zum Abschluss"
+    f"<br><br> &nbsp; {ICON_CROSS} Ende"
+    f"<br><br> &nbsp; {ICON_CROSS} Abschluss"
+    f"<br><br> &nbsp; {ICON_CROSS} zu Ende, zum Abschluss"
+)
+
+guidance_nomen_verben_verbindungen_verben_sentences = (
+    "Pour chaque question, une phrase allemande incomplète et sa traduction française seront présentées."
+    "<br><br>Trouvez le verbe allemand qui complète cette phrase."
+
+    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
+    f"<br><br> {ICON_WARN} Le verbe doit être conjugué au temps et à la personne appropriés."
+
+    "<h2>Exemple</h2>"
+    "Sie _____ den Vorschlag, gemeinsam zu reisen."
+    "<br><br><i>Elle a fait la proposition de voyager ensemble.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} machte"
+    f"<br><br> &nbsp; {ICON_CHECK} unterbreitete"
+    f"<br><br> &nbsp; {ICON_CROSS} machte, unterbreitete"
+    f"<br><br> &nbsp; {ICON_CROSS} macht"
+    f"<br><br> &nbsp; {ICON_CROSS} machen"
 )
 
 guidance_adjektive_isolation = (
@@ -900,178 +1061,6 @@ guidance_adjektivdeklinationen_superlative_sentences = (
     "<h2>Exemple</h2>"
     "Die _____ Blume steht auf dem Tisch. \u25CF schön"
     f"<br><br> &nbsp; {ICON_CHECK} schönste"
-)
-
-guidance_verben_translation = (
-    "Pour chaque question, la traduction française d’un verbe allemand sera présentée."
-    "<br>Donnez le verbe allemand correspondant à l’ensemble de la traduction."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement toute la traduction."
-    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
-
-    "<h2>Exemple</h2>"
-    "rendre heureux, être heureux (réfl.), attendre avec impatience (réfl.)"
-    f"<br><br> &nbsp; {ICON_CHECK} sich freuen"
-    f"<br><br> &nbsp; {ICON_CROSS} freuen"
-)
-
-guidance_verben_multiple_choices_french_to_german = (
-    "Pour chaque question, la traduction française d’un verbe allemand et cinq verbes allemands seront présentés."
-    "<br>Sélectionnez le verbe allemand correspondant à l’ensemble de la traduction."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement toute la traduction."
-
-    "<h2>Exemple</h2>"
-    "remplacer, substituer, compenser"
-    "<br><br>ersetzen"
-    "<br>leiden"
-    "<br>diskutieren"
-    "<br>rufen"
-    "<br>vorschlagen"
-    f"<br><br> &nbsp; {ICON_CHECK} ersetzen"
-)
-
-guidance_verben_multiple_choices_german_to_french = (
-    "Pour chaque question, un verbe allemand et cinq traductions françaises possibles seront présentés."
-    "<br>Sélectionnez la traduction qui correspond au verbe allemand."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
-
-    "<h2>Exemple</h2>"
-    "ersetzen"
-    "<br><br>remplacer, substituer, compenser"
-    "<br>souffrir, endurer, supporter"
-    "<br>discuter, débattre"
-    "<br>appeler, crier, convoquer"
-    "<br>suggérer, proposer"
-    f"<br><br> &nbsp; {ICON_CHECK} remplacer, substituer, compenser"
-)
-
-guidance_trennbare_verben_root = (
-    "Pour chaque question, la traduction française d’un verbe allemand (séparable ou inséparable)"
-    " ainsi que sa racine seront présentées."
-    "<br><br>Trouvez le verbe allemand correspondant à la traduction et à la racine."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
-    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
-
-    "<h2>Exemple</h2>"
-    "tirer, traîner, déplacer → ziehen"
-    "<br><br>s'habiller, mettre, habiller quelqu'un, attirer, tirer → _____"
-    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
-)
-
-guidance_trennbare_verben_prefix = (
-    "Pour chaque question, la traduction française d’un verbe allemand (séparable ou inséparable)"
-    " ainsi que son préfixe seront présentés."
-    "<br><br>Donnez le verbe allemand correspondant à la traduction et au préfixe."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
-    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
-
-    "<h2>Exemple</h2>"
-    "s'habiller, mettre, habiller quelqu'un, attirer, tirer \u25CF an"
-    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
-)
-
-guidance_trennbare_verben_no_help = (
-    "Pour chaque question, la traduction française d’un verbe allemand (séparable ou inséparable) sera présentée."
-    "<br><br>Trouvez le verbe allemand correspondant à l’ensemble de la traduction."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
-    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
-
-    "<h2>Exemple</h2>"
-    "s'habiller, mettre, habiller quelqu'un, attirer, tirer"
-    f"<br><br> &nbsp; {ICON_CHECK} anziehen"
-)
-
-guidance_nomen_verben_verbindungen_nomen_isolation = (
-    "Pour chaque question, une combinaison nom-verbe allemande incomplète et sa traduction française seront présentées."
-    "<br><br>Trouvez le nom allemand qui complète cette combinaison."
-
-    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br> {ICON_WARN} La réponse peut nécessiter un article et/ou une préposition."
-
-    f"<br><br>➡️ Si vous avez besoin d'aide pour le genre du nom commun, cliquez sur le bouton m/f/n/pl."
-    
-    "<h2>Exemples</h2>"
-    "_____ haben"
-    "<br><br><i>avoir une opinion, penser</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} eine Meinung"
-    f"<br><br> &nbsp; {ICON_CHECK} eine Ansicht"
-    f"<br><br> &nbsp; {ICON_CROSS} eine Meinung, eine Ansicht"
-    f"<br><br> &nbsp; {ICON_CROSS} Meinung"
-    f"<br><br> &nbsp; {ICON_CROSS} ein Meinung"
-
-    "<br><br>_____ nehmen"
-    "<br><br><i>accepter</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} in Kauf"
-    f"<br><br> &nbsp; {ICON_CROSS} Kauf"
-)
-
-guidance_nomen_verben_verbindungen_verben_isolation = (
-    "Pour chaque question, une combinaison nom-verbe allemande incomplète et sa traduction française seront présentées."
-    "<br><br>Trouvez le verbe allemand qui complète cette combinaison."
-
-    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-
-    "<h2>Exemple</h2>"
-    "eine Meinung _____"
-    "<br><br><i>avoir une opinion, penser</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} haben"
-    f"<br><br> &nbsp; {ICON_CHECK} vertreten"
-    f"<br><br> &nbsp; {ICON_CROSS} haben, vertreten"
-)
-
-guidance_nomen_verben_verbindungen_nomen_sentences = (
-    "Pour chaque question, une phrase allemande incomplète et sa traduction française seront présentées."
-    "<br><br>Trouvez le nom allemand qui complète cette phrase."
-
-    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br> {ICON_WARN} La réponse peut nécessiter une préposition."
-
-    "<h2>Exemples</h2>"
-    "Ich habe eine andere _____ als du."
-    "<br><br><i>J’ai une opinion différente de la tienne.</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} Meinung"
-    f"<br><br> &nbsp; {ICON_CHECK} Ansicht"
-    f"<br><br> &nbsp; {ICON_CROSS} Meinung, Ansicht"
-
-    "<br><br>Ich will dieses Projekt unbedingt _____ bringen, bevor ich in den Urlaub fahre."
-    "<br><br><i>Je veux absolument terminer ce projet avant de partir en vacances.</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} zu Ende"
-    f"<br><br> &nbsp; {ICON_CHECK} zum Abschluss"
-    f"<br><br> &nbsp; {ICON_CROSS} Ende"
-    f"<br><br> &nbsp; {ICON_CROSS} Abschluss"
-    f"<br><br> &nbsp; {ICON_CROSS} zu Ende, zum Abschluss"
-)
-
-guidance_nomen_verben_verbindungen_verben_sentences = (
-    "Pour chaque question, une phrase allemande incomplète et sa traduction française seront présentées."
-    "<br><br>Trouvez le verbe allemand qui complète cette phrase."
-
-    f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
-    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
-    f"<br><br> {ICON_WARN} Le verbe doit être conjugué au temps et à la personne appropriés."
-
-    "<h2>Exemple</h2>"
-    "Sie _____ den Vorschlag, gemeinsam zu reisen."
-    "<br><br><i>Elle a fait la proposition de voyager ensemble.</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} machte"
-    f"<br><br> &nbsp; {ICON_CHECK} unterbreitete"
-    f"<br><br> &nbsp; {ICON_CROSS} machte, unterbreitete"
-    f"<br><br> &nbsp; {ICON_CROSS} macht"
-    f"<br><br> &nbsp; {ICON_CROSS} machen"
 )
 
 guidance_nomen_verben_wortstaemme_verben = (
@@ -1303,6 +1292,42 @@ guidance_zahlen_genitive_sentence = (
     f"<br><br> &nbsp; {ICON_CROSS} von vier (la déclinaison de l'adjectif ne correspond pas)"
 )
 
+'''
+guidance_verben_multiple_choices_french_to_german = (
+    "Pour chaque question, la traduction française d’un verbe allemand et cinq verbes allemands seront présentés."
+    "<br>Sélectionnez le verbe allemand correspondant à l’ensemble de la traduction."
+
+    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
+    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement toute la traduction."
+
+    "<h2>Exemple</h2>"
+    "remplacer, substituer, compenser"
+    "<br><br>ersetzen"
+    "<br>leiden"
+    "<br>diskutieren"
+    "<br>rufen"
+    "<br>vorschlagen"
+    f"<br><br> &nbsp; {ICON_CHECK} ersetzen"
+)
+
+guidance_verben_multiple_choices_german_to_french = (
+    "Pour chaque question, un verbe allemand et cinq traductions françaises possibles seront présentés."
+    "<br>Sélectionnez la traduction qui correspond au verbe allemand."
+
+    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
+    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
+
+    "<h2>Exemple</h2>"
+    "ersetzen"
+    "<br><br>remplacer, substituer, compenser"
+    "<br>souffrir, endurer, supporter"
+    "<br>discuter, débattre"
+    "<br>appeler, crier, convoquer"
+    "<br>suggérer, proposer"
+    f"<br><br> &nbsp; {ICON_CHECK} remplacer, substituer, compenser"
+)
+'''
+
 GUIDANCE_SUBCATEGORY_FR = {
     praepositionen: {
         isolation: guidance_praepositionen_isolation,
@@ -1348,17 +1373,15 @@ GUIDANCE_SUBCATEGORY_FR = {
         prompt: guidance_adverbien_prompt,
     },
 
+    verben: {
+        isolation: guidance_verben_translation,
+        prompt: guidance_verben_prompt,
+    },
+
     adjektive: {
         isolation: guidance_adjektive_isolation,
         synonym: guidance_adjektive_synonym,
     },
-
-    verben: {
-        isolation: guidance_verben_translation,
-        multiple_choice_native: guidance_verben_multiple_choices_german_to_french,
-        multiple_choice_target: guidance_verben_multiple_choices_french_to_german,
-    },
-
 }
 
 GUIDANCE_CATEGORY_FR = {
@@ -1678,23 +1701,23 @@ GUIDANCE_EXERCISE_FR = {
         84: guidance_trennbare_verben_prefix,
         85: guidance_trennbare_verben_prefix,
         86: guidance_trennbare_verben_prefix,
-        87: guidance_verben_multiple_choices_french_to_german,
-        88: guidance_verben_multiple_choices_french_to_german,
-        89: guidance_verben_multiple_choices_french_to_german,
-        90: guidance_verben_multiple_choices_french_to_german,
-        91: guidance_verben_multiple_choices_french_to_german,
-        92: guidance_verben_multiple_choices_french_to_german,
-        93: guidance_verben_multiple_choices_french_to_german,
-        94: guidance_verben_multiple_choices_french_to_german,
-        95: guidance_verben_multiple_choices_french_to_german,
-        96: guidance_verben_multiple_choices_french_to_german,
-        97: guidance_verben_multiple_choices_french_to_german,
-        98: guidance_verben_multiple_choices_french_to_german,
-        99: guidance_verben_multiple_choices_french_to_german,
-        100: guidance_verben_multiple_choices_french_to_german,
-        101: guidance_verben_multiple_choices_french_to_german,
-        102: guidance_verben_multiple_choices_french_to_german,
-        103: guidance_verben_multiple_choices_french_to_german,
+        87: guidance_trennbare_verben_no_help,
+        88: guidance_trennbare_verben_no_help,
+        89: guidance_trennbare_verben_no_help,
+        90: guidance_trennbare_verben_no_help,
+        91: guidance_trennbare_verben_no_help,
+        92: guidance_trennbare_verben_no_help,
+        93: guidance_trennbare_verben_no_help,
+        94: guidance_trennbare_verben_no_help,
+        95: guidance_trennbare_verben_no_help,
+        96: guidance_trennbare_verben_no_help,
+        97: guidance_trennbare_verben_no_help,
+        98: guidance_trennbare_verben_no_help,
+        99: guidance_trennbare_verben_no_help,
+        100: guidance_trennbare_verben_no_help,
+        101: guidance_trennbare_verben_no_help,
+        102: guidance_trennbare_verben_no_help,
+        103: guidance_trennbare_verben_no_help,
     },
 
     nomen_verben_verbindungen: {

@@ -180,6 +180,14 @@ QUESTION_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>",
     },
 
+    verben: {
+        isolation:
+            "{english}",
+        prompt:
+            "{german}"
+            "<br><br><i>{english}</i>",
+    },
+
     adjektive: {
         isolation:
             "{english}",
@@ -193,15 +201,6 @@ QUESTION_SUBCATEGORY_EN = {
         context:
             "{question} \u25CF {adjective}"
             "<br><br><i>{english}</i>",
-    },
-
-    verben: {
-        isolation:
-            "{english}",
-        multiple_choice_native:
-            "{german}",
-        multiple_choice_target:
-            "{english}",
     },
 }
 

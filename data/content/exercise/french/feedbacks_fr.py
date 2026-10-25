@@ -137,10 +137,10 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answer_praepositionen}",
         isolation:
             "{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answer_praepositionen}",
         synonym:
             "{french} = {correct_answers}",
         antonym:
@@ -245,11 +245,13 @@ FEEDBACK_SUBCATEGORY_FR = {
 
     verben: {
         isolation:
-            "{french} = {correct_answer_wiktionary}",
-        multiple_choice_native:
-            "{german_wiktionary} = {correct_answer}",
-        multiple_choice_target:
-            "{french} = {correct_answer_wiktionary}",
+            "{english} = {first_correct_answer_wiktionary}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "{commentary}",
     },
 
     nomen_verben_verbindungen: {

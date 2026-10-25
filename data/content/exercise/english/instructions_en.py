@@ -24,9 +24,6 @@ INSTRUCTION_UNIT_EN = {
     adjektive_konjunktionen:
         "Complete the following sentence with the word that fits:",
 
-    verben:
-        "Translate the following verb:",
-
     praesens:
         "Conjugate the following verb in the present tense:",
 
@@ -104,6 +101,11 @@ INSTRUCTION_SUBCATEGORY_EN = {
         synonym: "Find a synonym for the following adverb:",
         antonym: "Write an antonym of the following adverb:",
         prompt: "Write one or two sentences using the following adverb:"
+    },
+
+    verben: {
+        isolation: "Translate the following verb:",
+        prompt: "Write one or two sentences using the following verb:",
     },
 
     adjektive: {

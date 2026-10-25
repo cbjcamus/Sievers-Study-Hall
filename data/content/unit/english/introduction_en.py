@@ -130,8 +130,7 @@ INTRODUCTION_EN = {
     ,
 
     verben:
-        "English to German verb translation exercises at A1 and A2."
-        "<br><br>Multiple-choice questions at B1 and B2, with both English to German and German to English translations."
+        "English to German verb translation exercises in addition to writing exercises up to level C1."
     ,
     trennbare_verben:
         "Separable and inseparable verbs to translate from English, with either the root or the prefix as a hint."

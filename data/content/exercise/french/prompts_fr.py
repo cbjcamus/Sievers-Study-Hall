@@ -12,6 +12,41 @@ from data.data_processing.units import (
     zahlen, alpha,
 )
 
+prompt_praepositionen = """
+You are evaluating a focused German preposition exercise.
+
+Target preposition function: {french}
+
+Student sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target preposition used in the clause or phrase containing it, and in the function described?
+Consider only errors relevant to the use of the target preposition, including the article that follows and the grammatical case (accusative, dative or genitive). 
+If the target preposition is used correctly but not in the function intended, then the inquiry is incorrect. 
+In particular, if the function describes a position but the user's sentence describe a movement or direction, then the inquiry is incorrect (and vice-versa).  
+If the word order is wrong, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as gender of nouns, adjective declensions, verb conjugation, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in French.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target adverb.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in French.
+"""
+
 prompt_konnektoren = """
 You are evaluating a focused German connector exercise.
 
@@ -108,6 +143,38 @@ If there are none, return "none".
 Commentary should be in French.
 """
 
+prompt_verben = """
+You are evaluating a focused German verb exercise.
+
+Target verb: {german} (French: {french})
+
+Student sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target verb correctly used in the sentence or couple of sentences containing it?
+Consider only errors relevant to the use of the target verb. If the word order is wrong, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as declensions, articles, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in French.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target verb.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in French.
+"""
+
 PROMPT_UNIT_FR = {
     alpha: prompt_konnektoren,
 }
@@ -117,6 +184,10 @@ PROMPT_CATEGORY_FR = {
 }
 
 PROMPT_SUBCATEGORY_FR = {
+    praepositionen: {
+        prompt: prompt_praepositionen
+    },
+
     konnektoren: {
         prompt: prompt_konnektoren,
     },
@@ -127,6 +198,10 @@ PROMPT_SUBCATEGORY_FR = {
 
     adverbien: {
         prompt: prompt_adverbien,
+    },
+
+    verben: {
+        prompt: prompt_verben,
     },
 }
 

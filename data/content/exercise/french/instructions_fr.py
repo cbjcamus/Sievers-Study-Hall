@@ -24,9 +24,6 @@ INSTRUCTION_UNIT_FR = {
     adjektive_konjunktionen:
         "Complétez la phrase suivante avec le mot qui convient :",
 
-    verben:
-        "Traduisez le verbe suivant :",
-
     praesens:
         "Conjuguez le verbe suivant au présent :",
 
@@ -104,6 +101,11 @@ INSTRUCTION_SUBCATEGORY_FR = {
         prompt: "Écrivez une ou deux phrases utilisant l'adverbe suivant :",
         synonym: "Trouvez un synonyme pour l'adverbe suivant :",
         antonym: "Trouvez un antonyme pour l'adverbe suivant :",
+    },
+
+    verben: {
+        isolation: "Traduisez le verbe suivant :",
+        prompt: "Rédigez une ou deux phrases utilisant le verbe suivant :"
     },
 
     adjektive: {

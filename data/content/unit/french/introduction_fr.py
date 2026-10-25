@@ -90,8 +90,7 @@ INTRODUCTION_FR = {
     ,
 
     verben:
-        "Traduction du français vers l'allemand aux niveaux A1 et A2."
-        "<br><br>Questions à choix multiple aux niveaux B1 et B2."
+        "Exercices de traduction du français vers l'allemand, accompagnés d'exercices de rédaction."
     ,
     trennbare_verben:
         "Verbes séparables et inséparables à traduire avec la racine ou le préfixe comme aide."

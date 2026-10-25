@@ -137,10 +137,10 @@ FEEDBACK_SUBCATEGORY_EN = {
             "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answer_praepositionen}",
         isolation:
             "{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answer_praepositionen}",
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
@@ -247,11 +247,13 @@ FEEDBACK_SUBCATEGORY_EN = {
 
     verben: {
         isolation:
-            "{english} = {correct_answer_wiktionary}",
-        multiple_choice_native:
-            "{german_wiktionary} = {correct_answer}",
-        multiple_choice_target:
-            "{english} = {correct_answer_wiktionary}",
+            "{english} = {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "{commentary}",
     },
 
     nomen_verben_verbindungen: {
