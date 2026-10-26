@@ -147,7 +147,7 @@ Evaluate each field independently.
 
 inquiry_correct:
 Is the target verb correctly used in the sentence or couple of sentences containing it?
-Consider only errors relevant to the use of the target verb. If the word order is wrong, then the inquiry is incorrect.
+Consider only errors relevant to the use of the target verb. If the word order is wrong at the level of the verb, then the inquiry is incorrect.
 Unrelated grammatical errors elsewhere (such as declensions, articles, typos in other words, commas) must not affect this field.
 
 meaning_coherent:

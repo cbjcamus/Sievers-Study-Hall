@@ -12,7 +12,7 @@
 }
 
 .unit-table td:nth-child(1) {
-    width: 30%;
+    width: 35%;
 }
 
 .unit-table td:nth-child(2) {
@@ -24,7 +24,7 @@
 }
 
 .unit-table td:nth-child(4) {
-    width: 60%;
+    width: 55%;
 }
 
 @media (max-width: 768px) {
