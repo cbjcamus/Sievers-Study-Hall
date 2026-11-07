@@ -39,13 +39,13 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target preposition.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 prompt_praepositionen_verben = """
 You are evaluating a focused German verbe-preposition pair exercise.
 
-Target verb-preposition pair: {german} ({english})
+Target verb-preposition pair: {german}{case_english} ({english})
 
 Student sentence:
 "{user_answer}"
@@ -77,7 +77,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target verb-preposition pair.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 prompt_konnektoren = """
@@ -112,7 +112,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target connector.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 prompt_fragen = """
@@ -147,7 +147,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target question word.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 prompt_adverbien = """
@@ -182,7 +182,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target adverb.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 prompt_verben = """
@@ -217,7 +217,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target verb.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 prompt_adjektive = """
@@ -253,7 +253,7 @@ If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target adjective.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
-Commentary should be in English.
+Commentary should be in English. Use line breaks (<br>) to add some clarity if necessary.
 """
 
 PROMPT_UNIT_EN = {

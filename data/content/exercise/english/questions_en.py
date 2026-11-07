@@ -122,8 +122,8 @@ QUESTION_SUBCATEGORY_EN = {
             "{question}"
             "<br><br><i>{english}</i>",
         prompt:
-            "{german}"
-            "<br><br><i>{english}</i>{case_english}",
+            "{german}{case_english}"
+            "<br><br><i>{english}</i>",
     },
 
     praepositionen_adjektive: {
