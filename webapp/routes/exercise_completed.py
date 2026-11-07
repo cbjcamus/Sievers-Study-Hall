@@ -24,9 +24,12 @@ def render_exercise_completed_template(session, unit, exercise, language):
     user_answer = feedback.get("user_answer")
     previous_question_id = feedback.get("previous_question_id")
     translation = feedback.get("translation")
+    cefr_level = feedback.get("cefr_level")
+    commentary = feedback.get("commentary")
 
     previous_question = format_question(unit, exercise, language, previous_question_id)
-    feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation)
+    feedback_message = format_feedback(unit, exercise, language, previous_question_id,
+                                       user_answer, translation, cefr_level, commentary)
 
     if current_user.is_authenticated:
         incorrect = get_incorrect_answers(session, unit, exercise)

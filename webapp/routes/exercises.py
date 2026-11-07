@@ -127,9 +127,9 @@ def exercise_page(unit, exercise):
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
 
-    result, user_answer, previous_question_id, translation, commentary = read_feedback(session)
+    result, user_answer, previous_question_id, translation, cefr_level, commentary = read_feedback(session)
 
-    feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation)
+    feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation, cefr_level, commentary)
     previous_question = load_question_text(unit, exercise, previous_question_id)
     correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 
@@ -223,13 +223,25 @@ def check_answer(unit, exercise):
     user_answer = request.form.get('answer', '')
     question_id = request.form.get('nr')
 
+    # Validate question_id
+    if question_id is None or not question_id.isdecimal():
+        abort(400, description="Invalid question ID")
+
     if is_exercise_prompt(unit, exercise):
         prompt = format_prompt(unit, exercise, language, question_id, user_answer)
         response = get_response_from_prompt(unit, exercise, prompt)
+
+        if not isinstance(response, dict):
+            abort(503, description="The correction service is temporarily unavailable")
+
         is_answer_correct = response['inquiry_correct'] == 'yes' and response['meaning_coherent'] == 'yes'
+
         translation = response.get("translation", "")
+        cefr_level = response.get("cefr_level", "")
         commentary = response.get("commentary", "")
+
         update_session_dictionary(session, "feedback", "translation", translation)
+        update_session_dictionary(session, "feedback", "cefr_level", cefr_level)
         update_session_dictionary(session, "feedback", "commentary", commentary)
     else:
         is_answer_correct = is_user_answer_correct(unit, exercise, question_id, user_answer, language)
@@ -241,7 +253,7 @@ def check_answer(unit, exercise):
     elif question_id not in session[unit][str(exercise)]['falses']:
         if is_exercise_prompt(unit, exercise):
             register_incorrect_answer(session, unit, exercise, question_id, user_answer,
-                                      translation=translation, commentary=commentary)
+                                      translation=translation, cefr_level=cefr_level, commentary=commentary)
         else:
             register_incorrect_answer(session, unit, exercise, question_id, user_answer)
 
@@ -293,9 +305,9 @@ def feedback_page(unit, exercise):
     formated_instruction = format_instruction(unit, exercise, language)
     formated_question_text = format_question(unit, exercise, language, question_id)
 
-    result, user_answer, previous_question_id, translation, commentary = read_feedback(session)
+    result, user_answer, previous_question_id, translation, cefr_level, commentary = read_feedback(session)
 
-    feedback_message = format_feedback(unit, exercise, language, question_id, user_answer, translation, commentary)
+    feedback_message = format_feedback(unit, exercise, language, question_id, user_answer, translation, cefr_level, commentary)
     previous_question = format_question(unit, exercise, language, question_id)
     correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
 

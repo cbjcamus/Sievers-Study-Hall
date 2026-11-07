@@ -39,10 +39,6 @@ FEEDBACK_UNIT_FR = {
         "<br><br>{explanation_french}"
         "<br><br>Réponse(s) correcte(s): {correct_answers_bullet_points}",
 
-    adjektive:
-        "{french} = {correct_answers}"
-        "{explanation_french}",
-
     komparativ_superlativ:
         "{explanation_french}"
         "<br><br><i>{french}</i>"
@@ -152,6 +148,7 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -163,6 +160,12 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     praepositionen_adjektive: {
@@ -200,6 +203,7 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -216,6 +220,7 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -240,17 +245,19 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
     verben: {
         isolation:
-            "{english} = {first_correct_answer_wiktionary}"
+            "{french} = {first_correct_answer_wiktionary}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -264,6 +271,18 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+    },
+
+    adjektive: {
+        isolation:
+            "{french} = {correct_answers}"
+            "{explanation_french}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     adjektivdeklinationen: {

@@ -15,7 +15,7 @@
 
     {{ render_title("Settings") }}
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Theme</h2>
         <table class="settings-table">
             <tr>
@@ -30,7 +30,7 @@
         </table>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Feedback Page</h2>
         <table class="settings-table">
             <tr>
@@ -45,7 +45,7 @@
         </table>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Special Characters Buttons</h2>
         <table class="settings-table">
             <tr>
@@ -60,7 +60,7 @@
         </table>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Instruction Page</h2>
         <table class="settings-table">
             <tr>
@@ -75,7 +75,7 @@
         </table>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Hide Options</h2>
         <table class="settings-table">
             <tr>
@@ -91,7 +91,7 @@
     </div>
 
     {% if current_user.is_authenticated %}
-    <div class="section">
+    <div class="section no-border">
         <h2>Account</h2>
         <p>You are connected with {{ email }}</p>
 
@@ -101,7 +101,7 @@
     </div>
     {% endif %}
 
-    <div class="section">
+    <div class="section no-border">
         <h2>News and Updates</h2>
 
         <p>To stay up-to-date and receive the latest news in your inbox, subscribe to the Substack newsletter.</p>

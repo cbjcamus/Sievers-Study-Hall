@@ -10,7 +10,6 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 1,,dürfen,,"to be allowed (to do something), may","être autorisé (à faire quelque chose), pouvoir","dürfen = to be allowed (to do something), may","dürfen = être autorisé (à faire quelque chose), pouvoir"
 1,,wissen,,"to know, to have knowledge",savoir,"wissen = to know, to have knowledge",wissen = savoir
 1,,machen,,"to make, to prepare, to do","faire, préparer","machen = to make, to prepare, to do","machen = faire, préparer"
-1,,tun,,"to do, to do something to someone","faire, faire quelque chose à quelqu'un","tun = to do, to do something to someone","tun = faire, faire quelque chose à quelqu'un"
 1,,sagen,,"to say, to tell",dire,"sagen = to say, to tell",sagen = dire
 1,,gehen,,"to go, to leave, to work, to function (coll.), to be doing (Dat.)","aller, partir, fonctionner (familier), se porter (état de santé)","gehen = to go, to leave, to work, to function (coll.), to be doing (Dat.)","gehen = aller, partir, fonctionner (familier), se porter (état de santé)"
 1,,sehen,,"to see, to realise","voir, se rendre compte","sehen = to see, to realise","sehen = voir, se rendre compte"
@@ -19,7 +18,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 1,,glauben,,to believe,croire,glauben = to believe,glauben = croire
 1,,reden,,to talk,"parler, discuter",reden = to talk,"reden = parler, discuter"
 1,,hören,,"to hear, to listen to","entendre, écouter","hören = to hear, to listen to","hören = entendre, écouter"
-2,,finden,,to find,trouver,finden = to find,finden = trouver
+1,,finden,,to find,trouver,finden = to find,finden = trouver
 2,,bleiben,,"to remain, to stay",rester,"bleiben = to remain, to stay",bleiben = rester
 2,,brauchen,,to need,avoir besoin de,brauchen = to need,brauchen = avoir besoin de
 2,,lieben,,to love,"aimer, être amoureux de",lieben = to love,"lieben = aimer, être amoureux de"
@@ -39,7 +38,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 2,,arbeiten,,to work,travailler,arbeiten = to work,arbeiten = travailler
 2,,essen,,to eat,manger,essen = to eat,essen = manger
 2,,anziehen,,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre (un vêtement), habiller quelqu'un, attirer, tirer","anziehen = to get dressed, to put on, to dress someone, to attract, to pull","anziehen = s'habiller, mettre (un vêtement), habiller quelqu'un, attirer, tirer"
-3,,ausziehen,,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)","ausziehen = to take something off, to undress, to pull out, to move out","ausziehen = enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)"
+2,,ausziehen,,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)","ausziehen = to take something off, to undress, to pull out, to move out","ausziehen = enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)"
 3,,spielen,,to play,jouer,spielen = to play,spielen = jouer
 3,,fahren,,"to go (by vehicle), to leave, to drive","aller (en véhicule), partir, conduire","fahren = to go (by vehicle), to leave, to drive","fahren = aller (en véhicule), partir, conduire"
 3,,erzählen,,"to tell, to narrate","raconter, narrer","erzählen = to tell, to narrate","erzählen = raconter, narrer"
@@ -59,15 +58,15 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 3,,wohnen,,"to live, to reside, to dwell","vivre, résider, habiter","wohnen = to live, to reside, to dwell","wohnen = vivre, résider, habiter"
 3,,schreiben,,to write,écrire,schreiben = to write,schreiben = écrire
 3,,tragen,,"to wear (clothing), to carry, to bear, to support","porter (des vêtements), transporter, supporter, soutenir","tragen = to wear (clothing), to carry, to bear, to support","tragen = porter (des vêtements), transporter, supporter, soutenir"
-4,,ziehen,,"to pull, to drag, to move","tirer, traîner, déplacer, déménager","ziehen = to pull, to drag, to move","ziehen = tirer, traîner, déplacer, déménager"
+3,,ziehen,,"to pull, to drag, to move","tirer, traîner, déplacer, déménager","ziehen = to pull, to drag, to move","ziehen = tirer, traîner, déplacer, déménager"
 4,,lesen,,to read,lire,lesen = to read,lesen = lire
 4,,kosten,,"to cost, to taste","coûter, goûter","kosten = to cost, to taste","kosten = coûter, goûter"
 4,,wiederholen,,to repeat,répéter,wiederholen = to repeat,wiederholen = répéter
 4,,übersetzen,,to translate,traduire,übersetzen = to translate,übersetzen = traduire
 4,,fühlen,,"to feel, to sense, to feel (refl.)","sentir, ressentir, se sentir (réfl.)","fühlen = to feel, to sense, to feel (refl.)","fühlen = sentir, ressentir, se sentir (réfl.)"
-4,,regnen,,to rain,pleuvoir,regnen = to rain,regnen = pleuvoir
-4,,schneien,,to snow,neiger,schneien = to snow,schneien = neiger
 4,,verlieren,,to lose,perdre,verlieren = to lose,verlieren = perdre
+4,,schneien,,to snow,neiger,schneien = to snow,schneien = neiger
+4,,einladen,,"to invite, to load (something into a vehicle or container)","inviter, charger (quelque chose dans un véhicule ou un conteneur)","einladen = to invite, to load (something into a vehicle or container)","einladen = inviter, charger (quelque chose dans un véhicule ou un conteneur)"
 4,,bezahlen,,"to pay, to pay someone (transitive)","payer, payer quelqu'un (transitif)","bezahlen = to pay, to pay someone (transitive)","bezahlen = payer, payer quelqu'un (transitif)"
 4,,öffnen,,to open,ouvrir,öffnen = to open,öffnen = ouvrir
 4,,beginnen,,"to begin, to start","commencer, débuter","beginnen = to begin, to start","beginnen = commencer, débuter"
@@ -79,6 +78,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 4,,schicken,,to send,envoyer,schicken = to send,schicken = envoyer
 4,,besuchen,,"to visit, to attend (a school or course)","visiter, rendre visite à, fréquenter (une école ou un cours)","besuchen = to visit, to attend (a school or course)","besuchen = visiter, rendre visite à, fréquenter (une école ou un cours)"
 4,,sitzen,,"to be seated, to sit, to fit (of clothing)","être assis, être installé, aller (pour un vêtement)","sitzen = to be seated, to sit, to fit (of clothing)","sitzen = être assis, être installé, aller (pour un vêtement)"
+4,,regnen,,to rain,pleuvoir,regnen = to rain,regnen = pleuvoir
 5,,,sein,to be,être,sein = to be,sein = être
 5,,,haben,"to have, to contain","avoir, contenir","haben = to have, to contain","haben = avoir, contenir"
 5,,,werden,"to become, will (future auxiliary), to be (passive auxiliary)","devenir, auxiliaire du futur et du passif","werden = to become, will (future auxiliary), to be (passive auxiliary)","werden = devenir, auxiliaire du futur et du passif"
@@ -90,7 +90,6 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 5,,,dürfen,"to be allowed (to do something), may","être autorisé (à faire quelque chose), pouvoir","dürfen = to be allowed (to do something), may","dürfen = être autorisé (à faire quelque chose), pouvoir"
 5,,,wissen,"to know, to have knowledge",savoir,"wissen = to know, to have knowledge",wissen = savoir
 5,,,machen,"to make, to prepare, to do","faire, préparer","machen = to make, to prepare, to do","machen = faire, préparer"
-5,,,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un","tun = to do, to do something to someone","tun = faire, faire quelque chose à quelqu'un"
 5,,,sagen,"to say, to tell",dire,"sagen = to say, to tell",sagen = dire
 5,,,gehen,"to go, to leave, to work, to function (coll.), to be doing (Dat.)","aller, partir, fonctionner (familier), se porter (état de santé)","gehen = to go, to leave, to work, to function (coll.), to be doing (Dat.)","gehen = aller, partir, fonctionner (familier), se porter (état de santé)"
 5,,,sehen,"to see, to realise","voir, se rendre compte","sehen = to see, to realise","sehen = voir, se rendre compte"
@@ -99,7 +98,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 5,,,glauben,to believe,croire,glauben = to believe,glauben = croire
 5,,,reden,to talk,"parler, discuter",reden = to talk,"reden = parler, discuter"
 5,,,hören,"to hear, to listen to","entendre, écouter","hören = to hear, to listen to","hören = entendre, écouter"
-6,,,finden,to find,trouver,finden = to find,finden = trouver
+5,,,finden,to find,trouver,finden = to find,finden = trouver
 6,,,bleiben,"to remain, to stay",rester,"bleiben = to remain, to stay",bleiben = rester
 6,,,brauchen,to need,avoir besoin de,brauchen = to need,brauchen = avoir besoin de
 6,,,lieben,to love,"aimer, être amoureux de",lieben = to love,"lieben = aimer, être amoureux de"
@@ -119,7 +118,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 6,,,arbeiten,to work,travailler,arbeiten = to work,arbeiten = travailler
 6,,,essen,to eat,manger,essen = to eat,essen = manger
 6,,,anziehen,"to get dressed, to put on, to dress someone, to attract, to pull","s'habiller, mettre (un vêtement), habiller quelqu'un, attirer, tirer","anziehen = to get dressed, to put on, to dress someone, to attract, to pull","anziehen = s'habiller, mettre (un vêtement), habiller quelqu'un, attirer, tirer"
-7,,,ausziehen,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)","ausziehen = to take something off, to undress, to pull out, to move out","ausziehen = enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)"
+6,,,ausziehen,"to take something off, to undress, to pull out, to move out","enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)","ausziehen = to take something off, to undress, to pull out, to move out","ausziehen = enlever quelque chose, se déshabiller, retirer, déménager (quitter un logement)"
 7,,,spielen,to play,jouer,spielen = to play,spielen = jouer
 7,,,fahren,"to go (by vehicle), to leave, to drive","aller (en véhicule), partir, conduire","fahren = to go (by vehicle), to leave, to drive","fahren = aller (en véhicule), partir, conduire"
 7,,,erzählen,"to tell, to narrate","raconter, narrer","erzählen = to tell, to narrate","erzählen = raconter, narrer"
@@ -139,15 +138,15 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 7,,,wohnen,"to live, to reside, to dwell","vivre, résider, habiter","wohnen = to live, to reside, to dwell","wohnen = vivre, résider, habiter"
 7,,,schreiben,to write,écrire,schreiben = to write,schreiben = écrire
 7,,,tragen,"to wear (clothing), to carry, to bear, to support","porter (des vêtements), transporter, supporter, soutenir","tragen = to wear (clothing), to carry, to bear, to support","tragen = porter (des vêtements), transporter, supporter, soutenir"
-8,,,ziehen,"to pull, to drag, to move","tirer, traîner, déplacer, déménager","ziehen = to pull, to drag, to move","ziehen = tirer, traîner, déplacer, déménager"
+7,,,ziehen,"to pull, to drag, to move","tirer, traîner, déplacer, déménager","ziehen = to pull, to drag, to move","ziehen = tirer, traîner, déplacer, déménager"
 8,,,lesen,to read,lire,lesen = to read,lesen = lire
 8,,,kosten,"to cost, to taste","coûter, goûter","kosten = to cost, to taste","kosten = coûter, goûter"
 8,,,wiederholen,to repeat,répéter,wiederholen = to repeat,wiederholen = répéter
 8,,,übersetzen,to translate,traduire,übersetzen = to translate,übersetzen = traduire
 8,,,fühlen,"to feel, to sense, to feel (refl.)","sentir, ressentir, se sentir (réfl.)","fühlen = to feel, to sense, to feel (refl.)","fühlen = sentir, ressentir, se sentir (réfl.)"
-8,,,regnen,to rain,pleuvoir,regnen = to rain,regnen = pleuvoir
-8,,,schneien,to snow,neiger,schneien = to snow,schneien = neiger
 8,,,verlieren,to lose,perdre,verlieren = to lose,verlieren = perdre
+8,,,schneien,to snow,neiger,schneien = to snow,schneien = neiger
+8,,,einladen,"to invite, to load (something into a vehicle or container)","inviter, charger (quelque chose dans un véhicule ou un conteneur)","einladen = to invite, to load (something into a vehicle or container)","einladen = inviter, charger (quelque chose dans un véhicule ou un conteneur)"
 8,,,bezahlen,"to pay, to pay someone (transitive)","payer, payer quelqu'un (transitif)","bezahlen = to pay, to pay someone (transitive)","bezahlen = payer, payer quelqu'un (transitif)"
 8,,,öffnen,to open,ouvrir,öffnen = to open,öffnen = ouvrir
 8,,,beginnen,"to begin, to start","commencer, débuter","beginnen = to begin, to start","beginnen = commencer, débuter"
@@ -159,6 +158,8 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 8,,,schicken,to send,envoyer,schicken = to send,schicken = envoyer
 8,,,besuchen,"to visit, to attend (a school or course)","visiter, rendre visite à, fréquenter (une école ou un cours)","besuchen = to visit, to attend (a school or course)","besuchen = visiter, rendre visite à, fréquenter (une école ou un cours)"
 8,,,sitzen,"to be seated, to sit, to fit (of clothing)","être assis, être installé, aller (pour un vêtement)","sitzen = to be seated, to sit, to fit (of clothing)","sitzen = être assis, être installé, aller (pour un vêtement)"
+8,,,regnen,to rain,pleuvoir,regnen = to rain,regnen = pleuvoir
+9,,tun,,"to do, to do something to someone","faire, faire quelque chose à quelqu'un","tun = to do, to do something to someone","tun = faire, faire quelque chose à quelqu'un"
 9,,erklären,,"to explain, to declare, to assert","expliquer, déclarer, affirmer","erklären = to explain, to declare, to assert","erklären = expliquer, déclarer, affirmer"
 9,,passieren,,"to happen, to pass, to go past, to strain (food)","se produire, arriver, passer, dépasser, passer au tamis","passieren = to happen, to pass, to go past, to strain (food)","passieren = se produire, arriver, passer, dépasser, passer au tamis"
 9,,bieten,,"to offer, to bid, to present itself (refl., of an opportunity)","offrir, proposer, enchérir, se présenter (réfl., d'une occasion)","bieten = to offer, to bid, to present itself (refl., of an opportunity)","bieten = offrir, proposer, enchérir, se présenter (réfl., d'une occasion)"
@@ -178,7 +179,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 9,,lachen,,to laugh,rire,lachen = to laugh,lachen = rire
 9,,scheinen,,"to shine, to seem","briller, paraître, sembler","scheinen = to shine, to seem","scheinen = briller, paraître, sembler"
 9,,ändern,,"to change, to modify, to change (refl.)","changer, modifier, se transformer (réfl.)","ändern = to change, to modify, to change (refl.)","ändern = changer, modifier, se transformer (réfl.)"
-9,,gehören,,"to belong to, to be part of","appartenir à, faire partie de","gehören = to belong to, to be part of","gehören = appartenir à, faire partie de"
+10,,gehören,,"to belong to, to be part of","appartenir à, faire partie de","gehören = to belong to, to be part of","gehören = appartenir à, faire partie de"
 10,,aufstehen,,"to get up, to stand up","se lever, se mettre debout","aufstehen = to get up, to stand up","aufstehen = se lever, se mettre debout"
 10,,aufwachen,,to wake up,se réveiller,aufwachen = to wake up,aufwachen = se réveiller
 10,,sich wehtun,,"to hurt oneself (refl.), to hurt, to be painful","se faire mal (réfl.), faire mal, être douloureux","sich wehtun = to hurt oneself (refl.), to hurt, to be painful","sich wehtun = se faire mal (réfl.), faire mal, être douloureux"
@@ -189,7 +190,6 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 10,,legen,,"to lay, to put down, to lie down (refl.)","poser, mettre à plat, s'allonger (réfl.)","legen = to lay, to put down, to lie down (refl.)","legen = poser, mettre à plat, s'allonger (réfl.)"
 10,,schauen,,"to look, to watch, to look at","regarder, observer","schauen = to look, to watch, to look at","schauen = regarder, observer"
 10,,sich freuen,,"to be happy, to be pleased, to look forward to","être heureux, se réjouir, attendre avec impatience","sich freuen = to be happy, to be pleased, to look forward to","sich freuen = être heureux, se réjouir, attendre avec impatience"
-10,,einladen,,"to invite, to load (something into a vehicle or container)","inviter, charger (quelque chose dans un véhicule ou un conteneur)","einladen = to invite, to load (something into a vehicle or container)","einladen = inviter, charger (quelque chose dans un véhicule ou un conteneur)"
 10,,gefallen,,"to please, to appeal to",plaire,"gefallen = to please, to appeal to",gefallen = plaire
 10,,wünschen,,"to wish, to desire","souhaiter, désirer","wünschen = to wish, to desire","wünschen = souhaiter, désirer"
 10,,passen,,"to fit, to suit, to be convenient","aller (taille), convenir, être adapté","passen = to fit, to suit, to be convenient","passen = aller (taille), convenir, être adapté"
@@ -239,6 +239,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 12,,entdecken,,"to discover, to find","découvrir, trouver","entdecken = to discover, to find","entdecken = découvrir, trouver"
 12,,planen,,"to plan, to schedule","planifier, programmer","planen = to plan, to schedule","planen = planifier, programmer"
 12,,üben,,"to practise, to exercise, to rehearse","s'exercer, pratiquer, répéter","üben = to practise, to exercise, to rehearse","üben = s'exercer, pratiquer, répéter"
+13,,,tun,"to do, to do something to someone","faire, faire quelque chose à quelqu'un","tun = to do, to do something to someone","tun = faire, faire quelque chose à quelqu'un"
 13,,,erklären,"to explain, to declare, to assert","expliquer, déclarer, affirmer","erklären = to explain, to declare, to assert","erklären = expliquer, déclarer, affirmer"
 13,,,passieren,"to happen, to pass, to go past, to strain (food)","se produire, arriver, passer, dépasser, passer au tamis","passieren = to happen, to pass, to go past, to strain (food)","passieren = se produire, arriver, passer, dépasser, passer au tamis"
 13,,,bieten,"to offer, to bid, to present itself (refl., of an opportunity)","offrir, proposer, enchérir, se présenter (réfl., d'une occasion)","bieten = to offer, to bid, to present itself (refl., of an opportunity)","bieten = offrir, proposer, enchérir, se présenter (réfl., d'une occasion)"
@@ -258,7 +259,7 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 13,,,lachen,to laugh,rire,lachen = to laugh,lachen = rire
 13,,,scheinen,"to shine, to seem","briller, paraître, sembler","scheinen = to shine, to seem","scheinen = briller, paraître, sembler"
 13,,,ändern,"to change, to modify, to change (refl.)","changer, modifier, se transformer (réfl.)","ändern = to change, to modify, to change (refl.)","ändern = changer, modifier, se transformer (réfl.)"
-13,,,gehören,"to belong to, to be part of","appartenir à, faire partie de","gehören = to belong to, to be part of","gehören = appartenir à, faire partie de"
+14,,,gehören,"to belong to, to be part of","appartenir à, faire partie de","gehören = to belong to, to be part of","gehören = appartenir à, faire partie de"
 14,,,aufstehen,"to get up, to stand up","se lever, se mettre debout","aufstehen = to get up, to stand up","aufstehen = se lever, se mettre debout"
 14,,,aufwachen,to wake up,se réveiller,aufwachen = to wake up,aufwachen = se réveiller
 14,,,sich wehtun,"to hurt oneself (refl.), to hurt, to be painful","se faire mal (réfl.), faire mal, être douloureux","sich wehtun = to hurt oneself (refl.), to hurt, to be painful","sich wehtun = se faire mal (réfl.), faire mal, être douloureux"
@@ -269,7 +270,6 @@ exercise,question,answer,german,english,french,explanation_english,explanation_f
 14,,,legen,"to lay, to put down, to lie down (refl.)","poser, mettre à plat, s'allonger (réfl.)","legen = to lay, to put down, to lie down (refl.)","legen = poser, mettre à plat, s'allonger (réfl.)"
 14,,,schauen,"to look, to watch, to look at","regarder, observer","schauen = to look, to watch, to look at","schauen = regarder, observer"
 14,,,sich freuen,"to be happy, to be pleased, to look forward to","être heureux, se réjouir, attendre avec impatience","sich freuen = to be happy, to be pleased, to look forward to","sich freuen = être heureux, se réjouir, attendre avec impatience"
-14,,,einladen,"to invite, to load (something into a vehicle or container)","inviter, charger (quelque chose dans un véhicule ou un conteneur)","einladen = to invite, to load (something into a vehicle or container)","einladen = inviter, charger (quelque chose dans un véhicule ou un conteneur)"
 14,,,gefallen,"to please, to appeal to",plaire,"gefallen = to please, to appeal to",gefallen = plaire
 14,,,wünschen,"to wish, to desire","souhaiter, désirer","wünschen = to wish, to desire","wünschen = souhaiter, désirer"
 14,,,passen,"to fit, to suit, to be convenient","aller (taille), convenir, être adapté","passen = to fit, to suit, to be convenient","passen = aller (taille), convenir, être adapté"

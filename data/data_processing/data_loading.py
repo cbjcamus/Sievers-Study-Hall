@@ -49,6 +49,11 @@ def load_data_level(unit, exercise):
 
 
 def load_data_question(unit, exercise, question_id):
+    try:
+        question_id = int(question_id)
+    except (ValueError, TypeError):
+        return None
+
     if question_id is None:
         return None
 

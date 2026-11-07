@@ -121,6 +121,9 @@ QUESTION_SUBCATEGORY_FR = {
         context:
             "{question}"
             "<br><br><i>{french}</i>",
+        prompt:
+            "{german}"
+            "<br><br><i>{french}</i>{case_french}",
     },
 
     praepositionen_adjektive: {
@@ -149,7 +152,7 @@ QUESTION_SUBCATEGORY_FR = {
             "{question}"
             "<br><br><i>\"{german}\"</i>",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{french} \u25CF {case_french}</i>",
     },
 
@@ -160,7 +163,7 @@ QUESTION_SUBCATEGORY_FR = {
             "{question}"
             "<br><br><i>{french}</i>",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{french}</i>",
     },
 
@@ -176,7 +179,7 @@ QUESTION_SUBCATEGORY_FR = {
         antonym:
             "{german}",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{french}</i>",
     },
 
@@ -184,7 +187,7 @@ QUESTION_SUBCATEGORY_FR = {
         isolation:
             "{french}",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{french}</i>",
     },
 
@@ -193,6 +196,9 @@ QUESTION_SUBCATEGORY_FR = {
             "{french}",
         synonym:
             "{german}",
+        prompt:
+            "{german_wiktionary}"
+            "<br><br><i>{french}</i>",
     },
 
     adjektivdeklinationen: {

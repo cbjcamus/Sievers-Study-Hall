@@ -1,387 +1,387 @@
 Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root_english,french,root_french,adjective_german,adjective_english,adjective_french,noun_german,noun_english,noun_french,gender_english,gender_french
-1,1,A1,A1,A1,die Richtung,richtig,,"right, correct",the direction,"correct, juste",la direction,richtig,"right, correct","correct, juste",die Richtung,the direction,la direction,,
-2,1,A1,A1,A1,die Größe,groß,,"big, tall","the size, height",grand,la taille,groß,"big, tall",grand,die Größe,"the size, height",la taille,,
-3,1,B1,B1,A1,die Unterschied,unterschiedlich,,"other, different",the difference,"autre, différent",la différence,unterschiedlich,"other, different","autre, différent",die Unterschied,the difference,la différence,,
-4,1,A1,A1,A1,die Höhe,hoch,,high,"the height, altitude",haut,la hauteur,hoch,high,haut,die Höhe,"the height, altitude",la hauteur,,
-5,1,A1,A1,A1,die Freiheit,frei,,free,the freedom,libre,liberté,frei,free,libre,die Freiheit,the freedom,liberté,,
-6,1,A1,A1,A1,die Wahrheit,wahr,,true,the truth,vrai,la vérité,wahr,true,vrai,die Wahrheit,the truth,la vérité,,
-7,1,A1,A1,A1,das Glück,glücklich,,"happy, glad","the luck, the happiness","heureux, content","le bonheur, la chance",glücklich,"happy, glad","heureux, content",das Glück,"the luck, the happiness","le bonheur, la chance",,
-8,1,A1,A1,A1,die Gesundheit,gesund,,healthy,the health,"sain, en bonne santé",la santé,gesund,healthy,"sain, en bonne santé",die Gesundheit,the health,la santé,,
+1,1,A1,A1,A1,die Richtung,richtig,,"right, correct",the direction,"correct, juste, bon",la direction,richtig,"right, correct","correct, juste, bon",die Richtung,the direction,la direction,,
+2,1,A1,A1,A1,die Größe,groß,,"big, large, tall","the size, height","grand, gros",la taille,groß,"big, large, tall","grand, gros",die Größe,"the size, height",la taille,,
+3,1,B1,B1,A1,die Unterschied,unterschiedlich,,"different, varying, diverse",the difference,"différent, varié, divers",la différence,unterschiedlich,"different, varying, diverse","différent, varié, divers",die Unterschied,the difference,la différence,,
+4,1,A1,A1,A1,die Höhe,hoch,,high,"the height, altitude","haut, élevé",la hauteur,hoch,high,"haut, élevé",die Höhe,"the height, altitude",la hauteur,,
+5,1,A1,A1,A1,die Freiheit,frei,,"free, available, vacant",the freedom,"libre, disponible, vacant",liberté,frei,"free, available, vacant","libre, disponible, vacant",die Freiheit,the freedom,liberté,,
+6,1,A2,A2,A1,die Wahrheit,wahr,,true,the truth,vrai,la vérité,wahr,true,vrai,die Wahrheit,the truth,la vérité,,
+7,1,A1,A1,A1,das Glück,glücklich,,"happy, fortunate","the luck, the happiness","heureux, content, chanceux","le bonheur, la chance",glücklich,"happy, fortunate","heureux, content, chanceux",das Glück,"the luck, the happiness","le bonheur, la chance",,
+8,1,A1,A1,A1,die Gesundheit,gesund,,"healthy, wholesome",the health,"sain, en bonne santé",la santé,gesund,"healthy, wholesome","sain, en bonne santé",die Gesundheit,the health,la santé,,
 9,1,A2,A1,A2,die Jugend,jung,,young,the youth,jeune,la jeunesse,jung,young,jeune,die Jugend,the youth,la jeunesse,,
-10,1,A2,A1,A2,die Schwierigkeit,schwierig,,difficult,the difficulty,difficile,la difficulté,schwierig,difficult,difficile,die Schwierigkeit,the difficulty,la difficulté,,
+10,1,A2,A1,A2,die Schwierigkeit,schwierig,,"difficult, challenging",the difficulty,"difficile, compliqué",la difficulté,schwierig,"difficult, challenging","difficile, compliqué",die Schwierigkeit,the difficulty,la difficulté,,
 11,1,A2,A1,A2,die Länge,lang,,long,the length,long,la longueur,lang,long,long,die Länge,the length,la longueur,,
-12,1,A2,A1,A2,die Hitze,heiß,,hot,the heat,chaud,la chaleur,heiß,hot,chaud,die Hitze,the heat,la chaleur,,
-13,1,A2,A1,A2,die Lust,lustig,,funny,"the wish, the joy",drôle,"le désir, l'envie",lustig,funny,drôle,die Lust,"the wish, the joy","le désir, l'envie",,
-14,1,A2,A1,A2,die Stärke,stark,,strong,the strength,fort,la force,stark,strong,fort,die Stärke,the strength,la force,,
-15,1,A2,A2,A1,die Krankheit,krank,,sick,"the illness, disease",malade,la maladie,krank,sick,malade,die Krankheit,"the illness, disease",la maladie,,
-16,1,A2,A2,A1,die Möglichkeit,möglich,,"possible, likely",the possibility,possible,la possibilité,möglich,"possible, likely",possible,die Möglichkeit,the possibility,la possibilité,,
-17,2,A1,A1,A1,richtig,die Richtung,,the direction,"right, correct",la direction,"correct, juste",richtig,"right, correct","correct, juste",die Richtung,the direction,la direction,Feminine,Féminin
-18,2,A1,A1,A1,groß,die Größe,,"the size, height","big, tall",la taille,grand,groß,"big, tall",grand,die Größe,"the size, height",la taille,Feminine,Féminin
-19,2,B1,B1,A1,unterschiedlich,die Unterschied,,the difference,"other, different",la différence,"autre, différent",unterschiedlich,"other, different","autre, différent",die Unterschied,the difference,la différence,Feminine,Féminin
-20,2,A1,A1,A1,hoch,die Höhe,,"the height, altitude",high,la hauteur,haut,hoch,high,haut,die Höhe,"the height, altitude",la hauteur,Feminine,Féminin
-21,2,A1,A1,A1,frei,die Freiheit,,the freedom,free,liberté,libre,frei,free,libre,die Freiheit,the freedom,liberté,Feminine,Féminin
-22,2,A1,A1,A1,wahr,die Wahrheit,,the truth,true,la vérité,vrai,wahr,true,vrai,die Wahrheit,the truth,la vérité,Feminine,Féminin
-23,2,A1,A1,A1,glücklich,das Glück,,"the luck, the happiness","happy, glad","le bonheur, la chance","heureux, content",glücklich,"happy, glad","heureux, content",das Glück,"the luck, the happiness","le bonheur, la chance",Neuter,Neutre
-24,2,A1,A1,A1,gesund,die Gesundheit,,the health,healthy,la santé,"sain, en bonne santé",gesund,healthy,"sain, en bonne santé",die Gesundheit,the health,la santé,Feminine,Féminin
+12,1,A2,A1,A2,die Hitze,heiß,,hot,the heat,"chaud, brûlant",la chaleur,heiß,hot,"chaud, brûlant",die Hitze,the heat,la chaleur,,
+13,1,A2,A1,A2,die Lust,lustig,,"funny, amusing","the wish, the joy","drôle, amusant","le désir, l'envie",lustig,"funny, amusing","drôle, amusant",die Lust,"the wish, the joy","le désir, l'envie",,
+14,1,A2,A1,A2,die Stärke,stark,,"strong, powerful, intense",the strength,"fort, puissant, intense",la force,stark,"strong, powerful, intense","fort, puissant, intense",die Stärke,the strength,la force,,
+15,1,A2,A2,A1,die Krankheit,krank,,"sick, ill","the illness, disease",malade,la maladie,krank,"sick, ill",malade,die Krankheit,"the illness, disease",la maladie,,
+16,1,A2,A2,A1,die Möglichkeit,möglich,,possible,the possibility,possible,la possibilité,möglich,possible,possible,die Möglichkeit,the possibility,la possibilité,,
+17,2,A1,A1,A1,richtig,die Richtung,,the direction,"right, correct",la direction,"correct, juste, bon",richtig,"right, correct","correct, juste, bon",die Richtung,the direction,la direction,Feminine,Féminin
+18,2,A1,A1,A1,groß,die Größe,,"the size, height","big, large, tall",la taille,"grand, gros",groß,"big, large, tall","grand, gros",die Größe,"the size, height",la taille,Feminine,Féminin
+19,2,B1,B1,A1,unterschiedlich,die Unterschied,,the difference,"different, varying, diverse",la différence,"différent, varié, divers",unterschiedlich,"different, varying, diverse","différent, varié, divers",die Unterschied,the difference,la différence,Feminine,Féminin
+20,2,A1,A1,A1,hoch,die Höhe,,"the height, altitude",high,la hauteur,"haut, élevé",hoch,high,"haut, élevé",die Höhe,"the height, altitude",la hauteur,Feminine,Féminin
+21,2,A1,A1,A1,frei,die Freiheit,,the freedom,"free, available, vacant",liberté,"libre, disponible, vacant",frei,"free, available, vacant","libre, disponible, vacant",die Freiheit,the freedom,liberté,Feminine,Féminin
+22,2,A2,A2,A1,wahr,die Wahrheit,,the truth,true,la vérité,vrai,wahr,true,vrai,die Wahrheit,the truth,la vérité,Feminine,Féminin
+23,2,A1,A1,A1,glücklich,das Glück,,"the luck, the happiness","happy, fortunate","le bonheur, la chance","heureux, content, chanceux",glücklich,"happy, fortunate","heureux, content, chanceux",das Glück,"the luck, the happiness","le bonheur, la chance",Neuter,Neutre
+24,2,A1,A1,A1,gesund,die Gesundheit,,the health,"healthy, wholesome",la santé,"sain, en bonne santé",gesund,"healthy, wholesome","sain, en bonne santé",die Gesundheit,the health,la santé,Feminine,Féminin
 25,2,A2,A1,A2,jung,die Jugend,,the youth,young,la jeunesse,jeune,jung,young,jeune,die Jugend,the youth,la jeunesse,Feminine,Féminin
-26,2,A2,A1,A2,schwierig,die Schwierigkeit,,the difficulty,difficult,la difficulté,difficile,schwierig,difficult,difficile,die Schwierigkeit,the difficulty,la difficulté,Feminine,Féminin
+26,2,A2,A1,A2,schwierig,die Schwierigkeit,,the difficulty,"difficult, challenging",la difficulté,"difficile, compliqué",schwierig,"difficult, challenging","difficile, compliqué",die Schwierigkeit,the difficulty,la difficulté,Feminine,Féminin
 27,2,A2,A1,A2,lang,die Länge,,the length,long,la longueur,long,lang,long,long,die Länge,the length,la longueur,Feminine,Féminin
-28,2,A2,A1,A2,heiß,die Hitze,,the heat,hot,la chaleur,chaud,heiß,hot,chaud,die Hitze,the heat,la chaleur,Feminine,Féminin
-29,2,A2,A1,A2,lustig,die Lust,,the desire,funny,la convoitise,drôle,lustig,funny,drôle,die Lust,the desire,la convoitise,Feminine,Féminin
-30,2,A2,A1,A2,stark,die Stärke,,the strength,strong,la force,fort,stark,strong,fort,die Stärke,the strength,la force,Feminine,Féminin
-31,2,A2,A2,A1,krank,die Krankheit,,"the illness, disease",sick,la maladie,malade,krank,sick,malade,die Krankheit,"the illness, disease",la maladie,Feminine,Féminin
-32,2,A2,A2,A1,möglich,die Möglichkeit,,the possibility,"possible, likely",la possibilité,possible,möglich,"possible, likely",possible,die Möglichkeit,the possibility,la possibilité,Feminine,Féminin
-33,3,A2,A2,A1,die Kultur,kulturell,,cultural,the culture,culturel,la culture,kulturell,cultural,culturel,die Kultur,the culture,la culture,,
-34,3,A2,A2,A1,die Ruhe,ruhig,,"calm, quiet","the silence, peace","calme, silencieux",la paix,ruhig,"calm, quiet","calme, silencieux",die Ruhe,"the silence, peace",la paix,,
-35,3,A2,A2,A1,der Frieden,zufrieden,,satisfied,the peace,satisfait,la paix,zufrieden,satisfied,satisfait,der Frieden,the peace,la paix,,
-36,3,A2,A2,A2,das Wunder,wunderbar,,wonderful,the miracle,merveilleux,le miracle,wunderbar,wonderful,merveilleux,das Wunder,the miracle,le miracle,,
-37,3,A2,A2,A1,die Sicherheit,sicher,,"safe, secure","the security, safety","sûr, sécurisé",la sécurité,sicher,"safe, secure","sûr, sécurisé",die Sicherheit,"the security, safety",la sécurité,,
+28,2,A2,A1,A2,heiß,die Hitze,,the heat,hot,la chaleur,"chaud, brûlant",heiß,hot,"chaud, brûlant",die Hitze,the heat,la chaleur,Feminine,Féminin
+29,2,A2,A1,A2,lustig,die Lust,,the desire,"funny, amusing",la convoitise,"drôle, amusant",lustig,"funny, amusing","drôle, amusant",die Lust,the desire,la convoitise,Feminine,Féminin
+30,2,A2,A1,A2,stark,die Stärke,,the strength,"strong, powerful, intense",la force,"fort, puissant, intense",stark,"strong, powerful, intense","fort, puissant, intense",die Stärke,the strength,la force,Feminine,Féminin
+31,2,A2,A2,A1,krank,die Krankheit,,"the illness, disease","sick, ill",la maladie,malade,krank,"sick, ill",malade,die Krankheit,"the illness, disease",la maladie,Feminine,Féminin
+32,2,A2,A2,A1,möglich,die Möglichkeit,,the possibility,possible,la possibilité,possible,möglich,possible,possible,die Möglichkeit,the possibility,la possibilité,Feminine,Féminin
+33,3,B1,B1,A1,die Kultur,kulturell,,cultural,the culture,culturel,la culture,kulturell,cultural,culturel,die Kultur,the culture,la culture,,
+34,3,A2,A2,A1,die Ruhe,ruhig,,"calm, quiet, peaceful","the silence, peace","calme, tranquille, silencieux",la paix,ruhig,"calm, quiet, peaceful","calme, tranquille, silencieux",die Ruhe,"the silence, peace",la paix,,
+35,3,A2,A2,A1,der Frieden,zufrieden,,"satisfied, content",the peace,"satisfait, content",la paix,zufrieden,"satisfied, content","satisfait, content",der Frieden,the peace,la paix,,
+36,3,A2,A2,A2,das Wunder,wunderbar,,"wonderful, marvelous",the miracle,"merveilleux, magnifique, formidable",le miracle,wunderbar,"wonderful, marvelous","merveilleux, magnifique, formidable",das Wunder,the miracle,le miracle,,
+37,3,A2,A2,A1,die Sicherheit,sicher,,"safe, secure, certain","the security, safety","sûr, sécurisé, certain",la sécurité,sicher,"safe, secure, certain","sûr, sécurisé, certain",die Sicherheit,"the security, safety",la sécurité,,
 38,3,A2,A2,A2,die Kosten,kostenlos,,free of charge,"the costs, expenses",gratuit,les coûts,kostenlos,free of charge,gratuit,die Kosten,"the costs, expenses",les coûts,,
-39,3,A2,A2,A2,die Wärme,warm,,warm,"the warmth, heat","chaud, doux",la chaleur,warm,warm,"chaud, doux",die Wärme,"the warmth, heat",la chaleur,,
-40,3,A2,A2,A1,der Freund,freundlich,,friendly,the friend,amical,l'ami,freundlich,friendly,amical,der Freund,the friend,l'ami,,
+39,3,A2,A1,A2,die Wärme,warm,,warm,"the warmth, heat","chaud, doux",la chaleur,warm,warm,"chaud, doux",die Wärme,"the warmth, heat",la chaleur,,
+40,3,A1,A1,A1,der Freund,freundlich,,"friendly, kind, polite",the friend,"aimable, sympathique, gentil, poli",l'ami,freundlich,"friendly, kind, polite","aimable, sympathique, gentil, poli",der Freund,the friend,l'ami,,
 41,3,A2,A2,A1,die Interesse,interessant,,interesting,the interest,intéressant,l'intérêt,interessant,interesting,intéressant,die Interesse,the interest,l'intérêt,,
 42,3,A2,A2,A1,der Erfolg,erfolgreich,,successful,the success,"réussi, prospère, fructueux",le succès,erfolgreich,successful,"réussi, prospère, fructueux",der Erfolg,the success,le succès,,
 43,3,A2,A2,A1,die Sonne,sonnig,,sunny,the sun,ensoleillé,le soleil,sonnig,sunny,ensoleillé,die Sonne,the sun,le soleil,,
-44,3,A2,A2,A2,der Nebel,neblig,,foggy,the fog,brumeux,le brouillard,neblig,foggy,brumeux,der Nebel,the fog,le brouillard,,
+44,3,A2,A2,A2,der Nebel,neblig,,"foggy, misty",the fog,"brumeux, couvert de brouillard",le brouillard,neblig,"foggy, misty","brumeux, couvert de brouillard",der Nebel,the fog,le brouillard,,
 45,3,A2,A2,A1,der Wind,windig,,windy,the wind,venteux,le vent,windig,windy,venteux,der Wind,the wind,le vent,,
-46,3,A2,A2,A2,die Wolke,bewölkt,,cloudy,the cloud,nuageux,le nuage,bewölkt,cloudy,nuageux,die Wolke,the cloud,le nuage,,
-47,3,A2,A2,A2,die Öffentlichkeit,öffentlich,,public,the public,publique,le public,öffentlich,public,publique,die Öffentlichkeit,the public,le public,,
+46,3,A2,A2,A2,die Wolke,bewölkt,,"cloudy, overcast",the cloud,"nuageux, couvert",le nuage,bewölkt,"cloudy, overcast","nuageux, couvert",die Wolke,the cloud,le nuage,,
+47,3,B1,B1,A2,die Öffentlichkeit,öffentlich,,public,the public,public,le public,öffentlich,public,public,die Öffentlichkeit,the public,le public,,
 48,3,A2,A2,A1,das Salz,salzig,,salty,the salt,salé,le sel,salzig,salty,salé,das Salz,the salt,le sel,,
-49,4,A2,A2,A1,kulturell,die Kultur,,the culture,cultural,la culture,culturel,kulturell,cultural,culturel,die Kultur,the culture,la culture,Feminine,Féminin
-50,4,A2,A2,A1,ruhig,die Ruhe,,"the silence, peace","calm, quiet",la paix,"calme, silencieux",ruhig,"calm, quiet","calme, silencieux",die Ruhe,"the silence, peace",la paix,Feminine,Féminin
-51,4,A2,A2,A1,zufrieden,der Frieden,,the peace,satisfied,la paix,satisfait,zufrieden,satisfied,satisfait,der Frieden,the peace,la paix,Masculine,Masculin
-52,4,A2,A2,A2,wunderbar,das Wunder,,the miracle,wonderful,le miracle,merveilleux,wunderbar,wonderful,merveilleux,das Wunder,the miracle,le miracle,Neuter,Neutre
-53,4,A2,A2,A1,sicher,die Sicherheit,,"the security, safety","safe, secure",la sécurité,"sûr, sécurisé",sicher,"safe, secure","sûr, sécurisé",die Sicherheit,"the security, safety",la sécurité,Feminine,Féminin
+49,4,B1,B1,A1,kulturell,die Kultur,,the culture,cultural,la culture,culturel,kulturell,cultural,culturel,die Kultur,the culture,la culture,Feminine,Féminin
+50,4,A2,A2,A1,ruhig,die Ruhe,,"the silence, peace","calm, quiet, peaceful",la paix,"calme, tranquille, silencieux",ruhig,"calm, quiet, peaceful","calme, tranquille, silencieux",die Ruhe,"the silence, peace",la paix,Feminine,Féminin
+51,4,A2,A2,A1,zufrieden,der Frieden,,the peace,"satisfied, content",la paix,"satisfait, content",zufrieden,"satisfied, content","satisfait, content",der Frieden,the peace,la paix,Masculine,Masculin
+52,4,A2,A2,A2,wunderbar,das Wunder,,the miracle,"wonderful, marvelous",le miracle,"merveilleux, magnifique, formidable",wunderbar,"wonderful, marvelous","merveilleux, magnifique, formidable",das Wunder,the miracle,le miracle,Neuter,Neutre
+53,4,A2,A2,A1,sicher,die Sicherheit,,"the security, safety","safe, secure, certain",la sécurité,"sûr, sécurisé, certain",sicher,"safe, secure, certain","sûr, sécurisé, certain",die Sicherheit,"the security, safety",la sécurité,Feminine,Féminin
 54,4,A2,A2,A2,kostenlos,die Kosten,,"the costs, expenses",free of charge,les coûts,gratuit,kostenlos,free of charge,gratuit,die Kosten,"the costs, expenses",les coûts,Plural,Pluriel
-55,4,A2,A2,A2,warm,die Wärme,,"the warmth, heat",warm,la chaleur,"chaud, doux",warm,warm,"chaud, doux",die Wärme,"the warmth, heat",la chaleur,Feminine,Féminin
-56,4,A2,A2,A1,freundlich,der Freund,,the friend,friendly,l'ami,amical,freundlich,friendly,amical,der Freund,the friend,l'ami,Masculine,Masculin
+55,4,A2,A1,A2,warm,die Wärme,,"the warmth, heat",warm,la chaleur,"chaud, doux",warm,warm,"chaud, doux",die Wärme,"the warmth, heat",la chaleur,Feminine,Féminin
+56,4,A1,A1,A1,freundlich,der Freund,,the friend,"friendly, kind, polite",l'ami,"aimable, sympathique, gentil, poli",freundlich,"friendly, kind, polite","aimable, sympathique, gentil, poli",der Freund,the friend,l'ami,Masculine,Masculin
 57,4,A2,A2,A1,interessant,die Interesse,,the interest,interesting,l'intérêt,intéressant,interessant,interesting,intéressant,die Interesse,the interest,l'intérêt,Feminine,Féminin
 58,4,A2,A2,A1,erfolgreich,der Erfolg,,the success,successful,le succès,"réussi, prospère, fructueux",erfolgreich,successful,"réussi, prospère, fructueux",der Erfolg,the success,le succès,Masculine,Masculin
 59,4,A2,A2,A1,sonnig,die Sonne,,the sun,sunny,le soleil,ensoleillé,sonnig,sunny,ensoleillé,die Sonne,the sun,le soleil,Feminine,Féminin
-60,4,A2,A2,A2,neblig,der Nebel,,the fog,foggy,le brouillard,brumeux,neblig,foggy,brumeux,der Nebel,the fog,le brouillard,Masculine,Masculin
+60,4,A2,A2,A2,neblig,der Nebel,,the fog,"foggy, misty",le brouillard,"brumeux, couvert de brouillard",neblig,"foggy, misty","brumeux, couvert de brouillard",der Nebel,the fog,le brouillard,Masculine,Masculin
 61,4,A2,A2,A1,windig,der Wind,,the wind,windy,le vent,venteux,windig,windy,venteux,der Wind,the wind,le vent,Masculine,Masculin
-62,4,A2,A2,A2,bewölkt,die Wolke,,the cloud,cloudy,le nuage,nuageux,bewölkt,cloudy,nuageux,die Wolke,the cloud,le nuage,Feminine,Féminin
-63,4,A2,A2,A2,öffentlich,die Öffentlichkeit,,the public,public,le public,publique,öffentlich,public,publique,die Öffentlichkeit,the public,le public,Feminine,Féminin
+62,4,A2,A2,A2,bewölkt,die Wolke,,the cloud,"cloudy, overcast",le nuage,"nuageux, couvert",bewölkt,"cloudy, overcast","nuageux, couvert",die Wolke,the cloud,le nuage,Feminine,Féminin
+63,4,B1,B1,A2,öffentlich,die Öffentlichkeit,,the public,public,le public,public,öffentlich,public,public,die Öffentlichkeit,the public,le public,Feminine,Féminin
 64,4,A2,A2,A1,salzig,das Salz,,the salt,salty,le sel,salé,salzig,salty,salé,das Salz,the salt,le sel,Neuter,Neutre
-65,5,B1,A1,B1,die Schönheit,schön,,beautiful,the beauty,beau,la beauté,schön,beautiful,beau,die Schönheit,the beauty,la beauté,,
-66,5,B1,A1,B1,die Heizung,heiß,,hot,the heating,chaud,le système de chauffage,heiß,hot,chaud,die Heizung,the heating,le système de chauffage,,
+65,5,B1,A1,B1,die Schönheit,schön,,"beautiful, nice, pretty",the beauty,"beau, joli",la beauté,schön,"beautiful, nice, pretty","beau, joli",die Schönheit,the beauty,la beauté,,
+66,5,B1,A1,B1,die Heizung,heiß,,hot,the heating,"chaud, brûlant",le système de chauffage,heiß,hot,"chaud, brûlant",die Heizung,the heating,le système de chauffage,,
 67,5,B1,A1,B1,die Kälte,kalt,,cold,the cold,froid,le froid,kalt,cold,froid,die Kälte,the cold,le froid,,
-68,5,B1,A1,B1,der Reichtum,reich,,rich,the wealth,riche,la richesse,reich,rich,riche,der Reichtum,the wealth,la richesse,,
+68,5,B1,A1,B1,der Reichtum,reich,,"rich, wealthy",the wealth,"riche, fortuné",la richesse,reich,"rich, wealthy","riche, fortuné",der Reichtum,the wealth,la richesse,,
 69,5,B1,A1,B1,die Armut,arm,,poor,the poverty,pauvre,la pauvreté,arm,poor,pauvre,die Armut,the poverty,la pauvreté,,
-70,5,B1,A1,B1,der Schmutz,schmutzig,,dirty,the dirt,sale,la saleté,schmutzig,dirty,sale,der Schmutz,the dirt,la saleté,,
-71,5,B1,A1,B1,die Schwäche,schwach,,weak,the weakness,faible,la faiblesse,schwach,weak,faible,die Schwäche,the weakness,la faiblesse,,
-72,5,B1,A2,B1,die Dunkelheit,dunkel,,dark,the darkness,sombre,l'obscurité,dunkel,dark,sombre,die Dunkelheit,the darkness,l'obscurité,,
-73,5,B1,A2,B1,die Breite,breit,,wide,the width,large,la largeur,breit,wide,large,die Breite,the width,la largeur,,
-74,5,B1,B1,A2,das Nutzen,nützlich,,useful,"the use, the benefit",utile,l'avantage,nützlich,useful,utile,das Nutzen,"the use, the benefit",l'avantage,,
-75,5,B1,B1,B1,das Eigentum,eigen,,own,the property,propre (le sien),la propriété,eigen,own,propre (le sien),das Eigentum,the property,la propriété,,
+70,5,B1,A1,B1,der Schmutz,schmutzig,,"dirty, filthy",the dirt,"sale, malpropre",la saleté,schmutzig,"dirty, filthy","sale, malpropre",der Schmutz,the dirt,la saleté,,
+71,5,B1,A2,B1,die Schwäche,schwach,,"weak, faint",the weakness,faible,la faiblesse,schwach,"weak, faint",faible,die Schwäche,the weakness,la faiblesse,,
+72,5,B1,A2,B1,die Dunkelheit,dunkel,,dark,the darkness,"sombre, foncé",l'obscurité,dunkel,dark,"sombre, foncé",die Dunkelheit,the darkness,l'obscurité,,
+73,5,B1,A2,B1,die Breite,breit,,"wide, broad",the width,large,la largeur,breit,"wide, broad",large,die Breite,the width,la largeur,,
+74,5,B1,B1,A2,das Nutzen,nützlich,,"useful, helpful","the use, the benefit","utile, pratique",l'avantage,nützlich,"useful, helpful","utile, pratique",das Nutzen,"the use, the benefit",l'avantage,,
+75,5,B1,B1,B1,das Eigentum,eigen,,"own, particular, distinctive",the property,"propre, particulier, spécifique",la propriété,eigen,"own, particular, distinctive","propre, particulier, spécifique",das Eigentum,the property,la propriété,,
 76,5,B1,B1,A1,der Tod,tot,,dead,the death,mort,la mort,tot,dead,mort,der Tod,the death,la mort,,
-77,5,B1,B1,A1,die Liebe,lieb,,lovely,the love,"cher, gentil",l'amour,lieb,lovely,"cher, gentil",die Liebe,the love,l'amour,,
-78,5,B1,B1,A2,die Tiefe,tief,,deep,the depth,profond,la profondeur,tief,deep,profond,die Tiefe,the depth,la profondeur,,
-79,5,B1,B1,A1,die Tatsache,tatsächlich,,actual,the fact,"effectif, réel",le fait,tatsächlich,actual,"effectif, réel",die Tatsache,the fact,le fait,,
-80,5,B1,B1,A1,der Mann,männlich,,male,the man,mâle,l'homme,männlich,male,mâle,der Mann,the man,l'homme,,
-81,5,B1,B1,A1,die Arbeit,arbeitslos,,unemployed,the work,"sans emploi, au chômage",le travail,arbeitslos,unemployed,"sans emploi, au chômage",die Arbeit,the work,le travail,,
-82,5,B1,B1,A1,der Mensch,menschlich,,human,"the human being, man",humain,l'être humain,menschlich,human,humain,der Mensch,"the human being, man",l'être humain,,
-83,5,B1,B1,A1,der Stand,ständig,,constant,"the stand, stage",constante,le stand,ständig,constant,constante,der Stand,"the stand, stage",le stand,,
-84,5,B1,B1,A2,die Übung,üblich,,usual,"the exercise, practice",habituel,l'exercice,üblich,usual,habituel,die Übung,"the exercise, practice",l'exercice,,
-85,5,B1,B1,A1,der Sport,sportlich,,athletic,the sport,athlétique,le sport,sportlich,athletic,athlétique,der Sport,the sport,le sport,,
-86,5,B1,B1,A1,das Herz,herzlich,,"warm, cordial",the heart,"chaleureux, cordial",le cœur,herzlich,"warm, cordial","chaleureux, cordial",das Herz,the heart,le cœur,,
-87,6,B1,A1,B1,schön,die Schönheit,,the beauty,beautiful,la beauté,beau,schön,beautiful,beau,die Schönheit,the beauty,la beauté,Feminine,Féminin
-88,6,B1,A1,B1,heiß,die Heizung,,the heating,hot,le système de chauffage,chaud,heiß,hot,chaud,die Heizung,the heating,le système de chauffage,Feminine,Féminin
+77,5,B1,B1,A1,die Liebe,lieb,,"kind, dear, sweet, lovely",the love,"gentil, cher, adorable, affectueux",l'amour,lieb,"kind, dear, sweet, lovely","gentil, cher, adorable, affectueux",die Liebe,the love,l'amour,,
+78,5,B1,B1,A2,die Tiefe,tief,,"deep, low",the depth,"profond, bas",la profondeur,tief,"deep, low","profond, bas",die Tiefe,the depth,la profondeur,,
+79,5,B1,B1,A1,die Tatsache,tatsächlich,,"actual, real, factual",the fact,"réel, effectif, véritable",le fait,tatsächlich,"actual, real, factual","réel, effectif, véritable",die Tatsache,the fact,le fait,,
+80,5,B1,B1,A1,der Mann,männlich,,"male, masculine",the man,"masculin, de sexe masculin",l'homme,männlich,"male, masculine","masculin, de sexe masculin",der Mann,the man,l'homme,,
+81,5,B1,B1,A1,die Arbeit,arbeitslos,,"unemployed, jobless",the work,"au chômage, sans emploi",le travail,arbeitslos,"unemployed, jobless","au chômage, sans emploi",die Arbeit,the work,le travail,,
+82,5,B1,B1,A1,der Mensch,menschlich,,"human, humane","the human being, man",humain,l'être humain,menschlich,"human, humane",humain,der Mensch,"the human being, man",l'être humain,,
+83,5,B1,B1,A1,der Stand,ständig,,"constant, continual","the stand, stage","constant, continuel",le stand,ständig,"constant, continual","constant, continuel",der Stand,"the stand, stage",le stand,,
+84,5,B1,B1,A2,die Übung,üblich,,"usual, customary, common","the exercise, practice","habituel, courant, usuel",l'exercice,üblich,"usual, customary, common","habituel, courant, usuel",die Übung,"the exercise, practice",l'exercice,,
+85,5,B1,B1,A1,der Sport,sportlich,,"athletic, sporty, sporting",the sport,"sportif, athlétique",le sport,sportlich,"athletic, sporty, sporting","sportif, athlétique",der Sport,the sport,le sport,,
+86,5,B1,B1,A1,das Herz,herzlich,,"warm, cordial, heartfelt",the heart,"chaleureux, cordial, de tout cœur",le cœur,herzlich,"warm, cordial, heartfelt","chaleureux, cordial, de tout cœur",das Herz,the heart,le cœur,,
+87,6,B1,A1,B1,schön,die Schönheit,,the beauty,"beautiful, nice, pretty",la beauté,"beau, joli",schön,"beautiful, nice, pretty","beau, joli",die Schönheit,the beauty,la beauté,Feminine,Féminin
+88,6,B1,A1,B1,heiß,die Heizung,,the heating,hot,le système de chauffage,"chaud, brûlant",heiß,hot,"chaud, brûlant",die Heizung,the heating,le système de chauffage,Feminine,Féminin
 89,6,B1,A1,B1,kalt,die Kälte,,the cold,cold,le froid,froid,kalt,cold,froid,die Kälte,the cold,le froid,Feminine,Féminin
-90,6,B1,A1,B1,reich,der Reichtum,,the wealth,rich,la richesse,riche,reich,rich,riche,der Reichtum,the wealth,la richesse,Masculine,Masculin
+90,6,B1,A1,B1,reich,der Reichtum,,the wealth,"rich, wealthy",la richesse,"riche, fortuné",reich,"rich, wealthy","riche, fortuné",der Reichtum,the wealth,la richesse,Masculine,Masculin
 91,6,B1,A1,B1,arm,die Armut,,the poverty,poor,la pauvreté,pauvre,arm,poor,pauvre,die Armut,the poverty,la pauvreté,Feminine,Féminin
-92,6,B1,A1,B1,schmutzig,der Schmutz,,the dirt,dirty,la saleté,sale,schmutzig,dirty,sale,der Schmutz,the dirt,la saleté,Masculine,Masculin
-93,6,B1,A1,B1,schwach,die Schwäche,,the weakness,weak,la faiblesse,faible,schwach,weak,faible,die Schwäche,the weakness,la faiblesse,Feminine,Féminin
-94,6,B1,A2,B1,dunkel,die Dunkelheit,,the darkness,dark,l'obscurité,sombre,dunkel,dark,sombre,die Dunkelheit,the darkness,l'obscurité,Feminine,Féminin
-95,6,B1,A2,B1,breit,die Breite,,the width,wide,la largeur,large,breit,wide,large,die Breite,the width,la largeur,Feminine,Féminin
-96,6,B1,B1,A2,nützlich,das Nutzen,,"the use, the benefit",useful,l'avantage,utile,nützlich,useful,utile,das Nutzen,"the use, the benefit",l'avantage,Neuter,Neutre
-97,6,B1,B1,B1,eigen,das Eigentum,,the property,own,la propriété,propre (le sien),eigen,own,propre (le sien),das Eigentum,the property,la propriété,Neuter,Neutre
+92,6,B1,A1,B1,schmutzig,der Schmutz,,the dirt,"dirty, filthy",la saleté,"sale, malpropre",schmutzig,"dirty, filthy","sale, malpropre",der Schmutz,the dirt,la saleté,Masculine,Masculin
+93,6,B1,A2,B1,schwach,die Schwäche,,the weakness,"weak, faint",la faiblesse,faible,schwach,"weak, faint",faible,die Schwäche,the weakness,la faiblesse,Feminine,Féminin
+94,6,B1,A2,B1,dunkel,die Dunkelheit,,the darkness,dark,l'obscurité,"sombre, foncé",dunkel,dark,"sombre, foncé",die Dunkelheit,the darkness,l'obscurité,Feminine,Féminin
+95,6,B1,A2,B1,breit,die Breite,,the width,"wide, broad",la largeur,large,breit,"wide, broad",large,die Breite,the width,la largeur,Feminine,Féminin
+96,6,B1,B1,A2,nützlich,das Nutzen,,"the use, the benefit","useful, helpful",l'avantage,"utile, pratique",nützlich,"useful, helpful","utile, pratique",das Nutzen,"the use, the benefit",l'avantage,Neuter,Neutre
+97,6,B1,B1,B1,eigen,das Eigentum,,the property,"own, particular, distinctive",la propriété,"propre, particulier, spécifique",eigen,"own, particular, distinctive","propre, particulier, spécifique",das Eigentum,the property,la propriété,Neuter,Neutre
 98,6,B1,B1,A1,tot,der Tod,,the death,dead,la mort,mort,tot,dead,mort,der Tod,the death,la mort,Masculine,Masculin
-99,6,B1,B1,A1,lieb,die Liebe,,the love,lovely,l'amour,"cher, gentil",lieb,lovely,"cher, gentil",die Liebe,the love,l'amour,Feminine,Féminin
-100,6,B1,B1,A2,tief,die Tiefe,,the depth,deep,la profondeur,profond,tief,deep,profond,die Tiefe,the depth,la profondeur,Feminine,Féminin
-101,6,B1,B1,A1,tatsächlich,die Tatsache,,the fact,actual,le fait,"effectif, réel",tatsächlich,actual,"effectif, réel",die Tatsache,the fact,le fait,Feminine,Féminin
-102,6,B1,B1,A1,männlich,der Mann,,the man,male,l'homme,mâle,männlich,male,mâle,der Mann,the man,l'homme,Masculine,Masculin
-103,6,B1,B1,A1,arbeitslos,die Arbeit,,the work,unemployed,le travail,"sans emploi, au chômage",arbeitslos,unemployed,"sans emploi, au chômage",die Arbeit,the work,le travail,Feminine,Féminin
-104,6,B1,B1,A1,menschlich,der Mensch,,"the human being, man",human,l'être humain,humain,menschlich,human,humain,der Mensch,"the human being, man",l'être humain,Masculine,Masculin
-105,6,B1,B1,A1,ständig,der Stand,,"the stand, stage",constant,le stand,constante,ständig,constant,constante,der Stand,"the stand, stage",le stand,Masculine,Masculin
-106,6,B1,B1,A2,üblich,die Übung,,"the exercise, practice",usual,l'exercice,habituel,üblich,usual,habituel,die Übung,"the exercise, practice",l'exercice,Feminine,Féminin
-107,6,B1,B1,A1,sportlich,der Sport,,the sport,athletic,le sport,athlétique,sportlich,athletic,athlétique,der Sport,the sport,le sport,Masculine,Masculin
-108,6,B1,B1,A1,herzlich,das Herz,,the heart,"warm, cordial",le cœur,"chaleureux, cordial",herzlich,"warm, cordial","chaleureux, cordial",das Herz,the heart,le cœur,Neuter,Neutre
-109,7,B1,B1,A1,die Natur,natürlich,,"natural, self-evident",the nature,"naturel, évident",la nature,natürlich,"natural, self-evident","naturel, évident",die Natur,the nature,la nature,,
-110,7,B1,B1,A2,die Aufmerksamkeit,aufmerksam,,attentive,the attention,attentif,l'attention,aufmerksam,attentive,attentif,die Aufmerksamkeit,the attention,l'attention,,
-111,7,B1,B1,A1,die Gefahr,gefährlich,,dangerous,the danger,dangereux,le danger,gefährlich,dangerous,dangereux,die Gefahr,the danger,le danger,,
-112,7,B1,B1,A1,der Beruf,beruflich,,professional,"the occupation, job, profession",professionnel,le travail,beruflich,professional,professionnel,der Beruf,"the occupation, job, profession",le travail,,
-113,7,B1,B1,B1,der Ernst,ernst,,serious,the seriousness,sérieux,le sérieux,ernst,serious,sérieux,der Ernst,the seriousness,le sérieux,,
+99,6,B1,B1,A1,lieb,die Liebe,,the love,"kind, dear, sweet, lovely",l'amour,"gentil, cher, adorable, affectueux",lieb,"kind, dear, sweet, lovely","gentil, cher, adorable, affectueux",die Liebe,the love,l'amour,Feminine,Féminin
+100,6,B1,B1,A2,tief,die Tiefe,,the depth,"deep, low",la profondeur,"profond, bas",tief,"deep, low","profond, bas",die Tiefe,the depth,la profondeur,Feminine,Féminin
+101,6,B1,B1,A1,tatsächlich,die Tatsache,,the fact,"actual, real, factual",le fait,"réel, effectif, véritable",tatsächlich,"actual, real, factual","réel, effectif, véritable",die Tatsache,the fact,le fait,Feminine,Féminin
+102,6,B1,B1,A1,männlich,der Mann,,the man,"male, masculine",l'homme,"masculin, de sexe masculin",männlich,"male, masculine","masculin, de sexe masculin",der Mann,the man,l'homme,Masculine,Masculin
+103,6,B1,B1,A1,arbeitslos,die Arbeit,,the work,"unemployed, jobless",le travail,"au chômage, sans emploi",arbeitslos,"unemployed, jobless","au chômage, sans emploi",die Arbeit,the work,le travail,Feminine,Féminin
+104,6,B1,B1,A1,menschlich,der Mensch,,"the human being, man","human, humane",l'être humain,humain,menschlich,"human, humane",humain,der Mensch,"the human being, man",l'être humain,Masculine,Masculin
+105,6,B1,B1,A1,ständig,der Stand,,"the stand, stage","constant, continual",le stand,"constant, continuel",ständig,"constant, continual","constant, continuel",der Stand,"the stand, stage",le stand,Masculine,Masculin
+106,6,B1,B1,A2,üblich,die Übung,,"the exercise, practice","usual, customary, common",l'exercice,"habituel, courant, usuel",üblich,"usual, customary, common","habituel, courant, usuel",die Übung,"the exercise, practice",l'exercice,Feminine,Féminin
+107,6,B1,B1,A1,sportlich,der Sport,,the sport,"athletic, sporty, sporting",le sport,"sportif, athlétique",sportlich,"athletic, sporty, sporting","sportif, athlétique",der Sport,the sport,le sport,Masculine,Masculin
+108,6,B1,B1,A1,herzlich,das Herz,,the heart,"warm, cordial, heartfelt",le cœur,"chaleureux, cordial, de tout cœur",herzlich,"warm, cordial, heartfelt","chaleureux, cordial, de tout cœur",das Herz,the heart,le cœur,Neuter,Neutre
+109,7,B1,B1,A1,die Natur,natürlich,,"natural, obvious, self-evident",the nature,"naturel, évident, qui va de soi",la nature,natürlich,"natural, obvious, self-evident","naturel, évident, qui va de soi",die Natur,the nature,la nature,,
+110,7,B1,B1,A2,die Aufmerksamkeit,aufmerksam,,"attentive, observant, considerate",the attention,"attentif, observateur, prévenant",l'attention,aufmerksam,"attentive, observant, considerate","attentif, observateur, prévenant",die Aufmerksamkeit,the attention,l'attention,,
+111,7,A2,A2,A1,die Gefahr,gefährlich,,"dangerous, hazardous",the danger,"dangereux, risqué",le danger,gefährlich,"dangerous, hazardous","dangereux, risqué",die Gefahr,the danger,le danger,,
+112,7,B1,B1,A1,der Beruf,beruflich,,"professional, occupational, work-related","the occupation, job, profession","professionnel, lié au travail",le travail,beruflich,"professional, occupational, work-related","professionnel, lié au travail",der Beruf,"the occupation, job, profession",le travail,,
+113,7,B1,B1,B1,der Ernst,ernst,,"serious, earnest",the seriousness,"sérieux, grave",le sérieux,ernst,"serious, earnest","sérieux, grave",der Ernst,the seriousness,le sérieux,,
 114,7,B1,B1,B1,der Stolz,stolz,,proud,the pride,fier,la fierté,stolz,proud,fier,der Stolz,the pride,la fierté,,
-115,7,B1,B1,B1,der Riese,riesig,,huge,the giant,énorme,le géant,riesig,huge,énorme,der Riese,the giant,le géant,,
-116,7,B1,B1,A2,die Sicht,sichtbar,,visible,"the view, visibility",visible,la vue,sichtbar,visible,visible,die Sicht,"the view, visibility",la vue,,
-117,7,B1,B1,A1,die Antwort,verantwortlich,,responsible,"the answer, reply",responsable,la réponse,verantwortlich,responsible,responsable,die Antwort,"the answer, reply",la réponse,,
-118,7,B1,B1,A1,die Ordnung,ordentlich,,orderly,"the order, tidiness",ordonné,l'ordre,ordentlich,orderly,ordonné,die Ordnung,"the order, tidiness",l'ordre,,
-119,7,B1,B1,A1,der Punkt,pünktlich,,punctual,"the dot, point, period",ponctuel,le point,pünktlich,punctual,ponctuel,der Punkt,"the dot, point, period",le point,,
-120,7,B1,B1,B1,der Nerv,nervös,,nervous,the nerve,nerveux,le nerf,nervös,nervous,nerveux,der Nerv,the nerve,le nerf,,
+115,7,B1,B1,B1,der Riese,riesig,,"huge, enormous, gigantic",the giant,"énorme, gigantesque, immense",le géant,riesig,"huge, enormous, gigantic","énorme, gigantesque, immense",der Riese,the giant,le géant,,
+116,7,B1,B1,A2,die Sicht,sichtbar,,visible,"the view, visibility","visible, perceptible",la vue,sichtbar,visible,"visible, perceptible",die Sicht,"the view, visibility",la vue,,
+117,7,B1,B1,A1,die Antwort,verantwortlich,,"responsible, accountable","the answer, reply",responsable,la réponse,verantwortlich,"responsible, accountable",responsable,die Antwort,"the answer, reply",la réponse,,
+118,7,B1,B1,A1,die Ordnung,ordentlich,,"tidy, neat, orderly","the order, tidiness","rangé, soigné, ordonné",l'ordre,ordentlich,"tidy, neat, orderly","rangé, soigné, ordonné",die Ordnung,"the order, tidiness",l'ordre,,
+119,7,B1,B1,A1,der Punkt,pünktlich,,"punctual, on time","the dot, point, period","ponctuel, à l'heure",le point,pünktlich,"punctual, on time","ponctuel, à l'heure",der Punkt,"the dot, point, period",le point,,
+120,7,B1,B1,B1,der Nerv,nervös,,"nervous, anxious",the nerve,"nerveux, anxieux",le nerf,nervös,"nervous, anxious","nerveux, anxieux",der Nerv,the nerve,le nerf,,
 121,7,B1,B1,B1,die Schwangerschaft,schwanger,,pregnant,the pregnancy,enceinte,la grossesse,schwanger,pregnant,enceinte,die Schwangerschaft,the pregnancy,la grossesse,,
-122,7,B1,B1,A1,der Dank,dankbar,,grateful,"the gratitude, the thanks",reconnaissant,le remerciement,dankbar,grateful,reconnaissant,der Dank,"the gratitude, the thanks",le remerciement,,
-123,7,B1,B1,B1,das Fett,fett,,fat,the fat,gras,la graisse,fett,fat,gras,das Fett,the fat,la graisse,,
-124,7,B1,B1,A2,der Stress,stressig,,stressful,the stress,stressant,le stress,stressig,stressful,stressant,der Stress,the stress,le stress,,
-125,7,B1,B1,B1,der Mut,mutig,,courageous,the courage,courageux,le courage,mutig,courageous,courageux,der Mut,the courage,le courage,,
+122,7,B1,B1,A1,der Dank,dankbar,,"grateful, thankful","the gratitude, the thanks",reconnaissant,le remerciement,dankbar,"grateful, thankful",reconnaissant,der Dank,"the gratitude, the thanks",le remerciement,,
+123,7,B1,B1,B1,das Fett,fett,,"fat, greasy, fatty",the fat,"gras, graisseux",la graisse,fett,"fat, greasy, fatty","gras, graisseux",das Fett,the fat,la graisse,,
+124,7,B1,B1,A2,der Stress,stressig,,"stressful, stress-inducing",the stress,"stressant, éprouvant",le stress,stressig,"stressful, stress-inducing","stressant, éprouvant",der Stress,the stress,le stress,,
+125,7,B1,B1,B1,der Mut,mutig,,"brave, courageous, bold",the courage,"courageux, brave, audacieux",le courage,mutig,"brave, courageous, bold","courageux, brave, audacieux",der Mut,the courage,le courage,,
 126,7,B1,B1,A1,der Hof,höflich,,"polite, courteous","the courtyard, yard","poli, courtois",la cour,höflich,"polite, courteous","poli, courtois",der Hof,"the courtyard, yard",la cour,,
-127,7,B1,B1,A2,der Ärger,ärgerlich,,annoying,"the annoyance, trouble",ennuyeux,le problème,ärgerlich,annoying,ennuyeux,der Ärger,"the annoyance, trouble",le problème,,
-128,7,B1,B1,A1,die Freude,froh,,"happy, glad",the joy,"heureux, content",la joie,froh,"happy, glad","heureux, content",die Freude,the joy,la joie,,
-129,7,B1,B1,A2,das Wunder,wunderschön,,beautiful,the miracle,beau,le miracle,wunderschön,beautiful,beau,das Wunder,the miracle,le miracle,,
+127,7,B1,B1,A2,der Ärger,ärgerlich,,"annoying, irritating, upsetting","the annoyance, trouble","agaçant, énervant, contrariant",le problème,ärgerlich,"annoying, irritating, upsetting","agaçant, énervant, contrariant",der Ärger,"the annoyance, trouble",le problème,,
+128,7,B1,B1,A1,die Freude,froh,,"happy, glad, pleased",the joy,"heureux, content, ravi",la joie,froh,"happy, glad, pleased","heureux, content, ravi",die Freude,the joy,la joie,,
+129,7,B1,B1,A2,das Wunder,wunderschön,,"beautiful, gorgeous, stunning",the miracle,"magnifique, splendide, superbe",le miracle,wunderschön,"beautiful, gorgeous, stunning","magnifique, splendide, superbe",das Wunder,the miracle,le miracle,,
 130,7,B1,A1,B1,die Trauer,traurig,,sad,"the grief, the sorrow",triste,le deuil,traurig,sad,triste,die Trauer,"the grief, the sorrow",le deuil,,
-131,8,B1,B1,A1,natürlich,die Natur,,the nature,"natural, self-evident",la nature,"naturel, évident",natürlich,"natural, self-evident","naturel, évident",die Natur,the nature,la nature,Feminine,Féminin
-132,8,B1,B1,A2,aufmerksam,die Aufmerksamkeit,,the attention,attentive,l'attention,attentif,aufmerksam,attentive,attentif,die Aufmerksamkeit,the attention,l'attention,Feminine,Féminin
-133,8,B1,B1,A1,gefährlich,die Gefahr,,the danger,dangerous,le danger,dangereux,gefährlich,dangerous,dangereux,die Gefahr,the danger,le danger,Feminine,Féminin
-134,8,B1,B1,A1,beruflich,der Beruf,,"the occupation, job, profession",professional,le travail,professionnel,beruflich,professional,professionnel,der Beruf,"the occupation, job, profession",le travail,Masculine,Masculin
-135,8,B1,B1,B1,ernst,der Ernst,,the seriousness,serious,le sérieux,sérieux,ernst,serious,sérieux,der Ernst,the seriousness,le sérieux,Masculine,Masculin
+131,8,B1,B1,A1,natürlich,die Natur,,the nature,"natural, obvious, self-evident",la nature,"naturel, évident, qui va de soi",natürlich,"natural, obvious, self-evident","naturel, évident, qui va de soi",die Natur,the nature,la nature,Feminine,Féminin
+132,8,B1,B1,A2,aufmerksam,die Aufmerksamkeit,,the attention,"attentive, observant, considerate",l'attention,"attentif, observateur, prévenant",aufmerksam,"attentive, observant, considerate","attentif, observateur, prévenant",die Aufmerksamkeit,the attention,l'attention,Feminine,Féminin
+133,8,A2,A2,A1,gefährlich,die Gefahr,,the danger,"dangerous, hazardous",le danger,"dangereux, risqué",gefährlich,"dangerous, hazardous","dangereux, risqué",die Gefahr,the danger,le danger,Feminine,Féminin
+134,8,B1,B1,A1,beruflich,der Beruf,,"the occupation, job, profession","professional, occupational, work-related",le travail,"professionnel, lié au travail",beruflich,"professional, occupational, work-related","professionnel, lié au travail",der Beruf,"the occupation, job, profession",le travail,Masculine,Masculin
+135,8,B1,B1,B1,ernst,der Ernst,,the seriousness,"serious, earnest",le sérieux,"sérieux, grave",ernst,"serious, earnest","sérieux, grave",der Ernst,the seriousness,le sérieux,Masculine,Masculin
 136,8,B1,B1,B1,stolz,der Stolz,,the pride,proud,la fierté,fier,stolz,proud,fier,der Stolz,the pride,la fierté,Masculine,Masculin
-137,8,B1,B1,B1,riesig,der Riese,,the giant,huge,le géant,énorme,riesig,huge,énorme,der Riese,the giant,le géant,Masculine,Masculin
-138,8,B1,B1,A2,sichtbar,die Sicht,,"the view, visibility",visible,la vue,visible,sichtbar,visible,visible,die Sicht,"the view, visibility",la vue,Feminine,Féminin
-139,8,B1,B1,A1,verantwortlich,die Antwort,,"the answer, reply",responsible,la réponse,responsable,verantwortlich,responsible,responsable,die Antwort,"the answer, reply",la réponse,Feminine,Féminin
-140,8,B1,B1,A1,ordentlich,die Ordnung,,"the order, tidiness",orderly,l'ordre,ordonné,ordentlich,orderly,ordonné,die Ordnung,"the order, tidiness",l'ordre,Feminine,Féminin
-141,8,B1,B1,A1,pünktlich,der Punkt,,"the dot, point, period",punctual,le point,ponctuel,pünktlich,punctual,ponctuel,der Punkt,"the dot, point, period",le point,Masculine,Masculin
-142,8,B1,B1,B1,nervös,der Nerv,,the nerve,nervous,le nerf,nerveux,nervös,nervous,nerveux,der Nerv,the nerve,le nerf,Masculine,Masculin
+137,8,B1,B1,B1,riesig,der Riese,,the giant,"huge, enormous, gigantic",le géant,"énorme, gigantesque, immense",riesig,"huge, enormous, gigantic","énorme, gigantesque, immense",der Riese,the giant,le géant,Masculine,Masculin
+138,8,B1,B1,A2,sichtbar,die Sicht,,"the view, visibility",visible,la vue,"visible, perceptible",sichtbar,visible,"visible, perceptible",die Sicht,"the view, visibility",la vue,Feminine,Féminin
+139,8,B1,B1,A1,verantwortlich,die Antwort,,"the answer, reply","responsible, accountable",la réponse,responsable,verantwortlich,"responsible, accountable",responsable,die Antwort,"the answer, reply",la réponse,Feminine,Féminin
+140,8,B1,B1,A1,ordentlich,die Ordnung,,"the order, tidiness","tidy, neat, orderly",l'ordre,"rangé, soigné, ordonné",ordentlich,"tidy, neat, orderly","rangé, soigné, ordonné",die Ordnung,"the order, tidiness",l'ordre,Feminine,Féminin
+141,8,B1,B1,A1,pünktlich,der Punkt,,"the dot, point, period","punctual, on time",le point,"ponctuel, à l'heure",pünktlich,"punctual, on time","ponctuel, à l'heure",der Punkt,"the dot, point, period",le point,Masculine,Masculin
+142,8,B1,B1,B1,nervös,der Nerv,,the nerve,"nervous, anxious",le nerf,"nerveux, anxieux",nervös,"nervous, anxious","nerveux, anxieux",der Nerv,the nerve,le nerf,Masculine,Masculin
 143,8,B1,B1,B1,schwanger,die Schwangerschaft,,the pregnancy,pregnant,la grossesse,enceinte,schwanger,pregnant,enceinte,die Schwangerschaft,the pregnancy,la grossesse,Feminine,Féminin
-144,8,B1,B1,A1,dankbar,der Dank,,"the gratitude, the thanks",grateful,le remerciement,reconnaissant,dankbar,grateful,reconnaissant,der Dank,"the gratitude, the thanks",le remerciement,Masculine,Masculin
-145,8,B1,B1,B1,fett,das Fett,,the fat,fat,la graisse,gras,fett,fat,gras,das Fett,the fat,la graisse,Neuter,Neutre
-146,8,B1,B1,A2,stressig,der Stress,,the stress,stressful,le stress,stressant,stressig,stressful,stressant,der Stress,the stress,le stress,Masculine,Masculin
-147,8,B1,B1,B1,mutig,der Mut,,the courage,courageous,le courage,courageux,mutig,courageous,courageux,der Mut,the courage,le courage,Masculine,Masculin
+144,8,B1,B1,A1,dankbar,der Dank,,"the gratitude, the thanks","grateful, thankful",le remerciement,reconnaissant,dankbar,"grateful, thankful",reconnaissant,der Dank,"the gratitude, the thanks",le remerciement,Masculine,Masculin
+145,8,B1,B1,B1,fett,das Fett,,the fat,"fat, greasy, fatty",la graisse,"gras, graisseux",fett,"fat, greasy, fatty","gras, graisseux",das Fett,the fat,la graisse,Neuter,Neutre
+146,8,B1,B1,A2,stressig,der Stress,,the stress,"stressful, stress-inducing",le stress,"stressant, éprouvant",stressig,"stressful, stress-inducing","stressant, éprouvant",der Stress,the stress,le stress,Masculine,Masculin
+147,8,B1,B1,B1,mutig,der Mut,,the courage,"brave, courageous, bold",le courage,"courageux, brave, audacieux",mutig,"brave, courageous, bold","courageux, brave, audacieux",der Mut,the courage,le courage,Masculine,Masculin
 148,8,B1,B1,A1,höflich,der Hof,,"the courtyard, yard","polite, courteous",la cour,"poli, courtois",höflich,"polite, courteous","poli, courtois",der Hof,"the courtyard, yard",la cour,Masculine,Masculin
-149,8,B1,B1,A2,ärgerlich,der Ärger,,"the annoyance, trouble",annoying,le problème,ennuyeux,ärgerlich,annoying,ennuyeux,der Ärger,"the annoyance, trouble",le problème,Masculine,Masculin
-150,8,B1,B1,A1,froh,die Freude,,the joy,"happy, glad",la joie,"heureux, content",froh,"happy, glad","heureux, content",die Freude,the joy,la joie,Feminine,Féminin
-151,8,B1,B1,A2,wunderschön,das Wunder,,the miracle,beautiful,le miracle,beau,wunderschön,beautiful,beau,das Wunder,the miracle,le miracle,Neuter,Neutre
+149,8,B1,B1,A2,ärgerlich,der Ärger,,"the annoyance, trouble","annoying, irritating, upsetting",le problème,"agaçant, énervant, contrariant",ärgerlich,"annoying, irritating, upsetting","agaçant, énervant, contrariant",der Ärger,"the annoyance, trouble",le problème,Masculine,Masculin
+150,8,B1,B1,A1,froh,die Freude,,the joy,"happy, glad, pleased",la joie,"heureux, content, ravi",froh,"happy, glad, pleased","heureux, content, ravi",die Freude,the joy,la joie,Feminine,Féminin
+151,8,B1,B1,A2,wunderschön,das Wunder,,the miracle,"beautiful, gorgeous, stunning",le miracle,"magnifique, splendide, superbe",wunderschön,"beautiful, gorgeous, stunning","magnifique, splendide, superbe",das Wunder,the miracle,le miracle,Neuter,Neutre
 152,8,B1,A1,B1,traurig,die Trauer,,"the grief, the sorrow",sad,le deuil,triste,traurig,sad,triste,die Trauer,"the grief, the sorrow",le deuil,Feminine,Féminin
-153,9,B2,A1,B2,die Kürze,kurz,,short,the brevity,court,la brièveté,kurz,short,court,die Kürze,the brevity,la brièveté,,
-154,9,B2,A2,B2,die Klarheit,klar,,clear,the clarity,clair,la clarté,klar,clear,clair,die Klarheit,the clarity,la clarté,,
-155,9,B2,A2,B2,die Zufriedenheit,zufrieden,,satisfied,the satisfaction,satisfait,la satisfaction,zufrieden,satisfied,satisfait,die Zufriedenheit,the satisfaction,la satisfaction,,
-156,9,B2,A2,B2,der Schreck,schrecklich,,terrible,"the fright, shock",terrible,la peur,schrecklich,terrible,terrible,der Schreck,"the fright, shock",la peur,,
-157,9,B2,A2,B2,die Süßigkeit,süß,,sweet,the candy,sucré,le sucré,süß,sweet,sucré,die Süßigkeit,the candy,le sucré,,
-158,9,B2,B1,B2,die Notwendigkeit,notwendig,,necessary,the necessity,nécessaire,le besoin,notwendig,necessary,nécessaire,die Notwendigkeit,the necessity,le besoin,,
-159,9,B2,B1,B2,die Gemeinsamkeit,gemeinsam,,"common, collective",the commonality,"commun, collectif",le point commun,gemeinsam,"common, collective","commun, collectif",die Gemeinsamkeit,the commonality,le point commun,,
-160,9,B2,B1,B2,die Flexibilität,flexibel,,flexible,the flexibility,flexible,la flexibilité,flexibel,flexible,flexible,die Flexibilität,the flexibility,la flexibilité,,
-161,9,B2,B1,B2,die Bereitschaft,bereit,,ready,the readiness,prêt,"la disponibilité, la promptitude",bereit,ready,prêt,die Bereitschaft,the readiness,"la disponibilité, la promptitude",,
-162,9,B2,B1,B2,die Furcht,furchtbar,,terrible,the fear,terrible,la peur,furchtbar,terrible,terrible,die Furcht,the fear,la peur,,
-163,9,B2,B1,B2,die Unabhängigkeit,unabhängig,,independent,the independence,indépendant,l'indépendance,unabhängig,independent,indépendant,die Unabhängigkeit,the independence,l'indépendance,,
-164,9,B2,B1,B2,die Abhängigkeit,abhängig,,dependent,the dependence,dépendant,la dépendance,abhängig,dependent,dépendant,die Abhängigkeit,the dependence,la dépendance,,
-165,9,B2,B1,B2,das Gemüt,gemütlich,,"cozy, comfortable","the feeling, the heart, the soul","douillet, confortable",l'esprit,gemütlich,"cozy, comfortable","douillet, confortable",das Gemüt,"the feeling, the heart, the soul",l'esprit,,
-166,9,B2,B1,B2,die Gunst,günstig,,cheap,"the goodwill, favor",bon marché,la faveur,günstig,cheap,bon marché,die Gunst,"the goodwill, favor",la faveur,,
-167,9,B2,B1,B2,die Wahrscheinlichkeit,wahrscheinlich,,"possible, likely",the probability,possible,la probabilité,wahrscheinlich,"possible, likely",possible,die Wahrscheinlichkeit,the probability,la probabilité,,
-168,9,B2,B2,A1,die Zukunft,zukünftig,,future,the future,futur,l'avenir,zukünftig,future,futur,die Zukunft,the future,l'avenir,,
-169,9,B2,B2,B2,der Ursprung,ursprünglich,,original,the origin,original,l'origine,ursprünglich,original,original,der Ursprung,the origin,l'origine,,
-170,9,B2,B2,B2,die Einsamkeit,einsam,,lonely,the loneliness,solitaire,la solitude,einsam,lonely,solitaire,die Einsamkeit,the loneliness,la solitude,,
-171,9,B2,B2,A1,die Vergangenheit,vergangen,,past,the past,passé,le passé,vergangen,past,passé,die Vergangenheit,the past,le passé,,
-172,9,B2,B2,A2,die Fläche,flach,,"flat, shallow","the area, surface","plat, superficiel",la région,flach,"flat, shallow","plat, superficiel",die Fläche,"the area, surface",la région,,
-173,10,B2,A1,B2,kurz,die Kürze,,the brevity,short,la brièveté,court,kurz,short,court,die Kürze,the brevity,la brièveté,Feminine,Féminin
-174,10,B2,A2,B2,klar,die Klarheit,,the clarity,clear,la clarté,clair,klar,clear,clair,die Klarheit,the clarity,la clarté,Feminine,Féminin
-175,10,B2,A2,B2,zufrieden,die Zufriedenheit,,the satisfaction,satisfied,la satisfaction,satisfait,zufrieden,satisfied,satisfait,die Zufriedenheit,the satisfaction,la satisfaction,Feminine,Féminin
-176,10,B2,A2,B2,schrecklich,der Schreck,,"the fright, shock",terrible,la peur,terrible,schrecklich,terrible,terrible,der Schreck,"the fright, shock",la peur,Masculine,Masculin
-177,10,B2,A2,B2,süß,die Süßigkeit,,the candy,sweet,le sucré,sucré,süß,sweet,sucré,die Süßigkeit,the candy,le sucré,Feminine,Féminin
-178,10,B2,B1,B2,notwendig,die Notwendigkeit,,the necessity,necessary,le besoin,nécessaire,notwendig,necessary,nécessaire,die Notwendigkeit,the necessity,le besoin,Feminine,Féminin
-179,10,B2,B1,B2,gemeinsam,die Gemeinsamkeit,,the commonality,"common, collective",le point commun,"commun, collectif",gemeinsam,"common, collective","commun, collectif",die Gemeinsamkeit,the commonality,le point commun,Feminine,Féminin
-180,10,B2,B1,B2,flexibel,die Flexibilität,,the flexibility,flexible,la flexibilité,flexible,flexibel,flexible,flexible,die Flexibilität,the flexibility,la flexibilité,Feminine,Féminin
-181,10,B2,B1,B2,bereit,die Bereitschaft,,the willingness,ready,la volonté,prêt,bereit,ready,prêt,die Bereitschaft,the willingness,la volonté,Feminine,Féminin
-182,10,B2,B1,B2,furchtbar,die Furcht,,the fear,terrible,la peur,terrible,furchtbar,terrible,terrible,die Furcht,the fear,la peur,Feminine,Féminin
-183,10,B2,B1,B2,unabhängig,die Unabhängigkeit,,the independence,independent,l'indépendance,indépendant,unabhängig,independent,indépendant,die Unabhängigkeit,the independence,l'indépendance,Feminine,Féminin
-184,10,B2,B1,B2,abhängig,die Abhängigkeit,,the dependence,dependent,la dépendance,dépendant,abhängig,dependent,dépendant,die Abhängigkeit,the dependence,la dépendance,Feminine,Féminin
-185,10,B2,B1,B2,gemütlich,das Gemüt,,"the feeling, the heart, the soul","cozy, comfortable",l'esprit,"douillet, confortable",gemütlich,"cozy, comfortable","douillet, confortable",das Gemüt,"the feeling, the heart, the soul",l'esprit,Neuter,Neutre
-186,10,B2,B1,B2,günstig,die Gunst,,"the goodwill, favor",cheap,la faveur,bon marché,günstig,cheap,bon marché,die Gunst,"the goodwill, favor",la faveur,Feminine,Féminin
-187,10,B2,B1,B2,wahrscheinlich,die Wahrscheinlichkeit,,the probability,"possible, likely",la probabilité,possible,wahrscheinlich,"possible, likely",possible,die Wahrscheinlichkeit,the probability,la probabilité,Feminine,Féminin
-188,10,B2,B2,A1,zukünftig,die Zukunft,,the future,future,l'avenir,futur,zukünftig,future,futur,die Zukunft,the future,l'avenir,Feminine,Féminin
-189,10,B2,B2,B2,ursprünglich,der Ursprung,,the origin,original,l'origine,original,ursprünglich,original,original,der Ursprung,the origin,l'origine,Masculine,Masculin
-190,10,B2,B2,B2,einsam,die Einsamkeit,,the loneliness,lonely,la solitude,solitaire,einsam,lonely,solitaire,die Einsamkeit,the loneliness,la solitude,Feminine,Féminin
-191,10,B2,B2,A1,vergangen,die Vergangenheit,,the past,past,le passé,passé,vergangen,past,passé,die Vergangenheit,the past,le passé,Feminine,Féminin
-192,10,B2,B2,A2,flach,die Fläche,,"the area, surface","flat, shallow",la région,"plat, superficiel",flach,"flat, shallow","plat, superficiel",die Fläche,"the area, surface",la région,Feminine,Féminin
-193,11,B2,B2,B2,die Besonderheit,besondere,,special,"the characteristic, specific, feature",spécial,la caractéristique spéciale,besondere,special,spécial,die Besonderheit,"the characteristic, specific, feature",la caractéristique spéciale,,
-194,11,B2,B2,A1,der Körper,körperlich,,physical,the body,physique,le corps,körperlich,physical,physique,der Körper,the body,le corps,,
-195,11,B2,B2,A1,der Sinn,sinnvoll,,sensible,"the sense, meaning",sensible,la signification,sinnvoll,sensible,sensible,der Sinn,"the sense, meaning",la signification,,
-196,11,B2,B2,A1,der Sinn,sinnlos,,pointless,"the sense, meaning",inutile,la signification,sinnlos,pointless,inutile,der Sinn,"the sense, meaning",la signification,,
-197,11,B2,B2,A2,das Recht,rechtlich,,legal,"the right, law",légal,le droit,rechtlich,legal,légal,das Recht,"the right, law",le droit,,
-198,11,B2,B2,B2,die Unsicherheit,unsicher,,unsure,the uncertainty,incertain,l'incertitude,unsicher,unsure,incertain,die Unsicherheit,the uncertainty,l'incertitude,,
-199,11,B2,B2,B2,die Intensität,intensiv,,intensive,the intensity,intensif,l'intensité,intensiv,intensive,intensif,die Intensität,the intensity,l'intensité,,
-200,11,B2,B2,A2,der Durchschnitt,durchschnittlich,,average,the average,moyenne,la moyenne,durchschnittlich,average,moyenne,der Durchschnitt,the average,la moyenne,,
-201,11,B2,B2,A1,der Alltag,alltäglich,,everyday,"the workday, daily routine",tous les jours,le quotidien,alltäglich,everyday,tous les jours,der Alltag,"the workday, daily routine",le quotidien,,
-202,11,B2,B2,A2,die Schrift,schriftlich,,written,"the script, handwriting",écrit,l'écriture,schriftlich,written,écrit,die Schrift,"the script, handwriting",l'écriture,,
-203,11,B2,B2,A1,der Mund,mündlich,,oral,the mouth,oral,la bouche,mündlich,oral,oral,der Mund,the mouth,la bouche,,
-204,11,B2,B2,B2,die Selbstständigkeit,selbstständig,,"self-employed, independent","the independence, the self-employment","autonome, indépendant, à son compte",le travail indépendant,selbstständig,"self-employed, independent","autonome, indépendant, à son compte",die Selbstständigkeit,"the independence, the self-employment",le travail indépendant,,
-205,11,B2,B2,B1,das Wesen,wesentlich,,"essential, substantial","the being, creature, nature",essentiel,l'essence,wesentlich,"essential, substantial",essentiel,das Wesen,"the being, creature, nature",l'essence,,
-206,11,B2,B2,A1,die Wirtschaft,wirtschaftlich,,economic,"the economy, commerce",économique,l'économie,wirtschaftlich,economic,économique,die Wirtschaft,"the economy, commerce",l'économie,,
-207,11,B2,B2,B2,der Wirt,wirtschaftlich,,economic,"the host, the keeper, the agent",économique,l'aubergiste,wirtschaftlich,economic,économique,der Wirt,"the host, the keeper, the agent",l'aubergiste,,
-208,11,B2,B2,A2,die Kritik,kritisch,,critical,"the criticism, review",critique,la critique,kritisch,critical,critique,die Kritik,"the criticism, review",la critique,,
-209,11,B2,B2,A2,die Bedingung,unbedingt,,"absolute, unconditional","the condition, stipulation","inconditionnel, absolu",la condition,unbedingt,"absolute, unconditional","inconditionnel, absolu",die Bedingung,"the condition, stipulation",la condition,,
-210,11,B2,B2,A1,die Kunst,künstlich,,artificial,the art,artificiel,l'art,künstlich,artificial,artificiel,die Kunst,the art,l'art,,
-211,11,B2,B2,A1,die Stadt,städtisch,,urban,"the city, town",urbain,la ville,städtisch,urban,urbain,die Stadt,"the city, town",la ville,,
-212,11,B2,B2,A1,das Land,ländlich,,rural,"the land, country, state",rural,le pays,ländlich,rural,rural,das Land,"the land, country, state",le pays,,
-213,12,B2,B2,B2,besondere,die Besonderheit,,"the characteristic, specific, feature",special,la caractéristique spéciale,spécial,besondere,special,spécial,die Besonderheit,"the characteristic, specific, feature",la caractéristique spéciale,Feminine,Féminin
-214,12,B2,B2,A1,körperlich,der Körper,,the body,physical,le corps,physique,körperlich,physical,physique,der Körper,the body,le corps,Masculine,Masculin
-215,12,B2,B2,A1,sinnvoll,der Sinn,,"the sense, meaning",sensible,la signification,sensible,sinnvoll,sensible,sensible,der Sinn,"the sense, meaning",la signification,Masculine,Masculin
-216,12,B2,B2,A1,sinnlos,der Sinn,,"the sense, meaning",pointless,la signification,inutile,sinnlos,pointless,inutile,der Sinn,"the sense, meaning",la signification,Masculine,Masculin
-217,12,B2,B2,A2,rechtlich,das Recht,,"the right, law",legal,le droit,légal,rechtlich,legal,légal,das Recht,"the right, law",le droit,Neuter,Neutre
-218,12,B2,B2,B2,unsicher,die Unsicherheit,,the uncertainty,unsure,l'incertitude,incertain,unsicher,unsure,incertain,die Unsicherheit,the uncertainty,l'incertitude,Feminine,Féminin
-219,12,B2,B2,B2,intensiv,die Intensität,,the intensity,intensive,l'intensité,intensif,intensiv,intensive,intensif,die Intensität,the intensity,l'intensité,Feminine,Féminin
-220,12,B2,B2,A2,durchschnittlich,der Durchschnitt,,the average,average,la moyenne,moyenne,durchschnittlich,average,moyenne,der Durchschnitt,the average,la moyenne,Masculine,Masculin
-221,12,B2,B2,A1,alltäglich,der Alltag,,"the workday, daily routine",everyday,le quotidien,tous les jours,alltäglich,everyday,tous les jours,der Alltag,"the workday, daily routine",le quotidien,Masculine,Masculin
-222,12,B2,B2,A2,schriftlich,die Schrift,,"the script, handwriting",written,l'écriture,écrit,schriftlich,written,écrit,die Schrift,"the script, handwriting",l'écriture,Feminine,Féminin
-223,12,B2,B2,A1,mündlich,der Mund,,the mouth,oral,la bouche,oral,mündlich,oral,oral,der Mund,the mouth,la bouche,Masculine,Masculin
-224,12,B2,B2,B2,selbstständig,die Selbstständigkeit,,"the independence, the self-employment","self-employed, independent",le travail indépendant,"autonome, indépendant, à son compte",selbstständig,"self-employed, independent","autonome, indépendant, à son compte",die Selbstständigkeit,"the independence, the self-employment",le travail indépendant,Feminine,Féminin
-225,12,B2,B2,B1,wesentlich,das Wesen,,"the being, creature, nature","essential, substantial",l'essence,essentiel,wesentlich,"essential, substantial",essentiel,das Wesen,"the being, creature, nature",l'essence,Neuter,Neutre
-226,12,B2,B2,A1,wirtschaftlich,die Wirtschaft,,"the economy, commerce",economic,l'économie,économique,wirtschaftlich,economic,économique,die Wirtschaft,"the economy, commerce",l'économie,Feminine,Féminin
-227,12,B2,B2,B2,wirtschaftlich,der Wirt,,"the host, the keeper, the agent",economic,l'aubergiste,économique,wirtschaftlich,economic,économique,der Wirt,"the host, the keeper, the agent",l'aubergiste,Masculine,Masculin
-228,12,B2,B2,A2,kritisch,die Kritik,,"the criticism, review",critical,la critique,critique,kritisch,critical,critique,die Kritik,"the criticism, review",la critique,Feminine,Féminin
-229,12,B2,B2,A2,unbedingt,die Bedingung,,"the condition, stipulation","absolute, unconditional",la condition,"inconditionnel, absolu",unbedingt,"absolute, unconditional","inconditionnel, absolu",die Bedingung,"the condition, stipulation",la condition,Feminine,Féminin
-230,12,B2,B2,A1,künstlich,die Kunst,,the art,artificial,l'art,artificiel,künstlich,artificial,artificiel,die Kunst,the art,l'art,Feminine,Féminin
-231,12,B2,B2,A1,städtisch,die Stadt,,"the city, town",urban,la ville,urbain,städtisch,urban,urbain,die Stadt,"the city, town",la ville,Feminine,Féminin
-232,12,B2,B2,A1,ländlich,das Land,,"the land, country, state",rural,le pays,rural,ländlich,rural,rural,das Land,"the land, country, state",le pays,Neuter,Neutre
-233,13,B2,B2,B1,die Glaube,unglaublich,,unbelievable,the faith,incroyable,la foi,unglaublich,unbelievable,incroyable,die Glaube,the faith,la foi,,
-234,13,B2,B2,A1,der Wert,wertvoll,,valuable,the value,précieux,la valeur,wertvoll,valuable,précieux,der Wert,the value,la valeur,,
-235,13,B2,B2,A1,der Wert,wertlos,,worthless,the value,sans valeur,la valeur,wertlos,worthless,sans valeur,der Wert,the value,la valeur,,
-236,13,B2,B2,B1,das Heim,geheim,,secret,the home,secret,la maison,geheim,secret,secret,das Heim,the home,la maison,,
-237,13,B2,B2,B1,der Zufall,zufällig,,random,"the chance, the coincidence","aléatoire, fortuit","la chance, la coincidence",zufällig,random,"aléatoire, fortuit",der Zufall,"the chance, the coincidence","la chance, la coincidence",,
-238,13,B2,B2,A1,der Schaden,schädlich,,harmful,the damage,nocif,les dégâts,schädlich,harmful,nocif,der Schaden,the damage,les dégâts,,
-239,13,B2,B2,B1,die Anwesenheit,anwesend,,present,the presence,présent,la présence,anwesend,present,présent,die Anwesenheit,the presence,la présence,,
-240,13,B2,B2,B2,die Abwesenheit,abwesend,,absent,the absence,absent,l'absence,abwesend,absent,absent,die Abwesenheit,the absence,l'absence,,
-241,13,B2,B2,A1,der Fall,fällig,,due,"the fall, case",exigible,l'affaire,fällig,due,exigible,der Fall,"the fall, case",l'affaire,,
-242,13,B2,B2,B1,die Gewohnheit,gewöhnlich,,ordinary,the habit,"ordinaire, habituel",l'habitude,gewöhnlich,ordinary,"ordinaire, habituel",die Gewohnheit,the habit,l'habitude,,
-243,13,B2,B2,A1,der Grund,gründlich,,thorough,"the reason, basis","minutieux, rigoureux",la raison,gründlich,thorough,"minutieux, rigoureux",der Grund,"the reason, basis",la raison,,
-244,13,B2,B2,A2,die Schuld,schuldig,,guilty,the guilt,coupable,la faute,schuldig,guilty,coupable,die Schuld,the guilt,la faute,,
-245,13,B2,B2,B2,die Vernunft,vernünftig,,reasonable,the reason,raisonnable,la raison,vernünftig,reasonable,raisonnable,die Vernunft,the reason,la raison,,
-246,13,B2,B2,B2,die Zuverlässigkeit,zuverlässig,,reliable,the reliability,fiable,la fiabilité,zuverlässig,reliable,fiable,die Zuverlässigkeit,the reliability,la fiabilité,,
-247,13,B2,B2,B1,das Gift,giftig,,toxic,the poison,toxique,le poison,giftig,toxic,toxique,das Gift,the poison,le poison,,
-248,13,B2,B2,A1,die Angst,ängstlich,,anxious,"the fear, anxiety",craintif,la peur,ängstlich,anxious,craintif,die Angst,"the fear, anxiety",la peur,,
-249,13,B2,B2,A1,die Gesellschaft,gesellschaftlich,,"social, societal","the society, company","social, sociétale",la société,gesellschaftlich,"social, societal","social, sociétale",die Gesellschaft,"the society, company",la société,,
-250,13,B2,B2,A1,der Tag,täglich,,daily,the day,quotidien,le jour,täglich,daily,quotidien,der Tag,the day,le jour,,
-251,13,B2,B2,A1,das Jahr,jährlich,,yearly,the year,annuel,l'année,jährlich,yearly,annuel,das Jahr,the year,l'année,,
+153,9,B2,A1,B2,die Kürze,kurz,,"short, brief",the brevity,"court, bref",la brièveté,kurz,"short, brief","court, bref",die Kürze,the brevity,la brièveté,,
+154,9,B2,A2,B2,die Klarheit,klar,,"clear, obvious, evident",the clarity,"clair, évident, net",la clarté,klar,"clear, obvious, evident","clair, évident, net",die Klarheit,the clarity,la clarté,,
+155,9,B2,A2,B2,die Zufriedenheit,zufrieden,,"satisfied, content",the satisfaction,"satisfait, content",la satisfaction,zufrieden,"satisfied, content","satisfait, content",die Zufriedenheit,the satisfaction,la satisfaction,,
+156,9,B2,A2,B2,der Schreck,schrecklich,,"terrible, dreadful, awful","the fright, shock","terrible, affreux, horrible",la peur,schrecklich,"terrible, dreadful, awful","terrible, affreux, horrible",der Schreck,"the fright, shock",la peur,,
+157,9,B2,A2,B2,die Süßigkeit,süß,,"sweet, cute",the candy,"sucré, doux, mignon",le sucré,süß,"sweet, cute","sucré, doux, mignon",die Süßigkeit,the candy,le sucré,,
+158,9,B2,B1,B2,die Notwendigkeit,notwendig,,"necessary, required",the necessity,"nécessaire, requis",le besoin,notwendig,"necessary, required","nécessaire, requis",die Notwendigkeit,the necessity,le besoin,,
+159,9,B2,B1,B2,die Gemeinsamkeit,gemeinsam,,"common, shared, joint, collective",the commonality,"commun, partagé, collectif",le point commun,gemeinsam,"common, shared, joint, collective","commun, partagé, collectif",die Gemeinsamkeit,the commonality,le point commun,,
+160,9,B2,B1,B2,die Flexibilität,flexibel,,"flexible, adaptable",the flexibility,"flexible, souple, adaptable",la flexibilité,flexibel,"flexible, adaptable","flexible, souple, adaptable",die Flexibilität,the flexibility,la flexibilité,,
+161,9,B2,B1,B2,die Bereitschaft,bereit,,"ready, prepared, willing",the readiness,"prêt, préparé, disposé","la disponibilité, la promptitude",bereit,"ready, prepared, willing","prêt, préparé, disposé",die Bereitschaft,the readiness,"la disponibilité, la promptitude",,
+162,9,B2,B1,B2,die Furcht,furchtbar,,"terrible, awful, dreadful",the fear,"terrible, affreux, horrible",la peur,furchtbar,"terrible, awful, dreadful","terrible, affreux, horrible",die Furcht,the fear,la peur,,
+163,9,B2,B1,B2,die Unabhängigkeit,unabhängig,,"independent, autonomous",the independence,"indépendant, autonome",l'indépendance,unabhängig,"independent, autonomous","indépendant, autonome",die Unabhängigkeit,the independence,l'indépendance,,
+164,9,B2,B1,B2,die Abhängigkeit,abhängig,,"dependent, reliant",the dependence,"dépendant, tributaire",la dépendance,abhängig,"dependent, reliant","dépendant, tributaire",die Abhängigkeit,the dependence,la dépendance,,
+165,9,B2,B1,B2,das Gemüt,gemütlich,,"cozy, comfortable, pleasant","the feeling, the heart, the soul","confortable, douillet, chaleureux, convivial",l'esprit,gemütlich,"cozy, comfortable, pleasant","confortable, douillet, chaleureux, convivial",das Gemüt,"the feeling, the heart, the soul",l'esprit,,
+166,9,B2,B1,B2,die Gunst,günstig,,"inexpensive, affordable, favorable","the goodwill, favor","bon marché, abordable, avantageux, favorable",la faveur,günstig,"inexpensive, affordable, favorable","bon marché, abordable, avantageux, favorable",die Gunst,"the goodwill, favor",la faveur,,
+167,9,B2,B1,B2,die Wahrscheinlichkeit,wahrscheinlich,,"probable, likely",the probability,"probable, vraisemblable",la probabilité,wahrscheinlich,"probable, likely","probable, vraisemblable",die Wahrscheinlichkeit,the probability,la probabilité,,
+168,9,B2,B2,A1,die Zukunft,zukünftig,,"future, forthcoming",the future,"futur, à venir",l'avenir,zukünftig,"future, forthcoming","futur, à venir",die Zukunft,the future,l'avenir,,
+169,9,B2,B2,B2,der Ursprung,ursprünglich,,"original, initial",the origin,"original, initial, d'origine",l'origine,ursprünglich,"original, initial","original, initial, d'origine",der Ursprung,the origin,l'origine,,
+170,9,B2,B2,B2,die Einsamkeit,einsam,,"lonely, solitary",the loneliness,"seul, solitaire, isolé",la solitude,einsam,"lonely, solitary","seul, solitaire, isolé",die Einsamkeit,the loneliness,la solitude,,
+171,9,B2,B2,A1,die Vergangenheit,vergangen,,past,the past,"passé, écoulé",le passé,vergangen,past,"passé, écoulé",die Vergangenheit,the past,le passé,,
+172,9,B2,B2,A2,die Fläche,flach,,"flat, shallow, low","the area, surface","plat, peu profond, bas",la région,flach,"flat, shallow, low","plat, peu profond, bas",die Fläche,"the area, surface",la région,,
+173,10,B2,A1,B2,kurz,die Kürze,,the brevity,"short, brief",la brièveté,"court, bref",kurz,"short, brief","court, bref",die Kürze,the brevity,la brièveté,Feminine,Féminin
+174,10,B2,A2,B2,klar,die Klarheit,,the clarity,"clear, obvious, evident",la clarté,"clair, évident, net",klar,"clear, obvious, evident","clair, évident, net",die Klarheit,the clarity,la clarté,Feminine,Féminin
+175,10,B2,A2,B2,zufrieden,die Zufriedenheit,,the satisfaction,"satisfied, content",la satisfaction,"satisfait, content",zufrieden,"satisfied, content","satisfait, content",die Zufriedenheit,the satisfaction,la satisfaction,Feminine,Féminin
+176,10,B2,A2,B2,schrecklich,der Schreck,,"the fright, shock","terrible, dreadful, awful",la peur,"terrible, affreux, horrible",schrecklich,"terrible, dreadful, awful","terrible, affreux, horrible",der Schreck,"the fright, shock",la peur,Masculine,Masculin
+177,10,B2,A2,B2,süß,die Süßigkeit,,the candy,"sweet, cute",le sucré,"sucré, doux, mignon",süß,"sweet, cute","sucré, doux, mignon",die Süßigkeit,the candy,le sucré,Feminine,Féminin
+178,10,B2,B1,B2,notwendig,die Notwendigkeit,,the necessity,"necessary, required",le besoin,"nécessaire, requis",notwendig,"necessary, required","nécessaire, requis",die Notwendigkeit,the necessity,le besoin,Feminine,Féminin
+179,10,B2,B1,B2,gemeinsam,die Gemeinsamkeit,,the commonality,"common, shared, joint, collective",le point commun,"commun, partagé, collectif",gemeinsam,"common, shared, joint, collective","commun, partagé, collectif",die Gemeinsamkeit,the commonality,le point commun,Feminine,Féminin
+180,10,B2,B1,B2,flexibel,die Flexibilität,,the flexibility,"flexible, adaptable",la flexibilité,"flexible, souple, adaptable",flexibel,"flexible, adaptable","flexible, souple, adaptable",die Flexibilität,the flexibility,la flexibilité,Feminine,Féminin
+181,10,B2,B1,B2,bereit,die Bereitschaft,,the willingness,"ready, prepared, willing",la volonté,"prêt, préparé, disposé",bereit,"ready, prepared, willing","prêt, préparé, disposé",die Bereitschaft,the willingness,la volonté,Feminine,Féminin
+182,10,B2,B1,B2,furchtbar,die Furcht,,the fear,"terrible, awful, dreadful",la peur,"terrible, affreux, horrible",furchtbar,"terrible, awful, dreadful","terrible, affreux, horrible",die Furcht,the fear,la peur,Feminine,Féminin
+183,10,B2,B1,B2,unabhängig,die Unabhängigkeit,,the independence,"independent, autonomous",l'indépendance,"indépendant, autonome",unabhängig,"independent, autonomous","indépendant, autonome",die Unabhängigkeit,the independence,l'indépendance,Feminine,Féminin
+184,10,B2,B1,B2,abhängig,die Abhängigkeit,,the dependence,"dependent, reliant",la dépendance,"dépendant, tributaire",abhängig,"dependent, reliant","dépendant, tributaire",die Abhängigkeit,the dependence,la dépendance,Feminine,Féminin
+185,10,B2,B1,B2,gemütlich,das Gemüt,,"the feeling, the heart, the soul","cozy, comfortable, pleasant",l'esprit,"confortable, douillet, chaleureux, convivial",gemütlich,"cozy, comfortable, pleasant","confortable, douillet, chaleureux, convivial",das Gemüt,"the feeling, the heart, the soul",l'esprit,Neuter,Neutre
+186,10,B2,B1,B2,günstig,die Gunst,,"the goodwill, favor","inexpensive, affordable, favorable",la faveur,"bon marché, abordable, avantageux, favorable",günstig,"inexpensive, affordable, favorable","bon marché, abordable, avantageux, favorable",die Gunst,"the goodwill, favor",la faveur,Feminine,Féminin
+187,10,B2,B1,B2,wahrscheinlich,die Wahrscheinlichkeit,,the probability,"probable, likely",la probabilité,"probable, vraisemblable",wahrscheinlich,"probable, likely","probable, vraisemblable",die Wahrscheinlichkeit,the probability,la probabilité,Feminine,Féminin
+188,10,B2,B2,A1,zukünftig,die Zukunft,,the future,"future, forthcoming",l'avenir,"futur, à venir",zukünftig,"future, forthcoming","futur, à venir",die Zukunft,the future,l'avenir,Feminine,Féminin
+189,10,B2,B2,B2,ursprünglich,der Ursprung,,the origin,"original, initial",l'origine,"original, initial, d'origine",ursprünglich,"original, initial","original, initial, d'origine",der Ursprung,the origin,l'origine,Masculine,Masculin
+190,10,B2,B2,B2,einsam,die Einsamkeit,,the loneliness,"lonely, solitary",la solitude,"seul, solitaire, isolé",einsam,"lonely, solitary","seul, solitaire, isolé",die Einsamkeit,the loneliness,la solitude,Feminine,Féminin
+191,10,B2,B2,A1,vergangen,die Vergangenheit,,the past,past,le passé,"passé, écoulé",vergangen,past,"passé, écoulé",die Vergangenheit,the past,le passé,Feminine,Féminin
+192,10,B2,B2,A2,flach,die Fläche,,"the area, surface","flat, shallow, low",la région,"plat, peu profond, bas",flach,"flat, shallow, low","plat, peu profond, bas",die Fläche,"the area, surface",la région,Feminine,Féminin
+193,11,B2,B1,B2,die Besonderheit,besondere,,"special, particular, exceptional","the characteristic, specific, feature","spécial, particulier, exceptionnel",la caractéristique spéciale,besondere,"special, particular, exceptional","spécial, particulier, exceptionnel",die Besonderheit,"the characteristic, specific, feature",la caractéristique spéciale,,
+194,11,B2,B2,A1,der Körper,körperlich,,"physical, bodily",the body,"physique, corporel",le corps,körperlich,"physical, bodily","physique, corporel",der Körper,the body,le corps,,
+195,11,B2,B2,A1,der Sinn,sinnvoll,,"sensible, meaningful, useful","the sense, meaning","judicieux, sensé, utile, pertinent",la signification,sinnvoll,"sensible, meaningful, useful","judicieux, sensé, utile, pertinent",der Sinn,"the sense, meaning",la signification,,
+196,11,B2,B2,A1,der Sinn,sinnlos,,"pointless, meaningless, senseless","the sense, meaning","absurde, inutile, dénué de sens",la signification,sinnlos,"pointless, meaningless, senseless","absurde, inutile, dénué de sens",der Sinn,"the sense, meaning",la signification,,
+197,11,B2,B2,A2,das Recht,rechtlich,,"legal, juridical, statutory","the right, law","juridique, légal, de droit",le droit,rechtlich,"legal, juridical, statutory","juridique, légal, de droit",das Recht,"the right, law",le droit,,
+198,11,B2,B2,B2,die Unsicherheit,unsicher,,"uncertain, unsure, insecure, unsafe",the uncertainty,"incertain, peu sûr, hésitant, dangereux",l'incertitude,unsicher,"uncertain, unsure, insecure, unsafe","incertain, peu sûr, hésitant, dangereux",die Unsicherheit,the uncertainty,l'incertitude,,
+199,11,B2,B2,B2,die Intensität,intensiv,,"intensive, intense",the intensity,"intensif, intense",l'intensité,intensiv,"intensive, intense","intensif, intense",die Intensität,the intensity,l'intensité,,
+200,11,B2,B2,A2,der Durchschnitt,durchschnittlich,,"average, ordinary",the average,"moyen, ordinaire",la moyenne,durchschnittlich,"average, ordinary","moyen, ordinaire",der Durchschnitt,the average,la moyenne,,
+201,11,B2,B2,A1,der Alltag,alltäglich,,"everyday, daily, commonplace","the workday, daily routine","quotidien, courant, banal",le quotidien,alltäglich,"everyday, daily, commonplace","quotidien, courant, banal",der Alltag,"the workday, daily routine",le quotidien,,
+202,11,B2,B2,A2,die Schrift,schriftlich,,"written, in writing","the script, handwriting","écrit, par écrit",l'écriture,schriftlich,"written, in writing","écrit, par écrit",die Schrift,"the script, handwriting",l'écriture,,
+203,11,B2,B2,A1,der Mund,mündlich,,"oral, spoken, verbal",the mouth,"oral, verbal",la bouche,mündlich,"oral, spoken, verbal","oral, verbal",der Mund,the mouth,la bouche,,
+204,11,B2,B1,B2,die Selbstständigkeit,selbstständig,,"self-employed, independent, autonomous","the independence, the self-employment","à son compte, indépendant, autonome",le travail indépendant,selbstständig,"self-employed, independent, autonomous","à son compte, indépendant, autonome",die Selbstständigkeit,"the independence, the self-employment",le travail indépendant,,
+205,11,B2,B2,B1,das Wesen,wesentlich,,"essential, fundamental, substantial, significant","the being, creature, nature","essentiel, fondamental, considérable, important",l'essence,wesentlich,"essential, fundamental, substantial, significant","essentiel, fondamental, considérable, important",das Wesen,"the being, creature, nature",l'essence,,
+206,11,B2,B2,A1,die Wirtschaft,wirtschaftlich,,"economic, economical","the economy, commerce",économique,l'économie,wirtschaftlich,"economic, economical",économique,die Wirtschaft,"the economy, commerce",l'économie,,
+207,11,B2,B2,B2,der Wirt,wirtschaftlich,,"economic, economical","the host, the keeper, the agent",économique,l'aubergiste,wirtschaftlich,"economic, economical",économique,der Wirt,"the host, the keeper, the agent",l'aubergiste,,
+208,11,B2,B2,A2,die Kritik,kritisch,,"critical, crucial, skeptical","the criticism, review","critique, crucial, sceptique",la critique,kritisch,"critical, crucial, skeptical","critique, crucial, sceptique",die Kritik,"the criticism, review",la critique,,
+209,11,B2,B2,A2,die Bedingung,unbedingt,,"unconditional, absolute","the condition, stipulation","inconditionnel, absolu",la condition,unbedingt,"unconditional, absolute","inconditionnel, absolu",die Bedingung,"the condition, stipulation",la condition,,
+210,11,B2,B2,A1,die Kunst,künstlich,,"artificial, synthetic",the art,"artificiel, synthétique",l'art,künstlich,"artificial, synthetic","artificiel, synthétique",die Kunst,the art,l'art,,
+211,11,B2,B2,A1,die Stadt,städtisch,,"urban, municipal, city-owned","the city, town","urbain, municipal",la ville,städtisch,"urban, municipal, city-owned","urbain, municipal",die Stadt,"the city, town",la ville,,
+212,11,B2,B2,A1,das Land,ländlich,,"rural, countryside","the land, country, state","rural, campagnard",le pays,ländlich,"rural, countryside","rural, campagnard",das Land,"the land, country, state",le pays,,
+213,12,B2,B1,B2,besondere,die Besonderheit,,"the characteristic, specific, feature","special, particular, exceptional",la caractéristique spéciale,"spécial, particulier, exceptionnel",besondere,"special, particular, exceptional","spécial, particulier, exceptionnel",die Besonderheit,"the characteristic, specific, feature",la caractéristique spéciale,Feminine,Féminin
+214,12,B2,B2,A1,körperlich,der Körper,,the body,"physical, bodily",le corps,"physique, corporel",körperlich,"physical, bodily","physique, corporel",der Körper,the body,le corps,Masculine,Masculin
+215,12,B2,B2,A1,sinnvoll,der Sinn,,"the sense, meaning","sensible, meaningful, useful",la signification,"judicieux, sensé, utile, pertinent",sinnvoll,"sensible, meaningful, useful","judicieux, sensé, utile, pertinent",der Sinn,"the sense, meaning",la signification,Masculine,Masculin
+216,12,B2,B2,A1,sinnlos,der Sinn,,"the sense, meaning","pointless, meaningless, senseless",la signification,"absurde, inutile, dénué de sens",sinnlos,"pointless, meaningless, senseless","absurde, inutile, dénué de sens",der Sinn,"the sense, meaning",la signification,Masculine,Masculin
+217,12,B2,B2,A2,rechtlich,das Recht,,"the right, law","legal, juridical, statutory",le droit,"juridique, légal, de droit",rechtlich,"legal, juridical, statutory","juridique, légal, de droit",das Recht,"the right, law",le droit,Neuter,Neutre
+218,12,B2,B2,B2,unsicher,die Unsicherheit,,the uncertainty,"uncertain, unsure, insecure, unsafe",l'incertitude,"incertain, peu sûr, hésitant, dangereux",unsicher,"uncertain, unsure, insecure, unsafe","incertain, peu sûr, hésitant, dangereux",die Unsicherheit,the uncertainty,l'incertitude,Feminine,Féminin
+219,12,B2,B2,B2,intensiv,die Intensität,,the intensity,"intensive, intense",l'intensité,"intensif, intense",intensiv,"intensive, intense","intensif, intense",die Intensität,the intensity,l'intensité,Feminine,Féminin
+220,12,B2,B2,A2,durchschnittlich,der Durchschnitt,,the average,"average, ordinary",la moyenne,"moyen, ordinaire",durchschnittlich,"average, ordinary","moyen, ordinaire",der Durchschnitt,the average,la moyenne,Masculine,Masculin
+221,12,B2,B2,A1,alltäglich,der Alltag,,"the workday, daily routine","everyday, daily, commonplace",le quotidien,"quotidien, courant, banal",alltäglich,"everyday, daily, commonplace","quotidien, courant, banal",der Alltag,"the workday, daily routine",le quotidien,Masculine,Masculin
+222,12,B2,B2,A2,schriftlich,die Schrift,,"the script, handwriting","written, in writing",l'écriture,"écrit, par écrit",schriftlich,"written, in writing","écrit, par écrit",die Schrift,"the script, handwriting",l'écriture,Feminine,Féminin
+223,12,B2,B2,A1,mündlich,der Mund,,the mouth,"oral, spoken, verbal",la bouche,"oral, verbal",mündlich,"oral, spoken, verbal","oral, verbal",der Mund,the mouth,la bouche,Masculine,Masculin
+224,12,B2,B1,B2,selbstständig,die Selbstständigkeit,,"the independence, the self-employment","self-employed, independent, autonomous",le travail indépendant,"à son compte, indépendant, autonome",selbstständig,"self-employed, independent, autonomous","à son compte, indépendant, autonome",die Selbstständigkeit,"the independence, the self-employment",le travail indépendant,Feminine,Féminin
+225,12,B2,B2,B1,wesentlich,das Wesen,,"the being, creature, nature","essential, fundamental, substantial, significant",l'essence,"essentiel, fondamental, considérable, important",wesentlich,"essential, fundamental, substantial, significant","essentiel, fondamental, considérable, important",das Wesen,"the being, creature, nature",l'essence,Neuter,Neutre
+226,12,B2,B2,A1,wirtschaftlich,die Wirtschaft,,"the economy, commerce","economic, economical",l'économie,économique,wirtschaftlich,"economic, economical",économique,die Wirtschaft,"the economy, commerce",l'économie,Feminine,Féminin
+227,12,B2,B2,B2,wirtschaftlich,der Wirt,,"the host, the keeper, the agent","economic, economical",l'aubergiste,économique,wirtschaftlich,"economic, economical",économique,der Wirt,"the host, the keeper, the agent",l'aubergiste,Masculine,Masculin
+228,12,B2,B2,A2,kritisch,die Kritik,,"the criticism, review","critical, crucial, skeptical",la critique,"critique, crucial, sceptique",kritisch,"critical, crucial, skeptical","critique, crucial, sceptique",die Kritik,"the criticism, review",la critique,Feminine,Féminin
+229,12,B2,B2,A2,unbedingt,die Bedingung,,"the condition, stipulation","unconditional, absolute",la condition,"inconditionnel, absolu",unbedingt,"unconditional, absolute","inconditionnel, absolu",die Bedingung,"the condition, stipulation",la condition,Feminine,Féminin
+230,12,B2,B2,A1,künstlich,die Kunst,,the art,"artificial, synthetic",l'art,"artificiel, synthétique",künstlich,"artificial, synthetic","artificiel, synthétique",die Kunst,the art,l'art,Feminine,Féminin
+231,12,B2,B2,A1,städtisch,die Stadt,,"the city, town","urban, municipal, city-owned",la ville,"urbain, municipal",städtisch,"urban, municipal, city-owned","urbain, municipal",die Stadt,"the city, town",la ville,Feminine,Féminin
+232,12,B2,B2,A1,ländlich,das Land,,"the land, country, state","rural, countryside",le pays,"rural, campagnard",ländlich,"rural, countryside","rural, campagnard",das Land,"the land, country, state",le pays,Neuter,Neutre
+233,13,B2,B2,B1,die Glaube,unglaublich,,"unbelievable, incredible, astonishing",the faith,"incroyable, invraisemblable, étonnant",la foi,unglaublich,"unbelievable, incredible, astonishing","incroyable, invraisemblable, étonnant",die Glaube,the faith,la foi,,
+234,13,B2,B2,A1,der Wert,wertvoll,,"valuable, precious",the value,"précieux, de grande valeur",la valeur,wertvoll,"valuable, precious","précieux, de grande valeur",der Wert,the value,la valeur,,
+235,13,C1,C1,A1,der Wert,wertlos,,worthless,the value,sans valeur,la valeur,wertlos,worthless,sans valeur,der Wert,the value,la valeur,,
+236,13,B1,B1,B1,das Heim,geheim,,"secret, confidential",the home,"secret, confidentiel",la maison,geheim,"secret, confidential","secret, confidentiel",das Heim,the home,la maison,,
+237,13,B2,B2,B1,der Zufall,zufällig,,"random, accidental, coincidental","the chance, the coincidence","aléatoire, fortuit, accidentel","la chance, la coincidence",zufällig,"random, accidental, coincidental","aléatoire, fortuit, accidentel",der Zufall,"the chance, the coincidence","la chance, la coincidence",,
+238,13,B2,B2,A1,der Schaden,schädlich,,"harmful, damaging, detrimental",the damage,"nocif, nuisible, dommageable",les dégâts,schädlich,"harmful, damaging, detrimental","nocif, nuisible, dommageable",der Schaden,the damage,les dégâts,,
+239,13,B2,B2,B1,die Anwesenheit,anwesend,,"present, in attendance",the presence,présent,la présence,anwesend,"present, in attendance",présent,die Anwesenheit,the presence,la présence,,
+240,13,B2,B2,B2,die Abwesenheit,abwesend,,"absent, away",the absence,absent,l'absence,abwesend,"absent, away",absent,die Abwesenheit,the absence,l'absence,,
+241,13,B2,B2,A1,der Fall,fällig,,"due, payable","the fall, case","exigible, à payer, arrivé à échéance",l'affaire,fällig,"due, payable","exigible, à payer, arrivé à échéance",der Fall,"the fall, case",l'affaire,,
+242,13,B2,B2,B1,die Gewohnheit,gewöhnlich,,"ordinary, usual, common",the habit,"ordinaire, habituel, courant",l'habitude,gewöhnlich,"ordinary, usual, common","ordinaire, habituel, courant",die Gewohnheit,the habit,l'habitude,,
+243,13,B2,B2,A1,der Grund,gründlich,,"thorough, meticulous, comprehensive","the reason, basis","minutieux, approfondi, rigoureux",la raison,gründlich,"thorough, meticulous, comprehensive","minutieux, approfondi, rigoureux",der Grund,"the reason, basis",la raison,,
+244,13,B2,B2,A2,die Schuld,schuldig,,"guilty, culpable",the guilt,"coupable, fautif",la faute,schuldig,"guilty, culpable","coupable, fautif",die Schuld,the guilt,la faute,,
+245,13,B2,B2,B2,die Vernunft,vernünftig,,"reasonable, sensible, rational",the reason,"raisonnable, sensé, rationnel",la raison,vernünftig,"reasonable, sensible, rational","raisonnable, sensé, rationnel",die Vernunft,the reason,la raison,,
+246,13,B2,B2,B2,die Zuverlässigkeit,zuverlässig,,"reliable, dependable, trustworthy",the reliability,"fiable, digne de confiance",la fiabilité,zuverlässig,"reliable, dependable, trustworthy","fiable, digne de confiance",die Zuverlässigkeit,the reliability,la fiabilité,,
+247,13,B2,B2,B1,das Gift,giftig,,"poisonous, toxic, venomous",the poison,"toxique, vénéneux, venimeux",le poison,giftig,"poisonous, toxic, venomous","toxique, vénéneux, venimeux",das Gift,the poison,le poison,,
+248,13,B2,B2,A1,die Angst,ängstlich,,"anxious, fearful, timid","the fear, anxiety","anxieux, craintif, timide",la peur,ängstlich,"anxious, fearful, timid","anxieux, craintif, timide",die Angst,"the fear, anxiety",la peur,,
+249,13,B2,B2,A1,die Gesellschaft,gesellschaftlich,,"social, societal","the society, company","social, sociétal",la société,gesellschaftlich,"social, societal","social, sociétal",die Gesellschaft,"the society, company",la société,,
+250,13,B2,B2,A1,der Tag,täglich,,"daily, everyday",the day,"quotidien, journalier",le jour,täglich,"daily, everyday","quotidien, journalier",der Tag,the day,le jour,,
+251,13,B2,B2,A1,das Jahr,jährlich,,"annual, yearly",the year,annuel,l'année,jährlich,"annual, yearly",annuel,das Jahr,the year,l'année,,
 252,13,B2,B2,A1,der Monat,monatlich,,monthly,the month,mensuel,le mois,monatlich,monthly,mensuel,der Monat,the month,le mois,,
-253,14,B2,B2,B1,unglaublich,die Glaube,,the faith,unbelievable,la foi,incroyable,unglaublich,unbelievable,incroyable,die Glaube,the faith,la foi,Feminine,Féminin
-254,14,B2,B2,A1,wertvoll,der Wert,,the value,valuable,la valeur,précieux,wertvoll,valuable,précieux,der Wert,the value,la valeur,Masculine,Masculin
-255,14,B2,B2,A1,wertlos,der Wert,,the value,worthless,la valeur,sans valeur,wertlos,worthless,sans valeur,der Wert,the value,la valeur,Masculine,Masculin
-256,14,B2,B2,B1,geheim,das Heim,,the home,secret,la maison,secret,geheim,secret,secret,das Heim,the home,la maison,Neuter,Neutre
-257,14,B2,B2,B1,zufällig,der Zufall,,"the chance, the coincidence",random,"la chance, la coincidence","aléatoire, fortuit",zufällig,random,"aléatoire, fortuit",der Zufall,"the chance, the coincidence","la chance, la coincidence",Masculine,Masculin
-258,14,B2,B2,A1,schädlich,der Schaden,,the damage,harmful,les dégâts,nocif,schädlich,harmful,nocif,der Schaden,the damage,les dégâts,Masculine,Masculin
-259,14,B2,B2,B1,anwesend,die Anwesenheit,,the presence,present,la présence,présent,anwesend,present,présent,die Anwesenheit,the presence,la présence,Feminine,Féminin
-260,14,B2,B2,B2,abwesend,die Abwesenheit,,the absence,absent,l'absence,absent,abwesend,absent,absent,die Abwesenheit,the absence,l'absence,Feminine,Féminin
-261,14,B2,B2,A1,fällig,der Fall,,"the fall, case",due,l'affaire,exigible,fällig,due,exigible,der Fall,"the fall, case",l'affaire,Masculine,Masculin
-262,14,B2,B2,B1,gewöhnlich,die Gewohnheit,,the habit,ordinary,l'habitude,"ordinaire, habituel",gewöhnlich,ordinary,"ordinaire, habituel",die Gewohnheit,the habit,l'habitude,Feminine,Féminin
-263,14,B2,B2,A1,gründlich,der Grund,,"the reason, basis",thorough,la raison,"minutieux, rigoureux",gründlich,thorough,"minutieux, rigoureux",der Grund,"the reason, basis",la raison,Masculine,Masculin
-264,14,B2,B2,A2,schuldig,die Schuld,,the guilt,guilty,la faute,coupable,schuldig,guilty,coupable,die Schuld,the guilt,la faute,Feminine,Féminin
-265,14,B2,B2,B2,vernünftig,die Vernunft,,the reason,reasonable,la raison,raisonnable,vernünftig,reasonable,raisonnable,die Vernunft,the reason,la raison,Feminine,Féminin
-266,14,B2,B2,B2,zuverlässig,die Zuverlässigkeit,,the reliability,reliable,la fiabilité,fiable,zuverlässig,reliable,fiable,die Zuverlässigkeit,the reliability,la fiabilité,Feminine,Féminin
-267,14,B2,B2,B1,giftig,das Gift,,the poison,toxic,le poison,toxique,giftig,toxic,toxique,das Gift,the poison,le poison,Neuter,Neutre
-268,14,B2,B2,A1,ängstlich,die Angst,,"the fear, anxiety",anxious,la peur,craintif,ängstlich,anxious,craintif,die Angst,"the fear, anxiety",la peur,Feminine,Féminin
-269,14,B2,B2,A1,gesellschaftlich,die Gesellschaft,,"the society, company","social, societal",la société,"social, sociétale",gesellschaftlich,"social, societal","social, sociétale",die Gesellschaft,"the society, company",la société,Feminine,Féminin
-270,14,B2,B2,A1,täglich,der Tag,,the day,daily,le jour,quotidien,täglich,daily,quotidien,der Tag,the day,le jour,Masculine,Masculin
-271,14,B2,B2,A1,jährlich,das Jahr,,the year,yearly,l'année,annuel,jährlich,yearly,annuel,das Jahr,the year,l'année,Neuter,Neutre
+253,14,B2,B2,B1,unglaublich,die Glaube,,the faith,"unbelievable, incredible, astonishing",la foi,"incroyable, invraisemblable, étonnant",unglaublich,"unbelievable, incredible, astonishing","incroyable, invraisemblable, étonnant",die Glaube,the faith,la foi,Feminine,Féminin
+254,14,B2,B2,A1,wertvoll,der Wert,,the value,"valuable, precious",la valeur,"précieux, de grande valeur",wertvoll,"valuable, precious","précieux, de grande valeur",der Wert,the value,la valeur,Masculine,Masculin
+255,14,C1,C1,A1,wertlos,der Wert,,the value,worthless,la valeur,sans valeur,wertlos,worthless,sans valeur,der Wert,the value,la valeur,Masculine,Masculin
+256,14,B1,B1,B1,geheim,das Heim,,the home,"secret, confidential",la maison,"secret, confidentiel",geheim,"secret, confidential","secret, confidentiel",das Heim,the home,la maison,Neuter,Neutre
+257,14,B2,B2,B1,zufällig,der Zufall,,"the chance, the coincidence","random, accidental, coincidental","la chance, la coincidence","aléatoire, fortuit, accidentel",zufällig,"random, accidental, coincidental","aléatoire, fortuit, accidentel",der Zufall,"the chance, the coincidence","la chance, la coincidence",Masculine,Masculin
+258,14,B2,B2,A1,schädlich,der Schaden,,the damage,"harmful, damaging, detrimental",les dégâts,"nocif, nuisible, dommageable",schädlich,"harmful, damaging, detrimental","nocif, nuisible, dommageable",der Schaden,the damage,les dégâts,Masculine,Masculin
+259,14,B2,B2,B1,anwesend,die Anwesenheit,,the presence,"present, in attendance",la présence,présent,anwesend,"present, in attendance",présent,die Anwesenheit,the presence,la présence,Feminine,Féminin
+260,14,B2,B2,B2,abwesend,die Abwesenheit,,the absence,"absent, away",l'absence,absent,abwesend,"absent, away",absent,die Abwesenheit,the absence,l'absence,Feminine,Féminin
+261,14,B2,B2,A1,fällig,der Fall,,"the fall, case","due, payable",l'affaire,"exigible, à payer, arrivé à échéance",fällig,"due, payable","exigible, à payer, arrivé à échéance",der Fall,"the fall, case",l'affaire,Masculine,Masculin
+262,14,B2,B2,B1,gewöhnlich,die Gewohnheit,,the habit,"ordinary, usual, common",l'habitude,"ordinaire, habituel, courant",gewöhnlich,"ordinary, usual, common","ordinaire, habituel, courant",die Gewohnheit,the habit,l'habitude,Feminine,Féminin
+263,14,B2,B2,A1,gründlich,der Grund,,"the reason, basis","thorough, meticulous, comprehensive",la raison,"minutieux, approfondi, rigoureux",gründlich,"thorough, meticulous, comprehensive","minutieux, approfondi, rigoureux",der Grund,"the reason, basis",la raison,Masculine,Masculin
+264,14,B2,B2,A2,schuldig,die Schuld,,the guilt,"guilty, culpable",la faute,"coupable, fautif",schuldig,"guilty, culpable","coupable, fautif",die Schuld,the guilt,la faute,Feminine,Féminin
+265,14,B2,B2,B2,vernünftig,die Vernunft,,the reason,"reasonable, sensible, rational",la raison,"raisonnable, sensé, rationnel",vernünftig,"reasonable, sensible, rational","raisonnable, sensé, rationnel",die Vernunft,the reason,la raison,Feminine,Féminin
+266,14,B2,B2,B2,zuverlässig,die Zuverlässigkeit,,the reliability,"reliable, dependable, trustworthy",la fiabilité,"fiable, digne de confiance",zuverlässig,"reliable, dependable, trustworthy","fiable, digne de confiance",die Zuverlässigkeit,the reliability,la fiabilité,Feminine,Féminin
+267,14,B2,B2,B1,giftig,das Gift,,the poison,"poisonous, toxic, venomous",le poison,"toxique, vénéneux, venimeux",giftig,"poisonous, toxic, venomous","toxique, vénéneux, venimeux",das Gift,the poison,le poison,Neuter,Neutre
+268,14,B2,B2,A1,ängstlich,die Angst,,"the fear, anxiety","anxious, fearful, timid",la peur,"anxieux, craintif, timide",ängstlich,"anxious, fearful, timid","anxieux, craintif, timide",die Angst,"the fear, anxiety",la peur,Feminine,Féminin
+269,14,B2,B2,A1,gesellschaftlich,die Gesellschaft,,"the society, company","social, societal",la société,"social, sociétal",gesellschaftlich,"social, societal","social, sociétal",die Gesellschaft,"the society, company",la société,Feminine,Féminin
+270,14,B2,B2,A1,täglich,der Tag,,the day,"daily, everyday",le jour,"quotidien, journalier",täglich,"daily, everyday","quotidien, journalier",der Tag,the day,le jour,Masculine,Masculin
+271,14,B2,B2,A1,jährlich,das Jahr,,the year,"annual, yearly",l'année,annuel,jährlich,"annual, yearly",annuel,das Jahr,the year,l'année,Neuter,Neutre
 272,14,B2,B2,A1,monatlich,der Monat,,the month,monthly,le mois,mensuel,monatlich,monthly,mensuel,der Monat,the month,le mois,Masculine,Masculin
 273,15,B2,B2,A1,die Woche,wöchentlich,,weekly,the week,hebdomadaire,la semaine,wöchentlich,weekly,hebdomadaire,die Woche,the week,la semaine,,
-274,15,B2,B2,B2,der Grundsatz,grundsätzlich,,"basic, fundamental",the principle,fondamental,le principe,grundsätzlich,"basic, fundamental",fondamental,der Grundsatz,the principle,le principe,,
+274,15,B2,B2,B2,der Grundsatz,grundsätzlich,,"fundamental, basic, general",the principle,"fondamental, de principe, général",le principe,grundsätzlich,"fundamental, basic, general","fondamental, de principe, général",der Grundsatz,the principle,le principe,,
 275,15,B2,B2,A1,der Hunger,hungrig,,hungry,the hunger,affamé,la faim,hungrig,hungry,affamé,der Hunger,the hunger,la faim,,
-276,15,B2,B2,B1,der Durst,durstig,,thirsty,the thirst,assoiffé,la soif,durstig,thirsty,assoiffé,der Durst,the thirst,la soif,,
-277,15,B2,B2,A2,die Wissenschaft,wissenschaftlich,,scientific,the science,scientifique,la science,wissenschaftlich,scientific,scientifique,die Wissenschaft,the science,la science,,
-278,15,B2,B2,B2,die Eile,eilig,,"in a hurry, urgent","the rush, the hurry","pressé, urgent",la hâte,eilig,"in a hurry, urgent","pressé, urgent",die Eile,"the rush, the hurry",la hâte,,
-279,15,B2,B2,A2,die Vielfalt,vielfältig,,"diverse, varied",the diversity,"varié, divers",la diversité,vielfältig,"diverse, varied","varié, divers",die Vielfalt,the diversity,la diversité,,
-280,15,B2,B2,B2,die Nachhaltigkeit,nachhaltig,,"sustainable, lasting",the sustainability,durable,la durabilité,nachhaltig,"sustainable, lasting",durable,die Nachhaltigkeit,the sustainability,la durabilité,,
-281,15,B2,B2,A1,die Kraft,kräftig,,vigorous,"the strength, power","fort, vigoureux",le pouvoir,kräftig,vigorous,"fort, vigoureux",die Kraft,"the strength, power",le pouvoir,,
-282,15,B2,B2,B1,die Vorsicht,vorsichtig,,"careful, cautious",the caution,"prudent, vigilant",la prudence,vorsichtig,"careful, cautious","prudent, vigilant",die Vorsicht,the caution,la prudence,,
-283,15,B2,B2,A1,das Leben,lebendig,,"alive, lively",the life,"vivant, vif",la vie,lebendig,"alive, lively","vivant, vif",das Leben,the life,la vie,,
-284,15,B2,B2,B2,die Beliebtheit,beliebt,,popular,the popularity,populaire,la popularité,beliebt,popular,populaire,die Beliebtheit,the popularity,la popularité,,
-285,15,B2,B2,B2,der Ruhm,berühmt,,famous,the fame,célèbre,la gloire,berühmt,famous,célèbre,der Ruhm,the fame,la gloire,,
+276,15,B2,B2,B1,der Durst,durstig,,thirsty,the thirst,"assoiffé, qui a soif",la soif,durstig,thirsty,"assoiffé, qui a soif",der Durst,the thirst,la soif,,
+277,15,B2,B2,A2,die Wissenschaft,wissenschaftlich,,"scientific, scholarly",the science,"scientifique, universitaire",la science,wissenschaftlich,"scientific, scholarly","scientifique, universitaire",die Wissenschaft,the science,la science,,
+278,15,B2,B2,B2,die Eile,eilig,,"hurried, rushed","the rush, the hurry","pressé, précipité",la hâte,eilig,"hurried, rushed","pressé, précipité",die Eile,"the rush, the hurry",la hâte,,
+279,15,B2,B2,A2,die Vielfalt,vielfältig,,"diverse, varied, multifaceted",the diversity,"varié, diversifié, multiple",la diversité,vielfältig,"diverse, varied, multifaceted","varié, diversifié, multiple",die Vielfalt,the diversity,la diversité,,
+280,15,B2,B2,B2,die Nachhaltigkeit,nachhaltig,,"sustainable, lasting, enduring",the sustainability,"durable, soutenable, pérenne",la durabilité,nachhaltig,"sustainable, lasting, enduring","durable, soutenable, pérenne",die Nachhaltigkeit,the sustainability,la durabilité,,
+281,15,B2,B2,A1,die Kraft,kräftig,,"strong, powerful, vigorous, robust","the strength, power","fort, puissant, vigoureux, robuste",le pouvoir,kräftig,"strong, powerful, vigorous, robust","fort, puissant, vigoureux, robuste",die Kraft,"the strength, power",le pouvoir,,
+282,15,B2,B2,B1,die Vorsicht,vorsichtig,,"careful, cautious, prudent",the caution,"prudent, précautionneux, circonspect",la prudence,vorsichtig,"careful, cautious, prudent","prudent, précautionneux, circonspect",die Vorsicht,the caution,la prudence,,
+283,15,B2,B2,A1,das Leben,lebendig,,"alive, lively, vivid",the life,"vivant, vif, animé",la vie,lebendig,"alive, lively, vivid","vivant, vif, animé",das Leben,the life,la vie,,
+284,15,B2,B1,B2,die Beliebtheit,beliebt,,"popular, well-liked, beloved",the popularity,"populaire, apprécié, aimé",la popularité,beliebt,"popular, well-liked, beloved","populaire, apprécié, aimé",die Beliebtheit,the popularity,la popularité,,
+285,15,B2,B2,B2,der Ruhm,berühmt,,"famous, renowned, celebrated",the fame,"célèbre, renommé, réputé",la gloire,berühmt,"famous, renowned, celebrated","célèbre, renommé, réputé",der Ruhm,the fame,la gloire,,
 286,15,B2,B2,A1,die Geburt,geboren,,born,the birth,né,la naissance,geboren,born,né,die Geburt,the birth,la naissance,,
-287,15,B2,B2,A1,die Hilfe,hilfreich,,helpful,the help,"aidant, utile",l'aide,hilfreich,helpful,"aidant, utile",die Hilfe,the help,l'aide,,
+287,15,B2,B2,A1,die Hilfe,hilfreich,,"helpful, useful, supportive",the help,"utile, aidant",l'aide,hilfreich,"helpful, useful, supportive","utile, aidant",die Hilfe,the help,l'aide,,
 288,15,B2,B2,B1,die Nation,national,,national,the nation,national,la nation,national,national,national,die Nation,the nation,la nation,,
-289,15,B2,B2,B1,das Reichtum,reichlich,,plenty,the wealth,abondant,la richesse,reichlich,plenty,abondant,das Reichtum,the wealth,la richesse,,
+289,15,B2,B2,B1,das Reichtum,reichlich,,"abundant, plentiful, ample",the wealth,"abondant, copieux, généreux",la richesse,reichlich,"abundant, plentiful, ample","abondant, copieux, généreux",das Reichtum,the wealth,la richesse,,
 290,15,B2,B2,A1,die Sache,sachlich,,factual,the matter,factuel,la question,sachlich,factual,factuel,die Sache,the matter,la question,,
-291,15,B2,B2,A2,die Schuld,schuld,,responsible,the guilt,responsable,la faute,schuld,responsible,responsable,die Schuld,the guilt,la faute,,
-292,15,B2,B2,B1,die Stabilität,stabil,,stable,the stability,stable,la stabilité,stabil,stable,stable,die Stabilität,the stability,la stabilité,,
+291,15,B2,B2,A2,die Schuld,schuld,,"to blame, at fault",the guilt,"fautif, en tort",la faute,schuld,"to blame, at fault","fautif, en tort",die Schuld,the guilt,la faute,,
+292,15,B2,B2,B1,die Stabilität,stabil,,"stable, steady, solid",the stability,"stable, solide, constant",la stabilité,stabil,"stable, steady, solid","stable, solide, constant",die Stabilität,the stability,la stabilité,,
 293,16,B2,B2,A1,wöchentlich,die Woche,,the week,weekly,la semaine,hebdomadaire,wöchentlich,weekly,hebdomadaire,die Woche,the week,la semaine,Feminine,Féminin
-294,16,B2,B2,B2,grundsätzlich,der Grundsatz,,the principle,"basic, fundamental",le principe,fondamental,grundsätzlich,"basic, fundamental",fondamental,der Grundsatz,the principle,le principe,Masculine,Masculin
+294,16,B2,B2,B2,grundsätzlich,der Grundsatz,,the principle,"fundamental, basic, general",le principe,"fondamental, de principe, général",grundsätzlich,"fundamental, basic, general","fondamental, de principe, général",der Grundsatz,the principle,le principe,Masculine,Masculin
 295,16,B2,B2,A1,hungrig,der Hunger,,the hunger,hungry,la faim,affamé,hungrig,hungry,affamé,der Hunger,the hunger,la faim,Masculine,Masculin
-296,16,B2,B2,B1,durstig,der Durst,,the thirst,thirsty,la soif,assoiffé,durstig,thirsty,assoiffé,der Durst,the thirst,la soif,Masculine,Masculin
-297,16,B2,B2,A2,wissenschaftlich,die Wissenschaft,,the science,scientific,la science,scientifique,wissenschaftlich,scientific,scientifique,die Wissenschaft,the science,la science,Feminine,Féminin
-298,16,B2,B2,B2,eilig,die Eile,,"the rush, the hurry","in a hurry, urgent",la hâte,"pressé, urgent",eilig,"in a hurry, urgent","pressé, urgent",die Eile,"the rush, the hurry",la hâte,Feminine,Féminin
-299,16,B2,B2,A2,vielfältig,die Vielfalt,,the diversity,"diverse, varied",la diversité,"varié, divers",vielfältig,"diverse, varied","varié, divers",die Vielfalt,the diversity,la diversité,Feminine,Féminin
-300,16,B2,B2,B2,nachhaltig,die Nachhaltigkeit,,the sustainability,"sustainable, lasting",la durabilité,durable,nachhaltig,"sustainable, lasting",durable,die Nachhaltigkeit,the sustainability,la durabilité,Feminine,Féminin
-301,16,B2,B2,A1,kräftig,die Kraft,,"the strength, power",vigorous,le pouvoir,"fort, vigoureux",kräftig,vigorous,"fort, vigoureux",die Kraft,"the strength, power",le pouvoir,Feminine,Féminin
-302,16,B2,B2,B1,vorsichtig,die Vorsicht,,the caution,"careful, cautious",la prudence,"prudent, vigilant",vorsichtig,"careful, cautious","prudent, vigilant",die Vorsicht,the caution,la prudence,Feminine,Féminin
-303,16,B2,B2,A1,lebendig,das Leben,,the life,"alive, lively",la vie,"vivant, vif",lebendig,"alive, lively","vivant, vif",das Leben,the life,la vie,Neuter,Neutre
-304,16,B2,B2,B2,beliebt,die Beliebtheit,,the popularity,popular,la popularité,populaire,beliebt,popular,populaire,die Beliebtheit,the popularity,la popularité,Feminine,Féminin
-305,16,B2,B2,B2,berühmt,der Ruhm,,the fame,famous,la gloire,célèbre,berühmt,famous,célèbre,der Ruhm,the fame,la gloire,Masculine,Masculin
+296,16,B2,B2,B1,durstig,der Durst,,the thirst,thirsty,la soif,"assoiffé, qui a soif",durstig,thirsty,"assoiffé, qui a soif",der Durst,the thirst,la soif,Masculine,Masculin
+297,16,B2,B2,A2,wissenschaftlich,die Wissenschaft,,the science,"scientific, scholarly",la science,"scientifique, universitaire",wissenschaftlich,"scientific, scholarly","scientifique, universitaire",die Wissenschaft,the science,la science,Feminine,Féminin
+298,16,B2,B2,B2,eilig,die Eile,,"the rush, the hurry","hurried, rushed",la hâte,"pressé, précipité",eilig,"hurried, rushed","pressé, précipité",die Eile,"the rush, the hurry",la hâte,Feminine,Féminin
+299,16,B2,B2,A2,vielfältig,die Vielfalt,,the diversity,"diverse, varied, multifaceted",la diversité,"varié, diversifié, multiple",vielfältig,"diverse, varied, multifaceted","varié, diversifié, multiple",die Vielfalt,the diversity,la diversité,Feminine,Féminin
+300,16,B2,B2,B2,nachhaltig,die Nachhaltigkeit,,the sustainability,"sustainable, lasting, enduring",la durabilité,"durable, soutenable, pérenne",nachhaltig,"sustainable, lasting, enduring","durable, soutenable, pérenne",die Nachhaltigkeit,the sustainability,la durabilité,Feminine,Féminin
+301,16,B2,B2,A1,kräftig,die Kraft,,"the strength, power","strong, powerful, vigorous, robust",le pouvoir,"fort, puissant, vigoureux, robuste",kräftig,"strong, powerful, vigorous, robust","fort, puissant, vigoureux, robuste",die Kraft,"the strength, power",le pouvoir,Feminine,Féminin
+302,16,B2,B2,B1,vorsichtig,die Vorsicht,,the caution,"careful, cautious, prudent",la prudence,"prudent, précautionneux, circonspect",vorsichtig,"careful, cautious, prudent","prudent, précautionneux, circonspect",die Vorsicht,the caution,la prudence,Feminine,Féminin
+303,16,B2,B2,A1,lebendig,das Leben,,the life,"alive, lively, vivid",la vie,"vivant, vif, animé",lebendig,"alive, lively, vivid","vivant, vif, animé",das Leben,the life,la vie,Neuter,Neutre
+304,16,B2,B1,B2,beliebt,die Beliebtheit,,the popularity,"popular, well-liked, beloved",la popularité,"populaire, apprécié, aimé",beliebt,"popular, well-liked, beloved","populaire, apprécié, aimé",die Beliebtheit,the popularity,la popularité,Feminine,Féminin
+305,16,B2,B2,B2,berühmt,der Ruhm,,the fame,"famous, renowned, celebrated",la gloire,"célèbre, renommé, réputé",berühmt,"famous, renowned, celebrated","célèbre, renommé, réputé",der Ruhm,the fame,la gloire,Masculine,Masculin
 306,16,B2,B2,A1,geboren,die Geburt,,the birth,born,la naissance,né,geboren,born,né,die Geburt,the birth,la naissance,Feminine,Féminin
-307,16,B2,B2,A1,hilfreich,die Hilfe,,the help,helpful,l'aide,"aidant, utile",hilfreich,helpful,"aidant, utile",die Hilfe,the help,l'aide,Feminine,Féminin
+307,16,B2,B2,A1,hilfreich,die Hilfe,,the help,"helpful, useful, supportive",l'aide,"utile, aidant",hilfreich,"helpful, useful, supportive","utile, aidant",die Hilfe,the help,l'aide,Feminine,Féminin
 308,16,B2,B2,B1,national,die Nation,,the nation,national,la nation,national,national,national,national,die Nation,the nation,la nation,Feminine,Féminin
-309,16,B2,B2,B1,reichlich,das Reichtum,,the wealth,plenty,la richesse,abondant,reichlich,plenty,abondant,das Reichtum,the wealth,la richesse,Neuter,Neutre
+309,16,B2,B2,B1,reichlich,das Reichtum,,the wealth,"abundant, plentiful, ample",la richesse,"abondant, copieux, généreux",reichlich,"abundant, plentiful, ample","abondant, copieux, généreux",das Reichtum,the wealth,la richesse,Neuter,Neutre
 310,16,B2,B2,A1,sachlich,die Sache,,the matter,factual,la question,factuel,sachlich,factual,factuel,die Sache,the matter,la question,Feminine,Féminin
-311,16,B2,B2,A2,schuld,die Schuld,,the guilt,responsible,la faute,responsable,schuld,responsible,responsable,die Schuld,the guilt,la faute,Feminine,Féminin
-312,16,B2,B2,B1,stabil,die Stabilität,,the stability,stable,la stabilité,stable,stabil,stable,stable,die Stabilität,the stability,la stabilité,Feminine,Féminin
+311,16,B2,B2,A2,schuld,die Schuld,,the guilt,"to blame, at fault",la faute,"fautif, en tort",schuld,"to blame, at fault","fautif, en tort",die Schuld,the guilt,la faute,Feminine,Féminin
+312,16,B2,B2,B1,stabil,die Stabilität,,the stability,"stable, steady, solid",la stabilité,"stable, solide, constant",stabil,"stable, steady, solid","stable, solide, constant",die Stabilität,the stability,la stabilité,Feminine,Féminin
 313,17,B2,B2,A2,der Vergleich,vergleichbar,,comparable,the comparison,comparable,la comparaison,vergleichbar,comparable,comparable,der Vergleich,the comparison,la comparaison,,
-314,17,B2,B2,B1,die Wut,wütend,,angry,"the rage, fury",furieux,la colère,wütend,angry,furieux,die Wut,"the rage, fury",la colère,,
-315,17,B2,B2,A1,das Zentrum,zentral,,central,the center,central,le centre,zentral,central,central,das Zentrum,the center,le centre,,
-316,17,B2,B2,A1,das Gericht,gerecht,,fair,"the court, dish","juste, équitable",le tribunal,gerecht,fair,"juste, équitable",das Gericht,"the court, dish",le tribunal,,
-317,17,B2,B2,A2,der Witz,witzig,,funny,the joke,drôle,la blague,witzig,funny,drôle,der Witz,the joke,la blague,,
-318,17,B2,B2,A1,die Hand,vorhanden,,"available, at hand",the hand,"disponible, accessible",la main,vorhanden,"available, at hand","disponible, accessible",die Hand,the hand,la main,,
-319,17,B2,B2,A1,das Gesetz,gesetzlich,,legal,the law,légal,la loi,gesetzlich,legal,légal,das Gesetz,the law,la loi,,
-320,17,B2,B2,A2,das Mittel,unmittelbar,,direct,the means,direct,les moyens,unmittelbar,direct,direct,das Mittel,the means,les moyens,,
-321,17,B2,B2,A2,die Wirklichkeit,wirklich,,"real, genuine",the reality,réel,la réalité,wirklich,"real, genuine",réel,die Wirklichkeit,the reality,la réalité,,
+314,17,B2,B2,B1,die Wut,wütend,,"furious, angry, enraged","the rage, fury","furieux, en colère, hors de soi",la colère,wütend,"furious, angry, enraged","furieux, en colère, hors de soi",die Wut,"the rage, fury",la colère,,
+315,17,B2,B2,A1,das Zentrum,zentral,,"central, key, crucial",the center,"central, essentiel, primordial",le centre,zentral,"central, key, crucial","central, essentiel, primordial",das Zentrum,the center,le centre,,
+316,17,B2,B2,A1,das Gericht,gerecht,,"fair, just, equitable","the court, dish","juste, équitable",le tribunal,gerecht,"fair, just, equitable","juste, équitable",das Gericht,"the court, dish",le tribunal,,
+317,17,B2,B2,A2,der Witz,witzig,,"funny, witty, amusing",the joke,"drôle, spirituel, amusant",la blague,witzig,"funny, witty, amusing","drôle, spirituel, amusant",der Witz,the joke,la blague,,
+318,17,B2,B2,A1,die Hand,vorhanden,,"existing, available, present",the hand,"existant, disponible, présent",la main,vorhanden,"existing, available, present","existant, disponible, présent",die Hand,the hand,la main,,
+319,17,B2,B2,A1,das Gesetz,gesetzlich,,"legal, statutory, prescribed by law",the law,"légal, prévu par la loi",la loi,gesetzlich,"legal, statutory, prescribed by law","légal, prévu par la loi",das Gesetz,the law,la loi,,
+320,17,C1,C1,A2,das Mittel,unmittelbar,,"direct, immediate",the means,"direct, immédiat",les moyens,unmittelbar,"direct, immediate","direct, immédiat",das Mittel,the means,les moyens,,
+321,17,B2,B2,A2,die Wirklichkeit,wirklich,,"real, actual",the reality,"réel, véritable",la réalité,wirklich,"real, actual","réel, véritable",die Wirklichkeit,the reality,la réalité,,
 322,18,B2,B2,A2,vergleichbar,der Vergleich,,the comparison,comparable,la comparaison,comparable,vergleichbar,comparable,comparable,der Vergleich,the comparison,la comparaison,Masculine,Masculin
-323,18,B2,B2,B1,wütend,die Wut,,"the rage, fury",angry,la colère,furieux,wütend,angry,furieux,die Wut,"the rage, fury",la colère,Feminine,Féminin
-324,18,B2,B2,A1,zentral,das Zentrum,,the center,central,le centre,central,zentral,central,central,das Zentrum,the center,le centre,Neuter,Neutre
-325,18,B2,B2,A1,gerecht,das Gericht,,"the court, dish",fair,le tribunal,"juste, équitable",gerecht,fair,"juste, équitable",das Gericht,"the court, dish",le tribunal,Neuter,Neutre
-326,18,B2,B2,A2,witzig,der Witz,,the joke,funny,la blague,drôle,witzig,funny,drôle,der Witz,the joke,la blague,Masculine,Masculin
-327,18,B2,B2,A1,vorhanden,die Hand,,the hand,"available, at hand",la main,"disponible, accessible",vorhanden,"available, at hand","disponible, accessible",die Hand,the hand,la main,Feminine,Féminin
-328,18,B2,B2,A1,gesetzlich,das Gesetz,,the law,legal,la loi,légal,gesetzlich,legal,légal,das Gesetz,the law,la loi,Neuter,Neutre
-329,18,B2,B2,A2,unmittelbar,das Mittel,,the means,direct,les moyens,direct,unmittelbar,direct,direct,das Mittel,the means,les moyens,Neuter,Neutre
-330,18,B2,B2,A2,wirklich,die Wirklichkeit,,the reality,"real, genuine",la réalité,réel,wirklich,"real, genuine",réel,die Wirklichkeit,the reality,la réalité,Feminine,Féminin
-331,1001,C1,A1,C1,die Neuheit,neu,,new,the novelty,nouveau,la nouveauté,neu,new,nouveau,die Neuheit,the novelty,la nouveauté,,
-332,1001,C1,A1,C1,die Neuerung,neu,,new,the innovation,nouveau,l'innovation,neu,new,nouveau,die Neuerung,the innovation,l'innovation,,
+323,18,B2,B2,B1,wütend,die Wut,,"the rage, fury","furious, angry, enraged",la colère,"furieux, en colère, hors de soi",wütend,"furious, angry, enraged","furieux, en colère, hors de soi",die Wut,"the rage, fury",la colère,Feminine,Féminin
+324,18,B2,B2,A1,zentral,das Zentrum,,the center,"central, key, crucial",le centre,"central, essentiel, primordial",zentral,"central, key, crucial","central, essentiel, primordial",das Zentrum,the center,le centre,Neuter,Neutre
+325,18,B2,B2,A1,gerecht,das Gericht,,"the court, dish","fair, just, equitable",le tribunal,"juste, équitable",gerecht,"fair, just, equitable","juste, équitable",das Gericht,"the court, dish",le tribunal,Neuter,Neutre
+326,18,B2,B2,A2,witzig,der Witz,,the joke,"funny, witty, amusing",la blague,"drôle, spirituel, amusant",witzig,"funny, witty, amusing","drôle, spirituel, amusant",der Witz,the joke,la blague,Masculine,Masculin
+327,18,B2,B2,A1,vorhanden,die Hand,,the hand,"existing, available, present",la main,"existant, disponible, présent",vorhanden,"existing, available, present","existant, disponible, présent",die Hand,the hand,la main,Feminine,Féminin
+328,18,B2,B2,A1,gesetzlich,das Gesetz,,the law,"legal, statutory, prescribed by law",la loi,"légal, prévu par la loi",gesetzlich,"legal, statutory, prescribed by law","légal, prévu par la loi",das Gesetz,the law,la loi,Neuter,Neutre
+329,18,C1,C1,A2,unmittelbar,das Mittel,,the means,"direct, immediate",les moyens,"direct, immédiat",unmittelbar,"direct, immediate","direct, immédiat",das Mittel,the means,les moyens,Neuter,Neutre
+330,18,B2,B2,A2,wirklich,die Wirklichkeit,,the reality,"real, actual",la réalité,"réel, véritable",wirklich,"real, actual","réel, véritable",die Wirklichkeit,the reality,la réalité,Feminine,Féminin
+331,1001,C1,A1,C1,die Neuheit,neu,,new,the novelty,"nouveau, neuf",la nouveauté,neu,new,"nouveau, neuf",die Neuheit,the novelty,la nouveauté,,
+332,1001,C1,A1,C1,die Neuerung,neu,,new,the innovation,"nouveau, neuf",l'innovation,neu,new,"nouveau, neuf",die Neuerung,the innovation,l'innovation,,
 333,1001,C1,A1,C1,die Einfachheit,einfach,,"easy, simple",the simplicity,"facile, simple",la simplicité,einfach,"easy, simple","facile, simple",die Einfachheit,the simplicity,la simplicité,,
-334,1001,C1,A1,C1,die Richtigkeit,richtig,,"right, correct",the correctness,"correct, juste",la justesse,richtig,"right, correct","correct, juste",die Richtigkeit,the correctness,la justesse,,
+334,1001,C1,A1,C1,die Richtigkeit,richtig,,"right, correct",the correctness,"correct, juste, bon",la justesse,richtig,"right, correct","correct, juste, bon",die Richtigkeit,the correctness,la justesse,,
 335,1001,C1,A1,C1,die Wichtigkeit,wichtig,,important,the importance,important,l'importance,wichtig,important,important,die Wichtigkeit,the importance,l'importance,,
-336,1001,C1,A1,C1,die Gänze,ganz,,"whole, entire, complete",the whole,"entier, complet",l'ensemble,ganz,"whole, entire, complete","entier, complet",die Gänze,the whole,l'ensemble,,
-337,1001,C1,A2,C1,die Fertigkeit,fertig,,finished,the skill,fini,la compétence,fertig,finished,fini,die Fertigkeit,the skill,la compétence,,
-338,1001,C1,A2,C1,die Fertigung,fertig,,finished,the manufacturing,fini,la fabrication,fertig,finished,fini,die Fertigung,the manufacturing,la fabrication,,
-339,1001,C1,A2,C1,die Aktualität,aktuell,,current,the topicality,actuel,l'actualité,aktuell,current,actuel,die Aktualität,the topicality,l'actualité,,
-340,1001,C1,A2,C1,die Leere,leer,,empty,the emptiness,vide,le vide,leer,empty,vide,die Leere,the emptiness,le vide,,
-341,1001,C1,A2,C1,die Enge,eng,,"tight, narrow",the narrowness,"étroit, serré",l'étroitesse,eng,"tight, narrow","étroit, serré",die Enge,the narrowness,l'étroitesse,,
-342,1001,C1,A2,C1,die Härte,hart,,"hard, tough",the hardness,dur,la dureté,hart,"hard, tough",dur,die Härte,the hardness,la dureté,,
-343,1001,C1,A2,C1,die Häufigkeit,häufig,,frequent,the frequency,fréquent,la fréquence,häufig,frequent,fréquent,die Häufigkeit,the frequency,la fréquence,,
-344,1001,C1,A2,C1,die Seltenheit,selten,,rare,the rarity,rare,la rareté,selten,rare,rare,die Seltenheit,the rarity,la rareté,,
-345,1001,C1,A2,C1,die Ähnlichkeit,ähnlich,,similar,the similarity,similaire,la similitude,ähnlich,similar,similaire,die Ähnlichkeit,the similarity,la similitude,,
-346,1001,C1,A2,C1,die Süße,süß,,sweet,the sweetness,sucré,la douceur,süß,sweet,sucré,die Süße,the sweetness,la douceur,,
-347,1001,C1,A2,C1,die Schärfe,scharf,,spicy,the sharpness,épicé,la netteté,scharf,spicy,épicé,die Schärfe,the sharpness,la netteté,,
-348,1001,C1,A2,C1,die Säure,sauer,,sour,the acidity,aigre,l'acide,sauer,sour,aigre,die Säure,the acidity,l'acide,,
-349,1001,C1,B1,C1,die Sympathie,sympathisch,,sympathetic,the sympathy,sympathique,sympathie,sympathisch,sympathetic,sympathique,die Sympathie,the sympathy,sympathie,,
-350,1001,C1,B1,C1,die Genauigkeit,genau,,precise,the accuracy,précis,la précision,genau,precise,précis,die Genauigkeit,the accuracy,la précision,,
-351,1001,C1,B1,C1,der Zusatz,zusätzlich,,additional,the addition,supplémentaire,l'ajout,zusätzlich,additional,supplémentaire,der Zusatz,the addition,l'ajout,,
-352,1001,C1,B1,C1,das Weib,weiblich,,feminine,the woman,féminin,la femme,weiblich,feminine,féminin,das Weib,the woman,la femme,,
-353,1001,C1,B1,C1,die Gültigkeit,gültig,,valid,the validity,valide,la validité,gültig,valid,valide,die Gültigkeit,the validity,la validité,,
-354,1001,C1,B1,C1,die Ehrlichkeit,ehrlich,,honest,the honesty,honnête,l'honnêteté,ehrlich,honest,honnête,die Ehrlichkeit,the honesty,l'honnêteté,,
-355,1001,C1,B1,C1,die Pünktlichkeit,pünktlich,,punctual,the punctuality,ponctuel,la ponctualité,pünktlich,punctual,ponctuel,die Pünktlichkeit,the punctuality,la ponctualité,,
-356,1001,C1,B1,C1,die Neugier,neugierig,,"curious, eager",the curiosity,curieux,la curiosité,neugierig,"curious, eager",curieux,die Neugier,the curiosity,la curiosité,,
+336,1001,C1,A2,C1,die Gänze,ganz,,"whole, entire, complete",the whole,"entier, complet",l'ensemble,ganz,"whole, entire, complete","entier, complet",die Gänze,the whole,l'ensemble,,
+337,1001,C1,A2,C1,die Fertigkeit,fertig,,"finished, ready",the skill,"fini, terminé, prêt",la compétence,fertig,"finished, ready","fini, terminé, prêt",die Fertigkeit,the skill,la compétence,,
+338,1001,C1,A2,C1,die Fertigung,fertig,,"finished, ready",the manufacturing,"fini, terminé, prêt",la fabrication,fertig,"finished, ready","fini, terminé, prêt",die Fertigung,the manufacturing,la fabrication,,
+339,1001,C1,A2,C1,die Aktualität,aktuell,,"current, up-to-date",the topicality,"actuel, à jour",l'actualité,aktuell,"current, up-to-date","actuel, à jour",die Aktualität,the topicality,l'actualité,,
+340,1001,C1,A2,C1,die Leere,leer,,"empty, vacant",the emptiness,"vide, inoccupé",le vide,leer,"empty, vacant","vide, inoccupé",die Leere,the emptiness,le vide,,
+341,1001,C1,A2,C1,die Enge,eng,,"narrow, tight, cramped",the narrowness,"étroit, serré, exigu",l'étroitesse,eng,"narrow, tight, cramped","étroit, serré, exigu",die Enge,the narrowness,l'étroitesse,,
+342,1001,C1,A2,C1,die Härte,hart,,"hard, tough, harsh",the hardness,"dur, rude, sévère",la dureté,hart,"hard, tough, harsh","dur, rude, sévère",die Härte,the hardness,la dureté,,
+343,1001,C1,A2,C1,die Häufigkeit,häufig,,"frequent, common",the frequency,"fréquent, courant",la fréquence,häufig,"frequent, common","fréquent, courant",die Häufigkeit,the frequency,la fréquence,,
+344,1001,C1,A2,C1,die Seltenheit,selten,,"rare, uncommon",the rarity,"rare, peu fréquent",la rareté,selten,"rare, uncommon","rare, peu fréquent",die Seltenheit,the rarity,la rareté,,
+345,1001,C1,A2,C1,die Ähnlichkeit,ähnlich,,"similar, alike",the similarity,"semblable, similaire",la similitude,ähnlich,"similar, alike","semblable, similaire",die Ähnlichkeit,the similarity,la similitude,,
+346,1001,C1,A2,C1,die Süße,süß,,"sweet, cute",the sweetness,"sucré, doux, mignon",la douceur,süß,"sweet, cute","sucré, doux, mignon",die Süße,the sweetness,la douceur,,
+347,1001,C1,A2,C1,die Schärfe,scharf,,"spicy, hot, sharp",the sharpness,"épicé, piquant, tranchant, aiguisé",la netteté,scharf,"spicy, hot, sharp","épicé, piquant, tranchant, aiguisé",die Schärfe,the sharpness,la netteté,,
+348,1001,C1,A2,C1,die Säure,sauer,,"sour, acidic, angry",the acidity,"acide, aigre, fâché",l'acide,sauer,"sour, acidic, angry","acide, aigre, fâché",die Säure,the acidity,l'acide,,
+349,1001,C1,B1,C1,die Sympathie,sympathisch,,"likeable, nice, pleasant",the sympathy,"sympathique, agréable",sympathie,sympathisch,"likeable, nice, pleasant","sympathique, agréable",die Sympathie,the sympathy,sympathie,,
+350,1001,C1,B1,C1,die Genauigkeit,genau,,"exact, precise, accurate",the accuracy,"exact, précis",la précision,genau,"exact, precise, accurate","exact, précis",die Genauigkeit,the accuracy,la précision,,
+351,1001,C1,B1,C1,der Zusatz,zusätzlich,,"additional, extra, supplementary",the addition,"supplémentaire, additionnel",l'ajout,zusätzlich,"additional, extra, supplementary","supplémentaire, additionnel",der Zusatz,the addition,l'ajout,,
+352,1001,C1,B1,C1,das Weib,weiblich,,"female, feminine",the woman,"féminin, de sexe féminin",la femme,weiblich,"female, feminine","féminin, de sexe féminin",das Weib,the woman,la femme,,
+353,1001,C1,B1,C1,die Gültigkeit,gültig,,"valid, in force",the validity,"valide, valable, en vigueur",la validité,gültig,"valid, in force","valide, valable, en vigueur",die Gültigkeit,the validity,la validité,,
+354,1001,C1,B1,C1,die Ehrlichkeit,ehrlich,,"honest, sincere, truthful",the honesty,"honnête, sincère, franc",l'honnêteté,ehrlich,"honest, sincere, truthful","honnête, sincère, franc",die Ehrlichkeit,the honesty,l'honnêteté,,
+355,1001,C1,B1,C1,die Pünktlichkeit,pünktlich,,"punctual, on time",the punctuality,"ponctuel, à l'heure",la ponctualité,pünktlich,"punctual, on time","ponctuel, à l'heure",die Pünktlichkeit,the punctuality,la ponctualité,,
+356,1001,C1,B1,C1,die Neugier,neugierig,,"curious, inquisitive",the curiosity,curieux,la curiosité,neugierig,"curious, inquisitive",curieux,die Neugier,the curiosity,la curiosité,,
 357,1001,C1,B1,C1,die Heirat,verheiratet,,married,the marriage,marié,le mariage,verheiratet,married,marié,die Heirat,the marriage,le mariage,,
-358,1001,C1,B1,C1,die Zuständigkeit,zuständig,,responsible,the jurisdiction,responsable,la juridiction,zuständig,responsible,responsable,die Zuständigkeit,the jurisdiction,la juridiction,,
-359,1001,C1,B2,C1,die Treue,treu,,loyal,the loyalty,loyal,la loyauté,treu,loyal,loyal,die Treue,the loyalty,la loyauté,,
-360,1001,C1,B2,C1,die Dichte,dicht,,dense,the density,dense,la densité,dicht,dense,dense,die Dichte,the density,la densité,,
-361,1001,C1,B2,C1,die Ewigkeit,ewig,,eternal,the eternity,éternel,l'éternité,ewig,eternal,éternel,die Ewigkeit,the eternity,l'éternité,,
-362,1001,C1,B2,C1,die Voraussicht,voraussichtlich,,"expected, anticipated",the foresight,"prévu, anticipé",la prévoyance,voraussichtlich,"expected, anticipated","prévu, anticipé",die Voraussicht,the foresight,la prévoyance,,
-363,1001,C1,B2,C1,die Wache,wach,,awake,the guard,éveillé,le garde,wach,awake,éveillé,die Wache,the guard,le garde,,
-364,1001,C1,B2,C1,die Bekanntheit,bekannt,,known,the fame,connu,la célébrité,bekannt,known,connu,die Bekanntheit,the fame,la célébrité,,
-365,1001,C1,B2,C1,die Attraktivität,attraktiv,,attractive,the attractiveness,attrayant,l'attrait,attraktiv,attractive,attrayant,die Attraktivität,the attractiveness,l'attrait,,
-366,1001,C1,B2,C1,die Gegenseite,gegenseitig,,"mutual, reciprocal, opposite",the other side,"réciproque, mutuel",l'autre côté,gegenseitig,"mutual, reciprocal, opposite","réciproque, mutuel",die Gegenseite,the other side,l'autre côté,,
-367,1001,C1,B2,C1,die Verfügbarkeit,verfügbar,,"available, at hand",the availability,"disponible, accessible",la disponibilité,verfügbar,"available, at hand","disponible, accessible",die Verfügbarkeit,the availability,la disponibilité,,
-368,1001,C1,B2,C1,die Moral,moralisch,,moral,the morality,moral,la moralité,moralisch,moral,moral,die Moral,the morality,la moralité,,
-369,1001,C1,B2,C1,das Einverständnis,einverstanden,,agreed,the consent,"d'accord, en accord",le consentement,einverstanden,agreed,"d'accord, en accord",das Einverständnis,the consent,le consentement,,
-370,1001,C1,B2,C1,der Ehrgeiz,ehrgeizig,,ambitious,the ambition,ambitieux,l'ambition,ehrgeizig,ambitious,ambitieux,der Ehrgeiz,the ambition,l'ambition,,
-371,1001,C1,B2,C1,die Reife,reif,,"mature, ripe",the maturity,mûr,la maturité,reif,"mature, ripe",mûr,die Reife,the maturity,la maturité,,
-372,1001,C1,B2,C1,die Sorgfalt,sorgfältig,,"careful, cautious",the care,"prudent, vigilant",les soins,sorgfältig,"careful, cautious","prudent, vigilant",die Sorgfalt,the care,les soins,,
-373,1001,C1,B2,C1,die Vollständigkeit,vollständig,,"whole, entire, complete",the completeness,"entier, complet",la complétude,vollständig,"whole, entire, complete","entier, complet",die Vollständigkeit,the completeness,la complétude,,
-374,1001,C1,B2,C1,die Feuchtigkeit,feucht,,wet,the moisture,"humide, mouillé",l'humidité,feucht,wet,"humide, mouillé",die Feuchtigkeit,the moisture,l'humidité,,
+358,1001,C1,B2,C1,die Zuständigkeit,zuständig,,"responsible, in charge, competent",the jurisdiction,"responsable, chargé de, compétent",la juridiction,zuständig,"responsible, in charge, competent","responsable, chargé de, compétent",die Zuständigkeit,the jurisdiction,la juridiction,,
+359,1001,C1,B2,C1,die Treue,treu,,"loyal, faithful, devoted",the loyalty,"fidèle, loyal, dévoué",la loyauté,treu,"loyal, faithful, devoted","fidèle, loyal, dévoué",die Treue,the loyalty,la loyauté,,
+360,1001,C1,B2,C1,die Dichte,dicht,,"dense, thick, close, tight",the density,"dense, épais, serré, étanche",la densité,dicht,"dense, thick, close, tight","dense, épais, serré, étanche",die Dichte,the density,la densité,,
+361,1001,C1,B2,C1,die Ewigkeit,ewig,,"eternal, everlasting, endless",the eternity,"éternel, perpétuel, interminable",l'éternité,ewig,"eternal, everlasting, endless","éternel, perpétuel, interminable",die Ewigkeit,the eternity,l'éternité,,
+362,1001,C1,B2,C1,die Voraussicht,voraussichtlich,,"expected, anticipated, probable",the foresight,"prévu, attendu, probable",la prévoyance,voraussichtlich,"expected, anticipated, probable","prévu, attendu, probable",die Voraussicht,the foresight,la prévoyance,,
+363,1001,C1,B2,C1,die Wache,wach,,"awake, alert, watchful",the guard,"éveillé, alerte, vigilant",le garde,wach,"awake, alert, watchful","éveillé, alerte, vigilant",die Wache,the guard,le garde,,
+364,1001,C1,B1,C1,die Bekanntheit,bekannt,,"known, familiar, well-known",the fame,"connu, familier, réputé",la célébrité,bekannt,"known, familiar, well-known","connu, familier, réputé",die Bekanntheit,the fame,la célébrité,,
+365,1001,C1,B2,C1,die Attraktivität,attraktiv,,"attractive, appealing, desirable",the attractiveness,"attirant, attrayant, séduisant",l'attrait,attraktiv,"attractive, appealing, desirable","attirant, attrayant, séduisant",die Attraktivität,the attractiveness,l'attrait,,
+366,1001,C1,B2,C1,die Gegenseite,gegenseitig,,"mutual, reciprocal, one another's",the other side,"mutuel, réciproque",l'autre côté,gegenseitig,"mutual, reciprocal, one another's","mutuel, réciproque",die Gegenseite,the other side,l'autre côté,,
+367,1001,C1,B2,C1,die Verfügbarkeit,verfügbar,,available,the availability,disponible,la disponibilité,verfügbar,available,disponible,die Verfügbarkeit,the availability,la disponibilité,,
+368,1001,C1,B2,C1,die Moral,moralisch,,"moral, ethical",the morality,"moral, éthique",la moralité,moralisch,"moral, ethical","moral, éthique",die Moral,the morality,la moralité,,
+369,1001,C1,B2,C1,das Einverständnis,einverstanden,,"in agreement, agreed",the consent,"d'accord, en accord",le consentement,einverstanden,"in agreement, agreed","d'accord, en accord",das Einverständnis,the consent,le consentement,,
+370,1001,C1,B2,C1,der Ehrgeiz,ehrgeizig,,"ambitious, driven, aspiring",the ambition,"ambitieux, déterminé",l'ambition,ehrgeizig,"ambitious, driven, aspiring","ambitieux, déterminé",der Ehrgeiz,the ambition,l'ambition,,
+371,1001,C1,B2,C1,die Reife,reif,,"ripe, mature",the maturity,"mûr, mature",la maturité,reif,"ripe, mature","mûr, mature",die Reife,the maturity,la maturité,,
+372,1001,C1,B2,C1,die Sorgfalt,sorgfältig,,"careful, thorough, meticulous",the care,"soigneux, minutieux, consciencieux",les soins,sorgfältig,"careful, thorough, meticulous","soigneux, minutieux, consciencieux",die Sorgfalt,the care,les soins,,
+373,1001,C1,B2,C1,die Vollständigkeit,vollständig,,"complete, entire, comprehensive",the completeness,"complet, entier, exhaustif",la complétude,vollständig,"complete, entire, comprehensive","complet, entier, exhaustif",die Vollständigkeit,the completeness,la complétude,,
+374,1001,C1,B2,C1,die Feuchtigkeit,feucht,,"damp, moist, humid",the moisture,"humide, moite",l'humidité,feucht,"damp, moist, humid","humide, moite",die Feuchtigkeit,the moisture,l'humidité,,
 375,1001,C1,C1,B2,,,,,,,,südlich,south,"au sud, du sud",der Süd,the south,le sud,,
 376,1001,C1,C1,B2,,,,,,,,nördlich,north,"au nord, du nord",der Nord,the north,le nord,,
 377,1001,C1,C1,B2,,,,,,,,östlich,east,à l'est,der Ost,the East,l'Est,,
-378,1001,C1,C1,B2,,,,,,,,westlich,west,à l'ouest,der West,the West,l'Ouest,,
-379,1001,C1,C1,A2,,,,,,,,religiös,religious,religieux,die Religion,religion,religion,,
-380,1001,C1,C1,A2,,,,,,,,staatlich,state,"étatique, publique",der Staat,the State,l'État,,
-381,1001,C1,C1,A1,,,,,,,,theoretisch,theoretical,théorique,die Theorie,the theory,la théorie,,
+378,1001,C2,C2,B2,,,,,,,,westlich,west,à l'ouest,der West,the West,l'Ouest,,
+379,1001,B2,B2,A2,,,,,,,,religiös,religious,religieux,die Religion,religion,religion,,
+380,1001,B2,B2,A2,,,,,,,,staatlich,"state-run, governmental, public","étatique, public, gouvernemental",der Staat,the State,l'État,,
+381,1001,B2,B2,A1,,,,,,,,theoretisch,theoretical,théorique,die Theorie,the theory,la théorie,,
 382,1001,C1,C1,A2,,,,,,,,einheitlich,uniform,uniforme,die Einheit,the unit,l'unité,,
-383,1001,C1,C1,B1,,,,,,,,gespannt,tense,tendu,die Spannung,the tension,la tension,,
+383,1001,B2,B2,B1,,,,,,,,gespannt,"tense, excited","tendu, impatient",die Spannung,the tension,la tension,,
 384,1001,C1,C1,A1,,,,,,,,zeitlich,temporal,temporel,die Zeit,the time,le temps,,
 385,1001,C1,C1,A1,,,,,,,,tödlich,deadly,mortel,der Tod,the death,la mort,,
 386,1001,C1,C1,A2,,,,,,,,zugänglich,accessible,accessible,der Zugang,access,accéder,,
@@ -399,7 +399,7 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 398,1001,C1,C1,A1,,,,,,,,friedlich,peaceful,pacifique,der Frieden,peace,paix,,
 399,1001,C1,C1,C1,,,,,,,,logisch,logical,logique,die Logik,the logic,la logique,,
 400,1001,C1,C1,A1,,,,,,,,ärztlich,medical,médical,der Arzt,the doctor,le médecin,,
-401,1001,C1,C1,B2,,,,,,,,effizient,efficient,"efficace, efficient",die Effizienz,efficiency,efficacité,,
+401,1001,B2,B2,B2,,,,,,,,effizient,efficient,"efficace, efficient",die Effizienz,efficiency,efficacité,,
 402,1001,C1,C1,A1,,,,,,,,amtlich,official,officiel,das Amt,the Office,le Bureau,,
 403,1001,C1,C1,A1,,,,,,,,gesundheitlich,"health, sanitary, hygienic",sanitaire,die Gesundheit,the health,la santé,,
 404,1001,C1,C1,C1,,,,,,,,glaubwürdig,credible,crédible,die Glaubwürdigkeit,credibility,crédibilité,,
@@ -414,7 +414,7 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 413,1001,C1,C1,B2,,,,,,,,gleichberechtigt,equal,égal,die Gleichberechtigung,equality,égalité,,
 414,1001,C1,C1,B1,,,,,,,,strafbar,punishable,punissable,die Strafe,the punishment,la punition,,
 415,1001,C1,C1,A1,,,,,,,,ausdrücklich,explicit,"explicite, exprès",der Ausdruck,the expression,l'expression,,
-416,1001,C1,C1,A2,,,,,,,,dauerhaft,"permanent, lasting","durable, permanent",die Dauer,the duration,la durée,,
+416,1001,B2,B2,A2,,,,,,,,dauerhaft,"permanent, lasting, enduring","durable, permanent, pérenne",die Dauer,the duration,la durée,,
 417,1001,C1,C1,B2,,,,,,,,hauptsächlich,"primary, main",principal,die Hauptsache,the main thing,l'essentiel,,
 418,1001,C1,C1,B1,,,,,,,,chemisch,chemical,chimique,die Chemie,chemistry,chimie,,
 419,1001,C1,C1,A1,,,,,,,,künstlerisch,artistic,artistique,der Künstler,the artist,l'artiste,,
@@ -428,7 +428,7 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 427,1001,C1,C1,A2,,,,,,,,strategisch,strategical,stratégique,die Strategie,the strategy,la stratégie,,
 428,1001,C1,C1,B2,,,,,,,,zwangsläufig,inevitable,inévitable,der Zwang,the compulsion,la compulsion,,
 429,1001,C1,C1,A1,,,,,,,,vertraglich,compatible,compatible,der Vertrag,the contract,le contrat,,
-430,1001,C1,C1,A2,,,,,,,,fähig,"capable, able",capable,die Fähigkeit,the ability,la capacité,,
+430,1001,B2,B2,A2,,,,,,,,fähig,"capable, able, competent","capable, apte, compétent",die Fähigkeit,the ability,la capacité,,
 431,1001,C1,C1,A2,,,,,,,,abenteuerlich,adventurous,aventureux,das Abenteuer,the adventure,l'aventure,,
 432,1001,C1,C1,B2,,,,,,,,allergisch,allergic,allergique,die Allergie,the allergy,l'allergie,,
 433,1001,C1,C1,C1,,,,,,,,ambitioniert,ambitious,ambitieux,die Ambition,the ambition,l'ambition,,
@@ -464,12 +464,12 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 463,1001,C1,C1,C1,,,,,,,,übel,"nauseous, evil",mauvais,das Übel,the evil,le mal,,
 464,1001,C1,C1,C1,,,,,,,,übel,"nauseous, evil",mauvais,die Übelkeit,the nausea,la nausée,,
 465,1001,C1,C1,B2,,,,,,,,dynamisch,dynamic,dynamique,die Dynamik,the dynamics,la dynamique,,
-466,1001,B2,B2,A2,,,,,,,,begeistert,enthusiastic,enthousiaste,der Geist,the spirit,l'esprit,,
+466,1001,B2,B2,A2,,,,,,,,begeistert,"enthusiastic, excited, delighted","enthousiaste, ravi, passionné",der Geist,the spirit,l'esprit,,
 467,1001,C1,C1,C1,,,,,,,,pädagogisch,educational,pédagogique,der Pädagoge,the educator,l'éducateur,,
 468,1001,C1,C1,A2,,,,,,,,restlich,remaining,restant,der Rest,the rest,le reste,,
 469,1001,C1,C1,A1,,,,,,,,kirchlich,ecclesiastical,ecclésiastique,die Kirche,the church,l'église,,
 470,1001,C1,C1,A1,,,,,,,,bürgerlich,civil,civil,der Bürger,the citizen,le citoyen,,
-471,1001,C1,C1,B1,,,,,,,,mühsam,tedious,fastidieux,die Mühe,the effort,l'effort,,
+471,1001,B2,B2,B1,,,,,,,,mühsam,"tedious, laborious, arduous","fastidieux, laborieux, pénible",die Mühe,the effort,l'effort,,
 472,1001,C1,C1,A1,,,,,,,,qualitativ,qualitativ,qualitatif,die Qualität,the quality,la qualité,,
 473,1001,C1,C1,B1,,,,,,,,landwirtschaftlich,agricultural,agricole,die Landwirtschaft,agriculture,agriculture,,
 474,1001,C1,C1,A1,,,,,,,,steuerlich,tax,impôt,die Steuer,the tax,l'impôt,,
@@ -501,12 +501,12 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 500,1001,C1,C1,B2,,,,,,,,südlich,south,"au sud, du sud",der Süd,the south,le sud,,
 501,1001,C1,C1,B2,,,,,,,,nördlich,north,"au nord, du nord",der Nord,the north,le nord,,
 502,1001,C1,C1,B2,,,,,,,,östlich,east,à l'est,der Ost,the East,l'Est,,
-503,1001,C1,C1,B2,,,,,,,,westlich,west,à l'ouest,der West,the West,l'Ouest,,
-504,1001,C1,C1,A2,,,,,,,,religiös,religious,religieux,die Religion,religion,religion,,
-505,1001,C1,C1,A2,,,,,,,,staatlich,state,"étatique, publique",der Staat,the State,l'État,,
-506,1001,C1,C1,A1,,,,,,,,theoretisch,theoretical,théorique,die Theorie,the theory,la théorie,,
+503,1001,C2,C2,B2,,,,,,,,westlich,west,à l'ouest,der West,the West,l'Ouest,,
+504,1001,B2,B2,A2,,,,,,,,religiös,religious,religieux,die Religion,religion,religion,,
+505,1001,B2,B2,A2,,,,,,,,staatlich,"state-run, governmental, public","étatique, public, gouvernemental",der Staat,the State,l'État,,
+506,1001,B2,B2,A1,,,,,,,,theoretisch,theoretical,théorique,die Theorie,the theory,la théorie,,
 507,1001,C1,C1,A2,,,,,,,,einheitlich,uniform,uniforme,die Einheit,the unit,l'unité,,
-508,1001,C1,C1,B1,,,,,,,,gespannt,tense,tendu,die Spannung,the tension,la tension,,
+508,1001,B2,B2,B1,,,,,,,,gespannt,"tense, excited","tendu, impatient",die Spannung,the tension,la tension,,
 509,1001,C1,C1,A1,,,,,,,,zeitlich,temporal,temporel,die Zeit,the time,le temps,,
 510,1001,C1,C1,A1,,,,,,,,tödlich,deadly,mortel,der Tod,the death,la mort,,
 511,1001,C1,C1,A2,,,,,,,,zugänglich,accessible,accessible,der Zugang,access,accéder,,
@@ -524,7 +524,7 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 523,1001,C1,C1,A1,,,,,,,,friedlich,peaceful,pacifique,der Frieden,peace,paix,,
 524,1001,C1,C1,C1,,,,,,,,logisch,logical,logique,die Logik,the logic,la logique,,
 525,1001,C1,C1,A1,,,,,,,,ärztlich,medical,médical,der Arzt,the doctor,le médecin,,
-526,1001,C1,C1,B2,,,,,,,,effizient,efficient,"efficace, efficient",die Effizienz,efficiency,efficacité,,
+526,1001,B2,B2,B2,,,,,,,,effizient,efficient,"efficace, efficient",die Effizienz,efficiency,efficacité,,
 527,1001,C1,C1,A1,,,,,,,,amtlich,official,officiel,das Amt,the Office,le Bureau,,
 528,1001,C1,C1,A1,,,,,,,,gesundheitlich,"health, sanitary, hygienic",sanitaire,die Gesundheit,the health,la santé,,
 529,1001,C1,C1,C1,,,,,,,,glaubwürdig,credible,crédible,die Glaubwürdigkeit,credibility,crédibilité,,
@@ -539,7 +539,7 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 538,1001,C1,C1,B2,,,,,,,,gleichberechtigt,equal,égal,die Gleichberechtigung,equality,égalité,,
 539,1001,C1,C1,B1,,,,,,,,strafbar,punishable,punissable,die Strafe,the punishment,la punition,,
 540,1001,C1,C1,A1,,,,,,,,ausdrücklich,explicit,"explicite, exprès",der Ausdruck,the expression,l'expression,,
-541,1001,C1,C1,A2,,,,,,,,dauerhaft,"permanent, lasting","durable, permanent",die Dauer,the duration,la durée,,
+541,1001,B2,B2,A2,,,,,,,,dauerhaft,"permanent, lasting, enduring","durable, permanent, pérenne",die Dauer,the duration,la durée,,
 542,1001,C1,C1,B2,,,,,,,,hauptsächlich,"primary, main",principal,die Hauptsache,the main thing,l'essentiel,,
 543,1001,C1,C1,B1,,,,,,,,chemisch,chemical,chimique,die Chemie,chemistry,chimie,,
 544,1001,C1,C1,A1,,,,,,,,künstlerisch,artistic,artistique,der Künstler,the artist,l'artiste,,
@@ -553,7 +553,7 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 552,1001,C1,C1,A2,,,,,,,,strategisch,strategical,stratégique,die Strategie,the strategy,la stratégie,,
 553,1001,C1,C1,B2,,,,,,,,zwangsläufig,inevitable,inévitable,der Zwang,the compulsion,la compulsion,,
 554,1001,C1,C1,A1,,,,,,,,vertraglich,compatible,compatible,der Vertrag,the contract,le contrat,,
-555,1001,C1,C1,A2,,,,,,,,fähig,"capable, able",capable,die Fähigkeit,the ability,la capacité,,
+555,1001,B2,B2,A2,,,,,,,,fähig,"capable, able, competent","capable, apte, compétent",die Fähigkeit,the ability,la capacité,,
 556,1001,C1,C1,A2,,,,,,,,abenteuerlich,adventurous,aventureux,das Abenteuer,the adventure,l'aventure,,
 557,1001,C1,C1,B1,,,,,,,,absichtlich,deliberate,intentionnel,die Absicht,the intention,l'intention,,
 558,1001,C1,C1,B2,,,,,,,,allergisch,allergic,allergique,die Allergie,the allergy,l'allergie,,
@@ -590,12 +590,12 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 589,1001,C1,C1,C1,,,,,,,,übel,"nauseous, evil",mauvais,das Übel,the evil,le mal,,
 590,1001,C1,C1,C1,,,,,,,,übel,"nauseous, evil",mauvais,die Übelkeit,the nausea,la nausée,,
 591,1001,C1,C1,B2,,,,,,,,dynamisch,dynamic,dynamique,die Dynamik,the dynamics,la dynamique,,
-592,1001,B2,B2,A2,,,,,,,,begeistert,enthusiastic,enthousiaste,der Geist,the spirit,l'esprit,,
+592,1001,B2,B2,A2,,,,,,,,begeistert,"enthusiastic, excited, delighted","enthousiaste, ravi, passionné",der Geist,the spirit,l'esprit,,
 593,1001,C1,C1,C1,,,,,,,,pädagogisch,educational,pédagogique,der Pädagoge,the educator,l'éducateur,,
 594,1001,C1,C1,A2,,,,,,,,restlich,remaining,restant,der Rest,the rest,le reste,,
 595,1001,C1,C1,A1,,,,,,,,kirchlich,ecclesiastical,ecclésiastique,die Kirche,the church,l'église,,
 596,1001,C1,C1,A1,,,,,,,,bürgerlich,civil,civil,der Bürger,the citizen,le citoyen,,
-597,1001,C1,C1,B1,,,,,,,,mühsam,tedious,fastidieux,die Mühe,the effort,l'effort,,
+597,1001,B2,B2,B1,,,,,,,,mühsam,"tedious, laborious, arduous","fastidieux, laborieux, pénible",die Mühe,the effort,l'effort,,
 598,1001,C1,C1,A1,,,,,,,,qualitativ,qualitativ,qualitatif,die Qualität,the quality,la qualité,,
 599,1001,C1,C1,B1,,,,,,,,landwirtschaftlich,agricultural,agricole,die Landwirtschaft,agriculture,agriculture,,
 600,1001,C1,C1,A1,,,,,,,,steuerlich,tax,impôt,die Steuer,the tax,l'impôt,,
@@ -623,47 +623,47 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 622,1001,C1,C1,A1,,,,,,,,vorteilhaft,advantageous,avantageux,der Vorteil,the advantage,l'avantage,,
 623,1001,C1,C1,B1,,,,,,,,widersprüchlich,contradictory,contradictoire,der Widerspruch,the contradiction,la contradiction,,
 624,1001,C1,C1,A2,,,,,,,,anspruchsvoll,demanding,exigeant,der Anspruch,the claim,la réclamation,,
-625,1021,C2+,B2,C2+,,,,,,,,fällig,due,exigible,die Fälligkeit,the due date,la date d'échéance,,
-626,1021,C2+,B2,C2+,die Bescheidenheit,bescheiden,,modest,the modesty,modeste,la modestie,bescheiden,modest,modeste,die Bescheidenheit,the modesty,la modestie,Feminine,Féminin
-627,1021,C2+,B2,C2+,die Bescheidenheit,bescheiden,,modest,the modesty,modeste,la modestie,bescheiden,modest,modeste,die Bescheidenheit,the modesty,la modestie,,
+625,1021,C2+,B2,C2+,,,,,,,,fällig,"due, payable","exigible, à payer, arrivé à échéance",die Fälligkeit,the due date,la date d'échéance,,
+626,1021,C2+,B2,C2+,die Bescheidenheit,bescheiden,,"modest, humble, unassuming",the modesty,"modeste, humble, sans prétention",la modestie,bescheiden,"modest, humble, unassuming","modeste, humble, sans prétention",die Bescheidenheit,the modesty,la modestie,Feminine,Féminin
+627,1021,C2+,B2,C2+,die Bescheidenheit,bescheiden,,"modest, humble, unassuming",the modesty,"modeste, humble, sans prétention",la modestie,bescheiden,"modest, humble, unassuming","modeste, humble, sans prétention",die Bescheidenheit,the modesty,la modestie,,
 628,1021,C2+,A1,C2+,die Langsamkeit,langsam,,slow,the slowness,lent,la lenteur,langsam,slow,lent,die Langsamkeit,the slowness,la lenteur,,
-629,1021,C2+,A1,C2+,die Gleichheit,gleich,,same,the equality,même,l'égalité,gleich,same,même,die Gleichheit,the equality,l'égalité,,
-630,1021,C2+,A1,C2+,die Ganzheit,ganz,,"whole, entire, complete",the whole,"entier, complet",l'ensemble,ganz,"whole, entire, complete","entier, complet",die Ganzheit,the whole,l'ensemble,,
-631,1021,C2+,A1,C2+,die Dummheit,dumm,,stupid,the stupidity,stupide,la stupidité,dumm,stupid,stupide,die Dummheit,the stupidity,la stupidité,,
-632,1021,C2+,A1,C2+,die Klugheit,klug,,smart,the cleverness,intelligent,l'habileté,klug,smart,intelligent,die Klugheit,the cleverness,l'habileté,,
-633,1021,C2+,A2,C2+,der Fleiß,fleißig,,hardworking,the diligence,diligent,la diligence,fleißig,hardworking,diligent,der Fleiß,the diligence,la diligence,,
+629,1021,C2+,A1,C2+,die Gleichheit,gleich,,"same, equal",the equality,"même, égal",l'égalité,gleich,"same, equal","même, égal",die Gleichheit,the equality,l'égalité,,
+630,1021,C2+,A2,C2+,die Ganzheit,ganz,,"whole, entire, complete",the whole,"entier, complet",l'ensemble,ganz,"whole, entire, complete","entier, complet",die Ganzheit,the whole,l'ensemble,,
+631,1021,C2+,A1,C2+,die Dummheit,dumm,,"stupid, foolish",the stupidity,"bête, stupide, idiot",la stupidité,dumm,"stupid, foolish","bête, stupide, idiot",die Dummheit,the stupidity,la stupidité,,
+632,1021,C2+,B1,C2+,die Klugheit,klug,,"clever, smart, wise",the cleverness,"intelligent, malin, avisé, sage",l'habileté,klug,"clever, smart, wise","intelligent, malin, avisé, sage",die Klugheit,the cleverness,l'habileté,,
+633,1021,C2+,B1,C2+,der Fleiß,fleißig,,"hardworking, diligent",the diligence,"travailleur, assidu, appliqué",la diligence,fleißig,"hardworking, diligent","travailleur, assidu, appliqué",der Fleiß,the diligence,la diligence,,
 634,1021,C2+,A2,C2+,die Bitterkeit,bitter,,bitter,the bitterness,amer,l'amertume,bitter,bitter,amer,die Bitterkeit,the bitterness,l'amertume,,
-635,1021,C2+,B1,C2+,die Nützlichkeit,nützlich,,useful,the usefulness,utile,l'utilité,nützlich,useful,utile,die Nützlichkeit,the usefulness,l'utilité,,
-636,1021,C2+,B1,C2+,die Echtheit,echt,,"real, genuine",the authenticity,réel,l'authenticité,echt,"real, genuine",réel,die Echtheit,the authenticity,l'authenticité,,
-637,1021,C2+,B1,C2+,die Strenge,streng,,strict,the severity,strict,la gravité,streng,strict,strict,die Strenge,the severity,la gravité,,
-638,1021,C2+,B1,C2+,die Knappheit,knapp,,"scarce, short",the scarcity,"rare, court",la rareté,knapp,"scarce, short","rare, court",die Knappheit,the scarcity,la rareté,,
-639,1021,C2+,B1,C2+,die Bequemlichkeit,bequem,,"comfortable, convenient",the convenience,"confortable, pratique",la commodité,bequem,"comfortable, convenient","confortable, pratique",die Bequemlichkeit,the convenience,la commodité,,
+635,1021,C2+,B1,C2+,die Nützlichkeit,nützlich,,"useful, helpful",the usefulness,"utile, pratique",l'utilité,nützlich,"useful, helpful","utile, pratique",die Nützlichkeit,the usefulness,l'utilité,,
+636,1021,C2+,B1,C2+,die Echtheit,echt,,"real, genuine, authentic",the authenticity,"vrai, authentique, véritable",l'authenticité,echt,"real, genuine, authentic","vrai, authentique, véritable",die Echtheit,the authenticity,l'authenticité,,
+637,1021,C2+,B1,C2+,die Strenge,streng,,"strict, severe, harsh",the severity,"strict, sévère, rigoureux",la gravité,streng,"strict, severe, harsh","strict, sévère, rigoureux",die Strenge,the severity,la gravité,,
+638,1021,C2+,B1,C2+,die Knappheit,knapp,,"scarce, limited, tight",the scarcity,"rare, limité, juste",la rareté,knapp,"scarce, limited, tight","rare, limité, juste",die Knappheit,the scarcity,la rareté,,
+639,1021,C2+,B1,C2+,die Bequemlichkeit,bequem,,"comfortable, convenient, easy",the convenience,"confortable, pratique, commode",la commodité,bequem,"comfortable, convenient, easy","confortable, pratique, commode",die Bequemlichkeit,the convenience,la commodité,,
 640,1021,C2+,B1,C2+,die Höflichkeit,höflich,,"polite, courteous",the politeness,"poli, courtois",la politesse,höflich,"polite, courteous","poli, courtois",die Höflichkeit,the politeness,la politesse,,
-641,1021,C2+,B1,C2+,die Gemütlichkeit,gemütlich,,"cozy, comfortable",the coziness,"douillet, confortable",le confort,gemütlich,"cozy, comfortable","douillet, confortable",die Gemütlichkeit,the coziness,le confort,,
-642,1021,C2+,B1,C2+,die Verschiedenheit,verschieden,,"different, various",the difference,"divers, différent",la différence,verschieden,"different, various","divers, différent",die Verschiedenheit,the difference,la différence,,
-643,1021,C2+,B1,C2+,die Verschlimmerung,schlimm,,bad,the worsening,mauvais,l'aggravation,schlimm,bad,mauvais,die Verschlimmerung,the worsening,l'aggravation,,
-644,1021,C2+,B1,C2+,die Fröhlichkeit,froh,,"happy, glad",the joy,"heureux, content",la joie,froh,"happy, glad","heureux, content",die Fröhlichkeit,the joy,la joie,,
-645,1021,C2+,B2,C2+,die Frechheit,frech,,cheeky,the audacity,"effronté, insolent",l'audace,frech,cheeky,"effronté, insolent",die Frechheit,the audacity,l'audace,,
-646,1021,C2+,B2,C2+,die Regelmäßigkeit,regelmäßig,,regular,the regularity,régulier,la régularité,regelmäßig,regular,régulier,die Regelmäßigkeit,the regularity,la régularité,,
+641,1021,C2+,B1,C2+,die Gemütlichkeit,gemütlich,,"cozy, comfortable, pleasant",the coziness,"confortable, douillet, chaleureux, convivial",le confort,gemütlich,"cozy, comfortable, pleasant","confortable, douillet, chaleureux, convivial",die Gemütlichkeit,the coziness,le confort,,
+642,1021,C2+,B1,C2+,die Verschiedenheit,verschieden,,"different, various, diverse",the difference,"différent, divers, varié",la différence,verschieden,"different, various, diverse","différent, divers, varié",die Verschiedenheit,the difference,la différence,,
+643,1021,C2+,B1,C2+,die Verschlimmerung,schlimm,,"bad, serious, terrible, severe",the worsening,"grave, mauvais, terrible, affreux",l'aggravation,schlimm,"bad, serious, terrible, severe","grave, mauvais, terrible, affreux",die Verschlimmerung,the worsening,l'aggravation,,
+644,1021,C2+,B1,C2+,die Fröhlichkeit,froh,,"happy, glad, pleased",the joy,"heureux, content, ravi",la joie,froh,"happy, glad, pleased","heureux, content, ravi",die Fröhlichkeit,the joy,la joie,,
+645,1021,C2+,B2,C2+,die Frechheit,frech,,"cheeky, impudent, insolent",the audacity,"effronté, insolent, impertinent",l'audace,frech,"cheeky, impudent, insolent","effronté, insolent, impertinent",die Frechheit,the audacity,l'audace,,
+646,1021,C2+,B2,C2+,die Regelmäßigkeit,regelmäßig,,"regular, periodic",the regularity,"régulier, périodique",la régularité,regelmäßig,"regular, periodic","régulier, périodique",die Regelmäßigkeit,the regularity,la régularité,,
 647,1021,C2+,B2,C2+,die Finanz,finanziell,,financial,the finance,financier,la finance,finanziell,financial,financier,die Finanz,the finance,la finance,,
-648,1021,C2+,B2,C2+,die Harmlosigkeit,harmlos,,harmless,the harmlessness,inoffensif,l'innocuité,harmlos,harmless,inoffensif,die Harmlosigkeit,the harmlessness,l'innocuité,,
-649,1021,C2+,B2,C2+,die Gründlichkeit,gründlich,,thorough,the thoroughness,"minutieux, rigoureux",la minutie,gründlich,thorough,"minutieux, rigoureux",die Gründlichkeit,the thoroughness,la minutie,,
-650,1021,C2+,B2,C2+,die Reinheit,rein,,pure,the purity,pur,la pureté,rein,pure,pur,die Reinheit,the purity,la pureté,,
-651,1021,C2+,B2,C2+,die Vielfältigkeit,vielfältig,,"diverse, varied",the diversity,"varié, divers",la diversité,vielfältig,"diverse, varied","varié, divers",die Vielfältigkeit,the diversity,la diversité,,
-652,1021,C2+,B2,C2+,die Heiligkeit,heilig,,holy,the holiness,sacré,la sainteté,heilig,holy,sacré,die Heiligkeit,the holiness,la sainteté,,
-653,1021,C2+,B2,C2+,die Pein,peinlich,,awkward,the pain,"embarrassant, gênant",la douleur,peinlich,awkward,"embarrassant, gênant",die Pein,the pain,la douleur,,
-654,1021,C2+,B2,C2+,die Empfindlichkeit,empfindlich,,sensitive,the sensitivity,sensible,la sensibilité,empfindlich,sensitive,sensible,die Empfindlichkeit,the sensitivity,la sensibilité,,
-655,1021,C2+,B2,C2+,die Großzügigkeit,großzügig,,generous,the generosity,généreux,la générosité,großzügig,generous,généreux,die Großzügigkeit,the generosity,la générosité,,
-656,1021,C2+,B2,C2+,die Berühmtheit,berühmt,,famous,the celebrity,célèbre,la célébrité,berühmt,famous,célèbre,die Berühmtheit,the celebrity,la célébrité,,
-657,1021,C2+,B2,C2+,die Bescheidenheit,bescheiden,,modest,the modesty,modeste,la modestie,bescheiden,modest,modeste,die Bescheidenheit,the modesty,la modestie,,
-658,1021,C2+,B2,C2+,die Eifersucht,eifersüchtig,,"jealous, envious",the jealousy,"jaloux, envieux",la jalousie,eifersüchtig,"jealous, envious","jaloux, envieux",die Eifersucht,the jealousy,la jalousie,,
-659,1021,C2+,B2,C2+,der Eifer,eifersüchtig,,"jealous, envious",the zeal,"jaloux, envieux",le zèle,eifersüchtig,"jealous, envious","jaloux, envieux",der Eifer,the zeal,le zèle,,
-660,1021,C2+,B2,C2+,die Einseitigkeit,einseitig,,one-sided,the one-sidedness,"unilatéral, partial",le caractère unilatéral,einseitig,one-sided,"unilatéral, partial",die Einseitigkeit,the one-sidedness,le caractère unilatéral,,
-661,1021,C2+,B2,C2+,die Eindeutigkeit,eindeutig,,"articulate, clear, distinct, considerable",the unambiguity,"clair, notable, évident",l'absence d'ambiguïté,eindeutig,"articulate, clear, distinct, considerable","clair, notable, évident",die Eindeutigkeit,the unambiguity,l'absence d'ambiguïté,,
-662,1021,C2+,B2,C2+,die Merkwürdigkeit,merkwürdig,,"strange, funny",the oddity,"étrange, drôle",l'étrangeté,merkwürdig,"strange, funny","étrange, drôle",die Merkwürdigkeit,the oddity,l'étrangeté,,
-663,1021,C2+,B2,C2+,die Herrlichkeit,herrlich,,wonderful,the glory,merveilleux,la gloire,herrlich,wonderful,merveilleux,die Herrlichkeit,the glory,la gloire,,
-664,1021,C2+,B2,C2+,die Fröhlichkeit,fröhlich,,"happy, glad",the joy,"heureux, content",la joie,fröhlich,"happy, glad","heureux, content",die Fröhlichkeit,the joy,la joie,,
-665,1021,C2+,B2,C2+,die Pauschale,populär,,popular,the flat rate,populaire,le tarif forfaitaire,populär,popular,populaire,die Pauschale,the flat rate,le tarif forfaitaire,,
+648,1021,C2+,B2,C2+,die Harmlosigkeit,harmlos,,"harmless, inoffensive",the harmlessness,"inoffensif, sans danger, anodin",l'innocuité,harmlos,"harmless, inoffensive","inoffensif, sans danger, anodin",die Harmlosigkeit,the harmlessness,l'innocuité,,
+649,1021,C2+,B2,C2+,die Gründlichkeit,gründlich,,"thorough, meticulous, comprehensive",the thoroughness,"minutieux, approfondi, rigoureux",la minutie,gründlich,"thorough, meticulous, comprehensive","minutieux, approfondi, rigoureux",die Gründlichkeit,the thoroughness,la minutie,,
+650,1021,C2+,B2,C2+,die Reinheit,rein,,"pure, clean, sheer",the purity,"pur, propre, sans mélange",la pureté,rein,"pure, clean, sheer","pur, propre, sans mélange",die Reinheit,the purity,la pureté,,
+651,1021,C2+,B2,C2+,die Vielfältigkeit,vielfältig,,"diverse, varied, multifaceted",the diversity,"varié, diversifié, multiple",la diversité,vielfältig,"diverse, varied, multifaceted","varié, diversifié, multiple",die Vielfältigkeit,the diversity,la diversité,,
+652,1021,C2+,B2,C2+,die Heiligkeit,heilig,,"holy, sacred, saintly",the holiness,"saint, sacré",la sainteté,heilig,"holy, sacred, saintly","saint, sacré",die Heiligkeit,the holiness,la sainteté,,
+653,1021,C2+,B2,C2+,die Pein,peinlich,,"embarrassing, awkward, humiliating",the pain,"embarrassant, gênant, humiliant",la douleur,peinlich,"embarrassing, awkward, humiliating","embarrassant, gênant, humiliant",die Pein,the pain,la douleur,,
+654,1021,C2+,B1,C2+,die Empfindlichkeit,empfindlich,,"sensitive, delicate",the sensitivity,"sensible, délicat, fragile",la sensibilité,empfindlich,"sensitive, delicate","sensible, délicat, fragile",die Empfindlichkeit,the sensitivity,la sensibilité,,
+655,1021,C2+,B2,C2+,die Großzügigkeit,großzügig,,"generous, spacious, ample",the generosity,"généreux, spacieux, ample",la générosité,großzügig,"generous, spacious, ample","généreux, spacieux, ample",die Großzügigkeit,the generosity,la générosité,,
+656,1021,C2+,B2,C2+,die Berühmtheit,berühmt,,"famous, renowned, celebrated",the celebrity,"célèbre, renommé, réputé",la célébrité,berühmt,"famous, renowned, celebrated","célèbre, renommé, réputé",die Berühmtheit,the celebrity,la célébrité,,
+657,1021,C2+,B2,C2+,die Bescheidenheit,bescheiden,,"modest, humble, unassuming",the modesty,"modeste, humble, sans prétention",la modestie,bescheiden,"modest, humble, unassuming","modeste, humble, sans prétention",die Bescheidenheit,the modesty,la modestie,,
+658,1021,C2+,B2,C2+,die Eifersucht,eifersüchtig,,"jealous, possessive",the jealousy,"jaloux, possessif",la jalousie,eifersüchtig,"jealous, possessive","jaloux, possessif",die Eifersucht,the jealousy,la jalousie,,
+659,1021,C2+,B2,C2+,der Eifer,eifersüchtig,,"jealous, possessive",the zeal,"jaloux, possessif",le zèle,eifersüchtig,"jealous, possessive","jaloux, possessif",der Eifer,the zeal,le zèle,,
+660,1021,C2+,C1,C2+,die Einseitigkeit,einseitig,,one-sided,the one-sidedness,"unilatéral, partial",le caractère unilatéral,einseitig,one-sided,"unilatéral, partial",die Einseitigkeit,the one-sidedness,le caractère unilatéral,,
+661,1021,C2+,B2,C2+,die Eindeutigkeit,eindeutig,,"clear, unambiguous, unequivocal",the unambiguity,"clair, sans ambiguïté, univoque",l'absence d'ambiguïté,eindeutig,"clear, unambiguous, unequivocal","clair, sans ambiguïté, univoque",die Eindeutigkeit,the unambiguity,l'absence d'ambiguïté,,
+662,1021,C2+,B2,C2+,die Merkwürdigkeit,merkwürdig,,"strange, odd, peculiar",the oddity,"étrange, bizarre, curieux",l'étrangeté,merkwürdig,"strange, odd, peculiar","étrange, bizarre, curieux",die Merkwürdigkeit,the oddity,l'étrangeté,,
+663,1021,C2+,B2,C2+,die Herrlichkeit,herrlich,,"wonderful, magnificent, splendid",the glory,"magnifique, merveilleux, splendide",la gloire,herrlich,"wonderful, magnificent, splendid","magnifique, merveilleux, splendide",die Herrlichkeit,the glory,la gloire,,
+664,1021,C2+,B2,C2+,die Fröhlichkeit,fröhlich,,"happy, cheerful, joyful",the joy,"joyeux, gai, de bonne humeur",la joie,fröhlich,"happy, cheerful, joyful","joyeux, gai, de bonne humeur",die Fröhlichkeit,the joy,la joie,,
+665,1021,C2+,B2,C2+,die Pauschale,populär,,"popular, widely liked",the flat rate,"populaire, apprécié",le tarif forfaitaire,populär,"popular, widely liked","populaire, apprécié",die Pauschale,the flat rate,le tarif forfaitaire,,
 666,1021,C2+,C1,C2+,,,,,,,,verständlich,understandable,compréhensible,die Verständlichkeit,,,,
 667,1021,C2+,C1,C2+,,,,,,,,gar,"cooked, done, refined","bien cuit, à point",der Garaus,,,,
 668,1021,C2+,C1,C2+,,,,,,,,heftig,"fierce, violent",violent,die Heftigkeit,,,,
@@ -724,40 +724,40 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 723,1021,C2+,C1,C2+,,,,,,,,selbstsicher,,,die Selbstsicherheit,,,,
 724,1021,C2+,C1,C2+,,,,,,,,vertraulich,,,die Vertraulichkeit,,,,
 725,1021,C2+,C1,C2+,,,,,,,,aussagekräftig,,,die Aussagekraft,,,,
-726,1051,D1,A1,D1+,das Alte,alt,,old,the old,vieux,le vieux,alt,old,vieux,das Alte,the old,le vieux,,
-727,1051,D1,A1,D1+,die Falschheit,falsch,,"false, wrong",the falsehood,faux,le mensonge,falsch,"false, wrong",faux,die Falschheit,the falsehood,le mensonge,,
-728,1051,D1,A1,D1+,die Schlechtigkeit,schlecht,,bad,the wickedness,mauvais,la méchanceté,schlecht,bad,mauvais,die Schlechtigkeit,the wickedness,la méchanceté,,
-729,1051,D1,A1,D1+,die Hässlichkeit,hässlich,,ugly,the ugliness,laid,la laideur,hässlich,ugly,laid,die Hässlichkeit,the ugliness,la laideur,,
-730,1051,D1,A1,D1+,die Glücklichkeit,glücklich,,"happy, glad",the happiness,"heureux, content",le bonheur,glücklich,"happy, glad","heureux, content",die Glücklichkeit,the happiness,le bonheur,,
-731,1051,D1,A1,D1+,die Müdigkeit,müde,,tired,the fatigue,fatigué,la fatigue,müde,tired,fatigué,die Müdigkeit,the fatigue,la fatigue,,
-732,1051,D1,A2,D1+,der Ahn,ähnlich,,similar,the ancestor,similaire,l'ancêtre,ähnlich,similar,similaire,der Ahn,the ancestor,l'ancêtre,,
-733,1051,D1,B1,D1+,der Fremder,fremd,,foreign,the stranger,étranger,l'étranger,fremd,foreign,étranger,der Fremder,the stranger,l'étranger,,
-734,1051,D1,B1,D1+,das Böse,böse,,"evil, angry",the evil,"méchant, en colère",le mal,böse,"evil, angry","méchant, en colère",das Böse,the evil,le mal,,
-735,1051,D1,B1,D1+,die Blödheit,blöd,,stupid,the stupidity,stupide,la stupidité,blöd,stupid,stupide,die Blödheit,the stupidity,la stupidité,,
-736,1051,D1,B2,D1+,die Illegalität,illegal,,illegal,the illegality,illégal,l'illégalité,illegal,illegal,illégal,die Illegalität,the illegality,l'illégalité,,
-737,1051,D1,B2,D1+,die Wildnis,wild,,wild,the wilderness,sauvage,la nature sauvage,wild,wild,sauvage,die Wildnis,the wilderness,la nature sauvage,,
-738,1051,D1,B2,D1+,die Fairness,fair,,fair,the fairness,"juste, équitable",la justice,fair,fair,"juste, équitable",die Fairness,the fairness,la justice,,
-739,1051,D1,B2,D1+,die Blässe,blass,,pale,the pallor,pâle,la pâleur,blass,pale,pâle,die Blässe,the pallor,la pâleur,,
-740,1051,D1,B2,D1+,der Bekannter,bekannt,,known,the acquaintance,connu,la connaissance,bekannt,known,connu,der Bekannter,the acquaintance,la connaissance,,
-741,1051,D1,B2,D1+,"das Rund, die Runde",rund,,round,"the round, the circle",rond,"le rond, le cercle",rund,round,rond,"das Rund, die Runde","the round, the circle","le rond, le cercle",,
-742,1051,D1,B2,D1+,der Heiliger,heilig,,holy,the saint,sacré,le saint,heilig,holy,sacré,der Heiliger,the saint,le saint,,
-743,1051,D1,B2,D1+,die Schlankheit,schlank,,thin,the slimness,mince,la minceur,schlank,thin,mince,die Schlankheit,the slimness,la minceur,,
-744,1051,D1,B2,D1+,die Kunft,künftig,,future,the future,futur,l'avenir,künftig,future,futur,die Kunft,the future,l'avenir,,
-745,1051,D1,B2,D1+,die Gewissheit,gewiss,,"certain, determined",the certainty,"déterminé, destiné",la certitude,gewiss,"certain, determined","déterminé, destiné",die Gewissheit,the certainty,la certitude,,
-746,1051,D1,C1,D1+,,,,,,,,einheimisch,"indigenous, domestic, native",indigène,der Einheimischer,,,,
-747,1051,D1,C1,D1+,,,,,,,,schlau,clever,malin,die Schläue,,,,
-748,1051,D1,C1,D1+,,,,,,,,gespannt,tense,tendu,die Gespanntheit,,,,
+726,1051,D1,A1,D1+,das Alte,alt,,old,the old,"vieux, âgé, ancien",le vieux,alt,old,"vieux, âgé, ancien",das Alte,the old,le vieux,,
+727,1051,D1,A1,D1+,die Falschheit,falsch,,"wrong, incorrect, false",the falsehood,"faux, incorrect, mauvais",le mensonge,falsch,"wrong, incorrect, false","faux, incorrect, mauvais",die Falschheit,the falsehood,le mensonge,,
+728,1051,D1,A1,D1+,die Schlechtigkeit,schlecht,,"bad, poor",the wickedness,"mauvais, médiocre",la méchanceté,schlecht,"bad, poor","mauvais, médiocre",die Schlechtigkeit,the wickedness,la méchanceté,,
+729,1051,D1,A2,D1+,die Hässlichkeit,hässlich,,ugly,the ugliness,laid,la laideur,hässlich,ugly,laid,die Hässlichkeit,the ugliness,la laideur,,
+730,1051,D1,A1,D1+,die Glücklichkeit,glücklich,,"happy, fortunate",the happiness,"heureux, content, chanceux",le bonheur,glücklich,"happy, fortunate","heureux, content, chanceux",die Glücklichkeit,the happiness,le bonheur,,
+731,1051,D1,A1,D1+,die Müdigkeit,müde,,"tired, sleepy",the fatigue,"fatigué, somnolent",la fatigue,müde,"tired, sleepy","fatigué, somnolent",die Müdigkeit,the fatigue,la fatigue,,
+732,1051,D1,A2,D1+,der Ahn,ähnlich,,"similar, alike",the ancestor,"semblable, similaire",l'ancêtre,ähnlich,"similar, alike","semblable, similaire",der Ahn,the ancestor,l'ancêtre,,
+733,1051,D1,B1,D1+,der Fremder,fremd,,"foreign, unfamiliar, strange",the stranger,"étranger, inconnu, peu familier",l'étranger,fremd,"foreign, unfamiliar, strange","étranger, inconnu, peu familier",der Fremder,the stranger,l'étranger,,
+734,1051,D1,B1,D1+,das Böse,böse,,"evil, wicked, angry, mean",the evil,"méchant, mauvais, malveillant, en colère",le mal,böse,"evil, wicked, angry, mean","méchant, mauvais, malveillant, en colère",das Böse,the evil,le mal,,
+735,1051,D1,B1,D1+,die Blödheit,blöd,,"stupid, silly, annoying",the stupidity,"bête, stupide, idiot, agaçant",la stupidité,blöd,"stupid, silly, annoying","bête, stupide, idiot, agaçant",die Blödheit,the stupidity,la stupidité,,
+736,1051,D1,B2,D1+,die Illegalität,illegal,,"illegal, unlawful",the illegality,"illégal, illicite",l'illégalité,illegal,"illegal, unlawful","illégal, illicite",die Illegalität,the illegality,l'illégalité,,
+737,1051,D1,B2,D1+,die Wildnis,wild,,"wild, untamed, fierce",the wilderness,"sauvage, indompté, féroce",la nature sauvage,wild,"wild, untamed, fierce","sauvage, indompté, féroce",die Wildnis,the wilderness,la nature sauvage,,
+738,1051,D1,B2,D1+,die Fairness,fair,,"fair, just, equitable",the fairness,"juste, équitable, loyal",la justice,fair,"fair, just, equitable","juste, équitable, loyal",die Fairness,the fairness,la justice,,
+739,1051,D1,B2,D1+,die Blässe,blass,,"pale, pallid",the pallor,"pâle, blafard",la pâleur,blass,"pale, pallid","pâle, blafard",die Blässe,the pallor,la pâleur,,
+740,1051,D1,B1,D1+,der Bekannter,bekannt,,"known, familiar, well-known",the acquaintance,"connu, familier, réputé",la connaissance,bekannt,"known, familiar, well-known","connu, familier, réputé",der Bekannter,the acquaintance,la connaissance,,
+741,1051,D1,B2,D1+,"das Rund, die Runde",rund,,"round, circular, rounded","the round, the circle","rond, circulaire, arrondi","le rond, le cercle",rund,"round, circular, rounded","rond, circulaire, arrondi","das Rund, die Runde","the round, the circle","le rond, le cercle",,
+742,1051,D1,B2,D1+,der Heiliger,heilig,,"holy, sacred, saintly",the saint,"saint, sacré",le saint,heilig,"holy, sacred, saintly","saint, sacré",der Heiliger,the saint,le saint,,
+743,1051,D1,B2,D1+,die Schlankheit,schlank,,"slim, slender, lean",the slimness,"mince, élancé, svelte",la minceur,schlank,"slim, slender, lean","mince, élancé, svelte",die Schlankheit,the slimness,la minceur,,
+744,1051,D1,B2,D1+,die Kunft,künftig,,"future, forthcoming, upcoming",the future,"futur, à venir, prochain",l'avenir,künftig,"future, forthcoming, upcoming","futur, à venir, prochain",die Kunft,the future,l'avenir,,
+745,1051,D1,C1,D1+,die Gewissheit,gewiss,,"certain, determined",the certainty,"déterminé, destiné",la certitude,gewiss,"certain, determined","déterminé, destiné",die Gewissheit,the certainty,la certitude,,
+746,1051,D1,B2,D1+,,,,,,,,einheimisch,"local, native, indigenous","local, du pays, indigène",der Einheimischer,,,,
+747,1051,D1,B2,D1+,,,,,,,,schlau,"clever, smart, cunning","malin, intelligent, rusé",die Schläue,,,,
+748,1051,D1,B2,D1+,,,,,,,,gespannt,"tense, excited","tendu, impatient",die Gespanntheit,,,,
 749,1051,D1,C1,D1+,,,,,,,,spitz,pointed,pointu,der Spitz,,,,
 750,1051,D1,C1,D1+,,,,,,,,ausschließlich,exclusive,exclusif,der Ausschluss,,,,
 751,1051,D1,C1,D1+,,,,,,,,spezifisch,specific,spécifique,die Spezifität,,,,
-752,1051,D1,C1,D1+,,,,,,,,bewusst,"conscious, aware, intentional",conscient,das Bewusstsein,,,,
+752,1051,D1,B2,D1+,,,,,,,,bewusst,"conscious, aware, deliberate","conscient, délibéré, intentionnel",das Bewusstsein,,,,
 753,1051,D1,C1,D1+,,,,,,,,außergewöhnlich,unusual,inhabituel,die Außergewöhnlichkeit,,,,
 754,1051,D1,C1,D1+,,,,,,,,gerade,"even, straight",droit,die Gerade,,,,
 755,1051,D1,C1,D1+,,,,,,,,anständig,decent,respectable,die Anständigkeit,,,,
 756,1051,D1,C1,D1+,,,,,,,,niedlich,cute,mignon,die Niedlichkeit,,,,
 757,1051,D1,C1,D1+,,,,,,,,steif,stiff,rigide,die Steifheit,,,,
 758,1051,D1,C1,D1+,,,,,,,,stilistisch,stylistic,stylistique,der Stilist,,,,
-759,1051,D1,C1,D1+,,,,,,,,minderwertig,inferior,inférieur,die Minderwertigkeit,,,,
+759,1051,D1,C2,D1+,,,,,,,,minderwertig,inferior,inférieur,die Minderwertigkeit,,,,
 760,1051,D1,C1,D1+,,,,,,,,sanft,soft,doux,die Sanftheit,,,,
 761,1051,D1,C1,D1+,,,,,,,,stetig,"steady, continuous","continu, incessant",die Stetigkeit,,,,
 762,1051,D1,C1,D1+,,,,,,,,fachlich,technical,professionnel,der Fachman,,,,
@@ -771,19 +771,19 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 770,1051,D1,C1,D1+,,,,,,,,kleinlich,petty,petit,die Kleinlichkeit,,,,
 771,1051,D1,C1,D1+,,,,,,,,krumm,crooked,courbé,die Krümme,,,,
 772,1051,D1,C1,D1+,,,,,,,,selbstlos,selfless,désintéressé,die Selbstlosigkeit,,,,
-773,1051,D1,C1,D1+,,,,,,,,schlau,,,die Schläue,,,,
-774,1051,D1,C1,D1+,,,,,,,,gespannt,,,die Gespanntheit,,,,
+773,1051,D1,B2,D1+,,,,,,,,schlau,,,die Schläue,,,,
+774,1051,D1,B2,D1+,,,,,,,,gespannt,,,die Gespanntheit,,,,
 775,1051,D1,C1,D1+,,,,,,,,spitz,,,der Spitz,,,,
 776,1051,D1,C1,D1+,,,,,,,,ausschließlich,,,der Ausschluss,,,,
 777,1051,D1,C1,D1+,,,,,,,,spezifisch,,,die Spezifität,,,,
-778,1051,D1,C1,D1+,,,,,,,,bewusst,,,das Bewusstsein,,,,
+778,1051,D1,B2,D1+,,,,,,,,bewusst,,,das Bewusstsein,,,,
 779,1051,D1,C1,D1+,,,,,,,,außergewöhnlich,,,die Außergewöhnlichkeit,,,,
 780,1051,D1,C1,D1+,,,,,,,,gerade,,,die Gerade,,,,
 781,1051,D1,C1,D1+,,,,,,,,anständig,,,die Anständigkeit,,,,
 782,1051,D1,C1,D1+,,,,,,,,niedlich,,,die Niedlichkeit,,,,
 783,1051,D1,C1,D1+,,,,,,,,steif,,,die Steifheit,,,,
 784,1051,D1,C1,D1+,,,,,,,,stilistisch,,,der Stilist,,,,
-785,1051,D1,C1,D1+,,,,,,,,minderwertig,,,die Minderwertigkeit,,,,
+785,1051,D1,C2,D1+,,,,,,,,minderwertig,,,die Minderwertigkeit,,,,
 786,1051,D1,C1,D1+,,,,,,,,sanft,,,die Sanftheit,,,,
 787,1051,D1,C1,D1+,,,,,,,,stetig,,,die Stetigkeit,,,,
 788,1051,D1,C1,D1+,,,,,,,,fachlich,,,der Fachman,,,,
@@ -797,5 +797,5 @@ Nr,exercise,level,level_adjektive,level_noun,question,answer,german,english,root
 796,1051,D1,C1,D1+,,,,,,,,kleinlich,,,die Kleinlichkeit,,,,
 797,1051,D1,C1,D1+,,,,,,,,krumm,,,die Krümme,,,,
 798,1051,D1,C1,D1+,,,,,,,,selbstlos,,,die Selbstlosigkeit,,,,
-799,1051,B2,A2,B2,,,,,,,,schwer,,,die Schwerkraft,,,,
+799,1051,B2,A1,B2,,,,,,,,schwer,,,die Schwerkraft,,,,
 800,1051,C2+,B2,C2+,,,,,,,,gesamt,,,die Gesamtheit,,,,

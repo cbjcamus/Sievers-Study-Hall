@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Legal Notice – Sievers Study Hall</title>
+    <meta name="description" content="Legal information and contact details for Sievers Study Hall.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
+
+    {{ render_title("Legal Notice") }}
+
+    <div class="section no-border">
+        <h2>Website operator</h2>
+        <p>Sievers Study Hall is an online application for practising German grammar.</p>
+        <p>Website: <a href="https://www.sieversstudyhall.com/">www.sieversstudyhall.com</a></p>
+        <p>Operator: Clément Camus</p>
+        <!-- <p>Postal address: [Street, postal code, city, country]</p> -->
+        <!-- TODO: Replace the placeholders with the operator's actual legal name and postal contact address. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Contact</h2>
+        <p>For questions about the website, please email
+            <a href="mailto:sieversstudyhall@gmail.com">sieversstudyhall@gmail.com</a>.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Website content</h2>
+        <p>We aim to provide accurate and useful German-learning materials, but errors may occur.
+            The exercises and explanations are provided for educational purposes and may be updated or corrected.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>External links</h2>
+        <p>This website may contain links to third-party websites. Their content and privacy practices
+            are managed by their respective operators.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Intellectual property and credits</h2>
+        <p>Unless otherwise indicated, original content and the website's design are provided by
+            Sievers Study Hall. Third-party material remains subject to the rights of its respective owners.</p>
+        <p>Some learning resources are based on external sources, which are acknowledged on the
+            <a href="/about">About page</a>.</p>
+        <!-- TODO: Confirm the About page URL and any licensing or reuse permissions before publication. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Privacy</h2>
+        <p>For information about how personal data is processed, please consult our
+            <a href="/privacy">Privacy Policy</a>.</p>
+    </div>
+
+    {{ display_homepage_button(homepage) }}
+
+</body>
+</html>

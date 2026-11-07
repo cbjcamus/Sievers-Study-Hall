@@ -121,6 +121,9 @@ QUESTION_SUBCATEGORY_EN = {
         context:
             "{question}"
             "<br><br><i>{english}</i>",
+        prompt:
+            "{german}"
+            "<br><br><i>{english}</i>{case_english}",
     },
 
     praepositionen_adjektive: {
@@ -149,7 +152,7 @@ QUESTION_SUBCATEGORY_EN = {
             "{question}"
             "<br><br><i>\"{german}\"</i>",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{english} \u25CF {case_english}</i>",
     },
 
@@ -160,7 +163,7 @@ QUESTION_SUBCATEGORY_EN = {
             "{question}"
             "<br><br><i>{english}</i>",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{english}</i>",
     },
 
@@ -176,7 +179,7 @@ QUESTION_SUBCATEGORY_EN = {
         antonym:
             "{german}",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{english}</i>",
     },
 
@@ -184,7 +187,7 @@ QUESTION_SUBCATEGORY_EN = {
         isolation:
             "{english}",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{english}</i>",
     },
 
@@ -193,6 +196,9 @@ QUESTION_SUBCATEGORY_EN = {
             "{english}",
         synonym:
             "{german}",
+        prompt:
+            "{german_wiktionary}"
+            "<br><br><i>{english}</i>",
     },
 
     adjektivdeklinationen: {

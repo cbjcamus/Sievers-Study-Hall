@@ -23,8 +23,7 @@ from users.progress.score import write_score, get_lowest_scored_exercises
 from users.progress.progress import compute_answered_questions, update_progress_in_home_page, is_exercise_started, \
     get_fraction_exercises_finished_by_level, get_random_unit_and_lowest_unfinished_exercise, get_unfinished_exercises, \
     get_progress_home_page
-from users.questions.content_format import format_correction, format_description, format_information_text, \
-    format_information_icon
+from users.questions.content_format import format_correction, format_description
 
 from . import routes_bp
 
@@ -94,8 +93,6 @@ for unit in units:
                                    score=write_score,
                                    introduction=introduction,
                                    format_description=format_description,
-                                   format_information_icon=format_information_icon,
-                                   format_information_text=format_information_text,
                                    homepage=HOMEPAGE[language],
                                    meta_description=meta_description,
                                    is_exercise_started=is_exercise_started,
@@ -136,6 +133,36 @@ def about():
     page = {
         'english': 'menu/about_en.html',
         'french': 'menu/about_fr.html',
+    }
+
+    return render_template(page[language],
+                           homepage=HOMEPAGE[language],
+                           )
+
+
+@routes_bp.route('/privacy', endpoint='privacy')
+def privacy():
+
+    language = get_language(request, session)
+
+    page = {
+        'english': 'menu/privacy_en.html',
+        'french': 'menu/privacy_fr.html',
+    }
+
+    return render_template(page[language],
+                           homepage=HOMEPAGE[language],
+                           )
+
+
+@routes_bp.route('/legal', endpoint='legal')
+def legal():
+
+    language = get_language(request, session)
+
+    page = {
+        'english': 'menu/legal_en.html',
+        'french': 'menu/legal_fr.html',
     }
 
     return render_template(page[language],

@@ -1,6 +1,7 @@
 import random
 import string
 
+from data.content.application.text import CEFR_LEVEL
 from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
     adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
     praepositionen_adjektive, praepositionen_nomen
@@ -8,7 +9,7 @@ from data.data_processing.exercises import is_exercise_multiple_choice, get_ques
     is_exercise_multiple_choice_target, is_exercise_multiple_choice_native, get_category_from_exercise, \
     get_subcategory_from_exercise
 from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
-from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT, INFORMATION
+from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT
 
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer, \
     remove_punctuation
@@ -40,20 +41,6 @@ def format_description(unit, exercise, language):
     return description
 
 
-def format_information_text(unit, exercise, language):
-    text = get_template(unit, exercise, language, INFORMATION)
-    return text
-
-
-def format_information_icon(unit, exercise, language):
-    text = get_template(unit, exercise, language, INFORMATION)
-    if text is None:
-        icon = ""
-    else:
-        icon = 'ⓘ'
-    return icon
-
-
 def format_guidance(unit, exercise, language):
     guidance = get_template(unit, exercise, language, GUIDANCE)
     return guidance
@@ -72,6 +59,8 @@ def format_question(unit, exercise, language, question_id):
 
     question_text = str(question_data["question"])
     german = str(question_data.get("german", ""))
+    german_wiktionary = format_wiktionary_link(german, language)
+
     english = str(question_data.get("english", ""))
     french = str(question_data.get("french", ""))
     gender_english = question_data.get("gender_english", "")
@@ -98,6 +87,7 @@ def format_question(unit, exercise, language, question_id):
     formatted_question = question_template.format(
         question=question_text,
         german=german,
+        german_wiktionary=german_wiktionary,
         english=english,
         french=french,
         gender_english=gender_english,
@@ -250,7 +240,8 @@ def format_unique_link(input_string, language):
         return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#Allemand" target="_blank">{input_string}</a>'
 
 
-def format_feedback(unit, exercise, language, question_id, user_answer=None, translation=None, commentary=None):
+def format_feedback(unit, exercise, language, question_id,
+                    user_answer=None, translation=None, cefr_level=None, commentary=None):
     if question_id is None:
         return None
 
@@ -294,6 +285,7 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
 
+    cefr_level = "" if (cefr_level == "none" or cefr_level is None) else CEFR_LEVEL[language] + cefr_level
     commentary = "" if (commentary == "none" or commentary is None) else "<br><br>" + commentary
 
     feedback_template = get_template(unit, exercise, language, FEEDBACK)
@@ -313,6 +305,7 @@ def format_feedback(unit, exercise, language, question_id, user_answer=None, tra
         correct_answers_bullet_points=correct_answers_bullet_points,
         user_answer=user_answer,
         translation=translation,
+        cefr_level=cefr_level,
         commentary=commentary,
         german=german,
         german_wiktionary=german_wiktionary,

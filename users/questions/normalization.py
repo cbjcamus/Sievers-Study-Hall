@@ -10,6 +10,9 @@ def get_correct_answer(unit, exercise, question_id, language):
     question_data = load_data_question(unit, exercise, question_id)
     answer_column = get_answer_column(unit, exercise, language)
 
+    if question_data is None:
+        return ""
+
     return question_data.get(answer_column, "")
 
 

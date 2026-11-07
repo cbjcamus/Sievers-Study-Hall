@@ -70,6 +70,7 @@ INSTRUCTION_SUBCATEGORY_EN = {
     praepositionen_verben: {
         isolation: "Write the preposition that matches the following verb:",
         context: "Complete the following sentence with the preposition that fits:",
+        prompt: "Write a German sentence using the following verb-preposition pair:"
     },
 
     praepositionen_adjektive: {
@@ -111,6 +112,7 @@ INSTRUCTION_SUBCATEGORY_EN = {
     adjektive: {
         isolation: "Translate the following adjective:",
         synonym: "Find a synonym for the following adjective:",
+        prompt: "Write one or two sentences using the following adjective:",
     },
 }
 

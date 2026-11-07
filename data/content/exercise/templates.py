@@ -4,8 +4,6 @@ from data.content.exercise.english.feedbacks_en import (FEEDBACK_UNIT_EN, FEEDBA
                                                         FEEDBACK_CATEGORY_EN)
 from data.content.exercise.english.guidance_en import (GUIDANCE_UNIT_EN, GUIDANCE_EXERCISE_EN, GUIDANCE_CATEGORY_EN,
                                                        GUIDANCE_SUBCATEGORY_EN)
-from data.content.exercise.english.information_en import (INFORMATION_UNIT_EN, INFORMATION_CATEGORY_EN,
-                                                          INFORMATION_SUBCATEGORY_EN, INFORMATION_EXERCISE_EN)
 from data.content.exercise.english.instructions_en import (INSTRUCTION_UNIT_EN, INSTRUCTION_EXERCISE_EN,
                                                            INSTRUCTION_CATEGORY_EN, INSTRUCTION_SUBCATEGORY_EN)
 from data.content.exercise.english.questions_en import (QUESTION_UNIT_EN, QUESTION_EXERCISE_EN,
@@ -19,8 +17,6 @@ from data.content.exercise.french.feedbacks_fr import (FEEDBACK_UNIT_FR, FEEDBAC
                                                        FEEDBACK_CATEGORY_FR, FEEDBACK_SUBCATEGORY_FR)
 from data.content.exercise.french.guidance_fr import (GUIDANCE_UNIT_FR, GUIDANCE_EXERCISE_FR,
                                                       GUIDANCE_SUBCATEGORY_FR, GUIDANCE_CATEGORY_FR)
-from data.content.exercise.french.information_fr import (INFORMATION_UNIT_FR, INFORMATION_CATEGORY_FR,
-                                                         INFORMATION_SUBCATEGORY_FR, INFORMATION_EXERCISE_FR)
 from data.content.exercise.french.instructions_fr import (INSTRUCTION_UNIT_FR, INSTRUCTION_EXERCISE_FR,
                                                           INSTRUCTION_CATEGORY_FR, INSTRUCTION_SUBCATEGORY_FR)
 from data.content.exercise.french.questions_fr import (QUESTION_UNIT_FR, QUESTION_EXERCISE_FR,
@@ -150,23 +146,4 @@ PROMPT_FR = {
 PROMPT = {
     'english': PROMPT_EN,
     'french': PROMPT_FR,
-}
-
-INFORMATION_EN = {
-    'unit': INFORMATION_UNIT_EN,
-    'category': INFORMATION_CATEGORY_EN,
-    'subcategory': INFORMATION_SUBCATEGORY_EN,
-    'exercise': INFORMATION_EXERCISE_EN,
-}
-
-INFORMATION_FR = {
-    'unit': INFORMATION_UNIT_FR,
-    'category': INFORMATION_CATEGORY_FR,
-    'subcategory': INFORMATION_SUBCATEGORY_FR,
-    'exercise': INFORMATION_EXERCISE_FR,
-}
-
-INFORMATION = {
-    'english': INFORMATION_EN,
-    'french': INFORMATION_FR,
 }

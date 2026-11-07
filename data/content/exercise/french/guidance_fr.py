@@ -154,7 +154,7 @@ GUIDANCE_UNIT_FR = {
     adjektive_konjunktionen:
         "Pour chaque question, une phrase allemande et sa traduction française seront présentées."
 
-        "<br><br>Il manque une mot dans la phrase allemande. Trouvez celui qui convient."
+        "<br><br>Il manque un mot dans la phrase allemande. Trouvez celui qui convient."
 
         "<h2>Exemple</h2>"
         "Peter ist größer _____ sein Bruder."
@@ -225,9 +225,16 @@ GUIDANCE_UNIT_FR = {
 
         f"<br><br> {ICON_WARN} Écrivez le pronom personnel uniquement pour l'impératif de politesse avec Sie."
         f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+        f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
+        f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
 
-        "<h2>Exemple</h2>"
-        "sich freuen \u25CF Du"
+        "<h2>Exemples</h2>"
+        "haben \u25CF Du"
+        f"<br><br> &nbsp; {ICON_CHECK} habe"
+        f"<br><br> &nbsp; {ICON_CHECK} hab"
+        f"<br><br> &nbsp; {ICON_CROSS} habe, hab"
+
+        "<br><br>sich freuen \u25CF Du"
         f"<br><br> &nbsp; {ICON_CHECK} freu dich"
         f"<br><br> &nbsp; {ICON_CHECK} freue dich"
         f"<br><br> &nbsp; {ICON_CROSS} Du freu dich"
@@ -387,6 +394,29 @@ guidance_praepositionen_verben_sentences = (
     "Ich denke _____ meine Mutter."
     "<br><br><i>Je pense à ma mère.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} an"
+)
+
+guidance_praepositionen_verben_prompt = (
+    "Pour chaque question, une paire verbe-préposition allemande sera présentée."
+    "<br><br>Rédigez une phrase en allemand en utilisant cette paire verbe-préposition."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs d'orthographe et de déclinaison,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"arbeiten bei"
+    f"<br><br><i>travailler chez (une entreprise ou institution)</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Seit zwei Monaten arbeite ich bei einer Bank."
+    f"<br><br> &nbsp; {ICON_CROSS} Seit zwei Monaten ich arbeite bei einer Bank. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Seit zwei Monat arbeite ich bei einer Bank. (Erreur de conjugaison acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Seit zwei Monaten arbeite ich in einer Bank. (Préposition incorrecte)"
 )
 
 guidance_praepositionen_adjektive_isolation = (
@@ -923,7 +953,7 @@ guidance_nomen_verben_verbindungen_verben_sentences = (
 
 guidance_adjektive_isolation = (
     "Pour chaque question, la traduction française d'un adjectif allemand sera présentée."
-    "<br>Trouvez l'adjectif allemand correspondant à la traduction."
+    "<br><br>Trouvez l'adjectif allemand correspondant à la traduction."
 
     f"<br><br> {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses possibles."
     f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera signalée comme fausse."
@@ -933,6 +963,30 @@ guidance_adjektive_isolation = (
     f"<br><br> &nbsp; {ICON_CHECK} billig"
     f"<br><br> &nbsp; {ICON_CHECK} günstig"
     f"<br><br> &nbsp; {ICON_CROSS} billig, günstig"
+)
+
+guidance_adjektive_prompt = (
+    "Pour chaque question, un adjectif allemand et sa traduction française seront présentés."
+    "<br><br>Écrivez une phrase en allemand utilisant cet adjectif."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} Si l'adjectif se situe devant un nom, la déclination doit être correcte."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de conjugaison ou d'orthographe,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"neu"
+    f"<br><br><i>new</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Seit gestern probiere ich eine neue Software."
+    f"<br><br> &nbsp; {ICON_CROSS} Seit gestern ich probiere eine neue Software. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Seit gestern probiere ich eine neue Softwäre. (Erreur acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Seit gestern probiere ich eine neu Software. (Déclinaison incorrecte)"
 )
 
 guidance_adjektive_synonym = (
@@ -998,9 +1052,9 @@ guidance_adjektive_comparison_words = (
 )
 
 guidance_adjektivdeklinationen_isolation = (
-    "Pour chaque question, une phrase allemande, un adjectif et un cas grammatical seront présentés."
+    "Pour chaque question, un groupe nominal allemand, un adjectif et un cas grammatical seront présentés."
     
-    "<br><br>Complétez la phrase avec l’adjectif décliné, en tenant compte de l’article,"
+    "<br><br>Complétez le groupe nominal avec l’adjectif décliné, en tenant compte de l’article,"
     " du genre du nom et du cas grammatical."
 
     "<h2>Exemple</h2>"
@@ -1020,9 +1074,9 @@ guidance_adjektivdeklinationen_sentences = (
 )
 
 guidance_adjektivdeklinationen_comparative_isolation = (
-    "Pour chaque question, une phrase allemande, un adjectif et un cas grammatical seront présentés."
+    "Pour chaque question, un groupe nominal allemand, un adjectif et un cas grammatical seront présentés."
     
-    "<br><br>Complétez la phrase avec l’adjectif <b>comparatif</b> décliné, en tenant compte de l’article,"
+    "<br><br>Complétez le groupe nominal avec l’adjectif <b>comparatif</b> décliné, en tenant compte de l’article,"
     " du genre du nom et du cas grammatical."
 
     "<h2>Exemple</h2>"
@@ -1042,9 +1096,9 @@ guidance_adjektivdeklinationen_comparative_sentences = (
 )
 
 guidance_adjektivdeklinationen_superlative_isolation = (
-    "Pour chaque question, une phrase allemande, un adjectif et un cas grammatical seront présentés."
+    "Pour chaque question, un groupe nominal allemand, un adjectif et un cas grammatical seront présentés."
     
-    "<br><br>Complétez la phrase avec l’adjectif <b>superlatif</b> décliné, en tenant compte de l’article,"
+    "<br><br>Complétez le groupe nominal avec l’adjectif <b>superlatif</b> décliné, en tenant compte de l’article,"
     " du genre du nom et du cas grammatical."
 
     "<h2>Exemple</h2>"
@@ -1340,6 +1394,7 @@ GUIDANCE_SUBCATEGORY_FR = {
     praepositionen_verben: {
         isolation: guidance_praepositionen_verben_isolation,
         context: guidance_praepositionen_verben_sentences,
+        prompt: guidance_praepositionen_verben_prompt,
     },
 
     praepositionen_adjektive: {
@@ -1381,6 +1436,7 @@ GUIDANCE_SUBCATEGORY_FR = {
     adjektive: {
         isolation: guidance_adjektive_isolation,
         synonym: guidance_adjektive_synonym,
+        prompt: guidance_adjektive_prompt,
     },
 }
 
