@@ -6,7 +6,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -32,6 +32,9 @@ INSTRUCTION_UNIT_EN = {
 
     praeteritum:
         "Conjugate the following verb in the Präteritum:",
+
+    perfekt:
+        "Write one or two German sentences using the following verb in the perfect:",
 
     imperativ:
         "Conjugate the following verb in the imperative:",
@@ -87,13 +90,13 @@ INSTRUCTION_SUBCATEGORY_EN = {
         isolation: "Translate the following connector:",
         context: "Complete the following sentence with the connector that fits:",
         synonym: "Find a synonym for the following connector:",
-        prompt: "Write one or two sentences using the following connector:"
+        prompt: "Write one or two German sentences using the following connector:"
     },
 
     fragen: {
         isolation: "Translate the following question word:",
         context: "Complete the following sentence with the question word that fits:",
-        prompt: "Write one or two sentences using the following question word:"
+        prompt: "Write one or two German sentences using the following question word:"
     },
 
     adverbien: {
@@ -101,18 +104,18 @@ INSTRUCTION_SUBCATEGORY_EN = {
         context: "Complete the following sentence with the adverb that fits:",
         synonym: "Find a synonym for the following adverb:",
         antonym: "Write an antonym of the following adverb:",
-        prompt: "Write one or two sentences using the following adverb:"
+        prompt: "Write one or two German sentences using the following adverb:"
     },
 
     verben: {
         isolation: "Translate the following verb:",
-        prompt: "Write one or two sentences using the following verb:",
+        prompt: "Write one or two German sentences using the following verb:",
     },
 
     adjektive: {
         isolation: "Translate the following adjective:",
         synonym: "Find a synonym for the following adjective:",
-        prompt: "Write one or two sentences using the following adjective:",
+        prompt: "Write one or two German sentences using the following adjective:",
     },
 }
 

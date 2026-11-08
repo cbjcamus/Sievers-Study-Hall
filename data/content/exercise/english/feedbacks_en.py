@@ -7,7 +7,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -70,6 +70,13 @@ FEEDBACK_UNIT_EN = {
         "<br><br>{explanation_english}"
         "<br><br>{german_wiktionary} = {english}"
         "<br><br>Correct answer: {correct_answers}",
+
+    perfekt:
+        "{user_answer}"
+        "<br><br><i>{translation}</i>"
+        "<br><br>{explanation_english}"
+        "<br><br>{cefr_level}"
+        "{commentary}",
 
     imperativ:
         "{german_wiktionary}, {person} → {first_correct_answer}"

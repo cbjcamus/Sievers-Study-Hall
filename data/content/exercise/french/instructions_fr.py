@@ -6,7 +6,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -32,6 +32,9 @@ INSTRUCTION_UNIT_FR = {
 
     praeteritum:
         "Conjuguez le verbe suivant au prétérit (Präteritum) :",
+
+    perfekt:
+        "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant au passé composé (<i>Perfekt</i>) :",
 
     imperativ:
         "Conjuguez le verbe suivant à l'impératif :",
@@ -64,13 +67,13 @@ INSTRUCTION_SUBCATEGORY_FR = {
         isolation: "Traduisez la préposition ci-dessous :",
         synonym: "Trouvez un synonyme pour la préposition suivante :",
         antonym: "Trouvez un antonyme pour la préposition suivante :",
-        prompt: "Rédigez une phrase en allemand en utilisant la préposition suivante dans le sens indiqué :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant la préposition suivante dans le sens indiqué :"
     },
 
     praepositionen_verben: {
         isolation: "Donnez la préposition associée au verbe suivant :",
         context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        prompt: "Rédigez une phrase en allemand en utilisant la paire verbe-préposition suivante :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant la paire verbe-préposition suivante :"
     },
 
     praepositionen_adjektive: {

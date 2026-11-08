@@ -4,7 +4,7 @@ from data.data_processing.units import (
     konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -42,6 +42,7 @@ HOME_DESCRIPTION_EN = {
     praesens: "Present tense of German verbs",
     partizip_II: "Past participle (Partizip II)",
     praeteritum: "Preterit tense (Präteritum)",
+    perfekt: "Perfect tense (Perfekt)",
     imperativ: "Imperative",
     konjunktiv_II: "Konjunktiv II",
     konjunktiv_I: "Konjunktiv I",

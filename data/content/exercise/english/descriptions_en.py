@@ -6,7 +6,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -15,6 +15,8 @@ DESCRIPTION_UNIT_EN = {
     verben_artikel: "Cases of articles and pronouns after verbs in sentences",
 
     adjektive_konjunktionen: "Adjective conjunctions in sentences",
+
+    perfekt: "Perfect of German verbs",
 
     konjunktiv_I: "Konjunktiv I of A1 verbs",
 

@@ -6,7 +6,7 @@ from data.data_processing.units import (
     trennbare_verben, nomen_verben_verbindungen,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     praepositionen_artikel, verben_artikel, wortstellung, genus_regeln, genus, plural,
-    adjektive_konjunktionen, praesens, partizip_II, praeteritum, imperativ, konjunktiv_II,
+    adjektive_konjunktionen, praesens, partizip_II, praeteritum, perfekt, imperativ, konjunktiv_II,
     konjunktiv_I, partizip_I,
     zahlen, alpha,
 )
@@ -217,6 +217,32 @@ GUIDANCE_UNIT_FR = {
         f"<br><br> &nbsp; {ICON_CHECK} freute sich"
         f"<br><br> &nbsp; {ICON_CROSS} freute"
         f"<br><br> &nbsp; {ICON_CROSS} er freute sich"
+    ,
+
+    perfekt:
+        "Pour chaque question, un verbe allemand et sa traduction française seront présentés."
+        "<br><br>Écrivez une phrase en allemand utilisant ce verbe au passé composé (<i>Perfekt</i>)."
+
+        f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+        f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+        f"<br><br> {ICON_WARN} Le verbe auxiliaire et le participe passé doivent être corrects."
+        f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou de genre des noms communs,"
+        f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+        f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+        f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+        f" Veuillez vérifier les informations importantes."
+        f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+        f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+        "<h2>Exemple</h2>"
+        f"sehen"
+        f"<br><br><i>voir, se rendre compte</i>"
+        f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dich auf der Party nicht gesehen."
+        f"<br><br> &nbsp; {ICON_CROSS} Gestern ich habe dich auf der Party nicht gesehen. (Ordre des mots incorrect)"
+        f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dir auf der Party nicht gesehen. (Erreur de cas acceptable)"
+        f"<br><br> &nbsp; {ICON_CROSS} Gestern bin ich dich auf der Party nicht gesehen. (Verbe auxiliaire incorrect)"
+        f"<br><br> &nbsp; {ICON_CROSS} Gestern habe ich dich auf der Party nicht geseht. (Participe passé incorrect)"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich habe die Musik nicht gesehen. (Phrase incohérente)"
     ,
 
     imperativ:

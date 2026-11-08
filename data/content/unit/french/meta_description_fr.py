@@ -4,7 +4,7 @@ from data.data_processing.units import (
     fragen, konnektoren, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
@@ -93,6 +93,9 @@ META_DESCRIPTION_FR = {
     ,
     praeteritum:
         'Pratiquez le Präteritum (prétérit) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
+    ,
+    perfekt:
+        'Pratiquez le passé composé (<i>Perfekt</i>) allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
     ,
     imperativ:
         'Pratiquez l\'impératif allemand avec des exercices interactifs. Améliorez votre grammaire et recevez un feedback immédiat, gratuitement.'
