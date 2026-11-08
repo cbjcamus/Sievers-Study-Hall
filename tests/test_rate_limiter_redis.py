@@ -15,25 +15,9 @@ import pytest
 import time
 
 
-def redis_available():
-    """Check if Redis is available."""
-    try:
-        import redis
-        client = redis.from_url("redis://localhost:6379/0")
-        client.ping()
-        return True
-    except Exception:
-        return False
-
-
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_allows_requests_within_limit():
+def test_redis_limiter_allows_requests_within_limit(redis_client):
     """Test that Redis limiter allows requests within limit."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()  # Clear test data
     
     limiter = RedisRateLimiter(max_requests=3, window_seconds=60, redis_client=redis_client)
     
@@ -42,14 +26,9 @@ def test_redis_limiter_allows_requests_within_limit():
     assert limiter.is_allowed("user1") is True
 
 
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_blocks_requests_exceeding_limit():
+def test_redis_limiter_blocks_requests_exceeding_limit(redis_client):
     """Test that Redis limiter blocks requests exceeding limit."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()
     
     limiter = RedisRateLimiter(max_requests=2, window_seconds=60, redis_client=redis_client)
     
@@ -59,14 +38,9 @@ def test_redis_limiter_blocks_requests_exceeding_limit():
     assert limiter.is_allowed("user1") is False
 
 
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_separate_keys():
+def test_redis_limiter_separate_keys(redis_client):
     """Test that different keys have separate limits."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()
     
     limiter = RedisRateLimiter(max_requests=2, window_seconds=60, redis_client=redis_client)
     
@@ -81,14 +55,9 @@ def test_redis_limiter_separate_keys():
     assert limiter.is_allowed("user2") is False
 
 
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_get_remaining():
+def test_redis_limiter_get_remaining(redis_client):
     """Test getting remaining request count."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()
     
     limiter = RedisRateLimiter(max_requests=5, window_seconds=60, redis_client=redis_client)
     
@@ -99,14 +68,9 @@ def test_redis_limiter_get_remaining():
     assert limiter.get_remaining("user1") == 3
 
 
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_reset_single_key():
+def test_redis_limiter_reset_single_key(redis_client):
     """Test resetting rate limit for a single key."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()
     
     limiter = RedisRateLimiter(max_requests=2, window_seconds=60, redis_client=redis_client)
     
@@ -120,14 +84,9 @@ def test_redis_limiter_reset_single_key():
     assert limiter.get_remaining("user1") == 1
 
 
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_reset_all_keys():
+def test_redis_limiter_reset_all_keys(redis_client):
     """Test resetting rate limit for all keys."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()
     
     limiter = RedisRateLimiter(max_requests=1, window_seconds=60, redis_client=redis_client)
     
@@ -143,14 +102,9 @@ def test_redis_limiter_reset_all_keys():
     assert limiter.is_allowed("user2") is True
 
 
-@pytest.mark.skipif(not redis_available(), reason="Redis not available")
-def test_redis_limiter_window_expiration():
+def test_redis_limiter_window_expiration(redis_client):
     """Test that old requests are forgotten after window expires."""
-    import redis
     from users.rate_limiting.redis_limiter import RedisRateLimiter
-    
-    redis_client = redis.from_url("redis://localhost:6379/0")
-    redis_client.flushdb()
     
     limiter = RedisRateLimiter(max_requests=2, window_seconds=1, redis_client=redis_client)
     
