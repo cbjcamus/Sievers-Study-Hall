@@ -35,6 +35,8 @@ from users.session_management.logging import log_question_flagged
 from users.session_management.session_update import update_session_dictionary, read_feedback
 from users.session_management.verification_session import init_session_key, is_key_in_session
 
+from users.rate_limiting.decorator import rate_limit_exercise_submission
+
 from . import routes_bp
 from .exercise_completed import render_exercise_completed_template
 
@@ -210,6 +212,7 @@ def exercise_page(unit, exercise):
 
 
 @routes_bp.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
+@rate_limit_exercise_submission
 def check_answer(unit, exercise):
 
     language = get_language(request, session)
