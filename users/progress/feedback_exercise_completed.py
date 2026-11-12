@@ -41,7 +41,17 @@ def get_incorrect_answers(session, unit, exercise):
         ).first()
 
         if row and row.state:
-            return row.state.get("incorrect") or {}
+            incorrect = row.state.get("incorrect") or {}
+
+            return {
+                k: v if isinstance(v, dict) else {
+                    "answer": v,
+                    "translation": "",
+                    "cefr_level": "",
+                    "commentary": ""
+                }
+                for k, v in incorrect.items()
+            }
 
     else:
         exercise_state = session.get(unit, {}).get(str(exercise), {})
@@ -95,6 +105,9 @@ def get_feedback_exercise(session, unit, exercise, language, incorrect):
         data["translation"] = data["Nr"].apply(
             lambda nr: incorrect[str(int(nr))]["translation"]
         )
+        data["cefr_level"] = data["Nr"].apply(
+            lambda nr: incorrect[str(int(nr))]["cefr_level"]
+        )
         data["commentary"] = data["Nr"].apply(
             lambda nr: incorrect[str(int(nr))]["commentary"]
         )
@@ -129,10 +142,11 @@ def format_feedbacks(df, unit, exercise, language):
 
         user_answer = row.get("user_answer", None)
         translation = row.get("translation", None)
+        cefr_level = row.get("cefr_level", None)
         commentary = row.get("commentary", None)
 
-        formatted = format_feedback(unit, exercise, language, question_id,
-                                    user_answer=user_answer, translation=translation, commentary=commentary)
+        formatted = format_feedback(unit, exercise, language, question_id, user_answer=user_answer,
+                                    translation=translation, cefr_level=cefr_level, commentary=commentary)
 
         result.append(formatted)
     return result

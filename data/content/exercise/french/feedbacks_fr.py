@@ -7,7 +7,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -38,10 +38,6 @@ FEEDBACK_UNIT_FR = {
         "{indication_french}"
         "<br><br>{explanation_french}"
         "<br><br>Réponse(s) correcte(s): {correct_answers_bullet_points}",
-
-    adjektive:
-        "{french} = {correct_answers}"
-        "{explanation_french}",
 
     komparativ_superlativ:
         "{explanation_french}"
@@ -74,6 +70,13 @@ FEEDBACK_UNIT_FR = {
         "<br><br>{explanation_french}"
         "<br><br>{german_wiktionary} = {french}"
         "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+
+    perfekt:
+        "{user_answer}"
+        "<br><br><i>{translation}</i>"
+        "<br><br>{explanation_french}"
+        "<br><br>{cefr_level}"
+        "{commentary}",
 
     imperativ:
         "{german_wiktionary}, {person} → {first_correct_answer}"
@@ -137,10 +140,10 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{german}"
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answer_praepositionen}",
         isolation:
             "{explanation_french}"
-            "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+            "<br><br>Réponse(s) correcte(s) : {correct_answer_praepositionen}",
         synonym:
             "{french} = {correct_answers}",
         antonym:
@@ -152,6 +155,7 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -163,6 +167,12 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     praepositionen_adjektive: {
@@ -200,6 +210,7 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -216,6 +227,7 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -240,16 +252,20 @@ FEEDBACK_SUBCATEGORY_FR = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
     verben: {
         isolation:
-            "{french} = {correct_answer_wiktionary}",
-        multiple_choice_native:
-            "{german_wiktionary} = {correct_answer}",
-        multiple_choice_target:
-            "{french} = {correct_answer_wiktionary}",
+            "{french} = {first_correct_answer_wiktionary}"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     nomen_verben_verbindungen: {
@@ -262,6 +278,18 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+    },
+
+    adjektive: {
+        isolation:
+            "{french} = {correct_answers}"
+            "{explanation_french}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_french}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     adjektivdeklinationen: {

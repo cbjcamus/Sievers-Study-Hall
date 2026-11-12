@@ -31,6 +31,7 @@ nomen_verben_verbindungen = 'nomen_verben_verbindungen'
 praesens = 'praesens'
 partizip_II = 'partizip_II'
 praeteritum = 'praeteritum'
+perfekt = 'perfekt'
 imperativ = 'imperativ'
 konjunktiv_II = 'konjunktiv_II'
 konjunktiv_I = 'konjunktiv_I'
@@ -50,7 +51,7 @@ units = [
     genus_regeln, genus, plural,
     verben, trennbare_verben, nomen_verben_verbindungen,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 ]

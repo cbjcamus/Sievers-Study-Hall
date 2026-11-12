@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Mentions légales – Sievers Study Hall</title>
+    <meta name="description" content="Mentions légales et coordonnées de contact de Sievers Study Hall.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
+
+    {{ render_title("Mentions légales") }}
+
+    <div class="section no-border">
+        <h2>Responsable du site</h2>
+        <p>Sievers Study Hall est une application en ligne destinée à pratiquer la grammaire allemande.</p>
+        <p>Site web : <a href="https://www.sieversstudyhall.com/">www.sieversstudyhall.com</a></p>
+        <p>Responsable : Clément Camus</p>
+        <!-- <p>Adresse postale : [Rue, code postal, ville, pays]</p> -->
+        <!-- TODO : Remplacer les champs entre crochets par le nom légal et l'adresse postale du responsable. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Contact</h2>
+        <p>Pour toute question concernant le site, vous pouvez écrire à
+            <a href="mailto:sieversstudyhall@gmail.com">sieversstudyhall@gmail.com</a>.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Contenu du site</h2>
+        <p>Nous nous efforçons de proposer des supports d'apprentissage de l'allemand exacts et utiles,
+            mais des erreurs peuvent subsister. Les exercices et les explications sont fournis à des fins
+            pédagogiques et peuvent être mis à jour ou corrigés.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Liens externes</h2>
+        <p>Ce site peut contenir des liens vers des sites tiers. Le contenu de ces sites et leurs pratiques
+            en matière de protection des données relèvent de la responsabilité de leurs exploitants respectifs.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Propriété intellectuelle et crédits</h2>
+        <p>Sauf indication contraire, les contenus originaux et la conception du site sont proposés par
+            Sievers Study Hall. Les contenus provenant de tiers restent soumis aux droits de leurs titulaires respectifs.</p>
+        <p>Certaines ressources pédagogiques s'appuient sur des sources externes, mentionnées sur la
+            <a href="/about">page À propos</a>.</p>
+        <!-- TODO : Vérifier l'URL de la page À propos ainsi que les licences ou autorisations de réutilisation. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Protection des données</h2>
+        <p>Pour savoir comment les données personnelles sont traitées, veuillez consulter notre
+            <a href="/privacy">Politique de confidentialité</a>.</p>
+    </div>
+
+    {{ display_homepage_button(homepage) }}
+
+</body>
+</html>

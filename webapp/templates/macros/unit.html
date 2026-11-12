@@ -1,5 +1,5 @@
 {% macro render_exercise_table_row(unit, exercise, session, answered_questions, total_questions, score,
-description_templates, is_exercise_started, language, format_description, format_information_icon, format_information_text) %}
+description_templates, is_exercise_started, language, format_description) %}
     <tr class="exercise-row">
         <td>
             <a href="/guidance/unit/{{ unit }}/exercise/{{ exercise }}" class="exercise-link">
@@ -32,12 +32,6 @@ description_templates, is_exercise_started, language, format_description, format
 
         <td>{{ format_description(unit, exercise, language) | safe }}</td>
 
-        <!-- <td>
-            <span class="information-icon"
-                  title="{{ format_information_text(unit, exercise, language) }}">
-                {{ format_information_icon(unit, exercise, language) }}
-            </span>
-        </td> -->
     </tr>
 {% endmacro %}
 

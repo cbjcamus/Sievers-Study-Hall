@@ -7,7 +7,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -38,10 +38,6 @@ FEEDBACK_UNIT_EN = {
         "{indication_english}"
         "<br><br>{explanation_english}"
         "<br><br>Correct answer(s): {correct_answers_bullet_points}",
-
-    adjektive:
-        "{english} = {correct_answers}"
-        "{explanation_english}",
 
     komparativ_superlativ:
         "{explanation_english}"
@@ -74,6 +70,13 @@ FEEDBACK_UNIT_EN = {
         "<br><br>{explanation_english}"
         "<br><br>{german_wiktionary} = {english}"
         "<br><br>Correct answer: {correct_answers}",
+
+    perfekt:
+        "{user_answer}"
+        "<br><br><i>{translation}</i>"
+        "<br><br>{explanation_english}"
+        "<br><br>{cefr_level}"
+        "{commentary}",
 
     imperativ:
         "{german_wiktionary}, {person} → {first_correct_answer}"
@@ -137,14 +140,15 @@ FEEDBACK_SUBCATEGORY_EN = {
             "{german}"
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answer_praepositionen}",
         isolation:
             "{explanation_english}"
-            "<br><br>Correct answer(s): {correct_answers}",
+            "<br><br>Correct answer(s): {correct_answer_praepositionen}",
         prompt:
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
             "{commentary}",
         synonym:
             "{english} = {list_of_synonyms}"
@@ -164,6 +168,12 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     praepositionen_adjektive: {
@@ -199,6 +209,7 @@ FEEDBACK_SUBCATEGORY_EN = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
             "{commentary}",
         synonym:
             "{english} = {list_of_synonyms_wiktionary}"
@@ -218,6 +229,7 @@ FEEDBACK_SUBCATEGORY_EN = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
             "{commentary}",
     },
 
@@ -234,6 +246,7 @@ FEEDBACK_SUBCATEGORY_EN = {
             "{user_answer}"
             "<br><br><i>{translation}</i>"
             "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
             "{commentary}",
         synonym:
             "{english} = {list_of_synonyms_wiktionary}"
@@ -247,11 +260,14 @@ FEEDBACK_SUBCATEGORY_EN = {
 
     verben: {
         isolation:
-            "{english} = {correct_answer_wiktionary}",
-        multiple_choice_native:
-            "{german_wiktionary} = {correct_answer}",
-        multiple_choice_target:
-            "{english} = {correct_answer_wiktionary}",
+            "{english} = {first_correct_answer_wiktionary}"
+            "<br><br>Correct answer(s): {correct_answers_wiktionary}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     nomen_verben_verbindungen: {
@@ -264,6 +280,18 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+    },
+
+    adjektive: {
+        isolation:
+            "{english} = {correct_answers}"
+            "{explanation_english}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{explanation_english}"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     adjektivdeklinationen: {

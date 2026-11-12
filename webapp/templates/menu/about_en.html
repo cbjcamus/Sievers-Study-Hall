@@ -14,31 +14,43 @@
 
     {{ render_title("About") }}
 
-    <div class="section">
+    <div class="section no-border">
         <h2>About the application</h2>
 
         <p>Sievers Study Hall is an application designed to practice German by training one skill at a time.</p>
 
-        <p>You can read the FAQ <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">here</a>.</p>
+        <p>You can read the FAQ <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">here</a>.
+        If you cannot read enough about Sievers Study Hall, feel free to read the
+            <a href="{{ url_for('routes.privacy') }}">Privacy</a> and
+            <a href="{{ url_for('routes.legal') }}">Legal</a> pages.</p>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>News and Updates</h2>
 
-        <p>I regularly update the application to provide new exercises as well as to correct issues.</p>
+        <p>The application is regularly updated to provide new exercises and maintenance.</p>
 
         <p>You can follow these updates by signing-up for the Substack newsletter
             <a href="https://sieversstudyhall.substack.com/?r=5t7it6&utm_campaign=pub&utm_medium=web" target="_blank">here</a>.</p>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Contact</h2>
         <p>Questions? Comments? Just want to say thank you? Email me at: sieversstudyhall@gmail.com</p>
 
         <p>You can also contact me through my blog on <a href="https://sieversstudyhall.substack.com/" target="_blank">substack</a>.</p>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
+        <h2>Contributions</h2>
+        <p>You can buy me a Colombian Finca Los Nogales Pink Bourbon using the button below</p>
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                data-name="bmc-button" data-slug="sieversstudyhall" data-color="#FFDD00" data-emoji="☕"
+                data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000"
+                data-coffee-color="#ffffff" ></script>
+    </div>
+
+    <div class="section no-border">
         <h2>Credits</h2>
         <p>Thanks to reddit user <a href="https://www.reddit.com/user/lubricated-horse/" target="_blank">lubricated-horse</a> for a list of verbs sorted by frequency: <a href="https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/" target="_blank">link</a>.</p>
 

@@ -5,11 +5,10 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
-
 INTRODUCTION_EN = {
     praepositionen:
         "Prepositions in temporal, local, modal and causal contexts. You can find a guide and curriculum for German prepositions <a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
@@ -130,8 +129,7 @@ INTRODUCTION_EN = {
     ,
 
     verben:
-        "English to German verb translation exercises at A1 and A2."
-        "<br><br>Multiple-choice questions at B1 and B2, with both English to German and German to English translations."
+        "English to German verb translation exercises in addition to writing exercises up to level C1."
     ,
     trennbare_verben:
         "Separable and inseparable verbs to translate from English, with either the root or the prefix as a hint."
@@ -153,6 +151,8 @@ INTRODUCTION_EN = {
         "<br><br>Available for each grammatical person for the most important verbs, "
         "then only the 3<sup>rd</sup>-person singular is required."
     ,
+    perfekt:
+        "Perfect tense in sentences.",
     imperativ:
         "Imperative for the three forms du, ihr and Sie."
         "<br><br>Scream at cyclists, the printer that doesn't work,"
@@ -189,3 +189,4 @@ INTRODUCTION_EN = {
         "This is to test stuff"
     ,
 }
+

@@ -271,8 +271,8 @@ h2 {
     margin-right: auto;
 }
 
-.section .section-no-border {
-    border: 0px solid white;
+.section.no-border {
+    border: none;
 }
 
 .section-no-table {

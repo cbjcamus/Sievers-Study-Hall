@@ -11,27 +11,30 @@
 {% from "macros/render_title.html" import render_title with context %}
 {% from "macros/button.html" import display_homepage_button %}
 
-    {{ render_title("About") }}
+    {{ render_title("À propos") }}
 
-    <div class="section">
+    <div class="section no-border">
         <h2>À propos de l'application</h2>
 
         <p>Sievers Study Hall est une application conçue pour pratiquer l'allemand en travaillant une compétence à la fois.</p>
 
-        <p>Vous pouvez consulter la FAQ <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">ici</a>.</p>
+        <p>Vous pouvez consulter la FAQ <a href="https://sieversstudyhall.substack.com/p/faq" target="_blank">ici</a>.
+        Des informations complémentaires sont disponibles sur les pages de
+            <a href="{{ url_for('routes.privacy') }}">Politique de confidentialité</a> et de
+            <a href="{{ url_for('routes.legal') }}">Mentions légales</a>.</p>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Actualités et mises à jour</h2>
 
-        <p>Je mets régulièrement l'application à jour afin de proposer de nouveaux exercices et d'améliorer ceux déjà existant.</p>
+        <p>L'application est régulièrement mise à jour afin de proposer de nouveaux exercices et d'améliorer ceux déjà existant.</p>
 
         <p>Vous pouvez suivre ces mises à jour en vous inscrivant à la newsletter Substack
         <a href="https://sieversstudyhall.substack.com/?r=5t7it6&utm_campaign=pub&utm_medium=web" target="_blank">ici</a>.
         </p>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
         <h2>Contact</h2>
 
         <p>Pour toute question, commentaires ou remerciement, vous pouvez me contacter à l'adresse suivante : sieversstudyhall@gmail.com</p>
@@ -39,7 +42,16 @@
         <p>Vous pouvez aussi me contacter via mon blog sur <a href="https://sieversstudyhall.substack.com/" target="_blank">substack</a>.</p>
     </div>
 
-    <div class="section">
+    <div class="section no-border">
+        <h2>Contributions</h2>
+        <p>Vous pouvez m'offrir un café colombien « Finca Los Nogales Pink Bourbon » en cliquant sur le bouton ci-dessous</p>
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                data-name="bmc-button" data-slug="sieversstudyhall" data-color="#FFDD00" data-emoji="☕"
+                data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000"
+                data-coffee-color="#ffffff" ></script>
+    </div>
+
+    <div class="section no-border">
         <h2>Crédits</h2>
 
         <p>Merci à l'utilisateur Reddit <a href="https://www.reddit.com/user/lubricated-horse/" target="_blank">lubricated-horse</a> pour une liste de verbes classés par fréquence : <a href="https://www.reddit.com/r/German/comments/6gbcnv/500_verbs_sorted_by_frequency_from_tv/" target="_blank">lien</a>.</p>

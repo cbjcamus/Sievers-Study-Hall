@@ -4,7 +4,7 @@ from data.data_processing.units import (
     konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -90,8 +90,7 @@ INTRODUCTION_FR = {
     ,
 
     verben:
-        "Traduction du français vers l'allemand aux niveaux A1 et A2."
-        "<br><br>Questions à choix multiple aux niveaux B1 et B2."
+        "Exercices de traduction du français vers l'allemand, accompagnés d'exercices de rédaction."
     ,
     trennbare_verben:
         "Verbes séparables et inséparables à traduire avec la racine ou le préfixe comme aide."
@@ -143,6 +142,9 @@ INTRODUCTION_FR = {
     praeteritum:
         "Prétérit.<br><br>La conjugaison est demandée à toutes les personnes grammaticales pour les verbes les plus importants."
         " Pour les autres verbes, seule la troisième personne du singulier est demandée."
+    ,
+    perfekt:
+        "Rédaction de phrases en allemand au passé composé."
     ,
     imperativ:
         "Impératif pour les trois formes du, ihr et Sie."

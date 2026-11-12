@@ -4,7 +4,7 @@ from data.data_processing.units import (
     konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -93,6 +93,9 @@ META_DESCRIPTION_EN = {
     ,
     praeteritum:
         'Practice the German Präteritum (simple past) with interactive exercises. Improve your grammar and get instant feedback, for free.'
+    ,
+    perfekt:
+        'Practice the German Perfect tense with interactive exercises. Improve your grammar and get instant feedback, for free.'
     ,
     imperativ:
         'Practice the German imperative with interactive exercises. Improve your grammar and get instant feedback, for free.'

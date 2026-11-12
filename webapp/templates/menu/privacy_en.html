@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Privacy Policy – Sievers Study Hall</title>
+    <meta name="description" content="Learn how Sievers Study Hall collects, uses, and protects personal data.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
+
+    {{ render_title("Privacy Policy") }}
+
+    <div class="section no-border">
+        <h2>About this policy</h2>
+        <p>Sievers Study Hall is an online application for practising German grammar.
+            This policy explains how personal data is handled when you use the application.</p>
+        <p>For privacy-related questions or requests, contact
+            <a href="mailto:sieversstudyhall@gmail.com">sieversstudyhall@gmail.com</a>.</p>
+        <!-- TODO: Identify the data controller (name and, where legally required, postal contact details). -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Information we process</h2>
+        <p>When you create an account or use the application, we may process:</p>
+        <ul>
+            <li>Account information needed to register and sign in, such as your email address and account identifier.</li>
+            <li>Learning information, such as completed exercises, submitted answers, mistakes, bookmarks and progress.</li>
+            <li>Technical information needed to operate and secure the website, potentially including IP addresses,
+                browser information and server logs.</li>
+        </ul>
+        <!-- TODO: Verify the actual registration fields, authentication provider, log contents and retention. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Why we process information</h2>
+        <p>We use information to provide accounts, remember learning progress and preferences, evaluate answers,
+            maintain the application, troubleshoot problems and protect the service against misuse.</p>
+        <!-- TODO: Confirm applicable legal bases under GDPR if GDPR applies. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>AI-assisted exercise feedback</h2>
+        <p>Some exercises use an external AI service to evaluate submitted answers and generate feedback.
+            The text you submit, together with relevant exercise instructions, may be sent to the service provider
+            for processing.</p>
+        <p>Please do not include sensitive personal information in exercise answers.</p>
+        <!-- TODO: Name the actual AI provider(s), routing intermediaries, processing locations, retention and
+         training policies; verify whether account identifiers are sent. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Hosting and service providers</h2>
+
+        <p>Sievers Study Hall is hosted by
+            <a href="https://www.pythonanywhere.com/" target="_blank">PythonAnywhere</a>, a hosting provider
+            operated by PythonAnywhere LLP, based in the United Kingdom.</p>
+
+        <p>The application is hosted on servers located in the United States. PythonAnywhere may process personal data,
+            including IP addresses, server logs, account information, and saved exercise progress, as necessary to provide
+            its hosting services.</p>
+
+        <p>For more information, please consult
+            <a href="https://www.pythonanywhere.com/privacy_v2/" target="_blank">PythonAnywhere's Privacy Policy</a>.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Cookies and local storage</h2>
+        <p>The application may use cookies or similar browser storage to maintain sign-in sessions and remember settings.
+            You can manage cookies through your browser,
+            although blocking essential cookies may prevent some features from working.</p>
+        <!-- TODO: Verify actual cookies, analytics/tracking tools, storage purposes and whether consent is required. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>How long information is kept</h2>
+        <p>Information is kept only as long as reasonably necessary for the purposes described above,
+            subject to applicable legal requirements.</p>
+        <!-- TODO: Specify concrete retention periods or criteria for accounts, exercise history,
+         server logs and backups. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Your privacy rights</h2>
+        <p>Depending on the law that applies to you, you may have rights to request access to, correction of,
+            or deletion of your personal data, and to object to or restrict certain processing.
+            Where applicable, you may also request data portability or complain to a competent data-protection authority.</p>
+        <p>To make a request, email <a href="mailto:sieversstudyhall@gmail.com">sieversstudyhall@gmail.com</a>.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>External websites</h2>
+        <p>Links to external websites, including Substack, are governed by those websites' own privacy policies.
+            This policy does not cover their independent processing of your data.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Changes to this policy</h2>
+        <p>This policy may be updated when the application or its data-processing practices change.
+            The latest version will be published on this page.</p>
+    </div>
+
+    {{ display_homepage_button(homepage) }}
+
+</body>
+</html>

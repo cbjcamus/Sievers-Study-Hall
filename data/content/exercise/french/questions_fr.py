@@ -7,7 +7,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -51,6 +51,10 @@ QUESTION_UNIT_FR = {
 
     praeteritum:
         "{german} \u25CF {person} _____"
+        "<br><br><i>{french}</i>",
+
+    perfekt:
+        "{german_wiktionary}"
         "<br><br><i>{french}</i>",
 
     imperativ:
@@ -121,6 +125,9 @@ QUESTION_SUBCATEGORY_FR = {
         context:
             "{question}"
             "<br><br><i>{french}</i>",
+        prompt:
+            "{german}{case_french}"
+            "<br><br><i>{french}</i>",
     },
 
     praepositionen_adjektive: {
@@ -149,7 +156,7 @@ QUESTION_SUBCATEGORY_FR = {
             "{question}"
             "<br><br><i>\"{german}\"</i>",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{french} \u25CF {case_french}</i>",
     },
 
@@ -160,7 +167,7 @@ QUESTION_SUBCATEGORY_FR = {
             "{question}"
             "<br><br><i>{french}</i>",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
             "<br><br><i>{french}</i>",
     },
 
@@ -176,7 +183,15 @@ QUESTION_SUBCATEGORY_FR = {
         antonym:
             "{german}",
         prompt:
-            "{german}"
+            "{german_wiktionary}"
+            "<br><br><i>{french}</i>",
+    },
+
+    verben: {
+        isolation:
+            "{french}",
+        prompt:
+            "{german_wiktionary}"
             "<br><br><i>{french}</i>",
     },
 
@@ -185,6 +200,9 @@ QUESTION_SUBCATEGORY_FR = {
             "{french}",
         synonym:
             "{german}",
+        prompt:
+            "{german_wiktionary}"
+            "<br><br><i>{french}</i>",
     },
 
     adjektivdeklinationen: {
@@ -193,15 +211,6 @@ QUESTION_SUBCATEGORY_FR = {
         context:
             "{question} \u25CF {adjective}"
             "<br><br><i>{french}</i>",
-    },
-
-    verben: {
-        isolation:
-            "{french}",
-        multiple_choice_native:
-            "{german}",
-        multiple_choice_target:
-            "{french}",
     },
 }
 
