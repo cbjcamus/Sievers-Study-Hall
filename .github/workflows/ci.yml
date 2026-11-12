@@ -17,8 +17,8 @@ jobs:
       - uses: trufflesecurity/trufflehog@ea68ca03c865c5f324e86e849ced20ed3cf9dbbb # v3.99.8
         with:
           path: ./
-          base: ${{ github.event.repository.default_branch }}
-          head: HEAD
+          base: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+          head: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.event.after }}
 
   lint:
     runs-on: ubuntu-24.04
@@ -96,6 +96,15 @@ jobs:
           path: /tmp
       - run: docker load --input /tmp/image.tar
       - run: docker run -d -p 5000:5000 --name app sievers-study-hall:${{ github.sha }}
-      - run: sleep 5
-      - run: curl -f http://localhost:5000/ || exit 1
+      - run: |
+          for i in $(seq 1 30); do
+            if curl -f -s -o /dev/null http://localhost:5000/; then
+              echo "App is up after ${i}s"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "App did not become ready in time" >&2
+          docker logs app
+          exit 1
       - run: docker logs app
