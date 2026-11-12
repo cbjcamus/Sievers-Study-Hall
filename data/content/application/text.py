@@ -50,6 +50,11 @@ NOT_AUTHENTICATED = {
     'french': 'Vous n\'êtes pas connecté. Créez un compte pour enregistrer votre progression :',
 }
 
+CEFR_LEVEL = {
+    'english': 'CEFR level: ',
+    'french': 'Niveau CEFR : ',
+}
+
 # HOME PAGE
 
 META_DESCRIPTION = {

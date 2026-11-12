@@ -5,7 +5,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -42,8 +42,9 @@ UNIT_NAME_FR = {
 
     praesens: "Présent",
     imperativ: "Impératif",
-    partizip_II: "Participe passé (Partizip II)",
-    praeteritum: "Prétérit (Präteritum)",
+    partizip_II: "Participe passé (<i>Partizip II</i>)",
+    praeteritum: "Prétérit (<i>Präteritum</i>)",
+    perfekt: "Passé composé (<i>Perfekt</i>)",
     konjunktiv_II: "Konjunktiv II",
     konjunktiv_I: "Konjunktiv I",
     partizip_I: "Participe présent (Partizip I)",

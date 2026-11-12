@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Politique de confidentialité – Sievers Study Hall</title>
+    <meta name="description" content="Découvrez comment Sievers Study Hall collecte, utilise et protège
+     les données personnelles.">
+    {% from "macros/header.html" import header %}
+    {{ header() }}
+</head>
+
+<body class="{{ 'day-mode' if is_day_mode else '' }}">
+
+{% from "macros/render_title.html" import render_title with context %}
+{% from "macros/button.html" import display_homepage_button %}
+
+    {{ render_title("Politique de confidentialité") }}
+
+    <div class="section no-border">
+        <h2>À propos de cette politique</h2>
+        <p>Sievers Study Hall est une application en ligne permettant de s'exercer à la grammaire allemande.
+            Cette politique explique comment les données personnelles sont traitées lorsque vous utilisez l'application.</p>
+        <p>Pour toute question ou demande relative à la confidentialité, contactez-nous à l'adresse
+            <a href="mailto:sieversstudyhall@gmail.com">sieversstudyhall@gmail.com</a>.</p>
+        <!-- TODO : Identifier le responsable du traitement (nom et, lorsque la loi l'exige, coordonnées postales). -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Données que nous traitons</h2>
+        <p>Lorsque vous créez un compte ou utilisez l'application, nous pouvons traiter :</p>
+        <ul>
+            <li>Les informations de compte nécessaires à l'inscription et à la connexion,
+                telles que votre adresse e-mail et votre identifiant de compte.</li>
+            <li>Les données d'apprentissage, telles que les exercices terminés, les réponses soumises,
+                les erreurs, les favoris et la progression.</li>
+            <li>Les données techniques nécessaires au fonctionnement et à la sécurité du site, pouvant notamment
+                comprendre les adresses IP, les informations relatives au navigateur et les journaux du serveur.</li>
+        </ul>
+        <!-- TODO : Vérifier les champs d'inscription, le fournisseur d'authentification, le contenu des journaux
+         et leur durée de conservation. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Pourquoi nous traitons ces données</h2>
+        <p>Nous utilisons ces données pour gérer les comptes, mémoriser la progression et les préférences d'apprentissage,
+            évaluer les réponses, assurer la maintenance de l'application, résoudre les problèmes techniques et
+            protéger le service contre les abus.</p>
+        <!-- TODO : Confirmer les bases juridiques applicables au titre du RGPD, si celui-ci s'applique. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Évaluation des exercices assistée par intelligence artificielle</h2>
+        <p>Certains exercices utilisent un service externe d'intelligence artificielle pour évaluer les réponses
+            soumises et générer des commentaires.
+            Le texte que vous soumettez, accompagné des consignes pertinentes de l'exercice, peut être transmis
+            à ce prestataire pour traitement.</p>
+        <p>Veuillez ne pas inclure de données personnelles sensibles dans vos réponses aux exercices.</p>
+        <!-- TODO : Nommer les fournisseurs d'IA et les intermédiaires, préciser les lieux de traitement, les durées
+         de conservation et les politiques d'entraînement ; vérifier si des identifiants de compte sont transmis. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Hébergement et prestataires de services</h2>
+        <p>Sievers Study Hall est hébergé par
+            <a href="https://www.pythonanywhere.com/" target="_blank">PythonAnywhere</a>,
+            un fournisseur d'hébergement exploité par PythonAnywhere LLP, établi au Royaume-Uni.</p>
+        <p>L'application est hébergée sur des serveurs situés aux États-Unis. PythonAnywhere peut traiter des
+            données personnelles,
+            notamment les adresses IP, les journaux du serveur, les informations de compte et la progression
+            enregistrée dans les exercices,
+            dans la mesure nécessaire à la fourniture de ses services d'hébergement.</p>
+        <p>Pour plus d'informations, veuillez consulter<a href="https://www.pythonanywhere.com/privacy_v2/" target="_blank">
+            la politique de confidentialité de PythonAnywhere</a>.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Cookies et stockage local</h2>
+        <p>L'application peut utiliser des cookies ou des technologies similaires de stockage dans le navigateur pour
+            maintenir les sessions de connexion et mémoriser les paramètres.
+            Vous pouvez gérer les cookies dans votre navigateur, mais le blocage des cookies essentiels peut empêcher
+            certaines fonctionnalités de fonctionner.</p>
+        <!-- TODO : Vérifier les cookies réellement utilisés, les outils d'analyse ou de suivi, les finalités du
+         stockage et la nécessité éventuelle d'un consentement. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Durée de conservation des données</h2>
+        <p>Les données ne sont conservées que pendant la durée raisonnablement nécessaire aux finalités décrites
+            ci-dessus, sous réserve des obligations légales applicables.</p>
+        <!-- TODO : Préciser les durées de conservation ou les critères applicables aux comptes, à l'historique des
+         exercices, aux journaux du serveur et aux sauvegardes. -->
+    </div>
+
+    <div class="section no-border">
+        <h2>Vos droits en matière de protection des données</h2>
+        <p>Selon la législation qui vous est applicable, vous pouvez disposer de droits d'accès, de rectification ou
+            de suppression de vos données personnelles,
+            ainsi que du droit de vous opposer à certains traitements ou d'en demander la limitation.
+            Le cas échéant, vous pouvez également demander la portabilité de vos données ou déposer une réclamation
+            auprès d'une autorité compétente en matière de protection des données.</p>
+        <p>Pour exercer vos droits, écrivez à <a href="mailto:sieversstudyhall@gmail.com">sieversstudyhall@gmail.com</a>.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Sites web externes</h2>
+        <p>Les liens vers des sites web externes, notamment Substack, sont soumis aux politiques de confidentialité
+            propres à ces sites.
+            La présente politique ne couvre pas les traitements de données qu'ils effectuent de manière indépendante.</p>
+    </div>
+
+    <div class="section no-border">
+        <h2>Modifications de cette politique</h2>
+        <p>Cette politique peut être mise à jour en cas de modification de l'application ou de ses pratiques de
+            traitement des données.
+            La version la plus récente sera publiée sur cette page.</p>
+    </div>
+
+    {{ display_homepage_button(homepage) }}
+
+</body>
+</html>

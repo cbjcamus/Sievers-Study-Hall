@@ -32,13 +32,11 @@ def get_list_of_synonyms_for_feedback(correct_answer, unit, exercise, question_i
             (df['output'] == correct_answer) &
             (df['input'] != synonym_from_question)
             ]
-        print(filtered)
     else:
         filtered = df[
             (df['unit'] == unit) &
             (df['output'] == correct_answer)
             ]
-        print(filtered)
 
     return filtered['input'].tolist()
 

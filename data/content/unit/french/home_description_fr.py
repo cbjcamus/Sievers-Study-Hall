@@ -4,7 +4,7 @@ from data.data_processing.units import (
     konnektoren, fragen, adverbien, wortstellung, genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen,
 )
@@ -41,7 +41,8 @@ HOME_DESCRIPTION_FR = {
 
     praesens: "Présent de l'indicatif allemand.",
     partizip_II: "Participe passé (Partizip II)",
-    praeteritum: "Prétérit (Präteritum)",
+    praeteritum: "Prétérit (<i>Präteritum</i>)",
+    perfekt: "Passé composé (<i>Perfekt</i>)",
     imperativ: "Impératif",
     konjunktiv_II: "Konjunktiv II",
     konjunktiv_I: "Konjunktiv I",

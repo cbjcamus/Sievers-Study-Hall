@@ -6,7 +6,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -24,9 +24,6 @@ INSTRUCTION_UNIT_FR = {
     adjektive_konjunktionen:
         "Complétez la phrase suivante avec le mot qui convient :",
 
-    verben:
-        "Traduisez le verbe suivant :",
-
     praesens:
         "Conjuguez le verbe suivant au présent :",
 
@@ -35,6 +32,9 @@ INSTRUCTION_UNIT_FR = {
 
     praeteritum:
         "Conjuguez le verbe suivant au prétérit (Präteritum) :",
+
+    perfekt:
+        "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant au passé composé (<i>Perfekt</i>) :",
 
     imperativ:
         "Conjuguez le verbe suivant à l'impératif :",
@@ -67,12 +67,13 @@ INSTRUCTION_SUBCATEGORY_FR = {
         isolation: "Traduisez la préposition ci-dessous :",
         synonym: "Trouvez un synonyme pour la préposition suivante :",
         antonym: "Trouvez un antonyme pour la préposition suivante :",
-        prompt: "Écrivez une phrase en allemand en utilisant la préposition suivante dans le sens indiqué :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant la préposition suivante dans le sens indiqué :"
     },
 
     praepositionen_verben: {
         isolation: "Donnez la préposition associée au verbe suivant :",
         context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant la paire verbe-préposition suivante :"
     },
 
     praepositionen_adjektive: {
@@ -88,27 +89,33 @@ INSTRUCTION_SUBCATEGORY_FR = {
     konnektoren: {
         isolation: "Traduisez le connecteur suivant :",
         context: "Complétez la phrase suivante avec le connecteur qui convient :",
-        prompt: "Écrivez une ou deux phrases utilisant le connecteur suivant :",
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant le connecteur suivant :",
         synonym: "Trouvez un synonyme pour le connecteur suivant :",
     },
 
     fragen: {
         isolation: "Traduisez le mot interrogatif suivant :",
         context: "Complétez la phrase suivante avec le mot interrogatif qui convient :",
-        prompt: "Écrivez une ou deux phrases utilisant le mot interrogatif suivant :",
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant le mot interrogatif suivant :",
     },
 
     adverbien: {
         isolation: "Traduisez l'adverbe suivant :",
         context: "Complétez la phrase suivante avec l'adverbe qui convient :",
-        prompt: "Écrivez une ou deux phrases utilisant l'adverbe suivant :",
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant l'adverbe suivant :",
         synonym: "Trouvez un synonyme pour l'adverbe suivant :",
         antonym: "Trouvez un antonyme pour l'adverbe suivant :",
+    },
+
+    verben: {
+        isolation: "Traduisez le verbe suivant :",
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant :"
     },
 
     adjektive: {
         isolation: "Traduisez l'adjectif suivant :",
         synonym: "Trouvez un synonyme pour l'adjectif suivant :",
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant l'adjectif suivant :"
     },
 }
 

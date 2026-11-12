@@ -1,6 +1,7 @@
 import random
 
 from flask_login import current_user
+from sqlalchemy.dialects.sqlite import insert
 
 from data.data_processing.exercises import get_exercises_by_level, df_exercises
 from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
@@ -41,6 +42,7 @@ def update_progress_in_home_page(session, unit):
             session.pop(unit, None)
             session.modified = True
 
+        '''
         row = UserUnitHomeProgress.query.filter_by(
             user_id=current_user.id,
             unit=unit
@@ -56,6 +58,21 @@ def update_progress_in_home_page(session, unit):
         else:
             row.completed_exercises = completed_exercises
 
+        db.session.commit()
+        '''
+
+        stmt = insert(UserUnitHomeProgress).values(
+            user_id=current_user.id,
+            unit=unit,
+            completed_exercises=completed_exercises
+        )
+
+        stmt = stmt.on_conflict_do_update(
+            index_elements=["user_id", "unit"],
+            set_={"completed_exercises": stmt.excluded.completed_exercises}
+        )
+
+        db.session.execute(stmt)
         db.session.commit()
 
         if "progress" in session:

@@ -5,7 +5,7 @@ from data.data_processing.units import (
     genus_regeln, genus, plural,
     adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
     verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
+    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
     nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
     zahlen, alpha,
 )
@@ -44,6 +44,7 @@ TEMPLATE_PATH = {
     imperativ: "units/konjugation/imperativ.html",
     partizip_II: "units/konjugation/partizip_II.html",
     praeteritum: "units/konjugation/praeteritum.html",
+    perfekt: "units/konjugation/perfekt.html",
     konjunktiv_II: "units/konjugation/konjunktiv_II.html",
     konjunktiv_I: "units/konjugation/konjunktiv_I.html",
     partizip_I: "units/konjugation/partizip_I.html",
