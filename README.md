@@ -9,7 +9,7 @@ Any other question? sieversstudyhall@gmail.com
 ### Development
 
 ```bash
-docker-compose -f docker-compose.dev.yml up --build
+docker compose -f docker-compose.dev.yml up --build
 ```
 
 App available at `http://localhost:5000` with auto-reload on code changes.
@@ -25,14 +25,14 @@ MAIL_PASSWORD=your-app-password
 
 Then run:
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 ## Running tests
 
 ```bash
 # With Docker
-docker-compose -f docker-compose.dev.yml exec app python -m pytest tests/
+docker compose -f docker-compose.dev.yml exec app python -m pytest tests/
 
 # Without Docker
 python -m venv .venv
