@@ -96,6 +96,15 @@ jobs:
           path: /tmp
       - run: docker load --input /tmp/image.tar
       - run: docker run -d -p 5000:5000 --name app sievers-study-hall:${{ github.sha }}
-      - run: sleep 5
-      - run: curl -f http://localhost:5000/ || exit 1
+      - run: |
+          for i in $(seq 1 30); do
+            if curl -f -s -o /dev/null http://localhost:5000/; then
+              echo "App is up after ${i}s"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "App did not become ready in time" >&2
+          docker logs app
+          exit 1
       - run: docker logs app
