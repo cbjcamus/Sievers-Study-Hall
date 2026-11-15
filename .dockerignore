@@ -1,0 +1,16 @@
+# .dockerignore
+.git
+.gitignore
+.venv
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+.DS_Store
+.env.local
+instance/
+*.db
+loadtest/
+node_modules/
+.idea/
+.vscode/
