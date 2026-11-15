@@ -24,3 +24,4 @@ venv.bak/
 # Local-only benchmark scripts, not meant to be committed
 benchmark_exercise_state_cache.py
 loadtest/
+/dashboard/

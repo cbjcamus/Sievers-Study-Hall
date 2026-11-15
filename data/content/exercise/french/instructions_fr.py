@@ -125,18 +125,22 @@ INSTRUCTION_CATEGORY_FR = {
 
 INSTRUCTION_EXERCISE_FR = {
     praepositionen: {
-        40: "Traduisez le groupe prépositionnel ci-dessous :",
-        41: "Complétez la phrase ci-dessous avec le groupe prépositionnel qui convient :",
+        45: "Traduisez le groupe prépositionnel ci-dessous :",
+        46: "Complétez la phrase ci-dessous avec le groupe prépositionnel qui convient :",
     },
 
     pronominaladverbien: {
         1: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
-
         2: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
-        3: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
-        4: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
 
-        5: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
+        3: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
+        4: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
+        5: "Rédigez une ou deux phrases en allemand en utilisant l'adverbe pronominal suivant :",
+        6: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
+        7: "Rédigez une ou deux phrases en allemand en utilisant l'adverbe pronominal suivant :",
+
+        8: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
+        9: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
     },
 
     artikel: {

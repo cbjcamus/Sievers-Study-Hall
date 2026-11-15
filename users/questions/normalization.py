@@ -2,18 +2,17 @@ import unicodedata
 import string
 
 from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms, get_list_of_synonyms
-from data.data_processing.exercises import is_exercise_synonym, get_answer_column
+from data.data_processing.exercises import is_exercise_synonym
 from data.data_processing.data_loading import load_data_question
 
 
 def get_correct_answer(unit, exercise, question_id, language):
     question_data = load_data_question(unit, exercise, question_id)
-    answer_column = get_answer_column(unit, exercise, language)
 
     if question_data is None:
         return ""
 
-    return question_data.get(answer_column, "")
+    return question_data.get("answer", "")
 
 
 def is_user_answer_correct(unit, exercise, question_id, user_answer, language):

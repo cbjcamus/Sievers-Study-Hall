@@ -5,10 +5,9 @@ from data.content.application.text import CEFR_LEVEL
 from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
     adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
     praepositionen_adjektive, praepositionen_nomen
-from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column, \
-    is_exercise_multiple_choice_target, is_exercise_multiple_choice_native, get_category_from_exercise, \
-    get_subcategory_from_exercise
-from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
+from data.data_processing.exercises import get_category_from_exercise, \
+    get_subcategory_from_exercise, is_exercise_word_order
+from data.data_processing.data_loading import load_data_question, load_data_unit
 from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT
 
 from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer, \
@@ -196,6 +195,9 @@ praepositionen_dictionary = {
 def format_praepositionen_link(input_string, language):
     input_string = input_string.lower()
 
+    if not input_string:
+        return ""
+
     if input_string in list(praepositionen_dictionary.keys()):
         if language == 'english':
             return (f'<a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up#§'
@@ -205,8 +207,8 @@ def format_praepositionen_link(input_string, language):
                     f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>')
 
     else:
-        return format_wiktionary_link(input_string, language)
-
+        #return format_wiktionary_link(input_string, language)
+        return input_string
 
 def format_wiktionary_link(input_string, language):
     if isinstance(input_string, list):
@@ -353,27 +355,7 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
     if result != "incorrect":
         return ""
 
-    if is_exercise_multiple_choice(unit, exercise) is True:
-        data = load_data_level(unit, exercise)
-
-        question_column = get_question_column(unit, exercise, language)
-        answer_column = get_answer_column(unit, exercise, language)
-
-        match_question = data.loc[data[answer_column] == incorrect_answer, question_column]
-
-        if not match_question.empty:
-            question = match_question.iloc[0]
-
-            if is_exercise_multiple_choice_target(unit, exercise):
-                incorrect_answer = format_wiktionary_link(incorrect_answer, language)
-            if is_exercise_multiple_choice_native(unit, exercise):
-                question = format_wiktionary_link(question, language)
-
-            return f"<br><br>{incorrect_answer} = {question}"
-        else:
-            return None
-
-    elif unit == konnektoren:
+    if unit == konnektoren:
         data = load_data_unit(unit)
         match_question = data.loc[data['konnektor'] == incorrect_answer, f"explanation_{language}"]
 
@@ -382,7 +364,7 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         else:
             return ""
 
-    elif unit == fragen:
+    if unit == fragen:
         data = load_data_unit(unit)
         match_question = data.loc[data['fragen'] == incorrect_answer, f"explanation_{language}"]
 
@@ -391,7 +373,7 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         else:
             return ""
 
-    elif unit in [adverbien, verben, adjektive,
+    if unit in [adverbien, verben, adjektive,
                   adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
 
         data = load_data_unit(unit)
@@ -404,7 +386,7 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         else:
             return ""
 
-    elif unit == trennbare_verben:
+    if unit == trennbare_verben:
 
         data = load_data_unit(unit)
         match_question = data.loc[data['answer'] == incorrect_answer, language]
@@ -460,6 +442,9 @@ def get_combination_from_question_text(unit, question_text, incorrect_answer):
 
 
 def format_options_word_order(unit, exercise, question_id):
+    if not is_exercise_word_order(unit, exercise):
+        return None
+
     question_data = load_data_question(unit, exercise, question_id)
 
     question_text = question_data["german"]

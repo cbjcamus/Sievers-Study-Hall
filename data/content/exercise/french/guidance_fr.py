@@ -1,5 +1,4 @@
-from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, \
-    antonym, prompt
+from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, konnektoren, fragen, adverbien, adjektive, komparativ_superlativ, adjektivdeklinationen, verben,
@@ -14,28 +13,6 @@ from data.data_processing.units import (
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
 GUIDANCE_UNIT_FR = {
-    alpha:
-        "Pour chaque question, une conjonction allemande, sa traduction en français et sa catégorie grammaticale "
-        " (conjonction de coordination, conjonction de subordination, adverbe, conjonction corrélative) seront présentés."
-        "<br><br>Écrivez une phrase en allemand en utilisant cette conjonction."
-    
-        f"<br><br> {ICON_WARN} Tenez compte de la catégorie grammaticale de la conjonction."
-        f" La proposition contenant la conjonction doit respecter l'ordre correct des mots."
-        f"<br><br> {ICON_WARN} La phrase en allemand doit être cohérente."
-        f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les cas et les fautes d'orthographe,"
-        f" sont acceptables tant que la phrase reste compréhensible."
-        f"<br><br> {ICON_WARN} L'évaluation, la correction et les commentaires sont fournis par un modèle de langage (LLM)."
-        f" Les modèles de langage peuvent commettre des erreurs. Vérifiez les informations importantes."
-    
-        "<h2>Exemples</h2>"
-        f"deshalb"
-        f"<br><br><i>pour cette raison, à cause de cela \u25CF Adverbe</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich ein Glas Wasser."
-        f"<br><br> &nbsp; {ICON_CROSS} Ich habe Durst, deshalb ich trinke ein Glas Wasser. (L'ordre des mots est incorrect)"
-        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich eine Glas Wasser. (Erreur acceptable)"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich trinke ein Glas Wasser, deshalb habe ich Durst. (La phrase est incohérente)"
-,
-
     praepositionen_artikel:
         "Pour chaque question, une phrase allemande incomplète, sa traduction en français, "
         "une préposition et un article ou un pronom seront présentés."
@@ -84,7 +61,8 @@ GUIDANCE_UNIT_FR = {
         f"<br><br> {ICON_WARN} Tous les mots proposés doivent être utilisés."
         f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
         f"<br><br> {ICON_WARN} Le premier mot ou groupe formant la phrase en allemand peut être indiqué."
-        f"<br><br> {ICON_WARN} Dans les propositions principales déclaratives, en l'absence d'indication contraire, commencez par le sujet."
+        f"<br><br> {ICON_WARN} Dans les propositions principales déclaratives, en l'absence d'indication contraire,"
+        f" commencez par le sujet."
 
         "<h2>Exemples</h2>"
         "<i>Je prends mes gants</i>"
@@ -311,6 +289,28 @@ GUIDANCE_UNIT_FR = {
         f"<br><br> &nbsp; {ICON_CHECK} sich freuend"
         f"<br><br> &nbsp; {ICON_CROSS} freuend"
     ,
+
+    alpha:
+        "Pour chaque question, une conjonction allemande, sa traduction en français et sa catégorie grammaticale "
+        " (conjonction de coordination, conjonction de subordination, adverbe, conjonction corrélative) seront présentés."
+        "<br><br>Écrivez une phrase en allemand en utilisant cette conjonction."
+
+        f"<br><br> {ICON_WARN} Tenez compte de la catégorie grammaticale de la conjonction."
+        f" La proposition contenant la conjonction doit respecter l'ordre correct des mots."
+        f"<br><br> {ICON_WARN} La phrase en allemand doit être cohérente."
+        f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les cas et les fautes d'orthographe,"
+        f" sont acceptables tant que la phrase reste compréhensible."
+        f"<br><br> {ICON_WARN} L'évaluation, la correction et les commentaires sont fournis par un modèle de langage (LLM)."
+        f" Les modèles de langage peuvent commettre des erreurs. Vérifiez les informations importantes."
+
+        "<h2>Exemples</h2>"
+        f"deshalb"
+        f"<br><br><i>pour cette raison, à cause de cela \u25CF Adverbe</i>"
+        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich ein Glas Wasser."
+        f"<br><br> &nbsp; {ICON_CROSS} Ich habe Durst, deshalb ich trinke ein Glas Wasser. (L'ordre des mots est incorrect)"
+        f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich eine Glas Wasser. (Erreur acceptable)"
+        f"<br><br> &nbsp; {ICON_CROSS} Ich trinke ein Glas Wasser, deshalb habe ich Durst. (La phrase est incohérente)"
+    ,
 }
 
 guidance_praepositionen_isolation = (
@@ -392,11 +392,12 @@ guidance_praepositionen_prompt = (
     f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
 
     "<h2>Exemple</h2>"
-    f"to indicate a specific time → um + Acc."
+    f"pour indiquer une heure précise → um + Acc."
     f"<br><br> &nbsp; {ICON_CHECK} Um 4 Uhr musst du gehen."
     f"<br><br> &nbsp; {ICON_CROSS} Um 4 Uhr du musst gehen. (Ordre des mots incorrect)"
     f"<br><br> &nbsp; {ICON_CHECK} Um 4 Uhr musst ich gehen. (Erreur de conjugaison acceptable)"
-    f"<br><br> &nbsp; {ICON_CROSS} Der Hund rennt um den Block. (Phrase correcte mais n'utilisant pas la fonction de <i>um</i> présentée.)"
+    f"<br><br> &nbsp; {ICON_CROSS} Der Hund rennt um den Block. (Phrase correcte mais n'utilisant pas la fonction de"
+    f" <i>um</i> présentée.)"
 )
 
 guidance_praepositionen_verben_isolation = (
@@ -492,7 +493,7 @@ guidance_praepositionen_nomen_sentences = (
     f"<br><br> &nbsp; {ICON_CHECK} auf"
 )
 
-guidance_pronominaladverbien_dawort = (
+guidance_pronominaladverbien_dawort_context = (
     "Pour chaque question, une phrase allemande incomplète et sa traduction française seront présentées."
     "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Da- qui convient."
 
@@ -504,7 +505,7 @@ guidance_pronominaladverbien_dawort = (
     f"<br><br> &nbsp; {ICON_CHECK} dafür"
 )
 
-guidance_pronominaladverbien_wowort = (
+guidance_pronominaladverbien_wowort_context = (
     "Pour chaque question, une phrase allemande incomplète et sa traduction française seront présentées."
     "<br><br>Complétez la phrase allemande avec l'adverbe pronominal en Wo- qui convient."
 
@@ -515,6 +516,52 @@ guidance_pronominaladverbien_wowort = (
     "<br><br><i>À quoi pensez-vous?</i>"
     f"<br><br> &nbsp; {ICON_CHECK} Woran"
 )
+
+guidance_pronominaladverbien_dawort_prompt = (
+    "Pour chaque question, un adverbe pronominal allemand en <i>da-</i> sera présenté."
+    "<br><br>Rédigez une ou deux phrases en allemand en utilisant cet adverbe pronominal."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs d'orthographe et de déclinaison,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"darauf"
+    f"<br><br> &nbsp; {ICON_CHECK} Ich muss an diesem Projekt arbeiten, aber ich kann mich nicht darauf konzentrieren."
+    f"<br><br> &nbsp; {ICON_CROSS} Ich muss an diesem Projekt arbeiten, aber ich kann mich nicht konzentrieren darauf."
+    f" (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Ich muss an dieser Projekt arbeiten, aber ich kann mich nicht darauf konzentrieren."
+    f" (Erreur de genre acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich muss an diesem Projekt arbeiten, aber ich kann mich nicht darauf interessieren."
+    f" (Adverbe pronominal en <i>da</i> incorrect)"
+)
+
+guidance_pronominaladverbien_wowort_prompt = (
+    "Pour chaque question, un adverbe pronominal allemand en <i>wo-</i> sera présenté."
+    "<br><br>Rédigez une ou deux phrases en allemand en utilisant cet adverbe pronominal."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs d'orthographe et de déclinaison,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"Worüber"
+    f"<br><br> &nbsp; {ICON_CHECK} Worüber spricht der Minister im Interview?"
+    f"<br><br> &nbsp; {ICON_CROSS} Worüber der Minister spricht im Interview? (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Worüber spricht das Minister im Interview? (Erreur de genre acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Worüber wartest du? (Adverbe pronominal en <i>wo</i> incorrect)")
 
 guidance_artikel_isolation = (
     "Pour chaque question, un article en allemand, ainsi qu'un genre et un cas seront présentés."
@@ -1186,7 +1233,8 @@ guidance_adjektive_verben_wortstaemme_adjektive = (
 )
 
 guidance_adjektive_verben_wortstaemme_verben = (
-    "Pour chaque question, une paire adjectif-verbe allemande incomplète sera présentée, accompagnée de sa traduction française."
+    "Pour chaque question, une paire adjectif-verbe allemande incomplète sera présentée, accompagnée de sa traduction"
+    " française."
     "<br><br>Trouvez le verbe allemand qui complète cette paire."
 
     f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
@@ -1199,7 +1247,8 @@ guidance_adjektive_verben_wortstaemme_verben = (
 )
 
 guidance_adjektive_nomen_wortstaemme_adjektive = (
-    "Pour chaque question, une paire nom-adjectif allemande incomplète sera présentée, accompagnée de sa traduction française."
+    "Pour chaque question, une paire nom-adjectif allemande incomplète sera présentée, accompagnée de sa traduction"
+    " française."
     "<br><br>Trouvez l'adjectif allemand qui complète cette paire."
 
     f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
@@ -1212,7 +1261,8 @@ guidance_adjektive_nomen_wortstaemme_adjektive = (
 )
 
 guidance_adjektive_nomen_wortstaemme_nomen = (
-    "Pour chaque question, une paire nom-adjectif allemande incomplète sera présentée, accompagnée de sa traduction française."
+    "Pour chaque question, une paire nom-adjectif allemande incomplète sera présentée, accompagnée de sa traduction"
+    " française."
     "<br><br>Trouvez le nom allemand qui complète cette paire."
 
     f"<br><br> {ICON_WARN} Il peut y avoir plusieurs réponses possibles."
@@ -1372,42 +1422,6 @@ guidance_zahlen_genitive_sentence = (
     f"<br><br> &nbsp; {ICON_CROSS} von vier (la déclinaison de l'adjectif ne correspond pas)"
 )
 
-'''
-guidance_verben_multiple_choices_french_to_german = (
-    "Pour chaque question, la traduction française d’un verbe allemand et cinq verbes allemands seront présentés."
-    "<br>Sélectionnez le verbe allemand correspondant à l’ensemble de la traduction."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement toute la traduction."
-
-    "<h2>Exemple</h2>"
-    "remplacer, substituer, compenser"
-    "<br><br>ersetzen"
-    "<br>leiden"
-    "<br>diskutieren"
-    "<br>rufen"
-    "<br>vorschlagen"
-    f"<br><br> &nbsp; {ICON_CHECK} ersetzen"
-)
-
-guidance_verben_multiple_choices_german_to_french = (
-    "Pour chaque question, un verbe allemand et cinq traductions françaises possibles seront présentés."
-    "<br>Sélectionnez la traduction qui correspond au verbe allemand."
-
-    f"<br><br> {ICON_WARN} Il n’y a qu’une seule réponse possible par question."
-    f" Les synonymes ne sont pas acceptés pour cet exercice. Lisez attentivement l'ensemble de la traduction."
-
-    "<h2>Exemple</h2>"
-    "ersetzen"
-    "<br><br>remplacer, substituer, compenser"
-    "<br>souffrir, endurer, supporter"
-    "<br>discuter, débattre"
-    "<br>appeler, crier, convoquer"
-    "<br>suggérer, proposer"
-    f"<br><br> &nbsp; {ICON_CHECK} remplacer, substituer, compenser"
-)
-'''
-
 GUIDANCE_SUBCATEGORY_FR = {
     praepositionen: {
         isolation: guidance_praepositionen_isolation,
@@ -1471,15 +1485,18 @@ GUIDANCE_CATEGORY_FR = {
 }
 
 GUIDANCE_EXERCISE_FR = {
-
     pronominaladverbien: {
-        1: guidance_pronominaladverbien_dawort,
+        1: guidance_pronominaladverbien_dawort_context,
+        2: guidance_pronominaladverbien_dawort_context,
 
-        2: guidance_pronominaladverbien_dawort,
-        3: guidance_pronominaladverbien_dawort,
-        4: guidance_pronominaladverbien_wowort,
+        3: guidance_pronominaladverbien_dawort_context,
+        4: guidance_pronominaladverbien_dawort_context,
+        5: guidance_pronominaladverbien_dawort_prompt,
+        6: guidance_pronominaladverbien_wowort_context,
+        7: guidance_pronominaladverbien_wowort_prompt,
 
-        5: guidance_pronominaladverbien_wowort,
+        8: guidance_pronominaladverbien_wowort_context,
+        9: guidance_pronominaladverbien_wowort_context,
     },
 
     artikel: {

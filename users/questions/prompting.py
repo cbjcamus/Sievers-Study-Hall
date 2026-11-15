@@ -1,7 +1,10 @@
 import os
 import json
 
+from flask import current_app
+
 from huggingface_hub import InferenceClient
+from huggingface_hub.errors import HfHubHTTPError
 from huggingface_hub.errors import BadRequestError
 
 from data.data_processing.exercises import get_level_from_exercise
@@ -93,18 +96,23 @@ def get_response_from_prompt(unit, exercise, prompt):
         return json.loads(response.choices[0].message.content)
 
     try:
-        return make_request(temperature=0.7)
+        try:
+            return make_request(temperature=0.7)
+
+        except BadRequestError as e:
+            if "json_validate_failed" not in str(e):
+                raise
+
+            # Retry once
+            return make_request(temperature=0.2)
 
     except BadRequestError as e:
         if "json_validate_failed" not in str(e):
             raise
+        return None
 
-        # Retry once
-        try:
-            return make_request(temperature=0.2)
-
-        except BadRequestError as retry_error:
-            if "json_validate_failed" not in str(retry_error):
-                raise
-
+    except HfHubHTTPError as e:
+        if e.response is not None and e.response.status_code == 503:
+            current_app.logger.warning("Hugging Face/Groq unavailable: %s", e)
             return None
+        raise

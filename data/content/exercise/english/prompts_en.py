@@ -2,6 +2,7 @@ from data.data_processing.exercises import prompt
 
 from data.data_processing.units import (
     praepositionen, konnektoren, fragen, adverbien, verben, alpha, praepositionen_verben, adjektive, perfekt,
+    pronominaladverbien,
 )
 
 prompt_praepositionen = """
@@ -44,7 +45,7 @@ Use line breaks (<br><br>) to add some clarity if necessary.
 """
 
 prompt_praepositionen_verben = """
-You are evaluating a focused German verbe-preposition pair exercise.
+You are evaluating a focused German verb-preposition pair exercise.
 
 Target verb-preposition pair: {german}{case_english} ({english})
 
@@ -76,6 +77,80 @@ commentary:
 If the inquiry is incorrect, explain why it's incorrect.
 If the meaning is incoherent, explain why.
 Identify grammatical or spelling errors that are unrelated to the correct use of the target verb-preposition pair.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in English. You write using the passive voice.
+Use line breaks (<br><br>) to add some clarity if necessary.
+"""
+
+prompt_pronominaladverbien_dawort = """
+You are evaluating a focused German pronominal adverb in <i>da</i> exercise.
+
+Target pronominal adverb: {german}
+
+User sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target da-word used in the clause or phrase containing it, and in the function described?
+Consider only errors relevant to the use of the target da-word. 
+If the word order is wrong at the level of the verb, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as gender of nouns, adjective declensions, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in English.
+
+cefr_level:
+An estimation of the CEFR level (A1, A2 etc.) of the user's sentence. Write "none" if not applicable.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target da-word.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in English. You write using the passive voice.
+Use line breaks (<br><br>) to add some clarity if necessary.
+"""
+
+prompt_pronominaladverbien_wowort = """
+You are evaluating a focused German pronominal adverb in <i>wo</i> exercise.
+
+Target pronominal adverb: {german}
+
+User sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target wo-word used in the clause or phrase containing it, and in the function described?
+Consider only errors relevant to the use of the target wo-word. 
+If the word order is wrong at the level of the verb, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as gender of nouns, adjective declensions, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in English.
+
+cefr_level:
+An estimation of the CEFR level (A1, A2 etc.) of the user's sentence. Write "none" if not applicable.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target wo-word.
 Give a brief correction for grammatical and spelling mistakes. 
 If there are none, return "none".
 Commentary should be in English. You write using the passive voice.
@@ -314,7 +389,7 @@ PROMPT_SUBCATEGORY_EN = {
     },
 
     praepositionen_verben: {
-        prompt: prompt_praepositionen,
+        prompt: prompt_praepositionen_verben,
     },
 
     konnektoren: {
@@ -343,6 +418,11 @@ PROMPT_SUBCATEGORY_EN = {
 }
 
 PROMPT_EXERCISE_EN = {
+    pronominaladverbien: {
+        5: prompt_pronominaladverbien_dawort,
+        7: prompt_pronominaladverbien_wowort,
+    },
+
     alpha: {
         1: prompt_konnektoren,
         2: prompt_fragen,

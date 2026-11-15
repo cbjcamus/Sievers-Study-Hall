@@ -5,13 +5,11 @@ from typing import cast
 from data.content.unit.unit_content_by_language import UNIT_NAME
 from data.content.unit.unit_url_path import UNIT_URL_PATH
 from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
-from data.content.application.popup import get_popup_title, get_popup_text
 from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, SHOW_OPTIONS
 
 from data.data_processing.units import units
 from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.exercises import (is_exercise_multiple_choice_native, does_unit_exercise_exist,
-    is_exercise_input, is_exercise_word_order, is_exercise_multiple_choice_target,
+from data.data_processing.exercises import (does_unit_exercise_exist, is_exercise_input, is_exercise_word_order,
                                             get_level_from_exercise, is_exercise_prompt)
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
@@ -19,8 +17,7 @@ from users.questions.prompting import get_response_from_prompt
 
 from users.users.models import db, UserExerciseState
 from users.users.settings import (is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark,
-    get_filename_full_bookmark, get_filename_flag, are_options_in_multiple_choice_exercises_hidden,
-    are_options_in_word_order_exercises_hidden)
+    get_filename_full_bookmark, get_filename_flag, are_options_in_word_order_exercises_hidden)
 
 from users.progress.progress import compute_answered_questions, update_progress_in_home_page
 from users.progress.register_update import register_progress, register_incorrect_answer
@@ -29,7 +26,7 @@ from users.progress.is_exercise_finished import is_exercise_finished
 from users.questions.normalization import is_user_answer_correct, get_correct_answer
 from users.questions.content_format import format_instruction, format_question, format_gender, format_guidance, \
     format_feedback, format_correction, format_options_word_order, format_prompt
-from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
+from users.questions.pick_a_question import pick_a_question
 
 from users.session_management.logging import log_question_flagged
 from users.session_management.session_update import update_session_dictionary, read_feedback
@@ -141,25 +138,11 @@ def exercise_page(unit, exercise):
 
     is_feedback_box = not is_feedback_enabled()
 
-    if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
-        clearance_popup_title = get_popup_title(language)
-        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
-    else:
-        clearance_popup_title = None
-        clearance_popup_text = None
-
-    options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_id, language)
-
     exercise_is_input = is_exercise_input(unit, exercise)
-    exercise_is_multiple_choice_native = is_exercise_multiple_choice_native(unit, exercise)
-    exercise_is_multiple_choice_target = is_exercise_multiple_choice_target(unit, exercise)
     exercise_is_word_order = is_exercise_word_order(unit, exercise)
     exercise_is_prompt = is_exercise_prompt(unit, exercise)
 
-    if exercise_is_word_order:
-        word_order_words = format_options_word_order(unit, exercise, question_id)
-    else:
-        word_order_words = None
+    word_order_words = format_options_word_order(unit, exercise, question_id)
 
     level_exercise = get_level_from_exercise(unit, exercise)
 
@@ -171,11 +154,8 @@ def exercise_page(unit, exercise):
                            question_text=formated_question_text,
                            correct_answer=correct_answer,
                            exercise_is_input=exercise_is_input,
-                           exercise_is_multiple_choice_native=exercise_is_multiple_choice_native,
-                           exercise_is_multiple_choice_target=exercise_is_multiple_choice_target,
                            exercise_is_word_order=exercise_is_word_order,
                            exercise_is_prompt=exercise_is_prompt,
-                           options_in_multiple_choice_exercises_hidden=are_options_in_multiple_choice_exercises_hidden(),
                            options_in_word_order_exercises_hidden=are_options_in_word_order_exercises_hidden(),
                            word_order_words=word_order_words,
                            nr=question_id,
@@ -193,7 +173,6 @@ def exercise_page(unit, exercise):
                            guidance=guidance_popup,
                            additional_help=ADDITIONAL_HELP[language],
                            consult_faq=CONSULT_FAQ[language],
-                           options=options_text,
                            your_answer=YOUR_ANSWER[language],
                            correction=correction,
                            submit=SUBMIT[language],
@@ -204,8 +183,6 @@ def exercise_page(unit, exercise):
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
                            icon_flag=get_filename_flag(),
-                           clearance_popup_title=clearance_popup_title,
-                           clearance_popup_text=clearance_popup_text,
                            )
 
 
@@ -317,13 +294,6 @@ def feedback_page(unit, exercise):
 
     is_feedback_box = True
 
-    if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
-        clearance_popup_title = get_popup_title(language)
-        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
-    else:
-        clearance_popup_title = None
-        clearance_popup_text = None
-
     exercise_is_input = is_exercise_input(unit, exercise)
     exercise_is_prompt = is_exercise_prompt(unit, exercise)
 
@@ -353,8 +323,6 @@ def feedback_page(unit, exercise):
                            icon_full=get_filename_full_bookmark(),
                            icon_empty=get_filename_empty_bookmark(),
                            icon_flag=get_filename_flag(),
-                           clearance_popup_title=clearance_popup_title,
-                           clearance_popup_text=clearance_popup_text,
                            exercise_is_input=exercise_is_input,
                            exercise_is_prompt=exercise_is_prompt,
                            )

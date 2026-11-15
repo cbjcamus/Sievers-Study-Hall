@@ -92,20 +92,6 @@ DESCRIPTION_CATEGORY_EN = {
 }
 
 DESCRIPTION_EXERCISE_EN = {
-
-    alpha: {
-        1: "Practice connectors in sentences",
-        2: "Practice question words in sentences",
-        3: "Practice adverbs in sentences",
-        4: "Practice adverbs in sentences",
-
-        5: "Practice connectors in sentences",
-        6: "Practice question words in sentences",
-        7: "Practice adverbs in sentences",
-        8: "Practice adverbs in sentences",
-        9: "Practice adverbs in sentences",
-    },
-
     praepositionen: {
         1: "Prepositions of time in sentences",
         2: "Prepositions of place (position) in sentences",
@@ -143,32 +129,41 @@ DESCRIPTION_EXERCISE_EN = {
         31: "Prepositions in B2-level contexts in sentences",
         32: "New prepositions in isolation",
         33: "New prepositions in sentences",
+        34: "Writing sentences with prepositions",
+        35: "Writing sentences with prepositions",
+        36: "Writing sentences with prepositions",
+        37: "Writing sentences with prepositions",
+        38: "Writing sentences with prepositions",
 
-        34: "Prepositions in C1-level contexts in sentences",
-        35: "Prepositions in C1-level contexts in sentences",
-        36: "Prepositions in C1-level contexts in sentences",
-        37: "Prepositions in C1-level contexts in sentences",
-        38: "New prepositions in isolation",
-        39: "New prepositions in sentences",
-        40: "Prepositional phrases in isolation",
-        41: "Prepositional phrases in sentences",
-        42: "Synonyms of prepositions in sentences",
-        43: "Antonyms of prepositions in isolation",
+        39: "Prepositions in C1-level contexts in sentences",
+        40: "Prepositions in C1-level contexts in sentences",
+        41: "Prepositions in C1-level contexts in sentences",
+        42: "Prepositions in C1-level contexts in sentences",
+        43: "New prepositions in isolation",
+        44: "New prepositions in sentences",
+        45: "Prepositional phrases in isolation",
+        46: "Prepositional phrases in sentences",
+        47: "Synonyms of prepositions in sentences",
+        48: "Antonyms of prepositions in isolation",
 
-        44: "New prepositions in isolation",
-        45: "New prepositions in sentences",
-        46: "Postpositions in isolation",
-        47: "Postpositions in sentences",
+        49: "New prepositions in isolation",
+        50: "New prepositions in sentences",
+        51: "Postpositions in isolation",
+        52: "Postpositions in sentences",
     },
 
     pronominaladverbien: {
         1: "Da-words as pronouns in sentences",
-
         2: "Da-words as pronouns in sentences",
-        3: "Da-words as prepositional objects in sentences",
-        4: "Wo-words as question words in sentences",
 
-        5: "Wo-words introducing supplementary clauses in sentences",
+        3: "Da-words as pronouns in sentences",
+        4: "Da-words as prepositional objects in sentences",
+        5: "Writing sentences using Da-words",
+        6: "Wo-words as question words in sentences",
+        7: "Writing sentences using Wo-words",
+
+        8: "Wo-words as question words in sentences",
+        9: "Wo-words introducing supplementary clauses in sentences",
     },
 
     artikel: {
@@ -1075,5 +1070,18 @@ DESCRIPTION_EXERCISE_EN = {
 
         23: "Genitive form of numbers in isolation",
         24: "Genitive form of numbers in sentences",
+    },
+
+    alpha: {
+        1: "Practice connectors in sentences",
+        2: "Practice question words in sentences",
+        3: "Practice adverbs in sentences",
+        4: "Practice adverbs in sentences",
+
+        5: "Practice connectors in sentences",
+        6: "Practice question words in sentences",
+        7: "Practice adverbs in sentences",
+        8: "Practice adverbs in sentences",
+        9: "Practice adverbs in sentences",
     },
 }

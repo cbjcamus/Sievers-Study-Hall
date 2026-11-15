@@ -1,5 +1,4 @@
-from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, \
-    antonym, prompt
+from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -13,12 +12,6 @@ from data.data_processing.units import (
 )
 
 FEEDBACK_UNIT_EN = {
-    pronominaladverbien:
-        "{german}"
-        "<br><br><i>{english}</i>"
-        "<br><br>Correct answer(s): {correct_answers}"
-        "<br><br>{explanation_english}",
-
     praepositionen_artikel:
         "{german}"
         "<br><br><i>{english}</i>"
@@ -194,6 +187,19 @@ FEEDBACK_SUBCATEGORY_EN = {
             "<br><br><i>{english}</i>"
             "<br><br>{explanation_english}"
             "<br><br>Correct answer(s): {correct_answers}",
+    },
+
+    pronominaladverbien: {
+        context:
+            "{german}"
+            "<br><br><i>{english}</i>"
+            "<br><br>Correct answer(s): {correct_answers}"
+            "<br><br>{explanation_english}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     konnektoren: {

@@ -1,9 +1,6 @@
-import random
-
 from flask_login import current_user
 
-from data.data_processing.data_loading import (load_data_exercise, load_data_level, load_data_question)
-from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column
+from data.data_processing.data_loading import load_data_exercise
 
 from users.users.models import UserExerciseState
 from users.session_management.verification_session import init_session_key
@@ -52,48 +49,3 @@ def pick_a_question(session, unit, exercise):
 
     random_question = filtered_data.sample(1).iloc[0]
     return random_question["Nr"]
-
-
-def get_options_for_multiple_choice_exercises(unit, exercise, question_id, language):
-    if is_exercise_multiple_choice(unit, exercise) is False:
-        return None
-
-    question_data = load_data_question(unit, exercise, question_id)
-    answer_column = get_answer_column(unit, exercise, language)
-    correct_answer = question_data[answer_column]
-
-    other_options = pick_other_options(unit, exercise, question_data)
-    other_answers = [str(option[answer_column]) for option in other_options]
-
-    options_text = shuffle_options(str(correct_answer), other_answers)
-
-    return options_text
-
-
-def pick_other_options(unit, exercise, question):
-    data = load_data_level(unit, exercise)
-
-    other_questions = []
-    if len(data) > 1:
-        sampled_df = data[data["Nr"] != question["Nr"]].sample(
-            min(4, len(data) - 1), replace=False
-        )
-        other_questions = sampled_df.to_dict(orient="records")
-
-    return other_questions
-
-
-def shuffle_options(correct_answer, other_answers):
-    """
-    Returns a list of 5 options in random order.
-
-    Args:
-        correct_answer (str): The correct answer.
-        other_answers (list): List of 4 other answers.
-
-    Returns:
-        list: 5 options shuffled randomly.
-    """
-    options = [correct_answer] + other_answers
-    random.shuffle(options)
-    return options

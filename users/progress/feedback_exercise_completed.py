@@ -103,13 +103,13 @@ def get_feedback_exercise(session, unit, exercise, language, incorrect):
 
     if is_exercise_prompt(unit, exercise):
         data["translation"] = data["Nr"].apply(
-            lambda nr: incorrect[str(int(nr))]["translation"]
+            lambda nr: incorrect[str(int(nr))].get("translation", "")
         )
         data["cefr_level"] = data["Nr"].apply(
-            lambda nr: incorrect[str(int(nr))]["cefr_level"]
+            lambda nr: incorrect[str(int(nr))].get("cefr_level", "")
         )
         data["commentary"] = data["Nr"].apply(
-            lambda nr: incorrect[str(int(nr))]["commentary"]
+            lambda nr: incorrect[str(int(nr))].get("commentary", "")
         )
 
     feedbacks = format_feedbacks(data, unit, exercise, language)

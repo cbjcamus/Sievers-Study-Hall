@@ -1,5 +1,4 @@
-from data.data_processing.exercises import isolation, context, synonym, multiple_choice_native, multiple_choice_target, \
-    antonym, prompt
+from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -13,10 +12,6 @@ from data.data_processing.units import (
 )
 
 QUESTION_UNIT_EN = {
-    pronominaladverbien:
-        "{question}"
-        "<br><br><i>{english}</i>",
-
     praepositionen_artikel:
         "{question} \u25CF {preposition} \u25CF {person}"
         "<br><br><i>{english}</i>",
@@ -144,6 +139,14 @@ QUESTION_SUBCATEGORY_EN = {
         context:
             "{question}"
             "<br><br><i>{english}</i>",
+    },
+
+    pronominaladverbien: {
+        context:
+            "{question}"
+            "<br><br><i>{english}</i>",
+        prompt:
+            "{german}",
     },
 
     konnektoren: {

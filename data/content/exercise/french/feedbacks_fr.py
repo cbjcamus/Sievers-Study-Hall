@@ -1,5 +1,4 @@
-from data.data_processing.exercises import isolation, context, multiple_choice_native, multiple_choice_target, synonym, \
-    antonym, prompt
+from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
 from data.data_processing.units import (
     praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
     artikel, pronomen, praepositionen_artikel, verben_artikel,
@@ -13,12 +12,6 @@ from data.data_processing.units import (
 )
 
 FEEDBACK_UNIT_FR = {
-    pronominaladverbien:
-        "{german}"
-        "<br><br><i>{french}</i>"
-        "<br><br>Réponse(s) correcte(s) : {correct_answers}"
-        "<br><br>{explanation_french}",
-
     praepositionen_artikel:
         "{german}"
         "<br><br><i>{french}</i>"
@@ -193,6 +186,19 @@ FEEDBACK_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>"
             "<br><br>{explanation_french}"
             "<br><br>Réponse(s) correcte(s) : {correct_answers}",
+    },
+
+    pronominaladverbien: {
+        context:
+            "{german}"
+            "<br><br><i>{french}</i>"
+            "<br><br>Réponse(s) correcte(s) : {correct_answers}"
+            "<br><br>{explanation_french}",
+        prompt:
+            "{user_answer}"
+            "<br><br><i>{translation}</i>"
+            "<br><br>{cefr_level}"
+            "{commentary}",
     },
 
     konnektoren: {

@@ -124,33 +124,23 @@ INSTRUCTION_CATEGORY_EN = {
 }
 
 INSTRUCTION_EXERCISE_EN = {
-
-    alpha: {
-        1: "Write a sentence (or a couple of sentences) that uses the following connector:",
-        2: "Write a sentence (or a couple of sentences) that uses the following question word:",
-        3: "Write a sentence (or a couple of sentences) that uses the following adverb:",
-        4: "Write a sentence (or a couple of sentences) that uses the following adverb:",
-
-        5: "Write a sentence (or a couple of sentences) that uses the following connector:",
-        6: "Write a sentence (or a couple of sentences) that uses the following question word:",
-        7: "Write a sentence (or a couple of sentences) that uses the following adverb:",
-        8: "Write a sentence (or a couple of sentences) that uses the following adverb:",
-        9: "Write a sentence (or a couple of sentences) that uses the following adverb:",
-    },
-
     praepositionen: {
-        40: "Translate the following prepositional phrase:",
-        41: "Complete the following sentence with the prepositional phrase that fits:",
+        45: "Translate the following prepositional phrase:",
+        46: "Complete the following sentence with the prepositional phrase that fits:",
     },
 
     pronominaladverbien: {
         1: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
-
         2: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
-        3: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
-        4: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
 
-        5: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
+        3: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
+        4: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
+        5: "Write one or two German sentences using the following word in <i>Da</i>:",
+        6: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
+        7: "Write one or two German sentences using the following word in <i>Wo</i>:",
+
+        8: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
+        9: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
     },
 
     artikel: {
@@ -641,5 +631,18 @@ INSTRUCTION_EXERCISE_EN = {
 
         23: "Write the genitive form of the following number in words:",
         24: "Complete the following sentence with the genitive form of the number that fits:",
+    },
+
+    alpha: {
+        1: "Write a sentence (or a couple of sentences) that uses the following connector:",
+        2: "Write a sentence (or a couple of sentences) that uses the following question word:",
+        3: "Write a sentence (or a couple of sentences) that uses the following adverb:",
+        4: "Write a sentence (or a couple of sentences) that uses the following adverb:",
+
+        5: "Write a sentence (or a couple of sentences) that uses the following connector:",
+        6: "Write a sentence (or a couple of sentences) that uses the following question word:",
+        7: "Write a sentence (or a couple of sentences) that uses the following adverb:",
+        8: "Write a sentence (or a couple of sentences) that uses the following adverb:",
+        9: "Write a sentence (or a couple of sentences) that uses the following adverb:",
     },
 }

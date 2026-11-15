@@ -1,5 +1,4 @@
 from data.data_processing.paths import df_units
-from data.data_processing.exercises import get_multiple_choice_extent
 from data.data_processing.pre_processing import pre_processing
 
 
@@ -31,7 +30,7 @@ def load_data_exercise(unit, exercise):
     data = data.fillna("")
     return data
 
-
+'''
 def load_data_level(unit, exercise):
     """
     Loads and preprocesses exercise data for a given unit and exercise,
@@ -46,7 +45,7 @@ def load_data_level(unit, exercise):
 
     data = pre_processing(data, unit, exercise)
     return data.fillna("")
-
+'''
 
 def load_data_question(unit, exercise, question_id):
     try:

@@ -13,10 +13,6 @@ context = 'context'
 synonym = 'synonym'
 antonym = 'antonym'
 
-multiple_choice = 'multiple_choice'
-multiple_choice_native = 'multiple_choice_native'
-multiple_choice_target = 'multiple_choice_target'
-
 word_order = 'word_order'
 prompt = 'prompt'
 
@@ -77,33 +73,6 @@ def is_exercise_synonym(unit, exercise):
     ].empty
 
 
-def is_exercise_multiple_choice(unit, exercise):
-    df = df_exercises
-    return not df[
-        (df['unit'] == unit) &
-        (df['exercise'] == exercise) &
-        (df['category'] == 'multiple_choice')
-        ].empty
-
-
-def is_exercise_multiple_choice_native(unit, exercise):
-    df = df_exercises
-    return not df[
-        (df['unit'] == unit) &
-        (df['exercise'] == exercise) &
-        (df['subcategory'] == 'multiple_choice_native')
-        ].empty
-
-
-def is_exercise_multiple_choice_target(unit, exercise):
-    df = df_exercises
-    return not df[
-        (df['unit'] == unit) &
-        (df['exercise'] == exercise) &
-        (df['subcategory'] == 'multiple_choice_target')
-        ].empty
-
-
 def is_exercise_word_order(unit, exercise):
     df = df_exercises
     return not df[
@@ -120,63 +89,6 @@ def is_exercise_prompt(unit, exercise):
         (df['exercise'] == exercise) &
         (df['category'] == 'prompt')
     ].empty
-
-
-def get_answer_column(unit, exercise, language):
-    """
-    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
-    and returns the list of exercise IDs to include.
-    """
-
-    if is_exercise_multiple_choice_native(unit, exercise):
-        return language
-
-    else:
-        return 'answer'
-
-
-def get_question_column(unit, exercise, language):
-    """
-    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
-    and returns the list of exercise IDs to include.
-    """
-
-    if is_exercise_multiple_choice_native(unit, exercise):
-        return 'german'
-
-    else:
-        return language
-
-
-def get_multiple_choice_extent(unit, exercise):
-    """
-    Reads the mapping/levels CSV (with columns: unit, exercise, extent)
-    and returns the list of exercise IDs to include.
-    """
-    df = df_exercises
-
-    level = get_level_from_exercise(unit, exercise, df=df)
-
-    row = df[
-        (df["unit"] == unit) &
-        (df["exercise"] == exercise)
-    ]
-
-    if row.empty:
-        return ''
-
-    exercise_subcategory = row["subcategory"].iloc[0]
-
-    if exercise_subcategory not in ["multiple_choice_target", "multiple_choice_native"]:
-        return ''
-
-    exercises = df[
-        (df["unit"] == unit) &
-        (df["level"] == level) &
-        (df["subcategory"] == exercise_subcategory)
-    ]["exercise"].tolist()
-
-    return exercises
 
 
 def does_unit_exercise_exist(unit, exercise, df=df_exercises):
