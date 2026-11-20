@@ -1,11 +1,11 @@
 """Shared test fixtures and utilities."""
 
 import pytest
-from flask import Flask, Blueprint
+from flask import Blueprint, Flask
 from flask_login import LoginManager
 
 from users.rate_limiting.decorator import rate_limit_exercise_submission
-from users.users.models import db, User
+from users.users.models import User, db
 
 
 @pytest.fixture
@@ -25,9 +25,9 @@ def app():
         return User.query.get(int(user_id))
 
     # Create test blueprint with rate-limited endpoint
-    bp = Blueprint('test', __name__)
+    bp = Blueprint("test", __name__)
 
-    @bp.route('/test-endpoint', methods=['POST'])
+    @bp.route("/test-endpoint", methods=["POST"])
     @rate_limit_exercise_submission
     def test_endpoint():
         return {"status": "ok"}
@@ -54,8 +54,5 @@ def make_test_user(email):
 def redis_client():
     """Get a fake Redis client for testing."""
     import fakeredis
+
     return fakeredis.FakeRedis(decode_responses=False)
-
-
-
-

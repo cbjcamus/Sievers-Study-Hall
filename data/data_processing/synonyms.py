@@ -1,4 +1,5 @@
 import os
+
 import pandas as pd
 
 from data.data_processing.data_loading import load_data_question
@@ -8,7 +9,14 @@ SYNONYMS_PATH = os.path.join(BASE_DIR, "datasets/other", "synonyms.csv")
 df_synonyms = pd.read_csv(SYNONYMS_PATH)
 
 
-def get_list_of_synonyms_for_feedback(correct_answer, unit, exercise, question_id, exercise_is_synonym=False, df=df_synonyms):
+def get_list_of_synonyms_for_feedback(
+    correct_answer,
+    unit,
+    exercise,
+    question_id,
+    exercise_is_synonym=False,
+    df=df_synonyms,
+):
     """
     Retrieves a comma-separated list of synonyms corresponding to a given main answer.
 
@@ -26,19 +34,18 @@ def get_list_of_synonyms_for_feedback(correct_answer, unit, exercise, question_i
     """
 
     if exercise_is_synonym:
-        synonym_from_question = load_data_question(unit, exercise, question_id).get("question")
+        synonym_from_question = load_data_question(unit, exercise, question_id).get(
+            "question"
+        )
         filtered = df[
-            (df['unit'] == unit) &
-            (df['output'] == correct_answer) &
-            (df['input'] != synonym_from_question)
-            ]
+            (df["unit"] == unit)
+            & (df["output"] == correct_answer)
+            & (df["input"] != synonym_from_question)
+        ]
     else:
-        filtered = df[
-            (df['unit'] == unit) &
-            (df['output'] == correct_answer)
-            ]
+        filtered = df[(df["unit"] == unit) & (df["output"] == correct_answer)]
 
-    return filtered['input'].tolist()
+    return filtered["input"].tolist()
 
 
 def get_list_of_synonyms(correct_answer, unit, df=df_synonyms):
@@ -57,6 +64,6 @@ def get_list_of_synonyms(correct_answer, unit, df=df_synonyms):
     Returns:
         str: A comma-separated string of synonyms for the given answer.
     """
-    filtered = df[(df['unit'] == unit) & (df['output'] == correct_answer)]
-    correct_answers = [correct_answer] + filtered['input'].to_list()
+    filtered = df[(df["unit"] == unit) & (df["output"] == correct_answer)]
+    correct_answers = [correct_answer] + filtered["input"].to_list()
     return correct_answers

@@ -1,12 +1,10 @@
 import pandas as pd
-
 from flask_login import current_user
 
 from data.data_processing.data_loading import load_data_exercise
 from data.data_processing.exercises import is_exercise_prompt
-
-from users.users.models import UserExerciseState
 from users.questions.content_format import format_feedback
+from users.users.models import UserExerciseState
 
 
 def get_incorrect_answers(session, unit, exercise):
@@ -35,20 +33,20 @@ def get_incorrect_answers(session, unit, exercise):
 
     if current_user.is_authenticated:
         row = UserExerciseState.query.filter_by(
-            user_id=current_user.id,
-            unit=unit,
-            exercise=ex_int
+            user_id=current_user.id, unit=unit, exercise=ex_int
         ).first()
 
         if row and row.state:
             incorrect = row.state.get("incorrect") or {}
 
             return {
-                k: v if isinstance(v, dict) else {
+                k: v
+                if isinstance(v, dict)
+                else {
                     "answer": v,
                     "translation": "",
                     "cefr_level": "",
-                    "commentary": ""
+                    "commentary": "",
                 }
                 for k, v in incorrect.items()
             }
@@ -59,10 +57,7 @@ def get_incorrect_answers(session, unit, exercise):
         ids = exercise_state.get("falses", [])
         answers = exercise_state.get("incorrect_answer", [])
 
-        return {
-            int(question_id): answer
-            for question_id, answer in zip(ids, answers)
-        }
+        return {int(question_id): answer for question_id, answer in zip(ids, answers)}
 
 
 def get_feedback_exercise(session, unit, exercise, language, incorrect):
@@ -89,17 +84,11 @@ def get_feedback_exercise(session, unit, exercise, language, incorrect):
     data = load_data_exercise(unit, exercise)
     data = data[data["Nr"].isin(incorrect_ids)]
 
-    data["Nr"] = pd.Categorical(
-        data["Nr"],
-        categories=incorrect_ids,
-        ordered=True
-    )
+    data["Nr"] = pd.Categorical(data["Nr"], categories=incorrect_ids, ordered=True)
 
     data = data.sort_values("Nr")
 
-    data["user_answer"] = data["Nr"].apply(
-        lambda nr: incorrect[str(int(nr))]["answer"]
-    )
+    data["user_answer"] = data["Nr"].apply(lambda nr: incorrect[str(int(nr))]["answer"])
 
     if is_exercise_prompt(unit, exercise):
         data["translation"] = data["Nr"].apply(
@@ -137,7 +126,6 @@ def format_feedbacks(df, unit, exercise, language):
     result = []
 
     for _, row in df.iterrows():
-
         question_id = row.get("Nr", "")
 
         user_answer = row.get("user_answer", None)
@@ -145,8 +133,16 @@ def format_feedbacks(df, unit, exercise, language):
         cefr_level = row.get("cefr_level", None)
         commentary = row.get("commentary", None)
 
-        formatted = format_feedback(unit, exercise, language, question_id, user_answer=user_answer,
-                                    translation=translation, cefr_level=cefr_level, commentary=commentary)
+        formatted = format_feedback(
+            unit,
+            exercise,
+            language,
+            question_id,
+            user_answer=user_answer,
+            translation=translation,
+            cefr_level=cefr_level,
+            commentary=commentary,
+        )
 
         result.append(formatted)
     return result

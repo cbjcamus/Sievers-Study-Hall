@@ -1,15 +1,14 @@
 from data.data_processing.exercises import prompt
-
 from data.data_processing.units import (
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha, perfekt,
+    adjektive,
+    adverbien,
+    alpha,
+    fragen,
+    konnektoren,
+    perfekt,
+    praepositionen,
+    praepositionen_verben,
+    verben,
 )
 
 prompt_praepositionen = """
@@ -312,44 +311,27 @@ PROMPT_UNIT_FR = {
     alpha: prompt_konnektoren,
 }
 
-PROMPT_CATEGORY_FR = {
-
-}
+PROMPT_CATEGORY_FR = {}
 
 PROMPT_SUBCATEGORY_FR = {
-    praepositionen: {
-        prompt: prompt_praepositionen
-    },
-
-    praepositionen_verben: {
-        prompt: prompt_praepositionen_verben
-    },
-
+    praepositionen: {prompt: prompt_praepositionen},
+    praepositionen_verben: {prompt: prompt_praepositionen_verben},
     konnektoren: {
         prompt: prompt_konnektoren,
     },
-
     fragen: {
         prompt: prompt_fragen,
     },
-
     adverbien: {
         prompt: prompt_adverbien,
     },
-
     verben: {
         prompt: prompt_verben,
     },
-
     adjektive: {
         prompt: prompt_adjektive,
     },
-
-    perfekt: {
-        prompt: prompt_perfekt
-    },
+    perfekt: {prompt: prompt_perfekt},
 }
 
-PROMPT_EXERCISE_FR = {
-
-}
+PROMPT_EXERCISE_FR = {}

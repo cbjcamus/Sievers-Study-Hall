@@ -33,7 +33,14 @@ def read_feedback(session):
     cefr_level = feedback.get("cefr_level", "")
     commentary = feedback.get("commentary", "")
 
-    return result, user_answer, previous_question_id, translation, cefr_level, commentary
+    return (
+        result,
+        user_answer,
+        previous_question_id,
+        translation,
+        cefr_level,
+        commentary,
+    )
 
 
 def add_new_id_in_session(session, dictionary, key, question_id):

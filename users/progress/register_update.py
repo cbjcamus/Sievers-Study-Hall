@@ -1,13 +1,15 @@
+from datetime import UTC, datetime
+
 from flask_login import current_user
 
-from datetime import datetime, timezone
-
 from data.data_processing.total_questions import total_question_exercises
-
-from users.users.models import db, UserExerciseState
 from users.progress.score import compute_score
 from users.session_management.logging import log_exercise_completed
-from users.session_management.verification_session import is_key_in_exercise, init_session_key
+from users.session_management.verification_session import (
+    init_session_key,
+    is_key_in_exercise,
+)
+from users.users.models import UserExerciseState, db
 
 
 def register_progress(session, unit, exercise, nr):
@@ -37,39 +39,54 @@ def register_progress(session, unit, exercise, nr):
             user_id=current_user.id, unit=unit, exercise=ex_int
         ).first()
         if not row:
-            row = UserExerciseState(user_id=current_user.id, unit=unit, exercise=ex_int, state={})
+            row = UserExerciseState(
+                user_id=current_user.id, unit=unit, exercise=ex_int, state={}
+            )
             db.session.add(row)
 
         s = row.state or {}
-        correct_nrs = set(int(n) for n in s.get("correct_nrs", []))
-        incorrect   = {int(k): v for k, v in (s.get("incorrect") or {}).items()}
+        correct_nrs = {int(n) for n in s.get("correct_nrs", [])}
+        incorrect = {int(k): v for k, v in (s.get("incorrect") or {}).items()}
 
-        correct_nrs.add(nr_int)          # mark this Nr as correct
+        correct_nrs.add(nr_int)  # mark this Nr as correct
         # incorrect.pop(nr_int, None)      # remove from incorrect if it was there
 
         # keep any existing finished fields if they exist (won’t in progress)
-        next_state = {"correct_nrs": sorted(correct_nrs), "incorrect": {str(k): v for k, v in incorrect.items()}}
-        if "score" in s: next_state["score"] = s["score"]
-        if "total_questions" in s: next_state["total_questions"] = s["total_questions"]
+        next_state = {
+            "correct_nrs": sorted(correct_nrs),
+            "incorrect": {str(k): v for k, v in incorrect.items()},
+        }
+        if "score" in s:
+            next_state["score"] = s["score"]
+        if "total_questions" in s:
+            next_state["total_questions"] = s["total_questions"]
 
         row.state = next_state
-        row.updated_at = datetime.now(timezone.utc)
+        row.updated_at = datetime.now(UTC)
         db.session.commit()
         return
 
     else:
-        #if (unit, exercise) not in session['unfinished_exercise']:
+        # if (unit, exercise) not in session['unfinished_exercise']:
         #    session['unfinished_exercise'].append((unit, exercise))
 
-        init_session_key(session, unit, exercise, 'progress')
-        session[unit][str(exercise)]['progress'].append(nr)
+        init_session_key(session, unit, exercise, "progress")
+        session[unit][str(exercise)]["progress"].append(nr)
 
         # add_new_id_in_session(session, "current_exercise", "progress", nr)
         return
 
 
-def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer,
-                              translation=None, cefr_level=None, commentary=None, ):
+def register_incorrect_answer(
+    session,
+    unit,
+    exercise,
+    nr,
+    incorrect_answer,
+    translation=None,
+    cefr_level=None,
+    commentary=None,
+):
     """
     Stores the user's incorrect answer for a given unit and exercise.
 
@@ -95,19 +112,18 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer,
             user_id=current_user.id, unit=unit, exercise=ex_int
         ).first()
         if not row:
-            row = UserExerciseState(user_id=current_user.id, unit=unit, exercise=ex_int, state={})
+            row = UserExerciseState(
+                user_id=current_user.id, unit=unit, exercise=ex_int, state={}
+            )
             db.session.add(row)
 
         s = row.state or {}
         # Use Nrs for in-progress state
         correct_nrs = {int(n) for n in s.get("correct_nrs", [])}
         incorrect = {
-            int(k): v if isinstance(v, dict) else {
-                "answer": v,
-                "translation": "",
-                "cefr_level": "",
-                "commentary": ""
-            }
+            int(k): v
+            if isinstance(v, dict)
+            else {"answer": v, "translation": "", "cefr_level": "", "commentary": ""}
             for k, v in (s.get("incorrect") or {}).items()
         }
 
@@ -135,7 +151,7 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer,
             next_state["total_questions"] = s["total_questions"]
 
         row.state = next_state
-        row.updated_at = datetime.now(timezone.utc)
+        row.updated_at = datetime.now(UTC)
 
         db.session.commit()
         return
@@ -144,8 +160,8 @@ def register_incorrect_answer(session, unit, exercise, nr, incorrect_answer,
         # if (unit, exercise) not in session['unfinished_exercise']:
         #     session['unfinished_exercise'].append((unit, exercise))
 
-        init_session_key(session, unit, exercise, 'falses')
-        session[unit][str(exercise)]['falses'].append(nr)
+        init_session_key(session, unit, exercise, "falses")
+        session[unit][str(exercise)]["falses"].append(nr)
 
         # add_new_id_in_session(session, "current_exercise", "falses", nr)
     return
@@ -197,7 +213,9 @@ def register_result(session, unit, exercise, feedback):
             user_id=current_user.id, unit=unit, exercise=ex_int
         ).first()
         if not row:
-            row = UserExerciseState(user_id=current_user.id, unit=unit, exercise=ex_int, state={})
+            row = UserExerciseState(
+                user_id=current_user.id, unit=unit, exercise=ex_int, state={}
+            )
             db.session.add(row)
 
         # Persist only canonical completion state; drop per-question JSON
@@ -208,7 +226,7 @@ def register_result(session, unit, exercise, feedback):
             "total_questions": total_q,
         }
 
-        row.completed_at = datetime.now(timezone.utc)
+        row.completed_at = datetime.now(UTC)
         row.updated_at = row.completed_at
         db.session.commit()
 
@@ -227,26 +245,26 @@ def register_result(session, unit, exercise, feedback):
         return
 
     else:
-        init_session_key(session, unit, exercise, 'progress')
-        init_session_key(session, unit, exercise, 'falses')
+        init_session_key(session, unit, exercise, "progress")
+        init_session_key(session, unit, exercise, "falses")
 
         score_exercise = compute_score(session, unit, exercise)
-        session[unit][str(exercise)]['result'] = score_exercise
+        session[unit][str(exercise)]["result"] = score_exercise
 
         if len(feedback) > 0:
             log_exercise_completed(unit, exercise, score_exercise)
 
-        if is_key_in_exercise(session, unit, exercise, 'progress'):
-            del session[unit][str(exercise)]['progress']
+        if is_key_in_exercise(session, unit, exercise, "progress"):
+            del session[unit][str(exercise)]["progress"]
 
-        if is_key_in_exercise(session, unit, exercise, 'falses'):
-            del session[unit][str(exercise)]['falses']
+        if is_key_in_exercise(session, unit, exercise, "falses"):
+            del session[unit][str(exercise)]["falses"]
 
-        if is_key_in_exercise(session, unit, exercise, 'incorrect_answer'):
-            del session[unit][str(exercise)]['incorrect_answer']
+        if is_key_in_exercise(session, unit, exercise, "incorrect_answer"):
+            del session[unit][str(exercise)]["incorrect_answer"]
 
-        if (unit, exercise) in session['unfinished_exercise']:
-            session['unfinished_exercise'].remove((unit, exercise))
+        if (unit, exercise) in session["unfinished_exercise"]:
+            session["unfinished_exercise"].remove((unit, exercise))
 
         session.modified = True
 

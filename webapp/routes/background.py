@@ -1,15 +1,19 @@
-from flask import session
-from flask_login import current_user
 from typing import cast
 
-from . import routes_bp
+from flask import session
+from flask_login import current_user
 
 from data.data_processing.units import units
-
 from users.session_management.logging import log_progress_deleted_from_session
-from users.session_management.print_session import session_size
-from users.session_management.print_session import print_complete_session, print_session_size, print_user_info_from_db
-from users.session_management.verification_session import is_key_in_exercise, is_key_in_session
+from users.session_management.print_session import (
+    session_size,
+)
+from users.session_management.verification_session import (
+    is_key_in_exercise,
+    is_key_in_session,
+)
+
+from . import routes_bp
 
 session = cast(dict, session)
 
@@ -18,8 +22,8 @@ session = cast(dict, session)
 def ensure_session_keys_exist_and_make_session_permanent():
     session.permanent = True
 
-    if 'unfinished_exercise' not in session:
-        session['unfinished_exercise'] = []
+    if "unfinished_exercise" not in session:
+        session["unfinished_exercise"] = []
 
     # print_complete_session(session)
     # print_session_size(session)
@@ -29,29 +33,31 @@ def ensure_session_keys_exist_and_make_session_permanent():
 
 @routes_bp.before_request
 def clear_progress_for_unconnected_users():
-    if not current_user.is_authenticated:
-        if session_size(session) > 3000:
-            if is_key_in_session(session, 'progress'):
-                session.pop('progress')
+    if (
+        not current_user.is_authenticated
+        and session_size(session) > 3000
+        and is_key_in_session(session, "progress")
+    ):
+        session.pop("progress")
 
 
 @routes_bp.before_request
 def delete_old_unfinished_exercise():
     if session_size(session) > 3500:
-        if not session['unfinished_exercise']:
+        if not session["unfinished_exercise"]:
             keys_to_keep = {"_user_id", "_fresh", "_id", "csrf_token"}
             for key in list(session.keys()):
                 if key not in keys_to_keep:
                     session.pop(key, None)
             # session.clear()
         else:
-            unit, exercise = session['unfinished_exercise'][0]
+            unit, exercise = session["unfinished_exercise"][0]
             if unit in session and str(exercise) in session[unit]:
                 log_progress_deleted_from_session(unit, exercise)
                 del session[unit][str(exercise)]
 
-            session['unfinished_exercise'].remove((unit, exercise))
-            session['popup'] = {'unit': unit, 'exercise': exercise}
+            session["unfinished_exercise"].remove((unit, exercise))
+            session["popup"] = {"unit": unit, "exercise": exercise}
 
         # print(f"Progress deleted for {unit} {exercise}")
 
@@ -66,10 +72,12 @@ def clear_empty_unit_dictionary(response):
     if session_size(session) > 3000:
         for unit in units:
             for exercise in range(100):
-                if is_key_in_exercise(session, unit, exercise, 'progress'):
-                    if (len(session[unit][str(exercise)]['progress']) == 0
-                            and is_key_in_exercise(session, unit, exercise, 'result') is False):
-                        unit_dict = session.get(unit, {})
-                        unit_dict.pop(str(exercise), None)
-                        session[unit] = unit_dict
+                if (
+                    is_key_in_exercise(session, unit, exercise, "progress")
+                    and len(session[unit][str(exercise)]["progress"]) == 0
+                    and is_key_in_exercise(session, unit, exercise, "result") is False
+                ):
+                    unit_dict = session.get(unit, {})
+                    unit_dict.pop(str(exercise), None)
+                    session[unit] = unit_dict
     return response

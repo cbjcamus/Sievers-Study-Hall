@@ -1,36 +1,43 @@
 import os
-from datetime import datetime, timezone
-from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
+from datetime import UTC, datetime
 
-from flask import current_app
-from flask import render_template, request, redirect, url_for, flash, session
-from flask_login import login_user, current_user, logout_user, login_required
+from flask import (
+    current_app,
+    flash,
+    redirect,
+    render_template,
+    request,
+    session,
+    url_for,
+)
+from flask_login import current_user, login_required, login_user, logout_user
+from itsdangerous import BadSignature, SignatureExpired, URLSafeTimedSerializer
 
 from data.content.application.buttons import HOMEPAGE
-from data.data_processing.units import units
 from data.data_processing.data_loading import load_data_exercise
 from data.data_processing.total_questions import total_question_exercises
-
-from users.users.models import db, User, UserExerciseState
-from users.users.service import make_qid
+from data.data_processing.units import units
 from users.session_management.logging import log_new_signup
-
+from users.users.models import User, UserExerciseState, db
+from users.users.service import make_qid
 from webapp.i18n import get_language
 from webapp.routes.settings_api import get_or_create_settings
 
 from . import routes_bp
 
-
 RESET_SALT = "password-reset"  # just a constant string
+
 
 def _make_serializer():
     # uses your Flask SECRET_KEY
     return URLSafeTimedSerializer(current_app.config["SECRET_KEY"])
 
+
 def generate_reset_token(user):
     s = _make_serializer()
     # encode user id (or email); id is fine
     return s.dumps({"uid": user.id}, salt=RESET_SALT)
+
 
 def verify_reset_token(token, max_age_seconds=3600):
     s = _make_serializer()
@@ -43,8 +50,11 @@ def verify_reset_token(token, max_age_seconds=3600):
     uid = data.get("uid")
     return User.query.get(uid)
 
-import smtplib, ssl
+
+import smtplib
+import ssl
 from email.message import EmailMessage
+
 
 def send_password_reset_email(to_email, reset_url):
     msg = EmailMessage()
@@ -61,6 +71,7 @@ def send_password_reset_email(to_email, reset_url):
         s.login(os.environ["MAIL_USERNAME"], os.environ["MAIL_PASSWORD"])
         s.send_message(msg)
 
+
 # --- Forgot password: request form ---
 @routes_bp.route("/forgot-password", methods=["GET", "POST"])
 def forgot_password():
@@ -75,7 +86,9 @@ def forgot_password():
         user = User.query.filter_by(email=email).first()
         if user:
             token = generate_reset_token(user)
-            reset_url = url_for("routes.reset_password", token=token, _external=True, _scheme="https")
+            reset_url = url_for(
+                "routes.reset_password", token=token, _external=True, _scheme="https"
+            )
             send_password_reset_email(email, reset_url)
             current_app.logger.info(f"[reset-link] {reset_url}")
             flash("If that email exists, a reset link has been sent.", "info")
@@ -88,8 +101,8 @@ def forgot_password():
         return redirect(url_for("routes.signin"))
 
     page = {
-        'english': 'authorization/forgot_password_en.html',
-        'french': 'authorization/forgot_password_fr.html',
+        "english": "authorization/forgot_password_en.html",
+        "french": "authorization/forgot_password_fr.html",
     }
 
     return render_template(page[language])
@@ -128,12 +141,11 @@ def reset_password(token):
         return redirect(url_for("routes.signin"))
 
     page = {
-        'english': 'authorization/reset_password_en.html',
-        'french': 'authorization/reset_password_fr.html',
+        "english": "authorization/reset_password_en.html",
+        "french": "authorization/reset_password_fr.html",
     }
 
-    return render_template(page[language],
-                           token=token)
+    return render_template(page[language], token=token)
 
 
 @routes_bp.route("/signin", methods=["GET", "POST"])
@@ -161,18 +173,19 @@ def signin():
         try:
             get_or_create_settings(current_user.id)
         except Exception:
-            pass
+            current_app.logger.exception("Failed to initialize user settings")
 
         return redirect(next_url)
 
     page = {
-        'english': 'authorization/signin_en.html',
-        'french': 'authorization/signin_fr.html',
+        "english": "authorization/signin_en.html",
+        "french": "authorization/signin_fr.html",
     }
 
-    return render_template(page[language],
-                           homepage=HOMEPAGE[language],
-                           )
+    return render_template(
+        page[language],
+        homepage=HOMEPAGE[language],
+    )
 
 
 @routes_bp.route("/signup", methods=["GET", "POST"])
@@ -213,18 +226,19 @@ def signup():
         try:
             get_or_create_settings(current_user.id)
         except Exception:
-            pass
+            current_app.logger.exception("Failed to initialize user settings")
 
         return redirect(url_for("routes.home"))
 
     page = {
-        'english': 'authorization/signup_en.html',
-        'french': 'authorization/signup_fr.html',
+        "english": "authorization/signup_en.html",
+        "french": "authorization/signup_fr.html",
     }
 
-    return render_template(page[language],
-                           homepage=HOMEPAGE[language],
-                           )
+    return render_template(
+        page[language],
+        homepage=HOMEPAGE[language],
+    )
 
 
 @routes_bp.route("/signout", methods=["POST"])
@@ -255,8 +269,10 @@ def merge_anonymous_progress_in_database():
             # ---- Load current exercise data (MUST exist) ----
             try:
                 df = load_data_exercise(unit, ex)  # <-- pass INT, not str
-            except Exception as e:
-                print(f"[merge] skip {unit}/{ex}: load_data_exercise failed: {e}")
+            except Exception:
+                current_app.logger.exception(
+                    "[merge] skip %s/%s: load_data_exercise failed", unit, ex
+                )
                 continue
             if df is None or len(df) == 0:
                 print(f"[merge] skip {unit}/{ex}: empty dataset")
@@ -274,28 +290,38 @@ def merge_anonymous_progress_in_database():
             for _, row in df.iterrows():
                 try:
                     nr = int(row["Nr"])
-                except Exception:
+                except (KeyError, TypeError, ValueError, OverflowError):
+                    current_app.logger.warning("[merge] skipping row with invalid question number")
                     continue
                 qid = make_qid(
-                    unit, ex,
+                    unit,
+                    ex,
                     str(row.get("question", "")),
                     str(row.get("answer", "")),
                     str(row.get("type", "")),
                 )
                 nr_to_qid[nr] = qid
 
-            progress_nrs = [int(n) for n in (ex_data.get("progress") or []) if str(n).isdigit()]
-            falses_nrs   = [int(n) for n in (ex_data.get("falses")   or []) if str(n).isdigit()]
-            wrong_texts  = list(ex_data.get("incorrect_answer", [])) or []
+            progress_nrs = [
+                int(n) for n in (ex_data.get("progress") or []) if str(n).isdigit()
+            ]
+            falses_nrs = [
+                int(n) for n in (ex_data.get("falses") or []) if str(n).isdigit()
+            ]
+            wrong_texts = list(ex_data.get("incorrect_answer", [])) or []
 
-            has_detail  = bool(progress_nrs or falses_nrs)
+            has_detail = bool(progress_nrs or falses_nrs)
             has_summary = "result" in ex_data
             if not has_detail and not has_summary:
                 continue
 
-            row = UserExerciseState.query.filter_by(user_id=current_user.id, unit=unit, exercise=ex).first()
+            row = UserExerciseState.query.filter_by(
+                user_id=current_user.id, unit=unit, exercise=ex
+            ).first()
             if not row:
-                row = UserExerciseState(user_id=current_user.id, unit=unit, exercise=ex, state={})
+                row = UserExerciseState(
+                    user_id=current_user.id, unit=unit, exercise=ex, state={}
+                )
                 db.session.add(row)
 
             if has_summary:
@@ -306,20 +332,26 @@ def merge_anonymous_progress_in_database():
                 correct = sorted(set(progress_nrs) - set(falses_nrs))
                 inc_map = {}
                 for i, nr in enumerate(falses_nrs):
-                    if nr in correct or nr in inc_map: continue
+                    if nr in correct or nr in inc_map:
+                        continue
                     inc_map[nr] = wrong_texts[i] if i < len(wrong_texts) else ""
                 # merge with any existing counts/nrs
                 s_old = row.state or {}
-                old_correct = set(int(n) for n in s_old.get("correct_nrs", []))
-                old_incorrect = {int(k): v for k, v in (s_old.get("incorrect") or {}).items()}
+                old_correct = {int(n) for n in s_old.get("correct_nrs", [])}
+                old_incorrect = {
+                    int(k): v for k, v in (s_old.get("incorrect") or {}).items()
+                }
                 # promote if needed
-                for n in correct: old_incorrect.pop(n, None)
+                for n in correct:
+                    old_incorrect.pop(n, None)
                 row.state = {
                     "correct_nrs": sorted(old_correct | set(correct)),
-                    "incorrect": {str(k): v for k, v in {**old_incorrect, **inc_map}.items()},
+                    "incorrect": {
+                        str(k): v for k, v in {**old_incorrect, **inc_map}.items()
+                    },
                 }
 
-            row.updated_at = datetime.now(timezone.utc)
+            row.updated_at = datetime.now(UTC)
             db.session.commit()
             # then trim session keys
             for key in ("progress", "falses", "incorrect_answer"):
@@ -331,7 +363,5 @@ def clean_session_after_signing_up():
         if unit in session:
             del session[unit]
 
-    if 'unfinished_exercise' in session:
-        del session['unfinished_exercise']
-
-    return
+    if "unfinished_exercise" in session:
+        del session["unfinished_exercise"]

@@ -1,3 +1,7 @@
+import logging
+
+logger = logging.getLogger(__name__)
+
 LANG_CODES = ("en", "fr")
 DICT_KEYS = {"en": "english", "fr": "french"}
 
@@ -25,7 +29,7 @@ def get_lang_code(request=None, session=None):
             if match:
                 return match
     except Exception:
-        pass
+        logger.exception("Failed to determine language; defaulting to English")
 
     return "en"
 

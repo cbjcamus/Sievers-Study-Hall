@@ -1,9 +1,13 @@
-import unicodedata
 import string
+import unicodedata
 
-from data.data_processing.synonyms import get_list_of_synonyms_for_feedback, df_synonyms, get_list_of_synonyms
-from data.data_processing.exercises import is_exercise_synonym, get_answer_column
 from data.data_processing.data_loading import load_data_question
+from data.data_processing.exercises import get_answer_column, is_exercise_synonym
+from data.data_processing.synonyms import (
+    df_synonyms,
+    get_list_of_synonyms,
+    get_list_of_synonyms_for_feedback,
+)
 
 
 def get_correct_answer(unit, exercise, question_id, language):
@@ -58,8 +62,12 @@ def is_user_answer_correct(unit, exercise, question_id, user_answer, language):
         correct_answers = [normalize_answer(answer) for answer in correct_answers]
         return user_answer in correct_answers
     else:
-        correct_answers = get_list_of_synonyms(lowercase_first_letter(correct_answer), unit)
-        correct_answers = [normalize_answer(correct_answer_) for correct_answer_ in correct_answers]
+        correct_answers = get_list_of_synonyms(
+            lowercase_first_letter(correct_answer), unit
+        )
+        correct_answers = [
+            normalize_answer(correct_answer_) for correct_answer_ in correct_answers
+        ]
         return user_answer in correct_answers
 
 
@@ -139,7 +147,7 @@ def normalize_umlaut(input_str):
     Returns:
         str: The normalized string.
     """
-    return unicodedata.normalize('NFC', input_str)
+    return unicodedata.normalize("NFC", input_str)
 
 
 def replace_umlaut(input_str):
@@ -165,7 +173,14 @@ def replace_german_characters(input_string):
     return output_string
 
 
-def get_list_of_correct_answers(correct_answer, unit, exercise, question_id, with_synonym_question=False, bullet_points=False):
+def get_list_of_correct_answers(
+    correct_answer,
+    unit,
+    exercise,
+    question_id,
+    with_synonym_question=False,
+    bullet_points=False,
+):
     """
     Returns a comma-separated list of all valid correct answers for a given input.
 
@@ -186,7 +201,7 @@ def get_list_of_correct_answers(correct_answer, unit, exercise, question_id, wit
         answers = correct_answer.split("/")
 
         if bullet_points:
-            return ''.join(f"<br><br>{answer}" for answer in answers)
+            return "".join(f"<br><br>{answer}" for answer in answers)
 
         return answers
 
@@ -200,9 +215,8 @@ def get_list_of_correct_answers(correct_answer, unit, exercise, question_id, wit
             exercise,
             question_id,
             exercise_is_synonym=(
-                False if with_synonym_question
-                else is_exercise_synonym(unit, exercise)
-            )
+                False if with_synonym_question else is_exercise_synonym(unit, exercise)
+            ),
         )
 
         return [correct_answer] + synonyms
@@ -212,12 +226,11 @@ def get_first_correct_answer(correct_answer):
 
     if "/" in correct_answer:
         answers = correct_answer.split("/")
-        #return remove_punctuation(answers[0])
+        # return remove_punctuation(answers[0])
         return answers[0]
     else:
-        #return remove_punctuation(correct_answer)
+        # return remove_punctuation(correct_answer)
         return correct_answer
-
 
 
 def lowercase_first_letter(s):
@@ -252,10 +265,10 @@ def search_for_main_synonym(input_str, unit, df=df_synonyms):
     Returns:
         str: The main synonym for the input string, or the original string if no match is found.
     """
-    df = df[df['unit'] == unit].copy()
-    df['input'] = df['input'].str.lower()
-    df['input'] = [replace_german_characters(entry) for entry in df['input']]
-    df['input'] = [remove_punctuation(entry) for entry in df['input']]
+    df = df[df["unit"] == unit].copy()
+    df["input"] = df["input"].str.lower()
+    df["input"] = [replace_german_characters(entry) for entry in df["input"]]
+    df["input"] = [remove_punctuation(entry) for entry in df["input"]]
 
     mapping = dict(zip(df["input"], df["output"]))
 

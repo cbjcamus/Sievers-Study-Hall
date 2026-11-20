@@ -80,8 +80,6 @@ def init_session_key(session, unit, exercise, key):
     if key not in session[unit][str(exercise)]:
         session[unit][str(exercise)][key] = []
 
-    return
-
 
 def is_key_in_session(session, key):
     return key in session

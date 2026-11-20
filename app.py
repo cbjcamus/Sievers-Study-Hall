@@ -1,22 +1,27 @@
 import os
 from datetime import timedelta
+
 from flask import Flask
-from flask_mail import Mail
 from flask_login import LoginManager
+from flask_mail import Mail
 
+from users.users.models import User, db
 from webapp.routes import routes_bp
-from users.users.models import db, User
 
-app = Flask(__name__,
-            static_url_path='/webapp/static',
-            static_folder='webapp/static',
-            template_folder='webapp/templates')
+app = Flask(
+    __name__,
+    static_url_path="/webapp/static",
+    static_folder="webapp/static",
+    template_folder="webapp/templates",
+)
 
-secret_key = os.environ.get('FLASK_SECRET_KEY')
+secret_key = os.environ.get("FLASK_SECRET_KEY")
 if not secret_key:
-    if os.environ.get('FLASK_ENV') == 'production':
-        raise ValueError('FLASK_SECRET_KEY environment variable must be set in production')
-    secret_key = 'dev-only-insecure-key'
+    if os.environ.get("FLASK_ENV") == "production":
+        raise ValueError(
+            "FLASK_SECRET_KEY environment variable must be set in production"
+        )
+    secret_key = "dev-only-insecure-key"
 app.secret_key = secret_key
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///prod.db"
@@ -37,14 +42,16 @@ db.init_app(app)
 login_manager = LoginManager(app)
 login_manager.login_view = "routes.signin"
 
+
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
 
+
 app.register_blueprint(routes_bp)
 
-app.config['SESSION_PERMANENT'] = True
-app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=30)
+app.config["SESSION_PERMANENT"] = True
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(days=30)
 
 with app.app_context():
     db.create_all()

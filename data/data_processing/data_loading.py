@@ -1,5 +1,5 @@
-from data.data_processing.paths import df_units
 from data.data_processing.exercises import get_multiple_choice_extent
+from data.data_processing.paths import df_units
 from data.data_processing.pre_processing import pre_processing
 
 
@@ -26,7 +26,7 @@ def load_data_exercise(unit, exercise):
         pandas.DataFrame: The cleaned and preprocessed data for the specified exercise.
     """
     data = df_units[unit]
-    data = data[data['exercise'] == exercise].copy()
+    data = data[data["exercise"] == exercise].copy()
     data = pre_processing(data, unit, exercise)
     data = data.fillna("")
     return data
@@ -41,8 +41,8 @@ def load_data_level(unit, exercise):
 
     extent = get_multiple_choice_extent(unit, int(exercise))
 
-    data['exercise'] = data['exercise'].astype(int)
-    data = data[data['exercise'].isin(extent)]
+    data["exercise"] = data["exercise"].astype(int)
+    data = data[data["exercise"].isin(extent)]
 
     data = pre_processing(data, unit, exercise)
     return data.fillna("")

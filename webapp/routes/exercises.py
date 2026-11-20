@@ -1,47 +1,93 @@
-from flask import render_template, session, request, redirect, url_for, flash, jsonify, abort
-from flask_login import current_user
 from typing import cast
 
+from flask import (
+    abort,
+    flash,
+    jsonify,
+    redirect,
+    render_template,
+    request,
+    session,
+    url_for,
+)
+from flask_login import current_user
+
+from data.content.application.buttons import (
+    BACK_TO,
+    NEXT,
+    NEXT_QUESTION,
+    SHOW_OPTIONS,
+    SUBMIT,
+)
+from data.content.application.popup import get_popup_text, get_popup_title
+from data.content.application.text import (
+    ADDITIONAL_HELP,
+    CONSULT_FAQ,
+    ENTER_ANSWER_HERE,
+    EXERCISE_TITLE,
+    YOUR_ANSWER,
+)
 from data.content.unit.unit_content_by_language import UNIT_NAME
 from data.content.unit.unit_url_path import UNIT_URL_PATH
-from data.content.application.text import YOUR_ANSWER, EXERCISE_TITLE, ENTER_ANSWER_HERE, ADDITIONAL_HELP, CONSULT_FAQ
-from data.content.application.popup import get_popup_title, get_popup_text
-from data.content.application.buttons import BACK_TO, NEXT, NEXT_QUESTION, SUBMIT, SHOW_OPTIONS
-
-from data.data_processing.units import units
-from data.data_processing.proverbs import get_text_proverb
-from data.data_processing.exercises import (is_exercise_multiple_choice_native, does_unit_exercise_exist,
-    is_exercise_input, is_exercise_word_order, is_exercise_multiple_choice_target,
-                                            get_level_from_exercise, is_exercise_prompt)
 from data.data_processing.data_loading import load_question_text
+from data.data_processing.exercises import (
+    does_unit_exercise_exist,
+    get_level_from_exercise,
+    is_exercise_input,
+    is_exercise_multiple_choice_native,
+    is_exercise_multiple_choice_target,
+    is_exercise_prompt,
+    is_exercise_word_order,
+)
+from data.data_processing.proverbs import get_text_proverb
 from data.data_processing.total_questions import total_question_exercises
-from users.questions.prompting import get_response_from_prompt
-
-from users.users.models import db, UserExerciseState
-from users.users.settings import (is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark,
-    get_filename_full_bookmark, get_filename_flag, are_options_in_multiple_choice_exercises_hidden,
-    are_options_in_word_order_exercises_hidden)
-
-from users.progress.progress import compute_answered_questions, update_progress_in_home_page
-from users.progress.register_update import register_progress, register_incorrect_answer
+from data.data_processing.units import units
 from users.progress.is_exercise_finished import is_exercise_finished
-
-from users.questions.normalization import is_user_answer_correct, get_correct_answer
-from users.questions.content_format import format_instruction, format_question, format_gender, format_guidance, \
-    format_feedback, format_correction, format_options_word_order, format_prompt
-from users.questions.pick_a_question import (pick_a_question, get_options_for_multiple_choice_exercises)
-
-from users.session_management.logging import log_question_flagged
-from users.session_management.session_update import update_session_dictionary, read_feedback
-from users.session_management.verification_session import init_session_key, is_key_in_session
-
+from users.progress.progress import (
+    compute_answered_questions,
+    update_progress_in_home_page,
+)
+from users.progress.register_update import register_incorrect_answer, register_progress
+from users.questions.content_format import (
+    format_correction,
+    format_feedback,
+    format_gender,
+    format_guidance,
+    format_instruction,
+    format_options_word_order,
+    format_prompt,
+    format_question,
+)
+from users.questions.normalization import get_correct_answer, is_user_answer_correct
+from users.questions.pick_a_question import (
+    get_options_for_multiple_choice_exercises,
+    pick_a_question,
+)
+from users.questions.prompting import get_response_from_prompt
 from users.rate_limiting.decorator import rate_limit_exercise_submission
+from users.session_management.logging import log_question_flagged
+from users.session_management.session_update import (
+    read_feedback,
+    update_session_dictionary,
+)
+from users.session_management.verification_session import (
+    init_session_key,
+    is_key_in_session,
+)
+from users.users.models import UserExerciseState, db
+from users.users.settings import (
+    are_options_in_multiple_choice_exercises_hidden,
+    are_options_in_word_order_exercises_hidden,
+    get_filename_empty_bookmark,
+    get_filename_flag,
+    get_filename_full_bookmark,
+    is_feedback_enabled,
+    is_instruction_page_enabled,
+)
+from webapp.i18n import get_language
 
 from . import routes_bp
 from .exercise_completed import render_exercise_completed_template
-
-from webapp.i18n import get_language
-
 
 session = cast(dict, session)
 
@@ -51,11 +97,11 @@ MAX_ANSWER_LENGTH = 10000
 def validate_and_sanitize_answer(answer, max_length=MAX_ANSWER_LENGTH):
     """Validate and sanitize user-submitted exercise answers."""
     if not isinstance(answer, str):
-        abort(400, 'Invalid answer format')
+        abort(400, "Invalid answer format")
     if len(answer) > max_length:
-        abort(413, f'Answer exceeds maximum length of {max_length} characters')
+        abort(413, f"Answer exceeds maximum length of {max_length} characters")
     # Remove null bytes that could cause issues
-    answer = answer.replace('\x00', '')
+    answer = answer.replace("\x00", "")
     return answer.strip()
 
 
@@ -72,13 +118,12 @@ def resolve_unit_redirect(unit):
     new_unit = REMOVED_UNIT_REDIRECTS.get(unit)
 
     if new_unit:
-        return redirect(url_for(
-            "routes.dynamic_route_" + new_unit
-        ), code=301)
+        return redirect(url_for("routes.dynamic_route_" + new_unit), code=301)
 
     return None
 
-@routes_bp.route('/guidance/unit/<unit>/exercise/<int:exercise>')
+
+@routes_bp.route("/guidance/unit/<unit>/exercise/<int:exercise>")
 def guidance(unit, exercise):
     redirected = resolve_unit_redirect(unit)
     if redirected:
@@ -98,28 +143,29 @@ def guidance(unit, exercise):
     guidance_text = format_guidance(unit, exercise, language)
 
     if guidance_text and is_instruction_page_enabled():
-        return render_template("exercise/guidance.html",
-                               unit=unit,
-                               exercise=exercise,
-                               exercise_title=EXERCISE_TITLE[language],
-                               guidance=guidance_text,
-                               additional_help=ADDITIONAL_HELP[language],
-                               consult_faq=CONSULT_FAQ[language],
-                               unit_url_path=UNIT_URL_PATH,
-                               unit_name=UNIT_NAME[language][unit],
-                               answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                               total_questions=total_question_exercises[unit][exercise],
-                               next=NEXT[language],
-                               back_to=BACK_TO[language],
-                               )
+        return render_template(
+            "exercise/guidance.html",
+            unit=unit,
+            exercise=exercise,
+            exercise_title=EXERCISE_TITLE[language],
+            guidance=guidance_text,
+            additional_help=ADDITIONAL_HELP[language],
+            consult_faq=CONSULT_FAQ[language],
+            unit_url_path=UNIT_URL_PATH,
+            unit_name=UNIT_NAME[language][unit],
+            answered_questions=compute_answered_questions(
+                session, unit, exercise=exercise
+            ),
+            total_questions=total_question_exercises[unit][exercise],
+            next=NEXT[language],
+            back_to=BACK_TO[language],
+        )
 
     else:
-        return redirect(url_for('routes.exercise_page',
-                                unit=unit,
-                                exercise=exercise))
+        return redirect(url_for("routes.exercise_page", unit=unit, exercise=exercise))
 
 
-@routes_bp.route('/unit/<unit>/exercise/<int:exercise>')
+@routes_bp.route("/unit/<unit>/exercise/<int:exercise>")
 def exercise_page(unit, exercise):
     redirected = resolve_unit_redirect(unit)
     if redirected:
@@ -143,11 +189,24 @@ def exercise_page(unit, exercise):
 
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
 
-    result, user_answer, previous_question_id, translation, cefr_level, commentary = read_feedback(session)
+    result, user_answer, previous_question_id, translation, cefr_level, commentary = (
+        read_feedback(session)
+    )
 
-    feedback_message = format_feedback(unit, exercise, language, previous_question_id, user_answer, translation, cefr_level, commentary)
+    feedback_message = format_feedback(
+        unit,
+        exercise,
+        language,
+        previous_question_id,
+        user_answer,
+        translation,
+        cefr_level,
+        commentary,
+    )
     previous_question = load_question_text(unit, exercise, previous_question_id)
-    correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
+    correction = format_correction(
+        unit, exercise, language, result, user_answer, previous_question
+    )
 
     gender = format_gender(unit, exercise, language, question_id)
 
@@ -157,18 +216,26 @@ def exercise_page(unit, exercise):
 
     is_feedback_box = not is_feedback_enabled()
 
-    if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
+    if is_key_in_session(session, "popup") and not current_user.is_authenticated:
         clearance_popup_title = get_popup_title(language)
-        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
+        clearance_popup_text = get_popup_text(
+            session["popup"]["unit"], session["popup"]["exercise"], language
+        )
     else:
         clearance_popup_title = None
         clearance_popup_text = None
 
-    options_text = get_options_for_multiple_choice_exercises(unit, exercise, question_id, language)
+    options_text = get_options_for_multiple_choice_exercises(
+        unit, exercise, question_id, language
+    )
 
     exercise_is_input = is_exercise_input(unit, exercise)
-    exercise_is_multiple_choice_native = is_exercise_multiple_choice_native(unit, exercise)
-    exercise_is_multiple_choice_target = is_exercise_multiple_choice_target(unit, exercise)
+    exercise_is_multiple_choice_native = is_exercise_multiple_choice_native(
+        unit, exercise
+    )
+    exercise_is_multiple_choice_target = is_exercise_multiple_choice_target(
+        unit, exercise
+    )
     exercise_is_word_order = is_exercise_word_order(unit, exercise)
     exercise_is_prompt = is_exercise_prompt(unit, exercise)
 
@@ -179,66 +246,67 @@ def exercise_page(unit, exercise):
 
     level_exercise = get_level_from_exercise(unit, exercise)
 
-    return render_template("exercise/exercise.html",
-                           unit=unit,
-                           exercise=exercise,
-                           exercise_title=EXERCISE_TITLE[language],
-                           instruction_text=formated_instruction,
-                           question_text=formated_question_text,
-                           correct_answer=correct_answer,
-                           exercise_is_input=exercise_is_input,
-                           exercise_is_multiple_choice_native=exercise_is_multiple_choice_native,
-                           exercise_is_multiple_choice_target=exercise_is_multiple_choice_target,
-                           exercise_is_word_order=exercise_is_word_order,
-                           exercise_is_prompt=exercise_is_prompt,
-                           options_in_multiple_choice_exercises_hidden=are_options_in_multiple_choice_exercises_hidden(),
-                           options_in_word_order_exercises_hidden=are_options_in_word_order_exercises_hidden(),
-                           word_order_words=word_order_words,
-                           nr=question_id,
-                           result=result,
-                           feedback_message=feedback_message,
-                           user_answer=user_answer,
-                           show_options=SHOW_OPTIONS[language],
-                           unit_url_path=UNIT_URL_PATH,
-                           unit_name=UNIT_NAME[language][unit],
-                           answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           total_questions=total_question_exercises[unit][exercise],
-                           proverb=proverb,
-                           is_feedback_box=is_feedback_box,
-                           gender=gender,
-                           guidance=guidance_popup,
-                           additional_help=ADDITIONAL_HELP[language],
-                           consult_faq=CONSULT_FAQ[language],
-                           options=options_text,
-                           your_answer=YOUR_ANSWER[language],
-                           correction=correction,
-                           submit=SUBMIT[language],
-                           enter_answer_here=ENTER_ANSWER_HERE[language],
-                           back_to=BACK_TO[language],
-                           level_exercise=level_exercise,
-                           current_user=current_user,
-                           icon_full=get_filename_full_bookmark(),
-                           icon_empty=get_filename_empty_bookmark(),
-                           icon_flag=get_filename_flag(),
-                           clearance_popup_title=clearance_popup_title,
-                           clearance_popup_text=clearance_popup_text,
-                           )
+    return render_template(
+        "exercise/exercise.html",
+        unit=unit,
+        exercise=exercise,
+        exercise_title=EXERCISE_TITLE[language],
+        instruction_text=formated_instruction,
+        question_text=formated_question_text,
+        correct_answer=correct_answer,
+        exercise_is_input=exercise_is_input,
+        exercise_is_multiple_choice_native=exercise_is_multiple_choice_native,
+        exercise_is_multiple_choice_target=exercise_is_multiple_choice_target,
+        exercise_is_word_order=exercise_is_word_order,
+        exercise_is_prompt=exercise_is_prompt,
+        options_in_multiple_choice_exercises_hidden=are_options_in_multiple_choice_exercises_hidden(),
+        options_in_word_order_exercises_hidden=are_options_in_word_order_exercises_hidden(),
+        word_order_words=word_order_words,
+        nr=question_id,
+        result=result,
+        feedback_message=feedback_message,
+        user_answer=user_answer,
+        show_options=SHOW_OPTIONS[language],
+        unit_url_path=UNIT_URL_PATH,
+        unit_name=UNIT_NAME[language][unit],
+        answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+        total_questions=total_question_exercises[unit][exercise],
+        proverb=proverb,
+        is_feedback_box=is_feedback_box,
+        gender=gender,
+        guidance=guidance_popup,
+        additional_help=ADDITIONAL_HELP[language],
+        consult_faq=CONSULT_FAQ[language],
+        options=options_text,
+        your_answer=YOUR_ANSWER[language],
+        correction=correction,
+        submit=SUBMIT[language],
+        enter_answer_here=ENTER_ANSWER_HERE[language],
+        back_to=BACK_TO[language],
+        level_exercise=level_exercise,
+        current_user=current_user,
+        icon_full=get_filename_full_bookmark(),
+        icon_empty=get_filename_empty_bookmark(),
+        icon_flag=get_filename_flag(),
+        clearance_popup_title=clearance_popup_title,
+        clearance_popup_text=clearance_popup_text,
+    )
 
 
-@routes_bp.route('/check/<unit>/exercise/<int:exercise>', methods=['POST', 'GET'])
+@routes_bp.route("/check/<unit>/exercise/<int:exercise>", methods=["POST", "GET"])
 @rate_limit_exercise_submission
 def check_answer(unit, exercise):
 
     language = get_language(request, session)
 
-    init_session_key(session, unit, exercise, 'progress')
-    init_session_key(session, unit, exercise, 'falses')
+    init_session_key(session, unit, exercise, "progress")
+    init_session_key(session, unit, exercise, "falses")
 
-    if request.method == 'GET':
-        return redirect(url_for('routes.exercise_page', unit=unit, exercise=exercise))
+    if request.method == "GET":
+        return redirect(url_for("routes.exercise_page", unit=unit, exercise=exercise))
 
-    user_answer = validate_and_sanitize_answer(request.form.get('answer', ''))
-    question_id = request.form.get('nr')
+    user_answer = validate_and_sanitize_answer(request.form.get("answer", ""))
+    question_id = request.form.get("nr")
 
     # Validate question_id
     if question_id is None or not question_id.isdecimal():
@@ -251,7 +319,10 @@ def check_answer(unit, exercise):
         if not isinstance(response, dict):
             abort(503, description="The correction service is temporarily unavailable")
 
-        is_answer_correct = response['inquiry_correct'] == 'yes' and response['meaning_coherent'] == 'yes'
+        is_answer_correct = (
+            response["inquiry_correct"] == "yes"
+            and response["meaning_coherent"] == "yes"
+        )
 
         translation = response.get("translation", "")
         cefr_level = response.get("cefr_level", "")
@@ -261,16 +332,26 @@ def check_answer(unit, exercise):
         update_session_dictionary(session, "feedback", "cefr_level", cefr_level)
         update_session_dictionary(session, "feedback", "commentary", commentary)
     else:
-        is_answer_correct = is_user_answer_correct(unit, exercise, question_id, user_answer, language)
+        is_answer_correct = is_user_answer_correct(
+            unit, exercise, question_id, user_answer, language
+        )
 
     result = "correct" if is_answer_correct else "incorrect"
 
     if is_answer_correct:
         register_progress(session, unit, exercise, question_id)
-    elif question_id not in session[unit][str(exercise)]['falses']:
+    elif question_id not in session[unit][str(exercise)]["falses"]:
         if is_exercise_prompt(unit, exercise):
-            register_incorrect_answer(session, unit, exercise, question_id, user_answer,
-                                      translation=translation, cefr_level=cefr_level, commentary=commentary)
+            register_incorrect_answer(
+                session,
+                unit,
+                exercise,
+                question_id,
+                user_answer,
+                translation=translation,
+                cefr_level=cefr_level,
+                commentary=commentary,
+            )
         else:
             register_incorrect_answer(session, unit, exercise, question_id, user_answer)
 
@@ -282,16 +363,14 @@ def check_answer(unit, exercise):
     update_session_dictionary(session, "current_exercise", "question_id", question_id)
 
     if is_feedback_enabled() or is_exercise_prompt(unit, exercise):
-        route = 'routes.feedback_page'
+        route = "routes.feedback_page"
     else:
-        route = 'routes.exercise_page'
+        route = "routes.exercise_page"
 
-    return redirect(url_for(route,
-                            unit=unit,
-                            exercise=exercise))
+    return redirect(url_for(route, unit=unit, exercise=exercise))
 
 
-@routes_bp.route('/feedback/unit/<unit>/exercise/<int:exercise>')
+@routes_bp.route("/feedback/unit/<unit>/exercise/<int:exercise>")
 def feedback_page(unit, exercise):
     redirected = resolve_unit_redirect(unit)
     if redirected:
@@ -322,11 +401,24 @@ def feedback_page(unit, exercise):
     formated_instruction = format_instruction(unit, exercise, language)
     formated_question_text = format_question(unit, exercise, language, question_id)
 
-    result, user_answer, previous_question_id, translation, cefr_level, commentary = read_feedback(session)
+    result, user_answer, _previous_question_id, translation, cefr_level, commentary = (
+        read_feedback(session)
+    )
 
-    feedback_message = format_feedback(unit, exercise, language, question_id, user_answer, translation, cefr_level, commentary)
+    feedback_message = format_feedback(
+        unit,
+        exercise,
+        language,
+        question_id,
+        user_answer,
+        translation,
+        cefr_level,
+        commentary,
+    )
     previous_question = format_question(unit, exercise, language, question_id)
-    correction = format_correction(unit, exercise, language, result, user_answer, previous_question)
+    correction = format_correction(
+        unit, exercise, language, result, user_answer, previous_question
+    )
 
     guidance_popup = format_guidance(unit, exercise, language)
 
@@ -334,9 +426,11 @@ def feedback_page(unit, exercise):
 
     is_feedback_box = True
 
-    if is_key_in_session(session, 'popup') and not current_user.is_authenticated:
+    if is_key_in_session(session, "popup") and not current_user.is_authenticated:
         clearance_popup_title = get_popup_title(language)
-        clearance_popup_text = get_popup_text(session['popup']['unit'], session['popup']['exercise'], language)
+        clearance_popup_text = get_popup_text(
+            session["popup"]["unit"], session["popup"]["exercise"], language
+        )
     else:
         clearance_popup_title = None
         clearance_popup_text = None
@@ -344,40 +438,41 @@ def feedback_page(unit, exercise):
     exercise_is_input = is_exercise_input(unit, exercise)
     exercise_is_prompt = is_exercise_prompt(unit, exercise)
 
-    return render_template("exercise/feedback.html",
-                           unit=unit,
-                           exercise=exercise,
-                           exercise_title=EXERCISE_TITLE[language],
-                           question_text=formated_question_text,
-                           instruction_text=formated_instruction,
-                           nr=question_id,
-                           result=result,
-                           feedback_message=feedback_message,
-                           user_answer=user_answer,
-                           unit_url_path=UNIT_URL_PATH,
-                           unit_name=UNIT_NAME[language][unit],
-                           answered_questions=compute_answered_questions(session, unit, exercise=exercise),
-                           total_questions=total_question_exercises[unit][exercise],
-                           proverb=proverb,
-                           guidance=guidance_popup,
-                           additional_help=ADDITIONAL_HELP[language],
-                           consult_faq=CONSULT_FAQ[language],
-                           is_feedback_box=is_feedback_box,
-                           your_answer=YOUR_ANSWER[language],
-                           correction=correction,
-                           next_question=NEXT_QUESTION[language],
-                           back_to=BACK_TO[language],
-                           icon_full=get_filename_full_bookmark(),
-                           icon_empty=get_filename_empty_bookmark(),
-                           icon_flag=get_filename_flag(),
-                           clearance_popup_title=clearance_popup_title,
-                           clearance_popup_text=clearance_popup_text,
-                           exercise_is_input=exercise_is_input,
-                           exercise_is_prompt=exercise_is_prompt,
-                           )
+    return render_template(
+        "exercise/feedback.html",
+        unit=unit,
+        exercise=exercise,
+        exercise_title=EXERCISE_TITLE[language],
+        question_text=formated_question_text,
+        instruction_text=formated_instruction,
+        nr=question_id,
+        result=result,
+        feedback_message=feedback_message,
+        user_answer=user_answer,
+        unit_url_path=UNIT_URL_PATH,
+        unit_name=UNIT_NAME[language][unit],
+        answered_questions=compute_answered_questions(session, unit, exercise=exercise),
+        total_questions=total_question_exercises[unit][exercise],
+        proverb=proverb,
+        guidance=guidance_popup,
+        additional_help=ADDITIONAL_HELP[language],
+        consult_faq=CONSULT_FAQ[language],
+        is_feedback_box=is_feedback_box,
+        your_answer=YOUR_ANSWER[language],
+        correction=correction,
+        next_question=NEXT_QUESTION[language],
+        back_to=BACK_TO[language],
+        icon_full=get_filename_full_bookmark(),
+        icon_empty=get_filename_empty_bookmark(),
+        icon_flag=get_filename_flag(),
+        clearance_popup_title=clearance_popup_title,
+        clearance_popup_text=clearance_popup_text,
+        exercise_is_input=exercise_is_input,
+        exercise_is_prompt=exercise_is_prompt,
+    )
 
 
-@routes_bp.route('/reset/<unit>/exercise/<int:exercise>', methods=['POST'])
+@routes_bp.route("/reset/<unit>/exercise/<int:exercise>", methods=["POST"])
 def reset_exercise(unit, exercise):
     """Clears progress for a specific unit exercise and removes any stored feedback."""
 
@@ -397,58 +492,70 @@ def reset_exercise(unit, exercise):
         unit_dict.pop(str(exercise), None)
         session[unit] = unit_dict
 
-        if (unit, exercise) in session['unfinished_exercise']:
-            session['unfinished_exercise'].remove((unit, exercise))
+        if (unit, exercise) in session["unfinished_exercise"]:
+            session["unfinished_exercise"].remove((unit, exercise))
 
-        session.pop(f"feedback", None)
+        session.pop("feedback", None)
         session.modified = True
 
     next_url = request.form.get("next")
-    guidance_bool = request.form.get('guidance') == 'true'
+    guidance_bool = request.form.get("guidance") == "true"
 
     if next_url:
         return redirect(next_url)
 
     if guidance_bool is True:
-        return redirect(url_for('routes.guidance', unit=unit, exercise=exercise))
+        return redirect(url_for("routes.guidance", unit=unit, exercise=exercise))
     else:
-        return redirect(url_for('routes.exercise_page', unit=unit, exercise=exercise))
+        return redirect(url_for("routes.exercise_page", unit=unit, exercise=exercise))
 
 
-@routes_bp.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])
+@routes_bp.route("/unit/<unit>/exercise/<int:exercise>", methods=["POST"])
 def flag_question(unit, exercise):
-    feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
-    user_answer = request.args.get('user_answer') or request.form.get('user_answer')
-    result = request.args.get('result') or request.form.get('result')
-    reason = request.form.get('reason')
+    feedback_message = request.args.get("feedback_message") or request.form.get(
+        "feedback_message"
+    )
+    user_answer = request.args.get("user_answer") or request.form.get("user_answer")
+    result = request.args.get("result") or request.form.get("result")
+    reason = request.form.get("reason")
 
     if current_user.is_authenticated:
-        log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason, email=current_user.email)
+        log_question_flagged(
+            unit,
+            exercise,
+            feedback_message,
+            user_answer,
+            result,
+            reason,
+            email=current_user.email,
+        )
     else:
-        log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason)
+        log_question_flagged(
+            unit, exercise, feedback_message, user_answer, result, reason
+        )
 
-    flash("This answer has been flagged for review."
-          "<br><br>Thank you!", "info")
+    flash("This answer has been flagged for review.<br><br>Thank you!", "info")
 
     return redirect(request.referrer)
 
 
-@routes_bp.route('/set-feedback-toggle', methods=['POST'])
+@routes_bp.route("/set-feedback-toggle", methods=["POST"])
 def set_feedback_toggle():
     data = request.get_json()
-    session['feedback_enabled'] = data.get('feedback_enabled', False)
-    return '', 204
+    session["feedback_enabled"] = data.get("feedback_enabled", False)
+    return "", 204
 
 
-@routes_bp.route('/get-feedback-toggle')
+@routes_bp.route("/get-feedback-toggle")
 def get_feedback_toggle():
-    enabled = session.get('feedback_enabled', False)
-    return jsonify({'feedback_enabled': enabled})
+    enabled = session.get("feedback_enabled", False)
+    return jsonify({"feedback_enabled": enabled})
 
 
 @routes_bp.route("/bookmark/toggle", methods=["POST"])
 def toggle_bookmark():
-    from flask import request, redirect, url_for, jsonify
+    from flask import jsonify, redirect, request, url_for
+
     from users.users.models import Bookmark, db
 
     bookmark_id = request.form.get("bookmark_id")
@@ -456,8 +563,7 @@ def toggle_bookmark():
     # Case 1: coming from the bookmarks page -> delete by ID
     if bookmark_id:
         bookmark = Bookmark.query.filter_by(
-            id=int(bookmark_id),
-            user_id=current_user.id
+            id=int(bookmark_id), user_id=current_user.id
         ).first()
 
         if bookmark:
@@ -496,15 +602,17 @@ def toggle_bookmark():
     if bookmark:
         db.session.delete(bookmark)
     else:
-        db.session.add(Bookmark(
-            user_id=current_user.id,
-            unit=unit,
-            exercise=exercise,
-            level=level,
-            result=result,
-            user_answer=user_answer,
-            feedback_message=feedback_message,
-        ))
+        db.session.add(
+            Bookmark(
+                user_id=current_user.id,
+                unit=unit,
+                exercise=exercise,
+                level=level,
+                result=result,
+                user_answer=user_answer,
+                feedback_message=feedback_message,
+            )
+        )
         bookmarked = True
 
     db.session.commit()

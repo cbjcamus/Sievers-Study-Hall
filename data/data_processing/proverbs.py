@@ -1,5 +1,6 @@
 import os
 import random
+
 import pandas as pd
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -30,7 +31,8 @@ def get_text_proverb(language):
         formatted_proverb = (
             f"<b>{change_color(text='Proverb', color='#DAA520')}</b>"
             f"<br><br>{proverb['german']}"
-            f"<br><br><i>{proverb[language]}</i>")
+            f"<br><br><i>{proverb[language]}</i>"
+        )
         return formatted_proverb
     else:
         return None

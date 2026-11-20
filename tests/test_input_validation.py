@@ -2,7 +2,9 @@
 
 import pytest
 from flask import Flask
-from webapp.routes.exercises import validate_and_sanitize_answer, MAX_ANSWER_LENGTH
+from werkzeug.exceptions import BadRequest, RequestEntityTooLarge
+
+from webapp.routes.exercises import MAX_ANSWER_LENGTH, validate_and_sanitize_answer
 
 
 def test_validate_answer_accepts_valid_input():
@@ -27,9 +29,8 @@ def test_validate_answer_removes_null_bytes():
 def test_validate_answer_rejects_non_string():
     """Should reject non-string input."""
     app = Flask(__name__)
-    with app.app_context():
-        with pytest.raises(Exception):
-            validate_and_sanitize_answer(12345)
+    with app.app_context(), pytest.raises(BadRequest):
+        validate_and_sanitize_answer(12345)
 
 
 def test_validate_answer_rejects_oversized_input():
@@ -37,7 +38,7 @@ def test_validate_answer_rejects_oversized_input():
     app = Flask(__name__)
     with app.app_context():
         oversized = "a" * (MAX_ANSWER_LENGTH + 1)
-        with pytest.raises(Exception):
+        with pytest.raises(RequestEntityTooLarge):
             validate_and_sanitize_answer(oversized)
 
 

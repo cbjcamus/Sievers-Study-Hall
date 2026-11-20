@@ -1,5 +1,5 @@
-import os
 import json
+import os
 
 from huggingface_hub import InferenceClient
 from huggingface_hub.errors import BadRequestError
@@ -15,26 +15,14 @@ response_format = {
         "schema": {
             "type": "object",
             "properties": {
-                "inquiry_correct": {
-                    "type": "string",
-                    "enum": ["yes", "no"]
-                },
-                "meaning_coherent": {
-                    "type": "string",
-                    "enum": ["yes", "no"]
-                },
-                "german_sentence": {
-                    "type": "string"
-                },
-                "translation": {
-                    "type": "string"
-                },
+                "inquiry_correct": {"type": "string", "enum": ["yes", "no"]},
+                "meaning_coherent": {"type": "string", "enum": ["yes", "no"]},
+                "german_sentence": {"type": "string"},
+                "translation": {"type": "string"},
                 "cefr_level": {
                     "type": "string",
                 },
-                "commentary": {
-                    "type": "string"
-                }
+                "commentary": {"type": "string"},
             },
             "required": [
                 "inquiry_correct",
@@ -44,18 +32,18 @@ response_format = {
                 "cefr_level",
                 "commentary",
             ],
-            "additionalProperties": False
-        }
-    }
+            "additionalProperties": False,
+        },
+    },
 }
 
 model = {
-    'A1': 'openai/gpt-oss-120b',
-    'A2': 'openai/gpt-oss-120b',
-    'B1': 'openai/gpt-oss-120b',
-    'B2': 'openai/gpt-oss-120b',
-    'C1': 'openai/gpt-oss-120b',
-    'C2': 'openai/gpt-oss-120b',
+    "A1": "openai/gpt-oss-120b",
+    "A2": "openai/gpt-oss-120b",
+    "B1": "openai/gpt-oss-120b",
+    "B2": "openai/gpt-oss-120b",
+    "C1": "openai/gpt-oss-120b",
+    "C2": "openai/gpt-oss-120b",
 }
 
 
@@ -79,14 +67,12 @@ def get_response_from_prompt(unit, exercise, prompt):
             temperature=temperature,
             max_tokens=1000,
             response_format=response_format,
-            extra_body={
-                "reasoning_effort": "low"
-            }
+            extra_body={"reasoning_effort": "low"},
         )
 
         input_tokens = response.usage.prompt_tokens
         output_tokens = response.usage.completion_tokens
-        usage= response.usage
+        usage = response.usage
 
         log_prompt_usage(unit, exercise, input_tokens, output_tokens, usage)
 

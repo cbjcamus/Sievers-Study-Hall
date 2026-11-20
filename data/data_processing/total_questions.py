@@ -1,8 +1,8 @@
 import numpy as np
 
+from data.data_processing.data_loading import load_data_exercise
 from data.data_processing.paths import df_units
 from data.data_processing.units import units
-from data.data_processing.data_loading import load_data_exercise
 
 
 def compute_highest_exercise(unit):
@@ -47,14 +47,18 @@ def compute_total_questions(unit, exercise=None):
 
     else:
         total_questions = 0
-        for exercise in range(0, highest_exercise_per_unit[unit] + 1):
-            data = load_data_exercise(unit, exercise)
+        for exercise_index in range(highest_exercise_per_unit[unit] + 1):
+            data = load_data_exercise(unit, exercise_index)
             total_questions = total_questions + len(data)
 
     return total_questions
 
 
 total_question_units = {unit: compute_total_questions(unit) for unit in units}
-total_question_exercises = {unit: {exercise: compute_total_questions(unit, exercise)
-                                   for exercise in range(1, highest_exercise_per_unit[unit] + 1)}
-                            for unit in units}
+total_question_exercises = {
+    unit: {
+        exercise: compute_total_questions(unit, exercise)
+        for exercise in range(1, highest_exercise_per_unit[unit] + 1)
+    }
+    for unit in units
+}

@@ -1,8 +1,8 @@
 import json
+
 from flask_login import current_user
 
 from data.data_processing.units import units
-
 from users.users.models import UserExerciseState
 
 
@@ -29,7 +29,6 @@ def print_complete_session(session):
                 print(unit, exercise, value)
         else:
             print(key, session[key])
-    return
 
 
 def print_user_info_from_db():
@@ -55,10 +54,12 @@ def print_user_info_from_db():
             elif "correct_ids" in state and total:
                 score = len(state["correct_ids"]) / total if total > 0 else 0.0
 
-            print(f"Unit: {row.unit}, Exercise: {row.exercise}, "
-                  f"Score: {score:.2f}, "
-                  f"Completed at: {row.completed_at}, "
-                  f"Last update: {row.updated_at}")
+            print(
+                f"Unit: {row.unit}, Exercise: {row.exercise}, "
+                f"Score: {score:.2f}, "
+                f"Completed at: {row.completed_at}, "
+                f"Last update: {row.updated_at}"
+            )
 
             # Pretty-print the raw JSON state
             if state:
@@ -91,5 +92,5 @@ def session_size(session):
     """
     session_data = dict(session)
     session_json = json.dumps(session_data)
-    size_in_bytes = len(session_json.encode('utf-8'))
+    size_in_bytes = len(session_json.encode("utf-8"))
     return size_in_bytes

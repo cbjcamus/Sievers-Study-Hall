@@ -1,4 +1,4 @@
-from users.users.models import db, UserExerciseState
+from users.users.models import UserExerciseState, db
 
 
 def migrate_incorrect_state():
@@ -14,12 +14,11 @@ def migrate_incorrect_state():
         changed = False
 
         for nr, value in incorrect.items():
-
             if isinstance(value, str):
                 new_incorrect[str(nr)] = {
                     "answer": value,
                     "translation": "",
-                    "commentary": ""
+                    "commentary": "",
                 }
                 changed = True
             else:

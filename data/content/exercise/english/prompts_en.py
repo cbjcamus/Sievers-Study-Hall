@@ -1,7 +1,14 @@
 from data.data_processing.exercises import prompt
-
 from data.data_processing.units import (
-    praepositionen, konnektoren, fragen, adverbien, verben, alpha, praepositionen_verben, adjektive, perfekt,
+    adjektive,
+    adverbien,
+    alpha,
+    fragen,
+    konnektoren,
+    perfekt,
+    praepositionen,
+    praepositionen_verben,
+    verben,
 )
 
 prompt_praepositionen = """
@@ -300,44 +307,33 @@ Commentary should be in English. You write using the passive voice.
 Use line breaks (<br><br>) to add some clarity if necessary.
 """
 
-PROMPT_UNIT_EN = {
+PROMPT_UNIT_EN = {}
 
-}
-
-PROMPT_CATEGORY_EN = {
-
-}
+PROMPT_CATEGORY_EN = {}
 
 PROMPT_SUBCATEGORY_EN = {
     praepositionen: {
         prompt: prompt_praepositionen,
     },
-
     praepositionen_verben: {
         prompt: prompt_praepositionen,
     },
-
     konnektoren: {
         prompt: prompt_konnektoren,
     },
-
     fragen: {
         prompt: prompt_fragen,
     },
-
     adverbien: {
         prompt: prompt_adverbien,
     },
-
     verben: {
         prompt: prompt_verben,
     },
-
     adjektive: {
         prompt: prompt_adjektive,
     },
-
-    perfekt:{
+    perfekt: {
         prompt: prompt_perfekt,
     },
 }
@@ -348,7 +344,6 @@ PROMPT_EXERCISE_EN = {
         2: prompt_fragen,
         3: prompt_adverbien,
         4: prompt_adverbien,
-
         5: prompt_konnektoren,
         6: prompt_fragen,
         7: prompt_adverbien,

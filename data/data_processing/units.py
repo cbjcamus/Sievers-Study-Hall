@@ -1,61 +1,87 @@
-praepositionen = 'praepositionen'
-praepositionen_verben = 'praepositionen_verben'
-praepositionen_adjektive = 'praepositionen_adjektive'
-praepositionen_nomen = 'praepositionen_nomen'
-praepositionen_adverbien = 'praepositionen_adverbien'
-pronominaladverbien = 'pronominaladverbien'
+praepositionen = "praepositionen"
+praepositionen_verben = "praepositionen_verben"
+praepositionen_adjektive = "praepositionen_adjektive"
+praepositionen_nomen = "praepositionen_nomen"
+praepositionen_adverbien = "praepositionen_adverbien"
+pronominaladverbien = "pronominaladverbien"
 
-artikel = 'artikel'
-pronomen = 'pronomen'
-praepositionen_artikel = 'praepositionen_artikel'
-verben_artikel = 'verben_artikel'
+artikel = "artikel"
+pronomen = "pronomen"
+praepositionen_artikel = "praepositionen_artikel"
+verben_artikel = "verben_artikel"
 
-konnektoren = 'konnektoren'
-fragen = 'fragen'
-adverbien = 'adverbien'
-wortstellung = 'wortstellung'
+konnektoren = "konnektoren"
+fragen = "fragen"
+adverbien = "adverbien"
+wortstellung = "wortstellung"
 
-genus_regeln = 'genus_regeln'
-genus = 'genus'
-plural = 'plural'
+genus_regeln = "genus_regeln"
+genus = "genus"
+plural = "plural"
 
-adjektive = 'adjektive'
-komparativ_superlativ = 'komparativ_superlativ'
-adjektivdeklinationen = 'adjektivdeklinationen'
-adjektive_konjunktionen = 'adjektive_konjunktionen'
+adjektive = "adjektive"
+komparativ_superlativ = "komparativ_superlativ"
+adjektivdeklinationen = "adjektivdeklinationen"
+adjektive_konjunktionen = "adjektive_konjunktionen"
 
-verben = 'verben'
-trennbare_verben = 'trennbare_verben'
-nomen_verben_verbindungen = 'nomen_verben_verbindungen'
+verben = "verben"
+trennbare_verben = "trennbare_verben"
+nomen_verben_verbindungen = "nomen_verben_verbindungen"
 
-praesens = 'praesens'
-partizip_II = 'partizip_II'
-praeteritum = 'praeteritum'
-perfekt = 'perfekt'
-imperativ = 'imperativ'
-konjunktiv_II = 'konjunktiv_II'
-konjunktiv_I = 'konjunktiv_I'
-partizip_I = 'partizip_I'
+praesens = "praesens"
+partizip_II = "partizip_II"
+praeteritum = "praeteritum"
+perfekt = "perfekt"
+imperativ = "imperativ"
+konjunktiv_II = "konjunktiv_II"
+konjunktiv_I = "konjunktiv_I"
+partizip_I = "partizip_I"
 
-nomen_verben_wortstaemme = 'nomen_verben_wortstaemme'
-adjektive_verben_wortstaemme = 'adjektive_verben_wortstaemme'
-adjektive_nomen_wortstaemme = 'adjektive_nomen_wortstaemme'
+nomen_verben_wortstaemme = "nomen_verben_wortstaemme"
+adjektive_verben_wortstaemme = "adjektive_verben_wortstaemme"
+adjektive_nomen_wortstaemme = "adjektive_nomen_wortstaemme"
 
-zahlen = 'zahlen'
-alpha = 'alpha'
+zahlen = "zahlen"
+alpha = "alpha"
 
 units = [
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha,
+    praepositionen,
+    praepositionen_verben,
+    praepositionen_adjektive,
+    praepositionen_nomen,
+    pronominaladverbien,
+    artikel,
+    pronomen,
+    praepositionen_artikel,
+    verben_artikel,
+    konnektoren,
+    fragen,
+    adverbien,
+    wortstellung,
+    genus_regeln,
+    genus,
+    plural,
+    verben,
+    trennbare_verben,
+    nomen_verben_verbindungen,
+    adjektive,
+    komparativ_superlativ,
+    adjektivdeklinationen,
+    adjektive_konjunktionen,
+    praesens,
+    imperativ,
+    partizip_II,
+    praeteritum,
+    perfekt,
+    konjunktiv_II,
+    konjunktiv_I,
+    partizip_I,
+    nomen_verben_wortstaemme,
+    adjektive_verben_wortstaemme,
+    adjektive_nomen_wortstaemme,
+    zahlen,
+    alpha,
 ]
 
 units_without_alpha = units.copy()
-units_without_alpha.remove('alpha')
-
+units_without_alpha.remove("alpha")

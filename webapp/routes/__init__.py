@@ -1,7 +1,8 @@
-from flask import Blueprint, request, session, redirect, url_for
+from flask import Blueprint, redirect, request, session, url_for
+
 routes_bp = Blueprint("routes", __name__)
 
-from webapp.i18n import get_lang_code, dict_key_for  # noqa: E402
+from webapp.i18n import dict_key_for, get_lang_code
 
 
 @routes_bp.app_context_processor
@@ -13,7 +14,8 @@ def inject_language():
     }
 
 
-from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
+
 
 @routes_bp.route("/lang/<code>")
 def set_lang(code):
@@ -37,6 +39,6 @@ def set_lang(code):
 
 
 # Import submodules so their route decorators run
-from . import authorization, exercises, menu, background  # noqa: E402,F401
+from . import authorization, background, exercises, menu  # noqa: F401
 
 __all__ = ["routes_bp"]

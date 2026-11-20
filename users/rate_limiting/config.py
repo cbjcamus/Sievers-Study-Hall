@@ -1,11 +1,14 @@
 import os
-from typing import Optional
 
 
 class RateLimitConfig:
     """Configuration for rate limiting on LLM-based exercises."""
 
-    ENABLED = os.environ.get("RATE_LIMIT_ENABLED", "true").lower() in ("true", "1", "yes")
+    ENABLED = os.environ.get("RATE_LIMIT_ENABLED", "true").lower() in (
+        "true",
+        "1",
+        "yes",
+    )
     BACKEND = os.environ.get("RATE_LIMIT_BACKEND", "memory").lower()
     # only used if BACKEND="redis"
     REDIS_URL = os.environ.get("RATE_LIMIT_REDIS_URL", "redis://localhost:6379/0")
@@ -33,15 +36,16 @@ class RateLimitConfig:
     def get_backend_class(cls):
         """
         Get the rate limiter backend class based on configuration.
-        
+
         Returns:
             Rate limiter class (InMemoryRateLimiter or RedisRateLimiter)
-            
+
         Raises:
             ValueError: If backend is not recognized or Redis connection fails
         """
         if cls.BACKEND == "memory":
             from users.rate_limiting.limiter import InMemoryRateLimiter
+
             return InMemoryRateLimiter
         elif cls.BACKEND == "redis":
             try:
@@ -51,22 +55,20 @@ class RateLimitConfig:
                     "Redis backend selected but 'redis' package not installed. "
                     "Install with: pip install redis"
                 )
-            
+
             from users.rate_limiting.redis_limiter import RedisRateLimiter
-            
+
             try:
                 redis_client = redis.from_url(cls.REDIS_URL)
                 redis_client.ping()  # Test connection
-            except Exception as e:
-                raise ValueError(
-                    f"Failed to connect to Redis at {cls.REDIS_URL}: {e}"
-                )
-            
+            except (redis.exceptions.RedisError, ValueError, OSError) as e:
+                raise ValueError(f"Failed to connect to Redis at {cls.REDIS_URL}: {e}")
+
             # Return a wrapper class that includes the redis client
             class ConfiguredRedisRateLimiter(RedisRateLimiter):
                 def __init__(self, max_requests: int, window_seconds: int):
                     super().__init__(max_requests, window_seconds, redis_client)
-            
+
             return ConfiguredRedisRateLimiter
         else:
             raise ValueError(

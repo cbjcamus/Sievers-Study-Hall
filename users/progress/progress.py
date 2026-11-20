@@ -3,13 +3,18 @@ import random
 from flask_login import current_user
 from sqlalchemy.dialects.sqlite import insert
 
-from data.data_processing.exercises import get_exercises_by_level, df_exercises
-from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
-
-from users.users.models import db, UserUnitHomeProgress
+from data.data_processing.exercises import df_exercises, get_exercises_by_level
+from data.data_processing.total_questions import (
+    highest_exercise_per_unit,
+    total_question_exercises,
+)
+from users.progress.exercise_state_cache import (
+    get_user_exercise_state,
+    get_user_exercise_states,
+)
 from users.progress.is_exercise_finished import is_exercise_finished
-from users.progress.exercise_state_cache import get_user_exercise_states, get_user_exercise_state
 from users.session_management.verification_session import is_key_in_exercise
+from users.users.models import UserUnitHomeProgress, db
 
 
 def compute_completed_exercises(session, unit, highest_exercise):
@@ -34,15 +39,16 @@ def get_next_exercise(unit, current_exercise, highest_exercise):
 
 
 def update_progress_in_home_page(session, unit):
-    completed_exercises = compute_completed_exercises(session, unit, highest_exercise_per_unit)
+    completed_exercises = compute_completed_exercises(
+        session, unit, highest_exercise_per_unit
+    )
 
     if current_user.is_authenticated:
-
         if unit in session:
             session.pop(unit, None)
             session.modified = True
 
-        '''
+        """
         row = UserUnitHomeProgress.query.filter_by(
             user_id=current_user.id,
             unit=unit
@@ -59,17 +65,15 @@ def update_progress_in_home_page(session, unit):
             row.completed_exercises = completed_exercises
 
         db.session.commit()
-        '''
+        """
 
         stmt = insert(UserUnitHomeProgress).values(
-            user_id=current_user.id,
-            unit=unit,
-            completed_exercises=completed_exercises
+            user_id=current_user.id, unit=unit, completed_exercises=completed_exercises
         )
 
         stmt = stmt.on_conflict_do_update(
             index_elements=["user_id", "unit"],
-            set_={"completed_exercises": stmt.excluded.completed_exercises}
+            set_={"completed_exercises": stmt.excluded.completed_exercises},
         )
 
         db.session.execute(stmt)
@@ -93,8 +97,7 @@ def update_progress_in_home_page(session, unit):
 def get_progress_home_page(session, unit):
     if current_user.is_authenticated:
         row = UserUnitHomeProgress.query.filter_by(
-            user_id=current_user.id,
-            unit=unit
+            user_id=current_user.id, unit=unit
         ).first()
 
         if row is not None:
@@ -155,7 +158,9 @@ def compute_answered_questions_unit(session, unit):
     """
     answered_questions = 0
     for exercise in range(1, highest_exercise_per_unit[unit] + 1):
-        answered_questions_exercise = compute_answered_questions_exercise(session, unit, exercise)
+        answered_questions_exercise = compute_answered_questions_exercise(
+            session, unit, exercise
+        )
         answered_questions = answered_questions + answered_questions_exercise
     return int(answered_questions)
 
@@ -204,12 +209,12 @@ def compute_answered_questions_exercise(session, unit, exercise):
             return int((s["answered"] or {}).get("correct", 0))
         return 0
 
-    if is_key_in_exercise(session, unit, exercise, 'result'):
+    if is_key_in_exercise(session, unit, exercise, "result"):
         # return compute_total_questions(unit, exercise=exercise)
         return total_question_exercises[unit][ex_int]
 
-    elif is_key_in_exercise(session, unit, exercise, 'progress'):
-        return len(session[unit][str(exercise)]['progress'])
+    elif is_key_in_exercise(session, unit, exercise, "progress"):
+        return len(session[unit][str(exercise)]["progress"])
 
     else:
         return 0
@@ -279,7 +284,7 @@ def get_fraction_exercises_finished_by_level(session, level):
 
     fraction = done / total
 
-    return int(round(fraction * 100))
+    return round(fraction * 100)
 
 
 def get_random_unit_and_lowest_unfinished_exercise(session, level):
@@ -301,9 +306,7 @@ def get_random_unit_and_lowest_unfinished_exercise(session, level):
     chosen_unit = random.choice(unfinished_units)
 
     unfinished_exercises_in_unit = [
-        exercise
-        for unit, exercise in unfinished_rows
-        if unit == chosen_unit
+        exercise for unit, exercise in unfinished_rows if unit == chosen_unit
     ]
 
     chosen_exercise = min(unfinished_exercises_in_unit)
@@ -319,7 +322,9 @@ def get_unfinished_exercises(session, df=df_exercises):
     unfinished = []
 
     for unit, exercise in zip(df["unit"], df["exercise"]):
-        if not is_exercise_completed(unit, exercise, session) and is_exercise_started(session, unit, exercise):
+        if not is_exercise_completed(unit, exercise, session) and is_exercise_started(
+            session, unit, exercise
+        ):
             unfinished.append((unit, exercise))
 
             if len(unfinished) >= 10:

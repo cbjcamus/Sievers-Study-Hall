@@ -1,32 +1,52 @@
-from data.data_processing.exercises import isolation, context, synonym, prompt, antonym
+from data.data_processing.exercises import antonym, context, isolation, prompt, synonym
 from data.data_processing.units import (
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha,
+    adjektivdeklinationen,
+    adjektive,
+    adjektive_konjunktionen,
+    adjektive_nomen_wortstaemme,
+    adjektive_verben_wortstaemme,
+    adverbien,
+    alpha,
+    artikel,
+    fragen,
+    genus,
+    genus_regeln,
+    imperativ,
+    komparativ_superlativ,
+    konjunktiv_I,
+    konjunktiv_II,
+    konnektoren,
+    nomen_verben_verbindungen,
+    nomen_verben_wortstaemme,
+    partizip_I,
+    partizip_II,
+    perfekt,
+    plural,
+    praepositionen,
+    praepositionen_adjektive,
+    praepositionen_artikel,
+    praepositionen_nomen,
+    praepositionen_verben,
+    praesens,
+    praeteritum,
+    pronomen,
+    pronominaladverbien,
+    trennbare_verben,
+    verben,
+    verben_artikel,
+    wortstellung,
+    zahlen,
 )
 
 DESCRIPTION_UNIT_EN = {
     verben_artikel: "Cases of articles and pronouns after verbs in sentences",
-
     adjektive_konjunktionen: "Adjective conjunctions in sentences",
-
     perfekt: "Perfect of German verbs",
-
     konjunktiv_I: "Konjunktiv I of A1 verbs",
-
     partizip_I: "Partizip I of A1 verbs",
-
     genus: "Definite articles in isolation",
-
     plural: "Plural form of German nouns in isolation",
-
-    alpha: "Practice connectors in sentences"
+    alpha: "Practice connectors in sentences",
 }
 
 DESCRIPTION_SUBCATEGORY_EN = {
@@ -35,30 +55,25 @@ DESCRIPTION_SUBCATEGORY_EN = {
         context: "Verb-preposition pairs in sentences",
         prompt: "Writing sentences with verb-preposition pairs",
     },
-
     praepositionen_adjektive: {
         isolation: "Adjective-preposition pairs in isolation",
         context: "Adjective-preposition pairs in sentences",
     },
-
     praepositionen_nomen: {
         isolation: "Noun-preposition pairs in isolation",
         context: "Noun-preposition pairs in sentences",
     },
-
     konnektoren: {
         isolation: "Connectors in isolation",
         context: "Connectors in sentences",
         prompt: "Writing sentences with connectors",
         synonym: "Synonyms of connectors in sentences",
     },
-
     fragen: {
-        isolation: 'Question words in isolation',
-        context: 'Question words in sentences',
+        isolation: "Question words in isolation",
+        context: "Question words in sentences",
         prompt: "Writing sentences with question words",
     },
-
     adverbien: {
         isolation: "Adverbs in isolation",
         context: "Adverbs in sentences",
@@ -66,46 +81,37 @@ DESCRIPTION_SUBCATEGORY_EN = {
         synonym: "Synonyms adverbs in sentences",
         antonym: "Antonyms adverbs in isolation",
     },
-
     verben: {
         isolation: "Translation of German verbs",
         prompt: "Writing sentences with German verbs",
     },
-
     adjektive: {
         isolation: "Adjectives in isolation",
         synonym: "Synonyms of adjectives in isolation",
         prompt: "Writing sentences with German adjectives",
     },
-
     praesens: {
         isolation: "Present tense in isolation",
     },
-
     imperativ: {
         isolation: "Imperative in isolation",
     },
 }
 
-DESCRIPTION_CATEGORY_EN = {
-
-}
+DESCRIPTION_CATEGORY_EN = {}
 
 DESCRIPTION_EXERCISE_EN = {
-
     alpha: {
         1: "Practice connectors in sentences",
         2: "Practice question words in sentences",
         3: "Practice adverbs in sentences",
         4: "Practice adverbs in sentences",
-
         5: "Practice connectors in sentences",
         6: "Practice question words in sentences",
         7: "Practice adverbs in sentences",
         8: "Practice adverbs in sentences",
         9: "Practice adverbs in sentences",
     },
-
     praepositionen: {
         1: "Prepositions of time in sentences",
         2: "Prepositions of place (position) in sentences",
@@ -116,7 +122,6 @@ DESCRIPTION_EXERCISE_EN = {
         7: "Writing sentences with prepositions of place (position)",
         8: "Writing sentences with prepositions of place (direction)",
         9: "Writing sentences with other prepositions",
-
         10: "Prepositions of time in sentences",
         11: "Prepositions of place (position) in sentences",
         12: "Prepositions of place (direction) in sentences",
@@ -126,7 +131,6 @@ DESCRIPTION_EXERCISE_EN = {
         16: "Writing sentences with prepositions of place (position)",
         17: "Writing sentences with prepositions of place (direction)",
         18: "Writing sentences with other prepositions",
-
         19: "Prepositions in B1-level contexts in sentences",
         20: "Prepositions in B1-level contexts in sentences",
         21: "Prepositions in B1-level contexts in sentences",
@@ -136,14 +140,12 @@ DESCRIPTION_EXERCISE_EN = {
         25: "Writing sentences with prepositions",
         26: "Writing sentences with prepositions",
         27: "Writing sentences with prepositions",
-
         28: "Prepositions in B2-level contexts in sentences",
         29: "Prepositions in B2-level contexts in sentences",
         30: "Prepositions in B2-level contexts in sentences",
         31: "Prepositions in B2-level contexts in sentences",
         32: "New prepositions in isolation",
         33: "New prepositions in sentences",
-
         34: "Prepositions in C1-level contexts in sentences",
         35: "Prepositions in C1-level contexts in sentences",
         36: "Prepositions in C1-level contexts in sentences",
@@ -154,23 +156,18 @@ DESCRIPTION_EXERCISE_EN = {
         41: "Prepositional phrases in sentences",
         42: "Synonyms of prepositions in sentences",
         43: "Antonyms of prepositions in isolation",
-
         44: "New prepositions in isolation",
         45: "New prepositions in sentences",
         46: "Postpositions in isolation",
         47: "Postpositions in sentences",
     },
-
     pronominaladverbien: {
         1: "Da-words as pronouns in sentences",
-
         2: "Da-words as pronouns in sentences",
         3: "Da-words as prepositional objects in sentences",
         4: "Wo-words as question words in sentences",
-
         5: "Wo-words introducing supplementary clauses in sentences",
     },
-
     artikel: {
         1: "Definite articles <i>der, die, das</i> in isolation",
         2: "Definite articles in the nominative case in sentences",
@@ -198,29 +195,24 @@ DESCRIPTION_EXERCISE_EN = {
         24: "Possessive articles linked to singular pronouns (<i>ich</i>, <i>du</i>, <i>er</i>, <i>sie</i>, <i>es</i>) in sentences",
         25: "Possessive articles linked to plural (<i>wir</i>, <i>ihr</i>, <i>sie</i>) and formal pronouns in isolation",
         26: "Possessive articles linked to plural (<i>wir</i>, <i>ihr</i>, <i>sie</i>) and formal pronouns in sentences",
-
         27: "Demonstrative articles <em>diese</em> in isolation",
         28: "Demonstrative articles <em>diese</em> in sentences",
         29: "Articles <em>jede</em> in isolation",
         30: "Articles <em>jede</em> in sentences",
         31: "A2 articles in isolation",
         32: "A2 articles in sentences",
-
         33: "Definite, indefinite, and negative articles in the genitive case in isolation",
         34: "Definite, indefinite, and negative articles in the genitive case in sentences",
         35: "<em>diese</em> and <em>jede</em> in the genitive case in isolation",
         36: "<em>diese</em> and <em>jede</em> in the genitive case in sentences",
         37: "Possessive articles in the genitive case in isolation",
         38: "Possessive articles in the genitive case in sentences",
-
         39: "<em>jene</em> and <em>eine der</em> articles in isolation",
         40: "<em>jene</em> and <em>eine der</em> articles in sentences",
-
         41: "Adjectives as articles in isolation",
         42: "Adjectives as articles in sentences",
         43: "Articles in appositions in sentences",
         44: "Articles in appositions in sentences",
-
         45: "<em>irgendeine</em> articles in isolation",
         46: "<em>irgendeine</em> articles in sentences",
         47: "<em>diejenige</em> articles in isolation",
@@ -228,7 +220,6 @@ DESCRIPTION_EXERCISE_EN = {
         49: "<em>dieselbe</em> articles in isolation",
         50: "<em>dieselbe</em> articles in sentences",
     },
-
     pronomen: {
         1: "Nominative pronouns in isolation",
         2: "Nominative pronouns in sentences",
@@ -240,12 +231,10 @@ DESCRIPTION_EXERCISE_EN = {
         8: "Mixed accusative and dative pronouns in sentences",
         9: "Replacing accusative and dative nouns with pronouns in sentences",
         10: "Replacing accusative and dative nouns with pronouns in sentences",
-
         11: "Reflexive pronouns in isolation",
         12: "Reflexive pronouns in sentences",
         13: "Mixed accusative, dative, and reflexive pronouns in sentences",
         14: "Mixed accusative, dative, and reflexive pronouns in sentences",
-
         15: "B1 Pronouns <em>nichts</em>, <em>man</em>, <em>jemand</em> etc. in isolation",
         16: "B1 Pronouns <em>nichts</em>, <em>man</em>, <em>jemand</em> etc. in sentences",
         17: "Relative pronouns in isolation",
@@ -255,7 +244,6 @@ DESCRIPTION_EXERCISE_EN = {
         21: "Relative genitive pronouns in sentences",
         22: "Mixed relative pronouns in sentences",
         23: "Mixed relative pronouns in sentences",
-
         24: "B2 Pronouns <em>niemanden</em>, <em>jemanden</em>, <em>einander</em> etc. in isolation",
         25: "B2 Pronouns <em>niemanden</em>, <em>jemanden</em>, <em>einander</em> etc. in sentences",
         26: "Articles as pronouns in isolation",
@@ -263,7 +251,6 @@ DESCRIPTION_EXERCISE_EN = {
         28: "Mixed relative pronouns in sentences",
         29: "Mixed relative pronouns in sentences",
         30: "Relative pronouns for locations and directions in sentences",
-
         31: "Substitution pronouns <i>einer</i>, <i>eine</i>, <i>eines</i>, and <i>welche</i> in isolation",
         32: "Substitution pronouns <i>einer</i>, <i>eine</i>, <i>eines</i>, and <i>welche</i> in sentences",
         33: "Possessive pronouns linked to singular pronouns (<i>ich</i>, <i>du</i>, <i>er</i>, <i>sie</i>, <i>es</i>) in isolation",
@@ -272,13 +259,11 @@ DESCRIPTION_EXERCISE_EN = {
         36: "Possessive pronouns linked to plural (<i>wir</i>, <i>ihr</i>, <i>sie</i>) and formal pronouns in sentences",
         37: "Relative pronouns <i>was</i> und <i>wer</i> in sentences",
         38: "<i>dies</i> to refer to an entire clause in sentences",
-
         39: "C2 Pronouns in isolation",
         40: "C2 Pronouns in sentences",
         41: "C2 Pronouns in <i>die ...</i> in isolation",
         42: "C2 Pronouns in <i>die ...</i> in sentences",
     },
-
     praepositionen_artikel: {
         1: "Articles and pronouns following prepositions in sentences",
         2: "Articles and pronouns following prepositions in sentences",
@@ -286,12 +271,10 @@ DESCRIPTION_EXERCISE_EN = {
         4: "Articles and pronouns following prepositions in sentences",
         5: "Articles and pronouns following verb-preposition pairs in sentences",
         6: "Articles and pronouns following verb-preposition pairs in sentences",
-
         7: "Articles and pronouns following prepositions in sentences",
         8: "Articles and pronouns following prepositions in sentences",
         9: "Articles and pronouns following verb-preposition pairs in sentences",
         10: "Articles and pronouns following verb-preposition pairs in sentences",
-
         11: "Articles and pronouns following prepositions in sentences",
         12: "Articles and pronouns following prepositions in sentences",
         13: "Articles and pronouns following prepositions in sentences",
@@ -304,7 +287,6 @@ DESCRIPTION_EXERCISE_EN = {
         20: "Articles and pronouns following noun-preposition pairs in sentences",
         21: "Articles and pronouns following noun-preposition pairs in sentences",
         22: "Articles and pronouns following noun-preposition pairs in sentences",
-
         23: "Articles and pronouns following prepositions in sentences",
         24: "Articles and pronouns following prepositions in sentences",
         25: "Articles and pronouns following prepositions in sentences",
@@ -320,11 +302,9 @@ DESCRIPTION_EXERCISE_EN = {
         35: "Articles and pronouns following noun-preposition pairs in sentences",
         36: "Articles and pronouns following noun-preposition pairs in sentences",
     },
-
     konnektoren: {
         18: "Connectors (correlative conjunctions) in isolation",
         19: "Connectors (correlative conjunctions) in sentences",
-
         31: "Connectors (conjunctions) in isolation",
         32: "Connectors (conjunctions) in sentences",
         33: "Connectors (adverbs) in isolation",
@@ -336,36 +316,29 @@ DESCRIPTION_EXERCISE_EN = {
         39: "Connectors (conjunctions) in isolation",
         40: "Connectors (conjunctions) in sentences",
     },
-
     fragen: {
-        10: '<i>Wer</i> and <i>Wie viele</i> in different cases in isolation',
-        11: '<i>Wer</i> and <i>Wie viele</i> in different cases in sentences',
-        12: '<i>Welch-</i> in the accusative and the dative in isolation',
-        13: '<i>Welch-</i> in the accusative and the dative in sentences',
-
-        16: 'Interrogative pronoun <i>welche</i> in isolation',
-        17: 'Interrogative pronoun <i>welche</i> in sentences',
-
-        18: '<i>Welche</i> and <i>Wie viele</i> in the genitive in isolation',
-        19: '<i>Welche</i> and <i>Wie viele</i> in the genitive in sentences',
+        10: "<i>Wer</i> and <i>Wie viele</i> in different cases in isolation",
+        11: "<i>Wer</i> and <i>Wie viele</i> in different cases in sentences",
+        12: "<i>Welch-</i> in the accusative and the dative in isolation",
+        13: "<i>Welch-</i> in the accusative and the dative in sentences",
+        16: "Interrogative pronoun <i>welche</i> in isolation",
+        17: "Interrogative pronoun <i>welche</i> in sentences",
+        18: "<i>Welche</i> and <i>Wie viele</i> in the genitive in isolation",
+        19: "<i>Welche</i> and <i>Wie viele</i> in the genitive in sentences",
     },
-
     adverbien: {
         22: "Adverbs derived from adjectives in isolation",
         23: "Adverbs derived from adjectives in sentences",
-
         30: "Adverbs derived from adjectives in isolation",
         31: "Adverbs derived from adjectives in sentences",
         32: "Adverbs derived from adjectives in isolation",
         33: "Adverbs derived from adjectives in sentences",
         34: "Adverbs derived from adjectives in isolation",
         35: "Adverbs derived from adjectives in sentences",
-
         40: "Adverbs derived from comparative adjectives in isolation",
         41: "Adverbs derived from comparative adjectives in sentences",
         42: "Adverbs derived from superlative adjectives in isolation",
         43: "Adverbs derived from superlative adjectives in sentences",
-
         46: "Temporal adverbs in isolation",
         47: "Temporal adverbs in isolation",
         48: "Local adverbs in isolation",
@@ -376,7 +349,6 @@ DESCRIPTION_EXERCISE_EN = {
         53: "Adverbs derived from adjectives in sentences",
         54: "Adverbs in <i>-einander</i> in isolation",
         55: "Adverbs in <i>-einander</i> in sentences",
-
         56: "Temporal adverbs in <i>-mals</i>, <i>-falls</i> and <i>-mal</i> in isolation",
         57: "Temporal adverbs in <i>-mals</i>, <i>-falls</i> and <i>-mal</i> in sentences",
         58: "Local adverbs in <i>-wärts</i> in isolation",
@@ -385,7 +357,6 @@ DESCRIPTION_EXERCISE_EN = {
         61: "Adverbs derived from adjectives in sentences",
         62: "Prepositional adverbial phrases in isolation",
         63: "Prepositional adverbial phrases in sentences",
-
         66: "Temporal adverbs in isolation",
         67: "Temporal adverbs in sentences",
         68: "Local adverbs in <i>Hin</i> and <i>Her</i> in isolation",
@@ -394,7 +365,6 @@ DESCRIPTION_EXERCISE_EN = {
         71: "Modal adverbs in <i>-weise</i> and <i>-maßen</i> in sentences",
         72: "Miscellaneous adverbs in isolation",
         73: "Miscellaneous adverbs in sentences",
-
         76: "Temporal adverbs in isolation",
         77: "Temporal adverbs in sentences",
         78: "Miscellaneous adverbs in isolation",
@@ -404,7 +374,6 @@ DESCRIPTION_EXERCISE_EN = {
         82: "Absolute superlative adverbs in <i>aufs + superlative</i> in isolation",
         83: "Absolute superlative adverbs in <i>aufs + superlative</i> in sentences",
     },
-
     wortstellung: {
         1: "Simple German sentences",
         2: "Simple German sentences with adjectives and adverbs",
@@ -426,7 +395,6 @@ DESCRIPTION_EXERCISE_EN = {
         18: "Simple German sentences in the imperative",
         19: "Sentences with objects and adverbial phrases",
         20: "Sentences with objects and adverbial phrases",
-
         21: "Connectors",
         22: "Connectors with modal verbs, separable verbs, and the perfect tense",
         23: "Reflexive pronouns",
@@ -439,7 +407,6 @@ DESCRIPTION_EXERCISE_EN = {
         30: "Indirect W-questions with modal verbs, separable verbs, and the perfect tense",
         31: "<i>zu</i> + infinitive",
         32: "Comparative conjunctions <i>so</i>, <i>wie</i>, <i>als</i> with modal verbs, separable verbs, and the perfect tense",
-
         33: "Connectors at B1 level",
         34: "Connectors at B1 level",
         35: "Connectors at B1 level",
@@ -458,7 +425,6 @@ DESCRIPTION_EXERCISE_EN = {
         48: "Adjective constructions with a new clause (<i>so ... wie</i>, <i>als</i>, <i>je ... umso</i>)",
         49: "TeKaMoLo",
         50: "Adverbs intensifying adjectives",
-
         51: "Connectors at B2 level",
         52: "Connectors at B2 level",
         53: "Connectors at B2 level",
@@ -473,7 +439,6 @@ DESCRIPTION_EXERCISE_EN = {
         62: "Reflexive pronouns with noun and pronoun subjects",
         63: "Relative clauses with <i>wo</i>, <i>woher</i> and <i>wohin</i>",
         64: "Relative clauses with <i>wo</i>, <i>woher</i> and <i>wohin</i>",
-
         65: "Connectors at C1 level",
         66: "Connectors at C1 level",
         67: "Connectors at C1 level",
@@ -489,7 +454,6 @@ DESCRIPTION_EXERCISE_EN = {
         77: "Three-Verb constructions: <i>Future II</i> (future perfect)",
         78: "Three-Verb constructions: Modals for supposition in the perfect tense",
     },
-
     komparativ_superlativ: {
         1: "Comparatives in isolation",
         2: "Comparatives in isolation",
@@ -497,7 +461,6 @@ DESCRIPTION_EXERCISE_EN = {
         4: "Superlatives in isolation",
         5: "Superlatives in isolation",
         6: "Superlatives in isolation",
-
         7: "Comparatives in isolation",
         8: "Comparatives in isolation",
         9: "Comparatives in isolation",
@@ -505,7 +468,6 @@ DESCRIPTION_EXERCISE_EN = {
         11: "Superlatives in isolation",
         12: "Superlatives in isolation",
     },
-
     adjektivdeklinationen: {
         1: "Nominative adjective declensions in isolation",
         2: "Nominative adjective declensions in sentences",
@@ -521,7 +483,6 @@ DESCRIPTION_EXERCISE_EN = {
         12: "Mixed nominative, accusative, and dative adjective declensions in sentences",
         13: "Possessive adjective declensions in isolation",
         14: "Possessive adjective declensions in sentences",
-
         15: "Genitive adjective declensions in isolation",
         16: "Genitive adjective declensions in sentences",
         17: "Adjective declensions after null article in isolation",
@@ -530,29 +491,24 @@ DESCRIPTION_EXERCISE_EN = {
         20: "Comparative adjective declensions in sentences",
         21: "Superlative adjective declensions in isolation",
         22: "Superlative adjective declensions in sentences",
-
         23: "Adjective declensions after the negative article <i>kein</i>, in isolation",
         24: "Adjective declensions after the negative article <i>kein</i>, in sentences",
         25: "Adjective declensions after demonstrative determiners, in isolation",
         26: "Adjective declensions after demonstrative determiners, in sentences",
         27: "Adjective declensions after cardinal numerals, in isolation",
         28: "Adjective declensions after cardinal numerals, in sentences",
-
         29: "Adjective declension after <i>etwas</i>, <i>viel</i>, and <i>mehr</i> in isolation",
         30: "Adjective declension after <i>etwas</i>, <i>viel</i>, and <i>mehr</i> in sentences",
         31: "Adjective declension after <i>alle</i> and <i>viele</i> in isolation",
         32: "Adjective declension after <i>alle</i> and <i>viele</i> in sentences",
     },
-
     trennbare_verben: {
         1: "A1 (un)separable verbs with root hint",
         2: "A1 (un)separable verbs with prefix hint",
         3: "A1 (un)separable verbs without hints",
-
         4: "A2 (un)separable verbs with root hint",
         5: "A2 (un)separable verbs with prefix hint",
         6: "A2 (un)separable verbs without hints",
-
         7: "B1 (un)separable verbs with root hint",
         8: "B1 (un)separable verbs with root hint",
         9: "B1 (un)separable verbs with root hint",
@@ -565,7 +521,6 @@ DESCRIPTION_EXERCISE_EN = {
         16: "B1 (un)separable verbs without hints",
         17: "B1 (un)separable verbs without hints",
         18: "B1 (un)separable verbs without hints",
-
         19: "B2 (un)separable verbs with root hint",
         20: "B2 (un)separable verbs with root hint",
         21: "B2 (un)separable verbs with root hint",
@@ -584,7 +539,6 @@ DESCRIPTION_EXERCISE_EN = {
         34: "B2 (un)separable verbs without hints",
         35: "B2 (un)separable verbs without hints",
         36: "B2 (un)separable verbs without hints",
-
         37: "(un)separable verbs based on <i>geben</i>",
         38: "(un)separable verbs based on <i>stellen</i>",
         39: "(un)separable verbs based on <i>nehmen</i>",
@@ -653,13 +607,11 @@ DESCRIPTION_EXERCISE_EN = {
         102: "C1 (un)separable verbs without hints",
         103: "C1 (un)separable verbs without hints",
     },
-
     nomen_verben_verbindungen: {
         1: "Noun-verb combinations with the noun missing in isolation",
         2: "Noun-verb combinations with the verb missing in isolation",
         3: "Noun-verb combinations with the noun missing in context",
         4: "Noun-verb combinations with the verb missing in context",
-
         5: "Noun-verb combinations with the noun missing in isolation",
         6: "Noun-verb combinations with the verb missing in isolation",
         7: "Noun-verb combinations with the noun missing in context",
@@ -672,7 +624,6 @@ DESCRIPTION_EXERCISE_EN = {
         14: "Noun-verb combinations with the verb missing in isolation",
         15: "Noun-verb combinations with the noun missing in context",
         16: "Noun-verb combinations with the verb missing in context",
-
         17: "Noun-verb combinations with the noun missing in isolation",
         18: "Noun-verb combinations with the verb missing in isolation",
         19: "Noun-verb combinations with the noun missing in context",
@@ -690,7 +641,6 @@ DESCRIPTION_EXERCISE_EN = {
         31: "Noun-verb combinations with the noun missing in context",
         32: "Noun-verb combinations with the verb missing in context",
     },
-
     partizip_II: {
         1: "Partizip II of irregular A1 verbs",
         2: "Partizip II of irregular A1 verbs",
@@ -698,14 +648,12 @@ DESCRIPTION_EXERCISE_EN = {
         4: "Partizip II of A1 verbs",
         5: "Partizip II of A1 verbs",
         6: "Partizip II of A1 verbs",
-
         7: "Partizip II of irregular A2 verbs",
         8: "Partizip II of irregular A2 verbs",
         9: "Partizip II of A2 verbs",
         10: "Partizip II of A2 verbs",
         11: "Partizip II of A2 verbs",
         12: "Partizip II of A2 verbs",
-
         13: "Partizip II of irregular B1 verbs",
         14: "Partizip II of irregular B1 verbs",
         15: "Partizip II of irregular B1 verbs",
@@ -717,7 +665,6 @@ DESCRIPTION_EXERCISE_EN = {
         21: "Partizip II of B1 verbs",
         22: "Partizip II of B1 verbs",
         23: "Partizip II of B1 verbs",
-
         24: "Partizip II of irregular B2 verbs",
         25: "Partizip II of irregular B2 verbs",
         26: "Partizip II of irregular B2 verbs",
@@ -739,7 +686,6 @@ DESCRIPTION_EXERCISE_EN = {
         42: "Partizip II of B2 verbs",
         43: "Partizip II of B2 verbs",
         44: "Partizip II of B2 verbs",
-
         45: "Partizip II of irregular C1 verbs",
         46: "Partizip II of irregular C1 verbs",
         47: "Partizip II of irregular C1 verbs",
@@ -773,10 +719,8 @@ DESCRIPTION_EXERCISE_EN = {
         75: "Partizip II of C1 verbs",
         76: "Partizip II of C1 verbs",
     },
-
     praeteritum: {
         1: "Präteritum of the most important verbs",
-
         2: "Präteritum (3<sup>rd</sup> Person Singular) of irregular A1 verbs",
         3: "Präteritum (3<sup>rd</sup> Person Singular) of irregular A1 verbs",
         4: "Präteritum (3<sup>rd</sup> Person Singular) of A1 verbs",
@@ -789,7 +733,6 @@ DESCRIPTION_EXERCISE_EN = {
         11: "Präteritum (3<sup>rd</sup> Person Singular) of A2 verbs",
         12: "Präteritum (3<sup>rd</sup> Person Singular) of A2 verbs",
         13: "Präteritum (3<sup>rd</sup> Person Singular) of A2 verbs",
-
         14: "Präteritum (3<sup>rd</sup> Person Singular) of irregular B1 verbs",
         15: "Präteritum (3<sup>rd</sup> Person Singular) of irregular B1 verbs",
         16: "Präteritum (3<sup>rd</sup> Person Singular) of irregular B1 verbs",
@@ -801,7 +744,6 @@ DESCRIPTION_EXERCISE_EN = {
         22: "Präteritum (3<sup>rd</sup> Person Singular) of B1 verbs",
         23: "Präteritum (3<sup>rd</sup> Person Singular) of B1 verbs",
         24: "Präteritum (3<sup>rd</sup> Person Singular) of B1 verbs",
-
         25: "Präteritum (3<sup>rd</sup> Person Singular) of irregular B2 verbs",
         26: "Präteritum (3<sup>rd</sup> Person Singular) of irregular B2 verbs",
         27: "Präteritum (3<sup>rd</sup> Person Singular) of irregular B2 verbs",
@@ -823,7 +765,6 @@ DESCRIPTION_EXERCISE_EN = {
         43: "Präteritum (3<sup>rd</sup> Person Singular) of B2 verbs",
         44: "Präteritum (3<sup>rd</sup> Person Singular) of B2 verbs",
         45: "Präteritum (3<sup>rd</sup> Person Singular) of B2 verbs",
-
         46: "Präteritum (3<sup>rd</sup> Person Singular) of irregular C1 verbs",
         47: "Präteritum (3<sup>rd</sup> Person Singular) of irregular C1 verbs",
         48: "Präteritum (3<sup>rd</sup> Person Singular) of irregular C1 verbs",
@@ -857,27 +798,22 @@ DESCRIPTION_EXERCISE_EN = {
         76: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
         77: "Präteritum (3<sup>rd</sup> Person Singular) of C1 verbs",
     },
-
     konjunktiv_II: {
         1: "Konjunktiv II of the most common verbs",
-
         2: "Konjunktiv II of common verbs",
         3: "Konjunktiv II of common verbs",
     },
-
     adjektive_verben_wortstaemme: {
         1: "Adjective missing in the adjective-verb etymological pair",
         2: "Verb missing in the adjective-verb etymological pair",
         3: "Adjective missing in the adjective-verb etymological pair",
         4: "Verb missing in the adjective-verb etymological pair",
-
         5: "Adjective missing in the adjective-verb etymological pair",
         6: "Verb missing in the adjective-verb etymological pair",
         7: "Adjective missing in the adjective-verb etymological pair",
         8: "Verb missing in the adjective-verb etymological pair",
         9: "Adjective missing in the adjective-verb etymological pair",
         10: "Verb missing in the adjective-verb etymological pair",
-
         11: "Adjective missing in the adjective-verb etymological pair",
         12: "Verb missing in the adjective-verb etymological pair",
         13: "Adjective missing in the adjective-verb etymological pair",
@@ -889,18 +825,15 @@ DESCRIPTION_EXERCISE_EN = {
         19: "Adjective missing in the adjective-verb etymological pair",
         20: "Verb missing in the adjective-verb etymological pair",
     },
-
     adjektive_nomen_wortstaemme: {
         1: "Adjective missing in the adjective-noun etymological pair",
         2: "Noun missing in the adjective-noun etymological pair",
         3: "Adjective missing in the adjective-noun etymological pair",
         4: "Noun missing in the adjective-noun etymological pair",
-
         5: "Adjective missing in the adjective-noun etymological pair",
         6: "Noun missing in the adjective-noun etymological pair",
         7: "Adjective missing in the adjective-noun etymological pair",
         8: "Noun missing in the adjective-noun etymological pair",
-
         9: "Adjective missing in the adjective-noun etymological pair",
         10: "Noun missing in the adjective-noun etymological pair",
         11: "Adjective missing in the adjective-noun etymological pair",
@@ -912,18 +845,15 @@ DESCRIPTION_EXERCISE_EN = {
         17: "Adjective missing in the adjective-noun etymological pair",
         18: "Noun missing in the adjective-noun etymological pair",
     },
-
     nomen_verben_wortstaemme: {
         1: "Verb missing in the noun-verb etymological pair",
         2: "Noun missing in the noun-verb etymological pair",
-
         3: "Verb missing in the noun-verb etymological pair",
         4: "Noun missing in the noun-verb etymological pair",
         5: "Verb missing in the noun-verb etymological pair",
         6: "Noun missing in the noun-verb etymological pair",
         7: "Verb missing in the noun-verb etymological pair",
         8: "Noun missing in the noun-verb etymological pair",
-
         9: "Verb missing in the noun-verb etymological pair",
         10: "Noun missing in the noun-verb etymological pair",
         11: "Verb missing in the noun-verb etymological pair",
@@ -934,7 +864,6 @@ DESCRIPTION_EXERCISE_EN = {
         16: "Noun missing in the noun-verb etymological pair",
         17: "Verb missing in the noun-verb etymological pair",
         18: "Noun missing in the noun-verb etymological pair",
-
         19: "Verb missing in the noun-verb etymological pair",
         20: "Noun missing in the noun-verb etymological pair",
         21: "Verb missing in the noun-verb etymological pair",
@@ -977,7 +906,6 @@ DESCRIPTION_EXERCISE_EN = {
         58: "Noun missing in the noun-verb etymological pair",
         59: "Verb missing in the noun-verb etymological pair",
         60: "Noun missing in the noun-verb etymological pair",
-
         61: "Verb missing in the noun-verb etymological pair",
         62: "Noun missing in the noun-verb etymological pair",
         63: "Verb missing in the noun-verb etymological pair",
@@ -1011,32 +939,27 @@ DESCRIPTION_EXERCISE_EN = {
         91: "Verb missing in the noun-verb etymological pair",
         92: "Noun missing in the noun-verb etymological pair",
     },
-
     genus_regeln: {
         1: "A1 gender rules, in isolation",
         2: "A1 gender rules, in isolation",
         3: "A1 gender rules, in isolation",
         4: "A1 gender rules, in isolation",
         5: "Exceptions to the gender rules, in isolation",
-
         6: "A2 gender rules, in isolation",
         7: "A2 gender rules, in isolation",
         8: "A2 gender rules, in isolation",
         9: "A2 gender rules, in isolation",
         10: "Exceptions to the gender rules, in isolation",
-
         11: "B1 gender rules, in isolation",
         12: "B1 gender rules, in isolation",
         13: "B1 gender rules, in isolation",
         14: "B1 gender rules, in isolation",
         15: "Exceptions to the gender rules, in isolation",
-
         16: "B2 gender rules, in isolation",
         17: "B2 gender rules, in isolation",
         18: "B2 gender rules, in isolation",
         19: "B2 gender rules, in isolation",
         20: "Exceptions to the gender rules, in isolation",
-
         21: "C1 gender rules, in isolation",
         22: "C1 gender rules, in isolation",
         23: "C1 gender rules, in isolation",
@@ -1045,7 +968,6 @@ DESCRIPTION_EXERCISE_EN = {
         26: "C1 gender rules, in isolation",
         27: "Exceptions to the gender rules, in isolation",
     },
-
     zahlen: {
         1: "Numbers from 0 to 10 in isolation",
         2: "Numbers from 11 to 20 in isolation",
@@ -1057,22 +979,18 @@ DESCRIPTION_EXERCISE_EN = {
         8: "Numbers from 1'001 to 1'000'000 in isolation",
         9: "Time of day in isolation",
         10: "Time of day in isolation",
-
         11: "Numbers above one million in isolation",
         12: "Decimal numbers in isolation",
         13: "Ordinal numbers (<i>first</i>, <i>second</i>) from 1 to 10 in isolation",
         14: "Ordinal numbers (<i>first</i>, <i>second</i>) from 11 to 20 in isolation",
         15: "Ordinal numbers (<i>first</i>, <i>second</i>) from 21 to 31 in isolation",
         16: "Ordinal numbers (<i>first</i>, <i>second</i>) in sentences",
-
         17: "Sequential adverbs (<i>erstens</i>, <i>zweitens</i>) in isolation",
         18: "Sequential adverbs (<i>erstens</i>, <i>zweitens</i>) in sentences",
         19: "Adverbs <i>einmal</i>, <i>zweimal</i> etc. in isolation",
         20: "Adverbs <i>einmal</i>, <i>zweimal</i> etc. in sentences",
-
         21: "Fractions (<i>a third</i>, <i>a fourth</i>) in isolation",
         22: "Fractions (<i>a third</i>, <i>a fourth</i>) in sentences",
-
         23: "Genitive form of numbers in isolation",
         24: "Genitive form of numbers in sentences",
     },

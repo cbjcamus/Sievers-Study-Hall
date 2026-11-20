@@ -1,64 +1,60 @@
-from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
+from data.data_processing.exercises import antonym, context, isolation, prompt, synonym
 from data.data_processing.units import (
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha,
+    adjektivdeklinationen,
+    adjektive,
+    adjektive_konjunktionen,
+    adjektive_nomen_wortstaemme,
+    adjektive_verben_wortstaemme,
+    adverbien,
+    alpha,
+    artikel,
+    fragen,
+    genus,
+    genus_regeln,
+    imperativ,
+    komparativ_superlativ,
+    konjunktiv_I,
+    konjunktiv_II,
+    konnektoren,
+    nomen_verben_verbindungen,
+    nomen_verben_wortstaemme,
+    partizip_I,
+    partizip_II,
+    perfekt,
+    plural,
+    praepositionen,
+    praepositionen_adjektive,
+    praepositionen_artikel,
+    praepositionen_nomen,
+    praepositionen_verben,
+    praesens,
+    praeteritum,
+    pronomen,
+    pronominaladverbien,
+    trennbare_verben,
+    verben,
+    verben_artikel,
+    wortstellung,
+    zahlen,
 )
 
 INSTRUCTION_UNIT_FR = {
-    praepositionen_artikel:
-        "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
-
-    verben_artikel:
-        "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
-
-    wortstellung:
-        "Traduisez la phrase française suivante en tenant compte des indications éventuelles :",
-
-    adjektive_konjunktionen:
-        "Complétez la phrase suivante avec le mot qui convient :",
-
-    praesens:
-        "Conjuguez le verbe suivant au présent :",
-
-    partizip_II:
-        "Donnez le participe passé (Partizip II) du verbe suivant :",
-
-    praeteritum:
-        "Conjuguez le verbe suivant au prétérit (Präteritum) :",
-
-    perfekt:
-        "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant au passé composé (<i>Perfekt</i>) :",
-
-    imperativ:
-        "Conjuguez le verbe suivant à l'impératif :",
-
-    konjunktiv_II:
-        "Conjuguez au Konjunktiv II le verbe suivant :",
-
-    konjunktiv_I:
-        "Conjuguez au Konjunktiv I le verbe suivant :",
-
-    partizip_I:
-        "Donnez le participe présent (Partizip I) du verbe suivant :",
-
-    genus_regeln:
-        "Donnez l'article défini (der, die ou das) correspondant au nom indiqué :",
-
-    genus:
-        "Donnez l'article défini (der, die ou das) correspondant au nom indiqué :",
-
-    plural:
-        "Donnez le pluriel du nom suivant :",
-
-    alpha:
-        "Rédigez une phrase (ou deux) en utilisant la conjonction suivante :",
+    praepositionen_artikel: "Complétez la phrase suivante avec la préposition indiquée et l'article ou le pronom qui convient :",
+    verben_artikel: "Complétez la phrase suivante avec l'article ou le pronom qui convient :",
+    wortstellung: "Traduisez la phrase française suivante en tenant compte des indications éventuelles :",
+    adjektive_konjunktionen: "Complétez la phrase suivante avec le mot qui convient :",
+    praesens: "Conjuguez le verbe suivant au présent :",
+    partizip_II: "Donnez le participe passé (Partizip II) du verbe suivant :",
+    praeteritum: "Conjuguez le verbe suivant au prétérit (Präteritum) :",
+    perfekt: "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant au passé composé (<i>Perfekt</i>) :",
+    imperativ: "Conjuguez le verbe suivant à l'impératif :",
+    konjunktiv_II: "Conjuguez au Konjunktiv II le verbe suivant :",
+    konjunktiv_I: "Conjuguez au Konjunktiv I le verbe suivant :",
+    partizip_I: "Donnez le participe présent (Partizip I) du verbe suivant :",
+    genus_regeln: "Donnez l'article défini (der, die ou das) correspondant au nom indiqué :",
+    genus: "Donnez l'article défini (der, die ou das) correspondant au nom indiqué :",
+    plural: "Donnez le pluriel du nom suivant :",
+    alpha: "Rédigez une phrase (ou deux) en utilisant la conjonction suivante :",
 }
 
 INSTRUCTION_SUBCATEGORY_FR = {
@@ -67,38 +63,32 @@ INSTRUCTION_SUBCATEGORY_FR = {
         isolation: "Traduisez la préposition ci-dessous :",
         synonym: "Trouvez un synonyme pour la préposition suivante :",
         antonym: "Trouvez un antonyme pour la préposition suivante :",
-        prompt: "Rédigez une ou deux phrases en allemand en utilisant la préposition suivante dans le sens indiqué :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant la préposition suivante dans le sens indiqué :",
     },
-
     praepositionen_verben: {
         isolation: "Donnez la préposition associée au verbe suivant :",
         context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
-        prompt: "Rédigez une ou deux phrases en allemand en utilisant la paire verbe-préposition suivante :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant la paire verbe-préposition suivante :",
     },
-
     praepositionen_adjektive: {
         isolation: "Donnez la préposition associée à l'adjectif suivant :",
         context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
-
     praepositionen_nomen: {
         isolation: "Donnez la préposition associée au nom suivant :",
         context: "Complétez la phrase ci-dessous avec la préposition qui convient :",
     },
-
     konnektoren: {
         isolation: "Traduisez le connecteur suivant :",
         context: "Complétez la phrase suivante avec le connecteur qui convient :",
         prompt: "Rédigez une ou deux phrases en allemand en utilisant le connecteur suivant :",
         synonym: "Trouvez un synonyme pour le connecteur suivant :",
     },
-
     fragen: {
         isolation: "Traduisez le mot interrogatif suivant :",
         context: "Complétez la phrase suivante avec le mot interrogatif qui convient :",
         prompt: "Rédigez une ou deux phrases en allemand en utilisant le mot interrogatif suivant :",
     },
-
     adverbien: {
         isolation: "Traduisez l'adverbe suivant :",
         context: "Complétez la phrase suivante avec l'adverbe qui convient :",
@@ -106,39 +96,31 @@ INSTRUCTION_SUBCATEGORY_FR = {
         synonym: "Trouvez un synonyme pour l'adverbe suivant :",
         antonym: "Trouvez un antonyme pour l'adverbe suivant :",
     },
-
     verben: {
         isolation: "Traduisez le verbe suivant :",
-        prompt: "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant :",
     },
-
     adjektive: {
         isolation: "Traduisez l'adjectif suivant :",
         synonym: "Trouvez un synonyme pour l'adjectif suivant :",
-        prompt: "Rédigez une ou deux phrases en allemand en utilisant l'adjectif suivant :"
+        prompt: "Rédigez une ou deux phrases en allemand en utilisant l'adjectif suivant :",
     },
 }
 
-INSTRUCTION_CATEGORY_FR = {
-
-}
+INSTRUCTION_CATEGORY_FR = {}
 
 INSTRUCTION_EXERCISE_FR = {
     praepositionen: {
         40: "Traduisez le groupe prépositionnel ci-dessous :",
         41: "Complétez la phrase ci-dessous avec le groupe prépositionnel qui convient :",
     },
-
     pronominaladverbien: {
         1: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
-
         2: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
         3: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Da</i> qui convient :",
         4: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
-
         5: "Complétez la phrase suivante avec l'adverbe pronominal en <i>Wo</i> qui convient :",
     },
-
     artikel: {
         1: "Donnez l'article défini qui correspond au cas et au genre indiqués :",
         2: "Complétez la phrase suivante avec l'article défini Nominatif qui convient :",
@@ -164,33 +146,28 @@ INSTRUCTION_EXERCISE_FR = {
         22: "Complétez la phrase suivante avec la forme de <i>kein</i> qui convient :",
         23: "Écrivez l'article possessif qui correspond au cas et au genre indiqués :",
         24: "Complétez la phrase suivante avec l'article possessif qui convient."
-            "<br><br>Tous les articles possessifs sont basés sur des pronoms singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>).",
+        "<br><br>Tous les articles possessifs sont basés sur des pronoms singuliers (<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>).",
         25: "Écrivez l'article possessif qui correspond au cas et au genre indiqués.",
         26: "Complétez la phrase suivante avec l'article possessif qui convient."
-            "<br><br>Tous les articles possessifs sont basés sur des pronoms pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) ou formels.",
-
+        "<br><br>Tous les articles possessifs sont basés sur des pronoms pluriels (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) ou formels.",
         27: "Donnez l'article démonstratif qui correspond au cas et au genre indiqués :",
         28: "Complétez la phrase suivante avec l'article démonstratif qui convient :",
         29: "Donnez la forme de <i>jeder</i> correspondant au cas et au genre indiqués :",
         30: "Complétez la phrase suivante avec la forme de <i>jeder</i> qui convient :",
         31: "Traduisez l'article suivant :",
         32: "Complétez la phrase suivante avec l'article qui convient :",
-
         33: "Donnez l'article qui correspond au cas et au genre indiqués :",
         34: "Complétez la phrase suivante avec l'article génitif qui convient :",
         35: "Donnez l'article qui correspond au cas et au genre indiqués :",
         36: "Complétez la phrase suivante avec l'article génitif qui convient :",
         37: "Écrivez l'article possessif qui correspond au cas et au genre indiqués :",
         38: "Complétez la phrase suivante avec l'article possessif qui convient :",
-
         39: "Traduisez l'article suivant en fonction du cas et du genre indiqués :",
         40: "Complétez la phrase suivante avec l'article qui convient :",
-
         41: "Traduisez l'article suivant en fonction du cas et du genre indiqués :",
         42: "Complétez la phrase suivante avec l'article qui convient :",
         43: "Complétez la phrase suivante avec l'article qui convient :",
         44: "Complétez la phrase suivante avec l'article qui convient :",
-
         45: "Traduisez l'article suivant en fonction du cas et du genre indiqués :",
         46: "Complétez la phrase suivante avec l'article qui convient :",
         47: "Traduisez l'article suivant en fonction du cas et du genre indiqués :",
@@ -198,7 +175,6 @@ INSTRUCTION_EXERCISE_FR = {
         49: "Traduisez l'article suivant en fonction du cas et du genre indiqués :",
         50: "Complétez la phrase suivante avec l'article qui convient :",
     },
-
     pronomen: {
         1: "Écrivez le pronom nominatif qui correspond à la personne donnée :",
         2: "Complétez la phrase suivante avec le pronom nominatif qui convient :",
@@ -210,12 +186,10 @@ INSTRUCTION_EXERCISE_FR = {
         8: "Complétez la phrase suivante avec le pronom qui convient :",
         9: "Remplacez l'objet indiqué par le pronom approprié :",
         10: "Remplacez l'objet indiqué par le pronom approprié :",
-
         11: "Écrivez le pronom réfléchi qui correspond à la personne et au cas donnés :",
         12: "Complétez la phrase suivante avec le pronom réfléchi qui convient :",
         13: "Complétez la phrase suivante avec le pronom qui convient :",
         14: "Complétez la phrase suivante avec le pronom qui convient :",
-
         15: "Traduisez le pronom suivant :",
         16: "Complétez la phrase suivante avec le pronom qui convient :",
         17: "Trouvez le pronom relatif correspondant au cas et au genre indiqués :",
@@ -225,7 +199,6 @@ INSTRUCTION_EXERCISE_FR = {
         21: "Complétez la phrase suivante avec le pronom relatif génitif qui convient :",
         22: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         23: "Complétez la phrase suivante avec le pronom relatif qui convient :",
-
         24: "Traduisez le pronom suivant :",
         25: "Complétez la phrase suivante avec le pronom qui convient :",
         26: "Traduisez le pronom suivant :",
@@ -233,7 +206,6 @@ INSTRUCTION_EXERCISE_FR = {
         28: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         29: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         30: "Complétez la phrase suivante avec le pronom relatif qui convient – il peut y avoir plusieurs options :",
-
         31: "Traduisez le pronom suivant :",
         32: "Complétez la phrase suivante avec le pronom qui convient :",
         33: "Donnez la traduction du pronom possessif qui correspond au cas et au genre indiqués :",
@@ -242,13 +214,11 @@ INSTRUCTION_EXERCISE_FR = {
         36: "Complétez la phrase suivante avec le pronom possessif qui convient :",
         37: "Complétez la phrase suivante avec le pronom relatif qui convient :",
         38: "Complétez la phrase suivante avec le pronom qui convient :",
-
         39: "Donnez la traduction du pronom en <i>die ...</i> :",
         40: "Complétez la phrase suivante avec le pronom en <i>die ...</i> qui convient :",
         41: "Traduisez le pronom suivant :",
         42: "Complétez la phrase suivante avec le pronom qui convient :",
     },
-
     komparativ_superlativ: {
         1: "Écrivez le comparatif de l'adjectif suivant :",
         2: "Écrivez le comparatif de l'adjectif suivant :",
@@ -256,7 +226,6 @@ INSTRUCTION_EXERCISE_FR = {
         4: "Écrivez le superlatif de l'adjectif suivant :",
         5: "Écrivez le superlatif de l'adjectif suivant :",
         6: "Écrivez le superlatif de l'adjectif suivant :",
-
         7: "Écrivez le comparatif de l'adjectif suivant :",
         8: "Écrivez le comparatif de l'adjectif suivant :",
         9: "Écrivez le comparatif de l'adjectif suivant :",
@@ -264,7 +233,6 @@ INSTRUCTION_EXERCISE_FR = {
         11: "Écrivez le superlatif de l'adjectif suivant :",
         12: "Écrivez le superlatif de l'adjectif suivant :",
     },
-
     adjektivdeklinationen: {
         1: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         2: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
@@ -280,7 +248,6 @@ INSTRUCTION_EXERCISE_FR = {
         12: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         13: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         14: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-
         15: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         16: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         17: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
@@ -289,29 +256,24 @@ INSTRUCTION_EXERCISE_FR = {
         20: "Complétez la phrase avec la forme comparative correcte de l'adjectif indiqué :",
         21: "Complétez le groupe nominal avec la forme superlative correcte de l'adjectif indiqué :",
         22: "Complétez la phrase avec la forme superlative correcte de l'adjectif indiqué :",
-
         23: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         24: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         25: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         26: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         27: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         28: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
-
         29: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         30: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
         31: "Complétez le groupe nominal avec la forme correcte de l'adjectif indiqué :",
         32: "Complétez la phrase avec la forme correcte de l'adjectif indiqué :",
     },
-
     trennbare_verben: {
         1: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         2: "Traduisez le verbe (in)séparable suivant à partir du préfixe indiqué :",
         3: "Traduisez le verbe (in)séparable suivant :",
-
         4: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         5: "Traduisez le verbe (in)séparable suivant à partir du préfixe indiqué :",
         6: "Traduisez le verbe (in)séparable suivant :",
-
         7: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         8: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         9: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
@@ -324,7 +286,6 @@ INSTRUCTION_EXERCISE_FR = {
         16: "Traduisez le verbe (in)séparable suivant :",
         17: "Traduisez le verbe (in)séparable suivant :",
         18: "Traduisez le verbe (in)séparable suivant :",
-
         19: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         20: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         21: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
@@ -343,7 +304,6 @@ INSTRUCTION_EXERCISE_FR = {
         34: "Traduisez le verbe (in)séparable suivant :",
         35: "Traduisez le verbe (in)séparable suivant :",
         36: "Traduisez le verbe (in)séparable suivant :",
-
         37: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         38: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
         39: "Traduisez le verbe (in)séparable suivant à partir de la racine indiquée :",
@@ -412,13 +372,11 @@ INSTRUCTION_EXERCISE_FR = {
         102: "Traduisez le verbe (in)séparable suivant :",
         103: "Traduisez le verbe (in)séparable suivant :",
     },
-
     nomen_verben_verbindungen: {
         1: "Trouvez le nom commun manquant dans la combinaison nom-verbe suivante :",
         2: "Trouvez le verbe manquant dans la combinaison nom-verbe suivante :",
         3: "Trouvez le nom commun manquant dans la phrase suivante :",
         4: "Trouvez le verbe manquant dans la phrase suivante :",
-
         5: "Trouvez le nom commun manquant dans la combinaison nom-verbe suivante :",
         6: "Trouvez le verbe manquant dans la combinaison nom-verbe suivante :",
         7: "Trouvez le nom commun manquant dans la phrase suivante :",
@@ -431,7 +389,6 @@ INSTRUCTION_EXERCISE_FR = {
         14: "Trouvez le verbe manquant dans la combinaison nom-verbe suivante :",
         15: "Trouvez le nom commun manquant dans la phrase suivante :",
         16: "Trouvez le verbe manquant dans la phrase suivante :",
-
         17: "Trouvez le nom commun manquant dans la combinaison nom-verbe suivante :",
         18: "Trouvez le verbe manquant dans la combinaison nom-verbe suivante :",
         19: "Trouvez le nom commun manquant dans la phrase suivante :",
@@ -449,20 +406,17 @@ INSTRUCTION_EXERCISE_FR = {
         31: "Trouvez le nom commun manquant dans la phrase suivante :",
         32: "Trouvez le verbe manquant dans la phrase suivante :",
     },
-
     adjektive_verben_wortstaemme: {
         1: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         2: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
         3: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         4: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
-
         5: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         6: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
         7: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         8: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
         9: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         10: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
-
         11: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         12: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
         13: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
@@ -474,18 +428,15 @@ INSTRUCTION_EXERCISE_FR = {
         19: "Trouvez l'adjectif manquant dans la paire adjectif-verbe suivante :",
         20: "Trouvez le verbe manquant dans la paire adjectif-verbe suivante :",
     },
-
     adjektive_nomen_wortstaemme: {
         1: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
         2: "Trouvez le nom commun manquant dans la paire adjectif-nom suivante :",
         3: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
         4: "Trouvez le nom commun manquant dans la paire adjectif-nom suivante :",
-
         5: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
         6: "Trouvez le nom commun manquant dans la paire adjectif-nom suivante :",
         7: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
         8: "Trouvez le nom commun manquant dans la paire adjectif-nom suivante :",
-
         9: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
         10: "Trouvez le nom commun manquant dans la paire adjectif-nom suivante :",
         11: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
@@ -497,18 +448,15 @@ INSTRUCTION_EXERCISE_FR = {
         17: "Trouvez l'adjectif manquant dans la paire adjectif-nom suivante :",
         18: "Trouvez le nom commun manquant dans la paire adjectif-nom suivante :",
     },
-
     nomen_verben_wortstaemme: {
         1: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         2: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
-
         3: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         4: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         5: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         6: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         7: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         8: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
-
         9: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         10: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         11: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
@@ -529,7 +477,6 @@ INSTRUCTION_EXERCISE_FR = {
         26: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         27: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         28: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
-
         29: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         30: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         31: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
@@ -560,7 +507,6 @@ INSTRUCTION_EXERCISE_FR = {
         56: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         57: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         58: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
-
         59: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         60: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
         61: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
@@ -596,7 +542,6 @@ INSTRUCTION_EXERCISE_FR = {
         91: "Trouvez le verbe manquant dans la paire nom-verbe suivante :",
         92: "Trouvez le nom commun manquant dans la paire nom-verbe suivante :",
     },
-
     zahlen: {
         1: "Écrivez le nombre suivant en toutes lettres :",
         2: "Écrivez le nombre suivant en toutes lettres :",
@@ -608,24 +553,19 @@ INSTRUCTION_EXERCISE_FR = {
         8: "Écrivez le nombre suivant en toutes lettres :",
         9: "Écrivez la forme écrite de l'heure suivante :",
         10: "Écrivez l'heure suivante sous forme numérique :",
-
         11: "Écrivez le nombre suivant en toutes lettres :",
         12: "Écrivez le nombre suivant en toutes lettres :",
         13: "Traduisez le nombre ordinal suivant :",
         14: "Traduisez le nombre ordinal suivant :",
         15: "Traduisez le nombre ordinal suivant :",
         16: "Complétez la phrase suivante avec le nombre ordinal qui convient :",
-
         17: "Traduisez l'adverbe de séquence suivant :",
         18: "Complétez la phrase suivante avec l'adverbe de séquence qui convient :",
         19: "Traduisez l'adverbe de fréquence suivant :",
         20: "Complétez la phrase suivante avec l'adverbe de fréquence qui convient :",
-
         21: "Traduisez la fraction suivante :",
         22: "Complétez la phrase suivante avec la fraction qui convient :",
-
         23: "Donnez la forme génitive du nombre suivant :",
         24: "Complétez la phrase suivante avec la forme génitive du nombre qui convient :",
     },
-
 }

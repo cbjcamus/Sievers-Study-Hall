@@ -17,7 +17,9 @@ def is_feedback_enabled():
     if current_user.is_authenticated:
         row = UserSettings.query.get(current_user.id)
         if row and row.settings:
-            return row.settings.get("feedback_enabled", DEFAULT_SETTINGS["feedback_enabled"])
+            return row.settings.get(
+                "feedback_enabled", DEFAULT_SETTINGS["feedback_enabled"]
+            )
         return DEFAULT_SETTINGS["feedback_enabled"]
 
     anon_settings = session.get("settings", {})
@@ -41,14 +43,13 @@ def are_special_characters_enabled():
         if row and row.settings:
             return row.settings.get(
                 "special_characters_enabled",
-                DEFAULT_SETTINGS["special_characters_enabled"]
+                DEFAULT_SETTINGS["special_characters_enabled"],
             )
         return DEFAULT_SETTINGS["special_characters_enabled"]
 
     anon_settings = session.get("settings", {})
     return anon_settings.get(
-        "special_characters_enabled",
-        DEFAULT_SETTINGS["special_characters_enabled"]
+        "special_characters_enabled", DEFAULT_SETTINGS["special_characters_enabled"]
     )
 
 
@@ -57,34 +58,32 @@ def is_instruction_page_enabled():
         row = UserSettings.query.get(current_user.id)
         if row and row.settings:
             return row.settings.get(
-                "instruction_page_enabled",
-                DEFAULT_SETTINGS["instruction_page_enabled"]
+                "instruction_page_enabled", DEFAULT_SETTINGS["instruction_page_enabled"]
             )
         return DEFAULT_SETTINGS["instruction_page_enabled"]
 
     anon_settings = session.get("settings", {})
     return anon_settings.get(
-        "instruction_page_enabled",
-        DEFAULT_SETTINGS["instruction_page_enabled"]
+        "instruction_page_enabled", DEFAULT_SETTINGS["instruction_page_enabled"]
     )
 
 
 def get_filename_empty_bookmark():
-    if get_theme() == 'day':
+    if get_theme() == "day":
         return "icons/bookmark/empty_day.png"
     else:
         return "icons/bookmark/empty.png"
 
 
 def get_filename_full_bookmark():
-    if get_theme() == 'day':
+    if get_theme() == "day":
         return "icons/bookmark/full_day.png"
     else:
         return "icons/bookmark/full.png"
 
 
 def get_filename_flag():
-    if get_theme() == 'day':
+    if get_theme() == "day":
         return "icons/flag/flag_black.png"
     else:
         return "icons/flag/flag_white.png"
@@ -96,14 +95,14 @@ def are_options_in_multiple_choice_exercises_hidden():
         if row and row.settings:
             return row.settings.get(
                 "hide_options_multiple_choices",
-                DEFAULT_SETTINGS["hide_options_multiple_choices"]
+                DEFAULT_SETTINGS["hide_options_multiple_choices"],
             )
         return DEFAULT_SETTINGS["hide_options_multiple_choices"]
 
     anon_settings = session.get("settings", {})
     return anon_settings.get(
         "hide_options_multiple_choices",
-        DEFAULT_SETTINGS["hide_options_multiple_choices"]
+        DEFAULT_SETTINGS["hide_options_multiple_choices"],
     )
 
 
@@ -112,13 +111,11 @@ def are_options_in_word_order_exercises_hidden():
         row = UserSettings.query.get(current_user.id)
         if row and row.settings:
             return row.settings.get(
-                "hide_options_word_order",
-                DEFAULT_SETTINGS["hide_options_word_order"]
+                "hide_options_word_order", DEFAULT_SETTINGS["hide_options_word_order"]
             )
         return DEFAULT_SETTINGS["hide_options_word_order"]
 
     anon_settings = session.get("settings", {})
     return anon_settings.get(
-        "hide_options_word_order",
-        DEFAULT_SETTINGS["hide_options_word_order"]
+        "hide_options_word_order", DEFAULT_SETTINGS["hide_options_word_order"]
     )

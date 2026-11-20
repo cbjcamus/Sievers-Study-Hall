@@ -2,11 +2,17 @@ import random
 
 from flask_login import current_user
 
-from data.data_processing.data_loading import (load_data_exercise, load_data_level, load_data_question)
-from data.data_processing.exercises import is_exercise_multiple_choice, get_answer_column
-
-from users.users.models import UserExerciseState
+from data.data_processing.data_loading import (
+    load_data_exercise,
+    load_data_level,
+    load_data_question,
+)
+from data.data_processing.exercises import (
+    get_answer_column,
+    is_exercise_multiple_choice,
+)
 from users.session_management.verification_session import init_session_key
+from users.users.models import UserExerciseState
 
 
 def pick_a_question(session, unit, exercise):
@@ -43,8 +49,8 @@ def pick_a_question(session, unit, exercise):
         filtered_data = data[~data["Nr"].astype(int).isin(correct_nrs)]
 
     else:
-        init_session_key(session, unit, exercise, 'progress')
-        answered_nrs = session[unit][str(exercise)]['progress']
+        init_session_key(session, unit, exercise, "progress")
+        answered_nrs = session[unit][str(exercise)]["progress"]
         filtered_data = data[~data["Nr"].astype(str).isin(answered_nrs)]
 
     if filtered_data.empty:

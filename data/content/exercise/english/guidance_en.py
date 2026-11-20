@@ -1,303 +1,241 @@
-from data.data_processing.exercises import isolation, context, synonym, multiple_choice_target, multiple_choice_native, \
-    antonym, prompt
+from data.data_processing.exercises import antonym, context, isolation, prompt, synonym
 from data.data_processing.units import (
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    genus_regeln, genus, plural,
-    praesens, partizip_II, praeteritum, perfekt, imperativ, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha,
+    adjektivdeklinationen,
+    adjektive,
+    adjektive_konjunktionen,
+    adjektive_nomen_wortstaemme,
+    adjektive_verben_wortstaemme,
+    adverbien,
+    alpha,
+    artikel,
+    fragen,
+    genus,
+    genus_regeln,
+    imperativ,
+    komparativ_superlativ,
+    konjunktiv_I,
+    konjunktiv_II,
+    konnektoren,
+    nomen_verben_verbindungen,
+    nomen_verben_wortstaemme,
+    partizip_I,
+    partizip_II,
+    perfekt,
+    plural,
+    praepositionen,
+    praepositionen_adjektive,
+    praepositionen_artikel,
+    praepositionen_nomen,
+    praepositionen_verben,
+    praesens,
+    praeteritum,
+    pronomen,
+    pronominaladverbien,
+    trennbare_verben,
+    verben,
+    verben_artikel,
+    wortstellung,
+    zahlen,
 )
-
 from webapp.style.icons import ICON_CHECK, ICON_CROSS, ICON_WARN
 
 GUIDANCE_UNIT_EN = {
-    praepositionen_artikel:
-        "For each question, an incomplete German sentence, its English translation, "
-        "a preposition and an article or a pronoun will be provided."
-        "<br><br>Complete the German sentence with the preposition and the article or pronoun that fits."
-
-        f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
-        "<h2>Example</h2>"
-        "Ein Zettel klebt _____ Schrank. \u25CF an \u25CF der/die/das"
-        "<br><br><i>A note is stuck to the closet.</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} am"
-        f"<br><br> &nbsp; {ICON_CHECK} an dem"
-        f"<br><br> &nbsp; {ICON_CROSS} dem"
-        f"<br><br> &nbsp; {ICON_CROSS} an"
-    ,
-
-    verben_artikel:
-        "For each question, an incomplete German sentence, its English translation, "
-        "and an article or a pronoun will be provided."
-        "<br><br>Complete the German sentence with the article or pronoun that fits."
-
-        f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
-        "<h2>Examples</h2>"
-        "Ich danke _____ für deine Hilfe. \u25CF du"
-        "<br><br><i>I thank you for your help.</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} dir"
-        f"<br><br> &nbsp; {ICON_CROSS} du"
-        f"<br><br> &nbsp; {ICON_CROSS} dich"
-
-        "<br><br>Ich trinke _____ Kaffee. \u25CF ein"
-        "<br><br><i>I drink a coffee.</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} einen"
-        f"<br><br> &nbsp; {ICON_CROSS} ein"
-        f"<br><br> &nbsp; {ICON_CROSS} eine"
-        f"<br><br> &nbsp; {ICON_CROSS} den"
-    ,
-
-    wortstellung:
-        "For each question, an English sentence and a series of German words will be provided."
-        "<br><br>Construct a grammatically correct German sentence that translates the English sentence"
-        " and follows any additional instructions."
-
-        f"<br><br> {ICON_WARN} Every word has to be used."
-        f"<br><br> {ICON_WARN} There may be more than one correct answer."
-        f"<br><br> {ICON_WARN} The first word or group of the German sentence may be indicated."
-        f"<br><br> {ICON_WARN} In declarative main clauses, if no first-position instruction is given, begin with the subject."
-
-        f"<br><br>➡️ You can find a guide to German Word Order "
-        f"<a href=\"https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft\" target=\"_blank\">here</a>."
-
-        "<h2>Examples</h2>"
-        "<i>I take my gloves</i>"
-        "<br><br>nehme Handschuhe ich meine"
-        f"<br><br> &nbsp; {ICON_CHECK} ich nehme meine Handschuhe"
-
-        "<br><br><br><i>In the evening I watch a film.</i>"
-        "<br><br>In first position: temporal phrase"
-        "<br><br>sehe am Film ich Abend einen"
-        f"<br><br> &nbsp; {ICON_CHECK} Am Abend sehe ich einen Film."
-        f"<br><br> &nbsp; {ICON_CROSS} Ich sehe am Abend einen Film. (doesn't follow the first-position instruction)"
-
-        "<br><br><br><i>He must work today.</i>"
-        "<br><br>arbeiten er heute muss"
-        f"<br><br> &nbsp; {ICON_CHECK} Er muss heute arbeiten."
-        f"<br><br> &nbsp; {ICON_CROSS} Heute muss er arbeiten. (if no first-position instruction is given, "
-        f"the first word must be the subject)"
-    ,
-
-    genus_regeln:
-        "For each question, a German noun and its English translation will be provided."
-        "<br><br>Find the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun."
-
-        "<br><br>➡️ A guide explaining the gender of nouns is available "
-        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
-
-        f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
-        "<h2>Example</h2>"
-        "_____ Abend"
-        "<br><br><i>The evening</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} Der"
-        f"<br><br> &nbsp; {ICON_CHECK} der"
-        f"<br><br> &nbsp; {ICON_CROSS} Die"
-    ,
-
-    genus:
-        "For each question, a German noun and its English translation will be provided."
-        "<br><br>Find the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun."
-
-        "<br><br>➡️ A guide explaining the gender of nouns is available "
-        "<a href=\"https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to\" target=\"_blank\">here</a>."
-
-        f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
-        "<h2>Example</h2>"
-        "_____ Abend"
-        "<br><br><i>The evening</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} Der"
-        f"<br><br> &nbsp; {ICON_CHECK} der"
-        f"<br><br> &nbsp; {ICON_CROSS} Die"
-    ,
-
-    plural:
-        "For each question, a German noun and its English translation will be provided."
-        "<br><br>Find the plural form of this noun."
-
-        f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
-        "<h2>Example</h2>"
-        "Singular: die Stunde (<i>the hour</i>)"
-        "<br><br>Plural: die _____"
-        f"<br><br> &nbsp; {ICON_CHECK} Stunden"
-        f"<br><br> &nbsp; {ICON_CHECK} stunden"
-        f"<br><br> &nbsp; {ICON_CROSS} Stunde"
-    ,
-
-    adjektive_konjunktionen:
-        "For each question, a German sentence and its English translation will be provided."
-        "<br><br>A word is missing from the German sentence. Find the one that fits."
-
-        "<h2>Example</h2>"
-        "Peter ist größer _____ sein Bruder."
-        "<br><br><i>Peter is taller than his brother.</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} als"
-    ,
-
-    praesens:
-        "For each question, a German verb and a personal pronoun will be provided."
-        "<br><br>Conjugate the verb in the present tense for that pronoun."
-
-        f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
-        f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
-        "<h2>Examples</h2>"
-        "haben \u25CF Ich _____"
-        f"<br><br> &nbsp; {ICON_CHECK} habe"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich habe"
-        f"<br><br> &nbsp; {ICON_CROSS} ich habe"
-
-        "<br><br>sich freuen \u25CF Ich _____"
-        f"<br><br> &nbsp; {ICON_CHECK} freue mich"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich freue mich"
-        f"<br><br> &nbsp; {ICON_CROSS} freue"
-    ,
-
-    partizip_II:
-        "For each question, a German verb will be provided."
-        "<br><br>Write the past participle (Partizip II) of the given verb."
-
-        f"<br><br> {ICON_WARN} Do not include an auxiliary verb (<i>Hilfsverb</i>), or your answer will be marked incorrect."
-        f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
-        "<h2>Examples</h2>"
-        "erinnern"
-        f"<br><br> &nbsp; {ICON_CHECK} erinnert"
-        f"<br><br> &nbsp; {ICON_CHECK} sich erinnert"
-        f"<br><br> &nbsp; {ICON_CROSS} hat erinnert"
-
-        "<br><br>sich freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} sich gefreut"
-        f"<br><br> &nbsp; {ICON_CROSS} gefreute"
-        f"<br><br> &nbsp; {ICON_CROSS} hat sich gefreut"
-    ,
-
-    praeteritum:
-        "For each question, a German verb will be provided."
-        "<br>Conjugate the verb in the preterit tense (Präteritum) using the indicated person."
-
-        f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
-        f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
-        "<h2>Examples</h2>"
-        "erinnern"
-        f"<br><br> &nbsp; {ICON_CHECK} erinnerte"
-        f"<br><br> &nbsp; {ICON_CHECK} erinnerte sich"
-        f"<br><br> &nbsp; {ICON_CROSS} er erinnerte"
-
-        "<br><br>sich freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} freute sich"
-        f"<br><br> &nbsp; {ICON_CROSS} freute"
-        f"<br><br> &nbsp; {ICON_CROSS} er freute sich"
-    ,
-
-    perfekt:
-        "For each question, a German verb will be provided."
-        "<br><br>Write a German sentence using that verb in the perfect tense."
-
-        f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
-        f"<br><br> {ICON_WARN} The German sentence must be coherent."
-        f"<br><br> {ICON_WARN} The auxiliary verb and the past participle must be correct."
-        f"<br><br> {ICON_WARN} Secondary errors such as gender of nouns or declensions are acceptable as long as the sentence"
-        f" is understandable and coherent."
-        f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
-        f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
-        f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
-        "<h2>Example</h2>"
-        f"sehen"
-        f"<br><br><i>to see, to realise</i>"
-        f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dich auf der Party nicht gesehen."
-        f"<br><br> &nbsp; {ICON_CROSS} Gestern ich habe dich auf der Party nicht gesehen. (Word order incorrect)"
-        f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dir auf der Party nicht gesehen. (Case error acceptable)"
-        f"<br><br> &nbsp; {ICON_CROSS} Gestern bin ich dich auf der Party nicht gesehen. (Incorrect auxiliary verb)"
-        f"<br><br> &nbsp; {ICON_CROSS} Gestern habe ich dich auf der Party nicht geseht. (Incorrect past participle)"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich habe die Musik nicht gesehen. (Incoherent sentence)"
-    ,
-
-    imperativ:
-        "For each question, a German verb and a personal pronoun will be provided."
-        "<br>Conjugate the verb in the imperative for that pronoun."
-
-        f"<br><br> {ICON_WARN} Write the personal pronoun only for the formal Sie imperative."
-        f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-        f"<br><br> {ICON_WARN} There may be more than one correct answer."
-        f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
-        "<h2>Examples</h2>"
-        "haben \u25CF Du"
-        f"<br><br> &nbsp; {ICON_CHECK} habe"
-        f"<br><br> &nbsp; {ICON_CHECK} hab"
-        f"<br><br> &nbsp; {ICON_CROSS} habe, hab"
-
-        "<br><br>sich freuen \u25CF Du"
-        f"<br><br> &nbsp; {ICON_CHECK} freu dich"
-        f"<br><br> &nbsp; {ICON_CHECK} freue dich"
-        f"<br><br> &nbsp; {ICON_CROSS} Du freu dich"
-
-        "<br><br>sich freuen \u25CF Sie"
-        f"<br><br> &nbsp; {ICON_CHECK} freuen Sie sich"
-        f"<br><br> &nbsp; {ICON_CROSS} freuen Sie"
-        f"<br><br> &nbsp; {ICON_CROSS} freuen sich"
-    ,
-
-    konjunktiv_II:
-        "For each question, a German verb and a personal pronoun will be provided."
-        "<br>Conjugate the verb in the Konjunktiv II for that pronoun."
-
-        f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
-
-        "<h2>Examples</h2>"
-        "sein \u25CF Du"
-        f"<br><br> &nbsp; {ICON_CHECK} wärest"
-        f"<br><br> &nbsp; {ICON_CROSS} Du wärest"
-
-        "<br><br>geben \u25CF du"
-        f"<br><br> &nbsp; {ICON_CHECK} gäbest"
-        f"<br><br> &nbsp; {ICON_CHECK} gäbst"
-        f"<br><br> &nbsp; {ICON_CROSS} würdest geben"
-    ,
-
-    konjunktiv_I:
-        "For each question, a German verb and a personal pronoun will be provided."
-        "<br>Conjugate the verb in the Konjunktiv I for that pronoun."
-
-        f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
-
-        "<h2>Example</h2>"
-        "sein \u25CF Du"
-        f"<br><br> &nbsp; {ICON_CHECK} seiest"
-        f"<br><br> &nbsp; {ICON_CROSS} Du seiest"
-    ,
-
-    partizip_I:
-        "For each question, a German verb will be provided."
-        "<br>Write the present participle (Partizip I) of the given verb."
-
-        f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
-        "<h2>Example</h2>"
-        "sich freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} sich freuend"
-        f"<br><br> &nbsp; {ICON_CROSS} freuend"
-    ,
+    praepositionen_artikel: "For each question, an incomplete German sentence, its English translation, "
+    "a preposition and an article or a pronoun will be provided."
+    "<br><br>Complete the German sentence with the preposition and the article or pronoun that fits."
+    f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
+    "<h2>Example</h2>"
+    "Ein Zettel klebt _____ Schrank. \u25cf an \u25cf der/die/das"
+    "<br><br><i>A note is stuck to the closet.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} am"
+    f"<br><br> &nbsp; {ICON_CHECK} an dem"
+    f"<br><br> &nbsp; {ICON_CROSS} dem"
+    f"<br><br> &nbsp; {ICON_CROSS} an",
+    verben_artikel: "For each question, an incomplete German sentence, its English translation, "
+    "and an article or a pronoun will be provided."
+    "<br><br>Complete the German sentence with the article or pronoun that fits."
+    f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
+    "<h2>Examples</h2>"
+    "Ich danke _____ für deine Hilfe. \u25cf du"
+    "<br><br><i>I thank you for your help.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} dir"
+    f"<br><br> &nbsp; {ICON_CROSS} du"
+    f"<br><br> &nbsp; {ICON_CROSS} dich"
+    "<br><br>Ich trinke _____ Kaffee. \u25cf ein"
+    "<br><br><i>I drink a coffee.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} einen"
+    f"<br><br> &nbsp; {ICON_CROSS} ein"
+    f"<br><br> &nbsp; {ICON_CROSS} eine"
+    f"<br><br> &nbsp; {ICON_CROSS} den",
+    wortstellung: "For each question, an English sentence and a series of German words will be provided."
+    "<br><br>Construct a grammatically correct German sentence that translates the English sentence"
+    " and follows any additional instructions."
+    f"<br><br> {ICON_WARN} Every word has to be used."
+    f"<br><br> {ICON_WARN} There may be more than one correct answer."
+    f"<br><br> {ICON_WARN} The first word or group of the German sentence may be indicated."
+    f"<br><br> {ICON_WARN} In declarative main clauses, if no first-position instruction is given, begin with the subject."
+    f"<br><br>➡️ You can find a guide to German Word Order "
+    f'<a href="https://sieversstudyhall.substack.com/p/guide-to-german-word-order-draft" target="_blank">here</a>.'
+    "<h2>Examples</h2>"
+    "<i>I take my gloves</i>"
+    "<br><br>nehme Handschuhe ich meine"
+    f"<br><br> &nbsp; {ICON_CHECK} ich nehme meine Handschuhe"
+    "<br><br><br><i>In the evening I watch a film.</i>"
+    "<br><br>In first position: temporal phrase"
+    "<br><br>sehe am Film ich Abend einen"
+    f"<br><br> &nbsp; {ICON_CHECK} Am Abend sehe ich einen Film."
+    f"<br><br> &nbsp; {ICON_CROSS} Ich sehe am Abend einen Film. (doesn't follow the first-position instruction)"
+    "<br><br><br><i>He must work today.</i>"
+    "<br><br>arbeiten er heute muss"
+    f"<br><br> &nbsp; {ICON_CHECK} Er muss heute arbeiten."
+    f"<br><br> &nbsp; {ICON_CROSS} Heute muss er arbeiten. (if no first-position instruction is given, "
+    f"the first word must be the subject)",
+    genus_regeln: "For each question, a German noun and its English translation will be provided."
+    "<br><br>Find the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun."
+    "<br><br>➡️ A guide explaining the gender of nouns is available "
+    '<a href="https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to" target="_blank">here</a>.'
+    f"<br><br> {ICON_WARN} There is only one correct answer per question."
+    "<h2>Example</h2>"
+    "_____ Abend"
+    "<br><br><i>The evening</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Der"
+    f"<br><br> &nbsp; {ICON_CHECK} der"
+    f"<br><br> &nbsp; {ICON_CROSS} Die",
+    genus: "For each question, a German noun and its English translation will be provided."
+    "<br><br>Find the definite article (<i>Der</i>, <i>Die</i> or <i>Das</i>) that fits the noun."
+    "<br><br>➡️ A guide explaining the gender of nouns is available "
+    '<a href="https://sieversstudyhall.substack.com/p/genders-of-german-noun-from-a1-to" target="_blank">here</a>.'
+    f"<br><br> {ICON_WARN} There is only one correct answer per question."
+    "<h2>Example</h2>"
+    "_____ Abend"
+    "<br><br><i>The evening</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Der"
+    f"<br><br> &nbsp; {ICON_CHECK} der"
+    f"<br><br> &nbsp; {ICON_CROSS} Die",
+    plural: "For each question, a German noun and its English translation will be provided."
+    "<br><br>Find the plural form of this noun."
+    f"<br><br> {ICON_WARN} There is only one correct answer per question."
+    "<h2>Example</h2>"
+    "Singular: die Stunde (<i>the hour</i>)"
+    "<br><br>Plural: die _____"
+    f"<br><br> &nbsp; {ICON_CHECK} Stunden"
+    f"<br><br> &nbsp; {ICON_CHECK} stunden"
+    f"<br><br> &nbsp; {ICON_CROSS} Stunde",
+    adjektive_konjunktionen: "For each question, a German sentence and its English translation will be provided."
+    "<br><br>A word is missing from the German sentence. Find the one that fits."
+    "<h2>Example</h2>"
+    "Peter ist größer _____ sein Bruder."
+    "<br><br><i>Peter is taller than his brother.</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} als",
+    praesens: "For each question, a German verb and a personal pronoun will be provided."
+    "<br><br>Conjugate the verb in the present tense for that pronoun."
+    f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
+    f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
+    "<h2>Examples</h2>"
+    "haben \u25cf Ich _____"
+    f"<br><br> &nbsp; {ICON_CHECK} habe"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich habe"
+    f"<br><br> &nbsp; {ICON_CROSS} ich habe"
+    "<br><br>sich freuen \u25cf Ich _____"
+    f"<br><br> &nbsp; {ICON_CHECK} freue mich"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich freue mich"
+    f"<br><br> &nbsp; {ICON_CROSS} freue",
+    partizip_II: "For each question, a German verb will be provided."
+    "<br><br>Write the past participle (Partizip II) of the given verb."
+    f"<br><br> {ICON_WARN} Do not include an auxiliary verb (<i>Hilfsverb</i>), or your answer will be marked incorrect."
+    f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
+    "<h2>Examples</h2>"
+    "erinnern"
+    f"<br><br> &nbsp; {ICON_CHECK} erinnert"
+    f"<br><br> &nbsp; {ICON_CHECK} sich erinnert"
+    f"<br><br> &nbsp; {ICON_CROSS} hat erinnert"
+    "<br><br>sich freuen"
+    f"<br><br> &nbsp; {ICON_CHECK} sich gefreut"
+    f"<br><br> &nbsp; {ICON_CROSS} gefreute"
+    f"<br><br> &nbsp; {ICON_CROSS} hat sich gefreut",
+    praeteritum: "For each question, a German verb will be provided."
+    "<br>Conjugate the verb in the preterit tense (Präteritum) using the indicated person."
+    f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
+    f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
+    "<h2>Examples</h2>"
+    "erinnern"
+    f"<br><br> &nbsp; {ICON_CHECK} erinnerte"
+    f"<br><br> &nbsp; {ICON_CHECK} erinnerte sich"
+    f"<br><br> &nbsp; {ICON_CROSS} er erinnerte"
+    "<br><br>sich freuen"
+    f"<br><br> &nbsp; {ICON_CHECK} freute sich"
+    f"<br><br> &nbsp; {ICON_CROSS} freute"
+    f"<br><br> &nbsp; {ICON_CROSS} er freute sich",
+    perfekt: "For each question, a German verb will be provided."
+    "<br><br>Write a German sentence using that verb in the perfect tense."
+    f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
+    f"<br><br> {ICON_WARN} The German sentence must be coherent."
+    f"<br><br> {ICON_WARN} The auxiliary verb and the past participle must be correct."
+    f"<br><br> {ICON_WARN} Secondary errors such as gender of nouns or declensions are acceptable as long as the sentence"
+    f" is understandable and coherent."
+    f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
+    f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
+    f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
+    "<h2>Example</h2>"
+    f"sehen"
+    f"<br><br><i>to see, to realise</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dich auf der Party nicht gesehen."
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern ich habe dich auf der Party nicht gesehen. (Word order incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dir auf der Party nicht gesehen. (Case error acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern bin ich dich auf der Party nicht gesehen. (Incorrect auxiliary verb)"
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern habe ich dich auf der Party nicht geseht. (Incorrect past participle)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich habe die Musik nicht gesehen. (Incoherent sentence)",
+    imperativ: "For each question, a German verb and a personal pronoun will be provided."
+    "<br>Conjugate the verb in the imperative for that pronoun."
+    f"<br><br> {ICON_WARN} Write the personal pronoun only for the formal Sie imperative."
+    f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
+    f"<br><br> {ICON_WARN} There may be more than one correct answer."
+    f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
+    "<h2>Examples</h2>"
+    "haben \u25cf Du"
+    f"<br><br> &nbsp; {ICON_CHECK} habe"
+    f"<br><br> &nbsp; {ICON_CHECK} hab"
+    f"<br><br> &nbsp; {ICON_CROSS} habe, hab"
+    "<br><br>sich freuen \u25cf Du"
+    f"<br><br> &nbsp; {ICON_CHECK} freu dich"
+    f"<br><br> &nbsp; {ICON_CHECK} freue dich"
+    f"<br><br> &nbsp; {ICON_CROSS} Du freu dich"
+    "<br><br>sich freuen \u25cf Sie"
+    f"<br><br> &nbsp; {ICON_CHECK} freuen Sie sich"
+    f"<br><br> &nbsp; {ICON_CROSS} freuen Sie"
+    f"<br><br> &nbsp; {ICON_CROSS} freuen sich",
+    konjunktiv_II: "For each question, a German verb and a personal pronoun will be provided."
+    "<br>Conjugate the verb in the Konjunktiv II for that pronoun."
+    f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
+    "<h2>Examples</h2>"
+    "sein \u25cf Du"
+    f"<br><br> &nbsp; {ICON_CHECK} wärest"
+    f"<br><br> &nbsp; {ICON_CROSS} Du wärest"
+    "<br><br>geben \u25cf du"
+    f"<br><br> &nbsp; {ICON_CHECK} gäbest"
+    f"<br><br> &nbsp; {ICON_CHECK} gäbst"
+    f"<br><br> &nbsp; {ICON_CROSS} würdest geben",
+    konjunktiv_I: "For each question, a German verb and a personal pronoun will be provided."
+    "<br>Conjugate the verb in the Konjunktiv I for that pronoun."
+    f"<br><br> {ICON_WARN} Do not write the personal pronoun, or your answer will be flagged as incorrect."
+    "<h2>Example</h2>"
+    "sein \u25cf Du"
+    f"<br><br> &nbsp; {ICON_CHECK} seiest"
+    f"<br><br> &nbsp; {ICON_CROSS} Du seiest",
+    partizip_I: "For each question, a German verb will be provided."
+    "<br>Write the present participle (Partizip I) of the given verb."
+    f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
+    "<h2>Example</h2>"
+    "sich freuen"
+    f"<br><br> &nbsp; {ICON_CHECK} sich freuend"
+    f"<br><br> &nbsp; {ICON_CROSS} freuend",
 }
 
 guidance_praepositionen_isolation = (
     "For each question, the English translation of a German preposition will be provided."
     "<br><br>Find the preposition that fits the English translation."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-    
     "<h2>Example</h2>"
     "due to, because of"
     f"<br><br> &nbsp; {ICON_CHECK} wegen"
@@ -308,23 +246,19 @@ guidance_praepositionen_isolation = (
 guidance_praepositionen_sentences = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Complete the German sentence with the preposition that fits."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
     f"<br><br> {ICON_WARN} The correct answer may be no preposition. In that case, leave the input box empty."
     f"<br><br> {ICON_WARN} The correct answer may include an article. In that case, both the form of the prepositional"
     f" contraction (am, ans, vom, zur etc.) and the extended form (an dem etc.) are accepted."
-    
     f"<br><br>➡️ You can find a guide to German prepositions "
-    f"<a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">here</a>."
-    
+    f'<a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up" target="_blank">here</a>.'
     "<h2>Examples</h2>"
     "Ich habe _____ Montag Deutschunterricht."
     "<br><br><i>I have German class on Monday.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} am"
     f"<br><br> &nbsp; {ICON_CHECK} an dem"
     f"<br><br> &nbsp; {ICON_CROSS} an"
-
     "<br><br>Ich trinke eine Tasse _____ Kaffee."
     "<br><br><i>I drink a cup of coffee.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} "
@@ -334,10 +268,8 @@ guidance_praepositionen_sentences = (
 guidance_praepositionen_synonyms = (
     "For each question, a German preposition will be provided."
     "<br><br>Find a synonym of that preposition."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one synonym, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "wegen"
     f"<br><br> &nbsp; {ICON_CHECK} aufgrund"
@@ -348,10 +280,8 @@ guidance_praepositionen_synonyms = (
 guidance_praepositionen_antonym = (
     "For each question, a German preposition will be provided."
     "<br>Write its antonym in German."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "trotz"
     f"<br><br> &nbsp; {ICON_CHECK} wegen"
@@ -362,10 +292,8 @@ guidance_praepositionen_antonym = (
 guidance_praepositionen_prompt = (
     "For each question, a German preposition and one of its functions will be provided."
     "<br><br>Write a German sentence using that preposition in that particular function."
-
     f"<br><br>➡️ If you do not understand the preposition's function, check out the following "
-    f"<a href=\"https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up\" target=\"_blank\">guide</a>."
-
+    f'<a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up" target="_blank">guide</a>.'
     f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
     f"<br><br> {ICON_WARN} Secondary errors such as verb conjugation or spelling errors are acceptable as long as the sentence"
@@ -373,7 +301,6 @@ guidance_praepositionen_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
     "<h2>Example</h2>"
     f"to indicate a specific time → um + Acc."
     f"<br><br> &nbsp; {ICON_CHECK} Um 4 Uhr musst du gehen."
@@ -385,9 +312,7 @@ guidance_praepositionen_prompt = (
 guidance_praepositionen_verben_isolation = (
     "For each question, an incomplete German verb-preposition pair and its English translation will be provided."
     "<br><br>Complete the verb-preposition pair with the preposition that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-    
     "<h2>Example</h2>"
     "to think of = denken _____"
     f"<br><br> &nbsp; {ICON_CHECK} an"
@@ -396,9 +321,7 @@ guidance_praepositionen_verben_isolation = (
 guidance_praepositionen_verben_sentences = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Complete the German sentence with the preposition that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-    
     "<h2>Example</h2>"
     "Ich denke _____ meine Mutter."
     "<br><br><i>I think about my mother.</i>"
@@ -408,7 +331,6 @@ guidance_praepositionen_verben_sentences = (
 guidance_praepositionen_verben_prompt = (
     "For each question, a German verb-preposition pair will be provided."
     "<br><br>Write a German sentence using that verb-preposition pair."
-
     f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
     f"<br><br> {ICON_WARN} Secondary errors such spelling or declension mistakes are acceptable as long as the sentence"
@@ -416,7 +338,6 @@ guidance_praepositionen_verben_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
     "<h2>Example</h2>"
     f"arbeiten bei"
     f"<br><br><i>to work at (a company or institution)</i>"
@@ -428,10 +349,8 @@ guidance_praepositionen_verben_prompt = (
 
 guidance_praepositionen_adjektive_isolation = (
     "For each question, an incomplete German adjective-preposition pair and its English translation will be provided."
-    "<br><br>Complete the adjective-preposition pair with the preposition that fits." 
-
+    "<br><br>Complete the adjective-preposition pair with the preposition that fits."
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-    
     "<h2>Example</h2>"
     "curious about = neugierig _____"
     f"<br><br> &nbsp; {ICON_CHECK} auf"
@@ -440,9 +359,7 @@ guidance_praepositionen_adjektive_isolation = (
 guidance_praepositionen_adjektive_sentences = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Complete the German sentence with the preposition that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
     "<h2>Example</h2>"
     "Ich bin neugierig _____ die Ergebnisse der Untersuchung."
     "<br><br><i>I am curious about the results of the investigation.</i>"
@@ -452,9 +369,7 @@ guidance_praepositionen_adjektive_sentences = (
 guidance_praepositionen_nomen_isolation = (
     "For each question, an incomplete German noun-preposition pair and its English translation will be provided."
     "<br><br>Complete the noun-preposition pair with the preposition that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
     "<h2>Example</h2>"
     "the pride in = der Stolz _____"
     f"<br><br> &nbsp; {ICON_CHECK} auf"
@@ -463,9 +378,7 @@ guidance_praepositionen_nomen_isolation = (
 guidance_praepositionen_nomen_sentences = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Complete the German sentence with the preposition that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
     "<h2>Example</h2>"
     "Er zeigte Stolz _____ sein Team nach dem Sieg."
     "<br><br><i>He showed pride in his team after the victory.</i>"
@@ -475,9 +388,7 @@ guidance_praepositionen_nomen_sentences = (
 guidance_pronominaladverbien_dawort = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Complete the German sentence with the <i>da</i>-word that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
     "<h2>Example</h2>"
     "Ich habe lange gearbeitet und wurde _____ gelobt."
     f"<br><br>I worked for a long time and was praised for it."
@@ -487,9 +398,7 @@ guidance_pronominaladverbien_dawort = (
 guidance_pronominaladverbien_wowort = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Complete the German sentence with the <i>wo</i>-word that fits."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question."
-
     "<h2>Example</h2>"
     "_____ denkst du?"
     "<br><br><i>What are you thinking about?</i>"
@@ -499,18 +408,15 @@ guidance_pronominaladverbien_wowort = (
 guidance_artikel_isolation = (
     "For each question, a German article, a gender, and a case will be provided."
     "<br><br>Write the article that corresponds to the gender and case."
-
     "<h2>Example</h2>"
-    "der/die/das \u25CF Feminine, Nominative"
+    "der/die/das \u25cf Feminine, Nominative"
     f"<br><br> &nbsp; {ICON_CHECK} die"
 )
 
 guidance_artikel_sentences = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>An article is missing from the German sentence. Find the one that fits, taking into account the case and gender."
-
     f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
     "<h2>Example</h2>"
     "_____ Woche hat sieben Tage."
     "<br><br><i>The week has seven days.</i>"
@@ -520,9 +426,8 @@ guidance_artikel_sentences = (
 guidance_pronomen_isolation = (
     "For each question, a pronoun and a case will be provided."
     "<br><br>Write the German pronoun that corresponds to the case."
-
     "<h2>Example</h2>"
-    "1st Person Singular \u25CF Nominative"
+    "1st Person Singular \u25cf Nominative"
     f"<br><br> &nbsp; {ICON_CHECK} Ich"
 )
 
@@ -530,9 +435,7 @@ guidance_pronomen_sentences = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>A pronoun is missing from the German sentence. Find the one that fits, taking into account the grammatical"
     " case (and the gender if applicable)."
-
     f"<br><br>➡️ If you need help with the gender of a noun, click on the m/f/n/pl button."
-
     "<h2>Example</h2>"
     "Heute bin _____ sehr müde."
     "<br><br><i>Today I am very tired.</i>"
@@ -542,9 +445,8 @@ guidance_pronomen_sentences = (
 guidance_pronomen_replacing = (
     "For each question, a German sentence, its English translation, and an object will be provided."
     "<br><br>Replace the object with the pronoun that fits, taking into account the grammatical case and the gender if applicable."
-
     "<h2>Example</h2>"
-    "Wir besuchen die Schule jeden Tag. \u25CF die Schule"
+    "Wir besuchen die Schule jeden Tag. \u25cf die Schule"
     "<br><br><i>We visit the school every day.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} sie"
     f"<br><br> &nbsp; {ICON_CROSS} es"
@@ -554,9 +456,8 @@ guidance_pronomen_replacing = (
 guidance_pronomen_relative_isolation = (
     "For each question, a case and a gender will be provided."
     "<br><br>Write the relative pronoun that corresponds to the case and gender."
-
     "<h2>Example</h2>"
-    "Feminine \u25CF Nominative"
+    "Feminine \u25cf Nominative"
     f"<br><br> &nbsp; {ICON_CHECK} die"
 )
 
@@ -564,9 +465,7 @@ guidance_pronomen_relative_sentences = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>A relative pronoun is missing from the German sentence. Find the one that fits, taking into account the grammatical"
     " case and the gender."
-
     f"<br><br>➡️ If you need help with the gender of a noun, click on the m/f/n/pl button."
-
     "<h2>Example</h2>"
     "Der Mann, _____ hier steht, ist mein Lehrer."
     "<br><br><i>The man standing here is my teacher.</i>"
@@ -577,7 +476,6 @@ guidance_konnektoren_isolation = (
     "For each question, the English translation of a German connector and its grammatical category"
     " (coordinating conjunction, subordinating conjunction, adverb, correlative conjunction) will be provided."
     "<br><br>Find the German connector that corresponds to that translation and grammatical category."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Take the connector's grammatical category into account. If your answer is a correct literal translation, "
     f"but the grammatical category is incorrect, your answer will be flagged as incorrect"
@@ -587,21 +485,18 @@ guidance_konnektoren_isolation = (
     f"<br><br> {ICON_WARN} With an adverb, the verb goes second."
     f"<br><br> {ICON_WARN} A correlative conjunction has two parts not directly next to each other."
     f"<br><br> {ICON_WARN} An infinitive construction is made of two prepositions."
-
     "<h2>Examples</h2>"
-    "because, for \u25CF Coordinating conjunction"
+    "because, for \u25cf Coordinating conjunction"
     f"<br><br> &nbsp; {ICON_CHECK} denn"
     f"<br><br> &nbsp; {ICON_CROSS} weil (It's a subordinating conjunction, not a coordinating conjunction)"
     f"<br><br>"
-    
-    "therefore, for this reason, because of that \u25CF Adverb"
+    "therefore, for this reason, because of that \u25cf Adverb"
     f"<br><br> &nbsp; {ICON_CHECK} deshalb"
     f"<br><br> &nbsp; {ICON_CHECK} deswegen"
     f"<br><br> &nbsp; {ICON_CROSS} deshalb, deswegen"
     f"<br><br> &nbsp; {ICON_CROSS} weshalb (It's a subordinating conjunction, not an adverb)"
     f"<br><br>"
-    
-    "both ... and \u25CF Correlative conjunction"
+    "both ... and \u25cf Correlative conjunction"
     f"<br><br> &nbsp; {ICON_CHECK} sowohl als auch"
     f"<br><br> &nbsp; {ICON_CHECK} sowohl ... als auch"
     f"<br><br> &nbsp; {ICON_CROSS} sowie (It's a coordinating conjunction, not a correlative conjunction)"
@@ -610,10 +505,8 @@ guidance_konnektoren_isolation = (
 guidance_konnektoren_sentences = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>A connector is missing from the German sentence. Find the one that fits."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "Es regnet stark, _____ nehme ich meinen Regenschirm."
     "<br><br><i>It is raining heavily, therefore I take my umbrella.</i>"
@@ -626,11 +519,9 @@ guidance_konnektoren_sentences = (
 guidance_konnektoren_synonyms = (
     "For each question, a German connector and an example sentence will be provided."
     "<br><br>Find a synonym of the connector that fits the same context."
-
     f"<br><br> {ICON_WARN} Do not write more than one synonym, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
-    "darum \u25CF Adverb"
+    "darum \u25cf Adverb"
     f"<br><br> &nbsp; {ICON_CHECK} deshalb"
     f"<br><br> &nbsp; {ICON_CHECK} deswegen"
     f"<br><br> &nbsp; {ICON_CROSS} deshalb, deswegen"
@@ -642,7 +533,6 @@ guidance_konnektoren_prompt = (
     "For each question, a German connector, its English translation, and its grammatical category"
     " (coordinating conjunction, subordinating conjunction, adverb, correlative conjunction) will be provided."
     "<br><br>Write a German sentence using that connector."
-    
     f"<br><br> {ICON_WARN} Take the connector's grammatical category into account. The clause that contains the connector "
     f"must have the correct word order."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
@@ -651,10 +541,9 @@ guidance_konnektoren_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-    
     "<h2>Examples</h2>"
     f"deshalb"
-    f"<br><br><i>therefore, for this reason, because of that \u25CF Adverb</i>"
+    f"<br><br><i>therefore, for this reason, because of that \u25cf Adverb</i>"
     f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich ein Glas Wasser."
     f"<br><br> &nbsp; {ICON_CROSS} Ich habe Durst, deshalb ich trinke ein Glas Wasser. (Word order incorrect)"
     f"<br><br> &nbsp; {ICON_CHECK} Ich habe Durst, deshalb trinke ich eine Glas Wasser. (Acceptable mistake)"
@@ -664,10 +553,8 @@ guidance_konnektoren_prompt = (
 guidance_fragen_isolation = (
     "For each question, the English translation of a German question word will be provided."
     "<br><br>Find the German question word that corresponds to that translation."
-    
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "Why"
     f"<br><br> &nbsp; {ICON_CHECK} Warum"
@@ -678,12 +565,9 @@ guidance_fragen_isolation = (
 guidance_fragen_sentences = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>A question word is missing from the German sentence. Find the one that fits."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
     "<h2>Example</h2>"
     "_____ lernst du Deutsch?"
     "<br><br><i>Why are you learning German?</i>"
@@ -695,7 +579,6 @@ guidance_fragen_sentences = (
 guidance_fragen_prompt = (
     "For each question, a German question word and its English translation will be provided."
     "<br><br>Write a German sentence using that question word."
-
     f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
     f"<br><br> {ICON_WARN} Secondary errors, such as case or spelling errors, are acceptable as long as the sentence"
@@ -703,7 +586,6 @@ guidance_fragen_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
     "<h2>Examples</h2>"
     f"Wo"
     f"<br><br><i>Where</i>"
@@ -716,10 +598,8 @@ guidance_fragen_prompt = (
 guidance_adverbien_isolation = (
     "For each question, the English translation of a German adverb will be provided."
     "<br><br>Find the German adverb that corresponds to that translation."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "almost"
     f"<br><br> &nbsp; {ICON_CHECK} fast"
@@ -730,10 +610,8 @@ guidance_adverbien_isolation = (
 guidance_adverbien_sentences = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>An adverb is missing from the German sentence. Find the one that fits."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "Ich bin _____ fertig."
     "<br><br><i>I am almost done.</i>"
@@ -745,10 +623,8 @@ guidance_adverbien_sentences = (
 guidance_adverbien_synonyms = (
     "For each question, a German adverb will be provided."
     "<br><br>Find a synonym of that adverb."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one synonym, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "mindestens"
     f"<br><br> &nbsp; {ICON_CHECK} wenigstens"
@@ -759,10 +635,8 @@ guidance_adverbien_synonyms = (
 guidance_adverbien_antonym = (
     "For each question, a German adverb will be provided."
     "<br>Write its antonym in German."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "immer"
     f"<br><br> &nbsp; {ICON_CHECK} nie"
@@ -773,7 +647,6 @@ guidance_adverbien_antonym = (
 guidance_adverbien_prompt = (
     "For each question, a German adverb and its English translation will be provided."
     "<br><br>Write a German sentence using that adverb."
-
     f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
     f"<br><br> {ICON_WARN} Secondary errors, such as case or spelling errors, are acceptable as long as the sentence"
@@ -781,7 +654,6 @@ guidance_adverbien_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
     "<h2>Examples</h2>"
     f"heute"
     f"<br><br><i>today</i>"
@@ -794,11 +666,9 @@ guidance_adverbien_prompt = (
 guidance_verben_translation = (
     "For each question, the English translation of a German verb will be provided."
     "<br>Find the German verb that corresponds to the entire translation."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
     f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
     "<h2>Example</h2>"
     "to make glad, to be glad (refl.), to look forward (refl.)"
     f"<br><br> &nbsp; {ICON_CHECK} sich freuen"
@@ -808,7 +678,6 @@ guidance_verben_translation = (
 guidance_verben_prompt = (
     "For each question, a German verb and its English translation will be provided."
     "<br><br>Write a German sentence using that verb."
-
     f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
     f"<br><br> {ICON_WARN} Secondary errors, such as case or spelling errors, are acceptable as long as the sentence"
@@ -816,7 +685,6 @@ guidance_verben_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
     "<h2>Examples</h2>"
     f"essen"
     f"<br><br><i>to eat</i>"
@@ -829,11 +697,9 @@ guidance_verben_prompt = (
 guidance_trennbare_verben_root = (
     "For each question, the English translation of a German (in)separable verb as well as its root will be provided."
     "<br><br>Find the German verb that corresponds to the translation and root."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question. Synonyms are not available for this exercise."
     " Read the entire translation carefully."
     f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
     "<h2>Example</h2>"
     "to pull, to drag, to move → ziehen"
     "<br><br>to get dressed, to put on, to dress someone, to attract, to pull → _____"
@@ -843,24 +709,20 @@ guidance_trennbare_verben_root = (
 guidance_trennbare_verben_prefix = (
     "For each question, the English translation of a German (in)separable verb as well as its prefix will be provided."
     "<br><br>Find the German verb that corresponds to the translation and prefix."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question. Synonyms are not available for this exercise."
     " Read the entire translation carefully."
     f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
     "<h2>Example</h2>"
-    "to get dressed, to put on, to dress someone, to attract, to pull \u25CF an"
+    "to get dressed, to put on, to dress someone, to attract, to pull \u25cf an"
     f"<br><br> &nbsp; {ICON_CHECK} anziehen"
 )
 
 guidance_trennbare_verben_no_help = (
     "For each question, the English translation of a German (in)separable verb will be provided."
     "<br><br>Find the German verb that corresponds to the entire translation."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question. Synonyms are not available for this exercise."
     " Read the entire translation carefully."
     f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
     "<h2>Example</h2>"
     "to get dressed, to put on, to dress someone, to attract, to pull"
     f"<br><br> &nbsp; {ICON_CHECK} anziehen"
@@ -869,13 +731,10 @@ guidance_trennbare_verben_no_help = (
 guidance_nomen_verben_verbindungen_nomen_isolation = (
     "For each question, an incomplete German noun-verb combination and its English translation will be provided."
     "<br><br>Find the German noun that completes the combination."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
     f"<br><br> {ICON_WARN} The answer may require an article and/or a preposition."
-
     f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
     "<h2>Examples</h2>"
     "_____ haben"
     "<br><br><i>to have an opinion</i>"
@@ -884,7 +743,6 @@ guidance_nomen_verben_verbindungen_nomen_isolation = (
     f"<br><br> &nbsp; {ICON_CROSS} eine Meinung, eine Ansicht"
     f"<br><br> &nbsp; {ICON_CROSS} Meinung"
     f"<br><br> &nbsp; {ICON_CROSS} ein Meinung"
-
     "<br><br>_____ nehmen"
     "<br><br><i>to accept, to take the risk</i>"
     f"<br><br> &nbsp; {ICON_CHECK} in Kauf"
@@ -894,10 +752,8 @@ guidance_nomen_verben_verbindungen_nomen_isolation = (
 guidance_nomen_verben_verbindungen_verben_isolation = (
     "For each question, an incomplete German noun-verb combination and its English translation will be provided."
     "<br><br>Find the German verb that completes the combination."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "eine Meinung _____"
     "<br><br><i>to have an opinion, to think</i>"
@@ -909,18 +765,15 @@ guidance_nomen_verben_verbindungen_verben_isolation = (
 guidance_nomen_verben_verbindungen_nomen_sentences = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Find the German noun that completes the sentence."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
     f"<br><br> {ICON_WARN} The answer may require a preposition."
-
     "<h2>Examples</h2>"
     "Ich habe eine andere _____ als du."
     "<br><br><i>I have a different opinion than you.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} Meinung"
     f"<br><br> &nbsp; {ICON_CHECK} Ansicht"
     f"<br><br> &nbsp; {ICON_CROSS} Meinung, Ansicht"
-
     "<br><br>Ich will dieses Projekt unbedingt _____ bringen, bevor ich in den Urlaub fahre."
     "<br><br><i>I absolutely want to finish this project before I go on vacation.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} zu Ende"
@@ -933,11 +786,9 @@ guidance_nomen_verben_verbindungen_nomen_sentences = (
 guidance_nomen_verben_verbindungen_verben_sentences = (
     "For each question, an incomplete German sentence and its English translation will be provided."
     "<br><br>Find the German verb that completes the sentence."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
     f"<br><br> {ICON_WARN} The verb must be conjugated in the correct tense and grammatical person."
-
     "<h2>Example</h2>"
     "Sie _____ den Vorschlag, gemeinsam zu reisen."
     "<br><br><i>She made the suggestion to travel together.</i>"
@@ -951,10 +802,8 @@ guidance_nomen_verben_verbindungen_verben_sentences = (
 guidance_adjektive_isolation = (
     "For each question, the English translation of a German adjective will be provided."
     "<br><br>Find the German adjective that corresponds to the translation."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "cheap"
     f"<br><br> &nbsp; {ICON_CHECK} billig"
@@ -965,7 +814,6 @@ guidance_adjektive_isolation = (
 guidance_adjektive_prompt = (
     "For each question, a German adjective and its English translation will be provided."
     "<br><br>Write a German sentence using that adjective."
-
     f"<br><br> {ICON_WARN} The German sentence must have the correct word order."
     f"<br><br> {ICON_WARN} If the adjective is before a noun, the declension must be correct."
     f"<br><br> {ICON_WARN} The German sentence must be coherent."
@@ -974,7 +822,6 @@ guidance_adjektive_prompt = (
     f"<br><br> {ICON_WARN} Grading, corrections, and feedback are generated by a Large Language Model."
     f" LLMs can make mistakes, invent facts, or give unverified advice. Please verify important information."
     f"<br><br> {ICON_WARN} Do not provide any personal information such as last name, date of birth, precise address, or ID number."
-
     "<h2>Example</h2>"
     f"neu"
     f"<br><br><i>new</i>"
@@ -987,10 +834,8 @@ guidance_adjektive_prompt = (
 guidance_adjektive_synonym = (
     "For each question, a German adjective will be provided."
     "<br><br>Find a synonym of that adjective."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one synonym, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "schlecht"
     f"<br><br> &nbsp; {ICON_CHECK} böse"
@@ -1001,10 +846,8 @@ guidance_adjektive_synonym = (
 guidance_adjektive_antonym = (
     "For each question, a German adjective will be provided."
     "<br>Write its antonym in German."
-
     f"<br><br> {ICON_WARN} Synonyms are available for this exercise. There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "teuer"
     f"<br><br> &nbsp; {ICON_CHECK} billig"
@@ -1015,7 +858,6 @@ guidance_adjektive_antonym = (
 guidance_adjektive_comparative = (
     "For each question, a German adjective will be provided."
     "<br>Write its comparative form."
-
     "<h2>Example</h2>"
     "alt"
     "<br><br><i>old</i>"
@@ -1025,9 +867,7 @@ guidance_adjektive_comparative = (
 guidance_adjektive_superlative = (
     "For each question, a German adjective will be provided."
     "<br>Write its superlative form."
-
-    f"<br><br> {ICON_WARN} Write the superlative form including \"am\"."
-
+    f'<br><br> {ICON_WARN} Write the superlative form including "am".'
     "<h2>Example</h2>"
     "alt"
     "<br><br><i>old</i>"
@@ -1039,9 +879,8 @@ guidance_adjektivdeklinationen_isolation = (
     "For each question, a German noun phrase, a grammatical case and an adjective in its base form will be provided."
     "<br><br>Complete the phrase with the declined adjective, taking into account the article,"
     " the gender of the noun and the grammatical case."
-
     "<h2>Example</h2>"
-    "ein _____ Vater \u25CF Nominativ \u25CF nett"
+    "ein _____ Vater \u25cf Nominativ \u25cf nett"
     f"<br><br> &nbsp; {ICON_CHECK} netter"
 )
 
@@ -1049,9 +888,8 @@ guidance_adjektivdeklinationen_sentences = (
     "For each question, an incomplete German sentence and an adjective will be provided."
     "<br><br>Complete the sentence with the adjective properly declined, taking into account the article,"
     " the gender of the noun and the grammatical case."
-
     "<h2>Example</h2>"
-    "Die _____ Kinder stellen viele Fragen. \u25CF klug"
+    "Die _____ Kinder stellen viele Fragen. \u25cf klug"
     f"<br><br> &nbsp; {ICON_CHECK} klugen"
 )
 
@@ -1059,9 +897,8 @@ guidance_adjektivdeklinationen_comparative_isolation = (
     "For each question, a German phrase including a case and an adjective will be provided."
     "<br><br>Complete the phrase with the declined <b>comparative</b> adjective, taking into account the article,"
     " the gender of the noun and the grammatical case."
-
     "<h2>Example</h2>"
-    "ein _____ Vater \u25CF Nominativ \u25CF nett"
+    "ein _____ Vater \u25cf Nominativ \u25cf nett"
     f"<br><br> &nbsp; {ICON_CHECK} netterer"
 )
 
@@ -1069,9 +906,8 @@ guidance_adjektivdeklinationen_comparative_sentences = (
     "For each question, an incomplete German sentence and an adjective will be provided."
     "<br><br>Complete the sentence with the <b>comparative</b> adjective properly declined, taking into account the article,"
     " the gender of the noun and the grammatical case."
-
     "<h2>Example</h2>"
-    "Der _____ Hund läuft im Garten. \u25CF groß"
+    "Der _____ Hund läuft im Garten. \u25cf groß"
     f"<br><br> &nbsp; {ICON_CHECK} größere"
 )
 
@@ -1079,9 +915,8 @@ guidance_adjektivdeklinationen_superlative_isolation = (
     "For each question, a German phrase including a case and an adjective will be provided."
     "<br><br>Complete the phrase with the declined <b>superlative</b> adjective, taking into account the article,"
     " the gender of the noun and the grammatical case."
-
     "<h2>Example</h2>"
-    "der _____ Vater \u25CF Nominativ \u25CF nett"
+    "der _____ Vater \u25cf Nominativ \u25cf nett"
     f"<br><br> &nbsp; {ICON_CHECK} netteste"
 )
 
@@ -1089,20 +924,17 @@ guidance_adjektivdeklinationen_superlative_sentences = (
     "For each question, an incomplete German sentence and an adjective will be provided."
     "<br><br>Complete the sentence with the <b>superlative</b> adjective properly declined, taking into account the article,"
     " the gender of the noun and the grammatical case."
-
     "<h2>Example</h2>"
-    "Die _____ Blume steht auf dem Tisch. \u25CF schön"
+    "Die _____ Blume steht auf dem Tisch. \u25cf schön"
     f"<br><br> &nbsp; {ICON_CHECK} schönste"
 )
 
 guidance_nomen_verben_wortstaemme_verben = (
     "For each question, an incomplete German noun-verb pair and its English translation will be provided."
     "<br><br>Find the German verb that completes the pair."
-
     f"<br><br> {ICON_WARN} There is only one correct answer per question. Synonyms are not available for this exercise."
     " Read the entire translation carefully."
     f"<br><br> {ICON_WARN} The answer may require a reflexive pronoun if the verb is always reflexive."
-
     "<h2>Example</h2>"
     "the language, the speech → die Sprache"
     "<br><br>to speak → _____"
@@ -1112,12 +944,9 @@ guidance_nomen_verben_wortstaemme_verben = (
 guidance_nomen_verben_wortstaemme_nomen = (
     "For each question, an incomplete German noun-verb pair and its English translation will be provided."
     "<br><br>Find the German noun that completes the pair."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
     "<h2>Example</h2>"
     "to speak → sprechen"
     "<br><br>the language, the speech → _____"
@@ -1127,10 +956,8 @@ guidance_nomen_verben_wortstaemme_nomen = (
 guidance_adjektive_verben_wortstaemme_verben = (
     "For each question, an incomplete German adjective-verb pair and its English translation will be provided."
     "<br><br>Find the German verb that completes the pair."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "possible, likely → möglich"
     "<br><br>to like → _____"
@@ -1140,10 +967,8 @@ guidance_adjektive_verben_wortstaemme_verben = (
 guidance_adjektive_verben_wortstaemme_adjektive = (
     "For each question, an incomplete German adjective-verb pair and its English translation will be provided."
     "<br><br>Find the German adjective that completes the pair."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "to like → mögen"
     "<br><br>possible, likely → _____"
@@ -1153,12 +978,9 @@ guidance_adjektive_verben_wortstaemme_adjektive = (
 guidance_adjektive_nomen_wortstaemme_nomen = (
     "For each question, an incomplete German noun-adjective pair and its English translation will be provided."
     "<br><br>Find the German noun that completes the pair."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     f"<br><br>➡️ If you need help with the gender of the noun, click on the m/f/n/pl button."
-
     "<h2>Example</h2>"
     "right, correct → richtig"
     "<br><br>the direction → _____"
@@ -1168,10 +990,8 @@ guidance_adjektive_nomen_wortstaemme_nomen = (
 guidance_adjektive_nomen_wortstaemme_adjektive = (
     "For each question, an incomplete German noun-adjective pair and its English translation will be provided."
     "<br><br>Find the German adjective that completes the pair."
-
     f"<br><br> {ICON_WARN} There may be more than one correct answer."
     f"<br><br> {ICON_WARN} Do not write more than one answer, or your answer will be flagged as incorrect."
-
     "<h2>Example</h2>"
     "the direction → die Richtung"
     "<br><br>right, correct → _____"
@@ -1181,11 +1001,9 @@ guidance_adjektive_nomen_wortstaemme_adjektive = (
 guidance_zahlen_number = (
     "For each question, a number will be provided."
     "<br><br>Write the German spelled form of that number."
-    
     "<h2>Examples</h2>"
     "2"
     f"<br><br> &nbsp; {ICON_CHECK} zwei"
-    
     "<br><br>1,23"
     f"<br><br> &nbsp; {ICON_CHECK} eins Komma zwei drei"
     f"<br><br> &nbsp; {ICON_CROSS} eins Punkt zwei drei"
@@ -1194,12 +1012,10 @@ guidance_zahlen_number = (
 guidance_zahlen_time_spelled = (
     "For each question, a time of day will be provided."
     "<br><br>Write the German spelled form of that time."
-
     "<h2>Examples</h2>"
     "8:00"
     f"<br><br> &nbsp; {ICON_CHECK} acht Uhr"
     f"<br><br> &nbsp; {ICON_CHECK} acht Uhr null"
-
     "<br><br>17:50"
     f"<br><br> &nbsp; {ICON_CHECK} siebzehn Uhr fünfzig"
     f"<br><br> &nbsp; {ICON_CHECK} zehn vor sechs"
@@ -1208,7 +1024,6 @@ guidance_zahlen_time_spelled = (
 guidance_zahlen_time_digital = (
     "For each question, a time of day will be provided."
     "<br><br>Write the digital version of that time."
-
     "<h2>Example</h2>"
     "Viertel vor neun"
     f"<br><br> &nbsp; {ICON_CHECK} 8:45"
@@ -1218,9 +1033,7 @@ guidance_zahlen_time_digital = (
 guidance_zahlen_ordinal_isolation = (
     "For each question, an English ordinal number will be provided."
     "<br><br>Translate this ordinal number into German."
-    
     f"<br><br> {ICON_WARN} The ordinal number should be declined in the <i>-e</i> form."
-
     "<h2>Example</h2>"
     "first"
     f"<br><br> &nbsp; {ICON_CHECK} erste"
@@ -1230,9 +1043,7 @@ guidance_zahlen_ordinal_isolation = (
 guidance_zahlen_ordinal_sentence = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>An ordinal is missing from the German sentence. Find the one that fits."
-    
     f"<br><br> {ICON_WARN} The ordinal number should be declined based on the context."
-
     "<h2>Example</h2>"
     "Sie wohnt im _____ Stock."
     "<br><br><i>She lives on the second floor.</i>"
@@ -1243,7 +1054,6 @@ guidance_zahlen_ordinal_sentence = (
 guidance_zahlen_adverb_isolation = (
     "For each question, an English adverb will be provided."
     "<br><br>Translate this adverb into German."
-
     "<h2>Example</h2>"
     "thirdly"
     f"<br><br> &nbsp; {ICON_CHECK} drittens"
@@ -1252,7 +1062,6 @@ guidance_zahlen_adverb_isolation = (
 guidance_zahlen_adverb_sentence = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>An adverb is missing from the German sentence. Find the one that fits."
-
     "<h2>Example</h2>"
     "_____ fehlt uns im Moment das nötige Budget."
     "<br><br><i>Thirdly, we currently lack the necessary budget.</i>"
@@ -1262,7 +1071,6 @@ guidance_zahlen_adverb_sentence = (
 guidance_zahlen_fraction_isolation = (
     "For each question, an English fraction will be provided."
     "<br><br>Translate this fraction into German."
-
     "<h2>Example</h2>"
     "a third"
     f"<br><br> &nbsp; {ICON_CHECK} ein Drittel"
@@ -1271,7 +1079,6 @@ guidance_zahlen_fraction_isolation = (
 guidance_zahlen_fraction_sentence = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>A fraction is missing from the German sentence. Find the one that fits."
-
     "<h2>Example</h2>"
     "_____ der Teilnehmenden hat den Kurs vorzeitig beendet."
     "<br><br><i>Half of the participants dropped out of the course early.</i>"
@@ -1281,7 +1088,6 @@ guidance_zahlen_fraction_sentence = (
 guidance_zahlen_genitive_isolation = (
     "For each question, a number will be provided."
     "<br><br>Provide the genitive form of this number."
-
     "<h2>Example</h2>"
     "3"
     f"<br><br> &nbsp; {ICON_CHECK} dreier"
@@ -1290,13 +1096,11 @@ guidance_zahlen_genitive_isolation = (
 guidance_zahlen_genitive_sentence = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>The German sentence has the genitive form of a number missing. Find the one that fits."
-
     "<h2>Examples</h2>"
     "Der Ausschuss einigte sich nach intensiver Debatte auf einen Kompromiss _____ Parteien."
     "<br><br><i>After intense debate, the committee agreed on a compromise involving seven parties.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} siebener"
     f"<br><br> &nbsp; {ICON_CHECK} von sieben"
-
     "<br><br>Die Lösung ergibt sich aus der Kombination _____ voneinander abhängiger Faktoren."
     "<br><br><i>The solution emerges from the combination of four interdependent factors.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} vierer"
@@ -1306,7 +1110,6 @@ guidance_zahlen_genitive_sentence = (
 guidance_zahlen_multiplier_isolation = (
     "For each question, an English multiplier will be provided."
     "<br><br>Translate this multiplier into German."
-
     "<h2>Example</h2>"
     "fourfold"
     f"<br><br> &nbsp; {ICON_CHECK} vierfach"
@@ -1315,16 +1118,14 @@ guidance_zahlen_multiplier_isolation = (
 guidance_zahlen_multiplier_sentence = (
     "For each question, a German sentence and its English translation will be provided."
     "<br><br>A multiplier is missing from the German sentence. Find the one that fits."
-
     f"<br><br> {ICON_WARN} The multiplier should be declined based on the context."
-
     "<h2>Example</h2>"
     "Das Risiko ist _____: finanziell und reputationsbezogen."
     "<br><br><i>The risk is twofold: financial and reputational.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} zweifach"
 )
 
-'''
+"""
 guidance_verben_multiple_choices_english_to_german = (
     "For each question, the English translation of a German verb and five German verbs will be shown."
     "<br><br>Select the German verb that corresponds to the entire translation."
@@ -1357,7 +1158,7 @@ guidance_verben_multiple_choices_german_to_english = (
     "<br>to suggest, to propose"
     f"<br><br> &nbsp; {ICON_CHECK} to replace, to substitute, to compensate for"
 )
-'''
+"""
 
 GUIDANCE_SUBCATEGORY_EN = {
     praepositionen: {
@@ -1367,36 +1168,30 @@ GUIDANCE_SUBCATEGORY_EN = {
         antonym: guidance_praepositionen_antonym,
         prompt: guidance_praepositionen_prompt,
     },
-
     praepositionen_verben: {
         isolation: guidance_praepositionen_verben_isolation,
         context: guidance_praepositionen_verben_sentences,
         prompt: guidance_praepositionen_verben_prompt,
     },
-
     praepositionen_adjektive: {
         isolation: guidance_praepositionen_adjektive_isolation,
         context: guidance_praepositionen_adjektive_sentences,
     },
-
     praepositionen_nomen: {
         isolation: guidance_praepositionen_nomen_isolation,
         context: guidance_praepositionen_nomen_sentences,
     },
-
     konnektoren: {
         isolation: guidance_konnektoren_isolation,
         context: guidance_konnektoren_sentences,
         synonym: guidance_konnektoren_synonyms,
         prompt: guidance_konnektoren_prompt,
     },
-
     fragen: {
         isolation: guidance_fragen_isolation,
         context: guidance_fragen_sentences,
         prompt: guidance_fragen_prompt,
     },
-
     adverbien: {
         isolation: guidance_adverbien_isolation,
         context: guidance_adverbien_sentences,
@@ -1404,32 +1199,26 @@ GUIDANCE_SUBCATEGORY_EN = {
         antonym: guidance_adverbien_antonym,
         prompt: guidance_adverbien_prompt,
     },
-
     adjektive: {
         isolation: guidance_adjektive_isolation,
         synonym: guidance_adjektive_synonym,
         prompt: guidance_adjektive_prompt,
     },
-
     verben: {
         isolation: guidance_verben_translation,
         prompt: guidance_verben_prompt,
     },
-
 }
 
 
 GUIDANCE_EXERCISE_EN = {
     pronominaladverbien: {
         1: guidance_pronominaladverbien_dawort,
-
         2: guidance_pronominaladverbien_dawort,
         3: guidance_pronominaladverbien_dawort,
         4: guidance_pronominaladverbien_wowort,
-
         5: guidance_pronominaladverbien_wowort,
     },
-
     artikel: {
         1: guidance_artikel_isolation,
         2: guidance_artikel_sentences,
@@ -1457,29 +1246,24 @@ GUIDANCE_EXERCISE_EN = {
         24: guidance_artikel_sentences,
         25: guidance_artikel_isolation,
         26: guidance_artikel_sentences,
-
         27: guidance_artikel_isolation,
         28: guidance_artikel_sentences,
         29: guidance_artikel_isolation,
         30: guidance_artikel_sentences,
         31: guidance_artikel_isolation,
         32: guidance_artikel_sentences,
-
         33: guidance_artikel_isolation,
         34: guidance_artikel_sentences,
         35: guidance_artikel_isolation,
         36: guidance_artikel_sentences,
         37: guidance_artikel_isolation,
         38: guidance_artikel_sentences,
-
         39: guidance_artikel_isolation,
         40: guidance_artikel_sentences,
-
         41: guidance_artikel_isolation,
         42: guidance_artikel_sentences,
         43: guidance_artikel_sentences,
         44: guidance_artikel_sentences,
-
         45: guidance_artikel_isolation,
         46: guidance_artikel_sentences,
         47: guidance_artikel_isolation,
@@ -1487,7 +1271,6 @@ GUIDANCE_EXERCISE_EN = {
         49: guidance_artikel_isolation,
         50: guidance_artikel_sentences,
     },
-
     pronomen: {
         1: guidance_pronomen_isolation,
         2: guidance_pronomen_sentences,
@@ -1499,12 +1282,10 @@ GUIDANCE_EXERCISE_EN = {
         8: guidance_pronomen_sentences,
         9: guidance_pronomen_replacing,
         10: guidance_pronomen_replacing,
-
         11: guidance_pronomen_isolation,
         12: guidance_pronomen_sentences,
         13: guidance_pronomen_sentences,
         14: guidance_pronomen_sentences,
-
         15: guidance_pronomen_isolation,
         16: guidance_pronomen_sentences,
         17: guidance_pronomen_relative_isolation,
@@ -1514,7 +1295,6 @@ GUIDANCE_EXERCISE_EN = {
         21: guidance_pronomen_relative_sentences,
         22: guidance_pronomen_relative_sentences,
         23: guidance_pronomen_relative_sentences,
-
         24: guidance_pronomen_isolation,
         25: guidance_pronomen_sentences,
         26: guidance_pronomen_isolation,
@@ -1522,7 +1302,6 @@ GUIDANCE_EXERCISE_EN = {
         28: guidance_pronomen_relative_sentences,
         29: guidance_pronomen_relative_sentences,
         30: guidance_pronomen_relative_sentences,
-
         31: guidance_pronomen_isolation,
         32: guidance_pronomen_sentences,
         33: guidance_pronomen_isolation,
@@ -1531,13 +1310,11 @@ GUIDANCE_EXERCISE_EN = {
         36: guidance_pronomen_sentences,
         37: guidance_pronomen_relative_sentences,
         38: guidance_pronomen_sentences,
-
         39: guidance_pronomen_isolation,
         40: guidance_pronomen_sentences,
         41: guidance_pronomen_isolation,
-        42: guidance_pronomen_sentences
+        42: guidance_pronomen_sentences,
     },
-
     komparativ_superlativ: {
         1: guidance_adjektive_comparative,
         2: guidance_adjektive_comparative,
@@ -1545,7 +1322,6 @@ GUIDANCE_EXERCISE_EN = {
         4: guidance_adjektive_superlative,
         5: guidance_adjektive_superlative,
         6: guidance_adjektive_superlative,
-
         7: guidance_adjektive_comparative,
         8: guidance_adjektive_comparative,
         9: guidance_adjektive_comparative,
@@ -1553,7 +1329,6 @@ GUIDANCE_EXERCISE_EN = {
         11: guidance_adjektive_superlative,
         12: guidance_adjektive_superlative,
     },
-
     adjektivdeklinationen: {
         1: guidance_adjektivdeklinationen_isolation,
         2: guidance_adjektivdeklinationen_sentences,
@@ -1569,7 +1344,6 @@ GUIDANCE_EXERCISE_EN = {
         12: guidance_adjektivdeklinationen_sentences,
         13: guidance_adjektivdeklinationen_isolation,
         14: guidance_adjektivdeklinationen_sentences,
-
         15: guidance_adjektivdeklinationen_isolation,
         16: guidance_adjektivdeklinationen_sentences,
         17: guidance_adjektivdeklinationen_isolation,
@@ -1578,29 +1352,24 @@ GUIDANCE_EXERCISE_EN = {
         20: guidance_adjektivdeklinationen_comparative_sentences,
         21: guidance_adjektivdeklinationen_superlative_isolation,
         22: guidance_adjektivdeklinationen_superlative_sentences,
-
         23: guidance_adjektivdeklinationen_isolation,
         24: guidance_adjektivdeklinationen_sentences,
         25: guidance_adjektivdeklinationen_isolation,
         26: guidance_adjektivdeklinationen_sentences,
         27: guidance_adjektivdeklinationen_isolation,
         28: guidance_adjektivdeklinationen_sentences,
-
         29: guidance_adjektivdeklinationen_isolation,
         30: guidance_adjektivdeklinationen_sentences,
         31: guidance_adjektivdeklinationen_isolation,
         32: guidance_adjektivdeklinationen_sentences,
     },
-
     trennbare_verben: {
         1: guidance_trennbare_verben_root,
         2: guidance_trennbare_verben_prefix,
         3: guidance_trennbare_verben_no_help,
-
         4: guidance_trennbare_verben_root,
         5: guidance_trennbare_verben_prefix,
         6: guidance_trennbare_verben_no_help,
-
         7: guidance_trennbare_verben_root,
         8: guidance_trennbare_verben_root,
         9: guidance_trennbare_verben_root,
@@ -1613,7 +1382,6 @@ GUIDANCE_EXERCISE_EN = {
         16: guidance_trennbare_verben_no_help,
         17: guidance_trennbare_verben_no_help,
         18: guidance_trennbare_verben_no_help,
-
         19: guidance_trennbare_verben_root,
         20: guidance_trennbare_verben_root,
         21: guidance_trennbare_verben_root,
@@ -1632,7 +1400,6 @@ GUIDANCE_EXERCISE_EN = {
         34: guidance_trennbare_verben_no_help,
         35: guidance_trennbare_verben_no_help,
         36: guidance_trennbare_verben_no_help,
-
         37: guidance_trennbare_verben_root,
         38: guidance_trennbare_verben_root,
         39: guidance_trennbare_verben_root,
@@ -1701,13 +1468,11 @@ GUIDANCE_EXERCISE_EN = {
         102: guidance_trennbare_verben_no_help,
         103: guidance_trennbare_verben_no_help,
     },
-
     nomen_verben_verbindungen: {
         1: guidance_nomen_verben_verbindungen_nomen_isolation,
         2: guidance_nomen_verben_verbindungen_verben_isolation,
         3: guidance_nomen_verben_verbindungen_nomen_sentences,
         4: guidance_nomen_verben_verbindungen_verben_sentences,
-
         5: guidance_nomen_verben_verbindungen_nomen_isolation,
         6: guidance_nomen_verben_verbindungen_verben_isolation,
         7: guidance_nomen_verben_verbindungen_nomen_sentences,
@@ -1720,7 +1485,6 @@ GUIDANCE_EXERCISE_EN = {
         14: guidance_nomen_verben_verbindungen_verben_isolation,
         15: guidance_nomen_verben_verbindungen_nomen_sentences,
         16: guidance_nomen_verben_verbindungen_verben_sentences,
-
         17: guidance_nomen_verben_verbindungen_nomen_isolation,
         18: guidance_nomen_verben_verbindungen_verben_isolation,
         19: guidance_nomen_verben_verbindungen_nomen_sentences,
@@ -1738,18 +1502,15 @@ GUIDANCE_EXERCISE_EN = {
         31: guidance_nomen_verben_verbindungen_nomen_sentences,
         32: guidance_nomen_verben_verbindungen_verben_sentences,
     },
-
     nomen_verben_wortstaemme: {
         1: guidance_nomen_verben_wortstaemme_verben,
         2: guidance_nomen_verben_wortstaemme_nomen,
-
         3: guidance_nomen_verben_wortstaemme_verben,
         4: guidance_nomen_verben_wortstaemme_nomen,
         5: guidance_nomen_verben_wortstaemme_verben,
         6: guidance_nomen_verben_wortstaemme_nomen,
         7: guidance_nomen_verben_wortstaemme_verben,
         8: guidance_nomen_verben_wortstaemme_nomen,
-
         9: guidance_nomen_verben_wortstaemme_verben,
         10: guidance_nomen_verben_wortstaemme_nomen,
         11: guidance_nomen_verben_wortstaemme_verben,
@@ -1770,7 +1531,6 @@ GUIDANCE_EXERCISE_EN = {
         26: guidance_nomen_verben_wortstaemme_nomen,
         27: guidance_nomen_verben_wortstaemme_verben,
         28: guidance_nomen_verben_wortstaemme_nomen,
-
         29: guidance_nomen_verben_wortstaemme_verben,
         30: guidance_nomen_verben_wortstaemme_nomen,
         31: guidance_nomen_verben_wortstaemme_verben,
@@ -1801,7 +1561,6 @@ GUIDANCE_EXERCISE_EN = {
         56: guidance_nomen_verben_wortstaemme_nomen,
         57: guidance_nomen_verben_wortstaemme_verben,
         58: guidance_nomen_verben_wortstaemme_nomen,
-
         59: guidance_nomen_verben_wortstaemme_verben,
         60: guidance_nomen_verben_wortstaemme_nomen,
         61: guidance_nomen_verben_wortstaemme_verben,
@@ -1837,20 +1596,17 @@ GUIDANCE_EXERCISE_EN = {
         91: guidance_nomen_verben_wortstaemme_verben,
         92: guidance_nomen_verben_wortstaemme_nomen,
     },
-
     adjektive_verben_wortstaemme: {
         1: guidance_adjektive_verben_wortstaemme_adjektive,
         2: guidance_adjektive_verben_wortstaemme_verben,
         3: guidance_adjektive_verben_wortstaemme_adjektive,
         4: guidance_adjektive_verben_wortstaemme_verben,
-
         5: guidance_adjektive_verben_wortstaemme_adjektive,
         6: guidance_adjektive_verben_wortstaemme_verben,
         7: guidance_adjektive_verben_wortstaemme_adjektive,
         8: guidance_adjektive_verben_wortstaemme_verben,
         9: guidance_adjektive_verben_wortstaemme_adjektive,
         10: guidance_adjektive_verben_wortstaemme_verben,
-
         11: guidance_adjektive_verben_wortstaemme_adjektive,
         12: guidance_adjektive_verben_wortstaemme_verben,
         13: guidance_adjektive_verben_wortstaemme_adjektive,
@@ -1862,18 +1618,15 @@ GUIDANCE_EXERCISE_EN = {
         19: guidance_adjektive_verben_wortstaemme_adjektive,
         20: guidance_adjektive_verben_wortstaemme_verben,
     },
-
     adjektive_nomen_wortstaemme: {
         1: guidance_adjektive_nomen_wortstaemme_adjektive,
         2: guidance_adjektive_nomen_wortstaemme_nomen,
         3: guidance_adjektive_nomen_wortstaemme_adjektive,
         4: guidance_adjektive_nomen_wortstaemme_nomen,
-
         5: guidance_adjektive_nomen_wortstaemme_adjektive,
         6: guidance_adjektive_nomen_wortstaemme_nomen,
         7: guidance_adjektive_nomen_wortstaemme_adjektive,
         8: guidance_adjektive_nomen_wortstaemme_nomen,
-
         9: guidance_adjektive_nomen_wortstaemme_adjektive,
         10: guidance_adjektive_nomen_wortstaemme_nomen,
         11: guidance_adjektive_nomen_wortstaemme_adjektive,
@@ -1885,7 +1638,6 @@ GUIDANCE_EXERCISE_EN = {
         17: guidance_adjektive_nomen_wortstaemme_adjektive,
         18: guidance_adjektive_nomen_wortstaemme_nomen,
     },
-
     zahlen: {
         1: guidance_zahlen_number,
         2: guidance_zahlen_number,
@@ -1897,39 +1649,32 @@ GUIDANCE_EXERCISE_EN = {
         8: guidance_zahlen_number,
         9: guidance_zahlen_time_spelled,
         10: guidance_zahlen_time_digital,
-
         11: guidance_zahlen_number,
         12: guidance_zahlen_number,
         13: guidance_zahlen_ordinal_isolation,
         14: guidance_zahlen_ordinal_isolation,
         15: guidance_zahlen_ordinal_isolation,
         16: guidance_zahlen_ordinal_sentence,
-
         17: guidance_zahlen_adverb_isolation,
         18: guidance_zahlen_adverb_sentence,
         19: guidance_zahlen_adverb_isolation,
         20: guidance_zahlen_adverb_sentence,
         21: guidance_zahlen_fraction_isolation,
         22: guidance_zahlen_fraction_sentence,
-
         23: guidance_zahlen_genitive_isolation,
         24: guidance_zahlen_genitive_sentence,
     },
-
     alpha: {
         1: guidance_konnektoren_prompt,
         2: guidance_fragen_prompt,
         3: guidance_adverbien_prompt,
         4: guidance_adverbien_prompt,
-
         5: guidance_konnektoren_prompt,
         6: guidance_fragen_prompt,
         7: guidance_adverbien_prompt,
         8: guidance_adverbien_prompt,
         9: guidance_adverbien_prompt,
-    }
+    },
 }
 
-GUIDANCE_CATEGORY_EN = {
-
-}
+GUIDANCE_CATEGORY_EN = {}

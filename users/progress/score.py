@@ -1,18 +1,25 @@
 from flask_login import current_user
 
-from data.data_processing.total_questions import highest_exercise_per_unit, total_question_exercises
-
-from users.progress.exercise_state_cache import get_user_exercise_states, get_user_exercise_state
-from users.session_management.verification_session import is_key_in_exercise, init_session_key
+from data.data_processing.total_questions import (
+    highest_exercise_per_unit,
+    total_question_exercises,
+)
+from users.progress.exercise_state_cache import (
+    get_user_exercise_state,
+    get_user_exercise_states,
+)
+from users.session_management.verification_session import (
+    init_session_key,
+    is_key_in_exercise,
+)
 
 
 def update_score_in_session(session, unit):
-    score = session.setdefault('score', {})
+    score = session.setdefault("score", {})
 
     score[unit] = compute_score_unit(session, unit)
 
     session.modified = True
-    return
 
 
 def write_score(session, unit, exercise=None):
@@ -36,7 +43,7 @@ def write_score(session, unit, exercise=None):
         return ""
 
     else:
-        return f'{int(100 * score)}%'
+        return f"{int(100 * score)}%"
 
 
 def compute_score(session, unit, exercise=None):
@@ -83,7 +90,9 @@ def compute_score_unit(session, unit):
     trues_unit = 0
     falses_unit = 0
     for exercise in range(1, highest_exercise_per_unit[unit] + 1):
-        trues_exercise, falses_exercise = compute_trues_and_falses(session, unit, exercise)
+        trues_exercise, falses_exercise = compute_trues_and_falses(
+            session, unit, exercise
+        )
         trues_unit = trues_unit + trues_exercise
         falses_unit = falses_unit + falses_exercise
     return compute_ratio_correct_answers(trues_unit, falses_unit)
@@ -142,10 +151,10 @@ def compute_score_exercise(session, unit, exercise):
         return compute_ratio_correct_answers(trues, falses)
 
     else:
-        if is_key_in_exercise(session, unit, exercise, 'result'):
-            return session[unit][str(exercise)]['result']
+        if is_key_in_exercise(session, unit, exercise, "result"):
+            return session[unit][str(exercise)]["result"]
 
-        elif is_key_in_exercise(session, unit, exercise, 'progress'):
+        elif is_key_in_exercise(session, unit, exercise, "progress"):
             trues, falses = compute_trues_and_falses(session, unit, exercise)
             return compute_ratio_correct_answers(trues, falses)
         else:
@@ -208,29 +217,34 @@ def compute_trues_and_falses(session, unit, exercise):
                 score = float(state.get("score", state.get("result", 0.0)) or 0.0)
             except (TypeError, ValueError):
                 score = 0.0
-            trues = int(round(score * total))
+            trues = round(score * total)
             falses = max(total - trues, 0)
             return trues, falses
 
         # Unfinished path: use sets of Nrs like session logic
-        correct_nrs = set(int(n) for n in (state.get("correct_nrs") or state.get("correct_ids") or []))
-        incorrect_nrs = set(int(k) for k in (state.get("incorrect") or {}).keys())
+        correct_nrs = {
+            int(n) for n in (state.get("correct_nrs") or state.get("correct_ids") or [])
+        }
+        incorrect_nrs = {int(k) for k in (state.get("incorrect") or {})}
         trues = len(correct_nrs - incorrect_nrs)
         falses = len(incorrect_nrs)
         return trues, falses
 
     else:
-        if is_key_in_exercise(session, unit, exercise, 'result'):
-            result_exercise = session[unit][str(exercise)]['result']
+        if is_key_in_exercise(session, unit, exercise, "result"):
+            result_exercise = session[unit][str(exercise)]["result"]
             # trues = result_exercise * compute_total_questions(unit, exercise=exercise)
             trues = result_exercise * total_question_exercises[unit][ex_int]
             # falses = (1 - result_exercise) * compute_total_questions(unit, exercise=exercise)
             falses = (1 - result_exercise) * total_question_exercises[unit][ex_int]
 
-        elif is_key_in_exercise(session, unit, exercise, 'progress'):
-            init_session_key(session, unit, exercise, 'falses')
-            trues = len( set(session[unit][str(exercise)]['progress']) - set(session[unit][str(exercise)]['falses']) )
-            falses = len(session[unit][str(exercise)]['falses'])
+        elif is_key_in_exercise(session, unit, exercise, "progress"):
+            init_session_key(session, unit, exercise, "falses")
+            trues = len(
+                set(session[unit][str(exercise)]["progress"])
+                - set(session[unit][str(exercise)]["falses"])
+            )
+            falses = len(session[unit][str(exercise)]["falses"])
 
         else:
             trues = 0

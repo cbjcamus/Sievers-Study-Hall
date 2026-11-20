@@ -1,10 +1,9 @@
 from flask_login import current_user
 
 from data.data_processing.data_loading import load_data_exercise
-
-from users.users.models import UserExerciseState
 from users.questions.pick_a_question import pick_a_question
 from users.session_management.verification_session import is_key_in_exercise
+from users.users.models import UserExerciseState
 
 
 def is_exercise_finished(session, unit, exercise):
@@ -33,19 +32,15 @@ def is_exercise_finished(session, unit, exercise):
         if row and row.completed_at:
             return True
 
-    if is_key_in_exercise(session, unit, exercise, 'progress'):
+    if is_key_in_exercise(session, unit, exercise, "progress"):
         data = load_data_exercise(unit, exercise)
 
-        answered_nrs = set(session[unit][str(exercise)]['progress'])
+        answered_nrs = set(session[unit][str(exercise)]["progress"])
 
         if set(data["Nr"].astype(str)) == answered_nrs:
             return True
 
-    if is_key_in_exercise(session, unit, exercise, 'result'):
+    if is_key_in_exercise(session, unit, exercise, "result"):
         return True
 
-    if pick_a_question(session, unit, exercise) is None:
-        return True
-
-    else:
-        return False
+    return pick_a_question(session, unit, exercise) is None

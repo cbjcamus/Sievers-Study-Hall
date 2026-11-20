@@ -10,13 +10,13 @@ Covers:
 """
 
 import pytest
-from flask import Flask, g
+from flask import Flask
 from flask_login import LoginManager, login_user
 
-from users.users.models import db, User, UserExerciseState
 from users.progress.exercise_state_cache import get_user_exercise_states
-from users.progress.progress import is_exercise_started, is_exercise_completed_db
+from users.progress.progress import is_exercise_completed_db, is_exercise_started
 from users.progress.score import get_lowest_scored_exercises
+from users.users.models import User, UserExerciseState, db
 
 UNIT = "genus"
 
@@ -62,8 +62,12 @@ def count_queries(app):
     """Counts SQL statements executed against user_exercise_state while in scope."""
     counter = {"n": 0}
 
-    def before_cursor_execute(conn, cursor, statement, parameters, context, executemany):
-        if "user_exercise_state" in statement and statement.strip().upper().startswith("SELECT"):
+    def before_cursor_execute(
+        conn, cursor, statement, parameters, context, executemany
+    ):
+        if "user_exercise_state" in statement and statement.strip().upper().startswith(
+            "SELECT"
+        ):
             counter["n"] += 1
 
     from sqlalchemy import event
@@ -85,7 +89,9 @@ def query_counter(app):
     next(gen, None)
 
 
-def test_get_user_exercise_states_issues_single_query_for_many_lookups(app, query_counter):
+def test_get_user_exercise_states_issues_single_query_for_many_lookups(
+    app, query_counter
+):
     user = make_user("one@example.com")
     for exercise in range(1, 6):
         make_state(user, UNIT, exercise, {"score": 0.5})

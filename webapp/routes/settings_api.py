@@ -1,23 +1,30 @@
 from flask import jsonify, request, session
 from flask_login import current_user
 
+from users.users.models import UserSettings, db
+from users.users.settings import (
+    DEFAULT_SETTINGS,
+    are_special_characters_enabled,
+    get_theme,
+)
+
 from . import routes_bp
-from users.users.models import db
-from users.users.models import UserSettings
-from users.users.settings import DEFAULT_SETTINGS, get_theme, are_special_characters_enabled
 
 
 def get_or_create_settings(user_id):
     row = UserSettings.query.get(user_id)
     if not row:
         row = UserSettings(user_id=user_id, settings=dict(DEFAULT_SETTINGS))
-        db.session.add(row); db.session.commit()
+        db.session.add(row)
+        db.session.commit()
     else:
         changed = False
         for k, v in DEFAULT_SETTINGS.items():
             if k not in row.settings:
-                row.settings[k] = v; changed = True
-        if changed: db.session.commit()
+                row.settings[k] = v
+                changed = True
+        if changed:
+            db.session.commit()
     return row
 
 
@@ -27,19 +34,21 @@ def inject_theme_flag():
     return {"is_day_mode": theme == "day"}
 
 
-@routes_bp.route('/api/settings', methods=['GET', 'POST'])
+@routes_bp.route("/api/settings", methods=["GET", "POST"])
 def api_settings():
-    if request.method == 'GET':
+    if request.method == "GET":
         if current_user.is_authenticated:
             row = UserSettings.query.get(current_user.id)
             settings = row.settings if row and row.settings else {}
         else:
             settings = session.get("settings", {})
 
-        return jsonify({
-            key: settings.get(key, default_value)
-            for key, default_value in DEFAULT_SETTINGS.items()
-        })
+        return jsonify(
+            {
+                key: settings.get(key, default_value)
+                for key, default_value in DEFAULT_SETTINGS.items()
+            }
+        )
 
     data = request.get_json(silent=True) or {}
 
@@ -71,13 +80,15 @@ def api_settings():
         session["settings"] = settings
         session.modified = True
 
-    return jsonify({
-        "success": True,
-        **{
-            key: settings.get(key, default_value)
-            for key, default_value in DEFAULT_SETTINGS.items()
+    return jsonify(
+        {
+            "success": True,
+            **{
+                key: settings.get(key, default_value)
+                for key, default_value in DEFAULT_SETTINGS.items()
+            },
         }
-    })
+    )
 
 
 @routes_bp.app_context_processor

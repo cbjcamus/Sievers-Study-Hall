@@ -1,13 +1,15 @@
 import os
 import re
-from flask import request, session
 from datetime import datetime
 
-from data.data_processing.exercises import get_level_from_exercise, get_category_from_exercise, \
-    get_subcategory_from_exercise
+from flask import request, session
 
-from users.users.settings import is_feedback_enabled, get_theme
-
+from data.data_processing.exercises import (
+    get_category_from_exercise,
+    get_level_from_exercise,
+    get_subcategory_from_exercise,
+)
+from users.users.settings import get_theme, is_feedback_enabled
 from webapp.i18n import get_language
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -40,22 +42,28 @@ def log_exercise_completed(unit, exercise, score, email=None):
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(EXERCISE_COMPLETED_PATH, "Nr; email; IP; date; unit; exercise; level; category; subcategory; score; language; feedback-enabled; theme")
+    create_file(
+        EXERCISE_COMPLETED_PATH,
+        "Nr; email; IP; date; unit; exercise; level; category; subcategory; score; language; feedback-enabled; theme",
+    )
 
     next_nr = get_next_number(EXERCISE_COMPLETED_PATH)
     level = get_level_from_exercise(unit, exercise)
     category = get_category_from_exercise(unit, exercise)
     subcategory = get_subcategory_from_exercise(unit, exercise)
 
-    forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
-    user_ip = forwarded_for.split(',')[0].strip()  # Take the first IP if there are multiple
+    forwarded_for = request.headers.get("X-Forwarded-For", request.remote_addr)
+    user_ip = forwarded_for.split(",")[
+        0
+    ].strip()  # Take the first IP if there are multiple
     language = get_language(request, session)
     feedback = is_feedback_enabled()
     theme = get_theme()
 
     with open(EXERCISE_COMPLETED_PATH, "a", encoding="utf-8") as file:
-        file.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {level}; {category}; {subcategory}; {score}; {language}; {feedback}; {theme}")
-    return
+        file.write(
+            f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {level}; {category}; {subcategory}; {score}; {language}; {feedback}; {theme}"
+        )
 
 
 def log_new_signup(user):
@@ -82,10 +90,11 @@ def log_new_signup(user):
 
     with open(NEW_SIGNUP_PATH, "a", encoding="utf-8") as file:
         file.write(f"\n{next_nr}; {now}, {user.id}; {user.email}")
-    return
 
 
-def log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason, email=None):
+def log_question_flagged(
+    unit, exercise, feedback_message, user_answer, result, reason, email=None
+):
     """
     Logs a flagged question to a CSV file with relevant metadata for review.
 
@@ -108,12 +117,15 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(QUESTION_FLAGGED_PATH, "Nr; email; IP; date; unit; exercise; language; result; feedback_message; user_answer; reason;")
+    create_file(
+        QUESTION_FLAGGED_PATH,
+        "Nr; email; IP; date; unit; exercise; language; result; feedback_message; user_answer; reason;",
+    )
 
     next_nr = get_next_number(QUESTION_FLAGGED_PATH)
 
-    forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
-    user_ip = forwarded_for.split(',')[0].strip()
+    forwarded_for = request.headers.get("X-Forwarded-For", request.remote_addr)
+    user_ip = forwarded_for.split(",")[0].strip()
     language = get_language(request, session)
 
     result = format_entry(result)
@@ -122,8 +134,9 @@ def log_question_flagged(unit, exercise, feedback_message, user_answer, result, 
     reason = format_entry(reason)
 
     with open(QUESTION_FLAGGED_PATH, "a", encoding="utf-8") as filepath:
-        filepath.write(f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {language}; {result}; {feedback_message}; {user_answer}; {reason}")
-    return
+        filepath.write(
+            f"\n{next_nr}; {email}; {user_ip}; {now}; {unit}; {exercise}; {language}; {result}; {feedback_message}; {user_answer}; {reason}"
+        )
 
 
 def log_progress_deleted_from_session(unit, exercise):
@@ -148,12 +161,11 @@ def log_progress_deleted_from_session(unit, exercise):
 
     next_nr = get_next_number(PROGRESS_DELETED_PATH)
 
-    forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
-    user_ip = forwarded_for.split(',')[0].strip()
+    forwarded_for = request.headers.get("X-Forwarded-For", request.remote_addr)
+    user_ip = forwarded_for.split(",")[0].strip()
 
     with open(PROGRESS_DELETED_PATH, "a", encoding="utf-8") as filepath:
         filepath.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}")
-    return
 
 
 def log_prompt_usage(unit, exercise, input_token, output_token, usage):
@@ -174,17 +186,21 @@ def log_prompt_usage(unit, exercise, input_token, output_token, usage):
     now = datetime.now()
 
     create_folder(LOGS_DIR)
-    create_file(PROMPT_USAGE_PATH, "Nr; IP; date; unit; exercise; level; input_token; output_token; usage")
+    create_file(
+        PROMPT_USAGE_PATH,
+        "Nr; IP; date; unit; exercise; level; input_token; output_token; usage",
+    )
 
     next_nr = get_next_number(PROMPT_USAGE_PATH)
     level = get_level_from_exercise(unit, exercise)
 
-    forwarded_for = request.headers.get('X-Forwarded-For', request.remote_addr)
-    user_ip = forwarded_for.split(',')[0].strip()
+    forwarded_for = request.headers.get("X-Forwarded-For", request.remote_addr)
+    user_ip = forwarded_for.split(",")[0].strip()
 
     with open(PROMPT_USAGE_PATH, "a", encoding="utf-8") as filepath:
-        filepath.write(f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}; {level}; {input_token}; {output_token}; {usage}")
-    return
+        filepath.write(
+            f"\n{next_nr}; {user_ip}; {now}; {unit}; {exercise}; {level}; {input_token}; {output_token}; {usage}"
+        )
 
 
 def create_folder(folder):
@@ -200,7 +216,6 @@ def create_folder(folder):
         None
     """
     os.makedirs(folder, exist_ok=True)
-    return
 
 
 def create_file(file, first_line):
@@ -218,9 +233,8 @@ def create_file(file, first_line):
         None
     """
     if not os.path.isfile(file):
-        with open(file, 'w', encoding='utf-8') as file:
-            file.write(first_line)
-    return
+        with open(file, "w", encoding="utf-8") as handle:
+            handle.write(first_line)
 
 
 def get_next_number(file):
@@ -240,8 +254,8 @@ def get_next_number(file):
     """
     next_nr = 1
     if os.path.exists(file):
-        with open(file, "r", encoding="utf-8") as file:
-            lines = [line for line in file if line.strip()]
+        with open(file, "r", encoding="utf-8") as handle:
+            lines = [line for line in handle if line.strip()]
             if len(lines) > 1:
                 last_line = lines[-1]
                 try:

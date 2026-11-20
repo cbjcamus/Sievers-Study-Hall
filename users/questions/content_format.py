@@ -1,36 +1,72 @@
+import json
 import random
 import string
-import json
 
 from data.content.application.text import CEFR_LEVEL
-from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
-    adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme, praepositionen_verben, \
-    praepositionen_adjektive, praepositionen_nomen
-from data.data_processing.exercises import is_exercise_multiple_choice, get_question_column, get_answer_column, \
-    is_exercise_multiple_choice_target, is_exercise_multiple_choice_native, get_category_from_exercise, \
-    get_subcategory_from_exercise
-from data.data_processing.data_loading import load_data_question, load_data_level, load_data_unit
-from data.content.exercise.templates import FEEDBACK, QUESTION, INSTRUCTION, GUIDANCE, DESCRIPTION, PROMPT
-
-from users.questions.normalization import get_correct_answer, get_list_of_correct_answers, get_first_correct_answer, \
-    remove_punctuation
+from data.content.exercise.templates import (
+    DESCRIPTION,
+    FEEDBACK,
+    GUIDANCE,
+    INSTRUCTION,
+    PROMPT,
+    QUESTION,
+)
+from data.data_processing.data_loading import (
+    load_data_level,
+    load_data_question,
+    load_data_unit,
+)
+from data.data_processing.exercises import (
+    get_answer_column,
+    get_category_from_exercise,
+    get_question_column,
+    get_subcategory_from_exercise,
+    is_exercise_multiple_choice,
+    is_exercise_multiple_choice_native,
+    is_exercise_multiple_choice_target,
+)
+from data.data_processing.units import (
+    adjektive,
+    adjektive_nomen_wortstaemme,
+    adjektive_verben_wortstaemme,
+    adverbien,
+    fragen,
+    konnektoren,
+    nomen_verben_wortstaemme,
+    trennbare_verben,
+    verben,
+)
+from users.questions.normalization import (
+    get_correct_answer,
+    get_first_correct_answer,
+    get_list_of_correct_answers,
+)
 
 
 def get_template(unit, exercise, language, template):
     subcategory = get_subcategory_from_exercise(unit, exercise)
     category = get_category_from_exercise(unit, exercise)
 
-    if unit in template[language]['exercise'] and exercise in template[language]['exercise'][unit]:
-        template = template[language]['exercise'][unit][exercise]
+    if (
+        unit in template[language]["exercise"]
+        and exercise in template[language]["exercise"][unit]
+    ):
+        template = template[language]["exercise"][unit][exercise]
 
-    elif unit in template[language]['subcategory'] and subcategory in template[language]['subcategory'][unit]:
-        template = template[language]['subcategory'][unit][subcategory]
+    elif (
+        unit in template[language]["subcategory"]
+        and subcategory in template[language]["subcategory"][unit]
+    ):
+        template = template[language]["subcategory"][unit][subcategory]
 
-    elif unit in template[language]['category'] and category in template[language]['category'][unit]:
-        template = template[language]['category'][unit][category]
+    elif (
+        unit in template[language]["category"]
+        and category in template[language]["category"][unit]
+    ):
+        template = template[language]["category"][unit][category]
 
-    elif unit in template[language]['unit']:
-        template = template[language]['unit'][unit]
+    elif unit in template[language]["unit"]:
+        template = template[language]["unit"][unit]
 
     else:
         template = None
@@ -111,86 +147,86 @@ def format_question(unit, exercise, language, question_id):
         root_french=root_french,
     )
 
-    formatted_question = formatted_question.replace("\u25CF ", "\u25CF&nbsp;")
+    formatted_question = formatted_question.replace("\u25cf ", "\u25cf&nbsp;")
     formatted_question = formatted_question.replace("→ ", "→&nbsp;")
     formatted_question = formatted_question.replace("= ", "=&nbsp;")
     formatted_question = formatted_question.replace("+ ", "+&nbsp;")
-    formatted_question = formatted_question.replace("\u25CF ", "\u25CF&nbsp;")
+    formatted_question = formatted_question.replace("\u25cf ", "\u25cf&nbsp;")
 
     return formatted_question
 
 
 praepositionen_dictionary = {
-    'ab': 'ab',
-    'als': 'als',
-    'an': 'an',
-    'an dem': 'an',
-    'am': 'an',
-    'an das': 'an',
-    'ans': 'an',
-    'auf': 'auf',
-    'aufm': 'auf',
-    'auf dem': 'auf',
-    'auf das': 'auf',
-    'aufs': 'auf',
-    'aus': 'aus',
-    'ausm': 'aus',
-    'aus dem': 'aus',
-    'außer': 'außer',
-    'bei': 'bei',
-    'bei dem': 'bei',
-    'beim': 'bei',
-    'bis': 'bis',
-    'durch': 'durch',
-    'durchs': 'durch',
-    'durch das': 'durch',
-    'für': 'für',
-    'fürs': 'für',
-    'für das': 'für',
-    'gegen': 'gegen',
-    'gegenüber': 'gegenüber',
-    'hinter': 'hinter',
-    'hinters': 'hinter',
-    'hinter das': 'hinter',
-    'hinterm': 'hinter',
-    'hinter dem': 'hinter',
-    'in': 'in',
-    'in dem': 'in',
-    'im': 'in',
-    'in das': 'in',
-    'ins': 'in',
-    'mit': 'mit',
-    'nach': 'nach',
-    'neben': 'neben',
-    'ohne': 'ohne',
-    'pro': 'pro',
-    'seit': 'seit',
-    'um': 'um',
-    'ums': 'um',
-    'um das': 'um',
-    'über': 'über',
-    'übers': 'über',
-    'über das': 'über',
-    'überm': 'über',
-    'über dem': 'über',
-    'unter': 'unter',
-    'unters': 'unter',
-    'unter das': 'unter',
-    'unterm': 'unter',
-    'unter dem': 'unter',
-    'von': 'von',
-    'von dem': 'von',
-    'vom': 'von',
-    'vor': 'vor',
-    'vors': 'vor',
-    'vor das': 'vor',
-    'wie': 'wie',
-    'zu': 'zu',
-    'zu dem' : 'zu',
-    'zum': 'zu',
-    'zu der': 'zu',
-    'zur': 'zu',
-    'zwischen': 'zwischen',
+    "ab": "ab",
+    "als": "als",
+    "an": "an",
+    "an dem": "an",
+    "am": "an",
+    "an das": "an",
+    "ans": "an",
+    "auf": "auf",
+    "aufm": "auf",
+    "auf dem": "auf",
+    "auf das": "auf",
+    "aufs": "auf",
+    "aus": "aus",
+    "ausm": "aus",
+    "aus dem": "aus",
+    "außer": "außer",
+    "bei": "bei",
+    "bei dem": "bei",
+    "beim": "bei",
+    "bis": "bis",
+    "durch": "durch",
+    "durchs": "durch",
+    "durch das": "durch",
+    "für": "für",
+    "fürs": "für",
+    "für das": "für",
+    "gegen": "gegen",
+    "gegenüber": "gegenüber",
+    "hinter": "hinter",
+    "hinters": "hinter",
+    "hinter das": "hinter",
+    "hinterm": "hinter",
+    "hinter dem": "hinter",
+    "in": "in",
+    "in dem": "in",
+    "im": "in",
+    "in das": "in",
+    "ins": "in",
+    "mit": "mit",
+    "nach": "nach",
+    "neben": "neben",
+    "ohne": "ohne",
+    "pro": "pro",
+    "seit": "seit",
+    "um": "um",
+    "ums": "um",
+    "um das": "um",
+    "über": "über",
+    "übers": "über",
+    "über das": "über",
+    "überm": "über",
+    "über dem": "über",
+    "unter": "unter",
+    "unters": "unter",
+    "unter das": "unter",
+    "unterm": "unter",
+    "unter dem": "unter",
+    "von": "von",
+    "von dem": "von",
+    "vom": "von",
+    "vor": "vor",
+    "vors": "vor",
+    "vor das": "vor",
+    "wie": "wie",
+    "zu": "zu",
+    "zu dem": "zu",
+    "zum": "zu",
+    "zu der": "zu",
+    "zur": "zu",
+    "zwischen": "zwischen",
 }
 
 
@@ -198,12 +234,16 @@ def format_praepositionen_link(input_string, language):
     input_string = input_string.lower()
 
     if input_string in list(praepositionen_dictionary.keys()):
-        if language == 'english':
-            return (f'<a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up#§'
-                    f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>')
+        if language == "english":
+            return (
+                f'<a href="https://sieversstudyhall.substack.com/p/basic-german-prepositions-uses-up#§'
+                f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>'
+            )
         else:
-            return (f'<a href="https://sieversstudyhall.substack.com/p/guide-des-prepositions-allemandes#§'
-                    f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>')
+            return (
+                f'<a href="https://sieversstudyhall.substack.com/p/guide-des-prepositions-allemandes#§'
+                f'{praepositionen_dictionary[input_string]}" target="_blank">{input_string}</a>'
+            )
 
     else:
         return format_wiktionary_link(input_string, language)
@@ -211,10 +251,7 @@ def format_praepositionen_link(input_string, language):
 
 def format_wiktionary_link(input_string, language):
     if isinstance(input_string, list):
-        return ", ".join(
-            format_unique_link(item, language)
-            for item in input_string
-        )
+        return ", ".join(format_unique_link(item, language) for item in input_string)
     else:
         return format_unique_link(input_string, language)
 
@@ -235,14 +272,22 @@ def format_unique_link(input_string, language):
     if contains_punctuation(input_link):
         return input_link
 
-    if language == 'english':
+    if language == "english":
         return f'<a href="https://en.wiktionary.org/wiki/{input_link}#German" target="_blank">{input_string}</a>'
     else:
         return f'<a href="https://fr.wiktionary.org/wiki/{input_link}#Allemand" target="_blank">{input_string}</a>'
 
 
-def format_feedback(unit, exercise, language, question_id,
-                    user_answer=None, translation=None, cefr_level=None, commentary=None):
+def format_feedback(
+    unit,
+    exercise,
+    language,
+    question_id,
+    user_answer=None,
+    translation=None,
+    cefr_level=None,
+    commentary=None,
+):
     if question_id is None:
         return None
 
@@ -251,14 +296,24 @@ def format_feedback(unit, exercise, language, question_id,
     correct_answer = get_correct_answer(unit, exercise, question_id, language)
     correct_answer_wiktionary = format_wiktionary_link(correct_answer, language)
     correct_answer_praepositionen = format_praepositionen_link(correct_answer, language)
-    correct_answers_list = get_list_of_correct_answers(correct_answer, unit, exercise, question_id)
+    correct_answers_list = get_list_of_correct_answers(
+        correct_answer, unit, exercise, question_id
+    )
     correct_answers = ", ".join(item for item in correct_answers_list)
-    correct_answers_wiktionary = ", ".join(format_unique_link(item, language) for item in correct_answers_list)
+    correct_answers_wiktionary = ", ".join(
+        format_unique_link(item, language) for item in correct_answers_list
+    )
     first_correct_answer = get_first_correct_answer(correct_answer)
-    first_correct_answer_wiktionary = format_wiktionary_link(first_correct_answer, language)
-    list_of_synonyms = get_list_of_correct_answers(correct_answer, unit, exercise, question_id, with_synonym_question=True)
+    first_correct_answer_wiktionary = format_wiktionary_link(
+        first_correct_answer, language
+    )
+    list_of_synonyms = get_list_of_correct_answers(
+        correct_answer, unit, exercise, question_id, with_synonym_question=True
+    )
     list_of_synonyms_wiktionary = format_wiktionary_link(list_of_synonyms, language)
-    correct_answers_bullet_points = get_list_of_correct_answers(correct_answer, unit, exercise, question_id, bullet_points=True)
+    correct_answers_bullet_points = get_list_of_correct_answers(
+        correct_answer, unit, exercise, question_id, bullet_points=True
+    )
     question_text = question_data["question"]
     previous_question_wiktionary = format_wiktionary_link(question_text, language)
     german = question_data.get("german", "")
@@ -286,8 +341,14 @@ def format_feedback(unit, exercise, language, question_id,
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
 
-    cefr_level = "" if (cefr_level == "none" or cefr_level is None) else CEFR_LEVEL[language] + cefr_level
-    commentary = "" if (commentary == "none" or commentary is None) else "<br><br>" + commentary
+    cefr_level = (
+        ""
+        if (cefr_level == "none" or cefr_level is None)
+        else CEFR_LEVEL[language] + cefr_level
+    )
+    commentary = (
+        "" if (commentary == "none" or commentary is None) else "<br><br>" + commentary
+    )
 
     feedback_template = get_template(unit, exercise, language, FEEDBACK)
 
@@ -336,7 +397,7 @@ def format_feedback(unit, exercise, language, question_id,
     feedback_message = feedback_message.replace("→ ", "→&nbsp;")
     feedback_message = feedback_message.replace("= ", "=&nbsp;")
     feedback_message = feedback_message.replace("+ ", "+&nbsp;")
-    feedback_message = feedback_message.replace("\u25CF ", "\u25CF&nbsp;")
+    feedback_message = feedback_message.replace("\u25cf ", "\u25cf&nbsp;")
 
     return feedback_message
 
@@ -346,11 +407,13 @@ def format_gender(unit, exercise, language, question_id):
     gender_english = question_data.get("gender_english", "")
     gender_french = question_data.get("gender_french", "")
 
-    gender = gender_english if language == 'english' else gender_french
+    gender = gender_english if language == "english" else gender_french
     return gender
 
 
-def format_correction(unit, exercise, language, result, incorrect_answer, question_text):
+def format_correction(
+    unit, exercise, language, result, incorrect_answer, question_text
+):
     if result != "incorrect":
         return ""
 
@@ -360,7 +423,9 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         question_column = get_question_column(unit, exercise, language)
         answer_column = get_answer_column(unit, exercise, language)
 
-        match_question = data.loc[data[answer_column] == incorrect_answer, question_column]
+        match_question = data.loc[
+            data[answer_column] == incorrect_answer, question_column
+        ]
 
         if not match_question.empty:
             question = match_question.iloc[0]
@@ -376,7 +441,9 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
 
     elif unit == konnektoren:
         data = load_data_unit(unit)
-        match_question = data.loc[data['konnektor'] == incorrect_answer, f"explanation_{language}"]
+        match_question = data.loc[
+            data["konnektor"] == incorrect_answer, f"explanation_{language}"
+        ]
 
         if not match_question.empty:
             return f"<br><br>{match_question.iloc[0]}"
@@ -385,18 +452,25 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
 
     elif unit == fragen:
         data = load_data_unit(unit)
-        match_question = data.loc[data['fragen'] == incorrect_answer, f"explanation_{language}"]
+        match_question = data.loc[
+            data["fragen"] == incorrect_answer, f"explanation_{language}"
+        ]
 
         if not match_question.empty:
             return f"<br><br>{match_question.iloc[0]}"
         else:
             return ""
 
-    elif unit in [adverbien, verben, adjektive,
-                  adjektive_nomen_wortstaemme, adjektive_verben_wortstaemme, nomen_verben_wortstaemme]:
-
+    elif unit in [
+        adverbien,
+        verben,
+        adjektive,
+        adjektive_nomen_wortstaemme,
+        adjektive_verben_wortstaemme,
+        nomen_verben_wortstaemme,
+    ]:
         data = load_data_unit(unit)
-        match_question = data.loc[data['answer'] == incorrect_answer, language]
+        match_question = data.loc[data["answer"] == incorrect_answer, language]
 
         if not match_question.empty:
             question = match_question.iloc[0]
@@ -406,11 +480,12 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
             return ""
 
     elif unit == trennbare_verben:
-
         data = load_data_unit(unit)
-        match_question = data.loc[data['answer'] == incorrect_answer, language]
-        match_root_german = data.loc[data['answer'] == incorrect_answer, "root_german"]
-        match_root_english = data.loc[data['answer'] == incorrect_answer, f"root_{language}"]
+        match_question = data.loc[data["answer"] == incorrect_answer, language]
+        match_root_german = data.loc[data["answer"] == incorrect_answer, "root_german"]
+        match_root_english = data.loc[
+            data["answer"] == incorrect_answer, f"root_{language}"
+        ]
 
         if not match_question.empty:
             question = match_question.iloc[0]
@@ -424,7 +499,8 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
     else:
         return ""
 
-'''
+
+"""
     elif unit in [praepositionen_verben, praepositionen_adjektive, praepositionen_nomen]:
         if question_text == "":
             return ""
@@ -439,7 +515,8 @@ def format_correction(unit, exercise, language, result, incorrect_answer, questi
         else:
             match_explanation = match_explanation.iloc[0]
             return f"<br><br><i>{match_explanation}</i>"
-'''
+"""
+
 
 def get_combination_from_question_text(unit, question_text, incorrect_answer):
     if not question_text:
@@ -454,7 +531,9 @@ def get_combination_from_question_text(unit, question_text, incorrect_answer):
 
     correct_combination = matches.iloc[0]
 
-    correct_question_text = data.loc[data["combination"] == correct_combination, f"question"].iloc[0]
+    correct_question_text = data.loc[
+        data["combination"] == correct_combination, "question"
+    ].iloc[0]
     combination = correct_question_text.replace("_____", incorrect_answer)
 
     return combination
@@ -467,24 +546,24 @@ def format_options_word_order(unit, exercise, question_id):
 
     # Remove punctuation
     question_text = question_text.translate(
-        str.maketrans('', '', string.punctuation.replace('-', ''))
+        str.maketrans("", "", string.punctuation.replace("-", ""))
     )
     # Lowercase first letter of first word
     list_do_not_lowercase = [
-        'Paris',
-        'Deutschland',
-        'Frankreich',
-        'München',
-        'Rom',
-        'Wien',
-        'Berlin',
-        'Italien',
-        'Spanien',
-        'Österreich',
-        'Japan',
-        'Indien',
-        'Paul',
-        'Peter',
+        "Paris",
+        "Deutschland",
+        "Frankreich",
+        "München",
+        "Rom",
+        "Wien",
+        "Berlin",
+        "Italien",
+        "Spanien",
+        "Österreich",
+        "Japan",
+        "Indien",
+        "Paul",
+        "Peter",
     ]
 
     if question_text:
@@ -562,7 +641,7 @@ def format_prompt(unit, exercise, language, question_id, user_answer):
         root_french=root_french,
     )
 
-    formatted_prompt = formatted_prompt.replace("\u25CF ", "\u25CF&nbsp;")
+    formatted_prompt = formatted_prompt.replace("\u25cf ", "\u25cf&nbsp;")
 
     return formatted_prompt
 

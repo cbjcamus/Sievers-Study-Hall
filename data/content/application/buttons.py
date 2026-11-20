@@ -1,44 +1,44 @@
 HOMEPAGE = {
-    'english': "Homepage",
-    'french': "Page d'Accueil",
+    "english": "Homepage",
+    "french": "Page d'Accueil",
 }
 
 BACK_TO = {
-    'english': 'Back to',
-    'french': 'Retour à',
+    "english": "Back to",
+    "french": "Retour à",
 }
 
 NEXT = {
-    'english': 'Next',
-    'french': 'Suivant',
+    "english": "Next",
+    "french": "Suivant",
 }
 
 SUBMIT = {
-    'english': 'Submit',
-    'french': 'Soumettre',
+    "english": "Submit",
+    "french": "Soumettre",
 }
 
 NEXT_QUESTION = {
-    'english': 'Next Question',
-    'french': 'Question suivante',
+    "english": "Next Question",
+    "french": "Question suivante",
 }
 
 REFRESH = {
-    'english': 'Refresh',
-    'french': 'Rafraîchir',
+    "english": "Refresh",
+    "french": "Rafraîchir",
 }
 
 UNIT_PARTICULARLY_LIKE_BY_USERS = {
-    'english': 'Units particularly liked by users',
-    'french': 'Modules particulièrement appréciés par les utilisateurs',
+    "english": "Units particularly liked by users",
+    "french": "Modules particulièrement appréciés par les utilisateurs",
 }
 
 NEXT_EXERCISE = {
-    'english': 'Next Exercise',
-    'french': 'Exercice suivant',
+    "english": "Next Exercise",
+    "french": "Exercice suivant",
 }
 
 SHOW_OPTIONS = {
-    'english': 'Show Options',
-    'french': 'Montrer les options',
+    "english": "Show Options",
+    "french": "Montrer les options",
 }

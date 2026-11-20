@@ -1,64 +1,60 @@
-from data.data_processing.exercises import isolation, context, synonym, antonym, prompt
+from data.data_processing.exercises import antonym, context, isolation, prompt, synonym
 from data.data_processing.units import (
-    praepositionen, praepositionen_verben, praepositionen_adjektive, praepositionen_nomen, pronominaladverbien,
-    artikel, pronomen, praepositionen_artikel, verben_artikel,
-    konnektoren, fragen, adverbien, wortstellung,
-    genus_regeln, genus, plural,
-    adjektive, komparativ_superlativ, adjektivdeklinationen, adjektive_konjunktionen,
-    verben, trennbare_verben, nomen_verben_verbindungen,
-    praesens, imperativ, partizip_II, praeteritum, perfekt, konjunktiv_II, konjunktiv_I, partizip_I,
-    nomen_verben_wortstaemme, adjektive_verben_wortstaemme, adjektive_nomen_wortstaemme,
-    zahlen, alpha,
+    adjektivdeklinationen,
+    adjektive,
+    adjektive_konjunktionen,
+    adjektive_nomen_wortstaemme,
+    adjektive_verben_wortstaemme,
+    adverbien,
+    alpha,
+    artikel,
+    fragen,
+    genus,
+    genus_regeln,
+    imperativ,
+    komparativ_superlativ,
+    konjunktiv_I,
+    konjunktiv_II,
+    konnektoren,
+    nomen_verben_verbindungen,
+    nomen_verben_wortstaemme,
+    partizip_I,
+    partizip_II,
+    perfekt,
+    plural,
+    praepositionen,
+    praepositionen_adjektive,
+    praepositionen_artikel,
+    praepositionen_nomen,
+    praepositionen_verben,
+    praesens,
+    praeteritum,
+    pronomen,
+    pronominaladverbien,
+    trennbare_verben,
+    verben,
+    verben_artikel,
+    wortstellung,
+    zahlen,
 )
 
 INSTRUCTION_UNIT_EN = {
-    praepositionen_artikel:
-        "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
-
-    verben_artikel:
-        "Complete the following sentence with the article or pronoun that fits:",
-
-    wortstellung:
-        "Build the sentence that translates the following English sentence, taking into account any indications provided:",
-
-    adjektive_konjunktionen:
-        "Complete the following sentence with the word that fits:",
-
-    praesens:
-        "Conjugate the following verb in the present tense:",
-
-    partizip_II:
-        "Write the past participle (Partizip II) of the following verb:",
-
-    praeteritum:
-        "Conjugate the following verb in the Präteritum:",
-
-    perfekt:
-        "Write one or two German sentences using the following verb in the perfect:",
-
-    imperativ:
-        "Conjugate the following verb in the imperative:",
-
-    konjunktiv_II:
-        "Conjugate the following verb in the Konjunktiv II:",
-
-    konjunktiv_I:
-        "Conjugate the following verb in the Konjunktiv I:",
-
-    partizip_I:
-        "Write the Partizip I of the following verb:",
-
-    genus_regeln:
-        "Write the definite article (<i>der</i>, <i>die</i> or <i>das</i>) that fits the noun provided:",
-
-    genus:
-        "Write the definite article (<i>der</i>, <i>die</i> or <i>das</i>) that fits the noun provided:",
-
-    plural:
-        "Write the plural form of the German noun displayed below:",
-
-    alpha:
-        "Write one or two sentences using the following connector:",
+    praepositionen_artikel: "Complete the following sentence with the preposition indicated and the article or pronoun that fits:",
+    verben_artikel: "Complete the following sentence with the article or pronoun that fits:",
+    wortstellung: "Build the sentence that translates the following English sentence, taking into account any indications provided:",
+    adjektive_konjunktionen: "Complete the following sentence with the word that fits:",
+    praesens: "Conjugate the following verb in the present tense:",
+    partizip_II: "Write the past participle (Partizip II) of the following verb:",
+    praeteritum: "Conjugate the following verb in the Präteritum:",
+    perfekt: "Write one or two German sentences using the following verb in the perfect:",
+    imperativ: "Conjugate the following verb in the imperative:",
+    konjunktiv_II: "Conjugate the following verb in the Konjunktiv II:",
+    konjunktiv_I: "Conjugate the following verb in the Konjunktiv I:",
+    partizip_I: "Write the Partizip I of the following verb:",
+    genus_regeln: "Write the definite article (<i>der</i>, <i>die</i> or <i>das</i>) that fits the noun provided:",
+    genus: "Write the definite article (<i>der</i>, <i>die</i> or <i>das</i>) that fits the noun provided:",
+    plural: "Write the plural form of the German noun displayed below:",
+    alpha: "Write one or two sentences using the following connector:",
 }
 
 INSTRUCTION_SUBCATEGORY_EN = {
@@ -67,51 +63,43 @@ INSTRUCTION_SUBCATEGORY_EN = {
         isolation: "Translate the following preposition:",
         synonym: "Find a synonym for the following preposition:",
         antonym: "Write an antonym for the following preposition:",
-        prompt: "Write a German sentence using the following preposition in the function described:"
+        prompt: "Write a German sentence using the following preposition in the function described:",
     },
-
     praepositionen_verben: {
         isolation: "Write the preposition that matches the following verb:",
         context: "Complete the following sentence with the preposition that fits:",
-        prompt: "Write a German sentence using the following verb-preposition pair:"
+        prompt: "Write a German sentence using the following verb-preposition pair:",
     },
-
     praepositionen_adjektive: {
         isolation: "Write the preposition that matches the following adjective:",
         context: "Complete the following sentence with the preposition that fits:",
     },
-
     praepositionen_nomen: {
         isolation: "Write the preposition that matches the following noun:",
         context: "Complete the following sentence with the preposition that fits:",
     },
-
     konnektoren: {
         isolation: "Translate the following connector:",
         context: "Complete the following sentence with the connector that fits:",
         synonym: "Find a synonym for the following connector:",
-        prompt: "Write one or two German sentences using the following connector:"
+        prompt: "Write one or two German sentences using the following connector:",
     },
-
     fragen: {
         isolation: "Translate the following question word:",
         context: "Complete the following sentence with the question word that fits:",
-        prompt: "Write one or two German sentences using the following question word:"
+        prompt: "Write one or two German sentences using the following question word:",
     },
-
     adverbien: {
         isolation: "Translate the following adverb:",
         context: "Complete the following sentence with the adverb that fits:",
         synonym: "Find a synonym for the following adverb:",
         antonym: "Write an antonym of the following adverb:",
-        prompt: "Write one or two German sentences using the following adverb:"
+        prompt: "Write one or two German sentences using the following adverb:",
     },
-
     verben: {
         isolation: "Translate the following verb:",
         prompt: "Write one or two German sentences using the following verb:",
     },
-
     adjektive: {
         isolation: "Translate the following adjective:",
         synonym: "Find a synonym for the following adjective:",
@@ -119,40 +107,31 @@ INSTRUCTION_SUBCATEGORY_EN = {
     },
 }
 
-INSTRUCTION_CATEGORY_EN = {
-
-}
+INSTRUCTION_CATEGORY_EN = {}
 
 INSTRUCTION_EXERCISE_EN = {
-
     alpha: {
         1: "Write a sentence (or a couple of sentences) that uses the following connector:",
         2: "Write a sentence (or a couple of sentences) that uses the following question word:",
         3: "Write a sentence (or a couple of sentences) that uses the following adverb:",
         4: "Write a sentence (or a couple of sentences) that uses the following adverb:",
-
         5: "Write a sentence (or a couple of sentences) that uses the following connector:",
         6: "Write a sentence (or a couple of sentences) that uses the following question word:",
         7: "Write a sentence (or a couple of sentences) that uses the following adverb:",
         8: "Write a sentence (or a couple of sentences) that uses the following adverb:",
         9: "Write a sentence (or a couple of sentences) that uses the following adverb:",
     },
-
     praepositionen: {
         40: "Translate the following prepositional phrase:",
         41: "Complete the following sentence with the prepositional phrase that fits:",
     },
-
     pronominaladverbien: {
         1: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
-
         2: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
         3: "Complete the following sentence with the pronominal adverb in <i>Da</i> that fits:",
         4: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
-
         5: "Complete the following sentence with the pronominal adverb in <i>Wo</i> that fits:",
     },
-
     artikel: {
         1: "Write the definite article that fits the case and gender provided:",
         2: "Complete the following sentence with the nominative definite article that fits:",
@@ -178,34 +157,29 @@ INSTRUCTION_EXERCISE_EN = {
         22: "Complete the following sentence with the Kein-word that fits:",
         23: "Write the possessive article that fits the case and gender provided:",
         24: "Complete the following sentence with the possessive article that fits."
-            "<br><br>All the possessive articles are based on singular pronouns "
-            "(<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>).",
+        "<br><br>All the possessive articles are based on singular pronouns "
+        "(<i>Ich</i>, <i>Du</i>, <i>Er</i>, <i>Sie</i>, <i>Es</i>).",
         25: "Write the possessive article that fits the case and gender provided:",
         26: "Complete the following sentence with the possessive article that fits."
-            "<br><br>All the possessive articles are based on plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) or formal pronouns.",
-
+        "<br><br>All the possessive articles are based on plural (<i>Wir</i>, <i>Ihr</i>, <i>Sie</i>) or formal pronouns.",
         27: "Write the demonstrative article that fits the case and gender provided:",
         28: "Complete the following sentence with the demonstrative article that fits:",
         29: "Write the <i>jede</i>-word that fits the case and gender provided:",
         30: "Complete the following sentence with the jede-word that fits:",
         31: "Translate the following article:",
         32: "Complete the following sentence with the article that fits:",
-
         33: "Write the article that fits the case and gender provided:",
         34: "Complete the following sentence with the genitive article that fits:",
         35: "Write the article that fits the case and gender provided:",
         36: "Complete the following sentence with the genitive article that fits:",
         37: "Write the possessive article that fits the case and gender provided:",
         38: "Complete the following sentence with the possessive article that fits:",
-
         39: "Translate the following article based on the case and gender provided:",
         40: "Complete the following sentence with the article that fits:",
-
         41: "Translate the following article based on the case and gender provided:",
         42: "Complete the following sentence with the article that fits:",
         43: "Complete the following sentence with the article that fits:",
         44: "Complete the following sentence with the article that fits:",
-
         45: "Translate the following article based on the case and gender provided:",
         46: "Complete the following sentence with the article that fits:",
         47: "Translate the following article based on the case and gender provided:",
@@ -213,7 +187,6 @@ INSTRUCTION_EXERCISE_EN = {
         49: "Translate the following article based on the case and gender provided:",
         50: "Complete the following sentence with the article that fits:",
     },
-
     pronomen: {
         1: "Write the nominative pronoun that fits the person given:",
         2: "Complete the following sentence with the nominative pronoun that fits:",
@@ -225,12 +198,10 @@ INSTRUCTION_EXERCISE_EN = {
         8: "Complete the following sentence with the pronoun that fits:",
         9: "Replace the indicated object with the pronoun that fits:",
         10: "Replace the indicated object with the pronoun that fits:",
-
         11: "Write the reflexive pronoun that fits the person and case given:",
         12: "Complete the following sentence with the reflexive pronoun that fits:",
         13: "Complete the following sentence with the pronoun that fits:",
         14: "Complete the following sentence with the pronoun that fits:",
-
         15: "Translate the following pronoun:",
         16: "Complete the following sentence with the pronoun that fits:",
         17: "Find the relative pronoun that fits the case and gender provided:",
@@ -240,7 +211,6 @@ INSTRUCTION_EXERCISE_EN = {
         21: "Complete the following sentence with the genitive relative pronoun that fits:",
         22: "Complete the following sentence with the relative pronoun that fits:",
         23: "Complete the following sentence with the relative pronoun that fits:",
-
         24: "Translate the following pronoun:",
         25: "Complete the following sentence with the pronoun that fits:",
         26: "Translate the following pronoun:",
@@ -248,7 +218,6 @@ INSTRUCTION_EXERCISE_EN = {
         28: "Complete the following sentence with the relative pronoun that fits:",
         29: "Complete the following sentence with the relative pronoun that fits:",
         30: "Complete the following sentence with the relative pronoun that fits – there may be more than one option:",
-
         31: "Translate the following pronoun:",
         32: "Complete the following sentence with the pronoun that fits:",
         33: "Provide the translation of the possessive pronoun that fits the case and gender provided:",
@@ -257,13 +226,11 @@ INSTRUCTION_EXERCISE_EN = {
         36: "Complete the following sentence with the possessive pronoun that fits:",
         37: "Complete the following sentence with the relative pronoun that fits:",
         38: "Complete the following sentence with the pronoun that fits:",
-
         39: "Translate the following pronoun in <i>die ...</i>:",
         40: "Complete the following sentence with the pronoun in <i>die ...</i> that fits:",
         41: "Translate the following pronoun:",
         42: "Complete the following sentence with the pronoun that fits:",
     },
-
     komparativ_superlativ: {
         1: "Write the comparative of the following adjective:",
         2: "Write the comparative of the following adjective:",
@@ -271,7 +238,6 @@ INSTRUCTION_EXERCISE_EN = {
         4: "Write the superlative of the following adjective:",
         5: "Write the superlative of the following adjective:",
         6: "Write the superlative of the following adjective:",
-
         7: "Write the comparative of the following adjective:",
         8: "Write the comparative of the following adjective:",
         9: "Write the comparative of the following adjective:",
@@ -279,7 +245,6 @@ INSTRUCTION_EXERCISE_EN = {
         11: "Write the superlative of the following adjective:",
         12: "Write the superlative of the following adjective:",
     },
-
     adjektivdeklinationen: {
         1: "Complete the phrase with the correct form of the specified adjective:",
         2: "Complete the sentence with the correct form of the specified adjective:",
@@ -295,7 +260,6 @@ INSTRUCTION_EXERCISE_EN = {
         12: "Complete the sentence with the correct form of the specified adjective:",
         13: "Complete the sentence with the correct form of the specified adjective:",
         14: "Complete the sentence with the correct form of the specified adjective:",
-
         15: "Complete the phrase with the correct form of the specified adjective:",
         16: "Complete the sentence with the correct form of the specified adjective:",
         17: "Complete the phrase with the correct form of the specified adjective:",
@@ -304,29 +268,24 @@ INSTRUCTION_EXERCISE_EN = {
         20: "Complete the sentence with the correct comparative form of the specified adjective:",
         21: "Complete the phrase with the correct superlative form of the specified adjective:",
         22: "Complete the sentence with the correct superlative form of the specified adjective:",
-
         23: "Complete the phrase with the correct form of the specified adjective:",
         24: "Complete the sentence with the correct form of the specified adjective:",
         25: "Complete the phrase with the correct form of the specified adjective:",
         26: "Complete the sentence with the correct form of the specified adjective:",
         27: "Complete the phrase with the correct form of the specified adjective:",
         28: "Complete the sentence with the correct form of the specified adjective:",
-
         29: "Complete the phrase with the correct form of the specified adjective:",
         30: "Complete the sentence with the correct form of the specified adjective:",
         31: "Complete the phrase with the correct form of the specified adjective:",
         32: "Complete the sentence with the correct form of the specified adjective:",
     },
-
     trennbare_verben: {
         1: "Translate the following (in)separable verb based on the specified base verb:",
         2: "Translate the following (in)separable verb based on the specified prefix:",
         3: "Translate the following (in)separable verb:",
-
         4: "Translate the following (in)separable verb based on the specified base verb:",
         5: "Translate the following (in)separable verb based on the specified prefix:",
         6: "Translate the following (in)separable verb:",
-
         7: "Translate the following (in)separable verb based on the specified base verb:",
         8: "Translate the following (in)separable verb based on the specified base verb:",
         9: "Translate the following (in)separable verb based on the specified base verb:",
@@ -339,7 +298,6 @@ INSTRUCTION_EXERCISE_EN = {
         16: "Translate the following (in)separable verb:",
         17: "Translate the following (in)separable verb:",
         18: "Translate the following (in)separable verb:",
-
         19: "Translate the following (in)separable verb based on the specified base verb:",
         20: "Translate the following (in)separable verb based on the specified base verb:",
         21: "Translate the following (in)separable verb based on the specified base verb:",
@@ -358,7 +316,6 @@ INSTRUCTION_EXERCISE_EN = {
         34: "Translate the following (in)separable verb:",
         35: "Translate the following (in)separable verb:",
         36: "Translate the following (in)separable verb:",
-
         37: "Translate the following (in)separable verb based on the specified base verb:",
         38: "Translate the following (in)separable verb based on the specified base verb:",
         39: "Translate the following (in)separable verb based on the specified base verb:",
@@ -427,13 +384,11 @@ INSTRUCTION_EXERCISE_EN = {
         102: "Translate the following (in)separable verb:",
         103: "Translate the following (in)separable verb:",
     },
-
     nomen_verben_verbindungen: {
         1: "Find the missing noun in the Noun-Verb Combination:",
         2: "Find the missing verb in the Noun-Verb Combination:",
         3: "Find the missing noun in the following sentence:",
         4: "Find the missing verb in the following sentence:",
-
         5: "Find the missing noun in the Noun-Verb Combination:",
         6: "Find the missing verb in the Noun-Verb Combination:",
         7: "Find the missing noun in the following sentence:",
@@ -446,7 +401,6 @@ INSTRUCTION_EXERCISE_EN = {
         14: "Find the missing verb in the Noun-Verb Combination:",
         15: "Find the missing noun in the following sentence:",
         16: "Find the missing verb in the following sentence:",
-
         17: "Find the missing noun in the Noun-Verb Combination:",
         18: "Find the missing verb in the Noun-Verb Combination:",
         19: "Find the missing noun in the following sentence:",
@@ -464,20 +418,17 @@ INSTRUCTION_EXERCISE_EN = {
         31: "Find the missing noun in the following sentence:",
         32: "Find the missing verb in the following sentence:",
     },
-
     adjektive_verben_wortstaemme: {
         1: "Find the missing adjective in the following adjective-verb pair:",
         2: "Find the missing verb in the following adjective-verb pair:",
         3: "Find the missing adjective in the following adjective-verb pair:",
         4: "Find the missing verb in the following adjective-verb pair:",
-
         5: "Find the missing adjective in the following adjective-verb pair:",
         6: "Find the missing verb in the following adjective-verb pair:",
         7: "Find the missing adjective in the following adjective-verb pair:",
         8: "Find the missing verb in the following adjective-verb pair:",
         9: "Find the missing adjective in the following adjective-verb pair:",
         10: "Find the missing verb in the following adjective-verb pair:",
-
         11: "Find the missing adjective in the following adjective-verb pair:",
         12: "Find the missing verb in the following adjective-verb pair:",
         13: "Find the missing adjective in the following adjective-verb pair:",
@@ -489,18 +440,15 @@ INSTRUCTION_EXERCISE_EN = {
         19: "Find the missing adjective in the following adjective-verb pair:",
         20: "Find the missing verb in the following adjective-verb pair:",
     },
-
     adjektive_nomen_wortstaemme: {
         1: "Find the missing adjective in the following adjective-noun pair:",
         2: "Find the missing noun in the following adjective-noun pair:",
         3: "Find the missing adjective in the following adjective-noun pair:",
         4: "Find the missing noun in the following adjective-noun pair:",
-
         5: "Find the missing adjective in the following adjective-noun pair:",
         6: "Find the missing noun in the following adjective-noun pair:",
         7: "Find the missing adjective in the following adjective-noun pair:",
         8: "Find the missing noun in the following adjective-noun pair:",
-
         9: "Find the missing adjective in the following adjective-noun pair:",
         10: "Find the missing noun in the following adjective-noun pair:",
         11: "Find the missing adjective in the following adjective-noun pair:",
@@ -512,18 +460,15 @@ INSTRUCTION_EXERCISE_EN = {
         17: "Find the missing adjective in the following adjective-noun pair:",
         18: "Find the missing noun in the following adjective-noun pair:",
     },
-
     nomen_verben_wortstaemme: {
         1: "Find the missing verb in the following noun-verb pair:",
         2: "Find the missing noun in the following noun-verb pair:",
-
         3: "Find the missing verb in the following noun-verb pair:",
         4: "Find the missing noun in the following noun-verb pair:",
         5: "Find the missing verb in the following noun-verb pair:",
         6: "Find the missing noun in the following noun-verb pair:",
         7: "Find the missing verb in the following noun-verb pair:",
         8: "Find the missing noun in the following noun-verb pair:",
-
         9: "Find the missing verb in the following noun-verb pair:",
         10: "Find the missing noun in the following noun-verb pair:",
         11: "Find the missing verb in the following noun-verb pair:",
@@ -544,7 +489,6 @@ INSTRUCTION_EXERCISE_EN = {
         26: "Find the missing noun in the following noun-verb pair:",
         27: "Find the missing verb in the following noun-verb pair:",
         28: "Find the missing noun in the following noun-verb pair:",
-
         29: "Find the missing verb in the following noun-verb pair:",
         30: "Find the missing noun in the following noun-verb pair:",
         31: "Find the missing verb in the following noun-verb pair:",
@@ -575,7 +519,6 @@ INSTRUCTION_EXERCISE_EN = {
         56: "Find the missing noun in the following noun-verb pair:",
         57: "Find the missing verb in the following noun-verb pair:",
         58: "Find the missing noun in the following noun-verb pair:",
-
         59: "Find the missing verb in the following noun-verb pair:",
         60: "Find the missing noun in the following noun-verb pair:",
         61: "Find the missing verb in the following noun-verb pair:",
@@ -611,7 +554,6 @@ INSTRUCTION_EXERCISE_EN = {
         91: "Find the missing verb in the following noun-verb pair:",
         92: "Find the missing noun in the following noun-verb pair:",
     },
-
     zahlen: {
         1: "Write the following number in words:",
         2: "Write the following number in words:",
@@ -623,22 +565,18 @@ INSTRUCTION_EXERCISE_EN = {
         8: "Write the following number in words:",
         9: "Write the following time in words:",
         10: "Write the following time in digital format:",
-
         11: "Write the following number in words:",
         12: "Write the following number in words:",
         13: "Translate the following ordinal number:",
         14: "Translate the following ordinal number:",
         15: "Translate the following ordinal number:",
         16: "Complete the following sentence with the ordinal number that fits:",
-
         17: "Translate the following sequential adverb:",
         18: "Complete the following sentence with the sequential adverb that fits:",
         19: "Translate the following adverb of frequency:",
         20: "Complete the following sentence with the adverb of frequency that fits:",
-
         21: "Translate the following fraction:",
         22: "Complete the following sentence with the fraction that fits:",
-
         23: "Write the genitive form of the following number in words:",
         24: "Complete the following sentence with the genitive form of the number that fits:",
     },
