@@ -45,6 +45,20 @@ from webapp.i18n import get_language
 
 session = cast(dict, session)
 
+MAX_ANSWER_LENGTH = 10000
+
+
+def validate_and_sanitize_answer(answer, max_length=MAX_ANSWER_LENGTH):
+    """Validate and sanitize user-submitted exercise answers."""
+    if not isinstance(answer, str):
+        abort(400, 'Invalid answer format')
+    if len(answer) > max_length:
+        abort(413, f'Answer exceeds maximum length of {max_length} characters')
+    # Remove null bytes that could cause issues
+    answer = answer.replace('\x00', '')
+    return answer.strip()
+
+
 REMOVED_UNIT_REDIRECTS = {
     "genus_routledge": "genus",
     "genus_goethe": "genus",
@@ -223,7 +237,7 @@ def check_answer(unit, exercise):
     if request.method == 'GET':
         return redirect(url_for('routes.exercise_page', unit=unit, exercise=exercise))
 
-    user_answer = request.form.get('answer', '')
+    user_answer = validate_and_sanitize_answer(request.form.get('answer', ''))
     question_id = request.form.get('nr')
 
     # Validate question_id
@@ -464,7 +478,7 @@ def toggle_bookmark():
     exercise = int(request.form["exercise"])
     level = request.form["level"]
     result = request.form["result"]
-    user_answer = request.form.get("user_answer") or ""
+    user_answer = validate_and_sanitize_answer(request.form.get("user_answer") or "")
     feedback_message = request.form["feedback_message"]
 
     bookmark = Bookmark.query.filter_by(
