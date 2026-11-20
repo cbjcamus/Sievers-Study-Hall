@@ -1,5 +1,6 @@
 import random
 import string
+import json
 
 from data.content.application.text import CEFR_LEVEL
 from data.data_processing.units import konnektoren, adverbien, fragen, verben, trennbare_verben, adjektive, \
@@ -530,11 +531,14 @@ def format_prompt(unit, exercise, language, question_id, user_answer):
     root_english = question_data.get("root_english", "")
     root_french = question_data.get("root_french", "")
 
+    # Sanitize user answer to prevent prompt injection by JSON-encoding it
+    sanitized_user_answer = json.dumps(str(user_answer), ensure_ascii=False)
+
     prompt_template = get_template(unit, exercise, language, PROMPT)
 
     formatted_prompt = prompt_template.format(
         question=question_text,
-        user_answer=user_answer,
+        user_answer=sanitized_user_answer,
         german=german,
         english=english,
         french=french,
