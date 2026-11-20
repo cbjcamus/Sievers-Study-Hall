@@ -220,8 +220,6 @@ def progress():
 
     lowest_score_exercises = get_lowest_scored_exercises()
 
-    print(UNIT_NAME[language])
-
     return render_template(
         page[language],
         unit_name=UNIT_NAME[language],

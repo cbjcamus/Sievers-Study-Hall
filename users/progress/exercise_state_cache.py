@@ -29,3 +29,20 @@ def get_user_exercise_states(user_id):
         g._exercise_state_cache = cache
 
     return cache["states"]
+
+
+def get_user_exercise_state(user_id, unit, exercise):
+    """
+    Returns a single UserExerciseState row, using the per-request cache first.
+
+    Falls back to a direct query on a cache miss so rows created earlier in the
+    same request (after the cache was filled) are still found.
+    """
+    row = get_user_exercise_states(user_id).get((unit, exercise))
+
+    if row is None:
+        row = UserExerciseState.query.filter_by(
+            user_id=user_id, unit=unit, exercise=exercise
+        ).first()
+
+    return row
