@@ -6,9 +6,9 @@ from sqlalchemy.dialects.sqlite import insert
 from data.data_processing.exercises import get_exercises_by_level, df_exercises
 from data.data_processing.total_questions import total_question_exercises, highest_exercise_per_unit
 
-from users.users.models import db, UserExerciseState, UserUnitHomeProgress
+from users.users.models import db, UserUnitHomeProgress
 from users.progress.is_exercise_finished import is_exercise_finished
-from users.progress.exercise_state_cache import get_user_exercise_states
+from users.progress.exercise_state_cache import get_user_exercise_states, get_user_exercise_state
 from users.session_management.verification_session import is_key_in_exercise
 
 
@@ -184,9 +184,7 @@ def compute_answered_questions_exercise(session, unit, exercise):
 
     # DB-first path for authenticated users
     if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id, unit=unit, exercise=ex_int
-        ).first()
+        row = get_user_exercise_state(current_user.id, unit, ex_int)
         if not row or not row.state:
             return 0
 
@@ -275,10 +273,7 @@ def get_fraction_exercises_finished_by_level(session, level):
     total = len(df_level)
     done = 0
 
-    for _, row in df_level.iterrows():
-        unit = row["unit"]
-        exercise = row["exercise"]
-
+    for unit, exercise in zip(df_level["unit"], df_level["exercise"]):
         if is_exercise_completed(unit, exercise, session):
             done += 1
 
@@ -295,10 +290,7 @@ def get_random_unit_and_lowest_unfinished_exercise(session, level):
 
     unfinished_rows = []
 
-    for _, row in df_level.iterrows():
-        unit = row["unit"]
-        exercise = row["exercise"]
-
+    for unit, exercise in zip(df_level["unit"], df_level["exercise"]):
         if not is_exercise_completed(unit, exercise, session):
             unfinished_rows.append((unit, exercise))
 
@@ -326,10 +318,7 @@ def get_unfinished_exercises(session, df=df_exercises):
 
     unfinished = []
 
-    for _, row in df.iterrows():
-        unit = row["unit"]
-        exercise = row["exercise"]
-
+    for unit, exercise in zip(df["unit"], df["exercise"]):
         if not is_exercise_completed(unit, exercise, session) and is_exercise_started(session, unit, exercise):
             unfinished.append((unit, exercise))
 

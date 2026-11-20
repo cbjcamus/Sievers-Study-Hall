@@ -2,8 +2,7 @@ from flask_login import current_user
 
 from data.data_processing.total_questions import highest_exercise_per_unit, total_question_exercises
 
-from users.users.models import UserExerciseState
-from users.progress.exercise_state_cache import get_user_exercise_states
+from users.progress.exercise_state_cache import get_user_exercise_states, get_user_exercise_state
 from users.session_management.verification_session import is_key_in_exercise, init_session_key
 
 
@@ -110,9 +109,7 @@ def compute_score_exercise(session, unit, exercise):
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
 
     if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id, unit=unit, exercise=ex_int
-        ).first()
+        row = get_user_exercise_state(current_user.id, unit, ex_int)
         if not row or not (row.state or {}):
             return None
 
@@ -195,9 +192,7 @@ def compute_trues_and_falses(session, unit, exercise):
     ex_int = int(exercise) if not isinstance(exercise, int) else exercise
 
     if current_user.is_authenticated:
-        row = UserExerciseState.query.filter_by(
-            user_id=current_user.id, unit=unit, exercise=ex_int
-        ).first()
+        row = get_user_exercise_state(current_user.id, unit, ex_int)
         if not row or not row.state:
             return 0, 0
 
