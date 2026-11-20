@@ -2,5 +2,33 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "rangeStrategy": "auto",
+  "python": {
+    "rangeStrategy": "pin"
+  },
+  "packageRules": [
+    {
+      "description": "Auto-merge Python patches after 2 weeks",
+      "matchUpdateTypes": ["patch"],
+      "matchPackagePatterns": ["python"],
+      "stabilityDays": 14,
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash"
+    },
+    {
+      "description": "Auto-merge Python minor versions after 2 weeks",
+      "matchUpdateTypes": ["minor"],
+      "matchPackagePatterns": ["python"],
+      "stabilityDays": 14,
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash"
+    },
+    {
+      "description": "Use exact versions for all requirements",
+      "rangeStrategy": "pin"
+    }
   ]
 }
