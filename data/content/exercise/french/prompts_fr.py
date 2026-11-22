@@ -165,6 +165,118 @@ Commentary should be in French. You write using the passive voice.
 Use line breaks (<br><br>) to add some clarity if necessary.
 """
 
+prompt_artikel = """
+You are evaluating a focused German article exercise.
+
+Target article: {german} – {case_french} {gender_french}
+
+User sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target article correctly used in the clause or phrase containing it?
+Consider only errors relevant to the use of the target article. If the word order is wrong, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as verb conjugation, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in French.
+
+cefr_level:
+An estimation of the CEFR level (A1, A2 etc.) of the user's sentence. Write "none" if not applicable.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target article.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in French. You write using the passive voice. You can be cheeky.
+Use line breaks (<br><br>) to add some clarity if necessary.
+"""
+
+
+prompt_pronomen = """
+You are evaluating a focused German pronoun exercise.
+
+Target pronoun: {german} – {case_french} {gender_french}
+
+User sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target pronoun correctly used in the clause or phrase containing it?
+Consider only errors relevant to the use of the target pronoun. If the word order is wrong, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as verb conjugation, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in French.
+
+cefr_level:
+An estimation of the CEFR level (A1, A2 etc.) of the user's sentence. Write "none" if not applicable.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target pronoun.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in French. You write using the passive voice. You can be cheeky.
+Use line breaks (<br><br>) to add some clarity if necessary.
+"""
+
+prompt_pronomen_relative = """
+You are evaluating a focused German relative pronoun exercise.
+
+Target relative pronoun: {german} – {case_french} {gender_french}
+
+User sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target relative pronoun correctly used in the clause or phrase containing it?
+Consider only errors relevant to the use of the target relative pronoun.
+ If the word order is wrong, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as verb conjugation, typos in other words, commas) must not affect this field.
+The relative pronoun must be relative. If the relative pronoun isn't used, or only as a non-relative pronoun, 
+then the inquiry is incorrect.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in French.
+
+cefr_level:
+An estimation of the CEFR level (A1, A2 etc.) of the user's sentence. Write "none" if not applicable.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target pronoun.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in French. You write using the passive voice. You can be cheeky.
+Use line breaks (<br><br>) to add some clarity if necessary.
+"""
+
 prompt_konnektoren = """
 You are evaluating a focused German connector exercise.
 
@@ -309,6 +421,44 @@ Commentary should be in French. You write using the passive voice.
 Use line breaks (<br><br>) to add some clarity if necessary.
 """
 
+prompt_nomen_verben_verbindungen = """
+You are evaluating a focused German noun-verb combination exercise.
+
+Target noun-verb combination: {german} (French: {french})
+
+User sentence:
+"{user_answer}"
+
+Evaluate each field independently.
+
+inquiry_correct:
+Is the target noun-verb combination correctly used in the sentence or couple of sentences containing it?
+Consider only errors relevant to the use of the target noun-verb combination.
+If the word order is wrong at the level of the verb, then the inquiry is incorrect.
+Unrelated grammatical errors elsewhere (such as declensions, articles, typos in other words, commas) must not affect this field.
+
+meaning_coherent:
+Is the intended meaning of the entire sentence understandable and logically coherent?
+If the sentence is odd or contradictory, then "no".
+Grammatical mistakes do not make the meaning incoherent if the intended meaning is clear.
+
+translation:
+The user's sentence's translation in French.
+
+cefr_level:
+An estimation of the CEFR level (A1, A2 etc.) of the User's sentence. Write "none" if not applicable.
+
+commentary:
+If the inquiry is incorrect, explain why it's incorrect.
+If the meaning is incoherent, explain why.
+Identify grammatical or spelling errors that are unrelated to the correct use of the target noun-verb combination.
+Give a brief correction for grammatical and spelling mistakes. 
+If there are none, return "none".
+Commentary should be in French. You write using the passive voice.
+Use line breaks (<br><br>) to add some clarity if necessary.
+"""
+
+
 prompt_adjektive = """
 You are evaluating a focused German adjective exercise.
 
@@ -400,6 +550,14 @@ PROMPT_SUBCATEGORY_FR = {
         prompt: prompt_praepositionen_verben,
     },
 
+    artikel: {
+        prompt: prompt_artikel,
+    },
+
+    pronomen: {
+        prompt: prompt_pronomen,
+    },
+
     konnektoren: {
         prompt: prompt_konnektoren,
     },
@@ -416,6 +574,10 @@ PROMPT_SUBCATEGORY_FR = {
         prompt: prompt_verben,
     },
 
+    nomen_verben_verbindungen: {
+        prompt: prompt_nomen_verben_verbindungen,
+    },
+
     adjektive: {
         prompt: prompt_adjektive,
     },
@@ -429,6 +591,10 @@ PROMPT_EXERCISE_FR = {
     pronominaladverbien: {
         5: prompt_pronominaladverbien_dawort,
         7: prompt_pronominaladverbien_wowort,
+    },
+
+    pronomen: {
+        24: prompt_pronomen_relative,
     },
 
 }

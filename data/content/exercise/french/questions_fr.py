@@ -32,10 +32,6 @@ QUESTION_UNIT_FR = {
         "{question}"
         "<br><br><i>{french}</i>",
 
-    nomen_verben_verbindungen:
-        "{question}"
-        "<br><br><i>{french}</i>",
-
     praesens:
         "{german} \u25CF {person} _____"
         "<br><br><i>{french}</i>",
@@ -149,6 +145,27 @@ QUESTION_SUBCATEGORY_FR = {
             "{german}",
     },
 
+    artikel: {
+        isolation:
+            "{german} \u25CF {gender_french}, {case_french}",
+        context:
+            "{question}"
+            "<br><br><i>{french}</i>",
+        prompt:
+            "{article} \u25CF {gender_french}, {case_french}",
+    },
+
+    pronomen: {
+        isolation:
+            "{french}",
+        context:
+            "{question}"
+            "<br><br><i>{french}</i>",
+        prompt:
+            "{german}"
+            "<br><br><i>{french}</i>",
+    },
+
     konnektoren: {
         isolation:
             "{french} \u25CF {case_french}",
@@ -198,6 +215,18 @@ QUESTION_SUBCATEGORY_FR = {
             "<br><br><i>{french}</i>",
     },
 
+    nomen_verben_verbindungen: {
+        isolation:
+            "{question}"
+            "<br><br><i>{french}</i>",
+        context:
+            "{question}"
+            "<br><br><i>{french}</i>",
+        prompt:
+            "{german}"
+            "<br><br><i>{french}</i>",
+    },
+
     adjektive: {
         isolation:
             "{french}",
@@ -223,176 +252,77 @@ QUESTION_CATEGORY_FR = {
 
 QUESTION_EXERCISE_FR = {
     artikel: {
-        1: "{german} \u25CF {gender_french}, {case_french}",
-        2: "{question}"
+        1: "{german} \u25CF {gender_french} \u25CF {case_french}",
+        2: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        3: "{question}"
+        3: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        4: "{question}"
+        4: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        5: "{question}"
+        5: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        6: "{question}"
+        6: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        7: "{question}"
+        7: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        8: "{question}"
+        8: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        9: "{question}"
+        9: "{question} \u25CF {gender_french} \u25CF {case_french}"
            "<br><br><i>{french}</i>",
-        10: "{question}"
+        10: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        11: "{question}"
+        11: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        12: "{german} \u25CF {gender_french}, {case_french}",
-        13: "{question}"
+        13: "{german} \u25CF {gender_french} \u25CF {case_french}",
+        14: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        14: "{question}"
+        15: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        15: "{question}"
+        16: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        16: "{question}"
+        17: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        17: "{question}"
+        18: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        18: "{question}"
+        19: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        19: "{question}"
+        20: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
-        20: "{question}"
-            "<br><br><i>{french}</i>",
-        21: "{german} \u25CF {gender_french}, {case_french}",
-        22: "{question}"
-            "<br><br><i>{french}</i>",
-        23: "{german} \u25CF {gender_french}, {case_french}",
-        24: "{question}"
-            "<br><br><i>{french}</i>",
-        25: "{german} \u25CF {gender_french}, {case_french}",
-        26: "{question}"
+        21: "{question} \u25CF {gender_french} \u25CF {case_french}"
             "<br><br><i>{french}</i>",
 
-        27: "{german} \u25CF {gender_french}, {case_french}",
-        28: "{question}"
-            "<br><br><i>{french}</i>",
-        29: "{german} \u25CF {gender_french}, {case_french}",
-        30: "{question}"
-            "<br><br><i>{french}</i>",
-        31: "{french}",
-        32: "{question}"
+        28: "{german} \u25CF {case_french}",
+        31: "{german} \u25CF {case_french}",
+
+        38: "{french}",
+        40: "{german_wiktionary}"
             "<br><br><i>{french}</i>",
 
-        33: "{german} \u25CF {gender_french}, {case_french}",
-        34: "{question}"
+        48: "{question} \u25CF {article}"
             "<br><br><i>{french}</i>",
-        35: "{german} \u25CF {gender_french}, {case_french}",
-        36: "{question}"
+        49: "{question} (<i>{french}</i>)",
+
+        53: "{german} \u25CF {gender_french}, {case_french}"
             "<br><br><i>{french}</i>",
-        37: "{german} \u25CF {gender_french}, {case_french}",
-        38: "{question} \u25CF {person}" 
+        55: "{german} \u25CF {gender_french}, {case_french}"
             "<br><br><i>{french}</i>",
 
-        39: "{german} \u25CF {gender_french}, {case_french}",
-        40: "{question}"
-            "<br><br><i>{french}</i>",
-
-        41: "{french} \u25CF {gender_french}",
-        42: "{question}"
-            "<br><br><i>{french}</i>",
-        43: "{question}"
+        58: "{question}"
             "<br><br><i>{french}</i>"
-            "<br><br>Article : {person}",
-        44: "{question}"
+            "<br><br>Article : {article}",
+        59: "{question}"
             "<br><br><i>{french}</i>"
-            "<br><br>Article : {person}",
-
-        45: "{german} \u25CF {gender_french}, {case_french}",
-        46: "{question}"
-            "<br><br><i>{french}</i>",
-        47: "{german} \u25CF {gender_french}, {case_french}",
-        48: "{question}"
-            "<br><br><i>{french}</i>",
-        49: "{german} \u25CF {gender_french}, {case_french}",
-        50: "{question}"
-            "<br><br><i>{french}</i>",
+            "<br><br>Article : {article}",
     },
 
     pronomen: {
-        1: "{french}",
-        2: "{question}"
-           "<br><br><i>{french}</i>",
-        3: "{french}",
-        4: "{question}"
-           "<br><br><i>{french}</i>",
-        5: "{french}",
-        6: "{question}"
-           "<br><br><i>{french}</i>",
-        7: "{question}"
-           "<br><br><i>{french}</i>",
-        8: "{question}"
-           "<br><br><i>{french}</i>",
-        9: "{question} \u25CF {person}"
-           "<br><br><i>{french}</i>",
-        10: "{question} \u25CF {person}"
-            "<br><br><i>{french}</i>",
+        12: "{french} \u25CF {case_french}",
 
-        11: "{french} \u25CF {case_french}",
-        12: "{question}"
-            "<br><br><i>{french}</i>",
-        13: "{question}"
-            "<br><br><i>{french}</i>",
-        14: "{question}"
-            "<br><br><i>{french}</i>",
+        19: "{gender_french} \u25CF {case_french}",
 
-        15: "{french}",
-        16: "{question}"
-            "<br><br><i>{french}</i>",
-        17: "{gender_french} \u25CF {case_french}",
-        18: "{question}"
-            "<br><br><i>{french}</i>",
-        19: "{question}"
-            "<br><br><i>{french}</i>",
-        20: "{question}"
-            "<br><br><i>{french}</i>",
-        21: "{question}"
-            "<br><br><i>{french}</i>",
-        22: "{question}"
-            "<br><br><i>{french}</i>",
-        23: "{question}"
-            "<br><br><i>{french}</i>",
-
-        24: "{french}",
-        25: "{question}"
-            "<br><br><i>{french}</i>",
-        26: "{french} \u25CF {case_french}",
-        27: "{question}"
-            "<br><br><i>{french}</i>",
-        28: "{question}"
-            "<br><br><i>{french}</i>",
-        29: "{question}"
-            "<br><br><i>{french}</i>",
-        30: "{question}"
-            "<br><br><i>{french}</i>",
-
-        31: "{french} \u25CF {case_french}, {gender_french}",
-        32: "{question}"
-            "<br><br><i>{french}</i>",
-        33: "{german} \u25CF {gender_french}, {case_french}",
-        34: "{question}"
-            "<br><br><i>{french}</i>",
-        35: "{german} \u25CF {gender_french}, {case_french}",
-        36: "{question}"
-            "<br><br><i>{french}</i>",
-        37: "{question}"
-            "<br><br><i>{french}</i>",
-        38: "{question}"
-            "<br><br><i>{french}</i>",
-
-        39: "{french}",
-        40: "{question}"
-            "<br><br><i>{french}</i>",
-        41: "{french}",
-        42: "{question}"
-            "<br><br><i>{french}</i>",
+        35: "{french} \u25CF {case_french}, {gender_french}",
+        37: "{french} \u25CF {case_french}, {gender_french}",
+        39: "{french} \u25CF {case_french}, {gender_french}",
     },
 
     trennbare_verben: {

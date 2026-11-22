@@ -566,7 +566,7 @@ guidance_pronominaladverbien_wowort_prompt = (
 guidance_artikel_isolation = (
     "Pour chaque question, un article en allemand, ainsi qu'un genre et un cas seront présentés."
 
-    "<br><br>Donnez l'article correspondant au genre et au cas."
+    "<br><br>Écrivez l'article correspondant au genre et au cas."
     
     "<h2>Exemple</h2>"
     "der/die/das \u25CF Féminin, Nominatif"
@@ -585,9 +585,46 @@ guidance_artikel_sentences = (
     f"<br><br> &nbsp; {ICON_CHECK} Die"
 )
 
+guidance_artikel_prompt = (
+    "Pour chaque question, un article en allemand vous sera fourni."
+    "<br><br>Rédigez une ou deux phrases en allemand en utilisant cet article."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} L'article allemand doit être décliné correctement."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les fautes d'orthographe sur les noms ou"
+    f" les erreurs de conjugaison, sont acceptables tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"der/die/das \u25CF Nominatif, Masculin"
+    f"<br><br> &nbsp; {ICON_CHECK} Der Mann steht seit zwei Stunden dort."
+    f"<br><br> &nbsp; {ICON_CROSS} Seit zwei Stunden der Mann steht  dort. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Der Mann stehst seit zwei Stunden dort. (Erreur de conjugaison acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich sehe der Mann dort. (Cas incorrect)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich sehe den Mann dort. (Cas incorrect)"
+)
+
+guidance_artikel_translation = (
+    "Pour chaque question, la traduction en anglais d'un article allemand vous sera fournie."
+    "<br><br>Trouvez l'article en allemand qui correspond à cette traduction."
+
+    f"<br><br> {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses correctes."
+    f"<br><br> {ICON_WARN} N'écrivez pas plus d'une réponse, sinon votre réponse sera considérée comme incorrecte."
+
+    "<h2>Exemple</h2>"
+    "beaucoup de (indénombrable)"
+    f"<br><br> &nbsp; {ICON_CHECK} viel"
+    f"<br><br> &nbsp; {ICON_CROSS} viele"
+)
+
 guidance_pronomen_isolation = (
-    "Pour chaque question, un pronom ainsi qu'un cas grammatical seront présentés."
-    "<br><br>Donnez le pronom allemand correspondant au cas grammatical."
+    "Pour chaque question, une personne grammaticale sera indiquée."
+    " Écrivez le pronom allemand correspondant au cas demandé."
 
     "<h2>Exemple</h2>"
     "1re personne du singulier \u25CF Nominatif"
@@ -605,16 +642,46 @@ guidance_pronomen_sentences = (
     f"<br><br> &nbsp; {ICON_CHECK} ich"
 )
 
-guidance_pronomen_replacing = (
-    "Pour chaque question, une phrase en allemand, sa traduction française et un objet seront présentés."
-    "<br><br>Remplacez l'objet avec le pronom qui convient, en tenant compte du cas grammatical (et du genre, le cas échéant)."
+guidance_pronomen_prompt = (
+    "Pour chaque question, un pronom allemand vous sera fourni."
+    "<br><br>Rédigez une ou deux phrases en allemand en utilisant ce pronom."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Le pronom allemand doit être décliné correctement."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les fautes d'orthographe sur les noms ou"
+    f" les erreurs de conjugaison, sont acceptables tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
 
     "<h2>Exemple</h2>"
-    "Wir besuchen die Schule jeden Tag. \u25CF die Schule"
-    "<br><br><i>Nous visitons l'école tous les jours.</i>"
-    f"<br><br> &nbsp; {ICON_CHECK} sie"
-    f"<br><br> &nbsp; {ICON_CROSS} es"
-    f"<br><br> &nbsp; {ICON_CROSS} ihr"
+    f"Mich"
+    f"<br><br><i>1ère personne du singulier \u25CF Accusatif</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Du kannst mich morgen anrufen."
+    f"<br><br> &nbsp; {ICON_CROSS} Morgen Du kannst mich anrufen. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Du kann mich morgen anrufen. (Erreur de conjugaison acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Du kann mich morgen helfen. (Cas incorrect)"
+)
+
+guidance_prompt_translation = (
+    "Pour chaque question, la traduction en français d'un pronom allemand sera fournie."
+    "<br><br>Trouvez le pronom allemand qui correspond à cette traduction."
+
+    f"<br><br> {ICON_WARN} La question peut inclure un cas."
+    f"<br><br> {ICON_WARN} Des synonymes sont disponibles pour cet exercice. Il peut y avoir plusieurs réponses correctes."
+    f"<br><br> {ICON_WARN} N'indiquez pas plus d'une réponse, sinon votre réponse sera considérée comme incorrecte."
+
+    "<h2>Exemples</h2>"
+    "quelque chose"
+    f"<br><br> &nbsp; {ICON_CHECK} etwas"
+    f"<br><br> &nbsp; {ICON_CROSS} nichts"
+
+    "<br><br>personne ● Nominatif"
+    f"<br><br> &nbsp; {ICON_CHECK} niemand"
+    f"<br><br> &nbsp; {ICON_CROSS} niemanden"
 )
 
 guidance_pronomen_relative_isolation = (
@@ -635,6 +702,31 @@ guidance_pronomen_relative_sentences = (
     "Der Mann, _____ hier steht, ist mein Lehrer."
     "<br><br><i>L’homme qui se tient ici est mon professeur.</i>"
     f"<br><br> &nbsp; {ICON_CHECK} der"
+)
+
+guidance_pronomen_relative_prompt = (
+    "Pour chaque question, un pronom relatif allemand sera fourni."
+    "<br><br>Rédigez une ou deux phrases en allemand en utilisant ce pronom relatif."
+
+    f"<br><br> {ICON_WARN} La phrase en allemand doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase en allemand doit être cohérente."
+    f"<br><br> {ICON_WARN} Le pronom relatif allemand doit être correctement décliné."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les fautes d'orthographe sur les noms ou les erreurs"
+    f" de conjugaison, sont acceptables tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} La notation, les corrections et les commentaires sont générés par un grand modèle linguistique (LLM)."
+    f" Les LLM peuvent commettre des erreurs, inventer des faits ou donner des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse exacte, ou votre numéro d’identification."
+    
+    "<h2>Exemple</h2>"
+    f"der \u25CF Nominatif, Masculin"
+    f"<br><br> &nbsp; {ICON_CHECK} Der Mann, der hier steht, ist nicht lustig."
+    f"<br><br> &nbsp; {ICON_CROSS} Der Mann, der steht hier, ist nicht lustig. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Der Man, der hier steht, ist nicht lustig. (Faute d’orthographe acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Der Mann, der ich sehe, ist nicht lustig. (Cas incorrect)"
+    f"<br><br> &nbsp; {ICON_CROSS} Der Mann, den ich sehe, ist nicht lustig. (Cas incorrect)"
+    f"<br><br> &nbsp; {ICON_CROSS} Der Mann dort ist nicht lustig. (<i>der</i> n'est pas utilisé comme pronom relatif)"
 )
 
 guidance_konnektoren_isolation = (
@@ -1022,6 +1114,29 @@ guidance_nomen_verben_verbindungen_verben_sentences = (
     f"<br><br> &nbsp; {ICON_CROSS} machte, unterbreitete"
     f"<br><br> &nbsp; {ICON_CROSS} macht"
     f"<br><br> &nbsp; {ICON_CROSS} machen"
+)
+
+guidance_nomen_verben_verbindungen_prompt = (
+    "Pour chaque question, une combinaison nom-verbe allemandw et sa traduction française seront présentés."
+    "<br><br>Écrivez une phrase en allemand utilisant cette combinaison nom-verbe."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou d'orthographe,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemples</h2>"
+    f"eine Frage stellen"
+    f"<br><br><i>poser une question</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Gestern habe ich dir eine Frage gestellt."
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern ich habe dir eine Frage gestellt. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern habe ich dir eine Frage gestellen. (Verbe mal conjugué)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich habe eine Frage auf den Tisch gestellt. (Phrase incohérente)"
 )
 
 guidance_adjektive_isolation = (
@@ -1447,6 +1562,18 @@ GUIDANCE_SUBCATEGORY_FR = {
         context: guidance_praepositionen_nomen_sentences,
     },
 
+    artikel: {
+        isolation: guidance_artikel_isolation,
+        context: guidance_artikel_sentences,
+        prompt: guidance_artikel_prompt,
+    },
+
+    pronomen: {
+        isolation: guidance_pronomen_isolation,
+        context: guidance_pronomen_sentences,
+        prompt: guidance_pronomen_prompt,
+    },
+
     konnektoren: {
         isolation: guidance_konnektoren_isolation,
         context: guidance_konnektoren_sentences,
@@ -1478,6 +1605,12 @@ GUIDANCE_SUBCATEGORY_FR = {
         synonym: guidance_adjektive_synonym,
         prompt: guidance_adjektive_prompt,
     },
+
+    adjektivdeklinationen: {
+        isolation: guidance_adjektivdeklinationen_isolation,
+        context: guidance_adjektivdeklinationen_sentences,
+    },
+
 }
 
 GUIDANCE_CATEGORY_FR = {
@@ -1500,111 +1633,34 @@ GUIDANCE_EXERCISE_FR = {
     },
 
     artikel: {
-        1: guidance_artikel_isolation,
-        2: guidance_artikel_sentences,
-        3: guidance_artikel_sentences,
-        4: guidance_artikel_sentences,
-        5: guidance_artikel_sentences,
-        6: guidance_artikel_sentences,
-        7: guidance_artikel_sentences,
-        8: guidance_artikel_sentences,
-        9: guidance_artikel_sentences,
-        10: guidance_artikel_sentences,
-        11: guidance_artikel_sentences,
-        12: guidance_artikel_isolation,
-        13: guidance_artikel_sentences,
-        14: guidance_artikel_sentences,
-        15: guidance_artikel_sentences,
-        16: guidance_artikel_sentences,
-        17: guidance_artikel_sentences,
-        18: guidance_artikel_sentences,
-        19: guidance_artikel_sentences,
-        20: guidance_artikel_sentences,
-        21: guidance_artikel_isolation,
-        22: guidance_artikel_sentences,
-        23: guidance_artikel_isolation,
-        24: guidance_artikel_sentences,
-        25: guidance_artikel_isolation,
-        26: guidance_artikel_sentences,
-
-        27: guidance_artikel_isolation,
-        28: guidance_artikel_sentences,
-        29: guidance_artikel_isolation,
-        30: guidance_artikel_sentences,
-        31: guidance_artikel_isolation,
-        32: guidance_artikel_sentences,
-
-        33: guidance_artikel_isolation,
-        34: guidance_artikel_sentences,
-        35: guidance_artikel_isolation,
-        36: guidance_artikel_sentences,
-        37: guidance_artikel_isolation,
-        38: guidance_artikel_sentences,
-
-        39: guidance_artikel_isolation,
-        40: guidance_artikel_sentences,
-
-        41: guidance_artikel_isolation,
-        42: guidance_artikel_sentences,
-        43: guidance_artikel_sentences,
-        44: guidance_artikel_sentences,
-
-        45: guidance_artikel_isolation,
-        46: guidance_artikel_sentences,
-        47: guidance_artikel_isolation,
-        48: guidance_artikel_sentences,
-        49: guidance_artikel_isolation,
-        50: guidance_artikel_sentences,
+        38: guidance_artikel_translation,
     },
 
     pronomen: {
-        1: guidance_pronomen_isolation,
-        2: guidance_pronomen_sentences,
-        3: guidance_pronomen_isolation,
-        4: guidance_pronomen_sentences,
-        5: guidance_pronomen_isolation,
-        6: guidance_pronomen_sentences,
-        7: guidance_pronomen_sentences,
-        8: guidance_pronomen_sentences,
-        9: guidance_pronomen_replacing,
-        10: guidance_pronomen_replacing,
-
-        11: guidance_pronomen_isolation,
-        12: guidance_pronomen_sentences,
-        13: guidance_pronomen_sentences,
-        14: guidance_pronomen_sentences,
-
-        15: guidance_pronomen_isolation,
-        16: guidance_pronomen_sentences,
-        17: guidance_pronomen_relative_isolation,
-        18: guidance_pronomen_relative_sentences,
-        19: guidance_pronomen_relative_sentences,
+        16: guidance_prompt_translation,
+        19: guidance_pronomen_relative_isolation,
         20: guidance_pronomen_relative_sentences,
         21: guidance_pronomen_relative_sentences,
         22: guidance_pronomen_relative_sentences,
         23: guidance_pronomen_relative_sentences,
+        24: guidance_pronomen_relative_prompt,
+        25: guidance_pronomen_relative_sentences,
+        26: guidance_pronomen_relative_sentences,
 
-        24: guidance_pronomen_isolation,
-        25: guidance_pronomen_sentences,
-        26: guidance_pronomen_isolation,
-        27: guidance_pronomen_sentences,
-        28: guidance_pronomen_relative_sentences,
-        29: guidance_pronomen_relative_sentences,
-        30: guidance_pronomen_relative_sentences,
+        27: guidance_prompt_translation,
+        30: guidance_prompt_translation,
 
-        31: guidance_pronomen_isolation,
-        32: guidance_pronomen_sentences,
-        33: guidance_pronomen_isolation,
-        34: guidance_pronomen_sentences,
-        35: guidance_pronomen_isolation,
-        36: guidance_pronomen_sentences,
-        37: guidance_pronomen_relative_sentences,
-        38: guidance_pronomen_sentences,
+        32: guidance_pronomen_relative_sentences,
+        33: guidance_pronomen_relative_sentences,
+        34: guidance_pronomen_relative_sentences,
 
-        39: guidance_pronomen_isolation,
-        40: guidance_pronomen_sentences,
-        41: guidance_pronomen_isolation,
-        42: guidance_pronomen_sentences
+        35: guidance_prompt_translation,
+        37: guidance_prompt_translation,
+        39: guidance_prompt_translation,
+
+        41: guidance_pronomen_relative_sentences,
+        43: guidance_prompt_translation,
+        45: guidance_prompt_translation,
     },
 
     komparativ_superlativ: {
@@ -1624,41 +1680,10 @@ GUIDANCE_EXERCISE_FR = {
     },
 
     adjektivdeklinationen: {
-        1: guidance_adjektivdeklinationen_isolation,
-        2: guidance_adjektivdeklinationen_sentences,
-        3: guidance_adjektivdeklinationen_isolation,
-        4: guidance_adjektivdeklinationen_sentences,
-        5: guidance_adjektivdeklinationen_isolation,
-        6: guidance_adjektivdeklinationen_sentences,
-        7: guidance_adjektivdeklinationen_isolation,
-        8: guidance_adjektivdeklinationen_sentences,
-        9: guidance_adjektivdeklinationen_isolation,
-        10: guidance_adjektivdeklinationen_sentences,
-        11: guidance_adjektivdeklinationen_sentences,
-        12: guidance_adjektivdeklinationen_sentences,
-        13: guidance_adjektivdeklinationen_isolation,
-        14: guidance_adjektivdeklinationen_sentences,
-
-        15: guidance_adjektivdeklinationen_isolation,
-        16: guidance_adjektivdeklinationen_sentences,
-        17: guidance_adjektivdeklinationen_isolation,
-        18: guidance_adjektivdeklinationen_sentences,
         19: guidance_adjektivdeklinationen_comparative_isolation,
         20: guidance_adjektivdeklinationen_comparative_sentences,
         21: guidance_adjektivdeklinationen_superlative_isolation,
         22: guidance_adjektivdeklinationen_superlative_sentences,
-
-        23: guidance_adjektivdeklinationen_isolation,
-        24: guidance_adjektivdeklinationen_sentences,
-        25: guidance_adjektivdeklinationen_isolation,
-        26: guidance_adjektivdeklinationen_sentences,
-        27: guidance_adjektivdeklinationen_isolation,
-        28: guidance_adjektivdeklinationen_sentences,
-
-        29: guidance_adjektivdeklinationen_isolation,
-        30: guidance_adjektivdeklinationen_sentences,
-        31: guidance_adjektivdeklinationen_isolation,
-        32: guidance_adjektivdeklinationen_sentences,
     },
 
     adjektive_verben_wortstaemme: {
@@ -1824,36 +1849,44 @@ GUIDANCE_EXERCISE_FR = {
         2: guidance_nomen_verben_verbindungen_verben_isolation,
         3: guidance_nomen_verben_verbindungen_nomen_sentences,
         4: guidance_nomen_verben_verbindungen_verben_sentences,
+        5: guidance_nomen_verben_verbindungen_prompt,
 
-        5: guidance_nomen_verben_verbindungen_nomen_isolation,
-        6: guidance_nomen_verben_verbindungen_verben_isolation,
-        7: guidance_nomen_verben_verbindungen_nomen_sentences,
-        8: guidance_nomen_verben_verbindungen_verben_sentences,
-        9: guidance_nomen_verben_verbindungen_nomen_isolation,
-        10: guidance_nomen_verben_verbindungen_verben_isolation,
-        11: guidance_nomen_verben_verbindungen_nomen_sentences,
-        12: guidance_nomen_verben_verbindungen_verben_sentences,
-        13: guidance_nomen_verben_verbindungen_nomen_isolation,
-        14: guidance_nomen_verben_verbindungen_verben_isolation,
-        15: guidance_nomen_verben_verbindungen_nomen_sentences,
-        16: guidance_nomen_verben_verbindungen_verben_sentences,
+        6: guidance_nomen_verben_verbindungen_nomen_isolation,
+        7: guidance_nomen_verben_verbindungen_verben_isolation,
+        8: guidance_nomen_verben_verbindungen_nomen_sentences,
+        9: guidance_nomen_verben_verbindungen_verben_sentences,
+        10: guidance_nomen_verben_verbindungen_prompt,
+        11: guidance_nomen_verben_verbindungen_nomen_isolation,
+        12: guidance_nomen_verben_verbindungen_verben_isolation,
+        13: guidance_nomen_verben_verbindungen_nomen_sentences,
+        14: guidance_nomen_verben_verbindungen_verben_sentences,
+        15: guidance_nomen_verben_verbindungen_prompt,
+        16: guidance_nomen_verben_verbindungen_nomen_isolation,
+        17: guidance_nomen_verben_verbindungen_verben_isolation,
+        18: guidance_nomen_verben_verbindungen_nomen_sentences,
+        19: guidance_nomen_verben_verbindungen_verben_sentences,
+        20: guidance_nomen_verben_verbindungen_prompt,
 
-        17: guidance_nomen_verben_verbindungen_nomen_isolation,
-        18: guidance_nomen_verben_verbindungen_verben_isolation,
-        19: guidance_nomen_verben_verbindungen_nomen_sentences,
-        20: guidance_nomen_verben_verbindungen_verben_sentences,
         21: guidance_nomen_verben_verbindungen_nomen_isolation,
         22: guidance_nomen_verben_verbindungen_verben_isolation,
         23: guidance_nomen_verben_verbindungen_nomen_sentences,
         24: guidance_nomen_verben_verbindungen_verben_sentences,
-        25: guidance_nomen_verben_verbindungen_nomen_isolation,
-        26: guidance_nomen_verben_verbindungen_verben_isolation,
-        27: guidance_nomen_verben_verbindungen_nomen_sentences,
-        28: guidance_nomen_verben_verbindungen_verben_sentences,
-        29: guidance_nomen_verben_verbindungen_nomen_isolation,
-        30: guidance_nomen_verben_verbindungen_verben_isolation,
-        31: guidance_nomen_verben_verbindungen_nomen_sentences,
-        32: guidance_nomen_verben_verbindungen_verben_sentences,
+        25: guidance_nomen_verben_verbindungen_prompt,
+        26: guidance_nomen_verben_verbindungen_nomen_isolation,
+        27: guidance_nomen_verben_verbindungen_verben_isolation,
+        28: guidance_nomen_verben_verbindungen_nomen_sentences,
+        29: guidance_nomen_verben_verbindungen_verben_sentences,
+        30: guidance_nomen_verben_verbindungen_prompt,
+        31: guidance_nomen_verben_verbindungen_nomen_isolation,
+        32: guidance_nomen_verben_verbindungen_verben_isolation,
+        33: guidance_nomen_verben_verbindungen_nomen_sentences,
+        34: guidance_nomen_verben_verbindungen_verben_sentences,
+        35: guidance_nomen_verben_verbindungen_prompt,
+        36: guidance_nomen_verben_verbindungen_nomen_isolation,
+        37: guidance_nomen_verben_verbindungen_verben_isolation,
+        38: guidance_nomen_verben_verbindungen_nomen_sentences,
+        39: guidance_nomen_verben_verbindungen_verben_sentences,
+        40: guidance_nomen_verben_verbindungen_prompt,
     },
 
     nomen_verben_wortstaemme: {

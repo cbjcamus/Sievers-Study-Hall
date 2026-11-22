@@ -26,9 +26,6 @@ response_format = {
                     "type": "string",
                     "enum": ["yes", "no"]
                 },
-                "german_sentence": {
-                    "type": "string"
-                },
                 "translation": {
                     "type": "string"
                 },
@@ -42,7 +39,6 @@ response_format = {
             "required": [
                 "inquiry_correct",
                 "meaning_coherent",
-                "german_sentence",
                 "translation",
                 "cefr_level",
                 "commentary",

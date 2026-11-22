@@ -14,6 +14,7 @@ from data.data_processing.exercises import (does_unit_exercise_exist, is_exercis
 from data.data_processing.data_loading import load_question_text
 from data.data_processing.total_questions import total_question_exercises
 from users.questions.prompting import get_response_from_prompt
+from users.session_management.email_notifications import send_flag_email
 
 from users.users.models import db, UserExerciseState
 from users.users.settings import (is_feedback_enabled, is_instruction_page_enabled, get_filename_empty_bookmark,
@@ -366,22 +367,49 @@ def reset_exercise(unit, exercise):
         return redirect(url_for('routes.exercise_page', unit=unit, exercise=exercise))
 
 
+from bs4 import BeautifulSoup
+import html
+import re
+
+
 @routes_bp.route('/unit/<unit>/exercise/<int:exercise>', methods=['POST'])
 def flag_question(unit, exercise):
     feedback_message = request.args.get('feedback_message') or request.form.get('feedback_message')
+    feedback_message = clean_html(feedback_message)
     user_answer = request.args.get('user_answer') or request.form.get('user_answer')
     result = request.args.get('result') or request.form.get('result')
     reason = request.form.get('reason')
 
     if current_user.is_authenticated:
         log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason, email=current_user.email)
+        send_flag_email(unit, exercise, feedback_message, user_answer, result, reason, email=current_user.email)
     else:
         log_question_flagged(unit, exercise, feedback_message, user_answer, result, reason)
+        send_flag_email(unit, exercise, feedback_message, user_answer, result, reason)
 
     flash("This answer has been flagged for review."
           "<br><br>Thank you!", "info")
 
     return redirect(request.referrer)
+
+
+def clean_html(text):
+    if not text:
+        return text
+
+    # Replace HTML line breaks with newlines
+    text = re.sub(r'<br\s*/?>', '\n', text, flags=re.IGNORECASE)
+
+    # Remove HTML tags while preserving their content
+    text = BeautifulSoup(text, "html.parser").get_text()
+
+    # Decode HTML entities (&nbsp;, &amp;, etc.)
+    text = html.unescape(text).replace('\xa0', ' ')
+
+    # Remove excessive blank lines
+    text = re.sub(r'\n{3,}', '\n\n', text)
+
+    return text.strip()
 
 
 @routes_bp.route('/set-feedback-toggle', methods=['POST'])
