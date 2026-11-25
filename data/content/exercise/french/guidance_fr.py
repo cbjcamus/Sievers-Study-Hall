@@ -140,25 +140,6 @@ GUIDANCE_UNIT_FR = {
         f"<br><br> &nbsp; {ICON_CHECK} als"
     ,
 
-    praesens:
-        "Pour chaque question, un verbe allemand et un pronom personnel seront présentés."
-        "<br>Conjuguez le verbe au présent pour ce pronom."
-
-        f"<br><br> {ICON_WARN} N’écrivez pas le pronom personnel, sinon votre réponse sera considérée comme incorrecte."
-        f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
-
-        "<h2>Exemples</h2>"
-        "haben \u25CF Ich _____"
-        f"<br><br> &nbsp; {ICON_CHECK} habe"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich habe"
-        f"<br><br> &nbsp; {ICON_CROSS} ich habe"
-
-        "<br><br>sich freuen \u25CF Ich _____"
-        f"<br><br> &nbsp; {ICON_CHECK} freue mich"
-        f"<br><br> &nbsp; {ICON_CROSS} Ich freue mich"
-        f"<br><br> &nbsp; {ICON_CROSS} freue"
-    ,
-
     partizip_II:
         "Pour chaque question, un verbe allemand sera présenté."
         "<br>Indiquez le Partizip II (participe passé) du verbe donné."
@@ -176,25 +157,6 @@ GUIDANCE_UNIT_FR = {
         f"<br><br> &nbsp; {ICON_CHECK} sich gefreut"
         f"<br><br> &nbsp; {ICON_CROSS} gefreute"
         f"<br><br> &nbsp; {ICON_CROSS} hat sich gefreut"
-    ,
-
-    praeteritum:
-        "Pour chaque question, un verbe allemand sera présenté."
-        "<br>Conjuguez le verbe au Präteritum (prétérit) à la personne indiquée."
-
-        f"<br><br> {ICON_WARN} N’écrivez pas le pronom personnel, sinon votre réponse sera considérée comme incorrecte."
-        f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
-
-        "<h2>Exemples</h2>"
-        "erinnern"
-        f"<br><br> &nbsp; {ICON_CHECK} erinnerte"
-        f"<br><br> &nbsp; {ICON_CHECK} erinnerte sich"
-        f"<br><br> &nbsp; {ICON_CROSS} er erinnerte"
-
-        "<br><br>sich freuen"
-        f"<br><br> &nbsp; {ICON_CHECK} freute sich"
-        f"<br><br> &nbsp; {ICON_CROSS} freute"
-        f"<br><br> &nbsp; {ICON_CROSS} er freute sich"
     ,
 
     perfekt:
@@ -1391,6 +1353,94 @@ guidance_adjektive_nomen_wortstaemme_nomen = (
     f"<br><br> &nbsp; {ICON_CHECK} die Richtung"
 )
 
+guidance_praesens_isolation = (
+    "Pour chaque question, un verbe allemand et un pronom personnel seront présentés."
+    "<br>Conjuguez le verbe au présent pour ce pronom."
+    
+    f"<br><br> {ICON_WARN} N'écrivez pas le pronom sujet, sinon votre réponse sera considérée comme incorrecte."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+    
+    "<h2>Exemples</h2>"
+    "haben \u25CF Ich _____"
+    f"<br><br> &nbsp; {ICON_CHECK} habe"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich habe"
+    f"<br><br> &nbsp; {ICON_CROSS} ich habe"
+    
+    "<br><br>sich freuen \u25CF Ich _____"
+    f"<br><br> &nbsp; {ICON_CHECK} freue mich"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich freue mich"
+    f"<br><br> &nbsp; {ICON_CROSS} freue"
+)
+
+guidance_praesens_prompt = (
+    "Pour chaque question, un verbe allemand et sa traduction française seront présentés."
+    "<br><br>Écrivez une ou deux phrases en allemand en utilisant ce verbe au présent."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} La conjugaison doit être correcte."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou de genre des noms communs,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"sehen"
+    f"<br><br><i>voir, se rendre compte</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Oben sehe ich einen Vogel."
+    f"<br><br> &nbsp; {ICON_CROSS} Oben ich sehe einen Vogel. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Oben sehe ich einen Fogel. (Faute d'orthographe acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Sieht du den Vogel? (Conjugaison incorrecte)"
+    f"<br><br> &nbsp; {ICON_CROSS} Ich sehe den Lärm. (Phrase incohérente)"
+)
+
+guidance_praeteritum_isolation = (
+    "Pour chaque question, un verbe allemand sera présenté."
+    "<br>Conjuguez le verbe au Präteritum (prétérit) à la personne indiquée."
+    
+    f"<br><br> {ICON_WARN} N’écrivez pas le pronom personnel sujet, sinon votre réponse sera considérée comme incorrecte."
+    f"<br><br> {ICON_WARN} La réponse peut nécessiter un pronom réfléchi si le verbe est toujours réfléchi."
+    
+    "<h2>Exemples</h2>"
+    "erinnern ● er/sie/es"
+    f"<br><br> &nbsp; {ICON_CHECK} erinnerte"
+    f"<br><br> &nbsp; {ICON_CHECK} erinnerte sich"
+    f"<br><br> &nbsp; {ICON_CROSS} er erinnerte"
+    
+    "<br><br>sich freuen ● er/sie/es"
+    f"<br><br> &nbsp; {ICON_CHECK} freute sich"
+    f"<br><br> &nbsp; {ICON_CROSS} freute"
+    f"<br><br> &nbsp; {ICON_CROSS} er freute sich"
+)
+
+guidance_praeteritum_prompt = (
+    "Pour chaque question, un verbe allemand et sa traduction française seront présentés."
+    "<br><br>Écrivez une ou deux phrases en allemand utilisant ce verbe au prétérit (<i>Präteritum</i>)."
+
+    f"<br><br> {ICON_WARN} La phrase allemande doit respecter l'ordre correct des mots."
+    f"<br><br> {ICON_WARN} La phrase allemande doit être cohérente."
+    f"<br><br> {ICON_WARN} La conjugaison au prétérit doit être correcte."
+    f"<br><br> {ICON_WARN} Les erreurs secondaires, telles que les erreurs de cas ou de genre des noms communs,"
+    f" sont acceptées tant que la phrase reste compréhensible et cohérente."
+    f"<br><br> {ICON_WARN} L'évaluation, les corrections et les retours sont générés par un grand modèle de langage (LLM)."
+    f" Les LLM peuvent faire des erreurs, inventer des informations ou fournir des conseils non vérifiés."
+    f" Veuillez vérifier les informations importantes."
+    f"<br><br> {ICON_WARN} Ne fournissez aucune information personnelle telle que votre nom de famille,"
+    f" votre date de naissance, votre adresse précise ou votre numéro d'identité."
+
+    "<h2>Exemple</h2>"
+    f"sehen"
+    f"<br><br><i>voir, se rendre compte</i>"
+    f"<br><br> &nbsp; {ICON_CHECK} Gestern sah ich dich auf der Party nicht."
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern ich sah dich auf der Party nicht. (Ordre des mots incorrect)"
+    f"<br><br> &nbsp; {ICON_CHECK} Gestern sah ich dir auf der Party nicht. (Erreur de cas acceptable)"
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern sehte ich dich auf der Party nicht. (Conjugaison au prétérit incorrecte)"
+    f"<br><br> &nbsp; {ICON_CROSS} Gestern sah ich nicht die Musik. (Phrase incohérente)"
+)
+
 guidance_zahlen_number = (
     "Pour chaque question, un nombre sera présenté."
     "<br><br>Écrivez ce nombre en toutes lettres en allemand."
@@ -1611,6 +1661,15 @@ GUIDANCE_SUBCATEGORY_FR = {
         context: guidance_adjektivdeklinationen_sentences,
     },
 
+    praesens: {
+        isolation: guidance_praesens_isolation,
+        prompt: guidance_praesens_prompt,
+    },
+
+    praeteritum: {
+        isolation: guidance_praeteritum_isolation,
+        prompt: guidance_praeteritum_prompt,
+    },
 }
 
 GUIDANCE_CATEGORY_FR = {

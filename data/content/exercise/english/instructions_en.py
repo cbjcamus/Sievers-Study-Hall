@@ -24,14 +24,8 @@ INSTRUCTION_UNIT_EN = {
     adjektive_konjunktionen:
         "Complete the following sentence with the word that fits:",
 
-    praesens:
-        "Conjugate the following verb in the present tense:",
-
     partizip_II:
         "Write the past participle (Partizip II) of the following verb:",
-
-    praeteritum:
-        "Conjugate the following verb in the Präteritum:",
 
     perfekt:
         "Write one or two German sentences using the following verb in the perfect:",
@@ -123,6 +117,16 @@ INSTRUCTION_SUBCATEGORY_EN = {
         synonym: "Find a synonym for the following adjective:",
         prompt: "Write one or two German sentences using the following adjective:",
     },
+
+    praesens: {
+        isolation: "Conjugate the following verb in the present tense:",
+        prompt: "Write one or two German sentences using the following verb in the present tense:"
+    },
+
+    praeteritum: {
+        isolation: "Conjugate the following verb in the Präteritum:",
+        prompt: "Write one or two German sentences using the following verb in the simple past (<i>Präteritum</i>) tense:",
+    }
 }
 
 INSTRUCTION_CATEGORY_EN = {

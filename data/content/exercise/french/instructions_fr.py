@@ -24,14 +24,8 @@ INSTRUCTION_UNIT_FR = {
     adjektive_konjunktionen:
         "Complétez la phrase suivante avec le mot qui convient :",
 
-    praesens:
-        "Conjuguez le verbe suivant au présent :",
-
     partizip_II:
         "Donnez le participe passé (Partizip II) du verbe suivant :",
-
-    praeteritum:
-        "Conjuguez le verbe suivant au prétérit (Präteritum) :",
 
     perfekt:
         "Rédigez une ou deux phrases en allemand en utilisant le verbe suivant au passé composé (<i>Perfekt</i>) :",
@@ -123,6 +117,16 @@ INSTRUCTION_SUBCATEGORY_FR = {
         synonym: "Trouvez un synonyme pour l'adjectif suivant :",
         prompt: "Rédigez une ou deux phrases en allemand en utilisant l'adjectif suivant :"
     },
+
+    praesens: {
+        isolation: "Conjuguez le verbe suivant au présent :",
+        prompt: "Rédigez une ou deux phrases en allemand en conjuguant le verbe suivant au présent de l'indicatif :"
+    },
+
+    praeteritum: {
+        isolation: "Conjuguez le verbe suivant au prétérit (Präteritum) :",
+        prompt: "Rédigez une ou deux phrases en allemand en conjuguant le verbe suivant au prétérit (<i>Präteritum</i>) :"
+    }
 }
 
 INSTRUCTION_CATEGORY_FR = {

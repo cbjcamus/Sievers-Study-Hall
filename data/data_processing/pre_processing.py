@@ -1,10 +1,11 @@
 import pandas as pd
 
+from data.data_processing.exercises import is_exercise_input
 from data.data_processing.units import praesens, praeteritum, imperativ, konjunktiv_II, konjunktiv_I
 
 
 def pre_processing(data, unit, exercise):
-    if unit == praesens:
+    if unit == praesens and is_exercise_input(unit, exercise):
         return pre_processing_praesens(data)
 
     elif unit == praeteritum:

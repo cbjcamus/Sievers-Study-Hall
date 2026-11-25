@@ -140,14 +140,14 @@ INTRODUCTION_EN = {
     ,
 
     praesens:
-        "Present tense for each grammatical person."
+        "Conjugation of German verbs in the present tense for all grammatical persons."
     ,
     partizip_II:
         "Past participle used in the Perfekt, Plusquamperfekt, Futur II and passive voice."
         "<br><br>I wrote the first script that later became this website to practice the Partizip II."
     ,
     praeteritum:
-        "Preterit tense."
+        "Simple past (Präteritum)."
         "<br><br>Available for each grammatical person for the most important verbs, "
         "then only the 3<sup>rd</sup>-person singular is required."
     ,

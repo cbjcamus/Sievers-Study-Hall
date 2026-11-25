@@ -49,19 +49,19 @@ response_format = {
 }
 
 model = {
-    'A1': 'openai/gpt-oss-120b',
-    'A2': 'openai/gpt-oss-120b',
-    'B1': 'openai/gpt-oss-120b',
-    'B2': 'openai/gpt-oss-120b',
-    'C1': 'openai/gpt-oss-120b',
-    'C2': 'openai/gpt-oss-120b',
+    'A1': 'openai/gpt-oss-120b:groq',
+    'A2': 'openai/gpt-oss-120b:groq',
+    'B1': 'openai/gpt-oss-120b:groq',
+    'B2': 'openai/gpt-oss-120b:groq',
+    'C1': 'openai/gpt-oss-120b:groq',
+    'C2': 'openai/gpt-oss-120b:groq',
 }
 
 
 def get_response_from_prompt(unit, exercise, prompt):
     client = InferenceClient(
         api_key=os.environ["HF_TOKEN"],
-        provider="groq",
+        base_url="https://router.huggingface.co/v1",
     )
 
     level = get_level_from_exercise(unit, exercise)
@@ -72,7 +72,7 @@ def get_response_from_prompt(unit, exercise, prompt):
             messages=[
                 {
                     "role": "user",
-                    "content": prompt,
+                    "content": prompt + "\nReturn your response in JSON format.",
                 }
             ],
             temperature=temperature,

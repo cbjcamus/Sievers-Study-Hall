@@ -32,16 +32,8 @@ QUESTION_UNIT_FR = {
         "{question}"
         "<br><br><i>{french}</i>",
 
-    praesens:
-        "{german} \u25CF {person} _____"
-        "<br><br><i>{french}</i>",
-
     partizip_II:
         "{german}"
-        "<br><br><i>{french}</i>",
-
-    praeteritum:
-        "{german} \u25CF {person} _____"
         "<br><br><i>{french}</i>",
 
     perfekt:
@@ -242,6 +234,24 @@ QUESTION_SUBCATEGORY_FR = {
             "{question} \u25CF {case_french} \u25CF {adjective}",
         context:
             "{question} \u25CF {adjective}"
+            "<br><br><i>{french}</i>",
+    },
+
+    praesens: {
+        isolation:
+            "{german_wiktionary} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        prompt:
+            "{german_wiktionary}"
+            "<br><br><i>{french}</i>",
+    },
+
+    praeteritum: {
+        isolation:
+            "{german_wiktionary} \u25CF {person} _____"
+            "<br><br><i>{french}</i>",
+        prompt:
+            "{german_wiktionary}"
             "<br><br><i>{french}</i>",
     },
 }
